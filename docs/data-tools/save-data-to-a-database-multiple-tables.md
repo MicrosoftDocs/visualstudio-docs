@@ -14,6 +14,7 @@ ms.assetid: 7ebe03da-ce8c-4cbc-bac0-a2fde4ae4d07
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
@@ -21,7 +22,7 @@ ms.workload:
 # Save data to a database (multiple tables)
 One of the most common scenarios in application development is to display data on a form in a Windows application, edit the data, and send the updated data back to the database. This walkthrough creates a form that displays data from two related tables and shows how to edit records and save changes back to the database. This example uses the `Customers` and `Orders` tables from the Northwind sample database.
 
- You can save data in your application back to the database by calling the `Update` method of a TableAdapter. When you drag tables from the **Data Sources** window onto a form, the code that's required to save data is automatically added.Any additional tables that are added to a form require the manual addition of this code. This walkthrough shows how to add code to save updates from more than one table.
+ You can save data in your application back to the database by calling the `Update` method of a TableAdapter. When you drag tables from the **Data Sources** window onto a form, the code that's required to save data is automatically added. Any additional tables that are added to a form require the manual addition of this code. This walkthrough shows how to add code to save updates from more than one table.
 
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -32,7 +33,7 @@ One of the most common scenarios in application development is to display data o
 
 -   Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
--   Setting the controls of the items in the [Data Sources Window](add-new-data-sources.md). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
+-   Setting the controls of the items in the [Data Sources window](add-new-data-sources.md). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
 -   Creating data-bound controls by dragging items from the **Data Sources** window onto your form.
 
@@ -43,11 +44,11 @@ One of the most common scenarios in application development is to display data o
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2.  Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
@@ -55,16 +56,16 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes running and the Northwind database is created.
 
 ## Create the Windows Forms application
  The first step is to create a **Windows Forms Application**. Assigning a name to the project is optional during this step, but we'll give it a name because we'll save the project later.
 
 #### To create the new Windows forms application project
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
 3. In the middle pane, select the **Windows Forms App** project type.
 
@@ -73,7 +74,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **UpdateMultipleTablesWalkthrough** project is created and added to **Solution Explorer**.
 
 ## Create the data source
- This step creates a data source from the Northwind database using the **Data Source Configuration Wizard**. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).
+ This step creates a data source from the Northwind database using the **Data Source Configuration Wizard**. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install sample databases](../data-tools/installing-database-systems-tools-and-samples.md).
 
 #### To create the data source
 
@@ -83,7 +84,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.
 
-4.  On the **Choose your Data Connection** screen do one of the following:
+4.  On the **Choose your Data Connection** screen, do one of the following:
 
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
@@ -95,7 +96,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 6.  On the **Save connection string to the Application Configuration file**, select **Next**.
 
-7.  On the **Choose your Database Objects**screen, expand the **Tables** node .
+7.  On the **Choose your Database Objects**screen, expand the **Tables** node.
 
 8.  Select the **Customers** and **Orders** tables, and then select **Finish**.
 
@@ -130,13 +131,13 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
  You can update the database by calling the `Update` methods of the **Customers** and **Orders** TableAdapters. By default, an event handler for the **Save** button of the<xref:System.Windows.Forms.BindingNavigator> is added to the form's code to send updates to the database. This procedure modifies the code to send updates in the correct order.This eliminates the possibility of raising referential integrity errors. The code also implements error handling by wrapping the update call in a try-catch block. You can modify the code to suit the needs of your application.
 
 > [!NOTE]
->  For clarity, this walkthrough does not use a transaction.However, if you're updating two or more related tables, include all the update logic within a transaction. A transaction is a process that assures that all related changes to a database are successful before any changes are committed. For more information, see [Transactions and Concurrency](/dotnet/framework/data/adonet/transactions-and-concurrency).
+>  For clarity, this walkthrough does not use a transaction. However, if you're updating two or more related tables, include all the update logic within a transaction. A transaction is a process that assures that all related changes to a database are successful before any changes are committed. For more information, see [Transactions and Concurrency](/dotnet/framework/data/adonet/transactions-and-concurrency).
 
 #### To add update logic to the application
 
-1.  Select the **Save** button on the <xref:System.Windows.Forms.BindingNavigator>.This opens the Code Editor to the `bindingNavigatorSaveItem_Click` event handler.
+1.  Select the **Save** button on the <xref:System.Windows.Forms.BindingNavigator>. This opens the Code Editor to the `bindingNavigatorSaveItem_Click` event handler.
 
-2.  Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState.Deleted>, <xref:System.Data.DataRowState.Added>, and <xref:System.Data.DataRowState.Modified>). Then updates are run in the correct order. The code should look like the following:
+2.  Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState.Deleted>, <xref:System.Data.DataRowState.Added>, and <xref:System.Data.DataRowState.Modified>). The updates are run in the correct order. The code should look like the following:
 
      [!code-vb[VbRaddataSaving#10](../data-tools/codesnippet/VisualBasic/save-data-to-a-database-multiple-tables_1.vb)]
      [!code-csharp[VbRaddataSaving#10](../data-tools/codesnippet/CSharp/save-data-to-a-database-multiple-tables_1.cs)]

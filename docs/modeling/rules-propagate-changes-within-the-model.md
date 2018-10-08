@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Rules Propagate Changes Within the Model
@@ -80,7 +81,7 @@ namespace ExampleNamespace
 
 -   In a custom code file, define a class and prefix it with the <xref:Microsoft.VisualStudio.Modeling.RuleOnAttribute> attribute:
 
-    ```
+    ```csharp
     [RuleOn(typeof(ExampleElement),
          // Usual value - but required, because it is not the default:
          FireTime = TimeToFire.TopLevelCommit)]
@@ -102,7 +103,7 @@ namespace ExampleNamespace
 
 -   Add your rule class to the list of types returned by `GetCustomDomainModelTypes` in your domain model:
 
-    ```
+    ```csharp
     public partial class ExampleDomainModel
      {
        protected override Type[] GetCustomDomainModelTypes()
@@ -162,7 +163,7 @@ namespace ExampleNamespace
 
  In practice, you would usually write a DeleteRule for every AddRule.
 
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;

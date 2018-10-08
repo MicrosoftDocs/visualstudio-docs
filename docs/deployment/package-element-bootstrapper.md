@@ -18,12 +18,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;Package&gt; Element (Bootstrapper)
+# &lt;Package&gt; element (bootstrapper)
 The `Package` element is the top-level XML element inside of a package file.  
   
 ## Syntax  
   
-```  
+```xml  
 <Package  
     Culture  
     Name  
@@ -136,19 +136,19 @@ The `Package` element is the top-level XML element inside of a package file.
 </Package>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `Package` element is required. It has the following attributes.  
   
 |Attribute|Description|  
 |---------------|-----------------|  
 |`Culture`|Required. Defines the culture for this package, which determines the language to be used. This attribute is a key into the `Strings` element, which lists culture-specific strings for product names and error messages during the installation.|  
 |`Name`|Required. The name of the package displayed to the developer within a tool such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This attribute is a key into the `Strings` element, which should contain a `String` element with the `Name` and `Culture` properties set to match the `Name` and `Culture` properties of `Package`.|  
-|`LicenseAgreement`|Optional. Specifies the name of the file in the distribution package which contains the End-User License Agreement (EULA).  This file can be either plain text (.txt) or Rich Text Format. (.rtf)|  
+|`LicenseAgreement`|Optional. Specifies the name of the file in the distribution package which contains the End-User License Agreement (EULA).  This file can be either plain text (*.txt*) or Rich Text Format. (*.rtf*)|  
   
 ## Example  
  The following code example shows a complete package file for redistributing the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)].  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8" ?>  
   
 <Package  
@@ -183,5 +183,5 @@ The `Package` element is the top-level XML element inside of a package file.
 </Package>  
 ```  
   
-## See Also  
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
+## See also  
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

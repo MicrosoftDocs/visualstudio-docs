@@ -17,16 +17,16 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# VSTextBuffer Object
-The text buffer object represents a stream of Unicode text, which is generally associated with a file. A <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object can be used outside the context of the core editor, as in the case of a wizard.  
+# VSTextBuffer object
+The text buffer object represents a stream of Unicode text, which is generally associated with a file. A <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object can be used outside the context of the core editor, as in, a wizard.  
   
  The following table shows the interfaces of `VSTextBuffer`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[IOleCommandTarget](http://msdn.microsoft.com/library/windows/desktop/ms683797)|Standard OLE interface. Mainly used for undo/redo handling in the buffer.|  
-|[IPersistFile](http://msdn.microsoft.com/library/windows/desktop/ms687223)|Standard OLE interface.|  
-|[IPersistStream](http://msdn.microsoft.com/library/windows/desktop/ms690091)|Standard OLE interface.|  
+|[IOleCommandTarget](/windows/desktop/api/docobj/nn-docobj-iolecommandtarget)|Standard OLE interface. Used for undo/redo handling in the buffer.|  
+|[IPersistFile](/windows/desktop/api/objidl/nn-objidl-ipersistfile)|Standard OLE interface.|  
+|[IPersistStream](/windows/desktop/api/objidl/nn-objidl-ipersiststream)|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompoundAction>|Enables the creation of compounds actions (that is, actions that are grouped in a single undo/redo unit).|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData>|Enables persistence of document data managed by the text buffer.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>|Provides basic services; used by many clients.|  
@@ -38,9 +38,9 @@ The text buffer object represents a stream of Unicode text, which is generally a
 |<xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer>|Supports connection points for events.|  
   
 ## Remarks  
- The `VSTextBuffer` is usually found by a `QueryInterface` call on `IVsTextBuffer`. For more information, see [Text Buffer](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md).  
+ The `VSTextBuffer` is usually found by a `QueryInterface` call on `IVsTextBuffer`. For more information, see [Text buffer](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md).  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   
- [Figures Edit](http://msdn.microsoft.com/en-us/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)
+ [Figures edit](https://www.microsoft.com/download/details.aspx?id=55984)

@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
@@ -52,7 +53,7 @@ Create a new file that contains a partial declaration of the command set class.
 
 3.  In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:
 
-    ```
+    ```csharp
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.Design;

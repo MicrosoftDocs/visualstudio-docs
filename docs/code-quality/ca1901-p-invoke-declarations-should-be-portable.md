@@ -1,6 +1,7 @@
 ---
 title: "CA1901: P-Invoke declarations should be portable"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,17 +28,17 @@ ms.workload:
 ## Cause
  This rule evaluates the size of each parameter and the return value of a P/Invoke and verifies that their size, when marshaled to unmanaged code on 32-bit and 64-bit platforms, is correct. The most common violation of this rule is to pass a fixed-sized integer where a platform-dependent, pointer-sized variable is required.
 
-## Rule Description
+## Rule description
  Either of the following scenarios violates this rule occurs:
 
--   The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
+- The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
 
--   The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
+- The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
 
-## How to Fix Violations
+## How to fix violations
  You can fix this violation by using `IntPtr` or `UIntPtr` to represent handles instead of `Int32` or `UInt32`.
 
-## When to Suppress Warnings
+## When to suppress warnings
  You should not suppress this warning.
 
 ## Example
@@ -70,5 +71,5 @@ internal class NativeMethods{
 }
 ```
 
-## See Also
+## See also
  [Portability Warnings](../code-quality/portability-warnings.md)

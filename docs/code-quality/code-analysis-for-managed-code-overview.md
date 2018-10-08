@@ -1,6 +1,7 @@
 ---
 title: Code analysis for managed code in Visual Studio
 ms.date: 03/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
@@ -21,6 +22,9 @@ Visual Studio 2017 analyzes managed code in two ways: with legacy *FxCop* static
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.
 
 The analysis tool represents the checks it performs during an analysis as warning messages. Warning messages identify any relevant programming and design issues and, when it is possible, supply information about how to fix the problem.
+
+> [!NOTE]
+> Static code analysis is not supported for .NET Core and .NET Standard projects in Visual Studio. If you run code analysis on a .NET Core or .NET Standard project as part of msbuild, you'll see an error similar to **error : CA0055 : Could not identify platform for \<your.dll>**. To analyze code in .NET Core or .NET Standard projects, use [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md) instead.
 
 ## IDE (integrated development environment) integration
 
@@ -61,11 +65,11 @@ As an organization, you might want to require that all check-ins satisfy certain
 
 - Code analysis is run as part of the most recent build.
 
-You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Team Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md).
+You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md).
 
 ## Team build integration
 
-You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Build and release (VSTS)](/vsts/build-release/index).
+You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts).
 
 ## See also
 

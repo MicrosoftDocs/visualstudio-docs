@@ -1,6 +1,7 @@
 ---
 title: Shortcut keys (Help Viewer)
 ms.date: 11/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer
 ms.topic: reference
 helpviewer_keywords:
@@ -54,7 +55,7 @@ You can navigate in the **Microsoft Help Viewer** by using the shortcut keys in 
 |Topic|**Ctrl**+**Tab**|Switch among tabs from left to right.|
 |Topic|**Ctrl**+**Shift**+**Tab**|Switch among tabs from right to left.|
 |Topic|**Ctrl**+**W**|Close the current tab.|
-|Topic|**Ctrl**+***Number***|Switch to a specific tab where ***Number*** is between 1 and 9 and indicates which tab in sequence.|
+|Topic|**Ctrl**+**_Number_**|Switch to a specific tab where **_Number_** is between 1 and 9 and indicates which tab in sequence.|
 |Topic|**Ctrl**+**Alt**+**F4**|Close other content tabs.|
 |Topic|**Ctrl**+**Shift**+**Plus Sign**|Increase zoom by 10%.|
 |Topic|**Ctrl**+**Minus Sign**|Decrease zoom by 10%.|

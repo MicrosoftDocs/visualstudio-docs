@@ -1,8 +1,9 @@
 ---
 title: "Quickstart: Create your first console app in Visual Studio with Visual Basic"
-description: "Learn how to create a simple console app in Visual Studio with Visual Basic, step-by-step."
+description: "Learn how to create a simple Hello World console app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: ""
 ms.date: 12/10/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: quickstart
@@ -19,7 +20,7 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that runs on the console.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 
@@ -63,7 +64,8 @@ Let's add some code to pause the application and then ask for user input.
    Console.Write("Press any key to continue...")
    Console.ReadKey(true)
    ```
-   This pauses the program until you press a key.
+
+    This pauses the program until you press a key.
 
 2. On the menu bar, select **Build** > **Build Solution**.
 

@@ -1,6 +1,7 @@
 ---
 title: "How to: Specify build events (C#)"
-ms.technology:$1ms.date: 11/04/2016
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -74,7 +75,7 @@ The following procedure shows how to set the minimum operating system version in
 
 3.  In *Program.cs*, add the following line to the other `using` statements at the top of the file:
 
-    ```
+    ```csharp
     using System.Xml;
     ```
 
@@ -142,7 +143,7 @@ The following procedure shows how to set the minimum operating system version in
 
 1.  Create a Windows application for the project to be published. From the **File** menu, point to **New**, and then click **Project**.
 
-2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows Classic Desktop**, and then click the **Windows Forms App** template. Name the project `CSWinApp`.
+2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows Desktop**, and then click the **Windows Forms App** template. Name the project `CSWinApp`.
 
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
@@ -154,7 +155,7 @@ The following procedure shows how to set the minimum operating system version in
 
      Search in the file for the `<osVersionInfo>` element. For example, the version might be:
 
-    ```
+    ```xml
     <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
     ```
 
@@ -174,7 +175,7 @@ The following procedure shows how to set the minimum operating system version in
 
      The version should now read:
 
-    ```
+    ```xml
     <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
     ```
 

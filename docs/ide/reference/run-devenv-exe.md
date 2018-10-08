@@ -1,6 +1,7 @@
 ---
 title: -Run (devenv.exe)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -22,7 +23,7 @@ Compiles and runs the specified project or solution.
 
 ## Syntax
 
-```
+```cmd
 devenv {/run|/r} {SolutionName|ProjectName}
 ```
 
@@ -45,7 +46,7 @@ devenv {/run|/r} {SolutionName|ProjectName}
 ## Example
  This example runs the solution `MySolution` using the active deployment configuration.
 
-```
+```cmd
 devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln"
 ```
 

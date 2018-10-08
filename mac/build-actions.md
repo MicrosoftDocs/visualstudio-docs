@@ -1,15 +1,16 @@
 ---
 title: "Build Actions"
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
+description: "This article describes the various build actions that can be used for C# projects"
+author: conceptdev
+ms.author: crdun
+ms.date: 05/06/2018
 ms.assetid: 5399BCB1-E317-4C7B-87B1-C531E985DE6E
 ---
 # Build actions
 
 All files in a Visual Studio for Mac project have a build action which controls what happens to the file during a build. These can be set by right-clicking on any file and browsing to **Build Action**, as illustrated below:
 
-![](media/projects-and-solutions-image1.png)
+![Selecting Compile build action fom solution explorer](media/projects-and-solutions-image1.png)
 
 Some of the common build actions for C# projects are:
 

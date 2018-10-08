@@ -2,7 +2,7 @@
 title: "Visual Studio administrator guide"
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.custom: ""
-ms.date: 05/15/2017
+ms.date: 05/29/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -21,9 +21,9 @@ ms.workload:
 
 In enterprise environments, it's common for system administrators to deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment, allowing system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
 
-## Deploying Visual Studio 2017 in an enterprise environment
+## Deploy Visual Studio 2017 in an enterprise environment
 
-You can deploy Visual Studio 2017 to client workstations as long as each target computer meets the [minimum installation requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
+You can deploy Visual Studio 2017 to client workstations as long as each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
 
 1. [Create a network share that contains the Visual Studio product files](create-a-network-installation-of-visual-studio.md) to a network location.
 
@@ -44,23 +44,28 @@ You can deploy Visual Studio 2017 to client workstations as long as each target 
 > [!IMPORTANT]
 > Note that installations from a network share will "remember" the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
 
-## Visual Studio tools
+## Use Visual Studio tools
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md) on client machines.
 
 > [!TIP]
 > In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
 
-## Get support
+## Specify customer feedback settings
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+By default, the Visual Studio installation enables customer feedback. When you enable Group Policy, you can configure Visual Studio to disable customer feedback on individual computers. To do so, set a registry-based policy on the following key:
 
-Here are a few more support options:
+**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**
 
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+Entry = **OptIn**
+
+Value = (DWORD)
+* **0** is opted out
+* **1** is opted in
+
+For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](../ide/visual-studio-experience-improvement-program.md) page.
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

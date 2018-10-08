@@ -1,6 +1,7 @@
 ---
 title: "How to: Change Between Member Notation and Association Notation (Class Designer)"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +16,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Change between member notation and association notation (Class Designer)
+# How to: Change between member notation and association notation in Class Designer
 
 In **Class Designer**, you can change the way the class diagram represents an association relationship between two types from member notation to association notation and vice versa. Members displayed as association lines often provide a useful visualization of how types are related.
 
@@ -35,9 +36,7 @@ In **Class Designer**, you can change the way the class diagram represents an as
 
 ## To change association notation to member notation
 
--   On the class diagram, right-click the association line, and choose **Show as Property** or **Show as Field** as appropriate.
-
-     The association line disappears, and the property displays in the appropriate compartment within its type shape on the diagram.
+On the class diagram, right-click the association line, and choose **Show as Property** or **Show as Field** as appropriate. The association line disappears, and the property displays in the appropriate compartment within its type shape on the diagram.
 
 ## See also
 

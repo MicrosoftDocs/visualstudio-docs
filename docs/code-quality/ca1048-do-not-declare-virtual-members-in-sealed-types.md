@@ -1,6 +1,7 @@
 ---
 title: "CA1048: Do not declare virtual members in sealed types"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,15 +28,15 @@ ms.workload:
 ## Cause
  A public type is sealed and declares a method that is both `virtual` (`Overridable` in Visual Basic) and not final. This rule does not report violations for delegate types, which must follow this pattern.
 
-## Rule Description
+## Rule description
  Types declare methods as virtual so that inheriting types can override the implementation of the virtual method. By definition, you cannot inherit from a sealed type, making a virtual method on a sealed type meaningless.
 
  The Visual Basic and C# compilers do not allow types to violate this rule.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, make the method non-virtual or make the type inheritable.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule. Leaving the type in its current state can cause maintenance issues and does not provide any benefits.
 
 ## Example

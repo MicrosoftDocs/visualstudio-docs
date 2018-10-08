@@ -31,7 +31,7 @@ Defines by its presence whether the graphics log file is saved to the user's tem
 ## Example  
  This example shows how to save the graphics log file to an absolute path on the host machine.  
   
-```  
+```cpp
 // Define DONT_SAVE_VSGLOG_TO_TEMP and VSG_DEFAULT_RUN_FILENAME before including vsgcapture.h  
 #define DONT_SAVE_VSGLOG_TO_TEMP  
 #define VSG_DEFAULT_RUN_FILENAME L"C:\\Graphics Diagnostics Captures\\default.vsglog"  

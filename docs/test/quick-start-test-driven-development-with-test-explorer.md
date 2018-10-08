@@ -1,17 +1,18 @@
 ---
 title: "Test Driven Development with Test Explorer in Visual Studio"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Quickstart: Test Driven Development with Test Explorer
+# Quickstart: Test driven development with Test Explorer
 
-We recommend that you create unit tests to help keep your code working correctly through many incremental steps of development. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are   specialized to testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. Adapters are available for the most commonly-used frameworks, and you can write your own adapters for other frameworks.
+We recommend that you create unit tests to help keep your code working correctly through many incremental steps of development. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are specialized to testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. Adapters are available for the most commonly-used frameworks, and you can write your own adapters for other frameworks.
 
  Test Explorer supersedes the unit test windows found in earlier editions of Visual Studio. Its benefits include:
 
@@ -21,10 +22,10 @@ We recommend that you create unit tests to help keep your code working correctly
 
 -   See in one window all the information that you need.
 
-## Using Test Explorer
- ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png "UnitTestExplorer(beta)")
+## Use Test Explorer
+ ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png)
 
-### To Run Unit Tests by using Test Explorer
+### To run unit tests by using Test Explorer
 
 1.  Create unit tests that use the test frameworks of your choice.
 
@@ -32,15 +33,15 @@ We recommend that you create unit tests to help keep your code working correctly
 
     1.  Create a test project.
 
-         In the **New Project** dialog box, expand **Visual Basic**, **Visual C#**, or **Visual C++**, and then choose **Test**.
+         In the **New Project** dialog box, expand **Visual Basic** or **Visual C#** or **Visual C++**, and then choose **Test**.
 
          Select **Unit Test Project**.
 
     2.  Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.
 
-2.  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+2.  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
-3.  On the menu bar, choose **Test**, **Run Unit Tests**, **All Tests**.
+3.  On the menu bar, choose **Test** > **Run Unit Tests** > **All Tests**.
 
      The solution builds and the tests run.
 
@@ -59,21 +60,21 @@ We recommend that you create unit tests to help keep your code working correctly
 
 
 > [!NOTE]
-> If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Using Different Test Frameworks with Test Explorer](#frameworks).
+> If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 
-##  <a name="walkthrough"></a> Walkthrough: Using Unit Tests to Develop a Method
- This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Using Different Test Frameworks](#frameworks).
+##  Walkthrough: Using unit tests to develop a method
+ This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
-#### Creating the Test and Method
+### Create the test and method
 
 1.  Create a Visual C# Class Library project. This project will contain the code that we want to deliver. In this example, it is named `MyMath`.
 
 2.  Create a Test project.
 
-    -   In the **New Project** dialog, choose **Visual C#**, **Test** and then choose **Unit Test Project**.
+    -   In the **New Project** dialog, choose **Visual C#** > **Test** and then choose **Unit Test Project**.
 
-         ![New code and test projects](../test/media/unittestexplorerwalk1.png "UnitTestExplorerWalk1")
+         ![New code and test projects](../test/media/unittestexplorerwalk1.png)
 
 3.  Write a basic test method. Verify the result obtained for a specific input:
 
@@ -97,15 +98,15 @@ We recommend that you create unit tests to help keep your code working correctly
 
 4.  Generate the method from the test.
 
-    1.  Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate**, **New Type**.
+    1.  Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate** > **New Type**.
 
     2.  In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.
 
-    3.  Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate**, **Method Stub**.
+    3.  Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate** > **Method Stub**.
 
 5.  Run the unit test.
 
-    1.  On the **Test** menu, choose **Run Unit Tests**, **All Tests**.
+    1.  On the **Test** menu, choose **Run Unit Tests** > **All Tests**.
 
          The solution builds and runs.
 
@@ -119,13 +120,13 @@ We recommend that you create unit tests to help keep your code working correctly
 
 7.  Select the items under **Stack Trace** to see where the test failed.
 
- ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png "UnitTestExplorerWalkthrough2")
+ ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png)
 
  At this point, you have created a test and a stub that you will modify so that the test passes.
 
 #### After every change, make all the tests pass
 
-1.  In `MyMath\Rooter.cs`, improve the code of `SquareRoot`:
+1.  In *MyMath\Rooter.cs*, improve the code of `SquareRoot`:
 
     ```csharp
     public double SquareRoot(double input)
@@ -140,7 +141,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
      The test passes.
 
-     ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png "UnitTestExplorerWalkthrough3")
+     ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png)
 
 #### Add tests to extend the range of inputs
 
@@ -183,7 +184,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
 3.  Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:
 
-    ```
+    ```csharp
     public double SquareRoot(double input)
     {
       double result = input;
@@ -282,4 +283,4 @@ We recommend that you create unit tests to help keep your code working correctly
 
      All the tests still pass.
 
-     ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png "UnitTestExplorerWalkthrough4")
+     ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png)

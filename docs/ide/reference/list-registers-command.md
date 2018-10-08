@@ -1,6 +1,7 @@
 ---
 title: List Registers Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -21,7 +22,7 @@ Displays the value of the selected registers and lets you modify the list of reg
 
 ## Syntax
 
-```
+```cmd
 Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
 [/Watch [{register|registerGroup}...]]
 [/Unwatch [{register|registerGroup}...]]
@@ -56,7 +57,7 @@ Debug.ListRegisters [/Display [{register|registerGroup}...]] [/List]
 ## Example
  This example uses the `Debug.ListRegisters` alias `r` to display the values of the register group `Flags`.
 
-```
+```cmd
 r /Display Flags
 ```
 

@@ -16,25 +16,25 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Sample Implementation of Expression Evaluation
+# Sample implementation of expression evaluation
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+>  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- For a **Watch** window expression, Visual Studio calls [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) to produce an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object. `IDebugExpressionContext2::ParseText` instantiates an expression evaluator (EE) and calls [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) to obtain an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) object.  
+ For a **Watch** window expression, Visual Studio calls [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) to produce an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object. `IDebugExpressionContext2::ParseText` instantiates an expression evaluator (EE) and calls [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) to get an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) object.  
   
- This implementation of `IDebugExpressionEvaluator::Parse` performs the following tasks:  
+ The `IDebugExpressionEvaluator::Parse` performs the following tasks:  
   
 1.  [C++ only] Parses the expression to look for errors.  
   
-2.  Instantiates a class (called `CParsedExpression` in this example) that implements the `IDebugParsedExpression` interface and stores in the class the expression to be parsed.  
+2.  Instantiates a class (called `CParsedExpression` in this example) that runs the `IDebugParsedExpression` interface and stores in the class the expression to be parsed.  
   
 3.  Returns the `IDebugParsedExpression` interface from the `CParsedExpression` object.  
   
 > [!NOTE]
 >  In the examples that follow and in the MyCEE sample, the expression evaluator does not separate the parsing from the evaluation.  
   
-## Managed Code  
- This is an implementation of `IDebugExpressionEvaluator::Parse` in managed code. Note that this version of the method defers the parsing to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) as the code for parsing also evaluates at the same time (see [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
+## Managed code  
+ The following code shows an implementation of `IDebugExpressionEvaluator::Parse` in managed code. This version of the method defers the parsing to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) as the code for parsing also evaluates at the same time (see [Evaluate a Watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
   
 ```csharp  
 namespace EEMC  
@@ -60,8 +60,8 @@ namespace EEMC
 }  
 ```  
   
-## Unmanaged Code  
- This is an implementation of `IDebugExpressionEvaluator::Parse` in unmanaged code. This method calls a helper function, `Parse`, to parse the expression and check for errors but this method ignores the resulting value. The formal evaluation is deferred to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) where the expression is parsed while it is evaluated (see [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
+## Unmanaged code  
+The following code is an implementation of `IDebugExpressionEvaluator::Parse` in unmanaged code. This method calls a helper function, `Parse`, to parse the expression and check for errors, but this method ignores the resulting value. The formal evaluation is deferred to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) where the expression is parsed while it is evaluated (see [Evaluate a Watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
   
 ```cpp  
 STDMETHODIMP CExpressionEvaluator::Parse(  
@@ -104,6 +104,6 @@ STDMETHODIMP CExpressionEvaluator::Parse(
 }  
 ```  
   
-## See Also  
- [Evaluating a Watch Window Expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md)   
- [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)
+## See also  
+ [Evaluate a Watch window expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md)   
+ [Evaluate a Watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)

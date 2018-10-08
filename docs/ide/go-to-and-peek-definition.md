@@ -1,6 +1,7 @@
 ---
 title: Viewing type definitions in Visual Studio
 ms.date: 01/10/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -55,7 +56,7 @@ When you run the **Go To Definition** or **Peek Definition** command for an item
 
 For example, if you run the **Go To Definition** command for <xref:System.Console>, metadata for <xref:System.Console> appears in the code editor as C# source code. The code resembles its declaration, but does not show an implementation.
 
-![Metadata as Source](../ide/media/metadatasource.png "MetadataSource")
+![Metadata as Source](../ide/media/metadatasource.png)
 
 > [!NOTE]
 > When you try to run the **Go To Definition** or **Peek Definition** command for types or members that are marked as internal, Visual Studio does not display their metadata as source code, regardless of whether the referencing assembly is a friend or not.

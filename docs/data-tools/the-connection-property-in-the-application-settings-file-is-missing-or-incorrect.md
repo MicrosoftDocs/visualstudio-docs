@@ -6,17 +6,18 @@ ms.assetid: 77724510-ff59-4d43-b933-a0434e1ac597
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
 # The connection property in the Application Settings file is missing or incorrect
 
-The connection property in the Application Settings file is missing or incorrect. The connection string from the .dbml file has been used in its place.
+The connection property in the Application Settings file is missing or incorrect. The connection string from the *.dbml* file has been used in its place.
 
-The .dbml file contains a reference to a connection string in the application settings file that cannot be found. This message is informational; the connection string setting will be created when **OK** is clicked.
+The *.dbml* file contains a reference to a connection string in the application settings file that cannot be found. This message is informational; the connection string setting will be created when **OK** is clicked.
 
-To respond to this message, select **OK**. The connection information that is contained in the .dbml file is added to application settings.
+To respond to this message, select **OK**. The connection information that is contained in the *.dbml* file is added to application settings.
 
 ## See also
 

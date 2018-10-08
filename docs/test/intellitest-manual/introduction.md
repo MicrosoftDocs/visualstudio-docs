@@ -1,6 +1,7 @@
 ---
 title: "Overview | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
@@ -137,7 +138,7 @@ This section describes the limitations of IntelliTest:
 * [Platform](#platform)
 * [Language](#language)
 * [Symbolic reasoning](#symbolic-reasoning)
-* [Stack traces](#incorrect-stack)
+* [Stack traces](#incorrect-stack-traces)
 
 ### Nondeterminism
 

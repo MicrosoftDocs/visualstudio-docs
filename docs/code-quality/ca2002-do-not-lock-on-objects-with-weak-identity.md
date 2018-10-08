@@ -1,6 +1,7 @@
 ---
 title: "CA2002: Do not lock on objects with weak identity"
 ms.date: 01/31/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -55,11 +56,11 @@ The following types have a weak identity and are flagged by the rule:
 
 - <xref:System.Threading.Thread>
 
-## How to Fix Violations
+## How to fix violations
 
 To fix a violation of this rule, use an object from a type that is not in the list in the Description section.
 
-## When to Suppress Warnings
+## When to suppress warnings
 
 Do not suppress a warning from this rule.
 
@@ -76,7 +77,7 @@ The following example shows some object locks that violate the rule.
 
 ## See also
 
-<xref:System.Threading.Monitor>
-<xref:System.AppDomain>
-[lock Statement (C#)](/dotnet/csharp/language-reference/keywords/lock-statement)
-[SyncLock Statement (Visual Basic)](/dotnet/visual-basic/language-reference/statements/synclock-statement)
+- <xref:System.Threading.Monitor>
+- <xref:System.AppDomain>
+- [lock Statement (C#)](/dotnet/csharp/language-reference/keywords/lock-statement)
+- [SyncLock Statement (Visual Basic)](/dotnet/visual-basic/language-reference/statements/synclock-statement)

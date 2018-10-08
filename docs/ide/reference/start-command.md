@@ -1,6 +1,7 @@
 ---
 title: Start Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Begins debugging the startup project.
 
 ## Syntax
 
-```
+```cmd
 Debug.Start [address]
 ```
 
@@ -35,7 +36,7 @@ Debug.Start [address]
 ## Example
  This example starts the debugger and ignores any exceptions that occur.
 
-```
+```cmd
 >Debug.Start
 ```
 

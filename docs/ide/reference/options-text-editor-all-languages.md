@@ -1,6 +1,7 @@
 ---
 title: Options, Text Editor, All Languages
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -64,7 +65,7 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
 
  When selected, a return-arrow indicator is displayed where a long line wraps onto a second line.
 
- ![LineBreakSymbol screenshot](../../ide/reference/media/linebreak.gif "linebreak")
+ ![LineBreakSymbol screenshot](../../ide/reference/media/linebreak.gif)
 
  Clear this option if you prefer not to display these indicators.
 
@@ -97,7 +98,7 @@ This setting has no effect on Copy or Cut when a line is not blank. If nothing i
 
  Enable single-click URL navigation
 
- When selected, the mouse cursor changes to a pointing hand as it passes over a URL in the editor. You can click the URL to display the indicated page in your Web browser.
+ When selected, the mouse cursor changes to a pointing hand as it passes over a URL in the editor. You can click the URL to display the indicated page in your web browser.
 
  Navigation bar
 

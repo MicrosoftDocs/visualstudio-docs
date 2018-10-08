@@ -23,6 +23,9 @@ manager: "ghogen"
 
 JavaScript is a first-class language in Visual Studio. You can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE. You can write JavaScript code for many application types and services.
 
+> [!NOTE]
+> We have joined the community-wide effort to make [MDN web docs](https://developer.mozilla.org/en-US/) the web’s one-stop, premiere development resource, by redirecting all (500+ pages) of Microsoft’s JavaScript API reference from docs.microsoft.com to their MDN counterparts. For details, see this [announcement](https://blogs.windows.com/msedgedev/2018/06/26/chakra-docs-mdn-web-docs/).
+
 ## <a name="ES6"></a> Support for ECMAScript 2015 (ES6) and beyond
 
 Visual Studio now supports syntax for ECMAScript language updates such as ECMAScript 2015/2016.
@@ -177,7 +180,7 @@ A few of them are listed below, but for a full set of all options available, [se
 Given a project with the following setup:
 
 - project's source files are in `wwwroot/js`
-- project's lib files are in `wwwrrot/lib`
+- project's lib files are in `wwwroot/lib`
 - `bootstrap`, `jquery`, `jquery-validation`, and `jquery-validation-unobtrusive` are listed in the `bower.json`
 - `kendo-ui` has been manually added to the lib folder
 
@@ -246,7 +249,7 @@ VSDoc is no longer supported in favor of [JSDoc](http://usejsdoc.org/about-getti
 
 ### `.intellisense.js` extensions
 
-Previously, you could author [IntelliSense extensions](https://msdn.microsoft.com/en-us/library/hh874692.aspx) which would allow you to add custom completion results for third-party libraries.
+Previously, you could author [IntelliSense extensions](https://msdn.microsoft.com/library/hh874692.aspx) which would allow you to add custom completion results for third-party libraries.
 These extensions were fairly difficult to write and installing and referencing them was cumbersome, so going forward the new language service won't support these files.
 As an easier alternative, you can write a TypeScript definition file to provide the same IntelliSense benefits as the old `.intellisense.js` extensions.
 You can learn more about declaration (`.d.ts`) file authoring [here](http://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).

@@ -1,6 +1,7 @@
 ---
 title: "How to: Create and edit configurations"
-ms.technology:$1ms.date: 06/21/2017
+ms.date: 06/21/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:

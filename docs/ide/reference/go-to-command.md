@@ -1,6 +1,7 @@
 ---
 title: Go To Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Moves the cursor to the specified line.
 
 ## Syntax
 
-```
+```cmd
 Edit.GoTo [linenumber]
 ```
 
@@ -38,7 +39,7 @@ Edit.GoTo [linenumber]
 
 ## Example
 
-```
+```cmd
 >Edit.GoTo 125
 ```
 

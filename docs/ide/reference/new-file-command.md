@@ -1,6 +1,7 @@
 ---
 title: New File Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Creates a new file and opens it. The file appears under the Miscellaneous Files 
 
 ## Syntax
 
-```
+```cmd
 File.NewFile [filename] [/t:templatename] [/editor:editorname]
 ```
 
@@ -38,7 +39,7 @@ File.NewFile [filename] [/t:templatename] [/editor:editorname]
 
  For example, to create a new [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] source file, you would enter the following for the /t:`templatename` argument.
 
-```
+```cmd
 /t:"Visual C++\C++ File (.cpp)"
 ```
 
@@ -52,14 +53,14 @@ File.NewFile [filename] [/t:templatename] [/editor:editorname]
 
  For example, to open a file in the source code editor, you would enter the following for the /e:`editorname` argument.
 
-```
+```cmd
 /e:"Source Code (text) Editor"
 ```
 
 ## Example
- This example creates a new Web page "test1.htm" and opens it in the source code editor.
+ This example creates a new web page "test1.htm" and opens it in the source code editor.
 
-```
+```cmd
 >File.NewFile test1 /t:"General\HTML Page" /e:"Source Code (text) Editor"
 ```
 

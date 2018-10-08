@@ -15,19 +15,20 @@ ms.assetid: 4a919cd8-541c-40ee-be3b-352fabc56140
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Analyze Load Test Results in the Graphs View of the Load Test Analyzer
+# Analyze load test results in the Graphs view of the Load Test Analyzer
 
 The results of a load test are displayed as data in several different panes.
 
-To display test results as graphs, choose **Graphs** on the load test toolbar. Each individual graph is displayed in a panel with the graph name displayed at the top in a drop-down list. To display a different graph in the panel, choose a different graph name from the list.
+To display test results as graphs, choose **Graphs** on the **load test** toolbar. Each individual graph is displayed in a panel with the graph name displayed at the top in a drop-down list. To display a different graph in the panel, choose a different graph name from the list.
 
-Up to four graph panels can be displayed at a time. You can switch between different panel layouts by using the panel layout toolbar button.
+Up to four graph panels can be displayed at a time. You can switch between different panel layouts by using the **panel layout** toolbar button.
 
-Several built-in graphs are provided. You can use the built-in graphs as is or you can customize them. Additionally, you can create your own graphs. For more information, see [How to: Add and Delete Counters on Graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md) and [How to: Create Custom Graphs](../test/how-to-create-custom-graphs-in-load-test-results.md).
+Several built-in graphs are provided. You can use the built-in graphs as is or you can customize them. Additionally, you can create your own graphs. For more information, see [How to: Add and delete counters on graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md) and [How to: Create custom graphs](../test/how-to-create-custom-graphs-in-load-test-results.md).
 
-## Built-in Graphs
+## Built-in graphs
 
 The following table lists the built-in graphs that are available to analyze load test results.
 
@@ -35,7 +36,7 @@ The following table lists the built-in graphs that are available to analyze load
 |----------------|-----------------|
 |Key Indicators|Counters that describe basic aspects of test performance such as user load, throughput, and response time.|
 |Test Response Time|Data about the amount of time tests take to run.|
-|Page Response Time|The average response time for Web pages that are accessed during the load test.|
+|Page Response Time|The average response time for web pages that are accessed during the load test.|
 |System under Test|Information about the computers on which the application being tested runs. This includes data about memory use, the processor, the physical disk, processes.<br /><br /> By default, Only the Available Mbytes and Processor Time counters are collected.|
 |Controller and Agents|Information about the computers on which the load tests run. This includes data about memory use, the processor, the physical disk, processes.<br /><br /> By default Only the Available Mbytes and Processor Time counters are collected.|
 |Transaction Response Time|The average response time for transactions that occur during the load test.|
@@ -45,11 +46,11 @@ The following table lists the built-in graphs that are available to analyze load
 > [!NOTE]
 > Only response time performance counters can be added to an automatically generated response time graph.
 
- The counter information displays both in the graph and in the legend underneath the graphs. You can also zoom in on a section of the graph. For more information, see [How to: Zoom in on a Region of the Graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md).
+ The counter information displays both in the graph and in the legend underneath the graphs. You can also zoom in on a section of the graph. For more information, see [How to: Zoom in on a region of the graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md).
 
-## Counters Displayed in Graphs
+## Counters displayed in graphs
 
- Graphs display *counters*. Counters refer to the data gathered during a load test, such as tests per second or average test time. For more information about counters, see [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).
+ Graphs display *counters*. Counters refer to the data gathered during a load test, such as tests per second or average test time. For more information about counters, see [Specifying the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).
 
  The legend for the counters that are displayed in the graphs shows several columns of useful data about the load test run. To turn off the display of any data in the graph, clear the check box in the row in the legend.
 
@@ -71,24 +72,24 @@ The following table lists the built-in graphs that are available to analyze load
 
 |Tasks|Associated topics|
 |-----------|-----------------------|
-|**Customize the graphs by using the legend:** The Graphs view legend displays information for each performance counter that is associated with a graph. You can use the legend to remove performance counters, highlight performance counters in the graph, and customize the plotting options.|-   [Using the Graphs View Legend to Analyze Load Tests](../test/use-the-graphs-view-legend-to-analyze-load-tests.md)|
-|**Display counters on graphs:** You can add different kinds of data to a load test results graph by placing counters on the graph.|-   [How to: Add and Delete Counters on Graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)|
-|**Zoom in on graphs:** After a load test has finished, you can use zoom bars to zoom in and scroll to a region of the graph. By zooming in, you can examine the data that was generated during a load test run in finer detail.|-   [How to: Zoom in on a Region of the Graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md)|
+|**Customize the graphs by using the legend:** The Graphs view legend displays information for each performance counter that is associated with a graph. You can use the legend to remove performance counters, highlight performance counters in the graph, and customize the plotting options.|-   [Using the Graphs view legend to analyze load tests](../test/use-the-graphs-view-legend-to-analyze-load-tests.md)|
+|**Display counters on graphs:** You can add different kinds of data to a load test results graph by placing counters on the graph.|-   [How to: Add and delete counters on graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)|
+|**Zoom in on graphs:** After a load test has finished, you can use zoom bars to zoom in and scroll to a region of the graph. By zooming in, you can examine the data that was generated during a load test run in finer detail.|-   [How to: Zoom in on a region of the graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md)|
 |**Tile graphs:** You can arrange load test results graphs in any of several patterns. You can tile up to four graphs.||
-|**Modify the appearance of performance counter plots in the graphs:** You can change the plotting lines options for performance counters in the graphs. This includes color and line style. Additionally, you can specify whether you want to automatically or manually specify the range that you want to use for plotting the performance counter.|-   [How to: Specify Plot Options for Graphing Counters](../test/how-to-specify-plot-options-for-graphing-counters.md)|
-|**Create custom graphs:** You can design graphs that display specific information about load test results. You design a custom graph by specifying the load test counters that the graph will display.|-   [How to: Create Custom Graphs](../test/how-to-create-custom-graphs-in-load-test-results.md)|
-|**Export the performance counters data in the graph:** You can export the graph data to Microsoft Excel by using the Export Graph Data to Excel button on the Load Test Analyzer toolbar while you are in the Graphs view.||
+|**Modify the appearance of performance counter plots in the graphs:** You can change the plotting lines options for performance counters in the graphs. This includes color and line style. Additionally, you can specify whether you want to automatically or manually specify the range that you want to use for plotting the performance counter.|-   [How to: Specify plot options for graphing counters](../test/how-to-specify-plot-options-for-graphing-counters.md)|
+|**Create custom graphs:** You can design graphs that display specific information about load test results. You design a custom graph by specifying the load test counters that the graph will display.|-   [How to: Create custom graphs](../test/how-to-create-custom-graphs-in-load-test-results.md)|
+|**Export the performance counters data in the graph:** You can export the graph data to Microsoft Excel by using the **Export Graph Data to Excel** button on the **Load Test Analyzer** toolbar while you are in the **Graphs** view.||
 
-## Related Tasks
+## Related tasks
 
- [Analyze Load Test Results and Errors in the Tables View](../test/analyze-load-test-results-and-errors-in-the-tables-view.md)
+ [Analyze load test results and errors in the tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md)
 
- [How to: Access Load Test Results for Analysis](../test/how-to-access-load-test-results-for-analysis.md)
+ [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md)
 
- [Analyze Load Test Results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
+ [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
 
 ## See also
 
-- [How to: Add and Delete Counters on Graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)
-- [How to: Create Custom Graphs](../test/how-to-create-custom-graphs-in-load-test-results.md)
-- [How to: Zoom in on a Region of the Graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md)
+- [How to: Add and delete counters on graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)
+- [How to: Create custom graphs](../test/how-to-create-custom-graphs-in-load-test-results.md)
+- [How to: Zoom in on a region of the graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md)

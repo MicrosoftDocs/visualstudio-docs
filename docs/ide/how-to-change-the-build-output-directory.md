@@ -1,6 +1,7 @@
 ---
 title: "How to: Change the build output directory"
-ms.technology:$1ms.date: 11/04/2016
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -21,7 +22,7 @@ You can specify the location of output on a per-configuration basis (for debug, 
 
 ## Change the build output directory
 
-1.  On the menu bar, choose **Project** > **\<Appname> Properties**. You can also right-click the project node in the **Solution Explorer** and select **Properties**.
+1.  On the menu bar, choose **Project** > **\<Appname> Properties**. You can also right-click the project node in **Solution Explorer** and select **Properties**.
 
 2.  If you have a Visual Basic project, select the **Compile** tab. If you have a C# project, select the **Build** tab. If you have a C++ project or a JavaScript project, select the **General** tab.
 

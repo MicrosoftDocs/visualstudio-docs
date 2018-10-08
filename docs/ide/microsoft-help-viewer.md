@@ -1,6 +1,7 @@
 ---
 title: Visual Studio offline help documentation
 ms.date: 11/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer
 ms.topic: conceptual
 f1_keywords:
@@ -23,19 +24,24 @@ ms.workload:
 ---
 # Microsoft Help Viewer
 
-You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer, including Visual Studio, the .NET Framework, language reference, SQL Server, and Windows Development. Help Viewer enables you to:
+You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer. These products include Visual Studio, the .NET Framework, language reference, SQL Server, and Windows Development. Help Viewer enables you to:
 
--   Find and download sets of content, which are also referred to as books.
+- Download sets of content, which are also referred to as books. This can be useful if you need to work "offline" and still have access to documentation.
 
--   Find topics by title by browsing and searching the table of contents.
+- Find topics by title by browsing and searching the table of contents.
 
--   Look up subjects in the index.
+- Look up subjects in the index.
 
--   Find information by using full-text search.
+- Find information by using full-text search.
 
--   View, bookmark, and print topics.
+- View, bookmark, and print topics.
 
 To install Help Viewer, see [Microsoft Help Viewer installation](../ide/microsoft-help-viewer-installation.md). To start reading help topics in the Help Viewer rather than online, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference** > **Launch in Help Viewer**.
+
+> [!TIP]
+> Another way to download content locally so you can view it when you don't have an internet connection is to download a PDF version of it. Many documentation sets on docs.microsoft.com include a link at the bottom of the table of contents (TOC) to download a PDF file that contains all the articles for that TOC.
+>
+> ![Download PDF for Visual Studio documentation](media/download-pdf.png)
 
 ## Help Viewer tour
 
@@ -67,19 +73,19 @@ The content list shows which books you can install or have already installed, wh
 
 The toolbar in the **Help Viewer** window contains the following buttons:
 
--   The **Show Topic in Contents** button shows the location of the topic in the **Contents** tab.
+- The **Show Topic in Contents** button shows the location of the topic in the **Contents** tab.
 
--   The **Add to Favorites** button adds the active topic to the **Favorites** tab.
+- The **Add to Favorites** button adds the active topic to the **Favorites** tab.
 
--   The **Find in Topic** button highlights search text in the active topic.
+- The **Find in Topic** button highlights search text in the active topic.
 
--   The **Print** button prints or shows a preview of the active topic.
+- The **Print** button prints or shows a preview of the active topic.
 
--   The **Viewer Options** button displays settings such as how large the text appears, how many search results to return, how many topics to show in history, and whether to check for updates online.
+- The **Viewer Options** button displays settings such as how large the text appears, how many search results to return, how many topics to show in history, and whether to check for updates online.
 
--   The **Manage Content** button makes the **Manage Content** tab active.
+- The **Manage Content** button makes the **Manage Content** tab active.
 
--   The small triangle on the right-hand side opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab.
+- The small triangle on the right-hand side opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab.
 
 ## See also
 

@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Navigate and update layer models in program code
@@ -22,7 +23,7 @@ The <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer> model de
 
 When you update a model, consider enclosing the changes in a `ILinkedUndoTransaction`, which groups your changes into one transaction. If any of the changes fails, the whole transaction is rolled back. If the user undoes a change, all the changes are undone together.
 
-```
+```csharp
 using (ILinkedUndoTransaction t =
         LinkedUndoContext.BeginTransaction("a name"))
 {
@@ -105,7 +106,7 @@ In the same manner, the <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibi
 
 In the code of a custom command or gesture handler, you can get the current diagram and the current selection of shapes from the `DiagramContext` import:
 
-```
+```csharp
 public class ... {
 [Import]
     public IDiagramContext DiagramContext { get; set; }

@@ -1,6 +1,7 @@
 ---
 title: Value (XAttribute Dynamic Property)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: reference
 apiname:
@@ -19,11 +20,11 @@ Gets or sets the value of the XML attribute.
 
 ## Syntax
 
-```
+```xaml
 attrib.Value
 ```
 
-## Property Value/Return Value
+## Property value/return value
 
 A <xref:System.String> containing the value of this attribute.
 
@@ -40,5 +41,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XAttribute.Value%2A> pr
 ## See also
 
 - <xref:System.Xml.Linq.XAttribute.Value%2A?displayProperty=fullName>
-- [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)
+- [XAttribute class dynamic properties](../designers/xattribute-class-dynamic-properties.md)
 - [Attribute](../designers/attribute-xelement-dynamic-property.md)

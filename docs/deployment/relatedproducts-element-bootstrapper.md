@@ -24,12 +24,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;RelatedProducts&gt; Element (Bootstrapper)
+# &lt;RelatedProducts&gt; element (bootstrapper)
 The `RelatedProducts` element defines other products that either depend upon or are included in the current product.  
   
 ## Syntax  
   
-```  
+```xml  
 <RelatedProducts>  
     <DependsOnProduct  
         Code  
@@ -45,7 +45,7 @@ The `RelatedProducts` element defines other products that either depend upon or 
 </RelatedProducts>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `RelatedProducts` element is a child of the `Product` element. It has no attributes.  
   
 ## DependsOnProduct  
@@ -72,11 +72,11 @@ The `RelatedProducts` element defines other products that either depend upon or 
 ## Example  
  The following code example specifies that the Microsoft Installer is installed with the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], and therefore will not need a separate installation.  
   
-```  
+```xml  
 <RelatedProducts>  
     <IncludesProduct Code="Microsoft.Windows.Installer.2.0" />  
 </RelatedProducts>  
 ```  
   
-## See Also  
- [\<Product> Element](../deployment/product-element-bootstrapper.md)
+## See also  
+ [\<Product> element](../deployment/product-element-bootstrapper.md)

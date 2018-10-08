@@ -24,7 +24,7 @@ Activities can be added to the **Toolbox** in your solution in several different
 3.  Build the project. If the build was successful, a new category in the **Toolbox** named "\<*project name*>" with the custom activity included in that category is displayed.
 
     > [!NOTE]
-    > If the toolbox is reset, custom activities will be removed, even if the solution is built again. To repopulate the toolbox with custom activities after it has been reset, restart Visual Studio 2010.
+    > If the toolbox is reset, custom activities will be removed, even if the solution is built again. To repopulate the toolbox with custom activities after it has been reset, restart Visual Studio.
 
     > [!NOTE]
     > The toolbox can only show one activity of a given name. If two activities from different assemblies have the same class name, only one will display.
@@ -42,9 +42,9 @@ Activities can be added to the **Toolbox** in your solution in several different
 
 1.  Open a workflow solution.
 
-2.  From the **Tools** menu, select **Choose Toolbox Items...**.
+2.  From the **Tools** menu, select **Choose Toolbox Items**.
 
-3.  In the **Choose Toolbox Items** dialog box, select the **System.Activities Components** tab then click **Browse...** to navigate to the assembly that contains the custom activity you want to add.
+3.  In the **Choose Toolbox Items** dialog box, select the **System.Activities Components** tab then click **Browse** to navigate to the assembly that contains the custom activity you want to add.
 
 4.  Select the assembly and click **OK**. The custom activity component is added to the list of components and is automatically selected.
 

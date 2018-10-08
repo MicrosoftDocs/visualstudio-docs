@@ -1,6 +1,7 @@
 ---
 title: WPF Data Binding with LINQ to XML Overview
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 3bf80845-891b-41de-a71b-4080b5bd3ea6
@@ -72,13 +73,13 @@ In C#, dynamic properties can only be accessed at run time through facilities pr
 
 In contrast, however, in an XML source dynamic properties can be accessed through a straightforward notation in the following form:
 
-```
+```xml
 <object>.<dynamic-property>
 ```
 
 The dynamic properties for these two classes either resolve to a value that can be used directly, or to an indexer that must be supplied with an index to obtain the resulting value or collection of values. The latter syntax takes the form:
 
-```
+```xml
 <object>.<dynamic-property>[<index-value>]
 ```
 

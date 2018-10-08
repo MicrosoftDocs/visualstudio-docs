@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Debug UWP apps using prefetched content in Visual Studio
   
- To make your UWP app more responsive, you can request Windows to preload some web content, such as web pages or images, into the app's [WinINet](http://msdn.microsoft.com/library/0a06f2af-957a-4dff-a8cc-187370181b5c) cache. This functionality is called prefetching. It's especially effective for content that's used at startup but you can prefetch other frequently used content, too. The methods of the [Windows.Networking.BackgroundTransfer.ContentPrefetcher](/uwp/api/Windows.Networking.BackgroundTransfer.ContentPrefetcher) class let you specify the URIs of the content that you want to preload. See the Windows SDK [Content prefetch sample](http://code.msdn.microsoft.com/windowsapps/ContentPrefetcher-Sample-432c8309) for examples of how to add ContentPrefetcher functionality to your app.  
+ To make your UWP app more responsive, you can request Windows to preload some web content, such as web pages or images, into the app's [WinINet](/windows/desktop/WinInet/about-wininet) cache. This functionality is called prefetching. It's especially effective for content that's used at startup but you can prefetch other frequently used content, too. The methods of the [Windows.Networking.BackgroundTransfer.ContentPrefetcher](/uwp/api/Windows.Networking.BackgroundTransfer.ContentPrefetcher) class let you specify the URIs of the content that you want to preload. See the Windows SDK [Content prefetch sample](https://code.msdn.microsoft.com/windowsapps/ContentPrefetcher-Sample-432c8309) for examples of how to add ContentPrefetcher functionality to your app.  
   
  Windows uses heuristics to determine when and if prefetching should occur and which resources will be downloaded. The heuristics take into account system network and power conditions, user app usage history, and the results of prior prefetch attempts. In Visual Studio, you can use the **Trigger Windows Store App Prefetch** command to force Windows to ignore the ContentPrefetcher heuristics and preload all of the specified web content. This can be useful if you want test the app's behavior or performance with the content to prefetch in a known state (either loaded or not loaded).  
   
@@ -36,4 +36,4 @@ ms.workload:
 >  Repeat these steps whenever you add or modify the specified web content.  
   
 ## See Also  
- [Blog post: Triggering Prefetch for Windows Store Apps in Visual Studio 2013 Update 2](http://blogs.msdn.com/b/visualstudioalm/archive/2014/02/06/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2.aspx)
+ [Blog post: Triggering Prefetch for Windows Store Apps in Visual Studio 2013 Update 2](https://blogs.msdn.microsoft.com/devops/2014/02/06/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2/)

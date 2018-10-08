@@ -2,9 +2,9 @@
 title: "Visual Studio for Mac Troubleshooting"
 description: "Common issues and resolutions for Visual Studio for Mac users."
 ms.topic: troubleshooting
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
+author: conceptdev
+ms.author: crdun
+ms.date: 05/06/2018
 ms.assetid: CE860D79-E29E-4B93-B094-BE74B35FC1C2
 ---
 # Troubleshooting
@@ -23,7 +23,7 @@ When an exception has been caught, an exception bubble will appear. To view more
 
 This will display the **Show Details** dialog, providing more information regarding the exception:
 
-![](media/troubleshooting-image3.png)
+![Show details dialog](media/troubleshooting-image3.png)
 
 Important sections of the dialog, which are numbered above are described in detail below:
 

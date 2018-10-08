@@ -7,6 +7,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Multiple DSLs in One Solution
@@ -38,7 +39,7 @@ You can package several DSLs as part of a single solution so that they are insta
 
 2.  Combine the VSIX manifests of the DSLs:
 
-    1.  Open *YourVsixProject***\source.extension.manifest**.
+    1.  Open _YourVsixProject_**\source.extension.manifest**.
 
     2.  For each DSL, choose **Add Content** and add:
 
@@ -50,7 +51,7 @@ You can package several DSLs as part of a single solution so that they are insta
 
 3.  Build the solution.
 
- The resulting VSIX will install both DSLs. You can test them by using F5, or deploy *YourVsixProject***\bin\Debug\\\*.vsix**.
+ The resulting VSIX will install both DSLs. You can test them by using F5, or deploy _YourVsixProject_**\bin\Debug\\\*.vsix**.
 
 ## See Also
 

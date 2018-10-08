@@ -10,24 +10,23 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Share models and exporting diagrams
 In Visual Studio, you can share models and diagrams with colleagues in several ways.
 
- To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+ To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 ## Working on a Model as a Team
  Users of Visual Studio can create and edit models, dependency diagrams, and directed graphs.
 
  Different users can work at the same time on a model, but should work on different packages.
 
- We recommend that you use [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)].
-
  For suggestions about organizing models in a medium or large project, see [Structure your modeling solution](../modeling/structure-your-modeling-solution.md).
 
 ## Reading and Reviewing Models
- Team members using some versions of Visual Studio (which cannot create models) can read models, modeling diagrams, and directed graphs, but cannot edit them.  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+ Team members using some versions of Visual Studio (which cannot create models) can read models, modeling diagrams, and directed graphs, but cannot edit them.  To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
  A dependency diagram can be opened only within the model in which it was created. To provide access to a diagram, you must therefore provide access to all the modeling project files, or to copies of them.
 

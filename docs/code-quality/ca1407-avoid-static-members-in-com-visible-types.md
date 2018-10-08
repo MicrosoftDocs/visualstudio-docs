@@ -1,6 +1,7 @@
 ---
 title: "CA1407: Avoid static members in COM visible types"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,7 +28,7 @@ ms.workload:
 ## Cause
  A type that is specifically marked as visible to Component Object Model (COM) contains a `public``static` method.
 
-## Rule Description
+## Rule description
  COM does not support `static` methods.
 
  This rule ignores property and event accessors, operator overloading methods, or methods that are marked by using either the <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute?displayProperty=fullName> attribute or the <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute?displayProperty=fullName> attribute.
@@ -53,10 +54,10 @@ namespace Samples
 }
 ```
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the design to use an instance method that provides the same functionality as the `static` method.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule if a COM client does not require access to the functionality that is provided by the `static` method.
 
 ## Example Violation
@@ -80,12 +81,12 @@ namespace Samples
 ### Code
  [!code-csharp[FxCop.Interoperability.ComVisibleStaticMembersFixed#1](../code-quality/codesnippet/CSharp/ca1407-avoid-static-members-in-com-visible-types_2.cs)]
 
-## Related Rules
+## Related rules
  [CA1017: Mark assemblies with ComVisibleAttribute](../code-quality/ca1017-mark-assemblies-with-comvisibleattribute.md)
 
  [CA1406: Avoid Int64 arguments for Visual Basic 6 clients](../code-quality/ca1406-avoid-int64-arguments-for-visual-basic-6-clients.md)
 
  [CA1413: Avoid non-public fields in COM visible value types](../code-quality/ca1413-avoid-non-public-fields-in-com-visible-value-types.md)
 
-## See Also
+## See also
  [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

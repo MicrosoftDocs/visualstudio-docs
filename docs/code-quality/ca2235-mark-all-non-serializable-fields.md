@@ -1,6 +1,7 @@
 ---
 title: "CA2235: Mark all non-serializable fields"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -13,10 +14,14 @@ ms.assetid: 599ad877-3a15-426c-bf17-5de15427365f
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA2235: Mark all non-serializable fields
+
 |||
 |-|-|
 |TypeName|MarkAllNonSerializableFields|
@@ -27,13 +32,13 @@ ms.workload:
 ## Cause
  An instance field of a type that is not serializable is declared in a type that is serializable.
 
-## Rule Description
+## Rule description
  A serializable type is one that is marked with the <xref:System.SerializableAttribute?displayProperty=fullName> attribute. When the type is serialized, a <xref:System.Runtime.Serialization.SerializationException?displayProperty=fullName> exception is thrown if a type contains an instance field of a type that is not serializable.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, apply the <xref:System.NonSerializedAttribute?displayProperty=fullName> attribute to the field that is not serializable.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Only suppress a warning from this rule if a <xref:System.Runtime.Serialization.ISerializationSurrogate?displayProperty=fullName> type is declared that allows instances of the field to be serialized and deserialized.
 
 ## Example
@@ -42,7 +47,7 @@ ms.workload:
  [!code-csharp[FxCop.Usage.MarkNonSerializable#1](../code-quality/codesnippet/CSharp/ca2235-mark-all-non-serializable-fields_1.cs)]
  [!code-vb[FxCop.Usage.MarkNonSerializable#1](../code-quality/codesnippet/VisualBasic/ca2235-mark-all-non-serializable-fields_1.vb)]
 
-## Related Rules
+## Related rules
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236-call-base-class-methods-on-iserializable-types.md)
 
  [CA2240: Implement ISerializable correctly](../code-quality/ca2240-implement-iserializable-correctly.md)

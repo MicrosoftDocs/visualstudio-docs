@@ -1,6 +1,7 @@
 ---
 title: "CA1062: Validate arguments of public methods"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -13,6 +14,9 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
@@ -29,17 +33,17 @@ ms.workload:
 
 An externally visible method dereferences one of its reference arguments without verifying whether that argument is `null` (`Nothing` in Visual Basic).
 
-## Rule Description
+## Rule description
 
 All reference arguments that are passed to externally visible methods should be checked against `null`. If appropriate, throw a <xref:System.ArgumentNullException> when the argument is `null`.
 
 If a method can be called from an unknown assembly because it is declared public or protected, you should validate all parameters of the method. If the method is designed to be called only by known assemblies, you should make the method internal and apply the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute to the assembly that contains the method.
 
-## How to Fix Violations
+## How to fix violations
 
 To fix a violation of this rule, validate each reference argument against `null`.
 
-## When to Suppress Warnings
+## When to suppress warnings
 
 You can suppress a warning from this rule if you are sure that the dereferenced parameter has been validated by another method call in the function.
 

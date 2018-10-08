@@ -15,12 +15,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvReleaseProvider Function
+# CvReleaseProvider function
 Releases marker provider. Releasing the marker provider will not affect previously created marker series of this provider. Marker series have to be release separately by CvReleaseMarkerSeries call. Failure to release provider causes a memory leak.  
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvReleaseProvider(  
    _In_ PCV_PROVIDER pProvider  
 );  
@@ -34,7 +34,7 @@ HRESULT CvReleaseProvider(
  S_OK when provider is successfully released or error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)

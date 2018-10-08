@@ -1,6 +1,7 @@
 ---
 title: Quick Watch Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Displays the selected or specified text in the Expression field of the [QuickWat
 
 ## Syntax
 
-```
+```cmd
 Debug.QuickWatchq [text]
 ```
 
@@ -34,7 +35,7 @@ Debug.QuickWatchq [text]
 
 ## Example
 
-```
+```cmd
 >Debug.QuickWatch
 ```
 

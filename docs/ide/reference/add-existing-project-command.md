@@ -1,6 +1,7 @@
 ---
 title: Add Existing Project Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Adds an existing project to the current solution.
 
 ## Syntax
 
-```
+```cmd
 File.AddExistingProject filename
 ```
 
@@ -38,7 +39,7 @@ File.AddExistingProject filename
 ## Example
  This example adds the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project, TestProject1, to the current solution.
 
-```
+```cmd
 >File.AddExistingProject "c:\visual studio projects\TestProject1.vbproj"
 ```
 

@@ -12,13 +12,14 @@ ms.author: gewarren
 manager: douge
 f1_keywords:
   - "vs.performancecenter"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
 # Optimize Visual Studio startup time
 
-Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the the **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
+Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
 
 ## Startup behavior
 

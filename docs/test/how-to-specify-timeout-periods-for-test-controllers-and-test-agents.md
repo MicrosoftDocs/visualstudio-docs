@@ -11,15 +11,16 @@ ms.assetid: 777d0db5-0073-458a-a2a3-58b1c1f24c60
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Specify Timeout Periods for Test Controllers and Test Agents
+# How to: Specify timeout periods for test controllers and test agents
 
 Both the test controller and the test agent have several timeout settings that specify how long they should wait for responses from one another, or from a data source before failing with an error. Under certain circumstances, it might be necessary to edit the timeout values to meet the needs of your topology or other environment issues. To edit the timeout values, edit the XML configuration file that is associated with either the test controller or test agent, as covered in the following procedures.
 
  To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
 
--   Test controller: QTController.exe.config
+-   Test controller: *QTController.exe.config*
 
     |Key name|Description|Value|
     |--------------|-----------------|-----------|
@@ -28,7 +29,7 @@ Both the test controller and the test agent have several timeout settings that s
     |AgentInitializeTimeout|Number of seconds to wait for all agents and their data collectors to initialize at the beginning of a test run, before aborting the test run. This value should be reasonably large if using data collectors.|"n" seconds. Default: "120" (two minutes).|
     |AgentCleanupTimeout|Number of seconds to wait for all agents and their data collectors to clean up, before completing the test run. This value should be reasonably large if using data collectors.|"n" seconds. Default: "120" (two minutes).|
 
--   Test Agent: QTAgentService.exe.config
+-   Test Agent: *QTAgentService.exe.config*
 
     |Key name|Description|Value|
     |--------------|-----------------|-----------|
@@ -37,11 +38,11 @@ Both the test controller and the test agent have several timeout settings that s
     |StopTestRunCallTimeoutInSeconds|Number of seconds to wait for call to stop the test run.|"n" seconds. Default: "120" (two minutes).|
     |GetCollectorDataTimeout|Number of seconds to wait for the data collector.|"n" seconds. Default: "300" (five minutes).|
 
-## To Specify Agent Timeout Options for a Test Controller
+## To specify agent timeout options for a test controller
 
-1. Open the QTCcontroller.exe.config XML configuration file located in %ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE.
+1. Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*.
 
-2. locate `<appSettings>` tag.
+2. Locate `<appSettings>` tag.
 
     ```xml
     <appSettings>
@@ -71,11 +72,11 @@ Both the test controller and the test agent have several timeout settings that s
     </appSettings>
     ```
 
-## To Specify Agent Timeout Options for a Test Agent
+## To specify agent timeout options for a test agent
 
-1. Open the QTAgentService.exe.config XML configuration file located in %ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE.
+1. Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*.
 
-2. locate `<appSettings>` tag.
+2. Locate `<appSettings>` tag.
 
     ```xml
     <appSettings>
@@ -108,7 +109,7 @@ Both the test controller and the test agent have several timeout settings that s
 ## See also
 
 - [Install and configure test agents](../test/lab-management/install-configure-test-agents.md)
-- [Modifying Load Test Logging Settings](../test/modify-load-test-logging-settings.md)
-- [Configuring Ports for Test Controllers and Test Agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [How to: Specify the Maximum Size for the Log File](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
-- [How to: Bind a Test Controller or Test Agent to a Network Adapter](../test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter.md)
+- [Modify load test logging settings](../test/modify-load-test-logging-settings.md)
+- [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
+- [How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
+- [How to: Bind a test controller or test agent to a network adapter](../test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter.md)

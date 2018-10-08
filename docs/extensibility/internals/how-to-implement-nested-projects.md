@@ -15,15 +15,16 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# How to: Implement Nested Projects
-When you create a nested project type there are a several additional steps that must be implemented. A parent project takes on some of the same responsibilities that the solution has for its nested (child) projects. The parent project is a container of projects similar to a solution. In particular, there are several events that must be raised by the solution and by the parent projects to build the hierarchy of nested projects. These events are described in the following process for creating nested projects.
+# How to: Implement nested projects
 
-### To create nested projects
+When you create a nested project type, there are several additional steps that must be implemented. A parent project takes on some of the same responsibilities that the solution has for its nested (child) projects. The parent project is a container of projects similar to a solution. In particular, there are several events that must be raised by the solution and by the parent projects to build the hierarchy of nested projects. These events are described in the following process for creating nested projects.
+
+## Create nested projects
 
 1.  The integrated development environment (IDE) loads the parent project's project file and startup information by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> interface. The parent project is created and added to the solution.
 
     > [!NOTE]
-    >  At this point, it is too early in the process for the parent project to create the nested project because the parent project must be created before the child projects can be created. Following this sequence, the parent project can apply settings to the child projects and the child projects can acquire information from the parent projects if needed. This sequence is if it is needed on by clients such as source code control (SCC) and Solution Explorer.
+    > At this point, it is too early in the process for the parent project to create the nested project because the parent project must be created before the child projects can be created. Following this sequence, the parent project can apply settings to the child projects and the child projects can acquire information from the parent projects if needed. This sequence is if it is needed on by clients such as source code control (SCC) and **Solution Explorer**.
 
      The parent project must wait for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject.OpenChildren%2A> method to be called by the IDE before it can create its nested (child) project or projects.
 
@@ -52,7 +53,7 @@ When you create a nested project type there are a several additional steps that 
      If it does not already exist, the parent project creates a GUID for each nested project by calling `CoCreateGuid`.
 
     > [!NOTE]
-    >  `CoCreateGuid` is a COM API called when a GUID is to be created. For more information, see `CoCreateGuid` and GUIDs in the MSDN Library.
+    > `CoCreateGuid` is a COM API called when a GUID is to be created. For more information, see `CoCreateGuid` and GUIDs in the MSDN Library.
 
      The parent project stores this GUID in its project file to be retrieved the next time that it is opened in the IDE. See step 4 for more information relating to the calling of `AddVirtualProjectEX` to retrieve the `guidProjectID` for the child project.
 
@@ -61,9 +62,9 @@ When you create a nested project type there are a several additional steps that 
      Because parent and child projects are instantiated programmatically, you can set properties for nested projects at this point.
 
     > [!NOTE]
-    >  Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>. In that way, you can add extra Dynamic Help attributes and menu options specific to individual nested projects.
+    > Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>. In that way, you can add extra dynamic help attributes and menu options specific to individual nested projects.
 
-10. The hierarchy is built for display in Solution Explorer with a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A> method.
+10. The hierarchy is built for display in **Solution Explorer** with a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A> method.
 
      You pass the hierarchy to the environment through `GetNestedHierarchy` to build the hierarchy for display in Solution Explorer. In this manner, the solution knows that the project exists and can be managed for building by the build manager, or can allow files in the project to be put under source code control.
 
@@ -73,20 +74,17 @@ When you create a nested project type there are a several additional steps that 
 
      When a nested project is closed because the user closed the solution or the specific project itself, the other method on `IVsParentProject`, <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject.CloseChildren%2A>, is called. The parent project wraps calls to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.RemoveVirtualProject%2A> method with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnBeforeClosingChildren%2A> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterClosingChildren%2A> methods to notify listeners to solution events that the nested projects are being closed.
 
- The following topics deal with several other concepts to consider when you implement nested projects:
+The following topics deal with several other concepts to consider when you implement nested projects:
 
- [Considerations for Unloading and Reloading Nested Projects](../../extensibility/internals/considerations-for-unloading-and-reloading-nested-projects.md)
+- [Considerations for unloading and reloading nested projects](../../extensibility/internals/considerations-for-unloading-and-reloading-nested-projects.md)
+- [Wizard support for nested projects](../../extensibility/internals/wizard-support-for-nested-projects.md)
+- [Implement command handling for nested projects](../../extensibility/internals/implementing-command-handling-for-nested-projects.md)
+- [Filter the AddItem dialog box for nested projects](../../extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects.md)
 
- [Wizard Support for Nested Projects](../../extensibility/internals/wizard-support-for-nested-projects.md)
+## See also
 
- [Implementing Command Handling for Nested Projects](../../extensibility/internals/implementing-command-handling-for-nested-projects.md)
-
- [Filtering the AddItem Dialog Box for Nested Projects](../../extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects.md)
-
-## See Also
-
-- [Adding Items to the Add New Item Dialog Boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)
-- [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)
-- [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
-- [Context Parameters](../../extensibility/internals/context-parameters.md)
-- [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)
+- [Add items to the Add New Item dialog box](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)
+- [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)
+- [Checklist: Create new project types](../../extensibility/internals/checklist-creating-new-project-types.md)
+- [Context parameters](../../extensibility/internals/context-parameters.md)
+- [Wizard (.vsz) file](../../extensibility/internals/wizard-dot-vsz-file.md)

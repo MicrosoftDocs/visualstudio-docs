@@ -1,6 +1,7 @@
 ---
 title: -ResetSkipPkgs (devenv.exe)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -19,7 +20,7 @@ Clears all options to skip loading added to VSPackages by users wishing to avoid
 
 ## Syntax
 
-```
+```cmd
 Devenv /ResetSkipPkgs
 ```
 
@@ -29,7 +30,7 @@ Devenv /ResetSkipPkgs
 ## Example
  The following example clears all SkipLoading tags.
 
-```
+```cmd
 Devenv.exe /ResetSkipPkgs
 ```
 

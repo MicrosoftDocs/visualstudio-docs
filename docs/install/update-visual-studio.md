@@ -1,7 +1,7 @@
 ---
 title: "Update Visual Studio 2017"
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 03/06/2018
+ms.date: 04/23/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -48,6 +48,9 @@ When there is an update, there's a corresponding notification flag in Visual Stu
 
      Your update continues. Then, when it's complete, Visual Studio restarts.
 
+     > [!NOTE]
+     > When you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.
+
 ### Use the IDE
 
 You can check for an update and then install the update from the menu bar in Visual Studio.
@@ -61,6 +64,9 @@ You can check for an update and then install the update from the menu bar in Vis
 3. When the **Update** dialog box opens, choose **Update Now**.
 
    The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
+
+   > [!NOTE]
+   > When you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.
 
 ### Use the Visual Studio Installer
 
@@ -134,20 +140,10 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
+* [Update Visual Studio for Mac](/visualstudio/mac/update)

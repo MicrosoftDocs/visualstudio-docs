@@ -1,6 +1,7 @@
 ---
 title: "CA1700: Do not name enum values &#39;Reserved&#39;"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,7 +28,7 @@ ms.workload:
 ## Cause
  The name of an enumeration member contains the word "reserved".
 
-## Rule Description
+## Rule description
  This rule assumes that an enumeration member that has a name that contains "reserved" is not currently used but is a placeholder to be renamed or removed in a future version. Renaming or removing a member is a breaking change. You should not expect users to ignore a member just because its name contains "reserved", nor can you rely on users to read or abide by documentation. Furthermore, because reserved members appear in object browsers and smart integrated development environments, they can cause confusion about which members are actually being used.
 
  Instead of using a reserved member, add a new member to the enumeration in the future version. In most cases the addition of the new member is not a breaking change, as long as the addition does not cause the values of the original members to change.
@@ -40,13 +41,13 @@ ms.workload:
 
  Follow the same procedure for any externally visible types or members that expose the original enumeration.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove or rename the member.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule for a member that is currently used or for libraries that have previously shipped.
 
-## Related Rules
+## Related rules
  [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217-do-not-mark-enums-with-flagsattribute.md)
 
  [CA1712: Do not prefix enum values with type name](../code-quality/ca1712-do-not-prefix-enum-values-with-type-name.md)

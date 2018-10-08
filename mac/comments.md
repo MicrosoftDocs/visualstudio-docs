@@ -1,8 +1,9 @@
 ---
 title: "Comments"
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
+description: "This article describes using comments in the source editor of Visual Studio for Mac"
+author: conceptdev
+ms.author: crdun
+ms.date: 05/06/2018
 ms.assetid: 0FE5E929-1846-4F48-B5E3-70990FAF9504
 ---
 # Comments

@@ -1,6 +1,7 @@
 ---
 title: Code Snippet Functions
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -16,7 +17,7 @@ ms.workload:
 ---
 # Code snippet functions
 
-There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function) element of the code snippet. For information on creating code snippets, see [Code snippets](../ide/code-snippets.md).
+There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function-element) element of the code snippet. For information on creating code snippets, see [Code snippets](../ide/code-snippets.md).
 
 ## Functions
 
@@ -24,9 +25,9 @@ The following table describes the functions available for use with the `Function
 
 |Function|Description|Language|
 |--------------|-----------------|--------------|
-|`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|
-|`ClassName()`|Returns the name of the class that contains the inserted snippet.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|
-|`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|
+|`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|C#|
+|`ClassName()`|Returns the name of the class that contains the inserted snippet.|C#|
+|`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|C#|
 
 ## Example
 
@@ -152,5 +153,5 @@ This example shows how to use the `SimpleTypeName` function. When this snippet i
 
 ## See also
 
-- [Function element](../ide/code-snippets-schema-reference.md#function)
+- [Function element](../ide/code-snippets-schema-reference.md#function-element)
 - [Code snippets schema reference](../ide/code-snippets-schema-reference.md)

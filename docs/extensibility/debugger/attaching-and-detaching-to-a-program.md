@@ -15,10 +15,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Attaching and Detaching to a Program
+# Attaching and detaching to a program
 Attaching the debugger requires sending the correct sequence of methods and events with the proper attributes.  
   
-## Sequence of Methods and Events  
+## Sequence of methods and events  
   
 1.  The session debug manager (SDM) calls the [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method.  
   
@@ -36,7 +36,7 @@ Attaching the debugger requires sending the correct sequence of methods and even
   
 2.  The DE sends an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) to the SDM with an `EVENT_SYNC` attribute.  
   
-3.  The DE sends an [IDebugProgramCreateEvent2](../../extensibility/debugger/reference/idebugprogramcreateevent2.md) to the SDM with an `EVENT_SYNC` attribute.  
+3.  The DE sends an [IDebugProgramCreateEvent2](../../extensibility/debugger/reference/idebugprogramcreateevent2.md) to the SDM with an `EVENT_SYNC` attribute. 
   
 4.  The DE sends an [IDebugLoadCompleteEvent2](../../extensibility/debugger/reference/idebugloadcompleteevent2.md) to the SDM with an `EVENT_SYNC_STOP` attribute.  
   
@@ -46,5 +46,5 @@ Attaching the debugger requires sending the correct sequence of methods and even
   
 2.  The DE sends an [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md).  
   
-## See Also  
- [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
+## See also  
+ [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

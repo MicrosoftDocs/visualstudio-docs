@@ -1,6 +1,7 @@
 ---
 title: Globalizing applications
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -26,11 +27,11 @@ Globalization is the process of designing and developing a software product that
 - [Globalizing Windows forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)
  Provides links to Help pages about globalization of Windows forms.
 
-- [Globalization and localization](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)
+- [Globalization and localization](https://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)
  Provides links to Help pages about globalization of web forms pages.
 
 - [Introduction to international applications based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)
  Discusses the essential concepts about developing software for an international market using Visual Basic or C#.
 
-- [Best practices for developing world-ready applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)
+- [Best practices for developing world-ready applications](/dotnet/standard/globalization-localization/best-practices-for-developing-world-ready-apps)
  Provides information on programming for an international audience, such as design issues and terminology.

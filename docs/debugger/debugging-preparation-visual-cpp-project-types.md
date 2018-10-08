@@ -67,7 +67,7 @@ This section describes how to debug the basic project types created by the [!INC
   
 2.  On the **Debug** menu, choose **Start**.  
   
-3.  Debug using the techniques discussed in [Debugger Basics](../debugger/debugger-basics.md).  
+3.  Debug using the techniques discussed in [Debugger Basics](../debugger/getting-started-with-the-debugger.md).  
   
 ###  <a name="BKMK_To_manually_set_a_Debug_configuration"></a> To manually set a Debug configuration  
   
@@ -92,7 +92,7 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms applications (.NET)  
- The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa).  
+ The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100)).  
   
  Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is similar to that in managed Windows Forms applications.  
   
@@ -105,8 +105,8 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)  
   
 ## See Also  
- [Debugger Basics](../debugger/debugger-basics.md)   
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)   
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)   
- [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa)
+ [How to: Create a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100))

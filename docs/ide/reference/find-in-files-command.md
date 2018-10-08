@@ -1,6 +1,7 @@
 ---
 title: Find in Files Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Search files using a subset of the options available on the **Find in Files** ta
 
 ## Syntax
 
-```
+```cmd
 Edit.FindinFiles findwhat [/case] [/ext:extensions]
 [/lookin:searchpath] [/names] [/options] [/reset] [/stop] [/sub]
 [/text2] [/wild|/regex] [/word]
@@ -55,7 +56,7 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
  /stop
  Optional. Halts the current search operation if one is in progress. Search ignores all other arguments when `/stop` has been specified. For example, to stop the current search you would enter the following:
 
-```
+```cmd
 >Edit.FindinFiles /stop
 ```
 
@@ -74,7 +75,7 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
 ## Example
  This example searches for btnCancel in all .cls files located in the folder "My Visual Studio Projects" and displays the match information in the Find Results 2 Window.
 
-```
+```cmd
 >Edit.FindinFiles btnCancel /lookin:"c:/My Visual Studio Projects" /ext:*.cls /text2
 ```
 

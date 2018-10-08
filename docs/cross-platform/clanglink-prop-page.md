@@ -34,7 +34,7 @@ ms.workload:
   - "xplat-cplusplus"
 ---
 
-# Clang Linker Properties (Android C++)
+# Clang Linker properties (Android C++)
 
 Property | Description | Choices
 --- | ---| ---
@@ -58,4 +58,4 @@ Require Executable Stack | This option marks output as not requiring executable 
 Whole Archive | Whole Archive uses all code from Sources and Additional Dependencies.
 Additional Options | Additional Options.
 Additional Dependencies | Specifies additional items to add to the link command line.
-Library Dependencies | This option allows specifying additional libraries to be added to the linker command line. The additional libraries will be added to the end of the linker command line start with 'lib' and end with '.a' or '.so' extension.  (-lFILE)
+Library Dependencies | This option allows specifying additional libraries to be added to the linker command line. The additional libraries will be added to the end of the linker command line start with *lib* and end with *.a* or *.so* extension.  (-lFILE)

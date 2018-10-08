@@ -14,6 +14,7 @@ ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
@@ -47,7 +48,7 @@ You can create data-bound controls that display related data by dragging items f
 
      The following figure demonstrates the related **Orders** table of the **Customers** table in a dataset in the **Data Sources** window.
 
-     ![Data Sources Window showing relation](../data-tools/media/datasources2.gif "DataSources2")
+     ![Data Sources Window showing relation](../data-tools/media/datasources2.gif)
 
 ## See also
 

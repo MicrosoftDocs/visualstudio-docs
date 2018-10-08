@@ -7,6 +7,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Walkthrough: Debugging a Text Template that Accesses a Model
@@ -146,7 +147,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     #>
     ```
 
-2.  In the **Solution Explorer**, right-click DebugTest.tt, and then click **Run Custom Tool**.
+2.  In **Solution Explorer**, right-click DebugTest.tt, and then click **Run Custom Tool**.
 
      The **Error List** window appears and displays one of these errors:
 

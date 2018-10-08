@@ -1,7 +1,7 @@
 ---
 title: "Analyze Memory Usage without the VS Debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "09/28/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Analyze Memory Usage without the Visual Studio Debugger
+# Analyze memory usage without the Visual Studio debugger
 You can use the **Memory Usage** tool without debugging to do the following  
   
 -   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  
@@ -24,38 +24,38 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 -   Compare snapshots to find the root cause of memory issues.  
   
- This topic describes how use the Memory Usage tool to analyze a UWP XAML app. If you want to analyze memory use in UWP app that uses JavaScript and HTML, see [Analyze memory usage (JavaScript)](../profiling/javascript-memory.md).  
+ Currently, to measure memory usage for a .NET Core app, you need to use the tool with the debugger attached. For other managed and native apps, you can use the tool either with or without the debugger attached. The screenshots in this topic show a UWP XAML app. If you want to analyze memory use in UWP app that uses JavaScript and HTML, see [Analyze memory usage (JavaScript)](../profiling/javascript-memory.md).
   
-##  <a name="BKMK_Start_a_Memory_Usage_diagnostic_session"></a> Start a Memory Usage diagnostic session  
+## Start a Memory Usage diagnostic session  
   
 1.  Open a C# Universal Windows project in Visual Studio.  
   
-2.  On the menu bar, choose  **Debug / Performance Profiler...**.  
+2.  On the menu bar, choose  **Debug** > **Performance Profiler**.  
   
 3.  Select **Memory Usage** and then choose the **Start** button at the bottom of the page.  
   
      ![Start a Memory Usage diagnostic session](../profiling/media/memuse_start_diagnosticssession.png "MEMUSE_Start_DiagnosticsSession")  
   
-##  <a name="BKMK_Monitor_memory_use"></a> Monitor memory use  
+## Monitor memory use  
  Although you can use the **Memory Usage** tool to generate detailed reports that you can use to find and fix issues, you can also use it to study the real-time memory effects of a scenario you're actively developing.  
   
  When you start a diagnostic session, your app starts and the **Diagnostic Tools** window displays a timeline graph of your app's memory use.  
   
  ![Memory Usage overview page](../profiling/media/memuse__reportoverview.png "MEMUSE__ReportOverview")  
   
- The  timeline graph shows fluctuations in your app's memory as it runs. Spikes in the graph usually indicate that some code  is collecting or creating data and then discarding it when the processing is done. Large spikes indicate areas that you might be able to optimize. Of more concern is a rise in memory consumption that's not returned because it may indicate inefficient memory use or even a memory leak.  
+ The timeline graph shows fluctuations in your app's memory as it runs. Spikes in the graph usually indicate that some code  is collecting or creating data and then discarding it when the processing is done. Large spikes indicate areas that you might be able to optimize. Of more concern is a rise in memory consumption that's not returned because it may indicate inefficient memory use or even a memory leak.  
   
 ###  <a name="BKMK_Close_a_monitoring_session"></a> Close a monitoring session  
  ![Stop collection](../profiling/media/memuse__stopcollection.png "MEMUSE__StopCollection")  
   
  To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you have taken memory snapshots, choose **Stop**.  
   
-##  <a name="BKMK_Take_snapshots_to_analyze_the_memory_state_of_your_app"></a> Take snapshots of the memory state of your app  
+## Take snapshots of the memory state of your app  
  If you discover a memory issue that you want to investigate, you can take snapshots during the diagnostic session to capture objects in memory at particular moments. Because an app uses a large number of many types of objects, you might want to concentrate your analysis on one scenario. It's also a good idea to get a baseline snapshot of the app before a memory issue appears, another snapshot after the first occurrence of the problem, and one or more additional snapshots if you can repeat the scenario.  
   
  To collect snapshots, start a new diagnostic session. Choose **Take Snapshot** when you want to capture the memory data. To generate a report, choose **Stop**.  
   
-##  <a name="BKMK_Memory_Usage_overview_page"></a> Memory Usage overview page  
+##  Memory Usage overview page  
  After you stop data collection, the Memory Usage tool stops the app and displays the overview report.  
   
  ![Memory Usage overview page](../profiling/media/memuse__reportoverview.png "MEMUSE__ReportOverview")  
@@ -63,9 +63,9 @@ You can use the **Memory Usage** tool without debugging to do the following
 ###  <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshot views  
  You use snapshot views to open detailed reports in new Visual Studio windows. There are two kinds of snapshot views:  
   
--   A [Snapshot details reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_details_reports) shows the types and instances in one snapshot.  
+-   A [Snapshot details reports](#snapshot-reports) shows the types and instances in one snapshot.  
   
--   A [Snapshot difference (diff) reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_difference__diff__reports) compares the types and instances in two snapshots.  
+-   A [Snapshot difference (diff) reports](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.  
   
  ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "MEMUSE__SnapshotView_Numbered")  
   
@@ -78,7 +78,7 @@ You can use the **Memory Usage** tool without debugging to do the following
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The link text shows the difference between the total size of objects in memory at the moment of this snapshot and the total size of the previous snapshot.<br /><br /> The link text is a positive number when the memory size of this snapshot is larger than the previous one, and a negative number when the size is smaller. The link text **Baseline** indicates that this snapshot is the first in the diagnostic session; **No Difference** indicates that the difference is zero.<br /><br /> Choose this link to display a snapshot diff report that's sorted by the difference in the total size of instances of the types.|  
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|The link text shows the difference between the total number of memory objects in this snapshot and the number of objects in the previous snapshot.<br /><br /> Choose this link to display a snapshot diff report that's sorted by the difference in the total count of instances of the types.|  
   
-##  <a name="BKMK_Snapshot_reports"></a> Snapshot reports  
+## Snapshot reports  
  ![Memory Usage snapshot report](../profiling/media/memuse_snapshotreport_all.png "MEMUSE_SnapshotReport_All")  
   
 ###  <a name="BKMK_Snapshot_report_trees"></a> Snapshot report trees  
@@ -113,7 +113,7 @@ You can use the **Memory Usage** tool without debugging to do the following
 ####  <a name="BKMK_Just_My_Code"></a> Just My Code  
  The **Just My Code** filter hides most instances that are generated by external code. External types are owned by the operating system or by Framework components, or are generated by the compiler.  
   
-##  <a name="BKMK_Snapshot_details_reports"></a> Snapshot details reports  
+## Snapshot details reports  
  You use a snapshot details report to focus on one snapshot from a diagnostic session. To open a details report, choose one of the links in a snapshot view, as shown in the following picture. Both links open the same report; the only difference is the starting sort order of the **Managed Heap** tree in the report. In both cases, you can change the sort order after the report opens.  
   
  ![Links to snapshot report in a snapshot view](../profiling/media/memuse_snapshotview_snapshotdetailslinks.png "MEMUSE_SnapshotView_SnapshotDetailsLinks")  
@@ -152,7 +152,7 @@ You can use the **Memory Usage** tool without debugging to do the following
 |**Size (Bytes)**|For a type, the size of all instances of the type, excluding the size of objects contained in the type.<br /><br /> For an instance, the size of the object, excluding the size of objects contained in the object.|  
 |**Inclusive Size (Bytes)**|The total size of the instances of the type or the size of the instance, including the size of contained objects.|  
   
-##  <a name="BKMK_Snapshot_difference__diff__reports"></a> Snapshot difference (diff) reports  
+## Snapshot difference (diff) reports  
  A snapshot difference (diff) report shows the changes between a primary snapshot and the snapshot that was taken immediately before it. To open a diff report, choose one of the links in a snapshot view, as shown in the following picture. Both links open the same report; the only difference is the starting sort order of the **Managed Heap** tree in the report. You can change the sort order after the report opens.  
   
  ![Links to difference report in a snapshot view](../profiling/media/memuse_snapshotview_snapshotdifflinks.png "MEMUSE_SnapshotView_SnapshotDiffLinks")  
@@ -186,7 +186,7 @@ You can use the **Memory Usage** tool without debugging to do the following
 ###  <a name="BKMK_Referenced_Objects_tree__Snapshot_diff_"></a> Referenced Objects tree (Snapshot diff)  
  The **Referenced Objects** tree shows the objects that the primary type or instance references.  
   
- ![Referenced Objjects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "MEMUSE_SnapshotDetails_ReferencedObjects_Instance")  
+ ![Referenced Objects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "MEMUSE_SnapshotDetails_ReferencedObjects_Instance")  
   
 |||  
 |-|-|  
@@ -194,9 +194,9 @@ You can use the **Memory Usage** tool without debugging to do the following
 |**Size (Bytes)**|For an instance, the size of the object in the primary snapshot, excluding the size of objects contained in the instance.<br /><br /> For a type, the total size of the instances of the type in the primary snapshot, excluding the size of objects contained in the instance.|  
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
   
-## See Also  
- [JavaScript Memory](../profiling/javascript-memory.md)  
+## See also  
+ [JavaScript memory](../profiling/javascript-memory.md)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)  
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)  
  [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)

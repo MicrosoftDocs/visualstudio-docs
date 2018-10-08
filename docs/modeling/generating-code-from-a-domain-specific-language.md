@@ -7,6 +7,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Generating Code from a Domain-Specific Language
@@ -24,7 +25,7 @@ Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful wa
 
  When the customer database is processed, the XML file is read into the model store. A *directive processor*, created by using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], makes the Customer class available to the code in the text template. Many text templates can be run against the same store.
 
- Text templates are essential to [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. They are used to generate the source code for the elements of the domain model as well as for the VSPackage and the controls that are used to integrate the tools with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+ Text templates are essential to [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. They are used to generate the source code for the elements of the domain model as well as for the VSPackage and the controls that are used to integrate the tools with Visual Studio.
 
  This section discusses some of the ways to create, modify, and debug text templates used in [!INCLUDE[dsl](../modeling/includes/dsl_md.md)].
 

@@ -9,15 +9,16 @@ ms.assetid: 7b1a91cf-8b5a-4fc0-ac36-0dc2d336fa1b
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
 # Query datasets
-To search for specific records in a dataset,  use the FindBy method on the DataTable, write your own foreach statement to loop over the table's Rows collection, or use [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).
+To search for specific records in a dataset, use the `FindBy` method on the DataTable, write your own foreach statement to loop over the table's Rows collection, or use [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).
 
 ## Dataset case sensitivity
-Within a dataset, table and column names are  case-insensitive by default — that is, a table in a dataset called "Customers" can also be referred to as "customers." This matches the naming conventions in many databases,  including SQL Server. In SQL Server, the default behavior is that the names of data elements cannot be distinguished only by case.
+Within a dataset, table and column names are case-insensitive by default — that is, a table in a dataset called "Customers" can also be referred to as "customers." This matches the naming conventions in many databases, including SQL Server. In SQL Server, the default behavior is that the names of data elements cannot be distinguished only by case.
 
 > [!NOTE]
 >  Unlike datasets, XML documents are case-sensitive, so the names of data elements defined in schemas are case-sensitive. For example, schema protocol allows the schema to define a table called "Customers" and a different table called "customers." This can result in name collisions when a schema that contains elements that differ only by case is used to generate a dataset class.
@@ -58,7 +59,7 @@ Case sensitivity, however, can be a factor in how data is interpreted within the
 ## Access related records
 When tables in a dataset are related, a <xref:System.Data.DataRelation> object can make  the related records available in another table. For example, a dataset containing `Customers` and `Orders` tables can be made available.
 
-You can use a <xref:System.Data.DataRelation> object to locate related records by calling the <xref:System.Data.DataRow.GetChildRows%2A> method of a <xref:System.Data.DataRow> in the parent table. This method returns an array of related child records. Or you can call the <xref:System.Data.DataRow.GetParentRow%2A> method of a <xref:System.Data.DataRow> in the child table. This method returns a single <xref:System.Data.DataRow> from the parent table.
+You can use a <xref:System.Data.DataRelation> object to locate related records by calling the <xref:System.Data.DataRow.GetChildRows%2A> method of a <xref:System.Data.DataRow> in the parent table. This method returns an array of related child records. Or, you can call the <xref:System.Data.DataRow.GetParentRow%2A> method of a <xref:System.Data.DataRow> in the child table. This method returns a single <xref:System.Data.DataRow> from the parent table.
 
 This page provides examples using typed datasets. For information about navigating relationships in untyped datasets, see [Navigating DataRelations](/dotnet/framework/data/adonet/dataset-datatable-dataview/navigating-datarelations).
 

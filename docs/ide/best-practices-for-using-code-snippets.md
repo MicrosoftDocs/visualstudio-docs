@@ -1,6 +1,7 @@
 ---
 title: Best Practices for Using Code Snippets
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -58,7 +59,7 @@ IntelliSense code snippets installed by Visual Studio are not in themselves a se
 
     - The snippet code could damage your system if you execute it. Read the source code carefully before running it.
 
-    - The Help URL block of the snippet file can contain URLs that execute a malicious script file or display an offensive Web site.
+    - The Help URL block of the snippet file can contain URLs that execute a malicious script file or display an offensive website.
 
     - The snippet may contain references that are added silently to your project and may be loaded from anywhere on your system. These references may have been downloaded to your computer from where you downloaded the snippet. The snippet may then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the Imports and References blocks of the snippet file.
 

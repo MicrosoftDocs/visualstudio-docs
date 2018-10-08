@@ -6,7 +6,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-workflow-designer
 helpviewer_keywords:
   - "Workflow Designer [WFD], activity designer"
-  - "Visual Studio 2010 Workflow Designer [WFD], activity designer"
+  - "Visual Studio Workflow Designer [WFD], activity designer"
 ms.assetid: 3c2725c3-091b-49ab-81e7-d4c7028d47a2
 author: gewarren
 ms.author: gewarren
@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Using the Activity Designers
 
-The Windows Workflow Designer includes a number of system-provided activities that you can use when constructing your activities and workflows. This section describes the categories of system-provided activities and their designers that are available. Topics on the individual activities and their respective designers within each of these categories describe what these activities do and provide guidance on how to use them.
+The Workflow Designer includes a number of system-provided activities that you can use when constructing your activities and workflows. This section describes the categories of system-provided activities and their designers that are available. Topics on the individual activities and their respective designers within each of these categories describe what these activities do and provide guidance on how to use them.
 
 ## Reference
 

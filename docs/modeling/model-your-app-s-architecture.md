@@ -9,12 +9,13 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Model your app&#39;s architecture
 To help ensure that your software system or application meets your users' needs, you can create models in Visual Studio as part of your description of the overall structure and behavior of your software system or application. Using models, you can also describe patterns that are used throughout the design. These models help you understand the existing architecture, discuss changes, and communicate your intentions clearly.
 
- To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+ To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
  The purpose of a model is to reduce the ambiguities that occur in natural-language descriptions, and to help you and your colleagues to visualize the design and to discuss alternative designs. A model should be used together with other documents or discussions. By itself, a model does not represent a complete specification of the architecture.
 
@@ -27,7 +28,7 @@ To help ensure that your software system or application meets your users' needs,
 
 -   [Design Patterns](#Patterns) and conventions used throughout the designs of the components. A pattern describes a particular approach to achieving a programming goal. By using the same patterns throughout a design, your team can reduce the cost of making changes and developing new software.
 
-##  <a name="Structure"></a> High-level Design
+## <a name="Structure"></a> High-level Design
  A high-level design describes the major components of your system and how they interact with one another to achieve the goals of the design. The activities in the following list are involved in developing the high level design, although not necessarily in a particular sequence.
 
  If you are updating existing code, you might begin by describing the major components. Make sure you understand any changes to the user requirements and then add or modify interactions between the components. If you are developing a new system, begin by understanding the main features of the users' needs. You can then explore sequences of interactions for the main use cases, and then consolidate the sequences into a component design.
@@ -40,7 +41,7 @@ To help ensure that your software system or application meets your users' needs,
 
 -   Data Model of the Components and Interfaces. You can draw class diagrams to describe the information that is passed between components and stored inside the components.
 
-##  <a name="Requirements"></a> Understanding the Requirements
+## <a name="Requirements"></a> Understanding the Requirements
  The high-level design of a complete application is most effectively developed together with a requirements model or other description of the users' needs. For more information about requirements models, see [Model user requirements](../modeling/model-user-requirements.md).
 
  If the system that you are developing is a component in a larger system, part or all of your requirements might be embodied in programmatic interfaces.
@@ -59,10 +60,10 @@ To help ensure that your software system or application meets your users' needs,
 
  The amount of detail that you should put into either a requirements or an architectural model depends on the scale of the project and the size and distribution of the team. A small team on a short project might go no further than sketching a class diagram of the business concepts and some design patterns; a large project distributed over more than one region would need significantly more detail.
 
-##  <a name="BigDecisions"></a> Architectural Patterns
+## <a name="BigDecisions"></a> Architectural Patterns
  Early in a development, you have to choose the major technologies and elements on which the design depends. The areas in which these choices must be made include the following:
 
--   Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a Web client, and so on.
+-   Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a web client, and so on.
 
 -   Frameworks choices, such as a choice between Windows Workflow Foundation or ADO.NET Entity Framework.
 
@@ -72,10 +73,10 @@ To help ensure that your software system or application meets your users' needs,
 
  The selections that you make affect how you use and interpret the architectural model. For example, in a system that uses a database, associations in a class diagram might represent relations or foreign keys in the database, whereas in a system that is based on XML files, associations might indicate cross-references that use XPath. In a distributed system, messages in a sequence diagram can represent messages on a wire; in a self-contained application, they can represent function calls.
 
-##  <a name="Patterns"></a> Design Patterns
+## <a name="Patterns"></a> Design Patterns
  A design pattern is an outline of how to design a particular aspect of the software, especially one that recurs in different parts of the system. By adopting a uniform approach across the project, you can reduce the cost of design, ensure consistency in the user interface, and reduce the cost of understanding and changing the code.
 
- Some general design patterns such as Observer are well-known and widely applicable. In addition, there are patterns that are applicable just to your project. For example, in a Web sales system, there will be several operations in the code where changes are made to a customer's order. To ensure that the state of the order is accurately displayed at every stage, all these operations must follow a particular protocol to update the database.
+ Some general design patterns such as Observer are well-known and widely applicable. In addition, there are patterns that are applicable just to your project. For example, in a web sales system, there will be several operations in the code where changes are made to a customer's order. To ensure that the state of the order is accurately displayed at every stage, all these operations must follow a particular protocol to update the database.
 
  Part of the work of software architecture is to determine what patterns should be adopted across the design. This is usually an ongoing task, because new patterns and improvements to existing patterns will be discovered as the project progresses. It is helpful to organize the development plan so that you exercise each of your major design patterns at an early stage.
 

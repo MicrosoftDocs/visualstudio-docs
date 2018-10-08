@@ -1,6 +1,7 @@
 ---
 title: "CA2136: Members should not have conflicting transparency annotations"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -28,13 +29,13 @@ ms.workload:
 ## Cause
  This rule fires when a type member is marked with a <xref:System.Security> security attribute that has a different transparency than the security attribute of a container of the member.
 
-## Rule Description
+## Rule description
  Transparency attributes are applied from code elements of larger scope to elements of smaller scope. The transparency attributes of code elements with larger scope take precedence over transparency attributes of code elements that are contained in the first element. For example, a class that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute cannot contain a method that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute.
 
-## How to Fix Violations
+## How to fix violations
  To fix this violation, remove the security attribute from the code element that has lower scope, or change its attribute to be the same as the containing code element.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress warnings from this rule.
 
 ## Example

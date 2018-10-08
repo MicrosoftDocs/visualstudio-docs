@@ -7,6 +7,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Controlling the Visibility of an Icon or Decorator
@@ -73,7 +74,7 @@ A *decorator* is an icon or line of text that appears on a shape in a domain-spe
 
     4.  Under **Visibility Entries**, enter `True`.
 
-3.  Click **Transform All Templates** in the Solution Explorer toolbar.
+3.  Click **Transform All Templates** in the **Solution Explorer** toolbar.
 
 4.  Click **Build Solution** on the **Build** menu.
 

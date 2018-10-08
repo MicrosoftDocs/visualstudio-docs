@@ -54,7 +54,7 @@ You can set the properties for a Web application using the IIS administration to
   
     3.  Click **OK** to close the **Authentication Methods** dialog box.  
   
-5.  For an ATL Server application, verify that the DEBUG verb is associated with your ISAPI extension. For more information, see [How to: Associate DEBUG Verb with Extension](http://msdn.microsoft.com/en-us/50d261d3-4bd4-41c0-b44e-3591086f121e).  
+5.  For an ATL Server application, verify that the DEBUG verb is associated with your ISAPI extension. For more information, see [How to: Associate DEBUG Verb with Extension](https://msdn.microsoft.com/library/50d261d3-4bd4-41c0-b44e-3591086f121e).  
   
 6.  For an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, make sure the virtual folder for the application has an Application Name set in **Internet Information Services (IIS) Manager**, **Internet Services Manager** or **Internet Information Services**.  
   

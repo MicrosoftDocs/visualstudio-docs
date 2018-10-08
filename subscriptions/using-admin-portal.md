@@ -5,7 +5,7 @@ ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
 ms.topic: Get-Started-Article
-mescription: Learn how to manage your organization's Visual Studio subscriptions with the Administrator Portal.
+description: Learn how to manage your organization's Visual Studio subscriptions with the Administrator Portal.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
@@ -20,7 +20,7 @@ Keep this in mind when you use the Visual Studio Subscriptions Administration Po
 - **A subscriber’s subscription level will need to be updated** when the subscription is upgraded (after the purchase of a “step-up” license) or renewed at a lower level. 
 - **Do not share subscriptions between subscribers.** You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.). 
 
-## Adminstrator roles
+## Administrator roles
 
 There are two different roles that exist in the new Visual Studio Subscriptions Administration Portal for Volume Licensing customers. These roles are like the Primary/Notices Contact role and the Subscriptions Manager role in the VLSC today. 
 
@@ -46,7 +46,7 @@ When your organization is ready to be onboarded to the Visual Studio Subscriptio
 > [!NOTE]
 > If the Primary or Notices Contacts receive more than one email, this means that they have more than one PCN. They will need to complete the process using the unique link for the PCN referenced in each email.*
 
-If you need to be added to the new Visual Studio Subscriptions Administration Portal and you aren’t sure who your Primary/Notices Contact is, you can find this information after signing in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx). Take a look at the [Find Your Primary Contact](/find-primary-contact/) topic for steps to locate your Primary/Notices Contact in the VLSC.
+If you need to be added to the new Visual Studio Subscriptions Administration Portal and you aren’t sure who your Primary/Notices Contact is, you can find this information after signing in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx). Take a look at the [Find Your Primary Contact](find-primary-contact.md) topic for steps to locate your Primary/Notices Contact in the VLSC.
 If you have already been set up as an administrator, then you can go directly to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
 
 ### Understanding the Subscribers page
@@ -63,11 +63,11 @@ Once you’ve assigned subscriptions, the Subscribers tab provides detailed info
 - An optional field for a different email address used for communications than sign-in. 
 
 On the left-hand side of this page you can see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement.
-
-   ![Visual Studio Subscriptions Admin Portal Subscibers Page](_img/using-admin-portal/subscribers-page.png)
+> [!div class="mx-imgBorder"]
+> ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png)
 
 ### Understanding the Details page
 For more information about the agreement you are viewing, select the Details tab. It shows the agreement status, purchase account, org details, primary contacts (VLSC), super-admins (if available) and other pertinent information.
-
-   ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
+> [!div class="mx-imgBorder"]
+> ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
 

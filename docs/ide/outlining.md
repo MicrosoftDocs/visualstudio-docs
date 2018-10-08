@@ -1,6 +1,7 @@
 ---
 title: Collapse and expand regions of code in Visual Studio
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -47,4 +48,4 @@ You can also use the Visual Studio SDK to define the text regions you want to ex
 
 ## See also
 
-- [Write code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

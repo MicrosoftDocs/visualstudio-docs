@@ -1,5 +1,5 @@
 ---
-title: Sumbit a job to train model in Azure Batch AI
+title: Submit a job to train model in Azure Batch AI
 description: train model cloud
 keywords: ai, visual studio, train model, cloud
 author: lisawong19
@@ -29,9 +29,9 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
     ![Sample gallery](media\train-model\batchai.png)
 
-3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository.
+3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Azure DevOps, or clone a repository.
 
-    ![Team explorer window showing Visual Studio Team Services, GitHub, and cloning a repository](media\train-model\team-explorer.png)
+    ![Team explorer window showing Azure DevOps, GitHub, and cloning a repository](media\train-model\team-explorer.png)
 
 4. In the URL field under **Local Git Repositories**, enter `https://github.com/Microsoft/samples-for-ai`, enter a folder for the cloned files, and select **Clone**.
 

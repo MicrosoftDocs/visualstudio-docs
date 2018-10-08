@@ -1,6 +1,7 @@
 ---
 title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -22,7 +23,7 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
 ## To open the Code Analysis Policy editor
 
-1. In **Team Explorer**, right-click the team project, click **Team Project Settings**, and then click **Source Control**.
+1. In **Team Explorer**, right-click the project, click **Project Settings**, and then click **Source Control**.
 
      The **Source Control** dialog box appears.
 

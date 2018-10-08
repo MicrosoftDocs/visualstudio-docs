@@ -1,6 +1,7 @@
 ---
 title: "CA1064: Exceptions should be public"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,15 +28,15 @@ ms.workload:
 ## Cause
  A non-public exception derives directly from <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>.
 
-## Rule Description
+## Rule description
  An internal exception is only visible inside its own internal scope. After the exception falls outside the internal scope, only the base exception can be used to catch the exception. If the internal exception is inherited from <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>, the external code will not have sufficient information to know what to do with the exception.
 
  But, if the code has a public exception that later is used as the base for a internal exception, it is reasonable to assume the code further out will be able to do something intelligent with the base exception. The public exception will have more information than what is provided by <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>.
 
-## How to Fix Violations
+## How to fix violations
  Make the exception public, or derive the internal exception from a public exception that is not <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Suppress a message from this rule if you are sure in all cases that the private exception will be caught within its own internal scope.
 
 ## Example

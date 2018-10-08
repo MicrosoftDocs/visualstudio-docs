@@ -1,6 +1,7 @@
 ---
 title: Alias Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -27,7 +28,7 @@ Creates a new alias for a complete command, complete command and arguments, or a
 
 ## Syntax
 
-```
+```cmd
 Tools.Alias [/delete] [/reset] [aliasname] [aliasstring]
 ```
 
@@ -55,19 +56,19 @@ Tools.Alias [/delete] [/reset] [aliasname] [aliasstring]
 ## Examples
  This example creates a new alias, `upper`, for the complete command Edit.MakeUpperCase.
 
-```
+```cmd
 >Tools.Alias upper Edit.MakeUpperCase
 ```
 
  This example deletes the alias, `upper`.
 
-```
+```cmd
 >Tools.alias /delete upper
 ```
 
  This example displays a list of all current aliases and definitions.
 
-```
+```cmd
 >Tools.Alias
 ```
 

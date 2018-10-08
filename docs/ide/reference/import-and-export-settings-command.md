@@ -1,6 +1,7 @@
 ---
 title: Import and Export Settings Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Imports, exports, or resets [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs
 
 ## Syntax
 
-```
+```cmd
 Tools.ImportandExportSettings [/export:filename | /import:filename | /reset]
 ```
 
@@ -43,9 +44,9 @@ Running this command with no switches opens the **Import and Export Settings** w
 
 ## Example
 
-The following command exports the curent settings to the file `MyFile.vssettings`.
+The following command exports the current settings to the file `MyFile.vssettings`.
 
-```shell
+```cmd
 Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
 ```
 

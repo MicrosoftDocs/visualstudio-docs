@@ -1,6 +1,7 @@
 ---
 title: "Run a unit test as a 64-bit process in Visual Studio"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords: 
@@ -32,4 +33,4 @@ If you have a 64-bit machine, you can run unit tests and capture code coverage i
 ## See also
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [Unit test your code](../test/unit-test-your-code.md)

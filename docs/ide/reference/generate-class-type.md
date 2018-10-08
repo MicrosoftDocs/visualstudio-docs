@@ -1,6 +1,7 @@
 ---
 title: Generate a class or type in Visual Studio
 ms.date: 01/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
@@ -61,7 +62,7 @@ This code generation applies to:
    > [!TIP]
    > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.
 
-1. If you selected the **Generate new type...** item, the **Generate Type** dialog box opens. Configure the accessibility, kind, and location of the new type.
+1. If you selected the **Generate new type** item, the **Generate Type** dialog box opens. Configure the accessibility, kind, and location of the new type.
 
    ![Generate type](media/class-newtype-cs.png)
 

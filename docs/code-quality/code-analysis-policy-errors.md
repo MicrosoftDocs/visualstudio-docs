@@ -1,6 +1,7 @@
 ---
 title: Code Analysis Policy Errors
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -19,13 +20,13 @@ The following errors occur if the code analysis policy is not satisfied at check
 
  **The Code Analysis settings for one or more projects are not compatible with Code Analysis policy.**
 
- The code analysis requirements checking in to the team project source control was not met for one or more code projects. This error can be caused by one or more of the following conditions:
+ The code analysis requirements checking in to the project source control was not met for one or more code projects. This error can be caused by one or more of the following conditions:
 
 1.  Code Analysis is not enabled on build for all of the projects in the solution.
 
-2.  The local rule set for the project in Visual Studio has a less restrictive **Action** setting than the team project rule set for example, a rule that is set to **Action**=**Error** on the server has its **Action** set to **Warning** or **None** in the rule set being run in Visual Studio).
+2.  The local rule set for the project in Visual Studio has a less restrictive **Action** setting than the project rule set for example, a rule that is set to **Action**=**Error** on the server has its **Action** set to **Warning** or **None** in the rule set being run in Visual Studio).
 
-3.  The rule set specified in Visual Studio does not contain all of the rules that are specified in the rule set specified in the Code Analysis check-in policy for the team project.
+3.  The rule set specified in Visual Studio does not contain all of the rules that are specified in the rule set specified in the Code Analysis check-in policy for the project.
 
  **The Code Analysis policy failed. There are errors in project {0} or the build is not up to date.**
 
@@ -61,7 +62,7 @@ The following errors occur if the code analysis policy is not satisfied at check
 
  **You must enable Code Analysis in project {0} properties and build before checking in.**
 
- This error applied to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and Web projects. The policy requires managed code analysis to be performed, but it is not enabled in the current project on the client.
+ This error applied to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and web projects. The policy requires managed code analysis to be performed, but it is not enabled in the current project on the client.
 
  **You must enable C/C++ Code Analysis in project {0} properties and build before checking in.**
 

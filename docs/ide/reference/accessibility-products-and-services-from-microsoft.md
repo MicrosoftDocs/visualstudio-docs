@@ -2,6 +2,7 @@
 title: Accessibility products and services from Microsoft
 description: "Learn more about the products and services from Microsoft that can help make our operating systems, programs, and applications more accessible for everyone to use, including people with disabilities."
 ms.date: 08/22/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -49,7 +50,7 @@ Microsoft is committed to making its products and services easier for everyone t
 
  Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer. This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.
 
- To find step-by-step tutorials for Microsoft products, see the [Microsoft Accessibilit](http://go.microsoft.com/fwlink/?LinkId=8431) website.
+ To find step-by-step tutorials for Microsoft products, see the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
 ### Assistive technology products for Windows
 
@@ -59,15 +60,15 @@ Microsoft is committed to making its products and services easier for everyone t
 
 ##  <a name="altfortmats"></a> Documentation in alternative formats
 
- If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats. You can view an index of accessible product documentation on the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
+If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats. You can view an index of accessible product documentation on the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
- In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB&D). RFB&D distributes these documents to registered, eligible members of their distribution service. For information about the availability of Microsoft product documentation and books from Microsoft Press, contact:
+In addition, you can obtain additional Microsoft publications from Learning Ally. Learning Ally distributes these documents to registered, eligible members of their distribution service. For information about the availability of Microsoft product documentation and books from Microsoft Press, contact:
 
-|Recording for the Blind & Dyslexic, Inc.|
+|Learning Ally|
 |----------------------------------------------|
-|20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Telephone number from within the United States: (800) 221-4792<br /><br /> Telephone number from outside the United States and Canada: (609) 452-0606<br /><br /> Fax: (609) 987-8116<br /><br /> Recording for the Blind & Dyslexic website: [http://www.rfbd.org](http://go.microsoft.com/fwlink/?LinkId=62504).|
+|20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Learning Ally website: [http://www.learningally.org](http://www.learningally.org/).|
 
- Web addresses can change, so you might be unable to connect to the website or sites mentioned here.
+Web addresses can change, so you might be unable to connect to the website or sites mentioned here.
 
 ##  <a name="hearing"></a> Customer service for people with hearing impairments
 

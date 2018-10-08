@@ -1,6 +1,7 @@
 ---
 title: "CA1007: Use generics where appropriate"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -13,10 +14,14 @@ ms.assetid: eab780ea-3b1f-4d32-b15a-5d48da2df46b
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1007: Use generics where appropriate
+
 |||
 |-|-|
 |TypeName|UseGenericsWhereAppropriate|
@@ -27,13 +32,13 @@ ms.workload:
 ## Cause
  An externally visible method contains a reference parameter of type <xref:System.Object?displayProperty=fullName>, and the containing assembly targets [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)].
 
-## Rule Description
+## Rule description
  A reference parameter is a parameter that is modified by using the `ref` (`ByRef` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) keyword. The argument type that is supplied for a reference parameter must exactly match the reference parameter type. To use a type that is derived from the reference parameter type, the type must first be cast and assigned to a variable of the reference parameter type. Use of a generic method allows all types, subject to constraints, to be passed to the method without first casting the type to the reference parameter type.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, make the method generic and replace the <xref:System.Object> parameter by using a type parameter.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
@@ -42,7 +47,7 @@ ms.workload:
  [!code-vb[FxCop.Design.UseGenerics#1](../code-quality/codesnippet/VisualBasic/ca1007-use-generics-where-appropriate_1.vb)]
  [!code-csharp[FxCop.Design.UseGenerics#1](../code-quality/codesnippet/CSharp/ca1007-use-generics-where-appropriate_1.cs)]
 
-## Related Rules
+## Related rules
  [CA1005: Avoid excessive parameters on generic types](../code-quality/ca1005-avoid-excessive-parameters-on-generic-types.md)
 
  [CA1010: Collections should implement generic interface](../code-quality/ca1010-collections-should-implement-generic-interface.md)
@@ -57,5 +62,5 @@ ms.workload:
 
  [CA1003: Use generic event handler instances](../code-quality/ca1003-use-generic-event-handler-instances.md)
 
-## See Also
+## See also
  [Generics](/dotnet/csharp/programming-guide/generics/index)

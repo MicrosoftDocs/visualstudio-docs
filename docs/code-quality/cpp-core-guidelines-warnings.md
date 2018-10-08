@@ -6,6 +6,7 @@ ms.assetid: 7c83814a-f21d-4323-ad5f-13bac40d3e38
 author: "mblome"
 ms.author: "mblome"
 manager: wpickett
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.workload:
   - "cplusplus"
@@ -19,11 +20,11 @@ The C++ Core Guidelines are a portable set of guidelines, rules, and best practi
 ## Enable the C++ Core Check guidelines in Code Analysis
  You can enable code analysis on your project by selecting the **Enable Code Analysis on Build** checkbox in the **Code Analysis** section of the **Property Pages** dialog for your project.
 
- ![Property page for Code Analysis General settings](../code-quality/media/cppcorecheck_codeanalysis_general.png "CPPCoreCheck_CodeAnalysis_General")
+ ![Property page for Code Analysis General settings](../code-quality/media/cppcorecheck_codeanalysis_general.png)
 
  The C++ Core Check rules are extensions to the default rule sets that run when code analysis is enabled. Because the C++ Core Check rules are under development, some rules are well established, and some may not be ready for use on all code, but may still be informative. The rules are divided into two groups: released and experimental. You can choose whether to run the released or experimental rules in the properties for your project.
 
- ![Property page for Code Analysis Extensions settings](../code-quality/media/cppcorecheck_codeanalysis_extensions.png "CPPCoreCheck_CodeAnalysis_Extensions")
+ ![Property page for Code Analysis Extensions settings](../code-quality/media/cppcorecheck_codeanalysis_extensions.png)
 
  To enable or disable the C++ Core Check rule sets, open the **Property Pages** dialog for your project. Under **Configuration Properties**, expand  **Code Analysis**, **Extensions**. In the dropdown control next to **Enable C++ Core Check (Released)** or **Enable C++ Core Check (Experimental)**,  choose **Yes** or **No**. Choose **OK** or **Apply** to save your changes.
 
@@ -218,11 +219,11 @@ You will need to set a few environment variables and use proper command line opt
 
 #### To add the Microsoft.CppCoreCheck package to your project in Visual Studio 2015
 
-1.  In **Solution Explorer**, right-click to open the context menu of your Project in the Solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
+1.  In **Solution Explorer**, right-click to open the context menu of your project in the solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
 
 2.  In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.
 
-     ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.PNG "CPPCoreCheck_Nuget_Window")
+     ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.png)
 
 3.  Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.
 

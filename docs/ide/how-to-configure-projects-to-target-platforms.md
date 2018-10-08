@@ -1,6 +1,7 @@
 ---
 title: "How to: Configure projects to target platforms"
-ms.technology:$1ms.date: 11/04/2016
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -21,7 +22,7 @@ ms.workload:
 ---
 # How to: Configure projects to target platforms
 
-Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).
+Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
 
 ## Target platforms with the Configuration Manager
 
@@ -62,5 +63,5 @@ Performing this task varies based on the programming language you are using. See
 
 - [Understand build platforms](../ide/understanding-build-platforms.md)
 - [/platform (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)
-- [64-bit applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)
+- [64-bit applications](/dotnet/framework/64-bit-apps)
 - [Visual Studio IDE 64-Bit support](../ide/visual-studio-ide-64-bit-support.md)

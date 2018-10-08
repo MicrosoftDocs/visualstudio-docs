@@ -1,6 +1,7 @@
 ---
 title: List Memory Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -21,7 +22,7 @@ Displays the contents of the specified range of memory.
 
 ## Syntax
 
-```
+```cmd
 Debug.ListMemory [/ANSI|Unicode] [/Count:number] [/Format:formattype]
 [/Hex|Signed|Unsigned] [expression]
 ```
@@ -51,13 +52,13 @@ Debug.ListMemory [/ANSI|Unicode] [/Count:number] [/Format:formattype]
 ## Remarks
  Instead of writing out a complete **Debug.ListMemory** command with all switches, you can invoke the command using predefined aliases with certain switches preset to specified values. For example, instead of entering:
 
-```
+```cmd
 >Debug.ListMemory /Format:float /Count:30 /Unicode
 ```
 
  you can write:
 
-```
+```cmd
 >df /Count:30 /Unicode
 ```
 
@@ -76,7 +77,7 @@ Debug.ListMemory [/ANSI|Unicode] [/Count:number] [/Format:formattype]
 
 ## Example
 
-```
+```cmd
 >Debug.ListMemory /Format:float /Count:30 /Unicode
 ```
 

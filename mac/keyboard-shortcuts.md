@@ -1,9 +1,9 @@
 ---
 title: "Source Editor Common Keyboard Shortcuts"
-description: 
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
+description: "This article describes some common keyboard shortcuts in Visual Studio for Mac's source editor"
+author: conceptdev
+ms.author: crdun
+ms.date: 05/06/2018
 ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 ---
 
@@ -27,7 +27,7 @@ This command contextually generates code:
 
 ## Quick fixes and actions
 
-Displays [refactoring](~/refactoring.md) context actions:
+Displays [refactoring](refactoring.md) context actions:
 
 `option + enter`
 

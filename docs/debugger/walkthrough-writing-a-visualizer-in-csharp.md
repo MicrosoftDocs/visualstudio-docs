@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Writing a Visualizer in C# | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "08/01/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -32,7 +32,7 @@ Follow the tasks below to create a visualizer.
   
 1.  On the **File** menu, choose **New > Project**.  
   
-2.  In the **New Project** dialog box, under **Visual C#**, select **.NET Standard**.  
+2.  In the **New Project** dialog box, under **Visual C#**, and then select **.NET Standard**.  
   
 3.  In the middle pane, choose **Class Library**.  
   
@@ -159,7 +159,7 @@ Follow the tasks below to create a visualizer.
   
 1.  On the **File** menu, choose **Add** and then click **New Project**.  
   
-2.  In the **Add New Project** dialog box, in the **Templates** box, choose **Console Application**.  
+2.  In the **Add New Project** dialog box, choose **Visual C#** > **Windows Desktop**, and then choose **Console Application**.  
   
 3.  In the **Name** box, type a meaningful name for the console application, such as `MyTestConsole`.  
   

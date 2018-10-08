@@ -1,6 +1,7 @@
 ---
 title: Options, Text Editor, General
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -82,7 +83,7 @@ When selected, displays a vertical margin along the left edge of the editor's te
 
 |Selection Margin on|Selection Margin off|
 |-------------------------|--------------------------|
-|![HTMLpageSelectionMarginOn screenshot](../../ide/reference/media/vxselmaron.gif "vxSelmaron")|![HTMLpageSelectionMarginOff screenshot](../../ide/reference/media/vxselmaroff.gif "vxSelmaroff")|
+|![HTMLpageSelectionMarginOn screenshot](../../ide/reference/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../../ide/reference/media/vxselmaroff.gif)|
 
 ### Indicator margin
 

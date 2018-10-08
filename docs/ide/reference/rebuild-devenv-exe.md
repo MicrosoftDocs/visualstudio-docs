@@ -1,6 +1,7 @@
 ---
 title: -Rebuild (devenv.exe)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -21,7 +22,7 @@ Cleans and then builds the specified solution configuration.
 
 ## Syntax
 
-```
+```cmd
 devenv SolutionName /rebuild SolnConfigName [/project ProjName] [/projectconfig ProjConfigName]
 ```
 
@@ -53,7 +54,7 @@ devenv SolutionName /rebuild SolnConfigName [/project ProjName] [/projectconfig 
 ## Example
  This example cleans and rebuilds the project `CSharpWinApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.
 
-```
+```cmd
 devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /rebuild Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
 ```
 

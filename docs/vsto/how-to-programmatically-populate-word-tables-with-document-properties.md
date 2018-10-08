@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically Populate Word Tables with Document Properties | Microsoft Docs"
+title: "How to: Programmatically populate Word tables with document properties"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -17,14 +17,14 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Populate Word Tables with Document Properties
+# How to: Programmatically populate Word tables with document properties
   The following example creates a Microsoft Office Word table at the top of the document and populates it with the properties of the host document.  
   
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
   
-## Populating Tables in a Document-Level Customization  
+## Populate tables in a document-level customization  
   
-#### To create a table and populate it with document properties  
+### To create a table and populate it with document properties  
   
 1.  Set the range to the top of the document.  
   
@@ -56,9 +56,9 @@ ms.workload:
  [!code-vb[Trin_VstcoreWordAutomation#89](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#89)]
  [!code-csharp[Trin_VstcoreWordAutomation#89](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#89)]  
   
-## Populating Tables in a VSTO Add-in  
+## Populate tables in a VSTO Add-in  
   
-#### To create a table and populate it with document properties  
+### To create a table and populate it with document properties  
   
 1.  Set the range to the top of the document.  
   
@@ -90,10 +90,10 @@ ms.workload:
  [!code-vb[Trin_VstcoreWordAutomationAddIn#89](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#89)]
  [!code-csharp[Trin_VstcoreWordAutomationAddIn#89](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#89)]  
   
-## See Also  
- [How to: Programmatically Create Word Tables](../vsto/how-to-programmatically-create-word-tables.md)   
- [How to: Programmatically Add Text and Formatting to Cells in Word Tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)   
- [How to: Programmatically Add Rows and Columns to Word Tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)   
- [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
+## See also  
+ [How to: Programmatically create Word tables](../vsto/how-to-programmatically-create-word-tables.md)   
+ [How to: Programmatically add text and formatting to cells in Word tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)   
+ [How to: Programmatically add rows and columns to Word tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)   
+ [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
   

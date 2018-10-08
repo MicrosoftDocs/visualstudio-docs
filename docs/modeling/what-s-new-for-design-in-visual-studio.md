@@ -1,6 +1,7 @@
 ---
 title: What's new for design in Visual Studio
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
@@ -58,18 +59,13 @@ For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualst
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-<a name="VersionSupport"></a>
-## Version support for architecture and modeling tools
+## <a name="VersionSupport" />Edition support for architecture and modeling tools
 
-Visual Studio is available in several versions. Not all of these provide support for the architecture and modelling tools. The following table shows the availability of each tool.
+Visual Studio 2017 is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 
-|**Feature**|**Enterprise**|**Professional**|**Community**|**Express**|
-|-----------------|--------------------|----------------------|-------------------|-----------------|
-|**Code maps**|Yes|See Note (1)|-|-|
-|**Dependency diagrams**|Yes|See Note (2)|See Note (2)|-|
-|**Directed graphs** (DGML diagrams)|Yes|Yes|Yes|-|
-|**Code clone**|Yes|-|-|-|
-
-Note (1): Only supports reading code maps, filtering code maps, adding new generic nodes, and creating a new Directed Graph from a selection.
-
-Note (2): Only supports reading dependency diagrams.
+|**Feature**|**Enterprise edition**|**Professional edition**|**Community edition**|
+|-----------------|--------------------|----------------------|-------------------|
+|**Code maps**|Yes|Only supports reading code maps, filtering code maps, adding new generic nodes, and creating a new Directed Graph from a selection.|-|
+|**Dependency diagrams**|Yes|Only supports reading dependency diagrams.|Only supports reading dependency diagrams.|
+|**Directed graphs** (DGML diagrams)|Yes|Yes|Yes|
+|**Code clone**|Yes|-|-|

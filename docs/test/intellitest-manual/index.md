@@ -1,6 +1,7 @@
 ---
 title: "IntelliTest Reference Manual | Microsoft Developer Test Tools"
 ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:

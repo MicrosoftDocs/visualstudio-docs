@@ -9,10 +9,10 @@ helpviewer_keywords:
 ms.assetid: 7d316945-06e0-4d8e-ba3a-0ef96fc75399
 manager: "douge"
 ---
-# In-Place Activation
+# In-place activation
 If your editor view hosts ActiveX or other active controls, you must implement your editor view either as an ActiveX control or as an active document data object using the in-place activation model.  
   
-## Support for Menus, Toolbars, and Commands  
+## Support for menus, toolbars, and commands  
  Visual Studio allows your editor view to use the menus and toolbars of the IDE. These extensions are referred to as *OLE in-place components*. For more information, see the <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager>.  
   
  If you implement an ActiveX control, you can host other embedded objects. If you implement a document data object, the window frame constrains your ability to use ActiveX controls.  
@@ -20,18 +20,18 @@ If your editor view hosts ActiveX or other active controls, you must implement y
 > [!NOTE]
 >  The <xref:Microsoft.VisualStudio.OLE.Interop.IOleDocument> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleDocumentView> interfaces allow for a separation of data and view. However, Visual Studio does not support this functionality, and these interfaces are used only to represent the document view object.  
   
- Editors that use the <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> service can provide menu, toolbar, and command integration by calling the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> interface implemented by the <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> service. Editors can also offer other Visual Studio functionality, such as selection tracking and undo management. For more information, see [Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md).  
+ Editors that use the <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> service can provide menu, toolbar, and command integration by calling the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> interface implemented by the <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> service. Editors can also offer other Visual Studio functionality, such as selection tracking and undo management. For more information, see [Create custom editors and designers](../extensibility/creating-custom-editors-and-designers.md).  
   
-## Objects and Interfaces Used  
+## Objects and interfaces used  
  The objects that are used to create in-place activation are shown in the following illustration.  
   
  ![In&#45;place Activation Editor](../extensibility/media/vsinplaceactivationeditor.gif "vsInPlaceActivationEditor")  
 In-place activation editor  
   
 > [!NOTE]
->  Of the objects in this drawing, only the `CYourEditorFactory` object is required to create a standard editor. If you are creating a custom editor, you are not required to implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> because your editor will likely have its own private persistence mechanism. For more information, see [Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md).  
+>  Of the objects in this drawing, only the `CYourEditorFactory` object is required to create a standard editor. If you are creating a custom editor, you are not required to implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> because your editor will likely have its own private persistence mechanism. For more information, see [Create custom editors and designers](../extensibility/creating-custom-editors-and-designers.md).  
   
- All interfaces that are implemented to create an in-place activation editor are shown on the single `CYourEditorDocument` object, but this configuration only supports a single view of document data. For more information about supporting multiple views of your document data, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
+ All interfaces that are implemented to create an in-place activation editor are shown on the single `CYourEditorDocument` object, but this configuration only supports a single view of document data. For more information about supporting multiple views of your document data, see [Support multiple document views](../extensibility/supporting-multiple-document-views.md).  
   
 |Interface|Type of object|Use|  
 |---------------|--------------------|---------|  

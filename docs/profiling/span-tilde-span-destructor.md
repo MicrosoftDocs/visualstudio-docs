@@ -15,19 +15,19 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# span::~span Destructor
+# span::~span destructor
 Destroys the `span` object and releases its resources.  
   
 ## Syntax  
   
-```  
+```cpp  
 ~span();  
 ```  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic
  
- ## See Also
- [span Class](../profiling/span-class.md)
+ ## See also
+ [span class](../profiling/span-class.md)

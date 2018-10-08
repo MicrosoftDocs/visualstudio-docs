@@ -14,15 +14,15 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# COM Constants in Managed Code
+# COM constants in managed code
 The Managed Package Framework (MPF) makes some standard COM constants available to managed code. These constants are listed below for your reference.  
   
-## Boolean HRESULT Values  
+## Boolean HRESULT values  
  <xref:Microsoft.VisualStudio.VSConstants.S_FALSE>  
   
  <xref:Microsoft.VisualStudio.VSConstants.S_OK>  
   
-## HRESULT Values  
+## HRESULT values  
  <xref:Microsoft.VisualStudio.VSConstants.E_ABORT>  
   
  <xref:Microsoft.VisualStudio.VSConstants.E_ACCESSDENIED>  
@@ -47,7 +47,7 @@ The Managed Package Framework (MPF) makes some standard COM constants available 
   
  <xref:Microsoft.VisualStudio.VSConstants.UNDO_E_CLIENTABORT>  
   
-## OLE Errors  
+## OLE errors  
  <xref:Microsoft.VisualStudio.VSConstants.OLE_E_ADVF>  
   
  <xref:Microsoft.VisualStudio.VSConstants.OLE_E_ADVISENOTSUPPORTED>  
@@ -86,7 +86,7 @@ The Managed Package Framework (MPF) makes some standard COM constants available 
   
  <xref:Microsoft.VisualStudio.VSConstants.OLE_E_WRONGCOMPOBJ>  
   
-## OLE Dispatch Errors  
+## OLE dispatch errors  
  <xref:Microsoft.VisualStudio.VSConstants.DISP_E_ARRAYISLOCKED>  
   
  <xref:Microsoft.VisualStudio.VSConstants.DISP_E_BADCALLEE>  
@@ -123,5 +123,5 @@ The Managed Package Framework (MPF) makes some standard COM constants available 
   
  <xref:Microsoft.VisualStudio.VSConstants.DISP_E_UNKNOWNNAME>  
   
-## See Also  
- [Error Handling and Return Values](../extensibility/error-handling-and-return-values.md)
+## See also  
+ [Error handling and return values](../extensibility/error-handling-and-return-values.md)

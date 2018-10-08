@@ -1,6 +1,7 @@
 ---
 title: "CA1801: Review unused parameters"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -28,27 +29,27 @@ ms.workload:
 ## Cause
  A method signature includes a parameter that is not used in the method body. This rule does not examine the following methods:
 
--   Methods referenced by a delegate.
+- Methods referenced by a delegate.
 
--   Methods used as event handlers.
+- Methods used as event handlers.
 
--   Methods declared with the `abstract` (`MustOverride` in Visual Basic) modifier.
+- Methods declared with the `abstract` (`MustOverride` in Visual Basic) modifier.
 
--   Methods declared with the `virtual` (`Overridable` in Visual Basic) modifier.
+- Methods declared with the `virtual` (`Overridable` in Visual Basic) modifier.
 
--   Methods declared with the `override` (`Overrides` in Visual Basic) modifier.
+- Methods declared with the `override` (`Overrides` in Visual Basic) modifier.
 
--   Methods declared with the `extern` (`Declare` statement in Visual Basic) modifier.
+- Methods declared with the `extern` (`Declare` statement in Visual Basic) modifier.
 
-## Rule Description
+## Rule description
  Review parameters in non-virtual methods that are not used in the method body to make sure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs.
 
  Sometimes a violation of this rule can point to an implementation bug in the method. For example, the parameter should have been used in the method body. Suppress warnings of this rule if the parameter has to exist because of backward compatibility.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove the unused parameter (a breaking change) or use the parameter in the method body (a non-breaking change).
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule for previously shipped code for which the fix would be a breaking change.
 
 ## Example
@@ -56,7 +57,7 @@ ms.workload:
 
  [!code-csharp[FxCop.Usage.ReviewUnusedParameters#1](../code-quality/codesnippet/CSharp/ca1801-review-unused-parameters_1.cs)]
 
-## Related Rules
+## Related rules
  [CA1811: Avoid uncalled private code](../code-quality/ca1811-avoid-uncalled-private-code.md)
 
  [CA1812: Avoid uninstantiated internal classes](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md)

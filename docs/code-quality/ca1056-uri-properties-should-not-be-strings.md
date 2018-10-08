@@ -1,6 +1,7 @@
 ---
 title: "CA1056: URI properties should not be strings"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -13,10 +14,15 @@ ms.assetid: fdc99d29-0904-4a65-baa8-4f76833c953e
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CPP
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1056: URI properties should not be strings
+
 |||
 |-|-|
 |TypeName|UriPropertiesShouldNotBeStrings|
@@ -27,13 +33,13 @@ ms.workload:
 ## Cause
  A type declares a string property whose name contains "uri", "Uri", "urn", "Urn", "url", or "Url".
 
-## Rule Description
+## Rule description
  This rule splits the property name into tokens based on the Pascal casing convention and checks whether each token equals "uri", "Uri", "urn", "Urn", "url", or "Url". If there is a match, the rule assumes that the property represents a uniform resource identifier (URI). A string representation of a URI is prone to parsing and encoding errors, and can lead to security vulnerabilities. The <xref:System.Uri?displayProperty=fullName> class provides these services in a safe and secure manner.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the property to a <xref:System.Uri> type.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule if the property does not represent a URI.
 
 ## Example
@@ -43,7 +49,7 @@ ms.workload:
  [!code-vb[FxCop.Design.UriNotString#1](../code-quality/codesnippet/VisualBasic/ca1056-uri-properties-should-not-be-strings_1.vb)]
  [!code-cpp[FxCop.Design.UriNotString#1](../code-quality/codesnippet/CPP/ca1056-uri-properties-should-not-be-strings_1.cpp)]
 
-## Related Rules
+## Related rules
  [CA1054: URI parameters should not be strings](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)
 
  [CA1055: URI return values should not be strings](../code-quality/ca1055-uri-return-values-should-not-be-strings.md)

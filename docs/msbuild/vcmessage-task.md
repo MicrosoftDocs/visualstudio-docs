@@ -1,7 +1,7 @@
 ---
 title: "VCMessage Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/27/2018"
 ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
@@ -22,7 +22,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# VCMessage Task
+# VCMessage task
 Logs warning and error messages during a build.  
   
 ## Remarks  
@@ -35,7 +35,7 @@ Logs warning and error messages during a build.
 |---------------|-----------------|  
 |**Arguments**|Optional **String** parameter.<br /><br /> A semicolon-delimited list of messages to display.|  
 |**Code**|Required **String** parameter.<br /><br /> An error number that qualifies the message.|  
-|**Type**|Optional **String** parameter.<br /><br /> Specifies the kind of message to emit. Specify either `"Warning"` to emit a warning message, or `"Error"` to emit an error message.|  
+|**Type**|Optional **String** parameter.<br /><br /> Specifies the kind of message to emit. Specify either "Warning" to emit a warning message, or "Error" to emit an error message.|  
   
-## See Also  
- [Task Reference](../msbuild/msbuild-task-reference.md)
+## See also  
+ [Task reference](../msbuild/msbuild-task-reference.md)

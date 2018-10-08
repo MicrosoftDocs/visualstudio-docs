@@ -1,6 +1,7 @@
 ---
 title: "CA1719: Parameter names should not match member names"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,16 +28,16 @@ ms.workload:
 ## Cause
  The name of an externally visible member matches, in a case-insensitive comparison, the name of one of its parameters.
 
-## Rule Description
+## Rule description
  A parameter name should communicate the meaning of a parameter and a member name should communicate the meaning of a member. It would be a rare design where these were the same. Naming a parameter the same as its member name is unintuitive and makes the library difficult to use.
 
-## How to Fix Violations
+## How to fix violations
  Select a parameter name that does not match the member name.
 
-## When to Suppress Warnings
+## When to suppress warnings
  For new development, no known scenarios occur where you must suppress a warning from this rule. For shipping libraries, you might have to suppress a warning from this rule.
 
-## Related Rules
+## Related rules
  [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
 
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)

@@ -1,6 +1,7 @@
 ---
 title: "CA1065: Do not raise exceptions in unexpected locations"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -29,7 +30,7 @@ ms.workload:
 
 A method that is not expected to throw exceptions throws an exception.
 
-## Rule Description
+## Rule description
 
 Methods that are not expected to throw exceptions can be categorized as follows:
 
@@ -129,17 +130,17 @@ Like Equals methods, equality operators should return either `true` or `false`, 
 
 Because the user is often unaware that an implicit cast operator has been called, an exception thrown by the implicit cast operator is unexpected. Therefore, no exceptions should be thrown from implicit cast operators.
 
-## How to Fix Violations
+## How to fix violations
 
 For property getters, either change the logic so that it no longer has to throw an exception, or change the property into a method.
 
 For all other method types listed previously, change the logic so that it no longer must throw an exception.
 
-## When to Suppress Warnings
+## When to suppress warnings
 
 If the violation was caused by an exception declaration instead of a thrown exception, it is safe to suppress a warning from this rule.
 
-## Related Rules
+## Related rules
 
 - [CA2219: Do not raise exceptions in exception clauses](../code-quality/ca2219-do-not-raise-exceptions-in-exception-clauses.md)
 

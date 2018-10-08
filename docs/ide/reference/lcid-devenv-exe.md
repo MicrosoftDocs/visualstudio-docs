@@ -1,6 +1,7 @@
 ---
 title: -LCID (devenv.exe)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -23,7 +24,7 @@ Sets the default language used for text, currency, and other values within the i
 
 ## Syntax
 
-```
+```cmd
 devenv {/LCID|/l} LocaleID
 ```
 
@@ -53,7 +54,7 @@ devenv {/LCID|/l} LocaleID
 ## Example
  This example loads the IDE with English resources strings.
 
-```
+```cmd
 devenv /LCID 1033
 ```
 

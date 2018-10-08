@@ -10,11 +10,12 @@ ms.assetid: 2cd873cf-b010-49f2-a278-bb1277aaa934
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
-# Working with a Conceptual Model (WCF Data Services)
+# Work with a Conceptual Model (WCF Data Services)
 
 When you use a conceptual model to describe the data in a database, you can query data through your objects instead of having to translate back and forth between a database schema and an object model.
 
@@ -22,8 +23,8 @@ When you use a conceptual model to describe the data in a database, you can quer
 
 |Topic|Description|
 |-----------|-----------------|
-|[How to: Execute Data Service Queries](/dotnet/framework/data/wcf/how-to-execute-data-service-queries-wcf-data-services)|Shows how to query a data service from a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] application.|
-|[How to: Project Query Results](/dotnet/framework/data/wcf/how-to-project-query-results-wcf-data-services)|Shows how to reduce the amount of data returned through a data service query.|
+|[How to: Execute Data Service queries](/dotnet/framework/data/wcf/how-to-execute-data-service-queries-wcf-data-services)|Shows how to query a data service from a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] application.|
+|[How to: Project query results](/dotnet/framework/data/wcf/how-to-project-query-results-wcf-data-services)|Shows how to reduce the amount of data returned through a data service query.|
 
  When you use a conceptual model, you can define what kind of data is valid in the language that matches your domain. You can define valid data in the model, or you can add validation to operations that you perform on an entity or data service.
 
@@ -31,14 +32,14 @@ When you use a conceptual model to describe the data in a database, you can quer
 
 |Topic|Description|
 |-----------|-----------------|
-|[How to: Intercept Data Service Messages](/dotnet/framework/data/wcf/how-to-intercept-data-service-messages-wcf-data-services)|Shows how to add validation to a data service operation.|
+|[How to: Intercept Data Service messages](/dotnet/framework/data/wcf/how-to-intercept-data-service-messages-wcf-data-services)|Shows how to add validation to a data service operation.|
 
  The following topics show how to create, update, and delete data by performing operations on entities.
 
 |Topic|Description|
 |-----------|-----------------|
-|[How to: Add, Modify, and Delete Entities](/dotnet/framework/data/wcf/how-to-add-modify-and-delete-entities-wcf-data-services)|Shows how to create, update, and delete entity data in a data service.|
-|[How to: Define Entity Relationships](/dotnet/framework/data/wcf/how-to-define-entity-relationships-wcf-data-services)|Shows how to create or change relationships in a data service.|
+|[How to: Add, modify, and delete entities](/dotnet/framework/data/wcf/how-to-add-modify-and-delete-entities-wcf-data-services)|Shows how to create, update, and delete entity data in a data service.|
+|[How to: Define entity relationships](/dotnet/framework/data/wcf/how-to-define-entity-relationships-wcf-data-services)|Shows how to create or change relationships in a data service.|
 
 ## See also
 

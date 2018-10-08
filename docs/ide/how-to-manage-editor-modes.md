@@ -1,6 +1,7 @@
 ---
 title: "Visual Studio full screen and virtual space mode"
-ms.technology:$1ms.date: 11/04/2016
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:

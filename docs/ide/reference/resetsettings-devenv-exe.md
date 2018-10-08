@@ -1,6 +1,7 @@
 ---
 title: -ResetSettings (devenv.exe)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -22,7 +23,7 @@ The default settings are determined by the profile that was selected when Visual
 
 ## Syntax
 
-```
+```cmd
 Devenv /ResetSettings SettingsFile
 ```
 
@@ -42,7 +43,7 @@ If no `SettingsFile` is specified, you are prompted to select a default collecti
 
 The following command line applies the settings stored in the file `MySettings.vssettings`.
 
-```
+```cmd
 Devenv.exe /ResetSettings "C:\My Files\MySettings.vssettings"
 ```
 

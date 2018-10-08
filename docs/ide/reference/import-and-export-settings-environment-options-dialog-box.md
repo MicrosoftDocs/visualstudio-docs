@@ -1,6 +1,7 @@
 ---
 title: Import and Export Settings, Environment, Options Dialog Box
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:

@@ -1,6 +1,7 @@
 ---
 title: Customize build and debug tasks in Visual Studio using tasks.vs.json and launch.vs.json
 ms.date: 02/21/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -309,4 +310,4 @@ Settings read from the *.gitignore* file are applied to its parent directory and
 - [Open Folder projects for C++](/cpp/ide/non-msbuild-projects)
 - [CMake projects in C++](/cpp/ide/cmake-tools-for-visual-cpp)
 - [NMAKE reference](/cpp/build/nmake-reference)
-- [Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

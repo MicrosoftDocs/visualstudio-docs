@@ -5,58 +5,60 @@ ms.author: jaunger
 manager: evelynp
 ms.date: 01/11/2017
 ms.topic: Get-Started-Article
-description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.  
+description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
-
 #  WhiteSource Bolt in Visual Studio subscriptions
 
-Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build.  Select Visual Studio subscriptions include six months of free access. 
+Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build. Some Visual Studio subscriptions include six months of free access.
 
 ## Activation steps
 
 1.	To activate your WhiteSource Bolt benefit, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) .
 
-2.  Locate the WhiteSource Bolt tile in the Tools section, and click on the **Get Code** link at the bottom of the benefit tile.    
+2.  Locate the WhiteSource Bolt tile in the Tools section, and click on the **Get Code** link at the bottom of the benefit tile.
+    > [!div class="mx-imgBorder"]
+    > ![WhiteSource Benefit Tile](_img\vs-whitesource\vs-whitesource-tile.png)
 
-    ![WhiteSource Benefit Tile](_img\vs-whitesource\vs-whitesource-tile.png)
+2.  You’ll receive a notification displaying your activation code.  **Copy the code to your clipboard**, then click **Activate**.
+    > [!div class="mx-imgBorder"]
+    > ![WhiteSource Benefit Code ](_img\vs-whitesource\vs-whitesource-code.png)
 
-2.  You’ll receive a notification displaying your activation code.  **Copy the code to your clipboard**, then click **Activate**. 
-
-    ![WhiteSource Benefit Code ](_img\vs-whitesource\vs-whitesource-code.png)
-
-3.	On the WhiteSource web page, click on the **Activate** button or scroll down to the **Activate your account** section of the page.  
-
-    ![WhiteSource Benefit Activate](_img\vs-whitesource\vs-whitesource-activate-page-cropped.png)
+3.	On the WhiteSource web page, click on the **Activate** button or scroll down to the **Activate your account** section of the page.
+    > [!div class="mx-imgBorder"]
+    > ![WhiteSource Benefit Activate](_img\vs-whitesource\vs-whitesource-activate-page-cropped.png)
 
 4.	In the **Activate your account** section of the page, you’ll be guided through four steps:
-    - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, please visit [this page](https://www.visualstudio.com/docs/marketplace/get-vsts-extensions#request).
 
-    Click the green **Install** button if you are using VSTS, or the **Download** button for Team Foundation Server.  For this example, we will use VSTS. 
+    - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, see [Install free extensions for Azure DevOps Services](/azure/devops/marketplace/install-vsts-extension?view=vsts).
 
-    ![WhiteSource Benefit Install Extension](_img\vs-whitesource\vs-whitesource-download-install.png)
 
-    - Next, select the VSTS account you want to use and click **Confirm**.  (If you have not yet set up VSTS, visit the [Benefits](https://my.visualstudio.com/benefits) page and activate your VSTS benefit.)
+    Click the green **Install** button if you are using Azure DevOps Services, or the **Download** button for Team Foundation Server.  For this example, we will use Azure DevOps Services.
+    > [!div class="mx-imgBorder"]
+    > ![WhiteSource Benefit Install Extension](_img\vs-whitesource\vs-whitesource-download-install.png)
 
-    ![WhiteSource Benefit Confirm Account](_img\vs-whitesource\vs-whitesource-confirm-account.png)
+    - Next, select the Azure DevOps organization you want to use and click **Confirm**.  (If you have not yet set up Azure DevOps Services, visit the [Benefits](https://my.visualstudio.com/benefits) page and activate your Azure DevOps Services benefit.)
 
-    - You’ll receive a confirmation that the extension is installed and ready to use.  Click **Get started** to return to the WhiteSource Bolt page and continue.  
+    > [!div class="mx-imgBorder"]
+    > ![WhiteSource Benefit Confirm Account](_img\vs-whitesource\vs-whitesource-confirm-account.png)
 
-    ![WhiteSource Benefit Install Complete](_img\vs-whitesource\vs-whitesource-install-complete.png)
+    - You’ll receive a confirmation that the extension is installed and ready to use.  Click **Get started** to return to the WhiteSource Bolt page and continue.
+    > [!div class="mx-imgBorder"]
+    > ![WhiteSource Benefit Install Complete](_img\vs-whitesource\vs-whitesource-install-complete.png)
 
-5.  Open your Visual Studio Team Services (VSTS) project dashboard, click on the **Build & Release** menu and choose **WhiteSource Bolt**.
+5.  Open your Azure DevOps project dashboard, click on the **Azure Pipelines** menu and choose **WhiteSource Bolt**.
+    > [!div class="mx-imgBorder"]
+    > ![WhiteSource Benefit Add Extension](_img\vs-whitesource\vs-whitesource-installed-cropped.png)
 
-    ![WhiteSource Benefit Add Extension](_img\vs-whitesource\vs-whitesource-installed-cropped.png)
+6. Paste the activation code from the WhiteSource Bolt benefit tile and click **Activate**. Each of your activation codes can be used to activate only one project.
+    > [!div class="mx-imgBorder"]
+    > ![WhiteSource Benefit Activate Code](_img\vs-whitesource\vs-whitesource-activate-code-cropped.png)
 
-6. Paste the activation code from the WhiteSource Bolt benefit tile and click **Activate**. Each of your activation codes can be used to activate only one project. 
+7.  Your activation is now complete, and you will have 180 days remaining on your subscription.
 
-    ![WhiteSource Benefit Activate Code](_img\vs-whitesource\vs-whitesource-activate-code-cropped.png)
-
-7.  Your activation is now complete, and you will have 180 days remaining on your subscription. 
-
-8.  You’ll need to add the WhiteSource Bolt extension as one of your build steps.  A video is available on the [WhiteSource Bolt page](https://www.whitesourcesoftware.com/whitesource_bolt_visualstudio_2017/#activate) to show you how.  
+8.  You’ll need to add the WhiteSource Bolt extension as one of your build steps.  A video is available on the [WhiteSource Bolt page](https://www.whitesourcesoftware.com/whitesource_bolt_visualstudio_2017/#activate) to show you how.
 
 9. Once you’ve run your build, the following comprehensive reports and dashboards will be generated automatically:
     - Security vulnerabilities dashboard
@@ -66,6 +68,7 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
     - Inventory report
 
 ## Eligibility
+
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes          |
@@ -77,11 +80,10 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 
 <sup>1</sup>  *Includes:  Microsoft Partner Network (Enterprise).  Excludes: Other Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Partner (MVP), Region Director (RD), MCT Software & Services, Microsoft Partner Network (Professional).*
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
-
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support resources
--  Need help with WhiteSource Bolt?  Chat with a WhiteSource Bolt representative live at https://www.whitesourcesoftware.com/vse_whitesource_bolt/ 
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 
 
+-  Need help with WhiteSource Bolt?  Chat with a WhiteSource Bolt representative live at https://www.whitesourcesoftware.com/vse_whitesource_bolt/
+-  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

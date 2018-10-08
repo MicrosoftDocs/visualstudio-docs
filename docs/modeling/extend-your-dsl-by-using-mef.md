@@ -7,14 +7,16 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Extend your DSL by using MEF
+
 You can extend your domain-specific language (DSL) by using Managed Extensibility Framework (MEF). You or other developers will be able to write extensions for the DSL without changing the DSL definition and program code. Such extensions include menu commands, drag-and-drop handlers, and validation. Users will be able to install your DSL, and then optionally install extensions for it.
 
- In addition, when you enable MEF in your DSL, it can be easier for you to write some of the features of your DSL, even if they are all built together with the DSL.
+In addition, when you enable MEF in your DSL, it can be easier for you to write some of the features of your DSL, even if they are all built together with the DSL.
 
- For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
+For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
 
 ### To enable your DSL to be extended by MEF
 
@@ -23,7 +25,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
      File name: `CommandExtensionVSCT.tt`
 
     > [!IMPORTANT]
-    >  Set the GUID in this file to be the same as the GUID CommandSetId that is defined in DslPackage\GeneratedCode\Constants.tt
+    > Set the GUID in this file to be the same as the GUID CommandSetId that is defined in DslPackage\GeneratedCode\Constants.tt
 
     ```
     <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
@@ -36,30 +38,30 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
     <#@ include file="DslPackage\CommandExtensionVSCT.tt" #>
     ```
 
-     File name: `CommandExtensionRegistrar.tt`
+    File name: `CommandExtensionRegistrar.tt`
 
     ```
     <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
     <#@ include file="DslPackage\CommandExtensionRegistrar.tt" #>
     ```
 
-     File name: `ValidationExtensionEnablement.tt`
+    File name: `ValidationExtensionEnablement.tt`
 
     ```
     <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
     <#@ include file="DslPackage\ValidationExtensionEnablement.tt" #>
     ```
 
-     File name: `ValidationExtensionRegistrar.tt`
+    File name: `ValidationExtensionRegistrar.tt`
 
-     If you add this file, you must enable validation in your DSL by using at least one of the switches in **EditorValidation** in DSL Explorer.
+    If you add this file, you must enable validation in your DSL by using at least one of the switches in **EditorValidation** in DSL Explorer.
 
     ```
     <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
     <#@ include file="DslPackage\ValidationExtensionRegistrar.tt" #>
     ```
 
-     File name: `PackageExtensionEnablement.tt`
+    File name: `PackageExtensionEnablement.tt`
 
     ```
     <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
@@ -75,14 +77,14 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
     <#@ include file="Dsl\DesignerExtensionMetadataAttribute.tt" #>
     ```
 
-     File name: `GestureExtensionEnablement.tt`
+    File name: `GestureExtensionEnablement.tt`
 
     ```
     <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
     <#@ include file="Dsl\GestureExtensionEnablement.tt" #>
     ```
 
-     File name: `GestureExtensionController.tt`
+    File name: `GestureExtensionController.tt`
 
     ```
     <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>
@@ -91,28 +93,29 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
 
 3.  Add the following line to the existing file that is named **DslPackage\Commands.vsct**:
 
-    ```
+    ```xml
     <Include href="MefExtension\CommandExtensionVSCT.vsct"/>
     ```
 
-     Insert the line after the existing `<Include>` directive.
+    Insert the line after the existing `<Include>` directive.
 
-4.  `Open DslDefinition.dsl.`
+4.  Open *DslDefinition.dsl*.
 
 5.  In DSL Explorer, select **Editor\Validation**.
 
-6.  In the Properties window, make sure that at least one of the properties named **Uses...** is `true`.
+6.  In the Properties window, make sure that at least one of the properties named **Uses** is `true`.
 
-7.  In the Solution Explorer toolbar, click **Transform All Templates**.
+7.  In the **Solution Explorer** toolbar, click **Transform All Templates**.
 
      Subsidiary files appear underneath each of the files that you added.
 
 8.  Build and run the solution to verify that it is still working.
 
- Your DSL is now MEF-enabled. You can write menu commands, gestures handlers, and validation constraints as MEF extensions. You can write these extensions in your DSL solution together with other custom code. In addition, you or other developers can write separate [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extensions that extend your DSL.
+Your DSL is now MEF-enabled. You can write menu commands, gestures handlers, and validation constraints as MEF extensions. You can write these extensions in your DSL solution together with other custom code. In addition, you or other developers can write separate Visual Studio extensions that extend your DSL.
 
 ## Creating an extension for a MEF-enabled DSL
- If you have access to a MEF-enabled DSL created by yourself or someone else, you can write extensions for it. The extensions can be used to add menu commands, gestures handlers, or validation constraints. To author these extensions, you use a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension (VSIX) solution. The solution has two parts: a class library project that builds the code assembly, and a VSIX project that packages the assembly.
+
+If you have access to a MEF-enabled DSL created by yourself or someone else, you can write extensions for it. The extensions can be used to add menu commands, gestures handlers, or validation constraints. To author these extensions, you use a Visual Studio extension (VSIX) solution. The solution has two parts: a class library project that builds the code assembly, and a VSIX project that packages the assembly.
 
 #### To create a DSL extension VSIX
 
@@ -154,23 +157,25 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
 
          This lets users install the DSL and your extension at the same time. If the user has already installed the DSL, only your extension will be installed.
 
-9. Review and update the other fields of **source.extension.vsixmanifest**. Click **Select Editions** and verify that the correct [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editions are set.
+9. Review and update the other fields of **source.extension.vsixmanifest**. Click **Select Editions** and verify that the correct Visual Studio editions are set.
 
 10. Add code to the class library project. Use the examples in the next section as a guide.
 
      You can add any number of command, gesture, and validation classes.
 
-11. To test the extension, press **F5**. In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], create or open an example file of the DSL.
+11. To test the extension, press **F5**. In the experimental instance of Visual Studio, create or open an example file of the DSL.
 
 ## Writing MEF extensions for DSLs
- You can write extensions in the assembly code project of a separate DSL extension solution. You can also use MEF in your DslPackage project, as a convenient way to write commands, gestures, and validation code as part of the DSL.
+
+You can write extensions in the assembly code project of a separate DSL extension solution. You can also use MEF in your DslPackage project, as a convenient way to write commands, gestures, and validation code as part of the DSL.
 
 ### Menu Commands
- To write a menu command, define a class that implements <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ICommandExtension> and prefix the class with the attribute that is defined in your DSL, named *YourDsl*`CommandExtension`. You can write more than one menu command class.
 
- `QueryStatus()` is called whenever the user right-clicks the diagram. It should inspect the current selection and set `command.Enabled` to indicate when the command is applicable.
+To write a menu command, define a class that implements <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ICommandExtension> and prefix the class with the attribute that is defined in your DSL, named *YourDsl*`CommandExtension`. You can write more than one menu command class.
 
-```
+`QueryStatus()` is called whenever the user right-clicks the diagram. It should inspect the current selection and set `command.Enabled` to indicate when the command is applicable.
+
+```csharp
 using System.ComponentModel.Composition;
 using System.Linq;
 using Company.MyDsl; // My DSL
@@ -232,16 +237,15 @@ namespace MyMefExtension
     }
   }
 }
-
 ```
 
 ### Gesture Handlers
- A gesture handler can deal with objects dragged onto the diagram from anywhere, inside or outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following example lets the user drag files from Windows Explorer onto the diagram. It creates elements that contain the file names.
 
- You can write handlers to deal with drags from other DSL models and UML models. For more information, see [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).
+A gesture handler can deal with objects dragged onto the diagram from anywhere, inside or outside Visual Studio. The following example lets the user drag files from Windows Explorer onto the diagram. It creates elements that contain the file names.
 
-```
+You can write handlers to deal with drags from other DSL models and UML models. For more information, see [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).
 
+```csharp
 using System.ComponentModel.Composition;
 using System.Linq;
 using Company.MyDsl;
@@ -309,15 +313,15 @@ namespace MefExtension
     }
   }
 }
-
 ```
 
 ### Validation constraints
- Validation methods are marked by the `ValidationExtension` attribute that is generated by the DSL, and also by <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute>. The method can appear in any class that is not marked by an attribute.
 
- For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).
+Validation methods are marked by the `ValidationExtension` attribute that is generated by the DSL, and also by <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute>. The method can appear in any class that is not marked by an attribute.
 
-```
+For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).
+
+```csharp
 using Company.MyDsl;
 using Company.MyDsl.ExtensionEnablement;
 using Microsoft.VisualStudio.Modeling.Validation;
@@ -362,10 +366,9 @@ namespace MefExtension
           // Element to highlight when user double-clicks error:
           , elementToValidate);
 } } } }
-
 ```
 
-## See Also
+## See also
 
 - [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)
 - [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index)

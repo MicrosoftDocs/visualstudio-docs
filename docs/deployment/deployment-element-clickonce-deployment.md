@@ -24,12 +24,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;deployment&gt; Element (ClickOnce Deployment)
+# &lt;deployment&gt; element (ClickOnce deployment)
 Identifies the attributes used for the deployment of updates and exposure to the system.  
   
 ## Syntax  
   
-```  
+```xml  
   
       <deployment   
    install  
@@ -53,7 +53,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 </deployment>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v1` namespace. The element has the following attributes.  
   
 |Attribute|Description|  
@@ -106,7 +106,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ## Examples  
  The following code example illustrates a `deployment` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. The example uses a `deploymentProvider` element to indicate the preferred update location.  
   
-```  
+```xml  
 <deployment install="true" minimumRequiredVersion="2.0.0.0" mapFileExtension="true" trustUrlParameters="true">  
     <subscription>  
       <update>  
@@ -117,5 +117,5 @@ Identifies the attributes used for the deployment of updates and exposure to the
   </deployment>  
 ```  
   
-## See Also  
- [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)
+## See also  
+ [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)

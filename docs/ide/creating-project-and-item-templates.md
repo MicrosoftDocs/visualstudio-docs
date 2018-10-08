@@ -1,6 +1,7 @@
 ---
 title: Visual Studio templates for projects and files
 ms.date: 01/02/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -40,14 +41,10 @@ When these files are compressed into a *.zip* file and put in the correct folder
 
 For more information about template folders, see [How to: Locate and organize templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
-## Starter Kits
-
-Starter Kits are enhanced templates that can be shared with other members of the community. Starter Kits include compilable code samples, documentation, and other resources to help users learn new tools and programming techniques while building useful, real-world applications. The basic contents and procedures for Starter Kits are the same as for templates. For more information, see [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md).
-
 ## See also
 
 - [How to: Create project templates](../ide/how-to-create-project-templates.md)
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)
 - [Template parameters](../ide/template-parameters.md)
-- [Customizing templates](../ide/customizing-project-and-item-templates.md)
+- [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

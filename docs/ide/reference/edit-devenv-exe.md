@@ -1,11 +1,12 @@
 ---
 title: -Edit (devenv.exe)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Devenv, /edit switch"
-  - "/Edit Devenv swtich"
+  - "/Edit Devenv switch"
 ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
 author: gewarren
 ms.author: gewarren
@@ -18,7 +19,7 @@ Opens the specified file in an existing instance of [!INCLUDE[vsprvs](../../code
 
 ## Syntax
 
-```
+```cmd
 Devenv /edit [file1[ file2]]
 ```
 
@@ -39,7 +40,7 @@ Devenv /edit [file1[ file2]]
 ## Example
  This example opens the file `MyFile.cs` in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] or opens the file in a new instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] if one does not already exist.
 
-```
+```cmd
 devenv /edit MyFile.cs
 ```
 

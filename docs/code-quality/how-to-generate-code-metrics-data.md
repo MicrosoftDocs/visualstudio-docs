@@ -1,6 +1,7 @@
 ---
 title: How to generate code metrics data in Visual Studio
 ms.date: 12/12/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:

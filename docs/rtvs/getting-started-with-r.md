@@ -19,8 +19,8 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 ## Create an R project
 
 1. Start Visual Studio.
-1. Choose **File > New > Project...** (Ctrl+Shift+N)
-1. Select "R Project" from under **Templates > R**, give the project a name and location, and select **OK**:
+1. Choose **File** > **New** > **Project** (**Ctrl**+**Shift**+**N**)
+1. Select "R Project" from under **Templates** > **R**, give the project a name and location, and select **OK**:
 
    ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.png)
 
@@ -31,11 +31,11 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
     - On the bottom left is the **R Interactive** window in which you can interactively develop and test code.
 
 > [!Note]
-> You can use the **R Interactive** window without having any projects open, and even when a different project type is loaded. Just select **R Tools > Windows > R Interactive** at any time.
+> You can use the **R Interactive** window without having any projects open, and even when a different project type is loaded. Just select **R Tools** > **Windows** > **R Interactive** at any time.
 
 ## Explore the Interactive Window and IntelliSense
 
-1. Test that the interactive window is working by typing in `3 + 4` and then Enter to see the result:
+1. Test that the interactive window is working by typing in `3 + 4` and then **Enter** to see the result:
 
     ![R Interactive window in Visual Studio 2017 (VS2017)](media/getting-started-02-interactive1.png)
 
@@ -43,7 +43,7 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 
     ![Additional interactive example for R in Visual Studio](media/getting-started-03-interactive2.png)
 
-1. Type in `mean(ds)` but notice that as soon as you type `m` or `me`, Visual Studio IntelliSense provides auto-completion options. When the completion you want is selected in the list, press Tab to insert it; you can change the selection with the arrow keys or the mouse.
+1. Type in `mean(ds)` but notice that as soon as you type `m` or `me`, Visual Studio IntelliSense provides auto-completion options. When the completion you want is selected in the list, press **Tab** to insert it; you can change the selection with the arrow keys or the mouse.
 
     ![IntelliSense appearing as you enter code](media/getting-started-04-intellisense1.png)
 
@@ -67,7 +67,7 @@ The interactive window also lets you review your history, load and save workspac
 
 Working briefly with the interactive window demonstrates basic editing features like IntelliSense that also work in the code editor. If you enter the same code as before, you see the same auto-completion and IntelliSense prompts, but not the output.
 
-Writing code in a `.R` file lets you see all your code at once, and makes it easier to make small changes and then quickly see the result by running the code in the interactive window. You can also have as many files as you want in a project. When code is in a file, you can also run it step-by-step in the debugger (discussed later in this article). These capabilities are helpful when you're developing computational algorithms and writing code to manipulate one or more datasets, especially when you want to examine all intermediate results.
+Writing code in a *.R* file lets you see all your code at once, and makes it easier to make small changes and then quickly see the result by running the code in the interactive window. You can also have as many files as you want in a project. When code is in a file, you can also run it step-by-step in the debugger (discussed later in this article). These capabilities are helpful when you're developing computational algorithms and writing code to manipulate one or more datasets, especially when you want to examine all intermediate results.
 
 As an example, the following steps create a little code to explore the [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) (Wikipedia). (This example is adapted from the *R Cookbook* by Paul Teetor.)
 
@@ -81,14 +81,14 @@ As an example, the following steps create a little code to explore the [Central 
     plot(density(pop), main = "Population Density", xlab = "X", ylab = "")
     ```
 
-1. To quickly see the results, select all the code (Ctrl+A), then press Ctrl+Enter or right-click and select **Execute In Interactive**. All the selected code is run in the interactive window as if you typed it directly, showing the result in a plot window:
+1. To quickly see the results, select all the code (**Ctrl**+**A**), then press **Ctrl**+**Enter** or right-click and select **Execute In Interactive**. All the selected code is run in the interactive window as if you typed it directly, showing the result in a plot window:
 
     ![Display of a plot in Visual Studio](media/getting-started-08-plot1.png)
 
-1. For a single line, just press Ctrl+Enter at any time to run that line in the interactive window.
+1. For a single line, just press **Ctrl**+**Enter** at any time to run that line in the interactive window.
 
 > [!Tip]
-> Learn the pattern of making edits and pressing Ctrl+Enter (or selecting everything with Ctrl+A and then pressing Ctrl+Enter) to quickly run the code. Doing so is much more efficient than using the mouse for the same operations.
+> Learn the pattern of making edits and pressing **Ctrl**+**Enter** (or selecting everything with **Ctrl**+**A** and then pressing **Ctrl**+**Enter**) to quickly run the code. Doing so is much more efficient than using the mouse for the same operations.
 > 
 > In addition, you can drag and drop the plot window out of the Visual Studio frame and place it whenever else you want on your display. You can then resize the plot window to the dimensions you want and then save it to an image or PDF file.
 
@@ -100,7 +100,7 @@ As an example, the following steps create a little code to explore the [Central 
     lines(density(samp.means))
     ```
 
-1. Press Ctrl+A and Ctrl+Enter again to run the code, producing the following result:
+1. Press **Ctrl**+**A** and **Ctrl**+**Enter** again to run the code, producing the following result:
 
     ![Updated dual plot in Visual Studio](media/getting-started-09-plot2.png)
 
@@ -122,23 +122,23 @@ As an example, the following steps create a little code to explore the [Central 
     lines(density(samp.means))
     ```
 
-1. Ctrl+A and Ctrl+Enter again to see the result:
+1. **Ctrl**+**A** and **Ctrl**+**Enter** again to see the result:
 
     ![Updated dual plot in Visual Studio, scaled correctly](media/getting-started-10-plot3.png)
 
-There's more you can do in the editor. For details, see [editing code](editing-r-code-in-visual-studio.md), [IntelliSense](r-intellisense.md), and [code snippets](code-snippets-for-r.md).
+There's more you can do in the editor. For details, see [Edit R code](editing-r-code-in-visual-studio.md), [IntelliSense](r-intellisense.md), and [Code snippets](code-snippets-for-r.md).
 
-## Debugging your code
+## Debug your code
 
-One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation and adds innovative UI such as the [Variable Explorer and Data Table Viewer](variable-explorer.md). Here, let's just take a first look at debugging.
+One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation and adds innovative UI such as the [Variable Explorer](variable-explorer.md). Here, let's just take a first look at debugging.
 
-1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools > Session > Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you ensure that the debugging session starts with no pre-existing data. The **Reset** command, however, doesn't affect your `script.R` source file, because that's managed and saved outside of the workspace.
+1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools** > **Session** > **Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you ensure that the debugging session starts with no pre-existing data. The **Reset** command, however, doesn't affect your *script.R* source file, because that's managed and saved outside of the workspace.
 
-1. With the `script.R` file created in the previous section, set a breakpoint on the line that begins with `pop <-` by placing the caret on that line and then pressing F9, or selecting the **Debug > Toggle Breakpoint** menu command. Alternately, simply click in the left-hand margin (or gutter) for that line where the red breakpoint dot appears:
+1. With the *script.R* file created in the previous section, set a breakpoint on the line that begins with `pop <-` by placing the caret on that line and then pressing **F9**, or selecting the **Debug** > **Toggle Breakpoint** menu command. Alternately, simply click in the left-hand margin (or gutter) for that line where the red breakpoint dot appears:
 
     ![Setting a breakpoint in the editor](media/getting-started-11-debug1.png)
 
-1. Launch the debugger with the code in `script.R` by either selecting the **Source startup file** button on the toolbar, selecting the **Debug > Source startup file** menu items, or pressing F5. Visual Studio enters its debugging mode and starts running the code. It stops, however, on the line where you set the breakpoint:
+1. Launch the debugger with the code in *script.R* by either selecting the **Source startup file** button on the toolbar, selecting the **Debug** > **Source startup file** menu items, or pressing **F5**. Visual Studio enters its debugging mode and starts running the code. It stops, however, on the line where you set the breakpoint:
 
     ![Stopping on a breakpoint in the Visual Studio debugger](media/getting-started-12-debug2.png)
 
@@ -146,7 +146,7 @@ One of the key strengths of Visual Studio is its debugging UI. RTVS builds on to
 
     ![Debug toolbar in Visual Studio](media/getting-started-13-debug3.png)
 
-1. When stopped at a breakpoint, you can examine the values of variables. Locate the **Autos** window in Visual Studio and select the tab along the bottom named **Locals**. The **Locals** window shows local variables at the current point in the program. If you're stopped on the breakpoint set earlier, you see that the `pop` variable isn't yet defined. Now use the **Debug > Step Over** command (F10), and you see the value for `pop` appear:
+1. When stopped at a breakpoint, you can examine the values of variables. Locate the **Autos** window in Visual Studio and select the tab along the bottom named **Locals**. The **Locals** window shows local variables at the current point in the program. If you're stopped on the breakpoint set earlier, you see that the `pop` variable isn't yet defined. Now use the **Debug** > **Step Over** command (**F10**), and you see the value for `pop` appear:
 
     ![Locals window in Visual Studio](media/getting-started-14-debug4.png)
 
@@ -154,7 +154,7 @@ One of the key strengths of Visual Studio is its debugging UI. RTVS builds on to
 
     ![Expanded view of the Variable Explorer](media/variable-explorer-expanded-results.png)
 
-1. You can continue stepping through the program line by line, or select **Continue** (F5) to run it to completion (or the next breakpoint).
+1. You can continue stepping through the program line by line, or select **Continue** (**F5**) to run it to completion (or the next breakpoint).
 
 To go deeper, see [Debugging](debugging-r-in-visual-studio.md) and [Variable Explorer](variable-explorer.md).
 

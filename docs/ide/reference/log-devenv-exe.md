@@ -1,6 +1,7 @@
 ---
 title: -Log (devenv.exe)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -23,7 +24,7 @@ Logs all activity to the log file for troubleshooting. This file appears after y
 
 ## Syntax
 
-```
+```cmd
 Devenv /log Path\NameOfLogFile
 ```
 

@@ -9,6 +9,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # How to: Intercept a Click on a Shape or Decorator
@@ -17,7 +18,7 @@ The following procedures demonstrate how to intercept a click on a shape or an i
 ## To Intercept Clicks on Shapes
  In the Dsl project, in a code file that is separate from the generated code files, write a partial class definition for the shape class. Override `OnDoubleClick()` or one of the other methods that has a name beginning with `On...`. For example:
 
-```
+```csharp
 public partial class MyShape // change
   {
     public override void OnDoubleClick(DiagramPointEventArgs e)
@@ -44,7 +45,7 @@ public partial class MyShape // change
 
 3.  In a code file that is separate from the files in the `GeneratedCode` folder, create the new subclass of ImageField:
 
-    ```
+    ```csharp
     using Microsoft.VisualStudio.Modeling;
     using Microsoft.VisualStudio.Modeling.Design;
     using Microsoft.VisualStudio.Modeling.Diagrams;
@@ -82,7 +83,7 @@ public partial class MyShape // change
 
 4.  Override the InitializeShapeFields method in your shape classs by adding the following partial class definition.
 
-    ```
+    ```csharp
     public partial class MyShape // change
     {
      protected override void InitializeShapeFields

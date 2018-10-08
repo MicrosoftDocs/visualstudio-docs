@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify the Binary to Start
+# How to: Specify the binary to start
 
 To profile binaries, such as DLLs, you must enter information in the **\<Target> Property Pages** dialog box. This information indicates where the DLL project can find the calling application.
 
@@ -36,4 +36,4 @@ To profile binaries, such as DLLs, you must enter information in the **\<Target>
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)

@@ -1,6 +1,7 @@
 ---
 title: Watch Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Creates and opens a specified instance of a **Watch** window. You can use a **Wa
 
 ## Syntax
 
-```
+```cmd
 Debug.Watch[index]
 ```
 
@@ -34,7 +35,7 @@ Debug.Watch[index]
 
 ## Example
 
-```
+```cmd
 >Debug.Watch1
 ```
 

@@ -13,7 +13,7 @@ ms.workload:
   - "vssdk"
 ---
 # Layout for Visual Studio
-The majority of Visual Studio dialogs are [Utility dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout), which are the unthemed dialogs that follow standard [Windows Desktop dialog layout principles](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742499\(v=vs.85\).aspx). As Visual Studio moves to refresh its UI, some of the more prominent dialogs have a new design that establishes them as product-defining experiences. These [Themed dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) have a themed appearance.  
+The majority of Visual Studio dialogs are [Utility dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout), which are the unthemed dialogs that follow standard [Windows Desktop dialog layout principles](/windows/desktop/uxguide/win-dialog-box). As Visual Studio moves to refresh its UI, some of the more prominent dialogs have a new design that establishes them as product-defining experiences. These [Themed dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) have a themed appearance.  
   
 ##  <a name="BKMK_UtilityDialogLayout"></a> Utility dialog layout  
   
@@ -153,5 +153,5 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
 ## See Also  
  [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)   
- [Controls (Windows)](https://msdn.microsoft.com/library/windows/desktop/dn742399.aspx)   
- [Dialog Boxes (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742499\(v=vs.85\).aspx)
+ [Controls (Windows)](/windows/desktop/uxguide/controls)   
+ [Dialog Boxes (Windows)](/windows/desktop/uxguide/win-dialog-box)

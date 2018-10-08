@@ -1,6 +1,7 @@
 ---
-title: Understanding Build Platforms
+title: Understand build platforms
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
@@ -18,20 +19,20 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Understand Build Platforms
+# Understand build platforms
 
 You can store different versions of solution and project properties that apply to different target platforms. For example, you can create a Debug configuration that targets an x86 platform and a Debug configuration that targets an x64 platform. You can quickly change the active platform so that you can easily build multiple configurations.
 
-## In This Section
+## In this section
 
- [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md)
+ [How to: Configure projects to target platforms](../ide/how-to-configure-projects-to-target-platforms.md)
  Explains how to configure a project to target a specific platform.
 
- [How to: Configure Projects to Target Multiple Platforms](../ide/how-to-configure-projects-to-target-multiple-platforms.md)
+ [How to: Configure projects to target multiple platforms](../ide/how-to-configure-projects-to-target-multiple-platforms.md)
  Explains how to configure a project to target multiple platforms.
 
 ## See also
 
-- [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)
-- [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
-- [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
+- [Walkthrough: Build an application](../ide/walkthrough-building-an-application.md)
+- [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
+- [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

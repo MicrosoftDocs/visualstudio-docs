@@ -1,6 +1,7 @@
 ---
 title: Organize objects into layout containers in XAML Designer
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
@@ -16,7 +17,7 @@ This article describes layout panels and controls for XAML Designer.
 
 Imagine where you'd like objects to appear on a page; objects such as images, buttons, and videos. Maybe you want them to appear in rows and columns, in a single line vertically or horizontally, or in fixed positions.
 
-After you've had a chance to think about how the page might appear, choose a layout panel. All pages start with one because you need something to add your objects to. By default it's a **Grid**, but you can change that.
+After you've had a chance to think about how the page might appear, choose a layout panel. All pages start with one because you need something to which you add your objects. By default it's a **Grid**, but you can change that.
 
 Layout panels help you arrange objects on a page, but they do more than that. They help you design for different screen sizes and resolutions. When users run your app, everything in a layout panel resizes to match the screen real estate of their device. Of course, if you don't want your layout to do that, you can override that behavior for a part of the layout, or the entire layout. You can use height and width properties to control that.
 
@@ -108,7 +109,7 @@ Show information or options to users in a window. You can add only one object to
 
 ### ScrollViewer
 
-Enable uses to scroll down a page or area of a page. You can add only one object to a **ScrollViewer** so it makes a lot of sense to add a layout panel such as a **Grid** or **StackPanel**.
+Enable users to scroll down a page or area of a page. You can add only one object to a **ScrollViewer** so it makes a lot of sense to add a layout panel such as a **Grid** or **StackPanel**.
 
 ![ScrollViewer layout control](../designers/media/06b326d4-f23d-41a6-b26b-e1aff37572a7.png)
 

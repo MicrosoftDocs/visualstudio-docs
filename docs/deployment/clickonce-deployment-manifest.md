@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# ClickOnce Deployment Manifest
+# ClickOnce deployment manifest
 A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, including the identification of the current [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application version to deploy.  
   
  Deployment manifests have the following elements and attributes.  
@@ -40,18 +40,18 @@ A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../
   
  For more information, see [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md).  
   
-## File Location  
+## File location  
  The deployment manifest file references the correct application manifest for the current version of the application. When you make a new version of an application deployment available, you must update the deployment manifest to refer to the new application manifest.  
   
  The deployment manifest file must be strongly named and can also contain certificates for publisher validation.  
   
-## File Name Syntax  
- The name of a deployment manifest file must end with the .application extension.  
+## File name syntax  
+ The name of a deployment manifest file must end with the *.application* extension.  
   
 ## Examples  
  The following code example illustrates a deployment manifest.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd"  
   manifestVersion="1.0"  
@@ -113,5 +113,5 @@ A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../
 </Signature></asmv1:assembly>  
 ```  
   
-## See Also  
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)
+## See also  
+ [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

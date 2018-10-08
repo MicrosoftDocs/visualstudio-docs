@@ -1,6 +1,7 @@
 ---
 title: "How to: View Existing Types (Class Designer)"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -16,7 +17,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: View existing types (Class Designer)
+# How to: View existing types in Class Designer
 
 To see an existing type and its members, add its shape to a class diagram.
 
@@ -30,13 +31,13 @@ To design new types on class diagrams, see [How to: Create types by using Class 
 
 2.  From the project in **Solution Explorer**, drag a source code file to the class diagram.
 
-    > [!WARNING]
+    > [!NOTE]
     > If your solution has a project that shares code across multiple apps, you can drag files or code to a class diagram only from these sources:
     >
-    > -   The app project that contains the diagram
-    > -   A shared project that was imported by the app project
-    > -   A referenced project
-    > -   An assembly
+    > - The app project that contains the diagram
+    > - A shared project that was imported by the app project
+    > - A referenced project
+    > - An assembly
 
     Shapes representing the types defined in the source code file appear on the diagram at the position where you dragged the file.
 
@@ -54,9 +55,7 @@ When you first display a type on the diagram, its shape appears collapsed by def
 
 ### To display the contents of a project in a class diagram
 
-- In **Solution Explorer** or **Class View**, right-click the project and choose **View**, then choose **View Class Diagram**.
-
-     An auto-populated Class Diagram is created.
+In **Solution Explorer** or **Class View**, right-click the project and choose **View**, then choose **View Class Diagram**. An auto-populated Class Diagram is created.
 
 ## See also
 

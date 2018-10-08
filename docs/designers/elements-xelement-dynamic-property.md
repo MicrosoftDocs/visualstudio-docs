@@ -1,6 +1,7 @@
 ---
 title: Elements (XElement Dynamic Property)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: reference
 apiname:
@@ -19,7 +20,7 @@ Gets an indexer used to retrieve the child elements of the current element that 
 
 ## Syntax
 
-```
+```xaml
 elem.Elements[{namespaceName}localName]
 ```
 
@@ -37,6 +38,6 @@ This property uses deferred execution.
 
 ## See also
 
-- [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
 - [Element](../designers/element-xelement-dynamic-property.md)
 - [Descendants](../designers/descendants-xelement-dynamic-property.md)

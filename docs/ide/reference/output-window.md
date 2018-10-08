@@ -1,6 +1,7 @@
 ---
 title: Output Window
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -18,57 +19,60 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Output Window
-The **Output** window can display status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View/Output** (or click CTRL + ALT + O).
+# Output window
 
-> [!WARNING]
-> The Output window does not appear on the View menu in Visual Studio Express editions. To bring it up, use the hotkey CTRL + ALT + O.
-
+The **Output** window displays status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View** > **Output**, or press **Ctrl**+**Alt**+**O**.
 
 ## Toolbar
- **Show output from**
 
- Displays one or more output panes to view. Several panes of information might be available, depending on which tools in the IDE have used the **Output** window to deliver messages to the user.
+The following controls are shown in the toolbar of the **Output** window.
 
- **Find Message in Code**
+### Show output from
 
- Moves the insertion point in the code editor to the line that contains the selected build error.
+Displays one or more output panes to view. Several panes of information might be available, depending on which tools in the IDE have used the **Output** window to deliver messages to the user.
 
- **Go to Previous Message**
+### Find Message in Code
 
- Changes the focus in the **Output** window to the previous build error and moves the insertion point in the code editor to the line that contains that build error.
+Moves the insertion point in the code editor to the line that contains the selected build error.
 
- **Go to Next Message**
+### Go to Previous Message
 
- Changes the focus in the **Output** window to the next build error and moves the insertion point in the code editor to the line that contains that build error.
+Changes the focus in the **Output** window to the previous build error and moves the insertion point in the code editor to the line that contains that build error.
 
- **Clear all**
+### Go to Next Message
 
- Clears all text from the **Output** pane.
+Changes the focus in the **Output** window to the next build error and moves the insertion point in the code editor to the line that contains that build error.
 
- **Toggle Word Wrap**
+### Clear all
 
- Turns the Word Wrap feature on and off in the **Output** pane. When Word Wrap is on, text in longer entries that extends beyond the viewing area is displayed on the following line.
+Clears all text from the **Output** pane.
 
-## Output Pane
- The **Output** pane selected in the **Show output from** list displays output from the source indicated.
+### Toggle Word Wrap
 
-## Routing Messages to the Output Window
- To display the **Output** window whenever you build a project, in the **General, Projects and Solutions, Options** dialog box, select **Show Output window when build starts**. Then, with a code file open for editing, choose the **Go to Next Message** and **Go To Previous Message** buttons on the **Output** window toolbar to select entries in the **Output** pane. As you do this, the insertion point in the code editor jumps to the line of code where the selected problem occurs.
+Turns the Word Wrap feature on and off in the **Output** pane. When Word Wrap is on, text in longer entries that extends beyond the viewing area is displayed on the following line.
 
- Certain IDE features and commands invoked in the [Command Window](../../ide/reference/command-window.md) deliver their output to the **Output** window. Output from external tools such as .bat and .com files, which is typically displayed in the Command Prompt window, is routed to an **Output** pane when you select the **Use Output Window** option in the [Managing External Tools](../../ide/managing-external-tools.md). Many other kinds of messages can be displayed in **Output** panes as well. For example, when Transact-SQL syntax in a stored procedure is checked against a target database, the results are displayed in the **Output** window.
+## Output pane
 
- You can also program your own applications to write diagnostic messages at run time to an **Output** pane. To do this, use members of the <xref:System.Diagnostics.Debug> class or <xref:System.Diagnostics.Trace> class in the <xref:System.Diagnostics> namespace of the .NET Framework Class Library. Members of the <xref:System.Diagnostics.Debug> class display output when you build Debug configurations of your solution or project; members of the <xref:System.Diagnostics.Trace> class display output when you build either Debug or Release configurations. For more information, see [Diagnostic Messages in the Output Window](../../debugger/diagnostic-messages-in-the-output-window.md).
+The **Output** pane selected in the **Show output from** list displays output from the source indicated.
 
- In [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)], you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing F1 on a line of output, you can display an appropriate help topic. For more information, see [Formatting the Output of a Custom Build Step or Build Event](/cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event).
+## Route messages to the Output window
 
-## Scrolling Behavior
- If you use autoscrolling in the Output window and then navigate by using the mouse or arrow keys, autoscrolling stops. To resume autoscrolling, press CTRL+END.
+To display the **Output** window whenever you build a project, in the **Options** dialog box, on the **Projects and Solutions** > **General** page, select **Show Output window when build starts**. Then, with a code file open for editing, choose **Go to Next Message** and **Go To Previous Message** on the **Output** window toolbar to select entries in the **Output** pane. As you do this, the insertion point in the code editor jumps to the line of code where the selected problem occurs.
 
-## See Also
+Certain IDE features and commands invoked in the [Command window](../../ide/reference/command-window.md) deliver their output to the **Output** window. Output from external tools such as *.bat* and *.com* files, which is typically displayed in the command window, is routed to an **Output** pane when you select the **Use Output Window** option in [Manage external tools](../../ide/managing-external-tools.md). Many other kinds of messages can be displayed in **Output** panes as well. For example, when Transact-SQL syntax in a stored procedure is checked against a target database, the results are displayed in the **Output** window.
 
-- [Diagnostic Messages in the Output Window](../../debugger/diagnostic-messages-in-the-output-window.md)
-- [How to: Control the Output Window](http://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858)
-- [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
-- [Understanding Build Configurations](../../ide/understanding-build-configurations.md)
-- [Class Library Overview](/dotnet/standard/class-library-overview)
+You can also program your own applications to write diagnostic messages at run time to an **Output** pane. To do this, use members of the <xref:System.Diagnostics.Debug> class or <xref:System.Diagnostics.Trace> class in the <xref:System.Diagnostics> namespace of the .NET Framework Class Library. Members of the <xref:System.Diagnostics.Debug> class display output when you build Debug configurations of your solution or project; members of the <xref:System.Diagnostics.Trace> class display output when you build either Debug or Release configurations. For more information, see [Diagnostic messages in the Output window](../../debugger/diagnostic-messages-in-the-output-window.md).
+
+In C++, you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing **F1** on a line of output, you can display an appropriate help topic. For more information, see [Format the output of a custom build step](/cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event).
+
+## Scroll behavior
+
+If you use autoscrolling in the **Output** window and then navigate by using the mouse or arrow keys, autoscrolling stops. To resume autoscrolling, press **Ctrl**+**End**.
+
+## See also
+
+- [Diagnostic messages in the Output window](../../debugger/diagnostic-messages-in-the-output-window.md)
+- [How to: Control the Output window](http://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858)
+- [Compile and build](../../ide/compiling-and-building-in-visual-studio.md)
+- [Understand build configurations](../../ide/understanding-build-configurations.md)
+- [Class library overview](/dotnet/standard/class-library-overview)

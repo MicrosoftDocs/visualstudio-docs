@@ -10,27 +10,28 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Process Text Templates by using a Custom Host
 
-The *text template transformation* process takes a *text template* file as the input and produces a text file as the output. You can call the text transformation engine from a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension, or from a standalone application running on a machine on which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed. However, you must provide a *text templating host*. This class connects the template to the environment, finding resources such as assemblies and include files, and dealing with the output and error messages.
+The *text template transformation* process takes a *text template* file as the input and produces a text file as the output. You can call the text transformation engine from a Visual Studio extension, or from a standalone application running on a machine on which Visual Studio is installed. However, you must provide a *text templating host*. This class connects the template to the environment, finding resources such as assemblies and include files, and dealing with the output and error messages.
 
 > [!TIP]
-> If you are writing a package or extension that will run within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], consider using the text templating service, instead of writing your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
+> If you are writing a package or extension that will run within Visual Studio, consider using the text templating service, instead of writing your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
 > [!NOTE]
-> We do not recommend using text template transformations in server applications. We do not recommend using text template transformations except in a single thread. This is because the text templating Engine re-uses a single AppDomain to translate, compile, and execute templates. The translated code is not designed to be thread-safe. The Engine is designed to process files serially, as they are in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project at design time.
+> We do not recommend using text template transformations in server applications. We do not recommend using text template transformations except in a single thread. This is because the text templating Engine re-uses a single AppDomain to translate, compile, and execute templates. The translated code is not designed to be thread-safe. The Engine is designed to process files serially, as they are in a Visual Studio project at design time.
 >
 > For run-time applications, consider using preprocessed text templates: see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
 
-If your application uses a set of templates that are fixed at compile time, it is easier to use Preprocessed Text Templates. You can also use that approach if your application will run on a machine on which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is not installed. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
+If your application uses a set of templates that are fixed at compile time, it is easier to use Preprocessed Text Templates. You can also use that approach if your application will run on a machine on which Visual Studio is not installed. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
 
 ## Execute a Text Template in Your Application
 
 To execute a text template, you call the ProcessTemplate method of <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>:
 
-```
+```csharp
 using Microsoft.VisualStudio.TextTemplating;
 ...
 Engine engine = new Engine();
@@ -47,7 +48,7 @@ string output = engine.ProcessTemplate(templateString, host);
 
 ## In This Section
  [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)
- Shows you how to create a custom text template host that makes the text template functionality available outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+ Shows you how to create a custom text template host that makes the text template functionality available outside Visual Studio.
 
 ## Reference
  <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>

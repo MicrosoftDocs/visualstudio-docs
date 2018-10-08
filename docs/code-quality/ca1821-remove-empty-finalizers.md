@@ -1,6 +1,7 @@
 ---
 title: "CA1821: Remove empty finalizers"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -26,13 +27,13 @@ ms.workload:
 ## Cause
  A type implements a finalizer that is empty, calls only the base type finalizer, or calls only conditionally emitted methods.
 
-## Rule Description
+## Rule description
  Whenever you can, avoid finalizers because of the additional performance overhead that is involved in tracking object lifetime. The garbage collector will run the finalizer before it collects the object. This means that two collections will be required to collect the object. An empty finalizer incurs this added overhead without any benefit.
 
-## How to Fix Violations
+## How to fix violations
  Remove the empty finalizer. If a finalizer is required for debugging, enclose the whole finalizer in `#if DEBUG / #endif` directives.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a message from this rule. Failure to suppress finalization decreases performance and provides no benefits.
 
 ## Example

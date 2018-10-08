@@ -37,7 +37,7 @@ ms.workload:
 ## Solution  
  You can set a breakpoint on the function with the **Hit Count** field to a value so high that it will never be reached. In this case, because you believe the function `CnvtV` is called a couple hundred times, you might set **Hit Count** to 1000 or more. Then run the program and wait for the call to fail. When it fails, open the Breakpoints window and look at the list of breakpoints. The breakpoint you set on `CnvtV` appears, followed by the hit count and number of iterations remaining:  
   
-```  
+```cpp
 CnvtV(int) (no condition) when hit count is equal to 1000 (currently 101)  
 ```  
   
@@ -45,5 +45,5 @@ CnvtV(int) (no condition) when hit count is equal to 1000 (currently 101)
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
- [Setting Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583)   
+ [Setting Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

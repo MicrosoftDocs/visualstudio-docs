@@ -8,6 +8,7 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
@@ -39,6 +40,7 @@ To describe the kind of symbols to apply the naming rule to, specify a property 
 The following list shows the allowable values, and you can specify multiple values by separating them with a comma.
 
 - \* (use this value to specify all symbols)
+- namespace
 - class
 - struct
 - interface
@@ -49,6 +51,9 @@ The following list shows the allowable values, and you can specify multiple valu
 - event
 - delegate
 - parameter
+- type_parameter
+- local
+- local_function
 
 ### Accessibility levels of symbols
 
@@ -64,6 +69,7 @@ The following list shows the allowable values, and you can specify multiple valu
 - private
 - protected
 - protected\_internal or protected_friend
+- local
 
 > [!NOTE]
 > Do not specify an accessibility level as part of your naming convention if accessibility is not applicable to the kind of symbol you are targeting. For example, parameters do not have accessibility levels. If you specify an accessibility level for a parameter naming convention, your naming rule will not function correctly.
@@ -76,11 +82,14 @@ To describe the modifiers of the symbols you want the naming rule to apply to, s
 
 The following list shows the allowable values, and you can specify multiple values by separating them with a comma.
 
-- abstract or must_inherit
-- async
-- const
-- readonly
-- static or shared
+- `abstract` or `must_inherit`
+- `async`
+- `const`
+- `readonly`
+- `static` or `shared`
+
+   > [!NOTE]
+   > If you have a naming rule for `static` or `shared` symbols, it is also applied to `const` symbols because they are implicitly static. If you don't want the `static` naming rule to apply to `const` symbols, create a separate naming rule for `const` symbols.
 
 `required_modifiers` is an optional property. If you omit this property, your naming rule will apply to all modifiers.
 

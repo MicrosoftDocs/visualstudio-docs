@@ -1,6 +1,7 @@
 ---
 title: Introduce a local variable in Visual Studio
 ms.date: 01/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
@@ -21,7 +22,7 @@ This code generation applies to:
 
 **When:** You have code which could be easily reused later if it were in a local variable.
 
-**Why:** You could copy and paste the code multiple times to use it in various locations, however it would be better to perform the operation once, store the result in a local variable, and use the local variable throughought.
+**Why:** You could copy and paste the code multiple times to use it in various locations, however it would be better to perform the operation once, store the result in a local variable, and use the local variable throughout.
 
 ## How-to
 

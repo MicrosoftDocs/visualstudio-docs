@@ -1,6 +1,7 @@
 ---
 title: Log Command Window Output Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Copies all input and output from the **Command** window into a file.
 
 ## Syntax
 
-```
+```cmd
 Tools.LogCommandWindowOutput [filename] [/on|/off] [/overwrite]
 ```
 
@@ -52,19 +53,19 @@ Tools.LogCommandWindowOutput [filename] [/on|/off] [/overwrite]
 ## Examples
  This example creates a new log file, cmdlog, and starts the command log.
 
-```
+```cmd
 >Tools.LogCommandWindowOutput cmdlog
 ```
 
  This example stops logging commands.
 
-```
+```cmd
 >Tools.LogCommandWindowOutput /off
 ```
 
  This example resumes the logging of commands in the previously used log file.
 
-```
+```cmd
 >Tools.LogCommandWindowOutput /on
 ```
 

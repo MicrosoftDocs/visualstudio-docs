@@ -1,6 +1,7 @@
 ---
 title: Math Nodes
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: reference
 ms.assetid: adc225cc-1cf5-4f7c-9b00-e7ac8450b6b9
@@ -10,12 +11,12 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Math Nodes
+# Math nodes
 
 In the Shader Designer, math nodes perform algebraic, logic, trigonometric, and other mathematical operations.
 
 > [!NOTE]
-> When you work with math nodes in the Shader Designer, type promotion is especially evident. To learn how type promotion affects input parameters, see the "Promotion of inputs" section in [Shader Designer Nodes](../designers/shader-designer-nodes.md).
+> When you work with math nodes in the Shader Designer, type promotion is especially evident. To learn how type promotion affects input parameters, see the "Promotion of inputs" section in [Shader Designer nodes](../designers/shader-designer-nodes.md).
 
 ## Math node reference
 

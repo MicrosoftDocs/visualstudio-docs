@@ -67,11 +67,11 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
   
 12. In the `Button1_Click` function, add the following code:  
   
+    ```vb  
+    TextBox1.Text = "Button was clicked!"
     ```  
-    ' Visual Basic  
-    TextBox1.Text = "Button was clicked!"  
   
-    // C#  
+    ```csharp
     TextBox1.Text = "Button was clicked!";  
     ```  
   
@@ -85,15 +85,15 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
   
 1.  In the Default.aspx.cs or Default.aspx.vb window, click the left margin on the same line as the text you added:  
   
+    ```vb  
+    TextBox1.Text = "Button was clicked!"
     ```  
-    ' Visual Basic  
-    TextBox1.Text = "Button was clicked!"  
-  
-    // C#  
+
+    ```csharp  
     textBox1.Text = "Button was clicked!";  
     ```  
   
-     A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583).  
+     A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
 2.  On the **Debug** menu, click **Start Debugging**.  
   
@@ -111,17 +111,13 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
   
      The **Watch** window shows the value of the variable `TextBox1.Text`:  
   
-    ```  
-    ""  
-    ```  
+    '""' 
   
 7.  On the **Debug** menu, click **Step Over**.  
   
      The value of `TextBox1.Text` changes in the **Watch** window to read:  
   
-    ```  
-    "Button was clicked!"  
-    ```  
+    `"Button was clicked!"`  
   
 8.  On the **Debug** menu, click **Continue**.  
   
@@ -141,11 +137,11 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
   
 2.  In the Default.aspx.cs or Default.aspx.vb window, click in the left margin to again set a breakpoint at the line you added:  
   
-    ```  
-    ' Visual Basic  
-    TextBox1.Text = "Button was clicked!"  
+    ```vb  
+    TextBox1.Text = "Button was clicked!"
+    ```
   
-    // C#  
+    ```csharp  
     textBox1.Text = "Button was clicked!";  
     ```  
   

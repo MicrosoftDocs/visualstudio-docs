@@ -1,6 +1,7 @@
 ---
 title: "CA1724: Type Names Should Not Match Namespaces"
-ms.date: 11/04/2016
+ms.date: 09/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -16,7 +17,8 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# CA1724: Type Names Should Not Match Namespaces
+# CA1724: Type names should not match namespaces
+
 |||
 |-|-|
 |TypeName|TypeNamesShouldNotMatchNamespaces|
@@ -25,13 +27,17 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A type name matches a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] namespace names in a case-insensitive comparison.
 
-## Rule Description
- Type names should not match the names of namespaces that are defined in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] class library. Violating this rule can reduce the usability of the library.
+A type name matches a referenced namespace name that has one or more externally visible types. The name comparison is case-insensitive.
 
-## How to Fix Violations
- Select a type name that does not match the name of a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] class library namespace.
+## Rule description
 
-## When to Suppress Warnings
- For new development, no known scenarios occur where you must suppress a warning from this rule. Before you suppress the warning, carefully consider how the users of your library might be confused by the matching name. For shipping libraries, you might have to suppress a warning from this rule.
+User-created type names should not match the names of referenced namespaces that have externally visible types. Violating this rule can reduce the usability of your library.
+
+## How to fix violations
+
+Rename the type such that it doesn't match the name of a referenced namespace that has externally visible types.
+
+## When to suppress warnings
+
+For new development, no known scenarios occur where you must suppress a warning from this rule. Before you suppress the warning, carefully consider how the users of your library might be confused by the matching name. For shipping libraries, you might have to suppress a warning from this rule.

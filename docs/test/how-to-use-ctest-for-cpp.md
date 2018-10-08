@@ -1,22 +1,23 @@
 ---
 title: "How to use CTest for C++ in Visual Studio"
 ms.date: 11/07/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: mblome
 manager: douge
-ms.workload: 
+ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
 
 # How to use CTest for C++ in Visual Studio
 
-CMake (which includes CTest) is integrated into the Visual Studio IDE by default as a component of the **Desktop Develoment with C++** workload. If you need to install it on your machine, open the Visual Studio Installer program, click the **Modify** button, then check [CMake Tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp) under the list of workload components.
+CMake (which includes CTest) is integrated into the Visual Studio IDE by default as a component of the **Desktop Develoment with C++** workload. If you need to install it on your machine, open the Visual Studio Installer program, click the **Modify** button, then check [CMake tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp) under the list of workload components.
 
 ## To write tests
 
-CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. For more information about using CMake in Visual Studio, see [CMake Tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp).
+CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. For more information about using CMake in Visual Studio, see [CMake tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp).
 
 ## To run tests (Visual Studio 2017 version 15.6)
 
@@ -24,16 +25,16 @@ In Visual Studio 2017 version 15.6, CTest is fully integrated with **Test Explor
 
 The following illustration shows results of a CTest run using Google Test framework:
 
-![CTest with Google Test Framework in VS2017 15.6](media/ctest-test-explorer.png "CTest and Google Test in Test Explorer")
+![CTest with Google Test Framework in VS2017 15.6](media/ctest-test-explorer.png)
 
 If you are using CTest but not the Google or Boost adapters, you see results at the CTest level instead of the individual test method level. You can debug and step-through CTest-only executables, but stack traces on individual tests aren't supported.
 
 ## To run tests (Visual Studio 2017 version 15.5)
 
-In **Visual Studio 2017 version 15.5**, CTest is not integrated with **Test Explorer**. You can run your tests from the CMake main menu or from the context menu on a **CMakeLists.txt** file in **Solution Explorer**. Test results are directed to the Visual Studio **Output Window**.
+In **Visual Studio 2017 version 15.5**, CTest is not integrated with **Test Explorer**. You can run your tests from the CMake main menu or from the context menu on a *CMakeLists.txt* file in **Solution Explorer**. Test results are directed to the Visual Studio **Output Window**.
 
-![Run CTest tests in VS2017 15.5](media/cpp-cmake-run-tests.png "Run CTest tests in 15.5")
+![Run CTest tests in VS2017 15.5](media/cpp-cmake-run-tests.png)
 
 ## See also
 
-[Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
+[Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)

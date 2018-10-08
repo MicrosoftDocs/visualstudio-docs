@@ -1,6 +1,7 @@
 ---
 title: "CA1061: Do not hide base class methods"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,13 +28,13 @@ ms.workload:
 ## Cause
  A derived type declares a method with the same name and with the same number of parameters as one of its base methods; one or more of the parameters is a base type of the corresponding parameter in the base method; and any remaining parameters have types that are identical to the corresponding parameters in the base method.
 
-## Rule Description
+## Rule description
  A method in a base type is hidden by an identically named method in a derived type when the parameter signature of the derived method differs only by types that are more weakly derived than the corresponding types in the parameter signature of the base method.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove or rename the method, or change the parameter signature so that the method does not hide the base method.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example

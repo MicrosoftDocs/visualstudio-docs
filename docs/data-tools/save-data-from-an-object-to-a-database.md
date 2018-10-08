@@ -13,6 +13,7 @@ ms.assetid: efd6135a-40cf-4b0d-8f8b-41a5aaea7057
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
@@ -20,12 +21,12 @@ ms.workload:
 # Save data from an object to a database
 You can save data in objects to a database by passing the values from your object to one of the TableAdapter's DBDirect methods (for example, `TableAdapter.Insert`). For more information, see [TableAdapter](../data-tools/create-and-configure-tableadapters.md).
 
- To save data from a collection of objects, loop through the collection of objects (for example, a for-next loop), and send the values for each object to the database by using one of the TableAdapter's DBDirect methods.
+ To save data from a collection of objects, loop through the collection of objects (for example, a for-next loop), and send the values for each object to the database by using one of the TableAdapter's `DBDirect` methods.
 
- By default, DBDirect methods are created on a TableAdapter that can be run directly against the database. These methods can be called directly and don't require <xref:System.Data.DataSet> or <xref:System.Data.DataTable> objects to reconcile changes in order to send updates to a database.
+ By default, `DBDirect` methods are created on a TableAdapter that can be run directly against the database. These methods can be called directly and don't require <xref:System.Data.DataSet> or <xref:System.Data.DataTable> objects to reconcile changes in order to send updates to a database.
 
 > [!NOTE]
->  When you're configuring a TableAdapter, the main query must provide enough information  for the DBDirect methods to be created. For example, if a TableAdapter is configured to query data from a table that does not have a primary key column defined, it does not generate DBDirect methods.
+>  When you're configuring a TableAdapter, the main query must provide enough information for the `DBDirect` methods to be created. For example, if a TableAdapter is configured to query data from a table that does not have a primary key column defined, it does not generate `DBDirect` methods.
 
 |TableAdapter DBDirect method|Description|
 |----------------------------------|-----------------|
@@ -67,7 +68,7 @@ You can save data in objects to a database by passing the values from your objec
      [!code-vb[VbRaddataSaving#25](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_3.vb)]
 
 ## .NET Framework Security
- You must have permission to perform the selected INSERT, UPDATE, or DELETE on the table in the database.
+ You must have permission to perform the selected `INSERT`, `UPDATE`, or `DELETE` on the table in the database.
 
 ## See also
 

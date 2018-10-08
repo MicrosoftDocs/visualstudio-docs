@@ -1,6 +1,7 @@
 ---
 title: Working with Visual C++ Code (Class Designer)
 ms.date: 06/21/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -20,25 +21,25 @@ manager: douge
 ms.workload:
   - "cplusplus"
 ---
-# Work with Visual C++ code (Class Designer)
+# Work with Visual C++ code in Class Designer
 
 **Class Designer** displays a visual design surface called a *class diagram* that provides a visual representation of the code elements in your project. You can use class diagrams to design and visualize classes and other types in a project.
 
 **Class Designer** supports the following C++ code elements:
 
--   Class (resembles a managed class shape, except that it can have multiple inheritance relationships)
+- Class (resembles a managed class shape, except that it can have multiple inheritance relationships)
 
--   Anonymous class (displays Class View's generated name for the anonymous type)
+- Anonymous class (displays Class View's generated name for the anonymous type)
 
--   Template class
+- Template class
 
--   Struct
+- Struct
 
--   Enum
+- Enum
 
--   Macro (displays the post-processed view of the macro)
+- Macro (displays the post-processed view of the macro)
 
--   Typedef
+- Typedef
 
 > [!NOTE]
 > This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../../modeling/uml-class-diagrams-reference.md).
@@ -59,23 +60,23 @@ If a class diagram does not update with changes you have made in the code, you m
 
 **Class Designer** might not be able to resolve types for the following reasons:
 
--   The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../managing-references-in-a-project.md).
+- The type is in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../managing-references-in-a-project.md).
 
--   The type is not in the correct scope, so **Class Designer** cannot locate it. Ensure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.
+- The type is not in the correct scope, so **Class Designer** cannot locate it. Ensure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.
 
--   The type does not exist (or has been commented out). To correct this error, make sure that you have not commented out or deleted the type.
+- The type does not exist (or has been commented out). To correct this error, make sure that you have not commented out or deleted the type.
 
--   The type is located in a library referenced by an #import directive. A possible workaround is to manually add the generated code (the .tlh file) to an #include directive into the header file.
+- The type is located in a library referenced by an #import directive. A possible workaround is to manually add the generated code (the .tlh file) to an #include directive into the header file.
 
--   Ensure that **Class Designer** supports the type that you entered. See [Limitations for C++ Code Elements](#limitations).
+- Ensure that **Class Designer** supports the type that you entered. See [Limitations for C++ Code Elements](#limitations-for-c-code-elements).
 
 The error you are most likely to see for a type resolution issue is **Code could not be found for one or more shapes in class diagram '\<element>'**. This error message does not necessarily indicate that your code is in error. It indicates only that class designer was unable to display your code. Try the following measures:
 
--   Ensure that the type exists. Ensure that you have not unintentionally commented out or deleted the source code.
+- Ensure that the type exists. Ensure that you have not unintentionally commented out or deleted the source code.
 
--   Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../managing-references-in-a-project.md).
+- Try to resolve the type. The type might be in a project or assembly that is not referenced from the project that contains the class diagram. To correct this error, add a reference to the project or assembly that contains the type. For more information, see [Managing references in a project](../managing-references-in-a-project.md).
 
--   Ensure that the type is in the correct scope so that Class Designer can locate it. Make sure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.
+- Ensure that the type is in the correct scope so that Class Designer can locate it. Make sure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.
 
 ### Troubleshoot other error messages
 
@@ -83,25 +84,25 @@ You can find assistance with troubleshooting errors and warnings in the Microsof
 
 ## Limitations for C++ code elements
 
--   When a Visual C++ project is loaded, **Class Designer** functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.
+- When a Visual C++ project is loaded, **Class Designer** functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.
 
--   **Class Designer** supports only native C++ semantics. For Visual C++ projects that are compiled into managed code, **Class Designer** will only visualize code elements that are native types. Therefore, you can add a class diagram to a project, but **Class Designer** will not allow you to visualize elements in which the `IsManaged` property is set to `true` (that is, value types and reference types).
+- **Class Designer** supports only native C++ semantics. For Visual C++ projects that are compiled into managed code, **Class Designer** will only visualize code elements that are native types. Therefore, you can add a class diagram to a project, but **Class Designer** will not allow you to visualize elements in which the `IsManaged` property is set to `true` (that is, value types and reference types).
 
--   For Visual C++ projects, the **Class Designer** reads only the definition of the type. For example, assume that you define a type in a header (.h) file and define its members in an implementation (.cpp) file. If you invoke "View Class Diagram" on the implementation (.cpp) file, **Class Designer** displays nothing. As another example, if you invoke "View Class Diagram" on a .cpp file that uses an `#include` statement to include other files but does not contain any actual class definitions, **Class Designer** again displays nothing.
+- For Visual C++ projects, the **Class Designer** reads only the definition of the type. For example, assume that you define a type in a header (.h) file and define its members in an implementation (.cpp) file. If you invoke "View Class Diagram" on the implementation (.cpp) file, **Class Designer** displays nothing. As another example, if you invoke "View Class Diagram" on a .cpp file that uses an `#include` statement to include other files but does not contain any actual class definitions, **Class Designer** again displays nothing.
 
--   IDL (.idl) files, which define COM interfaces and type libraries, do not display in diagrams unless they are compiled to native C++ code.
+- IDL (.idl) files, which define COM interfaces and type libraries, do not display in diagrams unless they are compiled to native C++ code.
 
--   **Class Designer** does not support global functions and variables.
+- **Class Designer** does not support global functions and variables.
 
--   **Class Designer** does not support unions. This is a special type of class in which the memory allocated is only the amount necessary for the union's largest data member.
+- **Class Designer** does not support unions. This is a special type of class in which the memory allocated is only the amount necessary for the union's largest data member.
 
--   **Class Designer** does not display basic data types such as `int` and `char`.
+- **Class Designer** does not display basic data types such as `int` and `char`.
 
--   **Class Designer** does not display types that are defined outside the current project if the project does not have correct references to those types.
+- **Class Designer** does not display types that are defined outside the current project if the project does not have correct references to those types.
 
--   **Class Designer** can display nested types but not the relationships between a nested type and other types.
+- **Class Designer** can display nested types but not the relationships between a nested type and other types.
 
--   **Class Designer** cannot display types that are void or that derive from a void type.
+- **Class Designer** cannot display types that are void or that derive from a void type.
 
 ## See also
 

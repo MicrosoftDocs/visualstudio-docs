@@ -66,7 +66,7 @@ This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics 
   
 1.  On the **Graphics Diagnostics** toolbar, choose **Event Call Stack** to open the **Graphics Event Call Stack** window.  
   
-2.  Starting from the draw event that renders the simulation results, move backwards through each previous `CSSetShader` event. Then, in the **Graphics Event Call Stack** window, choose the top-most function to navigate to the call site. At the call site, you can use the first parameter of the [CSSetShader](http://msdn.microsoft.com/library/ff476402.aspx) function call to determine which compute shader is executed by the next `Dispatch` event.  
+2.  Starting from the draw event that renders the simulation results, move backwards through each previous `CSSetShader` event. Then, in the **Graphics Event Call Stack** window, choose the top-most function to navigate to the call site. At the call site, you can use the first parameter of the [CSSetShader](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-cssetshader) function call to determine which compute shader is executed by the next `Dispatch` event.  
   
  In this scenario, there are three pairs of `CSSetShader` and `Dispatch` events in each frame. Working backwards, the third pair represents the integration step (where the fluid particles are actually moved), the second pair represents the force-calculation step (where forces that affect each particle are calculated), and the first pair represents the density-calculation step.  
   

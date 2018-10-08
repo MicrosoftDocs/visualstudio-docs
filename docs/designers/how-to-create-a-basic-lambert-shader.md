@@ -1,6 +1,7 @@
 ---
 title: "How to: Create a Basic Lambert Shader"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: ec5c10fb-9600-4240-8280-d59451ea1d68
@@ -10,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Create a Basic Lambert Shader
+# How to: Create a basic Lambert shader
 
 This article demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a lighting shader that implements the classic Lambert lighting model.
 
@@ -20,7 +21,7 @@ The Lambert lighting model incorporates ambient and directional lighting to shad
 
 Before you begin, make sure that the **Properties** window and the **Toolbox** are displayed.
 
-1.  Create a DGSL shader to work with. For information about how to add a DGSL shader to your project, see the Getting Started section in [Shader Designer](../designers/shader-designer.md).
+1.  Create a DGSL shader with which to work. For information about how to add a DGSL shader to your project, see the Getting Started section in [Shader Designer](../designers/shader-designer.md).
 
 2.  Disconnect the **Point Color** node from the **Final Color** node. Choose the **RGB** terminal of the **Point Color** node, and then choose **Break Links**. Leave the **Alpha** terminal connected.
 
@@ -35,13 +36,13 @@ Before you begin, make sure that the **Properties** window and the **Toolbox** a
 > [!NOTE]
 > To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader. A game or app can use this parameter to supply a unique color value for each object. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).
 
- ![The shader graph and a preview of its effect.](../designers/media/digit-lambert-effect-graph.png "Digit-Lambert-Effect-Graph")
+ ![The shader graph and a preview of its effect.](../designers/media/digit-lambert-effect-graph.png)
 
  Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).
 
  The following illustration shows the shader that's described in this document applied to a 3D model.
 
- ![Lambert lighting applied to a model.](../designers/media/digit-lambert-effect-result.png "Digit-Lambert-Effect-Result")
+ ![Lambert lighting applied to a model.](../designers/media/digit-lambert-effect-result.png)
 
  For more information about how to apply a shader to a 3D model, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 

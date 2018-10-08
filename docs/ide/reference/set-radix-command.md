@@ -1,6 +1,7 @@
 ---
 title: Set Radix Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Sets or returns the numeric base used to display integer values.
 
 ## Syntax
 
-```
+```cmd
 Debug.SetRadix [10 | 16 | hex | dec]
 ```
 
@@ -32,7 +33,7 @@ Debug.SetRadix [10 | 16 | hex | dec]
 ## Example
  This example sets the environment to display integer values in hexadecimal format.
 
-```
+```cmd
 >Debug.SetRadix hex
 ```
 

@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# FullClassName Element (Visual Studio Template Wizard Extension)
+# FullClassName element (Visual Studio template wizard extension)
 The fully qualified name of the class that implements the `IWizard` interface.  
   
  \<VSTemplate>  
@@ -26,26 +26,26 @@ The fully qualified name of the class that implements the `IWizard` interface.
   
 ## Syntax  
   
-```  
+```xml  
 <FullClassName>ClassName</FullClassName>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attribute, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[WizardExtension](../extensibility/wizardextension-element-visual-studio-templates.md)|Contains the registration elements for customizing the template wizard.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  This text specifies the class that implements the `IWizard` interface. The specified class must exist in the assembly specified by the [Assembly](../extensibility/assembly-element-visual-studio-template-wizard-extension.md) element.  
@@ -84,7 +84,7 @@ The fully qualified name of the class that implements the `IWizard` interface.
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
- [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Create project and item templates](../ide/creating-project-and-item-templates.md)   
+ [How to: Use wizards with project templates](../extensibility/how-to-use-wizards-with-project-templates.md)

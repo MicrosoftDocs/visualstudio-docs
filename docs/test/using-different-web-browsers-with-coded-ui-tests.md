@@ -1,6 +1,7 @@
 ---
 title: "Using Different Web Browsers with Coded UI Tests in Visual Studio"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
@@ -9,11 +10,11 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Use Different Web Browsers with Coded UI Tests
+# Use different web browsers with coded UI tests
 
 Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications.
 
-First, install the [Selenium components for Coded UI Cross Browser Testing](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
+First, install the [Selenium components for coded UI cross browser testing](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
 
 ## What's supported across all web browsers?
 
@@ -31,7 +32,7 @@ By testing your web application using a variety of web browser types, you better
 
 ## How do I record and play back coded UI tests on web applications using the supported web browsers?
 
-**Recording:** You must use the Coded UI Test Builder to record your web application test using Internet Explorer. You can optionally add validation and custom code for the tested controls using a predefined set of properties as you would normally do for coded UI tests. For more information, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md).
+**Recording:** You must use the Coded UI Test Builder to record your web application test using Internet Explorer. You can optionally add validation and custom code for the tested controls using a predefined set of properties as you would normally do for coded UI tests. For more information, see [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md).
 
 > [!NOTE]
 > You cannot record coded UI tests using Google Chrome or Mozilla Firefox browsers.
@@ -46,14 +47,14 @@ By testing your web application using a variety of web browser types, you better
 
 1.  On the **Tools** menu, choose **Extensions and Updates**.
 
-2.  In the Extension and Updates dialog box, search for `Selenium components for Cross Browser Testing`.
+2.  In the **Extension and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
 
 3.  Highlight the extension and choose **Download**.
 
     > [!TIP]
     > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
 
-For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).
+For more information about creating and using coded UI tests, see [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md).
 
 ### Enable debugging
 
@@ -87,7 +88,7 @@ Here are some other things you should know:
 
 You can configure the output to include screenshots in the coded UI logs. To do so, you need to set some configuration settings in the *QTAgent32.exe.config* file. By default, this file is installed in the following location:
 
-     *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*
+*%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*
 
 Set the following values:
 
@@ -97,13 +98,13 @@ Set the following values:
 
    By setting the value to 3 or higher, screenshots are taken for each action. When the value is set to either 1 or 2, screenshots are taken for error actions only.
 
-For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).
+For more information, see [Analyze coded UI tests using coded UI test logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).
 
 ## Video resources
 
- [Record on IE and Playback everywhere](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!183&authkey=!ANqaLtCZbtJrImU)
+ [Record on IE and playback everywhere](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!183&authkey=!ANqaLtCZbtJrImU)
 
- [Author cross browser tests with Coded UI Test Builder](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!184&authkey=!AKG8CSow_qmeTq8)
+ [Author cross browser tests with coded UI test builder](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!184&authkey=!AKG8CSow_qmeTq8)
 
  [Author cross browser tests using plain hand coding without UI Map](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!186&authkey=!AJaEvxJnsefyAT4)
 
@@ -113,6 +114,6 @@ For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](..
 
 ## See also
 
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-- [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [Analyze coded UI tests using coded UI test logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md)

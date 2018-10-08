@@ -20,17 +20,17 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# GUIDs and IDs of Visual Studio Toolbars
-This topic enumerates the GUID and ID values of the toolbars that are included in the Visual Studio integrated development environment (IDE), and of the groups they contain. These values are defined in .vsct files that are installed as part of the Visual Studio SDK. For more information, see [IDE-Defined Commands, Menus, and Groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).  
+# GUIDs and IDs of Visual Studio toolbars
+This topic enumerates the GUID and ID values of the toolbars that are included in the Visual Studio integrated development environment (IDE), and of the groups they contain. These values are defined in *.vsct* files that are installed as part of the Visual Studio SDK. For more information, see [IDE-defined commands, menus, and groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).  
   
 > [!NOTE]
->  Many of the toolbars available to Visual Studio are not defined by Visual Studio, and their GUID and ID values are not public. This topic lists only toolbars that are defined in Visual Studio SDK .vsct files.  
+>  Many of the toolbars available to Visual Studio are not defined by Visual Studio, and their GUID and ID values are not public. This topic lists only toolbars that are defined in Visual Studio SDK *.vsct* files.  
   
- For more information about how to work with IDE objects that are defined in .vsct files, see [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md).  
+ For more information about how to work with IDE objects that are defined in *.vsct* files, see [Extend menus and commands](../../extensibility/extending-menus-and-commands.md).  
   
- The default toolbars provided by the Visual Studio IDE use the GUID `guidSHLMainMenu`, except where otherwise specified by using GUID:ID syntax.  
+ The default toolbars provided by the Visual Studio IDE use the GUID `guidSHLMainMenu`, except where otherwise specified by using `GUID:ID` syntax.  
   
-## IDE Toolbars  
+## IDE toolbars  
  The following toolbars are provided by the Visual Studio IDE. Toolbars can be displayed by selecting them on the **Toolbars** submenu of the **Tools** menu. Toolbars in tool windows are not included in this section.  
   
  Only groups can descend directly from toolbars. To add a group, set its parent to the GUID and ID of the toolbar. To add a button to a toolbar, set its parent to a group on the toolbar.  
@@ -39,24 +39,24 @@ This topic enumerates the GUID and ID values of the toolbars that are included i
 |-------------|--------|  
 |Standard|IDM_VS_TOOL_STANDARD|  
 |Build|IDM_VS_TOOL_BUILD|  
-|Text Editor|IDM_VS_TOOL_TEXTEDITOR|  
+|Text editor|IDM_VS_TOOL_TEXTEDITOR|  
 |Debug|guidVSDebugGroup:IDM_DEBUG_TOOLBAR|  
-|Debug Location|guidVSDebugGroup:IDM_DEBUG_CONTEXT_TOOLBAR|  
+|Debug location|guidVSDebugGroup:IDM_DEBUG_CONTEXT_TOOLBAR|  
   
-### Special Toolbars  
+### Special toolbars  
  These toolbars are defined by the Visual Studio IDE, but they serve specialized functions and do not host command groups.  
   
 |Toolbar|ID|  
 |-------------|--------|  
-|Add Command|IDM_VS_TOOL_ADDCOMMAND|  
+|Add command|IDM_VS_TOOL_ADDCOMMAND|  
 |Undefined|IDM_VS_TOOL_UNDEFINED|  
-|XML Schema|IDM_VS_TOOL_SCHEMA|  
-|XML Data|IDM_VS_TOOL_DATA|  
+|XML schema|IDM_VS_TOOL_SCHEMA|  
+|XML data|IDM_VS_TOOL_DATA|  
   
-## Groups on the IDE Toolbars  
+## Groups on the IDE toolbars  
  To add a button to a standard toolbar, set one of the following groups as its parent. The groups are sorted by parent toolbar.  
   
-### Standard Toolbar Groups  
+### Standard toolbar groups  
   
 |Name|ID|  
 |----------|--------|  
@@ -66,18 +66,18 @@ This topic enumerates the GUID and ID values of the toolbars that are included i
 |Run/Build|IDG_VS_TOOLSB_RUNBUILD|  
 |Search|IDG_VS_TOOLSB_SEARCH|  
 |Windows|IDG_VS_TOOLSB_WINDOWS|  
-|New Windows|IDG_VS_TOOLSB_NEWWINDOWS|  
+|New windows|IDG_VS_TOOLSB_NEWWINDOWS|  
 |Load/Save|IDG_VS_WINDOWUI_LOADSAVE|  
 |Gauge|IDG_VS_TOOLSB_GAUGE|  
   
-### Build Toolbar Groups  
+### Build toolbar groups  
   
 |Name|ID|  
 |----------|--------|  
 |Build bar|IDG_VS_BUILDBAR|  
 |Cancel|IDG_VS_BUILD_CANCEL|  
   
-### Text Editor Toolbar Groups  
+### Text editor toolbar groups  
   
 |Name|ID|  
 |----------|--------|  
@@ -86,7 +86,7 @@ This topic enumerates the GUID and ID values of the toolbars that are included i
 |Comment|IDG_VS_EDITTOOLBAR_COMMENT|  
 |Bookmarks|IDG_VS_EDITTOOLBAR_TEMPBOOKMARKS|  
   
-### Debug Toolbar Groups  
+### Debug toolbar groups  
   
 |Name|ID|  
 |----------|--------|  
@@ -95,19 +95,19 @@ This topic enumerates the GUID and ID values of the toolbars that are included i
 |Watch|IDG_DEBUG_TOOLBAR_WATCH|  
 |Windows|IDG_DEBUG_TOOLBAR_WINDOWS|  
   
-### Debug Location Toolbar Groups  
+### Debug location toolbar groups  
   
 |Name|ID|  
 |----------|--------|  
 |Debug location|IDG_DEBUG_CONTEXT_TOOLBAR|  
   
-## Tool Window Toolbars  
- Toolbars can appear directly in the IDE or in tool windows such as **Solution Explorer**. Because tool windows are not defined in .vsct files, tool window toolbars do not have defined parents. Instead, they are placed in code. The following table shows the toolbars that appear on tool windows in the IDE, and the command groups they contain.  
+## Tool window toolbars  
+ Toolbars can appear directly in the IDE or in tool windows such as **Solution Explorer**. Because tool windows are not defined in *.vsct* files, tool window toolbars do not have defined parents. Instead, they are placed in code. The following table shows the toolbars that appear on tool windows in the IDE, and the command groups they contain.  
   
 > [!NOTE]
 >  Toolbars and groups use the GUID `guidSHLMainMenu`, except where otherwise specified by using GUID:ID syntax. Where a GUID is specified for a toolbar, it also applies to the groups that descend from that toolbar.  
   
-|Tool Window|Toolbar|Groups|  
+|Tool window|Toolbar|Groups|  
 |-----------------|-------------|------------|  
 |Solution Explorer|IDM_VS_TOOL_PROJWIN|IDG_VS_PROJ_TOOLBAR1..5|  
 |Server Explorer|guid_SE_MenuGroup:IDM_SE_TOOLBAR_SERVEREXPLORER|IDG_SE_TOOLBAR_REFRESH|  
@@ -131,7 +131,7 @@ This topic enumerates the GUID and ID values of the toolbars that are included i
 |Memory 1-4|guidVSDebugGroup:IDM_MEMORY_WINDOW_TOOLBAR1...4|IDG_MEMORY_EXPRESSION1..4<br /><br /> IDG_MEMORY_COLUMNS1..4|  
 |Processes|guidVSDebugGroup:IDM_ATTACHED_PROCS_TOOLBAR|IDG_ATTACHED_PROCS_EXECCNTRL IDG_ATTACHED_PROCS_STEPPING<br /><br /> IDG_ATTACHED_PROCS_EXECCNTRL2<br /><br /> IDG_ATTACHED_PROCS_ATTACH<br /><br /> IDG_ATTACHED_PROCS_COLUMNS|  
   
-## See Also  
- [Adding a Menu Controller to a Toolbar](../../extensibility/adding-a-menu-controller-to-a-toolbar.md)   
- [Adding a Toolbar to a Tool Window](../../extensibility/adding-a-toolbar-to-a-tool-window.md)   
- [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md)
+## See also  
+ [Add a menu controller to a toolbar](../../extensibility/adding-a-menu-controller-to-a-toolbar.md)   
+ [Add a toolbar to a tool window](../../extensibility/adding-a-toolbar-to-a-tool-window.md)   
+ [GUIDs and IDs of Visual Studio menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md)

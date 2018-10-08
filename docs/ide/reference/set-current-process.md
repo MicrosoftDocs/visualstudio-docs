@@ -1,6 +1,7 @@
 ---
 title: Set Current Process
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -18,7 +19,7 @@ Sets the specified process as the active process in the debugger.
 
 ## Syntax
 
-```
+```cmd
 Debug.SetCurrentProcess index
 ```
 
@@ -32,7 +33,7 @@ Debug.SetCurrentProcess index
 
 ## Example
 
-```
+```cmd
 >Debug.SetCurrentProcess 1
 ```
 

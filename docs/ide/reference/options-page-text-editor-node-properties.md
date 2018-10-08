@@ -1,6 +1,7 @@
 ---
 title: Options Page, Text Editor Node Properties
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
@@ -48,7 +49,7 @@ This document describes some pages (or properties collections) that are associat
 |VirtualSpace|Get/Set (Boolean)|Determines whether white space characters are displayed as graphics. Setting this to `true` causes the `WordWrap` property item (in this list) to be set to `false`.|
 |WordWrap|Get/Set (Boolean)|Determines whether the view wraps long lines at word boundaries. Setting this to `true` causes the `VirtualSpace` property item (in this list) to be set to `false`.|
 |WordWrapGlyphs|Get/Set (Boolean)|Displays a glyph at the end of a line; this indicates that the line wraps to the next line.|
-|EnableLeftClickForURLs|Get/Set (Boolean)|Determines whether the editor underlines URLs and enables a single left-click for jumping to the URL in the system registered Web browser.|
+|EnableLeftClickForURLs|Get/Set (Boolean)|Determines whether the editor underlines URLs and enables a single left-click for jumping to the URL in the system registered web browser.|
 |IndentStyle|Get/Set (<xref:EnvDTE.vsIndentStyle>)|Determines the indenting style: Default, Smart, or None.|
 |TabSize|Get/Set (Long)|Represents the number of spaces that equal a tab. Setting an integer outside the range 1 to 60 (inclusive) fails.|
 |InsertTabs|Get/Set (Boolean)|If `True`, TAB characters are used when indenting.|

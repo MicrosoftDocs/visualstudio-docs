@@ -1,20 +1,21 @@
 ---
 title: "Creating and Running Unit Tests for UWP apps in Visual Studio"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "unit tests, creating"
   - "unit tests"
   - "unit tests, UWP apps"
   - "unit tests, running"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "uwp"
 author: gewarren
 ---
-# Walkthrough: Create and Run Unit Tests for UWP apps
+# Walkthrough: Create and run unit tests for UWP apps
 
 Visual Studio includes support for unit testing Universal Windows Platform (UWP) apps. It includes unit test project templates for Visual C#, Visual Basic and Visual C++.
 
@@ -27,7 +28,7 @@ The following procedures describe the steps to create, run and debug unit tests 
 
 1.  From the **File** menu, choose **New Project**.
 
-     The New Project dialog displays.
+     The **New Project** dialog displays.
 
 2.  Under Templates, choose the programming language you want to create unit tests in, and then choose the associated Windows Universal unit test library. For example, choose **Visual C#** , then choose **Windows Universal**, and then choose **Unit Test Library (Universal Windows)**.
 
@@ -39,19 +40,19 @@ The following procedures describe the steps to create, run and debug unit tests 
 
 6.  Leave the **Create directory for solution** option selected and choose the **OK** button.
 
-     ![Tailored Unit Test Library](../test/media/unit_test_win8_1.png "Unit_Test_Win8_1")
+     ![Tailored Unit Test Library](../test/media/unit_test_win8_1.png)
 
-     Solution Explorer is populated with the UWP unit test project, and the code editor displays the default unit test titled UnitTest1.
+     **Solution Explorer** is populated with the UWP unit test project, and the code editor displays the default unit test titled UnitTest1.
 
-     ![New tailored unit test project](../test/media/unit_test_win8_unittestexplorer_newprojectcreated.png "Unit_Test_Win8_UnitTestExplorer_NewProjectCreated")
+     ![New tailored unit test project](../test/media/unit_test_win8_unittestexplorer_newprojectcreated.png)
 
 ## Edit the unit test project's UWP application manifest file
 
-1.  In Solution Explorer, right-click the *Package.appxmanifest* file and choose **Open**.
+1.  In **Solution Explorer**, right-click the *Package.appxmanifest* file and choose **Open**.
 
-     The Manifest Designer displays for editing.
+     The **Manifest Designer** displays for editing.
 
-2.  In the Manifest Designer, choose the **Capabilities** tab.
+2.  In the **Manifest Designer**, choose the **Capabilities** tab.
 
 3.  In the list under **Capabilities**, select the capabilities that you need your unit test and the code that it testing to have. For example, select the **Internet** checkbox if the unit test needs and the code it is testing need to have the capability to access the internet.
 
@@ -62,15 +63,15 @@ The following procedures describe the steps to create, run and debug unit tests 
 
 ## Code the unit test for a UWP app
 
-In the Code Editor, edit the unit test and add the asserts and logic required for your test.
+In the **Code Editor**, edit the unit test and add the asserts and logic required for your test.
 
-## Run Unit Tests
+## Run unit tests
 
 ### To build the solution and run the unit test using Test Explorer
 
 1.  On the **Test** menu, choose **Windows**, and then choose **Test Explorer**.
 
-     Test Explorer displays without your test being listed.
+     **Test Explorer** displays without your test being listed.
 
 2.  From the **Build** menu, choose **Build Solution**.
 
@@ -79,7 +80,7 @@ In the Code Editor, edit the unit test and add the asserts and logic required fo
     > [!NOTE]
     > You must build the solution to update the list of unit tests in Test Explorer.
 
-3.  In Test Explorer, choose the unit test you created.
+3.  In **Test Explorer**, choose the unit test you created.
 
     > [!TIP]
     > Test Explorer provides a link to the source code next to **Source:**.
@@ -93,13 +94,13 @@ In the Code Editor, edit the unit test and add the asserts and logic required fo
     >
     > Additionally, you can choose to **Debug Selected Tests**, **Open Test**, and use the **Properties** option.
     >
-    > ![Unit Test Explorer &#45; uni test context menu](../test/media/unit_test_win8_unittestexplorer_contextmenu.png "Unit_Test_Win8_UnitTestExplorer_ContextMenu")
+    > ![Unit Test Explorer &#45; uni test context menu](../test/media/unit_test_win8_unittestexplorer_contextmenu.png)
 
-    The unit test runs. Upon completion, Test Explorer displays the test status, elapsed time and provides a link to the source.
+    The unit test runs. Upon completion, **Test Explorer** displays the test status, elapsed time and provides a link to the source.
 
     ![Unit Test Explorer &#45; test completed](../test/media/unit_test_win8_unittestexplorer_done.png)
 
 ## See also
 
-- [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
-- [Build and test a UWP app](/vsts/build-release/apps/windows/universal?tabs=vsts)
+- [Test UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
+- [Build and test a UWP app](/azure/devops/pipelines/apps/windows/universal?tabs=vsts)

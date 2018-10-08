@@ -1,6 +1,7 @@
 ---
 title: "Bind to data in XAML Designer"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
@@ -20,13 +21,13 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
 ## To create a class to use as a data source
 
-1. On the **File** menu, choose **New**> **Project**.
+1. On the **File** menu, choose **New** > **Project**.
 
 1. In the **New Project** dialog box, choose either the **Visual C#** or **Visual Basic** node, expand the **Windows Desktop** node, and then choose the **WPF Application** template.
 
 1. Name the project **BindingTest**, and then choose the **OK** button.
 
-1. Open the MainWindow.xaml.cs (or MainWindow.xaml.vb) file and add the following code. In C#, add the code in the `BindingTest` namespace (before the final closing parenthesis in the file). In Visual Basic, just add the new class.
+1. Open the **MainWindow.xaml.cs** (or **MainWindow.xaml.vb**) file and add the following code. In C#, add the code in the `BindingTest` namespace (before the final closing parenthesis in the file). In Visual Basic, just add the new class.
 
    ```csharp
    public class ShoppingCart : DependencyObject
@@ -66,7 +67,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
 ## To bind the ItemCount property to a TextBlock control
 
-1. In Solution Explorer, open the shortcut menu for MainWindow.xaml and choose **View Designer**.
+1. In Solution Explorer, open the shortcut menu for **MainWindow.xaml** and choose **View Designer**.
 
 1. In the Toolbox, choose a [Grid](/uwp/api/Windows.UI.Xaml.Controls.Grid) control and add it to the form.
 
@@ -76,7 +77,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
      The following illustration shows the **Select Object** dialog box with **ShoppingCart** selected.
 
-     ![Select Object dialog box](../designers/media/blendselectobject.PNG "BlendSelectObject")
+     ![Select Object dialog box](../designers/media/blendselectobject.png)
 
 1. In the **Toolbox**, choose a `TextBlock` control to add it to the form.
 
@@ -86,7 +87,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
      The following illustration shows the **Create Data Binding** dialog box with the **ItemCount** property selected.
 
-     ![Create Data Binding dialog box](../designers/media/xaml_create_data_binding.png "xaml_create_data_binding")
+     ![Create Data Binding dialog box](../designers/media/xaml_create_data_binding.png)
 
 1. Press **F5** to run the app.
 
@@ -95,4 +96,4 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 ## See also
 
 - [Create a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
-- [Add Value Converter dialog box](https://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)
+- [Add Value Converter dialog box](https://msdn.microsoft.com/library/c5f3d110-a541-4b55-8bca-928f77778af8)

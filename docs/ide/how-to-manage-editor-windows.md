@@ -1,6 +1,7 @@
 ---
 title: "How to: Manage editor windows"
-ms.technology:$1ms.date: 11/04/2016
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -52,5 +53,5 @@ You can also create multiple instances of an editor window. This feature allows 
 ## See also
 
 - [Customize the editor](../ide/customizing-the-editor.md)
-- [Write code](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

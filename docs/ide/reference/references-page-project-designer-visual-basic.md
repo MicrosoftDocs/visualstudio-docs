@@ -1,6 +1,7 @@
 ---
 title: References Page, Project Designer (Visual Basic)
 ms.date: 06/21/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -19,7 +20,7 @@ ms.workload:
   - "multiple"
 ---
 # References Page, Project Designer (Visual Basic)
-Use the **References** page of the **Project Designer** to manage references, Web references, and imported namespaces in your project. Projects can contain references to COM components, XML Web services, .NET Framework class libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).
+Use the **References** page of the **Project Designer** to manage references, web references, and imported namespaces in your project. Projects can contain references to COM components, XML web services, .NET Framework class libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).
 
  To access the **References** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **References** tab.
 
@@ -51,11 +52,11 @@ Use the **References** page of the **Project Designer** to manage references, We
 
  **Add**
 
- Click this button to add a reference or Web reference to the **References** list.
+ Click this button to add a reference or web reference to the **References** list.
 
  Choose **Reference** to add a reference to your project using the Add Reference dialog box.
 
- Choose **Web Reference** to add a Web reference to your project using the Add Web Reference dialog box.
+ Choose **Web Reference** to add a web reference to your project using the **Add Web Reference** dialog box.
 
  **Remove**
 
@@ -63,7 +64,7 @@ Use the **References** page of the **Project Designer** to manage references, We
 
  **Update Web Reference**
 
- Select a Web reference in the **References** list and click this button to update it.
+ Select a web reference in the **References** list and click this button to update it.
 
  **Imported namespaces**
 

@@ -1,9 +1,9 @@
 ---
-title: Refactoring code in Visual Studio for Mac
+title: Refactoring code
 description: Re-organizing code in Visual Studio for Mac is made simple through the use of Source Analysis.
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
+author: conceptdev
+ms.author: crdun
+ms.date: 05/06/2018
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ---
 # Refactoring
@@ -61,7 +61,7 @@ The extract method refactoring operation allows you to create a new method by ex
 
 1. Add the following code:
 
-```
+```csharp
     class MainClass
     {
 

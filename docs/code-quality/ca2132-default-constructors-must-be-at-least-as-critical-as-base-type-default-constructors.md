@@ -1,6 +1,7 @@
 ---
 title: "CA2132: Default constructors must be at least as critical as base type default constructors"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -13,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2132: Default constructors must be at least as critical as base type default constructors
+
 |||
 |-|-|
 |TypeName|DefaultConstructorsMustHaveConsistentTransparency|
@@ -21,23 +23,26 @@ ms.workload:
 |Breaking Change|Breaking|
 
 > [!NOTE]
->  This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
+> This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight web applications).
 
 ## Cause
- The transparency attribute of the default constructor of a derived class is not as critical as the transparency of the base class.
 
-## Rule Description
- Types and members that have the <xref:System.Security.SecurityCriticalAttribute> cannot be used by Silverlight application code. Security-critical types and members can be used only by trusted code in the .NET Framework for Silverlight class library. Because a public or protected construction in a derived class must have the same or greater transparency than its base class, a class in an application cannot be derived from a class marked SecurityCritical.
+The transparency attribute of the default constructor of a derived class is not as critical as the transparency of the base class.
 
- For CoreCLR platform code, if a base type has a public or protected non-transparent default constructor then the derived type must obey the default constructor inheritance rules. The derived type must also have a default constructor and that constructor must be at least as critical default constructor of the base type.
+## Rule description
 
-## How to Fix Violations
- To fix the violation, remove the type or do not derive from security non-transparent type.
+Types and members that have the <xref:System.Security.SecurityCriticalAttribute> cannot be used by Silverlight application code. Security-critical types and members can be used only by trusted code in the .NET Framework for Silverlight class library. Because a public or protected construction in a derived class must have the same or greater transparency than its base class, a class in an application cannot be derived from a class marked SecurityCritical.
 
-## When to Suppress Warnings
- Do not suppress warnings from this rule. Violations of this rule by application code will result in the CoreCLR refusing to load the type with a <xref:System.TypeLoadException>.
+For CoreCLR platform code, if a base type has a public or protected non-transparent default constructor then the derived type must obey the default constructor inheritance rules. The derived type must also have a default constructor and that constructor must be at least as critical default constructor of the base type.
+
+## How to fix violations
+
+To fix the violation, remove the type or do not derive from security non-transparent type.
+
+## When to suppress warnings
+
+Do not suppress warnings from this rule. Violations of this rule by application code will result in the CoreCLR refusing to load the type with a <xref:System.TypeLoadException>.
 
 ### Code
- [!code-csharp[FxCop.Security.CA2132.DefaultConstructorsMustHaveConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2132-default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors_1.cs)]
 
-### Comments
+[!code-csharp[FxCop.Security.CA2132.DefaultConstructorsMustHaveConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2132-default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors_1.cs)]

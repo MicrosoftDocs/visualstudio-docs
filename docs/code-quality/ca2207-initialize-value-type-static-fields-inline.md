@@ -1,6 +1,7 @@
 ---
 title: "CA2207: Initialize value type static fields inline"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,16 +28,16 @@ ms.workload:
 ## Cause
  A value-type declares an explicit static constructor.
 
-## Rule Description
+## Rule description
  When a value-type is declared, it undergoes a default initialization where all value-type fields are set to zero and all reference-type fields are set to `null` (`Nothing` in Visual Basic). An explicit static constructor is only guaranteed to run before an instance constructor or static member of the type is called. Therefore, if the type is created without calling an instance constructor, the static constructor is not guaranteed to run.
 
  If all static data is initialized inline and no explicit static constructor is declared, the C# and Visual Basic compilers add the `beforefieldinit` flag to the MSIL class definition. The compilers also add a private static constructor that contains the static initialization code. This private static constructor is guaranteed to run before any static fields of the type are accessed.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule initialize all static data when it is declared and remove the static constructor.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
-## Related Rules
+## Related rules
  [CA1810: Initialize reference type static fields inline](../code-quality/ca1810-initialize-reference-type-static-fields-inline.md)

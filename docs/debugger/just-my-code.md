@@ -31,6 +31,10 @@ For most programming languages, Just My Code is enabled by default.
   
 > [!NOTE]
 >  The **Show External Code** setting is saved to the current user's profiler. It is applied to all projects in all languages that are opened by the user.
+
+##  Identify user code while debugging 
+
+The **Modules** window can tell you what code modules the debugger is treating as user code, or My Code, along with information such as the symbol loading status for the module. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
   
 ##  <a name="BKMK__NET_Framework_Just_My_Code"></a> .NET Framework Just My Code  
   
@@ -61,7 +65,9 @@ For most programming languages, Just My Code is enabled by default.
 ##  <a name="BKMK_C___Just_My_Code"></a> C++ Just My Code  
   
 ###  <a name="BKMK_CPP_User_and_non_user_code"></a> User and non-user code  
- C++ Just My Code is different than .NET Framework and JavaScript Just My Code because the stepping behavior is independent of the call stack behavior.  
+C++ Just My Code is different than .NET Framework and JavaScript Just My Code because the stepping behavior is independent of the call stack behavior.  
+
+Starting in Visual Studio 2017 15.8, you can specify whether to enable Just My Code for C++ using **Tools** > **Options** > **Debugging** > **General** > **Enable Just My Code** (it is enabled by default). This is equivalent to using the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch.
   
  **Call stacks**  
   
@@ -77,12 +83,12 @@ For most programming languages, Just My Code is enabled by default.
   
  By default, only functions specified in `*.natstepfilter` files in the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder are considered non-user code.  
   
- You can create your own `.natstepfilter` and `.natjmc` to customize the stepping and call stack window behavior in the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers`.  
+ You can create your own `.natstepfilter` and `.natjmc` to customize the stepping and call stack window behavior in the `%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers`.  
   
 ###  <a name="BKMK_CPP_Stepping_behavior"></a> Stepping behavior  
  When you **Step Into** (Keyboard shortcut: F11) non-user code from user code, the debugger steps over the code to the next line of user-code. When you **Step Out** (Keyboard: Shift + F11), the debugger runs to the next line of user code. If no user code is encountered, then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
   
- If the debugger breaks in non-user code (for example, if a Break All command stops in non-user code), stepping continues in the non-user code.  
+ If the debugger breaks in non-user code (for example, if a Break All command stops in non-user code), stepping continues in the non-user code.
   
 ###  <a name="BKMK_CPP_Exception_behavior"></a> Exception behavior  
  When the debugger hits an exception, it stops on the exception regardless of whether it is in user or non-user code. The **User-unhandled** options in the **Exceptions** dialog box are ignored.  
@@ -92,7 +98,7 @@ For most programming languages, Just My Code is enabled by default.
   
 -   To specify non-user code for all users of the Visual Studio machine, add the .natstepfilter file to the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder.  
   
--   To specify non-user code for an individual user, add the .natstepfilter file to the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers` folder.  
+-   To specify non-user code for an individual user, add the .natstepfilter file to the `%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers` folder.  
   
  .natstepfilter files are xml files with this syntax:  
   
@@ -124,7 +130,7 @@ For most programming languages, Just My Code is enabled by default.
   
 -   To specify non-user code for all users of the Visual Studio machine, add the .natjmc file to the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder.  
   
--   To specify non-user code for an individual user, add the .natjmc file to the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers` folder.  
+-   To specify non-user code for an individual user, add the .natjmc file to the `%USERPROFILE%\My Documents\Visual Studio 2017\Visualizers` folder.  
   
  .natjmc files are xml files with this syntax:  
   

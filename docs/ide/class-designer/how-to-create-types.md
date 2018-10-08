@@ -1,6 +1,7 @@
 ---
 title: "How to: Create Types by using Class Designer"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -70,7 +71,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
 3.  Add one or more custom attributes with one per line. Don't enclose them in brackets.
 
-     When you're done, the custom attributes are applied to the type.
+   The custom attributes are applied to the type.
 
 ##  <a name="CustAttributeMember"></a> Apply a custom attribute to a type member
 
@@ -80,7 +81,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
 3.  Add one or more custom attributes with one per line. Don't enclose them in brackets.
 
-     When you're done, the custom attributes are applied to the type.
+   The custom attributes are applied to the type.
 
 ## See also
 

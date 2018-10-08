@@ -11,12 +11,13 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Overview of the Domain-Specific Language Tools User Interface
-When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the user interface will resemble the following picture.
+When you first open a Domain-Specific Language Tools (DSL Tools) solution in Visual Studio, the user interface will resemble the following picture.
 
- ![dsl designer](../modeling/media/dsl_designer.png "dsl_designer")
+ ![dsl designer](../modeling/media/dsl_designer.png)
 
  The following table explains how the parts of the UI are used.
 
@@ -30,7 +31,7 @@ When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!I
 ## The Domain Model Diagram
  The domain model diagram is divided into two parts. One side of the diagram shows the elements and relationships in the model. The other side shows how the model is to be displayed, and includes the shapes that are used to display the elements and the properties of the model diagram. The following picture shows the elements of the diagram.
 
- ![dsl designer with swimlane](../modeling/media/dsl_desinger.png "dsl_desinger")
+ ![dsl designer with swimlane](../modeling/media/dsl_desinger.png)
 
  The following table explains some of the elements of the domain model diagram.
 

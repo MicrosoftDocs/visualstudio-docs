@@ -1,6 +1,7 @@
 ---
 title: Best Practices and Examples (SAL)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 author: mikeblome
@@ -144,7 +145,7 @@ BOOL StrEquals2(_In_ PSTR p1, _In_ PSTR p2)
 
 ```
 
-## \_Out_range\_
+## \_Out\_range\_
 
 If the parameter is a pointer and you want to express the range of the value of the element that is pointed to by the pointer, use `_Deref_out_range_` instead of `_Out_range_`. In the following example, the range of *pcbFilled is expressed, not pcbFilled.
 

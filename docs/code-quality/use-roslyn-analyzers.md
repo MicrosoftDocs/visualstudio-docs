@@ -1,6 +1,7 @@
 ---
-title: Use and configure Roslyn analyzers in Visual Studio
+title: Use and configure Roslyn analyzers
 ms.date: 03/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 helpviewer_keywords:
@@ -72,7 +73,7 @@ The following screenshot shows the same three violations as they appear in the *
 
 You can change the severity of a rule from **Solution Explorer**, or within the *\<projectname>.ruleset* file that is added to the solution after you change the severity of a rule in **Solution Explorer**.
 
-![Ruleset file in Solution Explorer](media/ruleset-in-solution-explorer.png)
+![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
 
 ### To set rule severity from Solution Explorer
 
@@ -92,7 +93,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 1. In the **Action** column, select the value to open a drop-down list, and select the desired severity from the list.
 
-   ![Ruleset file open in editor](media/ruleset-file-in-editor.png)
+   ![Rule set file open in editor](media/ruleset-file-in-editor.png)
 
 ## Suppress violations
 
@@ -108,7 +109,11 @@ There are multiple ways to suppress rule violations:
 
    ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
 
-- To suppress a diagnostic from the **Error List**, right-click on the error, warning, or message, and select **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
+- To suppress a diagnostic from the **Error List**, see [Suppress violations from the Error List](#suppress-violations-from-the-error-list).
+
+### Suppress violations from the Error List
+
+You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
 
    - If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
 
@@ -120,12 +125,41 @@ There are multiple ways to suppress rule violations:
 
    In the **Preview Changes** dialog, select **Apply**.
 
+The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. However, diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources, and can be suppressed from the **Error List**. If the suppression option is disabled in the right-click, or context, menu, it's likely because you have one or more build diagnostics in your selection. To exclude the build diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **Intellisense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
+
+![Error List source filter in Visual Studio](media/error-list-filter.png)
+
 > [!NOTE]
 > In a .NET Core project, if you add a reference to a project that has NuGet analyzers, those analyzers are automatically added to the dependent project too. To disable this behavior, for example if the dependent project is a unit test project, mark the NuGet package as private in the *.csproj* or *.vbproj* file of the referenced project:
 >
 > ```xml
 > <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" PrivateAssets="all" />
 > ```
+
+## Command-line usage
+
+When you build your project at the command line, rule violations appear in the build output if the following conditions are met:
+
+- The analyzers are installed as a Nuget package and not as a VSIX extension.
+
+- One or more rules are violated in the project's code.
+
+- The [severity](#rule-severity) of a violated rule is set to either **warning**, in which case violations don't cause build to fail, or **error**, in which case violations cause build to fail.
+
+The verbosity of the build output does not affect whether rule violations are shown. Even with **quiet** verbosity, rule violations appear in the build output.
+
+> [!TIP]
+> If you're accustomed to running static code analysis from the command line, either with *FxCopCmd.exe* or through msbuild with the **RunCodeAnalysis** flag, here's how to do that with Roslyn analyzers.
+
+To see analyzer violations at the command line when you build your project using msbuild, run a command like this:
+
+```cmd
+msbuild myproject.csproj /target:rebuild /verbosity:minimal
+```
+
+The following image shows the command-line build output from building a project that contains an analyzer rule violation:
+
+![MSBuild output with rule violation](media/command-line-build-analyzers.png)
 
 ## See also
 

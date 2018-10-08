@@ -6,6 +6,7 @@ ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
@@ -20,7 +21,7 @@ Set the **Discriminator Property** to a different property of the data class to 
 
 ## To correct this error
 
-1. In the O/R Designer, select the inheritance line that connects the data classes indicated in the error message.
+1. In the **O/R Designer**, select the inheritance line that connects the data classes indicated in the error message.
 
 2. Set the **Discriminator** Property to a different property.
 

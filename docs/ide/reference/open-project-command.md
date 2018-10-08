@@ -1,10 +1,12 @@
 ---
-title: Open Project Command
+title: Open Project command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "file.openproject"
+  - file.openproject
+  - file.opensolution
 helpviewer_keywords:
   - "op command"
   - "File.OpenProject command"
@@ -16,37 +18,42 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Open Project Command
-Opens an existing project.
+# Open project command
+
+Opens an existing project or solution.
 
 ## Syntax
 
-```
+```cmd
 File.OpenProject filename
 ```
 
 ## Arguments
- `filename`
 
- Required. The full path and file name of the project to open.
+`filename`
 
- The syntax for the `filename` argument requires that paths containing spaces use quotation marks.
+Required. The full path and file name of the project or solution to open.
+
+> [!NOTE]
+> The syntax for the `filename` argument requires that paths that contain spaces use quotation marks.
 
 ## Remarks
- Auto completion tries to locate the correct path and file name as you type.
 
- This command is not available while debugging.
+Auto-completion tries to locate the correct path and file name as you type.
+
+This command is not available while debugging.
 
 ## Example
- This example opens the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project, Test1.
 
-```
+The following example opens the Visual Basic project **Test1**:
+
+```cmd
 >File.OpenProject "C:\My Projects\Test1\Test1.vbproj"
 ```
 
-## See Also
+## See also
 
-- [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
-- [Command Window](../../ide/reference/command-window.md)
-- [Find/Command Box](../../ide/find-command-box.md)
-- [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
+- [Visual Studio commands](../../ide/reference/visual-studio-commands.md)
+- [Command window](../../ide/reference/command-window.md)
+- [Find/Command box](../../ide/find-command-box.md)
+- [Visual Studio command aliases](../../ide/reference/visual-studio-command-aliases.md)

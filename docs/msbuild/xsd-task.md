@@ -1,7 +1,7 @@
 ---
 title: "XSD Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/27/2018"
 ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
@@ -23,8 +23,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# XSD Task
-Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class files from a source.  
+# XSD task
+Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or class files from a source.  
+
+> [!NOTE]
+> In Visual Studio 2017, C++ project support for *xsd.exe* is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding *CppCodeProvider.dll* to the GAC. 
   
 ## Parameters  
  The following table describes the parameters of the **XSD** task.  
@@ -33,7 +36,7 @@ Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class 
   
      Optional **String** parameter.  
   
-     A list of options as specified on the command line. For example, "*/option1 /option2 /option#*". Use this parameter to specify options that are not represented by any other **XSD** task parameter.  
+     A list of options as specified on the command line. For example, /\<option1> /\<option2> /\<option#>. Use this parameter to specify options that are not represented by any other **XSD** task parameter.  
   
 -   **GenerateFromSchema**  
   
@@ -79,5 +82,5 @@ Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class 
   
      Specifies the directory for the tracker log.  
   
-## See Also  
- [Task Reference](../msbuild/msbuild-task-reference.md)
+## See also  
+ [Task reference](../msbuild/msbuild-task-reference.md)

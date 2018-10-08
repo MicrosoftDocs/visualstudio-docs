@@ -102,7 +102,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
     > [!TIP]
     >  If you are simultaneously debugging your app, you can set a breakpoint at this location and it will be hit when the next frame is rendered. You can then inspect the members of `m_marbleConstantBufferData` to confirm that the value of the `projection` member is set to all zeros when the constant buffer is filled.  
   
- After you find the location where the constant buffer is being filled and discover that that its values come from the variable `m_marbleConstantBufferData`, the next step is to find out where the `m_marbleConstantBufferData.projection` member is set to all zeros. You can use **Find All References** to quickly scan for code that changes the value of `m_marbleConstantBufferData.projection`.  
+ After you find the location where the constant buffer is being filled and discover that its values come from the variable `m_marbleConstantBufferData`, the next step is to find out where the `m_marbleConstantBufferData.projection` member is set to all zeros. You can use **Find All References** to quickly scan for code that changes the value of `m_marbleConstantBufferData.projection`.  
   
 #### To find where the projection member is set in your app's source code  
   

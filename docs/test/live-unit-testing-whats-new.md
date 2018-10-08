@@ -1,6 +1,7 @@
 ---
 title: "What's New in Live Unit Testing"
 ms.date: 10-11-2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords: 
@@ -12,7 +13,7 @@ ms.author: "ronpet"
 ms.workload: 
   - "dotnet"
 ---
-# What's New in Live Unit Testing
+# What's new in Live Unit Testing
 
 This topic lists the new features added to Live Unit Testing in each version of Visual Studio starting with Visual Studio 2017 version 15.3. For an overview of how to use Live Unit Testing, see [Live Unit Testing with Visual Studio 2017](live-unit-testing.md).
 
@@ -32,7 +33,7 @@ Starting with Visual Studio 2017 version 15.4, Live Unit Testing includes improv
 
 - **Reliability & Performance**: Live Unit Testing now ensures that the system can better detect when projects haven’t completed loading fully and avoids crashing Live Unit Testing. Build performance improvements also avoid reevaluating MSBuild projects when the system knows that nothing in the project file has changed.  
 
-- **Miscellaneous user interface refinements**:  The confusing **Live Test Set – Include/Exclude** option from the right click gesture has been renamed to **Live Unit Testing Include/Exclude**. The **Reset clean** option on the **Test**, **Live Unit Testing** menu has been removed. It is now accessible by selecting **Tools**, **Options**, **Live Unit Testing** and selecting **Delete Persisted Data**.
+- **Miscellaneous user interface refinements**:  The confusing **Live Test Set – Include/Exclude** option from the right click gesture has been renamed to **Live Unit Testing Include/Exclude**. The **Reset clean** option on the **Test** > **Live Unit Testing** menu has been removed. It is now accessible by selecting **Tools** > **Options** > **Live Unit Testing** and selecting **Delete Persisted Data**.
 
 ## What's new in Live Unit Testing for Visual Studio 2017 version 15.3
 
@@ -58,6 +59,6 @@ In addition to these major additions, Live Unit Testing includes the following e
    - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
 ## See also
-[Introducing Live Unit Testing](live-unit-testing-intro.md)   
-[Live Unit Testing with Visual Studio 2017](live-unit-testing.md)
+- [Introducing Live Unit Testing](live-unit-testing-intro.md)   
+- [Live Unit Testing with Visual Studio 2017](live-unit-testing.md)
 

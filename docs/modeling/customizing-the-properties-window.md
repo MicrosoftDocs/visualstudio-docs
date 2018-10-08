@@ -9,10 +9,11 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Customizing the Properties Window
-You can customize the appearance and behavior of the properties window in your domain-specific language (DSL) in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In your DSL Definition, you define domain properties on each domain class. By default, when you select an instance of the class, either on a diagram or in Model Explorer, every domain property is listed in the properties window. This lets you see and edit the values of domain properties, even if you have not mapped them to shape fields on the diagram.
+You can customize the appearance and behavior of the properties window in your domain-specific language (DSL) in Visual Studio. In your DSL Definition, you define domain properties on each domain class. By default, when you select an instance of the class, either on a diagram or in Model Explorer, every domain property is listed in the properties window. This lets you see and edit the values of domain properties, even if you have not mapped them to shape fields on the diagram.
 
 ## Names, Descriptions, and Categories
  **Name and Display Name**. In your definition of a domain property, the Display Name of the property is the name that appears at runtime in the properties window. By contrast, the Name is used when you write program code to update the property. The Name must be a correct CLR alphanumeric name, but the Display Name can contain spaces.
@@ -125,7 +126,7 @@ You can customize the appearance and behavior of the properties window in your d
 ### Setting a Property Editor
  Add a CLR attribute to the domain property, in the following form:
 
-```
+```csharp
 [System.ComponentModel.Editor (
    typeof(AnEditor),
    typeof(System.Drawing.Design.UITypeEditor))]
@@ -144,7 +145,7 @@ You can customize the appearance and behavior of the properties window in your d
 
 2.  Select the new property. In the **Custom Attribute** field in the Properties window, enter the following attribute. To enter this attribute, click the ellipsis **[...]** and then enter the attribute name and the parameters separately:
 
-    ```
+    ```csharp
     [System.ComponentModel.Editor (
        typeof(System.Windows.Forms.Design.FileNameEditor)
        , typeof(System.Drawing.Design.UITypeEditor))]
@@ -177,7 +178,7 @@ You can customize the appearance and behavior of the properties window in your d
 
  For example:
 
-```
+```csharp
 internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 {
   protected override void InitializeDialog(System.Windows.Forms.OpenFileDialog openFileDialog)
@@ -192,7 +193,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 
  To use this editor, set the **Custom Attribute** of a domain property to:
 
-```
+```csharp
 [System.ComponentModel.Editor (
    typeof(MyNamespace.TextFileNameEditor)
    , typeof(System.Drawing.Design.UITypeEditor))]
@@ -209,7 +210,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 
  To define a list of standard values, you add to your domain property a CLR attribute that has the following form:
 
-```
+```csharp
 [System.ComponentModel.TypeConverter
 (typeof(MyTypeConverter))]
 

@@ -15,12 +15,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# marker_series::write_message Method
+# marker_series::write_message method
 Writes a message to the Concurrency Visualizer trace file.  
   
 ## Syntax  
   
-```  
+```cpp  
 void write_message(  
    _In_ LPCTSTR _Format,  
    ...  
@@ -54,9 +54,9 @@ void write_message(
  Category.Importance level.  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [marker_series Class](../profiling/marker-series-class.md)
+## See also  
+ [marker_series class](../profiling/marker-series-class.md)

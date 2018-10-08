@@ -1,5 +1,6 @@
 ---
 title: "Using Visual Studio for Mac Tools for Unity"
+description: "This guide describes how to use Visual Studio for Mac Tools for Unity extension"
 author: dantogno
 ms.author: v-davian
 ms.date: 07/17/2017
@@ -11,7 +12,7 @@ In this section, you'll learn how to use Visual Studio for Mac Tools for Unity's
 
 ## Opening Unity scripts in Visual Studio for Mac
 
-Once Visual Studio for Mac is [set as the external script editor for Unity](/visualstudio/mac/setup-vsmac-tools-unity#configure-unity-for-use-with-visual-studio-for-mac), opening any script from the Unity editor will automatically launch or switch to Visual Studio for Mac, with the chosen script open.
+Once Visual Studio for Mac is [set as the external script editor for Unity](setup-vsmac-tools-unity.md#configure-unity-for-use-with-visual-studio-for-mac), opening any script from the Unity editor will automatically launch or switch to Visual Studio for Mac, with the chosen script open.
 
 Alternatively, Visual Studio for Mac can be opened with no script open in the source editor by selecting **Open C# Project** from the **Assets** menu in Unity.
 
@@ -64,7 +65,7 @@ To add a new C# MonoBehaviour script, **right-click on the Assets folder** or on
 
 ### Add a new Unity shader
 
-To add a new Unity shader, **right-click on the Assets folder** or a subdirectory in the Solution pad and select **Add -> New Shader**.
+To add a new Unity shader, **right-click on the Assets folder** or a subdirectory in the Solution pad and select **Add > New Shader**.
 
 ### Add a new folder
 

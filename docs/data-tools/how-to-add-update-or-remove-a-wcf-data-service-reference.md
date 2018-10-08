@@ -12,20 +12,21 @@ ms.assetid: 892ebf37-3af4-472e-8744-92837677d611
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
-# How to: Add, Update, or Remove a WCF Data Service Reference
+# How to: Add, update, or remove a WCF data service reference
 A *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
-## Adding a Service Reference
+## Add a service reference
 
-#### To add a reference to an external service
+### To add a reference to an external service
 
-1.  In **Solution Explorer**, right-click the name of the project that you want to add the service to, and then click **Add Service Reference**.
+1.  In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
      The **Add Service Reference** dialog box appears.
 
@@ -36,7 +37,7 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
 
      You can also select the URL from the **Address** list, which stores the previous 15 URLs at which valid service metadata was found.
 
-     A progress bar is displayed when the search is being performed. You can stop the search at any time by clicking **Stop**.
+     A progress bar displays when the search is being performed. You can stop the search at any time by clicking **Stop**.
 
 3.  In the **Services** list, expand the node for the service that you want to use and select an entity set.
 
@@ -44,11 +45,11 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
 
 5.  Click **OK** to add the reference to the project.
 
-     A service client (proxy) is generated, and metadata that describes the service is added to the app.config file.
+     A service client (proxy) is generated, and metadata that describes the service is added to the *app.config* file.
 
-#### To add a reference to a service in the current solution
+### To add a reference to a service in the current solution
 
-1.  In **Solution Explorer**, right-click the name of the project that you want to add the service to, and then click **Add Service Reference**.
+1.  In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
      The **Add Service Reference** dialog box appears.
 
@@ -62,29 +63,29 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
 
 5.  Click **OK** to add the reference to the project.
 
-     A service client (proxy) is generated, and metadata that describes the service is added to the app.config file.
+     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
 
-## Updating a Service Reference
- The Entity Data Model for a [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] will sometimes change. When this happens, the service reference must be updated.
+## Update a service reference
+ The Entity Data Model for a [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] sometimes changes. When this happens, you must update the service reference.
 
-#### To update a service reference
+### To update a service reference
 
 -   In **Solution Explorer**, right-click the service reference and then click **Update Service Reference**.
 
-     A progress dialog box is displayed while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
+     A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
 
-## Removing a Service Reference
+## Remove a service reference
  If a service reference is no longer being used, you can remove it from your solution.
 
-#### To remove a service reference
+### To remove a service reference
 
 -   In **Solution Explorer**, right-click the service reference and then click **Delete**.
 
-     The service client will be removed from the solution, and the metadata that describes the service will be removed from the app.config file.
+     The service client will be removed from the solution, and the metadata that describes the service will be removed from the *app.config* file.
 
     > [!NOTE]
-    >  Any code that references the service reference will have to be removed manually.
+    >  Any code that references the service reference must be removed manually.
 
 ## See also
 
-- [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)
+- [Windows Communication Foundation Services and WCF data services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Scroll Through Database Records in a Worksheet | Microsoft Docs"
+title: "How to: Scroll through database records in a worksheet"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,14 +19,14 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Scroll Through Database Records in a Worksheet
+# How to: Scroll through database records in a worksheet
   The following procedure shows how to use the designer to display a single field from a database table in a Microsoft Office Excel worksheet, with controls that enable the end user to scroll through all the records.  
   
- You can use the designer only in document-level projects. However, you can also add controls and bind them to data programmatically at run time. For more information, see [Walkthrough: Simple Data Binding in VSTO add-in Project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md).  
+ You can use the designer only in document-level projects. However, you can also add controls and bind them to data programmatically at runtime. For more information, see [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md).  
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
   
-### To scroll through database records in a worksheet  
+## To scroll through database records in a worksheet  
   
 1.  Open an Excel application project in Visual Studio.  
   
@@ -38,9 +38,9 @@ ms.workload:
   
 5.  Drag the <xref:Microsoft.Office.Tools.Excel.NamedRange> control onto the cell where you want the data to appear.  
   
-6.  From the **Windows Forms** tab of the **Toolbox**, add a <xref:System.Windows.Forms.BindingNavigator> control to your worksheet, and set up the controls you want to use. For more information, see [BindingNavigator Control Overview &#40;Windows Forms&#41;](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).  
+6.  From the **Windows Forms** tab of the **Toolbox**, add a <xref:System.Windows.Forms.BindingNavigator> control to your worksheet, and set up the controls you want to use. For more information, see [BindingNavigator control overview &#40;Windows Forms&#41;](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).  
   
-## See Also  
- [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
+## See also  
+ [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)  
   
   

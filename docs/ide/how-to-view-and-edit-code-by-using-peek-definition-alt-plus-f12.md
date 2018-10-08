@@ -1,6 +1,7 @@
 ---
 title: Using Peek Definition in Visual Studio
 ms.date: 01/10/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
@@ -23,7 +24,7 @@ You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual B
 
      This illustration shows the **Peek Definition** window for a method that's named `Print()`:
 
-     ![Peek Window](../ide/media/peekwindow.png "PeekWindow")
+     ![Peek Window](../ide/media/peekwindow.png)
 
      The definition window appears below the `printer.Print("Hello World!")` line in the original file. The window doesn't hide any of the code in your original file. The lines that follow `printer.Print("Hello World!")` appear under the definition window.
 
@@ -37,19 +38,19 @@ You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual B
 
 If you already have a **Peek Definition** window open, you can call **Peek Definition** again on the code in that window. Another definition window opens. A set of breadcrumb dots appears next to the definition window tab, which you can use to navigate between definition windows. The tooltip on each dot shows the file name and path of the definition file that the dot represents.
 
-   ![Peek window within a Peek window](../ide/media/peekwithinpeek.png "PeekWithinPeek")
+   ![Peek window within a Peek window](../ide/media/peekwithinpeek.png)
 
 ### Peek Definition with multiple results
 
 If you use **Peek Definition** on code that has more than one definition (for example, a partial class), a result list appears to the right of the code definition view. You can choose any result in the list to display its definition.
 
-   ![Peek window from multiple results](../ide/media/peekmultiple.png "PeekMultiple")
+   ![Peek window from multiple results](../ide/media/peekmultiple.png)
 
 ### Edit inside the Peek Definition window
 
 When you start to edit inside a **Peek Definition** window, the file that you're modifying automatically opens as a separate tab in the code editor and reflects the changes that you've made. You can continue to make, undo, and save changes in the **Peek Definition** window, and the tab will continue to reflect those changes. Even if you close the **Peek Definition** window without saving your changes, you can make, undo, and save more changes in the tab, picking up exactly where you left off in the **Peek Definition** window.
 
-   ![Editing within a Peek window](../ide/media/peekedit.png "PeekEdit")
+   ![Editing within a Peek window](../ide/media/peekedit.png)
 
 ### To change options for Peek Definition
 

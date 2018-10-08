@@ -16,6 +16,7 @@ ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
@@ -58,7 +59,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
     > [!NOTE]
     >  If **Add Query** is not available on the **Data** menu, select a control on the form that displays the data source you want to add the parameterization to. For example, if the form displays data in a <xref:System.Windows.Forms.DataGridView> control, select it. If the form displays data in individual controls, select any data-bound control.
 
-3.  In the **Select data source table** area, select the table that you want to add parameterization to.
+3.  In the **Select data source table** area, select the table to which you want to add parameterization.
 
 4.  Type a name in the **New query name** box if you are creating a new query.
 

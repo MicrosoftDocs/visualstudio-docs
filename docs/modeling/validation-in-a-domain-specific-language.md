@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Validation in a Domain-Specific Language
@@ -55,7 +56,7 @@ As the author of a domain-specific language (DSL), you can define validation con
 
     3.  In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.
 
-    4.  Click **Transform All Templates** in the Solution Explorer toolbar.
+    4.  Click **Transform All Templates** in the **Solution Explorer** toolbar.
 
 2.  Write partial class definitions for one or more of your domain classes or domain relationships. Write these definitions in a new code file in the **Dsl** project.
 
@@ -134,7 +135,7 @@ public partial class ParentsHaveChildren
 
  The example applies to the following domain model. The ParentsHaveChildren relationship has roles that are named Child and Parent.
 
- ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png "FamilyT_Person")
+ ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png)
 
 ## Validation Categories
  In the <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute> attribute, you specify when the validation method should be executed.
@@ -232,7 +233,7 @@ if (!validator.Validate(store, ValidationCategories.Save))
 ## Running validation when a change occurs
  If you want to make sure that the user is warned immediately if the model becomes invalid, you can define a store event that runs validation. For more information about store events, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).
 
- In addition to the validation code, add a custom code file to your **DslPackage** project, with content similar to the following example. This code uses the `ValidationController` that is attached to the document. This controller displays the validation errors in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] error list.
+ In addition to the validation code, add a custom code file to your **DslPackage** project, with content similar to the following example. This code uses the `ValidationController` that is attached to the document. This controller displays the validation errors in the Visual Studio error list.
 
 ```csharp
 using System;
@@ -295,7 +296,7 @@ namespace Company.FamilyTree
 
  The handlers are also called after Undo or Redo operations that affect the links or elements.
 
-##  <a name="custom"></a> Custom Validation Categories
+## <a name="custom"></a> Custom Validation Categories
  In addition to the standard validation categories, such as Menu and Open, you can define your own categories. You can invoke these categories from program code. The user cannot invoke them directly.
 
  A typical use for custom categories is to define a category that tests whether the model satisfies the preconditions of a particular tool.
@@ -323,7 +324,7 @@ validationController.ValidateCustom
    "PreconditionsForGeneratePartsList");
 ```
 
-##  <a name="alternatives"></a> Alternatives to Validation
+## <a name="alternatives"></a> Alternatives to Validation
  Validation constraints report errors, but do not change the model. If, instead, you want to prevent the model becoming invalid, you can use other techniques.
 
  However, these techniques are not recommended. It is usually better to let the user decide how to correct an invalid model.

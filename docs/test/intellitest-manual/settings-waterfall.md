@@ -1,6 +1,7 @@
 ---
 title: "Settings waterfall | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords: 
@@ -25,7 +26,7 @@ Note that some settings are specific to the **Assembly** level or **Fixture** le
 
 **Example**
 
-```
+```csharp
 using Microsoft.Pex.Framework;
 
 [assembly: PexAssemblySettings(MaxBranches = 1000)] // we override the default value of maxbranches

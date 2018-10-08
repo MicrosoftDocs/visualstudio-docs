@@ -26,12 +26,12 @@ ms.workload:
 |Messge type|Warning|  
   
 ## Cause  
- Calls to the Equals method or the equality operators of a  public value type are a significant proportion of the profiling data. Consider implementing a more efficient method.  
+ Calls to the Equals method or the equality operators of a public value type are a significant proportion of the profiling data. Consider implementing a more efficient method.  
   
-## Rule Description  
+## Rule description  
  For value types, the inherited implementation of Equals uses the <xref:System.Reflection> library and compares the contents of all fields in the type. Reflection is computationally expensive, and comparing every field for equality might be unnecessary. If you expect users to compare or sort instances or to use them as hash table keys, your value type should implement Equals. If your programming language supports operator overloading, you should also provide an implementation of the equality and inequality operators.  
   
  For more information about how to override Equals and the equality operators, see [Guidelines for Implementing Equals and the Equality Operator (==)](http://go.microsoft.com/fwlink/?LinkId=177818).  
   
-## How to Investigate a Warning  
+## How to investigate a warning  
  For an example of implementing the Equals and equality operators, see the code analysis rule [CA1815: Override equals and operator equals on value types](../code-quality/ca1815-override-equals-and-operator-equals-on-value-types.md)

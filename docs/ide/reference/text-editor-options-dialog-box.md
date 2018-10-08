@@ -1,6 +1,7 @@
 ---
 title: Text Editor Options Dialog Box
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -26,4 +27,4 @@ The editor options in the **Options** dialog box provide ways to customize the a
 
 ### See also
 
-[Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md) describes different ways to use the code editor.
+[Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md) describes different ways to use the code editor.

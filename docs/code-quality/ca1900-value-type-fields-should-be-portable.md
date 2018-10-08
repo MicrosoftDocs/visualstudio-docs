@@ -1,6 +1,7 @@
 ---
 title: "CA1900: Value type fields should be portable"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,11 +28,11 @@ ms.workload:
 ## Cause
  This rule checks that structures that are declared with explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. IA-64 does not allow unaligned memory accesses and the process will crash if this violation is not fixed.
 
-## Rule Description
+## Rule description
  Structures that have explicit layout that contains misaligned fields cause crashes on 64-bit operating systems.
 
-## How to Fix Violations
+## How to fix violations
  All fields that are smaller than 8 bytes must have offsets that are a multiple of their size, and fields that are 8 bytes or more must have offsets that are a multiple of 8. Another solution is to use `LayoutKind.Sequential` instead of `LayoutKind.Explicit`, if reasonable.
 
-## When to Suppress Warnings
+## When to suppress warnings
  This warning should be suppressed only if it occurs in error.

@@ -1,6 +1,7 @@
 ---
 title: Use models in your development process
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:
@@ -41,7 +42,7 @@ In both cases creating a model almost always results in a significant reduction 
 
 ## Use models with other artifacts
 
-A model is not by itself a requirements specification or an architecture. It is a tool for expressing some aspects of these things more clearly, but not all the concepts required during software design can be expressed. The models should therefore be used together with other means of communication, such as OneNote pages or paragraphs, Microsoft Office documents, work items in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)], or sticky notes on the project room wall. Apart from the last item, all of these object types can be linked to elements parts of the model.
+A model is not by itself a requirements specification or an architecture. It is a tool for expressing some aspects of these things more clearly, but not all the concepts required during software design can be expressed. The models should therefore be used together with other means of communication, such as OneNote pages or paragraphs, Microsoft Office documents, work items in Team Foundation, or sticky notes on the project room wall. Apart from the last item, all of these object types can be linked to elements parts of the model.
 
 Other aspects of specification that are ordinarily used together with models include the following. Depending on the scale and style of your project, you might use several of these aspects or not use any at all:
 
@@ -81,7 +82,7 @@ As each iteration approaches, use models to help define what is to be delivered 
 
 - Near the end of each iteration, hold a requirements workshop to define in detail the requirements or user stories that will be developed in the next iteration. Invite users and business stakeholders who can decide priorities, as well as developers and system testers. Allow three hours to define requirements for a 2-week iteration.
 
-- The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] and test suites in [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)].
+- The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in Team Foundation and test suites in [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)].
 
 - In the requirements workshop, discuss the design only insofar as you need to determine estimates for the development tasks. Otherwise, keep discussion to system behavior that users can experience directly. Keep the requirements model separate from the architectural model.
 
@@ -89,7 +90,7 @@ As each iteration approaches, use models to help define what is to be delivered 
 
 ### Link model to work items
 
-After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] to elements in the model.
+After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in Team Foundation to elements in the model.
 
 You can link any element to work items, but the most useful elements are as follows:
 
@@ -126,9 +127,9 @@ Different kinds of diagram are useful for describing the design at different lev
 
 |**Category**|**Links**|
 |------------------|---------------|
-|**Videos**|![link to video](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Videos: How to Create and Use UML Models and Diagrams (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: UML with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Series: UML Tools and Extensibility (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|
+|**Videos**|![link to video](../data-tools/media/playvideo.gif) [MSDN How Do I Videos: How to Create and Use UML Models and Diagrams (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [Channel 9: UML with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [MSDN How Do I Series: UML Tools and Extensibility (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|
 |**Forums**|- [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
-|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|
+|**Blogs**|[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)|
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md)|
 
 ## See also

@@ -11,6 +11,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Customizing the Model Explorer
@@ -28,7 +29,7 @@ You can change the appearance and behavior of the explorer for your domain-speci
  To change the window title of the generated explorer, select **Explorer Behavior** in the **DSL Explorer**, and then in the **Properties** window, set the **Title** property to the title you want.
 
 ## Changing the Tab Icon
- To change the tab icon for the explorer, use a 16x16-pixel icon in a .bmp file. Put the icon file in the \DslPackage\Resources\ folder, and then change the file name to **ModelExplorerToolWindowBitmaps.bmp**. For example, you could change the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] setup.ico icon file to .bmp format and rename it to **DSLLanguageName\DslPackage\Resources\ModelExplorerToolWindowBitmaps.bmp**. The generated designer will display this icon on the tab of your explorer when it is docked together with **Solution Explorer**.
+ To change the tab icon for the explorer, use a 16x16-pixel icon in a .bmp file. Put the icon file in the \DslPackage\Resources\ folder, and then change the file name to **ModelExplorerToolWindowBitmaps.bmp**. For example, you could change the Visual Studio setup.ico icon file to .bmp format and rename it to **DSLLanguageName\DslPackage\Resources\ModelExplorerToolWindowBitmaps.bmp**. The generated designer will display this icon on the tab of your explorer when it is docked together with **Solution Explorer**.
 
 ## Setting Custom Icons on Explorer Nodes
  You can customize nodes in your explorer by using explorer node settings. The following procedure shows how to add an icon to a node.

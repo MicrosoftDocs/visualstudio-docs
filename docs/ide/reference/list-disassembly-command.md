@@ -1,6 +1,7 @@
 ---
 title: List Disassembly Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Begins the debug process and allows you to specify how errors are handled.
 
 ## Syntax
 
-```
+```cmd
 Debug.ListDisassembly [/count:number] [/endaddress:expression]
 [/codebytes:yes|no] [/source:yes|no] [/symbolnames:yes|no]
 [/linenumbers:yes|no]
@@ -55,7 +56,7 @@ Debug.ListDisassembly [/count:number] [/endaddress:expression]
 
 ## Example
 
-```
+```cmd
 >Debug.ListDisassembly
 ```
 

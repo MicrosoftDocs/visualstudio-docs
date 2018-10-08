@@ -1,6 +1,7 @@
 ---
 title: Options, Text Editor, C/C++, Advanced
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -10,9 +11,9 @@ f1_keywords:
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: mikeblome
+ms.author: mblome
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---

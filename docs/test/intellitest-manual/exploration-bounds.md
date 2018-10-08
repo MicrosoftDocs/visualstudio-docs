@@ -1,6 +1,7 @@
 ---
 title: "Exploration bounds | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: reference
 helpviewer_keywords: 
@@ -17,7 +18,7 @@ author: gewarren
 
 You can modify the settings by using named properties of this and its derived attributes:
 
-```
+```csharp
 [PexClass(MaxRuns = 10)]
 public partial class FooTest {...}
 ```
@@ -71,7 +72,7 @@ Each conditional and unconditional branch of the executed and monitored code is 
 
 For example, the following code consumes branches in of the order 100:
 
-```
+```csharp
 for (int i=0; i<100; i++) { }
 ```
 
@@ -101,7 +102,7 @@ The motivation behind this exploration bound is to limit the complexity of any e
 
 For example, each path in the following code consumes n+1 conditions:
 
-```
+```csharp
 [PexMethod]
 void ParameterizedTest(int n) 
 {

@@ -1,6 +1,7 @@
 ---
 title: "CA1822: Mark members as static"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,16 +28,16 @@ ms.workload:
 ## Cause
  A member that does not access instance data is not marked as static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]).
 
-## Rule Description
+## Rule description
  Members that do not access instance data or call instance methods can be marked as static (Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. Emitting nonvirtual call sites will prevent a check at runtime for each call that makes sure that the current object pointer is non-null. This can achieve a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.
 
-## How to Fix Violations
+## How to fix violations
  Mark the member as static (or Shared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) or use 'this'/'Me' in the method body, if appropriate.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule for previously shipped code for which the fix would be a breaking change.
 
-## Related Rules
+## Related rules
  [CA1811: Avoid uncalled private code](../code-quality/ca1811-avoid-uncalled-private-code.md)
 
  [CA1812: Avoid uninstantiated internal classes](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md)

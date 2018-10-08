@@ -1,6 +1,7 @@
 ---
 title: "How to: Sign application and deployment manifests"
-ms.technology:$1ms.date: 11/04/2016
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -34,7 +35,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
 
 ## To sign application and deployment manifests using a certificate
 
-1.  Go to the project properties window (right-click the project node in the **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or press **Alt**+**Enter** inside the **Solution Explorer** window). On the **Signing** tab, select the **Sign the ClickOnce manifests** check box.
+1.  Go to the project properties window (right-click the project node in **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or press **Alt**+**Enter** inside **Solution Explorer**). On the **Signing** tab, select the **Sign the ClickOnce manifests** check box.
 
 2.  Click the **Select from Store** button.
 

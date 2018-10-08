@@ -1,6 +1,7 @@
 ---
 title: Annotating Structs and Classes
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
@@ -18,6 +19,7 @@ f1_keywords:
   - "_Field_size_bytes_full_"
   - "_Field_size_full_"
   - "_Field_size_full_opt_"
+  - "_Field_z_"
 ms.assetid: b8278a4a-c86e-4845-aa2a-70da21a1dd52
 author: mikeblome
 ms.author: mblome
@@ -46,9 +48,11 @@ You can annotate struct and class members by using annotations that act like inv
 
      A field that has both readable and writable size in elements (or bytes) as specified by `size`.
 
--   `_Struct_size_bytes_(size)`
+-   `_Field_z_`
 
-     A field that has both readable and writable size in elements (or bytes) as specified by `size`.
+     A field that has a null-terminated string.
+
+-   `_Struct_size_bytes_(size)`
 
      Applies to struct or class declaration.  Indicates that a valid object of that type may be larger than the declared type, with the number of bytes being specified by `size`.  For example:
 

@@ -1,10 +1,11 @@
 ---
 title: Common Quick Actions
 ms.date: 03/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "kuhlenh"
-ms.author: "kaseyu"
+author: gewarren
+ms.author: gewarren
 manager: douge
 dev_langs:
   - CSharp
@@ -14,13 +15,17 @@ ms.workload:
 ---
 # Common Quick Actions
 
-The sections in this topic list some of the common Quick Actions that are applicable to both C# and Visual Basic code. These actions are *code fixes* for the built-in [analyzer rules](../code-quality/roslyn-analyzers-overview.md) in Visual Studio.
+The sections in this topic list some of the common **Quick Actions** that are applicable to both C# and Visual Basic code. These actions are *code fixes* for either compiler diagnostics, or the built-in [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) in Visual Studio.
 
 ## Actions that fix errors
 
+The Quick Actions in this section fix errors in code that would cause a build to fail. When Quick Actions are available to fix an error on a line of code, the icon that's displayed in the margin or underneath the red squiggle is a light bulb with a red 'x' on it.
+
+![Quick Actions error icon and menu](media/error-light-bulb-with-code.png)
+
 ### Correct misspelled symbol or keyword
 
-If you accidentally misspell a type or keyword in Visual Studio, this Quick Action will automatically correct it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
+If you accidentally misspell a type or keyword in Visual Studio, this Quick Action automatically corrects it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**. For example:
 
 ```csharp
 // Before
@@ -60,17 +65,10 @@ These Quick Actions enable you to resolve git merge conflicts by "taking a chang
 // Before
 private void MyMethod()
 {
-<<<<<<< HEAD
-    if (true)
-    {
-
-    }
-=======
     if (false)
     {
 
     }
->>>>>>> upstream
 }
 
 // Take changes from 'HEAD'
@@ -89,87 +87,11 @@ private void MyMethod()
 | ------- | -------------------- | ----------------  |
 | CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 version 15.3 |
 
-### Make method synchronous
-
-When using the `async` or `Async` keyword on a method, it is expected that somewhere inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
-
-```csharp
-// Before
-async Task<int> MyAsyncMethod()
-{
-    return 3;
-}
-
-// Make method synchronous
-
-// After
-int MyAsyncMethod()
-{
-    return 3;
-}
-```
-
-```vb
-' Before
-Async Function MyAsyncMethod() As Task(Of Integer)
-    Return 3
-End Function
-
-' Make method synchronous
-
-' After
-Function MyAsyncMethod() As Integer
-    Return 3
-End Function
-```
-
-|  Error ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
-
-### Make method asynchronous
-
-When using the `await` or `Await` keyword inside of a method, it is expected that the method itself is marked with the `async` or `Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
-
-```csharp
-// Before
-int MyAsyncMethod()
-{
-    return await Task.Run(...);
-}
-
-// Make method asynchronous
-
-// After
-async Task<int> MyAsyncMethod()
-{
-    return await Task.Run(...);
-}
-```
-
-```vb
-' Before
-Function MyAsyncMethod() as Integer
-    Return  Await Task.Run(...)
-End Function
-
-' Make method asynchronous
-
-' After
-Async Function MyAsyncMethod() As Task(Of Integer)
-    Return Await Task.Run(...)
-End Function
-```
-
-|  Error ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 |
-
 ## Actions that remove unnecessary code
 
 ### Remove unnecessary usings/Imports
 
-The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
+The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` statements for the current file. When you select this item, unused namespace imports are removed.
 
 |  Applicable Languages |  Supported Version |
 |  -------------------- | ----------------  |
@@ -177,7 +99,7 @@ The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `u
 
 ### Remove unnecessary cast
 
-If you cast a type to another type which doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item will remove the cast from your code.
+If you cast a type to another type that doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item removes the unnecessary cast.
 
 ```csharp
 // before
@@ -523,7 +445,7 @@ End Select
 
 ### Convert to interpolated string
 
-[Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
+[Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](/dotnet/api/system.string.format#overloads)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
 
 ```csharp
 // Before
@@ -555,7 +477,7 @@ Dim s As String = $"My string with {num} in the middle"
 
 ### Use object initializers
 
-This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than invoking tne constructor and having additional lines of assignment statements.
+This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than invoking the constructor and having additional lines of assignment statements.
 
 ```csharp
 // Before
@@ -895,7 +817,7 @@ Dim name = customer.name
 
 ### Use inferred names
 
-These Quick Actions point out when users can use inferred member names in anonymous types or use C# 7.1's inferred tuple element names.
+This Quick Action points out when code can be simplified to use inferred member names in anonymous types, or inferred element names in tuples.
 
 ```csharp
 // Before
@@ -924,7 +846,7 @@ var tuple = (age, name);
 
 ### Deconstruct tuple declaration
 
-This Quick Action enables you to deconstruct tuple variable declarations.
+This Quick Action enables deconstructing tuple variable declarations.
 
 ```csharp
 // Before
@@ -947,6 +869,82 @@ Console.WriteLine($"{x} {y}");
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0042 | C# 7.0+ | Visual Studio 2017 v. 15.5 |
+
+### Make method synchronous
+
+When using the `async` or `Async` keyword on a method, it's expected that inside that method the `await` or `Await` keyword is also used. However, if this isn't the case, a Quick Action appears that makes the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
+
+```csharp
+// Before
+async Task<int> MyAsyncMethod()
+{
+    return 3;
+}
+
+// Make method synchronous
+
+// After
+int MyAsyncMethod()
+{
+    return 3;
+}
+```
+
+```vb
+' Before
+Async Function MyAsyncMethod() As Task(Of Integer)
+    Return 3
+End Function
+
+' Make method synchronous
+
+' After
+Function MyAsyncMethod() As Integer
+    Return 3
+End Function
+```
+
+|  Error ID | Applicable Languages |  Supported Version |
+| ------- | -------------------- | ----------------  |
+| CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
+
+### Make method asynchronous
+
+When using the `await` or `Await` keyword inside of a method, it's expected that the method is marked with the `async` or `Async` keyword. However, if this isn't the case, a Quick Action appears that makes the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
+
+```csharp
+// Before
+int MyAsyncMethod()
+{
+    return await Task.Run(...);
+}
+
+// Make method asynchronous
+
+// After
+async Task<int> MyAsyncMethod()
+{
+    return await Task.Run(...);
+}
+```
+
+```vb
+' Before
+Function MyAsyncMethod() as Integer
+    Return  Await Task.Run(...)
+End Function
+
+' Make method asynchronous
+
+' After
+Async Function MyAsyncMethod() As Task(Of Integer)
+    Return Await Task.Run(...)
+End Function
+```
+
+|  Error ID | Applicable Languages |  Supported Version |
+| ------- | -------------------- | ----------------  |
+| CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 |
 
 ## See also
 

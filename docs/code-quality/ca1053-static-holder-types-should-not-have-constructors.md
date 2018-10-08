@@ -1,6 +1,7 @@
 ---
 title: "CA1053: Static holder types should not have constructors"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -27,16 +28,16 @@ ms.workload:
 ## Cause
  A public or nested public type declares only static members and has a public or protected default constructor.
 
-## Rule Description
+## Rule description
  The constructor is unnecessary because calling static members does not require an instance of the type. Also, because the type does not have non-static members, creating an instance does not provide access to any of the type's members.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove the default constructor or make it private.
 
 > [!NOTE]
 >  Some compilers automatically create a public default constructor if the type does not define any constructors. If this is the case with your type, add a private default constructor to eliminate the violation.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule. The presence of the constructor suggests that the type is not a static type.
 
 ## Example

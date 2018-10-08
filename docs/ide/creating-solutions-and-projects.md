@@ -1,6 +1,7 @@
 ---
 title: Create solutions and projects in Visual Studio
 ms.date: 02/06/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -36,7 +37,7 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 ## To create a project from a project template
 
-1. There are multiple ways to create a new project in Visual Studio. On the **Start Page**, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File** > **New** > **Project...** on the menu bar, or choose the **New Project** button on the toolbar.
+1. There are multiple ways to create a new project in Visual Studio. On the **Start Page**, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File** > **New** > **Project** on the menu bar, or choose the **New Project** button on the toolbar.
 
   ![Start page](./media/vside-newproject1.png)
 
@@ -93,7 +94,7 @@ You can also create empty solutions that have no projects. This might be prefera
 
 ### To create an empty solution
 
-1. On the menu, choose **File** > **New** > **Project...**.
+1. On the menu, choose **File** > **New** > **Project**.
 
 1. In the left (**Templates**) pane, choose **Other Project Types** > **Visual Studio Solutions** in the expanded list.
 
@@ -130,5 +131,4 @@ You can delete solutions and their contents permanently, but not by using the Vi
 
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
-- [Visual Studio samples](../ide/visual-studio-samples.md)
 - [Developer code samples](https://code.msdn.microsoft.com/)

@@ -1,7 +1,7 @@
 ---
 title: Refactoring Python code
 description: How to easily refactor Python code in Visual Studio by renaming identifiers, extracting methods, adding imports, and removing unused imports.
-ms.date: 07/12/2017
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Refactoring Python code
+# Refactor Python code
 
 Visual Studio provides several commands for automatically transforming and cleaning up your Python source code:
 
@@ -22,11 +22,9 @@ Visual Studio provides several commands for automatically transforming and clean
 - [Add import](#add-import) provides a smart tag to add a missing import
 - [Remove unused imports](#remove-unused-imports) removes unused imports
 
-<a name="rename-variable"</a>
-
 ## Rename
 
-1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit > Refactor > Rename...** menu command (F2).
+1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**).
 1. In the **Rename** dialog that appears, enter the new name for the identifier and select **OK**:
 
   ![Rename prompt for new identifer name](media/code-refactor-rename-1.png)
@@ -40,7 +38,7 @@ Visual Studio provides several commands for automatically transforming and clean
 ## Extract method
 
 1. Select the lines of code or the expression to extract into a separate method.
-1. Select the **Edit > Refactor > Extract method...** menu command or type Ctrl-R, M.
+1. Select the **Edit** > **Refactor** > **Extract method** menu command or type **Ctrl**+**R** > **M**.
 1. In the dialog that appears, enter a new method name, indicate where to extract it to, and select any closure variables. Variables not selected for closure are turned into method arguments:
 
   ![Extract method dialog](media/code-refactor-extract-method-1.png)
@@ -64,8 +62,6 @@ Visual Studio attempts to filter out members that aren't actually defined in a m
 Similarly, Visual Studio filters functions that are imported from other modules or from the built-in namespace. For example if a module imports the `settrace` function from the `sys` module, then in theory you could import it from that module. But it's best to use `import settrace from sys` directly, and so Visual Studio offers that statement specifically.
 
 Finally, if something would normally be excluded but has other values that would be included (because the name was assigned a value in the module, for example), Visual Studio still excludes the import. This behavior assumes that the value shouldn't be exported because it is defined in another module, and thus the additional assignment is likely to be a dummy value that is also not exported.
-
-<a name="remove-imports"</a>
 
 ## Remove unused imports
 

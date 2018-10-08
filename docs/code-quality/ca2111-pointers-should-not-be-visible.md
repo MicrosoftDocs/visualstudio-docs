@@ -1,6 +1,7 @@
 ---
 title: "CA2111: Pointers should not be visible"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -17,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2111: Pointers should not be visible
+
 |||
 |-|-|
 |TypeName|PointersShouldNotBeVisible|
@@ -27,15 +29,15 @@ ms.workload:
 ## Cause
  A public or protected <xref:System.IntPtr?displayProperty=fullName> or <xref:System.UIntPtr?displayProperty=fullName> field is not read-only.
 
-## Rule Description
+## Rule description
  <xref:System.IntPtr> and <xref:System.UIntPtr> are pointer types that are used to access unmanaged memory. If a pointer is not private, internal, or read-only, malicious code can change the value of the pointer, potentially allowing access to arbitrary locations in memory or causing application or system failures.
 
  If you intend to secure access to the type that contains the pointer field, see [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md).
 
-## How to Fix Violations
+## How to fix violations
  Secure the pointer by making it read-only, internal, or private.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Suppress a warning from this rule if you do not rely on the value of the pointer.
 
 ## Example
@@ -43,11 +45,12 @@ ms.workload:
 
  [!code-csharp[FxCop.Security.PointersArePrivate#1](../code-quality/codesnippet/CSharp/ca2111-pointers-should-not-be-visible_1.cs)]
 
-## Related Rules
+## Related rules
  [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md)
 
  [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
 
-## See Also
- <xref:System.IntPtr?displayProperty=fullName>
- <xref:System.UIntPtr?displayProperty=fullName>
+## See also
+
+- <xref:System.IntPtr?displayProperty=fullName>
+- <xref:System.UIntPtr?displayProperty=fullName>

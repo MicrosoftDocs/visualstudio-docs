@@ -1,6 +1,7 @@
 ---
 title: "CA2123: Override link demands should be identical to base"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -17,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2123: Override link demands should be identical to base
+
 |||
 |-|-|
 |TypeName|OverrideLinkDemandsShouldBeIdenticalToBase|
@@ -27,15 +29,15 @@ ms.workload:
 ## Cause
  A public or protected method in a public type overrides a method or implements an interface, and does not have the same [Link Demands](/dotnet/framework/misc/link-demands) as the interface or virtual method.
 
-## Rule Description
+## Rule description
  This rule matches a method to its base method, which is either an interface or a virtual method in another type, and then compares the link demands on each. A violation is reported if either the method or the base method has a link demand and the other does not.
 
  If this rule is violated, a malicious caller can bypass the link demand merely by calling the unsecured method.
 
-## How to Fix Violations
- To fix a violation of this rule, apply the same link demand to the overide method or implementation. If this is not possible, mark the method with a full demand or remove the attribute altogether.
+## How to fix violations
+ To fix a violation of this rule, apply the same link demand to the override method or implementation. If this is not possible, mark the method with a full demand or remove the attribute altogether.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
@@ -43,6 +45,7 @@ ms.workload:
 
  [!code-csharp[FxCop.Security.OverridesAndSecurity#1](../code-quality/codesnippet/CSharp/ca2123-override-link-demands-should-be-identical-to-base_1.cs)]
 
-## See Also
- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)
- [Link Demands](/dotnet/framework/misc/link-demands)
+## See also
+
+- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)
+- [Link Demands](/dotnet/framework/misc/link-demands)

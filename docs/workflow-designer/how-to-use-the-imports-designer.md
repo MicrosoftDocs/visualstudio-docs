@@ -29,7 +29,7 @@ The imports designer reacts to both changes in the UI and changes made when the 
 
 ## To add a namespace to the list of imported namespaces
 
-1.  Open a WCF Workflow service application, workflow console application, or activity library project in Visual Studio 2010 or a rehosted workflow application.
+1.  Open a WCF Workflow service application, workflow console application, or activity library project in Visual Studio or a rehosted workflow application.
 
 2.  Click **Imports** on the bottom of the main canvas. The Imports designer will appear.
 

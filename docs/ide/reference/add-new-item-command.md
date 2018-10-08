@@ -1,6 +1,7 @@
 ---
 title: Add New Item Command
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
@@ -20,7 +21,7 @@ Adds a new solution item, such as an .htm, .css, .txt, or frameset to the curren
 
 ## Syntax
 
-```
+```cmd
 File.AddNewItem [filename] [/t:templatename] [/e:editorname]
 ```
 
@@ -36,7 +37,7 @@ File.AddNewItem [filename] [/t:templatename] [/e:editorname]
 
  For example, to create a new text file, you would enter the following for the /t:`templatename` argument.
 
-```
+```cmd
 /t:"General\Style Sheet"
 ```
 
@@ -47,14 +48,14 @@ File.AddNewItem [filename] [/t:templatename] [/e:editorname]
 
  For example, to open a style sheet in the source code editor, you would enter the following for the /e:`editorname` argument.
 
-```
+```cmd
 /e:"Source Code (text) Editor"
 ```
 
 ## Example
  This example adds a new solution item, MyHTMLpg, to the current solution.
 
-```
+```cmd
 >File.AddNewItem MyHTMLpg /t:"General\HTML Page"
 ```
 

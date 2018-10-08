@@ -1,6 +1,7 @@
 ---
 title: "Attribute glossary | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: reference
 helpviewer_keywords: 
@@ -46,7 +47,7 @@ cannot be **null**. It can be attached to:
 
 * a **parameter** of a parameterized test method
 
-  ```
+  ```csharp
   // assume foo is not null
   [PexMethod]
   public void SomeTest([PexAssumeNotNull]IFoo foo, ...) {}
@@ -54,7 +55,7 @@ cannot be **null**. It can be attached to:
 
 * a **field**
 
-  ```
+  ```csharp
   public class Foo {
      // this field should not be null
      [PexAssumeNotNull]
@@ -64,7 +65,7 @@ cannot be **null**. It can be attached to:
 
 * a **type**
 
-  ```
+  ```csharp
   // never consider null for Foo types
   [PexAssumeNotNull]
   public class Foo {}
@@ -103,7 +104,7 @@ and is a typical technique in C#.
 
 **Additional suite and categories**:
 
-```
+```csharp
 [TestClass] // MSTest test fixture attribute
 [PexClass(Suite = "checkin")] // fixture attribute
 public partial class MyTests { ... }
@@ -111,7 +112,7 @@ public partial class MyTests { ... }
 
 **Specifying the type under test**:
 
-```
+```csharp
 [PexClass(typeof(Foo))] // this is a test for Foo
 public partial class FooTest { ... }
 ```
@@ -151,7 +152,7 @@ The parameterized unit test:
 
 **Example**
 
-```
+```csharp
 [PexClass]
 public partial class MyTests {
      [PexMethod]
@@ -171,7 +172,7 @@ public partial class MyTests {
 This attribute can be set at the assembly level to 
 override default setting values for all explorations.
 
-```
+```csharp
 using Microsoft.Pex.Framework;
 // overriding the test framework selection
 [assembly: PexAssemblySettings(TestFramework = "Naked")]
@@ -183,7 +184,7 @@ using Microsoft.Pex.Framework;
 This attribute specifies an assembly that 
 is being tested by the current test project. 
 
-```
+```csharp
 [assembly: PexAssemblyUnderTest("MyAssembly")]
 ```
 
@@ -195,7 +196,7 @@ instrumented.
 
 **Example**
 
-```
+```csharp
 using Microsoft.Pex.Framework;
 
 // the assembly containing ATypeFromTheAssemblyToInstrument should be instrumented
@@ -214,7 +215,7 @@ or interfaces.
 
 **Example**
 
-```
+```csharp
 [PexMethod]
 [PexUseType(typeof(A))]
 [PexUseType(typeof(B))]
@@ -239,7 +240,7 @@ specified exception.
 The following test specifies that the constructor of 
 **Stack** may throw an **ArgumentOutOfRangeException**:
 
-```
+```csharp
 class Stack {
   int[] _elements;
   int _count;
@@ -255,7 +256,7 @@ class Stack {
 The filter is attached to a fixture as follows (it 
 can also be defined at the assembly or test level):
 
-```
+```csharp
 [PexMethod]
 [PexAllowedException(typeof(ArgumentOutOfRangeException))]
 class CtorTest(int capacity) {

@@ -7,10 +7,11 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Setting a Background Image on a Diagram
-In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
+In Visual Studio Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
 
 ## Setting the background image
 
@@ -54,7 +55,7 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and M
 
      Replace "MyDiagramClass" with the name of the diagram partial class that is defined in Dsl\GeneratedCode\Diagrams.cs. You can also retrieve the correct namespace from the file Dsl\GeneratedCode\Diagrams.cs.
 
-    ```
+    ```csharp
     using System;
     using Microsoft.VisualStudio.Modeling.Diagrams;
 

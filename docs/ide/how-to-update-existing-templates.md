@@ -1,6 +1,7 @@
 ---
 title: Update existing project and item templates in Visual Studio
 ms.date: 01/02/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
@@ -66,4 +67,3 @@ You can update an existing template without using the **Export Template Wizard**
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Template parameters](../ide/template-parameters.md)
-- [How to: Create starter kits](../ide/how-to-create-starter-kits.md)

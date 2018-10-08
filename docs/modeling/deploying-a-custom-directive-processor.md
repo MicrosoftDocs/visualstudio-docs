@@ -9,6 +9,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Deploying a Custom Directive Processor
@@ -136,7 +137,7 @@ There are several ways of creating a .vsix file. The following procedure describ
 
  Place the following attribute on your package class:
 
-```
+```csharp
 [ProvideDirectiveProcessor(typeof(DirectiveProcessorClass), "DirectiveProcessorName", "Directive processor description.")]
 ```
 

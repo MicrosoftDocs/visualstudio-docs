@@ -1,6 +1,7 @@
 ---
 title: Mixed Recommended Rules rule set
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 author: gewarren
@@ -144,7 +145,7 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |[C28020](../code-quality/c28020.md)|The expression is not true at this call|
 |[C28021](../code-quality/c28021.md)|The parameter being annotated must be a pointer|
 |[C28022](../code-quality/c28022.md)|The function class(es) on this function do not match the function class(es) on the typedef used to define it.|
-|[C28023](../code-quality/c28023.md)|The function being assigned or passed should have a _Function_class\_ annotation for at least one of the class(es)|
+|[C28023](../code-quality/c28023.md)|The function being assigned or passed should have a \_Function\_class\_ annotation for at least one of the class(es)|
 |[C28024](../code-quality/c28024.md)|The function pointer being assigned to is annotated with the function class, which is not contained in the function class(es) list.|
 |[C28039](../code-quality/c28039.md)|The type of actual parameter should exactly match the type|
 |[C28112](../code-quality/c28112.md)|A variable which is accessed via an Interlocked function must always be accessed via an Interlocked function.|
@@ -162,14 +163,14 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |[C28196](../code-quality/c28196.md)|The requirement is not satisfied. (The expression does not evaluate to true.)|
 |[C28202](../code-quality/c28202.md)|Illegal reference to non-static member|
 |[C28203](../code-quality/c28203.md)|Ambiguous reference to class member.|
-|[C28205](../code-quality/c28205.md)|_Success\_ or _On_failure\_ used in an illegal context|
+|[C28205](../code-quality/c28205.md)|\_Success\_ or \_On\_failure\_ used in an illegal context|
 |[C28206](../code-quality/c28206.md)|Left operand points to a struct, use '->'|
 |[C28207](../code-quality/c28207.md)|Left operand is a struct, use '.'|
 |[C28209](../code-quality/c28209.md)|The declaration for symbol has a conflicting declaration|
 |[C28210](../code-quality/c28210.md)|Annotations for the __on_failure context must not be in explicit pre context|
 |[C28211](../code-quality/c28211.md)|Static context name expected for SAL_context|
 |[C28212](../code-quality/c28212.md)|Pointer expression expected for annotation|
-|[C28213](../code-quality/c28213.md)|The _Use_decl_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
+|[C28213](../code-quality/c28213.md)|The \_Use\_decl\_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
 |[C28214](../code-quality/c28214.md)|Attribute parameter names must be p1...p9|
 |[C28215](../code-quality/c28215.md)|The typefix cannot be applied to a parameter that already has a typefix|
 |[C28216](../code-quality/c28216.md)|The checkReturn annotation only applies to postconditions for the specific function parameter.|
@@ -212,22 +213,22 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |[C28267](../code-quality/c28267.md)|A syntax error in the annotations was found annotation in the function.|
 |[C28272](../code-quality/c28272.md)|The annotation for function, parameter when examining is inconsistent with the function declaration|
 |[C28273](../code-quality/c28273.md)|For function, the clues are inconsistent with the function declaration|
-|[C28275](../code-quality/c28275.md)|The parameter to _Macro_value\_ is null|
+|[C28275](../code-quality/c28275.md)|The parameter to \_Macro\_value\_ is null|
 |[C28279](../code-quality/c28279.md)|For symbol, a 'begin' was found without a matching 'end'|
 |[C28280](../code-quality/c28280.md)|For symbol, an 'end' was found without a matching 'begin'|
 |[C28282](../code-quality/c28282.md)|Format Strings must be in preconditions|
 |[C28285](../code-quality/c28285.md)|For function, syntax error in parameter|
 |[C28286](../code-quality/c28286.md)|For function, syntax error near the end|
-|[C28287](../code-quality/c28287.md)|For function, syntax Error in _At\_() annotation (unrecognized parameter name)|
-|[C28288](../code-quality/c28288.md)|For function, syntax Error in _At\_() annotation (invalid parameter name)|
+|[C28287](../code-quality/c28287.md)|For function, syntax Error in \_At\_() annotation (unrecognized parameter name)|
+|[C28288](../code-quality/c28288.md)|For function, syntax Error in \_At\_() annotation (invalid parameter name)|
 |[C28289](../code-quality/c28289.md)|For function: ReadableTo or WritableTo did not have a limit-spec as a parameter|
 |[C28290](../code-quality/c28290.md)|the annotation for function contains more Externals than the actual number of parameters|
 |[C28291](../code-quality/c28291.md)|post null/notnull at deref level 0 is meaningless for function.|
 |[C28300](../code-quality/c28300.md)|Expression operands of incompatible types for operator|
 |[C28301](../code-quality/c28301.md)|No annotations for first declaration of function.|
-|[C28302](../code-quality/c28302.md)|An extra _Deref\_ operator was found on annotation.|
-|[C28303](../code-quality/c28303.md)|An ambiguous _Deref\_ operator was found on annotation.|
-|[C28304](../code-quality/c28304.md)|An improperly placed _Notref\_ operator was found applied to token.|
+|[C28302](../code-quality/c28302.md)|An extra \_Deref\_ operator was found on annotation.|
+|[C28303](../code-quality/c28303.md)|An ambiguous \_Deref\_ operator was found on annotation.|
+|[C28304](../code-quality/c28304.md)|An improperly placed \_Notref\_ operator was found applied to token.|
 |[C28305](../code-quality/c28305.md)|An error while parsing a token was discovered.|
 |[C28306](../code-quality/c28306.md)|The annotation on parameter is obsolescent|
 |[C28307](../code-quality/c28307.md)|The annotation on parameter is obsolescent|

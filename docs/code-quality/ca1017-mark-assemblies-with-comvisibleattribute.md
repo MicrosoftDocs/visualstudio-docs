@@ -1,6 +1,7 @@
 ---
 title: "CA1017: Mark assemblies with ComVisibleAttribute"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -13,10 +14,15 @@ ms.assetid: 4842cb49-8dd8-4e5d-a2d6-ceeaf6c6cf8e
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CPP
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1017: Mark assemblies with ComVisibleAttribute
+
 |||
 |-|-|
 |TypeName|MarkAssembliesWithComVisible|
@@ -27,13 +33,13 @@ ms.workload:
 ## Cause
  An assembly does not have the <xref:System.Runtime.InteropServices.ComVisibleAttribute?displayProperty=fullName> attribute applied to it.
 
-## Rule Description
+## Rule description
  The <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute determines how COM clients access managed code. Good design dictates that assemblies explicitly indicate COM visibility. COM visibility can be set for a whole assembly and then overridden for individual types and type members. If the attribute is not present, the contents of the assembly are visible to COM clients.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, add the attribute to the assembly. If you do not want the assembly to be visible to COM clients, apply the attribute and set its value to `false`.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule. If you want the assembly to be visible, apply the attribute and set its value to `true`.
 
 ## Example
@@ -43,6 +49,7 @@ ms.workload:
  [!code-vb[FxCop.Design.AssembliesCom#1](../code-quality/codesnippet/VisualBasic/ca1017-mark-assemblies-with-comvisibleattribute_1.vb)]
  [!code-csharp[FxCop.Design.AssembliesCom#1](../code-quality/codesnippet/CSharp/ca1017-mark-assemblies-with-comvisibleattribute_1.cs)]
 
-## See Also
- [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)
- [Qualifying .NET Types for Interoperation](/dotnet/framework/interop/qualifying-net-types-for-interoperation)
+## See also
+
+- [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)
+- [Qualifying .NET Types for Interoperation](/dotnet/framework/interop/qualifying-net-types-for-interoperation)

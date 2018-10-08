@@ -1,31 +1,32 @@
 ---
 title: "Unit testing Visual C# code in Visual Studio"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "uwp"
 author: gewarren
 ---
 # Unit testing Visual C# code
 
-This topic describes one way to create unit tests for a Visual C# class in a UWP app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.
+This article describes one way to create unit tests for a Visual C# class in a UWP app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.
 
-This topic demonstrates how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.
+This article demonstrates how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.
 
-This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the DLL.
+This article also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the DLL.
 
 ## Create the solution and the unit test project
 
-1. On the **File** menu, choose **New** > **Project...**.
+1. On the **File** menu, choose **New** > **Project**.
 
 2. In the **New Project** dialog box, expand **Installed** > **Visual C#** and choose **Windows Universal**. Then choose **Blank App** from the list of project templates.
 
 3. Name the project `Maths` and make sure **Create directory for solution** is selected.
 
-4. In Solution Explorer, choose the solution name, choose **Add** from the shortcut menu, and then choose **New Project**.
+4. In **Solution Explorer**, choose the solution name, choose **Add** from the shortcut menu, and then choose **New Project**.
 
 5. In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
 
@@ -59,11 +60,11 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
         When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order.
 
-   - You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md).
+   - You can define special methods that are invoked before and after each module, class, or method. For more information, see [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md).
 
 ## Verify that the tests run in Test Explorer
 
-1. Insert some test code in TestMethod1 in the **UnitTest1.cs** file:
+1. Insert some test code in TestMethod1 in the *UnitTest1.cs* file:
 
    ```csharp
    [TestMethod]
@@ -77,13 +78,13 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
 2. On the **Test** menu, choose **Run** and then choose **Run All**.
 
-   The test project builds and runs. The Test Explorer window appears, and the test is listed under **Passed Tests**. The Summary pane at the bottom of the window provides additional details about the selected test.
+   The test project builds and runs. The **Test Explorer** window appears, and the test is listed under **Passed Tests**. The **Summary** pane at the bottom of the window provides additional details about the selected test.
 
    ![Test Explorer](../test/media/ute_cpp_testexplorer_testmethod1.png)
 
 ## Add the Rooter class to the Maths project
 
-1. In Solution Explorer, choose the **Maths** project name. From the shortcut menu, choose **Add**, and then **Class**.
+1. In **Solution Explorer**, choose the **Maths** project name. From the shortcut menu, choose **Add**, and then **Class**.
 
 2. Name the class file *Rooter.cs*.
 
@@ -109,7 +110,7 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
 1. Add a reference to the Maths app to the RooterTests project.
 
-    1. In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference...** on the shortcut menu.
+    1. In **Solution Explorer**, choose the **RooterTests** project and then choose **Add Reference** on the shortcut menu.
 
     2. In the **Add Reference - RooterTests** dialog box, expand **Solution** and choose **Projects**. Then select the **Maths** item.
 
@@ -141,9 +142,9 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
 4. Build the solution.
 
-   The new test appears in Test Explorer in the **Not Run Tests** node.
+   The new test appears in **Test Explorer** in the **Not Run Tests** node.
 
-5. In Test Explorer, choose **Run All**.
+5. In **Test Explorer**, choose **Run All**.
 
    ![Basic Test passed](../test/media/ute_cpp_testexplorer_basictest.png)
 
@@ -173,7 +174,7 @@ You have set up the test and the code projects, and verified that you can run te
    >
    > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
-2. In Test Explorer, choose **Run All**.
+2. In **Test Explorer**, choose **Run All**.
 
 3. The test fails.
 
@@ -265,7 +266,7 @@ You have set up the test and the code projects, and verified that you can run te
         }
         ```
 
-4. In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.
+4. In **Test Explorer**, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.
 
 All tests now pass.
 

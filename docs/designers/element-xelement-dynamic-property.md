@@ -1,6 +1,7 @@
 ---
 title: Element (XElement Dynamic Property)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: reference
 apiname:
@@ -19,7 +20,7 @@ Gets an indexer used to retrieve the child element instance that corresponds to 
 
 ## Syntax
 
-```
+```xaml
 elem.Element[{namespaceName}localName]
 ```
 
@@ -34,5 +35,5 @@ This property is equivalent to <xref:System.Xml.Linq.XContainer.Element%2A> meth
 ## See also
 
 - <xref:System.Xml.Linq.XContainer.Element%2A?displayProperty=fullName>
-- [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
 - [Elements](../designers/elements-xelement-dynamic-property.md)

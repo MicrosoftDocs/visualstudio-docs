@@ -1,13 +1,13 @@
 ---
-title: "Working with XML Data | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+title: "Working with XML Data"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-xml-tools
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Working with XML data
@@ -30,7 +30,7 @@ Additional features include:
 
 - Support for editing XSLT style sheets, including IntelliSense support.
 
-- XML Schema Explorer.
+- **XML Schema Explorer**.
 
 ## XML Schema designer
 
@@ -40,28 +40,20 @@ The XML Schema Designer is integrated with Visual Studio and the XML Editor to e
 
 Visual Studio supports debugging XSLT style sheets. Using the debugger, you can set break points in an XSLT style sheet, step into an XSLT style sheet from code, and so on.
 
-## In this section
-
-[XML Editor](../xml-tools/xml-editor.md)  
-Introduces the XML Editor.
-
-[XML Schema Designer](../xml-tools/xml-schema-designer.md)  
-Discusses the XML Schema Designer and working with XML Schema definition language (XSD) schemas.
-
 ## Related sections
 
-[Debugging XSLT](../xml-tools/debugging-xslt.md)  
+[Debugging XSLT](../xml-tools/debugging-xslt.md)
 Discusses how to debug style sheets using the Visual Studio debugger.
 
-[XML Standards Reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
+[XML standards reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
 Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.
 
-[Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)  
+[Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 Provides an explanation of the design-time tools for creating datasets.
 
-[XML Web Services in Managed Code](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)  
-Discusses how to create and deploy XML Web services and how to access XML Web services.
+[XML web services in managed code](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)
+Discusses how to create and deploy XML web services and how to access XML web services.
 
 ## See also
 
-[XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
+- [XML tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

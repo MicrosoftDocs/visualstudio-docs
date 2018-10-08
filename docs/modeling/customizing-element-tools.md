@@ -7,6 +7,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Customizing Element Tools
@@ -23,7 +24,7 @@ In some DSL Definitions, you represent a single concept as a group of elements. 
 
  The following example creates a main element and two embedded elements. The main class is called Resistor, and it has two embedding relationships to elements named Terminal. The embedding role properties are named Terminal1 and Terminal2, and both have a multiplicity of 1..1.
 
-```
+```csharp
 using Microsoft.VisualStudio.Modeling; ...
 public partial class CircuitDiagramToolboxHelper
 {
