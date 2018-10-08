@@ -36,56 +36,20 @@ Program database (*.pdb*) files, also called symbol files, map identifiers and s
 
 A *.pdb* file holds debugging and project state information that allows incremental linking of a Debug configuration of your app. The Visual Studio debugger uses *.pdb* files to determine two key pieces of information while debugging:
 
-* The source file name and line number to display in the Visual Studio IDE
-* Where in the app to stop for a breakpoint
+* The source file name and line number to display in the Visual Studio IDE.
+* Where in the app to stop for a breakpoint.
 
 Symbol files also show the location of the source files, and optionally, the server to retrieve them from.
   
-The debugger only loads *.pdb* files that exactly match the *.pdb* files created when an app was built (that is, the original *.pdb* files or copies). This exact duplication is necessary because the actual layout of apps can change even if the code itself has not changed. For more information, see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/)
+The debugger only loads *.pdb* files that exactly match the *.pdb* files created when an app was built (that is, the original *.pdb* files or copies). This exact duplication is necessary because the layout of apps can change even if the code itself has not changed. For more information, see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/)
 
 > [!TIP]
-> To debug code outside your project source code, such as Windows code or third-party code your project calls, you must specify the location of the external code's *.pdb* files (and optionally, the source files), which must exactly match the builds in the apps. 
+> To debug code outside your project source code, such as Windows code or third-party code your project calls, you must specify the location of the external code's *.pdb* files (and optionally, the source files), which must exactly match the builds in your app. 
 
-## Set debug compiler options for symbol files  
-
-When you build a project from the Visual Studio IDE with the standard **Debug** build configuration, the C++ and managed compilers create the appropriate symbol files for your code. You can also set compiler options in code.  
-  
-### C/C++ options 
-
-- *VC\<x>.pdb* and *\<project>.pdb* files
-  
-  A *.pdb* file for C/C++ is created when you build with [/ZI or /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format). In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], the [/Fd](/cpp/build/reference/fd-program-database-file-name) option names the *.pdb* file the compiler creates. When you create a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using wizards, the **/Fd** option is set to create a *.pdb* file named *\<project>.pdb*.  
-  
-  If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without **/Fd**, the compiler creates two *.pdb* files:  
-  
-  - *VC\<x>.pdb*, where *\<x>* represents the version of Visual C++, for example *VC11.pdb* 
-    
-    The *VC\<x>.pdb* file stores all debugging information for the individual *.obj* files, and resides in the same directory as the project makefile. Each time it creates an *.obj* file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every *.obj* file. The inserted information includes type information, but does not include symbol information, such as function definitions.  
-  
-  - *\<project>.pdb* 
-    
-    The *\<project>.pdb* file stores all debug information for the project's *.exe* file, and resides in the *\debug* subdirectory. The *\<project>.pdb* file contains full debug information, including function prototypes, not just the type information found in *VC\<x>.pdb*. 
-  
-  Both the *VC\<x>.pdb* and *\<project>.pdb* files allow incremental updates. The linker also embeds the path to the *.pdb* files in the *.exe* or *.dll* file that it creates.  
-  
-- <a name="use-dumpbin-exports"></a>DLL export tables
-  
-  Use `dumpbin /exports` to see the symbols available in the export table of a DLL. Symbolic information from DLL export tables can be useful for working with Windows messages, Windows procedures (WindowProcs), COM objects, marshaling, or any DLL you don't have symbols for. Symbols are available for any 32-bit system DLL. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. By reading the `dumpbin /exports` output, you can see the exact function names, including non-alphanumeric characters. Seeing exact function names is useful for setting a breakpoint on a function, because function names can be truncated elsewhere in the debugger. 
-  
-  To load the DLL export tables when debugging C\C++ apps, select **Load DLL exports (native only)** in **Tools** > **Options** > **Debugging** > **General**.  For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).  
-  
-### .NET Framework options 
-  
-Build with **/debug** to create a *.pdb* file. You can build applications with **/debug:full** or **/debug:pdbonly**. Building with **/debug:full** generates debuggable code. Building with **/debug:pdbonly** generates *.pdb* files, but does not generate the `DebuggableAttribute` that tells the JIT compiler that debug information is available. Use **/debug:pdbonly** if you want to generate *.pdb* files for a release build that you do not want to be debuggable. For more information, see [/debug (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option) or [/debug (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/debug).  
-  
-### Web applications  
-  
-Set the *web.config* file of your ASP.NET application to debug mode. Debug mode causes ASP.NET to generate symbols for dynamically generated files and enables the debugger to attach to the ASP.NET application. Visual Studio sets this automatically when you start to debug, if you created your project from the web projects template.  
-
-## Symbol file source locations
+## Symbol file locations and loading behavior
 
 > [!NOTE]
-> For debugging managed code on a remote device, all symbol files must be located either on the local machine, or in a location [specified in the debugger options](#configure-debugger-symbol-options).  
+> When debugging managed code on a remote device, all symbol files must be located either on the local machine, or in a location [specified in the debugger options](#configure-debugger-symbol-options).  
   
 When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project folder. 
 
@@ -97,7 +61,7 @@ The debugger also searches for symbol files in the following locations:
    
 1. The same folder as the DLL or *.exe* file.
    
-1. Any locations specified in the debugger options for symbol files. To add and enable symbol locations, see [Configure debugger symbol options](#configure-debugger-symbol-options). 
+1. Any locations specified in the debugger options for symbol files. To add and enable symbol locations, see [Configure symbol locations and loading options](#BKMK_Specify_symbol_locations_and_loading_behavior). 
    
     - Any local symbol cache folder.  
   
@@ -112,12 +76,8 @@ The debugger also searches for symbol files in the following locations:
     > [!WARNING]
     > If you use a symbol server other than the public Microsoft Symbol Servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can be exposed to security threats.  
 
-## Configure debugger symbol locations and options
-
-You can add and configure symbol locations and other options in the **Tools** > **Options** > **Debugging** (or **Debug** > **Options**) dialog box.  
-
 <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a>
-### Specify symbol locations and loading behavior
+### Configure symbol locations and loading options
 
 On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
@@ -165,13 +125,13 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
   
 1.  Select **OK**.
 
-### Specify additional symbol options for debugging
+## Other symbol options for debugging
   
 You can select additional symbol options in **Tools** > **Options** > **Debugging** > **General** (or **Debug** > **Options** > **General**):  
 
 - **Load DLL exports (native only)**  
   
-  Loads DLL export tables. Reading DLL export information involves some overhead, so loading export tables is turned off by default. To see what symbols are available in the export table of a DLL, [use dumpbin /exports](#use-dumpbin-exports) in a C/C++ build command line.  
+  Loads DLL export tables. Reading DLL export information involves some overhead, so loading export tables is turned off by default. To see the symbols available in the export table of a DLL, [use dumpbin /exports](#use-dumpbin-exports) in a C/C++ build command line.  
   
 - **Enable address level debugging** and **Show disassembly if source not available**  
   
@@ -189,7 +149,42 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
   Select this item and the child items you want. **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks.  
   
   ![Enable source server options](../debugger/media/dbg_options_general_enablesrcsrvr_checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")  
+
+## Command line symbol file options  
+
+When you build a project from the Visual Studio IDE with the standard **Debug** build configuration, the C++ and managed compilers create the appropriate symbol files for your code. You can also set compiler options in code. 
+
+### C/C++ options 
+
+- *VC\<x>.pdb* and *\<project>.pdb* files
   
+  A *.pdb* file for C/C++ is created when you build with [/ZI or /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format). In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], the [/Fd](/cpp/build/reference/fd-program-database-file-name) option names the *.pdb* file the compiler creates. When you create a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using the IDE, the **/Fd** option is set to create a *.pdb* file named *\<project>.pdb*.  
+  
+  If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without using **/Fd**, the compiler creates two *.pdb* files:  
+  
+  - *VC\<x>.pdb*, where *\<x>* represents the version of Visual C++, for example *VC11.pdb* 
+    
+    The *VC\<x>.pdb* file stores all debugging information for the individual *.obj* files, and resides in the same directory as the project makefile. Each time it creates an *.obj* file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every *.obj* file. The inserted information includes type information, but does not include symbol information, such as function definitions.  
+  
+  - *\<project>.pdb* 
+    
+    The *\<project>.pdb* file stores all debug information for the project's *.exe* file, and resides in the *\debug* subdirectory. The *\<project>.pdb* file contains full debug information, including function prototypes, not just the type information found in *VC\<x>.pdb*. 
+  
+  Both the *VC\<x>.pdb* and *\<project>.pdb* files allow incremental updates. The linker also embeds the path to the *.pdb* files in the *.exe* or *.dll* file that it creates.  
+  
+- <a name="use-dumpbin-exports"></a>DLL export tables
+  
+  Use `dumpbin /exports` to see the symbols available in the export table of a DLL. Symbolic information from DLL export tables can be useful for working with Windows messages, Windows procedures (WindowProcs), COM objects, marshaling, or any DLL you don't have symbols for. Symbols are available for any 32-bit system DLL. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. By reading the `dumpbin /exports` output, you can see the exact function names, including non-alphanumeric characters. Seeing exact function names is useful for setting a breakpoint on a function, because function names can be truncated elsewhere in the debugger. 
+  
+  To load the DLL export tables when debugging C\C++ apps, select **Load DLL exports (native only)** in **Tools** > **Options** > **Debugging** > **General**.  For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).  
+  
+### .NET Framework options 
+  
+Build with **/debug** to create a *.pdb* file. You can build applications with **/debug:full** or **/debug:pdbonly**. Building with **/debug:full** generates debuggable code. Building with **/debug:pdbonly** generates *.pdb* files, but does not generate the `DebuggableAttribute` that tells the JIT compiler that debug information is available. Use **/debug:pdbonly** if you want to generate *.pdb* files for a release build that you do not want to be debuggable. For more information, see [/debug (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option) or [/debug (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/debug).  
+  
+### Web applications  
+  
+Set the *web.config* file of your ASP.NET application to debug mode. Debug mode causes ASP.NET to generate symbols for dynamically generated files and enables the debugger to attach to the ASP.NET application. Visual Studio sets this automatically when you start to debug, if you created your project from the web projects template.  
 
 ##  Manage symbols while debugging 
 
