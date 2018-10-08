@@ -1,23 +1,23 @@
 ---
 title: Configure a C++ project for IntelliSense
-ms.date: 04/25/2018
+ms.date: 10/08/2018
 ms.technology: vs-ide-general
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: mblome
+ms.author: mblome
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---
 # Configure a C++ project for IntelliSense
 
-In some cases, you might need to manually configure your C++ project to get IntelliSense working properly. For MSBuild projects (based on .vcxproj files) you can adjust settings in project properties. For non-MSBuild projects, you adjust settings in the CppProperties.json file in the root directory of the project. In some cases, you may need to create a hint file to help IntelliSense understand macro definitions. The Visual Studio IDE helps you identify and fix IntelliSense problems.
+In some cases, you might need to manually configure your C++ project to get IntelliSense working properly. For MSBuild projects (based on .vcxproj files), you can adjust settings in project properties. For non-MSBuild projects, you adjust settings in the CppProperties.json file in the root directory of the project. In some cases, you may need to create a hint file to help IntelliSense understand macro definitions. The Visual Studio IDE helps you identify and fix IntelliSense problems.
 
 
 
 ## Single-file IntelliSense
 
-When you open a file that is not included in a project, Visual Studio provides some IntelliSense support but by default no error squiggles are shown. If the **Navigation Bar** says *Miscellaneous Files* then that probably explains why you are not seeing error squiggles under incorrect code, or why a preprocessor macro is not defined.
+When you open a file that is not included in a project, Visual Studio provides some IntelliSense support but by default no error squiggles are shown. If the **Navigation Bar** says *Miscellaneous Files*, then that probably explains why you are not seeing error squiggles under incorrect code, or why a preprocessor macro is not defined.
 
 ## Check the Error List
 
@@ -31,7 +31,7 @@ IntelliSense produces a maximum of 1000 errors. If there are over 1000 errors in
 
 ### MSBuild projects
 
-If you run your builds outside of the Visual Studio IDE, and your builds are succeeding but IntelliSense is incorrect, it is possible that your command line is out of sync with the project settings for one or more configurations. Right-click on the project node in **Solution Explorer** and make sure that all **#include** paths are correct for the current configuration and platform. If the paths are identical in all configuations and platforms, you can select **All configurations** and **All platforms** and then verify that the paths are correct.
+If you run your builds outside of the Visual Studio IDE, and your builds are succeeding but IntelliSense is incorrect, it is possible that your command line is out of sync with the project settings for one or more configurations. Right-click on the project node in **Solution Explorer** and make sure that all **#include** paths are correct for the current configuration and platform. If the paths are identical in all configurations and platforms, you can select **All configurations** and **All platforms** and then verify that the paths are correct.
 
 ![VC++ Include Directories](media/vcpp-intellisense-include-paths.png)
 
@@ -91,7 +91,7 @@ The Output Window will now show the command lines that are passed to the Intelli
  /Yustdafx.h
 ```
 
-This information may may help you understand why IntelliSense is providing inaccurate information. For example, if your project’s Include directory contains **$(MyVariable)\Include**, and the diagnostic log shows **/I\Include** as an Include path, it means that **$(MyVariable)** wasn’t evaluated, and was removed from the final include path.
+This information may help you understand why IntelliSense is providing inaccurate information. For example, if your project’s Include directory contains **$(MyVariable)\Include**, and the diagnostic log shows **/I\Include** as an Include path, it means that **$(MyVariable)** wasn’t evaluated, and was removed from the final include path.
 
 ## About the IntelliSense build
 
@@ -114,7 +114,7 @@ The error message might instruct you to enable design-time tracing:
  Visual Studio to investigate.
 ```
 
-If you set the environment variable TRACEDESIGNTIME to true and restart Visual Studio, you will see a log file in the %TEMP% directory which might help diagnose the build failure.
+If you set the environment variable TRACEDESIGNTIME to true and restart Visual Studio, you will see a log file in the %TEMP% directory, which might help diagnose the build failure.
 
 To learn more about TRACEDESIGNTIME environment variable, see [Roslyn](https://github.com/dotnet/roslyn/wiki/Diagnosing-Project-System-Build-Errors) and [Common Project System](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). The information in these articles is relevant for C++ projects.
 
