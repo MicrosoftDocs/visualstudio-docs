@@ -51,7 +51,7 @@ The debugger only loads *.pdb* files that exactly match the *.pdb* files created
 ## Symbol file locations and loading behavior
 
 > [!NOTE]
-> When debugging managed code on a remote device, all symbol files must be located either on the local machine, or in a location [specified in the debugger options](#configure-debugger-symbol-options).  
+> When debugging managed code on a remote device, all symbol files must be located either on the local machine, or in a location [specified in the debugger options](#BKMK_Specify_symbol_locations_and_loading_behavior).  
   
 When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project folder. 
 
@@ -170,7 +170,7 @@ When you build a project from the Visual Studio IDE with the standard **Debug** 
   
   - *VC\<x>.pdb*, where *\<x>* represents the version of Visual C++, for example *VC11.pdb* 
     
-    The *VC\<x>.pdb* file stores all debugging information for the individual *.obj* files, and resides in the same directory as the project makefile. Each time it creates an *.obj* file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every *.obj* file. The inserted information includes type information, but does not include symbol information, such as function definitions.  
+    The *VC\<x>.pdb* file stores all debugging information for the individual object files, and resides in the same directory as the project makefile. Each time it creates an object file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every object file. The inserted information includes type information, but does not include symbol information, such as function definitions.  
   
   - *\<project>.pdb* 
     
