@@ -1,0 +1,84 @@
+- name: Azure Development in Visual Studio
+  expanded: true
+- name: Connect to Azure Services
+  expanded: true
+  items:
+  - name: Add Azure storage
+    href: vs-azure-tools-connected-services-storage.md 
+  - name: Add Azure Key Vault
+    href: /azure/key-vault/vs-key-vault-add-connected-service
+  - name: Add Azure Active Directory (AD)
+    href: /azure/active-directory/develop/vs-active-directory-add-connected-service
+  - name: Add Cognitive Services
+    items:
+    - name: Text Analytics
+      href: /azure/cognitive-services/text-analytics/vs-text-connected-service
+    - name: Bing Search
+      href: /azure/cognitive-services/bing-news-search/vs-bing-news-search-add-connected-service
+    - name: Facial recognition
+      href: /azure/cognitive-services/face/vs-face-connected-service
+    - name: Computer Vision
+      href: /azure/cognitive-services/computer-vision/vs-computer-vision-connected-service?context=/visualstudio/azure/vs-azure
+- name: Develop a Cloud Service
+  expanded: false
+  items:
+  - name: Access private Azure clouds with Visual Studio
+    href: vs-azure-tools-access-private-azure-clouds-with-visual-studio.md
+  - name: Create an Azure cloud service project with Visual Studio
+    href: vs-azure-tools-azure-project-create.md
+  - name: Manage roles in Azure cloud services with Visual Studio
+    href: vs-azure-tools-cloud-service-project-managing-roles.md
+  - name: Prepare to publish or deploy a cloud service from Visual Studio
+    href: vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md
+  - name: Retain a constant virtual IP address for an Azure cloud service
+    href: vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address.md
+  - name: Build Azure projects from the command line
+    href: vs-azure-tools-command-line-build.md
+  - name: Configure Azure cloud service roles with Visual Studio
+    href: vs-azure-tools-configure-roles-for-cloud-service.md
+  - name: Configure an Azure cloud service project with Visual Studio
+    href: vs-azure-tools-configuring-an-azure-project.md
+  - name: Debug an Azure cloud service or virtual machine in Visual Studio
+    href: vs-azure-tools-debug-cloud-services-virtual-machines.md
+  - name: Learn the various ways to debug an Azure cloud service
+    href: vs-azure-tools-debugging-cloud-services-overview.md
+  - name: Set up diagnostics for Azure Cloud Services and virtual machines
+    href: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
+  - name: Using Emulator Express to run and debug an Azure cloud service on a local machine
+    href: vs-azure-tools-emulator-express-debug-run.md
+  - name: Debugging a published Azure cloud service with Visual Studio and IntelliTrace ## Published elsewehre
+    href: vs-azure-tools-intellitrace-debug-published-cloud-services.md
+  - name: Migrate and Publish a Web Application to an Azure Cloud Service from Visual Studio
+    href: vs-azure-tools-migrate-publish-web-app-to-cloud-service.md
+  - name: Configuring your Azure project in Visual Studio to use multiple service configurations
+    href: vs-azure-tools-multiple-services-project-configurations.md
+  - name: Optimizing Your Azure Code
+    href: vs-azure-tools-optimizing-azure-code-in-visual-studio.md
+  - name: Testing the performance of a cloud service
+    href: vs-azure-tools-performance-profiling-cloud-services.md
+  - name: Using the Visual Studio Publish Azure Application Wizard
+    href: vs-azure-tools-publish-azure-application-wizard.md
+  - name: Publishing a cloud service using Visual Studio
+    href: vs-azure-tools-publishing-a-cloud-service.md
+  - name: Using Windows PowerShell scripts to publish to dev and test environments
+    href: vs-azure-tools-publishing-using-powershell-scripts.md
+  - name: Publish-WebApplicationVM (Windows PowerShell script)
+    href: vs-azure-tools-publish-webapplicationvm.md
+  - name: Publish-WebApplicationWebSite (Windows PowerShell script)
+    href: vs-azure-tools-publish-webapplicationwebsite-windows-powershell-script.md
+  - name: How to manage service configurations and profiles
+    href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
+  - name: Set up named authentication credentials
+    href: vs-azure-tools-setting-up-named-authentication-credentials.md
+- name: Constructing Filter Strings for the Table Designer
+    href: vs-azure-tools-table-designer-construct-filter-strings.md
+  - name: How to upgrade projects to the current version of the Azure Tools for Visual Studio
+    href: vs-azure-tools-upgrade-projects-to-the-current-version-of-the-azure-tools.md
+  - name: Accessing Azure Virtual Machines from Server Explorer
+    href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
+- name: Cloud Explorer
+  items:
+  - name: Browse and manage storage resources by using Server Explorer
+    href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+  - name: Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
+    href: vs-azure-tools-resources-managing-with-cloud-explorer.md
