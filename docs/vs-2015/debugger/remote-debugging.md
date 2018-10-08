@@ -39,7 +39,7 @@ You can either download the remote tools directly on the device or server that y
 
 ### To download and install the remote tools
   
-1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the the remote tools.
+1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the remote tools.
 
     |Version|Link|Notes|
     |-|-|-|
