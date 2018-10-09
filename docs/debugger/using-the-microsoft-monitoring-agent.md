@@ -17,7 +17,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 > [!NOTE]
 >  You can also collect IntelliTrace diagnostic and method data for web, SharePoint, WPF, and Windows Form apps on remote machines without changing the target environment by using the **IntelliTrace stand-alone collector**. The stand-alone collector has a greater performance impact than running the Microsoft Monitoring Agent in **Monitor** mode. See [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).  
   
- If you use System Center 2012, use Microsoft Monitoring Agent with Operations Manager to get alerts about problems and create Team Foundation Server work items with links to the saved IntelliTrace logs. You can then assign these work items to others for further debugging. See [Integrating Operations Manager with Development Processes](http://technet.microsoft.com/library/jj614609.aspx) and [Monitoring with Microsoft Monitoring Agent](http://technet.microsoft.com/en-us/library/dn465153.aspx).  
+ If you use System Center 2012, use Microsoft Monitoring Agent with Operations Manager to get alerts about problems and create Team Foundation Server work items with links to the saved IntelliTrace logs. You can then assign these work items to others for further debugging. See [Integrating Operations Manager with Development Processes](http://technet.microsoft.com/library/jj614609.aspx) and [Monitoring with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465153.aspx).  
   
  Before you start, check that you have the matching source and symbols for the built and deployed code. This helps you go directly to the application code when you start debugging and browsing diagnostic events in the IntelliTrace log. [Set up your builds](../debugger/diagnose-problems-after-deployment.md) so that Visual Studio can automatically find and open the matching source for your deployed code.  
   
@@ -34,7 +34,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
 1.  Make sure that:  
   
-    -   Your web server is running [supported versions of Internet Information Services (IIS)](http://technet.microsoft.com/en-us/library/dn465154.aspx).  
+    -   Your web server is running [supported versions of Internet Information Services (IIS)](http://technet.microsoft.com/library/dn465154.aspx).  
   
     -   Your web server has .NET Framework 3.5, 4, or 4.5.  
   
