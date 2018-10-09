@@ -22,15 +22,15 @@ We're interested in your ideas for improving our products and documentation. We 
 
 ## I want to report a problem with Visual Studio
 
-If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. To do so, choose the feedback icon next to **Quick Launch** in Visual Studio, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem to us. For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
+If you're running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report it to us by using the **Report a Problem** tool. To do so, choose the feedback icon next to **Quick Launch** in Visual Studio, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem to us. For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
 
 ## I want to make a suggestion about Visual Studio features
 
-If there's something we can do better, please let us know! Choose **Help** > **Send Feedback** > **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can choose the **Suggest a feature** button to send us your ideas. For more information, see [Suggest a feature for Visual Studio 2017](suggest-a-feature.md).
+If there's something we can do better, please let us know! Choose **Help** > **Send Feedback** > **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you sign in to make a suggestion. For more information, see [Suggest a feature for Visual Studio 2017](suggest-a-feature.md).
 
 ### Rate this product
 
-Pre-release versions of Visual Studio have a **Rate this Product** menu item that enables you to send feedback on the quality of the build you are running. You won't see this in released versions of the product.
+Pre-release versions of Visual Studio have a **Rate this Product** menu item that released versions of the product don't. Use this **Rate this Product** menu item to send feedback on the quality of the build that you're running.
 
 ## I want to contact Microsoft Support
 
@@ -45,11 +45,11 @@ For larger organizations that require managed support directly from Microsoft, c
 
 If the product came installed with a new computer or device, the hardware manufacturer provides technical support and assistance for this software. Contact the manufacturer directly for support.
 
-Microsoft support services are subject to then-current prices, terms, and conditions. Prices, terms, and conditions are subject to change without notice.
+Microsoft support services are subject to then-current prices, terms, and conditions. Prices, terms, and conditions can change without notice.
 
 ## I want to get involved in the developer community
 
-If you want to share your questions and answers with other developers, you can use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com) site, the [MSDN forums](http://social.msdn.microsoft.com/Forums/home), or [StackOverflow](http://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) site.
+If you want to share your questions and answers with other developers, use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com) site, the [MSDN forums](http://social.msdn.microsoft.com/Forums/home), or [StackOverflow](http://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) site.
 
 ## I want to help improve the Visual Studio documentation
 
