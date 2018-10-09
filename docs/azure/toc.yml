@@ -18,7 +18,7 @@
     - name: Facial recognition
       href: /azure/cognitive-services/face/vs-face-connected-service
     - name: Computer Vision
-      href: /azure/cognitive-services/computer-vision/vs-computer-vision-connected-service?context=/visualstudio/azure/vs-azure
+      href: /azure/cognitive-services/computer-vision/vs-computer-vision-connected-service?toc=/visualstudio/azure/vs-azure&bc=/visualstudio/azure/breadcrumb/toc.json
 - name: Develop a Cloud Service
   expanded: false
   items:
