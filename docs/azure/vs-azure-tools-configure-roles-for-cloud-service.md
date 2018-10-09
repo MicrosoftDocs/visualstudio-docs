@@ -52,7 +52,7 @@ You can configure an Azure cloud service from Solution Explorer in Visual Studio
 	![Service Configuration list for an Azure cloud service](/azure/media/vs-azure-tools-configure-roles-for-cloud-service/cloud-service-service-configuration-property.png)
 
 ## Change the number of role instances
-To improve the performance of your cloud service, you can change the number of instances of a role that are running, based on the number of users or the load expected for a particular role. A separate virtual machine is created for each instance of a role when the cloud service runs in Azure. This affects the billing for the deployment of this cloud service. For more information about billing, see [Understand your bill for Microsoft Azure](billing/billing-understand-your-bill.md).
+To improve the performance of your cloud service, you can change the number of instances of a role that are running, based on the number of users or the load expected for a particular role. A separate virtual machine is created for each instance of a role when the cloud service runs in Azure. This affects the billing for the deployment of this cloud service. For more information about billing, see [Understand your bill for Microsoft Azure](azure/billing/billing-understand-your-bill).
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
