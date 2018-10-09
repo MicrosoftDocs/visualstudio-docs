@@ -21,7 +21,7 @@ manager: "ghogen"
 # Statement Completion for Identifiers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](https://docs.microsoft.com/en-us/visualstudio/).  
+The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
   
 JavaScript doesn't allow explicit typing for variable declarations. As a result, IntelliSense can't always provide completion lists for objects. This can occur in various situations. Following are a few common ones.  
   

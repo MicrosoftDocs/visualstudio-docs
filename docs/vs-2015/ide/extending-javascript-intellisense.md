@@ -24,7 +24,7 @@ manager: "ghogen"
 # Extending JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](https://docs.microsoft.com/en-us/visualstudio/).  
+The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
   
 The JavaScript IntelliSense extensibility feature enables you to customize IntelliSense results in the JavaScript editor for third-party libraries. This can improve the experience of developers who use these libraries.  
   

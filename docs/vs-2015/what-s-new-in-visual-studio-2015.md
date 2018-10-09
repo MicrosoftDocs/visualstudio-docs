@@ -274,4 +274,4 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 * [Create custom window layouts](./misc/create-custom-window-layouts.md)   
 * [Perform quick actions with light bulbs](./ide/perform-quick-actions-with-light-bulbs.md)   
 * [What's new for Application Lifecycle Management in Visual Studio 2015](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)
-* [What's New in Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
+* [What's New in Visual Studio 2017](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
