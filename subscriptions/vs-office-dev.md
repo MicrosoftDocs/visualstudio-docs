@@ -51,7 +51,12 @@ Subscribers with selected Visual Studio Enterprise subscriptions receive the Off
     > [!div class="mx-imgBorder"]
     > ![Office 365 Dev Code Validation](_img\vs-office-dev\vs-office-dev-setup.png)
 
-That's it!  You'll see a page displaying information tailored to your preferences.  To access your developer subscription, go to [office.com](https://www.office.com) and sign in with the user ID and password you just created.
+That's it!  You'll see a page displaying information tailored to your preferences.  
+
+## Next steps
+To access your developer subscription, go to [office.com](https://www.office.com) and sign in with the user ID and password you just created.
+
+To learn more about the Office 365 Developer subscription, check out the [Office 365 Developer Program FAQ](https://docs.microsoft.com/office/developer-program/office-365-developer-program-faq). 
 
 
 ## Eligibility
