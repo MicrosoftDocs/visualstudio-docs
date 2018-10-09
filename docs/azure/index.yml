@@ -1,0 +1,78 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Azure Development with Visual Studio
+metadata:
+  title: Azure Development with Visual Studio | Microsoft Docs
+  meta.description: Tutorials and conceptual articles about connecting apps and services to Azure and developing Azure services.
+  author: ghogen
+  manager: douge
+  ms.prod: visual-studio-dev15
+  ms.technology: vs-azure
+  ms.topic: landing-page
+  ms.date: 10/09/2018
+  ms.author: ghogen
+sections:
+- title: Connect your apps to Azure with Visual Studio Connected Services
+  items:
+  - type: paragraph
+    text: 'Visual Studio provides a convenient way to connect to a variety of Azure services. Choose what Azure services you want to add a connection to.'
+  - type: list
+    style: icon48
+    items: 
+    - image: 
+        src: https://docs.microsoft.com/azure/media/index/Storage.svg
+      text: Azure Storage
+      href: vs-azure-tools-connected-services-storage.md
+    - image:
+        src: https://docs.microsoft.com/azure/media/index/KeyVault.svg
+      text: Azure Key Vault
+      href: /azure/key-vault/vs-key-vault-add-connected-service
+    - image: 
+        src: https://docs.microsoft.com/azure/media/index/ActiveDirectory.svg
+      text: Azure Active Directory
+      href: /azure/active-directory/develop/vs-active-directory-add-connected-service
+    - image: 
+        src: https://docs.microsoft.com/azure/media/index/i_azure-cognitive-services-color.svg
+      text: Cognitive Services
+      href: cognitive-services.yml
+- title: Develop Azure cloud services with Visual Studio
+  items:
+  - type: paragraph
+    text: ''
+  - type: list
+    style: cards
+      className: cardsM
+      columns: 3
+      items:
+      - href: vs-azure-tools-azure-project-create.md
+        html: <p>Create and configure Azure cloud service projects</p>
+        image: 
+          src: /media/common/i_config-tools.svg
+        title: Projects
+      - href: vs-azure-tools-debugging-cloud-services-overview.md
+        html: <p>Debug cloud services locally and in Azure</p>
+        image:
+          src: /media/common/i_debug.svg
+        title: Debug
+      - href: vs-azure-tools-performance-profiling-cloud-services.md
+        html: <p>Use the Visual Studio profiler</p>
+        image:
+          src: /media/common/i_code-performance.svg
+        title: Analyze performance
+      - href: vs-azure-tools-publishing-a-cloud-service.md
+        html: <p>Publish a cloud service to Azure</p>
+        image:
+          src: /media/common/i_deploy.svg
+        title: Publish
+      - href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+        html: <p>Access Azure storage accounts in Visual Studio</p>
+        image: 
+          src: /media/common/i_dashboard.svg
+        title: Storage
+      - href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
+        html: <p>Access Virtual Machines from Visual Studio</p>
+        image:
+          src: /media/common/i_vmm-cloud.svg
+        title: Virtual Machines
+
+      
