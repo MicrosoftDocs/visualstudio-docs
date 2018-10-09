@@ -112,7 +112,7 @@ PS C:\> docker-machine ip MyDockerHost
 191.237.46.90
 ```
 
-![Running ngnix container](./media/vs-azure-tools-docker-machine-azure-config/nginxsuccess.png)
+![Running ngnix container](/azure/media/vs-azure-tools-docker-machine-azure-config/nginxsuccess.png)
 
 ## Summary
 With docker-machine, you can easily provision docker hosts in Azure for your individual docker host validations.
