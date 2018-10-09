@@ -136,7 +136,7 @@ This topic contains information to help you resolve issues that you may experien
   
      ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android-emu-v-switch-man.png "Android_Emu_V_Switch_Man")  
   
-     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg –d command](http://windows.microsoft.com/en-us/windows-10/fix-network-connection-issues) (section 6).  
+     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg –d command](http://windows.microsoft.com/windows-10/fix-network-connection-issues) (section 6).  
   
 -   If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.  
   
