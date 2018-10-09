@@ -26,7 +26,7 @@ If you experience problems with Visual Studio&mdash;such as crashes, sluggish pe
 
 ## I want to make a suggestion about Visual Studio features
 
-If there's something we can do better, let us know! In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio 2017](suggest-a-feature.md).
+If there's something we can do better, tell us about it! In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio 2017](suggest-a-feature.md).
 
 ### Rate this product
 
