@@ -34,7 +34,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
 1.  Make sure that:  
   
-    -   Your web server is running [supported versions of Internet Information Services (IIS)](http://technet.microsoft.com/library/dn465154.aspx).  
+    -   Your web server is running [supported versions of Internet Information Services (IIS)](/previous-versions/system-center/system-center-2012-R2/dn465154(v=sc.12)).  
   
     -   Your web server has .NET Framework 3.5, 4, or 4.5.  
   
