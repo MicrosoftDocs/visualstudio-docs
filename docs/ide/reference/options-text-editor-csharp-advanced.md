@@ -77,9 +77,10 @@ After Sort
 
 - Add usings for types in reference assemblies and NuGet packages 
 
-   When selected, Shows a lightbulb with a code fix to install a NuGet package for an unreferenced type
+   When selected, the lightbulb will be come available with a code fix to install a NuGet package for an unreferenced type.
 
-![nuget](/docs/images/nuget-lightbulb.png)
+![nuget](/docs/ide/references/media/nuget-lightbulb.png)
+
   
 ## Highlighting
 
