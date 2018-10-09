@@ -133,7 +133,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
   
  ![Joining the Hyper&#45;V Administrators security group](../cross-platform/media/android-emu-hyperv-admin.png "Android_Emu_HyperV_Admin")  
   
- To add yourself to a group manually, open the Local Users and Groups snap-in. For more information, see [Add a user account to a group](http://windows.microsoft.com/en-us/windows/add-user-account-to-group#1TC=windows-7). (This Windows 7 topic is also applicable to Windows 8.)  
+ To add yourself to a group manually, open the Local Users and Groups snap-in. For more information, see [Add a user account to a group](http://windows.microsoft.com/windows/add-user-account-to-group#1TC=windows-7). (This Windows 7 topic is also applicable to Windows 8.)  
   
 ##  <a name="BootableVHD"></a> Running the emulator from a bootable VHD is not supported  
  If you try to run an app on the Visual Studio Emulator for Android while you are running Windows from a bootable VHD, the emulator typically takes several minutes to start or fails to start. When the emulator fails to start, you see the following message: App deployment failed. Please try again.  
