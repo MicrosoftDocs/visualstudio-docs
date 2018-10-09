@@ -78,13 +78,14 @@ TEST_CLASS and TEST_METHOD are part of the [Microsoft Native Test Framework](mic
 A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against what is expected. In the following example, assume `MyClass` has a constructor that takes a `std::string`. We can test that the constructor initializes the class as expected like so:
 
 ```cpp
-        TEST_METHOD(TestClassInit)
-		{
-			std::string name = "Bill";
-			MyClass mc(name);
-			Assert::AreEqual(name, mc.GetName());
-		}
+TEST_METHOD(TestClassInit)
+{
+    std::string name = "Bill";
+    MyClass mc(name);
+    Assert::AreEqual(name, mc.GetName());
+}
 ```
+
 In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The Assert class contains many other methods for comparing expected vs. actual results.
 
 You can add *traits* to test methods to specify test owners, priority and other information. You can then use these values to sort and group tests in **Test Explorer**. For more information, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
@@ -125,10 +126,8 @@ After **CodeLens** is initialized, you can see test status icons above each unit
 
  Click on the icon for more information, or to run or debug the unit test:
 
-![C++ CodeLens Run and Debug](media/cpp-test-codelens-run-debug.png) 
+![C++ CodeLens Run and Debug](media/cpp-test-codelens-run-debug.png)
 
-
- 
 ## See also
 
 [Unit test your code](unit-test-your-code.md)
