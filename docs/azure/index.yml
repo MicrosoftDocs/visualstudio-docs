@@ -34,26 +34,7 @@ sections:
     - image: 
         src: https://docs.microsoft.com/azure/media/index/i_azure-cognitive-services-color.svg
       text: Cognitive Services
-      href: cognitive-services.yml
-- title: Work with Azure resources in Visual Studio
-  items:
-  - type: paragraph
-    text: 'Cloud Explorer in Visual Studio provides a convenient way to access Azure resources such as storage accounts and virtual machines.'
-  - type: list
-    style: cards
-    className: cardsM
-    columns: 3
-    items:
-    - href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
-      html: <p>Access Azure storage accounts in Visual Studio</p>
-      image: 
-        src: https://docs.microsoft.com/media/common/i_dashboard.svg
-      title: Storage
-    - href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
-      html: <p>Access Virtual Machines from Visual Studio</p>
-      image:
-        src: https://docs.microsoft.com/media/common/i_vmm-cloud.svg
-      title: Virtual Machines
+      href: cognitive-services-connected-services.yml
 - title: Azure App Services and Azure Functions
   items:
   - type: paragraph
@@ -73,10 +54,29 @@ sections:
       image: 
         src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
       title: Azure Functions
-- title: Develop Azure cloud services with Visual Studio
+- title: Container development
   items:
   - type: paragraph
-    text: ''
+    text: 'Develop with Docker containers, publish to Azure, use Kubernetes, and more.'
+  - type: list
+    style: icon48
+    items:
+    - image: 
+        src: https://docs.microsoft.com/media/common/i_categorize.svg
+      text: Container development
+      href: /visualstudio/containers
+    - image:
+        src: https://docs.microsoft.com/media/logos/logo_docker.svg
+      text: Docker Tools in Visual Studio
+      href: /visualstudio/docker/vs-azure-tools-docker-setup.md
+    - image:
+        src: https://docs.microsoft.com/media/logos/logo_kubernetes.svg
+      text: Kubernetes Tools
+      href: /visualstudio/deployment/tutorial-kubernetes-tools
+- title: Azure Cloud Services
+  items:
+  - type: paragraph
+    text: 'Azure Cloud Services is a general-purpose technology for creating generic Azure services, with access to Azure storage and other Azure resources. If you're starting a new project, consider using Azure App Services or a service more specific to your scenario.
   - type: list
     style: cards
     className: cardsM
@@ -107,6 +107,25 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_load-testing.svg
       title: Diagnostics
+- title: Work with Azure resources in Visual Studio
+  items:
+  - type: paragraph
+    text: 'Cloud Explorer in Visual Studio provides a convenient way to access Azure resources such as storage accounts and virtual machines.'
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+      html: <p>Access Azure storage accounts in Visual Studio</p>
+      image: 
+        src: https://docs.microsoft.com/media/common/i_dashboard.svg
+      title: Storage
+    - href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
+      html: <p>Access Virtual Machines from Visual Studio</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_vmm-cloud.svg
+      title: Virtual Machines
 - title: Other Azure Development Resources
   items:
   - type: paragraph

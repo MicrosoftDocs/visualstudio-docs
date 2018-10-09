@@ -11,6 +11,7 @@
   - name: Add Azure Active Directory (AD)
     href: /azure/active-directory/develop/vs-active-directory-add-connected-service
   - name: Add Cognitive Services
+    href: cognitive-service-connected-services.yml
     items:
     - name: Text Analytics
       href: /azure/cognitive-services/text-analytics/vs-text-connected-service
