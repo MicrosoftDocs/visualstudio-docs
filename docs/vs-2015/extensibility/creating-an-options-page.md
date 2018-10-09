@@ -110,7 +110,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 2.  Add the following using statement.  
   
-    ```vb  
+    ```csharp  
     using System.Windows.Forms;  
     ```  
   
