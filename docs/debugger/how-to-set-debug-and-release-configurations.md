@@ -81,7 +81,7 @@ For detailed information on project settings for debug configurations in C# or V
 
 5. Select the **Advanced** button (or the **Advanced Compile Options** button in Visual Basic).
 
-6. In the **Debugging information** list (or the **Generate debug info** in Visual Basic), choose **Full**, **Pdb-only**, or **Portable**.
+6. In the **Debugging information** list (or the **Generate debug info** list in Visual Basic), choose **Full**, **Pdb-only**, or **Portable**.
 
    The portable format is the most recent cross-platform format for .NET Core. For more information on options, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md).
 
