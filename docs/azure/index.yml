@@ -41,38 +41,38 @@ sections:
     text: ''
   - type: list
     style: cards
-      className: cardsM
-      columns: 3
-      items:
-      - href: vs-azure-tools-azure-project-create.md
-        html: <p>Create and configure Azure cloud service projects</p>
-        image: 
-          src: /media/common/i_config-tools.svg
-        title: Projects
-      - href: vs-azure-tools-debugging-cloud-services-overview.md
-        html: <p>Debug cloud services locally and in Azure</p>
-        image:
-          src: /media/common/i_debug.svg
-        title: Debug
-      - href: vs-azure-tools-performance-profiling-cloud-services.md
-        html: <p>Use the Visual Studio profiler</p>
-        image:
-          src: /media/common/i_code-performance.svg
-        title: Analyze performance
-      - href: vs-azure-tools-publishing-a-cloud-service.md
-        html: <p>Publish a cloud service to Azure</p>
-        image:
-          src: /media/common/i_deploy.svg
-        title: Publish
-      - href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
-        html: <p>Access Azure storage accounts in Visual Studio</p>
-        image: 
-          src: /media/common/i_dashboard.svg
-        title: Storage
-      - href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
-        html: <p>Access Virtual Machines from Visual Studio</p>
-        image:
-          src: /media/common/i_vmm-cloud.svg
-        title: Virtual Machines
+    className: cardsM
+    columns: 3
+    items:
+    - href: vs-azure-tools-azure-project-create.md
+      html: <p>Create and configure Azure cloud service projects</p>
+      image: 
+        src: /media/common/i_config-tools.svg
+      title: Projects
+    - href: vs-azure-tools-debugging-cloud-services-overview.md
+      html: <p>Debug cloud services locally and in Azure</p>
+      image:
+        src: /media/common/i_debug.svg
+      title: Debug
+    - href: vs-azure-tools-performance-profiling-cloud-services.md
+      html: <p>Use the Visual Studio profiler</p>
+      image:
+        src: /media/common/i_code-performance.svg
+      title: Analyze performance
+    - href: vs-azure-tools-publishing-a-cloud-service.md
+      html: <p>Publish a cloud service to Azure</p>
+      image:
+        src: /media/common/i_deploy.svg
+      title: Publish
+    - href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+      html: <p>Access Azure storage accounts in Visual Studio</p>
+      image: 
+        src: /media/common/i_dashboard.svg
+      title: Storage
+    - href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
+      html: <p>Access Virtual Machines from Visual Studio</p>
+      image:
+        src: /media/common/i_vmm-cloud.svg
+      title: Virtual Machines
 
       
