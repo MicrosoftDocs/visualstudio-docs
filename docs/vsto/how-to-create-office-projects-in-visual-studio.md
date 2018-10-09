@@ -151,7 +151,7 @@ ms.workload:
   
     -   You are creating a Word Template project that is based on a *.dotx* file. You must add the project folder to the list of trusted locations so that you can run and debug the project.  
   
-     For more information on how to add a document to the trusted locations, see the Microsoft Office Online web site [Create, remove, or change a trusted location for your files](https://support.office.com/en-au/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).  
+     For more information on how to add a document to the trusted locations, see the Microsoft Office Online web site [Create, remove, or change a trusted location for your files](https://support.office.com/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).  
   
 ## See also  
  [Office project templates overview](../vsto/office-project-templates-overview.md)   
