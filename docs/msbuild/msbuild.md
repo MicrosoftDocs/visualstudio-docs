@@ -50,7 +50,7 @@ You can write code in the Visual Studio IDE but run builds by using MSBuild. As 
  To run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] at a command prompt, pass a project file to *MSBuild.exe*, together with the appropriate command-line options. Command-line options let you set properties, execute specific targets, and set other options that control the build process. For example, you would use the following command-line syntax to build the file *MyProj.proj* with the `Configuration` property set to `Debug`.
 
 ```cmd
-MSBuild.exe MyProj.proj /property:Configuration=Debug
+MSBuild.exe MyProj.proj -property:Configuration=Debug
 ```
 
  For more information about [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] command-line options, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).

@@ -22,7 +22,7 @@ manager: "ghogen"
 # Visual Studio Administrator Guide
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see the [Visual Studio 2017 administrator guide](https://docs.microsoft.com/en-us/visualstudio/install/visual-studio-administrator-guide).
+For the latest documentation for Visual Studio 2017, see the [Visual Studio 2017 administrator guide](/visualstudio/install/visual-studio-administrator-guide).
 
 You can deploy Visual Studio 2015 on a network as long as each target computer meets the [minimum installation requirements](http://www.microsoft.com/visualstudio/eng/products/2013-editions). You can create a network share by running the installation file with the /layout switch (as described on the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page) and then copying it from the local machine to the network share. If you are using an ISO, you can mount the ISO and share it or copy the ISO to a network share.  
   
