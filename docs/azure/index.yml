@@ -15,7 +15,7 @@ sections:
 - title: Connect your apps to Azure with Visual Studio Connected Services
   items:
   - type: paragraph
-    text: 'Visual Studio provides a convenient way to connect to a variety of Azure services. Choose what Azure services you want to add a connection to.'
+    text: 'Visual Studio provides a convenient way to connect your app or service project to a variety of Azure services. Using Visual Studio Connected Services greatly simplifies the development process, since all the configuration is done automatically for you. For a tutorial, choose what Azure service you want to add support for in your project:'
   - type: list
     style: icon48
     items: 
@@ -35,6 +35,44 @@ sections:
         src: https://docs.microsoft.com/azure/media/index/i_azure-cognitive-services-color.svg
       text: Cognitive Services
       href: cognitive-services.yml
+- title: Work with Azure resources in Visual Studio
+  items:
+  - type: paragraph
+    text: 'Cloud Explorer in Visual Studio provides a convenient way to access Azure resources such as storage accounts and virtual machines.'
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+      html: <p>Access Azure storage accounts in Visual Studio</p>
+      image: 
+        src: https://docs.microsoft.com/media/common/i_dashboard.svg
+      title: Storage
+    - href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
+      html: <p>Access Virtual Machines from Visual Studio</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_vmm-cloud.svg
+      title: Virtual Machines
+- title: Azure App Services and Azure Functions
+  items:
+  - type: paragraph
+    text: ''
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet
+      html: <p>Build and host an ASP.NET Core web app in Azure</p>
+      image: 
+        src: https://docs.microsoft.com/azure/media/index/AppService.svg
+      title: ASP.NET Core
+    - href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
+      html: <p>Process events with serverless code</p>
+      image: 
+        src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
+      title: Azure Functions
 - title: Develop Azure cloud services with Visual Studio
   items:
   - type: paragraph
@@ -47,32 +85,48 @@ sections:
     - href: vs-azure-tools-azure-project-create.md
       html: <p>Create and configure Azure cloud service projects</p>
       image: 
-        src: /media/common/i_config-tools.svg
+        src: https://docs.microsoft.com/media/common/i_config-tools.svg
       title: Projects
     - href: vs-azure-tools-debugging-cloud-services-overview.md
       html: <p>Debug cloud services locally and in Azure</p>
       image:
-        src: /media/common/i_debug.svg
+        src: https://docs.microsoft.com//media/common/i_debug.svg
       title: Debug
     - href: vs-azure-tools-performance-profiling-cloud-services.md
       html: <p>Use the Visual Studio profiler</p>
       image:
-        src: /media/common/i_code-performance.svg
+        src: https://docs.microsoft.com//media/common/i_code-performance.svg
       title: Analyze performance
     - href: vs-azure-tools-publishing-a-cloud-service.md
       html: <p>Publish a cloud service to Azure</p>
       image:
-        src: /media/common/i_deploy.svg
+        src: https://docs.microsoft.com//media/common/i_deploy.svg
       title: Publish
-    - href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
-      html: <p>Access Azure storage accounts in Visual Studio</p>
-      image: 
-        src: /media/common/i_dashboard.svg
-      title: Storage
-    - href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
-      html: <p>Access Virtual Machines from Visual Studio</p>
+    - href: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
+      html: <p>Monitor and diagnose cloud services and virtual machines running in Azure</p>
       image:
-        src: /media/common/i_vmm-cloud.svg
-      title: Virtual Machines
-
-      
+        src: https://docs.microsoft.com/media/common/i_load-testing.svg
+      title: Diagnostics
+- title: Other Azure Development Resources
+  items:
+  - type: paragraph
+    text: 'With the Azure development workload installed, Visual Studio provides project templates for a variety of projects that enable you use develop using specific Azure services.'
+  - type: list
+    style: icon48
+    items: 
+    - image:
+        src: https://docs.microsoft.com/media/index/azure-resource-manager.svg 
+      text: Azure Resource Group
+      href: https://docs.microsoft.com/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy
+    - image: 
+        src: https://docs.microsoft.com/azure/media/index/Azure-Data-Lake-Analytics-COLOR.svg
+      text: Data Lake Analytics
+      href: https://docs.microsoft.com/azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started
+    - image:
+        src: https://docs.microsoft.com/azure/media/index/StreamAnalytics.svg 
+      text: Stream Analytics
+      href: https://docs.microsoft.com/azure/stream-analytics/stream-analytics-quick-create-vs
+    - image:
+        src: https://docs.microsoft.com/azure/media/index/Fabric.svg
+      text: Service Fabric
+      href: https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet
