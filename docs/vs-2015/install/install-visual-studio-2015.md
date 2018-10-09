@@ -197,7 +197,7 @@ This page includes detailed information to help you with installing **Visual Stu
 |-----------|-----------------|  
 |[Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md)|Describes how to install Visual Studio when you are not connected to the Internet.
 |[Install Visual Studio Versions Side-by-Side](../install/install-visual-studio-versions-side-by-side.md)|Provides information about how to install multiple versions of Visual Studio on the same computer.|  
-|[Use Command-Line Parameters to Install Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio)|Lists the command-line parameters that you can use when you install Visual Studio from a command prompt.|  
+|[Use Command-Line Parameters to Install Visual Studio](/visualstudio/install/use-command-line-parameters-to-install-visual-studio)|Lists the command-line parameters that you can use when you install Visual Studio from a command prompt.|  
 |[Uninstall Visual Studio](../install/uninstall-visual-studio.md)|Describes how to uninstall Visual Studio.|  
 |[Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)|Provides information about deployment options for Visual Studio.|  
 |[The Visual Studio Image Library](../designers/the-visual-studio-image-library.md)|Provides information about how to install graphics that you can use in Visual Studio applications.|  
