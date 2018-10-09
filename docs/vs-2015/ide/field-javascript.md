@@ -21,7 +21,7 @@ manager: "ghogen"
 # &lt;field&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](https://docs.microsoft.com/en-us/visualstudio/).  
+The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
   
 Specifies documentation information, including a description, for either a field or member that's defined on an object.  
   
