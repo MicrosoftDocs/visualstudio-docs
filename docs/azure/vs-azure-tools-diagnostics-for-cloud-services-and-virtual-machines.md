@@ -18,7 +18,7 @@ ms.author: mikejo
 
 ---
 # Set up diagnostics for Azure Cloud Services and virtual machines
-When you need to troubleshoot an Azure cloud service or virtual machine, you can use Visual Studio to more easily set up Azure Diagnostics. Diagnostics captures system data and logging data on the virtual machines and virtual machine instances that run your cloud service. Diagnostics data is transferred to a storage account that you choose. For more information about diagnostics logging in Azure, see [Enable diagnostics logging for Web Apps in Azure App Service](azure/app-service/web-sites-enable-diagnostic-log).
+When you need to troubleshoot an Azure cloud service or virtual machine, you can use Visual Studio to more easily set up Azure Diagnostics. Diagnostics captures system data and logging data on the virtual machines and virtual machine instances that run your cloud service. Diagnostics data is transferred to a storage account that you choose. For more information about diagnostics logging in Azure, see [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
 
 In this article, we show you how to use Visual Studio to turn on and set up Azure Diagnostics, both before and after deployment. Learn how to set up Diagnostics on Azure virtual machines, how to select the types of diagnostics information to collect, and how to view the information after it's collected.
 
@@ -139,7 +139,7 @@ Application logs have diagnostics information that's produced by a web applicati
 
   ![Application logs](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758145.png)
 
-For more information about application logs, see [Enable diagnostics logging for Web Apps in Azure App Service](azure/app-service/web-sites-enable-diagnostic-log).
+For more information about application logs, see [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
 
 ### Windows event logs
 To capture Windows event logs, select the **Enable transfer of Windows Event Logs** check box. To increase or decrease the interval between the transfer of event logs to your storage account, change the **Transfer Period (min)** value. Select the check boxes for the types of events that you want to track.
@@ -186,7 +186,7 @@ The events are captured from event sources and event manifests that you specify.
 
 ![ETW logs](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766025.png)
 
-The ETW framework is supported in ASP.NET through classes in the [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) namespace. The Microsoft.WindowsAzure.Diagnostics namespace, which inherits from and extends standard [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) classes, enables the use of [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) as a logging framework in the Azure environment. For more information, see [Take control of logging and tracing in Microsoft Azure](https://msdn.microsoft.com/magazine/ff714589.aspx) and [Enable diagnostics in Azure Cloud Services and virtual machines](azure/cloud-services/cloud-services-dotnet-diagnostics).
+The ETW framework is supported in ASP.NET through classes in the [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) namespace. The Microsoft.WindowsAzure.Diagnostics namespace, which inherits from and extends standard [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) classes, enables the use of [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) as a logging framework in the Azure environment. For more information, see [Take control of logging and tracing in Microsoft Azure](https://msdn.microsoft.com/magazine/ff714589.aspx) and [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ### Crash dumps
 To capture information about when a role instance crashes, select the **Enable transfer of Crash Dumps** check box. (Because ASP.NET handles most exceptions, this is generally useful only for worker roles.) To increase or decrease the percentage of storage space devoted to the crash dumps, change the **Directory Quota (%)** value. You can change the storage container where the crash dumps are stored, and select whether you want to capture a **Full** or **Mini** dump.
@@ -303,5 +303,5 @@ The methods of **RoleEntryPoint** are called in the context of WAIISHost.exe, no
 In the **Properties** window, set the **Copy to Output Directory** property to **Copy always**.
 
 ## Next steps
-To learn more about diagnostics logging in Azure, see [Enable diagnostics in Azure Cloud Services and virtual machines](azure/cloud-services/cloud-services-dotnet-diagnostics.md) and [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
+To learn more about diagnostics logging in Azure, see [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics.md) and [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
 

@@ -16,7 +16,7 @@ ms.author: ghogen
 ---
 # How to: Migrate and Publish a Web Application to an Azure Cloud Service from Visual Studio
 
-To take advantage of the hosting services and scaling ability of Azure, you might want to migrate and deploy your web application to an Azure cloud service. Only minimal changes are required. This article covers deploying to cloud services only; for App Service, see [Deploy a web app in Azure App Service](azure/app-service/app-service-deploy-local-git).
+To take advantage of the hosting services and scaling ability of Azure, you might want to migrate and deploy your web application to an Azure cloud service. Only minimal changes are required. This article covers deploying to cloud services only; for App Service, see [Deploy a web app in Azure App Service](/azure/app-service/app-service-deploy-local-git).
 
 > [!Important]
 > This migration is supported only for the specific ASP.NET, Silverlight, WCF, and WCF Workflow projects. It is not supported for ASP.NET Core projects. See [Supported Project Templates](#supported-project-templates).
@@ -47,8 +47,8 @@ For more information about how to treat any warnings as errors, see [Configure a
 
 If you have a connection string for your web application that uses an on-premises SQL Server database, you must migrate your database to Azure SQL Database instead and update your connection string. For guidance with this process, refer to the following topics:
 
-- [SQL Server database migration to SQL Database in the cloud](azure/sql-database/sql-database-cloud-migrate)
-- [Use .NET (C#) with Visual Studio to connect and query and Azure SQL database](azure/sql-database/sql-database-connect-query-dotnet-visual-studio).
+- [SQL Server database migration to SQL Database in the cloud](/azure/sql-database/sql-database-cloud-migrate)
+- [Use .NET (C#) with Visual Studio to connect and query and Azure SQL database](/azure/sql-database/sql-database-connect-query-dotnet-visual-studio).
 
 ## Publish the application to Azure Cloud Service
 

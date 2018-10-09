@@ -24,7 +24,7 @@ Configuration settings are managed and modified in Visual Studio using property 
 
 ![VS_Solution_Explorer_Roles_Properties](/azure/media/vs-azure-tools-multiple-services-project-configurations/IC784076.png)
 
-For information about the underlying schemas for the service definition and service configuration files, see the [.csdef XML Schema](azure/cloud-services/schema-csdef-file.md) and [.cscfg XML Schema](/azure/cloud-services/schema-cscfg-file.md) articles. For more information about service configuration, see [How to Configure Cloud Services](/azure/cloud-services/cloud-services-how-to-configure-portal).
+For information about the underlying schemas for the service definition and service configuration files, see the [.csdef XML Schema](/azure/cloud-services/schema-csdef-file.md) and [.cscfg XML Schema](/azure/cloud-services/schema-cscfg-file.md) articles. For more information about service configuration, see [How to Configure Cloud Services](/azure/cloud-services/cloud-services-how-to-configure-portal).
 
 
 ## Configuration page
@@ -37,7 +37,7 @@ Selects which `ServiceConfiguration.*.cscfg` file is affected by changes. By def
 
 Set the **Instance** count property to the number of instances the service should run for this role.
 
-Set the **VM size** property to **Extra Small**, **Small**, **Medium**, **Large**, or **Extra Large**.  For more information, see [Sizes for Cloud Services](azure/cloud-services/cloud-services-sizes-specs).
+Set the **VM size** property to **Extra Small**, **Small**, **Medium**, **Large**, or **Extra Large**.  For more information, see [Sizes for Cloud Services](/azure/cloud-services/cloud-services-sizes-specs).
 
 ### Startup Action (Web role only)
 
@@ -49,7 +49,7 @@ If you have already added an HTTPS endpoint, the HTTPS endpoint option is enable
 
 ### Diagnostics
 
-By default, diagnostics are enabled for the Web role. The Azure cloud service project and storage account are set to use the local storage emulator. When you are ready to deploy to Azure, you can select the builder button (**...**) to use Azure storage instead. You can transfer the diagnostics data to the storage account on demand or at automatically scheduled intervals. For more information about Azure diagnostics, see [Enabling Diagnostics in Azure Cloud Services and Virtual Machines](azure/cloud-services/cloud-services-dotnet-diagnostics).
+By default, diagnostics are enabled for the Web role. The Azure cloud service project and storage account are set to use the local storage emulator. When you are ready to deploy to Azure, you can select the builder button (**...**) to use Azure storage instead. You can transfer the diagnostics data to the storage account on demand or at automatically scheduled intervals. For more information about Azure diagnostics, see [Enabling Diagnostics in Azure Cloud Services and Virtual Machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ## Settings page
 
@@ -60,7 +60,7 @@ On the **Settings** page, you can add settings to a configuration as name-value 
 A connection string is a setting that provides connection and authentication information for the storage emulator or for an Azure storage account. Whenever code in a role accesses Azure storage (blobs, queues, or tables), it needs a connection string.
 
 > [!Note]
-> A connection string for Azure storage account must use a defined format (see [Configure Azure Storage Connection Strings](azure/storage/common/storage-configure-connection-string)).
+> A connection string for Azure storage account must use a defined format (see [Configure Azure Storage Connection Strings](/azure/storage/common/storage-configure-connection-string)).
 
 You can set the connection string to use local storage as needed, then set to an Azure storage account when you deploy the application the cloud service. Failure to set the connection string properly may cause your role not to start, or to cycle through the initializing, busy, and stopping states.
 
@@ -72,7 +72,7 @@ For new or existing connection strings, select **...*** on the right of the **Va
 1. Selecting **Manually entered credentials** lets you specify the account name and key directly using information from the Azure portal. To copy the account key:
     a. Navigate to the storage account on the Azure portal and select **Manage Keys**.
     2. To copy the account key, navigate to the storage account on the Azure portal, select **Settings > Access keys**, then use the copy button to copy the primary access key to the clipboard.
-1. Select one of the connection options. **Specify custom endpoints** asks you to specify specific URLs for blobs, tables, and queues. Custom endpoints allow you to use [custom domains](azure/storage/blobs/storage-custom-domain-name.md) and to control access more exactly. See [Configure Azure Storage Connection Strings](./storage/common/storage-configure-connection-string).
+1. Select one of the connection options. **Specify custom endpoints** asks you to specify specific URLs for blobs, tables, and queues. Custom endpoints allow you to use [custom domains](/azure/storage/blobs/storage-custom-domain-name.md) and to control access more exactly. See [Configure Azure Storage Connection Strings](./storage/common/storage-configure-connection-string).
 1. Select **OK**, then **File > Save** to update the configuration with the new connection string.
 
 Again, when you publish your application to Azure, choose the service configuration that contains the Azure storage account for the connection string. After your application is published, verify that the application works as expected against the Azure storage services.
