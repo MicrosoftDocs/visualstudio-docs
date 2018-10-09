@@ -355,6 +355,8 @@
           href: ide/javascript-intellisense.md
         - name: Visual C++ IntelliSense
           href: ide/visual-cpp-intellisense.md
+        - name: Configure a C++ project for IntelliSense
+          href: ide/visual-cpp-intellisense-configuration.md
       - name: Navigate your code
         href: ide/navigating-code.md
         items:
