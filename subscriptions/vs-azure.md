@@ -38,7 +38,7 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 | Visual Studio Enterprise – BizSpark                          | $150 monthly credit         |   Yes                                                        |
 | Visual Studio Enterprise – MCT Software & Services           | $100 monthly credit         |   Yes                                                        |
 | Visual Studio Enterprise – MCT Software & Services Developer | $150 monthly credit         |   Yes                                                        |
-*Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)
+*Includes Not for Resale (NFR), Microsoft Valued Professional (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
