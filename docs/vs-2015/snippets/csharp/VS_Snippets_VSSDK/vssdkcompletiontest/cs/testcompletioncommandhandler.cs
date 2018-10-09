@@ -100,7 +100,7 @@ internal class TestCompletionCommandHandler : IOleCommandTarget
             || nCmdID == (uint)VSConstants.VSStd2KCmdID.TAB
             || (char.IsWhiteSpace(typedChar) || char.IsPunctuation(typedChar)))
         {
-            //check for a a selection
+            //check for a selection
             if (m_session != null && !m_session.IsDismissed)
             {
                 //if the selection is fully selected, commit the current session

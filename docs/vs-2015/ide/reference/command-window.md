@@ -89,7 +89,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
  will assign to variable `varA` the value of variable `varB`.  
   
 ## Parameters, Switches, and Values  
- Some [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] commands commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.  
+ Some [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.  
   
 ```  
 Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar   

@@ -64,7 +64,7 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
   
  You can use pre-defined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. Four reference groups are available:  
   
--   Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript.  
+-   Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript.  
   
 -   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
   

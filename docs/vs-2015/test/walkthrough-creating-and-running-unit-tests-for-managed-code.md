@@ -121,7 +121,7 @@ public void Debit(double amount)
   
 4.  In the **Name** box, enter BankTest, and then choose **OK**.  
   
-     The **BankTests** project is added to the the **Bank** solution.  
+     The **BankTests** project is added to the **Bank** solution.  
   
 5.  In the **BankTests** project, add a reference to the **Bank** solution.  
   

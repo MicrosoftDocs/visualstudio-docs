@@ -29,7 +29,7 @@ From the New File dialog, select **Web > Empty JS file** or **Web > Typescript f
 
 ## Intellisense
 
-Visual Studio for Mac uses the [Javascript Language Service](https://docs.microsoft.com/en-us/visualstudio/ide/javascript-intellisense) to provide Intellisense, allowing you to have intelligent code completion, parameter info, and member lists when writing code.
+Visual Studio for Mac uses the [Javascript Language Service](/visualstudio/ide/javascript-intellisense) to provide Intellisense, allowing you to have intelligent code completion, parameter info, and member lists when writing code.
 
 Javascript intellisense in Visual Studio for Mac can be based on type inference, JSDoc, or Typescript declaration.
 

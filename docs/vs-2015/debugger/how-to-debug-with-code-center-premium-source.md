@@ -44,7 +44,7 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
   
 5.  Clear the **Enable Just My Code (Managed Only)** check box.  
   
-6.  Select **Enable Enable Source Server Support**.  
+6.  Select **Enable Source Server Support**.  
   
 7.  Clear **Require source files to exactly match the original version**.  
   

@@ -21,7 +21,7 @@ manager: "ghogen"
 # &lt;var&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](https://docs.microsoft.com/en-us/visualstudio/).  
+The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
   
 Specifies documentation information for a variable.  
   

@@ -118,7 +118,7 @@ End Sub
 ' <snippet2>
 Private Sub AddToolbarButtons(toolBar As ToolBar)
    If Not toolBar.Buttons.IsReadOnly Then
-      ' If toolBarButton1 in in the collection, remove it.
+      ' If toolBarButton1 is in the collection, remove it.
       If toolBar.Buttons.Contains(toolBarButton1) Then
          toolBar.Buttons.Remove(toolBarButton1)
       End If
