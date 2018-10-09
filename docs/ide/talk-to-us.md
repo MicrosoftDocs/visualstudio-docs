@@ -22,11 +22,11 @@ We're interested in your ideas for improving our products and documentation. We 
 
 ## I want to report a problem with Visual Studio
 
-If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. Simply click the feedback icon next to **Quick Launch**, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Then, Visual Studio opens a browser window to the [Developer Community](https://developercommunity.visualstudio.com) page, where you can sign in to report the problem to us. For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
+If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. To do so, choose the feedback icon next to **Quick Launch** in Visual Studio, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem to us. For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
 
 ## I want to make a suggestion about Visual Studio features
 
-If there's something we can do better, please let us know! Choose **Help** > **Send Feedback** > **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Visual Studio opens a browser window to the [Developer Community](https://developercommunity.visualstudio.com) page, where you can choose the **Suggest a feature** button to send us your ideas.
+If there's something we can do better, please let us know! Choose **Help** > **Send Feedback** > **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can choose the **Suggest a feature** button to send us your ideas. For more information, see [Suggest a feature for Visual Studio 2017](suggest-a-feature.md).
 
 ### Rate this product
 
