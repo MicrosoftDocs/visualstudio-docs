@@ -18,19 +18,19 @@ ms.workload:
 ---
 # Visual Studio product feedback
 
-We're interested in your ideas for improving our products and documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.
+Talk to us! We're interested in your ideas for improving our products and documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.
 
 ## I want to report a problem with Visual Studio
 
-If you're running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report it to us by using the **Report a Problem** tool. To do so, choose the feedback icon next to **Quick Launch** in Visual Studio, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem to us. For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
+If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon next to **Quick Launch**, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
 
 ## I want to make a suggestion about Visual Studio features
 
-If there's something we can do better, please let us know! Choose **Help** > **Send Feedback** > **Provide a Suggestion** to suggest a feature or change to the Visual Studio team. Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you sign in to make a suggestion. For more information, see [Suggest a feature for Visual Studio 2017](suggest-a-feature.md).
+If there's something we can do better, let us know! In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio 2017](suggest-a-feature.md).
 
 ### Rate this product
 
-Pre-release versions of Visual Studio have a **Rate this Product** menu item that released versions of the product don't. Use this **Rate this Product** menu item to send feedback on the quality of the build that you're running.
+Pre-release versions of Visual Studio have a **Rate this Product** menu item that released versions of the product don't have. Use the **Rate this Product** menu item to send feedback on the quality of the pre-release build that you're running.
 
 ## I want to contact Microsoft Support
 
