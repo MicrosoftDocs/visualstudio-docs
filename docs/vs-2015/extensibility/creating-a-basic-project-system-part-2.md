@@ -49,7 +49,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
   
 1.  In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open the SimpleProject solution that you created by following [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md).  
   
-2.  In the SimpleProjectPackage.cs file, find the the ProvideProjectFactory attribute. Replace the second parameter (the project name) with null, and the fourth parameter (the path to the project template folder) with ".\\\NullPath", as follows.  
+2.  In the SimpleProjectPackage.cs file, find the ProvideProjectFactory attribute. Replace the second parameter (the project name) with null, and the fourth parameter (the path to the project template folder) with ".\\\NullPath", as follows.  
   
     ```  
     [ProvideProjectFactory(typeof(SimpleProjectFactory), null,  

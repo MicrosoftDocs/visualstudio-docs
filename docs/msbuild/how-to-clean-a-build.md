@@ -47,13 +47,13 @@ When you clean a build, all intermediate and output files are deleted, leaving o
 ## Example  
  The following code example project contains a new target, `Clean`, that uses the `RemoveDir` task to delete a directory and all files and directories that it contains. Also in this example, the `Compile` target creates a separate directory for the output items that are deleted when the build is cleaned.  
   
- `Compile` is defined as the default target and is therefore used automatically unless you specify a different target or targets. You use the command line switch **/target** to specify a different target. For example:  
+ `Compile` is defined as the default target and is therefore used automatically unless you specify a different target or targets. You use the command line switch **-target** to specify a different target. For example:  
   
- `msbuild <file name>.proj /target:Clean`  
+ `msbuild <file name>.proj -target:Clean`  
   
- The **/target** switch can be shortened to **/t** and can specify more than one target. For example, to use the target `Clean` then the target `Compile`, type:  
+ The **-target** switch can be shortened to **-t** and can specify more than one target. For example, to use the target `Clean` then the target `Compile`, type:  
   
- `msbuild <file name>.proj /t:Clean;Compile`  
+ `msbuild <file name>.proj -t:Clean;Compile`  
   
 ```xml  
 <Project DefaultTargets = "Compile"  

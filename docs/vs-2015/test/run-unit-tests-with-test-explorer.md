@@ -189,7 +189,7 @@ TEST_METHOD(Method1)
 ###  <a name="BKMK_Search_and_filter_the_test_list"></a> Search and filter the test list  
  You can use Test Explorer filters to limit the test methods in your projects that you view and run.  
   
- When you type a string in in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.  
+ When you type a string in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.  
   
  To filter by a different criteria:  
   

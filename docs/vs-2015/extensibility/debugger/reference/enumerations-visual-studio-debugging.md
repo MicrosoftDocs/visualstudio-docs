@@ -115,7 +115,7 @@ Following are enumerations for the [!INCLUDE[vsprvs](../../../includes/vsprvs-md
  Specifies the scope of the disassembly stream.  
   
  [DisplayKind](../../../extensibility/debugger/reference/displaykind.md)  
- Enumerates the valid values that represent the kinds of information to take from an an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object and display to the user.  
+ Enumerates the valid values that represent the kinds of information to take from an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object and display to the user.  
   
  [DOCCONTEXT_COMPARE](../../../extensibility/debugger/reference/doccontext-compare.md)  
  Specifies the criteria for comparing two document contexts.  

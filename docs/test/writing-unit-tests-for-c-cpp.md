@@ -1,12 +1,12 @@
 ---
 title: "Write unit tests for C/C++ in Visual Studio"
-ms.date: 11/04/2017
+ms.date: 10/09/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: "mblome"
-manager: douge
-ms.workload:
+manager: wpickett
+ms.workload: 
   - "cplusplus"
 author: mikeblome
 ---
@@ -25,6 +25,10 @@ Visual Studio includes these C++ test frameworks with no additional downloads re
 - CTest
 
 In addition to the installed frameworks, you can write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter can integrate unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
+
+**Visual Studio 2017 version 15.7 (Professional and Enterprise)**
+
+C++ unit test projects support [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md).
 
 **Visual Studio 2017 version 15.5**
 
@@ -74,13 +78,14 @@ TEST_CLASS and TEST_METHOD are part of the [Microsoft Native Test Framework](mic
 A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against what is expected. In the following example, assume `MyClass` has a constructor that takes a `std::string`. We can test that the constructor initializes the class as expected like so:
 
 ```cpp
-        TEST_METHOD(TestClassInit)
-		{
-			std::string name = "Bill";
-			MyClass mc(name);
-			Assert::AreEqual(name, mc.GetName());
-		}
+TEST_METHOD(TestClassInit)
+{
+    std::string name = "Bill";
+    MyClass mc(name);
+    Assert::AreEqual(name, mc.GetName());
+}
 ```
+
 In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The Assert class contains many other methods for comparing expected vs. actual results.
 
 You can add *traits* to test methods to specify test owners, priority and other information. You can then use these values to sort and group tests in **Test Explorer**. For more information, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
@@ -105,6 +110,23 @@ For failed tests, the message offers details that help to diagnose the cause. Yo
 For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
 For best practices related to unit testing, see [Unit test basics](unit-test-basics.md)
+
+## Use CodeLens
+
+**Visual Studio 2017 version 15.7 Professional and Enterprise Editions only**: 
+[CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) enables you to quickly see the status of a unit test without leaving the code editor. You can initialize CodeLens for a C++ unit test project in any of these ways:
+
+- Edit and build your test project or solution.
+- Rebuild your project or solution.
+- Run test(s) from the **Test Explorer** window.
+
+After **CodeLens** is initialized, you can see test status icons above each unit test.
+
+![C++ CodeLens Icons](media/cpp-test-codelens-icons.png)
+
+ Click on the icon for more information, or to run or debug the unit test:
+
+![C++ CodeLens Run and Debug](media/cpp-test-codelens-run-debug.png)
 
 ## See also
 

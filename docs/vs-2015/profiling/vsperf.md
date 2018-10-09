@@ -54,7 +54,7 @@ Use the **VsPerf** command line tool to:
 |||  
 |-|-|  
 |**/launch:{Executable}**|Starts and begins profiling the specified executable file.|  
-|**/args:{ExecutableArguments}**|Specifies command line arguments to pass the the **/launch** target.|  
+|**/args:{ExecutableArguments}**|Specifies command line arguments to pass the **/launch** target.|  
 |**/console**|Runs the **/launch** target in a new command window.|  
   
 ##  <a name="BKMK_All_applications"></a> All applications  
