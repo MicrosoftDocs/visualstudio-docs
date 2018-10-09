@@ -99,7 +99,7 @@ For detailed information on project settings for debug configurations in C# or V
 
 3. In the **Configuration** list, choose **Debug** or **Release**.
 
-4. In the side pane, choose **Linker > Debugging**, and then select options for **Generate Debug Info**.
+4. In the side pane, choose **Linker > Debugging**, then select options for **Generate Debug Info**.
 
    For detailed information on project settings for debug configurations in C++, see [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
 
