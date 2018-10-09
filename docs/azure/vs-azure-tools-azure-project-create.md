@@ -26,7 +26,7 @@ This section walks you through creating an Azure cloud service project in Visual
 
 1. Select **Cloud** from the Visual C# or Visual Basic project template nodes, and select **Azure Cloud Service** from the list of templates.
 
-    ![New Azure cloud service](/azure/media/vs-azure-tools-azure-project-create/new-project-wizard-for-cloud-service.png)
+    ![New Azure cloud service](./media/vs-azure-tools-azure-project-create/new-project-wizard-for-cloud-service.png)
 
 1. Specify which version of the .NET Framework you want to use to develop your project.
 
@@ -36,11 +36,11 @@ This section walks you through creating an Azure cloud service project in Visual
 
 1. In the **New Microsoft Azure Cloud Service** dialog, select the roles that you want to add, and choose the right arrow button to add them to your solution.
 
-    ![Select new Azure cloud service roles](/azure/media/vs-azure-tools-azure-project-create/new-cloud-service.png)
+    ![Select new Azure cloud service roles](./media/vs-azure-tools-azure-project-create/new-cloud-service.png)
 
 1. To rename a role that you've added, hover on the role in the **New Microsoft Azure Cloud Service** dialog, and, from the context menu, select **Rename**. You can also rename a role within your solution (in the **Solution Explorer**) after it has been added.
 
-    ![Rename Azure cloud service role](/azure/media/vs-azure-tools-azure-project-create/new-cloud-service-rename.png)
+    ![Rename Azure cloud service role](./media/vs-azure-tools-azure-project-create/new-cloud-service-rename.png)
 
 The Visual Studio Azure project has associations to the role projects in the solution. The project also includes the *service definition file* and *service configuration file*:
 

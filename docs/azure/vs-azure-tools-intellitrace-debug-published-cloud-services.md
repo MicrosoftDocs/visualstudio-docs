@@ -44,17 +44,17 @@ To enable IntelliTrace for an Azure application, you must create and publish the
    
 1. To customize the basic IntelliTrace configuration, select **Settings** next to **Enable IntelliTrace**.
 
-	![IntelliTrace settings link](/azure/media/vs-azure-tools-intellitrace-debug-published-cloud-services/intellitrace-settings-link.png)
+	![IntelliTrace settings link](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/intellitrace-settings-link.png)
    
 1. In the **IntelliTrace Settings** dialog, you can specify which events to log, whether to collect call information, which modules and processes to collect logs for, and how much space to allocate to the recording. For more information about IntelliTrace, see [Debugging with IntelliTrace](http://go.microsoft.com/fwlink/?LinkId=214468).
    
-    ![IntelliTrace settings](/azure/media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC519063.png)
+    ![IntelliTrace settings](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC519063.png)
 
 The IntelliTrace log is a circular log file of the maximum size specified in the IntelliTrace settings (the default size is 250 MB). IntelliTrace logs are collected to a file in the file system of the virtual machine. When you request the logs, a snapshot is taken at that point in time and downloaded to your local computer.
 
 After the Azure cloud service has been published to Azure, you can determine if IntelliTrace has been enabled from the Azure node in **Server Explorer**, as shown in the following image:
 
-![Server Explorer - IntelliTrace enabled](/azure/media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC744134.png)
+![Server Explorer - IntelliTrace enabled](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC744134.png)
 
 ## Download IntelliTrace logs for a role instance
 Using Visual Studio, you can download IntelliTrace logs for a role instance by following these steps:
@@ -63,11 +63,11 @@ Using Visual Studio, you can download IntelliTrace logs for a role instance by f
 
 1. Right-click the role instance, and from the s context menu, select **View IntelliTrace Logs**. 
 
-	![View IntelliTrace logs menu option](/azure/media/vs-azure-tools-intellitrace-debug-published-cloud-services/view-intellitrace-logs.png)
+	![View IntelliTrace logs menu option](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/view-intellitrace-logs.png)
 
 1. The IntelliTrace logs are downloaded to a file in a directory on your local computer. Each time that you request the IntelliTrace logs, a new snapshot is created. While the logs are being downloaded, Visual Studio displays the progress of the operation in the **Azure Activity Log** window. As shown in the following figure, you can expand the line item for the operation to see more detail.
 
-![VST_IntelliTraceDownloadProgress](/azure/media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC745551.png)
+![VST_IntelliTraceDownloadProgress](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC745551.png)
 
 You can continue to work in Visual Studio while the IntelliTrace logs are downloading. When the log has finished downloading, it opens in Visual Studio.
 

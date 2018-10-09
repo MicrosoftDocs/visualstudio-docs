@@ -28,7 +28,7 @@ You can configure an Azure cloud service project, depending on your requirements
    
 1. In the project's properties page, select the **Development** tab.
 
-	![Project properties menu](/azure/media/vs-azure-tools-configuring-an-azure-project/solution-explorer-project-properties-menu.png)
+	![Project properties menu](./media/vs-azure-tools-configuring-an-azure-project/solution-explorer-project-properties-menu.png)
 
 1. Set **Prompt before deleting an existing deployment** to **True**. This setting helps to ensure you don't accidentally delete an existing deployment in Azure
 

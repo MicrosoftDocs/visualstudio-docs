@@ -41,7 +41,7 @@ You can access the Publish Azure Application wizard in two ways depending on the
 
 ## Sign-in page
 
-![Sign-in page](/azure/media/vs-azure-tools-publish-azure-application-wizard/sign-in.png)
+![Sign-in page](./media/vs-azure-tools-publish-azure-application-wizard/sign-in.png)
 
 **Account** - Select an account or select **Add an account** in the account dropdown list.
 
@@ -49,7 +49,7 @@ You can access the Publish Azure Application wizard in two ways depending on the
 
 ## Settings page - Common Settings tab
 
-![Common Settings](/azure/media/vs-azure-tools-publish-azure-application-wizard/settings-common-settings.png)
+![Common Settings](./media/vs-azure-tools-publish-azure-application-wizard/settings-common-settings.png)
 
 **Cloud service** - Using the dropdown, either select an existing cloud service, or select **&lt;Create New>**, and create a cloud service. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account (Advanced Settings).
 
@@ -65,7 +65,7 @@ You can access the Publish Azure Application wizard in two ways depending on the
 
 ## Settings page - Advanced Settings tab
 
-![Advanced settings](/azure/media/vs-azure-tools-publish-azure-application-wizard/settings-advanced-settings.png)
+![Advanced settings](./media/vs-azure-tools-publish-azure-application-wizard/settings-advanced-settings.png)
 
 **Deployment label** - Either accept the default name, or enter a name of your choosing. To append the date to the deployment label, leave the check box selected. 
 
@@ -79,7 +79,7 @@ The Azure storage account stores the package for the application deployment. Aft
 
 **Deployment update - settings** - This dialog is used to further specify how you want the roles to be updated. If you choose **Incremental update**, each instance of your application is updated one after another, so that the application is always available. If you choose **Simultaneous update**, all instances of your application are updated at the same time. Simultaneous updating is faster, but your service might not be available during the update process.
 
-![Deployment settings](/azure/media/vs-azure-tools-publish-azure-application-wizard/deployment-settings.png)
+![Deployment settings](./media/vs-azure-tools-publish-azure-application-wizard/deployment-settings.png)
 
 **Enable IntelliTrace** - Specify if you want to enable IntelliTrace. With IntelliTrace, you can log extensive debugging information for a role instance when it runs in Azure. If you need to find the cause of a problem, you can use the IntelliTrace logs to step through your code from Visual Studio as if it were running in Azure. For more information about using IntelliTrace, see [Debugging a published Azure cloud service with Visual Studio and IntelliTrace](./vs-azure-tools-intellitrace-debug-published-cloud-services.md).
 
@@ -89,13 +89,13 @@ The Azure storage account stores the package for the application deployment. Aft
 
 ## Diagnostics Settings page
 
-![Diagnostics settings](/azure/media/vs-azure-tools-publish-azure-application-wizard/diagnostic-settings.png)
+![Diagnostics settings](./media/vs-azure-tools-publish-azure-application-wizard/diagnostic-settings.png)
 
 Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual machine). For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview.md).
 
 ## Summary page
 
-![Summary](/azure/media/vs-azure-tools-publish-azure-application-wizard/summary.png)
+![Summary](./media/vs-azure-tools-publish-azure-application-wizard/summary.png)
 
 **Target profile** - You can choose to create a publishing profile from the settings that you have chosen. For example, you might create one profile for a test environment and another for production. To save this profile, choose the **Save** icon. The wizard creates the profile and saves it in the Visual Studio project. To modify the profile name, open the **Target profile** list, and then choose **&lt;Manage…&gt;**.
 

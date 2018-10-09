@@ -75,7 +75,7 @@ You can use different collection methods for profiling, based on your performanc
 ## Configuring profiling settings
 The following illustration shows how to configure your profiling settings from the Publish Azure Application dialog box.
 
-![Configure Profiling Settings](/azure/media/vs-azure-tools-performance-profiling-cloud-services/IC526984.png)
+![Configure Profiling Settings](./media/vs-azure-tools-performance-profiling-cloud-services/IC526984.png)
 
 > [!NOTE]
 > To enable the **Enable profiling** check box, you must have the profiler installed on the local computer that you are using to publish your cloud service. By default, the profiler is installed when you install Visual Studio.
@@ -96,7 +96,7 @@ The following illustration shows how to configure your profiling settings from t
 ## Viewing Profiling Reports
 A profiling session is created for each instance of a role in your cloud service. To view your profiling reports of each session from Visual Studio, you can view the Server Explorer window and then choose the Azure Compute node to select an instance of a role. You can then view the profiling report as shown in the following illustration.
 
-![View Profiling Report from Azure](/azure/media/vs-azure-tools-performance-profiling-cloud-services/IC748914.png)
+![View Profiling Report from Azure](./media/vs-azure-tools-performance-profiling-cloud-services/IC748914.png)
 
 ### To view profiling reports
 1. To view the Server Explorer window in Visual Studio, on the menu bar choose View, Server Explorer.
