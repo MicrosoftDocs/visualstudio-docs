@@ -9,7 +9,7 @@ ms.topic: hub-page
     <div class="container">
         <ul class="cardsY panelContent featuredContent">
             <li>
-                <a href="/visualstudio/install/install-visual-studio">
+                <a href="/docs/install/install-visual-studio.md">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -28,7 +28,7 @@ ms.topic: hub-page
                 </a>
             </li>
             <li>
-                <a href="/visualstudio/ide/visual-studio-ide">
+                <a href="/docs/ide/visual-studio-ide.md">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -47,7 +47,7 @@ ms.topic: hub-page
                 </a>
             </li>
             <li>
-                <a href="/visualstudio/ide/whats-new-in-visual-studio">
+                <a href="/docs/ide/whats-new-in-visual-studio.md">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
@@ -70,7 +70,7 @@ ms.topic: hub-page
         <h1>Visual Studio Documentation</h1>
         <ul class="pivots">
             <li>
-                <li>
+               <li>
                 <a href="#get-started">Get Started</a>
                 <ul id="get-started">
                     <li>
