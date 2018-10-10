@@ -74,7 +74,7 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 | Visual Studio Dev Essentials | NA  | Not available |NA|
 | Visual Studio Enterprise (monthly cloud) | Azure                                       | Not available                                  |NA|
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Partner (MVP), Region Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Professional (MVP), Region Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine.*
 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
