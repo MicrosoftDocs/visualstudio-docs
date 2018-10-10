@@ -21,7 +21,7 @@ ms.workload:
   - "multiple"
 ---
 # How to: Debug in mixed mode
-The following procedures describe how to debug managed and native code together, also known as mixed-mode debugging. You can enable both managed and native debuggers in an app or DLL project's **Property** pages. The settings differ depending on whether you start debugging from a managed project or from a native project. 
+The following procedures describe how to debug managed and native code together, also known as mixed-mode debugging. You can enable both managed and native debuggers in an app or DLL project's **Property** pages. The settings differ depending on whether you start debugging from the managed project or from the native project. 
 
 There are two different mixed-mode debugging scenarios, depending on whether a DLL and its calling app are written in native or managed code:  
   
