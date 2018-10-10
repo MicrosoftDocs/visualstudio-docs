@@ -29,7 +29,7 @@ Prior to MSBuild version 15, if you wanted to provide a new, custom property to 
 However, now you can add a new property to every project in one step by defining it in a single file called *Directory.Build.props* in the root folder that contains your source. When MSBuild runs, *Microsoft.Common.props* searches your directory structure for the *Directory.Build.props* file (and *Microsoft.Common.targets* looks for *Directory.Build.targets*). If it finds one, it imports the property. *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory.
 
 > [!NOTE]
-> linux-based file systems are case-sensitive.  Make sure the casing of the Directory.Build.props filename matches exactly, or it will not be detected during the build process.
+> Linux-based file systems are case-sensitive. Make sure the casing of the Directory.Build.props filename matches exactly, or it won't be detected during the build process.
 >
 > See [this GitHub issue](https://github.com/dotnet/core/issues/1991#issue-368441031) for more information.
 
