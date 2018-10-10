@@ -52,7 +52,7 @@ This topic explains how to manually attach the Visual Studio debugger to a scrip
   
  The **Available Processes** list is displayed automatically when you open the **Processes** dialog box. Processes can start and stop in the background while the dialog box is open. Therefore, the contents might not always be current. You can refresh the list at any time to see the current list of processes by pressing the **Refresh** button.  
   
- You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the Debug Location toolbar. For more information, see [How to: Set the Current Process](http://msdn.microsoft.com/en-us/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e).  
+ You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the Debug Location toolbar. For more information, see [How to: Set the Current Process](/previous-versions/visualstudio/visual-studio-2010/d5d4sxdw(v=vs.100)).  
   
  All **Debug** menu execution commands affect the active program. You can break any debugged program from the Processes dialog box.See [Using Breakpoints](../debugger/using-breakpoints.md).  
   

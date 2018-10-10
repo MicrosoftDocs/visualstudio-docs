@@ -1,5 +1,5 @@
 ---
-title: Working with Python Tutorial, Step 5, installing packages
+title: Working with Python Tutorial, Step 5, install packages
 description: Step 5 of a core walkthrough of Python capabilities in Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
 ms.date: 06/26/2018
 ms.prod: visual-studio-dev15

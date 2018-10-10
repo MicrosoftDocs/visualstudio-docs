@@ -55,7 +55,7 @@ VSPerfCmd [/U] [/options]
 |[ProcessOff](../profiling/processon-and-processoff.md) **:** `pid`|Stops data collection for the specified process.|  
 |[ThreadOn and ThreadOff](../profiling/threadon-and-threadoff.md) **:** *tid*|Resumes profiling for the specified process after profiling was paused by a call to **VSPerfCmdThreadOff**. Use **ThreadOn** only when profiling with the instrumentation method.|  
 |[ThreadOn and ThreadOff](../profiling/threadon-and-threadoff.md) **:** *tid*|Pauses profiling for the specified thread. Use **ThreadOff** only when profiling with the instrumentation method.|  
-|[Mark](../profiling/mark.md) **:** *MarkNum*[**,***MarkText***]**|Inserts a mark into the profiling data file, with optional text.|  
+|[Mark](../profiling/mark.md) **:** _MarkNum_[**,**_MarkText_**]**|Inserts a mark into the profiling data file, with optional text.|  
   
 ## Sampling Method Options  
  The following options are only available when you are using the sampling profiling method.  
@@ -65,8 +65,8 @@ VSPerfCmd [/U] [/options]
 |[Launch](../profiling/launch.md) **:** *Executable*|Starts the specified application and begins profiling.|  
 |[Args](../profiling/args.md) **:** *Arguments*|Specifies command line arguments to pass to the launched application.|  
 |[Console](../profiling/console.md)|Starts the specified command in a new command prompt window.|  
-|[Attach](../profiling/attach.md) **:** *PID*[**,***PID*]|Begins profiling the specified processes. Processes can be identified by the process id or by the process name.|  
-|[Detach](../profiling/detach.md)[**:***PID*[,*PID*]]|Stops profiling the specified processes. Processes can be identified by the process id or by the process name. If no process is specified, profiling is halted for all processes.|  
+|[Attach](../profiling/attach.md) **:** *PID*[**,**_PID_]|Begins profiling the specified processes. Processes can be identified by the process id or by the process name.|  
+|[Detach](../profiling/detach.md)[**:**_PID_[,_PID_]]|Stops profiling the specified processes. Processes can be identified by the process id or by the process name. If no process is specified, profiling is halted for all processes.|  
 |[GC](../profiling/gc-vsperfcmd.md)[**:**{**Allocation**`&#124;`**Lifetime**}]|Collects .NET memory allocation and object lifetime data. Use only with the **VSPerfCmdLaunch** option.|  
   
 ### Sampling Interval Options  
@@ -74,9 +74,9 @@ VSPerfCmd [/U] [/options]
   
 |Option|Description|  
 |------------|-----------------|  
-|[PF](../profiling/pf.md)[**:***n*]|Samples on every n-th page fault (default=10).|  
-|[Sys](../profiling/sys-vsperfcmd.md)[**:***n*]|Samples on every n-th system call (default=10).|  
-|[Timer](../profiling/timer.md)[**:***n*]|Samples on every n-th processor cycle (default=10000000).|  
+|[PF](../profiling/pf.md)[**:**_n_]|Samples on every n-th page fault (default=10).|  
+|[Sys](../profiling/sys-vsperfcmd.md)[**:**_n_]|Samples on every n-th system call (default=10).|  
+|[Timer](../profiling/timer.md)[**:**_n_]|Samples on every n-th processor cycle (default=10000000).|  
   
 ## Service Component and Kernel Mode Device Options  
  The following Admin options support profiling service components or kernel mode device drivers. The Admin options set profiling permissions and control the profiled service or device driver.  

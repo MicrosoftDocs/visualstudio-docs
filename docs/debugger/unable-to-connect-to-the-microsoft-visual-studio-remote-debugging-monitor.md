@@ -110,7 +110,7 @@ This may be a legacy issue specific to Windows XP and Windows 7. See this [infor
 
 If you cannot connect using the remote computer name, try using the IP address instead. You can use `ipconfig` in a command line on the remote computer to get the IPv4 address. If you are using a HOSTS file, verify that it is configured correctly.
 
-If that fails, verify that the remote computer is accessible on the network ([ping](https://technet.microsoft.com/en-us/library/cc732509(v=ws.10).aspx) the remote machine). Remote debugging over the Internet is not supported, except in some Microsoft Azure scenarios.
+If that fails, verify that the remote computer is accessible on the network ([ping](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee624059(v=ws.10)) the remote machine). Remote debugging over the Internet is not supported, except in some Microsoft Azure scenarios.
   
 ### <a name="server_incorrect"></a> The server name is incorrect or third-party software is interfering with the remote debugger
 
@@ -147,7 +147,7 @@ You can solve this in one of the following ways:
 ### The local and remote machines have different authentication modes  
  The local and remote machines need to use the same authentication mode. To fix this, make sure that both machines are using the same authentication mode. You can change the authentication mode. In the remote debugger window, go to the **Tools > Options** dialog box.
   
- For more information about authentication modes, see [Windows Authentication Overview](https://technet.microsoft.com/en-us/library/hh831472.aspx).   
+ For more information about authentication modes, see [Windows Authentication Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831472(v=ws.11)).   
   
 ### Anti-virus software is blocking the connections  
  Windows anti-virus software allows remote debugger connections, but some third-party anti-virus software may block them. Check the documentation for your anti-virus software to find out how to allow these connections.  

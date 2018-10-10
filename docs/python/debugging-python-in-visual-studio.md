@@ -221,9 +221,45 @@ To manage your ptvsd installation:
 
 1. If the version is lower than 4.1.1a9 (the version bundled with Visual Studio), select the **X** to the right of the package to uninstall the older version. Visual Studio then uses its bundled version. (You can also uninstall from PowerShell using `pip uninstall ptvsd`.)
 
-1. Alternately, you can update the ptvsd package to its newest version. Enter `ptvsd --upgrade -pre` in the search box, then select **Run command: pip install ptvsd --upgrade -pre**. (You can also use the same command from PowerShell.)
+1. Alternately, you can update the ptvsd package to its newest version by following the instructions in the [Troubleshooting](#troubleshooting) section.
 
-    ![Giving the upgrade command in the Python Environments window](media/debugging-experimental-upgrade-ptvsd.png)
+## Troubleshooting
+
+If you have issues with the debugger, first upgrade your version of ptvsd as follows:
+
+1. Navigate to the **Packages** tab in the **Python Environments** window.
+
+1. Enter `ptvsd --upgrade` in the search box, then select **Run command: pip install ptvsd --upgrade**. (You can also use the same command from PowerShell.)
+
+    ![Giving the ptvsd upgrade command in the Python Environments window](media/debugging-experimental-upgrade-ptvsd.png)
+
+If issues persist, please file an issue on the [PTVS GitHub repository](https://github.com/Microsoft/ptvs/issues).
+
+### Enable debugger logging
+
+In the course of investigating a debugger issue, Microsoft may ask you to enable and collect debugger logs that help in diagnosis.
+
+The following steps enable debugging in the current Visual Studio session:
+
+1. Open a command window in Visual Studio using the **View** > **Other Windows** > **Command Window** menu command.
+
+1. Enter the following command:
+
+    ```ps
+    DebugAdapterHost.Logging /On
+    ```
+
+1. Start debugging and go through whatever steps are necessary to reproduce your issue. During this time, debug logs appear in the **Output** window under **Debug Adapter Host Log**. You can then copy the logs from that window and paste into a GitHub issue, email, etc.
+
+    ![Debugger logging output in the Output window](media/debugger-logging-output.png)
+
+1. If Visual Studio hangs or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
+
+    ```ps
+    DebugAdapterHost.Logging /On /OutputWindow
+    ```
+
+1. Start debugging and reproduce your issue again. The debugger logs can then be found in `%temp%\DebugAdapterHostLog.txt`.
 
 ## See also
 

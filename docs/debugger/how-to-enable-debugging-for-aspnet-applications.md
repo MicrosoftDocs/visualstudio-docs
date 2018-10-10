@@ -1,7 +1,7 @@
 ---
-title: "Enable Debugging for ASP.NET Applications | Microsoft Docs"
+title: "Enable debugging for ASP.NET apps | Microsoft Docs"
 ms.custom: "H1HackMay2017"
-ms.date: "09/21/17"
+ms.date: "09/21/18"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -20,208 +20,169 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# Debug ASP.NET Applications in Visual Studio
+# Debug ASP.NET or ASP.NET Core apps in Visual Studio
 
-You can debug ASP.NET applications from Visual Studio.
+You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differs between ASP.NET and ASP.NET Core, and whether you run it on IIS Express or a local IIS server. 
 
-## Requirements
+>[!NOTE]
+>The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
-To follow the instructions in this topic, you need:
+The built-in IIS Express server is included with Visual Studio. IIS Express is the default debug server for ASP.NET and ASP.NET Core projects, and is preconfigured. It's the easiest way to debug, and ideal for initial debugging and testing. 
 
-- IIS Express, which is included by default in Visual Studio 2012 and later
+You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. To debug on local IIS, you must meet the following requirements: 
 
-    -or-
+<a name="iis"></a>
+- Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
+- Be running Visual Studio as an administrator. 
+- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or [Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index).
+- Make sure the app runs on IIS without errors.
 
-- A local IIS web server (version 8.0 or higher) that is configured correctly and can run the ASP.NET application without errors.
+## Debug ASP.NET apps 
 
-If the server is remote, the remote debugger must be running on the remote computer. To debug on a remote IIS server, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). 
+IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis). 
 
-## Configure debug settings
+1. Select the ASP.NET project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+   
+1. Select the **Web** tab.
+   
+1. In the **Properties** pane, under **Servers**, 
+   - For IIS Express, select **IIS Express** from the dropdown.
+   - For local IIS,
+     1. Select **Local IIS** from the dropdown.
+     1. Next to the **Project URL** field, select **Create Virtual Directory**, if you haven't yet set up the app in IIS.
+   
+1. Under **Debuggers**, select **ASP.NET**.
+   
+   ![ASP.NET debugger settings](media/dbg-aspnet-enable-debugging2.png "ASP.NET debugger settings")
+   
+1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save any changes. 
+   
+1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and the browser you want appears in **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the emulator field. 
+   
+1. To start debugging, select **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
 
-### Enable ASP.NET debugging in the project properties
+## Debug ASP.NET Core apps 
 
-1. Open your ASP.NET project in Visual Studio.
+IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis). 
 
-2. Right-click the project in **Solution Explorer**, choose **Properties**, and then click the **Web** tab.
+1. Select the ASP.NET Core project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
 
-    For some project types, select **Properties > Debug** instead. For a Web Forms ASP.NET project, right-click the project and select **Property Pages > Start Options**.
-  
-3.  Under **Debuggers**, select the **ASP.NET** check box.
+1. Select the **Debug** tab.
+   
+1. In the **Properties** pane, next to **Profile**, 
+   - For IIS Express, select **IIS Express** from the dropdown.
+   - For local IIS, select the app name from the dropdown, or select **New**, create a new profile name, and select **OK**.
+   
+1. Next to **Launch**, select either **IIS Express** or **IIS** from the dropdown. 
+   
+1. Make sure **Launch browser** is selected.
+   
+1. Under **Environment variables**, make sure that **ASPNETCORE_ENVIRONMENT** is present with a value of **Development**. If not, select **Add** and add it.
+   
+   ![ASP.NET Core debugger settings](../debugger/media/dbg-aspnet-enable-debugging3.png "ASP.NET Core debugger settings")
+   
+1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save any changes. 
+   
+1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and either **IIS Express**, or the new IIS profile name, appears in the emulator field. 
+   
+1. To start debugging, select **IIS Express** or **\<IIS profile name>** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
 
-    ![Debugger settings](../debugger/media/dbg-aspnet-enable-debugging.png "Debugger settings")
+## Troubleshoot debugging
+
+If local IIS debugging can't progress to the breakpoint, follow these steps to troubleshoot. 
+
+1. Start the web app from IIS, and make sure it runs correctly. Leave the web app running.
+   
+2. From Visual Studio, select **Debug > Attach to Process** or press **Ctrl**+**Alt**+**P**, and connect to the ASP.NET or ASP.NET Core process (typically **w3wp.exe** or **dotnet.exe**). For more information, see [Attach to Process](attach-to-running-processes-with-the-visual-studio-debugger.md) and [How to find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md).
+
+If you can connect and hit the breakpoint by using **Attach to Process**, but not by using **Debug** > **Start Debugging** or **F5**, a setting is probably incorrect in the project properties. If you use a HOSTS file, make sure it's also configured correctly.
+
+## Configure debugging in the web.config file  
+
+ASP.NET projects have *web.config* files by default, which contain both app configuration and launch information, including debug settings. The *web.config* files must be configured correctly for debugging. The **Properties** settings in previous sections update the *web.config* files, but you can also configure them manually. 
 
 > [!NOTE]
-> If you create a new ASP.NET project (**File > New Project**), the debug settings are already configured correctly.
-
-### Enable debugging in the web.config file  
-
-To debug a web app, application's web.config file must be configured correctly. A web.config file is required if you host the app on IIS or IIS Express.
-
-For ASP.NET Core, the web.config file is created automatically when the app is deployed (if it is not already present).
+> ASP.NET Core projects do not initially have *web.config* files, but use *appsettings.json* and *launchSettings.json* files for app configuration and launch information. Deploying the app creates a *web.config* file or files in the project, but they do not typically contain debug information.
 
 > [!TIP]
-> Your deployment process may update the web.config settings. So before trying to debug, verify the web.config setting on the server.
+> Your deployment process may update the *web.config* settings, so before trying to debug, make sure the *web.config* is configured for debugging.
   
-1.  In Visual Studio, open the project's web.config file.  
-  
-    > [!NOTE]  
-    > You cannot access the web.config file remotely by using a Web browser. For security reasons, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] configures Microsoft IIS to help prevent direct browser access to Web.config files. If you try to access a configuration file by using a browser, you get an HTTP access error 403 (forbidden).  
-  
-2.  Locate the `configuration/system.web/compilation` element. If the compilation element does not exist, create it.
+**To manually configure a *web.config* file for debugging:**
 
-    Web.config is an XML file, and so contains nested sections marked by tags.
+1. In Visual Studio, open the ASP.NET project's *web.config* file.  
   
-3.  If the `compilation` element does not contain a `debug` attribute, add the attribute to the element.  
+2. *Web.config* is an XML file, so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` section. (If the `compilation` element doesn't exist, create it.)
   
-4.  Make sure the `debug` attribute value is set to `true`.  
+3. Make sure that the `debug` attribute in the `compilation` element is set to `true`. (If the `compilation` element doesn't contain a `debug` attribute, add it and set it to `true`.) 
   
-The web.config file should look like the following example:
+  If you are using local IIS instead of the default IIS Express server, make sure that the `targetFramework` attribute value in the `compilation` element matches the framework on the IIS server.
+  
+  The `compilation` element of the *web.config* file should look like the following example:
 
-> [!NOTE]
-> This example is a partial web.config file. Additional XML sections are typically present between the configuration and system.web elements. The compilation element might also contain other attributes and elements.
+  > [!NOTE]
+  > This example is a partial *web.config* file. There are usually additional XML sections in the `configuration` and `system.web` elements, and the `compilation` element might also contain other attributes and elements.
   
-#### Example  
-  
-```xml
-<configuration>  
-    ...  
-    <system.web>  
-        <compilation  
-            debug="true"  
-            ...  
-        >  
-        ...  
-        </compilation>  
-    </system.web>  
-</configuration>  
-```
+  ```xml
+  <configuration>  
+      ...  
+      <system.web>  
+          <compilation  debug="true"  targetFramework="4.6.1" ... > 
+             ...  
+          </compilation>  
+      </system.web>  
+  </configuration>  
+  ```
 
-If you are using an external server instead of the default IIS Express server, you must also make sure that the `targetFramework` attribute value matches the configuration on the server.
+[!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] automatically detects any changes to *web.config* files and applies the new configuration settings. You don't have to restart the computer or the IIS server for changes to take effect.  
+  
+A website can contain several virtual directories and subdirectories, with *web.config* files in each one. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps inherit configuration settings from *web.config* files at higher levels in the URL path. The hierarchical *web.config* file settings apply to all [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps below them in the hierarchy. Setting a different configuration in a *web.config* file lower in the hierarchy overrides the settings in the higher file.  
+  
+For example, if you specify `debug="true"` in *www.microsoft.com/aaa/web.config*, any app in the *aaa* folder or in any subfolder of *aaa* inherits that setting, except if one of those apps overrides the setting with its own *web.config* file.  
+  
+## Publish in debug mode using the file system
+
+There are different ways to publish apps to IIS. These steps show how to create and deploy a debug Publish profile using the file system. To do this, you must be running Visual Studio as an administrator. 
 
 > [!IMPORTANT]
-> For best performance, set a production app to `debug=false` and specify a Release build when you build and publish the app.
+> If you change your code or rebuild, you must repeat these steps to republish. 
 
-## Configure project settings for the server
+1. In Visual Studio, right-click the project and choose **Publish**.
 
-For debugging on a local web server, set project properties. For debugging on a remote server, follow the more comprehensive instructions described in [Remote Debugging ASP.NET on IIS](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) instead.
+3. Choose **IIS, FTP, etc** and click **Publish**.
 
-1. In the **Web** tab of the project properties, select either **IIS Express** or **External Server** under the **Server** settings. (For some project types, these settings appear under the **Debug** tab instead.)
+    ![Publish to IIS](media/dbg-aspnet-local-iis.png "Publish to IIS")
 
-    ![Server settings](../debugger/media/dbg-aspnet-server-settings.png "Server settings")
+4. In the **CustomProfile** dialog, for **Publish method**, choose **File system**.
 
-    IIS Express is the default server for ASP.NET and does not typically require any special configuration. This is the easiest way to debug an ASP.NET application.
+5. For **Target location**, select **Browse** (**...**).
+   
+   - For ASP.NET, select **Local IIS**, select the website you created for the app, and then select **Open**.
+     
+     ![Publish to ASP.NET to IIS](media/dbg-aspnet-local-iis1.png "Publish ASP.NET to IIS")
+     
+   - For ASP.NET Core, select **File System**, select the folder you set up for the app, and then select **Open**.
 
-    For a Web Forms ASP.NET project, right-click the project, choose **Property Pages > Start Options**, and select either **Use default Web server** or **Use custom server** (instead of **External Server**).
+1. Select **Next**. 
 
-    ![Server settings for Web Forms app](../debugger/media/dbg-aspnet-server-settings-webforms.png "Server settings for Web Forms app")
+1. Under **Configuration**, select **Debug** from the dropdown.
 
-2. If you choose an external (custom) server, enter the correct URL in the **Project URL** (or **Base URL**) field.
+1. Select **Save**.
 
-    If the external server is local IIS, IIS must be installed and configured correctly. For example, the correct version of ASP.NET must be configured in IIS. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45). If you want to test deployment as well as debugging, see [Deploying to test](/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis).
+1. In the **Publish** dialog, make sure **CustomProfile** (or the name of the profile you just created) appears, and **LastUsedBuildConfiguration** is set to **Debug**. 
 
-    If the external server is [remote](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md), you attach to the process instead, and these project settings are not used for debugging.
+1. Select **Publish**.
 
-## (Local IIS web server) Configure IIS
+    ![Publish to IIS](media/dbg-aspnet-local-iis-select-site.png "Publish to IIS")
 
-For IIS Express, you don't need to configure the web server (skip this section). IIS Express is recommended for initial testing.
-
-If you are using local IIS web server, follow these steps.
-
-1. Make sure that IIS is installed correctly. For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
-
-    * Make sure that you install the correct version of ASP.NET on the server. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET). To install ASP.NET Core, see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html#iis-configuration).
-
-    > [!NOTE]
-    > If you are using Windows Server 2008 R2, install ASP.NET 4 instead using this command:
-
-     **C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -ir**
-
-2. Open the **Internet Information Services (IIS) Manager**. (In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.)
-
-3. Under **Connections** in the left pane, go to **Sites**.
-
-4. Right-click the **Default Web Site** node and select **Add Application**.
-
-5. Set the **Alias** field to **MyASPApp**, accept the default Application Pool (**DefaultAppPool**), and set the **Physical path** to **C:\inetpub\myNewFolder** (create a new folder for the app).
-
-6. Under **Connections**, select **Application Pools**. Open **DefaultAppPool** and set the Application pool field to the value that is correct for your application (use ASP.NET 4 for ASP.NET 4.5. Use **No Managed Code** for ASP.NET Core).
-
-## (Local IIS web server) Deploy the app
-
-For IIS Express, the web app is deployed automatically when you start debugging (skip this section).
-
-If you are using local IIS web server, follow these steps. There are different ways to publish your app to IIS. In these steps, we show how to create and use a Publish profile so that you can deploy using the file system.
-
-1. Restart Visual Studio as an Administrator.
-
-    To deploy using this method, you need Administrator privileges.
-
-2. In Visual Studio, right-click the project and choose **Publish** (for Web Forms, use **Publish Web App**).
-
-3. Choose **IIS, FTP, etc.** and click **Publish**.
-
-    ![Publish to IIS](../debugger/media/dbg-aspnet-local-iis.png "Publish to IIS")
-
-    For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name, and choose **OK**.
-
-4. In the **Publish method** field, choose **File system**.
-
-5. For the **Target location**, click the **Browse** button.
-
-6. (ASP.NET Core) Choose **File System** and select the folder where you previously created for the app.
-
-6. (ASP.NET) Choose **Local IIS**, and select the web site you previously created, and then click **Open**.
-
-    ![Publish to IIS](../debugger/media/dbg-aspnet-local-iis-select-site.png "Publish to IIS")
-
-    > [!TIP]
-    > If you see a message that says the web server is not configured correctly, make sure that the correct version of ASP.NET is installed for IIS.
-
-7. Click **Next** and choose a **Debug** configuration.
-
-    > [!NOTE]
-    > If you deploy with a Release configuration, this sets `debug=false` in the server's web.config file.
-
-8. Click **Save** to save the publish settings, and then click **Publish**.
-
-    > [!CAUTION]
-    >  If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.
-
-## Set a breakpoint and start debugging
-
-1. In your project in Visual Studio, set a breakpoint on some code that you know will run.
-
-2. To start debugging, press **F5** (**Debug > Start Debugging**).
-
-3. Take actions to run the code that contains the breakpoint.
-
-    The debugger pauses where you set the breakpoint.
-
-### (Local IIS) Troubleshooting: Cannot hit the breakpoint
-
-1. Start the web app from IIS and make sure it runs correctly. Leave the web app running.
-
-2. From Visual Studio, select **Debug > Attach to Process** and connect to the ASP.NET process (typically **w3wp.exe** or **dotnet.exe**). For more information, see [Attach to Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
-
-    If you are able to connect using **Attach to Process** and can hit a breakpoint, but can't start debugging using **F5**, then it is likely that a setting is incorrect in the project properties. If you are using a HOSTS file, verify that it is configured correctly.
-
-  
-## Robust Programming  
-[!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] automatically detects any changes to Web.config files and applies the new configuration settings. You do not have to restart the computer or restart the IIS server for changes to take effect.  
-  
-A Web site can contain multiple virtual directories and subdirectories, and Web.config files may exist in each one. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications inherit settings from Web.config files at higher levels in the URL path. Hierarchical configuration files allow you to change settings for several [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications at the same time, such as for all applications below it in the hierarchy. However, if `debug` is set in a file lower in the hierarchy, it overrides the higher value.  
-  
-For example, you could specify `debug="true"` in www.microsoft.com/aaa/Web.config, and any application in the aaa folder or in any subfolder of aaa inherits that setting. So if your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application is at www.microsoft.com/aaa/bbb, it inherits that setting, as will any [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications in www.microsoft.com/aaa/ccc, www.microsoft.com/aaa/ddd, and so on. The only exception is if one of those applications overrides the setting by means of its own lower Web.config file.  
-  
 > [!IMPORTANT]
-> Enabling debug mode greatly affects the performance of your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. Remember to disable debug mode before you deploy a release application or conduct performance measurements.  
-  
-## See Also  
+> Debug mode greatly reduces the performance of your app. For best performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a production app or conduct performance measurements.  
+
+## See also  
 [ASP.NET debugging: system requirements](aspnet-debugging-system-requirements.md)   
 [How to: Run the worker process under a user account](how-to-run-the-worker-process-under-a-user-account.md)   
 [How to: Find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md)   
-[Debug deployed Web applications](debugging-deployed-web-applications.md)   
-[Walkthrough: Debugging a Web Form](walkthrough-debugging-a-web-form.md)   
+[Debug deployed web applications](debugging-deployed-web-applications.md)   
+[Walkthrough: Debugging a web form](walkthrough-debugging-a-web-form.md)   
 [How to: Debug ASP.NET exceptions](how-to-debug-aspnet-exceptions.md)   
-[Debug Web applications: Errors and troubleshooting](debugging-web-applications-errors-and-troubleshooting.md)
+[Debug web applications: Errors and troubleshooting](debugging-web-applications-errors-and-troubleshooting.md)
   

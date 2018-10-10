@@ -57,7 +57,7 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
 2.  On the menu bar, choose **Project**, **Unload Project**.  
   
-3.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Edit***ProjectName***.vbproj**.  
+3.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Edit**_ProjectName_**.vbproj**.  
   
      The project file is opened in the code editor.  
   

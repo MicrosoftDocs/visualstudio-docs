@@ -54,7 +54,7 @@ The Digital Edition is available to Visual Studio Dev Essentials members.
 
 <sup>1</sup>  *Printed edition:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, Microsoft Partner Network (Enterprise), Imagine (Premium).*
 
-*Digital Edition: MCT Software & Services, Microsoft Valued Partner (Professional), Region Director (RD).*
+*Digital Edition: MCT Software & Services, Microsoft Valued Professional (Professional), Region Director (RD).*
 
 *Excludes:  Imagine (Standard), BizSpark, MCT Software & Services Developer*
 
@@ -63,4 +63,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

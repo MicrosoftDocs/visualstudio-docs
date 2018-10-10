@@ -43,7 +43,7 @@ For more information on how Dotfuscator fits into a secure software development 
 
 ## About Dotfuscator CE
 
-Your copy of Microsoft Visual Studio 2017 includes a copy of ***PreEmptive Protection - Dotfuscator* Community Edition**, also known as Dotfuscator CE, free for personal use.
+Your copy of Microsoft Visual Studio 2017 includes a copy of **_PreEmptive Protection - Dotfuscator_ Community Edition**, also known as Dotfuscator CE, free for personal use.
 For instructions on how to install the version of Dotfuscator CE included with Visual Studio 2017, see the [Installation page][install].
 
 Dotfuscator CE offers a range of [software protection and hardening][software-protection] services for developers, architects, and testers.

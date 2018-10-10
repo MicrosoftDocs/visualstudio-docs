@@ -331,7 +331,7 @@ ms.workload:
 
 14. Repeat steps 11 - 13 with other documents in the Shared Documents list. (The exact number of documents is not important.)
 
-15. Display the expense report summary application page by opening the following URL in a Web browser: **http://***SystemName***/_layouts/ExpenseReport/ApplicationPage1.aspx**.
+15. Display the expense report summary application page by opening the following URL in a Web browser: **http://**_SystemName_**/_layouts/ExpenseReport/ApplicationPage1.aspx**.
 
      The expense report summary page lists all of the expense reports that exceeded the allocated amount, the amount they exceeded it by, and the total amount for all reports.
 

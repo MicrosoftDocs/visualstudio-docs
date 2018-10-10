@@ -69,7 +69,7 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
 > [!WARNING]
 >  Tier interaction profiling (TIP) data can be collected using [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vs_pro_current_short](../includes/vs-pro-current-short-md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] and [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
 >   
->  To collect TIP data on Windows 8 or Windows Server 2012, you must use the the instrumentation (**/trace**) option.  
+>  To collect TIP data on Windows 8 or Windows Server 2012, you must use the instrumentation (**/trace**) option.  
   
  To collect tier interaction data with sampling data:  
   
@@ -81,14 +81,14 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
   
  To collect tier interaction data with .NET memory data:  
   
- **vsperfaspnetcmd /memory**[**:lifetime**] **/tip***websiteUrl*  
+ **vsperfaspnetcmd /memory**[**:lifetime**] **/tip**_websiteUrl_  
   
 ##  <a name="UsingNoWait"></a> Using the /NoWait option  
  By default, the command prompt does not return after a **vsperfaspnetcmd** command. You can use the following syntax option to force the command prompt to return. You can then perform other operations in the command prompt window. To end profiling, use the **/shutdown** option in a separate **vsperfaspnetcmd** command.  
   
  To begin profiling:  
   
- **vsperfaspnetcmd** [*/Options*] **/nowait***websiteUrl*  
+ **vsperfaspnetcmd** [*/Options*] **/nowait**_websiteUrl_  
   
  To end profiling:  
   

@@ -1,5 +1,5 @@
 ---
-title: Working with Python Tutorial, Step 2, writing and running code
+title: Working with Python Tutorial, Step 2, write and run code
 description: Step 2 of a core walkthrough of Python capabilities in Visual Studio, including editing code and running a project.
 ms.date: 06/26/2018
 ms.prod: visual-studio-dev15

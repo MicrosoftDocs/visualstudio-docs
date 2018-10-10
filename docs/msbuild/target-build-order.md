@@ -1,7 +1,7 @@
 ---
 title: "Target Build Order | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/06/2018"
+ms.date: "09/04/2018"
 ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
@@ -50,9 +50,9 @@ Targets must be ordered if the input to one target depends on the output of anot
 <Project DefaultTargets="Clean;Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
 ```  
   
- You can override the default targets by using the **/target** switch on the command line. The following example specifies that the `Build` target runs, and then the `Report` target runs. When you specify targets in this way, any default targets are ignored.  
+ You can override the default targets by using the **-target** switch on the command line. The following example specifies that the `Build` target runs, and then the `Report` target runs. When you specify targets in this way, any default targets are ignored.  
   
- `msbuild /target:Build;Report`  
+ `msbuild -target:Build;Report`  
   
  If both initial targets and default targets are specified, and if no command-line targets are specified, MSBuild runs the initial targets first, and then runs the default targets.  
   
@@ -102,13 +102,13 @@ Targets must be ordered if the input to one target depends on the output of anot
   
 1.  `InitialTargets` targets are run.  
   
-2.  Targets specified on the command line by the **/target** switch are run. If you specify no targets on the command line, then the `DefaultTargets` targets are run. If neither is present, then the first target encountered is run.  
+2.  Targets specified on the command line by the **-target** switch are run. If you specify no targets on the command line, then the `DefaultTargets` targets are run. If neither is present, then the first target encountered is run.  
   
 3.  The `Condition` attribute of the target is evaluated. If the `Condition` attribute is present and evaluates to `false`, the target isn't executed and has no further effect on the build.
 
     Targets that list the conditional target in `BeforeTargets` or `AfterTargets` still execute in the prescribed order
   
-4.  Before a target is executed, its `DependsOnTargets` targets are run.  
+4.  Before a target is executed or skipped, if its `Condition` attribute was absent or did not evaluate to `false`, its `DependsOnTargets` targets are run.  
   
 5.  Before a target is executed or skipped, any target that lists it in a `BeforeTargets` attribute is run.  
   

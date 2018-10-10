@@ -11,7 +11,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Setting a Background Image on a Diagram
-In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
+In Visual Studio Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
 
 ## Setting the background image
 

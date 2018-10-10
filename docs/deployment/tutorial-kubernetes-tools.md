@@ -34,8 +34,7 @@ To leverage this new functionality, you'll need:
     1.  Helm CLI installed on your development workstation. For more information
         see [Installing Helm](https://github.com/kubernetes/helm/blob/master/docs/install.md).
 
-    1.  Helm configured against your AKS cluster. For more information on how to
-        do this, see [How to configure Helm](/azure/aks/kubernetes-helm#configure-helm).
+    1.  Helm configured against your AKS cluster by using the `helm init` command. For more information on how to do this, see [How to configure Helm](/azure/aks/kubernetes-helm#configure-helm).
 
 ## Create a new Kubernetes project
 
@@ -79,7 +78,7 @@ With all these files in place, you can use the Visual Studio IDE to write and de
 
 Once you have your code running the way you want, you can publish directly from Visual Studio to an AKS cluster.
 
-To do this, you first need to set up a publish profile that publishes your container image to Azure Container Registry (ACR). Then AKS can pull your container image from ACR and deploy it into the cluster.
+To do this, you first need to double-check that you've installed everything as described in the [Prerequisites](#prerequisities) section under the item for publishing to AKS, and run through all the command line steps given in the links. Then, set up a publish profile that publishes your container image to Azure Container Registry (ACR). Then AKS can pull your container image from ACR and deploy it into the cluster.
 
 1. In **Solution Explorer**, right-click on your *project* and choose **Publish**.
 

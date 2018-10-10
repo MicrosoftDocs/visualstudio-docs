@@ -44,7 +44,7 @@ To give you a high-level visual overview of Visual Studio, the following image s
 
 - The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
 
-- [Team Explorer](/vsts/user-guide/work-team-explorer) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/overview).
+- [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts).
 
 ### Popular productivity features
 
@@ -92,7 +92,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![Go to Definition](../ide/media/go-to-definition-menu.png)
 
-- [Peek To Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
+- [Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 
    The **Peek Definition** window shows the definition of a method or type without actually opening a separate file.
 
@@ -267,6 +267,8 @@ If you're ready to dive into more coding, one of the following language-specific
 - [Use Visual Studio to create your first Python web app](quickstart-python.md)
 
 - [Use Visual Studio to create your first C# web app](quickstart-aspnet-core.md)
+
+- [Use Visual Studio to create your first F# web app](quickstart-fsharp.md)
 
 - [Use Visual Studio to create your first Node.js app](quickstart-nodejs.md)
 

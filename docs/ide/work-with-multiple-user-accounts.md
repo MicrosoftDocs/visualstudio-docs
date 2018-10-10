@@ -54,9 +54,9 @@ Azure AD enables support for end-user single Sign-In in ASP.NET MVC web applicat
 
 For more information about the different kinds of authentication in ASP.NET, see [Create ASP.NET web projects in Visual Studio 2013](http://www.asp.net/visual-studio/overview/2013/creating-web-projects-in-visual-studio#orgauth) (the information about authentication is still relevant for current versions of Visual Studio).
 
-### Access your Visual Studio Team Services account
+### Access your Team Foundation Server (TFS) organization
 
-From the main menu, choose **Team** > **Connect to Team Foundation Server** to bring up the **Team Explorer** window. Click on **Select Team Projects**, and then in the list box under **Select a Team Foundation Server**, you should see the URL for your Visual Studio Team Services account. When you select the URL you will be logged in without having to re-enter your credentials.
+From the main menu, choose **Team** > **Connect to Team Foundation Server** to bring up the **Team Explorer** window. Click on **Select Projects**, and then in the list box under **Select a Team Foundation Server**, you should see the URL for your TFS organization. When you select the URL you will be logged in without having to re-enter your credentials.
 
 ## Add a second user account to Visual Studio
 

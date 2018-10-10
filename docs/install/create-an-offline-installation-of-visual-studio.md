@@ -1,5 +1,5 @@
 ---
-title: "Create an Offline Installation of Visual Studio"
+title: "Create an offline installation of Visual Studio"
 description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
 ms.custom: ""
 ms.date: 08/28/2018
@@ -28,7 +28,7 @@ For example, you might have an unreliable internet connection or one that has lo
 
 ## Use the "Download all, then install" feature
 
-[**New in 15.8**](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&view=vs-2017#install
+[**New in 15.8**](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017#install
 ): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
 
    ![The "Download all, then install" option](media/download-all-then-install.png)
@@ -54,6 +54,9 @@ Start by downloading the Visual Studio bootstrapper for your chosen edition of V
 ### Step 2 - Create a local install cache
 
 You must have an internet connection to complete this step.
+
+> [!IMPORTANT]
+> If you install Visual Studio Community 2017, you must activate it within 30 days of installation. This requires an internet connection.
 
 Open a command prompt and use one of the commands from the following examples. The examples that are listed here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
 

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2112: Secured types should not expose fields
+
 |||
 |-|-|
 |TypeName|SecuredTypesShouldNotExposeFields|
@@ -28,13 +29,13 @@ ms.workload:
 ## Cause
  A public or protected type contains public fields and is secured by a [Link Demands](/dotnet/framework/misc/link-demands).
 
-## Rule Description
+## Rule description
  If code has access to an instance of a type that is secured by a link demand, the code does not have to satisfy the link demand to access the type's fields.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, make the fields nonpublic and add public properties or methods that return the field data. LinkDemand security checks on types protect access to the type's properties and methods. However, code access security does not apply to fields.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Both for security issues and for good design, you should fix violations by making the public fields nonpublic. You can suppress a warning from this rule if the field does not hold information that should remain secured, and you do not rely on the contents of the field.
 
 ## Example
@@ -44,25 +45,30 @@ ms.workload:
 
  [!code-csharp[FxCop.Security.LinkDemandOnField#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_1.cs)]
 
-## Example
+## Example 1
  The application cannot create an instance because of the link demand that protects the secured type. The following class enables the application to obtain an instance of the secured type.
 
  [!code-csharp[FxCop.Security.LDOnFieldsDistributor#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_2.cs)]
 
-## Example
+## Example 2
  The following application illustrates how, without permission to access a secured type's methods, code can access its fields.
 
  [!code-csharp[FxCop.Security.TestLinkDemandOnFields#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_3.cs)]
 
- This example produces the following output.
+This example produces the following output:
 
- **Creating an instance of SecuredTypeWithFields.**
-**Secured type fields: 22, 33**
-**Changing secured type's field...**
-**Cached Object fields: 99, 33**
-## Related Rules
- [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
+```txt
+Creating an instance of SecuredTypeWithFields.
+Secured type fields: 22, 33
+Changing secured type's field...
+Cached Object fields: 99, 33
+```
 
-## See Also
- [Link Demands](/dotnet/framework/misc/link-demands)
- [Data and Modeling](/dotnet/framework/data/index)
+## Related rules
+
+- [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
+
+## See also
+
+- [Link Demands](/dotnet/framework/misc/link-demands)
+- [Data and Modeling](/dotnet/framework/data/index)

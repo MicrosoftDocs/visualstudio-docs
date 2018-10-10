@@ -25,7 +25,7 @@ The scenarios discussed in this topic are not your only choices, but they are pr
 
 ### Make your components independent
 
-Once you identify and populate a component, assign a `GUID`, and deploy the component, you cannot change its composition. If you do change a component's composition, the resulting component must be a new component with a new `GUID`. Given these facts, the greatest versioning flexibility is afforded by making each component independent, self-reliant unit. For more information about rules governing components, see [Changing the Component Code](/windows/desktop/Msi/changing-the-component-code) and [What Happens if the Component Rules Are Broken?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx).
+Once you identify and populate a component, assign a `GUID`, and deploy the component, you cannot change its composition. If you do change a component's composition, the resulting component must be a new component with a new `GUID`. Given these facts, the greatest versioning flexibility is afforded by making each component independent, self-reliant unit. For more information about rules governing components, see [Changing the Component Code](/windows/desktop/Msi/changing-the-component-code) and [What Happens if the Component Rules Are Broken?](/windows/desktop/Msi/what-happens-if-the-component-rules-are-broken).
 
 ### Do not mix shared and private resources in a component
 
@@ -71,7 +71,7 @@ In this case, the VSPackage is a managed VSPackage installed in the global assem
 
 ![VS Side-by-Side VS Package Update installer](../../extensibility/internals/media/vs_sbys_packageupdate.gif "VS_SbyS_PackageUpdate")
 
-For more information on deployment of side-by-side assemblies, see [Simplifying Deployment and Solving DLL Hell with the .NET Framework](http://msdn.microsoft.com/library/ms973843.aspx).
+For more information on deployment of side-by-side assemblies, see [Simplifying Deployment and Solving DLL Hell with the .NET Framework](https://msdn.microsoft.com/library/ms973843.aspx).
 
 ## See Also
 

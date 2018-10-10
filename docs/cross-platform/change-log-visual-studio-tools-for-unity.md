@@ -14,6 +14,33 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
 
+## 3.8.0.7
+ Released September 20, 2018
+ 
+### Bug fixes
+
+-   **Debugger:**
+
+    -   Fixed a deadlock in the library used to communicate with Unity’s debugger engine, making Visual Studio or Unity freeze, especially when hitting ‘Attach to Unity’ or restarting game.
+
+## 3.8.0.6
+ Released August 27, 2018
+ 
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed reloading of projects and solution.
+
+## 3.8.0.5
+ Released August 20, 2018
+ 
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed project monitoring subscription disposal.
+
 ## 3.8.0.4
  Released August 14, 2018
  

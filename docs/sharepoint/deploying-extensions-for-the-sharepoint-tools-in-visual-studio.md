@@ -128,7 +128,7 @@ The following procedures describe how to add entries to the .vsixmanifest file f
 
 6.  In **Solution Explorer**, open the shortcut menu for your Project Template or Item Template project, and then choose **Unload Project**.
 
-7.  Open the shortcut menu for the project node again, and then choose **Edit***YourTemplateProjectName***.csproj** or **Edit***YourTemplateProjectName***.vbproj**.
+7.  Open the shortcut menu for the project node again, and then choose **Edit**_YourTemplateProjectName_**.csproj** or **Edit**_YourTemplateProjectName_**.vbproj**.
 
 8.  Locate the following `VSTemplate` element in the project file.
 

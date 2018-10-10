@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
 
-Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, start the new Visual Studio Installer and make the changes you want.
+Not only have we made it easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, start the new Visual Studio Installer and make the changes you want.
 
 Here's how.
 

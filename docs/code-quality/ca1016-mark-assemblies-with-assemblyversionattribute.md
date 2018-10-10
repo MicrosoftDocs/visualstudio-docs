@@ -14,10 +14,15 @@ ms.assetid: 4340aed8-d92b-4cde-a398-cb6963c6da5a
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CPP
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1016: Mark assemblies with AssemblyVersionAttribute
+
 |||
 |-|-|
 |TypeName|MarkAssembliesWithAssemblyVersion|
@@ -26,25 +31,27 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- The assembly does not have a version number.
 
-## Rule Description
- The identity of an assembly is composed of the following information:
+The assembly does not have a version number.
 
--   Assembly name
+## Rule description
 
--   Version number
+The identity of an assembly is composed of the following information:
 
--   Culture
+- Assembly name
 
--   Public key (for strongly named assemblies).
+- Version number
 
- The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] uses the version number to uniquely identify an assembly, and to bind to types in strongly named assemblies. The version number is used together with version and publisher policy. By default, applications run only with the assembly version with which they were built.
+- Culture
 
-## How to Fix Violations
+- Public key (for strongly named assemblies).
+
+The .NET Framework uses the version number to uniquely identify an assembly, and to bind to types in strongly named assemblies. The version number is used together with version and publisher policy. By default, applications run only with the assembly version with which they were built.
+
+## How to fix violations
  To fix a violation of this rule, add a version number to the assembly by using the <xref:System.Reflection.AssemblyVersionAttribute?displayProperty=fullName> attribute. See the following example.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule for assemblies that are used by third parties, or in a production environment.
 
 ## Example
@@ -54,6 +61,7 @@ ms.workload:
  [!code-vb[FxCop.Design.AssembliesVersion#1](../code-quality/codesnippet/VisualBasic/ca1016-mark-assemblies-with-assemblyversionattribute_1.vb)]
  [!code-cpp[FxCop.Design.AssembliesVersion#1](../code-quality/codesnippet/CPP/ca1016-mark-assemblies-with-assemblyversionattribute_1.cpp)]
 
-## See Also
- [Assembly Versioning](/dotnet/framework/app-domains/assembly-versioning)
- [How to: Create a Publisher Policy](/dotnet/framework/configure-apps/how-to-create-a-publisher-policy)
+## See also
+
+- [Assembly Versioning](/dotnet/framework/app-domains/assembly-versioning)
+- [How to: Create a Publisher Policy](/dotnet/framework/configure-apps/how-to-create-a-publisher-policy)

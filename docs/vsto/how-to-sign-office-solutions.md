@@ -32,7 +32,7 @@ ms.workload:
   
 ### To sign an Office solution by using a certificate  
   
-1.  On the **Project** menu, click *SolutionName***Properties**.  
+1.  On the **Project** menu, click _SolutionName_**Properties**.  
   
 2.  Click the **Signing** tab.  
   

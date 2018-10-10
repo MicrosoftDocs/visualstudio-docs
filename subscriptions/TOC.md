@@ -17,7 +17,7 @@
 ## Using Subscriber Benefits
 ### Tools
 #### [Visual Studio IDE ](vs-ide-benefit.md)
-#### [Visual Studio Team Services](vs-vsts.md)
+#### [Azure DevOps](vs-azure-devops.md)
 #### [Azure Credit](vs-azure.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
 #### [Parasoft ](vs-parasoft.md)
@@ -25,13 +25,14 @@
 #### [Enterprise Mobility & Security](vs-ems.md)
 #### [Windows Developer Account](vs-windows-dev.md)
 #### [Office 365 Developer subscription](vs-office-dev.md)
+#### [Office 365 subscription](vs-office365.md)
 #### [Power BI Pro ](vs-pbi.md)
 #### [Modern Requirements4TFS](vs-modernreq.md)
 #### [Azure Pay-As-You-Go](vs-azure-payg.md)
 ### [Professional Development](professional-development.md)
 #### [LinkedIn Learning](vs-linkedin-learning.md)
 #### [DataCamp](vs-datacamp.md)
-#### [Opsgility](vs-opsgility.md)
+#### [Skill Me Up](vs-opsgility.md)
 #### [Pluralsight](vs-pluralsight.md)
 #### [Xamarin University Training](vs-xamarin.md)
 #### [MSDN Magazine subscription](vs-msdn.md)
@@ -49,7 +50,7 @@
 ##### [VLSC Admin Migration FAQs](vlsc-admin-faq.md)
 ##### Onboarding Your Organization
 ###### [Post Migration Onboarding](post-migration-onboarding.md)
-###### [Open, Open License Migration](open-migration.md)
+###### [Open and Open License Migration](open-migration.md)
 ###### [Onboarding Email Communications](volume-license-onboarding-email.md)
 ###### [Find Your PCN](find-pcn.md)
 ###### [Find Your Primary Contact](find-primary-contact.md)

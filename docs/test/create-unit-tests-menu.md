@@ -1,16 +1,16 @@
 ---
-title: "Create unit test method stubs in Visual Studio"
+title: Create unit test method stubs
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit tests"
+author: gewarren
 ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
-author: gewarren
 ---
 # Create unit test method stubs with the Create Unit Tests command
 

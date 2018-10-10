@@ -151,7 +151,7 @@ private:
       if (  !toolBar->Buttons->IsReadOnly )
       {
          
-         // If toolBarButton1 in in the collection, remove it.
+         // If toolBarButton1 is in the collection, remove it.
          if ( toolBar->Buttons->Contains( toolBarButton1 ) )
          {
             toolBar->Buttons->Remove( toolBarButton1 );

@@ -28,21 +28,21 @@ ms.workload:
 ## Cause
  A name of a namespace, a type, or a viritual or interface member matches a reserved keyword in a programming language.
 
-## Rule Description
+## Rule description
  Identifiers for namespaces, types, and virtual and interface members should not match keywords that are defined by languages that target the common language runtime. Depending on the language that is used and the keyword, compiler errors and ambiguities can make the library difficult to use.
 
  This rule checks against keywords in the following languages:
 
--   Visual Basic
+- Visual Basic
 
--   C#
+- C#
 
--   C++/CLI
+- C++/CLI
 
  Case-insensitive comparison is used for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] keywords, and case-sensitive comparison is used for the other languages.
 
-## How to Fix Violations
+## How to fix violations
  Select a name that does not appear in the list of keywords.
 
-## When to Suppress Warnings
- You can suppress a warning from this rule if you are convinced that the identifier will not confuse users of the API, and that  the library is usable in all available languages in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+## When to suppress warnings
+ You can suppress a warning from this rule if you are convinced that the identifier will not confuse users of the API, and that  the library is usable in all available languages in the .NET Framework.

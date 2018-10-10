@@ -701,6 +701,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/how-to-use-intellitrace-step-back.md",
+            "redirect_url": "/visualstudio/debugger/view-historical-application-state",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/deployment/installshield-limited-edition.md",
             "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components",
             "redirect_document_id": false
@@ -713,6 +718,11 @@
         {
             "source_path": "docs/deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md",
             "redirect_url": "/visualstudio/deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/deploy-iis-with-web-deploy.md",
+            "redirect_url": "/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later",
             "redirect_document_id": false
         },
         {
@@ -6678,6 +6688,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "subscriptions/vs-vsts.md",
+            "redirect_url": "/visualstudio/subscriptions/vs-azure-devops",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
             "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
             "redirect_document_id": false
@@ -6795,6 +6810,16 @@
         {
             "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md",
             "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-%2215%22.md",
+            "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017?view=vs-2015",
             "redirect_document_id": false
         }
     ]
