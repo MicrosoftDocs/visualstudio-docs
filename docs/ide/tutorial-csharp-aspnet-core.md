@@ -192,4 +192,4 @@ Congratulations on completing this tutorial! We hope you learned a little bit ab
 
 ## See also
 
-[Publish your web app to Azure App Service by using Visual Studio](..//deployment/quickstart-deploy-to-azure.md)
+[Publish your web app to Azure App Service by using Visual Studio](../deployment/quickstart-deploy-to-azure.md)
