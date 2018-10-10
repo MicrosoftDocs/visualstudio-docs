@@ -15,7 +15,7 @@ ms.workload:
 
 # Manage required packages with requirements.txt
 
-If you're sharing a project with others, using a build system, or plan to [publish it to Microsoft Azure](python-azure-cloud-service-project-template.md), you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages.
+If you're sharing a project with others, using a build system, or plan to deploy it to any other location where you need to restore an environment, you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages.
 
 Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but Visual Studio provides specific support for *requirements.txt*:
 
