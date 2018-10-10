@@ -1,4 +1,4 @@
-- name: Azure Development in Visual Studio
+- name: Azure Development with Visual Studio
   href: index.yml
   expanded: true
 - name: Connect to Azure Services
