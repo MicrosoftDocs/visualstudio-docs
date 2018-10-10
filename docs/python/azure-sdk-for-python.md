@@ -32,9 +32,7 @@ You can also follow [Install Python and the SDK](https://docs.microsoft.com/azur
 
 ## Documentation
 
-Documentation can be found on [azure-sdk-for-python.readthedocs.org](https://docs.microsoft.com/en-us/python/azure/?view=azure-python).
-
-The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials:
+The [Azure SDK for Python Developer Center](https://docs.microsoft.com/python/azure/?view=azure-python) also has a number of helpful resources, including a number of tutorials:
 
 - Creating web apps on Azuyre App Service on Linux(/azure/app-service/containers/quickstart-python).
 - [Blob storage](/azure/storage/blobs/storage-quickstart-blobs-python)
