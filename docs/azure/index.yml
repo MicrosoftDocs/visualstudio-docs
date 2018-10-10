@@ -76,7 +76,7 @@ sections:
 - title: Azure Cloud Services
   items:
   - type: paragraph
-    text: 'Azure Cloud Services is a general-purpose technology for creating generic Azure services, with access to Azure storage and other Azure resources. If you're starting a new project, consider using Azure App Services or a service more specific to your scenario.
+    text: 'Azure Cloud Services is a general-purpose technology for creating generic Azure services, with access to Azure storage and other Azure resources. If you're starting a new project, consider using Azure App Services or a service more specific to your scenario.'
   - type: list
     style: cards
     className: cardsM
@@ -134,7 +134,7 @@ sections:
     style: icon48
     items: 
     - image:
-        src: https://docs.microsoft.com/media/index/azure-resource-manager.svg 
+        src: https://docs.microsoft.com/azure/azure-resource-manager/media/index/azure-resource-manager.svg 
       text: Azure Resource Group
       href: https://docs.microsoft.com/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy
     - image: 
