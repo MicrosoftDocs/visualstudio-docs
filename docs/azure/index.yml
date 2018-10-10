@@ -38,7 +38,7 @@ sections:
 - title: Azure App Services and Azure Functions
   items:
   - type: paragraph
-    text: ''
+    text: 'Tutorials for creating web apps and serverless functions hosted in Azure'
   - type: list
     style: cards
     className: cardsM
@@ -76,7 +76,7 @@ sections:
 - title: Azure Cloud Services
   items:
   - type: paragraph
-    text: 'Azure Cloud Services is a general-purpose technology for creating generic Azure services, with access to Azure storage and other Azure resources. If you're starting a new project, consider using Azure App Services or a service more specific to your scenario.'
+    text: 'Azure Cloud Services is a general-purpose technology for creating generic Azure services, with access to Azure storage and other Azure resources.'
   - type: list
     style: cards
     className: cardsM
