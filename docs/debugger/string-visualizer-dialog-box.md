@@ -25,23 +25,23 @@ ms.workload:
 ---
 # View strings in a string visualizer in Visual Studio
 
-While you are debugging in Visual Studio, you can view strings with the built-in string visualizer. The string visualizer shows strings that are too long for a data tip or debugger window, and can help you identify malformed strings.
+While you are debugging in Visual Studio, you can view strings with the built-in string visualizer. The string visualizer shows strings that are too long for a data tip or debugger window. It can help you identify malformed strings.
 
-The standard built-in string visualizer includes plain text, XML, HTML, and JSON options. You can also open visualizers for a few other types, such as WPF objects, from the **Autos** or other debugger windows.
+The built-in string visualizer includes plain text, XML, HTML, and JSON options. You can also open visualizers for a few other types, such as WPF objects, from the **Autos** or other debugger windows.
 
 ## Open a string visualizer
 
-To open the string visualizer, while paused during debugging, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") while hovering over a variable containing a plain text, XML, HTML, or JSON string value. You must be paused in the debugger to see the magnifying glass icon.
+To open the string visualizer, you must be paused during debugging. Hover over a variable that has a plain text, XML, HTML, or JSON string value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon").
 
 ![Open a string visualizer](../debugger/media/dbg-tips-string-visualizers.png "Open string visualizer")
 
 ## View string visualizer data
 
-In the string visualizer, the **Expression** field shows the variable or expression you are hovering over.
+In the string visualizer, the **Expression** field shows the variable or expression you're hovering over.
 
 The **Value** field shows the string value. The **Text Visualizer** shows plain text.
 
-A blank **Value** means that the chosen visualizer cannot recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string. To view the unrecognized strings, choose the **Text Visualizer**.
+A blank **Value** means that the chosen visualizer can't recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string. To view the unrecognized strings, choose the **Text Visualizer**.
 
 ### View JSON string data
 

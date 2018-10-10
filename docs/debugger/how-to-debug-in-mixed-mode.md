@@ -21,18 +21,20 @@ ms.workload:
   - "multiple"
 ---
 # How to: Debug in mixed mode
-The following procedures describe how to debug managed and native code together, also known as mixed-mode debugging. There are two different mixed-mode debugging scenarios, depending on whether a DLL and its calling app are written in native or managed code:  
+The following procedures describe how to debug managed and native code together, also known as mixed-mode debugging. You can enable both managed and native debuggers in an app or DLL project's **Property** pages. The settings differ depending on whether you start debugging from a managed project or from a native project. 
+
+There are two different mixed-mode debugging scenarios, depending on whether a DLL and its calling app are written in native or managed code:  
   
-1. The app that calls your DLL is written in managed code, and your DLL is in native code. For a tutorial that walks you through this scenario, see [Debug managed and native code](../debugger/how-to-debug-managed-and-native-code.md).
+1. The app that calls your DLL is written in managed code, and your DLL is in native code. For a tutorial that walks you through this scenario in more detail, see [Debug managed and native code](../debugger/how-to-debug-managed-and-native-code.md).
    
-2. The app that calls your DLL is written in native code, and your DLL is managed code. You can debug both by enabling both managed and native debuggers in the app project's **Property** pages. The settings differ depending on whether you start debugging from the managed DLL project or from the native calling app project. 
+2. The app that calls your DLL is written in native code, and your DLL is managed code. 
   
-If you don't have access to the calling app's project, you can debug the DLL from the DLL project. You don't need mixed mode to debug just the DLL project. For more information, see [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md). 
+If you don't have access to a calling app's project, you can debug a DLL from the DLL project. You don't need mixed mode to debug just the DLL project. For more information, see [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md). 
 
 > [!NOTE]
 > The dialog boxes and commands you see might differ from the ones in this article, depending on your Visual Studio settings or edition. To change your settings, choose **Tools** > **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
-## To enable mixed-mode debugging for a C++ calling app  
+## To enable mixed-mode debugging for a C++ app  
   
 1. Select the C++ project in **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    
@@ -44,7 +46,7 @@ If you don't have access to the calling app's project, you can debug the DLL fro
    
    ![Enable mixed mode debugging](../debugger/media/dbg-mixed-mode-from-native.png "Enable mixed mode debugging")
 
-## To enable mixed-mode debugging for a C# or VB calling app  
+## To enable mixed-mode debugging for a C# or VB app  
   
 1. Select the C# or VB project in **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    

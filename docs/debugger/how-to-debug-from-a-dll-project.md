@@ -23,11 +23,11 @@ ms.workload:
 ---
 # How to: Debug from a DLL project in Visual Studio
 
-You can't debug DLLs directly, but one way to debug a DLL project is to specify the calling app in the DLL project properties. Then you can start debugging from the DLL project itself. For this method to work, the app must call the DLL in the same location as the one you configured. If the app finds and loads a different version of the DLL, that DLL won't contain your breakpoints. For other methods of debugging DLLs, see [Debugging DLL projects](../debugger/debugging-dll-projects.md).
+You can't debug DLLs directly, but one way to debug a DLL project is to specify the calling app in the DLL project properties. Then you can start debugging from the DLL project itself. For this method to work, the app must call the DLL in the same location as the one you configured. If the app finds and loads a different version of the DLL, that version won't contain your breakpoints. For other methods of debugging DLLs, see [Debugging DLL projects](../debugger/debugging-dll-projects.md).
   
 If a managed DLL is called by native code or vice versa and you want to debug both, you can specify that in the project properties. C++ property pages differ from C# and Visual Basic property pages. For more information, see [How to: Debug in mixed mode](../debugger/how-to-debug-in-mixed-mode.md).   
 
-## To specify the calling application for a C++ DLL project  
+## To specify the calling app for a C++ DLL project  
   
 1. Select the C++ DLL project in **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    
@@ -37,7 +37,7 @@ If a managed DLL is called by native code or vice versa and you want to debug bo
    
 1. In the **Debugger to launch** list, choose either **Local Windows Debugger** or **Remote Windows Debugger**.  
    
-1. In the **Command** or **Remote Command** box, add the fully-qualified path and filename of the calling app, such as an *.exe* file.
+1. In the **Command** or **Remote Command** box, add the fully qualified path and filename of the calling app, such as an *.exe* file.
    
    ![Debug Properties window](../debugger/media/dbg-debugging-properties-dll.png "Debug Properties window")  
    
@@ -47,23 +47,21 @@ If a managed DLL is called by native code or vice versa and you want to debug bo
    
    ![C++ Debug Properties window](../debugger/media/dbg-mixed-mode-from-native.png "C++ Debug Properties window")
 
-## To specify the calling application for a C# or Visual Basic DLL project  
+## To specify the calling app for a C# or Visual Basic DLL project  
   
-1. Right-click the DLL project in the **Solution Explorer** and select **Properties**, and then select the **Debug** tab.
+1. Select the C# or VB DLL project in **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    
 1. Make sure that the **Configuration** field at the top of the window is set to **Debug**.
    
 1. Under **Start action**:
    
-   - For .NET Framework, select **Start external program**, and add the fully-qualified path and name of the calling app.
+   - For .NET Framework, select **Start external program**, and add the fully qualified path and name of the calling app.
      
-   - You can also call an app as a URL. You might want to do this if you are debugging a managed DLL used by a local ASP.NET application.  
-     
-     Select **Start browser with URL** and fill in the URL.
+   - You can also specify the calling app, such as a local ASP.NET app, as a URL. Select **Start browser with URL** and fill in the URL.
    
-   - For .NET Core, select **Executable** from the **Launch** dropdown, and then add the fully-qualified path and name of the calling app in the **Executable** field. 
+   - For .NET Core, select **Executable** from the **Launch** dropdown, and then add the fully qualified path and name of the calling app in the **Executable** field. 
    
-1. Add any necessary command line arguments in the **Command line arguments** or **Application arguments** field.
+1. Add any necessary command-line arguments in the **Command line arguments** or **Application arguments** field.
    
    ![C# Debug Properties window](../debugger/media/dbg-debugging-properties-dll-csharp.png "C# Debug Properties window") 
    
@@ -77,7 +75,7 @@ If a managed DLL is called by native code or vice versa and you want to debug bo
 
 1. Make sure the **Solutions Configuration** field is set to **Debug**, and press **F5**, click the green **Start** arrow, or select **Debug** > **Start Debugging**.
 
-If debugging does not hit your breakpoints, make sure that your DLL output (by default, the **\<project>\Debug** folder) is in the location that the calling app is calling.
+If debugging does not hit your breakpoints, make sure that your DLL output (by default, the *\<project>\Debug* folder) is in the location that the calling app is calling.
   
 ## See also  
  [Debugging DLL projects](../debugger/debugging-dll-projects.md)   
