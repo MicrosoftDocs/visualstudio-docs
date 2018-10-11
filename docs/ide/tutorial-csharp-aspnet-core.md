@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
-In this tutorial for C# development with ASP.NET Core using Visual Studio, you will learn how you can create, make changes to and run a C# ASP.NET Core web app. You will also get to explore some features of the Visual Studio IDE.
+In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, make changes to it, explore some features of the IDE, and then run the app.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -130,7 +130,7 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
     ![Change the text in the About.cshtml file](../ide/media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code-changed.png)
 
-1. Choose **About.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following procedure:
+1. Choose **About.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following shortcut:
 
    Choose any of the grayed-out `using` directives and a [Quick Actions](../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then choose **Remove Unnecessary Usings**.
 
