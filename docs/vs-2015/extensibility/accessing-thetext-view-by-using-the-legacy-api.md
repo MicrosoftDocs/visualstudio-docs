@@ -1,7 +1,7 @@
 ---
 title: "Accessing theText View by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

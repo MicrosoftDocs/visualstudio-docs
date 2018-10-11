@@ -1,7 +1,7 @@
 ---
 title: "CA1051: Do not declare visible instance fields | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

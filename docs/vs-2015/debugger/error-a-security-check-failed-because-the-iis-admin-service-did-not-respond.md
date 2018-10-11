@@ -1,7 +1,7 @@
 ---
 title: "Error: A Security Check Failed Because the IIS Admin Service Did Not Respond | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

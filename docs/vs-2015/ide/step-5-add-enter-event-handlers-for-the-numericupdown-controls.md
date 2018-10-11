@@ -1,7 +1,7 @@
 ---
 title: "Step 5: Add Enter Event Handlers for the NumericUpDown Controls | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
