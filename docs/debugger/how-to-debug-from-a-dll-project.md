@@ -59,7 +59,7 @@ Native and managed DLL projects have different settings to specify calling apps.
      
    - Or, select **Start browser with URL** and fill in the URL of a local ASP.NET app. 
    
-   - For .NET Core DLLs, select **Executable** from the **Launch** dropdown, and then add the fully qualified path and name of the calling app in the **Executable** field. 
+   - For .NET Core DLLs, the **Debug** Properties page is different. Select **Executable** from the **Launch** dropdown, and then add the fully qualified path and name of the calling app in the **Executable** field. 
    
 1. Add any necessary command-line arguments in the **Command line arguments** or **Application arguments** field.
    

@@ -23,11 +23,11 @@ ms.workload:
 # How to: Debug in mixed mode
 The following procedures describe how to enable debugging for managed and native code together, also known as mixed-mode debugging. There are two mixed-mode debugging scenarios:  
   
-- The app that calls the DLL is written in native code, and the DLL is managed. 
+- The app that calls a DLL is written in native code, and the DLL is managed. 
   
-- The app that calls the DLL is written in managed code, and the DLL is in native code. For a tutorial that walks you through this scenario in more detail, see [Debug managed and native code](../debugger/how-to-debug-managed-and-native-code.md).
+- The app that calls a DLL is written in managed code, and the DLL is in native code. For a tutorial that walks you through this scenario in more detail, see [Debug managed and native code](../debugger/how-to-debug-managed-and-native-code.md).
    
-You can enable both managed and native debuggers in the calling app's project **Property** pages. The settings differ between native and managed apps. 
+You can enable both managed and native debuggers in the calling app project's **Property** pages. The settings differ between native and managed apps. 
 
 If you don't have access to a calling app's project, you can debug the DLL from the DLL project. You don't need mixed mode to debug just the DLL project. For more information, see [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md). 
 
@@ -48,7 +48,7 @@ If you don't have access to a calling app's project, you can debug the DLL from 
 
 ## Enable mixed-mode debugging for a managed calling app  
   
-1. Select the C# or VB project in **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1. Select the C# or Visual Basic project in **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    
 1. Select the **Debug** tab, and then select **Enable native code debugging**.
    
