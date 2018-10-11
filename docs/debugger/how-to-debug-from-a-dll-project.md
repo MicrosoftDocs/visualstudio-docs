@@ -46,8 +46,6 @@ Specifying a calling app differs between C/C++ (native code) property pages and 
 1. Add any necessary program arguments to the **Command Arguments** box.  
    
 1. Select **OK**.
-   
-   ![C++ Debug Properties window](../debugger/media/dbg-mixed-mode-from-native.png "C++ Debug Properties window")
 
 ## Specify the calling app for a C# or Visual Basic (managed) DLL project  
   
@@ -59,7 +57,7 @@ Specifying a calling app differs between C/C++ (native code) property pages and 
    
    - For .NET Framework DLLs, select **Start external program**, and add the fully qualified path and name of the calling app.
      
-   - Or, select **Start browser with URL** and fill in the URL of a calling app, such as a local ASP.NET app. 
+   - Or, select **Start browser with URL** and fill in the URL of a local ASP.NET app. 
    
    - For .NET Core DLLs, select **Executable** from the **Launch** dropdown, and then add the fully qualified path and name of the calling app in the **Executable** field. 
    

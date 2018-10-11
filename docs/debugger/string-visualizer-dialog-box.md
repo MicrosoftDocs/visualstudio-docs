@@ -37,11 +37,11 @@ To open the string visualizer, you must be paused during debugging. Hover over a
 
 ## View string visualizer data
 
-In the string visualizer, the **Expression** field shows the variable or expression you're hovering over.
+In the string visualizer window, the **Expression** field shows the variable or expression you're hovering over, and the **Value** field shows the string value. 
 
-The **Value** field shows the string value. The **Text Visualizer** shows plain text.
+A blank **Value** means that the chosen visualizer can't recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string. 
 
-A blank **Value** means that the chosen visualizer can't recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string. To view the unrecognized strings, choose the **Text Visualizer**.
+To view strings that the chosen visualizer can't recognize, choose the **Text Visualizer**. The **Text Visualizer** shows plain text.
 
 ### View JSON string data
 
