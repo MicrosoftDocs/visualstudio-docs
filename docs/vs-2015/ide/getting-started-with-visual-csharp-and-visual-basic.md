@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "C# tutorial"
   - "Visual Basic tutorial"

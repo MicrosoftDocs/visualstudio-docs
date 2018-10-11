@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML, using models"
 ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54

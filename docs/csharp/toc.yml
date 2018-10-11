@@ -1,0 +1,29 @@
+- name: Visual Studio C# documentation
+  href: ide/index.md
+- name: Overview
+  expanded: true
+  items:
+    - name: About Visual Studio 2017
+      href: ide/visual-studio-ide.md
+    - name: About the code editor
+      href: ide/quickstart-editor.md
+    - name: About projects and solutions
+      href: ide/quickstart-projects-solutions.md
+    - name: More Visual Studio features
+      href: ide/advanced-feature-overview.md
+- name: Quickstarts
+  items:
+  - name: Visual Studio orientation
+    href: ide/quickstart-ide-orientation.md
+  - name: "C#: Create a web app"
+    href: ide/quickstart-aspnet-core.md
+  - name: "C#: Create a UWP app"
+    href: ide/quickstart-uwp-csharp.md
+  - name: "C#: Create a console app"
+    href: ide/quickstart-csharp-console.md
+- name: Tutorials
+  items:
+  - name: C# in Visual Studio
+    href: ide/tutorial-csharp-aspnet-core.md
+  - name: Debug in Visual Studio
+    href: debugger/getting-started-with-the-debugger.md?context=visualstudio/default&contextView=vs-2017
