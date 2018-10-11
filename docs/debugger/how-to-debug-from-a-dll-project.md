@@ -49,7 +49,7 @@ Native and managed DLL projects have different settings to specify calling apps.
 
 ## Specify a calling app in a managed DLL project  
   
-1. Select the C# or VB DLL project in **Solution Explorer**. Select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1. Select the C# or Visual Basic DLL project in **Solution Explorer**. Select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    
 1. Make sure that the **Configuration** field at the top of the window is set to **Debug**.
    
