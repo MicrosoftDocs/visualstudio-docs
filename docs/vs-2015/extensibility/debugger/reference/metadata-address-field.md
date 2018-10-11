@@ -21,7 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_FIELD
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents the address of a field of a class or structure.  
   
 ## Syntax  

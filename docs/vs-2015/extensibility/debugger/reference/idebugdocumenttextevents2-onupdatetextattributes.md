@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Notifies the debug package that text attributes have been updated in the document.  
   
 ## Syntax  

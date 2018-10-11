@@ -19,7 +19,6 @@ manager: "ghogen"
 # Web Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A Web project system is a project system that creates Web projects. Web projects in turn create Web applications. You can program a Web page using traditional programming languages, such as [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../../includes/csprcs-md.md)], to collect and process information from a user, store it in a database, and so on. Web pages with associated code are called smart Web pages.  
   
 ## In This Section  

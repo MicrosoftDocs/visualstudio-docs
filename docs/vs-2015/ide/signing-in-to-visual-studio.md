@@ -18,7 +18,6 @@ manager: "ghogen"
 # Signing in to Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can personalize and optimize your development experience in Visual Studio if you set your Personalization account by signing in to the IDE.  
   
 ## Why should I sign in to Visual Studio?  

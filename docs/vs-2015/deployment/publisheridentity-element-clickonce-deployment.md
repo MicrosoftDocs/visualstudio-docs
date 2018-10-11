@@ -26,7 +26,6 @@ manager: "wpickett"
 # &lt;publisherIdentity&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Contains information about the publisher that signed this deployment manifest.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Related Services and Interfaces (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This section lists all the source control VSPackage-related interfaces in the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)]. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.  
   
 ## Interfaces Implemented by and for Source Control VSPackages  

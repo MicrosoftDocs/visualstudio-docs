@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::GetValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the value of the object as a consecutive series of bytes.  
   
 ## Syntax  

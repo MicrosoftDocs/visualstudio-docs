@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 This topic describes how to explore your nodes using the [Content Model View](../xml-tools/content-model-view.md).  
   
 ### To create a new XSD file and display the root element in the Content Model View  

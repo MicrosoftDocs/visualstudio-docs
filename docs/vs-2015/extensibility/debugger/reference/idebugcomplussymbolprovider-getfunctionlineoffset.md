@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetFunctionLineOffset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the address within a function that represents the given line offset.  
   
 ## Syntax  

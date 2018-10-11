@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a description of the stack frame.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Expression Evaluator
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Expression evaluators (EE) examine the syntax of a language to parse and evaluate variables and expressions at run time, allowing them to be viewed by the user when the IDE is in break mode.  
   
 ## Using Expression Evaluators  

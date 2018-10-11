@@ -22,7 +22,6 @@ manager: "ghogen"
 # NumberOfParentCategoriesToRollUp (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the number of parent categories that will display the template in the **New Project** dialog box.  
   
  \<VSTemplate>  

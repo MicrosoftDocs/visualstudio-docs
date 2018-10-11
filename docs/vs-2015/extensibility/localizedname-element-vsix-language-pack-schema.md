@@ -17,7 +17,6 @@ manager: "ghogen"
 # LocalizedName Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Required. The localized name of the extension to be installed.  
   
 ## Syntax  

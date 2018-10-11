@@ -36,7 +36,6 @@ manager: "ghogen"
 # CvWriteMessage Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Writes a message to the Concurrency Visualizer trace file.  
   
 ## Syntax  

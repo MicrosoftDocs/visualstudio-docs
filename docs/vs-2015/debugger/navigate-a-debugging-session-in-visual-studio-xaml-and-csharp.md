@@ -23,7 +23,6 @@ manager: "ghogen"
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This quick start demonstrates how to navigate Visual Studio debug sessions and how to view and change the program state in a session.  
   
  This quick start is for developers who are new to debugging with Visual Studio and for developers who want to learn more about navigating in a Visual Studio debug session. It does not teach the art of debugging itself. The methods in the sample code are designed only to demonstrate the debugging procedures described in this topic. The methods do not employ best practices of app or function design. In fact, you will quickly discover that the methods, and the app itself, do not do much of anything at all.  

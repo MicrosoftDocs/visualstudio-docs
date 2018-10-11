@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_informational
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag indicating whether a section contains comments or similar information.  
   
 ## Syntax  

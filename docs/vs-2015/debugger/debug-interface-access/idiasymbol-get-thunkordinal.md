@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_thunkOrdinal
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the thunk type of a function.  
   
 ## Syntax  

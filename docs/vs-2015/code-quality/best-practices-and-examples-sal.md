@@ -18,7 +18,6 @@ manager: "ghogen"
 # Best Practices and Examples (SAL)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Here are some ways to get the most out of the Source Code Annotation Language (SAL) and avoid some common problems.  
   
 ## _In\_  

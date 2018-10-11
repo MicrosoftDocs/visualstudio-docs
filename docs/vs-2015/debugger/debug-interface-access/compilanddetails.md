@@ -22,7 +22,6 @@ manager: "ghogen"
 # CompilandDetails
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Compiland information is split between symbols with a `SymTagCompiland` tag (low detail) and a `SymTagCompilandDetails` tag (high detail). `SymTagCompilandDetails` requires loading additional symbols. However, it provides a wealth of information about the compiland that is not available with a `SymTagCompiland` symbol.  
   
 ## Properties  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # GPU Activity Graph
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The GPU Activity graph in the Concurrency Visualizer displays the level of DirectX activity on the system as measured by the number of DirectX engines that are in use over time.  The graph doesn't show which specific engines were used.  An engine is considered to be in use if it is processing any GPU work.  
   
 ## GPU Activity Graph Colors  

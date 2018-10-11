@@ -20,7 +20,6 @@ manager: "ghogen"
 # Breakpoint-Related Methods
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A debug engine (DE) must support the setting of breakpoints. Visual Studio debugging supports the following types of breakpoints:  
   
 -   Bound  

@@ -17,7 +17,6 @@ manager: "douge"
 # Unit testing existing C++ applications with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 We recommend that, before you change an existing application, you make sure that it has a good coverage with unit tests. This gives you confidence that your changes have not introduced bugs. If the application does not already have unit tests, you can add them by using the techniques demonstrated in this topic. This topic describes how to add unit tests for existing Visual C++ code, starting with deciding how to test your code, and then creating, writing, and finally, running the tests.  
   
 ## Deciding how to test your code  

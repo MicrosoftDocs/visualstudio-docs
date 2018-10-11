@@ -18,7 +18,6 @@ manager: "douge"
 # Read a UML model in program code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can load a UML model and its diagrams using the UML API.  
   
 ##  <a name="Reading"></a> Reading a Model in Program Code  

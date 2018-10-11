@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::NotifyDebugDir
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Called when a debug directory was found in the .exe file.  
   
 ## Syntax  

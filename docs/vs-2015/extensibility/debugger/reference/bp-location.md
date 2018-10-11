@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the type of structure used to describe the location of the breakpoint.  
   
 ## Syntax  

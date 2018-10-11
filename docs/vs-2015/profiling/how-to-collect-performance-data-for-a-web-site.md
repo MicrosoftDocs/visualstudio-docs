@@ -28,7 +28,6 @@ manager: "ghogen"
 # How to: Collect Performance Data for a Web Site
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the **Performance Wizard** to collect performance data for an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application. You can profile a Web application that is open in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or you can profile an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web site that is located on your local computer and not open in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE.  
   
 > [!NOTE]

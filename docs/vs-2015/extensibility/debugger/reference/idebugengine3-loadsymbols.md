@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::LoadSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Loads (as necessary) symbols for all modules being debugged by this debugging engine.  
   
 ## Syntax  

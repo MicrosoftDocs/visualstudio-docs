@@ -21,7 +21,6 @@ manager: "ghogen"
 # Getting Started with Debugger Extensibility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] provides the information that you must have to create and customize debugger components used to debug programs from within the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] environment.  
   
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging has added improvements derived from the extensive usability testing performed on previous [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debuggers. You can use [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging to step through a multi-language application, or you can implement on-the-fly editing of variables while debugging applications and multi-language solutions.  

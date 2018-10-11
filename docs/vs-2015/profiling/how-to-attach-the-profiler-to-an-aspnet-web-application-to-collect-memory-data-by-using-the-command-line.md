@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application and collect data about the number and size of .NET Framework memory allocations. You can also collect data about the lifetime of .NET Framework memory objects.  
   
 > [!NOTE]

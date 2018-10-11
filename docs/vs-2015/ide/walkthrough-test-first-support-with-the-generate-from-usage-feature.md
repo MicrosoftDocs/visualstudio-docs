@@ -21,7 +21,6 @@ manager: "ghogen"
 # Walkthrough: Test-First Support with the Generate From Usage Feature
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic demonstrates how to use the [Generate From Usage](../misc/generate-from-usage.md) feature, which supports test-first development.  
   
  *Test-first development* is an approach to software design in which you first write unit tests based on product specifications, and then write the source code that is required to make the tests succeed. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports test-first development by generating new types and members in the source code when you first reference them in your test cases, before they are defined.  

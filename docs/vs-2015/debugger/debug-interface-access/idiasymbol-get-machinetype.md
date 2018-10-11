@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_machineType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the type of the target CPU.  
   
 ## Syntax  

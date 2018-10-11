@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0007: Avoid using exceptions for control flow
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0007|  
 |Category|.NET Framework Usage|  
 |Profiling methods|All|  

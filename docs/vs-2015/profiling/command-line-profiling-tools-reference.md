@@ -18,7 +18,6 @@ manager: "ghogen"
 # Command-Line Profiling Tools Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Command-line performance tools allow programmers to profile their applications at the command prompt. The following command-line profiling tools allow you to profile code at the command prompt.  
   
 ## In This Section  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetLocalVariablelayout
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the layout of local variables for a set of methods.  
   
 ## Syntax  

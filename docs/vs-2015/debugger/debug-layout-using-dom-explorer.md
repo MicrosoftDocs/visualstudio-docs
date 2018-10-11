@@ -27,7 +27,6 @@ manager: "ghogen"
 # Debug layout using DOM Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  The **Layout** tab of DOM Explorer shows the [CSS box model](http://go.microsoft.com/fwlink/?LinkID=238778) for the selected element in a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app, Windows Phone Store app, or an app created using Visual Studio Tools for Apache Cordova. You can use this visual representation of the box model to identify and modify layout-related values that affect the appearance of elements.  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_share
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether the section can be shared in memory.  
   
 ## Syntax  

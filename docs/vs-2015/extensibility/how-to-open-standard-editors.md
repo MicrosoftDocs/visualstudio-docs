@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Open Standard Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you open a standard editor, you let the IDE determine a standard editor for a designated file type, instead of specifying a project-specific editor for the file.  
   
  Complete the following procedure to implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method. This will open a project file in a standard editor.  

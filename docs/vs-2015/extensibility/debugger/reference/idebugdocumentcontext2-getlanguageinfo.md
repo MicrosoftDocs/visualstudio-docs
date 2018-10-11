@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::GetLanguageInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the language associated with this document context.  
   
 ## Syntax  

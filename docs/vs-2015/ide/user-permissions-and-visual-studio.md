@@ -23,7 +23,6 @@ manager: "ghogen"
 # User Permissions and Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 For reasons of security you should run Visual Studio as a normal user whenever possible.  
   
 > [!WARNING]

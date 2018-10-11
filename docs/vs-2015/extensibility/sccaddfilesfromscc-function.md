@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccAddFilesFromSCC Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function adds a list of files from source control to the currently opened project.  
   
 ## Syntax  

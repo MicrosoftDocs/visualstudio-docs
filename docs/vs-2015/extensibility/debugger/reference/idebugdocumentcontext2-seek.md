@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::Seek
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Moves the document context by a given number of statements or lines.  
   
 ## Syntax  

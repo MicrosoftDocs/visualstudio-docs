@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Model 3-D Terrain
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document demonstrates how to use the Model Editor to create a 3-D terrain model.  
   
  This document demonstrates these activities:  

@@ -17,7 +17,6 @@ manager: "ghogen"
 # Walkthrough: Creating an SDK using JavaScript
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough teaches how to use JavaScript to create a simple math SDK as a Visual Studio Extension (VSIX).  The walkthrough is divided into these parts:  
   
 -   [To create the SimpleMathVSIX extension SDK project](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSimpleMathVSIX)  

@@ -23,7 +23,6 @@ manager: "ghogen"
 # Debug XAML in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the tools in [!INCLUDE[blend_first](../includes/blend-first-md.md)] to debug the XAML in your app. When you build a project, any errors are displayed in the **Results** panel. Double-click an error to locate the markup related to the error. If you need more room to work, you can hide the **Results** panel by pressing F12.  
   
 ## Syntax errors  

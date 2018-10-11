@@ -21,7 +21,6 @@ manager: "ghogen"
 # DEBUG_REFERENCE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes a reference.  
   
 ## Syntax  

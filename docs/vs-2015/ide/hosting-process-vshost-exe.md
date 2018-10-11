@@ -21,7 +21,6 @@ manager: "ghogen"
 # Hosting Process (vshost.exe)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The hosting process is a feature in Visual Studio that improves debugging performance, enables partial trust debugging, and enables design time expression evaluation. The hosting process files contain vshost in the file name and are placed in the output folder of your project. For more information, see [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md).  
   
 > [!NOTE]

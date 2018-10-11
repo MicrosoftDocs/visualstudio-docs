@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findInjectedSource
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of sources that has been placed into the symbol store by attribute providers or other components of the compilation process.  
   
 ## Syntax  

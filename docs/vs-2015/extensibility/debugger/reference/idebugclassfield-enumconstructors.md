@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugClassField::EnumConstructors
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an enumerator for the constructors for this class.  
   
 ## Syntax  

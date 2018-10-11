@@ -21,7 +21,6 @@ manager: "ghogen"
 # Breakpoint Errors
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following describes the process when a breakpoint attempts to bind to code but fails:  
   
 ## Troubleshooting a Breakpoint Error  

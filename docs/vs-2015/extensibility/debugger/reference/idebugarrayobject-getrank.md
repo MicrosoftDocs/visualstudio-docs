@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugArrayObject::GetRank
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the rank of the array, that is, the number of dimensions.  
   
 ## Syntax  

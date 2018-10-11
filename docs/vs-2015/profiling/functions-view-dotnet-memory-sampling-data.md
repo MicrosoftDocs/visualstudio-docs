@@ -20,7 +20,6 @@ manager: "ghogen"
 # Functions View - .NET Memory Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Functions view of .NET memory allocation profiling data that was collected by using the sampling method lists the functions that allocated memory during the profiling run and reports the size and number of allocations.  
   
 |Column|Description|  

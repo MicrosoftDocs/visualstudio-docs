@@ -21,7 +21,6 @@ manager: "ghogen"
 # Visual Studio Debugging Samples
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Two samples show how to extend the Visual Studio debugger using [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)].  
   
 -   The Debugger Expression Evaluator Sample, for managed languages, is included in the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)]. In the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] window, click the **Samples** tab, click **All** or **C#** in the list of languages, and then click **Debugger**.  

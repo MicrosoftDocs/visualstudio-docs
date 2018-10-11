@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionContext2::ParseText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Parses an expression in text form for later evaluation.  
   
 ## Syntax  

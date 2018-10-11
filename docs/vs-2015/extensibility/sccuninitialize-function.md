@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccUninitialize Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function cleans up any allocations or open connections created by a previous call to the [SccInitialize](../extensibility/sccinitialize-function.md) in preparation for shutting down the source control plug-in.  
   
 ## Syntax  

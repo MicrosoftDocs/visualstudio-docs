@@ -21,7 +21,6 @@ manager: "ghogen"
 # Event Tracing for Windows (ETW) Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Event Tracing for Windows (ETW) report lists the ETW events that were recorded in a performance session of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools. ETW data is collected in a binary (.etl) file.  
   
 > [!NOTE]

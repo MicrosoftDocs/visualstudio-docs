@@ -28,7 +28,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   
 ## Prerequisites  

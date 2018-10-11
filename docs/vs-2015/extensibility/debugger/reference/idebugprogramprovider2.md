@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramProvider2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This registered interface allows the session debug manager (SDM) to obtain information about programs that have been "published" through the [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md) interface.  
   
 ## Syntax  

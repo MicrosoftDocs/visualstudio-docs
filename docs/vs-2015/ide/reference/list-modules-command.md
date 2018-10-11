@@ -25,7 +25,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Lists the modules for the current process.  
   
 ## Syntax  

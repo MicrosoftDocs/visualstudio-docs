@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_compilandId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the compiland identifier for the section.  
   
 ## Syntax  

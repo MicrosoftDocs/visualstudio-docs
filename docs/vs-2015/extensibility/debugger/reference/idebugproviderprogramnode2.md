@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProviderProgramNode2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface marshals program-related interfaces across process boundaries.  
   
 ## Syntax  

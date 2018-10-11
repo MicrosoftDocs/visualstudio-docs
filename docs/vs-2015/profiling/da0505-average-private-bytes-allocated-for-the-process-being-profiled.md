@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0505: Average Private Bytes allocated for the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0505|  
 |Category|Resource Management|  
 |Profiling method|All|  

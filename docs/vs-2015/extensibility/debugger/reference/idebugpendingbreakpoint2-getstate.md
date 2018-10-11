@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::GetState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the state of the pending breakpoint.  
   
 ## Syntax  

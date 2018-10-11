@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetDocumentContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the document context for this stack frame.  
   
 ## Syntax  

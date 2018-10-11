@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_frame
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the segment number.  
   
 ## Syntax  

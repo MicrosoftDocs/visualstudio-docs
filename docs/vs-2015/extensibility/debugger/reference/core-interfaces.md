@@ -19,7 +19,6 @@ manager: "ghogen"
 # Core Interfaces
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The following interfaces are the core interfaces for extending debugger by using the [!INCLUDE[vsipsdk](../../../includes/vsipsdk-md.md)].  
   
 ## Discussion  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugQueryEngine2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE).  
   
 ## Syntax  

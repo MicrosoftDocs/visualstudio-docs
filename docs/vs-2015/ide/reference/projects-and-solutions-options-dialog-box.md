@@ -22,7 +22,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Sets the default path of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] project folders, and determines the default behavior of the **Output** window, **Task List**, and **Solution Explorer** as projects are developed and built. To access this dialog box, click **Tools / Options** expand **Projects and Solutions**, and click **General**.  
   
 > [!NOTE]

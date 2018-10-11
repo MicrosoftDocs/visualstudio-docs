@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugModule3::GetSymbolInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of paths that are searched for symbols as well as the results of searching each path.  
   
 ## Syntax  

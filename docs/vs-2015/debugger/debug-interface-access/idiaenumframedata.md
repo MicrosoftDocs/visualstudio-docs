@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerates the various frame data elements contained in the data source.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugAddresses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a collection of objects implementing the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.  
   
 ## Syntax  

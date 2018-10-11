@@ -19,7 +19,6 @@ manager: "ghogen"
 # Source Control Design Decisions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following design decisions should be considered for projects when implementing source control.  
   
 ## Will information be shared or private?  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the virtual address (VA) of the block.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::EnumBoundBreakpoints
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enumerates all breakpoints bound from this pending breakpoint.  
   
 ## Syntax  

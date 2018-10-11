@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugPropertyInfo2::Clone
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns a copy of the current enumeration as a separate object.  
   
 ## Syntax  

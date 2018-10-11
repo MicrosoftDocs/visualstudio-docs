@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0501: Average CPU consumption by the Process being profiled.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA501|  
 |Category|Resource Monitoring|  
 |Profiling method|All|  

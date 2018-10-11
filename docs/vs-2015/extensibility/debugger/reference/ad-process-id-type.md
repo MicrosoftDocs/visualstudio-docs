@@ -21,7 +21,6 @@ manager: "ghogen"
 # AD_PROCESS_ID_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies how to interpret a process ID in the [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugFunctionObject::CreateStringObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a string object.  
   
 ## Syntax  

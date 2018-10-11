@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::EnumThreads
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of the threads that are running in the program.  
   
 ## Syntax  

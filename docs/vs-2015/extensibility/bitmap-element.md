@@ -20,7 +20,6 @@ manager: "ghogen"
 # Bitmap Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines a bitmap. The bitmap is loaded either from a resource or from a file.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic 3-D Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document demonstrates how to use the Model Editor to create a basic 3-D model.  
   
  This document demonstrates these activities:  

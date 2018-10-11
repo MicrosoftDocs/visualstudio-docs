@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetAssemblyName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the name of the assembly given its module and application domain.  
   
 ## Syntax  

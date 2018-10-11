@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::GetManagedDebugObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a copy of the managed object in the address space of the debug engine.  
   
 ## Syntax  

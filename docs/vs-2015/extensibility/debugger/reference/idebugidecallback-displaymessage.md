@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugIDECallback::DisplayMessage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sends the specified message string to the debugger's output window.  
   
 ## Syntax  

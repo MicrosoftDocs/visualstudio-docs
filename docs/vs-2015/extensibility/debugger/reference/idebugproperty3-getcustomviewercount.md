@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::GetCustomViewerCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the number of custom viewers that might be available for this property.  
   
 ## Syntax  

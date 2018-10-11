@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetCurrentLocation
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns a code location identifier that represents the current code location.  
   
 ## Syntax  

@@ -26,7 +26,6 @@ manager: "wpickett"
 # &lt;assembly&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The top-level element for the application manifest.  
   
 ## Syntax  

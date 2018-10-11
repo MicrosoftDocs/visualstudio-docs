@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugFunctionPosition2::GetOffset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the position of the function in the source document.  
   
 ## Syntax  

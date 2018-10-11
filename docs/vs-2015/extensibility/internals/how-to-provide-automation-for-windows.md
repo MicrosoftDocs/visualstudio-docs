@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Provide Automation for Windows
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can provide automation for document and tool windows. Providing automation is advisable whenever you want to make automation objects available on a window, and the environment does not already provide a ready-made automation object, as it does with a task list.  
   
 ## Automation for Tool Windows  

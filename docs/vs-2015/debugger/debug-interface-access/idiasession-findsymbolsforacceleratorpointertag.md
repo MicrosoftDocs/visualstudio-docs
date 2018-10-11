@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSession::findSymbolsForAcceleratorPointerTag
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function.  
   
 ## Syntax  

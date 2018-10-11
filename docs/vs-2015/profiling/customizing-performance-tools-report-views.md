@@ -21,7 +21,6 @@ manager: "ghogen"
 # Customizing Performance Tools Report Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section covers how to customize reports that are generated with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools.  
   
 ## Common Tasks  

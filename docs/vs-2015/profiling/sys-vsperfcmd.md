@@ -18,7 +18,6 @@ manager: "ghogen"
 # Sys (VSPerfCmd)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The VSPerfCmd.exe **Sys** option sets the profiling event that is sampled to system call events (function calls from the profiled application to the operating system), and optionally changes the number of system calls in a sampling interval from the default of 10.  
   
  **Sys** can only be used in a command line that also contains the **Launch** or the **Attach** option.  

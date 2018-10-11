@@ -25,7 +25,6 @@ manager: "wpickett"
 # Globalization Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Globalization warnings support world-ready libraries and applications.  
   
 ## In This Section  

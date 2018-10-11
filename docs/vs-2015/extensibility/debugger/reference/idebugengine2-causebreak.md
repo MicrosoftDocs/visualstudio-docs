@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::CauseBreak
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Requests that all programs being debugged by this debug engine (DE) to stop execution the next time one of their threads attempts to run.  
   
 ## Syntax  

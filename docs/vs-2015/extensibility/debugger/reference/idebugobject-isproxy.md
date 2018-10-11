@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugObject::IsProxy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the object is a transparent proxy.  
   
 ## Syntax  

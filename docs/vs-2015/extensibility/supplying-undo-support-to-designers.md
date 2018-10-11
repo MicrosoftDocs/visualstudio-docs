@@ -19,7 +19,6 @@ manager: "ghogen"
 # Supplying Undo Support to Designers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.  
   
  Most designers implemented in Visual Studio have undo support automatically provided by the environment.  

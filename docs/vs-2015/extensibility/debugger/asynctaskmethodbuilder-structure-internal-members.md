@@ -20,7 +20,6 @@ manager: "ghogen"
 # AsyncTaskMethodBuilder Structure - Internal Members
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This topic describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> class. For general information about this class, see the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> reference topic.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

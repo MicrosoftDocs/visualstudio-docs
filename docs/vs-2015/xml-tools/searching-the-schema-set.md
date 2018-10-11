@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The XML Schema Explorer enables you to search the schema set in the following ways:  
   
 -   Keyword search.  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_allocatesBasePointer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether the base pointer is allocated for code in this address range. This method is deprecated.  
   
 ## Syntax  

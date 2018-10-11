@@ -22,7 +22,6 @@ manager: "ghogen"
 # CvReleaseProvider Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Releases marker provider. Releasing the marker provider will not affect previously created marker series of this provider. Marker series have to be release separately by CvReleaseMarkerSeries call. Failure to release provider causes a memory leak.  
   
 ## Syntax  

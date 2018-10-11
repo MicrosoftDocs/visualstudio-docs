@@ -25,7 +25,6 @@ manager: "ghogen"
 # Create Custom Views of Native Objects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio Natvis framework lets you customize the way Visual Studio displays native types in debugger variable windows (for example, the **Watch**, **Locals**, and **Data Tips** windows.  
   
  Natvis supersedes the **autoexp.dat** file that was used in earlier versions of Visual Studio and offers XML syntax, better diagnostics, versioning, and multiple file support.  

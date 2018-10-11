@@ -21,7 +21,6 @@ manager: "ghogen"
 # INTERCEPT_EXCEPTION_ACTION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies what actions to take when intercepting exceptions.  
   
 ## Syntax  

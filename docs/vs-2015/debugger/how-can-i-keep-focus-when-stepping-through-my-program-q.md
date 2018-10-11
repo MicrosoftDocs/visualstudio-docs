@@ -31,7 +31,6 @@ manager: "ghogen"
 # How Can I Keep Focus When Stepping Through My Program?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Description  
  My program has a window-activation problem. Stepping through the program with the debugger interferes with my ability to reproduce the problem because my program keeps losing focus. Is there any way to avoid this?  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineCreateEvent2::GetEngine
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the object that represents the newly created debug engine (DE).  
   
 ## Syntax  

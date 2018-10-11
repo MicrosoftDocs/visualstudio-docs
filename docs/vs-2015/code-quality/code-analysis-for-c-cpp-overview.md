@@ -31,7 +31,6 @@ manager: "ghogen"
 # Code Analysis for C/C++ Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The C/C++ Code Analysis tool provides information to developers about possible defects in their C/C++ source code. Common coding errors reported by the tool include buffer overruns, un-initialized memory, null pointer dereferences, and memory and resource leaks.  
   
 ## IDE (integrated development environment) Integration  

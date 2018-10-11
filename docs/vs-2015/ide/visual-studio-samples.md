@@ -20,7 +20,6 @@ manager: "ghogen"
 # Visual Studio Samples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can find Visual Studio samples on the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkID=127810) website.  
   
  You can use the **New Project** dialog box to browse for samples. (To open the dialog box, on the menu bar, choose **File**, **New**, **Project**.)  

@@ -25,7 +25,6 @@ manager: "ghogen"
 # Just-In-Time Debugging in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Just-In-Time debugging launches Visual Studio automatically when an exception or crash occurs in an application that is running outside Visual Studio. This enables you to test your application when Visual Studio is not running, and begin debugging with Visual Studio when a problem occurs.
 
 Just-In-Time debugging works for Windows desktop apps. It does not work for Windows Universal apps, and it does not work for managed code that is hosted in a native application, such as Visualizers.

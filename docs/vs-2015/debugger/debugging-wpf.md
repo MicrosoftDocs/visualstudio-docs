@@ -26,7 +26,6 @@ manager: "ghogen"
 # Debugging WPF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] provides additional features to make debugging WPF applications easier.  
   
 ## Related Topics  

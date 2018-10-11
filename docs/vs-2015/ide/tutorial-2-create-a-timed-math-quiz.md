@@ -18,7 +18,6 @@ manager: "ghogen"
 # Tutorial 2: Create a Timed Math Quiz
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:  
   
 -   Generate random numbers by using the `Random` class.  

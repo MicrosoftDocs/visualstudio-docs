@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointUnboundEvent2::GetReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the reason the breakpoint was unbound.  
   
 ## Syntax  

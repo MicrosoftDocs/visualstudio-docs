@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::Terminate
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Stops and cleans up the expression evaluator.  
   
 ## Syntax  

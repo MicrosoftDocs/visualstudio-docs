@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::RestrictRegistryAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Determines if registry queries can be used to locate symbol search paths.  
   
 ## Syntax  

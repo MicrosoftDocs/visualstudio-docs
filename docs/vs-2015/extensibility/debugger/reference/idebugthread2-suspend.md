@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::Suspend
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Suspends a thread.  
   
 ## Syntax  

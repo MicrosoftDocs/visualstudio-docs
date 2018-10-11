@@ -20,7 +20,6 @@ manager: "ghogen"
 # Reformatting Code in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] source code can be reformatted by normalizing the use of indentations and whitespace. This can include inserting or removing spaces or tabs at the beginning of each line, adding new lines between lines, or replacing spaces with tabs or tabs with spaces.  
   
 > [!NOTE]

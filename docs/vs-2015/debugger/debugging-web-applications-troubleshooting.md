@@ -27,7 +27,6 @@ manager: "ghogen"
 # Debugging Web Applications: Troubleshooting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section contains common procedures that can be used to resolve errors.  
   
 ## In This Section  

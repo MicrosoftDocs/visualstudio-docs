@@ -18,7 +18,6 @@ manager: "ghogen"
 # Command-Line Capture Tool
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 DXCap.exe is a command-line tool for graphics diagnostics capture and playback. It supports Direct3D 10 through Direct3D 12 across all feature levels.  
   
 ## Syntax  

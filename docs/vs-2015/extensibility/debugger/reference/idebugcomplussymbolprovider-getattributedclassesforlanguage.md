@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the classes with the specified attribute that are implemented in the specified programming language.  
   
 ## Syntax  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2228: Do not ship unreleased resource formats
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DoNotShipUnreleasedResourceFormats|

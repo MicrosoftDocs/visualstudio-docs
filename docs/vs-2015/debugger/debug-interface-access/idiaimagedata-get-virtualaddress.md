@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaImageData::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the location in virtual memory of the image.  
   
 ## Syntax  

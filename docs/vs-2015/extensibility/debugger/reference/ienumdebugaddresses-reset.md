@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugAddresses::Reset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method resets the enumeration to the first element.  
   
 ## Syntax  

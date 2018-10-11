@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findSymbolByVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified symbol type that contains, or is closest to, a specified virtual address.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Attaches a debug engine (DE) to a program or programs. Called by the session debug manager (SDM) when the DE is running in-process to the SDM.  
   
 ## Syntax  

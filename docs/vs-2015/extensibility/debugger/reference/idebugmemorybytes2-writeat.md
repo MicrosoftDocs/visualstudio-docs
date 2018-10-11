@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryBytes2::WriteAt
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Writes the specified number of bytes of memory, starting at the specified address.  
   
 ## Syntax  

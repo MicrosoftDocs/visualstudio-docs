@@ -27,7 +27,6 @@ manager: "ghogen"
 # Creating Solutions and Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File &#124; New &#124; Project** from the main menu, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.  
   
 > [!NOTE]

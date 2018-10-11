@@ -22,7 +22,6 @@ manager: "ghogen"
 # diagnostic Namespace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `diagnostics` namespace provides functionality for emitting Concurrency Visualizer markers.  
   
 ## Syntax  

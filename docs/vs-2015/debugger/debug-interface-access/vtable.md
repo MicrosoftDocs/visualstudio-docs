@@ -23,7 +23,6 @@ manager: "ghogen"
 # VTable
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The virtual table is identified by the `SymTagVTable` symbol.  
   
 ## Properties  

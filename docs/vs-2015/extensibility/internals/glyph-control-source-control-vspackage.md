@@ -20,7 +20,6 @@ manager: "ghogen"
 # Glyph Control (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Part of the deep integration available to source control VSPackages is the ability to display their own glyphs to indicate the status of items under source control.  
   
 ## Levels of Glyph Control  

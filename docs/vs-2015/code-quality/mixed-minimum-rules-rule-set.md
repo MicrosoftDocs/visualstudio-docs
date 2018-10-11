@@ -18,7 +18,6 @@ manager: "wpickett"
 # Mixed Minimum Rules rule set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Microsoft Mixed Minimum Rules focus on the most critical problems in your C++ projects that support the Common Language Runtime, including potential security holes and application crashes. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime.  
   
 |Rule|Description|  

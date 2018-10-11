@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Sets the global thread count, and assigns that count to the current thread.  
   
 ## Syntax  

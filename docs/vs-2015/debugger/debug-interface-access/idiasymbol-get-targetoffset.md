@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_targetOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the offset section of a thunk target.  
   
 ## Syntax  

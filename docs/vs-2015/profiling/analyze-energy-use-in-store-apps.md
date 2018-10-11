@@ -23,7 +23,6 @@ manager: "ghogen"
 # Analyze energy use in Store apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio **Energy Consumption** profiler helps you analyze the power and energy consumption of Windows Store apps on low-power tablet devices that run all or part of the time on their own batteries. On a battery-powered device, an app that uses too much energy can cause so much customer dissatisfaction that, eventually, customers might even uninstall it. Optimizing energy use can increase your app’s adoption and use by customers.  
   
 ##  <a name="BKMK_What_the_Energy_Consumption_tool_is__how_it_works__and_what_it_measures"></a> What the Energy Consumption profiler is, how it works, and what it measures  

@@ -26,7 +26,6 @@ manager: "ghogen"
 # Debugging WCF Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In This Section  
  [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)  
  Describes restrictions on debugging WCF.  

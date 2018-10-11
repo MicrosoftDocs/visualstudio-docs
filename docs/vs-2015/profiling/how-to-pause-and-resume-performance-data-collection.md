@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Pause and Resume Performance Data Collection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 From the profiling session page window, you can control the collection of profiling data interactively.  
   
  Controlling data collection enables you to reduce the size of the profile data file, and to collect data only for those operations that you are interested in. You can pause and resume profiling multiple times in a performance session.  

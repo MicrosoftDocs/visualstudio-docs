@@ -22,7 +22,6 @@ manager: "ghogen"
 # THUNK_ORDINAL
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Designates thunk types.  
   
 ## Syntax  

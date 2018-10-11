@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::CreateTypeFromPrimitive
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a type from the specified primitive type.  
   
 ## Syntax  

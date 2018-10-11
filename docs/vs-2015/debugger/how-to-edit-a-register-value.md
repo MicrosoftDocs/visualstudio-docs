@@ -32,7 +32,6 @@ manager: "ghogen"
 # How to: Edit a Register Value
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  
   
 ### To change the value of a register  

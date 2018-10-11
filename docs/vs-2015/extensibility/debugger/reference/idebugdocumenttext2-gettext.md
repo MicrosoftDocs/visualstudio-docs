@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentText2::GetText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the text from the specified position in the document.  
   
 ## Syntax  

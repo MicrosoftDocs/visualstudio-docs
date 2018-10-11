@@ -22,7 +22,6 @@ manager: "ghogen"
 # Walkthrough: Command-Line Profiling Using Sampling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to profile an application by using command-line tools and sampling to identify performance problems.  
   
  In this walkthrough, you will step through the process of profiling a managed application by using command-line tools, and use sampling to isolate and identify performance problems in the application.  

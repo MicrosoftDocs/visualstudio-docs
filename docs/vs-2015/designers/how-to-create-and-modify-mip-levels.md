@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Create and Modify MIP Levels
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).  
   
 ## Generating MIP levels  

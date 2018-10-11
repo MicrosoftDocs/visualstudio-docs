@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_relocationsCrc
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the cyclic redundancy check (CRC) of the relocation information for the section.  
   
 ## Syntax  

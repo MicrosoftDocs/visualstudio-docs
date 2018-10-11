@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 1: Create a Project and Add a Table to Your Form
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The first step in creating a matching game is to create the project and add a table to your form. The table helps align the icons into an orderly 4x4 grid. You also set several properties to enhance the appearance of the game board.  
   
 ### To create a project and add a table to your form  

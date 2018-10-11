@@ -24,7 +24,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.  
   
 ## Syntax  

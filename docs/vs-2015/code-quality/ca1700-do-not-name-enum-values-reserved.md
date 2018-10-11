@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1700: Do not name enum values &#39;Reserved&#39;
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DoNotNameEnumValuesReserved|

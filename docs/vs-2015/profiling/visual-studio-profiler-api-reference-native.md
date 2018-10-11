@@ -21,7 +21,6 @@ manager: "ghogen"
 # Visual Studio Profiler API Reference (Native)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio Profiler APIs allow you to programmatically control the amount of data collected, and insert both timestamp and profile marks during profiling. To use native APIs, you include VSPerf.h header file and add the VSPerf.lib in your project.  
   
 > [!NOTE]

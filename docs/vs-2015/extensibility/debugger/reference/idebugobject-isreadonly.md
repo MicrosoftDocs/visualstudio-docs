@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::IsReadOnly
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if this object is read-only.  
   
 ## Syntax  

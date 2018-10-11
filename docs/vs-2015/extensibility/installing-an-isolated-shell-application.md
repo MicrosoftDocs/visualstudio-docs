@@ -20,7 +20,6 @@ manager: "ghogen"
 # Installing an Isolated Shell Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To install a Shell app you must perform the following steps.  
   
 -   Prepare your solution.  

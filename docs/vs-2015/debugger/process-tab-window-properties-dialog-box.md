@@ -20,7 +20,6 @@ manager: "ghogen"
 # Process Tab, Window Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use the **Process** tab to identify the process of the selected window. To display the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md), move the focus to the [Windows View](../debugger/windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.  
   
  The following settings are available on the **Process** tab:  

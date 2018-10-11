@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreams::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Skips a specified number of debug streams in an enumeration sequence.  
   
 ## Syntax  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Supported Event Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Visual Studio debugging currently supports the following event types:  
   
 -   Asynchronous events  

@@ -29,7 +29,6 @@ manager: "ghogen"
 # Microsoft Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer.  
   
 > [!WARNING]

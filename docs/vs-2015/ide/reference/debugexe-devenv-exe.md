@@ -23,7 +23,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Opens the specified executable file to be debugged.  
   
 ## Syntax  

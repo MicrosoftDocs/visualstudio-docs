@@ -20,7 +20,6 @@ manager: "ghogen"
 # Button Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines an element that the user can interact with. Buttons can be of different kinds: Button, MenuButton, and SplitDropDown.  
   
 ## Syntax  

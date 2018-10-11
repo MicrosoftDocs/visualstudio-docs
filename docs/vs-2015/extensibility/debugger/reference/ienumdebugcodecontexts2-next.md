@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCodeContexts2::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the next set of elements from the enumeration.  
   
 ## Syntax  

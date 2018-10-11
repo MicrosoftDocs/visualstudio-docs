@@ -19,7 +19,6 @@ manager: "ghogen"
 # Language Services and the Core Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Editors in Visual Studio are frequently associated with a language service. Among other things, a language service provides syntax coloring, statement completion, IntelliSense, and text formatting.  
   
 ## Core Editors and Document Data Objects  

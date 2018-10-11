@@ -17,7 +17,6 @@ manager: "douge"
 # Sample Excel Extension: Element Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The extension uses classes that are derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement> and represent the Worksheet control and Cell control in [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)].  
   
  The base element for this extension is the `ExcelElement`. The `ExcelWorksheetElement` class and the `ExcelCellElement` class inherit from that element  

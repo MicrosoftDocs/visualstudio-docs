@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::get_lastError
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the file name for the last load error.  
   
 ## Syntax  

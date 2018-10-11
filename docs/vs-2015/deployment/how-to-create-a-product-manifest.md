@@ -28,7 +28,6 @@ manager: "wpickett"
 # How to: Create a Product Manifest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To deploy prerequisites for your application, you can create a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. The package manifest contains localization-specific aspects of your package. This includes strings, end-user license agreements, and the language packs.  
   
  For more information about product manifests, see [How to: Create a Package Manifest](../deployment/how-to-create-a-package-manifest.md).  

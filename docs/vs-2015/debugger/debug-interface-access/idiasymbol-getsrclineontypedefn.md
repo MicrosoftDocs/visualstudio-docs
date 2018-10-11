@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::getSrcLineOnTypeDefn
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the source file and line number that indicate where a specified user-defined type is defined.  
   
 ## Syntax  

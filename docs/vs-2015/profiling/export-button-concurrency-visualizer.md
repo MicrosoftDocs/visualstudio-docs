@@ -22,7 +22,6 @@ manager: "ghogen"
 # Export Button (Concurrency Visualizer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Export** button enables you to export the call stack as a .csv file for your own records or for use with another tool such as Microsoft Excel.  
   
 ## See Also  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject2::IsUserData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines whether the object represents user data.  
   
 ## Syntax  

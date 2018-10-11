@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isPointerToMemberFunction
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies whether this symbol is a pointer to a member function.  
   
 ## Syntax  

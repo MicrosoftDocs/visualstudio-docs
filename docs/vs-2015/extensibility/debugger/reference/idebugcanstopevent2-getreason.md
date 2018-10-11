@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCanStopEvent2::GetReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the reason why the debug engine (DE) wants to stop.  
   
 ## Syntax  

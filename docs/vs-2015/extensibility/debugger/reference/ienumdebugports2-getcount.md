@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugPorts2::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the number of elements in the enumeration.  
   
 ## Syntax  

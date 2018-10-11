@@ -18,7 +18,6 @@ manager: "ghogen"
 # Output
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Output** option specifies the name of the profiling data file for the performance session. **Output** must be used with the **Start** option.  
   
 ## Syntax  

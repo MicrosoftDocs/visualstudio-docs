@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 The **Property Pages**provides access to project settings. You can use the pages that appear in the **Property Pages** to change project properties.  
   
  To access the project properties, select a project node in **Solution Explorer**. On the **Project** menu, click **Properties**.  

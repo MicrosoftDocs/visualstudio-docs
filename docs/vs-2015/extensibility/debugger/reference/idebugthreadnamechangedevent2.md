@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThreadNameChangedEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread name changes in the program being debugged.  
   
 ## Syntax  

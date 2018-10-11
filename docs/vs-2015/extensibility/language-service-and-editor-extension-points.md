@@ -19,7 +19,6 @@ manager: "ghogen"
 # Language Service and Editor Extension Points
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The editor provides extension points that you can extend as Managed Extensibility Framework (MEF) component parts, including most language service features. These are the main extension point categories:  
   
 -   Content types  

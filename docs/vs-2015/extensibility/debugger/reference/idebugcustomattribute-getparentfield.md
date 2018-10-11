@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomAttribute::GetParentField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the field to which the custom attribute is attached.  
   
 ## Syntax  

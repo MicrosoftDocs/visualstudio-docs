@@ -20,7 +20,6 @@ manager: "ghogen"
 # Designer Initialization and Metadata Configuration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Manipulation of the metadata and filter attributes associated with a designer or designer component provides a mechanism for applications to define which tools are used by a particular designer to handle different <xref:System.Type> objects (such as data structures, classes, or graphical entities), when the designer is available, and how the Visual Studio IDE is configured to support the designer (for instance which **Toolbox** category or tab is available).  
   
  The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] provides several mechanisms to facilitate the control of a designer's or designer component's initialization and the manipulation of its metadata by a VSPackage.  

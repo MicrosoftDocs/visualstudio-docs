@@ -26,7 +26,6 @@ manager: "ghogen"
 # UDT
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Each class, structure, and union is identified by a `SymTagUDT` symbol. Each member, function, data, or nested type, and each base class, appears as a class child of the user-defined type (UDT).  
   
 ## Properties  

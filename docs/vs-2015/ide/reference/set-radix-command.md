@@ -24,7 +24,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Sets or returns the numeric base used to display integer values.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomViewer::DisplayValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method is called to display the specified value.  
   
 ## Syntax  

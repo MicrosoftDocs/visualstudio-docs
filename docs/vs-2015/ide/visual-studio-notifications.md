@@ -18,7 +18,6 @@ manager: "ghogen"
 # Visual Studio Notifications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio has a notification system which alerts you to various events:  
   
 1.  An update is available for a component within Visual Studio  

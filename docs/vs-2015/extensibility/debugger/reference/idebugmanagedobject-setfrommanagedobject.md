@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugManagedObject::SetFromManagedObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.  
   
 ## Syntax  

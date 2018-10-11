@@ -21,7 +21,6 @@ manager: "ghogen"
 # Other Dialog Boxes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 These dialog boxes display information about the Spy++ program.  
   
 ## In This Section  

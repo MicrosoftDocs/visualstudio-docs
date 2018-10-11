@@ -19,7 +19,6 @@ manager: "ghogen"
 # Walkthrough: Highlighting Text
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can add different visual effects to the editor by creating Managed Extensibility Framework (MEF) component parts. This walkthrough shows how to highlight every occurrence of the current word in a text file. If a word occurs more than one time in a text file, and you position the caret in one occurrence, every occurrence is highlighted.  
   
 ## Prerequisites  

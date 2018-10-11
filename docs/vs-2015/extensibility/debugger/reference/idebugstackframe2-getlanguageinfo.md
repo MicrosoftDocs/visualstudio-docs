@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetLanguageInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the language associated with this stack frame.  
   
 ## Syntax  

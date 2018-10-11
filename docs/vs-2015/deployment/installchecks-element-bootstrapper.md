@@ -25,7 +25,6 @@ manager: "wpickett"
 # &lt;InstallChecks&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `InstallChecks` element supports starting a variety of tests against the local computer to make sure that all of the appropriate prerequisites for an application have been installed.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::SetCorPath
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the path to the common language runtime (CLR) loaded in the debugger.  
   
 ## Syntax  

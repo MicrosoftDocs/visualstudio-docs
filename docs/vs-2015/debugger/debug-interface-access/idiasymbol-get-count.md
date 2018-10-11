@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of items in a list or array.  
   
 ## Syntax  

@@ -16,7 +16,6 @@ manager: "douge"
 # Controlling Color, Line Style, and other Shape Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Some shape properties such as color can be 'exposed’ – that is, linked to a domain property of the shape. Others have to be controlled directly.  
   
 ## Exposing a property  

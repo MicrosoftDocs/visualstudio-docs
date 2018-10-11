@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Configure Projects to Target Multiple Platforms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.  
   
 ## Targeting a Platform  

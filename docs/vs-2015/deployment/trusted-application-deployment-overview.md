@@ -26,7 +26,6 @@ manager: "wpickett"
 # Trusted Application Deployment Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications that have elevated permissions by using the Trusted Application Deployment technology.  
   
  Trusted Application Deployment, part of the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment technology, makes it easier for organizations of any size to grant additional permissions to a managed application in a safer, more secure manner without user prompting. With Trusted Application Deployment, an organization  can just configure a client computer to have a list of trusted publishers, who are identified using Authenticode certificates. Thereafter, any [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application signed by one of these trusted publishers receives a higher level of trust.  

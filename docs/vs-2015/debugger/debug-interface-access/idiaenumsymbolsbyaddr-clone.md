@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbolsByAddr::Clone
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Makes a copy of an object.  
   
 ## Syntax  

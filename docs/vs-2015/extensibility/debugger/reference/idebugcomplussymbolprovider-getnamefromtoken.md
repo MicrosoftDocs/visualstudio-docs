@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetNameFromToken
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the name associated with the specified token given its metadata object.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # DEBUG_REASON
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies why the process was launched for debugging.  
   
 ## Syntax  

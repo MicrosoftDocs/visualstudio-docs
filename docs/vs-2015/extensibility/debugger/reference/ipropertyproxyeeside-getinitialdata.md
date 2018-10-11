@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide::GetInitialData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the initial data for this object.  
   
 ## Syntax  

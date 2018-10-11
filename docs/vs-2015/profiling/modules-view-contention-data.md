@@ -20,7 +20,6 @@ manager: "ghogen"
 # Modules View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Modules view of contention data displays concurrency data grouped by the modules that were sampled in the profiling data. Each module is the root of a hierarchical tree. The functions of the module in which contention events occurred are listed under the module node.  
   
  If the function was executing its own code when a contention event occurred, that is, the function was at the top of the call stack, the source lines and instruction addresses that were executing are listed under the function node. Because data is collected for a source line or an instruction pointer when the line or instruction is executing, inclusive and exclusive values are always the same for both line data and instruction data.  

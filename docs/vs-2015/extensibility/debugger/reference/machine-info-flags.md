@@ -21,7 +21,6 @@ manager: "ghogen"
 # MACHINE_INFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Used to describe a machine.  
   
 ## Syntax  

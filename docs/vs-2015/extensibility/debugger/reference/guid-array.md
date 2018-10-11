@@ -19,7 +19,6 @@ manager: "ghogen"
 # GUID_ARRAY
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes an array of unique identifiers for available debug engines.  
   
 ## Syntax  

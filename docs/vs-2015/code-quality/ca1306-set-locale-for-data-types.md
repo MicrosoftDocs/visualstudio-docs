@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1306: Set locale for data types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|SetLocaleForDataTypes|

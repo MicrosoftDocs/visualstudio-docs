@@ -20,7 +20,6 @@ manager: "douge"
 # Properties of operations on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 On a UML class diagram, you can add *operations* to classes and interfaces. An operation is a method or function that can be performed by an instance of a class or interface.  
   
  To add an operation, right-click the class or interface, point to **Add**, and then click **Operation**.  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_localsBase
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the base address of the local variables for the frame.  
   
 ## Syntax  

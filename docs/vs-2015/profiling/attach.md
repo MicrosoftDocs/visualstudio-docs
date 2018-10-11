@@ -18,7 +18,6 @@ manager: "ghogen"
 # Attach
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The VSPerfCmd.exe **Attach** option begins sample profiling of the running process specified by the process ID (PID).  
   
  To use the **Attach** option, you must specify the **Sample** method in the Start option.  

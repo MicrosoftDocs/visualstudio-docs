@@ -23,7 +23,6 @@ manager: "ghogen"
 # Thunk
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Each `thunk` is identified by a `SymTagThunk` tag.  
   
 ## Properties  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::EnumCodeContexts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of all code contexts associated with this document context.  
   
 ## Syntax  

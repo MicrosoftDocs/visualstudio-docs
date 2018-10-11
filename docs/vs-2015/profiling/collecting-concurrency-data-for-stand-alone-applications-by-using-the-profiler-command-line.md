@@ -21,7 +21,6 @@ manager: "ghogen"
 # Collecting Concurrency Data for Stand-Alone Applications by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The concurrency method of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools enables you to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped IO, and other system events.  
   
 ## Common Tasks  

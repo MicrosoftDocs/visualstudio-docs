@@ -19,7 +19,6 @@ manager: "ghogen"
 # m_parent Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=fullName> Parent property.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

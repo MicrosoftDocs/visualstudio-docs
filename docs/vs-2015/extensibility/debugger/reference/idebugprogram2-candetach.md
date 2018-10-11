@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::CanDetach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if a debug engine (DE) can detach from the program.  
   
 ## Syntax  

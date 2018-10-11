@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPort2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a debug port on a machine.  
   
 ## Syntax  

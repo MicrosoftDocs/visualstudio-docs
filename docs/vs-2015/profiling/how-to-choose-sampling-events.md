@@ -28,7 +28,6 @@ manager: "ghogen"
 # How to: Choose Sampling Events
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By default, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools collects performance data at an interval that is specified as a number of processor cycles that are used by the profiled process. The default number of cycles in an interval is 10,000,000, which is approximately 0.01 seconds on a 1 GH computer. You can change the number of cycles in an interval, and you can change the sample event. The following sample events are available:  
   
 -   Clock cycles - for CPU-bound problems.  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugPortSupplierLocale2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Provides locale support for a port supplier.  
   
 ## Syntax  

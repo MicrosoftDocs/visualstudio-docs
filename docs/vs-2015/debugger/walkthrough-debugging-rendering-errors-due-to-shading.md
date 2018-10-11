@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: Debugging Rendering Errors Due to Shading
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly due to a shader bug.  
   
  This walkthrough demonstrates how to:  

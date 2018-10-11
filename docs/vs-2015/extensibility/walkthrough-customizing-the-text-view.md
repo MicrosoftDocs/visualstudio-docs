@@ -19,7 +19,6 @@ manager: "ghogen"
 # Walkthrough: Customizing the Text View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can customize a text view by modifying any of the following properties in its editor-format map:  
   
 -   Indicator margin  

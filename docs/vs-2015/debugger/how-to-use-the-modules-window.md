@@ -36,7 +36,6 @@ manager: "ghogen"
 # How to: Use the Modules Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 NOTE]
 >  This feature is not available for SQL or script debugging.  
   

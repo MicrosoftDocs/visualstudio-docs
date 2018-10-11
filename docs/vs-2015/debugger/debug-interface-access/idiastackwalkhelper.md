@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Facilitates walking the stack using the program debug database (.pdb) file.  
   
 ## Syntax  

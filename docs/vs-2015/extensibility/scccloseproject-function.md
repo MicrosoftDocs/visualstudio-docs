@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccCloseProject Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function closes a project, marking the end of a particular session.  
   
 ## Syntax  

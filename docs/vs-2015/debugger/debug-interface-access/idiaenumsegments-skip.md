@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Skips a specified number of segments in an enumeration sequence.  
   
 ## Syntax  

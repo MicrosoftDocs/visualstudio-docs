@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findLinesByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the lines in a specified compiland that contain a specified address.  
   
 ## Syntax  

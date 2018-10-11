@@ -26,7 +26,6 @@ manager: "douge"
 # UML Use Case Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In Visual Studio, a *use case diagram* summarizes who uses your application or system, and what they can do with it. To create a UML use case diagram, on the **Architecture** menu, click **New UML or Layer Diagram**.  
   
  A use case diagram acts as a focus for the description of user requirements. It describes the relationships between requirements, users, and the major components. It does not describe the requirements in detail; these can be described in separate diagrams or in documents that can be linked to each use case. For information about how use case diagrams can help you understand, discuss and communicate your users' needs, see [Model user requirements](../modeling/model-user-requirements.md).  

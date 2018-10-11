@@ -22,7 +22,6 @@ manager: "ghogen"
 # BuildProjectOnLoad (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies whether to build the project immediately after it's created.  
   
  \<VSTemplate>  

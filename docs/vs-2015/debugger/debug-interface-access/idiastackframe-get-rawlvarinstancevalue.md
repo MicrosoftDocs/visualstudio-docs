@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_rawLVarInstanceValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This method retrieves the value of the specified local variable as raw bytes.  
   
 ## Syntax  

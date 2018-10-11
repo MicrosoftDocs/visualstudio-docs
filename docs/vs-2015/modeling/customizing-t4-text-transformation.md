@@ -19,7 +19,6 @@ manager: "douge"
 # Customizing T4 Text Transformation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Text templates are a feature of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that allow you to generate program code or other text files through a transformation process. Using [!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)], you can extend the default template transformation process by customizing the text template directive processor or the text template host.  
   
 ## In This Section  

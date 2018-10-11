@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccRemove Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function deletes files from the source control system.  
   
 ## Syntax  

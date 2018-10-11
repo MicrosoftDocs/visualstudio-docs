@@ -16,7 +16,6 @@ manager: "douge"
 # T4 Template Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts with a `template` directive, which specifies how the template should be processed. There should be no more than one template directive in a text template and any files that it includes.  
   
  For a general overview of writing text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2124: Wrap vulnerable finally clauses in outer try
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|WrapVulnerableFinallyClausesInOuterTry|

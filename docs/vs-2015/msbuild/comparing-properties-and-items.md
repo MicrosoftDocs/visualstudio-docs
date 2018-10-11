@@ -21,7 +21,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
   
 -   Properties are name-value pairs. For more information, see [MSBuild Properties](msbuild-properties1.md).  

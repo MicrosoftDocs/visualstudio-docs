@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugFunctionObject::Evaluate
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Calls the function and returns the resulting value as an object.  
   
 ## Syntax  

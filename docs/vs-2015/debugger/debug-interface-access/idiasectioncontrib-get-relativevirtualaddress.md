@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_relativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the image relative virtual address (RVA) of the contribution.  
   
 ## Syntax  

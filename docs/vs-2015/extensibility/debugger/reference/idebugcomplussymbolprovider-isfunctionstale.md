@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::IsFunctionStale
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the function at the specified debug address is considered stale.  
   
 ## Syntax  

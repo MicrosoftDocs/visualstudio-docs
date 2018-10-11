@@ -20,7 +20,6 @@ manager: "douge"
 # Testing a Large Application with Multiple UI Maps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic discusses how to use coded UI tests when you are testing a large application by using multiple UI maps.  
   
  **Requirements**  

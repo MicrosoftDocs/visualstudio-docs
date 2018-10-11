@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSession::findAcceleratorInlineesByLinenum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns an enumeration of symbols for inline frames that correspond to the specified source location.  
   
 ## Syntax  

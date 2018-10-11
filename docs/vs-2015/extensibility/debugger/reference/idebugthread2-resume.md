@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::Resume
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Resumes execution of a thread.  
   
 ## Syntax  

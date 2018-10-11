@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugArrayObject::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the count of elements in the array.  
   
 ## Syntax  

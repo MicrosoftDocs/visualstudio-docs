@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: Kerberos Authentication Failed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you try to do remote debugging, you might get the following error message:  
   
 ```  

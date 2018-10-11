@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDE-Defined Commands for Extending Project Systems
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 When you want to extend project systems, you can use commands and command groups provided by the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE.  
   
  The following sections list command items that are especially useful for extending project systems.  

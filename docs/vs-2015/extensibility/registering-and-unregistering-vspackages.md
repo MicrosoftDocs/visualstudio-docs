@@ -20,7 +20,6 @@ manager: "ghogen"
 # Registering and Unregistering VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You use attributes to register a VSPackage, but  
   
 ## Registering a VSPackage  

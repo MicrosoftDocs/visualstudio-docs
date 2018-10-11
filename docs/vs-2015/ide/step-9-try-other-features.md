@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 9: Try Other Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To learn more, try changing icons and colors, adding a game timer, and adding sounds. To make the game more challenging, try making the board bigger and adjusting the timer.  
   
  To download a completed version of the sample, see [Complete Matching Game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  

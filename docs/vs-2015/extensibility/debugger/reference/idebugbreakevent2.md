@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed.  
   
 ## Syntax  

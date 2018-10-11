@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramPublisher2::SetDebuggerPresent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Tells the program publisher that a debugger is present and running.  
   
 ## Syntax  

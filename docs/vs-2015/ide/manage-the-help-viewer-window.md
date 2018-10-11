@@ -21,7 +21,6 @@ manager: "ghogen"
 # Manage the Help Viewer Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the Help Viewer you can customize the window layout.  
   
 ## Docking Tabs  

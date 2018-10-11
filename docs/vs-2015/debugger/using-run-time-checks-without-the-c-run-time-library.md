@@ -36,7 +36,6 @@ manager: "ghogen"
 # Using Run-Time Checks Without the C Run-Time Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you link your program without the C run-time library, using **/NODEFAULTLIB**, and want to use run-time checks, you must link with RunTmChk.lib.  
   
  `_RTC_Initialize` initializes your program for run-time checks. If you do not link with the C run-time library, you must check to see whether your program is compiled with run-time error checks before calling `_RTC_Initialize`, as follows:  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Structures and Unions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The following are structures and unions in the Visual Studio Debugging SDK.  
   
  [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)  

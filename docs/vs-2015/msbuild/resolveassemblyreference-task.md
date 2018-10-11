@@ -31,7 +31,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Determines all assemblies that depend on the specified assemblies. This includes second and `n`th-order dependencies.  
   
 ## Parameters  

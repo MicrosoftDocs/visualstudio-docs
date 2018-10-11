@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerates the various segments contained in the data source.  
   
 ## Syntax  

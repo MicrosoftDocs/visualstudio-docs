@@ -24,7 +24,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Begins debugging the startup project.  
   
 ## Syntax  

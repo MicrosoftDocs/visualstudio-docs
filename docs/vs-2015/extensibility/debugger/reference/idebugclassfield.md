@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugClassField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a class as a type.  
   
 ## Syntax  

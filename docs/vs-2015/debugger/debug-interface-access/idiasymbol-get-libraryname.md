@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_libraryName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the file name of the library or object file from which the object was loaded.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: Missing Objects Due to Vertex Shading
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics tools to investigate an object that is missing due to an error that occurs during the vertex shader stage.  
   
  This walkthrough illustrates these tasks:  

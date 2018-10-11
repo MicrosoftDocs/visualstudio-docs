@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the virtual address (VA) of the code for the frame.  
   
 ## Syntax  

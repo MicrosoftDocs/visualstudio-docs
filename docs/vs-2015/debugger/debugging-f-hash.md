@@ -26,7 +26,6 @@ manager: "ghogen"
 # Debugging F# #
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Debugging F# is similar to debugging any managed language, with a few exceptions:  
   
 -   The **Autos** window does not display F# variables.  

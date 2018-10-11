@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Install a Source Control Plug-in
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Creating a source-control plug-in involves three steps:  
   
 1.  Create a DLL with the functions defined in the Source Control Plug-in API reference section of this documentation.  

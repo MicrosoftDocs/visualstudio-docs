@@ -24,7 +24,6 @@ manager: "ghogen"
 # GUIDs and IDs of Visual Studio Menus
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This topic enumerates the GUID and ID values of the menus and groups on the Visual Studio menu bar. These values are defined in .vsct files that are installed as part of the Visual Studio SDK. For more information, see [IDE-Defined Commands, Menus, and Groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).  
   
  For more information about how to work with integrated development environment (IDE) objects that are defined in .vsct files, see [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md).  

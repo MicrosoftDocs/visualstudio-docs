@@ -18,7 +18,6 @@ manager: "ghogen"
 # 16bpp Render Target Format Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Sets the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and back buffers.  
   
 ## Interpretation  

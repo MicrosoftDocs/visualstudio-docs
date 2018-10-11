@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerDataProvider::GetObjectForVisualizer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the object that this visualizer represents.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # CANSTOP_REASON
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Used to determine if a program can stop execution after reaching a particular point in the execution.  
   
 ## Syntax  

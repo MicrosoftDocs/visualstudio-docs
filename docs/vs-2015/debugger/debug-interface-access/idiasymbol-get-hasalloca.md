@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasAlloca
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function contains a call to `alloca` (which is used to allocate memory on the stack).  
   
 ## Syntax  

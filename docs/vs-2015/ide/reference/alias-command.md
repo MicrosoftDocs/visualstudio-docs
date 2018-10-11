@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Creates a new alias for a complete command, complete command and arguments, or another alias.  
   
 > [!TIP]

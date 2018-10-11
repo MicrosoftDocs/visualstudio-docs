@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::GetBreakpointRequest
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the breakpoint request that was used to create this pending breakpoint.  
   
 ## Syntax  

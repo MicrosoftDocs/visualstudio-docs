@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugModule2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a module—that is, an executable unit of a program—such as a DLL.  
   
 ## Syntax  

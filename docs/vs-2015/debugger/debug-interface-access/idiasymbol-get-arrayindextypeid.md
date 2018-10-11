@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_arrayIndexTypeId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the array index type identifier of the symbol.  
   
 ## Syntax  

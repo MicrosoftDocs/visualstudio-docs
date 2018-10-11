@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder3::GetAllAliases
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method retrieves a list of aliases from the program.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortNotify2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface registers or unregisters a program that can be debugged with the port it is running on.  
   
 ## Syntax  

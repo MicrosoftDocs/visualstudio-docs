@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0503: Average Working Set in Bytes for the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0503|  
 |Category|Resource Monitoring|  
 |Profiling method|All|  

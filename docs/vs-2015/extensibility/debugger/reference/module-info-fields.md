@@ -21,7 +21,6 @@ manager: "ghogen"
 # MODULE_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the flags for the debug module information.  
   
 ## Syntax  

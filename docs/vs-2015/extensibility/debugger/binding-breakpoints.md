@@ -19,7 +19,6 @@ manager: "ghogen"
 # Binding Breakpoints
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 If the user sets a breakpoint, perhaps by pressing F9, the IDE formulates the request and prompts the debug session to create the breakpoint.  
   
 ## Setting a Breakpoint  

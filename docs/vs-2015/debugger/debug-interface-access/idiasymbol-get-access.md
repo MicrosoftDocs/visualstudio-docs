@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_access
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the access modifier of a class member.  
   
 ## Syntax  

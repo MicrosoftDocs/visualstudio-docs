@@ -18,7 +18,6 @@ manager: "ghogen"
 # Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes the procedures and options for collecting detailed performance data for Windows services using the instrumentation method from the command line.  
   
 ## Common Tasks  

@@ -35,7 +35,6 @@ manager: "wpickett"
 # &lt;dependency&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies the version of the application to install, and the location of the application manifest.  
   
 ## Syntax  

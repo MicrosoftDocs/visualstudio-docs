@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess3::Step
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Causes the process to step one instruction or statement.  
   
 > [!NOTE]

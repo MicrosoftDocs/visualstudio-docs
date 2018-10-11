@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugGenericFieldInstance
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents an instance of a field for a managed code generic type.  
   
 ## Syntax  

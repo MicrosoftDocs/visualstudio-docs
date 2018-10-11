@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetDocument
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the source document associated with this input stream.  
   
 ## Syntax  

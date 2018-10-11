@@ -32,7 +32,6 @@ manager: "ghogen"
 # Context Operator (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.  
   
 ##  <a name="BKMK_Using_context_operators_to_specify_a_symbol"></a> Syntax  

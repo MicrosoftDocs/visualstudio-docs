@@ -21,7 +21,6 @@ manager: "ghogen"
 # Icon Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the path and the filename of the image file that serves as the icon, which appears in either the **New Project** or the **Add New Item** dialog box, for the template.  
   
  \<VSTemplate>  

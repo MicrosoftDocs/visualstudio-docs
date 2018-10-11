@@ -27,7 +27,6 @@ manager: "ghogen"
 # Error: The web server is not configured correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Possible causes of this error include:  
   
 -   Trying to debug a .NET Web application that was copied to a different machine, manually renamed, or moved.  

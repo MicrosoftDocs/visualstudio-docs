@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugStopCompleteEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped.  
   
 ## Syntax  

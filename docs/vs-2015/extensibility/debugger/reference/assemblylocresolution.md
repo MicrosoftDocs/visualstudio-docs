@@ -21,7 +21,6 @@ manager: "ghogen"
 # ASSEMBLYLOCRESOLUTION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies where an assembly is located.  
   
 ## Syntax  

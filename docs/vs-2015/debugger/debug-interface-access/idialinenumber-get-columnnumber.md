@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_columnNumber
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the column number where the expression or statement begins.  
   
 ## Syntax  

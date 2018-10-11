@@ -18,7 +18,6 @@ manager: "ghogen"
 # UnInit
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Finalizes the graphics log file, closes it, and frees resources that were used while the app was actively recording graphics information.  
   
 ## Syntax  

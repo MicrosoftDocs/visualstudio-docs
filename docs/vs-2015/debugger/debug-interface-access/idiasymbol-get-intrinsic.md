@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_intrinsic
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether a class is an intrinsic type.  
   
 ## Syntax  

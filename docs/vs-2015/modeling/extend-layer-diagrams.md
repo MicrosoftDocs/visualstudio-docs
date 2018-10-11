@@ -21,7 +21,6 @@ manager: "douge"
 # Extend layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can write code to create and update layer diagrams, and to validate the structure of your program code against layer diagrams in Visual Studio. You can add commands that appear in the shortcut (context) menu of the diagrams, customize drag-and-drop gestures, and access the layer model from text templates. You can package these extensions into a Visual Studio Integration Extension (VSIX) and distribute them to other Visual Studio users.  
   
  For more information about layer diagrams, see:  

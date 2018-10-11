@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide::ResolveAssemblyRef
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines the location of the specified managed assembly reference.  
   
 ## Syntax  

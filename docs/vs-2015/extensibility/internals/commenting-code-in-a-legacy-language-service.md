@@ -20,7 +20,6 @@ manager: "ghogen"
 # Commenting Code in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Programming languages typically provide a means to annotate or comment the code. A comment is a section of text that provides additional information about the code but is ignored during compilation or interpretation.  
   
  The managed package framework (MPF) classes provide support for commenting and uncommenting selected text.  

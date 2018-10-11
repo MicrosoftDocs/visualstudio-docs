@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramHost2::GetHostId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the process identifier of the process hosting this program.  
   
 ## Syntax  

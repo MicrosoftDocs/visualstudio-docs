@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_timeStamp
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the timestamp of the underlying executable file.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasManagedCode
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag indicating whether the module contains managed code.  
   
 ## Syntax  

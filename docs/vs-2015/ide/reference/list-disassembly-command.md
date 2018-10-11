@@ -24,7 +24,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Begins the debug process and allows you to specify how errors are handled.  
   
 ## Syntax  

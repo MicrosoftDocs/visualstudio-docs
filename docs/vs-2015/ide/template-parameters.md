@@ -23,7 +23,6 @@ manager: "ghogen"
 # Template Parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By using parameters in your templates, you can replace the values of key portions of the template, such as class names and namespaces, when the template is instantiated. These parameters are replaced by the template wizard that runs in the background when a user clicks **OK** in the **New Project** or **Add New Item** dialog boxes.  
   
 ## Declaring and Enabling Template Parameters  

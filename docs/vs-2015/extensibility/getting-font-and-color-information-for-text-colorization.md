@@ -20,7 +20,6 @@ manager: "ghogen"
 # Getting Font and Color Information for Text Colorization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The process that renders or displays colorized text in user interface (UI) elements depends on the type of project, its technology, and developer preferences. The **Fonts and Colors** property page stores the settings.  
   
  Most implementations that display colorized text need the `T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults` and associated interfaces for presenting, retrieving, and storing text display settings.  

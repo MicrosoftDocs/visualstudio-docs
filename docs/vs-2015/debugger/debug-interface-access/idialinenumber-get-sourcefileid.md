@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_sourceFileId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a unique source file identifier for the source file that contributed this line.  
   
 ## Syntax  

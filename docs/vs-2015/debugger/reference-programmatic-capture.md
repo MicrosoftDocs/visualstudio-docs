@@ -18,7 +18,6 @@ manager: "ghogen"
 # Reference (Programmatic Capture)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Graphics Diagnostics supports programmatic control over its capture features, through the programmatic capture API. You can use this API to toggle and add messages to the graphics diagnostics HUD (Head-Up Display), initialize and create graphics log files, and capture graphics information.  
   
 ## Programmatic Capture APIs  

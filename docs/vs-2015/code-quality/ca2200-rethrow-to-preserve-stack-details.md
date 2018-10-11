@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2200: Rethrow to preserve stack details
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|RethrowToPreserveStackDetails|

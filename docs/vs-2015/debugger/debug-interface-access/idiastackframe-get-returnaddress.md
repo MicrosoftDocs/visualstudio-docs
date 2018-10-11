@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_returnAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the return address of the frame.  
   
 ## Syntax  

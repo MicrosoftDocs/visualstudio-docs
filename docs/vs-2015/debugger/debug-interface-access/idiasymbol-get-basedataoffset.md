@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_baseDataOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the base data offset.  
   
 ## Syntax  

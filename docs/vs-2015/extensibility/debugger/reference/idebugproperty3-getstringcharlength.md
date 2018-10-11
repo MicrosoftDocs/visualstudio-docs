@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::GetStringCharLength
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the number of characters in the associated property's string.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumStackFrames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerates the various stack frames available.  
   
 ## Methods in Vtable Order  

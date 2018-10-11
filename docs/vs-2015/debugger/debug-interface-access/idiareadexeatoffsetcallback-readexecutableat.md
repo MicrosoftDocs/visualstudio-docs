@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaReadExeAtOffsetCallback::ReadExecutableAt
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Reads the specified number of bytes starting at the specified offset from an executable file.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetReference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns a reference to the property's value.  
   
 ## Syntax  

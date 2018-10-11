@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::Terminate
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Terminates the process.  
   
 ## Syntax  

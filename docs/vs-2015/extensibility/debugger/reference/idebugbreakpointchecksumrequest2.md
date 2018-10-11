@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugBreakpointChecksumRequest2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a document checksum for a breakpoint request.  
   
 ## Syntax  

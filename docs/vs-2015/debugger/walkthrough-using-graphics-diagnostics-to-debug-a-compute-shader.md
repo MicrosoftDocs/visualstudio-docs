@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics tools to investigate a compute shader that generates incorrect results.  
   
  This walkthrough illustrates these tasks:  

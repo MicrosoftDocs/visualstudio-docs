@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isCTypes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag indicating whether the symbol file contains C types.  
   
 ## Syntax  

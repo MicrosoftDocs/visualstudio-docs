@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to Unlock Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can evaluate Visual Studio for free up to 30 days. When you sign into the IDE you can extend the trial period by 90 days. To continue using Visual Studio you can unlock the IDE by  
   
 1.  using an online subscription.  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbolsByAddr::symbolByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Positions the enumerator by performing a lookup by image section number and offset.  
   
 ## Syntax  

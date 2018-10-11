@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugPrograms2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enumerates the programs running in the current debug session.  
   
 ## Syntax  

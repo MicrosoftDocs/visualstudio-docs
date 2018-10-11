@@ -16,7 +16,6 @@ manager: "douge"
 # API Reference for Modeling SDK for Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSL) and the UML tools are built.  
   
 > [!NOTE]

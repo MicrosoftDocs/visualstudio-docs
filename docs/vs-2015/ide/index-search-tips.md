@@ -23,7 +23,6 @@ manager: "ghogen"
 # Index Search Tips
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can locate information in the Index by entering keywords. This topic suggests useful ways to search Help using the Index.  
   
 ## Index Search Tips  

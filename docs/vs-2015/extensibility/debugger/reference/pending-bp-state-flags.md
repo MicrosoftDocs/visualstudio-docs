@@ -21,7 +21,6 @@ manager: "ghogen"
 # PENDING_BP_STATE_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the pending breakpoint state flags.  
   
 ## Syntax  

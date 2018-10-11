@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_signature
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol's signature value.  
   
 ## Syntax  

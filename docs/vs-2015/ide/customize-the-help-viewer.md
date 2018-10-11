@@ -23,7 +23,6 @@ manager: "ghogen"
 # Customize the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can configure several features of the Help Viewer by using the **Viewer Options** dialog box.  
   
 ## Setting Viewer Options  

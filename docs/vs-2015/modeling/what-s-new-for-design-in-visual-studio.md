@@ -21,8 +21,6 @@ manager: "douge"
 ---
 # What's new for design in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 This release of Visual Studio includes the following improvements to help you better understand and design code.
 
  **Code maps and dependency graphs**

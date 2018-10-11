@@ -27,7 +27,6 @@ manager: "ghogen"
 # Output Window, Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can specify which types of debugging information appear in the **Output** window. To display these options, open the **Tools** menu, click **Options**, expand the **Debugging** node, and click **Output Window**.  
   
  **General Output Settings**  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualBaseDispIndex
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the index of the symbol in the virtual base displacement table.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2::GetPort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a port from a port supplier.  
   
 ## Syntax  

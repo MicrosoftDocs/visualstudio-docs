@@ -24,7 +24,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process is defined by a series of [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] .targets files that are imported into your project file. One of these imported files, Microsoft.Common.targets, can be extended to allow you to run custom tasks at several points in the build process. This topic explains two methods you can use to extend the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process:  
   
 -   Overriding specific predefined targets defined in Microsoft.Common.targets.  

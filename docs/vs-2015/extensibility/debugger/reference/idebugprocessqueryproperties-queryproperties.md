@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugProcessQueryProperties::QueryProperties
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method queries for a specified property values of the debugging process.  
   
 ## Syntax  

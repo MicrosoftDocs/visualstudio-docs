@@ -20,7 +20,6 @@ manager: "ghogen"
 # Graphics Pipeline Stages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Graphics Pipeline Stages window helps you understand how an individual draw call is transformed by each stage of the Direct3D graphics pipeline.  
   
  This is the Pipeline Stages window:  

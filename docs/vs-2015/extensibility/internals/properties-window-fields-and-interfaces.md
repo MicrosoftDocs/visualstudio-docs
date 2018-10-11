@@ -19,7 +19,6 @@ manager: "ghogen"
 # Properties Window Fields and Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The model for selection to determine what information is displayed in the **Properties** window is based on the window that has focus in the IDE. Every window, and object within the selected window, can have its selection context object pushed to the global selection context. The environment updates the global selection context with values from a window frame when that window has the focus. When the focus changes, so does the selection context.  
   
 ## Tracking Selection in the IDE  

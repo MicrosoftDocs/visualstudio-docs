@@ -25,7 +25,6 @@ manager: "ghogen"
 # Collecting tier interaction data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Tier interaction profiling provides additional information about the execution times of functions of multi-tiered applications that communicate with databases through ADO.NET services. Data is collected only for synchronous function calls.  
   
  **Visual Studio editions**  

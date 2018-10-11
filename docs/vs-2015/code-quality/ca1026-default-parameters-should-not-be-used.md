@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1026: Default parameters should not be used
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DefaultParametersShouldNotBeUsed|

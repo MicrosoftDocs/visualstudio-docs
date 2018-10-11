@@ -20,7 +20,6 @@ manager: "ghogen"
 # Getting Project Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough shows how to displays project properties in a tool window.  
   
 ## Prerequisites  

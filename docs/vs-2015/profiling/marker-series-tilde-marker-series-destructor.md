@@ -22,7 +22,6 @@ manager: "ghogen"
 # marker_series::~marker_series Destructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Destroys marker_series object and releases all allocated resources.  
   
 ## Syntax  

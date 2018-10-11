@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetNextAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the debug address that follows a given debug address in a method.  
   
 ## Syntax  

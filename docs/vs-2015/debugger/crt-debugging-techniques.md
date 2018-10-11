@@ -30,7 +30,6 @@ manager: "ghogen"
 # CRT Debugging Techniques
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you are debugging a program that uses the C run-time library, these debugging techniques might be useful.  
   
 ## In This Section  

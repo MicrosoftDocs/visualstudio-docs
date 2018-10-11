@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_dataCrc
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the cyclic redundancy check (CRC) of the data in the section.  
   
 ## Syntax  

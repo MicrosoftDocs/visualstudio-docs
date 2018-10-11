@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::Read
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Reads instructions starting from the current position in the disassembly stream.  
   
 ## Syntax  

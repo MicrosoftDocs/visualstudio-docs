@@ -20,7 +20,6 @@ manager: "ghogen"
 # Automation Model Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The automation model consists of a set of objects against which you can write a Visual Studio add-in or extension. An add-in is an application that can manipulate the Visual Studio environment and automate common tasks. A Visual Studio extension can create custom Visual Studio components or add to the functionality of standard components such as the text editor.  
   
 ## Objects in the Automation Model  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetCurrentModulesState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves information about the symbol group of which the symbol provider is a member.  
   
 ## Syntax  

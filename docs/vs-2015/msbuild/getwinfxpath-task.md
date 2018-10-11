@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory of the current [!INCLUDE[TLA#tla_winfx](../includes/tlasharptla-winfx-md.md)] runtime.  
   
 ## Task Parameters  

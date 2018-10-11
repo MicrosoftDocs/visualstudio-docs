@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Create Multi-Project Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Multi-project templates act as containers for two or more projects. When a project based on a multi-project template is created from the **New Project** dialog box, every project in the template is added to the solution.  
   
  A multi-project template must include the following items, compressed into a .zip file:  

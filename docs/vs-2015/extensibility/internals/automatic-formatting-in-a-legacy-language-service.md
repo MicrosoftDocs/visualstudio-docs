@@ -19,7 +19,6 @@ manager: "ghogen"
 # Automatic Formatting in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 With automatic formatting, a language service automatically inserts a snippet of code when a user begins to type a known code construct.  
   
 ## Automatic Formatting Behavior  

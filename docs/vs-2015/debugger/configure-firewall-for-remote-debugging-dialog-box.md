@@ -30,7 +30,6 @@ manager: "ghogen"
 # Configure Firewall for Remote Debugging Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This dialog box appears when the Windows Firewall blocks the debugger from receiving information over the network. To continue remote debugging, you must open a hole in the firewall so the debugger can receive information.  
   
 > [!CAUTION]

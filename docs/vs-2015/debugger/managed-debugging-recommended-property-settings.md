@@ -26,7 +26,6 @@ manager: "ghogen"
 # Managed Debugging: Recommended Property Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Certain properties should be set the same way for all managed debugging scenarios.  
   
  The following tables display recommended property settings.  

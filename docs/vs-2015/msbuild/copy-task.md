@@ -32,7 +32,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Copies files to a new location in the file system.  
   
 ## Parameters  

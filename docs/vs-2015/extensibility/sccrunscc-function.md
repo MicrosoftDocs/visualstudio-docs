@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccRunScc Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function invokes the source control administration tool.  
   
 ## Syntax  

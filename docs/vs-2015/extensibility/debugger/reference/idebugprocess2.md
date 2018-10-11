@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a process running on a port. If the port is the local port, then `IDebugProcess2` usually represents a physical process on the local machine.  
   
 ## Syntax  

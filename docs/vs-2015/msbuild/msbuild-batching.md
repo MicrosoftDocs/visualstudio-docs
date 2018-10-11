@@ -22,7 +22,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a target or task one time with each batch.  
   
 ## Task Batching  

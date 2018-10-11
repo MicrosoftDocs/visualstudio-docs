@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEventCallback2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM).  
   
 ## Syntax  

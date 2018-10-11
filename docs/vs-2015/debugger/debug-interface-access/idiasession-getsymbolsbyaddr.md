@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::getSymbolsByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves an enumerator that finds symbols in the order of their addresses.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "douge"
 # UML model element types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can read and manipulate a UML model through a programming interface. This topic summarizes the hierarchy of element types. The hierarchy is the same as that defined in the UML specification.  
   
  The details of each type are provided in [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md).  

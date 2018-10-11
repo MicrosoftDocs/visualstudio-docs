@@ -23,7 +23,6 @@ manager: "ghogen"
 # Performance Explorer Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Performance Explorer** window in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) enables you to configure and start performance sessions by using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools.  
   
  **Requirements**  

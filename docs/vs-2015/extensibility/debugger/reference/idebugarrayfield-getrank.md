@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugArrayField::GetRank
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the rank or number of dimensions of the array.  
   
 ## Syntax  

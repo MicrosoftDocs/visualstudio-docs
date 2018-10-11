@@ -16,7 +16,6 @@ manager: "douge"
 # Run unit tests on UML extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To help keep your code stable through successive changes, we recommend that you write unit tests and perform them as part of a regular build process. For more information, see [Unit Test Your Code](../test/unit-test-your-code.md). To set up tests for Visual Studio modeling extensions, you need some key pieces of information. In summary:  
   
 -   [Setting up a Unit Test for VSIX Extensions](#Host)  

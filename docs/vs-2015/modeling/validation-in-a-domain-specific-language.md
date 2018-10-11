@@ -19,7 +19,6 @@ manager: "douge"
 # Validation in a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 As the author of a domain-specific language (DSL), you can define validation constraints to verify that the model created by the user is meaningful. For example, if your DSL allows users to draw a family tree of people and their ancestors, you could write a constraint that ensures that children have birth dates after their parents.  
   
  You can have the validation constraints execute when the model is saved, when it is opened, and when the user explicitly runs the **Validate** menu command. You can also execute validation under program control. For example, you could execute validation in response to a change in a property value or relationship.  

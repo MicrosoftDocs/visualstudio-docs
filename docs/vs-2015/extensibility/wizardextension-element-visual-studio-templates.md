@@ -22,7 +22,6 @@ manager: "ghogen"
 # WizardExtension Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Contains the registration elements for customizing the template wizard.  
   
  \<VSTemplate>  

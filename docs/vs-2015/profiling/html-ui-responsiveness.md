@@ -29,7 +29,6 @@ manager: "ghogen"
 # HTML UI responsiveness
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to isolate performance problems in your apps using the UI Responsiveness Profiler, a performance tool available for Windows Universal apps.  
   
  The UI Responsiveness Profiler can help you isolate problems such as UI responsiveness issues or platform side effects that typically occur with these symptoms:  

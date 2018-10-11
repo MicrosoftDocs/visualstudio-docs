@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic Lambert Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a lighting shader that implements the classic Lambert lighting model.  
   
  This document demonstrates these activities:  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # CreatePkgDef Utility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Takes a .dll file for a Visual Studio extension as a parameter and creates a .pkgdef file to accompany the .dll. The .pkgdef file contains all the information that would otherwise be written to the system registry when the extension is installed.  
   
 > [!NOTE]

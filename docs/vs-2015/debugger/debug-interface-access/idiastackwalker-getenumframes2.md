@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalker::getEnumFrames2
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a stack frame enumerator for a specific platform type.  
   
 ## Syntax  

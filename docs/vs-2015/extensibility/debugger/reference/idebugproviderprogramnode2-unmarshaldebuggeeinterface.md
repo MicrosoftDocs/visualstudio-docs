@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Obtains a specified interface across process boundaries.  
   
 ## Syntax  

@@ -23,7 +23,6 @@ manager: "douge"
 # T4 Text Template Directives
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Directives provide instructions to the text template transformation engine.  
   
  The syntax of directives is as follows:  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Call Stack Evaluation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In order to view the stack frames of the call stack during break mode , you must implement the [EnumFrameInfo](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) method.  
   
 ## Methods for Evaluation  

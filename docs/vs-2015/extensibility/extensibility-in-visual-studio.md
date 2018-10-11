@@ -15,7 +15,6 @@ manager: "ghogen"
 # Extensibility in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio gives you a lot of extensibility options. You can create your own SDKs, use the Windows, Windows Phone, and Azure SDKs (which are installed as part of Visual Studio), and extend Visual Studio itself.  
   
 ## Extend Visual Studio  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2230: Use params for variable arguments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|UseParamsForVariableArguments|

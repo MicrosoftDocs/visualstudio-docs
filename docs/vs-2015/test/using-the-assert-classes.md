@@ -22,7 +22,6 @@ manager: "douge"
 # Using the Assert Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use the Assert classes of the UnitTestingFramework namespace to verify specific functionality. A unit test method exercises the code of a method in your development code, but it reports the correctness of the code's behavior only if you include Assert statements.  
   
 ## Kinds of Asserts  

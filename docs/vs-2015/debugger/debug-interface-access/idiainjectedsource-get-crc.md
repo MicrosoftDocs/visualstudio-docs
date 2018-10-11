@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_crc
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code.  
   
 ## Syntax  

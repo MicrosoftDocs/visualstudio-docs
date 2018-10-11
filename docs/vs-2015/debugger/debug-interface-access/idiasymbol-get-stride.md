@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_stride
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the stride of the matrix or strided array.  
   
 ## Syntax  

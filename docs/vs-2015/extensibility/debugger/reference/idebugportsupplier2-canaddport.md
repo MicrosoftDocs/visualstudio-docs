@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2::CanAddPort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Verifies that a port supplier can add new ports.  
   
 ## Syntax  

@@ -26,7 +26,6 @@ manager: "ghogen"
 # Error: SQL Can&#39;t Find SSDEBUGPS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 SSDEBUGPS.dll is the SQL Server Debugging Host component.  
   
  This error occurs when you are trying to start debugging, and indicates that the specified file is not present on the [!INCLUDE[sqprsqlong](../includes/sqprsqlong-md.md)] machine. Possible causes are that either Remote Debugging setup was never run, or that somehow this file got deleted.  

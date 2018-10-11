@@ -26,7 +26,6 @@ manager: "ghogen"
 # SDI Server Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you are debugging an SDI server application, you must specify `/Embedding` or `/Automation` in the **Command line arguments** property in the *Project* Property Pages dialog box for C/C++, C#, or Visual Basic projects.  
   
  With these command line arguments, the debugger can launch the server application as though it were launched from a container. Starting the container from Program Manager or File Manager will then cause the container to use the instance of the server started in the debugger.  

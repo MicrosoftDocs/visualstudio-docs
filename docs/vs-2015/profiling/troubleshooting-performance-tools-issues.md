@@ -18,7 +18,6 @@ manager: "ghogen"
 # Troubleshooting Performance Tools Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You might experience one of the following issues when you use the Profiling Tools:  
   
 -   [No Data is Collected by the Profiling Tools](#NoDataCollected)  

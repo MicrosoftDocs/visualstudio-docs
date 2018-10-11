@@ -24,7 +24,6 @@ manager: "wpickett"
 # &lt;customErrorReporting&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies a URI to show when an error occurs.  
   
 ## Syntax  

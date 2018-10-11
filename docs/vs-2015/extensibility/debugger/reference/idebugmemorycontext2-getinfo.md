@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryContext2::GetInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure that describes the context.  
   
 ## Syntax  

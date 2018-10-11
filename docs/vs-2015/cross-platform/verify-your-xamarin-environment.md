@@ -15,7 +15,6 @@ manager: "crdun"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Once the installers have completed (see [Setup and install](../cross-platform/setup-and-install.md)), spend a few minutes to verify that everything is ready to experience Xamarin development.  
   
  Once you have completed these verifications, you can do either or both of the following walkthroughs:  

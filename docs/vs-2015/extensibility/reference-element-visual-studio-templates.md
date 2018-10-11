@@ -22,7 +22,6 @@ manager: "ghogen"
 # Reference Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the assembly reference to add when the item is added to a project.  
   
  \<VSTemplate>  

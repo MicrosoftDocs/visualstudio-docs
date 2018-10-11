@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Exposes the properties of a stack frame.  
   
 ## Syntax  

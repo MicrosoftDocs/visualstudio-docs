@@ -21,7 +21,6 @@ manager: "ghogen"
 # FIELD_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure describes a local variable, parameter, or other field.  
   
 ## Syntax  

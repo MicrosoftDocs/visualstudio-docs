@@ -18,7 +18,6 @@ manager: "ghogen"
 # Tutorial 1: Create a Picture Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this tutorial, you build a program that loads a picture from a file and displays it in a window. You learn how to drag controls like buttons and picture boxes on your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. You learn how to:  
   
 -   Create a new project.  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1046: Do not overload operator equals on reference types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DoNotOverloadOperatorEqualsOnReferenceTypes|

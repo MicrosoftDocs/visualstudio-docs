@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_typeIds
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves an array of compiler-specific type identifier values for this symbol.  
   
 ## Syntax  

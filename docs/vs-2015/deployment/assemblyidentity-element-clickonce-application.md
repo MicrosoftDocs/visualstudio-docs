@@ -26,7 +26,6 @@ manager: "wpickett"
 # &lt;assemblyIdentity&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies the application deployed in a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
   
 ## Syntax  

@@ -23,7 +23,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Compiles and runs the specified project or solution, and then closes the integrated development environment (IDE).  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugModuleLoadEvent2::GetModule
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the module that is being loaded or unloaded.  
   
 ## Syntax  

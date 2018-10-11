@@ -18,7 +18,6 @@ manager: "ghogen"
 # Profiling Tools Usage Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Performance rules in the Profiling Tools Usage category provide guidance for using the profiler to collect data most effectively.  
   
 |||  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Add a Dependency to a VSIX Package
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can set up a VSIX package deployment that installs any dependencies that are not already present on the target computer. To accomplish this, include the VSIX dependencies to the source.extension.vsixmanifest file.  
   
 #### To add a dependency  

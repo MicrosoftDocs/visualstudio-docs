@@ -26,7 +26,6 @@ manager: "wpickett"
 # How to: Include a Data File in a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Each [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application you install is assigned a data directory on the destination computer's local disk where the application can manage its own data. Data files can include files of any type: text files, XML files, or even Microsoft Access database (.mdb) files. The following procedures show you how to add a data file of any type into your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
   
 ### To include a data file by using Mage.exe  

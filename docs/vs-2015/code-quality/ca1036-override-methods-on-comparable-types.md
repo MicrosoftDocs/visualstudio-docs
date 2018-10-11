@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1036: Override methods on comparable types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|OverrideMethodsOnComparableTypes|

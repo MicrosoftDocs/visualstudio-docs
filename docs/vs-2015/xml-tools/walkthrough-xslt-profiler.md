@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The XSLT Profiler creates detailed XSLT performance reports that help measure, evaluate, and target performance-related problems in XSLT code. The XSLT Profiler includes useful hints for XSL and XSLT style sheet optimizations. For XSLT applications that demand maximum performance, this tool can be essential.  
   
 ## Prerequisites  

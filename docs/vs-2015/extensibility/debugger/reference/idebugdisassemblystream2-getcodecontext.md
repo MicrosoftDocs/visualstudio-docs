@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetCodeContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns a code context object corresponding to a specified code location identifier.  
   
 ## Syntax  

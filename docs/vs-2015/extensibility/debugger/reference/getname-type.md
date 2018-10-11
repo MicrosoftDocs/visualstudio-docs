@@ -21,7 +21,6 @@ manager: "ghogen"
 # GETNAME_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the name type of files to retrieve.  
   
 ## Syntax  

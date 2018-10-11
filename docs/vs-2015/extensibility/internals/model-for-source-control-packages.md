@@ -19,7 +19,6 @@ manager: "ghogen"
 # Model for Source Control Packages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following model represents an example of a source control implementation. In the model, you see the interfaces that you must implement and the environment services that you must call. Like all services, you actually call the methods of a particular interface that you obtain by way of the service. The names of the classes are identified to make it easier to see how source control is carried out.  
   
  ![SCC&#95;TUP Examples](../../extensibility/internals/media/scc-tup.gif "SCC_TUP")  

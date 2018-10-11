@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_countLiveRanges
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of valid address ranges associated with the local symbol.  
   
 ## Syntax  

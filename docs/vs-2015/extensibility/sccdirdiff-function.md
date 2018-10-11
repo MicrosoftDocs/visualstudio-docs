@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccDirDiff Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function displays the differences between the current local directory on the client disk and the corresponding project under source control.  
   
 ## Syntax  

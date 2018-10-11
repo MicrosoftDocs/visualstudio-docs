@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkFrame::searchForReturnAddressStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Searches the specified stack frame for a return address at or near the specified address.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # &lt;deprecated&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies a deprecated function or method.  
   
 ## Syntax  

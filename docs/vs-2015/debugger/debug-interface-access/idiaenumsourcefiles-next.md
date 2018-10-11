@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of source files in the enumeration sequence.  
   
 ## Syntax  

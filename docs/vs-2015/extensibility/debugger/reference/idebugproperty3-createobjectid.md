@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::CreateObjectID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a unique ID for this property to ensure that it is unique among all other properties.  
   
 ## Syntax  

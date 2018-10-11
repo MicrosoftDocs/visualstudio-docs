@@ -19,7 +19,6 @@ manager: "ghogen"
 # Document Data and Document View in Custom Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A custom editor consists of two parts: a document data object and a document view object. As the names suggest, the document data object represents the text data to be displayed, and the document view object (or "view") represents one or more windows in which to display the document data object.  
   
 ## Document Data Object  

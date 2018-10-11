@@ -20,7 +20,6 @@ manager: "ghogen"
 # Deploying Custom Start Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.  
   
 ## VSIX Deployment By Using the Start Page Project Template  

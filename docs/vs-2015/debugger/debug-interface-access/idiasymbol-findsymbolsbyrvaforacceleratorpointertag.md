@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function at a specified relative virtual address.  
   
 ## Syntax  

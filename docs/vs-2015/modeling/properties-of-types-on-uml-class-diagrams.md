@@ -20,7 +20,6 @@ manager: "douge"
 # Properties of types on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In a UML Class Diagram, a *type* is a class, an interface, or an enumeration.  
   
 > [!NOTE]

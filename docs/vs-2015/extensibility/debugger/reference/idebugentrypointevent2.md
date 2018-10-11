@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEntryPointEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The debug engine (DE) sends this interface to the session debug manager (SDM) when the program is about to execute its first instruction of user code.  
   
 ## Syntax  

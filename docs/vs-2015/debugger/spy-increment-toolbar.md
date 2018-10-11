@@ -20,7 +20,6 @@ manager: "ghogen"
 # Spy++ Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The toolbar appears under the menu bar in Spy++. To display or hide the toolbar, on the **View** menu, click **Toolbar**.  
   
  The following controls are available on the toolbar.  

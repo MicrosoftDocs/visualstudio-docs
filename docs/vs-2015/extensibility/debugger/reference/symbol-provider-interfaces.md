@@ -21,7 +21,6 @@ manager: "ghogen"
 # Symbol Provider Interfaces
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The following are the Symbol Handling Interfaces for the [!INCLUDE[vsipsdk](../../../includes/vsipsdk-md.md)].  
   
 ## Discussion  

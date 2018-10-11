@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpression2::EvaluateSync
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method evaluates the expression synchronously.  
   
 ## Syntax  

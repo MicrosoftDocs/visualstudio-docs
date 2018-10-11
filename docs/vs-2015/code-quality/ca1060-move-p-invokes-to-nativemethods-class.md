@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1060: Move P/Invokes to NativeMethods class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|MovePInvokesToNativeMethodsClass|

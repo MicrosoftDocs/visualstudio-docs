@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPropertyField::GetPropertyGetter
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the method that gets the property.  
   
 ## Syntax  

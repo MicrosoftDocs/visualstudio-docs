@@ -17,7 +17,6 @@ manager: "douge"
 # Customizing Code Coverage Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By default, the Visual Studio Code Coverage tool analyzes all solution assemblies (.exe/.dll) that are loaded during unit tests. We recommend that you retain this default, because it works well most of the time. For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).  
   
  Before customizing the code coverage behavior, consider some alternatives:  

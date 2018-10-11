@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_lengthBlock
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the length, in bytes, of the block of code described by the frame.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_samplerSlot
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the sampler slot.  
   
 ## Syntax  

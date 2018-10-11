@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the displayable name of the document that contains this document context.  
   
 ## Syntax  

@@ -17,7 +17,6 @@ manager: "douge"
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes generated types, members, and parameters.  
   
  **Requirements**  

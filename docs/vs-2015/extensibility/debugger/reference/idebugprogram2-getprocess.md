@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::GetProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Get the process that this program is running in.  
   
 ## Syntax  

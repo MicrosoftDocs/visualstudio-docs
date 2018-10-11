@@ -18,7 +18,6 @@ manager: "douge"
 # Open a UML model by using the Visual Studio API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can also open models and diagrams in the Visual Studio user interface by using the API.  
   
  If you only want to read a model in program code without making it visible to the user, you can use the following methods:  

@@ -26,7 +26,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Provides a table of all the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] XML Schema elements with their available attributes and child elements.  
   
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] uses project files to instruct the build engine what to build and how to build it. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files are XML files that adhere to the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] XML schema. This section documents the XML schema definition (.xsd) file for [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)].  

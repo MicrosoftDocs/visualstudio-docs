@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_code16bit
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether the section contains 16-bit code.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Identify Symbols in a Library
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Symbol-browsing tools display hierarchical views of symbols. The symbols represent namespaces, objects, classes, class members, and other language elements.  
   
  Each symbol in the hierarchy can be identified by the navigation information passed by the symbol library to the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] object manager through the following interfaces:  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Summary View - Resource Contention View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Summary view displays information about the events in your application in which a thread or process was suspended while it waited for access to a resource.  
   
  For more information, including a description of the Notification Links and Report lists, see [Summary View](../profiling/summary-view.md).  

@@ -20,7 +20,6 @@ manager: "douge"
 # Adding a Tracking Property to a Domain-Specific Language Definition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough shows how to add a tracking property to a domain model.  
   
  A *tracking domain* property is a property that can be updated by the user but which has a default value that is calculated by using the values of other domain properties or elements.  

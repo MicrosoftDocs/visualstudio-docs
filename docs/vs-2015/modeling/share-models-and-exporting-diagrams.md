@@ -19,7 +19,6 @@ manager: "douge"
 # Share models and exporting diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In Visual Studio, you can share models and diagrams with colleagues in several ways.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  

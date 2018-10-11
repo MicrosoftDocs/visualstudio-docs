@@ -19,7 +19,6 @@ manager: "ghogen"
 # COM Constants in Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Managed Package Framework (MPF) makes some standard COM constants available to managed code. These constants are listed below for your reference.  
   
 ## Boolean HRESULT Values  

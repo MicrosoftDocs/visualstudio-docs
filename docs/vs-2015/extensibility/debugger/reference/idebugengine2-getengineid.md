@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::GetEngineID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the GUID of the debug engine (DE).  
   
 ## Syntax  

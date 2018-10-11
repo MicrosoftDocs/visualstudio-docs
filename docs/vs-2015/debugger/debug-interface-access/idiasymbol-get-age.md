@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_age
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the age value of a .pdb file.  
   
 ## Syntax  

@@ -25,7 +25,6 @@ manager: "ghogen"
 # DA0029: Unsupported CLR Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0029|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Profiling from the command line|  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccEndBatch Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function concludes a batch of source control operations. These batches may not be nested.  
   
 ## Syntax  

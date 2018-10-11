@@ -25,7 +25,6 @@ manager: "wpickett"
 # Performance Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Performance warnings support high-performance libraries and applications.  
   
 ## In This Section  

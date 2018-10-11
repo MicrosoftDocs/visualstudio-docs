@@ -22,7 +22,6 @@ manager: "ghogen"
 # Function (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Each function is identified by a `SymTagFunction` symbol.  
   
 ## Properties  

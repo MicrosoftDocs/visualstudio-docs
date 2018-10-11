@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::findChildren
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the children of the symbol.  
   
 ## Syntax  

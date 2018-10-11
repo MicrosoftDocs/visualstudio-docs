@@ -18,7 +18,6 @@ manager: "douge"
 # Text Template Control Blocks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Control blocks let you write code in your text template in order to vary the output. There are three kinds of control blocks, which are distinguished by their opening brackets:  
   
 -   `<# Standard control blocks #>` can contain statements.  

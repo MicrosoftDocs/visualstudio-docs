@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_compiland
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a reference to the compiland symbol that contributed this section.  
   
 ## Syntax  

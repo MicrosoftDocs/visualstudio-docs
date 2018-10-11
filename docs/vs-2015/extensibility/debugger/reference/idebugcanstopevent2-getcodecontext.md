@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCanStopEvent2::GetCodeContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the code context that describes the location of this event.  
   
 ## Syntax  

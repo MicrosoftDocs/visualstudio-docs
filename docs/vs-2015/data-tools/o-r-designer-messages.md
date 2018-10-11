@@ -17,7 +17,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 This topic lists the messages that you can encounter when you work with the O/R Designer.  
   
 ## In This Section  

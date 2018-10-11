@@ -16,7 +16,6 @@ manager: "douge"
 # MSI and VSIX Deployment of a DSL
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] must already be installed on the target computer.  
   
 ##  <a name="which"></a> Choosing between VSIX and MSI Deployment  

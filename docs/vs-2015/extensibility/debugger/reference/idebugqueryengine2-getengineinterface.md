@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugQueryEngine2::GetEngineInterface
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a custom debug engine (DE) interface.  
   
 ## Syntax  

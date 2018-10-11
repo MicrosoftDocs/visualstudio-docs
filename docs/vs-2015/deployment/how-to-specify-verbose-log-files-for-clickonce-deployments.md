@@ -25,7 +25,6 @@ manager: "wpickett"
 # How to: Specify Verbose Log Files for ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment. To increase the detail that [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] writes to these log files, use Registry Editor (**regedit.exe**) to specify the verbosity level.  
   
 > [!CAUTION]

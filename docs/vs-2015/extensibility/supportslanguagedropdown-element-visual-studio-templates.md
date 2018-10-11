@@ -22,7 +22,6 @@ manager: "ghogen"
 # SupportsLanguageDropDown Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies whether the Web item template is identical for multiple languages, and whether the **Language** option is enabled on the **Add New Item** dialog box.  
   
  \<VSTemplate>  

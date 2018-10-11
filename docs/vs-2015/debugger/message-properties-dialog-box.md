@@ -21,7 +21,6 @@ manager: "ghogen"
 # Message Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use this dialog box to find out more about a specific message. To display this dialog box, move the focus to a [Messages View](../debugger/messages-view.md) window. Select any message node in the tree, then choose **Properties** from the **View** menu.  
   
  The **General** tab is the only tab displayed. The following settings are available:  

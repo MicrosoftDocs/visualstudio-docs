@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugModule3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a module that supports alternate locations of symbols and JustMyCode states.  
   
 ## Syntax  

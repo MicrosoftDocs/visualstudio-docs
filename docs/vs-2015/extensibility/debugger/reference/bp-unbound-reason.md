@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_UNBOUND_REASON
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gives the reason a breakpoint was unbound.  
   
 ## Syntax  

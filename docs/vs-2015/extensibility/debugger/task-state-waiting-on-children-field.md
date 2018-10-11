@@ -19,7 +19,6 @@ manager: "ghogen"
 # TASK_STATE_WAITING_ON_CHILDREN Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The task has finished executing its delegate and is implicitly waiting for attached child tasks to complete.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

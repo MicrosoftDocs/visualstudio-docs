@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Attach the Profiler to a Native Stand-Alone Application and Collect Application Statistics by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the Profiler to a running native stand-alone (client) application and collect performance statistics by using the sampling method.  
   
 > [!NOTE]

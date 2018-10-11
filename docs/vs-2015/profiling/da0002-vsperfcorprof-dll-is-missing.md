@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0002: VSPerfCorProf.dll is missing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0002|  
 |Category|Profiling Tools Usage|  
 |Profiling methods|Profiling using the VSPerfCmd and VSPerfASPNETCmd command line tools|  

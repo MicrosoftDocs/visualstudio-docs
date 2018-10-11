@@ -18,7 +18,6 @@ manager: "ghogen"
 # BeginCapture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Begins a capture interval that will end with `EndCapture`.  
   
 ## Syntax  

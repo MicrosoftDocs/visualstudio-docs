@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_offsetInUdt
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the offset to the beginning of a user-defined type (UDT) of a member in the UDT.  
   
 ## Syntax  

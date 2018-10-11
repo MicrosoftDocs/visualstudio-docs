@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::GetProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the program associated with a program node.  
   
 ## Syntax  

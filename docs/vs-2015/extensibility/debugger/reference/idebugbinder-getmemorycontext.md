@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method converts either an object location or a memory address to a memory context.  
   
 ## Syntax  

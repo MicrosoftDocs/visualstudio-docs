@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericParamField::GetConstraints
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the constraints that are associated with this generic parameter.  
   
 ## Syntax  

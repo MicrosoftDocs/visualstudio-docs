@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasEH
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function contains any unmanaged C++-style exception handling (for example, a try/catch block).  
   
 ## Syntax  

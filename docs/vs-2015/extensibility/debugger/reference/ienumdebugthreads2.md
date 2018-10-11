@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugThreads2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interfac enumerates the threads running in the current debug session.  
   
 ## Syntax  

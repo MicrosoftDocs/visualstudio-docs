@@ -16,7 +16,6 @@ manager: "douge"
 # T4 Output Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] text templates, the `output` directive is used to define the file name extension and encoding of the transformed file.  
   
  For example, if your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project includes a template file named **MyTemplate.tt** which contains the following directive:  

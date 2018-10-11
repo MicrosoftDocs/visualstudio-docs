@@ -22,7 +22,6 @@ manager: "ghogen"
 # marker_series::is_enabled Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Determines if any session has enabled the provider.  
   
 ## Syntax  

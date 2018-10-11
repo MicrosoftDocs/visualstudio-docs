@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the type of field.  
   
 ## Syntax  

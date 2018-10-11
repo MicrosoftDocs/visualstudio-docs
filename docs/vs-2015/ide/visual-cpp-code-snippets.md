@@ -18,7 +18,6 @@ manager: "ghogen"
 # Visual C++ Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In Visual Studio, you can use code snippets to add commonly-used code to your C++ code files. In general, you can use code snippets in much the same way as in C#, but the set of default code snippets is different.  
   
  You can either add a code snippet at a particular location in your code (insertion) or surround some selected code with a code snippet.  

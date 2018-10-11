@@ -18,7 +18,6 @@ manager: "ghogen"
 # Designing XAML in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences for XAML-based Windows desktop, web, [Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx), and [Windows Store](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx) apps. Both share a common set of design and tool windows and a XAML editor, but Blend for Visual Studio provides additional design tools for more advanced tasks such as animation and behaviors.  
   
 ## Choosing the Right Tool  

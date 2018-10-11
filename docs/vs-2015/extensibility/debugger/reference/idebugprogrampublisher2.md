@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramPublisher2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface allows a debug engine (DE) or custom port suppliers to register programs for debugging.  
   
 ## Syntax  

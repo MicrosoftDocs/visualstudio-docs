@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaReadExeAtRVACallback::ReadExecutableAtRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Reads the specified number of bytes starting at the specified relative virtual address (RVA) from the executable file.  
   
 ## Syntax  

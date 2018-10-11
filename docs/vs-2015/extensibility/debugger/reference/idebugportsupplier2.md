@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface supplies ports to the session debug manager (SDM).  
   
 ## Syntax  

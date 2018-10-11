@@ -19,7 +19,6 @@ manager: "ghogen"
 # Project Type Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../includes/csprcs-md.md)] or [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)]. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] also lets you create your own project types.  
   
  If you just want to add custom commands, editors, or tool windows to [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you can do so without creating a new project type. For more information, see the following topics:  

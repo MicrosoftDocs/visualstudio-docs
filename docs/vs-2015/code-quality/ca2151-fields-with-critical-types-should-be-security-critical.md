@@ -17,8 +17,6 @@ manager: "wpickett"
 ---
 # CA2151: Fields with critical types should be security critical
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName||

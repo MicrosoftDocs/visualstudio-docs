@@ -29,7 +29,6 @@ manager: "wpickett"
 # Troubleshooting Specific Errors in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic lists the following common errors that can occur when you deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, and provides steps to resolve each problem.  
   
 ## General Errors  

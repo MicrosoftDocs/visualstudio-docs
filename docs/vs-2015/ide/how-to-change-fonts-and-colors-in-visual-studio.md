@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Change Fonts and Colors in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can customize the color of the IDE frame and tool windows in Visual Studio in several ways.  
   
 > [!TIP]

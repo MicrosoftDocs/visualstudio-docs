@@ -19,7 +19,6 @@ manager: "ghogen"
 # Extending Other Parts of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There are many more parts of the Visual Studio UI that you can extend. Here we show you just a few.  
   
 ## Creating a VSPackage  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Performance Rules by ID
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Warning|Description|  
 |-------------|-----------------|  
 |[DA0001: Use StringBuilder for concatenations](../profiling/da0001-use-stringbuilder-for-concatenations.md)|Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.|  

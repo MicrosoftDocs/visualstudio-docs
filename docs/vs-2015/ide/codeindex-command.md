@@ -22,7 +22,6 @@ manager: "ghogen"
 # CodeIndex Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use the **CodeIndex** command to manage code indexing on Team Foundation Server. For example, you might want to reset the index to fix CodeLens information, or turn off indexing to investigate server performance issues.  
   
  **Required Permissions**  

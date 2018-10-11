@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::GetConnectionProtocol
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.  
   
 ## Syntax  

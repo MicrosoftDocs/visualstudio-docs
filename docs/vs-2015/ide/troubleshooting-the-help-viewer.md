@@ -21,7 +21,6 @@ manager: "ghogen"
 # Troubleshooting the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic discusses issues that you might encounter with the Help Viewer.  
   
 ## Audio doesn't work.  

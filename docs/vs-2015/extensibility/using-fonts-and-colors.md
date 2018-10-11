@@ -23,7 +23,6 @@ manager: "ghogen"
 # Using Fonts and Colors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] provides support for using fonts and colors to display text.  
   
 ## In This Section  

@@ -18,7 +18,6 @@ manager: "douge"
 # Security of Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Text templates have the following security concerns:  
   
 -   Text templates are vulnerable to arbitrary code insertions.  

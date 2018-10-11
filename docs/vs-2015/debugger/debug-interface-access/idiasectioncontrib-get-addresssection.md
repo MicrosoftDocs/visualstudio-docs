@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_addressSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the section part of the contribution's address.  
   
 ## Syntax  

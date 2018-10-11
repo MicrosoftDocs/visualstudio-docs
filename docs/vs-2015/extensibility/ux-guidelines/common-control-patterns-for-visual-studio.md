@@ -17,7 +17,6 @@ manager: "ghogen"
 # Common Control Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 ##  <a name="BKMK_CommonControls"></a> Common controls  
   
 ### Overview  

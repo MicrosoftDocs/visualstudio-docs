@@ -19,7 +19,6 @@ manager: "ghogen"
 # Debug Session
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In terms of the debugger architecture, a **session**:  
   
 -   Is the set of all processes, related or unrelated, that have been launched or attached to from a single instance of the IDE.  

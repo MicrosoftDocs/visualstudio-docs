@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_lengthProlog
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of bytes of prologue code in the block.  
   
 ## Syntax  

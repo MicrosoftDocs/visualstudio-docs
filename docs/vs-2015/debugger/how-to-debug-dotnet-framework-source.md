@@ -25,7 +25,6 @@ manager: "ghogen"
 # How to: Debug .NET Framework Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The most recent version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides new features for [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] debugging. To debug [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] source, you must have access to debugging symbols for the code. You also need to enable stepping into [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] source.  
   
  You can enable [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] stepping and symbol downloading in the **Options** dialog box. When you enable symbol downloading, you can choose to download symbols immediately or just enable the option for later downloading. If you do not download the symbols immediately, symbols will be downloaded the next time that you start debugging your application. You also can do a manual download from the **Modules** window or the **Call Stack** window.  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugDocumentPositionOffset2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a position in a source file as a character offset.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::ContinueFromSynchronousEvent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed.  
   
 ## Syntax  

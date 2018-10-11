@@ -31,7 +31,6 @@ manager: "ghogen"
 # How Can I Find Out If My Pointers Corrupt a Memory Address?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Problem Description  
  I think that one of my pointers may be corrupting memory at address 0x00408000. How can I find out what is happening there?  
   

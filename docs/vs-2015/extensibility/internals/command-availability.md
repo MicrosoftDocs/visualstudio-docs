@@ -20,7 +20,6 @@ manager: "ghogen"
 # Command Availability
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The Visual Studio context determines which commands are available. The context can change depending on the current project, the current editor, the VSPackages that are loaded, and other aspects of the integrated development environment (IDE).  
   
 ## Command Contexts  

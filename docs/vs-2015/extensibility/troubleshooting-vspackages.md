@@ -20,7 +20,6 @@ manager: "ghogen"
 # Troubleshooting VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Following are common problems that you might have with your VSPackage and tips to resolve the issues.  
   
 ### To troubleshoot a VSPackage that keeps Visual Studio from starting  

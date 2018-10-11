@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_notReached
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function or label is never reached.  
   
 ## Syntax  

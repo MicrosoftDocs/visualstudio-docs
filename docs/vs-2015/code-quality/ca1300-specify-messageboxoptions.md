@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1300: Specify MessageBoxOptions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|SpecifyMessageBoxOptions|

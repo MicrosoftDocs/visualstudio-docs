@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSession::findInlineFramesByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified relative virtual address (RVA).  
   
 ## Syntax  

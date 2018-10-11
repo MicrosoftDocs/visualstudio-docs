@@ -23,7 +23,6 @@ manager: "ghogen"
 # Run Windows Store apps in the simulator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio simulator for Windows Store apps is a desktop application that simulates a Windows Store app. You can run applications and simulate common touch and rotation events on your development computer. You can also choose the physical screen size and resolution that you want to emulate and simulate network connection properties.  
   
  The simulator provides an environment in which you can design, develop, debug, and test Windows Store apps. However, before you publish your app to the Windows Store, you should test your app on an actual device.  

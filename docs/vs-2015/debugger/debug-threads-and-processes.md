@@ -29,7 +29,6 @@ manager: "ghogen"
 # Debug Threads and Processes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Threads* and *processes* are related concepts in computer science. Both represent sequences of instructions that must execute in a specific order. Instructions in separate threads or processes, however, can execute in parallel.  
   
  Processes exist in the operating system and correspond to what users see as programs or applications. A thread, on the other hand, exists within a process. For this reason, threads are sometimes referred to as *light-weight processes*. Each process consists of one or more threads.  

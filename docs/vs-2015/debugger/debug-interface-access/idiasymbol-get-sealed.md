@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_sealed
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the class or method is sealed.  
   
 ## Syntax  

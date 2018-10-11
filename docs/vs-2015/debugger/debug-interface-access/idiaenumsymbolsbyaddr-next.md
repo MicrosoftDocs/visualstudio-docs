@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbolsByAddr::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the next symbols in order by address.  
   
 ## Syntax  

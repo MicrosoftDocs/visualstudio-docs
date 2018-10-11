@@ -20,7 +20,6 @@ manager: "ghogen"
 # Supporting Multiple Versions of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The term *side-by-side* means that you can install and maintain multiple versions of a product on the same computer. For VSPackages, that means a user can have several Visual Studio versions installed on the same computer. However, you cannot have side-by-side versions of your VSPackages loaded into a single version of Visual Studio.  
   
  Before you make your VSPackage able to be loaded into side-by-side versions of Visual Studio, consider the following:  

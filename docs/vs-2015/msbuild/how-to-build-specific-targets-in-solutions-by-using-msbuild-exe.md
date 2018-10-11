@@ -23,7 +23,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 You can use MSBuild.exe to build specific targets of specific projects in a solution.  
   
 ### To build a specific target of a specific project in a solution  

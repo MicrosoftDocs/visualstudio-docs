@@ -16,7 +16,6 @@ manager: "douge"
 # Creating a Windows Forms-Based Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL, using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK.  
   
  ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png "DSL-Wpf-2")  

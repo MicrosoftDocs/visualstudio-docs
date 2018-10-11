@@ -18,7 +18,6 @@ manager: "ghogen"
 # 0x/2x/4x MSAA Variants
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and swap chains.  
   
 ## Interpretation  

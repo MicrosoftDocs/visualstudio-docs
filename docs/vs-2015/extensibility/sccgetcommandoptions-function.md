@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccGetCommandOptions Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function prompts the user for advanced options for a given command.  
   
 ## Syntax  

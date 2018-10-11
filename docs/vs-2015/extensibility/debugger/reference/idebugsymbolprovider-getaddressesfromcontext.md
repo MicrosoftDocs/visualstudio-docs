@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetAddressesFromContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method maps a document context into an array of debug addresses.  
   
 ## Syntax  

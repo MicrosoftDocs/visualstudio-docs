@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the thread associated with a stack frame.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_unmodifiedTypeId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the ID of the original (unmodified) type.  
   
 ## Syntax  

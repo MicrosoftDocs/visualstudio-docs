@@ -27,7 +27,6 @@ manager: "ghogen"
 # How to: Enable Debugging for ASP.NET Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To enable debugging, you must enable it in both the **Project Properties** page and in the application's web.config file.  
   
 > [!NOTE]  

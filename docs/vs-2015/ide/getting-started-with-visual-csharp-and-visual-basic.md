@@ -25,7 +25,6 @@ manager: "ghogen"
 # Getting Started with Visual C# and Visual Basic
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Whether you are new to Visual C# or Microsoft Visual Basic, this is the place to start. Getting Started Help is a series of sequential lessons that introduces you to Visual C# and Visual Basic. Have fun, and write some great software.  
   
  To learn about Visual C++, see [Visual C++ resources](http://msdn.microsoft.com/vstudio/hh386302.aspx).  

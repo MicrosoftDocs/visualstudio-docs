@@ -30,7 +30,6 @@ manager: "ghogen"
 # Find in Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Find in Files** allows you to search a specified set of files. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.  
   
  You can use any of the following methods to display **Find in Files** in the **Find and Replace** window.  

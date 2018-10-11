@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2121: Static constructors should be private
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|StaticConstructorsShouldBePrivate|

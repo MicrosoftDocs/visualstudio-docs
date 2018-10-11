@@ -20,7 +20,6 @@ manager: "ghogen"
 # Summary View - Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Summary view displays information about the most performance-expensive functions in a profiling run. For more information, including a description of the Notification Links and Report lists, see [Summary View](../profiling/summary-view.md).  
   
 ## Timeline Graph  

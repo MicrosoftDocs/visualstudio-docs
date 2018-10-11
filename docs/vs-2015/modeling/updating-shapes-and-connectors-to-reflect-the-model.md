@@ -16,7 +16,6 @@ manager: "douge"
 # Updating Shapes and Connectors to Reflect the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In a domain-specific language in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can make the appearance of a shape reflect the state of the underlying model.  
   
  The code examples in this topic should be added to a `.cs` file in your `Dsl` project. You will need these statements in each file:  

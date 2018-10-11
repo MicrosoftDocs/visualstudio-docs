@@ -20,7 +20,6 @@ manager: "ghogen"
 # Custom User Interface (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A VSPackage declares its menu items and their default states through the Visual Studio Command Table (.vsct) file. The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) displays the menu items in their default states until the VSPackage is loaded. Subsequently, the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method is called to enable or disable menu items.  
   
  A VSPackage can set a registry key so the VSPackage can be automatically loaded depending on a command user interface (UI) context, although typically a source control VSPackage should load on demand instead of just switching to a particular UI context. For more information about the AutoLoadPackages registry key, see [Managing VSPackages](../../extensibility/managing-vspackages.md).  

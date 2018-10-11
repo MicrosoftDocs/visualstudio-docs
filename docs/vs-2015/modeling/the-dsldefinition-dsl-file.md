@@ -18,7 +18,6 @@ manager: "douge"
 # The DslDefinition.dsl File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes the structure of the DslDefinition.dsl file in the Dsl project of a [!INCLUDE[dsl](../includes/dsl-md.md)] solution, which defines a *domain-specific language*. The DslDefinition.dsl file describes the classes and relationships of a domain-specific language, together with the diagram, shapes, connectors, serialization format, and **Toolbox** of the domain-specific language and its editing tools. In a domain-specific language solution, the code that defines those tools is generated according to the information in the DslDefinition.dsl file.  
   
  Generally, you use the *Domain-Specific Language Designer* to edit the DslDefinition.dsl file. However, its raw form is XML, and you can open a DslDefinition.dsl file in an XML editor. You might find it useful to understand what information the file contains and how it is organized for debugging and extension purposes.  

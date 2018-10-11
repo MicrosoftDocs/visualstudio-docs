@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumCodePaths2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a list of code paths.  
   
 ## Syntax  

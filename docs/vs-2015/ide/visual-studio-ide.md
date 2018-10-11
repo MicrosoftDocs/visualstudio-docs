@@ -15,8 +15,6 @@ manager: "ghogen"
 ---
 # Visual Studio IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 Microsoft Visual Studio 2015 is a suite of tools for creating software, from the planning phase through UI design, coding, testing, debugging, analyzing code quality and performance, deploying to customers, and gathering telemetry on usage. These tools are designed to work together as seamlessly as possible, and are all exposed through the Visual Studio Integrated Development Environment (IDE).
 
 You can use Visual Studio to create many kinds of applications, from simple store apps and games for mobile clients, to large, complex systems that power enterprises and data centers. You can create:

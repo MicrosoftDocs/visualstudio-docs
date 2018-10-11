@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_length
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of bytes in a block.  
   
 ## Syntax  

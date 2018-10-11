@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.  
   
 ### To create a new Visual Basic console application project  

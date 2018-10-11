@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugCodeContext3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Extends the [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) interface to enable the retrieval of module and process interfaces.  
   
 ## Syntax  

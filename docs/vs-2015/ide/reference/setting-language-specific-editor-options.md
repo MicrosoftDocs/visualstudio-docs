@@ -23,7 +23,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] offers a variety of Text Editor options that apply to specific programming languages.  
   
 ## In This Section  

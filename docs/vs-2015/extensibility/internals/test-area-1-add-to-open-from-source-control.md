@@ -20,7 +20,6 @@ manager: "ghogen"
 # Test Area 1: Add To/Open From Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This source-control plug-in test area covers placing solutions or projects under source control and retrieving them from source control.  
   
 ## Command Menu Access  

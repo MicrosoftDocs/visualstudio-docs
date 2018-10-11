@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the server that this process is running on.  
   
 ## Syntax  

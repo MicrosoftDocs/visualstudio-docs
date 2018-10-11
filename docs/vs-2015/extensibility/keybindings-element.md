@@ -22,7 +22,6 @@ manager: "ghogen"
 # KeyBindings Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The KeyBindings element groups KeyBinding elements and other KeyBindings groupings.  
   
 ## Syntax  

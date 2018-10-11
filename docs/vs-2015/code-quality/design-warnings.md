@@ -24,7 +24,6 @@ manager: "wpickett"
 # Design Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Design warnings support adherence to the .NET Framework Design Guidelines.  
   
 ## In This Section  

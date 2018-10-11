@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder::ResolveRuntimeType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method determines the run-time type of an object.  
   
 ## Syntax  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Managed Extensibility Framework in the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.  
   
 ## Overview of the Managed Extensibility Framework  

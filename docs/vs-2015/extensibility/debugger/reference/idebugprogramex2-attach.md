@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramEx2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Attach a session to a program.  
   
 ## Syntax  

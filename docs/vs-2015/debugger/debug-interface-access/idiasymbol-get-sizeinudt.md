@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_sizeInUdt
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the size of a member of a user-defined type.  
   
 ## Syntax  

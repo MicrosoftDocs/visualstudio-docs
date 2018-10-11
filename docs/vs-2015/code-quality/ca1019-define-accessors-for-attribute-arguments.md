@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1019: Define accessors for attribute arguments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DefineAccessorsForAttributeArguments|

@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Writes tracking logs for all threads and contexts.  
   
 ## Syntax  

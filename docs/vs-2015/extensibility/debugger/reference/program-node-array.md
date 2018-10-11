@@ -21,7 +21,6 @@ manager: "ghogen"
 # PROGRAM_NODE_ARRAY
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Contains an array of objects that describe programs of interest.  
   
 ## Syntax  

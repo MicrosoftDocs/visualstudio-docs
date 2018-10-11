@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the title, friendly name, or file name of the process.  
   
 ## Syntax  

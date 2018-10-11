@@ -20,7 +20,6 @@ manager: "ghogen"
 # Servers (Visual Studio SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In terms of the debugger architecture, a **server**:  
   
 -   Is a container of ports and port suppliers and is used to communicate ports and port suppliers to the session debug manager (SDM) and debug engines.  

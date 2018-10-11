@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_RESOLUTION_DATA
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the result of binding a data breakpoint.  
   
 ## Syntax  

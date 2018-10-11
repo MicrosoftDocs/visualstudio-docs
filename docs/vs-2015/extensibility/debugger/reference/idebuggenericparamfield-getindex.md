@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugGenericParamField::GetIndex
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the index of this generic parameter.  
   
 ## Syntax  

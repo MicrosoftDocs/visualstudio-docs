@@ -38,7 +38,6 @@ manager: "ghogen"
 # Additional Information About Class Designer Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Class Designer does not track the location of your source files, so modifying your project structure or moving source files in the project can cause Class Designer to lose track of the type (especially the source type of a typedef, base classes, or association types). You might receive an error such as **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.  
   
  You can find assistance with other errors and warnings in the following resources:  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # marker_series::marker_series Constructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Initializes a new instance of the `marker_series` class.  
   
 ## Syntax  

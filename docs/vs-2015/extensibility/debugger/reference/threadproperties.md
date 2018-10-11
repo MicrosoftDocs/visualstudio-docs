@@ -21,7 +21,6 @@ manager: "ghogen"
 # THREADPROPERTIES
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the properties of a thread.  
   
 ## Syntax  

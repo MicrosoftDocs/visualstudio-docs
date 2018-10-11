@@ -21,7 +21,6 @@ manager: "ghogen"
 # Command-Line Profiling of ASP.NET Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes the procedures and options for collecting performance data for [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools from the command line.  
   
 > [!NOTE]

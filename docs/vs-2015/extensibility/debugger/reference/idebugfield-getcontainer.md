@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetContainer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the container of a field.  
   
 ## Syntax  

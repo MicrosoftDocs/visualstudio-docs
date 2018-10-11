@@ -22,7 +22,6 @@ manager: "wpickett"
 # Implementing Custom Code Analysis Check-in Policies for Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A code analysis check-in policy specifies a set of rules that members of a team project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a team project. A rule set is stored in a .ruleset file.  
   
  Check-in policies are set at the team project level and specified by the location of a .ruleset file in the version control tree. There are no restrictions on the version control location of the team policy custom rule set.  

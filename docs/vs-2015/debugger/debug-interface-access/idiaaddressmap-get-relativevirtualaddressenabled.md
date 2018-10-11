@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::get_relativeVirtualAddressEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Indicates whether the calculation and use of relative virtual addresses (RVA) is enabled.  
   
 ## Syntax  

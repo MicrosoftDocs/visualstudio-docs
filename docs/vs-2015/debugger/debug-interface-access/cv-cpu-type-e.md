@@ -22,7 +22,6 @@ manager: "ghogen"
 # CV_CPU_TYPE_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies the target processor.  
   
 > [!NOTE]

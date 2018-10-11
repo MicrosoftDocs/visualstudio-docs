@@ -21,7 +21,6 @@ manager: "ghogen"
 # PROCESS_INFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes or specifies properties of a process.  
   
 ## Syntax  

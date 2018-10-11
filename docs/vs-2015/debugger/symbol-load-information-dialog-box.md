@@ -25,7 +25,6 @@ manager: "ghogen"
 # Symbol Load Information Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Symbol Load Information** dialog box opens when you right-click on the **Modules** window and choose **Symbol Load Information**.  
   
 ## UIElement List  

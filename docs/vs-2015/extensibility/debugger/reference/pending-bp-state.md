@@ -21,7 +21,6 @@ manager: "ghogen"
 # PENDING_BP_STATE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound).  
   
 ## Syntax  

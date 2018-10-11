@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEEMetricGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the unique identifier for a expression evaluator metric given its name.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Buttons Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Groups [Button](../extensibility/button-element.md) elements, which represent individual commands.  
   
 ## Syntax  

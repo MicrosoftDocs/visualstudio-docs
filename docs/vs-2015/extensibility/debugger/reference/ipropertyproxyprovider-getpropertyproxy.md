@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyProvider::GetPropertyProxy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the property proxy interface for the specified proxy ID.  
   
 ## Syntax  

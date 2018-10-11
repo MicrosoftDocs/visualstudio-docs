@@ -32,7 +32,6 @@ manager: "wpickett"
 # &lt;file&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies all nonassembly files downloaded and used by the application.  
   
 ## Syntax  

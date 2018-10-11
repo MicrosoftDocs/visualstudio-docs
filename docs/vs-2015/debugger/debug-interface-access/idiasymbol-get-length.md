@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_length
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of bits or bytes of memory used by the object represented by this symbol.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "douge"
 # Define a work item link handler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can create a Visual Studio Integration Extension that responds when the user creates or deletes a link between a UML model element and a work item. For example, when the user chooses to link a new work item to a model element, your code could initialize the fields of the work item from values in the model.  
   
 ## Set up a UML Extension Solution  

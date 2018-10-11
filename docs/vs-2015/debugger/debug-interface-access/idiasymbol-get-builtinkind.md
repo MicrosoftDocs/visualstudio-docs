@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_builtInKind
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a built-in kind of the HLSL type.  
   
 ## Syntax  

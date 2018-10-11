@@ -22,7 +22,6 @@ manager: "ghogen"
 # ProjectCollection Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the organization and contents of multi-project templates.  
   
  \<VSTemplate>  

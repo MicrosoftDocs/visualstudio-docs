@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasDebugInfo
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies if the [Compiland](../../debugger/debug-interface-access/compiland.md) contains debugging information.  
   
 ## Syntax  

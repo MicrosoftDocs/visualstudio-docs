@@ -21,7 +21,6 @@ manager: "ghogen"
 # .NET Memory Data Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section contains reference information for the views and reports of profiler data files that contains .NET memory profiling data.  
   
 ## In This Section  

@@ -23,7 +23,6 @@ manager: "ghogen"
 # Visual Studio Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio isolated shell allows you to create stand-alone applications that can run side-by-side with other versions of Visual Studio. It is used primarily to host specialized tools that can use Visual Studio services but also have a customized appearance and branding. Visual Studio features and menu command groups can be easily turned on and off. Application titles, application icons, and splash screens are fully customizable. For a list of customizable features, see [Customizing the Isolated Shell](../extensibility/customizing-the-isolated-shell.md).  
   
  To work with an isolated shell project, you must install the Visual Studio SDK. Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  

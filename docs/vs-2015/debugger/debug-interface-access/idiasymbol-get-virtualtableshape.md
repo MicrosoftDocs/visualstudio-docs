@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualTableShape
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol interface of the type of the virtual table for a user-defined type.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbols::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of symbols in the enumeration sequence.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # OBJECT_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the type of an object from the expression evaluator.  
   
 ## Syntax  

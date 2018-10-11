@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccRename Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function renames a file in the source control system.  
   
 ## Syntax  

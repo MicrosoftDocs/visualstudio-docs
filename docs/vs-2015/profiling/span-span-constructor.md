@@ -22,7 +22,6 @@ manager: "ghogen"
 # span::span Constructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Initializes a new instance of the `span` class.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Adding tier interaction data from the command line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../includes/vstecado-md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.  
   
  **Windows 8 and Windows Server 2012**  

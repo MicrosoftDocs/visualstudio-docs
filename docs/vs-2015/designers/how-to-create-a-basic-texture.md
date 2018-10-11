@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic Texture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document demonstrates how to use the Image Editor to create a basic texture.  
   
  This document demonstrates these activities:  

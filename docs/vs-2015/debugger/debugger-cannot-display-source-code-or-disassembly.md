@@ -25,7 +25,6 @@ manager: "ghogen"
 # Debugger Cannot Display Source Code or Disassembly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This error reads:  
   
  The debugger cannot display source code or disassembly for the current location where execution has stopped.  

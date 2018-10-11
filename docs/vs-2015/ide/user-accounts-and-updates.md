@@ -18,7 +18,6 @@ manager: "ghogen"
 # User Accounts and Updates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio itself is a connected environment. By signing-in you enable access to all the services associated with your user account as well as all the accounts that are linked to that account. Your account settings roam with you wherever you use Visual Studio. You can configure permissions levels on a specific Visual Studio instance for individual users. Also, Visual Studio informs you when any component of your installation, such as an SDK, had an update available.  
   
 ## In this section  

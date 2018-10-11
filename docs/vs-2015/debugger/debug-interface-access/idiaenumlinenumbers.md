@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumLineNumbers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerates the various line numbers contained in the data source.  
   
 ## Syntax  

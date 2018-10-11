@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves information about the modules in the symbol group.  
   
 ## Syntax  

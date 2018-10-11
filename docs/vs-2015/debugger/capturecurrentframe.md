@@ -18,7 +18,6 @@ manager: "ghogen"
 # CaptureCurrentFrame
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Captures the remainder of the current frame to the graphics log file.  
   
 ## Syntax  

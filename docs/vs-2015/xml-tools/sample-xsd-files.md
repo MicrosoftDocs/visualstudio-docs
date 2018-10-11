@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The following example files are used in the XSD Schema Designer documentation.  
   
 > [!NOTE]

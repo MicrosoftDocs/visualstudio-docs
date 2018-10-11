@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccHistory Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function displays the history of the specified files.  
   
 ## Syntax  

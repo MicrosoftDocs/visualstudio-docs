@@ -26,7 +26,6 @@ manager: "ghogen"
 # How to: Set the Current Session
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can open multiple performance sessions in the **Performance Explorer**, and can then select one of the visible performance sessions to be set as the current session.  
   
  **Requirements**  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Processes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In terms of the debugger architecture, a **process**:  
   
 -   Is a container for a set of programs. It is closely analogous to a Windows process, which is a container for a set of threads.  

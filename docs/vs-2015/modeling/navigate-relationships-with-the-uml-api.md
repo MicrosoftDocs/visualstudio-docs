@@ -18,7 +18,6 @@ manager: "douge"
 # Navigate relationships with the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A model consists of elements linked together by different kinds of relationships. This topic describes how to navigate the model in program code.  
   
 ## Traversing Relationships  

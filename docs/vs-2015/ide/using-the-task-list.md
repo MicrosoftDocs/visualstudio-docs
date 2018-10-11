@@ -25,7 +25,6 @@ manager: "ghogen"
 # Using the Task List
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use the **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that will take you directly to a predefined location in the code. Click on the item in the list to go to its location in the source code.  
   
  In this topic:  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1724: Type Names Should Not Match Namespaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|TypeNamesShouldNotMatchNamespaces|

@@ -20,7 +20,6 @@ manager: "ghogen"
 # C++ Library Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section contains reference information for the Concurrency Visualizer SDK.  
   
 > [!NOTE]

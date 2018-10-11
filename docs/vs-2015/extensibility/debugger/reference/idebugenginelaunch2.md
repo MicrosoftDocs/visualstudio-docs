@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineLaunch2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Used by a debug engine (DE) to launch and terminate programs.  
   
 ## Syntax  

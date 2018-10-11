@@ -19,7 +19,6 @@ manager: "ghogen"
 # Operational Modes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 There are three modes in which the IDE can operate, as follows:  
   
 -   [Design Mode](#vsconoperationalmodesanchor1)  

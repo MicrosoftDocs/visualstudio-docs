@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Export a Texture that has Premultiplied Alpha
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that do not contain premultiplied alpha.  
   
  This document demonstrates these activities:  

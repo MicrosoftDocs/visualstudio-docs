@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method determines whether the visualizer can have the data object it represents updated.  
   
 ## Syntax  

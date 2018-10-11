@@ -21,7 +21,6 @@ manager: "ghogen"
 # UNMANAGED_ADDRESS_PHYSICAL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents a physical address.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugTypeFieldBuilder::CreatePointerToType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a pointer to the specified type.  
   
 ## Syntax  

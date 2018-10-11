@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumInjectedSources::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of injected sources in the enumeration sequence.  
   
 ## Syntax  

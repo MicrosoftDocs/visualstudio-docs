@@ -19,7 +19,6 @@ manager: "ghogen"
 # Attaching Directly to a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Users who want to debug programs in a process that is already running typically follow this process:  
   
 1.  In the IDE, choose the **Debug Processes** command from the **Tools** menu.  

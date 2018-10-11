@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::SetLocale
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the locale of the debug engine (DE).  
   
 ## Syntax  

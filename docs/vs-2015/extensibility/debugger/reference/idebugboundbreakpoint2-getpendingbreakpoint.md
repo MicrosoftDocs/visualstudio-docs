@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::GetPendingBreakpoint
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the pending breakpoint from which the specified bound breakpoint was created.  
   
 ## Syntax  

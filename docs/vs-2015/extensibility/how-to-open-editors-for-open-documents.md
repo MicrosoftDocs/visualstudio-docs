@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Open Editors for Open Documents
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Before a project opens a document window, the project first must determine whether the file is already open in the document window for another editor. The file can be either open in a project-specific editor, or one of the standard editors registered with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 ## Opening a Project-Specific Editor  

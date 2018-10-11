@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbols::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a symbol by means of an index.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_backEndBuild
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the back end build number of the compiler.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugErrorBreakpoints2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enumerates the error breakpoints associated with a pending breakpoint.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_rank
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the rank (number of dimensions) of a FORTRAN multi-dimensional array.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentText2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the size of the text at this position in the document.  
   
 ## Syntax  

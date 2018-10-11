@@ -25,7 +25,6 @@ manager: "wpickett"
 # &lt;PackageFiles&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `PackageFiles` element contains `PackageFile` elements, which define the installation packages executed as a result of the `Command` element.  
   
 ## Syntax  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Source Control Runtime Details
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A project is added to source control when the user adds a file in the project to source control, or through an automation controller, such as a wizard. A project does not specify for itself that it is under source control; it supports source control, but must be added to it manually.  
   
 ## Registering with a Source Control Package  

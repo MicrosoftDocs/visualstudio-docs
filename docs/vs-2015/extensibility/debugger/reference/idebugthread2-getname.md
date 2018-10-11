@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the name of a thread.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide::CreateReplacementObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a copy of a data object specific to the expression evaluator (EE).  
   
 ## Syntax  

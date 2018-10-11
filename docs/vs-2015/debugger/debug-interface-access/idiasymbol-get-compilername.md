@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_compilerName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns the name of the compiler used to generate the [Compiland](../../debugger/debug-interface-access/compiland.md).  
   
 ## Syntax  

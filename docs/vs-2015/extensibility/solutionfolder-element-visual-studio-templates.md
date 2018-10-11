@@ -22,7 +22,6 @@ manager: "ghogen"
 # SolutionFolder Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Groups projects in multi-project templates.  
   
  \<VSTemplate>  

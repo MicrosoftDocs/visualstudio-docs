@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::CanDetach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the session debug manager (SDM) can detach the process.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # ResumeProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `ResumeProfile` method decrements the Suspend/Resume counter for the specified profiling level.  
   
 ## Syntax  

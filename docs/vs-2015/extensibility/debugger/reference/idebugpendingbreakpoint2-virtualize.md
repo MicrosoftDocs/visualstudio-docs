@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::Virtualize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Toggles the virtualized state of this pending breakpoint. When a pending breakpoint is virtualized, the debug engine will attempt to bind it every time new code loads into the program.  
   
 ## Syntax  

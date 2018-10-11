@@ -22,7 +22,6 @@ manager: "ghogen"
 # Blocking Time Profile Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Profile Reports provide aggregate blocking time data for call stacks that are specific to each blocking category (for example "I/O" or "Synchronization"). The Preemption report lists the processes that preempted the current process together with the number of preemption instances. To build the blocking profile report, the tool collects blocking API calls and accumulates them into a tree of call stacks. Data that's shown in these reports varies by the current time range, by hidden threads, and by the following two filters that may be applied:  
   
 -   If Just My Code is selected, only stack frames that have user code are presented, plus one level below the user code.  

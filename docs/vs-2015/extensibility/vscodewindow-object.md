@@ -22,7 +22,6 @@ manager: "ghogen"
 # VSCodeWindow Object
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A code window is a specialized document window that can include one or more text views, usually the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView> object.  
   
  Architecturally, the code window is a document window that is within a window frame. Functionally, the code window is simply a document window with additional features. In the multiple-document interface (MDI) mode, the code window is the MDI child frame. For more information, see [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md).  

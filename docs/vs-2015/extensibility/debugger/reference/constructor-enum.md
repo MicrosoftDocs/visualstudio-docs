@@ -21,7 +21,6 @@ manager: "ghogen"
 # CONSTRUCTOR_ENUM
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Selects different types of constructors.  
   
 ## Syntax  

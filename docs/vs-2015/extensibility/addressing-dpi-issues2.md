@@ -14,7 +14,6 @@ manager: "ghogen"
 # Addressing DPI Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 An increasing number of devices are shipping with “high-resolution” screens. These screens typically have over 200 pixels per inch (ppi). Working with an application on these computers will require content to be scaled up to meet the needs of viewing the content at a normal viewing distance for the device. As of 2014, the primary target for high-density displays is mobile computing devices (tablets, clamshell laptops, and phones).  
   
  Windows 8.1 and higher contains several features to enable these machines to work with displays and environments where the machine is attached to both high-density and standard-density displays at the same time.  

@@ -29,7 +29,6 @@ manager: "ghogen"
 # How to: Debug from a DLL Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To start debugging a DLL project, you must specify the calling application in the project properties. The C++ property pages differ in layout and content from the C# and Visual Basic property pages.  
   
  If a managed DLL is called by native code and you want to debug both, you can specify this in the project properties. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).  

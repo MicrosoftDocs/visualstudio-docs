@@ -20,7 +20,6 @@ manager: "ghogen"
 # Custom Colorable Items
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can override the list of types for colorizing, such as keywords and comments, by implementing custom colorable items as part of your language service.  
   
 ## User Settings of Colorable Items  

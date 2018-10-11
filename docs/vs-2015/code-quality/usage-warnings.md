@@ -25,7 +25,6 @@ manager: "wpickett"
 # Usage Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Usage warnings support proper usage of the .NET Framework.  
   
 ## In This Section  

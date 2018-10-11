@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramProvider2::SetLocale
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Establishes a locale to be used for any locale-specific resources.  
   
 ## Syntax  

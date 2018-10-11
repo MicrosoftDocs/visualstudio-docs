@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a frame data element by means of an index.  
   
 ## Syntax  

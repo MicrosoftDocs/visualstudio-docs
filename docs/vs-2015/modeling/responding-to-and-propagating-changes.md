@@ -18,7 +18,6 @@ manager: "douge"
 # Responding to and Propagating Changes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When an element is created, deleted or updated, you can write code that propagates the change to other parts of the model, or to external resources such as files, databases, or other components.  
   
 ## In This Section  

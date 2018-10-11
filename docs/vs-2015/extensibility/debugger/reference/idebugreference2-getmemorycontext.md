@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a memory context of a reference. Reserved for future use.  
   
 ## Syntax  

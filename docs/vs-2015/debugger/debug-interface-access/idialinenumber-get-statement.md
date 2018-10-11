@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_statement
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag indicating that this line information describes the beginning of a statement, rather than an expression, in the program source.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_objectPointerType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the type of the object pointer for a class method.  
   
 ## Syntax  

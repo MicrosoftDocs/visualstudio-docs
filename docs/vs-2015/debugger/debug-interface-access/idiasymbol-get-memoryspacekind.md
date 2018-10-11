@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_memorySpaceKind
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the memory space kind.  
   
 ## Syntax  

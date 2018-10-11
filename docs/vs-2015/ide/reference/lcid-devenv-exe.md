@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Sets the default language used for text, currency, and other values within the integrated development environment (IDE).  
   
 ## Syntax  

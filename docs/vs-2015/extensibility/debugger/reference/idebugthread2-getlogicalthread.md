@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::GetLogicalThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Debug engines do not implement this method.  
   
 ## Syntax  

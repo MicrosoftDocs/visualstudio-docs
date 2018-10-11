@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetAddressesFromPosition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method maps a document position into an array of debug addresses.  
   
 ## Syntax  

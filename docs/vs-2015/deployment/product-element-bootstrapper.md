@@ -25,7 +25,6 @@ manager: "wpickett"
 # &lt;Product&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `Product` element is the top-level XML element inside of a product file.  
   
 ## Syntax  

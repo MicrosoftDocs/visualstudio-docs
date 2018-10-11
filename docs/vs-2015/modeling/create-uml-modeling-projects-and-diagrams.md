@@ -32,7 +32,6 @@ manager: "douge"
 # Create UML modeling projects and diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 UML models help you understand, discuss, and design software systems. Visual Studio provides templates for five of the most frequently used UML diagrams: activity, class, component, sequence, and use case. In addition, you can create layer diagrams, which help you define the structure of your system.  
   
  UML modeling diagrams and layer diagrams can exist only inside a modeling project. Each modeling project contains a shared UML model and several UML diagrams. Each diagram is a partial view of the model. The UML model contains all the elements on the UML diagrams and can be viewed by using UML Model Explorer. For information about models and their relationship to diagrams, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md). For information about modeling projects under version control, see [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md) and [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)  

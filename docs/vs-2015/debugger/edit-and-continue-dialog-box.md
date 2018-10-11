@@ -29,7 +29,6 @@ manager: "ghogen"
 # Edit and Continue Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Native Only) This dialog box appears when you have edited code while debugging and **Edit and Continue** recognizes that it can apply code changes. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).  
   
  **Never show me this dialog again**  

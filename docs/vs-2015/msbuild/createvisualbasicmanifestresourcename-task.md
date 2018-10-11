@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Creates a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]-style manifest name from a given .resx file name or other resource.  
   
 ## Parameters  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Instantiating the Core Editor By Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The editor is responsible for text editing functions such as insertion, deletion, copy, and paste. It combines these functions with those provided by language services, such as text coloring, indentation, and IntelliSense statement completion.  
   
  You can instantiate an instance of the core editor in one of three ways:  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetMetricDword
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the value of a metric given its name.  
   
 ## Syntax  

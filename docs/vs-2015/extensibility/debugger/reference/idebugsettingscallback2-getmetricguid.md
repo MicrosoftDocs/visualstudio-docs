@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetMetricGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the unique identifier of a metric given its name.  
   
 ## Syntax  

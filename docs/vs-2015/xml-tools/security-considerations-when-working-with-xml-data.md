@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 This topic discusses security issues that you need to know about when working with the XML Editor or the XSLT debugger.  
   
 ## XML Editor  

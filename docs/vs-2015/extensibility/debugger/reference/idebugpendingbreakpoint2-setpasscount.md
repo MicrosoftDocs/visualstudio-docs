@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::SetPassCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets or changes the pass count associated with the pending breakpoint.  
   
 ## Syntax  

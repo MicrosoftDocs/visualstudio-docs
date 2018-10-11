@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccGetVersion Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function gets the version number of the Source Control Plug-in API supported by the source control plug-in.  
   
 ## Syntax  

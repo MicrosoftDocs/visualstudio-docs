@@ -23,7 +23,6 @@ manager: "ghogen"
 # Extending Properties and the Property Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.  
   
  When you select an object in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the public properties of that object appear in the **Properties** window. For more information, see [Properties Window Overview](../extensibility/internals/properties-window-overview.md).  

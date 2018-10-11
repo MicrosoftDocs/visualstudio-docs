@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramHost2::GetHostName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the title, friendly name, or file name of the hosting process of this program.  
   
 ## Syntax  

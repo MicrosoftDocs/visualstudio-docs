@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_sourceCompression
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the indicator of the source compression used.  
   
 ## Syntax  

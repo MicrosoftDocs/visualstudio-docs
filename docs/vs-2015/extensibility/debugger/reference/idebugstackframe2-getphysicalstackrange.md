@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetPhysicalStackRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a machine-dependent representation of the range of physical addresses associated with a stack frame.  
   
 ## Syntax  

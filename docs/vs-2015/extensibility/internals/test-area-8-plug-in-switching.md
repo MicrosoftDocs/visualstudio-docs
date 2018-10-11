@@ -20,7 +20,6 @@ manager: "ghogen"
 # Test Area 8: Plug-in Switching
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) has the user interface (UI) to change the current source control plug-in. This test area provides test cases for the process of picking which plug-in to use for solution source control.  
   
 ## Command Menu Access  

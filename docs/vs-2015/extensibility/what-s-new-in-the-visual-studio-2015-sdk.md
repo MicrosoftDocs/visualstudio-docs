@@ -17,7 +17,6 @@ manager: "ghogen"
 # What&#39;s New in the Visual Studio 2015 SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio SDK has the following new and updated features for Visual Studio 2015, Visual Studio 2015 updated, and Visual Studio "15".  
   
 ## Visual Studio "15" Preview 2  

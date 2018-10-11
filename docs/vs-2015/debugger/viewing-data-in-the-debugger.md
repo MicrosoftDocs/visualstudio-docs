@@ -32,7 +32,6 @@ manager: "ghogen"
 # Viewing Data in the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger provides a variety of tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.  
   
 ## DataTips  

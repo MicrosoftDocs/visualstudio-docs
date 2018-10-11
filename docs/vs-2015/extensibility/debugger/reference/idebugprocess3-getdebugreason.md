@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess3::GetDebugReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns the reason that the process was launched for debugging.  
   
 ## Syntax  

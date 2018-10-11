@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_noStackOrdering
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This function retrieves a flag that indicates whether no stack ordering could be done as part of stack buffer checking ([/GS (Buffer Security Check)](http://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e) compiler option).  
   
 ## Syntax  

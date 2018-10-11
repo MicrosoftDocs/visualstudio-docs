@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1713: Events should not have before or after prefix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|EventsShouldNotHaveBeforeOrAfterPrefix|

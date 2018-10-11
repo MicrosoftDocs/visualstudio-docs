@@ -22,7 +22,6 @@ manager: "ghogen"
 # BaseType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Base types are identified by `SymTagBaseType` symbols.  
   
 ## Properties  

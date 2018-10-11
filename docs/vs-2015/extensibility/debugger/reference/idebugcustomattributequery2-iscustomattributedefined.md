@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines whether a custom attribute exists by name.  
   
 ## Syntax  

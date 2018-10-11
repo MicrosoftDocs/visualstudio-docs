@@ -28,7 +28,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 When you use MSBuild.exe to build a project or solution file, you can include several switches to specify various aspects of the process.  
   
 ## Syntax  

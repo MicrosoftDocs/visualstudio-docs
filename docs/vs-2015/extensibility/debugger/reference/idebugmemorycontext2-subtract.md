@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryContext2::Subtract
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Subtracts the specified value from the current context and returns a new context.  
   
 ## Syntax  

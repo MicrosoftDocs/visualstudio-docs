@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2219: Do not raise exceptions in exception clauses
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DoNotRaiseExceptionsInExceptionClauses|

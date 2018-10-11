@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugAddress2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface provides access to the ID of the process that owns the object whose address is represented by this interface.  
   
 ## Syntax  

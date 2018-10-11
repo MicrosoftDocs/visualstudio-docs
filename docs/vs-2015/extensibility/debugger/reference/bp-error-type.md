@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_ERROR_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the error type of a breakpoint.  
   
 ## Syntax  

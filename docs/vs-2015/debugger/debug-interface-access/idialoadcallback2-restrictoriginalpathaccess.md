@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback2::RestrictOriginalPathAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Determines if it is okay to look for a .pdb file in the original debug directory.  
   
 ## Syntax  

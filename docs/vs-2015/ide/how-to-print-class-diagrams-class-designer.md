@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Print Class Diagrams (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can print a class diagram using the print feature of Visual Studio.  
   
 ### To print a class diagram  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::Parse
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method converts an expression string to a parsed expression.  
   
 ## Syntax  

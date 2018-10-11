@@ -16,7 +16,6 @@ manager: "douge"
 # Guidelines for Writing T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 These general guidelines might be helpful if you are generating program code or other application resources in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. They are not fixed rules.  
   
 ## Guidelines for Design-Time T4 Templates  

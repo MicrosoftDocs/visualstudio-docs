@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of segments in the enumeration sequence.  
   
 ## Syntax  

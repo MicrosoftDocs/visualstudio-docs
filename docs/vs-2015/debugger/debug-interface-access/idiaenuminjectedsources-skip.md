@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumInjectedSources::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Skips a specified number of injected sources in an enumeration sequence.  
   
 ## Syntax  

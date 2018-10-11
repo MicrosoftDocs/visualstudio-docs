@@ -31,7 +31,6 @@ manager: "wpickett"
 # &lt;RelatedProducts&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `RelatedProducts` element defines other products that either depend upon or are included in the current product.  
   
 ## Syntax  

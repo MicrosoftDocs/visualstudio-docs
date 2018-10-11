@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccGetUserOption Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function retrieves a variety of user-specific options.  
   
 ## Syntax  

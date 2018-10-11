@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugProgram3::ExecuteOnThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.  
   
 ## Syntax  

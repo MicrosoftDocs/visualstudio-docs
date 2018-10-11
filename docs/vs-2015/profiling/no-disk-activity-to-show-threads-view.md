@@ -22,7 +22,6 @@ manager: "ghogen"
 # No Disk Activity to Show (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Disk activity for the current time range in the Disk I/O channels cannot be displayed. Disk activity may be displayed if you zoom out or scroll. Also, make sure that no disk channels are hidden.  
   
 ## See Also  

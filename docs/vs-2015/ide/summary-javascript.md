@@ -21,7 +21,6 @@ manager: "ghogen"
 # &lt;summary&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the description for a function or method.  
   
 ## Syntax  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1059: Members should not expose certain concrete types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|MembersShouldNotExposeCertainConcreteTypes|

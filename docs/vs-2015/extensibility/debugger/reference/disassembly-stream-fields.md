@@ -21,7 +21,6 @@ manager: "ghogen"
 # DISASSEMBLY_STREAM_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies what information to retrieve about a disassembly field.  
   
 ## Syntax  

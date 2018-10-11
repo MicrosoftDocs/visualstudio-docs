@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: Ensure that DNS is Correctly Configured on the Target Computer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When trying to do remote debugging, you may get the following error message:  
   
 ```  

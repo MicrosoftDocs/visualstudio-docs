@@ -17,7 +17,6 @@ manager: "douge"
 # Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In Visual Studio, you can create unit tests for unmanaged code written in C++. Unmanaged code is sometimes referred to as native code.  
   
  The following procedure contains the essential information that will get you started. The later sections provide a walkthrough that describes the steps in more detail.  

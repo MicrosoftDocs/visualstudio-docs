@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortNotify2::RemoveProgramNode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Unregisters a program that can be debugged from the port it is running on.  
   
 ## Syntax  

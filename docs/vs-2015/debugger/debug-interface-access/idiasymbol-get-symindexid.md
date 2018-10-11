@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_symIndexId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the unique symbol identifier.  
   
 ## Syntax  

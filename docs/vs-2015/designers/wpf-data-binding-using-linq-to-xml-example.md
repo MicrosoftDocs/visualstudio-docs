@@ -18,7 +18,6 @@ manager: "ghogen"
 # WPF Data Binding Using LINQ to XML Example
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section provides a Windows Presentation Foundation (WPF) example that binds user interface components to an embedded XML data source. The name of this example (and the Visual Studio project that contains it) is *LinqToXmlDataBinding*.  
   
 ## In This Section  

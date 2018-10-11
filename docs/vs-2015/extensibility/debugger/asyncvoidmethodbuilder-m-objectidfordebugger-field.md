@@ -19,7 +19,6 @@ manager: "ghogen"
 # AsyncVoidMethodBuilder.m_objectIdForDebugger Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Represents the lazily initialized object used by the debugger to uniquely identify this builder.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

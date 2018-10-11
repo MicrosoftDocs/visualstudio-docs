@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::TerminateProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Terminates a process.  
   
 ## Syntax  

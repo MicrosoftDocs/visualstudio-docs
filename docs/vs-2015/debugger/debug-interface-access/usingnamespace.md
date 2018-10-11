@@ -22,7 +22,6 @@ manager: "ghogen"
 # UsingNameSpace
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Some symbols might be referred to by namespace, and would subsequently be identified by a `SymTagUsingNameSpace` tag.  
   
 > [!NOTE]

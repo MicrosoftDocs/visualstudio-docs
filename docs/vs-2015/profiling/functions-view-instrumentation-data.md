@@ -20,7 +20,6 @@ manager: "ghogen"
 # Functions View - Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Functions report view lists profiling data by function name.  
   
 ## General  

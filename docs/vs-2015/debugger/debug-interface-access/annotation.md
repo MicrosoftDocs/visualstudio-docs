@@ -23,7 +23,6 @@ manager: "ghogen"
 # Annotation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A location program code can be annotated with a `SymTagAnnotation` symbol.  
   
 ## Properties  

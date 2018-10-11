@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_callingConvention
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns an indicator of a methods calling convention.  
   
 ## Syntax  

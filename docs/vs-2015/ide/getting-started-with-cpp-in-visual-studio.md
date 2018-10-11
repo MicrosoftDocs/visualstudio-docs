@@ -18,7 +18,6 @@ manager: "ghogen"
 # Getting Started with C++ in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By completing this walkthrough, you’ll become familiar with many of the tools and dialog boxes that you can use when you develop applications with Visual Studio. You’ll create a simple "Hello, World"-style application while you learn more about working in the integrated development environment (IDE).  
   
  This topic contains the following sections:  

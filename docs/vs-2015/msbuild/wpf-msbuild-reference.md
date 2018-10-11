@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Windows Presentation Foundation (WPF) extends Microsoft build engine (MSBuild) with additional build support, which is documented in this section.  
   
 ## In This Section  

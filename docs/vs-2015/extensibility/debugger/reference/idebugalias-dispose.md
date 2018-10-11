@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugAlias::Dispose
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Marks this alias for removal.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugFields
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a collection of objects implementing the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  
   
 ## Syntax  

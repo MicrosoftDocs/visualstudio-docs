@@ -19,7 +19,6 @@ manager: "ghogen"
 # Creating an Options Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.  
   
  To save these properties to and restore them from a settings file, follow these steps, and then see [Creating a Settings Category](../extensibility/creating-a-settings-category.md).  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::loadDataFromPdb
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Opens and prepares a program database (.pdb) file as a debug data source.  
   
 ## Syntax  

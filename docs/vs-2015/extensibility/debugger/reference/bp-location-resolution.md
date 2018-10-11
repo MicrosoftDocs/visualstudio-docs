@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_RESOLUTION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the resolution of a breakpoint at a specific location.  
   
 ## Syntax  

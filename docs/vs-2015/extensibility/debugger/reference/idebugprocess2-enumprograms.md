@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::EnumPrograms
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of all the programs contained by this process.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery::GetCustomAttributeByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a custom attribute given its name.  
   
 ## Syntax  

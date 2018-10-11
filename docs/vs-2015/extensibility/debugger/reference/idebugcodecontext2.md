@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCodeContext2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents the starting position of a code instruction. For most run-time architectures today, a code context can be thought of as an address in a program's execution stream.  
   
 ## Syntax  

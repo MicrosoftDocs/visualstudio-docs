@@ -17,7 +17,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.  
   
  Associations are defined by the selected **Association Properties** in the **Association Editor** dialog box. Properties on each side of the association must be of the same data type.  

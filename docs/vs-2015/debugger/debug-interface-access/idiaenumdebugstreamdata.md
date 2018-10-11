@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Provides access to the records in a debug data stream.  
   
 ## Syntax  

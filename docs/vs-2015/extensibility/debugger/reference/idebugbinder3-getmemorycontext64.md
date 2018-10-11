@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugBinder3::GetMemoryContext64
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Converts either an object location or a 64-bit memory address to a memory context.  
   
 ## Syntax  

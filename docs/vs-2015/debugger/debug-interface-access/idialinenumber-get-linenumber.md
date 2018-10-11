@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_lineNumber
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the line number in the source file.  
   
 ## Syntax  

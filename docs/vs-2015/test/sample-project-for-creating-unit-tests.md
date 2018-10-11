@@ -20,7 +20,6 @@ manager: "douge"
 # Sample Project for Creating Unit Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This sample code is provided for use in the following walkthroughs:  
   
 -   [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). This walkthrough leads you through the steps to create and customize unit tests, run them, and examine the test results.  

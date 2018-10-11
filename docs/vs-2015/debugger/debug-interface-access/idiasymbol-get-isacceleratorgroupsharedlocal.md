@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isAcceleratorGroupSharedLocal
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether the symbol corresponds to a group shared local variable in code compiled for a C++ AMP Accelerator.  
   
 ## Syntax  

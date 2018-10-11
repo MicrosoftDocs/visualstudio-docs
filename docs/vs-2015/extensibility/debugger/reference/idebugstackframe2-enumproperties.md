@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::EnumProperties
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an enumerator for properties associated with the stack frame, such as local variables.  
   
 ## Syntax  

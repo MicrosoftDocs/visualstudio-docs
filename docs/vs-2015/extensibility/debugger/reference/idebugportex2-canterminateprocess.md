@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::CanTerminateProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines whether a process can be terminated.  
   
 ## Syntax  

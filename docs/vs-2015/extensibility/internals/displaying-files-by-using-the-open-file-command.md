@@ -21,7 +21,6 @@ manager: "ghogen"
 # Displaying Files By Using the Open File Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. The steps also describe how projects should respond to calls that originate from this command.  
   
  When a user clicks the **Open File** command on the **File** menu, and selects a file from the **Open File** dialog box, the following process occurs.  

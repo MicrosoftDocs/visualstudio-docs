@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDefaultPort2::QueryIsLocal
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method determines whether this port is on the local machine.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Use the Activity Log
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.  
   
 > [!TIP]

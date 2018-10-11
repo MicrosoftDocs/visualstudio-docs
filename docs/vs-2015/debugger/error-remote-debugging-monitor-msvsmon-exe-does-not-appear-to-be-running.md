@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This error message means that Visual Studio could not find the correct instance of the Visual Studio Remote Debugging Monitor on the remote computer. The Visual Studio Remote Debugging Monitor must be installed for remote debugging to work. For information about downloading and setting up the remote debugger, see [Set Up the Remote Tools on the Device](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c).  
   
 > [!IMPORTANT]

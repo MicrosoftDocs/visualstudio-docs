@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreams::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of debug streams in the enumeration sequence.  
   
 ## Syntax  

@@ -35,7 +35,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Wraps the Microsoft Manifest Tool, mt.exe. For more information, see "Mt.exe" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
   
 ## Parameters  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped.  
   
 ## Syntax  

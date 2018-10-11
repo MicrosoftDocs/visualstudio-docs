@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::frameForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the stack frame that contains the specified virtual address.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_RES_DATA_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies whether the data breakpoint is being emulated or implemented in hardware.  
   
 ## Syntax  

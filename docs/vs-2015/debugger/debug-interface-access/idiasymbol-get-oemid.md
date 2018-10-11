@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_oemId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol's original equipment manufacturer (OEM) ID value.  
   
 ## Syntax  

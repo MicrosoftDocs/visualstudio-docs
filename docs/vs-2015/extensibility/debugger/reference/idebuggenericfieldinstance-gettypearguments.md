@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericFieldInstance::GetTypeArguments
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the type parameter arguments for this instance.  
   
 ## Syntax  

@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. Every `Property` element used in an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project must be a child of a `PropertyGroup` element.  
   
  \<Project>  

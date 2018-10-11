@@ -21,7 +21,6 @@ manager: "ghogen"
 # Adding and Removing Property Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Project Designer provides a centralized location for managing project properties, settings, and resources in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. It appears as a single window in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) and contains a number of panes on the right that are accessed through the tabs on the left. The panes (often referred to as property pages) in the Project Designer vary by project type and language. The Project Designer can be accessed with the **Properties** command on the **Project** menu.  
   
  A project subtype frequently needs to display additional property pages in the Project Designer. Likewise, some project subtypes might require that built-in property pages be removed. To do either, your project subtype must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface and override the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> method. By overriding this method and using `propId` parameter containing one of the values of the <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> enumeration, you can filter, add or remove project properties. For example, you might need to add a page to the configuration-dependent property pages. To do this, you need to filter configuration-dependent property pages and then add a new page to the existing list.  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Instrument a Dynamically Compiled ASP.NET Web Application and Collect Detailed Timing Data with the Profiler by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to collect detailed timing data for a dynamically compiled [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application by using the instrumentation profiling method.  
   
 > [!NOTE]

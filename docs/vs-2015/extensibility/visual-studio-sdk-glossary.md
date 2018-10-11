@@ -19,7 +19,6 @@ manager: "ghogen"
 # Visual Studio SDK Glossary
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This glossary provides definitions for terms that are used in the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] documentation.  
   
 ## Terms  

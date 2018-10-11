@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Maps data from the section number to segments of address space.  
   
 ## Syntax  

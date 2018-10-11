@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::DisableAutoAttach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Disables automatic attaching for all debug engines associated with this server.  
   
 ## Syntax  

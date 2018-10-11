@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaImageData
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Exposes the details of the base location and memory offsets of the module or image.  
   
 ## Syntax  

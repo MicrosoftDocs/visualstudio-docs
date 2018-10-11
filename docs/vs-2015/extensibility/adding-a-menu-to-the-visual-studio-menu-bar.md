@@ -20,7 +20,6 @@ manager: "ghogen"
 # Adding a Menu to the Visual Studio Menu Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough shows how to add a menu to the menu bar of the Visual Studio integrated development environment (IDE). The IDE menu bar contains menu categories such as **File**, **Edit**, **View**, **Window**, and **Help**.  
   
  Before adding a new menu to the Visual Studio menu bar, consider whether your commands should be placed within an existing menu. For more information about command placement, see [Menus and Commands for Visual Studio](../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md).  

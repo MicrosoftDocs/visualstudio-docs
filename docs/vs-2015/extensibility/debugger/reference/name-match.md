@@ -21,7 +21,6 @@ manager: "ghogen"
 # NAME_MATCH
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Selects the case option for matching names.  
   
 ## Syntax  

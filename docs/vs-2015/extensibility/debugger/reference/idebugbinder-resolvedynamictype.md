@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder::ResolveDynamicType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns the exact type of a variable.  
   
 ## Syntax  

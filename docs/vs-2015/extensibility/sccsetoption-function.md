@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccSetOption Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function sets options that control the behavior of the source control plug-in.  
   
 ## Syntax  

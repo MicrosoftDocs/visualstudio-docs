@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_value
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the value of a constant.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject2::GetAlias
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the alias associated with this object, if any.  
   
 ## Syntax  

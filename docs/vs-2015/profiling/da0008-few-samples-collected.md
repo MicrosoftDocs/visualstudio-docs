@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0008: Few samples collected
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0008|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Sampling|  

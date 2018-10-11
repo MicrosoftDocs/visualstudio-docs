@@ -18,7 +18,6 @@ manager: "douge"
 # Deploying Domain-Specific Language Solutions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] must already be installed on the target computer.  
   
 -   [MSI and VSIX Deployment of a DSL](../modeling/msi-and-vsix-deployment-of-a-dsl.md)  

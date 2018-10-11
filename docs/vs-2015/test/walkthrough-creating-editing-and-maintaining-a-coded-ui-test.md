@@ -17,7 +17,6 @@ manager: "douge"
 # Walkthrough: Creating, Editing and Maintaining a Coded UI Test
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.  
   
 ## Prerequisites  

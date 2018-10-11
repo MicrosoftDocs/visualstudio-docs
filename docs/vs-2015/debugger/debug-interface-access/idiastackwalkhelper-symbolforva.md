@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::symbolForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol that contains the specified virtual address.  
   
 ## Syntax  

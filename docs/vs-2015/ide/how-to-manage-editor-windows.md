@@ -23,7 +23,6 @@ manager: "ghogen"
 # How to: Manage Editor Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can work on code in several locations at once. Do this by splitting an Editor window, or by opening several instances of editor windows.  
   
 > [!NOTE]

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Properties Display Grid
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Properties** window displays fields within a grid. The left column contains the property names; the right column contains the property values.  
   
 ## Working with the Grid  

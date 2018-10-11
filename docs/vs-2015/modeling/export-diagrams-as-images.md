@@ -20,7 +20,6 @@ manager: "douge"
 # Export diagrams as images
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In Visual Studio, you can save modeling diagrams in read-only formats so that you can share them with stakeholders, users, or project team members who do not use the same version of Visual Studio.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  

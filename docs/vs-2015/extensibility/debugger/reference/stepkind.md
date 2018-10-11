@@ -21,7 +21,6 @@ manager: "ghogen"
 # STEPKIND
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the step kind for stepping.  
   
 ## Syntax  

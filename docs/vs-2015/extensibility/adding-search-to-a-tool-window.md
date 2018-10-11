@@ -19,7 +19,6 @@ manager: "ghogen"
 # Adding Search to a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you create or update a tool window in your extension, you can add the same search functionality that appears elsewhere in Visual Studio. This functionality includes the following features:  
   
 -   A search box that’s always located in a custom area of the toolbar.  

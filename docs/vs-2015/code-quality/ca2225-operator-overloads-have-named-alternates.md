@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2225: Operator overloads have named alternates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|OperatorOverloadsHaveNamedAlternates|

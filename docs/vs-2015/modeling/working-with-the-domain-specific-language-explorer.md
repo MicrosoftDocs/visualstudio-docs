@@ -18,7 +18,6 @@ manager: "douge"
 # Working with the Domain-Specific Language Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **DSL Explorer** displays several kinds of information in a tree view. For more information about most of the items in the DSL Explorer, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).  
   
  It has the following nodes:  

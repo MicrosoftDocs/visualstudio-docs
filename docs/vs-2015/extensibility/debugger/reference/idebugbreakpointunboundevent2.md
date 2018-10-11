@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointUnboundEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface tells the session debug manager (SDM) that a bound breakpoint has been unbound from a loaded program.  
   
 ## Syntax  

@@ -31,7 +31,6 @@ manager: "ghogen"
 # How to: Debug an Executable Not Part of a Visual Studio Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Sometimes, you may want to debug an executable that is not part of a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project. It may be an executable you created outside of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] or an executable you received from someone else.  
   
  The usual answer to this problem is to start the executable outside of Visual Studio and attach to it using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger. For more information, see[Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  

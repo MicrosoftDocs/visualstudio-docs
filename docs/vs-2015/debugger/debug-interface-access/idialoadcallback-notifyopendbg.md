@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::NotifyOpenDBG
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Called when a candidate .dbg file has been opened.  
   
 ## Syntax  

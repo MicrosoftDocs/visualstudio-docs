@@ -14,7 +14,6 @@ manager: "ghogen"
 # Visual Studio Template Manifest Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This schema describes the format of the Visual Studio template manifest (.vstman) files generated for Visual Studio project or item templates, and describes the location and other relevant information about the template.  
   
  : Because there are separate item and project template directories, a manifest should never have a mix of item and project templates.  

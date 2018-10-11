@@ -20,7 +20,6 @@ manager: "ghogen"
 # Persisting the Property of a Project Item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You may want to persist a property you add to a project item, such as the author of a source file. You can do this by storing the property in the project file.  
   
  The first step to persist a property in a project file is to obtain the hierarchy of the project as an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface. You can obtain this interface either by using Automation or by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>. Once you obtain the interface, you can use it to determine which project item is currently selected. Once you have the project item ID, you can use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> to add the property.  

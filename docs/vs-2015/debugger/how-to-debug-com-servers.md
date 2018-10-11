@@ -32,7 +32,6 @@ manager: "ghogen"
 # How to: Debug COM Servers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Debugging COM server applications poses a unique set of problems that are not always easy to solve.  
   
  If you do not have or do not want to use debugging information for your container application, starting to debug the server application is a three-step process.  

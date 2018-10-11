@@ -21,7 +21,6 @@ manager: "ghogen"
 # Debugger Components
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:  
   
 -   **Debug Package:** The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger provides the same user interface no matter what is being debugged.  

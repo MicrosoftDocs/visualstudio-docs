@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::SetJustMyCodeState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method tells the debug engine about the JustMyCode state information.  
   
 ## Syntax  

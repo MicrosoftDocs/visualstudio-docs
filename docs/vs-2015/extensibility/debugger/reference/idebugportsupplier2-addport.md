@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2::AddPort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Adds a port.  
   
 ## Syntax  

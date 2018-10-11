@@ -46,7 +46,6 @@ manager: "douge"
 # Create models for your app
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support. For example, to describe and communicate user requirements, you can use Unified Modeling Language (UML) use case, activity, class, and sequence diagrams. To describe and communicate the functionality of your system, you can use UML component, class, activity, and sequence diagrams.  
   
  See [Channel 9 Video: Improve architecture through modeling](http://go.microsoft.com/fwlink/?LinkID=252078).  

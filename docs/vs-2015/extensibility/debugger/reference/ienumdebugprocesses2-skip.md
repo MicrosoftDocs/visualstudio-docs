@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugProcesses2::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Skips over the specified number of elements.  
   
 ## Syntax  

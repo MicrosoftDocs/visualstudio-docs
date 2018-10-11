@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isOptimizedAway
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies whether the variable is optimized away.  
   
 ## Syntax  

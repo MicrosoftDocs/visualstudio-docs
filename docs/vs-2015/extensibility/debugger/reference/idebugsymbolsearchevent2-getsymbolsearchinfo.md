@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Called by an event handler to retrieve results about a symbol load process.  
   
 ## Syntax  

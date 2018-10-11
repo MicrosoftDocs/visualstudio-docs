@@ -22,7 +22,6 @@ manager: "ghogen"
 # Find/Command Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can search for text and run Visual Studio commands from the **Find/Command** box. The **Find/Command** box is still available as a toolbar control, but is no longer visible by default. You can display the **Find/Command** box by choosing **Add or Remove Buttons** on the **Standard** toolbar and then choosing **Find**.  
   
  To run a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] command, preface it with a greater than (>) sign.  

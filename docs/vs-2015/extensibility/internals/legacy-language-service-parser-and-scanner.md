@@ -20,7 +20,6 @@ manager: "ghogen"
 # Legacy Language Service Parser and Scanner
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The parser is the heart of the language service. The Managed Package Framework (MPF) language classes require a language parser to select information about the code being displayed. A parser separates the text into lexical tokens and then identifies those tokens by type and functionality.  
   
 ## Discussion  

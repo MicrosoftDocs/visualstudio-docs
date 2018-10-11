@@ -19,8 +19,6 @@ manager: "wpickett"
 ---
 # Automatic feature suspension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 If your available system memory falls to 200MB or less, Visual Studio displays the following message in the code editor.
 
  ![Alert text suspending full solution analysis](../code-quality/media/fsa-alert.png "FSA_Alert")

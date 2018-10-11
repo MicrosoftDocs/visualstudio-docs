@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isMSILNetmodule
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag indicating whether the module is a .netmodule (a Microsoft Intermediate Language (MSIL) module that contains only metadata and no native symbols).  
   
 ## Syntax  

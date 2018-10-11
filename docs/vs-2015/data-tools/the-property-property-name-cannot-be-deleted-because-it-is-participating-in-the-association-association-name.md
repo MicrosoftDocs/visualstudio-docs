@@ -17,7 +17,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The selected property is set as the **Association Property** for the association between the classes indicated in the error message. Properties cannot be deleted if they are participating in an association between data classes.  
   
  Set the **Association Property** to a different property of the data class to enable successful deletion of the desired property.  

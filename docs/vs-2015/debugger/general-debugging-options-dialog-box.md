@@ -31,7 +31,6 @@ manager: "ghogen"
 # General, Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The**Tools / Options / Debugging / General** page lets you set the following options:  
   
  **Ask before deleting all breakpoints**  

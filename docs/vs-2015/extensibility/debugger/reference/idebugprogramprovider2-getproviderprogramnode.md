@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramProvider2::GetProviderProgramNode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the program node for a specific program.  
   
 ## Syntax  

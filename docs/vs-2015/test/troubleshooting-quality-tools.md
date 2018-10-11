@@ -20,7 +20,6 @@ manager: "douge"
 # Troubleshooting Quality Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you experience issues when you run Visual Studio quality tools, the topics in this section can help you diagnose and correct the problem.  
   
 ## In this section  

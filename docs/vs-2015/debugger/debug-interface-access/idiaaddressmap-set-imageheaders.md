@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::set_imageHeaders
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Sets image headers to enable relative virtual address translation.  
   
 ## Syntax  

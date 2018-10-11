@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugContainerField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a symbol or type that is a container for other symbols or types.  
   
 ## Syntax  

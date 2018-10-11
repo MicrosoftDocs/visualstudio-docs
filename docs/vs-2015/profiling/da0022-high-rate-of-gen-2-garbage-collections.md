@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0022: High rate of Gen 2 garbage collections
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0022|  
 |Category|.NET Framework Usage|  
 |Profiling method|All|  

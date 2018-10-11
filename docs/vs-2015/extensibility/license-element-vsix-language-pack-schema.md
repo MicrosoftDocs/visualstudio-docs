@@ -17,7 +17,6 @@ manager: "ghogen"
 # License Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Optional. The path of a localized version of the license file for the extension.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Getting Started with Python
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Python Tools for Visual Studio (PTVS), is a free, [open-source](https://github.com/Microsoft/ptvs) plug-in for Visual Studio that a powerful Python development experience.  
   
 ## Python the Language

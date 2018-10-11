@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 The Visual Studio for Applications namespaces provide interfaces for integrating .NET Framework script engines into applications.  
   
 ## In This Section

@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Stores task output values in items and properties.  
   
  \<Project>  

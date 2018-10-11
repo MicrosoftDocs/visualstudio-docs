@@ -26,7 +26,6 @@ manager: "wpickett"
 # How to: Enable AutoStart for CD Installations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When deploying a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application by means of removable media such as CD-ROM or DVD-ROM, you can enable `AutoStart` so that the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is automatically launched when the media is inserted.  
   
  `AutoStart` can be enabled on the **Publish** page of the **Project Designer**.  

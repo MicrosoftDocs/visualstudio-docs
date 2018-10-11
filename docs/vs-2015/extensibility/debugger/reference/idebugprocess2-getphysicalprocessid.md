@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetPhysicalProcessId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the system process identifier.  
   
 ## Syntax  

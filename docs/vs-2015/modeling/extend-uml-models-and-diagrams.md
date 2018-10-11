@@ -21,7 +21,6 @@ manager: "douge"
 # Extend UML models and diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic summarizes the different ways in which you can extend the UML modeling tools included with Visual Studio. To see which versions of Visual Studio support each model type and tool, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
  In the following example scenario, Fabrikam designs and installs airport baggage handling systems. From one airport project to the next, there are many similarities in the basic equipment and the software that controls it. However, there are also several factors that vary widely, such as the configuration of conveyor belts, checkin desks, storage bins, and other bag handling equipment.  

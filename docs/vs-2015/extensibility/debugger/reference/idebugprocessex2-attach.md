@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcessEx2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method informs the process that a session is now debugging the process.  
   
 ## Syntax  

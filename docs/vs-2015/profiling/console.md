@@ -18,7 +18,6 @@ manager: "ghogen"
 # Console
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The VSPerfCmd.exe **Console** option starts the specified application in a new command prompt window. **Console** can only be used with the VSPerfCmd **Launch** option. If the application is not a command-line application, **Console** has no effect.  
   
 ## Syntax  

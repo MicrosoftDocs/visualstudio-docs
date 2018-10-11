@@ -27,7 +27,6 @@ manager: "ghogen"
 # How to: Create Types by using Class Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To design new types for Visual C# .NET and Visual Basic .NET projects, create them on a class diagram. To see existing types, see [How to: View Existing Types (Class Designer)](../ide/how-to-view-existing-types-class-designer.md).  
   
 -   [Create a new type](#CreateType)  

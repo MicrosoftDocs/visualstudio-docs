@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramEngines2::SetEngine
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Tells the program or program node which debug engine (DE) to use to debug this program.  
   
 ## Syntax  

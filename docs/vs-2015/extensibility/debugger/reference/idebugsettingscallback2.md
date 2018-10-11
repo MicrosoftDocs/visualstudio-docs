@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enables debug engines to read metric settings remotely.  
   
 ## Syntax  

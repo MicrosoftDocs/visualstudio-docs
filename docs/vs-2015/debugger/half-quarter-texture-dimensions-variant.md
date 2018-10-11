@@ -18,7 +18,6 @@ manager: "ghogen"
 # Half/Quarter Texture Dimensions Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Reduces the texture dimensions on textures that are not render targets.  
   
 ## Interpretation  

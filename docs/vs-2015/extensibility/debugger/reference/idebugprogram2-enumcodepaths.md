@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::EnumCodePaths
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of the code paths for a given position in a source file.  
   
 ## Syntax  

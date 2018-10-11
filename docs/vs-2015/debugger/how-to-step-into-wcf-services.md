@@ -26,7 +26,6 @@ manager: "ghogen"
 # How to: Step into WCF Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], you can step into a WCF service. If the WCF service is in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution as the client, you can hit breakpoints inside the WCF Service.  
   
  For stepping to work, you must have debugging enabled in the app.config or Web.config file. For information about how to enable debugging and for limitations on stepping into WCF services, see [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md).  

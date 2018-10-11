@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_code
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the symbol refers to a code address.  
   
 ## Syntax  

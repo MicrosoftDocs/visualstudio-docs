@@ -21,7 +21,6 @@ manager: "ghogen"
 # FRAMEINFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes a stack frame.  
   
 ## Syntax  

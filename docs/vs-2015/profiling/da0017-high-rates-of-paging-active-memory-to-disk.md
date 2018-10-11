@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0017: High rates of paging active memory to disk
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0017|  
 |Category|Memory and Paging|  
 |Profiling method|All|  

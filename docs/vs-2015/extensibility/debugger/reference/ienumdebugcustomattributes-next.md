@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of custom attributes in an enumeration sequence.  
   
 ## Syntax  

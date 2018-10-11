@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::set_addressMap
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Provides an address map to support image layout translations.  
   
 ## Syntax  

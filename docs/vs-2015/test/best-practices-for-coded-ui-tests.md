@@ -19,7 +19,6 @@ manager: "douge"
 # Best Practices for Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes the best practices to follow when you develop coded UI tests.  
   
  **Requirements**  

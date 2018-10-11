@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Search for a Window in Windows View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can search for a specific window in Windows view by using its handle, caption, class, or a combination of its caption and class as search criteria. You can also specify the initial direction of the search. The fields in the dialog box will show the attributes of the selected window in the window tree.  
   
  Start with the tree expanded to the second level (all windows that are children of the desktop), so that you can identify desktop-level windows by their class name and title. Once you have chosen a desktop-level window, you can expand that level to find a specific child window.  

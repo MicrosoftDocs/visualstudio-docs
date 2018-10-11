@@ -21,7 +21,6 @@ manager: "ghogen"
 # Find Window Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use this dialog box to select a window and display its properties or messages. To display this dialog box, choose **Find Window** from the **Spy** menu.  
   
  The following settings are available:  

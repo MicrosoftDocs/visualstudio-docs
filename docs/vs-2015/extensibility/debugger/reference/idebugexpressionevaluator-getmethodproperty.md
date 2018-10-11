@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::GetMethodProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets a property object that contains the locals, arguments, and other properties of a method.  
   
 ## Syntax  

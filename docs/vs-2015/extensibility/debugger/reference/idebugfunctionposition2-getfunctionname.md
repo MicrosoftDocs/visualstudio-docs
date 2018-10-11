@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugFunctionPosition2::GetFunctionName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the name of the function to which this position points.  
   
 ## Syntax  

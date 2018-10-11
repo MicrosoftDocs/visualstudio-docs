@@ -16,7 +16,6 @@ manager: "douge"
 # Generating Code from a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Microsoft [!INCLUDE[dsl](../includes/dsl-md.md)] provides a powerful way to generate code, documents, configuration files and other artifacts from data represented in models. Using [!INCLUDE[dsl](../includes/dsl-md.md)], you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.  
   
  For example, Fabrikam has an XML file of customer names and e-mail addresses. Their developers create a model in which Customer is a class, with properties name and e-mail. They write several text templates to process the data, including this fragment which produces a table of all the customers as part of an HTML page:  

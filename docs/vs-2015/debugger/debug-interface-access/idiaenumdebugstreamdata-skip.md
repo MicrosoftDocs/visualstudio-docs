@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Skips a specified number of records in an enumerated sequence.  
   
 ## Syntax  

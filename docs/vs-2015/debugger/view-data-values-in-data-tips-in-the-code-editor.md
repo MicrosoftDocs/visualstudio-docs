@@ -30,7 +30,6 @@ manager: "ghogen"
 # View data values in Data Tips  in the code editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution.  
   
  In [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)], DataTips can be pinned to a specific location in a source file, or they can float on top of all [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] windows.  

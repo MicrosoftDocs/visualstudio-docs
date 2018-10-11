@@ -16,7 +16,6 @@ manager: "douge"
 # Working with Domain-Specific Language Solutions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution. This section is about how to set up and customize the solution.  
   
 ## In this Section  

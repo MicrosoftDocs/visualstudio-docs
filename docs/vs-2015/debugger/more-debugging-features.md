@@ -23,7 +23,6 @@ manager: "ghogen"
 # More Debugging Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section contains additional features that you can use with the Visual Studio debugger.  
   
  For a list of tips and tricks to make debugging faster and easier, see [Debugging Tips and Tricks](http://blogs.msdn.com/b/visualstudio/archive/2015/05/22/debugging-tips-and-tricks.aspx).  

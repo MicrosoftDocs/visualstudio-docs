@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_RESOLUTION_CODE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the location of a code breakpoint.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # SuspendProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `SuspendProfile` method increments the Suspend/Resume counter for the specified profiling level.  
   
 ## Syntax  

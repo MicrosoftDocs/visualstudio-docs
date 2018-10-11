@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::SetCondition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets or changes the condition associated with the pending breakpoint.  
   
 ## Syntax  

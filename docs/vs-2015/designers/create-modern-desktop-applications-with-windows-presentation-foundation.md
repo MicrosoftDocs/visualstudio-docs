@@ -18,7 +18,6 @@ manager: "ghogen"
 # Create Modern Desktop Applications with Windows Presentation Foundation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Windows Presentation Foundation (WPF) in Visual Studio 2015 provides developers with a unified programming model for building modern line-of-business desktop applications on Windows.  
   
  [Getting Started with WPF](../designers/getting-started-with-wpf.md)  

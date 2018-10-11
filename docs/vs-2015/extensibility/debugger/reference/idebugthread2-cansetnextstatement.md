@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::CanSetNextStatement
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines whether the current instruction pointer can be set to the given stack frame.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Overview of Visual Studio Graphics Diagnostics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio *Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC, in a Windows device emulator, or on a remote PC or device.  
   
 ## Using Graphics Diagnostics to debug rendering problems  

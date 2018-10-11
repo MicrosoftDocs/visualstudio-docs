@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugClassField::EnumBaseClasses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an enumerator for the base classes of this class.  
   
 ## Syntax  

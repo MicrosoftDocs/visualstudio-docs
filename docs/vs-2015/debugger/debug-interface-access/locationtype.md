@@ -22,7 +22,6 @@ manager: "ghogen"
 # LocationType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Indicates the kind of location information contained in a symbol.  
   
 ## Syntax  

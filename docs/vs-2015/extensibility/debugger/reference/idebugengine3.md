@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a single debug engine (DE) that controls the debugging of one or more modules.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # New Project Generation: Under the Hood, Part One
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Ever thought about how to create your own project type? Wonder what actually happens when you create a new project? Let's take a peek under the hood and see what's really going on.  
   
  There are several tasks that Visual Studio coordinates for you:  

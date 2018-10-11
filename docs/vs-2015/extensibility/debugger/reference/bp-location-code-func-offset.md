@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_CODE_FUNC_OFFSET
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the offset location of a breakpoint in a function in code.  
   
 ## Syntax  

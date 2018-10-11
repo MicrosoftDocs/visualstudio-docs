@@ -22,7 +22,6 @@ manager: "ghogen"
 # Troubleshooting Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Problems with IntelliSense code snippets are typically caused by two problems: a corrupt snippet file or bad content in the snippet file.  
   
 ## Common Problems  

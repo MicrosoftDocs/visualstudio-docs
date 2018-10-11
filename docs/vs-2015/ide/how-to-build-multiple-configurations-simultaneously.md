@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Build Multiple Configurations Simultaneously
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can build most types of projects with multiple, or even all, of their build configurations at the same time by using the **Batch Build** dialog box. However, you can't build the following types of projects in multiple build configurations at the same time:  
   
 1.  [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps built for Windows using JavaScript.  

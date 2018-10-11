@@ -23,7 +23,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Notifies [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to merge the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] packages on the system and check the MEF cache for any changes.  
   
 ## Syntax  

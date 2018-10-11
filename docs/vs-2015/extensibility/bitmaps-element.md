@@ -20,7 +20,6 @@ manager: "ghogen"
 # Bitmaps Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Groups [Bitmap Element](../extensibility/bitmap-element.md) elements.  
   
 ## Syntax  

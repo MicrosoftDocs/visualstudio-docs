@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_dataBytes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the data bytes of an OEM symbol.  
   
 ## Syntax  

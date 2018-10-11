@@ -21,7 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_PARAM
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents a parameter of a method or function.  
   
 ## Syntax  

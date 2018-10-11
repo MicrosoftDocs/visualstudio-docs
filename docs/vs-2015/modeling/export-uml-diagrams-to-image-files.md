@@ -16,7 +16,6 @@ manager: "douge"
 # Export UML diagrams to image files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can export a UML document from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to an image that is under program control. For example, you might want to do this as part of automatic document generation.  
   
  If you want to export a document to an image manually, you can copy and paste the shapes from a diagram into other programs such as Word. You can also print documents to XPS format. For more information, see [Export diagrams as images](../modeling/export-diagrams-as-images.md).  

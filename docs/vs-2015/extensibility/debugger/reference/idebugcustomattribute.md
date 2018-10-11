@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomAttribute
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a custom attribute, and it can provide the name, parent, and class type of the attribute.  
   
 ## Syntax  

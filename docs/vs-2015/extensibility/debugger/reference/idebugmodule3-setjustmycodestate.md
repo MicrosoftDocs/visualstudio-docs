@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugModule3::SetJustMyCodeState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Marks the module as being user code or not.  
   
 ## Syntax  

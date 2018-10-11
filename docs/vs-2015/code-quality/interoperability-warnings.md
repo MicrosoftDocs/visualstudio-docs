@@ -24,7 +24,6 @@ manager: "wpickett"
 # Interoperability Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Interoperability warnings support interaction with COM clients.  
   
 ## In This Section  

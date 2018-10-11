@@ -21,7 +21,6 @@ manager: "ghogen"
 # Name Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the name of the template as it appears in the **New Project** or **Add New Item** dialog box.  
   
  \<VSTemplate>  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Skips a specified number of custom attributes in an enumeration sequence.  
   
 ## Syntax  

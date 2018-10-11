@@ -21,7 +21,6 @@ manager: "ghogen"
 # Understanding Sampling Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The *sampling* profiling method of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools interrupts the computer processor at set intervals and collects the function call stack. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.  
   
  **Requirements**  

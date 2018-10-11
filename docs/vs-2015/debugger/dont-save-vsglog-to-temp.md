@@ -18,7 +18,6 @@ manager: "ghogen"
 # DONT_SAVE_VSGLOG_TO_TEMP
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines by its presence whether the graphics log file is saved to the user's temporary files directory.  
   
 ## Syntax  

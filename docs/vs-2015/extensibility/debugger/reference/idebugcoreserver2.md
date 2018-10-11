@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface is used to represent and obtain information from a server on a machine on the network.  
   
 ## Syntax  

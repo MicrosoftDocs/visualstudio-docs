@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomAttribute::GetAttributeBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the attribute information as a blob of bytes.  
   
 ## Syntax  

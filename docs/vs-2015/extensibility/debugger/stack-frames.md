@@ -21,7 +21,6 @@ manager: "ghogen"
 # Stack Frames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In terms of the debugger architecture, a **stack frame**:  
   
 -   Is an abstraction of a stack that provides the execution context of a thread. A thread always executes within a function. A stack frame holds the local variables of the function, and the arguments to it. In order to debug with Visual Studio, the language or environment being debugged must support stack frames.  

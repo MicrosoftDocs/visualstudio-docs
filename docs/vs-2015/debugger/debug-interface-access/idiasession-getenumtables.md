@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::getEnumTables
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves an enumerator for all tables contained in the symbol store.  
   
 ## Syntax  

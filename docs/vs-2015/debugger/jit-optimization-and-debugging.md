@@ -26,7 +26,6 @@ manager: "ghogen"
 # JIT Optimization and Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you debug a managed application, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] suppresses optimization of just-in-time (JIT) code by default. Suppressing JIT optimization means you are debugging non-optimized code. The code runs a bit slower because it is not optimized, but your debugging experience is much more thorough. Debugging optimized code is harder and recommended only if you encounter a bug that occurs in optimized code but cannot be reproduced in the non-optimized version.  
   
  JIT optimization is controlled in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] by the **Suppress JIT optimization on module load** option. You can find this option on the **General** page under the **Debugging** node in the **Options** dialog box.  

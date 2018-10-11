@@ -22,7 +22,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Executes the specified command after launching the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE).  
   
 ## Syntax  

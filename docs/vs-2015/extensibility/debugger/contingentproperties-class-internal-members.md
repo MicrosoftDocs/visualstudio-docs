@@ -20,7 +20,6 @@ manager: "ghogen"
 # ContingentProperties Class - Internal Members
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Contains additional properties for a <xref:System.Threading.Tasks.Task> object.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

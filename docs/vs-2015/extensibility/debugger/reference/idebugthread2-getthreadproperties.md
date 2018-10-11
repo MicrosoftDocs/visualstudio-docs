@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::GetThreadProperties
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the properties that describe this thread.  
   
 ## Syntax  

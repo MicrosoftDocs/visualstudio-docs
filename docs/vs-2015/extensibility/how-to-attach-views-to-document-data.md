@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Attach Views to Document Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you have a new document view, you may be able to attach it to an existing document data object.  
   
 ### To determine if you can attach a view to an existing document data object  

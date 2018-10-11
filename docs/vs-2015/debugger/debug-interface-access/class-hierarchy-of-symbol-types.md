@@ -22,7 +22,6 @@ manager: "ghogen"
 # Class Hierarchy of Symbol Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following table describes the symbol types in the class hierarchy.  
   
 ## Symbol Types  

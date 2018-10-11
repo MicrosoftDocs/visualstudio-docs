@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the number of custom attributes in an enumerator.  
   
 ## Syntax  

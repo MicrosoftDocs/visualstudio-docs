@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Attach the Profiler to a Native Service to Collect Concurrency Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to a native (C/C++) service and collect process and thread concurrency data by using the sampling method.  
   
 > [!NOTE]

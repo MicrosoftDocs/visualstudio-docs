@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugProgramNode2::DetachDebugger_V7
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 DEPRECATED. DO NOT USE.  
   
 ## Syntax  

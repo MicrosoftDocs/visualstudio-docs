@@ -22,7 +22,6 @@ manager: "ghogen"
 # CvCreateDefaultMarkerSeriesOfDefaultProvider Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Creates default marker series of a default provider.  
   
 ## Syntax  

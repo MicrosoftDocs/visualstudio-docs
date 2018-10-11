@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugModOpt
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a debug optional modifier.  
   
 ## Syntax  

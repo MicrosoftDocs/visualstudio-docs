@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccDiff Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function displays (or optionally just checks for) the differences between the current file (on the local disk) and its last checked-in version in the source control system.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine.  
   
 ## Syntax  

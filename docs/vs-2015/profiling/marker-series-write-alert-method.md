@@ -22,7 +22,6 @@ manager: "ghogen"
 # marker_series::write_alert Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Writes an alert to the Concurrency Visualizer trace file.  
   
 ## Syntax  

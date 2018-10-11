@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocument2::GetDocumentClassID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the class identifier of the document.  
   
 ## Syntax  

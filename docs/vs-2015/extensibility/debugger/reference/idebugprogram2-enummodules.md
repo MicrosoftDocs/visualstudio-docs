@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::EnumModules
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of the modules that this program has loaded and is executing.  
   
 ## Syntax  

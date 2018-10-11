@@ -26,7 +26,6 @@ manager: "ghogen"
 # Web Control Library (Managed Code)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Web Control Library project template creates a DLL. Because the class library is a DLL, you cannot run it directly. You must create a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] page that embeds the control. For more information, see [Web Control Library Template](http://msdn.microsoft.com/en-us/00666b07-71d2-4ace-a13c-cc130a3ce372).  
   
 ### To debug a Web Control Library (Method 1)  

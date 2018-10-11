@@ -25,7 +25,6 @@ manager: "ghogen"
 # Replace in Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Replace in Files** allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.  
   
 > [!NOTE]

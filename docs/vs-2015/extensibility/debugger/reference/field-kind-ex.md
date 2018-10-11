@@ -19,7 +19,6 @@ manager: "ghogen"
 # FIELD_KIND_EX
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enumerates additional kinds of fields that an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object can contain. This enumeration extends the [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) enumeration.  
   
 ## Syntax  

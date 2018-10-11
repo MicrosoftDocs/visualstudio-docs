@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Creates directories and, if necessary, any parent directories.  
   
 ## Parameters  

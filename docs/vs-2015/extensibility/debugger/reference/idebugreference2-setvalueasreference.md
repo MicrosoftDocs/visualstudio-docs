@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::SetValueAsReference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the value of a reference from another reference. Reserved for future use.  
   
 ## Syntax  

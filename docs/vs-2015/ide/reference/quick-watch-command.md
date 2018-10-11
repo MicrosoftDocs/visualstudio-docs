@@ -24,7 +24,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Displays the selected or specified text in the Expression field of the [QuickWatch Dialog Box](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867). You can use this dialog box to calculate the current value of a variable or expression recognized by the debugger, or the contents of a register. In addition, you can change the value of any non-const variable or the contents of any register.  
   
 ## Syntax  

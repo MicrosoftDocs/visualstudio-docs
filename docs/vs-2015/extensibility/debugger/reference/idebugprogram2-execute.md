@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::Execute
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Continues running this program from a stopped state. Any previous execution state (such as a step) is cleared, and the program starts executing again.  
   
 > [!NOTE]

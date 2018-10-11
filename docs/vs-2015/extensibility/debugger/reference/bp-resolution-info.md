@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_RESOLUTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the bound breakpoint information for either a code breakpoint or a data breakpoint.  
   
 ## Syntax  

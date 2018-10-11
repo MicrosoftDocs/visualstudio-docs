@@ -21,7 +21,6 @@ manager: "ghogen"
 # MESSAGETYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the message type and reason.  
   
 ## Syntax  

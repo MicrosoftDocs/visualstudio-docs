@@ -18,7 +18,6 @@ manager: "ghogen"
 # .NET Framework Usage Performance Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Performance rules in the.NET Framework Usage category identify specific methods that can be optimized and also identify more general usage patterns, such as garbage collection and lock contention, that can be investigated for performance issues.  
   
 |||  

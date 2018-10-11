@@ -20,7 +20,6 @@ manager: "ghogen"
 # Modules
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In terms of the debugger architecture, a **module**:  
   
 -   Is a physical container of code, such as an executable file or a DLL.  

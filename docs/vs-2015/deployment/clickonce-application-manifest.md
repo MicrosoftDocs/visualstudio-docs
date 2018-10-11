@@ -25,7 +25,6 @@ manager: "wpickett"
 # ClickOnce Application Manifest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest is an XML file that describes an application that is deployed using [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)].  
   
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifests have the following elements and attributes.  

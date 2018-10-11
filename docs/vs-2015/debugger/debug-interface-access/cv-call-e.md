@@ -22,7 +22,6 @@ manager: "ghogen"
 # CV_call_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies the calling convention for a function.  
   
 > [!NOTE]

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 11: Run Your Program and Try Other Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Your program is finished and ready to run. You can run your program and set the background color of the PictureBox. To learn more, try to improve the program by changing the color of the form, customizing the buttons and check box, and changing the properties of the form.  
   
  To download a completed version of the sample, see [Complete Picture Viewer tutorial sample](http://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).  

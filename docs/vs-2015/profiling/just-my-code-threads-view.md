@@ -22,7 +22,6 @@ manager: "ghogen"
 # Just My Code (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you select this option, you will filter the call stack to show only your code plus one level of called functions.  
   
  By activating this option, you can significantly reduce the complexity of the call stack and perhaps make it easier to diagnose a particular problem.  

@@ -23,7 +23,6 @@ manager: "ghogen"
 # FuncDebugStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 If a function has a defined point at which debugging is to begin, that point is identified by a symbol with a `SymTagFuncDebugStart` tag.  
   
 ## Properties  

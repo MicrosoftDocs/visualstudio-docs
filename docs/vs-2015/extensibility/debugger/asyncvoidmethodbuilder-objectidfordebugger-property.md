@@ -19,7 +19,6 @@ manager: "ghogen"
 # AsyncVoidMethodBuilder.ObjectIdForDebugger Property
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Gets an object that may be used to uniquely identify this builder to the debugger.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

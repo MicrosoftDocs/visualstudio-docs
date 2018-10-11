@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_baseType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the base type for this symbol*.*  
   
 ## Syntax  

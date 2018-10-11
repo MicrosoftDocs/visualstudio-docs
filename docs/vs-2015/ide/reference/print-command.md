@@ -25,7 +25,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Evaluates an expression, or displays specified text.  
   
 ## Syntax  

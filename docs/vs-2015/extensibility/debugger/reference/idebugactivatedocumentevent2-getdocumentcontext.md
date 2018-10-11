@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugActivateDocumentEvent2::GetDocumentContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the document context that describes the position in the document that is to be made active by the debug package.  
   
 ## Syntax  

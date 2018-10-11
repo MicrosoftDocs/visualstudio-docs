@@ -21,7 +21,6 @@ manager: "ghogen"
 # PROCESS_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specified what kind of information to retrieve for a process.  
   
 ## Syntax  

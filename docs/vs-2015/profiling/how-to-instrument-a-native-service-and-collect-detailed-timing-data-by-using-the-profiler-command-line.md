@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Instrument a Native Service and Collect Detailed Timing Data by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to instrument a native (C/C++) service and collect detailed timing data.  
   
 > [!NOTE]

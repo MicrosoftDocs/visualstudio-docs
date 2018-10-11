@@ -29,7 +29,6 @@ manager: "ghogen"
 # Debug Multiple Processes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Here’s how to start debugging processes, switch between processes, break and continue execution, step through source, stop debugging, and terminate or detach from processes.  
   
 ##  <a name="BKMK_Contents"></a> Contents  

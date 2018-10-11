@@ -33,7 +33,6 @@ manager: "ghogen"
 # Annotating Structs and Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can annotate struct and class members by using annotations that act like invariants—they are presumed to be true at any function call or function entry/exit that involves the enclosing structure as a parameter or a result value.  
   
 ## Struct and Class Annotations  

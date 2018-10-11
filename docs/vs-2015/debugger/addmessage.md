@@ -18,7 +18,6 @@ manager: "ghogen"
 # AddMessage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Adds a custom message to the graphics diagnostics *HUD* (Head-Up Display).  
   
 ## Syntax  

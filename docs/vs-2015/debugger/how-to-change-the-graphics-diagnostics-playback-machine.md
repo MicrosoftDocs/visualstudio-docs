@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Change the Graphics Diagnostics Playback Machine
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can play back graphics information by using your local machine, or by using a remote machine or device.  
   
 ## Choosing a Playback Machine  

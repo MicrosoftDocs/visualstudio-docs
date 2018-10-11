@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isAggregated
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the data symbol is part of an aggregate or collection of symbols; the compiler will treat aggregated symbols as separate entities, but they are really part of a single larger symbol.  
   
 ## Syntax  

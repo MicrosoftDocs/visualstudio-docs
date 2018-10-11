@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2204: Literals should be spelled correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|LiteralsShouldBeSpelledCorrectly|

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEvent2::GetAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the attributes for this debug event.  
   
 ## Syntax  

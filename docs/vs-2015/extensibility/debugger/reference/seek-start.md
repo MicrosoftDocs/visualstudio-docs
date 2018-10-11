@@ -21,7 +21,6 @@ manager: "ghogen"
 # SEEK_START
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the position from which to start seeking in a disassembly stream.  
   
 ## Syntax  

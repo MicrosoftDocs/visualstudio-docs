@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_guid
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol's globally unique identifier (GUID).  
   
 ## Syntax  

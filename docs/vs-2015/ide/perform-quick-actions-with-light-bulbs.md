@@ -18,7 +18,6 @@ manager: "ghogen"
 # Perform quick actions with light bulbs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Light bulbs are a new productivity feature in Visual Studio 2015. They are icons that appear in the Visual Studio editor and that you can click to perform quick actions including refactoring fixing errors. Light bulbs bring error-fixing and refactoring assistance into a single focal point, often right on the line where you are typing.  
   
  ![Small Light Bulb Icon](../ide/media/vs2015-lightbulbsmall.png "VS2015_LightBulbSmall")  

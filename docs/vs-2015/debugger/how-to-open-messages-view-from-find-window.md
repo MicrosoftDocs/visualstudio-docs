@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Open Messages View from Find Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You might find it convenient to use the **Find Window** dialog box to select a target window, and then open a Messages view of that window.  
   
 ### To open a Messages view window using the Find Window dialog box  

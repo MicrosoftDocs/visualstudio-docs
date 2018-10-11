@@ -18,7 +18,6 @@ manager: "ghogen"
 # Collecting Additional Performance Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In addition to the data that you collect by using a profiling method, [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] Profiling Tools enable you to record and view additional data.  
   
 ## Common Tasks  

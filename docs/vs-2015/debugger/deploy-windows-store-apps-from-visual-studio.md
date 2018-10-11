@@ -23,7 +23,6 @@ manager: "ghogen"
 # Deploy Windows Store apps from Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows only](../Image/windows_only_content.png "windows_only_content")  
   
  The Visual Studio deployment functionality builds and registers Windows Store apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:  

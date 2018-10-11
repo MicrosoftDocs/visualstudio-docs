@@ -18,7 +18,6 @@ manager: "douge"
 # Create elements and relationships in UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the program code for an extension to Visual Studio, you can create and delete elements and relationships.  
   
 ## Create a Model Element  

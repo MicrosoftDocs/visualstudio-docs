@@ -21,7 +21,6 @@ manager: "ghogen"
 # Using MSBuild
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 MSBuild supplies a well-defined, extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.  
   
  For an end-to-end sample of a language project system based on MSBuild, see the IronPython Sample Deep Dive in the[VSSDK Samples](../../misc/vssdk-samples.md).  

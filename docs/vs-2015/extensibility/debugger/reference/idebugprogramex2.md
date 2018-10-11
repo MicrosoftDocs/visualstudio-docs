@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramEx2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface lets the session debug manager (SDM) attach to a program and get the program node associated with a program.  
   
 ## Syntax  

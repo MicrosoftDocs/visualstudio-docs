@@ -31,7 +31,6 @@ manager: "ghogen"
 # COM and ActiveX Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section provides tips on debugging COM applications and ActiveX controls.  
   
 ## In This Section  

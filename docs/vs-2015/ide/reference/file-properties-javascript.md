@@ -36,7 +36,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 You can use file properties to indicate what actions the project system should perform on the files. For example, you can set file properties to indicate whether a file should be added to the package as a resource file.  
   
  You can select any file in Solution Explorer and then examine its properties in the Properties window. JavaScript files have four properties: **Copy to Output Directory**, **Package Action**, **File Name**, and **File Path**.  

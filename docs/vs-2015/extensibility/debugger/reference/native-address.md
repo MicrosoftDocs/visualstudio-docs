@@ -21,7 +21,6 @@ manager: "ghogen"
 # NATIVE_ADDRESS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents a native address.  
   
 ## Syntax  

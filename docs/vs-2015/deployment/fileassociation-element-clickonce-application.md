@@ -25,7 +25,6 @@ manager: "wpickett"
 # &lt;fileAssociation&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies a file extension to be associated with the application.  
   
 ## Syntax  

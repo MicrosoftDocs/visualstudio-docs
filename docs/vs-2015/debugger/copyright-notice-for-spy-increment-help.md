@@ -20,7 +20,6 @@ manager: "ghogen"
 # Copyright Notice for Spy++ Help
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Information in this document is subject to change without notice. Companies, names, and data used in examples herein are fictitious unless otherwise noted. No part of this document may be reproduced or transmitted in any form or by any means, electronic or mechanical, for any purpose, without express written permission of Microsoft Corporation.  
   
  © 1993-2010 Microsoft Corporation. All rights reserved.  

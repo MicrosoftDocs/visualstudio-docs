@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_targetSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the address section of a thunk target.  
   
 ## Syntax  

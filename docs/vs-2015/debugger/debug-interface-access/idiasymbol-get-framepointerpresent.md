@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_framePointerPresent
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the frame pointer is present. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.  
   
 ## Syntax  

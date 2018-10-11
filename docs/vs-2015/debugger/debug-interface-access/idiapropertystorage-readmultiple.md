@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage::ReadMultiple
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Reads specified properties from the current property set.  
   
 ## Syntax  

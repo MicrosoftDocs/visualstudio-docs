@@ -21,7 +21,6 @@ manager: "ghogen"
 # FIELD_KIND
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the kind of field contained in an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.  
   
 ## Syntax  

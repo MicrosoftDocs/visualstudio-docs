@@ -25,7 +25,6 @@ manager: "ghogen"
 # IDE Constants
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are specific to the integrated development environment (IDE) and that were previously defined only in header files.  
   
 ## Logical and Physical Views  

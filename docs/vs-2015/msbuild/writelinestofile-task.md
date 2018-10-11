@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Writes the paths of the specified items to the specified text file.  
   
 ## Task Parameters  

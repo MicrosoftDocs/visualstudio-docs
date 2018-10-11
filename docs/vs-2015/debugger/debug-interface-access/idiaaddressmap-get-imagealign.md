@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::get_imageAlign
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the current image alignment.  
   
 ## Syntax  

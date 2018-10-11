@@ -25,7 +25,6 @@ manager: "wpickett"
 # Choosing a ClickOnce Deployment Strategy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There are three different strategies for deploying a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application; the strategy that you choose depends primarily on the type of application that you are deploying. The three deployment strategies are as follows:  
   
 -   Install from the Web or a Network Share  

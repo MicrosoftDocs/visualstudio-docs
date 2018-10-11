@@ -16,7 +16,6 @@ manager: "douge"
 # Accessing Visual Studio or other Hosts from a Text Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In a text template, you can use methods and properties exposed by the host that executes the template, such as [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
  This applies to regular text templates, not preprocessed text templates.  

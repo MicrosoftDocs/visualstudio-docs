@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::SetMetric
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method sets a registry value known as a metric.  
   
 ## Syntax  

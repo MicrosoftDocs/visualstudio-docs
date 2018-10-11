@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_PASSCOUNT_STYLE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.  
   
 ## Syntax  

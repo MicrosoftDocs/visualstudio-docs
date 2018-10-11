@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericFieldDefinition::ConstructInstantiation
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Constructs a field instance given an array of type arguments.  
   
 ## Syntax  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugPortPicker
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a customized UI for selecting the port.  
   
 ## Syntax  

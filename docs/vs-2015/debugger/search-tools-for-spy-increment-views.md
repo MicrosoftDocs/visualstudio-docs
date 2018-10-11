@@ -21,7 +21,6 @@ manager: "ghogen"
 # Search Tools for Spy++ Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use these dialog boxes to specify what data a Spy++ Views window will display:  
   
 ## In This Section  

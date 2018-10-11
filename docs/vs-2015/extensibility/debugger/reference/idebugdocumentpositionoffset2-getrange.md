@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugDocumentPositionOffset2::GetRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the range for the current document position.  
   
 ## Syntax  

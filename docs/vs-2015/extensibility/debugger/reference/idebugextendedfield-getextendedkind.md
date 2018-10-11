@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExtendedField::GetExtendedKind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the specified extended field kind.  
   
 ## Syntax  

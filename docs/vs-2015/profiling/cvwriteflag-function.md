@@ -28,7 +28,6 @@ manager: "ghogen"
 # CvWriteFlag Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Writes a flag to the Concurrency Visualizer trace file.  
   
 ## Syntax  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1031: Do not catch general exception types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DoNotCatchGeneralExceptionTypes|

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::SetNextStatement
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the current instruction pointer to the given code context.  
   
 ## Syntax  

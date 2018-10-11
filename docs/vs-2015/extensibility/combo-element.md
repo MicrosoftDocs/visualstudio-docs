@@ -20,7 +20,6 @@ manager: "ghogen"
 # Combo Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines commands that appear in a combo box. There are four kinds of combo boxes, as follows: DropDownCombo, DynamicCombo, IndexCombo, and MRUCombo.  
   
 ## Syntax  

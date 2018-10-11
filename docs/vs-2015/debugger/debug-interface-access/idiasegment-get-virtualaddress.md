@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the virtual address (VA) of the beginning of the section.  
   
 ## Syntax  

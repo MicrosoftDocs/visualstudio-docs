@@ -19,7 +19,6 @@ manager: "ghogen"
 # Command Handling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Your editor can define new commands. Commands are typically displayed in a menu, on a tool bar, or in a context menu.  
   
  For more information about defining commands and menus, see [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md).  

@@ -22,7 +22,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 In addition to accessibility features and utilities in Windows, the following features make Visual Studio 2013 more accessible for people with disabilities:  
   
 -   Toolbar button and text enlargement  

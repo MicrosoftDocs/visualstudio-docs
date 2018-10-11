@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugGenericParamField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a parameter for a managed code generic type.  
   
 ## Syntax  

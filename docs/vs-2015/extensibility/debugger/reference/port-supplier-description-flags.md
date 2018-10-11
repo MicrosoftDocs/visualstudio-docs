@@ -19,7 +19,6 @@ manager: "ghogen"
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Defines the metadata that can be retrieved about a port supplier.  
   
 ## Syntax  

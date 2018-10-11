@@ -21,7 +21,6 @@ manager: "ghogen"
 # Logical Operators in Search Expressions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By using logical operators, you can refine your search for content by creating more complicated search expressions from simpler ones. As the following table shows, logical operators specify how multiple search terms should be combined in a search query.  
   
 > [!IMPORTANT]

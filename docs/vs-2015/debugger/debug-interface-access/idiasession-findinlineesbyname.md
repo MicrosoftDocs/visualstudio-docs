@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSession::findInlineesByName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "crdun"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 This topic contains information to help you resolve issues that you may experience when you’re using the Visual Studio Emulator for Android.  
   
 > [!WARNING]

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::GetCustomViewerList
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a list of custom viewers associated with this property.  
   
 ## Syntax  

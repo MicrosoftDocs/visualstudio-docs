@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetExtendedInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets extended information for the property.  
   
 ## Syntax  

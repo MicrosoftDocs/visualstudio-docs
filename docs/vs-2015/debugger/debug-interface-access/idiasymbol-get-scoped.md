@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_scoped
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the user-defined data type appears in a non-global lexical scope.  
   
 ## Syntax  

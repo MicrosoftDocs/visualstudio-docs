@@ -18,7 +18,6 @@ manager: "ghogen"
 # Creating Basic Profiling Reports from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes the basic VSPerfReport commands that generate comma-separated value (.csv) reports from a .vsp or .vsps profiling data file. For a description of all report options, see [VSPerfReport](../profiling/vsperfreport.md).  
   
 ## Report Commands  

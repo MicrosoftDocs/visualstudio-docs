@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::RemoveSetException
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Removes the specified exception so it is no longer handled by the debug engine.  
   
 ## Syntax  

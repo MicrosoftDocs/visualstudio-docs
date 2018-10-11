@@ -18,7 +18,6 @@ manager: "ghogen"
 # Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Overrides the filtering mode on appropriate texture samplers.  
   
 ## Interpretation  

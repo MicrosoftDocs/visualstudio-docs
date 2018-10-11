@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugErrorEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface specifies an error message to be reported to the user.  
   
 ## Syntax  

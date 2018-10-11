@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetAppIDFromAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the application domain identifier given the debug address.  
   
 ## Syntax  

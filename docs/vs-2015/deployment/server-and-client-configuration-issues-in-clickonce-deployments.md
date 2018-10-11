@@ -27,7 +27,6 @@ manager: "wpickett"
 # Server and Client Configuration Issues in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you use Internet Information Services (IIS) on Windows Server, and your deployment contains a file type that Windows does not recognize, such as a Microsoft Word file, IIS will refuse to transmit that file, and your deployment will not succeed.  
   
  Additionally, some Web servers and Web application software, such as [!INCLUDE[vstecasp](../includes/vstecasp-md.md)], contain a list of files and file types that you cannot download. For example, [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] prevents the download of all Web.config files. These files may contain sensitive information such as user names and passwords.  

@@ -16,7 +16,6 @@ manager: "douge"
 # Adding Extensions to DSL Definitions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 DSL Definition extension allows you to create a package of extensions to a domain-specific language (DSL). The DSL extension, which is contained in a Visual Studio Integration Extension (VSIX), can be installed on a user's computer in the same manner as a DSL. The additional features can be dynamically enabled and disabled at run time. DSLs do not have to be explicitly designed for extension, and extensions can be designed later or by third parties without altering the extended DSL.  
   
  The additional features can include the following:  

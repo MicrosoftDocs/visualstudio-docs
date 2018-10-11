@@ -21,7 +21,6 @@ manager: "ghogen"
 # Customizing Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 After project and item templates have been created, you still have the ability to further customize them to meet your needs.  
   
  For example, you can perform the following tasks:  

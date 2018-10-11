@@ -26,7 +26,6 @@ manager: "ghogen"
 # View DOM event listeners
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  The **Events** tab of DOM Explorer shows the events that are associated with a DOM element. Each top node in the **Events** tab represents an event that has active subscribers. The top node contains subnodes that represent the registered event listeners for the specific event. In addition to viewing the event listeners, you can use this tab to navigate to the location of the event listener in the JavaScript code. The information in this topic applies to Store apps using HTML and JavaScript.  

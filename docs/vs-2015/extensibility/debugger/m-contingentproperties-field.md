@@ -19,7 +19,6 @@ manager: "ghogen"
 # m_contingentProperties Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Stores additional properties of the <xref:System.Threading.Tasks.Task> object.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

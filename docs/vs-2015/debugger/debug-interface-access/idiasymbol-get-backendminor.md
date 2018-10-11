@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_backEndMinor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the back end minor version number of the compiler.  
   
 ## Syntax  

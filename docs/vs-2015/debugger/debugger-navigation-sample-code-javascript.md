@@ -23,7 +23,6 @@ manager: "ghogen"
 # Debugger navigation sample code (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The code in this topic is the sample file for the [Control execution in a debug session (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md) topic.  
   
 ## default.js sample code  

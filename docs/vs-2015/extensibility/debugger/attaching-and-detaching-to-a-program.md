@@ -20,7 +20,6 @@ manager: "ghogen"
 # Attaching and Detaching to a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Attaching the debugger requires sending the correct sequence of methods and events with the proper attributes.  
   
 ## Sequence of Methods and Events  

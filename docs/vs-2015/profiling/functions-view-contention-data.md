@@ -20,7 +20,6 @@ manager: "ghogen"
 # Functions View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Functions report view of contention data lists the functions in the profiling run that were blocked from execution during the profiling run.  
   
  The following table explains the values that are displayed in the Functions view of a profiling data file that was collected by using the concurrency method.  

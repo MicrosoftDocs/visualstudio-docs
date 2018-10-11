@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::Compare
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Compares this document context to a given array of document contexts.  
   
 ## Syntax  

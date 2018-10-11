@@ -23,7 +23,6 @@ manager: "ghogen"
 # Walkthrough: Identifying Performance Problems
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to profile an application to identify performance problems.  
   
  In this walkthrough, you will step through the process of profiling a managed application and using sampling and instrumentation to isolate and identify performance problems in the application.  

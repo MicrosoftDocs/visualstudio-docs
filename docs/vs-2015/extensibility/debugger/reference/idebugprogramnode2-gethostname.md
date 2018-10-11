@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2::GetHostName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the name of the process hosting the program.  
   
 ## Syntax  

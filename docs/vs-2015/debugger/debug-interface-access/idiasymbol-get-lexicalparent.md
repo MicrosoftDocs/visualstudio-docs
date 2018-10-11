@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_lexicalParent
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a reference to the lexical parent of the symbol.  
   
 ## Syntax  

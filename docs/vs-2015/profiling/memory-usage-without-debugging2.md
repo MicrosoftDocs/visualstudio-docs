@@ -23,7 +23,6 @@ manager: "ghogen"
 # Memory Usage without Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the **Memory Usage** tool without debugging to do the following  
   
 -   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  

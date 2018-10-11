@@ -21,7 +21,6 @@ manager: "ghogen"
 # Spy++ Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 See the sections listed below for descriptions of each Spy++ menu and dialog box:  
   
 ## In This Section  

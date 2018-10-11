@@ -22,7 +22,6 @@ manager: "ghogen"
 # NameSearchOptions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies the search options for symbol and file names.  
   
 ## Syntax  

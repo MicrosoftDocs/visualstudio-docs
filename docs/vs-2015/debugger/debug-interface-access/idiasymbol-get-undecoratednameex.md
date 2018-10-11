@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_undecoratedNameEx
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves part or all of an undecorated name for a C++ decorated (linkage) name.  
   
 ## Syntax  

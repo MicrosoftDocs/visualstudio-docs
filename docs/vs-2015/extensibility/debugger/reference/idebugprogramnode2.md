@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a program that can be debugged.  
   
 ## Syntax  

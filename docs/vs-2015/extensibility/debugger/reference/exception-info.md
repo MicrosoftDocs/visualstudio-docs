@@ -21,7 +21,6 @@ manager: "ghogen"
 # EXCEPTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes an exception or run-time error thrown by the program being debugged.  
   
 ## Syntax  

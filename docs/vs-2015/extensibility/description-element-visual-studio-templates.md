@@ -19,7 +19,6 @@ manager: "ghogen"
 # Description Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the description of the template as it appears in either the **New Project** or **Add New Item** dialog box.  
   
  \<VSTemplate>  

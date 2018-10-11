@@ -32,7 +32,6 @@ manager: "ghogen"
 # Debugging Preparation: C#, F#, and Visual Basic Project Types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The topics in this section describe how to debug the C#, F#, and [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] project types created by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project templates.  
   
  Note that those project types that create DLLs as their output have been grouped into [Debugging DLL Projects](../debugger/debugging-dll-projects.md) because of the common features they share.  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryContext2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the user-displayable name for this context.  
   
 ## Syntax  

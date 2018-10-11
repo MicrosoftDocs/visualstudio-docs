@@ -36,7 +36,6 @@ manager: "ghogen"
 # Expressions in the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.  
   
  The following sections give details about  expressions in different languages.  

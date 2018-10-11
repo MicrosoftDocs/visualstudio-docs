@@ -25,7 +25,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Turns the breakpoint either on or off, depending on its current state, at the current location in the file.  
   
 ## Syntax  

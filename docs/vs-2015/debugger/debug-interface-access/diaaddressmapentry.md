@@ -22,7 +22,6 @@ manager: "ghogen"
 # DiaAddressMapEntry
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Describes an entry in an address map.  
   
 ## Syntax  

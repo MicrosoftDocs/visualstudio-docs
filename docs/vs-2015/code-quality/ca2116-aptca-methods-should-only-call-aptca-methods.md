@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2116: APTCA methods should only call APTCA methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|AptcaMethodsShouldOnlyCallAptcaMethods|

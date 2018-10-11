@@ -27,7 +27,6 @@ manager: "ghogen"
 # Instruction Pointers (IPs) View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Instruction Pointers view enables you to see specific instructions that are executed during sampling profiling.  
   
  This view is not available during instrumentation profiling.  

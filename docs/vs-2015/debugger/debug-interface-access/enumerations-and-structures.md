@@ -25,7 +25,6 @@ manager: "ghogen"
 # Enumerations and Structures
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 These are the enumerations and structures used by the DIA SDK.  
   
 ## In This Section  

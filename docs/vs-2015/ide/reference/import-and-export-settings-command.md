@@ -24,7 +24,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Imports, exports, or resets [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] settings.  
   
 ## Syntax  

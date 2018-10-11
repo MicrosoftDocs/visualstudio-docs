@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2211: Non-constant fields should not be visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|NonConstantFieldsShouldNotBeVisible|

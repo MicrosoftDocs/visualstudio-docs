@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onInsertText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Notifies the debug package that text has been inserted into the document.  
   
 ## Syntax  

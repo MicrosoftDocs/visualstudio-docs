@@ -22,7 +22,6 @@ manager: "ghogen"
 # Commands and Menus That Use Interop Assemblies
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A VSPackage that implements menu and toolbar commands by using interop assemblies must:  
   
 -   Inform the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) about the commands it supports and whether they are currently enabled.  

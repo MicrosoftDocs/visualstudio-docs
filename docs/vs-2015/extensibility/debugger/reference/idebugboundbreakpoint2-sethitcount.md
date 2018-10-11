@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::SetHitCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the hit count for the bound breakpoint.  
   
 ## Syntax  

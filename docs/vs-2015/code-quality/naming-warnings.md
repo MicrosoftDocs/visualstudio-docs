@@ -24,7 +24,6 @@ manager: "wpickett"
 # Naming Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Naming warnings support adherence to the naming conventions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] Design Guidelines.  
   
 ## In This Section  

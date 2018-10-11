@@ -18,7 +18,6 @@ manager: "douge"
 # Text Template Utility Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There are several methods that are always available to you when you write code in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] text template. These methods are defined in <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.  
   
 > [!TIP]

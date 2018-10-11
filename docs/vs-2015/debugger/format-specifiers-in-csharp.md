@@ -36,7 +36,6 @@ manager: "ghogen"
 # Format Specifiers in C# #
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can change the format in which a value is displayed in the **Watch** window using format specifiers. You can also use format specifiers in the **Immediate** window, the **Command** window, and even in source windows. If you pause on an expression in those windows, the result will appear in a DataTip. DataTips will reflect the format specifier in the DataTip display.  
   
  To use a format specifier, type the expression followed by a comma. After the comma, add the appropriate specifier.  

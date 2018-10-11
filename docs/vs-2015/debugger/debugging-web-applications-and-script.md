@@ -31,7 +31,6 @@ manager: "ghogen"
 # Debugging Web Applications and Script
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Table legend:  
   
  This section describes common debugging techniques for Web applications. For more information, see [Debugger Basics](../debugger/debugger-basics.md).  

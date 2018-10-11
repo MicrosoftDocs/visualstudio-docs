@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpression2::Abort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method cancels asynchronous expression evaluation as started by a call to the [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) method.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugErrorBreakpoints2::Reset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Resets the enumeration to the first element.  
   
 ## Syntax  

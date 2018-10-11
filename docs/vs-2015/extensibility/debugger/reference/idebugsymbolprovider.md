@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a symbol provider that provides symbols and types, returning them as fields.  
   
 ## Syntax  

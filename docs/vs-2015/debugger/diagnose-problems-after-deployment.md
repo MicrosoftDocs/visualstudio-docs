@@ -18,7 +18,6 @@ manager: "ghogen"
 # Diagnose problems after deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.  
   
  If you are using Microsoft Monitoring Agent to control IntelliTrace, you also need to set up set up application performance monitoring on your web server. This records diagnostic events while your app runs and saves the events to an IntelliTrace log file. You can then look at the events in Visual Studio Enterprise (but not Professional or Community editions), go to the code where an event happened, look at the recorded values at that point in time, and move forwards or backwards through the code that ran. After you find and fix the problem, repeat the cycle to build, release, and monitor your release so you can resolve future potential problems earlier and faster.  

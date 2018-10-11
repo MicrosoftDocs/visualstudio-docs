@@ -24,7 +24,6 @@ manager: "wpickett"
 # Portability Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Portability warnings support portability across different operating systems.  
   
 ## In This Section  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugPortSupplierDescription2::GetDescription
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the description and description metadata for the port supplier.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a type given its primitive type.  
   
 ## Syntax  

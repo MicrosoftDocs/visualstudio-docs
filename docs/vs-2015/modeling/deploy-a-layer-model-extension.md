@@ -19,7 +19,6 @@ manager: "douge"
 # Deploy a layer model extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Other users of Visual Studio can install layer modeling extensions that you create by using Visual Studio.  
   
 ## Installing your extension  

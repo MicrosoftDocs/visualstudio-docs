@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2::GetHostPid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the system process identifier for the process hosting the program.  
   
 ## Syntax  

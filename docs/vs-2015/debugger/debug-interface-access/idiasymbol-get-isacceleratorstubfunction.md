@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isAcceleratorStubFunction
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Indicates whether the symbol corresponds to a top-level function symbol for a shader compiled for an accelerator that corresponds to a `parallel_for_each` call.  
   
 ## Syntax  

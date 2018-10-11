@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Launches executable programs from within [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
 ## Syntax  

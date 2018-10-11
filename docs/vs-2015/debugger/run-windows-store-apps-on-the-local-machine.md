@@ -23,7 +23,6 @@ manager: "ghogen"
 # Run Windows Store apps on the local machine
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows only](../Image/windows_only_content.png "windows_only_content")  
   
  To debug, test, or run performance analysis on a Windows Store app, you can run the app on the same machine that hosts Visual Studio. If the display on the device is touch-enabled, you can exercise the full functionality of the app; otherwise, you will be limited to mouse and keyboard gestures.  

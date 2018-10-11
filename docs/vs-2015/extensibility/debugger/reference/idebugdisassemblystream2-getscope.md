@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetScope
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the scope of the disassembly stream.  
   
 ## Syntax  

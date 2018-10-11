@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugClassField::EnumNestedClasses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an enumerator for the classes nested in this class.  
   
 ## Syntax  

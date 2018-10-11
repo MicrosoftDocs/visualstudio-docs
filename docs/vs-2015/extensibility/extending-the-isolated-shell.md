@@ -19,7 +19,6 @@ manager: "ghogen"
 # Extending the Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can extend the Visual Studio isolated shell by adding a VSPackage, a Managed Extensibility Framework (MEF) component part, or a generic VSIX project to your isolated shell application.  
   
 > [!NOTE]

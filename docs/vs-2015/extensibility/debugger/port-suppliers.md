@@ -20,7 +20,6 @@ manager: "ghogen"
 # Port Suppliers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In terms of the debugger architecture, a **port supplier**:  
   
 -   Is contained by a server and provides ports on request to that server.  

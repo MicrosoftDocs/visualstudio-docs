@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugFunctionObject2::CreateStringObjectWithLength
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a string object that has the specified length.  
   
 ## Syntax  

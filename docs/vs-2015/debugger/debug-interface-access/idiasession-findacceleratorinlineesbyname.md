@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSession::findAcceleratorInlineesByName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.  
   
 ## Syntax  

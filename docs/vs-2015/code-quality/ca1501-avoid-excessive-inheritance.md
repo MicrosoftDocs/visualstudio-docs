@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1501: Avoid excessive inheritance
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|AvoidExcessiveInheritance|

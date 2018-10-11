@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isSingleInheritance
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies whether the `this` pointer points to a data member with single inheritance.  
   
 ## Syntax  

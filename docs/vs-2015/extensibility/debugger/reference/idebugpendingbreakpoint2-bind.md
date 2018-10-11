@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::Bind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Binds this pending breakpoint to one or more code locations.  
   
 ## Syntax  

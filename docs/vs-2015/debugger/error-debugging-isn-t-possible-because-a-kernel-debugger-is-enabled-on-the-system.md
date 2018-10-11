@@ -30,7 +30,6 @@ manager: "ghogen"
 # Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you debug managed code, you might receive the following error message:  
   
 ```  

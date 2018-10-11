@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_RValueReference
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether a pointer type is an rvalue reference. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to a pointer type.  
   
 ## Syntax  

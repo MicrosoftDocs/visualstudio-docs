@@ -18,7 +18,6 @@ manager: "ghogen"
 # Shader Designer Examples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The articles in this section of the documentation contain examples that demonstrate how you can use the Shader Designer to create various graphics effects.  
   
 ## Related topics  

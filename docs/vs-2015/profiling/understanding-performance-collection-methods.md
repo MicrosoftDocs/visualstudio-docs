@@ -22,7 +22,6 @@ manager: "ghogen"
 # Understanding Performance Collection Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio Profiling Tools provide five methods that you can use to collect performance data. This topic describes the different methods and suggests some scenarios in which collecting data with a particular method can be appropriate.  
   
 > [!NOTE]

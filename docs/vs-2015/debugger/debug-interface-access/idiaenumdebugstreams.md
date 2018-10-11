@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreams
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerates the various debug streams contained in the data source.  
   
 ## Syntax  

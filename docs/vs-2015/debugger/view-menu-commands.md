@@ -20,7 +20,6 @@ manager: "ghogen"
 # View Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **View** menu provides commands for controlling the Spy++ user interface.  
   
  **Font**  

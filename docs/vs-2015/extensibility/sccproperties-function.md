@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccProperties Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function displays source control properties for a file or project.  
   
 ## Syntax  

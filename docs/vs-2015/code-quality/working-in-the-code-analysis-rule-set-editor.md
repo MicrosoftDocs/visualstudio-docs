@@ -20,7 +20,6 @@ manager: "wpickett"
 # Working in the Code Analysis Rule Set Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Code Analysis rule set editor enables you to specify the rules that are included in a custom rule set and to specify the action. You can also specify the action to take when code analysis encounters a violation of the rule.  
   
 |Action|Description|  

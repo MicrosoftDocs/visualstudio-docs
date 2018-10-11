@@ -20,7 +20,6 @@ manager: "ghogen"
 # Private Galleries
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can share the controls, templates, and tools that you develop by posting them to a *private gallery* on the intranet for your organization, as follows:  
   
 -   Create an Atom (RSS) feed to a suitably configured central location (repository) on your intranet. For more information, see [How to: Create an Atom Feed for a Private Gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).  

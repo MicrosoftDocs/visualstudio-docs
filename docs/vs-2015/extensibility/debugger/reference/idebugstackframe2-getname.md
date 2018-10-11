@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the name of the stack frame.  
   
 ## Syntax  

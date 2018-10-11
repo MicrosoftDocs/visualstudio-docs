@@ -21,7 +21,6 @@ manager: "ghogen"
 # ProjectType Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Categorizes the project template so that it appears under the specified group in the **New Project** or **Add New Item** dialog box.  
   
 > [!WARNING]

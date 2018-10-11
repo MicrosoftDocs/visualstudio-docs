@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2::EnumPorts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of all the ports supplied by a port supplier.  
   
 ## Syntax  

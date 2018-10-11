@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1710: Identifiers should have correct suffix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|IdentifiersShouldHaveCorrectSuffix|

@@ -32,7 +32,6 @@ manager: "ghogen"
 # How Can I Debug Windows API Functions?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you want to debug a Windows API function that has NT symbols loaded, you must do the following.  
   
 ### To set a breakpoint on a Windows API function with NT symbols loaded  

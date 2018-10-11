@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReturnValueEvent2::GetReturnValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the value returned on stepping out of or over a function.  
   
 ## Syntax  

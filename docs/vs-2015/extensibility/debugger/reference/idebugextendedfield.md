@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugExtendedField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Extends the types of fields that are available to support managed code generics.  
   
 ## Syntax  

@@ -239,7 +239,6 @@ robots: noindex,nofollow
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. The following table lists the data related forums available on MSDN.  
   
  [Windows Forms Data Controls and Databinding](http://go.microsoft.com/fwlink/?LinkId=160179)  

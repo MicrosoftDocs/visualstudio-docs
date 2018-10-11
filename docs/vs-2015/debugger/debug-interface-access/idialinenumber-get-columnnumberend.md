@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_columnNumberEnd
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the one-based source column number where the expression or statement ends.  
   
 ## Syntax  

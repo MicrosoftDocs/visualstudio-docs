@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::loadDataFromIStream
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.  
   
 ## Syntax  

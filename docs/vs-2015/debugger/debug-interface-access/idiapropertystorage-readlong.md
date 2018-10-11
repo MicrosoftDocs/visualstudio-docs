@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage::ReadLONG
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Reads `LONG` values in a property set.  
   
 ## Syntax  

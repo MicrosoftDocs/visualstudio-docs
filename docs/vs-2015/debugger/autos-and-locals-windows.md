@@ -30,7 +30,6 @@ manager: "ghogen"
 # Autos and Locals Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug / Windows / Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug / Windows / Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables displayed is different in different languages. See What variables appear in the Autos Window? below.  
   
  If you need more information about basic debugging, see [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md).  

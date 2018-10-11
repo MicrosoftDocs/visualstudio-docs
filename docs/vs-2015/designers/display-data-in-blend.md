@@ -18,7 +18,6 @@ manager: "ghogen"
 # Display data in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can view sample data in your designer as you customize the layout of your pages. You can generate sample data from scratch or by using an existing class. You can also connect to *Live data* that will appear in your app when you run it.  
   
  **In this topic:**  

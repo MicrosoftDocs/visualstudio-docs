@@ -18,7 +18,6 @@ manager: "wpickett"
 # How to: Enable and Disable Full Solution Analysis for Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 NOTE]
 >  This topic applies only to Visual Studio 2015 Update 3 RC and later.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Collecting Detailed Timing Data by Using Instrumentation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools instrumentation method injects profiling code into a copy of a module. The code records each entry, exit, and function call of the functions in the module during a profiling run. The instrumentation method is useful for gathering detailed timing information about a section of your code and for understanding the impact of input and output operations on application performance.  
   
  You can specify the instrumentation method by using one of the following procedures:  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Attaching After a Launch
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 After a program has been launched, the debug session is ready to attach the debug engine (DE) to said program.  
   
 ## Design Decisions  

@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Allows [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files to contain non-[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] information. Anything inside of a `ProjectExtensions` element will be ignored by [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)].  
   
  \<Project>  

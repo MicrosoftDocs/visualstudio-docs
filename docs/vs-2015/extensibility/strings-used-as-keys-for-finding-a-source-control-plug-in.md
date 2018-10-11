@@ -19,7 +19,6 @@ manager: "ghogen"
 # Strings Used as Keys for Finding a Source Control Plug-in
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following strings are the keys for accessing the registry to find information about the source control plug-in.  
   
  `STR_SCC_PROVIDER_REG_LOCATION`, `STR_PROVIDERREGKEY`, `STR_SCCPROVIDERPATH`, and `STR_SCCPROVIDERNAME` are registry keys or values used to register a DLL as a source control plug-in for Visual Studio.  

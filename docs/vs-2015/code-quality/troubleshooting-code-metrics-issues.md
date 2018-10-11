@@ -18,7 +18,6 @@ manager: "douge"
 # Troubleshooting Code Metrics Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You might encounter some of the following issues when you collect code metrics:  
   
 -   [Changes in Visual Studio 2010 code complexity calculations](#Changes_in_Visual_Studio_2010_code_complexity_calculations)  

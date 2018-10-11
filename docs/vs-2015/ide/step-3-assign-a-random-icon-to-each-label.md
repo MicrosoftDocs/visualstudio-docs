@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 3: Assign a Random Icon to Each Label
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If the icons show up in the same cells every game, it's not very challenging. To avoid this, assign the icons randomly to the label controls on your form by using an `AssignIconsToSquares()` method.  
   
 ### To assign a random icon to each label  

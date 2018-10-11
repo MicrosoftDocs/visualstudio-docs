@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_type
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the compiler-specific frame type.  
   
 ## Syntax  

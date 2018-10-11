@@ -20,7 +20,6 @@ manager: "ghogen"
 # Synchronized Settings in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you use the same personalization account to sign in to Visual Studio on multiple computers, by default your settings are synchronized on all computers.  
   
 ## Synchronized settings  

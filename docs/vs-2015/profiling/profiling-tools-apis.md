@@ -18,7 +18,6 @@ manager: "ghogen"
 # Profiling Tools APIs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools to control data collection in a profiling run. This section describes the methods of the APIs and describes how to use them.  
   
 ## In This Section  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback2::RestrictReferencePathAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Determines if looking for a .pdb file is allowed in the path where the .exe file is located.  
   
 ## Syntax  

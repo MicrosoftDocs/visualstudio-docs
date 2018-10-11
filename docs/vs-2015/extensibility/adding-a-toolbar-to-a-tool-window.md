@@ -20,7 +20,6 @@ manager: "ghogen"
 # Adding a Toolbar to a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough shows how to add a toolbar to a tool window.  
   
  A toolbar is a horizontal or vertical strip that contains buttons bound to commands. The length of a toolbar in a tool window is always the same as the width or height of the tool window, depending on where the toolbar is docked.  

@@ -19,7 +19,6 @@ manager: "wpickett"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device from phones to desktops. Create these Universal Windows apps with Visual Studio 2015 and the Universal Windows App Development tools.  
   
  ![Universal Windows Platform](../cross-platform/media/uwp-coreextensions.png "UWP_CoreExtensions")  

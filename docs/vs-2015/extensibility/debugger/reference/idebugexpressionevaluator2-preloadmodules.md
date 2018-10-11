@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::PreloadModules
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Preloads the modules designated by the specified symbol provider.  
   
 ## Syntax  

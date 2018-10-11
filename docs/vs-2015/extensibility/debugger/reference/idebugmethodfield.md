@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugMethodField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface describes a method.  
   
 ## Syntax  

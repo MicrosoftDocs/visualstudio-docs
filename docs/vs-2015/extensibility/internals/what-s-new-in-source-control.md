@@ -20,7 +20,6 @@ manager: "ghogen"
 # What&#39;s New in Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.  
   
 ## The Source Control VSPackage  

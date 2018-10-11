@@ -19,7 +19,6 @@ manager: "ghogen"
 # Walkthrough: Using a Shortcut Key with an Editor Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can respond to shortcut keys in your editor extension. The following walkthrough shows how to add a view adornment to a text view by using a shortcut key. This walkthrough is based on the viewport adornment editor template, and it allows you to add the adornment by using the + character.  
   
 ## Prerequisites  

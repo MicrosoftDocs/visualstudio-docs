@@ -21,7 +21,6 @@ manager: "ghogen"
 # Best Practices for Using Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.  
   
 ## Handling Exceptions  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Called when the processing of an intercepted exception has completed.  
   
 ## Syntax  

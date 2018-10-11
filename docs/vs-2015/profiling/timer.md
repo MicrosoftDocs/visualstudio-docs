@@ -18,7 +18,6 @@ manager: "ghogen"
 # Timer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The VSPerfCmd.exe **Timer** option sets the profiling event that is sampled to processor clock cycles and optionally changes the number of cycles in a sampling interval from the default of 10,000,000. On a 1GH (one gigahertz) processor, 10,000,000 clock cycles is approximately 100 samples per second. The minimum number of cycles that can be specified is 50,000.  
   
  **Timer** can only be used when you use the sampling profiling method, and it can only be used in a command line that also contains the **Launch** or the **Attach** option.  

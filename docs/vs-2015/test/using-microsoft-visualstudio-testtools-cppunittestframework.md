@@ -17,7 +17,6 @@ manager: "douge"
 # Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTestFramework` namespace.  
   
  The header files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\include** folder.  

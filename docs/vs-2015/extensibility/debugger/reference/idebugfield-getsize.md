@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the size of a field, in bytes.  
   
 ## Syntax  

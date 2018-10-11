@@ -20,7 +20,6 @@ manager: "ghogen"
 # Test Area 5: Change Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This source-control plug-in test area covers changing the source control via the **Change Source Control** command.  
   
  **Change Source Control** command provides four basic functions for the user:  

@@ -17,8 +17,6 @@ manager: "ghogen"
 ---
 # General User Interface Elements (Visual Studio)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
-
-
 This section describes some user interface elements of the integrated development environment (IDE).
 
 ## In This Section

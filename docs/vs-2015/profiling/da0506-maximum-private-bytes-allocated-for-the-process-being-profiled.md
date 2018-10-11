@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0506: Maximum Private Bytes allocated for the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0506|  
 |Category|Resource Monitoring|  
 |Profiling method|All|  

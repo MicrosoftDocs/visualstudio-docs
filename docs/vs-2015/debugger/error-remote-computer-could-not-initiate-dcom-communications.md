@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: Remote computer could not initiate DCOM communications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A DCOM error occurred when the remote machine tried to communicate with the local machine. The local machine is the machine that is  
   
  running Visual Studio. This error can occur for several reasons:  

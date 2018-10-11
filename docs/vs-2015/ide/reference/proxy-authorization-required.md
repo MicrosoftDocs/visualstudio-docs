@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 This error generally occurs when users are connected to Visual Studio Online through a proxy server, and the proxy server blocks the calls. Visual Studio Online is used to keep the user signed in to the IDE.  
   
 ## To correct this error  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineProgram2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface provides multi-threaded debugging support.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # DISASSEMBLY_STREAM_SCOPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the scope of the disassembly stream.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findSymbolByToken
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol that contains a specified metadata token.  
   
 ## Syntax  

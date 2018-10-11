@@ -22,7 +22,6 @@ manager: "ghogen"
 # Program Nodes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In terms of the debugger architecture, a **program node**:  
   
 -   Is a lightweight description of a program.  

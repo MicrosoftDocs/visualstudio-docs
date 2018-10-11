@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas directory. The schema cache is global to all users on your computer and includes standard XML Schemas that are used for IntelliSense and XML document validation.  
   
  The XML editor can also find schemas located in the solution, schemas specified in the **Schemas** field of the document **Properties** window, and schemas identified by the `xsi:schemaLocation` and `xsi:noNamespaceSchemaLocation` attributes.  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Drop-down Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The drop-down bar is provided at the top of the code window and contains two drop-down lists.  
   
 ## Drop-Down Bar Interfaces  

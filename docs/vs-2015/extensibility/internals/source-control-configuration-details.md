@@ -19,7 +19,6 @@ manager: "ghogen"
 # Source Control Configuration Details
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In order to implement source control, you need to properly configure your project system or editor to do the following:  
   
 -   Request permission to transition to changed state  

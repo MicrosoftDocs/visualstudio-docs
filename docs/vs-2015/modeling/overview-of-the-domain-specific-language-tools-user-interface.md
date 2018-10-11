@@ -20,7 +20,6 @@ manager: "douge"
 # Overview of the Domain-Specific Language Tools User Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the user interface will resemble the following picture.  
   
  ![dsl designer](../modeling/media/dsl-designer.png "dsl_designer")  

@@ -24,7 +24,6 @@ manager: "wpickett"
 # Reliability Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Reliability warnings support library and application reliability, such as correct memory and thread usage.  
   
 ## In This Section  

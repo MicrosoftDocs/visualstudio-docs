@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Change Fonts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can change the font, font style, and font size for Spy++ windows.  
   
 ### To change font options  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugArrayObject2::GetBaseIndices
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.  
   
 ## Syntax  

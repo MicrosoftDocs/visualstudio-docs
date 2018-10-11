@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcessEx2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface lets the session debug manager (SDM) notify a process that it is attaching to or detaching from the process.  
   
 ## Syntax  

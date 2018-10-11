@@ -21,7 +21,6 @@ manager: "ghogen"
 # Walkthrough: Using Profiler APIs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools APIs. You will use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.  
   
  The steps in this walkthrough generally apply to a C/C++ application. For each language, you will have to configure your build environment appropriately.  

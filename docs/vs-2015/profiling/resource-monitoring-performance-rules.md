@@ -18,7 +18,6 @@ manager: "ghogen"
 # Resource Monitoring Performance Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Performance messages in the Resource Monitoring category provide additional data about the performance of your application. You can use this data to analyze performance issues. These rules are informational and reported for every profiling run.  
   
 |||  

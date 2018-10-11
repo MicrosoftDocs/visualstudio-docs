@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.  
   
 ## Syntax  

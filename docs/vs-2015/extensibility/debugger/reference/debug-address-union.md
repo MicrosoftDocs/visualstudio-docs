@@ -21,7 +21,6 @@ manager: "ghogen"
 # DEBUG_ADDRESS_UNION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes different kinds of addresses.  
   
 ## Syntax  

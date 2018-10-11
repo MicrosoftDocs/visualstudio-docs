@@ -36,7 +36,6 @@ manager: "wpickett"
 # &lt;dependency&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies a platform or assembly dependency that is required for the application.  
   
 ## Syntax  

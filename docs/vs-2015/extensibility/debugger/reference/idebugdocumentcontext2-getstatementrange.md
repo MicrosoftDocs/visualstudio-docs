@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::GetStatementRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the file statement range of the document context.  
   
 ## Syntax  

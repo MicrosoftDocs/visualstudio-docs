@@ -21,7 +21,6 @@ manager: "ghogen"
 # &lt;field&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies documentation information, including a description, for either a field or member that's defined on an object.  
   
 ## Syntax  

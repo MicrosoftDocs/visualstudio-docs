@@ -21,7 +21,6 @@ manager: "ghogen"
 # CODE_PATH
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes a method or function call.  
   
 ## Syntax  

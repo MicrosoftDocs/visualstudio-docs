@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isHLSLData
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies whether this symbol represents High Level Shader Language (HLSL) data.  
   
 ## Syntax  

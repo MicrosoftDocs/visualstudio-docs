@@ -16,8 +16,6 @@ manager: "douge"
 ---
 # Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can use them when you have written the unit test from scratch or are refining a unit test that was generated from code you are testing.
 
 ## Groups of Elements

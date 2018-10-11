@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramPublisher2::PublishProgramNode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Makes a program node available for use by debug engines (DEs) and the session debug manager (SDM).  
   
 ## Syntax  

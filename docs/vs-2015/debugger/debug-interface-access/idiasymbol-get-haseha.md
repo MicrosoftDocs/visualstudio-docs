@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasEHa
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function contains asynchronous (structured) exception handling.  
   
 ## Syntax  

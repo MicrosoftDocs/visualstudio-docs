@@ -21,7 +21,6 @@ manager: "ghogen"
 # The Experimental Instance
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To safeguard your Visual Studio development environment from untested applications that might change it, the VSSDK provides an experimental space that you can use to experiment. You develop new applications by using Visual Studio as usual, but you run them by using this experimental instance.  
   
  Every application that has a VSIX package launches the Visual Studio experimental instance in debug mode.  

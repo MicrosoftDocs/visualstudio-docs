@@ -20,8 +20,6 @@ manager: "ghogen"
 ---
 # IDebugBinder3::GetTypeArguments
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
-
-
 This method retrieves a list of argument types associated with this object.
 
 ## Syntax

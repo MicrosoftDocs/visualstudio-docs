@@ -18,7 +18,6 @@ manager: "douge"
 # Integrate UML models with other models and tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 UML models can be integrated with other models and with domain-specific languages.  
   
  You can integrate models in the following ways by writing extension code to perform a variety of functions:  

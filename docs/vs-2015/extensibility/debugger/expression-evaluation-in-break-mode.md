@@ -21,7 +21,6 @@ manager: "ghogen"
 # Expression Evaluation in Break Mode
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following describes the process that occurs when the debugger is in break mode and must conduct expression evaluation.  
   
 ## Expression Evaluation Process  

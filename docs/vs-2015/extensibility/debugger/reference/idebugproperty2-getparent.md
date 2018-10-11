@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetParent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the parent property of a property.  
   
 ## Syntax  

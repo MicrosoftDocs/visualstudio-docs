@@ -21,7 +21,6 @@ manager: "ghogen"
 # Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Help topics in this section list the commands available on the Spy++ menus.  
   
 ## In This Section  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::Detach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Detaches a debug engine from the program.  
   
 ## Syntax  

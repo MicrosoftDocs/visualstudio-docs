@@ -24,7 +24,6 @@ manager: "ghogen"
 # How to: Set Permissions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how an Administrator of a computer grants the security permissions required for profiling to a user or group that does not have Administrator permissions on that computer.  
   
  A basic security principle states that applications should run with no more than the permissions they need. This principle also applies to users. If users can be fully effective when they are logged on as members of the Users group instead of the Administrators group, they should not be granted Administrator permissions. The first procedure, "To create a user account that has User permissions," describes how to create a user account for a member of the Users group.  

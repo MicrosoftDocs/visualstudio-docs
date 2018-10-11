@@ -20,7 +20,6 @@ manager: "ghogen"
 # What&#39;s New in the Source Control Plug-in API Version 1.2
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This section highlights the advanced source code control functionality in the Source Control Plug-in API version 1.2. The following lists the new features in version 1.2:  
   
 ## Changes  

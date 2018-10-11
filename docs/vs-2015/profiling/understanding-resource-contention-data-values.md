@@ -21,7 +21,6 @@ manager: "ghogen"
 # Understanding Resource Contention Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Resource contention profiling collects detailed call stack information each time competing threads in an application are forced to wait for access to a shared resource.  
   
  **Requirements**  

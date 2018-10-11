@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves data describing a section contribution, that is, a contiguous block of memory contributed to the image by a compiland.  
   
 ## Syntax  

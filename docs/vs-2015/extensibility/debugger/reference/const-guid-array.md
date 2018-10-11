@@ -21,7 +21,6 @@ manager: "ghogen"
 # CONST_GUID_ARRAY
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 A structure that holds a list of `GUID`s.  
   
 ## Syntax  

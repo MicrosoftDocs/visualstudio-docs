@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugAlias2::GetAppDomainId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the identifier for the application domain.  
   
 ## Syntax  

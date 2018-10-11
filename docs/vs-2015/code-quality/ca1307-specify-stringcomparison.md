@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1307: Specify StringComparison
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|SpecifyStringComparison|

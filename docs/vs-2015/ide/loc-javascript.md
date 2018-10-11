@@ -21,7 +21,6 @@ manager: "ghogen"
 # &lt;loc&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the location and type of the sidecar file that provides localized IntelliSense information.  
   
 ## Syntax  

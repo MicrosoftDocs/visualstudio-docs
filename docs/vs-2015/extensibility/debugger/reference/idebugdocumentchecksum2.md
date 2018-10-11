@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugDocumentChecksum2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a checksum for a debug document and enables passing the checksum between components.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccGet Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function retrieves a copy of one or more files for viewing and compiling but not for editing. In most systems, the files are tagged as read-only.  
   
 ## Syntax  

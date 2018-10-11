@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile::get_fileName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the source file name.  
   
 ## Syntax  

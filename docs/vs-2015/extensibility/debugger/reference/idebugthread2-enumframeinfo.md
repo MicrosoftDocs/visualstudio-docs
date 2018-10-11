@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::EnumFrameInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of the stack frames for this thread.  
   
 ## Syntax  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Context Menus
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Context menus are displayed when a user right-clicks in an active region of the client area and clear when the right mouse button is released.  
   
 ## Editor Context Menus  

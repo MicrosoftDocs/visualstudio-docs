@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile::get_compilands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves an enumerator of compilands that have line numbers referencing this file.  
   
 ## Syntax  

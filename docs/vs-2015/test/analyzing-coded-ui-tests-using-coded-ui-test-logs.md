@@ -17,7 +17,6 @@ manager: "douge"
 # Analyzing Coded UI Tests Using Coded UI Test Logs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Coded UI test logs filter and record important information about your coded UI test runs.  
   
  **Requirements**  

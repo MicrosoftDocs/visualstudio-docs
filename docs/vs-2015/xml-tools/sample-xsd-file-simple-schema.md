@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a simple purchase order schema.  
   
 ```xml  

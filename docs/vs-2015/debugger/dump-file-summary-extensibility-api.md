@@ -23,7 +23,6 @@ manager: "ghogen"
 # Dump File Summary Extensibility API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Using the extensibility APIs in this section, you can extend the .Exe Project System and the **Dump Summary** page for use with your own custom debug engine.  
   
 ## In This Section  

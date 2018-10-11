@@ -21,7 +21,6 @@ manager: "ghogen"
 # Command-Line Profiling of Stand-Alone Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes the procedures and options for collecting performance data for stand-alone (client) applications by using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools from the command line.  
   
 ## Common Tasks  

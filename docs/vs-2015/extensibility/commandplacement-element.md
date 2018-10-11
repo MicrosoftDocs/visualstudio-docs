@@ -20,7 +20,6 @@ manager: "ghogen"
 # CommandPlacement Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The CommandPlacement element enables buttons, groups, and menus to be included in more than one group or menu. By using the CommandPlacement element, you do not have to completely redefine these items in order to modify the look of a user interface.  
   
  For more information, see [Creating Reusable Groups of Buttons](../extensibility/creating-reusable-groups-of-buttons.md).  

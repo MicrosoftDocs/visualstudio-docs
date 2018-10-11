@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The following features are new in Visual Studio 2010.  
   
 ## XSLT IntelliSense  

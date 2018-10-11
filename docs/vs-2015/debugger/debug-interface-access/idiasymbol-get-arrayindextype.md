@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_arrayIndexType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol interface of the array index type of the symbol.  
   
 ## Syntax  

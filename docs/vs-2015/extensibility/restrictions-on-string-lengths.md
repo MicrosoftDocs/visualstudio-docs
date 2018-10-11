@@ -19,7 +19,6 @@ manager: "ghogen"
 # Restrictions on String Lengths
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Source Control Plug-in API limits the lengths of strings used in various functions.  
   
 ## String Length Values  

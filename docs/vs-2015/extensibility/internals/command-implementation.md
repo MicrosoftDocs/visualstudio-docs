@@ -19,7 +19,6 @@ manager: "ghogen"
 # Command Implementation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 To implement a command in a VSPackage, you must perform the following tasks:  
   
 1.  In the .vsct file, set up a command group and then add the command to it. For more information, see [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)'  

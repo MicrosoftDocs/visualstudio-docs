@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating a WPF Toolbox Control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The WPF (Windows Presentation Framework) Toolbox Control template lets you create WPF controls that are automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a **Toolbox** control that you can distribute to other users.  
   
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  

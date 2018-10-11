@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_textureSlot
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the texture slot.  
   
 ## Syntax  

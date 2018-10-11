@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugProcessSecurity::QueryCanSafelyAttach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method allows the port supplier to display a warning before the user attaches to an unsafe process.  
   
 ## Syntax  

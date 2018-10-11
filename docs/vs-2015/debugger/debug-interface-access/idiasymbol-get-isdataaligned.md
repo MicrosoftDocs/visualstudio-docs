@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isDataAligned
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the user-defined type (UDT) has been aligned to some specific memory boundary.  
   
 ## Syntax  

@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] task. The element name is determined by the name of the task being created.  
   
  \<Project>  

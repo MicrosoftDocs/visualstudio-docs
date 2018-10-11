@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Apply a Shader to a 3-D Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document demonstrates how to use the Model Editor to apply a Directed Graph Shader Language (DGSL) shader to a 3-D model.  
   
  This document demonstrates this activity:  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_InlSpec
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This function retrieves a flag indicating whether the function was marked as inline (using one of the [inline, __inline, \__forceinline](../../misc/inline-inline-forceinline.md) attributes).  
   
 ## Syntax  

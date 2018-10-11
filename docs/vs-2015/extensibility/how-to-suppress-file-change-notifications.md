@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Suppress File Change Notifications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When the physical file representing the text buffer has been changed, a dialog box displays with the message **Do you want to save changes to the following items?** This is known as file change notification. If many changes are going to be to the file, however, this dialog box displaying over and over again can quickly become annoying.  
   
  You can programmatically suppress this dialog box using the following procedure. By doing this, you can reload a file immediately without having to prompt the user to save the changes each time.  

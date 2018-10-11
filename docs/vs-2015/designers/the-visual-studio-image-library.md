@@ -26,7 +26,6 @@ manager: "ghogen"
 # The Visual Studio Image Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio Image Library contains application images that appear in Microsoft Visual Studio, Microsoft Windows, the Office system and other Microsoft software. This set of over 1,000 images can be used to create applications that look visually consistent with Microsoft software.  
   
  [Download the Visual Studio Image Library](http://go.microsoft.com/fwlink/p/?LinkId=275090)  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericParamField::GetNameOfFormalParam
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the name of this generic parameter.  
   
 ## Syntax  

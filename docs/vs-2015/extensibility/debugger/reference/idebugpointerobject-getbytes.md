@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPointerObject::GetBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the value pointed to as a series of consecutive bytes.  
   
 ## Syntax  

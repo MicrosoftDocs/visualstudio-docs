@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating a Custom Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A debug engine (DE) is a component that allows debugging of particular run-time architectures. There is typically only one DE implementation per run-time environment.  
   
 > [!NOTE]

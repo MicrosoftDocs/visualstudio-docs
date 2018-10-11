@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetContainerField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the field that contains the debug address.  
   
 ## Syntax  

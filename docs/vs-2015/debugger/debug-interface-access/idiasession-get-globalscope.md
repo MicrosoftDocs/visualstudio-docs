@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::get_globalScope
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a reference to the global scope.  
   
 ## Syntax  

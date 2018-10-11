@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::EnumChildren
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Get a list of selected children of a reference. Reserved for future use.  
   
 ## Syntax  

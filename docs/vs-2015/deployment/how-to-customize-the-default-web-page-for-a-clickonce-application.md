@@ -27,7 +27,6 @@ manager: "wpickett"
 # How to: Customize the Default Web Page for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When publishing a ClickOnce application to the Web, a Web page is automatically generated and published along with the application. The default page contains the name of the application and links to install the application, install prerequisites, or access help on MSDN.  
   
 > [!NOTE]

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Breakpoints (Visual Studio SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 There are three types of breakpoints: pending, bound, and error.  
   
  **A pending breakpoint:**  

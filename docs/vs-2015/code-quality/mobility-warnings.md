@@ -24,7 +24,6 @@ manager: "wpickett"
 # Mobility Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Mobility warnings support efficient power usage.  
   
 ## In This Section  

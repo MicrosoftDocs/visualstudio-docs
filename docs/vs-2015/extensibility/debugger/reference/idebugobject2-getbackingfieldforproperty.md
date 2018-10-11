@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject2::GetBackingFieldForProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the field or variable (if any) that may be backing the property represented by this object.  
   
 ## Syntax  

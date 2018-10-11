@@ -20,7 +20,6 @@ manager: "ghogen"
 # RequiredFrameworkVersion Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the minimum .NET Framework version that is required by the template.Schema Hierarchy.  
   
  \<VSTemplate>  

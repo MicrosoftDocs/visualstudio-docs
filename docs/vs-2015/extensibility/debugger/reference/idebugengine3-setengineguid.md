@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::SetEngineGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method sets the debug engine's (DE) `GUID`.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_functionParent
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a frame data interface for the enclosing function.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalker
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Provides methods to do a stack walk using information in the .pdb file.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::IsNullReference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Tests whether this object is a null reference.  
   
 ## Syntax  

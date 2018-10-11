@@ -21,7 +21,6 @@ manager: "ghogen"
 # Collecting .NET Memory Allocation and Lifetime Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support the collection of .NET memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.  
   
 -   Data about .NET memory allocation includes the size and number of .NET Framework memory objects that were allocated.  

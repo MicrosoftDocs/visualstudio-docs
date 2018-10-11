@@ -22,7 +22,6 @@ manager: "ghogen"
 # Channels (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Concurrency Visualizer shows four kinds of channels: thread channels, disk channels, marker channels, and GPU channels.  
   
 ## Thread Channels  

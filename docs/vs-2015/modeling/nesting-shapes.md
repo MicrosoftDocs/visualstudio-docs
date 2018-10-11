@@ -16,7 +16,6 @@ manager: "douge"
 # Nesting Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 See [Jean-Marc Prieur’s blog](http://blogs.msdn.com/b/jmprieur/archive/2008/09/03/dsl-tools-support-of-nested-shapes-in-visual-studio-2008-sp1.aspx)
 
 

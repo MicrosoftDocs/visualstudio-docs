@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback2::RestrictDBGAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Determines if looking for debug information is allowed from .dbg files.  
   
 ## Syntax  

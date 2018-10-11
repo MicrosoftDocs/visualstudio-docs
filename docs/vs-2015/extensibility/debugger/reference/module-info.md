@@ -21,7 +21,6 @@ manager: "ghogen"
 # MODULE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes a particular module (DLL, EXE, or assembly).  
   
 ## Syntax  

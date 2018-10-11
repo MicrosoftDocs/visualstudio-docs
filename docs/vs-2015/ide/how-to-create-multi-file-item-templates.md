@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Create Multi-file Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Item templates may only specify one item, but sometimes the item is made up of multiple files. For example, a Windows Forms item template for Visual Basic requires the following three files:  
   
 -   A .vb file that contains the code for the form.  

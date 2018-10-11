@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Launch a Stand-Alone Native Application with the Profiler to Collect Concurrency Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to start a native stand-alone (client) application and collect process and thread concurrency data.  
   
  A profiling session has the following parts:  

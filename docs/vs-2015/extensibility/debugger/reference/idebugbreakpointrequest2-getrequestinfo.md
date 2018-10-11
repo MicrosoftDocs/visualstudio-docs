@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointRequest2::GetRequestInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the breakpoint request information that describes this breakpoint request.  
   
 ## Syntax  

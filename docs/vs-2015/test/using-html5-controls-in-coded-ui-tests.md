@@ -17,7 +17,6 @@ manager: "douge"
 # Using HTML5 Controls in Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10.  
   
  **Requirements**  

@@ -14,7 +14,6 @@ manager: "ghogen"
 # Color Theming Tools
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The VS SDK provides several tools to help you create and manage color themes.  
   
 -   The [VSIX Color Editor](../../extensibility/internals/vsix-color-editor.md) tool can create and edit custom colors for Visual Studio.  

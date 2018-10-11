@@ -20,7 +20,6 @@ manager: "ghogen"
 # Security Bibliography
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Following are selected resources available online and in print on the subject of developing secure applications and configuring secure environments:  
   
 ## Microsoft Web sites  

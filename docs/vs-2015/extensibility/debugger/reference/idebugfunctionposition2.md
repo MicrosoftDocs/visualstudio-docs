@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugFunctionPosition2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents an abstract position of a function in a source document.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_virtualFilename
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the name given to non-file source code; that is, code that was injected.  
   
 ## Syntax  

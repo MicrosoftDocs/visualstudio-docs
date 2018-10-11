@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Customize Search Results
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can customize how search results appear in the **Search** tab in several ways.  
   
 ## Change the number of topics that appear on a search results page  

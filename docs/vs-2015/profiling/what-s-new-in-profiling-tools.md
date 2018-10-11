@@ -21,7 +21,6 @@ manager: "ghogen"
 # What&#39;s New in Profiling Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 For information about everything that’s new in Visual Studio 2015 Update 1 debugging and diagnostics, see [Visual Studio 2015 Update 1 Release Notes](https://www.visualstudio.com/news/vs2015-update1-vs#debug).  
   
  For information about everything that’s new in Visual Studio 2015 debugging and diagnostics, see [Visual Studio 2015 Release Notes](https://www.visualstudio.com/news/vs2015-vs#Debug).  

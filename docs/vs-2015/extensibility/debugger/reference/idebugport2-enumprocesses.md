@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPort2::EnumProcesses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns a list of all the processes running on a port.  
   
 ## Syntax  

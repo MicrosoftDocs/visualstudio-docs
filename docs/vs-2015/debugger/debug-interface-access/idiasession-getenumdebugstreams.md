@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::getEnumDebugStreams
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves an enumerated sequence of debug data streams.  
   
 ## Syntax  

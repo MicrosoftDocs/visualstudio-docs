@@ -17,7 +17,6 @@ manager: "ghogen"
 # UX Essentials for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 ## Best practices  
   
 ### 1. Be consistent within the Visual Studio environment.  

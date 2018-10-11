@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_bitPosition
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the bit position of location. Used when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is `LocIsBitField`.  
   
 ## Syntax  

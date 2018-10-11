@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::Enable
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Toggles the enabled state of the pending breakpoint.  
   
 ## Syntax  

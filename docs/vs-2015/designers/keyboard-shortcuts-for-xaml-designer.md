@@ -18,7 +18,6 @@ manager: "ghogen"
 # Keyboard shortcuts  for XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Keyboard shortcuts in XAML Designer can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut.  
   
 ## Element shortcuts  

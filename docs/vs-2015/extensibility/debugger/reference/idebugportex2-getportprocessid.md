@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::GetPortProcessId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the process ID of the port itself.  
   
 ## Syntax  

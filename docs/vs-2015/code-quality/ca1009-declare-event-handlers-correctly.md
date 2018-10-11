@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1009: Declare event handlers correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DeclareEventHandlersCorrectly|

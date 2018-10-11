@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools instrumentation method to collect detailed timing data, .NET memory allocation data, and .NET object lifetime data from dynamically compiled [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications.  
   
  This topic describes how to modify the web.config configuration file to enable the instrumentation and profiling of [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications.  

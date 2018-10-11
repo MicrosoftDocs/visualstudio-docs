@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_source
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the source code bytes.  
   
 ## Syntax  

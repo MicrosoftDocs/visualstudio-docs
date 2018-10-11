@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugParsedExpression::EvaluateSync
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method evaluates the parsed expression and optionally casts the result to another data type.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a debug engine (DE). It is used to manage various aspects of a debugging session, from creating breakpoints to setting and clearing exceptions.  
   
 ## Syntax  

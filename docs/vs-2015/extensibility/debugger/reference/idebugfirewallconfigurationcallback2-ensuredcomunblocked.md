@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Requests that the firewall not block remote debugging.  
   
 ## Syntax  

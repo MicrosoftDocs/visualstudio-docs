@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineCreateEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an instance of the DE is created.  
   
 ## Syntax  

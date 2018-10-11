@@ -17,7 +17,6 @@ manager: "ghogen"
 # Evaluation Tools for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 ## Craftsmanship checklist for Visual Studio  
  Use this checklist to evaluate user experience quality for visual and interaction details.  
   

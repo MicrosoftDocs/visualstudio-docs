@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder3::GetMemoryObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method retrieves a memory object that represents the memory that this object is bound to.  
   
 ## Syntax  

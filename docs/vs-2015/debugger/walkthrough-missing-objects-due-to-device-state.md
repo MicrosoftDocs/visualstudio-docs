@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: Missing Objects Due to Device State
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to investigate an object that is missing due to misconfigured device state.  
   
  This walkthrough demonstrates how to:  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # MODULE_INFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the state of symbols for a module.  
   
 ## Syntax  

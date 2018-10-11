@@ -29,7 +29,6 @@ manager: "wpickett"
 # Deploying ClickOnce Applications For Testing and Production Servers without Resigning
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic discusses a new feature of ClickOnce introduced in the .NET Framework version 3.5 that enables the deployment of ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.  
   
 > [!NOTE]

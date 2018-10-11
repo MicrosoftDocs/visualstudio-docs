@@ -21,7 +21,6 @@ manager: "ghogen"
 # ATTACH_REASON
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the reason for the debug engine (DE) to attach to a program node.  
   
 ## Syntax  

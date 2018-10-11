@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumLineNumbers::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of line numbers.  
   
 ## Syntax  

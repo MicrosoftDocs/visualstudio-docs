@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccCreateSubProject Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function creates a subproject with the given name under an existing parent project specified by the `lpParentProjPath` argument.  
   
 ## Syntax  

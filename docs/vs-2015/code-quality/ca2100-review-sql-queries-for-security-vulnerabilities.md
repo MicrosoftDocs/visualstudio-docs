@@ -24,8 +24,6 @@ manager: "wpickett"
 ---
 # CA2100: Review SQL queries for security vulnerabilities
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ReviewSqlQueriesForSecurityVulnerabilities|

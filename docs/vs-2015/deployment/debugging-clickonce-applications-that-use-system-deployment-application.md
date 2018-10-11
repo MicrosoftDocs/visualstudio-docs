@@ -27,7 +27,6 @@ manager: "wpickett"
 # Debugging ClickOnce Applications That Use System.Deployment.Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment allows you to configure how an application is updated. However, if you need to use and customize advanced [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment features, you will need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:  
   
 -   Creating an "Update Now" option in your application  

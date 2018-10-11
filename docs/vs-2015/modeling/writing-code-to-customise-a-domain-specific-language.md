@@ -18,7 +18,6 @@ manager: "douge"
 # Writing Code to Customise a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section shows you how to use custom code to access, modify, or create a model in a domain-specific language.  
   
  There are several contexts in which you can write code that works with a DSL:  

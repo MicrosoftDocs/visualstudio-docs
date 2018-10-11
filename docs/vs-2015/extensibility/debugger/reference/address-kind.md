@@ -21,7 +21,6 @@ manager: "ghogen"
 # ADDRESS_KIND
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the kinds of addresses.  
   
 ## Syntax  

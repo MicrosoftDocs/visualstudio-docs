@@ -24,7 +24,6 @@ manager: "ghogen"
 # CvCreateMarkerSeries Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Creates marker series for a given provider.  
   
 ## Syntax  

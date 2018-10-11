@@ -22,7 +22,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the  menu bar, and then expanding **Text Editor**, **JavaScript**, **IntelliSense.**  
   
  [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)]  

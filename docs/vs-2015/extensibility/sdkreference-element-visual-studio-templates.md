@@ -17,7 +17,6 @@ manager: "ghogen"
 # SDKReference Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies that the item template uses an SDK reference.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetDerivedMostProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the derived-most property of a property.  
   
 ## Syntax  

@@ -17,7 +17,6 @@ manager: "ghogen"
 # Animations for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 ## Animation fundamentals  
   
 ### Animation best practices in Visual Studio  

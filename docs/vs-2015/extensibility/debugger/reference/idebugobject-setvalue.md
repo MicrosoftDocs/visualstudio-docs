@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::SetValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the value of the object from a consecutive series of bytes.  
   
 ## Syntax  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This section discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], either through a source control plug-in or a source control VSPackage.  
   
 ## In This Section  

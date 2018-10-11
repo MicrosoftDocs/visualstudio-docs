@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEnumField::GetValueFromString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns the value associated with the name of an enumeration constant.  
   
 ## Syntax  

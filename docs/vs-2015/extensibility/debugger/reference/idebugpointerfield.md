@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPointerField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a pointer type.  
   
 ## Syntax  

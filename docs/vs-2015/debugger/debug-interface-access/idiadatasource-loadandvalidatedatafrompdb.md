@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::loadAndValidateDataFromPdb
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Opens and verifies that the program database (.pdb) file matches the signature information provided, and  prepares the .pdb file as a debug data source.  
   
 ## Syntax  

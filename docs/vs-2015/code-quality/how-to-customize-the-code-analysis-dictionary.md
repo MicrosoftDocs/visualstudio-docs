@@ -22,7 +22,6 @@ manager: "wpickett"
 # How to: Customize the Code Analysis Dictionary
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Code Analysis uses a built-in dictionary to check identifiers in your code for errors in spelling, grammatical case, and other naming conventions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] guidelines. You can create a custom dictionary Xml file to add, remove, or modify terms, abbreviations, and acronyms to the built-in dictionary.  
   
  For example, suppose your code contained a class named **DoorKnokker**. Code Analysis would identify the name as a compound of two words: **door** and **knokker**. It would then raise a warning that **knokker** was not spelled correctly. To force code analysis to recognize the spelling, you can add the term **knokker** to the custom dictionary.  

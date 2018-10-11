@@ -18,7 +18,6 @@ manager: "ghogen"
 # Memory Usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Find memory leaks and inefficient memory while you’re debugging with the debugger-integrated **Memory Usage** diagnostic tool. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, native, or mixed mode (.NET and native) apps.  
   
 -   You can analyze a single snapshot to understand the relative impact of the object types on memory use, and to find code in your app that uses memory inefficiently.  

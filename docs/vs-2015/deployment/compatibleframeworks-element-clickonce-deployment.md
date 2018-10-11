@@ -24,7 +24,6 @@ manager: "wpickett"
 # &lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies the versions of the .NET Framework where this application can install and run.  
   
 > [!NOTE]

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Common Data Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section contains reference information about the views and reports of profiler data files that are common to all profiling methods.  
   
 ## In This Section  

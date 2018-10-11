@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::GetDebugProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the program's properties.  
   
 ## Syntax  

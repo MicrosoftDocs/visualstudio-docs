@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a single stack frame in a call stack in a particular thread.  
   
 ## Syntax  

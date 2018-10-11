@@ -25,7 +25,6 @@ manager: "ghogen"
 # Using 3-D Assets in Your Game or App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to process 3-D assets and include them in your builds.  
   
  After you use the tools in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to create 3-D assets, the next step is to use them in your app. But before you can use them, your assets have to be transformed into a format that DirectX can understand. To help you transform your assets, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides build customizations for each kind of asset that it can produce. To include the assets in your build, all you have to do is configure your project to use the build customizations, add the assets to your project, and configure the assets to use the correct build customization. After that, you can load the assets into your app and use them by creating and filling DirectX resources just like you would in any other DirectX app.  

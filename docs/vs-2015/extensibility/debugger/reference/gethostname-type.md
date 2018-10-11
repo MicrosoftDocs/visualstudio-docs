@@ -21,7 +21,6 @@ manager: "ghogen"
 # GETHOSTNAME_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the type of host name.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumStackFrames::Reset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Resets the enumeration sequence to the beginning.  
   
 ## Syntax  

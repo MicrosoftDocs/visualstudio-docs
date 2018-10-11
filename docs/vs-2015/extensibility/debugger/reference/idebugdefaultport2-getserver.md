@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDefaultPort2::GetServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method obtains an interface to the server that this port is on.  
   
 ## Syntax  

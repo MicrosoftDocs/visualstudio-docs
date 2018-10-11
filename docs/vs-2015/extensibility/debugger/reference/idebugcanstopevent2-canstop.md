@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCanStopEvent2::CanStop
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Notifies the debug engine (DE) whether or not to stop at the current code location or just continue execution.  
   
 ## Syntax  

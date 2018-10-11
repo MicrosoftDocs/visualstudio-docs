@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccGetParentProjectPath Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function determines the parent project path of a specified project. This function is called when the user is adding a Visual Studio project to source control.  
   
 ## Syntax  

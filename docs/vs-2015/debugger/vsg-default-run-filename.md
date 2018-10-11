@@ -18,7 +18,6 @@ manager: "ghogen"
 # VSG_DEFAULT_RUN_FILENAME
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines the default file name of the graphics log file.  
   
 ## Syntax  

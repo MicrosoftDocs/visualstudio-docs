@@ -20,7 +20,6 @@ manager: "ghogen"
 # Tool Window Display Configuration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When a VSPackage registers a tool window, the default position, size, docking style, and other visibility information is specified in optional values. For more information on tool window registration, see [Tool Windows in the Registry](../extensibility/tool-windows-in-the-registry.md)  
   
 ## Window Display information  

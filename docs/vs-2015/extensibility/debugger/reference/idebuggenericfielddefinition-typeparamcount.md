@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericFieldDefinition::TypeParamCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of type parameters that are associated with the generic field.  
   
 ## Syntax  

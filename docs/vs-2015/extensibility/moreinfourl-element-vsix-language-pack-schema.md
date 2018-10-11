@@ -17,7 +17,6 @@ manager: "ghogen"
 # MoreInfoURL Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Optional. A link to localized information about the extension.  
   
 ## Syntax  

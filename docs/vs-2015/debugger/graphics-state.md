@@ -20,7 +20,6 @@ manager: "ghogen"
 # Graphics State
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The State window in Visual Studio graphics Diagnostics helps you understand the graphics state that is active at the time of the current event, such as a draw call.  
   
 ## Understanding the State window  

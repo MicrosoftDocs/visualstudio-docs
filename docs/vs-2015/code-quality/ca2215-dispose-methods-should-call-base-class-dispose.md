@@ -24,8 +24,6 @@ manager: "wpickett"
 ---
 # CA2215: Dispose methods should call base class dispose
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DisposeMethodsShouldCallBaseClassDispose|

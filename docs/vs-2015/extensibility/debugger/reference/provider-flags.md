@@ -21,7 +21,6 @@ manager: "ghogen"
 # PROVIDER_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies desired properties to be obtained from a program provider.  
   
 ## Syntax  

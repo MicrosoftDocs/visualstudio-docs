@@ -25,7 +25,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Sets the list of directories for the debugger to search for symbols.  
   
 ## Syntax  

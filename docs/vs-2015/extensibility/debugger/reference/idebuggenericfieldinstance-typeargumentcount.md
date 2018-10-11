@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericFieldInstance::TypeArgumentCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the number of type parameter arguments for this instance.  
   
 ## Syntax  

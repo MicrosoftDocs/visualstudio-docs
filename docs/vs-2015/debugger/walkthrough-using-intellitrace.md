@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: Using IntelliTrace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use IntelliTrace to collect information about specific events or categories of events, or about individual function calls in addition to events. The following procedures show how to do this.  
   
  You can use IntelliTrace in Visual Studio Enterprise edition (but not the Professional or Community editions).  

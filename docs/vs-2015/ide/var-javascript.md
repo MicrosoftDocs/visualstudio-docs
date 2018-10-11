@@ -21,7 +21,6 @@ manager: "ghogen"
 # &lt;var&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies documentation information for a variable.  
   
 ## Syntax  

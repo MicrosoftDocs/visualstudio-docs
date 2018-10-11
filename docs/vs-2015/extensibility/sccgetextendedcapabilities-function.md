@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccGetExtendedCapabilities Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function returns additional capabilities supported by the source control plug-in.  
   
 ## Syntax  

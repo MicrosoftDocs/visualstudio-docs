@@ -19,8 +19,6 @@ manager: "wpickett"
 ---
 # CA2130: Security critical constants should be transparent
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ConstantsShouldBeTransparent|

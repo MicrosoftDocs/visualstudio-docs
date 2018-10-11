@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Target a Version of the .NET Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document describes how to target a version of the .NET Framework when you create a project and how to change the targeted version in an existing Visual Basic, Visual C#, or Visual F# project.  
   
 > [!IMPORTANT]

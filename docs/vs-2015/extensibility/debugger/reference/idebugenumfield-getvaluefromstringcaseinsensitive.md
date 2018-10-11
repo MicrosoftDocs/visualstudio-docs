@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEnumField::GetValueFromStringCaseInsensitive
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method uses a case-insensitive search to return the value associated with the name of an enumeration constant.  
   
 ## Syntax  

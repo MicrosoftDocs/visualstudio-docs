@@ -21,7 +21,6 @@ manager: "ghogen"
 # DefaultName Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the name that the Visual Studio project system will generate for the project or item when it is created.  
   
  \<VSTemplate>  

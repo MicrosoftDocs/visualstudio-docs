@@ -18,7 +18,6 @@ manager: "ghogen"
 # L2DBForm.xaml.cs Source Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic contains the contents and description of the C# source code in the file L2DBForm.xaml.cs. The L2XDBForm partial class contained in this file can be divided into three logical sections: data members and the `OnRemove` and `OnAddBook` button click event handlers.  
   
 ## Data Members  

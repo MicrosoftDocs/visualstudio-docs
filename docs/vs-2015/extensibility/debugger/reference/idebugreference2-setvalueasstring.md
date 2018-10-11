@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::SetValueAsString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the value of a reference from a string. Reserved for future use.  
   
 ## Syntax  

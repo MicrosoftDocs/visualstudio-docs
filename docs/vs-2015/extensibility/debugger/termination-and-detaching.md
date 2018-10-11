@@ -20,7 +20,6 @@ manager: "ghogen"
 # Termination and Detaching
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following describes normal termination.  
   
 ## Discussion  

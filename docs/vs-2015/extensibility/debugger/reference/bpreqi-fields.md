@@ -21,7 +21,6 @@ manager: "ghogen"
 # BPREQI_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the information to be retrieved about a breakpoint request.  
   
 ## Syntax  

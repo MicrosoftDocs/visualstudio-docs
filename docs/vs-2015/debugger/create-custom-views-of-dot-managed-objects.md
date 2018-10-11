@@ -33,7 +33,6 @@ manager: "ghogen"
 # Create Custom Views of Managed Objects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can customize the way Visual Studio displays data types in debugger variable windows.  
   
 ## Attributes  

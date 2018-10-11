@@ -28,7 +28,6 @@ manager: "wpickett"
 # &lt;entryPoint&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is run on a client computer.  
   
 ## Syntax  

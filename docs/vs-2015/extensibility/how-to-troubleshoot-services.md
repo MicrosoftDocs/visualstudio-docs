@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Troubleshoot Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There are several common problems that can occur when you try to get a service:  
   
 -   The service is not registered with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # Creating an Extension with a Menu Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough shows how to create an extension with a menu command that launches Notepad.  
   
 ## Prerequisites  

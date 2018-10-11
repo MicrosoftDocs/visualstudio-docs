@@ -18,7 +18,6 @@ manager: "ghogen"
 # Copy (Programmatic Capture)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Copies the contents of the active graphics log (.vsglog) file into a new file.  
   
 ## Syntax  

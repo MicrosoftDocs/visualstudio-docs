@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 4: Add a Click Event Handler to Each Label
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The matching game works as follows:  
   
 1.  When a player chooses one of the squares with a hidden icon, the program shows the icon to the player by changing the icon color to black.  

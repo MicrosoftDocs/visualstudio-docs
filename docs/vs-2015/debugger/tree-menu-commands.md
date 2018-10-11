@@ -20,7 +20,6 @@ manager: "ghogen"
 # Tree Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Tree** menu provides commands to expand or collapse views.  
   
  **Expand One Level**  

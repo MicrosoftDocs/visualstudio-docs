@@ -21,7 +21,6 @@ manager: "wpickett"
 # How to: Suppress Warnings by Using the Menu Item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 NOTE]
 >  In source suppression is not supported for web site projects.  
   

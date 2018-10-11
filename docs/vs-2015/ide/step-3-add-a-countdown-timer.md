@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 3: Add a Countdown Timer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the third part of this tutorial, you'll add a countdown timer to track the number of seconds that remain for the quiz taker to finish.  
   
 > [!NOTE]

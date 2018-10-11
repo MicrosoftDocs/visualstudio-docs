@@ -19,7 +19,6 @@ manager: "ghogen"
 # Enumerators
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.  
   
 ## In This Section  

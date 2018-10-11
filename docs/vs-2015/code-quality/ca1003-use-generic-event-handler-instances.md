@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1003: Use generic event handler instances
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|UseGenericEventHandlerInstances|

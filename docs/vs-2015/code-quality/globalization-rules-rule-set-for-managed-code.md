@@ -18,7 +18,6 @@ manager: "wpickett"
 # Globalization Rules rule set for managed code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the Microsoft Globalization Rules rule set to focus on problems that might prevent data in your application from appearing correctly in different languages, locales, and cultures. You should include this rule set if your application is localized, globalized, or both.  
   
 |Rule|Description|  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Understanding Instrumentation Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] records detailed timing information for the function calls, lines, and instructions in the profiled application  
   
  **Requirements**  

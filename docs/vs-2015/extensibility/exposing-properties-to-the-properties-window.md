@@ -21,7 +21,6 @@ manager: "ghogen"
 # Exposing Properties to the Properties Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough exposes the public properties of an object to the **Properties** window. The changes you make to these properties are reflected in the **Properties** window.  
   
 ## Prerequisites  

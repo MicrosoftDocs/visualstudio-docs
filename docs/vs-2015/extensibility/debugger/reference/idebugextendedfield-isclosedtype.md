@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExtendedField::IsClosedType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the field represents a closed type.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # Elements (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Gets an indexer used to retrieve the child elements of the current element that match the specified expanded name.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointRequest2::GetLocationType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the breakpoint location type of this breakpoint request.  
   
 ## Syntax  

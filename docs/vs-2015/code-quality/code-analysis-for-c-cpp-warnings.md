@@ -28,7 +28,6 @@ manager: "ghogen"
 # Code Analysis for C/C++ Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section lists C/C++ Code Analysis warnings. For information about Code Analysis, see [/analyze (Code Analysis)](http://msdn.microsoft.com/library/81da536a-e030-4bd4-be18-383927597d08) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md).  
   
 ## See Also  

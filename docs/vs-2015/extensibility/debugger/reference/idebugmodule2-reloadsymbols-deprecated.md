@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugModule2::ReloadSymbols_Deprecated
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.  
   
 ## Syntax  

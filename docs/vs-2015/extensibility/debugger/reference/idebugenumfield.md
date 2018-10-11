@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEnumField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents an enumeration type.  
   
 ## Syntax  

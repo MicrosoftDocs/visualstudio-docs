@@ -18,7 +18,6 @@ manager: "ghogen"
 # Shader Designer Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The articles in this section of the documentation contain information about the various Shader Designer nodes that you can use to create graphics effects.  
   
 ## Nodes and node types  

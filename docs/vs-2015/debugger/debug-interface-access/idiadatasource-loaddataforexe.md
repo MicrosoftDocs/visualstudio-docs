@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::loadDataForExe
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Opens and prepares the debug data associated with the .exe/.dll file.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isSplitted
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the data symbol has been split into an aggregation or collection of other symbols; the compiler treats the symbols as separate entities, even though they are really part of a larger symbol.  
   
 ## Syntax  

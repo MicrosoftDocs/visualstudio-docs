@@ -23,7 +23,6 @@ manager: "ghogen"
 # VTableShape
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The [VTable](../../debugger/debug-interface-access/vtable.md) symbol has a class child symbol identified by the `SymTagVTableShape` tag.  
   
 ## Properties  

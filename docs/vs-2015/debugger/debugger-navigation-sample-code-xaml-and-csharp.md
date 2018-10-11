@@ -23,7 +23,6 @@ manager: "ghogen"
 # Debugger navigation sample code (Xaml and C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The code in this topic is the sample file for the [Navigate a debug session  (Xaml and C#)](../debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md) topic.  
   
 ## Sample Code  

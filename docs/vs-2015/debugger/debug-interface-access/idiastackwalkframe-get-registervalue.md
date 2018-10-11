@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkFrame::get_registerValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the value of a register.  
   
 ## Syntax  

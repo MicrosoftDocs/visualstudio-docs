@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the memory context that represents the address of the value of the object.  
   
 ## Syntax  

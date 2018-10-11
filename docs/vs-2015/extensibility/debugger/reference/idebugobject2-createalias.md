@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject2::CreateAlias
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a unique ID or alias for this object or returns an existing alias.  
   
 ## Syntax  

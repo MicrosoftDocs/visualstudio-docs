@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::GetProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the program in which a thread is running.  
   
 ## Syntax  

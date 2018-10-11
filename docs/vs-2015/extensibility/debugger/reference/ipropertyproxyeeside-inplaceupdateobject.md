@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide::InPlaceUpdateObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Updates the object's data with the given data object and returns a new data object representing the object's new data.  
   
 ## Syntax  

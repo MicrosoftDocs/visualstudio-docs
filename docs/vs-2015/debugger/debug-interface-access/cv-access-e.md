@@ -22,7 +22,6 @@ manager: "ghogen"
 # CV_access_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies the scope of visibility (access level) of member functions and variables.  
   
 ## Syntax  

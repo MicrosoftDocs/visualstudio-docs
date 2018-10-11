@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onDestroy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Indicates that the entire document has been destroyed.  
   
 ## Syntax  

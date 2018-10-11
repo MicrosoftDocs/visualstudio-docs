@@ -18,7 +18,6 @@ manager: "douge"
 # Define validation constraints for UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can define validation constraints that test whether the model meets a condition you specify. For example, you could define a constraint to make sure that a user does not create a loop of inheritance relationships. The constraint is invoked when the user tries to open or save the model, and can also be invoked manually. If the constraint fails, an error message that you define is added to the error window. You can package these constraints into a Visual Studio Integration Extension ([VSIX](http://go.microsoft.com/fwlink/?LinkId=160780)) and distribute it to other Visual Studio users.  
   
  You can also define constraints that validate the model against external resources such as databases. If you want to validate program code against a layer diagram, see [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  

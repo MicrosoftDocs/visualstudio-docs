@@ -20,7 +20,6 @@ manager: "douge"
 # Customizing File Storage and XML Serialization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.  
   
  You can customize the serialization scheme by adjusting the settings under **Xml Serialization Behavior** in DSL Explorer. There is a node under **Xml Serialization Behavior** for every domain class, property, and relationship. The relationships are located under their source classes. There are also nodes corresponding to the shape, connector, and diagram classes.  

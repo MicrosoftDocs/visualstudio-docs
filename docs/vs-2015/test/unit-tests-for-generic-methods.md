@@ -20,7 +20,6 @@ manager: "douge"
 # Unit tests for Generic Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can generate unit tests for generic methods exactly as you do for other methods, as described in [How to: Create and Run a Unit Test](http://msdn.microsoft.com/en-us/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48). The following sections provide information about and examples of creating unit tests for generic methods.  
   
 ## Type Arguments and Type Constraints  

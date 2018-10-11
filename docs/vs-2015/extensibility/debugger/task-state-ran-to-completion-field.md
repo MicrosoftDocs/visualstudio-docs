@@ -19,7 +19,6 @@ manager: "ghogen"
 # TASK_STATE_RAN_TO_COMPLETION Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The task completed execution successfully.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

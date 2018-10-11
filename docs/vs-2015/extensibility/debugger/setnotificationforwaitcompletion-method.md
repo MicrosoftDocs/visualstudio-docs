@@ -19,7 +19,6 @@ manager: "ghogen"
 # SetNotificationForWaitCompletion Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

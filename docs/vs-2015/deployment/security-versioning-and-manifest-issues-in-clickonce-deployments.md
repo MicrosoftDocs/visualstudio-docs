@@ -33,7 +33,6 @@ manager: "wpickett"
 # Security, Versioning, and Manifest Issues in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There are a variety of issues with [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] security, application versioning, and manifest syntax and semantics that can cause a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment not to succeed.  
   
 ## ClickOnce and Windows Vista User Account Control  

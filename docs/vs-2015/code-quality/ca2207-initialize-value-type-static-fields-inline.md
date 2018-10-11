@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2207: Initialize value type static fields inline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|InitializeValueTypeStaticFieldsInline|

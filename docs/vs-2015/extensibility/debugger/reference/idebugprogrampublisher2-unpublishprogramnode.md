@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramPublisher2::UnpublishProgramNode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Removes a specified program node from availability to debug engines (DEs) and the session debug manager (SDM).  
   
 ## Syntax  

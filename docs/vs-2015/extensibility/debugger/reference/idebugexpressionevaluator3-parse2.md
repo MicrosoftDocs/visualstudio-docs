@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator3::Parse2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.  
   
 ## Syntax  

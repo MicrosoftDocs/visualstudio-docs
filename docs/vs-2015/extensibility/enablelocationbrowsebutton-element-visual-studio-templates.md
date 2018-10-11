@@ -21,7 +21,6 @@ manager: "ghogen"
 # EnableLocationBrowseButton Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies whether the **Browse** button is available in the **New Project** dialog box, so that users can easily modify the default directory where a new project is saved.  
   
  \<VSTemplate>  

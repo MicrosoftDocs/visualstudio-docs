@@ -23,7 +23,6 @@ manager: "ghogen"
 # Adding Visual Studio editor support for other languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.  
   
 ## Syntax colorization, statement completion, and Navigate To support  

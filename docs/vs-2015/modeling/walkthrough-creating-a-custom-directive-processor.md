@@ -19,7 +19,6 @@ manager: "douge"
 # Walkthrough: Creating a Custom Directive Processor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Directive processors* work by adding code to the *generated transformation class*. If you call a *directive* from a *text template*, the rest of the code that you write in your text template can rely on the functionality that the directive provides.  
   
  You can write your own custom directive processors. This enables you to customize your text templates. To create a custom directive processor, you create a class that inherits from either <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  

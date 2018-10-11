@@ -19,7 +19,6 @@ manager: "ghogen"
 # AsyncTaskMethodBuilder&lt;TResult&gt;.m_task Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Represents the lazily initialized built task.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

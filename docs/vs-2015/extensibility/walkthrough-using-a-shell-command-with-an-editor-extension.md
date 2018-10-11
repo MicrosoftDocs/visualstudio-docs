@@ -19,7 +19,6 @@ manager: "ghogen"
 # Walkthrough: Using a Shell Command with an Editor Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 From a VSPackage, you can add features such as menu commands to the editor. This walkthrough shows how to add an adornment to a text view in the editor by invoking a menu command.  
   
  This walkthrough demonstrates the use of a VSPackage together with a Managed Extensibility Framework (MEF) component part. You must use a VSPackage to register the menu command with the Visual Studio shell, and you can use the command to access the MEF component part.  

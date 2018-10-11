@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Display Window Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To find out more about a window listed in [Windows View](../debugger/windows-view.md), use the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md).  
   
 ### To open the Window Properties dialog box  

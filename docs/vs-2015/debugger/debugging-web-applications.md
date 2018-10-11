@@ -28,7 +28,6 @@ manager: "ghogen"
 # Debugging Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section explains how to debug several types of Web applications.  
   
 ## In This Section  

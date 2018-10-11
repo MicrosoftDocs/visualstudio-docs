@@ -20,7 +20,6 @@ manager: "ghogen"
 # VSCT XML Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Provides a table of Command Table Compiler schema elements, with allowed child elements and attributes for each.  
   
  An XML-based command table configuration (.vsct) file defines the command elements that a VSPackage provides to the integrated development environment (IDE). These elements include menu items, menus, toolbars, and combo boxes.  

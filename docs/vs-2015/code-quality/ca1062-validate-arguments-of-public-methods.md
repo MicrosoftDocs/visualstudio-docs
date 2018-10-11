@@ -24,8 +24,6 @@ manager: "wpickett"
 ---
 # CA1062: Validate arguments of public methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ValidateArgumentsOfPublicMethods|

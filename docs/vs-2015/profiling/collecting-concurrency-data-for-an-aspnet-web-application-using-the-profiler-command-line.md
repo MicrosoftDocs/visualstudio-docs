@@ -21,7 +21,6 @@ manager: "ghogen"
 # Collecting Concurrency Data for an ASP.NET Web Application Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The concurrency method of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools enables you to collect resource contention data.  
   
 ## Common Tasks  

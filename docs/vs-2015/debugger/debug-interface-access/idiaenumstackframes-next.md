@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumStackFrames::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of stack frame elements from the enumeration sequence.  
   
 ## Syntax  

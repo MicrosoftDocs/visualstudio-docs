@@ -24,7 +24,6 @@ manager: "ghogen"
 # Beginners Guide to Performance Profiling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use Visual Studio Profiling Tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.  
   
  **Sampling** is a statistical profiling method that shows you the functions that are doing most of the user mode work in the application. Sampling is a good place to start to look for areas to speed up your application.  

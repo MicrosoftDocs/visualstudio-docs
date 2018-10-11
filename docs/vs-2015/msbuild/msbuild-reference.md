@@ -26,7 +26,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] is the build system for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] reference information.  
   
 ## In This Section  

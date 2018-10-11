@@ -19,7 +19,6 @@ manager: "ghogen"
 # Calling Debugger Events
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Events in debugging sessions occur in a specific order.  
   
 ## Discussion  

@@ -21,7 +21,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Displays a message box listing all `devenv` switches, with a brief description of each one.  
   
 ## Syntax  

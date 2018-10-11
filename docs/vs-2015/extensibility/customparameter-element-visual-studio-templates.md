@@ -21,7 +21,6 @@ manager: "ghogen"
 # CustomParameter Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Contains a custom parameter name and value to use when a project or item is created from the template.  
   
 ## Syntax  

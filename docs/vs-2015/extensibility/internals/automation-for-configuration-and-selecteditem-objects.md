@@ -20,7 +20,6 @@ manager: "ghogen"
 # Automation for Configuration and SelectedItem Objects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can automate the build and selected item processes in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
 ## Automation for Builds  

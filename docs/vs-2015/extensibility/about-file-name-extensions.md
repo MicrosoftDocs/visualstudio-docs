@@ -20,7 +20,6 @@ manager: "ghogen"
 # About File Name Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you register a file extension of a VSPackage, you associate it with a version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. This is important if more than one version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed on a computer.  
   
  File extensions for VSPackages are registered under HKEY_CLASSES_ROOT key with a default value that points to the associated programmatic identifier (ProgID).  

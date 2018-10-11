@@ -30,7 +30,6 @@ manager: "ghogen"
 # When Breakpoint Is Hit Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 With this dialog box, you can customize the action that occurs when a breakpoint is hit.  
   
 ## UIElement List  

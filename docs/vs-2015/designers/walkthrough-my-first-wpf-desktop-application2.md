@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: My First WPF Desktop Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 a name="introduction"></a> This walkthrough provides an introduction to Windows Presentation Foundation (WPF) development. You’ll create a basic application that includes the elements that are common to most WPF desktop applications: XAML markup, code-behind, application definitions, controls, layout, data binding, and styles.  
   
 ##  <a name="Create_The_Application_Code_Files"></a> Creating the Application Project  

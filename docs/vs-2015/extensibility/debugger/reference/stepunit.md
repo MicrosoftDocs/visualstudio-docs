@@ -21,7 +21,6 @@ manager: "ghogen"
 # STEPUNIT
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the step unit for stepping.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugFunctionObject2::CreateObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.  
   
 ## Syntax  

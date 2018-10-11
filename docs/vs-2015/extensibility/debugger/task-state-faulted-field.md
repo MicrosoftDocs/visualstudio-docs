@@ -19,7 +19,6 @@ manager: "ghogen"
 # TASK_STATE_FAULTED Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The task completed due to an unhandled exception.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

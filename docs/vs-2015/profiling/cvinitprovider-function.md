@@ -22,7 +22,6 @@ manager: "ghogen"
 # CvInitProvider Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Initializes marker provider. Has to be called before any other Concurrency Visualizer SDK functions.  
   
 ## Syntax  

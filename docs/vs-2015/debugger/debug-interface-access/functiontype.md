@@ -23,7 +23,6 @@ manager: "ghogen"
 # FunctionType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Each unique function signature is identified by a `SymTagFunctionType` symbol. Each parameter is identified as a class child symbol with a `SymTagFunctionArgType` tag.  
   
 ## Properties  

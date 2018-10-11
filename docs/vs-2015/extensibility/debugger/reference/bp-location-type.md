@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the location type of the breakpoint for a breakpoint request.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Provides a query context for debug symbols.  
   
 ## Syntax  

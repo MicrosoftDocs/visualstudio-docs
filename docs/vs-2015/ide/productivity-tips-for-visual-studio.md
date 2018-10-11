@@ -18,7 +18,6 @@ manager: "ghogen"
 # Productivity Tips for Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By following these tips, you can more quickly and efficiently write, navigate, and debug your code in Visual Studio. For more information about common keyboard shortcuts, see [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md). For a more complete list, see [Identifying and Customizing Keyboard Shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) and [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).  
   
  This topic includes the following sections:  

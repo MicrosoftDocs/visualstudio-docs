@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_numberOfModifiers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of modifiers that are applied to the original type.  
   
 ## Syntax  

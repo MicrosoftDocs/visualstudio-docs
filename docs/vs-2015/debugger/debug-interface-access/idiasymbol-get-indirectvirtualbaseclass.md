@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_indirectVirtualBaseClass
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the user-defined data type is an indirect virtual base class.  
   
 ## Syntax  

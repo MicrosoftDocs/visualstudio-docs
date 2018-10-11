@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugTypeFieldBuilder::CreatePrimitive
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an object that represents a primitive type.  
   
 ## Syntax  

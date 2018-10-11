@@ -18,7 +18,6 @@ manager: "ghogen"
 # Refactoring in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior. Some common *refactorings* include:  
   
 1.  splitting long functions into smaller ones  

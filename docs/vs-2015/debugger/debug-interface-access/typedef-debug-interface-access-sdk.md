@@ -22,7 +22,6 @@ manager: "ghogen"
 # Typedef (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Symbols with `SymTagTypedef` tags introduce names for other types.  
   
 ## Properties  

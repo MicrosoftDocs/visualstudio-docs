@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReturnValueEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) after stepping out of or over a function.  
   
 ## Syntax  

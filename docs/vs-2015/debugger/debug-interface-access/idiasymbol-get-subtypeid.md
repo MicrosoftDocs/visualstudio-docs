@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_subTypeId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the sub type ID.  
   
 ## Syntax  

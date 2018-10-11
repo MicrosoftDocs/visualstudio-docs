@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEDataStorage::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the number of bytes contained in this object.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Attaches the session debug manager (SDM) to the process.  
   
 ## Syntax  

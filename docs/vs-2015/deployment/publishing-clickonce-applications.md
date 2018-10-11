@@ -30,7 +30,6 @@ manager: "wpickett"
 # Publishing ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application for the first time, publish properties can be set using the Publish Wizard. Only a few of the properties are available in the wizard; all other properties are set to their default values.  
   
  Subsequent changes to publish properties are made on the **Publish** page in the **Project Designer**.  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Instrument a .NET Framework Service and Collect Memory Data by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to instrument a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] service and collect memory usage data. You can collect memory allocation data, or you can collect both memory allocation and object lifetime data.  
   
 > [!NOTE]

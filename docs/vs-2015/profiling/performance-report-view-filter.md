@@ -21,7 +21,6 @@ manager: "ghogen"
 # Performance Report View Filter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Profiler Report View Filter window is located at the top of the Performance Report window. If you cannot see it, click the **Show Filter** button.  
   
  You can modify each filter clause to refine your results. The following columns are available in the filter builder.  

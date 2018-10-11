@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Attach the Profiler to a Native Stand-Alone Application and Collect Concurrency Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to a running native (C/C++) stand-alone application and collect thread contention data.  
   
 > [!NOTE]

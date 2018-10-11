@@ -20,7 +20,6 @@ manager: "ghogen"
 # Intercepting Legacy Language Service Commands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 With [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you can have the language service intercept commands that the text view would otherwise handle. This is useful for language-specific behavior that the text view does not manage. You can intercept these commands by adding one or more command filters to the text view from your language service.  
   
 ## Getting and Routing the Command  

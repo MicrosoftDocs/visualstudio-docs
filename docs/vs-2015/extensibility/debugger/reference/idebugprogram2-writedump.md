@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::WriteDump
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Writes a dump to a file.  
   
 ## Syntax  

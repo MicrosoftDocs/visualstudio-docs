@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide::InitSourceDataProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Initializes the source data for this object and returns an object containing the initial data.  
   
 ## Syntax  

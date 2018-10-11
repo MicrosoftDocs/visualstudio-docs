@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugBeforeSymbolSearchEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The debug engine (DE) sends this interface to the session debug manager (SDM) to set the status bar message during symbol loads.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of frame data elements in the enumeration sequence.  
   
 ## Syntax  

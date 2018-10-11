@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 The following tables describe the pages (or properties collections) that are associated with the **Debugging** category, `DTE.Properties("Debugging", <Property Page>)` of the **Options** dialog box.  
   
 ## General  

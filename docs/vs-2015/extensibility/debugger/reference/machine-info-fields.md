@@ -21,7 +21,6 @@ manager: "ghogen"
 # MACHINE_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies what kind of information to retrieve for a particular machine.  
   
 ## Syntax  

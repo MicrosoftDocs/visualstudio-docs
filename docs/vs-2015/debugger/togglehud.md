@@ -18,7 +18,6 @@ manager: "ghogen"
 # ToggleHUD
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Toggles the graphics diagnostics *HUD* (Head-Up Display) overlay on or off.  
   
 ## Syntax  

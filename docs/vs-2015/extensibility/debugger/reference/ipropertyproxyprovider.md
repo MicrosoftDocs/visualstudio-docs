@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface supplies a proxy interface to view and change an object's data.  
   
 ## Syntax  

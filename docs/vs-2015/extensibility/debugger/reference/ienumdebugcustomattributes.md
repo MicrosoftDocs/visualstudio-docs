@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enumerates custom attributes.  
   
 ## Syntax  

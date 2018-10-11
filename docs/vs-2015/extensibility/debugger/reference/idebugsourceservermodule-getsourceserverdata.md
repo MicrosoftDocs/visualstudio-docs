@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSourceServerModule::GetSourceServerData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves an array of source server information.  
   
 ## Syntax  

@@ -29,7 +29,6 @@ manager: "ghogen"
 # Bind WPF controls to data in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] controls by using the **Data Sources** window. First, add a data source to the **Data Sources** window. Then, drag items from the **Data Sources** window to the**WPF Designer**.  
   
 ##  <a name="adding"></a> Add a data source to the Data Sources window  

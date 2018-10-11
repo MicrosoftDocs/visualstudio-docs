@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.  
   
 ## Syntax  

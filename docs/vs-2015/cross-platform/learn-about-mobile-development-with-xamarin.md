@@ -15,7 +15,6 @@ manager: "crdun"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 This topic directs you to overview material that helps you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.  
   
 > [!NOTE]

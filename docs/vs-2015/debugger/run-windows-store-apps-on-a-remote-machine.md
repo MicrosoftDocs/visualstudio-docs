@@ -23,7 +23,6 @@ manager: "ghogen"
 # Run Windows Store apps on a remote machine
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows only](../Image/windows_only_content.png "windows_only_content")  
   
  The Visual Studio Remote Tools app enables you to run, debug, profile, and test a Windows Store app that is running on one device from a second computer that is running Visual Studio. Running on a remote device can be especially effective when the Visual Studio computer does not support functionality that is specific to Windows Store apps, such as touch, geo-location, and physical orientation. This topic describes the procedures to configure and start a remote session.  

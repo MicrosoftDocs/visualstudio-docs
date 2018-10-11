@@ -19,7 +19,6 @@ manager: "ghogen"
 # Substitution Strings Used in .Pkgdef and .Pkgundef Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the substitution strings listed below in the .pkgdef and .pkgundef files you define for your Visual Studio isolated shell application.  
   
 ## Substitution strings  

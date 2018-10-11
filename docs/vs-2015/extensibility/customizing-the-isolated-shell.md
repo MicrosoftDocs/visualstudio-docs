@@ -19,7 +19,6 @@ manager: "ghogen"
 # Customizing the Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can customize your Visual Studio isolated shell application by changing different aspects of the Visual Studio user interface and by restricting the commands and features included in your specialized application.  
   
 ## Using the Application.pkgdef file  

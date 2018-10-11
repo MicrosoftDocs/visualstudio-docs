@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramProvider2::WatchForProviderEvents
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Allows the process to be notified of port events.  
   
 ## Syntax  

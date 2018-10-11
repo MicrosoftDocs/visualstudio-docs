@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerService::GetCustomViewerCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the number of type visualizers available from this service.  
   
 ## Syntax  

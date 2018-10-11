@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1405: COM visible type base types should be COM visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ComVisibleTypeBaseTypesShouldBeComVisible|

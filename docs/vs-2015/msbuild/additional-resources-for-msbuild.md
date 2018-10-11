@@ -26,7 +26,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The following Web sites and forums can help you find answers to common questions when working with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)].  
   
 ## Microsoft Resources  

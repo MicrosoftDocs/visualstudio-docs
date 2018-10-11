@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccIsMultiCheckoutEnabled Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function checks whether the source control plug-in allows multiple checkouts on a file.  
   
 ## Syntax  

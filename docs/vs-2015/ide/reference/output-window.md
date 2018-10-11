@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 The **Output** window can display status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View/Output** (or click CTRL + ALT + O).  
   
 > [!WARNING]

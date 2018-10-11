@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess3::DisableENC
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method explicitly disables Edit and Continue on this process (and all programs it contains). A custom port supplier should always return `E_NOTIMPL`.  
   
 ## Syntax  

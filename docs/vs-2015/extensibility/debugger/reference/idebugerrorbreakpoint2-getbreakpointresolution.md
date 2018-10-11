@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugErrorBreakpoint2::GetBreakpointResolution
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the breakpoint error resolution that describes the error.  
   
 ## Syntax  

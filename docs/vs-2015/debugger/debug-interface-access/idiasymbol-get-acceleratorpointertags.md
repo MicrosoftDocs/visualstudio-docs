@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_acceleratorPointerTags
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns all accelerator pointer tag values that correspond to a C++ AMP accelerator stub function.  
   
 ## Syntax  

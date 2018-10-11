@@ -22,7 +22,6 @@ manager: "ghogen"
 # ShowByDefault (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If `false`, specifies that the template will only be displayed under the specified [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md).  
   
  \<VSTemplate>  

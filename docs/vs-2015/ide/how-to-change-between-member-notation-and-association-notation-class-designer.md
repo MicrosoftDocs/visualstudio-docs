@@ -23,7 +23,6 @@ manager: "ghogen"
 # How to: Change Between Member Notation and Association Notation (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In Class Designer, you can change the way the class diagram represents an association relationship between two types from member notation to association notation and vice versa. Members displayed as association lines often provide a useful visualization of how types are related.  
   
 > [!NOTE]

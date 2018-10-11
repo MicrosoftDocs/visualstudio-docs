@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number.  
   
 ## Syntax  

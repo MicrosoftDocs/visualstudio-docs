@@ -18,7 +18,6 @@ manager: "douge"
 # Troubleshooting Code Analysis Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic contains troubleshooting information for the following Visual Studio code analysis issues.  
   
 -   [Changes in a Visual Studio 2010 Rule Set Are Not Reflected in Previous Visual Studio Versions](#ChildRuleSetChangesInPreviousVersions)  

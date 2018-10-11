@@ -20,7 +20,6 @@ manager: "ghogen"
 # Required Port Supplier Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A port supplier must implement the [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md) interface.[IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)  
   
  Because a port supplier supplies ports, it must also implement them. Therefore, it must implement the following interfaces:  

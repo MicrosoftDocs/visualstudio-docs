@@ -20,7 +20,6 @@ manager: "ghogen"
 # Group Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines a VSPackage command group.  
   
 ## Syntax  

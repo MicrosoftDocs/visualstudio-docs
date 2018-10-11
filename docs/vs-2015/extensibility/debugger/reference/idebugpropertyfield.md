@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPropertyField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface provides the functions that allow getting and setting a property.  
   
 ## Syntax  

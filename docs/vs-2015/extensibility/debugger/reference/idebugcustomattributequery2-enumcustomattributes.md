@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets an enumerator for all custom attributes attached to this field.  
   
 ## Syntax  

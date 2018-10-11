@@ -18,7 +18,6 @@ manager: "ghogen"
 # XElement Class Dynamic Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes the dynamic properties of the <xref:System.Xml.Linq.XElement?displayProperty=fullName>[t](<!-- TODO: review code entity reference <xref:assetId:///t?qualifyHint=False&amp;autoUpgrade=True>  -->) class.  
   
 ## In This Section  

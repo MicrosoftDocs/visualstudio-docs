@@ -23,7 +23,6 @@ manager: "ghogen"
 # Optimizing Menu and Toolbar Commands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The addition of VSPackages and their corresponding commands to [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] may cause a crowded UI. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] provides ways to help minimize UI command confusion.  
   
 ## In This Section  

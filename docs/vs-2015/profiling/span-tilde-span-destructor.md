@@ -22,7 +22,6 @@ manager: "ghogen"
 # span::~span Destructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Destroys the `span` object and releases its resources.  
   
 ## Syntax  

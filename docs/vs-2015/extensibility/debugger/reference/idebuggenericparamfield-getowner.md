@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugGenericParamField::GetOwner
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the type or method owner of this generic parameter.  
   
 ## Syntax  

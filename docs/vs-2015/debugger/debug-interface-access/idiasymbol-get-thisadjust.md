@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_thisAdjust
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the logical `this` adjustor for the method.  
   
 ## Syntax  

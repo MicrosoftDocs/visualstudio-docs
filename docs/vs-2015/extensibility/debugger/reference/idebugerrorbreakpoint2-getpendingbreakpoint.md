@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugErrorBreakpoint2::GetPendingBreakpoint
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the pending breakpoint that caused the error.  
   
 ## Syntax  

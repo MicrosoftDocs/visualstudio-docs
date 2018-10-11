@@ -21,7 +21,6 @@ manager: "ghogen"
 # REFERENCE_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the reference type.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isStripped
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves flag indicating whether private symbols were stripped from the symbol file.  
   
 ## Syntax  

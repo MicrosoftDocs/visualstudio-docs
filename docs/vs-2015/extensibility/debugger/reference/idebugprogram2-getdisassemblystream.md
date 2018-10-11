@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::GetDisassemblyStream
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the disassembly stream for this program or a part of this program.  
   
 ## Syntax  

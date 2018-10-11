@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugBreakpointChecksumRequest2::GetChecksum
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.  
   
 ## Syntax  

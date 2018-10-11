@@ -17,7 +17,6 @@ manager: "ghogen"
 # Archive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section contains discussions of Visual Studio extensibility technologies that are still supported but that have replacement technologies that are newer.  
   
 ## Legacy Interfaces in the Editor  

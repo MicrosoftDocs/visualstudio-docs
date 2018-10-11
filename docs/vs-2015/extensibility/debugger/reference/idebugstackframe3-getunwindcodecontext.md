@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame3::GetUnwindCodeContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the code context representing a location if a stack unwind operation occurred.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Legacy Language Service Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 For any particular programming language, there can be only one instance of a language service at a time. However, a single language service can serve more than one editor.  
   
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] does not associate a language service with any particular editor. Therefore, when you request a language service operation, you must identify the appropriate editor as a parameter.  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_pure
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function is pure virtual.  
   
 ## Syntax  

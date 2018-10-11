@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugProgramDestroyEventFlags2::GetFlags
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the program destroy flags.  
   
 ## Syntax  

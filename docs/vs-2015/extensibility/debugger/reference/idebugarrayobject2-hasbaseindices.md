@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugArrayObject2::HasBaseIndices
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the array has base indices (lower bounds) defined.  
   
 ## Syntax  

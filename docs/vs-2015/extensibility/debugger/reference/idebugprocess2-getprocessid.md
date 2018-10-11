@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetProcessId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the GUID for this process.  
   
 ## Syntax  

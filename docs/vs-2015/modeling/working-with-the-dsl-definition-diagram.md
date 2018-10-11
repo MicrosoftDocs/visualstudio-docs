@@ -25,7 +25,6 @@ manager: "douge"
 # Working with the DSL Definition Diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The diagram of a [!INCLUDE[dsl](../includes/dsl-md.md)] definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.  
   
 ## The Layout of the Diagram  

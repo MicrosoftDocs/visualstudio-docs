@@ -27,7 +27,6 @@ manager: "wpickett"
 # ClickOnce Deployment on Windows Vista
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Building applications in Visual Studio for User Account Control (UAC) on Windows Vista normally generates an embedded manifest, encoded as binary XML data in the application's executable file. Because ClickOnce and Registration-Free COM applications require an external manifest, Visual Studio generates a file for these types of projects containing the UAC data instead of an embedded manifest. By default, Visual Studio uses information from a file called app.manifest to generate external UAC manifest information (for ClickOnce and Registration-Free COM deployment), or to embed it in the application's executable file (for all other cases). Visual Studio provides the following options for manifest generation:  
   
 -   Use an embedded manifest. Embed UAC data in the application's executable file and run as normal user.  

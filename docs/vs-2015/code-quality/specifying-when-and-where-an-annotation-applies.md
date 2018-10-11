@@ -23,7 +23,6 @@ manager: "ghogen"
 # Specifying When and Where an Annotation Applies
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When an annotation is conditional, it may require other annotations to specify that to the analyzer.  For example, if a function has a variable that can be either synchronous or asynchronous, the function behaves as follows: In the synchronous case it always eventually succeeds, but in the asynchronous case it reports an error if it can’t succeed immediately. When the function is called synchronously, checking the result value provides no value to the code analyzer because it would not have returned.  However, when the function is called asynchronously and the function result is not checked, a serious error could occur. This example illustrates a situation in which you could use the `_When_` annotation—described later in this article—to enable checking.  
   
 ## Structural Annotations  

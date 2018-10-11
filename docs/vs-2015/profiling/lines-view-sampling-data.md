@@ -20,7 +20,6 @@ manager: "ghogen"
 # Lines View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Lines view of sampling data lists performance data for the statements that were executing when the samples were collected in the profiling run.  
   
 > [!NOTE]

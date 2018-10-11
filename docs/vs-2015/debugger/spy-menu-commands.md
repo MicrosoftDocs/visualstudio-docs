@@ -20,7 +20,6 @@ manager: "ghogen"
 # Spy Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Spy** menu provides commands to work with Spy++ Windows and views.  
   
  **Windows**  

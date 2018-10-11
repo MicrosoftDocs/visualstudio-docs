@@ -22,7 +22,6 @@ manager: "ghogen"
 # Assembly Element (Visual Studio Template Wizard Extension)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the name or strong name of the assembly that implements the `IWizard` interface.  
   
  \<VSTemplate>  

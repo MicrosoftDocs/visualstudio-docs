@@ -28,7 +28,6 @@ manager: "wpickett"
 # &lt;Strings&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines localized strings for product names, package names, and installation error messages.  
   
 ## Syntax  

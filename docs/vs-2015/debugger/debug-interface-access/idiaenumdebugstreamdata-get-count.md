@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number records in the debug data stream.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkFrame::readMemory
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Reads memory from image.  
   
 ## Syntax  

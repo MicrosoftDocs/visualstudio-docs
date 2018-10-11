@@ -22,7 +22,6 @@ manager: "ghogen"
 # Making Commands Available
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 When multiple VSPackages are added to Visual Studio, the user interface (UI) may become overcrowded with commands. You can program your package to help reduce this problem, as follows:  
   
 -   Program the package so that it is loaded only when a user requires it.  

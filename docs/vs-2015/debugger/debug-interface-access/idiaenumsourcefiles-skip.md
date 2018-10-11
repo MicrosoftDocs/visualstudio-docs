@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Skips a specified number of source files in an enumeration sequence.  
   
 ## Syntax  

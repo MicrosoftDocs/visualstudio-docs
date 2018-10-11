@@ -19,7 +19,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Custom Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The VSPackage project template can create a simple custom editor in C++.  The VSPackage project template no longer supports C# or Visual Basic projects. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
 ## Prerequisites  

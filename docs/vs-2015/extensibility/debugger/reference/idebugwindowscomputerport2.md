@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugWindowsComputerPort2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Allows querying for information about the target computer.  
   
 ## Syntax  

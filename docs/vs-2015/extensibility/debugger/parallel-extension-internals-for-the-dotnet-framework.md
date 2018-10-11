@@ -19,7 +19,6 @@ manager: "ghogen"
 # Parallel Extension Internals for the .NET Framework
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This section describes the internal types, methods, and fields of classes that help you implement a custom debugger for the parallel extensions to the .NET Framework.  
   
 ## In This Section  

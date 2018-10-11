@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineProgram2::WatchForThreadStep
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Watches for execution (or stops watching for execution) to occur on the given thread.  
   
 ## Syntax  

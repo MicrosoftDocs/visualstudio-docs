@@ -29,7 +29,6 @@ manager: "ghogen"
 # QuickStart: Debug JavaScript using the console
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  You can use the JavaScript Console window to interact with and debug Store apps built using JavaScript. These features are supported for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  

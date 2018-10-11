@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Represents a source file.  
   
 ## Syntax  

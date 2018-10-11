@@ -18,7 +18,6 @@ manager: "ghogen"
 # Find code changes and other history with CodeLens
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Stay focused on your work while you find out what happened to your code - without leaving the editor. Find references and changes to your code, linked bugs, work items, code reviews, and unit tests.  
   
 > [!NOTE]

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::imageForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns the start of an executable's image in memory given a virtual address somewhere in the executable's memory space.  
   
 ## Syntax  

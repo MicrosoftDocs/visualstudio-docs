@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a field, that is, a description of a symbol or type.  
   
 ## Syntax  

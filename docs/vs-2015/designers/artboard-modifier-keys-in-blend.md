@@ -18,7 +18,6 @@ manager: "ghogen"
 # Artboard modifier keys in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] user interface to discover them. The following table lists shortcuts that modify an action, such as resizing an object.  
   
 |To do this action|Do this|  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_addressSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the section number that maps to this segment.  
   
 ## Syntax  

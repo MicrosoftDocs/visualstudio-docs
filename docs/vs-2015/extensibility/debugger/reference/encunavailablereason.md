@@ -21,7 +21,6 @@ manager: "ghogen"
 # EncUnavailableReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 `This is for internal use only!` Represents the reasons that **Edit and Continue** is not available.  
   
 ## Syntax  

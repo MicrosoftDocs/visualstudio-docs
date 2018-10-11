@@ -23,7 +23,6 @@ manager: "ghogen"
 # Getting Started with the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio debugger is easy to use in any language. Here we’ll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.  
   
 ##  <a name="BKMK_Start_debugging_a_VS_project"></a> Debug a Basic C# Project  

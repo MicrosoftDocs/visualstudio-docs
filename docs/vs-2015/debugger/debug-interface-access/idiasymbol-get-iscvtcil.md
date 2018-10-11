@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isCVTCIL
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag indicating whether the module was converted from a Common Intermediate Language (CIL) module to a native module.  
   
 ## Syntax  

@@ -17,7 +17,6 @@ manager: "douge"
 # Test Windows UWP and 8.1 Store Apps with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1 apps.
   
 ## Create a simple Windows Store app  

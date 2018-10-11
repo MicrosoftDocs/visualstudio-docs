@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2106: Secure asserts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|SecureAsserts|

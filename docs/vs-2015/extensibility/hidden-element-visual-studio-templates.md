@@ -21,7 +21,6 @@ manager: "ghogen"
 # Hidden Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies whether the template appears in either the **New Project** or **Add New Item** dialog box.  
   
  \<VSTemplate>  

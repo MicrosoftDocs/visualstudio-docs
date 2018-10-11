@@ -21,7 +21,6 @@ manager: "ghogen"
 # Best Practices for Security in VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 To install the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] on your computer, you must be running in a context with administrative credentials. The basic unit of security and deployment of a [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] application is the [VSPackages](../../extensibility/internals/vspackages.md). A VSPackage must be registered by using [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], which also requires administrative credentials.  
   
  Administrators have full permissions to write to the registry and file system, and to run any code. You must have these permissions to develop, deploy, or install a VSPackage.  

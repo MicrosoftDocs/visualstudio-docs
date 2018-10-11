@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isPointerBasedOnSymbolValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies whether the `this` pointer is based on a symbol value.  
   
 ## Syntax  

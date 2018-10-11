@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::EnableAutoAttach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enables automatic attaching for the specified debug engines.  
   
 ## Syntax  

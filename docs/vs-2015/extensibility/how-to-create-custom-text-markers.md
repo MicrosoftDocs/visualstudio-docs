@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Create Custom Text Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you want to create a custom text marker to emphasize or organize code, you must take the following steps:  
   
 -   Register the new text marker, so that other tools can access it  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::GetThreadId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the system thread identifier.  
   
 ## Syntax  

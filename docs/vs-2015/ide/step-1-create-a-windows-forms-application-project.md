@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 1: Create a Windows Forms Application Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you create a picture viewer, the first step is to create a Windows Forms Application project.  
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a Picture Viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a Picture Viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThreadDestroyEvent2::GetExitCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the exit code for a thread.  
   
 ## Syntax  

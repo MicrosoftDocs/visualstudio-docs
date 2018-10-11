@@ -19,7 +19,6 @@ manager: "ghogen"
 # Web Site Support
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A Web site project system is a project system that creates Web projects. Web projects in turn create Web applications. A Web site project generates one executable file for each Web page that has associated code. Additional executable files are generated from the source code files in the /App_Code folder.  
   
  Web site project systems are created by adding templates and registration attributes to an existing project system. One of these attributes selects the IntelliSense provider for the language. The IntelliSense provider implementation handles references and calls the language compiler when a smart Web page that is not cached is requested.  

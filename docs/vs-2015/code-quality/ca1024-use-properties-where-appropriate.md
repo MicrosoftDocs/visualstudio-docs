@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1024: Use properties where appropriate
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|UsePropertiesWhereAppropriate|

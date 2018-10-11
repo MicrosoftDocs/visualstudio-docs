@@ -18,7 +18,6 @@ manager: "douge"
 # Add custom properties to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you write extension code for layer diagrams, you can store values with any element on a layer diagram. The values will persist when the diagram is saved and re-opened. You can also have these properties appear in the **Properties** window so that users can see and edit them. For example, you could let users specify a regular expression for each layer, and write validation code to verify that the names of classes in each layer conform to the pattern specified by the user.  
   
 ## Properties not visible to the user  

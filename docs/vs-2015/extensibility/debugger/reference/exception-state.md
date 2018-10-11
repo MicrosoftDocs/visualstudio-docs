@@ -21,7 +21,6 @@ manager: "ghogen"
 # EXCEPTION_STATE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the exception state.  
   
 ## Syntax  

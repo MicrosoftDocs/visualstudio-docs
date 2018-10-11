@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccGetEvents Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function retrieves a queued status event.  
   
 ## Syntax  

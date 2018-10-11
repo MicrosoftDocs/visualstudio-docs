@@ -20,7 +20,6 @@ manager: "ghogen"
 # CommandName Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `CommandName` element specifies the text that appears in the keyboard category in the **Options** dialog box, and in the **Commands** list in the **Customize** dialog box.  
   
 ## Syntax  

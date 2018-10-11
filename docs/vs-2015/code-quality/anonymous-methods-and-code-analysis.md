@@ -22,7 +22,6 @@ manager: "wpickett"
 # Anonymous Methods and Code Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 An *anonymous method* is a method that has no name. Anonymous methods are most frequently used to pass a code block as a delegate parameter.  
   
  This topic explains how Code Analysis handles warnings and metrics that are associated with anonymous methods.  

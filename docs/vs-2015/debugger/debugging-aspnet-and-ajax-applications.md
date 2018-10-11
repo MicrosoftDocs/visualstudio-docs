@@ -28,7 +28,6 @@ manager: "ghogen"
 # Debugging ASP.NET and AJAX Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is similar to debugging a Windows Form or any other Windows application because both kinds of applications involve controls and events. However, there are also basic differences between the two kinds of applications:  
   
 -   Keeping track of state is more complex in a Web application.  

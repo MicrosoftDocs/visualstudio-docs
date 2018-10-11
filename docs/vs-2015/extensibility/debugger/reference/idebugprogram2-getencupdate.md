@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::GetENCUpdate
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the Edit and Continue (ENC) update for this program. A custom debug engine always returns `E_NOTIMPL`.  
   
 ## Syntax  

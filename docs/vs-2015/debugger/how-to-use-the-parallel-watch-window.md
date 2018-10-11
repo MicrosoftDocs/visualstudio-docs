@@ -27,7 +27,6 @@ manager: "ghogen"
 # How to: Use the Parallel Watch Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the Parallel Watch window, you can simultaneously display the values that one expression holds on multiple threads. Each row represents a thread that is running in an application, but a thread might be represented in multiple rows. More specifically, each row represents a function call whose function signature matches the function on the current stack frame. You can sort, reorder, remove, and group the items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads. The following columns are displayed in the **Parallel Watch** window:  
   
 -   The flag column, in which you can mark a thread that you want to pay special attention to.  

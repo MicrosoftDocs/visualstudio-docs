@@ -28,7 +28,6 @@ manager: "douge"
 # Measuring Complexity and Maintainability of Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The increased complexity of modern software applications also increases the difficulty of making the code reliable and maintainable. In recent years, many software measures, known as code metrics, have been developed that can help developers understand where their code needs rework or increased testing.  
   
  Developers can use [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] to generate code metrics data that measure the complexity and maintainability of their managed code. Code metrics data can be generated for an entire solution or a single project.  

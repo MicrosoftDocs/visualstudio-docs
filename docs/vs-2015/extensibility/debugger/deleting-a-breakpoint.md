@@ -20,7 +20,6 @@ manager: "ghogen"
 # Deleting a Breakpoint
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following describes the process when deleting a pending breakpoint:  
   
 ## Deletion Process  

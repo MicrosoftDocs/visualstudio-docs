@@ -18,7 +18,6 @@ manager: "ghogen"
 # Memory and Paging Performance Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Performance rules in the memory and paging category identify paging activity in a profiling run that can impact application performance and responsiveness.  
   
 |||  

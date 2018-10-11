@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Load debug symbols from a data stream given the **ICorDebugModule** object.  
   
 ## Syntax  

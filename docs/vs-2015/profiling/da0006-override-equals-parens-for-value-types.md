@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0006: Override Equals() for value types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0006|  
 |Category|.NET Framework Usage|  
 |Profiiling methods|Sampling|  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Math Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the Shader Designer, math nodes perform algebraic, logic, trigonometric, and other mathematical operations.  
   
 > [!NOTE]

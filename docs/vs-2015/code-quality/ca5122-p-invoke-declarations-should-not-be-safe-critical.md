@@ -17,8 +17,6 @@ manager: "wpickett"
 ---
 # CA5122 P/Invoke declarations should not be safe critical
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|PInvokesShouldNotBeSafeCriticalFxCopRule|

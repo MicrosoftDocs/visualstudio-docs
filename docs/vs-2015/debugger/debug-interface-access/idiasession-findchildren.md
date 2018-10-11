@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findChildren
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves all children of a specified parent identifier that match the name and symbol type.  
   
 ## Syntax  

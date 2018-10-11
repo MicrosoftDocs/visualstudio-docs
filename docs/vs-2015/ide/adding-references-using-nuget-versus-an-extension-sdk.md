@@ -21,7 +21,6 @@ manager: "ghogen"
 # Adding References Using NuGet Versus an Extension SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can provide a package for consumption within Visual Studio projects by using either the NuGet extension to Visual Studio or a software development kit (SDK). By describing the similarities and differences between the two mechanisms, this topic can help you choose the best one for your task.  
   
 -   NuGet is an open-source, package-management system that simplifies the process of incorporating libraries into a project solution. For more information, see [NuGet Overview](http://go.microsoft.com/fwlink/?LinkId=254877).  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumLineNumbers::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a line number by means of an index.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerServiceProvider::CreateVisualizerService
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method creates a visualizer service.  
   
 ## Syntax  

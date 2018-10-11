@@ -18,7 +18,6 @@ manager: "ghogen"
 # Accessibility products and services (Blend)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Microsoft is committed to making its products and services easier for everyone to use. The following sections provide information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities:  
   
 -   "Accessibility features of Windows"  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Filter Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the Shader Designer, filter nodes transform an input—for example, a color or texture sample—into a figurative color value. These figurative color values are commonly used in non-photorealistic rendering or as components in other visual effects.  
   
 ## Filter node reference  

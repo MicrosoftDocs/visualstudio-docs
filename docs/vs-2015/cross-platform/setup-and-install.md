@@ -15,7 +15,6 @@ manager: "crdun"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 To build native iOS, Android, and Windows apps from a common C#/.NET code base using Xamarin, you need the following:  
   
 -   For working with Windows and Android apps: a Windows development computer with Visual Studio 2015 and Xamarin 4 installed (see note below). (You can also use Visual Studio 2013 by following the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).)   

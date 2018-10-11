@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Specify Additional Code Information by Using __analysis_assume
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can provide hints to the code analysis tool for C/C++ code that will help the analysis process and reduce warnings. To provide additional information, use the following function:  
   
  `__analysis_assume(`  `expr`  `)`  

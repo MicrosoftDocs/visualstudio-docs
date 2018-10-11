@@ -19,7 +19,6 @@ manager: "ghogen"
 # Walkthrough: Adding Features to a Custom Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 After you create a custom editor, you can add more features to it.  
   
 ### To create an editor for a VSPackage  

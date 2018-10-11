@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericFieldDefinition::GetFormalTypeParams
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the type parameters given the number of parameters.  
   
 ## Syntax  

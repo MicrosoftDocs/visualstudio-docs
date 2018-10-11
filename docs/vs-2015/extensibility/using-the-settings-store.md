@@ -19,7 +19,6 @@ manager: "ghogen"
 # Using the Settings Store
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There are two kinds of settings stores:  
   
 -   Configuration settings, which are read-only Visual Studio and VSPackage settings. Visual Studio merges settings from all known .pkgdef files into this store.  

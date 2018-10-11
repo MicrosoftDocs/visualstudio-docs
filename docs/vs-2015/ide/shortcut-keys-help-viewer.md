@@ -21,7 +21,6 @@ manager: "ghogen"
 # Shortcut Keys (Help Viewer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can navigate in the Microsoft Help Viewer by using the shortcut keys in the following table:  
   
 |Area|Keystroke|Action|  

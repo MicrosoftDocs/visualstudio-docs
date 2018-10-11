@@ -21,7 +21,6 @@ manager: "ghogen"
 # Inside the Visual Studio SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This section provides in-depth information about Visual Studio extensions, including Visual Studio architecture, components, services, schemas, utilities, and the like.  
   
 ## Extensibility Architecture  

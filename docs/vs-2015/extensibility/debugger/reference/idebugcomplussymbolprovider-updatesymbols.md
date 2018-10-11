@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::UpdateSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Updates the debug symbols in memory with those from the specified data stream.  
   
 ## Syntax  

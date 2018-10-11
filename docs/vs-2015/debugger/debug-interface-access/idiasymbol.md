@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Describes the properties of a symbol instance.  
   
 ## Syntax  

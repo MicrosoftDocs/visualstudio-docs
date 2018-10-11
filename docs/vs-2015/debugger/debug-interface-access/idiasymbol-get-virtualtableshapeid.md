@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualTableShapeId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the virtual table shape symbol identifier of the symbol.  
   
 ## Syntax  

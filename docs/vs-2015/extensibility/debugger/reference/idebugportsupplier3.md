@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface allows a caller to determine whether a port supplier can preserve ports (by writing them to disk) between invocations of the debugger and then get a list of those preserved ports.  
   
 ## Syntax  

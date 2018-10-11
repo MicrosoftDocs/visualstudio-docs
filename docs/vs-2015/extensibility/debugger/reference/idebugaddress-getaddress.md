@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugAddress::GetAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns a structure describing an object and its location within its scope or container.  
   
 ## Syntax  

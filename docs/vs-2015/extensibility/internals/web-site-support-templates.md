@@ -19,7 +19,6 @@ manager: "ghogen"
 # Web Site Support Templates
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] templates, see [Creating Project and Item Templates](../../ide/creating-project-and-item-templates.md).  
   
 ## Project Template Folder  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isStatic
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function or thunk layer has been marked as static.  
   
 ## Syntax  

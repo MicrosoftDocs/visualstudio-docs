@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugManagedObject::GetManagedObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns an interface that represents the managed object.  
   
 ## Syntax  

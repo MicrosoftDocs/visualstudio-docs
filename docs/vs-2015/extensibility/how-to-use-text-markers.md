@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Use Text Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> object.  
   
 ## Procedures  

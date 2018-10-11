@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a segment by means of an index.  
   
 ## Syntax  

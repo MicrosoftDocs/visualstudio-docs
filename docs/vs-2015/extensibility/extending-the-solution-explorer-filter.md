@@ -20,7 +20,6 @@ manager: "ghogen"
 # Extending the Solution Explorer Filter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can extend **Solution Explorer** filter functionality to show or hide different files. For example, you can create a filter that shows only C# class factory files in the **Solution Explorer**, as this walkthrough demonstrates.  
   
 ## Prerequisites  

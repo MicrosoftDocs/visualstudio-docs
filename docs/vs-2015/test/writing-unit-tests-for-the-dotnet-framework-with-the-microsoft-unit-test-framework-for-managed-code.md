@@ -17,7 +17,6 @@ manager: "douge"
 # Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this section  
  [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
   

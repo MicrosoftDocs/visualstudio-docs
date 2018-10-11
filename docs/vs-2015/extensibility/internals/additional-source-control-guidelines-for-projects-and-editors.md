@@ -19,7 +19,6 @@ manager: "ghogen"
 # Additional Source Control Guidelines for Projects and Editors
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 There are a number of guidelines that projects and editors should adhere to in order to support source control.  
   
 ## Guidelines  

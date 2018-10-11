@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_lineNumberEnd
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the one-based source line number where the statement or expression ends.  
   
 ## Syntax  

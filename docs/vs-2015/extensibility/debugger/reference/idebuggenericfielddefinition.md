@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugGenericFieldDefinition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents the definition of a field for a managed code generic type.  
   
 ## Syntax  

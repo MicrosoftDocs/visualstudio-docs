@@ -27,7 +27,6 @@ manager: "ghogen"
 # Class View and Object Browser Icons
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Class View** and the **Object Browser** display icons that represent code entities, for example, namespaces, classes, functions, and variables. The following table illustrates and describes the icons.  
   
 |Icon|Description|Icon|Description|  

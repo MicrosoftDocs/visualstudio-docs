@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findLinesByVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the line number information for lines contained in a specified virtual address (VA) range.  
   
 ## Syntax  

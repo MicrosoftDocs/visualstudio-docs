@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_cplusplusExceptionHandling
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates if C++ exception handling is in effect.  
   
 ## Syntax  

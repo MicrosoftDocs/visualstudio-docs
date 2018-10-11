@@ -21,7 +21,6 @@ manager: "ghogen"
 # THREADPROPERTY_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies what information about a thread is to be retrieved.  
   
 ## Syntax  

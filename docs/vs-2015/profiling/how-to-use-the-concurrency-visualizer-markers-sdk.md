@@ -18,7 +18,6 @@ manager: "ghogen"
 # How To: Use the Concurrency Visualizer Markers SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.  
   
 ### To use C++  

@@ -29,7 +29,6 @@ manager: "ghogen"
 # How Can I Debug Access Violations When Running My Program Outside the Debugger?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Problem Description  
  My program runs fine in the Visual Studio environment, but when I run it stand-alone with the Windows operating system, it produces an access violation. How can I debug this problem?  
   

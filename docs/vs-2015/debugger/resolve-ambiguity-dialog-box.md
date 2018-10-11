@@ -29,7 +29,6 @@ manager: "ghogen"
 # Resolve Ambiguity Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `Resolve Ambiguity` dialog box appears when the debugger cannot choose the location to display. For example, if you are using C++ templates, you can create multiple functions from a single function template. If the debugger stops at a source location in the template, and you choose `Go To Disassembly`, the debugger has multiple options. Each function created from the template has its own disassembly code, and the debugger does not know which code you want to view. The `Resolve Ambiguity` dialog box enables you to select the location you want from a list of all corresponding locations.  
   
  `Choose the specific location`  

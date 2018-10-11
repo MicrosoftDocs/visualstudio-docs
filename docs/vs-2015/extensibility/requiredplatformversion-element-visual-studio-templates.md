@@ -17,7 +17,6 @@ manager: "ghogen"
 # RequiredPlatformVersion Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the minimum version of the operating system that the project template requires to work correctly. This element is used to for project templates that create [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.  
   
  The `RequiredPlatformVersion` value is compared directly with the version of the operating system. If the `RequiredPlatformVersion` is higher than the operating system version, the template does not appear in the **New Project** dialog box. To specify a template for [!INCLUDE[win8](../includes/win8-md.md)] or higher, set `RequiredPlatformVersion` to 6.2.0. To specify a template for [!INCLUDE[win81](../includes/win81-md.md)] or higher, set RequiredPlatformVersion to 6.3.0.  

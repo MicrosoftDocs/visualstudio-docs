@@ -25,7 +25,6 @@ manager: "ghogen"
 # Data (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 All variables, such as parameters, local variables, global variables, and class members, are identified by `SymTagData` symbols. Constant values (`LocIsConstant`) are also identified with this type.  
   
 ## Properties  

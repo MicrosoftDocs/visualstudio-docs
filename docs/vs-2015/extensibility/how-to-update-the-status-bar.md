@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Update the Status Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Status Bar** is a control bar located at the bottom of many application windows that contains one or more status text lines or indicators.  
   
 ### To update the Status Bar  

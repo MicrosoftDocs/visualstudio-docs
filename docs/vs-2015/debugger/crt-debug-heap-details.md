@@ -84,7 +84,6 @@ manager: "ghogen"
 # CRT Debug Heap Details
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic provides a detailed look at the CRT debug heap.  
   
 ##  <a name="BKMK_Contents"></a> Contents  

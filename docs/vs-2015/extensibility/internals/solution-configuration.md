@@ -19,7 +19,6 @@ manager: "ghogen"
 # Solution Configuration
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Solution configurations store solution-level properties. They direct the behavior of the **Start** (F5) key and **Build** commands. By default, these commands build and start the debug configuration. Both commands execute in the context of a solution configuration. This means that the user can expect F5 to start and build whatever the active solution is configured through the settings. The environment is designed to optimize for solutions rather than projects when it comes to building and running.  
   
  The standard Visual Studio toolbar contains a Start button and a solution configuration drop-down to the right of the Start button. This list allows users to choose the configuration to be started when F5 is pressed, create their own solution configurations, or edit an existing configuration.  

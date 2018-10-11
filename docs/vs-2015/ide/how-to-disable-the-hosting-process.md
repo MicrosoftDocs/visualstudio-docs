@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Disable the Hosting Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Calls to certain APIs can be affected when the hosting process is enabled. In these cases, it is necessary to disable the hosting process to return the correct results.  
   
 ### To disable the hosting process  

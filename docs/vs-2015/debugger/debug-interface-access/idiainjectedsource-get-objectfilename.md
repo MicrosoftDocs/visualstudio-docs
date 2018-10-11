@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_objectFilename
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the object file name to which the source was compiled.  
   
 ## Syntax  

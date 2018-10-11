@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::GetState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the state of this bound breakpoint.  
   
 ## Syntax  

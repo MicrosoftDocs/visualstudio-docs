@@ -15,7 +15,6 @@ manager: "ghogen"
 # Using the C++ Core Guidelines checkers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The C++ Core Guidelines are a portable set of guidelines, rules, and best practices about coding in C++ created by C++ experts and designers.  Visual Studio now supports add-in packages that create additional rules for the code analysis tools to check your code for compliance with the C++ Core Guidelines and suggest improvements.  
   
 ## The C++ Core Guidelines Project  

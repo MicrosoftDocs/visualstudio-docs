@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Restore C# Refactoring Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 C# refactoring operations rely on code snippets found in the following directory:  
   
  *Installation directory*\Microsoft Visual Studio 14.0\VC#\Snippets\\*language ID*\Refactoring  

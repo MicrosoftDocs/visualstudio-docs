@@ -21,7 +21,6 @@ manager: "ghogen"
 # UNMANAGED_ADDRESS_THIS_RELATIVE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents an address that is relative to a `this` pointer (`Me` in Visual Basic).  
   
 ## Syntax  

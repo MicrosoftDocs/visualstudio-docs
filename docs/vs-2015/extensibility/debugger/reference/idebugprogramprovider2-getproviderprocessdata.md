@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramProvider2::GetProviderProcessData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of running programs from a specified process.  
   
 ## Syntax  

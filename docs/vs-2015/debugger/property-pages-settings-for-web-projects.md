@@ -30,7 +30,6 @@ manager: "ghogen"
 # Property Pages Settings for Web Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can change the property settings for a web site debug configuration in the **Property Pages** dialog box, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.  
   
 ### Configuration Properties folder (Start Options category)  

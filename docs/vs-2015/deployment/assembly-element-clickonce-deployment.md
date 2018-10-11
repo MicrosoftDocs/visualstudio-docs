@@ -26,7 +26,6 @@ manager: "wpickett"
 # &lt;assembly&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The top-level element for the deployment manifest.  
   
 ## Syntax  

@@ -24,7 +24,6 @@ manager: "ghogen"
 # VSInstr Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following table lists warnings issued by the VSInstr.exe tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.  
   
 |Warning Number|Description|  

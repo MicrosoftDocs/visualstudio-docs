@@ -22,7 +22,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 IMPORTANT]
 >  The database projects that were included in earlier versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] are now provided in [!INCLUDE[sql_Denali_long](../includes/sql-denali-long-md.md)] tools. For more information, see [SQL Server Developer Tools](http://go.microsoft.com/fwlink/?LinkId=228126).  
   

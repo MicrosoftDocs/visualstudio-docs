@@ -24,7 +24,6 @@ manager: "ghogen"
 # Debug Interface Access SDK Reference
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK.  
   
 ## In This Section  

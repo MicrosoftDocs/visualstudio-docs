@@ -21,7 +21,6 @@ manager: "ghogen"
 # Collecting Detailed Timing Data for a Stand-Alone Application by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes the procedures and options for collecting detailed performance data for a client (stand-alone) component by using the instrumentation method from the command line.  
   
 ## Common Tasks  

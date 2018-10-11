@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Specify an Application Icon (Visual Basic, C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `Icon` property for a project specifies the icon file (.ico) that will be displayed for the compiled application in File Explorer and in the Windows taskbar.  
   
  The `Icon` property can be accessed in the **Application** pane of the **Project Designer**; it contains a list of icons that have been added to a project either as resources or as content files.  

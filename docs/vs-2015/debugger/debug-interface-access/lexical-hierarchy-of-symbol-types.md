@@ -22,7 +22,6 @@ manager: "ghogen"
 # Lexical Hierarchy of Symbol Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following table shows the symbol types in the lexical hierarchy.  
   
 ## Symbol Types  

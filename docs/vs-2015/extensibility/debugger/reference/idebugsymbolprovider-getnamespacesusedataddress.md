@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method creates an enumerator for namespaces associated with the debug address.  
   
 ## Syntax  

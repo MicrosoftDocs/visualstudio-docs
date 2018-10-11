@@ -28,7 +28,6 @@ manager: "wpickett"
 # ClickOnce Unmanaged API Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] unmanaged public APIs from dfshim.dll.  
   
 ## CleanOnlineAppCache  

@@ -27,7 +27,6 @@ manager: "ghogen"
 # Limitations on Script Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports the debugging of client-side script, subject to the limitations in this topic.  
   
 ## Limitations on Breakpoint Mapping with Client-Side Script  

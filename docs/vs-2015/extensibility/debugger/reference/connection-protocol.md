@@ -21,7 +21,6 @@ manager: "ghogen"
 # CONNECTION_PROTOCOL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).  
   
 ## Syntax  

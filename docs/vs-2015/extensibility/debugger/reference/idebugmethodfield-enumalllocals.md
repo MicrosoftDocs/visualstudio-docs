@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugMethodField::EnumAllLocals
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an enumerator for all local variables of the method, including those generated internally by a compiler.  
   
 ## Syntax  

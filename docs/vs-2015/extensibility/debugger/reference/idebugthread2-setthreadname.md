@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::SetThreadName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the name of the thread.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_classParentId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the class parent identifier of the symbol.  
   
 ## Syntax  

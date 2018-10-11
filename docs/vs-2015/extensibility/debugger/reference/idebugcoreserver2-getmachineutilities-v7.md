@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer2::GetMachineUtilities_V7
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the machine utilities for a server.  
   
 > [!NOTE]

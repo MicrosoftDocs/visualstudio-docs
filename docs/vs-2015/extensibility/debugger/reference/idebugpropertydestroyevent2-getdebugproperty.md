@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPropertyDestroyEvent2::GetDebugProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the property to be destroyed.  
   
 ## Syntax  

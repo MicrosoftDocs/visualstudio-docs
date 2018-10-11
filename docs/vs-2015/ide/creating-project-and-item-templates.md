@@ -27,7 +27,6 @@ manager: "ghogen"
 # Creating Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project and item templates provide reusable stubs that give users some basic code and structure that they can use for their own purposes.  
   
 ## Visual Studio Templates  

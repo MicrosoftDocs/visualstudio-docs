@@ -26,7 +26,6 @@ manager: "ghogen"
 # Designing and Viewing Classes and Types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Design, visualize, and refactor classes and other types in your code with Class Designer in Visual Studio. Use class diagrams to create and edit classes in your Visual C# .NET, Visual Basic .NET, or C++ project, understand your project structure better, or reorganize your code.  
   
  Here's more about what you can do with class diagrams:  

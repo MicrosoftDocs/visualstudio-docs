@@ -43,7 +43,6 @@ manager: "ghogen"
 # Start a debugging session for a Store app in Visual Studio (VB, C#, C++ and XAML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  This topic describes how to start a debugging session for Store apps written in XAML and Visual C++, Visual C#, or Visual Basic. Debugging an app involves both configuring the debugging session and choosing the way to start the app.  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_symbolsFileName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the name of the file from which the symbols were loaded.  
   
 ## Syntax  

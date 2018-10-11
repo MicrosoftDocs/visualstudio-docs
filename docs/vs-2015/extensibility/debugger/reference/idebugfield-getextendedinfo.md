@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetExtendedInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets extended information about a field.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the specified method has line information.  
   
 ## Syntax  

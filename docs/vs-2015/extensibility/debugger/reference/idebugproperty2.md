@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.  
   
 > [!NOTE]

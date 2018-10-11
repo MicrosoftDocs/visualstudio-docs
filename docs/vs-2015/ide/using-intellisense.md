@@ -34,7 +34,6 @@ manager: "ghogen"
 # Using IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 IntelliSense is the general term for a number of features: List Members, Parameter Info, Quick Info, and Complete Word. These features help you to learn more about the code you are using, keep track of the parameters you are typing, and add calls to properties and methods with only a few keystrokes.  
   
  Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the topics listed under See Also.  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1804: Remove unused locals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|RemoveUnusedLocals|

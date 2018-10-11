@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::SetRegistryRoot
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method sets the registry root. Used for side-by-side debugging.  
   
 ## Syntax  

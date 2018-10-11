@@ -23,7 +23,6 @@ manager: "ghogen"
 # Constants (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 These string constants can be used to identify various sections of a program debug database (PDB) file through the DIA SDK.  
   
 ## Constants  

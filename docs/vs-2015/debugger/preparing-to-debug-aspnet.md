@@ -25,7 +25,6 @@ manager: "ghogen"
 # Preparing to Debug ASP.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes how to set up [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to debug an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] or WCF application.  
   
 ## In This Section  

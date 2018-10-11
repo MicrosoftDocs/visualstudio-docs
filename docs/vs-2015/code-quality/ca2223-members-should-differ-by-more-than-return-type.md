@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2223: Members should differ by more than return type
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|MembersShouldDifferByMoreThanReturnType|

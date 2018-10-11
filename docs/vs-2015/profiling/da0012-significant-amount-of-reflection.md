@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0012: Significant amount of Reflection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0012|  
 |Category|.NET Framework Usage|  
 |Profiling methods|Sampling|  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # &lt;param&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies documentation information for a parameter in a function or method.  
   
 ## Syntax  

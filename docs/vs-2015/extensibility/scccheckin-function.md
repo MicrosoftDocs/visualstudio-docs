@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccCheckin Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function checks in previously checked-out files to the source control system, storing the changes and creating a new version. This function is called with a count and an array of names of the files to be checked in.  
   
 ## Syntax  

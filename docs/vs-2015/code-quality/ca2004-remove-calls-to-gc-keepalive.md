@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2004: Remove calls to GC.KeepAlive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|RemoveCallsToGCKeepAlive|

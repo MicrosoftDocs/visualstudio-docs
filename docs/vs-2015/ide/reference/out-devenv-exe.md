@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Specifies a file to store and display errors when you run, build, rebuild, or deploy a solution.  
   
 ## Syntax  

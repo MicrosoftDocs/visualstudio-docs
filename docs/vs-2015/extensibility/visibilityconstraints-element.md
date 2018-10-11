@@ -22,7 +22,6 @@ manager: "ghogen"
 # VisibilityConstraints Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The VisibilityConstraints element determines the static visibility of groups of commands and toolbars. The visibility is first controlled by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) without loading the VSPackage.  
   
 ## Syntax  

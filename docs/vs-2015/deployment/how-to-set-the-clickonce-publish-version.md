@@ -26,7 +26,6 @@ manager: "wpickett"
 # How to: Set the ClickOnce Publish Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.  
   
  The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.  

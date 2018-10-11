@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::SetPassCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets or changes the pass count associated with this bound breakpoint.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbols::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Skips a specified number of symbols in an enumeration sequence.  
   
 ## Syntax  

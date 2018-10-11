@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::readMemory
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Reads a block of data from the executable's image in memory.  
   
 ## Syntax  

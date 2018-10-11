@@ -21,7 +21,6 @@ manager: "ghogen"
 # PENDING_BP_STATE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Contains information about the state of a breakpoint that is ready to bind to a code location.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Designing Classes and Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Using **Class Designer**, you can not only visualize classes and types, but design them as well. The following topics describe how to do this.  
   
 > [!NOTE]

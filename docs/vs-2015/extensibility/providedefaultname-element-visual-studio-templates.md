@@ -21,7 +21,6 @@ manager: "ghogen"
 # ProvideDefaultName Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies whether the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project system will generate a default name for the template in the **Add New Item** or **New Project** dialog box.  
   
  \<VSTemplate>  

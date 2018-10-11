@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugMemoryContext2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a position in the address space of the machine running the program being debugged.  
   
 ## Syntax  

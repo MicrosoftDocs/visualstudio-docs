@@ -19,7 +19,6 @@ manager: "ghogen"
 # PROGRAM_DESTROY_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enumerates the valid values of the program destroy flags.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_locationType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the location type of a data symbol.  
   
 ## Syntax  

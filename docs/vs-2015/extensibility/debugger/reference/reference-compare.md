@@ -21,7 +21,6 @@ manager: "ghogen"
 # REFERENCE_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the type of comparison for references.  
   
 ## Syntax  

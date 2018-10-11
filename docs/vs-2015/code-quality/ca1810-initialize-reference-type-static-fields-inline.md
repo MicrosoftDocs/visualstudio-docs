@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1810: Initialize reference type static fields inline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|InitializeReferenceTypeStaticFieldsInline|

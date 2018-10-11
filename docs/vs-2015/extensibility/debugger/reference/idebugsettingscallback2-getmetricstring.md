@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetMetricString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the value string of the metric given its name.  
   
 ## Syntax  

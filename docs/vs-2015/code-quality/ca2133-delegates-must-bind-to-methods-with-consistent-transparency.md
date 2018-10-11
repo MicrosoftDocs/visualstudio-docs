@@ -19,8 +19,6 @@ manager: "wpickett"
 ---
 # CA2133: Delegates must bind to methods with consistent transparency
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DelegatesMustBindWithConsistentTransparency|

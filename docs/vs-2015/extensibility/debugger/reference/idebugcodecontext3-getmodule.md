@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugCodeContext3::GetModule
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a reference to the interface of the debug module.  
   
 ## Syntax  

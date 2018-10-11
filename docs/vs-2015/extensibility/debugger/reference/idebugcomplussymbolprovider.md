@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a COM+ symbol provider with methods that are specific to managed code.  
   
 ## Syntax  

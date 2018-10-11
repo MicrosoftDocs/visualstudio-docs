@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier3::CanPersistPorts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method determines whether the port supplier can persist ports (by writing them to disk) between invocations of the debugger.  
   
 ## Syntax  

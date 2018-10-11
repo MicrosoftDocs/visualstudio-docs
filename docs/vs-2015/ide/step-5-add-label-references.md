@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 5: Add Label References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The program needs to track which label controls the player chooses. Right now, the program shows all labels chosen by the player. But we're going to change that. After the first label is chosen, the program should show the label's icon. After the second label is chosen, the program should display both icons for a brief time, and then hide both icons again. Your program will now keep track of which label control is chosen first and which is chosen second by using *reference variables*.  
   
 ### To add label references  

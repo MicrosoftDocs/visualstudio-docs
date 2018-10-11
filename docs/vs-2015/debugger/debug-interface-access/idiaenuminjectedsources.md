@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumInjectedSources
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerate the various injected sources contained in the data source.  
   
 ## Syntax  

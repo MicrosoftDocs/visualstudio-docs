@@ -20,7 +20,6 @@ manager: "ghogen"
 # Detecting System Requirements
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A VSPackage cannot function unless Visual Studio is installed. When you use Microsoft Windows Installer to manage the installation of your VSPackage, you can configure the installer to detect whether Visual Studio is installed. You can also configure it to check the system for other requirements, for example, a particular version of Windows or a particular amount of RAM.  
   
 ## Detecting Visual Studio Editions  

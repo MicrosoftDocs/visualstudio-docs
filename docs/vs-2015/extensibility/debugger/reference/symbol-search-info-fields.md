@@ -21,7 +21,6 @@ manager: "ghogen"
 # SYMBOL_SEARCH_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the kind of symbol information to retrieve.  
   
 ## Syntax  

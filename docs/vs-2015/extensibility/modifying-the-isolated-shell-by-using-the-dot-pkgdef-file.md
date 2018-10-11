@@ -19,7 +19,6 @@ manager: "ghogen"
 # Modifying the Isolated Shell By Using the .Pkgdef File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The .pkgdef file supports settings that you can use to customize an isolated shell application. It specifies values that are created when an application is installed on a computer and that are referenced by the Visual Studio shell when it starts the application. The settings are organized in the file based on the applicable registry keys.  
   
 > [!WARNING]

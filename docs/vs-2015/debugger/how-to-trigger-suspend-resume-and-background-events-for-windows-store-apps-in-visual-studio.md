@@ -25,7 +25,6 @@ manager: "ghogen"
 # How to trigger suspend, resume, and background events for Windows Store apps in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you are not debugging, Windows **Process Lifetime Management** (PLM) controls the execution state of your app—starting, suspending, resuming, and terminating the app in response to user actions and the state of the device. When you are debugging, Windows disables these activation events. This topic describes how to fire these events in the debugger.  
   
  This topic also describes how to debug **Background tasks**. Background tasks enable you to perform certain operations in a background process, even when you app is not running. You can use the debugger to put your app in debug mode and then— without starting the UI—start and debug the background task.  

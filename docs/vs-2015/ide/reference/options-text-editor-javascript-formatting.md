@@ -23,7 +23,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Use the **Formatting** page of the **Options** dialog box to set options for formatting code in the Code Editor. To access this page, on the menu bar, choose **Tools**, **Options**, and then expand **Text Editor**, **JavaScript**, and **Formatting**.  
   
  [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)]  

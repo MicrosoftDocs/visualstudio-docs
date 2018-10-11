@@ -31,7 +31,6 @@ manager: "ghogen"
 # Error: Unable to Automatically Step Into the Server
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The error reads:  
   
  Unable to Automatically Step Into the Server. The debugger was not notified before the remote procedure was executed  

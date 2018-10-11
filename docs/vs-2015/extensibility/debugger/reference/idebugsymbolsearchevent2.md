@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolSearchEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded.  
   
 ## Syntax  

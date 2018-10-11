@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEELocalObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a expression evaluator local object given the metric name.  
   
 ## Syntax  

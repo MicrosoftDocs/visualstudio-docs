@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: Mixed mode debugging for IA64 processes is unsupported
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger does not support debugging mixed native and managed code in an Itanium-based process.  
   
 ### To correct this error  

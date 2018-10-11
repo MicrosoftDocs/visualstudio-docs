@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryContext2::Compare
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches.  
   
 ## Syntax  

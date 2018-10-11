@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEvents2::Event
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method sends events that signify the creation and destruction of processes and programs on a port.  
   
 ## Syntax  

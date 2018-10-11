@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder::Bind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the memory context or object that contains the symbol's current value.  
   
 ## Syntax  

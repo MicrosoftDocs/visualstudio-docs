@@ -17,7 +17,6 @@ manager: "ghogen"
 # Microsoft Help Viewer SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This article contains the following tasks for Visual Studio Help Viewer integrators:  
   
 -   Creating a topic (F1 support)  

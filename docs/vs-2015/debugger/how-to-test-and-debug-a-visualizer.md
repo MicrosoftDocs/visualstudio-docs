@@ -27,7 +27,6 @@ manager: "ghogen"
 # How to: Test and Debug a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Once you have written a visualizer, you need to debug and test it.  
   
  One way to test a visualizer is by installing it in Visual Studio and calling it from a debugger window. (See [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).) If you do that, you will need to use a second instance of Visual Studio to attach and debug the visualizer, which is running in the first instance of the debugger.  

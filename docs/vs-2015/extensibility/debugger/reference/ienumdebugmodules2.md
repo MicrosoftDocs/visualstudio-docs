@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugModules2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enumerates a list of modules.  
   
 ## Syntax  

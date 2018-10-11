@@ -22,7 +22,6 @@ manager: "ghogen"
 # marker_importance Enumeration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Represents the importance level of a Concurrency Visualizer marker.  
   
 ## Syntax  

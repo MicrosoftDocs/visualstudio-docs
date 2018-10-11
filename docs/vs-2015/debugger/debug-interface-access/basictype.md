@@ -22,7 +22,6 @@ manager: "ghogen"
 # BasicType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies the symbol's basic type.  
   
 ## Syntax  

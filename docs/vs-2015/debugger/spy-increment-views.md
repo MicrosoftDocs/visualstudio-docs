@@ -21,7 +21,6 @@ manager: "ghogen"
 # Spy++ Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Spy ++ displays tree views of the windows, messages, processes, and threads available on your machine.  
   
 ## In This Section  

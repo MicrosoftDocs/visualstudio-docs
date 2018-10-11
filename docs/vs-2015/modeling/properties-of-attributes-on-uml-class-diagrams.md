@@ -20,7 +20,6 @@ manager: "douge"
 # Properties of attributes on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 On a UML class diagram, you can add *attributes* to classes and interfaces. An attribute defines values that can be attached to instances of the class or interface.  
   
  To add an attribute, right-click the class or interface, point to **Add**, and then click **Attribute**.  

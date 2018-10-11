@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericParamField::GetFlags
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the flags for this generic parameter.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # TargetCLR
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **TargetCLR** option specifies the version of the common language run-time (CLR) to profile when more than one version of the CLR is loaded in an application.  
   
  By default, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools target the first version of the CLR that is loaded by the application.  

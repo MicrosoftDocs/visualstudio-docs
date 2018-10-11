@@ -21,7 +21,6 @@ manager: "ghogen"
 # TemplateData Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.  
   
  \<VSTemplate>  

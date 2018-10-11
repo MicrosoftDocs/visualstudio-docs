@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Clear the Undo Stack
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following procedure below explains how to clear the undo stack.  
   
 ### To clear the undo stack  

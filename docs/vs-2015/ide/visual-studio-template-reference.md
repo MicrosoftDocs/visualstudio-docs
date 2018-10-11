@@ -21,7 +21,6 @@ manager: "ghogen"
 # Visual Studio Template Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following links provide reference information about the different aspects of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project and item templates.  
   
 ## In This Section  

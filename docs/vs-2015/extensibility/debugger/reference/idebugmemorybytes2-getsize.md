@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryBytes2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object.  
   
 ## Syntax  

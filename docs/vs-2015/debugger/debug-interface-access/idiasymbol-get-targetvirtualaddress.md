@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_targetVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the virtual address (VA) of a thunk target.  
   
 ## Syntax  

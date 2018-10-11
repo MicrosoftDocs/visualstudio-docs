@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 In this section, you'll learn about Visual Studio Tools for Unity, a free Visual Studio extension that makes Visual Studio a powerful tool for building games with Unity.  
   
 ## Visual Studio Tools for Unity  

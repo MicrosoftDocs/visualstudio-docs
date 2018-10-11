@@ -19,7 +19,6 @@ manager: "ghogen"
 # Customizing Editor Controls and Menus by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A language service or a text view can control the context menus and controls in the editor. The pages in this section detail how to work with these features.  
   
 ## In This Section  

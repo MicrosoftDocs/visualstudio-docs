@@ -20,7 +20,6 @@ manager: "ghogen"
 # Hitting a Breakpoint
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following describes the process when the debug engine (DE) hits a breakpoint while running or stepping:  
   
 ## Troubleshooting a Hit Breakpoint  

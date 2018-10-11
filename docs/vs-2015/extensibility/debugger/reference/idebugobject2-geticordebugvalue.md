@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject2::GetICorDebugValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a managed code object representing the value associated with this object.  
   
 ## Syntax  

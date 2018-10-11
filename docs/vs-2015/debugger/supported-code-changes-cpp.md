@@ -33,7 +33,6 @@ manager: "ghogen"
 # Supported Code Changes (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Edit and Continue for Visual C++ handles most types of code changes. However, some changes cannot be applied during program execution. To apply these changes, you must stop execution and build a fresh version of the code.  
   
  See [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md) for information about working with Edit and Continue for C++ in Visual Studio.  

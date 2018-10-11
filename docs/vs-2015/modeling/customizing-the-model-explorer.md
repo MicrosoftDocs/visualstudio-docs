@@ -20,7 +20,6 @@ manager: "douge"
 # Customizing the Model Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:  
   
 -   Change the window title.  

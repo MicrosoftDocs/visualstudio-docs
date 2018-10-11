@@ -21,7 +21,6 @@ manager: "ghogen"
 # PROVIDER_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies properties associated with a program provider.  
   
 ## Syntax  

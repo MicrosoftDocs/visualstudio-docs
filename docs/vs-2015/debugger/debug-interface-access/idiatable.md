@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaTable
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerates a DIA data source table.  
   
 ## Syntax  

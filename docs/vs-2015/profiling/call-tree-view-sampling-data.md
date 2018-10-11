@@ -21,7 +21,6 @@ manager: "ghogen"
 # Call Tree View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Call Tree view displays the function execution paths that were traversed in the profiled application.  
   
 > [!NOTE]

@@ -21,7 +21,6 @@ manager: "ghogen"
 # TEXT_POSITION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the line and column location in the given text.  
   
 ## Syntax  

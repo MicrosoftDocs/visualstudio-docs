@@ -17,7 +17,6 @@ manager: "ghogen"
 # Menus and Commands for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 ## Command usage  
   
 ### Overview  

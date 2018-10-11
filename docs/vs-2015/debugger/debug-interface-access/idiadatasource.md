@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Initiates access to a source of debugging symbols.  
   
 ## Syntax  

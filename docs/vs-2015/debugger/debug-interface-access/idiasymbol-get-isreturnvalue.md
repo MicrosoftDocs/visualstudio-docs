@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isReturnValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies whether the variable carries a return value.  
   
 ## Syntax  

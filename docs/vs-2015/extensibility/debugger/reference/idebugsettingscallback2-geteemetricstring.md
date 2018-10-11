@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEEMetricString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the value string of an expression evaluator metric given its name.  
   
 ## Syntax  

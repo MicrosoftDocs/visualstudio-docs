@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Provide a Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A VSPackage can provide services that other VSPackages can use. To provide a service, a VSPackage must register the service with Visual Studio and add the service.  
   
  The <xref:Microsoft.VisualStudio.Shell.Package> class implements both <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> and <xref:System.ComponentModel.Design.IServiceContainer>. <xref:System.ComponentModel.Design.IServiceContainer> contains callback methods that provide  services on demand.  

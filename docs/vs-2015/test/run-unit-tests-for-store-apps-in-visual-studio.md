@@ -18,7 +18,6 @@ manager: "robinr"
 # Run unit tests for Store apps in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to run unit tests by using the Test Explorer in Microsoft Visual Studio  
   
 > [!NOTE]

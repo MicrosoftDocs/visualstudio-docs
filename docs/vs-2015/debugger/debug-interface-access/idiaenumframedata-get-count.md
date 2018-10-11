@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of frame data elements.  
   
 ## Syntax  

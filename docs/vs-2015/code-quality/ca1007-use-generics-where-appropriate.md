@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1007: Use generics where appropriate
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|UseGenericsWhereAppropriate|

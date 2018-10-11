@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findFile
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves source files by compiland and name.  
   
 ## Syntax  

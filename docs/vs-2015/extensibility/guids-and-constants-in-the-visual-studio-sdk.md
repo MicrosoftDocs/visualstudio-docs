@@ -20,7 +20,6 @@ manager: "ghogen"
 # GUIDs and Constants in the Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.VisualStudio.VSConstants> class provides access to a selection of environment GUIDs and constants.  
   
 ## In This Section  

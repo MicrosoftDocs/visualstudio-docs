@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetMetaDataImport
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the metadata import information.  
   
 ## Syntax  

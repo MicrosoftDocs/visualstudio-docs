@@ -21,7 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_ARRAYELEM
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents an array element within an array.  
   
 ## Syntax  

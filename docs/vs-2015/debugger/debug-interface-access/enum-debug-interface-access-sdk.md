@@ -23,7 +23,6 @@ manager: "ghogen"
 # Enum (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerations are identified by `SymTagEnum` symbols. Each enumeration value appears as a class child with a `SymTagConstant` tag.  
   
 ## Properties  

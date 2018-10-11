@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a symbol provider that has direct access to metadata and core symbol interfaces.  
   
 ## Syntax  

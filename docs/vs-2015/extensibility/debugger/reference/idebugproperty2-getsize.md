@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the size, in bytes, of the property value.  
   
 ## Syntax  

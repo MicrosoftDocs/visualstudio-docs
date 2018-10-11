@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugArrayField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface describes an array symbol or type.  
   
 ## Syntax  

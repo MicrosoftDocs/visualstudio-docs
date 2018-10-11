@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Add Standard Text Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use the following procedure to create one of the default text marker types provided with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor.  
   
 ### To create a text marker  

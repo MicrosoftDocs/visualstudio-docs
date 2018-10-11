@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.  
   
  You can use this option for the following scenarios:  

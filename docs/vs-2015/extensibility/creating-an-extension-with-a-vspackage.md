@@ -17,7 +17,6 @@ manager: "ghogen"
 # Creating an Extension with a VSPackage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough shows you how to create a VSIX project and add a VSPackage project item. We will use the VSPackage to get the UI Shell service in order to show a message box.  
   
 ## Prerequisites  

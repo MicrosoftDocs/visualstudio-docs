@@ -32,7 +32,6 @@ manager: "ghogen"
 # Error: Workgroup Remote Logon Failure
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This error reads:  
   
  Logon failure: unknown user name or bad password  

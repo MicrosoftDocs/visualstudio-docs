@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Choose Collection Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support three methods of collecting performance data: sampling, instrumentation, and concurrency. You can also use either the sampling or instrumentation method to collect .NET memory allocation and lifetime data.  
   
  **Requirements**  

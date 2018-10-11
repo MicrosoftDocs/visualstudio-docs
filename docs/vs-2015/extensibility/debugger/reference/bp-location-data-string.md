@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_DATA_STRING
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Used for setting data breakpoints that are based on a string that the user can enter from the integrated development environment (IDE).  
   
 ## Syntax  

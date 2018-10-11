@@ -19,7 +19,6 @@ manager: "ghogen"
 # Sending the Required Events
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use this procedure for sending required events.  
   
 ## Process for Sending Required Events  

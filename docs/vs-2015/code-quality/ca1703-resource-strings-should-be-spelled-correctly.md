@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1703: Resource strings should be spelled correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ResourceStringsShouldBeSpelledCorrectly|

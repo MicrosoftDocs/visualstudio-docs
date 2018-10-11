@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the program string that is used to compute the register set before the call to the current function.  
   
 ## Syntax  

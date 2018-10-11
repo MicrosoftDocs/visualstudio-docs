@@ -19,7 +19,6 @@ manager: "ghogen"
 # Syntax Coloring in Custom Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio Environment SDK editors, including the core editor, use language services to identify specific syntactical items and display them with specified colors for a given document view.  
   
 ## Colorization Requirements  

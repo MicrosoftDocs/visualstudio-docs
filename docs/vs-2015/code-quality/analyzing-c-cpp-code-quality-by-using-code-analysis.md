@@ -26,7 +26,6 @@ manager: "ghogen"
 # Analyzing C/C++ Code Quality by Using Code Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can improve your C/C++ code by using the code analysis in Visual Studio to find and fix code defects.  
   
 ## In This Section  

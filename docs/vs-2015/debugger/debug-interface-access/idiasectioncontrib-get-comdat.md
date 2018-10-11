@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_comdat
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether the section is a COMDAT record.  
   
 ## Syntax  

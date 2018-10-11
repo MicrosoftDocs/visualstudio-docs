@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_platform
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the platform type for which the compiland was compiled.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the size, in bytes, of the value of the reference. Reserved for future use.  
   
 ## Syntax  

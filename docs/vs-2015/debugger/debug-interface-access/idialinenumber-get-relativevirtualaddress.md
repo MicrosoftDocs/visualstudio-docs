@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_relativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the relative virtual address (RVA) of the block.  
   
 ## Syntax  

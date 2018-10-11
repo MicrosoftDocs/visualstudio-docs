@@ -22,7 +22,6 @@ manager: "ghogen"
 # Preemption Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 These segments in the timeline are associated with the blocking time that is categorized as Preemption. This category implies that a thread is switched out because of one of these reasons:  
   
 -   The scheduler replaced it by using a higher priority thread.  

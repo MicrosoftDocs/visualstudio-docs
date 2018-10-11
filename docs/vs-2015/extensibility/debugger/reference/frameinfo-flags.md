@@ -21,7 +21,6 @@ manager: "ghogen"
 # FRAMEINFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the information to retrieve about a stack frame object.  
   
 ## Syntax  

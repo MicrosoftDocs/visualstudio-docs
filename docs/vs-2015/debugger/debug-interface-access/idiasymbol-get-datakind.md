@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_dataKind
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the variable classification of a data symbol.  
   
 ## Syntax  

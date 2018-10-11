@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_frontEndMinor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the front end minor version number.  
   
 ## Syntax  

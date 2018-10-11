@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasInlAsm
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function contains inline assembly.  
   
 ## Syntax  

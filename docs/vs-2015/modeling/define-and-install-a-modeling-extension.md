@@ -19,7 +19,6 @@ manager: "douge"
 # Define and install a modeling extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In Visual Studio, you can define extensions to modeling diagrams. In this manner, you can adapt the diagrams and models to your own needs. For example, you can define menu commands, UML profiles, validation constraints and toolbox items. You can define several components in a single extension. You can also distribute these extensions to other Visual Studio users in the form of a [Visual Studio Integration Extension (VSIX)](http://go.microsoft.com/fwlink/?LinkId=160780). You can create a VSIX using a VSIX project in Visual Studio.  
   
 ## Requirements  

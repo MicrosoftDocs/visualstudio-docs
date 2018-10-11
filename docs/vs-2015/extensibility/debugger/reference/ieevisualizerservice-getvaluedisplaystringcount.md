@@ -20,7 +20,6 @@ manager: "ghogen"
 # IEEVisualizerService::GetValueDisplayStringCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of value strings to display for the specified property or field.  
   
 ## Syntax  

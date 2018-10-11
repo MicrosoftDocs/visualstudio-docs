@@ -20,7 +20,6 @@ manager: "ghogen"
 # Adding Visual Studio Commands to a Start Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you create a custom start page, you can add Visual Studio commands to it. This document discusses the different ways to bind Visual Studio commands to XAML objects on a start page.  
   
  For more information about commands in XAML, see [Commanding Overview](http://msdn.microsoft.com/library/bc208dfe-367d-426a-99de-52b7e7511e81)  

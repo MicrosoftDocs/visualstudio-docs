@@ -29,7 +29,6 @@ manager: "douge"
 # Layer Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In Visual Studio, you can use a *layer diagram* to visualize the high-level, logical architecture of your system. A layer diagram organizes the physical artifacts in your system into logical, abstract groups called *layers*. These layers describe major tasks that the artifacts perform or the major components of your system. Each layer can also contain nested layers that describe more detailed tasks.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  

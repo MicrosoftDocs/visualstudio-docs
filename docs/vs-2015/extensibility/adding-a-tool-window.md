@@ -20,7 +20,6 @@ manager: "ghogen"
 # Adding a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this walkthrough you learn how to create a tool window and integrate it into Visual Studio in the following ways:  
   
 -   Add a control to the tool window.  

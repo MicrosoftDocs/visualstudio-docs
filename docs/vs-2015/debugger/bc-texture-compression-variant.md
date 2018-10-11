@@ -18,7 +18,6 @@ manager: "ghogen"
 # BC Texture Compression Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Enables block compression on textures that have a pixel format that's a variation of B8G8R8X8, B8G8R8A8, or R8G8B8A8.  
   
 ## Interpretation  

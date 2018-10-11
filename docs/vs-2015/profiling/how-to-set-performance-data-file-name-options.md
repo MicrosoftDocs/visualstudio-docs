@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Set Performance Data File Name Options
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By default, you save a profiling data (.vsp) file by using the following syntax:  
   
  *Path\VSP-File\YYMMDD(N)* **.vsp**  

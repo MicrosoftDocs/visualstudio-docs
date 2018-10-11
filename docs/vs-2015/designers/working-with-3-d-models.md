@@ -18,7 +18,6 @@ manager: "ghogen"
 # Working with 3-D Models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the Model Editor in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to create 3-D models. You can use the models in your DirectX-based game or app.  
   
 ## 3-D models  

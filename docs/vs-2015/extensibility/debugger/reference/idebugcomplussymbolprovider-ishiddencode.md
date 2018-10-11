@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::IsHiddenCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the code at the specified debugger address is hidden.  
   
 ## Syntax  

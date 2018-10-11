@@ -20,7 +20,6 @@ manager: "ghogen"
 # Specifying VSPackage File Location to the VS Shell
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] must be able to locate the assembly DLL to load the VSPackage. You can locate it in various ways, as described in the following table.  
   
 |Method|Description|  

@@ -22,8 +22,6 @@ manager: "wpickett"
 ---
 # CA2102: Catch non-CLSCompliant exceptions in general handlers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|CatchNonClsCompliantExceptionsInGeneralHandlers|

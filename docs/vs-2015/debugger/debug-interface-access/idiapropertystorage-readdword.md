@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage::ReadDWORD
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Reads `DWORD` values in a property set.  
   
 ## Syntax  

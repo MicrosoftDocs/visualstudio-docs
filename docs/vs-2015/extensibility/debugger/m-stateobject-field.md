@@ -19,7 +19,6 @@ manager: "ghogen"
 # m_stateObject Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 An object that represents data that the action will use.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

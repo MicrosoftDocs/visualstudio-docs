@@ -26,7 +26,6 @@ manager: "ghogen"
 # Retain Topics for Later Use
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you locate a useful topic, you can access it later by copying it and pasting it into a text file, printing it, or saving it as a favorite. For example, you can retain content for later use by opening the shortcut menu for topics and the choosing the **Copy**, **Print**, **Print Preview**, and **Add to Favorites** options.  
   
 ## Using the Favorites tab  

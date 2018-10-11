@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomViewer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enables an expression evaluator (EE) to display a property's value in whatever format is necessary.  
   
 ## Syntax  

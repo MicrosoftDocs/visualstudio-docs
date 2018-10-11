@@ -23,7 +23,6 @@ manager: "ghogen"
 # Debug HTML, CSS, and JavaScript sample code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  The code in this topic is the sample file for [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md). The errors present by design in the QuickStart are fixed in this version of the code.  

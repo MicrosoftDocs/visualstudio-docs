@@ -18,7 +18,6 @@ manager: "ghogen"
 # Texture Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the Shader Designer, texture nodes sample various texture types and geometries, and produce or transform texture coordinates. Textures provide color and lighting detail on objects.  
   
 ## Texture node reference  

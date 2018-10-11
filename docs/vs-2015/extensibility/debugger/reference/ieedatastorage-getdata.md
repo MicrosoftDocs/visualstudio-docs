@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEDataStorage::GetData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the specified number of bytes from the object.  
   
 ## Syntax  

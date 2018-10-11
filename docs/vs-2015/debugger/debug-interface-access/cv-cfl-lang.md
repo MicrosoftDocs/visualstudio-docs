@@ -22,7 +22,6 @@ manager: "ghogen"
 # CV_CFL_LANG
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies the source code language of the application or linked module.  
   
 ## Syntax  

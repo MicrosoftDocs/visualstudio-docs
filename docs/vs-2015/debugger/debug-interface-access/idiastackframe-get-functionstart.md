@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_functionStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether the block contains the entry point of a function.  
   
 ## Syntax  

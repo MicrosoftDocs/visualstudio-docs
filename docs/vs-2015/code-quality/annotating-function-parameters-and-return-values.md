@@ -135,7 +135,6 @@ manager: "ghogen"
 # Annotating Function Parameters and Return Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)  
   
 ## Pointer Parameters  

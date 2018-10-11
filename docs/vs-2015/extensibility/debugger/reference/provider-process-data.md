@@ -21,7 +21,6 @@ manager: "ghogen"
 # PROVIDER_PROCESS_DATA
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure provides information about processes running on a machine.  
   
 ## Syntax  

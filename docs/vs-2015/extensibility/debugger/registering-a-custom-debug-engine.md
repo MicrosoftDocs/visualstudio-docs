@@ -19,7 +19,6 @@ manager: "ghogen"
 # Registering a Custom Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The debug engine must register itself as a class factory following COM conventions as well as register with Visual Studio through the Visual Studio registry subkey.  
   
 > [!NOTE]

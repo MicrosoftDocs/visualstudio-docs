@@ -22,7 +22,6 @@ manager: "ghogen"
 # SupportsCodeSeparation Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies whether or not the **Place code in separate file** check box is enabled in the **Add New Item** dialog box.  
   
  \<VSTemplate>  

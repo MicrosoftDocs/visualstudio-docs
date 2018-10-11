@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_liveRangeStartAddressOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns the offset part of the starting address of the range in which the local symbol is valid.  
   
 ## Syntax  

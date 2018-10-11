@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_function
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the public symbol refers to a function.  
   
 ## Syntax  

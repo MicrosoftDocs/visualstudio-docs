@@ -22,7 +22,6 @@ manager: "ghogen"
 # MemoryTypeEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies the type of memory to access.  
   
 ## Syntax  

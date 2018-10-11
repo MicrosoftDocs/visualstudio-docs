@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryContext2::Add
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Adds the specified value to the current context and returns a new context.  
   
 ## Syntax  

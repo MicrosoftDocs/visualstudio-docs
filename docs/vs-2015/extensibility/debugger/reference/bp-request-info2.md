@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_REQUEST_INFO2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint.  
   
 ## Syntax  

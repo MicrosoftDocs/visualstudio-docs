@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0018: 32-bit Application running at process managed memory limits
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0018|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Sampling|  

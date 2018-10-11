@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExceptionEvent2::GetExceptionDescription
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a displayable description of the exception.  
   
 ## Syntax  

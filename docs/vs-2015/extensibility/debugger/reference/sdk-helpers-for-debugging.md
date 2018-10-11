@@ -23,7 +23,6 @@ manager: "ghogen"
 # SDK Helpers for Debugging
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.  
   
 > [!NOTE]

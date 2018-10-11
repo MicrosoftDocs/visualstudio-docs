@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_baseSymbolId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol ID from which the pointer is based.  
   
 ## Syntax  

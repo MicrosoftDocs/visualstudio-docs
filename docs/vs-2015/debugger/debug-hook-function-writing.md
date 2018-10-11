@@ -32,7 +32,6 @@ manager: "ghogen"
 # Debug Hook Function Writing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes a number of custom debug hook functions you can write that allow you to insert your code into some predefined points inside the debugger's normal processing.  
   
 ## In This Section  

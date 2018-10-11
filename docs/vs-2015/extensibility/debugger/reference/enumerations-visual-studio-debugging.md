@@ -20,7 +20,6 @@ manager: "ghogen"
 # Enumerations (Visual Studio Debugging)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Following are enumerations for the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] Debugging SDK.  
   
  [AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md)  

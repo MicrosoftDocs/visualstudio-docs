@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Allows you to read the persistent properties of a DIA property set.  
   
 ## Syntax  

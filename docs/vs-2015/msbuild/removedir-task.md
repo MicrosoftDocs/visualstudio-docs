@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Removes the specified directories and all of its files and subdirectories.  
   
 ## Parameters  

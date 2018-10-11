@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentPosition2::GetFileName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the file name of the source file that contains the document position.  
   
 ## Syntax  

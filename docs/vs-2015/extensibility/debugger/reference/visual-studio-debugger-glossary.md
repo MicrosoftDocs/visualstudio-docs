@@ -20,7 +20,6 @@ manager: "ghogen"
 # Visual Studio Debugger Glossary
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The following are terms used in the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] Debugging SDK.  
   
 ## Terms  

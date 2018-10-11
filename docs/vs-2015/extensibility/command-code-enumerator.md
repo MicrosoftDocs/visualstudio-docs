@@ -20,7 +20,6 @@ manager: "ghogen"
 # Command Code Enumerator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This enumerator is used in the options for the [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) and the [SccPopulateList](../extensibility/sccpopulatelist-function.md)to indicate the command for which the options are specified.  
   
 ## Syntax  

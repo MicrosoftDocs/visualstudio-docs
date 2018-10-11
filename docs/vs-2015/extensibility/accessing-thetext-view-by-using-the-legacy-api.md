@@ -19,7 +19,6 @@ manager: "ghogen"
 # Accessing theText View by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A text view is a presentation of the text that is stored in a text buffer. You can access the text view by using the legacy API as shown in the following section.  
   
 ## Text View Object  

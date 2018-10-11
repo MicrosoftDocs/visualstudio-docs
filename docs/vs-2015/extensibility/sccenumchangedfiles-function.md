@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccEnumChangedFiles Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Given a list of local files, this function determines which files are different from the corresponding versions in the source code control database.  
   
 ## Syntax  

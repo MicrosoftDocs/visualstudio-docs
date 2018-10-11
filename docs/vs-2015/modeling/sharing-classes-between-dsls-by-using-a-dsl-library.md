@@ -16,7 +16,6 @@ manager: "douge"
 # Sharing Classes between DSLs by using a DSL Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.  
   
 ## Creating and using DSL Libraries  

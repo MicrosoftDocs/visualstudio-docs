@@ -20,7 +20,6 @@ manager: "ghogen"
 # Launch-based Attachment
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Launch-based attachment to a program is automatic. When the process hosting the program is launched by the SDM, launch-based attachment follows a path similar to that of the manual attachment method. For information, see [Attaching to the Program](../../extensibility/debugger/attaching-to-the-program.md).  
   
 ## The Attaching Process  

@@ -26,7 +26,6 @@ manager: "wpickett"
 # &lt;assemblyIdentity&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies the primary assembly of the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
   
 ## Syntax  

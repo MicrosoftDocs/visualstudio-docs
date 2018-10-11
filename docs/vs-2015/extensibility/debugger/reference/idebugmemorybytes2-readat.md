@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryBytes2::ReadAt
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Reads a sequence of bytes, starting at a given location.  
   
 ## Syntax  

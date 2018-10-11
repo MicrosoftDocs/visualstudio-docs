@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier3::EnumPersistedPorts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method retrieves an object that allows enumeration of the list of persisted ports.  
   
 ## Syntax  

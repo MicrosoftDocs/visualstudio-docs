@@ -25,7 +25,6 @@ manager: "wpickett"
 # Accessing Local and Remote Data in ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] gives you a variety of options for reading and writing data, both locally and remotely.  
   
 ## Local Data  

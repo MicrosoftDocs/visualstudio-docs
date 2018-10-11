@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1065: Do not raise exceptions in unexpected locations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DoNotRaiseExceptionsInUnexpectedLocations|

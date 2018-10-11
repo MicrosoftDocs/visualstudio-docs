@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPort2::GetProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the specified process running on a port.  
   
 ## Syntax  

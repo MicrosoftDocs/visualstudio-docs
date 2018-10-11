@@ -26,7 +26,6 @@ manager: "ghogen"
 # How to: Examine System Code After an Exception
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When an exception occurs, you might have to examine code inside a system call to determine the cause of the exception. The following procedure explains how to do this if you do not have symbols loaded for the system code or if Just My Code is enabled.  
   
 ### To examine system code following an exception  

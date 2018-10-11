@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData::get_name
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the name of a debug data stream.  
   
 ## Syntax  

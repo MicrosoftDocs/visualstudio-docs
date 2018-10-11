@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_PASSCOUNT
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the count and conditions upon which a conditional breakpoint is fired.  
   
 ## Syntax  

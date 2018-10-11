@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::ResumeProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Resumes execution of a process.  
   
 ## Syntax  

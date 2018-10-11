@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugArrayObject::GetElements
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets an enumerator of all elements of the array.  
   
 ## Syntax  

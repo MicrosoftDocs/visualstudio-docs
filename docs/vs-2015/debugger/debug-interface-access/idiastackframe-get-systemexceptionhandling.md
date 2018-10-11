@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_systemExceptionHandling
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether system exception handling is in effect.  
   
 ## Syntax  

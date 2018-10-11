@@ -22,7 +22,6 @@ manager: "ghogen"
 # CompilandEnv
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The compiler may include additional environment variables with symbols. There is one `SymTagCompilandEnv` symbol for each of these variables.  
   
 ## Properties  

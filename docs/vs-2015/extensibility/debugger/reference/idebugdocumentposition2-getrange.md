@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentPosition2::GetRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the range for this document position.  
   
 ## Syntax  

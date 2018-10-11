@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Use Surround-with Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following procedures describe how to use surround-with code snippets. Surround-with code snippets are available three ways: through a keyboard shortcut, through the Edit menu, and through the context menu.  
   
 ### To use surround-with code snippets through keyboard shortcut  

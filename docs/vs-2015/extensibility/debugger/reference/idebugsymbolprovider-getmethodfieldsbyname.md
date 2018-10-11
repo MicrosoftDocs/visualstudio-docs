@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetMethodFieldsByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the field representing a fully qualified method name.  
   
 ## Syntax  

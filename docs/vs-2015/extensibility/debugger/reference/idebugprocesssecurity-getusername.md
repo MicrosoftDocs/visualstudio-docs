@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugProcessSecurity::GetUserName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the user name from the port supplier.  
   
 ## Syntax  

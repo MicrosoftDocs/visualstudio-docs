@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerService::GetPropertyProxy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns a proxy for a property object.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # CvLeaveSpan Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Marks the end of span.  
   
 ## Syntax  

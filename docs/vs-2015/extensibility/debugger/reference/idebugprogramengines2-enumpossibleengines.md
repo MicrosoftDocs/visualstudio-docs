@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramEngines2::EnumPossibleEngines
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the GUIDs for all the possible debug engines (DE) that can debug this program.  
   
 ## Syntax  

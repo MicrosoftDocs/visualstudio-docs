@@ -19,7 +19,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Using the managed package framework (MPF) language classes to implement a language service in [!INCLUDE[csprcs](../../includes/csprcs-md.md)] is straightforward. You need a VSPackage to host the language service, the language service itself, and a parser for your language.  
   
 ## Prerequisites  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Accesses injected source code stored in the DIA data source.  
   
 ## Syntax  

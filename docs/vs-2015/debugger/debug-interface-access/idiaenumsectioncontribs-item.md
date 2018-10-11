@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSectionContribs::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves section contributions by means of an index.  
   
 ## Syntax  

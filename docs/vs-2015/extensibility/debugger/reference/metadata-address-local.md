@@ -21,7 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_LOCAL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents the address of a local variable within a scope (usually a function or method).  
   
 ## Syntax  

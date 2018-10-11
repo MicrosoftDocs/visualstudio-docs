@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::execute
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Performs stack unwinding and returns results in a stack walk frame interface.  
   
 ## Syntax  

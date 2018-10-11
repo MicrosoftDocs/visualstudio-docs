@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: Windows file sharing has been configured...
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Windows file sharing has been configured so that you will connect to the remote computer using a different user name. This is incompatible with remote debugging  
   
  The current file sharing configuration is set up to connect to the remote computer using a different user name. Remote debugging is not possible in this scenario.  

@@ -25,7 +25,6 @@ manager: "ghogen"
 # Functions View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Functions view lists the functions that are called during profiling.  
   
  By default, functions are listed by name. To view functions by module, right-click in the Functions View window and then select **Show in Module View**. This will display the Module view.  

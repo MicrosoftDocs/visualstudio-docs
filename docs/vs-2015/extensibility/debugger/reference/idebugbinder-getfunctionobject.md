@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder::GetFunctionObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets an [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object used to create function parameters.  
   
 ## Syntax  

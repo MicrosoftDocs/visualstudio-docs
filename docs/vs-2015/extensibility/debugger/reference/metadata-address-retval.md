@@ -21,7 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_RETVAL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents a return value from a method or function.  
   
 ## Syntax  

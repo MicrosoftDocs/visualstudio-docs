@@ -28,7 +28,6 @@ manager: "ghogen"
 # How to: Attach to Script
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic explains how to manually attach the Visual Studio debugger to a script file for debugging.  
   
 ### To attach to a running process  

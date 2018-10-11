@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEventCallback2::Event
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sends notification of debug events.  
   
 ## Syntax  

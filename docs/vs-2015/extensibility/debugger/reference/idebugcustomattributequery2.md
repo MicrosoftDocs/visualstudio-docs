@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines the existence of a custom attribute for this field and, if it exists, returns the attribute information.  
   
 ## Syntax  

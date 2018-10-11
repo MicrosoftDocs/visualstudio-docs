@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::put_registerValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Sets the value of a register.  
   
 ## Syntax  

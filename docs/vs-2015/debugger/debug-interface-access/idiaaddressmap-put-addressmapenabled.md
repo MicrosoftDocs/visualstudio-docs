@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::put_addressMapEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies whether the address map should be used to translate symbol addresses.  
   
 ## Syntax  

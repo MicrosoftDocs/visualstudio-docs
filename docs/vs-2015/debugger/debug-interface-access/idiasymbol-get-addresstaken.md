@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_addressTaken
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether another symbol references this symbol's address.  
   
 ## Syntax  

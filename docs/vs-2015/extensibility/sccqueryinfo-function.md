@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccQueryInfo Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function obtains status information for a set of selected files under source control.  
   
 ## Syntax  

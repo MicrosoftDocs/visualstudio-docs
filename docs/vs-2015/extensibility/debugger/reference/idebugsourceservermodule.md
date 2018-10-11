@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSourceServerModule
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents the source server information that is contained in a PDB file.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # ArrayType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 An array is identified by a `SymTagArray` symbol.  
   
 ## Properties  

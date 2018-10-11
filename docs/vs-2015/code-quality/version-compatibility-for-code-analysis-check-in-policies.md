@@ -21,7 +21,6 @@ manager: "wpickett"
 # Version Compatibility for Code Analysis Check-In Policies
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you must evaluate and author code analysis check-in policies using different versions of [!INCLUDE[esprtfc](../includes/esprtfc-md.md)], you must know the differences in how [!INCLUDE[vstsTfsOrcasLong](../includes/vststfsorcaslong-md.md)] and [!INCLUDE[vstsTfsRosarioShort](../includes/vststfsrosarioshort-md.md)] evaluate check-in policies.  
   
 ## Version Compatibility for Evaluating Check-In Policies  

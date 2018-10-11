@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_numberOfRegisterIndices
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of register indices.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "wpickett"
 # Code analysis rule set reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you configure code analysis for managed code projects in [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]you are presented with a list of built-in *rule sets*. You can either use one of the standar rule sets, or you can customize a  rule set to fit your project requirements.  
   
 ## Available Rule Sets  

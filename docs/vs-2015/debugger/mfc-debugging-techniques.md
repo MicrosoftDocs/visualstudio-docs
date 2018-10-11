@@ -36,7 +36,6 @@ manager: "ghogen"
 # MFC Debugging Techniques
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you are debugging an MFC program, these debugging techniques may be useful.  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  

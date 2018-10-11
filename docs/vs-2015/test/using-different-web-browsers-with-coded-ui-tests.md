@@ -17,7 +17,6 @@ manager: "douge"
 # Using Different Web Browsers with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications.  
   
  **Requirements**  

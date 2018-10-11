@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::ReplaceSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Replaces the current debug symbols with those in the specified data stream.  
   
 ## Syntax  

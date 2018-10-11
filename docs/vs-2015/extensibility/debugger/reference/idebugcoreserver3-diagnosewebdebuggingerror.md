@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::DiagnoseWebDebuggingError
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Attempts to determine why an auto-attach failed.  
   
 ## Syntax  

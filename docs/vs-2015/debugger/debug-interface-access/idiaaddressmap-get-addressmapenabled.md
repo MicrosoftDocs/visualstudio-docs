@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::get_addressMapEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Indicates whether an address map has been established for a particular session.  
   
 ## Syntax  

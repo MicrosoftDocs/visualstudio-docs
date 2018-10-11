@@ -20,7 +20,6 @@ manager: "ghogen"
 # Source Control Plug-in Glossary
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following helpful terms and definitions pertain to the Source Control Plug-in SDK documentation.  
   
 ## Definitions  

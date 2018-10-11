@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkFrame::searchForReturnAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Searches the specified stack frame for the nearest function return address.  
   
 ## Syntax  

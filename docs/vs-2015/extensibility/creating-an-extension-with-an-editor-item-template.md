@@ -19,7 +19,6 @@ manager: "ghogen"
 # Creating an Extension with an Editor Item Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use item templates that are included in the Visual Studio SDK to create basic editor extensions that add classifiers, adornments, and margins to the editor. The editor item templates are available for Visual C# or Visual Basic VSIX projects.  
   
 ## Prerequisites  

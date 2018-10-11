@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThreadCreateEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread is created in a program being debugged.  
   
 ## Syntax  

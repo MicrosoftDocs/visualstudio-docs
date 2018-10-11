@@ -22,7 +22,6 @@ manager: "ghogen"
 # Selection and Currency in the IDE
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) maintains information about users' currently selected objects by using selection *context*. With selection context, VSPackages can take part in currency tracking in two ways:  
   
 -   By propagating currency information about the VSPackages to the IDE.  

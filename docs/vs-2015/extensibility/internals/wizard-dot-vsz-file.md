@@ -21,7 +21,6 @@ manager: "ghogen"
 # Wizard (.Vsz) File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The integrated development environment (IDE) uses .vsz files to start wizards. These .vsz files contain information that the IDE uses to determine which wizard to call and what information to pass to the wizard.  
   
  A .vsz file is a version of an .ini-formatted text file that has no sections. Information known to the IDE is stored at the beginning of the file. This provides a link between the wizard that the IDE calls and the parameters that are in the .vsz file to be passed to the IDE. The rest of the file provides parameters that are specific to the wizard and that are to be collected by the IDE and passed to the specific wizard.  

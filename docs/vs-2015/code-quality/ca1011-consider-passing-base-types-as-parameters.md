@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1011: Consider passing base types as parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ConsiderPassingBaseTypesAsParameters|

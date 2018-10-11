@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_typeId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the type identifier of the symbol.  
   
 ## Syntax  

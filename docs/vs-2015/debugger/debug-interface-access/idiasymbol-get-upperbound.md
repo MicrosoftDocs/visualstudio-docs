@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_upperBound
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a symbol representing the upper bound of a FORTRAN array dimension.  
   
 ## Syntax  

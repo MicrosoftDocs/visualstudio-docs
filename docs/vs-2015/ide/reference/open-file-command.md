@@ -25,7 +25,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Opens an existing file and allows you to specify an editor.  
   
 ## Syntax  

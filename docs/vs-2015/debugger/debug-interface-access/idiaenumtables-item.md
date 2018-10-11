@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumTables::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a table by means of an index or name.  
   
 ## Syntax  

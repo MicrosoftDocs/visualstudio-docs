@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugProcesses2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enumerates the processes running on a debug port.  
   
 ## Syntax  

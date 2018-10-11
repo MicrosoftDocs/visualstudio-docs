@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1704: Identifiers should be spelled correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|IdentifiersShouldBeSpelledCorrectly|

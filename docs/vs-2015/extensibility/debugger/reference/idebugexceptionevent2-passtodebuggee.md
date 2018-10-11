@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExceptionEvent2::PassToDebuggee
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded.  
   
 ## Syntax  

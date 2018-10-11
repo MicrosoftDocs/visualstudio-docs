@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPointerObject::Dereference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the object pointed to.  
   
 ## Syntax  

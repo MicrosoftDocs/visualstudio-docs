@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Receives callbacks from the DIA symbol locating procedure, thus enabling a user interface to report on the progress of the location attempt.  
   
 ## Syntax  

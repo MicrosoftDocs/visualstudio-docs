@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaTable::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a reference to the specified entry in the table.  
   
 ## Syntax  

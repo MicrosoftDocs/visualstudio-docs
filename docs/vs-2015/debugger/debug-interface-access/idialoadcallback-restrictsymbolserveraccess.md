@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::RestrictSymbolServerAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Determines if access is allowed to a symbol server to resolve symbols.  
   
 ## Syntax  

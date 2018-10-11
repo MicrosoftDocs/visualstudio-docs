@@ -20,7 +20,6 @@ manager: "ghogen"
 # Test Area 2: Get From Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.  
   
 ## Command Menu Access  

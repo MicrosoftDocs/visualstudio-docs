@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder3::GetTypeArgumentCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns the number of argument types associated with this object.  
   
 ## Syntax  

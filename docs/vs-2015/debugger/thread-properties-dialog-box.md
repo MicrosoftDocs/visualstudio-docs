@@ -21,7 +21,6 @@ manager: "ghogen"
 # Thread Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use this dialog box find out more about a specific thread. To display this dialog box, move the focus to a [Threads View](../debugger/threads-view.md) window, or open [Messages View](../debugger/messages-view.md) and expand a message. Select any thread node in the tree, then choose **Properties** from the **View** menu.  
   
  The **General** tab is the only tab displayed. On Windows 98 and Windows 95 operating systems, a modified version of this tab is displayed.  

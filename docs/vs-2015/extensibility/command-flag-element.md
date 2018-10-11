@@ -20,7 +20,6 @@ manager: "ghogen"
 # Command Flag Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Modifies its parent element.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaImageData::get_relativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the location in virtual memory of the module relative to the application.  
   
 ## Syntax  

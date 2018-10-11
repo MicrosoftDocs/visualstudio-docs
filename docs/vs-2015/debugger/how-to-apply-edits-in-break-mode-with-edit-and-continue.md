@@ -33,7 +33,6 @@ manager: "ghogen"
 # How to: Apply Edits in Break Mode with Edit and Continue
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use Edit and Continue to edit your code in Break mode, and then continue without stopping and restarting execution.  
   
  Edit and Continue is not available in the following debugging scenarios:  

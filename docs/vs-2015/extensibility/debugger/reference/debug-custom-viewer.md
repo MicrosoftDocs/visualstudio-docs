@@ -21,7 +21,6 @@ manager: "ghogen"
 # DEBUG_CUSTOM_VIEWER
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 A structure that identifies a custom viewer or type visualizer.  
   
 ## Syntax  

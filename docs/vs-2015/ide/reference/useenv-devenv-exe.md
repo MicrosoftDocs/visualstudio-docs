@@ -30,7 +30,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Starts [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] and loads environmental variables into the **VC++ Directories** dialog box.  
   
 ## Syntax  

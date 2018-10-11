@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_CODE_CONTEXT
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the location of a breakpoint that is bound directly to an address in the program being debugged.  
   
 ## Syntax  

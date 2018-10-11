@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Determines whether the application requires the .NET Framework 3.5 SP1.  
   
 ## Parameters  

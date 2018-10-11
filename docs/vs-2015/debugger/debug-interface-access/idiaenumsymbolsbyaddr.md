@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbolsByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerates by address the various symbols contained in the data source.  
   
 ## Syntax  

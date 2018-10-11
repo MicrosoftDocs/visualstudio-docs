@@ -18,7 +18,6 @@ manager: "ghogen"
 # Profiling ASP.NET Load Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can collect profiling data from automated [!INCLUDE[TCMext](../includes/tcmext-md.md)] web tests that you run on ASP.NET Web sites projects. You can collect sampling and tier interaction data. For more information, see the following topics:  
   
  [(NIB) How to: Run a Performance Session on a Web Application from the Web Performance Test Editor](http://msdn.microsoft.com/en-us/d14e0a27-33cc-4e4e-8792-fe03e50d51e1)  

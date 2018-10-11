@@ -22,7 +22,6 @@ manager: "ghogen"
 # Zoom Control (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The zoom control is a slider that helps you to zoom in and out on the timeline so that you can focus on areas of particular interest. Because this control zooms in on the center of the timeline view, center the area of interest before you zoom in.  
   
 ## Zooming in By Dragging in the Timeline View  

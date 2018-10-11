@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcessEx2::AddImplicitProgramNodes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method adds a program node for each debug engine (DE) specified.  
   
 ## Syntax  

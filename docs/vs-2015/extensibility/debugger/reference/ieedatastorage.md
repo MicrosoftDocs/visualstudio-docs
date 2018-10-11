@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEDataStorage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents an array of bytes.  
   
 ## Syntax  

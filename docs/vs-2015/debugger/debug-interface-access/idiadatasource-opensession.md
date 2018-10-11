@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::openSession
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Opens a session for querying symbols.  
   
 ## Syntax  

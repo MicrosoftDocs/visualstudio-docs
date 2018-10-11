@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccDirQueryInfo Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function examines a list of fully qualified directories for their current status.  
   
 ## Syntax  

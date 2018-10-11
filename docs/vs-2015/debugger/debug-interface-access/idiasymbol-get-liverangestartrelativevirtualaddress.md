@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_liveRangeStartRelativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns the beginning of the address range in which the local symbol is valid.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # PARSEFLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies how to parse an expression.  
   
 ## Syntax  

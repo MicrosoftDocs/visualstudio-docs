@@ -20,7 +20,6 @@ manager: "ghogen"
 # Test Area 4: Check In
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This source-control plug-in test area covers sending updated items to the version store via the **Check In** command.  
   
 ## Command Menu Access  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Launching the Debugger
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Launching the debugger requires sending the correct sequence of methods and events with their proper attributes.  
   
 ## Sequences of Methods and Events  

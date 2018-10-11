@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onRemoveText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Notifies the debug package that text has been removed from the document.  
   
 ## Syntax  

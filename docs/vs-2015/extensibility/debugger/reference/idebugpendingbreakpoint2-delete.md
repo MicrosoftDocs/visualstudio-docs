@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::Delete
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Deletes this pending breakpoint and all breakpoints bound from it.  
   
 ## Syntax  

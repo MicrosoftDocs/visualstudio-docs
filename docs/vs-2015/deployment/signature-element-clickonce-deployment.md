@@ -24,7 +24,6 @@ manager: "wpickett"
 # &lt;Signature&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Contains the necessary information to digitally sign this deployment manifest.  
   
 ## Syntax  

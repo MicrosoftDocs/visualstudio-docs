@@ -22,7 +22,6 @@ manager: "douge"
 # Visualize code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the visualization and modeling tools in Visual Studio to help you understand existing code and describe your application. This lets you visually learn how your changes might affect the code and help you assess the work and risks that result from those changes. For example:  
   
 -   To understand the relationships in your code, map those relationships visually.  

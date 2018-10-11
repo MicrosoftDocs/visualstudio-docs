@@ -24,7 +24,6 @@ manager: "ghogen"
 # CvIsEnabled Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Determines whether any session has enabled the specified ETW provider.  
   
 ## Syntax  

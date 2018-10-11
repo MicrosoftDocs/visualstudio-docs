@@ -21,7 +21,6 @@ manager: "ghogen"
 # Elimination of ~SAK Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In Source Control Plug-in API 1.2, the ~SAK files have been replaced by capability flags and new functions that detect whether a source control plug-in supports the MSSCCPRJ file and shared checkouts.  
   
 ## ~SAK Files  

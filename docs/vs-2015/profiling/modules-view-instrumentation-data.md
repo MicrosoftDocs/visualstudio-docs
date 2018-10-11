@@ -20,7 +20,6 @@ manager: "ghogen"
 # Modules View - Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Modules view displays performance data that is grouped by the modules that were in the profiling data. The functions of the module are listed below the module node.  
   
 ## General  

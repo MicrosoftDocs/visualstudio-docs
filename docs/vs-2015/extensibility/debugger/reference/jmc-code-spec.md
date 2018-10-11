@@ -21,7 +21,6 @@ manager: "ghogen"
 # JMC_CODE_SPEC
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure is used to set the JustMyCode information for a module.  
   
 ## Syntax  

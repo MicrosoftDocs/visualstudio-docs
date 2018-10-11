@@ -31,7 +31,6 @@ manager: "ghogen"
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This error occurs when the user who is trying to run the Visual Studio Remote Debugging Monitor (msvsmon) does not have an account on the local computer.  
   
 ### To fix this problem  

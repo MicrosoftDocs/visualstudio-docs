@@ -21,7 +21,6 @@ manager: "ghogen"
 # VSTemplate Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Contains all the metadata about the project template, item template, or starter kit.  
   
 ## Syntax  

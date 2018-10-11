@@ -20,7 +20,6 @@ manager: "ghogen"
 # Visual C++ Structures in Class Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Class Designer supports C++ structures, which are declared with the keyword `struct`. Following is an example:  
   
 ```  

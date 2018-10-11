@@ -19,7 +19,6 @@ manager: "ghogen"
 # Enabling a Program to Be Debugged
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Before your debug engine (DE) can debug a program, you must first launch the DE or attach it to an existing program.  
   
 ## In This Section  

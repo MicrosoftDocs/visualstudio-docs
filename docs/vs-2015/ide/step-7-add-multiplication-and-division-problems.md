@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 7: Add Multiplication and Division Problems
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the seventh part of this tutorial, you'll add multiplication and division problems, but first think about how to make that change. Consider the initial step, which involves storing values.  
   
 ### To add multiplication and division problems  

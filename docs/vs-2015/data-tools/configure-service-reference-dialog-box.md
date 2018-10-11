@@ -23,7 +23,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The **Configure Service Reference** dialog box enables you to configure the behavior of [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] services.  
   
 > [!NOTE]

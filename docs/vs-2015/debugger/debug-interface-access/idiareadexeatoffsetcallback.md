@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaReadExeAtOffsetCallback
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enables a client application to supply bytes of an executable file as  specified by file position.  
   
 ## Syntax  

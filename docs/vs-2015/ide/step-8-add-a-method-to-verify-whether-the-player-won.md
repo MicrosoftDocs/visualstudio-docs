@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 8: Add a Method to Verify Whether the Player Won
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You've created a fun game, but it needs an additional item to finish it. The game should end when the player wins, so you need to add a `CheckForWinner()` method to verify whether the player won.  
   
 ### To add a method to verify whether the player won  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Mip-map Generation Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Enables mip-maps on textures that are not render targets.  
   
 ## Interpretation  

@@ -17,7 +17,6 @@ manager: "ghogen"
 # BuildProjectOnload Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Builds only new projects as you create and add them to a solution. The entire solution isn’t built.  
   
  \<VSTemplate>  

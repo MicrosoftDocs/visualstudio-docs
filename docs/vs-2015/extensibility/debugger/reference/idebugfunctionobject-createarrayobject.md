@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugFunctionObject::CreateArrayObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an array object. This array can contain either primitive or object instance values.  
   
 ## Syntax  

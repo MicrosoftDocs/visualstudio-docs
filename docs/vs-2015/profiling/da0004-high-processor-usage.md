@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0004: High processor usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0004|  
 |Category|Profiling Tools Usage|  
 |Profiling methods|Instrumentation Sampling|  

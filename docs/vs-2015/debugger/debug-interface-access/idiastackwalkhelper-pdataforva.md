@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::pdataForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns the PDATA data block associated with the virtual address.  
   
 ## Syntax  

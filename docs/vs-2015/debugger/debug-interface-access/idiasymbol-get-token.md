@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_token
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the metadata token of a managed function or variable.  
   
 ## Syntax  

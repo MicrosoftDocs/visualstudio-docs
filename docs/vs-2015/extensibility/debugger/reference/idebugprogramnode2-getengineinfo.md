@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2::GetEngineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the name and identifier of the debug engine (DE) running a program.  
   
 ## Syntax  

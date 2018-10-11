@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerDataProvider::SetObjectForVisualizer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method changes the object that the visualizer represents.  
   
 ## Syntax  

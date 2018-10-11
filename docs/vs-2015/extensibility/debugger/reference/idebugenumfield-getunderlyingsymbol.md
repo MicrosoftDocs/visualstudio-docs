@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEnumField::GetUnderlyingSymbol
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the name of the enumeration.  
   
 ## Syntax  

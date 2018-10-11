@@ -18,7 +18,6 @@ manager: "ghogen"
 # Introduction to WPF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Windows Presentation Foundation (WPF) lets you create desktop client applications for Windows with visually stunning user experiences.  
   
  ![Contoso Healthcare UI sample](../designers/media/wpfintrofigure24.png "WPFIntroFigure24")  

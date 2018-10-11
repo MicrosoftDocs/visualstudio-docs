@@ -22,7 +22,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 In this walkthrough, you use Visual Studio to create a small database that contains the sample code for [Create a simple data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-adonet.md).  
   
  **In this topic**  

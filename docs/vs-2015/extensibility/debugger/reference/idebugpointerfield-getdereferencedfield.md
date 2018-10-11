@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPointerField::GetDereferencedField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns the type of object to which this pointer object points.  
   
 ## Syntax  

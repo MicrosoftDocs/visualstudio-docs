@@ -20,7 +20,6 @@ manager: "ghogen"
 # Process View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Process view displays contention data for the processes and threads that were executed during the profiling run.  
   
  When symbols are available, processes are listed by name. When symbols are not available, processes are listed by their memory address in hexadecimal format. Threads are listed as children of the process that created them.  

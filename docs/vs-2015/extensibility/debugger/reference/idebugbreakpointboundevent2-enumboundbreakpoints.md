@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an enumerator of breakpoints that were bound on this event.  
   
 ## Syntax  

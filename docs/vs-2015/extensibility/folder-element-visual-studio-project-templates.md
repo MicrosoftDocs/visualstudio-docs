@@ -21,7 +21,6 @@ manager: "ghogen"
 # Folder Element (Visual Studio Project Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies a folder that will be added to the project.  
   
  \<VSTemplate>  

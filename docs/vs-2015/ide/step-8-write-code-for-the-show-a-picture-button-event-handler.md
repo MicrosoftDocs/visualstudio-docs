@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 8: Write Code for the Show a Picture Button Event Handler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this step, you make the **Show a picture** button work like this:  
   
 -   When a user chooses that button, the program opens an **Open File** dialog box.  

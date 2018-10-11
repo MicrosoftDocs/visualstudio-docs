@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::SetAllExceptions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method sets the state of all outstanding exceptions.  
   
 ## Syntax  

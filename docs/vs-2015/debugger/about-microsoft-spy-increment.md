@@ -20,7 +20,6 @@ manager: "ghogen"
 # About Microsoft Spy++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use this dialog box to display copyright, version, ownership, and other information about Spy++.
 
 

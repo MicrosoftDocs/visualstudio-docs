@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugTypeFieldBuilder
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents the ability to create a field that represents a type.  
   
 ## Syntax  

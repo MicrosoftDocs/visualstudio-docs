@@ -18,8 +18,6 @@ manager: "douge"
 ---
 # Code Generation in a Build Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 Text transformation can be invoked as part of the build process of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
 
 There are some differences in what the build tasks can do, depending on which build engine you use. When you build the solution in Visual Studio, a text template can access the Visual Studio API (EnvDTE) if the [hostspecific="true"](../modeling/t4-template-directive.md) attribute is set. But that isn’t true when you build the solution from the command line or when you initiate a server build through Visual Studio. In those cases, the build is performed by MSBuild and a different T4 host is used.

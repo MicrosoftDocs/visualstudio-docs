@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugFunctionObject::CreateObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an object using a constructor.  
   
 ## Syntax  

@@ -32,7 +32,6 @@ manager: "wpickett"
 # &lt;trustInfo&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Describes the minimum security permissions required for the application to run on the client computer.  
   
 ## Syntax  

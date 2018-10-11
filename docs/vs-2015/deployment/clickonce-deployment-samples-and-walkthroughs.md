@@ -27,7 +27,6 @@ manager: "wpickett"
 # ClickOnce Deployment Samples and Walkthroughs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section contains sample applications, example code, and step-by-step walkthroughs that illustrate the syntax, structure, and techniques used to deploy Windows Forms, WPF, and console applications.  
   
  The sample code is intended for instructional purposes, and should not be used in deployed solutions without modifications. In particular, security must be taken into greater consideration.  

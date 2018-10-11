@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from another [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project.  
   
 ## Parameters  

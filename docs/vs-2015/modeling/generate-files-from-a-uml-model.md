@@ -18,7 +18,6 @@ manager: "douge"
 # Generate files from a UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 From a UML model, you can generate program code, schemas, documents, resources, and other artifacts of any kind. One convenient method of generating text files from a UML model is to use [text templates](../modeling/code-generation-and-t4-text-templates.md). These let you embed program code inside the text that you want to generate.  
   
  There are three principal scenarios:  

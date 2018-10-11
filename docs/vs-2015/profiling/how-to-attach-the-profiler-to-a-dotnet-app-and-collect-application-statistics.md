@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Attach the Profiler to a .NET Framework Stand-Alone Application and Collect Application Statistics by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect performance statistics by using the sampling method.  
   
 > [!NOTE]

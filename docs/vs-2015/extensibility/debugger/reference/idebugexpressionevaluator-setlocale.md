@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::SetLocale
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method sets the language to use to create printable results.  
   
 ## Syntax  

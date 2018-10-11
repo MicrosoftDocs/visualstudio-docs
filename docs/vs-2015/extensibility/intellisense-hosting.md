@@ -19,7 +19,6 @@ manager: "ghogen"
 # IntelliSense Hosting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide IntelliSense for code that is not hosted by the Visual Studio text editor.  
   
 ## IntelliSense Hosting Usage  

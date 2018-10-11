@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugActivateDocumentEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 The debug engine (DE) uses this interface to request a document to be loaded.  
   
 ## Syntax  

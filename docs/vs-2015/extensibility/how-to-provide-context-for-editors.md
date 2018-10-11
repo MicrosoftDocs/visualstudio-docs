@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Provide Context for Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 For an editor, the context is active only when the editor has focus or had focus immediately before the focus was moved to a tool window. You can provide context for an editor by doing the following:  
   
 1.  Create a context bag.  

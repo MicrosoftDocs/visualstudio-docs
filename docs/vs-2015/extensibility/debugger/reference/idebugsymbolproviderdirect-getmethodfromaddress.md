@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetMethodFromAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves information about the method at the specified debug address.  
   
 ## Syntax  

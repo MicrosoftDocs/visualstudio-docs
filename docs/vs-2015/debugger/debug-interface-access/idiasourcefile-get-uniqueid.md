@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile::get_uniqueId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a simple integer key value that is unique for this image.  
   
 ## Syntax  

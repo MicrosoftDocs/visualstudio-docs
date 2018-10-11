@@ -20,7 +20,6 @@ manager: "ghogen"
 # Menus Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines all the menus and toolbars that a VSPackage implements.  
   
 ## Syntax  

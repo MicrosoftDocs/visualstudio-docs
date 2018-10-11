@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_container
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This function retrieves a pointer to a symbol representing the parent/container of this symbol.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugAlias::GetICorDebugValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a managed code interface that represents the value associated with this alias.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # BPERESI_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the information to be retrieved about a failed resolution of a breakpoint.  
   
 ## Syntax  

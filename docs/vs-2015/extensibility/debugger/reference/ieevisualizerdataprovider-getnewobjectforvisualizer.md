@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerDataProvider::GetNewObjectForVisualizer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets a new object for the visualizer. This method will always create a new object from the existing object.  
   
 ## Syntax  

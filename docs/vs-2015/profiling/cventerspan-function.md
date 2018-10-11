@@ -34,7 +34,6 @@ manager: "ghogen"
 # CvEnterSpan Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Marks the beginning of a new span.  
   
 ## Syntax  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1410: COM registration methods should be matched
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ComRegistrationMethodsShouldBeMatched|

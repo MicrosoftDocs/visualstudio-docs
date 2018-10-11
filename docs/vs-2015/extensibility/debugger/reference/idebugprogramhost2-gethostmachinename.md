@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramHost2::GetHostMachineName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the name of the machine that the process hosting this program is running on.  
   
 ## Syntax  

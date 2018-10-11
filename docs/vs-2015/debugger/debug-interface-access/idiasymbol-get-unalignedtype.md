@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_unalignedType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the user-defined data type is unaligned.  
   
 ## Syntax  

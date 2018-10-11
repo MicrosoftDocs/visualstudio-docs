@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortRequest2::GetPortName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the name of the port.  
   
 ## Syntax  

@@ -27,7 +27,6 @@ manager: "ghogen"
 # VSInstr
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:  
   
 ```  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugMethodField::EnumArguments
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an enumerator for the type of each argument required to call the method.  
   
 ## Syntax  

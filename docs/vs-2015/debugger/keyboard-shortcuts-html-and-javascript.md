@@ -23,7 +23,6 @@ manager: "ghogen"
 # Keyboard shortcuts (HTML and JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  Keyboard shortcuts in Visual Studio for debugging Store apps using HTML and JavaScript.  

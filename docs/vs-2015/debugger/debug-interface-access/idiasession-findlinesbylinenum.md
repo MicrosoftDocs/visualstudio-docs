@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findLinesByLinenum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Determines the line numbers of the compiland that the specified line number in a source file lies within or near.  
   
 ## Syntax  

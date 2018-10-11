@@ -22,7 +22,6 @@ manager: "ghogen"
 # VSX Language Pack Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The VSX Language Pack schema provides localized installation information for VSIX packages.  
   
 ## In This Section  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Visual Studio Shell
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] shell is the primary agent of integration in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.  
   
 ## Shell Responsibilities  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_nopad
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag indicating whether the section should not be padded to the next memory boundary.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isMatrixRowMajor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies whether the matrix is row major.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugModule3::LoadSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Loads the symbols for the current module.  
   
 ## Syntax  

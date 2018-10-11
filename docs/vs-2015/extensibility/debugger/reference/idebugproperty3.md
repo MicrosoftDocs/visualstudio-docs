@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface provides support for:  
   
 -   Retrieving an arbitrarily long string associated with the property.  

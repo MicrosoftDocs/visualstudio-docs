@@ -25,7 +25,6 @@ manager: "ghogen"
 # Unable to Attach to the Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.  
   
  There are two common scenarios that cause this error:  

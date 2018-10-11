@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1040: Avoid empty interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|AvoidEmptyInterfaces|

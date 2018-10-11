@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::Delete
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Deletes the breakpoint.  
   
 ## Syntax  

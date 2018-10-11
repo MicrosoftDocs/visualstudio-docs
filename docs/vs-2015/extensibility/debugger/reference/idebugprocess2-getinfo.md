@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets a description of the process.  
   
 ## Syntax  

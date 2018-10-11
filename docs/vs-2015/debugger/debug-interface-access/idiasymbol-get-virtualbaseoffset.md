@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualBaseOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the offset in the virtual function table of a virtual function.  
   
 ## Syntax  

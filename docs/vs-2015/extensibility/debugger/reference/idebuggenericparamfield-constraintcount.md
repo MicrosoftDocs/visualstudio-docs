@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericParamField::ConstraintCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns the number of constraints that are associated with this generic parameter.  
   
 ## Syntax  

@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0003: Many kernel samples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0003|  
 |Category|Profiling Tools Usage|  
 |Profiling methods|Sampling|  

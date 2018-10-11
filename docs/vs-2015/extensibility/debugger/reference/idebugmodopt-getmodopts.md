@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugModOpt::GetModOpts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a list of optional modifiers.  
   
 ## Syntax  

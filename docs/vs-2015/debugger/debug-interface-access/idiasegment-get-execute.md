@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_execute
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether the segment is executable.  
   
 ## Syntax  

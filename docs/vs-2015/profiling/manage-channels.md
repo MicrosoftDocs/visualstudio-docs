@@ -22,7 +22,6 @@ manager: "ghogen"
 # Manage Channels
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the **Threads View** in the Concurrency Visualizer, you can organize the channels for your process so that you can examine particular patterns. You can sort channels, move them up and down, and hide or show them.  
   
 ## Sort By  

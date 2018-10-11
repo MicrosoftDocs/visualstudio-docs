@@ -23,7 +23,6 @@ manager: "ghogen"
 # How to: Collect CPU Counter Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A CPU event counter is used to collect hardware-specific performance data. This topic shows you how to collect event counter data when you use the instrumentation profiling method.  
   
  **Requirements**  

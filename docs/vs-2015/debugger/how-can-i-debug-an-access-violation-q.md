@@ -29,7 +29,6 @@ manager: "ghogen"
 # How Can I Debug an Access Violation?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Problem Description  
  My program produces an access violation. How can I debug this?  
   

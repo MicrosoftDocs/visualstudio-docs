@@ -21,7 +21,6 @@ manager: "ghogen"
 # Securing Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 While most applications possess common security challenges, each application domain possesses security challenges of its own.  
   
 ## General Security Considerations  

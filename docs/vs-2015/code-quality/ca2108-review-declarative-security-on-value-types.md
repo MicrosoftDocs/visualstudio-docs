@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2108: Review declarative security on value types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ReviewDeclarativeSecurityOnValueTypes|

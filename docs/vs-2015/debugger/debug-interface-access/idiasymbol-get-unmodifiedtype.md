@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_unmodifiedType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the original type for this symbol. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to a type.  
   
 ## Syntax  

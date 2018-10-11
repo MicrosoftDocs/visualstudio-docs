@@ -20,7 +20,6 @@ manager: "ghogen"
 # Creating Options Pages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] managed package framework, classes derived from <xref:Microsoft.VisualStudio.Shell.DialogPage> extend the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE by adding **Options** pages under the **Tools** menu.  
   
  An object implementing a given **Tools Option** page is associated with specific VSPackages by the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> object.  

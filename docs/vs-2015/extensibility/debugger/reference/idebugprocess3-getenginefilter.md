@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugProcess3::GetEngineFilter
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves an array of unique identifiers for available debug engines.  
   
 ## Syntax  

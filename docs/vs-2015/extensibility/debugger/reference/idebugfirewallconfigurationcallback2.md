@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugFirewallConfigurationCallback2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enables a debug engine that uses DCOM to ask the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] UI to make sure that the firewall will not block remote debugging.  
   
 ## Syntax  

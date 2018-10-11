@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_maxStack
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the maximum number of bytes pushed on the stack in the frame.  
   
 ## Syntax  

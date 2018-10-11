@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::symsAreEquiv
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Checks to see if two symbols are equivalent.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugMethodField::EnumStaticLocals
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an enumerator for static local variables of the method.  
   
 ## Syntax  

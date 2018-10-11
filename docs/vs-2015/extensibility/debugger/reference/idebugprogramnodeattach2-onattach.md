@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNodeAttach2::OnAttach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Attaches to the associated program or defers the attach process to the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method.  
   
 ## Syntax  

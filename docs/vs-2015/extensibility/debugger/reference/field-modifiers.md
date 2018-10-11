@@ -21,7 +21,6 @@ manager: "ghogen"
 # FIELD_MODIFIERS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies modifiers for a field type.  
   
 ## Syntax  

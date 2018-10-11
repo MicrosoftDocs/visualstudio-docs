@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::put_loadAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Sets the load address for the executable file that corresponds to the symbols in this symbol store.  
   
 ## Syntax  

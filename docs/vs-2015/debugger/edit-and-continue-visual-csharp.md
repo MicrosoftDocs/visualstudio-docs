@@ -28,7 +28,6 @@ manager: "ghogen"
 # Edit and Continue (Visual C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 With Edit and Continue for C#, you can make changes to your code in break mode while debugging. The changes can be applied without having to stop and restart the debugging session. In run mode, the source editor is read-only.  
   
  Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. For more information, see [Supported Code Changes (C#)](../debugger/supported-code-changes-csharp.md).  

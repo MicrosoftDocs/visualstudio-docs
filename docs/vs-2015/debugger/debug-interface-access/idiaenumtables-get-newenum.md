@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumTables::get__NewEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.  
   
 ## Syntax  

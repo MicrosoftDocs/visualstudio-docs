@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaTable::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of items in the table.  
   
 ## Syntax  

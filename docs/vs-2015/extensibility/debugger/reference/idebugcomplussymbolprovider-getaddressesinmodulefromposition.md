@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Maps a document position in the specified module to an array of debug addresses.  
   
 ## Syntax  

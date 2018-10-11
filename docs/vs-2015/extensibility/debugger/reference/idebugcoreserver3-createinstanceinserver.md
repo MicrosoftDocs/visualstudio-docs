@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::CreateInstanceInServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an instance of a debug engine on the server.  
   
 ## Syntax  

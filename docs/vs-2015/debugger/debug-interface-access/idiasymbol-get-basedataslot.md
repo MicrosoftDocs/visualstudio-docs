@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_baseDataSlot
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the base data slot.  
   
 ## Syntax  

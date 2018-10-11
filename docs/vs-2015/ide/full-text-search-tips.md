@@ -23,7 +23,6 @@ manager: "ghogen"
 # Full-Text Search Tips
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 One of the more useful methods of locating information in Help is by performing a full-text search. To refine and customize your results, you must understand how syntax affects your query. This topic provides tips, procedures, and detailed syntax information to help you better craft your queries.  
   
 ## Full-Text Search Tips  

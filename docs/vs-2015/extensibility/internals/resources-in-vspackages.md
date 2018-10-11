@@ -21,7 +21,6 @@ manager: "ghogen"
 # Resources in VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.  
   
  Some resources cannot be embedded in VSPackages. The following managed types can be embedded:  

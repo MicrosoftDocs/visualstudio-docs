@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::LaunchSuspended
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Launches an executable file.  
   
 ## Syntax  

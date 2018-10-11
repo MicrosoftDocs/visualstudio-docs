@@ -20,7 +20,6 @@ manager: "ghogen"
 # PROFILE_CURRENTID
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The PROFILE_CURRENTID returns the pseudo-token for the thread id or process id, in a call to NameProfile, StartProfile, StopProfile, SuspendProfile, and ResumeProfile functions. Use it to cause the function to operate on the current thread or process, rather than a specifically indicated one.  
   
 ## Example  

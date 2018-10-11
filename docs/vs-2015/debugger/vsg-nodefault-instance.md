@@ -18,7 +18,6 @@ manager: "ghogen"
 # VSG_NODEFAULT_INSTANCE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines by its presence whether a default instance of the [VsgDbg Class](../debugger/vsgdbg-class.md) class—which provides the programmatic capture interface—is supplied.  
   
 ## Syntax  

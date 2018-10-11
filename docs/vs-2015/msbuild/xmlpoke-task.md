@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Sets values as specified by an XPath query into an XML file.  
   
 ## Parameters  

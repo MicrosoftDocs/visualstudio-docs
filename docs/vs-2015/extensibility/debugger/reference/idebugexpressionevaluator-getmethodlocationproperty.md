@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::GetMethodLocationProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method converts a method location and offset into a memory address.  
   
 ## Syntax  

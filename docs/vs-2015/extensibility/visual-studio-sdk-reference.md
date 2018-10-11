@@ -20,7 +20,6 @@ manager: "ghogen"
 # Visual Studio SDK Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section contains information about Visual Studio namespaces, related namespaces, and other areas of interest for developers who use the Visual Studio SDK.  
   
 ## In This Section

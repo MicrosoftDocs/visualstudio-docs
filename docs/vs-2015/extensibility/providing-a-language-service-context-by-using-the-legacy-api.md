@@ -19,7 +19,6 @@ manager: "ghogen"
 # Providing a Language Service Context by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There are two options for a language service to provide user context using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor: provide text marker context, or provide all user context. The differences between each are outlined here.  
   
  For more information on providing context to a language service that is connected to your own editor, see [How to: Provide Context for Editors](../extensibility/how-to-provide-context-for-editors.md).  

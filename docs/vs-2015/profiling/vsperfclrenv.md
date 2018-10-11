@@ -24,7 +24,6 @@ manager: "ghogen"
 # VSPerfCLREnv
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The VSPerfCLREnv tool is used to set environment variables that are required to profile a .NET Framework application. It uses the following syntax:  
   
 ```  

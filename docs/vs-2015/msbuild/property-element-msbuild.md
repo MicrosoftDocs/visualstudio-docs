@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project must be specified as a child of a `PropertyGroup` element.  
   
  \<Project>  

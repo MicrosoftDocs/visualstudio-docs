@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::CauseBreak
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Requests that the next program that is running code in this process halt and send an [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md) event object.  
   
 ## Syntax  

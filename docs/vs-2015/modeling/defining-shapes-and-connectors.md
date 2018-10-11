@@ -16,7 +16,6 @@ manager: "douge"
 # Defining Shapes and Connectors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There are several basic types of shapes that you can used to display information on a diagram in a domain-specific language (DSL).  
   
 ##  <a name="shapeTypes"></a> Basic Types of Shapes and Connectors  

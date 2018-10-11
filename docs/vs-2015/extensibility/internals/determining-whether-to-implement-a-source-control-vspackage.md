@@ -19,7 +19,6 @@ manager: "ghogen"
 # Determining Whether to Implement a Source Control VSPackage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This section elaborates the choices of source control plug-ins and source control VSPackages for extending source control solutions and gives broad guidelines about choosing a suitable integration path.  
   
 ## Small Source Control Solution with Limited Resources  

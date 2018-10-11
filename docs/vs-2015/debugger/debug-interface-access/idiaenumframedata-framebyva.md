@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::frameByVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns a frame by virtual address (VA).  
   
 ## Syntax  

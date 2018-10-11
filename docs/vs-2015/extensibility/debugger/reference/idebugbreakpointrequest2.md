@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointRequest2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents the information necessary to create and bind any type of breakpoint.  
   
 ## Syntax  

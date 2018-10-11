@@ -25,7 +25,6 @@ manager: "wpickett"
 # ClickOnce Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following pages describe the structure of the XML files used to represent ClickOnce applications.  
   
 ## In This Section  

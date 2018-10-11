@@ -22,7 +22,6 @@ manager: "ghogen"
 # Dimension
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Each FORTRAN array has a dimension that is identified by a `SymTagDimension` symbol.  
   
 ## Properties  

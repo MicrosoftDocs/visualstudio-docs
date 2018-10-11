@@ -20,7 +20,6 @@ manager: "ghogen"
 # How To: Debug a Custom Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A project type launches the debug engine (DE) from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> method. This means that the DE is launched under the control of the instance of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] controlling the project type. However, that instance of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] cannot debug the DE. What follows are the steps to allow you to debug your custom DE.  
   
 > [!NOTE]

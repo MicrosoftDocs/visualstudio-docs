@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortNotify2::AddProgramNode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Registers a program that can be debugged with the port it is running on.  
   
 ## Syntax  

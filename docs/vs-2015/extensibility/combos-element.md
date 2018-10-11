@@ -20,7 +20,6 @@ manager: "ghogen"
 # Combos Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Groups [Combo Element](../extensibility/combo-element.md) elements.  
   
 ## Syntax  

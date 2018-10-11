@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2::RemovePort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Removes a port.  
   
 ## Syntax  

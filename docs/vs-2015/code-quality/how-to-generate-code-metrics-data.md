@@ -22,7 +22,6 @@ manager: "douge"
 # How to: Generate Code Metrics Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can decide to generate code metrics results for either an entire solution or a selected project.  
   
  **Requirements**  

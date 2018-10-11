@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugReferenceInfo2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enumerates [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures.  
   
 ## Syntax  

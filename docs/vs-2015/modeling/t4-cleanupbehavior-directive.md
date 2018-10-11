@@ -16,7 +16,6 @@ manager: "douge"
 # T4 CleanUpBehavior directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To delete the appDomain after processing a text template, include the following line:  
   
 ```  

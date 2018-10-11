@@ -21,7 +21,6 @@ manager: "ghogen"
 # dwTYPE_KIND
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies how to interpret the type of an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # MACHINE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes a particular machine.  
   
 ## Syntax  

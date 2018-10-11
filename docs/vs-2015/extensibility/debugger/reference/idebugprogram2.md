@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a program that is running in a process.  
   
 ## Syntax  

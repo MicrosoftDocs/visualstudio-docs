@@ -19,7 +19,6 @@ manager: "ghogen"
 # COMPUTER_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the computer on which the debugger is running.  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::QueryIsLocal
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the server is local to the caller.  
   
 ## Syntax  

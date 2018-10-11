@@ -17,7 +17,6 @@ manager: "douge"
 # Sample Excel Communicator Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The sample `IExcelUICommunication` interface is used in the `ExcelUICommunicator` object in the `ExcelAddIn` project.  
   
 ## IExcelUICommunication Interface  

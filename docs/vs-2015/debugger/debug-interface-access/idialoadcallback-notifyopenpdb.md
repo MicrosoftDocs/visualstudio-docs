@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::NotifyOpenPDB
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Called when a candidate .pdb file is opened.  
   
 ## Syntax  

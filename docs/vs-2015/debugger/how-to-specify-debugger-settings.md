@@ -32,7 +32,6 @@ manager: "ghogen"
 # How to: Specify Debugger Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify debugger settings in the **Options** dialog box.  
   
 ### To set debugger options  

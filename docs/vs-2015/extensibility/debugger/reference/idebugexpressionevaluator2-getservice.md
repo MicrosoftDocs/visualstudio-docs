@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::GetService
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a service object given its unique identifier.  
   
 ## Syntax  

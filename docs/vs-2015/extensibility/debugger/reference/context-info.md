@@ -21,7 +21,6 @@ manager: "ghogen"
 # CONTEXT_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure describes a memory context or code context.  
   
 ## Syntax  

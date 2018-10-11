@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugMethodField::IsCustomAttributeDefined
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines whether a specific custom attribute has been defined.  
   
 ## Syntax  

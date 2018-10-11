@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccOpenProject Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function opens an existing source control project or creates a new one.  
   
 ## Syntax  

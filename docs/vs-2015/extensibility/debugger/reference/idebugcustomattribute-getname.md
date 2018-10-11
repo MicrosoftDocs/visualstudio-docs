@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomAttribute::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the name of the custom attribute.  
   
 ## Syntax  

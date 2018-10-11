@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumTables::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Skips a specified number of tables in an enumeration sequence.  
   
 ## Syntax  

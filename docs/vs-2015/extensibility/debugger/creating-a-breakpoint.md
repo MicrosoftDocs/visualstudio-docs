@@ -20,7 +20,6 @@ manager: "ghogen"
 # Creating a Breakpoint
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The following describes the process of creating a breakpoint.  
   
 ## Methods in Breakpoint Creation  

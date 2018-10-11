@@ -27,7 +27,6 @@ manager: "ghogen"
 # Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This behavior occurs if one of the following conditions is true:  
   
 -   Your connection to the remote computer was broken.  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetClassTypeByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the class field type representing a fully qualified class name.  
   
 ## Syntax  

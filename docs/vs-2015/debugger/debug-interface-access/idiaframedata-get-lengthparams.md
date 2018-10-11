@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_lengthParams
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of bytes of parameters pushed on the stack.  
   
 ## Syntax  

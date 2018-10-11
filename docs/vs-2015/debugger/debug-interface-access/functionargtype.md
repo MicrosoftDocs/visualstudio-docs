@@ -22,7 +22,6 @@ manager: "ghogen"
 # FunctionArgType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Each parameter of a function is identified by a `SymTagFunctionArgType` symbol.  
   
 ## Properties  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::Enable
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enables or disables the breakpoint.  
   
 ## Syntax  

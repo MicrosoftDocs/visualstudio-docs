@@ -20,7 +20,6 @@ manager: "douge"
 # Properties of Compartment Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Compartment shapes are one of the shapes you can use to display a domain class in a domain-specific language. You can expand and collapse the compartments.  
   
  For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  

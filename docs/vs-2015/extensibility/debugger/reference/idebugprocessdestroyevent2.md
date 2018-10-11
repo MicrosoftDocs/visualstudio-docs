@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcessDestroyEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface is sent when a process is terminated, exits atypically, or is detached from.  
   
 ## Syntax  

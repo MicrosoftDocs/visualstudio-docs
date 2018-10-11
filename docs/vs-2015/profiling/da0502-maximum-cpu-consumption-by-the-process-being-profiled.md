@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0502: Maximum CPU consumption by the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0502|  
 |Category|Resource Monitoring|  
 |Profiling method|All|  

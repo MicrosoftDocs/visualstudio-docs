@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerService::GetCustomViewerList
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns a list of type visualizers that this service knows about.  
   
 ## Syntax  

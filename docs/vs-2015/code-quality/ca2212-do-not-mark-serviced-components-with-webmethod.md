@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2212: Do not mark serviced components with WebMethod
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DoNotMarkServicedComponentsWithWebMethod|

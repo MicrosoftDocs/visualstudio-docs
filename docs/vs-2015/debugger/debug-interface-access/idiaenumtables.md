@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumTables
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Enumerates the various tables contained in the data source.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Messages Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Messages** menu provides commands for controlling message views.  
   
  **Start/Stop Logging**  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # UsedCommand Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Enables a VSPackage to access a command that is defined in another .vsct file. For example, if your VSPackage uses the standard **Copy** command, which is defined by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] shell, you can add the command to a menu or toolbar without re-implementing it.  
   
 ## Syntax  

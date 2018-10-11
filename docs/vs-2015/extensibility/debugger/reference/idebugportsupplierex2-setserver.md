@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugPortSupplierEx2::SetServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the core server for the port supplier.  
   
 ## Syntax  

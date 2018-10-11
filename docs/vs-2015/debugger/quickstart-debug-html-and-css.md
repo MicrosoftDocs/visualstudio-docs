@@ -30,7 +30,6 @@ manager: "ghogen"
 # Quickstart: Debug HTML and CSS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova  

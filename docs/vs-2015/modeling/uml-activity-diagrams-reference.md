@@ -27,7 +27,6 @@ manager: "douge"
 # UML Activity Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 An *activity diagram* shows a business process or a software process as a flow of work through a series of actions. People, software components, or computers can perform these actions.  
   
  You can use an activity diagram to describe processes of several types, such as the following examples:  

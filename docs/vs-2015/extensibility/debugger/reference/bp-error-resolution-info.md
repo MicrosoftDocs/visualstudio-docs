@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_ERROR_RESOLUTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the resolution of an error breakpoint, including location, program, and thread.  
   
 ## Syntax  

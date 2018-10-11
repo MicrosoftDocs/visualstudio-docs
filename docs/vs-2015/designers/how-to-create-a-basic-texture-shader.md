@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic Texture Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a single-texture shader. This shader sets the final color directly to the RGB and alpha values that are sampled from the texture.  
   
  This document demonstrates these activities:  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::IsAddressSequencePoint
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the specified debug address is a sequence point.  
   
 ## Syntax  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_slot
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the slot number of the location. Use when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is `LocIsSlot`.  
   
 ## Syntax  

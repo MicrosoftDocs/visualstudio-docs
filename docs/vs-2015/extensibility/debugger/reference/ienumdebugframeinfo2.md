@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugFrameInfo2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enumerates [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures.  
   
 ## Syntax  

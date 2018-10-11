@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortRequest2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface describes a port. This description is used to add the port to a port supplier.  
   
 ## Syntax  

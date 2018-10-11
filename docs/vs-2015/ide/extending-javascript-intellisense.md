@@ -24,7 +24,6 @@ manager: "ghogen"
 # Extending JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The JavaScript IntelliSense extensibility feature enables you to customize IntelliSense results in the JavaScript editor for third-party libraries. This can improve the experience of developers who use these libraries.  
   
  The JavaScript language service provides IntelliSense features for third-party JavaScript libraries that are added to a project. For most libraries, statement completion is provided automatically by the language service. The following illustration shows an example of statement completion:  

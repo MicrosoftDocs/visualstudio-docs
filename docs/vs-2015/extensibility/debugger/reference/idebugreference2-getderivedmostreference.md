@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::GetDerivedMostReference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the derived-most reference of a reference. Reserved for future use.  
   
 ## Syntax  

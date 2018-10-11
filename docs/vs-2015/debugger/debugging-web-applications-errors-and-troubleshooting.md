@@ -36,7 +36,6 @@ manager: "ghogen"
 # Debugging Web Applications: Errors and Troubleshooting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You may encounter the following errors when attempting to debug Web applications.  
   
 -   [Troubleshooting](../debugger/debugging-web-applications-troubleshooting.md)  

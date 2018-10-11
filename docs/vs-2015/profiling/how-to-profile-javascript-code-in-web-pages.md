@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Profile JavaScript Code in Web Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, an arbitrary Web page, or JavaScript application by using the instrumentation profiling method.  
   
  **Requirements**  

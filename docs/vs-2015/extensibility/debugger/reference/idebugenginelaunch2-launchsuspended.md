@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineLaunch2::LaunchSuspended
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method launches a process by means of the debug engine (DE).  
   
 ## Syntax  

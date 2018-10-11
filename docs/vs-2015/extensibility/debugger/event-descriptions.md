@@ -19,7 +19,6 @@ manager: "ghogen"
 # Event Descriptions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Each type of event has a specific purpose.  
   
 ## Events and the Reasons for Their Use  

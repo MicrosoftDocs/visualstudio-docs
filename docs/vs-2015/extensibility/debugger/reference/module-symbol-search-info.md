@@ -21,7 +21,6 @@ manager: "ghogen"
 # MODULE_SYMBOL_SEARCH_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Contains status information about symbol search paths that have been searched.  
   
 ## Syntax  

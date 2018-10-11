@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_STATE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the existence of a bound breakpoint and also specifies if it is enabled.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Start
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Start** option is a VSPerfCmd.exe option that initializes the profiler to the specified profiling method.  
   
 ## Syntax  

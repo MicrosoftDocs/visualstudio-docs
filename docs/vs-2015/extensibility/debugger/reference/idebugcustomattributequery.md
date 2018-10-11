@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Represents a query for custom attributes on a method or type.  
   
 ## Syntax  

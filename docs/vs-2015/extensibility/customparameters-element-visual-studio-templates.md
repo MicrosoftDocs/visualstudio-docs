@@ -21,7 +21,6 @@ manager: "ghogen"
 # CustomParameters Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.  
   
 ## Syntax  

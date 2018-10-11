@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_CONDITION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes the conditions under which a breakpoint fires.  
   
 ## Syntax  

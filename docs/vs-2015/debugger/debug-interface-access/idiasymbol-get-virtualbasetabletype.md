@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualBaseTableType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the type of a virtual base table pointer.  
   
 ## Syntax  

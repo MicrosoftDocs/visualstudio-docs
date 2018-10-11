@@ -20,7 +20,6 @@ manager: "ghogen"
 # Search Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Search** menu provides commands to search for specific windows.  
   
  **Find Window/Process/Thread/Message**  

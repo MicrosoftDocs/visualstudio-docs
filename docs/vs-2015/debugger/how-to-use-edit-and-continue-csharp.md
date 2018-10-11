@@ -25,7 +25,6 @@ manager: "ghogen"
 # How to: Use Edit and Continue (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 With Edit and Continue for C#, you can make changes to your code in break mode while debugging. The changes can be applied without having to stop and restart the debugging session.  
   
  Edit and Continue is invoked automatically when you make changes in break mode, then choose a debugger execution command, such as **Continue**, **Step**, or **Set Next Statement**, or evaluate a function in a debugger window.  

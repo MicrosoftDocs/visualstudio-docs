@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::GetServerFriendlyName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a friendly name for the server.  
   
 ## Syntax  

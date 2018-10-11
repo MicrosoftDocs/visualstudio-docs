@@ -23,7 +23,6 @@ manager: "wpickett"
 # How to: Configure Code Analysis for a Managed Code Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] and [!INCLUDE[vsPro](../includes/vspro-md.md)], you can choose from a list of code analysis *rule sets* to apply to a managed code project. The default rule set is the Microsoft Minimum Recommended Rules. You can apply another rule set to a project or to all projects in a solution.  
   
 > [!NOTE]

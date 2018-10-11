@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the memory context of the property value.  
   
 ## Syntax  

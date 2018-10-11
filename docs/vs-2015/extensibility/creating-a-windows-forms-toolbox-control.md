@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating a Windows Forms Toolbox Control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VS SDK) lets you create a control that is automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a simple counter control that you can distribute to other users.  
   
 ## Prerequisites  

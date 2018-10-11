@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_msil
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the symbol refers to Microsoft Intermediate Language (MSIL) code.  
   
 ## Syntax  

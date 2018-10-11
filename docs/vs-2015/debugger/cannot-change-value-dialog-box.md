@@ -28,7 +28,6 @@ manager: "ghogen"
 # Cannot Change Value Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Error  
  `The value of this variable cannot be changed` &#124; `The name` *name* `does not exist in the current context` &#124; *various other messages*  
   

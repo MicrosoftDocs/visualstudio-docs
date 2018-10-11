@@ -20,7 +20,6 @@ manager: "ghogen"
 # Get Started Developing with Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.com/community) the product, these pages will help you get started coding.  
   
 -   **[Make web apps](https://www.visualstudio.com/features/modern-web-tooling-vs):** Tools to create and deploy modern web applications.  

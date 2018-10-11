@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2226: Operators should have symmetrical overloads
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|OperatorsShouldHaveSymmetricalOverloads|

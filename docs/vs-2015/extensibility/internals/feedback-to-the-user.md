@@ -22,7 +22,6 @@ manager: "ghogen"
 # Feedback to the User
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE), visual feedback regarding available functionality is based on the user's current selection and global selection context. The following table lists the functionality that is available in different selection contexts.  
   
 |Selection context|Available functionality|  

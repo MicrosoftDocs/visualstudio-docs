@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramPublisher2::PublishProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method makes a program available for debug engines (DEs) and the session debug manager.  
   
 ## Syntax  

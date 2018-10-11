@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugTypeFieldBuilder2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Extends the **IDebugTypeFieldBuilder** to be able to create array types.  
   
 ## Syntax  

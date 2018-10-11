@@ -14,7 +14,6 @@ manager: "ghogen"
 # Upgrading Custom Project and Item Templates for Visual Studio “15”
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Starting in Visual Studio "15" Preview 4, Visual Studio is changing the way it discovers project and item templates that have been installed by a .vsix or an .msi. If you own extensions that use custom project or item templates, you need to update your extensions. This topic explains what you must do.  
   
  This change affects only Visual Studio "15". It does not affect previous versions of Visual Studio.  

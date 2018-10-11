@@ -27,7 +27,6 @@ manager: "wpickett"
 # How to: Publish a ClickOnce Application using the Publish Wizard
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To make a ClickOnce application available to users, you must publish it to a file share or path, FTP server, or removable media. You can publish the application by using the Publish Wizard; additional properties related to publishing are available on the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md).  
   
  Before you run the Publish Wizard, you should set the publishing properties appropriately. For example, if you want to designate a key to sign your ClickOnce application, you can do so on the **Signing** page of the **Project Designer**. For more information, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md).  

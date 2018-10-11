@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1032: Implement standard exception constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|ImplementStandardExceptionConstructors|

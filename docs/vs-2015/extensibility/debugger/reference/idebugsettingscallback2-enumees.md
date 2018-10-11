@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::EnumEEs
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enumerates the available expression evaluators given the language and vendor identifiers.  
   
 ## Syntax  

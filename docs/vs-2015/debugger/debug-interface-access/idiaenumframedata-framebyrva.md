@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::frameByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Returns a frame by relative virtual address (RVA).  
   
 ## Syntax  

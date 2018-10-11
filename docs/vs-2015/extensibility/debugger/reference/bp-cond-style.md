@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_COND_STYLE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the breakpoint condition style for pending and bound breakpoints.  
   
 ## Syntax  

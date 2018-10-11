@@ -22,7 +22,6 @@ manager: "wpickett"
 # How to: Create or Update Standard Code Analysis Check-in Policies
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can require that code analysis be run on all code projects in a team project by using the code analysis check-in policy. Requiring code analysis can improve the quality of the code that is checked into the code base.  
   
 > [!NOTE]

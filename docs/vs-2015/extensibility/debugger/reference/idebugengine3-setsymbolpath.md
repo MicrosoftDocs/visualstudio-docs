@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::SetSymbolPath
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the path or paths that are searched for debugging symbols.  
   
 ## Syntax  

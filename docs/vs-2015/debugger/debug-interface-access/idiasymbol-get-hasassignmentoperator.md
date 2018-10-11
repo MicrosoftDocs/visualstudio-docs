@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasAssignmentOperator
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined.  
   
 ## Syntax  

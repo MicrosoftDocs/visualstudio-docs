@@ -18,7 +18,6 @@ manager: "ghogen"
 # Getting Started with Visual Studio Graphics Diagnostics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this section you'll prepare to use Graphics Diagnostics for the first time, then you'll capture frames from a Direct3D app and examine them in the Graphics Analyzer.  
   
 ## Requirements  

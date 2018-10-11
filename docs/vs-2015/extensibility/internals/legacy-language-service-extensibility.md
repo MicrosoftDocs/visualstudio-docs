@@ -20,7 +20,6 @@ manager: "ghogen"
 # Legacy Language Service Extensibility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 A language service provides language-specific support for editing source code in the IDE.  
   
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md).  

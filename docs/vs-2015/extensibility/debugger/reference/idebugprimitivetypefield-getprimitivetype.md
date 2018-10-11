@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugPrimitiveTypeField::GetPrimitiveType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the primitive type that is associated with this field.  
   
 ## Syntax  

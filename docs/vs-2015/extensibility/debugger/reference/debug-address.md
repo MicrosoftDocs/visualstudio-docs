@@ -21,7 +21,6 @@ manager: "ghogen"
 # DEBUG_ADDRESS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents an address.  
   
 ## Syntax  

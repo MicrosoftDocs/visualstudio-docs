@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaImageData::get_imageBase
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the memory location where the image should be based.  
   
 ## Syntax  

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 6: Add a Subtraction Problem
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In the sixth part of this tutorial, you'll add a subtraction problem and learn how to perform the following tasks:  
   
 -   Store the subtraction values.  

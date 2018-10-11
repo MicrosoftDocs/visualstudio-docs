@@ -17,7 +17,6 @@ manager: "douge"
 # Create a unit test project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.  
   
 > [!NOTE]

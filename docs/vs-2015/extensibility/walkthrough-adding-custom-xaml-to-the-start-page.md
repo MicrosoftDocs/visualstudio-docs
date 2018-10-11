@@ -20,7 +20,6 @@ manager: "ghogen"
 # Walkthrough: Adding Custom XAML to the Start Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough shows how to create a custom Visual Studio Start Page that contains a Web browser.  
   
 ## Adding Custom XAML  

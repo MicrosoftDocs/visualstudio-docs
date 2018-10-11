@@ -21,7 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_METHOD
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This structure represents the address of a method of a class.  
   
 ## Syntax  

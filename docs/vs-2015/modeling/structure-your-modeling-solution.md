@@ -16,7 +16,6 @@ manager: "douge"
 # Structure your modeling solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To use models effectively in a development project, the team members must be able to work on models of different parts of the project at the same time. This topic suggests a scheme for dividing the application into different parts that correspond to the layers in an overall layering diagram.  
   
  To start on a project or subproject quickly, it is useful to have a project template that follows the project structure that you have chosen. This topic describes how to create and use such a template.  

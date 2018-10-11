@@ -22,7 +22,6 @@ manager: "ghogen"
 # PointerType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Each pointer is identified by a `SymTagPointerType` symbol.  
   
 ## Properties  

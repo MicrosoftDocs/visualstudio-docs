@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 6: Name Your Button Controls
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 There's only one PictureBox on your form. When you added it, the IDE automatically named it **pictureBox1**. There's only one CheckBox, which is named **checkBox1**. Soon, you will write some code, and that code will refer to the CheckBox and PictureBox. Because there's only one of each of these controls, you will know what it means when you see **pictureBox1** or **checkBox1** in your code.  
   
 > [!NOTE]

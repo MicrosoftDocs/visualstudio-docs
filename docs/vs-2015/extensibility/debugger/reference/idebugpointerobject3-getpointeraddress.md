@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugPointerObject3::GetPointerAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves the address of the pointer.  
   
 ## Syntax  

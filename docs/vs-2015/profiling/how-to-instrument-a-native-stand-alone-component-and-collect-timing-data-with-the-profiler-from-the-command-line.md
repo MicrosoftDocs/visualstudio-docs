@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Instrument a Native Stand-Alone Component and Collect Timing Data with the Profiler from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to instrument a native component such as a C++ .exe or .dll file, and to collect detailed timing data.  
   
 > [!NOTE]

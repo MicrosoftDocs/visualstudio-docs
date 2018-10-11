@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPointerObject::SetBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the value pointed to from a series of consecutive bytes.  
   
 ## Syntax  

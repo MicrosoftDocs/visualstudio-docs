@@ -21,7 +21,6 @@ manager: "ghogen"
 # Collecting Detailed Timing Data for an ASP.NET Web Application Using the Profiler Instrumentation Method from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section describes the procedures and options for collecting detailed performance data for an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application by using the **VSPerfCmd** command line tool and the instrumentation method.  
   
 > [!NOTE]

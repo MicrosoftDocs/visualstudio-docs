@@ -18,7 +18,6 @@ manager: "ghogen"
 # What&#39;s New in MSBuild 12.0
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild is now installed as part of Visual Studio rather than as part of the .NET Framework. The current MSBuild version number is 12.0. If you want to install MSBuild separately, download the installation package from [MSBuild Download](http://go.microsoft.com/fwlink/?LinkId=309745).  
   
 ## Changed Path  

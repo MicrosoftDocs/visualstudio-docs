@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_customCallingConvention
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function has a custom calling convention.  
   
 ## Syntax  

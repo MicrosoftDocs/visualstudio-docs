@@ -21,7 +21,6 @@ manager: "ghogen"
 # AD_PROCESS_ID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the process ID, which may be either a system ID or a GUID.  
   
 ## Syntax  

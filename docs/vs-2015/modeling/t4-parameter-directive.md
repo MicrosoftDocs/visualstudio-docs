@@ -16,7 +16,6 @@ manager: "douge"
 # T4 Parameter Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.  
   
 ## Using the Parameter Directive  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::findChildrenExByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the children of the symbol that are valid at a specified address.  
   
 ## Syntax  

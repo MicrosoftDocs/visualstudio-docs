@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugTypeFieldBuilder2::CreateArrayOfType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates an array of the specified type and size.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Thread Search Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use this dialog box to find and select the node for a specific thread in [Threads View](../debugger/threads-view.md). To display this dialog box, move the focus to a **Threads** view window. Then choose **Find Thread** from the **Search** menu.  
   
  The following settings are available:  

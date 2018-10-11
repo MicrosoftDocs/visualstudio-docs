@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface gives access to information about the server the process is running in.  
   
 ## Syntax  

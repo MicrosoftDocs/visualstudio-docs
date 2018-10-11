@@ -22,7 +22,6 @@ manager: "ghogen"
 # Test Area 3: Check Out/Undo Checkout
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This source-control plug-in test area covers editing and reverting items from the version store via the **Check Out** and **Undo Checkout** commands.  
   
  **Check Out**: Marks an item in the version store as checked out, modifies the local copy to read/write.  

@@ -25,7 +25,6 @@ manager: "ghogen"
 # Advanced Search Operators in Search Expressions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 By using advanced search operators, you can refine your search for content by creating more complicated search expressions from simpler ones. As the following table shows, these operators restrict the context in which a query runs.  
   
 > [!WARNING]

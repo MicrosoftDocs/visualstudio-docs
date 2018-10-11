@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a stream of instructions.  
   
 ## Syntax  

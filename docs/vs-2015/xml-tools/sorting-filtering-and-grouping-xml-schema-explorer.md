@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the XML Schema Explorer toolbar.  
   
 ## Filter Options  

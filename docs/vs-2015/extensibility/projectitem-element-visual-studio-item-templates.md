@@ -22,7 +22,6 @@ manager: "ghogen"
 # ProjectItem Element (Visual Studio Item Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies a file that is included in the item template.  
   
 > [!NOTE]

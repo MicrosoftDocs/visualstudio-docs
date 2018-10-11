@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Migrate Extensibility Projects to Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Here’s how to upgrade your extension.  
   
 > [!IMPORTANT]

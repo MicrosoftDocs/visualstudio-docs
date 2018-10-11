@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::SetReferenceType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the reference type. Reserved for future use.  
   
 ## Syntax  

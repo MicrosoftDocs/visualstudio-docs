@@ -22,7 +22,6 @@ manager: "ghogen"
 # Capturing Graphics Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.  
   
 ## Capturing graphics information  

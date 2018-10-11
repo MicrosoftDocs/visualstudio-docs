@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage::ReadPropertyNames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves corresponding string names for given property identifiers.  
   
 ## Syntax  

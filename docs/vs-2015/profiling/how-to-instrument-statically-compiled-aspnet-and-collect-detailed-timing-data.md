@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Instrument a Statically Compiled ASP.NET Web Application and Collect Detailed Timing Data with the Profiler by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to instrument a precompiled [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web component or Web site and collect detailed timing data.  
   
 > [!NOTE]

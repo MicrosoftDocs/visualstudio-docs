@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetLanguage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the language that was used to compile the code at the debug address.  
   
 ## Syntax  

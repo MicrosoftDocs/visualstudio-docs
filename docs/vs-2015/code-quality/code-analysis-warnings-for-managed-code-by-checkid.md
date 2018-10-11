@@ -268,7 +268,6 @@ manager: "wpickett"
 # Code Analysis Warnings for Managed Code by CheckId
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following table lists Code Analysis warnings for managed code by the CheckId identifier of the warning.  
   
 ## Warnings  

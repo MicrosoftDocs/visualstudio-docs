@@ -26,7 +26,6 @@ manager: "ghogen"
 # Debugging and the Hosting Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Visual Studio hosting process improves debugger performance and enables new debugger features, such as partial-trust debugging and design-time expression evaluation. You can disable the hosting process if you need to. For more information, see [How to: Disable the Hosting Process](../ide/how-to-disable-the-hosting-process.md). The following sections describe some differences between debugging with and without the hosting process.  
   
 ## Partial-Trust Debugging and Click-Once Security  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetTypeInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets type-independent information about the symbol or type.  
   
 ## Syntax  

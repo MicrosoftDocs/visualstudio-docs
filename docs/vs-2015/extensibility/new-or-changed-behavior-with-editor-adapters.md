@@ -19,7 +19,6 @@ manager: "ghogen"
 # New or Changed Behavior with Editor Adapters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you are updating code that was written against earlier versions of the Visual Studio core editor, and you plan to use the editor adapters (or shims) rather than using the new API, you should be aware of the following differences in the behavior of the editor adapters with respect to the previous core editor.  
   
 ## Features  

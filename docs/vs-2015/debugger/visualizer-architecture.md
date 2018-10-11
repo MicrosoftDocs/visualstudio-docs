@@ -23,7 +23,6 @@ manager: "ghogen"
 # Visualizer Architecture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The architecture of a debugger visualizer has two parts:  
   
 -   The *debugger side* runs within the Visual Studio debugger. The debugger-side code creates and displays the user interface for your visualizer.  

@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1502: Avoid excessive complexity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|AvoidExcessiveComplexity|

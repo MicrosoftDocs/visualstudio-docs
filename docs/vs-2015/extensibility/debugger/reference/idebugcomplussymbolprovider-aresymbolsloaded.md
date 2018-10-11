@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.  
   
 ## Syntax  

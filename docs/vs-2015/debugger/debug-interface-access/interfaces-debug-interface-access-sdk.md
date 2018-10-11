@@ -23,7 +23,6 @@ manager: "ghogen"
 # Interfaces (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.  
   
 ## In This Section  

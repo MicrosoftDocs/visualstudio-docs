@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::SetIDebugIDECallback
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enables a debug engine to pass a callback to the expression evaluator during initialization.  
   
 ## Syntax  

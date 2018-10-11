@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::SetCallback
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.  
   
 ## Syntax  

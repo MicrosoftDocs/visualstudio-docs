@@ -21,7 +21,6 @@ manager: "douge"
 # Properties of Image Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use image shapes to specify how domain classes appear in a generated designer. Define an image shape by setting the `Image` property of the class to a predefined image file. The following formats are supported:  
   
 -   .gif  

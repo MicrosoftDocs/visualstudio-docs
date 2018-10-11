@@ -20,7 +20,6 @@ manager: "ghogen"
 # MarkProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `MarkProfile` method inserts a profile mark in the .vsp file. Profiling for the thread containing the `MarkProfile` function must be ON for the mark to be inserted.  
   
 ## Syntax  

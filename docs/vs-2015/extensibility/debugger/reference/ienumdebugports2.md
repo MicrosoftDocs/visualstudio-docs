@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugPorts2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enumerates the ports of a machine or port supplier.  
   
 ## Syntax  

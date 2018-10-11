@@ -22,7 +22,6 @@ manager: "ghogen"
 # span Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Defines a phase of the application.  
   
 ## Syntax  

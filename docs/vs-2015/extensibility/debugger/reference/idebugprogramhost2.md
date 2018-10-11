@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramHost2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface provides host (process) information about a program.  
   
 ## Syntax  

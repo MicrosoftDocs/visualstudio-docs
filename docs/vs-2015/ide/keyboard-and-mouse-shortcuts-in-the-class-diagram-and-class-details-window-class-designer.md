@@ -23,7 +23,6 @@ manager: "ghogen"
 # Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can use the keyboard in addition to the mouse to perform navigational actions in Class Designer and in the **Class Details** window.  
   
  **In this topic**  

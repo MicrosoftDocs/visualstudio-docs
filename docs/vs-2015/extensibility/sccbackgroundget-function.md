@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccBackgroundGet Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function retrieves from source control each of the specified files with no user interaction.  
   
 ## Syntax  

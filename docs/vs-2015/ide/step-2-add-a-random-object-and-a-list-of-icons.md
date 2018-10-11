@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 2: Add a Random Object and a List of Icons
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In this step, you create a set of matching symbols for the game. Each symbol is added to two random cells in the TableLayoutPanel on the form. To do this, you use two `new` statements to create two objects. The first is a `Random` object, like the one you used in the math quiz game. It is used in this code to randomly choose cells in the TableLayoutPanel. The second object, which may be new to you, is a `List` object which is used to store the randomly-chosen symbols.  
   
 ### To add a Random object and a list of icons  

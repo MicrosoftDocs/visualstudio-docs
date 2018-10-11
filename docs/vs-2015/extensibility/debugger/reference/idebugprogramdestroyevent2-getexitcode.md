@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramDestroyEvent2::GetExitCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the program's exit code.  
   
 ## Syntax  

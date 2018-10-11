@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluationCompleteEvent2::GetExpression
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the original expression.  
   
 ## Syntax  

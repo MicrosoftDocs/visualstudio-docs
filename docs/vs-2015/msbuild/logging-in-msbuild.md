@@ -21,7 +21,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Logging provides a way for you to monitor the progress of a build. Logging captures build events, messages, warnings, and errors in a log file.  
   
 ## In This Section  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDefaultPort2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface provides several methods for accessing a port's server and notification facilities.  
   
 ## Syntax  

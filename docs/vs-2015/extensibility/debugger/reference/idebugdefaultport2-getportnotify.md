@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDefaultPort2::GetPortNotify
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets an [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) interface for this port.  
   
 ## Syntax  

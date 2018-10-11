@@ -21,7 +21,6 @@ manager: "ghogen"
 # TemplateContent Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies the contents of the template.  
   
  \<VSTemplate>  

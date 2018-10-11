@@ -21,7 +21,6 @@ manager: "ghogen"
 # Saving Symbol Information with Performance Data Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you are using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) to analyze files and you plan to move your VSP file to a different computer, you must set the performance project settings to save or *serialize* symbols in your report file. This increases the size of a report file. Serializing symbols is necessary for two reasons:  
   
 -   To embed code symbols into a performance report before the target assemblies are lost from their location in temporary storage.  

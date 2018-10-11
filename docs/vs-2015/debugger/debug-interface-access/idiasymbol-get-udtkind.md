@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_udtKind
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the variety of a user-defined type (UDT).  
   
 ## Syntax  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetPropertyInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure that describes a property.  
   
 ## Syntax  

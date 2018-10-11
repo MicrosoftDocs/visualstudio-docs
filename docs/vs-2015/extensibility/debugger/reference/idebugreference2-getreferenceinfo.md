@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::GetReferenceInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes a reference. Reserved for future use.  
   
 ## Syntax  

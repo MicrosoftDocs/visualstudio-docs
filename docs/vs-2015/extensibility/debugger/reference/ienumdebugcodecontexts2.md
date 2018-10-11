@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCodeContexts2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface enumerates the code contexts associated with the debug session, or with a particular program or document.  
   
 ## Syntax  

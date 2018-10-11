@@ -17,7 +17,6 @@ manager: "ghogen"
 # Fonts and Formatting for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 ##  <a name="BKMK_TheEnvironmentFont"></a> The environment font  
  All fonts within Visual Studio must be exposed to the user for customization. This is primarily done through the **Fonts and Colors** page in the **Tools > Options** dialog. The three main categories of font settings are:  
   

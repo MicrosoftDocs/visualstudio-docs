@@ -22,7 +22,6 @@ manager: "ghogen"
 # Application Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can set general application properties for Visual Basic, C#, and F# applications, such as application type, startup object, and assembly information, in the **Application** pane of the **Project Designer**.  
   
  The following tasks can be accomplished in the **Application** pane:  

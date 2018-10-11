@@ -16,7 +16,6 @@ manager: "douge"
 # Properties of Model Elements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This section lists the properties that you see in the Properties window when you select an element in the DSL Definition diagram or in the DSL Explorer.  
   
  In some cases, additional properties can be found in the DSL Details window.  

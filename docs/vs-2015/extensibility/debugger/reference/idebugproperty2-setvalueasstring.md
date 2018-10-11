@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::SetValueAsString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the value of a property from a given string.  
   
 ## Syntax  

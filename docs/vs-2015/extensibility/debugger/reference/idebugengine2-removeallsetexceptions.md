@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::RemoveAllSetExceptions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Removes the list of exceptions the IDE has set for a particular run-time architecture or language.  
   
 ## Syntax  

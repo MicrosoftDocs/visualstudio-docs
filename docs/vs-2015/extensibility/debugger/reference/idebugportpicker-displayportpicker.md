@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugPortPicker::DisplayPortPicker
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Displays the specified dialog box that allows the user to select a port.  
   
 ## Syntax  

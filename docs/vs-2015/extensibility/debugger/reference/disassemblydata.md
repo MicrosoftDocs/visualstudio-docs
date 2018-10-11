@@ -21,7 +21,6 @@ manager: "ghogen"
 # DisassemblyData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Describes one disassembly instruction for the integrated development environment (IDE) to display.  
   
 ## Syntax  

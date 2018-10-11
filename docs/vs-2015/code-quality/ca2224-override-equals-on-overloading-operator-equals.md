@@ -24,8 +24,6 @@ manager: "wpickett"
 ---
 # CA2224: Override equals on overloading operator equals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|OverrideEqualsOnOverloadingOperatorEquals|

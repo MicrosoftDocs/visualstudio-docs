@@ -20,7 +20,6 @@ manager: "ghogen"
 # Starting to Develop Visual Studio Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If you’ve never written a Visual Studio extension before, you probably have some questions. We’ve listed some of the most common ones here. If you don’t see the information you’re looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  
   
 ## What software do I need to develop Visual Studio extensions?  

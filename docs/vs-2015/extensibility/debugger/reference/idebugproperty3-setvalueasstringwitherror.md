@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::SetValueAsStringWithError
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the value of this property and returns an error message, if necessary.  
   
 ## Syntax  

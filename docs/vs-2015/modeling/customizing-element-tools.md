@@ -16,7 +16,6 @@ manager: "douge"
 # Customizing Element Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In some DSL Definitions, you represent a single concept as a group of elements. For example, if you create a model in which a component has a fixed set of ports, you always want the ports to be created at the same time as their parent component. Therefore, you have to customize the element creation tool so that it creates a group of elements instead of just one. To achieve this, you can customize how the element creation tool is initialized.  
   
  You can also override what happens when the tool is dragged onto the diagram or an element.  

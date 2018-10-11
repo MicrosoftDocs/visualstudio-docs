@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_targetRelativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the relative virtual address (RVA) of a thunk target.  
   
 ## Syntax  

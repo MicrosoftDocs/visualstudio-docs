@@ -19,7 +19,6 @@ manager: "ghogen"
 # AsyncTaskMethodBuilder.m_builder Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Represents the generic builder object to which this non-generic instance delegates.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

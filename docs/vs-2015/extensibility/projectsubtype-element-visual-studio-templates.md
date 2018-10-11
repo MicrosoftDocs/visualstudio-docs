@@ -22,7 +22,6 @@ manager: "ghogen"
 # ProjectSubType Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Classifies the template into a subcategory of the value specified in the `ProjectType` element.  
   
  \<VSTemplate>  

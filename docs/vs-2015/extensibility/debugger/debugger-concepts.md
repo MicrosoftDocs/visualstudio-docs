@@ -19,7 +19,6 @@ manager: "ghogen"
 # Debugger Concepts
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 To build on the Visual Studio debug package, you need to be familiar with the architectural concepts used in designing the package.  
   
 ## In This Section  

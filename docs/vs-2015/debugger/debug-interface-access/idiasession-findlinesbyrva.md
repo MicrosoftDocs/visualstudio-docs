@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findLinesByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).  
   
 ## Syntax  

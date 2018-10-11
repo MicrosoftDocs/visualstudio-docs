@@ -30,7 +30,6 @@ manager: "ghogen"
 # Annotating Function Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In addition to annotating [function parameters and return values](../code-quality/annotating-function-parameters-and-return-values.md), you can annotate properties of the whole function.  
   
 ## Function Annotations  

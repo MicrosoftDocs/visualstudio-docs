@@ -22,7 +22,6 @@ manager: "ghogen"
 # No Thread Activity to Show (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This area shows data about the unhidden threads in the currently visible time range.  
   
  If no information is visible, check the following settings:  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_optimizedCodeDebugInfo
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that indicates whether the function contains debug information that is specific for optimized code.  
   
 ## Syntax  

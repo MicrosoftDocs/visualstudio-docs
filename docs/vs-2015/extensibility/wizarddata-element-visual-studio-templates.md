@@ -22,7 +22,6 @@ manager: "ghogen"
 # WizardData Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies custom XML  
   
  \<VSTemplate>  

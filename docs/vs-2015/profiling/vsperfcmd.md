@@ -24,7 +24,6 @@ manager: "ghogen"
 # VSPerfCmd
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **VSPerfCmd.exe** tool is used to start and stop performance data collection. It uses the following syntax:  
   
 ```  

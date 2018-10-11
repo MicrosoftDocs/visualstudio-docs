@@ -19,7 +19,6 @@ manager: "ghogen"
 # Inside the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The editor is composed of a number of different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.  
   
  These sections describe different aspects of the editor:  

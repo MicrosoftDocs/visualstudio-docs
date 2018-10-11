@@ -21,7 +21,6 @@ manager: "ghogen"
 # Shader Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  
   
  You can use the Shader Designer to create custom visual effects for your game or app even if you don't know HLSL programming. To create a shader in the Shader Designer, you just lay it out as a graph; that is, you add to the design surface *nodes* that represent data and operations and then make connections between them to define how the operations process the data. At each operation node, a preview of the effect up to that point is provided so that you can visualize its result. Data flows through the nodes toward a final node that represents the output of the shader.  

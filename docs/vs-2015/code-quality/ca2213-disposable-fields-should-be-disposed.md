@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2213: Disposable fields should be disposed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|DisposableFieldsShouldBeDisposed|

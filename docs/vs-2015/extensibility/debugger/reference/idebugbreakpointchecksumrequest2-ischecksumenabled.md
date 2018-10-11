@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugBreakpointChecksumRequest2::IsChecksumEnabled
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Determines whether the checksum is enabled for this document.  
   
 ## Syntax  

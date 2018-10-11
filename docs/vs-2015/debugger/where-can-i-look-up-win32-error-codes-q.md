@@ -29,7 +29,6 @@ manager: "ghogen"
 # Where Can I Look Up Win32 Error Codes?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 WINERROR.H in the INCLUDE directory of your default system installation contains the error code definitions for the Win32 API functions.  
   
  You can look up an error code by typing the code in the **Watch** window or the **QuickWatch** dialog box. For example:  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Window Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Window** menu provides commands to manage Spy++ windows.  
   
  **Cascade**  

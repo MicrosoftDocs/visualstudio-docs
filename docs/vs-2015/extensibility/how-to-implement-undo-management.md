@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Implement Undo Management
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The primary interface used for undo management is <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager>, which is implemented by the environment. To support undo management, implement separate undo units (that is, <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit>, which can contain multiple individual steps.  
   
  How you implement undo management varies depending on whether your editor supports multiple views or not. The procedures for each implementation are detailed in the following sections.  

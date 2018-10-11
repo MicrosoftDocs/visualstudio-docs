@@ -20,7 +20,6 @@ manager: "ghogen"
 # Creating Project Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can extend [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by creating a new project type. To create a new project type, you must understand several concepts and complete a number of steps. The following topics provide an overview of how to create project types.  
   
 ## In This Section  

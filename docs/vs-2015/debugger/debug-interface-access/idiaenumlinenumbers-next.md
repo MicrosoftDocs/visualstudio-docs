@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumLineNumbers::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a specified number of line numbers in the enumeration sequence.  
   
 ## Syntax  

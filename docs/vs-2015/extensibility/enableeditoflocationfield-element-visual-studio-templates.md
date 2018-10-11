@@ -19,7 +19,6 @@ manager: "ghogen"
 # EnableEditOfLocationField Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies if the user can edit the location field.  
   
  \<VSTemplate>  

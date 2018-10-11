@@ -20,7 +20,6 @@ manager: "ghogen"
 # Markers Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Markers Report lists the markers in the displayed time frame.  Panning or zooming, or hiding lanes, might cause markers to appear or disappear. The report contains this information about each marker:  
   
 -   The time when it began, relative to the start of the trace.  

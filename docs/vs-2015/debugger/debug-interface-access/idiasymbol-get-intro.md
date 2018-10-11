@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_intro
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether the function is an introducing virtual function.  
   
 ## Syntax  

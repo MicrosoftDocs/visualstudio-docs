@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineProgram2::Stop
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Stops all threads running in this program.  
   
 ## Syntax  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Authoring .Vsct Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This document shows how to author a .vsct file to add menu items, toolbars, and other user interface (UI) elements to the Visual Studio integrated development environment (IDE). Use these steps when you add UI elements to a Visual Studio Package (VSPackage) that does not already have a .vsct file.  
   
  For new projects, we recommend that you use the Visual Studio Package template because it generates a .vsct file that, depending on your selections, already has the required elements for a menu command, a tool window, or a custom editor. You can modify this .vsct file to meet the requirements of your VSPackage. For more information about how to modify a .vsct file, see the examples in [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md).  

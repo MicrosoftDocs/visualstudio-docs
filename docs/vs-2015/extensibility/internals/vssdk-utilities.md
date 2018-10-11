@@ -19,7 +19,6 @@ manager: "ghogen"
 # VSSDK Utilities
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The topics in this section describe the tools that ship with the VSSDK.  
   
 ## In This Section  

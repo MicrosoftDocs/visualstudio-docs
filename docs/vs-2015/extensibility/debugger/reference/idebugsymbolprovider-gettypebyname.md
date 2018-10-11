@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetTypeByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method maps a symbol name to a symbol type.  
   
 ## Syntax  

@@ -16,7 +16,6 @@ manager: "douge"
 # Setting a Background Image on a Diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.  
   
 ## Setting the background image  

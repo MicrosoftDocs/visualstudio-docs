@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentPosition2::GetDocument
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the containing document.  
   
 ## Syntax  

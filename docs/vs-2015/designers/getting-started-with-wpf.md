@@ -18,7 +18,6 @@ manager: "ghogen"
 # Getting Started with WPF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Windows Presentation Foundation (WPF) is a UI framework that creates desktop client applications. The WPF development platform supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding, documents, and security. It is a subset of the .NET Framework, so if you have previously built applications with the .NET Framework using ASP.NET or Windows Forms, the programming experience should be familiar. WPF uses the Extensible Application Markup Language (XAML) to provide a declarative model for application programming. This section has topics that introduce and help you get started with WPF.  
   
 ## Where Should I Start?  

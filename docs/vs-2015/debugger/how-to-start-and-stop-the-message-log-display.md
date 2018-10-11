@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Start and Stop the Message Log Display
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When a [Messages View](../debugger/messages-view.md) window is active, a **Start Logging** or **Stop Logging** choice appears on the Spy++ **Messages** menu, and the corresponding **Start Logging** or **Stop Logging** toolbar button becomes active.  
   
 ### To start the message log display  

@@ -25,7 +25,6 @@ manager: "wpickett"
 # &lt;Package&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The `Package` element is the top-level XML element inside of a package file.  
   
 ## Syntax  

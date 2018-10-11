@@ -21,7 +21,6 @@ manager: "ghogen"
 # DOCCONTEXT_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Specifies the criteria for comparing two document contexts.  
   
 ## Syntax  

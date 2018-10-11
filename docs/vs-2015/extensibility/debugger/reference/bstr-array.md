@@ -21,7 +21,6 @@ manager: "ghogen"
 # BSTR_ARRAY
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 A structure that describes an array of strings.  
   
 ## Syntax  

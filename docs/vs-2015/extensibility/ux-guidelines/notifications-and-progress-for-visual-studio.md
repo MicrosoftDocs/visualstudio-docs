@@ -17,7 +17,6 @@ manager: "ghogen"
 # Notifications and Progress for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 ##  <a name="BKMK_NotificationSystems"></a> Notification systems  
   
 ### Overview  

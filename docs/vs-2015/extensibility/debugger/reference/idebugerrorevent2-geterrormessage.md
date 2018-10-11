@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugErrorEvent2::GetErrorMessage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Returns information that allows construction of a human-readable error message.  
   
 ## Syntax  

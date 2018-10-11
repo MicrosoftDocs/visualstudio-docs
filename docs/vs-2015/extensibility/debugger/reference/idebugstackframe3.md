@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface extends [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) to handle intercepted exceptions.  
   
 ## Syntax  

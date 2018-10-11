@@ -21,7 +21,6 @@ manager: "ghogen"
 # &lt;signature&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Groups a set of related elements for a function or method to provide documentation for overloaded functions.  
   
 ## Syntax  

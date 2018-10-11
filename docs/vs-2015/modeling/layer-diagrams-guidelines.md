@@ -21,7 +21,6 @@ manager: "douge"
 # Layer Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Describe your app's architecture at a high level by creating *layer diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a layer diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  

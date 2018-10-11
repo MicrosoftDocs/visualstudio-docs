@@ -21,7 +21,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] includes built-in accessibility features so you can easily work from the keyboard and use screen readers or other assistive technology devices. The topic includes some suggestions for optimizing [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] for accessibility as well as some useful shortcut key combinations.  
   
 > [!NOTE]

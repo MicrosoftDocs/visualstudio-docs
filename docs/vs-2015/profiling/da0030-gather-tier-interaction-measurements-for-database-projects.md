@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0030: Gather Tier Interaction measurements for database projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Rule Id|DA0030|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Sampling|  

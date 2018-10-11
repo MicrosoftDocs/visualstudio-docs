@@ -22,7 +22,6 @@ manager: "ghogen"
 # Cores View Zoom Tool
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Zoom control is a slider that lets you zoom in and out on the timeline so that you can focus on areas of particular interest. This control zooms on the center of the current view, so adjust the view before you zoom in.  
   
 ## Other Ways to Zoom  

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_lowerBoundId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the symbol identifier of the lower bound of a FORTRAN array dimension.  
   
 ## Syntax  

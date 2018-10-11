@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves the number of source files.  
   
 ## Syntax  

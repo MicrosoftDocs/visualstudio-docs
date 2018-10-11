@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This interface represents a breakpoint that is bound to a code location.  
   
 ## Syntax  

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Loads debug symbols using the specified callback method.  
   
 ## Syntax  

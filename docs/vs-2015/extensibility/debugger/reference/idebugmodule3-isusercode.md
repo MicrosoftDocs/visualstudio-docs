@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugModule3::IsUserCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves information on whether the module represents user code or not.  
   
 ## Syntax  

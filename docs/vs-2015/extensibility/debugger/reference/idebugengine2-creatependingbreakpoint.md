@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::CreatePendingBreakpoint
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Creates a pending breakpoint in the debug engine (DE).  
   
 ## Syntax  

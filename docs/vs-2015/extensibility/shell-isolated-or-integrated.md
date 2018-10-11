@@ -23,7 +23,6 @@ manager: "ghogen"
 # Shell (Isolated or Integrated)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can create your own Visual Studio-based application in either integrated or isolated mode. In integrated mode, many Visual Studio features are available in addition to your application. In the isolated mode, you choose a subset of Visual Studio features that you wish to distribute along with your own extension.  
   
 ## Integrated Mode  

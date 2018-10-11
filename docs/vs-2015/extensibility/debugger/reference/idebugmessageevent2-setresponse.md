@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMessageEvent2::SetResponse
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Sets the response, if any, from the message box.  
   
 ## Syntax  

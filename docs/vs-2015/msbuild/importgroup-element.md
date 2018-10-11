@@ -27,7 +27,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import Element (MSBuild)](../msbuild/import-element-msbuild.md).  
   
  \<Project>  

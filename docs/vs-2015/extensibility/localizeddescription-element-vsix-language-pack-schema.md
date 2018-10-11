@@ -17,7 +17,6 @@ manager: "ghogen"
 # LocalizedDescription Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Required. Provides a localized description of the extension.  
   
 ## Syntax  

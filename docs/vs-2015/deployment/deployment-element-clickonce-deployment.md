@@ -31,7 +31,6 @@ manager: "wpickett"
 # &lt;deployment&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Identifies the attributes used for the deployment of updates and exposure to the system.  
   
 ## Syntax  

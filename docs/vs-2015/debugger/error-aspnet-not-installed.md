@@ -30,7 +30,6 @@ manager: "ghogen"
 # Error: ASP.NET Not Installed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This error occurs when [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] is not installed correctly on the computer that you are trying to debug. This might mean that [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] was never installed or that [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] was installed first and IIS was installed later.  
   
 ### To reinstall ASP.NET  

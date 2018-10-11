@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1305: Specify IFormatProvider
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|SpecifyIFormatProvider|

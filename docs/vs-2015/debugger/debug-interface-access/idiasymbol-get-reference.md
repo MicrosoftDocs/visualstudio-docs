@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_reference
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves a flag that specifies whether a pointer type is a reference.  
   
 ## Syntax  

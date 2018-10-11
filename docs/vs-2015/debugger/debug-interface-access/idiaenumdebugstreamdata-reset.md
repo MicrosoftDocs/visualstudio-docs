@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData::Reset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Resets to the beginning of an enumerated sequence.  
   
 ## Syntax  

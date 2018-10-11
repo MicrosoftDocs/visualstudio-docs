@@ -19,7 +19,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 These terms are used to describe the Microsoft Build Engine (MSBuild) and its components.  
   
 ## Glossary  

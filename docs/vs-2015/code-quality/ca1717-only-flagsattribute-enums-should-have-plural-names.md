@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1717: Only FlagsAttribute enums should have plural names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-
 |||
 |-|-|
 |TypeName|OnlyFlagsEnumsShouldHavePluralNames|

@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEEMetricDword
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Retrieves a value that corresponds to the specified metric of the expression evaluator.  
   
 ## Syntax  

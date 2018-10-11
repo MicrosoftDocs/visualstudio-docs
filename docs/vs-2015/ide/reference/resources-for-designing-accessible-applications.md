@@ -24,7 +24,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
   
-  
 Use the following links to find information about technologies that support accessible design as well as tips and examples for developing accessible Windows applications and Web sites. General information on accessibility can be found online at [http://www.microsoft.com/enable/](http://www.microsoft.com/enable/).  
   
 ## Technologies  

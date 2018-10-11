@@ -22,7 +22,6 @@ manager: "ghogen"
 # CustomType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Vendor-defined types (compiler-specific types) are identified by a `SymTagCustomType` symbol.  
   
 ## Properties  

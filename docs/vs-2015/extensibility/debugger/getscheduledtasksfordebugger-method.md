@@ -19,7 +19,6 @@ manager: "ghogen"
 # GetScheduledTasksForDebugger Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Retrieves an array of all scheduled tasks.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

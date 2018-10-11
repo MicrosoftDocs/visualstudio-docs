@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccBeginBatch Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This function starts a batch sequence of source control operations. The [SccEndBatch](../extensibility/sccendbatch-function.md) will be called to end the batch. These batches may not be nested.  
   
 ## Syntax  

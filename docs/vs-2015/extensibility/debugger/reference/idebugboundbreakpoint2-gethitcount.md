@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::GetHitCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 Gets the current hit count for this bound breakpoint.  
   
 ## Syntax  

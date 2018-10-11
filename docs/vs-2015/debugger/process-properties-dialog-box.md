@@ -21,7 +21,6 @@ manager: "ghogen"
 # Process Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Use this dialog box to find out more about a specific process. To display this dialog box, move the focus to a [Processes View](../debugger/processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.  
   
  On Windows 98 and Windows 95 operating systems, only a modified version of the **General** tab is displayed.  

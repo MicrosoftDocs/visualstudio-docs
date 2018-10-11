@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method gets the debug address of a field.  
   
 ## Syntax  

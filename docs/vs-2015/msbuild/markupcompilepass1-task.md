@@ -29,7 +29,6 @@ manager: "ghogen"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
   
-  
 The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> task converts non-localizable [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] project files to compiled binary format.  
   
 ## Task Parameters  

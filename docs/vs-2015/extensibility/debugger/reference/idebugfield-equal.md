@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::Equal
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method compares this field with the specified field for equality.  
   
 ## Syntax  

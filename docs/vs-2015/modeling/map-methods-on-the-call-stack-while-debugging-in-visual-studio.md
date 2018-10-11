@@ -39,7 +39,6 @@ manager: "douge"
 # Map methods on the call stack while debugging in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Create a code map to visually trace the call stack while you’re debugging. You can make notes on the map to track what the code is doing so you can focus on finding bugs.  
   
  ![Debugging with call stacks on code maps](../debugger/media/debuggermap-overview.png "DebuggerMap_Overview")  

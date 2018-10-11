@@ -20,7 +20,6 @@ manager: "ghogen"
 # Xml (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Gets the unformatted XML content of the element.  
   
 ## Syntax  

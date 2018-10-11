@@ -42,7 +42,6 @@ manager: "ghogen"
 # Annotating Locking Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To avoid concurrency bugs in your multithreaded program, always follow an appropriate locking discipline and use SAL annotations.  
   
  Concurrency bugs are notoriously hard to reproduce, diagnose, and debug because they are non-deterministic. Reasoning about thread interleaving is difficult at best, and becomes impractical when you are designing a body of code that has more than a few threads. Therefore, it's good practice to follow a locking discipline in your multithreaded programs. For example, obeying a lock order while acquiring multiple locks helps avoid deadlocks, and acquiring the proper guarding lock before accessing a shared resource helps prevent race conditions.  

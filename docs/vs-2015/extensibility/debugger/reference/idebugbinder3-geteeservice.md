@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder3::GetEEService
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-  
 This method returns a requested service.  
   
 ## Syntax  

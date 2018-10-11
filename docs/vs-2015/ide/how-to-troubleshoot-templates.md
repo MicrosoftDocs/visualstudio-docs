@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Troubleshoot Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 If a template fails to load in the development environment, there are several ways to locate the problem.  
   
 ## Validating the .vstemplate File  

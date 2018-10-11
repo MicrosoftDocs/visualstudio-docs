@@ -18,7 +18,6 @@ manager: "douge"
 # Navigate the UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic introduces the main types of the UML model.  
   
 ## The Model Elements, Model, and Model Store  
