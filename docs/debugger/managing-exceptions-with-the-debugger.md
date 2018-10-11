@@ -41,7 +41,7 @@ An exception is an indication of an error state that occurs while a program is b
 
 Provide handlers that respond to the most important exceptions. Also learn how to configure the debugger to always break execution for some exceptions.
 
-When an exception occurs, the debugger writes an exception message to the Output window. It may break execution in the following cases when:
+When an exception occurs, the debugger writes an exception message to the **Output** window. It may break execution in the following cases when:
 
 - An exception is thrown that isn't handled.
 - The debugger is configured to break execution before any handler is invoked.
