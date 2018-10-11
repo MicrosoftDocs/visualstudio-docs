@@ -207,11 +207,11 @@ To add conditional exceptions:
 
    ![Conditions for an exception](../debugger/media/dbg-conditional-exception.png "DbgConditionalException")
 
-2. To add extra required conditions to the exception, select **Add Condition** for each desired condition. Additional condition lines appear.
+2. To add extra required conditions to the exception, select **Add Condition** for each new condition. Additional condition lines appear.
 
    ![Extra conditions for an exception](../debugger/media/extraconditionsforanexception.png "ExtraConditionsForAnException")
 
-3. For each condition line, type the name or specifier (wildcards are accepted) of the module(s), and change the comparison operator list to **Equals** or **Not Equals**.
+3. For each condition line, type the name of the module, and change the comparison operator list to **Equals** or **Not Equals**. You may specify wildcards (**\***) in the name to specify more than one module.
 
 4. If you need to delete a condition, choose the **X** at the end of the condition line.
 
