@@ -26,7 +26,6 @@ manager: "wpickett"
 # How to: Debug a ClickOnce Application with Restricted Permissions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug a ClickOnce Application with Restricted Permissions](https://docs.microsoft.com/visualstudio/deployment/how-to-debug-a-clickonce-application-with-restricted-permissions).  
   
 As a developer, you most likely are running your development computer with Full Trust permissions, so you will not see the same security exceptions when debugging a ClickOnce application that the end user may see when running it with restricted permissions.  
   

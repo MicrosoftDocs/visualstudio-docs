@@ -20,7 +20,6 @@ manager: "ghogen"
 # Notifications, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Notifications, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/notifications-environment-options-dialog-box).  
   
   
 Use this option to stop ignoring any notifications that you previously chose to ignore through the Notifications dialog. For more information, see [Notifications](../../ide/visual-studio-notifications.md).  

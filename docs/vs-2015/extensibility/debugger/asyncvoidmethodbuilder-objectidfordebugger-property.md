@@ -19,7 +19,6 @@ manager: "ghogen"
 # AsyncVoidMethodBuilder.ObjectIdForDebugger Property
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AsyncVoidMethodBuilder.ObjectIdForDebugger Property](https://docs.microsoft.com/visualstudio/extensibility/debugger/asyncvoidmethodbuilder-objectidfordebugger-property).  
   
 Gets an object that may be used to uniquely identify this builder to the debugger.  
   

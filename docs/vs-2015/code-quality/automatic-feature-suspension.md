@@ -20,7 +20,6 @@ manager: "wpickett"
 # Automatic feature suspension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Automatic feature suspension](https://docs.microsoft.com/visualstudio/code-quality/automatic-feature-suspension).
 
 If your available system memory falls to 200MB or less, Visual Studio displays the following message in the code editor.
 

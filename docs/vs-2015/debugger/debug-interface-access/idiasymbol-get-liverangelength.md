@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_liveRangeLength
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_liveRangeLength](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-liverangelength).  
   
 Returns the length of the address range in which the local symbol is valid.  
   

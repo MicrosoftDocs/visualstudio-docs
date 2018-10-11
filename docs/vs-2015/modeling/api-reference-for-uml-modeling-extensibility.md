@@ -20,7 +20,6 @@ manager: "douge"
 # API Reference for UML Modeling Extensibility
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [API Reference for UML Modeling Extensibility](https://docs.microsoft.com/visualstudio/modeling/api-reference-for-uml-modeling-extensibility).  
   
 You can write program code to read and modify the models that you create with Visual Studio. The API reference provides information about the specific classes to help you with this. For more task-oriented information, see the topics under [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md). To see which versions of Visual Studio support UML models, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   

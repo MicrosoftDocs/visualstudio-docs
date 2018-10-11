@@ -18,7 +18,6 @@ manager: "ghogen"
 # Value (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Value (XElement Dynamic Property)](https://docs.microsoft.com/visualstudio/designers/value-xelement-dynamic-property).  
   
 Gets or sets the content of the element.  
   

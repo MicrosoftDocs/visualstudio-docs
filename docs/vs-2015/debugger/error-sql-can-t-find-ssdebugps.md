@@ -26,7 +26,6 @@ manager: "ghogen"
 # Error: SQL Can&#39;t Find SSDEBUGPS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: SQL Can&#39;t Find SSDEBUGPS](https://docs.microsoft.com/visualstudio/debugger/error-sql-can-t-find-ssdebugps).  
   
 SSDEBUGPS.dll is the SQL Server Debugging Host component.  
   

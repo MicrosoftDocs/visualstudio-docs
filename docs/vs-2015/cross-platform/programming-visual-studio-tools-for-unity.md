@@ -18,7 +18,6 @@ manager: "ghogen"
 # Programming Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Programming Visual Studio Tools for Unity](https://docs.microsoft.com/visualstudio/cross-platform/programming-visual-studio-tools-for-unity).  
   
   
 In this section, you'll find examples for using the Visual Studio Tools for Unity API.  

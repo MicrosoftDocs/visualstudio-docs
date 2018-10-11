@@ -18,7 +18,6 @@ manager: "wpickett"
 # Basic Design Guideline Rules rule set for managed code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Basic Design Guideline Rules rule set for managed code](https://docs.microsoft.com/visualstudio/code-quality/basic-design-guideline-rules-rule-set-for-managed-code).  
   
 You can use the Microsoft Basic Design Guideline Rules rule set to focus on making your code easier to understand and use. You should include this rule set if your project includes library code or if you want to enforce best practices for code that is easy to maintain.  
   

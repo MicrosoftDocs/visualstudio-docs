@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugObjects::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugObjects::Skip](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugobjects-skip).  
   
 This method skips over the specified number of elements.  
   

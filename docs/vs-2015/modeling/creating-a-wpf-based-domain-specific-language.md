@@ -16,7 +16,6 @@ manager: "douge"
 # Creating a WPF-Based Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a WPF-Based Domain-Specific Language](https://docs.microsoft.com/visualstudio/modeling/creating-a-wpf-based-domain-specific-language).  
   
 You can create a domain-specific language that has a WPF designer instead of a graphical designer.  
   

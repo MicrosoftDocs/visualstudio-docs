@@ -23,7 +23,6 @@ manager: "ghogen"
 # Debug HTML, CSS, and JavaScript sample code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug HTML, CSS, and JavaScript sample code](https://docs.microsoft.com/visualstudio/debugger/debug-html-css-and-javascript-sample-code).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

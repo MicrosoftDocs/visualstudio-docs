@@ -21,7 +21,6 @@ manager: "ghogen"
 # DEBUG_CUSTOM_VIEWER
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DEBUG_CUSTOM_VIEWER](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/debug-custom-viewer).  
   
 A structure that identifies a custom viewer or type visualizer.  
   

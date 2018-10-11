@@ -16,7 +16,6 @@ manager: "douge"
 # Writing User Commands and Actions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Writing User Commands and Actions](https://docs.microsoft.com/visualstudio/modeling/writing-user-commands-and-actions).  
   
 You can customize a domain-specific language by adding commands to the diagram, and by responding to gestures such as drag-and-drop, click, and double-click events.  
   

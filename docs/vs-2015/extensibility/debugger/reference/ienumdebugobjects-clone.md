@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugObjects::Clone
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugObjects::Clone](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugobjects-clone).  
   
 This method returns a copy of the current enumeration as a separate object.  
   

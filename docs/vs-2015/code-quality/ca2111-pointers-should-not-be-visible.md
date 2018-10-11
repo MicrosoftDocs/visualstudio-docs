@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2111: Pointers should not be visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2111: Pointers should not be visible](https://docs.microsoft.com/visualstudio/code-quality/ca2111-pointers-should-not-be-visible).
 
 |||
 |-|-|

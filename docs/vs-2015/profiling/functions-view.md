@@ -25,7 +25,6 @@ manager: "ghogen"
 # Functions View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Functions View](https://docs.microsoft.com/visualstudio/profiling/functions-view).  
   
 The Functions view lists the functions that are called during profiling.  
   

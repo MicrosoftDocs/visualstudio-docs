@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating a Basic Project System, Part 2
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Basic Project System, Part 2](https://docs.microsoft.com/visualstudio/extensibility/creating-a-basic-project-system-part-2).  
   
 The first walkthrough in this series, [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md), shows how to create a basic project system. This walkthrough builds on the basic project system by adding a Visual Studio template, a property page, and other features. You must complete the first walkthrough before you start this one.  
   

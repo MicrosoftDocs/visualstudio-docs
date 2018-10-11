@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 5: Add Controls to Your Form
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 5: Add Controls to Your Form](https://docs.microsoft.com/visualstudio/ide/step-5-add-controls-to-your-form).  
   
 In this step, you add controls, such as a `PictureBox` control and a `CheckBox` control, to your form. You then add buttons to your form.  
   

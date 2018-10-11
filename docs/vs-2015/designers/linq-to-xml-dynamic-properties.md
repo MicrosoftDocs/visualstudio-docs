@@ -18,7 +18,6 @@ manager: "ghogen"
 # LINQ to XML Dynamic Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LINQ to XML Dynamic Properties](https://docs.microsoft.com/visualstudio/designers/linq-to-xml-dynamic-properties).  
   
 This section provides reference information about the dynamic properties in LINQ to XML. Specifically, these properties are exposed by the <xref:System.Xml.Linq.XAttribute> and <xref:System.Xml.Linq.XElement> classes, which are in the <xref:System.Xml.Linq> namespace.  
   

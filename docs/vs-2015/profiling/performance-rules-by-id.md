@@ -18,7 +18,6 @@ manager: "ghogen"
 # Performance Rules by ID
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Rules by ID](https://docs.microsoft.com/visualstudio/profiling/performance-rules-by-id).  
   
 Warning|Description|  
 |-------------|-----------------|  

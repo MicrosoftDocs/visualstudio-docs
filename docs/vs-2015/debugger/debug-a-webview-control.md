@@ -23,7 +23,6 @@ manager: "ghogen"
 # Debug a WebView control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug a WebView control](https://docs.microsoft.com/visualstudio/debugger/debug-a-webview-control).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

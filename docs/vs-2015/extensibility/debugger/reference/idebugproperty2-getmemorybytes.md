@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetMemoryBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::GetMemoryBytes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-getmemorybytes).  
   
 Gets the memory bytes that compose the value of a property.  
   

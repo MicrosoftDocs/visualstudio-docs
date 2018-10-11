@@ -34,7 +34,6 @@ manager: "ghogen"
 # Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging, Options Dialog Box](https://docs.microsoft.com/visualstudio/debugger/debugging-options-dialog-box).  
   
 The **Debugging** folder, in the **Options** dialog box on the **Tools** menu, provides the following pages, which enable you to specify debugger tool options.  
   

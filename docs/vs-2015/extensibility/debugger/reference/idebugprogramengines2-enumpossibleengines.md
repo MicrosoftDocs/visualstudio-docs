@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramEngines2::EnumPossibleEngines
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramEngines2::EnumPossibleEngines](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramengines2-enumpossibleengines).  
   
 Returns the GUIDs for all the possible debug engines (DE) that can debug this program.  
   

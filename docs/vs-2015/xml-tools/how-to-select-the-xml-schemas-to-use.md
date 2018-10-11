@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Select the XML Schemas to Use
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Select the XML Schemas to Use](https://docs.microsoft.com/visualstudio/xml-tools/how-to-select-the-xml-schemas-to-use).  
   
   
 The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas directory. The schema cache includes well-known XML schemas that are used for IntelliSense and XML document validation.  

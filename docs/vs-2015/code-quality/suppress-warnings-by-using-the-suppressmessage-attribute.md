@@ -28,7 +28,6 @@ manager: "wpickett"
 # Suppress Warnings By Using the SuppressMessage Attribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Suppress Warnings By Using the SuppressMessage Attribute](https://docs.microsoft.com/visualstudio/code-quality/suppress-warnings-by-using-the-suppressmessage-attribute).  
   
 It is often useful to indicate that the warning is nonapplicable to let team members know that the code was reviewed and it was determined that the warning should be suppressed. In Source Suppression (ISS) lets a developer to put the attribute that suppresses a warning close to the location that generated the warning. You can add the ISS attribute directly to the source file or you can use the shortcut menu in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE.  
   

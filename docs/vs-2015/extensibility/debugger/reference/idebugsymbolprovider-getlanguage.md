@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetLanguage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetLanguage](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getlanguage).  
   
 This method gets the language that was used to compile the code at the debug address.  
   

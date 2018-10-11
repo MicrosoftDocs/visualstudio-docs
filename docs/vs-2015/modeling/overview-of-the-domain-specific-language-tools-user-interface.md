@@ -20,7 +20,6 @@ manager: "douge"
 # Overview of the Domain-Specific Language Tools User Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overview of the Domain-Specific Language Tools User Interface](https://docs.microsoft.com/visualstudio/modeling/overview-of-the-domain-specific-language-tools-user-interface).  
   
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the user interface will resemble the following picture.  
   

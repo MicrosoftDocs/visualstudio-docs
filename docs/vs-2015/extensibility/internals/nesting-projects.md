@@ -22,7 +22,6 @@ manager: "ghogen"
 # Nesting Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Nesting Projects](https://docs.microsoft.com/visualstudio/extensibility/internals/nesting-projects).  
   
 Enterprise application developers who use your VS Package can conveniently group similar types of projects together in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by using *project nesting*. For example, the Enterprise Template project uses nested projects to group projects into categories. Business facade projects, Web UI projects, and so on are grouped together in one category.  
   

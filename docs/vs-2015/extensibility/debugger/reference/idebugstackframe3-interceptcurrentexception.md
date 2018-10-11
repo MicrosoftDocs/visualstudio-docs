@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame3::InterceptCurrentException
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame3::InterceptCurrentException](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception).  
   
 Called by the debugger on the current stack frame when it wants to intercept the current exception.  
   

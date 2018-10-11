@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::get_lastError
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaDataSource::get_lastError](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiadatasource-get-lasterror).  
   
 Retrieves the file name for the last load error.  
   

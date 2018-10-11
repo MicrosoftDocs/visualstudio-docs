@@ -30,7 +30,6 @@ manager: "ghogen"
 # Find in Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Find in Files](https://docs.microsoft.com/visualstudio/ide/find-in-files).  
   
 Find in Files** allows you to search a specified set of files. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.  
   

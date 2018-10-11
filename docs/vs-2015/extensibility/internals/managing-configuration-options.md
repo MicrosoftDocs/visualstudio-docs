@@ -19,7 +19,6 @@ manager: "ghogen"
 # Managing Configuration Options
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing Configuration Options](https://docs.microsoft.com/visualstudio/extensibility/internals/managing-configuration-options).  
   
 When you create a new project type, you must manage project and solution configuration settings that determine how your project will be built, packaged, deployed, and run. The following topics discuss project and solution configuration.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSourceFiles::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsourcefiles-item).  
   
 Retrieves a source file by means of an index.  
   

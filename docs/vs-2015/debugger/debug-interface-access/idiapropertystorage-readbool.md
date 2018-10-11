@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage::ReadBOOL
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaPropertyStorage::ReadBOOL](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiapropertystorage-readbool).  
   
 Reads `BOOL` values in a property set.  
   

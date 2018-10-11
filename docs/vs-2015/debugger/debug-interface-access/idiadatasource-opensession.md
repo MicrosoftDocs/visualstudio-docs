@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::openSession
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaDataSource::openSession](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiadatasource-opensession).  
   
 Opens a session for querying symbols.  
   

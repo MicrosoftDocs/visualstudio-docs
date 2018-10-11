@@ -20,7 +20,6 @@ manager: "ghogen"
 # Terminating a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Terminating a Program](https://docs.microsoft.com/visualstudio/extensibility/debugger/terminating-a-program).  
   
 The following is a description of the termination of a single program with one thread.  
   

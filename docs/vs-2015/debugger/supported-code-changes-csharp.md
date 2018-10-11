@@ -25,7 +25,6 @@ manager: "ghogen"
 # Supported Code Changes (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Supported Code Changes (C#)](https://docs.microsoft.com/visualstudio/debugger/supported-code-changes-csharp).  
   
 Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.  
   

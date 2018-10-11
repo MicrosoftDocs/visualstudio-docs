@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaImageData::get_relativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaImageData::get_relativeVirtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaimagedata-get-relativevirtualaddress).  
   
 Retrieves the location in virtual memory of the module relative to the application.  
   

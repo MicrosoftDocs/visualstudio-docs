@@ -28,7 +28,6 @@ manager: "ghogen"
 # Visual Studio Integration (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Integration (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/visual-studio-integration-msbuild).  
   
   
 Visual Studio hosts [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to load and build managed projects. Because [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] is responsible for the project, almost any project in the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] format can be successfully used in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], even if the project was authored by a different tool and has a customized build process.  

@@ -34,7 +34,6 @@ manager: "ghogen"
 # Debugging Mixed-Mode Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Mixed-Mode Applications](https://docs.microsoft.com/visualstudio/debugger/debugging-mixed-mode-applications).  
   
 A mixed-mode application is any application that combines native code (C++) with managed code (such as Visual Basic, Visual C#, or C++ that runs on the common language runtime). Debugging mixed-mode applications is largely transparent in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]; it is not too different from debugging a single-mode application. There are a few special considerations, however.  
   

@@ -25,7 +25,6 @@ manager: "ghogen"
 # Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor](https://docs.microsoft.com/visualstudio/debugger/unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor).  
   
 This error message appears when you enter an invalid Visual Studio Remote Debugging Monitor name in the **Attach to Process** dialog box. The Remote Debugging Monitor name is usually the same as the machine you are attempting to connect to for remote debugging. This message may occur because the remote machine does not exist on the network, the remote debugging monitor is not properly set up on the remote machine, or the remote machine is inaccessible due to network problems or the presence of a firewall.  
   

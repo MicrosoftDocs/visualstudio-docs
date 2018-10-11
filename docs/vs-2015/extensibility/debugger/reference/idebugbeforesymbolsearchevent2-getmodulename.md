@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugBeforeSymbolSearchEvent2::GetModuleName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBeforeSymbolSearchEvent2::GetModuleName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbeforesymbolsearchevent2-getmodulename).  
   
 Retrieves the name of the module currently being debugged.  
   

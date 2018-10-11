@@ -21,7 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_FIELD
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [METADATA_ADDRESS_FIELD](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/metadata-address-field).  
   
 This structure represents the address of a field of a class or structure.  
   

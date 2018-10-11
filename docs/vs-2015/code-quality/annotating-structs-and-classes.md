@@ -33,7 +33,6 @@ manager: "ghogen"
 # Annotating Structs and Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Annotating Structs and Classes](https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes).  
   
 You can annotate struct and class members by using annotations that act like invariants—they are presumed to be true at any function call or function entry/exit that involves the enclosing structure as a parameter or a result value.  
   

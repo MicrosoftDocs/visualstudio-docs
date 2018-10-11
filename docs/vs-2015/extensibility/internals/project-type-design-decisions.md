@@ -22,7 +22,6 @@ manager: "ghogen"
 # Project Type Design Decisions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Type Design Decisions](https://docs.microsoft.com/visualstudio/extensibility/internals/project-type-design-decisions).  
   
 Before you create a new project type, you must make several design decisions regarding your project type. You must decide what types of items your projects will contain, how project files will be persisted, and what commitment model you will use.  
   

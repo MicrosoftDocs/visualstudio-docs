@@ -22,7 +22,6 @@ manager: "douge"
 # UML Component Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Component Diagrams: Guidelines](https://docs.microsoft.com/visualstudio/modeling/uml-component-diagrams-guidelines).  
   
 In Visual Studio, you can draw a *component diagram* to show the structure a software system. For a video demonstration, see [Designing the Physical Structure by using Component Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-6-Designing-a-Projects-Physical-Structure/).  
   

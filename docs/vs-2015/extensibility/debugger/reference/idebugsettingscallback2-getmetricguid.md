@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetMetricGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2::GetMetricGuid](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2-getmetricguid).  
   
 Retrieves the unique identifier of a metric given its name.  
   

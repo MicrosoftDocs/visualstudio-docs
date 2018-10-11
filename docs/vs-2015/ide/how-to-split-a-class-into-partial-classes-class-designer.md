@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Split a Class into Partial Classes (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Split a Class into Partial Classes (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-split-a-class-into-partial-classes-class-designer).  
   
 You can divide the declaration of a class or structure among several declarations by using the `Partial` keyword in Visual Basic or the `partial` keyword in Visual C#. You can use as many partial declarations as you want, in as many different source files as you want, or in one source file. However, all the declarations must be in the same assembly and the same namespace.  
   

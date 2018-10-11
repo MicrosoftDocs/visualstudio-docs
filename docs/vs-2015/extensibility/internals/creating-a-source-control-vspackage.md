@@ -20,7 +20,6 @@ manager: "ghogen"
 # Creating a Source Control VSPackage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Source Control VSPackage](https://docs.microsoft.com/visualstudio/extensibility/internals/creating-a-source-control-vspackage).  
   
 This documentation includes links to the architecture overview of a source-control package integrated with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], the API that is defined by the interfaces to be implemented and the services to be consumed, and a sample that illustrates a simple source control package implementation.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # VSCT XML Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSCT XML Schema Reference](https://docs.microsoft.com/visualstudio/extensibility/vsct-xml-schema-reference).  
   
 Provides a table of Command Table Compiler schema elements, with allowed child elements and attributes for each.  
   

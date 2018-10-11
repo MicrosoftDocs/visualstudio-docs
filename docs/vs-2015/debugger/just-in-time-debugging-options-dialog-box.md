@@ -33,7 +33,6 @@ manager: "ghogen"
 # Just-In-Time, Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Just-In-Time, Debugging, Options Dialog Box](https://docs.microsoft.com/visualstudio/debugger/just-in-time-debugging-options-dialog-box).  
   
 To access the **Just-In-Time** page, go to the **Tools** menu and click **Options**. In the **Options** dialog box, expand the **Debugging** node and select **Just-In-Time**. This page allows you to enable Just-In-Time debugging for managed code, native code, and script. For more information, see [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md).  
   

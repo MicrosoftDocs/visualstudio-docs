@@ -19,7 +19,6 @@ manager: "ghogen"
 # Debug Package
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Package](https://docs.microsoft.com/visualstudio/extensibility/debugger/debug-package).  
   
 The debug package runs in the Visual Studio shell and handles all of the UI. It consumes the Visual Studio debugging interfaces and communicates with the session debug manager (SDM).  
   

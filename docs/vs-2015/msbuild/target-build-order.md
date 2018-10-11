@@ -20,7 +20,6 @@ manager: "ghogen"
 # Target Build Order
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Target Build Order](https://docs.microsoft.com/visualstudio/msbuild/target-build-order).  
   
   
 Targets must be ordered if the input to one target depends on the output of another target. You can use these attributes to specify the order in which targets are run:  

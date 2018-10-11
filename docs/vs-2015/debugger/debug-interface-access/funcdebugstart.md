@@ -23,7 +23,6 @@ manager: "ghogen"
 # FuncDebugStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FuncDebugStart](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/funcdebugstart).  
   
 If a function has a defined point at which debugging is to begin, that point is identified by a symbol with a `SymTagFuncDebugStart` tag.  
   

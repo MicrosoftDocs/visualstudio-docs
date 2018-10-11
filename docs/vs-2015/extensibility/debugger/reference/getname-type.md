@@ -21,7 +21,6 @@ manager: "ghogen"
 # GETNAME_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GETNAME_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/getname-type).  
   
 Specifies the name type of files to retrieve.  
   

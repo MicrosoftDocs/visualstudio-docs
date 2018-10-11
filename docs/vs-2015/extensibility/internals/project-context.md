@@ -19,7 +19,6 @@ manager: "ghogen"
 # Project Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Context](https://docs.microsoft.com/visualstudio/extensibility/internals/project-context).  
   
 When the user adds or works with projects and project items, the IDE uses the notion of project context to determine how various operations should be performed.  
   

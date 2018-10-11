@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumInjectedSources
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumInjectedSources](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenuminjectedsources).  
   
 Enumerate the various injected sources contained in the data source.  
   

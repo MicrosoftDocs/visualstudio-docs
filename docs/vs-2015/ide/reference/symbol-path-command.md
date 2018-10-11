@@ -24,7 +24,6 @@ manager: "ghogen"
 # Symbol Path Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Symbol Path Command](https://docs.microsoft.com/visualstudio/ide/reference/symbol-path-command).  
   
   
 Sets the list of directories for the debugger to search for symbols.  

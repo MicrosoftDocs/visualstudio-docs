@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyEESide](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyeeside).  
   
 This interface provides methods to view data on the associated object. This interface is part of the support for type visualizers.  
   

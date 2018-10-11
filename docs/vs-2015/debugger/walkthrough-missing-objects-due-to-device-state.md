@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: Missing Objects Due to Device State
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Missing Objects Due to Device State](https://docs.microsoft.com/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-device-state).  
   
 This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to investigate an object that is missing due to misconfigured device state.  
   

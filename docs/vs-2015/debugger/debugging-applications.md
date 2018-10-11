@@ -23,7 +23,6 @@ manager: "ghogen"
 # Debugging Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Applications](https://docs.microsoft.com/visualstudio/debugger/debugging-applications).  
   
 The following sections deal with debugging for specific types of applications. Different application types and different languages require different settings and techniques, and present different issues that need to be debugged.  
   

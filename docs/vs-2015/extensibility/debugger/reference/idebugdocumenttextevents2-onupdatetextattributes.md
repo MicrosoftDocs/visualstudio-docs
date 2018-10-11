@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentTextEvents2::onUpdateTextAttributes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttextevents2-onupdatetextattributes).  
   
 Notifies the debug package that text attributes have been updated in the document.  
   

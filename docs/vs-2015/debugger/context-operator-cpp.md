@@ -32,7 +32,6 @@ manager: "ghogen"
 # Context Operator (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Context Operator (C++)](https://docs.microsoft.com/visualstudio/debugger/context-operator-cpp).  
   
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.  
   

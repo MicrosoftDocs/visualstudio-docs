@@ -23,7 +23,6 @@ manager: "ghogen"
 # VSIX Manifest Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSIX Manifest Designer](https://docs.microsoft.com/visualstudio/extensibility/vsix-manifest-designer).  
   
 Modifies a VSIX package manifest file, which sets the installation behavior for a Visual Studio extension.  
   

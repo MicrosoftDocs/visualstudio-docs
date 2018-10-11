@@ -17,7 +17,6 @@ manager: "douge"
 # Sample Excel Extension: ExtensionPackage Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Excel Extension: ExtensionPackage Class](https://docs.microsoft.com/visualstudio/test/sample-excel-extension-extensionpackage-class).  
   
 This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage> class and provides the entry point for a coded UI test that is testing an [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] Worksheet.  
   

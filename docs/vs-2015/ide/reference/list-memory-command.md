@@ -24,7 +24,6 @@ manager: "ghogen"
 # List Memory Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List Memory Command](https://docs.microsoft.com/visualstudio/ide/reference/list-memory-command).  
   
   
 Displays the contents of the specified range of memory.  

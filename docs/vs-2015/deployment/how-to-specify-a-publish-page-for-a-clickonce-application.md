@@ -27,7 +27,6 @@ manager: "wpickett"
 # How to: Specify a Publish Page for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify a Publish Page for a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-specify-a-publish-page-for-a-clickonce-application).  
   
 When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, a default Web page (publish.htm) is generated and published along with the application. This page contains the name of the application, a link to install the application and/or any prerequisites, and a link to a Help topic describing [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]. The **Publish Page** property for your project allows you to specify a name for the Web page for your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
   

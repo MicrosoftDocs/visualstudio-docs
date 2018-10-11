@@ -21,7 +21,6 @@ manager: "ghogen"
 # Shader Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Shader Designer](https://docs.microsoft.com/visualstudio/designers/shader-designer).  
   
 This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  
   

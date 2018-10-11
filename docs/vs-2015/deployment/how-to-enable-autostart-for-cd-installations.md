@@ -26,7 +26,6 @@ manager: "wpickett"
 # How to: Enable AutoStart for CD Installations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Enable AutoStart for CD Installations](https://docs.microsoft.com/visualstudio/deployment/how-to-enable-autostart-for-cd-installations).  
   
 When deploying a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application by means of removable media such as CD-ROM or DVD-ROM, you can enable `AutoStart` so that the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is automatically launched when the media is inserted.  
   

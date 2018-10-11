@@ -18,7 +18,6 @@ manager: "douge"
 # How to: Intercept a Click on a Shape or Decorator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Intercept a Click on a Shape or Decorator](https://docs.microsoft.com/visualstudio/modeling/how-to-intercept-a-click-on-a-shape-or-decorator).  
   
 The following procedures demonstrate how to intercept a click on a shape or an icon decorator. You can intercept clicks, double-clicks, drags, and other gestures, and make the element respond.  
   

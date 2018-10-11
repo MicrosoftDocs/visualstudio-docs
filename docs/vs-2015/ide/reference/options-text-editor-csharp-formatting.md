@@ -35,7 +35,6 @@ manager: "ghogen"
 # Options, Text Editor, C#, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, C#, Formatting](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-csharp-formatting).  
   
   
 Use the **Formatting** property page dialog box to set options for formatting code in the Code Editor. To access this dialog box, click **Options** on the **Tools** menu, expand **Text Editor**, expand **C#**, and then click **Formatting**.  

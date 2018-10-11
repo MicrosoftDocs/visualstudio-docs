@@ -23,7 +23,6 @@ manager: "wpickett"
 # CA2242: Test for NaN correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2242: Test for NaN correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2242-test-for-nan-correctly).
 
 |||
 |-|-|

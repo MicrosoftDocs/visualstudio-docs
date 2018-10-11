@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1049: Types that own native resources should be disposable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1049: Types that own native resources should be disposable](https://docs.microsoft.com/visualstudio/code-quality/ca1049-types-that-own-native-resources-should-be-disposable).
 
 |||
 |-|-|

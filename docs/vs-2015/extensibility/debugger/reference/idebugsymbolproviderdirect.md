@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProviderDirect](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolproviderdirect).  
   
 Represents a symbol provider that has direct access to metadata and core symbol interfaces.  
   

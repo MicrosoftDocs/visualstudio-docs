@@ -18,7 +18,6 @@ manager: "douge"
 # Attach reference strings to UML model elements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Attach reference strings to UML model elements](https://docs.microsoft.com/visualstudio/modeling/attach-reference-strings-to-uml-model-elements).  
   
 You can write code to attach arbitrary strings to model elements. A string could be, for example, a URI, the cached result of a computation, or a ModelBus reference to an element in another model. Each string is contained in an IReference object. Any number of IReference objects can be attached to each model element.  
   

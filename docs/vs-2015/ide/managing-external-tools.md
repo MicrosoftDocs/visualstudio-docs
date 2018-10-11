@@ -66,7 +66,6 @@ manager: "ghogen"
 # Managing External Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Manage external tools](https://docs.microsoft.com/visualstudio/ide/managing-external-tools).  
   
 You can call external tools from inside Visual Studio. A few default tools are available from the **Tools** menu, but you can add other executables of your own.  
   

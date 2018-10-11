@@ -29,7 +29,6 @@ manager: "ghogen"
 # Debug Threads and Processes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Threads and Processes](https://docs.microsoft.com/visualstudio/debugger/debug-threads-and-processes).  
   
 Threads* and *processes* are related concepts in computer science. Both represent sequences of instructions that must execute in a specific order. Instructions in separate threads or processes, however, can execute in parallel.  
   

@@ -29,7 +29,6 @@ manager: "ghogen"
 # How to: Debug from a DLL Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug from a DLL Project](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-from-a-dll-project).  
   
 To start debugging a DLL project, you must specify the calling application in the project properties. The C++ property pages differ in layout and content from the C# and Visual Basic property pages.  
   

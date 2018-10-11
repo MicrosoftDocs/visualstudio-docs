@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0008: Few samples collected
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0008: Few samples collected](https://docs.microsoft.com/visualstudio/profiling/da0008-few-samples-collected).  
   
 Rule Id|DA0008|  
 |Category|Profiling Tools Usage|  

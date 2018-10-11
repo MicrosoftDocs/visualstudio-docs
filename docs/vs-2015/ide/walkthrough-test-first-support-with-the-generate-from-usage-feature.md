@@ -21,7 +21,6 @@ manager: "ghogen"
 # Walkthrough: Test-First Support with the Generate From Usage Feature
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Test-First Support with the Generate From Usage Feature](https://docs.microsoft.com/visualstudio/ide/walkthrough-test-first-support-with-the-generate-from-usage-feature).  
   
 This topic demonstrates how to use the [Generate From Usage](../misc/generate-from-usage.md) feature, which supports test-first development.  
   

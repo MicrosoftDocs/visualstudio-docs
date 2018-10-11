@@ -20,7 +20,6 @@ manager: "ghogen"
 # Required Port Supplier Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Required Port Supplier Interfaces](https://docs.microsoft.com/visualstudio/extensibility/debugger/required-port-supplier-interfaces).  
   
 A port supplier must implement the [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md) interface.[IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)  
   

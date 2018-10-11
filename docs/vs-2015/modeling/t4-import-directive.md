@@ -16,7 +16,6 @@ manager: "douge"
 # T4 Import Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Import Directive](https://docs.microsoft.com/visualstudio/modeling/t4-import-directive).  
   
 In the code blocks of a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully-qualified name. It is the equivalent of `using` in C# or `imports` in [!INCLUDE[vb_current_short](../includes/vb-current-short-md.md)].  
   

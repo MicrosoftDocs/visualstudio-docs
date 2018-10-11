@@ -18,7 +18,6 @@ manager: "ghogen"
 # General User Interface Elements (Visual Studio)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [General User Interface Elements (Visual Studio)](https://docs.microsoft.com/visualstudio/ide/reference/general-user-interface-elements-visual-studio).
 
 This section describes some user interface elements of the integrated development environment (IDE).
 

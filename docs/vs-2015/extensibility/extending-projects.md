@@ -20,7 +20,6 @@ manager: "ghogen"
 # Extending Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending Projects](https://docs.microsoft.com/visualstudio/extensibility/extending-projects).  
   
 Projects and solutions are the ways Visual Studio organizes code and resource files into compilation and deployment units. You can find more information about projects in [Projects (Visual Studio SDK)](../extensibility/extending-projects.md).  
   

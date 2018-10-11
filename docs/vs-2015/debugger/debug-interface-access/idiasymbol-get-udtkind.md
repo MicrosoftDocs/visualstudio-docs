@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_udtKind
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_udtKind](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-udtkind).  
   
 Retrieves the variety of a user-defined type (UDT).  
   

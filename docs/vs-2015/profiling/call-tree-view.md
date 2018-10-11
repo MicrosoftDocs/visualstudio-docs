@@ -25,7 +25,6 @@ manager: "ghogen"
 # Call Tree View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Call Tree View](https://docs.microsoft.com/visualstudio/profiling/call-tree-view).  
   
 The Call Tree view displays the function execution paths that were traversed in the profiled application. The root of the tree is the entry point into the application or the component. Each function node lists all the functions it called and performance data about those function calls.  
   

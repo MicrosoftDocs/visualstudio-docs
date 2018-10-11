@@ -23,7 +23,6 @@ manager: "ghogen"
 # How to: Serialize Symbol Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Serialize Symbol Information](https://docs.microsoft.com/visualstudio/profiling/how-to-serialize-symbol-information).  
   
 You can serialize symbols that you must have to analyze your application. Symbol serialization adds symbols to the .vsp file. By adding symbol information to the .vsp file, others can analyze a performance report without having access to the original symbols. If symbols are not serialized, you must have original instrumented .exe and .pdb files to analyze the .vsp file.  
   

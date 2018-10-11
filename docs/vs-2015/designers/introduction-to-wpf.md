@@ -18,7 +18,6 @@ manager: "ghogen"
 # Introduction to WPF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Introduction to WPF](https://docs.microsoft.com/visualstudio/designers/introduction-to-wpf).  
   
 Windows Presentation Foundation (WPF) lets you create desktop client applications for Windows with visually stunning user experiences.  
   

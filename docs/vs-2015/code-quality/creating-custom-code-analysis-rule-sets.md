@@ -18,7 +18,6 @@ manager: "wpickett"
 # Creating Custom Code Analysis Rule Sets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Custom Code Analysis Rule Sets](https://docs.microsoft.com/visualstudio/code-quality/creating-custom-code-analysis-rule-sets).  
   
 You apply code analysis rules to a managed code project by specifying a rule set that contains one or more rules. The Microsoft standard rule sets provide groups of rules that are organized by function and depth. For example, the Microsoft Basic Design Guidelines Rules and the Microsoft Extended Design Guidelines Rules contain rules that focus on usability and maintainability issues, with added emphasis on naming rules in the Extended rule set.  
   

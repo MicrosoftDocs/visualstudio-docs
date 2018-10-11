@@ -19,7 +19,6 @@ manager: "ghogen"
 # m_stateObject Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [m_stateObject Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/m-stateobject-field).  
   
 An object that represents data that the action will use.  
   

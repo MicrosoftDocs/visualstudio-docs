@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::RestrictSymbolServerAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLoadCallback::RestrictSymbolServerAccess](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialoadcallback-restrictsymbolserveraccess).  
   
 Determines if access is allowed to a symbol server to resolve symbols.  
   

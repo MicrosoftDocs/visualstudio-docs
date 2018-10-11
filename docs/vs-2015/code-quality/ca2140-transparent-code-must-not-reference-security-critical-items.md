@@ -26,7 +26,6 @@ manager: "wpickett"
 # CA2140: Transparent code must not reference security critical items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2140: Transparent code must not reference security critical items](https://docs.microsoft.com/visualstudio/code-quality/ca2140-transparent-code-must-not-reference-security-critical-items).
 
 |||
 |-|-|

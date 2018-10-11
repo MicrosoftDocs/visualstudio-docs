@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Exclude or Include Short Functions from Instrumentation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Exclude or Include Short Functions from Instrumentation](https://docs.microsoft.com/visualstudio/profiling/how-to-exclude-or-include-short-functions-from-instrumentation).  
   
 By default, the Profiling tools exclude *small functions* from instrumentation. Small functions are short functions that do not make any function calls. Excluding these small functions provides for less instrumentation overhead, and therefore improved instrumentation speed. The exclusion of small functions also reduces the performance profiling data file (.vsp) size and the time that is required for analysis. If small functions are excluded, the time that is spent in the small functions counts against the exclusive and inclusive time of their parent functions. Small functions can be excluded or included in instrumentation, as described in the following procedure.  
   

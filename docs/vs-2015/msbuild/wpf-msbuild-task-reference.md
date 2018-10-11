@@ -28,7 +28,6 @@ manager: "ghogen"
 # WPF MSBuild Task Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WPF MSBuild Task Reference](https://docs.microsoft.com/visualstudio/msbuild/wpf-msbuild-task-reference).  
   
   
 The Windows Presentation Foundation (WPF) build process extends Microsoft build engine (MSBuild) with an additional set of build tasks, including tasks to compile markup and process resources.  

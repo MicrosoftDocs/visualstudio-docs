@@ -31,7 +31,6 @@ manager: "ghogen"
 # COM Server and Container Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [COM Server and Container Debugging](https://docs.microsoft.com/visualstudio/debugger/com-server-and-container-debugging).  
   
 COM applications perform a number of tasks outside of the programmer's direct control. Communication between DLLs, usage counts on objects, and Clipboard operations are just a few of the areas where you might encounter unexpected behavior. When this happens, your first step is to track down the source of the problem.  
   

@@ -27,7 +27,6 @@ manager: "ghogen"
 # Error: Site Uses IP Address
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Site Uses IP Address](https://docs.microsoft.com/visualstudio/debugger/error-site-uses-ip-address).  
   
 This error occurs when the debugger tries to auto-attach to a Web application that is using an IP address. This occurs if you change **Web site identification** to **use specific IP address** in IIS.  
   

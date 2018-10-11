@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1601: Do not use timers that prevent power state changes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1601: Do not use timers that prevent power state changes](https://docs.microsoft.com/visualstudio/code-quality/ca1601-do-not-use-timers-that-prevent-power-state-changes).
 
 |||
 |-|-|

@@ -28,7 +28,6 @@ manager: "ghogen"
 # How to: Use the GPU Threads Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Viewing GPU Threads in the Debugger](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-gpu-threads-window).  
   
 In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](http://msdn.microsoft.com/library/9e593b06-6e3c-43e9-8bae-6d89efdd39fc).  
   

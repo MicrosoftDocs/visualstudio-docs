@@ -21,7 +21,6 @@ manager: "ghogen"
 # Standard and Custom Toolset Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Standard and Custom Toolset Configurations](https://docs.microsoft.com/visualstudio/msbuild/standard-and-custom-toolset-configurations).  
   
   
 An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)  

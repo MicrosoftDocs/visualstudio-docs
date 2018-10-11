@@ -18,7 +18,6 @@ manager: "ghogen"
 # GlobalOn and GlobalOff
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GlobalOn and GlobalOff](https://docs.microsoft.com/visualstudio/profiling/globalon-and-globaloff).  
   
 The VSPerfCmd.exe **GlobalOff** and **GlobalOn** options pause and resume profiling for all processes and threads in a command-line profiling session.  
   

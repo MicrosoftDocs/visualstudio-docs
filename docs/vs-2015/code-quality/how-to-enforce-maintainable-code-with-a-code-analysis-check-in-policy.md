@@ -20,7 +20,6 @@ manager: "wpickett"
 # How to: Enforce Maintainable Code with a Code Analysis Check-in Policy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Enforce Maintainable Code with a Code Analysis Check-in Policy](https://docs.microsoft.com/visualstudio/code-quality/how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy).  
   
 Developers can use the Code Metrics tool to measure the complexity and maintainability of their code, but they cannot invoke code metrics as part of a check-in policy. However, a team  can enable Code Analysis rules that verify the compliance of their code with Code Metrics standards and enforce the rules through check-in policies. For more information about code metrics, see the [Code Metrics Values](../code-quality/code-metrics-values.md).  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-type).  
   
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.  
   

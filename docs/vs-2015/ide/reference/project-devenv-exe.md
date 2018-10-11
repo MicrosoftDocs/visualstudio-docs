@@ -26,7 +26,6 @@ manager: "ghogen"
 # /Project (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Project (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/project-devenv-exe).  
   
   
 Identifies a single project within the specified solution configuration to build, clean, rebuild, or deploy.  

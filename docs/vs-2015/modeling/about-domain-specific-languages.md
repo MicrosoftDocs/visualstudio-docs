@@ -18,7 +18,6 @@ manager: "douge"
 # About Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [About Domain-Specific Languages](https://docs.microsoft.com/visualstudio/modeling/about-domain-specific-languages).  
   
 Unlike a general-purpose language such as C# or UML, a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.  
   

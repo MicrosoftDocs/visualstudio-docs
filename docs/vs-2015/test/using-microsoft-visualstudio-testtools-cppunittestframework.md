@@ -17,7 +17,6 @@ manager: "douge"
 # Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](https://docs.microsoft.com/visualstudio/test/using-microsoft-visualstudio-testtools-cppunittestframework).  
   
 This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTestFramework` namespace.  
   

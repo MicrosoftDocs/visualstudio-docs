@@ -17,7 +17,6 @@ manager: "douge"
 # Sample Excel Extension: ActionFilter Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Excel Extension: ActionFilter Class](https://docs.microsoft.com/visualstudio/test/sample-excel-extension-actionfilter-class).  
   
 This internal class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter> class and represents a filter for test actions on a [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] element.  
   

@@ -28,7 +28,6 @@ manager: "ghogen"
 # RegisterAssembly Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RegisterAssembly Task](https://docs.microsoft.com/visualstudio/msbuild/registerassembly-task).  
   
   
 Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration Tool)](http://msdn.microsoft.com/library/e190e342-36ef-4651-a0b4-0e8c2c0281cb).  

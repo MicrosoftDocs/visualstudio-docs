@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::get__NewEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumFrameData::get__NewEnum](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumframedata-get-newenum).  
   
 Retrieves the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.  
   

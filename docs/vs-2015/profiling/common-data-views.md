@@ -21,7 +21,6 @@ manager: "ghogen"
 # Common Data Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Common Data Views](https://docs.microsoft.com/visualstudio/profiling/common-data-views).  
   
 This section contains reference information about the views and reports of profiler data files that are common to all profiling methods.  
   

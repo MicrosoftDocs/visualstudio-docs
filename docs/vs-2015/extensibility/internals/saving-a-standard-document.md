@@ -21,7 +21,6 @@ manager: "ghogen"
 # Saving a Standard Document
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Saving a Standard Document](https://docs.microsoft.com/visualstudio/extensibility/internals/saving-a-standard-document).  
   
 The environment handles the Save, Save As, and Save All commands. When a user selects **Save**, **Save As**, or **Save All** from the **File** menu or closes the solution, resulting in a **Save All**, the following process occurs.  
   

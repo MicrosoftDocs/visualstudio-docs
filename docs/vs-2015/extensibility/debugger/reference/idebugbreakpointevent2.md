@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointevent2).  
   
 The debug engine (DE) sends this interface to the session debug manager (SDM) when a program stops at a breakpoint.  
   

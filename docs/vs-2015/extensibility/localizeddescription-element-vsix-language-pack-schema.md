@@ -17,7 +17,6 @@ manager: "ghogen"
 # LocalizedDescription Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LocalizedDescription Element (VSIX Language Pack Schema)](https://docs.microsoft.com/visualstudio/extensibility/localizeddescription-element-vsix-language-pack-schema).  
   
 Required. Provides a localized description of the extension.  
   

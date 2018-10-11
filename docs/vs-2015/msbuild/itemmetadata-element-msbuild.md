@@ -26,7 +26,6 @@ manager: "ghogen"
 # ItemMetadata Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ItemMetadata Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/itemmetadata-element-msbuild).  
   
   
 Contains a user-defined item metadata key, which contains the item metadata value. An item may have any number of metadata key-value pairs.  

@@ -29,7 +29,6 @@ manager: "ghogen"
 # How to: Run the Worker Process Under a User Account
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Run the Worker Process Under a User Account](https://docs.microsoft.com/visualstudio/debugger/how-to-run-the-worker-process-under-a-user-account).  
   
 To set up your computer so that you can run the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.  
   

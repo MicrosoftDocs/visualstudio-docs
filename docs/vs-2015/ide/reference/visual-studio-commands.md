@@ -22,7 +22,6 @@ manager: "ghogen"
 # Visual Studio Commands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Commands](https://docs.microsoft.com/visualstudio/ide/reference/visual-studio-commands).  
   
   
 Visual Studio commands allow you to invoke a command from the **Command** window, **Immediate** window, or **Find/Command** box. In each case, the greater than sign (`>`) is used to indicate that a command rather than a search or debug operation is to follow.  

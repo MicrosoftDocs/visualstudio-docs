@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1703: Resource strings should be spelled correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1703: Resource strings should be spelled correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1703-resource-strings-should-be-spelled-correctly).
 
 |||
 |-|-|

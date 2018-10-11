@@ -27,7 +27,6 @@ manager: "ghogen"
 # Edit and Continue (Visual C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit and Continue (Visual C++)](https://docs.microsoft.com/visualstudio/debugger/edit-and-continue-visual-cpp).  
   
 You can use Edit and Continue in Visual C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.  
   

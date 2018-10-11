@@ -26,7 +26,6 @@ manager: "ghogen"
 # ResolveManifestFiles Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ResolveManifestFiles Task](https://docs.microsoft.com/visualstudio/msbuild/resolvemanifestfiles-task).  
   
   
 Resolves the following items in the build process to files for manifest generation: built items, dependencies, satellites, content, debug symbols, and documentation.  

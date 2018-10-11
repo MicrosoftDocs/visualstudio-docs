@@ -23,7 +23,6 @@ manager: "ghogen"
 # Add New Item Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add New Item Command](https://docs.microsoft.com/visualstudio/ide/reference/add-new-item-command).  
   
   
 Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it.  

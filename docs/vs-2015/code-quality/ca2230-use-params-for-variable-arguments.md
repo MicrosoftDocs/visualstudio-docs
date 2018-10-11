@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2230: Use params for variable arguments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2230: Use params for variable arguments](https://docs.microsoft.com/visualstudio/code-quality/ca2230-use-params-for-variable-arguments).
 
 |||
 |-|-|

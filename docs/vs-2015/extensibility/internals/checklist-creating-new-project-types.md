@@ -20,7 +20,6 @@ manager: "ghogen"
 # Checklist: Creating New Project Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Checklist: Creating New Project Types](https://docs.microsoft.com/visualstudio/extensibility/internals/checklist-creating-new-project-types).  
   
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks.  
   

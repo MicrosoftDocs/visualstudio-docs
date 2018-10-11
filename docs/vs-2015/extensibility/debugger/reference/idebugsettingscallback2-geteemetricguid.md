@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEEMetricGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2::GetEEMetricGuid](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2-geteemetricguid).  
   
 Retrieves the unique identifier for a expression evaluator metric given its name.  
   

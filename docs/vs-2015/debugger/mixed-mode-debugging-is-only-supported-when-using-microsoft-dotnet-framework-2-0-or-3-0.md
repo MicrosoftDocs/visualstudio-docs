@@ -25,7 +25,6 @@ manager: "ghogen"
 # Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0](https://docs.microsoft.com/visualstudio/debugger/mixed-mode-debugging-is-only-supported-when-using-microsoft-dotnet-framework-2-0-or-3-0).  
   
 Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support for mixed-mode debugging of 64-bit processes. This means that you cannot step from managed code to native code, or from native code to managed code, while you are debugging.  
   

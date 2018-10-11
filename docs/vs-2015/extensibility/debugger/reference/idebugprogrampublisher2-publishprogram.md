@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramPublisher2::PublishProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramPublisher2::PublishProgram](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogrampublisher2-publishprogram).  
   
 This method makes a program available for debug engines (DEs) and the session debug manager.  
   

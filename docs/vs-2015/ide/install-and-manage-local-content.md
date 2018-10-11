@@ -33,7 +33,6 @@ manager: "ghogen"
 # Install and Manage Local Content
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Install and Manage Local Content](https://docs.microsoft.com/visualstudio/ide/install-and-manage-local-content).  
   
 By using the Microsoft Help Viewer, you can add, remove, update, and move the Help content that is installed on your computer to fit your software-development needs.  
   

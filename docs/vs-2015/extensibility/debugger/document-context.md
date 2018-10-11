@@ -19,7 +19,6 @@ manager: "ghogen"
 # Document Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Document Context](https://docs.microsoft.com/visualstudio/extensibility/debugger/document-context).  
   
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **document context**:  
   

@@ -30,7 +30,6 @@ manager: "ghogen"
 # /ProjectConfig (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-ProjectConfig (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/projectconfig-devenv-exe).  
   
   
 Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/project` argument.  

@@ -28,7 +28,6 @@ manager: "ghogen"
 # CreateItem Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CreateItem Task](https://docs.microsoft.com/visualstudio/msbuild/createitem-task).  
   
   
 Populates item collections with the input items. This allows items to be copied from one list to another.  

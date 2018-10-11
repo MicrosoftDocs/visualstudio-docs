@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2141:Transparent methods must not satisfy LinkDemands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2141:Transparent methods must not satisfy LinkDemands](https://docs.microsoft.com/visualstudio/code-quality/ca2141-transparent-methods-must-not-satisfy-linkdemands).
 
 |||
 |-|-|

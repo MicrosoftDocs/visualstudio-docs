@@ -24,7 +24,6 @@ manager: "ghogen"
 # VSPerfCLREnv
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPerfCLREnv](https://docs.microsoft.com/visualstudio/profiling/vsperfclrenv).  
   
 The VSPerfCLREnv tool is used to set environment variables that are required to profile a .NET Framework application. It uses the following syntax:  
   

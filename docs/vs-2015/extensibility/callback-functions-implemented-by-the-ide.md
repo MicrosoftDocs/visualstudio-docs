@@ -20,7 +20,6 @@ manager: "ghogen"
 # Callback Functions Implemented by the IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Callback Functions Implemented by the IDE](https://docs.microsoft.com/visualstudio/extensibility/callback-functions-implemented-by-the-ide).  
   
 To make integration with the integrated development environment (IDE) as seamless as possible and to provide a unified end-user experience, the source control plug-in can use callback functions that are implemented by the IDE. The plug-in can call these functions at appropriate times during a source control operation to pass information to the IDE; the IDE can then display this information as embedded elements in its native UI. The user has a less fragmented experience in this scenario than if the plug-in employed its own UI.  
   

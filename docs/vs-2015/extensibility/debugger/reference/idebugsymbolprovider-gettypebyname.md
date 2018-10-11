@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetTypeByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetTypeByName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-gettypebyname).  
   
 This method maps a symbol name to a symbol type.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Change Fonts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Change Fonts](https://docs.microsoft.com/visualstudio/debugger/how-to-change-fonts).  
   
 You can change the font, font style, and font size for Spy++ windows.  
   

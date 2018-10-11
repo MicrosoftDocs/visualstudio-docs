@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2::GetHostPid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2::GetHostPid](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2-gethostpid).  
   
 Gets the system process identifier for the process hosting the program.  
   

@@ -22,7 +22,6 @@ manager: "wpickett"
 # How to: Create a Localized Bootstrapper Package
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Localized Bootstrapper Package](https://docs.microsoft.com/visualstudio/deployment/how-to-create-a-localized-bootstrapper-package).  
   
 After you create a bootstrapper package, you can create localized versions of the bootstrapper package by creating two more files for each locale: a software license terms file (such as a eula.rtf) and a package manifest (package.xml).  
   

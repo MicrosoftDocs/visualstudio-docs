@@ -25,7 +25,6 @@ manager: "ghogen"
 # How to: Find Topics in the Index
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Find Topics in the Index](https://docs.microsoft.com/visualstudio/ide/how-to-find-topics-in-the-index).  
   
 The index contains a list of keywords that are associated with topics in the installed content. Each topic might have more than one keyword associated with it, and each keyword might be associated with more than one topic. Use this index in the same way as you would use an index in a book.  
   

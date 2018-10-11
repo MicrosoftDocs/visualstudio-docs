@@ -39,7 +39,6 @@ manager: "ghogen"
 # Project and Solution File Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project and Solution File Types](https://docs.microsoft.com/visualstudio/ide/reference/project-and-solution-file-types).  
   
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports many file types. In a particular installation, the installed components determine which file types are supported. This topic lists solution and project file types that are supported in some typical installations. For information about other file types, search by using the file name extensions for each type.  

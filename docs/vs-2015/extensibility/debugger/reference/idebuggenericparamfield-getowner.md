@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugGenericParamField::GetOwner
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericParamField::GetOwner](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericparamfield-getowner).  
   
 Retrieves the type or method owner of this generic parameter.  
   

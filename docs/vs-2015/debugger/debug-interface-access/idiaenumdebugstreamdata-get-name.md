@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData::get_name
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreamData::get_name](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreamdata-get-name).  
   
 Retrieves the name of a debug data stream.  
   

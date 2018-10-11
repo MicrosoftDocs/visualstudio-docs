@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 2: Run Your Program
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 2: Run Your Program](https://docs.microsoft.com/visualstudio/ide/step-2-run-your-program).  
   
 When you created a new solution, you actually built a program that runs. It doesn't do much yet—it just displays an empty window that shows **Form1** in the title bar. But it does run, as you're about to find out.  
   

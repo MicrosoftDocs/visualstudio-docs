@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 11: Run Your Program and Try Other Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 11: Run Your Program and Try Other Features](https://docs.microsoft.com/visualstudio/ide/step-11-run-your-program-and-try-other-features).  
   
 Your program is finished and ready to run. You can run your program and set the background color of the PictureBox. To learn more, try to improve the program by changing the color of the form, customizing the buttons and check box, and changing the properties of the form.  
   

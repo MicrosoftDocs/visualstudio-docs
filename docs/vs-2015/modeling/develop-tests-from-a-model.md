@@ -18,7 +18,6 @@ manager: "douge"
 # Develop tests from a model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Develop tests from a model](https://docs.microsoft.com/visualstudio/modeling/develop-tests-from-a-model).  
   
 You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../includes/tcmext-md.md)], you can also maintain links between the models and the tests.  
   

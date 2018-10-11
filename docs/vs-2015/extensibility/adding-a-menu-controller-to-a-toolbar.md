@@ -21,7 +21,6 @@ manager: "ghogen"
 # Adding a Menu Controller to a Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Menu Controller to a Toolbar](https://docs.microsoft.com/visualstudio/extensibility/adding-a-menu-controller-to-a-toolbar).  
   
 This walkthrough builds on the [Adding a Toolbar to a Tool Window](../extensibility/adding-a-toolbar-to-a-tool-window.md) walkthrough and shows how to add a menu controller to the tool window toolbar. The steps shown here also can be applied to the toolbar that is created in the [Adding a Toolbar](../extensibility/adding-a-toolbar.md) walkthrough.  
   

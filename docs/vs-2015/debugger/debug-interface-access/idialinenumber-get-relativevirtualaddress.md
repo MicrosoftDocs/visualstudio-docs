@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_relativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_relativeVirtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-relativevirtualaddress).  
   
 Retrieves the relative virtual address (RVA) of the block.  
   

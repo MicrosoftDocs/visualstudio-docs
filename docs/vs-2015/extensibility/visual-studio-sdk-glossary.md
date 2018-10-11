@@ -19,7 +19,6 @@ manager: "ghogen"
 # Visual Studio SDK Glossary
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio SDK Glossary](https://docs.microsoft.com/visualstudio/extensibility/visual-studio-sdk-glossary).  
   
 This glossary provides definitions for terms that are used in the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] documentation.  
   

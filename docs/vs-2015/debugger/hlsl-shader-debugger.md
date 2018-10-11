@@ -20,7 +20,6 @@ manager: "ghogen"
 # HLSL Shader Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [HLSL Shader Debugger](https://docs.microsoft.com/visualstudio/debugger/graphics/hlsl-shader-debugger).  
   
 The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how your HLSL shader code operates under real conditions of your app.  
   

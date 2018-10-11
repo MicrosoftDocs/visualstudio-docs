@@ -21,7 +21,6 @@ manager: "ghogen"
 # Visual Studio Template Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Template Reference](https://docs.microsoft.com/visualstudio/ide/visual-studio-template-reference).  
   
 The following links provide reference information about the different aspects of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project and item templates.  
   

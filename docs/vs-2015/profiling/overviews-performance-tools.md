@@ -18,7 +18,6 @@ manager: "ghogen"
 # Overviews (Performance Tools)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overviews (Performance Tools)](https://docs.microsoft.com/visualstudio/profiling/overviews-performance-tools).  
   
 This section provides conceptual and terminology overviews for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools, which you can use to measure the performance characteristics of an application under development.  
   

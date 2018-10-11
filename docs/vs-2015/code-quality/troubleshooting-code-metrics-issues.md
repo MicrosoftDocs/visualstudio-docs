@@ -18,7 +18,6 @@ manager: "douge"
 # Troubleshooting Code Metrics Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting Code Metrics Issues](https://docs.microsoft.com/visualstudio/code-quality/troubleshooting-code-metrics-issues).  
   
 You might encounter some of the following issues when you collect code metrics:  
   

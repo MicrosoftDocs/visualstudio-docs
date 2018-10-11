@@ -18,7 +18,6 @@ manager: "ghogen"
 # Copy (Programmatic Capture)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Copy (Programmatic Capture)](https://docs.microsoft.com/visualstudio/debugger/graphics/copy-programmatic-capture).  
   
 Copies the contents of the active graphics log (.vsglog) file into a new file.  
   

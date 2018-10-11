@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1032: Implement standard exception constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1032: Implement standard exception constructors](https://docs.microsoft.com/visualstudio/code-quality/ca1032-implement-standard-exception-constructors).
 
 |||
 |-|-|

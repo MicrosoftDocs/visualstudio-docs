@@ -26,7 +26,6 @@ manager: "ghogen"
 # Error: Unable to access the SQL Server debugging interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Unable to access the SQL Server debugging interface](https://docs.microsoft.com/visualstudio/debugger/error-unable-to-access-the-sql-server-debugging-interface).  
   
 This message occurs when you attempt SQL debugging on a machine where SQL debugging is not enabled.  
   

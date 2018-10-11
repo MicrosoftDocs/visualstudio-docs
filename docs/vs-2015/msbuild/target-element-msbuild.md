@@ -28,7 +28,6 @@ manager: "ghogen"
 # Target Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Target Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/target-element-msbuild).  
   
   
 Contains a set of tasks for [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to execute sequentially.  

@@ -24,7 +24,6 @@ manager: "ghogen"
 # List Threads Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List Threads Command](https://docs.microsoft.com/visualstudio/ide/reference/list-threads-command).  
   
   
 Displays a list of the threads in the current program.  

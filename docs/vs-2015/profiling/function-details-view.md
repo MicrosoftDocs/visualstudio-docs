@@ -23,7 +23,6 @@ manager: "ghogen"
 # Function Details View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Function Details View](https://docs.microsoft.com/visualstudio/profiling/function-details-view).  
   
 The **Function Details View** window displays the following information:  
   

@@ -23,7 +23,6 @@ manager: "ghogen"
 # ShowWebBrowser Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ShowWebBrowser Command](https://docs.microsoft.com/visualstudio/ide/reference/showwebbrowser-command).  
   
   
 Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.  

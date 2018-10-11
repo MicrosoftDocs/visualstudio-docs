@@ -23,7 +23,6 @@ manager: "ghogen"
 # Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)](https://docs.microsoft.com/visualstudio/debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript).  
   
 This quick start demonstrates how to navigate in the Visual Studio debugger and how to view the program state in a session.  
   

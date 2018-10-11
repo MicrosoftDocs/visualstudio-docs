@@ -22,7 +22,6 @@ manager: "ghogen"
 # WizardExtension Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WizardExtension Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/wizardextension-element-visual-studio-templates).  
   
 Contains the registration elements for customizing the template wizard.  
   

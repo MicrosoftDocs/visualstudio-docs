@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1054: URI parameters should not be strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1054: URI parameters should not be strings](https://docs.microsoft.com/visualstudio/code-quality/ca1054-uri-parameters-should-not-be-strings).
 
 |||
 |-|-|

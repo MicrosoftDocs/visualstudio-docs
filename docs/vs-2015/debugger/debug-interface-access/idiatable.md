@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaTable
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaTable](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiatable).  
   
 Enumerates a DIA data source table.  
   

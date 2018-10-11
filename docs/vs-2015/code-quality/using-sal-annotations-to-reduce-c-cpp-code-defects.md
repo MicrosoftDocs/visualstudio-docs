@@ -22,7 +22,6 @@ manager: "ghogen"
 # Using SAL Annotations to Reduce C/C++ Code Defects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using SAL Annotations to Reduce C/C++ Code Defects](https://docs.microsoft.com/visualstudio/code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects).  
   
 SAL is the Microsoft source code annotation language. By using source code annotations, you can make the intent behind your code explicit. These annotations also enable automated static analysis tools to analyze your code more accurately, with significantly fewer false positives and false negatives.  
   

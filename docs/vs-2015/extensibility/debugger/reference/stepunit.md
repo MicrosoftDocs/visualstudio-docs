@@ -21,7 +21,6 @@ manager: "ghogen"
 # STEPUNIT
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [STEPUNIT](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/stepunit).  
   
 Specifies the step unit for stepping.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreams::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreams::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreams-item).  
   
 Retrieves a debug stream by means of an index or name.  
   

@@ -44,7 +44,6 @@ manager: "ghogen"
 # How to: Set Debug and Release Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set Debug and Release Configurations](https://docs.microsoft.com/visualstudio/debugger/how-to-set-debug-and-release-configurations).  
   
 Visual Studio projects have separate release and debug configurations for your program. As the names imply, you build the debug version for debugging and the release version for the final release distribution.  
   

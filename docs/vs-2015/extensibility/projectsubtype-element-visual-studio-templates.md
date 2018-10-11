@@ -22,7 +22,6 @@ manager: "ghogen"
 # ProjectSubType Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ProjectSubType Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/projectsubtype-element-visual-studio-templates).  
   
 Classifies the template into a subcategory of the value specified in the `ProjectType` element.  
   

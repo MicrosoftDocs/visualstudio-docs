@@ -22,7 +22,6 @@ manager: "ghogen"
 # ProjectCollection Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ProjectCollection Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/projectcollection-element-visual-studio-templates).  
   
 Specifies the organization and contents of multi-project templates.  
   

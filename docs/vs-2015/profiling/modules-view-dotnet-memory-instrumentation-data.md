@@ -20,7 +20,6 @@ manager: "ghogen"
 # Modules View - .NET Memory Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modules View - .NET Memory Instrumentation Data](https://docs.microsoft.com/visualstudio/profiling/modules-view-dotnet-memory-instrumentation-data).  
   
 The Modules view of .NET memory allocation data collected by using the instrumentation method groups the memory and timing data by the modules that were executed in the profiling run. Profiling data for the functions of the module is listed underneath the module node.  
   

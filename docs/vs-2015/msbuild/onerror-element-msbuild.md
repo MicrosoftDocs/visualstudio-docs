@@ -28,7 +28,6 @@ manager: "ghogen"
 # OnError Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [OnError Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/onerror-element-msbuild).  
   
   
 Causes one or more targets to execute, if the `ContinueOnError` attribute is `false` for a failed task.  

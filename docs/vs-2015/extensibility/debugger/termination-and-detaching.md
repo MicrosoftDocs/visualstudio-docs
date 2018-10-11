@@ -20,7 +20,6 @@ manager: "ghogen"
 # Termination and Detaching
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Termination and Detaching](https://docs.microsoft.com/visualstudio/extensibility/debugger/termination-and-detaching).  
   
 The following describes normal termination.  
   

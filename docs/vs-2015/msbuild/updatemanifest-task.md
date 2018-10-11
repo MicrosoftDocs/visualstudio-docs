@@ -26,7 +26,6 @@ manager: "ghogen"
 # UpdateManifest Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UpdateManifest Task](https://docs.microsoft.com/visualstudio/msbuild/updatemanifest-task).  
   
   
 Updates selected properties in a manifest and resigns.  

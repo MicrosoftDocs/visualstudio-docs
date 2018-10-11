@@ -25,7 +25,6 @@ manager: "wpickett"
 # Usage Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Usage Warnings](https://docs.microsoft.com/visualstudio/code-quality/usage-warnings).  
   
 Usage warnings support proper usage of the .NET Framework.  
   

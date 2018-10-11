@@ -21,7 +21,6 @@ manager: "ghogen"
 # CommentMarkProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CommentMarkProfile](https://docs.microsoft.com/visualstudio/profiling/commentmarkprofile).  
   
 The `CommentMarkProfile` function inserts a numeric marker and a text string in the .vsp file. For the mark and comment to be inserted, profiling for the thread that contains the `CommentMarkProfile` function must be ON.  
   

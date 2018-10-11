@@ -21,7 +21,6 @@ manager: "ghogen"
 # FIELD_MODIFIERS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FIELD_MODIFIERS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/field-modifiers).  
   
 Specifies modifiers for a field type.  
   

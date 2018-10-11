@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 2: Create a Random Addition Problem
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 2: Create a Random Addition Problem](https://docs.microsoft.com/visualstudio/ide/step-2-create-a-random-addition-problem).  
   
 In the second part of this tutorial, you make the quiz challenging by adding math problems that are based on random numbers. You also create a method that's named `StartTheQuiz()` and that fills in the problems and starts the countdown timer. Later in this tutorial, you'll add the subtraction, multiplication, and division problems.  
   

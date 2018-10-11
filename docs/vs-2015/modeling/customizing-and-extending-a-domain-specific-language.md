@@ -18,7 +18,6 @@ manager: "douge"
 # Customizing and Extending a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing and Extending a Domain-Specific Language](https://docs.microsoft.com/visualstudio/modeling/customizing-and-extending-a-domain-specific-language).  
   
 Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools:  
   

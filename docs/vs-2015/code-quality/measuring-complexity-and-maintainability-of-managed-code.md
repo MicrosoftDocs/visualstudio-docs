@@ -28,7 +28,6 @@ manager: "douge"
 # Measuring Complexity and Maintainability of Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Measuring Complexity and Maintainability of Managed Code](https://docs.microsoft.com/visualstudio/code-quality/measuring-complexity-and-maintainability-of-managed-code).  
   
 The increased complexity of modern software applications also increases the difficulty of making the code reliable and maintainable. In recent years, many software measures, known as code metrics, have been developed that can help developers understand where their code needs rework or increased testing.  
   

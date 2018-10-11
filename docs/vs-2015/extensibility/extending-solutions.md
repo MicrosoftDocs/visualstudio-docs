@@ -17,7 +17,6 @@ manager: "ghogen"
 # Extending Solutions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending Solutions](https://docs.microsoft.com/visualstudio/extensibility/extending-solutions).  
   
 A solution is a grouping of one or more projects that work together to create an application.  
   

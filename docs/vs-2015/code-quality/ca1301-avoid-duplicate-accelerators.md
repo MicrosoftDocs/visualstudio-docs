@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1301: Avoid duplicate accelerators
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1301: Avoid duplicate accelerators](https://docs.microsoft.com/visualstudio/code-quality/ca1301-avoid-duplicate-accelerators).
 
 |||
 |-|-|

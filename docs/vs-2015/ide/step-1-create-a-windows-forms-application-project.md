@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 1: Create a Windows Forms Application Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 1: Create a Windows Forms Application Project](https://docs.microsoft.com/visualstudio/ide/step-1-create-a-windows-forms-application-project).  
   
 When you create a picture viewer, the first step is to create a Windows Forms Application project.  
   

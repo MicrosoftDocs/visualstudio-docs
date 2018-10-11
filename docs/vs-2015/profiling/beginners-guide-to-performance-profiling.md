@@ -24,7 +24,6 @@ manager: "ghogen"
 # Beginners Guide to Performance Profiling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Beginners Guide to Performance Profiling in Visual Studio](https://docs.microsoft.com/visualstudio/profiling/beginners-guide-to-performance-profiling).  
   
 You can use Visual Studio Profiling Tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.  
   

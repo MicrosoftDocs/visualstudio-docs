@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::GetStatementRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentContext2::GetStatementRange](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange).  
   
 Gets the file statement range of the document context.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::set_addressMap
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaAddressMap::set_addressMap](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaaddressmap-set-addressmap).  
   
 Provides an address map to support image layout translations.  
   

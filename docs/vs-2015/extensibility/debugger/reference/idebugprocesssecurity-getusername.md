@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugProcessSecurity::GetUserName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessSecurity::GetUserName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocesssecurity-getusername).  
   
 Gets the user name from the port supplier.  
   

@@ -20,7 +20,6 @@ manager: "douge"
 # Properties of associations on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of associations on UML class diagrams](https://docs.microsoft.com/visualstudio/modeling/properties-of-associations-on-uml-class-diagrams).  
   
 In a UML class diagram, you can draw *associations* between any pair of types. A type is a class, interface, or enumeration.  
   

@@ -16,7 +16,6 @@ manager: "douge"
 # T4 Assembly Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Assembly Directive](https://docs.microsoft.com/visualstudio/modeling/t4-assembly-directive).  
   
 In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design-time text template, the `assembly` directive loads an assembly so that your template code can use its types. The effect is similar to adding an assembly reference in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project.  
   

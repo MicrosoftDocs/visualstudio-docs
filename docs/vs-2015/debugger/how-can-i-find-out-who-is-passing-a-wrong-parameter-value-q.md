@@ -32,7 +32,6 @@ manager: "ghogen"
 # How Can I Find Out Who Is Passing a Wrong Parameter Value?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How Can I Find Out Who Is Passing a Wrong Parameter Value?](https://docs.microsoft.com/visualstudio/debugger/how-can-i-find-out-who-is-passing-a-wrong-parameter-value-q).  
   
 Problem Description  
  The wrong parameter value is being passed to one of my functions. This function is called from all over the place. How can I find out what is passing it the wrong value?  

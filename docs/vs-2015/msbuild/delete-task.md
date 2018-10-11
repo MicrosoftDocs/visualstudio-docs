@@ -28,7 +28,6 @@ manager: "ghogen"
 # Delete Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Delete Task](https://docs.microsoft.com/visualstudio/msbuild/delete-task).  
   
   
 Deletes the specified files.  

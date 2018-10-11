@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe).  
   
 Exposes the properties of a stack frame.  
   

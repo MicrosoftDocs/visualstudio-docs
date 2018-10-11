@@ -19,7 +19,6 @@ manager: "douge"
 # Anatomy of a Coded UI Test
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Anatomy of a Coded UI Test](https://docs.microsoft.com/visualstudio/test/anatomy-of-a-coded-ui-test).  
   
 When you create a Coded UI Test in a coded UI test project, several files are added to your solution. In this topic, we will use an example Coded UI Test to explore these files.  
   

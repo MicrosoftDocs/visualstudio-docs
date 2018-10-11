@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDSymbol Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDSymbol Element](https://docs.microsoft.com/visualstudio/extensibility/idsymbol-element).  
   
 The `IDSymbol` element contains the ID of the GUID:ID pair that represents a menu, group, or command. The GUID comes from the parent `GuidSymbol` element. The `IDSymbol` element has a `name` attribute that provides a friendly name for the ID, which is contained in the `value` attribute.  
   

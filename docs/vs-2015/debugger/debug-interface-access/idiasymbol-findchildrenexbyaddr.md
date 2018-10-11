@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::findChildrenExByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::findChildrenExByAddr](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-findchildrenexbyaddr).  
   
 Retrieves the children of the symbol that are valid at a specified address.  
   

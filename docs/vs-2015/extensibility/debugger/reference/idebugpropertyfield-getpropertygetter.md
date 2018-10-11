@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPropertyField::GetPropertyGetter
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPropertyField::GetPropertyGetter](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpropertyfield-getpropertygetter).  
   
 Gets the method that gets the property.  
   

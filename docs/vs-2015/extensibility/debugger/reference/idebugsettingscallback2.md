@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2).  
   
 Enables debug engines to read metric settings remotely.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::frameForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::frameForVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-frameforva).  
   
 Retrieves the stack frame that contains the specified virtual address.  
   

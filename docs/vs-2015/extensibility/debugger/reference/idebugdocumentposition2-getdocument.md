@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentPosition2::GetDocument
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentPosition2::GetDocument](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentposition2-getdocument).  
   
 Gets the containing document.  
   

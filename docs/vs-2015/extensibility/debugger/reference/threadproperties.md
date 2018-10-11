@@ -21,7 +21,6 @@ manager: "ghogen"
 # THREADPROPERTIES
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [THREADPROPERTIES](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/threadproperties).  
   
 Describes the properties of a thread.  
   

@@ -17,7 +17,6 @@ manager: "douge"
 # Using Different Web Browsers with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Different Web Browsers with Coded UI Tests](https://docs.microsoft.com/visualstudio/test/using-different-web-browsers-with-coded-ui-tests).  
   
 Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications.  
   

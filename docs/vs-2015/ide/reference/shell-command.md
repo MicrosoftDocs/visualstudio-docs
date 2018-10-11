@@ -28,7 +28,6 @@ manager: "ghogen"
 # Shell Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Shell Command](https://docs.microsoft.com/visualstudio/ide/reference/shell-command).  
   
   
 Launches executable programs from within [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  

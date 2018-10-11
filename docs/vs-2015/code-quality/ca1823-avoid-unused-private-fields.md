@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1823: Avoid unused private fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1823: Avoid unused private fields](https://docs.microsoft.com/visualstudio/code-quality/ca1823-avoid-unused-private-fields).
 
 |||
 |-|-|

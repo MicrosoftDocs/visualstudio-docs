@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::GetMemoryContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-getmemorycontext).  
   
 Gets the memory context that represents the address of the value of the object.  
   

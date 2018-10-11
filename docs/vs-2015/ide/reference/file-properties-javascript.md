@@ -35,7 +35,6 @@ manager: "ghogen"
 # File Properties, JavaScript
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [File Properties, JavaScript](https://docs.microsoft.com/visualstudio/ide/reference/file-properties-javascript).  
   
   
 You can use file properties to indicate what actions the project system should perform on the files. For example, you can set file properties to indicate whether a file should be added to the package as a resource file.  

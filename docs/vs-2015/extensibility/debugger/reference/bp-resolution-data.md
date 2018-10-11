@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_RESOLUTION_DATA
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_RESOLUTION_DATA](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-resolution-data).  
   
 Describes the result of binding a data breakpoint.  
   

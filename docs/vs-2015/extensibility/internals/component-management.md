@@ -20,7 +20,6 @@ manager: "ghogen"
 # Component Management
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Component Management](https://docs.microsoft.com/visualstudio/extensibility/internals/component-management).  
   
 Units of tasks in the Windows Installer are referred to as Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups that use Windows Installer.  
   

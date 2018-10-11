@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugGenericFieldDefinition::TypeParamCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericFieldDefinition::TypeParamCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericfielddefinition-typeparamcount).  
   
 Retrieves the number of type parameters that are associated with the generic field.  
   

@@ -25,7 +25,6 @@ manager: "ghogen"
 # Options, Text Editor, File Extension
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, File Extension](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-file-extension).  
   
   
 This Options dialog allows you to specify how all files with certain file extensions will be handled by the Visual Studio integrated development environment (IDE). For each **Extension** that you enter, you can select an Editing Experience. This allows you to choose the IDE editor or designer in which documents of a certain type will open. To display these options, choose **Options** from the **Tools** menu, expand the **Text Editor** node, and select **File Extension**.  

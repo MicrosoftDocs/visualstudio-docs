@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 4: Lay Out Your Form with a TableLayoutPanel Control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 4: Lay Out Your Form with a TableLayoutPanel Control](https://docs.microsoft.com/visualstudio/ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control).  
   
 In this step, you add a `TableLayoutPanel` control to your form. The TableLayoutPanel helps properly align controls in the form that you will add later.  
   

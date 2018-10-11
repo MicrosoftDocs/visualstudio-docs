@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugQueryEngine2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugQueryEngine2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugqueryengine2).  
   
 This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE).  
   

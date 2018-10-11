@@ -18,7 +18,6 @@ manager: "robinr"
 # Unit testing a Visual C++ DLL for Store apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unit testing a Visual C++ DLL for Store apps](https://docs.microsoft.com/visualstudio/test/unit-testing-a-visual-cpp-dll-for-store-apps).  
   
 This topic describes one way to create unit tests for a C++ DLL for Windows Store apps The RooterLib DLL demonstrates vague memories of limit theory from the calculus by implementing a function that calculates an estimate of the square root of a given number. The DLL might then be included in a Windows Store app that shows a user the fun things that can be done with math.  
   

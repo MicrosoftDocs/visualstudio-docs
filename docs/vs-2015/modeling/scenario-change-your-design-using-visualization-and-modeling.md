@@ -26,7 +26,6 @@ manager: "douge"
 # Scenario: Change your design using visualization and modeling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Scenario: Change your design using visualization and modeling](https://docs.microsoft.com/visualstudio/modeling/scenario-change-your-design-using-visualization-and-modeling).  
   
 Make sure that your software system meets users' needs by using the visualization and modeling tools in Visual Studio. Use tools such as Unified Modeling Language (UML) diagrams, code maps, layer diagrams, and class diagrams to:  
   

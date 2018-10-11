@@ -33,7 +33,6 @@ manager: "ghogen"
 # String Visualizer Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [String Visualizer Dialog Box](https://docs.microsoft.com/visualstudio/debugger/string-visualizer-dialog-box).  
   
 This dialog box is one of the standard visualizers included with the Visual Studio debugger. In addition to normal text, the String Visualizer can evaluate HTML and XML strings, allowing you to view the results in a meaningful format.  
   

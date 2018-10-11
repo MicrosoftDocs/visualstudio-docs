@@ -19,7 +19,6 @@ manager: "ghogen"
 # Enabling a Program to Be Debugged
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Enabling a Program to Be Debugged](https://docs.microsoft.com/visualstudio/extensibility/debugger/enabling-a-program-to-be-debugged).  
   
 Before your debug engine (DE) can debug a program, you must first launch the DE or attach it to an existing program.  
   

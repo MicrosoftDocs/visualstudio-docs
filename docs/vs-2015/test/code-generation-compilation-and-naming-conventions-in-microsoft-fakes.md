@@ -17,7 +17,6 @@ manager: "douge"
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Code generation, compilation, and naming conventions in Microsoft Fakes](https://docs.microsoft.com/visualstudio/test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes).  
   
 This topic discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes generated types, members, and parameters.  
   

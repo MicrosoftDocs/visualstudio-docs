@@ -16,7 +16,6 @@ manager: "douge"
 # Guidelines for Writing T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Guidelines for Writing T4 Text Templates](https://docs.microsoft.com/visualstudio/modeling/guidelines-for-writing-t4-text-templates).  
   
 These general guidelines might be helpful if you are generating program code or other application resources in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. They are not fixed rules.  
   

@@ -16,7 +16,6 @@ manager: "douge"
 # Customizing Copy Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Copy Behavior](https://docs.microsoft.com/visualstudio/modeling/customizing-copy-behavior).  
   
 In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.  
   

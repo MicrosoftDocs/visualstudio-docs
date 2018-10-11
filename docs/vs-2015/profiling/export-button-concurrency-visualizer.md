@@ -22,7 +22,6 @@ manager: "ghogen"
 # Export Button (Concurrency Visualizer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Export Button (Concurrency Visualizer)](https://docs.microsoft.com/visualstudio/profiling/export-button-concurrency-visualizer).  
   
 The **Export** button enables you to export the call stack as a .csv file for your own records or for use with another tool such as Microsoft Excel.  
   

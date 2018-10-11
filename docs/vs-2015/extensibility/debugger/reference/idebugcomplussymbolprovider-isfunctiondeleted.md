@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::IsFunctionDeleted
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::IsFunctionDeleted](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-isfunctiondeleted).  
   
 Determines that the function at the specified debug address is deleted.  
   

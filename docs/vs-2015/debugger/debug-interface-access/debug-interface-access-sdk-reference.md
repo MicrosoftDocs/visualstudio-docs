@@ -24,7 +24,6 @@ manager: "ghogen"
 # Debug Interface Access SDK Reference
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Interface Access SDK Reference](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk-reference).  
   
 A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK.  
   

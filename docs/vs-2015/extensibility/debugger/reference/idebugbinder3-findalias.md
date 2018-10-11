@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder3::FindAlias
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBinder3::FindAlias](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbinder3-findalias).  
   
 This method locates an alias, given a name. This will search all aliases in the program.  
   

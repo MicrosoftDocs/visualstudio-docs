@@ -22,7 +22,6 @@ manager: "ghogen"
 # ProjectItem Element (Visual Studio Project Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ProjectItem Element (Visual Studio Project Templates)](https://docs.microsoft.com/visualstudio/extensibility/projectitem-element-visual-studio-project-templates).  
   
 Specifies a file that is included in the project template.  
   

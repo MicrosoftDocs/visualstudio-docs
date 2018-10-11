@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Provide a Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Provide a Service](https://docs.microsoft.com/visualstudio/extensibility/how-to-provide-a-service).  
   
 A VSPackage can provide services that other VSPackages can use. To provide a service, a VSPackage must register the service with Visual Studio and add the service.  
   

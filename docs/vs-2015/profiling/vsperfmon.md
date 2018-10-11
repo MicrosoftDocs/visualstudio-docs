@@ -26,7 +26,6 @@ manager: "ghogen"
 # VSPerfMon
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPerfMon](https://docs.microsoft.com/visualstudio/profiling/vsperfmon).  
   
 You can use VSPerfMon tool to collect performance data for an application; typically this tool is launched by VSPerfCmd.exe. VSPerfMon displays additional information about process attach or detach which is not available by using the VSPerfCmd tool. To view this information, start VSPerfMon in a separate window. To invoke VSPerfMon use the following syntax:  
   

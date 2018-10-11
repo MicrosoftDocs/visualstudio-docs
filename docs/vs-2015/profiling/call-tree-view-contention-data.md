@@ -20,7 +20,6 @@ manager: "ghogen"
 # Call Tree View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Call Tree View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/call-tree-view-contention-data).  
   
 The Call Tree view displays the function execution paths that were traversed in the profiled application. The root of the tree is the entry point into the application or the component. Each function node lists all functions that it called, the number of times that the function was blocked, and the amount of time that the function was blocked because it was contending for a resource with other threads or processes.  
   

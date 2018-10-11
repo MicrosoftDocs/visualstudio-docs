@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEVisualizerDataProvider::GetObjectForVisualizer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEEVisualizerDataProvider::GetObjectForVisualizer](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ieevisualizerdataprovider-getobjectforvisualizer).  
   
 This method gets the object that this visualizer represents.  
   

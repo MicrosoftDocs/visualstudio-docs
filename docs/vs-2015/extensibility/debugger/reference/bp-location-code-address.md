@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_CODE_ADDRESS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_LOCATION_CODE_ADDRESS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-location-code-address).  
   
 Describes the location of a breakpoint at an address in code.  
   

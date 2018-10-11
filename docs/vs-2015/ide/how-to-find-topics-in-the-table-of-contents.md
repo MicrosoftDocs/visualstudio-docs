@@ -25,7 +25,6 @@ manager: "ghogen"
 # How to: Find Topics in the Table of Contents
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Find Topics in the Table of Contents](https://docs.microsoft.com/visualstudio/ide/how-to-find-topics-in-the-table-of-contents).  
   
 In the **Contents** tab, you can use the table of contents (TOC) to find information. The table of contents is an expandable list that contains all of the topics in the installed books. For accessibility information about how to navigate through the TOC, see [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md).  
   

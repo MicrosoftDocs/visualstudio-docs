@@ -22,7 +22,6 @@ manager: "ghogen"
 # Synchronization Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Synchronization Time](https://docs.microsoft.com/visualstudio/profiling/synchronization-time).  
   
 These segments in the timeline are associated with blocking times that are categorized as Synchronization. When a thread is marked as blocked on synchronization, one of these things is implied:  
   

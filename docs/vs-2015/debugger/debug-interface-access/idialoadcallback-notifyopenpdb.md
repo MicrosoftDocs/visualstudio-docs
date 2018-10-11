@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::NotifyOpenPDB
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLoadCallback::NotifyOpenPDB](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialoadcallback-notifyopenpdb).  
   
 Called when a candidate .pdb file is opened.  
   

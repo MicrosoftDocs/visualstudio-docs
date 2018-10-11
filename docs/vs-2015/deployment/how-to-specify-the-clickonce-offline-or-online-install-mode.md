@@ -28,7 +28,6 @@ manager: "wpickett"
 # How to: Specify the ClickOnce Offline or Online Install Mode
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify the ClickOnce Offline or Online Install Mode](https://docs.microsoft.com/visualstudio/deployment/how-to-specify-the-clickonce-offline-or-online-install-mode).  
   
 The `Install Mode` for a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application determines whether the application will be available offline or online. When you choose **The application is available online only**, the user must have access to the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] publishing location (either a Web page or a file share) in order to run the application. When you choose **The application is available offline as well**, the application adds entries to the **Start** menu and the **Add or Remove Programs** dialog box; the user is able to run the application when they are not connected.  
   

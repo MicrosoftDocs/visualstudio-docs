@@ -26,7 +26,6 @@ manager: "ghogen"
 # WriteContextTLogs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WriteContextTLogs](https://docs.microsoft.com/visualstudio/msbuild/writecontexttlogs).  
   
   
 Writes logs files for the current context.  

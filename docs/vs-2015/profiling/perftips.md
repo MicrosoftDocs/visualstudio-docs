@@ -18,7 +18,6 @@ manager: "ghogen"
 # PerfTips
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PerfTips](https://docs.microsoft.com/visualstudio/profiling/perftips).  
   
 Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools** help you to monitor and analyze the performance of your app while you are debugging.  
   

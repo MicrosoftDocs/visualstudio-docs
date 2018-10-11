@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1057: String URI overloads call System.Uri overloads
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1057: String URI overloads call System.Uri overloads](https://docs.microsoft.com/visualstudio/code-quality/ca1057-string-uri-overloads-call-system-uri-overloads).
 
 |||
 |-|-|

@@ -23,7 +23,6 @@ manager: "douge"
 # T4 Text Template Directives
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Text Template Directives](https://docs.microsoft.com/visualstudio/modeling/t4-text-template-directives).  
   
 Directives provide instructions to the text template transformation engine.  
   

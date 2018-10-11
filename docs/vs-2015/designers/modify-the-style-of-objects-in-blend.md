@@ -18,7 +18,6 @@ manager: "ghogen"
 # Modify the style of objects in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modify the style of objects in Blend](https://docs.microsoft.com/visualstudio/designers/modify-the-style-of-objects-in-blend).  
   
 The easiest way to customize an object is to set properties in the **Properties** pane.  
   

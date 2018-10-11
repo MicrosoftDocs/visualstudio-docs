@@ -18,7 +18,6 @@ manager: "ghogen"
 # CPU Usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyz CPU Usage in Visual Studio](https://docs.microsoft.com/visualstudio/profiling/cpu-usage).  
   
 When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing Visual C++, Visual C#/Visual Basic, and JavaScript code.  
   

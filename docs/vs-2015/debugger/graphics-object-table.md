@@ -22,7 +22,6 @@ manager: "ghogen"
 # Graphics Object Table
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Object Table](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-object-table).  
   
 The Graphics Object Table in Visual Studio Graphics Analysis helps you understand the Direct3D objects that support a frame of your game or app.  
   

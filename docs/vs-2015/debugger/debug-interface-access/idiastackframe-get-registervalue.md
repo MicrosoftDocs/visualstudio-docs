@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_registerValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_registerValue](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-registervalue).  
   
 Retrieves the value of a specified register as stored in the stack frame.  
   

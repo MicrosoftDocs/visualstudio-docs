@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Get a Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Get a Service](https://docs.microsoft.com/visualstudio/extensibility/how-to-get-a-service).  
   
 You often need to get Visual Studio services to access different features. In general, a Visual Studio service provides one or more interfaces that you can use. You can get most services from a VSPackage.  
   

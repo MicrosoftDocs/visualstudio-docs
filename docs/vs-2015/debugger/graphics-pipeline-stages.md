@@ -20,7 +20,6 @@ manager: "ghogen"
 # Graphics Pipeline Stages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Pipeline Stages](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-pipeline-stages).  
   
 The Graphics Pipeline Stages window helps you understand how an individual draw call is transformed by each stage of the Direct3D graphics pipeline.  
   

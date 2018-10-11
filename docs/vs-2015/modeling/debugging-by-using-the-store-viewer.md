@@ -19,7 +19,6 @@ manager: "douge"
 # Debugging by Using the Store Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging by Using the Store Viewer](https://docs.microsoft.com/visualstudio/modeling/debugging-by-using-the-store-viewer).  
   
 With the Store Viewer, you can examine the state of a *store* used by [!INCLUDE[dsl](../includes/dsl-md.md)]. The Store Viewer displays all of the domain model elements that are in a specific store, along with element properties and links between elements.  
   

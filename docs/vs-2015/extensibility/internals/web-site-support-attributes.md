@@ -19,7 +19,6 @@ manager: "ghogen"
 # Web Site Support Attributes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Web Site Support Attributes](https://docs.microsoft.com/visualstudio/extensibility/internals/web-site-support-attributes).  
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Web site project can be extended to provide support for Web programming languages. The language must register itself with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] so that project templates can appear in the **New Web Site** dialog box when the language is selected.  
   

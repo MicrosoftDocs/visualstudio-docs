@@ -20,7 +20,6 @@ manager: "ghogen"
 # General Tab, Window Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [General Tab, Window Properties Dialog Box](https://docs.microsoft.com/visualstudio/debugger/general-tab-window-properties-dialog-box).  
   
 Use the **General** tab to show information about the selected window. To display the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md), move the focus to the [Windows View](../debugger/windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.  
   

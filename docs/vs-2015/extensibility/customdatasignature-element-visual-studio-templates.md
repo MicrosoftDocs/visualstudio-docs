@@ -20,7 +20,6 @@ manager: "ghogen"
 # CustomDataSignature Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CustomDataSignature Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/customdatasignature-element-visual-studio-templates).  
   
 Specifies the text signature to locate the custom data.  
   

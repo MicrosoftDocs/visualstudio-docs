@@ -28,7 +28,6 @@ manager: "ghogen"
 # GetWinFXPath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GetWinFXPath Task](https://docs.microsoft.com/visualstudio/msbuild/getwinfxpath-task).  
   
   
 The <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory of the current [!INCLUDE[TLA#tla_winfx](../includes/tlasharptla-winfx-md.md)] runtime.  

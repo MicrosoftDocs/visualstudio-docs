@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic Texture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Basic Texture](https://docs.microsoft.com/visualstudio/designers/how-to-create-a-basic-texture).  
   
 This document demonstrates how to use the Image Editor to create a basic texture.  
   

@@ -28,7 +28,6 @@ manager: "ghogen"
 # When Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [When Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/when-element-msbuild).  
   
   
 Specifies a possible block of code for the `Choose` element to select.  

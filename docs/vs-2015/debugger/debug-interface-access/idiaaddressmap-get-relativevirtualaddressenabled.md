@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::get_relativeVirtualAddressEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaAddressMap::get_relativeVirtualAddressEnabled](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled).  
   
 Indicates whether the calculation and use of relative virtual addresses (RVA) is enabled.  
   

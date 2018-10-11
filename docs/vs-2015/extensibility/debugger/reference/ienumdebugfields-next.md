@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugFields::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugFields::Next](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugfields-next).  
   
 This method returns the next set of elements from the enumeration.  
   

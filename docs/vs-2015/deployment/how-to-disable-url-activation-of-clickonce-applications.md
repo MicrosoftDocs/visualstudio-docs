@@ -26,7 +26,6 @@ manager: "wpickett"
 # How to: Disable URL Activation of ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Disable URL Activation of ClickOnce Applications](https://docs.microsoft.com/visualstudio/deployment/how-to-disable-url-activation-of-clickonce-applications).  
   
 Typically, a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application will launch automatically immediately after it is installed from a Web server. For security reasons, you may decide to disable this behavior, and tell users to launch the application from the **Start** menu instead. The following procedure describes how to disable URL activation.  
   

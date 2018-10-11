@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 7: Keep Pairs Visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 7: Keep Pairs Visible](https://docs.microsoft.com/visualstudio/ide/step-7-keep-pairs-visible).  
   
 The game works well, as long as the player only chooses pairs of icons that don't match. But consider what should happen when the player chooses a matching pair. Instead of making the icons disappear by turning on the timer (using the `Start()` method), the game should reset itself so that it's no longer keeping track of any labels using the `firstClicked` and `secondClicked` reference variables, without resetting the colors for the two labels that were chosen.  
   

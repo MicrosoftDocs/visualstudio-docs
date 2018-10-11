@@ -23,7 +23,6 @@ manager: "ghogen"
 # AssignProjectConfiguration Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AssignProjectConfiguration Task](https://docs.microsoft.com/visualstudio/msbuild/assignprojectconfiguration-task).  
   
   
 This task accepts a list configuration strings and assigns them to specified projects.  

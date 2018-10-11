@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer](https://docs.microsoft.com/visualstudio/debugger/error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer).  
   
 This error means that the Visual Studio Remote Debugger service is running under a user account that cannot authenticate when it tries to connect to the computer that you are debugging from.  
   

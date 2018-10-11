@@ -21,7 +21,6 @@ manager: "ghogen"
 # CATIDs for Objects That Are Typically Used to Extend Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CATIDs for Objects That Are Typically Used to Extend Projects](https://docs.microsoft.com/visualstudio/extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects).  
   
 The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)], [!INCLUDE[csprcs](../../includes/csprcs-md.md)], and [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] projects. These CATIDs are defined in VSLangProj.olb.  
   

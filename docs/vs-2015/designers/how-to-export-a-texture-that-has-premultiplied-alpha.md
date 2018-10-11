@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Export a Texture that has Premultiplied Alpha
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Export a Texture that has Premultiplied Alpha](https://docs.microsoft.com/visualstudio/designers/how-to-export-a-texture-that-has-premultiplied-alpha).  
   
 The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that do not contain premultiplied alpha.  
   

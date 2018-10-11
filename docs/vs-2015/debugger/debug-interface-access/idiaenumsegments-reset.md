@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments::Reset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSegments::Reset](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsegments-reset).  
   
 Resets an enumeration sequence to the beginning.  
   

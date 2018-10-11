@@ -19,7 +19,6 @@ manager: "ghogen"
 # Project Type Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Type Essentials](https://docs.microsoft.com/visualstudio/extensibility/internals/project-type-essentials).  
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../includes/csprcs-md.md)] or [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)]. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] also lets you create your own project types.  
   

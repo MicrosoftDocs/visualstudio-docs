@@ -21,7 +21,6 @@ manager: "ghogen"
 # PENDING_BP_STATE_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PENDING_BP_STATE_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/pending-bp-state-flags).  
   
 Specifies the pending breakpoint state flags.  
   

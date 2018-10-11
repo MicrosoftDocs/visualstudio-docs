@@ -26,7 +26,6 @@ manager: "ghogen"
 # Walkthrough: Debugging a Multithreaded Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging a Multithreaded App using the Threads Window](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-threads-window).  
   
 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] provides an improved **Threads** window and other user interface improvements to make it easier to debug multithreaded applications. This walkthrough takes only a few minutes, but completing it will familiarize you with the new interface features for debugging multithreaded applications.  
   

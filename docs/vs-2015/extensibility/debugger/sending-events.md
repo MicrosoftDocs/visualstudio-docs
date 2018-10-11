@@ -19,7 +19,6 @@ manager: "ghogen"
 # Sending Events
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sending Events](https://docs.microsoft.com/visualstudio/extensibility/debugger/sending-events).  
   
 The mechanism for communication between the debugger and the debug engine (DE) is an event model based on DCOM. Events are sent as COM objects, and each event has parameters that specify the following:  
   

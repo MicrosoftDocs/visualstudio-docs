@@ -18,7 +18,6 @@ manager: "ghogen"
 # Organize objects into layout containers in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Organize objects into layout containers in XAML Designer](https://docs.microsoft.com/visualstudio/designers/organize-objects-into-layout-containers-in-xaml-designer).  
   
 Imagine where you’d like objects to appear on a page; objects such as images, buttons, and videos. Maybe you want them to appear in rows and columns, in a single line vertically or horizontally, or in fixed positions.  
   

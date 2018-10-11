@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Create and Edit an XSD Schema File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create and Edit an XSD Schema File](https://docs.microsoft.com/visualstudio/xml-tools/how-to-create-and-edit-an-xsd-schema-file).  
   
   
 This topic describes how to create a new XML Schema (XSD) file and then add content to the XSD file.  

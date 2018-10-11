@@ -18,7 +18,6 @@ manager: "douge"
 # Manage models and diagrams under version control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Manage models and diagrams under version control](https://docs.microsoft.com/visualstudio/modeling/manage-models-and-diagrams-under-version-control).  
   
 Manage different versions of your modeling projects and diagrams, including code maps (.dgml files), by using [use Team Foundation version control or Git](http://msdn.microsoft.com/library/33267cee-fe5f-4aa3-b2cd-6d22ceace314); either with on-premises Team Foundation Server or in the cloud with Visual Studio Team Services.  
   

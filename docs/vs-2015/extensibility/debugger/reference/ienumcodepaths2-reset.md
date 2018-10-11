@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumCodePaths2::Reset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumCodePaths2::Reset](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumcodepaths2-reset).  
   
 Resets the enumeration to the first element.  
   

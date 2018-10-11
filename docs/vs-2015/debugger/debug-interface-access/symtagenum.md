@@ -22,7 +22,6 @@ manager: "ghogen"
 # SymTagEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SymTagEnum](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/symtagenum).  
   
 Specifies the type of symbol.  
   

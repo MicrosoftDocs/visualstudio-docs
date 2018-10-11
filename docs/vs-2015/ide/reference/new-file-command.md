@@ -23,7 +23,6 @@ manager: "ghogen"
 # New File Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [New File Command](https://docs.microsoft.com/visualstudio/ide/reference/new-file-command).  
   
   
 Creates a new file and opens it. The file appears under the Miscellaneous Files folder.  

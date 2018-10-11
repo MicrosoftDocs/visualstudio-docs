@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2208: Instantiate argument exceptions correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2208: Instantiate argument exceptions correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2208-instantiate-argument-exceptions-correctly).
 
 |||
 |-|-|

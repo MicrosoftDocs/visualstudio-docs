@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile::get_fileName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSourceFile::get_fileName](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasourcefile-get-filename).  
   
 Retrieves the source file name.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_lengthParams
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_lengthParams](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-lengthparams).  
   
 Retrieves the number of bytes of parameters pushed on the stack.  
   

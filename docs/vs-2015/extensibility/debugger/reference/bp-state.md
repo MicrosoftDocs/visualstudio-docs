@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_STATE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_STATE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-state).  
   
 Specifies the existence of a bound breakpoint and also specifies if it is enabled.  
   

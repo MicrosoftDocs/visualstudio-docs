@@ -22,7 +22,6 @@ manager: "wpickett"
 # How to: Customize the Code Analysis Dictionary
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Customize the Code Analysis Dictionary](https://docs.microsoft.com/visualstudio/code-quality/how-to-customize-the-code-analysis-dictionary).  
   
 Code Analysis uses a built-in dictionary to check identifiers in your code for errors in spelling, grammatical case, and other naming conventions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] guidelines. You can create a custom dictionary Xml file to add, remove, or modify terms, abbreviations, and acronyms to the built-in dictionary.  
   

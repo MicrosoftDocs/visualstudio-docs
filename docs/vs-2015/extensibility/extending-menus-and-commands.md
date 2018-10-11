@@ -21,7 +21,6 @@ manager: "ghogen"
 # Extending Menus and Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending Menus and Commands](https://docs.microsoft.com/visualstudio/extensibility/extending-menus-and-commands).  
   
 Commands are the way you add actions and processes to Visual Studio. In most cases commands are displayed on menus or toolbars. The VSPackage project template shows how to implement a very basic command. For a slightly longer but still basic implementation, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Support for User Settings
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Support for User Settings](https://docs.microsoft.com/visualstudio/extensibility/internals/support-for-user-settings).  
   
 A VSPackage may define one or more settings categories, which are groups of state variables that persist when a user chooses the **Import/Export Settings** command on the **Tools** menu. To enable this persistence, you use the settings APIs in the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)].  
   

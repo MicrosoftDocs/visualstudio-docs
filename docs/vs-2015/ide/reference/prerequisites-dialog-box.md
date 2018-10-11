@@ -26,7 +26,6 @@ manager: "ghogen"
 # Prerequisites Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Prerequisites Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/prerequisites-dialog-box).  
   
   
 This dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.  

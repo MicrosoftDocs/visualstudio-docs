@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0506: Maximum Private Bytes allocated for the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0506: Maximum Private Bytes allocated for the Process being profiled](https://docs.microsoft.com/visualstudio/profiling/da0506-maximum-private-bytes-allocated-for-the-process-being-profiled).  
   
 Rule Id|DA0506|  
 |Category|Resource Monitoring|  

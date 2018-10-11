@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramProvider2::SetLocale
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramProvider2::SetLocale](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramprovider2-setlocale).  
   
 Establishes a locale to be used for any locale-specific resources.  
   

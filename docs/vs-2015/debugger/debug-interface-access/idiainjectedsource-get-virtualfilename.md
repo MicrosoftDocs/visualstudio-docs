@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_virtualFilename
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaInjectedSource::get_virtualFilename](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiainjectedsource-get-virtualfilename).  
   
 Retrieves the name given to non-file source code; that is, code that was injected.  
   

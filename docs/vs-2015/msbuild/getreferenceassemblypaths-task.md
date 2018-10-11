@@ -23,7 +23,6 @@ manager: "ghogen"
 # GetReferenceAssemblyPaths Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GetReferenceAssemblyPaths Task](https://docs.microsoft.com/visualstudio/msbuild/getreferenceassemblypaths-task).  
   
   
 Returns the reference assembly paths of the various frameworks.  

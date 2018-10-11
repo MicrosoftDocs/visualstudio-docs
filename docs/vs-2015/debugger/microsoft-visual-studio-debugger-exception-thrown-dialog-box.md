@@ -30,7 +30,6 @@ manager: "ghogen"
 # Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box](https://docs.microsoft.com/visualstudio/debugger/microsoft-visual-studio-debugger-exception-thrown-dialog-box).  
   
 An exception has occurred in your program. This dialog box reports the kind of exception thrown. Your code needs to handle this exception. You can choose between the following options for handling the exception:  
   

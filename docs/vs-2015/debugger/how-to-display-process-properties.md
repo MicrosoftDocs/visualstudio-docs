@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Display Process Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display Process Properties](https://docs.microsoft.com/visualstudio/debugger/how-to-display-process-properties).  
   
 To find out more about a process listed in [Processes View](../debugger/processes-view.md), use the [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md).  
   

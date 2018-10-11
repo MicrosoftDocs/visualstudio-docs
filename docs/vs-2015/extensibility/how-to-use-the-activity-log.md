@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Use the Activity Log
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use the Activity Log](https://docs.microsoft.com/visualstudio/extensibility/how-to-use-the-activity-log).  
   
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.  
   

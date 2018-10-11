@@ -19,7 +19,6 @@ manager: "ghogen"
 # Program Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Program Control](https://docs.microsoft.com/visualstudio/extensibility/debugger/program-control).  
   
 In Visual Studio debugging, all of the following stepping and continuing routines occur at the program level:  
   

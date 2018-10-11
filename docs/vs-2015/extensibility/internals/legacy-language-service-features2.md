@@ -19,7 +19,6 @@ manager: "ghogen"
 # Legacy Language Service Features
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Features2](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-features2).  
   
 The following topics list some of the legacy language service features you can provide.  
   

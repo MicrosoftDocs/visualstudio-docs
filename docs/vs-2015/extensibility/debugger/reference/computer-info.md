@@ -19,7 +19,6 @@ manager: "ghogen"
 # COMPUTER_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [COMPUTER_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/computer-info).  
   
 Describes the computer on which the debugger is running.  
   

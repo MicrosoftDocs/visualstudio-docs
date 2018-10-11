@@ -19,7 +19,6 @@ manager: "ghogen"
 # Processes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Processes](https://docs.microsoft.com/visualstudio/extensibility/debugger/processes).  
   
 In terms of the debugger architecture, a **process**:  
   

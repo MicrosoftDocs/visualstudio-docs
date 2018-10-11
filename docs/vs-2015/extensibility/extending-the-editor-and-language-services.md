@@ -19,7 +19,6 @@ manager: "ghogen"
 # Extending the Editor and Language Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending the Editor and Language Services](https://docs.microsoft.com/visualstudio/extensibility/extending-the-editor-and-language-services).  
   
 You can add language service features (such as IntelliSense) to your own editor, and extend most features of the Visual Studio code editor.  For a full list of what you can extend, see [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md).  
   

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Strings Used as Keys for Finding a Source Control Plug-in
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Strings Used as Keys for Finding a Source Control Plug-in](https://docs.microsoft.com/visualstudio/extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in).  
   
 The following strings are the keys for accessing the registry to find information about the source control plug-in.  
   

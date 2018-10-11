@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcessEx2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessEx2::Attach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocessex2-attach).  
   
 This method informs the process that a session is now debugging the process.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::Terminate
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator2::Terminate](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator2-terminate).  
   
 Stops and cleans up the expression evaluator.  
   

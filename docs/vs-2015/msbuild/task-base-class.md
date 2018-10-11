@@ -23,7 +23,6 @@ manager: "ghogen"
 # Task Base Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Task Base Class](https://docs.microsoft.com/visualstudio/msbuild/task-base-class).  
   
   
 Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> class. This class adds several parameters to the tasks that derive from them. These parameters are listed in this document.  

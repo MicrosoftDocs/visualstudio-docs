@@ -31,7 +31,6 @@ manager: "ghogen"
 # How Can I Find Out If My Pointers Corrupt a Memory Address?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How Can I Find Out If My Pointers Corrupt a Memory Address?](https://docs.microsoft.com/visualstudio/debugger/how-can-i-find-out-if-my-pointers-corrupt-a-memory-address-q).  
   
 Problem Description  
  I think that one of my pointers may be corrupting memory at address 0x00408000. How can I find out what is happening there?  

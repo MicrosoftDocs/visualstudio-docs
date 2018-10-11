@@ -25,7 +25,6 @@ manager: "wpickett"
 # ClickOnce Application Manifest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ClickOnce Application Manifest](https://docs.microsoft.com/visualstudio/deployment/clickonce-application-manifest).  
   
 A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest is an XML file that describes an application that is deployed using [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)].  
   

@@ -33,7 +33,6 @@ manager: "ghogen"
 # How to: Use the Threads Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging a Multithreaded App using the Threads Window](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-threads-window).  
   
 In the **Threads** window, you can examine and work with threads in the application that you are debugging.  
   

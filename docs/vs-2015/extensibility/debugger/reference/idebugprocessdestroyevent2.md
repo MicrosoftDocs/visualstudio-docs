@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcessDestroyEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessDestroyEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocessdestroyevent2).  
   
 This interface is sent when a process is terminated, exits atypically, or is detached from.  
   

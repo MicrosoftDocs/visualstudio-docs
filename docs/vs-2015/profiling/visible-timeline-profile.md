@@ -22,7 +22,6 @@ manager: "ghogen"
 # Visible Timeline Profile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visible Timeline Profile](https://docs.microsoft.com/visualstudio/profiling/visible-timeline-profile).  
   
 The Visible Timeline Profile for the Thread Blocking View provides statistical information and links to reports. As you zoom in, zoom out, scroll horizontally, hide channels, or show channels, the numbers in the active legend change to reflect what is currently in view. To view a report about an item in the Legend, click the item.  
   

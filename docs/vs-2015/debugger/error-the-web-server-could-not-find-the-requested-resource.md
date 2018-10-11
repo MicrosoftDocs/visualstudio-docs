@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: The Web Server Could Not Find the Requested Resource
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: The Web Server Could Not Find the Requested Resource](https://docs.microsoft.com/visualstudio/debugger/error-the-web-server-could-not-find-the-requested-resource).  
   
 Due to security considerations, IIS has returned a generic error.  
   

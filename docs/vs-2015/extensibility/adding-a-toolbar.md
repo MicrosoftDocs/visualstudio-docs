@@ -20,7 +20,6 @@ manager: "ghogen"
 # Adding a Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Toolbar](https://docs.microsoft.com/visualstudio/extensibility/adding-a-toolbar).  
   
 This walkthrough shows how to add a toolbar to the Visual Studio IDE.  
   

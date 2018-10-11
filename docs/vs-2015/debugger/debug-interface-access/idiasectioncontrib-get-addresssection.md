@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_addressSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_addressSection](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-addresssection).  
   
 Retrieves the section part of the contribution's address.  
   

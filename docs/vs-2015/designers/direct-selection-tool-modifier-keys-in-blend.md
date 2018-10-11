@@ -18,7 +18,6 @@ manager: "ghogen"
 # Direct Selection tool modifier keys in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Direct Selection tool modifier keys in Blend](https://docs.microsoft.com/visualstudio/designers/direct-selection-tool-modifier-keys-in-blend).  
   
 The following table lists shortcuts that you can use to modify the shape of an existing path with the **Direct Selection** tool ![](../designers/media/6dd6571f-c116-451d-8dd2-1f88b8406362.png "6dd6571f-c116-451d-8dd2-1f88b8406362"). To add or remove points on an existing path, or to join two existing paths, use the **Pen** tool.  
   

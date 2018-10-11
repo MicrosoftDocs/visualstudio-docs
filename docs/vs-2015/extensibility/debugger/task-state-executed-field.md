@@ -19,7 +19,6 @@ manager: "ghogen"
 # TASK_STATE_EXECUTED Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TASK_STATE_EXECUTED Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/task-state-executed-field).  
   
 The task is running but has not yet completed.  
   

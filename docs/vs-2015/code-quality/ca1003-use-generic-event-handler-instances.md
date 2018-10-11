@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1003: Use generic event handler instances
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1003: Use generic event handler instances](https://docs.microsoft.com/visualstudio/code-quality/ca1003-use-generic-event-handler-instances).
 
 |||
 |-|-|

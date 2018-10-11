@@ -19,7 +19,6 @@ manager: "ghogen"
 # Core Interfaces
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Core Interfaces](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/core-interfaces).  
   
 The following interfaces are the core interfaces for extending debugger by using the [!INCLUDE[vsipsdk](../../../includes/vsipsdk-md.md)].  
   

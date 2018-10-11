@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1810: Initialize reference type static fields inline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1810: Initialize reference type static fields inline](https://docs.microsoft.com/visualstudio/code-quality/ca1810-initialize-reference-type-static-fields-inline).
 
 |||
 |-|-|

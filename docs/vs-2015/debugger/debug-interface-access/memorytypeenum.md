@@ -22,7 +22,6 @@ manager: "ghogen"
 # MemoryTypeEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MemoryTypeEnum](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/memorytypeenum).  
   
 Specifies the type of memory to access.  
   

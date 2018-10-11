@@ -28,7 +28,6 @@ manager: "ghogen"
 # Use Regular Expressions in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Regular Expressions in Visual Studio](https://docs.microsoft.com/visualstudio/ide/using-regular-expressions-in-visual-studio).
 
 Visual Studio uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](http://msdn.microsoft.com/library/521b3f6d-f869-42e1-93e5-158c54a6895d).
 

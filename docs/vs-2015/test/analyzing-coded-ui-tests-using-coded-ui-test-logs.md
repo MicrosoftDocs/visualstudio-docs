@@ -17,7 +17,6 @@ manager: "douge"
 # Analyzing Coded UI Tests Using Coded UI Test Logs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyzing Coded UI Tests Using Coded UI Test Logs](https://docs.microsoft.com/visualstudio/test/analyzing-coded-ui-tests-using-coded-ui-test-logs).  
   
 Coded UI test logs filter and record important information about your coded UI test runs.  
   

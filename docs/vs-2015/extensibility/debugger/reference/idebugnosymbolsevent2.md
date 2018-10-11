@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugNoSymbolsEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugNoSymbolsEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugnosymbolsevent2).  
   
 Signals the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] debugger UI to warn the user that symbols could not be located for the launched executable.  
   

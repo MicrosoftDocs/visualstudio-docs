@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Instrument a .NET Service and Collect Detailed Timing Data by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Instrument a .NET Service and Collect Detailed Timing Data by Using the Profiler Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line).  
   
 This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] Profiling Tools command-line tools to instrument a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] service and collect detailed timing data.  
   

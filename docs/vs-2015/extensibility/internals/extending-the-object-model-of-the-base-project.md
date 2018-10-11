@@ -21,7 +21,6 @@ manager: "ghogen"
 # Extending the Object Model of the Base Project
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending the Object Model of the Base Project](https://docs.microsoft.com/visualstudio/extensibility/internals/extending-the-object-model-of-the-base-project).  
   
 A project subtype may extend the automation object model of the base project in the following places:  
   

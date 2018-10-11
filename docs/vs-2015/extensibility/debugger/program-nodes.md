@@ -22,7 +22,6 @@ manager: "ghogen"
 # Program Nodes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Program Nodes](https://docs.microsoft.com/visualstudio/extensibility/debugger/program-nodes).  
   
 In terms of the debugger architecture, a **program node**:  
   

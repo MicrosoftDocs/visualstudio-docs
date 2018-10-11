@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1824: Mark assemblies with NeutralResourcesLanguageAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1824: Mark assemblies with NeutralResourcesLanguageAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1824-mark-assemblies-with-neutralresourceslanguageattribute).
 
 |||
 |-|-|

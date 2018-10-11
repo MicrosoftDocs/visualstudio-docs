@@ -16,7 +16,6 @@ manager: "ghogen"
 # One or more selected database objects return a schema that does not match the schema of the target class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [One or more selected database objects return a schema that does not match the schema of the target class](https://docs.microsoft.com/visualstudio/data-tools/one-or-more-selected-database-objects-return-a-schema-that-does-not-match-the-schema-of-the-target-class).  
   
   
 One or more selected database objects return a schema that does not match the schema of the target class. Nothing has been added to the designer.  

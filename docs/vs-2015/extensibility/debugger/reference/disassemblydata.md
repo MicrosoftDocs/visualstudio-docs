@@ -21,7 +21,6 @@ manager: "ghogen"
 # DisassemblyData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DisassemblyData](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/disassemblydata).  
   
 Describes one disassembly instruction for the integrated development environment (IDE) to display.  
   

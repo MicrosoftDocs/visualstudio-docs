@@ -19,7 +19,6 @@ manager: "ghogen"
 # Implementing a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Implementing a Legacy Language Service2](https://docs.microsoft.com/visualstudio/extensibility/internals/implementing-a-legacy-language-service2).  
   
 To implement a language service using the managed package framework (MPF), you must derive a class from the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the following abstract methods and properties:  
   

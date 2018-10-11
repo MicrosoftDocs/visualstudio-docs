@@ -22,7 +22,6 @@ manager: "ghogen"
 # Assembly Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Assembly Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/assembly-element-visual-studio-templates).  
   
 Specifies information about an assembly, which the template uses to add a reference of that assembly to projects.  
   

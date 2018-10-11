@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetDebugProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetDebugProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getdebugproperty).  
   
 Gets a description of the properties of a stack frame.  
   

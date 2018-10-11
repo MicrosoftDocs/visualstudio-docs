@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_thisAdjust
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_thisAdjust](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-thisadjust).  
   
 Retrieves the logical `this` adjustor for the method.  
   

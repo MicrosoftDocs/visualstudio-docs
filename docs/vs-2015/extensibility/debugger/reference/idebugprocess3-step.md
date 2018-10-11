@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess3::Step
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess3::Step](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess3-step).  
   
 Causes the process to step one instruction or statement.  
   

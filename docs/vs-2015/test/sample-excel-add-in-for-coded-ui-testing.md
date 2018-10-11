@@ -19,7 +19,6 @@ manager: "douge"
 # Sample Excel Add-In for Coded UI Testing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Excel Add-In for Coded UI Testing](https://docs.microsoft.com/visualstudio/test/sample-excel-add-in-for-coded-ui-testing).  
   
 This sample Add-In for [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] is designed specifically to support Coded UI Tests of Excel worksheets that are recorded and run in Visual Studio Enterprise. The Add-In is created by using Visual Studio Tools for Office.  
   

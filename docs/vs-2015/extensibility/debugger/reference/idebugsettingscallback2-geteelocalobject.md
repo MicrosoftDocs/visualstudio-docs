@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEELocalObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2::GetEELocalObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2-geteelocalobject).  
   
 Retrieves a expression evaluator local object given the metric name.  
   

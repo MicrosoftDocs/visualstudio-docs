@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier3::EnumPersistedPorts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplier3::EnumPersistedPorts](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplier3-enumpersistedports).  
   
 This method retrieves an object that allows enumeration of the list of persisted ports.  
   

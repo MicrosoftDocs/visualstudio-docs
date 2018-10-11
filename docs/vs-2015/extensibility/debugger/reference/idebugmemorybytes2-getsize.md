@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryBytes2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMemoryBytes2::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmemorybytes2-getsize).  
   
 Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object.  
   

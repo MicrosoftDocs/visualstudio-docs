@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugTypeFieldBuilder::CreatePrimitive
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugTypeFieldBuilder::CreatePrimitive](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugtypefieldbuilder-createprimitive).  
   
 Creates an object that represents a primitive type.  
   

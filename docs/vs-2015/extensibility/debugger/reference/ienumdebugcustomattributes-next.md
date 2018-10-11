@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugCustomAttributes::Next](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugcustomattributes-next).  
   
 Retrieves a specified number of custom attributes in an enumeration sequence.  
   

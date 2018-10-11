@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_offset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSegment::get_offset](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasegment-get-offset).  
   
 Retrieves the offset, in segments, where the section begins.  
   

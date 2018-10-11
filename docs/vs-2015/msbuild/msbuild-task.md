@@ -28,7 +28,6 @@ manager: "ghogen"
 # MSBuild Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Task](https://docs.microsoft.com/visualstudio/msbuild/msbuild-task).  
   
   
 Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from another [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project.  

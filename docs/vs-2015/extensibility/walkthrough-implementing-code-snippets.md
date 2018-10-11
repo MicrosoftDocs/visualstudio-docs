@@ -17,7 +17,6 @@ manager: "ghogen"
 # Walkthrough: Implementing Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Implementing Code Snippets](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-implementing-code-snippets).  
   
 You can create code snippets and include them in an editor extension so that users of the extension can add them to their own code.  
   

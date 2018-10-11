@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating a Custom Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Custom Debug Engine](https://docs.microsoft.com/visualstudio/extensibility/debugger/creating-a-custom-debug-engine).  
   
 A debug engine (DE) is a component that allows debugging of particular run-time architectures. There is typically only one DE implementation per run-time environment.  
   

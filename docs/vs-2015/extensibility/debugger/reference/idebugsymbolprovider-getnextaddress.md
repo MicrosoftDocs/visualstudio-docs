@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetNextAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetNextAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getnextaddress).  
   
 Gets the debug address that follows a given debug address in a method.  
   

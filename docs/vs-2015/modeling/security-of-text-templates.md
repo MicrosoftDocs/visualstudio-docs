@@ -18,7 +18,6 @@ manager: "douge"
 # Security of Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security of Text Templates](https://docs.microsoft.com/visualstudio/modeling/security-of-text-templates).  
   
 Text templates have the following security concerns:  
   

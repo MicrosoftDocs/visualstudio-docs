@@ -18,7 +18,6 @@ manager: "douge"
 # Get UML model elements from IDataObject
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Get UML model elements from IDataObject](https://docs.microsoft.com/visualstudio/modeling/get-uml-model-elements-from-idataobject).  
   
 When the user drags elements from any source onto a diagram, the dragged elements are encoded in a `System.Windows.Forms.IDataObject`. The encoding depends on the type of source object. The following fragment demonstrates how to retrieve the elements when the source is a UML diagram.  
   

@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2149: Transparent methods must not call into native code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2149: Transparent methods must not call into native code](https://docs.microsoft.com/visualstudio/code-quality/ca2149-transparent-methods-must-not-call-into-native-code).
 
 |||
 |-|-|

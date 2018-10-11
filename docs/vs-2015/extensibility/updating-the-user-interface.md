@@ -20,7 +20,6 @@ manager: "ghogen"
 # Updating the User Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Updating the User Interface](https://docs.microsoft.com/visualstudio/extensibility/updating-the-user-interface).  
   
 After you implement a command, you can add code to update the user interface with the state of your new commands.  
   

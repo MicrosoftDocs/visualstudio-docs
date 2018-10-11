@@ -20,7 +20,6 @@ manager: "douge"
 # Customizing Element Creation and Movement
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Element Creation and Movement](https://docs.microsoft.com/visualstudio/modeling/customizing-element-creation-and-movement).  
   
 You can allow an element to be dragged onto another, either from the toolbox or in a paste or move operation. You can have the moved elements linked to the target elements, using the relationships that you specify.  
   

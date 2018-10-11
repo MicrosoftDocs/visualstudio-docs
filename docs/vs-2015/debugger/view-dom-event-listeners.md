@@ -26,7 +26,6 @@ manager: "ghogen"
 # View DOM event listeners
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [View DOM event listeners](https://docs.microsoft.com/visualstudio/debugger/view-dom-event-listeners).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

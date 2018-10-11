@@ -16,7 +16,6 @@ manager: "douge"
 # Defining Shapes and Connectors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Defining Shapes and Connectors](https://docs.microsoft.com/visualstudio/modeling/defining-shapes-and-connectors).  
   
 There are several basic types of shapes that you can used to display information on a diagram in a domain-specific language (DSL).  
   

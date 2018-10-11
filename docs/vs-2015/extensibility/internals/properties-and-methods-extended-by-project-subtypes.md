@@ -20,7 +20,6 @@ manager: "ghogen"
 # Properties and Methods Extended by Project Subtypes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties and Methods Extended by Project Subtypes](https://docs.microsoft.com/visualstudio/extensibility/internals/properties-and-methods-extended-by-project-subtypes).  
   
 A project subtype has a lot of power to influence the behavior of the project because it is constructed as an aggregator of a base project. This section summarizes some of the features that can be enhanced or modified by project subtypes.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Solution (.Sln) File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Solution (.Sln) File](https://docs.microsoft.com/visualstudio/extensibility/internals/solution-dot-sln-file).  
   
 A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in .sln (text-based, shared) and .suo (binary, user-specific solution options) files. For further information on .suo files, see [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).  
   

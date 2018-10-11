@@ -26,7 +26,6 @@ manager: "wpickett"
 # How to: Specify a Start Menu Name for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify a Start Menu Name for a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-specify-a-start-menu-name-for-a-clickonce-application).  
   
 When a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is installed for both online and offline use, an entry is added to the **Start** menu and the **Add or Remove Programs** list. By default, the display name is the same as the name of the application assembly, but you can change the display name by setting **Product name** in the **Publish Options** dialog box.  
   

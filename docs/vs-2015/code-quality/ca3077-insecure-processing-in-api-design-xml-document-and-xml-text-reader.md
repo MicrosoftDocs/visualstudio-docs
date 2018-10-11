@@ -17,7 +17,6 @@ manager: "wpickett"
 # CA3077: Insecure Processing in API Design, XML Document and XML Text Reader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA3077: Insecure Processing in API Design, XML Document and XML Text Reader](https://docs.microsoft.com/visualstudio/code-quality/ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader).
 
 |||
 |-|-|

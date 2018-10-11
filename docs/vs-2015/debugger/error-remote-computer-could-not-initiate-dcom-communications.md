@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: Remote computer could not initiate DCOM communications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Remote computer could not initiate DCOM communications](https://docs.microsoft.com/visualstudio/debugger/error-remote-computer-could-not-initiate-dcom-communications).  
   
 A DCOM error occurred when the remote machine tried to communicate with the local machine. The local machine is the machine that is  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_functionStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_functionStart](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-functionstart).  
   
 Retrieves a flag that indicates whether the block contains the entry point of a function.  
   

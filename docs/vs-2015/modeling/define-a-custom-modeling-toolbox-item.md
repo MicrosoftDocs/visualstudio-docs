@@ -18,7 +18,6 @@ manager: "douge"
 # Define a custom modeling toolbox item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define a custom modeling toolbox item](https://docs.microsoft.com/visualstudio/modeling/define-a-custom-modeling-toolbox-item).  
   
 To make it easy to create an element or group of elements according to a pattern that you often use, you can add new tools to the toolbox of modeling diagrams in Visual Studio. You can distribute these toolbox items to other Visual Studio users.  
   

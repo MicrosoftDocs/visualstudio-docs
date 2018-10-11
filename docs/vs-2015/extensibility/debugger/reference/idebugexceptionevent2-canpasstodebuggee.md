@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExceptionEvent2::CanPassToDebuggee
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExceptionEvent2::CanPassToDebuggee](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexceptionevent2-canpasstodebuggee).  
   
 Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes.  
   

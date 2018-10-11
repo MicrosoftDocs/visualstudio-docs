@@ -19,7 +19,6 @@ manager: "ghogen"
 # Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Engine](https://docs.microsoft.com/visualstudio/extensibility/debugger/debug-engine).  
   
 A debug engine (DE) works with the interpreter or operating system to provide debugging services such as execution control, breakpoints, and expression evaluation. The DE is responsible for monitoring the state of a program being debugged. To do accomplish this, the DE uses whatever methods are available to it in the supported runtime, whether from the CPU or from APIs supplied by the runtime.  
   

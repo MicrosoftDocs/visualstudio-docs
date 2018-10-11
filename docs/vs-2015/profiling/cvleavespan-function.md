@@ -22,7 +22,6 @@ manager: "ghogen"
 # CvLeaveSpan Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvLeaveSpan Function](https://docs.microsoft.com/visualstudio/profiling/cvleavespan-function).  
   
 Marks the end of span.  
   

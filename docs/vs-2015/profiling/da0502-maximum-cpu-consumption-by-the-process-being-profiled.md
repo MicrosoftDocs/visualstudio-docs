@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0502: Maximum CPU consumption by the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0502: Maximum CPU consumption by the Process being profiled](https://docs.microsoft.com/visualstudio/profiling/da0502-maximum-cpu-consumption-by-the-process-being-profiled).  
   
 Rule Id|DA0502|  
 |Category|Resource Monitoring|  

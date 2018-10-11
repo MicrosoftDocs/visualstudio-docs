@@ -29,7 +29,6 @@ manager: "ghogen"
 # QuickStart: Debug JavaScript using the console
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [QuickStart: Debug JavaScript using the console](https://docs.microsoft.com/visualstudio/debugger/quickstart-debug-javascript-using-the-console).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

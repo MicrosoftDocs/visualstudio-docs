@@ -21,7 +21,6 @@ manager: "ghogen"
 # Getting Started with Performance Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with Performance Tools](https://docs.microsoft.com/visualstudio/profiling/getting-started-with-performance-tools).  
   
 This section provides an overview of the concepts and tasks that you will apply when you collect, view, and analyze code performance using the Visual Studio performance tools.  
   

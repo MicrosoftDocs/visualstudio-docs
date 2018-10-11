@@ -19,7 +19,6 @@ manager: "douge"
 # Add commands and gestures to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add commands and gestures to dependency diagrams](https://docs.microsoft.com/visualstudio/modeling/add-commands-and-gestures-to-layer-diagrams).  
   
 You can define context menu commands and gesture handlers on layer diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.  
   

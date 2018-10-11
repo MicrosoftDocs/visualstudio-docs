@@ -21,7 +21,6 @@ manager: "ghogen"
 # Debugger Components
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Components](https://docs.microsoft.com/visualstudio/extensibility/debugger/debugger-components).  
   
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:  
   

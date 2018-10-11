@@ -22,7 +22,6 @@ manager: "ghogen"
 # span Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [span Class](https://docs.microsoft.com/visualstudio/profiling/span-class).  
   
 Defines a phase of the application.  
   

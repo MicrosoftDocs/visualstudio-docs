@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaAddressMap](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaaddressmap).  
   
 Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects.  
   

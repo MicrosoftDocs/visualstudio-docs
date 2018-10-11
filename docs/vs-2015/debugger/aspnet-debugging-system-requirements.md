@@ -26,7 +26,6 @@ manager: "ghogen"
 # ASP.NET Debugging: System Requirements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ASP.NET Debugging: System Requirements](https://docs.microsoft.com/visualstudio/debugger/aspnet-debugging-system-requirements).  
   
 This topic describes the software and security requirements for [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] debugging scenarios:  
   

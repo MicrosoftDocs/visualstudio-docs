@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::Resume
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThread2::Resume](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthread2-resume).  
   
 Resumes execution of a thread.  
   

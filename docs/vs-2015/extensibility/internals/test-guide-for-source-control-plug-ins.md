@@ -23,7 +23,6 @@ manager: "ghogen"
 # Test Guide for Source Control Plug-ins
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Guide for Source Control Plug-ins](https://docs.microsoft.com/visualstudio/extensibility/internals/test-guide-for-source-control-plug-ins).  
   
 This section provides guidance for testing your source control plug-in with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. An extensive overview of the most common testing areas, as well as some of the more intricate areas that may be problematic is provided. This overview is not meant to be an exhaustive list of test cases.  
   

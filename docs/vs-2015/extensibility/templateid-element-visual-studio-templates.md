@@ -22,7 +22,6 @@ manager: "ghogen"
 # TemplateID Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TemplateID Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/templateid-element-visual-studio-templates).  
   
 Specifies an identifier for an item template that is categorized into a group of item templates by the [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md) element.  
   

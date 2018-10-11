@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_write
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSegment::get_write](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasegment-get-write).  
   
 Retrieves a flag that indicates whether the segment can be modified.  
   

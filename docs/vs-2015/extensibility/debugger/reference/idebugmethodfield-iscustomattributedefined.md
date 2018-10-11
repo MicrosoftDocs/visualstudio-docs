@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugMethodField::IsCustomAttributeDefined
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMethodField::IsCustomAttributeDefined](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmethodfield-iscustomattributedefined).  
   
 Determines whether a specific custom attribute has been defined.  
   

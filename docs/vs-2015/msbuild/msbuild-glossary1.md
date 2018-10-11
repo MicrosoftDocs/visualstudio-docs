@@ -18,7 +18,6 @@ manager: "ghogen"
 # MSBuild Glossary1
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Glossary](https://docs.microsoft.com/visualstudio/msbuild/msbuild-glossary).  
   
   
 These terms are used to describe the Microsoft Build Engine (MSBuild) and its components.  

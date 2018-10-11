@@ -28,7 +28,6 @@ manager: "wpickett"
 # ClickOnce Unmanaged API Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ClickOnce Unmanaged API Reference](https://docs.microsoft.com/visualstudio/deployment/clickonce-unmanaged-api-reference).  
   
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] unmanaged public APIs from dfshim.dll.  
   

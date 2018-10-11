@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: Missing Objects Due to Misconfigured Pipeline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Missing Objects Due to Misconfigured Pipeline](https://docs.microsoft.com/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-misconfigured-pipeline).  
   
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics tools to investigate an object that's missing due to an unset pixel shader.  
   

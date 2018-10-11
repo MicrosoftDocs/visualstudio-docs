@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess3::Execute
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess3::Execute](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess3-execute).  
   
 Continues running this process from a stopped state. Any previous execution state (such as a step) is cleared and the process starts executing again.  
   

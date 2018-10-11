@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0014: Extremely high rates of paging active memory to disk
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0014: Extremely high rates of paging active memory to disk](https://docs.microsoft.com/visualstudio/profiling/da0014-extremely-high-rates-of-paging-active-memory-to-disk).  
   
 Rule Id|DA0014|  
 |Category|Memory and Paging|  

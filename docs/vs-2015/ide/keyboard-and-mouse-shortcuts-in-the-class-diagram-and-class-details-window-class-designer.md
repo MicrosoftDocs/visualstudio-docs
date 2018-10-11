@@ -23,7 +23,6 @@ manager: "ghogen"
 # Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](https://docs.microsoft.com/visualstudio/ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer).  
   
 You can use the keyboard in addition to the mouse to perform navigational actions in Class Designer and in the **Class Details** window.  
   

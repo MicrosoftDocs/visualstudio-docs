@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetKind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::GetKind](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-getkind).  
   
 This method gets the kind of field.  
   

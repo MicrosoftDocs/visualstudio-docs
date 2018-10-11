@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_remove
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_remove](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-remove).  
   
 Retrieves a flag that indicates whether the section is removed before it is made part of the in-memory image.  
   

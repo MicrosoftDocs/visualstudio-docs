@@ -19,7 +19,6 @@ manager: "ghogen"
 # Single and Multi-tab Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Single and Multi-tab Views](https://docs.microsoft.com/visualstudio/extensibility/single-and-multi-tab-views).  
   
 An editor can create different types of views. One example is a code editor window, another is a forms designer.  
   

@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1014: Mark assemblies with CLSCompliantAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1014: Mark assemblies with CLSCompliantAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1014-mark-assemblies-with-clscompliantattribute).
 
 |||
 |-|-|

@@ -21,7 +21,6 @@ manager: "douge"
 # Layer Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Dependency Diagrams: Guidelines](https://docs.microsoft.com/visualstudio/modeling/layer-diagrams-guidelines).  
   
 Describe your app's architecture at a high level by creating *layer diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a layer diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).  
   

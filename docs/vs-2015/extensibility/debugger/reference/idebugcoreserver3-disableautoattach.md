@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::DisableAutoAttach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer3::DisableAutoAttach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver3-disableautoattach).  
   
 Disables automatic attaching for all debug engines associated with this server.  
   

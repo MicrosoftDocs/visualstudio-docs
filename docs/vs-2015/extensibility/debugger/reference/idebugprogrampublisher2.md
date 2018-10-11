@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramPublisher2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramPublisher2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogrampublisher2).  
   
 This interface allows a debug engine (DE) or custom port suppliers to register programs for debugging.  
   

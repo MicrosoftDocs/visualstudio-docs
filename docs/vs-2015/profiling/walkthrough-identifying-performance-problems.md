@@ -23,7 +23,6 @@ manager: "ghogen"
 # Walkthrough: Identifying Performance Problems
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Identifying Performance Problems](https://docs.microsoft.com/visualstudio/profiling/walkthrough-identifying-performance-problems).  
   
 This walkthrough demonstrates how to profile an application to identify performance problems.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Graphics Event Call Stack
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Event Call Stack](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-event-call-stack).  
   
 The Graphics Event Call Stack in Visual Studio Graphics Analyzer helps you map the relationship between problematic graphics events and your app's source code.  
   

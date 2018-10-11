@@ -18,7 +18,6 @@ manager: "douge"
 # Define a menu command on a modeling diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define a menu command on a modeling diagram](https://docs.microsoft.com/visualstudio/modeling/define-a-menu-command-on-a-modeling-diagram).  
   
 In Visual Studio, you can define additional menu items on the shortcut menus of a UML diagram. You can control whether the menu command appears and is enabled on the shortcut menu of any element on the diagram, and you can write code that runs when the user chooses the menu item. You can package these extensions into a Visual Studio Integration Extension ([VSIX](http://go.microsoft.com/fwlink/?LinkId=160780)) and distribute it to other Visual Studio users.  
   

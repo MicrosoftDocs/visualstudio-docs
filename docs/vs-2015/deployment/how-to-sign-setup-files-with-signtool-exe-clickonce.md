@@ -28,7 +28,6 @@ manager: "wpickett"
 # How to: Sign Setup Files with SignTool.exe (ClickOnce)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Sign Setup Files with SignTool.exe (ClickOnce)](https://docs.microsoft.com/visualstudio/deployment/how-to-sign-setup-files-with-signtool-exe-clickonce).  
   
 You can use SignTool.exe to sign a Setup program (setup.exe). This process helps ensure that tampered files are not installed on end-user computers.  
   

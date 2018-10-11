@@ -30,7 +30,6 @@ manager: "ghogen"
 # Stale Code Warning Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Stale Code Warning Dialog Box](https://docs.microsoft.com/visualstudio/debugger/stale-code-warning-dialog-box).  
   
 This dialog box appears when you have made changes to native code that **Edit and Continue** could not immediately apply. As a result, some native code in the current stack frame is now out of date, that is, stale. For more information, see [How to: Work with Stale Code](http://msdn.microsoft.com/en-us/c7536e95-66a6-44a0-995d-3fe5035250b4).  
   

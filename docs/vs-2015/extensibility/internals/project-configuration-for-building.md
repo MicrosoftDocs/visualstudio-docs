@@ -20,7 +20,6 @@ manager: "ghogen"
 # Project Configuration for Building
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Configuration for Building](https://docs.microsoft.com/visualstudio/extensibility/internals/project-configuration-for-building).  
   
 The list of solution configurations for a given solution is managed by the Solution Configurations dialog box.  
   

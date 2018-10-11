@@ -22,7 +22,6 @@ manager: "ghogen"
 # Legacy Language Service Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Essentials](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-essentials).  
   
 You must provide a language service to integrate a programming language into Visual Studio. This topic explains the features available in legacy language services.  
   

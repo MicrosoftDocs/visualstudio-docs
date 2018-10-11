@@ -32,7 +32,6 @@ manager: "ghogen"
 # How Can I Debug Windows API Functions?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How Can I Debug Windows API Functions?](https://docs.microsoft.com/visualstudio/debugger/how-can-i-debug-windows-api-functions-q).  
   
 If you want to debug a Windows API function that has NT symbols loaded, you must do the following.  
   

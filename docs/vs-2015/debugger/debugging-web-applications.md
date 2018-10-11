@@ -28,7 +28,6 @@ manager: "ghogen"
 # Debugging Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Web Applications](https://docs.microsoft.com/visualstudio/debugger/debugging-web-applications).  
   
 This section explains how to debug several types of Web applications.  
   

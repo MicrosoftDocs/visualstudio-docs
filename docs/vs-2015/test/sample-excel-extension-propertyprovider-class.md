@@ -17,7 +17,6 @@ manager: "douge"
 # Sample Excel Extension: PropertyProvider Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Excel Extension: PropertyProvider Class](https://docs.microsoft.com/visualstudio/test/sample-excel-extension-propertyprovider-class).  
   
 This internal class extends the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> class and provides property services for [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] elements to record and play back user interface (UI) tests.  
   

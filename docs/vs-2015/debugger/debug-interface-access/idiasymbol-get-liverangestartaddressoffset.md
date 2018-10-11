@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_liveRangeStartAddressOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_liveRangeStartAddressOffset](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-liverangestartaddressoffset).  
   
 Returns the offset part of the starting address of the range in which the local symbol is valid.  
   

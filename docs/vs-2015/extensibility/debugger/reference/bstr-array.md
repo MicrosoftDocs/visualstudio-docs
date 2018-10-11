@@ -21,7 +21,6 @@ manager: "ghogen"
 # BSTR_ARRAY
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BSTR_ARRAY](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bstr-array).  
   
 A structure that describes an array of strings.  
   

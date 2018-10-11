@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccOpenProject Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccOpenProject Function](https://docs.microsoft.com/visualstudio/extensibility/sccopenproject-function).  
   
 This function opens an existing source control project or creates a new one.  
   

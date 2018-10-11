@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_informational
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_informational](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-informational).  
   
 Retrieves a flag indicating whether a section contains comments or similar information.  
   

@@ -25,7 +25,6 @@ manager: "ghogen"
 # Working with Class Diagrams (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with Class Diagrams (Class Designer)](https://docs.microsoft.com/visualstudio/ide/working-with-class-diagrams-class-designer).  
   
 Class diagrams help you understand the class structure of projects others have written (or that you wrote a long time ago). You can use them to customize, share and present project information with others.  
   

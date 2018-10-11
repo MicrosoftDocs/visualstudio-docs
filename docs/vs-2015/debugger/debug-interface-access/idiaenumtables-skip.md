@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumTables::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumTables::Skip](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumtables-skip).  
   
 Skips a specified number of tables in an enumeration sequence.  
   

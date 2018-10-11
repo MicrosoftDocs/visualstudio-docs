@@ -22,7 +22,6 @@ manager: "ghogen"
 # Execution Time (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Execution Time (Threads View)](https://docs.microsoft.com/visualstudio/profiling/execution-time-threads-view).  
   
 These segments in the Threads View timeline represent execution time, when the thread is actively doing work on a logical core in the system.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-getsize).  
   
 This method gets the size of a field, in bytes.  
   

@@ -25,7 +25,6 @@ manager: "wpickett"
 # Performance Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Warnings](https://docs.microsoft.com/visualstudio/code-quality/performance-warnings).  
   
 Performance warnings support high-performance libraries and applications.  
   

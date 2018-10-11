@@ -18,7 +18,6 @@ manager: "ghogen"
 # Collecting Concurrency Data for a Service by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Concurrency Data for a Service by Using the Profiler Command Line](https://docs.microsoft.com/visualstudio/profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line).  
   
 The concurrency method of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools enables you to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped IO, and other system events.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Support for Project and Configuration Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Support for Project and Configuration Properties](https://docs.microsoft.com/visualstudio/extensibility/internals/support-for-project-and-configuration-properties).  
   
 The **Properties** window in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) can display project and configuration properties. You can provide a property page for your own project type so that the user can set properties for your application.  
   

@@ -14,7 +14,6 @@ manager: "ghogen"
 # Manifest to Code
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Manifest to Code](https://docs.microsoft.com/visualstudio/extensibility/internals/manifest-to-code).  
   
 The Manifest to Code tool is a console application that takes an .imagemanifest file for the Visual Studio Image Service and generates a wrapper file or files for referencing the image manifest’s values in C++, C#, VB, or .vsct files for Visual Studio extensions. This tool generates wrapper files that can be used for requesting images from the Visual Studio Image Service directly, or for passing the manifest values through APIs if the code does not handle any of its own UI and rendering.  
   

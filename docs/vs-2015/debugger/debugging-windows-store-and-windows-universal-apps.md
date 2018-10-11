@@ -23,7 +23,6 @@ manager: "ghogen"
 # Debugging Windows Store and Windows Universal apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Windows Store and Windows Universal apps](https://docs.microsoft.com/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps).  
   
 The Visual Studio debugger provides complete support for debugging Windows Store apps.  
   

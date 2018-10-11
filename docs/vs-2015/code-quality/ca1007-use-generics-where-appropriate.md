@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1007: Use generics where appropriate
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1007: Use generics where appropriate](https://docs.microsoft.com/visualstudio/code-quality/ca1007-use-generics-where-appropriate).
 
 |||
 |-|-|

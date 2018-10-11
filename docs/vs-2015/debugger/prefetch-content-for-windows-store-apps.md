@@ -23,7 +23,6 @@ manager: "ghogen"
 # Prefetch content for Windows Store apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Prefetch content for Windows Store apps](https://docs.microsoft.com/visualstudio/debugger/prefetch-content-for-windows-store-apps).  
   
 Applies to Windows only](../Image/windows_only_content.png "windows_only_content")  
   

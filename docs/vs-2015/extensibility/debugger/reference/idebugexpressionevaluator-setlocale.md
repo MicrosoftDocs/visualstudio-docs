@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::SetLocale
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator::SetLocale](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator-setlocale).  
   
 This method sets the language to use to create printable results.  
   

@@ -29,7 +29,6 @@ manager: "wpickett"
 # How to: Manage Updates for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Manage Updates for a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-manage-updates-for-a-clickonce-application).  
   
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications can check for updates automatically or programmatically. As a developer, you have lots of flexibility in specifying when and how update checks are performed, whether updates are mandatory, and where the application should check for updates.  
   

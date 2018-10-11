@@ -21,7 +21,6 @@ manager: "wpickett"
 # How to: Create a Work Item for a Managed Code Defect
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Work Item for a Managed Code Defect](https://docs.microsoft.com/visualstudio/code-quality/how-to-create-a-work-item-for-a-managed-code-defect).  
   
 You can use the work item tracking feature to log work item from within [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]. To use this feature, your project must be part of Team Project in [!INCLUDE[esprfound](../includes/esprfound-md.md)].  
   

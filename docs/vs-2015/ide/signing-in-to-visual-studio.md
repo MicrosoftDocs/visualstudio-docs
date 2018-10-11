@@ -18,7 +18,6 @@ manager: "ghogen"
 # Signing in to Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sign in to Visual Studio](https://docs.microsoft.com/visualstudio/ide/signing-in-to-visual-studio).  
   
 You can personalize and optimize your development experience in Visual Studio if you set your Personalization account by signing in to the IDE.  
   

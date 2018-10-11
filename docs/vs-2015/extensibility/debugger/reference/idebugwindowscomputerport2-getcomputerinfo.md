@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugWindowsComputerPort2::GetComputerInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugWindowsComputerPort2::GetComputerInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo).  
   
 Retrieves information about the computer on which the debugger in running.  
   

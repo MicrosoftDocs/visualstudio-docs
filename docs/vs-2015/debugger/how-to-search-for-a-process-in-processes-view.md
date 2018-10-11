@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Search for a Process in Processes View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Search for a Process in Processes View](https://docs.microsoft.com/visualstudio/debugger/how-to-search-for-a-process-in-processes-view).  
   
 You can search for a specific process in Processes view by using its process ID or module string as search criteria. You can also specify the initial direction of the search. The fields in the dialog box will show the attributes of the selected process in the process tree.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugModule3::GetSymbolInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugModule3::GetSymbolInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmodule3-getsymbolinfo).  
   
 Retrieves a list of paths that are searched for symbols as well as the results of searching each path.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Instruction Pointers (IPs) View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Instruction Pointers (IPs) View - Sampling Data](https://docs.microsoft.com/visualstudio/profiling/instruction-pointers-ips-view-sampling-data).  
   
 The IPs view of sampling data lists performance data for the assembly instructions that were directly executing when the samples were collected in the profiling run.  
   

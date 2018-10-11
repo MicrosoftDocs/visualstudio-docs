@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 4: Add a Click Event Handler to Each Label
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 4: Add a Click Event Handler to Each Label](https://docs.microsoft.com/visualstudio/ide/step-4-add-a-click-event-handler-to-each-label).  
   
 The matching game works as follows:  
   

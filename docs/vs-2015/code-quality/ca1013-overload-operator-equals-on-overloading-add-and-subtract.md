@@ -28,7 +28,6 @@ manager: "wpickett"
 # CA1013: Overload operator equals on overloading add and subtract
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1013: Overload operator equals on overloading add and subtract](https://docs.microsoft.com/visualstudio/code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract).
 
 |||
 |-|-|

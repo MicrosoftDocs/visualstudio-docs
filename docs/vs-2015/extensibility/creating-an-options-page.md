@@ -19,7 +19,6 @@ manager: "ghogen"
 # Creating an Options Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating an Options Page](https://docs.microsoft.com/visualstudio/extensibility/creating-an-options-page).  
   
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.  
   

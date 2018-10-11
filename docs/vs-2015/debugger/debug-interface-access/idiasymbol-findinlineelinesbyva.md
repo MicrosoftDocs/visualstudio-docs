@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::findInlineeLinesByVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::findInlineeLinesByVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-findinlineelinesbyva).  
   
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified virtual address (VA).  
   

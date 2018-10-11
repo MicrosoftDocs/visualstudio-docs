@@ -19,7 +19,6 @@ manager: "douge"
 # Validation in a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Validation in a Domain-Specific Language](https://docs.microsoft.com/visualstudio/modeling/validation-in-a-domain-specific-language).  
   
 As the author of a domain-specific language (DSL), you can define validation constraints to verify that the model created by the user is meaningful. For example, if your DSL allows users to draw a family tree of people and their ancestors, you could write a constraint that ensures that children have birth dates after their parents.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccInitialize Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccInitialize Function](https://docs.microsoft.com/visualstudio/extensibility/sccinitialize-function).  
   
 This function initializes the source control plug-in and provides capabilities and limits to the integrated development environment (IDE).  
   

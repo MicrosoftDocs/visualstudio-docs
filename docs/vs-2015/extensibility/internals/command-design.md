@@ -20,7 +20,6 @@ manager: "ghogen"
 # Command Design
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Design](https://docs.microsoft.com/visualstudio/extensibility/internals/command-design).  
   
 When you add a command to a VSPackage, you must specify where it is to appear, when it is available, and how it is to be handled.  
   

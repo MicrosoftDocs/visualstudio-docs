@@ -21,7 +21,6 @@ manager: "ghogen"
 # BPREQI_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BPREQI_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bpreqi-fields).  
   
 Specifies the information to be retrieved about a breakpoint request.  
   

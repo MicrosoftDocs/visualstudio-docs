@@ -22,7 +22,6 @@ manager: "ghogen"
 # span::span Constructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [span::span Constructor](https://docs.microsoft.com/visualstudio/profiling/span-span-constructor).  
   
 Initializes a new instance of the `span` class.  
   

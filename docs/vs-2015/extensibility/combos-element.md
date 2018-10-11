@@ -20,7 +20,6 @@ manager: "ghogen"
 # Combos Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Combos Element](https://docs.microsoft.com/visualstudio/extensibility/combos-element).  
   
 Groups [Combo Element](../extensibility/combo-element.md) elements.  
   

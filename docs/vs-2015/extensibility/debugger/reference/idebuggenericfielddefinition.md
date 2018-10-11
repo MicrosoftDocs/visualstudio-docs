@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugGenericFieldDefinition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericFieldDefinition](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericfielddefinition).  
   
 Represents the definition of a field for a managed code generic type.  
   

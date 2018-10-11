@@ -20,7 +20,6 @@ manager: "ghogen"
 # Windows Installer Basics
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Windows Installer Basics](https://docs.microsoft.com/visualstudio/extensibility/internals/windows-installer-basics).  
   
 The Windows Installer installs and uninstalls applications or software products on a user's computer, performing these tasks in units called Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups using Windows Installer.  
   

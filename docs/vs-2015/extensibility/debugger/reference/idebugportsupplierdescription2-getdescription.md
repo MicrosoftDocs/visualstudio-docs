@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugPortSupplierDescription2::GetDescription
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplierDescription2::GetDescription](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplierdescription2-getdescription).  
   
 Retrieves the description and description metadata for the port supplier.  
   

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Collecting Memory Data from .NET Framework Services by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Memory Data from .NET Framework Services by Using the Profiler Command Line](https://docs.microsoft.com/visualstudio/profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line).  
   
 This section describes the procedures and options for collecting memory allocation and object lifetime data for a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] service using the sampling method from the command line.  
   

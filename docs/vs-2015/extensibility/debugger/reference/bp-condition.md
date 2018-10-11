@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_CONDITION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_CONDITION](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-condition).  
   
 Describes the conditions under which a breakpoint fires.  
   

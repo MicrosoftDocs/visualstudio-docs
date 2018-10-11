@@ -18,7 +18,6 @@ manager: "douge"
 # Supported Visual Studio Editions for Visualization &amp; Modeling SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Supported Visual Studio Editions for Visualization &amp; Modeling SDK](https://docs.microsoft.com/visualstudio/modeling/supported-visual-studio-editions-for-visualization-amp-modeling-sdk).  
   
 The following are lists of the Visual Studio editions that are supported with [!INCLUDE[dsl](../includes/dsl-md.md)] in the authoring and deployment environments. For more information on these editions, see the Microsoft [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] [Developer Center](http://go.microsoft.com/fwlink/?LinkId=75628).  
   

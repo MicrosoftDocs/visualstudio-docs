@@ -20,7 +20,6 @@ manager: "ghogen"
 # Legacy Language Service Extensibility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Extensibility](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-extensibility).  
   
 A language service provides language-specific support for editing source code in the IDE.  
   

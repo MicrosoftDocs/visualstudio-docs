@@ -19,7 +19,6 @@ manager: "ghogen"
 # Structures and Unions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Structures and Unions](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/structures-and-unions).  
   
 The following are structures and unions in the Visual Studio Debugging SDK.  
   

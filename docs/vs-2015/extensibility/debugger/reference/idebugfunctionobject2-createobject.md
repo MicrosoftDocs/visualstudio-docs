@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugFunctionObject2::CreateObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugFunctionObject2::CreateObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfunctionobject2-createobject).  
   
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.  
   

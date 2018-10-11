@@ -18,7 +18,6 @@ manager: "douge"
 # Link UML model updates by using transactions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Link UML model updates by using transactions](https://docs.microsoft.com/visualstudio/modeling/link-uml-model-updates-by-using-transactions).  
   
 When you define an extension to the UML designers in Visual Studio, you can group several changes into a single transaction called a *linked undo context*. To see which versions of Visual Studio support UML models, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   

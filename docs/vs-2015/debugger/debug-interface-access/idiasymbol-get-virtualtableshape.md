@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualTableShape
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_virtualTableShape](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-virtualtableshape).  
   
 Retrieves the symbol interface of the type of the virtual table for a user-defined type.  
   

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Command Implementation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Implementation](https://docs.microsoft.com/visualstudio/extensibility/internals/command-implementation).  
   
 To implement a command in a VSPackage, you must perform the following tasks:  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # Assembly Information Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Assembly Information Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/assembly-information-dialog-box).  
   
   
 The **Assembly Information** dialog box is used to specify the values of the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In **Solution Explorer**, the file is located in the **My Project** node in [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] (click **Show All files** to view it); it is located under **Properties** in [!INCLUDE[csprcs](../../includes/csprcs-md.md)]. For more information about assembly attributes, see [Attributes](http://msdn.microsoft.com/library/ae334cee-d96c-4243-a5e3-06dd7fcaf205).  

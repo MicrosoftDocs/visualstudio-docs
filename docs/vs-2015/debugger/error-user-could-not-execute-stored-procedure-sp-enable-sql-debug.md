@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: User Could Not Execute Stored Procedure sp_enable_sql_debug](https://docs.microsoft.com/visualstudio/debugger/error-user-could-not-execute-stored-procedure-sp-enable-sql-debug).  
   
 The Stored Procedure sp_enable_sql_debug could not execute on the server. This can be caused by:  
   

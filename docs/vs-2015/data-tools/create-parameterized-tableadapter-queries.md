@@ -28,7 +28,6 @@ manager: "ghogen"
 # Create parameterized TableAdapter queries
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create parameterized TableAdapter queries](https://docs.microsoft.com/visualstudio/data-tools/create-parameterized-tableadapter-queries).  
   
   
 A parameterized query returns data that meets the conditions of a WHERE clause within the query. For example, you can parameterize a customer list to display only customers in a certain city by adding `WHERE City = @City` to the end of the SQL statement that returns a list of customers.  

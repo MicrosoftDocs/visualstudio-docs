@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::SetCallback
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator2::SetCallback](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator2-setcallback).  
   
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.  
   

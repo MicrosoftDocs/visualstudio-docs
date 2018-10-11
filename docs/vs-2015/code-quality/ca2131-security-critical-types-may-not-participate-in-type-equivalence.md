@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2131: Security critical types may not participate in type equivalence
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2131: Security critical types may not participate in type equivalence](https://docs.microsoft.com/visualstudio/code-quality/ca2131-security-critical-types-may-not-participate-in-type-equivalence).
 
 |||
 |-|-|

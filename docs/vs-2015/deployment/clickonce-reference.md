@@ -25,7 +25,6 @@ manager: "wpickett"
 # ClickOnce Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ClickOnce Reference](https://docs.microsoft.com/visualstudio/deployment/clickonce-reference).  
   
 The following pages describe the structure of the XML files used to represent ClickOnce applications.  
   

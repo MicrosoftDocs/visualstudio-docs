@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 8: Customize the Quiz
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 8: Customize the Quiz](https://docs.microsoft.com/visualstudio/ide/step-8-customize-the-quiz).  
   
 In the last part of the tutorial, you'll explore some ways to customize the quiz and expand on what you've already learned. For example, think about how the program creates random division problems for which the answer is never a fraction. To learn more, turn the `timeLabel` control a different color, and give the quiz taker a hint.  
   

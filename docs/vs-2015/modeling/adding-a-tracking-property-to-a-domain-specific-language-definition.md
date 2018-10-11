@@ -20,7 +20,6 @@ manager: "douge"
 # Adding a Tracking Property to a Domain-Specific Language Definition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Tracking Property to a Domain-Specific Language Definition](https://docs.microsoft.com/visualstudio/modeling/adding-a-tracking-property-to-a-domain-specific-language-definition).  
   
 This walkthrough shows how to add a tracking property to a domain model.  
   

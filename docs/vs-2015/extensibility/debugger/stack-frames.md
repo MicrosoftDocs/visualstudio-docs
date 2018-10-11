@@ -21,7 +21,6 @@ manager: "ghogen"
 # Stack Frames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Stack Frames](https://docs.microsoft.com/visualstudio/extensibility/debugger/stack-frames).  
   
 In terms of the debugger architecture, a **stack frame**:  
   

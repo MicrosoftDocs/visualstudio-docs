@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback2
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLoadCallback2](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialoadcallback2).  
   
 Receives callbacks from the DIA symbol locating procedure, allowing restrictions to be imposed on the locating process.  
   

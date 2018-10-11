@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3).  
   
 Represents a single debug engine (DE) that controls the debugging of one or more modules.  
   

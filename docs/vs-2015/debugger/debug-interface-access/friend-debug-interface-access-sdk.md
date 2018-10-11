@@ -24,7 +24,6 @@ manager: "ghogen"
 # Friend (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Friend (Debug Interface Access SDK)](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/friend-debug-interface-access-sdk).  
   
 Friend classes and friend functions are identified by `SymTagFriend` symbols. They are children of parent user-defined types (UDTs) and have a [IDiaSymbol::get_classParent](../../debugger/debug-interface-access/idiasymbol-get-classparent.md) property.  
   

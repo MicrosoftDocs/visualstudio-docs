@@ -21,7 +21,6 @@ manager: "ghogen"
 # DEBUG_ADDRESS_UNION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DEBUG_ADDRESS_UNION](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/debug-address-union).  
   
 Describes different kinds of addresses.  
   

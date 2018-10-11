@@ -29,7 +29,6 @@ manager: "ghogen"
 # Filter and sort data in a Windows Forms application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Filter and sort data in a Windows Forms application](https://docs.microsoft.com/visualstudio/data-tools/filter-and-sort-data-in-a-windows-forms-application).  
   
   
 You filter data by setting the <xref:System.Windows.Forms.BindingSource.Filter%2A> property to a string expression that returns the desired records.  

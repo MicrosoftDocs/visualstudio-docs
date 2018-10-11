@@ -21,7 +21,6 @@ manager: "ghogen"
 # Customizing the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing the Editor](https://docs.microsoft.com/visualstudio/ide/customizing-the-editor).  
   
 You can customize the formatting, tabs, fonts and colors, IntelliSense, and many other features of the editor in general or a specific language editor by changing options. For more information about these options, see [Text Editor Options Dialog Box](../ide/reference/text-editor-options-dialog-box.md) or type `Editor` into **QuickLaunch**. You can also change how editor windows are displayed.  
   

@@ -34,7 +34,6 @@ manager: "ghogen"
 # Select Code Type Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Select Code Type Dialog Box](https://docs.microsoft.com/visualstudio/debugger/select-code-type-dialog-box).  
   
 To open this dialog box, open the **Attach to Process** dialog box, and then click the **Select** button.  
   

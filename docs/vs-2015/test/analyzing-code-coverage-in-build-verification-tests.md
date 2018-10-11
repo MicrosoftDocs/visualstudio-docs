@@ -17,7 +17,6 @@ manager: "douge"
 # Analyzing Code Coverage in Build Verification Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyzing Code Coverage in Build Verification Tests](https://docs.microsoft.com/visualstudio/test/analyzing-code-coverage-in-build-verification-tests).  
   
 Code coverage analysis in Microsoft Visual Studio shows you how much of your code is being exercised by automated tests. For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).  
   

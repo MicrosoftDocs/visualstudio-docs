@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExtendedField::GetExtendedKind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExtendedField::GetExtendedKind](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugextendedfield-getextendedkind).  
   
 Retrieves the specified extended field kind.  
   

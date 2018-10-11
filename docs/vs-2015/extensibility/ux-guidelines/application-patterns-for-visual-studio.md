@@ -17,7 +17,6 @@ manager: "ghogen"
 # Application Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Application Patterns for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/application-patterns-for-visual-studio).  
   
 ##  <a name="BKMK_WindowInteractions"></a> Window interactions  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Word Completion in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Word Completion in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/word-completion-in-a-legacy-language-service).  
   
 Word completion fills in the missing characters on a partially typed word. If there is only one possible completion, the word is completed when the completion character is entered. If the partial word matches more than one possibility, a list of possible completions is displayed. A completion character can be any character that is not used for identifiers.  
   

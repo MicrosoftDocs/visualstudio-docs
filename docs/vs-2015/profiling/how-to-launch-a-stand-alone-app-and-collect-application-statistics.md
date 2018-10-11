@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Launch a Stand-Alone Application with the Profiler and Collect Application Statistics by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Launch a Stand-Alone Application with the Profiler and Collect Application Statistics by Using the Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line).  
   
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to start a stand-alone (client) application and collect performance statistics by using the sampling method.  
   

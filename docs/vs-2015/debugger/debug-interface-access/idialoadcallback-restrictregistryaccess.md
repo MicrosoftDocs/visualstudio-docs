@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::RestrictRegistryAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLoadCallback::RestrictRegistryAccess](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialoadcallback-restrictregistryaccess).  
   
 Determines if registry queries can be used to locate symbol search paths.  
   

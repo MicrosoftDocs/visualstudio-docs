@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::SetAllExceptions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3::SetAllExceptions](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3-setallexceptions).  
   
 This method sets the state of all outstanding exceptions.  
   

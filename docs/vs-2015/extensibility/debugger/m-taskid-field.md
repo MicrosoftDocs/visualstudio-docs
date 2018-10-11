@@ -19,7 +19,6 @@ manager: "ghogen"
 # m_taskId Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [m_taskId Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/m-taskid-field).  
   
 The backing field for the <xref:System.Threading.Tasks.Task.Id%2A?displayProperty=fullName> property.  
   

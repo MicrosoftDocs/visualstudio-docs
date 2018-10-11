@@ -19,7 +19,6 @@ manager: "ghogen"
 # Sending the Required Events
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sending the Required Events](https://docs.microsoft.com/visualstudio/extensibility/debugger/sending-the-required-events).  
   
 Use this procedure for sending required events.  
   

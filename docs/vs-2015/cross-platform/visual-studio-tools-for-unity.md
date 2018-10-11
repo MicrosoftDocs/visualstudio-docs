@@ -18,7 +18,6 @@ manager: "ghogen"
 # Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Tools for Unity](https://docs.microsoft.com/visualstudio/cross-platform/visual-studio-tools-for-unity).  
   
   
 In this section, you'll learn about Visual Studio Tools for Unity, a free Visual Studio extension that makes Visual Studio a powerful tool for building games with Unity.  

@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2135: Level 2 assemblies should not contain LinkDemands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2135: Level 2 assemblies should not contain LinkDemands](https://docs.microsoft.com/visualstudio/code-quality/ca2135-level-2-assemblies-should-not-contain-linkdemands).
 
 |||
 |-|-|

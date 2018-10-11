@@ -18,7 +18,6 @@ manager: "wpickett"
 # Native Minimum Rules rule set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Native Minimum Rules rule set](https://docs.microsoft.com/visualstudio/code-quality/native-minimum-rules-rule-set).  
   
 The Microsoft Native Minimum Rules focus on the most critical problems in your native code, including potential security holes and  application crashes. You should include this rule set in any custom rule set you create for your native projects.  
   

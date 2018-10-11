@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDefaultPort2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDefaultPort2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdefaultport2).  
   
 This interface provides several methods for accessing a port's server and notification facilities.  
   

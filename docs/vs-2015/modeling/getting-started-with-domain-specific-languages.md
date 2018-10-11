@@ -16,7 +16,6 @@ manager: "douge"
 # Getting Started with Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with Domain-Specific Languages](https://docs.microsoft.com/visualstudio/modeling/getting-started-with-domain-specific-languages).  
   
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.  
   

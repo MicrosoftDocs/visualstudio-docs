@@ -24,7 +24,6 @@ manager: "wpickett"
 # Portability Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Portability Warnings](https://docs.microsoft.com/visualstudio/code-quality/portability-warnings).  
   
 Portability warnings support portability across different operating systems.  
   

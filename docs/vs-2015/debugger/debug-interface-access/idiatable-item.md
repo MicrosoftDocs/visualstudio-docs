@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaTable::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaTable::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiatable-item).  
   
 Retrieves a reference to the specified entry in the table.  
   

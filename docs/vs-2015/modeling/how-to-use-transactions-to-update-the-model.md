@@ -16,7 +16,6 @@ manager: "douge"
 # How to: Use Transactions to Update the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use Transactions to Update the Model](https://docs.microsoft.com/visualstudio/modeling/how-to-use-transactions-to-update-the-model).  
   
 Transactions make sure that changes that were made to the store are treated as a group. Changes that are grouped can be committed or rolled back as a single unit.  
   

@@ -38,7 +38,6 @@ manager: "ghogen"
 # C/C++ Assertions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [C/C++ Assertions](https://docs.microsoft.com/visualstudio/debugger/c-cpp-assertions).  
   
 An assertion statement specifies a condition that you expect to be true at a point in your program. If that condition is not true, the assertion fails, execution of your program is interrupted, and the [Assertion Failed dialog box](../debugger/assertion-failed-dialog-box.md) appears.  
   

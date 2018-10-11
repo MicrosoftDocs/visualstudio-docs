@@ -22,7 +22,6 @@ manager: "ghogen"
 
 **Note**: The Visual Studio Gallery is being replaced by the Visual Studio Marketplace. See the latest version of this topic for details.
 
-The latest version of this topic can be found at [Walkthrough: Publishing a Visual Studio Extension](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension).  
   
 This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Gallery. When you add your extension to the Gallery, developers can use **Extensions and Updates** to browse there for new and updated extensions.  
   

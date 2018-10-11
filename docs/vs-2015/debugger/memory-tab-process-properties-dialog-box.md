@@ -20,7 +20,6 @@ manager: "ghogen"
 # Memory Tab, Process Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Memory Tab, Process Properties Dialog Box](https://docs.microsoft.com/visualstudio/debugger/memory-tab-process-properties-dialog-box).  
   
 Use the **Memory** tab to show how a process uses memory. To display the [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md), move the focus to a [Processes View](../debugger/processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.  
   

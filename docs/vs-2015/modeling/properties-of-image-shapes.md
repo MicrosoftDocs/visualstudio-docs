@@ -21,7 +21,6 @@ manager: "douge"
 # Properties of Image Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Image Shapes](https://docs.microsoft.com/visualstudio/modeling/properties-of-image-shapes).  
   
 You can use image shapes to specify how domain classes appear in a generated designer. Define an image shape by setting the `Image` property of the class to a predefined image file. The following formats are supported:  
   

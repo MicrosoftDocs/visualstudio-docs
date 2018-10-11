@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1720: Identifiers should not contain type names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1720: Identifiers should not contain type names](https://docs.microsoft.com/visualstudio/code-quality/ca1720-identifiers-should-not-contain-type-names).
 
 |||
 |-|-|

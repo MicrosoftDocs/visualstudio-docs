@@ -21,7 +21,6 @@ manager: "ghogen"
 # Using MSBuild
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using MSBuild](https://docs.microsoft.com/visualstudio/extensibility/internals/using-msbuild).  
   
 MSBuild supplies a well-defined, extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.  
   

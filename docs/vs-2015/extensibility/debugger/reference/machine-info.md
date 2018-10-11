@@ -21,7 +21,6 @@ manager: "ghogen"
 # MACHINE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MACHINE_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/machine-info).  
   
 Describes a particular machine.  
   

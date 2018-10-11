@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1710: Identifiers should have correct suffix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1710: Identifiers should have correct suffix](https://docs.microsoft.com/visualstudio/code-quality/ca1710-identifiers-should-have-correct-suffix).
 
 |||
 |-|-|

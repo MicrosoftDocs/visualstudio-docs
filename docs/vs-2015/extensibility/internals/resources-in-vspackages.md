@@ -21,7 +21,6 @@ manager: "ghogen"
 # Resources in VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resources in VSPackages](https://docs.microsoft.com/visualstudio/extensibility/internals/resources-in-vspackages).  
   
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Getting a Port
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting a Port](https://docs.microsoft.com/visualstudio/extensibility/debugger/getting-a-port).  
   
 A port represents a connection to a machine on which processes are running. That machine could be the local machine or a remote machine (which could possibly be running a non-Windows-based operating system; see [Ports](../../extensibility/debugger/ports.md) for more information).  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # Processes View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Processes View](https://docs.microsoft.com/visualstudio/debugger/processes-view).  
   
 The Processes view displays a tree of all active processes on your system. The process ID and module name are shown. Use the Processes view if you want to examine a particular system process, which usually corresponds to an executing program. Processes are identified by module names, or they are designated "system processes."  
   

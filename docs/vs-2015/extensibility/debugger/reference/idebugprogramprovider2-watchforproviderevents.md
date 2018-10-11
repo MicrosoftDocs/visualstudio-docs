@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramProvider2::WatchForProviderEvents
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramProvider2::WatchForProviderEvents](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents).  
   
 Allows the process to be notified of port events.  
   

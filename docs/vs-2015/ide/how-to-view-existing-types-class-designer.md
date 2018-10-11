@@ -24,7 +24,6 @@ manager: "ghogen"
 # How to: View Existing Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: View Existing Types (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-view-existing-types-class-designer).  
   
 To see an existing type and its members, add its shape to a class diagram.  
   

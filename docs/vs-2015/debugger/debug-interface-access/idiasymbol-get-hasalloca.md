@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasAlloca
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasAlloca](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hasalloca).  
   
 Retrieves a flag that specifies whether the function contains a call to `alloca` (which is used to allocate memory on the stack).  
   

@@ -18,7 +18,6 @@ manager: "douge"
 # The Text Template Transformation Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [The Text Template Transformation Process](https://docs.microsoft.com/visualstudio/modeling/the-text-template-transformation-process).  
   
 The text template transformation process takes a text template file as the input and generates a new text file as the output. For example, you can use text templates to generate Visual Basic or C# code, or you can generate an HTML report.  
   

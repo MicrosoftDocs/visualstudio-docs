@@ -17,7 +17,6 @@ manager: "ghogen"
 # Managing Multiple Threads in Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Managing Multiple Threads in Managed Code](https://docs.microsoft.com/visualstudio/extensibility/managing-multiple-threads-in-managed-code).  
   
 If you have a managed VSPackage extension that calls asynchronous methods or has operations that execute on threads other than the Visual Studio UI thread, you should follow the guidelines given below. You can keep the UI thread responsive because it doesn’t need to wait for work on another thread to complete. You can make your code more efficient, because you don’t have extra threads that take up stack space, and you can make it more reliable and easier to debug because you avoid deadlocks and hangs.  
   

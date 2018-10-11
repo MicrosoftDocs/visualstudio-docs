@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreams::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreams::get_Count](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreams-get-count).  
   
 Retrieves the number of debug streams.  
   

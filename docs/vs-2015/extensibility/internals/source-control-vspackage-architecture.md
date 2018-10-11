@@ -19,7 +19,6 @@ manager: "ghogen"
 # Source Control VSPackage Architecture
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control VSPackage Architecture](https://docs.microsoft.com/visualstudio/extensibility/internals/source-control-vspackage-architecture).  
   
 A source-control package is a VSPackage that uses services that the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE provides. In return, a source-control package provides its functionality as a source control service. Additionally, a source-control package is a more versatile alternative than a source control plug-in for integrating source control into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   

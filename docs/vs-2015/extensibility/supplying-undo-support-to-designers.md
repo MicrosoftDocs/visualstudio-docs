@@ -19,7 +19,6 @@ manager: "ghogen"
 # Supplying Undo Support to Designers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Supplying Undo Support to Designers](https://docs.microsoft.com/visualstudio/extensibility/supplying-undo-support-to-designers).  
   
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.  
   

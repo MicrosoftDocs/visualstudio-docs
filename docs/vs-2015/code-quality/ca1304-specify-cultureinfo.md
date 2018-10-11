@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1304: Specify CultureInfo
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1304: Specify CultureInfo](https://docs.microsoft.com/visualstudio/code-quality/ca1304-specify-cultureinfo).
 
 |||
 |-|-|

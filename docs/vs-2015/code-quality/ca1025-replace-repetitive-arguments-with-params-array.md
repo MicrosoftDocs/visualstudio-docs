@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1025: Replace repetitive arguments with params array
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1025: Replace repetitive arguments with params array](https://docs.microsoft.com/visualstudio/code-quality/ca1025-replace-repetitive-arguments-with-params-array).
 
 |||
 |-|-|

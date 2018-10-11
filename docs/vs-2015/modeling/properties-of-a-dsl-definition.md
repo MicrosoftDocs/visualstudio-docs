@@ -18,7 +18,6 @@ manager: "douge"
 # Properties of a DSL Definition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of a DSL Definition](https://docs.microsoft.com/visualstudio/modeling/properties-of-a-dsl-definition).  
   
 DslDefinition properties define *domain-specific language* definition properties such as version numbering. The DslDefinition properties appear in the **Properties** window when you click an open area of the diagram in the *Domain-Specific Language Designer*.  
   

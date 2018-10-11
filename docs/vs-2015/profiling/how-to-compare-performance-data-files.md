@@ -23,7 +23,6 @@ manager: "ghogen"
 # How to: Compare Performance Data Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Compare Performance Data Files](https://docs.microsoft.com/visualstudio/profiling/how-to-compare-performance-data-files).  
   
 You can compare the results of two different profiler data files (.vsp or .vsps) by creating a comparison ("Diff") report or view. The comparison shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.  
   

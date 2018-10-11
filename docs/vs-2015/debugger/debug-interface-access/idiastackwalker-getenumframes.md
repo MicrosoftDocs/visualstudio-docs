@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalker::getEnumFrames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalker::getEnumFrames](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalker-getenumframes).  
   
 Retrieves a stack frame enumerator for x86 platforms.  
   

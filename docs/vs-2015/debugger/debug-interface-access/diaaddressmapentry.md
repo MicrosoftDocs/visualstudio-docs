@@ -22,7 +22,6 @@ manager: "ghogen"
 # DiaAddressMapEntry
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DiaAddressMapEntry](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/diaaddressmapentry).  
   
 Describes an entry in an address map.  
   

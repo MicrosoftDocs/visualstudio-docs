@@ -24,7 +24,6 @@ manager: "ghogen"
 # How to: Set Permissions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set Permissions](https://docs.microsoft.com/visualstudio/profiling/how-to-set-permissions).  
   
 This topic describes how an Administrator of a computer grants the security permissions required for profiling to a user or group that does not have Administrator permissions on that computer.  
   

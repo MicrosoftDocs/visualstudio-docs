@@ -22,7 +22,6 @@ manager: "ghogen"
 # Value (XAttribute Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Value (XAttribute Dynamic Property)](https://docs.microsoft.com/visualstudio/designers/value-xattribute-dynamic-property).  
   
 Gets or sets the value of the XML attribute.  
   

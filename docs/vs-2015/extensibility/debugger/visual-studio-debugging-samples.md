@@ -21,7 +21,6 @@ manager: "ghogen"
 # Visual Studio Debugging Samples
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Debugging Samples](https://docs.microsoft.com/visualstudio/extensibility/debugger/visual-studio-debugging-samples).  
   
 Two samples show how to extend the Visual Studio debugger using [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)].  
   

@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Build and Run the LinqToXmlDataBinding Example
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Build and Run the LinqToXmlDataBinding Example](https://docs.microsoft.com/visualstudio/designers/how-to-build-and-run-the-linqtoxmldatabinding-example).  
   
 This topic shows how to create and build the LinqToXmlDataBinding Visual Studio project, and how to run the resulting LinqToXmlDataBinding Windows Presentation Foundation (WPF) example program.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasNestedTypes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasNestedTypes](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hasnestedtypes).  
   
 Retrieves a flag that specifies whether the user-defined data type has nested type definitions.  
   

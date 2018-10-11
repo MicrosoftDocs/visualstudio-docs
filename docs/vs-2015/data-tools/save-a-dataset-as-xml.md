@@ -26,7 +26,6 @@ manager: "ghogen"
 # Save a dataset as XML
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Save a dataset as XML](https://docs.microsoft.com/visualstudio/data-tools/save-a-dataset-as-xml).  
   
   
 The XML data in a dataset can be accessed by calling the available XML methods  on the dataset. To save the data in XML format, you can call either the <xref:System.Data.DataSet.GetXml%2A> method or the <xref:System.Data.DataSet.WriteXml%2A> method of a <xref:System.Data.DataSet>.  

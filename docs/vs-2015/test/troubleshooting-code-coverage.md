@@ -17,7 +17,6 @@ manager: "douge"
 # Troubleshooting Code Coverage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting Code Coverage](https://docs.microsoft.com/visualstudio/test/troubleshooting-code-coverage).  
   
 The code coverage analysis tool in Visual Studio collects data for native and managed assemblies (.dll or .exe files). However, in some cases, the Code Coverage Results window displays an error similar to "Empty results generated: ...." There are several possible reasons why this might happen. This topic is intended to help resolve those issues.  
   

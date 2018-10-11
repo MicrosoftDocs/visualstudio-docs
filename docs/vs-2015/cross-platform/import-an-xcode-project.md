@@ -15,7 +15,6 @@ manager: "ghogen"
 # Import an XCode Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Import an XCode Project](https://docs.microsoft.com/visualstudio/cross-platform/import-an-xcode-project).  
   
   
 Microsoft Visual C++ for Cross-Platform Mobile Development includes support for moving your XCode projects into Visual Studio, where you can create cross-platform libraries and share code with other projects. The Import from XCode wizard simplifies the process of importing projects and splitting out the C++ code in your XCode targets for use as a static library or shared code project. You can manage your iOS-specific code in Visual Studio and still use XCode to do storyboards and builds. For information on how to easily move code back and forth between Visual Studio and XCode, see Move Changes Between XCode and Visual Studio.  

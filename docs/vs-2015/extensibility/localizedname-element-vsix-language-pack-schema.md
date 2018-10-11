@@ -17,7 +17,6 @@ manager: "ghogen"
 # LocalizedName Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LocalizedName Element (VSIX Language Pack Schema)](https://docs.microsoft.com/visualstudio/extensibility/localizedname-element-vsix-language-pack-schema).  
   
 Required. The localized name of the extension to be installed.  
   

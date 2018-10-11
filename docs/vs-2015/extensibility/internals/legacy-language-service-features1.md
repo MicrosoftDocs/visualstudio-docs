@@ -19,7 +19,6 @@ manager: "ghogen"
 # Legacy Language Service Features
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Features1](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-features1).  
   
 A managed package framework (MPF) language service can support one or more [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] features, such as syntax highlighting, IntelliSense, and breakpoint validation. Each feature can be implemented independent of the others but all require a parser and a scanner except for syntax highlighting, which requires only a scanner.  
   

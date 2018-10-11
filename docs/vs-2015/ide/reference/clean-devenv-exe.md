@@ -23,7 +23,6 @@ manager: "ghogen"
 # /Clean (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Clean (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/clean-devenv-exe).  
   
   
 Cleans all intermediary files and output directories.  

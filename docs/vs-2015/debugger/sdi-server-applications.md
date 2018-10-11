@@ -26,7 +26,6 @@ manager: "ghogen"
 # SDI Server Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SDI Server Applications](https://docs.microsoft.com/visualstudio/debugger/sdi-server-applications).  
   
 If you are debugging an SDI server application, you must specify `/Embedding` or `/Automation` in the **Command line arguments** property in the *Project* Property Pages dialog box for C/C++, C#, or Visual Basic projects.  
   

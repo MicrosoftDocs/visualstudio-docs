@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1058: Types should not extend certain base types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1058: Types should not extend certain base types](https://docs.microsoft.com/visualstudio/code-quality/ca1058-types-should-not-extend-certain-base-types).
 
 |||
 |-|-|

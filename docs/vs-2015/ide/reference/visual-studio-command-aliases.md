@@ -26,7 +26,6 @@ manager: "ghogen"
 # Visual Studio Command Aliases
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Command Aliases](https://docs.microsoft.com/visualstudio/ide/reference/visual-studio-command-aliases).  
   
   
 Aliases provide a means for entering a command into the **Find/Command** box or **Command** window by shortening the text needed to execute the command. For example, instead of entering `>File.OpenFile` to display the **Open File** dialog box, you can use the pre-defined alias `>of`.  

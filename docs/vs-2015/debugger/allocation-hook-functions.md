@@ -33,7 +33,6 @@ manager: "ghogen"
 # Allocation Hook Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Allocation Hook Functions](https://docs.microsoft.com/visualstudio/debugger/allocation-hook-functions).  
   
 An allocation hook function, installed using [_CrtSetAllocHook](http://msdn.microsoft.com/library/405df37b-2fd1-42c8-83bc-90887f17f29d), is called every time memory is allocated, re-allocated, or freed. This type of hook can be used for many different purposes. Use it to test how an application handles insufficient memory situations, for example, or to examine allocation patterns, or to log allocation information for later analysis.  
   

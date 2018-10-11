@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExceptionEvent2::GetException
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExceptionEvent2::GetException](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexceptionevent2-getexception).  
   
 Gets a detailed description of the exception that fired this event.  
   

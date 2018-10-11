@@ -17,7 +17,6 @@ manager: "douge"
 # Using HTML5 Controls in Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using HTML5 Controls in Coded UI Tests](https://docs.microsoft.com/visualstudio/test/using-html5-controls-in-coded-ui-tests).  
   
 Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10.  
   

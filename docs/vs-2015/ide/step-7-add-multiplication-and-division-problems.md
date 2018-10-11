@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 7: Add Multiplication and Division Problems
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 7: Add Multiplication and Division Problems](https://docs.microsoft.com/visualstudio/ide/step-7-add-multiplication-and-division-problems).  
   
 In the seventh part of this tutorial, you'll add multiplication and division problems, but first think about how to make that change. Consider the initial step, which involves storing values.  
   

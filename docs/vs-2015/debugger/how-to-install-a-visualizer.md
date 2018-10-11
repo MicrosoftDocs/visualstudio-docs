@@ -30,7 +30,6 @@ manager: "ghogen"
 # How to: Install a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Install a Visualizer](https://docs.microsoft.com/visualstudio/debugger/how-to-install-a-visualizer).  
   
 After you have created a visualizer, you must install the visualizer so that it will be available in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Installing a visualizer is a simple process.  
   

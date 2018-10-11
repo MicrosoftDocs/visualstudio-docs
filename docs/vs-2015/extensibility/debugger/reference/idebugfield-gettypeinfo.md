@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetTypeInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::GetTypeInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-gettypeinfo).  
   
 This method gets type-independent information about the symbol or type.  
   

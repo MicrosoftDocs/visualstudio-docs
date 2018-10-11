@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: LinqToXmlDataBinding Example
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: LinqToXmlDataBinding Example](https://docs.microsoft.com/visualstudio/designers/walkthrough-linqtoxmldatabinding-example).  
   
 This walkthrough describes the LinqToXmlDataBinding example, and explains some of the more interesting contents of its two primary source files, L2DBForm.xaml and L2DBForm.xaml.cs.  
   

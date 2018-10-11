@@ -30,7 +30,6 @@ manager: "ghogen"
 # Debugging Basics: Registers Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Basics: Registers Window](https://docs.microsoft.com/visualstudio/debugger/debugging-basics-registers-window).  
   
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  
   

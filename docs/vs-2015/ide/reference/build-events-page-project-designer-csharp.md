@@ -25,7 +25,6 @@ manager: "ghogen"
 # Build Events Page, Project Designer (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Build Events Page, Project Designer (C#)](https://docs.microsoft.com/visualstudio/ide/reference/build-events-page-project-designer-csharp).  
   
   
 Use the **Build Events** page of the **Project Designer** to specify build configuration instructions. You can also specify the conditions under which any post-build events are run. For more information, see [How to: Specify Build Events (C#)](../../ide/how-to-specify-build-events-csharp.md)and [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md).  

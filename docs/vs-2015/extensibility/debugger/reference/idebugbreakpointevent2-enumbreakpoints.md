@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointEvent2::EnumBreakpoints
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointEvent2::EnumBreakpoints](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointevent2-enumbreakpoints).  
   
 Creates an enumerator for all the breakpoints that fired at the current code location.  
   

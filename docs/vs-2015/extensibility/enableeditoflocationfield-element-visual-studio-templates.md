@@ -19,7 +19,6 @@ manager: "ghogen"
 # EnableEditOfLocationField Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EnableEditOfLocationField Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/enableeditoflocationfield-element-visual-studio-templates).  
   
 Specifies if the user can edit the location field.  
   

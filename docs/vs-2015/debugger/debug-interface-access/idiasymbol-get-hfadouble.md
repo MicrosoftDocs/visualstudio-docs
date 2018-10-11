@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hfaDouble
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hfaDouble](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hfadouble).  
   
 Retrieves a flag that specifies whether a user-defined type (UDT) contains homogeneous floating-point aggregate (HFA) data of type double.  
   

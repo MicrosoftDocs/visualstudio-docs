@@ -20,7 +20,6 @@ manager: "ghogen"
 # Security Issues
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security Issues](https://docs.microsoft.com/visualstudio/extensibility/debugger/security-issues).  
   
 To debug a program using Visual Studio, the only permissions needed are the same ones a developer needs to run the program. This includes remote debugging for most situations (some situations involving other services, such as the Internet Information Service, may require a higher level of permissions).  
   

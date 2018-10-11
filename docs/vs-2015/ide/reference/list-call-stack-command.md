@@ -23,7 +23,6 @@ manager: "ghogen"
 # List Call Stack Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List Call Stack Command](https://docs.microsoft.com/visualstudio/ide/reference/list-call-stack-command).  
   
   
 Displays the current call stack.  

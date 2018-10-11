@@ -21,7 +21,6 @@ manager: "ghogen"
 # JMC_CODE_SPEC
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [JMC_CODE_SPEC](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/jmc-code-spec).  
   
 This structure is used to set the JustMyCode information for a module.  
   

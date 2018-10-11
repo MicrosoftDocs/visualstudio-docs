@@ -29,7 +29,6 @@ manager: "wpickett"
 # Application Deployment Prerequisites
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Application Deployment Prerequisites](https://docs.microsoft.com/visualstudio/deployment/application-deployment-prerequisites).  
   
 To ensure that your application will install and run successfully, you must first ensure that all components upon which your application is dependent are already installed on the target computer. For example, most applications created by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] have a dependency on the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]; the correct version of the common language runtime must be present on the destination computer before the application is installed.  
   

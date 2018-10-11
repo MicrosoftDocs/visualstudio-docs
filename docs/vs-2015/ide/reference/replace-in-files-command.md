@@ -24,7 +24,6 @@ manager: "ghogen"
 # Replace In Files Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Replace In Files Command](https://docs.microsoft.com/visualstudio/ide/reference/replace-in-files-command).  
   
   
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.  

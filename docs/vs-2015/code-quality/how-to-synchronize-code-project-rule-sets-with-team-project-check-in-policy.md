@@ -20,7 +20,6 @@ manager: "wpickett"
 # How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy](https://docs.microsoft.com/visualstudio/code-quality/how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy).  
   
 You synchronize the code analysis settings for code projects to the check-in policy for the team project by specifying a rule set that contains at least the rules that are specified in the rule set for the check-in policy. Your developer lead can inform you of the name and location of the rule set for the check-in policy. You can use one of the following options to ensure that code analysis for the project uses the correct set of rules:  
   

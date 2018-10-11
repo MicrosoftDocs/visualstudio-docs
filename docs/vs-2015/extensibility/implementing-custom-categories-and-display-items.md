@@ -20,7 +20,6 @@ manager: "ghogen"
 # Implementing Custom Categories and Display Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Implementing Custom Categories and Display Items](https://docs.microsoft.com/visualstudio/extensibility/implementing-custom-categories-and-display-items).  
   
 A VSPackage can provide control of the fonts and colors of its text to the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) through custom categories and display items.  
   

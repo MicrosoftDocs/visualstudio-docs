@@ -28,7 +28,6 @@ manager: "ghogen"
 # RemoveDir Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RemoveDir Task](https://docs.microsoft.com/visualstudio/msbuild/removedir-task).  
   
   
 Removes the specified directories and all of its files and subdirectories.  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugPortPicker
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortPicker](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportpicker).  
   
 Represents a customized UI for selecting the port.  
   

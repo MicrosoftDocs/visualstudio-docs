@@ -20,7 +20,6 @@ manager: "ghogen"
 # Command Routing Algorithm
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Routing Algorithm](https://docs.microsoft.com/visualstudio/extensibility/internals/command-routing-algorithm).  
   
 In Visual Studio commands are handled by a number of different components. Commands are routed from the innermost context, which is based on the current selection, to the outermost (also known as global) context. For more information, see [Availability](../../extensibility/internals/command-availability.md).  
   

@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1050: Declare types in namespaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1050: Declare types in namespaces](https://docs.microsoft.com/visualstudio/code-quality/ca1050-declare-types-in-namespaces).
 
 |||
 |-|-|

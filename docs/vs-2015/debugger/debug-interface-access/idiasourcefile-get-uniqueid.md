@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile::get_uniqueId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSourceFile::get_uniqueId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasourcefile-get-uniqueid).  
   
 Retrieves a simple integer key value that is unique for this image.  
   

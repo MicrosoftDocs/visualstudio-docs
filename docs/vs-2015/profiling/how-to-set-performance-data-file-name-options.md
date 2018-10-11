@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Set Performance Data File Name Options
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set Performance Data File Name Options](https://docs.microsoft.com/visualstudio/profiling/how-to-set-performance-data-file-name-options).  
   
 By default, you save a profiling data (.vsp) file by using the following syntax:  
   

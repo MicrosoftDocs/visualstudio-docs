@@ -22,7 +22,6 @@ manager: "wpickett"
 # How to: View Managed Code Defects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: View Managed Code Defects](https://docs.microsoft.com/visualstudio/code-quality/how-to-view-managed-code-defects).  
   
 In code analysis, errors, warnings, and messages are reported in the Code Analysis window. The Code Analysis window appears automatically when you run code analysis on a project or solution.  
   

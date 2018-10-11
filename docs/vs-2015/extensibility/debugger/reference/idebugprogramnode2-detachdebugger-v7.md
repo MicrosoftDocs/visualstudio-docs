@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugProgramNode2::DetachDebugger_V7
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2::DetachDebugger_V7](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2-detachdebugger-v7).  
   
 DEPRECATED. DO NOT USE.  
   

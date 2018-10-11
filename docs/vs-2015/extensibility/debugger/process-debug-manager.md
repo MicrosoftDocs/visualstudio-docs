@@ -20,7 +20,6 @@ manager: "ghogen"
 # Process Debug Manager
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Process Debug Manager](https://docs.microsoft.com/visualstudio/extensibility/debugger/process-debug-manager).  
   
 The process debug manager (PDM) is a component of Visual Studio that manages programs and processes, making them available to the session debug manager and the debug engines.  
   

@@ -18,7 +18,6 @@ manager: "ghogen"
 # Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio](https://docs.microsoft.com/visualstudio/ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio).  
   
 You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).  
   

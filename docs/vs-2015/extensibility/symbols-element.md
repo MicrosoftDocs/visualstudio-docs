@@ -20,7 +20,6 @@ manager: "ghogen"
 # Symbols Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Symbols Element](https://docs.microsoft.com/visualstudio/extensibility/symbols-element).  
   
 Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, this information typically comes from the header files that are specified by [Extern Element](../extensibility/extern-element.md). Managed code uses the child elements of the Symbols element to define this information.  
   

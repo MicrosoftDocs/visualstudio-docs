@@ -21,7 +21,6 @@ manager: "ghogen"
 # Microsoft Help Viewer Installation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Microsoft Help Viewer Installation](https://docs.microsoft.com/visualstudio/ide/microsoft-help-viewer-installation).  
   
 Several products display Help in Microsoft Help Viewer. Installation instructions will vary based on which product installed the Help Viewer.  
   

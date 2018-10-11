@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating Reusable Groups of Buttons
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Reusable Groups of Buttons](https://docs.microsoft.com/visualstudio/extensibility/creating-reusable-groups-of-buttons).  
   
 A command group is a collection of commands that always appear together on a menu or toolbar. Any command group can be re-used by assigning it to different parent menus in the CommandPlacements section of the .vsct file.  
   

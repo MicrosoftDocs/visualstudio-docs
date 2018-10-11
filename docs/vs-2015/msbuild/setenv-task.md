@@ -29,7 +29,6 @@ manager: "ghogen"
 # SetEnv Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SetEnv Task](https://docs.microsoft.com/visualstudio/msbuild/setenv-task).  
   
   
 Sets or deletes the value of a specified environment variable.  

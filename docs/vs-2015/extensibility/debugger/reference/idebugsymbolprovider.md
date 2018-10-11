@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider).  
   
 This interface represents a symbol provider that provides symbols and types, returning them as fields.  
   

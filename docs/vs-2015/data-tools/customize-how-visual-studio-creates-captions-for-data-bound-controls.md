@@ -26,7 +26,6 @@ manager: "ghogen"
 # Customize how Visual Studio creates captions for data-bound controls
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customize how Visual Studio creates captions for data-bound controls](https://docs.microsoft.com/visualstudio/data-tools/customize-how-visual-studio-creates-captions-for-data-bound-controls).  
   
   
 When you drag items from the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) onto the Windows Forms Designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together. You can customize the way in which these labels are created, by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data Designers** registry key.  

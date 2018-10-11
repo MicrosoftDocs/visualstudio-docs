@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualBaseOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_virtualBaseOffset](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-virtualbaseoffset).  
   
 Retrieves the offset in the virtual function table of a virtual function.  
   

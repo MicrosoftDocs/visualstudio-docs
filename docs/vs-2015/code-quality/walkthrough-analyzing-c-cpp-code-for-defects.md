@@ -23,7 +23,6 @@ manager: "ghogen"
 # Walkthrough: Analyzing C/C++ Code for Defects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Analyzing C/C++ Code for Defects](https://docs.microsoft.com/visualstudio/code-quality/walkthrough-analyzing-c-cpp-code-for-defects).  
   
 This walkthrough demonstrates how to analyze C/C++ code for potential code defects by using the code analysis tool for C/C++ code.  
   

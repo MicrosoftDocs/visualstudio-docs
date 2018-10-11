@@ -24,7 +24,6 @@ manager: "ghogen"
 # CvIsEnabled Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvIsEnabled Function](https://docs.microsoft.com/visualstudio/profiling/cvisenabled-function).  
   
 Determines whether any session has enabled the specified ETW provider.  
   

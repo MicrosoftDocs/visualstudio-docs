@@ -19,7 +19,6 @@ manager: "douge"
 # Navigate and update layer models in program code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigate and update layer models in program code](https://docs.microsoft.com/visualstudio/modeling/navigate-and-update-layer-models-in-program-code).  
   
 This topic describes the elements and relationships in layer models, which you can navigate and update by using program code. For more information about layer diagrams from the user's point of view, see [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md) and [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).  
   

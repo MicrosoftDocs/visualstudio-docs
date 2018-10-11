@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreams::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreams::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreams-next).  
   
 Retrieves a specified number of debug streams in the enumeration sequence.  
   

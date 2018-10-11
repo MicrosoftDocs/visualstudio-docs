@@ -22,7 +22,6 @@ manager: "ghogen"
 # VSTextView Object
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSTextView Object](https://docs.microsoft.com/visualstudio/extensibility/vstextview-object).  
   
 The text view is a window that allows users to view and edit the Unicode text of the text buffer. Essentially, the view is what most users refer to as the editor. Because the view is separated from the buffer by various text layers (word wrap, outlining text, and so on), the view is not guaranteed to be an exact representation of the text in the buffer. For more information about the text view, see [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)  
   

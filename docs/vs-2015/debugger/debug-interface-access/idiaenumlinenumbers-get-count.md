@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumLineNumbers::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumLineNumbers::get_Count](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumlinenumbers-get-count).  
   
 Retrieves the number of line numbers.  
   

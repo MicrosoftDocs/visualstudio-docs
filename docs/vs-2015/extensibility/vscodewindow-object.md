@@ -22,7 +22,6 @@ manager: "ghogen"
 # VSCodeWindow Object
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSCodeWindow Object](https://docs.microsoft.com/visualstudio/extensibility/vscodewindow-object).  
   
 A code window is a specialized document window that can include one or more text views, usually the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView> object.  
   

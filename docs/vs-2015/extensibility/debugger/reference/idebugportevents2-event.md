@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEvents2::Event
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEvents2::Event](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportevents2-event).  
   
 This method sends events that signify the creation and destruction of processes and programs on a port.  
   

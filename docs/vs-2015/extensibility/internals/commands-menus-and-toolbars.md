@@ -21,7 +21,6 @@ manager: "ghogen"
 # Commands, Menus, and Toolbars
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Commands, Menus, and Toolbars](https://docs.microsoft.com/visualstudio/extensibility/internals/commands-menus-and-toolbars).  
   
 Menus and toolbars are the way users access commands in your VSPackage. Commands are functions that accomplish tasks, such as printing a document, refreshing a view, or creating a new file. Menus and toolbars are convenient graphical ways to present your commands to users. Typically, related commands are clustered together on the same menu or toolbar.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::put_addressMapEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaAddressMap::put_addressMapEnabled](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaaddressmap-put-addressmapenabled).  
   
 Specifies whether the address map should be used to translate symbol addresses.  
   

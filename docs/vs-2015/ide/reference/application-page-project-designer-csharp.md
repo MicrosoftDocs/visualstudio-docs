@@ -24,7 +24,6 @@ manager: "ghogen"
 # Application Page, Project Designer (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Application Page, Project Designer (C#)](https://docs.microsoft.com/visualstudio/ide/reference/application-page-project-designer-csharp).  
   
   
 Use the **Application** page of the **Project Designer** to specify the project's application settings and properties.  

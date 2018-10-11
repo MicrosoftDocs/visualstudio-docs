@@ -25,7 +25,6 @@ manager: "ghogen"
 # Warning: Script Debugging Disabled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Warning: Script Debugging Disabled](https://docs.microsoft.com/visualstudio/debugger/warning-script-debugging-disabled).  
   
 Script Debugging is currently disabled in Internet Explorer  
   

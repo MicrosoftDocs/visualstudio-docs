@@ -20,7 +20,6 @@ manager: "ghogen"
 # PreviewImage Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PreviewImage Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/previewimage-element-visual-studio-templates).  
   
 Specifies the preview image, as a file name, for the preview image that will appear in either the **New Project** or **Add New Item** dialog box.  
   

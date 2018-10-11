@@ -22,7 +22,6 @@ manager: "ghogen"
 # Project Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/project-element-visual-studio-templates).  
   
 Specifies the files or directories to add to the project.  
   

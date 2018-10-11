@@ -21,7 +21,6 @@ manager: "ghogen"
 # PROVIDER_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PROVIDER_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/provider-fields).  
   
 Specifies properties associated with a program provider.  
   

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Source Control VSPackage Design Elements
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control VSPackage Design Elements](https://docs.microsoft.com/visualstudio/extensibility/internals/source-control-vspackage-design-elements).  
   
 The topics in this section outline the structure the source control VSPackage must implement for deep integration. It also lists the interfaces and services that the source control VSPackage can implement, and the interfaces and services the source control VSPackage can use from other [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] components to support its source control model and functionality.  
   

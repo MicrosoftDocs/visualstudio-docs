@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_systemExceptionHandling
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_systemExceptionHandling](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-systemexceptionhandling).  
   
 Retrieves a flag that indicates whether system exception handling is in effect.  
   

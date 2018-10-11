@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::Continue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::Continue](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-continue).  
   
 Continues running this program from a stopped state. Any previous execution state (such as a step) is preserved, and the program starts executing again.  
   

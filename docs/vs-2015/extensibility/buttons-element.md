@@ -20,7 +20,6 @@ manager: "ghogen"
 # Buttons Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Buttons Element](https://docs.microsoft.com/visualstudio/extensibility/buttons-element).  
   
 Groups [Button](../extensibility/button-element.md) elements, which represent individual commands.  
   

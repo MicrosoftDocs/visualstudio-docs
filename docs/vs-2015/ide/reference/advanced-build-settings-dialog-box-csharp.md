@@ -22,7 +22,6 @@ manager: "ghogen"
 # Advanced Build Settings Dialog Box (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Advanced Build Settings Dialog Box (C#)](https://docs.microsoft.com/visualstudio/ide/reference/advanced-build-settings-dialog-box-csharp).  
   
   
 Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to [!INCLUDE[csprcs](../../includes/csprcs-md.md)] projects only.  

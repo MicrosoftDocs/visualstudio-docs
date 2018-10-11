@@ -41,7 +41,6 @@ manager: "douge"
 # Analyze and model your architecture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze and model your architecture](https://docs.microsoft.com/visualstudio/modeling/analyze-and-model-your-architecture).  
   
 Make sure your app meets user requirements by using Visual Studio architecture and modeling tools to design and model your app. Understand existing program code more easily by using Visual Studio to visualize the code's structure, behavior, and relationships.  
   

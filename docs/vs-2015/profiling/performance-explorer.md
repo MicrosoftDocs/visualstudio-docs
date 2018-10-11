@@ -23,7 +23,6 @@ manager: "ghogen"
 # Performance Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Explorer](https://docs.microsoft.com/visualstudio/profiling/performance-explorer).  
   
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools let developers measure, evaluate, and target performance-related issues in their code. These tools are fully integrated into the IDE to provide a seamless and approachable user experience.  
   

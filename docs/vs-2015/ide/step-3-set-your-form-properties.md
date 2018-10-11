@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 3: Set Your Form Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 3: Set Your Form Properties](https://docs.microsoft.com/visualstudio/ide/step-3-set-your-form-properties).  
   
 Next, you use the **Properties** window to change the way your form looks.  
   

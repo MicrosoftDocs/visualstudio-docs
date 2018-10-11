@@ -26,7 +26,6 @@ manager: "wpickett"
 # Trusted Application Deployment Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Trusted Application Deployment Overview](https://docs.microsoft.com/visualstudio/deployment/trusted-application-deployment-overview).  
   
 This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications that have elevated permissions by using the Trusted Application Deployment technology.  
   

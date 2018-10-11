@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2227: Collection properties should be read only
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2227: Collection properties should be read only](https://docs.microsoft.com/visualstudio/code-quality/ca2227-collection-properties-should-be-read-only).
 
 |||
 |-|-|

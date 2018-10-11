@@ -34,7 +34,6 @@ manager: "ghogen"
 # How to: Use the Disassembly Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [View Disassembly Code in the Debugger in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-disassembly-window).  
   
 This feature is available only if address-level debugging is enabled the **Options** dialog box, **Debugging** node. It is not available for Script or SQL debugging.  
   

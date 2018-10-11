@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointRequest2::GetRequestInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointRequest2::GetRequestInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo).  
   
 Gets the breakpoint request information that describes this breakpoint request.  
   

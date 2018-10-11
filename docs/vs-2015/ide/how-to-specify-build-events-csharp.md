@@ -24,7 +24,6 @@ manager: "ghogen"
 # How to: Specify Build Events (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Build Events (C#)](https://docs.microsoft.com/visualstudio/ide/how-to-specify-build-events-csharp).  
   
 Use build events to specify commands that run before the build starts or after the build finishes. Build events are executed only if the build successfully reaches those points in the build process.  
   

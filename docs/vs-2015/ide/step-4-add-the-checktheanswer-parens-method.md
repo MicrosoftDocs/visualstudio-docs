@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 4: Add the CheckTheAnswer() Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 4: Add the CheckTheAnswer() Method](https://docs.microsoft.com/visualstudio/ide/step-4-add-the-checktheanswer-parens-method).  
   
 In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, that determines whether the answers to the math problems are correct. This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBinder3::GetTypeArgumentCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBinder3::GetTypeArgumentCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbinder3-gettypeargumentcount).  
   
 This method returns the number of argument types associated with this object.  
   

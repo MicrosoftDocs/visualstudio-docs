@@ -24,7 +24,6 @@ manager: "ghogen"
 # CvCreateMarkerSeries Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvCreateMarkerSeries Function](https://docs.microsoft.com/visualstudio/profiling/cvcreatemarkerseries-function).  
   
 Creates marker series for a given provider.  
   

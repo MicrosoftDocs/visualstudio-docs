@@ -21,7 +21,6 @@ manager: "ghogen"
 # &lt;value&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
   
 Specifies documentation information for `get` and `set` functions for ECMAScript 3 properties.  
   

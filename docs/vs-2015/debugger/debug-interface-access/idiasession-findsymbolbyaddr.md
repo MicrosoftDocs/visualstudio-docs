@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findSymbolByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findSymbolByAddr](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findsymbolbyaddr).  
   
 Retrieves a specified symbol type that contains, or is closest to, a specified address.  
   

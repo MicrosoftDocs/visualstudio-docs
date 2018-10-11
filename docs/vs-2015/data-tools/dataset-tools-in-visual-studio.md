@@ -60,7 +60,6 @@ manager: "ghogen"
 # Dataset tools in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Dataset tools in Visual Studio](https://docs.microsoft.com/visualstudio/data-tools/dataset-tools-in-visual-studio).  
   
   
 NOTE]

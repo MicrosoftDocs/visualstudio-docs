@@ -26,7 +26,6 @@ manager: "ghogen"
 # Debugging F# #
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging F#](https://docs.microsoft.com/visualstudio/debugger/debugging-f-hash).  
   
 Debugging F# is similar to debugging any managed language, with a few exceptions:  
   

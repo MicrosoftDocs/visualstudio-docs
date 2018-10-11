@@ -16,7 +16,6 @@ manager: "douge"
 # How to: Migrate a Domain-Specific Language to a New Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Migrate a Domain-Specific Language to a New Version](https://docs.microsoft.com/visualstudio/modeling/how-to-migrate-a-domain-specific-language-to-a-new-version).  
   
 You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../includes/vs2010-md.md)] from the version of [!INCLUDE[dsl](../includes/dsl-md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)].  
   

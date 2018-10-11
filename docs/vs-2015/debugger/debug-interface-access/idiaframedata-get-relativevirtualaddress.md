@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_relativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_relativeVirtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-relativevirtualaddress).  
   
 Retrieves the relative virtual address (RVA) of the code for the frame.  
   

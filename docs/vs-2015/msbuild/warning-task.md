@@ -28,7 +28,6 @@ manager: "ghogen"
 # Warning Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Warning Task](https://docs.microsoft.com/visualstudio/msbuild/warning-task).  
   
   
 Logs a warning during a build based on an evaluated conditional statement.  

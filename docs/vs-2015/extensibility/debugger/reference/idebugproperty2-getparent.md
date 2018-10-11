@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetParent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::GetParent](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-getparent).  
   
 Gets the parent property of a property.  
   

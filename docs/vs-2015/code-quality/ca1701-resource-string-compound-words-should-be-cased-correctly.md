@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1701: Resource string compound words should be cased correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1701: Resource string compound words should be cased correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly).
 
 |||
 |-|-|

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Authoring .Vsct Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Authoring .Vsct Files](https://docs.microsoft.com/visualstudio/extensibility/internals/authoring-dot-vsct-files).  
   
 This document shows how to author a .vsct file to add menu items, toolbars, and other user interface (UI) elements to the Visual Studio integrated development environment (IDE). Use these steps when you add UI elements to a Visual Studio Package (VSPackage) that does not already have a .vsct file.  
   

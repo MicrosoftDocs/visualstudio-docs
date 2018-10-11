@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugWindowsComputerPort2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugWindowsComputerPort2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugwindowscomputerport2).  
   
 Allows querying for information about the target computer.  
   

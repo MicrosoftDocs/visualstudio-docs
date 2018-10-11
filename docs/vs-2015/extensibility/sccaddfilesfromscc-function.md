@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccAddFilesFromSCC Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccAddFilesFromSCC Function](https://docs.microsoft.com/visualstudio/extensibility/sccaddfilesfromscc-function).  
   
 This function adds a list of files from source control to the currently opened project.  
   

@@ -18,7 +18,6 @@ manager: "douge"
 # Open a UML model by using the Visual Studio API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Open a UML model by using the Visual Studio API](https://docs.microsoft.com/visualstudio/modeling/open-a-uml-model-by-using-the-visual-studio-api).  
   
 You can also open models and diagrams in the Visual Studio user interface by using the API.  
   

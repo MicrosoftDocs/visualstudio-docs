@@ -17,7 +17,6 @@ manager: "crdun"
 # Visual Studio Emulator for Android
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Emulator for Android](https://docs.microsoft.com/visualstudio/cross-platform/visual-studio-emulator-for-android).  
   
   
 The Visual Studio Emulator for Android is a desktop application that emulates an Android device. It provides a virtualized environment in which you can debug and test Android apps without a physical device. It also provides an isolated environment for your application prototypes.  

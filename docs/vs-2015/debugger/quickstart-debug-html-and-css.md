@@ -30,7 +30,6 @@ manager: "ghogen"
 # Quickstart: Debug HTML and CSS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Quickstart: Debug HTML and CSS](https://docs.microsoft.com/visualstudio/debugger/quickstart-debug-html-and-css).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

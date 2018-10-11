@@ -21,7 +21,6 @@ manager: "ghogen"
 # NAME_MATCH
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [NAME_MATCH](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/name-match).  
   
 Selects the case option for matching names.  
   

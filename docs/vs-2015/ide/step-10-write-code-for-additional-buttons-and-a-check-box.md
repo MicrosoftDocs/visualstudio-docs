@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 10: Write Code for Additional Buttons and a Check Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 10: Write Code for Additional Buttons and a Check Box](https://docs.microsoft.com/visualstudio/ide/step-10-write-code-for-additional-buttons-and-a-check-box).  
   
 Now you're ready to complete the other four methods. You could copy and paste this code, but if you want to learn the most from this tutorial, type the code and use IntelliSense.  
   

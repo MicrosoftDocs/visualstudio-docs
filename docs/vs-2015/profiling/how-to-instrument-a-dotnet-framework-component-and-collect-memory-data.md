@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Instrument a Stand-Alone .NET Framework Component and Collect Memory Data with the Profiler by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Instrument a Stand-Alone .NET Framework Component and Collect Memory Data with the Profiler by Using the Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line).  
   
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to instrument a .NET Framework component of a stand-alone application such as an .exe or .dll file and collect memory information by using the profiler.  
   

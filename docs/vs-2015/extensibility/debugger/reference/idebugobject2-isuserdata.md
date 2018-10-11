@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject2::IsUserData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject2::IsUserData](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject2-isuserdata).  
   
 Determines whether the object represents user data.  
   

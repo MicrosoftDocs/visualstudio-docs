@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_objectFileName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_objectFileName](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-objectfilename).  
   
 Retrieves the object file name.  
   

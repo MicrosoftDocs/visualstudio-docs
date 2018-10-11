@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Create Custom Text Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create Custom Text Markers](https://docs.microsoft.com/visualstudio/extensibility/how-to-create-custom-text-markers).  
   
 If you want to create a custom text marker to emphasize or organize code, you must take the following steps:  
   

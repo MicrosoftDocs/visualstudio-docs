@@ -16,7 +16,6 @@ manager: "douge"
 # API Reference for T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [API Reference for T4 Text Templates](https://docs.microsoft.com/visualstudio/modeling/api-reference-for-t4-text-templates).  
   
 The Text Templating API lets you invoke and customize the transformation of [text templates](../modeling/code-generation-and-t4-text-templates.md).  
   

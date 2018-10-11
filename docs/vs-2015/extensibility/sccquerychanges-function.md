@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccQueryChanges Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccQueryChanges Function](https://docs.microsoft.com/visualstudio/extensibility/sccquerychanges-function).  
   
 This function enumerates a given list of files, providing information about name changes for each file via a callback function.  
   

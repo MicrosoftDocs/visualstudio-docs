@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Implement Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Implement Nested Projects](https://docs.microsoft.com/visualstudio/extensibility/internals/how-to-implement-nested-projects).  
   
 When you create a nested project type there are a several additional steps that must be implemented. A parent project takes on some of the same responsibilities that the solution has for its nested (child) projects. The parent project is a container of projects similar to a solution. In particular, there are several events that must be raised by the solution and by the parent projects to build the hierarchy of nested projects. These events are described in the following process for creating nested projects.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugaddress).  
   
 This interface represents the address of an item. It is returned by the symbol handler.  
   

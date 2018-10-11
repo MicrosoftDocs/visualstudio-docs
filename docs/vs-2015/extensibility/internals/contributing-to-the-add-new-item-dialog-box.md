@@ -19,7 +19,6 @@ manager: "ghogen"
 # Contributing to the Add New Item Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Contributing to the Add New Item Dialog Box](https://docs.microsoft.com/visualstudio/extensibility/internals/contributing-to-the-add-new-item-dialog-box).  
   
 A project subtype can provide a complete new directory of items for the **Add New Item** dialog box by registering **Add Item** templates under the `Projects` registry subkey.  
   

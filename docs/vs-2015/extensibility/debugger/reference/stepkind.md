@@ -21,7 +21,6 @@ manager: "ghogen"
 # STEPKIND
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [STEPKIND](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/stepkind).  
   
 Specifies the step kind for stepping.  
   

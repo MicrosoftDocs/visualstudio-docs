@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugProgram3::ExecuteOnThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram3::ExecuteOnThread](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram3-executeonthread).  
   
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.  
   

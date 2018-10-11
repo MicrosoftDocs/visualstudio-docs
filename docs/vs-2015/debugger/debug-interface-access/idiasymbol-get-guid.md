@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_guid
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_guid](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-guid).  
   
 Retrieves the symbol's globally unique identifier (GUID).  
   

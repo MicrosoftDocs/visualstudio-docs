@@ -28,7 +28,6 @@ manager: "ghogen"
 # Output Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Output Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/output-element-msbuild).  
   
   
 Stores task output values in items and properties.  

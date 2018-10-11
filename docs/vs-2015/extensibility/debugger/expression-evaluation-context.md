@@ -19,7 +19,6 @@ manager: "ghogen"
 # Expression Evaluation Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Expression Evaluation Context](https://docs.microsoft.com/visualstudio/extensibility/debugger/expression-evaluation-context).  
   
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, an **expression evaluation context**:  
   

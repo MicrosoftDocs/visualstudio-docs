@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1506: Avoid excessive class coupling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1506: Avoid excessive class coupling](https://docs.microsoft.com/visualstudio/code-quality/ca1506-avoid-excessive-class-coupling).
 
 |||
 |-|-|

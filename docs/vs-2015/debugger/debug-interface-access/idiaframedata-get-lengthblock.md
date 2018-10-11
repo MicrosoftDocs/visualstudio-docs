@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_lengthBlock
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_lengthBlock](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-lengthblock).  
   
 Retrieves the length, in bytes, of the block of code described by the frame.  
   

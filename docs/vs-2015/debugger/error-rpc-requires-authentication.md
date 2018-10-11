@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error: RPC Requires Authentication
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: RPC Requires Authentication](https://docs.microsoft.com/visualstudio/debugger/error-rpc-requires-authentication).  
   
 The Visual Studio debugger cannot connect to the remote computer. An RPC policy is enabled on the local computer which prevents remote debugging.  
   

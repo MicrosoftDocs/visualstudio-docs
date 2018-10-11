@@ -20,7 +20,6 @@ manager: "ghogen"
 # Using the Text Manager to Monitor Global Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using the Text Manager to Monitor Global Settings](https://docs.microsoft.com/visualstudio/extensibility/using-the-text-manager-to-monitor-global-settings).  
   
 If you implement a core editor, you must monitor the changes that are made to global settings, because these changes may affect your instance of the editor. You can track the changes by listening to events raised by the text manager. For example, when you specify a global preference for the appearance or behavior of a component in the core editor, such as its document data object, the text manager stores this information and communicates it to all affected clients.  
   

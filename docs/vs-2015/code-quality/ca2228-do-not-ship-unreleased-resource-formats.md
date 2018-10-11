@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2228: Do not ship unreleased resource formats
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2228: Do not ship unreleased resource formats](https://docs.microsoft.com/visualstudio/code-quality/ca2228-do-not-ship-unreleased-resource-formats).
 
 |||
 |-|-|

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaReadExeAtOffsetCallback::ReadExecutableAt
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaReadExeAtOffsetCallback::ReadExecutableAt](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiareadexeatoffsetcallback-readexecutableat).  
   
 Reads the specified number of bytes starting at the specified offset from an executable file.  
   

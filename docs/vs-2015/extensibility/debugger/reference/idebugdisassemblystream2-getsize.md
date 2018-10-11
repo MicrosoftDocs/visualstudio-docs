@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDisassemblyStream2::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdisassemblystream2-getsize).  
   
 Gets the size in instructions of this disassembly stream.  
   

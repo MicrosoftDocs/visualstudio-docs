@@ -19,7 +19,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Core Editor and Registering an Editor File Type
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Core Editor and Registering an Editor File Type](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type).  
   
 This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor when a file that has the .myext file name extension is loaded.  
   

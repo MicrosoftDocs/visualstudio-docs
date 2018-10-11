@@ -31,7 +31,6 @@ manager: "ghogen"
 # Debugging Native Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Native Code](https://docs.microsoft.com/visualstudio/debugger/debugging-native-code).  
   
 The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [Debugger Roadmap](../debugger/debugger-basics.md).  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # KeyBinding Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [KeyBinding Element](https://docs.microsoft.com/visualstudio/extensibility/keybinding-element).  
   
 The KeyBinding element specifies keyboard shortcuts for the commands.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetReference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::GetReference](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-getreference).  
   
 Returns a reference to the property's value.  
   

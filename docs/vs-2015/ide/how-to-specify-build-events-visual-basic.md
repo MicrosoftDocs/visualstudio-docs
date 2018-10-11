@@ -24,7 +24,6 @@ manager: "ghogen"
 # How to: Specify Build Events (Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Build Events (Visual Basic)](https://docs.microsoft.com/visualstudio/ide/how-to-specify-build-events-visual-basic).  
   
 Build events in Visual Basic can be used to run scripts, macros, or other actions as a part of the compilation process. Pre-build events occur before compilation; post-build events occur after compilation.  
   

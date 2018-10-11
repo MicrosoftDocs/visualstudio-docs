@@ -84,7 +84,6 @@ manager: "ghogen"
 # CRT Debug Heap Details
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CRT Debug Heap Details](https://docs.microsoft.com/visualstudio/debugger/crt-debug-heap-details).  
   
 This topic provides a detailed look at the CRT debug heap.  
   

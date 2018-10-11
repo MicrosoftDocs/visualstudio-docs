@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugReference2::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::GetMemoryContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-getmemorycontext).  
   
 Gets a memory context of a reference. Reserved for future use.  
   

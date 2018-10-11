@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSegments::Skip](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsegments-skip).  
   
 Skips a specified number of segments in an enumeration sequence.  
   

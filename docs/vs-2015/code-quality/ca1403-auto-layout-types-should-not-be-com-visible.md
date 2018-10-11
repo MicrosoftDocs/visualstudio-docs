@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1403: Auto layout types should not be COM visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1403: Auto layout types should not be COM visible](https://docs.microsoft.com/visualstudio/code-quality/ca1403-auto-layout-types-should-not-be-com-visible).
 
 |||
 |-|-|

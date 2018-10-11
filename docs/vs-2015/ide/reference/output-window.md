@@ -26,7 +26,6 @@ manager: "ghogen"
 # Output Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Output Window](https://docs.microsoft.com/visualstudio/ide/reference/output-window).  
   
   
 The **Output** window can display status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View/Output** (or click CTRL + ALT + O).  

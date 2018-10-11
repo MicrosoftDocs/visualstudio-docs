@@ -18,7 +18,6 @@ manager: "wpickett"
 # How to: Suppress Code Analysis Warnings for Generated Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Suppress Code Analysis Warnings for Generated Code](https://docs.microsoft.com/visualstudio/code-quality/how-to-suppress-code-analysis-warnings-for-generated-code).  
   
 Managed code compilers often generate code that is added to a project to facilitate rapid code development. In addition, developers often use third-party tools to help develop applications quickly. These tools also generate code that is added to the project.  
   

@@ -28,7 +28,6 @@ manager: "ghogen"
 # Error Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error Task](https://docs.microsoft.com/visualstudio/msbuild/error-task).  
   
   
 Stops a build and logs an error based on an evaluated conditional statement.  

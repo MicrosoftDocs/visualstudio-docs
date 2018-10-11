@@ -43,7 +43,6 @@ manager: "ghogen"
 # Start a debugging session for a Store app in Visual Studio (VB, C#, C++ and XAML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Start a debugging session for a Store app in Visual Studio (VB, C#, C++ and XAML)](https://docs.microsoft.com/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

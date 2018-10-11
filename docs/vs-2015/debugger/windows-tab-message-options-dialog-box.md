@@ -20,7 +20,6 @@ manager: "ghogen"
 # Windows Tab, Message Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Windows Tab, Message Options Dialog Box](https://docs.microsoft.com/visualstudio/debugger/windows-tab-message-options-dialog-box).  
   
 Use the **Windows** tab to set the scope of the messages listed in [Messages View](../debugger/messages-view.md). To display the [Message Options Dialog Box](../debugger/message-options-dialog-box.md), choose **Log Messages** from the **Spy** menu.  
   

@@ -18,7 +18,6 @@ manager: "ghogen"
 # 0x/2x/4x MSAA Variants
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [0x-2x-4x MSAA Variants](https://docs.microsoft.com/visualstudio/debugger/graphics/0x-2x-4x-msaa-variants).  
   
 Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and swap chains.  
   

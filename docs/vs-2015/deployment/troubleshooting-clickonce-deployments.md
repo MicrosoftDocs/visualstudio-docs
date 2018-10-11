@@ -28,7 +28,6 @@ manager: "wpickett"
 # Troubleshooting ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting ClickOnce Deployments](https://docs.microsoft.com/visualstudio/deployment/troubleshooting-clickonce-deployments).  
   
 This topic helps you diagnose and resolve the most common issues with [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployments.  
   

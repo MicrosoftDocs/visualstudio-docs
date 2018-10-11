@@ -19,7 +19,6 @@ manager: "ghogen"
 # Inside the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Inside the Editor](https://docs.microsoft.com/visualstudio/extensibility/inside-the-editor).  
   
 The editor is composed of a number of different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.  
   

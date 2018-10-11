@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumTables::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumTables::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumtables-item).  
   
 Retrieves a table by means of an index or name.  
   

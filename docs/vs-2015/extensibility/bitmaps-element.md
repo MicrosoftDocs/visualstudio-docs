@@ -20,7 +20,6 @@ manager: "ghogen"
 # Bitmaps Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Bitmaps Element](https://docs.microsoft.com/visualstudio/extensibility/bitmaps-element).  
   
 Groups [Bitmap Element](../extensibility/bitmap-element.md) elements.  
   

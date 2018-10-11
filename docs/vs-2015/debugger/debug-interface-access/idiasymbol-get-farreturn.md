@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_farReturn
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_farReturn](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-farreturn).  
   
 Retrieves a flag that specifies whether the function contains a far return.  
   

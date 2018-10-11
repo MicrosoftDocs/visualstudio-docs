@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccPopulateDirList Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccPopulateDirList Function](https://docs.microsoft.com/visualstudio/extensibility/sccpopulatedirlist-function).  
   
 This function determines which directories and (optionally) files are stored in source control, given a list of directories to examine.  
   

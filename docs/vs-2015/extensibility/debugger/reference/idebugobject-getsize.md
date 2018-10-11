@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-getsize).  
   
 Gets the size of the object in bytes.  
   

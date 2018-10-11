@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNodeAttach2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNodeAttach2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnodeattach2).  
   
 Allows a program node to be notified of an attempt to attach to the associated program.  
   

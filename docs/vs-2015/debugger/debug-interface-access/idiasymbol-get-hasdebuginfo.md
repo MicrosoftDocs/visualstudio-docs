@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasDebugInfo
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasDebugInfo](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hasdebuginfo).  
   
 Retrieves a flag that specifies if the [Compiland](../../debugger/debug-interface-access/compiland.md) contains debugging information.  
   

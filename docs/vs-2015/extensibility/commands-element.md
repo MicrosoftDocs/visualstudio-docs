@@ -22,7 +22,6 @@ manager: "ghogen"
 # Commands Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Commands Element](https://docs.microsoft.com/visualstudio/extensibility/commands-element).  
   
 Represents the collection of commands on the VSPackage toolbar. The collection can have up to five subsections, as follows: menus, groups, buttons, combos, and bitmaps.  
   

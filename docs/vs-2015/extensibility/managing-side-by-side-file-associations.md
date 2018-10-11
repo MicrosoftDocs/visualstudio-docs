@@ -19,7 +19,6 @@ manager: "ghogen"
 # Managing Side-by-Side File Associations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing Side-by-Side File Associations](https://docs.microsoft.com/visualstudio/extensibility/managing-side-by-side-file-associations).  
   
 If your VSPackage provides file associations, you must decide how to handle side-by-side installations in which a particular version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] should be invoked to open a file. Incompatible file formats compound the issue.  
   

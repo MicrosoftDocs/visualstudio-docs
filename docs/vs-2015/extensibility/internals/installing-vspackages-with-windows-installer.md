@@ -20,7 +20,6 @@ manager: "ghogen"
 # Installing VSPackages With Windows Installer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Installing VSPackages With Windows Installer](https://docs.microsoft.com/visualstudio/extensibility/internals/installing-vspackages-with-windows-installer).  
   
 Integrating your VSPackage into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] splash screen and About dialog box.  
   

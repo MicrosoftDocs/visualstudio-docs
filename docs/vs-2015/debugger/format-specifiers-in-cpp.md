@@ -37,7 +37,6 @@ manager: "ghogen"
 # Format Specifiers in C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Format Specifiers in C++](https://docs.microsoft.com/visualstudio/debugger/format-specifiers-in-cpp).  
   
 You can change the format in which a value is displayed in the **Watch** window using format specifiers.  
   

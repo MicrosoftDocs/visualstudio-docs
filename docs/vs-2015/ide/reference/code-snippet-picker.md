@@ -24,7 +24,6 @@ manager: "ghogen"
 # Code Snippet Picker
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Code Snippet Picker](https://docs.microsoft.com/visualstudio/ide/reference/code-snippet-picker).  
   
   
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Code Editor provides a **Code Snippet Picker** that allows you, in a few mouse clicks, to insert ready-made blocks of code into the active document.  

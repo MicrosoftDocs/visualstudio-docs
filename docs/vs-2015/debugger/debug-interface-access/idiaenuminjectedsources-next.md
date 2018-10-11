@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumInjectedSources::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumInjectedSources::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenuminjectedsources-next).  
   
 Retrieves a specified number of injected sources in the enumeration sequence.  
   

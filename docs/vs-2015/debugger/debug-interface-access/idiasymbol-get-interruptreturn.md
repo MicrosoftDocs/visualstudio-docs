@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_interruptReturn
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_interruptReturn](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-interruptreturn).  
   
 Retrieves a flag that specifies whether the function contains a return from interrupt instruction (for example, the X86 assembly code `iret`).  
   

@@ -26,7 +26,6 @@ manager: "ghogen"
 # Start a debugging session for Store Apps in Visual Studio (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Start a debugging session for Store Apps in Visual Studio (JavaScript)](https://docs.microsoft.com/visualstudio/debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

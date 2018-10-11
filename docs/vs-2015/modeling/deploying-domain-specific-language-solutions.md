@@ -18,7 +18,6 @@ manager: "douge"
 # Deploying Domain-Specific Language Solutions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploying Domain-Specific Language Solutions](https://docs.microsoft.com/visualstudio/modeling/deploying-domain-specific-language-solutions).  
   
 You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] must already be installed on the target computer.  
   

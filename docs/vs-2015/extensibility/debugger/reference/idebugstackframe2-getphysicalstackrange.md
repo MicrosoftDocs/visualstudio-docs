@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetPhysicalStackRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetPhysicalStackRange](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getphysicalstackrange).  
   
 Gets a machine-dependent representation of the range of physical addresses associated with a stack frame.  
   

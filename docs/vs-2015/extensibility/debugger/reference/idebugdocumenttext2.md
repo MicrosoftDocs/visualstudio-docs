@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentText2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentText2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttext2).  
   
 This interface represents a text document.  
   

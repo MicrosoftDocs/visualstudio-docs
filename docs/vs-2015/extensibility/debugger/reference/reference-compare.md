@@ -21,7 +21,6 @@ manager: "ghogen"
 # REFERENCE_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [REFERENCE_COMPARE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/reference-compare).  
   
 Specifies the type of comparison for references.  
   

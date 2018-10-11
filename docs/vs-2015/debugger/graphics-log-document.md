@@ -22,7 +22,6 @@ manager: "ghogen"
 # Graphics Log Document
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Log Document](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-log-document).  
   
 The Graphics Log document is the record of graphics events that occurred while your app was running under a graphics diagnostics session. After being recorded, you can examine the log in Visual Studio Graphics Analyzer to diagnose rendering and performance problems.  
   

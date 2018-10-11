@@ -20,7 +20,6 @@ manager: "ghogen"
 # Glyph Control (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Glyph Control (Source Control VSPackage)](https://docs.microsoft.com/visualstudio/extensibility/internals/glyph-control-source-control-vspackage).  
   
 Part of the deep integration available to source control VSPackages is the ability to display their own glyphs to indicate the status of items under source control.  
   

@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute](https://docs.microsoft.com/visualstudio/code-quality/ca2139-transparent-methods-may-not-use-the-handleprocesscorruptingexceptions-attribute).
 
 |||
 |-|-|

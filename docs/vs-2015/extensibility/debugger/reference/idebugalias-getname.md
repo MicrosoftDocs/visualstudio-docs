@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugAlias::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAlias::GetName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugalias-getname).  
   
 Gets the name of this alias.  
   

@@ -19,7 +19,6 @@ manager: "ghogen"
 # SetNotificationForWaitCompletion Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SetNotificationForWaitCompletion Method](https://docs.microsoft.com/visualstudio/extensibility/debugger/setnotificationforwaitcompletion-method).  
   
 Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.  
   

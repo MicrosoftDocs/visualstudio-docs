@@ -24,7 +24,6 @@ robots: noindex,nofollow
 # Analyze CPU Usage in a Windows Universal App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze CPU Usage in a Universal Windows App](https://docs.microsoft.com/visualstudio/profiling/analyze-cpu-usage-in-a-windows-universal-app).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

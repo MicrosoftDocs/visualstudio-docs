@@ -22,7 +22,6 @@ manager: "ghogen"
 # BuildProjectOnLoad (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BuildProjectOnLoad (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/buildprojectonload-visual-studio-templates).  
   
 Specifies whether to build the project immediately after it's created.  
   

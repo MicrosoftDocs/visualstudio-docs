@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isHLSLData
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isHLSLData](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-ishlsldata).  
   
 Specifies whether this symbol represents High Level Shader Language (HLSL) data.  
   

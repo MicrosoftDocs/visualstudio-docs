@@ -22,7 +22,6 @@ manager: "ghogen"
 # marker_series::marker_series Constructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [marker_series::marker_series Constructor](https://docs.microsoft.com/visualstudio/profiling/marker-series-marker-series-constructor).  
   
 Initializes a new instance of the `marker_series` class.  
   

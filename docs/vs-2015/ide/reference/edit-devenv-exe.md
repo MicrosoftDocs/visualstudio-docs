@@ -21,7 +21,6 @@ manager: "ghogen"
 # /Edit (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Edit (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/edit-devenv-exe).  
   
   
 Opens the specified file in an existing instance of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  

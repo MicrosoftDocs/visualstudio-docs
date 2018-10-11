@@ -31,7 +31,6 @@ manager: "ghogen"
 # Debugging Native Code FAQs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Native Code FAQs](https://docs.microsoft.com/visualstudio/debugger/debugging-native-code-faqs).  
   
 The following topics contain answers to some frequently asked questions:  
   

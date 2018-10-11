@@ -19,7 +19,6 @@ manager: "ghogen"
 # Document Windows
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Document Windows](https://docs.microsoft.com/visualstudio/extensibility/internals/document-windows).  
   
 In Visual Studio, a *document window* is a framed child window that is associated with a multiple-document interface (MDI) window. Document windows are typically used for the display and modification of source code or text, but they can also host other functional types. Document windows:  
   

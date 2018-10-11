@@ -17,7 +17,6 @@ manager: "ghogen"
 # Menus and Commands for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Menus and Commands for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/menus-and-commands-for-visual-studio).  
   
 ## Command usage  
   

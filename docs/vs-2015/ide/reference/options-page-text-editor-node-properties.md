@@ -21,7 +21,6 @@ manager: "ghogen"
 # Options Page, Text Editor Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options Page, Text Editor Node Properties](https://docs.microsoft.com/visualstudio/ide/reference/options-page-text-editor-node-properties).  
   
   
 This document describes some pages (or properties collections) that are associated with the **Text Editor** category, `DTE.Properties("TextEditor", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the `Properties` collection, and the table in each subsection lists the properties in the collection.  

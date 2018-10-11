@@ -21,7 +21,6 @@ manager: "ghogen"
 # Security in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security in Visual Studio](https://docs.microsoft.com/visualstudio/ide/security-in-visual-studio).  
   
 You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User Permissions](../ide/user-permissions-and-visual-studio.md).  
   

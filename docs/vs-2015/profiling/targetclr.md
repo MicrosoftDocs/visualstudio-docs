@@ -18,7 +18,6 @@ manager: "ghogen"
 # TargetCLR
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TargetCLR](https://docs.microsoft.com/visualstudio/profiling/targetclr).  
   
 The **TargetCLR** option specifies the version of the common language run-time (CLR) to profile when more than one version of the CLR is loaded in an application.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualBasePointerOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_virtualBasePointerOffset](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-virtualbasepointeroffset).  
   
 Retrieves the offset of the virtual base pointer.  
   

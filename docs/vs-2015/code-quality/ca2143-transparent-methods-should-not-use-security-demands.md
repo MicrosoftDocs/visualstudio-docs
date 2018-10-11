@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2143: Transparent methods should not use security demands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2143: Transparent methods should not use security demands](https://docs.microsoft.com/visualstudio/code-quality/ca2143-transparent-methods-should-not-use-security-demands).
 
 |||
 |-|-|

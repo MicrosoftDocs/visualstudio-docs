@@ -18,7 +18,6 @@ manager: "ghogen"
 # Timer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Timer](https://docs.microsoft.com/visualstudio/profiling/timer).  
   
 The VSPerfCmd.exe **Timer** option sets the profiling event that is sampled to processor clock cycles and optionally changes the number of cycles in a sampling interval from the default of 10,000,000. On a 1GH (one gigahertz) processor, 10,000,000 clock cycles is approximately 100 samples per second. The minimum number of cycles that can be specified is 50,000.  
   

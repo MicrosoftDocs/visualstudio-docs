@@ -16,7 +16,6 @@ manager: "douge"
 # Using Visual Studio ModelBus in a Text Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Visual Studio ModelBus in a Text Template](https://docs.microsoft.com/visualstudio/modeling/using-visual-studio-modelbus-in-a-text-template).  
   
 If you write text templates that read a model that contains [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus references, you might want to resolve the references to access the target models. In that case, you have to adapt the text templates and the referenced domain-specific languages (DSLs):  
   

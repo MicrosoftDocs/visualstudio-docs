@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSectionContribs::Clone
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSectionContribs::Clone](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsectioncontribs-clone).  
   
 Creates an enumerator that contains the same enumeration state as the current enumerator.  
   

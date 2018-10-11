@@ -14,7 +14,6 @@ manager: "ghogen"
 # Image Service Tools
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Service Tools](https://docs.microsoft.com/visualstudio/extensibility/internals/image-service-tools).  
   
 The VS SDK includes several tools to help extension builders use the Visual Studio image service.  
   

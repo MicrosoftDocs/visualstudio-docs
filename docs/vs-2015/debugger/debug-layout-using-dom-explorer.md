@@ -27,7 +27,6 @@ manager: "ghogen"
 # Debug layout using DOM Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug layout using DOM Explorer](https://docs.microsoft.com/visualstudio/debugger/debug-layout-using-dom-explorer).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

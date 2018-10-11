@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumLineNumbers::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumLineNumbers::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumlinenumbers-item).  
   
 Retrieves a line number by means of an index.  
   

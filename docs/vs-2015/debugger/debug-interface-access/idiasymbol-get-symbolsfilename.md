@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_symbolsFileName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_symbolsFileName](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-symbolsfilename).  
   
 Retrieves the name of the file from which the symbols were loaded.  
   

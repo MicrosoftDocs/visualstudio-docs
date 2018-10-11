@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugProcesses2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugProcesses2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugprocesses2).  
   
 This interface enumerates the processes running on a debug port.  
   

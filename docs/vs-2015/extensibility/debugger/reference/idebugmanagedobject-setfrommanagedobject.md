@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugManagedObject::SetFromManagedObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugManagedObject::SetFromManagedObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmanagedobject-setfrommanagedobject).  
   
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.  
   

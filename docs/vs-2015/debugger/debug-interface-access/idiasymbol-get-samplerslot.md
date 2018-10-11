@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_samplerSlot
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_samplerSlot](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-samplerslot).  
   
 Retrieves the sampler slot.  
   

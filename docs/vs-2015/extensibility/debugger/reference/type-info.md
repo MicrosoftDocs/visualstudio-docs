@@ -21,7 +21,6 @@ manager: "ghogen"
 # TYPE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TYPE_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/type-info).  
   
 This structure specifies various kinds of information about a field's type.  
   

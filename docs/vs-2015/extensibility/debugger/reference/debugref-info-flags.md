@@ -21,7 +21,6 @@ manager: "ghogen"
 # DEBUGREF_INFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DEBUGREF_INFO_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/debugref-info-flags).  
   
 Specifies what information to retrieve about a debug reference object.  
   

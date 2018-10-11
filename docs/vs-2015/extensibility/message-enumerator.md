@@ -20,7 +20,6 @@ manager: "ghogen"
 # Message Enumerator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Message Enumerator](https://docs.microsoft.com/visualstudio/extensibility/message-enumerator).  
   
 The following flags are used for the `TEXTOUTPROC` function, which is a callback function that the IDE provides when it calls the [SccOpenProject](../extensibility/sccopenproject-function.md) (see [LPTEXTOUTPROC](../extensibility/lptextoutproc.md) for details on the callback function).  
   

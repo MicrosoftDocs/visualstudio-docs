@@ -21,7 +21,6 @@ manager: "ghogen"
 # BUILT_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BUILT_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/built-type).  
   
 This structure specifies information about a field type taken from metadata.  
   

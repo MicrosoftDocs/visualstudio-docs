@@ -18,7 +18,6 @@ manager: "ghogen"
 # Proxy Authorization Required
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Proxy Authorization Required](https://docs.microsoft.com/visualstudio/ide/reference/proxy-authorization-required).  
   
   
 This error generally occurs when users are connected to Visual Studio Online through a proxy server, and the proxy server blocks the calls. Visual Studio Online is used to keep the user signed in to the IDE.  

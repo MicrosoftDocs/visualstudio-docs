@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPropertyDestroyEvent2::GetDebugProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPropertyDestroyEvent2::GetDebugProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpropertydestroyevent2-getdebugproperty).  
   
 Gets the property to be destroyed.  
   

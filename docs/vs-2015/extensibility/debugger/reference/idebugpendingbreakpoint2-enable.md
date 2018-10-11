@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::Enable
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2::Enable](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2-enable).  
   
 Toggles the enabled state of the pending breakpoint.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Display an Item List Separated with Commas
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display an Item List Separated with Commas](https://docs.microsoft.com/visualstudio/msbuild/how-to-display-an-item-list-separated-with-commas).  
   
   
 When you work with item lists in [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] ([!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]), it is sometimes useful to display the contents of those item lists in a way that is easy to read. Or, you might have a task that takes a list of items separated with a special separator string. In both of these cases, you can specify a separator string for an item list.  

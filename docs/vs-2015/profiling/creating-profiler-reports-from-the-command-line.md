@@ -18,7 +18,6 @@ manager: "ghogen"
 # Creating Profiler Reports from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Profiler Reports from the Command Line](https://docs.microsoft.com/visualstudio/profiling/creating-profiler-reports-from-the-command-line).  
   
 The **VSPerfReport** command-line tool enables you to create .xml or comma-separated value (.csv) reports from profiling data (.vsp) files. VSPerfReport report types closely match the table-based views of the interface for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. You can filter the report to show only your code and to show only a segment of the profiling data file. For more information, see [VSPerfReport](../profiling/vsperfreport.md).  
   

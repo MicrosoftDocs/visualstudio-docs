@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugErrorBreakpointResolution2::GetBreakpointType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugErrorBreakpointResolution2::GetBreakpointType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugerrorbreakpointresolution2-getbreakpointtype).  
   
 Gets the breakpoint type.  
   

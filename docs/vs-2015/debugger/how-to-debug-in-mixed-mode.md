@@ -28,7 +28,6 @@ manager: "ghogen"
 # How to: Debug in Mixed Mode
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug in Mixed Mode](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-in-mixed-mode).  
   
 The following procedures describe how to debug both managed and native code, also known as mixed-mode debugging. There are two scenarios for doing so, depending on whether the DLL or the application is written in native code:  
   

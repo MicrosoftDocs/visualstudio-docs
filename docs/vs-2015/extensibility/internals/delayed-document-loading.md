@@ -17,7 +17,6 @@ manager: "ghogen"
 # Delayed Document Loading
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Delayed Document Loading](https://docs.microsoft.com/visualstudio/extensibility/internals/delayed-document-loading).  
   
 When a user reopens a Visual Studio solution, most of the associated documents are not loaded immediately. The document window frame is created in a pending-initialization state, and a placeholder document (called a stub frame) is placed in the Running Document Table (RDT).  
   

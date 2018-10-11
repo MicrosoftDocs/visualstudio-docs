@@ -25,7 +25,6 @@ manager: "ghogen"
 # Using 3-D Assets in Your Game or App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using 3-D Assets in Your Game or App](https://docs.microsoft.com/visualstudio/designers/using-3-d-assets-in-your-game-or-app).  
   
 This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to process 3-D assets and include them in your builds.  
   

@@ -23,7 +23,6 @@ manager: "ghogen"
 # Parameter Info in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Parameter Info in a Legacy Language Service1](https://docs.microsoft.com/visualstudio/extensibility/internals/parameter-info-in-a-legacy-language-service1).  
   
 The IntelliSense Parameter Info tooltip provides users with hints about where they are in a language construct.  
   

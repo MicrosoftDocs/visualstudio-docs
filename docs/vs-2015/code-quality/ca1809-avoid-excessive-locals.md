@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1809: Avoid excessive locals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1809: Avoid excessive locals](https://docs.microsoft.com/visualstudio/code-quality/ca1809-avoid-excessive-locals).
 
 |||
 |-|-|

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetDerivedMostProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::GetDerivedMostProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-getderivedmostproperty).  
   
 Gets the derived-most property of a property.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugAddresses::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugAddresses::Next](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugaddresses-next).  
   
 This method returns the next set of elements from the enumeration.  
   

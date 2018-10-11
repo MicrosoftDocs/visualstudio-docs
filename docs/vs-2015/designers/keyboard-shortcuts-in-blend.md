@@ -18,7 +18,6 @@ manager: "ghogen"
 # Keyboard shortcuts in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Keyboard shortcuts in Blend](https://docs.microsoft.com/visualstudio/designers/keyboard-shortcuts-in-blend).  
   
 Project shortcuts  
   

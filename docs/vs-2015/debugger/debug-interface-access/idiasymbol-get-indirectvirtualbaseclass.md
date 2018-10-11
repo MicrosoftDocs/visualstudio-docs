@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_indirectVirtualBaseClass
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_indirectVirtualBaseClass](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-indirectvirtualbaseclass).  
   
 Retrieves a flag that specifies whether the user-defined data type is an indirect virtual base class.  
   

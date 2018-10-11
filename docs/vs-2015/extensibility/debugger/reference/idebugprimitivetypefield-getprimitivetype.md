@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugPrimitiveTypeField::GetPrimitiveType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPrimitiveTypeField::GetPrimitiveType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprimitivetypefield-getprimitivetype).  
   
 Retrieves the primitive type that is associated with this field.  
   

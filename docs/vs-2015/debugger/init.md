@@ -18,7 +18,6 @@ manager: "ghogen"
 # Init
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Init](https://docs.microsoft.com/visualstudio/debugger/graphics/init).  
   
 Prepares the in-app component of graphics diagnostics to actively capture and record graphics information to a graphics log file.  
   

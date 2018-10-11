@@ -20,7 +20,6 @@ manager: "douge"
 # Sample Project for Creating Unit Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Project for Creating Unit Tests](https://docs.microsoft.com/visualstudio/test/sample-project-for-creating-unit-tests).  
   
 This sample code is provided for use in the following walkthroughs:  
   

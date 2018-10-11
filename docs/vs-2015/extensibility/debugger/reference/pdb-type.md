@@ -21,7 +21,6 @@ manager: "ghogen"
 # PDB_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PDB_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/pdb-type).  
   
 This structure specifies information about a field type taken from a PDB symbol.  
   

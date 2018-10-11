@@ -18,7 +18,6 @@ manager: "ghogen"
 # Detach
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Detach](https://docs.microsoft.com/visualstudio/profiling/detach).  
   
 The VSPerfCmd.exe **Detach** option disconnects the profiler fromthe specified processes or all processes if none are specifed. Profiling must have been initialized by using the sampling method.  
   

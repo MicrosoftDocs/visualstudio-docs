@@ -21,7 +21,6 @@ manager: "ghogen"
 # Implementing Single-File Generators
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Implementing Single-File Generators](https://docs.microsoft.com/visualstudio/extensibility/internals/implementing-single-file-generators).  
   
 A custom tool — sometimes referred to as a single file generator — can be used to extend the [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] and [!INCLUDE[csprcs](../../includes/csprcs-md.md)] project systems in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. A custom tool is a COM component that implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> interface. Using this interface, a custom tool transforms a single input file into a single output file. The result of the transformation may be source code, or any other output that is useful. Two examples of custom tool-generated code files are code generated in response to changes in a visual designer and files generated using Web Services Description Language (WSDL).  
   

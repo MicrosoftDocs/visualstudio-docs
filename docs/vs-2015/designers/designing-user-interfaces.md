@@ -18,7 +18,6 @@ manager: "ghogen"
 # Designing User Interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Designing User Interfaces](https://docs.microsoft.com/visualstudio/designers/designing-user-interfaces).  
   
 You can create and design the user interface for your application by using a variety of tools in Visual Studio.  
   

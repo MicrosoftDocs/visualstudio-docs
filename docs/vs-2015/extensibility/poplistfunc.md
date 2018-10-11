@@ -21,7 +21,6 @@ manager: "ghogen"
 # POPLISTFUNC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [POPLISTFUNC](https://docs.microsoft.com/visualstudio/extensibility/poplistfunc).  
   
 This callback is supplied to the [SccPopulateList](../extensibility/sccpopulatelist-function.md) by the IDE and is used by the source control plug-in to update a list of files or directories (also supplied to the `SccPopulateList` function).  
   

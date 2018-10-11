@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1017: Mark assemblies with ComVisibleAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1017: Mark assemblies with ComVisibleAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1017-mark-assemblies-with-comvisibleattribute).
 
 |||
 |-|-|

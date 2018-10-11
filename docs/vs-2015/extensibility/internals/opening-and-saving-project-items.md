@@ -21,7 +21,6 @@ manager: "ghogen"
 # Opening and Saving Project Items
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Opening and Saving Project Items](https://docs.microsoft.com/visualstudio/extensibility/internals/opening-and-saving-project-items).  
   
 When you add a new project type, you must manage the opening and saving of your projects files in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). The following topics discuss the different approaches to opening and saving files.  
   

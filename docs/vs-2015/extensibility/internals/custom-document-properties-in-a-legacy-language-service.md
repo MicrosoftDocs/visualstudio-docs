@@ -21,7 +21,6 @@ manager: "ghogen"
 # Custom Document Properties in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Custom Document Properties in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/custom-document-properties-in-a-legacy-language-service).  
   
 Document properties can be displayed in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] **Properties** window. Programming languages generally do not have properties associated with individual source files. However, XML supports document properties that affect the encoding, schema, and stylesheet.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findLinesByLinenum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findLinesByLinenum](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findlinesbylinenum).  
   
 Determines the line numbers of the compiland that the specified line number in a source file lies within or near.  
   

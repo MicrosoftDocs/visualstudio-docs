@@ -20,7 +20,6 @@ manager: "ghogen"
 # API Reference for IntelliTrace Extensibility
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [API Reference for IntelliTrace Extensibility](https://docs.microsoft.com/visualstudio/debugger/api-reference-for-intellitrace-extensibility).  
   
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.  
   

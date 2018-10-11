@@ -38,7 +38,6 @@ manager: "ghogen"
 # How to: Use the Call Stack Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [View the Call Stack in the Debugger in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-call-stack-window).  
   
 By using the **Call Stack** window, you can view the function or procedure calls that are currently on the stack.  
   

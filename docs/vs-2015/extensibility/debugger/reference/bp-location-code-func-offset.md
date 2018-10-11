@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_CODE_FUNC_OFFSET
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_LOCATION_CODE_FUNC_OFFSET](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-location-code-func-offset).  
   
 Describes the offset location of a breakpoint in a function in code.  
   

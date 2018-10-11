@@ -18,7 +18,6 @@ manager: "ghogen"
 # Collecting Application Statistics for Services by Using the Profiler Sampling Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Application Statistics for Services by Using the Profiler Sampling Method](https://docs.microsoft.com/visualstudio/profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method).  
   
 This section describes the procedures and options for collecting performance statistics for Windows services using the sampling method from the command line.  
   

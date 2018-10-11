@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2::GetEngineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2::GetEngineInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2-getengineinfo).  
   
 Gets the name and identifier of the debug engine (DE) running a program.  
   

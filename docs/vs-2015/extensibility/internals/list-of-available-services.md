@@ -20,7 +20,6 @@ manager: "ghogen"
 # List of Available Services
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List of Available Services](https://docs.microsoft.com/visualstudio/extensibility/internals/list-of-available-services).  
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] and the Visual Studio SDK support the following services. Some packages offer their own services which are not listed here—for example, language services do not have a single service GUID. You must use the name of the language to find the GUID of the language service in the registry.  
   

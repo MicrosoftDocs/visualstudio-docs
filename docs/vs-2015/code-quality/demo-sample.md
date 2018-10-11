@@ -21,7 +21,6 @@ manager: "ghogen"
 # Demo Sample
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Demo Sample](https://docs.microsoft.com/visualstudio/code-quality/demo-sample).  
   
 This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:  
   

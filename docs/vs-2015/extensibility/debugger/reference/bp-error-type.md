@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_ERROR_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_ERROR_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-error-type).  
   
 Specifies the error type of a breakpoint.  
   

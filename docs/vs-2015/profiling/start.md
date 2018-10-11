@@ -18,7 +18,6 @@ manager: "ghogen"
 # Start
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Start](https://docs.microsoft.com/visualstudio/profiling/start).  
   
 The **Start** option is a VSPerfCmd.exe option that initializes the profiler to the specified profiling method.  
   

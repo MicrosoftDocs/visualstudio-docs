@@ -22,7 +22,6 @@ manager: "ghogen"
 # KeyBindings Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [KeyBindings Element](https://docs.microsoft.com/visualstudio/extensibility/keybindings-element).  
   
 The KeyBindings element groups KeyBinding elements and other KeyBindings groupings.  
   

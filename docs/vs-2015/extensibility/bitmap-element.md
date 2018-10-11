@@ -20,7 +20,6 @@ manager: "ghogen"
 # Bitmap Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Bitmap Element](https://docs.microsoft.com/visualstudio/extensibility/bitmap-element).  
   
 Defines a bitmap. The bitmap is loaded either from a resource or from a file.  
   

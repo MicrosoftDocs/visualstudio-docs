@@ -28,7 +28,6 @@ manager: "ghogen"
 # UnregisterAssembly Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UnregisterAssembly Task](https://docs.microsoft.com/visualstudio/msbuild/unregisterassembly-task).  
   
   
 Unregisters the specified assemblies for COM interop purposes. Performs the reverse of the [RegisterAssembly task](../msbuild/registerassembly-task.md).  

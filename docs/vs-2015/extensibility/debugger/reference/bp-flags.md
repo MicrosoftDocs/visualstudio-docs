@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-flags).  
   
 Provides optional flags that may be used to specify additional information when setting a breakpoint.  
   

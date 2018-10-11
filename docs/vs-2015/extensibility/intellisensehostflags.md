@@ -22,7 +22,6 @@ manager: "ghogen"
 # IntelliSenseHostFlags
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IntelliSenseHostFlags](https://docs.microsoft.com/visualstudio/extensibility/intellisensehostflags).  
   
 Specifies IntelliSense host flags.  
   

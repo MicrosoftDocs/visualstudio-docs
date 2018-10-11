@@ -20,7 +20,6 @@ manager: "ghogen"
 # StartProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [StartProfile](https://docs.microsoft.com/visualstudio/profiling/startprofile).  
   
 The `StartProfile` function sets the counter to 1 (on) for the specified profiling level.  
   

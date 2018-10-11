@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2001: Avoid calling problematic methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2001: Avoid calling problematic methods](https://docs.microsoft.com/visualstudio/code-quality/ca2001-avoid-calling-problematic-methods).
 
 |||
 |-|-|

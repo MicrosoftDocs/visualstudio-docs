@@ -23,7 +23,6 @@ manager: "ghogen"
 # Run Windows Store apps on a remote machine
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Run Windows Store apps on a remote machine](https://docs.microsoft.com/visualstudio/debugger/run-windows-store-apps-on-a-remote-machine).  
   
 Applies to Windows only](../Image/windows_only_content.png "windows_only_content")  
   

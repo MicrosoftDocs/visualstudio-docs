@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_addressSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_addressSection](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-addresssection).  
   
 Retrieves the section part of the code address for the frame.  
   

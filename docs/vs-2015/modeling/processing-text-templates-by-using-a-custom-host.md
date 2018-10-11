@@ -19,7 +19,6 @@ manager: "douge"
 # Processing Text Templates by using a Custom Host
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Processing Text Templates by using a Custom Host](https://docs.microsoft.com/visualstudio/modeling/processing-text-templates-by-using-a-custom-host).  
   
 The *text template transformation* process takes a *text template* file as the input and produces a text file as the output. You can call the text transformation engine from a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension, or from a standalone application running on a machine on which [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed. However, you must provide a *text templating host*. This class connects the template to the environment, finding resources such as assemblies and include files, and dealing with the output and error messages.  
   

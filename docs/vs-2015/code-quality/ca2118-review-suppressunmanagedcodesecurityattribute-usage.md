@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage](https://docs.microsoft.com/visualstudio/code-quality/ca2118-review-suppressunmanagedcodesecurityattribute-usage).
 
 |||
 |-|-|

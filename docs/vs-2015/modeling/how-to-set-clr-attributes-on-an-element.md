@@ -20,7 +20,6 @@ manager: "douge"
 # How to: Set CLR Attributes on an Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set CLR Attributes on an Element](https://docs.microsoft.com/visualstudio/modeling/how-to-set-clr-attributes-on-an-element).  
   
 Custom attributes are special attributes that can be added to domain elements, shapes, connectors, and diagrams. You can add any attribute that inherits from the `System.Attribute` class.  
   

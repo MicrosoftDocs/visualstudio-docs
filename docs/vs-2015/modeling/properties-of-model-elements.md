@@ -16,7 +16,6 @@ manager: "douge"
 # Properties of Model Elements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Model Elements](https://docs.microsoft.com/visualstudio/modeling/properties-of-model-elements).  
   
 This section lists the properties that you see in the Properties window when you select an element in the DSL Definition diagram or in the DSL Explorer.  
   

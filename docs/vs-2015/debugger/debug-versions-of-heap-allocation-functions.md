@@ -34,7 +34,6 @@ manager: "ghogen"
 # Debug Versions of Heap Allocation Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Versions of Heap Allocation Functions](https://docs.microsoft.com/visualstudio/debugger/debug-versions-of-heap-allocation-functions).  
   
 The C run-time library contains special Debug versions of the heap allocation functions. These functions have the same names as the Release versions with _dbg appended to them. This topic describes the differences between the Release version of a CRT function and the _dbg version, using `malloc` and `_malloc_dbg` as examples.  
   

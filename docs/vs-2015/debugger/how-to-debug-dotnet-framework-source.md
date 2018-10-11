@@ -25,7 +25,6 @@ manager: "ghogen"
 # How to: Debug .NET Framework Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug .NET Framework Source](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-dotnet-framework-source).  
   
 The most recent version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides new features for [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] debugging. To debug [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] source, you must have access to debugging symbols for the code. You also need to enable stepping into [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] source.  
   

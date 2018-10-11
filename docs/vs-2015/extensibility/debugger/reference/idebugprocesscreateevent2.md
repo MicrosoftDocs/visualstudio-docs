@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcessCreateEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessCreateEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocesscreateevent2).  
   
 This interface is sent when a process is launched.  
   

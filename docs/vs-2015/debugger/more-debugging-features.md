@@ -23,7 +23,6 @@ manager: "ghogen"
 # More Debugging Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [More Debugging Features](https://docs.microsoft.com/visualstudio/debugger/more-debugging-features).  
   
 This section contains additional features that you can use with the Visual Studio debugger.  
   

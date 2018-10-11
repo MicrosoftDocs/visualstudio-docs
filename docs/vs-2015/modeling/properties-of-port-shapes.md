@@ -20,7 +20,6 @@ manager: "douge"
 # Properties of Port Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Port Shapes](https://docs.microsoft.com/visualstudio/modeling/properties-of-port-shapes).  
   
 You can use port shapes to represent domain classes in the generated designer.  
   

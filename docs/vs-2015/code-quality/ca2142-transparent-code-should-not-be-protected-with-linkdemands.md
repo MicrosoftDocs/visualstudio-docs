@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2142: Transparent code should not be protected with LinkDemands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2142: Transparent code should not be protected with LinkDemands](https://docs.microsoft.com/visualstudio/code-quality/ca2142-transparent-code-should-not-be-protected-with-linkdemands).
 
 |||
 |-|-|

@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Create a Grayscale Texture Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Grayscale Texture Shader](https://docs.microsoft.com/visualstudio/designers/how-to-create-a-grayscale-texture-shader).  
   
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a grayscale texture shader. This shader modifies the RGB color value of the texture sample, and then uses it together with the unmodified alpha value to set the final color.  
   

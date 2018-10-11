@@ -21,7 +21,6 @@ manager: "ghogen"
 # Template Directory Description (.Vsdir) Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Template Directory Description (.Vsdir) Files](https://docs.microsoft.com/visualstudio/extensibility/internals/template-directory-description-dot-vsdir-files).  
   
 A template directory description file (.vsdir) is a text file that enables the integrated development environment (IDE) to display folders, wizard .vsz files, and template files that are associated with your project in dialog boxes. The contents include one record per file or folder. All .vsdir files in a referenced location are merged, although only one .vsdir file is generally provided to describe multiple folders, wizards, or template files.  
   

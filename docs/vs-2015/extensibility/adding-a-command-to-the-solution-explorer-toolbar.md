@@ -21,7 +21,6 @@ manager: "ghogen"
 # Adding a Command to the Solution Explorer Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Command to the Solution Explorer Toolbar](https://docs.microsoft.com/visualstudio/extensibility/adding-a-command-to-the-solution-explorer-toolbar).  
   
 This walkthrough shows how to add a button to the **Solution Explorer** toolbar.  
   

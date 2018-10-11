@@ -23,7 +23,6 @@ manager: "ghogen"
 # PeopleTrax Sample (Profiling Tools)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PeopleTrax Sample (Profiling Tools)](https://docs.microsoft.com/visualstudio/profiling/peopletrax-sample-profiling-tools).  
   
 The PeopleTrax sample application is used for a number of step-by-step walkthroughs for the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools. You can download a .zip file containing the People Trax application code from the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkId=160299).
 

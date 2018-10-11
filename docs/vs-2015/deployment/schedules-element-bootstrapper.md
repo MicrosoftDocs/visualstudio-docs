@@ -25,7 +25,6 @@ manager: "wpickett"
 # &lt;Schedules&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;Schedules&gt; Element (Bootstrapper)](https://docs.microsoft.com/visualstudio/deployment/schedules-element-bootstrapper).  
   
 The `Schedules` element contains `Schedule` elements, which define specific times at which commands defined by the `Command` element should be run.  
   

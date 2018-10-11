@@ -27,7 +27,6 @@ manager: "ghogen"
 # JavaScript Console commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [JavaScript Console commands](https://docs.microsoft.com/visualstudio/debugger/javascript-console-commands).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

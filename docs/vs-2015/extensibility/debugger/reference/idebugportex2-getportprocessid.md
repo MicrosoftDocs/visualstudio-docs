@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::GetPortProcessId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEx2::GetPortProcessId](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportex2-getportprocessid).  
   
 Gets the process ID of the port itself.  
   

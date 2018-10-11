@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2223: Members should differ by more than return type
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2223: Members should differ by more than return type](https://docs.microsoft.com/visualstudio/code-quality/ca2223-members-should-differ-by-more-than-return-type).
 
 |||
 |-|-|

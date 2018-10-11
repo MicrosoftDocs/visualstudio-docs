@@ -28,7 +28,6 @@ manager: "ghogen"
 # Import Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Import Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/import-element-msbuild).  
   
   
 Imports the contents of one project file into another project file.  

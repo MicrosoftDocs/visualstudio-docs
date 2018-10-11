@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineProgram2::Stop
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineProgram2::Stop](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengineprogram2-stop).  
   
 Stops all threads running in this program.  
   

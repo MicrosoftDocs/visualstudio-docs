@@ -20,7 +20,6 @@ manager: "ghogen"
 # Message Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Message Markers](https://docs.microsoft.com/visualstudio/profiling/message-markers).  
   
 A message marker represents log output. A message is a string that's issued by a specific thread at a specific time. You can export messages to a text file for use with other tools. You can rest the pointer on a message in the Concurrency Visualizer to view the message string. And you can view all the message markers in the [Markers Report](../profiling/markers-report.md).  The following illustration shows a message marker.  
   

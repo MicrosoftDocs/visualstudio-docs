@@ -21,7 +21,6 @@ manager: "ghogen"
 # Image Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Editor](https://docs.microsoft.com/visualstudio/designers/image-editor).  
   
 This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Image Editor to view and modify texture and image resources.  
   

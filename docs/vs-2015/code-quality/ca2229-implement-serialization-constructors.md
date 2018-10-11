@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2229: Implement serialization constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2229: Implement serialization constructors](https://docs.microsoft.com/visualstudio/code-quality/ca2229-implement-serialization-constructors).
 
 |||
 |-|-|

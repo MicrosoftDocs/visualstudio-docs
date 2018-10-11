@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProviderProgramNode2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProviderProgramNode2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproviderprogramnode2).  
   
 This interface marshals program-related interfaces across process boundaries.  
   

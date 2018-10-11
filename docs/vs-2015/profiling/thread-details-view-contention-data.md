@@ -22,7 +22,6 @@ manager: "ghogen"
 # Thread Details View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Thread Details View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/thread-details-view-contention-data).  
   
 The Thread Details view presents a timeline graph of the blocking events in the selected thread of a profiling run that were caused by contentions over resources. A blocking event occurs when the thread is forced to suspend execution because another thread has locked access to a resource.  
   

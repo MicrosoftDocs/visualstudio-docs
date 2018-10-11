@@ -20,7 +20,6 @@ manager: "ghogen"
 # Creating a Multi-Instance Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Multi-Instance Tool Window](https://docs.microsoft.com/visualstudio/extensibility/creating-a-multi-instance-tool-window).  
   
 You can program a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.  
   

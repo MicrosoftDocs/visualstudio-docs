@@ -21,7 +21,6 @@ manager: "ghogen"
 # SEEK_START
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SEEK_START](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/seek-start).  
   
 Specifies the position from which to start seeking in a disassembly stream.  
   

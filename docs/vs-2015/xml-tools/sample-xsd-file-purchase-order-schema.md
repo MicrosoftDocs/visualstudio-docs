@@ -18,7 +18,6 @@ manager: "ghogen"
 # Sample XSD File: Purchase Order Schema
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample XSD File: Purchase Order Schema](https://docs.microsoft.com/visualstudio/xml-tools/sample-xsd-file-purchase-order-schema).  
   
   
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema.  

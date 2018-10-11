@@ -23,7 +23,6 @@ manager: "ghogen"
 # Marks View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Marks View](https://docs.microsoft.com/visualstudio/profiling/marks-view).  
   
 The Marks view displays sampling and ETW events that were inserted into the application.  
   

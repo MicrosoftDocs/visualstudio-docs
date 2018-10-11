@@ -16,7 +16,6 @@ manager: "douge"
 # Export UML diagrams to image files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Export UML diagrams to image files](https://docs.microsoft.com/visualstudio/modeling/export-uml-diagrams-to-image-files).  
   
 You can export a UML document from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to an image that is under program control. For example, you might want to do this as part of automatic document generation.  
   

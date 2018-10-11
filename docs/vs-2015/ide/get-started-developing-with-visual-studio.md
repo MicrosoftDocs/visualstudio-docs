@@ -20,7 +20,6 @@ manager: "ghogen"
 # Get Started Developing with Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Get Started Developing with Visual Studio](https://docs.microsoft.com/visualstudio/ide/get-started-developing-with-visual-studio).  
   
 Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.com/community) the product, these pages will help you get started coding.  
   

@@ -23,7 +23,6 @@ manager: "ghogen"
 # /Build (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Build (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/build-devenv-exe).  
   
   
 Builds a solution using a specified solution configuration file.  

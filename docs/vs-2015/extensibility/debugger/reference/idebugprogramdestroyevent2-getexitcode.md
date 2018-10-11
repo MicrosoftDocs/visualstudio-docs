@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramDestroyEvent2::GetExitCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramDestroyEvent2::GetExitCode](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramdestroyevent2-getexitcode).  
   
 Gets the program's exit code.  
   

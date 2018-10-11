@@ -20,7 +20,6 @@ manager: "douge"
 # Writing a T4 Text Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Writing a T4 Text Template](https://docs.microsoft.com/visualstudio/modeling/writing-a-t4-text-template).  
   
 A text template contains the text that will be generated from it. For example, a template that creates a web page will contain "\<html>…" and all the other standard parts of an HTML page. Inserted into the template are *control blocks*, which are fragments of program code. Control blocks provide varying values and allow parts of the text to be conditional and repeated.  
   

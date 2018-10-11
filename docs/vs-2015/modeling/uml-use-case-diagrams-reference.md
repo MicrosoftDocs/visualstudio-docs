@@ -26,7 +26,6 @@ manager: "douge"
 # UML Use Case Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Use Case Diagrams: Reference](https://docs.microsoft.com/visualstudio/modeling/uml-use-case-diagrams-reference).  
   
 In Visual Studio, a *use case diagram* summarizes who uses your application or system, and what they can do with it. To create a UML use case diagram, on the **Architecture** menu, click **New UML or Layer Diagram**.  
   

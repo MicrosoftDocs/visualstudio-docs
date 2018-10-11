@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCustomAttribute::GetParentField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomAttribute::GetParentField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomattribute-getparentfield).  
   
 Gets the field to which the custom attribute is attached.  
   

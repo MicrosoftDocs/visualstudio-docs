@@ -21,7 +21,6 @@ manager: "ghogen"
 # Designing Classes and Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Designing Classes and Types (Class Designer)](https://docs.microsoft.com/visualstudio/ide/designing-classes-and-types-class-designer).  
   
 Using **Class Designer**, you can not only visualize classes and types, but design them as well. The following topics describe how to do this.  
   

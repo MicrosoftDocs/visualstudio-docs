@@ -26,7 +26,6 @@ manager: "ghogen"
 # DA0013: High usage of String.Split or String.Substring
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0013: High usage of String.Split or String.Substring](https://docs.microsoft.com/visualstudio/profiling/da0013-high-usage-of-string-split-or-string-substring).  
   
 Rule Id|DA0013|  
 |Category|.NET Framework Usage Guidance|  

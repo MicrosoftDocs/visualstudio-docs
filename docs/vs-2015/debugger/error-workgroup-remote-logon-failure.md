@@ -32,7 +32,6 @@ manager: "ghogen"
 # Error: Workgroup Remote Logon Failure
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Workgroup Remote Logon Failure](https://docs.microsoft.com/visualstudio/debugger/error-workgroup-remote-logon-failure).  
   
 This error reads:  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Execution Control and State Evaluation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Execution Control and State Evaluation](https://docs.microsoft.com/visualstudio/extensibility/debugger/execution-control-and-state-evaluation).  
   
 Debugging an application requires implementing such execution control features as stepping into functions, stopping at breakpoints, and continuing execution. Visual Studio debugging bases its execution control on events sent between debugger components.  
   

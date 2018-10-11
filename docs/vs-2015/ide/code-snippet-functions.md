@@ -22,7 +22,6 @@ manager: "ghogen"
 # Code Snippet Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Code Snippet Functions](https://docs.microsoft.com/visualstudio/ide/code-snippet-functions).  
   
 There are three functions available to use with [!INCLUDE[csprcs](../includes/csprcs-md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
   

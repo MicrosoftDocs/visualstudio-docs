@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccGetUserOption Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccGetUserOption Function](https://docs.microsoft.com/visualstudio/extensibility/sccgetuseroption-function).  
   
 This function retrieves a variety of user-specific options.  
   

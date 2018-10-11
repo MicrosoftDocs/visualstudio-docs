@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_upperBoundId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_upperBoundId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-upperboundid).  
   
 Retrieves the symbol identifier of the upper bound of a FORTRAN array dimension.  
   

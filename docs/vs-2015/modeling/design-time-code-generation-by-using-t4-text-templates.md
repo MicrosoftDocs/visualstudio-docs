@@ -24,7 +24,6 @@ manager: "douge"
 # Design-Time Code Generation by using T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Design-Time Code Generation by using T4 Text Templates](https://docs.microsoft.com/visualstudio/modeling/design-time-code-generation-by-using-t4-text-templates).  
   
 Design-time T4 text templates let you generate program code and other files in your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application’s requirements.  
   

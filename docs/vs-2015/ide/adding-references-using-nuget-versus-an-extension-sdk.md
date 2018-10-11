@@ -21,7 +21,6 @@ manager: "ghogen"
 # Adding References Using NuGet Versus an Extension SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding References Using NuGet Versus an Extension SDK](https://docs.microsoft.com/visualstudio/ide/adding-references-using-nuget-versus-an-extension-sdk).  
   
 You can provide a package for consumption within Visual Studio projects by using either the NuGet extension to Visual Studio or a software development kit (SDK). By describing the similarities and differences between the two mechanisms, this topic can help you choose the best one for your task.  
   

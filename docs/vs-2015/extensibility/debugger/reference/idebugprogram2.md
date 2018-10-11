@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2).  
   
 This interface represents a program that is running in a process.  
   

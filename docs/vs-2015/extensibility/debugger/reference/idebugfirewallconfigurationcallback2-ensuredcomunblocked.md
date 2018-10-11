@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfirewallconfigurationcallback2-ensuredcomunblocked).  
   
 Requests that the firewall not block remote debugging.  
   

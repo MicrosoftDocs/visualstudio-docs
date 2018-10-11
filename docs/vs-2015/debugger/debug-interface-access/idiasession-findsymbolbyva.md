@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findSymbolByVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findSymbolByVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findsymbolbyva).  
   
 Retrieves a specified symbol type that contains, or is closest to, a specified virtual address.  
   

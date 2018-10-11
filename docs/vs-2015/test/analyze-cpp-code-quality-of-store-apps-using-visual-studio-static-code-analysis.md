@@ -20,7 +20,6 @@ manager: "douge"
 # Analyze C++ code quality of Store apps using Visual Studio static code analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze C++ code quality of Store apps using Visual Studio static code analysis](https://docs.microsoft.com/visualstudio/test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis).  
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   

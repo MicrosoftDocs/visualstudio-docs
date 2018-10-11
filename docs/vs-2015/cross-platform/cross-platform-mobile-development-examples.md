@@ -20,7 +20,6 @@ manager: "ghogen"
 # Cross-Platform Mobile Development Examples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Cross-Platform Mobile Development Examples](https://docs.microsoft.com/visualstudio/cross-platform/cross-platform-mobile-development-examples).  
   
   
 Several of the templates installed by Visual C++ for Cross-Platform Mobile Development generate complete examples that you can use to learn from. Additionally, the Windows Dev Center has several example applications that you can download and try out in Visual Studio.  

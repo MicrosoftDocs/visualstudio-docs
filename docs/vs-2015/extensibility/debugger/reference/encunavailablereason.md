@@ -21,7 +21,6 @@ manager: "ghogen"
 # EncUnavailableReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EncUnavailableReason](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/encunavailablereason).  
   
 `This is for internal use only!` Represents the reasons that **Edit and Continue** is not available.  
   

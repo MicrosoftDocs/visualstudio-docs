@@ -17,7 +17,6 @@ manager: "ghogen"
 # Notifications and Progress for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Notifications and Progress for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/notifications-and-progress-for-visual-studio).  
   
 ##  <a name="BKMK_NotificationSystems"></a> Notification systems  
   

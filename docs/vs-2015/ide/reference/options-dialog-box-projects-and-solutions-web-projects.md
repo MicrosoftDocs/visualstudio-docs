@@ -20,7 +20,6 @@ manager: "ghogen"
 # Options Dialog Box, Projects and Solutions, Web Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options Dialog Box, Projects and Solutions, Web Projects](https://docs.microsoft.com/visualstudio/ide/reference/options-dialog-box-projects-and-solutions-web-projects).  
   
   
 Sets the Web server that Web projects will use for development within [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. To access this dialog box, click **Tools Options**. Expand **Projects and Solutions** and then click **Web Projects**.  

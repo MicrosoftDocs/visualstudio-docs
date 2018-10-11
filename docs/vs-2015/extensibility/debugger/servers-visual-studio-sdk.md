@@ -20,7 +20,6 @@ manager: "ghogen"
 # Servers (Visual Studio SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Servers (Visual Studio SDK)](https://docs.microsoft.com/visualstudio/extensibility/debugger/servers-visual-studio-sdk).  
   
 In terms of the debugger architecture, a **server**:  
   

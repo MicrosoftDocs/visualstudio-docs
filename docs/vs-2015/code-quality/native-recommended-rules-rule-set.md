@@ -18,7 +18,6 @@ manager: "wpickett"
 # Native Recommended Rules rule set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Native Recommended Rules rule set](https://docs.microsoft.com/visualstudio/code-quality/native-recommended-rules-rule-set).  
   
 The Native Recommended Rules focus on the most critical and common problems in your native code, including potential security holes and application crashes.  You should include this rule set in any custom rule set you create for your native projects.  This ruleset is designed to work with Visual Studio Professional edition and higher.  
   

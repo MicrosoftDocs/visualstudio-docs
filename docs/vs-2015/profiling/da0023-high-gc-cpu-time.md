@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0023: High GC CPU time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0023: High GC CPU time](https://docs.microsoft.com/visualstudio/profiling/da0023-high-gc-cpu-time).  
   
 Rule Id|DA0023|  
 |Category|.NET Framework Usage|  

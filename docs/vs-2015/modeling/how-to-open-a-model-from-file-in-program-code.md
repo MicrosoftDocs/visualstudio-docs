@@ -16,7 +16,6 @@ manager: "douge"
 # How to: Open a Model from File in Program Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Open a Model from File in Program Code](https://docs.microsoft.com/visualstudio/modeling/how-to-open-a-model-from-file-in-program-code).  
   
 You can open DSL models in any application.  
   

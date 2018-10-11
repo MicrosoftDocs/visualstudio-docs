@@ -26,7 +26,6 @@ manager: "ghogen"
 # Understanding Build Platforms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Understanding Build Platforms](https://docs.microsoft.com/visualstudio/ide/understanding-build-platforms).  
   
 You can store different versions of solution and project properties that apply to different target platforms. For example, you can create a Debug configuration that targets an x86 platform and a Debug configuration that targets an x64 platform. You can quickly change the active platform so that you can easily build multiple configurations.  
   

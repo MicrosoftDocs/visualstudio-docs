@@ -21,7 +21,6 @@ manager: "ghogen"
 # Overriding ToolsVersion Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overriding ToolsVersion Settings](https://docs.microsoft.com/visualstudio/msbuild/overriding-toolsversion-settings).  
   
   
 You can change the Toolset for projects and solutions in one of three ways:  

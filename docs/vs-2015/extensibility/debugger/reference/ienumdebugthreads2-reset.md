@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugThreads2::Reset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugThreads2::Reset](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugthreads2-reset).  
   
 Resets the enumeration to the first element.  
   

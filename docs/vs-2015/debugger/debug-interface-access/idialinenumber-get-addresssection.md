@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_addressSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_addressSection](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-addresssection).  
   
 Retrieves the section part of the memory address where a block begins.  
   

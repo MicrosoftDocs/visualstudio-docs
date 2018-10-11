@@ -22,7 +22,6 @@ manager: "ghogen"
 # DataKind
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DataKind](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/datakind).  
   
 Indicates the particular scope of a data value.  
   

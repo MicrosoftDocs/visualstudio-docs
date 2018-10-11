@@ -18,7 +18,6 @@ manager: "ghogen"
 # Walkthrough: Capturing Graphics Information Programmatically
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Capturing Graphics Information Programmatically](https://docs.microsoft.com/visualstudio/debugger/graphics/walkthrough-capturing-graphics-information-programmatically).  
   
 You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.  
   

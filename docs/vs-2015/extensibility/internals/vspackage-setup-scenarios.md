@@ -19,7 +19,6 @@ manager: "ghogen"
 # VSPackage Setup Scenarios
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPackage Setup Scenarios](https://docs.microsoft.com/visualstudio/extensibility/internals/vspackage-setup-scenarios).  
   
 It is important to design your VSPackage installer for flexibility. For example, you might need to release a security patch in the future, or you might change a business strategy that requires thorough side-by-side versioning support.  
   

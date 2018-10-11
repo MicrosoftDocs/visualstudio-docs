@@ -18,7 +18,6 @@ manager: "ghogen"
 # Launch
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Launch](https://docs.microsoft.com/visualstudio/profiling/launch).  
   
 The **Launch** option starts the profiler using the sampling method and it also starts the specified application.  
   

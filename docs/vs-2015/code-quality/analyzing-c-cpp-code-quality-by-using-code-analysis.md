@@ -26,7 +26,6 @@ manager: "ghogen"
 # Analyzing C/C++ Code Quality by Using Code Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyzing C/C++ Code Quality by Using Code Analysis](https://docs.microsoft.com/visualstudio/code-quality/analyzing-c-cpp-code-quality-by-using-code-analysis).  
   
 You can improve your C/C++ code by using the code analysis in Visual Studio to find and fix code defects.  
   

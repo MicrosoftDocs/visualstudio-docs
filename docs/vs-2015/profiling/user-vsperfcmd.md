@@ -18,7 +18,6 @@ manager: "ghogen"
 # User (VSPerfCmd)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [User (VSPerfCmd)](https://docs.microsoft.com/visualstudio/profiling/user-vsperfcmd).  
   
 The **User** option specifies the domain and user name of the account that owns the profiled process. This option is required only if the process is running as a user other than the logged on user. The process owner is listed in the User Name column on the Processes tab of Windows Task Manager.  
   

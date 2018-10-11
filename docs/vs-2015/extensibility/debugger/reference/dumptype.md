@@ -21,7 +21,6 @@ manager: "ghogen"
 # DUMPTYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DUMPTYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/dumptype).  
   
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.  
   

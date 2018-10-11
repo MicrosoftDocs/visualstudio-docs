@@ -27,7 +27,6 @@ manager: "ghogen"
 # Using the DebuggerDisplay Attribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using the DebuggerDisplay Attribute](https://docs.microsoft.com/visualstudio/debugger/using-the-debuggerdisplay-attribute).  
   
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
   

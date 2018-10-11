@@ -24,7 +24,6 @@ manager: "ghogen"
 # Lines View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Lines View](https://docs.microsoft.com/visualstudio/profiling/lines-view).  
   
 The Lines view is available only for profiler data that was collected by using the sampling method. The view is not available for data that was collected by using instrumentation.  
   

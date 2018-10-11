@@ -18,7 +18,6 @@ manager: "ghogen"
 # Profiling ASP.NET Load Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Profiling ASP.NET Load Tests](https://docs.microsoft.com/visualstudio/profiling/profiling-aspnet-load-tests).  
   
 You can collect profiling data from automated [!INCLUDE[TCMext](../includes/tcmext-md.md)] web tests that you run on ASP.NET Web sites projects. You can collect sampling and tier interaction data. For more information, see the following topics:  
   

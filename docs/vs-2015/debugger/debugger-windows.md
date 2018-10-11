@@ -18,7 +18,6 @@ manager: "ghogen"
 # Debugger Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Windows in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/debugger-windows).  
   
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops,  click **Debug / Windows**.  
   

@@ -23,7 +23,6 @@ manager: "ghogen"
 # Error: Remote machine does not appear in a Remote Connections dialog
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Remote machine does not appear in a Remote Connections dialog](https://docs.microsoft.com/visualstudio/debugger/error-remote-machine-does-not-appear-in-a-remote-connections-dialog).  
   
 If the remote machine does not appear in the Remote Connections dialog, check the following common causes.  
   

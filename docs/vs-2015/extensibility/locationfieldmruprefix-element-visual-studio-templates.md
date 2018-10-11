@@ -22,7 +22,6 @@ manager: "ghogen"
 # LocationFieldMRUPrefix Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LocationFieldMRUPrefix Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/locationfieldmruprefix-element-visual-studio-templates).  
   
 Specifies the most recently used (MRU) paths in the **New Project** and **Add New Item** dialog box.  
   

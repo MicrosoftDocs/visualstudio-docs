@@ -21,7 +21,6 @@ manager: "ghogen"
 # Stepping in Break Mode
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Stepping in Break Mode](https://docs.microsoft.com/visualstudio/extensibility/debugger/stepping-in-break-mode).  
   
 The following describes the process that occurs when the debugger is in break mode and must step through code:  
   

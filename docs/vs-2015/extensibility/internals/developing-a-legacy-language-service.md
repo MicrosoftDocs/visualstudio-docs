@@ -25,7 +25,6 @@ manager: "ghogen"
 # Developing a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Developing a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/developing-a-legacy-language-service).  
   
 This section links to topics that help you create a legacy language service.  
   

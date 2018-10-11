@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_frontEndMajor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_frontEndMajor](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-frontendmajor).  
   
 Retrieves the front end major version number.  
   

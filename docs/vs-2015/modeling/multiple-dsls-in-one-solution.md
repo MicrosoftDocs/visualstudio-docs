@@ -16,7 +16,6 @@ manager: "douge"
 # Multiple DSLs in One Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Multiple DSLs in One Solution](https://docs.microsoft.com/visualstudio/modeling/multiple-dsls-in-one-solution).  
   
 You can package several DSLs as part of a single solution so that they are installed together.  
   

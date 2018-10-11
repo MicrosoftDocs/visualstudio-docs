@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_maxStack
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_maxStack](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-maxstack).  
   
 Retrieves the maximum number of bytes pushed on the stack in the frame.  
   

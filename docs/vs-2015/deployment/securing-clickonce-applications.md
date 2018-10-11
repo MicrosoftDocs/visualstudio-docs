@@ -26,7 +26,6 @@ manager: "wpickett"
 # Securing ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Securing ClickOnce Applications](https://docs.microsoft.com/visualstudio/deployment/securing-clickonce-applications).  
   
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications are subject to code access security constraints in the .NET Framework to help limit the access that code has to protected resources and operations. For that reason, it is important that you understand the implications of code access security to write your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications accordingly. Your applications can use Full Trust or use partial zones, such as the Internet and Intranet zones, to limit access.  
   

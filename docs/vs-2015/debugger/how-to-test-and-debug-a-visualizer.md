@@ -27,7 +27,6 @@ manager: "ghogen"
 # How to: Test and Debug a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Test and Debug a Visualizer](https://docs.microsoft.com/visualstudio/debugger/how-to-test-and-debug-a-visualizer).  
   
 Once you have written a visualizer, you need to debug and test it.  
   

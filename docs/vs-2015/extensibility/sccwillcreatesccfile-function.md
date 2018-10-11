@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccWillCreateSccFile Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccWillCreateSccFile Function](https://docs.microsoft.com/visualstudio/extensibility/sccwillcreatesccfile-function).  
   
 This function determines whether the source control plug-in supports the creation of the MSSCCPRJ.SCC file for each of the given files.  
   

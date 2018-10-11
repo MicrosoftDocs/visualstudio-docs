@@ -21,7 +21,6 @@ manager: "ghogen"
 # Performance Report View Filter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Report View Filter](https://docs.microsoft.com/visualstudio/profiling/performance-report-view-filter).  
   
 The Profiler Report View Filter window is located at the top of the Performance Report window. If you cannot see it, click the **Show Filter** button.  
   

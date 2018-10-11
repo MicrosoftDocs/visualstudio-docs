@@ -21,7 +21,6 @@ manager: "ghogen"
 # Process Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Process Properties Dialog Box](https://docs.microsoft.com/visualstudio/debugger/process-properties-dialog-box).  
   
 Use this dialog box to find out more about a specific process. To display this dialog box, move the focus to a [Processes View](../debugger/processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.  
   

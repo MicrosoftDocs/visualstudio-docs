@@ -26,7 +26,6 @@ manager: "ghogen"
 # EndTrackingContext
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EndTrackingContext](https://docs.microsoft.com/visualstudio/msbuild/endtrackingcontext).  
   
   
 End the current tracking context.  

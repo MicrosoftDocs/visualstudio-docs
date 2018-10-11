@@ -25,7 +25,6 @@ manager: "ghogen"
 # Error List Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error List Window](https://docs.microsoft.com/visualstudio/ide/reference/error-list-window).  
   
   
 NOTE]

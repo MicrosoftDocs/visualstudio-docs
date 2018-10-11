@@ -18,7 +18,6 @@ manager: "ghogen"
 # VSPerf
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPerf](https://docs.microsoft.com/visualstudio/profiling/vsperf).  
   
 Use the **VsPerf** command line tool to:  
   

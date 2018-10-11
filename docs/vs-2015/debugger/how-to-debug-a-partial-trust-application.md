@@ -27,7 +27,6 @@ manager: "ghogen"
 # How to: Debug a Partial Trust Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug a Partial Trust Application](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-a-partial-trust-application).  
   
 Applies to Windows and console applications.  
   

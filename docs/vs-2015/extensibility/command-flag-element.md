@@ -20,7 +20,6 @@ manager: "ghogen"
 # Command Flag Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Flag Element](https://docs.microsoft.com/visualstudio/extensibility/command-flag-element).  
   
 Modifies its parent element.  
   

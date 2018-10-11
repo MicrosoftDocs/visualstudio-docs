@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugPrimitiveTypeField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPrimitiveTypeField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprimitivetypefield).  
   
 Represents a primitive type enumeration value from an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  
   

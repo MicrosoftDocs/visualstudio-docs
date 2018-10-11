@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery::GetCustomAttributeByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomAttributeQuery::GetCustomAttributeByName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomattributequery-getcustomattributebyname).  
   
 Retrieves a custom attribute given its name.  
   

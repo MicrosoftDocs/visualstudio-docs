@@ -16,7 +16,6 @@ manager: "ghogen"
 # The property &lt;property name&gt; cannot be deleted
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [The property &lt;property name&gt; cannot be deleted](https://docs.microsoft.com/visualstudio/data-tools/the-property-property-name-cannot-be-deleted).  
   
   
 The property \<property name> cannot be deleted because it is set as the Discriminator Property for the inheritance between \<class name> and \<class name>  

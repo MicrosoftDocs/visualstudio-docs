@@ -19,7 +19,6 @@ manager: "ghogen"
 # Migrating a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Migrating a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/migrating-a-legacy-language-service).  
   
 You can migrate a legacy language service to a later version of Visual Studio by updating the project and adding a source.extension.vsixmanifest file to the project. The language service itself will continue to function as before, because the Visual Studio editor adapts it.  
   

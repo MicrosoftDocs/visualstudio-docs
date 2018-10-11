@@ -36,7 +36,6 @@ manager: "ghogen"
 # How to: Use the Modules Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [View Modules, DLLs, and Executables in the Debugger](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-modules-window).  
   
 NOTE]
 >  This feature is not available for SQL or script debugging.  

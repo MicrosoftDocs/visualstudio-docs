@@ -33,7 +33,6 @@ manager: "ghogen"
 # Web Browser, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Web Browser, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/web-browser-environment-options-dialog-box).  
   
   
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.  

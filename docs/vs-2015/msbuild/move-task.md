@@ -26,7 +26,6 @@ manager: "ghogen"
 # Move Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Move Task](https://docs.microsoft.com/visualstudio/msbuild/move-task).  
   
   
 Moves files to a new location.  

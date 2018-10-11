@@ -20,7 +20,6 @@ manager: "ghogen"
 # Caller/Callee View - .NET Memory Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Caller-Callee View - .NET Memory Sampling Data](https://docs.microsoft.com/visualstudio/profiling/caller-callee-view-dotnet-memory-sampling-data).  
   
 The Caller/Callee view displays .NET memory profiling data for a selected function and its parent and child functions. The Caller/Callee view contains three grids.  
   

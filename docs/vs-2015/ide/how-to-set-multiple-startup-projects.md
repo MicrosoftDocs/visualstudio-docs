@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Set Multiple Startup Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set Multiple Startup Projects](https://docs.microsoft.com/visualstudio/ide/how-to-set-multiple-startup-projects).  
   
 Visual Studio allows you to specify how more than one project is run when you start the debugger.  
   

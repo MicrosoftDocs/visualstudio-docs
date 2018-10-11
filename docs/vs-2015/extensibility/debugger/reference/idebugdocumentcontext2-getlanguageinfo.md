@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::GetLanguageInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentContext2::GetLanguageInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentcontext2-getlanguageinfo).  
   
 Gets the language associated with this document context.  
   

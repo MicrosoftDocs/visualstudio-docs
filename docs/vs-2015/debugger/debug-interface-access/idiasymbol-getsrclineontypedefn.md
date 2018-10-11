@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::getSrcLineOnTypeDefn
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::getSrcLineOnTypeDefn](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-getsrclineontypedefn).  
   
 Retrieves the source file and line number that indicate where a specified user-defined type is defined.  
   

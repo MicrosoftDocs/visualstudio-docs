@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMessageEvent2::SetResponse
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMessageEvent2::SetResponse](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmessageevent2-setresponse).  
   
 Sets the response, if any, from the message box.  
   

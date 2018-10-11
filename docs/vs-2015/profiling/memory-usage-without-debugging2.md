@@ -23,7 +23,6 @@ manager: "ghogen"
 # Memory Usage without Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze Memory Usage without the VS Debugger](https://docs.microsoft.com/visualstudio/profiling/memory-usage-without-debugging2).  
   
 You can use the **Memory Usage** tool without debugging to do the following  
   

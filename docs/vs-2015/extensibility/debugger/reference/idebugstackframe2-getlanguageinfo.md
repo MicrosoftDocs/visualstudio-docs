@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetLanguageInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetLanguageInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getlanguageinfo).  
   
 Gets the language associated with this stack frame.  
   

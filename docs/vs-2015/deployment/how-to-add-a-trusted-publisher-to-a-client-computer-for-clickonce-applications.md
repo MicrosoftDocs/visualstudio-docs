@@ -25,7 +25,6 @@ manager: "wpickett"
 # How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](https://docs.microsoft.com/visualstudio/deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications).  
   
 With Trusted Application Deployment, you can configure client computers so that your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications run with a higher level of trust without prompting the user. The following procedures show how to use the command-line tool CertMgr.exe to add a publisher's certificate to the Trusted Publishers store on a client computer.  
   

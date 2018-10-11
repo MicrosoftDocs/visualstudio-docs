@@ -16,7 +16,6 @@ manager: "douge"
 # Defining a Locking Policy to Create Read-Only Segments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Defining a Locking Policy to Create Read-Only Segments](https://docs.microsoft.com/visualstudio/modeling/defining-a-locking-policy-to-create-read-only-segments).  
   
 The Immutability API of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  
   

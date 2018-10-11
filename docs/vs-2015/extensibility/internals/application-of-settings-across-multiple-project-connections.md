@@ -19,7 +19,6 @@ manager: "ghogen"
 # Application of Settings Across Multiple Project Connections
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Application of Settings Across Multiple Project Connections](https://docs.microsoft.com/visualstudio/extensibility/internals/application-of-settings-across-multiple-project-connections).  
   
 A source control plug-in built using the Source Control Plug-in API 1.2, can use a batch operation to execute the same source control operation across multiple projects or multiple connection contexts. Batches can be used to eliminate redundant, per-project dialog boxes from the user experience.  
   

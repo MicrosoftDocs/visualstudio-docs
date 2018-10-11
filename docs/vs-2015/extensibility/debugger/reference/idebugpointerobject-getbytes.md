@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPointerObject::GetBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPointerObject::GetBytes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpointerobject-getbytes).  
   
 Gets the value pointed to as a series of consecutive bytes.  
   

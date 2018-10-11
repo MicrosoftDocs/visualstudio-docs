@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugObject::SetReferenceValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::SetReferenceValue](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-setreferencevalue).  
   
 Sets the reference value of this object.  
   

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Attaching to the Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Attaching to the Program](https://docs.microsoft.com/visualstudio/extensibility/debugger/attaching-to-the-program).  
   
 After you have registered your programs with the appropriate port, you must attach the debugger to the program you want to debug.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes::Clone
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugCustomAttributes::Clone](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugcustomattributes-clone).  
   
 Creates an enumerator that contains the same enumeration state as the current enumerator.  
   

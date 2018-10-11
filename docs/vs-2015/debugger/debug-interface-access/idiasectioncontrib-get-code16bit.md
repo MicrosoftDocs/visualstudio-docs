@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_code16bit
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_code16bit](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-code16bit).  
   
 Retrieves a flag that indicates whether the section contains 16-bit code.  
   

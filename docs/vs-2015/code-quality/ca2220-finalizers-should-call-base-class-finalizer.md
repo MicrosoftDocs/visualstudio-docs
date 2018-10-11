@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2220: Finalizers should call base class finalizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2220: Finalizers should call base class finalizer](https://docs.microsoft.com/visualstudio/code-quality/ca2220-finalizers-should-call-base-class-finalizer).
 
 |||
 |-|-|

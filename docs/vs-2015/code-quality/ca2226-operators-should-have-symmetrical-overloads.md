@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2226: Operators should have symmetrical overloads
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2226: Operators should have symmetrical overloads](https://docs.microsoft.com/visualstudio/code-quality/ca2226-operators-should-have-symmetrical-overloads).
 
 |||
 |-|-|

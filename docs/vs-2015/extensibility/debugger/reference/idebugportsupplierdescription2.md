@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugPortSupplierDescription2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplierDescription2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplierdescription2).  
   
 Enables the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] UI to display text inside the **Transport Information** section of the **Attach to Process** dialog box.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # DA0030: Gather Tier Interaction measurements for database projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0030: Gather Tier Interaction measurements for database projects](https://docs.microsoft.com/visualstudio/profiling/da0030-gather-tier-interaction-measurements-for-database-projects).  
   
 Rule Id|DA0030|  
 |Category|Profiling Tools Usage|  

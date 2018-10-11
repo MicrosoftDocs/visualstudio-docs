@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyProvider](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyprovider).  
   
 This interface supplies a proxy interface to view and change an object's data.  
   

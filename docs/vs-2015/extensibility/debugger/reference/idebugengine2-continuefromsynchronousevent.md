@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::ContinueFromSynchronousEvent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::ContinueFromSynchronousEvent](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent).  
   
 Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed.  
   

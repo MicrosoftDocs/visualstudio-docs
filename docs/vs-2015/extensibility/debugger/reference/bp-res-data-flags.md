@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_RES_DATA_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_RES_DATA_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-res-data-flags).  
   
 Specifies whether the data breakpoint is being emulated or implemented in hardware.  
   

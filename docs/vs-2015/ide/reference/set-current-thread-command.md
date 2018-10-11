@@ -23,7 +23,6 @@ manager: "ghogen"
 # Set Current Thread Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set Current Thread Command](https://docs.microsoft.com/visualstudio/ide/reference/set-current-thread-command).  
   
   
 Sets the specified thread as the current thread.  

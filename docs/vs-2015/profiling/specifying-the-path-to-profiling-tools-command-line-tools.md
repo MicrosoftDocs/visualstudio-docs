@@ -18,7 +18,6 @@ manager: "ghogen"
 # Specifying the Path to Profiling Tools Command Line Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Specifying the Path to Profiling Tools Command Line Tools](https://docs.microsoft.com/visualstudio/profiling/specifying-the-path-to-profiling-tools-command-line-tools).  
   
 The path of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools is not added to the PATH environment variable. On 32-bit computers, the tools are in a single directory. There are 32-bit and 64-bit versions of the profiling tools on 64-bit computers.  
   

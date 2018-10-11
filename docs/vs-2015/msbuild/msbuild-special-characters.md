@@ -22,7 +22,6 @@ manager: "ghogen"
 # MSBuild Special Characters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Special Characters](https://docs.microsoft.com/visualstudio/msbuild/msbuild-special-characters).  
   
   
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] reserves some characters for special use in specific contexts. You only have to escape such characters if you want to use them literally in the context in which they are reserved. For example, an asterisk has special meaning only in the `Include` and `Exclude` attributes of an item definition, and in calls to `CreateItem`. If you want an asterisk to appear as an asterisk in one of those contexts, you must escape it. In every other context, just type the asterisk where you want it to appear.  

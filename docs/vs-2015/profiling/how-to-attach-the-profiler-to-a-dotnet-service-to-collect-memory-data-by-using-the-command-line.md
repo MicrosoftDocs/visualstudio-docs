@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Attach the Profiler to a .NET Service to Collect Memory Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Attach the Profiler to a .NET Service to Collect Memory Data by Using the Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-service-to-collect-memory-data-by-using-the-command-line).  
   
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] service and collect memory data. You can collect data about the number and size of memory allocations, and you can also collect data about the lifetime of memory objects.  
   

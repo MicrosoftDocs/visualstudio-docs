@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::Reset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSourceFiles::Reset](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsourcefiles-reset).  
   
 Resets an enumeration sequence to the beginning.  
   

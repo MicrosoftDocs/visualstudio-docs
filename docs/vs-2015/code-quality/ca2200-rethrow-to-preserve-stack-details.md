@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2200: Rethrow to preserve stack details
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2200: Rethrow to preserve stack details](https://docs.microsoft.com/visualstudio/code-quality/ca2200-rethrow-to-preserve-stack-details).
 
 |||
 |-|-|

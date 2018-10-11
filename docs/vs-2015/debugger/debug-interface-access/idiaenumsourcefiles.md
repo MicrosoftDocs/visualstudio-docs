@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSourceFiles](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsourcefiles).  
   
 Enumerates the various source files contained in the data source.  
   

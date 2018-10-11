@@ -17,7 +17,6 @@ manager: "ghogen"
 # AppliesTo Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AppliesTo Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/appliesto-element-visual-studio-templates).  
   
 Specifies an optional expression to match one or more capabilities. (see <xref:Microsoft.VisualStudio.Shell.Interop.VsProjectCapabilityExpressionMatcher>). Capabilities are exposed by project types via the hierarchy as a property <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID5>. In this way, the template can be shared by multiple project types that have common applicable capabilities.  
   

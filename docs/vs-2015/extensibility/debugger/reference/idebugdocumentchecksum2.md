@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugDocumentChecksum2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentChecksum2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentchecksum2).  
   
 Represents a checksum for a debug document and enables passing the checksum between components.  
   

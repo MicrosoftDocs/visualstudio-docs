@@ -22,7 +22,6 @@ manager: "ghogen"
 # SolutionFolder Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SolutionFolder Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/solutionfolder-element-visual-studio-templates).  
   
 Groups projects in multi-project templates.  
   

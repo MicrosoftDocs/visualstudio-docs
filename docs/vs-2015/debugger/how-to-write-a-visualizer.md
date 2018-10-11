@@ -30,7 +30,6 @@ manager: "ghogen"
 # How to: Write a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Write a Visualizer](https://docs.microsoft.com/visualstudio/debugger/how-to-write-a-visualizer).  
   
 You can write a custom visualizer for an object of any managed class except for <xref:System.Object> or <xref:System.Array>.  
   

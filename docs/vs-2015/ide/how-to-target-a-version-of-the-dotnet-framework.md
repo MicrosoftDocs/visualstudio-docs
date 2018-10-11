@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Target a Version of the .NET Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Target a Version of the .NET Framework](https://docs.microsoft.com/visualstudio/ide/how-to-target-a-version-of-the-dotnet-framework).  
   
 This document describes how to target a version of the .NET Framework when you create a project and how to change the targeted version in an existing Visual Basic, Visual C#, or Visual F# project.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugObject::IsProxy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::IsProxy](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-isproxy).  
   
 Determines if the object is a transparent proxy.  
   

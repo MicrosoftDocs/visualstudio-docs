@@ -24,7 +24,6 @@ manager: "ghogen"
 # Localizing Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Localizing Menu Commands](https://docs.microsoft.com/visualstudio/extensibility/localizing-menu-commands).  
   
 You can provide localized text for menu and toolbar commands by creating localized .vsct files and localized .resx files for your VSPackage, and then updating the project files to incorporate the changes.  
   

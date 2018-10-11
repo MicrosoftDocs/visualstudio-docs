@@ -26,7 +26,6 @@ manager: "ghogen"
 # Visualizer Security Considerations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visualizer Security Considerations](https://docs.microsoft.com/visualstudio/debugger/visualizer-security-considerations).  
   
 Writing a Visualizer involves possible security threats. No known exploit currently exists for these potential threats, but developers should be aware of them and take appropriate security precautions, as described here, to guard against future exploits.  
   

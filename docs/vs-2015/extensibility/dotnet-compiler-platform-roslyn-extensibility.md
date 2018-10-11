@@ -17,7 +17,6 @@ manager: "ghogen"
 # .NET Compiler Platform (&quot;Roslyn&quot;) Extensibility
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [.NET Compiler Platform (&quot;Roslyn&quot;) Extensibility](https://docs.microsoft.com/visualstudio/extensibility/dotnet-compiler-platform-roslyn-extensibility).  
   
 The core mission of the .NET Compiler Platform (“Roslyn”) is opening up the C# and Visual Basic compilers and allowing tools and developers to share in the rich information compilers have about programs. Code analysis tools improve code quality, and code generators aid in application construction. As tools get smarter, they need access to more and more of the deep code knowledge that only compilers possess. Instead of being opaque translators (source code in and object code out), the Roslyn compilers offer APIs that you can use for code-related tasks in your tools and applications.  
   

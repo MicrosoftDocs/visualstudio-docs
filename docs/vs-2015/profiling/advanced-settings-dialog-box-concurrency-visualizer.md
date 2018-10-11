@@ -20,7 +20,6 @@ manager: "ghogen"
 # Advanced Settings Dialog Box (Concurrency Visualizer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Advanced Settings Dialog Box (Concurrency Visualizer)](https://docs.microsoft.com/visualstudio/profiling/advanced-settings-dialog-box-concurrency-visualizer).  
   
 By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you can control how traces are collected.  The dialog box has tabs for symbols, Just My Code, buffering, filtering, CLR events, markers, providers, and files.  
   

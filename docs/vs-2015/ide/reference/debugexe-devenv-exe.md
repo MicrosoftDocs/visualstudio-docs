@@ -22,7 +22,6 @@ manager: "ghogen"
 # /DebugExe (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-DebugExe (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/debugexe-devenv-exe).  
   
   
 Opens the specified executable file to be debugged.  

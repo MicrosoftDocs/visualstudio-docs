@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::CreateObjectID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty3::CreateObjectID](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty3-createobjectid).  
   
 Creates a unique ID for this property to ensure that it is unique among all other properties.  
   

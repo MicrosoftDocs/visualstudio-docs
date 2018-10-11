@@ -21,7 +21,6 @@ manager: "ghogen"
 # BP_LOCATION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_LOCATION](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-location).  
   
 Specifies the type of structure used to describe the location of the breakpoint.  
   

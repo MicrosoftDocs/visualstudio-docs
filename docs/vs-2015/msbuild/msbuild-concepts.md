@@ -20,7 +20,6 @@ manager: "ghogen"
 # MSBuild Concepts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Concepts](https://docs.microsoft.com/visualstudio/msbuild/msbuild-concepts).  
   
   
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a basic XML schema that you can use to control how the build platform builds software. To specify the components in the build and how they are to be built, use these four parts of MSBuild: properties, items, tasks, and targets.  

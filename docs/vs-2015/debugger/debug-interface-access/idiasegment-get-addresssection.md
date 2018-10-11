@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_addressSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSegment::get_addressSection](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasegment-get-addresssection).  
   
 Retrieves the section number that maps to this segment.  
   

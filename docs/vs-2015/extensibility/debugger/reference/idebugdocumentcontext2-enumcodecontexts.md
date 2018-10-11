@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::EnumCodeContexts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentContext2::EnumCodeContexts](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentcontext2-enumcodecontexts).  
   
 Retrieves a list of all code contexts associated with this document context.  
   

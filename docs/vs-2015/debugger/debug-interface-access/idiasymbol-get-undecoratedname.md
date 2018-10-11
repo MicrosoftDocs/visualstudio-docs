@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_undecoratedName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_undecoratedName](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-undecoratedname).  
   
 Retrieves the undecorated name for a C++ decorated, or linkage, name.  
   

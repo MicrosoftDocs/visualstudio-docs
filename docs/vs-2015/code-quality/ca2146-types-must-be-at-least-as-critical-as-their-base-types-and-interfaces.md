@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2146: Types must be at least as critical as their base types and interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2146: Types must be at least as critical as their base types and interfaces](https://docs.microsoft.com/visualstudio/code-quality/ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces).
 
 |||
 |-|-|

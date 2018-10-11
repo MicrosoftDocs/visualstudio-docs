@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugIDECallback::DisplayMessage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugIDECallback::DisplayMessage](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugidecallback-displaymessage).  
   
 Sends the specified message string to the debugger's output window.  
   

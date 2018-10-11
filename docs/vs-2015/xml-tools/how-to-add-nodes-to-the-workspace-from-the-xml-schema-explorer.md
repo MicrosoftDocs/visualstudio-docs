@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Add Nodes to the Workspace from the XML Schema Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Add Nodes to the Workspace from the XML Schema Explorer](https://docs.microsoft.com/visualstudio/xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer).  
   
   
 This topic explains how to add nodes to the [XML Schema Designer workspace](../xml-tools/xml-schema-designer-workspace.md) from the XML Schema Explorer. This can be achieved by dragging and dropping nodes from the XML Schema Explorer onto an XSD Designer view, or by using the XML Schema Explorer's context menu. You can also add nodes that are highlighted as a result of a search performed by the XML Schema Explorer. For more information, see [How to: Add Schema Set Search Result Nodes to the Workspace](../xml-tools/how-to-add-schema-set-search-result-nodes-to-the-workspace.md).  

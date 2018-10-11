@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPort2::EnumProcesses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPort2::EnumProcesses](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugport2-enumprocesses).  
   
 Returns a list of all the processes running on a port.  
   

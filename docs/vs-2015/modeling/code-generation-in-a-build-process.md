@@ -19,7 +19,6 @@ manager: "douge"
 # Code Generation in a Build Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Code Generation in a Build Process](https://docs.microsoft.com/visualstudio/modeling/code-generation-in-a-build-process).
 
 Text transformation can be invoked as part of the build process of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
 

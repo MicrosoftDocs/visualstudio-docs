@@ -25,7 +25,6 @@ manager: "ghogen"
 # How to: Start and End Performance Data Collection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Start and End Performance Data Collection](https://docs.microsoft.com/visualstudio/profiling/how-to-start-and-end-performance-data-collection).  
   
 You must add the target binary that you want to profile to the performance session before you start profiling. To add a target, right-click **Targets** in **Performance Explorer**, and then click **Add Target Binary**. In the **Add Target Binary** dialog box, select the file name, and then click **Open**. A new binary is added.  
   

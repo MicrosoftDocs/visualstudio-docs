@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_share
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_share](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-share).  
   
 Retrieves a flag that indicates whether the section can be shared in memory.  
   

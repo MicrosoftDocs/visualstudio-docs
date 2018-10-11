@@ -22,7 +22,6 @@ manager: "ghogen"
 # Walkthrough: Command-Line Profiling Using Sampling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Command-Line Profiling Using Sampling](https://docs.microsoft.com/visualstudio/profiling/walkthrough-command-line-profiling-using-sampling).  
   
 This walkthrough demonstrates how to profile an application by using command-line tools and sampling to identify performance problems.  
   

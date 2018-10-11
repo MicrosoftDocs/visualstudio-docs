@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating a WPF Toolbox Control
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a WPF Toolbox Control](https://docs.microsoft.com/visualstudio/extensibility/creating-a-wpf-toolbox-control).  
   
 The WPF (Windows Presentation Framework) Toolbox Control template lets you create WPF controls that are automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a **Toolbox** control that you can distribute to other users.  
   

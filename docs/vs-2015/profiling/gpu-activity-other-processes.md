@@ -21,7 +21,6 @@ manager: "ghogen"
 # GPU Activity (Other Processes)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GPU Activity (Other Processes)](https://docs.microsoft.com/visualstudio/profiling/gpu-activity-other-processes).  
   
 The **GPU Activity (Other Processes)** segments in the Threads view  of the Concurrency Visualizer represent times when the GPU was processing requests on behalf of other processes on the system. These requests are sent the GPU as direct memory access (DMA) packets.  The length of a segment represents the duration of time that the packet was processed by the GPU.  
   

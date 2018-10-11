@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::GetProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::GetProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-getprocess).  
   
 Get the process that this program is running in.  
   

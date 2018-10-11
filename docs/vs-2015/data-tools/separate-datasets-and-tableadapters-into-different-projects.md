@@ -24,7 +24,6 @@ manager: "ghogen"
 # Separate datasets and TableAdapters into different projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Separate datasets and TableAdapters into different projects](https://docs.microsoft.com/visualstudio/data-tools/separate-datasets-and-tableadapters-into-different-projects).  
   
   
 Typed datasets have been enhanced so that the [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  

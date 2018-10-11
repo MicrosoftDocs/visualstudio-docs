@@ -24,7 +24,6 @@ manager: "ghogen"
 # Toolbox, HTML Tab
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Toolbox, HTML Tab](https://docs.microsoft.com/visualstudio/ide/reference/toolbox-html-tab).  
   
   
 The **HTML** tab of the Toolbox provides components that are useful on Web pages and Web forms. To view this tab, first open a document for editing in the HTML designer. On the **View** menu, click **Toolbox**, and then click the **HTML** tab of the Toolbox.  

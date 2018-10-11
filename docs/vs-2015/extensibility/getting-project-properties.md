@@ -20,7 +20,6 @@ manager: "ghogen"
 # Getting Project Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Project Properties](https://docs.microsoft.com/visualstudio/extensibility/getting-project-properties).  
   
 This walkthrough shows how to displays project properties in a tool window.  
   

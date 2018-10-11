@@ -36,7 +36,6 @@ manager: "wpickett"
 # &lt;dependency&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;dependency&gt; Element (ClickOnce Application)](https://docs.microsoft.com/visualstudio/deployment/dependency-element-clickonce-application).  
   
 Identifies a platform or assembly dependency that is required for the application.  
   

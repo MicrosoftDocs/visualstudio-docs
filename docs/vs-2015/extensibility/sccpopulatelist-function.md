@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccPopulateList Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccPopulateList Function](https://docs.microsoft.com/visualstudio/extensibility/sccpopulatelist-function).  
   
 This function updates a list of files for a particular source control command and supplies source control status on all given files.  
   

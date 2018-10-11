@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_frame
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSegment::get_frame](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasegment-get-frame).  
   
 Retrieves the segment number.  
   

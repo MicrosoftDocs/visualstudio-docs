@@ -19,7 +19,6 @@ manager: "ghogen"
 # Project Configuration for Output
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Configuration for Output](https://docs.microsoft.com/visualstudio/extensibility/internals/project-configuration-for-output).  
   
 Every configuration can support a set of build processes that produce output items such as executable or resource files. These output items are private to the user and can be placed in groups that link related types of output such as executable files (.exe, .dll, .lib) and source files (.idl, .h files).  
   

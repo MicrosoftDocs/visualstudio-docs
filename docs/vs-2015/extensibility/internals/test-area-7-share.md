@@ -20,7 +20,6 @@ manager: "ghogen"
 # Test Area 7: Share
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 7: Share](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-7-share).  
   
 This test area covers sharing items between locations via the **Share** command.  
   

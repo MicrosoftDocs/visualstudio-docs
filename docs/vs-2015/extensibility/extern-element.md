@@ -22,7 +22,6 @@ manager: "ghogen"
 # Extern Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extern Element](https://docs.microsoft.com/visualstudio/extensibility/extern-element).  
   
 The Extern element references any external header (.h) files to merge with the .vsct file at compile time. The files to be merged must be on the Include path given to the VSCT compiler or referenced by an [Include Element](../extensibility/include-element.md). The files may be other .vsct files or C++ header files.  
   

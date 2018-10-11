@@ -14,7 +14,6 @@ manager: "ghogen"
 # VSIX Color Compiler
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSIX Color Compiler](https://docs.microsoft.com/visualstudio/extensibility/internals/vsix-color-compiler).  
   
 The Visual Studio Extension Color Compiler tool is a console application that takes an .xml file representing colors for existing Visual Studio themes and coverts it to a .pkgdef file so that those colors can be used in Visual Studio. Because it’s easy to compare differences between .xml files, this tool is useful for managing custom colors in source control. It also can be hooked into build environments so that the output of the build is a valid .pkgdef file.  
   

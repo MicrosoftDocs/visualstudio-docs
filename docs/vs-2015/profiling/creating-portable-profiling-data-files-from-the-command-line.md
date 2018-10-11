@@ -18,7 +18,6 @@ manager: "ghogen"
 # Creating Portable Profiling Data Files from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Portable Profiling Data Files from the Command Line](https://docs.microsoft.com/visualstudio/profiling/creating-portable-profiling-data-files-from-the-command-line).  
   
 To make sharing of profiling data easier, you can use the [VSPerfReport](../profiling/vsperfreport.md) command-line tool to embed the symbols for a profiling run into the .vsp file.  
   

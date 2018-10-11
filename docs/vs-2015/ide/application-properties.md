@@ -22,7 +22,6 @@ manager: "ghogen"
 # Application Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Application Properties](https://docs.microsoft.com/visualstudio/ide/application-properties).  
   
 You can set general application properties for Visual Basic, C#, and F# applications, such as application type, startup object, and assembly information, in the **Application** pane of the **Project Designer**.  
   

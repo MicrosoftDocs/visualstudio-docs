@@ -26,7 +26,6 @@ manager: "douge"
 # UML Sequence Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Sequence Diagrams: Reference](https://docs.microsoft.com/visualstudio/modeling/uml-sequence-diagrams-reference).  
   
 In Visual Studio, a *sequence diagram* shows an interaction, which represents the sequence of messages between instances of classes, components, subsystems, or actors. Time flows down the diagram, and it shows the flow of control from one participant to another. Use sequence diagrams to visualize instances and events, instead of classes and methods. More than one instance of the same type can appear on the diagram. More than one occurrence of the same message can also appear.  
   

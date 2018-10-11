@@ -18,7 +18,6 @@ manager: "douge"
 # Writing Code to Customise a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Writing Code to Customise a Domain-Specific Language](https://docs.microsoft.com/visualstudio/modeling/writing-code-to-customise-a-domain-specific-language).  
   
 This section shows you how to use custom code to access, modify, or create a model in a domain-specific language.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Persisting the Property of a Project Item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Persisting the Property of a Project Item](https://docs.microsoft.com/visualstudio/extensibility/persisting-the-property-of-a-project-item).  
   
 You may want to persist a property you add to a project item, such as the author of a source file. You can do this by storing the property in the project file.  
   

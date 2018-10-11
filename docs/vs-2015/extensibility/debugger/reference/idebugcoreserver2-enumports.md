@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer2::EnumPorts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer2::EnumPorts](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver2-enumports).  
   
 Retrieves a list of all available ports.  
   

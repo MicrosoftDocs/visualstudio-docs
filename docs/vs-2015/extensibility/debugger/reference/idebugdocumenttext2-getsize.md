@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugDocumentText2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentText2::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttext2-getsize).  
   
 Retrieves the size of the text at this position in the document.  
   

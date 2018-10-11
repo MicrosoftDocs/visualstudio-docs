@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccCreateSubProject Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccCreateSubProject Function](https://docs.microsoft.com/visualstudio/extensibility/scccreatesubproject-function).  
   
 This function creates a subproject with the given name under an existing parent project specified by the `lpParentProjPath` argument.  
   

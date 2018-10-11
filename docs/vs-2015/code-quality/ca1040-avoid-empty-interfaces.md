@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1040: Avoid empty interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1040: Avoid empty interfaces](https://docs.microsoft.com/visualstudio/code-quality/ca1040-avoid-empty-interfaces).
 
 |||
 |-|-|

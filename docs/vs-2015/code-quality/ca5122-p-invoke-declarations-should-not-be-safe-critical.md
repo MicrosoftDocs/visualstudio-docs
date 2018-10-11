@@ -18,7 +18,6 @@ manager: "wpickett"
 # CA5122 P/Invoke declarations should not be safe critical
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA5122 P-Invoke declarations should not be safe critical](https://docs.microsoft.com/visualstudio/code-quality/ca5122-p-invoke-declarations-should-not-be-safe-critical).
 
 |||
 |-|-|

@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1039: Lists are strongly typed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1039: Lists are strongly typed](https://docs.microsoft.com/visualstudio/code-quality/ca1039-lists-are-strongly-typed).
 
 |||
 |-|-|

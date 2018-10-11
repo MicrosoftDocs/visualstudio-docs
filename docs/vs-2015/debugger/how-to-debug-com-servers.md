@@ -32,7 +32,6 @@ manager: "ghogen"
 # How to: Debug COM Servers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug COM Servers](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-com-servers).  
   
 Debugging COM server applications poses a unique set of problems that are not always easy to solve.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # OBJECT_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [OBJECT_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/object-type).  
   
 Specifies the type of an object from the expression evaluator.  
   

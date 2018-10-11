@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugTypeFieldBuilder2::CreateArrayOfType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugTypeFieldBuilder2::CreateArrayOfType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugtypefieldbuilder2-createarrayoftype).  
   
 Creates an array of the specified type and size.  
   

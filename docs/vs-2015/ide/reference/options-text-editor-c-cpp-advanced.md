@@ -24,7 +24,6 @@ manager: "ghogen"
 # Options, Text Editor, C/C++, Advanced
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, C/C++, Advanced](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-c-cpp-advanced).  
   
   
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.  

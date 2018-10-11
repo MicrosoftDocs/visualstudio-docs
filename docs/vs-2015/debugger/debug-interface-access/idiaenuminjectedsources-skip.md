@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumInjectedSources::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumInjectedSources::Skip](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenuminjectedsources-skip).  
   
 Skips a specified number of injected sources in an enumeration sequence.  
   

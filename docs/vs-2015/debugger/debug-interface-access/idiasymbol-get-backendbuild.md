@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_backEndBuild
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_backEndBuild](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-backendbuild).  
   
 Retrieves the back end build number of the compiler.  
   

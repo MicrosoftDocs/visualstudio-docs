@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryContext2::Subtract
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMemoryContext2::Subtract](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmemorycontext2-subtract).  
   
 Subtracts the specified value from the current context and returns a new context.  
   

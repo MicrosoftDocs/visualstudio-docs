@@ -20,7 +20,6 @@ manager: "ghogen"
 # Extending the Status Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending the Status Bar](https://docs.microsoft.com/visualstudio/extensibility/extending-the-status-bar).  
   
 You can use the Visual Studio status bar at the bottom of the IDE to display information.  
   

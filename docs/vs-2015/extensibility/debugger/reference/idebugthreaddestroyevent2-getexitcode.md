@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThreadDestroyEvent2::GetExitCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThreadDestroyEvent2::GetExitCode](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthreaddestroyevent2-getexitcode).  
   
 Gets the exit code for a thread.  
   

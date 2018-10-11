@@ -21,7 +21,6 @@ manager: "ghogen"
 # Walkthrough: Using Profiler APIs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Using Profiler APIs](https://docs.microsoft.com/visualstudio/profiling/walkthrough-using-profiler-apis).  
   
 The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools APIs. You will use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.  
   

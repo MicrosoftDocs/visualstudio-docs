@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1410: COM registration methods should be matched
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1410: COM registration methods should be matched](https://docs.microsoft.com/visualstudio/code-quality/ca1410-com-registration-methods-should-be-matched).
 
 |||
 |-|-|

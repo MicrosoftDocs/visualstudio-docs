@@ -19,7 +19,6 @@ manager: "ghogen"
 # Source Control Plug-ins
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control Plug-ins](https://docs.microsoft.com/visualstudio/extensibility/source-control-plug-ins).  
   
 The Source Control Plug-in SDK reference section contains the complete interface specification that enables source control systems to be integrated with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. It specifies the syntax and semantics of the various functions and data types that the source control plug-in must implement to interface with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE).  
   

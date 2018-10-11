@@ -27,7 +27,6 @@ manager: "ghogen"
 # Class View and Object Browser Icons
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Class View and Object Browser Icons](https://docs.microsoft.com/visualstudio/ide/class-view-and-object-browser-icons).  
   
 Class View** and the **Object Browser** display icons that represent code entities, for example, namespaces, classes, functions, and variables. The following table illustrates and describes the icons.  
   

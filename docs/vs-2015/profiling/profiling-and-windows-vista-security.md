@@ -21,7 +21,6 @@ manager: "ghogen"
 # Profiling and Windows Vista Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Profiling and Windows Vista Security](https://docs.microsoft.com/visualstudio/profiling/profiling-and-windows-vista-security).  
   
 Depending on the [!INCLUDE[wiprlhext](../includes/wiprlhext-md.md)] User Access Permissions settings that a computer administrator has made available, an individual user might have security permission to profile a process on that computer. The following examples illustrate possible differences among users:  
   

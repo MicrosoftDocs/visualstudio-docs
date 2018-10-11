@@ -21,7 +21,6 @@ manager: "ghogen"
 # Adding Icons to Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Icons to Menu Commands](https://docs.microsoft.com/visualstudio/extensibility/adding-icons-to-menu-commands).  
   
 Commands can appear on both menus and toolbars. On toolbars, it is common for a command to be displayed with just an icon (to save space) while on menus a command typically appears with both an icon and text.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Project Persistence
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Persistence](https://docs.microsoft.com/visualstudio/extensibility/internals/project-persistence).  
   
 Persistence is a key design consideration for your project. Most projects use project items that represent files; [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] also supports projects whose data is non-file-based. Both the files owned by the project and the project file must be persisted. The IDE instructs the project to save itself or a project item.  
   

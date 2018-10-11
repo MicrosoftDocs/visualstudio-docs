@@ -19,7 +19,6 @@ manager: "ghogen"
 # m_stateFlags Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [m_stateFlags Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/m-stateflags-field).  
   
 Stores information about the current state of the <xref:System.Threading.Tasks.Task> object.  
   

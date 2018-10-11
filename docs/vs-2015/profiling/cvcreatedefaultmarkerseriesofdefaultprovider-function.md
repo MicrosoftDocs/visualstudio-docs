@@ -22,7 +22,6 @@ manager: "ghogen"
 # CvCreateDefaultMarkerSeriesOfDefaultProvider Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvCreateDefaultMarkerSeriesOfDefaultProvider Function](https://docs.microsoft.com/visualstudio/profiling/cvcreatedefaultmarkerseriesofdefaultprovider-function).  
   
 Creates default marker series of a default provider.  
   

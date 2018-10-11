@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_function
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_function](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-function).  
   
 Retrieves a flag that specifies whether the public symbol refers to a function.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Adding a Toolbar to a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Toolbar to a Tool Window](https://docs.microsoft.com/visualstudio/extensibility/adding-a-toolbar-to-a-tool-window).  
   
 This walkthrough shows how to add a toolbar to a tool window.  
   

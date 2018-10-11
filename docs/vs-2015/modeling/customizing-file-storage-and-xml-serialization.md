@@ -20,7 +20,6 @@ manager: "douge"
 # Customizing File Storage and XML Serialization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing File Storage and XML Serialization](https://docs.microsoft.com/visualstudio/modeling/customizing-file-storage-and-xml-serialization).  
   
 When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.  
   

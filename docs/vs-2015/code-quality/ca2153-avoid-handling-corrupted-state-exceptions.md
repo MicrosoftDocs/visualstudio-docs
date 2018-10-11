@@ -17,7 +17,6 @@ manager: "wpickett"
 # CA2153: Avoid Handling Corrupted State Exceptions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2153: Avoid Handling Corrupted State Exceptions](https://docs.microsoft.com/visualstudio/code-quality/ca2153-avoid-handling-corrupted-state-exceptions).
 
 |||
 |-|-|

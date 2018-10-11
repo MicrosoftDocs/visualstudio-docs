@@ -23,7 +23,6 @@ manager: "ghogen"
 # Open Solution Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Open Solution Command](https://docs.microsoft.com/visualstudio/ide/reference/open-solution-command).  
   
   
 Opens an existing solution, closing any other open solutions.  

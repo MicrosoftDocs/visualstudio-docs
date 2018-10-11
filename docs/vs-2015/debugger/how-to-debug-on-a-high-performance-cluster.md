@@ -26,7 +26,6 @@ manager: "ghogen"
 # How to: Debug On a High-Performance Cluster
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug On a High-Performance Cluster](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-on-a-high-performance-cluster).  
   
 Debugging a multiprocessing program on a high-performance cluster is like debugging an ordinary program on a remote computer. However, there are some additional considerations. For general remote setup requirements, see [Remote Debugging](../debugger/remote-debugging.md).  
   

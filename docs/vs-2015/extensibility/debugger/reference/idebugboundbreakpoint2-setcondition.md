@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::SetCondition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBoundBreakpoint2::SetCondition](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugboundbreakpoint2-setcondition).  
   
 Sets or changes the condition associated with this bound breakpoint.  
   

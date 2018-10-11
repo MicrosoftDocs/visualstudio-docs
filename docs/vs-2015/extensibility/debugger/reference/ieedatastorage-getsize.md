@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEEDataStorage::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEEDataStorage::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ieedatastorage-getsize).  
   
 Returns the number of bytes contained in this object.  
   

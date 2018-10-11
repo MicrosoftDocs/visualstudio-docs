@@ -18,7 +18,6 @@ manager: "ghogen"
 # WPF Data Binding with LINQ to XML
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WPF Data Binding with LINQ to XML](https://docs.microsoft.com/visualstudio/designers/wpf-data-binding-with-linq-to-xml).  
   
 This section provides information about how to use LINQ to XML as the data source for data binding in Windows Presentation Foundation (WPF) applications. This scenario relies upon special *dynamic properties* of the <xref:System.Xml.Linq.XAttribute?displayProperty=fullName> and <xref:System.Xml.Linq.XElement?displayProperty=fullName>. These dynamic properties are also documented in this section.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_baseSymbolId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_baseSymbolId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-basesymbolid).  
   
 Retrieves the symbol ID from which the pointer is based.  
   

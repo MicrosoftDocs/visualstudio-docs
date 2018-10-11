@@ -21,7 +21,6 @@ manager: "ghogen"
 # Set Current Process
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set Current Process](https://docs.microsoft.com/visualstudio/ide/reference/set-current-process).  
   
   
 Sets the specified process as the active process in the debugger.  

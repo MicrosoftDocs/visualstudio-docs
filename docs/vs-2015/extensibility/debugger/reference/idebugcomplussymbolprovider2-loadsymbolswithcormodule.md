@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider2-loadsymbolswithcormodule).  
   
 Loads debug symbols given the **ICorDebugModule** object.  
   

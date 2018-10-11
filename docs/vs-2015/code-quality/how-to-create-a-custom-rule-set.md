@@ -22,7 +22,6 @@ manager: "wpickett"
 # How to: Create a Custom Rule Set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Custom Rule Set](https://docs.microsoft.com/visualstudio/code-quality/how-to-create-a-custom-rule-set).  
   
 In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)], and [!INCLUDE[vsPro](../includes/vspro-md.md)], you can create and modify a custom *rule set* to meet specific project needs associated with code analysis. To create a custom rule set, you open one or more standard rule sets in the rule set editor. You can then add or remove specific rules and you can change the action that occurs when code analysis determines that a rule has been violated.  
   

@@ -20,7 +20,6 @@ manager: "douge"
 # Properties of Compartment Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Compartment Shapes](https://docs.microsoft.com/visualstudio/modeling/properties-of-compartment-shapes).  
   
 Compartment shapes are one of the shapes you can use to display a domain class in a domain-specific language. You can expand and collapse the compartments.  
   

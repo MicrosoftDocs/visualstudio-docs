@@ -26,7 +26,6 @@ manager: "wpickett"
 # &lt;description&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;description&gt; Element (ClickOnce Deployment)](https://docs.microsoft.com/visualstudio/deployment/description-element-clickonce-deployment).  
   
 Identifies application information used to create a shell presence and an **Add or Remove Programs** item in Control Panel.  
   

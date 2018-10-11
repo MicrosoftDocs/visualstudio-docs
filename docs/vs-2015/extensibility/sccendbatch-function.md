@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccEndBatch Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccEndBatch Function](https://docs.microsoft.com/visualstudio/extensibility/sccendbatch-function).  
   
 This function concludes a batch of source control operations. These batches may not be nested.  
   

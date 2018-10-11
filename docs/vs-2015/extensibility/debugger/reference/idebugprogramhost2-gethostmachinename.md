@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramHost2::GetHostMachineName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramHost2::GetHostMachineName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramhost2-gethostmachinename).  
   
 Gets the name of the machine that the process hosting this program is running on.  
   

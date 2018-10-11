@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccSetOption Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccSetOption Function](https://docs.microsoft.com/visualstudio/extensibility/sccsetoption-function).  
   
 This function sets options that control the behavior of the source control plug-in.  
   

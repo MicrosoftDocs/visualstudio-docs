@@ -21,7 +21,6 @@ manager: "ghogen"
 # Source Control Integration Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control Integration Essentials](https://docs.microsoft.com/visualstudio/extensibility/internals/source-control-integration-essentials).  
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports two types of source control integration: a source control plug-in that provides basic functionality and is built using the Source Control Plug-in API (formerly known as the MSSCCI API), and a VSPackage-based source control integration solution that provides more robust functionality.  
   

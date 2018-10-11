@@ -26,7 +26,6 @@ manager: "ghogen"
 # Process View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Process View](https://docs.microsoft.com/visualstudio/profiling/process-view).  
   
 The Process view displays profiling data for the processes and threads that were executed during the profiling run.  
   

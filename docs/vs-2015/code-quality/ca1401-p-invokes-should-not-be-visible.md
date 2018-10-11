@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1401: P/Invokes should not be visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1401: P-Invokes should not be visible](https://docs.microsoft.com/visualstudio/code-quality/ca1401-p-invokes-should-not-be-visible).
 
 |||
 |-|-|

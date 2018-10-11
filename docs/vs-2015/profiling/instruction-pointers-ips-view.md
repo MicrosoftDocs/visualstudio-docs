@@ -27,7 +27,6 @@ manager: "ghogen"
 # Instruction Pointers (IPs) View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Instruction Pointers (IPs) View](https://docs.microsoft.com/visualstudio/profiling/instruction-pointers-ips-view).  
   
 The Instruction Pointers view enables you to see specific instructions that are executed during sampling profiling.  
   

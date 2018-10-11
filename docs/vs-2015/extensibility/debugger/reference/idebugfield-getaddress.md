@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::GetAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-getaddress).  
   
 This method gets the debug address of a field.  
   

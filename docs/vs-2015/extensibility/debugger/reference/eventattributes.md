@@ -21,7 +21,6 @@ manager: "ghogen"
 # EVENTATTRIBUTES
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EVENTATTRIBUTES](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/eventattributes).  
   
 Specifies the event attributes.  
   

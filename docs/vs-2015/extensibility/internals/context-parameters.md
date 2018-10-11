@@ -20,7 +20,6 @@ manager: "ghogen"
 # Context Parameters
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Context Parameters](https://docs.microsoft.com/visualstudio/extensibility/internals/context-parameters).  
   
 In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE), you can add wizards to the **New Project**, **Add New Item**, or **Add Sub Project** dialog boxes. The added wizards are available on the **File** menu or by right-clicking a project in **Solution Explorer**. The IDE passes context parameters to the implementation of the wizard. The context parameters define the state of the project when the IDE calls the wizard.  
   

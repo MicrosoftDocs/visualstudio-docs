@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::IsHiddenCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::IsHiddenCode](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-ishiddencode).  
   
 Determines if the code at the specified debugger address is hidden.  
   

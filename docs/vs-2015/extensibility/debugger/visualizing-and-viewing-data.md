@@ -20,7 +20,6 @@ manager: "ghogen"
 # Visualizing and Viewing Data
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visualizing and Viewing Data](https://docs.microsoft.com/visualstudio/extensibility/debugger/visualizing-and-viewing-data).  
   
 Type visualizers and custom viewers present data in a way that is quickly meaningful to a developer. The expression evaluator (EE) can support third-party type visualizers as well as supply its own custom viewers.  
   

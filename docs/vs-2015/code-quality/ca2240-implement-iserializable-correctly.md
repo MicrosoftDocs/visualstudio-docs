@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2240: Implement ISerializable correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2240: Implement ISerializable correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2240-implement-iserializable-correctly).
 
 |||
 |-|-|

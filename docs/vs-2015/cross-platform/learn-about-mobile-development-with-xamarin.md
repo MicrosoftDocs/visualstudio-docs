@@ -14,7 +14,6 @@ manager: "crdun"
 # Learn about mobile development with Xamarin
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Learn about mobile development with Xamarin](https://docs.microsoft.com/visualstudio/cross-platform/learn-about-mobile-development-with-xamarin).  
   
   
 This topic directs you to overview material that helps you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.  

@@ -29,7 +29,6 @@ manager: "ghogen"
 # Create lookup tables in WPF applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create lookup tables in WPF applications](https://docs.microsoft.com/visualstudio/data-tools/create-lookup-tables-in-wpf-applications).  
   
   
 The term *lookup table* (sometimes called a *lookup binding*) describes a control that displays information from one data table based on the value of a foreign-key field in another table. You can create a lookup table by dragging the main node of a parent table or object in the **Data Sources** window onto a control that is already bound to a column or property in a related child table.  

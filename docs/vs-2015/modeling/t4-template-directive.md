@@ -16,7 +16,6 @@ manager: "douge"
 # T4 Template Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Template Directive](https://docs.microsoft.com/visualstudio/modeling/t4-template-directive).  
   
 A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts with a `template` directive, which specifies how the template should be processed. There should be no more than one template directive in a text template and any files that it includes.  
   

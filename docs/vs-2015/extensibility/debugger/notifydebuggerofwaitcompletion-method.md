@@ -19,7 +19,6 @@ manager: "ghogen"
 # NotifyDebuggerOfWaitCompletion Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [NotifyDebuggerOfWaitCompletion Method](https://docs.microsoft.com/visualstudio/extensibility/debugger/notifydebuggerofwaitcompletion-method).  
   
 Placeholder method used as a breakpoint target by the debugger. This method must not be inlined or optimized.  
   

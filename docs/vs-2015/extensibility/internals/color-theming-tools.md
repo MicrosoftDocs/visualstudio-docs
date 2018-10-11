@@ -14,7 +14,6 @@ manager: "ghogen"
 # Color Theming Tools
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Color Theming Tools](https://docs.microsoft.com/visualstudio/extensibility/internals/color-theming-tools).  
   
 The VS SDK provides several tools to help you create and manage color themes.  
   

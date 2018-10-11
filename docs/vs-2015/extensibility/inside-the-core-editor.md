@@ -19,7 +19,6 @@ manager: "ghogen"
 # Inside the Core Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Inside the Core Editor](https://docs.microsoft.com/visualstudio/extensibility/inside-the-core-editor).  
   
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor is a set of several components that let you modify and query textual information. If you have customized the core editor by using the legacy API, you may continue to use these customizations, which will be routed through editor adapters. It is recommended, however, that you adapt your customizations to the new editor API.  
   

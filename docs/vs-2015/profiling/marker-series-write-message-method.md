@@ -22,7 +22,6 @@ manager: "ghogen"
 # marker_series::write_message Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [marker_series::write_message Method](https://docs.microsoft.com/visualstudio/profiling/marker-series-write-message-method).  
   
 Writes a message to the Concurrency Visualizer trace file.  
   

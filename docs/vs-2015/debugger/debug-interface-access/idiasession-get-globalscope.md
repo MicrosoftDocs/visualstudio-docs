@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::get_globalScope
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::get_globalScope](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-get-globalscope).  
   
 Retrieves a reference to the global scope.  
   

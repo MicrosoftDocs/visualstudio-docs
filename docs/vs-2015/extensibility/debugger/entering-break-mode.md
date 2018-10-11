@@ -20,7 +20,6 @@ manager: "ghogen"
 # Entering Break Mode
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Entering Break Mode](https://docs.microsoft.com/visualstudio/extensibility/debugger/entering-break-mode).  
   
 The following describes the process that occurs when a breakpoint is encountered after stepping into a function, running to the line of source code that has the cursor in it, or running to a breakpoint.  
   

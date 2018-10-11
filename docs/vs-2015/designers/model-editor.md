@@ -21,7 +21,6 @@ manager: "ghogen"
 # Model Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Model Editor](https://docs.microsoft.com/visualstudio/designers/model-editor).  
   
 This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Editor to view, create, and modify 3-D models.  
   

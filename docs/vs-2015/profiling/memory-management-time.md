@@ -22,7 +22,6 @@ manager: "ghogen"
 # Memory Management Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Memory Management Time](https://docs.microsoft.com/visualstudio/profiling/memory-management-time).  
   
 These segments in the timeline are associated with blocking times that are categorized as Memory Management. This implies that a thread is blocked by an event that is associated with a memory management operation such as Paging. During this time, a thread has been blocked in an API or kernel state that the Concurrency Visualizer is counting as memory management. These include events such as paging and memory allocation.  
   

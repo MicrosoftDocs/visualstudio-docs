@@ -18,7 +18,6 @@ manager: "ghogen"
 # Counter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Counter](https://docs.microsoft.com/visualstudio/profiling/counter).  
   
 The **Counter** option collects data from processor (hardware) performance counters.  
   

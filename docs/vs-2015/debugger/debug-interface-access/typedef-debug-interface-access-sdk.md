@@ -22,7 +22,6 @@ manager: "ghogen"
 # Typedef (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Typedef (Debug Interface Access SDK)](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/typedef-debug-interface-access-sdk).  
   
 Symbols with `SymTagTypedef` tags introduce names for other types.  
   

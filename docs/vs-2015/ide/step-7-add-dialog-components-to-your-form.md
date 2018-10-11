@@ -18,7 +18,6 @@ manager: "ghogen"
 # Step 7: Add Dialog Components to Your Form
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 7: Add Dialog Components to Your Form](https://docs.microsoft.com/visualstudio/ide/step-7-add-dialog-components-to-your-form).  
   
 To enable your program to open picture files and choose a background color, in this step, you add an **OpenFileDialog** component and a **ColorDialog** component to your form.  
   

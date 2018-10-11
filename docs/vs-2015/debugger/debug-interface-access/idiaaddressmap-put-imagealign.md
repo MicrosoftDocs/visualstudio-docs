@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::put_imageAlign
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaAddressMap::put_imageAlign](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaaddressmap-put-imagealign).  
   
 Sets the image alignment.  
   

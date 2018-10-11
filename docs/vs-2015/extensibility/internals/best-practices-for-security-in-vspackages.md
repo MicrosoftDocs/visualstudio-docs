@@ -21,7 +21,6 @@ manager: "ghogen"
 # Best Practices for Security in VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Best Practices for Security in VSPackages](https://docs.microsoft.com/visualstudio/extensibility/internals/best-practices-for-security-in-vspackages).  
   
 To install the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] on your computer, you must be running in a context with administrative credentials. The basic unit of security and deployment of a [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] application is the [VSPackages](../../extensibility/internals/vspackages.md). A VSPackage must be registered by using [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], which also requires administrative credentials.  
   

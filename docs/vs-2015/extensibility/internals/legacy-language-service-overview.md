@@ -19,7 +19,6 @@ manager: "ghogen"
 # Legacy Language Service Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Overview](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-overview).  
   
 A language service provides editor support that lets you implement certain [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] features. The Managed Package Framework (MPF) language service classes provide full support for frequently-used features and partial support for other features.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Command Placement Guidelines
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Placement Guidelines](https://docs.microsoft.com/visualstudio/extensibility/internals/command-placement-guidelines).  
   
 Best practices for positioning commands in the Visual Studio integrated development environment (IDE) vary depending on the size of the command set. Commands are defined and positioned according to the information in .vsct files.  
   

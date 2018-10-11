@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccRename Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccRename Function](https://docs.microsoft.com/visualstudio/extensibility/sccrename-function).  
   
 This function renames a file in the source control system.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Performance Session Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Session Overview](https://docs.microsoft.com/visualstudio/profiling/performance-session-overview).  
   
 This overview explains the basics of profiling. Developers who are new to performance work will see how the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools can help them become productive quickly and increase the performance of their code. Developers who are experienced in profiling can gain an overview of specific Profiling Tools features and processes.  
   

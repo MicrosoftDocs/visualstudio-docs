@@ -16,7 +16,6 @@ manager: "douge"
 # Setting a Background Image on a Diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Setting a Background Image on a Diagram](https://docs.microsoft.com/visualstudio/modeling/setting-a-background-image-on-a-diagram).  
   
 In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.  
   

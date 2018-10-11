@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineCreateEvent2::GetEngine
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineCreateEvent2::GetEngine](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenginecreateevent2-getengine).  
   
 Retrieves the object that represents the newly created debug engine (DE).  
   

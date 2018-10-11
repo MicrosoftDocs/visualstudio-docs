@@ -18,7 +18,6 @@ manager: "ghogen"
 # Shutdown
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Shutdown](https://docs.microsoft.com/visualstudio/profiling/shutdown).  
   
 The **Shutdown** option waits for any currently profiled process to end or detach, and then it turns the profiler off and closes the profiling data file. The **Shutdown** option must be the last command of a profiling run.  
   

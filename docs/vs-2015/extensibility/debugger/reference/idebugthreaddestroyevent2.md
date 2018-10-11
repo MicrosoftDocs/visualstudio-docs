@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThreadDestroyEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThreadDestroyEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthreaddestroyevent2).  
   
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread has run to completion.  
   

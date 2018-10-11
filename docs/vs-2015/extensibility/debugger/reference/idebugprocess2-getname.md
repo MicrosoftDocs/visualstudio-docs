@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::GetName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-getname).  
   
 Gets the title, friendly name, or file name of the process.  
   

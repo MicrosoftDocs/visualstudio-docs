@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2104: Do not declare read only mutable reference types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2104: Do not declare read only mutable reference types](https://docs.microsoft.com/visualstudio/code-quality/ca2104-do-not-declare-read-only-mutable-reference-types).
 
 |||
 |-|-|

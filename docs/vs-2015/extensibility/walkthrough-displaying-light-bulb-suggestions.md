@@ -17,7 +17,6 @@ manager: "ghogen"
 # Walkthrough: Displaying Light Bulb Suggestions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Displaying Light Bulb Suggestions](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-displaying-light-bulb-suggestions).  
   
 Light bulbs are icons used in the Visual Studio editor that expand to display a set of actions, for example fixes for problems identified by the built-in code analyzers or code refactoring.  
   

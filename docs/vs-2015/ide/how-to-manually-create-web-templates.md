@@ -23,7 +23,6 @@ manager: "ghogen"
 # How to: Manually Create Web Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Manually Create Web Templates](https://docs.microsoft.com/visualstudio/ide/how-to-manually-create-web-templates).  
   
 Creating a Web template is different than creating other kinds of templates. Because Web project templates appear in the **Add New Web Site** dialog box, and Web project items are categorized by programming language, the .vstemplate file must specify the template as a Web template and identify the programming language.  
   

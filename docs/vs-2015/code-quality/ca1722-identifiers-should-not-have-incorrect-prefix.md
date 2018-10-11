@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1722: Identifiers should not have incorrect prefix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1722: Identifiers should not have incorrect prefix](https://docs.microsoft.com/visualstudio/code-quality/ca1722-identifiers-should-not-have-incorrect-prefix).
 
 |||
 |-|-|

@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::PreloadModules
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator2::PreloadModules](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator2-preloadmodules).  
   
 Preloads the modules designated by the specified symbol provider.  
   

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Text Buffer Events in the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Text Buffer Events in the Legacy API](https://docs.microsoft.com/visualstudio/extensibility/text-buffer-events-in-the-legacy-api).  
   
 The text buffer object emits several different events that allow you to respond to different situations.  
   

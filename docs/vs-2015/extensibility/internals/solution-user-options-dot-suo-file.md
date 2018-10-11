@@ -23,7 +23,6 @@ manager: "ghogen"
 # Solution User Options (.Suo) File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Solution User Options (.Suo) File](https://docs.microsoft.com/visualstudio/extensibility/internals/solution-user-options-dot-suo-file).  
   
 The solution user options (.suo) file contains per-user solution options. This file should not be checked in to source code control.  
   

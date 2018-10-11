@@ -18,7 +18,6 @@ manager: "robinr"
 # Unit testing Visual C# code in a Store app
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unit testing Visual C# code in a Store app](https://docs.microsoft.com/visualstudio/test/unit-testing-visual-csharp-code-in-a-store-app).  
   
 This topic describes one way to create unit tests for a Visual C# class in a Windows Store app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.  
   

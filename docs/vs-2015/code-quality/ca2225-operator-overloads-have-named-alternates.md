@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2225: Operator overloads have named alternates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2225: Operator overloads have named alternates](https://docs.microsoft.com/visualstudio/code-quality/ca2225-operator-overloads-have-named-alternates).
 
 |||
 |-|-|

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Launching the Debugger
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Launching the Debugger](https://docs.microsoft.com/visualstudio/extensibility/debugger/launching-the-debugger).  
   
 Launching the debugger requires sending the correct sequence of methods and events with their proper attributes.  
   

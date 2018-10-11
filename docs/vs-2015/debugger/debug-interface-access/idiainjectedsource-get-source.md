@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_source
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaInjectedSource::get_source](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiainjectedsource-get-source).  
   
 Retrieves the source code bytes.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugClassField::EnumConstructors
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugClassField::EnumConstructors](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugclassfield-enumconstructors).  
   
 Creates an enumerator for the constructors for this class.  
   

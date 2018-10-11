@@ -32,7 +32,6 @@ manager: "ghogen"
 # RC Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RC Task](https://docs.microsoft.com/visualstudio/msbuild/rc-task).  
   
   
 Wraps the Microsoft Windows Resource Compiler tool, rc.exe. The **RC** task compiles resources, such as cursors, icons, bitmaps, dialog boxes, and fonts, into a resource (.res) file. For more information, see "Resource Compiler" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  

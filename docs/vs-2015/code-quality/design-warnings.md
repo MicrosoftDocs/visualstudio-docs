@@ -24,7 +24,6 @@ manager: "wpickett"
 # Design Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Design Warnings](https://docs.microsoft.com/visualstudio/code-quality/design-warnings).  
   
 Design warnings support adherence to the .NET Framework Design Guidelines.  
   

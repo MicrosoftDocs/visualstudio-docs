@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isAcceleratorStubFunction
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isAcceleratorStubFunction](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-isacceleratorstubfunction).  
   
 Indicates whether the symbol corresponds to a top-level function symbol for a shader compiled for an accelerator that corresponds to a `parallel_for_each` call.  
   

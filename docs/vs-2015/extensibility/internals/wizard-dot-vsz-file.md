@@ -21,7 +21,6 @@ manager: "ghogen"
 # Wizard (.Vsz) File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Wizard (.Vsz) File](https://docs.microsoft.com/visualstudio/extensibility/internals/wizard-dot-vsz-file).  
   
 The integrated development environment (IDE) uses .vsz files to start wizards. These .vsz files contain information that the IDE uses to determine which wizard to call and what information to pass to the wizard.  
   

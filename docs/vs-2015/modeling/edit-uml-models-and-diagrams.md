@@ -28,7 +28,6 @@ manager: "douge"
 # Edit UML models and diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit UML models and diagrams](https://docs.microsoft.com/visualstudio/modeling/edit-uml-models-and-diagrams).  
   
 You can create and edit a UML model through the views provided by several different types of diagram. By providing different perspectives on your system, these diagrams help you understand and discuss different aspects of its design and requirements. Visual Studio provides templates for five of the most frequently used types of UML diagram.  
   

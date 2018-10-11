@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile::get_checksumType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSourceFile::get_checksumType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasourcefile-get-checksumtype).  
   
 Retrieves the checksum type.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # TemplateGroupID Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TemplateGroupID Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/templategroupid-element-visual-studio-templates).  
   
 Specifies what kind of project an item templates will show up in. This element is significant when [ShowByDefault (Visual Studio Templates)](../extensibility/showbydefault-visual-studio-templates.md) is set to `false`. When [ShowByDefault (Visual Studio Templates)](../extensibility/showbydefault-visual-studio-templates.md) is set to `true`, then an item template is available in all project types.  
   

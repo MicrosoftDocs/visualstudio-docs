@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Specify Symbol File Locations from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Symbol File Locations from the Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-specify-symbol-file-locations-from-the-command-line).  
   
 To display symbol information such as function names and line numbers, the VSPerfReport command-line tool requires access to the symbol (.pdb) files of the profiled components and the Windows system files. Symbol files are created when a component is compiled. For more information, see [VSPerfReport](../profiling/vsperfreport.md). VSPerfReport automatically searches the following locations for symbol files:  
   

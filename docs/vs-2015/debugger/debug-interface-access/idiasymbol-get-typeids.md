@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_typeIds
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_typeIds](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-typeids).  
   
 Retrieves an array of compiler-specific type identifier values for this symbol.  
   

@@ -23,7 +23,6 @@ manager: "ghogen"
 # Code Analysis, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Code Analysis, Project Designer](https://docs.microsoft.com/visualstudio/ide/reference/code-analysis-project-designer).  
   
   
 Contains the code analysis tool that you can opt to run on your code. The tool reports information about your assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.  

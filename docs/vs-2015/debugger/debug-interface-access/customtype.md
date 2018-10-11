@@ -22,7 +22,6 @@ manager: "ghogen"
 # CustomType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CustomType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/customtype).  
   
 Vendor-defined types (compiler-specific types) are identified by a `SymTagCustomType` symbol.  
   

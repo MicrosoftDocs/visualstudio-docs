@@ -23,7 +23,6 @@ manager: "ghogen"
 # Binding Keyboard Shortcuts to Menu Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Binding Keyboard Shortcuts to Menu Items](https://docs.microsoft.com/visualstudio/extensibility/binding-keyboard-shortcuts-to-menu-items).  
   
 To bind a keyboard shortcut to a custom menu command, just add an entry to the .vsct file for the package. This topic explains how to map a keyboard shortcut to a custom button, menu item, or toolbar command, and how to apply the keyboard mapping in the default editor or limit it to a custom editor.  
   

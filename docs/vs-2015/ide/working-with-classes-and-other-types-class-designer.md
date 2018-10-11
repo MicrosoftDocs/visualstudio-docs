@@ -34,7 +34,6 @@ manager: "ghogen"
 # Working with Classes and Other Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with Classes and Other Types (Class Designer)](https://docs.microsoft.com/visualstudio/ide/working-with-classes-and-other-types-class-designer).  
   
 Focus more easily on the classes and types that you care about the most when you create and edit them with Class Designer in Visual Studio. Use class diagrams to work more visually with your Visual C# .NET, Visual Basic .NET, or C++ code.  
   

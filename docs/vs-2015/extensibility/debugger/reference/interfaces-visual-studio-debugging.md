@@ -19,7 +19,6 @@ manager: "ghogen"
 # Interfaces (Visual Studio Debugging)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Interfaces (Visual Studio Debugging)](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/interfaces-visual-studio-debugging).  
   
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.  
   

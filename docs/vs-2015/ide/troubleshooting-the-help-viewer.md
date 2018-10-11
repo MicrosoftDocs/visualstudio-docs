@@ -21,7 +21,6 @@ manager: "ghogen"
 # Troubleshooting the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting the Help Viewer](https://docs.microsoft.com/visualstudio/ide/troubleshooting-the-help-viewer).  
   
 This topic discusses issues that you might encounter with the Help Viewer.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Introducing Spy++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Introducing Spy++](https://docs.microsoft.com/visualstudio/debugger/introducing-spy-increment).  
   
 Spy++ lets you perform the following tasks:  
   

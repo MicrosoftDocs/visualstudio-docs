@@ -18,7 +18,6 @@ manager: "ghogen"
 # Context Menus (XML Schema Explorer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Context Menus (XML Schema Explorer)](https://docs.microsoft.com/visualstudio/xml-tools/context-menus-xml-schema-explorer).  
   
   
 The following context menu items are used to perform schema-specific searches and other operations.  

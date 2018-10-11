@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2105: Array fields should not be read only
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2105: Array fields should not be read only](https://docs.microsoft.com/visualstudio/code-quality/ca2105-array-fields-should-not-be-read-only).
 
 |||
 |-|-|

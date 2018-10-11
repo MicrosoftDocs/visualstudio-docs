@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEnumField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEnumField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenumfield).  
   
 This interface represents an enumeration type.  
   

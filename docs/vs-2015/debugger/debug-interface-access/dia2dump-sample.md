@@ -23,7 +23,6 @@ manager: "ghogen"
 # Dia2dump Sample
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Dia2dump Sample](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/dia2dump-sample).  
   
 The Dia2dump sample is installed with Visual Studio and contains the Dia2dump.cpp source file. The compiled executable runs from the command line and displays the contents of an entire program database (.pdb) file.  
   

@@ -26,7 +26,6 @@ manager: "ghogen"
 # Object Lifetime View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Object Lifetime View](https://docs.microsoft.com/visualstudio/profiling/object-lifetime-view).  
   
 The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the Performance Session property pages.  
   

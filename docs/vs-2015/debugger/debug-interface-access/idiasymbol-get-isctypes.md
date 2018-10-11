@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isCTypes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isCTypes](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-isctypes).  
   
 Retrieves a flag indicating whether the symbol file contains C types.  
   

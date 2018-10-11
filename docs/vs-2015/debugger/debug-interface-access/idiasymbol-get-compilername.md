@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_compilerName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_compilerName](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-compilername).  
   
 Returns the name of the compiler used to generate the [Compiland](../../debugger/debug-interface-access/compiland.md).  
   

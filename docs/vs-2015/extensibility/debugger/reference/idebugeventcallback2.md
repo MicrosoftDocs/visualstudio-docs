@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEventCallback2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEventCallback2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugeventcallback2).  
   
 This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM).  
   

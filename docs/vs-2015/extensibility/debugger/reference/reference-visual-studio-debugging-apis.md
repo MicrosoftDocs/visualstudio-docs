@@ -21,7 +21,6 @@ manager: "ghogen"
 # Reference (Visual Studio Debugging APIs)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Reference (Visual Studio Debugging APIs)](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/reference-visual-studio-debugging-apis).  
   
 The Visual Studio Debugging SDK references outline the basic model for the run-time architecture and functionality of the debugger and its components. The documentation makes as few assumptions as possible about the components and interfaces it describes, apart from the behavior it defines through the interfaces.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Statement Completion in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Statement Completion in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/statement-completion-in-a-legacy-language-service).  
   
 Statement completion is the process by which the language service helps users finish a language keyword or element that they have started typing in the core editor. This topic discusses how statement completion works and how to implement it in your language service.  
   

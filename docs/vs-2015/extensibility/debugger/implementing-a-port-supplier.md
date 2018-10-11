@@ -20,7 +20,6 @@ manager: "ghogen"
 # Implementing a Port Supplier
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Implementing a Port Supplier](https://docs.microsoft.com/visualstudio/extensibility/debugger/implementing-a-port-supplier).  
   
 A port supplier supplies ports on request to the session debug manager (SDM). A port supplier needs to be implemented when debugging to a non-DCOM machine or when a new device needs to be supported. For example, to provide debugging to a cell phone, you might implement a port supplier that provides ports that connect to the cell phone (perhaps by means of IR or a cell connection) and enumerates the processes and programs running on the phone.  
   

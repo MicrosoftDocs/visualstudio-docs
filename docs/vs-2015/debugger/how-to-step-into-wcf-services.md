@@ -26,7 +26,6 @@ manager: "ghogen"
 # How to: Step into WCF Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Step into WCF Services](https://docs.microsoft.com/visualstudio/debugger/how-to-step-into-wcf-services).  
   
 In [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], you can step into a WCF service. If the WCF service is in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution as the client, you can hit breakpoints inside the WCF Service.  
   

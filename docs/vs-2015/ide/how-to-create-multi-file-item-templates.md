@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Create Multi-file Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create Multi-file Item Templates](https://docs.microsoft.com/visualstudio/ide/how-to-create-multi-file-item-templates).  
   
 Item templates may only specify one item, but sometimes the item is made up of multiple files. For example, a Windows Forms item template for Visual Basic requires the following three files:  
   

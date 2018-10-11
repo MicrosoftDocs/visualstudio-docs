@@ -16,7 +16,6 @@ manager: "douge"
 # How to: Add a Drag-and-Drop Handler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Add a Drag-and-Drop Handler](https://docs.microsoft.com/visualstudio/modeling/how-to-add-a-drag-and-drop-handler).  
   
 You can add handlers for drag-and-drop events to your DSL, so that users can drag items onto your diagram from other diagrams or from other parts of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. You can also add handlers for events such as double-clicks. Together, drag-and-drop and double-click handlers are known as *gesture handlers*.  
   

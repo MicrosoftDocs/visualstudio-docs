@@ -27,7 +27,6 @@ manager: "ghogen"
 # Debugger Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Security](https://docs.microsoft.com/visualstudio/debugger/debugger-security).  
   
 The ability to debug another process gives you extremely broad powers that you would not otherwise have, especially when debugging remotely. A malicious debugger could inflict widespread damage on the machine being debugged.  
   

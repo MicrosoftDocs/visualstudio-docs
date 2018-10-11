@@ -21,7 +21,6 @@ manager: "ghogen"
 # MSBuild Best Practices
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Best Practices](https://docs.microsoft.com/visualstudio/msbuild/msbuild-best-practices).  
   
   
 We recommend the following best practices for writing MSBuild scripts:  

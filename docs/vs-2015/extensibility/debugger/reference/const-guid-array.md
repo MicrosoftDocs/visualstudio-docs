@@ -21,7 +21,6 @@ manager: "ghogen"
 # CONST_GUID_ARRAY
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CONST_GUID_ARRAY](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/const-guid-array).  
   
 A structure that holds a list of `GUID`s.  
   

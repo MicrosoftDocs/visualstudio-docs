@@ -35,7 +35,6 @@ manager: "ghogen"
 # JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [JavaScript IntelliSense](https://docs.microsoft.com/visualstudio/ide/javascript-intellisense).  
   
 IntelliSense helps you write code faster and with fewer errors by providing information while you code. As you work with client script in the JavaScript editor, IntelliSense lists the objects, functions, properties, and parameters that are available based on your current context. You can select a coding option from the pop-up list provided by IntelliSense to complete the code.  
   

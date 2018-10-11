@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile::get_compilands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSourceFile::get_compilands](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasourcefile-get-compilands).  
   
 Retrieves an enumerator of compilands that have line numbers referencing this file.  
   

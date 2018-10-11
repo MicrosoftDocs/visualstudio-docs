@@ -18,7 +18,6 @@ manager: "douge"
 # UML model element types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML model element types](https://docs.microsoft.com/visualstudio/modeling/uml-model-element-types).  
   
 You can read and manipulate a UML model through a programming interface. This topic summarizes the hierarchy of element types. The hierarchy is the same as that defined in the UML specification.  
   

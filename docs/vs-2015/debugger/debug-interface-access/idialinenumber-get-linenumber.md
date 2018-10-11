@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_lineNumber
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_lineNumber](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-linenumber).  
   
 Retrieves the line number in the source file.  
   

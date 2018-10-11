@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findLinesByVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findLinesByVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findlinesbyva).  
   
 Retrieves the line number information for lines contained in a specified virtual address (VA) range.  
   

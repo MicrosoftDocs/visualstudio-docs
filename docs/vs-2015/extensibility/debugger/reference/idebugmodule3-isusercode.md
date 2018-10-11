@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugModule3::IsUserCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugModule3::IsUserCode](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmodule3-isusercode).  
   
 Retrieves information on whether the module represents user code or not.  
   

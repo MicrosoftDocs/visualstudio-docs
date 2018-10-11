@@ -18,7 +18,6 @@ manager: "ghogen"
 # Performance Rules Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Rules Reference](https://docs.microsoft.com/visualstudio/profiling/performance-rules-reference).  
   
 The performance rules of the Profiling Tools provide additional warnings and information about the performance of your application. Performance rules analyze data in a profiling run that is collected from sources such as Windows and processor performance counters. Rule messages appear in the Error Output window of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] integrated development environment. Messages are listed with one of the following rule levels:  
   

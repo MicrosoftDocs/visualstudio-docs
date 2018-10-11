@@ -20,7 +20,6 @@ manager: "ghogen"
 # Private Galleries
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Private Galleries](https://docs.microsoft.com/visualstudio/extensibility/private-galleries).  
   
 You can share the controls, templates, and tools that you develop by posting them to a *private gallery* on the intranet for your organization, as follows:  
   

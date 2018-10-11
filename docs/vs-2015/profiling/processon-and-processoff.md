@@ -18,7 +18,6 @@ manager: "ghogen"
 # ProcessOn and ProcessOff
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ProcessOn and ProcessOff](https://docs.microsoft.com/visualstudio/profiling/processon-and-processoff).  
   
 The VSPerfCmd.exe **ProcessOff** and **ProcessOn** subcommands pause and resume profiling for the specified process in a command-line profiling session. **ProcessOff** stops profiling the process and **ProcessOn** starts profiling the process.  
   

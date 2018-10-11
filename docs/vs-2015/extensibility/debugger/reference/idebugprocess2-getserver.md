@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::GetServer](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-getserver).  
   
 Gets the server that this process is running on.  
   

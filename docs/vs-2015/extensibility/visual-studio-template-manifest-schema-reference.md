@@ -14,7 +14,6 @@ manager: "ghogen"
 # Visual Studio Template Manifest Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Template Manifest Schema Reference](https://docs.microsoft.com/visualstudio/extensibility/visual-studio-template-manifest-schema-reference).  
   
 This schema describes the format of the Visual Studio template manifest (.vstman) files generated for Visual Studio project or item templates, and describes the location and other relevant information about the template.  
   

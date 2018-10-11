@@ -20,7 +20,6 @@ manager: "douge"
 # Export diagrams as images
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Export diagrams as images](https://docs.microsoft.com/visualstudio/modeling/export-diagrams-as-images).  
   
 In Visual Studio, you can save modeling diagrams in read-only formats so that you can share them with stakeholders, users, or project team members who do not use the same version of Visual Studio.  
   

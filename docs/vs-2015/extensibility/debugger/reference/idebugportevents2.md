@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPortEvents2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEvents2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportevents2).  
   
 This interface notifies a listener (typically the session debug manager [SDM] or a debug engine) of process and program creation and destruction on a particular port. This information can be used to present a real-time view of the processes and programs running on the port.  
   

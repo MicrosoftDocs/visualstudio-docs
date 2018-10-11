@@ -27,7 +27,6 @@ manager: "ghogen"
 # Error: The web server is not configured correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: The web server is not configured correctly](https://docs.microsoft.com/visualstudio/debugger/error-the-web-server-is-not-configured-correctly).  
   
 Possible causes of this error include:  
   

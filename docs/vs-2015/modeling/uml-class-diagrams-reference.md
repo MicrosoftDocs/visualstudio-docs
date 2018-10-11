@@ -31,7 +31,6 @@ manager: "douge"
 # UML Class Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Class Diagrams: Reference](https://docs.microsoft.com/visualstudio/modeling/uml-class-diagrams-reference).  
   
 A UML class diagram describes the object and information structures used by your application, both internally and in communication with its users. It describes the information without reference to any particular implementation. Its classes and relationships can be implemented in many ways, such as database tables, XML nodes, or compositions of software objects.  
   

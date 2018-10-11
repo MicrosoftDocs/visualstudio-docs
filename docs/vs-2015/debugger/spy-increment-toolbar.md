@@ -20,7 +20,6 @@ manager: "ghogen"
 # Spy++ Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Spy++ Toolbar](https://docs.microsoft.com/visualstudio/debugger/spy-increment-toolbar).  
   
 The toolbar appears under the menu bar in Spy++. To display or hide the toolbar, on the **View** menu, click **Toolbar**.  
   

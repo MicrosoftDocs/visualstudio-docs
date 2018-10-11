@@ -14,7 +14,6 @@ manager: "ghogen"
 # Image Service and Catalog
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Service and Catalog](https://docs.microsoft.com/visualstudio/extensibility/image-service-and-catalog).  
   
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.  
   

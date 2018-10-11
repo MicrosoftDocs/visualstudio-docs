@@ -20,7 +20,6 @@ manager: "ghogen"
 # Message Search Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Message Search Dialog Box](https://docs.microsoft.com/visualstudio/debugger/message-search-dialog-box).  
   
 Use this dialog box to find and select the node for a specific message in [Messages View](../debugger/messages-view.md). To display this dialog box, move the focus to a Messages view window. Then choose **Find Message** from the **Search** menu.  
   

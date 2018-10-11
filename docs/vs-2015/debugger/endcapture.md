@@ -18,7 +18,6 @@ manager: "ghogen"
 # EndCapture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EndCapture](https://docs.microsoft.com/visualstudio/debugger/graphics/endcapture).  
   
 Ends a capture interval that was started with `BeginCapture`.  
   

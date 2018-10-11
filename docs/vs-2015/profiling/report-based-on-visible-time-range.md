@@ -22,7 +22,6 @@ manager: "ghogen"
 # Report Based on Visible Time Range
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Report Based on Visible Time Range](https://docs.microsoft.com/visualstudio/profiling/report-based-on-visible-time-range).  
   
 The Profile view displays reports that are based on the currently visible time range and channels. To see details for different subsets of the data, click items in the legend.  
   

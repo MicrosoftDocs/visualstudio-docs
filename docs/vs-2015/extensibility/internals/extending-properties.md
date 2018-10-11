@@ -19,7 +19,6 @@ manager: "ghogen"
 # Extending Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending Properties](https://docs.microsoft.com/visualstudio/extensibility/internals/extending-properties).  
   
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] **Properties** window is a universal property browser for COM and COM+ components and supports all [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] products. The **Properties** window works with `ITypeInfo` type information and COM+ metadata to list the design-time properties for the currently selected object in any other window in the integrated development environment (IDE).  
   

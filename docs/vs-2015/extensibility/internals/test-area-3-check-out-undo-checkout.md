@@ -22,7 +22,6 @@ manager: "ghogen"
 # Test Area 3: Check Out/Undo Checkout
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 3: Check Out-Undo Checkout](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-3-check-out-undo-checkout).  
   
 This source-control plug-in test area covers editing and reverting items from the version store via the **Check Out** and **Undo Checkout** commands.  
   

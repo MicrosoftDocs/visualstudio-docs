@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetMethodFieldsByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetMethodFieldsByName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getmethodfieldsbyname).  
   
 This method gets the field representing a fully qualified method name.  
   

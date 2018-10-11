@@ -18,7 +18,6 @@ manager: "douge"
 # Properties of Connectors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Connectors](https://docs.microsoft.com/visualstudio/modeling/properties-of-connectors).  
   
 Connectors represent domain relationships in a generated designer.  
   

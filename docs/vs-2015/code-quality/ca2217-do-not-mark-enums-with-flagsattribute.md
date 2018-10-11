@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2217: Do not mark enums with FlagsAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2217: Do not mark enums with FlagsAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca2217-do-not-mark-enums-with-flagsattribute).
 
 |||
 |-|-|

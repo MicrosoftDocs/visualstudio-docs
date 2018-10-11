@@ -22,7 +22,6 @@ manager: "ghogen"
 # Resource Details View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resource Details View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/resource-details-view-contention-data).  
   
 The Resource Details view presents a timeline graph of the blocking events that were caused by contentions over a selected resource. A blocking event occurs when a thread is forced to suspend execution because another thread has locked access to the resource.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Add, Update, or Remove a WCF Data Service Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Add, Update, or Remove a WCF Data Service Reference](https://docs.microsoft.com/visualstudio/data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference).  
   
   
 A *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] in the current solution, locally, on a local area network, or on the Internet.  

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointResolution2::GetResolutionInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointResolution2::GetResolutionInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo).  
   
 Gets the breakpoint resolution information that describes this breakpoint.  
   

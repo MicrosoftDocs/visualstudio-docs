@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSourceFiles::get_Count](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsourcefiles-get-count).  
   
 Retrieves the number of source files.  
   

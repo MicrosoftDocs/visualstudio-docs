@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1804: Remove unused locals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1804: Remove unused locals](https://docs.microsoft.com/visualstudio/code-quality/ca1804-remove-unused-locals).
 
 |||
 |-|-|

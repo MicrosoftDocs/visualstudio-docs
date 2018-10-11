@@ -18,7 +18,6 @@ manager: "ghogen"
 # Mark
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mark](https://docs.microsoft.com/visualstudio/profiling/mark).  
   
 The VSPerfCmd.exe **Mark** option inserts the specified information into the profiling data file. Mark can be listed in a separate VSPerfReport report or in the Mark Report view of the profiler UI. **Mark** can be used to specify start and end points in report and view filters.  
   

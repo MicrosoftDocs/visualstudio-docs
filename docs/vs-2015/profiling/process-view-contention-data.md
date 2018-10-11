@@ -20,7 +20,6 @@ manager: "ghogen"
 # Process View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Process View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/process-view-contention-data).  
   
 The Process view displays contention data for the processes and threads that were executed during the profiling run.  
   

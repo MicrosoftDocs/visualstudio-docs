@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpression2::EvaluateAsync
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpression2::EvaluateAsync](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpression2-evaluateasync).  
   
 This method evaluates the expression asynchronously.  
   

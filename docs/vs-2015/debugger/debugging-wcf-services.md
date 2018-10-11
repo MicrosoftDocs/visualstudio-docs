@@ -26,7 +26,6 @@ manager: "ghogen"
 # Debugging WCF Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging WCF Services](https://docs.microsoft.com/visualstudio/debugger/debugging-wcf-services).  
   
 In This Section  
  [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)  

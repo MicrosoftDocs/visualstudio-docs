@@ -22,7 +22,6 @@ manager: "ghogen"
 # References Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [References Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/references-element-visual-studio-templates).  
   
 Groups the assembly references that the template adds to projects.  
   

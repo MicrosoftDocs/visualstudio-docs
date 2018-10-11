@@ -22,7 +22,6 @@ manager: "ghogen"
 # Managing VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing VSPackages](https://docs.microsoft.com/visualstudio/extensibility/managing-vspackages).  
   
 In most cases you don’t need to worry about managing VSPackages, since the project and item templates register and load the package automatically. However, in some circumstances you may need to learn a bit more in order to manage your package.  
   

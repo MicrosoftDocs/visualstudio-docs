@@ -16,7 +16,6 @@ manager: "douge"
 # Integrating Models by using Visual Studio Modelbus
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Integrating Models by using Visual Studio Modelbus](https://docs.microsoft.com/visualstudio/modeling/integrating-models-by-using-visual-studio-modelbus).  
   
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus provides a method for creating links between models and from other tools into models. For example, you could link domain-specific language (DSL) models and UML models. You can create an integrated set of DSLs.  
   

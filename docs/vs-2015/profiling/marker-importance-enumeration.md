@@ -22,7 +22,6 @@ manager: "ghogen"
 # marker_importance Enumeration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [marker_importance Enumeration](https://docs.microsoft.com/visualstudio/profiling/marker-importance-enumeration).  
   
 Represents the importance level of a Concurrency Visualizer marker.  
   

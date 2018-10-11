@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::execute
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::execute](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-execute).  
   
 Performs stack unwinding and returns results in a stack walk frame interface.  
   

@@ -32,7 +32,6 @@ manager: "ghogen"
 # JavaScript Memory
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze JavaScript Memory Usage in UWP Apps](https://docs.microsoft.com/visualstudio/profiling/javascript-memory).  
   
 The JavaScript memory analyzer is available in Visual Studio to help you understand memory usage and find memory leaks in your Store apps built for Windows using JavaScript. Supported apps include apps for Windows Phone Store and Windows Store.  
   

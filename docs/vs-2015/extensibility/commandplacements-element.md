@@ -22,7 +22,6 @@ manager: "ghogen"
 # CommandPlacements Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CommandPlacements Element](https://docs.microsoft.com/visualstudio/extensibility/commandplacements-element).  
   
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.  
   

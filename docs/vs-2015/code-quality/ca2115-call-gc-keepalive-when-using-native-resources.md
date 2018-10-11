@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2115: Call GC.KeepAlive when using native resources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2115: Call GC.KeepAlive when using native resources](https://docs.microsoft.com/visualstudio/code-quality/ca2115-call-gc-keepalive-when-using-native-resources).
 
 |||
 |-|-|

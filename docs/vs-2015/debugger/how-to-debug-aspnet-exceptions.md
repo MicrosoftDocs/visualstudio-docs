@@ -27,7 +27,6 @@ manager: "ghogen"
 # How to: Debug ASP.NET Exceptions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug ASP.NET Exceptions](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-aspnet-exceptions).  
   
 Debugging exceptions is an important part of developing a robust [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).  
   

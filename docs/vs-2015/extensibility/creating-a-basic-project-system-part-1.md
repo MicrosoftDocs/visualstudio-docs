@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating a Basic Project System, Part 1
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Basic Project System, Part 1](https://docs.microsoft.com/visualstudio/extensibility/creating-a-basic-project-system-part-1).  
   
 In Visual Studio, projects are the containers that developers use to organize source code files and other assets. Projects appear as children of solutions in the **Solution Explorer**. Projects let you organize, build, debug, and deploy source code and create references to Web services, databases, and other resources.  
   

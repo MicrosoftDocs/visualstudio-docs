@@ -20,7 +20,6 @@ manager: "ghogen"
 # Programs
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Programs](https://docs.microsoft.com/visualstudio/extensibility/debugger/programs).  
   
 In terms of the debugger architecture, a **program**:  
   

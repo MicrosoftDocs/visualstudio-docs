@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1412: Mark ComSource Interfaces as IDispatch
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1412: Mark ComSource Interfaces as IDispatch](https://docs.microsoft.com/visualstudio/code-quality/ca1412-mark-comsource-interfaces-as-idispatch).
 
 |||
 |-|-|

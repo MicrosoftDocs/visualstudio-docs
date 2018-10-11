@@ -21,7 +21,6 @@ manager: "ghogen"
 # Collecting Application Statistics for ASP.NET Web Applications Using the Profiler Sampling Method from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Application Statistics for ASP.NET Web Applications Using the Profiler Sampling Method from the Command Line](https://docs.microsoft.com/visualstudio/profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line).  
   
 This section describes the procedures and options for collecting performance statistics for an ASP.NET Web application by using the **VSPerfASPNETCmd** and **VSPerfCmd** command-line tool and the sampling profiling method.  
   

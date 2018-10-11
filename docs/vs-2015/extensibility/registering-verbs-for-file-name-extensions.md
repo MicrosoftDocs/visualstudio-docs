@@ -19,7 +19,6 @@ manager: "ghogen"
 # Registering Verbs for File Name Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering Verbs for File Name Extensions](https://docs.microsoft.com/visualstudio/extensibility/registering-verbs-for-file-name-extensions).  
   
 The association of a file name extension with an application generally has a preferred action that occurs when a user double-clicks a file. This preferred action is linked to a verb, for example open, that corresponds to the action.  
   

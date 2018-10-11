@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSession::findAcceleratorInlineesByName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findAcceleratorInlineesByName](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findacceleratorinlineesbyname).  
   
 Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.  
   

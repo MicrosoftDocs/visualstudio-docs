@@ -19,7 +19,6 @@ manager: "ghogen"
 # Accessing Text Layers by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessing Text Layers by Using the Legacy API](https://docs.microsoft.com/visualstudio/extensibility/accessing-text-layers-by-using-the-legacy-api).  
   
 A text layer typically encapsulates some aspect of text layout. For example, a "function-at-a-time" layer hides text before and after a function containing the caret (text insertion point).  
   

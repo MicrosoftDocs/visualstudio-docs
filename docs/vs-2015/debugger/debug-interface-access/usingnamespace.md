@@ -22,7 +22,6 @@ manager: "ghogen"
 # UsingNameSpace
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UsingNameSpace](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/usingnamespace).  
   
 Some symbols might be referred to by namespace, and would subsequently be identified by a `SymTagUsingNameSpace` tag.  
   

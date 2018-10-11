@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryContext2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMemoryContext2::GetName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmemorycontext2-getname).  
   
 Retrieves the user-displayable name for this context.  
   

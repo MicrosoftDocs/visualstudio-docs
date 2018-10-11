@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumInjectedSources::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumInjectedSources::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenuminjectedsources-item).  
   
 Retrieves an injected source by means of an index.  
   

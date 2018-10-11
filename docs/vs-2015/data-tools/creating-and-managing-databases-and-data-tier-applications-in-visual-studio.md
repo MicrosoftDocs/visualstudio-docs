@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating and managing databases and data-tier applications in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating and managing databases and data-tier applications](https://docs.microsoft.com/visualstudio/data-tools/creating-and-managing-databases-and-data-tier-applications-in-visual-studio).  
   
   
 IMPORTANT]

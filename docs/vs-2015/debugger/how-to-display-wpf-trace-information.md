@@ -26,7 +26,6 @@ manager: "ghogen"
 # How to: Display WPF Trace Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display WPF Trace Information](https://docs.microsoft.com/visualstudio/debugger/how-to-display-wpf-trace-information).  
   
 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] can receive debug trace information from WPF applications and display that information in the **Output** window. To display debug trace information, WPF tracing must be enabled.  
   

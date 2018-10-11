@@ -20,7 +20,6 @@ manager: "ghogen"
 # Legacy Language Service Interfaces
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Interfaces](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-interfaces).  
   
 For any particular programming language, there can be only one instance of a language service at a time. However, a single language service can serve more than one editor.  
   

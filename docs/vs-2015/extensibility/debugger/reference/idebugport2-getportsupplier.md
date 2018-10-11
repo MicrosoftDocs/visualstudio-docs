@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPort2::GetPortSupplier
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPort2::GetPortSupplier](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugport2-getportsupplier).  
   
 Gets the port supplier for this port.  
   

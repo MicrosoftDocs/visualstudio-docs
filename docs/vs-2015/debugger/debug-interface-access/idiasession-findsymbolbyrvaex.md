@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::findSymbolByRVAEx
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findSymbolByRVAEx](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findsymbolbyrvaex).  
   
 Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA) and offset.  
   

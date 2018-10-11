@@ -25,7 +25,6 @@ manager: "ghogen"
 # MSBuild Reserved and Well-Known Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Reserved and Well-Known Properties](https://docs.microsoft.com/visualstudio/msbuild/msbuild-reserved-and-well-known-properties).  
   
   
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  

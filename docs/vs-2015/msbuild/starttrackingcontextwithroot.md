@@ -26,7 +26,6 @@ manager: "ghogen"
 # StartTrackingContextWithRoot
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [StartTrackingContextWithRoot](https://docs.microsoft.com/visualstudio/msbuild/starttrackingcontextwithroot).  
   
   
 Starts a tracking context using a response file specifying a root marker.  

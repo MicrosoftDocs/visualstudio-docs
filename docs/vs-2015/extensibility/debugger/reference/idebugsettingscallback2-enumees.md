@@ -19,7 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::EnumEEs
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2::EnumEEs](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2-enumees).  
   
 Enumerates the available expression evaluators given the language and vendor identifiers.  
   

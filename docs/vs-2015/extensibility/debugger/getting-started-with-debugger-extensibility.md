@@ -21,7 +21,6 @@ manager: "ghogen"
 # Getting Started with Debugger Extensibility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with Debugger Extensibility](https://docs.microsoft.com/visualstudio/extensibility/debugger/getting-started-with-debugger-extensibility).  
   
 The [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] provides the information that you must have to create and customize debugger components used to debug programs from within the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] environment.  
   

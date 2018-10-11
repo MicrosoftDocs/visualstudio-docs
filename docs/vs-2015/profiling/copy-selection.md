@@ -22,7 +22,6 @@ manager: "ghogen"
 # Copy Selection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Copy Selection](https://docs.microsoft.com/visualstudio/profiling/copy-selection).  
   
 To copy the entire call stack from the report tab, click **Copy**. You can then paste the call stack in any program that supports that action.  
   

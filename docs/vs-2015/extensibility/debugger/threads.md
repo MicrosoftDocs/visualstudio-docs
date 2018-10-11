@@ -20,7 +20,6 @@ manager: "ghogen"
 # Threads
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Threads](https://docs.microsoft.com/visualstudio/extensibility/debugger/threads).  
   
 In terms of the debugger architecture, a **thread**:  
   

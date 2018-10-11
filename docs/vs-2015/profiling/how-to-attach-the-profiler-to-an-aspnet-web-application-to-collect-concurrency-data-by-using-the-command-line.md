@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Attach the Profiler to an ASP.NET Web Application to Collect Concurrency Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Attach the Profiler to an ASP.NET Web Application to Collect Concurrency Data by Using the Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line).  
   
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the Profiler to an ASP.NET application and collect process and thread concurrency data.  
   

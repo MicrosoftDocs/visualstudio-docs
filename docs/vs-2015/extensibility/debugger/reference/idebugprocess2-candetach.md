@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::CanDetach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::CanDetach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-candetach).  
   
 Determines if the session debug manager (SDM) can detach the process.  
   

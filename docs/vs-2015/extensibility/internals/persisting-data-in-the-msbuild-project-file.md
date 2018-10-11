@@ -19,7 +19,6 @@ manager: "ghogen"
 # Persisting Data in the MSBuild Project File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Persisting Data in the MSBuild Project File](https://docs.microsoft.com/visualstudio/extensibility/internals/persisting-data-in-the-msbuild-project-file).  
   
 A project subtype may need to persist subtype-specific data into the project file for later use. A project subtype uses project file persistence to meet the following requirements:  
   

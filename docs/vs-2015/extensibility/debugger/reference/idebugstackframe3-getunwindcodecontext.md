@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame3::GetUnwindCodeContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame3::GetUnwindCodeContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe3-getunwindcodecontext).  
   
 Returns the code context representing a location if a stack unwind operation occurred.  
   

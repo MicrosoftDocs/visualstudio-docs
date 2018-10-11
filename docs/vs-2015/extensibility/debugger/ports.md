@@ -20,7 +20,6 @@ manager: "ghogen"
 # Ports
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Ports](https://docs.microsoft.com/visualstudio/extensibility/debugger/ports).  
   
 In terms of the debugger architecture, a **port**:  
   

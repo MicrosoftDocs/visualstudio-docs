@@ -17,7 +17,6 @@ manager: "ghogen"
 # RequiredPlatformVersion Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RequiredPlatformVersion Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/requiredplatformversion-element-visual-studio-templates).  
   
 Specifies the minimum version of the operating system that the project template requires to work correctly. This element is used to for project templates that create [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.  
   

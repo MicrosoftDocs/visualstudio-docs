@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugField::GetType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::GetType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-gettype).  
   
 This method gets the type of field.  
   

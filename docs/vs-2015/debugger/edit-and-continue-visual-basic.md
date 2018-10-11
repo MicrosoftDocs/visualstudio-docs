@@ -30,7 +30,6 @@ manager: "ghogen"
 # Edit and Continue (Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit and Continue (Visual Basic)](https://docs.microsoft.com/visualstudio/debugger/edit-and-continue-visual-basic).  
   
 Edit and Continue is a feature for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.  
   

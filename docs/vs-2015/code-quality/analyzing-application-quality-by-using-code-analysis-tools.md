@@ -24,7 +24,6 @@ manager: "wpickett"
 # Analyzing Application Quality by Using Code Analysis Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyzing Application Quality by Using Code Analysis Tools](https://docs.microsoft.com/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools).  
   
 In This Section  
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)  

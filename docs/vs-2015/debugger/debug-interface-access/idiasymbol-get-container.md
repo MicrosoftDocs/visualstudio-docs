@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_container
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_container](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-container).  
   
 This function retrieves a pointer to a symbol representing the parent/container of this symbol.  
   

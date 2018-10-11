@@ -21,7 +21,6 @@ manager: "ghogen"
 # GPU Activity (Paging)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GPU Activity (Paging)](https://docs.microsoft.com/visualstudio/profiling/gpu-activity-paging).  
   
 The **GPU Activity (Paging)** segments on the Threads tab represent times when the GPU was processing paging requests.  The length of a segment represents the duration of time that the GPU was processing a direct memory access (DMA) paging packet. Typically, paging packets are associated with the transfer of memory between the CPU and GPU.  
   

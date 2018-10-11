@@ -22,7 +22,6 @@ manager: "ghogen"
 # Setting Language-Specific Editor Options
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Setting Language-Specific Editor Options](https://docs.microsoft.com/visualstudio/ide/reference/setting-language-specific-editor-options).  
   
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] offers a variety of Text Editor options that apply to specific programming languages.  

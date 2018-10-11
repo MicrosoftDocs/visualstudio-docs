@@ -20,7 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::findInlineFramesByVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::findInlineFramesByVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-findinlineframesbyva).  
   
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified virtual address (VA).  
   

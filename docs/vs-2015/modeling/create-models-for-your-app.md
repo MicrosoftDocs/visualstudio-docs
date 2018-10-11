@@ -46,7 +46,6 @@ manager: "douge"
 # Create models for your app
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create models for your app](https://docs.microsoft.com/visualstudio/modeling/create-models-for-your-app).  
   
 Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support. For example, to describe and communicate user requirements, you can use Unified Modeling Language (UML) use case, activity, class, and sequence diagrams. To describe and communicate the functionality of your system, you can use UML component, class, activity, and sequence diagrams.  
   

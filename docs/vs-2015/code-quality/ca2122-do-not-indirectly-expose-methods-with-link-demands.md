@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2122: Do not indirectly expose methods with link demands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2122: Do not indirectly expose methods with link demands](https://docs.microsoft.com/visualstudio/code-quality/ca2122-do-not-indirectly-expose-methods-with-link-demands).
 
 |||
 |-|-|

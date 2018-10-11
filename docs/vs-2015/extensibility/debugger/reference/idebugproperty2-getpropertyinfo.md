@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetPropertyInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::GetPropertyInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-getpropertyinfo).  
   
 Gets the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure that describes a property.  
   

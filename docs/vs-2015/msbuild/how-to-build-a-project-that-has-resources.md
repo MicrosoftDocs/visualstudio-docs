@@ -23,7 +23,6 @@ manager: "ghogen"
 # How to: Build a Project That Has Resources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Build a Project That Has Resources](https://docs.microsoft.com/visualstudio/msbuild/how-to-build-a-project-that-has-resources).  
   
   
 If you are building localized versions of a project, all user interface elements must be separated into resource files for the different languages. If the project uses only strings, the resource files can use text files. Alternatively, you can use .resx files as the resource files.  

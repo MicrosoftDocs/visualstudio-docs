@@ -20,7 +20,6 @@ manager: "ghogen"
 # Starting a Build from within the IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Starting a Build from within the IDE](https://docs.microsoft.com/visualstudio/msbuild/starting-a-build-from-within-the-ide).  
   
   
 Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This topic describes the reasons for this and outlines the procedure.  

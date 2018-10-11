@@ -20,7 +20,6 @@ manager: "ghogen"
 # Command Routing in VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Routing in VSPackages](https://docs.microsoft.com/visualstudio/extensibility/internals/command-routing-in-vspackages).  
   
 A command is routed in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] based on the context in which it is executed. It is routed from the initial context outward to the global context.  
   

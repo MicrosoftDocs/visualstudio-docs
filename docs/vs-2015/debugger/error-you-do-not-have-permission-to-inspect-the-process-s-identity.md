@@ -23,7 +23,6 @@ manager: "ghogen"
 # Error: You do not have permission to inspect the process&#39;s identity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: You do not have permission to inspect the process&#39;s identity](https://docs.microsoft.com/visualstudio/debugger/error-you-do-not-have-permission-to-inspect-the-process-s-identity).  
   
 You do not have permission to inspect the process's identity. This may be due to your system's configuration.  
   

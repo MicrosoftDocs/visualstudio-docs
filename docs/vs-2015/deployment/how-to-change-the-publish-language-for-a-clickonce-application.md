@@ -26,7 +26,6 @@ manager: "wpickett"
 # How to: Change the Publish Language for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Change the Publish Language for a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-change-the-publish-language-for-a-clickonce-application).  
   
 When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, the user interface displayed during installation defaults to the language and culture of your development computer. If you are publishing a localized application, you will need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.  
   

@@ -20,7 +20,6 @@ manager: "robinr"
 # Create and run unit tests for a Store app in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create and run unit tests for a Store app in Visual Studio](https://docs.microsoft.com/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio).  
   
 The Visual Studio 2012 Express for Windows 8 unit test tools are designed to support developers and teams who incorporate unit testing in their software development practices. Unit tests give developers and testers an efficient, maintainable way to look for logic errors in the methods of classes in Visual C#, Visual Basic, and Visual C++ projects.  
   

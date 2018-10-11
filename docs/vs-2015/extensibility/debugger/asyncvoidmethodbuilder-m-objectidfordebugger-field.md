@@ -19,7 +19,6 @@ manager: "ghogen"
 # AsyncVoidMethodBuilder.m_objectIdForDebugger Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AsyncVoidMethodBuilder.m_objectIdForDebugger Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/asyncvoidmethodbuilder-m-objectidfordebugger-field).  
   
 Represents the lazily initialized object used by the debugger to uniquely identify this builder.  
   

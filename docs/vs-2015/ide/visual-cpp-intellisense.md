@@ -18,7 +18,6 @@ manager: "ghogen"
 # Visual C++ Intellisense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual C++ Intellisense](https://docs.microsoft.com/visualstudio/ide/visual-cpp-intellisense).  
   
 In Visual Studio 2015, IntelliSense is available for single code files as well as for files in projects. In cross-platform projects, some IntelliSense features are available in .cpp and .c files in the shared code project even when you are in an Android or iOS context.  
   

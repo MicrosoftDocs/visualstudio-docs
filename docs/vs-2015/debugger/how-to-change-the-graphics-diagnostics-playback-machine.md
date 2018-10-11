@@ -18,7 +18,6 @@ manager: "ghogen"
 # How to: Change the Graphics Diagnostics Playback Machine
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Change the Graphics Diagnostics Playback Machine](https://docs.microsoft.com/visualstudio/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine).  
   
 You can play back graphics information by using your local machine, or by using a remote machine or device.  
   

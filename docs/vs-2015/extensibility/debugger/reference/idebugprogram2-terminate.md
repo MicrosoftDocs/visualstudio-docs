@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::Terminate
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::Terminate](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-terminate).  
   
 Terminates the program.  
   

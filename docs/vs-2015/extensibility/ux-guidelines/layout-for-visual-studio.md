@@ -17,7 +17,6 @@ manager: "ghogen"
 # Layout for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Layout for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/layout-for-visual-studio).  
   
 The majority of Visual Studio dialogs are [Utility dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout), which are the unthemed dialogs that follow standard [Windows Desktop dialog layout principles](https://msdn.microsoft.com/library/windows/desktop/dn742499\(v=vs.85\).aspx). As Visual Studio moves to refresh its UI, some of the more prominent dialogs have a new design that establishes them as product-defining experiences. These [Themed dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) have a themed appearance.  
   

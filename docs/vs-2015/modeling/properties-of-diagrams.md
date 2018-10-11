@@ -20,7 +20,6 @@ manager: "douge"
 # Properties of Diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Diagrams](https://docs.microsoft.com/visualstudio/modeling/properties-of-diagrams).  
   
 You can set properties that specify how diagrams will appear in the generated designer. For example, you can specify a default color for text in the diagram.  
   

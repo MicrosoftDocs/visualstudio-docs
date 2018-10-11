@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1046: Do not overload operator equals on reference types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1046: Do not overload operator equals on reference types](https://docs.microsoft.com/visualstudio/code-quality/ca1046-do-not-overload-operator-equals-on-reference-types).
 
 |||
 |-|-|

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper).  
   
 Facilitates walking the stack using the program debug database (.pdb) file.  
   

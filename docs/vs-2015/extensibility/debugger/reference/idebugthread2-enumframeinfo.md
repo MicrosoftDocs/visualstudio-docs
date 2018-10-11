@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugThread2::EnumFrameInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThread2::EnumFrameInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthread2-enumframeinfo).  
   
 Retrieves a list of the stack frames for this thread.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Breakpoint Errors
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Breakpoint Errors](https://docs.microsoft.com/visualstudio/extensibility/debugger/breakpoint-errors).  
   
 The following describes the process when a breakpoint attempts to bind to code but fails:  
   

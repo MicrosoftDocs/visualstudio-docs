@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver2).  
   
 This interface is used to represent and obtain information from a server on a machine on the network.  
   

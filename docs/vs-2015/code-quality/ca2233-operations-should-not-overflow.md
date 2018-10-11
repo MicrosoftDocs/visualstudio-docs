@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2233: Operations should not overflow
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2233: Operations should not overflow](https://docs.microsoft.com/visualstudio/code-quality/ca2233-operations-should-not-overflow).
 
 |||
 |-|-|

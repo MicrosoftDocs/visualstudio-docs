@@ -20,7 +20,6 @@ manager: "ghogen"
 # Security Bibliography
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security Bibliography](https://docs.microsoft.com/visualstudio/ide/security-bibliography).  
   
 Following are selected resources available online and in print on the subject of developing secure applications and configuring secure environments:  
   

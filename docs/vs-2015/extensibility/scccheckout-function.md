@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccCheckout Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccCheckout Function](https://docs.microsoft.com/visualstudio/extensibility/scccheckout-function).  
   
 Given a list of fully qualified file names, this function checks them out to the local drive. The comment applies to all files being checked out. The comment argument can be a `null` string.  
   

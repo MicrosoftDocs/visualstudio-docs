@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineLaunch2::CanTerminateProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineLaunch2::CanTerminateProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenginelaunch2-canterminateprocess).  
   
 Determines if a process can be terminated.  
   

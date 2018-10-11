@@ -21,7 +21,6 @@ manager: "ghogen"
 # Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting a List of Installed Code Snippets (Legacy)](https://docs.microsoft.com/visualstudio/extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation).  
   
 A code snippet is a piece of code that can be inserted into the source buffer either with a menu command (which allows choosing among a list of installed code snippets) or by selecting a snippet shortcut from an IntelliSense completion list.  
   

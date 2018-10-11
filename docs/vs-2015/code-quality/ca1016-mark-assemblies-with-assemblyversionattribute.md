@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1016: Mark assemblies with AssemblyVersionAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1016: Mark assemblies with AssemblyVersionAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1016-mark-assemblies-with-assemblyversionattribute).
 
 |||
 |-|-|

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugFunctionPosition2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugFunctionPosition2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfunctionposition2).  
   
 This interface represents an abstract position of a function in a source document.  
   

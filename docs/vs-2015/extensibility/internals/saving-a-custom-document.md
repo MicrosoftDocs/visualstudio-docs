@@ -21,7 +21,6 @@ manager: "ghogen"
 # Saving a Custom Document
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Saving a Custom Document](https://docs.microsoft.com/visualstudio/extensibility/internals/saving-a-custom-document).  
   
 The environment handles the **Save**, **Save As**, and **Save All** commands. When a user clicks **Save**, **Save As**, **or Save All** on the **File** menu or closes the solution, resulting in a Save All, the following process occurs.  
   

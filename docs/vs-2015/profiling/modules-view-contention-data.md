@@ -20,7 +20,6 @@ manager: "ghogen"
 # Modules View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modules View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/modules-view-contention-data).  
   
 The Modules view of contention data displays concurrency data grouped by the modules that were sampled in the profiling data. Each module is the root of a hierarchical tree. The functions of the module in which contention events occurred are listed under the module node.  
   

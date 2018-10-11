@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugCanStopEvent2::GetReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCanStopEvent2::GetReason](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcanstopevent2-getreason).  
   
 Gets the reason why the debug engine (DE) wants to stop.  
   

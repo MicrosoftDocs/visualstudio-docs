@@ -21,7 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide::GetInitialData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyEESide::GetInitialData](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyeeside-getinitialdata).  
   
 Returns the initial data for this object.  
   

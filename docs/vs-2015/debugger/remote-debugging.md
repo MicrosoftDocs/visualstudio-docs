@@ -28,7 +28,6 @@ manager: "ghogen"
 # Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Remote Debugging](https://docs.microsoft.com/visualstudio/debugger/remote-debugging).  
   
 You can debug a Visual Studio application that has been deployed on a different computer.  To do so, you use the Visual Studio remote debugger.  
   

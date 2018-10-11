@@ -20,7 +20,6 @@ manager: "ghogen"
 # Adding a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Tool Window](https://docs.microsoft.com/visualstudio/extensibility/adding-a-tool-window).  
   
 In this walkthrough you learn how to create a tool window and integrate it into Visual Studio in the following ways:  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # New Project Generation: Under the Hood, Part One
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [New Project Generation: Under the Hood, Part One](https://docs.microsoft.com/visualstudio/extensibility/internals/new-project-generation-under-the-hood-part-one).  
   
 Ever thought about how to create your own project type? Wonder what actually happens when you create a new project? Let's take a peek under the hood and see what's really going on.  
   

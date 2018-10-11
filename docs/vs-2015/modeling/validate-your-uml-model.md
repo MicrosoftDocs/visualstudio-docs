@@ -19,7 +19,6 @@ manager: "douge"
 # Validate your UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Validate your UML model](https://docs.microsoft.com/visualstudio/modeling/validate-your-uml-model).  
   
 Some of the UML models that you can draw in Visual Studio might be considered invalid in your project. For example, you might require that a use case must always be linked to a sequence diagram that has lifelines representing the use case's actors. You can install or define *constraints* that help your team to conform to requirements such as this. Constraints can be applied when the user saves or opens a model, and can be invoked by menu command.  
   

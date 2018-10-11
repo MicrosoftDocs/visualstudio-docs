@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugOutputStringEvent2::GetString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugOutputStringEvent2::GetString](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugoutputstringevent2-getstring).  
   
 Gets the displayable message.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # Creating Forwarding Loggers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Forwarding Loggers](https://docs.microsoft.com/visualstudio/msbuild/creating-forwarding-loggers).  
   
   
 Forwarding loggers improve logging efficiency by letting you choose the events you want to monitor when you build projects on a multi-processor system. By enabling forwarding loggers, you can prevent unwanted events from overwhelming the central logger, slowing build time, and cluttering your log.  

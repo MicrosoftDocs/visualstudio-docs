@@ -23,7 +23,6 @@ manager: "ghogen"
 # Add Existing Project Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add Existing Project Command](https://docs.microsoft.com/visualstudio/ide/reference/add-existing-project-command).  
   
   
 Adds an existing project to the current solution.  

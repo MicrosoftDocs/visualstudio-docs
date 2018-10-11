@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2::EnumErrorBreakpoints](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints).  
   
 Gets a list of all error breakpoints that resulted from this pending breakpoint.  
   

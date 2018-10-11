@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_countLiveRanges
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_countLiveRanges](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-countliveranges).  
   
 Retrieves the number of valid address ranges associated with the local symbol.  
   

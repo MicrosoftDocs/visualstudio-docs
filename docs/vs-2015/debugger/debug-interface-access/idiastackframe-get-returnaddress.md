@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_returnAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_returnAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-returnaddress).  
   
 Retrieves the return address of the frame.  
   

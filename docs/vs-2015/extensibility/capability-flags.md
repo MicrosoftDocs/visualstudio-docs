@@ -19,7 +19,6 @@ manager: "ghogen"
 # Capability Flags
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Capability Flags](https://docs.microsoft.com/visualstudio/extensibility/capability-flags).  
   
 The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a source control plug-in. The SCC_EXCAP_*xxx* flags are incremental flags that indicate extended capabilities and resolve to integer values.  
   

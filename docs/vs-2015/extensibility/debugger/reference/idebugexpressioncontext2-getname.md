@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugExpressionContext2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionContext2::GetName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressioncontext2-getname).  
   
 Retrieves the name of the evaluation context.  
   

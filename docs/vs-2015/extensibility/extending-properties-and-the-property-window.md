@@ -23,7 +23,6 @@ manager: "ghogen"
 # Extending Properties and the Property Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending Properties and the Property Window](https://docs.microsoft.com/visualstudio/extensibility/extending-properties-and-the-property-window).  
   
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.  
   

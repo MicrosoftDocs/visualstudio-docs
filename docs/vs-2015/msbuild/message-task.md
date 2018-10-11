@@ -28,7 +28,6 @@ manager: "ghogen"
 # Message Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Message Task](https://docs.microsoft.com/visualstudio/msbuild/message-task).  
   
   
 Logs a message during a build.  

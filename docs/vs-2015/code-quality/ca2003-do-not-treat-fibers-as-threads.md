@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2003: Do not treat fibers as threads
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2003: Do not treat fibers as threads](https://docs.microsoft.com/visualstudio/code-quality/ca2003-do-not-treat-fibers-as-threads).
 
 |||
 |-|-|

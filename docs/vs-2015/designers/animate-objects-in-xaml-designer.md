@@ -18,7 +18,6 @@ manager: "ghogen"
 # Animate objects in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Animate objects in XAML Designer](https://docs.microsoft.com/visualstudio/designers/animate-objects-in-xaml-designer).  
   
 You can create short animations that move objects, or fade them in and out.  
   

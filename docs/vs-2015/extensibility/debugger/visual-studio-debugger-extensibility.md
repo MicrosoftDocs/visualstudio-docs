@@ -20,7 +20,6 @@ manager: "ghogen"
 # Visual Studio Debugger Extensibility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Debugger Extensibility](https://docs.microsoft.com/visualstudio/extensibility/debugger/visual-studio-debugger-extensibility).  
   
 Visual Studio includes a fully interactive source code debugger, providing a powerful and easy-to-use tool for tracking down bugs in your program. The debugger has complete support Visual Basic, C#, C/C++, and JavaScript. However, with the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)], that is available from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=214453),, other programming languages can be supported in the debugger with the same rich features.  
   

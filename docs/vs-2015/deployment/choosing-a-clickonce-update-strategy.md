@@ -26,7 +26,6 @@ manager: "wpickett"
 # Choosing a ClickOnce Update Strategy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Choosing a ClickOnce Update Strategy](https://docs.microsoft.com/visualstudio/deployment/choosing-a-clickonce-update-strategy).  
   
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] can provide automatic application updates. A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application periodically reads its deployment manifest file to see whether updates to the application are available. If available, the new version of the application is downloaded and run. For efficiency, only those files that have changed are downloaded.  
   

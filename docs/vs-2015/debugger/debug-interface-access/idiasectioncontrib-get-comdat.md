@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_comdat
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_comdat](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-comdat).  
   
 Retrieves a flag that indicates whether the section is a COMDAT record.  
   

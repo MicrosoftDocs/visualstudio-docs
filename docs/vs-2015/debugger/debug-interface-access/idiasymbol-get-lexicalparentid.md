@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_lexicalParentId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_lexicalParentId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-lexicalparentid).  
   
 Retrieves the lexical parent identifier of the symbol.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # QUERYCHANGESFUNC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [QUERYCHANGESFUNC](https://docs.microsoft.com/visualstudio/extensibility/querychangesfunc).  
   
 This is a callback function used by the [SccQueryChanges](../extensibility/sccquerychanges-function.md) operation to enumerate a collection of file names and determine each file's status.  
   

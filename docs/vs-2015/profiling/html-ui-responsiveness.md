@@ -29,7 +29,6 @@ manager: "ghogen"
 # HTML UI responsiveness
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze HTML UI responsiveness in UWP Apps](https://docs.microsoft.com/visualstudio/profiling/html-ui-responsiveness).  
   
 This topic describes how to isolate performance problems in your apps using the UI Responsiveness Profiler, a performance tool available for Windows Universal apps.  
   

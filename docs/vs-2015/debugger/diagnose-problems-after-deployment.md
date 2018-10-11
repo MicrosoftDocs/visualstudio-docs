@@ -18,7 +18,6 @@ manager: "ghogen"
 # Diagnose problems after deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Diagnose problems after deployment](https://docs.microsoft.com/visualstudio/debugger/diagnose-problems-after-deployment).  
   
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.  
   

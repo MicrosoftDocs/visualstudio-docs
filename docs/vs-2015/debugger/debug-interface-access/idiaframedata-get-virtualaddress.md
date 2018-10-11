@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_virtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-virtualaddress).  
   
 Retrieves the virtual address (VA) of the code for the frame.  
   

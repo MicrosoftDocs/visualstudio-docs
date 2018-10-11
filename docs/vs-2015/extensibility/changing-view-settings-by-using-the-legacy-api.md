@@ -19,7 +19,6 @@ manager: "ghogen"
 # Changing View Settings by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Changing View Settings by Using the Legacy API](https://docs.microsoft.com/visualstudio/extensibility/changing-view-settings-by-using-the-legacy-api).  
   
 Settings for core editor features, such as word wrap, selection margin, and virtual space, can be changed by the user by means of the **Options** dialog box. However, it is also possible to change these settings programmatically.  
   

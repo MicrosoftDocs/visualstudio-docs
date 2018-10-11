@@ -19,7 +19,6 @@ manager: "ghogen"
 # Notifying the Port
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Notifying the Port](https://docs.microsoft.com/visualstudio/extensibility/debugger/notifying-the-port).  
   
 After launching a program, the port must be notified, as follows:  
   

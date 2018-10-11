@@ -19,7 +19,6 @@ manager: "douge"
 # Deploy a layer model extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploy a layer model extension](https://docs.microsoft.com/visualstudio/modeling/deploy-a-layer-model-extension).  
   
 Other users of Visual Studio can install layer modeling extensions that you create by using Visual Studio.  
   

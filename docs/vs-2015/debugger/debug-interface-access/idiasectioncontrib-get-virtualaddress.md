@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_virtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-virtualaddress).  
   
 Retrieves the virtual address (VA) of the contribution.  
   

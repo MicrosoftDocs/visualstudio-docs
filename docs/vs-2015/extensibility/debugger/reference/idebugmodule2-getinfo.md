@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugModule2::GetInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugModule2::GetInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmodule2-getinfo).  
   
 Gets information about this module.  
   

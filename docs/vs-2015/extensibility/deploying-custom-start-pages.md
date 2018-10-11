@@ -20,7 +20,6 @@ manager: "ghogen"
 # Deploying Custom Start Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploying Custom Start Pages](https://docs.microsoft.com/visualstudio/extensibility/deploying-custom-start-pages).  
   
 You can deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.  
   

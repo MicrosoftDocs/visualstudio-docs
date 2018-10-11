@@ -36,7 +36,6 @@ manager: "ghogen"
 # Using Run-Time Checks Without the C Run-Time Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Run-Time Checks Without the C Run-Time Library](https://docs.microsoft.com/visualstudio/debugger/using-run-time-checks-without-the-c-run-time-library).  
   
 If you link your program without the C run-time library, using **/NODEFAULTLIB**, and want to use run-time checks, you must link with RunTmChk.lib.  
   

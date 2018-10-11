@@ -23,7 +23,6 @@ manager: "ghogen"
 # Customize the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customize the Help Viewer](https://docs.microsoft.com/visualstudio/ide/customize-the-help-viewer).  
   
 You can configure several features of the Help Viewer by using the **Viewer Options** dialog box.  
   

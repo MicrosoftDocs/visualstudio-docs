@@ -28,7 +28,6 @@ manager: "ghogen"
 # WriteLinesToFile Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WriteLinesToFile Task](https://docs.microsoft.com/visualstudio/msbuild/writelinestofile-task).  
   
   
 Writes the paths of the specified items to the specified text file.  

@@ -25,7 +25,6 @@ manager: "douge"
 # Use code maps to debug your applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Use code maps to debug your applications](https://docs.microsoft.com/visualstudio/modeling/use-code-maps-to-debug-your-applications).  
   
 Code maps can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you’re debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.  
   

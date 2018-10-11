@@ -23,7 +23,6 @@ manager: "ghogen"
 # Signing VSIX Packages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Signing VSIX Packages](https://docs.microsoft.com/visualstudio/extensibility/signing-vsix-packages).  
   
 Extension assemblies do not need to be signed before they can run in Visual Studio, but it is a good practice to do so.  
   

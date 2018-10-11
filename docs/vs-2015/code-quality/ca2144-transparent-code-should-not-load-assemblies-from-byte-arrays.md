@@ -20,7 +20,6 @@ manager: "wpickett"
 # CA2144: Transparent code should not load assemblies from byte arrays
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2144: Transparent code should not load assemblies from byte arrays](https://docs.microsoft.com/visualstudio/code-quality/ca2144-transparent-code-should-not-load-assemblies-from-byte-arrays).
 
 |||
 |-|-|

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Graphics State
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics State](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-state).  
   
 The State window in Visual Studio graphics Diagnostics helps you understand the graphics state that is active at the time of the current event, such as a draw call.  
   

@@ -23,7 +23,6 @@ manager: "ghogen"
 # Support for the Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Support for the Visual Studio SDK](https://docs.microsoft.com/visualstudio/extensibility/support-for-the-visual-studio-sdk).  
   
 Several support options are available for customers who have questions about how to extend the Visual Studio integrated development environment (IDE).  
   

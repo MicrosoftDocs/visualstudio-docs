@@ -20,7 +20,6 @@ manager: "ghogen"
 # Window Search Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Window Search Dialog Box](https://docs.microsoft.com/visualstudio/debugger/window-search-dialog-box).  
   
 Use this dialog box to find and select the node for a specific window in [Windows View](../debugger/windows-view.md). To display this dialog box, move the focus to the Windows view window. Then choose **Find Window** from the **Search** menu.  
   

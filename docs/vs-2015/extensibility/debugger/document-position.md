@@ -19,7 +19,6 @@ manager: "ghogen"
 # Document Position
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Document Position](https://docs.microsoft.com/visualstudio/extensibility/debugger/document-position).  
   
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **document position**:  
   

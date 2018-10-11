@@ -21,7 +21,6 @@ manager: "ghogen"
 # LocationField Element (Visual Studio Project Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LocationField Element (Visual Studio Project Templates)](https://docs.microsoft.com/visualstudio/extensibility/locationfield-element-visual-studio-project-templates).  
   
 Specifies whether or not the **Location** text box in the **New Project** dialog box is enabled, disabled, or hidden for the project template.  
   

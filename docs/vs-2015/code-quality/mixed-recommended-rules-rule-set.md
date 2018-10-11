@@ -18,7 +18,6 @@ manager: "wpickett"
 # Mixed Recommended Rules rule set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mixed Recommended Rules rule set](https://docs.microsoft.com/visualstudio/code-quality/mixed-recommended-rules-rule-set).  
   
 The Microsoft Mixed Recommended Rules focus on the most common and critical problems in your C++ projects that support the Common Language Runtime, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime. This ruleset is designed to be configured with the Visual Studio Professional edition and higher.  
   

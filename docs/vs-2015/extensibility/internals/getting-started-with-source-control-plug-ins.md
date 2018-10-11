@@ -20,7 +20,6 @@ manager: "ghogen"
 # Getting Started with Source Control Plug-ins
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with Source Control Plug-ins](https://docs.microsoft.com/visualstudio/extensibility/internals/getting-started-with-source-control-plug-ins).  
   
 To create a source control plug-in, you must create a DLL that implements the functions defined in the Source Control Plug-in API, and then to register the DLL with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to make it available for use in source code version control.  
   

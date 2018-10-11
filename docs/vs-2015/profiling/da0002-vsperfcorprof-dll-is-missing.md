@@ -23,7 +23,6 @@ manager: "ghogen"
 # DA0002: VSPerfCorProf.dll is missing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0002: VSPerfCorProf.dll is missing](https://docs.microsoft.com/visualstudio/profiling/da0002-vsperfcorprof-dll-is-missing).  
   
 Rule Id|DA0002|  
 |Category|Profiling Tools Usage|  

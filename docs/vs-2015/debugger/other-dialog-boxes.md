@@ -21,7 +21,6 @@ manager: "ghogen"
 # Other Dialog Boxes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Other Dialog Boxes](https://docs.microsoft.com/visualstudio/debugger/other-dialog-boxes).  
   
 These dialog boxes display information about the Spy++ program.  
   

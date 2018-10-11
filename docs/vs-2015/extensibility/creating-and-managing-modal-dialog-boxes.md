@@ -19,7 +19,6 @@ manager: "ghogen"
 # Creating and Managing Modal Dialog Boxes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating and Managing Modal Dialog Boxes](https://docs.microsoft.com/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).  
   
 When you create a modal dialog box inside Visual Studio, you must make sure that the parent window of the dialog box is disabled while the dialog box is displayed, then re-enable the parent window after the dialog box is closed. If you do not do so, you may receive the error: "Microsoft Visual Studio cannot shut down because a modal dialog is active. Close the active dialog and try again."  
   

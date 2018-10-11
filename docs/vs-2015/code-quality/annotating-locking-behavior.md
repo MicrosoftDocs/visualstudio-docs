@@ -42,7 +42,6 @@ manager: "ghogen"
 # Annotating Locking Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Annotating Locking Behavior](https://docs.microsoft.com/visualstudio/code-quality/annotating-locking-behavior).  
   
 To avoid concurrency bugs in your multithreaded program, always follow an appropriate locking discipline and use SAL annotations.  
   

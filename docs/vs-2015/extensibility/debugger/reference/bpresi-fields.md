@@ -21,7 +21,6 @@ manager: "ghogen"
 # BPRESI_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BPRESI_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bpresi-fields).  
   
 Specifies the information  to be retrieved about the successful resolution of a breakpoint.  
   

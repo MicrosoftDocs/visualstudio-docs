@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Add Class Diagrams to Projects (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Add Class Diagrams to Projects (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-add-class-diagrams-to-projects-class-designer).  
   
 To design, edit, and refactor classes and other types, add a class diagram to your Visual C# .NET, Visual Basic .NET, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.  
   

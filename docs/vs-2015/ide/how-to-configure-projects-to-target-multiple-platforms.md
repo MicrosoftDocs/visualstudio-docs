@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Configure Projects to Target Multiple Platforms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Configure Projects to Target Multiple Platforms](https://docs.microsoft.com/visualstudio/ide/how-to-configure-projects-to-target-multiple-platforms).  
   
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.  
   

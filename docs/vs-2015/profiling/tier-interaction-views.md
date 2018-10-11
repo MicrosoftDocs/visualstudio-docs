@@ -20,7 +20,6 @@ manager: "ghogen"
 # Tier Interaction Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tier Interaction Views](https://docs.microsoft.com/visualstudio/profiling/tier-interaction-views).  
   
 Tier interaction profiling provides additional information about the execution times of functions in multi-tiered applications that communicate with databases through [!INCLUDE[vstecado](../includes/vstecado-md.md)]. Data is collected only for synchronous function calls. You can include tier interaction data in all profiling methods.  
   

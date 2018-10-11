@@ -33,7 +33,6 @@ manager: "ghogen"
 # Create Custom Views of Managed Objects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create custom views of managed objects](https://docs.microsoft.com/visualstudio/debugger/create-custom-views-of-dot-managed-objects).  
   
 You can customize the way Visual Studio displays data types in debugger variable windows.  
   

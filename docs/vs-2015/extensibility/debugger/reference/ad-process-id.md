@@ -21,7 +21,6 @@ manager: "ghogen"
 # AD_PROCESS_ID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AD_PROCESS_ID](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ad-process-id).  
   
 Specifies the process ID, which may be either a system ID or a GUID.  
   

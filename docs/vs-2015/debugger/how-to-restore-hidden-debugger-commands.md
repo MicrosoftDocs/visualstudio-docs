@@ -31,7 +31,6 @@ manager: "ghogen"
 # How to: Restore Hidden Debugger Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Restore Hidden Debugger Commands](https://docs.microsoft.com/visualstudio/debugger/how-to-restore-hidden-debugger-commands).  
   
 When you set up Visual Studio, you are asked to choose a set of default IDE settings for your primary programming language. Default IDE settings for some languages may hide certain debugger commands.  
   

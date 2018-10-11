@@ -20,7 +20,6 @@ manager: "ghogen"
 # Creating a Breakpoint
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Breakpoint](https://docs.microsoft.com/visualstudio/extensibility/debugger/creating-a-breakpoint).  
   
 The following describes the process of creating a breakpoint.  
   

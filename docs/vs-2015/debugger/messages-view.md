@@ -22,7 +22,6 @@ manager: "ghogen"
 # Messages View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Messages View](https://docs.microsoft.com/visualstudio/debugger/messages-view).  
   
 Each window has an associated message stream. A Messages view window displays this message stream. The window handle, message code, and message are shown. You can create a Messages view for a thread or process as well. This allows you to view messages sent to all windows owned by a specific process or thread, which is particularly useful for capturing window initialization messages.  
   

@@ -30,7 +30,6 @@ manager: "ghogen"
 # ResolveAssemblyReference Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ResolveAssemblyReference Task](https://docs.microsoft.com/visualstudio/msbuild/resolveassemblyreference-task).  
   
   
 Determines all assemblies that depend on the specified assemblies. This includes second and `n`th-order dependencies.  

@@ -31,7 +31,6 @@ manager: "ghogen"
 # Debugging Web Applications and Script
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Web Applications and Script](https://docs.microsoft.com/visualstudio/debugger/debugging-web-applications-and-script).  
   
 Table legend:  
   

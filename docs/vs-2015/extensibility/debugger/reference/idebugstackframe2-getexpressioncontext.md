@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetExpressionContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetExpressionContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getexpressioncontext).  
   
 Gets an evaluation context for expression evaluation within the current context of a stack frame and thread.  
   

@@ -35,7 +35,6 @@ manager: "ghogen"
 # Debug Source Files, Common Properties, Solution Property Pages Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Source Files, Common Properties, Solution Property Pages Dialog Box](https://docs.microsoft.com/visualstudio/debugger/debug-source-files-common-properties-solution-property-pages-dialog-box).  
   
 This property page specifies where the debugger will look for source files when debugging the solution.  
   

@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2106: Secure asserts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2106: Secure asserts](https://docs.microsoft.com/visualstudio/code-quality/ca2106-secure-asserts).
 
 |||
 |-|-|

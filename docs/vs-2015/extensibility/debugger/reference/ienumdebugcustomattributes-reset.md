@@ -21,7 +21,6 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes::Reset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugCustomAttributes::Reset](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugcustomattributes-reset).  
   
 Resets the enumeration sequence to the beginning.  
   

@@ -19,7 +19,6 @@ manager: "ghogen"
 # Parallel Extension Internals for the .NET Framework
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Parallel Extension Internals for the .NET Framework](https://docs.microsoft.com/visualstudio/extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework).  
   
 This section describes the internal types, methods, and fields of classes that help you implement a custom debugger for the parallel extensions to the .NET Framework.  
   

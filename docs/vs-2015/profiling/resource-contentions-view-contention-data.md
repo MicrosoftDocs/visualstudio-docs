@@ -22,7 +22,6 @@ manager: "ghogen"
 # Resource Contentions View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resource Contentions View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/resource-contentions-view-contention-data).  
   
 The Resource Contention view lists contention data for the resources that were the source of contention events. A contention event occurs when a function in a thread is forced to wait for access to the resource because a function in another thread has acquired exclusive access to the resource. Each resource is the root node of a call tree that displays the function execution paths that resulted in the contention events.  
   

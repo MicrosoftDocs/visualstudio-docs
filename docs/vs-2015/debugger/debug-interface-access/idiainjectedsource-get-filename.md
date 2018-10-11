@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_filename
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaInjectedSource::get_filename](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiainjectedsource-get-filename).  
   
 Retrieves the file name for the source.  
   

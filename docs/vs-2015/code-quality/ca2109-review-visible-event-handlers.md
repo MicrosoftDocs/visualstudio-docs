@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2109: Review visible event handlers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2109: Review visible event handlers](https://docs.microsoft.com/visualstudio/code-quality/ca2109-review-visible-event-handlers).
 
 |||
 |-|-|

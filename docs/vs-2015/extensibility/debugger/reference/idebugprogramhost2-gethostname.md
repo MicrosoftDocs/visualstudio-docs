@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramHost2::GetHostName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramHost2::GetHostName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramhost2-gethostname).  
   
 Gets the title, friendly name, or file name of the hosting process of this program.  
   

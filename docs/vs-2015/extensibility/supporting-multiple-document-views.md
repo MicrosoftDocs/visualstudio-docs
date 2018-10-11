@@ -19,7 +19,6 @@ manager: "ghogen"
 # Supporting Multiple Document Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Supporting Multiple Document Views](https://docs.microsoft.com/visualstudio/extensibility/supporting-multiple-document-views).  
   
 You can provide more than one view of a document by creating separate document data and document view objects for your editor. Some cases in which an additional document view would be useful are:  
   

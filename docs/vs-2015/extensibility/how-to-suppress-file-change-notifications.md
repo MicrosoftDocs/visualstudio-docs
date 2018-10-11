@@ -19,7 +19,6 @@ manager: "ghogen"
 # How to: Suppress File Change Notifications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Suppress File Change Notifications](https://docs.microsoft.com/visualstudio/extensibility/how-to-suppress-file-change-notifications).  
   
 When the physical file representing the text buffer has been changed, a dialog box displays with the message **Do you want to save changes to the following items?** This is known as file change notification. If many changes are going to be to the file, however, this dialog box displaying over and over again can quickly become annoying.  
   

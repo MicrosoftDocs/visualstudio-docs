@@ -21,7 +21,6 @@ manager: "ghogen"
 # SccAdd Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccAdd Function](https://docs.microsoft.com/visualstudio/extensibility/sccadd-function).  
   
 This function adds new files to the source control system.  
   

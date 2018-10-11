@@ -23,7 +23,6 @@ manager: "ghogen"
 # Code Snippets Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Code Snippets Schema Reference](https://docs.microsoft.com/visualstudio/ide/code-snippets-schema-reference).  
   
 IntelliSense Code Snippets are pre-authored pieces of code that are ready to be inserted into your application with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] already includes.  
   

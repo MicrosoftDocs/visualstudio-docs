@@ -20,7 +20,6 @@ manager: "ghogen"
 # VSCT XML Schema Conditional Attributes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSCT XML Schema Conditional Attributes](https://docs.microsoft.com/visualstudio/extensibility/vsct-xml-schema-conditional-attributes).  
   
 Conditional attributes may be applied to all lists and items. Logical operators and symbol expansion expressions evaluate to true or false. If true, the associated list or item is included in the resulting output.  
   

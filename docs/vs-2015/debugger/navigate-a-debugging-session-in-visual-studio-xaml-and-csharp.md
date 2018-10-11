@@ -23,7 +23,6 @@ manager: "ghogen"
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigate a debugging session in Visual Studio (Xaml and C#)](https://docs.microsoft.com/visualstudio/debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp).  
   
 This quick start demonstrates how to navigate Visual Studio debug sessions and how to view and change the program state in a session.  
   

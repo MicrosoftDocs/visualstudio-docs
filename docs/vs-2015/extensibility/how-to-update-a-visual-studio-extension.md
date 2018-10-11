@@ -21,7 +21,6 @@ manager: "ghogen"
 # How to: Update a Visual Studio Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Update a Visual Studio Extension](https://docs.microsoft.com/visualstudio/extensibility/how-to-update-a-visual-studio-extension).  
   
 You can update a Visual Studio extension on your system by using **Extensions and Updates** to install the updated version. If you create an updated version of an extension, you can signify it as updated by incrementing the version number in the VSIX manifest.  
   

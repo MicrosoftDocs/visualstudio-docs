@@ -19,7 +19,6 @@ manager: "ghogen"
 # Using the Settings Store
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using the Settings Store](https://docs.microsoft.com/visualstudio/extensibility/using-the-settings-store).  
   
 There are two kinds of settings stores:  
   

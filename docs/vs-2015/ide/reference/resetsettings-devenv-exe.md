@@ -22,7 +22,6 @@ manager: "ghogen"
 # /ResetSettings (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-ResetSettings (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/resetsettings-devenv-exe).  
   
   
 Restores [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] default settings and automatically launches the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE. Optionally resets the settings to a specified .vssettings file.  

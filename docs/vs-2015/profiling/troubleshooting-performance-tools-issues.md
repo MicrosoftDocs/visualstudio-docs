@@ -18,7 +18,6 @@ manager: "ghogen"
 # Troubleshooting Performance Tools Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting Performance Tools Issues](https://docs.microsoft.com/visualstudio/profiling/troubleshooting-performance-tools-issues).  
   
 You might experience one of the following issues when you use the Profiling Tools:  
   

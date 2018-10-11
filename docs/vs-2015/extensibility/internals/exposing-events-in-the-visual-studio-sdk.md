@@ -20,7 +20,6 @@ manager: "ghogen"
 # Exposing Events in the Visual Studio SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Exposing Events in the Visual Studio SDK](https://docs.microsoft.com/visualstudio/extensibility/internals/exposing-events-in-the-visual-studio-sdk).  
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] lets you source events by using automation. We recommend that you source events for projects and project items.  
   

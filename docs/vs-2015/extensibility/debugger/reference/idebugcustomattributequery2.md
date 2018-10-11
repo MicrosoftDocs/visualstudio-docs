@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomAttributeQuery2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomattributequery2).  
   
 Determines the existence of a custom attribute for this field and, if it exists, returns the attribute information.  
   

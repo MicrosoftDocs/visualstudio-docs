@@ -25,7 +25,6 @@ manager: "ghogen"
 # Collecting tier interaction data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting tier interaction data](https://docs.microsoft.com/visualstudio/profiling/collecting-tier-interaction-data).  
   
 Tier interaction profiling provides additional information about the execution times of functions of multi-tiered applications that communicate with databases through ADO.NET services. Data is collected only for synchronous function calls.  
   

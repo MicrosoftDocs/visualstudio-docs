@@ -21,7 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_ARRAYELEM
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [METADATA_ADDRESS_ARRAYELEM](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/metadata-address-arrayelem).  
   
 This structure represents an array element within an array.  
   

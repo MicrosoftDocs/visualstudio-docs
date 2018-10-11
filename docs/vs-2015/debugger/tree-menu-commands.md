@@ -20,7 +20,6 @@ manager: "ghogen"
 # Tree Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tree Menu Commands](https://docs.microsoft.com/visualstudio/debugger/tree-menu-commands).  
   
 The **Tree** menu provides commands to expand or collapse views.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::GetInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-getinfo).  
   
 Gets a description of the process.  
   

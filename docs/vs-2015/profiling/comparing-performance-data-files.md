@@ -21,7 +21,6 @@ manager: "ghogen"
 # Comparing Performance Data Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Comparing Performance Data Files](https://docs.microsoft.com/visualstudio/profiling/comparing-performance-data-files).  
   
 Profiling Tools data files comparison functionality allows you to select two report files (.VSP /or .VSPS) files and generate a report that shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.  
   

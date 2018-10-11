@@ -21,7 +21,6 @@ manager: "ghogen"
 # Adding and Removing Property Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding and Removing Property Pages](https://docs.microsoft.com/visualstudio/extensibility/adding-and-removing-property-pages).  
   
 The Project Designer provides a centralized location for managing project properties, settings, and resources in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. It appears as a single window in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) and contains a number of panes on the right that are accessed through the tabs on the left. The panes (often referred to as property pages) in the Project Designer vary by project type and language. The Project Designer can be accessed with the **Properties** command on the **Project** menu.  
   

@@ -17,7 +17,6 @@ manager: "douge"
 # Set a Unique Automation Property for Windows Store Controls for Testing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set a Unique Automation Property for Windows Store Controls for Testing](https://docs.microsoft.com/visualstudio/test/set-a-unique-automation-property-for-windows-store-controls-for-testing).  
   
 If you want to run coded UI tests for your XAML-based Windows Store application, you must have a unique automation property that identifies each control.  
   

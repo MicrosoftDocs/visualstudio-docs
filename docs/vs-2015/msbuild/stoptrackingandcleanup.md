@@ -26,7 +26,6 @@ manager: "ghogen"
 # StopTrackingAndCleanup
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [StopTrackingAndCleanup](https://docs.microsoft.com/visualstudio/msbuild/stoptrackingandcleanup).  
   
   
 Stops all tracking and frees any memory used by the tracking session.  

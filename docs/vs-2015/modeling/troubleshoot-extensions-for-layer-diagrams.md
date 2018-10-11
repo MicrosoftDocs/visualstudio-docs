@@ -19,7 +19,6 @@ manager: "douge"
 # Troubleshoot extensions for layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshoot extensions for dependency diagrams](https://docs.microsoft.com/visualstudio/modeling/troubleshoot-extensions-for-layer-diagrams).  
   
 This topic addresses some problems that you might encounter when you create layer model extensions.  
   

@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA1901: P/Invoke declarations should be portable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1901: P-Invoke declarations should be portable](https://docs.microsoft.com/visualstudio/code-quality/ca1901-p-invoke-declarations-should-be-portable).
 
 |||
 |-|-|

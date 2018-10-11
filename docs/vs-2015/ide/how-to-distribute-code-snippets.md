@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Distribute Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Distribute Code Snippets](https://docs.microsoft.com/visualstudio/ide/how-to-distribute-code-snippets).  
   
 You can simply give your code snippets to your friends and have them install the snippets on their own computers by using the Code Snippets Manager. However, if you have several snippets to distribute or would like to distribute them more widely, you include your snippet file in a Visual Studio extension, which Visual Studio users can install.  
   

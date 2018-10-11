@@ -22,7 +22,6 @@ manager: "ghogen"
 # How to: Build Specific Targets in Solutions By Using MSBuild.exe
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Build Specific Targets in Solutions By Using MSBuild.exe](https://docs.microsoft.com/visualstudio/msbuild/how-to-build-specific-targets-in-solutions-by-using-msbuild-exe).  
   
   
 You can use MSBuild.exe to build specific targets of specific projects in a solution.  

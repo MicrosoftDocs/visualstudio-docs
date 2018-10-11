@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::GetBreakpointRequest
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2::GetBreakpointRequest](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2-getbreakpointrequest).  
   
 Gets the breakpoint request that was used to create this pending breakpoint.  
   

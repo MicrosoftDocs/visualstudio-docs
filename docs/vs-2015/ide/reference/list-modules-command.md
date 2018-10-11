@@ -24,7 +24,6 @@ manager: "ghogen"
 # List Modules Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List Modules Command](https://docs.microsoft.com/visualstudio/ide/reference/list-modules-command).  
   
   
 Lists the modules for the current process.  

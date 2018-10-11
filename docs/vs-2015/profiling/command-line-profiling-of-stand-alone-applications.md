@@ -21,7 +21,6 @@ manager: "ghogen"
 # Command-Line Profiling of Stand-Alone Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command-Line Profiling of Stand-Alone Applications](https://docs.microsoft.com/visualstudio/profiling/command-line-profiling-of-stand-alone-applications).  
   
 This section describes the procedures and options for collecting performance data for stand-alone (client) applications by using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools from the command line.  
   

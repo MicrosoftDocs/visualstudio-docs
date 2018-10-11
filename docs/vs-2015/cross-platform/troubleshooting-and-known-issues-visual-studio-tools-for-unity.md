@@ -18,7 +18,6 @@ manager: "ghogen"
 # Troubleshooting and Known Issues (Visual Studio Tools for Unity)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting and Known Issues (Visual Studio Tools for Unity)](https://docs.microsoft.com/visualstudio/cross-platform/troubleshooting-and-known-issues-visual-studio-tools-for-unity).  
   
   
 In this section, you'll find solutions to common issues with Visual Studio Tools for Unity, descriptions of known issues, and learn how you can help improve Visual Studio Tools for Unity by reporting errors.  

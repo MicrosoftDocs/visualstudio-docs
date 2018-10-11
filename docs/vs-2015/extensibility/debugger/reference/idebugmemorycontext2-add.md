@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDebugMemoryContext2::Add
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMemoryContext2::Add](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmemorycontext2-add).  
   
 Adds the specified value to the current context and returns a new context.  
   

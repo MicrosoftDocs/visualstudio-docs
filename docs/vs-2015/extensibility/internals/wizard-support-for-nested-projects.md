@@ -21,7 +21,6 @@ manager: "ghogen"
 # Wizard Support for Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Wizard Support for Nested Projects](https://docs.microsoft.com/visualstudio/extensibility/internals/wizard-support-for-nested-projects).  
   
 The IDE runs two wizards that the parent project for nested projects can implement: the **New Project** wizard and the **Add Item** wizard.  
   

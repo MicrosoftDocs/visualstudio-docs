@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaEnumTables::Clone
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumTables::Clone](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumtables-clone).  
   
 Creates an enumerator that contains the same enumeration state as the current enumerator.  
   

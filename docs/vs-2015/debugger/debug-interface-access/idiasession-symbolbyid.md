@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSession::symbolById
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::symbolById](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-symbolbyid).  
   
 Retrieves a symbol by its unique identifier.  
   

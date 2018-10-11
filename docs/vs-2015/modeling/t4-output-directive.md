@@ -16,7 +16,6 @@ manager: "douge"
 # T4 Output Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Output Directive](https://docs.microsoft.com/visualstudio/modeling/t4-output-directive).  
   
 In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] text templates, the `output` directive is used to define the file name extension and encoding of the transformed file.  
   

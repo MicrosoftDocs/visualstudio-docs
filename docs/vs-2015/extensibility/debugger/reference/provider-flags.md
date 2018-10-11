@@ -21,7 +21,6 @@ manager: "ghogen"
 # PROVIDER_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PROVIDER_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/provider-flags).  
   
 Specifies desired properties to be obtained from a program provider.  
   

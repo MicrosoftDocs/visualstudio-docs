@@ -21,7 +21,6 @@ manager: "ghogen"
 # Collecting Memory Data from an ASP.NET Web Application by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Memory Data from an ASP.NET Web Application by Using the Profiler Command Line](https://docs.microsoft.com/visualstudio/profiling/collecting-memory-data-from-an-aspnet-web-application-by-using-the-profiler-command-line).  
   
 This section describes the procedures and options for collecting memory allocation and object lifetime data for an ASP.NET Web application by using the **VSPerfCmd** command-line tool.  
   

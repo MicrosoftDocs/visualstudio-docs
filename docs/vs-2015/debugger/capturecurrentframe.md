@@ -18,7 +18,6 @@ manager: "ghogen"
 # CaptureCurrentFrame
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CaptureCurrentFrame](https://docs.microsoft.com/visualstudio/debugger/graphics/capturecurrentframe).  
   
 Captures the remainder of the current frame to the graphics log file.  
   

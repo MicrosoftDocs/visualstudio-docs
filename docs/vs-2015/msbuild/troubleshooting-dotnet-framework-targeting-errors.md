@@ -27,7 +27,6 @@ manager: "ghogen"
 # Troubleshooting .NET Framework Targeting Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting .NET Framework Targeting Errors](https://docs.microsoft.com/visualstudio/msbuild/troubleshooting-dotnet-framework-targeting-errors).  
   
   
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  

@@ -19,7 +19,6 @@ manager: "ghogen"
 # GetScheduledTasksForDebugger Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GetScheduledTasksForDebugger Method](https://docs.microsoft.com/visualstudio/extensibility/debugger/getscheduledtasksfordebugger-method).  
   
 Retrieves an array of all scheduled tasks.  
   

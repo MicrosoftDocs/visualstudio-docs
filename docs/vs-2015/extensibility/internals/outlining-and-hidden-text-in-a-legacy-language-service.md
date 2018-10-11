@@ -19,7 +19,6 @@ manager: "ghogen"
 # Outlining and Hidden Text in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Outlining and Hidden Text in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/outlining-and-hidden-text-in-a-legacy-language-service).  
   
 Outlining makes it possible to collapse a sequence of text lines into a single line. For example, in C++ all methods can be collapsed to a single line, showing only the method signature. Hidden text is the sequence of text lines that can be shown or hidden.  
   

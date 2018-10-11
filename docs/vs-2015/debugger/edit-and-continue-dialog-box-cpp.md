@@ -29,7 +29,6 @@ manager: "ghogen"
 # Edit and Continue Dialog Box (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit and Continue Dialog Box (C++)](https://docs.microsoft.com/visualstudio/debugger/edit-and-continue-dialog-box-cpp).  
   
 Edit and Continue could not apply the changes you made to your native code. This may be a temporary condition. Sometimes Edit and Continue cannot apply native code changes immediately, but can apply them later during the debugging session (for example, after completion of the current call to the procedure now executing). For more information, see [Edit and Continue](../debugger/edit-and-continue.md).  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugAlias::Dispose
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAlias::Dispose](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugalias-dispose).  
   
 Marks this alias for removal.  
   

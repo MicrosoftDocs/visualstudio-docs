@@ -20,7 +20,6 @@ manager: "ghogen"
 # Automation for Configuration and SelectedItem Objects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Automation for Configuration and SelectedItem Objects](https://docs.microsoft.com/visualstudio/extensibility/internals/automation-for-configuration-and-selecteditem-objects).  
   
 You can automate the build and selected item processes in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   

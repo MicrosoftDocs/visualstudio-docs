@@ -20,7 +20,6 @@ manager: "ghogen"
 # Build an OpenGL ES Application on Android and iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Build an OpenGL ES Application on Android and iOS](https://docs.microsoft.com/visualstudio/cross-platform/build-an-opengl-es-application-on-android-and-ios).  
   
   
 When you install the Visual C++ for Cross-Platform Mobile Development option, you can create Visual Studio solutions and projects for iOS apps and Android apps that share common code. This topic guides you through a solution template that creates both a simple iOS app and an Android Native Activity app. The apps have C++ code in common that uses OpenGL ES to display the same animated rotating cube on each platform. OpenGL ES (OpenGL for Embedded Systems or GLES) is a 2D and 3D graphics API that is supported on many mobile devices.  

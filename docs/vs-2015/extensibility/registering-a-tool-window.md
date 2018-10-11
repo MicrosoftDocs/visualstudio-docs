@@ -20,7 +20,6 @@ manager: "ghogen"
 # Registering a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering a Tool Window](https://docs.microsoft.com/visualstudio/extensibility/registering-a-tool-window).  
   
 You can register your tool windows using <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> and  <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute>  
   

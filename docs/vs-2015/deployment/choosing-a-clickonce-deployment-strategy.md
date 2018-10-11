@@ -25,7 +25,6 @@ manager: "wpickett"
 # Choosing a ClickOnce Deployment Strategy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Choosing a ClickOnce Deployment Strategy](https://docs.microsoft.com/visualstudio/deployment/choosing-a-clickonce-deployment-strategy).  
   
 There are three different strategies for deploying a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application; the strategy that you choose depends primarily on the type of application that you are deploying. The three deployment strategies are as follows:  
   

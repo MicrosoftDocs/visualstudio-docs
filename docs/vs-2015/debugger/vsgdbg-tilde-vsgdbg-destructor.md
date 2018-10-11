@@ -18,7 +18,6 @@ manager: "ghogen"
 # VsgDbg::~VsgDbg (Destructor)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VsgDbg::~VsgDbg (Destructor)](https://docs.microsoft.com/visualstudio/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor).  
   
 Destroys an instance of the `VsgDbg` class. If graphics information is actively being recorded, the graphics log file is finalized and closed, and the resources that were used while actively capturing graphics information are released.  
   

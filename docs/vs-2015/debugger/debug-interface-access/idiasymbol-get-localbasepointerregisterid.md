@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_localBasePointerRegisterId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_localBasePointerRegisterId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-localbasepointerregisterid).  
   
 Retrieves the ID of the register that holds a base pointer to local variables on the stack. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.  
   

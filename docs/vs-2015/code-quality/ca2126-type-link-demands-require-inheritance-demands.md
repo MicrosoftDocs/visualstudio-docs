@@ -24,7 +24,6 @@ manager: "wpickett"
 # CA2126: Type link demands require inheritance demands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA2126: Type link demands require inheritance demands](https://docs.microsoft.com/visualstudio/code-quality/ca2126-type-link-demands-require-inheritance-demands).
 
 |||
 |-|-|

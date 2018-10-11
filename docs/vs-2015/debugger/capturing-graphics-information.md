@@ -22,7 +22,6 @@ manager: "ghogen"
 # Capturing Graphics Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Capturing Graphics Information](https://docs.microsoft.com/visualstudio/debugger/graphics/capturing-graphics-information).  
   
 Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.  
   

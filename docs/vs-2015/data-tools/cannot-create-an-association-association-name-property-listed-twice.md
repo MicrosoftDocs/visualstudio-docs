@@ -16,7 +16,6 @@ manager: "ghogen"
 # Cannot create an association &lt;association name&gt; - property listed twice
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Cannot create an association &lt;association name&gt; - property listed twice](https://docs.microsoft.com/visualstudio/data-tools/cannot-create-an-association-association-name-property-listed-twice).  
   
   
 Cannot create an association \<association name>. The same property is listed more than once: \<property name>.  

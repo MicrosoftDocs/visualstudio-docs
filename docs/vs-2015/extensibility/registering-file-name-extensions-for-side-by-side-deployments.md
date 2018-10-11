@@ -19,7 +19,6 @@ manager: "ghogen"
 # Registering File Name Extensions for Side-By-Side Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering File Name Extensions for Side-By-Side Deployments](https://docs.microsoft.com/visualstudio/extensibility/registering-file-name-extensions-for-side-by-side-deployments).  
   
 For VSPackages deployed in a side-by-side environment, you must register file name extensions to associate the files with the correct version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Unless you use a version-specific file name extension, registration enables users to open your project and project item files in the appropriate version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   

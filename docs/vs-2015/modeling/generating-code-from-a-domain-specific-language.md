@@ -16,7 +16,6 @@ manager: "douge"
 # Generating Code from a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Generating Code from a Domain-Specific Language](https://docs.microsoft.com/visualstudio/modeling/generating-code-from-a-domain-specific-language).  
   
 Microsoft [!INCLUDE[dsl](../includes/dsl-md.md)] provides a powerful way to generate code, documents, configuration files and other artifacts from data represented in models. Using [!INCLUDE[dsl](../includes/dsl-md.md)], you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.  
   

@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2).  
   
 This interface represents a program that can be debugged.  
   

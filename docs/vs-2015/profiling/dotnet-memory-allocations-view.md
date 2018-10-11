@@ -25,7 +25,6 @@ manager: "ghogen"
 # .NET Memory Allocations View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [.NET Memory Allocations View](https://docs.microsoft.com/visualstudio/profiling/dotnet-memory-allocations-view).  
   
 The Allocations view lists the types that were created during the profiling run. Each type is the root node of a call tree that displays the function execution paths that resulted in the allocations of the type.  
   

@@ -40,7 +40,6 @@ manager: "ghogen"
 # Options, Text Editor, XAML, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, XAML, Formatting](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-xaml-formatting).  
   
   
 Use the **Formatting** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Formatting** property page, expand the **Text Editor**, **XAML**, **Formatting** node.  

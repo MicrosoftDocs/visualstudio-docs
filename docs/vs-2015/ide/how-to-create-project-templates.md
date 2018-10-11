@@ -26,7 +26,6 @@ manager: "ghogen"
 # How to: Create Project Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create Project Templates](https://docs.microsoft.com/visualstudio/ide/how-to-create-project-templates).  
   
 This procedure enables you to create a template using the **Export Template** wizard, which packages your template in a .zip file. You can also create templates in the VSIX file format for improved deployment by using the Export Template Wizard extension, or with templates included in the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)], or you can create templates manually.  
   

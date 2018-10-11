@@ -20,7 +20,6 @@ manager: "ghogen"
 # How to: Pause and Resume Performance Data Collection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Pause and Resume Performance Data Collection](https://docs.microsoft.com/visualstudio/profiling/how-to-pause-and-resume-performance-data-collection).  
   
 From the profiling session page window, you can control the collection of profiling data interactively.  
   

@@ -19,7 +19,6 @@ manager: "ghogen"
 # EVALFLAGS90
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EVALFLAGS90](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/evalflags90).  
   
 Enumerates the valid values for flags that control expression evaluation. This enumeration extends the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration.  
   

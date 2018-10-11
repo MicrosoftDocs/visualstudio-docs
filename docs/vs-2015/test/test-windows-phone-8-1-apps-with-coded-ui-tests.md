@@ -17,7 +17,6 @@ manager: "douge"
 # Test Windows UWP and 8.1 Phone Apps with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Windows UWP and 8.1 Phone Apps with Coded UI Tests](https://docs.microsoft.com/visualstudio/test/test-windows-phone-8-1-apps-with-coded-ui-tests).  
   
 Use this walkthrough for creating UI tests for UWP apps that run on mobile device or emulators and XAML-based Phone 8.1 apps.   
   

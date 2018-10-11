@@ -22,7 +22,6 @@ manager: "ghogen"
 # Troubleshooting Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting Snippets](https://docs.microsoft.com/visualstudio/ide/troubleshooting-snippets).  
   
 Problems with IntelliSense code snippets are typically caused by two problems: a corrupt snippet file or bad content in the snippet file.  
   

@@ -20,7 +20,6 @@ manager: "ghogen"
 # Strings Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Strings Element](https://docs.microsoft.com/visualstudio/extensibility/strings-element).  
   
 The Strings element must contain at least a **ButtonText** child element. All other child elements are optional. Invalid XML characters such as ‘&’ and ‘<’ must be coded as entities (‘&amp;’ and ‘&lt;’ and so on).  
   

@@ -16,7 +16,6 @@ manager: "douge"
 # Generate and configure your app from models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Generate and configure your app from models](https://docs.microsoft.com/visualstudio/modeling/generate-and-configure-your-app-from-models).  
   
 You can generate or configure parts of your application from a model. The model can be in UML or a DSL.  
   

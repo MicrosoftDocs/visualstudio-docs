@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugMessageEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMessageEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmessageevent2).  
   
 This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user.  
   

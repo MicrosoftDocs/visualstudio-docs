@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugEngineProgram2::WatchForThreadStep
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineProgram2::WatchForThreadStep](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengineprogram2-watchforthreadstep).  
   
 Watches for execution (or stops watching for execution) to occur on the given thread.  
   

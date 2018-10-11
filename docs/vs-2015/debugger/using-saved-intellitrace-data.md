@@ -25,7 +25,6 @@ manager: "ghogen"
 # Using saved IntelliTrace data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using saved IntelliTrace data](https://docs.microsoft.com/visualstudio/debugger/using-saved-intellitrace-data).  
   
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.  
   

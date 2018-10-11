@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::GetCustomViewerList
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty3::GetCustomViewerList](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty3-getcustomviewerlist).  
   
 Gets a list of custom viewers associated with this property.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_machineType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_machineType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-machinetype).  
   
 Retrieves the type of the target CPU.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # Empty Timeline Segment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Empty Timeline Segment](https://docs.microsoft.com/visualstudio/profiling/empty-timeline-segment).  
   
 In the Concurrency Visualizer, the reason that a section of the timeline is empty (has a white background) depends on the kind of channel.  
   

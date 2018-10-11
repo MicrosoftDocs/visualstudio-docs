@@ -21,7 +21,6 @@ manager: "ghogen"
 # IDebugPropertyDestroyEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPropertyDestroyEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpropertydestroyevent2).  
   
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a property that is associated with a specific document is about to be destroyed.  
   

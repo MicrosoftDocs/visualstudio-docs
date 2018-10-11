@@ -20,7 +20,6 @@ manager: "ghogen"
 # ContingentProperties Class - Internal Members
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ContingentProperties Class - Internal Members](https://docs.microsoft.com/visualstudio/extensibility/debugger/contingentproperties-class-internal-members).  
   
 Contains additional properties for a <xref:System.Threading.Tasks.Task> object.  
   

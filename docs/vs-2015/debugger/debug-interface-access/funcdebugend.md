@@ -23,7 +23,6 @@ manager: "ghogen"
 # FuncDebugEnd
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FuncDebugEnd](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/funcdebugend).  
   
 If a function has a defined point at which debugging is to end, the debug starting point is identified by a symbol with a `SymTagFuncDebugEnd` tag.  
   

@@ -22,7 +22,6 @@ manager: "ghogen"
 # IDiaReadExeAtOffsetCallback
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaReadExeAtOffsetCallback](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiareadexeatoffsetcallback).  
   
 Enables a client application to supply bytes of an executable file as  specified by file position.  
   
