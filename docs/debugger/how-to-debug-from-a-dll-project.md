@@ -23,13 +23,13 @@ ms.workload:
 ---
 # How to: Debug from a DLL project in Visual Studio
 
-One way to debug a DLL project is to specify the calling app in the DLL project properties. Then you can start debugging from the DLL project itself. For this method to work, the app must call the DLL in the same location as the one you configured. If the app finds and loads a different version of the DLL, that version won't contain your breakpoints. For other methods of debugging DLLs, see [Debugging DLL projects](../debugger/debugging-dll-projects.md).
+One way to debug a DLL project is to specify the calling app in the DLL project properties. Then you can start debugging from the DLL project itself. For this method to work, the app must call the same DLL in the same location as the one you configure. If the app finds and loads a different version of the DLL, that version won't contain your breakpoints. For other methods of debugging DLLs, see [Debugging DLL projects](../debugger/debugging-dll-projects.md).
   
-If your managed DLL is called by native code or native DLL is called by managed code, you can debug both. For more information, see [How to: Debug in mixed mode](../debugger/how-to-debug-in-mixed-mode.md).   
+If your managed app calls a native DLL, or your native app calls a managed DLL, you can debug both the DLL and the calling app. For more information, see [How to: Debug in mixed mode](../debugger/how-to-debug-in-mixed-mode.md).   
 
-Specifying a calling app differs between C/C++ (native code) property pages and C# or Visual Basic (managed code) property pages. 
+Native and managed DLL projects have different settings to specify calling apps. 
 
-## Specify the calling app for a C++ (native) DLL project  
+## Specify a calling app in a native DLL project  
   
 1. Select the C++ DLL project in **Solution Explorer**. Select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    
@@ -47,7 +47,7 @@ Specifying a calling app differs between C/C++ (native code) property pages and 
    
 1. Select **OK**.
 
-## Specify the calling app for a C# or Visual Basic (managed) DLL project  
+## Specify a calling app in a managed DLL project  
   
 1. Select the C# or VB DLL project in **Solution Explorer**. Select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    
