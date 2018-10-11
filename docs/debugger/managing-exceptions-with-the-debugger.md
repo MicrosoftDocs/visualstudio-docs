@@ -44,13 +44,13 @@ Provide handlers that respond to the most important exceptions. Also learn how t
 When an exception occurs, the debugger writes an exception message to the Output window. It may break execution in the following cases when:
 
 - An exception is thrown that isn't handled.
-
 - The debugger is configured to break execution before any handler is invoked.
-
 - You have set [Just My Code](../debugger/just-my-code.md), and the debugger is configured to break on any exception that isn't handled in user code.
 
 > [!NOTE]
 > ASP.NET has a top-level exception handler that shows error pages in a browser. It doesn't break execution unless **Just My Code** is turned on. For an example, see [Tell the debugger to continue on user-unhandled exceptions](#BKMK_UserUnhandled) below.
+
+<!-- Two consecutive notes are intentional here...-->
 
 > [!NOTE]
 > In a Visual Basic application, the debugger manages all errors as exceptions, even if you use On Error-style error handlers.
@@ -59,16 +59,16 @@ When an exception occurs, the debugger writes an exception message to the Output
 
 The debugger can break execution at the point where an exception is thrown, so you may examine the exception before a handler is invoked.
 
-In the **Exception Settings** window (**Debug > Windows > Exception Settings**), expand the node for a category of exceptions, such as **Common Language Runtime Exceptions**, which means .NET exceptions. Then select the check box for a specific exception within that category, such as **System.AccessViolationException**. You can also select an entire category of exceptions.
+In the **Exception Settings** window (**Debug > Windows > Exception Settings**), expand the node for a category of exceptions, such as **Common Language Runtime Exceptions**. Then select the check box for a specific exception within that category, such as **System.AccessViolationException**. You can also select an entire category of exceptions.
 
 ![Checked AccessViolationException](../debugger/media/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")
 
 > [!TIP]
-> You can find specific exceptions by using the **Search** window in the **Exception Settings** toolbar, or use search to filter for specific namespaces (for example **System.IO**).
+> You can find specific exceptions by using the **Search** window in the **Exception Settings** toolbar, or use search to filter for specific namespaces (such as **System.IO**).
 
 If you select an exception in the **Exception Settings** window, debugger execution will break wherever the exception is thrown, no matter whether it's handled. Now the exception is called a first chance exception. For example, here are a couple of scenarios:
 
-* In the following C# console application, the Main method throws an **AccessViolationException** inside a `try/catch` block:
+- In the following C# console application, the Main method throws an **AccessViolationException** inside a `try/catch` block.
 
   ```csharp
   static void Main(string[] args)
@@ -86,7 +86,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
   }
   ```
 
-  If you have **AccessViolationException** checked in **Exception Settings**, when you run this code in the debugger execution will break on the `throw` line. You can then continue execution. The console should display both lines:
+  If you have **AccessViolationException** checked in **Exception Settings**, execution will break on the `throw` line when you run this code in the debugger. You can then continue execution. The console should display both lines:
 
   ```cmd
   caught exception
@@ -95,7 +95,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
 
   but it doesn't display the `here` line.
 
-* A C# console application references a class library with a class that has two methods, a method that throws an exception and handles it and a second method that throws the same exception and doesn't handle it:
+- A C# console application references a class library with a class that has two methods. One method throws an exception and handles it, while a second method throws the same exception but doesn't handle it.
 
   ```csharp
   public class Class1
@@ -130,31 +130,47 @@ If you select an exception in the **Exception Settings** window, debugger execut
   }
   ```
 
-  If you have **AccessViolationException** checked in **Exception Settings**, when you run this code in the debugger execution will break on the `throw` line in both **ThrowHandledException()** and **ThrowUnhandledException()**.
+  If you have **AccessViolationException** checked in **Exception Settings**, execution will break on the `throw` line in both **ThrowHandledException()** and **ThrowUnhandledException()** when you run this code in the debugger.
 
-If you would like to restore the exception settings to the defaults, you can click the **Restore** button on the toolbar:
+To restore the exception settings to the defaults, choose the **Restore the list to the default settings** button:
 
 ![Restore defaults in Exception Settings](../debugger/media/restoredefaultexceptions.png "RestoreDefaultExceptions")
 
 ## <a name="BKMK_UserUnhandled"></a>Tell the debugger to continue on user-unhandled exceptions
 
-If you are debugging .NET or JavaScript code with [Just My Code](../debugger/just-my-code.md), you can tell the debugger not to break on exceptions that aren't handled in user code but are handled elsewhere.
+If you are debugging .NET or JavaScript code with [Just My Code](../debugger/just-my-code.md), you can tell the debugger to prevent breaking on exceptions that aren't handled in user code but are handled elsewhere.
 
-1. In the **Exception Settings** window, open the context menu by right-clicking in window and then selecting **Show Columns**. (If you have turned off **Just My Code**, you won't see this command.)
+1. In the **Exception Settings** window, open the shortcut menu by right-clicking a column label, and then select **Show Columns > Additional Actions**. (If you've turned off **Just My Code**, you won't see this command.) A third column named **Additional Actions** appears.
 
-2. You should see a second column named **Additional Actions**. This column displays **Continue when unhandled by user code** on specific exceptions, meaning that the debugger continues if that exception isn't handled in user code but is handled externally.
+   ![Additional Actions column](../debugger/media/additionalactionscolumn.png "AdditionalActionsColumn")
 
-3. You can change this setting for a particular exception by selecting the exception, right-clicking, and toggling **Continue when Unhandled in User Code**. You may also change the setting for an entire category of exceptions, such as the entire Common Language Runtime exceptions).
+   For an exception that shows **Continue when unhandled in user code** in this column, the debugger continues if that exception isn't handled in user code but is handled externally.
 
-For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception Handling in ASP.NET API](http://www.asp.net/web-api/overview/error-handling/exception-handling)), which may not help you to determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
+2. To change this setting for a particular exception, select the exception, right-click to show the shortcut menu, and select **Continue When Unhandled in User Code**. You may also change the setting for an entire category of exceptions, such as the entire Common Language Runtime exceptions).
 
-![breaks on user&#45;unhanlded exception](../debugger/media/exceptionunhandledbyuser.png "ExceptionUnhandledByUser")
+   ![**Continue when unhandled in user code** setting](../debugger/media/continuewhenunhandledinusercodesetting.png "ContinueWhenUnhandledInUserCodeSetting")
+
+For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception handling in ASP.NET Web API](http://www.asp.net/web-api/overview/error-handling/exception-handling)), which may not help you determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
+
+![Breaks on user&#45;unhandled exception](../debugger/media/exceptionunhandledbyuser.png "ExceptionUnhandledByUser")
 
 ## Add and delete exceptions
 
-You can add and delete exceptions. To delete an exception type from a category,  choose the exception and select the **Delete** button (the minus sign) on the **Exception Settings** toolbar. Or you may right-click the exception and select **Delete** from the context menu. Deleting an exception has the same effect as having the exception unchecked, which is that the debugger won't break when it's thrown.
+You can add and delete exceptions. To delete an exception type from a category, select the exception, and choose the **Delete the selected exception from the list** button (the minus sign) on the **Exception Settings** toolbar. Or you may right-click the exception and select **Delete** from the shortcut menu. Deleting an exception has the same effect as having the exception unchecked, which is that the debugger won't break when it's thrown.
 
-To add an exception: in the **Exception Settings** window, select one of the exception categories (for example, **Common Language Runtime**) and click the **Add** button. Type the name of the exception (for example. **System.UriTemplateMatchException**). The exception is added to the list (in alphabetical order), and is automatically checked.
+To add an exception:
+
+1. In the **Exception Settings** window, select one of the exception categories (for example, **Common Language Runtime**).
+
+2. Choose the **Add an exception to the selected category** button (the plus sign).
+
+   ![**Add an exception to the selected category** button](../debugger/media/addanexceptiontotheselectedcategorybutton.png "AddAnExceptionToTheSelectedCategoryButton")
+
+3. Type the name of the exception (for example, **System.UriTemplateMatchException**).
+
+   ![Type the exception name](../debugger/media/typetheexceptionname.png "TypeTheExceptionName")
+
+   The exception is added to the list (in alphabetical order) and automatically checked.
 
 To add an exception to the GPU Memory Access Exceptions, JavaScript Runtime Exceptions, or Win32 Exceptions categories, include the error code and the description.
 
@@ -174,22 +190,32 @@ public class GenericException<T> : Exception
 }
 ```
 
-You can add the exception to **Exception Settings** as follows:
+You can add the exception to **Exception Settings** using the previous procedure:
 
 ![adding generic exception](../debugger/media/addgenericexception.png "AddGenericException")
 
 ## Add conditions to an exception
 
-Use the **Exception Settings** dialog box to set conditions on exceptions. Currently supported conditions include the module name(s) to include or exclude for the exception. By setting module names as conditions, you can choose to break for the exception only on particular code modules, or you may avoid breaking on particular modules.
+Use the **Exception Settings** window to set conditions on exceptions. Currently supported conditions include the module name(s) to include or exclude for the exception. By setting module names as conditions, you can choose to break for the exception only on certain code modules. You may also choose to avoid breaking on particular modules.
 
 > [!NOTE]
-> Adding conditions to an exception is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+> Adding conditions to an exception is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
-To add conditional exceptions, choose the **Edit condition** icon in the Exception Settings dialog box or right-click the exception and choose **Edit Conditions**.
+To add conditional exceptions:
 
-![Conditions on an Exception](../debugger/media/dbg-conditional-exception.png "DbgConditionalException")
+1. Choose the **Edit conditions** button in the Exception Settings window, or right-click the exception and choose **Edit Conditions**.
 
-## See Also
+   ![Conditions for an exception](../debugger/media/dbg-conditional-exception.png "DbgConditionalException")
+
+2. To add extra required conditions to the exception, select **Add Condition** for each desired condition. Additional condition lines appear.
+
+   ![Extra conditions for an exception](../debugger/media/extraconditionsforanexception.png "ExtraConditionsForAnException")
+
+3. For each condition line, type the name or specifier (wildcards are accepted) of the module(s), and change the comparison operator list to **Equals** or **Not Equals**.
+
+4. If you need to delete a condition, choose the **X** at the end of the condition line.
+
+## See also
 
 [Continue execution after an exception](../debugger/continuing-execution-after-an-exception.md)<br/>
 [How to: Examine system code after an exception](../debugger/how-to-examine-system-code-after-an-exception.md)<br/>
