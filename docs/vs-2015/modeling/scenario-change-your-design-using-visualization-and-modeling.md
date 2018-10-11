@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code visualization [Visual Studio ALM]"
   - "modeling software [Visual Studio ALM]"

@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.execution"
 dev_langs: 

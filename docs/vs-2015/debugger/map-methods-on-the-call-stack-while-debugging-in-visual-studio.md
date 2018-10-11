@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.progression.debugwithcodemaps"
 dev_langs: 

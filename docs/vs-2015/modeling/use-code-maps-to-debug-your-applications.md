@@ -6,7 +6,7 @@ ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio Ultimate, visualizing code"
   - "Visual Studio Ultimate, navigating code visually"

@@ -6,7 +6,7 @@ ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.progression.codemapanalyzers"
 helpviewer_keywords: 
