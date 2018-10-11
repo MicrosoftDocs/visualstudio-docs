@@ -23,8 +23,6 @@ manager: "ghogen"
 # Set Radix Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set Radix Command](https://docs.microsoft.com/visualstudio/ide/reference/set-radix-command).  
-  
   
 Sets or returns the numeric base used to display integer values.  
   

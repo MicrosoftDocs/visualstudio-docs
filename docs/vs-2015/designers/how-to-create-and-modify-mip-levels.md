@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create and Modify MIP Levels
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create and Modify MIP Levels](https://docs.microsoft.com/visualstudio/designers/how-to-create-and-modify-mip-levels).  
-  
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).  
   
 ## Generating MIP levels  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugReference2::GetMemoryBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::GetMemoryBytes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-getmemorybytes).  
-  
 Gets the memory bytes that physically contain the value of a reference. Reserved for future use.  
   
 ## Syntax  

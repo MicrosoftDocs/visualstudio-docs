@@ -25,8 +25,6 @@ manager: "ghogen"
 # Options, Text Editor, C/C++, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, C/C++, Formatting](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-c-cpp-formatting).  
-  
   
 Lets you change the default behavior of the Code Editor when you are programming in C or C++.  
   

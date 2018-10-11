@@ -19,8 +19,6 @@ manager: "ghogen"
 # PROGRAM_DESTROY_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PROGRAM_DESTROY_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/program-destroy-flags).  
-  
 Enumerates the valid values of the program destroy flags.  
   
 ## Syntax  

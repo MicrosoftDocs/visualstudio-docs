@@ -22,8 +22,6 @@ manager: "ghogen"
 # BasicType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BasicType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/basictype).  
-  
 Specifies the symbol's basic type.  
   
 ## Syntax  

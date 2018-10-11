@@ -20,8 +20,6 @@ manager: "ghogen"
 # Visual C++ Enumerations in Class Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual C++ Enumerations in Class Designer](https://docs.microsoft.com/visualstudio/ide/visual-cpp-enumerations-in-class-designer).  
-  
 Class Designer supports C++ `enum` and scoped `enum class` types. Following is an example:  
   
 ```  

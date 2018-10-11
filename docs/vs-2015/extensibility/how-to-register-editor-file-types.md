@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Register Editor File Types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Register Editor File Types](https://docs.microsoft.com/visualstudio/extensibility/how-to-register-editor-file-types).  
-  
 The easiest way to register editor file types is by using the registration attributes provided as a part of the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] managed package framework (MPF) classes. If you are implementing your package in native [!INCLUDE[vcprvc](../includes/vcprvc-md.md)], you can also write a registry script that registers your editor and the associated extensions.  
   
 ## Registration Using MPF Classes  

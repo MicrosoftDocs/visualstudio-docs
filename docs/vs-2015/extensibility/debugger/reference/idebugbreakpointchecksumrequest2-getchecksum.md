@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugBreakpointChecksumRequest2::GetChecksum
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointChecksumRequest2::GetChecksum](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointchecksumrequest2-getchecksum).  
-  
 Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.  
   
 ## Syntax  

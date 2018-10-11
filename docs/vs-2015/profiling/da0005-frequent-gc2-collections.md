@@ -23,8 +23,6 @@ manager: "ghogen"
 # DA0005: Frequent GC2 collections
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0005: Frequent GC2 collections](https://docs.microsoft.com/visualstudio/profiling/da0005-frequent-gc2-collections).  
-  
 RuleId|DA0005|  
 |Category|.NET Framework Usage|  
 |Profiling method|.NET Memory|  

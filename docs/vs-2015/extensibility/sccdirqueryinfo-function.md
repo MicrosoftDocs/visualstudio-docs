@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccDirQueryInfo Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccDirQueryInfo Function](https://docs.microsoft.com/visualstudio/extensibility/sccdirqueryinfo-function).  
-  
 This function examines a list of fully qualified directories for their current status.  
   
 ## Syntax  

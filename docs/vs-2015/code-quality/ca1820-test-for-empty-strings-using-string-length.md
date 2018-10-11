@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1820: Test for empty strings using string length
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1820: Test for empty strings using string length](https://docs.microsoft.com/visualstudio/code-quality/ca1820-test-for-empty-strings-using-string-length).
-
 |||
 |-|-|
 |TypeName|TestForEmptyStringsUsingStringLength|

@@ -19,8 +19,6 @@ manager: "ghogen"
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PORT_SUPPLIER_DESCRIPTION_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/port-supplier-description-flags).  
-  
 Defines the metadata that can be retrieved about a port supplier.  
   
 ## Syntax  

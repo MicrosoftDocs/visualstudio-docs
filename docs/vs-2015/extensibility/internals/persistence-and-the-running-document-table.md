@@ -22,8 +22,6 @@ manager: "ghogen"
 # Persistence and the Running Document Table
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Persistence and the Running Document Table](https://docs.microsoft.com/visualstudio/extensibility/internals/persistence-and-the-running-document-table).  
-  
 In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE, projects are completely responsible for managing the persistence of their project items, which they accomplish using the service, <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable>. Documents are the basic unit of persistence in the Visual Studio environment. Projects coordinate the opening, saving, and renaming of documents with the running document table (RDT), a resource that tracks the state of all open documents.  
   
 ## Managing Persistence  

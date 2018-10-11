@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback2::RestrictSystemRootAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLoadCallback2::RestrictSystemRootAccess](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialoadcallback2-restrictsystemrootaccess).  
-  
 Determines if searching for .pdb files is allowed in the system root directory.  
   
 ## Syntax  

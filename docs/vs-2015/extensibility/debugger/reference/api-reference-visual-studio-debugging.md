@@ -19,8 +19,6 @@ manager: "ghogen"
 # API Reference (Visual Studio Debugging)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [API Reference (Visual Studio Debugging)](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/api-reference-visual-studio-debugging).  
-  
 The reference section includes a conceptual overview of the API, a guide that shows the syntax and usage for all API elements, and an assortment of code examples. All references are listed alphabetically by category.  
   
  The following table shows the common `HRESULT` values returned by methods.  

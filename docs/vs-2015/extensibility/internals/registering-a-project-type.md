@@ -21,8 +21,6 @@ manager: "ghogen"
 # Registering a Project Type
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering a Project Type](https://docs.microsoft.com/visualstudio/extensibility/internals/registering-a-project-type).  
-  
 When you create a new project type, you must create registry entries that enable [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to recognize and work with your project type. You typically create these registry entries by using a registry script (.rgs) file.  
   
  In the example below, the statements from the registry provide default paths and data where applicable, followed by a table that contains entries from the registry script for each statement. The tables provide the script entries and additional information about the statements.  

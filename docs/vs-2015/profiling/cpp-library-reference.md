@@ -20,8 +20,6 @@ manager: "ghogen"
 # C++ Library Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [C++ Library Reference](https://docs.microsoft.com/visualstudio/profiling/cpp-library-reference).  
-  
 This section contains reference information for the Concurrency Visualizer SDK.  
   
 > [!NOTE]

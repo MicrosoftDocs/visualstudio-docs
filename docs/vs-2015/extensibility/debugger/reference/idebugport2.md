@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPort2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPort2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugport2).  
-  
 This interface represents a debug port on a machine.  
   
 ## Syntax  

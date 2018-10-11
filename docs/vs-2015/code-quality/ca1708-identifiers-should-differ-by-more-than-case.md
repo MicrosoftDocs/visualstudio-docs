@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1708: Identifiers should differ by more than case
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1708: Identifiers should differ by more than case](https://docs.microsoft.com/visualstudio/code-quality/ca1708-identifiers-should-differ-by-more-than-case).
-
 |||
 |-|-|
 |TypeName|IdentifiersShouldDifferByMoreThanCase|

@@ -31,8 +31,6 @@ manager: "ghogen"
 # Allocation Hooks and C Run-Time Memory Allocations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Allocation Hooks and C Run-Time Memory Allocations](https://docs.microsoft.com/visualstudio/debugger/allocation-hooks-and-c-run-time-memory-allocations).  
-  
 A very important restriction on allocation hook functions is that they must explicitly ignore `_CRT_BLOCK` blocks (the memory allocations made internally by C run-time library functions) if they make any calls to C run-time library functions that allocate internal memory. The `_CRT_BLOCK` blocks can be ignored by including code such as the following at the beginning of your allocation hook function:  
   
 ```  

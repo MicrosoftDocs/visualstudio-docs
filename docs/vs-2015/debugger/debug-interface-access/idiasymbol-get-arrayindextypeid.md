@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_arrayIndexTypeId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_arrayIndexTypeId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-arrayindextypeid).  
-  
 Retrieves the array index type identifier of the symbol.  
   
 ## Syntax  

@@ -18,8 +18,6 @@ manager: "ghogen"
 # Descendants (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Descendants (XElement Dynamic Property)](https://docs.microsoft.com/visualstudio/designers/descendants-xelement-dynamic-property).  
-  
 Gets an indexer used to retrieve all the descendant elements of the current element that match the specified expanded name.  
   
 ## Syntax  

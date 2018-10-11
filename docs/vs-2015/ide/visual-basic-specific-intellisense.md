@@ -21,8 +21,6 @@ manager: "ghogen"
 # Visual Basic-Specific IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Basic-Specific IntelliSense](https://docs.microsoft.com/visualstudio/ide/visual-basic-specific-intellisense).  
-  
 The Visual Basic source code editor offers the following IntelliSense features:  
   
 -   Syntax tips  

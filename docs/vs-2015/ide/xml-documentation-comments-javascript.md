@@ -23,8 +23,6 @@ manager: "ghogen"
 # XML Documentation Comments (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
-  
 In JavaScript you can create documentation for your code by including XML tags in special comment fields in the source code. These XML tags are used by IntelliSense to provide information about JavaScript objects.  
   
  The location of the code comments varies depending on the specific tag.  

@@ -18,8 +18,6 @@ manager: "ghogen"
 # Modify the style of objects in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modify the style of objects in Blend](https://docs.microsoft.com/visualstudio/designers/modify-the-style-of-objects-in-blend).  
-  
 The easiest way to customize an object is to set properties in the **Properties** pane.  
   
  If you want re-use settings or groups of settings, create a re-usable resource. This could be a *style*, *template*, or something simple like a custom color. You can also make a control appear differently based on its state. For example, a button turns green when the user clicks it.  

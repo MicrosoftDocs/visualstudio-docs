@@ -20,8 +20,6 @@ manager: "ghogen"
 # Test Area 6: Delete
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 6: Delete](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-6-delete).  
-  
 This source-control plug-in test area covers delete actions.  
   
  Source control responds to delete actions in **Solution Explorer**.  

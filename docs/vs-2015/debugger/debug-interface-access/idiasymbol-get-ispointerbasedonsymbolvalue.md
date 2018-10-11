@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isPointerBasedOnSymbolValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isPointerBasedOnSymbolValue](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-ispointerbasedonsymbolvalue).  
-  
 Specifies whether the `this` pointer is based on a symbol value.  
   
 ## Syntax  

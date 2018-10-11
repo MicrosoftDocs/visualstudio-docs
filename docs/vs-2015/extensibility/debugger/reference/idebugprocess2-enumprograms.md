@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::EnumPrograms
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::EnumPrograms](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-enumprograms).  
-  
 Retrieves a list of all the programs contained by this process.  
   
 ## Syntax  

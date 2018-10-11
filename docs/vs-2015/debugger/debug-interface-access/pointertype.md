@@ -22,8 +22,6 @@ manager: "ghogen"
 # PointerType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PointerType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/pointertype).  
-  
 Each pointer is identified by a `SymTagPointerType` symbol.  
   
 ## Properties  

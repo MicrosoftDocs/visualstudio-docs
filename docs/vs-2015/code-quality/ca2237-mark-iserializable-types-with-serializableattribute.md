@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2237: Mark ISerializable types with SerializableAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2237: Mark ISerializable types with SerializableAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca2237-mark-iserializable-types-with-serializableattribute).
-
 |||
 |-|-|
 |TypeName|MarkISerializableTypesWithSerializable|

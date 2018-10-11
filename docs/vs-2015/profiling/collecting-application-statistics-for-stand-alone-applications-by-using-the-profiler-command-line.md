@@ -21,8 +21,6 @@ manager: "ghogen"
 # Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line](https://docs.microsoft.com/visualstudio/profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line).  
-  
 This section describes the procedures and options for collecting performance statistics for a client (stand-alone) application by using the sampling method from the command line.  
   
 > [!NOTE]

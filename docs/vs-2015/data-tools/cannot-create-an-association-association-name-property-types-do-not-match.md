@@ -16,8 +16,6 @@ manager: "ghogen"
 # Cannot create an association &lt;association name&gt; - property types do not match
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Cannot create an association &lt;association name&gt; - property types do not match](https://docs.microsoft.com/visualstudio/data-tools/cannot-create-an-association-association-name-property-types-do-not-match).  
-  
   
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.  
   

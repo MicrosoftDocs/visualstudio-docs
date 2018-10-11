@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetAppIDFromAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProviderDirect::GetAppIDFromAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolproviderdirect-getappidfromaddress).  
-  
 Retrieves the application domain identifier given the debug address.  
   
 ## Syntax  

@@ -28,8 +28,6 @@ manager: "wpickett"
 # How to: Create a Package Manifest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Package Manifest](https://docs.microsoft.com/visualstudio/deployment/how-to-create-a-package-manifest).  
-  
 To deploy prerequisites for your application, you can use a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. Shared functionality across different localized versions should go into the product manifest.  
   
  For more information about package manifests, see [How to: Create a Product Manifest](../deployment/how-to-create-a-product-manifest.md).  

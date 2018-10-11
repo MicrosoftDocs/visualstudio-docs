@@ -19,8 +19,6 @@ manager: "ghogen"
 # DisplayKind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DisplayKind](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/displaykind).  
-  
 Enumerates the valid values that represent the kinds of information to take from an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object and display to the user.  
   
 ## Syntax  

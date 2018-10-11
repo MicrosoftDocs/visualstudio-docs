@@ -21,8 +21,6 @@ manager: "ghogen"
 # PENDING_BP_STATE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PENDING_BP_STATE_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/pending-bp-state-info).  
-  
 Contains information about the state of a breakpoint that is ready to bind to a code location.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # marker_series::write_flag Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [marker_series::write_flag Method](https://docs.microsoft.com/visualstudio/profiling/marker-series-write-flag-method).  
-  
 Writes a flag to the Concurrency Visualizer trace file.  
   
 ## Syntax  

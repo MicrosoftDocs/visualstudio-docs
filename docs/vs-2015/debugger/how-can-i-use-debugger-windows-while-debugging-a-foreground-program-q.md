@@ -32,8 +32,6 @@ manager: "ghogen"
 # How Can I Use Debugger Windows While Debugging a Foreground Program?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How Can I Use Debugger Windows While Debugging a Foreground Program?](https://docs.microsoft.com/visualstudio/debugger/how-can-i-use-debugger-windows-while-debugging-a-foreground-program-q).  
-  
 Problem Description  
  I am trying to debug a screen-painting problem. To observe this problem, I have to keep my program in the foreground, which means I do not have access to the debugging windows. What can I do?  
   

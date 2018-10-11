@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_UNBOUND_REASON
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_UNBOUND_REASON](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-unbound-reason).  
-  
 Gives the reason a breakpoint was unbound.  
   
 ## Syntax  

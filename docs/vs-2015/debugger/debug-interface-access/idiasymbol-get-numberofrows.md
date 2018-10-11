@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_numberOfRows
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_numberOfRows](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-numberofrows).  
-  
 Retrieves the number of rows in the matrix.  
   
 ## Syntax  

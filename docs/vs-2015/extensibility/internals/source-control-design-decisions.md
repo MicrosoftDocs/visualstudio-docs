@@ -19,8 +19,6 @@ manager: "ghogen"
 # Source Control Design Decisions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control Design Decisions](https://docs.microsoft.com/visualstudio/extensibility/internals/source-control-design-decisions).  
-  
 The following design decisions should be considered for projects when implementing source control.  
   
 ## Will information be shared or private?  

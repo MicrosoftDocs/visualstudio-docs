@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbolsByAddr::symbolByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSymbolsByAddr::symbolByRVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyrva).  
-  
 Positions the enumerator by performing a lookup by relative virtual address (RVA).  
   
 ## Syntax  

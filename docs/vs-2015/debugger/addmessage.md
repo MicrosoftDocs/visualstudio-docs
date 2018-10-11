@@ -18,8 +18,6 @@ manager: "ghogen"
 # AddMessage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AddMessage](https://docs.microsoft.com/visualstudio/debugger/graphics/addmessage).  
-  
 Adds a custom message to the graphics diagnostics *HUD* (Head-Up Display).  
   
 ## Syntax  

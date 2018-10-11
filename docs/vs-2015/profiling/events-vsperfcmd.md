@@ -18,8 +18,6 @@ manager: "ghogen"
 # Events (VSPerfCmd)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Events (VSPerfCmd)](https://docs.microsoft.com/visualstudio/profiling/events-vsperfcmd).  
-  
 The VSPerfCmd.exe **Events** option controls Event Tracing for Windows (ETW) logging. ETW data is saved to an .etl file that is separate from the profiler data file. The data can be viewed in a report using the [VSPerfReport](../profiling/vsperfreport.md) /summary:etw command.  
   
  The **Events** option can be called at any time before the VSPerfCmd **Shutdown** command is called to stop profiling.  

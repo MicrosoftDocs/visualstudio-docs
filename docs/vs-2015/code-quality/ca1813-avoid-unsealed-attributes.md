@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1813: Avoid unsealed attributes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1813: Avoid unsealed attributes](https://docs.microsoft.com/visualstudio/code-quality/ca1813-avoid-unsealed-attributes).
-
 |||
 |-|-|
 |TypeName|AvoidUnsealedAttributes|

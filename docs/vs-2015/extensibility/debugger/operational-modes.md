@@ -19,8 +19,6 @@ manager: "ghogen"
 # Operational Modes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Operational Modes](https://docs.microsoft.com/visualstudio/extensibility/debugger/operational-modes).  
-  
 There are three modes in which the IDE can operate, as follows:  
   
 -   [Design Mode](#vsconoperationalmodesanchor1)  

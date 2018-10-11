@@ -24,8 +24,6 @@ manager: "ghogen"
 # List Source Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List Source Command](https://docs.microsoft.com/visualstudio/ide/reference/list-source-command).  
-  
   
 Displays the specified lines of source code.  
   

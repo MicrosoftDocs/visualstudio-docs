@@ -25,8 +25,6 @@ manager: "ghogen"
 # How to: Switch to Another Thread While Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Switch to Another Thread While Debugging](https://docs.microsoft.com/visualstudio/debugger/how-to-switch-to-another-thread-while-debugging).  
-  
 When you debug a multithreaded application, you can use any one of several methods to switch the context from the thread that you have been working with to another thread.  
   
 ### To switch to any thread that appears in the Threads window  

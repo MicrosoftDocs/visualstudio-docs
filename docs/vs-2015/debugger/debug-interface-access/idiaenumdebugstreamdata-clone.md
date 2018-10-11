@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData::Clone
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreamData::Clone](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreamdata-clone).  
-  
 Creates an enumerator that contains the same enumerated sequence as the current enumerator.  
   
 ## Syntax  

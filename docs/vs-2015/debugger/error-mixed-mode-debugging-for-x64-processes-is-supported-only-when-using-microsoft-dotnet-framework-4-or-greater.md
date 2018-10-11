@@ -25,8 +25,6 @@ manager: "ghogen"
 # Error: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater](https://docs.microsoft.com/visualstudio/debugger/error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater).  
-  
 To debug mixed native and managed code in a 64-bit process, you must have [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version 4. Mixed-mode debugging of 64-bit processes with [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] versions earlier than 4 is not supported.  
   
 ### To correct this error  

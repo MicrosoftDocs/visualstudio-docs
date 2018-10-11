@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugReference2::Compare
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::Compare](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-compare).  
-  
 Compares one reference to another. Reserved for future use.  
   
 ## Syntax  

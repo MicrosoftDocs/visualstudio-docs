@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer2::GetMachineName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer2::GetMachineName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver2-getmachinename).  
-  
 Gets the name of the machine the core server is running on.  
   
 ## Syntax  

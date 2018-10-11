@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetAddressesFromPosition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetAddressesFromPosition](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromposition).  
-  
 This method maps a document position into an array of debug addresses.  
   
 ## Syntax  

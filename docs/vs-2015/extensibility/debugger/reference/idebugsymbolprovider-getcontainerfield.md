@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetContainerField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetContainerField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield).  
-  
 This method gets the field that contains the debug address.  
   
 ## Syntax  

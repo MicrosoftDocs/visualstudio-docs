@@ -31,8 +31,6 @@ manager: "ghogen"
 # Validate data in datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Validate data in datasets](https://docs.microsoft.com/visualstudio/data-tools/validate-data-in-datasets).  
-  
   
 Validating data is the process of confirming that the values being entered into data objects conform to the constraints within a dataset's schema. The validation process also confirms that these values are following the rules that have been established for your application. It's a good practice to validate data prior to sending updates to the underlying database. This reduces errors as well as the potential number of round trips between an application and the database.  
   

@@ -25,8 +25,6 @@ manager: "ghogen"
 # Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater](https://docs.microsoft.com/visualstudio/debugger/error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater).  
-  
 To debug mixed native and managed code, you must have [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version 2.0, 3.0. 3.5, or 4.0. Mixed-mode debugging with earlier versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] is not supported.  
   
 ### To correct this error  

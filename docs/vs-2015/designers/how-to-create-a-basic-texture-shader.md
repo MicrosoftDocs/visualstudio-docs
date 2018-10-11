@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic Texture Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Basic Texture Shader](https://docs.microsoft.com/visualstudio/designers/how-to-create-a-basic-texture-shader).  
-  
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a single-texture shader. This shader sets the final color directly to the RGB and alpha values that are sampled from the texture.  
   
  This document demonstrates these activities:  

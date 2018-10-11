@@ -29,8 +29,6 @@ manager: "ghogen"
 # How Can I Debug an Access Violation?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How Can I Debug an Access Violation?](https://docs.microsoft.com/visualstudio/debugger/how-can-i-debug-an-access-violation-q).  
-  
 Problem Description  
  My program produces an access violation. How can I debug this?  
   

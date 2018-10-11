@@ -28,8 +28,6 @@ manager: "ghogen"
 # Security Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security Page, Project Designer](https://docs.microsoft.com/visualstudio/ide/reference/security-page-project-designer).  
-  
   
 The **Security** page of the **Project Designer** is used to configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../includes/ndptecclick-md.md)] deployment. For more information, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).  
   

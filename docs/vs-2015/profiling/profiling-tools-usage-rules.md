@@ -18,8 +18,6 @@ manager: "ghogen"
 # Profiling Tools Usage Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Profiling Tools Usage Rules](https://docs.microsoft.com/visualstudio/profiling/profiling-tools-usage-rules).  
-  
 Performance rules in the Profiling Tools Usage category provide guidance for using the profiler to collect data most effectively.  
   
 |||  

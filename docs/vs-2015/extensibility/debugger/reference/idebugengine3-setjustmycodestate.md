@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::SetJustMyCodeState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3::SetJustMyCodeState](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3-setjustmycodestate).  
-  
 This method tells the debug engine about the JustMyCode state information.  
   
 ## Syntax  

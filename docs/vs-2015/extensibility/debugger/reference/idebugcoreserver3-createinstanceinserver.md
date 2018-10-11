@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::CreateInstanceInServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer3::CreateInstanceInServer](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver3-createinstanceinserver).  
-  
 Creates an instance of a debug engine on the server.  
   
 ## Syntax  

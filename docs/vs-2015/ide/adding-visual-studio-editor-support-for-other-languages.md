@@ -23,8 +23,6 @@ manager: "ghogen"
 # Adding Visual Studio editor support for other languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Visual Studio editor support for other languages](https://docs.microsoft.com/visualstudio/ide/adding-visual-studio-editor-support-for-other-languages).  
-  
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.  
   
 ## Syntax colorization, statement completion, and Navigate To support  

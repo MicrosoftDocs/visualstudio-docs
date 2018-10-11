@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::put_registerValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::put_registerValue](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-put-registervalue).  
-  
 Sets the value of a register.  
   
 ## Syntax  

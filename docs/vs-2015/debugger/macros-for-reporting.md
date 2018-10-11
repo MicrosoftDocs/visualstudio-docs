@@ -33,8 +33,6 @@ manager: "ghogen"
 # Macros for Reporting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Macros for Reporting](https://docs.microsoft.com/visualstudio/debugger/macros-for-reporting).  
-  
 You can use the **_RPTn**, and **_RPTFn** macros, defined in CRTDBG.H, to replace the use of `printf` statements for debugging. These macros automatically disappear in your release build when **_DEBUG** is not defined, so there is no need to enclose them in **#ifdef**s.  
   
 |Macro|Description|  

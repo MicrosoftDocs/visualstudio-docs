@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: Building an Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Building an Application](https://docs.microsoft.com/visualstudio/ide/walkthrough-building-an-application).  
-  
 By completing this walkthrough, you’ll  become more familiar with several options that you can configure when you build applications with Visual Studio. You’ll create a custom build configuration, hide certain warning messages, and increase build output information, among other tasks, for a sample application.  
   
  This topic contains the following sections:  

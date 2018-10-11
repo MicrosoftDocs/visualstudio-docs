@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_ERROR_RESOLUTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_ERROR_RESOLUTION_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-error-resolution-info).  
-  
 Describes the resolution of an error breakpoint, including location, program, and thread.  
   
 ## Syntax  

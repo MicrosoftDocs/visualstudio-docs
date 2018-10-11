@@ -24,8 +24,6 @@ manager: "ghogen"
 # /Rebuild (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Rebuild (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/rebuild-devenv-exe).  
-  
   
 Cleans and then builds the specified solution configuration.  
   

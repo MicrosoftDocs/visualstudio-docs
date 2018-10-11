@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDebugMemoryBytes2::WriteAt
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMemoryBytes2::WriteAt](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmemorybytes2-writeat).  
-  
 Writes the specified number of bytes of memory, starting at the specified address.  
   
 ## Syntax  

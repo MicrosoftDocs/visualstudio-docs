@@ -28,8 +28,6 @@ manager: "ghogen"
 # Debugging Preparation: ASP.NET Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Preparation: ASP.NET Web Applications](https://docs.microsoft.com/visualstudio/debugger/debugging-preparation-aspnet-web-applications).  
-  
 The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]Web site template creates a Web Form application. When you create a Web site using this template, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] creates the default settings for debugging. In the **Project Properties** dialog box, you can specify whether you want the Web page to be a startup page. When you start debugging an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]Web Site with these default settings, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts Internet Explorer and attaches the debugger to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process (aspnet_wp.exe or w3wp.exe). For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
   
 ### To create a Web Forms application  

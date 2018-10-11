@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPort2::GetPortId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPort2::GetPortId](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugport2-getportid).  
-  
 Gets the port identifier.  
   
 ## Syntax  

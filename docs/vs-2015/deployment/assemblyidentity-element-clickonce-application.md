@@ -26,8 +26,6 @@ manager: "wpickett"
 # &lt;assemblyIdentity&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;assemblyIdentity&gt; Element (ClickOnce Application)](https://docs.microsoft.com/visualstudio/deployment/assemblyidentity-element-clickonce-application).  
-  
 Identifies the application deployed in a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
   
 ## Syntax  

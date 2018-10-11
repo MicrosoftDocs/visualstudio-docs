@@ -20,8 +20,6 @@ manager: "ghogen"
 # Launching a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Launching a Program](https://docs.microsoft.com/visualstudio/extensibility/debugger/launching-a-program).  
-  
 Users who want to debug a program can press F5 to run the debugger from the IDE. This begins a series of events that ultimately result in the IDE's connecting to a debug engine (DE), which is in turn connected, or attached, to the program as follows:  
   
 1.  The IDE first calls the project package to get the solution's active project debug settings. The settings include the starting directory, the environment variables, the port in which the program will run, and the DE to use to create the program, if specified. These settings are passed to the debug package.  

@@ -50,8 +50,6 @@ manager: "ghogen"
 # How to: Use Native Run-Time Checks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use Native Run-Time Checks](https://docs.microsoft.com/visualstudio/debugger/how-to-use-native-run-time-checks).  
-  
 In Visual C++, you can use native [runtime_checks](http://msdn.microsoft.com/library/ae50b43f-f88d-47ad-a2db-3389e9e7df5b) to catch common run-time errors such as:  
   
 -   Stack pointer corruption.  

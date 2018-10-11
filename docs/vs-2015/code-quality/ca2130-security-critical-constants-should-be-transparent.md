@@ -19,9 +19,6 @@ manager: "wpickett"
 ---
 # CA2130: Security critical constants should be transparent
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2130: Security critical constants should be transparent](https://docs.microsoft.com/visualstudio/code-quality/ca2130-security-critical-constants-should-be-transparent).
-
 |||
 |-|-|
 |TypeName|ConstantsShouldBeTransparent|

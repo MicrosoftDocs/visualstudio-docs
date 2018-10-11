@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugClassField::EnumBaseClasses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugClassField::EnumBaseClasses](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugclassfield-enumbaseclasses).  
-  
 Creates an enumerator for the base classes of this class.  
   
 ## Syntax  

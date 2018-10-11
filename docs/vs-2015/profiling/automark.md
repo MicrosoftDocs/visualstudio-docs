@@ -18,8 +18,6 @@ manager: "ghogen"
 # AutoMark
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AutoMark](https://docs.microsoft.com/visualstudio/profiling/automark).  
-  
 The **AutoMark** option specifies the number of milliseconds between the collection of Windows software performance counter events. Windows performance counters are specified in the **WinCounter** option.  
   
  Only one **AutoMark** option can be specified on the command line. Note that the **WinCounter** sampling interval specified by **AutoMark** is independent of the main sampling interval.  

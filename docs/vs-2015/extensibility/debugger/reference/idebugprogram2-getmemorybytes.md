@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::GetMemoryBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::GetMemoryBytes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-getmemorybytes).  
-  
 Retrieves the memory bytes occupied by the program.  
   
 ## Syntax  

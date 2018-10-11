@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::frameByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumFrameData::frameByRVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumframedata-framebyrva).  
-  
 Returns a frame by relative virtual address (RVA).  
   
 ## Syntax  

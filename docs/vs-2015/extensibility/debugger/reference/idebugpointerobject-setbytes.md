@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPointerObject::SetBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPointerObject::SetBytes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpointerobject-setbytes).  
-  
 Sets the value pointed to from a series of consecutive bytes.  
   
 ## Syntax  

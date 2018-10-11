@@ -26,8 +26,6 @@ manager: "ghogen"
 # Edit and Continue Not Supported for F# #
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit and Continue Not Supported for F#](https://docs.microsoft.com/visualstudio/debugger/edit-and-continue-not-supported-for-f-hash).  
-  
 Edit and Continue is not supported when you debug F# code. Edits to F# code are possible during a debugging session but should be avoided. Code changes are not applied during the debugging session. Therefore, any edits made to F# code while you debug will result in source code that does not match the code being debugged.
 
 

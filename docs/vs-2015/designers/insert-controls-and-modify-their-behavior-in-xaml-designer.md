@@ -18,8 +18,6 @@ manager: "ghogen"
 # Insert controls and modify their behavior in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Insert controls and modify their behavior in XAML Designer](https://docs.microsoft.com/visualstudio/designers/insert-controls-and-modify-their-behavior-in-xaml-designer).  
-  
 Controls enable users to interact with your app. You can use them to collect information and to perform actions such as animate an object or query a data source.  
   
  **In this topic:**  

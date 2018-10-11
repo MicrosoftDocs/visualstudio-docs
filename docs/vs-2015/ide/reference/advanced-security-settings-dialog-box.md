@@ -27,8 +27,6 @@ manager: "ghogen"
 # Advanced Security Settings Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Advanced Security Settings Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/advanced-security-settings-dialog-box).  
-  
   
 This dialog box allows you to specify security settings related to debugging in zone.  
   

@@ -20,8 +20,6 @@ manager: "ghogen"
 # Checklist: Creating a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Checklist: Creating a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/checklist-creating-a-legacy-language-service).  
-  
 The following checklist summarizes the basic steps you must take in order to create a language service for the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] core editor. To integrate your language service into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you must create a debug expression evaluator. For more information, see [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md) in the [Visual Studio Debugger Extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md).  
   
 ## Steps for Creating a Language Service  

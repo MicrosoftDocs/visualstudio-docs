@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::Clone
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSourceFiles::Clone](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsourcefiles-clone).  
-  
 Creates an enumerator that contains the same enumeration state as the current enumerator.  
   
 ## Syntax  

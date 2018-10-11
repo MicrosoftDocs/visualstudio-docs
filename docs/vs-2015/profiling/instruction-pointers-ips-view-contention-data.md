@@ -20,8 +20,6 @@ manager: "ghogen"
 # Instruction Pointers (IPs) View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Instruction Pointers (IPs) View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/instruction-pointers-ips-view-contention-data).  
-  
 The IPs view of contention data lists data for the assembly instructions that were blocked from executing in the profiling run.  
   
  The following table explains the values of the columns in the Instruction Pointers view.  

@@ -23,8 +23,6 @@ manager: "ghogen"
 # Log Command Window Output Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Log Command Window Output Command](https://docs.microsoft.com/visualstudio/ide/reference/log-command-window-output-command).  
-  
   
 Copies all input and output from the **Command** window into a file.  
   

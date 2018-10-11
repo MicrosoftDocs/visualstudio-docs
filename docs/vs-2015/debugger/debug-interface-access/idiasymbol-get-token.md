@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_token
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_token](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-token).  
-  
 Retrieves the metadata token of a managed function or variable.  
   
 ## Syntax  

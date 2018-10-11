@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugPropertyInfo2::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugPropertyInfo2::Skip](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugpropertyinfo2-skip).  
-  
 Skips over the specified number of elements.  
   
 ## Syntax  

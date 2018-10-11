@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_RESOLUTION_CODE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_RESOLUTION_CODE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-resolution-code).  
-  
 Describes the location of a code breakpoint.  
   
 ## Syntax  

@@ -18,8 +18,6 @@ manager: "wpickett"
 # Security Rules rule set for managed code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security Rules rule set for managed code](https://docs.microsoft.com/visualstudio/code-quality/security-rules-rule-set-for-managed-code).  
-  
 You should include the Microsoft Security Rules rule set to maximize the number of potential security issues that are reported.  
   
 |Rule|Description|  

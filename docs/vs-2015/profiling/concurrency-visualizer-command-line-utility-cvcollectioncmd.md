@@ -20,8 +20,6 @@ manager: "ghogen"
 # Concurrency Visualizer Command-Line Utility (CVCollectionCmd)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Concurrency Visualizer Command-Line Utility (CVCollectionCmd)](https://docs.microsoft.com/visualstudio/profiling/concurrency-visualizer-command-line-utility-cvcollectioncmd).  
-  
 You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio . The ools can be used on computers that do not have Visual Studio installed.  
   
 > [!NOTE]

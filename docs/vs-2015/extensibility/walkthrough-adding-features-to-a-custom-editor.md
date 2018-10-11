@@ -19,8 +19,6 @@ manager: "ghogen"
 # Walkthrough: Adding Features to a Custom Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Adding Features to a Custom Editor](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-adding-features-to-a-custom-editor).  
-  
 After you create a custom editor, you can add more features to it.  
   
 ### To create an editor for a VSPackage  

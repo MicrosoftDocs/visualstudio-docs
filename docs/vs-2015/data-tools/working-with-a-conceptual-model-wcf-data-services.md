@@ -25,8 +25,6 @@ manager: "ghogen"
 # Working with a Conceptual Model (WCF Data Services)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with a Conceptual Model (WCF Data Services)](https://docs.microsoft.com/visualstudio/data-tools/working-with-a-conceptual-model-wcf-data-services).  
-  
   
 When you use a conceptual model to describe the data in a database, you can query data through your objects instead of having to translate back and forth between a database schema and an object model.  
   

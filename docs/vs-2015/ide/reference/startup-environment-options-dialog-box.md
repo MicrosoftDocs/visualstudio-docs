@@ -20,8 +20,6 @@ manager: "ghogen"
 # Startup, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Startup, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/startup-environment-options-dialog-box).  
-  
   
 Use this page to customize the Visual Studio start page or set a different default action when Visual Studio starts up. For more information, see [Customizing the Start Page](../../ide/customizing-the-start-page-for-visual-studio.md).  
   

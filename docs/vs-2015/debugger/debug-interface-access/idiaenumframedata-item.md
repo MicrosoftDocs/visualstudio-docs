@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumFrameData::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumframedata-item).  
-  
 Retrieves a frame data element by means of an index.  
   
 ## Syntax  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_numberOfColumns
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_numberOfColumns](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-numberofcolumns).  
-  
 Retrieves the number of columns in the matrix.  
   
 ## Syntax  

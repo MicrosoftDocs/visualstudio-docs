@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugFunctionObject::CreateStringObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugFunctionObject::CreateStringObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfunctionobject-createstringobject).  
-  
 Creates a string object.  
   
 ## Syntax  

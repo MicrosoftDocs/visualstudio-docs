@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage::ReadDWORD
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaPropertyStorage::ReadDWORD](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiapropertystorage-readdword).  
-  
 Reads `DWORD` values in a property set.  
   
 ## Syntax  

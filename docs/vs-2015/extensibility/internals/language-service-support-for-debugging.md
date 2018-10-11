@@ -20,8 +20,6 @@ manager: "ghogen"
 # Language Service Support for Debugging
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Language Service Support for Debugging](https://docs.microsoft.com/visualstudio/extensibility/internals/language-service-support-for-debugging).  
-  
 A language service can provide features that support a debugger through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageDebugInfo> interface. These features include validating breakpoints and supplying a list of expressions to the **Autos** window.  
   
  However, you need to have an expression evaluator to debug your language. The expression evaluator is responsible for evaluating expressions to produce values while debugging. For information about implementing CLR expression evaluators, please see:  

@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2234: Pass System.Uri objects instead of strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2234: Pass System.Uri objects instead of strings](https://docs.microsoft.com/visualstudio/code-quality/ca2234-pass-system-uri-objects-instead-of-strings).
-
 |||
 |-|-|
 |TypeName|PassSystemUriObjectsInsteadOfStrings|

@@ -23,8 +23,6 @@ manager: "ghogen"
 # FormatVersion Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FormatVersion Task](https://docs.microsoft.com/visualstudio/msbuild/formatversion-task).  
-  
   
 Appends the revision number to the version number.  
   

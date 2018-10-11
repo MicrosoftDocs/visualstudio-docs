@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEEVisualizerService::GetCustomViewerCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEEVisualizerService::GetCustomViewerCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ieevisualizerservice-getcustomviewercount).  
-  
 This method gets the number of type visualizers available from this service.  
   
 ## Syntax  

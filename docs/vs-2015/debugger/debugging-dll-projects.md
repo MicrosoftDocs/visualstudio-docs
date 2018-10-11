@@ -28,8 +28,6 @@ manager: "ghogen"
 # Debugging DLL Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging DLL Projects](https://docs.microsoft.com/visualstudio/debugger/debugging-dll-projects).  
-  
 The following templates create DLLs:  
   
 -   (C++, C#, and Visual Basic) Class Library  

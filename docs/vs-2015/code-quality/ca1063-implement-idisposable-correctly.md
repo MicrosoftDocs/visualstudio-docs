@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1063: Implement IDisposable correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1063: Implement IDisposable correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1063-implement-idisposable-correctly).
-
 |||
 |-|-|
 |TypeName|ImplementIDisposableCorrectly|

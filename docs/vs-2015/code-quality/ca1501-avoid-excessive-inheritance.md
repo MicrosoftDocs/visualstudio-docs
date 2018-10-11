@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1501: Avoid excessive inheritance
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1501: Avoid excessive inheritance](https://docs.microsoft.com/visualstudio/code-quality/ca1501-avoid-excessive-inheritance).
-
 |||
 |-|-|
 |TypeName|AvoidExcessiveInheritance|

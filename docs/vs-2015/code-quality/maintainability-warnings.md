@@ -24,8 +24,6 @@ manager: "wpickett"
 # Maintainability Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Maintainability Warnings](https://docs.microsoft.com/visualstudio/code-quality/maintainability-warnings).  
-  
 Maintainability warnings support library and application maintenance.  
   
 ## In This Section  

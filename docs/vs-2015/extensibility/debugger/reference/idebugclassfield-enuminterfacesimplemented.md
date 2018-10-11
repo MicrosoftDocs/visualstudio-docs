@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugClassField::EnumInterfacesImplemented
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugClassField::EnumInterfacesImplemented](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugclassfield-enuminterfacesimplemented).  
-  
 Creates an enumerator for the interfaces implemented by this class.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2::GetProgramName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2::GetProgramName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2-getprogramname).  
-  
 Gets the name of the program.  
   
 ## Syntax  

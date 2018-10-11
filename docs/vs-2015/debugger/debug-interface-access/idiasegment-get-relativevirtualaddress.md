@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_relativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSegment::get_relativeVirtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasegment-get-relativevirtualaddress).  
-  
 Retrieves the relative virtual address (RVA) of the beginning of the section.  
   
 ## Syntax  

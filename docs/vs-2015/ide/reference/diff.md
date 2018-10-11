@@ -18,8 +18,6 @@ manager: "ghogen"
 # /Diff
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Diff](https://docs.microsoft.com/visualstudio/ide/reference/diff).  
-  
   
 Compares two files. The differences are displayed in a special Visual Studio window.  
   

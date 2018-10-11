@@ -49,9 +49,6 @@ manager: "ghogen"
 ---
 # Using Breakpoints
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Using breakpoints](https://docs.microsoft.com/visualstudio/debugger/using-breakpoints). 
-
 You can set breakpoints when you want to stop debugger execution, perhaps to see the state of code variables or to look at the call stack. They are one of the most important debugging techniques in a developer's toolbox.
   
 ##  <a name="BKMK_Overview"></a> Setting a function breakpoint in source code  

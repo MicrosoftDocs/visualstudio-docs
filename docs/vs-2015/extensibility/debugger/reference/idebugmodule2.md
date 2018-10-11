@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugModule2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugModule2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmodule2).  
-  
 This interface represents a module—that is, an executable unit of a program—such as a DLL.  
   
 ## Syntax  

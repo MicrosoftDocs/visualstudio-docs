@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2::CanAddPort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplier2::CanAddPort](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplier2-canaddport).  
-  
 Verifies that a port supplier can add new ports.  
   
 ## Syntax  

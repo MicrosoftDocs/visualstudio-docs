@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::LaunchSuspended
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEx2::LaunchSuspended](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportex2-launchsuspended).  
-  
 Launches an executable file.  
   
 ## Syntax  

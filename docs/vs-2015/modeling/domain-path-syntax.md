@@ -18,8 +18,6 @@ manager: "douge"
 # Domain Path Syntax
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Domain Path Syntax](https://docs.microsoft.com/visualstudio/modeling/domain-path-syntax).  
-  
 DSL Definitions use an XPath-like syntax to locate specific elements in a model.  
   
  Ordinarily you do not have to work with this syntax directly. Where it appears in DSL Details or Properties window, you can click the downward arrow and use the path editor. However, the path appears in this form in the field after you have used the editor.  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::Delete
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBoundBreakpoint2::Delete](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugboundbreakpoint2-delete).  
-  
 Deletes the breakpoint.  
   
 ## Syntax  

@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1402: Avoid overloads in COM visible interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1402: Avoid overloads in COM visible interfaces](https://docs.microsoft.com/visualstudio/code-quality/ca1402-avoid-overloads-in-com-visible-interfaces).
-
 |||
 |-|-|
 |TypeName|AvoidOverloadsInComVisibleInterfaces|

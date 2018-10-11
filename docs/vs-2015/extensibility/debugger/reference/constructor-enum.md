@@ -21,8 +21,6 @@ manager: "ghogen"
 # CONSTRUCTOR_ENUM
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CONSTRUCTOR_ENUM](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/constructor-enum).  
-  
 Selects different types of constructors.  
   
 ## Syntax  

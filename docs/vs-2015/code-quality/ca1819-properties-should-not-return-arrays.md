@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1819: Properties should not return arrays
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1819: Properties should not return arrays](https://docs.microsoft.com/visualstudio/code-quality/ca1819-properties-should-not-return-arrays).
-
 |||
 |-|-|
 |TypeName|PropertiesShouldNotReturnArrays|

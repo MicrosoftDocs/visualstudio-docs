@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_addressTaken
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_addressTaken](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-addresstaken).  
-  
 Retrieves a flag that indicates whether another symbol references this symbol's address.  
   
 ## Syntax  

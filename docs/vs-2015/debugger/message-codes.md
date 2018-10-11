@@ -20,8 +20,6 @@ manager: "ghogen"
 # Message Codes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Message Codes](https://docs.microsoft.com/visualstudio/debugger/message-codes).  
-  
 Each message line shown in [Messages View](../debugger/messages-view.md) contains a 'P,' 'S,' 's,' or 'R' code. These codes have the following meanings:  
   
 |Code|Meaning|  

@@ -18,8 +18,6 @@ manager: "ghogen"
 # Sorting, Filtering, and Grouping (XML Schema Explorer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sorting, Filtering, and Grouping (XML Schema Explorer)](https://docs.microsoft.com/visualstudio/xml-tools/sorting-filtering-and-grouping-xml-schema-explorer).  
-  
   
 This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the XML Schema Explorer toolbar.  
   

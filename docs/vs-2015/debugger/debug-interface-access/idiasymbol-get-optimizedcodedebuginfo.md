@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_optimizedCodeDebugInfo
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_optimizedCodeDebugInfo](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-optimizedcodedebuginfo).  
-  
 Retrieves a flag that indicates whether the function contains debug information that is specific for optimized code.  
   
 ## Syntax  

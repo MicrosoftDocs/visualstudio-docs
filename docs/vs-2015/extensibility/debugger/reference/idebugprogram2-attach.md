@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::Attach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-attach).  
-  
 Attaches to the program.  
   
 ## Syntax  

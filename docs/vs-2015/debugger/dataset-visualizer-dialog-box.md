@@ -34,8 +34,6 @@ manager: "ghogen"
 # Dataset Visualizer Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Dataset Visualizer Dialog Box](https://docs.microsoft.com/visualstudio/debugger/dataset-visualizer-dialog-box).  
-  
 The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. You can access this visualizer by clicking on the magnifying glass icon that appears next to the Value for one of those objects in a debugger variables window or in a DataTip.  
   
  You can make changes to the objects in this visualizer. Changes will be saved as soon as you commit a row.  

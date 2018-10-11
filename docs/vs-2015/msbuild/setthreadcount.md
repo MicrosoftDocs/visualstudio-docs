@@ -26,8 +26,6 @@ manager: "ghogen"
 # SetThreadCount
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SetThreadCount](https://docs.microsoft.com/visualstudio/msbuild/setthreadcount).  
-  
   
 Sets the global thread count, and assigns that count to the current thread.  
   

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::TerminateProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEx2::TerminateProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportex2-terminateprocess).  
-  
 Terminates a process.  
   
 ## Syntax  

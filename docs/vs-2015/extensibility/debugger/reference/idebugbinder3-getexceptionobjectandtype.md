@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBinder3::GetExceptionObjectAndType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBinder3::GetExceptionObjectAndType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbinder3-getexceptionobjectandtype).  
-  
 This method retrieves the exception associated with an object, if any.  
   
 ## Syntax  

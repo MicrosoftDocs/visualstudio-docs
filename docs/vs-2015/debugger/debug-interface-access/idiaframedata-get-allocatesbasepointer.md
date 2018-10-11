@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_allocatesBasePointer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_allocatesBasePointer](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-allocatesbasepointer).  
-  
 Retrieves a flag that indicates whether the base pointer is allocated for code in this address range. This method is deprecated.  
   
 ## Syntax  

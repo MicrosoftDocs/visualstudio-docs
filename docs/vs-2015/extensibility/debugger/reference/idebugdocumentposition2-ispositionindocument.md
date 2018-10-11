@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentPosition2::IsPositionInDocument
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentPosition2::IsPositionInDocument](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentposition2-ispositionindocument).  
-  
 Determines if the document position is contained in the given document.  
   
 ## Syntax  

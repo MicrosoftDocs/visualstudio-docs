@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugContainerField::EnumFields
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugContainerField::EnumFields](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcontainerfield-enumfields).  
-  
 Creates an enumerator for the fields of the container.  
   
 ## Syntax  

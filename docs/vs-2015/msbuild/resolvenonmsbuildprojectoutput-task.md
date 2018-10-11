@@ -26,8 +26,6 @@ manager: "ghogen"
 # ResolveNonMSBuildProjectOutput Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ResolveNonMSBuildProjectOutput Task](https://docs.microsoft.com/visualstudio/msbuild/resolvenonmsbuildprojectoutput-task).  
-  
   
 Determines the output files for non-MSBuild project references.  
   

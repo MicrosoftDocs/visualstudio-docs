@@ -24,8 +24,6 @@ manager: "ghogen"
 # Using the Profiling Tools From the Command-Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using the Profiling Tools From the Command-Line](https://docs.microsoft.com/visualstudio/profiling/using-the-profiling-tools-from-the-command-line).  
-  
 You can use the command-line tools of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools to profile applications at the command prompt and to automate profiling by using batch files and scripting. You can also generate report files at a command prompt. You can use the lightweight stand-alone profiler to collect data on computers that do not have [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installed.  
   
 > [!NOTE]

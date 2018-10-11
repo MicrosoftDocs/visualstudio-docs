@@ -34,8 +34,6 @@ manager: "ghogen"
 # Choose Breakpoints Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Choose Breakpoints Dialog Box](https://docs.microsoft.com/visualstudio/debugger/choose-breakpoints-dialog-box).  
-  
 The **Choose Breakpoints** dialog box opens when you try to set a breakpoint from ambiguous input in the **New Breakpoint** dialog box. A common example of ambiguous input is an overloaded function name.  
   
  **Breakpoints**  

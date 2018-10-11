@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugArrayField::GetNumberOfElements
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayField::GetNumberOfElements](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayfield-getnumberofelements).  
-  
 Gets the number of elements in the array.  
   
 ## Syntax  

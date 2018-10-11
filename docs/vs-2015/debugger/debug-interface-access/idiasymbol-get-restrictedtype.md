@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_restrictedType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_restrictedType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-restrictedtype).  
-  
 Specifies whether the `this` pointer is flagged as restricted.  
   
 ## Syntax  

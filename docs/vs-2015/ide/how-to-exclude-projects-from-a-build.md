@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Exclude Projects from a Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Exclude Projects from a Build](https://docs.microsoft.com/visualstudio/ide/how-to-exclude-projects-from-a-build).  
-  
 You can build a solution without building all projects that it contains. For example, you might exclude a project that breaks the build. You could then build the project after you investigate and address the issues.  
   
  You can exclude a project by taking the following approaches:  

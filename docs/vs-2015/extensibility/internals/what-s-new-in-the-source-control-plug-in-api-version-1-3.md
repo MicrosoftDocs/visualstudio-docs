@@ -20,8 +20,6 @@ manager: "ghogen"
 # What&#39;s New in the Source Control Plug-in API Version 1.3
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [What&#39;s New in the Source Control Plug-in API Version 1.3](https://docs.microsoft.com/visualstudio/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-3).  
-  
 The Source Control Plug-in API version 1.3 introduces the following new functions to provide more advanced control.  
   
 ## Changes  

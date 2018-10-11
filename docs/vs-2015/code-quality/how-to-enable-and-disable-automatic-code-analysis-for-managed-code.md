@@ -18,8 +18,6 @@ manager: "wpickett"
 # How to: Enable and Disable Automatic Code Analysis for Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Enable and Disable Automatic Code Analysis for Managed Code](https://docs.microsoft.com/visualstudio/code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code).  
-  
 You can configure Code Analysis to run before each build of a managed code project. You can set different Code Analysis properties for each [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] configuration.  
   
 ### To enable or disable automatic code analysis  

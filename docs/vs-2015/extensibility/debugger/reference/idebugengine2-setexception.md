@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::SetException
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::SetException](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-setexception).  
-  
 Specifies how the debug engine (DE) should handle a given exception.  
   
 ## Syntax  

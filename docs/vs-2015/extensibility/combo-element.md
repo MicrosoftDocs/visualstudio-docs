@@ -20,8 +20,6 @@ manager: "ghogen"
 # Combo Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Combo Element](https://docs.microsoft.com/visualstudio/extensibility/combo-element).  
-  
 Defines commands that appear in a combo box. There are four kinds of combo boxes, as follows: DropDownCombo, DynamicCombo, IndexCombo, and MRUCombo.  
   
 ## Syntax  

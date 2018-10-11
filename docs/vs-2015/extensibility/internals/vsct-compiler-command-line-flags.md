@@ -20,8 +20,6 @@ manager: "ghogen"
 # VSCT Compiler Command-Line Flags
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSCT Compiler Command-Line Flags](https://docs.microsoft.com/visualstudio/extensibility/internals/vsct-compiler-command-line-flags).  
-  
 The Visual Studio Command Table (VSCT) compiler provides command-line switches to ensure successful compilation of .vsct files.  
   
 ## Command Line Parameters  

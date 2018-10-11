@@ -18,8 +18,6 @@ manager: "ghogen"
 # Work with multiple user accounts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Work with multiple user accounts](https://docs.microsoft.com/visualstudio/ide/work-with-multiple-user-accounts).  
-  
 If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. As of the Visual Studio 2015 RTM date, Azure, Application Insights, Team Foundation Server, and Office 365 services support the streamlined sign-in experience. Additional services may become available as time goes by.  
   
  After you add multiple accounts on one machine, that set of accounts will roam with you if you sign in to Visual Studio on another machine. It is important to note that, although the account names roam, the credentials do not. Therefore, you will be prompted to enter credentials for those other accounts the first time you attempt to use their resources on the new machine.  

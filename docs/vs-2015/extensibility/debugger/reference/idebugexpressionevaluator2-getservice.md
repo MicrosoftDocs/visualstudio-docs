@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::GetService
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator2::GetService](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator2-getservice).  
-  
 Retrieves a service object given its unique identifier.  
   
 ## Syntax  

@@ -26,8 +26,6 @@ manager: "ghogen"
 # Save data by using a transaction
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Save data by using a transaction](https://docs.microsoft.com/visualstudio/data-tools/save-data-by-using-a-transaction).  
-  
   
 You save data in a transaction by using the <xref:System.Transactions> namespace. Use the <xref:System.Transactions.TransactionScope> object to participate in a transaction that is automatically managed for you.  
   

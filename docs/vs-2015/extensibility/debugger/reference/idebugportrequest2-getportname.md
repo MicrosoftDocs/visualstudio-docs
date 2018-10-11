@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortRequest2::GetPortName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortRequest2::GetPortName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportrequest2-getportname).  
-  
 Gets the name of the port.  
   
 ## Syntax  

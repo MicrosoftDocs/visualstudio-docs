@@ -30,8 +30,6 @@ manager: "ghogen"
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [A DCOM error occurred trying to contact the remote computer. Access is denied.](https://docs.microsoft.com/visualstudio/debugger/a-dcom-error-occurred-trying-to-contact-the-remote-computer-access-is-denied).  
-  
 Remote debugging uses DCOM to communicate between the local and remote computers in the following situations:  
   
 -   The debugger is set to **Native Compatibility Mode** or **Managed Compatibility Mode** is checked in the **Tools / Options / Debugging** page  

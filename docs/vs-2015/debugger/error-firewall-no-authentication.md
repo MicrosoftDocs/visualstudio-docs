@@ -25,8 +25,6 @@ manager: "ghogen"
 # Error: Firewall No Authentication
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Firewall No Authentication](https://docs.microsoft.com/visualstudio/debugger/error-firewall-no-authentication).  
-  
 The Internet Connection Firewall on the remote machine is not set up to allow remote debugging. For remote debugging with `No Authentication`, msvsmon.exe must be added to the exceptions list. Opening some IPSEC ports may be necessary as well.  
   
 > [!NOTE]

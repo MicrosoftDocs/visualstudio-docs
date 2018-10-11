@@ -20,8 +20,6 @@ manager: "ghogen"
 # When a Breakpoint Binds or Becomes Unbound
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [When a Breakpoint Binds or Becomes Unbound](https://docs.microsoft.com/visualstudio/extensibility/debugger/when-a-breakpoint-binds-or-becomes-unbound).  
-  
 When a breakpoint cannot be bound at the time a call is made to the [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md) method, the bind time and create time of the breakpoint are different.  
   
 ## Methods Called  

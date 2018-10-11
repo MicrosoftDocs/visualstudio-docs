@@ -26,8 +26,6 @@ manager: "ghogen"
 # Process View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Process View](https://docs.microsoft.com/visualstudio/profiling/process-view).  
-  
 The Process view displays profiling data for the processes and threads that were executed during the profiling run.  
   
  Processes are listed by name. Threads are listed as child nodes of the process that created them. Threads are named by the function that started the thread or by the label **[ntdll.dll]** if no symbols are available.  

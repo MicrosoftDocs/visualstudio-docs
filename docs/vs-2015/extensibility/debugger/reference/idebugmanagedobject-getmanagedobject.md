@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugManagedObject::GetManagedObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugManagedObject::GetManagedObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmanagedobject-getmanagedobject).  
-  
 Returns an interface that represents the managed object.  
   
 ## Syntax  

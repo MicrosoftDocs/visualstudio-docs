@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Collect Line-Level Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Collect Line-Level Sampling Data](https://docs.microsoft.com/visualstudio/profiling/how-to-collect-line-level-sampling-data).  
-  
 Line-level sampling is the ability of the profiler to determine where in the code of a processor-intensive function, such as a function that has high exclusive samples, the processor has to spend most of its time.  
   
 ## Overview  

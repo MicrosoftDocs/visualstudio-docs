@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_InlSpec
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_InlSpec](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-inlspec).  
-  
 This function retrieves a flag indicating whether the function was marked as inline (using one of the [inline, __inline, \__forceinline](../../misc/inline-inline-forceinline.md) attributes).  
   
 ## Syntax  

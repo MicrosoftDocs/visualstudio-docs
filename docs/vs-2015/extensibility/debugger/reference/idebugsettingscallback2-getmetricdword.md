@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetMetricDword
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2::GetMetricDword](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2-getmetricdword).  
-  
 Retrieves the value of a metric given its name.  
   
 ## Syntax  

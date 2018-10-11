@@ -19,8 +19,6 @@ manager: "ghogen"
 # Legacy Language Service Features
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Features2](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-features2).  
-  
 The following topics list some of the legacy language service features you can provide.  
   
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md).  

@@ -26,8 +26,6 @@ manager: "ghogen"
 # Save data to a database (multiple tables)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Save data to a database (multiple tables)](https://docs.microsoft.com/visualstudio/data-tools/save-data-to-a-database-multiple-tables).  
-  
   
 One of the most common scenarios in application development is to display data on a form in a Windows application, edit the data, and send the updated data back to the database. This walkthrough creates a form that displays data from two related tables and shows how to edit records and save changes back to the database. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   

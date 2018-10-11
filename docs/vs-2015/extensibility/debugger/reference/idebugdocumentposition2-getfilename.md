@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentPosition2::GetFileName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentPosition2::GetFileName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentposition2-getfilename).  
-  
 Gets the file name of the source file that contains the document position.  
   
 ## Syntax  

@@ -17,8 +17,6 @@ manager: "ghogen"
 # Animations for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Animations for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/animations-for-visual-studio).  
-  
 ## Animation fundamentals  
   
 ### Animation best practices in Visual Studio  

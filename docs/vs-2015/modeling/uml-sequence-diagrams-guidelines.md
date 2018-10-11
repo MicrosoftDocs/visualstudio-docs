@@ -30,8 +30,6 @@ manager: "douge"
 # UML Sequence Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Sequence Diagrams: Guidelines](https://docs.microsoft.com/visualstudio/modeling/uml-sequence-diagrams-guidelines).  
-  
 In Visual Studio, you can draw a *sequence diagram* to show an interaction. An interaction is a sequence of messages between typical instances of classes, components, subsystems, or actors.  
   
  UML sequence diagrams are part of a UML model and exist only within UML modeling projects. To create a UML sequence diagram, on the **Architecture** menu, click **New UML or Layer Diagram**. Find out more about [UML sequence diagram elements](../modeling/uml-sequence-diagrams-reference.md) or [UML modeling diagrams](../modeling/edit-uml-models-and-diagrams.md) in general. For a video demonstration, see [Sketching Interactions by using Sequence Diagrams (2010)](http://channel9.msdn.com/Blogs/clinted/UML-with-VS-2010-Part-7-Sketching-Interactions-with-Sequence-Diagrams).  

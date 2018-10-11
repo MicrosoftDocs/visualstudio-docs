@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1010: Collections should implement generic interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1010: Collections should implement generic interface](https://docs.microsoft.com/visualstudio/code-quality/ca1010-collections-should-implement-generic-interface).
-
 |||
 |-|-|
 |TypeName|CollectionsShouldImplementGenericInterface|

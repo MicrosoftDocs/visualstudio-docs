@@ -16,8 +16,6 @@ manager: "douge"
 # How to ... with Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to ... with Text Templates](https://docs.microsoft.com/visualstudio/modeling/how-to-dot-dot-dot-with-text-templates).  
-  
 Text templates in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I …?" questions.  
   
  In this topic, multiple answers that are preceded by bullets are alternative suggestions.  

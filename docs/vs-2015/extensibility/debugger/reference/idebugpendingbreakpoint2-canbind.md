@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::CanBind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2::CanBind](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2-canbind).  
-  
 Determines whether this pending breakpoint can bind to a code location.  
   
 ## Syntax  

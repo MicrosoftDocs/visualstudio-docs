@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointUnboundEvent2::GetBreakpoint](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointunboundevent2-getbreakpoint).  
-  
 Gets the breakpoint that became unbound.  
   
 ## Syntax  

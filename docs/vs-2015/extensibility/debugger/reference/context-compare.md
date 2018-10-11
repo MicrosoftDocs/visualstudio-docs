@@ -21,8 +21,6 @@ manager: "ghogen"
 # CONTEXT_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CONTEXT_COMPARE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/context-compare).  
-  
 Specifies the criteria for comparing two memory contexts.  
   
 ## Syntax  

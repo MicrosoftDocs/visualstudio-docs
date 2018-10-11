@@ -23,8 +23,6 @@ manager: "ghogen"
 # Item Metadata in Task Batching
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Item Metadata in Task Batching](https://docs.microsoft.com/visualstudio/msbuild/item-metadata-in-task-batching).  
-  
   
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a task one time with each batch. It can be confusing to understand exactly what items are being passed with which batch. This topic covers the following common scenarios that involve batching.  
   

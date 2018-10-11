@@ -22,8 +22,6 @@ manager: "ghogen"
 # marker_series::write_alert Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [marker_series::write_alert Method](https://docs.microsoft.com/visualstudio/profiling/marker-series-write-alert-method).  
-  
 Writes an alert to the Concurrency Visualizer trace file.  
   
 ## Syntax  

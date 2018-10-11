@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugObject::IsReadOnly
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::IsReadOnly](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-isreadonly).  
-  
 Determines if this object is read-only.  
   
 ## Syntax  

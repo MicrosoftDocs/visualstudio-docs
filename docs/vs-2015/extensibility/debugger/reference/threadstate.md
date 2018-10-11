@@ -21,8 +21,6 @@ manager: "ghogen"
 # THREADSTATE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [THREADSTATE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/threadstate).  
-  
 Specifies the state of the thread.  
   
 ## Syntax  

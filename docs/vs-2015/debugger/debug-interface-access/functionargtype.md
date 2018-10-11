@@ -22,8 +22,6 @@ manager: "ghogen"
 # FunctionArgType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FunctionArgType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/functionargtype).  
-  
 Each parameter of a function is identified by a `SymTagFunctionArgType` symbol.  
   
 ## Properties  

@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1041: Provide ObsoleteAttribute message
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1041: Provide ObsoleteAttribute message](https://docs.microsoft.com/visualstudio/code-quality/ca1041-provide-obsoleteattribute-message).
-
 |||
 |-|-|
 |TypeName|ProvideObsoleteAttributeMessage|

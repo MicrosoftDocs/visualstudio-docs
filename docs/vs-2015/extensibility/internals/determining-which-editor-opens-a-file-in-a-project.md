@@ -22,8 +22,6 @@ manager: "ghogen"
 # Determining Which Editor Opens a File in a Project
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Determining Which Editor Opens a File in a Project](https://docs.microsoft.com/visualstudio/extensibility/internals/determining-which-editor-opens-a-file-in-a-project).  
-  
 When a user opens a file in a project, the environment goes through a polling process, eventually opening the appropriate editor or designer for that file. The initial procedure employed by the environment is the same for both standard and custom editors. The environment uses a variety of criteria when polling which editor to use to open a file and the VSPackage must coordinate with the environment during this process.  
   
  For example, when a user selects the **Open** command from the **File** menu, and then chooses `filename`.rtf (or any other file with a .rtf extension), the environment calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> implementation for each project, eventually cycling through all project instances in the solution. Projects return a set of flags that identify claims on a document by priority. Using the highest priority, the environment calls the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method. For further information on the polling process, [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).  

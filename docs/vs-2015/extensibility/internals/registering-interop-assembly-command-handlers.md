@@ -20,8 +20,6 @@ manager: "ghogen"
 # Registering Interop Assembly Command Handlers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering Interop Assembly Command Handlers](https://docs.microsoft.com/visualstudio/extensibility/internals/registering-interop-assembly-command-handlers).  
-  
 A VSPackage must register with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] so that the integrated development environment (IDE) routes its commands properly.  
   
  The registry can be updated either by manual editing or by using a Registrar (.rgs) file. For more information, see [Creating Registrar Scripts](http://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35).  

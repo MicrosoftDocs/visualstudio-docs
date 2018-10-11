@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_size
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_size](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-size).  
-  
 Retrieves the size of the stack frame in bytes.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage::ReadULONGLONG
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaPropertyStorage::ReadULONGLONG](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiapropertystorage-readulonglong).  
-  
 Reads `ULONGLONG` values in a property set.  
   
 ## Syntax  

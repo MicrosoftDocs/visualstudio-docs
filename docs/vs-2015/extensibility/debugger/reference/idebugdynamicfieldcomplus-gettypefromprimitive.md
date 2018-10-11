@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdynamicfieldcomplus-gettypefromprimitive).  
-  
 Retrieves a type given its primitive type.  
   
 ## Syntax  

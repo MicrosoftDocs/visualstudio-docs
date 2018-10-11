@@ -18,8 +18,6 @@ manager: "douge"
 # Add custom architecture validation to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add custom architecture validation to dependency diagrams](https://docs.microsoft.com/visualstudio/modeling/add-custom-architecture-validation-to-layer-diagrams).  
-  
 In Visual Studio, users can validate the source code in a project against a layer model so that they can verify that the source code conforms to the dependencies on a layer diagram. There is a standard validation algorithm, but you can define your own validation extensions.  
   
  When the user selects the **Validate Architecture** command on a layer diagram, the standard validation method is invoked, followed by any validation extensions that have been installed.  

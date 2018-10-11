@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccGetExtendedCapabilities Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccGetExtendedCapabilities Function](https://docs.microsoft.com/visualstudio/extensibility/sccgetextendedcapabilities-function).  
-  
 This function returns additional capabilities supported by the source control plug-in.  
   
 ## Syntax  

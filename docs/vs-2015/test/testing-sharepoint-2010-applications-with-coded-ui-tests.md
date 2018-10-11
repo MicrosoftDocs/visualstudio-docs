@@ -17,8 +17,6 @@ manager: "douge"
 # Testing SharePoint 2010 Applications with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Testing SharePoint 2010 Applications with Coded UI Tests](https://docs.microsoft.com/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests).  
-  
 Including coded UI tests in a SharePoint application lets you verify that the whole application, including its UI controls, is functioning correctly. Coded UI tests can also validate values and logic in the user interface.  
   
  **Requirements**  

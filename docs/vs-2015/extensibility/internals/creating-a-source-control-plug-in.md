@@ -21,8 +21,6 @@ manager: "ghogen"
 # Creating a Source Control Plug-in
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Source Control Plug-in](https://docs.microsoft.com/visualstudio/extensibility/internals/creating-a-source-control-plug-in).  
-  
 The Visual Studio SDK provides resources that enable you to add source control capability to the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). It lets you use any plug-in DLL that complies with the Source Control Plug-in API outlined in this documentation.  
   
 ## In This Section  

@@ -28,8 +28,6 @@ manager: "wpickett"
 # How to: Re-sign Application and Deployment Manifests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Re-sign Application and Deployment Manifests](https://docs.microsoft.com/visualstudio/deployment/how-to-re-sign-application-and-deployment-manifests).  
-  
 After you make changes to deployment properties in the application manifest for Windows Forms applications, Windows Presentation Foundation applications (xbap), or Office solutions, you must re-sign both the application and deployment manifests with a certificate. This process helps ensure that tampered files are not installed on end user computers.  
   
  Another scenario where you might re-sign the manifests is when your customers want to sign the application and deployment manifests with their own certificate.  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_sizeInUdt
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_sizeInUdt](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-sizeinudt).  
-  
 Retrieves the size of a member of a user-defined type.  
   
 ## Syntax  

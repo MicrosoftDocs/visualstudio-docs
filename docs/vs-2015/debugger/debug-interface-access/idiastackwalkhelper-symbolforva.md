@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::symbolForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::symbolForVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-symbolforva).  
-  
 Retrieves the symbol that contains the specified virtual address.  
   
 ## Syntax  

@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1504: Review misleading field names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1504: Review misleading field names](https://docs.microsoft.com/visualstudio/code-quality/ca1504-review-misleading-field-names).
-
 |||
 |-|-|
 |TypeName|ReviewMisleadingFieldNames|

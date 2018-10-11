@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::SetIDebugIDECallback
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator2::SetIDebugIDECallback](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator2-setidebugidecallback).  
-  
 Enables a debug engine to pass a callback to the expression evaluator during initialization.  
   
 ## Syntax  

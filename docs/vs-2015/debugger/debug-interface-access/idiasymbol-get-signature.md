@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_signature
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_signature](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-signature).  
-  
 Retrieves the symbol's signature value.  
   
 ## Syntax  

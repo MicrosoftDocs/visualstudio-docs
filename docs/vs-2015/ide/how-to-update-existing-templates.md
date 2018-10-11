@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Update Existing Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Update Existing Templates](https://docs.microsoft.com/visualstudio/ide/how-to-update-existing-templates).  
-  
 After you create a template and compress the files into a .zip file, you may want to modify the template. You can do this by manually changing the files in the template, or by exporting a new template from a project that is based on the template.  
   
 ## Using the Export Template Wizard to Update an Existing Template  

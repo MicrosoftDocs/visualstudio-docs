@@ -27,8 +27,6 @@ manager: "ghogen"
 # Using DebuggerTypeProxy Attribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using DebuggerTypeProxy Attribute](https://docs.microsoft.com/visualstudio/debugger/using-debuggertypeproxy-attribute).  
-  
 DebuggerTypeProxyAttribute](assetId:///T:System.Diagnostics.DebuggerTypeProxyAttribute?qualifyHint=False&autoUpgrade=True) specifies a proxy, or stand-in, for a type and changes the way the type is displayed in debugger windows. When you view a variable that has a proxy, the proxy stands in for the original type in the **display**. The debugger variable window displays only the public members of the proxy type. Private members are not displayed.  
   
  This attribute can be applied to:  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # DEBUG_REASON
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DEBUG_REASON](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/debug-reason).  
-  
 Specifies why the process was launched for debugging.  
   
 ## Syntax  

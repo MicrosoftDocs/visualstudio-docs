@@ -20,8 +20,6 @@ manager: "douge"
 # Validate your system during development
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Validate your system during development](https://docs.microsoft.com/visualstudio/modeling/validate-your-system-during-development).  
-  
 Visual Studio can help keep your software consistent with the users' requirements and with the architecture of your system.  
   
  To see which versions of Visual Studio support each of these features, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  

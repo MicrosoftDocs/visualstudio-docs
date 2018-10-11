@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugMethodField::EnumStaticLocals
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMethodField::EnumStaticLocals](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmethodfield-enumstaticlocals).  
-  
 Creates an enumerator for static local variables of the method.  
   
 ## Syntax  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # Search Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Search Menu Commands](https://docs.microsoft.com/visualstudio/debugger/search-menu-commands).  
-  
 The **Search** menu provides commands to search for specific windows.  
   
  **Find Window/Process/Thread/Message**  

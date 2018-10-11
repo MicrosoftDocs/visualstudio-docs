@@ -18,8 +18,6 @@ manager: "ghogen"
 # Editing XSLT Style Sheets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Editing XSLT Style Sheets](https://docs.microsoft.com/visualstudio/xml-tools/editing-xslt-style-sheets).  
-  
   
 The XML Editor can also be used to edit XSLT style sheets. You can take advantage of the default Editor features such as IntelliSense, outlining, XML snippets, and so on. In addition, there are also new features that make it easier to develop in XSLT.  
   

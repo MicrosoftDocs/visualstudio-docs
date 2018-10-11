@@ -18,8 +18,6 @@ manager: "douge"
 # Navigate relationships with the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigate relationships with the UML API](https://docs.microsoft.com/visualstudio/modeling/navigate-relationships-with-the-uml-api).  
-  
 A model consists of elements linked together by different kinds of relationships. This topic describes how to navigate the model in program code.  
   
 ## Traversing Relationships  

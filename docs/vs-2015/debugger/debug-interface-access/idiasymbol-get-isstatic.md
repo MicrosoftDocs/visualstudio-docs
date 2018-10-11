@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isStatic
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isStatic](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-isstatic).  
-  
 Retrieves a flag that specifies whether the function or thunk layer has been marked as static.  
   
 ## Syntax  

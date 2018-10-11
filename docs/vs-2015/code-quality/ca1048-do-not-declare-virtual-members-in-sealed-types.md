@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1048: Do not declare virtual members in sealed types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1048: Do not declare virtual members in sealed types](https://docs.microsoft.com/visualstudio/code-quality/ca1048-do-not-declare-virtual-members-in-sealed-types).
-
 |||
 |-|-|
 |TypeName|DoNotDeclareVirtualMembersInSealedTypes|

@@ -32,8 +32,6 @@ manager: "ghogen"
 # Edit and Continue
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit and Continue](https://docs.microsoft.com/visualstudio/debugger/edit-and-continue).  
-  
 Edit and Continue is a time-saving feature that enables you to make changes to your source code while your program is in break mode. When you resume execution of the program by choosing an execution command like **Continue** or **Step**, Edit and Continue automatically applies the code changes with some limitations. This allows you to make changes to your code during a debugging session, instead of having to stop, recompile your entire program, and restart the debugging session.  
   
  This section includes the following topics:  

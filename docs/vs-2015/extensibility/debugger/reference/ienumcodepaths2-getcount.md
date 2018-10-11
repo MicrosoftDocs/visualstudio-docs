@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumCodePaths2::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumCodePaths2::GetCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumcodepaths2-getcount).  
-  
 Returns the number of elements in the enumeration.  
   
 ## Syntax  

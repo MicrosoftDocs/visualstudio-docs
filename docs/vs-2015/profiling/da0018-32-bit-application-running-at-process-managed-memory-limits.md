@@ -22,8 +22,6 @@ manager: "ghogen"
 # DA0018: 32-bit Application running at process managed memory limits
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0018: 32-bit Application running at process managed memory limits](https://docs.microsoft.com/visualstudio/profiling/da0018-32-bit-application-running-at-process-managed-memory-limits).  
-  
 Rule Id|DA0018|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Sampling|  

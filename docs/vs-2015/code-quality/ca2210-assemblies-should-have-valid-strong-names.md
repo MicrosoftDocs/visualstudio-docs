@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2210: Assemblies should have valid strong names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2210: Assemblies should have valid strong names](https://docs.microsoft.com/visualstudio/code-quality/ca2210-assemblies-should-have-valid-strong-names).
-
 |||
 |-|-|
 |TypeName|AssembliesShouldHaveValidStrongNames|

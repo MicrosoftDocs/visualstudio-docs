@@ -21,8 +21,6 @@ manager: "ghogen"
 # MODULE_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MODULE_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/module-flags).  
-  
 Used to describe a module.  
   
 ## Syntax  

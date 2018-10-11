@@ -21,8 +21,6 @@ manager: "ghogen"
 # Member Completion in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Member Completion in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/member-completion-in-a-legacy-language-service).  
-  
 The IntelliSense Member Completion is a tool tip that displays a list of possible members of a particular scope such as a class, structure, enumeration, or namespace. For example, in C#, if the user types "this" followed by a period, a list of all members of the class or structure at the current scope is presented in a list from which the user can select.  
   
  The managed package framework (MPF) provides support for the tool tip and managing the list in the tool tip; all that is needed is cooperation from the parser to supply the data that appears in the list.  

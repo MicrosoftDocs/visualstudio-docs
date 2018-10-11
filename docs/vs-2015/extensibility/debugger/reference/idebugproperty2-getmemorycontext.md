@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::GetMemoryContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-getmemorycontext).  
-  
 Gets the memory context of the property value.  
   
 ## Syntax  

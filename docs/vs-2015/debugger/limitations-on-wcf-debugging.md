@@ -26,8 +26,6 @@ manager: "ghogen"
 # Limitations on WCF Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Limitations on WCF Debugging](https://docs.microsoft.com/visualstudio/debugger/limitations-on-wcf-debugging).  
-  
 There are three ways that you can begin debugging a WCF service:  
   
 -   You are debugging a client process that calls a service. The debugger steps into the service. The service does not have to be in the same solution as your client application.  

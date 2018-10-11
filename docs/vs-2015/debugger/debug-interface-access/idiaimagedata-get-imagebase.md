@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaImageData::get_imageBase
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaImageData::get_imageBase](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaimagedata-get-imagebase).  
-  
 Retrieves the memory location where the image should be based.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # Summary View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Summary View - Sampling Data](https://docs.microsoft.com/visualstudio/profiling/summary-view-sampling-data).  
-  
 The Summary view displays information about the most performance-expensive functions in a profiling run. For more information, including a description of the Notification Links and Report lists, see [Summary View](../profiling/summary-view.md).  
   
 > [!NOTE]

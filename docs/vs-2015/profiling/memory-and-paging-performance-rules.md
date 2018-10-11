@@ -18,8 +18,6 @@ manager: "ghogen"
 # Memory and Paging Performance Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Memory and Paging Performance Rules](https://docs.microsoft.com/visualstudio/profiling/memory-and-paging-performance-rules).  
-  
 Performance rules in the memory and paging category identify paging activity in a profiling run that can impact application performance and responsiveness.  
   
 |||  

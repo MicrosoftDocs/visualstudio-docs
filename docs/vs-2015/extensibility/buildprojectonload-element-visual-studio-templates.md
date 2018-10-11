@@ -17,8 +17,6 @@ manager: "ghogen"
 # BuildProjectOnload Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BuildProjectOnload Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/buildprojectonload-element-visual-studio-templates).  
-  
 Builds only new projects as you create and add them to a solution. The entire solution isn’t built.  
   
  \<VSTemplate>  

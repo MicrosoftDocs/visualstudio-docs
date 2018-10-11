@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccHistory Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccHistory Function](https://docs.microsoft.com/visualstudio/extensibility/scchistory-function).  
-  
 This function displays the history of the specified files.  
   
 ## Syntax  

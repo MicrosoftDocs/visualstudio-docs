@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugGenericParamField::GetNameOfFormalParam
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericParamField::GetNameOfFormalParam](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericparamfield-getnameofformalparam).  
-  
 Retrieves the name of this generic parameter.  
   
 ## Syntax  

@@ -29,8 +29,6 @@ manager: "wpickett"
 # Application Deployment Prerequisites
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Application Deployment Prerequisites](https://docs.microsoft.com/visualstudio/deployment/application-deployment-prerequisites).  
-  
 To ensure that your application will install and run successfully, you must first ensure that all components upon which your application is dependent are already installed on the target computer. For example, most applications created by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] have a dependency on the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]; the correct version of the common language runtime must be present on the destination computer before the application is installed.  
   
  You can select these prerequisites in the **Prerequisites Dialog Box** and install the .NET Framework and other redistributables as a part of your installation. This practice is known as *bootstrapping*. Next, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] generates a Windows executable program named Setup.exe, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md).  

@@ -18,8 +18,6 @@ manager: "ghogen"
 # Sample XSD Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample XSD Files](https://docs.microsoft.com/visualstudio/xml-tools/sample-xsd-files).  
-  
   
 The following example files are used in the XSD Schema Designer documentation.  
   

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::EnumProperties
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::EnumProperties](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-enumproperties).  
-  
 Creates an enumerator for properties associated with the stack frame, such as local variables.  
   
 ## Syntax  

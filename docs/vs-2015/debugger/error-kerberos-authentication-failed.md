@@ -25,8 +25,6 @@ manager: "ghogen"
 # Error: Kerberos Authentication Failed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Kerberos Authentication Failed](https://docs.microsoft.com/visualstudio/debugger/error-kerberos-authentication-failed).  
-  
 When you try to do remote debugging, you might get the following error message:  
   
 ```  

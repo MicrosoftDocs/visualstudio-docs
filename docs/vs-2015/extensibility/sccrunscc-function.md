@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccRunScc Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccRunScc Function](https://docs.microsoft.com/visualstudio/extensibility/sccrunscc-function).  
-  
 This function invokes the source control administration tool.  
   
 ## Syntax  

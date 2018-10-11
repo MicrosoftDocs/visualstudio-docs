@@ -28,8 +28,6 @@ manager: "ghogen"
 # RemoveDuplicates Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RemoveDuplicates Task](https://docs.microsoft.com/visualstudio/msbuild/removeduplicates-task).  
-  
   
 Removes duplicate items from the specified item collection.  
   

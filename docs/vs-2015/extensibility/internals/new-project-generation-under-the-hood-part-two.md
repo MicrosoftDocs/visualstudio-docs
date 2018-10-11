@@ -20,8 +20,6 @@ manager: "ghogen"
 # New Project Generation: Under the Hood, Part Two
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [New Project Generation: Under the Hood, Part Two](https://docs.microsoft.com/visualstudio/extensibility/internals/new-project-generation-under-the-hood-part-two).  
-  
 In [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) we saw how the **New Project** dialog Box is populated. Let's assume you've selected a **Visual C# Windows Application**, filled out the **Name** and **Location** text boxes, and clicked OK.  
   
 ## Generating the Solution Files  

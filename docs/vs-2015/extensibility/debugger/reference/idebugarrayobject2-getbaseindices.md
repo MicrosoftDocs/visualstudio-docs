@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugArrayObject2::GetBaseIndices
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayObject2::GetBaseIndices](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayobject2-getbaseindices).  
-  
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.  
   
 ## Syntax  

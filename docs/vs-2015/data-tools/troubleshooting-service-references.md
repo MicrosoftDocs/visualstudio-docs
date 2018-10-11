@@ -23,9 +23,6 @@ manager: "ghogen"
 ---
 # Troubleshooting Service References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Troubleshooting Service References](https://docs.microsoft.com/visualstudio/data-tools/troubleshooting-service-references).
-
 This topic lists common issues that may occur when you are working with [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] or [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] references in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].
 
 ## Error Returning Data from a Service

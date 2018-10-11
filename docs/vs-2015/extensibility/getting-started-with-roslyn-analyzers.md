@@ -17,8 +17,6 @@ manager: "ghogen"
 # Getting Started with Roslyn Analyzers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with Roslyn Analyzers](https://docs.microsoft.com/visualstudio/extensibility/getting-started-with-roslyn-analyzers).  
-  
 With live, project-based code analyzers in Visual Studio, API authors can ship domain-specific code analysis as part of their NuGet packages.  Because these analyzers are powered by the .NET Compiler Platform (code-named “Roslyn”), they can produce warnings in your code as you type even before you’ve finished the line (no more waiting to build your code to discover issues).  Analyzers can also surface an automatic code fix through the Visual Studio light bulb prompt to let you clean up your code immediately  
   
 ## Getting Started  

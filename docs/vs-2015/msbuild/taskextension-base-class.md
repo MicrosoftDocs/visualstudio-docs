@@ -26,8 +26,6 @@ manager: "ghogen"
 # TaskExtension Base Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TaskExtension Base Class](https://docs.microsoft.com/visualstudio/msbuild/taskextension-base-class).  
-  
   
 Many tasks inherit from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them. These parameters are listed in this document.  
   

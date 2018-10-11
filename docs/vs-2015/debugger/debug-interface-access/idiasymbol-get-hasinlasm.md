@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasInlAsm
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasInlAsm](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hasinlasm).  
-  
 Retrieves a flag that specifies whether the function contains inline assembly.  
   
 ## Syntax  

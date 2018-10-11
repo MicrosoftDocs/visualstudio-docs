@@ -22,8 +22,6 @@ manager: "ghogen"
 # ProjectTemplateLink Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ProjectTemplateLink Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/projecttemplatelink-element-visual-studio-templates).  
-  
 Specifies the path to the .vstemplate file of one project in a multi-project template.  
   
  \<VSTemplate>  

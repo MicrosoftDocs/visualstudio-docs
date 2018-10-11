@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcessEx2::Detach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessEx2::Detach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocessex2-detach).  
-  
 This method informs the process that a session is no longer debugging the process.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_cplusplusExceptionHandling
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_cplusplusExceptionHandling](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling).  
-  
 Retrieves a flag that indicates whether C++ exception handling is in effect.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugModule3::SetJustMyCodeState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugModule3::SetJustMyCodeState](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmodule3-setjustmycodestate).  
-  
 Marks the module as being user code or not.  
   
 ## Syntax  

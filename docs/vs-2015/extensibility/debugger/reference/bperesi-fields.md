@@ -21,8 +21,6 @@ manager: "ghogen"
 # BPERESI_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BPERESI_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bperesi-fields).  
-  
 Specifies the information to be retrieved about a failed resolution of a breakpoint.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDebugActivateDocumentEvent2::GetDocument
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugActivateDocumentEvent2::GetDocument](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugactivatedocumentevent2-getdocument).  
-  
 Gets the document to activate.  
   
 ## Syntax  

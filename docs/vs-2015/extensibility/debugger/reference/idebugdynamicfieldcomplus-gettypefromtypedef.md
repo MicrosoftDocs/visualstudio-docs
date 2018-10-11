@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdynamicfieldcomplus-gettypefromtypedef).  
-  
 Retrieves a type given its token.  
   
 ## Syntax  

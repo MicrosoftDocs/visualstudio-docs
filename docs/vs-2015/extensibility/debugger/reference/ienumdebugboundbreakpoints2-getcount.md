@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugBoundBreakpoints2::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugBoundBreakpoints2::GetCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugboundbreakpoints2-getcount).  
-  
 Returns the number of elements in the enumeration.  
   
 ## Syntax  

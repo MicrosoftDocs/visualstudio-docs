@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_symIndexId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_symIndexId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-symindexid).  
-  
 Retrieves the unique symbol identifier.  
   
 ## Syntax  

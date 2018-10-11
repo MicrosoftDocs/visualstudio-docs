@@ -20,8 +20,6 @@ manager: "ghogen"
 # Custom Colorable Items
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Custom Colorable Items](https://docs.microsoft.com/visualstudio/extensibility/internals/custom-colorable-items).  
-  
 You can override the list of types for colorizing, such as keywords and comments, by implementing custom colorable items as part of your language service.  
   
 ## User Settings of Colorable Items  

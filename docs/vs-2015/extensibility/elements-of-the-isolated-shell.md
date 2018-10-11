@@ -19,8 +19,6 @@ manager: "ghogen"
 # Elements of the Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Elements of the Isolated Shell](https://docs.microsoft.com/visualstudio/extensibility/elements-of-the-isolated-shell).  
-  
 You can modify the registry settings, run-time settings, and application entry point of your isolated shell application, and its .vsct, .pkgdef, and.pkgundef files.  
   
 ## Registry Settings  

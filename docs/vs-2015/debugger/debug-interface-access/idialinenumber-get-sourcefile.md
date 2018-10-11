@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_sourceFile
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_sourceFile](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-sourcefile).  
-  
 Retrieves a reference to the source file.  
   
 ## Syntax  

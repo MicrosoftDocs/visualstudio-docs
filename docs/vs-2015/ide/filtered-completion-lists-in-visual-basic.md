@@ -22,8 +22,6 @@ manager: "ghogen"
 # Filtered Completion Lists in Visual Basic
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Filtered Completion Lists in Visual Basic](https://docs.microsoft.com/visualstudio/ide/filtered-completion-lists-in-visual-basic).  
-  
 In Visual Basic, IntelliSense completion lists have two tab controls located near the bottom of the lists. The **Common** tab, which is selected by default, displays items that are most often used to complete the statement that you are writing. The **All** tab displays all items that are available for automatic completion, including those that are also on the **Common** tab.  
   
 ## See Also  

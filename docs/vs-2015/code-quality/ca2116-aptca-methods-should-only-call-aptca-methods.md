@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2116: APTCA methods should only call APTCA methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2116: APTCA methods should only call APTCA methods](https://docs.microsoft.com/visualstudio/code-quality/ca2116-aptca-methods-should-only-call-aptca-methods).
-
 |||
 |-|-|
 |TypeName|AptcaMethodsShouldOnlyCallAptcaMethods|

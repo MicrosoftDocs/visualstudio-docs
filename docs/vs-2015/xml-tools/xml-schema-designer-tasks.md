@@ -18,8 +18,6 @@ manager: "ghogen"
 # XML Schema Designer Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XML Schema Designer Tasks](https://docs.microsoft.com/visualstudio/xml-tools/xml-schema-designer-tasks).  
-  
   
 This section describes how to complete common tasks with the XML Schema Designer tools.  
   

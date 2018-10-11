@@ -25,8 +25,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Code Snippet
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating a Code Snippet](https://docs.microsoft.com/visualstudio/ide/walkthrough-creating-a-code-snippet).  
-  
 You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can also add references and replacement parameters to your code. You can add the snippet to your Visual Studio installation by using the Import button on the Code Snippets Manager (**Tools/Code Snippets Manager**).  
   
 > [!TIP]

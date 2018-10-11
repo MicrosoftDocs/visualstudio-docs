@@ -18,8 +18,6 @@ manager: "ghogen"
 # Personalizing the Visual Studio IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Personalize the Visual Studio IDE](https://docs.microsoft.com/visualstudio/ide/personalizing-the-visual-studio-ide).  
-  
 This section describes how to personalize Visual Studio in various ways to best support your own development style and requirements. You can define and save multiple window layouts and switch between them. For example, you can define a layout for coding and one for debugging. You can customize colors, fonts and formatting in the code editor for each language. You can choose between the blue, dark or light environment color themes, or you can create custom themes by downloading and installing the Visual Studio theme editor from the Visual Studio Code Gallery. Many other options are also exposed through the [Environment Options Dialog Box](../ide/reference/environment-options-dialog-box.md).  
   
  Many of your settings roam with you across Visual Studio instances. See [Synchronized Settings](../ide/synchronized-settings-in-visual-studio.md) for more information.  

@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2214: Do not call overridable methods in constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2214: Do not call overridable methods in constructors](https://docs.microsoft.com/visualstudio/code-quality/ca2214-do-not-call-overridable-methods-in-constructors).
-
 |||
 |-|-|
 |TypeName|DoNotCallOverridableMethodsInConstructors|

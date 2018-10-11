@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_bitPosition
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_bitPosition](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-bitposition).  
-  
 Retrieves the bit position of location. Used when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is `LocIsBitField`.  
   
 ## Syntax  

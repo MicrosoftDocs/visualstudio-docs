@@ -26,8 +26,6 @@ manager: "ghogen"
 # XmlPeek Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XmlPeek Task](https://docs.microsoft.com/visualstudio/msbuild/xmlpeek-task).  
-  
   
 Returns values as specified by XPath Query from an XML file.  
   

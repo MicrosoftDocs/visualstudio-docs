@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugModuleLoadEvent2::GetModule
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugModuleLoadEvent2::GetModule](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmoduleloadevent2-getmodule).  
-  
 Gets the module that is being loaded or unloaded.  
   
 ## Syntax  

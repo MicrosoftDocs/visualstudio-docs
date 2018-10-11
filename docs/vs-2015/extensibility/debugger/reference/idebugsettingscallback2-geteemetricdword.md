@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEEMetricDword
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2::GetEEMetricDword](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2-geteemetricdword).  
-  
 Retrieves a value that corresponds to the specified metric of the expression evaluator.  
   
 ## Syntax  

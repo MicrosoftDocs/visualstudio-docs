@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Install a Source Control Plug-in
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Install a Source Control Plug-in](https://docs.microsoft.com/visualstudio/extensibility/internals/how-to-install-a-source-control-plug-in).  
-  
 Creating a source-control plug-in involves three steps:  
   
 1.  Create a DLL with the functions defined in the Source Control Plug-in API reference section of this documentation.  

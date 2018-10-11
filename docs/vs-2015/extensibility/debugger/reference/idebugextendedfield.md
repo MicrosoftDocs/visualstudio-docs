@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugExtendedField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExtendedField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugextendedfield).  
-  
 Extends the types of fields that are available to support managed code generics.  
   
 ## Syntax  

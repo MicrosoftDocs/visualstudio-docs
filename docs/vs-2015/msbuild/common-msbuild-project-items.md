@@ -25,8 +25,6 @@ manager: "ghogen"
 # Common MSBuild Project Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Common MSBuild Project Items](https://docs.microsoft.com/visualstudio/msbuild/common-msbuild-project-items).  
-  
   
 In [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] have several items in common. These items are defined in the file microsoft.build.commontypes.xsd.  
   

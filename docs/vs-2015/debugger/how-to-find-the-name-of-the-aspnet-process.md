@@ -26,8 +26,6 @@ manager: "ghogen"
 # How to: Find the Name of the ASP.NET Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Find the Name of the ASP.NET Process](https://docs.microsoft.com/visualstudio/debugger/how-to-find-the-name-of-the-aspnet-process).  
-  
 To attach to a running [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application, you have to know the name of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process:  
   
 -   If you are running IIS 6.0 or IIS 7.0, the name is w3wp.exe.  

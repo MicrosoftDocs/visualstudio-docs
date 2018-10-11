@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDebugMessageEvent2::GetMessage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMessageEvent2::GetMessage](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmessageevent2-getmessage).  
-  
 Gets the message to be displayed.  
   
 ## Syntax  

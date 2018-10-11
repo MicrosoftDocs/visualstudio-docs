@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider2::FunctionHasLineInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider2-functionhaslineinfo).  
-  
 Determines if the specified method has line information.  
   
 ## Syntax  

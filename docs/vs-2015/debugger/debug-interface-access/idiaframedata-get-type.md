@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_type
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_type](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-type).  
-  
 Retrieves the compiler-specific frame type.  
   
 ## Syntax  

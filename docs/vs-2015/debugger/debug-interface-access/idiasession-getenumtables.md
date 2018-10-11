@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession::getEnumTables
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::getEnumTables](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-getenumtables).  
-  
 Retrieves an enumerator for all tables contained in the symbol store.  
   
 ## Syntax  

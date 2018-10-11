@@ -20,8 +20,6 @@ manager: "ghogen"
 # Messages Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Messages Menu Commands](https://docs.microsoft.com/visualstudio/debugger/messages-menu-commands).  
-  
 The **Messages** menu provides commands for controlling message views.  
   
  **Start/Stop Logging**  

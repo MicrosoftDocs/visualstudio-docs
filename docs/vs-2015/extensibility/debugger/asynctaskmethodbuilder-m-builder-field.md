@@ -19,8 +19,6 @@ manager: "ghogen"
 # AsyncTaskMethodBuilder.m_builder Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AsyncTaskMethodBuilder.m_builder Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/asynctaskmethodbuilder-m-builder-field).  
-  
 Represents the generic builder object to which this non-generic instance delegates.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

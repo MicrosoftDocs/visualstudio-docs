@@ -20,8 +20,6 @@ manager: "ghogen"
 # Saving and Exporting Performance Tools Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Saving and Exporting Performance Tools Data](https://docs.microsoft.com/visualstudio/profiling/saving-and-exporting-performance-tools-data).  
-  
 This topic describes how to save and export performance data files.  
   
 ##  <a name="BKMK_Save_Profiler_Data_Files_As_Analyzed_Report_Files"></a> How to: Save Performance Data Files As Analyzed Report Files  

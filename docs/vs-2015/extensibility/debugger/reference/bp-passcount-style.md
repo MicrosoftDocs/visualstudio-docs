@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_PASSCOUNT_STYLE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_PASSCOUNT_STYLE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-passcount-style).  
-  
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.  
   
 ## Syntax  

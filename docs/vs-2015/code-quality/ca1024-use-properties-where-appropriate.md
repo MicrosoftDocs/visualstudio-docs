@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1024: Use properties where appropriate
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1024: Use properties where appropriate](https://docs.microsoft.com/visualstudio/code-quality/ca1024-use-properties-where-appropriate).
-
 |||
 |-|-|
 |TypeName|UsePropertiesWhereAppropriate|

@@ -20,8 +20,6 @@ manager: "ghogen"
 # Comparing Properties and Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Comparing Properties and Items](https://docs.microsoft.com/visualstudio/msbuild/comparing-properties-and-items).  
-  
   
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
   

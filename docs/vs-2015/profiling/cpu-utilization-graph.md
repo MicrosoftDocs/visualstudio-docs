@@ -22,8 +22,6 @@ manager: "ghogen"
 # CPU Utilization Graph
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CPU Utilization Graph](https://docs.microsoft.com/visualstudio/profiling/cpu-utilization-graph).  
-  
 The CPU Utilization graph shows the level of utilization in an app over time. The X-axis represents the duration of the trace, and the y-axis represents the number of logical cores on the system. The graph doesn't show which specific core is active at any given time. For example, if two cores are each running at 50 percent capacity for a given time period, then this view shows one logical core being utilized.  
   
 ## CPU Utilization graph colors  

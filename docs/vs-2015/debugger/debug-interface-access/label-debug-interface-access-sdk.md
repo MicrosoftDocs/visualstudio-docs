@@ -23,8 +23,6 @@ manager: "ghogen"
 # Label (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Label (Debug Interface Access SDK)](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/label-debug-interface-access-sdk).  
-  
 A location in program code is identified by a `SymTagLabel` symbol.  
   
 ## Properties  

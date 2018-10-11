@@ -19,9 +19,6 @@ manager: "wpickett"
 ---
 # CA2134: Methods must keep consistent transparency when overriding base methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2134: Methods must keep consistent transparency when overriding base methods](https://docs.microsoft.com/visualstudio/code-quality/ca2134-methods-must-keep-consistent-transparency-when-overriding-base-methods).
-
 |||
 |-|-|
 |TypeName|MethodsMustOverrideWithConsistentTransparency|

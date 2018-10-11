@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugAlias::GetObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAlias::GetObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugalias-getobject).  
-  
 Gets the object that this alias is for.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::GetDisassemblyStream
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::GetDisassemblyStream](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-getdisassemblystream).  
-  
 Gets the disassembly stream for this program or a part of this program.  
   
 ## Syntax  

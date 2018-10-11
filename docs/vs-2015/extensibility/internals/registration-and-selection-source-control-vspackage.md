@@ -20,8 +20,6 @@ manager: "ghogen"
 # Registration and Selection (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registration and Selection (Source Control VSPackage)](https://docs.microsoft.com/visualstudio/extensibility/internals/registration-and-selection-source-control-vspackage).  
-  
 A source control VSPackage must be registered to expose it to the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. If more than one source control VSPackage is registered, the user can select which VSPackage to load at appropriate times. See [VSPackages](../../extensibility/internals/vspackages.md) for more details on VSPackages and how to register them.  
   
 ## Registering a Source Control Package  

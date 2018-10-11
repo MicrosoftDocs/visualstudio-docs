@@ -24,9 +24,6 @@ manager: "wpickett"
 ---
 # CA1062: Validate arguments of public methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1062: Validate arguments of public methods](https://docs.microsoft.com/visualstudio/code-quality/ca1062-validate-arguments-of-public-methods).
-
 |||
 |-|-|
 |TypeName|ValidateArgumentsOfPublicMethods|

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasEH
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasEH](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-haseh).  
-  
 Retrieves a flag that specifies whether the function contains any unmanaged C++-style exception handling (for example, a try/catch block).  
   
 ## Syntax  

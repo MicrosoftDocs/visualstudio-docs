@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugErrorBreakpoint2::GetBreakpointResolution
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugErrorBreakpoint2::GetBreakpointResolution](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution).  
-  
 Gets the breakpoint error resolution that describes the error.  
   
 ## Syntax  

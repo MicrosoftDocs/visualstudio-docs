@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugFrameInfo2::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugFrameInfo2::Next](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugframeinfo2-next).  
-  
 Returns the next set of elements from the enumeration.  
   
 ## Syntax  

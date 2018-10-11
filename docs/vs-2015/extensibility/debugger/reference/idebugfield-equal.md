@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugField::Equal
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::Equal](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-equal).  
-  
 This method compares this field with the specified field for equality.  
   
 ## Syntax  

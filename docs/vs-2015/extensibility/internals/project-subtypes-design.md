@@ -19,8 +19,6 @@ manager: "ghogen"
 # Project Subtypes Design
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Subtypes Design](https://docs.microsoft.com/visualstudio/extensibility/internals/project-subtypes-design).  
-  
 Project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild). The use of aggregation lets you reuse the bulk of the core managed project system implemented in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] yet still customize the behavior for a particular scenario.  
   
  The following topics detail the basic design and implementation of project subtypes:  

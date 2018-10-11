@@ -20,8 +20,6 @@ manager: "ghogen"
 # Groups Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Groups Element](https://docs.microsoft.com/visualstudio/extensibility/groups-element).  
-  
 Contains entries that define the command groups of a VSPackage.  
   
 ## Syntax  

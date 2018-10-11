@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::GetMethodProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator::GetMethodProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty).  
-  
 This method gets a property object that contains the locals, arguments, and other properties of a method.  
   
 ## Syntax  

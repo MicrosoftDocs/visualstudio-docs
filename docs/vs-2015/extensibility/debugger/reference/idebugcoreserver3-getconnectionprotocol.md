@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::GetConnectionProtocol
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer3::GetConnectionProtocol](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver3-getconnectionprotocol).  
-  
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.  
   
 ## Syntax  

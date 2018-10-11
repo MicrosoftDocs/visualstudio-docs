@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugObject2::CreateAlias
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject2::CreateAlias](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject2-createalias).  
-  
 Creates a unique ID or alias for this object or returns an existing alias.  
   
 ## Syntax  

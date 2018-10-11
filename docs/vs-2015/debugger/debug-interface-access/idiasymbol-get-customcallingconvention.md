@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_customCallingConvention
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_customCallingConvention](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-customcallingconvention).  
-  
 Retrieves a flag that specifies whether the function has a custom calling convention.  
   
 ## Syntax  

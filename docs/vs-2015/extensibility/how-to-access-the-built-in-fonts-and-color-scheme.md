@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Access the Built-in Fonts and Color Scheme
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Access the Built-in Fonts and Color Scheme](https://docs.microsoft.com/visualstudio/extensibility/how-to-access-the-built-in-fonts-and-color-scheme).  
-  
 The Visual Studio integrated development environment (IDE) has a scheme of fonts and colors that is associated with the editor window. You can access this scheme through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.  
   
  To use the built-in fonts and colors scheme, a VSPackage must:  

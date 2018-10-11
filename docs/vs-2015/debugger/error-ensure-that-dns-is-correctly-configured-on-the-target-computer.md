@@ -25,8 +25,6 @@ manager: "ghogen"
 # Error: Ensure that DNS is Correctly Configured on the Target Computer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Ensure that DNS is Correctly Configured on the Target Computer](https://docs.microsoft.com/visualstudio/debugger/error-ensure-that-dns-is-correctly-configured-on-the-target-computer).  
-  
 When trying to do remote debugging, you may get the following error message:  
   
 ```  

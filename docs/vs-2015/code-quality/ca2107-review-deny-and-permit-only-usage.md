@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2107: Review deny and permit only usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2107: Review deny and permit only usage](https://docs.microsoft.com/visualstudio/code-quality/ca2107-review-deny-and-permit-only-usage).
-
 |||
 |-|-|
 |TypeName|ReviewDenyAndPermitOnlyUsage|

@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccCloseProject Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccCloseProject Function](https://docs.microsoft.com/visualstudio/extensibility/scccloseproject-function).  
-  
 This function closes a project, marking the end of a particular session.  
   
 ## Syntax  

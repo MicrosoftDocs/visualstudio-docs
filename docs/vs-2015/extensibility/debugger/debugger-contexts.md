@@ -19,8 +19,6 @@ manager: "ghogen"
 # Debugger Contexts
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Contexts](https://docs.microsoft.com/visualstudio/extensibility/debugger/debugger-contexts).  
-  
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, the debug engine (DE) operates simultaneously within several distinct contexts, as follows:  
   
 -   The code context, which describes the current location in a program's execution stream.  

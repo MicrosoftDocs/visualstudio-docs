@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaReadExeAtRVACallback
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaReadExeAtRVACallback](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiareadexeatrvacallback).  
-  
 Enables a client application to supply bytes of an executable file as specified by a relative virtual address.  
   
 ## Syntax  

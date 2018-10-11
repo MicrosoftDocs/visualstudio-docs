@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDE GUIDs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDE GUIDs](https://docs.microsoft.com/visualstudio/extensibility/ide-guids).  
-  
 The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some parts of the integrated development environment (IDE) as listed in the table below.  
   
 ## Core Systems  

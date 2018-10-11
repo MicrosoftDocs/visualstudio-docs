@@ -23,8 +23,6 @@ manager: "ghogen"
 # Annotation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Annotation](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/annotation).  
-  
 A location program code can be annotated with a `SymTagAnnotation` symbol.  
   
 ## Properties  

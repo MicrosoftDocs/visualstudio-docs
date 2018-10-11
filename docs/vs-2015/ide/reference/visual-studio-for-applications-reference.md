@@ -18,8 +18,6 @@ manager: "ghogen"
 # Visual Studio for Applications Reference
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio for Applications Reference](https://docs.microsoft.com/visualstudio/ide/reference/visual-studio-for-applications-reference).  
-  
   
 The Visual Studio for Applications namespaces provide interfaces for integrating .NET Framework script engines into applications.  
   

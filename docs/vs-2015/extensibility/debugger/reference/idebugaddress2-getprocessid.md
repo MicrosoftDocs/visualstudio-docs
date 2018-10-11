@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugAddress2::GetProcessID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAddress2::GetProcessID](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugaddress2-getprocessid).  
-  
 Retrieves the ID of the process that owns the object represented by this [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md) interface.  
   
 ## Syntax  

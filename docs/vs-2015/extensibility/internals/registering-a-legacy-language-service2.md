@@ -21,8 +21,6 @@ manager: "ghogen"
 # Registering a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering a Legacy Language Service2](https://docs.microsoft.com/visualstudio/extensibility/internals/registering-a-legacy-language-service2).  
-  
 The following sections provide lists of registry entries for the various language service options available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
  In the following list of registry entries, *VS Reg Root* is equal to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] version number.  

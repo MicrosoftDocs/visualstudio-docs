@@ -20,8 +20,6 @@ manager: "ghogen"
 # Filtering the AddItem Dialog Box for Nested Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Filtering the AddItem Dialog Box for Nested Projects](https://docs.microsoft.com/visualstudio/extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects).  
-  
 When you display an **AddItem** dialog box for a nested project, the parent project can control what items are displayed in the dialog box.  
   
  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2> interface lets you filter the nodes that will be in an **AddItem** dialog box. When the child project displays the **AddItem** dialog box, the parent can implement the `IVsFilterAddProjectItemDlg` interface and filter items that would otherwise be displayed in the child's project.  

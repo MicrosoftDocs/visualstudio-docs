@@ -19,8 +19,6 @@ manager: "ghogen"
 # Legacy Interfaces in the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Interfaces in the Editor](https://docs.microsoft.com/visualstudio/extensibility/legacy-interfaces-in-the-editor).  
-  
 You can access the Visual Studio editor from legacy interfaces. The Visual Studio SDK includes adapters known as *shims*, which enable these interfaces to interact with the new editor. Nevertheless, we recommend that you update your legacy code to use the new editor API. Your code will perform better and you can use new technologies such as the Windows Presentation Foundation (WPF) and the Managed Extensibility Framework (MEF).  
   
 ## Related Topics  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBinder3::GetAllAliases
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBinder3::GetAllAliases](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbinder3-getallaliases).  
-  
 This method retrieves a list of aliases from the program.  
   
 ## Syntax  

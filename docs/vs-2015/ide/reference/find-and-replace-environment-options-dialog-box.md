@@ -24,8 +24,6 @@ manager: "ghogen"
 # Find and Replace, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Find and Replace, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/find-and-replace-environment-options-dialog-box).  
-  
   
 Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by clicking **Options**, expanding **Environment**, and then clicking **Find and Replace**. If this page does not appear in the list, select **Show all setting** in the **Options** dialog box.  
   

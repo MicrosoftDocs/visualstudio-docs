@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugClassField::EnumNestedClasses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugClassField::EnumNestedClasses](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugclassfield-enumnestedclasses).  
-  
 Creates an enumerator for the classes nested in this class.  
   
 ## Syntax  

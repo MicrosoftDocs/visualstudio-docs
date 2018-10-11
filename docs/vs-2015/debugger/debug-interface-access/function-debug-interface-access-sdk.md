@@ -22,8 +22,6 @@ manager: "ghogen"
 # Function (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Function (Debug Interface Access SDK)](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/function-debug-interface-access-sdk).  
-  
 Each function is identified by a `SymTagFunction` symbol.  
   
 ## Properties  

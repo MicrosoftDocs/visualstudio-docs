@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEnumField::GetStringFromValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEnumField::GetStringFromValue](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenumfield-getstringfromvalue).  
-  
 This method obtains the name of the enumeration constant given its value.  
   
 ## Syntax  

@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugGenericParamField::GetIndex
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericParamField::GetIndex](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericparamfield-getindex).  
-  
 Retrieves the index of this generic parameter.  
   
 ## Syntax  

@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: Specify the Binary to Start
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify the Binary to Start](https://docs.microsoft.com/visualstudio/profiling/how-to-specify-the-binary-to-start).  
-  
 To profile binaries, such as DLLs, you must enter information in the **\<Target> Property Pages** dialog box. This information indicates where the DLL project can find the calling application.  
   
  **Requirements**  

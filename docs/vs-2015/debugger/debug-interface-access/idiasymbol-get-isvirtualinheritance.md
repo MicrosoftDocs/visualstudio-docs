@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isVirtualInheritance
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isVirtualInheritance](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-isvirtualinheritance).  
-  
 Specifies whether the `this` pointer points to a data member with virtual inheritance.  
   
 ## Syntax  

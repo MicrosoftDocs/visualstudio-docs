@@ -23,8 +23,6 @@ manager: "douge"
 # Generate code from UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Generate code from UML class diagrams](https://docs.microsoft.com/visualstudio/modeling/generate-code-from-uml-class-diagrams).  
-  
 To generate Visual C# .NET code from UML class diagrams in Visual Studio, use the **Generate Code** command. By default, the command generates a C# type for each UML type that you select. You can modify and extend this behavior by modifying or copying the text templates that generate the code. You can specify different behavior for the types that are contained in different packages in your model.  
   
  The **Generate Code** command is particularly suited to generating code from the user's selection of elements, and to generating one file for each UML class or other element. For example, the screenshot shows two C# files that have been generated from two UML classes.  

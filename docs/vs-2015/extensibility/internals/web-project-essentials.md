@@ -19,8 +19,6 @@ manager: "ghogen"
 # Web Project Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Web Project Essentials](https://docs.microsoft.com/visualstudio/extensibility/internals/web-project-essentials).  
-  
 Web projects create Web applications. You can use a Web project to create a Web application that has smart Web pages. A smart Web page has server-side code that renders the Web page on demand.  
   
  Using traditional programming languages, such as [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../../includes/csprcs-md.md)], you can create smart Web pages to collect and process information from a user, store it in a database, and so on.  

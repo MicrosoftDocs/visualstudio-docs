@@ -32,8 +32,6 @@ manager: "ghogen"
 # How to: Display and Hide Register Groups
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display and Hide Register Groups](https://docs.microsoft.com/visualstudio/debugger/how-to-display-and-hide-register-groups).  
-  
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.  
   
  To reduce clutter, the **Registers** window organizes registers into groups. If you right-click the **Registers** window, you will see a shortcut menu containing these groups, which you can display or hide as you see fit following the procedure below.  

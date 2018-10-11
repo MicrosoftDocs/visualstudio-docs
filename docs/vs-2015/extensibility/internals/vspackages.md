@@ -19,8 +19,6 @@ manager: "ghogen"
 # VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPackages](https://docs.microsoft.com/visualstudio/extensibility/internals/vspackages).  
-  
 VSPackages are software modules that extend the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.  
   
 ## In This Section  

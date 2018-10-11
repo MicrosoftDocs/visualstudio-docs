@@ -21,8 +21,6 @@ manager: "ghogen"
 # Create a simple data application by using ADO.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create a simple data application by using ADO.NET](https://docs.microsoft.com/visualstudio/data-tools/create-a-simple-data-application-by-using-adonet).  
-  
   
 When you create an application that manipulates data in a database, you perform basic tasks such defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET.  All .NET data technologies—including datasets, LINQ to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.  
   

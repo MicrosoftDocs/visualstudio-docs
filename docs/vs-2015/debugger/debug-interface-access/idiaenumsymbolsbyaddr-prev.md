@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbolsByAddr::Prev
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSymbolsByAddr::Prev](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsymbolsbyaddr-prev).  
-  
 Retrieves the previous symbols in order by address.  
   
 ## Syntax  

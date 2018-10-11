@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetCurrentModulesState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProviderDirect::GetCurrentModulesState](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolproviderdirect-getcurrentmodulesstate).  
-  
 Retrieves information about the symbol group of which the symbol provider is a member.  
   
 ## Syntax  

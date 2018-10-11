@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: Missing Objects Due to Vertex Shading
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Missing Objects Due to Vertex Shading](https://docs.microsoft.com/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading).  
-  
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics tools to investigate an object that is missing due to an error that occurs during the vertex shader stage.  
   
  This walkthrough illustrates these tasks:  

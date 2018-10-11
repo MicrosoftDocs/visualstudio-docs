@@ -16,8 +16,6 @@ manager: "ghogen"
 # One or more selected items contain a data type that is not supported by the designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [One or more selected items contain a data type that is not supported by the designer](https://docs.microsoft.com/visualstudio/data-tools/one-or-more-selected-items-contain-a-data-type-that-is-not-supported-by-the-designer).  
-  
   
 One or more of the items dragged from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] contains a data type that is not supported by the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] (for example, [CLR User-Defined Types](http://msdn.microsoft.com/library/9f70e0b0-3a0d-4eb1-b914-07a5d0c167c2)).  
   

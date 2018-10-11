@@ -21,8 +21,6 @@ manager: "ghogen"
 # Call Tree View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Call Tree View - Sampling Data](https://docs.microsoft.com/visualstudio/profiling/call-tree-view-sampling-data).  
-  
 The Call Tree view displays the function execution paths that were traversed in the profiled application.  
   
 > [!NOTE]

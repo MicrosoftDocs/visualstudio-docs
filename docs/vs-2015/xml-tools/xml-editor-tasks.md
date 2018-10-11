@@ -18,8 +18,6 @@ manager: "ghogen"
 # XML Editor Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XML Editor Tasks](https://docs.microsoft.com/visualstudio/xml-tools/xml-editor-tasks).  
-  
   
 This section describes how to complete common tasks with the XML Editor.  
   

@@ -20,8 +20,6 @@ manager: "ghogen"
 # MSBuild Advanced Concepts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Advanced Concepts](https://docs.microsoft.com/visualstudio/msbuild/msbuild-advanced-concepts).  
-  
   
 The documents in this section describe how to use advanced techniques to improve builds that you run by using MSBuild.  
   

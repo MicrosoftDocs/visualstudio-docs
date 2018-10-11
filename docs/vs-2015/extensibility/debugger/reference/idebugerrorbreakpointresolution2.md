@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugErrorBreakpointResolution2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugErrorBreakpointResolution2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugerrorbreakpointresolution2).  
-  
 This interface represents the resolution of a breakpoint error.  
   
 ## Syntax  

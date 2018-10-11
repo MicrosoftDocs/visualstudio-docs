@@ -21,8 +21,6 @@ manager: "ghogen"
 # REFERENCE_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [REFERENCE_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/reference-type).  
-  
 Specifies the reference type.  
   
 ## Syntax  

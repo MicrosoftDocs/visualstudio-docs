@@ -21,8 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_RETVAL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [METADATA_ADDRESS_RETVAL](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/metadata-address-retval).  
-  
 This structure represents a return value from a method or function.  
   
 ## Syntax  

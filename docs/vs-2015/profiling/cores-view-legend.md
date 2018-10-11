@@ -22,8 +22,6 @@ manager: "ghogen"
 # Cores View Legend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Cores View Legend](https://docs.microsoft.com/visualstudio/profiling/cores-view-legend).  
-  
 The Cores View legend identifies each thread by color and name. It includes columns that show counts for cross-core context switches, total context switches, and the percent of context switches that cross cores. Rows in the legend are sorted by the number of cross-core context switches, in decreasing order.  
   
  You can select rows in the legend to filter the threads that are displayed in the timeline. Only the selected threads are shown in the timeline. If no rows are selected, all rows are shown in the timeline.  

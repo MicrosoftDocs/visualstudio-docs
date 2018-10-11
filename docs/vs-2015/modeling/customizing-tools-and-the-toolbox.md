@@ -22,8 +22,6 @@ manager: "douge"
 # Customizing Tools and the Toolbox
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Tools and the Toolbox](https://docs.microsoft.com/visualstudio/modeling/customizing-tools-and-the-toolbox).  
-  
 You must define toolbox items for the elements that you want to let users add to their models. There are two kinds of tools: element tools and connection tools. In the generated designer, a user can select an element tool to drag shapes to the diagram, and can select a connection tool to draw links between the shapes. In general, element tools let users add instances of domain classes to their models, and connection tools let them add instances of domain relationships.  
   
  In this topic:  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPropertyCreateEvent2::GetDebugProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPropertyCreateEvent2::GetDebugProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpropertycreateevent2-getdebugproperty).  
-  
 Gets the new property.  
   
 ## Syntax  

@@ -30,8 +30,6 @@ manager: "ghogen"
 # Debugging Deployed Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Deployed Web Applications](https://docs.microsoft.com/visualstudio/debugger/debugging-deployed-web-applications).  
-  
 If you need to debug a Web application that is running on a production server, this should be done with caution. If you attach to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process for debugging and hit a breakpoint, for example, all managed code in the worker process halts. Halting all managed code in the worker process can cause a work stoppage for all users on the server. Before you debug on a production server, consider the potential impact on production work.  
   
  To use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to debug a deployed application, you must attach to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process and make sure that the debugger has access to symbols for the application. You must also locate and open the source files for the application. For more information, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md), [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md), and [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  

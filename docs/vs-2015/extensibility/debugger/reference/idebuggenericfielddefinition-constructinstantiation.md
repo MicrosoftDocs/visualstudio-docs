@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugGenericFieldDefinition::ConstructInstantiation
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericFieldDefinition::ConstructInstantiation](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericfielddefinition-constructinstantiation).  
-  
 Constructs a field instance given an array of type arguments.  
   
 ## Syntax  

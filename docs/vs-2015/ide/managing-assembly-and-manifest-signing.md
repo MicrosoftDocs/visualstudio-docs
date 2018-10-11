@@ -23,8 +23,6 @@ manager: "ghogen"
 # Managing Assembly and Manifest Signing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing Assembly and Manifest Signing](https://docs.microsoft.com/visualstudio/ide/managing-assembly-and-manifest-signing).  
-  
 Strong-name signing gives a software component a globally unique identity. Strong names are used to guarantee that the assembly cannot be spoofed by someone else, and to ensure that component dependencies and configuration statements map to the correct component and component version.  
   
  A strong name consists of the assembly's identity (simple text name, version number, and culture information), plus a public key token and a digital signature.  

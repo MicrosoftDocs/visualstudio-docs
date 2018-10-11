@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPort2::GetProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPort2::GetProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugport2-getprocess).  
-  
 Gets the specified process running on a port.  
   
 ## Syntax  

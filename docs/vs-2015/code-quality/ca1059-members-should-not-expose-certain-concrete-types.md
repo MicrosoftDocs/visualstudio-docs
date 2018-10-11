@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1059: Members should not expose certain concrete types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1059: Members should not expose certain concrete types](https://docs.microsoft.com/visualstudio/code-quality/ca1059-members-should-not-expose-certain-concrete-types).
-
 |||
 |-|-|
 |TypeName|MembersShouldNotExposeCertainConcreteTypes|

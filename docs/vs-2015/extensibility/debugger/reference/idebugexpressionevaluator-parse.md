@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::Parse
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator::Parse](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator-parse).  
-  
 This method converts an expression string to a parsed expression.  
   
 ## Syntax  

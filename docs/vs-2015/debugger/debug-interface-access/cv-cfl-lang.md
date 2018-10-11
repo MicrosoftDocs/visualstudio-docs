@@ -22,8 +22,6 @@ manager: "ghogen"
 # CV_CFL_LANG
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CV_CFL_LANG](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/cv-cfl-lang).  
-  
 Specifies the source code language of the application or linked module.  
   
 ## Syntax  

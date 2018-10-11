@@ -19,8 +19,6 @@ manager: "ghogen"
 # Source Control Plug-in API Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control Plug-in API Functions](https://docs.microsoft.com/visualstudio/extensibility/source-control-plug-in-api-functions).  
-  
 The Source Control Plug-in API provides the following functions, which must be implemented by the source control plug-in in accordance with this API. The signatures of each function and the semantics associated with the bit flags and other parameters are described in detail in this reference.  
   
 ## Initialization and Housekeeping Functions  

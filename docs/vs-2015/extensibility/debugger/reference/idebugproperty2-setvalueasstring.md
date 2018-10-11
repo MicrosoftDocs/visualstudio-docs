@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::SetValueAsString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::SetValueAsString](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-setvalueasstring).  
-  
 Sets the value of a property from a given string.  
   
 ## Syntax  

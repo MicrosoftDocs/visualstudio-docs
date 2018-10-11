@@ -22,8 +22,6 @@ manager: "ghogen"
 # Unblocking Stack
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unblocking Stack](https://docs.microsoft.com/visualstudio/profiling/unblocking-stack).  
-  
 If the currently selected thread element represents a blocked segment that later began to execute after it was unblocked by another thread in the current process, the call stack for the thread that did the unblocking is shown on this tab.  
   
 ## See Also  

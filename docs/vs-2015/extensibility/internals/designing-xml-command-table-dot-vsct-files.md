@@ -19,8 +19,6 @@ manager: "ghogen"
 # Designing XML Command Table (.Vsct) Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Designing XML Command Table (.Vsct) Files](https://docs.microsoft.com/visualstudio/extensibility/internals/designing-xml-command-table-dot-vsct-files).  
-  
 An XML command table (.vsct) file describes the layout and appearance of command items for a VSPackage. Command items include buttons, combo boxes, menus, toolbars, and groups of command items. This topic describes XML command table files, how they affect command items and menus, and how to create them.  
   
 ## Commands, Menus, Groups, and the .vsct File  

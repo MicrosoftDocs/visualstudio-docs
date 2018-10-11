@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbols::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSymbols::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsymbols-item).  
-  
 Retrieves a symbol by means of an index.  
   
 ## Syntax  

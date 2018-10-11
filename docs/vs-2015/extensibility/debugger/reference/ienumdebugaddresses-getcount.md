@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugAddresses::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugAddresses::GetCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugaddresses-getcount).  
-  
 This method returns the number of elements in the enumeration.  
   
 ## Syntax  

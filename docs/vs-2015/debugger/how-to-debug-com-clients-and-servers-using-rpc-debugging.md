@@ -35,8 +35,6 @@ manager: "ghogen"
 # How to: Debug COM Clients and Servers Using RPC Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug COM Clients and Servers Using RPC Debugging](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-com-clients-and-servers-using-rpc-debugging).  
-  
 You can use remote procedure call (RPC) debugging to debug COM client/server applications. You must enable RPC debugging to use it. With RPC debugging enabled, when you step into the server call from the client, the debugger attaches to the server and lets you debug its code. When the debugger is attached, you can use all debugger features with both the client and server processes.  
   
 ### To enable RPC debugging  

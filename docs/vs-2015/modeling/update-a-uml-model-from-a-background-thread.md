@@ -16,8 +16,6 @@ manager: "douge"
 # Update a UML model from a background thread
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Update a UML model from a background thread](https://docs.microsoft.com/visualstudio/modeling/update-a-uml-model-from-a-background-thread).  
-  
 It can sometimes be useful to make changes to a model in a background thread. For example, if you are loading information from a slow external resource, you could use a background thread to supervise the updates. This allows the user to see each update as soon as it happens.  
   
  However, you must be aware that the UML store is not thread safe. The following precautions are important:  

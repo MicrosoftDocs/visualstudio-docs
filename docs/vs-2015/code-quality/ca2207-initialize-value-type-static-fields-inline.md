@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2207: Initialize value type static fields inline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2207: Initialize value type static fields inline](https://docs.microsoft.com/visualstudio/code-quality/ca2207-initialize-value-type-static-fields-inline).
-
 |||
 |-|-|
 |TypeName|InitializeValueTypeStaticFieldsInline|

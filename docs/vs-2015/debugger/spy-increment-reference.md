@@ -21,8 +21,6 @@ manager: "ghogen"
 # Spy++ Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Spy++ Reference](https://docs.microsoft.com/visualstudio/debugger/spy-increment-reference).  
-  
 See the sections listed below for descriptions of each Spy++ menu and dialog box:  
   
 ## In This Section  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # MSBuild Inline Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Inline Tasks](https://docs.microsoft.com/visualstudio/msbuild/msbuild-inline-tasks).  
-  
   
 MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
   

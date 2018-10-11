@@ -18,8 +18,6 @@ manager: "douge"
 # Navigate the UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigate the UML model](https://docs.microsoft.com/visualstudio/modeling/navigate-the-uml-model).  
-  
 This topic introduces the main types of the UML model.  
   
 ## The Model Elements, Model, and Model Store  

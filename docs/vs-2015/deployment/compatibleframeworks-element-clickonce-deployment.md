@@ -24,8 +24,6 @@ manager: "wpickett"
 # &lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)](https://docs.microsoft.com/visualstudio/deployment/compatibleframeworks-element-clickonce-deployment).  
-  
 Identifies the versions of the .NET Framework where this application can install and run.  
   
 > [!NOTE]

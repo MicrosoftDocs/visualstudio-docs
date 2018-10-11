@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugCodeContexts2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugCodeContexts2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugcodecontexts2).  
-  
 This interface enumerates the code contexts associated with the debug session, or with a particular program or document.  
   
 ## Syntax  

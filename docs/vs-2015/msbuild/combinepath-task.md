@@ -26,8 +26,6 @@ manager: "ghogen"
 # CombinePath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CombinePath Task](https://docs.microsoft.com/visualstudio/msbuild/combinepath-task).  
-  
   
 Combines the specified paths into a single path.  
   

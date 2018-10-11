@@ -21,8 +21,6 @@ manager: "ghogen"
 # NATIVE_ADDRESS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [NATIVE_ADDRESS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/native-address).  
-  
 This structure represents a native address.  
   
 ## Syntax  

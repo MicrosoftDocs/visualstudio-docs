@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::Delete
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2::Delete](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2-delete).  
-  
 Deletes this pending breakpoint and all breakpoints bound from it.  
   
 ## Syntax  

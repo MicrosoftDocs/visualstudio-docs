@@ -17,8 +17,6 @@ manager: "crdun"
 # Overview of Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overview of Visual Studio Tools for Unity](https://docs.microsoft.com/visualstudio/cross-platform/overview-of-visual-studio-tools-for-unity).  
-  
   
 In this section, you'll learn more about the features Visual Studio Tools for Unity offers, and how you can use them to become more productive with Unity.  
   

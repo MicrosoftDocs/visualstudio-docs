@@ -25,8 +25,6 @@ manager: "ghogen"
 # VSPerfReport
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPerfReport](https://docs.microsoft.com/visualstudio/profiling/vsperfreport).  
-  
 VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools profiling data files. The default report format is a .csv file.  
   
  VSPerfReport uses the following syntax:  

@@ -21,8 +21,6 @@ manager: "douge"
 # Link a use case to documents and diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Link a use case to documents and diagrams](https://docs.microsoft.com/visualstudio/modeling/link-a-use-case-to-documents-and-diagrams).  
-  
 You can link a use case in a use case diagram to another diagram or document. For example, you can link the use case to the following diagrams and documents:  
   
 -   A sequence diagram that shows how the goals of the use case are realized by interactions between users and the system or its major components.  

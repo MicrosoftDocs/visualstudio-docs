@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback2::RestrictDBGAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLoadCallback2::RestrictDBGAccess](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialoadcallback2-restrictdbgaccess).  
-  
 Determines if looking for debug information is allowed from .dbg files.  
   
 ## Syntax  

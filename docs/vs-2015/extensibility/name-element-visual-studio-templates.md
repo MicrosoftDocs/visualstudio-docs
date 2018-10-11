@@ -21,8 +21,6 @@ manager: "ghogen"
 # Name Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Name Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/name-element-visual-studio-templates).  
-  
 Specifies the name of the template as it appears in the **New Project** or **Add New Item** dialog box.  
   
  \<VSTemplate>  

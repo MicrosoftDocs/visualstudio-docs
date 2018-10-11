@@ -38,8 +38,6 @@ manager: "ghogen"
 # When Calling a Function Hundreds of Times, How Do I know Which Call Failed?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [When Calling a Function Hundreds of Times, How Do I know Which Call Failed?](https://docs.microsoft.com/visualstudio/debugger/when-calling-a-function-hundreds-of-times-how-do-i-know-which-call-failed-q).  
-  
 Problem Description  
  My program fails on a call to a certain function, `CnvtV`. The program probably calls that function a couple hundred times before it fails. If I set a location breakpoint on `CnvtV`, the program stops on every call to that function, and I do not want that. I do not know what conditions cause the call to fail, so I cannot set a conditional breakpoint. What can I do?  
   

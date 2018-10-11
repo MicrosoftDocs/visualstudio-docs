@@ -38,8 +38,6 @@ manager: "ghogen"
 # Diagnostic Messages in the Output Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Diagnostic Messages in the Output Window](https://docs.microsoft.com/visualstudio/debugger/diagnostic-messages-in-the-output-window).  
-  
 You can write run-time messages to the Output window using the Debug class or the Trace class, which are part of the <xref:System.Diagnostics> class library. Use the Debug class if you only output in the Debug version of your program. Use the Trace class if you want output in both the Debug and Release versions.  
   
 ## Output Methods  

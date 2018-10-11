@@ -18,8 +18,6 @@ manager: "ghogen"
 # Step 8: Write Code for the Show a Picture Button Event Handler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 8: Write Code for the Show a Picture Button Event Handler](https://docs.microsoft.com/visualstudio/ide/step-8-write-code-for-the-show-a-picture-button-event-handler).  
-  
 In this step, you make the **Show a picture** button work like this:  
   
 -   When a user chooses that button, the program opens an **Open File** dialog box.  

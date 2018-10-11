@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumStackFrames::Reset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumStackFrames::Reset](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumstackframes-reset).  
-  
 Resets the enumeration sequence to the beginning.  
   
 ## Syntax  

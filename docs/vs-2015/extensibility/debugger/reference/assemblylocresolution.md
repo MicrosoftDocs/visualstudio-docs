@@ -21,8 +21,6 @@ manager: "ghogen"
 # ASSEMBLYLOCRESOLUTION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ASSEMBLYLOCRESOLUTION](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/assemblylocresolution).  
-  
 Specifies where an assembly is located.  
   
 ## Syntax  

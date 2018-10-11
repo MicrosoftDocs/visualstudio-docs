@@ -18,8 +18,6 @@ manager: "ghogen"
 # Collecting .NET Framework Memory Data for Stand-Alone Applications by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting .NET Framework Memory Data for Stand-Alone Applications by Using the Profiler Command Line](https://docs.microsoft.com/visualstudio/profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line).  
-  
 This section describes the procedures and options for collecting memory allocation and object lifetime data for a .NET client (stand-alone) application by using the sampling method from the command line.  
   
 ## Common Tasks  

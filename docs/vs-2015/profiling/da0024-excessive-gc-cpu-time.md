@@ -22,8 +22,6 @@ manager: "ghogen"
 # DA0024: Excessive GC CPU Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0024: Excessive GC CPU Time](https://docs.microsoft.com/visualstudio/profiling/da0024-excessive-gc-cpu-time).  
-  
 Rule Id|DA0024|  
 |Category|.NET Framework Usage|  
 |Profiling method|All|  

@@ -31,8 +31,6 @@ manager: "ghogen"
 # Debugging User Interface Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging User Interface Reference](https://docs.microsoft.com/visualstudio/debugger/debugging-user-interface-reference).  
-  
 You may encounter the following dialog boxes as you debug your application.  
   
  You can automate many debugger features by using the Visual Studio extensibility model. For more information, see the Visual Studio Debugging SDK.  

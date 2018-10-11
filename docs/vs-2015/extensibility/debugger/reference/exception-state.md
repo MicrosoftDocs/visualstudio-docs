@@ -21,8 +21,6 @@ manager: "ghogen"
 # EXCEPTION_STATE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EXCEPTION_STATE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/exception-state).  
-  
 Specifies the exception state.  
   
 ## Syntax  

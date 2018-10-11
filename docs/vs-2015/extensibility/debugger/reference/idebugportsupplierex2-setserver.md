@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugPortSupplierEx2::SetServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplierEx2::SetServer](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplierex2-setserver).  
-  
 Sets the core server for the port supplier.  
   
 ## Syntax  

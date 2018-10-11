@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSegment::get_execute
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSegment::get_execute](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasegment-get-execute).  
-  
 Retrieves a flag that indicates whether the segment is executable.  
   
 ## Syntax  

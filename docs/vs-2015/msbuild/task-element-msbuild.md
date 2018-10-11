@@ -26,8 +26,6 @@ manager: "ghogen"
 # Task Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Task Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/task-element-msbuild).  
-  
   
 Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] task. The element name is determined by the name of the task being created.  
   

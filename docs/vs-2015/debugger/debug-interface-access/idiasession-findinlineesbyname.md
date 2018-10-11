@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSession::findInlineesByName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findInlineesByName](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findinlineesbyname).  
-  
 Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_liveRangeStartAddressSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_liveRangeStartAddressSection](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-liverangestartaddresssection).  
-  
 Returns the section part of the starting address of the range in which the local symbol is valid.  
   
 ## Syntax  

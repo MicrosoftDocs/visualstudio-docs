@@ -19,8 +19,6 @@ manager: "ghogen"
 # Exception Handling (Visual Studio SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Exception Handling (Visual Studio SDK)](https://docs.microsoft.com/visualstudio/extensibility/debugger/exception-handling-visual-studio-sdk).  
-  
 The following describes the process that occurs when exceptions are thrown.  
   
 ## Exception Handling Process  

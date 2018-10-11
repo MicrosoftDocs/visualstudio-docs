@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_intrinsic
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_intrinsic](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-intrinsic).  
-  
 Retrieves a flag that specifies whether a class is an intrinsic type.  
   
 ## Syntax  

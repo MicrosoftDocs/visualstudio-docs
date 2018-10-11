@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccGetCommandOptions Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccGetCommandOptions Function](https://docs.microsoft.com/visualstudio/extensibility/sccgetcommandoptions-function).  
-  
 This function prompts the user for advanced options for a given command.  
   
 ## Syntax  

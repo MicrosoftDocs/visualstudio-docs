@@ -26,8 +26,6 @@ manager: "ghogen"
 # GenerateTrustInfo Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GenerateTrustInfo Task](https://docs.microsoft.com/visualstudio/msbuild/generatetrustinfo-task).  
-  
   
 Generates the application trust from the base manifest, and from the `TargetZone` and `ExcludedPermissions` parameters.  
   

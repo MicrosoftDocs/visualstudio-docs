@@ -29,8 +29,6 @@ manager: "ghogen"
 # VCMessage Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VCMessage Task](https://docs.microsoft.com/visualstudio/msbuild/vcmessage-task).  
-  
   
 Logs warning and error messages during a build.  
   

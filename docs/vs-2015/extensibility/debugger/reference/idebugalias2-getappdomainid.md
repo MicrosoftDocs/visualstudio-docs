@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugAlias2::GetAppDomainId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAlias2::GetAppDomainId](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugalias2-getappdomainid).  
-  
 Retrieves the identifier for the application domain.  
   
 ## Syntax  

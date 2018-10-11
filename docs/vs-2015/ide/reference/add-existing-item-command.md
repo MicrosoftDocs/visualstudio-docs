@@ -23,8 +23,6 @@ manager: "ghogen"
 # Add Existing Item Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add Existing Item Command](https://docs.microsoft.com/visualstudio/ide/reference/add-existing-item-command).  
-  
   
 Adds an existing file to the current solution and opens it.  
   

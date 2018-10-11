@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1043: Use integral or string argument for indexers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1043: Use integral or string argument for indexers](https://docs.microsoft.com/visualstudio/code-quality/ca1043-use-integral-or-string-argument-for-indexers).
-
 |||
 |-|-|
 |TypeName|UseIntegralOrStringArgumentForIndexers|

@@ -20,8 +20,6 @@ manager: "ghogen"
 # Import and Export Settings, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Import and Export Settings, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/import-and-export-settings-environment-options-dialog-box).  
-  
   
 Use this page to specify where your user settings file is saved and whether to use a team settings file. For more information about settings, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   

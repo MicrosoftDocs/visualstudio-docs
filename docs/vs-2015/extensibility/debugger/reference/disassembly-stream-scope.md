@@ -21,8 +21,6 @@ manager: "ghogen"
 # DISASSEMBLY_STREAM_SCOPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DISASSEMBLY_STREAM_SCOPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/disassembly-stream-scope).  
-  
 Specifies the scope of the disassembly stream.  
   
 ## Syntax  

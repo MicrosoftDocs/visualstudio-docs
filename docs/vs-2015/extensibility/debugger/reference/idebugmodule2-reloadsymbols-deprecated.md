@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugModule2::ReloadSymbols_Deprecated
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugModule2::ReloadSymbols_Deprecated](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmodule2-reloadsymbols-deprecated).  
-  
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.  
   
 ## Syntax  

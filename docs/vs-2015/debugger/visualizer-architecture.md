@@ -23,8 +23,6 @@ manager: "ghogen"
 # Visualizer Architecture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visualizer Architecture](https://docs.microsoft.com/visualstudio/debugger/visualizer-architecture).  
-  
 The architecture of a debugger visualizer has two parts:  
   
 -   The *debugger side* runs within the Visual Studio debugger. The debugger-side code creates and displays the user interface for your visualizer.  

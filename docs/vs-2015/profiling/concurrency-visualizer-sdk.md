@@ -20,8 +20,6 @@ manager: "ghogen"
 # Concurrency Visualizer SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Concurrency Visualizer SDK](https://docs.microsoft.com/visualstudio/profiling/concurrency-visualizer-sdk).  
-  
 You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](http://go.microsoft.com/fwlink/?LinkId=235405).  
   
 ## Properties  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # Automation Support for Options Pages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Automation Support for Options Pages](https://docs.microsoft.com/visualstudio/extensibility/internals/automation-support-for-options-pages).  
-  
 VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (Tools Options pages) in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] and can make them available to the automation model.  
   
 ## Tools Options Pages  

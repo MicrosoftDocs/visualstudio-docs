@@ -22,8 +22,6 @@ manager: "ghogen"
 # Adding a Submenu to a Menu
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Submenu to a Menu](https://docs.microsoft.com/visualstudio/extensibility/adding-a-submenu-to-a-menu).  
-  
 This walkthrough builds on the demonstration in [Adding a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) by showing how to add a submenu to the **TestMenu** menu.  
   
  A submenu is a secondary menu that appears in another menu. A submenu can be identified by the arrow that follows its name. Clicking the name causes the submenu and its commands to be displayed.  

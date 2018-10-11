@@ -20,8 +20,6 @@ manager: "ghogen"
 # Button Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Button Element](https://docs.microsoft.com/visualstudio/extensibility/button-element).  
-  
 Defines an element that the user can interact with. Buttons can be of different kinds: Button, MenuButton, and SplitDropDown.  
   
 ## Syntax  

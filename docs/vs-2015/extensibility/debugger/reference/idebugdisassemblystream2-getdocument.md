@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetDocument
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDisassemblyStream2::GetDocument](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdisassemblystream2-getdocument).  
-  
 Gets the source document associated with this input stream.  
   
 ## Syntax  

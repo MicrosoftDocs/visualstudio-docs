@@ -28,8 +28,6 @@ manager: "ghogen"
 # How to: Set Code Analysis Properties for C/C++ Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set Code Analysis Properties for C/C++ Projects](https://docs.microsoft.com/visualstudio/code-quality/how-to-set-code-analysis-properties-for-c-cpp-projects).  
-  
 You can configure which rules the code analysis tool uses to analyze the code in each configuration of your project. In addition, you can direct code analysis to suppress warnings from code that was generated and added to your project by a third-party tool.  
   
 ## Code Analysis Property Page  

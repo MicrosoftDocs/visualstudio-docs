@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Register for Text Buffer Events with the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Register for Text Buffer Events with the Legacy API](https://docs.microsoft.com/visualstudio/extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api).  
-  
 If you are accessing the text buffer by using the legacy API, you should register for text buffer events as shown in the following procedure.  
   
 ### To advise text buffer events  

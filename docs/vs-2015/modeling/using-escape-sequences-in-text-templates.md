@@ -18,8 +18,6 @@ manager: "douge"
 # Using Escape Sequences in Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Escape Sequences in Text Templates](https://docs.microsoft.com/visualstudio/modeling/using-escape-sequences-in-text-templates).  
-  
 You can use escape sequences in text templates to generate text template tags and (in C# code only) to escape control characters and quotation marks.  
   
  To print open and close tags for a standard code block to the output file, escape the tags as follows:  

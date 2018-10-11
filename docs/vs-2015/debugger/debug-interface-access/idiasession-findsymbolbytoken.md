@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession::findSymbolByToken
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findSymbolByToken](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findsymbolbytoken).  
-  
 Retrieves the symbol that contains a specified metadata token.  
   
 ## Syntax  

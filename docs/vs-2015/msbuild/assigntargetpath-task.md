@@ -23,8 +23,6 @@ manager: "ghogen"
 # AssignTargetPath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AssignTargetPath Task](https://docs.microsoft.com/visualstudio/msbuild/assigntargetpath-task).  
-  
   
 This task accepts a list files and adds `<TargetPath>` attributes if they are not already specified.  
   

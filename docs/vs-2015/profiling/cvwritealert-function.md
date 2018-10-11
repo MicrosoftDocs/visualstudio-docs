@@ -28,8 +28,6 @@ manager: "ghogen"
 # CvWriteAlert Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvWriteAlert Function](https://docs.microsoft.com/visualstudio/profiling/cvwritealert-function).  
-  
 Writes an alert to the Concurrency Visualizer trace file.  
   
 ## Syntax  

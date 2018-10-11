@@ -21,8 +21,6 @@ manager: "douge"
 # Define packages and namespaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define packages and namespaces](https://docs.microsoft.com/visualstudio/modeling/define-packages-and-namespaces).  
-  
 In Visual Studio, a *package* is a container for the definitions of UML elements such as classes, use cases, and components. A package can also contain other packages.  
   
  In UML Model Explorer, all the definitions inside a package are nested underneath the package. The UML model is a kind of package, and forms the root of the tree.  

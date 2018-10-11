@@ -24,8 +24,6 @@ manager: "wpickett"
 # Naming Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Naming Warnings](https://docs.microsoft.com/visualstudio/code-quality/naming-warnings).  
-  
 Naming warnings support adherence to the naming conventions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] Design Guidelines.  
   
 ## In This Section  

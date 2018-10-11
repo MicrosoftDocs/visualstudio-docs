@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_REQUEST_INFO2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_REQUEST_INFO2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-request-info2).  
-  
 Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint.  
   
 ## Syntax  

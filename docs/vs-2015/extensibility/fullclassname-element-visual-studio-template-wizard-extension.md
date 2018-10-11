@@ -21,8 +21,6 @@ manager: "ghogen"
 # FullClassName Element (Visual Studio Template Wizard Extension)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FullClassName Element (Visual Studio Template Wizard Extension)](https://docs.microsoft.com/visualstudio/extensibility/fullclassname-element-visual-studio-template-wizard-extension).  
-  
 The fully qualified name of the class that implements the `IWizard` interface.  
   
  \<VSTemplate>  

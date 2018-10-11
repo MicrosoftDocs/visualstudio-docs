@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplier2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplier2).  
-  
 This interface supplies ports to the session debug manager (SDM).  
   
 ## Syntax  

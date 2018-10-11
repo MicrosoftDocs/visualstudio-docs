@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugGenericParamField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericParamField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericparamfield).  
-  
 Represents a parameter for a managed code generic type.  
   
 ## Syntax  

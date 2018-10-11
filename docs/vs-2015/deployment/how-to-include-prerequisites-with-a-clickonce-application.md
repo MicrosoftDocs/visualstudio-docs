@@ -18,8 +18,6 @@ manager: "wpickett"
 # How to: Include Prerequisites with a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Include Prerequisites with a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-include-prerequisites-with-a-clickonce-application).  
-  
 Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren’t in the **Packages** folder.  
   
 > [!NOTE]

@@ -16,8 +16,6 @@ manager: "douge"
 # Visual Studio Architecture Tooling Guidance
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Architecture Tooling Guidance](https://docs.microsoft.com/visualstudio/modeling/visual-studio-architecture-tooling-guidance).  
-  
 This Architecture Tooling Guidance is a downloadable package of practical guidance about the use of the modeling tools in Visual Studio 2010. It presents a high-level view of how to use all the modeling tools in an integrated manner, and discusses the most common scenarios in which the tools are used.  
   
  The content was created by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ALM Rangers, a special group that has members from the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Product Team, Microsoft Services, Microsoft Most Valued Professionals (MVPs), and [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Community Leads.  

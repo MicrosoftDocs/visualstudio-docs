@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDebugBoundBreakpoint2::GetHitCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBoundBreakpoint2::GetHitCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugboundbreakpoint2-gethitcount).  
-  
 Gets the current hit count for this bound breakpoint.  
   
 ## Syntax  

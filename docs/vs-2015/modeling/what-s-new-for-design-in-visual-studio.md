@@ -21,9 +21,6 @@ manager: "douge"
 ---
 # What's new for design in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [What&#39;s new for design in Visual Studio](https://docs.microsoft.com/visualstudio/modeling/what-s-new-for-design-in-visual-studio).
-
 This release of Visual Studio includes the following improvements to help you better understand and design code.
 
  **Code maps and dependency graphs**

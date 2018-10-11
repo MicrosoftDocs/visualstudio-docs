@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession).  
-  
 Provides a query context for debug symbols.  
   
 ## Syntax  

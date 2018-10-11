@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2).  
-  
 This interface represents a breakpoint that is ready to bind to a code location.  
   
 ## Syntax  

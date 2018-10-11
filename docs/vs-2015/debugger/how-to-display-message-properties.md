@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Display Message Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display Message Properties](https://docs.microsoft.com/visualstudio/debugger/how-to-display-message-properties).  
-  
 To find out more about a message listed in [Messages View](../debugger/messages-view.md), use the [Message Properties Dialog Box](../debugger/message-properties-dialog-box.md).  
   
 ### To open a Message Properties dialog box  

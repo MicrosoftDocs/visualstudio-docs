@@ -26,8 +26,6 @@ manager: "ghogen"
 # UDT
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UDT](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/udt).  
-  
 Each class, structure, and union is identified by a `SymTagUDT` symbol. Each member, function, data, or nested type, and each base class, appears as a class child of the user-defined type (UDT).  
   
 ## Properties  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_access
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_access](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-access).  
-  
 Retrieves the access modifier of a class member.  
   
 ## Syntax  

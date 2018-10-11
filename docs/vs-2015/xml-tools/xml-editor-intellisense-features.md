@@ -18,8 +18,6 @@ manager: "ghogen"
 # XML Editor IntelliSense Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XML Editor IntelliSense Features](https://docs.microsoft.com/visualstudio/xml-tools/xml-editor-intellisense-features).  
-  
   
 The XML Editor provides full IntelliSense features comparable to other language editors provided in Visual Studio. This section explains how you can use the IntelliSense with XML Schema definition language (XSD) and XSLT documents.  
   

@@ -22,8 +22,6 @@ manager: "douge"
 # How to: Create a Domain-Specific Language Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Domain-Specific Language Solution](https://docs.microsoft.com/visualstudio/modeling/how-to-create-a-domain-specific-language-solution).  
-  
 A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.  
   
 ## Prerequisites  

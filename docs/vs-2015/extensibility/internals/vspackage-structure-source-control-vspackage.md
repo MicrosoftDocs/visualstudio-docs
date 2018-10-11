@@ -20,8 +20,6 @@ manager: "ghogen"
 # VSPackage Structure (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPackage Structure (Source Control VSPackage)](https://docs.microsoft.com/visualstudio/extensibility/internals/vspackage-structure-source-control-vspackage).  
-  
 The Source Control Package SDK provides guidelines for creating a VSPackage that allow a source control implementer to integrate his or her source control functionality with the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] environment. A VSPackage is a COM component that is typically loaded on demand by the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) based on the services that are advertised by the package in its registry entries. Every VSPackage must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. A VSPackage typically consumes services offered by the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE and proffers some services of its own.  
   
  A VSPackage declares its menu items and establishes a default item state via the .vsct file. The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE displays the menu items in this state until the VSPackage is loaded. Subsequently, the VSPackage's implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method is called to enable or disable menu items.  

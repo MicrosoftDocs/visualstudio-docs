@@ -18,8 +18,6 @@ manager: "douge"
 # Read a UML model in program code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Read a UML model in program code](https://docs.microsoft.com/visualstudio/modeling/read-a-uml-model-in-program-code).  
-  
 You can load a UML model and its diagrams using the UML API.  
   
 ##  <a name="Reading"></a> Reading a Model in Program Code  

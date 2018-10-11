@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2211: Non-constant fields should not be visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2211: Non-constant fields should not be visible](https://docs.microsoft.com/visualstudio/code-quality/ca2211-non-constant-fields-should-not-be-visible).
-
 |||
 |-|-|
 |TypeName|NonConstantFieldsShouldNotBeVisible|

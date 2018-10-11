@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_program](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-program).  
-  
 Retrieves the program string that is used to compute the register set before the call to the current function.  
   
 ## Syntax  

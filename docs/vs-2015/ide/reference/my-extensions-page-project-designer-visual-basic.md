@@ -23,8 +23,6 @@ manager: "ghogen"
 # My Extensions Page, Project Designer (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [My Extensions Page, Project Designer (Visual Basic)](https://docs.microsoft.com/visualstudio/ide/reference/my-extensions-page-project-designer-visual-basic).  
-  
   
 Use the **My Extensions** page of the **Project Designer** to manage `My` namespace extensions in your project. `My` namespace extensions enable you to customize the `My` namespace to add your own custom members. For information about creating custom `My` namespace extensions, see [Extending the My Namespace in Visual Basic](http://msdn.microsoft.com/library/808e8617-b01c-4135-8b21-babe87389e8e).  
   

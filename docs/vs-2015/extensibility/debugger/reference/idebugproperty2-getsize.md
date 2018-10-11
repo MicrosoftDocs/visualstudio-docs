@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-getsize).  
-  
 Gets the size, in bytes, of the property value.  
   
 ## Syntax  

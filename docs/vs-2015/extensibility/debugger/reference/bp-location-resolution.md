@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_RESOLUTION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_LOCATION_RESOLUTION](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-location-resolution).  
-  
 Describes the resolution of a breakpoint at a specific location.  
   
 ## Syntax  

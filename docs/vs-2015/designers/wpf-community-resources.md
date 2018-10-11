@@ -18,8 +18,6 @@ manager: "ghogen"
 # WPF Community Resources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WPF Community Resources](https://docs.microsoft.com/visualstudio/designers/wpf-community-resources).  
-  
 Microsoft exposes a variety of community resources for you to learn about, discuss, and provide feedback on Windows Presentation Foundation (WPF), including blogs produced by WPF team members and community leaders, forums, and the Microsoft Connect feedback center.  
   
 ## Community  

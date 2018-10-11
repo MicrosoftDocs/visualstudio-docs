@@ -22,8 +22,6 @@ manager: "ghogen"
 # CommandPlacements Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CommandPlacements Element](https://docs.microsoft.com/visualstudio/extensibility/commandplacements-element).  
-  
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.  
   
  The CommandPlacements element is optional. If no commands, groups, or menus must be included in a secondary location, you do not have to include this section in your .vsct file.  

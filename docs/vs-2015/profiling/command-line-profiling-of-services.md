@@ -21,8 +21,6 @@ manager: "ghogen"
 # Command-Line Profiling of Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command-Line Profiling of Services](https://docs.microsoft.com/visualstudio/profiling/command-line-profiling-of-services).  
-  
 This section describes the procedures and options for collecting performance data for Windows services by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools from the command line.  
   
 > [!NOTE]

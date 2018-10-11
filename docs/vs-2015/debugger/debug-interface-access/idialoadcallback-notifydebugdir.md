@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaLoadCallback::NotifyDebugDir
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLoadCallback::NotifyDebugDir](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialoadcallback-notifydebugdir).  
-  
 Called when a debug directory was found in the .exe file.  
   
 ## Syntax  

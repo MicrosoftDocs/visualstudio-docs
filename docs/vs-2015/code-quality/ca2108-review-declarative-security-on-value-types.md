@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2108: Review declarative security on value types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2108: Review declarative security on value types](https://docs.microsoft.com/visualstudio/code-quality/ca2108-review-declarative-security-on-value-types).
-
 |||
 |-|-|
 |TypeName|ReviewDeclarativeSecurityOnValueTypes|

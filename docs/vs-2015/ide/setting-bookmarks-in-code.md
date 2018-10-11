@@ -20,8 +20,6 @@ manager: "ghogen"
 # Setting Bookmarks in Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Setting Bookmarks in Code](https://docs.microsoft.com/visualstudio/ide/setting-bookmarks-in-code).  
-  
 You can use bookmarks to mark lines in your code so that you can quickly return to a specific location and jump back and forth between locations.  
   
  Bookmark commands and icons are available in two places: the bookmark window (**View/Bookmark Window**) and the text editor toolbar.  

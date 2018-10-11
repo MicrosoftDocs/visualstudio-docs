@@ -19,8 +19,6 @@ manager: "ghogen"
 # Commands That Must Be Run After Installation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Commands That Must Be Run After Installation](https://docs.microsoft.com/visualstudio/extensibility/internals/commands-that-must-be-run-after-installation).  
-  
 If you deploy your extension through an .msi file, you must run `devenv /setup` as part of your installation in order for Visual Studio to discover your extensions.  
   
 > [!NOTE]

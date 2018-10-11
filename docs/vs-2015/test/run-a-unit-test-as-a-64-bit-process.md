@@ -20,8 +20,6 @@ manager: "douge"
 # Run a unit test as a 64-bit process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Run a unit test as a 64-bit process](https://docs.microsoft.com/visualstudio/test/run-a-unit-test-as-a-64-bit-process).  
-  
 If you have a 64-bit machine, you can run unit tests and capture code coverage information as a 64-bit process.  
   
 ## Running a unit test as a 64-bit process  

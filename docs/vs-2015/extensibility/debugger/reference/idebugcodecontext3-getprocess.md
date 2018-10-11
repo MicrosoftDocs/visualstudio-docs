@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugCodeContext3::GetProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCodeContext3::GetProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcodecontext3-getprocess).  
-  
 Retrieves a reference to the interface of the debug process.  
   
 ## Syntax  

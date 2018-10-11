@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugExpression2::EvaluateSync
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpression2::EvaluateSync](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpression2-evaluatesync).  
-  
 This method evaluates the expression synchronously.  
   
 ## Syntax  

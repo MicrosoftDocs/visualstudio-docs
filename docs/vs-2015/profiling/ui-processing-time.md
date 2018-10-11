@@ -22,8 +22,6 @@ manager: "ghogen"
 # UI Processing Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UI Processing Time](https://docs.microsoft.com/visualstudio/profiling/ui-processing-time).  
-  
 These segments in the timeline are associated with blocking times that are categorized as UI Processing. This implies that a thread is pumping Windows messages or performing other user interface (UI) work. During this time, a thread has been blocked in an API that the Concurrency Visualizer is counting as UI Processing. APIs such as `GetMessage()` and `MsgWaitForMultipleObjects()` fall into this group.  
   
  If no pre-defined blocking API is identified, review the call stacks and profile reports to determine the underlying causes of delay.  

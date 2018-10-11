@@ -18,8 +18,6 @@ manager: "wpickett"
 # How to: Enable and Disable Full Solution Analysis for Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Enable and Disable Full Solution Analysis for Managed Code](https://docs.microsoft.com/visualstudio/code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code).  
-  
 NOTE]
 >  This topic applies only to Visual Studio 2015 Update 3 RC and later.  
   

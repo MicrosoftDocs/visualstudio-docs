@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::LoadSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3::LoadSymbols](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3-loadsymbols).  
-  
 Loads (as necessary) symbols for all modules being debugged by this debugging engine.  
   
 ## Syntax  

@@ -18,8 +18,6 @@ manager: "ghogen"
 # Graph View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graph View](https://docs.microsoft.com/visualstudio/xml-tools/graph-view).  
-  
   
 The Graph View provides a graphic representation of global schema nodes and the relationships between the nodes. Note that the Graph View does not allow you to alter the layout of the schema set on the design surface. The Graph View also includes the XML Schema Designer toolbar and the breadcrumb bar.  
   

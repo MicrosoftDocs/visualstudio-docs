@@ -27,8 +27,6 @@ manager: "ghogen"
 # Limitations on Script Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Limitations on Script Debugging](https://docs.microsoft.com/visualstudio/debugger/limitations-on-script-debugging).  
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports the debugging of client-side script, subject to the limitations in this topic.  
   
 ## Limitations on Breakpoint Mapping with Client-Side Script  

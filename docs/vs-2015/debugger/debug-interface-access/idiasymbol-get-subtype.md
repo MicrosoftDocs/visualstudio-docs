@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_subType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_subType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-subtype).  
-  
 Retrieves the sub type.  
   
 ## Syntax  

@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Model 3-D Terrain
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Model 3-D Terrain](https://docs.microsoft.com/visualstudio/designers/how-to-model-3-d-terrain).  
-  
 This document demonstrates how to use the Model Editor to create a 3-D terrain model.  
   
  This document demonstrates these activities:  

@@ -28,8 +28,6 @@ manager: "ghogen"
 # Csc Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Csc Task](https://docs.microsoft.com/visualstudio/msbuild/csc-task).  
-  
   
 Wraps CSC.exe, and produces executables (.exe files), dynamic-link libraries (.dll files), or code modules (.netmodule files). For more information about CSC.exe, see [C# Compiler Options](http://msdn.microsoft.com/library/d3403556-1816-4546-a782-e8223a772e44).  
   

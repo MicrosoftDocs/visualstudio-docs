@@ -23,8 +23,6 @@ manager: "ghogen"
 # Parameter Info in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Parameter Info in a Legacy Language Service1](https://docs.microsoft.com/visualstudio/extensibility/internals/parameter-info-in-a-legacy-language-service1).  
-  
 The IntelliSense Parameter Info tooltip provides users with hints about where they are in a language construct.  
   
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).  

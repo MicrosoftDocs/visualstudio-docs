@@ -32,8 +32,6 @@ manager: "ghogen"
 # Debugging Preparation: Windows Forms Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Preparation: Windows Forms Applications](https://docs.microsoft.com/visualstudio/debugger/debugging-preparation-windows-forms-applications).  
-  
 The Windows Forms project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is straightforward. For more information, see [Creating a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa).  
   
  When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings. These settings can be changed in the **\<project name> Property Pages** dialog box (**My Project** in Visual Basic).  

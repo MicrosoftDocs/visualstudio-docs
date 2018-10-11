@@ -19,8 +19,6 @@ manager: "ghogen"
 # m_children Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [m_children Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/m-children-field).  
-  
 The list of child tasks that are registered with this task.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

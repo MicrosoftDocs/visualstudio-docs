@@ -19,8 +19,6 @@ manager: "ghogen"
 # Restrictions on String Lengths
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Restrictions on String Lengths](https://docs.microsoft.com/visualstudio/extensibility/restrictions-on-string-lengths).  
-  
 The Source Control Plug-in API limits the lengths of strings used in various functions.  
   
 ## String Length Values  

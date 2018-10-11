@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Control Messages View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Control Messages View](https://docs.microsoft.com/visualstudio/debugger/how-to-control-messages-view).  
-  
 With Spy++, you have considerable control over the content of a [Messages View](../debugger/messages-view.md) window. You can [start and stop](../debugger/how-to-start-and-stop-the-message-log-display.md) displaying the messages at any time, and you can specify:  
   
 -   Which message types you want to see.  

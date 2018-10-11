@@ -23,8 +23,6 @@ manager: "douge"
 # Define a profile to extend UML
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define a profile to extend UML](https://docs.microsoft.com/visualstudio/modeling/define-a-profile-to-extend-uml).  
-  
 You can define a *UML profile* to customize the standard model elements for specific purposes. A profile defines one or more *UML stereotypes*. A stereotype can be used to mark a type as representing a particular kind of object. A stereotype can also extend an element's list of properties.  
   
  Several profiles are installed with supported editions of Visual Studio. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport). For more information about those profiles and about how to apply stereotypes, see [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md).  

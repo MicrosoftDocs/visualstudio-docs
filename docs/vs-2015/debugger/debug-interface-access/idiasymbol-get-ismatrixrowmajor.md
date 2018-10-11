@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isMatrixRowMajor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isMatrixRowMajor](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-ismatrixrowmajor).  
-  
 Specifies whether the matrix is row major.  
   
 ## Syntax  

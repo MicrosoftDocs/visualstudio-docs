@@ -20,8 +20,6 @@ manager: "ghogen"
 # Output Tab, Message Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Output Tab, Message Options Dialog Box](https://docs.microsoft.com/visualstudio/debugger/output-tab-message-options-dialog-box).  
-  
 Use the **Output** tab to specify what data from each message to list in [Messages View](../debugger/messages-view.md). To display the [Message Options Dialog Box](../debugger/message-options-dialog-box.md), choose **Log Messages** from the **Spy** menu.  
   
  The following settings are available on the **Output** tab:  

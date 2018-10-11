@@ -17,8 +17,6 @@ manager: "douge"
 # Sample Excel Communicator Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Excel Communicator Interface](https://docs.microsoft.com/visualstudio/test/sample-excel-communicator-interface).  
-  
 The sample `IExcelUICommunication` interface is used in the `ExcelUICommunicator` object in the `ExcelAddIn` project.  
   
 ## IExcelUICommunication Interface  

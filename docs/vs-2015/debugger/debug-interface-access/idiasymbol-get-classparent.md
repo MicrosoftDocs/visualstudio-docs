@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_classParent
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_classParent](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-classparent).  
-  
 Retrieves a reference to the class parent of the symbol.  
   
 ## Syntax  

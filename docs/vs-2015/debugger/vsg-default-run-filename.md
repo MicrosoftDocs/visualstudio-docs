@@ -18,8 +18,6 @@ manager: "ghogen"
 # VSG_DEFAULT_RUN_FILENAME
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSG_DEFAULT_RUN_FILENAME](https://docs.microsoft.com/visualstudio/debugger/graphics/vsg-default-run-filename).  
-  
 Defines the default file name of the graphics log file.  
   
 ## Syntax  

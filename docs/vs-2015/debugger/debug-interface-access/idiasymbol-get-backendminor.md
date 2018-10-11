@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_backEndMinor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_backEndMinor](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-backendminor).  
-  
 Retrieves the back end minor version number of the compiler.  
   
 ## Syntax  

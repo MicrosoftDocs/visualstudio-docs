@@ -18,8 +18,6 @@ manager: "ghogen"
 # Keyboard shortcuts and modifier keys in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Keyboard shortcuts and modifier keys in Blend](https://docs.microsoft.com/visualstudio/designers/keyboard-shortcuts-and-modifier-keys-in-blend).  
-  
 Keyboard shortcuts can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut. Keyboard shortcuts in [!INCLUDE[blend_first](../includes/blend-first-md.md)] come in the following two categories:  
   
 -   **Access keys** You can use access keys to access a menu command or an area in a dialog box by pressing a specific key on the keyboard. Access keys are identified by underscores that appear in the currently selected command or dialog box.  

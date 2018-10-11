@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaTable::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaTable::get_Count](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiatable-get-count).  
-  
 Retrieves the number of items in the table.  
   
 ## Syntax  

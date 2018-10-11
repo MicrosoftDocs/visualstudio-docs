@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1056: URI properties should not be strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1056: URI properties should not be strings](https://docs.microsoft.com/visualstudio/code-quality/ca1056-uri-properties-should-not-be-strings).
-
 |||
 |-|-|
 |TypeName|UriPropertiesShouldNotBeStrings|

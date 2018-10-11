@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_targetSection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_targetSection](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-targetsection).  
-  
 Retrieves the address section of a thunk target.  
   
 ## Syntax  

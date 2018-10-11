@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_age
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_age](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-age).  
-  
 Retrieves the age value of a .pdb file.  
   
 ## Syntax  

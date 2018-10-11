@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Use the Finder Tool
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use the Finder Tool](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-finder-tool).  
-  
 You can use the Finder Tool in the **Find Window** dialog box to display window properties or messages. The Finder Tool can also locate disabled child windows, and discern which window to highlight if disabled child windows overlap.  
   
  ![Spy&#43;&#43; Find Window Dialog Box](../debugger/media/icon-spy-find.png "Icon_Spy++_Find")  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::ReplaceSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::ReplaceSymbols](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-replacesymbols).  
-  
 Replaces the current debug symbols with those in the specified data stream.  
   
 ## Syntax  

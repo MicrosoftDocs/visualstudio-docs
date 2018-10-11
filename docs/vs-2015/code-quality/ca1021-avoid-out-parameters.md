@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1021: Avoid out parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1021: Avoid out parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1021-avoid-out-parameters).
-
 |||
 |-|-|
 |TypeName|AvoidOutParameters|

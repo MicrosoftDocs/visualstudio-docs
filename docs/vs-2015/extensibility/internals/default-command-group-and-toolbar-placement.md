@@ -24,8 +24,6 @@ manager: "ghogen"
 # Default Command, Group, and Toolbar Placement
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Default Command, Group, and Toolbar Placement](https://docs.microsoft.com/visualstudio/extensibility/internals/default-command-group-and-toolbar-placement).  
-  
 For product uniformity and stability, the UI displays certain command groups by default, and [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] provides definitions for commands and command groups. VSPackages can also use the standard commands and command groups.  
   
  The default command groups fall into three categories: IDE commands, product commands, and editor commands.  

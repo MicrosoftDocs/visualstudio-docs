@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_discardable
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_discardable](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-discardable).  
-  
 Retrieves a flag that indicates whether the section can be discarded.  
   
 ## Syntax  

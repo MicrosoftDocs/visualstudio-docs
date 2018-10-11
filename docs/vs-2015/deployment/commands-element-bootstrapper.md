@@ -25,8 +25,6 @@ manager: "wpickett"
 # &lt;Commands&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;Commands&gt; Element (Bootstrapper)](https://docs.microsoft.com/visualstudio/deployment/commands-element-bootstrapper).  
-  
 The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] bootstrapper should install if the test fails.  
   
 ## Syntax  

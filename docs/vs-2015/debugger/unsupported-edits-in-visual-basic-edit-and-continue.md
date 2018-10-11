@@ -26,8 +26,6 @@ manager: "ghogen"
 # Unsupported Edits in Visual Basic Edit and Continue
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unsupported Edits in Visual Basic Edit and Continue](https://docs.microsoft.com/visualstudio/debugger/unsupported-edits-in-visual-basic-edit-and-continue).  
-  
 Edit and Continue les you stop program execution in Break mode, make changes to the executing code, and resume program execution with the newly incorporated changes. Declarative code edits that affect the public structure of a class are generally prohibited, but many edits that you might make to a method, property body, or private declarations within a class are allowed.  
   
  If you need to make a change that is not supported, you must stop debugging, make the changes, and start a new debugging session.  

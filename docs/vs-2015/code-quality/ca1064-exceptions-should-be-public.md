@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1064: Exceptions should be public
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1064: Exceptions should be public](https://docs.microsoft.com/visualstudio/code-quality/ca1064-exceptions-should-be-public).
-
 |||
 |-|-|
 |TypeName|ExceptionsShouldBePublic|

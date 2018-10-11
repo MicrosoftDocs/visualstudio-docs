@@ -17,8 +17,6 @@ manager: "ghogen"
 # VSIXLanguagePack Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSIXLanguagePack Element (VSIX Language Pack Schema)](https://docs.microsoft.com/visualstudio/extensibility/vsixlanguagepack-element-vsix-language-pack-schema).  
-  
 Required. Provides the root element for a VSIX language pack. The VSIX language pack provides localized installation information for a VSIX package.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # VSTextBuffer Object
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSTextBuffer Object](https://docs.microsoft.com/visualstudio/extensibility/vstextbuffer-object).  
-  
 The text buffer object represents a stream of Unicode text, which is generally associated with a file. A <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object can be used outside the context of the core editor, as in the case of a wizard.  
   
  The following table shows the interfaces of `VSTextBuffer`.  

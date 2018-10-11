@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession::findLinesByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findLinesByRVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findlinesbyrva).  
-  
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).  
   
 ## Syntax  

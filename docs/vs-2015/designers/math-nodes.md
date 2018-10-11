@@ -18,8 +18,6 @@ manager: "ghogen"
 # Math Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Math Nodes](https://docs.microsoft.com/visualstudio/designers/math-nodes).  
-  
 In the Shader Designer, math nodes perform algebraic, logic, trigonometric, and other mathematical operations.  
   
 > [!NOTE]

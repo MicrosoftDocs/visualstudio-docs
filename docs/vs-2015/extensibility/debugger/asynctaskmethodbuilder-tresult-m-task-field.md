@@ -19,8 +19,6 @@ manager: "ghogen"
 # AsyncTaskMethodBuilder&lt;TResult&gt;.m_task Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AsyncTaskMethodBuilder&lt;TResult&gt;.m_task Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/asynctaskmethodbuilder-tresult-m-task-field).  
-  
 Represents the lazily initialized built task.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

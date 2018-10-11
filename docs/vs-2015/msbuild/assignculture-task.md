@@ -28,8 +28,6 @@ manager: "ghogen"
 # AssignCulture Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AssignCulture Task](https://docs.microsoft.com/visualstudio/msbuild/assignculture-task).  
-  
   
 This task accepts a list of items that may contain a valid .NET culture identifier string as part of the file name, and produces items that have a metadata named `Culture` containing the corresponding culture identifier. For example, the file name Form1.fr-fr.resx has an embedded culture identifier "fr-fr", so this task will produce an item that has the same filename with the metadata `Culture` equal to `fr-fr`. The task also produces a list of filenames with the culture removed from the filename.  
   

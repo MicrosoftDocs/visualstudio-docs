@@ -22,8 +22,6 @@ manager: "ghogen"
 # LocationType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LocationType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/locationtype).  
-  
 Indicates the kind of location information contained in a symbol.  
   
 ## Syntax  

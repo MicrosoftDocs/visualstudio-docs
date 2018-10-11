@@ -28,8 +28,6 @@ manager: "wpickett"
 # &lt;Strings&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;Strings&gt; Element (Bootstrapper)](https://docs.microsoft.com/visualstudio/deployment/strings-element-bootstrapper).  
-  
 Defines localized strings for product names, package names, and installation error messages.  
   
 ## Syntax  

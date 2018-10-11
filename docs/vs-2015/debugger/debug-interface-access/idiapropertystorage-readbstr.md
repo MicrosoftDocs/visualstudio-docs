@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage::ReadBSTR
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaPropertyStorage::ReadBSTR](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiapropertystorage-readbstr).  
-  
 Reads `BSTR` values in a property set.  
   
 ## Syntax  

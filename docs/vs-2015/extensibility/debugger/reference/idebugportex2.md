@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEx2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportex2).  
-  
 This interface lets the session debug manager (SDM) control the programs and processes running on a port.  
   
 ## Syntax  

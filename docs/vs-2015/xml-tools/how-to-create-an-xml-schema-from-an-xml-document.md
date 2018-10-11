@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create an XML Schema from an XML Document
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create an XML Schema from an XML Document](https://docs.microsoft.com/visualstudio/xml-tools/how-to-create-an-xml-schema-from-an-xml-document).  
-  
   
 The XML Editor allows you to create an XML Schema definition language (XSD) schema from an XML document. The XML instance document determines how the schema is generated in the following manner:  
   

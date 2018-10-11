@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isSafeBuffers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isSafeBuffers](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-issafebuffers).  
-  
 Retrieves a flag that specifies whether the preprocesser directive for a safe buffer is used. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.  
   
 ## Syntax  

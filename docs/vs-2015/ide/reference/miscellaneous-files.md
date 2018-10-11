@@ -30,8 +30,6 @@ manager: "ghogen"
 # Miscellaneous Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Miscellaneous Files](https://docs.microsoft.com/visualstudio/ide/reference/miscellaneous-files).  
-  
   
 You might want to use the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] editors to work independently on files from a project or from a solution. While you have a solution open, you can open and modify files without adding them to a solution or to a project. Files you want to work with independently from the containers are called miscellaneous files. Miscellaneous files are external to solutions and projects, are not included in builds, and cannot be included with a solution under source control.  
   

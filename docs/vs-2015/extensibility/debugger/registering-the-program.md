@@ -20,8 +20,6 @@ manager: "ghogen"
 # Registering the Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering the Program](https://docs.microsoft.com/visualstudio/extensibility/debugger/registering-the-program).  
-  
 After the debug engine has acquired a port, represented by an [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface, the next step in enabling the program to be debugged is to register it with the port. Once registered, the program is available for debugging by one of the following means:  
   
 -   The process of attaching, which allows the debugger to gain complete debugging control of a running application.  

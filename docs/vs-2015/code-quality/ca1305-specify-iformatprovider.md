@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1305: Specify IFormatProvider
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1305: Specify IFormatProvider](https://docs.microsoft.com/visualstudio/code-quality/ca1305-specify-iformatprovider).
-
 |||
 |-|-|
 |TypeName|SpecifyIFormatProvider|

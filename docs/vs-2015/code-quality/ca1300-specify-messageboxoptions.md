@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1300: Specify MessageBoxOptions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1300: Specify MessageBoxOptions](https://docs.microsoft.com/visualstudio/code-quality/ca1300-specify-messageboxoptions).
-
 |||
 |-|-|
 |TypeName|SpecifyMessageBoxOptions|

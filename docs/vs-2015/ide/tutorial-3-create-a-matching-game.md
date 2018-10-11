@@ -18,8 +18,6 @@ manager: "ghogen"
 # Tutorial 3: Create a Matching Game
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tutorial 3: Create a Matching Game](https://docs.microsoft.com/visualstudio/ide/tutorial-3-create-a-matching-game).  
-  
 In this tutorial, you build a matching game, where the player must match pairs of hidden icons. You learn how to:  
   
 -   Store objects, such as icons, in a `List` object.  

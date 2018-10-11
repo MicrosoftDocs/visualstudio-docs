@@ -24,8 +24,6 @@ manager: "wpickett"
 # &lt;Signature&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;Signature&gt; Element (ClickOnce Deployment)](https://docs.microsoft.com/visualstudio/deployment/signature-element-clickonce-deployment).  
-  
 Contains the necessary information to digitally sign this deployment manifest.  
   
 ## Syntax  

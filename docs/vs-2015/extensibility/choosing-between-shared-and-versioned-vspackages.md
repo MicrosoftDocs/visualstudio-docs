@@ -21,8 +21,6 @@ manager: "ghogen"
 # Choosing Between Shared and Versioned VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Choosing Between Shared and Versioned VSPackages](https://docs.microsoft.com/visualstudio/extensibility/choosing-between-shared-and-versioned-vspackages).  
-  
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] versions.  
   
  You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and associated versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)].  

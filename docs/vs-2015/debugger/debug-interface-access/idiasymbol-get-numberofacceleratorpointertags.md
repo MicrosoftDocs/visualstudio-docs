@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_numberOfAcceleratorPointerTags
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_numberOfAcceleratorPointerTags](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-numberofacceleratorpointertags).  
-  
 Returns the number of accelerator pointer tags in a C++ AMP stub function.  
   
 ## Syntax  

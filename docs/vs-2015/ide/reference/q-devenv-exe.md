@@ -20,8 +20,6 @@ manager: "ghogen"
 # /? (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-? (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/q-devenv-exe).  
-  
   
 Displays a message box listing all `devenv` switches, with a brief description of each one.  
   

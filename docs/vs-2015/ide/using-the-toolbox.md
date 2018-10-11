@@ -36,8 +36,6 @@ manager: "ghogen"
 # Using the Toolbox
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using the Toolbox](https://docs.microsoft.com/visualstudio/ide/using-the-toolbox).  
-  
 You can use the toolbox to add controls and other items to your project. You can drag and drop different controls onto the surface of the designer you are using, and resize and position the controls.  
   
  The toolbox appears in conjunction with designer views, such as the designer view of a XAML file. The toolbox displays only those controls that can be used in the current designer.  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # Help Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Help Menu Commands](https://docs.microsoft.com/visualstudio/debugger/help-menu-commands).  
-  
 The **Help** menu provides commands to open Help files.  
   
  **Index**  

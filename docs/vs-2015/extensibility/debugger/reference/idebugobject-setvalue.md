@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugObject::SetValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::SetValue](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-setvalue).  
-  
 Sets the value of the object from a consecutive series of bytes.  
   
 ## Syntax  

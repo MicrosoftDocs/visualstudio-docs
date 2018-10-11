@@ -25,8 +25,6 @@ manager: "ghogen"
 # Extend the functionality of a TableAdapter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extend the functionality of a TableAdapter](https://docs.microsoft.com/visualstudio/data-tools/extend-the-functionality-of-a-tableadapter).  
-  
   
 You can extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.  
   

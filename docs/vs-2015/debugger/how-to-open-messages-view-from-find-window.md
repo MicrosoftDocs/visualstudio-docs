@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Open Messages View from Find Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Open Messages View from Find Window](https://docs.microsoft.com/visualstudio/debugger/how-to-open-messages-view-from-find-window).  
-  
 You might find it convenient to use the **Find Window** dialog box to select a target window, and then open a Messages view of that window.  
   
 ### To open a Messages view window using the Find Window dialog box  

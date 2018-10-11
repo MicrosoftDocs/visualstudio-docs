@@ -23,8 +23,6 @@ manager: "ghogen"
 # Find in Files Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Find in Files Command](https://docs.microsoft.com/visualstudio/ide/reference/find-in-files-command).  
-  
   
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.  
   
