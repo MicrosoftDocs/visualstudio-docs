@@ -89,6 +89,8 @@
       href: search-paths.md
     - name: Environment window reference
       href: python-environments-window-tab-reference.md
+    - name: Configure web apps for IIS
+      href: configure-web-apps-for-iis-windows.md
   - name: Edit Python code
     href: editing-python-code-in-visual-studio.md
     items:
@@ -110,16 +112,8 @@
     items:
     - name: Debugging code on remote Linux computers
       href: debugging-python-code-on-remote-linux-machines.md
-  - name: Working with Azure App Service
-    items:
-    - name: Managing Python on Azure App Service
-      href: managing-python-on-azure-app-service.md
-    - name: Publishing to Azure App Service
-      href: publishing-python-web-applications-to-azure-from-visual-studio.md
-    - name: Azure remote debugging
-      href: debugging-remote-python-code-on-azure.md
-    - name: Troubleshooting Azure remote debugging
-      href: debugging-remote-python-code-on-azure-troubleshooting.md
+  - name: Publishing to Azure App Service on Linux
+    href: publishing-python-web-applications-to-azure-from-visual-studio.md
   - name: Interacting with C++
     items:
     - name: Creating a C++ extension for Python
