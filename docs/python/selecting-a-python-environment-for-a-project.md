@@ -45,7 +45,7 @@ A virtual environment is a unique combination of a specific Python interpreter a
 
 A benefit to using a virtual environment is that as you develop project over time, the virtual environment always reflects the project's exact dependencies. (A shared global environment, on the other hand, contains any number of libraries whether you use them in your project or not.) You can then easily create a *requirements.txt* file from the virtual environment, which is then used to reinstall those dependencies on another development or production computer. For more information, see [Manage required packages with requirements.txt](managing-required-packages-with-requirements-txt.md).
 
-When you open a project in Visual Studio that contains a *requirements.txt* file, Visual Studio automatically gives you the option to recreate the virtual environment. On computers where Visual Studio isn't installed, such as Azure App Service, you can use `pip install -r requirements.txt` to restore the packages (this process is described on [Manage Python on Azure App Service](managing-python-on-azure-app-service.md)).
+When you open a project in Visual Studio that contains a *requirements.txt* file, Visual Studio automatically gives you the option to recreate the virtual environment. On computers where Visual Studio isn't installed, you can use `pip install -r requirements.txt` to restore the packages.
 
 Because a virtual environment contains a hard-coded path to the base interpreter, and because you can recreate the environment using *requirements.txt*, you typically omit the entire virtual environment folder from source control.
 
