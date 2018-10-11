@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackWalker
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalker](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalker).  
-  
 Provides methods to do a stack walk using information in the .pdb file.  
   
 ## Syntax  

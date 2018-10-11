@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugObjects::Reset
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugObjects::Reset](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugobjects-reset).  
-  
 This method resets the enumeration to the first element.  
   
 ## Syntax  

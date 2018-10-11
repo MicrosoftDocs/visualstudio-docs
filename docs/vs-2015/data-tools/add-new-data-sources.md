@@ -26,8 +26,6 @@ manager: "ghogen"
 # Add new data sources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add new data sources](https://docs.microsoft.com/visualstudio/data-tools/add-new-data-sources).  
-  
   
 In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and expose the data to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:  
   

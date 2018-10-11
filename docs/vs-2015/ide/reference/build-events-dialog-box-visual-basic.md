@@ -26,8 +26,6 @@ manager: "ghogen"
 # Build Events Dialog Box (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Build Events Dialog Box (Visual Basic)](https://docs.microsoft.com/visualstudio/ide/reference/build-events-dialog-box-visual-basic).  
-  
   
 Use the **Build Events** dialog box to specify build configuration instructions. You can also specify the conditions under which any pre-build or post-build events are run. For more information, see [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md).  
   

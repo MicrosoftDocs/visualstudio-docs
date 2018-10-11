@@ -20,8 +20,6 @@ manager: "ghogen"
 # Visual Studio Graphics Diagnostics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Graphics Diagnostics](https://docs.microsoft.com/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics).  
-  
 Visual Studio*Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC, in a Windows device emulator, or on a remote PC or device.  
   
  The Graphics Diagnostics workflow begins by capturing a record of how your app uses Direct3D—live, as it runs—so that its behavior can be analyzed immediately, shared, or saved for later. Capture sessions can be initiated and controled manually from Visual Studio or with the command-line capture tool **dxcap.exe**. Capture sessions can also be initiated and controled programmatically by using the Graphics Diagnostics capture APIs.  

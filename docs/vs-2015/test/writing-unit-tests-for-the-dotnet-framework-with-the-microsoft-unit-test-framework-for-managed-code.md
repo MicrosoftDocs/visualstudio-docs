@@ -17,8 +17,6 @@ manager: "douge"
 # Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](https://docs.microsoft.com/visualstudio/test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code).  
-  
 In this section  
  [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
   

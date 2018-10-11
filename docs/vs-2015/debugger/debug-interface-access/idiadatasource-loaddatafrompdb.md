@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::loadDataFromPdb
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaDataSource::loadDataFromPdb](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiadatasource-loaddatafrompdb).  
-  
 Opens and prepares a program database (.pdb) file as a debug data source.  
   
 ## Syntax  

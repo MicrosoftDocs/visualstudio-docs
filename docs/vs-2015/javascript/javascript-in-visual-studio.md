@@ -18,8 +18,6 @@ manager: "ghogen"
 # JavaScript in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [JavaScript in Visual Studio](https://docs.microsoft.com/visualstudio/javascript/javascript-in-visual-studio).  
-  
 JavaScript is a first-class language in Visual Studio. You can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE. You can write JavaScript code for many application types and services.  
   
  For the JavaScript language reference documentation, see [JavaScript](http://msdn.microsoft.com/library/d1et7k7c\(v=vs.94\).aspx).  

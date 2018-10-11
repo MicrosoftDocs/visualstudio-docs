@@ -22,8 +22,6 @@ manager: "ghogen"
 # Visual C# IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual C# IntelliSense](https://docs.microsoft.com/visualstudio/ide/visual-csharp-intellisense).  
-  
 Visual C# IntelliSense is available when coding in the editor, and while you debugging in the [Immediate Mode](../ide/reference/immediate-window.md) command window.  
   
 ## Completion Lists  

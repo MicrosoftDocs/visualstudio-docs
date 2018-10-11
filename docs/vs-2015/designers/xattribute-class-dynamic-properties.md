@@ -18,8 +18,6 @@ manager: "ghogen"
 # XAttribute Class Dynamic Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XAttribute Class Dynamic Properties](https://docs.microsoft.com/visualstudio/designers/xattribute-class-dynamic-properties).  
-  
 This section describes the dynamic properties of the <xref:System.Xml.Linq.XAttribute?displayProperty=fullName>.  
   
 ## In This Section  

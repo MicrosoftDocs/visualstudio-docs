@@ -21,8 +21,6 @@ manager: "ghogen"
 # CODE_PATH
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CODE_PATH](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/code-path).  
-  
 Describes a method or function call.  
   
 ## Syntax  

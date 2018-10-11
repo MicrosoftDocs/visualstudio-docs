@@ -26,8 +26,6 @@ manager: "ghogen"
 # Object Lifetime View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Object Lifetime View](https://docs.microsoft.com/visualstudio/profiling/object-lifetime-view).  
-  
 The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the Performance Session property pages.  
   
  The garbage collector of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The  garbage collector of the runtime stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.  

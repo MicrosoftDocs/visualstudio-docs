@@ -30,8 +30,6 @@ manager: "ghogen"
 # Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System](https://docs.microsoft.com/visualstudio/debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system).  
-  
 When you debug managed code, you might receive the following error message:  
   
 ```  

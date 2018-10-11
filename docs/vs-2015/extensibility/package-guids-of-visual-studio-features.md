@@ -19,8 +19,6 @@ manager: "ghogen"
 # Package GUIDs of Visual Studio Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Package GUIDs of Visual Studio Features](https://docs.microsoft.com/visualstudio/extensibility/package-guids-of-visual-studio-features).  
-  
 You can use the following GUIDs in the .pkgundef file of your isolated shell application to exclude specific packages from the application.  
   
 ## Package GUIDs  

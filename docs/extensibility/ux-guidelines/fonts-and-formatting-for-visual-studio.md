@@ -77,7 +77,7 @@ window.ShowModal()
   
  `ShowModal` returns a bool? (nullable Boolean) with the `DialogResult`, which can be used if needed. The return value is true if the dialog was closed with **OK**.  
   
- If you need to display some WPF UI that is not a dialog and is hosted in its own `HwndSource`, such as a popup window or a WPF child window of a Win32/WinForms parent window window, you will need to set the `FontFamily` and `FontSize` on the root element of the WPF element. (The shell sets the properties on the main window, but they will not be inherited past a `HWND`). The shell provides resources to which the properties can be bound, like this:  
+ If you need to display some WPF UI that is not a dialog and is hosted in its own `HwndSource`, such as a popup window or a WPF child window of a Win32/WinForms parent window, you will need to set the `FontFamily` and `FontSize` on the root element of the WPF element. (The shell sets the properties on the main window, but they will not be inherited past a `HWND`). The shell provides resources to which the properties can be bound, like this:  
   
 ```xaml
 <Setter Property="FontFamily" Value="{DynamicResource VsFont.EnvironmentFontFamily}" />  

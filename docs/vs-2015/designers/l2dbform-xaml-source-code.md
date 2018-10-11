@@ -18,8 +18,6 @@ manager: "ghogen"
 # L2DBForm.xaml Source Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [L2DBForm.xaml Source Code](https://docs.microsoft.com/visualstudio/designers/l2dbform-xaml-source-code).  
-  
 This topic contains and describes the XAML source file for the [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md), L2DBForm.xaml.  
   
 ## Overall UI Structure  

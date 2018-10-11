@@ -27,8 +27,6 @@ manager: "ghogen"
 # Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.](https://docs.microsoft.com/visualstudio/debugger/error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network).  
-  
 This behavior occurs if one of the following conditions is true:  
   
 -   Your connection to the remote computer was broken.  

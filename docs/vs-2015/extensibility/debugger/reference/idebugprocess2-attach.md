@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::Attach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-attach).  
-  
 Attaches the session debug manager (SDM) to the process.  
   
 ## Syntax  

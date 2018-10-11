@@ -21,8 +21,6 @@ manager: "ghogen"
 # PARSEFLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PARSEFLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/parseflags).  
-  
 Specifies how to parse an expression.  
   
 ## Syntax  

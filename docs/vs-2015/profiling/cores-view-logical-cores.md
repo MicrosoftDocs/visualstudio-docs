@@ -22,8 +22,6 @@ manager: "ghogen"
 # Cores View Logical Cores
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Cores View Logical Cores](https://docs.microsoft.com/visualstudio/profiling/cores-view-logical-cores).  
-  
 Each channel name represents one of the logical cores that exist on the profiled system. The naming counts up from 0 to the total number of logical cores. For example, a four-core system will count from logical core 0 to logical core 3.  
   
 ## See Also  

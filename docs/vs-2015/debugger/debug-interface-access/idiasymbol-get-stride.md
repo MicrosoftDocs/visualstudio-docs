@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_stride
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_stride](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-stride).  
-  
 Retrieves the stride of the matrix or strided array.  
   
 ## Syntax  

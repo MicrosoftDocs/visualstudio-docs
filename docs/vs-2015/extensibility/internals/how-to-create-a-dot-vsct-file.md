@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Create a .Vsct File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a .Vsct File](https://docs.microsoft.com/visualstudio/extensibility/internals/how-to-create-a-dot-vsct-file).  
-  
 There are several ways to create an XML-based Visual Studio Command Table configuration (.vsct) file.  
   
 -   You can create a new VSPackage in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Package Template.  

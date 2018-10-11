@@ -20,8 +20,6 @@ manager: "ghogen"
 # Subscribing to an Event
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Subscribing to an Event](https://docs.microsoft.com/visualstudio/extensibility/subscribing-to-an-event).  
-  
 This walkthrough explains how to create a tool window that responds to events in a running document table (RDT). A tool window hosts a user control that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> method connects the interface to the events.  
   
 ## Prerequisites  

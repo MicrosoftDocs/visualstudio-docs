@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onInsertText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentTextEvents2::onInsertText](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttextevents2-oninserttext).  
-  
 Notifies the debug package that text has been inserted into the document.  
   
 ## Syntax  

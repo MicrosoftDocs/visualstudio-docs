@@ -21,8 +21,6 @@ manager: "ghogen"
 # Error Handling and Return Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error Handling and Return Values](https://docs.microsoft.com/visualstudio/extensibility/error-handling-and-return-values).  
-  
 VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and `GetErrorInfo` functions are part of the Win32 application programming interface (API). Any VSPackage in the integrated development environment (IDE) can call these global Win32 APIs to record rich error information when receiving an error notification. The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] provides interop assemblies to manage error information.  
   
 ## Interop Methods  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEEVisualizerService::GetCustomViewerList
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEEVisualizerService::GetCustomViewerList](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist).  
-  
 This method returns a list of type visualizers that this service knows about.  
   
 ## Syntax  

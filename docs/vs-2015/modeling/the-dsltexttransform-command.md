@@ -18,8 +18,6 @@ manager: "douge"
 # The DslTextTransform Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [The DslTextTransform Command](https://docs.microsoft.com/visualstudio/modeling/the-dsltexttransform-command).  
-  
 DslTextTransform.cmd is a script that calls TextTransform.exe and runs it with common options. You can use DslTextTransformation.cmd to automate a nightly build of your [!INCLUDE[dsl](../includes/dsl-md.md)] projects. For more information, see [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md).  
   
  DslTextTransform.cmd is located in the following directory:  

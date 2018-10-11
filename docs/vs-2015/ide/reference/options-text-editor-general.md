@@ -57,8 +57,6 @@ manager: "ghogen"
 # Options, Text Editor, General
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, General](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-general).  
-  
   
 This dialog box lets you change global settings for the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Code and Text Editor. To display this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, and then click **General**.  
   

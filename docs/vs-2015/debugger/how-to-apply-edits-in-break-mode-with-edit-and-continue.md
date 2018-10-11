@@ -33,8 +33,6 @@ manager: "ghogen"
 # How to: Apply Edits in Break Mode with Edit and Continue
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Apply Edits in Break Mode with Edit and Continue](https://docs.microsoft.com/visualstudio/debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue).  
-  
 You can use Edit and Continue to edit your code in Break mode, and then continue without stopping and restarting execution.  
   
  Edit and Continue is not available in the following debugging scenarios:  

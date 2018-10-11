@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointBoundEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointBoundEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointboundevent2).  
-  
 This interface tells the session debug manager (SDM) that a pending breakpoint has been successfully bound to a loaded program.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # StackFrameTypeEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [StackFrameTypeEnum](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/stackframetypeenum).  
-  
 Specifies the stack frame type.  
   
 ## Syntax  

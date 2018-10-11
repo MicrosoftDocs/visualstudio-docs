@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugFunctionPosition2::GetFunctionName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugFunctionPosition2::GetFunctionName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfunctionposition2-getfunctionname).  
-  
 Gets the name of the function to which this position points.  
   
 ## Syntax  

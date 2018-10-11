@@ -20,8 +20,6 @@ manager: "ghogen"
 # Process Search Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Process Search Dialog Box](https://docs.microsoft.com/visualstudio/debugger/process-search-dialog-box).  
-  
 Use this dialog box to find and select the node for a specific process in [Processes View](../debugger/processes-view.md). To display this dialog box, move the focus to a **Processes** view window. Then choose **Find Process** from the **Search** menu.  
   
  The following settings are available:  

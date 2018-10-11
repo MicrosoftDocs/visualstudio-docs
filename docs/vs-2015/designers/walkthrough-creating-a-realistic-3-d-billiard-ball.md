@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Realistic 3-D Billiard Ball
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating a Realistic 3-D Billiard Ball](https://docs.microsoft.com/visualstudio/designers/walkthrough-creating-a-realistic-3-d-billiard-ball).  
-  
 This walkthrough demonstrates how to create a realistic 3-D billiard ball by using the Shader Designer and Image Editor in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. The 3-D appearance of the billiard ball is achieved by combining several shader techniques with appropriate texture resources.  
   
  This document demonstrates these activities:  

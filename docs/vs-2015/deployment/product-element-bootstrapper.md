@@ -25,8 +25,6 @@ manager: "wpickett"
 # &lt;Product&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;Product&gt; Element (Bootstrapper)](https://docs.microsoft.com/visualstudio/deployment/product-element-bootstrapper).  
-  
 The `Product` element is the top-level XML element inside of a product file.  
   
 ## Syntax  

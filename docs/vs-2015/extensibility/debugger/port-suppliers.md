@@ -20,8 +20,6 @@ manager: "ghogen"
 # Port Suppliers
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Port Suppliers](https://docs.microsoft.com/visualstudio/extensibility/debugger/port-suppliers).  
-  
 In terms of the debugger architecture, a **port supplier**:  
   
 -   Is contained by a server and provides ports on request to that server.  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugGenericFieldInstance::TypeArgumentCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericFieldInstance::TypeArgumentCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericfieldinstance-typeargumentcount).  
-  
 Returns the number of type parameter arguments for this instance.  
   
 ## Syntax  

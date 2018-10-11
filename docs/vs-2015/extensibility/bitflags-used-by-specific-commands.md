@@ -19,8 +19,6 @@ manager: "ghogen"
 # Bitflags Used by Specific Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Bitflags Used by Specific Commands](https://docs.microsoft.com/visualstudio/extensibility/bitflags-used-by-specific-commands).  
-  
 The behavior of a number of functions in the Source Control Plug-in API can be modified by setting one or more bits in a single value. These values are known as bitflags. The various bitflags used by the Source Control Plug-in API are detailed here, grouped by the function that uses them.  
   
 ## Checked Out Flag  

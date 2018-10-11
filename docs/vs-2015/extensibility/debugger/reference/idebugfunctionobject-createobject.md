@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugFunctionObject::CreateObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugFunctionObject::CreateObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfunctionobject-createobject).  
-  
 Creates an object using a constructor.  
   
 ## Syntax  

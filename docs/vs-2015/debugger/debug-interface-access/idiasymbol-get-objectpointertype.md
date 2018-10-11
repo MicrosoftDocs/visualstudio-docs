@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_objectPointerType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_objectPointerType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-objectpointertype).  
-  
 Retrieves the type of the object pointer for a class method.  
   
 ## Syntax  

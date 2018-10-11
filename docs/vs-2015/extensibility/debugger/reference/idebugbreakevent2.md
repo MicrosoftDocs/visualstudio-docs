@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBreakEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakevent2).  
-  
 This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed.  
   
 ## Syntax  

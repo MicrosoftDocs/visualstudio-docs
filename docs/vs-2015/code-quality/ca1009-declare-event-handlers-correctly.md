@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1009: Declare event handlers correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1009: Declare event handlers correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1009-declare-event-handlers-correctly).
-
 |||
 |-|-|
 |TypeName|DeclareEventHandlersCorrectly|

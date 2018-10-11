@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession::symsAreEquiv
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::symsAreEquiv](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-symsareequiv).  
-  
 Checks to see if two symbols are equivalent.  
   
 ## Syntax  

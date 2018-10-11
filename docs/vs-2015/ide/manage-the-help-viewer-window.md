@@ -21,8 +21,6 @@ manager: "ghogen"
 # Manage the Help Viewer Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Manage the Help Viewer Window](https://docs.microsoft.com/visualstudio/ide/manage-the-help-viewer-window).  
-  
 In the Help Viewer you can customize the window layout.  
   
 ## Docking Tabs  

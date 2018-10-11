@@ -20,8 +20,6 @@ manager: "ghogen"
 # Exposing Events in the Visual Studio SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Exposing Events in the Visual Studio SDK](https://docs.microsoft.com/visualstudio/extensibility/internals/exposing-events-in-the-visual-studio-sdk).  
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] lets you source events by using automation. We recommend that you source events for projects and project items.  
   
  Events are retrieved by automation consumers from the <xref:EnvDTE.DTEClass.Events%2A> object or <xref:EnvDTE.DTEClass.GetObject%2A> ("EventObjectName"). The environment calls `IDispatch::Invoke` by using the `DISPATCH_METHOD` or `DISPATCH_PROPERTYGET` flags to return an event.  

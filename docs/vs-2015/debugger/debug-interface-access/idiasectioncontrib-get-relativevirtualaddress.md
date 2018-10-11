@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_relativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_relativeVirtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-relativevirtualaddress).  
-  
 Retrieves the image relative virtual address (RVA) of the contribution.  
   
 ## Syntax  

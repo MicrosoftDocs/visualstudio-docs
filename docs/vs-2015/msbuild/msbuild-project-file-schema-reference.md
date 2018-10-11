@@ -25,8 +25,6 @@ manager: "ghogen"
 # MSBuild Project File Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Project File Schema Reference](https://docs.microsoft.com/visualstudio/msbuild/msbuild-project-file-schema-reference).  
-  
   
 Provides a table of all the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] XML Schema elements with their available attributes and child elements.  
   

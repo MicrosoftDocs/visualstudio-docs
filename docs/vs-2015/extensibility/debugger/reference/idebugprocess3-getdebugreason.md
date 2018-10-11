@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcess3::GetDebugReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess3::GetDebugReason](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess3-getdebugreason).  
-  
 This method returns the reason that the process was launched for debugging.  
   
 ## Syntax  

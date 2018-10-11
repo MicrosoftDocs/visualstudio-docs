@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSymbols
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSymbols](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsymbols).  
-  
 Enumerates the various symbols contained in the data source.  
   
 ## Syntax  

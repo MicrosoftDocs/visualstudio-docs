@@ -17,8 +17,6 @@ manager: "ghogen"
 # Creating a Custom Start Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Custom Start Page](https://docs.microsoft.com/visualstudio/extensibility/creating-a-custom-start-page).  
-  
 If you cannot create a custom Start Page by using the Start Page project template, as described in [Start Pages](../misc/creating-your-own-start-page.md), you can manually create one by following the steps in this document.  
   
 ## Creating a Blank Start Page  

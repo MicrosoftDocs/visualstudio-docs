@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1020: Avoid namespaces with few types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1020: Avoid namespaces with few types](https://docs.microsoft.com/visualstudio/code-quality/ca1020-avoid-namespaces-with-few-types).
-
 |||
 |-|-|
 |TypeName|AvoidNamespacesWithFewTypes|

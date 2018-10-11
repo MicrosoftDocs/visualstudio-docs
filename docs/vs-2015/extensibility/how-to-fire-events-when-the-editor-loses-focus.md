@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Fire Events When the Editor Loses Focus
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Fire Events When the Editor Loses Focus](https://docs.microsoft.com/visualstudio/extensibility/how-to-fire-events-when-the-editor-loses-focus).  
-  
 Sometimes it is necessary to know when an editor loses focus on the window frame. For example, you might need to extract code from a code window after the editor is no longer focused on it. The following procedure provides the steps to follow to receive notification of the editor losing focus.  
   
 ### To fire an event in response to an editor losing focus  

@@ -31,8 +31,6 @@ manager: "ghogen"
 # COM Debugging Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [COM Debugging Tools](https://docs.microsoft.com/visualstudio/debugger/com-debugging-tools).  
-  
 This topic lists tools that can help you test and inspect COM programs.  
   
  OLE/COM Object Viewer  

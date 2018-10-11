@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointRequest2::GetLocationType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointRequest2::GetLocationType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype).  
-  
 Gets the breakpoint location type of this breakpoint request.  
   
 ## Syntax  

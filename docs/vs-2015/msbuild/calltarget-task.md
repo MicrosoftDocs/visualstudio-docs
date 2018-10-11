@@ -26,8 +26,6 @@ manager: "ghogen"
 # CallTarget Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CallTarget Task](https://docs.microsoft.com/visualstudio/msbuild/calltarget-task).  
-  
   
 Invokes the specified targets within the project file.  
   

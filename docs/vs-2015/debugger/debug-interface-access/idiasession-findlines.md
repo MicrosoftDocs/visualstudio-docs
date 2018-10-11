@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession::findLines
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findLines](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findlines).  
-  
 Retrieves line numbers within specified compiland and source file identifiers.  
   
 ## Syntax  

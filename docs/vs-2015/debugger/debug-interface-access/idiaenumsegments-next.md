@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSegments::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsegments-next).  
-  
 Retrieves a specified number of segments in the enumeration sequence.  
   
 ## Syntax  

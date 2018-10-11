@@ -21,8 +21,6 @@ manager: "ghogen"
 # Controlling Data Collection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Controlling Data Collection](https://docs.microsoft.com/visualstudio/profiling/controlling-data-collection).  
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools enable you to control when profiling data is collected during a performance session and to specify the functions that are profiled. This section describes how to start and stop data collection from the **Performance Explorer** and **Data Collection Control** windows and how to limit the objects for which profiling data is collected.  
   
 ## Common Tasks  

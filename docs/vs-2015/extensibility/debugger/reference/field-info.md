@@ -21,8 +21,6 @@ manager: "ghogen"
 # FIELD_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FIELD_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/field-info).  
-  
 This structure describes a local variable, parameter, or other field.  
   
 ## Syntax  

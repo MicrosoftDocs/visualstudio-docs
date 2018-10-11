@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Use Text Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use Text Markers](https://docs.microsoft.com/visualstudio/extensibility/how-to-use-text-markers).  
-  
 Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> object.  
   
 ## Procedures  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # Spy Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Spy Menu Commands](https://docs.microsoft.com/visualstudio/debugger/spy-menu-commands).  
-  
 The **Spy** menu provides commands to work with Spy++ Windows and views.  
   
  **Windows**  

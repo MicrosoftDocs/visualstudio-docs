@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_functionStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_functionStart](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-functionstart).  
-  
 Retrieves a flag that indicates whether the block contains the entry point of a function.  
   
 ## Syntax  

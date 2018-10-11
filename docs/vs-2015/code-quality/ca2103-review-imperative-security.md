@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2103: Review imperative security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2103: Review imperative security](https://docs.microsoft.com/visualstudio/code-quality/ca2103-review-imperative-security).
-
 |||
 |-|-|
 |TypeName|ReviewImperativeSecurity|

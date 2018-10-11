@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1409: Com visible types should be creatable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1409: Com visible types should be creatable](https://docs.microsoft.com/visualstudio/code-quality/ca1409-com-visible-types-should-be-creatable).
-
 |||
 |-|-|
 |TypeName|ComVisibleTypesShouldBeCreatable|

@@ -29,8 +29,6 @@ manager: "ghogen"
 # Debugging Preparation: Visual C++ Project Types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Preparation: Visual C++ Project Types](https://docs.microsoft.com/visualstudio/debugger/debugging-preparation-visual-cpp-project-types).  
-  
 This section describes how to debug the basic project types created by the [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] project templates.  
   
  Note that those project types that create DLLs as their output have been grouped into [Debugging DLL Projects](../debugger/debugging-dll-projects.md) because of the common features they share.  

@@ -19,8 +19,6 @@ manager: "ghogen"
 # Choosing a Debug Engine Implementation Strategy
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Choosing a Debug Engine Implementation Strategy](https://docs.microsoft.com/visualstudio/extensibility/debugger/choosing-a-debug-engine-implementation-strategy).  
-  
 Use the run-time architecture to determine your debug engine (DE) implementation strategy. The debug engine may be created in-process to the program to be debugged, in-process to the Visual Studio session debug manager (SDM), or out-of-process to both of them. The following guidelines should help you to choose among these three strategies.  
   
 ## Guidelines  

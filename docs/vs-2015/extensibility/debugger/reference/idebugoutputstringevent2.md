@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugOutputStringEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugOutputStringEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugoutputstringevent2).  
-  
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) to output a string.  
   
 ## Syntax  

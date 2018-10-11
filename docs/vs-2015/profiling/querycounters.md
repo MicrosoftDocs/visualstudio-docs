@@ -18,8 +18,6 @@ manager: "ghogen"
 # QueryCounters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [QueryCounters](https://docs.microsoft.com/visualstudio/profiling/querycounters).  
-  
 The **QueryCounters** option lists the CPU (hardware) performance counters that are available on the computer.  
   
  **QueryCounters** must be the only option on the command line.  

@@ -18,8 +18,6 @@ manager: "douge"
 # Deploying a Custom Directive Processor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploying a Custom Directive Processor](https://docs.microsoft.com/visualstudio/modeling/deploying-a-custom-directive-processor).  
-  
 To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on any computer, you must register it by one of the methods described in this topic.  
   
  The alternative methods are:  

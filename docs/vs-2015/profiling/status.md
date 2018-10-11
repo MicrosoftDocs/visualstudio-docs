@@ -18,8 +18,6 @@ manager: "ghogen"
 # Status
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Status](https://docs.microsoft.com/visualstudio/profiling/status).  
-  
 The VSPerfCmd.exe **Status** option displays information about the state of the profiler and any processes that are currently being profiled.  
   
  The **Status** option must be the only option specified on the command line. The profiler must be initialized with the VSPerfCmd.exe **Start** option before any status can be displayed.  

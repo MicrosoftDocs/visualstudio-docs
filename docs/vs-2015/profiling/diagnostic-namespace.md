@@ -22,8 +22,6 @@ manager: "ghogen"
 # diagnostic Namespace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [diagnostic Namespace](https://docs.microsoft.com/visualstudio/profiling/diagnostic-namespace).  
-  
 The `diagnostics` namespace provides functionality for emitting Concurrency Visualizer markers.  
   
 ## Syntax  

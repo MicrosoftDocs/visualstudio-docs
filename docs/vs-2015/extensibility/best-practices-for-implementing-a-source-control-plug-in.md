@@ -21,8 +21,6 @@ manager: "ghogen"
 # Best Practices for Implementing a Source Control Plug-in
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Best Practices for Implementing a Source Control Plug-in](https://docs.microsoft.com/visualstudio/extensibility/best-practices-for-implementing-a-source-control-plug-in).  
-  
 The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 ## Memory Management Issues  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasCastOperator
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasCastOperator](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hascastoperator).  
-  
 Retrieves a flag that specifies whether the user-defined data type has any cast operators defined.  
   
 ## Syntax  

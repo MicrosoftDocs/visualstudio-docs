@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgramEx2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramEx2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramex2).  
-  
 This interface lets the session debug manager (SDM) attach to a program and get the program node associated with a program.  
   
 ## Syntax  

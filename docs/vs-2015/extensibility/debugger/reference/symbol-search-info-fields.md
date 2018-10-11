@@ -21,8 +21,6 @@ manager: "ghogen"
 # SYMBOL_SEARCH_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SYMBOL_SEARCH_INFO_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/symbol-search-info-fields).  
-  
 Specifies the kind of symbol information to retrieve.  
   
 ## Syntax  

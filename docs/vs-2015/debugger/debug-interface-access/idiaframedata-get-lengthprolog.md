@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_lengthProlog
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_lengthProlog](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-lengthprolog).  
-  
 Retrieves the number of bytes of prologue code in the block.  
   
 ## Syntax  

@@ -20,8 +20,6 @@ manager: "ghogen"
 # Caller/Callee View - Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Caller-Callee View - Instrumentation Data](https://docs.microsoft.com/visualstudio/profiling/caller-callee-view-instrumentation-data).  
-  
 The Caller/Callee view displays profiling information about a selected function and its parent and child functions in the call tree. The Caller/Callee view contains three grids.  
   
  **Current function** is displayed in the middle grid, and it shows profiling information about the selected function. The values include all calls to the function.  

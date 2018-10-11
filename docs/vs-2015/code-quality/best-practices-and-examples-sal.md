@@ -18,8 +18,6 @@ manager: "ghogen"
 # Best Practices and Examples (SAL)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Best Practices and Examples (SAL)](https://docs.microsoft.com/visualstudio/code-quality/best-practices-and-examples-sal).  
-  
 Here are some ways to get the most out of the Source Code Annotation Language (SAL) and avoid some common problems.  
   
 ## _In\_  

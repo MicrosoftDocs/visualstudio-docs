@@ -21,8 +21,6 @@ manager: "ghogen"
 # Adding User Control to the Start Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding User Control to the Start Page](https://docs.microsoft.com/visualstudio/extensibility/adding-user-control-to-the-start-page).  
-  
 This walkthrough shows how to add a DLL reference to a custom Start Page. The example adds a user control to the solution, builds the user control, and then references the built assembly from the Start Page .xaml file. A new tab hosts the user control, which functions as a basic Web browser.  
   
  You can use the same process to add any assembly that can be called from a .xaml file.  

@@ -23,8 +23,6 @@ manager: "ghogen"
 # DA0004: High processor usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0004: High processor usage](https://docs.microsoft.com/visualstudio/profiling/da0004-high-processor-usage).  
-  
 Rule Id|DA0004|  
 |Category|Profiling Tools Usage|  
 |Profiling methods|Instrumentation Sampling|  

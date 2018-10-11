@@ -21,8 +21,6 @@ manager: "ghogen"
 # CONTEXT_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CONTEXT_INFO_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/context-info-fields).  
-  
 Specifies what information to retrieve about a memory context.  
   
 ## Syntax  

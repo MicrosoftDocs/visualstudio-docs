@@ -18,8 +18,6 @@ manager: "douge"
 # Properties of Domain Relationships
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Domain Relationships](https://docs.microsoft.com/visualstudio/modeling/properties-of-domain-relationships).  
-  
 The properties in the following table are associated with a domain relationship. For information about domain relationships, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   
 |Property|Description|Default|  

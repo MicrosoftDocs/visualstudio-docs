@@ -23,8 +23,6 @@ manager: "ghogen"
 # Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio SDK](https://docs.microsoft.com/visualstudio/extensibility/visual-studio-sdk).  
-  
 The Visual Studio SDK helps you extend Visual Studio features or integrate new features into Visual Studio. You can distribute your extensions to other users, as well as to the Visual Studio Gallery. The following are some of the ways in which you can extend Visual Studio:  
   
 -   Add commands, buttons, menus, and other UI elements to the IDE  

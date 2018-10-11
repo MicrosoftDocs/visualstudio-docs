@@ -19,8 +19,6 @@ manager: "ghogen"
 # Project Types Architecture
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Types Architecture](https://docs.microsoft.com/visualstudio/extensibility/internals/project-types-architecture).  
-  
 This section contains detailed information about the architecture of project types in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
 ## In This Section  

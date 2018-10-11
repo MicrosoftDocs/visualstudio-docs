@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_timeStamp
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_timeStamp](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-timestamp).  
-  
 Retrieves the timestamp of the underlying executable file.  
   
 ## Syntax  

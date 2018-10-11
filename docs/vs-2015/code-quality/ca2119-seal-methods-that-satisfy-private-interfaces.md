@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2119: Seal methods that satisfy private interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2119: Seal methods that satisfy private interfaces](https://docs.microsoft.com/visualstudio/code-quality/ca2119-seal-methods-that-satisfy-private-interfaces).
-
 |||
 |-|-|
 |TypeName|SealMethodsThatSatisfyPrivateInterfaces|

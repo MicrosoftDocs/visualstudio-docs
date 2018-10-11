@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::SetRegistryRoot
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator::SetRegistryRoot](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator-setregistryroot).  
-  
 This method sets the registry root. Used for side-by-side debugging.  
   
 ## Syntax  

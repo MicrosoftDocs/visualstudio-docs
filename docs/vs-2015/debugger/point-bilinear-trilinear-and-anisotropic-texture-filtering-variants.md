@@ -18,8 +18,6 @@ manager: "ghogen"
 # Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants](https://docs.microsoft.com/visualstudio/debugger/graphics/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants).  
-  
 Overrides the filtering mode on appropriate texture samplers.  
   
 ## Interpretation  

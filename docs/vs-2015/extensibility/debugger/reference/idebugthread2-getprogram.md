@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugThread2::GetProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThread2::GetProgram](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthread2-getprogram).  
-  
 Gets the program in which a thread is running.  
   
 ## Syntax  

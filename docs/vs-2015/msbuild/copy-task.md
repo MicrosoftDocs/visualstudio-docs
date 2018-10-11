@@ -31,8 +31,6 @@ manager: "ghogen"
 # Copy Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Copy Task](https://docs.microsoft.com/visualstudio/msbuild/copy-task).  
-  
   
 Copies files to a new location in the file system.  
   

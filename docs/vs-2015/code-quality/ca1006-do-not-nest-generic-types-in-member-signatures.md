@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1006: Do not nest generic types in member signatures
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1006: Do not nest generic types in member signatures](https://docs.microsoft.com/visualstudio/code-quality/ca1006-do-not-nest-generic-types-in-member-signatures).
-
 |||
 |-|-|
 |TypeName|DoNotNestGenericTypesInMemberSignatures|

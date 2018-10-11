@@ -21,8 +21,6 @@ manager: "douge"
 # Unit Test Your Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unit Test Your Code](https://docs.microsoft.com/visualstudio/test/unit-test-your-code).  
-  
 Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in [!INCLUDE[csharp_current_short](../includes/csharp-current-short-md.md)], [!INCLUDE[vb_current_short](../includes/vb-current-short-md.md)], and [!INCLUDE[cpp_current_short](../includes/cpp-current-short-md.md)] projects.  
   
  The unit test tools include:  

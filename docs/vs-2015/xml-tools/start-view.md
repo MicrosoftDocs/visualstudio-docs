@@ -18,8 +18,6 @@ manager: "ghogen"
 # Start View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Start View](https://docs.microsoft.com/visualstudio/xml-tools/start-view).  
-  
   
 The Start View is the launching point for the XML Schema (XSD) Designer. When you create a new XSD file, you will initially see the Start View.  
   

@@ -18,8 +18,6 @@ manager: "ghogen"
 # 16bpp Render Target Format Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [16bpp Render Target Format Variant](https://docs.microsoft.com/visualstudio/debugger/graphics/16bpp-render-target-format-variant).  
-  
 Sets the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and back buffers.  
   
 ## Interpretation  

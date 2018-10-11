@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::GetCustomViewerCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty3::GetCustomViewerCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty3-getcustomviewercount).  
-  
 Gets the number of custom viewers that might be available for this property.  
   
 ## Syntax  

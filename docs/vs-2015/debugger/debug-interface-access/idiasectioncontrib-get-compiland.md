@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_compiland
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_compiland](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-compiland).  
-  
 Retrieves a reference to the compiland symbol that contributed this section.  
   
 ## Syntax  

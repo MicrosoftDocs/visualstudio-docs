@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onRemoveText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentTextEvents2::onRemoveText](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttextevents2-onremovetext).  
-  
 Notifies the debug package that text has been removed from the document.  
   
 ## Syntax  

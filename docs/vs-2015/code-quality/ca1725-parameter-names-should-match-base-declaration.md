@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1725: Parameter names should match base declaration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1725: Parameter names should match base declaration](https://docs.microsoft.com/visualstudio/code-quality/ca1725-parameter-names-should-match-base-declaration).
-
 |||
 |-|-|
 |TypeName|ParameterNamesShouldMatchBaseDeclaration|

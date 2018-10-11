@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_virtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-virtualaddress).  
-  
 Retrieves the virtual address (VA) of the block.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # TEXT_DOC_ATTR_2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TEXT_DOC_ATTR_2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/text-doc-attr-2).  
-  
 Describes the attributes of a document.  
   
 ## Syntax  

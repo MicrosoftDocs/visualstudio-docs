@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer2::GetPort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer2::GetPort](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver2-getport).  
-  
 Retrieves a specific port.  
   
 ## Syntax  

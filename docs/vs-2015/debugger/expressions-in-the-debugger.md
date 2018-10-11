@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.expressions"
 dev_langs: 
@@ -36,8 +36,6 @@ manager: "ghogen"
 # Expressions in the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Expressions in the Debugger](https://docs.microsoft.com/visualstudio/debugger/expressions-in-the-debugger).  
-  
 The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.  
   
  The following sections give details about  expressions in different languages.  

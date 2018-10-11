@@ -21,8 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide::InitSourceDataProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyEESide::InitSourceDataProvider](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyeeside-initsourcedataprovider).  
-  
 Initializes the source data for this object and returns an object containing the initial data.  
   
 ## Syntax  

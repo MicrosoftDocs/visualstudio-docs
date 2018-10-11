@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreamData::Skip](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreamdata-skip).  
-  
 Skips a specified number of records in an enumerated sequence.  
   
 ## Syntax  

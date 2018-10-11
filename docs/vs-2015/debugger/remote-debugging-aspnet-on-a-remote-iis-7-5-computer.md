@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: conceptual
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 caps.latest.revision: 13
 author: "mikejo5000"
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Remote Debugging ASP.NET on a Remote IIS Computer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Remote Debug ASP.NET on a Remote IIS Computer](https://docs.microsoft.com/visualstudio/debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer).  
-  
 You can deploy an ASP.NET Web application to a Windows Server computer with IIS, and set it up for remote debugging. This guide explains how to set up and configure a Visual Studio 2015 MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio.
 
 These procedures have been tested on these server configurations:

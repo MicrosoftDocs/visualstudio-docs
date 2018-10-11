@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomAttributeQuery](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomattributequery).  
-  
 Represents a query for custom attributes on a method or type.  
   
 ## Syntax  

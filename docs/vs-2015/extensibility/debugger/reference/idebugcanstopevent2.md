@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCanStopEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCanStopEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcanstopevent2).  
-  
 This interface is used to ask the session debug manager (SDM) whether to stop at the current code location.  
   
 ## Syntax  

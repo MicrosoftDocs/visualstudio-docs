@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: Using XSLT IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Using XSLT IntelliSense](https://docs.microsoft.com/visualstudio/xml-tools/walkthrough-using-xslt-intellisense).  
-  
   
 This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete value of some attributes.  
   

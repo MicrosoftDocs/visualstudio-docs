@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugExceptionEvent2::GetExceptionDescription
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExceptionEvent2::GetExceptionDescription](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexceptionevent2-getexceptiondescription).  
-  
 Gets a displayable description of the exception.  
   
 ## Syntax  

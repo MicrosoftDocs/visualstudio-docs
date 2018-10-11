@@ -28,8 +28,6 @@ manager: "ghogen"
 # ResolveComReference Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ResolveComReference Task](https://docs.microsoft.com/visualstudio/msbuild/resolvecomreference-task).  
-  
   
 Takes a list of one or more type library names or .tlb files and resolves those type libraries to locations on disk.  
   

@@ -25,8 +25,6 @@ manager: "ghogen"
 # How to: Visualize a Collection Association (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Visualize a Collection Association (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-visualize-a-collection-association-class-designer).  
-  
 Properties and fields that are collections of other types can be displayed on the class diagram as a collection association. Unlike a regular association, which displays a field or property as a line linking the owning class to the field's type, a collection association is displayed as a line linking the owning class to the collected type.  
   
 ### To create a collection association  

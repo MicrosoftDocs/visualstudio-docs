@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::Detach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::Detach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-detach).  
-  
 Detaches the debugger from this process by detaching all of the programs in the process.  
   
 ## Syntax  

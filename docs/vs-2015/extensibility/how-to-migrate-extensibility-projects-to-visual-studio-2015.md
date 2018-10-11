@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Migrate Extensibility Projects to Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Migrate Extensibility Projects to Visual Studio 2015](https://docs.microsoft.com/visualstudio/extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015).  
-  
 Here’s how to upgrade your extension.  
   
 > [!IMPORTANT]

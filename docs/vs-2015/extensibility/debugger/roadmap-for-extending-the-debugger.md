@@ -20,8 +20,6 @@ manager: "ghogen"
 # Roadmap for Extending the Debugger
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Roadmap for Extending the Debugger](https://docs.microsoft.com/visualstudio/extensibility/debugger/roadmap-for-extending-the-debugger).  
-  
 This documentation provides guide and reference information for extending the [!INCLUDE[vs_current_short](../../includes/vs-current-short-md.md)] debugger with the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)].  
   
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging documentation includes samples, a comprehensive reference, and several representative scenarios that demonstrate typical ways to customize the debugger.  

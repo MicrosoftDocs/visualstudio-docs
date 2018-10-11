@@ -6,7 +6,7 @@ ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.progression.codemap"
   - "vs.progression.standardgraphsdialog"
@@ -36,8 +36,6 @@ manager: "douge"
 # Map dependencies across your solutions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Map dependencies across your solutions](https://docs.microsoft.com/visualstudio/modeling/map-dependencies-across-your-solutions).  
-  
 When you want to understand dependencies across your code, visualize them by creating code maps. This helps you see how the code fits together without reading through files and lines of code.  
   
  ![View dependencies across your solutions](../modeling/media/codemapsmainintro.png "CodeMapsMainIntro")  

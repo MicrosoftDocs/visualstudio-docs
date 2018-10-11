@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::EnableAutoAttach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer3::EnableAutoAttach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver3-enableautoattach).  
-  
 Enables automatic attaching for the specified debug engines.  
   
 ## Syntax  

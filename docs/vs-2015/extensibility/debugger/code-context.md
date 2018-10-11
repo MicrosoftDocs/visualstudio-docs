@@ -19,8 +19,6 @@ manager: "ghogen"
 # Code Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Code Context](https://docs.microsoft.com/visualstudio/extensibility/debugger/code-context).  
-  
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **code context**:  
   
 -   Provides an abstraction of a position in code as known to the debug engine (DE). For most run-time architectures today, a code context can be thought of as an address in a program's instruction stream. For nontraditional languages, where code may not be represented by instructions, a code context may be represented by some other means.  

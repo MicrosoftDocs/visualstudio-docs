@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Implement Error Markers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Implement Error Markers](https://docs.microsoft.com/visualstudio/extensibility/how-to-implement-error-markers).  
-  
 Error markers (or red wavy underlines) are the most difficult of the text editor customizations to implement. However, the benefits they give to users of your VSPackage can far outweigh the cost to provide them. Error markers subtly mark text that your language parser deems incorrect with a squiggly or wavy red line. This indicator helps programmers by visually displaying incorrect code.  
   
  Use text markers to implement the red wavy underlines. As a rule, language services add red wavy underlines to the text buffer as a background pass, either at idle time or in a background thread.  

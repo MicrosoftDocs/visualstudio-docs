@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1309: Use ordinal StringComparison
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1309: Use ordinal StringComparison](https://docs.microsoft.com/visualstudio/code-quality/ca1309-use-ordinal-stringcomparison).
-
 |||
 |-|-|
 |TypeName|UseOrdinalStringComparison|

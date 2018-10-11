@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetSymUnmanagedReader
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProviderDirect::GetSymUnmanagedReader](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolproviderdirect-getsymunmanagedreader).  
-  
 Retrieves a symbol reader for unmanaged code.  
   
 ## Syntax  

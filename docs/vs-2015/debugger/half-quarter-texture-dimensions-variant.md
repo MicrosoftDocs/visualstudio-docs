@@ -18,8 +18,6 @@ manager: "ghogen"
 # Half/Quarter Texture Dimensions Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Half-Quarter Texture Dimensions Variant](https://docs.microsoft.com/visualstudio/debugger/graphics/half-quarter-texture-dimensions-variant).  
-  
 Reduces the texture dimensions on textures that are not render targets.  
   
 ## Interpretation  

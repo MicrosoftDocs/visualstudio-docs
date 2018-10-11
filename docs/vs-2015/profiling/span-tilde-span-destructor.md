@@ -22,8 +22,6 @@ manager: "ghogen"
 # span::~span Destructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [span::~span Destructor](https://docs.microsoft.com/visualstudio/profiling/span-tilde-span-destructor).  
-  
 Destroys the `span` object and releases its resources.  
   
 ## Syntax  

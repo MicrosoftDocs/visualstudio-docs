@@ -21,8 +21,6 @@ manager: "ghogen"
 # Logical Operators in Search Expressions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Logical Operators in Search Expressions](https://docs.microsoft.com/visualstudio/ide/logical-operators-in-search-expressions).  
-  
 By using logical operators, you can refine your search for content by creating more complicated search expressions from simpler ones. As the following table shows, logical operators specify how multiple search terms should be combined in a search query.  
   
 > [!IMPORTANT]

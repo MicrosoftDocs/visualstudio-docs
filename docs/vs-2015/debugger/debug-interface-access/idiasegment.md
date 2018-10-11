@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSegment
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSegment](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasegment).  
-  
 Maps data from the section number to segments of address space.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # Message Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Message Options Dialog Box](https://docs.microsoft.com/visualstudio/debugger/message-options-dialog-box).  
-  
 Use this dialog box to select which messages are listed in [Messages View](../debugger/messages-view.md). To display this dialog box, choose **Log Messages** from the **Spy** menu.  
   
 ## In This Section  

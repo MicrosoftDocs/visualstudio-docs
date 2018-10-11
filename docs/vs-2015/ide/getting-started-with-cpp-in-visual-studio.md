@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 ms.assetid: 99c73344-86ba-4b08-9e15-f6111cc04185
 caps.latest.revision: 20
 author: gewarren
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Getting Started with C++ in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with C++ in Visual Studio](https://docs.microsoft.com/visualstudio/ide/getting-started-with-cpp-in-visual-studio).  
-  
 By completing this walkthrough, you’ll become familiar with many of the tools and dialog boxes that you can use when you develop applications with Visual Studio. You’ll create a simple "Hello, World"-style application while you learn more about working in the integrated development environment (IDE).  
   
  This topic contains the following sections:  

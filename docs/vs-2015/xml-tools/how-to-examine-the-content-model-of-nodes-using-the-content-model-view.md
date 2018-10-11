@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Examine the Content Model of Nodes Using the Content Model View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Examine the Content Model of Nodes Using the Content Model View](https://docs.microsoft.com/visualstudio/xml-tools/how-to-examine-the-content-model-of-nodes-using-the-content-model-view).  
-  
   
 This topic describes how to explore your nodes using the [Content Model View](../xml-tools/content-model-view.md).  
   

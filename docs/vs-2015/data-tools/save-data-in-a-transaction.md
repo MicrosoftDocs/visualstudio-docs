@@ -27,8 +27,6 @@ manager: "ghogen"
 # Save data in a transaction
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Save data in a transaction](https://docs.microsoft.com/visualstudio/data-tools/save-data-in-a-transaction).  
-  
   
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   

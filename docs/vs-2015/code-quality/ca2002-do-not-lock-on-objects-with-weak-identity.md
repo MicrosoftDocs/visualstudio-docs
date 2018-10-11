@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2002: Do not lock on objects with weak identity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2002: Do not lock on objects with weak identity](https://docs.microsoft.com/visualstudio/code-quality/ca2002-do-not-lock-on-objects-with-weak-identity).
-
 |||
 |-|-|
 |TypeName|DoNotLockOnObjectsWithWeakIdentity|

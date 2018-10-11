@@ -16,8 +16,6 @@ manager: "ghogen"
 # Warning. Changes have been made to the Configure Behavior dialog box that have not been applied
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Warning. Changes have been made to the Configure Behavior dialog box that have not been applied](https://docs.microsoft.com/visualstudio/data-tools/warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied).  
-  
   
 Warning. Changes have been made to the Configure Behavior dialog box that have not been applied. Do you want to apply your changes?  
   

@@ -19,8 +19,6 @@ manager: "ghogen"
 # Objects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Objects](https://docs.microsoft.com/visualstudio/extensibility/objects).  
-  
 The following reference information explains objects that are used to create an instance of the core text editor.  
   
 ## In This Section  

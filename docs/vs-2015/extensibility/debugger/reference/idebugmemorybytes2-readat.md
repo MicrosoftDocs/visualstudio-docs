@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDebugMemoryBytes2::ReadAt
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMemoryBytes2::ReadAt](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmemorybytes2-readat).  
-  
 Reads a sequence of bytes, starting at a given location.  
   
 ## Syntax  

@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create a Profiling Tools ETW Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Profiling Tools ETW Report](https://docs.microsoft.com/visualstudio/profiling/how-to-create-a-profiling-tools-etw-report).  
-  
 The Event Tracing for Windows (ETW) report lists the ETW events that are recorded in a performance session of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools. ETW data is collected in a binary (.etl) file. For more information about this report, see [Event Tracing for Windows (ETW) Report](../profiling/event-tracing-for-windows-etw-report.md).  
   
 > [!NOTE]

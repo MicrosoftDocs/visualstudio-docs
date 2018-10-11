@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPropertyField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPropertyField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpropertyfield).  
-  
 This interface provides the functions that allow getting and setting a property.  
   
 ## Syntax  

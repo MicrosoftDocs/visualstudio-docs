@@ -20,8 +20,6 @@ manager: "ghogen"
 # Creating Custom Editors and Designers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Custom Editors and Designers](https://docs.microsoft.com/visualstudio/extensibility/creating-custom-editors-and-designers).  
-  
 The Visual Studio integrated development environment (IDE) can host different types of editor:  
   
 -   The Visual Studio core editor  

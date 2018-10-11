@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2243: Attribute string literals should parse correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2243: Attribute string literals should parse correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2243-attribute-string-literals-should-parse-correctly).
-
 |||
 |-|-|
 |TypeName|AttributeStringLiteralsShouldParseCorrectly|

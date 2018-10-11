@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasEHa
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasEHa](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-haseha).  
-  
 Retrieves a flag that specifies whether the function contains asynchronous (structured) exception handling.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_RESOLUTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_RESOLUTION_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-resolution-info).  
-  
 Describes the bound breakpoint information for either a code breakpoint or a data breakpoint.  
   
 ## Syntax  

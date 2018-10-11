@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasAssignmentOperator
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasAssignmentOperator](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hasassignmentoperator).  
-  
 Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined.  
   
 ## Syntax  

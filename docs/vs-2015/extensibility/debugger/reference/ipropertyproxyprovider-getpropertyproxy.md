@@ -21,8 +21,6 @@ manager: "ghogen"
 # IPropertyProxyProvider::GetPropertyProxy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyProvider::GetPropertyProxy](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy).  
-  
 Retrieves the property proxy interface for the specified proxy ID.  
   
 ## Syntax  

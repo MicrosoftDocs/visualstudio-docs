@@ -31,8 +31,6 @@ manager: "wpickett"
 # &lt;deployment&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;deployment&gt; Element (ClickOnce Deployment)](https://docs.microsoft.com/visualstudio/deployment/deployment-element-clickonce-deployment).  
-  
 Identifies the attributes used for the deployment of updates and exposure to the system.  
   
 ## Syntax  

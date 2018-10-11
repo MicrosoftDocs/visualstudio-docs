@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::GetEngineID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::GetEngineID](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-getengineid).  
-  
 Gets the GUID of the debug engine (DE).  
   
 ## Syntax  

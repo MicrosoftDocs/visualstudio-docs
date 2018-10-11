@@ -21,8 +21,6 @@ manager: "ghogen"
 # MESSAGETYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MESSAGETYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/messagetype).  
-  
 Specifies the message type and reason.  
   
 ## Syntax  

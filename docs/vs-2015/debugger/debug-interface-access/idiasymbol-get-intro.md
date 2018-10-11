@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_intro
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_intro](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-intro).  
-  
 Retrieves a flag that specifies whether the function is an introducing virtual function.  
   
 ## Syntax  

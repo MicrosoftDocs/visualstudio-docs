@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugReference2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-getsize).  
-  
 Gets the size, in bytes, of the value of the reference. Reserved for future use.  
   
 ## Syntax  

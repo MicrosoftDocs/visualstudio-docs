@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::ResumeProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEx2::ResumeProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportex2-resumeprocess).  
-  
 Resumes execution of a process.  
   
 ## Syntax  

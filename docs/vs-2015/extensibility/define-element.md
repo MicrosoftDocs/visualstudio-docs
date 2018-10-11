@@ -20,8 +20,6 @@ manager: "ghogen"
 # Define Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define Element](https://docs.microsoft.com/visualstudio/extensibility/define-element).  
-  
 Defines a symbol name and value pair. This symbol can be evaluated by conditional attributes. For more information, see [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md). See also the [Symbols Element](../extensibility/symbols-element.md).  
   
 ## Syntax  

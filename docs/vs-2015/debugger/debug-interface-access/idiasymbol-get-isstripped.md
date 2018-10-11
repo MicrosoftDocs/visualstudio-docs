@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isStripped
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isStripped](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-isstripped).  
-  
 Retrieves flag indicating whether private symbols were stripped from the symbol file.  
   
 ## Syntax  

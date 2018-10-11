@@ -20,8 +20,6 @@ manager: "ghogen"
 # RequiredFrameworkVersion Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RequiredFrameworkVersion Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/requiredframeworkversion-element-visual-studio-templates).  
-  
 Specifies the minimum .NET Framework version that is required by the template.Schema Hierarchy.  
   
  \<VSTemplate>  

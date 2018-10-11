@@ -21,8 +21,6 @@ manager: "ghogen"
 # FIELD_KIND
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FIELD_KIND](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/field-kind).  
-  
 Specifies the kind of field contained in an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.  
   
 ## Syntax  

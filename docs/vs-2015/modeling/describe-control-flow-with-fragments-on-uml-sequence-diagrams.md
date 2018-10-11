@@ -24,8 +24,6 @@ manager: "douge"
 # Describe control flow with fragments on UML sequence diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Describe control flow with fragments on UML sequence diagrams](https://docs.microsoft.com/visualstudio/modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams).  
-  
 In a UML sequence diagram, *combined fragments* let you show loops, branches, and other alternatives.  
   
  A combined fragment consists of one or more *interaction operands*, and each of these encloses one or more messages, interaction uses, or combined fragments.  

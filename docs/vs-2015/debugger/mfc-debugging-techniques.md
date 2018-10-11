@@ -36,8 +36,6 @@ manager: "ghogen"
 # MFC Debugging Techniques
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MFC Debugging Techniques](https://docs.microsoft.com/visualstudio/debugger/mfc-debugging-techniques).  
-  
 If you are debugging an MFC program, these debugging techniques may be useful.  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumFrameData::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumFrameData::get_Count](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumframedata-get-count).  
-  
 Retrieves the number of frame data elements.  
   
 ## Syntax  

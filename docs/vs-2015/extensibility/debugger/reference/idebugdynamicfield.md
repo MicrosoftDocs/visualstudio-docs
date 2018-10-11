@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDynamicField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDynamicField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdynamicfield).  
-  
 This interface represents a type of a variable.  
   
 ## Syntax  

@@ -33,8 +33,6 @@ manager: "ghogen"
 # How to: Use the Threads Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging a Multithreaded App using the Threads Window](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-threads-window).  
-  
 In the **Threads** window, you can examine and work with threads in the application that you are debugging.  
   
  The **Threads** window contains a table where each row represents a thread in your application. By default, the table lists all threads in your application, but you can filter the list to show only the threads that interest you. Each column contains a different type of information. You can also hide some columns. If you display all columns, the following information appears, from left to right:  

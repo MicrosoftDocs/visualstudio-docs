@@ -25,8 +25,6 @@ manager: "ghogen"
 # DA0029: Unsupported CLR Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0029: Unsupported CLR Version](https://docs.microsoft.com/visualstudio/profiling/da0029-unsupported-clr-version).  
-  
 Rule Id|DA0029|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Profiling from the command line|  

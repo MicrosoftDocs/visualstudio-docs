@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield).  
-  
 This interface represents a field, that is, a description of a symbol or type.  
   
 ## Syntax  

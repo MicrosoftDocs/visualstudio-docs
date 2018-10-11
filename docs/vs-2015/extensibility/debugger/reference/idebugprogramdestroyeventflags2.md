@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugProgramDestroyEventFlags2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramDestroyEventFlags2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramdestroyeventflags2).  
-  
 Enables a debug engine to override the default behavior of the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] UI when you end a debug session.  
   
 ## Syntax  

@@ -19,8 +19,6 @@ manager: "ghogen"
 # Service Essentials
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Service Essentials](https://docs.microsoft.com/visualstudio/extensibility/internals/service-essentials).  
-  
 A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is itself a collection of VSPackages that provides services to other VSPackages.  
   
  For example, you can use the SVsActivityLog service to obtain an IVsActivityLog interface, which you can use to write to the activity log. For more information, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).  

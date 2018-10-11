@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::set_imageHeaders
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaAddressMap::set_imageHeaders](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaaddressmap-set-imageheaders).  
-  
 Sets image headers to enable relative virtual address translation.  
   
 ## Syntax  

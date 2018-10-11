@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSectionContribs::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSectionContribs::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsectioncontribs-next).  
-  
 Retrieves a specified number of section contributions in the enumeration sequence.  
   
 ## Syntax  

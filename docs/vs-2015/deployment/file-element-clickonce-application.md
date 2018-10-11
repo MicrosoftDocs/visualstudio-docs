@@ -32,8 +32,6 @@ manager: "wpickett"
 # &lt;file&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;file&gt; Element (ClickOnce Application)](https://docs.microsoft.com/visualstudio/deployment/file-element-clickonce-application).  
-  
 Identifies all nonassembly files downloaded and used by the application.  
   
 ## Syntax  

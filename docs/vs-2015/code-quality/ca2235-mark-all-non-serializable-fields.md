@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2235: Mark all non-serializable fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2235: Mark all non-serializable fields](https://docs.microsoft.com/visualstudio/code-quality/ca2235-mark-all-non-serializable-fields).
-
 |||
 |-|-|
 |TypeName|MarkAllNonSerializableFields|

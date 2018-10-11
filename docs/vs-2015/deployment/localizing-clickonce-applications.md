@@ -31,8 +31,6 @@ manager: "wpickett"
 # Localizing ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Localizing ClickOnce Applications](https://docs.microsoft.com/visualstudio/deployment/localizing-clickonce-applications).  
-  
 Localization is the process of making your application appropriate for a specific culture. This process involves translating user interface (UI) text to a region-specific language, using correct date and currency formatting, adjusting the size of controls on a form, and mirroring controls from right to left if necessary.  
   
  Localizing your application results in the creation of one or more satellite assemblies. Each assembly contains UI strings, images, and other resources specific to a given culture. (Your application's main executable file contains the strings for the default culture for your application.)  

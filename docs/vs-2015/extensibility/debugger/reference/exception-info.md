@@ -21,8 +21,6 @@ manager: "ghogen"
 # EXCEPTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EXCEPTION_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/exception-info).  
-  
 Describes an exception or run-time error thrown by the program being debugged.  
   
 ## Syntax  

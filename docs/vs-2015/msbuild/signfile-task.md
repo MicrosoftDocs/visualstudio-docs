@@ -28,8 +28,6 @@ manager: "ghogen"
 # SignFile Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SignFile Task](https://docs.microsoft.com/visualstudio/msbuild/signfile-task).  
-  
   
 Signs the specified file using the specified certificate.  
   

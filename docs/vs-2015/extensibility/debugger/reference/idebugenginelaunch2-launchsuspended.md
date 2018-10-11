@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngineLaunch2::LaunchSuspended
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineLaunch2::LaunchSuspended](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenginelaunch2-launchsuspended).  
-  
 This method launches a process by means of the debug engine (DE).  
   
 ## Syntax  

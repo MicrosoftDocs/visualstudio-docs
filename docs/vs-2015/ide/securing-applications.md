@@ -21,8 +21,6 @@ manager: "ghogen"
 # Securing Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Securing Applications](https://docs.microsoft.com/visualstudio/ide/securing-applications).  
-  
 While most applications possess common security challenges, each application domain possesses security challenges of its own.  
   
 ## General Security Considerations  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_initializedData
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_initializedData](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-initializeddata).  
-  
 Retrieves a flag that indicates whether the section contains initialized data.  
   
 ## Syntax  

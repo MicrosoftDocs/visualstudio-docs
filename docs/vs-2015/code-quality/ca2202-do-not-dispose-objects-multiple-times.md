@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2202: Do not dispose objects multiple times
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2202: Do not dispose objects multiple times](https://docs.microsoft.com/visualstudio/code-quality/ca2202-do-not-dispose-objects-multiple-times).
-
 |||
 |-|-|
 |TypeName|DoNotDisposeObjectsMultipleTimes|

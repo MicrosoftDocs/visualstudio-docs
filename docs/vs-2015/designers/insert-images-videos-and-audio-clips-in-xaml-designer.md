@@ -18,8 +18,6 @@ manager: "ghogen"
 # Insert images, videos, and audio clips in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Insert images, videos, and audio clips in XAML Designer](https://docs.microsoft.com/visualstudio/designers/insert-images-videos-and-audio-clips-in-xaml-designer).  
-  
 Images, videos, and audio clips add visual appeal to your app.  
   
  ![Images sized to fit](../designers/media/b5-memory-images-sized.png "b5_memory_images_sized")  

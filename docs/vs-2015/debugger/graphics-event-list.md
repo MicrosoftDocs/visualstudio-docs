@@ -20,8 +20,6 @@ manager: "ghogen"
 # Graphics Event List
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Event List](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-event-list).  
-  
 Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Direct3D events that were recorded while rendering a frame of your game or app.  
   
  This is the Event List:  

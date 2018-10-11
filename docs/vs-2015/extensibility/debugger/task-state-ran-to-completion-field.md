@@ -19,8 +19,6 @@ manager: "ghogen"
 # TASK_STATE_RAN_TO_COMPLETION Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TASK_STATE_RAN_TO_COMPLETION Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/task-state-ran-to-completion-field).  
-  
 The task completed execution successfully.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

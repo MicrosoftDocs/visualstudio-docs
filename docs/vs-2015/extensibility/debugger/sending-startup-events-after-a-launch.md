@@ -19,8 +19,6 @@ manager: "ghogen"
 # Sending Startup Events After a Launch
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sending Startup Events After a Launch](https://docs.microsoft.com/visualstudio/extensibility/debugger/sending-startup-events-after-a-launch).  
-  
 Once the debug engine (DE) is attached to the program, it sends a series of startup events back to the debug session.  
   
  Startup events sent back to the debug session include the following:  

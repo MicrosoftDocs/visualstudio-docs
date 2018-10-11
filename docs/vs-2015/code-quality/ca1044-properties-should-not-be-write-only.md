@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1044: Properties should not be write only
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1044: Properties should not be write only](https://docs.microsoft.com/visualstudio/code-quality/ca1044-properties-should-not-be-write-only).
-
 |||
 |-|-|
 |TypeName|PropertiesShouldNotBeWriteOnly|

@@ -18,8 +18,6 @@ manager: "ghogen"
 # Using Profiling Methods to Collect Performance Data from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Profiling Methods to Collect Performance Data from the Command Line](https://docs.microsoft.com/visualstudio/profiling/using-profiling-methods-to-collect-performance-data-from-the-command-line).  
-  
 Your choice of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools and options depends on factors such as the type of application that you are profiling, the profiling method that you want to use, and whether the target application is written in native or [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] code.  
   
  This topic organizes the command-line procedural topics according to the profiling method that you choose.  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDisassemblyStream2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdisassemblystream2).  
-  
 This interface represents a stream of instructions.  
   
 ## Syntax  

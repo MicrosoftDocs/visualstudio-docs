@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgramEngines2::SetEngine
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramEngines2::SetEngine](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramengines2-setengine).  
-  
 Tells the program or program node which debug engine (DE) to use to debug this program.  
   
 ## Syntax  

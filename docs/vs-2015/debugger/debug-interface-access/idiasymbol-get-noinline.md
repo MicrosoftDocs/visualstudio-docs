@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_noInline
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_noInline](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-noinline).  
-  
 Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](http://msdn.microsoft.com/library/f259d55b-dec7-4bde-8cf9-14521e4fdc42) attribute).  
   
 ## Syntax  

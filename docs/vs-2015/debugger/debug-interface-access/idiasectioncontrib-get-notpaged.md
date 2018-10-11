@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_notPaged
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_notPaged](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-notpaged).  
-  
 Retrieves a flag that indicates whether the section cannot be paged out of memory.  
   
 ## Syntax  

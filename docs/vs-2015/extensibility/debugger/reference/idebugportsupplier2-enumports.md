@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortSupplier2::EnumPorts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplier2::EnumPorts](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplier2-enumports).  
-  
 Retrieves a list of all the ports supplied by a port supplier.  
   
 ## Syntax  

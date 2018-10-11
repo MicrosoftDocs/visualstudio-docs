@@ -18,8 +18,6 @@ manager: "ghogen"
 # BeginCapture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BeginCapture](https://docs.microsoft.com/visualstudio/debugger/graphics/begincapture).  
-  
 Begins a capture interval that will end with `EndCapture`.  
   
 ## Syntax  

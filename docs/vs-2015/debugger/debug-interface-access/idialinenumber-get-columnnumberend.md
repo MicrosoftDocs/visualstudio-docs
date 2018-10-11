@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_columnNumberEnd
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_columnNumberEnd](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-columnnumberend).  
-  
 Retrieves the one-based source column number where the expression or statement ends.  
   
 ## Syntax  

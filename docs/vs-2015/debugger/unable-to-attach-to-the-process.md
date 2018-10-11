@@ -25,8 +25,6 @@ manager: "ghogen"
 # Unable to Attach to the Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unable to Attach to the Process](https://docs.microsoft.com/visualstudio/debugger/unable-to-attach-to-the-process).  
-  
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.  
   
  There are two common scenarios that cause this error:  

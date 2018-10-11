@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugPortPicker::SetSite
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortPicker::SetSite](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportpicker-setsite).  
-  
 Sets the service provider.  
   
 ## Syntax  

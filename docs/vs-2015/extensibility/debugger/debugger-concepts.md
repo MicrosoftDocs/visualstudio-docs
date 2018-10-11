@@ -19,8 +19,6 @@ manager: "ghogen"
 # Debugger Concepts
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Concepts](https://docs.microsoft.com/visualstudio/extensibility/debugger/debugger-concepts).  
-  
 To build on the Visual Studio debug package, you need to be familiar with the architectural concepts used in designing the package.  
   
 ## In This Section  

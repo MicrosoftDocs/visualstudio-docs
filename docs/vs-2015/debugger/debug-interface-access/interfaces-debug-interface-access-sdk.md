@@ -23,8 +23,6 @@ manager: "ghogen"
 # Interfaces (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Interfaces (Debug Interface Access SDK)](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/interfaces-debug-interface-access-sdk).  
-  
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.  
   
 ## In This Section  

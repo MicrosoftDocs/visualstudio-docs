@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetNamespacesUsedAtAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getnamespacesusedataddress).  
-  
 This method creates an enumerator for namespaces associated with the debug address.  
   
 ## Syntax  

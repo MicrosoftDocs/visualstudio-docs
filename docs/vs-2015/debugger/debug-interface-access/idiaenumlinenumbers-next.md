@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumLineNumbers::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumLineNumbers::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumlinenumbers-next).  
-  
 Retrieves a specified number of line numbers in the enumeration sequence.  
   
 ## Syntax  

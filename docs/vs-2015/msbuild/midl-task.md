@@ -36,8 +36,6 @@ manager: "ghogen"
 # MIDL Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MIDL Task](https://docs.microsoft.com/visualstudio/msbuild/midl-task).  
-  
   
 Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe. For more information, see "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
   

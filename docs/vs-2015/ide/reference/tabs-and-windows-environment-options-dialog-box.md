@@ -20,8 +20,6 @@ manager: "ghogen"
 # Tabs and Windows, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tabs and Windows, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/tabs-and-windows-environment-options-dialog-box).  
-  
   
 Use this page to set options for how tabbed windows behave in the editor pane, and how tool windows behave. For more information, see [How to: Arrange and Dock Windows](../../misc/how-to-arrange-and-dock-windows.md)  
   

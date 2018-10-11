@@ -17,8 +17,6 @@ manager: "ghogen"
 # FAQ: Converting Add-ins to VSPackage Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FAQ: Converting Add-ins to VSPackage Extensions](https://docs.microsoft.com/visualstudio/extensibility/faq-converting-add-ins-to-vspackage-extensions).  
-  
 Add-ins are now deprecated. To make a new Visual Studio extension, you need to create a VSIX extension. Here are the answers to some frequently asked questions about how to convert a Visual Studio add-in to a VSIX extension.  
   
 > [!WARNING]

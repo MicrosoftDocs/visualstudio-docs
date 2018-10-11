@@ -32,8 +32,6 @@ manager: "ghogen"
 # How to: Add or Remove References By Using the Reference Manager
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Add or Remove References By Using the Reference Manager](https://docs.microsoft.com/visualstudio/ide/how-to-add-or-remove-references-by-using-the-reference-manager).  
-  
 You can use the **Reference Manager** dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references mscorlib.dll. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.  
   
 ## Adding and Removing a Reference  

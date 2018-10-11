@@ -21,8 +21,6 @@ manager: "ghogen"
 # PROCESS_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PROCESS_INFO_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/process-info-fields).  
-  
 Specified what kind of information to retrieve for a process.  
   
 ## Syntax  

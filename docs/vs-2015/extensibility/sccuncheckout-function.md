@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccUncheckout Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccUncheckout Function](https://docs.microsoft.com/visualstudio/extensibility/sccuncheckout-function).  
-  
 This function undoes a previous checkout operation, thereby restoring the contents of the selected file or files to the state prior to the checkout. All changes made to the file since the checkout are lost.  
   
 ## Syntax  

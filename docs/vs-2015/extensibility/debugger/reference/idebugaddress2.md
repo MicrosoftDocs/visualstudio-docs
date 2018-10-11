@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugAddress2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAddress2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugaddress2).  
-  
 This interface provides access to the ID of the process that owns the object whose address is represented by this interface.  
   
 ## Syntax  

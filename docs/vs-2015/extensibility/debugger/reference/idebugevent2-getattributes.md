@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEvent2::GetAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEvent2::GetAttributes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugevent2-getattributes).  
-  
 Gets the attributes for this debug event.  
   
 ## Syntax  

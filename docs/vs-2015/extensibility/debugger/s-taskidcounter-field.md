@@ -19,8 +19,6 @@ manager: "ghogen"
 # s_taskIdCounter Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [s_taskIdCounter Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/s-taskidcounter-field).  
-  
 The next available identifier for a <xref:System.Threading.Tasks.Task> object.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

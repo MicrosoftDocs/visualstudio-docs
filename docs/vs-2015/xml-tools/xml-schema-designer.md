@@ -18,8 +18,6 @@ manager: "ghogen"
 # XML Schema Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XML Schema Designer](https://docs.microsoft.com/visualstudio/xml-tools/xml-schema-designer).  
-  
   
 The XML Schema Designer (XSD Designer) is a graphical tool that allows you to visualize a schema set at different levels of abstraction. The following are the main components of the XSD Designer:    
   

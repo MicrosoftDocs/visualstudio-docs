@@ -21,8 +21,6 @@ manager: "ghogen"
 # Collecting Thread and Process Concurrency Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Thread and Process Concurrency Data](https://docs.microsoft.com/visualstudio/profiling/collecting-thread-and-process-concurrency-data).  
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools concurrency profiling method enables you to collect resource contention data that includes information about every synchronization event that causes a function in the profiled application to wait for access to a resource.  
   
  **Requirements**  

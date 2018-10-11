@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer2::GetMachineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer2::GetMachineInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver2-getmachineinfo).  
-  
 Retrieves a description of the machine the core server is running on.  
   
 ## Syntax  

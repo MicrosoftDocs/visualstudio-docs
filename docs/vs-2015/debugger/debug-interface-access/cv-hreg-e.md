@@ -22,8 +22,6 @@ manager: "ghogen"
 # CV_HREG_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CV_HREG_e](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/cv-hreg-e).  
-  
 Specifies a target register.  
   
 > [!NOTE]

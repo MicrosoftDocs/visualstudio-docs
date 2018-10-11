@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointUnboundEvent2::GetReason
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointUnboundEvent2::GetReason](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointunboundevent2-getreason).  
-  
 Gets the reason the breakpoint was unbound.  
   
 ## Syntax  

@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1811: Avoid uncalled private code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1811: Avoid uncalled private code](https://docs.microsoft.com/visualstudio/code-quality/ca1811-avoid-uncalled-private-code).
-
 |||
 |-|-|
 |TypeName|AvoidUncalledPrivateCode|

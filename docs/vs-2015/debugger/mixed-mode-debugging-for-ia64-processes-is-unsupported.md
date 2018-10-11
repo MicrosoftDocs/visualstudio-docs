@@ -25,8 +25,6 @@ manager: "ghogen"
 # Mixed mode debugging for IA64 processes is unsupported.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mixed mode debugging for IA64 processes is unsupported.](https://docs.microsoft.com/visualstudio/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported).  
-  
 Visual Studio does not support mixed-mode debugging of managed and native code in IA64 processes. This means that you cannot step from managed code to native code, or from native code to managed code, while debugging.  
   
 ### Workarounds  

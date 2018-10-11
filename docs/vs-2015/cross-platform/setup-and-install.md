@@ -14,8 +14,6 @@ manager: "crdun"
 # Setup and install
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Setup and install](https://docs.microsoft.com/visualstudio/cross-platform/setup-and-install).  
-  
   
 To build native iOS, Android, and Windows apps from a common C#/.NET code base using Xamarin, you need the following:  
   

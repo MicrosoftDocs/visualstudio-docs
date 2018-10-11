@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugExpressionContext2::ParseText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionContext2::ParseText](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressioncontext2-parsetext).  
-  
 Parses an expression in text form for later evaluation.  
   
 ## Syntax  

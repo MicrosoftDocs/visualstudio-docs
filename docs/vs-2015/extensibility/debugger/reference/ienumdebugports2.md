@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugPorts2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugPorts2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugports2).  
-  
 This interface enumerates the ports of a machine or port supplier.  
   
 ## Syntax  

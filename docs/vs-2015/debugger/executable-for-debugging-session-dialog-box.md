@@ -30,8 +30,6 @@ manager: "ghogen"
 # Executable for Debugging Session Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Executable for Debugging Session Dialog Box](https://docs.microsoft.com/visualstudio/debugger/executable-for-debugging-session-dialog-box).  
-  
 This dialog box appears when you try to debug a DLL for which no executable is specified. Visual Studio cannot launch a DLL directly. Instead, it will launch the specified executable. You can debug the DLL when it is called by the executable.  
   
  **Executable file name**  

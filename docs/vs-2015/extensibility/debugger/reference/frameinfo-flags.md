@@ -21,8 +21,6 @@ manager: "ghogen"
 # FRAMEINFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FRAMEINFO_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/frameinfo-flags).  
-  
 Specifies the information to retrieve about a stack frame object.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onDestroy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentTextEvents2::onDestroy](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttextevents2-ondestroy).  
-  
 Indicates that the entire document has been destroyed.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3::DiagnoseWebDebuggingError
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer3::DiagnoseWebDebuggingError](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver3-diagnosewebdebuggingerror).  
-  
 Attempts to determine why an auto-attach failed.  
   
 ## Syntax  

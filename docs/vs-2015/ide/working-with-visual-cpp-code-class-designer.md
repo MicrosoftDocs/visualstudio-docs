@@ -28,8 +28,6 @@ manager: "ghogen"
 # Working with Visual C++ Code (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with Visual C++ Code (Class Designer)](https://docs.microsoft.com/visualstudio/ide/working-with-visual-cpp-code-class-designer).  
-  
 Class Designer displays a visual design surface called a *class diagram* that provides a visual representation of the code elements in your project. You can use class diagrams to design and visualize classes and other types in a project.  
   
  Class Designer supports the following C++ code elements:  

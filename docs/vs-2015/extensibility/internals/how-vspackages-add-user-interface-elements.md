@@ -21,8 +21,6 @@ manager: "ghogen"
 # How VSPackages Add User Interface Elements
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How VSPackages Add User Interface Elements](https://docs.microsoft.com/visualstudio/extensibility/internals/how-vspackages-add-user-interface-elements).  
-  
 A VSPackage can add user interface (UI) elements, for example, menus, toolbars, and tool windows, to Visual Studio by means of the .vsct file.  
   
  You can find design guidelines for UI elements at [Visual Studio User Experience Guidelines](../../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  

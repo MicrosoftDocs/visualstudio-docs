@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortRequest2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortRequest2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportrequest2).  
-  
 This interface describes a port. This description is used to add the port to a port supplier.  
   
 ## Syntax  

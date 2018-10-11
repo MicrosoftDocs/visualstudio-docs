@@ -22,8 +22,6 @@ manager: "ghogen"
 # Commands Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Commands Element](https://docs.microsoft.com/visualstudio/extensibility/commands-element).  
-  
 Represents the collection of commands on the VSPackage toolbar. The collection can have up to five subsections, as follows: menus, groups, buttons, combos, and bitmaps.  
   
  Each subsection child element, for example, \<Menu>, is identified by a unique command ID that is a GUID and numeric identifier pair. The GUID identifies the "command set" and is used to group logically related commands. The VSPackage should define its own command set to avoid collisions with command IDs that are defined by other VSPackages.  

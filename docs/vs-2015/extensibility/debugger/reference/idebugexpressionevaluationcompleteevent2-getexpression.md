@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugExpressionEvaluationCompleteEvent2::GetExpression
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluationCompleteEvent2::GetExpression](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getexpression).  
-  
 Gets the original expression.  
   
 ## Syntax  

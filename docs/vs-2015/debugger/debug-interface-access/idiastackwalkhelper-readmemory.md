@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::readMemory
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::readMemory](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-readmemory).  
-  
 Reads a block of data from the executable's image in memory.  
   
 ## Syntax  

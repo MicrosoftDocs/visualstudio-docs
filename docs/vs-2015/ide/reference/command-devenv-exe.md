@@ -21,8 +21,6 @@ manager: "ghogen"
 # /Command (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Command (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/command-devenv-exe).  
-  
   
 Executes the specified command after launching the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE).  
   

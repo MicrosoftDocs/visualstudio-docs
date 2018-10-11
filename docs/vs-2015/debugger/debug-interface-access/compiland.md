@@ -23,8 +23,6 @@ manager: "ghogen"
 # Compiland
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Compiland](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/compiland).  
-  
 There is one `SymTagCompiland` symbol for each Compiland linked to the .exe file. Compiland information is split between symbols with a `SymTagCompiland` tag, which can be retrieved without loading additional compiland symbols, and symbols with a `SymTagCompilandDetails` tag, which may require loading additional symbols.  
   
 ## Properties  

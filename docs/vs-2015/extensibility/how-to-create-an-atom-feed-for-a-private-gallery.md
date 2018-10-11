@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Create an Atom Feed for a Private Gallery
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create an Atom Feed for a Private Gallery](https://docs.microsoft.com/visualstudio/extensibility/how-to-create-an-atom-feed-for-a-private-gallery).  
-  
 You can create an Atom (RSS) feed to an intranet location that contains extensions and add the feed to **Extensions and Updates** as a private gallery. For more information, see [Private Galleries](../extensibility/private-galleries.md).  
   
 ## Creating an Atom Feed  

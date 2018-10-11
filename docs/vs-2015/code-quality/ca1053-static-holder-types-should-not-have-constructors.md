@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1053: Static holder types should not have constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1053: Static holder types should not have constructors](https://docs.microsoft.com/visualstudio/code-quality/ca1053-static-holder-types-should-not-have-constructors).
-
 |||
 |-|-|
 |TypeName|StaticHolderTypesShouldNotHaveConstructors|

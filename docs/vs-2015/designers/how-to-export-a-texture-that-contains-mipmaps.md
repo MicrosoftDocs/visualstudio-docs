@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Export a Texture that Contains Mipmaps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Export a Texture that Contains Mipmaps](https://docs.microsoft.com/visualstudio/designers/how-to-export-a-texture-that-contains-mipmaps).  
-  
 The Image Content Pipeline can generate mipmaps from a source image as part of your project's build phase. When you do not need to specify the image content of each MIP level manually—as you might do to achieve certain effects—generating mipmaps at build time ensures that mipmap contents never become out-of-sync and eliminates the performance cost of generating mipmaps at run time.  
   
  This document demonstrates these activities:  

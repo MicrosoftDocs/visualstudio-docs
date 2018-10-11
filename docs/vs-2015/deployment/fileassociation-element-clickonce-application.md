@@ -25,8 +25,6 @@ manager: "wpickett"
 # &lt;fileAssociation&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;fileAssociation&gt; Element (ClickOnce Application)](https://docs.microsoft.com/visualstudio/deployment/fileassociation-element-clickonce-application).  
-  
 Identifies a file extension to be associated with the application.  
   
 ## Syntax  

@@ -32,8 +32,6 @@ manager: "ghogen"
 # Viewing Data in the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Viewing Data in the Debugger](https://docs.microsoft.com/visualstudio/debugger/viewing-data-in-the-debugger).  
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger provides a variety of tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.  
   
 ## DataTips  

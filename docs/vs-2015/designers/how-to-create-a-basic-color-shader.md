@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic Color Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Basic Color Shader](https://docs.microsoft.com/visualstudio/designers/how-to-create-a-basic-color-shader).  
-  
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a flat color shader. This shader sets the final color to a constant RGB color value.  
   
  This document demonstrates these activities:  

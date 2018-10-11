@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProperty2::EnumChildren
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::EnumChildren](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-enumchildren).  
-  
 Retrieves a list of the children of the property.  
   
 ## Syntax  

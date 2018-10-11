@@ -22,8 +22,6 @@ manager: "ghogen"
 # CvInitProvider Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvInitProvider Function](https://docs.microsoft.com/visualstudio/profiling/cvinitprovider-function).  
-  
 Initializes marker provider. Has to be called before any other Concurrency Visualizer SDK functions.  
   
 ## Syntax  

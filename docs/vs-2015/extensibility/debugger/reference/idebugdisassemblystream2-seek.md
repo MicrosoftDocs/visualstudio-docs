@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::Seek
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDisassemblyStream2::Seek](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdisassemblystream2-seek).  
-  
 Moves the read pointer in the disassembly stream a given number of instructions relative to a specified position.  
   
 ## Syntax  

@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugProcessQueryProperties::QueryProperties
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessQueryProperties::QueryProperties](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocessqueryproperties-queryproperties).  
-  
 This method queries for a specified property values of the debugging process.  
   
 ## Syntax  

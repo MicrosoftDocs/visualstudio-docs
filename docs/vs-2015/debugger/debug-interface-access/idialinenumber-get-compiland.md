@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaLineNumber::get_compiland
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_compiland](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-compiland).  
-  
 Retrieves a reference to the symbol for the compiland that contributed the bytes of image text.  
   
 ## Syntax  

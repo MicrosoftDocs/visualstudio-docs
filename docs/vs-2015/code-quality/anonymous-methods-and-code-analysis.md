@@ -22,8 +22,6 @@ manager: "wpickett"
 # Anonymous Methods and Code Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Anonymous Methods and Code Analysis](https://docs.microsoft.com/visualstudio/code-quality/anonymous-methods-and-code-analysis).  
-  
 An *anonymous method* is a method that has no name. Anonymous methods are most frequently used to pass a code block as a delegate parameter.  
   
  This topic explains how Code Analysis handles warnings and metrics that are associated with anonymous methods.  

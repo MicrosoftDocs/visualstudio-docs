@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider).  
-  
 Represents a COM+ symbol provider with methods that are specific to managed code.  
   
 ## Syntax  

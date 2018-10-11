@@ -27,8 +27,6 @@ manager: "ghogen"
 # MarkupCompilePass2 Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MarkupCompilePass2 Task](https://docs.microsoft.com/visualstudio/msbuild/markupcompilepass2-task).  
-  
   
 The <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass2> task performs second-pass markup compilation on [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] files that reference types in the same project.  
   

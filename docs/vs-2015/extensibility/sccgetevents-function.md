@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccGetEvents Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccGetEvents Function](https://docs.microsoft.com/visualstudio/extensibility/sccgetevents-function).  
-  
 This function retrieves a queued status event.  
   
 ## Syntax  

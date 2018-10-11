@@ -20,8 +20,6 @@ manager: "ghogen"
 # Project Configuration Object
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Configuration Object](https://docs.microsoft.com/visualstudio/extensibility/internals/project-configuration-object).  
-  
 The project configuration object manages the display of configuration information to the UI.  
   
  ![Visual Studio Project Configuration](../../extensibility/internals/media/vsprojectcfg.gif "vsProjectCfg")  

@@ -23,8 +23,6 @@ manager: "ghogen"
 # Dump File Summary Extensibility API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Dump File Summary Extensibility API](https://docs.microsoft.com/visualstudio/debugger/dump-file-summary-extensibility-api).  
-  
 Using the extensibility APIs in this section, you can extend the .Exe Project System and the **Dump Summary** page for use with your own custom debug engine.  
   
 ## In This Section  

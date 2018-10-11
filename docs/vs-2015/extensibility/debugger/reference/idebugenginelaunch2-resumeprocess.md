@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngineLaunch2::ResumeProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineLaunch2::ResumeProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenginelaunch2-resumeprocess).  
-  
 Resumes process execution.  
   
 ## Syntax  

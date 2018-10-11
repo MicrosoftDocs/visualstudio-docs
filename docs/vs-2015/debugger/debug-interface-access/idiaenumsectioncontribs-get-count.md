@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSectionContribs::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSectionContribs::get_Count](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsectioncontribs-get-count).  
-  
 Retrieves the number of section contributions.  
   
 ## Syntax  

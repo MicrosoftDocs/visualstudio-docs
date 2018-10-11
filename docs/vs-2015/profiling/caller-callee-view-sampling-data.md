@@ -21,8 +21,6 @@ manager: "ghogen"
 # Caller / Callee View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Caller - Callee View - Sampling Data](https://docs.microsoft.com/visualstudio/profiling/caller-callee-view-sampling-data).  
-  
 The Caller/Callee view displays profiling information for a selected function and its parent and child functions. The Caller/Callee view contains three grids.  
   
  **Current function** is displayed in the middle grid, and it shows profiling information for the selected function. The values include all sampled calls to the function.  

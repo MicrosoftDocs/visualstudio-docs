@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocument2::GetDocumentClassID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocument2::GetDocumentClassID](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocument2-getdocumentclassid).  
-  
 Gets the class identifier of the document.  
   
 ## Syntax  

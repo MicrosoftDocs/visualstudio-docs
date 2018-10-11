@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumInjectedSources::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumInjectedSources::get_Count](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenuminjectedsources-get-count).  
-  
 Retrieves the number of injected sources.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreamData](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreamdata).  
-  
 Provides access to the records in a debug data stream.  
   
 ## Syntax  

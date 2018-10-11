@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_dataBytes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_dataBytes](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-databytes).  
-  
 Retrieves the data bytes of an OEM symbol.  
   
 ## Syntax  

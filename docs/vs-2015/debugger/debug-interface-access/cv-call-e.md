@@ -22,8 +22,6 @@ manager: "ghogen"
 # CV_call_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CV_call_e](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/cv-call-e).  
-  
 Specifies the calling convention for a function.  
   
 > [!NOTE]

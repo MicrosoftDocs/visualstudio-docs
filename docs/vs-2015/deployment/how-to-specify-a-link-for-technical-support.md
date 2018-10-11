@@ -30,8 +30,6 @@ manager: "wpickett"
 # How to: Specify a Link for Technical Support
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify a Link for Technical Support](https://docs.microsoft.com/visualstudio/deployment/how-to-specify-a-link-for-technical-support).  
-  
 When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, the **Support URL** property identifies a Web page or file share where users can go to get information about the application. This property is optional; if provided, the URL will be displayed in the application's entry **Add or Remove Programs** dialog box.  
   
  The **Support URL** property can be set on the **Publish** page of the **Project Designer**.  

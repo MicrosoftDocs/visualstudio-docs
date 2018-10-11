@@ -24,8 +24,6 @@ manager: "ghogen"
 # Toggle Breakpoint Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Toggle Breakpoint Command](https://docs.microsoft.com/visualstudio/ide/reference/toggle-breakpoint-command).  
-  
   
 Turns the breakpoint either on or off, depending on its current state, at the current location in the file.  
   

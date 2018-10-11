@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::GetEngineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::GetEngineInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-getengineinfo).  
-  
 Gets the name and GUID of the debug engine (DE) running this program.  
   
 ## Syntax  

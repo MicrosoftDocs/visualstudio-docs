@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentPosition2::GetRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentPosition2::GetRange](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentposition2-getrange).  
-  
 Gets the range for this document position.  
   
 ## Syntax  

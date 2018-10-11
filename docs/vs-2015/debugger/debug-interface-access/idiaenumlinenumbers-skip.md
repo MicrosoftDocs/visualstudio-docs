@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumLineNumbers::Skip
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumLineNumbers::Skip](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumlinenumbers-skip).  
-  
 Skips a specified number of line numbers in an enumeration sequence.  
   
 ## Syntax  

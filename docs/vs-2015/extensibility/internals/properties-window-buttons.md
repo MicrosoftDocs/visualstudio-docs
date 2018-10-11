@@ -19,8 +19,6 @@ manager: "ghogen"
 # Properties Window Buttons
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties Window Buttons](https://docs.microsoft.com/visualstudio/extensibility/internals/properties-window-buttons).  
-  
 Depending on the development language and the product type, certain buttons are displayed by default on the toolbar for the **Properties** window. In all cases, the **Categorized**, **Alphabetized**, **Properties**, and **Property Pages** buttons are displayed. In Visual C# and Visual Basic, the **Events** button is also displayed. In certain Visual C++ projects, the **VC++ Messages** and the **VC Overrides** buttons are displayed. Additional buttons may be displayed for other project types. For more information about buttons in the **Properties** window, see [Properties Window](../../ide/reference/properties-window.md).  
   
 ## Implementation of Properties Window Buttons  

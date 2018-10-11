@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSegments](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsegments).  
-  
 Enumerates the various segments contained in the data source.  
   
 ## Syntax  

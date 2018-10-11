@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Launch a Stand-Alone .NET Framework Application with the Profiler to Collect Concurrency Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Launch a Stand-Alone .NET Framework Application with the Profiler to Collect Concurrency Data by Using the Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line).  
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to start a .NET Framework stand-alone (client) application and collect process and thread concurrency data  
   
 > [!NOTE]

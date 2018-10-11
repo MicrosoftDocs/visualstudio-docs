@@ -25,8 +25,6 @@ manager: "ghogen"
 # Preparing to Debug ASP.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Preparing to Debug ASP.NET](https://docs.microsoft.com/visualstudio/debugger/preparing-to-debug-aspnet).  
-  
 This section describes how to set up [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to debug an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] or WCF application.  
   
 ## In This Section  

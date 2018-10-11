@@ -21,8 +21,6 @@ manager: "ghogen"
 # Hierarchies and Selection
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Hierarchies and Selection](https://docs.microsoft.com/visualstudio/extensibility/internals/hierarchies-and-selection).  
-  
 When you customize [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you should understand how [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] handles hierarchies such as projects and how it uses selection context to determine what is displayed to the user. This section discusses the concepts of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] hierarchies and selection.  
   
 ## In This Section  

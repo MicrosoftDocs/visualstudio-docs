@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugPrograms2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugPrograms2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugprograms2).  
-  
 This interface enumerates the programs running in the current debug session.  
   
 ## Syntax  

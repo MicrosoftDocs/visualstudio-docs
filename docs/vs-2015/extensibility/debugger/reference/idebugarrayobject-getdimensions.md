@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugArrayObject::GetDimensions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayObject::GetDimensions](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayobject-getdimensions).  
-  
 Gets the dimensions of the array.  
   
 ## Syntax  

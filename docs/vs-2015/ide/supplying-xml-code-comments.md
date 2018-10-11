@@ -24,8 +24,6 @@ manager: "ghogen"
 # Supplying XML Code Comments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Supplying XML Code Comments](https://docs.microsoft.com/visualstudio/ide/supplying-xml-code-comments).  
-  
 You can make the comments in source code files available as IntelliSense. When you add the /doc switch to the Visual Basic, C#, or C++ compiler command line, an .xml file is generated that serves as the basis for IntelliSense documentation.  
   
  For more information about documenting code in Visual Basic, see [How to: Create XML Documentation](http://msdn.microsoft.com/library/27b5b06c-09b9-496a-8245-f9542d846230).  

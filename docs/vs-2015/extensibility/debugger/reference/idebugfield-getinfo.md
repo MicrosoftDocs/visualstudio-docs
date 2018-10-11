@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugField::GetInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::GetInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-getinfo).  
-  
 This method gets displayable information about the field.  
   
 ## Syntax  

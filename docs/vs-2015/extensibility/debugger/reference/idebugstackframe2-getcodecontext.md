@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugStackFrame2::GetCodeContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetCodeContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getcodecontext).  
-  
 Gets the code context for this stack frame.  
   
 ## Syntax  

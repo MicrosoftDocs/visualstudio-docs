@@ -17,8 +17,6 @@ manager: "ghogen"
 # What&#39;s New in the Visual Studio 2015 SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [What&#39;s New in the Visual Studio 2015 SDK](https://docs.microsoft.com/visualstudio/extensibility/what-s-new-in-the-visual-studio-2015-sdk).  
-  
 The Visual Studio SDK has the following new and updated features for Visual Studio 2015, Visual Studio 2015 updated, and Visual Studio "15".  
   
 ## Visual Studio "15" Preview 2  

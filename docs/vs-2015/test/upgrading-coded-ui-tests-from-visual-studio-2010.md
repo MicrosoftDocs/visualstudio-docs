@@ -17,8 +17,6 @@ manager: "douge"
 # Upgrading Coded UI Tests from Visual Studio 2010
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Upgrading Coded UI Tests from Visual Studio 2010](https://docs.microsoft.com/visualstudio/test/upgrading-coded-ui-tests-from-visual-studio-2010).  
-  
 Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 are silently repaired when opened in Visual Studio 2012. If the Test projects are checked into source control, the project files are checked out for this repair. Once repaired, these test projects containing coded UI tests can then be used in both [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 and [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].  
   
  **Requirements**  

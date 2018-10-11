@@ -18,8 +18,6 @@ manager: "ghogen"
 # Args
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Args](https://docs.microsoft.com/visualstudio/profiling/args).  
-  
 The VSPerfCmd.exe **Args** option specifies a list of arguments that are passed to the target application of the **Launch** subcommand.  
   
  **Args** can only be used when **Launch** is also specified on the command line. **Args** is optional when **Launch** is specified.  

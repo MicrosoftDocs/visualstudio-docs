@@ -26,8 +26,6 @@ manager: "ghogen"
 # Devenv Command-Line Switches for VSPackage Development
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Devenv Command-Line Switches for VSPackage Development](https://docs.microsoft.com/visualstudio/extensibility/devenv-command-line-switches-for-vspackage-development).  
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] allows developers to automate tasks from the command line when executing devenv.exe, the file that starts the Visual Studio integrated development environment (IDE).  
   
  Tasks include:  

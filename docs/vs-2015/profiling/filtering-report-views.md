@@ -20,8 +20,6 @@ manager: "ghogen"
 # Filtering Report Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Filtering Report Views](https://docs.microsoft.com/visualstudio/profiling/filtering-report-views).  
-  
 You can apply filters to profiling data files to limit the profiling data that is displayed in the Performance Report views and exported to report files. You can limit a report to the data between time stamp values, and you can limit the data to specific processes and threads. You can save filters to a file and then create a filter on a different profiling data file by importing the saved filter.  
   
  You can also limit a report to a time segment by using the graphical timeline on the Summary View. See [How to: Filter Report Views from the Summary Timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md).  

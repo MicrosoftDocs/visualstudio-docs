@@ -18,8 +18,6 @@ manager: "douge"
 # How to: Change the Namespace of a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Change the Namespace of a Domain-Specific Language](https://docs.microsoft.com/visualstudio/modeling/how-to-change-the-namespace-of-a-domain-specific-language).  
-  
 You can change the namespace of a domain-specific language. You must make the change in the **DSL Explorer**, in the properties of the Dsl Package project, and in the assembly information.  
   
 ### To change the namespace of a domain-specific language  

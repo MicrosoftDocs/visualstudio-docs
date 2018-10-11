@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetScope
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDisassemblyStream2::GetScope](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdisassemblystream2-getscope).  
-  
 Gets the scope of the disassembly stream.  
   
 ## Syntax  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # Noise Reduction Percentage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Noise Reduction Percentage](https://docs.microsoft.com/visualstudio/profiling/noise-reduction-percentage).  
-  
 By default, the value of the Noise Reduction Percentage setting is 2. Only entries that have a percentage of inclusive time greater than or equal to this setting are shown in the call tree. By changing the setting, you can control the number of entries that are displayed in the call tree. For example, changing the value to 10 will show only call tree entries that have an inclusive time greater than or equal to 10%. By increasing the value of the setting, you can focus on entries that have larger impacts on the performance of your process.
 
 

@@ -19,8 +19,6 @@ manager: "ghogen"
 # Project Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Context](https://docs.microsoft.com/visualstudio/extensibility/internals/project-context).  
-  
 When the user adds or works with projects and project items, the IDE uses the notion of project context to determine how various operations should be performed.  
   
  Typically, files are the standard project objects that the user explicitly creates by selecting the **New Project** command or makes available by selecting the **Open Project** command on the **File** menu. In these cases, files are created and opened in the context of a project and the project type defines the context for editing the document.  

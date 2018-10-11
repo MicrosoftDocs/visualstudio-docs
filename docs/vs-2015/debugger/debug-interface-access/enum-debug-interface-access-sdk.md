@@ -23,8 +23,6 @@ manager: "ghogen"
 # Enum (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Enum (Debug Interface Access SDK)](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/enum-debug-interface-access-sdk).  
-  
 Enumerations are identified by `SymTagEnum` symbols. Each enumeration value appears as a class child with a `SymTagConstant` tag.  
   
 ## Properties  

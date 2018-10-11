@@ -22,8 +22,6 @@ manager: "ghogen"
 # NameSearchOptions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [NameSearchOptions](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/namesearchoptions).  
-  
 Specifies the search options for symbol and file names.  
   
 ## Syntax  

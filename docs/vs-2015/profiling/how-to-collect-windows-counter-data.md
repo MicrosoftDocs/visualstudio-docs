@@ -25,8 +25,6 @@ manager: "ghogen"
 # How to: Collect Windows Counter Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Collect Windows Counter Data](https://docs.microsoft.com/visualstudio/profiling/how-to-collect-windows-counter-data).  
-  
 Windows Counters are system performance counters that can be collected at set intervals during profiling. In the Marks view of the Profiling Tools report, a row is labeled **AutoMark** for each collection interval. The row contains columns that describe the performance counter values at that interval. To restrict the analysis to a period of time between two particular marks, select the marks, right-click, and then select **Filter By** ->  **Marks** from the shortcut menu.  
   
  **Requirements**  

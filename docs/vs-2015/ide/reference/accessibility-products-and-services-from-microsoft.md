@@ -28,8 +28,6 @@ manager: "ghogen"
 # Accessibility Products and Services from Microsoft
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessibility Products and Services from Microsoft](https://docs.microsoft.com/visualstudio/ide/reference/accessibility-products-and-services-from-microsoft).  
-  
   
 Microsoft is committed to making its products and services easier for everyone to use. The following topics provide information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities:  
   

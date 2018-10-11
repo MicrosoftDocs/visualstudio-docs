@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugCustomAttributes::Skip](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugcustomattributes-skip).  
-  
 Skips a specified number of custom attributes in an enumeration sequence.  
   
 ## Syntax  

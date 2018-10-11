@@ -17,8 +17,6 @@ manager: "ghogen"
 # MoreInfoURL Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MoreInfoURL Element (VSIX Language Pack Schema)](https://docs.microsoft.com/visualstudio/extensibility/moreinfourl-element-vsix-language-pack-schema).  
-  
 Optional. A link to localized information about the extension.  
   
 ## Syntax  

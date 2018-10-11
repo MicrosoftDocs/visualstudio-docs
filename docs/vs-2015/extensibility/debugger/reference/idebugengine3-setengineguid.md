@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::SetEngineGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3::SetEngineGuid](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3-setengineguid).  
-  
 This method sets the debug engine's (DE) `GUID`.  
   
 ## Syntax  

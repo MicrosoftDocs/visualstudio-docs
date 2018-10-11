@@ -37,8 +37,6 @@ manager: "ghogen"
 # Error: Unable to Start Debugging on the Web Server
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Unable to Start Debugging on the Web Server](https://docs.microsoft.com/visualstudio/debugger/error-unable-to-start-debugging-on-the-web-server).  
-  
 When you try to debug an ASP.NET application running on a Web server, you may get this error message: Unable to start debugging on the Web server.
   
 In many cases, this error occurs because IIS is not configured correctly.

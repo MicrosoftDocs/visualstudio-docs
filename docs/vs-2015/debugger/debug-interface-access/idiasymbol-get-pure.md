@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_pure
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_pure](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-pure).  
-  
 Retrieves a flag that specifies whether the function is pure virtual.  
   
 ## Syntax  

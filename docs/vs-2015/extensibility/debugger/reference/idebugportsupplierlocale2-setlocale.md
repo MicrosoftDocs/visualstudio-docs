@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugPortSupplierLocale2::SetLocale
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplierLocale2::SetLocale](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplierlocale2-setlocale).  
-  
 Sets the locale for the port supplier.  
   
 ## Syntax  

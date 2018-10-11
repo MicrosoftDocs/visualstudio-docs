@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSourceFiles::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsourcefiles-next).  
-  
 Retrieves a specified number of source files in the enumeration sequence.  
   
 ## Syntax  

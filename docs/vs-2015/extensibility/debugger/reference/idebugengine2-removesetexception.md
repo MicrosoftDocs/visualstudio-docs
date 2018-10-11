@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::RemoveSetException
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::RemoveSetException](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-removesetexception).  
-  
 Removes the specified exception so it is no longer handled by the debug engine.  
   
 ## Syntax  

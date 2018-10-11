@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2205: Use managed equivalents of Win32 API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2205: Use managed equivalents of Win32 API](https://docs.microsoft.com/visualstudio/code-quality/ca2205-use-managed-equivalents-of-win32-api).
-
 |||
 |-|-|
 |TypeName|UseManagedEquivalentsOfWin32Api|

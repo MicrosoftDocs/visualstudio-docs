@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2218: Override GetHashCode on overriding Equals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2218: Override GetHashCode on overriding Equals](https://docs.microsoft.com/visualstudio/code-quality/ca2218-override-gethashcode-on-overriding-equals).
-
 |||
 |-|-|
 |TypeName|OverrideGetHashCodeOnOverridingEquals|

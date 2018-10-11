@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCustomAttribute::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomAttribute::GetName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomattribute-getname).  
-  
 Gets the name of the custom attribute.  
   
 ## Syntax  

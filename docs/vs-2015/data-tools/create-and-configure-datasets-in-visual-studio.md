@@ -24,8 +24,6 @@ manager: "ghogen"
 # Create and configure datasets in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create and configure datasets in Visual Studio](https://docs.microsoft.com/visualstudio/data-tools/create-and-configure-datasets-in-visual-studio).  
-  
   
 A *dataset* is a set of objects that store data from a database in memory and support change tracking to enable create, read, update and delete (CRUD) operations on that data without the need to be always connected to the database. Datasets were designed for simple *forms over data* business applications. For new applications, consider using Entity Framework to store and model data in memory. To work with datasets, you should have a basic knowledge of database concepts.  
   

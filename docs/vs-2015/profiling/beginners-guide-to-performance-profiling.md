@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.wizard.intropage"
 helpviewer_keywords: 
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Beginners Guide to Performance Profiling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Beginners Guide to Performance Profiling in Visual Studio](https://docs.microsoft.com/visualstudio/profiling/beginners-guide-to-performance-profiling).  
-  
 You can use Visual Studio Profiling Tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.  
   
  **Sampling** is a statistical profiling method that shows you the functions that are doing most of the user mode work in the application. Sampling is a good place to start to look for areas to speed up your application.  

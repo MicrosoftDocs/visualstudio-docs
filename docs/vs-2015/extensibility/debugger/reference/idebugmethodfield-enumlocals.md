@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugMethodField::EnumLocals
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMethodField::EnumLocals](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmethodfield-enumlocals).  
-  
 Creates an enumerator for selected local variables of the method.  
   
 ## Syntax  

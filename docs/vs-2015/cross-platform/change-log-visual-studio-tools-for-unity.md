@@ -18,8 +18,6 @@ manager: "ghogen"
 # Change Log (Visual Studio Tools for Unity)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Change Log (Visual Studio Tools for Unity)](https://docs.microsoft.com/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity).  
-  
   
 Visual Studio Tools for Unity change log.  
   

@@ -17,8 +17,6 @@ manager: "ghogen"
 # Microsoft Help Viewer SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Microsoft Help Viewer SDK](https://docs.microsoft.com/visualstudio/extensibility/internals/microsoft-help-viewer-sdk).  
-  
 This article contains the following tasks for Visual Studio Help Viewer integrators:  
   
 -   Creating a topic (F1 support)  

@@ -22,8 +22,6 @@ manager: "ghogen"
 # SupportsMasterPage Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SupportsMasterPage Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/supportsmasterpage-element-visual-studio-templates).  
-  
 Specifies whether the or not the **Select Master Page** checkbox is enabled on the **Add New Item** dialog box.  
   
  \<VSTemplate>  

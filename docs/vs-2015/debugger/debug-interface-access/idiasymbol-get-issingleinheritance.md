@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_isSingleInheritance
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isSingleInheritance](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-issingleinheritance).  
-  
 Specifies whether the `this` pointer points to a data member with single inheritance.  
   
 ## Syntax  

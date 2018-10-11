@@ -22,8 +22,6 @@ manager: "ghogen"
 # Class Hierarchy of Symbol Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Class Hierarchy of Symbol Types](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/class-hierarchy-of-symbol-types).  
-  
 The following table describes the symbol types in the class hierarchy.  
   
 ## Symbol Types  

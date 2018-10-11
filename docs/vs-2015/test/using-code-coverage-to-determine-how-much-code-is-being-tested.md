@@ -19,8 +19,6 @@ manager: "douge"
 # Using Code Coverage to Determine How Much Code is being Tested
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Code Coverage to Determine How Much Code is being Tested](https://docs.microsoft.com/visualstudio/test/using-code-coverage-to-determine-how-much-code-is-being-tested).  
-  
 To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code.  
   
  Code coverage analysis can be applied to both managed (CLI) and unmanaged (native) code.  

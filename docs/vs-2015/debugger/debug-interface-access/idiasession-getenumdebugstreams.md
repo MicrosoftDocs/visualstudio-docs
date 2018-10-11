@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession::getEnumDebugStreams
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::getEnumDebugStreams](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-getenumdebugstreams).  
-  
 Retrieves an enumerated sequence of debug data streams.  
   
 ## Syntax  

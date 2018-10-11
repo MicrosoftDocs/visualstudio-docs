@@ -34,8 +34,6 @@ manager: "ghogen"
 # How to: Manage Editor Modes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Manage Editor Modes](https://docs.microsoft.com/visualstudio/ide/how-to-manage-editor-modes).  
-  
 You can display the Visual Studio Code Editor in various display modes.  
   
 > [!NOTE]

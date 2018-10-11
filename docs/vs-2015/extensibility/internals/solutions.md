@@ -20,8 +20,6 @@ manager: "ghogen"
 # Solutions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Solutions](https://docs.microsoft.com/visualstudio/extensibility/internals/solutions).  
-  
 A solution is a grouping of one or more projects that work together to create an application. The project and status information that pertain to the solution are stored in two solution files, a text-based solution (.sln) file and a binary solution user option (.suo) file.  
   
 ## In This Section  

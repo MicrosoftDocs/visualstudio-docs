@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::CanDetach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::CanDetach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-candetach).  
-  
 Determines if a debug engine (DE) can detach from the program.  
   
 ## Syntax  

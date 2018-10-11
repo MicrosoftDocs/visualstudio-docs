@@ -18,8 +18,6 @@ manager: "douge"
 # Create elements and relationships in UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create elements and relationships in UML models](https://docs.microsoft.com/visualstudio/modeling/create-elements-and-relationships-in-uml-models).  
-  
 In the program code for an extension to Visual Studio, you can create and delete elements and relationships.  
   
 ## Create a Model Element  

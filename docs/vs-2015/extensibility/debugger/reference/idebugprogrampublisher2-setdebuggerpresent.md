@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgramPublisher2::SetDebuggerPresent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramPublisher2::SetDebuggerPresent](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogrampublisher2-setdebuggerpresent).  
-  
 Tells the program publisher that a debugger is present and running.  
   
 ## Syntax  

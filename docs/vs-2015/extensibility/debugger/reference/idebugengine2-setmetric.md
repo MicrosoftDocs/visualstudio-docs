@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::SetMetric
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::SetMetric](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-setmetric).  
-  
 This method sets a registry value known as a metric.  
   
 ## Syntax  

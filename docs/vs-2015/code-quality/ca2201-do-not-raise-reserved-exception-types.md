@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2201: Do not raise reserved exception types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2201: Do not raise reserved exception types](https://docs.microsoft.com/visualstudio/code-quality/ca2201-do-not-raise-reserved-exception-types).
-
 |||
 |-|-|
 |TypeName|DoNotRaiseReservedExceptionTypes|

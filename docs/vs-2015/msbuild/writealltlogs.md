@@ -26,8 +26,6 @@ manager: "ghogen"
 # WriteAllTLogs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WriteAllTLogs](https://docs.microsoft.com/visualstudio/msbuild/writealltlogs).  
-  
   
 Writes tracking logs for all threads and contexts.  
   

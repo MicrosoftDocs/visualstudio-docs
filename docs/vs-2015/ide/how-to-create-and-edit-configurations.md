@@ -28,8 +28,6 @@ manager: "ghogen"
 # How to: Create and Edit Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create and Edit Configurations](https://docs.microsoft.com/visualstudio/ide/how-to-create-and-edit-configurations).  
-  
 You can create several build configurations for a solution. For example, you can configure a debug build that your testers can use to find and fix problems, and you can configure different kinds of builds that you can distribute to different customers.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  

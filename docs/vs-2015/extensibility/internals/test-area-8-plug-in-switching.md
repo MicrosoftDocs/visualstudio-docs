@@ -20,8 +20,6 @@ manager: "ghogen"
 # Test Area 8: Plug-in Switching
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 8: Plug-in Switching](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-8-plug-in-switching).  
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) has the user interface (UI) to change the current source control plug-in. This test area provides test cases for the process of picking which plug-in to use for solution source control.  
   
 ## Command Menu Access  

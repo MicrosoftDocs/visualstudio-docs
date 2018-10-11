@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccDirDiff Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccDirDiff Function](https://docs.microsoft.com/visualstudio/extensibility/sccdirdiff-function).  
-  
 This function displays the differences between the current local directory on the client disk and the corresponding project under source control.  
   
 ## Syntax  

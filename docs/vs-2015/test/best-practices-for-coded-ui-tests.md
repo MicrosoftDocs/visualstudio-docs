@@ -19,8 +19,6 @@ manager: "douge"
 # Best Practices for Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Best Practices for Coded UI Tests](https://docs.microsoft.com/visualstudio/test/best-practices-for-coded-ui-tests).  
-  
 This topic describes the best practices to follow when you develop coded UI tests.  
   
  **Requirements**  

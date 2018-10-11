@@ -24,8 +24,6 @@ manager: "ghogen"
 # Quick Launch, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Quick Launch, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/quick-launch-environment-options-dialog-box).  
-  
   
 You can use **Quick Launch** to quickly search and execute actions for IDE assets such as options, templates, menus. You can't use **Quick Launch** to search for code and symbols. The **Quick Launch** search box is located at the top-right corner of the menu bar and is accessible by choosing the Ctrl+Q keys. Simply enter your search string in the box. To search for strings that contain @, use '@@'.  
   

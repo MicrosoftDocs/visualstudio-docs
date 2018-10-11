@@ -21,8 +21,6 @@ manager: "ghogen"
 # FRAMEINFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FRAMEINFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/frameinfo).  
-  
 Describes a stack frame.  
   
 ## Syntax  

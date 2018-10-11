@@ -25,8 +25,6 @@ manager: "wpickett"
 # &lt;PackageFiles&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;PackageFiles&gt; Element (Bootstrapper)](https://docs.microsoft.com/visualstudio/deployment/packagefiles-element-bootstrapper).  
-  
 The `PackageFiles` element contains `PackageFile` elements, which define the installation packages executed as a result of the `Command` element.  
   
 ## Syntax  

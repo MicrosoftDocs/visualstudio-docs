@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugProcessSecurity
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessSecurity](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocesssecurity).  
-  
 `IDebugProcessSecurity` is implemented by a port supplier to warn the user that attaching to the process is unsafe.  
   
 ## Syntax  

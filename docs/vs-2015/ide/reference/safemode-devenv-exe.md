@@ -22,8 +22,6 @@ manager: "ghogen"
 # /SafeMode (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-SafeMode (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/safemode-devenv-exe).  
-  
   
 Starts [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] in safe mode, loading only the default environment and services.  
   

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugArrayField::GetRank
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayField::GetRank](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayfield-getrank).  
-  
 Gets the rank or number of dimensions of the array.  
   
 ## Syntax  

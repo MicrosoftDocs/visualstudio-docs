@@ -21,8 +21,6 @@ manager: "ghogen"
 # IEnumDebugErrorBreakpoints2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugErrorBreakpoints2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugerrorbreakpoints2).  
-  
 This interface enumerates the error breakpoints associated with a pending breakpoint.  
   
 ## Syntax  

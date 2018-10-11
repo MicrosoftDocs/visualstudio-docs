@@ -23,8 +23,6 @@ manager: "ghogen"
 # Thunk
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Thunk](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/thunk).  
-  
 Each `thunk` is identified by a `SymTagThunk` tag.  
   
 ## Properties  

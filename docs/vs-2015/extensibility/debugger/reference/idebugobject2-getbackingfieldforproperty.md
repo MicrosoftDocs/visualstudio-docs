@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugObject2::GetBackingFieldForProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject2::GetBackingFieldForProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject2-getbackingfieldforproperty).  
-  
 Gets the field or variable (if any) that may be backing the property represented by this object.  
   
 ## Syntax  

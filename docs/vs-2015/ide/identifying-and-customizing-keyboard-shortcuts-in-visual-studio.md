@@ -28,8 +28,6 @@ manager: "ghogen"
 # Identifying and Customizing Keyboard Shortcuts in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Identifying and Customizing Keyboard Shortcuts in Visual Studio](https://docs.microsoft.com/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio).  
-  
 You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut can vary based on the following conditions:  
   
 -   Which default environment settings you chose the first time that you ran Visual Studio (for example, General Development or Visual C#).  

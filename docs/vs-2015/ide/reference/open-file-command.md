@@ -24,8 +24,6 @@ manager: "ghogen"
 # Open File Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Open File Command](https://docs.microsoft.com/visualstudio/ide/reference/open-file-command).  
-  
   
 Opens an existing file and allows you to specify an editor.  
   

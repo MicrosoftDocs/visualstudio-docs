@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::pdataForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::pdataForVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-pdataforva).  
-  
 Returns the PDATA data block associated with the virtual address.  
   
 ## Syntax  

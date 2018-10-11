@@ -20,8 +20,6 @@ manager: "ghogen"
 # Verifying Subtypes of a Project at Run Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Verifying Subtypes of a Project at Run Time](https://docs.microsoft.com/visualstudio/extensibility/verifying-subtypes-of-a-project-at-run-time).  
-  
 A VSPackage that depends on a custom project subtype should include logic to look for that subtype so that it can fail gracefully if the subtype is not present. The following procedure shows how to verify the presence of a specified subtype.  
   
 ### To verify the presence of a subtype  

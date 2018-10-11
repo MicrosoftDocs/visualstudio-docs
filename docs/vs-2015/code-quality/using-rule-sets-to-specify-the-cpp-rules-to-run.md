@@ -18,8 +18,6 @@ manager: "ghogen"
 # Using Rule Sets to Specify the C++ Rules to Run
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Rule Sets to Specify the C++ Rules to Run](https://docs.microsoft.com/visualstudio/code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run).  
-  
 In [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] and [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], you can create and modify a custom *rule set* to meet specific project needs associated with code analysis. To create a custom C++ rule set, a C/C++ project must be open in the Visual Studio IDE. You then open a standard rule set in the rule set editor and then add or remove specific rules and optionally change the action that occurs when code analysis determines that a rule has been violated.  
   
  To create a new custom rule set, you save it by using a new file name. The custom rule set is automatically assigned to the project.  

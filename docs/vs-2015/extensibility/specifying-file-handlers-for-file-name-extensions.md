@@ -19,8 +19,6 @@ manager: "ghogen"
 # Specifying File Handlers for File Name Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Specifying File Handlers for File Name Extensions](https://docs.microsoft.com/visualstudio/extensibility/specifying-file-handlers-for-file-name-extensions).  
-  
 There are a number of ways to determine the application that handles a file which has a particular file extension. The OpenWithList and OpenWithProgids verbs are two ways to specify file handlers under the registry entry for the file extension.  
   
 ## OpenWithList Verb  

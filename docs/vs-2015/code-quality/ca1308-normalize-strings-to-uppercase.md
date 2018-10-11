@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1308: Normalize strings to uppercase
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1308: Normalize strings to uppercase](https://docs.microsoft.com/visualstudio/code-quality/ca1308-normalize-strings-to-uppercase).
-
 |||
 |-|-|
 |TypeName|NormalizeStringsToUppercase|

@@ -23,8 +23,6 @@ manager: "ghogen"
 # SDK Helpers for Debugging
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SDK Helpers for Debugging](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/sdk-helpers-for-debugging).  
-  
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.  
   
 > [!NOTE]

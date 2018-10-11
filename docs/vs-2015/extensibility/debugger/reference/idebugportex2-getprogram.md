@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortEx2::GetProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEx2::GetProgram](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportex2-getprogram).  
-  
 Gets the program associated with a program node.  
   
 ## Syntax  

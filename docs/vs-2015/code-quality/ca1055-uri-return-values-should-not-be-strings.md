@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1055: URI return values should not be strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1055: URI return values should not be strings](https://docs.microsoft.com/visualstudio/code-quality/ca1055-uri-return-values-should-not-be-strings).
-
 |||
 |-|-|
 |TypeName|UriReturnValuesShouldNotBeStrings|

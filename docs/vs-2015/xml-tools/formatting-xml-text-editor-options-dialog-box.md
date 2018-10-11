@@ -18,8 +18,6 @@ manager: "ghogen"
 # Formatting, XML, Text Editor, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Formatting, XML, Text Editor, Options Dialog Box](https://docs.microsoft.com/visualstudio/xml-tools/formatting-xml-text-editor-options-dialog-box).  
-  
   
 This dialog box allows you to specify the formatting settings for the XML Editor. You can access the **Options** dialog box from the **Tools** menu.  
   

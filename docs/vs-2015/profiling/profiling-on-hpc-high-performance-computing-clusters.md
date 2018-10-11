@@ -30,8 +30,6 @@ manager: "ghogen"
 # Profiling on HPC (High Performance Computing) Clusters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Profiling on HPC (High Performance Computing) Clusters](https://docs.microsoft.com/visualstudio/profiling/profiling-on-hpc-high-performance-computing-clusters).  
-  
 You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../includes/vspreext-md.md)] or [!INCLUDE[vsUltExt](../includes/vsultext-md.md)] Profiling Tools. For more information about HPC see [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393) on the Microsoft Web site.  
   
 ## Prerequisites  

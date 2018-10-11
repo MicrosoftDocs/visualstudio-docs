@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugReference2::EnumChildren
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::EnumChildren](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-enumchildren).  
-  
 Get a list of selected children of a reference. Reserved for future use.  
   
 ## Syntax  

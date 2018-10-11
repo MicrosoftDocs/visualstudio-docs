@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugGenericFieldInstance
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericFieldInstance](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericfieldinstance).  
-  
 Represents an instance of a field for a managed code generic type.  
   
 ## Syntax  

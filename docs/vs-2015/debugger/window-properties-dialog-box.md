@@ -20,8 +20,6 @@ manager: "ghogen"
 # Window Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Window Properties Dialog Box](https://docs.microsoft.com/visualstudio/debugger/window-properties-dialog-box).  
-  
 Use this dialog box to find out more about a specific window. To display this dialog box, move the focus to the [Windows View](../debugger/windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.  
   
 ## In This Section  

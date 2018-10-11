@@ -22,8 +22,6 @@ manager: "ghogen"
 # CreateInPlace (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CreateInPlace (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/createinplace-visual-studio-templates).  
-  
 Specifies whether to create the project and perform parameter replacement in the specified location, or perform parameter replacement in a temporary location and then save the project to the specified location.  
   
  \<VSTemplate>  

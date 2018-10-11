@@ -21,8 +21,6 @@ manager: "ghogen"
 # &lt;summary&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
-  
 Specifies the description for a function or method.  
   
 ## Syntax  

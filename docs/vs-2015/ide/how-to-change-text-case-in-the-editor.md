@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Change Text Case in the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Change Text Case in the Editor](https://docs.microsoft.com/visualstudio/ide/how-to-change-text-case-in-the-editor).  
-  
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.  
   
 > [!NOTE]

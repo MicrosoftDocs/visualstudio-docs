@@ -21,8 +21,6 @@ manager: "ghogen"
 # Functions View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Functions View - Sampling Data](https://docs.microsoft.com/visualstudio/profiling/functions-view-sampling-data).  
-  
 The Functions report view for the sampling profile method lists the functions that were sampled during the profiling run.  
   
 > [!NOTE]

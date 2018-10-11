@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Getting Started with the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Feature Tour](https://docs.microsoft.com/visualstudio/debugger/debugger-feature-tour).  
-  
 The Visual Studio debugger is easy to use in any language. Here we’ll show how to debug a simple C# program, but you can apply the same steps to code in other languages such as C++ and JavaScript.  
   
 ##  <a name="BKMK_Start_debugging_a_VS_project"></a> Debug a Basic C# Project  

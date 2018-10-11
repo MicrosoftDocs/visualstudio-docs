@@ -19,8 +19,6 @@ manager: "ghogen"
 # m_action Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [m_action Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/m-action-field).  
-  
 The delegate that represents the code to execute in the <xref:System.Threading.Tasks.Task> object.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

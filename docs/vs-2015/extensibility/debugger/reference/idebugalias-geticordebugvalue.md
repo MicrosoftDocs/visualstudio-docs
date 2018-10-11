@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugAlias::GetICorDebugValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAlias::GetICorDebugValue](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugalias-geticordebugvalue).  
-  
 Retrieves a managed code interface that represents the value associated with this alias.  
   
 ## Syntax  

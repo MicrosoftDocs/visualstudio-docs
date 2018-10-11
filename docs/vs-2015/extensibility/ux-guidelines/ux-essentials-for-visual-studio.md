@@ -17,8 +17,6 @@ manager: "ghogen"
 # UX Essentials for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UX Essentials for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/ux-essentials-for-visual-studio).  
-  
 ## Best practices  
   
 ### 1. Be consistent within the Visual Studio environment.  

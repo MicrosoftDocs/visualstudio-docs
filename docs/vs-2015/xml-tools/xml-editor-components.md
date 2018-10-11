@@ -18,8 +18,6 @@ manager: "ghogen"
 # XML Editor Components
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XML Editor Components](https://docs.microsoft.com/visualstudio/xml-tools/xml-editor-components).  
-  
   
 This section discusses the XML Editor windows and dialog boxes. Because the XML Editor is based on the Text Editor, some of the integrated development environment (IDE) is configured using the general Text Editor settings.  
   

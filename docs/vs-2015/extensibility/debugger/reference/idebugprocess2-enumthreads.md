@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::EnumThreads
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::EnumThreads](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-enumthreads).  
-  
 Retrieves a list of all the threads running in the process.  
   
 ## Syntax  

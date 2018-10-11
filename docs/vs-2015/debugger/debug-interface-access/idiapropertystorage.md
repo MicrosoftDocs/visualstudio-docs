@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaPropertyStorage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaPropertyStorage](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiapropertystorage).  
-  
 Allows you to read the persistent properties of a DIA property set.  
   
 ## Syntax  

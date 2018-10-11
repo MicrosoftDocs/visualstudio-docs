@@ -18,8 +18,6 @@ manager: "douge"
 # Customizing Presentation on the Diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Presentation on the Diagram](https://docs.microsoft.com/visualstudio/modeling/customizing-presentation-on-the-diagram).  
-  
 The diagram is the main presentation area of a domain-specific language designer. Usually, users will use the diagram to construct their models. You can customize the diagram as described in the following topics.  
   
 -   [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)  

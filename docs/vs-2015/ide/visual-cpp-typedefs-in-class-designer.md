@@ -23,8 +23,6 @@ manager: "ghogen"
 # Visual C++ Typedefs in Class Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual C++ Typedefs in Class Designer](https://docs.microsoft.com/visualstudio/ide/visual-cpp-typedefs-in-class-designer).  
-  
 Typedef statements create one or more layers of indirection between a name and its underlying type. The Class Designer supports C++ typedef types, which are declared with the keyword `typedef`, for example:  
   
 ```  

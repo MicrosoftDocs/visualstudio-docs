@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_COND_STYLE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_COND_STYLE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-cond-style).  
-  
 Specifies the breakpoint condition style for pending and bound breakpoints.  
   
 ## Syntax  

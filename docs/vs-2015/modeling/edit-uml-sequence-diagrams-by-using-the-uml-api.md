@@ -18,8 +18,6 @@ manager: "douge"
 # Edit UML sequence diagrams by using the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit UML sequence diagrams by using the UML API](https://docs.microsoft.com/visualstudio/modeling/edit-uml-sequence-diagrams-by-using-the-uml-api).  
-  
 An interaction is a sequence of messages between a set of lifelines. An interaction is displayed on a UML sequence diagram.  
   
  For full details of the API, see <xref:Microsoft.VisualStudio.Uml.Interactions?displayProperty=fullName>.  

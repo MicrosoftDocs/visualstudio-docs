@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaAddressMap::get_addressMapEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaAddressMap::get_addressMapEnabled](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaaddressmap-get-addressmapenabled).  
-  
 Indicates whether an address map has been established for a particular session.  
   
 ## Syntax  

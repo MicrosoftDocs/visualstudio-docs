@@ -18,8 +18,6 @@ manager: "ghogen"
 # Working with Shaders
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with Shaders](https://docs.microsoft.com/visualstudio/designers/working-with-shaders).  
-  
 You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to design custom shader effects. You can use these shaders in your DirectX-based game or app.  
   
 ## Shaders  

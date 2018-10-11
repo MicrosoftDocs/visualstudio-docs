@@ -20,8 +20,6 @@ manager: "ghogen"
 # Caller / Callee View -  Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Caller - Callee View -  Contention Data](https://docs.microsoft.com/visualstudio/profiling/caller-callee-view-contention-data).  
-  
 The Caller/Callee view displays contention information for a selected function and its parent and child functions. The Caller/Callee view contains three grids.  
   
  **Current function** is displayed in the middle grid, and it shows contention information for the selected function. The values include all blocking contentions for the function.  

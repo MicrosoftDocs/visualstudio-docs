@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery::IsCustomAttributeDefined
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomAttributeQuery::IsCustomAttributeDefined](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomattributequery-iscustomattributedefined).  
-  
 Determines if the specified custom attribute is defined.  
   
 ## Syntax  

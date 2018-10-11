@@ -21,8 +21,6 @@ manager: "ghogen"
 # Project Property User Interface
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Property User Interface](https://docs.microsoft.com/visualstudio/extensibility/internals/project-property-user-interface).  
-  
 A project subtype can use the items in the project **Property Pages** dialog box as they are supplied by the base project, hide or make read-only controls and whole pages as supplied, or add project subtype-specific pages to the **Property Pages** dialog box.  
   
 ## Extending the Project Property Dialog Box  

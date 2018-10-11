@@ -18,8 +18,6 @@ manager: "douge"
 # Add stereotypes to UML model elements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add stereotypes to UML model elements](https://docs.microsoft.com/visualstudio/modeling/add-stereotypes-to-uml-model-elements).  
-  
 You can add a stereotype to a UML model element to annotate it and provide it with specialized properties. To add a stereotype to a model element, the stereotype must be defined in a profile, and you must link the profile to a package or to the model that contains the model element. Each stereotype can be added only to certain kinds of model element, such as UML classes, use cases, or components.  
   
  For example, if you want to define a UML class with the «specification» stereotype, you must create it within a package or a model that is linked to Standard Profile L2.  

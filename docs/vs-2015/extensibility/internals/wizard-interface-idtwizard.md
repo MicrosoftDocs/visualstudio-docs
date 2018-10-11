@@ -20,8 +20,6 @@ manager: "ghogen"
 # Wizard Interface (IDTWizard)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Wizard Interface (IDTWizard)](https://docs.microsoft.com/visualstudio/extensibility/internals/wizard-interface-idtwizard).  
-  
 The integrated development environment (IDE) uses the <xref:EnvDTE.IDTWizard> interface to communicate with wizards. Wizards must implement this interface in order to be installed in the IDE.  
   
  The <xref:EnvDTE.IDTWizard.Execute%2A> method is the only method associated with the <xref:EnvDTE.IDTWizard> interface. Wizards implement this method and the IDE calls the method on the interface. The following example shows the signature of the method.  

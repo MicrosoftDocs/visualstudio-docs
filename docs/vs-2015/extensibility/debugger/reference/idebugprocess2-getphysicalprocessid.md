@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcess2::GetPhysicalProcessId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::GetPhysicalProcessId](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-getphysicalprocessid).  
-  
 Gets the system process identifier.  
   
 ## Syntax  

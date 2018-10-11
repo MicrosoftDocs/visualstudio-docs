@@ -24,8 +24,6 @@ manager: "wpickett"
 # Mobility Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mobility Warnings](https://docs.microsoft.com/visualstudio/code-quality/mobility-warnings).  
-  
 Mobility warnings support efficient power usage.  
   
 ## In This Section  

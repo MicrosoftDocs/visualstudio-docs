@@ -22,8 +22,6 @@ manager: "ghogen"
 # DA0501: Average CPU consumption by the Process being profiled.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0501: Average CPU consumption by the Process being profiled.](https://docs.microsoft.com/visualstudio/profiling/da0501-average-cpu-consumption-by-the-process-being-profiled).  
-  
 Rule Id|DA501|  
 |Category|Resource Monitoring|  
 |Profiling method|All|  

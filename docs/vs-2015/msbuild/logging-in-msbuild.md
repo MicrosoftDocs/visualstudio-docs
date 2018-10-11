@@ -20,8 +20,6 @@ manager: "ghogen"
 # Logging in MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Logging in MSBuild](https://docs.microsoft.com/visualstudio/msbuild/logging-in-msbuild).  
-  
   
 Logging provides a way for you to monitor the progress of a build. Logging captures build events, messages, warnings, and errors in a log file.  
   

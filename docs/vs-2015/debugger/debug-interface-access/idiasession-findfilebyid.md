@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession::findFileById
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findFileById](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findfilebyid).  
-  
 Retrieves a source file by source file identifier.  
   
 ## Syntax  

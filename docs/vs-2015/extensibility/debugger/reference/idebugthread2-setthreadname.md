@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugThread2::SetThreadName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThread2::SetThreadName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthread2-setthreadname).  
-  
 Sets the name of the thread.  
   
 ## Syntax  

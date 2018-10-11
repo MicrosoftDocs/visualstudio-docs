@@ -29,8 +29,6 @@ manager: "ghogen"
 # How to: Verify IIS Property Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Verify IIS Property Settings](https://docs.microsoft.com/visualstudio/debugger/how-to-verify-iis-property-settings).  
-  
 You can set the properties for a Web application using the IIS administration tool. These properties must be set correctly for the application to run, so verifying these settings is often a necessary step in troubleshooting.  
   
 > [!NOTE]

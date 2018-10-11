@@ -20,8 +20,6 @@ manager: "ghogen"
 # Creating Parent Container Folders for Solutions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Parent Container Folders for Solutions](https://docs.microsoft.com/visualstudio/extensibility/internals/creating-parent-container-folders-for-solutions).  
-  
 In the Source Control Plug-in API version 1.2, a user can specify a single root source control destination for all Web projects within the solution. This single root is called a Super Unified Root (SUR).  
   
  In the Source Control Plug-in API version 1.1, if the user added a multiproject solution to source control, the user was prompted to specify one source control destination for each Web project.  

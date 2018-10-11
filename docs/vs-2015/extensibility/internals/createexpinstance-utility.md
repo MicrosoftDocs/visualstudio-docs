@@ -23,8 +23,6 @@ manager: "ghogen"
 # CreateExpInstance Utility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CreateExpInstance Utility](https://docs.microsoft.com/visualstudio/extensibility/internals/createexpinstance-utility).  
-  
 Use the CreateExpInstance utility to create, reset, or delete an experimental instance of Visual Studio. You can use the experimental instance to debug and test Visual Studio extensions without changing the underlying product.  
   
 ## Syntax  

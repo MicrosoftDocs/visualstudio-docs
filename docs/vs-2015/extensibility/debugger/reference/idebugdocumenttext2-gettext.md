@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentText2::GetText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentText2::GetText](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttext2-gettext).  
-  
 Retrieves the text from the specified position in the document.  
   
 ## Syntax  

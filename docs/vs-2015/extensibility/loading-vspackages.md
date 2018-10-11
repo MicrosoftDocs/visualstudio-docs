@@ -20,8 +20,6 @@ manager: "ghogen"
 # Loading VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Loading VSPackages](https://docs.microsoft.com/visualstudio/extensibility/loading-vspackages).  
-  
 VSPackages are loaded into Visual Studio only when their functionality is required. For example, a VSPackage is loaded when Visual Studio uses a project factory or a service that the VSPackage implements. This feature is called delayed loading, which is used whenever possible to improve performance.  
   
 > [!NOTE]

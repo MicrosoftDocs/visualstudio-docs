@@ -20,8 +20,6 @@ manager: "ghogen"
 # Getting Started with Source Control VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with Source Control VSPackages](https://docs.microsoft.com/visualstudio/extensibility/internals/getting-started-with-source-control-vspackages).  
-  
 A source-control VSPackage is a more advanced alternative to the source control plug-in. (See [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md) for more information on source control plug-ins.) A source-control VSPackage enables complete control over the source control model, features, and user interface (UI), and it integrates into the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] environment as a VSPackage.  
   
 ## In This Section  

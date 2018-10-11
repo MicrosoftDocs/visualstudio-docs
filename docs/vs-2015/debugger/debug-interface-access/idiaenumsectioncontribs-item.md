@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSectionContribs::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSectionContribs::Item](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsectioncontribs-item).  
-  
 Retrieves section contributions by means of an index.  
   
 ## Syntax  

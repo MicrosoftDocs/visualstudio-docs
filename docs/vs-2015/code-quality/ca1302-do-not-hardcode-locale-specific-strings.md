@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1302: Do not hardcode locale specific strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1302: Do not hardcode locale specific strings](https://docs.microsoft.com/visualstudio/code-quality/ca1302-do-not-hardcode-locale-specific-strings).
-
 |||
 |-|-|
 |TypeName|DoNotHardcodeLocaleSpecificStrings|

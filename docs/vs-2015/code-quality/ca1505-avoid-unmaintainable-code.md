@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1505: Avoid unmaintainable code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1505: Avoid unmaintainable code](https://docs.microsoft.com/visualstudio/code-quality/ca1505-avoid-unmaintainable-code).
-
 |||
 |-|-|
 |TypeName|AvoidUnmantainableCode|

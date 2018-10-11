@@ -19,8 +19,6 @@ manager: "ghogen"
 # Enumerators
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Enumerators](https://docs.microsoft.com/visualstudio/extensibility/enumerators).  
-  
 This section lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.  
   
 ## In This Section  

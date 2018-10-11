@@ -29,8 +29,6 @@ manager: "ghogen"
 # How to: Stop Code Changes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Stop Code Changes](https://docs.microsoft.com/visualstudio/debugger/how-to-stop-code-changes).  
-  
 While Edit and Continue is in the process of applying code changes, you can stop the operation.  
   
 > [!CAUTION]

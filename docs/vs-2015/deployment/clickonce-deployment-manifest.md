@@ -25,8 +25,6 @@ manager: "wpickett"
 # ClickOnce Deployment Manifest
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ClickOnce Deployment Manifest](https://docs.microsoft.com/visualstudio/deployment/clickonce-deployment-manifest).  
-  
 A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment, including the identification of the current [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application version to deploy.  
   
  Deployment manifests have the following elements and attributes.  

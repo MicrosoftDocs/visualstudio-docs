@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1812: Avoid uninstantiated internal classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1812: Avoid uninstantiated internal classes](https://docs.microsoft.com/visualstudio/code-quality/ca1812-avoid-uninstantiated-internal-classes).
-
 |||
 |-|-|
 |TypeName|AvoidUninstantiatedInternalClasses|

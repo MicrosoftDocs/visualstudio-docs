@@ -18,8 +18,6 @@ manager: "ghogen"
 # Image Editor Examples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Editor Examples](https://docs.microsoft.com/visualstudio/designers/image-editor-examples).  
-  
 The articles in this section of the documentation contain examples that demonstrate how you can use the Image Editor.  
   
 ## Related topics  

@@ -21,8 +21,6 @@ manager: "wpickett"
 # Enhancing Code Quality with Team Project Check-in Policies
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Enhancing Code Quality with Team Project Check-in Policies](https://docs.microsoft.com/visualstudio/code-quality/enhancing-code-quality-with-team-project-check-in-policies).  
-  
 When you use Team Foundation Version Control (TFVC), you can create check-in policies for your team projects. to enforce practices that lead to better code and more efficient group development. Check-in policies are rules that are set at the team project level and enforced on developer computers before code is allowed to be checked in.  
   
  You can specify these team project check-in policies:  

@@ -28,8 +28,6 @@ manager: "ghogen"
 # ConvertToAbsolutePath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ConvertToAbsolutePath Task](https://docs.microsoft.com/visualstudio/msbuild/converttoabsolutepath-task).  
-  
   
 Converts a relative path, or reference, into an absolute path.  
   

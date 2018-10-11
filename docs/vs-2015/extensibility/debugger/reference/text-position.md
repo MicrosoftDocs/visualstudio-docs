@@ -21,8 +21,6 @@ manager: "ghogen"
 # TEXT_POSITION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TEXT_POSITION](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/text-position).  
-  
 Describes the line and column location in the given text.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngineLaunch2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineLaunch2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenginelaunch2).  
-  
 Used by a debug engine (DE) to launch and terminate programs.  
   
 ## Syntax  

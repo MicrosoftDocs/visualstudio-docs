@@ -16,8 +16,6 @@ manager: "douge"
 # How to: Open a Model from File in Program Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Open a Model from File in Program Code](https://docs.microsoft.com/visualstudio/modeling/how-to-open-a-model-from-file-in-program-code).  
-  
 You can open DSL models in any application.  
   
  From a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension, you can use ModelBus for this purpose. ModelBus provides standard mechanism for referencing a model or elements in a model, and for finding the model if it has moved. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).  

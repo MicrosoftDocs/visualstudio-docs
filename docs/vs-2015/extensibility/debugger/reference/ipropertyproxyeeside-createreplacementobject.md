@@ -21,8 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide::CreateReplacementObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyEESide::CreateReplacementObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyeeside-createreplacementobject).  
-  
 Creates a copy of a data object specific to the expression evaluator (EE).  
   
 ## Syntax  

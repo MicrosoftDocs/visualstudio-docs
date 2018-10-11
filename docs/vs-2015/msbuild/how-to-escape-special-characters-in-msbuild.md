@@ -23,8 +23,6 @@ manager: "ghogen"
 # How to: Escape Special Characters in MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Escape Special Characters in MSBuild](https://docs.microsoft.com/visualstudio/msbuild/how-to-escape-special-characters-in-msbuild).  
-  
   
 Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files. Examples of the characters include semicolons (;) and asterisks (*). For a complete list of these special characters, see [MSBuild Special Characters](../msbuild/msbuild-special-characters.md).  
   

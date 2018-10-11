@@ -23,8 +23,6 @@ manager: "ghogen"
 # Set Current Stack Frame Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set Current Stack Frame Command](https://docs.microsoft.com/visualstudio/ide/reference/set-current-stack-frame-command).  
-  
   
 Allows you to set a particular stack frame.  
   

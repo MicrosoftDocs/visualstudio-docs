@@ -26,8 +26,6 @@ manager: "ghogen"
 # Error: Unable to connect to SQL Server on remote machine
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Unable to connect to SQL Server on remote machine](https://docs.microsoft.com/visualstudio/debugger/error-unable-to-connect-to-sql-server-on-remote-machine).  
-  
 Unable to connect to SQL Server on remote machine *name*. Access denied. Verify that you have installed the remote debugger on the remote machine. If the remote machine is not on a domain, or if Visual Studio is running as a local account, the remote machine must have an account with the same user name and password as the local account.  
   
 ### To correct this error  

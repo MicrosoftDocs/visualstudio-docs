@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2236: Call base class methods on ISerializable types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2236: Call base class methods on ISerializable types](https://docs.microsoft.com/visualstudio/code-quality/ca2236-call-base-class-methods-on-iserializable-types).
-
 |||
 |-|-|
 |TypeName|CallBaseClassMethodsOnISerializableTypes|

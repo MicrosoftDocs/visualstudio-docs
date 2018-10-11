@@ -23,8 +23,6 @@ manager: "ghogen"
 # Keyboard shortcuts (HTML and JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Keyboard shortcuts (HTML and JavaScript)](https://docs.microsoft.com/visualstudio/debugger/keyboard-shortcuts-html-and-javascript).  
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  Keyboard shortcuts in Visual Studio for debugging Store apps using HTML and JavaScript.  

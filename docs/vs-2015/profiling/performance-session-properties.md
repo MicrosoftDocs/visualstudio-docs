@@ -22,8 +22,6 @@ manager: "ghogen"
 # Performance Session Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Session Properties](https://docs.microsoft.com/visualstudio/profiling/performance-session-properties).  
-  
 A **Performance Session** enables you to configure settings that determine how the application is profiled. It also stores reports that are generated for the profiling session.  
   
  **Requirements**  

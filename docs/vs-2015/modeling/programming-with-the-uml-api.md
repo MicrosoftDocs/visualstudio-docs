@@ -19,8 +19,6 @@ manager: "douge"
 # Programming with the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Programming with the UML API](https://docs.microsoft.com/visualstudio/modeling/programming-with-the-uml-api).  
-  
 The UML API of Visual Studio lets you write code to create, read, and update UML models and diagrams. To see which versions of Visual Studio support UML models, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
  In addition to the API reference pages, the following topics describe the API.  

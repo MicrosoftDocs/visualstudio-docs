@@ -24,9 +24,6 @@ manager: "wpickett"
 ---
 # CA2241: Provide correct arguments to formatting methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2241: Provide correct arguments to formatting methods](https://docs.microsoft.com/visualstudio/code-quality/ca2241-provide-correct-arguments-to-formatting-methods).
-
 |||
 |-|-|
 |TypeName|ProvideCorrectArgumentsToFormattingMethods|

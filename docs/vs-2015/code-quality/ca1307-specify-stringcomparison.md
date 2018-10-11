@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1307: Specify StringComparison
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1307: Specify StringComparison](https://docs.microsoft.com/visualstudio/code-quality/ca1307-specify-stringcomparison).
-
 |||
 |-|-|
 |TypeName|SpecifyStringComparison|

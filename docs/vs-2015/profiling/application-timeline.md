@@ -18,8 +18,6 @@ manager: "ghogen"
 # Application Timeline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze Resource Consumption in XAML Apps in Visual Studio](https://docs.microsoft.com/visualstudio/profiling/application-timeline).  
-  
 Use the **Application Timeline** profiler to find and fix application-interaction related performance issues in XAML applications. This tool helps improve the performance of XAML applications by providing a detailed view of the applications’ resource consumption. You can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like Application Startup, Page Load and Windows resize.  
   
  **Application Timeline** is one of the tools you can start with the **Debug / Performance Profiler...** command.  

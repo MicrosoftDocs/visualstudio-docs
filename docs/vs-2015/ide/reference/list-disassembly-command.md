@@ -23,8 +23,6 @@ manager: "ghogen"
 # List Disassembly Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List Disassembly Command](https://docs.microsoft.com/visualstudio/ide/reference/list-disassembly-command).  
-  
   
 Begins the debug process and allows you to specify how errors are handled.  
   

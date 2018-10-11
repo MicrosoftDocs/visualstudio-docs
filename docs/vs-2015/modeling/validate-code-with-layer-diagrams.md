@@ -28,8 +28,6 @@ manager: "douge"
 # Validate code with layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Validate code with dependency diagrams](https://docs.microsoft.com/visualstudio/modeling/validate-code-with-layer-diagrams).  
-  
 To make sure that code doesn't conflict with its design, validate your code with layer diagrams in Visual Studio. This can help you:  
   
 -   Find conflicts between dependencies in your code and dependencies on the layer diagram.  

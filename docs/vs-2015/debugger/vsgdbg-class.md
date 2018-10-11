@@ -18,8 +18,6 @@ manager: "ghogen"
 # VsgDbg Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VsgDbg Class](https://docs.microsoft.com/visualstudio/debugger/graphics/vsgdbg-class).  
-  
 Represents an interface for programmatic control of the in-app component of graphics diagnostics.  
   
 ## Syntax  

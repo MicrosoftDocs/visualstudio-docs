@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualBaseClass
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_virtualBaseClass](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-virtualbaseclass).  
-  
 Retrieves a flag that specifies whether the user-defined data type is a virtual base class.  
   
 ## Syntax  

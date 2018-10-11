@@ -16,8 +16,6 @@ manager: "ghogen"
 # How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create an association (relationship) between LINQ to SQL classes (O-R Designer)](https://docs.microsoft.com/visualstudio/data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer).  
-  
   
 Associations between entity classes in [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] are analogous to relationships between tables in a database. You can create associations between entity classes by using the **Association Editor** dialog box.  
   

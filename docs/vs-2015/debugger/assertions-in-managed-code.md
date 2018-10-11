@@ -35,8 +35,6 @@ manager: "ghogen"
 # Assertions in Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Assertions in Managed Code](https://docs.microsoft.com/visualstudio/debugger/assertions-in-managed-code).  
-  
 An assertion, or `Assert` statement, tests a condition, which you specify as an argument to the `Assert` statement. If the condition evaluates to true, no action occurs. If the condition evaluates to false, the assertion fails. If you are running with a debug build, your program enters break mode.  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  

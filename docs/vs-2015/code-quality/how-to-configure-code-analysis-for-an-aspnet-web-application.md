@@ -20,8 +20,6 @@ manager: "wpickett"
 # How to: Configure Code Analysis for an ASP.NET Web Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Configure Code Analysis for an ASP.NET Web Application](https://docs.microsoft.com/visualstudio/code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application).  
-  
 In [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] and [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)] you can select from a list of Code Analysis *rule sets* to apply to [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application. The default rule set is the Microsoft Mininimum Recommended Rules. You can select another rule set to apply to the Web site.  
   
 ### To configure a rule set for an ASP.NET Page Framework project  

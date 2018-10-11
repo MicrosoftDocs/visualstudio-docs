@@ -23,8 +23,6 @@ manager: "ghogen"
 # DA0003: Many kernel samples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0003: Many kernel samples](https://docs.microsoft.com/visualstudio/profiling/da0003-many-kernel-samples).  
-  
 Rule Id|DA0003|  
 |Category|Profiling Tools Usage|  
 |Profiling methods|Sampling|  

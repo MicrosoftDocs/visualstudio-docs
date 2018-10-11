@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_virtualBaseTableType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_virtualBaseTableType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-virtualbasetabletype).  
-  
 Retrieves the type of a virtual base table pointer.  
   
 ## Syntax  

@@ -23,8 +23,6 @@ manager: "ghogen"
 # Start Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Start Command](https://docs.microsoft.com/visualstudio/ide/reference/start-command).  
-  
   
 Begins debugging the startup project.  
   

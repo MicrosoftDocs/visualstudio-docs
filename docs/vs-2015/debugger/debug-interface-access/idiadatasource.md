@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaDataSource
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaDataSource](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiadatasource).  
-  
 Initiates access to a source of debugging symbols.  
   
 ## Syntax  

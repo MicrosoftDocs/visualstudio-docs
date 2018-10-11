@@ -20,8 +20,6 @@ manager: "ghogen"
 # Test Area 4: Check In
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 4: Check In](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-4-check-in).  
-  
 This source-control plug-in test area covers sending updated items to the version store via the **Check In** command.  
   
 ## Command Menu Access  

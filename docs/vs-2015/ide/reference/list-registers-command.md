@@ -24,8 +24,6 @@ manager: "ghogen"
 # List Registers Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List Registers Command](https://docs.microsoft.com/visualstudio/ide/reference/list-registers-command).  
-  
   
 Displays the value of the selected registers and lets you modify the list of registers to show.  
   

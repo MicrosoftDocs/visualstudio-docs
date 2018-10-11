@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSectionContrib::get_code
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_code](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-code).  
-  
 Retrieves a flag that indicates whether the section contains executable code.  
   
 ## Syntax  

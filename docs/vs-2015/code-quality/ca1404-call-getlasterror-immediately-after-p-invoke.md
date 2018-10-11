@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1404: Call GetLastError immediately after P/Invoke
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1404: Call GetLastError immediately after P-Invoke](https://docs.microsoft.com/visualstudio/code-quality/ca1404-call-getlasterror-immediately-after-p-invoke).
-
 |||
 |-|-|
 |TypeName|CallGetLastErrorImmediatelyAfterPInvoke|

@@ -19,8 +19,6 @@ manager: "ghogen"
 # Preparing Extensions for Windows Installer Deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Preparing Extensions for Windows Installer Deployment](https://docs.microsoft.com/visualstudio/extensibility/preparing-extensions-for-windows-installer-deployment).  
-  
 You cannot use a Windows Installer package (MSI) to deploy a VSIX package. However, you can extract the contents of a VSIX package for MSI deployment. This document shows how to prepare a project whose default output is a VSIX package for inclusion in a Setup project.  
   
 ## Preparing an Extension Project for Windows Installer Deployment  

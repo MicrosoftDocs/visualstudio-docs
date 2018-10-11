@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_base
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_base](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-base).  
-  
 Retrieves the base address of the frame.  
   
 ## Syntax  

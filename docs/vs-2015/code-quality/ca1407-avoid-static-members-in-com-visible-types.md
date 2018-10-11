@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1407: Avoid static members in COM visible types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1407: Avoid static members in COM visible types](https://docs.microsoft.com/visualstudio/code-quality/ca1407-avoid-static-members-in-com-visible-types).
-
 |||
 |-|-|
 |TypeName|AvoidStaticMembersInComVisibleTypes|

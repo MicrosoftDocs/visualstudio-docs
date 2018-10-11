@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackFrame::get_localsBase
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_localsBase](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-localsbase).  
-  
 Retrieves the base address of the local variables for the frame.  
   
 ## Syntax  

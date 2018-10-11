@@ -24,8 +24,6 @@ manager: "ghogen"
 # Open Project Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Open Project Command](https://docs.microsoft.com/visualstudio/ide/reference/open-project-command).  
-  
   
 Opens an existing project.  
   

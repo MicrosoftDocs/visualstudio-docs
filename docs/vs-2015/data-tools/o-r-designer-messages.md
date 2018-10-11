@@ -16,8 +16,6 @@ manager: "ghogen"
 # O/R Designer Messages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [O-R Designer Messages](https://docs.microsoft.com/visualstudio/data-tools/o-r-designer-messages).  
-  
   
 This topic lists the messages that you can encounter when you work with the O/R Designer.  
   

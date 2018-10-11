@@ -15,8 +15,6 @@ manager: "ghogen"
 # Install SQL Server sample databases
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Install SQL Server sample databases](https://docs.microsoft.com/visualstudio/data-tools/install-sql-server-sample-databases).  
-  
   
 Sample databases are useful for experimenting with SQL and LINQ queries, databinding,  Entity Framework modeling, and so on.  Each database product has its own sample databases. Northwind and AdventureWorks are two popular SQL Server sample databases.  
   

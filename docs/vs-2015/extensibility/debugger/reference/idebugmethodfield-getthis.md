@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugMethodField::GetThis
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMethodField::GetThis](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmethodfield-getthis).  
-  
 Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../includes/vbprvb-md.md)]) pointer of the object containing the method.  
   
 ## Syntax  

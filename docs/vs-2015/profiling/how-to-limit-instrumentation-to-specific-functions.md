@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Limit Instrumentation to Specific Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Limit Instrumentation to Specific Functions](https://docs.microsoft.com/visualstudio/profiling/how-to-limit-instrumentation-to-specific-functions).  
-  
 You can limit instrumentation and data collection to one or more functions by setting options in the **Advanced** page of the **Performance Session** or target binary property pages:  
   
 -   If you specify the functions on the performance session property page, only those functions are instrumented in all instrumented binaries of the session.  

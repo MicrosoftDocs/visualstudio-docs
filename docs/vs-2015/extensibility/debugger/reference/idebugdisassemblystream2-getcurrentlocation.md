@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetCurrentLocation
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDisassemblyStream2::GetCurrentLocation](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdisassemblystream2-getcurrentlocation).  
-  
 Returns a code location identifier that represents the current code location.  
   
 ## Syntax  

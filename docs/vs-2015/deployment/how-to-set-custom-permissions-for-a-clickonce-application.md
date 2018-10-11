@@ -25,8 +25,6 @@ manager: "wpickett"
 # How to: Set Custom Permissions for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set Custom Permissions for a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-set-custom-permissions-for-a-clickonce-application).  
-  
 You can deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application that uses default permissions for the Internet or Local Intranet zones. Alternatively, you can create a custom zone for the specific permissions that the application needs. You can do this by customizing the security permissions on the **Security** page of the **Project Designer**.  
   
 ### To customize a permission  

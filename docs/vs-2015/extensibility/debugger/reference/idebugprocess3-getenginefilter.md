@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugProcess3::GetEngineFilter
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess3::GetEngineFilter](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess3-getenginefilter).  
-  
 Retrieves an array of unique identifiers for available debug engines.  
   
 ## Syntax  

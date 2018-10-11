@@ -21,8 +21,6 @@ manager: "ghogen"
 # DOCCONTEXT_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DOCCONTEXT_COMPARE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/doccontext-compare).  
-  
 Specifies the criteria for comparing two document contexts.  
   
 ## Syntax  

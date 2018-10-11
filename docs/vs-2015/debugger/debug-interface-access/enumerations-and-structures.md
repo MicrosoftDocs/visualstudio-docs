@@ -25,8 +25,6 @@ manager: "ghogen"
 # Enumerations and Structures
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Enumerations and Structures](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/enumerations-and-structures).  
-  
 These are the enumerations and structures used by the DIA SDK.  
   
 ## In This Section  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # Best Practices for Using Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Best Practices for Using Code Snippets](https://docs.microsoft.com/visualstudio/ide/best-practices-for-using-code-snippets).  
-  
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.  
   
 ## Handling Exceptions  

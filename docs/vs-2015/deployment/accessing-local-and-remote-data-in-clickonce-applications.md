@@ -25,8 +25,6 @@ manager: "wpickett"
 # Accessing Local and Remote Data in ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessing Local and Remote Data in ClickOnce Applications](https://docs.microsoft.com/visualstudio/deployment/accessing-local-and-remote-data-in-clickonce-applications).  
-  
 Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] gives you a variety of options for reading and writing data, both locally and remotely.  
   
 ## Local Data  

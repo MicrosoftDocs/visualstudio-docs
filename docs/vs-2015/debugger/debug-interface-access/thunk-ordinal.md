@@ -22,8 +22,6 @@ manager: "ghogen"
 # THUNK_ORDINAL
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [THUNK_ORDINAL](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/thunk-ordinal).  
-  
 Designates thunk types.  
   
 ## Syntax  

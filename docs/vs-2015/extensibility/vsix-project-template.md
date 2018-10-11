@@ -20,8 +20,6 @@ manager: "ghogen"
 # VSIX Project Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSIX Project Template](https://docs.microsoft.com/visualstudio/extensibility/vsix-project-template).  
-  
 You can use the VSIX Project template to wrap one or more Visual Studio extensions in a VSIX project, and then publish the package on the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site.  
   
  VSIX deployment supports VSPackages, assemblies, MEF components, project templates, item templates, toolbox controls, and custom extension types.  

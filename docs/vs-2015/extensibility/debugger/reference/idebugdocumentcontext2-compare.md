@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::Compare
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentContext2::Compare](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentcontext2-compare).  
-  
 Compares this document context to a given array of document contexts.  
   
 ## Syntax  

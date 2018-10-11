@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackWalkHelper::searchForReturnAddressStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::searchForReturnAddressStart](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-searchforreturnaddressstart).  
-  
 Searches the specified stack frame for a return address at or near the specified stack address.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugReference2::SetValueAsReference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::SetValueAsReference](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-setvalueasreference).  
-  
 Sets the value of a reference from another reference. Reserved for future use.  
   
 ## Syntax  

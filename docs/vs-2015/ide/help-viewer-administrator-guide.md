@@ -18,8 +18,6 @@ manager: "ghogen"
 # Help Viewer Administrator Guide
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Help Viewer Administrator Guide](https://docs.microsoft.com/visualstudio/ide/help-viewer-administrator-guide).  
-  
 The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.  
   
  If your network environment allows clients to access the internet, the Help Viewer allows you to use command line scripts to deploy local Help content from the internet.  

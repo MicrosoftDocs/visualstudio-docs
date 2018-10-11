@@ -16,8 +16,6 @@ manager: "douge"
 # T4 Include Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Include Directive](https://docs.microsoft.com/visualstudio/modeling/t4-include-directive).  
-  
 In a text template in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can include text from another file by using an `<#@include#>` directive. You can place `include` directives anywhere in a text template before the first class feature block `<#+ ... #>`. The included files can also contain `include` directives, and other directives. This allows you to share template code and boilerplate text between templates.  
   
 ## Using Include Directives  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # Command-Line Profiling of ASP.NET Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command-Line Profiling of ASP.NET Web Applications](https://docs.microsoft.com/visualstudio/profiling/command-line-profiling-of-aspnet-web-applications).  
-  
 This section describes the procedures and options for collecting performance data for [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools from the command line.  
   
 > [!NOTE]

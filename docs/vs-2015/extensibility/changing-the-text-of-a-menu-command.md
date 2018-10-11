@@ -21,8 +21,6 @@ manager: "ghogen"
 # Changing the Text of a Menu Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Changing the Text of a Menu Command](https://docs.microsoft.com/visualstudio/extensibility/changing-the-text-of-a-menu-command).  
-  
 The following steps show how to change the text label of a menu command by using the <xref:System.ComponentModel.Design.IMenuCommandService> service.  
   
 ## Changing a menu command label with the IMenuCommandService  

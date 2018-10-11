@@ -26,8 +26,6 @@ manager: "ghogen"
 # StartTrackingContext
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [StartTrackingContext](https://docs.microsoft.com/visualstudio/msbuild/starttrackingcontext).  
-  
   
 Start a tracking context.  
   

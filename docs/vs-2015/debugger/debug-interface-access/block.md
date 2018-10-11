@@ -24,8 +24,6 @@ manager: "ghogen"
 # Block
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Block](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/block).  
-  
 Each code block is identified by a `SymTagBlock` symbol. Block symbols are used to identify nested scopes within functions.  
   
 ## Properties  

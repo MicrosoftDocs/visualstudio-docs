@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBinder::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBinder::GetMemoryContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbinder-getmemorycontext).  
-  
 This method converts either an object location or a memory address to a memory context.  
   
 ## Syntax  

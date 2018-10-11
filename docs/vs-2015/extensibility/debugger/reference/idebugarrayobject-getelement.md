@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugArrayObject::GetElement
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayObject::GetElement](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayobject-getelement).  
-  
 Gets an element of the array.  
   
 ## Syntax  

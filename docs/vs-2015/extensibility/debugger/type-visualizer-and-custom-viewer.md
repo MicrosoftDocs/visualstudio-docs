@@ -20,8 +20,6 @@ manager: "ghogen"
 # Type Visualizer and Custom Viewer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Type Visualizer and Custom Viewer](https://docs.microsoft.com/visualstudio/extensibility/debugger/type-visualizer-and-custom-viewer).  
-  
 A type visualizer is a component that displays a piece of data in a very specific format. This format is entirely up to the implementer of the visualizer, be it the end user or a third-party supplier of visualizers.  
   
  A custom viewer is the part of a custom expression evaluator that displays a piece of data in a very specific format. This format is entirely up to the implementer of the custom viewer, which means that the format is up to the implementer of the expression evaluator (EE).  

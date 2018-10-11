@@ -21,8 +21,6 @@ manager: "ghogen"
 # Image Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Editor](https://docs.microsoft.com/visualstudio/designers/image-editor).  
-  
 This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Image Editor to view and modify texture and image resources.  
   
  You can use the Image Editor to work with the kinds of rich texture and image formats that are used in DirectX app development—this includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # METADATA_ADDRESS_PARAM
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [METADATA_ADDRESS_PARAM](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/metadata-address-param).  
-  
 This structure represents a parameter of a method or function.  
   
 ## Syntax  

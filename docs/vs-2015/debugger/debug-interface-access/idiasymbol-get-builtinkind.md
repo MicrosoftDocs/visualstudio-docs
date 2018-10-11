@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::get_builtInKind
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_builtInKind](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-builtinkind).  
-  
 Retrieves a built-in kind of the HLSL type.  
   
 ## Syntax  

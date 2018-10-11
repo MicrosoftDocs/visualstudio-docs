@@ -21,8 +21,6 @@ manager: "ghogen"
 # CANSTOP_REASON
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CANSTOP_REASON](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/canstop-reason).  
-  
 Used to determine if a program can stop execution after reaching a particular point in the execution.  
   
 ## Syntax  

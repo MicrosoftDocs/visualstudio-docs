@@ -21,8 +21,6 @@ manager: "ghogen"
 # UNMANAGED_ADDRESS_PHYSICAL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UNMANAGED_ADDRESS_PHYSICAL](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/unmanaged-address-physical).  
-  
 This structure represents a physical address.  
   
 ## Syntax  

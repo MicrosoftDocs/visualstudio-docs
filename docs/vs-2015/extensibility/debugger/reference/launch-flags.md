@@ -21,8 +21,6 @@ manager: "ghogen"
 # LAUNCH_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LAUNCH_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/launch-flags).  
-  
 Specifies the debug launch flags.  
   
 ## Syntax  

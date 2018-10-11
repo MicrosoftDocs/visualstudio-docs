@@ -21,8 +21,6 @@ manager: "ghogen"
 # Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Menu Commands](https://docs.microsoft.com/visualstudio/debugger/menu-commands).  
-  
 The Help topics in this section list the commands available on the Spy++ menus.  
   
 ## In This Section  

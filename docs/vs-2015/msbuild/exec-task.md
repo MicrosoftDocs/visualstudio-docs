@@ -28,8 +28,6 @@ manager: "ghogen"
 # Exec Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Exec Task](https://docs.microsoft.com/visualstudio/msbuild/exec-task).  
-  
   
 Runs the specified program or command by using the specified arguments.  
   

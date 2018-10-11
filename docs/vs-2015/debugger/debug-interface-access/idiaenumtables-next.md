@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumTables::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumTables::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumtables-next).  
-  
 Retrieves a specified number of tables in the enumeration sequence.  
   
 ## Syntax  

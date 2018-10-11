@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaFrameData::get_lengthSavedRegisters
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_lengthSavedRegisters](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-lengthsavedregisters).  
-  
 Retrieves the number of bytes of saved registers pushed on the stack.  
   
 ## Syntax  

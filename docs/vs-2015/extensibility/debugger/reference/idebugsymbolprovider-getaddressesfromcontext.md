@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetAddressesFromContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetAddressesFromContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromcontext).  
-  
 This method maps a document context into an array of debug addresses.  
   
 ## Syntax  

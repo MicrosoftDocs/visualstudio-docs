@@ -20,8 +20,6 @@ manager: "ghogen"
 # Menus Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Menus Element](https://docs.microsoft.com/visualstudio/extensibility/menus-element).  
-  
 Defines all the menus and toolbars that a VSPackage implements.  
   
 ## Syntax  

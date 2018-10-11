@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPort2::GetPortRequest
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPort2::GetPortRequest](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugport2-getportrequest).  
-  
 Gets the description of a port that was previously used to create the port (if available).  
   
 ## Syntax  

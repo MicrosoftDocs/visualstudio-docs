@@ -24,9 +24,6 @@ manager: "wpickett"
 ---
 # CA2136: Members should not have conflicting transparency annotations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2136: Members should not have conflicting transparency annotations](https://docs.microsoft.com/visualstudio/code-quality/ca2136-members-should-not-have-conflicting-transparency-annotations).
-
 |||
 |-|-|
 |TypeName|TransparencyAnnotationsShouldNotConflict|

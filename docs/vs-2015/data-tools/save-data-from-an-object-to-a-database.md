@@ -25,8 +25,6 @@ manager: "ghogen"
 # Save data from an object to a database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Save data from an object to a database](https://docs.microsoft.com/visualstudio/data-tools/save-data-from-an-object-to-a-database).  
-  
   
 You can save data in objects to a database by passing the values from your object to one of the TableAdapter's DBDirect methods (for example, `TableAdapter.Insert`). For more information, see [TableAdapter Overview](../data-tools/tableadapter-overview.md).  
   

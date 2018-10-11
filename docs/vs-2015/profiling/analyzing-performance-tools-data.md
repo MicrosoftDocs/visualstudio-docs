@@ -26,8 +26,6 @@ manager: "ghogen"
 # Analyzing Performance Tools Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyzing Performance Tools Data](https://docs.microsoft.com/visualstudio/profiling/analyzing-performance-tools-data).  
-  
 The performance reports of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools enable you to view and analyze application performance problems. This section provides an overview of the performance reports and views that can be used to examine performance data.  
   
 ## Common Tasks  

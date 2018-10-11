@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2114: Method security should be a superset of type
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2114: Method security should be a superset of type](https://docs.microsoft.com/visualstudio/code-quality/ca2114-method-security-should-be-a-superset-of-type).
-
 |||
 |-|-|
 |TypeName|MethodSecurityShouldBeASupersetOfType|

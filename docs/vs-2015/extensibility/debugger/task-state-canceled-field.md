@@ -19,8 +19,6 @@ manager: "ghogen"
 # TASK_STATE_CANCELED Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TASK_STATE_CANCELED Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/task-state-canceled-field).  
-  
 The task was canceled before it reached the running state, or it acknowledged its cancellation and completed without exception.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

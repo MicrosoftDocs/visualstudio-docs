@@ -19,8 +19,6 @@ manager: "ghogen"
 # Event Descriptions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Event Descriptions](https://docs.microsoft.com/visualstudio/extensibility/debugger/event-descriptions).  
-  
 Each type of event has a specific purpose.  
   
 ## Events and the Reasons for Their Use  

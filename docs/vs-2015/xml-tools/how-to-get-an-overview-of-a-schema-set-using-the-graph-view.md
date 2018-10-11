@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Get an Overview of a Schema Set Using the Graph View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Get an Overview of a Schema Set Using the Graph View](https://docs.microsoft.com/visualstudio/xml-tools/how-to-get-an-overview-of-a-schema-set-using-the-graph-view).  
-  
   
 This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to see a high-level view of the nodes in a schema set and the relationships between the nodes.  
   

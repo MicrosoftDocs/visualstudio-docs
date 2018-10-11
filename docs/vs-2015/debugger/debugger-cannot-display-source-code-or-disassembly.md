@@ -25,8 +25,6 @@ manager: "ghogen"
 # Debugger Cannot Display Source Code or Disassembly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Cannot Display Source Code or Disassembly](https://docs.microsoft.com/visualstudio/debugger/debugger-cannot-display-source-code-or-disassembly).  
-  
 This error reads:  
   
  The debugger cannot display source code or disassembly for the current location where execution has stopped.  

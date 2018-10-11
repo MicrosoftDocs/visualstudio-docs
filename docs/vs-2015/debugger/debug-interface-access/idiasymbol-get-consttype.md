@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_constType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_constType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-consttype).  
-  
 Retrieves a flag that specifies whether the user-defined data type is constant.  
   
 ## Syntax  

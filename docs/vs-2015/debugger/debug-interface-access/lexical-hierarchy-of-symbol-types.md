@@ -22,8 +22,6 @@ manager: "ghogen"
 # Lexical Hierarchy of Symbol Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Lexical Hierarchy of Symbol Types](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/lexical-hierarchy-of-symbol-types).  
-  
 The following table shows the symbol types in the lexical hierarchy.  
   
 ## Symbol Types  

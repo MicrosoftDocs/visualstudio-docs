@@ -21,8 +21,6 @@ manager: "ghogen"
 # Accessing Stored Font and Color Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessing Stored Font and Color Settings](https://docs.microsoft.com/visualstudio/extensibility/accessing-stored-font-and-color-settings).  
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) stores modified settings for fonts and colors in the registry. You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface to access these settings.  
   
 ## To Initiate State Persistence of Fonts and Colors  

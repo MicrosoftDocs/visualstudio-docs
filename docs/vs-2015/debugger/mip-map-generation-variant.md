@@ -18,8 +18,6 @@ manager: "ghogen"
 # Mip-map Generation Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mip-map Generation Variant](https://docs.microsoft.com/visualstudio/debugger/graphics/mip-map-generation-variant).  
-  
 Enables mip-maps on textures that are not render targets.  
   
 ## Interpretation  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugPortNotify2::RemoveProgramNode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortNotify2::RemoveProgramNode](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportnotify2-removeprogramnode).  
-  
 Unregisters a program that can be debugged from the port it is running on.  
   
 ## Syntax  

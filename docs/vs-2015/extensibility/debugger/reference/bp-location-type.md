@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_LOCATION_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-location-type).  
-  
 Specifies the location type of the breakpoint for a breakpoint request.  
   
 ## Syntax  

@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Search for Topics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Search for Topics](https://docs.microsoft.com/visualstudio/ide/how-to-search-for-topics).  
-  
 You can use the full-text search feature to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.  
   
 ### To open the Search tab  

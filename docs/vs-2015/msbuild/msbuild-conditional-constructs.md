@@ -32,8 +32,6 @@ manager: "ghogen"
 # MSBuild Conditional Constructs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Conditional Constructs](https://docs.microsoft.com/visualstudio/msbuild/msbuild-conditional-constructs).  
-  
   
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a mechanism for either/or processing with the [Choose](../msbuild/choose-element-msbuild.md), [When](../msbuild/when-element-msbuild.md), and [Otherwise](../msbuild/otherwise-element-msbuild.md) elements.  
   

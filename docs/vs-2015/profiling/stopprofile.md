@@ -20,8 +20,6 @@ manager: "ghogen"
 # StopProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [StopProfile](https://docs.microsoft.com/visualstudio/profiling/stopprofile).  
-  
 The `StopProfile` function sets the counter to 0 (off) for the specified profiling level.  
   
 ## Syntax  

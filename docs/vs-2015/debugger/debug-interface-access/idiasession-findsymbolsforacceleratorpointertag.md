@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSession::findSymbolsForAcceleratorPointerTag
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findSymbolsForAcceleratorPointerTag](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findsymbolsforacceleratorpointertag).  
-  
 Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function.  
   
 ## Syntax  

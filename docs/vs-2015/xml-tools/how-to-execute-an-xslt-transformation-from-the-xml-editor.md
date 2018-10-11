@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Execute an XSLT Transformation from the XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Execute an XSLT Transformation from the XML Editor](https://docs.microsoft.com/visualstudio/xml-tools/how-to-execute-an-xslt-transformation-from-the-xml-editor).  
-  
   
 The XML Editor allows you to associate an XSLT style sheet with an XML document, perform the transformation, and view the output. The resulting output from the XSLT transformation is displayed in a new document window.  
   

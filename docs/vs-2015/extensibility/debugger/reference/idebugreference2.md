@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugReference2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2).  
-  
 This interface represents a reference to a stack frame property or some other property.  
   
 > [!NOTE]

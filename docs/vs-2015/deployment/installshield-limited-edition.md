@@ -18,8 +18,6 @@ manager: "wpickett"
 # InstallShield Limited Edition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [InstallShield Limited Edition](https://docs.microsoft.com/visualstudio/deployment/installshield-limited-edition).  
-  
 By using InstallShield Limited Edition, you can create a setup file and distribute it to users so that they can install a desktop application or component without being connected to a network. InstallShield Limited Edition is free for users Visual Studio Professional and Enterprise editions. It replaces Windows Installer technology, which Visual Studio no longer supports. As an alternative, you can distribute applications and components by using ClickOnce, which requires network connectivity. See [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md).  
   
 > [!NOTE]

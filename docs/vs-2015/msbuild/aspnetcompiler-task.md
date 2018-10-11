@@ -28,8 +28,6 @@ manager: "ghogen"
 # AspNetCompiler Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using AspNetCompiler Task to precompile ASP.NET applications](https://docs.microsoft.com/visualstudio/msbuild/aspnetcompiler-task).  
-  
   
 The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applications.  
   

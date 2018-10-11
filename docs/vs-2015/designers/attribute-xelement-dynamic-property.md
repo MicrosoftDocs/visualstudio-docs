@@ -18,8 +18,6 @@ manager: "ghogen"
 # Attribute (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Attribute (XElement Dynamic Property)](https://docs.microsoft.com/visualstudio/designers/attribute-xelement-dynamic-property).  
-  
 Gets an indexer used to retrieve the attribute instance that corresponds to the specified expanded name.  
   
 ## Syntax  

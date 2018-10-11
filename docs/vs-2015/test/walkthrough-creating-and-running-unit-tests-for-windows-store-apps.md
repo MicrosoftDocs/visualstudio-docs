@@ -22,8 +22,6 @@ manager: "douge"
 # Walkthrough: Creating and Running Unit Tests for Windows Store Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating and Running Unit Tests for Windows Store Apps](https://docs.microsoft.com/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-windows-store-apps).  
-  
 Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps and includes unit test library templates for Visual C#, Visual Basic and Visual C++.  
   
 > [!TIP]

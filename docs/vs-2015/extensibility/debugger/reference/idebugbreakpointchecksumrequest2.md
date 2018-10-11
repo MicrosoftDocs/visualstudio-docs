@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugBreakpointChecksumRequest2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointChecksumRequest2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointchecksumrequest2).  
-  
 Represents a document checksum for a breakpoint request.  
   
 ## Syntax  

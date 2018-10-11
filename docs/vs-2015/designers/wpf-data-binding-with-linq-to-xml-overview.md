@@ -18,8 +18,6 @@ manager: "ghogen"
 # WPF Data Binding with LINQ to XML Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WPF Data Binding with LINQ to XML Overview](https://docs.microsoft.com/visualstudio/designers/wpf-data-binding-with-linq-to-xml-overview).  
-  
 This topic introduces the dynamic data binding features in the <xref:System.Xml.Linq> namespace. These features can be used as a data source for user interface (UI) elements in the Windows Presentation Foundation (WPF).  
   
 ## XAML and LINQ to XML  

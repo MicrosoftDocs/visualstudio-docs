@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSourceFile::get_checksum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSourceFile::get_checksum](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasourcefile-get-checksum).  
-  
 Retrieves the checksum bytes.  
   
 ## Syntax  

@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugReference2::SetReferenceType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::SetReferenceType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-setreferencetype).  
-  
 Sets the reference type. Reserved for future use.  
   
 ## Syntax  
