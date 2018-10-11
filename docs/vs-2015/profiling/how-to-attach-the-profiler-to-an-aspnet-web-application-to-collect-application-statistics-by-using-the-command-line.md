@@ -1,7 +1,7 @@
 ---
 title: "How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics by Using the Command Line | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics by Using the Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-application-statistics-by-using-the-command-line).  
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to an ASP.NET Web application and collect performance statistics by using the sampling method.  
   
 > [!NOTE]

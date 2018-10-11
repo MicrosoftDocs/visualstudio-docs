@@ -1,7 +1,7 @@
 ---
 title: "Export Button (Concurrency Visualizer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Export Button (Concurrency Visualizer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Export Button (Concurrency Visualizer)](https://docs.microsoft.com/visualstudio/profiling/export-button-concurrency-visualizer).  
-  
 The **Export** button enables you to export the call stack as a .csv file for your own records or for use with another tool such as Microsoft Excel.  
   
 ## See Also  

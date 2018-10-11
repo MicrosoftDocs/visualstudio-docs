@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::IsFunctionStale | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::IsFunctionStale
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::IsFunctionStale](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-isfunctionstale).  
-  
 Determines if the function at the specified debug address is considered stale.  
   
 ## Syntax  

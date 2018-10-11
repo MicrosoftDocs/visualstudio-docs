@@ -1,7 +1,7 @@
 ---
 title: "Image Library Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,6 @@ manager: "ghogen"
 # Image Library Viewer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Library Viewer](https://docs.microsoft.com/visualstudio/extensibility/internals/image-library-viewer).  
-  
 The Visual Studio Image Library Viewer tool can load and search image manifests, allowing the user to manipulate them in the same way Visual Studio would. The user can alter background, sizes, DPI, high contrast, and other settings. The tool also displays loading information for each image manifest and displays source information for each image in the image manifest. This tool is useful for:  
   
 1.  Diagnosing errors  

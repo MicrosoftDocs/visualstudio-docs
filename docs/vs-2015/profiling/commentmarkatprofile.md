@@ -1,7 +1,7 @@
 ---
 title: "CommentMarkAtProfile | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # CommentMarkAtProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CommentMarkAtProfile](https://docs.microsoft.com/visualstudio/profiling/commentmarkatprofile).  
-  
 The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and a comment string in the .vsp file. The timestamp value can be used to synchronize external events. For the mark and comment to be inserted, profiling for the thread that contains the CommentMarkAtProfile function must be ON.  
   
 ## Syntax  

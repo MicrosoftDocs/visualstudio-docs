@@ -1,7 +1,7 @@
 ---
 title: "VSInstr Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # VSInstr Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSInstr Warnings](https://docs.microsoft.com/visualstudio/profiling/vsinstr-warnings).  
-  
 The following table lists warnings issued by the VSInstr.exe tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.  
   
 |Warning Number|Description|  

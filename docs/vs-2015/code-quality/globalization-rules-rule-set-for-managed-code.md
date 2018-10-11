@@ -1,7 +1,7 @@
 ---
 title: "Globalization Rules rule set for managed code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "wpickett"
 # Globalization Rules rule set for managed code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Globalization Rules rule set for managed code](https://docs.microsoft.com/visualstudio/code-quality/globalization-rules-rule-set-for-managed-code).  
-  
 You can use the Microsoft Globalization Rules rule set to focus on problems that might prevent data in your application from appearing correctly in different languages, locales, and cultures. You should include this rule set if your application is localized, globalized, or both.  
   
 |Rule|Description|  

@@ -1,7 +1,7 @@
 ---
 title: "Empty Timeline Segment | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Empty Timeline Segment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Empty Timeline Segment](https://docs.microsoft.com/visualstudio/profiling/empty-timeline-segment).  
-  
 In the Concurrency Visualizer, the reason that a section of the timeline is empty (has a white background) depends on the kind of channel.  
   
 -   For a CPU thread channel, it means that the thread did not exist during this part of the timeline. If you're interested in the thread, you can find its executing section by using the zoom control or scrolling horizontally.  

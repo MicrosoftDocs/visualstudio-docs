@@ -1,7 +1,7 @@
 ---
 title: "Using MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Using MSBuild
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using MSBuild](https://docs.microsoft.com/visualstudio/extensibility/internals/using-msbuild).  
-  
 MSBuild supplies a well-defined, extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.  
   
  For an end-to-end sample of a language project system based on MSBuild, see the IronPython Sample Deep Dive in the[VSSDK Samples](../../misc/vssdk-samples.md).  

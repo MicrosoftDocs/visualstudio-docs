@@ -1,7 +1,7 @@
 ---
 title: "How to: Reference Windows Symbol Information | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # How to: Reference Windows Symbol Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Reference Windows Symbol Information](https://docs.microsoft.com/visualstudio/profiling/how-to-reference-windows-symbol-information).  
-  
 The Visual Studio Profiling Tools use symbol (.pdb) files to resolve symbolic names such as function names in program binaries. You can follow these steps to automatically download and update the correct .pdb files for the version of Windows on the local computer.  
   
 > [!NOTE]

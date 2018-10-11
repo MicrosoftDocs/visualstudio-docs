@@ -1,7 +1,7 @@
 ---
 title: "How to: Create a Geometry-Based Gradient Shader | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create a Geometry-Based Gradient Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Geometry-Based Gradient Shader](https://docs.microsoft.com/visualstudio/designers/how-to-create-a-geometry-based-gradient-shader).  
-  
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language to create a geometry-based gradient shader. This shader scales a constant RGB color value by the height of each point of an object in world space.  
   
  This document demonstrates these activities:  

@@ -1,7 +1,7 @@
 ---
 title: "Prerequistes for Remote Debugging Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Prerequistes for Remote Debugging Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Prerequistes for Remote Debugging Web Applications](https://docs.microsoft.com/visualstudio/debugger/prerequistes-for-remote-debugging-web-applications).  
-  
 With the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger, you can debug a Web application transparently on the local computer or a remote server. This means that the debugger functions the same way and allows you to use the same features on either computer. For remote debugging to work correctly, however, there are some prerequisites.  
   
 -   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] remote debugging components must be installed on the server you want to debug. For more information, see [Setting Up Remote Debugging](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c).  

@@ -1,7 +1,7 @@
 ---
 title: "Symbols and Symbol Tags | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Symbols and Symbol Tags
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Symbols and Symbol Tags](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/symbols-and-symbol-tags).  
-  
 Debug information about a compiled program is stored in the program database (.pdb) file as symbols that are accessible using the Debug Interface Access (DIA) SDK APIs. All symbols have a [IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md) and a [IDiaSymbol::get_symIndexId](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md) property. The `symTag` property indicates the kind of symbol as defined by the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration. The `symIndexId` property is a `DWORD` value that contains the unique identifier for every instance of a symbol.  
   
  Symbols also have properties that can specify additional information about the symbol as well as references to other symbols, most often a [IDiaSymbol::get_lexicalParent](../../debugger/debug-interface-access/idiasymbol-get-lexicalparent.md) or [IDiaSymbol::get_classParent](../../debugger/debug-interface-access/idiasymbol-get-classparent.md). When you query a property that contains a reference, the reference is returned as an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object. Such properties are always paired with another property by the same name but suffixed with "Id", for example, [IDiaSymbol::get_lexicalParentId](../../debugger/debug-interface-access/idiasymbol-get-lexicalparentid.md) and [IDiaSymbol::get_classParentId](../../debugger/debug-interface-access/idiasymbol-get-classparentid.md). The tables in [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md), [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md), and [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md) outline the properties for each of the different kinds of symbols. These properties may have relevant information about or references to other symbols. Because the `*Id` properties are simply numeric ordinal identifiers of their related properties, they are omitted from further discussions. They are referred to only where needed for parameter clarification.  

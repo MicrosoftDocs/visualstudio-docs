@@ -1,7 +1,7 @@
 ---
 title: "Options Dialog Box (Visual Studio) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Options Dialog Box (Visual Studio)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options Dialog Box (Visual Studio)](https://docs.microsoft.com/visualstudio/ide/reference/options-dialog-box-visual-studio).  
-  
   
 The **Options** dialog box enables you to configure the integrated development environment (IDE) to your needs. For example, you can establish a default save location for your projects, alter the default appearance and behavior of windows, and create shortcuts for commonly used commands. There are also options specific to your development language and platform. You can access **Options** from the **Tools** menu.  
   

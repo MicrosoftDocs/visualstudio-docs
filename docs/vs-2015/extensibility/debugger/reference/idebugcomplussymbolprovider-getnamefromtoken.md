@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetNameFromToken | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetNameFromToken
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::GetNameFromToken](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-getnamefromtoken).  
-  
 Returns the name associated with the specified token given its metadata object.  
   
 ## Syntax  

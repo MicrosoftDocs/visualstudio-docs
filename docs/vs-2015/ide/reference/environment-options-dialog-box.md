@@ -1,7 +1,7 @@
 ---
 title: "Environment Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Environment Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Environment Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/environment-options-dialog-box).  
-  
   
 You can use the pages in the **Environment** folder in the **Options** dialog box to set how certain elements of the integrated development environment (IDE) display and behave. You can access the Environment pages by, on the menu bar, choosing **Tools**, **Options**, and then selecting **Environment**.  
   

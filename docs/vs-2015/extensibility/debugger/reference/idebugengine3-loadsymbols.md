@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine3::LoadSymbols | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine3::LoadSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3::LoadSymbols](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3-loadsymbols).  
-  
 Loads (as necessary) symbols for all modules being debugged by this debugging engine.  
   
 ## Syntax  

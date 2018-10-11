@@ -1,7 +1,7 @@
 ---
 title: "How to: Write a Visualizer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # How to: Write a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Write a Visualizer](https://docs.microsoft.com/visualstudio/debugger/how-to-write-a-visualizer).  
-  
 You can write a custom visualizer for an object of any managed class except for <xref:System.Object> or <xref:System.Array>.  
   
 > [!NOTE]

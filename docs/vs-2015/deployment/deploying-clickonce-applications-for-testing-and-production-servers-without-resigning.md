@@ -1,7 +1,7 @@
 ---
 title: "Deploying ClickOnce Applications For Testing and Production Servers without Resigning | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "wpickett"
 # Deploying ClickOnce Applications For Testing and Production Servers without Resigning
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](https://docs.microsoft.com/visualstudio/deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning).  
-  
 This topic discusses a new feature of ClickOnce introduced in the .NET Framework version 3.5 that enables the deployment of ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.  
   
 > [!NOTE]

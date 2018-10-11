@@ -1,7 +1,7 @@
 ---
 title: "Animate objects in XAML Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Animate objects in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Animate objects in XAML Designer](https://docs.microsoft.com/visualstudio/designers/animate-objects-in-xaml-designer).  
-  
 You can create short animations that move objects, or fade them in and out.  
   
  To get started, create a *storyboard*. A storyboard contains one or more *timelines*. Set *keyframes* on a timeline to mark property changes. Then, when you run the animation, Blend interpolates the property changes over the designated period of time. The result is a smooth transition. You can animate any property that belongs to an object, even nonvisual properties.  

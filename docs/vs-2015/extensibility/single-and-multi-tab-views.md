@@ -1,7 +1,7 @@
 ---
 title: "Single and Multi-tab Views | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Single and Multi-tab Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Single and Multi-tab Views](https://docs.microsoft.com/visualstudio/extensibility/single-and-multi-tab-views).  
-  
 An editor can create different types of views. One example is a code editor window, another is a forms designer.  
   
  A multi-tabbed view is a view that has multiple tabs. For example, the HTML editor has two tabs at the bottom: **Design** and **Source**, each a logical view. The design view displays a rendered web page, while the other displays the HTML that comprises the web page.  

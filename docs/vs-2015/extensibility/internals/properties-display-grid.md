@@ -1,7 +1,7 @@
 ---
 title: "Properties Display Grid | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Properties Display Grid
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties Display Grid](https://docs.microsoft.com/visualstudio/extensibility/internals/properties-display-grid).  
-  
 The **Properties** window displays fields within a grid. The left column contains the property names; the right column contains the property values.  
   
 ## Working with the Grid  

@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Debugger Glossary | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Visual Studio Debugger Glossary
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Debugger Glossary](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/visual-studio-debugger-glossary).  
-  
 The following are terms used in the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] Debugging SDK.  
   
 ## Terms  

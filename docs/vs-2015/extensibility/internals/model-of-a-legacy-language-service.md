@@ -1,7 +1,7 @@
 ---
 title: "Model of a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Model of a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Model of a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/model-of-a-legacy-language-service).  
-  
 A language service defines the elements and features for a specific language, and is used to provide the editor with information specific to that language. For example, the editor needs to know the elements and keywords of the language in order to support syntax coloring.  
   
  The language service works closely with the text buffer managed by the editor and the view that contains the editor. The Microsoft IntelliSense **Quick Info** option is an example of a feature provided by a language service.  

@@ -1,7 +1,7 @@
 ---
 title: "Threads | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Threads
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Threads](https://docs.microsoft.com/visualstudio/extensibility/debugger/threads).  
-  
 In terms of the debugger architecture, a **thread**:  
   
 -   Is the fundamental unit of computation. A thread sequentially executes its instructions within the context of a single call stack, moving from one code context to the next.  

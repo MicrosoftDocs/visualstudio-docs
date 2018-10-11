@@ -1,7 +1,7 @@
 ---
 title: "Integrate UML models with other models and tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Integrate UML models with other models and tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Integrate UML models with other models and tools](https://docs.microsoft.com/visualstudio/modeling/integrate-uml-models-with-other-models-and-tools).  
-  
 UML models can be integrated with other models and with domain-specific languages.  
   
  You can integrate models in the following ways by writing extension code to perform a variety of functions:  

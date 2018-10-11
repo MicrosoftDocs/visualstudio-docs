@@ -1,7 +1,7 @@
 ---
 title: "Optional Comparison of Local Project Folder to Source Control Store | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Optional Comparison of Local Project Folder to Source Control Store
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Compare Project Folder to Source Control Store](https://docs.microsoft.com/visualstudio/extensibility/internals/optional-comparison-of-local-project-folder-to-source-control-store).  
-  
 In Source control Plug-in API 1.2 the comparison between the local project folder and source control is accomplished by using the functions [SccDirQueryInfo](../../extensibility/sccdirqueryinfo-function.md) and [SccDirDiff](../../extensibility/sccdirdiff-function.md).  
   
  Within **Solution Explorer**, if a folder is selected instead of an individual file, the **Compare versions** shortcut menu invokes the new [SccDirQueryInfo](../../extensibility/sccdirqueryinfo-function.md) and [SccDirDiff](../../extensibility/sccdirdiff-function.md) in the source control plug-in.  

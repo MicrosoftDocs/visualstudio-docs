@@ -1,7 +1,7 @@
 ---
 title: "How to: Examine System Code After an Exception | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # How to: Examine System Code After an Exception
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Examine System Code After an Exception](https://docs.microsoft.com/visualstudio/debugger/how-to-examine-system-code-after-an-exception).  
-  
 When an exception occurs, you might have to examine code inside a system call to determine the cause of the exception. The following procedure explains how to do this if you do not have symbols loaded for the system code or if Just My Code is enabled.  
   
 ### To examine system code following an exception  

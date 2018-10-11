@@ -1,7 +1,7 @@
 ---
 title: "Hidden Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Hidden Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Hidden Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/hidden-element-visual-studio-templates).  
-  
 Specifies whether the template appears in either the **New Project** or **Add New Item** dialog box.  
   
  \<VSTemplate>  

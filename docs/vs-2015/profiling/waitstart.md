@@ -1,7 +1,7 @@
 ---
 title: "WaitStart | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # WaitStart
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WaitStart](https://docs.microsoft.com/visualstudio/profiling/waitstart).  
-  
 The WaitStart option causes the VSPerfCmd.exe Start sub-command to return only when the profiler has initialized or when the specified number of seconds has passed. By default, the Start command returns immediately. If the Start sub command returns without initializing the profiler, an error is returned. If the number of seconds is not specified, the Start command waits indefinitely.  
   
  The WaitStart option is useful in batch files to insure that profiler has been initialized.  

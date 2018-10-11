@@ -1,7 +1,7 @@
 ---
 title: "Sample Project for Creating Unit Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Sample Project for Creating Unit Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Project for Creating Unit Tests](https://docs.microsoft.com/visualstudio/test/sample-project-for-creating-unit-tests).  
-  
 This sample code is provided for use in the following walkthroughs:  
   
 -   [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). This walkthrough leads you through the steps to create and customize unit tests, run them, and examine the test results.  

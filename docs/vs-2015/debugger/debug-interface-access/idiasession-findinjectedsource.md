@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findInjectedSource | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSession::findInjectedSource
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findInjectedSource](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findinjectedsource).  
-  
 Retrieves a list of sources that has been placed into the symbol store by attribute providers or other components of the compilation process.  
   
 ## Syntax  

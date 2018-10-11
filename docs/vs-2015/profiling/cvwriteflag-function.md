@@ -1,7 +1,7 @@
 ---
 title: "CvWriteFlag Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # CvWriteFlag Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvWriteFlag Function](https://docs.microsoft.com/visualstudio/profiling/cvwriteflag-function).  
-  
 Writes a flag to the Concurrency Visualizer trace file.  
   
 ## Syntax  

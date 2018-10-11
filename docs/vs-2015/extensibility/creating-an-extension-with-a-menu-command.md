@@ -1,7 +1,7 @@
 ---
 title: "Creating an Extension with a Menu Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Creating an Extension with a Menu Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating an Extension with a Menu Command](https://docs.microsoft.com/visualstudio/extensibility/creating-an-extension-with-a-menu-command).  
-  
 This walkthrough shows how to create an extension with a menu command that launches Notepad.  
   
 ## Prerequisites  

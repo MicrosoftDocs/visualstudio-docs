@@ -1,7 +1,7 @@
 ---
 title: "How to: Instrument a .NET Framework Service and Collect Memory Data by Using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Instrument a .NET Framework Service and Collect Memory Data by Using the Profiler Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Instrument a .NET Framework Service and Collect Memory Data by Using the Profiler Command Line](https://docs.microsoft.com/visualstudio/profiling/how-to-instrument-a-dotnet-framework-service-and-collect-memory-data-by-using-the-profiler-command-line).  
-  
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to instrument a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] service and collect memory usage data. You can collect memory allocation data, or you can collect both memory allocation and object lifetime data.  
   
 > [!NOTE]

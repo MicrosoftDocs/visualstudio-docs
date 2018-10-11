@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramProvider2::GetProviderProcessData | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgramProvider2::GetProviderProcessData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramProvider2::GetProviderProcessData](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata).  
-  
 Retrieves a list of running programs from a specified process.  
   
 ## Syntax  

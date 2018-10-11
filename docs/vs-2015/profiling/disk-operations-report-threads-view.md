@@ -1,7 +1,7 @@
 ---
 title: "Disk Operations Report (Threads View) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Disk Operations Report (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Disk Operations Report (Threads View)](https://docs.microsoft.com/visualstudio/profiling/disk-operations-report-threads-view).  
-  
 The Disk Operations Report shows disk I/O operations in the disk channels.  
   
  For each disk access that occurs on behalf of the process that's being profiled in the currently visible time window, this information is reported:  

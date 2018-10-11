@@ -1,7 +1,7 @@
 ---
 title: "CA5122 P-Invoke declarations should not be safe critical | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,6 @@ manager: "wpickett"
 ---
 # CA5122 P/Invoke declarations should not be safe critical
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA5122 P-Invoke declarations should not be safe critical](https://docs.microsoft.com/visualstudio/code-quality/ca5122-p-invoke-declarations-should-not-be-safe-critical).
-
 |||
 |-|-|
 |TypeName|PInvokesShouldNotBeSafeCriticalFxCopRule|

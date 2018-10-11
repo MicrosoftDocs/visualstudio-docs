@@ -1,7 +1,7 @@
 ---
 title: "When Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # When Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [When Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/when-element-msbuild).  
-  
   
 Specifies a possible block of code for the `Choose` element to select.  
   

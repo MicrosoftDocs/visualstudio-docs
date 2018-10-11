@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentContext2::GetName | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugDocumentContext2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentContext2::GetName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentcontext2-getname).  
-  
 Gets the displayable name of the document that contains this document context.  
   
 ## Syntax  

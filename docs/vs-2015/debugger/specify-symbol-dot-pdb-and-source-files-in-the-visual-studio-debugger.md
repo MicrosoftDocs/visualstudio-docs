@@ -1,7 +1,7 @@
 ---
 title: "Specify Symbol (.pdb) and Source Files in the Visual Studio Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,8 +36,6 @@ manager: "ghogen"
 # Specify Symbol (.pdb) and Source Files in the Visual Studio Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Specify symbol (.pdb) and source files in the debugger](https://docs.microsoft.com/visualstudio/debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger).  
-  
 A program database (.pdb) file, also called a symbol file, maps the identifiers that you create in source files for classes, methods, and other code to the identifiers that are used in the compiled executables of your project. The .pdb file also maps the statements in the source code to the execution instructions in the executables. The debugger uses this information to determine two key pieces of information: the source file and line number that are displayed in the Visual Studio IDE and the location in the executable to stop at when you set a breakpoint. A symbol file also contains the original location of the source files, and optionally, the location of a source server where the source files can be retrieved from.  
   
  When you debug a project in the Visual Studio IDE, the debugger knows the default location for the .pdb and source files for your code. If you want to debug code outside your project source code, such as the Windows or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables.  

@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetSymUnmanagedReader | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::GetSymUnmanagedReader](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-getsymunmanagedreader).  
-  
 Retrieves the symbol reader to be used by unmanaged code.  
   
 ## Syntax  

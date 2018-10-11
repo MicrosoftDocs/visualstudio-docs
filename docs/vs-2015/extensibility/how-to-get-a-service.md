@@ -1,7 +1,7 @@
 ---
 title: "How to: Get a Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Get a Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Get a Service](https://docs.microsoft.com/visualstudio/extensibility/how-to-get-a-service).  
-  
 You often need to get Visual Studio services to access different features. In general, a Visual Studio service provides one or more interfaces that you can use. You can get most services from a VSPackage.  
   
  Any VSPackage that derives from <xref:Microsoft.VisualStudio.Shell.Package> and that has been correctly sited can ask for any global service. Because the Package class implements <xref:System.IServiceProvider>, any VSPackage that derives from Package is also a service provider.  

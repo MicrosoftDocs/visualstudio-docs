@@ -1,7 +1,7 @@
 ---
 title: "How to: Start Spy++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Start Spy++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Start Spy++](https://docs.microsoft.com/visualstudio/debugger/how-to-start-spy-increment).  
-  
 You can start Spy++ either from Visual Studio or at a command prompt.  
   
  When you start Spy++, if a message is displayed to ask permission to make changes to the computer, click **Yes**.  

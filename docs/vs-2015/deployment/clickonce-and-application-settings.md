@@ -1,7 +1,7 @@
 ---
 title: "ClickOnce and Application Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # ClickOnce and Application Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ClickOnce and Application Settings](https://docs.microsoft.com/visualstudio/deployment/clickonce-and-application-settings).  
-  
 Application settings for Windows Forms makes it easy to create, store, and maintain custom application and user preferences on the client. The following document describes how application settings files work in a ClickOnce application, and how ClickOnce migrates settings when the user upgrades to the next version.  
   
  The information below applies only to the default application settings provider, the <xref:System.Configuration.LocalFileSettingsProvider> class. If you supply a custom provider, that provider will determine how it stores its data and how it upgrades its settings between versions. For more information on application settings providers, see [Application Settings Architecture](http://msdn.microsoft.com/library/c8eb2ad0-fac6-4ea2-9140-675a4a44d562).  

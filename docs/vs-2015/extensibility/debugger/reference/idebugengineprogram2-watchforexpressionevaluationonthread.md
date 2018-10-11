@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineProgram2::WatchForExpressionEvaluationOnThread](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengineprogram2-watchforexpressionevaluationonthread).  
-  
 Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped.  
   
 ## Syntax  

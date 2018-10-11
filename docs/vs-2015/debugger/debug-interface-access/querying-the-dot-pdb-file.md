@@ -1,7 +1,7 @@
 ---
 title: "Querying the .Pdb File | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Querying the .Pdb File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Querying the .Pdb File](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/querying-the-dot-pdb-file).  
-  
 A program database file (extension .pdb) is a binary file that contains type and symbolic debugging information gathered over the course of compiling and linking the project. A PDB file is created when you compile a C/C++ program with **/ZI** or **/Zi** or a [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)], [!INCLUDE[csprcs](../../includes/csprcs-md.md)], or [!INCLUDE[jsprjscript](../../includes/jsprjscript-md.md)] program with the **/debug** option. Object files contain references into the .pdb file for debugging information. For more information on pdb files, see [PDB Files](http://msdn.microsoft.com/en-us/1761c84e-8c2c-4632-9649-b5f99964ed3f). A DIA application can use the following general steps to obtain details about the various symbols, objects, and data elements within an executable image.  
   
 ### To query the .pdb file  

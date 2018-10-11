@@ -1,7 +1,7 @@
 ---
 title: "IDiaDataSource::loadDataForExe | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaDataSource::loadDataForExe
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaDataSource::loadDataForExe](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiadatasource-loaddataforexe).  
-  
 Opens and prepares the debug data associated with the .exe/.dll file.  
   
 ## Syntax  

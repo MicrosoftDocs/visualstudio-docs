@@ -1,7 +1,7 @@
 ---
 title: "IDebugCodeContext2::GetDocumentContext | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCodeContext2::GetDocumentContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCodeContext2::GetDocumentContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcodecontext2-getdocumentcontext).  
-  
 Gets the document context that corresponds to this code context. The document context represents a position in the source file that corresponds to the source code that generated this instruction.  
   
 ## Syntax  

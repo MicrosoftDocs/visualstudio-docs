@@ -1,7 +1,7 @@
 ---
 title: "RemoveDir Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # RemoveDir Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RemoveDir Task](https://docs.microsoft.com/visualstudio/msbuild/removedir-task).  
-  
   
 Removes the specified directories and all of its files and subdirectories.  
   

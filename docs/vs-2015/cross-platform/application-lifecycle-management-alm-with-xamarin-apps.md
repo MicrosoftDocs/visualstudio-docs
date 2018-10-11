@@ -1,7 +1,7 @@
 ---
 title: "Application Lifecycle Management (ALM) with Xamarin apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "crdun"
 # Application Lifecycle Management (ALM) with Xamarin apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Application Lifecycle Management (ALM) with Xamarin apps](https://docs.microsoft.com/visualstudio/cross-platform/application-lifecycle-management-alm-with-xamarin-apps).  
-  
   
 Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, and Windows using C#, .NET, and Visual Studio. Xamarin allows a large portion of code to be shared between platforms, with only a small percentage needing to be platform-specific. For more information on Xamarin itself, see [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md).  
   

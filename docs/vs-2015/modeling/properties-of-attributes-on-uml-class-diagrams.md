@@ -1,7 +1,7 @@
 ---
 title: "Properties of attributes on UML class diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Properties of attributes on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of attributes on UML class diagrams](https://docs.microsoft.com/visualstudio/modeling/properties-of-attributes-on-uml-class-diagrams).  
-  
 On a UML class diagram, you can add *attributes* to classes and interfaces. An attribute defines values that can be attached to instances of the class or interface.  
   
  To add an attribute, right-click the class or interface, point to **Add**, and then click **Attribute**.  

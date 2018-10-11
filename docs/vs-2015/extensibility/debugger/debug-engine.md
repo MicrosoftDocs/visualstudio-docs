@@ -1,7 +1,7 @@
 ---
 title: "Debug Engine | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Engine](https://docs.microsoft.com/visualstudio/extensibility/debugger/debug-engine).  
-  
 A debug engine (DE) works with the interpreter or operating system to provide debugging services such as execution control, breakpoints, and expression evaluation. The DE is responsible for monitoring the state of a program being debugged. To do accomplish this, the DE uses whatever methods are available to it in the supported runtime, whether from the CPU or from APIs supplied by the runtime.  
   
  For example, the common language runtime (CLR) supplies mechanisms to monitor a running program through the ICorDebugXXX interfaces. A DE that supports the CLR uses the appropriate ICorDebugXXX interfaces to keep track of a managed code program being debugged. It then communicates any changes of state to the session debug manager (SDM), which forwards such information to the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE.  

@@ -1,7 +1,7 @@
 ---
 title: "IDebugProperty3::GetCustomViewerList | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProperty3::GetCustomViewerList
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty3::GetCustomViewerList](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty3-getcustomviewerlist).  
-  
 Gets a list of custom viewers associated with this property.  
   
 ## Syntax  

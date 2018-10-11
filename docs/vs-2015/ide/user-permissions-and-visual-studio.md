@@ -1,7 +1,7 @@
 ---
 title: "User Permissions and Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # User Permissions and Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [User Permissions and Visual Studio](https://docs.microsoft.com/visualstudio/ide/user-permissions-and-visual-studio).  
-  
 For reasons of security you should run Visual Studio as a normal user whenever possible.  
   
 > [!WARNING]

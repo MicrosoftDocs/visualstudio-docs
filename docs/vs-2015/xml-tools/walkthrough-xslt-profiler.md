@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: XSLT Profiler | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: XSLT Profiler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: XSLT Profiler](https://docs.microsoft.com/visualstudio/xml-tools/walkthrough-xslt-profiler).  
-  
   
 The XSLT Profiler creates detailed XSLT performance reports that help measure, evaluate, and target performance-related problems in XSLT code. The XSLT Profiler includes useful hints for XSL and XSLT style sheet optimizations. For XSLT applications that demand maximum performance, this tool can be essential.  
   

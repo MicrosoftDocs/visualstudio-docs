@@ -1,7 +1,7 @@
 ---
 title: "IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2-getinterceptcookie).  
-  
 Called when the processing of an intercepted exception has completed.  
   
 ## Syntax  

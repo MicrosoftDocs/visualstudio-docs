@@ -1,7 +1,7 @@
 ---
 title: "Navigating and Updating a Model in Program Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Navigating and Updating a Model in Program Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigating and Updating a Model in Program Code](https://docs.microsoft.com/visualstudio/modeling/navigating-and-updating-a-model-in-program-code).  
-  
 You can write code to create and delete model elements, set their properties, and create and delete links between elements. All changes must be made within a transaction. If the elements are viewed on a diagram, the diagram will be "fixed up" automatically at the end of the transaction.  
   
 ## In this Topic  

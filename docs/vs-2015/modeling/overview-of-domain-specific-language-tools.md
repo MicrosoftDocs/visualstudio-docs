@@ -1,7 +1,7 @@
 ---
 title: "Overview of Domain-Specific Language Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Overview of Domain-Specific Language Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overview of Domain-Specific Language Tools](https://docs.microsoft.com/visualstudio/modeling/overview-of-domain-specific-language-tools).  
-  
 Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], let you design a domain-specific language and then generate everything that users must have to create models that are based on the language.  
   
  The following tools are included in DSL Tools:  

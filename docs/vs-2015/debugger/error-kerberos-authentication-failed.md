@@ -1,7 +1,7 @@
 ---
 title: "Error: Kerberos Authentication Failed | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Error: Kerberos Authentication Failed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Kerberos Authentication Failed](https://docs.microsoft.com/visualstudio/debugger/error-kerberos-authentication-failed).  
-  
 When you try to do remote debugging, you might get the following error message:  
   
 ```  

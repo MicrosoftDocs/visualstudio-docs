@@ -1,7 +1,7 @@
 ---
 title: "Analyzing Application Quality by Using Code Analysis Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # Analyzing Application Quality by Using Code Analysis Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyzing Application Quality by Using Code Analysis Tools](https://docs.microsoft.com/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools).  
-  
 In This Section  
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)  
  Visual Studio code analysis for managed code provides information about managed assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines. Warning messages identify any relevant programming and design issues and, when it is possible, supply information about how to fix the problem.  

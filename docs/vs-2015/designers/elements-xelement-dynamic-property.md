@@ -1,7 +1,7 @@
 ---
 title: "Elements (XElement Dynamic Property) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Elements (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Elements (XElement Dynamic Property)](https://docs.microsoft.com/visualstudio/designers/elements-xelement-dynamic-property).  
-  
 Gets an indexer used to retrieve the child elements of the current element that match the specified expanded name.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Manually Create Performance Sessions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: Manually Create Performance Sessions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Manually Create Performance Sessions](https://docs.microsoft.com/visualstudio/profiling/how-to-manually-create-performance-sessions).  
-  
 You can manually create a performance session. You are not required to open a project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to do this. For more information, see [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md).  
   
 ### To manually create a performance session  

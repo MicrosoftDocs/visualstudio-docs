@@ -1,7 +1,7 @@
 ---
 title: "How to: Create XML Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create XML Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create XML Snippets](https://docs.microsoft.com/visualstudio/xml-tools/how-to-create-xml-snippets).  
-  
   
 The XML Editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.  
   

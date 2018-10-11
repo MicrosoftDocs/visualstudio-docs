@@ -1,7 +1,7 @@
 ---
 title: "Project Modeling | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Project Modeling
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Modeling](https://docs.microsoft.com/visualstudio/extensibility/internals/project-modeling).  
-  
 The next step in providing automation for your project is to implement the standard project objects: the <xref:EnvDTE.Projects> and `ProjectItems` collections; the `Project` and <xref:EnvDTE.ProjectItem> objects; and the remaining objects unique to your implementation. These standard objects are defined in Dteinternal.h file. An implementation of the standard objects is provided in the BscPrj sample. You can use these classes as models to create your own standard project objects that stand side-by-side with project objects from other project types.  
   
  An automation consumer presumes to be able to call <xref:EnvDTE.Solution>("`<UniqueProjName>")` and <xref:EnvDTE.ProjectItems> (`n`) where n is an index number for obtaining a specific project in the solution. Making this automation call causes the environment to call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.GetProperty%2A> on the appropriate project hierarchy, passing VSITEMID_ROOT as the ItemID parameter and VSHPROPID_ExtObject as VSHPROPID parameter. `IVsHierarchy::GetProperty` returns an `IDispatch` pointer to the automation object providing the core `Project` interface, which you have implemented.  

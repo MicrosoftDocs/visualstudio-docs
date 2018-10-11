@@ -1,7 +1,7 @@
 ---
 title: "How to: Expand and Collapse Spy++ Trees | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Expand and Collapse Spy++ Trees
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Expand and Collapse Spy++ Trees](https://docs.microsoft.com/visualstudio/debugger/how-to-expand-and-collapse-spy-increment-trees).  
-  
 You can expand and collapse the Windows, Processes, and Threads views using two methods: by clicking on the icons in the window or by using the **Tree** menu. The + and – icons in the tree act as they do in the Visual C++ project window.  
   
  The **Tree** menu contains four commands:  

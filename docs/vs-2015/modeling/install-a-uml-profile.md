@@ -1,7 +1,7 @@
 ---
 title: "Install a UML profile | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Install a UML profile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Install a UML profile](https://docs.microsoft.com/visualstudio/modeling/install-a-uml-profile).  
-  
 You can extend Visual Studio with a UML profile. A profile lets you add stereotypes and additional properties to the elements you can create in UML models. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
  If you receive a UML model that has been created using profiles, some properties will not be displayed unless you install the same profiles.  

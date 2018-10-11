@@ -1,7 +1,7 @@
 ---
 title: "Modifying the Isolated Shell By Using the .Pkgdef File | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Modifying the Isolated Shell By Using the .Pkgdef File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modifying the Isolated Shell By Using the .Pkgdef File](https://docs.microsoft.com/visualstudio/extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file).  
-  
 The .pkgdef file supports settings that you can use to customize an isolated shell application. It specifies values that are created when an application is installed on a computer and that are referenced by the Visual Studio shell when it starts the application. The settings are organized in the file based on the applicable registry keys.  
   
 > [!WARNING]

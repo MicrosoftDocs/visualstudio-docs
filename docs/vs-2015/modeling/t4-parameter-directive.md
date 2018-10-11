@@ -1,7 +1,7 @@
 ---
 title: "T4 Parameter Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # T4 Parameter Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Parameter Directive](https://docs.microsoft.com/visualstudio/modeling/t4-parameter-directive).  
-  
 In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.  
   
 ## Using the Parameter Directive  

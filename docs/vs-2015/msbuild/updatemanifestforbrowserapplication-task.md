@@ -1,7 +1,7 @@
 ---
 title: "UpdateManifestForBrowserApplication Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # UpdateManifestForBrowserApplication Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UpdateManifestForBrowserApplication Task](https://docs.microsoft.com/visualstudio/msbuild/updatemanifestforbrowserapplication-task).  
-  
   
 The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run to add the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../includes/tlasharptla-xbap-md.md)] project is built.  
   

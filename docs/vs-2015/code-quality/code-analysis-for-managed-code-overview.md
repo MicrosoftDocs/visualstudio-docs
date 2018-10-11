@@ -1,7 +1,7 @@
 ---
 title: "Code Analysis for Managed Code Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 # Code Analysis for Managed Code Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Code Analysis for Managed Code Overview](https://docs.microsoft.com/visualstudio/code-quality/code-analysis-for-managed-code-overview).  
-  
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.  
   
  The analysis tool represents the checks it performs during an analysis as warning messages. Warning messages identify any relevant programming and design issues and, when it is possible, supply information about how to fix the problem.  

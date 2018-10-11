@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcess3::GetENCAvailableState | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcess3::GetENCAvailableState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess3::GetENCAvailableState](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess3-getencavailablestate).  
-  
 This method gets the current Edit and Continue state of the process. A custom port supplier should always return `E_NOTIMPL`.  
   
 ## Syntax  

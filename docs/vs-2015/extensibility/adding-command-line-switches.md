@@ -1,7 +1,7 @@
 ---
 title: "Adding Command-Line Switches | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Adding Command-Line Switches
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Command-Line Switches](https://docs.microsoft.com/visualstudio/extensibility/adding-command-line-switches).  
-  
 You can add command-line switches that apply to your VSPackage when devenv.exe is executed. Use <xref:Microsoft.VisualStudio.Shell.ProvideAppCommandLineAttribute> to declare the name of the switch and its properties. In this example, the MySwitch switch is added for a subclass of VSPackage named **AddCommandSwitchPackage** with no arguments and with the VSPackage loaded automatically.  
   
 ```csharp  

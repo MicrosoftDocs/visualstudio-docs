@@ -1,7 +1,7 @@
 ---
 title: "Stack Frames | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Stack Frames
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Stack Frames](https://docs.microsoft.com/visualstudio/extensibility/debugger/stack-frames).  
-  
 In terms of the debugger architecture, a **stack frame**:  
   
 -   Is an abstraction of a stack that provides the execution context of a thread. A thread always executes within a function. A stack frame holds the local variables of the function, and the arguments to it. In order to debug with Visual Studio, the language or environment being debugged must support stack frames.  

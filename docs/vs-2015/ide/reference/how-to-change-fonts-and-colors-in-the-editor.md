@@ -1,7 +1,7 @@
 ---
 title: "How to: Change Fonts and Colors in the Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: Change Fonts and Colors in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Change Fonts and Colors in the Editor](https://docs.microsoft.com/visualstudio/ide/reference/how-to-change-fonts-and-colors-in-the-editor).  
-  
   
 You can change the default font face, adjust the font size, and change the foreground and background colors for various text **Display items** in the Code Editor. When changing font settings keep in mind the following information:  
   

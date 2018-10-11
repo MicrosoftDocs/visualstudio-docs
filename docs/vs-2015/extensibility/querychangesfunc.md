@@ -1,7 +1,7 @@
 ---
 title: "QUERYCHANGESFUNC | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # QUERYCHANGESFUNC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [QUERYCHANGESFUNC](https://docs.microsoft.com/visualstudio/extensibility/querychangesfunc).  
-  
 This is a callback function used by the [SccQueryChanges](../extensibility/sccquerychanges-function.md) operation to enumerate a collection of file names and determine each file's status.  
   
  The `SccQueryChanges` function is given a list of files and a pointer to the `QUERYCHANGESFUNC` callback. The source control plug-in enumerates over the given list and provides status (via this callback) for each file in the list.  

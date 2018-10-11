@@ -1,7 +1,7 @@
 ---
 title: "How to: Search for a Message in Messages View | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Search for a Message in Messages View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Search for a Message in Messages View](https://docs.microsoft.com/visualstudio/debugger/how-to-search-for-a-message-in-messages-view).  
-  
 You can search for a specific message in Messages view by using its handle, type, or message ID as search criteria. Any one of these — or a combination — will be valid search criteria. The initial direction of the search can also be specified. The fields in the dialog box are preloaded with the attributes of the message currently selected.  
   
 ### To search for a message in Messages view  

@@ -1,7 +1,7 @@
 ---
 title: "Advanced Search Operators in Search Expressions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Advanced Search Operators in Search Expressions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Advanced Search Operators in Search Expressions](https://docs.microsoft.com/visualstudio/ide/advanced-search-operators-in-search-expressions).  
-  
 By using advanced search operators, you can refine your search for content by creating more complicated search expressions from simpler ones. As the following table shows, these operators restrict the context in which a query runs.  
   
 > [!WARNING]

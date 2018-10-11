@@ -1,7 +1,7 @@
 ---
 title: "How to: Manage Build Configurations with Visual Basic Developer Settings Applied | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # How to: Manage Build Configurations with Visual Basic Developer Settings Applied
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Manage Build Configurations with Visual Basic Developer Settings Applied](https://docs.microsoft.com/visualstudio/ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied).  
-  
 By default, all advanced build configuration options are hidden with [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] Developer settings applied. This topic explains how to manually enable these settings.  
   
 ## Enabling advanced build configurations  

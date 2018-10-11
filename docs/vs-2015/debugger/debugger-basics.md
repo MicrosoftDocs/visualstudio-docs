@@ -1,7 +1,7 @@
 ---
 title: "Debugger Basics | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,9 +26,6 @@ manager: "ghogen"
 ---
 # Debugger Basics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Debugger basics](https://docs.microsoft.com/visualstudio/debugger/debugger-basics). 
-
 The Visual Studio debugger allows you to observe the run-time behavior of your program and locate logic errors. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution to step through your code and evaluate variables in your application.
   
 ## In This Section  

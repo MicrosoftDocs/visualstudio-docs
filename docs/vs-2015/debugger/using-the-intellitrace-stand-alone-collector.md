@@ -1,7 +1,7 @@
 ---
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Using the IntelliTrace stand-alone collector
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using the IntelliTrace stand-alone collector](https://docs.microsoft.com/visualstudio/debugger/using-the-intellitrace-stand-alone-collector).  
-  
 The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnostic data for your apps on production servers or other environments without installing Visual Studio on the target machine and without changing the target system's environment. The IntelliTrace stand-alone collector works on web, SharePoint, WPF and Windows Forms apps. When you're done collecting data, just delete the collector to uninstall it.  
   
  Watch IntelliTrace in action: [Collecting and analyzing IntelliTrace data in production for debugging (Channel 9 video)](http://go.microsoft.com/fwlink/?LinkID=251851)  

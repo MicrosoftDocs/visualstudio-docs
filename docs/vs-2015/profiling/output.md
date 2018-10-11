@@ -1,7 +1,7 @@
 ---
 title: "Output | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Output
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Output](https://docs.microsoft.com/visualstudio/profiling/output).  
-  
 The **Output** option specifies the name of the profiling data file for the performance session. **Output** must be used with the **Start** option.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "Analyzing Coded UI Tests Using Coded UI Test Logs | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Analyzing Coded UI Tests Using Coded UI Test Logs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyzing Coded UI Tests Using Coded UI Test Logs](https://docs.microsoft.com/visualstudio/test/analyzing-coded-ui-tests-using-coded-ui-test-logs).  
-  
 Coded UI test logs filter and record important information about your coded UI test runs.  
   
  **Requirements**  

@@ -1,7 +1,7 @@
 ---
 title: "DA0003: Many kernel samples | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # DA0003: Many kernel samples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0003: Many kernel samples](https://docs.microsoft.com/visualstudio/profiling/da0003-many-kernel-samples).  
-  
 Rule Id|DA0003|  
 |Category|Profiling Tools Usage|  
 |Profiling methods|Sampling|  

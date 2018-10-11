@@ -1,7 +1,7 @@
 ---
 title: "Writing Code in the Code and Text Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,9 +68,6 @@ manager: "ghogen"
 ---
 # Writing Code in the Code and Text Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Writing Code in the Code and Text Editor](https://docs.microsoft.com/visualstudio/ide/writing-code-in-the-code-and-text-editor).
-
 The Visual Studio editor provides many features that make it easier for you to write and manage your code. You can expand and collapse different blocks of code by using outlining. You can learn more about the code you are using by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can navigate inside your code by using features such as **Navigate To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio 2015 editor before, see [Editing Your Code](https://www.visualstudio.com/features/ide-vs) for a quick overview.  
 
  You can view your code in a number of different ways. To see a class view of your solution, you can open the **Class View** window or expand the nodes in the **Solution Explorer** under your class files.  

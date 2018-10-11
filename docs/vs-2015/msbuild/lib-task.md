@@ -1,7 +1,7 @@
 ---
 title: "LIB Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,8 +35,6 @@ manager: "ghogen"
 # LIB Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LIB Task](https://docs.microsoft.com/visualstudio/msbuild/lib-task).  
-  
   
 Wraps the Microsoft 32-Bit Library Manager tool, lib.exe. The Library Manager creates and manages a library of Common Object File Format (COFF) object files. The Library Manager can also create export files and import libraries to reference exported definitions. For more information, see [LIB Reference](http://msdn.microsoft.com/library/ecc7f643-bbd4-47a3-8dc6-b360f880db91) and [Running LIB](http://msdn.microsoft.com/library/d54f5c81-7147-4b2c-a8db-68ce6eb1eabd).  
   

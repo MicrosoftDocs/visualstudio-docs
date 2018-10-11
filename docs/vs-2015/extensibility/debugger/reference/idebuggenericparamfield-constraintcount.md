@@ -1,7 +1,7 @@
 ---
 title: "IDebugGenericParamField::ConstraintCount | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugGenericParamField::ConstraintCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericParamField::ConstraintCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericparamfield-constraintcount).  
-  
 Returns the number of constraints that are associated with this generic parameter.  
   
 ## Syntax  

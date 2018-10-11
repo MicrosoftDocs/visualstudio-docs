@@ -1,7 +1,7 @@
 ---
 title: "Debugger navigation sample code (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Debugger navigation sample code (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger navigation sample code (JavaScript)](https://docs.microsoft.com/visualstudio/debugger/debugger-navigation-sample-code-javascript).  
-  
 The code in this topic is the sample file for the [Control execution in a debug session (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md) topic.  
   
 ## default.js sample code  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Support Outlining in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Support Outlining in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Support Outlining in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/how-to-support-outlining-in-a-legacy-language-service).  
-  
 Outlining is used to expand or collapse different regions of text. The way outlining is used can be defined differently by different languages. For more information, see [Outlining](../../ide/outlining.md).  
   
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement outlining, see [Walkthrough: Outlining](../../extensibility/walkthrough-outlining.md).  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Use the XML Schema Designer with XML Literals | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Use the XML Schema Designer with XML Literals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use the XML Schema Designer with XML Literals](https://docs.microsoft.com/visualstudio/xml-tools/how-to-use-the-xml-schema-designer-with-xml-literals).  
-  
   
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.  
   

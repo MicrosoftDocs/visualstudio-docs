@@ -1,7 +1,7 @@
 ---
 title: "Debugging ClickOnce Applications That Use System.Deployment.Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "wpickett"
 # Debugging ClickOnce Applications That Use System.Deployment.Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging ClickOnce Applications That Use System.Deployment.Application](https://docs.microsoft.com/visualstudio/deployment/debugging-clickonce-applications-that-use-system-deployment-application).  
-  
 In [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment allows you to configure how an application is updated. However, if you need to use and customize advanced [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment features, you will need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:  
   
 -   Creating an "Update Now" option in your application  

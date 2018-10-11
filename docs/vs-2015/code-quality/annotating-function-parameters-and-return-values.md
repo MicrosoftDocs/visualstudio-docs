@@ -1,7 +1,7 @@
 ---
 title: "Annotating Function Parameters and Return Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -135,8 +135,6 @@ manager: "ghogen"
 # Annotating Function Parameters and Return Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Annotating Function Parameters and Return Values](https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values).  
-  
 This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)  
   
 ## Pointer Parameters  

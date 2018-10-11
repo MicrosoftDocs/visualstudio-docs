@@ -1,7 +1,7 @@
 ---
 title: "Find Window Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Find Window Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Find Window Dialog Box](https://docs.microsoft.com/visualstudio/debugger/find-window-dialog-box).  
-  
 Use this dialog box to select a window and display its properties or messages. To display this dialog box, choose **Find Window** from the **Spy** menu.  
   
  The following settings are available:  

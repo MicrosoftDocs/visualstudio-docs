@@ -1,7 +1,7 @@
 ---
 title: "Running Profiling Tools With or Without the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Running Profiling Tools With or Without the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Running Profiling Tools With or Without the Debugger](https://docs.microsoft.com/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger).  
-  
 Visual Studio now offers you a choice of performance tools, some of which (for example, **CPU Usage** and **Memory Usage**) can be run with or without the debugger. Non-debugger performance tools are intended to run on Release configurations, while debugger-integrated tools are intended to run on Debug configurations.  
   
 ## Should I run the tool with or without the debugger?  

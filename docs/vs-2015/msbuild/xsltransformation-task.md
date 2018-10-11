@@ -1,7 +1,7 @@
 ---
 title: "XslTransformation Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # XslTransformation Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XslTransformation Task](https://docs.microsoft.com/visualstudio/msbuild/xsltransformation-task).  
-  
   
 Transforms an XML input by using an XSLT or compiled XSLT and outputs to an output device or a file.  
   

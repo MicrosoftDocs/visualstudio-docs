@@ -1,7 +1,7 @@
 ---
 title: "Understanding Performance Collection Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Understanding Performance Collection Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Understanding Performance Collection Methods](https://docs.microsoft.com/visualstudio/profiling/understanding-performance-collection-methods).  
-  
 The Visual Studio Profiling Tools provide five methods that you can use to collect performance data. This topic describes the different methods and suggests some scenarios in which collecting data with a particular method can be appropriate.  
   
 > [!NOTE]

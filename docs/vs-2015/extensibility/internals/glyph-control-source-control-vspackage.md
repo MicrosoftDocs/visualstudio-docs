@@ -1,7 +1,7 @@
 ---
 title: "Glyph Control (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Glyph Control (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Glyph Control (Source Control VSPackage)](https://docs.microsoft.com/visualstudio/extensibility/internals/glyph-control-source-control-vspackage).  
-  
 Part of the deep integration available to source control VSPackages is the ability to display their own glyphs to indicate the status of items under source control.  
   
 ## Levels of Glyph Control  

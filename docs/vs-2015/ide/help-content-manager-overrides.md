@@ -1,7 +1,7 @@
 ---
 title: "Help Content Manager Overrides | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Help Content Manager Overrides
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Help Content Manager Overrides](https://docs.microsoft.com/visualstudio/ide/help-content-manager-overrides).  
-  
 You can modify the registry to change the default behavior of the Help Viewer and Help-related features in the Visual Studio IDE.  
   
 |Task|Registry Key|Value and Definition|  

@@ -1,7 +1,7 @@
 ---
 title: "Manage Channels | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Manage Channels
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Manage Channels](https://docs.microsoft.com/visualstudio/profiling/manage-channels).  
-  
 In the **Threads View** in the Concurrency Visualizer, you can organize the channels for your process so that you can examine particular patterns. You can sort channels, move them up and down, and hide or show them.  
   
 ## Sort By  

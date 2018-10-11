@@ -1,7 +1,7 @@
 ---
 title: "Profiling Tools APIs | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Profiling Tools APIs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Profiling Tools APIs](https://docs.microsoft.com/visualstudio/profiling/profiling-tools-apis).  
-  
 You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools to control data collection in a profiling run. This section describes the methods of the APIs and describes how to use them.  
   
 ## In This Section  

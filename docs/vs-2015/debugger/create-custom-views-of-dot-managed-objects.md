@@ -1,7 +1,7 @@
 ---
 title: "Create Custom Views of Managed Objects | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "ghogen"
 # Create Custom Views of Managed Objects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create custom views of managed objects](https://docs.microsoft.com/visualstudio/debugger/create-custom-views-of-dot-managed-objects).  
-  
 You can customize the way Visual Studio displays data types in debugger variable windows.  
   
 ## Attributes  

@@ -1,7 +1,7 @@
 ---
 title: "SccGetProjPath Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccGetProjPath Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccGetProjPath Function](https://docs.microsoft.com/visualstudio/extensibility/sccgetprojpath-function).  
-  
 This function prompts the user for a project path, which is a string that is meaningful only to the source control plug-in. It is called when the user is:  
   
 -   Creating a new project  

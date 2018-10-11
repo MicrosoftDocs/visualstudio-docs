@@ -1,7 +1,7 @@
 ---
 title: "How to: Build Multiple Configurations Simultaneously | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Build Multiple Configurations Simultaneously
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Build Multiple Configurations Simultaneously](https://docs.microsoft.com/visualstudio/ide/how-to-build-multiple-configurations-simultaneously).  
-  
 You can build most types of projects with multiple, or even all, of their build configurations at the same time by using the **Batch Build** dialog box. However, you can't build the following types of projects in multiple build configurations at the same time:  
   
 1.  [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps built for Windows using JavaScript.  

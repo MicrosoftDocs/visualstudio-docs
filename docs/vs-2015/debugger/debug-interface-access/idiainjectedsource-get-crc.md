@@ -1,7 +1,7 @@
 ---
 title: "IDiaInjectedSource::get_crc | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaInjectedSource::get_crc
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaInjectedSource::get_crc](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiainjectedsource-get-crc).  
-  
 Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code.  
   
 ## Syntax  

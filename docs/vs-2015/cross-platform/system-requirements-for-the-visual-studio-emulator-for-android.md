@@ -1,7 +1,7 @@
 ---
 title: "System Requirements for the Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "crdun"
 # System Requirements for the Visual Studio Emulator for Android
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [System Requirements for the Visual Studio Emulator for Android](https://docs.microsoft.com/visualstudio/cross-platform/system-requirements-for-the-visual-studio-emulator-for-android).  
-  
   
 Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the virtualization technology for Windows 8 and later versions. To run the emulator, your computer must meet the requirements to run Hyper-V as described in this topic.  
   

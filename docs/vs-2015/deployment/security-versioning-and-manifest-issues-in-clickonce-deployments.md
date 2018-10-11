@@ -1,7 +1,7 @@
 ---
 title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "wpickett"
 # Security, Versioning, and Manifest Issues in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security, Versioning, and Manifest Issues in ClickOnce Deployments](https://docs.microsoft.com/visualstudio/deployment/security-versioning-and-manifest-issues-in-clickonce-deployments).  
-  
 There are a variety of issues with [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] security, application versioning, and manifest syntax and semantics that can cause a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment not to succeed.  
   
 ## ClickOnce and Windows Vista User Account Control  

@@ -1,7 +1,7 @@
 ---
 title: "IDiaImageData::get_virtualAddress | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaImageData::get_virtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaImageData::get_virtualAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaimagedata-get-virtualaddress).  
-  
 Retrieves the location in virtual memory of the image.  
   
 ## Syntax  

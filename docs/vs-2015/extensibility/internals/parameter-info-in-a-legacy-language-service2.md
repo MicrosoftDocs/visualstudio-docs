@@ -1,7 +1,7 @@
 ---
 title: "Parameter Info in a Legacy Language Service2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Parameter Info in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Parameter Info in a Legacy Language Service2](https://docs.microsoft.com/visualstudio/extensibility/internals/parameter-info-in-a-legacy-language-service2).  
-  
 IntelliSense Parameter Info is a tooltip that displays the signature of a method when the user types the parameter list start character (typically an open parenthesis) for the method parameter list. As each parameter is entered and the parameter separator (typically a comma) is typed, the tooltip is updated to show the next parameter in bold.  
   
  The managed package framework (MPF) classes provide support for managing the Parameter Info tooltip. The parser must detect parameter start, parameter next, and parameter end characters, and it must supply a list of the method signatures and their associated parameters.  

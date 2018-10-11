@@ -1,7 +1,7 @@
 ---
 title: "Session Debug Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Session Debug Manager
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Session Debug Manager](https://docs.microsoft.com/visualstudio/extensibility/debugger/session-debug-manager).  
-  
 The session debug manager (SDM) manages any number of debug engines (DE) debugging any number of programs in multiple processes on any number of machines. In addition to being a debug engine multiplexer, the SDM provides a unified view of the debug session to the IDE.  
   
 ## Session Debug Manager Operation  

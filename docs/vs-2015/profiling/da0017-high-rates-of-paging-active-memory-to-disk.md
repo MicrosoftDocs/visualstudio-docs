@@ -1,7 +1,7 @@
 ---
 title: "DA0017: High rates of paging active memory to disk | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # DA0017: High rates of paging active memory to disk
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0017: High rates of paging active memory to disk](https://docs.microsoft.com/visualstudio/profiling/da0017-high-rates-of-paging-active-memory-to-disk).  
-  
 Rule Id|DA0017|  
 |Category|Memory and Paging|  
 |Profiling method|All|  

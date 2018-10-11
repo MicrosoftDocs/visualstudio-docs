@@ -1,7 +1,7 @@
 ---
 title: "How to: View Existing Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: View Existing Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: View Existing Types (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-view-existing-types-class-designer).  
-  
 To see an existing type and its members, add its shape to a class diagram.  
   
  You can see local and referenced types. A local type exists in the currently open project and is read/write. A referenced type exists in another project or in a referenced assembly and is read-only.  

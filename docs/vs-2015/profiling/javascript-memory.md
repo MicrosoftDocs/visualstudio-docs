@@ -1,7 +1,7 @@
 ---
 title: "JavaScript Memory | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # JavaScript Memory
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze JavaScript Memory Usage in UWP Apps](https://docs.microsoft.com/visualstudio/profiling/javascript-memory).  
-  
 The JavaScript memory analyzer is available in Visual Studio to help you understand memory usage and find memory leaks in your Store apps built for Windows using JavaScript. Supported apps include apps for Windows Phone Store and Windows Store.  
   
  The JavaScript memory analyzer can do these things for you:  

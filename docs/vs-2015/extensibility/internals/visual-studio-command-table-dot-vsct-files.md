@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Command Table (.Vsct) Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Visual Studio Command Table (.Vsct) Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Command Table (.Vsct) Files](https://docs.microsoft.com/visualstudio/extensibility/internals/visual-studio-command-table-dot-vsct-files).  
-  
 A command table configuration file is a text file that describes the set of commands that a VSPackage contains. The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] command table (VSCT) compiler compiles XML-based configuration files (.vsct files) into binary command table output (.cto) files. The resultant .cto files are the same as those that are created by using the command table (CTC) compiler to compile .ctc configuration files. However, XML-based .vsct files has some advantages, such as an XML editor and XML IntelliSense.  
   
  To learn more about the syntax and semantics of .vsct files, see [Designing XML Command Table (.Vsct) Files](../../extensibility/internals/designing-xml-command-table-dot-vsct-files.md)  

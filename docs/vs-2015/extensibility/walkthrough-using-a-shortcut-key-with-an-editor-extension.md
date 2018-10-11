@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using a Shortcut Key with an Editor Extension | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Walkthrough: Using a Shortcut Key with an Editor Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Using a Shortcut Key with an Editor Extension](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension).  
-  
 You can respond to shortcut keys in your editor extension. The following walkthrough shows how to add a view adornment to a text view by using a shortcut key. This walkthrough is based on the viewport adornment editor template, and it allows you to add the adornment by using the + character.  
   
 ## Prerequisites  

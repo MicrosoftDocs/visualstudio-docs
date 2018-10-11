@@ -1,7 +1,7 @@
 ---
 title: "&lt;description&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "wpickett"
 # &lt;description&gt; Element (ClickOnce Deployment)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;description&gt; Element (ClickOnce Deployment)](https://docs.microsoft.com/visualstudio/deployment/description-element-clickonce-deployment).  
-  
 Identifies application information used to create a shell presence and an **Add or Remove Programs** item in Control Panel.  
   
 ## Syntax  

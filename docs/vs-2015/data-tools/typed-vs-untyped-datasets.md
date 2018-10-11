@@ -1,7 +1,7 @@
 ---
 title: "Typed vs. untyped datasets | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,8 +15,6 @@ manager: "ghogen"
 # Typed vs. untyped datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Typed vs. untyped datasets](https://docs.microsoft.com/visualstudio/data-tools/typed-vs-untyped-datasets).  
-  
   
 A typed dataset is a dataset that is first derived from the base <xref:System.Data.DataSet> class and then uses information from the **Dataset Designer**, which is stored in an .xsd file, to generate a new, strongly typed dataset class. Information from the schema (tables, columns, and so on) is generated and compiled into this new dataset class as a set of first-class objects and properties. Because a typed dataset inherits from the base <xref:System.Data.DataSet> class, the typed class assumes all of the functionality of the <xref:System.Data.DataSet> class and can be used with methods that take an instance of a <xref:System.Data.DataSet> class as a parameter.  
   

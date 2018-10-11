@@ -1,7 +1,7 @@
 ---
 title: "PropertyGroup Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # PropertyGroup Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PropertyGroup Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/propertygroup-element-msbuild).  
-  
   
 Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. Every `Property` element used in an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project must be a child of a `PropertyGroup` element.  
   

@@ -1,7 +1,7 @@
 ---
 title: "VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPackages](https://docs.microsoft.com/visualstudio/extensibility/internals/vspackages).  
-  
 VSPackages are software modules that extend the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.  
   
 ## In This Section  

@@ -1,7 +1,7 @@
 ---
 title: "Displaying Files By Using the Open File Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Displaying Files By Using the Open File Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Displaying Files By Using the Open File Command](https://docs.microsoft.com/visualstudio/extensibility/internals/displaying-files-by-using-the-open-file-command).  
-  
 The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. The steps also describe how projects should respond to calls that originate from this command.  
   
  When a user clicks the **Open File** command on the **File** menu, and selects a file from the **Open File** dialog box, the following process occurs.  

@@ -1,7 +1,7 @@
 ---
 title: "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProviderProgramNode2::UnmarshalDebuggeeInterface](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproviderprogramnode2-unmarshaldebuggeeinterface).  
-  
 Obtains a specified interface across process boundaries.  
   
 ## Syntax  

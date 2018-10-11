@@ -1,7 +1,7 @@
 ---
 title: "Exposing Properties to the Properties Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Exposing Properties to the Properties Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Exposing Properties to the Properties Window](https://docs.microsoft.com/visualstudio/extensibility/exposing-properties-to-the-properties-window).  
-  
 This walkthrough exposes the public properties of an object to the **Properties** window. The changes you make to these properties are reflected in the **Properties** window.  
   
 ## Prerequisites  

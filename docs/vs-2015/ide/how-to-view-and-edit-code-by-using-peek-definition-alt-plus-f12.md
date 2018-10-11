@@ -1,7 +1,7 @@
 ---
 title: "How to: View and Edit Code by Using Peek Definition (Alt+F12) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: View and Edit Code by Using Peek Definition (Alt+F12)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: View and Edit Code by Using Peek Definition (Alt+F12)](https://docs.microsoft.com/visualstudio/ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12).  
-  
 You can use the **Peek Definition** command to view and edit code without switching away from the code that you're writing. **Peek Definition** and **Go To Definition** show the same information, but **Peek Definition** shows it in a pop-up window, and **Go To Definition** shows the code in a separate code window. **Go To Definition** causes your context (that is, the active code window, current line, and cursor position) to switch to the definition code window. By using **Peek Definition**, you  can view and edit the definition and move around inside the definition file while keeping your place in the original code file.  
   
  You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual Basic, **Peek Definition** shows a link to the **Object Browser** for symbols that don’t have definition metadata (for example, .NET Framework types that are built in).  

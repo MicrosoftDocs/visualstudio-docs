@@ -1,7 +1,7 @@
 ---
 title: "CA1700: Do not name enum values &#39;Reserved&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1700: Do not name enum values &#39;Reserved&#39;
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1700: Do not name enum values &#39;Reserved&#39;](https://docs.microsoft.com/visualstudio/code-quality/ca1700-do-not-name-enum-values-reserved).
-
 |||
 |-|-|
 |TypeName|DoNotNameEnumValuesReserved|

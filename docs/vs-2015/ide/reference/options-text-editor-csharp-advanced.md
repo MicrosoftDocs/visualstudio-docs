@@ -1,7 +1,7 @@
 ---
 title: "Options, Text Editor, C#, Advanced | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # Options, Text Editor, C#, Advanced
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, C#, Advanced](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-csharp-advanced).  
-  
   
 Use this dialog box to modify the settings for editor formatting, code refactoring, and XML documentation comments for Visual C#. To access this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, expand **C#**, and then click **Advanced**.  
   

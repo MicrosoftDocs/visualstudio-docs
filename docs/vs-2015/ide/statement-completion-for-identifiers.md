@@ -1,7 +1,7 @@
 ---
 title: "Statement Completion for Identifiers | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Statement Completion for Identifiers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
-  
 JavaScript doesn't allow explicit typing for variable declarations. As a result, IntelliSense can't always provide completion lists for objects. This can occur in various situations. Following are a few common ones.  
   
 -   A parameter is declared, but it has not been called elsewhere in the active document, as shown in the following example.  

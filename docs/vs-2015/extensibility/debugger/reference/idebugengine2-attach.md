@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::Attach | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::Attach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-attach).  
-  
 Attaches a debug engine (DE) to a program or programs. Called by the session debug manager (SDM) when the DE is running in-process to the SDM.  
   
 ## Syntax  

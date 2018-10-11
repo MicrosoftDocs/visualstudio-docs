@@ -1,7 +1,7 @@
 ---
 title: "CA2153: Avoid Handling Corrupted State Exceptions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -16,9 +16,6 @@ manager: "wpickett"
 ---
 # CA2153: Avoid Handling Corrupted State Exceptions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2153: Avoid Handling Corrupted State Exceptions](https://docs.microsoft.com/visualstudio/code-quality/ca2153-avoid-handling-corrupted-state-exceptions).
-
 |||
 |-|-|
 |TypeName|AvoidHandlingCorruptedStateExceptions|

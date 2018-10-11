@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Walkthrough: Using MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Using MSBuild](https://docs.microsoft.com/visualstudio/msbuild/walkthrough-using-msbuild).  
-  
   
 MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You will learn about:  
   

@@ -1,7 +1,7 @@
 ---
 title: "Authoring a Windows Installer Package | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Authoring a Windows Installer Package
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Authoring a Windows Installer Package](https://docs.microsoft.com/visualstudio/extensibility/internals/authoring-a-windows-installer-package).  
-  
 Data drives the Windows Installer model. Rather than writing a procedural script to copy files and write registry entries, for example, you author rows and columns in database tables that contain file and registry data.  
   
 ## Database Entries  

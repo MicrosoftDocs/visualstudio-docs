@@ -1,7 +1,7 @@
 ---
 title: "IDebugBreakpointRequest2::GetLocationType | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugBreakpointRequest2::GetLocationType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointRequest2::GetLocationType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype).  
-  
 Gets the breakpoint location type of this breakpoint request.  
   
 ## Syntax  

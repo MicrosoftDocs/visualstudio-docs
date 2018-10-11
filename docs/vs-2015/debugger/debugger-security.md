@@ -1,7 +1,7 @@
 ---
 title: "Debugger Security | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Debugger Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Security](https://docs.microsoft.com/visualstudio/debugger/debugger-security).  
-  
 The ability to debug another process gives you extremely broad powers that you would not otherwise have, especially when debugging remotely. A malicious debugger could inflict widespread damage on the machine being debugged.  
   
  However, many developers do not realize that the security threat can also flow in the opposite direction. It is possible for malicious code in the debuggee process to jeopardize the security of the debugging machine: there are a number of security exploits that must be guarded against.  

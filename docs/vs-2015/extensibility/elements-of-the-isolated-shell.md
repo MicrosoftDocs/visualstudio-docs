@@ -1,7 +1,7 @@
 ---
 title: "Elements of the Isolated Shell | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Elements of the Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Elements of the Isolated Shell](https://docs.microsoft.com/visualstudio/extensibility/elements-of-the-isolated-shell).  
-  
 You can modify the registry settings, run-time settings, and application entry point of your isolated shell application, and its .vsct, .pkgdef, and.pkgundef files.  
   
 ## Registry Settings  

@@ -1,7 +1,7 @@
 ---
 title: "Modules | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Modules
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modules](https://docs.microsoft.com/visualstudio/extensibility/debugger/modules).  
-  
 In terms of the debugger architecture, a **module**:  
   
 -   Is a physical container of code, such as an executable file or a DLL.  

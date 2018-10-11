@@ -1,7 +1,7 @@
 ---
 title: "Graphics Diagnostics Examples | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Graphics Diagnostics Examples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Diagnostics Examples](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-diagnostics-examples).  
-  
 These examples show how to debug rendering problems in DirectX-based apps by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics.  
   
 ## Capturing graphics information  

@@ -1,7 +1,7 @@
 ---
 title: "GetAssemblyIdentity Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # GetAssemblyIdentity Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GetAssemblyIdentity Task](https://docs.microsoft.com/visualstudio/msbuild/getassemblyidentity-task).  
-  
   
 Retrieves the assembly identities from the specified files and outputs the identity information.  
   

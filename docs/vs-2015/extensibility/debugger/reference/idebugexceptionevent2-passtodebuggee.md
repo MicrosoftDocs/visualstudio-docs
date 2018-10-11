@@ -1,7 +1,7 @@
 ---
 title: "IDebugExceptionEvent2::PassToDebuggee | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugExceptionEvent2::PassToDebuggee
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExceptionEvent2::PassToDebuggee](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexceptionevent2-passtodebuggee).  
-  
 Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "T4 CleanUpBehavior directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # T4 CleanUpBehavior directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 CleanUpBehavior directive](https://docs.microsoft.com/visualstudio/modeling/t4-cleanupbehavior-directive).  
-  
 To delete the appDomain after processing a text template, include the following line:  
   
 ```  

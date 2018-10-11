@@ -1,7 +1,7 @@
 ---
 title: "Counter | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Counter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Counter](https://docs.microsoft.com/visualstudio/profiling/counter).  
-  
 The **Counter** option collects data from processor (hardware) performance counters.  
   
 -   When you are using the sampling profiling method, **Counter** specifies the on-chip performance counter and the number of counter events to use as the sampling interval. You can specify only one counter when you are using sampling.  

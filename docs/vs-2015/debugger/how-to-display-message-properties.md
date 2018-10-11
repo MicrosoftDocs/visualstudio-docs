@@ -1,7 +1,7 @@
 ---
 title: "How to: Display Message Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Display Message Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display Message Properties](https://docs.microsoft.com/visualstudio/debugger/how-to-display-message-properties).  
-  
 To find out more about a message listed in [Messages View](../debugger/messages-view.md), use the [Message Properties Dialog Box](../debugger/message-properties-dialog-box.md).  
   
 ### To open a Message Properties dialog box  

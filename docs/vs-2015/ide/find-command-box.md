@@ -1,7 +1,7 @@
 ---
 title: "Find-Command Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Find/Command Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Find-Command Box](https://docs.microsoft.com/visualstudio/ide/find-command-box).  
-  
 You can search for text and run Visual Studio commands from the **Find/Command** box. The **Find/Command** box is still available as a toolbar control, but is no longer visible by default. You can display the **Find/Command** box by choosing **Add or Remove Buttons** on the **Standard** toolbar and then choosing **Find**.  
   
  To run a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] command, preface it with a greater than (>) sign.  

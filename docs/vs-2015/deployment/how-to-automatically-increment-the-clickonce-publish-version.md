@@ -1,7 +1,7 @@
 ---
 title: "How to: Automatically Increment the ClickOnce Publish Version | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "wpickett"
 # How to: Automatically Increment the ClickOnce Publish Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Automatically Increment the ClickOnce Publish Version](https://docs.microsoft.com/visualstudio/deployment/how-to-automatically-increment-the-clickonce-publish-version).  
-  
 When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, changing the `Publish Version` property causes the application to be published as an update. By default, Visual Studio automatically increments the `Revision` number of the `Publish Version` each time you publish the application.  
   
  You can disable this behavior on the **Publish** page of the **Project Designer**.  

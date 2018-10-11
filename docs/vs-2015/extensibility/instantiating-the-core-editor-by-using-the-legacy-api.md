@@ -1,7 +1,7 @@
 ---
 title: "Instantiating the Core Editor By Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Instantiating the Core Editor By Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Instantiating the Core Editor By Using the Legacy API](https://docs.microsoft.com/visualstudio/extensibility/instantiating-the-core-editor-by-using-the-legacy-api).  
-  
 The editor is responsible for text editing functions such as insertion, deletion, copy, and paste. It combines these functions with those provided by language services, such as text coloring, indentation, and IntelliSense statement completion.  
   
  You can instantiate an instance of the core editor in one of three ways:  

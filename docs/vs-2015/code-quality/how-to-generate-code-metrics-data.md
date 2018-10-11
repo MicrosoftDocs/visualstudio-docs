@@ -1,7 +1,7 @@
 ---
 title: "How to: Generate Code Metrics Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "douge"
 # How to: Generate Code Metrics Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Generate Code Metrics Data](https://docs.microsoft.com/visualstudio/code-quality/how-to-generate-code-metrics-data).  
-  
 You can decide to generate code metrics results for either an entire solution or a selected project.  
   
  **Requirements**  

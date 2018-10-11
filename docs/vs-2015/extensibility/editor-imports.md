@@ -1,7 +1,7 @@
 ---
 title: "Editor Imports | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Editor Imports
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Editor Imports](https://docs.microsoft.com/visualstudio/extensibility/editor-imports).  
-  
 You can import a number of editor services, factories, and brokers that provide your extension with different kinds of access to the core editor. For example, you can import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> to provide you with a <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigator> for a given content type. (This navigator allows you perform different kinds of searches on a text buffer.)  
   
  To use an editor import, you import it as a field or property of a class that exports a Managed Extensibility Framework component part.  

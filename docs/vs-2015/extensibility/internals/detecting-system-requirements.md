@@ -1,7 +1,7 @@
 ---
 title: "Detecting System Requirements | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Detecting System Requirements
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Detecting System Requirements](https://docs.microsoft.com/visualstudio/extensibility/internals/detecting-system-requirements).  
-  
 A VSPackage cannot function unless Visual Studio is installed. When you use Microsoft Windows Installer to manage the installation of your VSPackage, you can configure the installer to detect whether Visual Studio is installed. You can also configure it to check the system for other requirements, for example, a particular version of Windows or a particular amount of RAM.  
   
 ## Detecting Visual Studio Editions  

@@ -1,7 +1,7 @@
 ---
 title: "Add custom controls to the Data Sources window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # Add custom controls to the Data Sources window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add custom controls to the Data Sources window](https://docs.microsoft.com/visualstudio/data-tools/add-custom-controls-to-the-data-sources-window).  
-  
   
 When you drag an item from the **Data Sources** window to a design surface to create a data-bound control, you can select the type of control that you create. Each item in the window has a drop-down list that displays the controls that you can choose from. The set of controls associated with each item is determined by the data type of the item. If the control that you want to create does not appear in the list, you can follow the instructions in this topic to add the control to the list.  
   

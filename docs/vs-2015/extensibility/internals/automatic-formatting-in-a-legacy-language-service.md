@@ -1,7 +1,7 @@
 ---
 title: "Automatic Formatting in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Automatic Formatting in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Automatic Formatting in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/automatic-formatting-in-a-legacy-language-service).  
-  
 With automatic formatting, a language service automatically inserts a snippet of code when a user begins to type a known code construct.  
   
 ## Automatic Formatting Behavior  

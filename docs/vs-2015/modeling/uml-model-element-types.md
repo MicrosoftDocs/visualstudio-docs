@@ -1,7 +1,7 @@
 ---
 title: "UML model element types | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # UML model element types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML model element types](https://docs.microsoft.com/visualstudio/modeling/uml-model-element-types).  
-  
 You can read and manipulate a UML model through a programming interface. This topic summarizes the hierarchy of element types. The hierarchy is the same as that defined in the UML specification.  
   
  The details of each type are provided in [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md).  

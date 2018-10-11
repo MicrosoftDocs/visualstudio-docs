@@ -1,7 +1,7 @@
 ---
 title: "UnInit | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # UnInit
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UnInit](https://docs.microsoft.com/visualstudio/debugger/graphics/uninit).  
-  
 Finalizes the graphics log file, closes it, and frees resources that were used while the app was actively recording graphics information.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Broken References | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Troubleshooting Broken References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshoot broken references](https://docs.microsoft.com/visualstudio/ide/troubleshooting-broken-references).  
-  
 If your application attempts to use a broken reference, an exception error is generated. The inability to find the referenced component is the primary trigger for the error, but there are several situations in which a reference can be considered broken. These instances are shown in the following list:  
   
 -   The project's reference path is incorrect or incomplete.  

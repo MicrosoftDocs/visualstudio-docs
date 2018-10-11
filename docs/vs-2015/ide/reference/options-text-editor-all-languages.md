@@ -1,7 +1,7 @@
 ---
 title: "Options, Text Editor, All Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # Options, Text Editor, All Languages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, All Languages](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-all-languages).  
-  
   
 This dialog box allows you to change the default behavior of the Code Editor. These settings also apply to other editors based upon the Code Editor, such as the HTML Designer's Source view. To open this dialog box, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder and then choose **General**.  
   

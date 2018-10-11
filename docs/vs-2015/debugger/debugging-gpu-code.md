@@ -1,7 +1,7 @@
 ---
 title: "Debugging GPU Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Debugging GPU Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging GPU Code](https://docs.microsoft.com/visualstudio/debugger/debugging-gpu-code).  
-  
 You can debug C++ code that is running on the graphics processing unit (GPU). GPU debugging support in Visual Studio includes race detection, launching processes and attaching to them, and integration into the debugging windows.  
   
 ## Supported Platforms  

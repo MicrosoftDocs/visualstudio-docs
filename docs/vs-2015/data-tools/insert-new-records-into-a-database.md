@@ -1,7 +1,7 @@
 ---
 title: "Insert new records into a database | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Insert new records into a database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Insert new records into a database](https://docs.microsoft.com/visualstudio/data-tools/insert-new-records-into-a-database).  
-  
   
 To insert new records into a database, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method). For more information, see [TableAdapter Overview](../data-tools/tableadapter-overview.md).  
   

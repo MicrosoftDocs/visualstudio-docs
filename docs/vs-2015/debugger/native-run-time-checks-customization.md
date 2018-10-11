@@ -1,7 +1,7 @@
 ---
 title: "Native Run-Time Checks Customization | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,8 +35,6 @@ manager: "ghogen"
 # Native Run-Time Checks Customization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Native Run-Time Checks Customization](https://docs.microsoft.com/visualstudio/debugger/native-run-time-checks-customization).  
-  
 When you compile with **/RTC** (run-time checks) or use the `runtime_checks` pragma, the C run-time library provides native run-time checks. In some cases, you might want to customize run-time checking:  
   
 -   To route run-time check messages to a file or destination other than the default.  

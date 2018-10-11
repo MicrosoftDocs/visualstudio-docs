@@ -1,7 +1,7 @@
 ---
 title: "How to: View Inheritance Between Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: View Inheritance Between Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: View Inheritance Between Types (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-view-inheritance-between-types-class-designer).  
-  
 You can find the inheritance relationship, if it exists, between a base type and its derived types on a class diagram in Class Designer. To create an inheritance relationship, if none exist, between two types, see [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md).  
   
 ### To find the base type  

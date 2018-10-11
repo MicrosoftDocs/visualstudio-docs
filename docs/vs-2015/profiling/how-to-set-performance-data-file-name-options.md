@@ -1,7 +1,7 @@
 ---
 title: "How to: Set Performance Data File Name Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Set Performance Data File Name Options
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set Performance Data File Name Options](https://docs.microsoft.com/visualstudio/profiling/how-to-set-performance-data-file-name-options).  
-  
 By default, you save a profiling data (.vsp) file by using the following syntax:  
   
  *Path\VSP-File\YYMMDD(N)* **.vsp**  

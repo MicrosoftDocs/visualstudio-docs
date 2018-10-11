@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Debugging Samples | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Visual Studio Debugging Samples
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Debugging Samples](https://docs.microsoft.com/visualstudio/extensibility/debugger/visual-studio-debugging-samples).  
-  
 Two samples show how to extend the Visual Studio debugger using [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)].  
   
 -   The Debugger Expression Evaluator Sample, for managed languages, is included in the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)]. In the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] window, click the **Samples** tab, click **All** or **C#** in the list of languages, and then click **Debugger**.  

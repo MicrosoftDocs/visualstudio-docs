@@ -1,7 +1,7 @@
 ---
 title: "Threads View (Parallel Performance) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Threads View (Parallel Performance)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Threads View (Parallel Performance)](https://docs.microsoft.com/visualstudio/profiling/threads-view-parallel-performance).  
-  
 Threads View is the most detailed and feature-rich view in the Concurrency Visualizer. By using this view, you can identify whether the threads are executing or blocking because of synchronization, I/O, or some other reason.  
   
  During profile analysis, the Concurrency Visualizer examines all operating system context-switch events for each application thread. Context switches can occur for many reasons, such as these:  

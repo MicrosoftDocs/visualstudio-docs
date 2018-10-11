@@ -1,7 +1,7 @@
 ---
 title: "IDebugObject2::GetAlias | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugObject2::GetAlias
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject2::GetAlias](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject2-getalias).  
-  
 Gets the alias associated with this object, if any.  
   
 ## Syntax  

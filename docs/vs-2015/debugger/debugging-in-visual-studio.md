@@ -1,7 +1,7 @@
 ---
 title: "Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,9 +26,6 @@ manager: "ghogen"
 ---
 # Debugging in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Debugging in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/debugger-feature-tour).
-
 The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution of your program to examine your code, examine and edit variables, view registers, see the instructions created from your source code, and view the memory space used by your application.  
   
  For a quick introduction to debugging and diagnostics in Visual Studio, see [Debug, Profile, and Diagnose](https://www.visualstudio.com/features/debugging-and-diagnostics-vs).  

@@ -1,7 +1,7 @@
 ---
 title: "Automatic feature suspension | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,9 +19,6 @@ manager: "wpickett"
 ---
 # Automatic feature suspension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Automatic feature suspension](https://docs.microsoft.com/visualstudio/code-quality/automatic-feature-suspension).
-
 If your available system memory falls to 200MB or less, Visual Studio displays the following message in the code editor.
 
  ![Alert text suspending full solution analysis](../code-quality/media/fsa-alert.png "FSA_Alert")

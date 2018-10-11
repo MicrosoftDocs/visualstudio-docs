@@ -1,7 +1,7 @@
 ---
 title: "Graphics Event Call Stack | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Graphics Event Call Stack
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Event Call Stack](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-event-call-stack).  
-  
 The Graphics Event Call Stack in Visual Studio Graphics Analyzer helps you map the relationship between problematic graphics events and your app's source code.  
   
  This is the Event Call Stack window:  

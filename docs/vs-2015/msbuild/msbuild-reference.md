@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # MSBuild Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Reference](https://docs.microsoft.com/visualstudio/msbuild/msbuild-reference).  
-  
   
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] is the build system for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] reference information.  
   

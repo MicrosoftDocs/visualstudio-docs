@@ -1,7 +1,7 @@
 ---
 title: "CA2151: Fields with critical types should be security critical | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,6 @@ manager: "wpickett"
 ---
 # CA2151: Fields with critical types should be security critical
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2151: Fields with critical types should be security critical](https://docs.microsoft.com/visualstudio/code-quality/ca2151-fields-with-critical-types-should-be-security-critical).
-
 |||
 |-|-|
 |TypeName||

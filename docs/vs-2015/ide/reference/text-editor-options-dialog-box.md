@@ -1,7 +1,7 @@
 ---
 title: "Text Editor Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # Text Editor Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Text Editor Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/text-editor-options-dialog-box).  
-  
   
 The editor options in the **Options** dialog box provide ways to customize the appearance and behavior of the editor.  
   

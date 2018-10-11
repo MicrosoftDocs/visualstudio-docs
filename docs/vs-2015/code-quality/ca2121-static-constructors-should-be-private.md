@@ -1,7 +1,7 @@
 ---
 title: "CA2121: Static constructors should be private | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2121: Static constructors should be private
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2121: Static constructors should be private](https://docs.microsoft.com/visualstudio/code-quality/ca2121-static-constructors-should-be-private).
-
 |||
 |-|-|
 |TypeName|StaticConstructorsShouldBePrivate|

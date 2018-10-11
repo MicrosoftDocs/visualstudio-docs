@@ -1,7 +1,7 @@
 ---
 title: "IntelliTrace Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,8 +31,6 @@ manager: "ghogen"
 # IntelliTrace Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IntelliTrace Features](https://docs.microsoft.com/visualstudio/debugger/intellitrace-features).  
-  
 You can use IntelliTrace to record events and method calls your application, which allows you to examine its state (call stack and local variable values) at different points in the execution. Just start debugging as usual - IntelliTrace is turned on by default, and you can see the information IntelliTrace is recording in the new **Diagnostic Tools** window under the **Events** tab. Select an event and click **Activate Historical Debugging** to see the call stack and locals recorded for this event.  
   
  For a step-by-step description, see [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md).  

@@ -1,7 +1,7 @@
 ---
 title: "Properties of Compartment Shapes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Properties of Compartment Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Compartment Shapes](https://docs.microsoft.com/visualstudio/modeling/properties-of-compartment-shapes).  
-  
 Compartment shapes are one of the shapes you can use to display a domain class in a domain-specific language. You can expand and collapse the compartments.  
   
  For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  

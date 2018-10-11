@@ -1,7 +1,7 @@
 ---
 title: "CustomParameters Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # CustomParameters Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CustomParameters Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/customparameters-element-visual-studio-templates).  
-  
 Groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.  
   
 ## Syntax  

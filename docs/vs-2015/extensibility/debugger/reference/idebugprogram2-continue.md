@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgram2::Continue | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::Continue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::Continue](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-continue).  
-  
 Continues running this program from a stopped state. Any previous execution state (such as a step) is preserved, and the program starts executing again.  
   
 > [!NOTE]

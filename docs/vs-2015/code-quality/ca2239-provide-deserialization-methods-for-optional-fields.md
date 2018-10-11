@@ -1,7 +1,7 @@
 ---
 title: "CA2239: Provide deserialization methods for optional fields | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2239: Provide deserialization methods for optional fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2239: Provide deserialization methods for optional fields](https://docs.microsoft.com/visualstudio/code-quality/ca2239-provide-deserialization-methods-for-optional-fields).
-
 |||
 |-|-|
 |TypeName|ProvideDeserializationMethodsForOptionalFields|

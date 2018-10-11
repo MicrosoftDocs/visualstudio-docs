@@ -1,7 +1,7 @@
 ---
 title: "IPropertyProxyEESide | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IPropertyProxyEESide
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyEESide](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyeeside).  
-  
 This interface provides methods to view data on the associated object. This interface is part of the support for type visualizers.  
   
 ## Syntax  

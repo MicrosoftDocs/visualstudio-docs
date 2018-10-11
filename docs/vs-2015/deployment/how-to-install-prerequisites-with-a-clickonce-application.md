@@ -1,7 +1,7 @@
 ---
 title: "How to: Install Prerequisites with a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "wpickett"
 # How to: Install Prerequisites with a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Install Prerequisites with a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application).  
-  
 All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications require that the correct version of the .NET Framework is installed on a computer before they can be run; many applications have other prerequisites as well. When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, you can choose a set of prerequisite components to be packaged along with your application. At installation time, a check will be performed for each prerequisite to determine if it already exists; if not it will be installed prior to installing the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
   
  Instead of packaging and publishing prerequisites, you can also specify a download location for the components. For example, rather than including prerequisites with every application that you publish, you might use a centralized file share or Web location that contains the installers for all of your prerequisites—at install time, the components will be downloaded and installed from that location.  

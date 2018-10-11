@@ -1,7 +1,7 @@
 ---
 title: "Deploying a Custom Directive Processor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Deploying a Custom Directive Processor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploying a Custom Directive Processor](https://docs.microsoft.com/visualstudio/modeling/deploying-a-custom-directive-processor).  
-  
 To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on any computer, you must register it by one of the methods described in this topic.  
   
  The alternative methods are:  

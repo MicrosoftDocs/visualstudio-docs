@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Margin Glyph | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Margin Glyph
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating a Margin Glyph](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-creating-a-margin-glyph).  
-  
 You can customize the appearance of editor margins by using custom editor extensions. This walkthrough puts a custom glyph on the indicator margin whenever the word "todo" appears in a code comment.  
   
 ## Prerequisites  

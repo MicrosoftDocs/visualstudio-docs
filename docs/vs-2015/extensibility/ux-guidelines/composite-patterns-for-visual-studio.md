@@ -1,7 +1,7 @@
 ---
 title: "Composite Patterns for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Composite Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Composite Patterns for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/composite-patterns-for-visual-studio).  
-  
 Composite patterns combine interaction and design elements in distinct configurations. Some of the most important composite patterns in Visual Studio with regard to consistency include:  
   
 -   [Data visualization](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_DataVisualization)  

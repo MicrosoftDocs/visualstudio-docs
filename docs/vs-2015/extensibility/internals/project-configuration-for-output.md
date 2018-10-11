@@ -1,7 +1,7 @@
 ---
 title: "Project Configuration for Output | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Project Configuration for Output
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Configuration for Output](https://docs.microsoft.com/visualstudio/extensibility/internals/project-configuration-for-output).  
-  
 Every configuration can support a set of build processes that produce output items such as executable or resource files. These output items are private to the user and can be placed in groups that link related types of output such as executable files (.exe, .dll, .lib) and source files (.idl, .h files).  
   
  Output items can be made available through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutput2> methods and enumerated with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumOutputs> methods. When you want to group output items, your project should also implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputGroup> interface.  

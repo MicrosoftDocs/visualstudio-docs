@@ -1,7 +1,7 @@
 ---
 title: "Save data back to the database | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "ghogen"
 # Save data back to the database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Save data back to the database](https://docs.microsoft.com/visualstudio/data-tools/save-data-back-to-the-database).  
-  
   
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:  
   

@@ -1,7 +1,7 @@
 ---
 title: "IDebugBeforeSymbolSearchEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugBeforeSymbolSearchEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBeforeSymbolSearchEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbeforesymbolsearchevent2).  
-  
 The debug engine (DE) sends this interface to the session debug manager (SDM) to set the status bar message during symbol loads.  
   
 ## Syntax  

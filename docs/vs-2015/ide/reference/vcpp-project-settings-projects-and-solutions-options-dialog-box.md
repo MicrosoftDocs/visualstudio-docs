@@ -1,7 +1,7 @@
 ---
 title: "VC++ Project Settings, Projects and Solutions, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VC++ Project Settings, Projects and Solutions, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box).  
-  
   
 This dialog box lets you define [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project settings related to build logging and supporting file types.  
   

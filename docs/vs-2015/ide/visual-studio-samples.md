@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Samples | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Visual Studio Samples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Samples](https://docs.microsoft.com/visualstudio/ide/visual-studio-samples).  
-  
 You can find Visual Studio samples on the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkID=127810) website.  
   
  You can use the **New Project** dialog box to browse for samples. (To open the dialog box, on the menu bar, choose **File**, **New**, **Project**.)  

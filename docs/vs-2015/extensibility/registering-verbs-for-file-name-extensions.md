@@ -1,7 +1,7 @@
 ---
 title: "Registering Verbs for File Name Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Registering Verbs for File Name Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering Verbs for File Name Extensions](https://docs.microsoft.com/visualstudio/extensibility/registering-verbs-for-file-name-extensions).  
-  
 The association of a file name extension with an application generally has a preferred action that occurs when a user double-clicks a file. This preferred action is linked to a verb, for example open, that corresponds to the action.  
   
  You can register verbs that are associated with a programmatic identifier (ProgID) for an extension by using the Shell key located at HKEY_CLASSES_ROOT\\*progid*\shell. For more information, see [File Types](http://msdn.microsoft.com/library/windows/desktop/cc144148\(v=vs.85\).aspx).  

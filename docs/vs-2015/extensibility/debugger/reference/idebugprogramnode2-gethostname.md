@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramNode2::GetHostName | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgramNode2::GetHostName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2::GetHostName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2-gethostname).  
-  
 Gets the name of the process hosting the program.  
   
 ## Syntax  

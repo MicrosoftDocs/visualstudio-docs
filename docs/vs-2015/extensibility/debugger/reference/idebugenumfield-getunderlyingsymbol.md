@@ -1,7 +1,7 @@
 ---
 title: "IDebugEnumField::GetUnderlyingSymbol | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEnumField::GetUnderlyingSymbol
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEnumField::GetUnderlyingSymbol](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenumfield-getunderlyingsymbol).  
-  
 This method returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the name of the enumeration.  
   
 ## Syntax  

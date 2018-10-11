@@ -1,7 +1,7 @@
 ---
 title: "Properties of elements on UML activity diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "douge"
 # Properties of elements on UML activity diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of elements on UML activity diagrams](https://docs.microsoft.com/visualstudio/modeling/properties-of-elements-on-uml-activity-diagrams).  
-  
 On a UML activity diagram, each element on the diagram has properties. To see the properties of an element, right-click the element on the diagram or in **UML Model Explorer** and then click **Properties**. The properties appear in the **Properties** window.  
   
 > [!NOTE]

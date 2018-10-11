@@ -1,7 +1,7 @@
 ---
 title: "Hosting Process (vshost.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Hosting Process (vshost.exe)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Hosting Process (vshost.exe)](https://docs.microsoft.com/visualstudio/ide/hosting-process-vshost-exe).  
-  
 The hosting process is a feature in Visual Studio that improves debugging performance, enables partial trust debugging, and enables design time expression evaluation. The hosting process files contain vshost in the file name and are placed in the output folder of your project. For more information, see [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md).  
   
 > [!NOTE]

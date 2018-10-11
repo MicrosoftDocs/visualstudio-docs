@@ -1,7 +1,7 @@
 ---
 title: "Introducing Spy++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Introducing Spy++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Introducing Spy++](https://docs.microsoft.com/visualstudio/debugger/introducing-spy-increment).  
-  
 Spy++ lets you perform the following tasks:  
   
 -   Display a graphical tree of relationships among system objects. These include [processes](../debugger/processes-view.md), [threads](../debugger/threads-view.md), and [windows](../debugger/windows-view.md).  

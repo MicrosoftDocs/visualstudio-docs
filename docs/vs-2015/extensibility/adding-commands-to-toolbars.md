@@ -1,7 +1,7 @@
 ---
 title: "Adding Commands to Toolbars | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Adding Commands to Toolbars
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Commands to Toolbars](https://docs.microsoft.com/visualstudio/extensibility/adding-commands-to-toolbars).  
-  
 A toolbar is a horizontal or vertical strip that contains buttons bound to commands. You can add your own commands to toolbars on many different windows in Visual Studio: the main Visual Studio window, the Solution Explorer, and your own custom tool windows.  
   
  This section shows a number of things you can do with commands on toolbars.  

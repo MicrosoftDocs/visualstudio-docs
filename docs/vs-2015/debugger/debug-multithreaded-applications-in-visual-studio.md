@@ -1,7 +1,7 @@
 ---
 title: "Debug Multithreaded Applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,8 +31,6 @@ manager: "ghogen"
 # Debug Multithreaded Applications in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Multithreaded Applications in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/debug-multithreaded-applications-in-visual-studio).  
-  
 A thread is a sequence of instructions to which the operating system allocates processor time. Every process that is running in the operating system consists of at least one thread. Processes that have more than one thread are called multithreaded.  
   
  Computers with multiple processors, multi-core processors, or hyperthreading processes can run multiple threads at the same time. Parallel processing of multiple threads can greatly improve program performance, but it can also make debugging more difficult because it introduces the need to keep track of multiple threads.  

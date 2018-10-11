@@ -1,7 +1,7 @@
 ---
 title: "CreateCSharpManifestResourceName Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # CreateCSharpManifestResourceName Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CreateCSharpManifestResourceName Task](https://docs.microsoft.com/visualstudio/msbuild/createcsharpmanifestresourcename-task).  
-  
   
 Creates a [!INCLUDE[csprcs](../includes/csprcs-md.md)]-style manifest name from a given .resx file name or other resource.  
   

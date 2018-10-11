@@ -1,7 +1,7 @@
 ---
 title: "Related Services and Interfaces (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Related Services and Interfaces (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Related Services and Interfaces (Source Control VSPackage)](https://docs.microsoft.com/visualstudio/extensibility/internals/related-services-and-interfaces-source-control-vspackage).  
-  
 This section lists all the source control VSPackage-related interfaces in the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)]. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.  
   
 ## Interfaces Implemented by and for Source Control VSPackages  

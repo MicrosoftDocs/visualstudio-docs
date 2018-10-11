@@ -1,7 +1,7 @@
 ---
 title: "The Visual Studio Image Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # The Visual Studio Image Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [The Visual Studio Image Library](https://docs.microsoft.com/visualstudio/designers/the-visual-studio-image-library).  
-  
 The Visual Studio Image Library contains application images that appear in Microsoft Visual Studio, Microsoft Windows, the Office system and other Microsoft software. This set of over 1,000 images can be used to create applications that look visually consistent with Microsoft software.  
   
  [Download the Visual Studio Image Library](http://go.microsoft.com/fwlink/p/?LinkId=275090)  

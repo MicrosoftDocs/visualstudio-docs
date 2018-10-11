@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Improving UI responsiveness (HTML) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Walkthrough: Improving UI responsiveness (HTML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Improving UI responsiveness (HTML)](https://docs.microsoft.com/visualstudio/profiling/walkthrough-improving-ui-responsiveness-html).  
-  
 This walkthrough leads you through the process of identifying and fixing a performance issue by using the [HTML UI responsiveness profiler](../profiling/html-ui-responsiveness.md). The profiler is available in Visual Studio for Windows Universal and Windows Store apps  using JavaScript. In this scenario, you create a performance test app that updates DOM elements too frequently, and you use the profiler to identify and fix this problem.  
   
 ### Creating and running the performance test app  

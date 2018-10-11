@@ -1,7 +1,7 @@
 ---
 title: "CA1016: Mark assemblies with AssemblyVersionAttribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1016: Mark assemblies with AssemblyVersionAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1016: Mark assemblies with AssemblyVersionAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1016-mark-assemblies-with-assemblyversionattribute).
-
 |||
 |-|-|
 |TypeName|MarkAssembliesWithAssemblyVersion|

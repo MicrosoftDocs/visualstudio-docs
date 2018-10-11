@@ -1,7 +1,7 @@
 ---
 title: "Open a UML model by using the Visual Studio API | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Open a UML model by using the Visual Studio API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Open a UML model by using the Visual Studio API](https://docs.microsoft.com/visualstudio/modeling/open-a-uml-model-by-using-the-visual-studio-api).  
-  
 You can also open models and diagrams in the Visual Studio user interface by using the API.  
   
  If you only want to read a model in program code without making it visible to the user, you can use the following methods:  

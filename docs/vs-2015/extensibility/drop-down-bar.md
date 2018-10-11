@@ -1,7 +1,7 @@
 ---
 title: "Drop-down Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Drop-down Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Drop-down Bar](https://docs.microsoft.com/visualstudio/extensibility/drop-down-bar).  
-  
 The drop-down bar is provided at the top of the code window and contains two drop-down lists.  
   
 ## Drop-Down Bar Interfaces  

@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSegments::Clone | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSegments::Clone
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSegments::Clone](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsegments-clone).  
-  
 Creates an enumerator that contains the same enumeration state as the current enumerator.  
   
 ## Syntax  

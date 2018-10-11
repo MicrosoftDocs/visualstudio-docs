@@ -1,7 +1,7 @@
 ---
 title: "CommandName Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # CommandName Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CommandName Element](https://docs.microsoft.com/visualstudio/extensibility/commandname-element).  
-  
 The `CommandName` element specifies the text that appears in the keyboard category in the **Options** dialog box, and in the **Commands** list in the **Customize** dialog box.  
   
 ## Syntax  

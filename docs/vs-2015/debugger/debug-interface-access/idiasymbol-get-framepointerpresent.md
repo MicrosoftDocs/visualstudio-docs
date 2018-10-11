@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_framePointerPresent | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_framePointerPresent
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_framePointerPresent](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-framepointerpresent).  
-  
 Retrieves a flag that specifies whether the frame pointer is present. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.  
   
 ## Syntax  

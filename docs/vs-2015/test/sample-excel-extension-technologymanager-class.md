@@ -1,7 +1,7 @@
 ---
 title: "Sample Excel Extension: TechnologyManager Class | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Sample Excel Extension: TechnologyManager Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Excel Extension: TechnologyManager Class](https://docs.microsoft.com/visualstudio/test/sample-excel-extension-technologymanager-class).  
-  
 This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager> class and is responsible for providing core services for the [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] extension. Although the base class has many methods, only a subset of them is used in this sample.  
   
  Some methods just return a property value. Many of the methods are intended to allow the developer to override default algorithms build into the coded UI test engine. These methods throw a <xref:System.NotSupportedException> or return `null`, which tells the framework to use the default algorithm.  

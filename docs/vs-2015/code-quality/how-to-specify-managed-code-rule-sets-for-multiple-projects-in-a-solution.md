@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "wpickett"
 # How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution](https://docs.microsoft.com/visualstudio/code-quality/how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution).  
-  
 By default, all the managed projects of a solution are assigned the Microsoft Minimum Recommended Rules code analysis *rule set*. You can change the rule sets that are assigned to the projects of a solution in the properties dialog box for the solution.  
   
 > [!NOTE]

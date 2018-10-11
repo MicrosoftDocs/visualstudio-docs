@@ -1,7 +1,7 @@
 ---
 title: "Testing a Large Application with Multiple UI Maps | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Testing a Large Application with Multiple UI Maps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Testing a Large Application with Multiple UI Maps](https://docs.microsoft.com/visualstudio/test/testing-a-large-application-with-multiple-ui-maps).  
-  
 This topic discusses how to use coded UI tests when you are testing a large application by using multiple UI maps.  
   
  **Requirements**  

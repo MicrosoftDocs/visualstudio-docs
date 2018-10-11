@@ -1,7 +1,7 @@
 ---
 title: "Collecting Performance Statistics by Using Sampling | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Collecting Performance Statistics by Using Sampling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Performance Statistics by Using Sampling](https://docs.microsoft.com/visualstudio/profiling/collecting-performance-statistics-by-using-sampling).  
-  
 By default, the [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] Profiling Tools sampling method collects profiling information every 10,000,000 processor cycles (approximately every one-hundredth of a second on a 1 GHz computer). The sampling method is useful for finding processor utilization issues and is the suggested method for starting most performance investigations.  
   
  **Requirements**  

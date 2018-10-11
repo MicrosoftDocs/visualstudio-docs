@@ -1,7 +1,7 @@
 ---
 title: "Customizing the Isolated Shell | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Customizing the Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing the Isolated Shell](https://docs.microsoft.com/visualstudio/extensibility/customizing-the-isolated-shell).  
-  
 You can customize your Visual Studio isolated shell application by changing different aspects of the Visual Studio user interface and by restricting the commands and features included in your specialized application.  
   
 ## Using the Application.pkgdef file  
