@@ -168,9 +168,11 @@ Data breakpoints don't work under the following conditions:
 In the **Breakpoints** window, you can search, sort, filter, enable/disable, or delete breakpoints. You can also set conditions and actions, or add a new function or data breakpoint.
   
 To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoints**, or press **Alt**+**F9** or **Ctrl**+**Alt**+**B**.
-
+  
 ![Breakpoints window](../debugger/media/breakpointswindow.png "Breakpoints window")  
   
+To select the columns to display in the **Breakpoints** window, select **Show Columns**. Select a column header to sort the breakpoints list by that column. 
+
 ###  <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels  
 You can use labels to sort and filter the list of breakpoints in the **Breakpoints** window. 
 
@@ -191,12 +193,17 @@ You can use labels to sort and filter the list of breakpoints in the **Breakpoin
 **To set a breakpoint condition:**
 
 1.  Right-click the breakpoint symbol and select **Conditions**. Or hover over the breakpoint symbol, select the **Settings** icon, and then select **Conditions** in the **Breakpoint Settings** window.  
+
+    You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**. 
   
- ![Breakpoint settings](../debugger/media/breakpointsettings.png "BreakpointSettings")  
+  ![Breakpoint settings](../debugger/media/breakpointsettings.png "BreakpointSettings")  
   
 1. In the dropdown, select **Conditional Expression**, **Hit Count**, or **Filter**, and set the value accordingly. 
   
-1. Select **Close** or press **Ctrl**+**Enter** to close the **Breakpoint Settings** window.
+1. Select **Close** or press **Ctrl**+**Enter** to close the **Breakpoint Settings** window. Or, from the **Breakpoints** window, select **OK** to close the dialog. 
+
+Breakpoints with conditions set appear with a **+** symbol in the source code and **Breakpoints** windows. 
+
 <a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a>
 ### Conditional Expression
 
@@ -242,7 +249,7 @@ When you select **Conditional Expression**, you can choose between two condition
 >Object IDs create weak references, and do not prevent the object from being garbage collected. They are valid only for the current debugging session.  
   
 ### Hit Count  
- If you suspect that a loop in your code starts misbehaving after a certain number of iterations, you can set a breakpoint to stop execution after that number of hits, rather than having to repeatedly press **F5** to reach that number.  
+ If you suspect that a loop in your code starts misbehaving after a certain number of iterations, you can set a breakpoint to stop execution after that number of hits, rather than having to repeatedly press **F5** to reach that iteration.  
   
  Under **Conditions** in the **Breakpoint Settings** window, select **Hit Count**, and then specify the number of iterations. In the following example, the breakpoint is set to hit on every other iteration:  
   
