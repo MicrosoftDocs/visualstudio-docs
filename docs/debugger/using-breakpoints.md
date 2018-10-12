@@ -87,7 +87,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
   
 ### Set a breakpoint in the Disassembly window  
    
-1. To open the **Disassembly** window, you must be paused during debugging. Select **Debug** > **Windows** > **Disassembly**, or press **Ctrl**+**Alt**+**D**.  
+1. To open the **Disassembly** window, you must be paused during debugging. Select **Debug** > **Windows** > **Disassembly**, or press **Alt**+**8**.  
    
 2. In the **Disassembly** window, click in the left margin of the instruction you want to break at. You can also select it and press **F9**, or right-click and select **Breakpoint** > **Insert Breakpoint**. 
 
@@ -97,7 +97,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 
 **To set a function breakpoint:**
   
-1. Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **B**. 
+1. Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **Ctrl**+**B**. 
    
    You can also select **New** > **Function Breakpoint** in the **Breakpoints** window.
    
@@ -129,7 +129,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
     
 2.  Find the address of the instance (for example, `0xcccccccc`).  
     
-3.  Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **B**.  
+3.  Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **Ctrl**+**B**.  
     
 4.  Add the following to the **Function Name** box, and select **C++** language.  
     
@@ -224,7 +224,7 @@ When you select **Conditional Expression**, you can choose between two condition
   
 1. Set a breakpoint in the code some place after the object has been created.  
    
-2. Start debugging, and when execution pauses at the breakpoint, select **Debug** > **Windows** > **Locals** to open the **Locals** window.
+2. Start debugging, and when execution pauses at the breakpoint, select **Debug** > **Windows** > **Locals** or **Alt**+**4** to open the **Locals** window.
    
    Find the breakpoint in the **Locals** window, right-click it, and select **Make Object ID**.  
    
