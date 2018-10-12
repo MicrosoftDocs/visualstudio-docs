@@ -32,54 +32,62 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
    When selected, the **Remove and Sort Usings** option in the right-click menu sorts the 'using' directives and places the System namespaces at the top of the list
 
-Pre Sort
+   Before sorting:
 
-    using AutoMapper;
-    using FluentValidation;
-    using System.Collections.Generic;
-    using System.Linq;
-    using Newtonsoft.Json;
-    using System;
+   ```csharp
+   using AutoMapper;
+   using FluentValidation;
+   using System.Collections.Generic;
+   using System.Linq;
+   using Newtonsoft.Json;
+   using System;
+   ```
+   
+   After sorting:
 
-After Sort
-
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using AutoMapper;
-    using FluentValidation;
-    using Newtonsoft.Json;
-
+   ```csharp
+   using System;
+   using System.Collections.Generic;
+   using System.Linq;
+   using AutoMapper;
+   using FluentValidation;
+   using Newtonsoft.Json;
+   ```
+   
 - Separate using directive groups
 
    Whenever you select **Sort Usings** or **Remove and Sort**, Visual Studio will sort the usings by directive group.
 
-Pre Sort
+   Before sorting:
 
-    using AutoMapper;
-    using FluentValidation;
-    using System.Collections.Generic;
-    using System.Linq;
-    using Newtonsoft.Json;
-    using System;
-
-After Sort
-
-    using AutoMapper;
-    
-    using FluentValidation;
-    
-    using Newtonsoft.Json;
-    
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-
+   ```csharp
+   using AutoMapper;
+   using FluentValidation;
+   using System.Collections.Generic;
+   using System.Linq;
+   using Newtonsoft.Json;
+   using System;
+   ```
+   
+   After sorting:
+   
+   ```csharp
+   using AutoMapper;
+   
+   using FluentValidation;
+   
+   using Newtonsoft.Json;
+   
+   using System;
+   using System.Collections.Generic;
+   using System.Linq;
+   ```
+   
 - Add usings for types in reference assemblies and NuGet packages 
 
-   When selected, the lightbulb will be come available with a code fix to install a NuGet package for an unreferenced type. 
+   When selected, the lightbulb becomes available with a code fix to install a NuGet package for an unreferenced type.
 
-![nuget](/docs/ide/references/media/nuget-lightbulb.png)
+   ![nuget](/docs/ide/references/media/nuget-lightbulb.png)
 
   
 ## Highlighting
