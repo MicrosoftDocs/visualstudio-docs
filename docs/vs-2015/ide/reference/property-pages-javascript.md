@@ -1,7 +1,7 @@
 ---
 title: "Property Pages, JavaScript | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Property Pages, JavaScript
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Property Pages, JavaScript](https://docs.microsoft.com/visualstudio/ide/reference/property-pages-javascript).  
-  
   
 The **Property Pages**provides access to project settings. You can use the pages that appear in the **Property Pages** to change project properties.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio User Experience Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Visual Studio User Experience Guidelines
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio User Experience Guidelines](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines).  
-  
 The Visual Studio User Experience Guidelines are intended for those who design new features for Visual Studio. These guidelines contain information about common user models and interaction patterns so that designers of new user interfaces (UI) can create user experiences that are seamless and consistent within the development environment.  
   
  Developing software for Microsoft products means understanding the guidance provided by Windows. There are three important resources to be aware of:  

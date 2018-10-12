@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio and Xamarin | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "crdun"
 # Visual Studio and Xamarin
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio and Xamarin](https://docs.microsoft.com/visualstudio/cross-platform/visual-studio-and-xamarin).  
-  
   
 Xamarin is a mobile app development platform for building native iOS, Android, and Windows apps from a common C#/.NET code base, achieving 75% to nearly 100% code reuse between platforms. Apps written with Xamarin and C# have full access to underlying platform APIs and the ability to build native user interfaces, and compile to platform-specific packages so there is little impact on runtime performance. (Note: Xamarin also supports F#, but this documentation will focus on C# only. Visual Basic is not supported at this time.)  
   

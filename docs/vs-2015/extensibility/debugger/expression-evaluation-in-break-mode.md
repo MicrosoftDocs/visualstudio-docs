@@ -1,7 +1,7 @@
 ---
 title: "Expression Evaluation in Break Mode | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Expression Evaluation in Break Mode
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Expression Evaluation in Break Mode](https://docs.microsoft.com/visualstudio/extensibility/debugger/expression-evaluation-in-break-mode).  
-  
 The following describes the process that occurs when the debugger is in break mode and must conduct expression evaluation.  
   
 ## Expression Evaluation Process  

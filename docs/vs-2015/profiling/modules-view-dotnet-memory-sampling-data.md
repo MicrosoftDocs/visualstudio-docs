@@ -1,7 +1,7 @@
 ---
 title: "Modules View - .NET Memory Sampling Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Modules View - .NET Memory Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modules View - .NET Memory Sampling Data](https://docs.microsoft.com/visualstudio/profiling/modules-view-dotnet-memory-sampling-data).  
-  
 The Modules view of .NET memory allocation data that is collected by using the sampling method groups the memory data by the modules that were executed in the profiling run. Each module is the root of a hierarchical tree. The functions of the module are listed underneath the module node.  
   
  The source file line numbers of statements that allocate memory are listed underneath the function node, and the addresses of the instructions that do the allocation are listed underneath the line node. Inclusive and exclusive values are always the same for line data and instruction data.  

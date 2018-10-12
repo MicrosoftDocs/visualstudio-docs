@@ -1,7 +1,7 @@
 ---
 title: "How to: Page Up or Down in Memory | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # How to: Page Up or Down in Memory
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Page Up or Down in Memory](https://docs.microsoft.com/visualstudio/debugger/how-to-page-up-or-down-in-memory).  
-  
 When you view memory contents in a **Memory** window or the **Disassembly** window, you can use the vertical scrollbar to move up or down in the memory space.  
   
 ### To page up or down in memory  

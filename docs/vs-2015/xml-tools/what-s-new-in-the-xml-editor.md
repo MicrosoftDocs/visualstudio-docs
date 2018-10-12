@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in the XML Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # What&#39;s New in the XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [What&#39;s New in the XML Editor](https://docs.microsoft.com/visualstudio/xml-tools/what-s-new-in-the-xml-editor).  
-  
   
 The following features are new in Visual Studio 2010.  
   

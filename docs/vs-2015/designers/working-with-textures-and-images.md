@@ -1,7 +1,7 @@
 ---
 title: "Working with Textures and Images | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Working with Textures and Images
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with Textures and Images](https://docs.microsoft.com/visualstudio/designers/working-with-textures-and-images).  
-  
 You can use the Image Editor in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.  
   
 > [!NOTE]

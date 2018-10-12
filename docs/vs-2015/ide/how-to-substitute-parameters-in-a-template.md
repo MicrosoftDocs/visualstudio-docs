@@ -1,7 +1,7 @@
 ---
 title: "How to: Substitute Parameters in a Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Substitute Parameters in a Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Substitute Parameters in a Template](https://docs.microsoft.com/visualstudio/ide/how-to-substitute-parameters-in-a-template).  
-  
 You may replace template parameters such as class names and namespaces when a file based on a template is created. For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  
   
 ## Procedure  

@@ -1,7 +1,7 @@
 ---
 title: "Solutions Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Solutions Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Solutions Overview](https://docs.microsoft.com/visualstudio/extensibility/internals/solutions-overview).  
-  
 A solution is a grouping of one or more projects that work together to create an application. The project and status information pertaining to the solution are stored in two different solution files. The solution (.sln) file is text-based and can be placed under source code control and shared between users. The solution user option (.suo) file is binary. As a result, the .suo file cannot be placed under source code control and contains user-specific information.  
   
  Any VSPackage can write to either type of solution file. Because of the nature of the files, there are two different interfaces implemented to write to them. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps> interface writes text information to the .sln file and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts> interface writes binary streams to the .suo file.  

@@ -1,7 +1,7 @@
 ---
 title: "IDebugSettingsCallback2::GetEEMetricGuid | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEEMetricGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2::GetEEMetricGuid](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2-geteemetricguid).  
-  
 Retrieves the unique identifier for a expression evaluator metric given its name.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "Upgrading Custom Project and Item Templates for Visual Studio “15” | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,6 @@ manager: "ghogen"
 # Upgrading Custom Project and Item Templates for Visual Studio “15”
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Upgrading Custom Project and Item Templates for Visual Studio ](https://docs.microsoft.com/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017).  
-  
 Starting in Visual Studio "15" Preview 4, Visual Studio is changing the way it discovers project and item templates that have been installed by a .vsix or an .msi. If you own extensions that use custom project or item templates, you need to update your extensions. This topic explains what you must do.  
   
  This change affects only Visual Studio "15". It does not affect previous versions of Visual Studio.  

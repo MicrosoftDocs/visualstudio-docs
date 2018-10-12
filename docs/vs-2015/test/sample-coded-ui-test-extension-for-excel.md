@@ -1,7 +1,7 @@
 ---
 title: "Sample Coded UI Test Extension for Excel | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Sample Coded UI Test Extension for Excel
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Coded UI Test Extension for Excel](https://docs.microsoft.com/visualstudio/test/sample-coded-ui-test-extension-for-excel).  
-  
 The extension component of the sample runs in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Coded UI Test process and is somewhat hierarchical with the `ExtensionPackage` class at the base. The `TechnologyManager`, `ActionFilter`, and `PropertyProvider` classes are at the next level, with the control elements at the top level.  
   
  ![Excel Test Extension Architecture](../test/media/excel-extarch.png "Excel_ExtArch")  

@@ -1,7 +1,7 @@
 ---
 title: "ArrayType | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # ArrayType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ArrayType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/arraytype).  
-  
 An array is identified by a `SymTagArray` symbol.  
   
 ## Properties  

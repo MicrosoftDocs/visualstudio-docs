@@ -1,7 +1,7 @@
 ---
 title: "Model Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Model Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Model Editor](https://docs.microsoft.com/visualstudio/designers/model-editor).  
-  
 This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Editor to view, create, and modify 3-D models.  
   
  You can use the Model Editor to create basic 3-D models from scratch, or to view and modify more-complex 3-D models that were created by using full-featured 3-D modeling tools. The Model Editor supports several 3-D model formats that are used in DirectX app development.  

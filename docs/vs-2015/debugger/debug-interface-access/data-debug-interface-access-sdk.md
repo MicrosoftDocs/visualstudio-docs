@@ -1,7 +1,7 @@
 ---
 title: "Data (Debug Interface Access SDK) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Data (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Data (Debug Interface Access SDK)](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/data-debug-interface-access-sdk).  
-  
 All variables, such as parameters, local variables, global variables, and class members, are identified by `SymTagData` symbols. Constant values (`LocIsConstant`) are also identified with this type.  
   
 ## Properties  

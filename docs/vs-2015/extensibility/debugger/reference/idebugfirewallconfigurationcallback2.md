@@ -1,7 +1,7 @@
 ---
 title: "IDebugFirewallConfigurationCallback2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugFirewallConfigurationCallback2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugFirewallConfigurationCallback2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfirewallconfigurationcallback2).  
-  
 Enables a debug engine that uses DCOM to ask the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] UI to make sure that the firewall will not block remote debugging.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in Profiling Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # What&#39;s New in Profiling Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [What's New in Profiling](https://docs.microsoft.com/visualstudio/profiling/what-s-new-in-profiling-tools).  
-  
 For information about everything that’s new in Visual Studio 2015 Update 1 debugging and diagnostics, see [Visual Studio 2015 Update 1 Release Notes](https://www.visualstudio.com/news/vs2015-update1-vs#debug).  
   
  For information about everything that’s new in Visual Studio 2015 debugging and diagnostics, see [Visual Studio 2015 Release Notes](https://www.visualstudio.com/news/vs2015-vs#Debug).  

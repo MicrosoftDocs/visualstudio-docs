@@ -1,7 +1,7 @@
 ---
 title: "CrossSession | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # CrossSession
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CrossSession](https://docs.microsoft.com/visualstudio/profiling/crosssession).  
-  
 The VSPerfCmd.exe **CrossSession** option enables the profiler to collect data from any console session. The **CrossSession** option must be used with the **Start** option.  
   
  You can use the abbreviation **CS** in place of **CrossSession**.  

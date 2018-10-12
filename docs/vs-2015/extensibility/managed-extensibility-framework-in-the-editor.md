@@ -1,7 +1,7 @@
 ---
 title: "Managed Extensibility Framework in the Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Managed Extensibility Framework in the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managed Extensibility Framework in the Editor](https://docs.microsoft.com/visualstudio/extensibility/managed-extensibility-framework-in-the-editor).  
-  
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.  
   
 ## Overview of the Managed Extensibility Framework  

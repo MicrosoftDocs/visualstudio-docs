@@ -1,7 +1,7 @@
 ---
 title: "Source Server Security Alert | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Source Server Security Alert
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Server Security Alert](https://docs.microsoft.com/visualstudio/debugger/source-server-security-alert).  
-  
 When using Source Server, only use symbol files that are from a known and trusted location.  
   
  This warning appears when you enable Source Server support. Source Server commands are embedded in debug symbol files (PDB files). Make sure you know where your PDB files come from.  

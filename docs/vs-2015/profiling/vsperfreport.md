@@ -1,7 +1,7 @@
 ---
 title: "VSPerfReport | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # VSPerfReport
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPerfReport](https://docs.microsoft.com/visualstudio/profiling/vsperfreport).  
-  
 VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools profiling data files. The default report format is a .csv file.  
   
  VSPerfReport uses the following syntax:  

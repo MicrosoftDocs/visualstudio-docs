@@ -1,7 +1,7 @@
 ---
 title: "CreatePkgDef Utility | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # CreatePkgDef Utility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CreatePkgDef Utility](https://docs.microsoft.com/visualstudio/extensibility/internals/createpkgdef-utility).  
-  
 Takes a .dll file for a Visual Studio extension as a parameter and creates a .pkgdef file to accompany the .dll. The .pkgdef file contains all the information that would otherwise be written to the system registry when the extension is installed.  
   
 > [!NOTE]

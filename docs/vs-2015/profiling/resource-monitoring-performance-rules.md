@@ -1,7 +1,7 @@
 ---
 title: "Resource Monitoring Performance Rules | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Resource Monitoring Performance Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resource Monitoring Performance Rules](https://docs.microsoft.com/visualstudio/profiling/resource-monitoring-performance-rules).  
-  
 Performance messages in the Resource Monitoring category provide additional data about the performance of your application. You can use this data to analyze performance issues. These rules are informational and reported for every profiling run.  
   
 |||  

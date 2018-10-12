@@ -1,7 +1,7 @@
 ---
 title: "Security Considerations when Working with XML Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Security Considerations when Working with XML Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security Considerations when Working with XML Data](https://docs.microsoft.com/visualstudio/xml-tools/security-considerations-when-working-with-xml-data).  
-  
   
 This topic discusses security issues that you need to know about when working with the XML Editor or the XSLT debugger.  
   

@@ -1,7 +1,7 @@
 ---
 title: "How to: Change Fonts | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Change Fonts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Change Fonts](https://docs.microsoft.com/visualstudio/debugger/how-to-change-fonts).  
-  
 You can change the font, font style, and font size for Spy++ windows.  
   
 ### To change font options  

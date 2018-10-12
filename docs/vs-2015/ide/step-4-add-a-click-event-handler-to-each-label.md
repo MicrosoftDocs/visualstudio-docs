@@ -1,7 +1,7 @@
 ---
 title: "Step 4: Add a Click Event Handler to Each Label | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Step 4: Add a Click Event Handler to Each Label
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 4: Add a Click Event Handler to Each Label](https://docs.microsoft.com/visualstudio/ide/step-4-add-a-click-event-handler-to-each-label).  
-  
 The matching game works as follows:  
   
 1.  When a player chooses one of the squares with a hidden icon, the program shows the icon to the player by changing the icon color to black.  

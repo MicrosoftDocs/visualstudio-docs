@@ -1,7 +1,7 @@
 ---
 title: "IDebugCoreServer3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugCoreServer3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer3](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver3).  
-  
 This interface gives access to information about the server the process is running in.  
   
 ## Syntax  

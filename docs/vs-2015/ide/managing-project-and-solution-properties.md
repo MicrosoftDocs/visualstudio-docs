@@ -1,7 +1,7 @@
 ---
 title: "Managing Project and Solution Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Managing Project and Solution Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing Project and Solution Properties](https://docs.microsoft.com/visualstudio/ide/managing-project-and-solution-properties).  
-  
 Projects have properties that govern many aspects of compilation, debugging, testing and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms. You access project properties by right-clicking the project node in Solution Explorer and choosing Properties, or by typing properties into the **QuickLaunch** search box in the menu bar.  
   
  ![Project context menu](../ide/media/vs2015-proj-prop-menu.gif "vs2015_proj_prop_menu")  

@@ -1,7 +1,7 @@
 ---
 title: "Full-Text Search Tips | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Full-Text Search Tips
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Full-Text Search Tips](https://docs.microsoft.com/visualstudio/ide/full-text-search-tips).  
-  
 One of the more useful methods of locating information in Help is by performing a full-text search. To refine and customize your results, you must understand how syntax affects your query. This topic provides tips, procedures, and detailed syntax information to help you better craft your queries.  
   
 ## Full-Text Search Tips  

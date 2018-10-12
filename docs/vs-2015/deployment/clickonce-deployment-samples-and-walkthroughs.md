@@ -1,7 +1,7 @@
 ---
 title: "ClickOnce Deployment Samples and Walkthroughs | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "wpickett"
 # ClickOnce Deployment Samples and Walkthroughs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ClickOnce Deployment Samples and Walkthroughs](https://docs.microsoft.com/visualstudio/deployment/clickonce-deployment-samples-and-walkthroughs).  
-  
 This section contains sample applications, example code, and step-by-step walkthroughs that illustrate the syntax, structure, and techniques used to deploy Windows Forms, WPF, and console applications.  
   
  The sample code is intended for instructional purposes, and should not be used in deployed solutions without modifications. In particular, security must be taken into greater consideration.  

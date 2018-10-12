@@ -1,7 +1,7 @@
 ---
 title: "CA1710: Identifiers should have correct suffix | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1710: Identifiers should have correct suffix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1710: Identifiers should have correct suffix](https://docs.microsoft.com/visualstudio/code-quality/ca1710-identifiers-should-have-correct-suffix).
-
 |||
 |-|-|
 |TypeName|IdentifiersShouldHaveCorrectSuffix|

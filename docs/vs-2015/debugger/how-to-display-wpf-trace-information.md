@@ -1,7 +1,7 @@
 ---
 title: "How to: Display WPF Trace Information | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # How to: Display WPF Trace Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display WPF Trace Information](https://docs.microsoft.com/visualstudio/debugger/how-to-display-wpf-trace-information).  
-  
 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] can receive debug trace information from WPF applications and display that information in the **Output** window. To display debug trace information, WPF tracing must be enabled.  
   
  You can enable WPF tracing in your App.Config file or programmatically by using the <xref:System.Diagnostics.PresentationTraceSources> class. An easier way to enable WPF tracing is by using the **Options** window. WPF tracing for web applications is not supported.  

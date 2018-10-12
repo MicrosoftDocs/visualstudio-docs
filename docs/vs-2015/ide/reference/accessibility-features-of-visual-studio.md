@@ -1,7 +1,7 @@
 ---
 title: "Accessibility Features of Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Accessibility Features of Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessibility Features of Visual Studio](https://docs.microsoft.com/visualstudio/ide/reference/accessibility-features-of-visual-studio).  
-  
   
 In addition to accessibility features and utilities in Windows, the following features make Visual Studio 2013 more accessible for people with disabilities:  
   

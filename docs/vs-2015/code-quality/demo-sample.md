@@ -1,7 +1,7 @@
 ---
 title: "Demo Sample | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Demo Sample
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Demo Sample](https://docs.microsoft.com/visualstudio/code-quality/demo-sample).  
-  
 This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:  
   
 -   A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution named CppDemo.  

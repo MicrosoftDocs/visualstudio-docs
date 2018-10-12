@@ -1,7 +1,7 @@
 ---
 title: "Command-Line Profiling Tools Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Command-Line Profiling Tools Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command-Line Profiling Tools Reference](https://docs.microsoft.com/visualstudio/profiling/command-line-profiling-tools-reference).  
-  
 Command-line performance tools allow programmers to profile their applications at the command prompt. The following command-line profiling tools allow you to profile code at the command prompt.  
   
 ## In This Section  

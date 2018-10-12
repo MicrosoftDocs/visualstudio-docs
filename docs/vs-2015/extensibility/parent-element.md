@@ -1,7 +1,7 @@
 ---
 title: "Parent Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Parent Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Parent Element](https://docs.microsoft.com/visualstudio/extensibility/parent-element).  
-  
 The parent of a button or combo box may only be a group. The parent of a menu or group may be any other menu or group. In a [CommandPlacement Element](../extensibility/commandplacement-element.md), this element is required; in all other instances it is optional. If this element is omitted, the parent of `Group_Undefined:0` will be implied.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Customize Menus and Toolbars in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,8 +37,6 @@ manager: "ghogen"
 # How to: Customize Menus and Toolbars in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Customize Menus and Toolbars in Visual Studio](https://docs.microsoft.com/visualstudio/ide/how-to-customize-menus-and-toolbars-in-visual-studio).  
-  
 You can customize Visual Studio not only by adding and removing toolbars and menus on the menu bar but also by adding and removing commands on any given toolbar or menu.  
   
 > [!WARNING]

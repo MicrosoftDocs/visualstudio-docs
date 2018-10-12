@@ -1,7 +1,7 @@
 ---
 title: "UsedCommands Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # UsedCommands Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UsedCommands Element](https://docs.microsoft.com/visualstudio/extensibility/usedcommands-element).  
-  
 The UsedCommands element groups UsedCommand elements and other UsedCommands groupings.  
   
  The UsedCommands element is optional. If you do not call commands defined outside your package, you do not have to include this section in your .vsct file.  

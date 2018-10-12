@@ -1,7 +1,7 @@
 ---
 title: "Performance Report View Filter | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Performance Report View Filter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Report View Filter](https://docs.microsoft.com/visualstudio/profiling/performance-report-view-filter).  
-  
 The Profiler Report View Filter window is located at the top of the Performance Report window. If you cannot see it, click the **Show Filter** button.  
   
  You can modify each filter clause to refine your results. The following columns are available in the filter builder.  

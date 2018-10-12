@@ -1,7 +1,7 @@
 ---
 title: "Upgrading Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Upgrading Projects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Upgrading Projects](https://docs.microsoft.com/visualstudio/extensibility/internals/upgrading-projects).  
-  
 Changes to the project model from one version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to the next may require that projects and solutions be upgraded so that they can run on the newer version. The [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] provides interfaces that can be used to implement upgrade support in your own projects.  
   
 ## Upgrade Strategies  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Debugger Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # How to: Specify Debugger Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Debugger Settings](https://docs.microsoft.com/visualstudio/debugger/how-to-specify-debugger-settings).  
-  
 In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify debugger settings in the **Options** dialog box.  
   
 ### To set debugger options  

@@ -1,7 +1,7 @@
 ---
 title: "Edit and Continue Error Message Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Edit and Continue Error Message Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit and Continue Error Message Dialog Box](https://docs.microsoft.com/visualstudio/debugger/edit-and-continue-error-message-dialog-box).  
-  
 This dialog box appears when you are debugging in a language that supports Edit and Continue, but **Edit and Continue** is not available for the type of code changes you have made. The error message inside the box provides a more detailed explanation. Possible reasons for seeing this dialog box include:  
   
 -   You tried to edit managed code when unmanaged debugging was enabled. Edit and Continue does not work with mixed-mode debugging.  

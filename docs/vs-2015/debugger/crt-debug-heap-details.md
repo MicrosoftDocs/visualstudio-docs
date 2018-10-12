@@ -1,7 +1,7 @@
 ---
 title: "CRT Debug Heap Details | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -84,8 +84,6 @@ manager: "ghogen"
 # CRT Debug Heap Details
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CRT Debug Heap Details](https://docs.microsoft.com/visualstudio/debugger/crt-debug-heap-details).  
-  
 This topic provides a detailed look at the CRT debug heap.  
   
 ##  <a name="BKMK_Contents"></a> Contents  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify the Binary to Start | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: Specify the Binary to Start
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify the Binary to Start](https://docs.microsoft.com/visualstudio/profiling/how-to-specify-the-binary-to-start).  
-  
 To profile binaries, such as DLLs, you must enter information in the **\<Target> Property Pages** dialog box. This information indicates where the DLL project can find the calling application.  
   
  **Requirements**  

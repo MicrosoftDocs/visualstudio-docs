@@ -1,7 +1,7 @@
 ---
 title: "DA0007: Avoid using exceptions for control flow | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # DA0007: Avoid using exceptions for control flow
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0007: Avoid using exceptions for control flow](https://docs.microsoft.com/visualstudio/profiling/da0007-avoid-using-exceptions-for-control-flow).  
-  
 Rule Id|DA0007|  
 |Category|.NET Framework Usage|  
 |Profiling methods|All|  

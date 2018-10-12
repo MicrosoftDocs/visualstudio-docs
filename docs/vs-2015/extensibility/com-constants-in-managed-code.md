@@ -1,7 +1,7 @@
 ---
 title: "COM Constants in Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # COM Constants in Managed Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [COM Constants in Managed Code](https://docs.microsoft.com/visualstudio/extensibility/com-constants-in-managed-code).  
-  
 The Managed Package Framework (MPF) makes some standard COM constants available to managed code. These constants are listed below for your reference.  
   
 ## Boolean HRESULT Values  

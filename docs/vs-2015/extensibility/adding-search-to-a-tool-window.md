@@ -1,7 +1,7 @@
 ---
 title: "Adding Search to a Tool Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Adding Search to a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Search to a Tool Window](https://docs.microsoft.com/visualstudio/extensibility/adding-search-to-a-tool-window).  
-  
 When you create or update a tool window in your extension, you can add the same search functionality that appears elsewhere in Visual Studio. This functionality includes the following features:  
   
 -   A search box that’s always located in a custom area of the toolbar.  

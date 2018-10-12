@@ -1,7 +1,7 @@
 ---
 title: "Debugging ASP.NET and AJAX Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Debugging ASP.NET and AJAX Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging ASP.NET and AJAX Applications](https://docs.microsoft.com/visualstudio/debugger/debugging-aspnet-and-ajax-applications).  
-  
 Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is similar to debugging a Windows Form or any other Windows application because both kinds of applications involve controls and events. However, there are also basic differences between the two kinds of applications:  
   
 -   Keeping track of state is more complex in a Web application.  

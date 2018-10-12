@@ -1,7 +1,7 @@
 ---
 title: "Where Can I Look Up Win32 Error Codes? | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # Where Can I Look Up Win32 Error Codes?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Where Can I Look Up Win32 Error Codes?](https://docs.microsoft.com/visualstudio/debugger/where-can-i-look-up-win32-error-codes-q).  
-  
 WINERROR.H in the INCLUDE directory of your default system installation contains the error code definitions for the Win32 API functions.  
   
  You can look up an error code by typing the code in the **Watch** window or the **QuickWatch** dialog box. For example:  

@@ -1,7 +1,7 @@
 ---
 title: "Graphics Pixel History | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Graphics Pixel History
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Pixel History](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-pixel-history).  
-  
 The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you understand how a specific pixel is affected by the Direct3D events that occur during a frame of your game or app.  
   
  This is the Pixel History window:  

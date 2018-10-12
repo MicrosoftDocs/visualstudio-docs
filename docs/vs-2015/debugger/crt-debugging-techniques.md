@@ -1,7 +1,7 @@
 ---
 title: "CRT Debugging Techniques | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # CRT Debugging Techniques
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CRT Debugging Techniques](https://docs.microsoft.com/visualstudio/debugger/crt-debugging-techniques).  
-  
 If you are debugging a program that uses the C run-time library, these debugging techniques might be useful.  
   
 ## In This Section  

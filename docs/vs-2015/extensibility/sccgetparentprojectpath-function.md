@@ -1,7 +1,7 @@
 ---
 title: "SccGetParentProjectPath Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccGetParentProjectPath Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccGetParentProjectPath Function](https://docs.microsoft.com/visualstudio/extensibility/sccgetparentprojectpath-function).  
-  
 This function determines the parent project path of a specified project. This function is called when the user is adding a Visual Studio project to source control.  
   
 ## Syntax  

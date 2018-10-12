@@ -1,7 +1,7 @@
 ---
 title: "Searching the Schema Set | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Searching the Schema Set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Searching the Schema Set](https://docs.microsoft.com/visualstudio/xml-tools/searching-the-schema-set).  
-  
   
 The XML Schema Explorer enables you to search the schema set in the following ways:  
   

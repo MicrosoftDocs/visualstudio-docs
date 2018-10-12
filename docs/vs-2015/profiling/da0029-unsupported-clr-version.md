@@ -1,7 +1,7 @@
 ---
 title: "DA0029: Unsupported CLR Version | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # DA0029: Unsupported CLR Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0029: Unsupported CLR Version](https://docs.microsoft.com/visualstudio/profiling/da0029-unsupported-clr-version).  
-  
 Rule Id|DA0029|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Profiling from the command line|  

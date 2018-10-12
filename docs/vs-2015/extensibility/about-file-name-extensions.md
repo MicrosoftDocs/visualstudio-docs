@@ -1,7 +1,7 @@
 ---
 title: "About File Name Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # About File Name Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [About File Name Extensions](https://docs.microsoft.com/visualstudio/extensibility/about-file-name-extensions).  
-  
 When you register a file extension of a VSPackage, you associate it with a version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. This is important if more than one version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed on a computer.  
   
  File extensions for VSPackages are registered under HKEY_CLASSES_ROOT key with a default value that points to the associated programmatic identifier (ProgID).  

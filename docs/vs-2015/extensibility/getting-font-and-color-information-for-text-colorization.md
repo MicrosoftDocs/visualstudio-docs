@@ -1,7 +1,7 @@
 ---
 title: "Getting Font and Color Information for Text Colorization | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Getting Font and Color Information for Text Colorization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Font and Color Information for Text Colorization](https://docs.microsoft.com/visualstudio/extensibility/getting-font-and-color-information-for-text-colorization).  
-  
 The process that renders or displays colorized text in user interface (UI) elements depends on the type of project, its technology, and developer preferences. The **Fonts and Colors** property page stores the settings.  
   
  Most implementations that display colorized text need the `T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults` and associated interfaces for presenting, retrieving, and storing text display settings.  

@@ -1,7 +1,7 @@
 ---
 title: "ProvideDefaultName Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # ProvideDefaultName Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ProvideDefaultName Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/providedefaultname-element-visual-studio-templates).  
-  
 Specifies whether the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project system will generate a default name for the template in the **Add New Item** or **New Project** dialog box.  
   
  \<VSTemplate>  

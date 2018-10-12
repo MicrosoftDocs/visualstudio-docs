@@ -1,7 +1,7 @@
 ---
 title: "CA1303: Do not pass literals as localized parameters | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,9 +24,6 @@ manager: "wpickett"
 ---
 # CA1303: Do not pass literals as localized parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1303: Do not pass literals as localized parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1303-do-not-pass-literals-as-localized-parameters).
-
 |||
 |-|-|
 |TypeName|DoNotPassLiteralsAsLocalizedParameters|

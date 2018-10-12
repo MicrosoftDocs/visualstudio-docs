@@ -1,7 +1,7 @@
 ---
 title: "Configure the Windows Firewall for Remote Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Configure the Windows Firewall for Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Configure the Windows Firewall for Remote Debugging](https://docs.microsoft.com/visualstudio/debugger/configure-the-windows-firewall-for-remote-debugging).  
-  
 This topic describes how to configure the firewall to enable remote debugging on computers that run the following operating systems:  
   
 -   Windows 7  

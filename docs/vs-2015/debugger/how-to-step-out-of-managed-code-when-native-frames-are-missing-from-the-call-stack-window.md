@@ -1,7 +1,7 @@
 ---
 title: "How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,8 +34,6 @@ manager: "ghogen"
 # How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window](https://docs.microsoft.com/visualstudio/debugger/how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window).  
-  
 If your code has native frames that are invisible in the **Call Stack** window, stepping out of managed code can produce unexpected results. As a workaround, you can use a breakpoint instead of **Step Out**.  
   
 > [!NOTE]

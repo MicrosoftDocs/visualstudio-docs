@@ -1,7 +1,7 @@
 ---
 title: "&lt;signature&gt; (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # &lt;signature&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
-  
 Groups a set of related elements for a function or method to provide documentation for overloaded functions.  
   
 ## Syntax  

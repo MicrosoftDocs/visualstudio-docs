@@ -1,7 +1,7 @@
 ---
 title: "Verify your Xamarin environment | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,6 @@ manager: "crdun"
 # Verify your Xamarin environment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Verify your Xamarin environment](https://docs.microsoft.com/visualstudio/cross-platform/verify-your-xamarin-environment).  
-  
   
 Once the installers have completed (see [Setup and install](../cross-platform/setup-and-install.md)), spend a few minutes to verify that everything is ready to experience Xamarin development.  
   

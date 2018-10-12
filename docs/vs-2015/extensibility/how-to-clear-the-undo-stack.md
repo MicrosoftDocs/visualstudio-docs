@@ -1,7 +1,7 @@
 ---
 title: "How to: Clear the Undo Stack | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Clear the Undo Stack
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Clear the Undo Stack](https://docs.microsoft.com/visualstudio/extensibility/how-to-clear-the-undo-stack).  
-  
 The following procedure below explains how to clear the undo stack.  
   
 ### To clear the undo stack  

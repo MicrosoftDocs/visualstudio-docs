@@ -1,7 +1,7 @@
 ---
 title: "How to Unlock Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to Unlock Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to unlock Visual Studio](https://docs.microsoft.com/visualstudio/ide/how-to-unlock-visual-studio).  
-  
 You can evaluate Visual Studio for free up to 30 days. When you sign into the IDE you can extend the trial period by 90 days. To continue using Visual Studio you can unlock the IDE by  
   
 1.  using an online subscription.  

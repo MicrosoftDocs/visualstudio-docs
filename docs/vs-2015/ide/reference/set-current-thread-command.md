@@ -1,7 +1,7 @@
 ---
 title: "Set Current Thread Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Set Current Thread Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set Current Thread Command](https://docs.microsoft.com/visualstudio/ide/reference/set-current-thread-command).  
-  
   
 Sets the specified thread as the current thread.  
   

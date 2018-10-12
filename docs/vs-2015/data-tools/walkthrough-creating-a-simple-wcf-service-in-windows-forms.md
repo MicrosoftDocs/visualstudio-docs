@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a simple WCF Service in Windows Forms | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Walkthrough: Creating a simple WCF Service in Windows Forms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating a simple WCF Service in Windows Forms](https://docs.microsoft.com/visualstudio/data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms).  
-  
   
 This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] service, test it, and then access it from a Windows Forms application.  
   

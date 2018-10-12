@@ -1,7 +1,7 @@
 ---
 title: "Debugging Errors and Warning Dialog Boxes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,8 +31,6 @@ manager: "ghogen"
 # Debugging Errors and Warning Dialog Boxes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Errors and Warning Dialog Boxes](https://docs.microsoft.com/visualstudio/debugger/debugging-errors-and-warning-dialog-boxes).  
-  
 Below are the errors and warning dialog boxes you may encounter while debugging your application.  
   
 ## In This Section  

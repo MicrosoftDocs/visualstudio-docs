@@ -1,7 +1,7 @@
 ---
 title: "Command Handling | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Command Handling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Handling](https://docs.microsoft.com/visualstudio/extensibility/command-handling).  
-  
 Your editor can define new commands. Commands are typically displayed in a menu, on a tool bar, or in a context menu.  
   
  For more information about defining commands and menus, see [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md).  

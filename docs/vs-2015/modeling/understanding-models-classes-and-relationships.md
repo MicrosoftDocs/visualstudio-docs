@@ -1,7 +1,7 @@
 ---
 title: "Understanding Models, Classes and Relationships | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Understanding Models, Classes and Relationships
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Understanding Models, Classes and Relationships](https://docs.microsoft.com/visualstudio/modeling/understanding-models-classes-and-relationships).  
-  
 A domain-specific language (DSL) is defined by its DSL Definition file, together with any custom program code that you might write. Most of the program code in the DSL solution is generated from this file.  
   
  This topic explains the central features of the DSL definition.  

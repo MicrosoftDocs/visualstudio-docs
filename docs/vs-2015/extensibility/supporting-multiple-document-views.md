@@ -1,7 +1,7 @@
 ---
 title: "Supporting Multiple Document Views | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Supporting Multiple Document Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Supporting Multiple Document Views](https://docs.microsoft.com/visualstudio/extensibility/supporting-multiple-document-views).  
-  
 You can provide more than one view of a document by creating separate document data and document view objects for your editor. Some cases in which an additional document view would be useful are:  
   
 -   New window support: You want your editor to provide two or more views of the same type, so that a user who already has a window open in the editor can open a new window by selecting the **New Window** command from the **Window** menu.  

@@ -1,7 +1,7 @@
 ---
 title: "Command Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Command Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Window](https://docs.microsoft.com/visualstudio/ide/reference/command-window).  
-  
   
 The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.  
   

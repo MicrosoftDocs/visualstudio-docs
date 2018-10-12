@@ -1,7 +1,7 @@
 ---
 title: "Network Usage | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Network Usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze Network Usage in UWP Apps in Visual Studio](https://docs.microsoft.com/visualstudio/profiling/network-usage).  
-  
 The Visual Studio **Network** diagnostics tool collects data about network operations performed using the [Windows.Web.Http API](https://msdn.microsoft.com/library/windows/apps/windows.web.http.aspx). Analyzing the data can help you resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance.  
   
  The Network tool supports only Windows Universal Platform apps. Other platforms are not supported at this time.  

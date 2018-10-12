@@ -1,7 +1,7 @@
 ---
 title: "Providing a Language Service Context by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Providing a Language Service Context by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Providing a Language Service Context by Using the Legacy API](https://docs.microsoft.com/visualstudio/extensibility/providing-a-language-service-context-by-using-the-legacy-api).  
-  
 There are two options for a language service to provide user context using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor: provide text marker context, or provide all user context. The differences between each are outlined here.  
   
  For more information on providing context to a language service that is connected to your own editor, see [How to: Provide Context for Editors](../extensibility/how-to-provide-context-for-editors.md).  

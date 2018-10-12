@@ -1,7 +1,7 @@
 ---
 title: "Sample Excel Communicator Interface | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Sample Excel Communicator Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Excel Communicator Interface](https://docs.microsoft.com/visualstudio/test/sample-excel-communicator-interface).  
-  
 The sample `IExcelUICommunication` interface is used in the `ExcelUICommunicator` object in the `ExcelAddIn` project.  
   
 ## IExcelUICommunication Interface  

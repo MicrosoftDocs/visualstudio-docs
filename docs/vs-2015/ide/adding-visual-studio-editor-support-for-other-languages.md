@@ -1,7 +1,7 @@
 ---
 title: "Adding Visual Studio editor support for other languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Adding Visual Studio editor support for other languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Visual Studio editor support for other languages](https://docs.microsoft.com/visualstudio/ide/adding-visual-studio-editor-support-for-other-languages).  
-  
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.  
   
 ## Syntax colorization, statement completion, and Navigate To support  

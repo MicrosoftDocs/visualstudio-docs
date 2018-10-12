@@ -1,7 +1,7 @@
 ---
 title: "Debugger Project Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # Debugger Project Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Project Settings](https://docs.microsoft.com/visualstudio/debugger/debugger-project-settings).  
-  
 Certain project settings also affect debugging. These settings determine such things as what directories the debugger looks at, the command and command arguments used to launch the program, and the type of debug information created for the program. You can change these settings in the **Property Pages** dialog box.  
   
  This section describes what options are available, and how to set them.  

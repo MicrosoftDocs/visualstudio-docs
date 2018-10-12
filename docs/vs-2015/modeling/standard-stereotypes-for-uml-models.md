@@ -1,7 +1,7 @@
 ---
 title: "Standard stereotypes for UML models | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Standard stereotypes for UML models
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Standard stereotypes for UML models](https://docs.microsoft.com/visualstudio/modeling/standard-stereotypes-for-uml-models).  
-  
 You can add stereotypes to UML model elements to provide additional information for the reader, or for machine processing. Stereotypes are defined in profiles and each profile provides set of stereotypes. Several profiles are provided with Visual Studio. You can also define your own profiles that can contain your own stereotypes. For more information, see [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md).  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  

@@ -1,7 +1,7 @@
 ---
 title: "Integration of XML Literals with XML Schema Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Integration of XML Literals with XML Schema Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Integration of XML Literals with XML Schema Explorer](https://docs.microsoft.com/visualstudio/xml-tools/integration-of-xml-literals-with-xml-schema-explorer).  
-  
   
 Visual Basic supports XML literals, which means that you can incorporate XML fragments directly into your Visual Basic code. For more information, see [XML Literals Overview](http://go.microsoft.com/fwlink/?LinkId=140325).  
   

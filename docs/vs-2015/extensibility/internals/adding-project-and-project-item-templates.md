@@ -1,7 +1,7 @@
 ---
 title: "Adding Project and Project Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Adding Project and Project Item Templates
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Project and Project Item Templates](https://docs.microsoft.com/visualstudio/extensibility/internals/adding-project-and-project-item-templates).  
-  
 When you create your own project types, you must provide support for adding new projects and project items by using the standard [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) dialog boxes. The following topics discuss different techniques for adding projects and project items.  
   
 ## In This Section  

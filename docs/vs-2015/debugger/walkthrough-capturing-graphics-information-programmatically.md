@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Capturing Graphics Information Programmatically | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: Capturing Graphics Information Programmatically
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Capturing Graphics Information Programmatically](https://docs.microsoft.com/visualstudio/debugger/graphics/walkthrough-capturing-graphics-information-programmatically).  
-  
 You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.  
   
  Programmatic capture is useful in scenarios such as:  

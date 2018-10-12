@@ -1,7 +1,7 @@
 ---
 title: "Define a gesture handler on a modeling diagram | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Define a gesture handler on a modeling diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define a gesture handler on a modeling diagram](https://docs.microsoft.com/visualstudio/modeling/define-a-gesture-handler-on-a-modeling-diagram).  
-  
 In Visual Studio, you can define commands that are performed when the user double-clicks or drags items onto a UML diagram. You can package these extensions into a Visual Studio Integration Extension ([VSIX](http://go.microsoft.com/fwlink/?LinkId=160780)) and distribute it to other Visual Studio users.  
   
  If there is already a built-in behavior for the type of diagram and the type of element that you want to drag, you might not be able to add to or override this behavior.  

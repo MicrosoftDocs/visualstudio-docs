@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Multi-Targeting Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Visual Studio Multi-Targeting Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Multi-Targeting Overview](https://docs.microsoft.com/visualstudio/ide/visual-studio-multi-targeting-overview).  
-  
 In this version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify the version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] that is required for your application. Therefore, if you want to use this version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to continue to develop a project that you started in an earlier version, you do not have to change the framework target. You could also create a solution that contains projects that target different versions of the framework. Framework targeting also helps guarantee that the application uses only functionality that is available in the specified version of the framework.  
   
 > [!TIP]

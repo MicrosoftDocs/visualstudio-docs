@@ -1,7 +1,7 @@
 ---
 title: "Expression Evaluation Context | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Expression Evaluation Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Expression Evaluation Context](https://docs.microsoft.com/visualstudio/extensibility/debugger/expression-evaluation-context).  
-  
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, an **expression evaluation context**:  
   
 -   Represents a context for expression evaluation. Generally, an evaluation context corresponds to the lexical scope within which to evaluate variables, parameters, functions, and methods. For example, an expression evaluation context associated with a stack frame will provide the context for evaluating local variables, method parameters, and class members (if applicable).  

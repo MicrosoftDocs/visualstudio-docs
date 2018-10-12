@@ -1,7 +1,7 @@
 ---
 title: "UNMANAGED_ADDRESS_THIS_RELATIVE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # UNMANAGED_ADDRESS_THIS_RELATIVE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UNMANAGED_ADDRESS_THIS_RELATIVE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/unmanaged-address-this-relative).  
-  
 This structure represents an address that is relative to a `this` pointer (`Me` in Visual Basic).  
   
 ## Syntax  

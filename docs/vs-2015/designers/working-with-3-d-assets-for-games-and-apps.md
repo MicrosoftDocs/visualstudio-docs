@@ -1,7 +1,7 @@
 ---
 title: "Working with 3-D Assets for Games and Apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Working with 3-D Assets for Games and Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with 3-D Assets for Games and Apps](https://docs.microsoft.com/visualstudio/designers/working-with-3-d-assets-for-games-and-apps).  
-  
 This document describes the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] tools that you can use to create or modify 3-D models, textures, and shaders for DirectX-based games and apps.  
   
 ## DirectX app development in Visual Studio  

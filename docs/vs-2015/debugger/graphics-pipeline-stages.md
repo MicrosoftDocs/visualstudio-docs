@@ -1,7 +1,7 @@
 ---
 title: "Graphics Pipeline Stages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Graphics Pipeline Stages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Pipeline Stages](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-pipeline-stages).  
-  
 The Graphics Pipeline Stages window helps you understand how an individual draw call is transformed by each stage of the Direct3D graphics pipeline.  
   
  This is the Pipeline Stages window:  

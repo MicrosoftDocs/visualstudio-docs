@@ -1,7 +1,7 @@
 ---
 title: "Launching the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Launching the Debugger
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Launching the Debugger](https://docs.microsoft.com/visualstudio/extensibility/debugger/launching-the-debugger).  
-  
 Launching the debugger requires sending the correct sequence of methods and events with their proper attributes.  
   
 ## Sequences of Methods and Events  

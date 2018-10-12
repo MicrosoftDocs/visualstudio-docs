@@ -1,7 +1,7 @@
 ---
 title: "Managing Side-by-Side File Associations | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Managing Side-by-Side File Associations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing Side-by-Side File Associations](https://docs.microsoft.com/visualstudio/extensibility/managing-side-by-side-file-associations).  
-  
 If your VSPackage provides file associations, you must decide how to handle side-by-side installations in which a particular version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] should be invoked to open a file. Incompatible file formats compound the issue.  
   
  Users expect a new version of a product to be compatible with earlier versions, so that existing files can be loaded in a new version without losing data. Ideally, your VSPackage can both load and save the file formats of earlier versions. If that is not true, you should offer to upgrade the file format to the new version of your VSPackage. The downside to this approach is that the upgraded file cannot be opened in the earlier version.  

@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Task Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # MSBuild Task Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Task Reference](https://docs.microsoft.com/visualstudio/msbuild/msbuild-task-reference).  
-  
   
 Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. When [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects. For more information, see [Visual C++ Tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).  
   

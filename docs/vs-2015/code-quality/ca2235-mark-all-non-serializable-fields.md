@@ -1,7 +1,7 @@
 ---
 title: "CA2235: Mark all non-serializable fields | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA2235: Mark all non-serializable fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2235: Mark all non-serializable fields](https://docs.microsoft.com/visualstudio/code-quality/ca2235-mark-all-non-serializable-fields).
-
 |||
 |-|-|
 |TypeName|MarkAllNonSerializableFields|

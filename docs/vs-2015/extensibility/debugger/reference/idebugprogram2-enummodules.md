@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgram2::EnumModules | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgram2::EnumModules
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::EnumModules](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-enummodules).  
-  
 Retrieves a list of the modules that this program has loaded and is executing.  
   
 ## Syntax  

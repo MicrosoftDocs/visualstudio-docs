@@ -1,7 +1,7 @@
 ---
 title: "Resources for Designing Accessible Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Resources for Designing Accessible Applications
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resources for Designing Accessible Applications](https://docs.microsoft.com/visualstudio/ide/reference/resources-for-designing-accessible-applications).  
-  
   
 Use the following links to find information about technologies that support accessible design as well as tips and examples for developing accessible Windows applications and Web sites. General information on accessibility can be found online at [http://www.microsoft.com/enable/](http://www.microsoft.com/enable/).  
   

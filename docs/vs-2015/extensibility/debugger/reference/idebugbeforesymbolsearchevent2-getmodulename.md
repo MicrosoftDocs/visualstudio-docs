@@ -1,7 +1,7 @@
 ---
 title: "IDebugBeforeSymbolSearchEvent2::GetModuleName | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugBeforeSymbolSearchEvent2::GetModuleName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBeforeSymbolSearchEvent2::GetModuleName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbeforesymbolsearchevent2-getmodulename).  
-  
 Retrieves the name of the module currently being debugged.  
   
 ## Syntax  

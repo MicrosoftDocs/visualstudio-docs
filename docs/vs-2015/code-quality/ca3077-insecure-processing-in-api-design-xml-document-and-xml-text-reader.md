@@ -1,7 +1,7 @@
 ---
 title: "CA3077: Insecure Processing in API Design, XML Document and XML Text Reader | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -16,9 +16,6 @@ manager: "wpickett"
 ---
 # CA3077: Insecure Processing in API Design, XML Document and XML Text Reader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA3077: Insecure Processing in API Design, XML Document and XML Text Reader](https://docs.microsoft.com/visualstudio/code-quality/ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader).
-
 |||
 |-|-|
 |TypeName|InsecureDTDProcessingInAPIDesign|

@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::CauseBreak | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugEngine2::CauseBreak
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::CauseBreak](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-causebreak).  
-  
 Requests that all programs being debugged by this debug engine (DE) to stop execution the next time one of their threads attempts to run.  
   
 ## Syntax  

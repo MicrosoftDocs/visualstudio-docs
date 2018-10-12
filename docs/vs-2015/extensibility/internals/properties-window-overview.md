@@ -1,7 +1,7 @@
 ---
 title: "Properties Window Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Properties Window Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties Window Overview](https://docs.microsoft.com/visualstudio/extensibility/internals/properties-window-overview).  
-  
 The **Properties** window is used to display properties for objects selected in the two main types of windows available in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). These two types of windows are:  
   
 -   Tool windows such as Solution Explorer, Class View, and Object browser  

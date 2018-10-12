@@ -1,7 +1,7 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,8 +31,6 @@ manager: "ghogen"
 # General, Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [General, Debugging, Options Dialog Box](https://docs.microsoft.com/visualstudio/debugger/general-debugging-options-dialog-box).  
-  
 The**Tools / Options / Debugging / General** page lets you set the following options:  
   
  **Ask before deleting all breakpoints**  

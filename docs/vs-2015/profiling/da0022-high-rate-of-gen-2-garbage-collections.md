@@ -1,7 +1,7 @@
 ---
 title: "DA0022: High rate of Gen 2 garbage collections | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # DA0022: High rate of Gen 2 garbage collections
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0022: High rate of Gen 2 garbage collections](https://docs.microsoft.com/visualstudio/profiling/da0022-high-rate-of-gen-2-garbage-collections).  
-  
 Rule Id|DA0022|  
 |Category|.NET Framework Usage|  
 |Profiling method|All|  

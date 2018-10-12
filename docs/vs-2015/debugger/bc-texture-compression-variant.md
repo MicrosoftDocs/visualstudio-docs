@@ -1,7 +1,7 @@
 ---
 title: "BC Texture Compression Variant | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # BC Texture Compression Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BC Texture Compression Variant](https://docs.microsoft.com/visualstudio/debugger/graphics/bc-texture-compression-variant).  
-  
 Enables block compression on textures that have a pixel format that's a variation of B8G8R8X8, B8G8R8A8, or R8G8B8A8.  
   
 ## Interpretation  

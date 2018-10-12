@@ -1,7 +1,7 @@
 ---
 title: "Specifying VSPackage File Location to the VS Shell | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Specifying VSPackage File Location to the VS Shell
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Specifying VSPackage File Location to the VS Shell](https://docs.microsoft.com/visualstudio/extensibility/internals/specifying-vspackage-file-location-to-the-vs-shell).  
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] must be able to locate the assembly DLL to load the VSPackage. You can locate it in various ways, as described in the following table.  
   
 |Method|Description|  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Flag and Unflag Threads | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # How to: Flag and Unflag Threads
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Flag and Unflag Threads](https://docs.microsoft.com/visualstudio/debugger/how-to-flag-and-unflag-threads).  
-  
 You can flag a thread that you want to give special attention by marking it with an icon in the **Threads**, **Parallel Stacks**, **Parallel Watch**, and **GPU Threads** windows. This icon can help you and others distinguish flagged threads from other threads.  
   
  Flagged threads also receive special treatment in the **Thread** list on the **Debug Location** toolbar. This list can show all threads or only flagged threads. When you flag a thread, the **Thread** list automatically switches to show only flagged threads, but you can switch it back to show all threads as appropriate.  

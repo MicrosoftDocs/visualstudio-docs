@@ -1,7 +1,7 @@
 ---
 title: "TargetCLR | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # TargetCLR
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TargetCLR](https://docs.microsoft.com/visualstudio/profiling/targetclr).  
-  
 The **TargetCLR** option specifies the version of the common language run-time (CLR) to profile when more than one version of the CLR is loaded in an application.  
   
  By default, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools target the first version of the CLR that is loaded by the application.  

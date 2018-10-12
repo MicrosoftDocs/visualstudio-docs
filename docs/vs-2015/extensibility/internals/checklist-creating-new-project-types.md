@@ -1,7 +1,7 @@
 ---
 title: "Checklist: Creating New Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Checklist: Creating New Project Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Checklist: Creating New Project Types](https://docs.microsoft.com/visualstudio/extensibility/internals/checklist-creating-new-project-types).  
-  
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks.  
   
 1.  Design the functionality for your new project type. For more information, see [Project Type Design Decisions](../../extensibility/internals/project-type-design-decisions.md).  

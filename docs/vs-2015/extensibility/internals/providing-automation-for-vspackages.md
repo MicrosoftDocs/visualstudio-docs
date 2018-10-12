@@ -1,7 +1,7 @@
 ---
 title: "Providing Automation for VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Providing Automation for VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Providing Automation for VSPackages](https://docs.microsoft.com/visualstudio/extensibility/internals/providing-automation-for-vspackages).  
-  
 There are two main ways to provide automation for your VSPackages: by implementing VSPackage-specific objects and by implementing standard automation objects. Generally, these are used together to extend the automation model of the environment.  
   
 ## VSPackage-Specific Objects  

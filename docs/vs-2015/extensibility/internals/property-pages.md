@@ -1,7 +1,7 @@
 ---
 title: "Property Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Property Pages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Property Pages](https://docs.microsoft.com/visualstudio/extensibility/internals/property-pages).  
-  
 Users can view and change project configuration-dependent and -independent properties using property pages. A **Property Pages** button is enabled in the **Properties** window or on Solution Explorer toolbar for objects that provide a property page view of the selected object. Property pages are created by the environment and are available for solutions and projects. They can, however, also be made available for project items that make use of configuration-dependent properties. This capability might be used when files within a project require different compiler switch settings to build properly.  
   
 ## Using Property Pages  

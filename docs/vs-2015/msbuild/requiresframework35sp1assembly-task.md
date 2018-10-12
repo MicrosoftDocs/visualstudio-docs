@@ -1,7 +1,7 @@
 ---
 title: "RequiresFramework35SP1Assembly Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # RequiresFramework35SP1Assembly Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RequiresFramework35SP1Assembly Task](https://docs.microsoft.com/visualstudio/msbuild/requiresframework35sp1assembly-task).  
-  
   
 Determines whether the application requires the .NET Framework 3.5 SP1.  
   

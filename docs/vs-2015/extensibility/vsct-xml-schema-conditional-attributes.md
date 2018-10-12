@@ -1,7 +1,7 @@
 ---
 title: "VSCT XML Schema Conditional Attributes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # VSCT XML Schema Conditional Attributes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSCT XML Schema Conditional Attributes](https://docs.microsoft.com/visualstudio/extensibility/vsct-xml-schema-conditional-attributes).  
-  
 Conditional attributes may be applied to all lists and items. Logical operators and symbol expansion expressions evaluate to true or false. If true, the associated list or item is included in the resulting output.  
   
  Token expansions can be tested against other token expansions or constants. The function Defined() is used to test whether a particular name has been defined, even if it has no value.  

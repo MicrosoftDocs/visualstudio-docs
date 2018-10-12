@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findChildrenEx | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::findChildrenEx
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::findChildrenEx](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-findchildrenex).  
-  
 Retrieves the children of the symbol. The local symbols that are returned include live range information, if the program is compiled with optimization on.  
   
 ## Syntax  
