@@ -38,16 +38,16 @@ ms.workload:
   - "multiple"
 ---
 # Use breakpoints in the Visual Studio debugger
-Breakpoints are one of the most important debugging techniques in your toolbox. You set breakpoints where you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at the breakpoint.  
+Breakpoints are one of the most important debugging techniques in your toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  
   
 ##  <a name="BKMK_Overview"></a> Set line breakpoints in source code  
- You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or the method signature.  
+ You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or on the method signature.  
 
- To set a line breakpoint in source code, select a line and then click in the left margin. You can also press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.  
+ To set a line breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.  
   
  ![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")  
   
- When you debug the code, execution pauses at the breakpoint, before the code on that line is executed. The breakpoint symbol shows a yellow arrow. 
+ When you debug, execution pauses at the breakpoint, before the code on that line is executed. The breakpoint symbol shows a yellow arrow. 
 
  At the breakpoint in the following example, the value of `testInt` is still 1.  
   
@@ -55,19 +55,19 @@ Breakpoints are one of the most important debugging techniques in your toolbox. 
   
  When the debugger stops at the breakpoint, you can look at the current state of the app, including variable values and the call stack. For more information about the call stack, see [How to: Use the Call Stack window](../debugger/how-to-use-the-call-stack-window.md).  
 
-- The breakpoint is a toggle. You can click it to delete it, then click again in the same spot to reinsert it, press **F9** to delete or reinsert it, or use **Debug** > **Toggle Breakpoint**.
+- The breakpoint is a toggle. You can click it, press **F9**, or use **Debug** > **Toggle Breakpoint** to delete or reinsert it.
   
-- To disable a breakpoint without deleting it, hover over it, or right-click, and select **Disable breakpoint**. Disabled breakpoints appear as empty circles in the left margin. To re-enable a breakpoint, hover over it, or right-click, and select **Enable breakpoint**. 
+- To disable a breakpoint without deleting it, hover over or right-click it, and select **Disable breakpoint**. Disabled breakpoints appear as empty dots in the left margin. To re-enable a breakpoint, hover over or right-click it, and select **Enable breakpoint**. 
   
-- You can set conditions and actions, add and edit labels, or export a breakpoint by right-clicking it and selecting the appropriate command, or hovering over it and selecting the **Settings** icon.
+- Set conditions and actions, add and edit labels, or export a breakpoint by right-clicking it and selecting the appropriate command, or hovering over it and selecting the **Settings** icon.
 
-##  <a name="BKMK_Set_a_breakpoint_in_a_function"></a> Set breakpoints in debugger windows 
+##  <a name="BKMK_Set_a_breakpoint_in_a_function"></a> Set breakpoints from debugger windows 
 
 You can also set breakpoints from the **Call Stack** and **Disassembly** debugger windows.  
   
 ### <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> Set a breakpoint in the Call Stack window  
 
- Set a breakpoint in the **Call Stack** window to break at the instruction or line that a calling function returns to. For more information about the call stack, see [How to: Use the Call Stack window](../debugger/how-to-use-the-call-stack-window.md). 
+ To break at the instruction or line that a calling function returns to, you can set a breakpoint in the **Call Stack** window. 
   
 **To set a breakpoint in the Call Stack window:**
 
@@ -77,17 +77,19 @@ You can also set breakpoints from the **Call Stack** and **Disassembly** debugge
    
    A breakpoint symbol appears next to the function call name in the left margin of the call stack.
    
-The call stack breakpoint appears in the **Breakpoints** window as an address with a memory location that corresponds to the next executable instruction in the function. 
+The call stack breakpoint appears in the **Breakpoints** window as an address, with a memory location that corresponds to the next executable instruction in the function. 
 
 The debugger breaks at the instruction.  
 
-To visually trace breakpoints during code execution, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).  
+For more information about the call stack, see [How to: Use the Call Stack window](../debugger/how-to-use-the-call-stack-window.md). 
+
+To visually trace breakpoints during code execution, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md). 
   
 ### Set a breakpoint in the Disassembly window  
    
 1. To open the **Disassembly** window, you must be paused during debugging. Select **Debug** > **Windows** > **Disassembly**, or press **Ctrl**+**Alt**+**D**.  
    
-2. In the **Disassembly** window, click in the left margin of the instruction you want to break at, select it and press **F9**, or right-click and select **Breakpoint** > **Insert Breakpoint**. 
+2. In the **Disassembly** window, click in the left margin of the instruction you want to break at. You can also select it and press **F9**, or right-click and select **Breakpoint** > **Insert Breakpoint**. 
 
 ##  <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Set function breakpoints  
 
@@ -105,10 +107,10 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
    
    - Use the fully qualified function name. 
      Example:  `Namespace1.ClassX.MethodA()`
-   
+     
    - Add the parameter types of an overloaded function. 
      Example:  `MethodA(int, string)`
-   
+     
    - Use the '!' symbol to specify the module.
      Example: `App1.dll!MethodA`
    
@@ -120,13 +122,16 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
    
 1. Select **OK**.
   
-### Set a breakpoint with a memory address (native C++ only)  
+### Set a function breakpoint using a memory address (native C++ only)  
  You can use the address of an object to set a function breakpoint on a method called by a specific instance of a class.  For example, given an addressable object of type `my_class`, you can set a function breakpoint on the `my_method` method that instance calls. 
   
 1.  Set a breakpoint somewhere after the instance of the class is instantiated.  
+    
 2.  Find the address of the instance (for example, `0xcccccccc`).  
+    
 3.  Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **B**.  
-4.  Add the following text to the **Function Name** box:  
+    
+4.  Add the following to the **Function Name** box, and select **C++** language.  
     
     ```C++  
     ((my_class *) 0xcccccccc)->my_method  
@@ -138,7 +143,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
   
 **To set a data breakpoint:**
 
-1.  Start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint** 
+1.  In a C++ project, start debugging, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint** > **Data Breakpoint** 
 
     You can also select **New** > **Data Breakpoint** in the **Breakpoints** window.
   
@@ -146,25 +151,25 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
   
 3.  In the **Byte Count** dropdown, select the number of bytes you want the debugger to watch. For example, if you select **4**, the debugger will watch the four bytes starting at `&avar` and break if any of those bytes change value.  
 
->[!NOTE]
->Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.  
->
->If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.  
-
-Data breakpoints don't work under these conditions:  
+Data breakpoints don't work under the following conditions:  
 -   A process that is not being debugged writes to the memory location.  
 -   The memory location is shared between two or more processes.  
 -   The memory location is updated within the kernel. For example, if memory is passed to the 32-bit Windows `ReadFile` function, the memory will be updated from kernel mode, so the debugger won't break on the update.  
 
+>[!NOTE]
+>- Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.  
+>  
+>- If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.  
+
 ##  <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window 
 
- You can use the **Breakpoints** window (**Debug** > **Windows** > **Breakpoints**, or **Ctrl**+**Alt**+**B**) to see and manage all the breakpoints in your solution. This centralized location is especially helpful in a large solution or for complex debugging scenarios where breakpoints are critical. 
+ You can use the **Breakpoints** window to see and manage all the breakpoints in your solution. This centralized location is especially helpful in a large solution, or for complex debugging scenarios where breakpoints are critical. 
 
 In the **Breakpoints** window, you can search, sort, filter, enable/disable, or delete breakpoints. You can also set conditions and actions, or add a new function or data breakpoint.
   
-To open the **Breakpoints** window, select **Debug > **Windows** > **Breakpoints** or press **Alt**+**F9**.
+To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoints**, or press **Alt**+**F9** or **Ctrl**+**Alt**+**B**.
 
-![Breakpoints window](../debugger/media/breakpointswindow.png "BreakpointsWindow")  
+![Breakpoints window](../debugger/media/breakpointswindow.png "Breakpoints window")  
   
 ###  <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels  
 You can use labels to sort and filter the list of breakpoints in the **Breakpoints** window. 
@@ -175,11 +180,10 @@ You can use labels to sort and filter the list of breakpoints in the **Breakpoin
 ### Export and import breakpoints  
  To save or share the state and location of your breakpoints, you can export or import them. 
 
-- To export a single breakpoint to an XML file, right-click the breakpoint in the source code or **Breakpoints** window, and select **Export** or **Export selected**. Select an export location, and then select **Save**.  
-- To export several breakpoints, select the boxes next to the breakpoints in the **Breakpoints** window, or enter search criteria in the **Search** field. Select the **Export all breakpoints matching the current search criteria** icon, and save the file. 
-- To export all breakpoints, deselect all boxes and leave the **Search** field blank, select the **Export all breakpoints matching the current search criteria** icon, and save the file.  
-- To import breakpoints, in the **Breakpoints** window toolbar, select the **Import breakpoints from a file** icon, navigate to the XML file location, and select **Open**. 
-  
+- To export a single breakpoint to an XML file, right-click the breakpoint in the source code or **Breakpoints** window, and select **Export** or **Export selected**. Select an export location, and then select **Save**. The default location is the solution folder. 
+- To export several breakpoints, in the **Breakpoints** window, select the boxes next to the breakpoints, or enter search criteria in the **Search** field. Select the **Export all breakpoints matching the current search criteria** icon, and save the file. 
+- To export all breakpoints, deselect all boxes and leave the **Search** field blank. Select the **Export all breakpoints matching the current search criteria** icon, and save the file.  
+- To import breakpoints, in the **Breakpoints** window, select the **Import breakpoints from a file** icon, navigate to the XML file location, and select **Open**. 
 
 ##  Breakpoint conditions  
  You can control when and where a breakpoint executes by setting conditions. The condition can be any valid expression that the debugger recognizes. For more information about valid expressions, see [Expressions in the debugger](../debugger/expressions-in-the-debugger.md).  
@@ -190,11 +194,11 @@ You can use labels to sort and filter the list of breakpoints in the **Breakpoin
   
  ![Breakpoint settings](../debugger/media/breakpointsettings.png "BreakpointSettings")  
   
-1. In the dropdown, select **Conditional Expression**, **Hit Count**, or **Filter**, and set the conditions accordingly. 
+1. In the dropdown, select **Conditional Expression**, **Hit Count**, or **Filter**, and set the value accordingly. 
   
 1. Select **Close** or press **Ctrl**+**Enter** to close the **Breakpoint Settings** window.
-
-<a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a> ### Conditional Expression
+<a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a>
+### Conditional Expression
 
 When you select **Conditional Expression**, you can choose between two conditions: **Is true** or **When changed**. Choose **Is true** to break when the expression is satisfied, or **When changed** to break when the value of the expression has changed.  
   
@@ -213,8 +217,8 @@ When you select **Conditional Expression**, you can choose between two condition
  >- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation. 
  >- For managed code, the debugger hits the breakpoint on the first evaluation after **When changed** is selected.  
   
-#### Using Object IDs in conditional expressions (C# and F# only)  
- There are times when you want to observe the behavior of a specific object. For example, you might want to find out why an object was inserted more than once into a collection. In C# and F#, you can create object IDs for specific instances of [reference types](/dotnet/csharp/language-reference/keywords/reference-types), and use them in breakpoint conditions. The object ID is generated by the common language runtime (CLR) debugging services and associated with the object.  
+### Using Object IDs in conditional expressions (C# and F# only)  
+ There are times when you want to observe the behavior of a specific object. For example, you might want to find out why an object was inserted into a collection more than once. In C# and F#, you can create object IDs for specific instances of [reference types](/dotnet/csharp/language-reference/keywords/reference-types), and use them in breakpoint conditions. The object ID is generated by the common language runtime (CLR) debugging services and associated with the object.  
 
 **To create an Object ID:** 
   
@@ -226,13 +230,13 @@ When you select **Conditional Expression**, you can choose between two condition
    
    You should see a **$** plus a number in the **Locals** window. This is the object ID.  
    
-3. Add a new breakpoint at the point you want to investigate; for example, when the object is to be added to the collection, and open the **Conditions** dialog.  
+3. Add a new breakpoint at the point you want to investigate; for example, when the object is to be added to the collection. Right-click the breakpoint and select **Conditions**.  
    
-4. Use the Object ID in the **Conditional Expression** field. For example, if the variable `item` is the object to be added to the collection, put **item == $\<n>**, where \<n> is the object ID number.  
+4. Use the Object ID in the **Conditional Expression** field. For example, if the variable `item` is the object to be added to the collection, select **Is true** and type **item == $\<n>**, where \<n> is the object ID number.  
    
    Execution will break at the point when that object is to be added to the collection.  
    
-   To later delete the Object ID, right-click the variable in the **Locals** window and select **Delete Object ID**.  
+   To delete the Object ID, right-click the variable in the **Locals** window and select **Delete Object ID**.  
 
 >[!NOTE]
 >Object IDs create weak references, and do not prevent the object from being garbage collected. They are valid only for the current debugging session.  
@@ -278,9 +282,9 @@ Enclose string values in double quotes. You can combine clauses using `&` (AND),
    - **$TNAME** - Thread name  
    - **$TICK** - Tick count (from Windows `GetTickCount`)  
    
-1. To break execution when the tracepoint is hit, clear the **Continue Execution** check box, or select the **Continue Execution** box to print the message to the **Output** window without breaking.  
+1. To print the message to the **Output** window without breaking, select the **Continue Execution** check box. To print the message and break execution at the tracepoint, clear the check box. 
 
-Tracepoints appear as red diamonds in the left margin of in the source code and **Breakpoints** windows. 
+Tracepoints appear as red diamonds in the left margin of the source code and **Breakpoints** windows. 
   
 ## See also  
 [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md)  
