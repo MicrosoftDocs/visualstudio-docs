@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Surround-with Code Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Use Surround-with Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use Surround-with Code Snippets](https://docs.microsoft.com/visualstudio/ide/how-to-use-surround-with-code-snippets).  
-  
 The following procedures describe how to use surround-with code snippets. Surround-with code snippets are available three ways: through a keyboard shortcut, through the Edit menu, and through the context menu.  
   
 ### To use surround-with code snippets through keyboard shortcut  

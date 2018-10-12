@@ -1,7 +1,7 @@
 ---
 title: "Performance Explorer Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Performance Explorer Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Explorer Window](https://docs.microsoft.com/visualstudio/profiling/performance-explorer-window).  
-  
 The **Performance Explorer** window in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) enables you to configure and start performance sessions by using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools.  
   
  **Requirements**  

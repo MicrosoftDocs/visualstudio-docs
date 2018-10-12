@@ -1,7 +1,7 @@
 ---
 title: "Project Priority | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Project Priority
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Priority](https://docs.microsoft.com/visualstudio/extensibility/internals/project-priority).  
-  
 A project item usually is a member of only one project in the solution. Therefore, the IDE can easily determine which project is used to open the item. However, if an item is a member of more than one project, the IDE uses a priority scheme to determine the best project for opening the item.  
   
  The following list shows the project priority scheme:  

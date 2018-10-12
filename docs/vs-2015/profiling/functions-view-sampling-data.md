@@ -1,7 +1,7 @@
 ---
 title: "Functions View - Sampling Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Functions View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Functions View - Sampling Data](https://docs.microsoft.com/visualstudio/profiling/functions-view-sampling-data).  
-  
 The Functions report view for the sampling profile method lists the functions that were sampled during the profiling run.  
   
 > [!NOTE]

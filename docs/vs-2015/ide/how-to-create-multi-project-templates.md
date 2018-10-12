@@ -1,7 +1,7 @@
 ---
 title: "How to: Create Multi-Project Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Create Multi-Project Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create Multi-Project Templates](https://docs.microsoft.com/visualstudio/ide/how-to-create-multi-project-templates).  
-  
 Multi-project templates act as containers for two or more projects. When a project based on a multi-project template is created from the **New Project** dialog box, every project in the template is added to the solution.  
   
  A multi-project template must include the following items, compressed into a .zip file:  

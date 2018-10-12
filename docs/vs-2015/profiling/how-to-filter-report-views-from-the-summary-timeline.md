@@ -1,7 +1,7 @@
 ---
 title: "How to: Filter Report Views from the Summary Timeline | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Filter Report Views from the Summary Timeline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Filter Report Views from the Summary Timeline](https://docs.microsoft.com/visualstudio/profiling/how-to-filter-report-views-from-the-summary-timeline).  
-  
 You can filter the data that appears in performance reports by specifying a time segment in the timeline graph of the Summary View. When you filter reports, the profiling data file is reanalyzed to include only the time segment that you specified.  
   
 ### To filter a profiling report from the Summary timeline graph  

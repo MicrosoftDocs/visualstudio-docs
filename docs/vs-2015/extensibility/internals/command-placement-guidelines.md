@@ -1,7 +1,7 @@
 ---
 title: "Command Placement Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Command Placement Guidelines
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Placement Guidelines](https://docs.microsoft.com/visualstudio/extensibility/internals/command-placement-guidelines).  
-  
 Best practices for positioning commands in the Visual Studio integrated development environment (IDE) vary depending on the size of the command set. Commands are defined and positioned according to the information in .vsct files.  
   
 ## Best Practices for All Command Sets  

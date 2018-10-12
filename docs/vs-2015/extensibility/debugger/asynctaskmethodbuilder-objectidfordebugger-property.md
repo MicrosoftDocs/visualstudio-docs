@@ -1,7 +1,7 @@
 ---
 title: "AsyncTaskMethodBuilder.ObjectIdForDebugger Property | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # AsyncTaskMethodBuilder.ObjectIdForDebugger Property
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AsyncTaskMethodBuilder.ObjectIdForDebugger Property](https://docs.microsoft.com/visualstudio/extensibility/debugger/asynctaskmethodbuilder-objectidfordebugger-property).  
-  
 Gets an object that may be used to uniquely identify this builder to the debugger.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

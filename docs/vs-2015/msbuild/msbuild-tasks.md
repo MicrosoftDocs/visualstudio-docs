@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Tasks | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # MSBuild Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Tasks](https://docs.microsoft.com/visualstudio/msbuild/msbuild-tasks).  
-  
   
 A build platform needs the ability to execute any number of actions during the build process. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] uses *tasks* to perform these actions. A task is a unit of executable code used by [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to perform atomic build operations.  
   

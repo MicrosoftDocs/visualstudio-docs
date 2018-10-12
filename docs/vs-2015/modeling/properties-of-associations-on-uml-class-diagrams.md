@@ -1,7 +1,7 @@
 ---
 title: "Properties of associations on UML class diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Properties of associations on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of associations on UML class diagrams](https://docs.microsoft.com/visualstudio/modeling/properties-of-associations-on-uml-class-diagrams).  
-  
 In a UML class diagram, you can draw *associations* between any pair of types. A type is a class, interface, or enumeration.  
   
  An association indicates that the system you are developing stores links of some kind between the instances of the associated types. Generally, it does not imply anything about the implementation of the links. For example, they might be pointers, rows in a table, cross-referenced names in XML, and so on.  

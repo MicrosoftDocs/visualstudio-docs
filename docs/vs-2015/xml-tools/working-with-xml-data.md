@@ -1,7 +1,7 @@
 ---
 title: "Working with XML Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Working with XML Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with XML Data](https://docs.microsoft.com/visualstudio/xml-tools/working-with-xml-data).  
-  
   
 XML and its related technologies play a large role in the way data is handled in [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio. Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.  
   

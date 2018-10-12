@@ -1,7 +1,7 @@
 ---
 title: "Control of Execution | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Control of Execution
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Control of Execution](https://docs.microsoft.com/visualstudio/extensibility/debugger/control-of-execution).  
-  
 The debug engine (DE) typically sends one of the following events as the last startup event:  
   
 -   The entry point event, if attaching to a newly launched program  

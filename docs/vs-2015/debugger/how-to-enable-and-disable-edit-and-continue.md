@@ -1,7 +1,7 @@
 ---
 title: "How to: Enable and Disable Edit and Continue | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,8 +34,6 @@ manager: "ghogen"
 # How to: Enable and Disable Edit and Continue
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Enable and Disable Edit and Continue](https://docs.microsoft.com/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).  
-  
 You can disable or enable Edit and Continue in the **Options** dialog box at design time. You cannot change this setting while you are debugging.  
   
  Edit and Continue works only in debug builds. For native C++, Edit and Continue requires using the /INCREMENTAL option.  

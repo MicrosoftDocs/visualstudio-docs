@@ -1,7 +1,7 @@
 ---
 title: "Summary View - Resource Contention View | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Summary View - Resource Contention View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Summary View - Resource Contention View](https://docs.microsoft.com/visualstudio/profiling/summary-view-resource-contention-view).  
-  
 The Summary view displays information about the events in your application in which a thread or process was suspended while it waited for access to a resource.  
   
  For more information, including a description of the Notification Links and Report lists, see [Summary View](../profiling/summary-view.md).  

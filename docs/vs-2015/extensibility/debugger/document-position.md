@@ -1,7 +1,7 @@
 ---
 title: "Document Position | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Document Position
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Document Position](https://docs.microsoft.com/visualstudio/extensibility/debugger/document-position).  
-  
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, a **document position**:  
   
 -   Provides an abstraction of a position in a source file as known to the IDE. For most languages today, a document position can be thought of as a position in a source file.  

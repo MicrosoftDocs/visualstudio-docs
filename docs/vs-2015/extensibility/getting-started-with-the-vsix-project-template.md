@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with the VSIX Project Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Getting Started with the VSIX Project Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with the VSIX Project Template](https://docs.microsoft.com/visualstudio/extensibility/getting-started-with-the-vsix-project-template).  
-  
 You can use the VSIX Project template to create an extension or to package an existing extension for deployment. The VSIX Project template has both Visual Basic and Visual C# versions, and is installed as part of the Visual Studio SDK.  
   
  The VSIX Project template just consists of a source.extension.vsixmanifest file, which contains information about the extension and the assets it ships.  

@@ -1,7 +1,7 @@
 ---
 title: "Customize the Help Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Customize the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customize the Help Viewer](https://docs.microsoft.com/visualstudio/ide/customize-the-help-viewer).  
-  
 You can configure several features of the Help Viewer by using the **Viewer Options** dialog box.  
   
 ## Setting Viewer Options  

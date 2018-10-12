@@ -1,7 +1,7 @@
 ---
 title: "Validate code with layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "douge"
 # Validate code with layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Validate code with dependency diagrams](https://docs.microsoft.com/visualstudio/modeling/validate-code-with-layer-diagrams).  
-  
 To make sure that code doesn't conflict with its design, validate your code with layer diagrams in Visual Studio. This can help you:  
   
 -   Find conflicts between dependencies in your code and dependencies on the layer diagram.  

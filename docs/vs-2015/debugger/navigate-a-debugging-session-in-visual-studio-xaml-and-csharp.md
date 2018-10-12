@@ -1,7 +1,7 @@
 ---
 title: "Navigate a debugging session in Visual Studio (Xaml and C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigate a debugging session in Visual Studio (Xaml and C#)](https://docs.microsoft.com/visualstudio/debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp).  
-  
 This quick start demonstrates how to navigate Visual Studio debug sessions and how to view and change the program state in a session.  
   
  This quick start is for developers who are new to debugging with Visual Studio and for developers who want to learn more about navigating in a Visual Studio debug session. It does not teach the art of debugging itself. The methods in the sample code are designed only to demonstrate the debugging procedures described in this topic. The methods do not employ best practices of app or function design. In fact, you will quickly discover that the methods, and the app itself, do not do much of anything at all.  

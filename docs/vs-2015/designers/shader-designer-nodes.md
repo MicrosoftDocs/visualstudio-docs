@@ -1,7 +1,7 @@
 ---
 title: "Shader Designer Nodes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Shader Designer Nodes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Shader Designer Nodes](https://docs.microsoft.com/visualstudio/designers/shader-designer-nodes).  
-  
 The articles in this section of the documentation contain information about the various Shader Designer nodes that you can use to create graphics effects.  
   
 ## Nodes and node types  

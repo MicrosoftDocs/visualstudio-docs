@@ -1,7 +1,7 @@
 ---
 title: "Source Control Configuration Details | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Source Control Configuration Details
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control Configuration Details](https://docs.microsoft.com/visualstudio/extensibility/internals/source-control-configuration-details).  
-  
 In order to implement source control, you need to properly configure your project system or editor to do the following:  
   
 -   Request permission to transition to changed state  

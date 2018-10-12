@@ -1,7 +1,7 @@
 ---
 title: "Attaching Directly to a Program | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Attaching Directly to a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Attaching Directly to a Program](https://docs.microsoft.com/visualstudio/extensibility/debugger/attaching-directly-to-a-program).  
-  
 Users who want to debug programs in a process that is already running typically follow this process:  
   
 1.  In the IDE, choose the **Debug Processes** command from the **Tools** menu.  

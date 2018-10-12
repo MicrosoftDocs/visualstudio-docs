@@ -1,7 +1,7 @@
 ---
 title: "HLSL Shader Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # HLSL Shader Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [HLSL Shader Debugger](https://docs.microsoft.com/visualstudio/debugger/graphics/hlsl-shader-debugger).  
-  
 The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how your HLSL shader code operates under real conditions of your app.  
   
  This is the HLSL debugger:  

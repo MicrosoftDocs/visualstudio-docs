@@ -1,7 +1,7 @@
 ---
 title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "ghogen"
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user](https://docs.microsoft.com/visualstudio/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user).  
-  
 When trying to do remote debugging, you may get the following error message:  
   
  The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user.  

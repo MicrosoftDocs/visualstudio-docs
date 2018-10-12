@@ -1,7 +1,7 @@
 ---
 title: "SetNotificationForWaitCompletion Method | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # SetNotificationForWaitCompletion Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SetNotificationForWaitCompletion Method](https://docs.microsoft.com/visualstudio/extensibility/debugger/setnotificationforwaitcompletion-method).  
-  
 Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

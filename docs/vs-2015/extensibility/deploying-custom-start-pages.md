@@ -1,7 +1,7 @@
 ---
 title: "Deploying Custom Start Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Deploying Custom Start Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploying Custom Start Pages](https://docs.microsoft.com/visualstudio/extensibility/deploying-custom-start-pages).  
-  
 You can deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.  
   
 ## VSIX Deployment By Using the Start Page Project Template  

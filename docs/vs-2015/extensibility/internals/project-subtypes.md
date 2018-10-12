@@ -1,7 +1,7 @@
 ---
 title: "Project Subtypes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Project Subtypes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Subtypes](https://docs.microsoft.com/visualstudio/extensibility/internals/project-subtypes).  
-  
 Project subtypes let you customize or flavor the behavior of the project systems of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Customizations include saving additional data in the project file, adding or filtering items in the **Add New Item** dialog box, controlling how assemblies are debugged and deployed, and extending the project **Property Pages** dialog box. VSPackages implement project subtypes using COM aggregation.  
   
 > [!NOTE]

@@ -1,7 +1,7 @@
 ---
 title: "How to: Collect CPU Counter Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # How to: Collect CPU Counter Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Collect CPU Counter Data](https://docs.microsoft.com/visualstudio/profiling/how-to-collect-cpu-counter-data).  
-  
 A CPU event counter is used to collect hardware-specific performance data. This topic shows you how to collect event counter data when you use the instrumentation profiling method.  
   
  **Requirements**  

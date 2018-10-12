@@ -1,7 +1,7 @@
 ---
 title: "Maintaining Security | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Maintaining Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Maintaining Security](https://docs.microsoft.com/visualstudio/ide/maintaining-security).  
-  
 It is often said that the price of security is constant vigilance. Despite your best dedication to security during the design and development of your application, you should assume that security flaws will arise after deployment. By auditing your application and analyzing event logs, you may discover some previously hidden flaws.  
   
  In addition, not only must you remain vigilant about your own application, you must also keep current on security threats and flaws for the platform on which your application runs and for other products on which your application depends.  

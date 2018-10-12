@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_hasLongJump | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasLongJump
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasLongJump](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-haslongjump).  
-  
 Retrieves a flag that specifies whether the function contains a use of the [longjmp](http://msdn.microsoft.com/library/0e13670a-5130-45c1-ad69-6862505b7a2f) command (paired with a [setjmp](http://msdn.microsoft.com/library/684a8b27-e8eb-455b-b4a8-733ca1cbd7d2) command, these form the C-style method of exception handling).  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "Design Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # Design Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Design Warnings](https://docs.microsoft.com/visualstudio/code-quality/design-warnings).  
-  
 Design warnings support adherence to the .NET Framework Design Guidelines.  
   
 ## In This Section  

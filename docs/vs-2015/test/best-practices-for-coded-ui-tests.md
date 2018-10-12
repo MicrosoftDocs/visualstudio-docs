@@ -1,7 +1,7 @@
 ---
 title: "Best Practices for Coded UI Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Best Practices for Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Best Practices for Coded UI Tests](https://docs.microsoft.com/visualstudio/test/best-practices-for-coded-ui-tests).  
-  
 This topic describes the best practices to follow when you develop coded UI tests.  
   
  **Requirements**  

@@ -1,7 +1,7 @@
 ---
 title: "GenerateTemporaryTargetAssembly Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # GenerateTemporaryTargetAssembly Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GenerateTemporaryTargetAssembly Task](https://docs.microsoft.com/visualstudio/msbuild/generatetemporarytargetassembly-task).  
-  
   
 The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.  
   

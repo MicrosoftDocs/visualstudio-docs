@@ -1,7 +1,7 @@
 ---
 title: "View Menu Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # View Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [View Menu Commands](https://docs.microsoft.com/visualstudio/debugger/view-menu-commands).  
-  
 The **View** menu provides commands for controlling the Spy++ user interface.  
   
  **Font**  

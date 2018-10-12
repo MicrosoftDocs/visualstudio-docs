@@ -1,7 +1,7 @@
 ---
 title: "SccGetUserOption Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccGetUserOption Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccGetUserOption Function](https://docs.microsoft.com/visualstudio/extensibility/sccgetuseroption-function).  
-  
 This function retrieves a variety of user-specific options.  
   
 ## Syntax  

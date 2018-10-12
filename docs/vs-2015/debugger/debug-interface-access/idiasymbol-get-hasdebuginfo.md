@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_hasDebugInfo | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaSymbol::get_hasDebugInfo
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasDebugInfo](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hasdebuginfo).  
-  
 Retrieves a flag that specifies if the [Compiland](../../debugger/debug-interface-access/compiland.md) contains debugging information.  
   
 ## Syntax  

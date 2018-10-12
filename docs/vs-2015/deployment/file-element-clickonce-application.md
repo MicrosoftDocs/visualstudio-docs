@@ -1,7 +1,7 @@
 ---
 title: "&lt;file&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "wpickett"
 # &lt;file&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;file&gt; Element (ClickOnce Application)](https://docs.microsoft.com/visualstudio/deployment/file-element-clickonce-application).  
-  
 Identifies all nonassembly files downloaded and used by the application.  
   
 ## Syntax  

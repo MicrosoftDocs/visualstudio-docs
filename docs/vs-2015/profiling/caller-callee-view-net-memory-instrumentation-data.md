@@ -1,7 +1,7 @@
 ---
 title: "Caller-Callee View - NET Memory Instrumentation Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Caller/Callee View - NET Memory Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Caller-Callee View - NET Memory Instrumentation Data](https://docs.microsoft.com/visualstudio/profiling/caller-callee-view-net-memory-instrumentation-data).  
-  
 The Caller/Callee view of .NET memory profiling data that was collected by using the instrumentation method displays allocation and timing data for a selected function and the parent and child functions of that selected function. The Caller/Callee view contains three grids.  
   
  **Current function** is displayed in the middle grid, and it shows memory profiling information about the selected function. The values include all sampled calls to the function.  

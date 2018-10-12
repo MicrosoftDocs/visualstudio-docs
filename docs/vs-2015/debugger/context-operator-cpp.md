@@ -1,7 +1,7 @@
 ---
 title: "Context Operator (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # Context Operator (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Context Operator (C++)](https://docs.microsoft.com/visualstudio/debugger/context-operator-cpp).  
-  
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.  
   
 ##  <a name="BKMK_Using_context_operators_to_specify_a_symbol"></a> Syntax  

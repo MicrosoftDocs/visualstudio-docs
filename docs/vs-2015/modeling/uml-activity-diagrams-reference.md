@@ -1,7 +1,7 @@
 ---
 title: "UML Activity Diagrams: Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "douge"
 # UML Activity Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Activity Diagrams: Reference](https://docs.microsoft.com/visualstudio/modeling/uml-activity-diagrams-reference).  
-  
 An *activity diagram* shows a business process or a software process as a flow of work through a series of actions. People, software components, or computers can perform these actions.  
   
  You can use an activity diagram to describe processes of several types, such as the following examples:  

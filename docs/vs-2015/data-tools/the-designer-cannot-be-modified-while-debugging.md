@@ -1,7 +1,7 @@
 ---
 title: "The designer cannot be modified while debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "ghogen"
 # The designer cannot be modified while debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [The designer cannot be modified while debugging](https://docs.microsoft.com/visualstudio/data-tools/the-designer-cannot-be-modified-while-debugging).  
-  
   
 This message appears when an attempt is made to modify items on the O/R Designer when the application is running in debug mode. When the application is running in debug mode, the O/R Designer is read-only.  
   

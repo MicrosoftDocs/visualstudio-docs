@@ -1,7 +1,7 @@
 ---
 title: "Notifying the Port | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Notifying the Port
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Notifying the Port](https://docs.microsoft.com/visualstudio/extensibility/debugger/notifying-the-port).  
-  
 After launching a program, the port must be notified, as follows:  
   
 1.  When a port receives a new program node, it sends a program creation event back to the debug session. The event carries with it an interface that represents the program.  

@@ -1,7 +1,7 @@
 ---
 title: "Debug XAML in Blend | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Debug XAML in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug XAML in Blend](https://docs.microsoft.com/visualstudio/debugger/debug-xaml-in-blend).  
-  
 You can use the tools in [!INCLUDE[blend_first](../includes/blend-first-md.md)] to debug the XAML in your app. When you build a project, any errors are displayed in the **Results** panel. Double-click an error to locate the markup related to the error. If you need more room to work, you can hide the **Results** panel by pressing F12.  
   
 ## Syntax errors  

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using IntelliTrace | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: Using IntelliTrace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Using IntelliTrace](https://docs.microsoft.com/visualstudio/debugger/walkthrough-using-intellitrace).  
-  
 You can use IntelliTrace to collect information about specific events or categories of events, or about individual function calls in addition to events. The following procedures show how to do this.  
   
  You can use IntelliTrace in Visual Studio Enterprise edition (but not the Professional or Community editions).  

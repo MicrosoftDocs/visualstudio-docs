@@ -1,7 +1,7 @@
 ---
 title: "Extend layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "douge"
 # Extend layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extend dependency diagrams](https://docs.microsoft.com/visualstudio/modeling/extend-layer-diagrams).  
-  
 You can write code to create and update layer diagrams, and to validate the structure of your program code against layer diagrams in Visual Studio. You can add commands that appear in the shortcut (context) menu of the diagrams, customize drag-and-drop gestures, and access the layer model from text templates. You can package these extensions into a Visual Studio Integration Extension (VSIX) and distribute them to other Visual Studio users.  
   
  For more information about layer diagrams, see:  

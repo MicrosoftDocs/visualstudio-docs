@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug COM Servers | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # How to: Debug COM Servers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug COM Servers](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-com-servers).  
-  
 Debugging COM server applications poses a unique set of problems that are not always easy to solve.  
   
  If you do not have or do not want to use debugging information for your container application, starting to debug the server application is a three-step process.  

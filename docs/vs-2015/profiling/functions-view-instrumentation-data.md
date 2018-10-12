@@ -1,7 +1,7 @@
 ---
 title: "Functions View - Instrumentation Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Functions View - Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Functions View - Instrumentation Data](https://docs.microsoft.com/visualstudio/profiling/functions-view-instrumentation-data).  
-  
 The Functions report view lists profiling data by function name.  
   
 ## General  

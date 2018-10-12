@@ -1,7 +1,7 @@
 ---
 title: "Text Template Utility Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Text Template Utility Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Text Template Utility Methods](https://docs.microsoft.com/visualstudio/modeling/text-template-utility-methods).  
-  
 There are several methods that are always available to you when you write code in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] text template. These methods are defined in <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.  
   
 > [!TIP]

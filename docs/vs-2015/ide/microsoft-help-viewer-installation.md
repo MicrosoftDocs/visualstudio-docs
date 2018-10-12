@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Help Viewer Installation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Microsoft Help Viewer Installation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Microsoft Help Viewer Installation](https://docs.microsoft.com/visualstudio/ide/microsoft-help-viewer-installation).  
-  
 Several products display Help in Microsoft Help Viewer. Installation instructions will vary based on which product installed the Help Viewer.  
   
 ## Locating setup information  

@@ -1,7 +1,7 @@
 ---
 title: "Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way](https://docs.microsoft.com/visualstudio/debugger/error-evaluating-the-function-function-timed-out-and-needed-to-be-aborted-in-an-unsafe-way).  
-  
 Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way. This may have corrupted the target process. 
 
 To make it easier to inspect the state of .NET objects, the debugger will automatically force the debugged process to run additional code (typically property getter methods and ToString functions). In most all scenarios, these functions complete quickly and make debugging much easier. However, the debugger doesn’t run the application in a sandbox. As a result, a property getter or ToString method that calls into a native function that hangs can lead to long timeouts that may not be recoverable. If you encounter this error message, this has occurred.

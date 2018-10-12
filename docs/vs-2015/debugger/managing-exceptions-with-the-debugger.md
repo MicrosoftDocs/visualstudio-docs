@@ -1,7 +1,7 @@
 ---
 title: "Managing Exceptions with the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,8 +42,6 @@ manager: "ghogen"
 # Managing Exceptions with the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Manage exceptions with the Visual Studio debugger](https://docs.microsoft.com/visualstudio/debugger/managing-exceptions-with-the-debugger).  
-  
 An exception is an indication of an error state that occurs while a program is being executed. You can and should provide handlers that respond to the most important exceptions, but it’s important to know how to set up the debugger to break for the exceptions you want to see.  
   
  When an exception occurs, the debugger writes an exception message to the Output window. It may break execution in the following cases:  

@@ -1,7 +1,7 @@
 ---
 title: "More Debugging Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # More Debugging Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [More Debugging Features](https://docs.microsoft.com/visualstudio/debugger/more-debugging-features).  
-  
 This section contains additional features that you can use with the Visual Studio debugger.  
   
  For a list of tips and tricks to make debugging faster and easier, see [Debugging Tips and Tricks](http://blogs.msdn.com/b/visualstudio/archive/2015/05/22/debugging-tips-and-tricks.aspx).  

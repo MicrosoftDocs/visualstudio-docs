@@ -1,7 +1,7 @@
 ---
 title: "How ClickOnce Performs Application Updates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "wpickett"
 # How ClickOnce Performs Application Updates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How ClickOnce Performs Application Updates](https://docs.microsoft.com/visualstudio/deployment/how-clickonce-performs-application-updates).  
-  
 ClickOnce uses the file version information specified in an application's deployment manifest to decide whether to update the application's files. After an update begins, ClickOnce uses a technique called *file patching* to avoid redundant downloading of application files.  
   
 ## File Patching  

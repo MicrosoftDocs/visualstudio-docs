@@ -1,7 +1,7 @@
 ---
 title: "Binding Breakpoints | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Binding Breakpoints
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Binding Breakpoints](https://docs.microsoft.com/visualstudio/extensibility/debugger/binding-breakpoints).  
-  
 If the user sets a breakpoint, perhaps by pressing F9, the IDE formulates the request and prompts the debug session to create the breakpoint.  
   
 ## Setting a Breakpoint  

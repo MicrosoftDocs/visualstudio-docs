@@ -1,7 +1,7 @@
 ---
 title: "Functions View | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Functions View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Functions View](https://docs.microsoft.com/visualstudio/profiling/functions-view).  
-  
 The Functions view lists the functions that are called during profiling.  
   
  By default, functions are listed by name. To view functions by module, right-click in the Functions View window and then select **Show in Module View**. This will display the Module view.  

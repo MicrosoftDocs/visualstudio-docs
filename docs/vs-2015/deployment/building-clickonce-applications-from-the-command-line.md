@@ -1,7 +1,7 @@
 ---
 title: "Building ClickOnce Applications from the Command Line | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "wpickett"
 # Building ClickOnce Applications from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Building ClickOnce Applications from the Command Line](https://docs.microsoft.com/visualstudio/deployment/building-clickonce-applications-from-the-command-line).  
-  
 In [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], you can build projects from the command line, even if they are created in the integrated development environment (IDE). In fact, you can rebuild a project created with [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] on another computer that has only the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] installed. This allows you to reproduce a build using an automated process, for example, in a central build lab or using advanced scripting techniques beyond the scope of building the project itself.  
   
 ## Using MSBuild to Reproduce ClickOnce Application Deployments  

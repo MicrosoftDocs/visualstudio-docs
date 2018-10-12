@@ -1,7 +1,7 @@
 ---
 title: "O-R Designer Messages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "ghogen"
 # O/R Designer Messages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [O-R Designer Messages](https://docs.microsoft.com/visualstudio/data-tools/o-r-designer-messages).  
-  
   
 This topic lists the messages that you can encounter when you work with the O/R Designer.  
   

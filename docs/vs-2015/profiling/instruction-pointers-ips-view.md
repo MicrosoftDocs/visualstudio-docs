@@ -1,7 +1,7 @@
 ---
 title: "Instruction Pointers (IPs) View | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Instruction Pointers (IPs) View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Instruction Pointers (IPs) View](https://docs.microsoft.com/visualstudio/profiling/instruction-pointers-ips-view).  
-  
 The Instruction Pointers view enables you to see specific instructions that are executed during sampling profiling.  
   
  This view is not available during instrumentation profiling.  

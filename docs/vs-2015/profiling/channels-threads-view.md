@@ -1,7 +1,7 @@
 ---
 title: "Channels (Threads View) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Channels (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Channels (Threads View)](https://docs.microsoft.com/visualstudio/profiling/channels-threads-view).  
-  
 The Concurrency Visualizer shows four kinds of channels: thread channels, disk channels, marker channels, and GPU channels.  
   
 ## Thread Channels  

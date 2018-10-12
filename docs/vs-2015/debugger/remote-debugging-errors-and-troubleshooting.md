@@ -1,7 +1,7 @@
 ---
 title: "Remote Debugging Errors and Troubleshooting | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,8 +34,6 @@ manager: "ghogen"
 # Remote Debugging Errors and Troubleshooting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Remote Debugging Errors and Troubleshooting](https://docs.microsoft.com/visualstudio/debugger/remote-debugging-errors-and-troubleshooting).  
-  
 You may encounter the following errors when attempting to debug remotely.  
   
 -   [Error: Unable to Automatically Step Into the Server](../debugger/error-unable-to-automatically-step-into-the-server.md)  

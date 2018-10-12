@@ -1,7 +1,7 @@
 ---
 title: "Synchronized Settings in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Synchronized Settings in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Synchronize your settings in Visual Studio](https://docs.microsoft.com/visualstudio/ide/synchronized-settings-in-visual-studio).  
-  
 When you use the same personalization account to sign in to Visual Studio on multiple computers, by default your settings are synchronized on all computers.  
   
 ## Synchronized settings  

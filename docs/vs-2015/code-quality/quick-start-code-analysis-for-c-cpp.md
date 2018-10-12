@@ -1,7 +1,7 @@
 ---
 title: "Quick Start: Code Analysis for C-C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Quick Start: Code Analysis for C/C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Quick Start: Code Analysis for C/C++](https://docs.microsoft.com/visualstudio/code-quality/quick-start-code-analysis-for-c-cpp).  
-  
 You can improve the quality of your application by running code analysis regularly on C or C++ code. This can help you find common problems, violations of good programming practice, or defects that are difficult to discover through testing. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code.  
   
 ## In this topic  

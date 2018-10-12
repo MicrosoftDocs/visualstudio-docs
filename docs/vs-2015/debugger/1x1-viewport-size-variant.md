@@ -1,7 +1,7 @@
 ---
 title: "1x1 Viewport Size Variant | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # 1x1 Viewport Size Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [1x1 Viewport Size Variant](https://docs.microsoft.com/visualstudio/debugger/graphics/1x1-viewport-size-variant).  
-  
 Reduces the viewport dimensions on all render targets to 1x1 pixels.  
   
 ## Interpretation  

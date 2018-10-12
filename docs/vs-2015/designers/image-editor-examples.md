@@ -1,7 +1,7 @@
 ---
 title: "Image Editor Examples | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Image Editor Examples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Editor Examples](https://docs.microsoft.com/visualstudio/designers/image-editor-examples).  
-  
 The articles in this section of the documentation contain examples that demonstrate how you can use the Image Editor.  
   
 ## Related topics  

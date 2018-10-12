@@ -1,7 +1,7 @@
 ---
 title: "Dia2dump.cpp Source File | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Dia2dump.cpp Source File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Dia2dump.cpp Source File](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/dia2dump-cpp-source-file).  
-  
 The following Dia2dump.cpp source code displays the contents of a .pdb file. This source code is used by [Dia2dump Sample](../../debugger/debug-interface-access/dia2dump-sample.md).  
   
 ```  

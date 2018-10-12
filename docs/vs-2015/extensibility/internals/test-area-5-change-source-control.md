@@ -1,7 +1,7 @@
 ---
 title: "Test Area 5: Change Source Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Test Area 5: Change Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 5: Change Source Control](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-5-change-source-control).  
-  
 This source-control plug-in test area covers changing the source control via the **Change Source Control** command.  
   
  **Change Source Control** command provides four basic functions for the user:  

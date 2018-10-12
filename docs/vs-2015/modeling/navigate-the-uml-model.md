@@ -1,7 +1,7 @@
 ---
 title: "Navigate the UML model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Navigate the UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigate the UML model](https://docs.microsoft.com/visualstudio/modeling/navigate-the-uml-model).  
-  
 This topic introduces the main types of the UML model.  
   
 ## The Model Elements, Model, and Model Store  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug from a DLL Project | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # How to: Debug from a DLL Project
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug from a DLL Project](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-from-a-dll-project).  
-  
 To start debugging a DLL project, you must specify the calling application in the project properties. The C++ property pages differ in layout and content from the C# and Visual Basic property pages.  
   
  If a managed DLL is called by native code and you want to debug both, you can specify this in the project properties. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).  

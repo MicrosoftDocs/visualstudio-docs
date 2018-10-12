@@ -1,7 +1,7 @@
 ---
 title: "marker_series::write_flag Method | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # marker_series::write_flag Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [marker_series::write_flag Method](https://docs.microsoft.com/visualstudio/profiling/marker-series-write-flag-method).  
-  
 Writes a flag to the Concurrency Visualizer trace file.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "Bitmap Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Bitmap Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Bitmap Element](https://docs.microsoft.com/visualstudio/extensibility/bitmap-element).  
-  
 Defines a bitmap. The bitmap is loaded either from a resource or from a file.  
   
 ## Syntax  

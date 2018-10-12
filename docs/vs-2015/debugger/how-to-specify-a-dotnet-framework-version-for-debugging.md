@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify a .NET Framework Version For Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # How to: Specify a .NET Framework Version For Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify a .NET Framework Version For Debugging](https://docs.microsoft.com/visualstudio/debugger/how-to-specify-a-dotnet-framework-version-for-debugging).  
-  
 The [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger supports debugging older versions of the Microsoft [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] for the application you are debugging. If the application is already running and you use **Attach to**, the debugger may not always be able to identify an older version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]. If this happens, you will get an error message that says,  
   
  The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version your application is going to use.  

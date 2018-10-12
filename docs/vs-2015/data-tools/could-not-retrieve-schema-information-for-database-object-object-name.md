@@ -1,7 +1,7 @@
 ---
 title: "Could not retrieve schema information for database object &lt;object name&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "ghogen"
 # Could not retrieve schema information for database object &lt;object name&gt;
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Could not retrieve schema information for database object &lt;object name&gt;](https://docs.microsoft.com/visualstudio/data-tools/could-not-retrieve-schema-information-for-database-object-object-name).  
-  
   
 This message typically appears when an object in **Server Explorer/Database Explorer** is copied to the clipboard, deleted from the database, and then pasted onto the designer. Because the database object no longer exists, this message appears.  
   

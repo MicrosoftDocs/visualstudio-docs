@@ -1,7 +1,7 @@
 ---
 title: "Core Interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Core Interfaces
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Core Interfaces](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/core-interfaces).  
-  
 The following interfaces are the core interfaces for extending debugger by using the [!INCLUDE[vsipsdk](../../../includes/vsipsdk-md.md)].  
   
 ## Discussion  

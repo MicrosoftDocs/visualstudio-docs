@@ -1,7 +1,7 @@
 ---
 title: "Understanding Sampling Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Understanding Sampling Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Understanding Sampling Data Values](https://docs.microsoft.com/visualstudio/profiling/understanding-sampling-data-values).  
-  
 The *sampling* profiling method of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools interrupts the computer processor at set intervals and collects the function call stack. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.  
   
  **Requirements**  

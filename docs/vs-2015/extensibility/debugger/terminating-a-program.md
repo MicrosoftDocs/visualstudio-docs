@@ -1,7 +1,7 @@
 ---
 title: "Terminating a Program | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Terminating a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Terminating a Program](https://docs.microsoft.com/visualstudio/extensibility/debugger/terminating-a-program).  
-  
 The following is a description of the termination of a single program with one thread.  
   
 ## Termination Process  

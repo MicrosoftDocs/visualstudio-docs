@@ -1,7 +1,7 @@
 ---
 title: "Program Nodes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Program Nodes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Program Nodes](https://docs.microsoft.com/visualstudio/extensibility/debugger/program-nodes).  
-  
 In terms of the debugger architecture, a **program node**:  
   
 -   Is a lightweight description of a program.  

@@ -1,7 +1,7 @@
 ---
 title: "System.Activities Tab, Choose Toolbox Items Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""

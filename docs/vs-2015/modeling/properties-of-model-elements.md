@@ -1,7 +1,7 @@
 ---
 title: "Properties of Model Elements | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # Properties of Model Elements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Model Elements](https://docs.microsoft.com/visualstudio/modeling/properties-of-model-elements).  
-  
 This section lists the properties that you see in the Properties window when you select an element in the DSL Definition diagram or in the DSL Explorer.  
   
  In some cases, additional properties can be found in the DSL Details window.  

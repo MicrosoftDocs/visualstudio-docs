@@ -1,7 +1,7 @@
 ---
 title: "Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](https://docs.microsoft.com/visualstudio/test/using-microsoft-visualstudio-testtools-cppunittestframework).  
-  
 This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTestFramework` namespace.  
   
  The header files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\include** folder.  

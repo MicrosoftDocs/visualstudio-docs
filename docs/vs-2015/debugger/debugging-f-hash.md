@@ -1,7 +1,7 @@
 ---
 title: "Debugging F# | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Debugging F# #
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging F#](https://docs.microsoft.com/visualstudio/debugger/debugging-f-hash).  
-  
 Debugging F# is similar to debugging any managed language, with a few exceptions:  
   
 -   The **Autos** window does not display F# variables.  

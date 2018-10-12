@@ -1,7 +1,7 @@
 ---
 title: "Customizing T4 Text Transformation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Customizing T4 Text Transformation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing T4 Text Transformation](https://docs.microsoft.com/visualstudio/modeling/customizing-t4-text-transformation).  
-  
 Text templates are a feature of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that allow you to generate program code or other text files through a transformation process. Using [!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)], you can extend the default template transformation process by customizing the text template directive processor or the text template host.  
   
 ## In This Section  

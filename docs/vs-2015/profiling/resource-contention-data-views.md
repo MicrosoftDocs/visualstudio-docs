@@ -1,7 +1,7 @@
 ---
 title: "Resource Contention Data Views | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Resource Contention Data Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resource Contention Data Views](https://docs.microsoft.com/visualstudio/profiling/resource-contention-data-views).  
-  
 This section contains reference information for the views and reports of profiler data files that contain thread contention profiling data.  
   
 ## In This Section  

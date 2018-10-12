@@ -1,7 +1,7 @@
 ---
 title: "Sample XSD File: Relationships | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Sample XSD File: Relationships
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample XSD File: Relationships](https://docs.microsoft.com/visualstudio/xml-tools/sample-xsd-file-relationships).  
-  
   
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema with annotations and documentation.  
   

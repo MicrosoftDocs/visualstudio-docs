@@ -1,7 +1,7 @@
 ---
 title: "Graphics Frame Analysis | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Graphics Frame Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Frame Analysis](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-frame-analysis).  
-  
 Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and optimize the rendering performance of your Direct3D game or app.  
   
 > [!IMPORTANT]

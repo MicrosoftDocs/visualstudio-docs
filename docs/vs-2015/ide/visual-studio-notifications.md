@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Notifications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Visual Studio Notifications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio notifications](https://docs.microsoft.com/visualstudio/ide/visual-studio-notifications).  
-  
 Visual Studio has a notification system which alerts you to various events:  
   
 1.  An update is available for a component within Visual Studio  

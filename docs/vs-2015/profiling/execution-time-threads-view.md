@@ -1,7 +1,7 @@
 ---
 title: "Execution Time (Threads View) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Execution Time (Threads View)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Execution Time (Threads View)](https://docs.microsoft.com/visualstudio/profiling/execution-time-threads-view).  
-  
 These segments in the Threads View timeline represent execution time, when the thread is actively doing work on a logical core in the system.  
   
  Changes in thread status are detected through kernel context switch events. Event Tracing for Windows (ETW) captures sample stacks every millisecond. In a very short green segment, it is possible that no sample is taken. Therefore, some short execution segments may show no call stack.  

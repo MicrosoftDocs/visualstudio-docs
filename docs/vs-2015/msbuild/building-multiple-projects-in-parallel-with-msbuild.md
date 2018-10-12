@@ -1,7 +1,7 @@
 ---
 title: "Building Multiple Projects in Parallel with MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Building Multiple Projects in Parallel with MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Building Multiple Projects in Parallel with MSBuild](https://docs.microsoft.com/visualstudio/msbuild/building-multiple-projects-in-parallel-with-msbuild).  
-  
   
 You can use MSBuild to build multiple projects faster by running them in parallel. To run builds in parallel, you use the following settings on a multi-core or multiple processor computer:  
   

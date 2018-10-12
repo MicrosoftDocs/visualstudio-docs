@@ -1,7 +1,7 @@
 ---
 title: "When Breakpoint Is Hit Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # When Breakpoint Is Hit Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [When Breakpoint Is Hit Dialog Box](https://docs.microsoft.com/visualstudio/debugger/when-breakpoint-is-hit-dialog-box).  
-  
 With this dialog box, you can customize the action that occurs when a breakpoint is hit.  
   
 ## UIElement List  

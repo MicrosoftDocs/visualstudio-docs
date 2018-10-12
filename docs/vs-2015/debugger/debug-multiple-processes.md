@@ -1,7 +1,7 @@
 ---
 title: "Debug Multiple Processes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # Debug Multiple Processes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Multiple Processes](https://docs.microsoft.com/visualstudio/debugger/debug-multiple-processes).  
-  
 Here’s how to start debugging processes, switch between processes, break and continue execution, step through source, stop debugging, and terminate or detach from processes.  
   
 ##  <a name="BKMK_Contents"></a> Contents  

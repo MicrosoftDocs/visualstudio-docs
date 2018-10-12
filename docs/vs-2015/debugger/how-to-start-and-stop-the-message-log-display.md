@@ -1,7 +1,7 @@
 ---
 title: "How to: Start and Stop the Message Log Display | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Start and Stop the Message Log Display
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Start and Stop the Message Log Display](https://docs.microsoft.com/visualstudio/debugger/how-to-start-and-stop-the-message-log-display).  
-  
 When a [Messages View](../debugger/messages-view.md) window is active, a **Start Logging** or **Stop Logging** choice appears on the Spy++ **Messages** menu, and the corresponding **Start Logging** or **Stop Logging** toolbar button becomes active.  
   
 ### To start the message log display  

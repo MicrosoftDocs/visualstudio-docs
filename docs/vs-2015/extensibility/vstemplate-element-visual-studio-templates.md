@@ -1,7 +1,7 @@
 ---
 title: "VSTemplate Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # VSTemplate Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSTemplate Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/vstemplate-element-visual-studio-templates).  
-  
 Contains all the metadata about the project template, item template, or starter kit.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "Tool Window Display Configuration | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Tool Window Display Configuration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tool Window Display Configuration](https://docs.microsoft.com/visualstudio/extensibility/tool-window-display-configuration).  
-  
 When a VSPackage registers a tool window, the default position, size, docking style, and other visibility information is specified in optional values. For more information on tool window registration, see [Tool Windows in the Registry](../extensibility/tool-windows-in-the-registry.md)  
   
 ## Window Display information  

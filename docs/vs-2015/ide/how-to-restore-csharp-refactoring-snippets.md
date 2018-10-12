@@ -1,7 +1,7 @@
 ---
 title: "How to: Restore C# Refactoring Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Restore C# Refactoring Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Restore C# Refactoring Snippets](https://docs.microsoft.com/visualstudio/ide/how-to-restore-csharp-refactoring-snippets).  
-  
 C# refactoring operations rely on code snippets found in the following directory:  
   
  *Installation directory*\Microsoft Visual Studio 14.0\VC#\Snippets\\*language ID*\Refactoring  

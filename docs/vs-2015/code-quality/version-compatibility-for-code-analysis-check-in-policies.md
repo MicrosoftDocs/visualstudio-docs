@@ -1,7 +1,7 @@
 ---
 title: "Version Compatibility for Code Analysis Check-In Policies | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "wpickett"
 # Version Compatibility for Code Analysis Check-In Policies
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Version Compatibility for Code Analysis Check-In Policies](https://docs.microsoft.com/visualstudio/code-quality/version-compatibility-for-code-analysis-check-in-policies).  
-  
 If you must evaluate and author code analysis check-in policies using different versions of [!INCLUDE[esprtfc](../includes/esprtfc-md.md)], you must know the differences in how [!INCLUDE[vstsTfsOrcasLong](../includes/vststfsorcaslong-md.md)] and [!INCLUDE[vstsTfsRosarioShort](../includes/vststfsrosarioshort-md.md)] evaluate check-in policies.  
   
 ## Version Compatibility for Evaluating Check-In Policies  

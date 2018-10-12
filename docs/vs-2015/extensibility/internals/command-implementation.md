@@ -1,7 +1,7 @@
 ---
 title: "Command Implementation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Command Implementation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Implementation](https://docs.microsoft.com/visualstudio/extensibility/internals/command-implementation).  
-  
 To implement a command in a VSPackage, you must perform the following tasks:  
   
 1.  In the .vsct file, set up a command group and then add the command to it. For more information, see [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)'  

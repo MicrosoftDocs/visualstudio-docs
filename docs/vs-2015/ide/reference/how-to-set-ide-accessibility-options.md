@@ -1,7 +1,7 @@
 ---
 title: "How to: Set IDE Accessibility Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Set IDE Accessibility Options
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set IDE Accessibility Options](https://docs.microsoft.com/visualstudio/ide/reference/how-to-set-ide-accessibility-options).  
-  
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] contains features that make it easier for people who have low vision to read and for people who have limited dexterity to write. These features include changing the size and color of text in editors, changing the size of text and buttons on toolbars, and auto-completion for methods and parameters, to name a few.  
   

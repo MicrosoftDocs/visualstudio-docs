@@ -1,7 +1,7 @@
 ---
 title: "Otherwise Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Otherwise Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Otherwise Element (MSBuild)](https://docs.microsoft.com/visualstudio/msbuild/otherwise-element-msbuild).  
-  
   
 Specifies the block of code to execute if and only if the conditions of all `When` elements evaluate to `false`.  
   

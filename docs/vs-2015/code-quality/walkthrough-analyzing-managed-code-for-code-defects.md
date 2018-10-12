@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Analyzing Managed Code for Code Defects | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "wpickett"
 # Walkthrough: Analyzing Managed Code for Code Defects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Analyzing Managed Code for Code Defects](https://docs.microsoft.com/visualstudio/code-quality/walkthrough-analyzing-managed-code-for-code-defects).  
-  
 In this walkthrough, you analyze a managed project for code defects by using the code analysis tool.  
   
  This walkthrough will step you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the Microsoft .NET Framework Design Guidelines.  

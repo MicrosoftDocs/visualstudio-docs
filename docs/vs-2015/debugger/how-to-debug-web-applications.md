@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # How to: Debug Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug Web Applications](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-web-applications).  
-  
 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] is the primary technology for developing Web applications in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger provides powerful tools for debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications locally or on a remote server. This topic describes how to debug a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] project during development. For information about how to debug a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application already deployed on a production server, see [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md).  
   
  To debug a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application:  

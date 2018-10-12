@@ -1,7 +1,7 @@
 ---
 title: "Selection and Currency in the IDE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Selection and Currency in the IDE
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Selection and Currency in the IDE](https://docs.microsoft.com/visualstudio/extensibility/internals/selection-and-currency-in-the-ide).  
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) maintains information about users' currently selected objects by using selection *context*. With selection context, VSPackages can take part in currency tracking in two ways:  
   
 -   By propagating currency information about the VSPackages to the IDE.  

@@ -1,7 +1,7 @@
 ---
 title: "RDT_ReadLock Usage | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # RDT_ReadLock Usage
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [RDT_ReadLock Usage](https://docs.microsoft.com/visualstudio/extensibility/internals/rdt-readlock-usage).  
-  
 <xref:Microsoft.VisualStudio.Shell.Interop._VSRDTFLAGS> is a flag that provides logic for locking a document in the Running Document Table (RDT), which is the list of all the documents that are currently open in the Visual Studio IDE. This flag determines when documents are opened, and whether a document is visible in the user interface or held invisibly in memory.  
   
  Generally, you would use <xref:Microsoft.VisualStudio.Shell.Interop._VSRDTFLAGS> when one of the following is true:  

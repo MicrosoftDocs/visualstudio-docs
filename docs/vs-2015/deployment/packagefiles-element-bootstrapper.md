@@ -1,7 +1,7 @@
 ---
 title: "&lt;PackageFiles&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "wpickett"
 # &lt;PackageFiles&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;PackageFiles&gt; Element (Bootstrapper)](https://docs.microsoft.com/visualstudio/deployment/packagefiles-element-bootstrapper).  
-  
 The `PackageFiles` element contains `PackageFile` elements, which define the installation packages executed as a result of the `Command` element.  
   
 ## Syntax  

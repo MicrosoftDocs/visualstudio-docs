@@ -1,7 +1,7 @@
 ---
 title: "Create JSDoc Comments for JavaScript IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Create JSDoc Comments for JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](/visualstudio/).  
-  
 IntelliSense in Visual Studio displays information that you add to a script using standard JSDoc comments. You can use JSDoc comments to provide information about code elements such as functions, fields, and variables.  
   
 ## JSDoc Comment Tags  

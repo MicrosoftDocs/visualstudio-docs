@@ -1,7 +1,7 @@
 ---
 title: "Step 3: Assign a Random Icon to Each Label | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Step 3: Assign a Random Icon to Each Label
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 3: Assign a Random Icon to Each Label](https://docs.microsoft.com/visualstudio/ide/step-3-assign-a-random-icon-to-each-label).  
-  
 If the icons show up in the same cells every game, it's not very challenging. To avoid this, assign the icons randomly to the label controls on your form by using an `AssignIconsToSquares()` method.  
   
 ### To assign a random icon to each label  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Modify the Pivot Point of a 3-D Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Modify the Pivot Point of a 3-D Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Modify the Pivot Point of a 3-D Model](https://docs.microsoft.com/visualstudio/designers/how-to-modify-the-pivot-point-of-a-3-d-model).  
-  
 This document demonstrates how to use the Model Editor to modify the *pivot point* of a 3-D model. The pivot point is the point in space that defines the mathematical center of the object for rotation and scaling.  
   
  This document demonstrates this activity:  

@@ -1,7 +1,7 @@
 ---
 title: "Test Area 2: Get From Source Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Test Area 2: Get From Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 2: Get From Source Control](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-2-get-from-source-control).  
-  
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.  
   
 ## Command Menu Access  

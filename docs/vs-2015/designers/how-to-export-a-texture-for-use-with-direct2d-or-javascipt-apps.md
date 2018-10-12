@@ -1,7 +1,7 @@
 ---
 title: "How to: Export a Texture for Use with Direct2D or Javascipt Apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Export a Texture for Use with Direct2D or Javascipt Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Export a Texture for Use with Direct2D or Javascipt Apps](https://docs.microsoft.com/visualstudio/designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps).  
-  
 The Image Content Pipeline can generate textures that are compatible with Direct2D’s internal rendering conventions. Textures of this kind are suitable for use in apps that use Direct2D, and in Windows Store apps created by using JavaScript.  
   
  This document demonstrates these activities:  

@@ -1,7 +1,7 @@
 ---
 title: "When to Create Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # When to Create Project Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [When to Create Project Types](https://docs.microsoft.com/visualstudio/extensibility/internals/when-to-create-project-types).  
-  
 Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] for your users. However, creating a new project type is not required for all [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] customizations. The following guidelines should help you determine whether a new project type is required for your scenario.  
   
 ## Create a New Project Type  

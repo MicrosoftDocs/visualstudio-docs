@@ -1,7 +1,7 @@
 ---
 title: "CvReleaseMarkerSeries Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # CvReleaseMarkerSeries Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvReleaseMarkerSeries Function](https://docs.microsoft.com/visualstudio/profiling/cvreleasemarkerseries-function).  
-  
 Releases marker series. Do not use marker series object after releasing otherwise the application might crash. Failure to release marker series causes a memory leak.  
   
 ## Syntax  

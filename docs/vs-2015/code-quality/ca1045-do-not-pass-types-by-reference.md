@@ -1,7 +1,7 @@
 ---
 title: "CA1045: Do not pass types by reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,9 +23,6 @@ manager: "wpickett"
 ---
 # CA1045: Do not pass types by reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1045: Do not pass types by reference](https://docs.microsoft.com/visualstudio/code-quality/ca1045-do-not-pass-types-by-reference).
-
 |||
 |-|-|
 |TypeName|DoNotPassTypesByReference|

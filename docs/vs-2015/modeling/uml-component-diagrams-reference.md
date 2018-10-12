@@ -1,7 +1,7 @@
 ---
 title: "UML Component Diagrams: Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "douge"
 # UML Component Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Component Diagrams: Reference](https://docs.microsoft.com/visualstudio/modeling/uml-component-diagrams-reference).  
-  
 In Visual Studio, a *component diagram* shows the parts of a design for a software system. A component diagram helps you visualize the high-level structure of the system and the service behavior that those pieces provide and consume through interfaces. To create a UML component diagram, on the **Architecture** menu, click **New UML or Layer Diagram**.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  

@@ -1,7 +1,7 @@
 ---
 title: "Solution User Options (.Suo) File | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Solution User Options (.Suo) File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Solution User Options (.Suo) File](https://docs.microsoft.com/visualstudio/extensibility/internals/solution-user-options-dot-suo-file).  
-  
 The solution user options (.suo) file contains per-user solution options. This file should not be checked in to source code control.  
   
  The solution user options (.suo) file is a structured storage, or compound, file stored in a binary format. You save user information into streams with the name of the stream being the key that will be used to identify the information in the .suo file. The solution user options file is used to store user preference settings, and is created automatically when Visual Studio saves a solution.  

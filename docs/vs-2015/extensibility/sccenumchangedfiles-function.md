@@ -1,7 +1,7 @@
 ---
 title: "SccEnumChangedFiles Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccEnumChangedFiles Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccEnumChangedFiles Function](https://docs.microsoft.com/visualstudio/extensibility/sccenumchangedfiles-function).  
-  
 Given a list of local files, this function determines which files are different from the corresponding versions in the source code control database.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Specific Errors in ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "wpickett"
 # Troubleshooting Specific Errors in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting Specific Errors in ClickOnce Deployments](https://docs.microsoft.com/visualstudio/deployment/troubleshooting-specific-errors-in-clickonce-deployments).  
-  
 This topic lists the following common errors that can occur when you deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, and provides steps to resolve each problem.  
   
 ## General Errors  

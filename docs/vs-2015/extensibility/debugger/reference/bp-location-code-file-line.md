@@ -1,7 +1,7 @@
 ---
 title: "BP_LOCATION_CODE_FILE_LINE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # BP_LOCATION_CODE_FILE_LINE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_LOCATION_CODE_FILE_LINE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-location-code-file-line).  
-  
 Contains the data for the location of a breakpoint at a specific line in a code source file.  
   
 ## Syntax  

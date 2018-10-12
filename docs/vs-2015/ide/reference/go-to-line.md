@@ -1,7 +1,7 @@
 ---
 title: "Go To Line | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Go To Line
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Go To Line](https://docs.microsoft.com/visualstudio/ide/reference/go-to-line).  
-  
   
 This dialog box allows you to move to a specific line in the active document. To access this dialog box, open a document for editing, then select **Go To** on the **Edit** menu.  
   

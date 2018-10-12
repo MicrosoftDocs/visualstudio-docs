@@ -1,7 +1,7 @@
 ---
 title: "Historical Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Historical Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Historical Debugging](https://docs.microsoft.com/visualstudio/debugger/historical-debugging).  
-  
 Historical debugging is a mode of debugging that depends on the information collected by IntelliTrace. It allows you to move backward and forward through the execution of your application and inspect its state.  
   
  You can use IntelliTrace in Visual Studio Enterprise edition (but not the Professional or Community editions).  

@@ -1,7 +1,7 @@
 ---
 title: "Debugging WPF | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Debugging WPF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging WPF](https://docs.microsoft.com/visualstudio/debugger/debugging-wpf).  
-  
 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] provides additional features to make debugging WPF applications easier.  
   
 ## Related Topics  
