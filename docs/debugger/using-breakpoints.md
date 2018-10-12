@@ -57,7 +57,7 @@ Breakpoints are one of the most important debugging techniques in your toolbox. 
 
 - The breakpoint is a toggle. You can click it, press **F9**, or use **Debug** > **Toggle Breakpoint** to delete or reinsert it.
   
-- To disable a breakpoint without deleting it, hover over or right-click it, and select **Disable breakpoint**. Disabled breakpoints appear as empty dots in the left margin. To re-enable a breakpoint, hover over or right-click it, and select **Enable breakpoint**. 
+- To disable a breakpoint without deleting it, hover over or right-click it, and select **Disable breakpoint**. Disabled breakpoints appear as empty dots in the left margin or the **Breakpoints** window. To re-enable a breakpoint, hover over or right-click it, and select **Enable breakpoint**. 
   
 - Set conditions and actions, add and edit labels, or export a breakpoint by right-clicking it and selecting the appropriate command, or hovering over it and selecting the **Settings** icon.
 
@@ -106,16 +106,21 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
    To narrow the function specification:
    
    - Use the fully qualified function name. 
+     
      Example:  `Namespace1.ClassX.MethodA()`
      
    - Add the parameter types of an overloaded function. 
+     
      Example:  `MethodA(int, string)`
      
    - Use the '!' symbol to specify the module.
+     
      Example: `App1.dll!MethodA`
-   
+     
    - Use the context operator in native C++.
+     
      `{function, , [module]} [+<line offset from start of method>]`
+     
      Example: `{MethodA, , App1.dll}+2`
    
 1. In the **Language** dropdown, choose the language of the function.
@@ -127,7 +132,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
   
 1.  Set a breakpoint somewhere after the instance of the class is instantiated.  
     
-2.  Find the address of the instance (for example, `0xcccccccc`).  
+2.  Find the address of the instance (for example, `0xcccccccc`). 
     
 3.  Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **Ctrl**+**B**.  
     
