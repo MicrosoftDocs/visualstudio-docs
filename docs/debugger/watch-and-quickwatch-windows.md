@@ -67,7 +67,7 @@ Add the values of the three variables to the **Watch** window as follows:
 
 You should see the variable values changing as you iterate through the `for` loop.
 
-If you're programming in native code, you may sometimes need to qualify the context of a variable name or an expression that has a variable name. The context is the function, source file, and module where a variable is located. If you have to qualify the context, you can use the context operator syntax. For more information, see [Context Operator (C++)](../debugger/context-operator-cpp.md).
+If you're programming in native code, you may sometimes need to qualify the context of a variable name or an expression that has a variable name. The context is the function, source file, and module where a variable is located. If you have to qualify the context, you can use the context operator syntax. For more information, see [Context operator (C++)](../debugger/context-operator-cpp.md).
 
 ## Observe expressions with the Watch window
 
@@ -105,7 +105,7 @@ A tooltip provides information about why the expression wasn't evaluated if you 
 
 - An error occurred as the expression was being evaluated. For example, a time-out might have occurred, or a variable might have been out of scope.
 
-- The expression has a function call, which could trigger a side effect in the application (see [Side effects and expressions](#bkmk_sideEffects)).
+- The expression has a function call, which could trigger a side effect in the application (see the [Side effects and expressions](#bkmk_sideEffects) section).
 
 - You've turned off automatic evaluation of properties and implicit function calls by the debugger (by choosing **Tools** > **Options** > **Debugging** > **General**, then clearing **Enable property evaluation and other implicit function calls**). The expression can't be automatically evaluated then.
 
@@ -127,7 +127,7 @@ An expression known to have side effects is evaluated only once, when you first 
 
 One way to avoid all side effects is to turn off automatic function evaluation (by choosing **Tools** > **Options** > **Debugging** > **General**, then clearing **Enable property evaluation and other implicit function calls**).
 
-When evaluation of properties or implicit function calls is turned off, you can force evaluation by using the **ac** format modifier (for C# only). See [Format Specifiers in C#](../debugger/format-specifiers-in-csharp.md).
+When evaluation of properties or implicit function calls is turned off, you can force evaluation by using the **ac** format modifier (for C# only). See [Format specifiers in C#](../debugger/format-specifiers-in-csharp.md).
 
 ## <a name="bkmk_objectIds"></a> Use object IDs in the Watch window (C# and Visual Basic)
 
@@ -206,11 +206,11 @@ The **Watch** window may display a dynamic object, which is created from a type 
 To insert a new watch variable that casts an object to a dynamic object:
 
 1. Right-click any child of a **Dynamic View**.
-2. Choose **Add Watch**. Then *object*.*name* becomes ((**dynamic**) *object*).*name*.
+2. Choose **Add Watch**. Then `object.name` becomes `((dynamic) object).name`.
 
 Evaluating the members of a **Dynamic View** can have side effects. For an explanation of what side effects are, see the [Side effects and expressions](#bkmk_sideEffects) section. For C#, the debugger doesn't automatically reevaluate the values shown in the **Dynamic View** when you step to a new line of code. For Visual Basic, expressions added through the **Dynamic View** are automatically refreshed.
 
-For instructions about how to refresh the **Dynamic View** values, see the [Refreshing Watch values that are out of date](#bkmk_refreshWatch) section.
+For instructions about how to refresh the **Dynamic View** values, see the [Refresh Watch values that are out of date](#bkmk_refreshWatch) section.
 
 If you want to display only the **Dynamic View** for an object, you can use the **dynamic** format specifier in the **Watch** window:
 
@@ -261,4 +261,4 @@ You can observe a variable in the **QuickWatch** window as follows:
 
 ## See also
 
-[Debugger Windows](../debugger/debugger-windows.md)
+[Debugger windows](../debugger/debugger-windows.md)
