@@ -47,9 +47,9 @@ If you need to leave this tutorial and come back to it, you can find your new He
 
 Step 1. If you select the manifest, you can see what options are changeable, for instance, metadata, description, and version.
 
-Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **User Control**.
+Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **New Item...**.
 
-Step 3. Go back to the **Extensibility** section, and then click **Custom Command**.
+Step 3. Select the **Extensibility** section once again, and then click **Custom Command**.
 
 Step 4. In the **Name** field at the bottom, give it a name, for instance *Command.cs*.
 
