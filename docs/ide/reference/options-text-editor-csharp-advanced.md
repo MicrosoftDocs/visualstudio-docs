@@ -85,9 +85,9 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    
 - Add usings for types in reference assemblies and NuGet packages 
 
-   When selected, the lightbulb becomes available with a code fix to install a NuGet package for an unreferenced type.
+   When selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
-   ![nuget](/docs/ide/references/media/nuget-lightbulb.png)
+   ![Quick Action to install NuGet package in Visual Studio](/docs/ide/references/media/nuget-lightbulb.png)
   
 ## Highlighting
 
