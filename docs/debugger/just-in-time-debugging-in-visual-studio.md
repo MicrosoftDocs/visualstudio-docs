@@ -16,11 +16,13 @@ ms.workload:
 ---
 # Respond to the Just-In-Time Debugger 
 
-The Just-in-Time Debugger may appear when an error occurs in a running app. You must have [Visual Studio](http://visualstudio.microsoft.com) installed to view detailed information about the error or try to debug it. 
+The Just-in-Time Debugger may appear when an error occurs in a running app, and prevent the app from continuing. 
 
-If you're a Visual Studio user, the Just-in-Time Debugger tries to launch Visual Studio to debug the error. See [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md) and [Debugger basics](../debugger/getting-started-with-the-debugger.md). If you can't fix the error, you can try to ask the owner of the app to resolve the issue.
+The Just-in-Time Debugger tries to launch Visual Studio to debug the error. You must have [Visual Studio](http://visualstudio.microsoft.com) installed to view detailed information about the error or try to debug it. 
 
-If you have Visual Studio installed or had it installed previously, but don't want the Just-in-Time debugger to appear, [disable Just-in-Time debugging](../debugger/debug-using-the-just-in-time-debugger.md) and try to run the app again. The app may handle the error and let you run it normally.
+If you're a Visual Studio user and want to try to debug the error, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md) and [Debugger basics](../debugger/getting-started-with-the-debugger.md) for instructions. If you can't fix the error, you can try to ask the owner of the app to resolve the issue.
+
+If you have Visual Studio installed or had it installed previously, but don't want the Just-in-Time debugger to appear, you can [disable Just-in-Time debugging](../debugger/debug-using-the-just-in-time-debugger.md) in Visual Studio and try to run the app again. The app may handle the error and let you run it normally.
 
 > [!IMPORTANT]
 > If you disable Just-in-Time debugging and the app encounters an unhandled exception (an error), you'll either see a standard error dialog box, or the app will crash or hang. The app won't run normally until the error is fixed.
@@ -31,7 +33,7 @@ If you don't have Visual Studio installed, you can stop the Just-In-Time Debugge
   
   1. To disable script debugging, select **Disable script debugging (Internet Explorer)** and **Disable script debugging (other)** in **Control Panel** > **Network and Internet** > **Internet Options**. The exact steps and settings depend on your version of Windows and your browser.
      
-     [JITInternetOptions](../debugger/media/jitinternetoptions.png "JIT internet options")
+     ![JIT Internet Options](../debugger/media/jitinternetoptions.png "JIT internet options")
   
   1. Reopen the web page that had the error. If you still can't run the app, you can try to ask the owner of the app to fix the issue.
 
