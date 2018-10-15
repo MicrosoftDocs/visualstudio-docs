@@ -81,6 +81,18 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
     > [!NOTE]
     > Disabling project code can lead to a loss of design-time data. An alternative is to debug the code running in the designer.
 
+## Control display options
+
+> [!NOTE]
+> **Control Display Options** is only available when target Universal Windows Platform applications with target version of the Windows 10 Fall Creators Update (Build 16299) or later in Visual Studio 2017 version 15.9 or later. 
+
+In the XAML designer, you can change your control display options to only display platform controls from the Windows SDK. This may improve reliability of the XAML designer.
+
+To change control display options, you can click on the button in the bottom left of the designer screen and select the **Control Display Options** button:
+![Control Display Options](../designers/media/control_display_options.png)
+
+When you select **Only Display Platform Controls**, all custom controls coming from SDKs, customer user controls, and more, will not render completely. Insteady, they will be replaced by fallback controls to demonstrate the size and position of the control.
+
 ## See also
 
 - [Design XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)
