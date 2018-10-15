@@ -16,18 +16,18 @@ ms.workload:
 ---
 # Debug using the Just-In-Time Debugger in Visual Studio
 
-Just-In-Time debugging can launch Visual Studio automatically when an app running outside Visual Studio errors or crashes. Just-In-Time debugging lets you test your app outside of Visual Studio, and open Visual Studio to begin debugging where a problem occurs.
+Just-In-Time debugging can launch Visual Studio automatically when an app running outside Visual Studio errors or crashes. Just-In-Time debugging lets you test apps outside of Visual Studio, and open Visual Studio to begin debugging where a problem occurs.
 
 > [!TIP]
-> If you never had Visual Studio installed, and just want to stop the Just-In-Time Debugger dialog box from appearing, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md).
-> If you no longer have Visual Studio installed, and want to keep the Just-In-Time Debugger dialog from appearing, see [Disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry). 
+> If you just want to stop the Just-In-Time Debugger dialog box from appearing, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, but no longer do, you may need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry). 
 
 > [!NOTE]
 > Just-In-Time debugging works for Windows desktop apps. It does not work for Universal Windows Apps, or for managed code that is hosted in a native application, such as Visualizers.
 
 ##  <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
 
-To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges may be required to change that key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**. 
+>[!NOTE]
+>To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges may be required to change that key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**. 
 
 You can configure Just-In-Time debugging from the Visual Studio **Tools** > **Options** (or **Debug** > **Options**) dialog box. 
 
@@ -93,7 +93,7 @@ To enable Just-In-Time debugging instead of standard Windows Form error handling
    
    For more information, see <xref:System.Diagnostics.DebuggableAttribute>.
 
-## <a name="BKMK_Using_JIT">Use Just-In-Time debugging
+## <a name="BKMK_Using_JIT"></a>Use Just-In-Time debugging
  This example walks you through Just-In-Time debugging when an app throws an error.
 
  - You must have Visual Studio installed to follow these steps. If you don't have Visual Studio, you can download the free [Visual Studio Community Edition](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15).
@@ -144,24 +144,22 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
    
    Under **Do you want to debug using the selected debugger**, select **Yes**.
    
-   The ThrowsNullException project opens in a new instance of Visual Studio, with execution stopped at the line that throws the exception:
-   
-   ![NullReferenceSecondInstance](../debugger/media/nullreferencesecondinstance.png "NullReferenceSecondInstance")
+The ThrowsNullException project opens in a new instance of Visual Studio, with execution stopped at the line that throws the exception:
+
+![NullReferenceSecondInstance](../debugger/media/nullreferencesecondinstance.png "NullReferenceSecondInstance")
 
 You can start debugging at this point. If you were debugging a real application, you would need to find out why the code is throwing the exception.
 
 ## <a name="jit_errors"></a> Troubleshoot Just-In-Time debugging 
 
-- Just-In-Time debugging doesn't start when an app crashes, even though it is enabled in Visual Studio.
-  
-  Windows Error Reporting could be taking over the error handling on your computer. 
-  
-  To fix the issue, use Registry Editor to add a **DWORD Value** of **Disabled**, with **Value data** of **1**, to the following registry keys:
-  
-  - **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting**
-  - (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
- 
-  For more information, see [.WER settings](https://docs.microsoft.com/windows/desktop/wer/wer-settings).
+If Just-In-Time debugging doesn't start when an app crashes, even though it is enabled in Visual Studio, Windows Error Reporting could be taking over the error handling on your computer. 
+
+To fix the issue, use Registry Editor to add a **DWORD Value** of **Disabled**, with **Value data** of **1**, to the following registry keys:
+
+- **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting**
+- (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
+
+For more information, see [.WER settings](https://docs.microsoft.com/windows/desktop/wer/wer-settings).
 
 You might see the following error messages during Just-In-Time debugging:
 
@@ -169,7 +167,7 @@ You might see the following error messages during Just-In-Time debugging:
 
     The debugger tried to attach to a process running under another user.
 
-    To work around this problem, in Visual Studio, open **Debug** > **Attach to Process**, and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, match the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog box.
+    To work around this problem, in Visual Studio, open **Debug** > **Attach to Process**, and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
 
 - **Debugger could not be started because no user is logged on.**
 
