@@ -71,7 +71,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
 ## Enable Just-In-Time debugging of a Windows Form
 
-By default, Windows Form apps have a top-level exception handler that lets the app keep running if it can recover. If a Windows Forms app throws an unhandled exception, it shows a dialog like the following:
+By default, Windows Form apps have a top-level exception handler that lets the app keep running if it can recover. If a Windows Forms app throws an unhandled exception, it shows the following dialog:
 
 ![Windows Form unhandled exception](../debugger/media/windowsformsunhandledexception.png "Windows Form unhandled exception")
 
@@ -85,7 +85,7 @@ To enable Just-In-Time debugging instead of standard Windows Form error handling
     </configuration>
     ```
     
--  In a C++ Windows Form application, also set `DebuggableAttribute` in a *.config* file or in your code. If you compile with [/Zi](/cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set this yourself. You can do this by adding the following line in your app's *AssemblyInfo.cpp* file:
+-  In a C++ Windows Form application, also set `DebuggableAttribute` to `true` in a *.config* file or in your code. If you compile with [/Zi](/cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set `DebuggableAttribute` by adding the following line in your app's *AssemblyInfo.cpp* file:
 
    ```cpp
    [assembly:System::Diagnostics::DebuggableAttribute(true, true)];
@@ -123,7 +123,7 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
    
 1. Open the built app, *ThrowsNullException.exe* in your C# project folder (*...\ThrowsNullException\ThrowsNullException\bin\Debug* or *...\ThrowsNullException\ThrowsNullException\bin\Release*). 
    
-   You should see a command window like this:
+   You should see the following command window:
    
    ![ThrowsNullExceptionConsole](../debugger/media/throwsnullexceptionconsole.png "ThrowsNullExceptionConsole")
    
@@ -148,12 +148,11 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
    
    ![NullReferenceSecondInstance](../debugger/media/nullreferencesecondinstance.png "NullReferenceSecondInstance")
 
-You can start debugging at this point. If this were a real application, you would need to find out why the code is throwing the exception.
+You can start debugging at this point. If you were debugging a real application, you would need to find out why the code is throwing the exception.
 
 ## <a name="jit_errors"></a> Troubleshoot Just-In-Time debugging 
 
-- Just-In-Time debugging doesn't open when an app crashes, although it is enabled in Visual Studio.
-
+- Just-In-Time debugging doesn't start when an app crashes, even though it is enabled in Visual Studio.
   
   Windows Error Reporting could be taking over the error handling on your computer. 
   
