@@ -30,7 +30,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Place 'System' directives first when sorting usings
 
-   When selected, the **Remove and Sort Usings** option in the right-click menu sorts the 'using' directives and places the System namespaces at the top of the list
+   When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list
 
    Before sorting:
 
@@ -56,7 +56,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    
 - Separate using directive groups
 
-   Whenever you select **Sort Usings** or **Remove and Sort**, Visual Studio will sort the usings by directive group.
+   When selected, the **Remove and Sort Usings** command in the right-click menu separates `using` directives by inserting an empty line between groups of directives that have the same root namespace.
 
    Before sorting:
 
@@ -88,7 +88,6 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    When selected, the lightbulb becomes available with a code fix to install a NuGet package for an unreferenced type.
 
    ![nuget](/docs/ide/references/media/nuget-lightbulb.png)
-
   
 ## Highlighting
 
