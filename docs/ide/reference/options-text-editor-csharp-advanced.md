@@ -87,7 +87,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
    When selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
-   ![Quick Action to install NuGet package in Visual Studio](/docs/ide/references/media/nuget-lightbulb.png)
+   ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
   
 ## Highlighting
 
