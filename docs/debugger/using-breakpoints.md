@@ -38,12 +38,12 @@ ms.workload:
   - "multiple"
 ---
 # Use breakpoints in the Visual Studio debugger
-Breakpoints are one of the most important debugging techniques in your toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  
+Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  
   
-##  <a name="BKMK_Overview"></a> Set line breakpoints in source code  
+##  <a name="BKMK_Overview"></a> Set breakpoints in source code  
  You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on the namespace or class declarations, or on the method signature.  
 
- To set a line breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.  
+ To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.  
   
  ![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")  
   
@@ -278,7 +278,7 @@ Enclose string values in double quotes. You can combine clauses using `&` (AND),
   
 **To set a tracepoint:**
 
-1. Right-click a breakpoint and select **Actions**. Or, hover over the breakpoint, select the **Settings** icon, and then select **Actions** in the **Breakpoint Settings** window.  
+1. Right-click a breakpoint and select **Actions**. Or, in the **Breakpoint Settings** window, hover over the breakpoint, select the **Settings** icon, and then select **Actions**.  
    
 1. Enter a message in the **Log a message to Output window** field. The message can include generic text strings, values of variables or expressions enclosed in curly braces, and format specifiers ([C#](../debugger/format-specifiers-in-csharp.md) and [C++](../debugger/format-specifiers-in-cpp.md)) for the values.
    
