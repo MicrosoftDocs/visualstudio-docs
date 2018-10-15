@@ -1,7 +1,7 @@
 ---
 title: "Project Configuration Object | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Project Configuration Object
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Configuration Object](https://docs.microsoft.com/visualstudio/extensibility/internals/project-configuration-object).  
-  
 The project configuration object manages the display of configuration information to the UI.  
   
  ![Visual Studio Project Configuration](../../extensibility/internals/media/vsprojectcfg.gif "vsProjectCfg")  

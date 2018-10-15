@@ -1,7 +1,7 @@
 ---
 title: "Signing VSIX Packages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Signing VSIX Packages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Signing VSIX Packages](https://docs.microsoft.com/visualstudio/extensibility/signing-vsix-packages).  
-  
 Extension assemblies do not need to be signed before they can run in Visual Studio, but it is a good practice to do so.  
   
  If you want to secure your extension and make sure it hasn’t been tampered with, you can add a digital signature to a VSIX package. When a VSIX is signed, the VSIX installer will display a message indicating that it is signed, plus more information about the signature itself. If the contents of the VSIX have been modified, and the VSIX has not been signed again, the VSIX installer will show that the signature is not valid. The installation is not stopped, but the user is warned.  

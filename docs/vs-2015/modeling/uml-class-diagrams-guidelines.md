@@ -1,7 +1,7 @@
 ---
 title: "UML Class Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "douge"
 # UML Class Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Class Diagrams: Guidelines](https://docs.microsoft.com/visualstudio/modeling/uml-class-diagrams-guidelines).  
-  
 In Visual Studio, you can use a *UML class diagram* to describe data types and their relationships separately from their implementation. The diagram is used to focus on the logical aspects of the classes, instead of their implementation.  
   
  To create a UML class diagram, on the **Architecture** menu, choose **New UML Diagram or Layer Diagram**.  

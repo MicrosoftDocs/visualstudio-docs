@@ -1,7 +1,7 @@
 ---
 title: "Creating an Extension with a Tool Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Creating an Extension with a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating an Extension with a Tool Window](https://docs.microsoft.com/visualstudio/extensibility/creating-an-extension-with-a-tool-window).  
-  
 In this procedure, you learn how to use the VSIX project template and the **Custom Tool Window** item template to create an extension with a tool window.  
   
 ## Prerequisites  

@@ -1,14 +1,14 @@
 ---
 title: "Remote Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.remote.overview"
 dev_langs: 
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Remote Debugging](https://docs.microsoft.com/visualstudio/debugger/remote-debugging).  
-  
 You can debug a Visual Studio application that has been deployed on a different computer.  To do so, you use the Visual Studio remote debugger.  
   
  The information here applies to Windows desktop applications and ASP.NET applications.  For information about remote debugging Windows Store apps and Azure apps, see [Remote Debugging on Windows Store and Azure apps](#bkmk_winstoreAzure).  
@@ -39,7 +37,7 @@ You can either download the remote tools directly on the device or server that y
 
 ### To download and install the remote tools
   
-1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the the remote tools.
+1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the remote tools.
 
     |Version|Link|Notes|
     |-|-|-|
@@ -53,7 +51,7 @@ You can either download the remote tools directly on the device or server that y
     > [!IMPORTANT]
     >  We recommend you install the most recent version of the remote tools that matches your version of Visual Studio. Mismatched versions are not recommended.  
     >   
-    >  In addition, you must install the remote tools that have the same architecture as the operating system on which you want to install it. In other words, if you want to debug a 32-bit application on a  a remote computer running a 64-bit operating system, you must install the 64-bit version of the remote tools on the remote computer.  
+    >  In addition, you must install the remote tools that have the same architecture as the operating system on which you want to install it. In other words, if you want to debug a 32-bit application on a remote computer running a 64-bit operating system, you must install the 64-bit version of the remote tools on the remote computer.  
   
 3.  When you have finished downloading the executable, follow the directions to install the application on the remote computer. See [setup instructions](#bkmk_setup)
 

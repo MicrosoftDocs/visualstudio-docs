@@ -1,7 +1,7 @@
 ---
 title: "XML Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XML Editor](https://docs.microsoft.com/visualstudio/xml-tools/xml-editor).  
-  
   
 The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio Text Editor and includes additional support for the XML languages. The XML Editor includes the following features:  
   

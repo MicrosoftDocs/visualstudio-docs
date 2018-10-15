@@ -1,7 +1,7 @@
 ---
 title: "Error: Unable to initiate DCOM communication | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Error: Unable to initiate DCOM communication
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Unable to initiate DCOM communication](https://docs.microsoft.com/visualstudio/debugger/error-unable-to-initiate-dcom-communication).  
-  
 A DCOM error occurred when the local machine tried to communicate with the remote machine. This is caused by a firewall on the remote server or broken Windows authentication on the remote machine.  
   
 ### To correct this error  

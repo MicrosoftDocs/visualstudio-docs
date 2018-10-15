@@ -1,7 +1,7 @@
 ---
 title: "Options, Text Editor, JavaScript, IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Options, Text Editor, JavaScript, IntelliSense
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, JavaScript, IntelliSense](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-javascript-intellisense).  
-  
   
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the  menu bar, and then expanding **Text Editor**, **JavaScript**, **IntelliSense.**  
   
@@ -64,7 +62,7 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
   
  You can use pre-defined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. Four reference groups are available:  
   
--   Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript.  
+-   Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript.  
   
 -   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
   

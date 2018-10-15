@@ -1,7 +1,7 @@
 ---
 title: "marker_series::is_enabled Method | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # marker_series::is_enabled Method
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [marker_series::is_enabled Method](https://docs.microsoft.com/visualstudio/profiling/marker-series-is-enabled-method).  
-  
 Determines if any session has enabled the provider.  
   
 ## Syntax  

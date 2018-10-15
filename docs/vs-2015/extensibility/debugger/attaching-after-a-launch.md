@@ -1,7 +1,7 @@
 ---
 title: "Attaching After a Launch | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Attaching After a Launch
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Attaching After a Launch](https://docs.microsoft.com/visualstudio/extensibility/debugger/attaching-after-a-launch).  
-  
 After a program has been launched, the debug session is ready to attach the debug engine (DE) to said program.  
   
 ## Design Decisions  

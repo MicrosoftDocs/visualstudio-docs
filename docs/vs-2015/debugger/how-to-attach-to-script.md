@@ -1,7 +1,7 @@
 ---
 title: "How to: Attach to Script | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # How to: Attach to Script
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Attach to Script](https://docs.microsoft.com/visualstudio/debugger/how-to-attach-to-script).  
-  
 This topic explains how to manually attach the Visual Studio debugger to a script file for debugging.  
   
 ### To attach to a running process  

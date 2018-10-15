@@ -1,12 +1,12 @@
 ---
 title: "Find potential problems using code map analyzers | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.progression.codemapanalyzers"
 helpviewer_keywords: 
@@ -22,8 +22,6 @@ manager: "douge"
 # Find potential problems using code map analyzers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Find potential problems using code map analyzers](https://docs.microsoft.com/visualstudio/modeling/find-potential-problems-using-code-map-analyzers).  
-  
 Run analyzers on code maps to help you identify code that might be overly complex or that might need improvement. For example, you can use these analyzers:  
   
 |**To find code that has**|**Examine these areas to see whether**|  

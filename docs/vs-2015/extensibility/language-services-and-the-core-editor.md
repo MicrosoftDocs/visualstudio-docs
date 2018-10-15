@@ -1,7 +1,7 @@
 ---
 title: "Language Services and the Core Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Language Services and the Core Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Language Services and the Core Editor](https://docs.microsoft.com/visualstudio/extensibility/language-services-and-the-core-editor).  
-  
 Editors in Visual Studio are frequently associated with a language service. Among other things, a language service provides syntax coloring, statement completion, IntelliSense, and text formatting.  
   
 ## Core Editors and Document Data Objects  

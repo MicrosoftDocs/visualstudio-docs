@@ -1,7 +1,7 @@
 ---
 title: "Extensions and Updates, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Extensions and Updates, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extensions and Updates, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/extensions-and-updates-environment-options-dialog-box).  
-  
   
 Use this page to set options for how Visual Studio performs updates and how extensions are updated and discovered.  
   

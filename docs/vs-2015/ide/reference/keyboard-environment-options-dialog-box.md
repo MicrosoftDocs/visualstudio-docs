@@ -1,7 +1,7 @@
 ---
 title: "Keyboard, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Keyboard, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Keyboard, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/keyboard-environment-options-dialog-box).  
-  
   
 Use this page to set keyboard mappings. For more information about mappings, see [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).  
   

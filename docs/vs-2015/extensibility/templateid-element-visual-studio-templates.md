@@ -1,7 +1,7 @@
 ---
 title: "TemplateID Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # TemplateID Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TemplateID Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/templateid-element-visual-studio-templates).  
-  
 Specifies an identifier for an item template that is categorized into a group of item templates by the [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md) element.  
   
  \<VSTemplate>  

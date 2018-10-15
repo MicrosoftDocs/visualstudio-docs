@@ -1,7 +1,7 @@
 ---
 title: "Model Editor Examples | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Model Editor Examples
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Model Editor Examples](https://docs.microsoft.com/visualstudio/designers/model-editor-examples).  
-  
 The articles in this section of the documentation contain examples that demonstrate how you can use the Model Editor.  
   
 ## Related topics  

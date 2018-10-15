@@ -1,7 +1,7 @@
 ---
 title: "Error: Unable to Automatically Step Into the Server | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,8 +31,6 @@ manager: "ghogen"
 # Error: Unable to Automatically Step Into the Server
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Unable to Automatically Step Into the Server](https://docs.microsoft.com/visualstudio/debugger/error-unable-to-automatically-step-into-the-server).  
-  
 The error reads:  
   
  Unable to Automatically Step Into the Server. The debugger was not notified before the remote procedure was executed  

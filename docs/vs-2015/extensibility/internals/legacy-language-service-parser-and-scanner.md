@@ -1,7 +1,7 @@
 ---
 title: "Legacy Language Service Parser and Scanner | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Legacy Language Service Parser and Scanner
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Parser and Scanner](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-parser-and-scanner).  
-  
 The parser is the heart of the language service. The Managed Package Framework (MPF) language classes require a language parser to select information about the code being displayed. A parser separates the text into lexical tokens and then identifies those tokens by type and functionality.  
   
 ## Discussion  
@@ -79,7 +77,7 @@ namespace MyNamespace
 ## Parsing for Matching Braces  
  This example shows the flow of control for matching a closing brace that the user has typed. In this process, the scanner that is used for colorization is also used to determine the type of token and whether the token can trigger a match-brace operation. If the trigger is found, the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method is called to find the matching brace. Finally, the two braces are highlighted.  
   
- Even though braces are used in the names of triggers and parse reasons, this process is not limited to actual braces. Any pair of characters that that is specified to be a matching pair is supported. Examples include ( and ), \< and >, and [ and ].  
+ Even though braces are used in the names of triggers and parse reasons, this process is not limited to actual braces. Any pair of characters that is specified to be a matching pair is supported. Examples include ( and ), \< and >, and [ and ].  
   
  Assume that the language service supports matching braces.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Font and Color Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Font and Color Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Font and Color Overview](https://docs.microsoft.com/visualstudio/extensibility/font-and-color-overview).  
-  
 This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE). It also introduces the concepts of Categories and Display Items, and it describes how VSPackages and the core editor use text attributes.  
   
 ## The Fonts and Colors Property Page  

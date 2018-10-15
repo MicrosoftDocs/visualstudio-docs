@@ -1,7 +1,7 @@
 ---
 title: "Creating a Basic Project System, Part 2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Creating a Basic Project System, Part 2
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Basic Project System, Part 2](https://docs.microsoft.com/visualstudio/extensibility/creating-a-basic-project-system-part-2).  
-  
 The first walkthrough in this series, [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md), shows how to create a basic project system. This walkthrough builds on the basic project system by adding a Visual Studio template, a property page, and other features. You must complete the first walkthrough before you start this one.  
   
  This walkthrough teaches how to create a project type that has the project file name extension .myproj. To complete the walkthrough, you do not have to create your own language because the walkthrough borrows from the existing Visual C# project system.  
@@ -49,7 +47,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
   
 1.  In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open the SimpleProject solution that you created by following [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md).  
   
-2.  In the SimpleProjectPackage.cs file, find the the ProvideProjectFactory attribute. Replace the second parameter (the project name) with null, and the fourth parameter (the path to the project template folder) with ".\\\NullPath", as follows.  
+2.  In the SimpleProjectPackage.cs file, find the ProvideProjectFactory attribute. Replace the second parameter (the project name) with null, and the fourth parameter (the path to the project template folder) with ".\\\NullPath", as follows.  
   
     ```  
     [ProvideProjectFactory(typeof(SimpleProjectFactory), null,  

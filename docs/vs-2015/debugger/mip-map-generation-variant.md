@@ -1,7 +1,7 @@
 ---
 title: "Mip-map Generation Variant | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Mip-map Generation Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mip-map Generation Variant](https://docs.microsoft.com/visualstudio/debugger/graphics/mip-map-generation-variant).  
-  
 Enables mip-maps on textures that are not render targets.  
   
 ## Interpretation  

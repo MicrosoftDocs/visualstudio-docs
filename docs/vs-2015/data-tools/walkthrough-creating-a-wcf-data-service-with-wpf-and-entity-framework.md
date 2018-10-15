@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating a WCF Data Service with WPF and Entity Framework](https://docs.microsoft.com/visualstudio/data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework).  
-  
   
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] that is hosted in an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application and then access it from a Windows Forms application.  
   

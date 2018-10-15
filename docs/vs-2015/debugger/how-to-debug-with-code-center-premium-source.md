@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug with Code Center Premium Source | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # How to: Debug with Code Center Premium Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug with Code Center Premium Source](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-with-code-center-premium-source).  
-  
 With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, you can debug secure shared source from Microsoft MSDN Code Center Premium.  
   
  This topic explains how to set up and debug Code Center Premium source code in Visual Studio.  
@@ -44,7 +42,7 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
   
 5.  Clear the **Enable Just My Code (Managed Only)** check box.  
   
-6.  Select **Enable Enable Source Server Support**.  
+6.  Select **Enable Source Server Support**.  
   
 7.  Clear **Require source files to exactly match the original version**.  
   

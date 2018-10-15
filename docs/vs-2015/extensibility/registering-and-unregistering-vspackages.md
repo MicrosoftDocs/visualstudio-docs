@@ -1,7 +1,7 @@
 ---
 title: "Registering and Unregistering VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Registering and Unregistering VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering and Unregistering VSPackages](https://docs.microsoft.com/visualstudio/extensibility/registering-and-unregistering-vspackages).  
-  
 You use attributes to register a VSPackage, but  
   
 ## Registering a VSPackage  

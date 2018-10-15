@@ -1,7 +1,7 @@
 ---
 title: "SccQueryChanges Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccQueryChanges Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccQueryChanges Function](https://docs.microsoft.com/visualstudio/extensibility/sccquerychanges-function).  
-  
 This function enumerates a given list of files, providing information about name changes for each file via a callback function.  
   
 ## Syntax  

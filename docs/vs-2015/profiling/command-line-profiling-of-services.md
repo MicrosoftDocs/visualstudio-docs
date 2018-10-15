@@ -1,7 +1,7 @@
 ---
 title: "Command-Line Profiling of Services | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Command-Line Profiling of Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command-Line Profiling of Services](https://docs.microsoft.com/visualstudio/profiling/command-line-profiling-of-services).  
-  
 This section describes the procedures and options for collecting performance data for Windows services by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools from the command line.  
   
 > [!NOTE]

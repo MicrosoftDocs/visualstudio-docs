@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Missing Objects Due to Vertex Shading | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: Missing Objects Due to Vertex Shading
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Missing Objects Due to Vertex Shading](https://docs.microsoft.com/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading).  
-  
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics tools to investigate an object that is missing due to an error that occurs during the vertex shader stage.  
   
  This walkthrough illustrates these tasks:  
@@ -110,7 +108,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
     > [!TIP]
     >  If you are simultaneously debugging your app, you can set a breakpoint at this location and it will be hit when the next frame is rendered. You can then inspect the members of `m_marbleConstantBufferData` to confirm that the value of the `projection` member is set to all zeros when the constant buffer is filled.  
   
- After you find the location where the constant buffer is being filled and discover that that its values come from the variable `m_marbleConstantBufferData`, the next step is to find out where the `m_marbleConstantBufferData.projection` member is set to all zeros. You can use **Find All References** to quickly scan for code that changes the value of `m_marbleConstantBufferData.projection`.  
+ After you find the location where the constant buffer is being filled and discover that its values come from the variable `m_marbleConstantBufferData`, the next step is to find out where the `m_marbleConstantBufferData.projection` member is set to all zeros. You can use **Find All References** to quickly scan for code that changes the value of `m_marbleConstantBufferData.projection`.  
   
 #### To find where the projection member is set in your app's source code  
   

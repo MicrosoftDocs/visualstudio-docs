@@ -1,7 +1,7 @@
 ---
 title: "UidManager Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # UidManager Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UidManager Task](https://docs.microsoft.com/visualstudio/msbuild/uidmanager-task).  
-  
   
 The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or removes unique identifiers (UIDs), in order to localize all [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] elements that are included in the source [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] files.  
   

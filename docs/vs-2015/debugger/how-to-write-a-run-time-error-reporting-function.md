@@ -1,7 +1,7 @@
 ---
 title: "How to: Write a Run-Time Error Reporting Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # How to: Write a Run-Time Error Reporting Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Write a Run-Time Error Reporting Function](https://docs.microsoft.com/visualstudio/debugger/how-to-write-a-run-time-error-reporting-function).  
-  
 A custom reporting function for run-time errors must have the same declaration as `_CrtDbgReportW`. It should return a value of 1 to the debugger.  
   
  The following example shows how to define a custom reporting function.  

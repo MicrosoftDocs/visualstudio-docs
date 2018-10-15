@@ -1,7 +1,7 @@
 ---
 title: "How to: Open Editors for Open Documents | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Open Editors for Open Documents
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Open Editors for Open Documents](https://docs.microsoft.com/visualstudio/extensibility/how-to-open-editors-for-open-documents).  
-  
 Before a project opens a document window, the project first must determine whether the file is already open in the document window for another editor. The file can be either open in a project-specific editor, or one of the standard editors registered with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 ## Opening a Project-Specific Editor  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Create a Basic Texture | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic Texture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Basic Texture](https://docs.microsoft.com/visualstudio/designers/how-to-create-a-basic-texture).  
-  
 This document demonstrates how to use the Image Editor to create a basic texture.  
   
  This document demonstrates these activities:  

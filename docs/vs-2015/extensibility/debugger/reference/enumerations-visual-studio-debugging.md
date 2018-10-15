@@ -1,7 +1,7 @@
 ---
 title: "Enumerations (Visual Studio Debugging) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Enumerations (Visual Studio Debugging)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Enumerations (Visual Studio Debugging)](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/enumerations-visual-studio-debugging).  
-  
 Following are enumerations for the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] Debugging SDK.  
   
  [AD_PROCESS_ID_TYPE](../../../extensibility/debugger/reference/ad-process-id-type.md)  
@@ -115,7 +113,7 @@ Following are enumerations for the [!INCLUDE[vsprvs](../../../includes/vsprvs-md
  Specifies the scope of the disassembly stream.  
   
  [DisplayKind](../../../extensibility/debugger/reference/displaykind.md)  
- Enumerates the valid values that represent the kinds of information to take from an an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object and display to the user.  
+ Enumerates the valid values that represent the kinds of information to take from an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object and display to the user.  
   
  [DOCCONTEXT_COMPARE](../../../extensibility/debugger/reference/doccontext-compare.md)  
  Specifies the criteria for comparing two document contexts.  

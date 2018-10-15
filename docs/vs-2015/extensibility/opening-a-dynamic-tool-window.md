@@ -1,7 +1,7 @@
 ---
 title: "Opening a Dynamic Tool Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Opening a Dynamic Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Opening a Dynamic Tool Window](https://docs.microsoft.com/visualstudio/extensibility/opening-a-dynamic-tool-window).  
-  
 Tool windows are typically opened from a command on a menu, or an equivalent keyboard shortcut. At times, however, you might need a tool window that opens whenever a specific UI context applies, and closes when the UI context no longer applies. Tool windows like these are called *dynamic* or *auto-visible*.  
   
 > [!NOTE]

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Custom Directive Processor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Walkthrough: Creating a Custom Directive Processor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating a Custom Directive Processor](https://docs.microsoft.com/visualstudio/modeling/walkthrough-creating-a-custom-directive-processor).  
-  
 Directive processors* work by adding code to the *generated transformation class*. If you call a *directive* from a *text template*, the rest of the code that you write in your text template can rely on the functionality that the directive provides.  
   
  You can write your own custom directive processors. This enables you to customize your text templates. To create a custom directive processor, you create a class that inherits from either <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
@@ -130,7 +128,7 @@ End Property
   
             //These are the errors that occur during processing. The engine passes   
             //the errors to the host, and the host can decide how to display them,  
-            //for example the the host can display the errors in the UI  
+            //for example the host can display the errors in the UI  
             //or write them to a file.  
             //---------------------------------------------------------------------  
             private CompilerErrorCollection errorsValue;  
@@ -390,7 +388,7 @@ End Property
   
             'These are the errors that occur during processing. The engine passes   
             'the errors to the host, and the host can decide how to display them,  
-            'for example the the host can display the errors in the UI  
+            'for example the host can display the errors in the UI  
             'or write them to a file.  
             '---------------------------------------------------------------------  
             Private errorsValue As CompilerErrorCollection  

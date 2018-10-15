@@ -1,7 +1,7 @@
 ---
 title: "Link model elements and work items | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "douge"
 # Link model elements and work items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Link model elements and work items](https://docs.microsoft.com/visualstudio/modeling/link-model-elements-and-work-items).  
-  
 Track tasks, test cases, bugs, requirements, issues, and other work related to your model by linking model elements in Visual Studio and work items in Team Foundation Server or Visual Studio Team Services. Attach documents to linked work items to associate them with model elements.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  

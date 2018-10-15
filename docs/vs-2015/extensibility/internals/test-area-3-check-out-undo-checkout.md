@@ -1,7 +1,7 @@
 ---
 title: "Test Area 3: Check Out-Undo Checkout | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Test Area 3: Check Out/Undo Checkout
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 3: Check Out-Undo Checkout](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-3-check-out-undo-checkout).  
-  
 This source-control plug-in test area covers editing and reverting items from the version store via the **Check Out** and **Undo Checkout** commands.  
   
  **Check Out**: Marks an item in the version store as checked out, modifies the local copy to read/write.  

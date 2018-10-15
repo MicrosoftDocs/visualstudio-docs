@@ -1,7 +1,7 @@
 ---
 title: "Understanding Resource Contention Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Understanding Resource Contention Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Understanding Resource Contention Data Values](https://docs.microsoft.com/visualstudio/profiling/understanding-resource-contention-data-values).  
-  
 Resource contention profiling collects detailed call stack information each time competing threads in an application are forced to wait for access to a shared resource.  
   
  **Requirements**  

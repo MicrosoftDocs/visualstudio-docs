@@ -1,7 +1,7 @@
 ---
 title: "Client Block Hook Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # Client Block Hook Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Client Block Hook Functions](https://docs.microsoft.com/visualstudio/debugger/client-block-hook-functions).  
-  
 If you want to validate or report the contents of the data stored in `_CLIENT_BLOCK` blocks, you can write a function specifically for this purpose. The function that you write must have a prototype similar to the following, as defined in CRTDBG.H:  
   
 ```  

@@ -1,7 +1,7 @@
 ---
 title: "Working with the Domain-Specific Language Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Working with the Domain-Specific Language Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with the Domain-Specific Language Explorer](https://docs.microsoft.com/visualstudio/modeling/working-with-the-domain-specific-language-explorer).  
-  
 The **DSL Explorer** displays several kinds of information in a tree view. For more information about most of the items in the DSL Explorer, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).  
   
  It has the following nodes:  

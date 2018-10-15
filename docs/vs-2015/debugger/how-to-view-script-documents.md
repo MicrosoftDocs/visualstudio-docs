@@ -1,7 +1,7 @@
 ---
 title: "How to: View Script Documents | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # How to: View Script Documents
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: View Script Documents](https://docs.microsoft.com/visualstudio/debugger/how-to-view-script-documents).  
-  
 In earlier versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], client-side script files generated from server-side script appeared in the Script Explorer window. The Script Explorer window was often hidden, so that the availability of client-side script was not always obvious.  
   
  In [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], client-side script files generated from server-side script appear in Solution Explorer, which is visible by default. The Script Explorer window has been eliminated.  

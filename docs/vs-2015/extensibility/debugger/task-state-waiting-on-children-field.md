@@ -1,7 +1,7 @@
 ---
 title: "TASK_STATE_WAITING_ON_CHILDREN Field | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # TASK_STATE_WAITING_ON_CHILDREN Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TASK_STATE_WAITING_ON_CHILDREN Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/task-state-waiting-on-children-field).  
-  
 The task has finished executing its delegate and is implicitly waiting for attached child tasks to complete.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

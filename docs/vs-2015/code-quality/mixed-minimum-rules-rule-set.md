@@ -1,7 +1,7 @@
 ---
 title: "Mixed Minimum Rules rule set | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "wpickett"
 # Mixed Minimum Rules rule set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mixed Minimum Rules rule set](https://docs.microsoft.com/visualstudio/code-quality/mixed-minimum-rules-rule-set).  
-  
 The Microsoft Mixed Minimum Rules focus on the most critical problems in your C++ projects that support the Common Language Runtime, including potential security holes and application crashes. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime.  
   
 |Rule|Description|  

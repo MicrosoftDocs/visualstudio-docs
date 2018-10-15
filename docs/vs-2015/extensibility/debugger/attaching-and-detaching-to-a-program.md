@@ -1,7 +1,7 @@
 ---
 title: "Attaching and Detaching to a Program | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Attaching and Detaching to a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Attaching and Detaching to a Program](https://docs.microsoft.com/visualstudio/extensibility/debugger/attaching-and-detaching-to-a-program).  
-  
 Attaching the debugger requires sending the correct sequence of methods and events with the proper attributes.  
   
 ## Sequence of Methods and Events  

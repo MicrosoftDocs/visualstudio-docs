@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Troubleshooting .NET Framework Targeting Errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting .NET Framework Targeting Errors](https://docs.microsoft.com/visualstudio/msbuild/troubleshooting-dotnet-framework-targeting-errors).  
-  
   
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.  
   

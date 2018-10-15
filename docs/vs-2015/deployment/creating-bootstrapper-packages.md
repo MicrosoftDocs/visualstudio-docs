@@ -1,7 +1,7 @@
 ---
 title: "Creating Bootstrapper Packages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "wpickett"
 # Creating Bootstrapper Packages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Bootstrapper Packages](https://docs.microsoft.com/visualstudio/deployment/creating-bootstrapper-packages).  
-  
 The Setup program is a generic installer that can be configured to detect and install redistributable components such as Windows Installer (.msi) files and executable programs. The installer is also known as a bootstrapper. It is programmed through a set of XML manifests that specify the metadata to manage the installation of the component.  
   
  The bootstrapper first detects whether any of the prerequisites are already installed. If prerequisites are not installed, first the bootstrapper shows the license agreements. Second, after the end-user accepts the license agreements, the installation begins for the prerequisites. Otherwise, if all the prerequisites are detected, the bootstrapper just starts the application installer.  

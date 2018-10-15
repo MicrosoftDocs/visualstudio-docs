@@ -1,7 +1,7 @@
 ---
 title: "Properties of operations on UML class diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Properties of operations on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of operations on UML class diagrams](https://docs.microsoft.com/visualstudio/modeling/properties-of-operations-on-uml-class-diagrams).  
-  
 On a UML class diagram, you can add *operations* to classes and interfaces. An operation is a method or function that can be performed by an instance of a class or interface.  
   
  To add an operation, right-click the class or interface, point to **Add**, and then click **Operation**.  

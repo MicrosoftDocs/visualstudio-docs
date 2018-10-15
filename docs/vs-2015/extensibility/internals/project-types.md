@@ -1,7 +1,7 @@
 ---
 title: "Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Project Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Types](https://docs.microsoft.com/visualstudio/extensibility/internals/project-types).  
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../includes/csprcs-md.md)] and [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)]. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] also lets you create your own project types.  
   
 ## In This Section  

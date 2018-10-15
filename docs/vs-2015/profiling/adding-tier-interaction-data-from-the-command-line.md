@@ -1,7 +1,7 @@
 ---
 title: "Adding tier interaction data from the command line | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Adding tier interaction data from the command line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding tier interaction data from the command line](https://docs.microsoft.com/visualstudio/profiling/adding-tier-interaction-data-from-the-command-line).  
-  
 Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../includes/vstecado-md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.  
   
  **Windows 8 and Windows Server 2012**  

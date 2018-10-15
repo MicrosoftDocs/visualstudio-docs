@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findInlineeLines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::findInlineeLines
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::findInlineeLines](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-findinlineelines).  
-  
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol.  
   
 ## Syntax  

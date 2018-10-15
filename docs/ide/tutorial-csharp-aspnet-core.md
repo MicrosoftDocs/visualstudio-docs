@@ -126,7 +126,7 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
 1. Keep the browser window open and return to Visual Studio.
 
-1. In Visual Studio, choose **About.cshtml**. Then, delete the word _changed_ and in its place, add the words _file and directory_.
+1. In Visual Studio, choose **About.cshtml**. Then, delete the word _additional_ and in its place, add the words _file and directory_.
 
     ![Change the text in the About.cshtml file](../ide/media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code-changed.png)
 
@@ -192,4 +192,4 @@ Congratulations on completing this tutorial! We hope you learned a little bit ab
 
 ## See also
 
-[Publish your web app to Azure App Service by using Visual Studio](..//deployment/quickstart-deploy-to-azure.md)
+[Publish your web app to Azure App Service by using Visual Studio](../deployment/quickstart-deploy-to-azure.md)

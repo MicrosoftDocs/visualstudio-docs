@@ -1,7 +1,7 @@
 ---
 title: "VSPerf | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # VSPerf
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPerf](https://docs.microsoft.com/visualstudio/profiling/vsperf).  
-  
 Use the **VsPerf** command line tool to:  
   
 1.  Profile Windows Store apps from the command line when Visual Studio is not installed on the device.  
@@ -54,7 +52,7 @@ Use the **VsPerf** command line tool to:
 |||  
 |-|-|  
 |**/launch:{Executable}**|Starts and begins profiling the specified executable file.|  
-|**/args:{ExecutableArguments}**|Specifies command line arguments to pass the the **/launch** target.|  
+|**/args:{ExecutableArguments}**|Specifies command line arguments to pass the **/launch** target.|  
 |**/console**|Runs the **/launch** target in a new command window.|  
   
 ##  <a name="BKMK_All_applications"></a> All applications  

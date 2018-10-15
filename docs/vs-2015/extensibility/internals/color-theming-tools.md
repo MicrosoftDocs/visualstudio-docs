@@ -1,7 +1,7 @@
 ---
 title: "Color Theming Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,6 @@ manager: "ghogen"
 # Color Theming Tools
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Color Theming Tools](https://docs.microsoft.com/visualstudio/extensibility/internals/color-theming-tools).  
-  
 The VS SDK provides several tools to help you create and manage color themes.  
   
 -   The [VSIX Color Editor](../../extensibility/internals/vsix-color-editor.md) tool can create and edit custom colors for Visual Studio.  

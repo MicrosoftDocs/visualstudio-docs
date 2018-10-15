@@ -1,7 +1,7 @@
 ---
 title: "Generate files from a UML model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Generate files from a UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Generate files from a UML model](https://docs.microsoft.com/visualstudio/modeling/generate-files-from-a-uml-model).  
-  
 From a UML model, you can generate program code, schemas, documents, resources, and other artifacts of any kind. One convenient method of generating text files from a UML model is to use [text templates](../modeling/code-generation-and-t4-text-templates.md). These let you embed program code inside the text that you want to generate.  
   
  There are three principal scenarios:  

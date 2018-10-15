@@ -1,7 +1,7 @@
 ---
 title: "Extending Properties and the Property Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Extending Properties and the Property Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending Properties and the Property Window](https://docs.microsoft.com/visualstudio/extensibility/extending-properties-and-the-property-window).  
-  
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.  
   
  When you select an object in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the public properties of that object appear in the **Properties** window. For more information, see [Properties Window Overview](../extensibility/internals/properties-window-overview.md).  

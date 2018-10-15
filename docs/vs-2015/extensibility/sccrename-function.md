@@ -1,7 +1,7 @@
 ---
 title: "SccRename Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccRename Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccRename Function](https://docs.microsoft.com/visualstudio/extensibility/sccrename-function).  
-  
 This function renames a file in the source control system.  
   
 ## Syntax  

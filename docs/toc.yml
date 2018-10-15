@@ -355,6 +355,8 @@
           href: ide/javascript-intellisense.md
         - name: Visual C++ IntelliSense
           href: ide/visual-cpp-intellisense.md
+        - name: Configure a C++ project for IntelliSense
+          href: ide/visual-cpp-intellisense-configuration.md
       - name: Navigate your code
         href: ide/navigating-code.md
         items:
@@ -1067,6 +1069,8 @@
     items:
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
+  - name: Suggest a feature for Visual Studio
+    href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:

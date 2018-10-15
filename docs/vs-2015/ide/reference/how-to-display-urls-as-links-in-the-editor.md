@@ -1,7 +1,7 @@
 ---
 title: "How to: Display URLs as Links in the Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Display URLs as Links in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display URLs as Links in the Editor](https://docs.microsoft.com/visualstudio/ide/reference/how-to-display-urls-as-links-in-the-editor).  
-  
   
 You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in your code as active links. When you use this feature, URLs:  
   

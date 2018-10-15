@@ -1,7 +1,7 @@
 ---
 title: "Call Hierarchy | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Call Hierarchy
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Call Hierarchy](https://docs.microsoft.com/visualstudio/ide/reference/call-hierarchy).  
-  
   
 Call Hierarchy enables you to navigate through your code by displaying all calls to and from a selected method, property, or constructor. This enables you to better understand how code flows and to evaluate the effects of changes to code. You can examine several levels of code to view complex chains of method calls and additional entry points to the code, which enables you to explore all possible execution paths.  
   

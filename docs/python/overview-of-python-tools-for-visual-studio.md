@@ -94,7 +94,7 @@ For more information:
 
 ## Full-featured debugging
 
-One of Visual Studio's strengths is its powerful debugger. For Python in particular, Visual Studio includes Python/C++ mixed-mode debugging, remote debugging on Linux, remote debugging on Azure, debugging within the **Interactive** window, and debugging Python unit tests.
+One of Visual Studio's strengths is its powerful debugger. For Python in particular, Visual Studio includes Python/C++ mixed-mode debugging, remote debugging on Linux, debugging within the **Interactive** window, and debugging Python unit tests.
 
 ![Visual Studio debugger for Python showing an exception popup](media/debugging-exception-popup.png)
 
@@ -104,7 +104,6 @@ For more information:
 - Docs: [Debug Python](debugging-python-in-visual-studio.md)
 - Docs: [Python/C++ mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - Docs: [Remote debugging on Linux](debugging-python-code-on-remote-linux-machines.md)
-- Docs: [Remote debugging on Azure](debugging-remote-python-code-on-azure.md)
 - General Visual Studio feature docs: [Feature tour of the Visual Studio Debugger](../debugger/debugger-feature-tour.md)
 
 ## Profiling tools with comprehensive reporting
@@ -131,16 +130,11 @@ For more information:
 - Docs: [Unit testing tools for Python](unit-testing-python-in-visual-studio.md)
 - General Visual Studio feature docs: [Unit test your code](../test/unit-test-your-code.md).
 
-## Publish to Azure and Azure SDK for Python
+## Azure SDK for Python
 
-Visual Studio provides integrated support for publishing web apps and cloud services to Azure. Visual Studio includes essential *web.config* item templates for both dynamic and static content. The Python workload also includes the Azure SDK for Python, which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
+The Python workload includes the Azure SDK for Python, which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
 
-![Publish Python application to Azure in Visual Studio](media/azure-publish-dialog.png)
-
-For more information:
-
-- Docs: [Publish to Azure](publishing-python-web-applications-to-azure-from-visual-studio.md)
-- Docs: [Azure SDK for Python](azure-sdk-for-python.md)
+For more information, see [Azure SDK for Python](azure-sdk-for-python.md)
 
 ## Python training on Microsoft Virtual Academy
 

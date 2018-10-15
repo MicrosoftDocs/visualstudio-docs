@@ -1,7 +1,7 @@
 ---
 title: "Error: Workgroup Remote Logon Failure | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # Error: Workgroup Remote Logon Failure
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Workgroup Remote Logon Failure](https://docs.microsoft.com/visualstudio/debugger/error-workgroup-remote-logon-failure).  
-  
 This error reads:  
   
  Logon failure: unknown user name or bad password  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Set the Current Session | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # How to: Set the Current Session
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set the Current Session](https://docs.microsoft.com/visualstudio/profiling/how-to-set-the-current-session).  
-  
 You can open multiple performance sessions in the **Performance Explorer**, and can then select one of the visible performance sessions to be set as the current session.  
   
  **Requirements**  

@@ -1,7 +1,7 @@
 ---
 title: "Task Class - Internal Members | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Task Class - Internal Members
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Task Class - Internal Members](https://docs.microsoft.com/visualstudio/extensibility/debugger/task-class-internal-members).  
-  
 This topic describes the internal members of the <xref:System.Threading.Tasks.Task?displayProperty=fullName> class that help you implement a custom debugger. For general information about this class, see the <xref:System.Threading.Tasks.Task> reference topic.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

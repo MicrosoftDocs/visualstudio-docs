@@ -1,7 +1,7 @@
 ---
 title: "Thread Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Thread Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Thread Properties Dialog Box](https://docs.microsoft.com/visualstudio/debugger/thread-properties-dialog-box).  
-  
 Use this dialog box find out more about a specific thread. To display this dialog box, move the focus to a [Threads View](../debugger/threads-view.md) window, or open [Messages View](../debugger/messages-view.md) and expand a message. Select any thread node in the tree, then choose **Properties** from the **View** menu.  
   
  The **General** tab is the only tab displayed. On Windows 98 and Windows 95 operating systems, a modified version of this tab is displayed.  

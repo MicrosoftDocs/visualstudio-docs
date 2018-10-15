@@ -1,7 +1,7 @@
 ---
 title: "Resources in VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Resources in VSPackages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resources in VSPackages](https://docs.microsoft.com/visualstudio/extensibility/internals/resources-in-vspackages).  
-  
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.  
   
  Some resources cannot be embedded in VSPackages. The following managed types can be embedded:  

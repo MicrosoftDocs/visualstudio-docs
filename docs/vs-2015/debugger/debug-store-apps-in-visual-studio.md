@@ -1,7 +1,7 @@
 ---
 title: "Debug Store apps in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Debug Store apps in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug Store apps in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/debug-store-apps-in-visual-studio).  
-  
 The Visual Studio debugger allows you to control the execution of a program and examine its state. You can use the debugger to find the cause of defects in your Windows Store app and to understand exactly how your app works. When you suspend (break) execution in the debugger, Visual Studio displays the source file that contains the executing code and highlights the executing statement. You can look at the values of variables, the call stack of executing functions, and other aspects of your program state. You can continue executing (step through) the program one statement at a time to see how the statements change the values of the program. In apps written with JavaScript, you can examine and manipulate the DOM of the page.  
   
 ## In this section  

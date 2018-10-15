@@ -1,7 +1,7 @@
 ---
 title: "Create lookup tables in Windows Forms applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Create lookup tables in Windows Forms applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create lookup tables in Windows Forms applications](https://docs.microsoft.com/visualstudio/data-tools/create-lookup-tables-in-windows-forms-applications).  
-  
   
 The term *lookup table* describes controls that are bound to two related data tables. These lookup controls display data from the first table based on a value selected in the second table.  
   

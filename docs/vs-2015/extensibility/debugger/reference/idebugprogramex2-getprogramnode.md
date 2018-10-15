@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramEx2::GetProgramNode | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProgramEx2::GetProgramNode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramEx2::GetProgramNode](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramex2-getprogramnode).  
-  
 Gets the program node associated with a program.  
   
 ## Syntax  

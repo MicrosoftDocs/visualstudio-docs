@@ -1,7 +1,7 @@
 ---
 title: "How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications](https://docs.microsoft.com/visualstudio/profiling/how-to-modify-web-config-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications).  
-  
 You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools instrumentation method to collect detailed timing data, .NET memory allocation data, and .NET object lifetime data from dynamically compiled [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications.  
   
  This topic describes how to modify the web.config configuration file to enable the instrumentation and profiling of [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications.  

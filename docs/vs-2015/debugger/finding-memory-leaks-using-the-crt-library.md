@@ -1,7 +1,7 @@
 ---
 title: "Finding Memory Leaks Using the CRT Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,8 +39,6 @@ manager: "ghogen"
 # Finding Memory Leaks Using the CRT Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Finding Memory Leaks Using the CRT Library](https://docs.microsoft.com/visualstudio/debugger/finding-memory-leaks-using-the-crt-library).  
-  
 Memory leaks, defined as the failure to correctly deallocate memory that was previously allocated, are among the most subtle and hard-to-detect bugs in C/C++ applications. A small memory leak might not be noticed at first, but over time, a progressive memory leak can cause symptoms that range from decreased performance to crashing when the application runs out of memory. Worse, a leaking application that uses up all available memory can cause another application to crash, creating confusion as to which application is responsible. Even seemingly harmless memory leaks might be symptomatic of other problems that should be corrected.  
   
  The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger and C Run-Time (CRT) libraries provide you with the means for detecting and identifying memory leaks.  
@@ -188,7 +186,7 @@ This tells you that the leaked allocation was on line 20 of debug_new.cpp.
   
 2.  When the application breaks at the breakpoint, the **Watch** window.  
   
-3.  In the **Watch** window, type `_crtBreakAlloc` in in the **Name** column.  
+3.  In the **Watch** window, type `_crtBreakAlloc` in the **Name** column.  
   
      If you are using the multithreaded DLL version of the CRT library (the /MD option), include the context operator: `{,,ucrtbased.dll}_crtBreakAlloc`  
   

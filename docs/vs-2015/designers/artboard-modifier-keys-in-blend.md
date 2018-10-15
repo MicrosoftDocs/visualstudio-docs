@@ -1,7 +1,7 @@
 ---
 title: "Artboard modifier keys in Blend | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Artboard modifier keys in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Artboard modifier keys in Blend](https://docs.microsoft.com/visualstudio/designers/artboard-modifier-keys-in-blend).  
-  
 Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] user interface to discover them. The following table lists shortcuts that modify an action, such as resizing an object.  
   
 |To do this action|Do this|  

@@ -1,7 +1,7 @@
 ---
 title: "Process View - Contention Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Process View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Process View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/process-view-contention-data).  
-  
 The Process view displays contention data for the processes and threads that were executed during the profiling run.  
   
  When symbols are available, processes are listed by name. When symbols are not available, processes are listed by their memory address in hexadecimal format. Threads are listed as children of the process that created them.  

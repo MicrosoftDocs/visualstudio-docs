@@ -1,7 +1,7 @@
 ---
 title: "Tutorial 2: Create a Timed Math Quiz | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Tutorial 2: Create a Timed Math Quiz
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tutorial 2: Create a Timed Math Quiz](https://docs.microsoft.com/visualstudio/ide/tutorial-2-create-a-timed-math-quiz).  
-  
 In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:  
   
 -   Generate random numbers by using the `Random` class.  

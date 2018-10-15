@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Domain-Specific Language Tools User Interface | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Overview of the Domain-Specific Language Tools User Interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overview of the Domain-Specific Language Tools User Interface](https://docs.microsoft.com/visualstudio/modeling/overview-of-the-domain-specific-language-tools-user-interface).  
-  
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the user interface will resemble the following picture.  
   
  ![dsl designer](../modeling/media/dsl-designer.png "dsl_designer")  

@@ -1,7 +1,7 @@
 ---
 title: "Anatomy of a Coded UI Test | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Anatomy of a Coded UI Test
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Anatomy of a Coded UI Test](https://docs.microsoft.com/visualstudio/test/anatomy-of-a-coded-ui-test).  
-  
 When you create a Coded UI Test in a coded UI test project, several files are added to your solution. In this topic, we will use an example Coded UI Test to explore these files.  
   
  **Requirements**  

@@ -1,7 +1,7 @@
 ---
 title: "System Requirements for the Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "crdun"
 # System Requirements for the Visual Studio Emulator for Android
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [System Requirements for the Visual Studio Emulator for Android](https://docs.microsoft.com/visualstudio/cross-platform/system-requirements-for-the-visual-studio-emulator-for-android).  
-  
   
 Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the virtualization technology for Windows 8 and later versions. To run the emulator, your computer must meet the requirements to run Hyper-V as described in this topic.  
   
@@ -129,12 +127,12 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
  When you run the emulator, if you are not already a member of the Hyper-V Administrators group, you are prompted to join the group (the dialog box refers to the Windows Phone emulator). Joining the group requires administrator rights.  
   
 > [!IMPORTANT]
->  After you join the group, log off or reboot to make the change take effect.  
+> After you join the group, log off or reboot to make the change take effect.  
   
  ![Joining the Hyper&#45;V Administrators security group](../cross-platform/media/android-emu-hyperv-admin.png "Android_Emu_HyperV_Admin")  
   
- To add yourself to a group manually, open the Local Users and Groups snap-in. For more information, see [Add a user account to a group](http://windows.microsoft.com/en-us/windows/add-user-account-to-group#1TC=windows-7). (This Windows 7 topic is also applicable to Windows 8.)  
-  
+ To add yourself to a group manually, open the Local Users and Groups snap-in.
+ 
 ##  <a name="BootableVHD"></a> Running the emulator from a bootable VHD is not supported  
  If you try to run an app on the Visual Studio Emulator for Android while you are running Windows from a bootable VHD, the emulator typically takes several minutes to start or fails to start. When the emulator fails to start, you see the following message: App deployment failed. Please try again.  
   

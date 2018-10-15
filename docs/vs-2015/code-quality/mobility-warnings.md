@@ -1,7 +1,7 @@
 ---
 title: "Mobility Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # Mobility Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mobility Warnings](https://docs.microsoft.com/visualstudio/code-quality/mobility-warnings).  
-  
 Mobility warnings support efficient power usage.  
   
 ## In This Section  

@@ -1,7 +1,7 @@
 ---
 title: "Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)](https://docs.microsoft.com/visualstudio/debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript).  
-  
 This quick start demonstrates how to navigate in the Visual Studio debugger and how to view the program state in a session.  
   
  This quick start is for developers who are new to debugging with Visual Studio and for developers who want to learn more about navigating in a Visual Studio debug session. It does not teach the art of debugging itself. The functions in the sample code are designed only to demonstrate the debugging procedures described in this topic. The functions do not employ best practices of app or function design. In fact, you will quickly discover that the functions, and the app itself, do not do much of anything at all.  
@@ -295,7 +293,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
   
     -   **Anonymous function** shows the line in the `module` function where execution is suspended. This is the top of the call stack.  
   
-4.  **Step into functions to reach the example5_d function.** Choose **Step Into** on the **Debug** menu (Keyboard: **F11**) to execute the calls in in the call path until you reach the entry point of the example5_d function. Note that each time that a function calls a function, the line number of the calling function is saved and the called function is placed at the top of the stack. The line number of the calling function is the point at which the calling function has suspended execution. A yellow arrow points to the currently executing function.  
+4.  **Step into functions to reach the example5_d function.** Choose **Step Into** on the **Debug** menu (Keyboard: **F11**) to execute the calls in the call path until you reach the entry point of the example5_d function. Note that each time that a function calls a function, the line number of the calling function is saved and the called function is placed at the top of the stack. The line number of the calling function is the point at which the calling function has suspended execution. A yellow arrow points to the currently executing function.  
   
      ![Call stack window](../debugger/media/dbg-jsnav-callstack-windows.png "DBG_JSNAV_CallStack_windows")  
   

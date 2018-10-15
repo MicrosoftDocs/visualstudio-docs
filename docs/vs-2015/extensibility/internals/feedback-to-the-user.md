@@ -1,7 +1,7 @@
 ---
 title: "Feedback to the User | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Feedback to the User
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Feedback to the User](https://docs.microsoft.com/visualstudio/extensibility/internals/feedback-to-the-user).  
-  
 In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE), visual feedback regarding available functionality is based on the user's current selection and global selection context. The following table lists the functionality that is available in different selection contexts.  
   
 |Selection context|Available functionality|  

@@ -1,7 +1,7 @@
 ---
 title: "AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members](https://docs.microsoft.com/visualstudio/extensibility/debugger/asynctaskmethodbuilder-tresult-structure-internal-members).  
-  
 This topic describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> class. For general information about this class, see the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> reference topic.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

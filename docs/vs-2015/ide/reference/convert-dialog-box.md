@@ -1,7 +1,7 @@
 ---
 title: "Convert Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Convert Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Convert Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/convert-dialog-box).  
-  
   
 The **Convert** dialog box allows you to select a conversion tool to create a new project from an old one, such as creating a [!INCLUDE[vbprvblong](../../includes/vbprvblong-md.md)] project from a Visual Basic 6 project. You can also use the [Visual Studio Project Converter](http://go.microsoft.com/fwlink/?LinkID=246465), available on the CodePlex web site, to upgrade projects created in previous versions of Visual Studio.  
   

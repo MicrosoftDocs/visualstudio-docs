@@ -1,7 +1,7 @@
 ---
 title: "ResourcesGenerator Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # ResourcesGenerator Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ResourcesGenerator Task](https://docs.microsoft.com/visualstudio/msbuild/resourcesgenerator-task).  
-  
   
 The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or more resources (.jpg, .ico, .bmp, [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] in binary format, and other extension types) into a .resources file.  
   

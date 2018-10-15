@@ -1,7 +1,7 @@
 ---
 title: "IEEVisualizerService::GetValueDisplayStringCount | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IEEVisualizerService::GetValueDisplayStringCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEEVisualizerService::GetValueDisplayStringCount](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ieevisualizerservice-getvaluedisplaystringcount).  
-  
 Retrieves the number of value strings to display for the specified property or field.  
   
 ## Syntax  

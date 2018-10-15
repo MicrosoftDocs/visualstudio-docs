@@ -1,7 +1,7 @@
 ---
 title: "Supplying Undo Support to Designers | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Supplying Undo Support to Designers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Supplying Undo Support to Designers](https://docs.microsoft.com/visualstudio/extensibility/supplying-undo-support-to-designers).  
-  
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.  
   
  Most designers implemented in Visual Studio have undo support automatically provided by the environment.  

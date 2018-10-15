@@ -1,7 +1,7 @@
 ---
 title: "Warning: the dependency &#39;file&#39; in project &#39;project&#39; cannot be copied to the run directory because it would overwrite the reference &#39;file.&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

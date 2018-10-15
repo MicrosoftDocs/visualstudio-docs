@@ -1,7 +1,7 @@
 ---
 title: "CRT Debug Library Use | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,8 +39,6 @@ manager: "ghogen"
 # CRT Debug Library Use
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CRT Debug Library Use](https://docs.microsoft.com/visualstudio/debugger/crt-debug-library-use).  
-  
 The C run-time library provides extensive debugging support. To use one of the CRT debug libraries, you must link with [/DEBUG](http://msdn.microsoft.com/library/1af389ae-3f8b-4d76-a087-1cdf861e9103) and compile with **/MDd**, **/MTd**, or **/LDd**.  
   
 ## Remarks  

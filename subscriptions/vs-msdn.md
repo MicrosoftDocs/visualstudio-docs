@@ -54,7 +54,7 @@ The Digital Edition is available to Visual Studio Dev Essentials members.
 
 <sup>1</sup>  *Printed edition:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, Microsoft Partner Network (Enterprise), Imagine (Premium).*
 
-*Digital Edition: MCT Software & Services, Microsoft Valued Partner (Professional), Region Director (RD).*
+*Digital Edition: MCT Software & Services, Microsoft Valued Professional (Professional), Region Director (RD).*
 
 *Excludes:  Imagine (Standard), BizSpark, MCT Software & Services Developer*
 

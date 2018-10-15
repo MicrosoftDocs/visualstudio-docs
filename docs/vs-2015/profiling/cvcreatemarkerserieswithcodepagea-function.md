@@ -1,7 +1,7 @@
 ---
 title: "CvCreateMarkerSeriesWithCodePageA Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # CvCreateMarkerSeriesWithCodePageA Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvCreateMarkerSeriesWithCodePageA Function](https://docs.microsoft.com/visualstudio/profiling/cvcreatemarkerserieswithcodepagea-function).  
-  
 Creates marker series for a given provider and specifed code page. This function can be used to specify the code page explicitly for the text written out by marker API ANSI functions. Setting the code page can be useful in case the trace is captured and then analyzed on different machines with different locales/languages. By default the code page returned by GetACP() function is used.  
   
 ## Syntax  

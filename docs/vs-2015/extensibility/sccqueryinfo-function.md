@@ -1,7 +1,7 @@
 ---
 title: "SccQueryInfo Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # SccQueryInfo Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccQueryInfo Function](https://docs.microsoft.com/visualstudio/extensibility/sccqueryinfo-function).  
-  
 This function obtains status information for a set of selected files under source control.  
   
 ## Syntax  

@@ -1,7 +1,7 @@
 ---
 title: "Customizing Deletion Behavior | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Customizing Deletion Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Deletion Behavior](https://docs.microsoft.com/visualstudio/modeling/customizing-deletion-behavior).  
-  
 Deleting an element usually causes related elements to be deleted also. All relationships connected to it, and any child elements are deleted. This behavior is named *delete propagation*. You can customize delete propagation, for example to arrange that additional related elements are deleted. By writing program code, you can make delete propagation depend on the state of the model. You can also cause other changes to occur in response to a deletion.  
   
  This topic includes the following sections:  

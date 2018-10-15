@@ -1,7 +1,7 @@
 ---
 title: "Operational Modes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Operational Modes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Operational Modes](https://docs.microsoft.com/visualstudio/extensibility/debugger/operational-modes).  
-  
 There are three modes in which the IDE can operate, as follows:  
   
 -   [Design Mode](#vsconoperationalmodesanchor1)  

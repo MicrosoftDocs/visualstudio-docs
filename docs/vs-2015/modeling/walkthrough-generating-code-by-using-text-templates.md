@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Generating Code by using Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Walkthrough: Generating Code by using Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Generating Code by using Text Templates](https://docs.microsoft.com/visualstudio/modeling/walkthrough-generating-code-by-using-text-templates).  
-  
 Code generation allows you to produce program code that is strongly typed, and yet can be easily changed when the source model changes. Contrast this with the alternative technique of writing a completely generic program that accepts a configuration file, which is more flexible, but results in code that is neither so easy to read and change, nor has such good performance. This walkthrough demonstrates this benefit.  
   
 ## Typed code for reading XML  

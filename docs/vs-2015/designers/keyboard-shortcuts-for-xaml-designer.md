@@ -1,7 +1,7 @@
 ---
 title: "Keyboard shortcuts  for XAML Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Keyboard shortcuts  for XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Keyboard shortcuts  for XAML Designer](https://docs.microsoft.com/visualstudio/designers/keyboard-shortcuts-for-xaml-designer).  
-  
 Keyboard shortcuts in XAML Designer can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut.  
   
 ## Element shortcuts  

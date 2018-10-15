@@ -1,7 +1,7 @@
 ---
 title: "API Reference for IntelliTrace Extensibility | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # API Reference for IntelliTrace Extensibility
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [API Reference for IntelliTrace Extensibility](https://docs.microsoft.com/visualstudio/debugger/api-reference-for-intellitrace-extensibility).  
-  
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.  
   
 ## In This Section  

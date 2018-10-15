@@ -1,7 +1,7 @@
 ---
 title: "Registering a Custom Debug Engine | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Registering a Custom Debug Engine
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering a Custom Debug Engine](https://docs.microsoft.com/visualstudio/extensibility/debugger/registering-a-custom-debug-engine).  
-  
 The debug engine must register itself as a class factory following COM conventions as well as register with Visual Studio through the Visual Studio registry subkey.  
   
 > [!NOTE]

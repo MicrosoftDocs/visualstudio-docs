@@ -1,7 +1,7 @@
 ---
 title: "ProcessOn and ProcessOff | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # ProcessOn and ProcessOff
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ProcessOn and ProcessOff](https://docs.microsoft.com/visualstudio/profiling/processon-and-processoff).  
-  
 The VSPerfCmd.exe **ProcessOff** and **ProcessOn** subcommands pause and resume profiling for the specified process in a command-line profiling session. **ProcessOff** stops profiling the process and **ProcessOn** starts profiling the process.  
   
  In most cases, you specify **ProcessOn** or **ProcessOff** as the only option in a VSPerfCmd.exe command line, but they can also be combined with the **GlobalOn**, **GlobalOff**, **ThreadOn**, and **ThreadOff** subcommands.  

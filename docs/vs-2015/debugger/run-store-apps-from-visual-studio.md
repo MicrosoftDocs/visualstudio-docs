@@ -1,7 +1,7 @@
 ---
 title: "Run Store apps from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Run Store apps from Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Run Store apps from Visual Studio](https://docs.microsoft.com/visualstudio/debugger/run-store-apps-from-visual-studio).  
-  
 Store apps run on a broad range of devices, and Visual Studio provides you with a number of ways to run and interact with those apps. The "F5" experience is enhanced to make it easy to debug, profile, and test apps during development.  
   
  ![Start degugging and select target](../debugger/media/vsrun-dropdownlist.png "VSRUN_DropDownList")  

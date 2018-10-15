@@ -1,7 +1,7 @@
 ---
 title: "Sending the Required Events | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Sending the Required Events
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sending the Required Events](https://docs.microsoft.com/visualstudio/extensibility/debugger/sending-the-required-events).  
-  
 Use this procedure for sending required events.  
   
 ## Process for Sending Required Events  

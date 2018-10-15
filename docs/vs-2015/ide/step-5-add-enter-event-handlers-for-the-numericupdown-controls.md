@@ -1,7 +1,7 @@
 ---
 title: "Step 5: Add Enter Event Handlers for the NumericUpDown Controls | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Step 5: Add Enter Event Handlers for the NumericUpDown Controls
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Step 5: Add Enter Event Handlers for the NumericUpDown Controls](https://docs.microsoft.com/visualstudio/ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls).  
-  
 In the fifth part of this tutorial, you'll add Enter event handlers to make entering answers for quiz problems a little easier. This code will select and clear the current value in each NumericUpDown control as soon as the quiz taker chooses it and starts to enter a different value.  
   
 > [!NOTE]

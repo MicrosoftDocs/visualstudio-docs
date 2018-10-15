@@ -1,7 +1,7 @@
 ---
 title: "-Setup (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # /Setup (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Setup (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/setup-devenv-exe).  
-  
   
 Forces [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to merge the resource metadata that describes menus, toolbars, and command groups, from all available VSPackages.  
   

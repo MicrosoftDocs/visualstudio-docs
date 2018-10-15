@@ -1,7 +1,7 @@
 ---
 title: "Customizing the Model Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Customizing the Model Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing the Model Explorer](https://docs.microsoft.com/visualstudio/modeling/customizing-the-model-explorer).  
-  
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:  
   
 -   Change the window title.  

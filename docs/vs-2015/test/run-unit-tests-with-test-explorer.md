@@ -1,7 +1,7 @@
 ---
 title: "Run unit tests with Test Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Run unit tests with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Run unit tests with Test Explorer](https://docs.microsoft.com/visualstudio/test/run-unit-tests-with-test-explorer).  
-  
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects, group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage.  
   
 ##  <a name="BKMK_Contents"></a> Contents  
@@ -189,7 +187,7 @@ TEST_METHOD(Method1)
 ###  <a name="BKMK_Search_and_filter_the_test_list"></a> Search and filter the test list  
  You can use Test Explorer filters to limit the test methods in your projects that you view and run.  
   
- When you type a string in in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.  
+ When you type a string in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.  
   
  To filter by a different criteria:  
   

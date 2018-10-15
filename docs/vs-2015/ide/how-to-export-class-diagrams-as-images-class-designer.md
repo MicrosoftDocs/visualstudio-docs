@@ -1,7 +1,7 @@
 ---
 title: "How to: Export Class Diagrams As Images (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Export Class Diagrams As Images (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Export Class Diagrams As Images (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-export-class-diagrams-as-images-class-designer).  
-  
 To export a class diagram that you created from code in a project, save the diagram as an image. If you want to export UML class diagrams instead, see [Export diagrams as images](../modeling/export-diagrams-as-images.md).  
   
 1.  Open your class diagram (.cd) file.  

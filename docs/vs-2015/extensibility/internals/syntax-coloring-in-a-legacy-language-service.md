@@ -1,7 +1,7 @@
 ---
 title: "Syntax Coloring in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Syntax Coloring in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Syntax Coloring in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/syntax-coloring-in-a-legacy-language-service).  
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] uses a coloring service to identify elements of the language and display them with the specified colors in an editor.  
   
 ## Colorizer Model  

@@ -1,7 +1,7 @@
 ---
 title: "Managing External Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,8 +66,6 @@ manager: "ghogen"
 # Managing External Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Manage external tools](https://docs.microsoft.com/visualstudio/ide/managing-external-tools).  
-  
 You can call external tools from inside Visual Studio. A few default tools are available from the **Tools** menu, but you can add other executables of your own.  
   
 ## Tools Available on the Visual Studio Tools Menu  

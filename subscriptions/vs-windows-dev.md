@@ -54,7 +54,7 @@ We recommend that you create a "private" browser window for this process.  For e
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer.
-Excludes:  Microsoft Partner Network (MPN), Imagine, Microsoft Valued Partner (MVP), Region Director (RD), MCT Software & Services.*
+Excludes:  Microsoft Partner Network (MPN), Imagine, Microsoft Valued Professional (MVP), Region Director (RD), MCT Software & Services.*
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 

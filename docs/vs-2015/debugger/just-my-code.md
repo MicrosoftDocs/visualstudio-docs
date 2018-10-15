@@ -1,7 +1,7 @@
 ---
 title: "Just My Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Just My Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Just My Code](https://docs.microsoft.com/visualstudio/debugger/just-my-code).  
-  
 Developers who use .NET Framework languages are familiar with the Just My Code debugger feature that steps over system, framework, and other non-user calls and collapses those calls in the call stack windows. Just My Code has been extended to the C++ and JavaScript languages. This topic describes the specifics of using Just My Code in .NET Framework, native C++, and JavaScript projects.  
   
 ##  <a name="BKMK_Enable_or_disable_Just_My_Code"></a> Enable or disable Just My Code  
@@ -189,7 +187,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 |-|-|  
 |**MyCode**|User code that you own and control.|  
 |**LibraryCode**|Non-user code from libraries that you use regularly and your application relies on to function correctly (for example WinJS or jQuery).|  
-|**UnrelatedCode**|Non-user code that that could be running in your application, but you don’t own and your application doesn’t directly rely on it to function correctly (for example, an advertising SDK that displays ads). In Windows Store projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
+|**UnrelatedCode**|Non-user code that could be running in your application, but you don’t own and your application doesn’t directly rely on it to function correctly (for example, an advertising SDK that displays ads). In Windows Store projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
   
  The JavaScript debugger automatically classifies these types of code:  
   

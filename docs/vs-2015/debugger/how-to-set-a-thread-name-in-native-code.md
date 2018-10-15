@@ -1,7 +1,7 @@
 ---
 title: "How to: Set a Thread Name in Native Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # How to: Set a Thread Name in Native Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set a Thread Name in Native Code](https://docs.microsoft.com/visualstudio/debugger/how-to-set-a-thread-name-in-native-code).  
-  
 To set a thread name in your program, use the `SetThreadName` function, as shown in the following code example. Note that the thread name is copied to the thread so that the memory for the `threadName` parameter can be released.  
   
 ## Example  

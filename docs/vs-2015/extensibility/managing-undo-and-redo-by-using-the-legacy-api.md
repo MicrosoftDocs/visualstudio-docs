@@ -1,7 +1,7 @@
 ---
 title: "Managing Undo and Redo by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Managing Undo and Redo by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing Undo and Redo by Using the Legacy API](https://docs.microsoft.com/visualstudio/extensibility/managing-undo-and-redo-by-using-the-legacy-api).  
-  
 Editors must support undo operations that let users reverse their recent changes when they modify code. Most editors implemented under [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] can have undo support automatically provided by the integrated development environment (IDE).  
   
 ## In This Section  

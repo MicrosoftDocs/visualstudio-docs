@@ -1,7 +1,7 @@
 ---
 title: "Project Configuration for Managing Deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Project Configuration for Managing Deployment
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Configuration for Managing Deployment](https://docs.microsoft.com/visualstudio/extensibility/internals/project-configuration-for-managing-deployment).  
-  
 Deployment is the act of physically moving the output items from a build process to the expected location for debugging and installation. For example, a Web application might be built on a local machine and then placed on the server.  
   
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports two ways that projects can be involved in deployment:  

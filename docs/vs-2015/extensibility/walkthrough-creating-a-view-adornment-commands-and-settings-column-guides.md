@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a View Adornment, Commands and Settings](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-creating-a-view-adornment-commands-and-settings-column-guides).  
-  
 You can extend the Visual Studio text/code editor with commands and view effects.  This topic shows you how to get started with a popular extension feature, column guides.  Column guides are visually light lines drawn on the text editor’s view to help you manage your code to specific column widths.  Specifically formatted code can be important for samples you include in documents, blog posts, or bug reports.  
   
  In this walkthrough, you will:  

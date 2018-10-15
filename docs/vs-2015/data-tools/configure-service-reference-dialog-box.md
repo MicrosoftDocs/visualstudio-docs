@@ -1,7 +1,7 @@
 ---
 title: "Configure Service Reference Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Configure Service Reference Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Configure Service Reference Dialog Box](https://docs.microsoft.com/visualstudio/data-tools/configure-service-reference-dialog-box).  
-  
   
 The **Configure Service Reference** dialog box enables you to configure the behavior of [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] services.  
   

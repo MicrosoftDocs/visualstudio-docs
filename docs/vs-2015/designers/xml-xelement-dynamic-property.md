@@ -1,7 +1,7 @@
 ---
 title: "Xml (XElement Dynamic Property) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Xml (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Xml (XElement Dynamic Property)](https://docs.microsoft.com/visualstudio/designers/xml-xelement-dynamic-property).  
-  
 Gets the unformatted XML content of the element.  
   
 ## Syntax  

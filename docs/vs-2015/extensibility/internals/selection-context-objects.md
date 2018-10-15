@@ -1,7 +1,7 @@
 ---
 title: "Selection Context Objects | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Selection Context Objects
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Selection Context Objects](https://docs.microsoft.com/visualstudio/extensibility/internals/selection-context-objects).  
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) uses a global selection context object to determine what should be displayed in the IDE. Each window in the IDE can have its own selection context object pushed to the global selection context. The IDE updates the global selection context with values from a window when that window has the focus. For more information, see [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md).  
   
  Each window frame or site in the IDE has a service called <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection>. The object created by your VSPackage that is sited in the window frame must call the `QueryService` method to get a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> interface.  

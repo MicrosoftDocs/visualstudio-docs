@@ -1,7 +1,7 @@
 ---
 title: "Encodings and Line Breaks | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Encodings and Line Breaks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Encodings and Line Breaks](https://docs.microsoft.com/visualstudio/ide/encodings-and-line-breaks).  
-  
 In Visual Studio you can use the **File/Advanced Save Options** settings to determine the type of line break characters you want. You can also change the encoding of a file with the same settings.  
   
 > [!NOTE]

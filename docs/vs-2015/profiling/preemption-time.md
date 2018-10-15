@@ -1,7 +1,7 @@
 ---
 title: "Preemption Time | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Preemption Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Preemption Time](https://docs.microsoft.com/visualstudio/profiling/preemption-time).  
-  
 These segments in the timeline are associated with the blocking time that is categorized as Preemption. This category implies that a thread is switched out because of one of these reasons:  
   
 -   The scheduler replaced it by using a higher priority thread.  

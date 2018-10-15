@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Debugging in Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Getting Started with Debugging in Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with Debugging in Visual Studio](https://docs.microsoft.com/visualstudio/ide/getting-started-with-debugging-in-visual-studio).  
-  
 Visual Studio 2015 provides a powerful integrated set of project build and debugging tools. In this topic, find out how to start using the most basic set of debugging UI features.  
   
  Note: Links to more advanced features and platform- or feature-specific topics are at the bottom of this page.  

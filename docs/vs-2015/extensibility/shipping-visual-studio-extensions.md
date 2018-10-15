@@ -1,7 +1,7 @@
 ---
 title: "Shipping Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,7 +23,6 @@ manager: "ghogen"
 
 **Note**: The Visual Studio Gallery is being replaced by the Visual Studio Marketplace. See the latest version of this topic for details.
 
-The latest version of this topic can be found at [Shipping Visual Studio Extensions](https://docs.microsoft.com/visualstudio/extensibility/shipping-visual-studio-extensions).  
   
 After you’ve finished developing your extension, you can install it on other machines, share it with your friends and coworkers, or publish it on the Visual Studio Gallery. In this section we explain all the things you need to do in order to publish and maintain your extension: working with .vsix files, publishing, localizing, and updating.  
   

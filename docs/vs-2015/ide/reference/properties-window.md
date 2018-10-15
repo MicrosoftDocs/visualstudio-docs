@@ -1,7 +1,7 @@
 ---
 title: "Properties Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # Properties Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties Window](https://docs.microsoft.com/visualstudio/ide/reference/properties-window).  
-  
   
 Use this window to view and change the design-time properties and events of selected objects that are located in editors and designers. You can also use the **Properties** window to edit and view file, project, and solution properties. You can find **Properties** Window on the **View** menu. You can also open it by pressing F4 or by typing **Properties** in the **Quick Launch** window.  
   

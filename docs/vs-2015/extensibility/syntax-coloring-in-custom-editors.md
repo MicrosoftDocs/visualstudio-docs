@@ -1,7 +1,7 @@
 ---
 title: "Syntax Coloring in Custom Editors | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Syntax Coloring in Custom Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Syntax Coloring in Custom Editors](https://docs.microsoft.com/visualstudio/extensibility/syntax-coloring-in-custom-editors).  
-  
 Visual Studio Environment SDK editors, including the core editor, use language services to identify specific syntactical items and display them with specified colors for a given document view.  
   
 ## Colorization Requirements  

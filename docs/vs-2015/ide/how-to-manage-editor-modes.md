@@ -1,7 +1,7 @@
 ---
 title: "How to: Manage Editor Modes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,8 +34,6 @@ manager: "ghogen"
 # How to: Manage Editor Modes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Manage Editor Modes](https://docs.microsoft.com/visualstudio/ide/how-to-manage-editor-modes).  
-  
 You can display the Visual Studio Code Editor in various display modes.  
   
 > [!NOTE]

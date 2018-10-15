@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Adding Custom XAML to the Start Page | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Walkthrough: Adding Custom XAML to the Start Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Adding Custom XAML to the Start Page](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-adding-custom-xaml-to-the-start-page).  
-  
 This walkthrough shows how to create a custom Visual Studio Start Page that contains a Web browser.  
   
 ## Adding Custom XAML  

@@ -1,7 +1,7 @@
 ---
 title: "VSPackage Setup Scenarios | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # VSPackage Setup Scenarios
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPackage Setup Scenarios](https://docs.microsoft.com/visualstudio/extensibility/internals/vspackage-setup-scenarios).  
-  
 It is important to design your VSPackage installer for flexibility. For example, you might need to release a security patch in the future, or you might change a business strategy that requires thorough side-by-side versioning support.  
   
  In [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md), you can read about the advantages and issues of supporting side-by-side installations of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] with either shared or side-by-side installations of your VSPackage. In short, side-by-side VSPackages give you the most flexibility to support new features of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  

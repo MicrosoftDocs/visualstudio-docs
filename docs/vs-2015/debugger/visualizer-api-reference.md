@@ -1,7 +1,7 @@
 ---
 title: "Visualizer API Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Visualizer API Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visualizer API Reference](https://docs.microsoft.com/visualstudio/debugger/visualizer-api-reference).  
-  
 The Visualizer APIs are provided for users who want to write a visualizer for the Visual Studio debugger. A visualizer is a small application that extends the functionality of the Visual Studio debugger user interface. A visualizer can display (and, optionally, edit) a data object of a specific type for which the visualizer is designed.  
   
 ## In This Section  

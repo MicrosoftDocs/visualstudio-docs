@@ -1,7 +1,7 @@
 ---
 title: "Accessibility for People with Disabilities | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Accessibility for People with Disabilities
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessibility for People with Disabilities](https://docs.microsoft.com/visualstudio/ide/reference/accessibility-for-people-with-disabilities).  
-  
   
 Microsoft is committed to making its products and services easier for everyone to use. The following topics provide information about the features, products, and services that make Microsoft [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] more accessible for people with disabilities.  
   

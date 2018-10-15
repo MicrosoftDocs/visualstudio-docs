@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Debugging at Design Time | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # Walkthrough: Debugging at Design Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Debugging at Design Time](https://docs.microsoft.com/visualstudio/debugger/walkthrough-debugging-at-design-time).  
-  
 You can use the Visual Studio **Immediate** window to execute a function or subroutine while your application is not running. If the function or subroutine contains a breakpoint, Visual Studio will break execution at the appropriate point. You can then use the debugger windows to examine your program state. This feature is called debugging at design time.  
   
  The following procedure shows how you can use this feature.  

@@ -1,7 +1,7 @@
 ---
 title: "CA2100: Review SQL queries for security vulnerabilities | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,9 +24,6 @@ manager: "wpickett"
 ---
 # CA2100: Review SQL queries for security vulnerabilities
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2100: Review SQL queries for security vulnerabilities](https://docs.microsoft.com/visualstudio/code-quality/ca2100-review-sql-queries-for-security-vulnerabilities).
-
 |||
 |-|-|
 |TypeName|ReviewSqlQueriesForSecurityVulnerabilities|

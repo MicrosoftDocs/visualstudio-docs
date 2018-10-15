@@ -1,7 +1,7 @@
 ---
 title: "CV_CPU_TYPE_e | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # CV_CPU_TYPE_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CV_CPU_TYPE_e](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/cv-cpu-type-e).  
-  
 Specifies the target processor.  
   
 > [!NOTE]

@@ -1,7 +1,7 @@
 ---
 title: "How to: Assign stored procedures to perform updates, inserts, and deletes (O-R Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "ghogen"
 # How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Assign stored procedures to perform updates, inserts, and deletes (O-R Designer)](https://docs.microsoft.com/visualstudio/data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer).  
-  
   
 Stored procedures can be added to the O/R Designer and executed as typical <xref:System.Data.Linq.DataContext> methods. They can also be used to override the default [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] runtime behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database (for example, when calling the <xref:System.Data.Linq.DataContext.SubmitChanges%2A> method).  
   
@@ -28,7 +26,7 @@ Stored procedures can be added to the O/R Designer and executed as typical <xref
 >  [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync>, or <xref:System.Data.Linq.Mapping.AutoSync>.  
   
 ## Configuring the Update Behavior of an Entity Class  
- By default, the logic to update a database (Inserts, Updates, and Deletes) with changes that were made to the data in [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] entity classes is provided by the [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] runtime. The runtime creates default Insert, Update, and Delete commands that are based on the the schema of the table (the column and primary key information). When the default behavior is not desired, you can configure the update behavior by assigning specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to manipulate the data in your table. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Finally, you can override the default update behavior when the database requires table access through stored procedures.  
+ By default, the logic to update a database (Inserts, Updates, and Deletes) with changes that were made to the data in [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] entity classes is provided by the [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] runtime. The runtime creates default Insert, Update, and Delete commands that are based on the schema of the table (the column and primary key information). When the default behavior is not desired, you can configure the update behavior by assigning specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to manipulate the data in your table. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Finally, you can override the default update behavior when the database requires table access through stored procedures.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   

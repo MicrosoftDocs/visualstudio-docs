@@ -1,7 +1,7 @@
 ---
 title: "Prefetch content for Windows Store apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Prefetch content for Windows Store apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Prefetch content for Windows Store apps](https://docs.microsoft.com/visualstudio/debugger/prefetch-content-for-windows-store-apps).  
-  
 Applies to Windows only](../Image/windows_only_content.png "windows_only_content")  
   
  To make your Windows Store app more responsive, you can request Windows to preload some web content, such as web pages or images, into the app's [WinINet](http://msdn.microsoft.com/en-us/0a06f2af-957a-4dff-a8cc-187370181b5c)[WinINet](http://msdn.microsoft.com/library/aa383630.aspx)cache. This functionality is called prefetching. It’s especially effective for content that's used at startup but you can prefetch other frequently used content, too. The methods of the [Windows.Networking.BackgroundTransfer.ContentPrefetcher](http://msdn.microsoft.com/library/windows/apps/windows.networking.backgroundtransfer.contentprefetcher.aspx) class let you specify the URIs of the content that you want to preload. See the Windows SDK [Content prefetch sample](http://code.msdn.microsoft.com/windowsapps/ContentPrefetcher-Sample-432c8309) for examples of how to add ContentPrefetcher functionality to your app.  

@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # MSBuild Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Items](https://docs.microsoft.com/visualstudio/msbuild/msbuild-items).  
-  
   
 MSBuild items are inputs into the build system, and they typically represent files. Items are grouped into item types based on their element names. Item types are named lists of items that can be used as parameters for tasks. The tasks use the item values to perform the steps of the build process.  
   
