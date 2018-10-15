@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Create your first extension: Hello World
 
-This Hello World example walks you through creating your first extension for Visual Studio. This tutorial will show you how to add a new command to Visual Studio.
+This Hello World example walks you through creating your first extension for Visual Studio. This tutorial shows you how to add a new command to Visual Studio.
 
 In the process, you will learn how to:
 
@@ -29,11 +29,12 @@ For this example, you'll use Visual C# to add a custom menu button named "Say He
 
 Before you start, make sure you have installed the **Visual Studio extension development** workload which includes the VSIX template you'll need and sample code.
 
-Note: You can use any version of Visual Studio (Community, Professional, or Enterprise) to create a Visual Studio Extensibility project.
+> [!NOTE]
+> You can use any edition of Visual Studio (Community, Professional, or Enterprise) to create a Visual Studio extensibility project.
 
 ## Create an extensibility project
 
-Step 1. From the **File** menu, click **New Project**. At the bottom of the screen, you can enter the name of your project.
+Step 1. From the **File** menu, click **New Project**. At the bottom of the screen, enter the name of your project.
 
 Step 2. From the **Templates** menu, click **Visual C#**, click **Extensibility**, and then click **VSIX Project**.
 
@@ -47,15 +48,15 @@ If you need to leave this tutorial and come back to it, you can find your new He
 
 Step 1. If you select the manifest, you can see what options are changeable, for instance, metadata, description, and version.
 
-Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **New Item...**.
+Step 2. Right-click the project (not the solution). On the context menu, click **Add**, and then click **New Item**.
 
-Step 3. Select the **Extensibility** section once again, and then click **Custom Command**.
+Step 3. Select the **Extensibility** section, and then click **Custom Command**.
 
 Step 4. In the **Name** field at the bottom, give it a name, for instance *Command.cs*.
 
 ![custom command](media/hello-world-custom-command.png)
 
-Your new command will be listed in the **Solution Explorer** under the **Resources** branch. This is also where you'll find other files related to your command, such as the PNG and ICO files if you wish to modify the image.
+Your new command is listed in **Solution Explorer** under the **Resources** branch. This is also where you'll find other files related to your command, such as the PNG and ICO files if you wish to modify the image.
 
 ## Modify the source code
 
@@ -110,7 +111,7 @@ Make sure to save your changes to each file.
 
 You can now run the source code in the Visual Studio Experimental Instance.
 
-Step 1. Click **Start** in the Toolbar. This will build your project and start the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
+Step 1. Click **Start** in the Toolbar. This builds your project and starts the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
 
 You will see the words **Experimental Instance** in the Visual Studio title bar.
 
