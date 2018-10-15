@@ -14,7 +14,7 @@ ms.workload:
 
 The Visual Studio Kubernetes Tools help streamline the development of containerized applications targeting Kubernetes. Visual Studio can automatically create the configuration-as-code files needed to support Kubernetes deployment, such as Dockerfiles and Helm charts. You can debug your code in a live Azure Kubernetes Service (AKS) cluster using Azure Dev Spaces, or publish directly to an AKS cluster from inside Visual Studio.
 
-This tutorial covers using Visual Studio to add Kubernetes support to an project and publish to AKS. If you are primarily interested in using [Azure Dev Spaces](http://aka.ms/get-azds) to debug and test your project running in AKS, you can jump to the [Azure Dev Spaces tutorial](https://docs.microsoft.com/en-us/azure/dev-spaces/get-started-netcore-visualstudio) instead.
+This tutorial covers using Visual Studio to add Kubernetes support to an project and publish to AKS. If you are primarily interested in using [Azure Dev Spaces](http://aka.ms/get-azds) to debug and test your project running in AKS, you can jump to the [Azure Dev Spaces tutorial](https://docs.microsoft.com/azure/dev-spaces/get-started-netcore-visualstudio) instead.
 
 ## Prerequisites
 
@@ -76,7 +76,7 @@ The added files are:
 
 ## Publish to Azure Kubernetes Service (AKS)
 
-With all these files in place, you can use the Visual Studio IDE to write and debug your application code, just as you always have. You can also use [Azure Dev Spaces](http://aka.ms/get-azds) to quickly run and debug your code running live in an AKS cluster. For more information, please reference the [Azure Dev Spaces tutorial](https://docs.microsoft.com/en-us/azure/dev-spaces/get-started-netcore-visualstudio)
+With all these files in place, you can use the Visual Studio IDE to write and debug your application code, just as you always have. You can also use [Azure Dev Spaces](http://aka.ms/get-azds) to quickly run and debug your code running live in an AKS cluster. For more information, please reference the [Azure Dev Spaces tutorial](https://docs.microsoft.com/azure/dev-spaces/get-started-netcore-visualstudio)
 
 Once you have your code running the way you want, you can publish directly from Visual Studio to an AKS cluster.
 
