@@ -18,10 +18,10 @@ ms.workload:
 
 Just-In-Time debugging can launch Visual Studio automatically when an app running outside Visual Studio errors or crashes. With Just-In-Time debugging, you can test apps outside of Visual Studio, and open Visual Studio to begin debugging when a problem occurs.
 
-> Just-In-Time debugging works for Windows desktop apps. It does not work for Universal Windows Apps, or for managed code that is hosted in a native application, such as Visualizers.
+Just-In-Time debugging works for Windows desktop apps. It does not work for Universal Windows Apps, or for managed code that is hosted in a native application, such as Visualizers.
 
 > [!TIP]
-> If you just want to stop the Just-In-Time Debugger dialog box from appearing but don't have Visual Studio installed, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, you may need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry). 
+> If you just want to stop the Just-In-Time Debugger dialog box from appearing, but don't have Visual Studio installed, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, you may need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry). 
 
 ##  <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
 
@@ -151,14 +151,21 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it is e
   
   To fix this issue, use Registry Editor to add a **DWORD Value** of **Disabled**, with **Value data** of **1**, to the following registry keys:
   
+  
+
   - **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting**
+    
   - (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
   
   For more information, see [.WER settings](https://docs.microsoft.com/windows/desktop/wer/wer-settings).
-
-- A known Windows issue may be causing the Just-In-Time debugger to fail. The fix is to a **DWORD Value** of **Auto**, with **Value data** of **1**, to the following registry keys:
+  
+- A known Windows issue may be causing the Just-In-Time debugger to fail. 
+  
+  The fix is to add a **DWORD Value** of **Auto**, with **Value data** of **1**, to the following registry keys:
+  
   
   - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
+    
   - (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
 You might see the following error messages during Just-In-Time debugging:

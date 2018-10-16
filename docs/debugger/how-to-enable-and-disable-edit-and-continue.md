@@ -38,7 +38,7 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
   
 1.  If you're in a debugging session, stop debugging (**Debug** > **Stop Debugging** or **Shift**+**F5**).
 
-1.  In **Tools** > **Options** > **Debugging** (or **Debug** > **Options**) > **General**, select **Edit and Continue** in the right pane.  
+1.  In **Tools** > **Options** > (or **Debug** > **Options**) > **Debugging** > **General**, select **Edit and Continue** in the right pane.  
   
     > [!NOTE]
     >  If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [IntelliTrace](../debugger/intellitrace.md).
