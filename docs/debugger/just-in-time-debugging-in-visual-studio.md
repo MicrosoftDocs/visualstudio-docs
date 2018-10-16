@@ -18,7 +18,7 @@ ms.workload:
 
 The Just-In-Time Debugger dialog box may open when an error occurs in a running app, and prevent the app from continuing. 
 
-The Just-In-Time Debugger gives the option to launch Visual Studio or script debugging to debug the error. You must have [Visual Studio](http://visualstudio.microsoft.com) or another selected debugger installed to view detailed information about the error or try to debug it. 
+The Just-In-Time Debugger gives you the option to launch Visual Studio to debug the error. You must have [Visual Studio](http://visualstudio.microsoft.com) or another selected debugger installed to view detailed information about the error or try to debug it. 
 
 If you're a Visual Studio user and want to try to debug the error, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md) and [Debugger basics](../debugger/getting-started-with-the-debugger.md). If you can't fix the error, or want to keep the Just-In-Time Debugger from opening, you can [disable Just-In-Time debugging from Visual Studio](debug-using-the-just-in-time-debugger.md#BKMK_Enabling). 
 

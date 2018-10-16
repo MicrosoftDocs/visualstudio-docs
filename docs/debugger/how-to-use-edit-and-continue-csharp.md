@@ -23,8 +23,10 @@ With Edit and Continue, you can make and apply changes to your code in break mod
 
 Edit and Continue for C# happens automatically when you make code changes in break mode, then continue debugging by using **Continue**, **Step**, or **Set Next Statement**, or evaluate a function in a debugger window.  
 
+For more information, see [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md).
+
 >[!NOTE]
->Edit and Continue is not supported for optimized, mixed, or SQL Server common language runtime (CLR) integration code. For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to Edit and Continue with one of these scenarios, a message box states that Edit and Continue is not supported.  
+>Edit and Continue is not supported for optimized, mixed, or SQL Server common language runtime (CLR) integration code. For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to Edit and Continue with one of these scenarios, a message box appears stating that Edit and Continue is not supported.  
   
 **To enable or disable Edit and Continue:**  
    
@@ -40,10 +42,6 @@ The setting takes effect when you start or restart the debugging session.
    
 1. From the **Debug** menu, click **Continue**, **Step**, or **Set Next Statement**, or evaluate a function in a debugger window.  
    
-Debugging continues with the new, compiled code. 
+   Debugging continues with the new, compiled code. 
 
-Some types of code changes are not supported by Edit and Continue. For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).  
-  
-## See also  
- [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)   
+Some types of code changes are not supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).   
