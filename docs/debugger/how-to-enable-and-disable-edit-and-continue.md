@@ -38,22 +38,18 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
   
 1.  If you're in a debugging session, stop debugging (**Debug** > **Stop Debugging** or **Shift**+**F5**).
 
-1.  In **Tools** > **Options** > **Debugging** (or **Debug** > **Options**), select **General**, and scroll down to **Edit and Continue** in the right pane.  
-  
-    - For managed code, select or deselect the **Enable Edit and Continue** check box. 
+1.  In **Tools** > **Options** > **Debugging** (or **Debug** > **Options**) > **General**, select **Edit and Continue** in the right pane.  
   
     > [!NOTE]
     >  If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [IntelliTrace](../debugger/intellitrace.md).
     
-    - For C++:
-      1. Select or deselect the **Enable Native Edit and Continue** check box.
-      1. Set additional options:
-         - **Apply changes on continue (Native only)**  
-           
-           If selected, Visual Studio automatically compiles and applies any outstanding code changes when continuing from a break state. If not selected, you can choose to apply changes using **Debug** > **Apply Code Changes**.  
-           
-         - **Warn about stale code (Native only)**  
-           
-           If selected, gives warnings about stale code. 
+1.  For C++ code, make sure the **Enable Native Edit and Continue** is selected, and set the additional options:.
+    - **Apply changes on continue (Native only)**  
+      
+      If selected, Visual Studio automatically compiles and applies code changes when continuing from a break state. Otherwise, you can choose to apply changes using **Debug** > **Apply Code Changes**.  
+      
+    - **Warn about stale code (Native only)**  
+      
+      If selected, gives warnings about stale code. 
   
 1.  Click **OK**.    
