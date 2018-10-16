@@ -20,19 +20,19 @@ The Just-In-Time Debugger dialog box may open when an error occurs in a running 
 
 The Just-In-Time Debugger gives the option to launch Visual Studio or script debugging to debug the error. You must have [Visual Studio](http://visualstudio.microsoft.com) or another selected debugger installed to view detailed information about the error or try to debug it. 
 
-If you're a Visual Studio user and want to try to debug the error, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md) and [Debugger basics](../debugger/getting-started-with-the-debugger.md). If you can't fix the error, or want to keep the Just-In-Time Debugger from opening, you can [disable Just-In-Time debugging from Visual Studio]. 
+If you're a Visual Studio user and want to try to debug the error, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md) and [Debugger basics](../debugger/getting-started-with-the-debugger.md). If you can't fix the error, or want to keep the Just-In-Time Debugger from opening, you can [disable Just-In-Time debugging from Visual Studio](debug-using-the-just-in-time-debugger.md#BKMK_Enabling). 
 
-If you no longer have Visual Studio installed, you can [disable Just-In-Time debugging from the Windows registry](../debugger/debug-using-the-just-in-time-debugger.md). 
+If you had Visual Studio installed but no longer do, you may need to [disable Just-In-Time debugging from the Windows registry](debug-using-the-just-in-time-debugger.md#disable-just-in-time-debugging-from-the-windows-registry). 
 
-If you never had Visual Studio installed, you can disable the Just-In-Time Debugger by disabling script debugging or server-side debugging. 
+If you don't have Visual Studio installed, you can prevent Just-In-Time debugging by disabling script debugging or server-side debugging. 
 
-- If you're trying to run a web app, disable script debugging.
+- If you're trying to run a web app, disable script debugging:
   
-  1. To disable script debugging, in Windows **Control Panel** > **Network and Internet** > **Internet Options**, select **Disable script debugging (Internet Explorer)** and **Disable script debugging (other)**. The exact steps and settings depend on your version of Windows and your browser.
-     
-     ![JIT Internet Options](../debugger/media/jitinternetoptions.png "JIT internet options")
+  In Windows **Control Panel** > **Network and Internet** > **Internet Options**, select **Disable script debugging (Internet Explorer)** and **Disable script debugging (other)**. The exact steps and settings depend on your version of Windows and your browser.
   
-- If you're hosting an ASP.NET web app in IIS, disable server-side debugging.
+  ![JIT Internet Options](../debugger/media/jitinternetoptions.png "JIT internet options")
+  
+- If you're hosting an ASP.NET web app in IIS, disable server-side debugging:
 
   1. In IIS Manager **Features View**, under the **ASP.NET** section, double-click **.NET Compilation**, or select it and then select **Open Feature** in the **Actions** pane. 
   1. Under **Behavior** > **Debug**, select **False**. The steps are different in older versions of IIS.

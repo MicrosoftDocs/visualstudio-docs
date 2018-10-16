@@ -43,7 +43,7 @@ You can configure Just-In-Time debugging from the Visual Studio **Tools** > **Op
 
 If you enable the Just-In-Time debugger, but it doesn't open when an app crashes or errors, see [Troubleshoot Just-In-Time debugging](#jit_errors).
 
-##  Disable Just-In-Time debugging from the Windows registry
+## Disable Just-In-Time debugging from the Windows registry
 
 Just-In-Time debugging may still be enabled even if Visual Studio is no longer installed on your computer. If Visual Studio is no longer installed, you can disable Just-In-Time debugging by editing the Windows registry.
 
@@ -179,7 +179,7 @@ You might see the following error messages during Just-In-Time debugging:
 
     The debugger tried to create a COM class that is not registered, probably due to an installation problem.
 
-    To fix this problem, use the setup disk to reinstall or repair your Visual Studio installation.
+    To fix this problem, use the Visual Studio Installer to reinstall or repair your Visual Studio installation.
 
 ## See also
 - [Debugger security](../debugger/debugger-security.md)
