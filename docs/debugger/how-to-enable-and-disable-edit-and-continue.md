@@ -43,7 +43,7 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
     > [!NOTE]
     >  If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [IntelliTrace](../debugger/intellitrace.md).
     
-1.  For C++ code, make sure the **Enable Native Edit and Continue** is selected, and set the additional options:.
+1.  For C++ code, make sure **Enable Native Edit and Continue** is selected, and set the additional options:
     - **Apply changes on continue (Native only)**  
       
       If selected, Visual Studio automatically compiles and applies code changes when continuing from a break state. Otherwise, you can choose to apply changes using **Debug** > **Apply Code Changes**.  
