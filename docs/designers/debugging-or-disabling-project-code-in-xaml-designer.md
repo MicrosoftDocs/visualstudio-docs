@@ -88,7 +88,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 In the XAML designer, you can change your control display options to only display platform controls from the Windows SDK. This may improve reliability of the XAML designer.
 
-To change control display options, click the icon in the bottom left of the designer window, and then select the **Control Display Options** button:
+To change control display options, click the icon in the bottom left of the designer window, and then select one of the **Control Display Options** buttons:
 
 ![Control Display Options](../designers/media/control_display_options.png)
 
