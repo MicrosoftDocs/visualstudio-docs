@@ -29,7 +29,7 @@ This refactoring applies to:
 
 ## How-to
 
-1. Highlight or place the text cursor inside the name of the type to move:
+1. Place the text cursor inside the name of the type to move:
 
    - C#:
 
