@@ -60,6 +60,6 @@ Visual Basic does not have open type syntax, so you cannot do the same thing in 
 
 ## See Also
 
-[Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
-[Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)
-[Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)
+- [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
+- [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)
+- [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)
