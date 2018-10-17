@@ -128,7 +128,7 @@
     - name: Debug using the Just-In-Time Debugger
       href: debug-using-the-just-in-time-debugger.md
       items:
-      - name: Respond to the Just-In-Time Debugger
+      - name: Disable the Just-In-Time Debugger
         href: just-in-time-debugging-in-visual-studio.md
   - name: Configure debugging
     items:
