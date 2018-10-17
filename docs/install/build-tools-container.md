@@ -51,7 +51,7 @@ Visual Studio Build Tools - and to a greater extent, Visual Studio - require lot
 
 **On Windows 10**:
 
-1. [Rick-click on the Docker for Windows icon](https://docs.docker.com/docker-for-windows/#docker-settings) in the system tray and click **Settings...**.
+1. [Right-click on the Docker for Windows icon](https://docs.docker.com/docker-for-windows/#docker-settings) in the system tray and click **Settings**.
 2. [Click on the Daemon](https://docs.docker.com/docker-for-windows/#docker-daemon) section.
 3. [Toggle the **Basic**](https://docs.docker.com/docker-for-windows/#edit-the-daemon-configuration-file) button to **Advanced**.
 4. Add the following JSON array property to increase disk space to 120 GB (more than enough for Build Tools with room to grow).
