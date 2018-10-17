@@ -58,7 +58,7 @@ The required settings for the tsconfig file are as follows:
  The output location, as well as non-project folders such as `node_modules` or `temp`, should be added to this setting.
  - `enableAutoDiscovery`: This setting enables the automatic detection and download of definition files as outlined previously.
  - `compileOnSave`: This setting tells the compiler if it should recompile any time a source file is saved in Visual Studio.
- - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](https://docs.microsoft.com/en-us/visualstudio/ide/javascript-intellisense#Auto))
+ - `typeAcquisition`: This set of settings control the behavior of automatic type acquisition (further explain in [this section](/visualstudio/ide/javascript-intellisense#Auto))
 
 In order to convert JavaScript files to CommonJS modules and place them in an `./out` folder, you could use the following `tsconfig.json` file:
 
@@ -249,7 +249,7 @@ VSDoc is no longer supported in favor of [JSDoc](http://usejsdoc.org/about-getti
 
 ### `.intellisense.js` extensions
 
-Previously, you could author [IntelliSense extensions](https://msdn.microsoft.com/en-us/library/hh874692.aspx) which would allow you to add custom completion results for third-party libraries.
+Previously, you could author [IntelliSense extensions](https://msdn.microsoft.com/library/hh874692.aspx) which would allow you to add custom completion results for third-party libraries.
 These extensions were fairly difficult to write and installing and referencing them was cumbersome, so going forward the new language service won't support these files.
 As an easier alternative, you can write a TypeScript definition file to provide the same IntelliSense benefits as the old `.intellisense.js` extensions.
 You can learn more about declaration (`.d.ts`) file authoring [here](http://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).

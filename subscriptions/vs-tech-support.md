@@ -26,12 +26,13 @@ Resolve break-fix issues in non-production environments. (Benefit must be activa
 3.  To complete the process, you will need to provide the representative with:
     - The email address you use to sign in to your subscription
     - The Subscription ID which can be found on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab.
+
     > [!div class="mx-imgBorder"]
     > ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
 
 
-    > [!NOTE]
-    > To activate your support account in a language other than English, choose your country from [this list](https://support.microsoft.com/help/14084/activate-support-contract).   
+> [!NOTE]
+> To activate your support account in a language other than English, choose your country from [this list](https://support.microsoft.com/help/14084/activate-support-contract).   
 
 
 ## How to submit an incident
@@ -95,6 +96,6 @@ Once you've completed these steps, you'll be able to select the support plan ass
 | Visual Studio Dev Essentials | NA | Not available |NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Microsoft Valued Partner (MVP), Region Director (RD), MCT Software & Services.*
+<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Microsoft Valued Professional (MVP), Region Director (RD), MCT Software & Services.*
 
 <sup>2</sup> *Includes: Imagine Standard.*

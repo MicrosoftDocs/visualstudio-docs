@@ -76,7 +76,7 @@ The table below details what Pluralsight subscription benefits are available to 
 | Visual Studio Dev Essentials | NA  | 3 months |No|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                  |NA|
 | Visual Studio Enterprise (NFR<sup>1</sup> ) | Program                                       | Not available                                  |NA|
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Partner (MVP), Region Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Professional (MVP), Region Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 
 <sup>2</sup>  *The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset. Please see the frequently asked questions below for more details.  Following the expiration of Pluralsight subscriptions, you may be eligible to receive 12 months of access to 50 selected Pluralsight courses in one of three study areas.*
 
@@ -108,4 +108,4 @@ A:  No.  The Pluralsight benefit is single use only, tied to the individual.  On
 ## Support resources
 -  [Pluralsight Help Center](https://help.pluralsight.com/help) provides assistance with taking Pluralsight courses or using the Pluralsight website.
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

@@ -40,7 +40,7 @@ The Registers window is available only if address-level debugging is enabled in 
   
 ### To display the Registers window  
   
--   On the **Debug** menu, choose **Windows**, and then choose **Registers**.  
+-   On the **Debug** menu, choose **Windows**, and then choose **Registers** (or choose **Ctrl** + **Alt** + **G**).  
   
      The debugger must be running or in break mode.  
   

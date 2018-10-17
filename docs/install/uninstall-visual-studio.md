@@ -22,7 +22,7 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 
 1. Find the Visual Studio Installer on your computer.
 
-     For example, on a computer running Windows 10 Anniversary Update, select **Start** and scroll to the letter **V**, where it is listed as **Visual Studio Installer**.
+     For example, on a computer running Windows 10 Anniversary Update or later, select **Start** and scroll to the letter **V**, where it is listed as **Visual Studio Installer**.
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
@@ -47,20 +47,10 @@ To completely remove all installations of Visual Studio 2017 as well as the Visu
 2. Find **Microsoft Visual Studio 2017**.
 3. Click **Uninstall**.
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)
-* [Remove Visual Studio](remove-visual-studio.md)
+* [Uninstall Visual Studio for Mac](/visualstudio/mac/uninstall)

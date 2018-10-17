@@ -31,6 +31,10 @@ For most programming languages, Just My Code is enabled by default.
   
 > [!NOTE]
 >  The **Show External Code** setting is saved to the current user's profiler. It is applied to all projects in all languages that are opened by the user.
+
+##  Identify user code while debugging 
+
+The **Modules** window can tell you what code modules the debugger is treating as user code, or My Code, along with information such as the symbol loading status for the module. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
   
 ##  <a name="BKMK__NET_Framework_Just_My_Code"></a> .NET Framework Just My Code  
   

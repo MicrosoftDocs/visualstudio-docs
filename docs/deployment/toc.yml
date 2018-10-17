@@ -32,12 +32,10 @@
     items:
     - name: Publish an ASP.NET Core app to Azure
       href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
-    - name: Deploy to IIS using Web Deploy
-      href: deploy-iis-with-web-deploy.md
-    - name: Import publish settings and deploy to Azure
-      href: tutorial-import-publish-settings-azure.md
     - name: Import publish settings and deploy to IIS
       href: tutorial-import-publish-settings-iis.md
+    - name: Import publish settings and deploy to Azure
+      href: tutorial-import-publish-settings-azure.md
     - name: Continuous deployment of ASP.NET Core to Azure with Git
       href: /aspnet/core/publishing/azure-continuous-deployment
     - name: Publish to Kubernetes with Visual Studio Kubernetes tools

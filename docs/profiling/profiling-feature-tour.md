@@ -28,7 +28,7 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 
 The **Diagnostic Tools** window is often the preferred way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use).
 
-> ![NOTE]
+> [!NOTE]
 > You can use the post-mortem tools with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
 ## Analyze CPU Usage
@@ -114,7 +114,7 @@ When you select a time period in the graphs and choose **view details**, a detai
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
 
-## Analyze performance (JavaScript)
+## Analyze performance (JavaScript UWP)
 
 For UWP apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
 
@@ -150,8 +150,8 @@ Here is a table that lists the different tools Visual Studio offers and the diff
   
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core| 
 |----------------------|---------------------|-------------|-------------|  
+|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes| 
-|[CPU Usage](../profiling/cpu-usage.md)|yes (see note)|yes|yes (see note)|
 |[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no| 
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|

@@ -16,7 +16,7 @@ You can generate or configure parts of your application from a model.
  The model represents the requirements more directly than the code. By deriving the application's behavior directly from the model, you can respond to changed requirements much more quickly and reliably than by updating the code. Although some initial work is required to set up the derivation, this investment is returned if you expect changes in requirements, or if you plan to make several variants of the product.
 
 ## Generating the Code of your Application from a Model
- The easiest way to generate code is by using text templates. You can generate code in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution in which you keep the model. For more information, see:
+ The easiest way to generate code is by using text templates. You can generate code in the same Visual Studio solution in which you keep the model. For more information, see:
 
 -   [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
 

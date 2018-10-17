@@ -28,6 +28,8 @@
   items:
   - name: Code analysis for managed code
     items:
+    - name: FAQ for FxCop analyzers
+      href: fxcop-analyzers-faq.md
     - name: Migrate from FxCop
       href: fxcop-analyzers.yml
       items:

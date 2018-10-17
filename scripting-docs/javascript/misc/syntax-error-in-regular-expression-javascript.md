@@ -30,5 +30,5 @@ The structure of your search string violates one or more of the grammatical rule
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](http://msdn.microsoft.com/en-us/ab0766e1-7037-45ed-aa23-706f58358c0e)   
+ [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)   
  [compile Method (Regular Expression)](../../javascript/reference/compile-method-regular-expression-javascript.md)

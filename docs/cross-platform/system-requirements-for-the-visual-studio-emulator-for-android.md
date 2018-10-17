@@ -111,7 +111,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
   
 |Requirement|How to check and enable this requirement|  
 |-----------------|----------------------------------------------|  
-|Hyper-V must be installed|Follow the same instructions used to [enable Hyper-V for the Windows Phone emulator](https://msdn.microsoft.com/en-us/library/windows/apps/jj863509\(v=vs.105\).aspx).<br /><br /> Check the status of the **Hyper-V Virtual Machine Management** service in the Services snap-in.|  
+|Hyper-V must be installed|Follow the same instructions used to [enable Hyper-V for the Windows Phone emulator](https://docs.microsoft.com/previous-versions/windows/apps/jj863509(v=vs.105)).<br /><br /> Check the status of the **Hyper-V Virtual Machine Management** service in the Services snap-in.|  
 |Hyper-V must be running.|For more info about managing services, see the following topics:<br /><br /> -   [Start, stop, pause, resume, or restart a service](https://technet.microsoft.com/library/cc736564\(v=WS.10\).aspx)<br />-   [Configure how a service is started](https://technet.microsoft.com/%20library/cc739213\(v=ws.10\))|  
   
  You have to be a member of the local Hyper-V Administrators group.  
@@ -121,11 +121,11 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
  When you run the emulator, if you are not already a member of the Hyper-V Administrators group, you are prompted to join the group (the dialog box refers to the Windows Phone emulator). Joining the group requires administrator rights.  
   
 > [!IMPORTANT]
->  After you join the group, log off or reboot to make the change take effect.  
+> After you join the group, log off or reboot to make the change take effect.  
   
  ![Joining the Hyper&#45;V Administrators security group](../cross-platform/media/android_emu_hyperv_admin.png "Android_Emu_HyperV_Admin")  
   
- To add yourself to a group manually, open the Local Users and Groups snap-in. For more information, see [Add a user account to a group](http://windows.microsoft.com/en-us/windows/add-user-account-to-group#1TC=windows-7). (This Windows 7 topic is also applicable to Windows 8.)  
+ To add yourself to a group manually, open the Local Users and Groups snap-in.  
   
 ##  <a name="BootableVHD"></a> Running the emulator from a bootable VHD is not supported  
  If you try to run an app on the Visual Studio Emulator for Android while you are running Windows from a bootable VHD, the emulator typically takes several minutes to start or fails to start. When the emulator fails to start, you see the following message: App deployment failed. Please try again.  

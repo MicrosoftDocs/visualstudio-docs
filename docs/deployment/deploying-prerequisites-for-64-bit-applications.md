@@ -40,4 +40,4 @@ ClickOnce deployment supports the installation of applications on 64-bit platfor
 ## See also  
  [Deploy applications, services, and components](../deployment/deploying-applications-services-and-components.md)   
  [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   
- [64-bit applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)
+ [64-bit applications](/dotnet/framework/64-bit-apps)

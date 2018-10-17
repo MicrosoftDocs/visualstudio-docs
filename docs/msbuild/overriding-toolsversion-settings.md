@@ -17,22 +17,22 @@ ms.workload:
 # Override ToolsVersion settings
 You can change the Toolset for projects and solutions in one of three ways:  
   
-1.  By using the `/ToolsVersion` switch (or `/tv`, for short) when you build the project or solution from the command line.  
+1.  By using the `-ToolsVersion` switch (or `-tv`, for short) when you build the project or solution from the command line.  
   
 2.  By setting the `ToolsVersion` parameter on the MSBuild task.  
   
 3.  By setting the `$(ProjectToolsVersion)` property on a project within a solution. This lets you build a project in a solution with a Toolset version that differs from that of the other projects.  
   
 ## Override the ToolsVersion settings of projects and solutions on command line builds  
- Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `/ToolsVersion` (or `/tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different Toolset. For example:  
+ Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `-ToolsVersion` (or `-tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different Toolset. For example:  
   
 ```cmd  
-msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug  
+msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug  
 ```  
   
  In this example, all projects are built using ToolsVersion 12.0. (However, see the section [Order of precedence](#order-of-precedence) later in this topic.)  
   
- When using the `/tv` switch on the command line, you can optionally use the `$(ProjectToolsVersion)` property in individual projects to build them with a different ToolsVersion value than the other projects in the solution.  
+ When using the `-tv` switch on the command line, you can optionally use the `$(ProjectToolsVersion)` property in individual projects to build them with a different ToolsVersion value than the other projects in the solution.  
   
 ## Override the ToolsVersion settings using the ToolsVersion parameter of the MSBuild task  
  The MSBuild task is the primary means for one project to build another. To enable the MSBuild task to build a project with a different ToolsVersion than the one specified in the project, it provides an optional task parameter named `ToolsVersion`. The following example demonstrates how to use this parameter:  
@@ -72,10 +72,10 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
 3.  Enter the following command at a command prompt:  
   
     ```cmd  
-    msbuild projectA.proj /t:go /toolsversion:3.5  
+    msbuild projectA.proj -t:go -toolsversion:3.5  
     ```  
   
-4.  The following output appears. For `projectA`, the `/toolsversion:3.5` setting on the command line overrides the `ToolsVersion=12.0` setting in the `Project` tag.  
+4.  The following output appears. For `projectA`, the `-toolsversion:3.5` setting on the command line overrides the `ToolsVersion=12.0` setting in the `Project` tag.  
   
      `ProjectB` is called by a task in `projectA`. That task has `ToolsVersion=2.0`, which overrides the other `ToolsVersion` settings for `projectB`.  
   
@@ -95,7 +95,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 1.  The `ToolsVersion` attribute on the MSBuild task used to build the project, if any.  
   
-2.  The `/toolsversion` (or `/tv`) switch that's used in the msbuild.exe command, if any.  
+2.  The `-toolsversion` (or `-tv`) switch that's used in the msbuild.exe command, if any.  
   
 3.  If the environment variable `MSBUILDTREATALLTOOLSVERSIONSASCURRENT` is set, then use the current `ToolsVersion`.  
   

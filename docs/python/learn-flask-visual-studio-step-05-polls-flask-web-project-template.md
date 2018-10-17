@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 5
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features of the Polls Flask Web Project and Polls Flask/Jade Web Project templates.
-ms.date: 05/25/2018
+ms.date: 09/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -347,11 +347,8 @@ You've now explored the entirety of the "Blank Flask Web Project", "Flask[/Jade]
 
 Running a web app on your development computer is just one step in making the app available to your customers. Next steps may include the following tasks:
 
-- Deploy the web app to a production server, such as Azure App Service. See [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md), which includes specific changes needed for Flask apps.
+- Deploy the web app to a production server, such as Azure App Service. See [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 - Add a repository implementation that uses another production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). You can also use the [Azure SDK for Python](azure-sdk-for-python.md) to work with Azure storage services like tables and blobs as well as Cosmos DB.
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Visual Studio Team Services (VSTS). In addition to working with source control (on VSTS, GitHub, or elsewhere), you can have VSTS automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. VSTS, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see:
-
-  - [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts)
-  - [Python development in Azure with Visual Studio Team Services (video, 11m 21s)](https://azure.microsoft.com/resources/videos/connect-2017-python-development-in-azure-with-visual-studio-team-services/).
+- Set up a continuous integration/continuous deployment pipeline on a service like Visual Studio Team Services (VSTS). In addition to working with source control (on VSTS, GitHub, or elsewhere), you can have VSTS automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. VSTS, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts).

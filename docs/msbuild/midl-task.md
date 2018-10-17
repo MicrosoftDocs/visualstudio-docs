@@ -239,7 +239,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
   
      If `true`, requires the format of the input file to be compatible with *mktyplib.exe* version 2.03.  
   
-     For more information, see the **/mktyplib203** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also, see [ODL file syntax](https://msdn.microsoft.com/library/windows/desktop/ms221683(v=vs.85).aspx) on the MSDN website.  
+     For more information, see the **/mktyplib203** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also, see [ODL file syntax](/previous-versions/windows/desktop/automat/odl-file-syntax) on the MSDN website.  
   
 -   **OutputDirectory**  
   

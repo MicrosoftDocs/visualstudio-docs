@@ -5,8 +5,8 @@ ms.date: "03/30/2018"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 1da4064f-af69-472c-8f31-98484be5f790
-author: charlespetzold
-ms.author: chape
+author: conceptdev
+ms.author: crdun
 manager: crdun
 ms.workload:
   - "xamarin"

@@ -29,7 +29,7 @@ You create a project from a template using **File** > **New** > **Project**. To 
 
 The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project. For details on the **Azure Cloud Service** template, see [Azure cloud service projects for Python](python-azure-cloud-service-project-template.md).
 
-All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](http://www.python.org/dev/peps/pep-3333/) (python.org) to [deploy to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
+All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](http://www.python.org/dev/peps/pep-3333/) (python.org) for use with production web servers.
 
 ### Blank group
 
@@ -39,7 +39,7 @@ All **Blank \<framework> Web Project** templates create a project with more or l
 | --- | --- |
 | **Blank Bottle Web Project** | Generates a minimal app in *app.py* with a home page for `/` and a `/hello/<name>` page that echoes `<name>` using a very short inline page template. |
 | **Blank Django Web Project** | Generates a Django project with the core Django site structure but no Django apps. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learn Django Step 1](learn-django-in-visual-studio-step-01-project-and-solution.md). |
-| **Blank Flask Web Project** | Generates a minimal app with a single "Hello World!" page for `/`. This app is similar to the result of following the detailed steps in [Quickstart: Use Visual Studio to create your first Python web app](../ide/quickstart-python.md?context=visualstudio/python/default). Also see [Learn Flask Step 1](learn-flask-visual-studio-step-01-project-solution.md).
+| **Blank Flask Web Project** | Generates a minimal app with a single "Hello World!" page for `/`. This app is similar to the result of following the detailed steps in [Quickstart: Use Visual Studio to create your first Python web app](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json). Also see [Learn Flask Step 1](learn-flask-visual-studio-step-01-project-solution.md).
 
 ### Web group
 

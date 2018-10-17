@@ -15,8 +15,8 @@ dev_langs:
 ms.workload:
   - "aspnet"
   - "dotnetcore"
-experimental: true​
-experiment_id: eb51ee6c-71a8-45
+experimental: true
+experiment_id: "bef9e21b-00d0-4b"
 ---
 # Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 

@@ -114,10 +114,14 @@
     href: ide/quickstart-python.md
   - name: "Node.js: Create a web app"
     href: ide/quickstart-nodejs.md
+  - name: "F#: Create a web service"
+    href: ide/quickstart-fsharp.md
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a UWP app"
     href: ide/quickstart-uwp-csharp.md
+  - name: "C#: Create a console app"
+    href: ide/quickstart-csharp-console.md
   - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
 - name: Tutorials
@@ -131,11 +135,15 @@
   - name: Node.js in Visual Studio
     href: javascript/tutorial-nodejs.md
   - name: C# in Visual Studio
-    href: ide/tutorial-csharp-aspnet-core.md
+    items:
+    - name: "C#: Create a web app"
+      href: ide/tutorial-csharp-aspnet-core.md
+    - name: "C#: Create a console app"
+      href: ide/tutorial-csharp-console.md
   - name: Visual Basic in Visual Studio
     href: ide/tutorial-visual-basic-console.md
   - name: Debug in Visual Studio
-    href: debugger/getting-started-with-the-debugger.md?context=visualstudio/default
+    href: debugger/getting-started-with-the-debugger.md?context=visualstudio/default&contextView=vs-2017
 - name: How-to guides
   items:
   - name: Develop
@@ -277,6 +285,8 @@
             href: ide/reference/generate-field-property-local.md
           - name: Generate constructor
             href: ide/reference/generate-constructor.md
+          - name: Add parameter to method
+            href: ide/reference/add-parameter.md
           - name: Generate override
             href: ide/reference/generate-override.md
           - name: Generate Equals and GetHashCode method overrides
@@ -345,6 +355,8 @@
           href: ide/javascript-intellisense.md
         - name: Visual C++ IntelliSense
           href: ide/visual-cpp-intellisense.md
+        - name: Configure a C++ project for IntelliSense
+          href: ide/visual-cpp-intellisense-configuration.md
       - name: Navigate your code
         href: ide/navigating-code.md
         items:
@@ -386,7 +398,7 @@
             href: ide/editorconfig-code-style-settings-reference.md
           - name: .NET naming conventions
             href: ide/editorconfig-naming-conventions.md
-      - name: Customize the scrollbar
+      - name: Customize the scroll bar
         href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
       - name: Set bookmarks in code
         href: ide/setting-bookmarks-in-code.md
@@ -593,8 +605,8 @@
         href: ide/how-to-configure-projects-to-target-multiple-platforms.md
     - name: MSBuild...
       href: msbuild/msbuild.md
-    - name: VSTS and TFS...
-      href: /vsts/build-release/index
+    - name: Azure Pipelines and TFS...
+      href: /azure/devops/pipelines/index?view=vsts
     - name: Specify Build Events (Visual Basic)
       href: ide/how-to-specify-build-events-visual-basic.md
     - name: Specify Build Events (C#)
@@ -747,6 +759,8 @@
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
         - name: Environment - Task List
           href: ide/reference/task-list-environment-options-dialog-box.md
+        - name: Environment - Trust Settings
+          href: ide/reference/trust-settings.md
         - name: Environment - Web Browser
           href: ide/reference/web-browser-environment-options-dialog-box.md
       - name: Text Editor Options Dialog Box
@@ -1031,30 +1045,32 @@
   - name: Release notes & system requirements
     items:
     - name: Current release notes
-      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default
+      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017
     - name: Preview release notes
-      href: /visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default
+      href: /visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default&contextView=vs-2017
     - name: Release notes history
-      href: /visualstudio/releasenotes/vs2017-relnotes-history?context=visualstudio/default
+      href: /visualstudio/releasenotes/vs2017-relnotes-history?context=visualstudio/default&contextView=vs-2017
     - name: Release rhythm
-      href: /visualstudio/productinfo/vs2017-release-rhythm?context=visualstudio/default
+      href: /visualstudio/productinfo/vs2017-release-rhythm?context=visualstudio/default&contextView=vs-2017
     - name: Visual Studio roadmap
-      href: /visualstudio/productinfo/vs2018-roadmap?context=visualstudio/default
+      href: /visualstudio/productinfo/vs2018-roadmap?context=visualstudio/default&contextView=vs-2017
     - name: System requirements
-      href: /visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default
+      href: /visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default&contextView=vs-2017
     - name: Platform compatibility
-      href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default
+      href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default&contextView=vs-2017
     - name: Licensing
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Distributable code
-      href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default
+      href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default&contextView=vs-2017
     - name: Support lifecycle and servicing
-      href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default
+      href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default&contextView=vs-2017
   - name: Report a problem with Visual Studio
     href: ide/how-to-report-a-problem-with-visual-studio-2017.md
     items:
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
+  - name: Suggest a feature for Visual Studio
+    href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:

@@ -63,7 +63,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
   If you receive a User Account Control notice, click **Yes**.
 
-2. We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Continue**.
+2. We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Click **Continue**.
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")
 
@@ -132,7 +132,7 @@ For more information, see the [Change installation locations in Visual Studio](c
    For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md),  click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build. <br><br>
    To [build a C# app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md),  click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]  
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)] 
 
 ## See also
 
@@ -140,6 +140,5 @@ For more information, see the [Change installation locations in Visual Studio](c
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
-* [Visual Studio 2017 Administrator Guide](visual-studio-administrator-guide.md)
-  * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
-* [Install Build Tools into a Container](build-tools-container.md)
+* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
+* [Setup and install Visual Studio for Mac](/visualstudio/mac/installation)

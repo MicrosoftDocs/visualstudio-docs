@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2210: Assemblies should have valid strong names
+
 |||
 |-|-|
 |TypeName|AssembliesShouldHaveValidStrongNames|
@@ -26,69 +27,74 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- An assembly is not signed with a strong name, the strong name could not be verified, or the strong name would not be valid without the current registry settings of the computer.
 
-## Rule Description
- This rule retrieves and verifies the strong name of an assembly. A violation occurs if any of the following are true:
+An assembly is not signed with a strong name, the strong name could not be verified, or the strong name would not be valid without the current registry settings of the computer.
 
--   The assembly does not have a strong name.
+## Rule description
 
--   The assembly was altered after signing.
+This rule retrieves and verifies the strong name of an assembly. A violation occurs if any of the following are true:
 
--   The assembly is delay-signed.
+- The assembly does not have a strong name.
 
--   The assembly was incorrectly signed, or signing failed.
+- The assembly was altered after signing.
 
--   The assembly requires registry settings to pass verification. For example, the Strong Name tool (Sn.exe) was used to skip verification for the assembly.
+- The assembly is delay-signed.
 
- The strong name protects clients from unknowingly loading an assembly that has been tampered with. Assemblies without strong names should not be deployed outside very limited scenarios. If you share or distribute assemblies that are not correctly signed, the assembly can be tampered with, the common language runtime might not load the assembly, or the user might have to disable verification on his or her computer. An assembly without a strong name has from the following drawbacks:
+- The assembly was incorrectly signed, or signing failed.
 
--   Its origins cannot be verified.
+- The assembly requires registry settings to pass verification. For example, the Strong Name tool (Sn.exe) was used to skip verification for the assembly.
 
--   The common language runtime cannot warn users if the contents of the assembly have been altered.
+The strong name protects clients from unknowingly loading an assembly that has been tampered with. Assemblies without strong names should not be deployed outside very limited scenarios. If you share or distribute assemblies that are not correctly signed, the assembly can be tampered with, the common language runtime might not load the assembly, or the user might have to disable verification on his or her computer. An assembly without a strong name has from the following drawbacks:
 
--   It cannot be loaded into the global assembly cache.
+- Its origins cannot be verified.
 
- Note that to load and analyze a delay-signed assembly, you must disable verification for the assembly.
+- The common language runtime cannot warn users if the contents of the assembly have been altered.
 
-## How to Fix Violations
- **To create a key file**
+- It cannot be loaded into the global assembly cache.
 
- Use one of the following procedures:
+Note that to load and analyze a delay-signed assembly, you must disable verification for the assembly.
 
--   Use the Assembly Linker tool (Al.exe) provided by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK.
+## How to fix violations
 
--   For the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.
+### Create a key file
 
--   For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).
+Use one of the following procedures:
 
- **To sign your assembly with a strong name in Visual Studio**
+- Use the Assembly Linker tool (Al.exe) provided by the .NET Framework SDK.
 
-1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open your solution.
+- For the .NET Framework v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.
 
-2.  In **Solution Explorer**, right-click your project and then click **Properties.**
+- For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).
 
-3.  Click the **Signing** tab, and select the **Sign the assembly** check box.
+### Sign your assembly with a strong name in Visual Studio
 
-4.  From **Choose a strong name key file**, select **New**.
+1. In Visual Studio, open your solution.
 
-     The **Create Strong Name Key** window will display.
+2. In **Solution Explorer**, right-click your project and then click **Properties.**
 
-5.  In **Key file name**, type a name for your strong name key.
+3. Click the **Signing** tab, and select the **Sign the assembly** check box.
 
-6.  Choose whether to protect the key with a password, and then click **OK**.
+4. From **Choose a strong name key file**, select **New**.
 
-7.  In **Solution Explorer**, right-click your project and then click **Build**.
+   The **Create Strong Name Key** window will display.
 
- **To sign your assembly with a strong name outside Visual Studio**
+5. In **Key file name**, type a name for your strong name key.
 
--   Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).
+6. Choose whether to protect the key with a password, and then click **OK**.
 
-## When to Suppress Warnings
- Only suppress a warning from this rule if the assembly is used in an environment where tampering with the contents is not a concern.
+7. In **Solution Explorer**, right-click your project and then click **Build**.
 
-## See Also
- <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName>
- <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName>
- [How to: Sign an Assembly with a Strong Name](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)
- [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool)
+### Sign your assembly with a strong name outside Visual Studio
+
+Use the strong name tool (Sn.exe) that is provided by the .NET Framework SDK. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).
+
+## When to suppress warnings
+
+Only suppress a warning from this rule if the assembly is used in an environment where tampering with the contents is not a concern.
+
+## See also
+
+- <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName>
+- <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName>
+- [How to: Sign an Assembly with a Strong Name](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)
+- [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool)

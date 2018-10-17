@@ -44,34 +44,34 @@ When you build projects, you frequently compile the same components with differe
     ```  
   
 ## Specify properties on the command line  
- Once your project file is written to accept multiple configurations, you need to have the ability to change those configurations whenever you build your project. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides this ability by allowing properties to be specified on the command line using the **/property** or **/p** switch.  
+ Once your project file is written to accept multiple configurations, you need to have the ability to change those configurations whenever you build your project. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides this ability by allowing properties to be specified on the command line using the **-property** or **-p** switch.  
   
 #### To set a project property at the command line  
   
--   Use the **/property** switch with the property and property value. For example:  
+-   Use the **-property** switch with the property and property value. For example:  
   
     ```cmd  
-    msbuild file.proj /property:Flavor=Debug  
+    msbuild file.proj -property:Flavor=Debug  
     ```  
   
     or  
   
     ```cmd  
-    Msbuild file.proj /p:Flavor=Debug  
+    Msbuild file.proj -p:Flavor=Debug  
     ```  
   
 #### To specify more than one project property at the command line  
   
--   Use the **/property** or **/p** switch multiple times with the property and property values, or use one **/property** or **/p** switch and separate multiple properties with semicolons (;). For example:  
+-   Use the **-property** or **-p** switch multiple times with the property and property values, or use one **-property** or **-p** switch and separate multiple properties with semicolons (;). For example:  
   
     ```cmd  
-    msbuild file.proj /p:Flavor=Debug;Platform=x86  
+    msbuild file.proj -p:Flavor=Debug;Platform=x86  
     ```  
   
     or
   
     ```cmd  
-    msbuild file.proj /p:Flavor=Debug /p:Platform=x86  
+    msbuild file.proj -p:Flavor=Debug -p:Platform=x86  
     ```  
   
  Environment variables are also treated as properties and are automatically incorporated by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. For more information about using environment variables, see [How to: Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md).  
@@ -86,13 +86,13 @@ When you build projects, you frequently compile the same components with differe
  To build the debug version of this project, type:  
   
 ```cmd  
-msbuild consolehwcs1.proj /p:flavor=debug  
+msbuild consolehwcs1.proj -p:flavor=debug  
 ```  
   
  To build the retail version of this project, type:  
   
 ```cmd  
-msbuild consolehwcs1.proj /p:flavor=retail  
+msbuild consolehwcs1.proj -p:flavor=retail  
 ```  
   
 ```xml  
@@ -153,7 +153,7 @@ msbuild consolehwcs1.proj /p:flavor=retail
  To build the project, enter the following command:  
   
 ```cmd  
-msbuild colortest.proj /t:go /property:Color=Green  
+msbuild colortest.proj -t:go -property:Color=Green  
 ```  
   
 ```xml  

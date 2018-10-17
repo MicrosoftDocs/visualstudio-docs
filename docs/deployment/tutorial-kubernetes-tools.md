@@ -12,19 +12,21 @@ ms.workload:
 ---
 # Get started with Visual Studio Kubernetes Tools
 
-The Visual Studio Kubernetes Tools help streamline the development of containerized applications targeting Kubernetes. Visual Studio can automatically create the configuration-as-code files needed to support Kubernetes deployment, such as Dockerfiles and Helm charts. In addition, you can publish directly to an Azure Kubernetes Service (AKS) cluster from Visual Studio.
+The Visual Studio Kubernetes Tools help streamline the development of containerized applications targeting Kubernetes. Visual Studio can automatically create the configuration-as-code files needed to support Kubernetes deployment, such as Dockerfiles and Helm charts. You can debug your code in a live Azure Kubernetes Service (AKS) cluster using Azure Dev Spaces, or publish directly to an AKS cluster from inside Visual Studio.
+
+This tutorial covers using Visual Studio to add Kubernetes support to an project and publish to AKS. If you are primarily interested in using [Azure Dev Spaces](http://aka.ms/get-azds) to debug and test your project running in AKS, you can jump to the [Azure Dev Spaces tutorial](https://docs.microsoft.com/azure/dev-spaces/get-started-netcore-visualstudio) instead.
 
 ## Prerequisites
 
 To leverage this new functionality, you'll need:
 
-- The latest preview of [Visual Studio 2017](https://visualstudio.microsoft.com/vs/preview) with the Azure development workload.
+- The latest version of [Visual Studio 2017](https://visualstudio.microsoft.com/download) with the *ASP.NET and web development* workload.
 
 - The [Kubernetes tools for Visual Studio](https://aka.ms/get-vsk8stools), available as a separate download.
 
-- [Docker for Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) installed on your development workstation (that is, where you run Visual Studio)
+- [Docker for Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) installed on your development workstation (that is, where you run Visual Studio), if you wish to build Docker images, debug Docker containers running locally, or publish to AKS. (Docker is *not* required for building and debugging Docker containers in AKS using Azure Dev Spaces.)
 
-- If you wish to publish to AKS from Visual Studio:
+- If you wish to publish to AKS from Visual Studio (*not* required for debugging in AKS using Azure Dev Spaces):
 
     1.  The [AKS publishing tools](https://aka.ms/get-vsk8spublish), available as a separate download.
 
@@ -34,8 +36,7 @@ To leverage this new functionality, you'll need:
     1.  Helm CLI installed on your development workstation. For more information
         see [Installing Helm](https://github.com/kubernetes/helm/blob/master/docs/install.md).
 
-    1.  Helm configured against your AKS cluster. For more information on how to
-        do this, see [How to configure Helm](/azure/aks/kubernetes-helm#configure-helm).
+    1.  Helm configured against your AKS cluster by using the `helm init` command. For more information on how to do this, see [How to configure Helm](/azure/aks/kubernetes-helm#configure-helm).
 
 ## Create a new Kubernetes project
 
@@ -71,15 +72,15 @@ The added files are:
 
 - a Helm chart, and a *charts* folder. These yaml files make up the Helm chart for the application, which you can use to deploy it to Kubernetes. For more information on Helm, see [https://www.helm.sh](https://www.helm.sh).
 
-- *azds.yaml*. This contains settings for Azure Dev Spaces, a new service that provides a rapid, iterative debugging experience in Azure Kubernetes Service. This file is currently unused, but is reserved for future use by Azure Dev Spaces.
+- *azds.yaml*. This contains settings for Azure Dev Spaces, which provides a rapid, iterative debugging experience in Azure Kubernetes Service. For more information, please reference [the Azure Dev Spaces documentation](https://docs.microsoft.com/azure/dev-spaces/azure-dev-spaces).
 
 ## Publish to Azure Kubernetes Service (AKS)
 
-With all these files in place, you can use the Visual Studio IDE to write and debug your application code, just as you always have.
+With all these files in place, you can use the Visual Studio IDE to write and debug your application code, just as you always have. You can also use [Azure Dev Spaces](http://aka.ms/get-azds) to quickly run and debug your code running live in an AKS cluster. For more information, please reference the [Azure Dev Spaces tutorial](https://docs.microsoft.com/azure/dev-spaces/get-started-netcore-visualstudio)
 
 Once you have your code running the way you want, you can publish directly from Visual Studio to an AKS cluster.
 
-To do this, you first need to set up a publish profile that publishes your container image to Azure Container Registry (ACR). Then AKS can pull your container image from ACR and deploy it into the cluster.
+To do this, you first need to double-check that you've installed everything as described in the [Prerequisites](#prerequisites) section under the item for publishing to AKS, and run through all the command line steps given in the links. Then, set up a publish profile that publishes your container image to Azure Container Registry (ACR). Then AKS can pull your container image from ACR and deploy it into the cluster.
 
 1. In **Solution Explorer**, right-click on your *project* and choose **Publish**.
 
@@ -116,3 +117,5 @@ Congratulations! You can now use the full power of Visual Studio for all your Ku
 ## Next steps
 
 Learn more about Kubernetes development on Azure by reading the [AKS documentation](/azure/aks).
+
+Learn more about Azure Dev Spaces by reading the [Azure Dev Spaces documentation](http://aka.ms/get-azds)

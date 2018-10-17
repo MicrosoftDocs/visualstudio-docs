@@ -21,6 +21,10 @@ abstract:
       src: https://docs.microsoft.com/media/illustrations/bcs-partner-advanced-management-settings-8.svg
     title:
 sections:
+- title: Frequently asked questions
+  items:
+  - html: Get answers to some <a href="fxcop-analyzers-faq.md">frequently asked questions</a> about the differences between FxCop and analyzers.
+
 - title: If you're new to code analysis...
   items:
   - type: list
