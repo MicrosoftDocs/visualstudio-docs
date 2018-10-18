@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Inspect variables in the Autos and Locals windows
 
-The **Autos** and **Locals** windows show variable values while you are debugging. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the currently running function or method.  
+The **Autos** and **Locals** windows show variable values while you are debugging. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.  
   
 To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.  
 
@@ -47,12 +47,12 @@ In native C++ code, you might have to qualify the context of a variable name. Fo
  
 >[!CAUTION]
 >Make sure you understand the consequences before you change values and expressions. Some possible issues are:  
+>  
+>-   Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of both `var1` and `var2`. These expressions are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can cause unexpected results if you are not aware of them. 
+>  
+>-   Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the bits in the floating-point variable.  
   
--   Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of both `var1` and `var2`. These expressions are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can cause unexpected results if you are not aware of them. 
-  
--   Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the bits in the floating-point variable.  
-  
-### Change the context for the Autos or Locals window 
+## Change the context for the Autos or Locals window 
 
 You can use the **Debug Location** toolbar to select a desired function, thread, or process, which changes the context for the **Autos** and **Locals** windows. 
 
