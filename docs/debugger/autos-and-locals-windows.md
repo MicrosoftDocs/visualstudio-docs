@@ -19,7 +19,9 @@ ms.workload:
 ---
 # Inspect variables in the Autos and Locals windows
 
-The **Autos** and **Locals** windows show variable values while you are debugging. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.  
+The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session.
+
+The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.  
   
 To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.  
 
