@@ -35,6 +35,7 @@ Getting help via the Concierge Chat service is very easy.
     > ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png)
 
 ## Eligibility
+
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
