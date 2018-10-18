@@ -21,7 +21,9 @@ ms.workload:
 ---
 # Watch variables with Watch windows and QuickWatch 
 
-While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. **Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue.
+While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. The windows are only available during a debugging session.
+
+**Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue.
 
 ## Observe variables with a Watch window
 
@@ -128,7 +130,7 @@ Evaluating some expressions can change the value of a variable, or otherwise aff
 var1 = var2
 ```
 
-This is a [side effect](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can make debugging more difficult by changing the way your app operates.
+This code can cause a [side effect](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can make debugging more difficult by changing the way your app operates.
 
 An expression with side effects is evaluated only once, when you first enter it. After that, the expression appears grayed out in the **Watch** window, and further evaluations are disabled. The tooltip or **Value** column explains that the expression causes a side effect. You can force reevaluation by selecting the refresh icon that appears next to the value.
 
