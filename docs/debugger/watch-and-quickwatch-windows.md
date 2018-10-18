@@ -179,7 +179,7 @@ public class Program
 
 ```
 
-To find out the name of the `Person` in the `DoSomething()` method, you can add a reference to the `Person` object in the **Watch** window.
+To find out the name of the `Person` in the `DoSomething()` method, you can add a reference to the `Person` Object ID in the **Watch** window.
 
 1. Set a breakpoint in the code after the `Person` object has been created.
    
@@ -250,7 +250,7 @@ To observe the `a` variable,
    
 1. Set a breakpoint on the `a = a + b;` line.
    
-1. Start debugging. Execution stops at the breakpoint.
+1. Start debugging. Execution pauses at the breakpoint.
    
 1. Select the variable `a` in the code.
    
