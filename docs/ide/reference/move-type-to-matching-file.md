@@ -41,8 +41,8 @@ This refactoring applies to:
 
 1. Next, do one of the following:
 
-   - Press **Ctrl**+**.**.
-   - Right-click on the type name and select **Quick Actions and Refactorings**.
+   - Press **Ctrl**+**.**
+   - Right-click on the type name and select **Quick Actions and Refactorings**
    
 1. Select **Move type to *TypeName*.cs** from the menu, where *TypeName* is the name of the type you've selected.
 
