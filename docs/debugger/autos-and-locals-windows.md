@@ -26,7 +26,6 @@ To open the **Autos** window, while debugging, select **Debug** > **Windows** > 
 To open the **Locals** window, while debugging, select **Debug** > **Windows** > **Locals** or press **Alt**+**4**.
 
 If you need more information about basic debugging, see [Getting started with the Debugger](../debugger/getting-started-with-the-debugger.md).  
-  
 
 ## Use the Autos and Locals windows
 
@@ -36,20 +35,21 @@ Arrays and objects show in the **Autos** and **Locals** windows as tree controls
   
 ![Locals-FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")  
   
-The value of a variable is sometimes red in the **Locals** and **Autos** windows. These are variable values that have been changed since the last evaluation. The change could be from a previous debugging session, or because the value was changed in the window.  
+If the value of a variable is red in the **Locals** and **Autos** windows, the value has changed since the last evaluation. The change could be from a previous debugging session, or because the value was changed in the window.  
   
 ## Edit variable values in the Autos or Locals window  
+
 To edit the values of most variables in the **Autos** or **Locals** windows, double-click the value you want to change and type the new value.  
-  
+
 You can enter an expression for a value, for example `a + b`. The debugger accepts most valid language expressions.  
-  
+
 In native C++ code, you might have to qualify the context of a variable name. For more information, see [Context operator (C++)](../debugger/context-operator-cpp.md).  
  
 You should exercise caution when changing values. Here are some possible issues:  
   
 -   Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of both `var1` and `var2`.  
   
-    Expressions that change data are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)), which can produce unexpected results if you are not aware of them. Make sure you understand the consequences before you make these changes.  
+    Expressions that affect data that was not deliberately changed are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can cause unexpected results if you are not aware of them. Make sure you understand the consequences before you change values and expressions.  
   
 -   Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the bits in the floating-point variable.  
   
@@ -59,7 +59,7 @@ You can use the **Debug Location** toolbar to select a desired function, thread,
 
 To enable the **Debug Location** toolbar, click in an empty part of the toolbar area and select **Debug Location** from the dropdown, or select **View** > **Toolbars** > **Debug Location**. 
 
-Set a breakpoint and start debugging. When the breakpoint is hit, execution stops and you can see the location in the **Debug Location** toolbar.
+Set a breakpoint and start debugging. When the breakpoint is hit, execution pauses and you can see the location in the **Debug Location** toolbar.
   
 ![Debug Location toolbar](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")   
 
@@ -88,7 +88,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution stop
 
  The value of `c` is 0, because the line `c = 3` has not yet been executed.  
 
- In C++, the **Autos** window displays the variables used at least three lines before the current line where execution is stopped. For example, in C++ code, declare six variables:
+ In C++, the **Autos** window displays the variables used in at least three lines before the current line where execution is paused. For example, in C++ code, declare six variables:
 
 ```C++
     void main() {
@@ -135,11 +135,11 @@ private static int subtractVars(int i, int j)
 }  
 ```
 
- Set a breakpoint on the `int x = sumVars(a, b) + subtractVars(c, d);` line.  
-  
- Start debugging, and when execution pauses at the breakpoint, select **Step Over** or press **F10**. You should see the following in the **Autos** window:  
-  
- ![Autos return value C#](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")  
+1. Set a breakpoint on the `int x = sumVars(a, b) + subtractVars(c, d);` line.  
+   
+1. Start debugging, and when execution pauses at the breakpoint, select **Step Over** or press **F10**. You should see the following in the **Autos** window:  
+   
+  ![Autos return value C#](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")  
   
 ## See also  
  [Debugger windows](../debugger/debugger-windows.md)
