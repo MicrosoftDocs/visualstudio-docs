@@ -115,15 +115,15 @@ There are multiple ways to suppress rule violations:
 
 You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
 
-   - If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
+- If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
 
-      ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
+   ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
 
-   - If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
+- If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
 
-      ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
+   ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
 
-   In the **Preview Changes** dialog, select **Apply**.
+  In the **Preview Changes** dialog, select **Apply**.
 
 The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. However, diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources, and can be suppressed from the **Error List**. If the suppression option is disabled in the right-click, or context, menu, it's likely because you have one or more build diagnostics in your selection. To exclude the build diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **Intellisense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
 

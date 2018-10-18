@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2141:Transparent methods must not satisfy LinkDemands
+
 |||
 |-|-|
 |TypeName|TransparentMethodsMustNotSatisfyLinkDemands|

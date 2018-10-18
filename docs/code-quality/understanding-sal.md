@@ -29,7 +29,6 @@ void * memcpy(
    const void *src,
    size_t count
 );
-
 ```
 
  Can you tell what this function does? When a function is implemented or called, certain properties must be maintained to ensure program correctness. Just by looking at a declaration such as the one in the example, you don't know what they are. Without SAL annotations, you'd have to rely on documentation or code comments. Here's what the MSDN documentation for `memcpy` says:
@@ -39,11 +38,11 @@ void * memcpy(
 
  The documentation contains a couple of bits of information that suggest that your code has to maintain certain properties to ensure program correctness:
 
--   `memcpy` copies the `count` of bytes from the source buffer to the destination buffer.
+- `memcpy` copies the `count` of bytes from the source buffer to the destination buffer.
 
--   The destination buffer must be at least as large as the source buffer.
+- The destination buffer must be at least as large as the source buffer.
 
- However, the compiler can't read the documentation or informal comments. It doesn't know that there is a relationship between the two buffers and `count`, and it also can't effectively guess about a relationship. SAL could provide more clarity about the properties and implementation of the function, as shown here:
+  However, the compiler can't read the documentation or informal comments. It doesn't know that there is a relationship between the two buffers and `count`, and it also can't effectively guess about a relationship. SAL could provide more clarity about the properties and implementation of the function, as shown here:
 
 ```cpp
 
@@ -69,7 +68,6 @@ wchar_t * wmemcpy(
    }
    return dest;
 }
-
 ```
 
  This implementation contains a common off-by-one error. Fortunately, the code author included the SAL buffer size annotation—a code analysis tool could catch the bug by analyzing this function alone.
@@ -147,7 +145,6 @@ void BadInCaller()
    int *pInt = NULL;
    InCallee(pInt); // pInt should not be NULL
 }
-
 ```
 
  If you use Visual Studio Code Analysis on this example, it validates that the callers pass a non-Null pointer to an initialized buffer for `pInt`. In this case, `pInt` pointer cannot be NULL.
@@ -175,7 +172,6 @@ void InOptCaller()
    GoodInOptCallee(pInt);
    BadInOptCallee(pInt);
 }
-
 ```
 
  Visual Studio Code Analysis validates that the function checks for NULL before it accesses the buffer.
@@ -202,7 +198,6 @@ void OutCaller()
    BadOutCallee(pInt);
    delete pInt;
 }
-
 ```
 
  Visual Studio Code Analysis Tool validates that the caller passes a non-NULL pointer to a buffer for `pInt` and that the buffer is initialized by the function before it returns.
@@ -230,7 +225,6 @@ void OutOptCaller()
    GoodOutOptCallee(pInt);
    BadOutOptCallee(pInt);
 }
-
 ```
 
  Visual Studio Code Analysis validates that this function checks for NULL before `pInt` is dereferenced, and if `pInt` is not NULL, that the buffer is initialized by the function before it returns.
@@ -262,7 +256,6 @@ void BadInOutCaller()
    int *pInt = NULL;
    InOutCallee(pInt); // 'pInt' should not be NULL
 }
-
 ```
 
  Visual Studio Code Analysis validates that callers pass a non-NULL pointer to an initialized buffer for `pInt`, and that, before return, `pInt` is still non-NULL and the buffer is initialized.
@@ -292,7 +285,6 @@ void InOutOptCaller()
    GoodInOutOptCallee(pInt);
    BadInOutOptCallee(pInt);
 }
-
 ```
 
  Visual Studio Code Analysis validates that this function checks for NULL before it accesses the buffer, and if `pInt` is not NULL, that the buffer is initialized by the function before it returns.
@@ -323,7 +315,6 @@ void OutPtrCaller()
    GoodOutPtrCallee(&pInt);
    BadOutPtrCallee(&pInt);
 }
-
 ```
 
  Visual Studio Code Analysis validates that the caller passes a non-NULL pointer for `*pInt`, and that the buffer is initialized by the function before it returns.
@@ -356,7 +347,6 @@ void OutPtrOptCaller()
    GoodOutPtrOptCallee(ppInt);
    BadOutPtrOptCallee(ppInt);
 }
-
 ```
 
  Visual Studio Code Analysis validates that this function checks for NULL before `*pInt` is dereferenced, and that the buffer is initialized by the function before it returns.
@@ -376,7 +366,6 @@ bool GetValue(_Out_ int *pInt, bool flag)
       return false;
    }
 }
-
 ```
 
  The `_Out_` annotation causes Visual Studio Code Analysis to validate that the caller passes a non-NULL pointer to a buffer for `pInt`, and that the buffer is initialized by the function before it returns.
@@ -391,15 +380,15 @@ bool GetValue(_Out_ int *pInt, bool flag)
 ### When Do I Annotate?
  Here are some guidelines:
 
--   Annotate all pointer parameters.
+- Annotate all pointer parameters.
 
--   Annotate value-range annotations so that Code Analysis can ensure buffer and pointer safety.
+- Annotate value-range annotations so that Code Analysis can ensure buffer and pointer safety.
 
--   Annotate locking rules and locking side effects. For more information, see [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md).
+- Annotate locking rules and locking side effects. For more information, see [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md).
 
--   Annotate driver properties and other domain-specific properties.
+- Annotate driver properties and other domain-specific properties.
 
- Or you can annotate all parameters to make your intent clear throughout and to make it easy to check that annotations have been done.
+  Or you can annotate all parameters to make your intent clear throughout and to make it easy to check that annotations have been done.
 
 ## Related Resources
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)

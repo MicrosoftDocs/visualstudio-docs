@@ -57,7 +57,7 @@ ms.workload:
 
 - Number of `case` statements in a `switch`
 
- The following examples show methods that have varying cyclomatic complexities.
+  The following examples show methods that have varying cyclomatic complexities.
 
 ## Example
  **Cyclomatic Complexity of 1**

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1061: Do not hide base class methods
+
 |||
 |-|-|
 |TypeName|DoNotHideBaseClassMethods|

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1812: Avoid uninstantiated internal classes
+
 |||
 |-|-|
 |TypeName|AvoidUninstantiatedInternalClasses|
@@ -45,9 +46,9 @@ ms.workload:
 
 - Types that cannot be instantiated and that define `static` (`Shared` in Visual Basic) methods only.
 
- If you apply <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute?displayProperty=fullName> to the assembly that is being analyzed, this rule will not occur on any constructors that are marked as `internal` because you cannot tell whether a field is being used by another `friend` assembly.
+  If you apply <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute?displayProperty=fullName> to the assembly that is being analyzed, this rule will not occur on any constructors that are marked as `internal` because you cannot tell whether a field is being used by another `friend` assembly.
 
- Even though you cannot work around this limitation in Visual Studio Code Analysis, the external stand-alone FxCop will occur on internal constructors if every `friend` assembly is present in the analysis.
+  Even though you cannot work around this limitation in Visual Studio Code Analysis, the external stand-alone FxCop will occur on internal constructors if every `friend` assembly is present in the analysis.
 
 ## How to fix violations
  To fix a violation of this rule, remove the type or add the code that uses it. If the type contains only static methods, add one of the following to the type to prevent the compiler from emitting a default public instance constructor:
@@ -68,23 +69,23 @@ ms.workload:
     ```csharp
     internal class MyClass
     {
-        public DoSomething()
-        {
-        }
+        public DoSomething()
+        {
+        }
     }
     public class MyGeneric<T> where T : new()
     {
-        public T Create()
-        {
-            return new T();
-        }
+        public T Create()
+        {
+            return new T();
+        }
     }
     // [...]
     MyGeneric<MyClass> mc = new MyGeneric<MyClass>();
     mc.Create();
     ```
 
- In these situations, we recommended you suppress this warning.
+  In these situations, we recommended you suppress this warning.
 
 ## Related rules
  [CA1811: Avoid uncalled private code](../code-quality/ca1811-avoid-uncalled-private-code.md)

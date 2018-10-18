@@ -18,6 +18,7 @@ ms.workload:
   - "cplusplus"
 ---
 # CA2006: Use SafeHandle to encapsulate native resources
+
 |||
 |-|-|
 |TypeName|UseSafeHandleToEncapsulateNativeResources|

@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2130: Security critical constants should be transparent
+
 |||
 |-|-|
 |TypeName|ConstantsShouldBeTransparent|

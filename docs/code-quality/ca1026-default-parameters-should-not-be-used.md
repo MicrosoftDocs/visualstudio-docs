@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1026: Default parameters should not be used
+
 |||
 |-|-|
 |TypeName|DefaultParametersShouldNotBeUsed|

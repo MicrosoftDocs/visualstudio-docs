@@ -48,7 +48,7 @@ ms.workload:
 
 - to enforce that only the derived type, or a more derived type, is passed to the method.
 
- In these cases, the code will be more robust because of the strong type checking that is provided by the compiler and runtime.
+  In these cases, the code will be more robust because of the strong type checking that is provided by the compiler and runtime.
 
 ## Example
  The following example shows a method, `ManipulateFileStream`, that can be used only with a <xref:System.IO.FileStream> object, which violates this rule. A second method, `ManipulateAnyStream`, satisfies the rule by replacing the <xref:System.IO.FileStream> parameter by using a <xref:System.IO.Stream>.

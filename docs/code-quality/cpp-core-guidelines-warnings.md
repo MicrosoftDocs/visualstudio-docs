@@ -52,13 +52,13 @@ int main()
 
  This example demonstrates a few of the warnings that the C++ Core Check rules can find:
 
--   C26494 is rule Type.5: Always initialize an object.
+- C26494 is rule Type.5: Always initialize an object.
 
--   C26485 is rule Bounds.3: No array-to-pointer decay.
+- C26485 is rule Bounds.3: No array-to-pointer decay.
 
--   C26481 is rule Bounds.1: Don't use pointer arithmetic. Use `span` instead.
+- C26481 is rule Bounds.1: Don't use pointer arithmetic. Use `span` instead.
 
- If the C++ Core Check code analysis rulesets are installed and enabled when you compile this code, the first two warnings are output, but the third is suppressed. Here's the build output from the example code:
+  If the C++ Core Check code analysis rulesets are installed and enabled when you compile this code, the first two warnings are output, but the third is suppressed. Here's the build output from the example code:
 
 ```Output
 1>------ Build started: Project: CoreCheckExample, Configuration: Debug Win32 ------
@@ -197,13 +197,13 @@ If you use a build system that doesn’t rely on MSBuild you can still run the c
 
 You will need to set a few environment variables and use proper command line options for the compiler. It is better to work under the "Native Tools Command Prompt" environment so that you don’t have to search for specific paths for the compiler, include directories, etc.
 
-1.	**Environment variables**
-  - `set esp.extensions=cppcorecheck.dll` This tells the engine to load the C++ Core Guidelines module.
-  - `set esp.annotationbuildlevel=ignore` This disables logic which processes SAL annotations. Annotations don’t affect code analysis in the C++ Core Guidelines Checker, yet their processing takes time (sometimes a lot of time). This setting is optional, but highly recommended.
-  - `set caexcludepath=%include%` We highly recommend that you disable warnings which fire on standard headers. You can add more paths here, for example the path to the common headers in your project.
-2.	**Command line options**
-  - `/analyze` 	Enables code analysis (consider also using /analyze:only and /analyze:quiet).
-  - `/analyze:plugin EspXEngine.dll` This option loads the Code Analysis Extensions engine into the PREfast. This engine, in turn, loads the C++ Core Guidelines Checker.
+1. **Environment variables**
+   - `set esp.extensions=cppcorecheck.dll` This tells the engine to load the C++ Core Guidelines module.
+   - `set esp.annotationbuildlevel=ignore` This disables logic which processes SAL annotations. Annotations don’t affect code analysis in the C++ Core Guidelines Checker, yet their processing takes time (sometimes a lot of time). This setting is optional, but highly recommended.
+   - `set caexcludepath=%include%` We highly recommend that you disable warnings which fire on standard headers. You can add more paths here, for example the path to the common headers in your project.
+2. **Command line options**
+   - `/analyze`  Enables code analysis (consider also using /analyze:only and /analyze:quiet).
+   - `/analyze:plugin EspXEngine.dll` This option loads the Code Analysis Extensions engine into the PREfast. This engine, in turn, loads the C++ Core Guidelines Checker.
 
 
 
@@ -219,13 +219,13 @@ You will need to set a few environment variables and use proper command line opt
 
 #### To add the Microsoft.CppCoreCheck package to your project in Visual Studio 2015
 
-1.  In **Solution Explorer**, right-click to open the context menu of your project in the solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
+1. In **Solution Explorer**, right-click to open the context menu of your project in the solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
 
-2.  In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.
+2. In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.
 
-     ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.png)
+    ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.png)
 
-3.  Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.
+3. Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.
 
- The NuGet package adds an additional MSBuild .targets file to your project that is invoked when you enable code analysis on your project. This .targets file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.
+   The NuGet package adds an additional MSBuild .targets file to your project that is invoked when you enable code analysis on your project. This .targets file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.
 

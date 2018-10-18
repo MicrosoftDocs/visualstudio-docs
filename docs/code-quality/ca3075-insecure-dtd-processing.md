@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # CA3075: Insecure DTD Processing
+
 |||
 |-|-|
 |TypeName|InsecureDTDProcessing|
@@ -37,7 +38,7 @@ ms.workload:
 
 - <xref:System.Xml.XmlReader> is created with insecure default settings or values    .
 
- In each of these cases, the outcome is the same: the contents from either the file system or network shares from the machine where the XML is processed will be exposed to the attacker, which may then be used as a DoS vector.
+  In each of these cases, the outcome is the same: the contents from either the file system or network shares from the machine where the XML is processed will be exposed to the attacker, which may then be used as a DoS vector.
 
 ## How to fix violations
 
@@ -49,13 +50,13 @@ ms.workload:
 
 - Ensure that the <xref:System.Data.DataViewManager.DataViewSettingCollectionString%2A> property of <xref:System.Data.DataViewManager> is assigned from a trusted source.
 
- .NET 3.5 and earlier
+  .NET 3.5 and earlier
 
 - Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .
 
 - XmlTextReader class has a full trust inheritance demand.
 
- .NET 4 and later
+  .NET 4 and later
 
 - Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A?displayProperty=nameWithType>  property to **Prohibit** or **Ignore**.
 

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1716: Identifiers should not match keywords
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotMatchKeywords|
@@ -39,7 +40,7 @@ ms.workload:
 
 - C++/CLI
 
- Case-insensitive comparison is used for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] keywords, and case-sensitive comparison is used for the other languages.
+  Case-insensitive comparison is used for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] keywords, and case-sensitive comparison is used for the other languages.
 
 ## How to fix violations
  Select a name that does not appear in the list of keywords.

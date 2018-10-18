@@ -35,7 +35,7 @@ ms.workload:
 
 - C++: `catch(...) {}` or `catch(Object^) {}`
 
- An unhandled non-CLS compliant exception becomes a security issue when previously allowed permissions are removed in the catch block. Because non-CLS compliant exceptions are not caught, a malicious method that throws a non-CLS compliant exception could run with elevated permissions.
+  An unhandled non-CLS compliant exception becomes a security issue when previously allowed permissions are removed in the catch block. Because non-CLS compliant exceptions are not caught, a malicious method that throws a non-CLS compliant exception could run with elevated permissions.
 
 ## How to fix violations
  To fix a violation of this rule when the intent is to catch all exceptions, substitute or add a general catch block or mark the assembly `RuntimeCompatibility(WrapNonExceptionThrows = true)`. If permissions are removed in the catch block, duplicate the functionality in the general catch block. If it is not the intent to handle all exceptions, replace the catch block that handles <xref:System.Exception> with catch blocks that handle specific exception types.

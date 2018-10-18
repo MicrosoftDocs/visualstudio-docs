@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1051: Do not declare visible instance fields
+
 |||
 |-|-|
 |TypeName|DoNotDeclareVisibleInstanceFields|

@@ -49,13 +49,13 @@ int main()
 
  This example demonstrates a few of the warnings that the C++ Core Check rules can find:
 
--   C26494 is rule Type.5: Always initialize an object.
+- C26494 is rule Type.5: Always initialize an object.
 
--   C26485 is rule Bounds.3: No array-to-pointer decay.
+- C26485 is rule Bounds.3: No array-to-pointer decay.
 
--   C26481 is rule Bounds.1: Don't use pointer arithmetic. Use `span` instead.
+- C26481 is rule Bounds.1: Don't use pointer arithmetic. Use `span` instead.
 
- If the C++ Core Check code analysis rulesets are installed and enabled when you compile this code, the first two warnings are output, but the third is suppressed. Here's the build output from the example code:
+  If the C++ Core Check code analysis rulesets are installed and enabled when you compile this code, the first two warnings are output, but the third is suppressed. Here's the build output from the example code:
 
 ```Output
 1>------ Build started: Project: CoreCheckExample, Configuration: Debug Win32 ------
@@ -75,28 +75,28 @@ Reference topics for most rules are under
 [Visual Studio C++ Core Check Reference](code-analysis-for-cpp-corecheck.md).
 
 As of Visual Studio 2017 version 15.3, the supported rule sets are:
-  - **Owner Pointer Rules** enforce [resource-management checks related to owner<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+- **Owner Pointer Rules** enforce [resource-management checks related to owner<T> from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
 
-  - **Const Rules** enforce [const-related checks from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability).
+- **Const Rules** enforce [const-related checks from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#con-constants-and-immutability).
 
-  - **Raw Pointer Rules** enforce [resource-management checks related to raw pointers from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+- **Raw Pointer Rules** enforce [resource-management checks related to raw pointers from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
 
-  - **Unique Pointer Rules** enforce [resource-management checks related to types with unique pointer semantics from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
+- **Unique Pointer Rules** enforce [resource-management checks related to types with unique pointer semantics from the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#r-resource-management).
 
-  - **Bounds Rules** enforce the [Bounds profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#probounds-bounds-safety-profile).
+- **Bounds Rules** enforce the [Bounds profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#probounds-bounds-safety-profile).
 
-  - **Type Rules** enforce the [Type profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#prosafety-type-safety-profile).
+- **Type Rules** enforce the [Type profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#prosafety-type-safety-profile).
 
   **Visual Studio 2017 version 15.5**:
-  - **Class rules** A few rules that focus on proper use of special member functions and virtual specifications. This is a subset of checks recommended for [classes and class hierarchies](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-class).
-  - **Concurrency Rules** A single rule, which catches badly-declared guard objects. For more information, see [guidelines related to concurrency](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-concurrency).
-  - **Declaration Rules** A couple of rules from the [interfaces guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-interfaces) which focus on how global variables are declared.
-  - **Function Rules** Two checks that help with adoption of the `noexcept` specifier. This is a part of the guidelines for [clear function design and implementation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-functions).
-  - **Shared pointer Rules** As a part of [resource management](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-resource) guidelines enforcement, we added a few rules specific to how shared pointers are passed into functions or used locally.
-  - **Style Rules** One simple but important check, which bans use of [goto](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-goto). This is the first step in improving of coding style and use of expressions and statements in C++.
+- **Class rules** A few rules that focus on proper use of special member functions and virtual specifications. This is a subset of checks recommended for [classes and class hierarchies](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-class).
+- **Concurrency Rules** A single rule, which catches badly-declared guard objects. For more information, see [guidelines related to concurrency](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-concurrency).
+- **Declaration Rules** A couple of rules from the [interfaces guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-interfaces) which focus on how global variables are declared.
+- **Function Rules** Two checks that help with adoption of the `noexcept` specifier. This is a part of the guidelines for [clear function design and implementation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-functions).
+- **Shared pointer Rules** As a part of [resource management](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-resource) guidelines enforcement, we added a few rules specific to how shared pointers are passed into functions or used locally.
+- **Style Rules** One simple but important check, which bans use of [goto](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-goto). This is the first step in improving of coding style and use of expressions and statements in C++.
 
   **Visual Studio 2017 version 15.6**:
-  - **Arithmetic Rules** Rules to detect arithmetic [overflow](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-overflow), [signed-unsigned operations](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-unsigned) and [bit manipulation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-nonnegative).
+- **Arithmetic Rules** Rules to detect arithmetic [overflow](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-overflow), [signed-unsigned operations](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-unsigned) and [bit manipulation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Res-nonnegative).
 
 
  You can choose to limit warnings to just one or a few of the groups. The **Native Minimum** and **Native Recommended** rule sets include C++ Core Check rules in addition to other PREfast checks. To see the available rule sets, open the Project Properties dialog, select **Code Analysis\General**, open the dropdown in the **Rule Sets** combo-box, and pick **Choose multiple rule sets**. For more information about using Rule Sets in Visual Studio, see [Using Rule Sets to Group Code Analysis Rules](using-rule-sets-to-group-code-analysis-rules.md).
@@ -210,12 +210,12 @@ If you use a build system that doesn’t rely on MSBuild you can still run the c
 You have to set a few environment variables and use proper command-line options for the compiler. It is better to work under the "Native Tools Command Prompt" environment so that you don’t have to search for specific paths for the compiler, include directories, etc.
 
 1. **Environment variables**
-  - `set esp.extensions=cppcorecheck.dll` This tells the engine to load the C++ Core Guidelines module.
-  - `set esp.annotationbuildlevel=ignore` This disables the logic that processes SAL annotations. Annotations don’t affect code analysis in the C++ Core Guidelines Checker, yet their processing takes time (sometimes a long time). This setting is optional, but highly recommended.
-  - `set caexcludepath=%include%` We highly recommend that you disable warnings which fire on standard headers. You can add more paths here, for example the path to the common headers in your project.
+   - `set esp.extensions=cppcorecheck.dll` This tells the engine to load the C++ Core Guidelines module.
+   - `set esp.annotationbuildlevel=ignore` This disables the logic that processes SAL annotations. Annotations don’t affect code analysis in the C++ Core Guidelines Checker, yet their processing takes time (sometimes a long time). This setting is optional, but highly recommended.
+   - `set caexcludepath=%include%` We highly recommend that you disable warnings which fire on standard headers. You can add more paths here, for example the path to the common headers in your project.
 2. **Command line options**
-  - `/analyze`  Enables code analysis (consider also using /analyze:only and /analyze:quiet).
-  - `/analyze:plugin EspXEngine.dll` This option loads the Code Analysis Extensions engine into the PREfast. This engine, in turn, loads the C++ Core Guidelines Checker.
+   - `/analyze`  Enables code analysis (consider also using /analyze:only and /analyze:quiet).
+   - `/analyze:plugin EspXEngine.dll` This option loads the Code Analysis Extensions engine into the PREfast. This engine, in turn, loads the C++ Core Guidelines Checker.
 
 
 
@@ -231,15 +231,15 @@ You have to set a few environment variables and use proper command-line options 
 
 #### To add the Microsoft.CppCoreCheck package to your project in Visual Studio 2015
 
-1.  In **Solution Explorer**, right-click to open the context menu of your project in the solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
+1. In **Solution Explorer**, right-click to open the context menu of your project in the solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
 
-2.  In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.
+2. In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.
 
-     ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.png)
+    ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.png)
 
-3.  Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.
+3. Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.
 
- The NuGet package adds an additional MSBuild *.targets* file to your project that is invoked when you enable code analysis on your project. This *.targets* file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.
+   The NuGet package adds an additional MSBuild *.targets* file to your project that is invoked when you enable code analysis on your project. This *.targets* file adds the C++ Core Check rules as an additional extension to the Visual Studio code analysis tool. When the package is installed, you can use the Property Pages dialog to enable or disable the released and experimental rules.
 
 ## See Also
 [Visual Studio C++ Core Check Reference](code-analysis-for-cpp-corecheck.md).

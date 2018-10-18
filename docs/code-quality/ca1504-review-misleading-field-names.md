@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1504: Review misleading field names
+
 |||
 |-|-|
 |TypeName|ReviewMisleadingFieldNames|
