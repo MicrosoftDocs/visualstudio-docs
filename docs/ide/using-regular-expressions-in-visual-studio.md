@@ -42,8 +42,8 @@ Here are some examples:
 |Match any character one or more times (Wildcard ?)|.+|`e.+e` matches "eede" in "feeder" but not "ee".|
 |Match zero or more occurrences of the preceding expression (match as few characters as possible)|*?|`e.*?e` matches "ee" in "feeder" but not "eede".|
 |Match one or more occurrences of the preceding expression (match as few characters as possible)|+?|`e.+?e` matches "ente" and "erprise" in "enterprise", but not the whole word "enterprise".|
-|Anchor the match string to the beginning of a line or string|^|`^car` matches the word "car" only when it appears at the beginning of a line.|
-|Anchor the match string to the end of a line|\r?$|`End\r?$` matches "end" only when it appears at the end of a line.|
+|Anchor the match string to the beginning of a line|^|`^car` matches the word "car" only when it appears at the beginning of a line.|
+|Anchor the match string to the end of a line|$|`end$` matches the word "end" only when it appears at the end of a line.|
 |Match any single character in a set|[abc]|`b[abc]` matches "ba", "bb", and "bc".|
 |Match any character in a range of characters|[a-f]|`be[n-t]` matches "bet" in "between", "ben" in "beneath", and "bes" in "beside", but not "below".|
 |Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa"and "bXb", but not "aXb". "\1" refers to the first expression group "[a-z]".|
