@@ -25,7 +25,7 @@ You can download the tools from the [Visual Studio Marketplace](http://aka.ms/vs
 
 1. Select **Tools** > **Extensions and Updates**.
 
-   ![Extensions and Updates menu in Visual Studio](media\installation\extensions.png)
+   ![Extensions and Updates menu in Visual Studio](media/installation/extensions.png)
 
 2. In the **Extensions and Updates** dialog box, select **Online** on the left-hand side.
 3. In the search box in the upper right-hand corner, type or enter "tools for ai".
@@ -53,7 +53,7 @@ To install CUDA
 - Make sure to install the CUDA runtime libraries, and then add CUDA binary path to the %PATH% or $Path environment variable.
 - On Windows, this path is "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin" by default.
 
-![Install CUDA on Windows](media\installation\install_cuda_win.png)
+![Install CUDA on Windows](media/installation/install_cuda_win.png)
 
 ### cuDNN
 
@@ -79,7 +79,7 @@ Python has been the primary programming language for deep learning applications.
 
 Deep learning frameworks rely on pip for their own installation.
 
-![Install Python on Windows](media\installation\install_python_win.png)
+![Install Python on Windows](media/installation/install_python_win.png)
 
 Then, we need to verify whether Python 3.5 is installed correctly, and upgrade pip to the latest version by executing the following commands in a terminal:
 

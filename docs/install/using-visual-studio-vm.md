@@ -5,11 +5,11 @@ ms.date: 09/12/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-helpviewer_keywords: 
-  - "azure services"
-  - "virtual machine; VM"
-  - "installation"
-  - "visual studio"
+helpviewer_keywords:
+  - "azure services"
+  - "virtual machine; VM"
+  - "installation"
+  - "visual studio"
 author: PhilLee-MSFT
 ms.author: tglee
 manager: douge
