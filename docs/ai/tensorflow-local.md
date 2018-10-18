@@ -42,9 +42,9 @@ Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) c
 
 - Select the **Tensorflow Examples** folder from the samples repository downloaded and open the **TensorflowExamples.sln** file.
 
-![Open project](media/tensorflow-local/open-project.png)
+![Open project](media\tensorflow-local\open-project.png)
 
-![Open solution](media/tensorflow-local/open-solution.png)
+![Open solution](media\tensorflow-local\open-solution.png)
 
 - Find the MNIST project in **Solution Explorer**, right-click and select **Set as StartUp Project**.
 
@@ -52,7 +52,7 @@ Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) c
 
 - The output is printed in the console.
 
-![Sample output from console](media/tensorflow-local/console-output.png)
+![Sample output from console](media\tensorflow-local\console-output.png)
 
 > [!div class="nextstepaction"]
 > [Train a TensorFlow model in the cloud](tensorflow-vm.md)

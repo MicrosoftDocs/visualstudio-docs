@@ -23,19 +23,19 @@ Get started with deep learning using [Microsoft Cognitive Toolkit (CNTK)](http:/
 ## Develop, debug and deploy deep learning models and AI solutions
 Use the productivity features of Visual Studio to accelerate AI innovation today. Use built-in code editor features like syntax highlighting, IntelliSense and text auto formatting. You can interactively test your deep learning application in your local environment using step-through debugging on local variables and models.
 
-![deep learning ide](media/about/ide.png)
+![deep learning ide](media\about\ide.png)
 
 ## Get started quickly with the Azure Machine Learning Sample Gallery
 Visual Studio Tools for AI is integrated with Azure Machine Learning to make it easy to browse through a gallery of sample experiments using CNTK, TensorFlow, MMLSpark and more.
 
-![sample explorer](media/about/gallery.png)
+![sample explorer](media\about\gallery.png)
 
 [Learn more about creating projects from the sample gallery](create-project-gallery.md)
 
 ## Scale out deep learning model training and/or inferencing to the cloud
 This extension makes it easy to train models on your local computer or you can submit jobs to the cloud by using our integration with Azure Machine Learning. You can submit jobs to different compute targets like Spark clusters, Azure GPU virtual machines and more
 
-![submit job](media/about/submitjobs.png)
+![submit job](media\about\submitjobs.png)
 
 [Learn more about training models in the cloud](tensorflow-vm.md)
 
