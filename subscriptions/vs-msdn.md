@@ -26,24 +26,23 @@ The Digital Edition is available to Visual Studio Dev Essentials members.
 2.  Locate the MSDN Magazine tile in the Professional Development section, and click **Access**.
 
 ### Printed edition
-1. To begin receiving your MSDN Magazine subscription, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
-2. Locate the MSDN Magazine tile in the Professional Development section, and click on **Subscribe** on the MSDN Magazine subscription tile. (Click on the "!" in the lower right corner of the tile to access the digital edition.)
-   > [!div class="mx-imgBorder"]
-   > ![MSDN Magazine Benefit Tile](_img/vs-msdn/vs-msdn-tile.png)
+1.	To begin receiving your MSDN Magazine subscription, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
+2.  Locate the MSDN Magazine tile in the Professional Development section, and click on **Subscribe** on the MSDN Magazine subscription tile. (Click on the "!" in the lower right corner of the tile to access the digital edition.)
+    > [!div class="mx-imgBorder"]
+    > ![MSDN Magazine Benefit Tile](_img\vs-msdn\vs-msdn-tile.png)
 
 
-3. On the MSDN Magazine page, choose your preferred subscription type.  You can choose the digital edition at no charge, no matter where you live.  The printed version is available at no charge to US residents.  Shipping charges apply for printed versions sent to non-US addresses.
-   > [!div class="mx-imgBorder"]
-   > ![MSDN Magazine Benefit Subscriptions](_img/vs-msdn/vs-msdn-subs-page-resized.png)
+3.	On the MSDN Magazine page, choose your preferred subscription type.  You can choose the digital edition at no charge, no matter where you live.  The printed version is available at no charge to US residents.  Shipping charges apply for printed versions sent to non-US addresses.
+    > [!div class="mx-imgBorder"]
+    > ![MSDN Magazine Benefit Subscriptions](_img\vs-msdn\vs-msdn-subs-page-resized.png)
 
-4. Provide the contact information requested, and click **Submit**.  (The version of the magazine you selected will appear in the Magazine Subscription section.  If you chose the printed edition, the first option will read **Yes!  I want to receive 1 year (12 issues) of MSDN Magazine for FREE**.)
-   > [!div class="mx-imgBorder"]
-   > ![MSDN Magazine Benefit Profile](_img/vs-msdn/vs-msdn-profile.png)
+4.	Provide the contact information requested, and click **Submit**.  (The version of the magazine you selected will appear in the Magazine Subscription section.  If you chose the printed edition, the first option will read **Yes!  I want to receive 1 year (12 issues) of MSDN Magazine for FREE**.)
+    > [!div class="mx-imgBorder"]
+    > ![MSDN Magazine Benefit Profile](_img\vs-msdn\vs-msdn-profile.png)
 
-5. That’s all there is to it.  Depending on which version of the magazine you chose, you’ll either begin receiving printed magazines or emails with links to the latest online versions with the next edition.  Enjoy!
+5.	That’s all there is to it.  Depending on which version of the magazine you chose, you’ll either begin receiving printed magazines or emails with links to the latest online versions with the next edition.  Enjoy!
 
 ## Eligibility
-
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> |Printed edition       |  No.  Available to new subscribers only          |

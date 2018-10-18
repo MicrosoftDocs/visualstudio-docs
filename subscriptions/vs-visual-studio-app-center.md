@@ -36,7 +36,6 @@ Getting started with Visual Studio App Center is easy.
     > ![VS App Center Portal](_img/vs-app-center/vs-app-center-portal.png)
 
 ## Eligibility
-
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud, monthly cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |

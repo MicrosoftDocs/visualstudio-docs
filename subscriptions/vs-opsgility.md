@@ -16,22 +16,21 @@ searchscope: VS Subscriptions
 Selected Visual Studio subscriptions include up to six months of access to expert, on-demand training with access to live lab environments and certification learning paths.
 
 ## Activation steps
-1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
-2. To use your Skill Me Up benefit, click on the **Get Code** link at the bottom of the benefit tile.   You’ll receive a notification that the coupon code has been successfully retrieved.  Click **Activate** to proceed.
-   > [!div class="mx-imgBorder"]
-   > ![Opsgility Benefit Tile](_img/vs-opsgility/vs-opsgility-tile.png)
+2.	To use your Skill Me Up benefit, click on the **Get Code** link at the bottom of the benefit tile.   You’ll receive a notification that the coupon code has been successfully retrieved.  Click **Activate** to proceed.
+    > [!div class="mx-imgBorder"]
+    > ![Opsgility Benefit Tile](_img\vs-opsgility\vs-opsgility-tile.png)
 
 
-3. You’ll be redirected to the appropriate Skill Me UP landing page for your subscription.  (You may be offered an opportunity to start a chat session with a Support Specialist.  If you don’t wish to start a chat, you can minimize that window.)  Fill out the requested contact information, check the box to accepts the terms and conditions, then click **Register**.
-   > [!div class="mx-imgBorder"]
-   > ![Opsgility Benefit Landing Page](_img/vs-opsgility/vs-vse-landing-page.png)
+3.	You’ll be redirected to the appropriate Skill Me UP landing page for your subscription.  (You may be offered an opportunity to start a chat session with a Support Specialist.  If you don’t wish to start a chat, you can minimize that window.)  Fill out the requested contact information, check the box to accepts the terms and conditions, then click **Register**.
+    > [!div class="mx-imgBorder"]
+    > ![Opsgility Benefit Landing Page](_img\vs-opsgility\vs-vse-landing-page.png)
 
-4. That’s all there is to it!  You’re ready to start learning!  
+4.	That’s all there is to it!  You’re ready to start learning!  
 
 
 ## Eligibility
-
 | Subscription level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail | 6 months       |  No.  Available to new subscribers only          |

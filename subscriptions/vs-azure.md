@@ -18,52 +18,51 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 
 ## Eligibility
 
-|                 Subscription Level / Program                 |           Benefit           |                         Renewable?                          |
-|--------------------------------------------------------------|-----------------------------|-------------------------------------------------------------|
-|              Visual Studio Enterprise Standard               |     $150 monthly credit     |                             Yes                             |
-|               Visual Studio Enterprise annual                |     $150 monthly credit     |                             Yes                             |
-|               Visual Studio Enterprise monthly               |        Not available        |                                                             |
-|             Visual Studio Professional Standard              |     $50 monthly credit      |                             Yes                             |
-|              Visual Studio Professional annual               |     $50 monthly credit      |                             Yes                             |
-|              Visual Studio Professional monthly              |        Not available        |                                                             |
-|                    Visual Studio Test Pro                    |     $50 monthly credit      |                             Yes                             |
-|                        MSDN Platforms                        |     $100 monthly credit     |                             Yes                             |
-|                 Visual Studio Dev Essentials                 | Free services + $200 credit | Free services are perpetual.  $200 credit is one-time only. |
-|               Visual Studio Enterprise - NFR\*               |     $150 monthly credit     |                             Yes                             |
-|                Visual Studio Enterprise - FTE                |     $150 monthly credit     |                             Yes                             |
-|     Visual Studio Enterprise - Microsoft Partner Network     |     $150 monthly credit     |                             Yes                             |
-|    Visual Studio Professional - Microsoft Partner Network    |        Not available        |                                                             |
-|        Visual Studio Enterprise – Imagine (Standard)         |        Not available        |                                                             |
-|         Visual Studio Enterprise – Imagine (Premium)         |        Not available        |                                                             |
-|             Visual Studio Enterprise – BizSpark              |     $150 monthly credit     |                             Yes                             |
-|      Visual Studio Enterprise – MCT Software & Services      |     $100 monthly credit     |                             Yes                             |
-| Visual Studio Enterprise – MCT Software & Services Developer |     $150 monthly credit     |                             Yes                             |
-
+| Subscription Level / Program                                 | Benefit                     | Renewable?                                                   |
+|--------------------------------------------------------------|-----------------------------|--------------------------------------------------------------|
+| Visual Studio Enterprise Standard                            | $150 monthly credit         |   Yes                                                        |
+| Visual Studio Enterprise annual                              | $150 monthly credit         |   Yes                                                        |
+| Visual Studio Enterprise monthly                             | Not available               |                                                              |
+| Visual Studio Professional Standard                          | $50 monthly credit          |   Yes                                                        |
+| Visual Studio Professional annual                            | $50 monthly credit          |   Yes                                                        |
+| Visual Studio Professional monthly                           | Not available               |                                                              |
+| Visual Studio Test Pro                                       | $50 monthly credit          |   Yes                                                        |
+| MSDN Platforms                                               | $100 monthly credit         |   Yes                                                        |
+| Visual Studio Dev Essentials                                 | Free services + $200 credit | Free services are perpetual.  $200 credit is one-time only.  |
+| Visual Studio Enterprise - NFR*                              | $150 monthly credit         |   Yes                                                        |
+| Visual Studio Enterprise - FTE                               | $150 monthly credit         |   Yes                                                        |
+| Visual Studio Enterprise - Microsoft Partner Network         | $150 monthly credit         |   Yes                                                        |
+| Visual Studio Professional - Microsoft Partner Network       | Not available               |                                                              |
+| Visual Studio Enterprise – Imagine (Standard)                | Not available               |                                                              |
+| Visual Studio Enterprise – Imagine (Premium)                 | Not available               |                                                              |
+| Visual Studio Enterprise – BizSpark                          | $150 monthly credit         |   Yes                                                        |
+| Visual Studio Enterprise – MCT Software & Services           | $100 monthly credit         |   Yes                                                        |
+| Visual Studio Enterprise – MCT Software & Services Developer | $150 monthly credit         |   Yes                                                        |
 *Includes Not for Resale (NFR), Microsoft Valued Professional (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Activation Steps
 
-1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
-2. Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.
-   > [!div class="mx-imgBorder"]
-   > ![Azure Tile](_img/vs-azure/vs-azure-tile.png)
+2.  Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.
+    > [!div class="mx-imgBorder"]
+    > ![Azure Tile](_img\vs-azure\vs-azure-tile.png)
 
-3. Fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**:
-   > [!div class="mx-imgBorder"]
-   > ![Azure Sign-up](_img/vs-azure/vs-azure-sign-up-cropped.png)
+3.	Fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**:
+    > [!div class="mx-imgBorder"]
+    > ![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
 
-4. When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.
-   > [!div class="mx-imgBorder"]
-   > ![Azure Getting Ready](_img/vs-azure/vs-azure-getting-ready-cropped.png)
+4.	When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.
+    > [!div class="mx-imgBorder"]
+    > ![Azure Getting Ready](_img\vs-azure\vs-azure-getting-ready-cropped.png)
 
-5. The Azure Dashboard will load, and on your first use, you’ll have the option to take a tour.  The tour consists of a series of screen tips that will point out how you can accomplish a variety of tasks and find relevant information.  Completing or closing the tour will display the Azure Dashboard.
+5.	The Azure Dashboard will load, and on your first use, you’ll have the option to take a tour.  The tour consists of a series of screen tips that will point out how you can accomplish a variety of tasks and find relevant information.  Completing or closing the tour will display the Azure Dashboard.
 
-6. Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
-   > [!div class="mx-imgBorder"]
-   > ![Azure Dashboard](_img/vs-azure/vs-azure-dashboard-cropped.png)
+6.	Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
+    > [!div class="mx-imgBorder"]
+    > ![Azure Dashboard](_img\vs-azure\vs-azure-dashboard-cropped.png)
 
 ## FAQ
 
@@ -87,8 +86,8 @@ If someone in your team or organization purchases subscriptions on your behalf, 
 
 
 If you can purchase a subscription directly, please do one of the following:
-1.  Purchase an annual Visual Studio [Enterprise](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual) or [Professional](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual) cloud subscription through the Visual Studio Marketplace.
-2.  Take advantage of a 50% or higher discount by renewing your current subscription through the [Microsoft Store](https://www.microsoft.com/en-us/search/result.aspx?q=visual+studio+subscription).
+1.	Purchase an annual Visual Studio [Enterprise](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual) or [Professional](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual) cloud subscription through the Visual Studio Marketplace.
+2.	Take advantage of a 50% or higher discount by renewing your current subscription through the [Microsoft Store](https://www.microsoft.com/en-us/search/result.aspx?q=visual+studio+subscription).
 
 Compare all the [subscriptions and their benefits](https://visualstudio.microsoft.com/vs/pricing/).
 

@@ -19,13 +19,11 @@ When a partner earns a competency--either at the silver or gold level--partners 
 but with certain benefits removed (many of which are offered separately to partners as general MPN benefits rather than as part of the Visual Studio Enterprise subscriptions offered through MPN).
 
 ### Core Visual Studio benefit for earning at least one competency of any kind
-
 | Competencies earned only at the silver level               | At least one competency earned at the gold level   |
 |------------------------------------------------------------|----------------------------------------------------|
 | 5 Visual Studio Enterprise subscriptions                   | 10 Visual Studio Enterprise subscriptions          |
 
 ### Additional Visual Studio benefit for select competencies
-
 | Competency                                  | Additional subscriptions earned for **silver** competency | Additional subscriptions earned for **gold** competency |
 |---------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|
 | Application Development                     | 5 Visual Studio Enterprise subscriptions                  | 25 Visual Studio Enterprise subscriptions               |
@@ -37,7 +35,6 @@ but with certain benefits removed (many of which are offered separately to partn
 Regardless of how many competencies a partner earns, the number of Visual Studio subscriptions are limited as follows:
 
 ### Limits for Visual Studio subscriptions earned through competencies
-
 | Maximum benefit for partners with only silver competencies                   | Maximum benefit for partners with at least one gold competency               |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | 25 Visual Studio Enterprise subscriptions per country; 75 worldwide          | 50 Visual Studio Enterprise subscriptions per country; 150 worldwide         |
