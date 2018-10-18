@@ -27,13 +27,13 @@ Gets the port that the process is running on.
   
 ```cpp#  
 HRESULT GetPort(   
-   IDebugPort2** ppPort  
+   IDebugPort2** ppPort  
 );  
 ```  
   
 ```csharp  
 int GetPort(   
-   out IDebugPort2 ppPort  
+   out IDebugPort2 ppPort  
 );  
 ```  
   

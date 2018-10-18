@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the function has the [naked](http://msdn
   
 ```cpp  
 HRESULT get_isNaked(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

@@ -51,12 +51,12 @@ Required. The localized name of the extension to be installed.
   
 ## Element Information  
   
-|||  
-|-|-|  
-|Namespace|http://schemas.microsoft.com/developer/vsx-schema-lp/2010|  
-|Schema Name|VSIX Language Pack Schema|  
-|Validation File|VSIXLanguagePackSchema.xsd|  
-|Can be Empty|Not applicable|  
+|                 |                                                           |
+|-----------------|-----------------------------------------------------------|
+|    Namespace    | http://schemas.microsoft.com/developer/vsx-schema-lp/2010 |
+|   Schema Name   |                 VSIX Language Pack Schema                 |
+| Validation File |                VSIXLanguagePackSchema.xsd                 |
+|  Can be Empty   |                      Not applicable                       |
   
 ## See Also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   

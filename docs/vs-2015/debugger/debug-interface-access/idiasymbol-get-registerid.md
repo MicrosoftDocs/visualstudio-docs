@@ -28,7 +28,7 @@ Retrieves the register designator of the location when the [LocationType Enumera
   
 ```cpp#  
 HRESULT get_registerId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

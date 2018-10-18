@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1065: Do not raise exceptions in unexpected locations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotRaiseExceptionsInUnexpectedLocations|
@@ -36,27 +37,27 @@ manager: "wpickett"
 ## Rule Description
  Methods that are not expected to throw exceptions can be categorized as follows:
 
--   Property Get Methods
+- Property Get Methods
 
--   Event Accessor Methods
+- Event Accessor Methods
 
--   Equals Methods
+- Equals Methods
 
--   GetHashCode Methods
+- GetHashCode Methods
 
--   ToString Methods
+- ToString Methods
 
--   Static Constructors
+- Static Constructors
 
--   Finalizers
+- Finalizers
 
--   Dispose Methods
+- Dispose Methods
 
--   Equality Operators
+- Equality Operators
 
--   Implicit Cast Operators
+- Implicit Cast Operators
 
- The following sections discuss these method types.
+  The following sections discuss these method types.
 
 ### Property Get Methods
  Properties are basically smart fields. Therefore, they should behave like a field as much as possible. Fields do not throw exceptions and neither should properties. If you have a property that throws an exception, consider making it a method.
@@ -85,22 +86,22 @@ manager: "wpickett"
 ### Equals Methods
  The following **Equals** methods should not throw exceptions:
 
--   <xref:System.Object.Equals%2A?displayProperty=fullName>
+- <xref:System.Object.Equals%2A?displayProperty=fullName>
 
--   [M:IEquatable.Equals](http://go.microsoft.com/fwlink/?LinkId=113472)
+- [M:IEquatable.Equals](http://go.microsoft.com/fwlink/?LinkId=113472)
 
- An **Equals** method should return `true` or `false` instead of throwing an exception. For example, if Equals is passed two mismatched types it should just return `false` instead of throwing an <xref:System.ArgumentException>.
+  An **Equals** method should return `true` or `false` instead of throwing an exception. For example, if Equals is passed two mismatched types it should just return `false` instead of throwing an <xref:System.ArgumentException>.
 
 ### GetHashCode Methods
  The following **GetHashCode** methods should usually not throw exceptions:
 
--   <xref:System.Object.GetHashCode%2A>
+- <xref:System.Object.GetHashCode%2A>
 
--   [M:IEqualityComparer.GetHashCode(T)](http://go.microsoft.com/fwlink/?LinkId=113477)
+- [M:IEqualityComparer.GetHashCode(T)](http://go.microsoft.com/fwlink/?LinkId=113477)
 
- **GetHashCode** should always return a value. Otherwise, you can lose items in the hash table.
+  **GetHashCode** should always return a value. Otherwise, you can lose items in the hash table.
 
- The versions of **GetHashCode** that take an argument can throw an <xref:System.ArgumentException>. However, **Object.GetHashCode** should never throw an exception.
+  The versions of **GetHashCode** that take an argument can throw an <xref:System.ArgumentException>. However, **Object.GetHashCode** should never throw an exception.
 
 ### ToString Methods
  The debugger uses <xref:System.Object.ToString%2A?displayProperty=fullName> to help display information about objects in string format. Therefore, **ToString** should not change the state of an object and it should not throw exceptions.

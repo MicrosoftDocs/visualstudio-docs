@@ -27,23 +27,23 @@ Describes the resolution of an error breakpoint, including location, program, an
   
 ```cpp#  
 typedef struct _BP_ERROR_RESOLUTION_INFO {   
-   BPERESI_FIELDS         dwFields;  
-   BP_RESOLUTION_LOCATION bpResLocation;  
-   IDebugProgram2*        pProgram;  
-   IDebugThread2*         pThread;  
-   BSTR                   bstrMessage;  
-   BP_ERROR_TYPE          dwType;  
+   BPERESI_FIELDS         dwFields;  
+   BP_RESOLUTION_LOCATION bpResLocation;  
+   IDebugProgram2*        pProgram;  
+   IDebugThread2*         pThread;  
+   BSTR                   bstrMessage;  
+   BP_ERROR_TYPE          dwType;  
 } BP_ERROR_RESOLUTION_INFO;  
 ```  
   
 ```csharp  
 public struct BP_ERROR_RESOLUTION_INFO {   
-   public uint                   dwFields;  
-   public BP_RESOLUTION_LOCATION bpResLocation;  
-   public IDebugProgram2         pProgram;  
-   public IDebugThread2          pThread;  
-   public string                 bstrMessage;  
-   public uint                   dwType;  
+   public uint                   dwFields;  
+   public BP_RESOLUTION_LOCATION bpResLocation;  
+   public IDebugProgram2         pProgram;  
+   public IDebugThread2          pThread;  
+   public string                 bstrMessage;  
+   public uint                   dwType;  
 };  
 ```  
   

@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2204: Literals should be spelled correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|LiteralsShouldBeSpelledCorrectly|
@@ -36,15 +37,15 @@ manager: "wpickett"
 ## Rule Description
  This rule checks a literal string that is passed as a value to a parameter or property when one or more of the following cases is true:
 
--   The <xref:System.ComponentModel.LocalizableAttribute> attribute of the parameter or property is set to true.
+- The <xref:System.ComponentModel.LocalizableAttribute> attribute of the parameter or property is set to true.
 
--   The parameter or property name contains "Text", "Message", or "Caption".
+- The parameter or property name contains "Text", "Message", or "Caption".
 
--   The name of the string parameter that is passed to a Console.Write or Console.WriteLine method is either "value" or "format".
+- The name of the string parameter that is passed to a Console.Write or Console.WriteLine method is either "value" or "format".
 
- This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token. For information about the parsing algorithm, see [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md).
+  This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token. For information about the parsing algorithm, see [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md).
 
- By default, the English (en) version of the spelling checker is used.
+  By default, the English (en) version of the spelling checker is used.
 
 ## How to Fix Violations
  To fix a violation of this rule, correct the spelling of the word or add the word to a custom dictionary. For information about how to use custom dictionaries, see [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md).

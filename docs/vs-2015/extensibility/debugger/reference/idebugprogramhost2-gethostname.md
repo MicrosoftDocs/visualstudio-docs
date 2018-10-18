@@ -27,15 +27,15 @@ Gets the title, friendly name, or file name of the hosting process of this progr
   
 ```cpp#  
 HRESULT GetHostName(   
-   DWORD dwType,  
-   BSTR* pbstrHostName  
+   DWORD dwType,  
+   BSTR* pbstrHostName  
 );  
 ```  
   
 ```csharp  
 int GetHostName(   
-   uint dwType,  
-   out string pbstrHostName  
+   uint dwType,  
+   out string pbstrHostName  
 );  
 ```  
   

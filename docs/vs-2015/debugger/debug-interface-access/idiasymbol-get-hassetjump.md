@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the function contains a use of the [setj
   
 ```cpp  
 HRESULT get_hasSetJump(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

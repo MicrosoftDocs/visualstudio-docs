@@ -140,19 +140,19 @@ The Visual Studio editor provides many features that make it easier for you to w
 
  To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools/Options/Text Editor/All Languages**, or you can change the settings for individual languages). You can navigate in the dropdown boxes as follows:  
 
--   To shift focus from the code window to the navigation bar, press the shortcut key combination CTRL+F2.  
+- To shift focus from the code window to the navigation bar, press the shortcut key combination CTRL+F2.  
 
--   To return focus from the navigation bar to the code window, press the ESC key.  
+- To return focus from the navigation bar to the code window, press the ESC key.  
 
--   To shift focus from item to item on the navigation bar, press the TAB key.  
+- To shift focus from item to item on the navigation bar, press the TAB key.  
 
--   To select the Navigation bar item that has focus and return to the IDE, press the ENTER key  
+- To select the Navigation bar item that has focus and return to the IDE, press the ENTER key  
 
--   To navigate to a class or type, click its name in the left dropdown.  
+- To navigate to a class or type, click its name in the left dropdown.  
 
--   To navigate directly to a procedure in a class, click a procedure in the right dropdown.  
+- To navigate directly to a procedure in a class, click a procedure in the right dropdown.  
 
- In a partial class, members defined outside the current code file may be grayed out.  
+  In a partial class, members defined outside the current code file may be grayed out.  
 
 ## Find code using Navigate To
 Visual Studio's "Navigate To" command does a focused search of your code to help you quickly find specified elements in code files, file paths and code symbols. Unlike other text searches such as Find or Find in Files, Navigate To limits its search to areas where actual code lives, such as files, forms and code modules. For example, if you search for a string in an ASP.NET web application using Find or Find in Files in the whole solution, you might get several hits, including instances of the string in code remarks. By using Navigate To, however, you might only get a single function, ignoring any instances of the string in code remarks.

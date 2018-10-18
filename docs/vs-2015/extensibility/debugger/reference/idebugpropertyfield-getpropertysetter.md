@@ -27,13 +27,13 @@ Gets the method that sets the property.
   
 ```cpp#  
 HRESULT GetPropertySetter(   
-   IDebugMethodField** ppField  
+   IDebugMethodField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetPropertySetter(  
-   out IDebugMethodField ppField  
+   out IDebugMethodField ppField  
 );  
 ```  
   

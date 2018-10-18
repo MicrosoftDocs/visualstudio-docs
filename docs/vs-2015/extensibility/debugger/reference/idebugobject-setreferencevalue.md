@@ -27,13 +27,13 @@ Sets the reference value of this object.
   
 ```cpp#  
 HRESULT SetReferenceValue(   
-   IDebugObject* pObject  
+   IDebugObject* pObject  
 );  
 ```  
   
 ```csharp  
 int SetReferenceValue(  
-   [In] IDebugObject pObject  
+   [In] IDebugObject pObject  
 );  
 ```  
   

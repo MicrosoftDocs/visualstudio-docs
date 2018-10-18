@@ -21,31 +21,31 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
  You can create unit test projects that target specific versions of the .NET Framework. The targeted version must be 3.5 or later, and cannot be a client version. Visual Studio enables the following basic support for unit tests that target specific versions:  
   
--   You can create unit test projects and target them to a specific version of the .NET Framework.  
+- You can create unit test projects and target them to a specific version of the .NET Framework.  
   
--   You can run unit tests that target a specific version of the .NET Framework from Visual Studio on your local machine.  
+- You can run unit tests that target a specific version of the .NET Framework from Visual Studio on your local machine.  
   
--   You can run unit tests that target a specific version of the .NET Framework by using MSTest.exe from the command prompt.  
+- You can run unit tests that target a specific version of the .NET Framework by using MSTest.exe from the command prompt.  
   
--   You can run unit tests on a build agent as part of a build.  
+- You can run unit tests on a build agent as part of a build.  
   
- **Testing SharePoint Applications**  
+  **Testing SharePoint Applications**  
   
- The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. [!INCLUDE[crabout](../includes/crabout-md.md)] how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631), [Building and Debugging SharePoint Solutions](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae) and [Verifying and Debugging SharePoint Code](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c).  
+  The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. [!INCLUDE[crabout](../includes/crabout-md.md)] how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631), [Building and Debugging SharePoint Solutions](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae) and [Verifying and Debugging SharePoint Code](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c).  
   
- **Limitations**  
+  **Limitations**  
   
- The following limitations apply when you re-target your test projects to use earlier versions of the .NET Framework:  
+  The following limitations apply when you re-target your test projects to use earlier versions of the .NET Framework:  
   
--   In the .NET Framework 3.5, multitargeting is supported for test projects that contain only unit tests. The .NET Framework 3.5 does not support any other test type, such as coded UI or load test. The re-targeting is blocked for test types other than unit tests.  
+- In the .NET Framework 3.5, multitargeting is supported for test projects that contain only unit tests. The .NET Framework 3.5 does not support any other test type, such as coded UI or load test. The re-targeting is blocked for test types other than unit tests.  
   
--   Execution of tests that are targeted at an earlier version of the .NET Framework is supported only in the default host adapter. It is not supported in the ASP.NET host adapter. ASP.NET applications that have to run in the ASP.NET Development Server context must be compatible with the current version of the .NET Framework.  
+- Execution of tests that are targeted at an earlier version of the .NET Framework is supported only in the default host adapter. It is not supported in the ASP.NET host adapter. ASP.NET applications that have to run in the ASP.NET Development Server context must be compatible with the current version of the .NET Framework.  
   
--   Data collection support is disabled when you run tests that support .NET Framework 3.5 multitargeting. You can run code coverage by using the Visual Studio command-line tools.  
+- Data collection support is disabled when you run tests that support .NET Framework 3.5 multitargeting. You can run code coverage by using the Visual Studio command-line tools.  
   
--   Unit tests that use .NET Framework 3.5 cannot run on a remote machine.  
+- Unit tests that use .NET Framework 3.5 cannot run on a remote machine.  
   
--   You cannot target unit tests to earlier client versions of the framework.  
+- You cannot target unit tests to earlier client versions of the framework.  
   
 ### Re-targeting to a specific version of the .NET Framework for Visual Basic Unit Test Projects  
   

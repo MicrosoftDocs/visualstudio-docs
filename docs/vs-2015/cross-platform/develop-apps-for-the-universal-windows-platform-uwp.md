@@ -38,21 +38,21 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
   
  Here is the list of software that you need:  
   
--   [Windows 10](http://windows.microsoft.com/windows/downloads)  
+- [Windows 10](http://windows.microsoft.com/windows/downloads)  
   
--   [Visual Studio 2015](http://go.microsoft.com/fwlink/p/?LinkId=526725). Make sure that the Universal Windows App Development Tools are selected from the optional features list. Without these tools, you won't be able to create your universal apps.  
+- [Visual Studio 2015](http://go.microsoft.com/fwlink/p/?LinkId=526725). Make sure that the Universal Windows App Development Tools are selected from the optional features list. Without these tools, you won't be able to create your universal apps.  
   
- After installing this software, you need to [enable your Windows 10 device](https://msdn.microsoft.com/library/windows/apps/xaml/dn706236.aspx) for development. (You no longer need a developer license for each Windows 10 device.)  
+  After installing this software, you need to [enable your Windows 10 device](https://msdn.microsoft.com/library/windows/apps/xaml/dn706236.aspx) for development. (You no longer need a developer license for each Windows 10 device.)  
   
- **Windows 8.1 and Windows 7 support**  
+  **Windows 8.1 and Windows 7 support**  
   
- If you choose to develop Universal Windows apps with Visual Studio 2015 on a platform other than Windows 10, these are the restrictions:  
+  If you choose to develop Universal Windows apps with Visual Studio 2015 on a platform other than Windows 10, these are the restrictions:  
   
--   Windows 8.1: You can’t run the app locally (only on a remote Windows 10 device). You can use the emulators in Visual Studio, but not the simulator.  
+- Windows 8.1: You can’t run the app locally (only on a remote Windows 10 device). You can use the emulators in Visual Studio, but not the simulator.  
   
--   Windows 7: You can’t run the app locally (only on a remote Windows 10 device). You can’t use the emulators or the simulator in Visual Studio either.  
+- Windows 7: You can’t run the app locally (only on a remote Windows 10 device). You can’t use the emulators or the simulator in Visual Studio either.  
   
- You can only use the XAML designer if your development platform is Windows 10.  
+  You can only use the XAML designer if your development platform is Windows 10.  
   
 ## Universal Windows apps  
  Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to [create a Universal Windows app for Windows 10 devices](http://msdn.microsoft.com/library/windows/apps/xaml/dn609832.aspx#target_win10). Or, watch [this getting started video](http://channel9.msdn.com/Series/ConnectOn-Demand/229).  

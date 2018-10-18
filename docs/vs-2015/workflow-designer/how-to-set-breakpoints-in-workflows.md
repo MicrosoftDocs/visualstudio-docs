@@ -20,10 +20,10 @@ When you use [!INCLUDE[wfd1](../includes/wfd1-md.md)], you can set breakpoints o
   
 > [!NOTE]
 >  Setting breakpoints on invoked workflows is not supported.  
-  
+> 
 > [!WARNING]
->  Ensure that you select the option **Enable Just My Code (Managed Only)** from the **Tools**, **Options**, **Debugging** menu before you debug. If you have two sequences nested within another sequence and you set a break point on the first inner sequence, pressing **F11** will not debug into the second inner sequence if the **Enable Just My Code (Managed Only)**option is not selected.  
-  
+>  Ensure that you select the option **Enable Just My Code (Managed Only)** from the **Tools**, **Options**, **Debugging** menu before you debug. If you have two sequences nested within another sequence and you set a break point on the first inner sequence, pressing **F11** will not debug into the second inner sequence if the <strong>Enable Just My Code (Managed Only)</strong>option is not selected.  
+> 
 > [!WARNING]
 >  Breakpoints in a workflow will not get hit if the full path to XAML file property is not accurate.The full path to XAML file is not accurate after moving the project/solution to another folder or to another machine.Select Ctrl+S to save and update full path property.  
   

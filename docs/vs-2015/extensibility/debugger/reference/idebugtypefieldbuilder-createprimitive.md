@@ -26,15 +26,15 @@ Creates an object that represents a primitive type.
   
 ```cpp#  
 HRESULT CreatePrimitive (  
-   DWORD          dwElementType,  
-   IDebugField ** pTypeField  
+   DWORD          dwElementType,  
+   IDebugField ** pTypeField  
 );  
 ```  
   
 ```csharp  
 int CreatePrimitive (  
-   uint            dwElementType,  
-   out IDebugField pTypeField  
+   uint            dwElementType,  
+   out IDebugField pTypeField  
 );  
 ```  
   

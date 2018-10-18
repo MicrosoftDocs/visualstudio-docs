@@ -28,7 +28,7 @@ Retrieves the virtual address (VA) of the location. Use when the [LocationType E
   
 ```cpp#  
 HRESULT get_virtualAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

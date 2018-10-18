@@ -37,43 +37,43 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
   
 #### To create a domain-specific language solution  
   
-1.  Start the DSL Wizard.  
+1. Start the DSL Wizard.  
   
-    1.  On the **File** menu, point to **New**, and then click **Project**.  
+   1. On the **File** menu, point to **New**, and then click **Project**.  
   
-    2.  The **New Project** dialog box appears.  
+   2. The **New Project** dialog box appears.  
   
-    3.  Under **Project types**, expand the **Other Project Types** node, and click **Extensibility**.  
+   3. Under **Project types**, expand the **Other Project Types** node, and click **Extensibility**.  
   
-    4.  Click **Domain-Specific Language Designer**.  
+   4. Click **Domain-Specific Language Designer**.  
   
-    5.  In the **Name** box, type a name for the solution. Click **OK**.  
+   5. In the **Name** box, type a name for the solution. Click **OK**.  
   
-         The **Domain-Specific Language Designer Wizard** appears.  
+       The **Domain-Specific Language Designer Wizard** appears.  
   
-        > [!NOTE]
-        >  Preferably, the name that you type should be a valid Visual C# identifier, because it might be used to generate code.  
+      > [!NOTE]
+      >  Preferably, the name that you type should be a valid Visual C# identifier, because it might be used to generate code.  
   
-     ![Create DSL dialog](../modeling/media/create-dsldialog.png "Create_DSLDialog")  
+      ![Create DSL dialog](../modeling/media/create-dsldialog.png "Create_DSLDialog")  
   
-2.  Choose a DSL template.  
+2. Choose a DSL template.  
   
-     On the **Select Domain-Specific Language Options** page, select one of the solution templates such as **Minimal Language**. Choose a template that is similar to the DSL that you want to create.  
+    On the **Select Domain-Specific Language Options** page, select one of the solution templates such as **Minimal Language**. Choose a template that is similar to the DSL that you want to create.  
   
-     For more information about solution templates, see [Choosing a Domain-Specific Language Solution Template](../modeling/choosing-a-domain-specific-language-solution-template.md).  
+    For more information about solution templates, see [Choosing a Domain-Specific Language Solution Template](../modeling/choosing-a-domain-specific-language-solution-template.md).  
   
-3.  Enter a filename extension on the **File Extension** page. It should be unique in your computer, and in any computers on which you want to install the DSL. You should see the message **No applications or Visual Studio editors use this extension**.  
+3. Enter a filename extension on the **File Extension** page. It should be unique in your computer, and in any computers on which you want to install the DSL. You should see the message **No applications or Visual Studio editors use this extension**.  
   
-    -   If you have used the file name extension in previous experimental DSLs that have not been fully installed, you can clear them out by using the **Reset the Experimental Instance** tool, which can be found in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] SDK menu.  
+   -   If you have used the file name extension in previous experimental DSLs that have not been fully installed, you can clear them out by using the **Reset the Experimental Instance** tool, which can be found in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] SDK menu.  
   
-    -   If another [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, consider uninstalling it. On the **Tools** menu, click **Extension Manager**.  
+   -   If another [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, consider uninstalling it. On the **Tools** menu, click **Extension Manager**.  
   
-4.  Inspect, and if necessary adjust, the fields in the remaining pages of the wizard. When you are satisfied with the settings, click **Finish**. For more information about the settings, see [DSL Designer Wizard Pages](#settings).  
+4. Inspect, and if necessary adjust, the fields in the remaining pages of the wizard. When you are satisfied with the settings, click **Finish**. For more information about the settings, see [DSL Designer Wizard Pages](#settings).  
   
-     The wizard creates a solution that has two projects, which are named **Dsl** and **DslPackage**.  
+    The wizard creates a solution that has two projects, which are named **Dsl** and **DslPackage**.  
   
-    > [!NOTE]
-    >  If you see a message that alerts you not to run text templates from untrusted sources, click **OK**. You can set this message not to appear again.  
+   > [!NOTE]
+   >  If you see a message that alerts you not to run text templates from untrusted sources, click **OK**. You can set this message not to appear again.  
   
 ##  <a name="settings"></a> The DSL Designer Wizard Pages  
  You can leave several of the fields unchanged from their default values. However, make sure that you set the File Extension field.  

@@ -27,13 +27,13 @@ Retrieves a managed code interface that represents the value associated with thi
   
 ```cpp  
 HRESULT GetICorDebugValue(  
-   IUnknown** ppUnk  
+   IUnknown** ppUnk  
 );  
 ```  
   
 ```csharp  
 int GetICorDebugValue(  
-   out object ppUnk  
+   out object ppUnk  
 );  
 ```  
   

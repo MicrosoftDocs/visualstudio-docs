@@ -28,8 +28,8 @@ Reads `DWORD` values in a property set.
   
 ```cpp#  
 HRESULT ReadDWORD (   
-   PROPID id,  
-   DWORD* pValue  
+   PROPID id,  
+   DWORD* pValue  
 );  
 ```  
   

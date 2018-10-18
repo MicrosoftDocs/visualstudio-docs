@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1412: Mark ComSource Interfaces as IDispatch
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|MarkComSourceInterfacesAsIDispatch|

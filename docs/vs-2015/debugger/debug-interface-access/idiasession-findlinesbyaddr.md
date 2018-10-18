@@ -28,10 +28,10 @@ Retrieves the lines in a specified compiland that contain a specified address.
   
 ```cpp#  
 HRESULT findLinesByAddr (   
-   DWORD                 seg,  
-   DWORD                 offset,  
-   DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
+   DWORD                 seg,  
+   DWORD                 offset,  
+   DWORD                 length,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

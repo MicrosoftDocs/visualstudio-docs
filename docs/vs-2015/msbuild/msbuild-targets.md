@@ -48,19 +48,19 @@ Targets group tasks together in a particular order and allow the build process t
 ## Target Build Order  
  Targets must be ordered if the input to one target depends on the output of another target. There are several ways to specify the order in which targets run.  
   
--   Initial targets  
+- Initial targets  
   
--   Default targets  
+- Default targets  
   
--   First target  
+- First target  
   
--   Target dependencies  
+- Target dependencies  
   
--   `BeforeTargets` and `AfterTargets` (MSBuild 4.0)  
+- `BeforeTargets` and `AfterTargets` (MSBuild 4.0)  
   
- A target never runs twice during a single build, even if a subsequent target in the build depends on it. Once a target runs, its contribution to the build is complete.  
+  A target never runs twice during a single build, even if a subsequent target in the build depends on it. Once a target runs, its contribution to the build is complete.  
   
- For details and more information about the target build order, see [Target Build Order](../msbuild/target-build-order.md).  
+  For details and more information about the target build order, see [Target Build Order](../msbuild/target-build-order.md).  
   
 ## Target Batching  
  A target element may have an `Outputs` attribute which specifies metadata in the form %(Metadata). If so, MSBuild runs the target once for each unique metadata value, grouping or "batching" the items that have that metadata value. For example,  

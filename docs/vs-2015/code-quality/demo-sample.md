@@ -23,13 +23,13 @@ manager: "ghogen"
 
 This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:  
   
--   A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution named CppDemo.  
+- A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution named CppDemo.  
   
--   A static library project named CodeDefects.  
+- A static library project named CodeDefects.  
   
--   A static library project named Annotations.  
+- A static library project named Annotations.  
   
- The procedures also provide the code for the header and .cpp files for the static libraries.  
+  The procedures also provide the code for the header and .cpp files for the static libraries.  
   
 ### Create the CppDemo solution and the CodeDefects project  
   

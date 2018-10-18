@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1712: Do not prefix enum values with type name
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotPrefixEnumValuesWithTypeName|

@@ -27,13 +27,13 @@ Gets the memory context that represents the address of the value of the object.
   
 ```cpp#  
 HRESULT GetMemoryContext(   
-   IDebugMemoryContext2** pContext  
+   IDebugMemoryContext2** pContext  
 );  
 ```  
   
 ```csharp  
 int GetMemoryContext(  
-   ref IDebugMemoryContext2 pContext  
+   ref IDebugMemoryContext2 pContext  
 );  
 ```  
   

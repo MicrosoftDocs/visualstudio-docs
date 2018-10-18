@@ -28,7 +28,7 @@ Retrieves the logical `this` adjustor for the method.
   
 ```cpp#  
 HRESULT get_thisAdjust (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

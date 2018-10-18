@@ -28,7 +28,7 @@ Retrieves the virtual address (VA) of the block.
   
 ```cpp#  
 HRESULT get_virtualAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

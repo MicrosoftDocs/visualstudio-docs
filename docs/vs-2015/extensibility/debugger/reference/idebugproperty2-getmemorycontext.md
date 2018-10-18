@@ -27,13 +27,13 @@ Gets the memory context of the property value.
   
 ```cpp#  
 HRESULT GetMemoryContext (   
-   IDebugMemoryContext2** ppMemory  
+   IDebugMemoryContext2** ppMemory  
 );  
 ```  
   
 ```csharp  
 int GetMemoryContext(  
-   out IDebugMemoryContext2 ppMemory  
+   out IDebugMemoryContext2 ppMemory  
 );  
 ```  
   

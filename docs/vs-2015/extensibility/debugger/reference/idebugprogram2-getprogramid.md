@@ -27,13 +27,13 @@ Gets a GUID for this program.
   
 ```cpp#  
 HRESULT GetProgramId(   
-   GUID* pguidProgramId  
+   GUID* pguidProgramId  
 );  
 ```  
   
 ```csharp  
 int GetProgramId(   
-   out Guid pguidProgramId  
+   out Guid pguidProgramId  
 );  
 ```  
   

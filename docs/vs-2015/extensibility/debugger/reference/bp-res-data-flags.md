@@ -27,14 +27,14 @@ Specifies whether the data breakpoint is being emulated or implemented in hardwa
   
 ```cpp#  
 enum enum_BP_RES_DATA_FLAGS {   
-   BP_RES_DATA_EMULATED = 0x0001  
+   BP_RES_DATA_EMULATED = 0x0001  
 };  
 typedef DWORD BP_RES_DATA_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_BP_RES_DATA_FLAGS {   
-   BP_RES_DATA_EMULATED = 0x0001  
+   BP_RES_DATA_EMULATED = 0x0001  
 };  
 ```  
   

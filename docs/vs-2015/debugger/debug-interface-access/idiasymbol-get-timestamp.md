@@ -28,7 +28,7 @@ Retrieves the timestamp of the underlying executable file.
   
 ```cpp#  
 HRESULT get_timeStamp (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

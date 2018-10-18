@@ -35,17 +35,17 @@ This error occurs when the user who is trying to run the Visual Studio Remote De
   
 ### To fix this problem  
   
--   Add a user account to the Visual Studio debugger host computer, with the same name and password as the user account running msvsmon on the remote computer,  
+- Add a user account to the Visual Studio debugger host computer, with the same name and password as the user account running msvsmon on the remote computer,  
   
-     \- or -  
+   \- or -  
   
--   Run msvsmon as a user who has permission to call into the local computer. This means the user must be a domain user and an administrator on the msvsmon computer. You can specify the user account to run msvsmon in one of two ways:  
+- Run msvsmon as a user who has permission to call into the local computer. This means the user must be a domain user and an administrator on the msvsmon computer. You can specify the user account to run msvsmon in one of two ways:  
   
-    -   Right-click the msvsmon icon and choose **Run As** on the shortcut menu  
+  - Right-click the msvsmon icon and choose **Run As** on the shortcut menu  
   
-     \- or -  
+    \- or -  
   
-    -   At the Command Prompt, run `runas.exe`.  
+  - At the Command Prompt, run `runas.exe`.  
   
 ## See Also  
  [Remote Debugging Across Domains](http://msdn.microsoft.com/library/8e697ce1-55e8-4ab0-a05f-f87225e2f29b)   

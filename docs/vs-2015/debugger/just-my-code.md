@@ -46,13 +46,13 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
  Three attributes also affect what the debugger considers to be My Code:  
   
--   <xref:System.Diagnostics.DebuggerNonUserCodeAttribute> tells the debugger that the code it is applied to is not My Code.  
+- <xref:System.Diagnostics.DebuggerNonUserCodeAttribute> tells the debugger that the code it is applied to is not My Code.  
   
--   <xref:System.Diagnostics.DebuggerHiddenAttribute> hides the code from the debugger, even if Just My Code is turned off.  
+- <xref:System.Diagnostics.DebuggerHiddenAttribute> hides the code from the debugger, even if Just My Code is turned off.  
   
--   <xref:System.Diagnostics.DebuggerStepThroughAttribute> tells the debugger to step through the code it is applied to, rather than step into the code.  
+- <xref:System.Diagnostics.DebuggerStepThroughAttribute> tells the debugger to step through the code it is applied to, rather than step into the code.  
   
- All other code is considered to be user code.  
+  All other code is considered to be user code.  
   
 ###  <a name="BKMK_NET_Stepping_behavior"></a> Stepping behavior  
  When you **Step Into** (Keyboard shortcut: F11) non-user code, the debugger steps over the code to the next user statement. When you **Step Out** (Keyboard: Shift + F11), the debugger runs to the next line of user code. If no user code is encountered then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
@@ -74,17 +74,17 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
  By default, the debugger considers these functions to be non-user code in call stack windows:  
   
--   Functions with stripped source information in their symbols file.  
+- Functions with stripped source information in their symbols file.  
   
--   Functions where the symbol files indicate that there is no source file corresponding to the stack frame.  
+- Functions where the symbol files indicate that there is no source file corresponding to the stack frame.  
   
--   Functions specified in `*.natjmc` files in the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder.  
+- Functions specified in `*.natjmc` files in the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder.  
   
- **Stepping**  
+  **Stepping**  
   
- By default, only functions specified in `*.natstepfilter` files in the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder are considered non-user code.  
+  By default, only functions specified in `*.natstepfilter` files in the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder are considered non-user code.  
   
- You can create your own `.natstepfilter` and `.natjmc` to customize the stepping and call stack window behavior in the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers`.  
+  You can create your own `.natstepfilter` and `.natjmc` to customize the stepping and call stack window behavior in the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers`.  
   
 ###  <a name="BKMK_CPP_Stepping_behavior"></a> Stepping behavior  
  When you **Step Into** (Keyboard shortcut: F11) non-user code from user code, the debugger steps over the code to the next line of user-code. When you **Step Out** (Keyboard: Shift + F11), the debugger runs to the next line of user code. If no user code is encountered then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
@@ -97,11 +97,11 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 ###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize stepping behavior  
  You can specify functions to step over by listing them as non-user code in `*.natstepfilter` files.  
   
--   To specify non-user code for all users of the Visual Studio machine, add the .natstepfilter file to the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder.  
+- To specify non-user code for all users of the Visual Studio machine, add the .natstepfilter file to the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder.  
   
--   To specify non-user code for an individual user, add the .natstepfilter file to the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers` folder.  
+- To specify non-user code for an individual user, add the .natstepfilter file to the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers` folder.  
   
- .natstepfilter files are xml files with this syntax:  
+  .natstepfilter files are xml files with this syntax:  
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -129,11 +129,11 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 ###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize call stack behavior  
  You can specify modules, source files, and functions to treat as non-user code in call stacks by specifying them in `*.natjmc` files.  
   
--   To specify non-user code for all users of the Visual Studio machine, add the .natjmc file to the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder.  
+- To specify non-user code for all users of the Visual Studio machine, add the .natjmc file to the `%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers` folder.  
   
--   To specify non-user code for an individual user, add the .natjmc file to the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers` folder.  
+- To specify non-user code for an individual user, add the .natjmc file to the `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers` folder.  
   
- .natjmc files are xml files with this syntax:  
+  .natjmc files are xml files with this syntax:  
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -191,19 +191,19 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
  The JavaScript debugger automatically classifies these types of code:  
   
--   Script that is executed by passing a string to the host-provided `eval` function is classified as **MyCode**.  
+- Script that is executed by passing a string to the host-provided `eval` function is classified as **MyCode**.  
   
--   Script that is executed by passing a string to the `Function` constructor is classified as **LibraryCode**.  
+- Script that is executed by passing a string to the `Function` constructor is classified as **LibraryCode**.  
   
--   Script that is contained in a framework reference, such as WinJS or the Azure SDK, is classified as **LibraryCode**.  
+- Script that is contained in a framework reference, such as WinJS or the Azure SDK, is classified as **LibraryCode**.  
   
--   Script that is executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is classified as **UnrelatedCode**.  
+- Script that is executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is classified as **UnrelatedCode**.  
   
--   The `%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json` specifies other user and non-user code for all Visual Studio JavaScript projects.  
+- The `%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json` specifies other user and non-user code for all Visual Studio JavaScript projects.  
   
- You can modify the default classifications and classify specific files and urls by add a .json file named `mycode.json` to the root folder of a project.  
+  You can modify the default classifications and classify specific files and urls by add a .json file named `mycode.json` to the root folder of a project.  
   
- All other code is classified as **MyCode**.  
+  All other code is classified as **MyCode**.  
   
 ###  <a name="BKMK_JS_Stepping_behavior"></a> Stepping behavior  
   
@@ -228,30 +228,30 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
 ###  <a name="BKMK_JS_Exception_behavior"></a> Exception behavior  
  If an unhandled exception occurs in:  
   
--   **MyCode** or **LibraryCode** code, the debugger always breaks.  
+- **MyCode** or **LibraryCode** code, the debugger always breaks.  
   
--   **UnrelatedCode** code, and **MyCode** or **LibraryCode** code is on the call stack, the debugger breaks.  
+- **UnrelatedCode** code, and **MyCode** or **LibraryCode** code is on the call stack, the debugger breaks.  
   
- If first chance exceptions are enabled for the exception on the Exceptions dialog box, and the exception is thrown in **LibraryCode** or **UnrelatedCode** code:  
+  If first chance exceptions are enabled for the exception on the Exceptions dialog box, and the exception is thrown in **LibraryCode** or **UnrelatedCode** code:  
   
--   If the exception is handled, the debugger doesn’t break.  
+- If the exception is handled, the debugger doesn’t break.  
   
--   If the exception is not handled, the debugger breaks.  
+- If the exception is not handled, the debugger breaks.  
   
 ###  <a name="BKMK_JS_Customize_Just_My_Code"></a> Customize Just My Code  
  To categorize user and non-user code for a single Visual Studio project, add a .json file named `mycode.json` to the root folder of the project.  
   
  Classifications are performed in this order:  
   
-1.  Default classifications  
+1. Default classifications  
   
-2.  Classifications in the `%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json` file  
+2. Classifications in the `%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json` file  
   
-3.  Classifications in the `mycode. json` file of the current project.  
+3. Classifications in the `mycode. json` file of the current project.  
   
- Each classification step overrides the previous steps. A .json file does not need to list all key value pairs, and the **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.  
+   Each classification step overrides the previous steps. A .json file does not need to list all key value pairs, and the **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.  
   
- My Code .json files use this syntax:  
+   My Code .json files use this syntax:  
   
 ```json  
 {  
@@ -289,15 +289,15 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
  You can change the value to one of these keywords:  
   
--   `MyCode`  classifies the script as **MyCode**.  
+- `MyCode`  classifies the script as **MyCode**.  
   
--   `Library`  classifies the script as **LibraryCode**.  
+- `Library`  classifies the script as **LibraryCode**.  
   
--   `Unrelated`  classifies the script as **UnrelatedCode**.  
+- `Unrelated`  classifies the script as **UnrelatedCode**.  
   
- **MyCode, Libraries, and Unrelated**  
+  **MyCode, Libraries, and Unrelated**  
   
- The **MyCode**, **Libraries**, and **Unrelated** key value pairs specify the urls or files that you want to include in a classification:  
+  The **MyCode**, **Libraries**, and **Unrelated** key value pairs specify the urls or files that you want to include in a classification:  
   
 |||  
 |-|-|  

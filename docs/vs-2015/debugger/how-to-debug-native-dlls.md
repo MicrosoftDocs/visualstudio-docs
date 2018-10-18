@@ -37,29 +37,29 @@ manager: "ghogen"
   
  When you debug a DLL, you can start debugging from:  
   
--   The project used to create the executable that calls the DLL.  
+- The project used to create the executable that calls the DLL.  
   
- \- or -  
+  \- or -  
   
--   The project used to create the DLL itself.  
+- The project used to create the DLL itself.  
   
- If you have the project used to create the executable, start debugging from that project. You can then open a source file for the DLL and set breakpoints in that file, even though it is not a part of the project used to create the executable. For more information, see [Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583).  
+  If you have the project used to create the executable, start debugging from that project. You can then open a source file for the DLL and set breakpoints in that file, even though it is not a part of the project used to create the executable. For more information, see [Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
- If you start debugging from the project that creates the DLL, you must specify the executable you want to use in debugging the DLL.  
+  If you start debugging from the project that creates the DLL, you must specify the executable you want to use in debugging the DLL.  
   
 ### To specify an executable for the debug session  
   
-1.  In **Solution Explorer**, select the project that creates the DLL.  
+1. In **Solution Explorer**, select the project that creates the DLL.  
   
-2.  From the **View** menu, choose**Property Pages**.  
+2. From the **View** menu, choose**Property Pages**.  
   
-3.  In the **Property Pages** dialog box, open the **Configuration Properties** folder and select the **Debugging** category.  
+3. In the **Property Pages** dialog box, open the **Configuration Properties** folder and select the **Debugging** category.  
   
-4.  In the **Command** box, specify the path name for the container. For example, C:\Program Files\MyApplication\MYAPP.EXE.  
+4. In the **Command** box, specify the path name for the container. For example, C:\Program Files\MyApplication\MYAPP.EXE.  
   
-5.  In the **Command Arguments** box, specify any necessary arguments for the executable.  
+5. In the **Command Arguments** box, specify any necessary arguments for the executable.  
   
- If you do not specify the executable in the _Project_**Property Pages** dialog box, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears when you start debugging.  
+   If you do not specify the executable in the _Project_**Property Pages** dialog box, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears when you start debugging.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   

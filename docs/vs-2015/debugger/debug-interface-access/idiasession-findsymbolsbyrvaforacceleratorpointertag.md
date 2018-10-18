@@ -26,10 +26,10 @@ Given a corresponding tag value, this method returns an enumeration of symbols t
   
 ```cpp#  
 HRESULT findSymbolsByRVAForAcceleratorPointerTag (   
-   IDiaSymbol*           parent,  
+   IDiaSymbol*           parent,  
    DWORD                 tagValue,  
    DWORD                 rva,  
-   IDiaEnumSymbols**     ppResult  
+   IDiaEnumSymbols**     ppResult  
 );  
 ```  
   

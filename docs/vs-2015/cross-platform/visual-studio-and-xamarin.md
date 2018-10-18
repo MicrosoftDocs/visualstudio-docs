@@ -24,15 +24,15 @@ Xamarin is a mobile app development platform for building native iOS, Android, a
   
  This documentation helps you evaluate the full capabilities of **Visual Studio with Xamarin** to build these experiences.  
   
--   Start with [Setup and install](../cross-platform/setup-and-install.md), a process that will take some time (typically 2-4 hours depending on the speed of your Internet connection, what you already have installed, and the options you select).  
+- Start with [Setup and install](../cross-platform/setup-and-install.md), a process that will take some time (typically 2-4 hours depending on the speed of your Internet connection, what you already have installed, and the options you select).  
   
--   While the installers are running, you can [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md) which will tell you about the nature of Xamarin, compare Xamarin.Forms to native UI, and more.  
+- While the installers are running, you can [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md) which will tell you about the nature of Xamarin, compare Xamarin.Forms to native UI, and more.  
   
--   Once installation is complete, [Verify your Xamarin environment](../cross-platform/verify-your-xamarin-environment.md).  
+- Once installation is complete, [Verify your Xamarin environment](../cross-platform/verify-your-xamarin-environment.md).  
   
--   Finish by going through the tutorial [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md).  
+- Finish by going through the tutorial [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md).  
   
- You can work with all Xamarin features through [any edition of Visual Studio 2015](https://www.visualstudio.com/vs-2015-product-editions) (Community, Professional, and Enterprise). Note also that as of March 31 2016, Xamarin is included with all editions of Visual Studio 2015 and no longer requires a separate license. For Visual Studio 2013, you can install Xamarin separately, as the [Setup and install](../cross-platform/setup-and-install.md) topic describes.  
+  You can work with all Xamarin features through [any edition of Visual Studio 2015](https://www.visualstudio.com/vs-2015-product-editions) (Community, Professional, and Enterprise). Note also that as of March 31 2016, Xamarin is included with all editions of Visual Studio 2015 and no longer requires a separate license. For Visual Studio 2013, you can install Xamarin separately, as the [Setup and install](../cross-platform/setup-and-install.md) topic describes.  
   
 > [!NOTE]
 >  These instructions describe the easiest and most straightforward computer configuration for those that have a Windows and Visual Studio background. With this configuration, the overall development experience is simplified because you only need to interact with the Mac to use the iOS simulator and tethered device. If you instead come from a Mac background, we recommend either running Visual Studio inside Parallels/VMWare or using Xamarin Studio Community. Refer to [Setup, install, and verifications for Mac users](../cross-platform/setup-install-and-verifications-for-mac-users.md) for instructions.  

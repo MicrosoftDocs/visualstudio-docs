@@ -28,8 +28,8 @@ Sets the value of a register.
   
 ```cpp#  
 HRESULT put_registerValue (   
-   DWORD     index,  
-   ULONGLONG NewVal  
+   DWORD     index,  
+   ULONGLONG NewVal  
 );  
 ```  
   

@@ -19,6 +19,7 @@ manager: "wpickett"
 ---
 # CA2146: Types must be at least as critical as their base types and interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|TypesMustBeAtLeastAsCriticalAsBaseTypes|

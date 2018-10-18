@@ -27,17 +27,17 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
 ## Completion Lists  
  The IntelliSense completion lists in Visual C# contain tokens from List Members, Complete Word, and more. It provides quick access to:  
   
--   Members of a type or namespace,  
+- Members of a type or namespace,  
   
--   Variables, commands, and functions names,  
+- Variables, commands, and functions names,  
   
--   [Code snippets](#CodeSnippets),  
+- [Code snippets](#CodeSnippets),  
   
--   [Language Keywords](#Keywords),  
+- [Language Keywords](#Keywords),  
   
--   [Extension Methods](#ExtensionMethods)  
+- [Extension Methods](#ExtensionMethods)  
   
- The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists in C#](../misc/filtered-completion-lists-in-csharp.md) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
+  The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists in C#](../misc/filtered-completion-lists-in-csharp.md) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
   
 ###  <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
  In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
@@ -117,23 +117,23 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
  To display the appropriate options, you can use one of the following procedures:  
   
--   Click the undefined identifier. A short underline appears under the leftmost character. Rest the mouse pointer on the short underline, and a smart tag (an icon) appears. Click the smart tag.  
+- Click the undefined identifier. A short underline appears under the leftmost character. Rest the mouse pointer on the short underline, and a smart tag (an icon) appears. Click the smart tag.  
   
--   Click the undefined identifier, and then press CTRL+. (period).  
+- Click the undefined identifier, and then press CTRL+. (period).  
   
--   Right-click the undefined identifier, and then click **Generate**.  
+- Right-click the undefined identifier, and then click **Generate**.  
   
- The options that appear can include the following:  
+  The options that appear can include the following:  
   
--   **Generate property stub**  
+- **Generate property stub**  
   
--   **Generate field stub**  
+- **Generate field stub**  
   
--   **Generate method stub**  
+- **Generate method stub**  
   
--   **Generate class**  
+- **Generate class**  
   
--   **Generate new type** (for a class, struct, interface, or enum)  
+- **Generate new type** (for a class, struct, interface, or enum)  
   
 ## Generate event handlers  
  In the Code Editor, IntelliSense can help you hook up methods (event handlers) to event fields.  

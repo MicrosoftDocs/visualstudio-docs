@@ -28,7 +28,7 @@ Retrieves a reference to the lexical parent of the symbol.
   
 ```cpp#  
 HRESULT get_lexicalParent (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

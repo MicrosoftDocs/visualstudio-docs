@@ -27,13 +27,13 @@ Gets the GUID of the debug engine (DE).
   
 ```cpp#  
 HRESULT GetEngineID(   
-   GUID* pguidEngine  
+   GUID* pguidEngine  
 );  
 ```  
   
 ```csharp  
 int GetEngineID(   
-   out Guid pguidEngine  
+   out Guid pguidEngine  
 );  
 ```  
   

@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1415: Declare P/Invokes correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DeclarePInvokesCorrectly|

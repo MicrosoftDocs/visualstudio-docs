@@ -27,17 +27,17 @@ Sets the value of a reference from a string. Reserved for future use.
   
 ```cpp#  
 HRESULT SetValueAsString (   
-   LPCOLESTR pszValue,  
-   DWORD     dwRadix,  
-   DWORD     dwTimeout  
+   LPCOLESTR pszValue,  
+   DWORD     dwRadix,  
+   DWORD     dwTimeout  
 );  
 ```  
   
 ```csharp  
 int SetValueAsString (   
-   string pszValue,  
-   uint   dwRadix,  
-   uint   dwTimeout  
+   string pszValue,  
+   uint   dwRadix,  
+   uint   dwTimeout  
 );  
 ```  
   

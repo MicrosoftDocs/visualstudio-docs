@@ -25,15 +25,15 @@ Retrieves the range for the current document position.
   
 ```cpp#  
 HRESULT GetRange(  
-   DWORD* pdwBegOffset,  
-   DWORD* pdwEndOffset  
+   DWORD* pdwBegOffset,  
+   DWORD* pdwEndOffset  
 );  
 ```  
   
 ```csharp  
 public int GetRange(  
-   ref uint pdwBegOffset,  
-   ref uint pdwEndOffset  
+   ref uint pdwBegOffset,  
+   ref uint pdwEndOffset  
 );  
 ```  
   

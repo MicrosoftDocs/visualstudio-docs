@@ -24,17 +24,17 @@ This source-control plug-in test area covers changing the source control via the
   
  **Change Source Control** command provides four basic functions for the user:  
   
--   **Bind:**  
+- **Bind:**  
   
-     Allows a user to establish or reestablish a source control link between a solution/project and the version store.  
+   Allows a user to establish or reestablish a source control link between a solution/project and the version store.  
   
--   **Unbind:**  
+- **Unbind:**  
   
-     Removes a project/solution from source control on a per-connection basis.  
+   Removes a project/solution from source control on a per-connection basis.  
   
--   **Connect/Disconnect:**  
+- **Connect/Disconnect:**  
   
- Toggles connected or offline state of the controlled solution, which is covered in Area 3. For more information, see [Test Area 3: Check Out/Undo Checkout](../../extensibility/internals/test-area-3-check-out-undo-checkout.md).  
+  Toggles connected or offline state of the controlled solution, which is covered in Area 3. For more information, see [Test Area 3: Check Out/Undo Checkout](../../extensibility/internals/test-area-3-check-out-undo-checkout.md).  
   
 ## Command Menu Access  
  The following [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment menu path is used in the test cases.  

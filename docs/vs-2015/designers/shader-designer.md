@@ -119,11 +119,11 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ###### To bind a different texture to a texture register, or to modify other material parameters  
   
-1.  In **Select** mode, select an empty area of the design surface. This causes the **Properties** window to display the global shader properties.  
+1. In **Select** mode, select an empty area of the design surface. This causes the **Properties** window to display the global shader properties.  
   
-2.  In the **Properties** window, specify new values for the texture and parameter properties that you want to change.  
+2. In the **Properties** window, specify new values for the texture and parameter properties that you want to change.  
   
- Here are the shader parameters that you can modify:  
+   Here are the shader parameters that you can modify:  
   
 |Parameter|Properties|  
 |---------------|----------------|  

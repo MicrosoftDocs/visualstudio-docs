@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether the section contains initialized data.
   
 ```cpp#  
 HRESULT get_initializedData (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

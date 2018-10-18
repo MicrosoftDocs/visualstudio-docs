@@ -32,17 +32,17 @@ Project subtypes let VSPackages extend projects based on the Microsoft Build Eng
 ## Project Subtype Design  
  The initialization of a project subtype is achieved by aggregating the main <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject> objects. This aggregation enables a project subtype to override or enhance most of the capabilities of the base project. Project subtypes get the first chance to handle properties using <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>, commands using <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>, and project item management using <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>. Project subtypes can also extend:  
   
--   Project configuration objects.  
+- Project configuration objects.  
   
--   Configuration-dependent objects.  
+- Configuration-dependent objects.  
   
--   Configuration-independent browse objects.  
+- Configuration-independent browse objects.  
   
--   Project automation objects.  
+- Project automation objects.  
   
--   Project automation property collections.  
+- Project automation property collections.  
   
- For more information on extensibility by project subtypes, see [Properties and Methods Extended by Project Subtypes](../../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md).  
+  For more information on extensibility by project subtypes, see [Properties and Methods Extended by Project Subtypes](../../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md).  
   
 ##### Policy Files  
  The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] environment provides an example of extending the base project system with a project subtype in its implementation of policy files. A policy file allows the shaping of the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] environment by managing features that include the Solution Explorer, **Add Project** dialog box, **Add New Item** dialog box and the **Properties** dialog box. The policy subtype overrides and enhances these features through <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg>, `IOleCommandTarget` and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> implementations.  

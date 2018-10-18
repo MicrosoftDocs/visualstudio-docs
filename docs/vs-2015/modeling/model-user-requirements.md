@@ -26,21 +26,21 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
  A requirements model helps you:  
   
--   Focus on the system's external behavior, separately from its internal design.  
+- Focus on the system's external behavior, separately from its internal design.  
   
--   Describe the users' and stakeholders' needs with much less ambiguity than you can in natural language.  
+- Describe the users' and stakeholders' needs with much less ambiguity than you can in natural language.  
   
--   Define a consistent glossary of terms that can be used by users, developers, and testers.  
+- Define a consistent glossary of terms that can be used by users, developers, and testers.  
   
--   Reduce gaps and inconsistencies in the requirements.  
+- Reduce gaps and inconsistencies in the requirements.  
   
--   Reduce the work needed to respond to requirements changes.  
+- Reduce the work needed to respond to requirements changes.  
   
--   Plan the order in which features will be developed.  
+- Plan the order in which features will be developed.  
   
--   Use the models as a basis for system tests, making a clear relationship between the tests and the requirements. When the requirements change, this relationship helps you update the tests correctly. This makes sure that the system meets the new requirements.  
+- Use the models as a basis for system tests, making a clear relationship between the tests and the requirements. When the requirements change, this relationship helps you update the tests correctly. This makes sure that the system meets the new requirements.  
   
- A requirements model provides greatest benefit if you use it to focus discussions with the users or their representatives, and revisit it at the beginning of each iteration. You do not have to complete it in detail before writing code. A partially working application, even if very much simplified, generally forms the most stimulating basis for discussion of the requirements with users. The model is an effective way to summarize the results of those discussions. For more information, see [Use models in your development process](../modeling/use-models-in-your-development-process.md).  
+  A requirements model provides greatest benefit if you use it to focus discussions with the users or their representatives, and revisit it at the beginning of each iteration. You do not have to complete it in detail before writing code. A partially working application, even if very much simplified, generally forms the most stimulating basis for discussion of the requirements with users. The model is an effective way to summarize the results of those discussions. For more information, see [Use models in your development process](../modeling/use-models-in-your-development-process.md).  
   
 > [!NOTE]
 >  Throughout these topics, "system" means the system or the application that you are developing. It might be a large collection of many software and hardware components; or a single application; or a software component inside a larger system. In every case, the requirements model describes the behavior that is visible from outside your system, whether through a user interface or API.  
@@ -78,11 +78,11 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
  Drawing a use case diagram helps your team:  
   
--   Focus on what the users expect to do with the system, without being distracted by details of the implementation.  
+- Focus on what the users expect to do with the system, without being distracted by details of the implementation.  
   
--   Discuss the scope of your system or particular releases of the system.  
+- Discuss the scope of your system or particular releases of the system.  
   
- The following topics provide more information:  
+  The following topics provide more information:  
   
 |To learn about|Read|  
 |--------------------|----------|  
@@ -93,41 +93,41 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 ##  <a name="RequirementsClasses"></a> Defining Terms Used to Describe Requirements  
  You can use UML class diagrams to help you develop a consistent vocabulary of the business concepts used for the following purposes:  
   
--   By the users themselves to discuss the business in which the system works.  
+- By the users themselves to discuss the business in which the system works.  
   
--   To describe the users' needs, for example in the descriptions of use cases, business rules, and user stories.  
+- To describe the users' needs, for example in the descriptions of use cases, business rules, and user stories.  
   
--   The types of information exchanged at the system's API or through the user interface.  
+- The types of information exchanged at the system's API or through the user interface.  
   
--   Descriptions of system or acceptance tests.  
+- Descriptions of system or acceptance tests.  
   
- When they are used for this purpose, the content of a UML class diagram is called a conceptual class diagram. (It is also known as a *domain model* or *analysis class model*.)  
+  When they are used for this purpose, the content of a UML class diagram is called a conceptual class diagram. (It is also known as a *domain model* or *analysis class model*.)  
   
- In a conceptual class diagram, you show just those classes needed in descriptions of the requirements, without showing any of the detail of the system's internal design. The diagram does not show any of the detail of the system's internal design. You would not usually show operations or interfaces on conceptual classes.  
+  In a conceptual class diagram, you show just those classes needed in descriptions of the requirements, without showing any of the detail of the system's internal design. The diagram does not show any of the detail of the system's internal design. You would not usually show operations or interfaces on conceptual classes.  
   
- For example, you could draw these conceptual classes for the Dinner Now system:  
+  For example, you could draw these conceptual classes for the Dinner Now system:  
   
- ![Classes Menu, Order, Menu Item, Order Item.](../modeling/media/uml-reqmcd1.png "UML_ReqMCD1")  
+  ![Classes Menu, Order, Menu Item, Order Item.](../modeling/media/uml-reqmcd1.png "UML_ReqMCD1")  
   
- A conceptual class diagram provides the vocabulary of terms that you use throughout the requirements model. For example, in the detailed description of the use case Order a Meal, you might write:  
+  A conceptual class diagram provides the vocabulary of terms that you use throughout the requirements model. For example, in the detailed description of the use case Order a Meal, you might write:  
   
- The customer chooses a *Menu* from which to construct an *Order*, and then creates *Order Items* in the *Order* by selecting *Menu Items* from the *Menu*.  
+  The customer chooses a *Menu* from which to construct an *Order*, and then creates *Order Items* in the *Order* by selecting *Menu Items* from the *Menu*.  
   
- Notice how the terms used in that description are the names of classes in the model. The diagram removes ambiguities from relationships between those classes. For example, it shows clearly that each Order is associated with just one Menu.  
+  Notice how the terms used in that description are the names of classes in the model. The diagram removes ambiguities from relationships between those classes. For example, it shows clearly that each Order is associated with just one Menu.  
   
- Misunderstandings about users' requirements can frequently be traced to misunderstandings about the detailed meanings of words. For example, most restaurants will have a shared understanding of the terms Menu and Order, but the difference between an item on an Order and an item on a Menu is less clear. When the requirements are being discussed with the business stakeholders, it is important to expose those differences. The class diagram is a useful tool to help you clarify the terms and their relationships.  
+  Misunderstandings about users' requirements can frequently be traced to misunderstandings about the detailed meanings of words. For example, most restaurants will have a shared understanding of the terms Menu and Order, but the difference between an item on an Order and an item on a Menu is less clear. When the requirements are being discussed with the business stakeholders, it is important to expose those differences. The class diagram is a useful tool to help you clarify the terms and their relationships.  
   
- The conceptual class model can form the basic vocabulary by which your system's business logic can be described. But the classes in the software will typically be much more complex than the conceptual model, because your implementation must consider issues such as performance, distribution, flexibility, and other factors. Several different implementations of a conceptual class are frequently found in one system.  
+  The conceptual class model can form the basic vocabulary by which your system's business logic can be described. But the classes in the software will typically be much more complex than the conceptual model, because your implementation must consider issues such as performance, distribution, flexibility, and other factors. Several different implementations of a conceptual class are frequently found in one system.  
   
- For example, Orders could be represented in XML, SQL, HTML, and C# in different parts of the system and at different interfaces between the parts. The association between an Order and a Menu could be represented in many different ways, such as references within C# code, relations in a database, or cross-referenced IDs in XML. But despite these variations, the conceptual model provides important information that is true in every part of the software. The class diagram in the example tells us that in every implementation, there will be only one Menu associated with each Order.  
+  For example, Orders could be represented in XML, SQL, HTML, and C# in different parts of the system and at different interfaces between the parts. The association between an Order and a Menu could be represented in many different ways, such as references within C# code, relations in a database, or cross-referenced IDs in XML. But despite these variations, the conceptual model provides important information that is true in every part of the software. The class diagram in the example tells us that in every implementation, there will be only one Menu associated with each Order.  
   
- Drawing a requirements class diagram helps your team:  
+  Drawing a requirements class diagram helps your team:  
   
--   Define and standardize the basic terms used in discussions of the users' needs.  
+- Define and standardize the basic terms used in discussions of the users' needs.  
   
--   Clarify the relationships between those terms.  
+- Clarify the relationships between those terms.  
   
- The following topics provide more information:  
+  The following topics provide more information:  
   
 |To learn about|Read|  
 |--------------------|----------|  
@@ -140,7 +140,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 ##  <a name="BusinessRules"></a> Showing Business Rules  
  A business rule is a requirement that is not associated with a particular use case, and should be observed throughout the system.  
   
- Many business rules are constraints on the relationships among the conceptual classes. You can write these *static**business rules* as comments associated with the relevant classes on a conceptual class diagram. For example:  
+ Many business rules are constraints on the relationships among the conceptual classes. You can write these *static*<em>business rules</em> as comments associated with the relevant classes on a conceptual class diagram. For example:  
   
  ![Rule in Comment attached to Order class.](../modeling/media/uml-reqmcd2.png "UML_ReqmCD2")  
   
@@ -161,21 +161,21 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 ##  <a name="QoSRequirements"></a> Describing Quality of Service Requirements  
  There are several categories of quality of service requirement. They include the following:  
   
--   Performance  
+- Performance  
   
--   Security  
+- Security  
   
--   Usability  
+- Usability  
   
--   Reliability  
+- Reliability  
   
--   Robustness  
+- Robustness  
   
- You can include some of these requirements in the descriptions of particular use cases. Other requirements are not specific to use cases, and are most effectively written in a separate document. When you can, it is useful to adhere to the vocabulary defined by the requirements model. In the following example, notice that the main words used in the requirement are the titles of actors, use cases, and classes in the preceding illustrations:  
+  You can include some of these requirements in the descriptions of particular use cases. Other requirements are not specific to use cases, and are most effectively written in a separate document. When you can, it is useful to adhere to the vocabulary defined by the requirements model. In the following example, notice that the main words used in the requirement are the titles of actors, use cases, and classes in the preceding illustrations:  
   
- If a Restaurant deletes a Menu Item while a Customer is Ordering a Meal, any Order Item that refers to that Menu Item will be displayed in red.  
+  If a Restaurant deletes a Menu Item while a Customer is Ordering a Meal, any Order Item that refers to that Menu Item will be displayed in red.  
   
- The following topics provide more information:  
+  The following topics provide more information:  
   
 |To learn about|Read|  
 |--------------------|----------|  
@@ -226,15 +226,15 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
  You will find that many questions about the business domain arise naturally while you are creating a model. By putting these questions to your users, you will reduce the need for changes at a later stage in the project. Here are some specific questions that you can ask yourself at first, and then ask the business stakeholders if the answer is unclear:  
   
--   For each class in the requirements model, ask "What use case creates instances of this class?" For example, in an online meal-ordering service, you might ask, "What use case creates instances of the Restaurant Menu class?" This would lead to a discussion of how a new restaurant is signed up to the service and contributes its menu. You can ask similar questions about what creates or changes attributes and associations.  
+- For each class in the requirements model, ask "What use case creates instances of this class?" For example, in an online meal-ordering service, you might ask, "What use case creates instances of the Restaurant Menu class?" This would lead to a discussion of how a new restaurant is signed up to the service and contributes its menu. You can ask similar questions about what creates or changes attributes and associations.  
   
--   For each use case in the requirements model, try to describe the outcome, or postcondition, of each use case in words provided by the class diagrams. It is frequently useful to show the effect of a use case by sketching instances of the classes before and after an occurrence of the use case. For example, if the use case postcondition says "a menu item is added to the customer's order," sketch instances of the Order and Menu Item classes. Show the effects of the use case, such as a new link or a new object, in a different color or in a new drawing. This frequently leads to discussions about what information is necessary in the model. Although requirements classes are not directly concerned with implementation, they do describe the information that your system will need to store and transmit.  
+- For each use case in the requirements model, try to describe the outcome, or postcondition, of each use case in words provided by the class diagrams. It is frequently useful to show the effect of a use case by sketching instances of the classes before and after an occurrence of the use case. For example, if the use case postcondition says "a menu item is added to the customer's order," sketch instances of the Order and Menu Item classes. Show the effects of the use case, such as a new link or a new object, in a different color or in a new drawing. This frequently leads to discussions about what information is necessary in the model. Although requirements classes are not directly concerned with implementation, they do describe the information that your system will need to store and transmit.  
   
--   Ask about the constraints on attributes and associations, especially constraints involving more than one attribute or association.  
+- Ask about the constraints on attributes and associations, especially constraints involving more than one attribute or association.  
   
--   Ask about valid and invalid sequences of use cases, drawing sequence or activity diagrams to illustrate them.  
+- Ask about valid and invalid sequences of use cases, drawing sequence or activity diagrams to illustrate them.  
   
- By examining the relationships between the views that different diagrams provide, you can quickly understand the main concepts with which your users work, and help them to understand what they need from the system. You also reach a better understanding of what requirements the stakeholders are least certain about. You can plan to develop those features, at least in simplified form, at an early stage of the project, to allow users to experiment with them.  
+  By examining the relationships between the views that different diagrams provide, you can quickly understand the main concepts with which your users work, and help them to understand what they need from the system. You also reach a better understanding of what requirements the stakeholders are least certain about. You can plan to develop those features, at least in simplified form, at an early stage of the project, to allow users to experiment with them.  
   
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   

@@ -35,15 +35,15 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
   
  The Energy Consumption profiler uses these definitions of *power* and *energy*:  
   
--   *Power* measures the rate that force is used to perform work that is done in a period of time. In electrical science, the standard unit of power is a *watt*, which is defined as the rate at which work is done when one ampere of current flows through an electrical potential difference of one volt. In the **Power Usage** graph, the units are displayed as milliwatts **mW** which are one thousandth  of a watt.  
+- *Power* measures the rate that force is used to perform work that is done in a period of time. In electrical science, the standard unit of power is a *watt*, which is defined as the rate at which work is done when one ampere of current flows through an electrical potential difference of one volt. In the **Power Usage** graph, the units are displayed as milliwatts **mW** which are one thousandth  of a watt.  
   
-     Note that because power is a rate, it has a direction (the work can increase or decrease in a period of time) and a speed (the amount that the work increases or decreases).  
+   Note that because power is a rate, it has a direction (the work can increase or decrease in a period of time) and a speed (the amount that the work increases or decreases).  
   
--   *Energy* measures the total amount of power, either as a capacity or potential, as in the power capacity of a battery, or as the total amounted of power expended over a period of time. The unit of energy is a watt-hour, the amount of power of one watt constantly applied for one hour. In the **Energy Summary**, the units are displayed as milliwatt-hours **mW-h**.  
+- *Energy* measures the total amount of power, either as a capacity or potential, as in the power capacity of a battery, or as the total amounted of power expended over a period of time. The unit of energy is a watt-hour, the amount of power of one watt constantly applied for one hour. In the **Energy Summary**, the units are displayed as milliwatt-hours **mW-h**.  
   
- ![Energy capacity, power used, total energy used](../profiling/media/energyprof-capcitypowerused.png "ENERGYPROF_CapcityPowerUsed")  
+  ![Energy capacity, power used, total energy used](../profiling/media/energyprof-capcitypowerused.png "ENERGYPROF_CapcityPowerUsed")  
   
- For example, a fully charged battery in a tablet has a certain amount of stored energy. As the energy is used to perform tasks such as communicating over a network, calculating values, or displaying graphics, the power of the battery dissipates at different rates. For any period of time, the total of the power consumed is also measured by energy.  
+  For example, a fully charged battery in a tablet has a certain amount of stored energy. As the energy is used to perform tasks such as communicating over a network, calculating values, or displaying graphics, the power of the battery dissipates at different rates. For any period of time, the total of the power consumed is also measured by energy.  
   
 ##  <a name="BKMK_Identify_scenarios_with_user_marks"></a> Identify scenarios with user marks  
  You can add *user marks* to your profiling data to help identify areas in the timeline ruler.  
@@ -59,8 +59,8 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
  When the method executes, a user mark is added to the profiling data along with a message.  
   
 > [!NOTE]
->  -   Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)() (Windows.Foundation.Diagnostics.LoggingChannel.Dispose() in C# and VB) when you are finished with a logging channel.  
-> -   Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
+> - Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)() (Windows.Foundation.Diagnostics.LoggingChannel.Dispose() in C# and VB) when you are finished with a logging channel.  
+>   -   Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
  See the Windows SDK Sample [LoggingSession Sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
   
@@ -80,9 +80,9 @@ if (performance && performance.mark) {
  To obtain the good estimates, you’ll want to profile the energy use of the app on a low-powered device that is being powered by its batteries. Because Visual Studio does not run on most of these devices, you’ll need to connect your Visual Studio computer to the device using the Visual Studio remote tools. To connect to a remote device, you need to configure both the Visual Studio project and the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) for more information.  
   
 > [!TIP]
->  -   We don’t recommend energy profiling on the Windows Store simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
-> -   Profile on the target device while it is powered by its batteries.  
-> -   Close other apps that might use the same resources (network, CPU, or display).  
+> - We don’t recommend energy profiling on the Windows Store simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
+>   -   Profile on the target device while it is powered by its batteries.  
+>   -   Close other apps that might use the same resources (network, CPU, or display).  
   
 ##  <a name="BKMK_Collect_energy_profile_data_for_your_app"></a> Collect energy profile data for your app  
   
@@ -106,15 +106,15 @@ if (performance && performance.mark) {
 ##  <a name="BKMK_Collect_energy_profile_data_for_an_installed_app"></a> Collect energy profile data for an installed app  
  The Energy Consumption tool can only be run on Window Store 8.1 apps that are launched from a Visual Studio solution or are installed from the Windows store. When a solution is open in Visual Studio, the default target is the **Startup Project**. To target an installed app:  
   
-1.  Choose **Change Target** and then choose **Installed App**.  
+1. Choose **Change Target** and then choose **Installed App**.  
   
-2.  From the **Select Installed App Package** list, choose the target.  
+2. From the **Select Installed App Package** list, choose the target.  
   
-3.  Choose **Energy Consumption** on the diagnostics hub page.  
+3. Choose **Energy Consumption** on the diagnostics hub page.  
   
-4.  Choose **Start** to begin profiling.  
+4. Choose **Start** to begin profiling.  
   
- To stop profiling, switch back to Visual Studio (Alt + Tab) and choose **Stop collection** on the Diagnostic hub page.  
+   To stop profiling, switch back to Visual Studio (Alt + Tab) and choose **Stop collection** on the Diagnostic hub page.  
   
 ##  <a name="BKMK_Analyze_energy_profile_data"></a> Analyze energy profile data  
  The energy profile data is displayed in Visual Studio document window:  

@@ -27,13 +27,13 @@ This method obtains an interface to the server that this port is on.
   
 ```cpp  
 HRESULT GetServer(  
-   IDebugCoreServer3** ppServer  
+   IDebugCoreServer3** ppServer  
 );  
 ```  
   
 ```csharp  
 int GetServer(  
-   out IDebugCoreServer3 ppServer  
+   out IDebugCoreServer3 ppServer  
 );  
 ```  
   

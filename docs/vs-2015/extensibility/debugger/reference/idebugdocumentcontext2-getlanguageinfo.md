@@ -27,15 +27,15 @@ Gets the language associated with this document context.
   
 ```cpp#  
 HRESULT GetLanguageInfo(   
-   BSTR* pbstrLanguage,  
-   GUID* pguidLanguage  
+   BSTR* pbstrLanguage,  
+   GUID* pguidLanguage  
 );  
 ```  
   
 ```csharp  
 int GetLanguageInfo(   
-   out string pbstrLanguage,  
-   out Guid   pguidLanguage  
+   out string pbstrLanguage,  
+   out Guid   pguidLanguage  
 );  
 ```  
   

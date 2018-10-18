@@ -88,11 +88,11 @@ manager: "ghogen"
 ## Additive and Multiple Definitions  
  When you add definitions or use multiple ItemDefinitionGroups, remember the following:  
   
--   Additional metadata specification is added to the type.  
+- Additional metadata specification is added to the type.  
   
--   The last specification takes precedence.  
+- The last specification takes precedence.  
   
- When you have multiple ItemDefinitionGroups, each subsequent specification adds its metadata to the previous definition. For example:  
+  When you have multiple ItemDefinitionGroups, each subsequent specification adds its metadata to the previous definition. For example:  
   
 ```  
 <ItemDefinitionGroup>  

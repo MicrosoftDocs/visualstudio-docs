@@ -27,13 +27,13 @@ Gets the scope of the disassembly stream.
   
 ```cpp#  
 HRESULT GetScope(   
-   DISASSEMBLY_STREAM_SCOPE* pdwScope  
+   DISASSEMBLY_STREAM_SCOPE* pdwScope  
 );  
 ```  
   
 ```csharp  
 int GetScope(   
-   out enum_ DISASSEMBLY_STREAM_SCOPE pdwScope  
+   out enum_ DISASSEMBLY_STREAM_SCOPE pdwScope  
 );  
 ```  
   

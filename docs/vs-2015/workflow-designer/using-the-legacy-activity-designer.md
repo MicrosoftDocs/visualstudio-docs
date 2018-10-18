@@ -28,17 +28,17 @@ This topic describes how to use the activity designer in the legacy [!INCLUDE[wf
 ## Creating a Custom Activity  
  Follow these steps to create a custom activity using the Activity Designer:  
   
-1.  On the **Project** menu, click **Add Activity**.  
+1. On the **Project** menu, click **Add Activity**.  
   
-2.  Select the **Activity** or **Activity (with code separation)** template.  
+2. Select the **Activity** or **Activity (with code separation)** template.  
   
-    1.  Use the **Activity** template to create an activity with the activity definition and the user code in same code file.  
+   1.  Use the **Activity** template to create an activity with the activity definition and the user code in same code file.  
   
-    2.  Use the **Activity (with code separation)** template to create an activity with the activity definition expressed as workflow markup and the user code in a separate code file.  
+   2.  Use the **Activity (with code separation)** template to create an activity with the activity definition expressed as workflow markup and the user code in a separate code file.  
   
-3.  Type an activity name or keep the default name, and then click **Add**.  
+3. Type an activity name or keep the default name, and then click **Add**.  
   
- You can also create a set of custom activities by creating a new project of type **Workflow Activity Library**. For more information about this project type, see [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to-create-a-workflow-activity-library-legacy.md).  
+   You can also create a set of custom activities by creating a new project of type **Workflow Activity Library**. For more information about this project type, see [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to-create-a-workflow-activity-library-legacy.md).  
   
 ## Configuring an Activity  
  While the Activity Designer is active, you can use the property browser to configure the properties listed in the following table.  

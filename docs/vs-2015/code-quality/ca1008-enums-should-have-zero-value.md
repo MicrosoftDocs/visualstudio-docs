@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1008: Enums should have zero value
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|EnumsShouldHaveZeroValue|

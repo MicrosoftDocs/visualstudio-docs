@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1035: ICollection implementations have strongly typed members
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ICollectionImplementationsHaveStronglyTypedMembers|

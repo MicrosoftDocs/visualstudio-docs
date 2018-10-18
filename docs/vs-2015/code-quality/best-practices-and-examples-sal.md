@@ -20,7 +20,7 @@ manager: "ghogen"
 
 Here are some ways to get the most out of the Source Code Annotation Language (SAL) and avoid some common problems.  
   
-## _In\_  
+## *In\\*  
  If the function is supposed to write to the element, use `_Inout_` instead of `_In_`. This is particularly relevant in cases of automated conversion from older macros to SAL. Prior to SAL, many programmers used macros as comments—macros that were named `IN`, `OUT`, `IN_OUT`, or variants of these names. Although we recommend that you convert these macros to SAL, we also urge you to be careful when you convert them because the code might have changed since the original prototype was written and the old macro might no longer reflect what the code does. Be especially careful about the `OPTIONAL` comment macro because it is frequently placed incorrectly—for example, on the wrong side of a comma.  
   
 ```cpp  
@@ -44,8 +44,8 @@ void Func2(_Inout_ PCHAR p1)
 }  
 ```  
   
-## _opt\_  
- If the caller is not allowed to pass in a null pointer, use `_In_` or `_Out_` instead of `_In_opt_` or `_Out_opt_`. This applies even to a function that checks its parameters and returns an error if it is NULL when it should not be. Although having a function check its parameter for unexpected NULL and return gracefully is a good defensive coding practice, it does not mean that the parameter annotation can be of an optional type (_*Xxx*_opt\_).  
+## *opt\\*  
+ If the caller is not allowed to pass in a null pointer, use `_In_` or `_Out_` instead of `_In_opt_` or `_Out_opt_`. This applies even to a function that checks its parameters and returns an error if it is NULL when it should not be. Although having a function check its parameter for unexpected NULL and return gracefully is a good defensive coding practice, it does not mean that the parameter annotation can be of an optional type (**Xxx*_opt\\*).  
   
 ```cpp  
   
@@ -63,10 +63,10 @@ void Func2(_Out_ int *p1)
   
 ```  
   
-## _Pre_defensive\_ and _Post_defensive\_  
+## *Pre_defensive\\* and *Post_defensive\\*  
  If a function appears at a trust boundary, we recommend that you use the `_Pre_defensive_` annotation.  The "defensive" modifier modifies certain annotations to indicate that, at the point of call, the interface should be checked strictly, but in the implementation body it should assume that incorrect parameters might be passed. In that case, `_In_ _Pre_defensive_` is preferred at a trust boundary to indicate that although a caller will get an error if it attempts to pass NULL, the function body will be analyzed as if the parameter might be NULL, and any attempts to de-reference the pointer without first checking it for NULL will be flagged.  A `_Post_defensive_` annotation is also available, for use in callbacks where the trusted party is assumed to be the caller and the untrusted code is the called code.  
   
-## _Out_writes\_  
+## *Out_writes\\*  
  The following example demonstrates a common misuse of `_Out_writes_`.  
   
 ```cpp  
@@ -100,7 +100,7 @@ void Func3(_Out_writes_(size) PSTR pb,
   
 ```  
   
-## _Out\_ PSTR  
+## *Out\\* PSTR  
  The use of `_Out_ PSTR` is almost always wrong. This is interpreted as having an output parameter that points to a character buffer and it is NULL-terminated.  
   
 ```cpp  
@@ -115,7 +115,7 @@ void Func2(_Out_writes_(n) PSTR wszFileName, size_t n);
   
  An annotation like `_In_ PCSTR` is common and useful. It points to an input string that has NULL termination because the precondition of `_In_` allows the recognition of a NULL-terminated string.  
   
-## _In\_ WCHAR* p  
+## *In\\* WCHAR* p  
  `_In_ WCHAR* p` says that there is an input pointer `p` that points to one character. However, in most cases, this is probably not the specification that is intended. Instead, what is probably intended is the specification of a NULL-terminated array; to do that, use `_In_ PWSTR`.  
   
 ```cpp  
@@ -146,7 +146,7 @@ BOOL StrEquals2(_In_ PSTR p1, _In_ PSTR p2)
   
 ```  
   
-## _Out_range\_  
+## *Out_range\\*  
  If the parameter is a pointer and you want to express the range of the value of the element that is pointed to by the pointer, use `_Deref_out_range_` instead of `_Out_range_`. In the following example, the range of *pcbFilled is expressed, not pcbFilled.  
   
 ```cpp  
@@ -169,7 +169,7 @@ void Func2(
   
  `_Deref_out_range_(0, cbSize)` is not strictly required for some tools because it can be inferred from `_Out_writes_to_(cbSize,*pcbFilled)`, but it is shown here for completeness.  
   
-## Wrong Context in _When\_  
+## Wrong Context in *When\\*  
  Another common mistake is to use post-state evaluation for preconditions. In the following example, `_Requires_lock_held_` is a precondition.  
   
 ```cpp  
@@ -186,7 +186,7 @@ int Func2(_In_ MyData *p, int flag);
   
  The expression `result` refers to a post-state value that is not available in pre-state.  
   
-## TRUE in _Success\_  
+## TRUE in *Success\\*  
  If the function succeeds when the return value is nonzero, use `return != 0` as the success condition instead of `return == TRUE`. Nonzero does not necessarily mean equivalence to the actual value that the compiler provides for `TRUE`. The parameter to `_Success_` is an expression, and the following expressions are evaluated as equivalent: `return != 0`, `return != false`, `return != FALSE`, and `return` with no parameters or comparisons.  
   
 ```cpp  

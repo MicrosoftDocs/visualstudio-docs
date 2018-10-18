@@ -27,15 +27,15 @@ Notifies the debug package that text attributes have been updated in the documen
   
 ```cpp#  
 HRESULT onUpdateTextAttributes(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToUpdate  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToUpdate  
 );  
 ```  
   
 ```csharp  
 int onUpdateTextAttributes(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToUpdate  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToUpdate  
 );  
 ```  
   

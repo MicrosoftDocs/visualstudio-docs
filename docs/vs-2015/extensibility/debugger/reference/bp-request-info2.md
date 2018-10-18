@@ -27,37 +27,37 @@ Contains the information required to implement a breakpoint, including vendor GU
   
 ```cpp#  
 typedef struct _BP_REQUEST_INFO2 {  
-   BPREQI_FIELDS   dwFields;  
-   GUID            guidLanguage;  
-   BP_LOCATION     bpLocation;  
-   IDebugProgram2* pProgram;  
-   BSTR            bstrProgramName;  
-   IDebugThread2*  pThread;  
-   BSTR            bstrThreadName;  
-   BP_CONDITION    bpCondition;  
-   BP_PASSCOUNT    bpPassCount;  
-   BP_FLAGS        dwFlags;  
-   GUID            guidVendor;  
-   BSTR            bstrConstraint;  
-   BSTR            bstrTracepoint;  
+   BPREQI_FIELDS   dwFields;  
+   GUID            guidLanguage;  
+   BP_LOCATION     bpLocation;  
+   IDebugProgram2* pProgram;  
+   BSTR            bstrProgramName;  
+   IDebugThread2*  pThread;  
+   BSTR            bstrThreadName;  
+   BP_CONDITION    bpCondition;  
+   BP_PASSCOUNT    bpPassCount;  
+   BP_FLAGS        dwFlags;  
+   GUID            guidVendor;  
+   BSTR            bstrConstraint;  
+   BSTR            bstrTracepoint;  
 } BP_REQUEST_INFO2;  
 ```  
   
 ```csharp  
 public struct BP_REQUEST_INFO2 {  
-   public uint           dwFields;  
-   public Guid           guidLanguage;  
-   public BP_LOCATION    bpLocation;  
-   public IDebugProgram2 pProgram;  
-   public string         bstrProgramName;  
-   public IDebugThread2  pThread;  
-   public string         bstrThreadName;  
-   public BP_CONDITION   bpCondition;  
-   public BP_PASSCOUNT   bpPassCount;  
-   public uint           dwFlags;  
-   public Guid           guidVendor;  
-   public string         bstrConstraint;  
-   public string         bstrTracepoint;  
+   public uint           dwFields;  
+   public Guid           guidLanguage;  
+   public BP_LOCATION    bpLocation;  
+   public IDebugProgram2 pProgram;  
+   public string         bstrProgramName;  
+   public IDebugThread2  pThread;  
+   public string         bstrThreadName;  
+   public BP_CONDITION   bpCondition;  
+   public BP_PASSCOUNT   bpPassCount;  
+   public uint           dwFlags;  
+   public Guid           guidVendor;  
+   public string         bstrConstraint;  
+   public string         bstrTracepoint;  
 };  
 ```  
   

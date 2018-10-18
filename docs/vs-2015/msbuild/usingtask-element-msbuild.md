@@ -82,14 +82,14 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
   
 ```  
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
-       <ParameterGroup>  
-              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
-              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
-              ...  
+       <ParameterGroup>  
+              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
+              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
+              ...  
 </ParameterGroup>  
-       <TaskBody>  
-      ... Task factory-specific data ...  
-       </TaskBody>  
+       <TaskBody>  
+      ... Task factory-specific data ...  
+       </TaskBody>  
 </UsingTask>  
 ```  
   

@@ -44,29 +44,29 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To create a diagram and add it to a project  
   
-1.  On the **Architecture** menu, choose **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, choose **New UML or Layer Diagram**.  
   
-2.  In the **Add New Diagram** dialog box, click the type of modeling diagram that you want.  
+2. In the **Add New Diagram** dialog box, click the type of modeling diagram that you want.  
   
-     ![Add New Diagram dialog](../modeling/media/uml-adddiagram.png "UML_AddDiagram")  
+    ![Add New Diagram dialog](../modeling/media/uml-adddiagram.png "UML_AddDiagram")  
   
-3.  Type a name for the new diagram.  
+3. Type a name for the new diagram.  
   
-4.  In the **Add to modeling project** box:  
+4. In the **Add to modeling project** box:  
   
-    -   Select a modeling project that already exists in your solution, and then click **OK**.  
+   - Select a modeling project that already exists in your solution, and then click **OK**.  
   
      \- or -  
   
-    1.  Select **Create a new modeling project**, and then click **OK**.  
+   1.  Select **Create a new modeling project**, and then click **OK**.  
   
-    2.  In the **Create New Modeling Project** dialog box, type a name and location for the new project, and then click **OK**.  
+   2.  In the **Create New Modeling Project** dialog box, type a name and location for the new project, and then click **OK**.  
   
-         ![Create New Modeling Project dialog](../modeling/media/uml-createmodel.png "UML_CreateModel")  
+        ![Create New Modeling Project dialog](../modeling/media/uml-createmodel.png "UML_CreateModel")  
   
-         If your solution is open, the new project is added to the solution. If you have no open solution, you can type a name for a new solution.  
+        If your solution is open, the new project is added to the solution. If you have no open solution, you can type a name for a new solution.  
   
- If you already have a modeling project, you can also use the following procedure.  
+   If you already have a modeling project, you can also use the following procedure.  
   
 #### To add a diagram to an existing modeling project  
   

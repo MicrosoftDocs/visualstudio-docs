@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the user-defined data type is a virtual 
   
 ```cpp#  
 HRESULT get_virtualBaseClass (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

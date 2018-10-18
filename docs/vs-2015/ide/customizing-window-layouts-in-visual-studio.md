@@ -59,21 +59,21 @@ In Visual Studio you can customize the position, size and behavior of windows to
   
  You can arrange windows in the following ways:  
   
--   Pin document windows to the left of the tab well.  
+- Pin document windows to the left of the tab well.  
   
--   Tab-dock windows to the editing frame.  
+- Tab-dock windows to the editing frame.  
   
--   Dock tool windows to the edge of a frame in the IDE.  
+- Dock tool windows to the edge of a frame in the IDE.  
   
--   Float document or tool windows over or outside the IDE.  
+- Float document or tool windows over or outside the IDE.  
   
--   Hide tool windows along the edge of the IDE.  
+- Hide tool windows along the edge of the IDE.  
   
--   Display windows on different monitors.  
+- Display windows on different monitors.  
   
--   Reset window placement to the default layout or to a saved custom layout.  
+- Reset window placement to the default layout or to a saved custom layout.  
   
- Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.  
+  Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.  
   
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  

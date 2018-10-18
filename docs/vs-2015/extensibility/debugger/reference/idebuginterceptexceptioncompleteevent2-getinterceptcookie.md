@@ -27,13 +27,13 @@ Called when the processing of an intercepted exception has completed.
   
 ```cpp#  
 HRESULT GetInterceptCookie(  
-   UINT64* pqwCookie  
+   UINT64* pqwCookie  
 );  
 ```  
   
 ```csharp  
 int GetInterceptCookie(  
-   out ulong pqwCookie  
+   out ulong pqwCookie  
 );  
 ```  
   

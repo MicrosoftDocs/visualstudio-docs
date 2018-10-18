@@ -22,43 +22,43 @@ manager: "ghogen"
 
 When a Visual Studio shell-based application starts, it calls the Start entry point of the Visual Studio shell. The following settings can be overridden in the call to the Start entry point of the shell. For a description of each setting, see [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md).  
   
--   AddinsAllowed  
+- AddinsAllowed  
   
--   AllowsDroppedFilesOnMainWindow  
+- AllowsDroppedFilesOnMainWindow  
   
--   AppName  
+- AppName  
   
--   CommandLineLogo  
+- CommandLineLogo  
   
--   DefaultHomePage  
+- DefaultHomePage  
   
--   DefaultProjectsLocation  
+- DefaultProjectsLocation  
   
--   DefaultSearchPage  
+- DefaultSearchPage  
   
--   DefaultUserFilesFolderRoot  
+- DefaultUserFilesFolderRoot  
   
--   DisableOutputWindow  
+- DisableOutputWindow  
   
--   HideMiscellaneousFilesByDefault  
+- HideMiscellaneousFilesByDefault  
   
--   HideSolutionConcept  
+- HideSolutionConcept  
   
--   NewProjDlgInstalledTemplatesHdr  
+- NewProjDlgInstalledTemplatesHdr  
   
--   NewProjDlgSlnTreeNodeTitle  
+- NewProjDlgSlnTreeNodeTitle  
   
--   SolutionFileCreatorIdentifier  
+- SolutionFileCreatorIdentifier  
   
--   SolutionFileExt  
+- SolutionFileExt  
   
--   UserFilesSubFolderName  
+- UserFilesSubFolderName  
   
--   UserOptsFileExt  
+- UserOptsFileExt  
   
- The Visual Studio Shell Isolated template creates a source file, *solutionName*.cpp, where *solutionName* is the solution name for the application. This file defines the main entry point for the application, the _tWinMain function. This function invokes the Start entry point of the shell.  
+  The Visual Studio Shell Isolated template creates a source file, *solutionName*.cpp, where *solutionName* is the solution name for the application. This file defines the main entry point for the application, the _tWinMain function. This function invokes the Start entry point of the shell.  
   
- You can change the behavior of the application by changing these settings when the application starts.  
+  You can change the behavior of the application by changing these settings when the application starts.  
   
 ## Parameters  
  The Start entry point of the Visual Studio shell defines five parameters. Do not change the first four parameters. The fifth parameter takes a settings override list. The Start entry point of the shell is called from the main entry point of an application.  

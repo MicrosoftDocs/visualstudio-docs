@@ -21,19 +21,19 @@ manager: "ghogen"
 
 In terms of the debugger architecture, a **process**:  
   
--   Is a container for a set of programs. It is closely analogous to a Windows process, which is a container for a set of threads.  
+- Is a container for a set of programs. It is closely analogous to a Windows process, which is a container for a set of threads.  
   
--   Can identify itself by name, identifier, or physical identifier.  
+- Can identify itself by name, identifier, or physical identifier.  
   
--   Can enumerate all running programs (and their threads).  
+- Can enumerate all running programs (and their threads).  
   
--   Can describe itself, the port it is running in, and the machine that contains it.  
+- Can describe itself, the port it is running in, and the machine that contains it.  
   
--   Can create one or more programs, terminate any of the programs it creates, or cause a program to stop.  
+- Can create one or more programs, terminate any of the programs it creates, or cause a program to stop.  
   
--   Is represented by an [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md) interface, which is created when the process is launched. A process is launched by either the session debug manager (SDM) or [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md).  
+- Is represented by an [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md) interface, which is created when the process is launched. A process is launched by either the session debug manager (SDM) or [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md).  
   
- The debug package can attach a debug engine (DE) to a process by calling [Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md). This means that the DE attaches to all possible programs running in the process that it can handle. For example, if the common language runtime DE attaches to a process, it attaches only to programs that are running managed code.  
+  The debug package can attach a debug engine (DE) to a process by calling [Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md). This means that the DE attaches to all possible programs running in the process that it can handle. For example, if the common language runtime DE attaches to a process, it attaches only to programs that are running managed code.  
   
 ## See Also  
  [Programs](../../extensibility/debugger/programs.md)   

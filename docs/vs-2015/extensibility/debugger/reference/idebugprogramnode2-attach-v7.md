@@ -28,17 +28,17 @@ DEPRECATED. DO NOT USE.
   
 ```cpp#  
 HRESULT Attach_V7 (   
-   IDebugProgram2*       pMDMProgram,  
-   IDebugEventCallback2* pCallback,  
-   DWORD                 dwReason  
+   IDebugProgram2*       pMDMProgram,  
+   IDebugEventCallback2* pCallback,  
+   DWORD                 dwReason  
 );  
 ```  
   
 ```csharp  
 int Attach_V7 (   
-   IDebugProgram2       pMDMProgram,  
-   IDebugEventCallback2 pCallback,  
-   uint                 dwReason  
+   IDebugProgram2       pMDMProgram,  
+   IDebugEventCallback2 pCallback,  
+   uint                 dwReason  
 );  
 ```  
   

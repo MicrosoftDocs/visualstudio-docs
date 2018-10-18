@@ -27,13 +27,13 @@ Gets a managed code object representing the value associated with this object.
   
 ```cpp  
 HRESULT GetICorDebugValue(  
-   IUnknown** ppUnk  
+   IUnknown** ppUnk  
 );  
 ```  
   
 ```csharp  
 int GetICorDebugValue(  
-   out object ppUnk  
+   out object ppUnk  
 );  
 ```  
   

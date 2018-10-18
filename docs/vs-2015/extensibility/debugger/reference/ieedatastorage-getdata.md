@@ -27,17 +27,17 @@ Retrieves the specified number of bytes from the object.
   
 ```cpp#  
 HRESULT GetData(  
-   ULONG  dataSize,  
-   ULONG* sizeGotten,  
-   BYTE*  data  
+   ULONG  dataSize,  
+   ULONG* sizeGotten,  
+   BYTE*  data  
 );  
 ```  
   
 ```csharp  
 int GetData(  
-   uint     dataSize,  
-   out uint sizeGotten,  
-   byte[]   data  
+   uint     dataSize,  
+   out uint sizeGotten,  
+   byte[]   data  
 );  
 ```  
   

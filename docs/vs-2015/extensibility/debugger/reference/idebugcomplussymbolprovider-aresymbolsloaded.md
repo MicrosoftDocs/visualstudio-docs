@@ -26,15 +26,15 @@ Determines if the debug symbols are loaded for the specified module given the ap
   
 ```cpp#  
 HRESULT AreSymbolsLoaded (  
-   ULONG32 ulAppDomainID,  
-   GUID    guidModule  
+   ULONG32 ulAppDomainID,  
+   GUID    guidModule  
 );  
 ```  
   
 ```csharp  
 int AreSymbolsLoaded (  
-   uint ulAppDomainID,  
-   Guid guidModule  
+   uint ulAppDomainID,  
+   Guid guidModule  
 );  
 ```  
   
