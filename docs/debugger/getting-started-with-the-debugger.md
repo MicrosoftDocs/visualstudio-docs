@@ -323,8 +323,8 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use the Run to Click feature](../debugger/media/get-started-run-to-click.png "Run to Click")
 
-    >  [!NOTE]
-    > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.
+   > [!NOTE]
+   > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.
 
 6. Click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
@@ -402,14 +402,14 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. While paused in the `foreach` loop (`for` loop in C++), click the **Call Stack** window, which is by default open in the lower right pane.
 
-1. Click **F11** a few times until you see the debugger pause in the `Circle.Draw` method in the code editor. Look at the **Call Stack** window.
+2. Click **F11** a few times until you see the debugger pause in the `Circle.Draw` method in the code editor. Look at the **Call Stack** window.
 
     ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
 
     The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Circle.Draw` or `Circle::Draw` method in this app). The second line shows that `Circle.Draw` was called from the `Main` method (`main` in C++), and so on.
 
-    >  [!NOTE]
-    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
+   > [!NOTE]
+   > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
 
     The call stack is a good way to examine and understand the execution flow of an app.
 

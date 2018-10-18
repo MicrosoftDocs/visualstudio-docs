@@ -22,7 +22,7 @@ Retrieves the virtual address (VA) of the block.
   
 ```C++  
 HRESULT get_virtualAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

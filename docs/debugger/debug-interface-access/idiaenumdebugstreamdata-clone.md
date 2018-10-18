@@ -22,7 +22,7 @@ Creates an enumerator that contains the same enumerated sequence as the current 
   
 ```C++  
 HRESULT Clone (   
-   IDiaEnumDebugStreamData** ppenum  
+   IDiaEnumDebugStreamData** ppenum  
 );  
 ```  
   

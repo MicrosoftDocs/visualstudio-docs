@@ -22,7 +22,7 @@ Retrieves the size of the stack frame in bytes.
   
 ```C++  
 HRESULT get_size (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

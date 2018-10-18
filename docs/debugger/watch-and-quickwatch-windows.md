@@ -92,7 +92,6 @@ static void Main(string[] args)
     list.Add("hello");
     list.Add("goodbye");
 }
-
 ```
 
 You should see something like the following image if you set a watch on the `Count` property of the list:
@@ -169,7 +168,6 @@ public class Program
          Console.WriteLine("done");
     }
 }
-
 ```
 
 You can add a reference to that `Person` object in the **Watch** window as follows:

@@ -22,7 +22,7 @@ Retrieves the rank (number of dimensions) of a FORTRAN multi-dimensional array.
   
 ```C++  
 HRESULT get_rank (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

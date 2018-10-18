@@ -22,7 +22,7 @@ Retrieves the language of the source.
   
 ```C++  
 HRESULT get_language (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

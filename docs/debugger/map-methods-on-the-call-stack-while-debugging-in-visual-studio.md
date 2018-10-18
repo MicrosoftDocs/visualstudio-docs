@@ -47,21 +47,21 @@ Here's a quick look at a code map:
 
  See:
 
--   [Video: Debug visually with Code Map debugger integration (Channel 9)](http://go.microsoft.com/fwlink/?LinkId=293418)
+- [Video: Debug visually with Code Map debugger integration (Channel 9)](http://go.microsoft.com/fwlink/?LinkId=293418)
 
--   [Map the call stack](#MapStack)
+- [Map the call stack](#MapStack)
 
--   [Make notes about the code](#MakeNotes)
+- [Make notes about the code](#MakeNotes)
 
--   [Update the map with the next call stack](#UpdateMap)
+- [Update the map with the next call stack](#UpdateMap)
 
--   [Add related code to the map](#AddRelatedCode)
+- [Add related code to the map](#AddRelatedCode)
 
--   [Find bugs using the map](#FindBugs)
+- [Find bugs using the map](#FindBugs)
 
--   [Q & A](#QA)
+- [Q & A](#QA)
 
- For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
+  For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
 
 ##  <a name="MapStack"></a> Map the call stack
 
@@ -126,63 +126,63 @@ Here's a quick look at a code map:
 
 ##  <a name="QA"></a> Q & A
 
--   **Not all calls appear on the map. Why?**
+- **Not all calls appear on the map. Why?**
 
-     By default, only your own code appears on the map. To see external code, turn it on in the **Call Stack** window:
+   By default, only your own code appears on the map. To see external code, turn it on in the **Call Stack** window:
 
-     ![Display external code using the Call Stack window](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")
+   ![Display external code using the Call Stack window](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")
 
-     or turn off **Enable Just My Code** in the Visual Studio debugging options:
+   or turn off **Enable Just My Code** in the Visual Studio debugging options:
 
-     ![Show external code using Options dialog](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")
+   ![Show external code using Options dialog](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")
 
--   **Does changing the map affect the code?**
+- **Does changing the map affect the code?**
 
-     Changing the map doesn't affect the code in any way. Feel free to rename, move, or remove anything on the map.
+   Changing the map doesn't affect the code in any way. Feel free to rename, move, or remove anything on the map.
 
--   **What does this message mean: "The diagram may be based on an older version of the code"?**
+- **What does this message mean: "The diagram may be based on an older version of the code"?**
 
-     The code might have changed after you last updated the map. For example, a call on the map might not exist in code anymore. Close the message, then try rebuilding the solution before updating the map again.
+   The code might have changed after you last updated the map. For example, a call on the map might not exist in code anymore. Close the message, then try rebuilding the solution before updating the map again.
 
--   **How do I control the map's layout?**
+- **How do I control the map's layout?**
 
-     Open the **Layout** menu on the map toolbar:
+   Open the **Layout** menu on the map toolbar:
 
-    -   Change the default layout.
+  -   Change the default layout.
 
-    -   To stop rearranging the map automatically, turn off **Automatically Layout when Debugging**.
+  -   To stop rearranging the map automatically, turn off **Automatically Layout when Debugging**.
 
-    -   To rearrange the map as little as possible when you add items, turn off **Incremental Layout**.
+  -   To rearrange the map as little as possible when you add items, turn off **Incremental Layout**.
 
--   **Can I share the map with others?**
+- **Can I share the map with others?**
 
-     You can export the map, send it to others if you have Microsoft Outlook, or save it to your solution so you can check it into Team Foundation version control.
+   You can export the map, send it to others if you have Microsoft Outlook, or save it to your solution so you can check it into Team Foundation version control.
 
-     ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "DebuggerMap_ShareWithOthers")
+   ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "DebuggerMap_ShareWithOthers")
 
--   **How do I stop the map from adding new call stacks automatically?**
+- **How do I stop the map from adding new call stacks automatically?**
 
-     Choose ![Button &#45; Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif "DebuggerMap_AutomaticUpdateIcon") on the map toolbar. To manually add the current call stack to the map, press **Ctrl** + **Shift** + **`**.
+   Choose ![Button &#45; Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif "DebuggerMap_AutomaticUpdateIcon") on the map toolbar. To manually add the current call stack to the map, press **Ctrl** + **Shift** + **`**.
 
-     The map will continue highlighting existing call stacks on the map while you're debugging.
+   The map will continue highlighting existing call stacks on the map while you're debugging.
 
--   **What do the item icons and arrows mean?**
+- **What do the item icons and arrows mean?**
 
-     To get more info about an item, move the mouse pointer over it and look at the item's tooltip. You can also look at the **Legend** to learn what each icon means.
+   To get more info about an item, move the mouse pointer over it and look at the item's tooltip. You can also look at the **Legend** to learn what each icon means.
 
-     ![What do icons on the call stack code map mean?](../debugger/media/debuggermap_showlegend.png "DebuggerMap_ShowLegend")
+   ![What do icons on the call stack code map mean?](../debugger/media/debuggermap_showlegend.png "DebuggerMap_ShowLegend")
 
- See:
+  See:
 
--   [Map the call stack](#MapStack)
+- [Map the call stack](#MapStack)
 
--   [Make notes about the code](#MakeNotes)
+- [Make notes about the code](#MakeNotes)
 
--   [Update the map with the next call stack](#UpdateMap)
+- [Update the map with the next call stack](#UpdateMap)
 
--   [Add related code to the map](#AddRelatedCode)
+- [Add related code to the map](#AddRelatedCode)
 
--   [Find bugs using the map](#FindBugs)
+- [Find bugs using the map](#FindBugs)
 
 ## See Also
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)

@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function has the [naked](/cpp/cpp/na
   
 ```C++  
 HRESULT get_isNaked(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

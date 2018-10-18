@@ -18,11 +18,11 @@ ms.workload:
 # Blocking time profile report
 The Profile Reports provide aggregate blocking time data for call stacks that are specific to each blocking category (for example "I/O" or "Synchronization"). The Preemption report lists the processes that preempted the current process together with the number of preemption instances. To build the blocking profile report, the tool collects blocking API calls and accumulates them into a tree of call stacks. Data that's shown in these reports varies by the current time range, by hidden threads, and by the following two filters that may be applied:  
   
--   If Just My Code is selected, only stack frames that have user code are presented, plus one level below the user code.  
+- If Just My Code is selected, only stack frames that have user code are presented, plus one level below the user code.  
   
--   If the Noise reduction value is set, collated stacks that have less than the specified frequency are skipped.  
+- If the Noise reduction value is set, collated stacks that have less than the specified frequency are skipped.  
   
- Expand any call-tree entry to find the line of code in which blocking time is spent. To locate the line of source for an entry, on its shortcut menu, choose **View Source**. To locate the line of code that called this one, on the shortcut menu, choose **View Call Sites**. If only one call site is available, the command connects to the highlighted line of code for the call site. If multiple call sites are available, the command opens a dialog box in which you can select an entry and then choose the **Go to source** button to locate the highlighted call site. It's often most useful to view source code for the call site that has the most instances, the most time, or both.  
+  Expand any call-tree entry to find the line of code in which blocking time is spent. To locate the line of source for an entry, on its shortcut menu, choose **View Source**. To locate the line of code that called this one, on the shortcut menu, choose **View Call Sites**. If only one call site is available, the command connects to the highlighted line of code for the call site. If multiple call sites are available, the command opens a dialog box in which you can select an entry and then choose the **Go to source** button to locate the highlighted call site. It's often most useful to view source code for the call site that has the most instances, the most time, or both.  
   
 ## Blocking time report columns  
  The following table shows the columns for each blocking time report.  

@@ -22,7 +22,7 @@ Retrieves the type of a virtual base table pointer.
   
 ```C++  
 HRESULT get_virtualBaseTableType(  
-   IDiaSymbol *pRetVal  
+   IDiaSymbol *pRetVal  
 };  
 ```  
   

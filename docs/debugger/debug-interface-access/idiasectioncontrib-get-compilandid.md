@@ -22,7 +22,7 @@ Retrieves the compiland identifier for the section.
   
 ```C++  
 HRESULT get_compilandId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

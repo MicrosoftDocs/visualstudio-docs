@@ -211,30 +211,30 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 #### To start debugging  
   
-1.  Click in the left gutter of the `Thread.Sleep` or `this_thread::sleep_for` statement to insert a new breakpoint.  
+1. Click in the left gutter of the `Thread.Sleep` or `this_thread::sleep_for` statement to insert a new breakpoint.  
   
-     In the gutter on the left side of the source code editor, a red circle appears. This indicates that a breakpoint is now set at this location. 
+    In the gutter on the left side of the source code editor, a red circle appears. This indicates that a breakpoint is now set at this location. 
   
-2.  On the **Debug** menu, click **Start Debugging** (**F5**).  
+2. On the **Debug** menu, click **Start Debugging** (**F5**).  
   
-     Visual Studio builds the solution, the app starts to run with the debugger attached, and then the app stops at the breakpoint.  
+    Visual Studio builds the solution, the app starts to run with the debugger attached, and then the app stops at the breakpoint.  
   
-    > [!NOTE]
-    > If you switch focus to the console window, click in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window to return focus to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+   > [!NOTE]
+   > If you switch focus to the console window, click in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window to return focus to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-4.  In the source code editor, locate the line that contains the breakpoint:  
+3. In the source code editor, locate the line that contains the breakpoint:  
   
-    ```csharp  
-    Thread.Sleep(3000);  
-    ```  
+   ```csharp  
+   Thread.Sleep(3000);  
+   ```  
   
-    ```C++  
-    this_thread::sleep_for(chrono::seconds(3)); 
-    ```
+   ```C++  
+   this_thread::sleep_for(chrono::seconds(3)); 
+   ```
 
-    ```VB
-    Thread.Sleep(3000)
-    ```    
+   ```VB
+   Thread.Sleep(3000)
+   ```    
   
 #### <a name="ShowThreadsInSource"></a>To discover the thread marker  
 

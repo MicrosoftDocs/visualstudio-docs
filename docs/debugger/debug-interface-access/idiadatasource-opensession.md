@@ -22,7 +22,7 @@ Opens a session for querying symbols.
   
 ```C++  
 HRESULT openSession (   
-   IDiaSession** ppSession  
+   IDiaSession** ppSession  
 );  
 ```  
   

@@ -22,7 +22,7 @@ Retrieves the number of valid address ranges associated with the local symbol.
   
 ```C++  
 HRESULT get_countLiveRanges (   
-   DWORD* count  
+   DWORD* count  
 );  
 ```  
   

@@ -40,9 +40,9 @@ The Thread Details view presents a timeline graph of the blocking events in the 
   
 #### To view or edit the source code of a function in the call stack  
   
--   In the **Call Stack** window, click the function name.  
+- In the **Call Stack** window, click the function name.  
   
- The function source code must be part of the current project.  
+  The function source code must be part of the current project.  
   
 #### To view the contention events of a resource in all threads in the profiling run  
   

@@ -26,10 +26,10 @@ The <xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> task merges
   
 ## Task parameters  
   
-|Parameter|Description|  
-|---------------|-----------------|  
-|`GeneratedLocalizationFiles`|Required **ITaskItem[]** parameter.<br /><br /> Specifies the list of localization directives files for individual files in [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] binary format.|  
-|`OutputFile`|Required **String** output parameter.<br /><br /> Specifies the output path of the compiled localization-directives assembly.|  
+|          Parameter           |                                                                                                    Description                                                                                                    |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `GeneratedLocalizationFiles` | Required **ITaskItem[]** parameter.<br /><br /> Specifies the list of localization directives files for individual files in [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] binary format. |
+|         `OutputFile`         |                                           Required **String** output parameter.<br /><br /> Specifies the output path of the compiled localization-directives assembly.                                           |
   
 ## Remarks  
  You can add localization attributes and comments to [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] content. With [!INCLUDE[TLA#tla_wpf](../msbuild/includes/tlasharptla_wpf_md.md)] localization support, you can strip out localization attributes and comments, and put them in a *.loc* file that is separate from the generated assembly. You can do this by using the **LocalizationPropertyStorage** attribute. For more information about localization attributes and comments, and **LocalizationPropertyStorage**, see [Localization attributes and comments](/dotnet/framework/wpf/advanced/localization-attributes-and-comments).  

@@ -22,7 +22,7 @@ Retrieves the maximum number of bytes pushed on the stack in the frame.
   
 ```C++  
 HRESULT get_maxStack (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

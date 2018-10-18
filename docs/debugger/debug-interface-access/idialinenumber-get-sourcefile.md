@@ -22,7 +22,7 @@ Retrieves a reference to the source file.
   
 ```C++  
 HRESULT get_sourceFile (   
-   IDiaSourceFile** pRetVal  
+   IDiaSourceFile** pRetVal  
 );  
 ```  
   

@@ -22,7 +22,7 @@ Retrieves the frame type.
   
 ```C++  
 HRESULT get_type (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

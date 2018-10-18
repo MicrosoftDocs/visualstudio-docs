@@ -26,25 +26,25 @@ Building applications in Visual Studio for User Account Control (UAC) on Windows
 
 Visual Studio provides the following options for manifest generation:  
   
--   Use an embedded manifest. Embed UAC data in the application's executable file and run as a normal user.  
+- Use an embedded manifest. Embed UAC data in the application's executable file and run as a normal user.  
   
-     This is the default setting (unless you use ClickOnce). This setting supports the usual manner in which Visual Studio operates on Windows Vista, with the generation of both an internal and an external manifest using `AsInvoker`.  
+   This is the default setting (unless you use ClickOnce). This setting supports the usual manner in which Visual Studio operates on Windows Vista, with the generation of both an internal and an external manifest using `AsInvoker`.  
   
--   Use an external manifest. Generate an external manifest by using *app.manifest*.  
+- Use an external manifest. Generate an external manifest by using *app.manifest*.  
   
-     This generates only the external manifest by using the information in *app.manifest*. When you publish an application by using ClickOnce or Registration-Free COM, Visual Studio adds *app.manifest* to the project and then adds this option.  
+   This generates only the external manifest by using the information in *app.manifest*. When you publish an application by using ClickOnce or Registration-Free COM, Visual Studio adds *app.manifest* to the project and then adds this option.  
   
--   Use no manifest. Create the application without a manifest.  
+- Use no manifest. Create the application without a manifest.  
   
-     This approach is also known as *virtualization*. Use this option for compatibility with existing applications from earlier versions of Visual Studio.  
+   This approach is also known as *virtualization*. Use this option for compatibility with existing applications from earlier versions of Visual Studio.  
   
- The new properties are available on the **Application** page of the Project Designer (for Visual C# projects only) and in the MSBuild project file format.  
+  The new properties are available on the **Application** page of the Project Designer (for Visual C# projects only) and in the MSBuild project file format.  
   
- The method for configuring UAC manifest generation in the Visual Studio IDE differs depending on the project type (Visual C# or Visual Basic).  
+  The method for configuring UAC manifest generation in the Visual Studio IDE differs depending on the project type (Visual C# or Visual Basic).  
   
-   * For information about configuring Visual C# projects for manifest generation, see [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md).  
+  * For information about configuring Visual C# projects for manifest generation, see [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md).  
   
-   * For information about configuring Visual Basic projects for manifest generation, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
+  * For information about configuring Visual Basic projects for manifest generation, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
   
 ## See also  
  [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)   

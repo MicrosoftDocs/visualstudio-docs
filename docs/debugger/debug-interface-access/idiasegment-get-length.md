@@ -22,7 +22,7 @@ Retrieves the number of bytes in the segment.
   
 ```C++  
 HRESULT get_ length (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

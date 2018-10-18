@@ -22,7 +22,7 @@ Retrieves flag indicating whether private symbols were stripped from the symbol 
   
 ```C++  
 HRESULT get_isStripped(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

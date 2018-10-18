@@ -23,7 +23,7 @@ Retrieves the column number where the expression or statement begins.
 ```  
 [C++]  
 HRESULT get_columnNumber (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   
