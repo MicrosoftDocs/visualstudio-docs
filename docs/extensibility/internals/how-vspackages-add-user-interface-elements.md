@@ -84,15 +84,15 @@ A VSPackage can add user interface (UI) elements, for example, menus, toolbars, 
 #### Menus  
  Each menu is defined as a [Menu element](../../extensibility/menu-element.md) in the `Menus` section. Menus must have `guid`, `id`, and `priority` attributes, and a `Parent` element, and also the following additional attributes and children:  
   
--   A `type` attribute that specifies whether the menu should appear in the IDE as a kind of menu or as a toolbar.  
+- A `type` attribute that specifies whether the menu should appear in the IDE as a kind of menu or as a toolbar.  
   
--   A [Strings element](../../extensibility/strings-element.md) that contains a [ButtonText element](../../extensibility/buttontext-element.md), which specifies the title of the menu in the IDE, and a [CommandName element](../../extensibility/commandname-element.md), which specifies the name that is used in the **Command** window to access the menu.  
+- A [Strings element](../../extensibility/strings-element.md) that contains a [ButtonText element](../../extensibility/buttontext-element.md), which specifies the title of the menu in the IDE, and a [CommandName element](../../extensibility/commandname-element.md), which specifies the name that is used in the **Command** window to access the menu.  
   
--   Optional flags. A [CommandFlag element](../../extensibility/command-flag-element.md) may appear in a menu definition to change its appearance or behavior in the IDE.  
+- Optional flags. A [CommandFlag element](../../extensibility/command-flag-element.md) may appear in a menu definition to change its appearance or behavior in the IDE.  
   
- Every `Menu` element must have a group as its parent, unless it is a dockable element such as a toolbar. A dockable menu is its own parent. For more information about menus and values for the `type` attribute, see the [Menu element](../../extensibility/menu-element.md) documentation.  
+  Every `Menu` element must have a group as its parent, unless it is a dockable element such as a toolbar. A dockable menu is its own parent. For more information about menus and values for the `type` attribute, see the [Menu element](../../extensibility/menu-element.md) documentation.  
   
- The following example shows a menu that appears on the Visual Studio menu bar, next to the **Tools** menu.  
+  The following example shows a menu that appears on the Visual Studio menu bar, next to the **Tools** menu.  
   
 ```xml  
 <Menu guid="guidTopLevelMenuCmdSet"  
@@ -153,11 +153,11 @@ priority="0x0100" type="Menu">
 ##### Combos  
  Combos are defined in the `Combos` section. Each `Combo` element represents a drop-down list box in the IDE. The list box may or may not be writable by users, depending on the value of the `type` attribute of the combo. Combos have the same elements and behavior that buttons have, and can also have the following additional attributes:  
   
--   A `defaultWidth` attribute that specifies pixel width.  
+- A `defaultWidth` attribute that specifies pixel width.  
   
--   An `idCommandList` attribute that specifies a list that contains the items that are displayed in the list box. The command list must be declared in the same `GuidSymbol` node that contains the combo.  
+- An `idCommandList` attribute that specifies a list that contains the items that are displayed in the list box. The command list must be declared in the same `GuidSymbol` node that contains the combo.  
   
- The following example defines a combo element.  
+  The following example defines a combo element.  
   
 ```xml  
 <Combos>  
@@ -284,17 +284,17 @@ priority="0x0100" type="Menu">
 ## Interface element appearance  
  Considerations for selecting and positioning command elements are as follows:  
   
--   [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] offers many UI elements that appear differently depending on placement.  
+- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] offers many UI elements that appear differently depending on placement.  
   
--   A UI element that is defined by using the `DefaultInvisible` flag will not be displayed in the IDE unless it is either displayed by its VSPackage implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus%2A> method, or associated with a particular UI context in the `VisibilityConstraints` section.  
+- A UI element that is defined by using the `DefaultInvisible` flag will not be displayed in the IDE unless it is either displayed by its VSPackage implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus%2A> method, or associated with a particular UI context in the `VisibilityConstraints` section.  
   
--   Even a successfully positioned command may not be displayed. This is because the IDE automatically hides or displays some commands, depending on interfaces that the VSPackage has (or has not) implemented. For example, a VSPackage's implementation of some build interfaces causes build-related menu items to be automatically shown.  
+- Even a successfully positioned command may not be displayed. This is because the IDE automatically hides or displays some commands, depending on interfaces that the VSPackage has (or has not) implemented. For example, a VSPackage's implementation of some build interfaces causes build-related menu items to be automatically shown.  
   
--   Applying the `CommandWellOnly` flag in the definition of UI element means that the command can be added only by customization.  
+- Applying the `CommandWellOnly` flag in the definition of UI element means that the command can be added only by customization.  
   
--   Commands may be available only in certain UI contexts, for example, only when a dialog box is displayed when the IDE is in design view.  
+- Commands may be available only in certain UI contexts, for example, only when a dialog box is displayed when the IDE is in design view.  
   
--   To cause certain UI elements to be displayed in the IDE, you must implement one or more interfaces or write some code.  
+- To cause certain UI elements to be displayed in the IDE, you must implement one or more interfaces or write some code.  
   
 ## See also  
  [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)

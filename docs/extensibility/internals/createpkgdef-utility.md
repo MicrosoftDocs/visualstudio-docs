@@ -47,13 +47,13 @@ CreatePkgDef /out=<FileName> [/codebase] [/assembly] <AssemblyPath>
   
  The *.pkgdef* files must be installed in one of the following locations: 
 
- - *%localappdata%\Microsoft\Visual Studio\14.0\Extensions\\* 
+- *%localappdata%\Microsoft\Visual Studio\14.0\Extensions\\* 
  
- - *%vsinstalldir%\Common7\IDE\Extensions\\*
+- *%vsinstalldir%\Common7\IDE\Extensions\\*
     
- If the installation folder is *%localappdata%\Microsoft\Visual Studio\14.0\Extensions\\*, the extension will be recognized by Visual Studio, but will be disabled by default. The user can enable the extension by using **Extensions and Updates**. 
+  If the installation folder is *%localappdata%\Microsoft\Visual Studio\14.0\Extensions\\*, the extension will be recognized by Visual Studio, but will be disabled by default. The user can enable the extension by using **Extensions and Updates**. 
    
- If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.  
+  If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.  
   
 > [!NOTE]
 >  The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.  

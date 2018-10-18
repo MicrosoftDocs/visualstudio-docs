@@ -24,13 +24,13 @@ Gets the breakpoint resolution that describes this breakpoint.
   
 ```cpp  
 HRESULT GetBreakpointResolution(   
-   IDebugBreakpointResolution2** ppBPResolution  
+   IDebugBreakpointResolution2** ppBPResolution  
 );  
 ```  
   
 ```csharp  
 int GetBreakpointResolution(   
-   out IDebugBreakpointResolution2 ppBPResolution  
+   out IDebugBreakpointResolution2 ppBPResolution  
 );  
 ```  
   

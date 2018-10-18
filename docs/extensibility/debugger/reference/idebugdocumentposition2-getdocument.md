@@ -23,13 +23,13 @@ Gets the containing document.
   
 ```cpp  
 HRESULT GetDocument(   
-   IDebugDocument2** ppDoc  
+   IDebugDocument2** ppDoc  
 );  
 ```  
   
 ```csharp  
 int GetDocument(   
-   out IDebugDocument2 ppDoc  
+   out IDebugDocument2 ppDoc  
 );  
 ```  
   

@@ -24,13 +24,13 @@ Retrieves the user-displayable name for this context.
   
 ```cpp  
 HRESULT GetName(   
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetName(  
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

@@ -41,10 +41,10 @@ CommandTable is the root element of the *.vsct* file. This is the file that defi
   
 ### Attributes  
   
-|Attribute|Description|  
-|---------------|-----------------|  
-|xmlns|Required. XML namespaces:<br /><br /> xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable"<br /><br /> xmlns:xs="http://www.w3.org/2001/XMLSchema"|  
-|language|Optional. The language attribute may be used to specify the default language of all \<Strings> elements in the command table.  If the language is not specified, the language of the current process will be used:<br /><br /> language="en-us"|  
+| Attribute |                                                                                                                   Description                                                                                                                   |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   xmlns   |                                   Required. XML namespaces:<br /><br /> xmlns="<http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable>"<br /><br /> xmlns:xs="<http://www.w3.org/2001/XMLSchema>"                                   |
+| language  | Optional. The language attribute may be used to specify the default language of all \<Strings> elements in the command table.  If the language is not specified, the language of the current process will be used:<br /><br /> language="en-us" |
   
 ### Child Elements  
   

@@ -22,13 +22,13 @@ Retrieves the name of the module currently being debugged.
   
 ```cpp  
 HRESULT GetModuleName(   
-   BSTR *pbstrModuleName  
+   BSTR *pbstrModuleName  
 );  
 ```  
   
 ```csharp  
 public int GetModuleName (  
-   string pbstrModuleName  
+   string pbstrModuleName  
 );  
 ```  
   
@@ -45,20 +45,20 @@ public int GetModuleName (
 ```cpp  
 STDMETHODIMP CDebugBeforeSymbolSearchEventBase::GetModuleName(BSTR *pbstrModuleName)  
 {  
-    HRESULT hRes = E_FAIL;  
+    HRESULT hRes = E_FAIL;  
   
-    if (m_bstrModuleName)  
-    {  
+    if (m_bstrModuleName)  
+    {  
   
-        *pbstrModuleName = SysAllocString( m_bstrModuleName);  
+        *pbstrModuleName = SysAllocString( m_bstrModuleName);  
   
-        if (*pbstrModuleName)  
-        {  
-            hRes = S_OK;  
-        }  
-    }  
+        if (*pbstrModuleName)  
+        {  
+            hRes = S_OK;  
+        }  
+    }  
   
-    return ( hRes );  
+    return ( hRes );  
 }  
 ```  
   

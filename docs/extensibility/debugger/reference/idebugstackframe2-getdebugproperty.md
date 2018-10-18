@@ -23,13 +23,13 @@ Gets a description of the properties of a stack frame.
   
 ```cpp  
 HRESULT GetDebugProperty (   
-   IDebugProperty2** ppDebugProp  
+   IDebugProperty2** ppDebugProp  
 );  
 ```  
   
 ```csharp  
 int GetDebugProperty (   
-   out IDebugProperty2 ppDebugProp  
+   out IDebugProperty2 ppDebugProp  
 );  
 ```  
   

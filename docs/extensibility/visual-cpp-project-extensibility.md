@@ -41,7 +41,7 @@ These files define little by themselves. Instead, they import other files based 
 
    The build architecture, named "Platform" for historical reasons.
 
-   Examples: Win32, x86, x64, ARM	
+   Examples: Win32, x86, x64, ARM   
 
 - `$(PlatformToolset)`
 
@@ -472,12 +472,13 @@ attributes that affect how the rule looks in the user interface.
 
 The `PageTemplate` attribute defines how the rule is displayed in the **Property Pages** dialog. The attribute can have one of these values:
 
-|Attribute|Description|
-|-|-|
-`generic`|All properties are shown on one page under Category headings<br/>The rule can be visible for `Project` and `PropertySheet` contexts, but not `File`.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*general.xml*
-`tool`|Categories are shown as subpages.<br/>The rule can be visible in all contexts: `Project`, `PropertySheet` and `File`.<br/>The rule is visible in Project Properties only if the project has items with the `ItemType` defined in `Rule.DataSource`, unless the rule name is included in the `ProjectTools` item group.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*clang.xml*
-`debugger`|The page is shown as a part of the Debugging page.<br/>Categories are currently ignored.<br/>The rule name should match the Debug Launcher MEF object's `ExportDebugger` attribute.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*debugger\_local\_windows.xml*
-*custom*| Custom template. The name of the template should match the `ExportPropertyPageUIFactoryProvider` attribute of the `PropertyPageUIFactoryProvider` MEF object. See **Microsoft.VisualStudio.ProjectSystem.Designers.Properties.IPropertyPageUIFactoryProvider**.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*userMacros.xml*
+
+| Attribute  |                                                                                                                                                                                   Description                                                                                                                                                                                    |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `generic`  |                                                                                All properties are shown on one page under Category headings<br/>The rule can be visible for `Project` and `PropertySheet` contexts, but not `File`.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*general.xml*                                                                                 |
+|   `tool`   | Categories are shown as subpages.<br/>The rule can be visible in all contexts: `Project`, `PropertySheet` and `File`.<br/>The rule is visible in Project Properties only if the project has items with the `ItemType` defined in `Rule.DataSource`, unless the rule name is included in the `ProjectTools` item group.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*clang.xml* |
+| `debugger` |                                                         The page is shown as a part of the Debugging page.<br/>Categories are currently ignored.<br/>The rule name should match the Debug Launcher MEF object's `ExportDebugger` attribute.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*debugger\_local\_windows.xml*                                                         |
+|  *custom*  |                         Custom template. The name of the template should match the `ExportPropertyPageUIFactoryProvider` attribute of the `PropertyPageUIFactoryProvider` MEF object. See **Microsoft.VisualStudio.ProjectSystem.Designers.Properties.IPropertyPageUIFactoryProvider**.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*userMacros.xml*                          |
 
 If the rule uses one of the Property Grid-based templates, it can use these extensibility points for its properties:
 

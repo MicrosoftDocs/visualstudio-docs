@@ -23,13 +23,13 @@ This method gets the type of field.
   
 ```cpp  
 HRESULT GetType(   
-   IDebugField** ppType  
+   IDebugField** ppType  
 );  
 ```  
   
 ```csharp  
 int GetType(  
-   out IDebugField ppType  
+   out IDebugField ppType  
 );  
 ```  
   

@@ -20,13 +20,13 @@ ms.workload:
 # Commands and menus that use Interop assemblies
 A VSPackage that implements menu and toolbar commands by using Interop assemblies must:  
   
--   Inform the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) about the commands it supports and whether they are currently enabled.  
+- Inform the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) about the commands it supports and whether they are currently enabled.  
   
--   Adhere to the rules (contract) for handling commands.  
+- Adhere to the rules (contract) for handling commands.  
   
--   Explicitly implement command handling by using either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface.  
+- Explicitly implement command handling by using either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface.  
   
- The following section describes how to do these tasks.  
+  The following section describes how to do these tasks.  
   
 ## In this section  
  [Determine command status by using Interop assemblies](../../extensibility/internals/determining-command-status-by-using-interop-assemblies.md)  

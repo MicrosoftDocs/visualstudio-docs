@@ -32,25 +32,25 @@ A VSPackage declares its menu items and their default states through the Visual 
   
  The following list shows the interfaces affected by the active state of a source control VSPackage:  
   
--   Track project documents events.  
+- Track project documents events.  
   
--   Solution events.  
+- Solution events.  
   
--   Solution persistence interfaces. When inactive, packages should not write to *.sln* and *.suo* files.  
+- Solution persistence interfaces. When inactive, packages should not write to *.sln* and *.suo* files.  
   
--   Property extenders.  
+- Property extenders.  
   
- The required <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>, and also any optional interfaces associated with source control, are not called when the source control VSPackage is inactive.  
+  The required <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>, and also any optional interfaces associated with source control, are not called when the source control VSPackage is inactive.  
   
- When the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE starts, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] sets the command UI context to the ID of the current default source control VSPackage ID. This causes the static UI of the active source control VSPackage to appear in the IDE without actually loading the VSPackage. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] pauses for the VSPackage to register with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterScciProvider> before it makes any calls to the VSPackage.  
+  When the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE starts, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] sets the command UI context to the ID of the current default source control VSPackage ID. This causes the static UI of the active source control VSPackage to appear in the IDE without actually loading the VSPackage. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] pauses for the VSPackage to register with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterScciProvider> before it makes any calls to the VSPackage.  
   
- The following table describes specific details about how the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE hides different UI items.  
+  The following table describes specific details about how the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE hides different UI items.  
   
-|UI item|Description|  
-|-------------|-----------------|  
-|Menus and toolbars|The source control package must set the initial menu and toolbar visibility states to the source control package ID in the [VisibilityConstraints](../../extensibility/visibilityconstraints-element.md) section of the *.vsct* file. This enables the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE to set the state of the menu items appropriately without loading the VSPackage and calling an implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method.|  
-|Tool windows|The source control VSPackage hides any tool windows it owns when it is made inactive.|  
-|Source control VSPackage-specific options pages|The registry key **HKLM\SOFTWARE\Microsoft\VisualStudio\X.Y\ToolsOptionsPages\VisibilityCmdUIContexts** lets a VSPackage set the contexts in which it requires its options pages to be displayed. A registry entry under this key would have to be created by using the service ID (SID) of the source control service and assigning it a DWORD value of 1. Whenever a UI event occurs in a context the source control VSPackage is registered with, the VSPackage will be called if it is active.|  
+|                     UI item                     |                                                                                                                                                                                                                                                          Description                                                                                                                                                                                                                                                           |
+|-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               Menus and toolbars                | The source control package must set the initial menu and toolbar visibility states to the source control package ID in the [VisibilityConstraints](../../extensibility/visibilityconstraints-element.md) section of the *.vsct* file. This enables the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE to set the state of the menu items appropriately without loading the VSPackage and calling an implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method. |
+|                  Tool windows                   |                                                                                                                                                                                                                     The source control VSPackage hides any tool windows it owns when it is made inactive.                                                                                                                                                                                                                      |
+| Source control VSPackage-specific options pages |               The registry key **HKLM\SOFTWARE\Microsoft\VisualStudio\X.Y\ToolsOptionsPages\VisibilityCmdUIContexts** lets a VSPackage set the contexts in which it requires its options pages to be displayed. A registry entry under this key would have to be created by using the service ID (SID) of the source control service and assigning it a DWORD value of 1. Whenever a UI event occurs in a context the source control VSPackage is registered with, the VSPackage will be called if it is active.               |
   
 ## See also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A>   

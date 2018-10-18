@@ -26,46 +26,46 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
   
  Why adopt the image service?  
   
--   Always get the latest "pixel-perfect" image from Visual Studio  
+- Always get the latest "pixel-perfect" image from Visual Studio  
   
--   You can submit and use your own images  
+- You can submit and use your own images  
   
--   No need to test your images out when Windows adds new DPI scaling  
+- No need to test your images out when Windows adds new DPI scaling  
   
--   Address old architectural hurdles in your implementations  
+- Address old architectural hurdles in your implementations  
   
- The Visual Studio shell toolbar before and after using the image service:  
+  The Visual Studio shell toolbar before and after using the image service:  
   
- ![Image Service Before and After](../extensibility/media/image-service-before-and-after.png "Image Service Before and After")  
+  ![Image Service Before and After](../extensibility/media/image-service-before-and-after.png "Image Service Before and After")  
   
 ## How it works
  The image service can supply a bitmapped image suitable for any supported UI framework:  
   
--   WPF: BitmapSource  
+- WPF: BitmapSource  
   
--   WinForms: System.Drawing.Bitmap  
+- WinForms: System.Drawing.Bitmap  
   
--   Win32: HBITMAP  
+- Win32: HBITMAP  
   
- Image service flow diagram  
+  Image service flow diagram  
   
- ![Image Service Flow Diagram](../extensibility/media/image-service-flow-diagram.png "Image Service Flow Diagram")  
+  ![Image Service Flow Diagram](../extensibility/media/image-service-flow-diagram.png "Image Service Flow Diagram")  
   
- **Image monikers**  
+  **Image monikers**  
   
- An image moniker (or moniker for short) is a GUID/ID pair that uniquely identifies an image asset or image list asset in the image library.  
+  An image moniker (or moniker for short) is a GUID/ID pair that uniquely identifies an image asset or image list asset in the image library.  
   
- **Known monikers**  
+  **Known monikers**  
   
- The set of image monikers contained in the Visual Studio Image Catalog and publicly consumable by any Visual Studio component or extension.  
+  The set of image monikers contained in the Visual Studio Image Catalog and publicly consumable by any Visual Studio component or extension.  
   
- **Image manifest files**  
+  **Image manifest files**  
   
- Image manifest (*.imagemanifest*) files are XML files that define a set of image assets, the monikers that represent those assets, and the real image or images that represent each asset. Image manifests can define standalone images or image lists for legacy UI support. Additionally, there are attributes that can be set either on the asset or on the individual images behind each asset to change when and how those assets are displayed.  
+  Image manifest (*.imagemanifest*) files are XML files that define a set of image assets, the monikers that represent those assets, and the real image or images that represent each asset. Image manifests can define standalone images or image lists for legacy UI support. Additionally, there are attributes that can be set either on the asset or on the individual images behind each asset to change when and how those assets are displayed.  
   
- **Image manifest schema**  
+  **Image manifest schema**  
   
- A complete image manifest looks like this:  
+  A complete image manifest looks like this:  
   
 ```xml  
 <ImageManifest>  
@@ -399,52 +399,52 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
   
  These are the key places to use monikers in a tool window. Follow the instructions for each:  
   
-1.  The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).  
+1. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).  
   
-     Add this line to the constructor for the class that derives from the **ToolWindowPane** type:  
+    Add this line to the constructor for the class that derives from the **ToolWindowPane** type:  
   
-    ```csharp  
-    // Replace this KnownMoniker with your desired ImageMoniker  
-    this.BitmapImageMoniker = KnownMonikers.Blank;  
-    ```  
+   ```csharp  
+   // Replace this KnownMoniker with your desired ImageMoniker  
+   this.BitmapImageMoniker = KnownMonikers.Blank;  
+   ```  
   
-2.  The command to open the tool window.  
+2. The command to open the tool window.  
   
-     In the *.vsct* file for the package, edit the tool window's command button:  
+    In the *.vsct* file for the package, edit the tool window's command button:  
   
-    ```xml  
-    <Button guid="guidPackageCmdSet" id="CommandId" priority="0x0100" type="Button">  
-      <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1"/>  
-      <!-- Replace this KnownMoniker with your desired ImageMoniker -->  
-      <Icon guid="ImageCatalogGuid" id="Blank" />  
-      <!-- Add this -->  
-      <CommandFlag>IconIsMoniker</CommandFlag>  
-      <Strings>  
-        <ButtonText>MyToolWindow</ButtonText>  
-      </Strings>  
-    </Button>  
-    ```  
+   ```xml  
+   <Button guid="guidPackageCmdSet" id="CommandId" priority="0x0100" type="Button">  
+     <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1"/>  
+     <!-- Replace this KnownMoniker with your desired ImageMoniker -->  
+     <Icon guid="ImageCatalogGuid" id="Blank" />  
+     <!-- Add this -->  
+     <CommandFlag>IconIsMoniker</CommandFlag>  
+     <Strings>  
+       <ButtonText>MyToolWindow</ButtonText>  
+     </Strings>  
+   </Button>  
+   ```  
   
- **How do I use image monikers in an existing tool window?**  
+   **How do I use image monikers in an existing tool window?**  
   
- Updating an existing tool window to use image monikers is similar to the steps for creating a new tool window.  
+   Updating an existing tool window to use image monikers is similar to the steps for creating a new tool window.  
   
- These are the key places to use monikers in a tool window. Follow the instructions for each:  
+   These are the key places to use monikers in a tool window. Follow the instructions for each:  
   
-1.  The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).  
+3. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).  
   
-    1.  Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:  
+   1.  Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:  
   
-        ```csharp  
-        this.BitmapResourceID = <Value>;  
-        this.BitmapIndex = <Value>;  
-        ```  
+       ```csharp  
+       this.BitmapResourceID = <Value>;  
+       this.BitmapIndex = <Value>;  
+       ```  
   
-    2.  See step #1 of the "How do I use image monikers in a new tool window?" section above.  
+   2.  See step #1 of the "How do I use image monikers in a new tool window?" section above.  
   
-2.  The command to open the tool window.  
+4. The command to open the tool window.  
   
-    -   See step #2 of the "How do I use image monikers in a new tool window?" section above.  
+   -   See step #2 of the "How do I use image monikers in a new tool window?" section above.  
   
 ## How do I use image monikers in a .vsct file?  
  Update your *.vsct* file as indicated by the commented lines below:  
@@ -510,83 +510,83 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 ## How do I port a project system?  
  **How to supply ImageMonikers for a project**  
   
-1.  Implement **VSHPROPID_SupportsIconMonikers** on the project's **IVsHierarchy**, and return true.  
+1. Implement **VSHPROPID_SupportsIconMonikers** on the project's **IVsHierarchy**, and return true.  
   
-2.  Implement either **VSHPROPID_IconMonikerImageList** (if the original project used **VSHPROPID_IconImgList**) or **VSHPROPID_IconMonikerGuid**, **VSHPROPID_IconMonikerId**, **VSHPROPID_OpenFolderIconMonikerGuid**, **VSHPROPID_OpenFolderIconMonikerId** (if the original project used **VSHPROPID_IconHandle** and **VSHPROPID_OpenFolderIconHandle**).  
+2. Implement either **VSHPROPID_IconMonikerImageList** (if the original project used **VSHPROPID_IconImgList**) or **VSHPROPID_IconMonikerGuid**, **VSHPROPID_IconMonikerId**, **VSHPROPID_OpenFolderIconMonikerGuid**, **VSHPROPID_OpenFolderIconMonikerId** (if the original project used **VSHPROPID_IconHandle** and **VSHPROPID_OpenFolderIconHandle**).  
   
-3.  Change the implementation of the original VSHPROPIDs for icons to create "legacy" versions of the icons if extension points request them. **IVsImageService2** provides functionality necessary to get those icons  
+3. Change the implementation of the original VSHPROPIDs for icons to create "legacy" versions of the icons if extension points request them. **IVsImageService2** provides functionality necessary to get those icons  
   
- **Extra requirements for VB/C# project flavors**  
+   **Extra requirements for VB/C# project flavors**  
   
- Only implement **VSHPROPID_SupportsIconMonikers** if you detect that your project is the **outermost flavor**. Otherwise, the actual outermost flavor may not support image monikers in reality, and your base flavor might effectively "hide" customized images.  
+   Only implement **VSHPROPID_SupportsIconMonikers** if you detect that your project is the **outermost flavor**. Otherwise, the actual outermost flavor may not support image monikers in reality, and your base flavor might effectively "hide" customized images.  
   
- **How do I use image monikers in CPS?**  
+   **How do I use image monikers in CPS?**  
   
- Setting custom images in CPS (Common Project System) can be done manually or via an item template that comes with the Project System Extensibility SDK.  
+   Setting custom images in CPS (Common Project System) can be done manually or via an item template that comes with the Project System Extensibility SDK.  
   
- **Using the Project System Extensibility SDK**  
+   **Using the Project System Extensibility SDK**  
   
- Follow the instructions at [Provide custom icons for the Project Type/Item type](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/scenario/provide_custom_icons_for_the_project_or_item_type.md) to customize your CPS images. More information about CPS can be found at [Visual Studio Project System extensibility documentation](https://github.com/Microsoft/VSProjectSystem)  
+   Follow the instructions at [Provide custom icons for the Project Type/Item type](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/scenario/provide_custom_icons_for_the_project_or_item_type.md) to customize your CPS images. More information about CPS can be found at [Visual Studio Project System extensibility documentation](https://github.com/Microsoft/VSProjectSystem)  
   
- **Manually use ImageMonikers**  
+   **Manually use ImageMonikers**  
   
-1.  Implement and export the **IProjectTreeModifier** interface in your project system.  
+4. Implement and export the **IProjectTreeModifier** interface in your project system.  
   
-2.  Determine which **KnownMoniker** or custom image moniker you want to use.  
+5. Determine which **KnownMoniker** or custom image moniker you want to use.  
   
-3.  In the **ApplyModifications** method, do the following somewhere in the method before returning the new tree, similar to the below example:  
+6. In the **ApplyModifications** method, do the following somewhere in the method before returning the new tree, similar to the below example:  
   
-    ```csharp  
-    // Replace this KnownMoniker with your desired ImageMoniker  
-    tree = tree.SetIcon(KnownMonikers.Blank.ToProjectSystemType());  
-    ```  
+   ```csharp  
+   // Replace this KnownMoniker with your desired ImageMoniker  
+   tree = tree.SetIcon(KnownMonikers.Blank.ToProjectSystemType());  
+   ```  
   
-4.  If you are creating a new tree, you can set the custom images by passing in the desired monikers into the NewTree method, similar to the below example:  
+7. If you are creating a new tree, you can set the custom images by passing in the desired monikers into the NewTree method, similar to the below example:  
   
-    ```csharp  
-    // Replace this KnownMoniker with your desired ImageMoniker  
-    ProjectImageMoniker icon         = KnownMonikers.FolderClosed.ToProjectSystemType();  
-    ProjectImageMoniker expandedIcon = KnownMonikers.FolderOpened.ToProjectSystemType();  
+   ```csharp  
+   // Replace this KnownMoniker with your desired ImageMoniker  
+   ProjectImageMoniker icon         = KnownMonikers.FolderClosed.ToProjectSystemType();  
+   ProjectImageMoniker expandedIcon = KnownMonikers.FolderOpened.ToProjectSystemType();  
   
-    return this.ProjectTreeFactory.Value.NewTree(/*caption*/<value>,  
-                                                 /*filePath*/<value>,  
-                                                 /*browseObjectProperties*/<value>,  
-                                                 icon,  
-                                                 expandedIcon);  
-    ```  
+   return this.ProjectTreeFactory.Value.NewTree(/*caption*/<value>,  
+                                                /*filePath*/<value>,  
+                                                /*browseObjectProperties*/<value>,  
+                                                icon,  
+                                                expandedIcon);  
+   ```  
   
 ## How do I convert from a real image strip to a moniker-based image strip?  
  **I need to support HIMAGELISTs**  
   
  If there is an already existing image strip for your code that you want to update to use the image service, but you are constrained by APIs that require passing around image lists, you can still get the benefits of the image service. To create a moniker-based image strip, follow the steps below to create a manifest from existing monikers.  
   
-1.  Run the **ManifestFromResources** tool, passing it the image strip. This will generate a manifest for the strip.  
+1. Run the **ManifestFromResources** tool, passing it the image strip. This will generate a manifest for the strip.  
   
-    -   Recommended: provide a non default name for the manifest to suit its usage.  
+   -   Recommended: provide a non default name for the manifest to suit its usage.  
   
-2.  If you are using only **KnownMonikers**, then do the following:  
+2. If you are using only **KnownMonikers**, then do the following:  
   
-    -   Replace the \<Images> section of the manifest with \<Images/>.  
+   -   Replace the \<Images> section of the manifest with \<Images/>.  
   
-    -   Remove all the subimage IDs (anything with \<imagestrip name>_##).  
+   -   Remove all the subimage IDs (anything with \<imagestrip name>_##).  
   
-    -   Recommended: rename the AssetsGuid symbol and image strip symbol to suit its usage.  
+   -   Recommended: rename the AssetsGuid symbol and image strip symbol to suit its usage.  
   
-    -   Replace each **ContainedImage**'s GUID with $(ImageCatalogGuid), replace each **ContainedImage**'s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**  
+   -   Replace each **ContainedImage**'s GUID with $(ImageCatalogGuid), replace each **ContainedImage**'s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**  
   
-        -   \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.  
+       -   \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.  
   
-    -   Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to *\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\*> to the top of the \<Symbols> section.  
+   -   Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to *\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\*> to the top of the \<Symbols> section.  
   
-        -   The relative path is determined by the deployment location defined in the setup authoring for the manifest.  
+       -   The relative path is determined by the deployment location defined in the setup authoring for the manifest.  
   
-3.  Run the **ManifestToCode** tool to generate wrappers so that the existing code has a moniker it can use to query the image service for the image strip.  
+3. Run the **ManifestToCode** tool to generate wrappers so that the existing code has a moniker it can use to query the image service for the image strip.  
   
-    -   Recommended: provide nondefault names for the wrappers and namespaces to suit their usage.  
+   -   Recommended: provide nondefault names for the wrappers and namespaces to suit their usage.  
   
-4.  Do all the adds, setup authoring/deployment, and other code changes to work with the image service and the new files.  
+4. Do all the adds, setup authoring/deployment, and other code changes to work with the image service and the new files.  
   
- Sample manifest including both internal and external images to see what it should look like:  
+   Sample manifest including both internal and external images to see what it should look like:  
   
 ```xml  
 <?xml version="1.0"?>  

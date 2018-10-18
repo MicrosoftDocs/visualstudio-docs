@@ -23,13 +23,13 @@ Retrieves the position of the function in the source document.
   
 ```cpp  
 HRESULT GetOffset(   
-   TEXT_POSITION* pPosition  
+   TEXT_POSITION* pPosition  
 );  
 ```  
   
 ```csharp  
 int GetOffset(  
-   TEXT_POSITION[] pPosition  
+   TEXT_POSITION[] pPosition  
 );  
 ```  
   

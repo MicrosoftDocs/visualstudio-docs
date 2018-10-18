@@ -22,19 +22,19 @@ Retrieves a type given its token.
   
 ```cpp  
 HRESULT GetTypeFromToken(  
-   ULONG32       appDomain,  
-   GUID          guidModule,  
-   DWORD         tdToken,  
-   IDebugField** ppField  
+   ULONG32       appDomain,  
+   GUID          guidModule,  
+   DWORD         tdToken,  
+   IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetTypeFromToken(  
-   uint            appDomain,  
-   Guid            guidModule,  
-   uint            tdToken,  
-   out IDebugField ppField  
+   uint            appDomain,  
+   Guid            guidModule,  
+   uint            tdToken,  
+   out IDebugField ppField  
 );  
 ```  
   

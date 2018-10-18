@@ -24,13 +24,13 @@ Toggles the virtualized state of this pending breakpoint. When a pending breakpo
   
 ```cpp  
 HRESULT Virtualize(   
-   BOOL fVirtualize  
+   BOOL fVirtualize  
 );  
 ```  
   
 ```cpp  
 int Virtualize(   
-   int fVirtualize  
+   int fVirtualize  
 );  
 ```  
   

@@ -23,13 +23,13 @@ Resumes execution of a thread.
   
 ```cpp  
 HRESULT Resume (   
-   DWORD *pdwSuspendCount  
+   DWORD *pdwSuspendCount  
 );  
 ```  
   
 ```csharp  
 int Resume (   
-   out uint pdwSuspendCount  
+   out uint pdwSuspendCount  
 );  
 ```  
   

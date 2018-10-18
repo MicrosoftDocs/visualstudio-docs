@@ -23,13 +23,13 @@ Retrieves a list of all available ports.
   
 ```cpp  
 HRESULT EnumPorts(   
-   IEnumDebugPorts2** ppEnum  
+   IEnumDebugPorts2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumPorts(   
-   out IEnumDebugPorts2 ppEnum  
+   out IEnumDebugPorts2 ppEnum  
 );  
 ```  
   

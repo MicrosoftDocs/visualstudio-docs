@@ -19,42 +19,42 @@ The editor is composed of a number of different subsystems, which are designed t
   
  These sections describe different aspects of the editor:  
   
--   [Overview of the subsystems](../extensibility/inside-the-editor.md#overview-of-the-subsystems)  
+- [Overview of the subsystems](../extensibility/inside-the-editor.md#overview-of-the-subsystems)  
   
--   [The text model](../extensibility/inside-the-editor.md#the-text-model)  
+- [The text model](../extensibility/inside-the-editor.md#the-text-model)  
   
--   [The text view](../extensibility/inside-the-editor.md#the-text-view)  
+- [The text view](../extensibility/inside-the-editor.md#the-text-view)  
   
- These sections describe the features of the editor:  
+  These sections describe the features of the editor:  
   
--   [Tags and classifiers](../extensibility/inside-the-editor.md#tags-and-classifiers)  
+- [Tags and classifiers](../extensibility/inside-the-editor.md#tags-and-classifiers)  
   
--   [Adornments](../extensibility/inside-the-editor.md#adornments)  
+- [Adornments](../extensibility/inside-the-editor.md#adornments)  
   
--   [Projection](../extensibility/inside-the-editor.md#projection)  
+- [Projection](../extensibility/inside-the-editor.md#projection)  
   
--   [Outlining](../extensibility/inside-the-editor.md#outlining)  
+- [Outlining](../extensibility/inside-the-editor.md#outlining)  
   
--   [Mouse bindings](../extensibility/inside-the-editor.md#mousebindings)  
+- [Mouse bindings](../extensibility/inside-the-editor.md#mousebindings)  
   
--   [Editor operations](../extensibility/inside-the-editor.md#editoroperations)  
+- [Editor operations](../extensibility/inside-the-editor.md#editoroperations)  
   
--   [IntelliSense](../extensibility/inside-the-editor.md#intellisense)  
+- [IntelliSense](../extensibility/inside-the-editor.md#intellisense)  
   
 ## Overview of the Subsystems  
   
 ### Text model subsystem  
  The text model subsystem is responsible for representing text and enabling its manipulation. The text model subsystem contains the <xref:Microsoft.VisualStudio.Text.ITextBuffer> interface, which describes the sequence of characters that is to be displayed by the editor. This text can be modified, tracked, and otherwise manipulated in many ways. The text model also provides types for the following aspects:  
   
--   A service that associates text with files, and manages reading and writing them in the file system.  
+- A service that associates text with files, and manages reading and writing them in the file system.  
   
--   A differencing service that finds the minimal differences between two sequences of objects.  
+- A differencing service that finds the minimal differences between two sequences of objects.  
   
--   A system for describing the text in a buffer in terms of subsets of the text in other buffers.  
+- A system for describing the text in a buffer in terms of subsets of the text in other buffers.  
   
- The text model subsystem is free of user interface (UI) concepts. For example, it is not responsible for text formatting or text layout, and it has no knowledge of visual adornments that may be associated with the text.  
+  The text model subsystem is free of user interface (UI) concepts. For example, it is not responsible for text formatting or text layout, and it has no knowledge of visual adornments that may be associated with the text.  
   
- The public types of the text model subsystem are contained in *Microsoft.VisualStudio.Text.Data.dll* and *Microsoft.VisualStudio.CoreUtility.dll*, which depend only on the .NET Framework base class library and the Managed Extensibility Framework (MEF).  
+  The public types of the text model subsystem are contained in *Microsoft.VisualStudio.Text.Data.dll* and *Microsoft.VisualStudio.CoreUtility.dll*, which depend only on the .NET Framework base class library and the Managed Extensibility Framework (MEF).  
   
 ### Text view subsystem  
  The text view subsystem is responsible for formatting and displaying text. The types in this subsystem are divided into two layers, depending on whether the types rely on Windows Presentation Foundation (WPF). The most important types are <xref:Microsoft.VisualStudio.Text.Editor.ITextView> and <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>, which control the set of text lines that are to be displayed, and also the caret, the selection, and the facilities for adorning the text by using WPF UI elements. This subsystem also provides margins around the text display area. These margins can be extended, and can contain different kinds of content and visual effects. Examples of margins are line number displays and scroll bars.  

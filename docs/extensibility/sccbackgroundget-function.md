@@ -23,11 +23,11 @@ This function retrieves from source control each of the specified files with no 
   
 ```cpp  
 SCCRTN SccBackgroundGet(  
-   LPVOID  pContext,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames,  
-   LONG    dwFlags,  
-   LONG    dwBackgroundOperationID  
+   LPVOID  pContext,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames,  
+   LONG    dwFlags,  
+   LONG    dwBackgroundOperationID  
 );  
 ```  
   

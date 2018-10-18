@@ -23,13 +23,13 @@ Gets the size in instructions of this disassembly stream.
   
 ```cpp  
 HRESULT GetSize(   
-   UINT64* pnSize  
+   UINT64* pnSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(   
-   out ulong pnSize  
+   out ulong pnSize  
 );  
 ```  
   

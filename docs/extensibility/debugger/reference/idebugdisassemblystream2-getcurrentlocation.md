@@ -23,13 +23,13 @@ Returns a code location identifier that represents the current code location.
   
 ```cpp  
 HRESULT GetCurrentLocation(   
-   UINT64* puCodeLocationId  
+   UINT64* puCodeLocationId  
 );  
 ```  
   
 ```csharp  
 int GetCurrentLocation(   
-   out ulong puCodeLocationId  
+   out ulong puCodeLocationId  
 );  
 ```  
   

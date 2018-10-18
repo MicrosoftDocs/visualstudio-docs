@@ -21,13 +21,13 @@ Sets the core server for the port supplier.
   
 ```cpp  
 HRESULT SetServer(  
-   IDebugCoreServer2* pServer  
+   IDebugCoreServer2* pServer  
 );  
 ```  
   
 ```csharp  
 int SetServer(  
-   IDebugCoreServer2 pServer  
+   IDebugCoreServer2 pServer  
 );  
 ```  
   

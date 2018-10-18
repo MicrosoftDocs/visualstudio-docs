@@ -23,9 +23,9 @@ This function returns additional capabilities supported by the source control pl
   
 ```cpp  
 SCCRTN SccGetExtendedCapabilities(  
-   LPVOID pContext,  
-   LONG lSccExCaps,  
-   LPBOOL pbSupported  
+   LPVOID pContext,  
+   LONG lSccExCaps,  
+   LPBOOL pbSupported  
 );  
 ```  
   

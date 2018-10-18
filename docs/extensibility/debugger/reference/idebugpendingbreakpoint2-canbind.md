@@ -24,13 +24,13 @@ Determines whether this pending breakpoint can bind to a code location.
   
 ```cpp  
 HRESULT CanBind (   
-   IEnumDebugErrorBreakpoints2** ppErrorEnum  
+   IEnumDebugErrorBreakpoints2** ppErrorEnum  
 );  
 ```  
   
 ```csharp  
 int CanBind (   
-   out IEnumDebugErrorBreakpoints2 ppErrorEnum  
+   out IEnumDebugErrorBreakpoints2 ppErrorEnum  
 );  
 ```  
   

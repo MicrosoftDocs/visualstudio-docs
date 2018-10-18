@@ -23,13 +23,13 @@ This method sets the language to use to create printable results.
   
 ```cpp  
 HRESULT SetLocale(   
-   WORD wLangID  
+   WORD wLangID  
 );  
 ```  
   
 ```csharp  
 int SetLocale(  
-   ushort wLangID  
+   ushort wLangID  
 );  
 ```  
   

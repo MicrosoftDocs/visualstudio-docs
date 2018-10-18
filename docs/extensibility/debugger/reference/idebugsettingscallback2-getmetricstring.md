@@ -22,19 +22,19 @@ Retrieves the value string of the metric given its name.
   
 ```cpp  
 HRESULT GetMetricString(  
-    LPCWSTR pszType,  
-    REFGUID guidSection,  
-    LPCWSTR pszMetric,  
-    BSTR*   pbstrValue  
+    LPCWSTR pszType,  
+    REFGUID guidSection,  
+    LPCWSTR pszMetric,  
+    BSTR*   pbstrValue  
 );  
 ```  
   
 ```csharp  
 private int GetMetricString(  
-    string     pszType,  
-    ref Guid   guidSection,  
-    string     pszMetric,  
-    out string pbstrValue  
+    string     pszType,  
+    ref Guid   guidSection,  
+    string     pszMetric,  
+    out string pbstrValue  
 );  
 ```  
   
