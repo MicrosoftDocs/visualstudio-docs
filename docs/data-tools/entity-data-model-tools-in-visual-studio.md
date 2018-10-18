@@ -22,16 +22,16 @@ The Entity Framework tools are installed as part of the **Data storage and proce
 
 These are the specific tools that make up Entity Framework tools in Visual Studio:
 
--   You can use the [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] **[!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Designer** (**Entity Designer**) to visually create and modify entities, associations, mappings, and inheritance relationships. The **Entity Designer** also generates [!INCLUDE[TLA#tla_cshrp](../data-tools/includes/tlasharptla_cshrp_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] object-layer code.
+- You can use the [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] **[!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Designer** (**Entity Designer**) to visually create and modify entities, associations, mappings, and inheritance relationships. The **Entity Designer** also generates [!INCLUDE[TLA#tla_cshrp](../data-tools/includes/tlasharptla_cshrp_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] object-layer code.
 
--   You can use the **[!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Wizard** to generate a conceptual model from an existing database and add database connection information to your application.
+- You can use the **[!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Wizard** to generate a conceptual model from an existing database and add database connection information to your application.
 
--   You can use the **Create Database Wizard** to create a conceptual model first and then create a database that supports the model.
+- You can use the **Create Database Wizard** to create a conceptual model first and then create a database that supports the model.
 
--   You can use the **Update Model Wizard** to update your conceptual model, storage model, and mappings when changes have been made to the underlying database.
+- You can use the **Update Model Wizard** to update your conceptual model, storage model, and mappings when changes have been made to the underlying database.
 
-    > [!NOTE]
-    >  Starting with Visual Studio 2010, Entity Framework tools do not support [!INCLUDE[ss2k](../data-tools/includes/ss2k_md.md)].
+  > [!NOTE]
+  >  Starting with Visual Studio 2010, Entity Framework tools do not support [!INCLUDE[ss2k](../data-tools/includes/ss2k_md.md)].
 
 The tools generate or modify an *.edmx* file. This *.edmx* file contains information that describes the conceptual model, the storage model, and the mappings between them. For more information, see  [EDMX](https://docs.microsoft.com/ef/ef6/).
 
@@ -39,12 +39,12 @@ The tools generate or modify an *.edmx* file. This *.edmx* file contains informa
 
 ## Related topics
 
-|Title|Description|
-|-----------|-----------------|
-|[ADO.NET Entity Framework](/dotnet/framework/data/adonet/ef/index)|Describes how to use [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Tools, which [!INCLUDE[adonet_ef](../data-tools/includes/adonet_ef_md.md)] provides, to create applications.|
-|[Entity Data Model](/dotnet/framework/data/adonet/entity-data-model)|Provides links and information for working with data that is used by applications built on [!INCLUDE[adonet_ef](../data-tools/includes/adonet_ef_md.md)].|
-|[Entity Framework (EF) Documentation)](https://docs.microsoft.com/ef/ef6/get-started)|Provides an index of videos, tutorials, and advanced documentation to help you make the most of Entity Framework.|
-|[ASP.NET 5 Application to New Database](https://docs.efproject.net/en/latest/platforms/aspnetcore/new-db.html)|Describes how to create a new ASP.NET 5 application by using Entity Framework 7.|
+|                                                     Title                                                      |                                                                                            Description                                                                                            |
+|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                       [ADO.NET Entity Framework](/dotnet/framework/data/adonet/ef/index)                       | Describes how to use [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Tools, which [!INCLUDE[adonet_ef](../data-tools/includes/adonet_ef_md.md)] provides, to create applications. |
+|                      [Entity Data Model](/dotnet/framework/data/adonet/entity-data-model)                      |                     Provides links and information for working with data that is used by applications built on [!INCLUDE[adonet_ef](../data-tools/includes/adonet_ef_md.md)].                     |
+|             [Entity Framework (EF) Documentation)](https://docs.microsoft.com/ef/ef6/get-started)              |                                         Provides an index of videos, tutorials, and advanced documentation to help you make the most of Entity Framework.                                         |
+| [ASP.NET 5 Application to New Database](https://docs.efproject.net/en/latest/platforms/aspnetcore/new-db.html) |                                                         Describes how to create a new ASP.NET 5 application by using Entity Framework 7.                                                          |
 
 ## See also
 

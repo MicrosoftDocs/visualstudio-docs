@@ -34,103 +34,102 @@ Design-time T4 text templates let you generate program code and other files in y
 
 #### To create a design-time T4 template in Visual Studio
 
-1.  Create a Visual Studio project, or open an existing one.
+1. Create a Visual Studio project, or open an existing one.
 
-     For example, on the **File** menu, choose **New** > **Project**.
+    For example, on the **File** menu, choose **New** > **Project**.
 
-2.  Add a text template file to your project and give it a name that has the extension **.tt**.
+2. Add a text template file to your project and give it a name that has the extension **.tt**.
 
-     To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add** > **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.
+    To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add** > **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.
 
-     Notice that the **Custom Tool** property of the file is **TextTemplatingFileGenerator**.
+    Notice that the **Custom Tool** property of the file is **TextTemplatingFileGenerator**.
 
-3.  Open the file. It will already contain the following directives:
+3. Open the file. It will already contain the following directives:
 
-    ```
-    <#@ template hostspecific="false" language="C#" #>
-    <#@ output extension=".txt" #>
-    ```
+   ```
+   <#@ template hostspecific="false" language="C#" #>
+   <#@ output extension=".txt" #>
+   ```
 
-     If you added the template to a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project, the language attribute will be "`VB`".
+    If you added the template to a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project, the language attribute will be "`VB`".
 
-4.  Add some text at the end of the file. For example:
+4. Add some text at the end of the file. For example:
 
-    ```
-    Hello, world!
-    ```
+   ```
+   Hello, world!
+   ```
 
-5.  Save the file.
+5. Save the file.
 
-     You might see a **Security Warning** message box that asks you to confirm that you want to run the template. Click **OK**.
+    You might see a **Security Warning** message box that asks you to confirm that you want to run the template. Click **OK**.
 
-6.  In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.
+6. In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.
 
-    > [!NOTE]
-    >  If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
+   > [!NOTE]
+   >  If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
 
 ### Regenerating the code
  A template will be executed, generating the subsidiary file, in any of the following cases:
 
--   Edit the template and then change focus to a different Visual Studio window.
+- Edit the template and then change focus to a different Visual Studio window.
 
--   Save the template.
+- Save the template.
 
--   Click **Transform All Templates** in the **Build** menu. This will transform all the templates in the Visual Studio solution.
+- Click **Transform All Templates** in the **Build** menu. This will transform all the templates in the Visual Studio solution.
 
--   In **Solution Explorer**, on the shortcut menu of any file, choose **Run Custom Tool**. Use this method to transform a selected subset of templates.
+- In **Solution Explorer**, on the shortcut menu of any file, choose **Run Custom Tool**. Use this method to transform a selected subset of templates.
 
- You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
+  You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
 
 ## Generating Variable Text
  Text templates let you use program code to vary the content of the generated file.
 
 #### To generate text by using program code
 
-1.  Change the content of the `.tt` file:
+1. Change the content of the `.tt` file:
 
-    ```csharp
-    <#@ template hostspecific="false" language="C#" #>
-    <#@ output extension=".txt" #>
-    <#int top = 10;
+   ```csharp
+   <#@ template hostspecific="false" language="C#" #>
+   <#@ output extension=".txt" #>
+   <#int top = 10;
 
-    for (int i = 0; i<=top; i++)
-    { #>
+   for (int i = 0; i<=top; i++)
+   { #>
+      The square of <#= i #> is <#= i*i #>
+   <# } #>
+   ```
+
+   ```vb
+   <#@ template hostspecific="false" language="VB" #>
+   <#@ output extension=".txt" #>
+   <#Dim top As Integer = 10
+
+   For i As Integer = 0 To top
+   #>
        The square of <#= i #> is <#= i*i #>
-    <# } #>
-    ```
+   <#
+   Next
+   #>
+   ```
 
-    ```vb
-    <#@ template hostspecific="false" language="VB" #>
-    <#@ output extension=".txt" #>
-    <#Dim top As Integer = 10
+2. Save the .tt file, and inspect the generated .txt file again. It lists the squares of the numbers from 0 to 10.
 
-    For i As Integer = 0 To top
-    #>
-        The square of <#= i #> is <#= i*i #>
-    <#
-    Next
-    #>
+   Notice that statements are enclosed within `<#...#>`, and single expressions within `<#=...#>`. For more information, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
-    ```
-
-2.  Save the .tt file, and inspect the generated .txt file again. It lists the squares of the numbers from 0 to 10.
-
- Notice that statements are enclosed within `<#...#>`, and single expressions within `<#=...#>`. For more information, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
-
- If you write the generating code in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the `template` directive should contain `language="VB"`. `"C#"` is the default.
+   If you write the generating code in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the `template` directive should contain `language="VB"`. `"C#"` is the default.
 
 ## Debugging a Design-Time T4 Text Template
  To debug a text template:
 
--   Insert `debug="true"` into the `template` directive. For example:
+- Insert `debug="true"` into the `template` directive. For example:
 
-     `<#@ template debug="true" hostspecific="false" language="C#" #>`
+   `<#@ template debug="true" hostspecific="false" language="C#" #>`
 
--   Set breakpoints in the template, in the same way that you would for ordinary code.
+- Set breakpoints in the template, in the same way that you would for ordinary code.
 
--   Choose **Debug T4 Template** from the shortcut menu of the text template file in Solution Explorer.
+- Choose **Debug T4 Template** from the shortcut menu of the text template file in Solution Explorer.
 
- The template will run and stop at the breakpoints. You can examine variables and step through the code in the usual way.
+  The template will run and stop at the breakpoints. You can examine variables and step through the code in the usual way.
 
 > [!TIP]
 >  `debug="true"` makes the generated code map more accurately to the text template, by inserting more line numbering directives into the generated code. If you leave it out, breakpoints might stop the run in the wrong state.
@@ -197,13 +196,13 @@ Design-time T4 text templates let you generate program code and other files in y
 ### Structuring text templates
  As a matter of good practice, we tend to separate the template code into two parts:
 
--   A configuration or data-gathering part, which sets values in variables, but does not contain text blocks. In the previous example, this part is the initialization of `properties`.
+- A configuration or data-gathering part, which sets values in variables, but does not contain text blocks. In the previous example, this part is the initialization of `properties`.
 
-     This is sometimes called the "model" section, because it constructs an in-store model, and typically reads a model file.
+   This is sometimes called the "model" section, because it constructs an in-store model, and typically reads a model file.
 
--   The text-generation part (`foreach(...){...}` in the example), which uses the values of the variables.
+- The text-generation part (`foreach(...){...}` in the example), which uses the values of the variables.
 
- This is not a necessary separation, but it is a style which makes it easier to read the template by reducing the complexity of the part that includes text.
+  This is not a necessary separation, but it is a style which makes it easier to read the template by reducing the complexity of the part that includes text.
 
 ## Reading files or other sources
  To access a model file or database, your template code can use assemblies such as System.XML. To gain access to these assemblies, you must insert directives such as these:
@@ -230,7 +229,6 @@ Design-time T4 text templates let you generate program code and other files in y
 <# For Each propertyName As String In
              File.ReadLines("C:\\propertyList.txt")
 #>
-
 ```
 
 ### Opening a file with a relative pathname
@@ -238,7 +236,6 @@ Design-time T4 text templates let you generate program code and other files in y
 
 ```
 <#@ template debug="false" hostspecific="true" language="C#" #>
-
 ```
 
  Then you can write, for example:
@@ -250,7 +247,6 @@ Design-time T4 text templates let you generate program code and other files in y
 ...
 <#  foreach (string propertyName in properties { #>
 ...
-
 ```
 
 ```vb
@@ -261,7 +257,6 @@ Design-time T4 text templates let you generate program code and other files in y
 <#   For Each propertyName As String In properties
 ...
 #>
-
 ```
 
  You can also use `this.Host.TemplateFile`, which identifies the name of the current template file.
@@ -281,7 +276,6 @@ Design-time T4 text templates let you generate program code and other files in y
 #>
 
 Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
-
 ```
 
 > [!TIP]
@@ -321,37 +315,39 @@ Warning("A warning message");
 
 #### To convert an existing file to a design-time template
 
-1.  To your Visual Studio project, add a file of the type that you want to generate, such as a `.cs`, `.vb`, or `.resx` file.
+1. To your Visual Studio project, add a file of the type that you want to generate, such as a `.cs`, `.vb`, or `.resx` file.
 
-2.  Test the new file to make sure that it works.
+2. Test the new file to make sure that it works.
 
-3.  In Solution Explorer, change the file name extension to **.tt**.
+3. In Solution Explorer, change the file name extension to **.tt**.
 
-4.  Verify the following properties of the **.tt** file:
+4. Verify the following properties of the **.tt** file:
 
-    |||
-    |-|-|
-    |**Custom Tool =**|**TextTemplatingFileGenerator**|
-    |**Build Action =**|**None**|
 
-5.  Insert the following lines at the beginning of the file:
+   |                    |                                 |
+   |--------------------|---------------------------------|
+   | **Custom Tool =**  | **TextTemplatingFileGenerator** |
+   | **Build Action =** |            **None**             |
 
-    ```
-    <#@ template debug="false" hostspecific="false" language="C#" #>
-    <#@ output extension=".cs" #>
-    ```
 
-     If you want to write the generating code of your template in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], set the `language` attribute to `"VB"` instead of `"C#"`.
+5. Insert the following lines at the beginning of the file:
 
-     Set the `extension` attribute to the file name extension for the type of file that you want to generate, for example `.cs`, `.resx`, or `.xml`.
+   ```
+   <#@ template debug="false" hostspecific="false" language="C#" #>
+   <#@ output extension=".cs" #>
+   ```
 
-6.  Save the file.
+    If you want to write the generating code of your template in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], set the `language` attribute to `"VB"` instead of `"C#"`.
 
-     A subsidiary file is created, with the specified extension. Its properties are correct for the type of file. For example, the **Build Action** property of a .cs file would be **Compile**.
+    Set the `extension` attribute to the file name extension for the type of file that you want to generate, for example `.cs`, `.resx`, or `.xml`.
 
-     Verify that the generated file contains the same content as the original file.
+6. Save the file.
 
-7.  Identify a part of the file that you want to vary. For example, a part that appears only under certain conditions, or a part that is repeated, or where the specific values vary. Insert generating code. Save the file and verify that the subsidiary file is correctly generated. Repeat this step.
+    A subsidiary file is created, with the specified extension. Its properties are correct for the type of file. For example, the **Build Action** property of a .cs file would be **Compile**.
+
+    Verify that the generated file contains the same content as the original file.
+
+7. Identify a part of the file that you want to vary. For example, a part that appears only under certain conditions, or a part that is repeated, or where the specific values vary. Insert generating code. Save the file and verify that the subsidiary file is correctly generated. Repeat this step.
 
 ## Guidelines for Code Generation
  Please see [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md).

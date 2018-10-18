@@ -30,13 +30,13 @@ This code generation applies to:
 
    - C#:
 
-    ![Highlighted code C#](media/abstract-highlight-cs.png)
+     ![Highlighted code C#](media/abstract-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code VB](media/abstract-highlight-vb.png)
+     ![Highlighted code VB](media/abstract-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -47,7 +47,7 @@ This code generation applies to:
 
    ![Implement class preview](media/abstract-preview-cs.png)
 
-1. Select **Implement Abstract Class** from the drop-down menu.
+3. Select **Implement Abstract Class** from the drop-down menu.
 
    > [!TIP]
    > - Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.

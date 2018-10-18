@@ -82,11 +82,11 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
 
  However, the Set method might also be called if the user invokes Undo or Redo, or if a transaction is being rolled back. When <xref:Microsoft.VisualStudio.Modeling.Store.InUndoRedoOrRollback%2A> is true, your Set method should behave as follows:
 
--   It should not make changes in the store, such as assigning values to other domain properties. The undo manager will set their values.
+- It should not make changes in the store, such as assigning values to other domain properties. The undo manager will set their values.
 
--   However, it should update any external resources, such as database or file contents, or objects outside the store. This will make sure that they are kept in synchronism with the values in the store.
+- However, it should update any external resources, such as database or file contents, or objects outside the store. This will make sure that they are kept in synchronism with the values in the store.
 
- For example:
+  For example:
 
 ```
 void SetAgeValue(int value)

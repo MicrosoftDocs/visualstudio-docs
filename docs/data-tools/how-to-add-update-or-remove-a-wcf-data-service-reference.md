@@ -49,21 +49,21 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
 
 ### To add a reference to a service in the current solution
 
-1.  In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
+1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
-     The **Add Service Reference** dialog box appears.
+    The **Add Service Reference** dialog box appears.
 
-2.  Click **Discover**.
+2. Click **Discover**.
 
-     All services (both [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] and WCF services) in the current solution are added to the **Services** list.
+    All services (both [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] and WCF services) in the current solution are added to the **Services** list.
 
-3.  In the **Services** list, expand the node for the service that you want to use and select an entity set.
+3. In the **Services** list, expand the node for the service that you want to use and select an entity set.
 
-4.  In the **Namespace** box, enter the namespace that you want to use for the reference.
+4. In the **Namespace** box, enter the namespace that you want to use for the reference.
 
-5.  Click **OK** to add the reference to the project.
+5. Click **OK** to add the reference to the project.
 
-     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
+    A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
 
 ## Update a service reference
  The Entity Data Model for a [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] sometimes changes. When this happens, you must update the service reference.

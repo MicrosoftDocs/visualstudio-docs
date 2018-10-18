@@ -30,13 +30,13 @@ This code generation applies to:
 
    - C#:
 
-    ![Highlighted code C#](media/local-highlight-cs.png)
+     ![Highlighted code C#](media/local-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code VB](media/local-highlight-vb.png)
+     ![Highlighted code VB](media/local-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -46,7 +46,7 @@ This code generation applies to:
 
    ![Introduce local preview](media/local-preview-cs.png)
 
-1. Select **Introduce local for (all occurrences of) '*expression*'** from the drop-down menu.
+3. Select **Introduce local for (all occurrences of) '*expression*'** from the drop-down menu.
 
    > [!TIP]
    > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.

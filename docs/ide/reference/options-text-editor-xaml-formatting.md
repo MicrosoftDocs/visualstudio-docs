@@ -90,11 +90,12 @@ You can specify which events cause auto-formatting.
 ## Element Spacing
  Use this setting to control how elements are arranged in your XAML document
 
-|||
-|-|-|
-|**Preserve new lines in content**|Empty lines in element content are not removed.<br /><br /> `<Grid>`<br /><br /> ``<br /><br /> ``<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> ``<br /><br /> `</Grid>`|
-|**Collapse multiple empty lines in content to a single line**|Empty lines in element content are collapsed to a single line.<br /><br /> `<Grid>`<br /><br /> ``<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> ``<br /><br /> `</Grid>`|
-|**Remove empty lines in content**|All empty lines in element content are removed.<br /><br /> `<Grid>`<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> `</Grid>`|
+
+|                                                               |                                                                                                                                                                                              |
+|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               **Preserve new lines in content**               | Empty lines in element content are not removed.<br /><br /> `<Grid>`<br /><br /> ``<br /><br /> ``<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> ``<br /><br /> `</Grid>\` |
+| **Collapse multiple empty lines in content to a single line** | Empty lines in element content are collapsed to a single line.<br /><br /> `<Grid>`<br /><br /> ``<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> ``<br /><br /> `</Grid>`  |
+|               **Remove empty lines in content**               |                        All empty lines in element content are removed.<br /><br /> `<Grid>`<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> `</Grid>`                        |
 
 ## Miscellaneous section, Auto Insert
  Use this setting to control when tags and quotes are automatically generated.

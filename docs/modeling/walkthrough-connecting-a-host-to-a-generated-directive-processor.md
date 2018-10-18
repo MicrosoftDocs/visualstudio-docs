@@ -27,21 +27,22 @@ In this walkthrough, you expand your custom host so that it supports text templa
 
 This walkthrough includes the following tasks:
 
--   Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] to generate a directive processor that is based on a domain model.
+- Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] to generate a directive processor that is based on a domain model.
 
--   Connecting a custom text template host to the generated directive processor.
+- Connecting a custom text template host to the generated directive processor.
 
--   Testing the custom host with the generated directive processor.
+- Testing the custom host with the generated directive processor.
 
 ## Prerequisites
 
 To define a DSL, you must have installed the following components:
 
-|||
-|-|-|
-|Visual Studio|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|
-|[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|
-|Visual Studio Visualization and Modeling SDK||
+
+|                                                                                 |                                                                                                |
+|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+|                                  Visual Studio                                  | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |
+| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580) |
+|                  Visual Studio Visualization and Modeling SDK                   |                                                                                                |
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
@@ -51,34 +52,34 @@ In addition, you must have the custom text template transformation created in [W
 
 In this walkthrough, you use the Domain-Specific Language Designer Wizard to create a domain-specific language for the solution DSLMinimalTest.
 
-1.  Create a domain-specific language solution that has the following characteristics:
+1. Create a domain-specific language solution that has the following characteristics:
 
-    -   Name: DSLMinimalTest
+   -   Name: DSLMinimalTest
 
-    -   Solution template: Minimal Language
+   -   Solution template: Minimal Language
 
-    -   File extension: min
+   -   File extension: min
 
-    -   Company name: Fabrikam
+   -   Company name: Fabrikam
 
    For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).
 
-2.  On the **Build** menu, click **Build Solution**.
+2. On the **Build** menu, click **Build Solution**.
 
-    > [!IMPORTANT]
-    > This step generates the directive processor and adds the key for it in the registry.
+   > [!IMPORTANT]
+   > This step generates the directive processor and adds the key for it in the registry.
 
-3.  On the **Debug** menu, click **Start Debugging**.
+3. On the **Debug** menu, click **Start Debugging**.
 
-     A second instance of Visual Studio opens.
+    A second instance of Visual Studio opens.
 
-4.  In the experimental build, in **Solution Explorer**, double-click the file **sample.min**.
+4. In the experimental build, in **Solution Explorer**, double-click the file **sample.min**.
 
-     The file opens in the designer. Notice that the model has two elements, ExampleElement1 and ExampleElement2, and a link between them.
+    The file opens in the designer. Notice that the model has two elements, ExampleElement1 and ExampleElement2, and a link between them.
 
-5.  Close the second instance of Visual Studio.
+5. Close the second instance of Visual Studio.
 
-6.  Save the solution, and then close the Domain-Specific Language Designer.
+6. Save the solution, and then close the Domain-Specific Language Designer.
 
 ## Connect a Custom Text Template Host to a Directive Processor
 

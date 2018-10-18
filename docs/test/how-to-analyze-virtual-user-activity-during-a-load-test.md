@@ -33,67 +33,67 @@ The procedures below demonstrate how to view the **Virtual User Activity Chart**
 
 ## To investigate a specific user's activity in the Virtual User Activity Chart
 
-1.  Use the Zoom to time period tool at the bottom of the **Virtual User Activity Chart** to select an area on the chart where you want to investigate details on a specific user.
+1. Use the Zoom to time period tool at the bottom of the **Virtual User Activity Chart** to select an area on the chart where you want to investigate details on a specific user.
 
-2.  Hover your pointer over a detail in the graph. Notice that the following information is displayed in the tool tip:
+2. Hover your pointer over a detail in the graph. Notice that the following information is displayed in the tool tip:
 
-    -   **User Id**
+   - **User Id**
 
-    -   **Scenario**
+   - **Scenario**
 
-    -   **Test**
+   - **Test**
 
-    -   **URL** (Does not display in a test or transaction)
+   - **URL** (Does not display in a test or transaction)
 
-    -   **Outcome**
+   - **Outcome**
 
-    -   **Browser** (Does not display in a test or transaction)
+   - **Browser** (Does not display in a test or transaction)
 
-    -   **Network**
+   - **Network**
 
-    -   **Start Time**
+   - **Start Time**
 
-    -   **Duration**
+   - **Duration**
 
-    -   **Agent**
+   - **Agent**
 
-    -   **Test log** (Link to the test log)
+   - **Test log** (Link to the test log)
 
-        > [!NOTE]
-        > To assist in debugging your application, if you choose the **Test log** link, the web test result or unit test result associated with the log open.
+     > [!NOTE]
+     > To assist in debugging your application, if you choose the **Test log** link, the web test result or unit test result associated with the log open.
 
      Next, you can use the filtering and highlighting operations available in the **Virtual User Activity Chart**.
 
 ## To use filtering options in the Virtual User Activity Chart
 
-1.  In the **Details Legend**, use the drop-down list to select either **Test**, **Page**, or **Transaction**.
+1. In the **Details Legend**, use the drop-down list to select either **Test**, **Page**, or **Transaction**.
 
-     **Details Legend panel**
+    **Details Legend panel**
 
-     ![Details legend panel](../test/media/ltest_detailslegend.png)
+    ![Details legend panel](../test/media/ltest_detailslegend.png)
 
-2.  Select or clear the check boxes for the errors, logs, tests, search, and aspx pages that are associated with the load test.
+2. Select or clear the check boxes for the errors, logs, tests, search, and aspx pages that are associated with the load test.
 
-     The **Virtual User Activity Chart** updates accordingly.
+    The **Virtual User Activity Chart** updates accordingly.
 
-     The **Virtual User Activity Chart** provides the ability to filter out tests, pages, and transactions based on several different criteria. You can remove certain tests from the view, or remove all successful tests, or remove tests that failed with certain failures. You can also remove all tests that do not have logs.
+    The **Virtual User Activity Chart** provides the ability to filter out tests, pages, and transactions based on several different criteria. You can remove certain tests from the view, or remove all successful tests, or remove tests that failed with certain failures. You can also remove all tests that do not have logs.
 
-     For example, you can select the **(Highlight errors)** option, which displays all errors on the chart colored in red. You can also select the **(Highlight results with logs)** option, which displays all the test results that have logs colored in green in the chart.
+    For example, you can select the **(Highlight errors)** option, which displays all errors on the chart colored in red. You can also select the **(Highlight results with logs)** option, which displays all the test results that have logs colored in green in the chart.
 
-     **Filter results panel**
+    **Filter results panel**
 
-     ![Filter results panel](../test/media/ltest_filterresults.png)
+    ![Filter results panel](../test/media/ltest_filterresults.png)
 
-3.  In the **Filter results**, select or clear the check boxes for the following filter options:
+3. In the **Filter results**, select or clear the check boxes for the following filter options:
 
-    -   **Show only results with logs** Displays only test results that have test logs associated with them.
+   - **Show only results with logs** Displays only test results that have test logs associated with them.
 
-    -   **Show successful results** Displays successful results.
+   - **Show successful results** Displays successful results.
 
-    -   **Show results with errors** Displays results with errors that can assist in debugging.
+   - **Show results with errors** Displays results with errors that can assist in debugging.
 
-        > [!NOTE]
-        > The list of error types that are listed under the **Show results with errors** node can be further investigated by choosing the **Tables** button in the **Web Performance Test Results Viewer** toolbar. For more information, see  [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
+     > [!NOTE]
+     > The list of error types that are listed under the **Show results with errors** node can be further investigated by choosing the **Tables** button in the **Web Performance Test Results Viewer** toolbar. For more information, see  [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
 
      The **Virtual User Activity Chart** updates accordingly.
 

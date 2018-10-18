@@ -33,12 +33,12 @@ The Image Content Pipeline can generate premultiplied alpha textures from a sour
 
 #### To create a texture that uses premultiplied alpha
 
-1.  Begin with a basic texture. Load an existing image file, or create one as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md).
+1. Begin with a basic texture. Load an existing image file, or create one as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md).
 
-2.  Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file and then choose **Properties**. On the **Configuration Properties** > **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.
+2. Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file and then choose **Properties**. On the **Configuration Properties** > **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.
 
-3.  Configure the Image Content Pipeline to generate premultiplied alpha. On the **Configuration Properties** > **Image Content Pipeline** > **General** page, set the **Convert to pre-multiplied alpha format** property to **Yes (/generatepremultipliedalpha)**.
+3. Configure the Image Content Pipeline to generate premultiplied alpha. On the **Configuration Properties** > **Image Content Pipeline** > **General** page, set the **Convert to pre-multiplied alpha format** property to **Yes (/generatepremultipliedalpha)**.
 
-4.  Choose the **OK** button.
+4. Choose the **OK** button.
 
- When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified—this includes conversion of the image to premultiplied alpha format—and the result is copied to the project's output directory.
+   When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified—this includes conversion of the image to premultiplied alpha format—and the result is copied to the project's output directory.

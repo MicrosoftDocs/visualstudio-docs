@@ -36,7 +36,7 @@ Use the **Advanced Build Settings** dialog box of the **Project Designer** to sp
 
 - **C# [version number]**
 
- Targets a specific version of C#. For more information, see [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option).
+  Targets a specific version of C#. For more information, see [/langversion (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option).
 
 
  **Internal Compiler Error Reporting**

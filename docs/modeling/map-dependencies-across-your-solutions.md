@@ -132,15 +132,15 @@ To see all the dependencies in your solution:
 
 10. Another way to focus in on a complex solution map is to generate a new map containing selected items from an existing map. Hold **Ctrl** while selecting the items you want to focus on, open the shortcut menu, and choose **New Graph from Selection**.
 
-   ![Show selected items on a new code map](../modeling/media/codemapsshowonnewmap.png)
+    ![Show selected items on a new code map](../modeling/media/codemapsshowonnewmap.png)
 
 11. The containing context is carried over to the new map. Hide Solution Folders and any other containers you don't want to see using the **Filters** pane.
 
-   ![Filter the containers to simplify the view](../modeling/media/codemapsexpandnewgroups.png)
+    ![Filter the containers to simplify the view](../modeling/media/codemapsexpandnewgroups.png)
 
 12. Expand the groups and select items in the map to view the relationships.
 
-   ![Select items to view the relationships](../modeling/media/codemapsviewnewrelationships.png)
+    ![Select items to view the relationships](../modeling/media/codemapsviewnewrelationships.png)
 
 Also see:
 

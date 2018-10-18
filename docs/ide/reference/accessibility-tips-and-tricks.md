@@ -78,18 +78,18 @@ Here's how.
 
 1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
 
-  ![Search box in Windows 10](media/type-here-to-search.png)
+   ![Search box in Windows 10](media/type-here-to-search.png)
 
-  (Alternatively, if you have Cortana enabled, say "Hey Cortana", and then say "Change system sounds".)
+   (Alternatively, if you have Cortana enabled, say "Hey Cortana", and then say "Change system sounds".)
 
 2. Double-click **Change system sounds**.
 
-  ![Search results in Windows 10](media/change-system-sounds.png)
+   ![Search results in Windows 10](media/change-system-sounds.png)
 
 3. In the **Sound** dialog box, click the **Sounds** tab. <br><br>
- Then, in **Program Events**, scroll to **Microsoft Visual Studio**, and select the sounds that you want to apply to the events that you choose.
+   Then, in **Program Events**, scroll to **Microsoft Visual Studio**, and select the sounds that you want to apply to the events that you choose.
 
-  ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png)
+   ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png)
 
 4. Click **OK**.
 

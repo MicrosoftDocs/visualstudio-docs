@@ -33,13 +33,13 @@ This refactoring applies to:
 
    - C#:
 
-    ![Highlighted code - C#](media/synctype-highlight-cs.png)
+     ![Highlighted code - C#](media/synctype-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code - Visual Basic](media/synctype-highlight-vb.png)
+     ![Highlighted code - Visual Basic](media/synctype-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.

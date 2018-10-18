@@ -24,14 +24,15 @@ You can display data to users of your application by binding data to controls. Y
 ## Data sources
  In the context of data binding, a data source represents the data in memory that can be bound to your user interface. In practical terms, a data source can be an Entity Framework class, a dataset, a service endpoint that is encapsulated in a .NET proxy object, a LINQ to SQL class, or any .NET object or collection. Some data sources enable you to create data-bound controls by dragging items from the **Data Sources** window, while other data sources do not. The following table shows which data sources are supported.
 
-|Data source|Drag-and-drop support in **the Windows Forms Designer**|Drag-and-drop support in **the WPF Designer**|Drag-and-drop support in **the Silverlight Designer**|
-|-----------------|---------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------|
-|Dataset|Yes|Yes|No|
-|Entity Data Model|Yes<sup>1</sup>|Yes|Yes|
-|LINQ to SQL classes|No<sup>2</sup>|No<sup>2</sup>|No<sup>2</sup>|
-|Services (including [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF services, and web services)|Yes|Yes|Yes|
-|Object|Yes|Yes|Yes|
-|SharePoint|Yes|Yes|Yes|
+
+|                                                    Data source                                                     | Drag-and-drop support in **the Windows Forms Designer** | Drag-and-drop support in **the WPF Designer** | Drag-and-drop support in **the Silverlight Designer** |
+|--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------------------------------------------|-------------------------------------------------------|
+|                                                      Dataset                                                       |                           Yes                           |                      Yes                      |                          No                           |
+|                                                 Entity Data Model                                                  |                     Yes<sup>1</sup>                     |                      Yes                      |                          Yes                          |
+|                                                LINQ to SQL classes                                                 |                     No<sup>2</sup>                      |                No<sup>2</sup>                 |                    No<sup>2</sup>                     |
+| Services (including [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF services, and web services) |                           Yes                           |                      Yes                      |                          Yes                          |
+|                                                       Object                                                       |                           Yes                           |                      Yes                      |                          Yes                          |
+|                                                     SharePoint                                                     |                           Yes                           |                      Yes                      |                          Yes                          |
 
  1. Generate the model using the **Entity Data Model** wizard, then drag those objects to the designer.
 

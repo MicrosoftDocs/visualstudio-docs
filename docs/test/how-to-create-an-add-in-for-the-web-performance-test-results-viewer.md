@@ -43,28 +43,28 @@ An add-in is a compiled DLL that runs in the Visual Studio integrated developmen
 
 ### To create an add-in by using the Add-In Wizard
 
-1.  In **Solution Explorer**, right-click the solution, choose **Add**, and then select **New Project**.
+1. In **Solution Explorer**, right-click the solution, choose **Add**, and then select **New Project**.
 
-     The **New Project** dialog box is displayed.
+    The **New Project** dialog box is displayed.
 
-2.  Under **Installed Templates**, expand **Other Project Types** and select **Extensibility**.
+2. Under **Installed Templates**, expand **Other Project Types** and select **Extensibility**.
 
-3.  In the list of templates, select **Visual Studio Add-in**.
+3. In the list of templates, select **Visual Studio Add-in**.
 
-4.  Under **Name**, type a name for the add-in. For example, **WebPerfTestResultsViewerAddin**.
+4. Under **Name**, type a name for the add-in. For example, **WebPerfTestResultsViewerAddin**.
 
-5.  Choose **OK**.
+5. Choose **OK**.
 
-     The Visual Studio **Add-In Wizard** starts.
+    The Visual Studio **Add-In Wizard** starts.
 
-6.  Choose **Next**.
+6. Choose **Next**.
 
-7.  On the **Select a Programming Language** page, select the programming language that you want to use to write the add-in.
+7. On the **Select a Programming Language** page, select the programming language that you want to use to write the add-in.
 
-    > [!NOTE]
-    > This topic uses Visual C# for the sample code.
+   > [!NOTE]
+   > This topic uses Visual C# for the sample code.
 
-8.  On the **Select An Application Host** page, select **Visual Studio** and clear **Visual Studio Macros**.
+8. On the **Select An Application Host** page, select **Visual Studio** and clear **Visual Studio Macros**.
 
 9. Choose **Next**.
 
@@ -90,11 +90,11 @@ An add-in is a compiled DLL that runs in the Visual Studio integrated developmen
 
      You will add code to the *Connect.cs* file after the following procedure, which creates a user control that will be referenced by this WebPerfTestResultsViewerAddin project.
 
- After an add-in is created, you must register it with Visual Studio before it can be activated in **Add-In Manager**. You do this by using an XML file that has an *.addin* file name extension.
+    After an add-in is created, you must register it with Visual Studio before it can be activated in **Add-In Manager**. You do this by using an XML file that has an *.addin* file name extension.
 
- The *.addin* file describes the information that Visual Studio requires to display the add-in in **Add-In Manager**. When Visual Studio starts, it looks in the *.addin* file location for any available *.addin* files. If it finds any, it reads the XML file and gives **Add-In Manager** the information that it requires to start the add-in when it is clicked.
+    The *.addin* file describes the information that Visual Studio requires to display the add-in in **Add-In Manager**. When Visual Studio starts, it looks in the *.addin* file location for any available *.addin* files. If it finds any, it reads the XML file and gives **Add-In Manager** the information that it requires to start the add-in when it is clicked.
 
- The *.addin* file is created automatically when you create an add-in by using the **Add-In Wizard**.
+    The *.addin* file is created automatically when you create an add-in by using the **Add-In Wizard**.
 
 ### Add-in file locations
 

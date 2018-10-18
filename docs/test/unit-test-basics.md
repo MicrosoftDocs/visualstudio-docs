@@ -42,17 +42,17 @@ In this topic, we use the development of a fictional application called `MyBank`
 
  We create a `MyBank` solution that contains two projects:
 
--   `Accounts`
+- `Accounts`
 
--   `BankDb`
+- `BankDb`
 
- Our first attempt at designing the `Accounts` project contains a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
+  Our first attempt at designing the `Accounts` project contains a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
 
--   *AccountInfo.cs* defines the basic information for an account.
+- *AccountInfo.cs* defines the basic information for an account.
 
--   *IAccount.cs* defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.
+- *IAccount.cs* defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.
 
--   *CheckingAccount.cs* contains the `CheckingAccount` class that implements the `IAccount` interface for a checking account.
+- *CheckingAccount.cs* contains the `CheckingAccount` class that implements the `IAccount` interface for a checking account.
 
 We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdraw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:
 
@@ -78,46 +78,46 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
  **Generate unit test project and unit test stubs**
 
-1.  From the code editor window, right-click and choose **Create Unit Tests** from the context menu.
+1. From the code editor window, right-click and choose **Create Unit Tests** from the context menu.
 
-     ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
+    ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
 
-2.  Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
+2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
-     ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png)
+    ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png)
 
-3.  The unit test stubs are created in a new unit test project for all the methods in the class.
+3. The unit test stubs are created in a new unit test project for all the methods in the class.
 
-     ![The unit tests are created](../test/media/createunittestsstubs.png)
+    ![The unit tests are created](../test/media/createunittestsstubs.png)
 
-4.  Now jump ahead to learn how to [add code to the unit test methods](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
+4. Now jump ahead to learn how to [add code to the unit test methods](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
 
- **Create your unit test project and unit tests manually**
+   **Create your unit test project and unit tests manually**
 
- A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
+   A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
 
- **To add a unit test project to a solution:**
+   **To add a unit test project to a solution:**
 
-1.  On the **File** menu, choose **New** and then choose **Project** (Keyboard **Ctrl**+**Shift**+**N**).
+5. On the **File** menu, choose **New** and then choose **Project** (Keyboard **Ctrl**+**Shift**+**N**).
 
-2.  On the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
+6. On the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
 
-3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
+7. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
 
-    > [!WARNING]
-    > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
+   > [!WARNING]
+   > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
 
-4.  In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
+8. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 
-     To create the reference to the code project:
+    To create the reference to the code project:
 
-    1.  Select the project in **Solution Explorer**.
+   1.  Select the project in **Solution Explorer**.
 
-    2.  On the **Project** menu, choose **Add Reference**.
+   2.  On the **Project** menu, choose **Add Reference**.
 
-    3.  On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
+   3.  On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
 
- Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
+   Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
 
 -   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
 

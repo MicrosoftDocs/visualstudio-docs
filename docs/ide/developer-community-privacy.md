@@ -70,14 +70,14 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Recording data, if you choose to include a recording, which includes:
 
-   - Steps to reproduce the problem
+  - Steps to reproduce the problem
 
-   - ETL trace file
+  - ETL trace file
 
-   - Dump file
+  - Dump file
 
-   > [!NOTE]
-   > You can delete any of the recording data that you don't wish to submit before submitting the report.
+    > [!NOTE]
+    > You can delete any of the recording data that you don't wish to submit before submitting the report.
 
 ## See also
 

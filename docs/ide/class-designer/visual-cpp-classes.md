@@ -125,12 +125,14 @@ For more information about anonymous classes, see [Anonymous Class Types](/cpp/c
 
 **Class Designer** supports the visualization of template classes. Nested declarations are supported. The following table shows some typical declarations.
 
-|Code element|Class Designer view|
-|------------------|-------------------------|
-|`template <class T>`<br /><br /> `class A {};`|`A<T>`<br /><br /> Template Class|
-|`template <class T, class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> Template Class|
-|`template <class T, int i>`<br /><br /> `class A {};`|`A<T, i>`<br /><br /> Template Class|
-|`template <class T, template <class K> class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> Template Class|
+
+|                                Code element                                |         Class Designer view          |
+|----------------------------------------------------------------------------|--------------------------------------|
+|               `template <class T>`<br /><br /> `class A {};`               |  `A<T>`<br /><br /> Template Class   |
+|          `template <class T, class U>`<br /><br /> `class A {};`           | `A<T, U>`<br /><br /> Template Class |
+|           `template <class T, int i>`<br /><br /> `class A {};`            | `A<T, i>`<br /><br /> Template Class |
+| `template <class T, template <class K> class U>`<br /><br /> `class A {};` | `A<T, U>`<br /><br /> Template Class |
+
 The following table shows some examples of partial specialization.
 
 |Code element|Class Designer view|

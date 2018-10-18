@@ -35,13 +35,13 @@ Alternatively, you can open Visual Studio with no script open in the source edit
 
 1. Place the cursor on a new line inside the body of a class that derives from `MonoBehaviour`.
 
-1. Begin typing the name of a Unity message, such as `OnTriggerEnter`.
+2. Begin typing the name of a Unity message, such as `OnTriggerEnter`.
 
-1. Once the letters "**ontri**" have been typed, a list of IntelliSense suggestions appears.
+3. Once the letters "**ontri**" have been typed, a list of IntelliSense suggestions appears.
 
-  ![Using IntelliSense](media/vstu_intellisense1.png)
+   ![Using IntelliSense](media/vstu_intellisense1.png)
 
-1. The selection on the list can be changed in three ways:
+4. The selection on the list can be changed in three ways:
 
     - With the **Up** and **Down** arrow keys.
 
@@ -49,7 +49,7 @@ Alternatively, you can open Visual Studio with no script open in the source edit
 
     - By continuing to type the name of the desired item.
 
-1. IntelliSense can insert the selected Unity message, including any necessary parameters:
+5. IntelliSense can insert the selected Unity message, including any necessary parameters:
 
     - By pressing **Tab**.
 
@@ -57,7 +57,7 @@ Alternatively, you can open Visual Studio with no script open in the source edit
 
     - By double-clicking the selected item.
 
-  ![Insert Unity message from IntelliSense](media/vstu_intellisense2.png)
+   ![Insert Unity message from IntelliSense](media/vstu_intellisense2.png)
 
 ## Unity MonoBehavior scripting wizard
 
@@ -67,17 +67,17 @@ To create empty MonoBehavior method definitions with the MonoBehavior wizard:
 
 1. In Visual Studio, position the cursor where you want the methods to be inserted, then press **Ctrl**+**Shift**+**M** to launch the MonoBehavior wizard.
 
-1. In the **Create script methods** window, mark the checkbox next to the name of each method you want to add.
+2. In the **Create script methods** window, mark the checkbox next to the name of each method you want to add.
 
-1. Use the **Framework version** dropdown to select your desired version.
+3. Use the **Framework version** dropdown to select your desired version.
 
-1. By default, the methods are inserted at the position of the cursor. Alternatively, you can choose to insert them after any method that's already implemented in your class by changing the value of the **Insertion point** dropdown to the location you want.
+4. By default, the methods are inserted at the position of the cursor. Alternatively, you can choose to insert them after any method that's already implemented in your class by changing the value of the **Insertion point** dropdown to the location you want.
 
-1. If you want the wizard to generate comments for the methods you selected, mark the **Generate method comments** checkbox. These comments are meant to help you understand when the method is called and what its general responsibilities are.
+5. If you want the wizard to generate comments for the methods you selected, mark the **Generate method comments** checkbox. These comments are meant to help you understand when the method is called and what its general responsibilities are.
 
-1. Choose the **OK** button to exit the wizard and insert the methods into your code.
+6. Choose the **OK** button to exit the wizard and insert the methods into your code.
 
- ![The monobehavior wizard dialog.](../cross-platform/media/vstu_monobehavior_wizard_full.png "vstu_monobehavior_wizard_full")
+   ![The monobehavior wizard dialog.](../cross-platform/media/vstu_monobehavior_wizard_full.png "vstu_monobehavior_wizard_full")
 
 ## Unity Project Explorer
 
@@ -99,13 +99,13 @@ To create empty MonoBehavior method definitions with the MonoBehavior wizard:
 
 1. Connect Visual Studio to Unity by clicking the **Play** button labeled **Attach to Unity**, or use the keyboard shortcut **F5**.
 
-  ![Click Play in Visual Studio](media/vstu_play-button.png)
+   ![Click Play in Visual Studio](media/vstu_play-button.png)
 
-1. Switch to Unity and click the **Play** button to run the game in the editor.
+2. Switch to Unity and click the **Play** button to run the game in the editor.
 
-  ![Click Play in Unity](media/vstu_unity-play-button.png)
+   ![Click Play in Unity](media/vstu_unity-play-button.png)
 
-1. When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio.
+3. When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio.
 
 #### Stop debugging
 
@@ -137,9 +137,9 @@ You can debug development builds of various Unity players with Visual Studio.
 
 1. In Unity, open the Build Settings by selecting **File > Build Settings**.
 
-1. In the Build Settings window, mark the **Development Build** and **Script Debugging** checkboxes.
+2. In the Build Settings window, mark the **Development Build** and **Script Debugging** checkboxes.
 
- ![Configure the Unity build settings for debugging.](../cross-platform/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")
+   ![Configure the Unity build settings for debugging.](../cross-platform/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")
 
 #### Select a Unity instance to attach the debugger to
 
@@ -151,17 +151,17 @@ You can debug development builds of various Unity players with Visual Studio.
 
      ![Choose an instance of Unity to connect to.](../cross-platform/media/vstu_attach-debugger.png "vstu_connection_to_unity")
 
- **Project**
- The name of the Unity project that's running in this instance of Unity.
+  **Project**
+  The name of the Unity project that's running in this instance of Unity.
 
- **Machine**
- The name of the computer or device that this instance of Unity is running on.
+  **Machine**
+  The name of the computer or device that this instance of Unity is running on.
 
- **Type**
- **Editor** if this instance of Unity is running as part of the Unity Editor; **Player** if this instance of Unity is a stand-alone player.
+  **Type**
+  **Editor** if this instance of Unity is running as part of the Unity Editor; **Player** if this instance of Unity is a stand-alone player.
 
- **Port**
- The port number of the UDP socket that this instance of Unity is communicating over.
+  **Port**
+  The port number of the UDP socket that this instance of Unity is communicating over.
 
 > [!IMPORTANT]
 > Because Visual Studio Tools for Unity and the Unity instance are communicating over a UDP network socket, your firewall might ask about it. If this happens, you'll have to authorize the connection so that VSTU and Unity can communicate.

@@ -20,17 +20,17 @@ By using the Modeling SDK for Visual Studio, you can create powerful model-based
 
  MSDK lets you develop a model quickly in the form of a domain-specific language (DSL). You begin by using a specialized editor to define a schema or abstract syntax together with a graphical notation. From this definition, VMSDK generates:
 
--   A model implementation with a strongly-typed API that runs in a transaction-based store.
+- A model implementation with a strongly-typed API that runs in a transaction-based store.
 
--   A tree-based explorer.
+- A tree-based explorer.
 
--   A graphical editor in which users can view the model or parts of it that you define.
+- A graphical editor in which users can view the model or parts of it that you define.
 
--   Serialization methods that save your models in readable XML.
+- Serialization methods that save your models in readable XML.
 
--   Facilities for generating program code and other artifacts using text templating.
+- Facilities for generating program code and other artifacts using text templating.
 
- You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.
+  You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

@@ -87,17 +87,17 @@ Before you can create the base content set, you must first uninstall all local V
 
 #### To uninstall local help
 
-1.  In the Help Viewer, choose the **Manage Content** tab.
+1. In the Help Viewer, choose the **Manage Content** tab.
 
-2.  Navigate to the Visual Studio document set.
+2. Navigate to the Visual Studio document set.
 
-3.  Choose **Remove** next to each sub-item.
+3. Choose **Remove** next to each sub-item.
 
-4.  Choose **Update** to uninstall.
+4. Choose **Update** to uninstall.
 
-5.  Browse to *%ProgramData%\Microsoft\HelpLibrary2\Catalogs\VisualStudio15* and verify that the folder only contains the file *catalogType.xml*.
+5. Browse to *%ProgramData%\Microsoft\HelpLibrary2\Catalogs\VisualStudio15* and verify that the folder only contains the file *catalogType.xml*.
 
- Once you have removed all previously installed local Visual Studio Help content, you are ready to download the base content set.
+   Once you have removed all previously installed local Visual Studio Help content, you are ready to download the base content set.
 
 #### To download the content
 

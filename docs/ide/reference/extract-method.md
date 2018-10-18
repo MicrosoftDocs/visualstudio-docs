@@ -35,13 +35,13 @@ This refactoring applies to:
 
    - C#:
 
-    ![Highlighted code- C#](media/extractmethod-highlight-cs.png)
+     ![Highlighted code- C#](media/extractmethod-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code - Visual Basic](media/extractmethod-highlight-vb.png)
+     ![Highlighted code - Visual Basic](media/extractmethod-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
      - Press **Ctrl+R**, then **Ctrl+M**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
@@ -58,13 +58,13 @@ This refactoring applies to:
 
    - C#:
 
-    ![Rename method - C#](media/extractmethod-rename-cs.png)
+     ![Rename method - C#](media/extractmethod-rename-cs.png)
 
    - Visual Basic:
 
-    ![Rename method - Visual Basic](media/extractmethod-rename-vb.png)
+     ![Rename method - Visual Basic](media/extractmethod-rename-vb.png)
 
-1. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
+3. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
 ## See also
 

@@ -164,7 +164,6 @@ void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { 
 
 // After
 void DoWork(CancellationToken cancellationToken = default) { ... }
-
 ```
 
 |  Diagnostic ID | Applicable Languages |  Supported Version |

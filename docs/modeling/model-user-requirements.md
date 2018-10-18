@@ -21,21 +21,21 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 
  A requirements model helps you:
 
--   Focus on the system's external behavior, separately from its internal design.
+- Focus on the system's external behavior, separately from its internal design.
 
--   Describe the users' and stakeholders' needs with much less ambiguity than you can in natural language.
+- Describe the users' and stakeholders' needs with much less ambiguity than you can in natural language.
 
--   Define a consistent glossary of terms that can be used by users, developers, and testers.
+- Define a consistent glossary of terms that can be used by users, developers, and testers.
 
--   Reduce gaps and inconsistencies in the requirements.
+- Reduce gaps and inconsistencies in the requirements.
 
--   Reduce the work needed to respond to requirements changes.
+- Reduce the work needed to respond to requirements changes.
 
--   Plan the order in which features will be developed.
+- Plan the order in which features will be developed.
 
--   Use the models as a basis for system tests, making a clear relationship between the tests and the requirements. When the requirements change, this relationship helps you update the tests correctly. This makes sure that the system meets the new requirements.
+- Use the models as a basis for system tests, making a clear relationship between the tests and the requirements. When the requirements change, this relationship helps you update the tests correctly. This makes sure that the system meets the new requirements.
 
- A requirements model provides greatest benefit if you use it to focus discussions with the users or their representatives, and revisit it at the beginning of each iteration. You do not have to complete it in detail before writing code. A partially working application, even if very much simplified, generally forms the most stimulating basis for discussion of the requirements with users. The model is an effective way to summarize the results of those discussions. For more information, see [Use models in your development process](../modeling/use-models-in-your-development-process.md).
+  A requirements model provides greatest benefit if you use it to focus discussions with the users or their representatives, and revisit it at the beginning of each iteration. You do not have to complete it in detail before writing code. A partially working application, even if very much simplified, generally forms the most stimulating basis for discussion of the requirements with users. The model is an effective way to summarize the results of those discussions. For more information, see [Use models in your development process](../modeling/use-models-in-your-development-process.md).
 
 > [!NOTE]
 > Throughout these topics, "system" means the system or the application that you are developing. It might be a large collection of many software and hardware components; or a single application; or a software component inside a larger system. In every case, the requirements model describes the behavior that is visible from outside your system, whether through a user interface or API.
@@ -56,7 +56,7 @@ You can create several different views of the users' requirements.  Each view pr
 
 A business rule is a requirement that is not associated with a particular use case, and should be observed throughout the system.
 
- Many business rules are constraints on the relationships among the conceptual classes. You can write these *static**business rules* as comments associated with the relevant classes on a conceptual class diagram. For example:
+ Many business rules are constraints on the relationships among the conceptual classes. You can write these *static*<em>business rules</em> as comments associated with the relevant classes on a conceptual class diagram. For example:
 
  ![Rule in Comment attached to Order class.](../modeling/media/uml_reqmcd2.png)
 

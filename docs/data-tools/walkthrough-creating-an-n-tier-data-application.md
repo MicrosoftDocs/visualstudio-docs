@@ -138,17 +138,17 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ### To separate the TableAdapters from the Dataset
 
-1.  Double-click **NorthwindDataSet.xsd** in **Solution Explorer** to open the dataset in the **Dataset Designer**.
+1. Double-click **NorthwindDataSet.xsd** in **Solution Explorer** to open the dataset in the **Dataset Designer**.
 
-2.  Select an empty area on the designer.
+2. Select an empty area on the designer.
 
-3.  Locate the **DataSet Project** node in the **Properties** window.
+3. Locate the **DataSet Project** node in the **Properties** window.
 
-4.  In the **DataSet Project** list, select **DataEntityTier**.
+4. In the **DataSet Project** list, select **DataEntityTier**.
 
-5.  On the **Build** menu, select **Build Solution**.
+5. On the **Build** menu, select **Build Solution**.
 
- The dataset and TableAdapters are separated into the two class library projects. The project that originally contained the whole dataset (`DataAccessTier`) now contains only the TableAdapters. The project designated in the **DataSet Project** property (`DataEntityTier`) contains the typed dataset: *NorthwindDataSet.Dataset.Designer.vb* (or *NorthwindDataSet.Dataset.Designer.cs*).
+   The dataset and TableAdapters are separated into the two class library projects. The project that originally contained the whole dataset (`DataAccessTier`) now contains only the TableAdapters. The project designated in the **DataSet Project** property (`DataEntityTier`) contains the typed dataset: *NorthwindDataSet.Dataset.Designer.vb* (or *NorthwindDataSet.Dataset.Designer.cs*).
 
 > [!NOTE]
 >  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be manually moved to the dataset project.

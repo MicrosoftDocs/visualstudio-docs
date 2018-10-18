@@ -59,26 +59,26 @@ Create the sample database by following these steps:
 
 ## Create the forms and add controls
 
-1.  Create a project for a Windows Forms application, and then name it **SimpleDataApp**.
+1. Create a project for a Windows Forms application, and then name it **SimpleDataApp**.
 
-     Visual Studio creates the project and several files, including an empty Windows form that's named **Form1**.
+    Visual Studio creates the project and several files, including an empty Windows form that's named **Form1**.
 
-2.  Add two Windows forms to your project so that it has three forms, and then give them the following names:
+2. Add two Windows forms to your project so that it has three forms, and then give them the following names:
 
-    -   **Navigation**
+   -   **Navigation**
 
-    -   **NewCustomer**
+   -   **NewCustomer**
 
-    -   **FillOrCancel**
+   -   **FillOrCancel**
 
-3.  For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.
+3. For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.
 
-    > [!NOTE]
-    >  The group box and the label controls add clarity but aren't used in the code.
+   > [!NOTE]
+   >  The group box and the label controls add clarity but aren't used in the code.
 
- **Navigation form**
+   **Navigation form**
 
- ![Navigation dialog box](../data-tools/media/simpleappnav.png)
+   ![Navigation dialog box](../data-tools/media/simpleappnav.png)
 
 |Controls for the Navigation form|Properties|
 |--------------------------------------|----------------|

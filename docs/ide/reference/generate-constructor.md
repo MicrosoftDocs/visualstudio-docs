@@ -91,13 +91,13 @@ This code generation applies to:
 
    - C#:
 
-    ![Highlighted code C#](media/constructor-highlight-cs.png)
+     ![Highlighted code C#](media/constructor-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code VB](media/constructor-highlight-vb.png)
+     ![Highlighted code VB](media/constructor-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -106,9 +106,9 @@ This code generation applies to:
      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-    ![Generate constructor preview](media/constructor-preview-cs.png)
+     ![Generate constructor preview](media/constructor-preview-cs.png)
 
-1. Select **Generate constructor in '*TypeName*'** from the drop-down menu.
+3. Select **Generate constructor in '*TypeName*'** from the drop-down menu.
 
    > [!TIP]
    > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.
@@ -127,11 +127,11 @@ This code generation applies to:
 
 1. Add a parameter to an existing constructor call.
 
-1. Place your cursor on the line where there is a red squiggle indicating you've used a constructor that doesn't yet exist.
+2. Place your cursor on the line where there is a red squiggle indicating you've used a constructor that doesn't yet exist.
 
     ![Generate constructor highlight](media/constructor4-highlight-cs.png)
 
-1. Next, do one of the following:
+3. Next, do one of the following:
 
    - **Keyboard**
      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -140,9 +140,9 @@ This code generation applies to:
      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-    ![Generate constructor preview](media/constructor4-preview-cs.png)
+     ![Generate constructor preview](media/constructor4-preview-cs.png)
 
-1. Select **Add parameter to 'TypeName(...)'** from the drop-down menu.
+4. Select **Add parameter to 'TypeName(...)'** from the drop-down menu.
 
    The parameter is added to the constructor, with its type inferred from its usage.
 

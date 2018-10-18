@@ -363,11 +363,11 @@ A class diagram has the following major features:
 
 - An *association* indicates some kind of relationship between two classifiers.
 
-    - An *aggregation* is an association that indicates a shared ownership between classifiers.
+  - An *aggregation* is an association that indicates a shared ownership between classifiers.
 
-    - A *composition* is an association that indicates a whole-part relationship between classifiers.
+  - A *composition* is an association that indicates a whole-part relationship between classifiers.
 
-     To show aggregations or compositions, set the **Aggregation** property on an association. **Shared** shows aggregations and **Composite** shows compositions.
+    To show aggregations or compositions, set the **Aggregation** property on an association. **Shared** shows aggregations and **Composite** shows compositions.
 
 - A *dependency* indicates that changing the definition of one classifier might change the definition of another classifier.
 
@@ -434,13 +434,13 @@ A dependency diagram has the following major features:
 
      The number on a layer shows the number of artifacts that are linked to the layer. These artifacts can be namespaces, projects, classes, methods, and so on. When you interpret the number of artifacts on a layer, remember the following:
 
-    - If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
+  - If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
 
-         For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.
+       For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.
 
-    - If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
+  - If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
 
-     To see the artifacts that are linked to a layer, right-click the dependency, and then click **View Links** to open **Layer Explorer**.
+    To see the artifacts that are linked to a layer, right-click the dependency, and then click **View Links** to open **Layer Explorer**.
 
 - A *dependency* indicates that one layer can use the functionality in another layer, but not vice versa. A *bidirectional dependency* indicates that one layer can use the functionality in another layer, and vice versa.
 

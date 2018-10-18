@@ -104,9 +104,9 @@ The status bar indicates when updates to your installed content are available.
 
 ### To update local content
 
--   In the lower-right corner of the status bar, choose the **Click here to download now** link.
+- In the lower-right corner of the status bar, choose the **Click here to download now** link.
 
- Update times can vary, but you can view the update progress in the status bar.
+  Update times can vary, but you can view the update progress in the status bar.
 
 ## Move local content
 
