@@ -33,14 +33,13 @@ Using the Azure Advisory Chat is easy.
 
 ## Eligibility
 
-|                                                      Subscription Level                                                      |     Channels      |    Benefit    | Renewable? |
-|------------------------------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
-|                                      Visual Studio Enterprise (Standard, annual cloud)                                       | VL, Azure, Retail |   One year    |    Yes     |
-| Visual Studio Professional (Standard, annual cloud, monthly cloud) Visual Studio Enterprise (monthly cloud, NFR<sup>1</sup>) |        All        | Not available |     No     |
-|                                          Visual Studio Test Professional (Standard)                                          |        All        | Not available |     No     |
-|                                                  MSDN Platforms (Standard)                                                   |        All        | Not available |     No     |
-|                                                 Visual Studio Dev Essentials                                                 |        N/A        | Not available |     No     |
-
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail   | One year      |  Yes          |
+| Visual Studio Professional (Standard, annual cloud, monthly cloud) Visual Studio Enterprise (monthly cloud, NFR<sup>1</sup>) | All                                      | Not available                                                            |  No          |
+| Visual Studio Test Professional (Standard)                         | All                                              | Not available                                             |  No          |
+| MSDN Platforms (Standard)                                          | All                                              |Not available                                              |  No          |
+| Visual Studio Dev Essentials                                          | N/A                                              |Not available                                              |  No          |
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft Valued Professional (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, MCT*
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.

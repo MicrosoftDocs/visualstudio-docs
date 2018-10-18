@@ -38,7 +38,6 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "subscriptions",
-    "markdownEngineName": "markdig"
+    "dest": "subscriptions"
   }
 }

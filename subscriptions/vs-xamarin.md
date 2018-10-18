@@ -26,7 +26,7 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
     > [!div class="mx-imgBorder"]
     > ![Xamarin University Training Benefit Tile](_img/vs-xamarin/vs-xamarin-tile.png)
 
-3.  You will be redirected to a Xamarin University web page entitled "Xamarin University Mobile Training for Microsoft Visual Studio".  Click **Activate My Subscription Now**.
+3.	You will be redirected to a Xamarin University web page entitled "Xamarin University Mobile Training for Microsoft Visual Studio".  Click **Activate My Subscription Now**.
     > [!div class="mx-imgBorder"]
     > ![Activate My Subscription Now](_img/vs-xamarin/vs-xamarin-activate.png)
 
@@ -41,7 +41,7 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
     > 4. Open a new browser and connect to [https://my.visualstudio.com](https://my.visualstudio.com).
     > 5. Activate the Xamarin University Training benefit again.
 
-4.  You'll see a sign-in page, with a notice that Xamarin recently moved to Microsoft authentication.  Click **Connect with Microsoft**.
+4.	You'll see a sign-in page, with a notice that Xamarin recently moved to Microsoft authentication.  Click **Connect with Microsoft**.
     > [!div class="mx-imgBorder"]
     > ![Connect with Microsoft](_img/vs-xamarin/vs-xamarin-connect.png)
 
@@ -62,7 +62,6 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
     > ![Xamarin University portal](_img/vs-xamarin/vs-xamarin-portal.png)
 
 ## Eligibility
-
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes |

@@ -66,14 +66,14 @@ The Visual Studio subscriptions portal brings together all your Visual Studio su
 
 On the Benefits page, the subscription in use will be prominently displayed in the blue banner. It's also displayed in the upper-right of the page.
 > [!div class="mx-imgBorder"]
-> ![The active subscription](_img/manage-vs-subscriptions/current-subscription-cropped.png)
+> ![The active subscription](_img\manage-vs-subscriptions\current-subscription-cropped.png)
 
 ### To switch between subscriptions, you can:
 
 - Click on the drop-down in the top right and choose the subscription from the list
 - Click on the Subscriptions tab and then click on the desired subscription
-  > [!div class="mx-imgBorder"]
-  > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png)
+> [!div class="mx-imgBorder"]
+> ![Switching subscriptions](_img\manage-vs-subscriptions\change-subscription-resized.png)
 
 ### If your subscription is not visible...
 
@@ -118,8 +118,8 @@ You can easily change the contact information and preferences in your profile.
 4. When you’ve finalized your changes, click **Save**.
 5. Click your browser's **back** button to return to the Benefits page.
 
-   > [!div class="mx-imgBorder"]
-   > ![Editing Profile Information](_img/manage-vs-subscriptions/edit-profile-resized.png)
+    > [!div class="mx-imgBorder"]
+    > ![Editing Profile Information](_img\manage-vs-subscriptions\edit-profile-resized.png)
 
 ### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
 
@@ -134,8 +134,8 @@ To add an alternate account:
 3. Under **Related Links**, choose **Add alternate account**.
 4. Enter your work/school account email address and click **Add**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Alternate Account](_img/manage-vs-subscriptions/alternate-account-resized.png)
+    > [!div class="mx-imgBorder"]
+    > ![Alternate Account](_img\manage-vs-subscriptions\alternate-account-resized.png)
 
 Once you have added an alternate account, you can update or remove it at any time by clicking the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
 

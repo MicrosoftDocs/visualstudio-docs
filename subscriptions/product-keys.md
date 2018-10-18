@@ -74,11 +74,11 @@ Only subscribers with active subscriptions can download products and claim produ
 
 
 To claim a product key:
-1. Sign in to your Visual Studio subscription.  You must be signed in to download products or claim product keys.
-2. Click on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
-3. Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.
-   > [!div class="mx-imgBorder"]
-   > ![Search for Product Key](_img/product-keys/visio-product-key-cropped.png)
+1.	Sign in to your Visual Studio subscription.  You must be signed in to download products or claim product keys.
+2.	Click on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
+3.	Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.
+    > [!div class="mx-imgBorder"]
+    > ![Search for Product Key](_img\product-keys\visio-product-key-cropped.png)
 
 In this example, we’ve used the search bar to locate a product key for Visio 2010.
 As you can see, there are several versions of Visio 2010 listed.  One key each has already been claimed for Visio Standard 2010 and Visio Premium 2010, and both have four keys remaining.  The keys that were claimed are both retail keys, and are displayed on the page.  Notice that you can record a brief note about claimed keys in the **Notes** column.  You can use this in conjunction with the date in the **Claimed** column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.
