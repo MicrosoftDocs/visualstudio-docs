@@ -53,7 +53,6 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 8. <strong>Right-click **MNIST project, **Submit Job</strong>
 
     ![Sample gallery](media/train-model/submit-job.png)
-
 9. Select your **Azure Batch AI** cluster, then click **Import**. Select the `AzureBatchAI_TF_MNIST.json` file to quickly populate some default values like which Docker Image to use. Then click **Submit**
 
     ![Sample gallery](media/train-model/submit-batch.png)

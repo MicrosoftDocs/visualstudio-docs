@@ -5,7 +5,7 @@ ms.date: 09/12/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "azure services"
   - "virtual machine; VM"
   - "installation"
