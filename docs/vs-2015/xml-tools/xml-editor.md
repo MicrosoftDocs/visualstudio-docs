@@ -21,27 +21,27 @@ manager: "ghogen"
   
 The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio Text Editor and includes additional support for the XML languages. The XML Editor includes the following features:  
   
--   XML 1.0 syntax checking.  
+- XML 1.0 syntax checking.  
   
--   Schema validation while you type.  
+- Schema validation while you type.  
   
--   XML snippets support, including schema-generated snippets.  
+- XML snippets support, including schema-generated snippets.  
   
--   Support for Document Type Definition (DTD).  
+- Support for Document Type Definition (DTD).  
   
--   Support for XML Schema definition language (XSD) schema.  
+- Support for XML Schema definition language (XSD) schema.  
   
--   Creating an XML Schema from an XML instance document.  
+- Creating an XML Schema from an XML instance document.  
   
--   Converting a DTD or XML-Data Reduced (XDR) schema into an XML Schema.  
+- Converting a DTD or XML-Data Reduced (XDR) schema into an XML Schema.  
   
--   XSLT 1.0 syntax checking.  
+- XSLT 1.0 syntax checking.  
   
--   Document outlining, so that elements can be expanded and collapsed.  
+- Document outlining, so that elements can be expanded and collapsed.  
   
--   Integration with the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md). This provides a hierarchal view of XML Schemas.  
+- Integration with the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md). This provides a hierarchal view of XML Schemas.  
   
- The XML Editor is invoked for well-known file extensions, such as .xml, .xsd, .xsl, and .config. It is also invoked on any unknown file extension if the file appears to contain XML. You can also open any file with the XML Editor by using the **Open With** option and selecting the XML Editor from the list.  
+  The XML Editor is invoked for well-known file extensions, such as .xml, .xsd, .xsl, and .config. It is also invoked on any unknown file extension if the file appears to contain XML. You can also open any file with the XML Editor by using the **Open With** option and selecting the XML Editor from the list.  
   
 ## Express Editions  
  The following XML Editor features are not available in the Visual Studio Express Editions:  

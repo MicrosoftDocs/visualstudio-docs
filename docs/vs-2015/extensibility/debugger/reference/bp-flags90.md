@@ -26,13 +26,13 @@ Enumerates valid values for optional flags. The optional flags may be used to sp
 ```cpp#  
 enum enum_BP_FLAGS90  
 {  
-   // VS 8.0 values  
-   BP90_FLAG_NONE               = 0x0000,  
-   BP90_FLAG_MAP_DOCPOSITION    = 0x0001,  
-   BP90_FLAG_DONT_STOP          = 0x0002,  
+   // VS 8.0 values  
+   BP90_FLAG_NONE               = 0x0000,  
+   BP90_FLAG_MAP_DOCPOSITION    = 0x0001,  
+   BP90_FLAG_DONT_STOP          = 0x0002,  
   
-   // Values added in VS 9.0  
-   BP90_FLAG_TRACEPOINT_CONTINUE = 0x0004,  
+   // Values added in VS 9.0  
+   BP90_FLAG_TRACEPOINT_CONTINUE = 0x0004,  
 };  
 typedef DWORD BP_FLAGS90;  
 ```  
@@ -40,13 +40,13 @@ typedef DWORD BP_FLAGS90;
 ```csharp  
 public enum enum_BP_FLAGS90  
 {  
-   // VS 8.0 values  
-   BP90_FLAG_NONE                = 0x0000,  
-   BP90_FLAG_MAP_DOCPOSITION     = 0x0001,  
-   BP90_FLAG_DONT_STOP           = 0x0002,  
+   // VS 8.0 values  
+   BP90_FLAG_NONE                = 0x0000,  
+   BP90_FLAG_MAP_DOCPOSITION     = 0x0001,  
+   BP90_FLAG_DONT_STOP           = 0x0002,  
   
-   // Values added in VS 9.0  
-   BP90_FLAG_TRACEPOINT_CONTINUE = 0x0004,  
+   // Values added in VS 9.0  
+   BP90_FLAG_TRACEPOINT_CONTINUE = 0x0004,  
 };  
 ```  
   

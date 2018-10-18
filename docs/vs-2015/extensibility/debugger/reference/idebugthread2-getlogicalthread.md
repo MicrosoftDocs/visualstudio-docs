@@ -27,15 +27,15 @@ Debug engines do not implement this method.
   
 ```cpp#  
 HRESULT GetLogicalThread(   
-   IDebugStackFrame2*     pStackFrame,  
-   IDebugLogicalThread2** ppLogicalThread  
+   IDebugStackFrame2*     pStackFrame,  
+   IDebugLogicalThread2** ppLogicalThread  
 );  
 ```  
   
 ```csharp  
 int GetLogicalThread(   
-   IDebugStackFrame2        pStackFrame,  
-   out IDebugLogicalThread2 ppLogicalThread  
+   IDebugStackFrame2        pStackFrame,  
+   out IDebugLogicalThread2 ppLogicalThread  
 );  
 ```  
   

@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1725: Parameter names should match base declaration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ParameterNamesShouldMatchBaseDeclaration|

@@ -28,7 +28,7 @@ Retrieves the number of bytes in a block.
   
 ```cpp#  
 HRESULT get_length (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

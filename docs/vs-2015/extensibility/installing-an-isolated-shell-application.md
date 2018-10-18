@@ -22,22 +22,22 @@ manager: "ghogen"
 
 To install a Shell app you must perform the following steps.  
   
--   Prepare your solution.  
+- Prepare your solution.  
   
--   Create a Windows Installer (MSI) package for your application.  
+- Create a Windows Installer (MSI) package for your application.  
   
--   Create a Setup bootstrapper.  
+- Create a Setup bootstrapper.  
   
- All of the example code in this document comes from the [Shell Deployment Sample](http://go.microsoft.com/fwlink/?LinkId=262245), which you can download from the Code Gallery on the MSDN website. The sample shows the results of performing each of these steps.  
+  All of the example code in this document comes from the [Shell Deployment Sample](http://go.microsoft.com/fwlink/?LinkId=262245), which you can download from the Code Gallery on the MSDN website. The sample shows the results of performing each of these steps.  
   
 ## Prerequisites  
  To perform the procedures that this topic describes, the following tools must be installed on your computer.  
   
--   The Visual Studio SDK  
+- The Visual Studio SDK  
   
--   The [Windows Installer XML Toolset](http://go.microsoft.com/fwlink/?LinkId=82720) version 3.6  
+- The [Windows Installer XML Toolset](http://go.microsoft.com/fwlink/?LinkId=82720) version 3.6  
   
- The sample also requires the Microsoft Visualization and Modeling SDK, which not all shells require.  
+  The sample also requires the Microsoft Visualization and Modeling SDK, which not all shells require.  
   
 ## Preparing Your Solution  
  By default, Shell templates build to VSIX packages, but this behavior is intended primarily for debugging purposes. When you deploy a Shell application, you must use MSI packages to allow for registry access and for restarts during installation. To prepare your application for MSI deployment, perform the following steps.  

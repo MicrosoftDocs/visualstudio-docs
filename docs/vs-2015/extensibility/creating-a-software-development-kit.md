@@ -21,15 +21,15 @@ A software development kit (SDK) is a collection of APIs that you can reference 
   
  There are two types of SDKs:  
   
--   Platform SDKs are mandatory components for developing apps for a platform. For example, the [!INCLUDE[win81](../includes/win81-md.md)] SDK is required to develop [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.  
+- Platform SDKs are mandatory components for developing apps for a platform. For example, the [!INCLUDE[win81](../includes/win81-md.md)] SDK is required to develop [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.  
   
--   Extension SDKs are optional components that extend a platform but aren’t mandatory for developing apps for that platform.  
+- Extension SDKs are optional components that extend a platform but aren’t mandatory for developing apps for that platform.  
   
- The following sections describe the general infrastructure of SDKs and how to create a platform SDK and an extension SDK.  
+  The following sections describe the general infrastructure of SDKs and how to create a platform SDK and an extension SDK.  
   
--   [Platform SDKs](#PlatformSDKs)  
+- [Platform SDKs](#PlatformSDKs)  
   
--   [Extension SDKs](#ExtensionSDKs)  
+- [Extension SDKs](#ExtensionSDKs)  
   
 ##  <a name="PlatformSDKs"></a> Platform SDKs  
  Platform SDKs are required to develop apps for a platform. For example, the [!INCLUDE[win81](../includes/win81-md.md)] SDK is required to develop apps for [!INCLUDE[win81](../includes/win81-md.md)].  

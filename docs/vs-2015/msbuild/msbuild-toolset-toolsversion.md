@@ -59,39 +59,39 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 ## Toolset Implementation  
  Implement a Toolset by selecting the paths of the various tools, targets, and tasks that make up the Toolset. The tools in the Toolset that MSBuild defines come from the following sources:  
   
--   The .NET Framework folder.  
+- The .NET Framework folder.  
   
--   Additional managed tools.  
+- Additional managed tools.  
   
- The managed tools include ResGen.exe and TlbImp.exe.  
+  The managed tools include ResGen.exe and TlbImp.exe.  
   
- MSBuild provides two ways to access the Toolset:  
+  MSBuild provides two ways to access the Toolset:  
   
--   By using Toolset properties  
+- By using Toolset properties  
   
--   By using <xref:Microsoft.Build.Utilities.ToolLocationHelper> methods  
+- By using <xref:Microsoft.Build.Utilities.ToolLocationHelper> methods  
   
- Toolset properties specify the paths of the tools. MSBuild uses the value of the `ToolsVersion` attribute in the project file to locate the corresponding registry key, and then uses the information in the registry key to set the Toolset properties. For example, if `ToolsVersion` has the value `12.0`, then MSBuild sets the Toolset properties according to this registry key: HKLM\Software\Microsoft\MSBuild\ToolsVersions\12.0.  
+  Toolset properties specify the paths of the tools. MSBuild uses the value of the `ToolsVersion` attribute in the project file to locate the corresponding registry key, and then uses the information in the registry key to set the Toolset properties. For example, if `ToolsVersion` has the value `12.0`, then MSBuild sets the Toolset properties according to this registry key: HKLM\Software\Microsoft\MSBuild\ToolsVersions\12.0.  
   
- These are Toolset properties:  
+  These are Toolset properties:  
   
--   `MSBuildToolsPath` specifies the path of the MSBuild binaries.  
+- `MSBuildToolsPath` specifies the path of the MSBuild binaries.  
   
--   `SDK40ToolsPath` specifies the path of additional managed tools for MSBuild 4.x (which could be 4.0 or 4.5).  
+- `SDK40ToolsPath` specifies the path of additional managed tools for MSBuild 4.x (which could be 4.0 or 4.5).  
   
--   `SDK35ToolsPath` specifies the path of additional managed tools for MSBuild 3.5.  
+- `SDK35ToolsPath` specifies the path of additional managed tools for MSBuild 3.5.  
   
- Alternately, you can determine the Toolset programmatically by calling the methods of the <xref:Microsoft.Build.Utilities.ToolLocationHelper> class. The class includes these methods:  
+  Alternately, you can determine the Toolset programmatically by calling the methods of the <xref:Microsoft.Build.Utilities.ToolLocationHelper> class. The class includes these methods:  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFramework%2A> returns the path of the .NET Framework folder.  
+- <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFramework%2A> returns the path of the .NET Framework folder.  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile%2A> returns the path of a file in the .NET Framework folder.  
+- <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile%2A> returns the path of a file in the .NET Framework folder.  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdk%2A> returns the path of the managed tools folder.  
+- <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdk%2A> returns the path of the managed tools folder.  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdkFile%2A> returns the path of a file, which is typically located in the managed tools folder.  
+- <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdkFile%2A> returns the path of a file, which is typically located in the managed tools folder.  
   
--   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools%2A> returns the path of the build tools.  
+- <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools%2A> returns the path of the build tools.  
   
 ### Sub-toolsets  
  As described earlier in this topic, MSBuild uses a registry key to specify the path of the basic tools. If the key has a subkey, MSBuild uses it to specify the path of a sub-toolset that contains additional tools. In this case, the Toolset is defined by combining the property definitions that are defined in both keys.  
@@ -101,19 +101,19 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
  Sub-toolsets become active in the presence of the `VisualStudioVersion` build property. This property may take one of these values:  
   
--   “10.0” specifies the .NET Framework 4 sub-toolset  
+- “10.0” specifies the .NET Framework 4 sub-toolset  
   
--   “11.0” specifies the .NET Framework 4.5 sub-toolset  
+- “11.0” specifies the .NET Framework 4.5 sub-toolset  
   
--   “12.0” specifies the .NET Framework 4.5.1 sub-toolset  
+- “12.0” specifies the .NET Framework 4.5.1 sub-toolset  
   
- Sub-toolsets 10.0 and 11.0 should be used with ToolsVersion 4.0. In later versions, the sub-toolset version and the ToolsVersion should match.  
+  Sub-toolsets 10.0 and 11.0 should be used with ToolsVersion 4.0. In later versions, the sub-toolset version and the ToolsVersion should match.  
   
- During a build, MSBuild automatically determines and sets a default value for the `VisualStudioVersion` property if it's not already defined.  
+  During a build, MSBuild automatically determines and sets a default value for the `VisualStudioVersion` property if it's not already defined.  
   
- MSBuild provides overloads for the `ToolLocationHelper` methods that add a `VisualStudioVersion` enumerated value as a parameter  
+  MSBuild provides overloads for the `ToolLocationHelper` methods that add a `VisualStudioVersion` enumerated value as a parameter  
   
- Sub-toolsets were introduced in the .NET Framework 4.5.  
+  Sub-toolsets were introduced in the .NET Framework 4.5.  
   
 ## See Also  
  [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md)   

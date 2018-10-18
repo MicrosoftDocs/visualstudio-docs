@@ -24,47 +24,47 @@ The following interfaces are the core interfaces for extending debugger by using
 ## Discussion  
  These interfaces are primarily used to create the debug engine (DE). They are organized here by categories:  
   
--   [Breakpoints](#Breakpoints)  
+- [Breakpoints](#Breakpoints)  
   
--   [Contexts](#Contexts)  
+- [Contexts](#Contexts)  
   
--   [Core Server](#CoreServer)  
+- [Core Server](#CoreServer)  
   
--   [Debug Engines](#DebugEngines)  
+- [Debug Engines](#DebugEngines)  
   
--   [Documents](#Documents)  
+- [Documents](#Documents)  
   
--   [Events](#Events)  
+- [Events](#Events)  
   
--   [Expressions](#Expressions)  
+- [Expressions](#Expressions)  
   
--   [Memory](#Memory)  
+- [Memory](#Memory)  
   
--   [Modules](#Modules)  
+- [Modules](#Modules)  
   
--   [Ports](#Ports)  
+- [Ports](#Ports)  
   
--   [Processes](#Processes)  
+- [Processes](#Processes)  
   
--   [Programs](#Programs)  
+- [Programs](#Programs)  
   
--   [Properties](#Properties)  
+- [Properties](#Properties)  
   
--   [Stack Frames](#StackFrames)  
+- [Stack Frames](#StackFrames)  
   
--   [Threads](#Threads)  
+- [Threads](#Threads)  
   
--   [Type Visualizers](#TypeVisualizers)  
+- [Type Visualizers](#TypeVisualizers)  
   
- The entities that can implement the interfaces are:  
+  The entities that can implement the interfaces are:  
   
--   Debug Engine (DE)  
+- Debug Engine (DE)  
   
--   Port Supplier (PS)  
+- Port Supplier (PS)  
   
--   Expression Evaluator (EE)  
+- Expression Evaluator (EE)  
   
--   Visual Studio (VS)  
+- Visual Studio (VS)  
   
 ##  <a name="Breakpoints"></a> Breakpoints  
  These interfaces are related to the implementation and tracking of breakpoints.  

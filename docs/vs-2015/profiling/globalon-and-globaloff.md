@@ -28,11 +28,11 @@ The VSPerfCmd.exe **GlobalOff** and **GlobalOn** options pause and resume profil
   
  The **GlobalOff** and **GlobalOn** options also affect the Global Start/Stop count that is manipulated by the profiler's API functions.  
   
--   **GlobalOff** immediately sets the Global Start/Stop Count to 0 and therefore pauses profiling.  
+- **GlobalOff** immediately sets the Global Start/Stop Count to 0 and therefore pauses profiling.  
   
--   **GlobalOn** immediately sets the Global Start/Stop Count to 1 and therefore resumes profiling.  
+- **GlobalOn** immediately sets the Global Start/Stop Count to 1 and therefore resumes profiling.  
   
- For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
+  For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
   
 ## Syntax  
   

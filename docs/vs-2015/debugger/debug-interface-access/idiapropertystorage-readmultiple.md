@@ -28,9 +28,9 @@ Reads specified properties from the current property set.
   
 ```cpp#  
 HRESULT ReadMultiple(   
-   ULONG          cpspec,  
-   PROPSPEC const rgpspec,  
-   PROPVARIANT    rgvar  
+   ULONG          cpspec,  
+   PROPSPEC const rgpspec,  
+   PROPVARIANT    rgvar  
 );  
 ```  
   

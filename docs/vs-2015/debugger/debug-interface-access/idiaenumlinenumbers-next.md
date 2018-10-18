@@ -28,9 +28,9 @@ Retrieves a specified number of line numbers in the enumeration sequence.
   
 ```cpp#  
 HRESULT Next (   
-   ULONG            celt,  
-   IDiaLineNumber** rgelt,  
-   ULONG*           pceltFetched  
+   ULONG            celt,  
+   IDiaLineNumber** rgelt,  
+   ULONG*           pceltFetched  
 );  
 ```  
   

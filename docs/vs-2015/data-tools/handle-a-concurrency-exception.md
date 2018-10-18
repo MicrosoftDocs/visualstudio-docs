@@ -123,13 +123,13 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
  The applicationpresents the user with three versions of the record:  
   
--   The current record in the database  
+- The current record in the database  
   
--   The original record that's loaded into the dataset  
+- The original record that's loaded into the dataset  
   
--   The proposed changes in the dataset  
+- The proposed changes in the dataset  
   
- The user is then able to either overwrite the database with the proposed version, or cancel the update and refresh the dataset with the new values from the database.  
+  The user is then able to either overwrite the database with the proposed version, or cancel the update and refresh the dataset with the new values from the database.  
   
 #### To enable the handling of concurrency errors  
   

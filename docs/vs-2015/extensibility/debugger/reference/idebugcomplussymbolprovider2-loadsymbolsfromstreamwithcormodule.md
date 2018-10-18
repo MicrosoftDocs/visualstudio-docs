@@ -26,23 +26,23 @@ Load debug symbols from a data stream given the **ICorDebugModule** object.
   
 ```cpp#  
 HRESULT LoadSymbolsFromStreamWithCorModule(  
-   ULONG32   ulAppDomainID,  
-   GUID      guidModule,  
-   ULONGLONG baseAddress,  
-   IUnknown* pUnkMetadataImport,  
-   IUnknown* pUnkCorDebugModule,  
-   IStream*  pStream  
+   ULONG32   ulAppDomainID,  
+   GUID      guidModule,  
+   ULONGLONG baseAddress,  
+   IUnknown* pUnkMetadataImport,  
+   IUnknown* pUnkCorDebugModule,  
+   IStream*  pStream  
 );  
 ```  
   
 ```csharp  
 int LoadSymbolsFromStreamWithCorModule(  
-   uint    ulAppDomainID,  
-   Guid    guidModule,  
-   ulong   baseAddress,  
-   object  pUnkMetadataImport,  
-   object  pUnkCorDebugModule,  
-   IStream pStream  
+   uint    ulAppDomainID,  
+   Guid    guidModule,  
+   ulong   baseAddress,  
+   object  pUnkMetadataImport,  
+   object  pUnkCorDebugModule,  
+   IStream pStream  
 );  
 ```  
   

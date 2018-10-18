@@ -25,17 +25,17 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
   
 ### To disable the hosting process  
   
-1.  Open an executable project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Projects that do not produce executables (for example, class library or service projects) do not have this option.  
+1. Open an executable project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Projects that do not produce executables (for example, class library or service projects) do not have this option.  
   
-2.  On the **Project** menu, click **Properties**.  
+2. On the **Project** menu, click **Properties**.  
   
-3.  Click the **Debug** tab.  
+3. Click the **Debug** tab.  
   
-4.  Clear the **Enable the Visual Studio hosting process** check box.  
+4. Clear the **Enable the Visual Studio hosting process** check box.  
   
- When the hosting process is disabled, several debugging features are unavailable or experience decreased performance. For more information, see [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md).  
+   When the hosting process is disabled, several debugging features are unavailable or experience decreased performance. For more information, see [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md).  
   
- In general, when the hosting process is disabled:  
+   In general, when the hosting process is disabled:  
   
 -   The time needed to begin debugging [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] applications increases.  
   

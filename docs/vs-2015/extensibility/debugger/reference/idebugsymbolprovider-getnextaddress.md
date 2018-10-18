@@ -27,17 +27,17 @@ Gets the debug address that follows a given debug address in a method.
   
 ```cpp#  
 HRESULT GetNextAddress(   
-   IDebugAddress*  pAddress,  
-   BOOL            fStatementOnly,  
-   IDebugAddress** ppAddress  
+   IDebugAddress*  pAddress,  
+   BOOL            fStatementOnly,  
+   IDebugAddress** ppAddress  
 );  
 ```  
   
 ```csharp  
 int GetNextAddress(   
-   IDebugAddress     pAddress,  
-   bool              fStatementOnly,  
-   out IDebugAddress ppAddress  
+   IDebugAddress     pAddress,  
+   bool              fStatementOnly,  
+   out IDebugAddress ppAddress  
 );  
 ```  
   

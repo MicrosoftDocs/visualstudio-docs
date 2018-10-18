@@ -28,9 +28,9 @@ Retrieves the next symbols in order by address.
   
 ```cpp#  
 HRESULT Next (   
-   ULONG        celt,   
-   IDiaSymbol** rgelt,  
-   ULONG*       pceltFetched  
+   ULONG        celt,   
+   IDiaSymbol** rgelt,  
+   ULONG*       pceltFetched  
 );  
 ```  
   

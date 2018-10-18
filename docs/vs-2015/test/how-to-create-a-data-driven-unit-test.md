@@ -28,21 +28,21 @@ Using the Microsoft unit test framework for managed code, you can set up a unit 
   
  This topic contains the following sections:  
   
--   [The method under test](../test/how-to-create-a-data-driven-unit-test.md#BKMK_The_method_under_test)  
+- [The method under test](../test/how-to-create-a-data-driven-unit-test.md#BKMK_The_method_under_test)  
   
--   [Creating a data source](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Creating_a_data_source)  
+- [Creating a data source](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Creating_a_data_source)  
   
--   [Adding a TestContext to the test class](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Adding_a_TestContext_to_the_test_class)  
+- [Adding a TestContext to the test class](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Adding_a_TestContext_to_the_test_class)  
   
--   [Writing the test method](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Writing_the_test_method)  
+- [Writing the test method](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Writing_the_test_method)  
   
-    -   [Specifying the DataSourceAttribute](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Specifying_the_DataSourceAttribute)  
+  -   [Specifying the DataSourceAttribute](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Specifying_the_DataSourceAttribute)  
   
-    -   [Using TestContext.DataRow to access the data](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Using_TestContext_DataRow_to_access_the_data)  
+  -   [Using TestContext.DataRow to access the data](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Using_TestContext_DataRow_to_access_the_data)  
   
--   [Running the test and viewing results](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Running_the_test_and_viewing_results)  
+- [Running the test and viewing results](../test/how-to-create-a-data-driven-unit-test.md#BKMK_Running_the_test_and_viewing_results)  
   
- Creating a data-driven unit test involves the following steps:  
+  Creating a data-driven unit test involves the following steps:  
   
 1.  Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.  
   
@@ -55,17 +55,17 @@ Using the Microsoft unit test framework for managed code, you can set up a unit 
 ##  <a name="BKMK_The_method_under_test"></a> The method under test  
  As an example, let's assume that we have created:  
   
-1.  A solution called `MyBank` that accepts and processes transactions for different types of accounts.  
+1. A solution called `MyBank` that accepts and processes transactions for different types of accounts.  
   
-2.  A project in `MyBank` called `BankDb` that manages the transactions for accounts.  
+2. A project in `MyBank` called `BankDb` that manages the transactions for accounts.  
   
-3.  A class called `Maths` in the `DbBank` project that performs the mathematical functions to ensure that any transaction is advantageous to the bank.  
+3. A class called `Maths` in the `DbBank` project that performs the mathematical functions to ensure that any transaction is advantageous to the bank.  
   
-4.  A unit test project called `BankDbTests` to test the behavior of the `BankDb` component.  
+4. A unit test project called `BankDbTests` to test the behavior of the `BankDb` component.  
   
-5.  A unit test class called `MathsTests` to verify the behavior of the `Maths` class.  
+5. A unit test class called `MathsTests` to verify the behavior of the `Maths` class.  
   
- We will test a method in `Maths` that adds two integers using a loop:  
+   We will test a method in `Maths` that adds two integers using a loop:  
   
 ```  
 public int AddIntegers(int first, int second)  

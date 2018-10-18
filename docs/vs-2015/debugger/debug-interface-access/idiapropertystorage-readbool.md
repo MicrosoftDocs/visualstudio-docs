@@ -28,8 +28,8 @@ Reads `BOOL` values in a property set.
   
 ```cpp#  
 HRESULT ReadBOOL (   
-   PROPID id,  
-   BOOL*  pValue  
+   PROPID id,  
+   BOOL*  pValue  
 );  
 ```  
   

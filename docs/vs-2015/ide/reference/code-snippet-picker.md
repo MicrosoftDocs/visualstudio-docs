@@ -29,23 +29,23 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Code Editor provides a **Cod
   
  The procedure to display the **Code Snippet Picker** varies according to the language you are using.  
   
--   [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] - Right-click at the desired location in the Code Editor to display the Shortcut menu, and select **Insert Snippet**.  
+- [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] - Right-click at the desired location in the Code Editor to display the Shortcut menu, and select **Insert Snippet**.  
   
--   [!INCLUDE[csprcs](../../includes/csprcs-md.md)] - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
+- [!INCLUDE[csprcs](../../includes/csprcs-md.md)] - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
   
--   [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] - The **Code Snippet Picker** is not available.  
+- [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] - The **Code Snippet Picker** is not available.  
   
--   Visual F# - The **Code Snippet Picker** is not available.  
+- Visual F# - The **Code Snippet Picker** is not available.  
   
--   [!INCLUDE[jsprjscript](../../includes/jsprjscript-md.md)] -- Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
+- [!INCLUDE[jsprjscript](../../includes/jsprjscript-md.md)] -- Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
   
--   XML - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
+- XML - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
   
--   HTML - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
+- HTML - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
   
--   SQL - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet**.  
+- SQL - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet**.  
   
- In most Visual Studio development languages, you can use the **Code Snippets Manager** to add folders to the **Folder List** that the **Code Snippet Picker** scans for XML snippet files. You can also create your own snippets to add to the list. For more information, see [Walkthrough: Creating a Code Snippet](../../ide/walkthrough-creating-a-code-snippet.md).  
+  In most Visual Studio development languages, you can use the **Code Snippets Manager** to add folders to the **Folder List** that the **Code Snippet Picker** scans for XML snippet files. You can also create your own snippets to add to the list. For more information, see [Walkthrough: Creating a Code Snippet](../../ide/walkthrough-creating-a-code-snippet.md).  
   
 ## UIElement List  
  Item Name  

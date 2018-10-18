@@ -34,25 +34,25 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
 #### To define an extension by using a project template  
   
-1.  Create a project in a new solution, by using the **New Project** command on the **File** menu.  
+1. Create a project in a new solution, by using the **New Project** command on the **File** menu.  
   
-2.  In the **New Project** dialog box, under **Modeling Projects**, select either **Layer Designer Command Extension** or **Layer Designer Gesture Extension**.  
+2. In the **New Project** dialog box, under **Modeling Projects**, select either **Layer Designer Command Extension** or **Layer Designer Gesture Extension**.  
   
-     The template creates a project that contains a small working example.  
+    The template creates a project that contains a small working example.  
   
-3.  To test the extension, press **CTRL+F5** or **F5**.  
+3. To test the extension, press **CTRL+F5** or **F5**.  
   
-     An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts. In this instance, create a layer diagram. Your command or gesture extension should work in this diagram.  
+    An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts. In this instance, create a layer diagram. Your command or gesture extension should work in this diagram.  
   
-4.  Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
+4. Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
-5.  You can add more command or gesture handlers to the same project. For more information, see one of the following sections:  
+5. You can add more command or gesture handlers to the same project. For more information, see one of the following sections:  
   
-     [Defining a Menu Command](#command)  
+    [Defining a Menu Command](#command)  
   
-     [Defining a Gesture Handler](#gesture)  
+    [Defining a Gesture Handler](#gesture)  
   
-6.  To install the extension in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
+6. To install the extension in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in **bin\\\\**<em>. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates</em>* on the **Tools** menu.  
   
 ## Adding a Command or Gesture to a separate VSIX  
  If you want to create one VSIX that contains commands, layer validators, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. For information about other types of modeling extension, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  
@@ -110,37 +110,37 @@ You can define context menu commands and gesture handlers on layer diagrams in V
 ##  <a name="command"></a> Defining a Menu Command  
  You can add more menu command definitions to an existing gesture or command project. Each command is defined by a class that has the following characteristics:  
   
--   The class is declared as follows:  
+- The class is declared as follows:  
   
-     `[LayerDesignerExtension]`  
+   `[LayerDesignerExtension]`  
   
-     `[Export(typeof(ICommandExtension))]`  
+   `[Export(typeof(ICommandExtension))]`  
   
-     `public class`  *MyLayerCommand*  `: ICommandExtension { ... }`  
+   `public class`  *MyLayerCommand*  `: ICommandExtension { ... }`  
   
--   The namespace and the name of the class are unimportant.  
+- The namespace and the name of the class are unimportant.  
   
--   The methods that implement `ICommandExtension` are as follows:  
+- The methods that implement `ICommandExtension` are as follows:  
   
-    -   `string Text {get;}` - The label that appears in the menu.  
+  -   `string Text {get;}` - The label that appears in the menu.  
   
-    -   `void QueryStatus(IMenuCommand command)` - called when the user right-clicks the diagram, and determines whether the command should be visible and enabled for the user's current selection.  
+  -   `void QueryStatus(IMenuCommand command)` - called when the user right-clicks the diagram, and determines whether the command should be visible and enabled for the user's current selection.  
   
-    -   `void Execute(IMenuCommand command)` - called when the user selects the command.  
+  -   `void Execute(IMenuCommand command)` - called when the user selects the command.  
   
--   To determine the current selection, you can import `IDiagramContext`:  
+- To determine the current selection, you can import `IDiagramContext`:  
   
-     `[Import]`  
+   `[Import]`  
   
-     `public IDiagramContext DiagramContext { get; set; }`  
+   `public IDiagramContext DiagramContext { get; set; }`  
   
-     `...`  
+   `...`  
   
-     `DiagramContext.CurrentDiagram.SelectedShapes.Count()...`  
+   `DiagramContext.CurrentDiagram.SelectedShapes.Count()...`  
   
- For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
+  For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
- To add a new command, create a new code file that contains the following sample. Then test and edit it.  
+  To add a new command, create a new code file that contains the following sample. Then test and edit it.  
   
 ```  
 using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer;  
@@ -236,30 +236,30 @@ namespace MyLayerExtensions // change to your preference
   
  Notice the following points about gesture handlers:  
   
--   The members of `IGestureExtension` are as follows:  
+- The members of `IGestureExtension` are as follows:  
   
-     **OnDoubleClick** - called when the user double-clicks anywhere on the diagram.  
+   **OnDoubleClick** - called when the user double-clicks anywhere on the diagram.  
   
-     **CanDragDrop** - called repeatedly as the user moves the mouse while dragging an item onto the diagram. It must work quickly.  
+   **CanDragDrop** - called repeatedly as the user moves the mouse while dragging an item onto the diagram. It must work quickly.  
   
-     **OnDragDrop** - called when the user drops an item onto the diagram.  
+   **OnDragDrop** - called when the user drops an item onto the diagram.  
   
--   The first argument to each method is an `IShape`, from which you can get the layer element. For example:  
+- The first argument to each method is an `IShape`, from which you can get the layer element. For example:  
   
-    ```  
-    public void OnDragDrop(IShape target, IDataObject data)  
-    {  
-        ILayerElement element = target.GetLayerElement();  
-        if (element is ILayer)  
-        {  
-            // ...  
-        }  
-    }  
-    ```  
+  ```  
+  public void OnDragDrop(IShape target, IDataObject data)  
+  {  
+      ILayerElement element = target.GetLayerElement();  
+      if (element is ILayer)  
+      {  
+          // ...  
+      }  
+  }  
+  ```  
   
--   Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a layer diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.  
+- Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a layer diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.  
   
- For more information about how to decode other items when they are dragged onto the diagram, see [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md).  
+  For more information about how to decode other items when they are dragged onto the diagram, see [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md).  
   
 ## See Also  
  [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md)   

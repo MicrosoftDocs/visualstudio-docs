@@ -26,17 +26,17 @@ Retrieves a type given its name.
   
 ```cpp#  
 HRESULT GetTypesByName(  
-   LPCOLESTR          pszClassName,  
-   NAME_MATCH         nameMatch,  
-   IEnumDebugFields** ppEnum  
+   LPCOLESTR          pszClassName,  
+   NAME_MATCH         nameMatch,  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int GetTypesByName(  
-   string               pszClassName,  
-   enum_ NAME_MATCH     nameMatch,  
-   out IEnumDebugFields ppEnum  
+   string               pszClassName,  
+   enum_ NAME_MATCH     nameMatch,  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

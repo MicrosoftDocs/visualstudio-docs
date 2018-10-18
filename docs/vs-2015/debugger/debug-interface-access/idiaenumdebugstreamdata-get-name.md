@@ -28,7 +28,7 @@ Retrieves the name of a debug data stream.
   
 ```cpp#  
 HRESULT get_Name (   
-   BSTR * pRetVal  
+   BSTR * pRetVal  
 )  
 ```  
   

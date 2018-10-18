@@ -71,7 +71,7 @@ manager: "ghogen"
  You can also choose to change the default colors for text, margin indicators, white space, and code elements in the editor.  
   
 > [!NOTE]
->  To use high contrast colors for all application windows on your operating system, press Left **ALT+**Left **SHIFT+PRINT SCREEN**. If [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is open, close and reopen [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to fully implement high contrast colors.  
+>  To use high contrast colors for all application windows on your operating system, press Left <strong>ALT+</strong>Left **SHIFT+PRINT SCREEN**. If [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is open, close and reopen [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to fully implement high contrast colors.  
   
 ##### To change the color of items in the editor  
   

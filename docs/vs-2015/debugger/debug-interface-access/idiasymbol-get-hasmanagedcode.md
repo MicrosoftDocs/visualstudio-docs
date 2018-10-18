@@ -28,7 +28,7 @@ Retrieves a flag indicating whether the module contains managed code.
   
 ```cpp#  
 HRESULT get_hasManagedCode(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

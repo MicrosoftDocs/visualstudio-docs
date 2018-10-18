@@ -65,13 +65,13 @@ public interface INodeLogger: ILogger
   
  There are two ways to use distributed logging, as follows:  
   
--   Customize the pre-fabricated forwarding logger named <xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger>.  
+- Customize the pre-fabricated forwarding logger named <xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger>.  
   
--   Write your own custom forwarding logger.  
+- Write your own custom forwarding logger.  
   
- You can modify ConfigurableForwardingLogger to suit your requirements. To do this, call the logger on the command line by using MSBuild.exe, and list the build events that you want the logger to forward to the central node.  
+  You can modify ConfigurableForwardingLogger to suit your requirements. To do this, call the logger on the command line by using MSBuild.exe, and list the build events that you want the logger to forward to the central node.  
   
- As an alternative, you can create a custom forwarding logger. By creating a custom forwarding logger, you can fine-tune the behavior of the logger. However, creating a custom forwarding logger is more complex than just customizing the ConfigurableForwardingLogger. For more information, see [Creating Forwarding Loggers](../msbuild/creating-forwarding-loggers.md).  
+  As an alternative, you can create a custom forwarding logger. By creating a custom forwarding logger, you can fine-tune the behavior of the logger. However, creating a custom forwarding logger is more complex than just customizing the ConfigurableForwardingLogger. For more information, see [Creating Forwarding Loggers](../msbuild/creating-forwarding-loggers.md).  
   
 ## Using the ConfigurableForwardingLogger for Simple Distributed Logging  
  To attach either a ConfigurableForwardingLogger or a custom forwarding logger, use the `/distributedlogger` switch (`/dl` for short) in an MSBuild.exe command-line build. The format for specifying the names of the logger types and classes is the same as that for the `/logger` switch, except that a distributed logger always has two logging classes instead of one, the forwarding logger and the central logger. The following is an example of how to attach a custom forwarding logger named XMLForwardingLogger.  

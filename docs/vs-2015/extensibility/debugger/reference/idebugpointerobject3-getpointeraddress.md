@@ -26,13 +26,13 @@ Retrieves the address of the pointer.
   
 ```cpp#  
 HRESULT GetPointerAddress (  
-   UINT64* puAddress  
+   UINT64* puAddress  
 );  
 ```  
   
 ```csharp  
 int GetPointerAddress (  
-   out ulong puAddress  
+   out ulong puAddress  
 );  
 ```  
   

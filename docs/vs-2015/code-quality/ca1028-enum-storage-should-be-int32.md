@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1028: Enum storage should be Int32
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|EnumStorageShouldBeInt32|

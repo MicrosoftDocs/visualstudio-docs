@@ -22,37 +22,37 @@ If you are using the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)] in [!INCLUD
   
 > [!NOTE]
 >  If multiple versions of Visual Studio have been installed and uninstalled on your machine, WF3 debugging can fail with one of the two following possibilities:  
->   
->  -   Your breakpoints are not hit.  
-> -   The following message is displayed:  
->   
->  **Unable to start debugging on the web server. The debugger is not properly installed.  Cannot debug the requested type of code.  Run setup to install or repair the debugger.**  
->   
->  If either of these scenarios occurs when debugging .NET Framework 3.0 or 3.5 workflows, perform a repair of the Visual Studio installation.  
+> 
+> - Your breakpoints are not hit.  
+>   -   The following message is displayed:  
+> 
+>   **Unable to start debugging on the web server. The debugger is not properly installed.  Cannot debug the requested type of code.  Run setup to install or repair the debugger.**  
+> 
+>   If either of these scenarios occurs when debugging .NET Framework 3.0 or 3.5 workflows, perform a repair of the Visual Studio installation.  
   
  [!INCLUDE[wf2](../includes/wf2-md.md)] integrates with the following standard [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debug windows:  
   
--   **Breakpoint**: Works as expected, but you specify an activity for the function name.  
+- **Breakpoint**: Works as expected, but you specify an activity for the function name.  
   
--   **Call Stack**: Modified to provide an outline of the activities that have executed in a workflow instance. The entries in the **Call Stack** window are a depth-first search of executing activities. You can double-click an entry to put focus on the selected activity.  
+- **Call Stack**: Modified to provide an outline of the activities that have executed in a workflow instance. The entries in the **Call Stack** window are a depth-first search of executing activities. You can double-click an entry to put focus on the selected activity.  
   
--   **Threads**: Provides the instance ID of the workflow instance that is being debugged.  
+- **Threads**: Provides the instance ID of the workflow instance that is being debugged.  
   
- Visual Studio for Windows Workflow Foundation does not support the following debugging features:  
+  Visual Studio for Windows Workflow Foundation does not support the following debugging features:  
   
--   Conditional breakpoints on the designer surface.  
+- Conditional breakpoints on the designer surface.  
   
--   QuickWatch.  
+- QuickWatch.  
   
--   Set next statement.  
+- Set next statement.  
   
--   Run to cursor.  
+- Run to cursor.  
   
--   Edit and continue.  
+- Edit and continue.  
   
--   Just-in-time debugging.  
+- Just-in-time debugging.  
   
--   Mixed-mode debugging.  
+- Mixed-mode debugging.  
   
 ## In This Section  
  [Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)](../workflow-designer/invoking-the-visual-studio-debugger-for-windows-workflow-foundation-legacy.md)  

@@ -27,13 +27,13 @@ This function creates a subproject with the given name under an existing parent 
   
 ```cpp#  
 SCCRTN SccCreateSubProject(  
-   LPVOID pContext,  
-   HWND   hWnd,  
-   LPSTR  lpUser,  
-   LPCSTR lpParentProjPath,  
-   LPCSTR lpSubProjName,  
-   LPSTR  lpAuxProjPath,  
-   LPSTR  lpSubProjPath  
+   LPVOID pContext,  
+   HWND   hWnd,  
+   LPSTR  lpUser,  
+   LPCSTR lpParentProjPath,  
+   LPCSTR lpSubProjName,  
+   LPSTR  lpAuxProjPath,  
+   LPSTR  lpSubProjPath  
 );  
 ```  
   

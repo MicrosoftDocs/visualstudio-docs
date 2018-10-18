@@ -28,7 +28,7 @@ Retrieves the original equipment manufacturer (OEM) symbol's ID value.
   
 ```cpp#  
 HRESULT get_oemSymbolId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

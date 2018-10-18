@@ -21,17 +21,17 @@ There are several basic types of shapes that you can used to display information
 ##  <a name="shapeTypes"></a> Basic Types of Shapes and Connectors  
  A DSL diagram shows a collection of *shapes* interlinked by lines or *connectors*.  Typically, but not always:  
   
--   Shapes are the visible representation of model elements.  
+- Shapes are the visible representation of model elements.  
   
--   Connectors represent reference relationships.  
+- Connectors represent reference relationships.  
   
--   The diagram represents the model root instance.  
+- The diagram represents the model root instance.  
   
--   Embedding relationships between model elements are shown by containment. For example, elements representing component ports are embedded in the component.  
+- Embedding relationships between model elements are shown by containment. For example, elements representing component ports are embedded in the component.  
   
- These patterns are not enforced, but are more strongly supported. When you design a DSL, bear in mind that the design of the embedding relationships should be influenced by how you want to present the model on the screen. By contrast, the reference relationships should reflect the concepts of your business domain.  
+  These patterns are not enforced, but are more strongly supported. When you design a DSL, bear in mind that the design of the embedding relationships should be influenced by how you want to present the model on the screen. By contrast, the reference relationships should reflect the concepts of your business domain.  
   
- The following types of shapes are available:  
+  The following types of shapes are available:  
   
 |Shape type|Description|  
 |----------------|-----------------|  

@@ -27,13 +27,13 @@ Unregisters a program that can be debugged from the port it is running on.
   
 ```cpp#  
 HRESULT RemoveProgramNode(   
-   IDebugProgramNode2* pProgramNode  
+   IDebugProgramNode2* pProgramNode  
 );  
 ```  
   
 ```csharp  
 int RemoveProgramNode(   
-   IDebugProgramNode2 pProgramNode  
+   IDebugProgramNode2 pProgramNode  
 );  
 ```  
   

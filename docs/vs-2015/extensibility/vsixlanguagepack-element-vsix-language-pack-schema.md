@@ -62,12 +62,12 @@ Required. Provides the root element for a VSIX language pack. The VSIX language 
   
 ## Element Information  
   
-|||  
-|-|-|  
-|Namespace|http://schemas.microsoft.com/developer/vsx-schema-lp/2010|  
-|Schema Name|VSIX Language Pack Schema|  
-|Validation File|VSIXLanguagePackSchema.xsd|  
-|Can be Empty|No|  
+|                 |                                                           |
+|-----------------|-----------------------------------------------------------|
+|    Namespace    | http://schemas.microsoft.com/developer/vsx-schema-lp/2010 |
+|   Schema Name   |                 VSIX Language Pack Schema                 |
+| Validation File |                VSIXLanguagePackSchema.xsd                 |
+|  Can be Empty   |                            No                             |
   
 ## See Also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   

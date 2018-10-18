@@ -51,15 +51,15 @@ The following sections provide lists of registry entries for the various languag
   
 ```  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\  
-  Languages\  
-    Language Services\  
-      C/C++\  
-        (Default)             = reg_sz:{B2F072B0-ABC1-11D0-9D62-00C04FD9DFD9}  
-        LangResID             = reg_dword:0x00000000  
-        Package               = reg_sz:{8C2EA640-ABC1-11D0-9D62-00C04FD9DFD9}  
-        ShowCompletion        = reg_dword:0x00000001  
-        ShowSmartIndent       = reg_dword:0x00000001  
-        ShowDropdownBarOption = reg_dword:0x00000001  
+  Languages\  
+    Language Services\  
+      C/C++\  
+        (Default)             = reg_sz:{B2F072B0-ABC1-11D0-9D62-00C04FD9DFD9}  
+        LangResID             = reg_dword:0x00000000  
+        Package               = reg_sz:{8C2EA640-ABC1-11D0-9D62-00C04FD9DFD9}  
+        ShowCompletion        = reg_dword:0x00000001  
+        ShowSmartIndent       = reg_dword:0x00000001  
+        ShowDropdownBarOption = reg_dword:0x00000001  
 ```  
   
 ## Registry Entries for Debugger Languages Options  
@@ -73,12 +73,12 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
   
 ```  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\  
-  Languages\  
-    Language Services\  
-      C/C++\  
-        Debugger Languages\  
-          {3A12D0B7-C26C-11D0-B442-00A0244A1DD2}\  
-            (Default) = reg_sz:C++  
+  Languages\  
+    Language Services\  
+      C/C++\  
+        Debugger Languages\  
+          {3A12D0B7-C26C-11D0-B442-00A0244A1DD2}\  
+            (Default) = reg_sz:C++  
 ```  
   
 ## Registry Entries for Editor Tools Options  
@@ -94,25 +94,25 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
   
 ```  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\  
-  Languages\  
-    Language Services\  
-      CSharp\  
-        EditorToolsOptions\  
-          Formatting\  
-            (Default) = reg_sz:#242  
-            Package   = reg_sz:{A066E284-DCAB-11D2-B551-00C04F68D4DB}  
-            General\  
-              (Default) = reg_sz:#255  
-              Package   = reg_sz:{A066E284-DCAB-11D2-B551-00C04F68D4DB}  
-              Page      = reg_sz:{3EB2CC0B-033E-4D75-B26A-B2362C25227E}  
-            Indentation\  
-              (Default) = reg_sz:#250  
-              Package   = reg_sz:{A066E284-DCAB-11D2-B551-00C04F68D4DB}  
-              Page      = reg_sz:{5E21D017-6D2A-4114-A1F1-C923F001CBBB}  
-            Newlines\  
-              (Default) = reg_sz:#253  
-              Package   = reg_sz:{A066E284-DCAB-11D2-B551-00C04F68D4DB}  
-              Page      = reg_sz:{607D8062-68D1-41E4-9A35-B5E7F14D0481}  
+  Languages\  
+    Language Services\  
+      CSharp\  
+        EditorToolsOptions\  
+          Formatting\  
+            (Default) = reg_sz:#242  
+            Package   = reg_sz:{A066E284-DCAB-11D2-B551-00C04F68D4DB}  
+            General\  
+              (Default) = reg_sz:#255  
+              Package   = reg_sz:{A066E284-DCAB-11D2-B551-00C04F68D4DB}  
+              Page      = reg_sz:{3EB2CC0B-033E-4D75-B26A-B2362C25227E}  
+            Indentation\  
+              (Default) = reg_sz:#250  
+              Package   = reg_sz:{A066E284-DCAB-11D2-B551-00C04F68D4DB}  
+              Page      = reg_sz:{5E21D017-6D2A-4114-A1F1-C923F001CBBB}  
+            Newlines\  
+              (Default) = reg_sz:#253  
+              Package   = reg_sz:{A066E284-DCAB-11D2-B551-00C04F68D4DB}  
+              Page      = reg_sz:{607D8062-68D1-41E4-9A35-B5E7F14D0481}  
 ```  
   
 ## Registry Entries for File Name Extension Options  
@@ -126,10 +126,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
   
 ```  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\  
-  Languages\  
-    File Extensions\  
-      .cpp\  
-        (Default) = {B2F072B0-ABC1-11D0-9D62-00C04FD9DFD9}  
+  Languages\  
+    File Extensions\  
+      .cpp\  
+        (Default) = {B2F072B0-ABC1-11D0-9D62-00C04FD9DFD9}  
 ```  
   
 ## Registry Entries for Editor Options  
@@ -148,13 +148,13 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
   
 ```  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\  
-  \Editors\  
-    {8281C572-2171-45AA-A642-7D8BC1662F1C}\  
-      (Default)            = reg_sz:Html Editor with Encoding  
-      DefaultToolboxTab    = reg_sz:HTML  
-      DisplayName          = reg_sz:#20101  
-      LinkedEditorGUID     = reg_sz:{C76D83F8-A489-11D0-8195-00A0C91BBEE3}  
-      Package              = reg_sz:{1B437D20-F8FE-11D2-A6AE-00104BCC7269}  
+  \Editors\  
+    {8281C572-2171-45AA-A642-7D8BC1662F1C}\  
+      (Default)            = reg_sz:Html Editor with Encoding  
+      DefaultToolboxTab    = reg_sz:HTML  
+      DisplayName          = reg_sz:#20101  
+      LinkedEditorGUID     = reg_sz:{C76D83F8-A489-11D0-8195-00A0C91BBEE3}  
+      Package              = reg_sz:{1B437D20-F8FE-11D2-A6AE-00104BCC7269}  
 ```  
   
 ## Registry Entries for Logical View Options  
@@ -169,14 +169,14 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
   
 ```  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\  
-  \Editors\  
-    {8281C572-2171-45AA-A642-7D8BC1662F1C}\  
-      LogicalViews\  
-       (Default) = reg_sz:  
-       {7651a700-06e5-11d1-8ebd-00a0c90f26ea} = reg_sz:  
-       {7651a701-06e5-11d1-8ebd-00a0c90f26ea} = reg_sz:  
-       {7651a702-06e5-11d1-8ebd-00a0c90f26ea} = reg_sz:  
-       {7651a703-06e5-11d1-8ebd-00a0c90f26ea} = reg_sz:  
+  \Editors\  
+    {8281C572-2171-45AA-A642-7D8BC1662F1C}\  
+      LogicalViews\  
+       (Default) = reg_sz:  
+       {7651a700-06e5-11d1-8ebd-00a0c90f26ea} = reg_sz:  
+       {7651a701-06e5-11d1-8ebd-00a0c90f26ea} = reg_sz:  
+       {7651a702-06e5-11d1-8ebd-00a0c90f26ea} = reg_sz:  
+       {7651a703-06e5-11d1-8ebd-00a0c90f26ea} = reg_sz:  
 ```  
   
 ## Registry Entries for Editor Extension Options  
@@ -193,14 +193,14 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
   
 ```  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0\  
-  \Editors\  
-    {8281C572-2171-45AA-A642-7D8BC1662F1C}\  
-      Extensions\  
-       (Default) = reg_sz:  
-       *         = reg_dword:0x00000018  
-       html      = reg_dword:0x00000027  
-       shtm      = reg_dword:0x00000027  
-       shtml     = reg_dword:0x00000027  
+  \Editors\  
+    {8281C572-2171-45AA-A642-7D8BC1662F1C}\  
+      Extensions\  
+       (Default) = reg_sz:  
+       *         = reg_dword:0x00000018  
+       html      = reg_dword:0x00000027  
+       shtm      = reg_dword:0x00000027  
+       shtml     = reg_dword:0x00000027  
 ```  
   
 ## Registry Entries for Managed Package Framework Language Service Options  
@@ -225,16 +225,16 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0\
   
 ```  
 ExampleHKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\  
-  Languages\  
-    Language Services\  
-      XML\  
-        (Default)             = reg_sz:{f6819a78-a205-47b5-be1c-675b3c7f0b8e}  
-        MatchBraces           = reg_dword:0x00000001  
-        QuickInfo             = reg_dword:0x00000001  
-        ShowMatchingBrace     = reg_dword:0x00000001  
-        MatchBracesAtCaret    = reg_dword:0x00000000  
-        MaxErrorMessages      = reg_dword:0x00000064  
-        CodeSenseDelay        = reg_dword:0x000001f4  
+  Languages\  
+    Language Services\  
+      XML\  
+        (Default)             = reg_sz:{f6819a78-a205-47b5-be1c-675b3c7f0b8e}  
+        MatchBraces           = reg_dword:0x00000001  
+        QuickInfo             = reg_dword:0x00000001  
+        ShowMatchingBrace     = reg_dword:0x00000001  
+        MatchBracesAtCaret    = reg_dword:0x00000000  
+        MaxErrorMessages      = reg_dword:0x00000064  
+        CodeSenseDelay        = reg_dword:0x000001f4  
         MaxRegions            = reg_dword:0x0000000a  
 ```  
   

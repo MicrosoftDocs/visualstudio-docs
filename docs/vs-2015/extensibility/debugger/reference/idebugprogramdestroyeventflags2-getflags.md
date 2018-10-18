@@ -26,13 +26,13 @@ Retrieves the program destroy flags.
   
 ```cpp#  
 HRESULT GetFlags(  
-   PROGRAM_DESTROY_FLAGS* pdwFlags  
+   PROGRAM_DESTROY_FLAGS* pdwFlags  
 );  
 ```  
   
 ```csharp  
 public int GetFlags(  
-   out enum_PROGRAM_DESTROY_FLAGS pdwFlags  
+   out enum_PROGRAM_DESTROY_FLAGS pdwFlags  
 );  
 ```  
   

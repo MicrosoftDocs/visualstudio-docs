@@ -27,24 +27,24 @@ Maps a document position in the specified module to an array of debug addresses.
 ```  
 [C++]  
 HRESULT GetAddressesInModuleFromPosition(  
-   ULONG32                  ulAppDomainID,  
-   GUID                     guidModule,  
-   IDebugDocumentPosition2* pDocPos,  
-   BOOL                     fStatmentOnly,  
-   IEnumDebugAddresses**    ppEnumBegAddresses,  
-   IEnumDebugAddresses**    ppEnumEndAddresses  
+   ULONG32                  ulAppDomainID,  
+   GUID                     guidModule,  
+   IDebugDocumentPosition2* pDocPos,  
+   BOOL                     fStatmentOnly,  
+   IEnumDebugAddresses**    ppEnumBegAddresses,  
+   IEnumDebugAddresses**    ppEnumEndAddresses  
 );  
 ```  
   
 ```  
 [C#]  
 int GetAddressesInModuleFromPosition(  
-   uint                    ulAppDomainID,  
-   Guid                    guidModule,  
-   IDebugDocumentPosition2 pDocPos,  
-   bool                    fStatmentOnly,  
-   out IEnumDebugAddresses ppEnumBegAddresses,  
-   out IEnumDebugAddresses ppEnumEndAddresses  
+   uint                    ulAppDomainID,  
+   Guid                    guidModule,  
+   IDebugDocumentPosition2 pDocPos,  
+   bool                    fStatmentOnly,  
+   out IEnumDebugAddresses ppEnumBegAddresses,  
+   out IEnumDebugAddresses ppEnumEndAddresses  
 );  
 ```  
   

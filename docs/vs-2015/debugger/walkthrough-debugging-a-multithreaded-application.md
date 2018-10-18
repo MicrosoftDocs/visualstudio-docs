@@ -99,17 +99,17 @@ Thread::Sleep(3000);
   
 #### To discover the thread marker  
   
-1.  Right-click in the **Threads** window, then click **Show Threads in Source**.  
+1. Right-click in the **Threads** window, then click **Show Threads in Source**.  
   
-2.  Look at the gutter on the left side of the window. On this line, you will see an icon that resembles two cloth threads. One thread is red and the other is blue. The thread marker indicates that a thread is stopped at this location. Possibly, thread is stopped at this location.  
+2. Look at the gutter on the left side of the window. On this line, you will see an icon that resembles two cloth threads. One thread is red and the other is blue. The thread marker indicates that a thread is stopped at this location. Possibly, thread is stopped at this location.  
   
-3.  Hover the pointer over the thread marker. A DataTip that appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
+3. Hover the pointer over the thread marker. A DataTip that appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
   
-4.  Right-click the thread marker. Note the choices on the shortcut menu.  
+4. Right-click the thread marker. Note the choices on the shortcut menu.  
   
- This icon is a *thread marker*:  
+   This icon is a *thread marker*:  
   
- ![Thread Marker](../debugger/media/threadmarker.gif "ThreadMarker")  
+   ![Thread Marker](../debugger/media/threadmarker.gif "ThreadMarker")  
   
 ## Flagging and Unflagging Threads  
  In [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)], you can flag threads that you want to give special attention. Flagging threads is a good way to keep track of important threads and ignore threads you do not care about.  

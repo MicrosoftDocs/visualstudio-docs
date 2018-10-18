@@ -75,31 +75,31 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
 #### To add references to read a model in a stand-alone application.  
   
-1.  In Solution Explorer, right-click the project in which you are building the application, and then click **Properties**. In the properties editor, in the **Application** tab, set **Target Framework** to the required version of the .NET Framework.  
+1. In Solution Explorer, right-click the project in which you are building the application, and then click **Properties**. In the properties editor, in the **Application** tab, set **Target Framework** to the required version of the .NET Framework.  
   
-2.  Add the [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] references you need for accessing UML models, typically:  
+2. Add the [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] references you need for accessing UML models, typically:  
   
-    -   Microsoft.VisualStudio.Uml.Interfaces.dll  
+   -   Microsoft.VisualStudio.Uml.Interfaces.dll  
   
-    -   Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll  
+   -   Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll  
   
-3.  In addition to the references listed in the previous sections, add the following project references from **\Program Files\Microsoft Visual Studio [version]\Common7\IDE\PrivateAssemblies**:  
+3. In addition to the references listed in the previous sections, add the following project references from **\Program Files\Microsoft Visual Studio [version]\Common7\IDE\PrivateAssemblies**:  
   
-    -   Microsoft.VisualStudio.Uml.dll  
+   - Microsoft.VisualStudio.Uml.dll  
   
-    -   Microsoft.VisualStudio.TeamArchitect.ModelStore.Dsl.dll  
+   - Microsoft.VisualStudio.TeamArchitect.ModelStore.Dsl.dll  
   
      If you want to read diagrams in your application, you might also require these references:  
   
-    -   Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.Dsl.dll  
+   - Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.Dsl.dll  
   
-    -   Microsoft.VisualStudio.TeamArchitect.ComponentDesigner.Dsl.dll  
+   - Microsoft.VisualStudio.TeamArchitect.ComponentDesigner.Dsl.dll  
   
-    -   Microsoft.VisualStudio.TeamArchitect.LogicalClassDesigner.Dsl.dll  
+   - Microsoft.VisualStudio.TeamArchitect.LogicalClassDesigner.Dsl.dll  
   
-    -   Microsoft.VisualStudio.TeamArchitect.SequenceDesigner.Dsl.dll  
+   - Microsoft.VisualStudio.TeamArchitect.SequenceDesigner.Dsl.dll  
   
-    -   Microsoft.VisualStudio.TeamArchitect.UseCase.Dsl.dll  
+   - Microsoft.VisualStudio.TeamArchitect.UseCase.Dsl.dll  
   
 ## See Also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   

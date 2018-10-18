@@ -90,11 +90,11 @@ Many data examples require the ability to connect to the Northwind, Pubs, andAdv
   
 #### To install the Northwind sample database for Microsoft Access  
   
-1.  In Microsoft Access 2010 or later, search online templates for Northwind, and choose **Desktop Northwind 2007 sample database**.  
+1. In Microsoft Access 2010 or later, search online templates for Northwind, and choose **Desktop Northwind 2007 sample database**.  
   
-2.  In Microsoft Access, save the database file as Northwind.accdb.  
+2. In Microsoft Access, save the database file as Northwind.accdb.  
   
- The new extension for Access databases is .accdb. See [Data Programming with Microsoft Access 2010](http://msdn.microsoft.com/library/office/ff965871.aspx). To connect to the Northwind database by using Access, see [How to: Connect to the Northwind Database](../data-tools/how-to-connect-to-the-northwind-database.md).  
+   The new extension for Access databases is .accdb. See [Data Programming with Microsoft Access 2010](http://msdn.microsoft.com/library/office/ff965871.aspx). To connect to the Northwind database by using Access, see [How to: Connect to the Northwind Database](../data-tools/how-to-connect-to-the-northwind-database.md).  
   
 ## .NET Framework Security  
  The sample databases are for illustration only, and do not necessarily demonstrate the best security practices.  

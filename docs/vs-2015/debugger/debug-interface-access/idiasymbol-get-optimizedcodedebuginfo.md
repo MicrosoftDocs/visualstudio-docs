@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether the function contains debug information 
   
 ```cpp  
 HRESULT get_optimizedCodeDebugInfo(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

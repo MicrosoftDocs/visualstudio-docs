@@ -27,15 +27,15 @@ This method gets the field that contains the debug address.
   
 ```cpp#  
 HRESULT GetContainerField(   
-   IDebugAddress*         pAddress,  
-   IDebugContainerField** ppContainerField  
+   IDebugAddress*         pAddress,  
+   IDebugContainerField** ppContainerField  
 );  
 ```  
   
 ```csharp  
 int GetContainerField(  
-   IDebugAddress            pAddress,   
-   out IDebugContainerField ppContainerField  
+   IDebugAddress            pAddress,   
+   out IDebugContainerField ppContainerField  
 );  
 ```  
   

@@ -21,40 +21,40 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
   
  Before customizing the code coverage behavior, consider some alternatives:  
   
--   *I want to exclude the test code from the code coverage results and include only the application code.*  
+- *I want to exclude the test code from the code coverage results and include only the application code.*  
   
-     Add the `ExcludeFromCodeCoverage Attribute` to your test class.  
+   Add the `ExcludeFromCodeCoverage Attribute` to your test class.  
   
--   *I want to include assemblies that are not part of my solution.*  
+- *I want to include assemblies that are not part of my solution.*  
   
-     Obtain the .pdb files for these assemblies and copy them into the same folder as the assembly .dll files.  
+   Obtain the .pdb files for these assemblies and copy them into the same folder as the assembly .dll files.  
   
- To customize the code coverage behavior, copy the [sample at the end of this topic](#sample) and add it to your solution using the file extension .runsettings. Edit it to your own needs, and then on the **Test** menu, choose **Test Settings**, **Select Test Settings** file. The remainder of this topic describes this procedure in more detail.  
+  To customize the code coverage behavior, copy the [sample at the end of this topic](#sample) and add it to your solution using the file extension .runsettings. Edit it to your own needs, and then on the **Test** menu, choose **Test Settings**, **Select Test Settings** file. The remainder of this topic describes this procedure in more detail.  
   
 ## The .runsettings file  
  Advanced code coverage settings are specified in a .runsettings file. This is the configuration file used by unit testing tools. We recommend you copy the [sample at the end of this topic](#sample) and edit it to suit your own needs.  
   
--   *What happened to the .testsettings file I used in Visual Studio 2010?*  
+- *What happened to the .testsettings file I used in Visual Studio 2010?*  
   
-     In Visual Studio 2010, the .testsettings file applies only to unit tests based on the MSTest framework. In Visual Studio 2012, the testing tools apply not only to MSTest, but also other frameworks such as NUnit and xUnit.net. The .testsettings file will not work with these. The .runsettings file is designed to customize the test tools in a way that works with all testing frameworks.  
+   In Visual Studio 2010, the .testsettings file applies only to unit tests based on the MSTest framework. In Visual Studio 2012, the testing tools apply not only to MSTest, but also other frameworks such as NUnit and xUnit.net. The .testsettings file will not work with these. The .runsettings file is designed to customize the test tools in a way that works with all testing frameworks.  
   
- To customize code coverage, you will need to add a .runsettings file to your solution:  
+  To customize code coverage, you will need to add a .runsettings file to your solution:  
   
-1.  Add an .xml file as a solution item with the extension `.runsettings`:  
+1. Add an .xml file as a solution item with the extension `.runsettings`:  
   
-     In Solution Explorer, on the shortcut menu of your solution, choose **Add**, **New Item**, and select **XML File**. Save the file with a name ending such as `CodeCoverage.runsettings`  
+    In Solution Explorer, on the shortcut menu of your solution, choose **Add**, **New Item**, and select **XML File**. Save the file with a name ending such as `CodeCoverage.runsettings`  
   
-2.  Add the content given in the sample at the end of this topic, and then customize it to your needs as described in the following sections.  
+2. Add the content given in the sample at the end of this topic, and then customize it to your needs as described in the following sections.  
   
-3.  On the **Test** menu, choose **Test Settings**, **Select Test Settings File** and select the file.  
+3. On the **Test** menu, choose **Test Settings**, **Select Test Settings File** and select the file.  
   
-4.  Now when you run **Analyze Code Coverage**, this `.runsettings` file will control its behavior. Don’t forget that you must run code coverage again: your previous coverage results and code coloring aren’t automatically hidden when you run tests or update your code.  
+4. Now when you run **Analyze Code Coverage**, this `.runsettings` file will control its behavior. Don’t forget that you must run code coverage again: your previous coverage results and code coloring aren’t automatically hidden when you run tests or update your code.  
   
-5.  To turn the custom settings off and on, deselect or select the file in the **Test**, **Test Settings** menu.  
+5. To turn the custom settings off and on, deselect or select the file in the **Test**, **Test Settings** menu.  
   
- ![Test settings menu with custom settings file](../test/media/codecoverage-settingsfile.png "CodeCoverage-settingsFile")  
+   ![Test settings menu with custom settings file](../test/media/codecoverage-settingsfile.png "CodeCoverage-settingsFile")  
   
- Other aspects of unit tests can be configured in the same .runsettings file. For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
+   Other aspects of unit tests can be configured in the same .runsettings file. For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
   
 ### Specifying symbol search paths  
  Code coverage requires symbols (.pdb files) for assemblies to be present. For assemblies built by your solution, symbol files are generally present alongside the binary files, and code coverage works automatically. But in some cases, you might want to include referenced assemblies in your code coverage analysis. In such cases, the .pdb files might not be adjacent to the binaries, but you can specify the symbol search path in the .runsettings file.  
@@ -100,21 +100,21 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ### Regular expressions  
  Include and exclude nodes use regular expressions. For more information, see [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Regular expressions are not the same as wildcards. In particular:  
   
-1.  **\.\*** matches a string of any characters  
+1. **\.\\*** matches a string of any characters  
   
-2.  **\\.** matches a dot ".")  
+2. **\\.** matches a dot ".")  
   
-3.  **\\(   \\)** matches parentheses "(  )"  
+3. **\\(   \\)** matches parentheses "(  )"  
   
-4.  **\\\\** matches a file path delimiter "\\"  
+4. **\\\\** matches a file path delimiter "\\"  
   
-5.  **^** matches the start of the string  
+5. **^** matches the start of the string  
   
-6.  **$** matches the end of the string  
+6. **$** matches the end of the string  
   
- All matches are case-insensitive.  
+   All matches are case-insensitive.  
   
- For example:  
+   For example:  
   
 ```xml  
 <ModulePaths>  
@@ -138,25 +138,25 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ### Other ways to include or exclude elements  
  See the [sample at the end of this topic](#sample) for examples.  
   
--   `ModulePath` – Assemblies specified by assembly file path.  
+- `ModulePath` – Assemblies specified by assembly file path.  
   
--   `CompanyName` – matches assemblies by the Company attribute.  
+- `CompanyName` – matches assemblies by the Company attribute.  
   
--   `PublicKeyToken` – matches signed assemblies by the public key token. For example to match all Visual Studio components and extensions, use `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`.  
+- `PublicKeyToken` – matches signed assemblies by the public key token. For example to match all Visual Studio components and extensions, use `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`.  
   
--   `Source` – matches elements by the path name of the source file in which they are defined.  
+- `Source` – matches elements by the path name of the source file in which they are defined.  
   
--   `Attribute` – matches elements to which a particular attribute is attached. Specify the full name of the attribute, including "Attribute" at the end of the name.  
+- `Attribute` – matches elements to which a particular attribute is attached. Specify the full name of the attribute, including "Attribute" at the end of the name.  
   
--   `Function` – matches procedures, functions, or methods by fully qualified name.  
+- `Function` – matches procedures, functions, or methods by fully qualified name.  
   
- **Matching a function name**  
+  **Matching a function name**  
   
- Your regular expression must match the fully qualified name of the function, including namespace, class name, method name and parameter list. For example,  
+  Your regular expression must match the fully qualified name of the function, including namespace, class name, method name and parameter list. For example,  
   
--   C# or Visual Basic: `Fabrikam.Math.LocalMath.SquareRoot(double)`  
+- C# or Visual Basic: `Fabrikam.Math.LocalMath.SquareRoot(double)`  
   
--   C++:  `Fabrikam::Math::LocalMath::SquareRoot(double)`  
+- C++:  `Fabrikam::Math::LocalMath::SquareRoot(double)`  
   
 ```xml  
 <Functions>  
@@ -195,17 +195,17 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
   
  ![Specifying runsettings in a build definition](../test/media/codecoverage-buildrunsettings.png "CodeCoverage-buildRunsettings")  
   
-1.  Make sure your .runsettings file is checked in.  
+1. Make sure your .runsettings file is checked in.  
   
-2.  In Team Explorer, open **Builds**, and then add or edit a build definition.  
+2. In Team Explorer, open **Builds**, and then add or edit a build definition.  
   
-3.  On the **Process** page, expand **Automated Tests**, **Test Source**, **Run Settings**. Select your **.runsettings** file.  
+3. On the **Process** page, expand **Automated Tests**, **Test Source**, **Run Settings**. Select your **.runsettings** file.  
   
-    -   *But **Test Assembly** appears instead of **Test Source**. When I try to set the **Run Settings** field, I can only select .testsettings files.*  
+   - <em>But **Test Assembly</em>* appears instead of **Test Source**. When I try to set the **Run Settings** field, I can only select .testsettings files.*  
   
-         Under **Automated Tests**, select **Test Assembly**, and choose **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, set **Test Runner** to **Visual Studio Test Runner**.  
+      Under **Automated Tests**, select **Test Assembly**, and choose **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, set **Test Runner** to **Visual Studio Test Runner**.  
   
- The results are visible in the summary section of the build report.  
+   The results are visible in the summary section of the build report.  
   
 ##  <a name="sample"></a> Sample .runsettings file  
  Copy this code and edit it to suit your own needs. This is the default .runsettings file.  
@@ -228,8 +228,8 @@ Note that searching for symbols increases code coverage runtime. So keep this sm
 -->   
 <!--             
             <SymbolSearchPaths>                
-                   <Path>C:\Users\User\Documents\Visual Studio 2012\Projects\ProjectX\bin\Debug</Path>  
-                   <Path>\\mybuildshare\builds\ProjectX</Path>  
+                   <Path>C:\Users\User\Documents\Visual Studio 2012\Projects\ProjectX\bin\Debug</Path>  
+                   <Path>\\mybuildshare\builds\ProjectX</Path>  
             </SymbolSearchPaths>  
 -->  
   

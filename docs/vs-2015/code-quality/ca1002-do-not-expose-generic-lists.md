@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1002: Do not expose generic lists
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotExposeGenericLists|

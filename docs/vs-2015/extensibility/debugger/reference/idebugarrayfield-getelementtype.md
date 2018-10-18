@@ -27,13 +27,13 @@ Gets the type of element in the array.
   
 ```cpp#  
 HRESULT GetElementType(   
-   IDebugField** ppType  
+   IDebugField** ppType  
 );  
 ```  
   
 ```csharp  
 int GetElementType(  
-   out IDebugField ppType  
+   out IDebugField ppType  
 );  
 ```  
   

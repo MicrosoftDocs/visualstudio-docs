@@ -28,10 +28,10 @@ Retrieves the specified record.
   
 ```cpp#  
 HRESULT Item (   
-   DWORD  index,  
-   DWORD  cbData,  
-   DWORD* pcbData,  
-   BYTE   data[]  
+   DWORD  index,  
+   DWORD  cbData,  
+   DWORD* pcbData,  
+   BYTE   data[]  
 );  
 ```  
   

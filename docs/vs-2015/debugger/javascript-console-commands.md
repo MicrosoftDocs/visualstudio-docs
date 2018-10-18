@@ -84,7 +84,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 ```javascript  
 if (console && console.log) {  
-    console.log("msg");  
+    console.log("msg");  
 }  
   
 ```  
@@ -110,16 +110,16 @@ console.log(user.first, user.last);
   
  The following substitution patterns are supported:  
   
--   %s - string  
-     %i - integer  
-     %d - integer  
-     %f - float  
-     %o - object  
-     %b - binary  
-     %x - hexadecimal  
-     %e - exponent  
+- %s - string  
+   %i - integer  
+   %d - integer  
+   %f - float  
+   %o - object  
+   %b - binary  
+   %x - hexadecimal  
+   %e - exponent  
   
- Here are some examples of using substitution patterns in `console.log`:  
+  Here are some examples of using substitution patterns in `console.log`:  
   
 ```javascript  
 var user = new Object();  

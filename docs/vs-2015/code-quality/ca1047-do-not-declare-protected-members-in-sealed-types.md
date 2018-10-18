@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1047: Do not declare protected members in sealed types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotDeclareProtectedMembersInSealedTypes|

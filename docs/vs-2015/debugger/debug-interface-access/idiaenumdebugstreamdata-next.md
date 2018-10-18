@@ -28,11 +28,11 @@ Retrieves a specified number of records in the enumerated sequence.
   
 ```cpp#  
 HRESULT Next (   
-   ULONG  celt,  
-   DWORD  cbData,  
-   DWORD* pcbData,  
-   BYTE   data[],  
-   ULONG* pceltFetched  
+   ULONG  celt,  
+   DWORD  cbData,  
+   DWORD* pcbData,  
+   BYTE   data[],  
+   ULONG* pceltFetched  
 );  
 ```  
   

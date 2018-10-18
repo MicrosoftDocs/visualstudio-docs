@@ -35,25 +35,25 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process is defined by a s
   
 #### To override a predefined target  
   
-1.  Identify a predefined target in Microsoft.Common.targets that you want to override. See the table below for the complete list of targets that you can safely override.  
+1. Identify a predefined target in Microsoft.Common.targets that you want to override. See the table below for the complete list of targets that you can safely override.  
   
-2.  Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:  
+2. Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:  
   
-    ```  
-    <Project>  
-        ...  
-        <Target Name="BeforeBuild">  
-            <!-- Insert tasks to run before build here -->  
-        </Target>  
-        <Target Name="AfterBuild">  
-            <!-- Insert tasks to run after build here -->  
-        </Target>  
-    </Project>  
-    ```  
+   ```  
+   <Project>  
+       ...  
+       <Target Name="BeforeBuild">  
+           <!-- Insert tasks to run before build here -->  
+       </Target>  
+       <Target Name="AfterBuild">  
+           <!-- Insert tasks to run after build here -->  
+       </Target>  
+   </Project>  
+   ```  
   
-3.  Build the project file.  
+3. Build the project file.  
   
- The following table shows all of the targets in Microsoft.Common.targets that you can safely override.  
+   The following table shows all of the targets in Microsoft.Common.targets that you can safely override.  
   
 |Target Name|Description|  
 |-----------------|-----------------|  

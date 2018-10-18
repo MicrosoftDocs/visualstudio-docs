@@ -28,8 +28,8 @@ Retrieves a symbol by means of an index.
   
 ```cpp#  
 HRESULT Item (   
-   DWORD        index,  
-   IDiaSymbol** symbol  
+   DWORD        index,  
+   IDiaSymbol** symbol  
 );  
 ```  
   

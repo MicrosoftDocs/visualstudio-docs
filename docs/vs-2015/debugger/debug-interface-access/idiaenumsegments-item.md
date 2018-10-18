@@ -28,8 +28,8 @@ Retrieves a segment by means of an index.
   
 ```cpp#  
 HRESULT Item (   
-   DWORD         index,  
-   IDiaSegment** segment  
+   DWORD         index,  
+   IDiaSegment** segment  
 );  
 ```  
   

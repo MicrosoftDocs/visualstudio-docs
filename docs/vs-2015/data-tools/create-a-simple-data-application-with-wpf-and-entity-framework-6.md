@@ -46,37 +46,37 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 ## Create the model  
   
-1.  Right click on the project node in Solution Explorer and choose **Add &#124; New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
+1. Right click on the project node in Solution Explorer and choose **Add &#124; New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
   
-     ![Entity Framework Model New Project Item](../data-tools/media/raddata-ef-new-project-item.png "raddata EF New Project Item")  
+    ![Entity Framework Model New Project Item](../data-tools/media/raddata-ef-new-project-item.png "raddata EF New Project Item")  
   
-2.  Call the model `Northwind_model` and choose OK. This brings up the **Entity Data Model Wizard**. Choose **EF Designer from database** and then click **Next**.  
+2. Call the model `Northwind_model` and choose OK. This brings up the **Entity Data Model Wizard**. Choose **EF Designer from database** and then click **Next**.  
   
-     ![EF Model from Database](../data-tools/media/raddata-ef-model-from-database.png "raddata EF Model from Database")  
+    ![EF Model from Database](../data-tools/media/raddata-ef-model-from-database.png "raddata EF Model from Database")  
   
-3.  In the next screen, choose your LocalDB Northwind connection and click **Next**.  
+3. In the next screen, choose your LocalDB Northwind connection and click **Next**.  
   
-4.  In the next page of the wizard, we choose which tables, stored procedures and other database objects to include in the Entity Framework model. Expand the dbo node in the tree view and choose Customers, Orders and Order Details. Leave defaults checked and click **Finish**.  
+4. In the next page of the wizard, we choose which tables, stored procedures and other database objects to include in the Entity Framework model. Expand the dbo node in the tree view and choose Customers, Orders and Order Details. Leave defaults checked and click **Finish**.  
   
-     ![Choose database Objects for the model](../data-tools/media/raddata-choose-ef-objects.png "raddata Choose EF Objects")  
+    ![Choose database Objects for the model](../data-tools/media/raddata-choose-ef-objects.png "raddata Choose EF Objects")  
   
-5.  The wizard generates the C# classes that represent the Entity Framework model. These are plain old C# classes and they are what we will databind to the WPF user interface. The .edmx file describes the relationships and other metadata that associates the classes with objects in the database.  The .tt files are T4 templates that generate the code that will operate on the model and save changes to the database. You can see all these files in Solution Explorer under the Northwind_model node:  
+5. The wizard generates the C# classes that represent the Entity Framework model. These are plain old C# classes and they are what we will databind to the WPF user interface. The .edmx file describes the relationships and other metadata that associates the classes with objects in the database.  The .tt files are T4 templates that generate the code that will operate on the model and save changes to the database. You can see all these files in Solution Explorer under the Northwind_model node:  
   
-     ![Solution Explorer EF model files](../data-tools/media/raddata-solution-explorer-ef-model-files.png "raddata Solution Explorer EF model files")  
+    ![Solution Explorer EF model files](../data-tools/media/raddata-solution-explorer-ef-model-files.png "raddata Solution Explorer EF model files")  
   
-     The designer surface for the .edmx file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.  
+    The designer surface for the .edmx file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.  
   
-6.  The .tt files are general-purpose and we need to tweak one of them to work with WPF databinding, which requires ObservableCollections.  In Solution Explorer, expand the Northwind_model node until you find Northwind_model.tt. (Make sure you are **not** in the *.Context .tt file which is directly below the .edmx file).  
+6. The .tt files are general-purpose and we need to tweak one of them to work with WPF databinding, which requires ObservableCollections.  In Solution Explorer, expand the Northwind_model node until you find Northwind_model.tt. (Make sure you are **not** in the *.Context .tt file which is directly below the .edmx file).  
   
-    -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.  
+   -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.  
   
-    -   Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet  
+   -   Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet  
   
-    -   Replace the only occurrence of <xref:System.Collections.Generic> (around line 334) with <xref:System.Collections.ObjectModel>.  
+   -   Replace the only occurrence of <xref:System.Collections.Generic> (around line 334) with <xref:System.Collections.ObjectModel>.  
   
-7.  Press **Ctrl + Shift + B** to build the project. When the build finishes,  the model classes are visible to the data sources wizard.  
+7. Press **Ctrl + Shift + B** to build the project. When the build finishes,  the model classes are visible to the data sources wizard.  
   
- Now we are ready to hook up this model to the XAML page so that we can view, navigate and modify the data.  
+   Now we are ready to hook up this model to the XAML page so that we can view, navigate and modify the data.  
   
 ## Databind the model to the XAML page  
  It is possible to write your own databinding code, but it is much easier to let Visual Studio do it for you.  

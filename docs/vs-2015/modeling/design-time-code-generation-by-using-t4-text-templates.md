@@ -76,66 +76,66 @@ Design-time T4 text templates let you generate program code and other files in y
 ### Regenerating the code  
  A template will be executed, generating the subsidiary file, in any of the following cases:  
   
--   Edit the template and then change focus to a different [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] window.  
+- Edit the template and then change focus to a different [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] window.  
   
--   Save the template.  
+- Save the template.  
   
--   Click **Transform All Templates** in the **Build** menu. This will transform all the templates in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.  
+- Click **Transform All Templates** in the **Build** menu. This will transform all the templates in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.  
   
--   In **Solution Explorer**, on the shortcut menu of any file, choose **Run Custom Tool**. Use this method to transform a selected subset of templates.  
+- In **Solution Explorer**, on the shortcut menu of any file, choose **Run Custom Tool**. Use this method to transform a selected subset of templates.  
   
- You can also set up a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).  
+  You can also set up a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).  
   
 ## Generating Variable Text  
  Text templates let you use program code to vary the content of the generated file.  
   
 #### To generate text by using program code  
   
-1.  Change the content of the `.tt` file:  
+1. Change the content of the `.tt` file:  
   
-    ```csharp  
-    <#@ template hostspecific="false" language="C#" #>  
-    <#@ output extension=".txt" #>  
-    <#int top = 10;  
+   ```csharp  
+   <#@ template hostspecific="false" language="C#" #>  
+   <#@ output extension=".txt" #>  
+   <#int top = 10;  
   
-    for (int i = 0; i<=top; i++)   
-    { #>  
+   for (int i = 0; i<=top; i++)   
+   { #>  
+      The square of <#= i #> is <#= i*i #>  
+   <# } #>  
+   ```  
+  
+   ```vb  
+   <#@ template hostspecific="false" language="VB" #>  
+   <#@ output extension=".txt" #>  
+   <#Dim top As Integer = 10  
+  
+   For i As Integer = 0 To top  
+   #>  
        The square of <#= i #> is <#= i*i #>  
-    <# } #>  
-    ```  
+   <#  
+   Next  
+   #>  
   
-    ```vb  
-    <#@ template hostspecific="false" language="VB" #>  
-    <#@ output extension=".txt" #>  
-    <#Dim top As Integer = 10  
+   ```  
   
-    For i As Integer = 0 To top  
-    #>  
-        The square of <#= i #> is <#= i*i #>  
-    <#  
-    Next  
-    #>  
+2. Save the .tt file, and inspect the generated .txt file again. It lists the squares of the numbers from 0 to 10.  
   
-    ```  
+   Notice that statements are enclosed within `<#...#>`, and single expressions within `<#=...#>`. For more information, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   
-2.  Save the .tt file, and inspect the generated .txt file again. It lists the squares of the numbers from 0 to 10.  
-  
- Notice that statements are enclosed within `<#...#>`, and single expressions within `<#=...#>`. For more information, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
-  
- If you write the generating code in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)], the `template` directive should contain `language="VB"`. `"C#"` is the default.  
+   If you write the generating code in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)], the `template` directive should contain `language="VB"`. `"C#"` is the default.  
   
 ## Debugging a Design-Time T4 Text Template  
  To debug a text template:  
   
--   Insert `debug="true"` into the `template` directive. For example:  
+- Insert `debug="true"` into the `template` directive. For example:  
   
-     `<#@ template debug="true" hostspecific="false" language="C#" #>`  
+   `<#@ template debug="true" hostspecific="false" language="C#" #>`  
   
--   Set breakpoints in the template, in the same way that you would for ordinary code.  
+- Set breakpoints in the template, in the same way that you would for ordinary code.  
   
--   Choose **Debug T4 Template** from the shortcut menu of the text template file in Solution Explorer.  
+- Choose **Debug T4 Template** from the shortcut menu of the text template file in Solution Explorer.  
   
- The template will run and stop at the breakpoints. You can examine variables and step through the code in the usual way.  
+  The template will run and stop at the breakpoints. You can examine variables and step through the code in the usual way.  
   
 > [!TIP]
 >  `debug="true"` makes the generated code map more accurately to the text template, by inserting more line numbering directives into the generated code. If you leave it out, breakpoints might stop the run in the wrong state.  
@@ -202,13 +202,13 @@ Design-time T4 text templates let you generate program code and other files in y
 ### Structuring text templates  
  As a matter of good practice, we tend to separate the template code into two parts:  
   
--   A configuration or data-gathering part, which sets values in variables, but does not contain text blocks. In the previous example, this part is the initialization of `properties`.  
+- A configuration or data-gathering part, which sets values in variables, but does not contain text blocks. In the previous example, this part is the initialization of `properties`.  
   
-     This is sometimes called the "model" section, because it constructs an in-store model, and typically reads a model file.  
+   This is sometimes called the "model" section, because it constructs an in-store model, and typically reads a model file.  
   
--   The text-generation part (`foreach(...){...}` in the example), which uses the values of the variables.  
+- The text-generation part (`foreach(...){...}` in the example), which uses the values of the variables.  
   
- This is not a necessary separation, but it is a style which makes it easier to read the template by reducing the complexity of the part that includes text.  
+  This is not a necessary separation, but it is a style which makes it easier to read the template by reducing the complexity of the part that includes text.  
   
 ## Reading files or other sources  
  To access a model file or database, your template code can use assemblies such as System.XML. To gain access to these assemblies, you must insert directives such as these:  

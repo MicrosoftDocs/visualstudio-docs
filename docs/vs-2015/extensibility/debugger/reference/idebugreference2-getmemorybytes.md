@@ -27,13 +27,13 @@ Gets the memory bytes that physically contain the value of a reference. Reserved
   
 ```cpp#  
 HRESULT GetMemoryBytes (   
-   IDebugMemoryBytes2** ppMemoryBytes  
+   IDebugMemoryBytes2** ppMemoryBytes  
 );  
 ```  
   
 ```csharp  
 int GetMemoryBytes (   
-   out IDebugMemoryBytes2 ppMemoryBytes  
+   out IDebugMemoryBytes2 ppMemoryBytes  
 );  
 ```  
   

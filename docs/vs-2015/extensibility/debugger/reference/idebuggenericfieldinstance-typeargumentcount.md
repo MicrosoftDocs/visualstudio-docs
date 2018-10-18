@@ -26,13 +26,13 @@ Returns the number of type parameter arguments for this instance.
   
 ```cpp#  
 HRESULT TypeArgumentCount(  
-   ULONG32* pcArgs  
+   ULONG32* pcArgs  
 );  
 ```  
   
 ```csharp  
 int TypeArgumentCount(  
-   ref uint pcArgs  
+   ref uint pcArgs  
 );  
 ```  
   

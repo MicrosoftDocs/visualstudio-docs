@@ -126,11 +126,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
   
  Zoom can be controlled in the following ways:  
   
--   By holding the CTRL key and spinning the mouse wheel when the mouse is hovering over the Graph View surface.  
+- By holding the CTRL key and spinning the mouse wheel when the mouse is hovering over the Graph View surface.  
   
--   By using the slider control. The slider shows the current zoom level.  
+- By using the slider control. The slider shows the current zoom level.  
   
- The Zoom slider is opaque when you select it, hover over it, or use CTRL with the mouse wheel to zoom; at all other times, it is transparent.  
+  The Zoom slider is opaque when you select it, hover over it, or use CTRL with the mouse wheel to zoom; at all other times, it is transparent.  
   
 ## XML Editor Integration  
  You can switch back and forth between the Graph View and the XML Editor by clicking a node and using the View Code context menu.  

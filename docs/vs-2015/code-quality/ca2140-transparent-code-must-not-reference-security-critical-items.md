@@ -25,6 +25,7 @@ manager: "wpickett"
 ---
 # CA2140: Transparent code must not reference security critical items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|TransparentMethodsMustNotReferenceCriticalCode|

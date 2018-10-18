@@ -28,8 +28,8 @@ Searches the specified stack frame for the nearest function return address.
   
 ```cpp#  
 HRESULT searchForReturnAddress(   
-   IDiaFrameData*  frame,  
-   ULONGLONG*      returnAddress  
+   IDiaFrameData*  frame,  
+   ULONGLONG*      returnAddress  
 );  
 ```  
   

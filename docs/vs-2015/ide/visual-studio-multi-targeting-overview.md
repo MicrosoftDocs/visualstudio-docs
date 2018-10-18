@@ -31,29 +31,29 @@ In this version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify
 ## Framework Targeting Features  
  Framework targeting includes the following features:  
   
--   When you open a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] can automatically upgrade it or leave the target as is.  
+- When you open a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] can automatically upgrade it or leave the target as is.  
   
--   When you create a project, you can specify the version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] that you want to target.  
+- When you create a project, you can specify the version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] that you want to target.  
   
--   You can change the version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] that an existing project targets.  
+- You can change the version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] that an existing project targets.  
   
--   You can target a different version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] in each of several projects in the same solution.  
+- You can target a different version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] in each of several projects in the same solution.  
   
--   When you change the version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] that a project targets, [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] makes any required changes to references and configuration files.  
+- When you change the version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] that a project targets, [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] makes any required changes to references and configuration files.  
   
- When you work on a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], Visual Studio dynamically changes the development environment, as follows:  
+  When you work on a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], Visual Studio dynamically changes the development environment, as follows:  
   
--   It filters items in the **New Project** dialog box, the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that are not available in the targeted version.  
+- It filters items in the **New Project** dialog box, the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that are not available in the targeted version.  
   
--   It filters custom controls in the **Toolbox** to remove those that are not available in the targeted version and to show the only the most up-to-date controls when multiple controls are available.  
+- It filters custom controls in the **Toolbox** to remove those that are not available in the targeted version and to show the only the most up-to-date controls when multiple controls are available.  
   
--   It filters IntelliSense to omit language features that are not available in the targeted version.  
+- It filters IntelliSense to omit language features that are not available in the targeted version.  
   
--   It filters properties in the **Properties** window to omit those that are not available in the targeted version.  
+- It filters properties in the **Properties** window to omit those that are not available in the targeted version.  
   
--   It filters menu options to omit options that are not available in the targeted version.  
+- It filters menu options to omit options that are not available in the targeted version.  
   
--   For builds, it uses the version of the compiler and the compiler options that are appropriate for the targeted version.  
+- For builds, it uses the version of the compiler and the compiler options that are appropriate for the targeted version.  
   
 > [!NOTE]
 >  Framework targeting does not guarantee that your application will run correctly. You must test your application to make sure it runs against the targeted version. You cannot target framework versions that are earlier than the .NET Framework 2.0.  
