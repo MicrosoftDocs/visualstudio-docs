@@ -24,20 +24,20 @@ manager: "ghogen"
 # Cannot assign to &#39;this&#39;
 You attempted to assign a value to **this**. **this** is a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] keyword that refers to either:  
   
--   the object currently executing a method,  
+- the object currently executing a method,  
   
--   the global object if there is no current method (or the method does not belong to any other object).  
+- the global object if there is no current method (or the method does not belong to any other object).  
   
- A method is a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] function that is invoked through an object. Inside a method, the **this** keyword is a reference to the object the method was invoked through (which happens to be the object created by invoking the class constructor with the **new** operator).  
+  A method is a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] function that is invoked through an object. Inside a method, the **this** keyword is a reference to the object the method was invoked through (which happens to be the object created by invoking the class constructor with the **new** operator).  
   
- Inside a method, you can use **this** to refer to the current object, but you cannot assign a new value to **this**.  
+  Inside a method, you can use **this** to refer to the current object, but you cannot assign a new value to **this**.  
   
 ### To correct this error  
   
--   Do not attempt to assign to **this**. To access a property or method of an instantiated object, use the dot operator (e.g., circle**.**radius).  
+- Do not attempt to assign to **this**. To access a property or method of an instantiated object, use the dot operator (e.g., circle<strong>.</strong>radius).  
   
-    > [!NOTE]
-    >  You cannot name a user-created variable **this**; it is a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] reserved word.  
+  > [!NOTE]
+  >  You cannot name a user-created variable **this**; it is a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] reserved word.  
   
 ## See Also  
  [this Statement](../../javascript/reference/this-statement-javascript.md)   

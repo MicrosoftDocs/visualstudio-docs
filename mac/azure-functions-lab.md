@@ -29,17 +29,17 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. Launch **Visual Studio for Mac**.
 
-1. Select **File > New Solution**.
+2. Select **File > New Solution**.
 
-1. From the **Cloud > General** category, select the **Azure Functions** template. You will use C# to create a .NET class library that hosts Azure Functions. Click **Next**.
+3. From the **Cloud > General** category, select the **Azure Functions** template. You will use C# to create a .NET class library that hosts Azure Functions. Click **Next**.
 
     ![azure functions template selection](media/azure-functions-lab-image1.png)
 
-1. Set the **Project Name** to **"AzureFunctionsLab"** and click **Create**.
+4. Set the **Project Name** to **"AzureFunctionsLab"** and click **Create**.
 
     ![naming and creating your azure function project](media/azure-functions-lab-image2.png)
 
-1. Expand the nodes in **Solution Pad**. The default project template includes NuGet references to a variety of Azure WebJobs packages, as well as the Newtonsoft.Json package. 
+5. Expand the nodes in **Solution Pad**. The default project template includes NuGet references to a variety of Azure WebJobs packages, as well as the Newtonsoft.Json package. 
 
      There are also three files:  
         - **host.json** for describing the global configuration options for the host  

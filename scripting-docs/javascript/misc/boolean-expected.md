@@ -32,7 +32,7 @@ o.f();
   
 ### To correct this error  
   
--   Only invoke the Boolean**.prototype.toString** or **Boolean.prototype.valueOf** methods on objects of type **Boolean.**  
+- Only invoke the Boolean<strong>.prototype.toString</strong> or **Boolean.prototype.valueOf** methods on objects of type **Boolean.**  
   
 ## See Also  
  [Boolean Object](../../javascript/reference/boolean-object-javascript.md)   

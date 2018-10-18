@@ -19,4 +19,4 @@ This feature is useful for a few scenarios, such as tracking assignments and exp
 
 To perform the export, simply select the **Export** tab, and the file will download to your local machine. The file will include the name of the agreement that contains your user subscriptions, as well as the date of the export.  
 > [!div class="mx-imgBorder"]
-> ![Export subscribers](_img\exporting-subscriptions\exporting-subscriptions.png)
+> ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png)

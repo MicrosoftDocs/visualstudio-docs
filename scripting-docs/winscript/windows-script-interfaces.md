@@ -31,23 +31,23 @@ Microsoft Windows Script Interfaces provide a way for an application to add scri
 ## Windows Script Background  
  Windows Script interfaces fall into two categories: Windows Script hosts and Windows Script engines. A host creates a scripting engine and calls on the engine to run the scripts. Examples of Windows Script hosts include:  
   
--   Microsoft Internet Explorer  
+- Microsoft Internet Explorer  
   
--   Internet authoring tools  
+- Internet authoring tools  
   
--   Shell  
+- Shell  
   
- Windows Script engines can be developed for any language or run-time environment, including:  
+  Windows Script engines can be developed for any language or run-time environment, including:  
   
--   Microsoft Visual Basic Scripting Edition (VBScript)  
+- Microsoft Visual Basic Scripting Edition (VBScript)  
   
--   Perl  
+- Perl  
   
--   Lisp  
+- Lisp  
   
- To make implementation of the host as flexible as possible, an OLE Automation wrapper for Windows Script is provided. However, a host that uses this wrapper object to instantiate the scripting engine does not have the degree of control over the run-time name space, the persistence model, and so on, that it would if it used Windows Script directly.  
+  To make implementation of the host as flexible as possible, an OLE Automation wrapper for Windows Script is provided. However, a host that uses this wrapper object to instantiate the scripting engine does not have the degree of control over the run-time name space, the persistence model, and so on, that it would if it used Windows Script directly.  
   
- The Windows Script design isolates the interface elements required only in an authoring environment so that nonauthoring hosts (such as browsers and viewers) and script engines (for example, VBScript) can be kept lightweight.  
+  The Windows Script design isolates the interface elements required only in an authoring environment so that nonauthoring hosts (such as browsers and viewers) and script engines (for example, VBScript) can be kept lightweight.  
   
 ## Windows Script Basic Architecture  
  The following illustration shows the interaction between a Windows Script host and an Windows Script engine.  

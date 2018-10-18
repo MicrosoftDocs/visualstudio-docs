@@ -26,7 +26,7 @@ Creates an enumerator that contains the same enumeration state as the current en
   
 ```  
 HRESULT Clone (  
-   IEnumDebugExtendedPropertyInfo** ppEnum  
+   IEnumDebugExtendedPropertyInfo** ppEnum  
 );  
 ```  
   
