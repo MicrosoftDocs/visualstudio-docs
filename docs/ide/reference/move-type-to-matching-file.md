@@ -29,15 +29,7 @@ This refactoring applies to:
 
 ## How-to
 
-1. Place the text cursor inside the name of the type to move:
-
-   - C#:
-
-    ![Highlighted code - C#](media/movetype-highlight-cs.png)
-
-   - Visual Basic:
-
-    ![Highlighted code - Visual Basic](media/movetype-highlight-vb.png)
+1. Place the text cursor inside the name of the type to move.
 
 1. Next, do one of the following:
 
