@@ -113,11 +113,11 @@ ms.workload:
   
  There are two ways to access the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object:  
   
--   By using the Factory property of the Ribbon class. Use this approach from code in your Ribbon class.  
+- By using the Factory property of the Ribbon class. Use this approach from code in your Ribbon class.  
   
--   By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
+- By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
- The following code example demonstrates how to create a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> in a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.  
+  The following code example demonstrates how to create a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> in a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.  
   
 <CodeContentPlaceHolder>10</CodeContentPlaceHolder>  
 <CodeContentPlaceHolder>11</CodeContentPlaceHolder>  
@@ -159,11 +159,11 @@ ms.workload:
   
  There are two ways to access the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object:  
   
--   By using the `Factory` property of the Ribbon class. Use this approach from code in your Ribbon class.  
+- By using the `Factory` property of the Ribbon class. Use this approach from code in your Ribbon class.  
   
--   By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
+- By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
- The following code example demonstrates how to set the `Position` property of a tab in a Ribbon class in a project that targets the .NET Framework 3.5.  
+  The following code example demonstrates how to set the `Position` property of a tab in a Ribbon class in a project that targets the .NET Framework 3.5.  
   
 ```vb  
 Me.tab1.Position = RibbonPosition.AfterOfficeId("TabHome")  

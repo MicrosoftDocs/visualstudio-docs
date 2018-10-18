@@ -45,7 +45,7 @@ This property contains a string that provides details about the deployment manif
 
      ExcelWorkbook1.vsto|74744e4b-e4d6-41eb-84f7-ad20346fe2d9|vstolocal
 
- The *SolutionID* is a GUID that the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses to identify the solution. The *SolutionID* is automatically generated when you build the project. The **vstolocal** term indicates to the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that the assembly should be loaded from the same folder as the document.
+  The *SolutionID* is a GUID that the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses to identify the solution. The *SolutionID* is automatically generated when you build the project. The **vstolocal** term indicates to the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that the assembly should be loaded from the same folder as the document.
 
 ## See also
 

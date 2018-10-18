@@ -35,13 +35,13 @@ ms.workload:
   
  Type the location as a disk path, file share, FTP site, or web site URL, or click the **Browse** button to browse for the location. The path can be in these formats:  
   
--   A relative or absolute path in standard Windows format, such as *C:\Deploy\MyApplication* or *\MyApplication*.  
+- A relative or absolute path in standard Windows format, such as *C:\Deploy\MyApplication* or *\MyApplication*.  
   
--   A Universal Naming Convention (UNC) path, such as *\\\ServerName\MyApplication\\*.  
+- A Universal Naming Convention (UNC) path, such as *\\\ServerName\MyApplication\\*.  
   
--   A URL of a web site, such as http://www.microsoft.com/MyApplication.  
+- A URL of a web site, such as http://www.microsoft.com/MyApplication.  
   
- By default, the publishing location is *http://localhost/projectname/* if you have IIS installed, or the publish\ directory if you do not have IIS installed.  
+  By default, the publishing location is *http://localhost/projectname/* if you have IIS installed, or the publish\ directory if you do not have IIS installed.  
   
 > [!NOTE]  
 >  There are more considerations if the target computer is running Windows Vista. You must be an administrator on the Windows Vista computer to use the local publish option. In addition, the default location is always the *publish\\* directory, regardless of whether you have IIS installed.  

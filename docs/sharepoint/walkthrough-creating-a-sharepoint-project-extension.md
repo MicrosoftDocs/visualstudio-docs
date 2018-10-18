@@ -47,11 +47,11 @@ ms.workload:
 ## Create the projects
  To complete this walkthrough, you must create two projects:  
   
--   A VSIX project to create the VSIX package to deploy the project extension.  
+- A VSIX project to create the VSIX package to deploy the project extension.  
   
--   A class library project that implements the project extension.  
+- A class library project that implements the project extension.  
   
- Start the walkthrough by creating the projects.  
+  Start the walkthrough by creating the projects.  
   
 #### To create the VSIX project  
   

@@ -60,17 +60,17 @@ ms.workload:
   
  The names that you type must comply with the following guidelines:  
   
--   Use the fully qualified message class name (for example: "IPM.Note.Contoso").  
+- Use the fully qualified message class name (for example: "IPM.Note.Contoso").  
   
--   Use semicolons to separate multiple message class names.  
+- Use semicolons to separate multiple message class names.  
   
--   Do not include standard Outlook message classes, such as "IPM.Note" or "IPM.Contact". Only include custom message classes, such as "IPM.Note.Contoso".  
+- Do not include standard Outlook message classes, such as "IPM.Note" or "IPM.Contact". Only include custom message classes, such as "IPM.Note.Contoso".  
   
--   Do not specify the base message class by itself (for example: "IPM").  
+- Do not specify the base message class by itself (for example: "IPM").  
   
--   Do not exceed 256 characters for each message class name.  
+- Do not exceed 256 characters for each message class name.  
   
- The **New Outlook Form Region** wizard validates the format of your input when you click **Finish**.  
+  The **New Outlook Form Region** wizard validates the format of your input when you click **Finish**.  
   
 > [!NOTE]  
 >  The **New Outlook Form Region** wizard does not verify that the message class names that you provide are correct or valid.  
@@ -87,15 +87,15 @@ ms.workload:
   
  Attributes must comply with the following guidelines:  
   
--   For custom message classes, use the fully qualified message class name (for example: "IPM.Note.Contoso").  
+- For custom message classes, use the fully qualified message class name (for example: "IPM.Note.Contoso").  
   
--   Do not specify the base message class by itself (for example: "IPM").  
+- Do not specify the base message class by itself (for example: "IPM").  
   
--   Do not exceed 256 characters for each message class name.  
+- Do not exceed 256 characters for each message class name.  
   
--   Do not include the names of standard message classes if the form region replaces the whole form or the default page of a form. You can specify standard message class names only for forms that add a new page to a form or that are appended to the bottom of a form. For more information, see [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md).  
+- Do not include the names of standard message classes if the form region replaces the whole form or the default page of a form. You can specify standard message class names only for forms that add a new page to a form or that are appended to the bottom of a form. For more information, see [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md).  
   
- Visual Studio validates the format of the message class names when you build the project.  
+  Visual Studio validates the format of the message class names when you build the project.  
   
 > [!NOTE]  
 >  Visual Studio does not verify that the message class names that you provide are correct or valid.  

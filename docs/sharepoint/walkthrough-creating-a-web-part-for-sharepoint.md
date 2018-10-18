@@ -90,13 +90,13 @@ You can specify which controls you want to appear in the Web Part by adding them
 
 3. Add the following code to the `WebPart1` class. This code declares the following fields:
 
-    - A data grid to display employees in the Web Part.
+   - A data grid to display employees in the Web Part.
 
-    - Text that appears on the control that is used to filter the data grid.
+   - Text that appears on the control that is used to filter the data grid.
 
-    - A label that displays an error if the data grid is unable to display data.
+   - A label that displays an error if the data grid is unable to display data.
 
-    - A string that contains the path of the employee data file.
+   - A string that contains the path of the employee data file.
 
      [!code-csharp[SP_WebPart#2](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#2)]
      [!code-vb[SP_WebPart#2](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#2)]
@@ -108,18 +108,18 @@ You can specify which controls you want to appear in the Web Part by adding them
 
 5. Replace the `CreateChildControls` method with the following code. This code performs the following tasks:
 
-    - Adds the data grid and label that you declared in the previous step.
+   - Adds the data grid and label that you declared in the previous step.
 
-    - Binds the data grid to an XML file that contains employee data.
+   - Binds the data grid to an XML file that contains employee data.
 
      [!code-csharp[SP_WebPart#4](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#4)]
      [!code-vb[SP_WebPart#4](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#4)]
 
 6. Add the following method to the `WebPart1` class. This code performs the following tasks:
 
-    - Creates a verb that appears in the Web Part verbs menu of the rendered Web part.
+   - Creates a verb that appears in the Web Part verbs menu of the rendered Web part.
 
-    - Handles the event that is raised when the user chooses the verb in the verbs menu. This code filters the list of employees that appears in the data grid.
+   - Handles the event that is raised when the user chooses the verb in the verbs menu. This code filters the list of employees that appears in the data grid.
 
      [!code-csharp[SP_WebPart#5](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#5)]
      [!code-vb[SP_WebPart#5](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#5)]

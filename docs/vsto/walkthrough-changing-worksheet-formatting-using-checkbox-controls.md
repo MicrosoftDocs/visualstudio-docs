@@ -95,24 +95,24 @@ ms.workload:
   
 #### To add text to a NamedRange control  
   
-1.  From the **Excel Controls** tab of the toolbox, drag a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to cell **B9**.  
+1. From the **Excel Controls** tab of the toolbox, drag a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to cell **B9**.  
   
-2.  Verify that **$B$9** appears in the editable text box, and that cell **B9** is selected. If it is not, click cell **B9** to select it.  
+2. Verify that **$B$9** appears in the editable text box, and that cell **B9** is selected. If it is not, click cell **B9** to select it.  
   
-3.  Click **OK**.  
+3. Click **OK**.  
   
-4.  Cell **B9** becomes a range named `NamedRange1`.  
+4. Cell **B9** becomes a range named `NamedRange1`.  
   
-     There is no visible indication on the worksheet, but `NamedRange1` appears in the **Name box** (just above the worksheet on the left side) when cell **B9** is selected.  
+    There is no visible indication on the worksheet, but `NamedRange1` appears in the **Name box** (just above the worksheet on the left side) when cell **B9** is selected.  
   
-5.  Be sure that **NamedRange1** is visible in the object name list box of the **Properties** window, and change the following properties:  
+5. Be sure that **NamedRange1** is visible in the object name list box of the **Properties** window, and change the following properties:  
   
-    |Property|Value|  
-    |--------------|-----------|  
-    |**Name**|**textFont**|  
-    |**Value2**|**Click a check box to change the formatting of this text.**|  
+   |Property|Value|  
+   |--------------|-----------|  
+   |**Name**|**textFont**|  
+   |**Value2**|**Click a check box to change the formatting of this text.**|  
   
- Next, write the code to format the text when an option is selected.  
+   Next, write the code to format the text when an option is selected.  
   
 ## Format the text when an option is selected  
  In this section, you will write code so that when the user selects a formatting option, the format of the text in the worksheet is changed.  

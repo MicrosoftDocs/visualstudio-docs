@@ -23,23 +23,23 @@ ms.workload:
 # Walkthrough: Add feature event receivers
   Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:
 
--   A feature is installed.
+- A feature is installed.
 
--   A feature is activated.
+- A feature is activated.
 
--   A feature is deactivated.
+- A feature is deactivated.
 
--   A feature is removed.
+- A feature is removed.
 
- This walkthrough demonstrates how to add an event receiver to a feature in a SharePoint project. It demonstrates the following tasks:
+  This walkthrough demonstrates how to add an event receiver to a feature in a SharePoint project. It demonstrates the following tasks:
 
--   Creating an empty project with a feature event receiver.
+- Creating an empty project with a feature event receiver.
 
--   Handling the **FeatureDeactivating** method.
+- Handling the **FeatureDeactivating** method.
 
--   Using the SharePoint project object model to add an announcement to the Announcements list.
+- Using the SharePoint project object model to add an announcement to the Announcements list.
 
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
  You need the following components to complete this walkthrough:

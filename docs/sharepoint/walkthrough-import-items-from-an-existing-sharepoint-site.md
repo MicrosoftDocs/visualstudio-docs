@@ -24,13 +24,13 @@ ms.workload:
   
  This walkthrough demonstrates the following tasks:  
   
--   Customizing a SharePoint site by adding a custom site column (also known as a *field*.  
+- Customizing a SharePoint site by adding a custom site column (also known as a *field*.  
   
--   Exporting a SharePoint site to a .wsp file.  
+- Exporting a SharePoint site to a .wsp file.  
   
--   Importing the .wsp file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint by using the .wsp Import project.  
+- Importing the .wsp file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint by using the .wsp Import project.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -44,21 +44,21 @@ ms.workload:
   
 #### To create and customize a SharePoint site  
   
-1.  Open a SharePoint site using a Web browser, such as http://*system name*/SitePages/Home.aspx.  
+1. Open a SharePoint site using a Web browser, such as http://<em>system name</em>/SitePages/Home.aspx.  
   
-2.  Create a subsite off of the main SharePoint site by opening the **Site Actions** menu and then choosing **New Site**.  
+2. Create a subsite off of the main SharePoint site by opening the **Site Actions** menu and then choosing **New Site**.  
   
-3.  In the site's **Create** dialog box, choose the **Blank Site** type.  
+3. In the site's **Create** dialog box, choose the **Blank Site** type.  
   
-4.  In the **Title** box, enter **Site Column Test 1**; in the **URL name** box, enter **columntest1**; leave the other settings at their default values; and then choose the **Create** button.  
+4. In the **Title** box, enter **Site Column Test 1**; in the **URL name** box, enter **columntest1**; leave the other settings at their default values; and then choose the **Create** button.  
   
-5.  After the site is created, navigate in the browser back to the main site, http://*system name*/SitePages/Home.aspx.  
+5. After the site is created, navigate in the browser back to the main site, http://<em>system name</em>/SitePages/Home.aspx.  
   
-6.  Again, create a blank subsite off of the main SharePoint site by opening the **Site Actions** menu, choosing **New Site**, and then choosing the **Blank Site** type.  
+6. Again, create a blank subsite off of the main SharePoint site by opening the **Site Actions** menu, choosing **New Site**, and then choosing the **Blank Site** type.  
   
-7.  In the **Title** box, enter **Site Column Test 2**; in the **URL name** box, enter **columntest2**; leave the other settings at their default values; and then choose the **Create** button.  
+7. In the **Title** box, enter **Site Column Test 2**; in the **URL name** box, enter **columntest2**; leave the other settings at their default values; and then choose the **Create** button.  
   
-8.  Navigate back to the first subsite, http://*SystemName*/columntest1/default.aspx.  
+8. Navigate back to the first subsite, http://<em>SystemName</em>/columntest1/default.aspx.  
   
 9. On the **Site Actions** menu, choose **Site Settings** to display the Site Settings page.  
   
@@ -101,28 +101,28 @@ ms.workload:
   
 #### To import a .wsp file  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.  
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.  
   
-2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
+2. Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
-3.  Choose the **Import SharePoint 2010 Solution Package** template in the **Templates** pane, leave the name of the project as WspImportProject1, and then choose the **OK** button.  
+3. Choose the **Import SharePoint 2010 Solution Package** template in the **Templates** pane, leave the name of the project as WspImportProject1, and then choose the **OK** button.  
   
-     The **SharePoint Customization Wizard** appears.  
+    The **SharePoint Customization Wizard** appears.  
   
-4.  On the **Specify the site and security level for debugging** page, enter the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] for the second SharePoint subsite that you created earlier. You will add the new custom Field item, http://*system name*/columntest2, to that subsite.  
+4. On the **Specify the site and security level for debugging** page, enter the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] for the second SharePoint subsite that you created earlier. You will add the new custom Field item, http://<em>system name</em>/columntest2, to that subsite.  
   
-5.  In the **What is the trust level for this SharePoint solution?** section, leave the selection as **Deploy as a sandboxed solution**.  
+5. In the **What is the trust level for this SharePoint solution?** section, leave the selection as **Deploy as a sandboxed solution**.  
   
-6.  In the **Specify the new project source** page, browse to the location on the system where you saved the *.wsp* file previously and then choose the **Next** button.  
+6. In the **Specify the new project source** page, browse to the location on the system where you saved the *.wsp* file previously and then choose the **Next** button.  
   
-    > [!NOTE]  
-    >  If you choose the **Finish** button on this page, all available items in the *.wsp* file will be imported.  
+   > [!NOTE]  
+   >  If you choose the **Finish** button on this page, all available items in the *.wsp* file will be imported.  
   
-7.  In the **Select items to import** box, clear all of the check boxes in the list except for **Test Column**, and then choose the **Finish** button.  
+7. In the **Select items to import** box, clear all of the check boxes in the list except for **Test Column**, and then choose the **Finish** button.  
   
-     Because the list contains many items, you can choose the **Ctrl**+**A** keys to choose all items in the list, choose the Spacebar key to clear all of the check boxes, and then select only the check box next to the **Test Column** item.  
+    Because the list contains many items, you can choose the **Ctrl**+**A** keys to choose all items in the list, choose the Spacebar key to clear all of the check boxes, and then select only the check box next to the **Test Column** item.  
   
-     After the import operation is finished, a new project named **WspImportProject1** is created that contains a folder named **Fields**. In this folder is the custom site column **Test Column** and its definition file *Elements.xml*.  
+    After the import operation is finished, a new project named **WspImportProject1** is created that contains a folder named **Fields**. In this folder is the custom site column **Test Column** and its definition file *Elements.xml*.  
   
 ## Deploy the project
  Finally, deploy **WspImportProject1** to the second SharePoint subsite that you created earlier to view the custom site column.  

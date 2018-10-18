@@ -35,11 +35,11 @@ ms.workload:
 ## Register VSTO Add-ins for the current user vs. all users  
  When a VSTO Add-in is installed, it can be registered in two ways:  
   
--   For the current user only (that is, it is available only to the user that is logged on to the computer when the VSTO Add-in is installed). In this case, the registry entries are created under the **HKEY_CURRENT_USER**.  
+- For the current user only (that is, it is available only to the user that is logged on to the computer when the VSTO Add-in is installed). In this case, the registry entries are created under the **HKEY_CURRENT_USER**.  
   
--   For all users (that is, any user that logs on to the computer can use the VSTO Add-in). In this case, the registry entries are created under **HKEY_LOCAL_MACHINE**.  
+- For all users (that is, any user that logs on to the computer can use the VSTO Add-in). In this case, the registry entries are created under **HKEY_LOCAL_MACHINE**.  
   
- All VSTO Add-ins that you create by using Visual Studio can be registered for the current user. However, VSTO Add-ins can be registered for all users only in certain scenarios. These scenarios depend on the version of Microsoft Office on the computer and how the VSTO Add-in was deployed.  
+  All VSTO Add-ins that you create by using Visual Studio can be registered for the current user. However, VSTO Add-ins can be registered for all users only in certain scenarios. These scenarios depend on the version of Microsoft Office on the computer and how the VSTO Add-in was deployed.  
   
 ### Microsoft Office version  
  Office applications can load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER**.  

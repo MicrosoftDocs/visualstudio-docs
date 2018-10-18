@@ -29,17 +29,17 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Creating tables that contain content controls in a Word template at design time.  
+- Creating tables that contain content controls in a Word template at design time.  
   
--   Populating a combo box content control and a drop-down list content control programmatically.  
+- Populating a combo box content control and a drop-down list content control programmatically.  
   
--   Preventing users from editing a specified table.  
+- Preventing users from editing a specified table.  
   
--   Adding tables to the building block collection of a template.  
+- Adding tables to the building block collection of a template.  
   
--   Creating a content control that displays the available building blocks in the template.  
+- Creating a content control that displays the available building blocks in the template.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -62,31 +62,31 @@ ms.workload:
   
 ### To create the employee table  
   
-1.  In the Word template that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, click the **Insert** tab.  
+1. In the Word template that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, click the **Insert** tab.  
   
-2.  In the **Tables** group, click **Table**, and insert a table with two columns and four rows.  
+2. In the **Tables** group, click **Table**, and insert a table with two columns and four rows.  
   
-3.  Type text in the first column so that it resembles the following column:  
+3. Type text in the first column so that it resembles the following column:  
   
-    ||  
-    |-|  
-    |**Employee Name**|  
-    |**Hire Date**|  
-    |**Title**|  
-    |**Picture**|  
+   ||  
+   |-|  
+   |**Employee Name**|  
+   |**Hire Date**|  
+   |**Title**|  
+   |**Picture**|  
   
-4.  Click in the first cell in the second column (next to **Employee Name**).  
+4. Click in the first cell in the second column (next to **Employee Name**).  
   
-5.  On the Ribbon, click the **Developer** tab.  
+5. On the Ribbon, click the **Developer** tab.  
   
-    > [!NOTE]  
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
+   > [!NOTE]  
+   >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
   
-6.  In the **Controls** group, click the **Text** button ![PlainTextContentControl](../vsto/media/plaintextcontrol.gif "PlainTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the first cell.  
+6. In the **Controls** group, click the **Text** button ![PlainTextContentControl](../vsto/media/plaintextcontrol.gif "PlainTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the first cell.  
   
-7.  Click the second cell in the second column (next to **Hire Date**).  
+7. Click the second cell in the second column (next to **Hire Date**).  
   
-8.  In the **Controls** group, click the **Date Picker** button ![DatePickerContentControl](../vsto/media/datepicker.gif "DatePickerContentControl") to add a <xref:Microsoft.Office.Tools.Word.DatePickerContentControl> to the second cell.  
+8. In the **Controls** group, click the **Date Picker** button ![DatePickerContentControl](../vsto/media/datepicker.gif "DatePickerContentControl") to add a <xref:Microsoft.Office.Tools.Word.DatePickerContentControl> to the second cell.  
   
 9. Click the third cell in the second column (next to **Title**).  
   
@@ -101,27 +101,27 @@ ms.workload:
   
 ### To create the customer feedback table  
   
-1.  In the Word template, click in the line after the employee table that you added earlier, and press **Enter** to add a new paragraph.  
+1. In the Word template, click in the line after the employee table that you added earlier, and press **Enter** to add a new paragraph.  
   
-2.  On the Ribbon, click the **Insert** tab.  
+2. On the Ribbon, click the **Insert** tab.  
   
-3.  In the **Tables** group, click **Table**, and insert a table with two columns and three rows.  
+3. In the **Tables** group, click **Table**, and insert a table with two columns and three rows.  
   
-4.  Type text in the first column so that it resembles the following column:  
+4. Type text in the first column so that it resembles the following column:  
   
-    ||  
-    |-|  
-    |**Customer Name**|  
-    |**Satisfaction Rating**|  
-    |**Comments**|  
+   ||  
+   |-|  
+   |**Customer Name**|  
+   |**Satisfaction Rating**|  
+   |**Comments**|  
   
-5.  Click in the first cell of the second column (next to **Customer Name**).  
+5. Click in the first cell of the second column (next to **Customer Name**).  
   
-6.  On the Ribbon, click the **Developer** tab.  
+6. On the Ribbon, click the **Developer** tab.  
   
-7.  In the **Controls** group, click the **Text** button ![PlainTextContentControl](../vsto/media/plaintextcontrol.gif "PlainTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the first cell.  
+7. In the **Controls** group, click the **Text** button ![PlainTextContentControl](../vsto/media/plaintextcontrol.gif "PlainTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the first cell.  
   
-8.  Click in the second cell of the second column (next to **Satisfaction Rating**).  
+8. Click in the second cell of the second column (next to **Satisfaction Rating**).  
   
 9. In the **Controls** group, click the **Drop-Down List** button ![DropDownListContentControl](../vsto/media/dropdownlist.gif "DropDownListContentControl") to add a <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to the second cell.  
   
