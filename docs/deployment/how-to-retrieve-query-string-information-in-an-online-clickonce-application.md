@@ -51,17 +51,17 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
   
 ### To enable query string passing in a ClickOnce application with MageUI.exe  
   
-1. Open the .NET Command Prompt and type:  
+1.  Open the .NET Command Prompt and type:  
   
-   ```cmd  
-   MageUI  
-   ```  
+    ```cmd  
+    MageUI  
+    ```  
   
-2. From the **File** menu, select **Open**, and open the deployment manifest for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, which is the file ending in the `.application` extension.  
+2.  From the **File** menu, select **Open**, and open the deployment manifest for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, which is the file ending in the `.application` extension.  
   
-3. Select the **Deployment Options** panel in the left-hand navigation window, and select the **Allow URL parameters to be passed to application** check box.  
+3.  Select the **Deployment Options** panel in the left-hand navigation window, and select the **Allow URL parameters to be passed to application** check box.  
   
-4. From the **File** menu, select **Save**.  
+4.  From the **File** menu, select **Save**.  
   
 > [!NOTE]
 >  Alternately, you can enable query string passing in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]. Select the **Allow URL parameters to be passed to application** check box, which can be found by opening the **Project Properties**, selecting the **Publish** tab, clicking the **Options** button, and then selecting **Manifests**.  

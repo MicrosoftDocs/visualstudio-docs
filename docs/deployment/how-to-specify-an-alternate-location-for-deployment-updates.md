@@ -40,16 +40,16 @@ You can install your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_m
   
 ### Specify an alternate location for updates by using Mage.exe  
   
-1. Open a .NET Framework command prompt.  
+1.  Open a .NET Framework command prompt.  
   
-2. Set the update location using the following command. In this example, *HelloWorld.exe.application* is the path to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest, which always has the .application extension, and *<http://adatum.com/Update/Path>* is the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will check for application updates.  
+2.  Set the update location using the following command. In this example, *HelloWorld.exe.application* is the path to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest, which always has the .application extension, and *http://adatum.com/Update/Path* is the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will check for application updates.  
   
-    **Mage -Update HelloWorld.exe.application -ProviderUrl http://adatum.com/Update/Path**  
+     **Mage -Update HelloWorld.exe.application -ProviderUrl http://adatum.com/Update/Path**  
   
-3. Save the file.  
+3.  Save the file.  
   
-   > [!NOTE]
-   >  You now need to re-sign the file with *Mage.exe*. For more information, see [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
+    > [!NOTE]
+    >  You now need to re-sign the file with *Mage.exe*. For more information, see [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
   
 ## .NET Framework Security  
  If you install your application from an offline medium such as a CD, and the computer is online, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] first checks the URL specified by the `<deploymentProvider>` tag in the deployment manifest to determine if the update location contains a more recent version of the application. If it does, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] installs the application directly from there, instead of from the initial installation directory, and the common language runtime (CLR) determines your application's trust level using `<deploymentProvider>`. If the computer is offline, or `<deploymentProvider>` is unreachable, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] installs from the CD, and the CLR grants trust based on the installation point; for a CD install, this means your application receives full trust. All subsequent updates will inherit that trust level.  

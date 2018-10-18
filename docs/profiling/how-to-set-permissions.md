@@ -113,7 +113,7 @@ Members of the Users group can run the profiling tools if an administrator grant
     vsperfcmd /admin:driver,autostart,on
     ```
 
-   The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.
+ The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.
 
 ## See also
 

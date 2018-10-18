@@ -69,15 +69,15 @@ By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you
 ## Files  
  On the **Files** tab, you can specify the directory under which trace files are stored each time a trace is collected.  The Concurrency Visualizer generates four files for each trace it collects:  
   
-- A kernel-mode event trace log (ETL) file (<em>.</em>kernel.etl*)  
+-   A kernel-mode event trace log (ETL) file (*.*kernel.etl*)  
   
-- A user-mode event trace log file (<em>.</em>user.etl*)  
+-   A user-mode event trace log file (*.*user.etl*)  
   
-- A Concurrency Visualizer Data file (<em>.</em>CVData*)  
+-   A Concurrency Visualizer Data file (*.*CVData*)  
   
-- A Concurrency Visualizer Trace file (<em>.</em>CVTrace*)  
+-   A Concurrency Visualizer Trace file (*.*CVTrace*)  
   
-  The two ETL files store the raw trace data, and the two Concurrency Visualizer files store the processed data.  The raw ETL files are typically not used after a trace is processed.  Selecting the **Delete Event Trace Log (ETL) files after analysis** check box reduces the amount of trace data that's stored on your disk.  
+ The two ETL files store the raw trace data, and the two Concurrency Visualizer files store the processed data.  The raw ETL files are typically not used after a trace is processed.  Selecting the **Delete Event Trace Log (ETL) files after analysis** check box reduces the amount of trace data that's stored on your disk.  
   
 ## See also  
  [Just my code](../profiling/just-my-code-threads-view.md)   

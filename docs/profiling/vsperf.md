@@ -14,11 +14,11 @@ ms.workload:
 # VSPerf
 Use the **VsPerf** command line tool to:  
   
-1. Profile UWP apps from the command line when Visual Studio is not installed on the device.  
+1.  Profile UWP apps from the command line when Visual Studio is not installed on the device.  
   
-2. Profile Windows 8 desktop applications and Windows Server 2012 applications using the sampling profiling method.  
+2.  Profile Windows 8 desktop applications and Windows Server 2012 applications using the sampling profiling method.  
   
-   For more information about your profiling options, see [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+ For more information about your profiling options, see [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 ## UWP apps only  
  These options apply only to UWP apps.  

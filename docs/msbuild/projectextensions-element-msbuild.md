@@ -46,9 +46,9 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 
 ### Parent elements  
 
-|                     Element                      |                                                        Description                                                         |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+|Element|Description|  
+|-------------|-----------------|  
+|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
 
 ## Remarks  
  Only one `ProjectExtensions` element may be used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project.  

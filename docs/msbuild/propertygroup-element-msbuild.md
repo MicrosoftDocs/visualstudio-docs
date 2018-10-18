@@ -53,9 +53,9 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
 
 ### Parent elements  
 
-|                     Element                      |                                                        Description                                                         |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+|Element|Description|  
+|-------------|-----------------|  
+|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
 
 ## Example  
  The following code example shows how to set properties based on a condition. In this example, if the value of the `CompileConfig` property is `DEBUG`, the `Optimization`, `Obfuscate`, and `OutputPath` properties inside of the `PropertyGroup` element are set.  

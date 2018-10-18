@@ -45,21 +45,21 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
   
  In larger organizations, the publisher and deployer are frequently two separate entities:  
   
-- The publisher is the group that creates the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
+-   The publisher is the group that creates the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
   
-- The deployer is the group, typically the information technology (IT) department, that distributes [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to corporate enterprise desktop computers.  
+-   The deployer is the group, typically the information technology (IT) department, that distributes [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to corporate enterprise desktop computers.  
   
 You must follow these steps to take advantage of Trusted Application Deployment:  
   
-1. Obtain a certificate for the publisher.  
+1.  Obtain a certificate for the publisher.  
   
-2. Add the publisher to the trusted publishers store on all clients.  
+2.  Add the publisher to the trusted publishers store on all clients.  
   
-3. Create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
+3.  Create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
   
-4. Sign the deployment manifest with the publisher's certificate.  
+4.  Sign the deployment manifest with the publisher's certificate.  
   
-5. Publish the application deployment to client computers.  
+5.  Publish the application deployment to client computers.  
   
 ### Obtain a certificate for the publisher  
  Digital certificates are a core component of the Microsoft Authenticode authentication and security system. Authenticode is a standard part of the Windows operating system. All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications must be signed with a digital certificate, regardless of whether they participate in Trusted Application Deployment. For a full explanation of how Authenticode works with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], see [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md).  

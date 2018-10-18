@@ -82,7 +82,7 @@ HRESULT CvWriteFlagExVA(
   
  **Unicode:** CvWriteFlagExW, CvWriteFlagExVW  
   
- <strong>ANSI:</strong>CvWriteFlagExA, CvWriteFlagExVA  
+ **ANSI:**CvWriteFlagExA, CvWriteFlagExVA  
   
 ## See also  
  [C++ library reference](../profiling/cpp-library-reference.md)

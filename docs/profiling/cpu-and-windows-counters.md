@@ -87,15 +87,15 @@ To list the available counters on a computer in the Visual Studio IDE, you must 
 
 2. Do one of the following:
 
-   - Click **Sampling**, and then select **Performance counter** from the **Sample** event list. The CPU counters are listed in **Available performance counters**.
+    -   Click **Sampling**, and then select **Performance counter** from the **Sample** event list. The CPU counters are listed in **Available performance counters**.
 
-      **Note** Click **Cancel** to return to the previous sampling configuration.
+         **Note** Click **Cancel** to return to the previous sampling configuration.
 
      -or-
 
-   - Select **CPU Counters**, and then select **Collect CPU Counters**. The CPU counters are listed in **Available counters**.
+    -   Select **CPU Counters**, and then select **Collect CPU Counters**. The CPU counters are listed in **Available counters**.
 
-      **Note** Click **Cancel** to return to the previous counter collection configuration.
+         **Note** Click **Cancel** to return to the previous counter collection configuration.
 
 #### To view a list of a list of Window counters that are supported on the current platform
 

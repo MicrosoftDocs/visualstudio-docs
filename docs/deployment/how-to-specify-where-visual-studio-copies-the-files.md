@@ -28,15 +28,15 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
   
 ### To specify a publishing location  
   
-1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2. Click the **Publish** tab.  
+2.  Click the **Publish** tab.  
   
-3. In the **Publish Location** field, enter the publishing location by using one of the following formats:  
+3.  In the **Publish Location** field, enter the publishing location by using one of the following formats:  
   
-   - To publish to a file share or disk path, enter the path by using either a UNC path (*\\\Server\ApplicationName*) or a file path (*C:\Deploy\ApplicationName*).  
+    -   To publish to a file share or disk path, enter the path by using either a UNC path (*\\\Server\ApplicationName*) or a file path (*C:\Deploy\ApplicationName*).  
   
-   - To publish to an FTP server, enter the path using the format <em>ftp://ftp.microsoft.com/\<ApplicationName></em>.  
+    -   To publish to an FTP server, enter the path using the format *ftp://ftp.microsoft.com/\<ApplicationName>*.  
   
      Note that text must be present in the **Publishing Location** box in order for the Browse (**...**) button to work.  
   

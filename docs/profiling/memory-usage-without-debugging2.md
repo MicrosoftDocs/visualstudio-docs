@@ -18,13 +18,13 @@ ms.workload:
 # Analyze memory usage without the Visual Studio debugger
 You can use the **Memory Usage** tool without debugging to do the following  
   
-- Monitor your app's memory use right in Visual Studio while you are developing a scenario.  
+-   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  
   
-- Create detailed snapshots of the state of your app's memory.  
+-   Create detailed snapshots of the state of your app's memory.  
   
-- Compare snapshots to find the root cause of memory issues.  
+-   Compare snapshots to find the root cause of memory issues.  
   
-  Currently, to measure memory usage for a .NET Core app, you need to use the tool with the debugger attached. For other managed and native apps, you can use the tool either with or without the debugger attached. The screenshots in this topic show a UWP XAML app. If you want to analyze memory use in UWP app that uses JavaScript and HTML, see [Analyze memory usage (JavaScript)](../profiling/javascript-memory.md).
+ Currently, to measure memory usage for a .NET Core app, you need to use the tool with the debugger attached. For other managed and native apps, you can use the tool either with or without the debugger attached. The screenshots in this topic show a UWP XAML app. If you want to analyze memory use in UWP app that uses JavaScript and HTML, see [Analyze memory usage (JavaScript)](../profiling/javascript-memory.md).
   
 ## Start a Memory Usage diagnostic session  
   
@@ -63,13 +63,13 @@ You can use the **Memory Usage** tool without debugging to do the following
 ###  <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshot views  
  You use snapshot views to open detailed reports in new Visual Studio windows. There are two kinds of snapshot views:  
   
-- A [Snapshot details reports](#snapshot-reports) shows the types and instances in one snapshot.  
+-   A [Snapshot details reports](#snapshot-reports) shows the types and instances in one snapshot.  
   
-- A [Snapshot difference (diff) reports](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.  
+-   A [Snapshot difference (diff) reports](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.  
   
-  ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "MEMUSE__SnapshotView_Numbered")  
+ ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "MEMUSE__SnapshotView_Numbered")  
   
-  The numbered items in the picture of the snapshot view are links that open Memory Usage report views.  
+ The numbered items in the picture of the snapshot view are links that open Memory Usage report views.  
   
 |||  
 |-|-|  

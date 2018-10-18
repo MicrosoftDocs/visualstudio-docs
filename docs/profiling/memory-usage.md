@@ -95,14 +95,14 @@ When you have taken multiple snapshots, the cells of the summary table include t
 
 To analyze memory usage, click one of the links that opens up a detailed report of memory usage:  
 
-- To view details of the difference between the current snapshot and the previous snapshot, choose the change link to the left of the arrow (![Memory Usage Increase](../profiling/media/prof-tour-mem-usage-up-arrow.png "Memory Usage Increase")). A red arrow indicates an increase in memory usage, and a green arrow to indicates a decrease.
+-   To view details of the difference between the current snapshot and the previous snapshot, choose the change link to the left of the arrow (![Memory Usage Increase](../profiling/media/prof-tour-mem-usage-up-arrow.png "Memory Usage Increase")). A red arrow indicates an increase in memory usage, and a green arrow to indicates a decrease.
 
-  > [!TIP]
-  >  To help identify memory issues more quickly, the diff reports are sorted by object types that increased the most in overall number (click the change link in **Objects (Diff)** column) or that increased the most in overall heap size (click the change link in **Heap Size (Diff)** column).
+    > [!TIP]
+    >  To help identify memory issues more quickly, the diff reports are sorted by object types that increased the most in overall number (click the change link in **Objects (Diff)** column) or that increased the most in overall heap size (click the change link in **Heap Size (Diff)** column).
 
-- To view details of only the selected snapshot, click the non-change link. 
+-   To view details of only the selected snapshot, click the non-change link. 
   
-  The report appears in a separate window.   
+ The report appears in a separate window.   
   
 ### Managed types reports  
  Choose the current link of a **Objects (Diff)** or **Allocations (Diff)** cell in the Memory Usage summary table.  
@@ -142,17 +142,17 @@ To analyze memory usage, click one of the links that opens up a detailed report 
   
 ### Change (Diff) reports  
   
-- Choose the change link in a cell of the summary table of the **Memory Usage** tab on the **Diagnostic Tools** window.  
+-   Choose the change link in a cell of the summary table of the **Memory Usage** tab on the **Diagnostic Tools** window.  
   
-   ![Choose a change &#40;dif&#41;f report](../profiling/media/dbgdiag_mem_choosediffreport.png "DBGDIAG_MEM_ChooseDiffReport")  
+     ![Choose a change &#40;dif&#41;f report](../profiling/media/dbgdiag_mem_choosediffreport.png "DBGDIAG_MEM_ChooseDiffReport")  
   
-- Choose a snapshot in the **Compare To** list of a managed or native report.  
+-   Choose a snapshot in the **Compare To** list of a managed or native report.  
   
-   ![Choose a snapshot from the Compare To list](../profiling/media/dbgdiag_mem_choosecompareto.png "DBGDIAG_MEM_ChooseCompareTo")  
+     ![Choose a snapshot from the Compare To list](../profiling/media/dbgdiag_mem_choosecompareto.png "DBGDIAG_MEM_ChooseCompareTo")  
   
-  The change report adds columns (marked with **(Diff)**) to the base report that show the difference between the base snapshot value and the comparison snapshot. Here's how a Native Type View diff report might look:  
+ The change report adds columns (marked with **(Diff)**) to the base report that show the difference between the base snapshot value and the comparison snapshot. Here's how a Native Type View diff report might look:  
   
-  ![Native Types Diff Veiw](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")  
+ ![Native Types Diff Veiw](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")  
   
 ## Blogs and videos  
 

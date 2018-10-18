@@ -21,8 +21,8 @@ The `CommentMarkProfile` function inserts a numeric marker and a text string in 
   
 ```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(  
-                                   long lMarker,   
-                                   LPCTSTR szComment);  
+                                   long lMarker,   
+                                   LPCTSTR szComment);  
 ```  
   
 #### Parameters  

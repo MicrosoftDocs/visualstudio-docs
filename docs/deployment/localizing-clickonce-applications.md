@@ -70,9 +70,9 @@ Localization is the process of making your application appropriate for a specifi
   
  You have three options for testing localized deployments before you make your application available to customers:  
   
-- You can run your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application on the appropriate localized versions of Windows.  
+-   You can run your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application on the appropriate localized versions of Windows.  
   
-- You can set the <xref:System.Threading.Thread.CurrentUICulture%2A> property programmatically in your application. (This property must be set before you call the <xref:System.Windows.Forms.Application.Run%2A> method.)  
+-   You can set the <xref:System.Threading.Thread.CurrentUICulture%2A> property programmatically in your application. (This property must be set before you call the <xref:System.Windows.Forms.Application.Run%2A> method.)  
   
 ## See also  
  [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-deployment.md)   

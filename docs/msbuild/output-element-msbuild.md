@@ -54,9 +54,9 @@ Stores task output values in items and properties.
 
 ### Parent elements  
 
-|                  Element                   |                                                          Description                                                          |
-|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [Task](../msbuild/task-element-msbuild.md) | Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. |
+|Element|Description|  
+|-------------|-----------------|  
+|[Task](../msbuild/task-element-msbuild.md)|Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task.|  
 
 ## Example  
  The following code example shows the `Csc` task being executed inside of a `Target` element. The items and properties passed to the task parameters are declared outside of the scope of this example. The value from the output parameter `OutputAssembly` is stored in the `FinalAssemblyName` item, and the value from the output parameter `BuildSucceeded` is stored in the `BuildWorked` property. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  

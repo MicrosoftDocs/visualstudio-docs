@@ -21,9 +21,9 @@ The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and
   
 ```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (  
-                                   __int64 dnTimestamp,  
-                                   long lMarker,  
-                                   LPCTSTR szComment);  
+                                   __int64 dnTimestamp,  
+                                   long lMarker,  
+                                   LPCTSTR szComment);  
 ```  
   
 #### Parameters  

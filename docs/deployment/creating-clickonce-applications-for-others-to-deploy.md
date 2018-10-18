@@ -80,13 +80,13 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
   
  There are three ways that the customer can sign the deployment manifest in this situation:  
   
-1. The customer can use a valid certificate issued by a certification authority (CA).  
+1.  The customer can use a valid certificate issued by a certification authority (CA).  
   
-2. As a variation on this approach, the customer can choose to sign their deployment manifest with a self-signed certificate. The drawback to this is that it will cause the application to display the words "Unknown Publisher" when the user is asked whether to install it. However, the benefit is that it prevents smaller customers from having to spend the time and money required for a certificate issued by a certification authority.  
+2.  As a variation on this approach, the customer can choose to sign their deployment manifest with a self-signed certificate. The drawback to this is that it will cause the application to display the words "Unknown Publisher" when the user is asked whether to install it. However, the benefit is that it prevents smaller customers from having to spend the time and money required for a certificate issued by a certification authority.  
   
-3. Finally, the developer can include their own self-signed certificate in the setup package. This introduces the potential problems with application identity discussed earlier in this topic.  
+3.  Finally, the developer can include their own self-signed certificate in the setup package. This introduces the potential problems with application identity discussed earlier in this topic.  
   
-   The drawback to the setup deployment project method is the time and expense required to build a custom deployment application.  
+ The drawback to the setup deployment project method is the time and expense required to build a custom deployment application.  
   
 ### Have customer generate deployment manifest  
  A third possible deployment strategy is to hand off only the application files and application manifest to the customer. In this scenario, the customer is responsible for using the .NET Framework SDK to generate and sign the deployment manifest.  

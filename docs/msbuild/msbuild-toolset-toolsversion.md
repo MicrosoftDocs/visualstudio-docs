@@ -55,9 +55,9 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 ## Toolset implementation  
  Implement a Toolset by selecting the paths of the various tools, targets, and tasks that make up the Toolset. The tools in the Toolset that MSBuild defines come from the following sources:  
   
-- The .NET Framework folder.  
+-   The .NET Framework folder.  
   
-- Additional managed tools.  
+-   Additional managed tools.  
   
   The managed tools include *ResGen.exe* and *TlbImp.exe*.  
 

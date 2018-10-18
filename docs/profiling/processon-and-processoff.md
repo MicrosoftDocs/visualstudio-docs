@@ -20,11 +20,11 @@ The VSPerfCmd.exe **ProcessOff** and **ProcessOn** subcommands pause and resume 
   
  The **ProcessOff** and **ProcessOn** subcommands also affect the Process Start/Stop count that is manipulated by profiler API functions.  
   
-- **ProcessOff** immediately sets the Process Start/Stop Count to 0 and therefore pauses profiling.  
+-   **ProcessOff** immediately sets the Process Start/Stop Count to 0 and therefore pauses profiling.  
   
-- **ProcessOn** immediately sets the Process Start/Stop Count to 1 and therefore resumes profiling.  
+-   **ProcessOn** immediately sets the Process Start/Stop Count to 1 and therefore resumes profiling.  
   
-  For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
+ For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
   
 ## Syntax  
   

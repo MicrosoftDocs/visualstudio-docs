@@ -22,33 +22,33 @@ Windows 7 or later is required to use the profiling tool shown in this article, 
   
 ##  Collect CPU usage data  
   
-1. In Visual Studio, set the solution configuration to **Release** and choose the deployment target.  
+1.  In Visual Studio, set the solution configuration to **Release** and choose the deployment target.  
   
-    ![Select Release and Local Machine](../profiling/media/cpuuse_selectreleaselocalmachine.png "CPUUSE_SelectReleaseLocalMachine")  
+     ![Select Release and Local Machine](../profiling/media/cpuuse_selectreleaselocalmachine.png "CPUUSE_SelectReleaseLocalMachine")  
   
-   -   Running the app in **Release** mode gives you a better view of the actual performance of your app.  
+    -   Running the app in **Release** mode gives you a better view of the actual performance of your app.  
   
-   -   Running the app on the local machine best replicates the execution of the installed app.  
+    -   Running the app on the local machine best replicates the execution of the installed app.  
   
-   -   If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
+    -   If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
   
-   -   For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
+    -   For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
   
-2. On the **Debug** menu, choose **Performance Profiler**.  
+2.  On the **Debug** menu, choose **Performance Profiler**.  
   
-3. Choose **CPU Usage** and then choose **Start**.  
+3.  Choose **CPU Usage** and then choose **Start**.  
   
-    ![Choose CPU Usage](../profiling/media/cpuuse_lib_choosecpuusage.png "CPUUSE_LIB_ChooseCpuUsage")  
+     ![Choose CPU Usage](../profiling/media/cpuuse_lib_choosecpuusage.png "CPUUSE_LIB_ChooseCpuUsage")  
   
-4. When the app starts, click **Get Max Number**. Wait about a second after the output is displayed, then choose **Get Max Number Async**. Waiting between button clicks makes it easier to isolate the button click routines in the diagnostic report.  
+4.  When the app starts, click **Get Max Number**. Wait about a second after the output is displayed, then choose **Get Max Number Async**. Waiting between button clicks makes it easier to isolate the button click routines in the diagnostic report.  
   
-5. After the second output line appears, choose **Stop Collection** in the Performance and Diagnostic hub.  
+5.  After the second output line appears, choose **Stop Collection** in the Performance and Diagnostic hub.  
   
-   ![Stop CpuUsage data collection](../profiling/media/cpu_use_wt_stopcollection.png "CPU_USE_WT_StopCollection")  
+ ![Stop CpuUsage data collection](../profiling/media/cpu_use_wt_stopcollection.png "CPU_USE_WT_StopCollection")  
   
-   The CPU Usage tool analyzes the data and displays the report.  
+ The CPU Usage tool analyzes the data and displays the report.  
   
-   ![CpuUsage report](../profiling/media/cpu_use_wt_report.png "CPU_USE_WT_Report")  
+ ![CpuUsage report](../profiling/media/cpu_use_wt_report.png "CPU_USE_WT_Report")  
   
 ## Analyze the CPU usage report  
   

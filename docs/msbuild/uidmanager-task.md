@@ -27,11 +27,11 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
   
 ## Task parameters  
   
-|        Parameter        |                                                                                                               Description                                                                                                               |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `IntermediateDirectory` | Optional **String** parameter.<br /><br /> Specifies the directory that is used to back up the source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files that are specified by the **MarkupFiles** parameter. |
-|      `MarkupFiles`      |                  Required **ITaskItem[]** parameter.<br /><br /> Specifies the source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files to include for UID checking, updating, or removing.                  |
-|         `Task`          |                                     Required **String** parameter.<br /><br /> Specifies the UID management task that you want to perform. Valid options are **Check**, **Update**, or **Remove**.                                      |
+|Parameter|Description|  
+|---------------|-----------------|  
+|`IntermediateDirectory`|Optional **String** parameter.<br /><br /> Specifies the directory that is used to back up the source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files that are specified by the **MarkupFiles** parameter.|  
+|`MarkupFiles`|Required **ITaskItem[]** parameter.<br /><br /> Specifies the source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files to include for UID checking, updating, or removing.|  
+|`Task`|Required **String** parameter.<br /><br /> Specifies the UID management task that you want to perform. Valid options are **Check**, **Update**, or **Remove**.|  
   
 ## Example  
  The following example uses the <xref:Microsoft.Build.Tasks.Windows.UidManager> task to check that the specified source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files contain [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] elements that have appropriate UIDs.  

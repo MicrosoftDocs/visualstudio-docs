@@ -25,9 +25,9 @@ Two types of CPU counter events occur:
 
 - Platform events - CPU events that are coupled to a specific CPU.
 
-  Portable events include general events, such as Instructions Retired and Non Halted Cycles, CPU buffer events, branching events, and L2 cache events. The available platform event counters are determined by the processor manufacturer.
+ Portable events include general events, such as Instructions Retired and Non Halted Cycles, CPU buffer events, branching events, and L2 cache events. The available platform event counters are determined by the processor manufacturer.
 
-  Categories of events can be shared between portable and platform counters. For example, the following categories of data are frequently common to both types:
+ Categories of events can be shared between portable and platform counters. For example, the following categories of data are frequently common to both types:
 
 - Memory events.
 
@@ -35,7 +35,7 @@ Two types of CPU counter events occur:
 
 - Branch events.
 
-  You can collect performance counter data in two ways in the profiler:
+ You can collect performance counter data in two ways in the profiler:
 
 - Collect data from one or more counters when you profile by instrumentation.
 

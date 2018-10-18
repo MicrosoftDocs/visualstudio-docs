@@ -132,12 +132,12 @@ Your minimal project file should resemble the following code:
 
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <Csc Sources="@(Compile)"/>    
-  </Target>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <Csc Sources="@(Compile)"/>    
+  </Target>  
 </Project>  
 ```  
 
@@ -221,17 +221,17 @@ Your project file should now resemble the following code:
 
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <PropertyGroup>  
-    <AssemblyName>MSBuildSample</AssemblyName>  
-    <OutputPath>Bin\</OutputPath>  
-  </PropertyGroup>  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
+  <PropertyGroup>  
+    <AssemblyName>MSBuildSample</AssemblyName>  
+    <OutputPath>Bin\</OutputPath>  
+  </PropertyGroup>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
 </Project>  
 ```  
 
@@ -297,21 +297,21 @@ Your project file should now resemble the following code:
 
 ```xml  
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <PropertyGroup>  
-    <AssemblyName>MSBuildSample</AssemblyName>  
-    <OutputPath>Bin\</OutputPath>  
-  </PropertyGroup>  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
-  <Target Name="Clean" >  
-    <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
-  <Target Name="Rebuild" DependsOnTargets="Clean;Build" />  
+  <PropertyGroup>  
+    <AssemblyName>MSBuildSample</AssemblyName>  
+    <OutputPath>Bin\</OutputPath>  
+  </PropertyGroup>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
+  <Target Name="Clean" >  
+    <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
+  <Target Name="Rebuild" DependsOnTargets="Clean;Build" />  
 </Project>  
 ```  
 
@@ -371,8 +371,8 @@ Your project file should now resemble the following code:
   
     ```xml  
     <Target Name="Build" Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe">  
-      <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-      <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+      <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+      <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
     </Target>  
     ```  
   

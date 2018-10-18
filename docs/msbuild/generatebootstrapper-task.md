@@ -27,122 +27,122 @@ Provides an automated way to detect, download, and install an application and it
 ## Task parameters  
  The following describe the parameters of the `GenerateBootstrapper` task.  
   
-- `ApplicationFile`  
+-   `ApplicationFile`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the file the bootstrapper will use to begin the installation of the application after all prerequisites have been installed. A build error will result if neither the `BootstrapperItems` nor the `ApplicationFile` parameter is specified.  
+     Specifies the file the bootstrapper will use to begin the installation of the application after all prerequisites have been installed. A build error will result if neither the `BootstrapperItems` nor the `ApplicationFile` parameter is specified.  
   
-- `ApplicationName`  
+-   `ApplicationName`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the name of the application that the bootstrapper will install. This name will appear in the UI the bootstrapper uses during installation.  
+     Specifies the name of the application that the bootstrapper will install. This name will appear in the UI the bootstrapper uses during installation.  
   
-- `ApplicationRequiresElevation`  
+-   `ApplicationRequiresElevation`  
   
-   Optional `Boolean` parameter.  
+     Optional `Boolean` parameter.  
   
-   If `true`, the component runs with elevated permissions when it is installed on a target computer.  
+     If `true`, the component runs with elevated permissions when it is installed on a target computer.  
   
-- `ApplicationUrl`  
+-   `ApplicationUrl`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the Web location that is hosting the application's installer.  
+     Specifies the Web location that is hosting the application's installer.  
   
-- `BootstrapperComponentFiles`  
+-   `BootstrapperComponentFiles`  
   
-   Optional `String[]` output parameter.  
+     Optional `String[]` output parameter.  
   
-   Specifies the built location of bootstrapper package files.  
+     Specifies the built location of bootstrapper package files.  
   
-- `BootstrapperItems`  
+-   `BootstrapperItems`  
   
-   Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.  
+     Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.  
   
-   Specifies the products to build into the bootstrapper. The items passed to this parameter should have the following syntax:  
+     Specifies the products to build into the bootstrapper. The items passed to this parameter should have the following syntax:  
   
-  ```xml  
-  <BootstrapperItem  
-      Include="ProductCode">  
-      <ProductName>  
-          ProductName  
-      </ProductName>  
-  </BootstrapperItem>  
-  ```  
+    ```xml  
+    <BootstrapperItem  
+        Include="ProductCode">  
+        <ProductName>  
+            ProductName  
+        </ProductName>  
+    </BootstrapperItem>  
+    ```  
   
-   The `Include` attribute represents the name of a prerequisite that should be installed. The `ProductName` item metadata is optional, and will be used by the build engine as a user-friendly name if the package cannot be found. These items are not required [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] input parameters, unless no `ApplicationFile` is specified. You should include one item for every prerequisite that must be installed for your application.  
+     The `Include` attribute represents the name of a prerequisite that should be installed. The `ProductName` item metadata is optional, and will be used by the build engine as a user-friendly name if the package cannot be found. These items are not required [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] input parameters, unless no `ApplicationFile` is specified. You should include one item for every prerequisite that must be installed for your application.  
   
-   A build error will result if neither the `BootstrapperItems` nor the `ApplicationFile` parameter is specified.  
+     A build error will result if neither the `BootstrapperItems` nor the `ApplicationFile` parameter is specified.  
   
-- `BootstrapperKeyFile`  
+-   `BootstrapperKeyFile`  
   
-   Optional `String` output parameter.  
+     Optional `String` output parameter.  
   
-   Specifies the built location of *setup.exe*  
+     Specifies the built location of *setup.exe*  
   
-- `ComponentsLocation`  
+-   `ComponentsLocation`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies a location for the bootstrapper to look for installation prerequisites to install. This parameter can have the following values:  
+     Specifies a location for the bootstrapper to look for installation prerequisites to install. This parameter can have the following values:  
   
-  - `HomeSite`: Indicates that the prerequisite is being hosted by the component vendor.  
+    -   `HomeSite`: Indicates that the prerequisite is being hosted by the component vendor.  
   
-  - `Relative`: Indicates that the prerequisite is at the same location of the application.  
+    -   `Relative`: Indicates that the prerequisite is at the same location of the application.  
   
-  - `Absolute`: Indicates that all components are to be found at a centralized URL. This value should be used in conjunction with the `ComponentsUrl` input parameter.  
+    -   `Absolute`: Indicates that all components are to be found at a centralized URL. This value should be used in conjunction with the `ComponentsUrl` input parameter.  
   
-    If `ComponentsLocation` is not specified, `HomeSite` is used by default.  
+     If `ComponentsLocation` is not specified, `HomeSite` is used by default.  
   
-- `ComponentsUrl`  
+-   `ComponentsUrl`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the URL containing the installation prerequisites.  
+     Specifies the URL containing the installation prerequisites.  
   
-- `CopyComponents`  
+-   `CopyComponents`  
   
-   Optional `Boolean` parameter.  
+     Optional `Boolean` parameter.  
   
-   If `true`, the bootstrapper copies all output files to the path specified in the `OutputPath` parameter. The values of the `BootstrapperComponentFiles` parameter should all be based on this path. If `false`, the files are not copied, and the `BootstrapperComponentFiles` values are based on the value of the `Path` parameter.  The default value of this parameter is `true`.  
+     If `true`, the bootstrapper copies all output files to the path specified in the `OutputPath` parameter. The values of the `BootstrapperComponentFiles` parameter should all be based on this path. If `false`, the files are not copied, and the `BootstrapperComponentFiles` values are based on the value of the `Path` parameter.  The default value of this parameter is `true`.  
   
-- `Culture`  
+-   `Culture`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the culture to use for the bootstrapper UI and installation prerequisites. If the specified culture is unavailable, the task uses the value of the `FallbackCulture` parameter.  
+     Specifies the culture to use for the bootstrapper UI and installation prerequisites. If the specified culture is unavailable, the task uses the value of the `FallbackCulture` parameter.  
   
-- `FallbackCulture`  
+-   `FallbackCulture`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the secondary culture to use for the bootstrapper UI and installation prerequisites.  
+     Specifies the secondary culture to use for the bootstrapper UI and installation prerequisites.  
   
-- `OutputPath`  
+-   `OutputPath`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the location to copy *setup.exe* and all package files.  
+     Specifies the location to copy *setup.exe* and all package files.  
   
-- `Path`  
+-   `Path`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the location of all available prerequisite packages.  
+     Specifies the location of all available prerequisite packages.  
   
-- `SupportUrl`  
+-   `SupportUrl`  
   
-   Optional `String` parameter.  
+     Optional `String` parameter.  
   
-   Specifies the URL to provide if the bootstrapper installation fails.  
+     Specifies the URL to provide if the bootstrapper installation fails.  
   
-- `Validate`  
+-   `Validate`  
   
-   Optional `Boolean` parameter.  
+     Optional `Boolean` parameter.  
   
-   If `true`, the bootstrapper performs XSD validation on the specified input bootstrapper items. The default value of this parameter is `false`.  
+     If `true`, the bootstrapper performs XSD validation on the specified input bootstrapper items. The default value of this parameter is `false`.  
   
 ## Remarks  
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  

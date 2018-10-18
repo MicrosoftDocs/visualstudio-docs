@@ -16,17 +16,17 @@ ms.workload:
 # Target build order
 Targets must be ordered if the input to one target depends on the output of another target. You can use these attributes to specify the order in which targets are run:  
   
-- `InitialTargets`. This `Project` attribute specifies the targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.  
+-   `InitialTargets`. This `Project` attribute specifies the targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.  
   
-- `DefaultTargets`. This `Project` atttribute specifies which targets are run if a target is not specified explicitly on the command line.  
+-   `DefaultTargets`. This `Project` atttribute specifies which targets are run if a target is not specified explicitly on the command line.  
   
-- `DependsOnTargets`. This `Target` attribute specifies targets that must run before this target can run.  
+-   `DependsOnTargets`. This `Target` attribute specifies targets that must run before this target can run.  
   
-- `BeforeTargets` and `AfterTargets`. These `Target` attributes specify that this target should run before or after the specified targets (MSBuild 4.0).  
+-   `BeforeTargets` and `AfterTargets`. These `Target` attributes specify that this target should run before or after the specified targets (MSBuild 4.0).  
   
-  A target is never run twice during a build, even if a subsequent target in the build depends on it. Once a target has been run, its contribution to the build is complete.  
+ A target is never run twice during a build, even if a subsequent target in the build depends on it. Once a target has been run, its contribution to the build is complete.  
   
-  Targets may have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and has no effect on the build. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).  
+ Targets may have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and has no effect on the build. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).  
   
 ## Initial targets  
  The `InitialTargets` attribute of the [Project](../msbuild/project-element-msbuild.md) element specifies targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute. Initial targets are typically used for error checking.  

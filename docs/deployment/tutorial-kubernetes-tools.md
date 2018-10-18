@@ -86,21 +86,21 @@ To do this, you first need to double-check that you've installed everything as d
 
    ![Screenshot of Publish menu item](media/k8s-tools-publish-project.png)
 
-2. In the **Publish** screen, choose **Container Registry** as the publish target, and follow the prompts to select your container registry. If you don't already have a container registry, choose **Create New Azure Container Registry** to create one from Visual Studio. For more information, see [Publish your container to Azure Container Registry](#publish-your-container-to-azure-container-registry).
+1. In the **Publish** screen, choose **Container Registry** as the publish target, and follow the prompts to select your container registry. If you don't already have a container registry, choose **Create New Azure Container Registry** to create one from Visual Studio. For more information, see [Publish your container to Azure Container Registry](#publish-your-container-to-azure-container-registry).
 
    ![Screenshot of Pick a publish target screen](media/k8s-tools-publish-to-acr.png)
 
-3. Back in Solution Explorer, right click on your *solution* and click **Publish to Azure AKS**.
+1. Back in Solution Explorer, right click on your *solution* and click **Publish to Azure AKS**.
 
    ![Screenshot of Publish to Azure AKS menu item](media/k8s-tools-publish-solution.png)
 
-4. Choose your subscription and your AKS cluster, along with the ACR publish profile that you just created. Then click **OK**.
+1. Choose your subscription and your AKS cluster, along with the ACR publish profile that you just created. Then click **OK**.
 
    ![Screenshot of Publish to AKS screen](media/k8s-tools-publish-to-aks.png)
 
    This takes you to the **Publish to Azure AKS** screen.
 
-5. Choose the **Configure Helm** link to update the command line used to install the Helm charts on the server.
+1.  Choose the **Configure Helm** link to update the command line used to install the Helm charts on the server.
 
    ![Screenshot of Configure Helm link](media/k8s-tools-configure-helm.png)
 
@@ -108,7 +108,7 @@ To do this, you first need to double-check that you've installed everything as d
 
    ![Screenshoot of Helm configure screen](media/k8s-tools-helm-configure-screen.png)
 
-6. When you are ready to deploy, click the **Publish** button to publish your application to AKS.
+1. When you are ready to deploy, click the **Publish** button to publish your application to AKS.
 
    ![Screenshot of publish to Azure AKS screen](media/k8s-tools-publish-screen.png)
 

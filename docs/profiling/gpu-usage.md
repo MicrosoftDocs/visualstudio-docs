@@ -20,52 +20,52 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
 ## Requirements  
  The following are requirements for using the GPU Usage tool that are in addition to Graphics Diagnostics requirements.  
   
-- A GPU and driver that support the necessary timing instrumentation.  
+-   A GPU and driver that support the necessary timing instrumentation.  
   
-  > [!NOTE]
-  >  For more information on supported hardware and drivers, see [Hardware and driver support](#hwsupport) at the end of this document.  
+    > [!NOTE]
+    >  For more information on supported hardware and drivers, see [Hardware and driver support](#hwsupport) at the end of this document.  
   
-  For more information about Graphics Diagnostics requirements, see [Getting Started](../debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md).  
+ For more information about Graphics Diagnostics requirements, see [Getting Started](../debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md).  
   
 ## Using the GPU Usage tool  
  When you run your app under the GPU Usage tool, Visual Studio creates a diagnostic session that graphs high-level information about your app's rendering performance and GPU utilization in real-time.  
   
 #### To start the GPU Usage tool:  
   
-1. In the main menu, choose **Debug**, then **Performance and Diagnostics** (Keyboard: Press Alt+F2).  
+1.  In the main menu, choose **Debug**, then **Performance and Diagnostics** (Keyboard: Press Alt+F2).  
   
-2. In the Performance and Diagnostics hub, check the box next to **GPU Usage**. Optionally, check the boxes next to other tools you're interested in. You can run several Performance and Diagnostics tools concurrently to get a fuller picture of your app's performance.  
+2.  In the Performance and Diagnostics hub, check the box next to **GPU Usage**. Optionally, check the boxes next to other tools you're interested in. You can run several Performance and Diagnostics tools concurrently to get a fuller picture of your app's performance.  
   
-    ![Choose the diagnostic tools you want to use.](media/gfx_diag_diagsession_tools.png "gfx_diag_diagsession_tools")  
+     ![Choose the diagnostic tools you want to use.](media/gfx_diag_diagsession_tools.png "gfx_diag_diagsession_tools")  
   
-   > [!NOTE]
-   >  Not all Performance and Diagnostics tools can be used at the same time.  
+    > [!NOTE]
+    >  Not all Performance and Diagnostics tools can be used at the same time.  
   
-3. Choose the blue **Start** button at the bottom of the Performance and Diagnostics hub to run your app under the tools you selected.  
+3.  Choose the blue **Start** button at the bottom of the Performance and Diagnostics hub to run your app under the tools you selected.  
   
-   The high-level information that's displayed in real-time includes frame timing, frame rate, and GPU utilization. Each of these pieces of information are graphed independently, but use a common time-scale so that you can easily relate between them.  
+ The high-level information that's displayed in real-time includes frame timing, frame rate, and GPU utilization. Each of these pieces of information are graphed independently, but use a common time-scale so that you can easily relate between them.  
   
-   The **Frame time (ms)** and **Frames per second (FPS)** graphs contain two red, horizontal lines that represent performance targets of 60 and 30 frames per second. In the **Frame time** graph, your app is exceeding the performance target when the graph is below the line and missing it when the graph is above the line. For the Frames per second graph it's the opposite - your app is exceeding the performance target when the graph is above the line and missing it when the graph is below the line. Primarily, these graphs are used to get a high-level idea of your app's performance and to identify slow-downs that you might want to investigate -- for example, a sudden drop in frame rate or a spike in GPU Utilization.  
+ The **Frame time (ms)** and **Frames per second (FPS)** graphs contain two red, horizontal lines that represent performance targets of 60 and 30 frames per second. In the **Frame time** graph, your app is exceeding the performance target when the graph is below the line and missing it when the graph is above the line. For the Frames per second graph it's the opposite - your app is exceeding the performance target when the graph is above the line and missing it when the graph is below the line. Primarily, these graphs are used to get a high-level idea of your app's performance and to identify slow-downs that you might want to investigate -- for example, a sudden drop in frame rate or a spike in GPU Utilization.  
   
-   While your app runs under the GPU Usage tool, the diagnostics session also collects detailed information about graphics events that were executed on the GPU. This information is used to generate a more granular report of how your app utilizes the hardware. Because this report takes some time to generate from the collected information, it's only available after the diagnostics session is done collecting information.  
+ While your app runs under the GPU Usage tool, the diagnostics session also collects detailed information about graphics events that were executed on the GPU. This information is used to generate a more granular report of how your app utilizes the hardware. Because this report takes some time to generate from the collected information, it's only available after the diagnostics session is done collecting information.  
   
-   When you want to look at a performance or utilization issue more closely, stop collecting performance information so that the report can be generated.  
+ When you want to look at a performance or utilization issue more closely, stop collecting performance information so that the report can be generated.  
   
 #### To generate and view the GPU Usage Report:  
   
-1. In the bottom portion of the diagnostics session window, choose the **Stop Collection** link or press **Stop** in the upper left-hand corner.  
+1.  In the bottom portion of the diagnostics session window, choose the **Stop Collection** link or press **Stop** in the upper left-hand corner.  
   
-    ![Collect GPU and CPU timing information.](media/gfx_diag_gpu_usage_collect.png "gfx_diag_gpu_usage_collect")  
+     ![Collect GPU and CPU timing information.](media/gfx_diag_gpu_usage_collect.png "gfx_diag_gpu_usage_collect")  
   
-2. In the top portion of the report, select a section from one of the graphs that shows the issue you want to investigate. Your selection can be up to 3 seconds long; longer sections are truncated towards the beginning.  
+2.  In the top portion of the report, select a section from one of the graphs that shows the issue you want to investigate. Your selection can be up to 3 seconds long; longer sections are truncated towards the beginning.  
   
-    ![Post&#45;collection, select a range to view details](media/gfx_diag_gpu_usage_select1.png "gfx_diag_gpu_usage_select1")  
+     ![Post&#45;collection, select a range to view details](media/gfx_diag_gpu_usage_select1.png "gfx_diag_gpu_usage_select1")  
   
-3. In the bottom portion of the report, choose the **view details** link in the **...click here to view details of GPU usage for that range** message to view a detailed timeline of your selection.  
+3.  In the bottom portion of the report, choose the **view details** link in the **...click here to view details of GPU usage for that range** message to view a detailed timeline of your selection.  
   
-    ![Post&#45;collection, with range selected](media/gfx_diag_gpu_usage_select2.png "gfx_diag_gpu_usage_select2")  
+     ![Post&#45;collection, with range selected](media/gfx_diag_gpu_usage_select2.png "gfx_diag_gpu_usage_select2")  
   
-   This opens a new tabbed document that contains the report. The GPU Usage report helps you to see when a graphics event is started on the CPU, when it reaches the GPU, and how long it takes the GPU to execute it. This information can help you to identify bottlenecks and opportunities for increased parallelism in your code.  
+ This opens a new tabbed document that contains the report. The GPU Usage report helps you to see when a graphics event is started on the CPU, when it reaches the GPU, and how long it takes the GPU to execute it. This information can help you to identify bottlenecks and opportunities for increased parallelism in your code.  
 
 <!-- VERSIONLESS -->
 ## Export to GPUView or Windows Performance Analyzer

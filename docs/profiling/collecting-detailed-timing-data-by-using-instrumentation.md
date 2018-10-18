@@ -28,9 +28,9 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools in
 ## Common tasks
  You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:  
   
-- In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
+-   In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
   
-  The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the instrumentation method.  
+ The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the instrumentation method.  
   
 |Task|Related Content|  
 |----------|---------------------|  
