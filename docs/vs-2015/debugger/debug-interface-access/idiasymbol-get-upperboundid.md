@@ -28,7 +28,7 @@ Retrieves the symbol identifier of the upper bound of a FORTRAN array dimension.
   
 ```cpp#  
 HRESULT get_upperBoundId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

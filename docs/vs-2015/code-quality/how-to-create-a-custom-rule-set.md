@@ -38,19 +38,19 @@ In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](.
   
 #### To create a custom rule from a single existing rule set  
   
-1.  In Solution Explorer, right-click the project and then select **Properties**.  
+1. In Solution Explorer, right-click the project and then select **Properties**.  
   
-2.  On the **Properties** tab, click **Code Analysis**.  
+2. On the **Properties** tab, click **Code Analysis**.  
   
-3.  In the **Rule Set** drop-down list, do one of the following:  
+3. In the **Rule Set** drop-down list, do one of the following:  
   
-    -   Select the rule set that you want to customize.  
+   - Select the rule set that you want to customize.  
   
      \- or -  
   
-    -   Select **\<Browse...>** to specify an existing rule set that is not in the list.  
+   - Select **\<Browse...>** to specify an existing rule set that is not in the list.  
   
-4.  Click **Open** to display the rules in the rule set editor.  
+4. Click **Open** to display the rules in the rule set editor.  
   
 #### To create a custom rule set from multiple existing rule sets  
   

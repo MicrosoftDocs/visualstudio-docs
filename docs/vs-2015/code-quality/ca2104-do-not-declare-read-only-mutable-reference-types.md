@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2104: Do not declare read only mutable reference types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotDeclareReadOnlyMutableReferenceTypes|

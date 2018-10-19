@@ -25,11 +25,11 @@ By using text templates, you can create report files, source code files, and oth
   
  To access a model from a text template:  
   
--   Set the inherit property of the template directive to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation>. This provides access to the Store.  
+- Set the inherit property of the template directive to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation>. This provides access to the Store.  
   
--   Specify directive processors for the DSL that you want to access. This loads the assemblies for your DSL so that you can use its domain classes, properties, and relationships in the code of your text template. It also loads the model file that you specify.  
+- Specify directive processors for the DSL that you want to access. This loads the assemblies for your DSL so that you can use its domain classes, properties, and relationships in the code of your text template. It also loads the model file that you specify.  
   
- A `.tt` file similar to the following example is created in the Debugging project when you create a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution from the DSL Minimal Language template.  
+  A `.tt` file similar to the following example is created in the Debugging project when you create a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution from the DSL Minimal Language template.  
   
 ```  
 <#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>  
@@ -91,11 +91,11 @@ Here is a list of elements in the model:
   
  Notice that:  
   
-1.  The `filename` and `validation` parameters are separated with ";" and there must be no other separators or spaces.  
+1. The `filename` and `validation` parameters are separated with ";" and there must be no other separators or spaces.  
   
-2.  The list of validation categories determines which validation methods will be executed. Multiple categories should be separated with "&#124;" and there must be no other separators or spaces.  
+2. The list of validation categories determines which validation methods will be executed. Multiple categories should be separated with "&#124;" and there must be no other separators or spaces.  
   
- If an error is found, it will be reported in the errors window, and the result file will contain an error message.  
+   If an error is found, it will be reported in the errors window, and the result file will contain an error message.  
   
 ##  <a name="Multiple"></a> Accessing multiple models from a text template  
   

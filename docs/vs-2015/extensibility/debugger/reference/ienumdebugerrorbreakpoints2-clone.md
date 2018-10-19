@@ -27,13 +27,13 @@ Returns a copy of the current enumeration as a separate object.
   
 ```cpp#  
 HRESULT Clone(  
-   IEnumDebugErrorBreakpoints2** ppEnum  
+   IEnumDebugErrorBreakpoints2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int Clone(  
-   out IEnumDebugErrorBreakpoints2 ppEnum  
+   out IEnumDebugErrorBreakpoints2 ppEnum  
 );  
 ```  
   

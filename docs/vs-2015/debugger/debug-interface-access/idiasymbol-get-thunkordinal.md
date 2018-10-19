@@ -28,7 +28,7 @@ Retrieves the thunk type of a function.
   
 ```cpp#  
 HRESULT get_thunkOrdinal (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

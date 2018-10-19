@@ -62,16 +62,16 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
   
  You can use pre-defined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. Four reference groups are available:  
   
--   Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript.  
+- Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps using JavaScript.  
   
--   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
+- Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
   
--   Dedicated worker reference groups, for HTML5 Web Workers. Files specified in this group are in scope for .js files that have an explicit reference to a dedicated worker reference group.  
+- Dedicated worker reference groups, for HTML5 Web Workers. Files specified in this group are in scope for .js files that have an explicit reference to a dedicated worker reference group.  
   
--   Generic, for other JavaScript project types.  
+- Generic, for other JavaScript project types.  
   
- **Included files**  
- This option specifies the order in which files are loaded into the context of the language service. You can configure the order by using the **Remove**, **Move Up**, and **Move Down** buttons. For IntelliSense to work correctly, a file that is dependent on another must be loaded after the other file.  
+  **Included files**  
+  This option specifies the order in which files are loaded into the context of the language service. You can configure the order by using the **Remove**, **Move Up**, and **Move Down** buttons. For IntelliSense to work correctly, a file that is dependent on another must be loaded after the other file.  
   
 > [!CAUTION]
 >  If an object is defined unconditionally in two or more implicit references, the last reference in this list will be used to define the object.  

@@ -44,13 +44,13 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  There are three cases:  
   
--   The target has a `Condition` attribute that evaluates to `false`. In this case, the target is not run, and has no effect on the build.  
+- The target has a `Condition` attribute that evaluates to `false`. In this case, the target is not run, and has no effect on the build.  
   
--   The target has out-of-date outputs and is run to bring them up to date.  
+- The target has out-of-date outputs and is run to bring them up to date.  
   
--   The target has no out-of-date outputs and is skipped. MSBuild evaluates the target and makes changes to items and properties as if the target had been run.  
+- The target has no out-of-date outputs and is skipped. MSBuild evaluates the target and makes changes to items and properties as if the target had been run.  
   
- To support incremental compilation, tasks must ensure that the `TaskParameter` attribute value of any `Output` element is equal to a task input parameter. Here are some examples:  
+  To support incremental compilation, tasks must ensure that the `TaskParameter` attribute value of any `Output` element is equal to a task input parameter. Here are some examples:  
   
 ```  
 <CreateProperty Value="123">  

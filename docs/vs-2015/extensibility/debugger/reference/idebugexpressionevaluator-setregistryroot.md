@@ -27,13 +27,13 @@ This method sets the registry root. Used for side-by-side debugging.
   
 ```cpp#  
 HRESULT SetRegistryRoot (   
-   LPCOLESTR ustrRegistryRoot  
+   LPCOLESTR ustrRegistryRoot  
 );  
 ```  
   
 ```csharp  
 int SetRegistryRoot(  
-   string ustrRegistryRoot  
+   string ustrRegistryRoot  
 );  
 ```  
   

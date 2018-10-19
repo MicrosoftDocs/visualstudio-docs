@@ -27,15 +27,15 @@ This method obtains the name of the enumeration constant given its value.
   
 ```cpp#  
 HRESULT GetStringFromValue(  
-   ULONGLONG value,  
-   BSTR*     pbstrValue  
+   ULONGLONG value,  
+   BSTR*     pbstrValue  
 );  
 ```  
   
 ```csharp  
 int GetStringFromValue(  
-   ulong      value,  
-   out string pbstrValue  
+   ulong      value,  
+   out string pbstrValue  
 );  
 ```  
   

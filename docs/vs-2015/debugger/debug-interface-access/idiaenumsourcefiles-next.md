@@ -28,9 +28,9 @@ Retrieves a specified number of source files in the enumeration sequence.
   
 ```cpp#  
 HRESULT Next (   
-   ULONG            celt,  
-   IDiaSourceFile** rgelt,  
-   ULONG*           pceltFetched  
+   ULONG            celt,  
+   IDiaSourceFile** rgelt,  
+   ULONG*           pceltFetched  
 );  
 ```  
   

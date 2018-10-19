@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether another symbol references this symbol's 
   
 ```cpp#  
 HRESULT get_addressTaken (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

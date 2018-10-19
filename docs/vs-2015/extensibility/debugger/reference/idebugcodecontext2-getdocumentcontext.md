@@ -27,13 +27,13 @@ Gets the document context that corresponds to this code context. The document co
   
 ```cpp#  
 HRESULT GetDocumentContext(   
-   IDebugDocumentContext2** ppSrcCxt  
+   IDebugDocumentContext2** ppSrcCxt  
 );  
 ```  
   
 ```csharp  
 int GetDocumentContext(   
-   out IDebugDocumentContext2 ppSrcCxt  
+   out IDebugDocumentContext2 ppSrcCxt  
 );  
 ```  
   

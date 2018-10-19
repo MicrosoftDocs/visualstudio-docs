@@ -28,7 +28,7 @@ Retrieves the ID of the register that holds a base pointer to local variables on
   
 ```cpp#  
 HRESULT get_localBasePointerRegisterId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

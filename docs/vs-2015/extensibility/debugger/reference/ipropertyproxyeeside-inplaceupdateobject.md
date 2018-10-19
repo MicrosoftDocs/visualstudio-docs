@@ -27,15 +27,15 @@ Updates the object's data with the given data object and returns a new data obje
   
 ```cpp#  
 HRESULT InPlaceUpdateObject(  
-   [in] IEEDataStorage*   dataIn,  
-   [out] IEEDataStorage** dataOut  
+   [in] IEEDataStorage*   dataIn,  
+   [out] IEEDataStorage** dataOut  
 );  
 ```  
   
 ```csharp  
 int InPlaceUpdateObject(  
-   IEEDataStorage     dataIn,  
-   out IEEDataStorage dataOut  
+   IEEDataStorage     dataIn,  
+   out IEEDataStorage dataOut  
 );  
 ```  
   

@@ -28,10 +28,10 @@ Returns the PDATA data block associated with the virtual address.
   
 ```cpp#  
 HRESULT pdataForVA(   
-   ULONGLONG  va,  
-   DWORD      cbData,  
-   DWORD*     pcbData,  
-   BYTE*      pbData  
+   ULONGLONG  va,  
+   DWORD      cbData,  
+   DWORD*     pcbData,  
+   BYTE*      pbData  
 );  
 ```  
   

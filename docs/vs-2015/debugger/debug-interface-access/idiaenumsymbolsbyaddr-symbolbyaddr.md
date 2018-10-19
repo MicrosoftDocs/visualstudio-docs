@@ -28,9 +28,9 @@ Positions the enumerator by performing a lookup by image section number and offs
   
 ```cpp#  
 HRESULT symbolByAddr (   
-   DWORD**      isect,  
-   DWORD**      offsect,  
-   IDiaSymbol** ppsymbol  
+   DWORD**      isect,  
+   DWORD**      offsect,  
+   IDiaSymbol** ppsymbol  
 );  
 ```  
   

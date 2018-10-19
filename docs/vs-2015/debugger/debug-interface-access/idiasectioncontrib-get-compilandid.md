@@ -28,7 +28,7 @@ Retrieves the compiland identifier for the section.
   
 ```cpp#  
 HRESULT get_compilandId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

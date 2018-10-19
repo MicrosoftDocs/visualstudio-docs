@@ -73,11 +73,11 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
  Apply Cut or Copy commands to blank lines when there is no selection  
  This option sets the behavior of the editor when you place the insertion point on a blank line, select nothing, and then Copy or Cut.  
   
--   When this option is selected, the blank line is copied or cut. If you then Paste, a new, blank line is inserted.  
+- When this option is selected, the blank line is copied or cut. If you then Paste, a new, blank line is inserted.  
   
--   When this option is cleared, the Cut command removes blank lines. However, the data on the Clipboard is preserved. Therefore, if you then use the Paste command, the content most recently copied onto the Clipboard is pasted. If nothing has been copied previously, nothing is pasted.  
+- When this option is cleared, the Cut command removes blank lines. However, the data on the Clipboard is preserved. Therefore, if you then use the Paste command, the content most recently copied onto the Clipboard is pasted. If nothing has been copied previously, nothing is pasted.  
   
- This setting has no effect on Copy or Cut when a line is not blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.  
+  This setting has no effect on Copy or Cut when a line is not blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.  
   
 > [!TIP]
 >  To display indicators for spaces, tabs, and line ends, and thus distinguish indented lines from lines that are entirely blank, select **Advanced** from the **Edit** menu and choose **View White Space**.  

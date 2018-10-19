@@ -27,13 +27,13 @@ Gets the system thread identifier.
   
 ```cpp#  
 HRESULT GetThreadId (   
-   DWORD* pdwThreadId  
+   DWORD* pdwThreadId  
 );  
 ```  
   
 ```csharp  
 int GetThreadId (   
-   out uint pdwThreadId  
+   out uint pdwThreadId  
 );  
 ```  
   

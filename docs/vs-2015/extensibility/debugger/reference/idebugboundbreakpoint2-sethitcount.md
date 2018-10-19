@@ -28,13 +28,13 @@ Sets the hit count for the bound breakpoint.
   
 ```cpp#  
 HRESULT SetHitCount(   
-   DWORD dwHitCount  
+   DWORD dwHitCount  
 );  
 ```  
   
 ```csharp  
 int SetHitCount(   
-   uint dwHitCount  
+   uint dwHitCount  
 );  
 ```  
   

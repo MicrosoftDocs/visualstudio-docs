@@ -28,7 +28,7 @@ Retrieves a frame data interface for the enclosing function.
   
 ```cpp#  
 HRESULT get_functionParent (   
-   IDiaFrameData** pRetVal  
+   IDiaFrameData** pRetVal  
 );  
 ```  
   

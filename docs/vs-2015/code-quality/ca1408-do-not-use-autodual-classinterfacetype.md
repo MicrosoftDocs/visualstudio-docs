@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1408: Do not use AutoDual ClassInterfaceType
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotUseAutoDualClassInterfaceType|

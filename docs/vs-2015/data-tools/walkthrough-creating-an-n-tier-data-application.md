@@ -33,25 +33,25 @@ N-tier* data applications are applications that access data and are separated in
   
  During this walkthrough, you will perform the following steps:  
   
--   Create a new n-tier solution that will contain multiple projects.  
+- Create a new n-tier solution that will contain multiple projects.  
   
--   Add two class library projects to the n-tier solution.  
+- Add two class library projects to the n-tier solution.  
   
--   Create a typed dataset by using the **Data Source Configuration Wizard**.  
+- Create a typed dataset by using the **Data Source Configuration Wizard**.  
   
--   Separate the generated [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset code into discrete projects.  
+- Separate the generated [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset code into discrete projects.  
   
--   Create a Windows Communication Foundation (WCF) service to call into the data access tier.  
+- Create a Windows Communication Foundation (WCF) service to call into the data access tier.  
   
--   Create functions in the service to retrieve data from the data access tier.  
+- Create functions in the service to retrieve data from the data access tier.  
   
--   Create a Windows Forms application to serve as the presentation tier.  
+- Create a Windows Forms application to serve as the presentation tier.  
   
--   Create Windows Forms controls that are bound to the data source.  
+- Create Windows Forms controls that are bound to the data source.  
   
--   Write code to populate the data tables.  
+- Write code to populate the data tables.  
   
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") For a video version of this topic, see [Video How to: Creating an N-Tier Data Application](http://go.microsoft.com/fwlink/?LinkId=115188).  
+  ![link to video](../data-tools/media/playvideo.gif "PlayVideo") For a video version of this topic, see [Video How to: Creating an N-Tier Data Application](http://go.microsoft.com/fwlink/?LinkId=115188).  
   
 ## Prerequisites  
  To complete this walkthrough, you need:  
@@ -138,17 +138,17 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To separate the TableAdapters from the Dataset  
   
-1.  Double-click **NorthwindDataSet.xsd** in **Solution Explorer** to open the dataset in the **Dataset Designer**.  
+1. Double-click **NorthwindDataSet.xsd** in **Solution Explorer** to open the dataset in the **Dataset Designer**.  
   
-2.  Click an empty area on the designer.  
+2. Click an empty area on the designer.  
   
-3.  Locate the **DataSet Project** node in the **Properties** window.  
+3. Locate the **DataSet Project** node in the **Properties** window.  
   
-4.  In the **DataSet Project** list, click **DataEntityTier**.  
+4. In the **DataSet Project** list, click **DataEntityTier**.  
   
-5.  On the **Build** menu, click **Build Solution**.  
+5. On the **Build** menu, click **Build Solution**.  
   
- The dataset and TableAdapters are separated into the two class library projects. The project that originally contained the whole dataset (DataAccessTier) now contains only the TableAdapters. The project designated in the **DataSet Project** property (DataEntityTier) contains the typed dataset: NorthwindDataSet.Dataset.Designer.vb (or NorthwindDataSet.Dataset.Designer.cs).  
+   The dataset and TableAdapters are separated into the two class library projects. The project that originally contained the whole dataset (DataAccessTier) now contains only the TableAdapters. The project designated in the **DataSet Project** property (DataEntityTier) contains the typed dataset: NorthwindDataSet.Dataset.Designer.vb (or NorthwindDataSet.Dataset.Designer.cs).  
   
 > [!NOTE]
 >  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be manually moved to the dataset project.  

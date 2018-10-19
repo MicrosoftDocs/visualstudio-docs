@@ -26,13 +26,13 @@ Enables a debug engine to pass a callback to the expression evaluator during ini
   
 ```cpp#  
 HRESULT SetIDebugIDECallback (  
-   IDebugIDECallback * pCallback  
+   IDebugIDECallback * pCallback  
 );  
 ```  
   
 ```csharp  
 int SetIDebugIDECallback (  
-   IDebugIDECallback pCallback  
+   IDebugIDECallback pCallback  
 );  
 ```  
   

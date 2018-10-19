@@ -28,8 +28,8 @@ Called when a candidate .pdb file is opened.
   
 ```cpp#  
 HRESULT NotifyOpenPDB (   
-   LPCOLESTR pdbPath,  
-   HRESULT   resultCode  
+   LPCOLESTR pdbPath,  
+   HRESULT   resultCode  
 );  
 ```  
   

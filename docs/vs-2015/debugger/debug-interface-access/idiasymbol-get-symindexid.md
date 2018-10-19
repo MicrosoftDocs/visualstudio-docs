@@ -28,7 +28,7 @@ Retrieves the unique symbol identifier.
   
 ```cpp#  
 HRESULT get_symIndexId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

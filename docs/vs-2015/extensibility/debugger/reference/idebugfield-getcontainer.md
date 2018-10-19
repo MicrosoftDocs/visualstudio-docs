@@ -27,13 +27,13 @@ This method gets the container of a field.
   
 ```cpp#  
 HRESULT GetContainer(   
-   IDebugContainerField** ppContainerField  
+   IDebugContainerField** ppContainerField  
 );  
 ```  
   
 ```csharp  
 int GetContainer(  
-   out IDebugContainerField ppContainerField  
+   out IDebugContainerField ppContainerField  
 );  
 ```  
   

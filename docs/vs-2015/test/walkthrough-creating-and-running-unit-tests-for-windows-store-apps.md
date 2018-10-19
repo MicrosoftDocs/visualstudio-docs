@@ -29,15 +29,15 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
   
  Visual Studio provides the following unit testing functionality:  
   
--   [Create unit test projects](#CreateAndRunUnitTestWin8Tailored_Create)  
+- [Create unit test projects](#CreateAndRunUnitTestWin8Tailored_Create)  
   
--   [Edit the Manifest for the Unit Test Project](#CreateAndRunUnitTestWin8Tailored_Manifest)  
+- [Edit the Manifest for the Unit Test Project](#CreateAndRunUnitTestWin8Tailored_Manifest)  
   
--   [Code the Unit Test](#CreateAndRunUnitTestWin8Tailored_Code)  
+- [Code the Unit Test](#CreateAndRunUnitTestWin8Tailored_Code)  
   
--   [Run Unit Tests](#CreateAndRunUnitTestWin8Tailored_Run)  
+- [Run Unit Tests](#CreateAndRunUnitTestWin8Tailored_Run)  
   
- The following procedures describe the steps to create, run and debug unit tests for managed Windows 8 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app.  
+  The following procedures describe the steps to create, run and debug unit tests for managed Windows 8 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app.  
   
 ## Prerequisites  
  Visual Studio  

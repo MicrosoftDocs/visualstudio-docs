@@ -54,15 +54,15 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 ##  <a name="Using"></a> Using UML Sequence Diagrams  
  You can use sequence diagrams for a variety of purposes at different levels of program detail. Typical occasions for drawing a sequence diagram are as follows:  
   
--   If you have a use case diagram that summarizes your system's users and their goals, you can draw sequence diagrams to describe how the main components of the system interact to fulfill the goal of each use case. For more information, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
+- If you have a use case diagram that summarizes your system's users and their goals, you can draw sequence diagrams to describe how the main components of the system interact to fulfill the goal of each use case. For more information, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
   
--   If you have identified messages arriving at an interface of a component, you can draw sequence diagrams to describe how the internal parts of the component interact to achieve the result required for each incoming message. For more information, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md).  
+- If you have identified messages arriving at an interface of a component, you can draw sequence diagrams to describe how the internal parts of the component interact to achieve the result required for each incoming message. For more information, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md).  
   
- Drawing sequence diagrams has several benefits:  
+  Drawing sequence diagrams has several benefits:  
   
--   You can easily see how tasks are distributed between components.  
+- You can easily see how tasks are distributed between components.  
   
--   You can identify patterns of interaction that make it difficult to update the software.  
+- You can identify patterns of interaction that make it difficult to update the software.  
   
 ## Relationship to other diagrams  
  You can use UML sequence diagrams together with other diagrams in several ways.  
@@ -84,17 +84,17 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 #### To create a sequence diagram  
   
-1.  On the **Architecture** menu, click **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, click **New UML or Layer Diagram**.  
   
-2.  Under **Templates**, click **UML Sequence Diagram**.  
+2. Under **Templates**, click **UML Sequence Diagram**.  
   
-3.  Name the diagram.  
+3. Name the diagram.  
   
-4.  In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a new modeling project**, and then click **OK**.  
+4. In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a new modeling project**, and then click **OK**.  
   
-     A new sequence diagram appears with the **Sequence Diagram** toolbox. The toolbox contains the required elements and connectors.  
+    A new sequence diagram appears with the **Sequence Diagram** toolbox. The toolbox contains the required elements and connectors.  
   
- ![Parts of a sequence diagram](../modeling/media/uml-sequence.png "UML_Sequence")  
+   ![Parts of a sequence diagram](../modeling/media/uml-sequence.png "UML_Sequence")  
   
 #### To draw a sequence diagram  
   
@@ -137,15 +137,15 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 #### To display and edit the signature text for a message  
   
--   The target lifeline must be bound or mapped to types for the signature text to be visible. To accomplish this task, perform one of the following steps:  
+- The target lifeline must be bound or mapped to types for the signature text to be visible. To accomplish this task, perform one of the following steps:  
   
-    -   Right-click the lifeline, and then choose **Create Class**.  
+  - Right-click the lifeline, and then choose **Create Class**.  
   
-         -or-  
+     -or-  
   
-    -   Select the lifeline, press **F4**, and then in the **Properties** window, set the **Type** property to an existing type or specify the name for a new type. Right-click the message label, and then choose **Create Operation**.  
+  - Select the lifeline, press **F4**, and then in the **Properties** window, set the **Type** property to an existing type or specify the name for a new type. Right-click the message label, and then choose **Create Operation**.  
   
-     The signature text appears below the message label. You can now edit the signature text. For more information, see [Classes and Lifelines](#ClassesAndLifelines).  
+    The signature text appears below the message label. You can now edit the signature text. For more information, see [Classes and Lifelines](#ClassesAndLifelines).  
   
 #### To improve the layout of a sequence diagram  
   
@@ -221,21 +221,21 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
  Lifelines can represent one of these levels of detail:  
   
--   Objects in the program code, which either exists, or you are developing.  
+- Objects in the program code, which either exists, or you are developing.  
   
--   Components or their subcomponents, usually omitting facades, proxies, and other connective mechanisms.  
+- Components or their subcomponents, usually omitting facades, proxies, and other connective mechanisms.  
   
--   Your system and external actors  
+- Your system and external actors  
   
- Messages can represent one of these levels of detail:  
+  Messages can represent one of these levels of detail:  
   
--   Software messages in the program code, at an API, or Web interface.  
+- Software messages in the program code, at an API, or Web interface.  
   
--   Transactions or sub-transactions, for example, between users and the system, or between code and database.  
+- Transactions or sub-transactions, for example, between users and the system, or between code and database.  
   
--   Use cases - major interactions between users and the system.  
+- Use cases - major interactions between users and the system.  
   
- Whether you are exploring existing code or describing a new design, it is frequently useful to draw and discuss the less detailed views.  
+  Whether you are exploring existing code or describing a new design, it is frequently useful to draw and discuss the less detailed views.  
   
 ## Describing variations  
  The diagram shows a single, typical sequence of events. If you want to show alternative possibilities such as failure scenarios, you can either use either of these options:  
@@ -269,18 +269,18 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 ##### To create a lifeline from an existing type  
   
--   Drag a class, component, or interface from UML Model Explorer onto a sequence diagram.  
+- Drag a class, component, or interface from UML Model Explorer onto a sequence diagram.  
   
-     \- or -  
+   \- or -  
   
-    1.  Right-click the class, component, or interface on its respective diagram, and then click **Create Lifeline**.  
+  1. Right-click the class, component, or interface on its respective diagram, and then click **Create Lifeline**.  
   
-    2.  In the **Create Lifeline** dialog box, select a sequence diagram, and then click **OK**.  
+  2. In the **Create Lifeline** dialog box, select a sequence diagram, and then click **OK**.  
   
      A new named-instance lifeline appears whose type is the type you dragged.  
   
-    > [!NOTE]
-    >  You can repeat this action as many times as you like. This will create lifelines with different instance names.  
+  > [!NOTE]
+  >  You can repeat this action as many times as you like. This will create lifelines with different instance names.  
   
 ##### To change the type of a lifeline  
   

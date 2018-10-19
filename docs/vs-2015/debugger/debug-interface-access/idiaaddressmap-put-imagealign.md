@@ -28,7 +28,7 @@ Sets the image alignment.
   
 ```cpp#  
 HRESULT put_imageAlign (   
-   DWORD NewVal  
+   DWORD NewVal  
 );  
 ```  
   

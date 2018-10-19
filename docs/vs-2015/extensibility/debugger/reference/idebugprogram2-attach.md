@@ -27,13 +27,13 @@ Attaches to the program.
   
 ```cpp#  
 HRESULT Attach(   
-   IDebugEventCallback2* pCallback  
+   IDebugEventCallback2* pCallback  
 );  
 ```  
   
 ```csharp  
 int Attach(   
-   IDebugEventCallback2 pCallback  
+   IDebugEventCallback2 pCallback  
 );  
 ```  
   

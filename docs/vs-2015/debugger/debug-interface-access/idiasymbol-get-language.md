@@ -28,7 +28,7 @@ Retrieves the language of the source.
   
 ```cpp#  
 HRESULT get_language (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

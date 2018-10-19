@@ -30,13 +30,13 @@ Continues running this process from a stopped state. Any previous execution stat
   
 ```cpp  
 HRESULT Continue(  
-   IDebugThread2* pThread  
+   IDebugThread2* pThread  
 );  
 ```  
   
 ```csharp  
 int Continue(  
-   IDebugThread2 pThread  
+   IDebugThread2 pThread  
 );  
 ```  
   

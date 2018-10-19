@@ -27,13 +27,13 @@ Retrieves the name of the evaluation context.
   
 ```cpp#  
 HRESULT GetName(   
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetName(   
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

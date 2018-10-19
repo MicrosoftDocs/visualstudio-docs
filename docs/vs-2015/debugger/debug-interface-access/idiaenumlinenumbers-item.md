@@ -28,8 +28,8 @@ Retrieves a line number by means of an index.
   
 ```cpp#  
 HRESULT Item (   
-   DWORD            index,  
-   IDiaLineNumber** lineNumber  
+   DWORD            index,  
+   IDiaLineNumber** lineNumber  
 );  
 ```  
   

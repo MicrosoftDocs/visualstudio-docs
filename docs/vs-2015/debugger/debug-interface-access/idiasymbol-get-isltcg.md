@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the [Compiland](../../debugger/debug-int
   
 ```cpp  
 HRESULT get_iSLTCG(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

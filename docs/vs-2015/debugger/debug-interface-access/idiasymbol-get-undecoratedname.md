@@ -28,7 +28,7 @@ Retrieves the undecorated name for a C++ decorated, or linkage, name.
   
 ```cpp#  
 HRESULT get_undecoratedName (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1701: Resource string compound words should be cased correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ResourceStringCompoundWordsShouldBeCasedCorrectly|

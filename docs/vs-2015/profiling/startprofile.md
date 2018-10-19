@@ -26,8 +26,8 @@ The `StartProfile` function sets the counter to 1 (on) for the specified profili
   
 ```  
 PROFILE_COMMAND_STATUS PROFILERAPI StartProfile(  
-                        PROFILE_CONTROL_LEVEL Level,   
-                        unsigned int dwId);  
+                        PROFILE_CONTROL_LEVEL Level,   
+                        unsigned int dwId);  
 ```  
   
 #### Parameters  

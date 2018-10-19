@@ -56,87 +56,87 @@ The steps in the [first procedure](../ide/how-to-create-item-templates.md#export
   
 ### To enable the item template to be used in a store project  
   
-1.  Follow the steps in the procedure above to export an item template.  
+1. Follow the steps in the procedure above to export an item template.  
   
-2.  Extract the .vstemplate file from the .zip file that was copied to the ..\Users\\*username*\Documents\Visual Studio *Version*\Templates\ItemTemplates\ (or **My Exported Templates**) folder.  
+2. Extract the .vstemplate file from the .zip file that was copied to the ..\Users\\*username*\Documents\Visual Studio *Version*\Templates\ItemTemplates\ (or **My Exported Templates**) folder.  
   
-3.  Open the .vstemplate file in Visual Studio.  
+3. Open the .vstemplate file in Visual Studio.  
   
-4.  For a Windows 8.1 store C# project, in the .vstemplate file, add the following XML within the opening and closing `<TemplateData>` tag: `<TemplateGroupID>WinRT-Managed</TemplateGroupID>`.  
+4. For a Windows 8.1 store C# project, in the .vstemplate file, add the following XML within the opening and closing `<TemplateData>` tag: `<TemplateGroupID>WinRT-Managed</TemplateGroupID>`.  
   
-     A C++ Windows 8.1 store project uses a value of `WinRT-Native-6.3`. For Windows 10 and other project types, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md).  
+    A C++ Windows 8.1 store project uses a value of `WinRT-Native-6.3`. For Windows 10 and other project types, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md).  
   
-     The following example shows the entire contents of a .vstemplate file after the line of XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` has been added to it. This example is specific to C# projects. You can modify the <ProjectTpe> and \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> elements to specify other language and project types.  
+    The following example shows the entire contents of a .vstemplate file after the line of XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` has been added to it. This example is specific to C# projects. You can modify the <ProjectTpe> and \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> elements to specify other language and project types.  
   
-    ```xml  
-    <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  
-      <TemplateData>  
-        <DefaultName>MyItemStoreTemplate.xaml</DefaultName>  
-        <Name>MyItemStoreTemplate</Name>  
-        <Description>This is an example itemtemplate</Description>  
-        <ProjectType>CSharp</ProjectType>  
-        <SortOrder>10</SortOrder>  
-        <Icon>__TemplateIcon.ico</Icon>  
-        <TemplateGroupID>WinRT-Managed</TemplateGroupID>  
-      </TemplateData>  
-      <TemplateContent>  
-        <References />  
-        <ProjectItem SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">MyItemTemplate.xaml</ProjectItem>  
-        <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">MyItemTemplate.xaml.cs</ProjectItem>  
-      </TemplateContent>  
-    </VSTemplate>  
-    ```  
+   ```xml  
+   <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  
+     <TemplateData>  
+       <DefaultName>MyItemStoreTemplate.xaml</DefaultName>  
+       <Name>MyItemStoreTemplate</Name>  
+       <Description>This is an example itemtemplate</Description>  
+       <ProjectType>CSharp</ProjectType>  
+       <SortOrder>10</SortOrder>  
+       <Icon>__TemplateIcon.ico</Icon>  
+       <TemplateGroupID>WinRT-Managed</TemplateGroupID>  
+     </TemplateData>  
+     <TemplateContent>  
+       <References />  
+       <ProjectItem SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">MyItemTemplate.xaml</ProjectItem>  
+       <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">MyItemTemplate.xaml.cs</ProjectItem>  
+     </TemplateContent>  
+   </VSTemplate>  
+   ```  
   
-     For other possible TemplateGroupID values, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md)). For the complete .vstemplate reference, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
+    For other possible TemplateGroupID values, see [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md)). For the complete .vstemplate reference, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
   
-5.  In Visual Studio, save the .vstemplate file and close it.  
+5. In Visual Studio, save the .vstemplate file and close it.  
   
-6.  Copy and paste the .vstemplate file back to the .zip file located in the ..\Users\\*username*\Documents\Visual Studio *Version*\Templates\ItemTemplates\ folder.  
+6. Copy and paste the .vstemplate file back to the .zip file located in the ..\Users\\*username*\Documents\Visual Studio *Version*\Templates\ItemTemplates\ folder.  
   
-     If the **Copy File** dialog box appears, choose the **Copy and Replace** option.  
+    If the **Copy File** dialog box appears, choose the **Copy and Replace** option.  
   
- You can now add an item based on this template to a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] project by using the **Add New Item** dialog box.  
+   You can now add an item based on this template to a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] project by using the **Add New Item** dialog box.  
   
- For more information about parameter names, see [Template Parameters](../ide/template-parameters.md).  
+   For more information about parameter names, see [Template Parameters](../ide/template-parameters.md).  
   
 ### To enable templates for specific project sub-types  
   
-1.  The development environment enables you to make project items available from the Add Item dialog box for certain projects. Use this procedure to make custom items available for Windows, Web, Office, or database projects.  
+1. The development environment enables you to make project items available from the Add Item dialog box for certain projects. Use this procedure to make custom items available for Windows, Web, Office, or database projects.  
   
-     Locate the ProjectType element in the .vstemplate file for the item template.  
+    Locate the ProjectType element in the .vstemplate file for the item template.  
   
-     Add a [ProjectSubType](../extensibility/projectsubtype-element-visual-studio-templates.md) element immediately after the ProjectType element.  
+    Add a [ProjectSubType](../extensibility/projectsubtype-element-visual-studio-templates.md) element immediately after the ProjectType element.  
   
-2.  Set the text value of the element to one of the following values:  
+2. Set the text value of the element to one of the following values:  
   
-    1.  Windows  
+   1. Windows  
   
-    2.  Office  
+   2. Office  
   
-    3.  Database  
+   3. Database  
   
-    4.  Web  
+   4. Web  
   
-     For example: `<ProjectSubType>Database</ProjectSubType>`.  
+      For example: `<ProjectSubType>Database</ProjectSubType>`.  
   
-     The following example shows an item template available for Office projects.  
+      The following example shows an item template available for Office projects.  
   
-    ```  
-    <VSTemplate Version="2.0.0" Type="Item" Version="2.0.0">  
-        <TemplateData>  
-            <Name>Class</Name>  
-            <Description>An empty class file</Description>  
-            <Icon>Class.ico</Icon>  
-            <ProjectType>CSharp</ProjectType>  
-            <ProjectSubType>Office</ProjectSubType>  
-            <DefaultName>Class.cs</DefaultName>  
-        </TemplateData>  
-        <TemplateContent>  
-            <ProjectItem>Class1.cs</ProjectItem>  
-        </TemplateContent>  
-    </VSTemplate>  
+   ```  
+   <VSTemplate Version="2.0.0" Type="Item" Version="2.0.0">  
+       <TemplateData>  
+           <Name>Class</Name>  
+           <Description>An empty class file</Description>  
+           <Icon>Class.ico</Icon>  
+           <ProjectType>CSharp</ProjectType>  
+           <ProjectSubType>Office</ProjectSubType>  
+           <DefaultName>Class.cs</DefaultName>  
+       </TemplateData>  
+       <TemplateContent>  
+           <ProjectItem>Class1.cs</ProjectItem>  
+       </TemplateContent>  
+   </VSTemplate>  
   
-    ```  
+   ```  
   
 ### To manually create an item template without using the Export Template wizard  
   

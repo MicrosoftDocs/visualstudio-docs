@@ -28,7 +28,7 @@ Retrieves the number of items in the table.
   
 ```cpp#  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

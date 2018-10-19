@@ -29,22 +29,23 @@ manager: "ghogen"
 # CPPClean Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
+
 Deletes the temporary files that MSBuild creates when a Visual C++ project is built. The process of deleting build files is known as *cleaning*.  
-  
+
 ## Parameters  
  The following table describes the parameters of the **CPPClean** task.  
-  
-|Parameter|Description|  
-|---------------|-----------------|  
-|**DeletedFiles**|Optional `ITaskItem[]` output parameter.<br /><br /> Defines an array of MSBuild output file items that can be consumed and emitted by tasks.|  
-|**DoDelete**|Optional **Boolean** parameter.<br /><br /> If `true`, clean temporary build files.|  
-|**FilePatternsToDeleteOnClean**|Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of file extensions of files to clean.|  
-|**FilesExcludedFromClean**|Optional `String` parameter.<br /><br /> Specifies a semicolon-delimited list of files not to clean.|  
-|**FoldersToClean**|Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of directories to clean. You can specify a full or a relative path, and the path can contain the wildcard symbol (**\***).|  
-  
+
+
+|            Parameter            |                                                                                                Description                                                                                                 |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        **DeletedFiles**         |                               Optional `ITaskItem[]` output parameter.<br /><br /> Defines an array of MSBuild output file items that can be consumed and emitted by tasks.                                |
+|          **DoDelete**           |                                                            Optional **Boolean** parameter.<br /><br /> If `true`, clean temporary build files.                                                             |
+| **FilePatternsToDeleteOnClean** |                                            Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of file extensions of files to clean.                                             |
+|   **FilesExcludedFromClean**    |                                                    Optional `String` parameter.<br /><br /> Specifies a semicolon-delimited list of files not to clean.                                                    |
+|       **FoldersToClean**        | Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of directories to clean. You can specify a full or a relative path, and the path can contain the wildcard symbol (**\\**\*). |
+
 ## Remarks  
-  
+
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)
 

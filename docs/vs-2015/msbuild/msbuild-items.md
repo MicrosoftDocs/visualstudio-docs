@@ -94,13 +94,13 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ##  <a name="BKMK_Wildcards"></a> Using Wildcards to Specify Items  
  You can use the **, \*, and ? wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.  
   
--   The ? wildcard character matches a single character.  
+- The ? wildcard character matches a single character.  
   
--   The * wildcard character matches zero or more characters.  
+- The * wildcard character matches zero or more characters.  
   
--   The ** wildcard character sequence matches a partial path.  
+- The ** wildcard character sequence matches a partial path.  
   
- For example, you can specify all the .cs files in the directory that contains the project file by using the following element in your project file.  
+  For example, you can specify all the .cs files in the directory that contains the project file by using the following element in your project file.  
   
 ```  
 <CSFile Include="*.cs"/>  

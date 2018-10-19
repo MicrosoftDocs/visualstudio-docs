@@ -127,31 +127,31 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 ## Document Outline window  
  The Document Outline window in XAML Designer helps you perform these tasks:  
   
--   View the hierarchical structure of all elements on the artboard.  
+- View the hierarchical structure of all elements on the artboard.  
   
--   Select elements so that you can modify them (move them around in the hierarchy, modify them on the artboard, set their properties in the Properties window, and so on). For more info, see [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)  
+- Select elements so that you can modify them (move them around in the hierarchy, modify them on the artboard, set their properties in the Properties window, and so on). For more info, see [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)  
   
--   Create and modify templates for elements that are controls.  
+- Create and modify templates for elements that are controls.  
   
--   Use the context menu for selected elements. The same menu is also available for selected elements in the artboard.  
+- Use the context menu for selected elements. The same menu is also available for selected elements in the artboard.  
   
- To view the Document Outline window, on the menu bar choose **View**, **Other Windows**, **Document Outline**.  
+  To view the Document Outline window, on the menu bar choose **View**, **Other Windows**, **Document Outline**.  
   
- ![Document Outline window](../designers/media/xaml-editor-doc-outline.png "xaml_editor_doc_outline")  
+  ![Document Outline window](../designers/media/xaml-editor-doc-outline.png "xaml_editor_doc_outline")  
   
- These are the options available in the Document Outline window:  
+  These are the options available in the Document Outline window:  
   
- **Document Outline**  
- The main view in the Document Outline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups.  
+  **Document Outline**  
+  The main view in the Document Outline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail, and to lock and hide elements singly or in groups.  
   
- **Show/hide**  
- Displays or hides artboard elements that correspond to items in the Document Outline. Use the **Show/hide** buttons, which display a symbol of an eye when shown, or press CTRL+H to hide elements and SHIFT+CTRL+H to display them.  
+  **Show/hide**  
+  Displays or hides artboard elements that correspond to items in the Document Outline. Use the **Show/hide** buttons, which display a symbol of an eye when shown, or press CTRL+H to hide elements and SHIFT+CTRL+H to display them.  
   
- **Lock/unlock**  
- Locks or unlocks artboard elements that correspond to items in the Document Outline. Locked elements can’t be modified. Use the **Lock/unlock** buttons, which display a padlock symbol when locked, or press CTRL+L to lock elements and SHIFT+CTRL+L to unlock them.  
+  **Lock/unlock**  
+  Locks or unlocks artboard elements that correspond to items in the Document Outline. Locked elements can’t be modified. Use the **Lock/unlock** buttons, which display a padlock symbol when locked, or press CTRL+L to lock elements and SHIFT+CTRL+L to unlock them.  
   
- **Return scope to pageRoot**  
- The option at the top of the Document Outline window, which shows an up arrow symbol, returns the document outline to the previous scope. Scoping up is applicable only when you're in the scope of a style or template.  
+  **Return scope to pageRoot**  
+  The option at the top of the Document Outline window, which shows an up arrow symbol, returns the document outline to the previous scope. Scoping up is applicable only when you're in the scope of a style or template.  
   
 ## Properties window  
  The Properties window enables you to set property values on controls. Here's what it looks like:  

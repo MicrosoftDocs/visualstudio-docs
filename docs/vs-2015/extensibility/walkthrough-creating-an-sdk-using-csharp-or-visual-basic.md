@@ -132,23 +132,23 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 ##  <a name="createSample"></a> To create a sample app that uses the class library  
   
-1.  On the menu bar, choose **File**, **New**, **New Project**.  
+1. On the menu bar, choose **File**, **New**, **New Project**.  
   
-2.  In the list of templates, expand **Visual C#** or **Visual Basic**, and then choose the **Windows Store** node.  
+2. In the list of templates, expand **Visual C#** or **Visual Basic**, and then choose the **Windows Store** node.  
   
-3.  Choose the **Blank App** template, name the project **ArithmeticUI**, and then choose the **OK** button.  
+3. Choose the **Blank App** template, name the project **ArithmeticUI**, and then choose the **OK** button.  
   
-4.  In **Solution Explorer**, open the shortcut menu for the **ArithmeticUI** project, and then choose **Add**, **Reference**.  
+4. In **Solution Explorer**, open the shortcut menu for the **ArithmeticUI** project, and then choose **Add**, **Reference**.  
   
-5.  In the list of reference types, expand **Windows**, and then choose **Extensions**.  
+5. In the list of reference types, expand **Windows**, and then choose **Extensions**.  
   
-6.  In the details pane, choose the **Simple Math SDK** extension.  
+6. In the details pane, choose the **Simple Math SDK** extension.  
   
-     Additional information about your SDK appears. You can choose the **More Information** link to open http://www.msdn.microsoft.com, as you specified in the SDKManifest.xml file earlier in this walkthrough.  
+    Additional information about your SDK appears. You can choose the **More Information** link to open http://www.msdn.microsoft.com, as you specified in the SDKManifest.xml file earlier in this walkthrough.  
   
-7.  In the **Reference Manager** dialog box, select the **Simple Math SDK** check box, and then choose the **OK** button.  
+7. In the **Reference Manager** dialog box, select the **Simple Math SDK** check box, and then choose the **OK** button.  
   
-8.  On the menu bar, choose **View**, **Object Browser**.  
+8. On the menu bar, choose **View**, **Object Browser**.  
   
 9. In the **Browse** list, choose **Simple Math**.  
   
@@ -170,7 +170,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
      The correct result appears.  
   
- You have successfully created and used an Extension SDK.  
+    You have successfully created and used an Extension SDK.  
   
 ## See Also  
  [Walkthrough: Creating an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   

@@ -38,19 +38,19 @@ The code in a code snippet shows only the most basic way to do something. For mo
 ## Security  
  How secure a snippet is depends on where it is used in the source code and how it is modified once it is in the code. The following list contains a few of the areas that must be considered.  
   
--   File and database access  
+- File and database access  
   
--   Code access security  
+- Code access security  
   
--   Protecting resources (such as event logs, registry)  
+- Protecting resources (such as event logs, registry)  
   
--   Storing secrets  
+- Storing secrets  
   
--   Verifying inputs  
+- Verifying inputs  
   
--   Passing data to scripting technologies  
+- Passing data to scripting technologies  
   
- For more information, see [Securing Applications](../ide/securing-applications.md).  
+  For more information, see [Securing Applications](../ide/securing-applications.md).  
   
 ## Downloaded Code Snippets  
  IntelliSense code snippets installed by Visual Studio are not in themselves a security hazard. However, they can create security risks in your application. Snippets downloaded from the Internet should be treated like any other downloaded content - with extreme caution.  

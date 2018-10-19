@@ -27,17 +27,17 @@ This method retrieves a memory object that represents the memory that this objec
   
 ```cpp  
 HRESULT GetMemoryObject(  
-   IDebugField*   pField,  
-   UINT64         uConstant,  
-   IDebugObject** ppObject  
+   IDebugField*   pField,  
+   UINT64         uConstant,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetMemoryObject(  
-   IDebugField      pField,  
-   long             uConstant,  
-   out IDebugObject ppObject  
+   IDebugField      pField,  
+   long             uConstant,  
+   out IDebugObject ppObject  
 );  
 ```  
   

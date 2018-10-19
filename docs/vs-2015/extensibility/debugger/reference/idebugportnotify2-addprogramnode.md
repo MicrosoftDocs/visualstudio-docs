@@ -27,13 +27,13 @@ Registers a program that can be debugged with the port it is running on.
   
 ```cpp#  
 HRESULT AddProgramNode(   
-   IDebugProgramNode2* pProgramNode  
+   IDebugProgramNode2* pProgramNode  
 );  
 ```  
   
 ```csharp  
 int AddProgramNode(   
-   IDebugProgramNode2 pProgramNode  
+   IDebugProgramNode2 pProgramNode  
 );  
 ```  
   

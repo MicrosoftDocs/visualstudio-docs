@@ -28,13 +28,13 @@ Enables or disables the breakpoint.
   
 ```cpp#  
 HRESULT Enable(   
-   BOOL fEnable  
+   BOOL fEnable  
 );  
 ```  
   
 ```csharp  
 int Enable(   
-   int fEnable  
+   int fEnable  
 );  
 ```  
   

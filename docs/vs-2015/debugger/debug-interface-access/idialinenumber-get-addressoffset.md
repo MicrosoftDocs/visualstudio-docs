@@ -28,7 +28,7 @@ Retrieves the offset part of the memory address where a block begins.
   
 ```cpp#  
 HRESULT get_addressOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

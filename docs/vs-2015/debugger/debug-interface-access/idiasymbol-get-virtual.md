@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the function is virtual.
   
 ```cpp#  
 HRESULT get_virtual (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

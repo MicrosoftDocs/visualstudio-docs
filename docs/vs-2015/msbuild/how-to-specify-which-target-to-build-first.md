@@ -30,11 +30,11 @@ A project file can contain one or more `Target` elements that define how the pro
   
 #### To specify one initial target  
   
--   Specify the default target in the `InitialTargets` attribute of the `Project` element. For example:  
+- Specify the default target in the `InitialTargets` attribute of the `Project` element. For example:  
   
-     `<Project InitialTargets="Clean">`  
+   `<Project InitialTargets="Clean">`  
   
- You can specify more than one initial target in the `InitialTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.  
+  You can specify more than one initial target in the `InitialTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.  
   
 #### To specify more than one initial target  
   
@@ -47,11 +47,11 @@ A project file can contain one or more `Target` elements that define how the pro
   
 #### To specify one default target  
   
--   Specify the default target in the `DefaultTargets` attribute of the `Project` element. For example:  
+- Specify the default target in the `DefaultTargets` attribute of the `Project` element. For example:  
   
-     `<Project DefaultTargets="Compile">`  
+   `<Project DefaultTargets="Compile">`  
   
- You can specify more than one default target in the `DefaultTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.  
+  You can specify more than one default target in the `DefaultTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.  
   
 #### To specify more than one default target  
   

@@ -27,17 +27,17 @@ Retrieves a list of the stack frames for this thread.
   
 ```cpp#  
 HRESULT EnumFrameInfo (   
-   FRAMEINFO_FLAGS        dwFieldSpec,  
-   UINT                   nRadix,  
-   IEnumDebugFrameInfo2** ppEnum  
+   FRAMEINFO_FLAGS        dwFieldSpec,  
+   UINT                   nRadix,  
+   IEnumDebugFrameInfo2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumFrameInfo (   
-   enum_FRAMEINFO_FLAGS     dwFieldSpec,  
-   uint                     nRadix,  
-   out IEnumDebugFrameInfo2 ppEnum  
+   enum_FRAMEINFO_FLAGS     dwFieldSpec,  
+   uint                     nRadix,  
+   out IEnumDebugFrameInfo2 ppEnum  
 );  
 ```  
   

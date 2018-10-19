@@ -45,19 +45,19 @@ This topic contains the contents and description of the C# source code in the fi
   
  However the core work of removing the selected book item is accomplished by only two statements:  
   
--   First, the book element associated with the currently selected item in the list box is retrieved:  
+- First, the book element associated with the currently selected item in the list box is retrieved:  
   
-    ```  
-    XElement selBook = (XElement)lbBooks.SelectedItem;   
-    ```  
+  ```  
+  XElement selBook = (XElement)lbBooks.SelectedItem;   
+  ```  
   
--   Then, this element is deleted from the data provider:  
+- Then, this element is deleted from the data provider:  
   
-    ```  
-    selBook.Remove();  
-    ```  
+  ```  
+  selBook.Remove();  
+  ```  
   
- Again, dynamic data binding assures that the program's UI is automatically updated.  
+  Again, dynamic data binding assures that the program's UI is automatically updated.  
   
 ## Example  
   

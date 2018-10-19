@@ -178,7 +178,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
   
 ```  
 <!-- Block install on Windows 95 -->  
-    <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>  
+    <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>  
 ```  
   
 ## See Also  

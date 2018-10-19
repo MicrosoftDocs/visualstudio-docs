@@ -27,13 +27,13 @@ This method informs the process that a session is now debugging the process.
   
 ```cpp#  
 HRESULT Attach(   
-   IDebugSession2* pSession  
+   IDebugSession2* pSession  
 );  
 ```  
   
 ```csharp  
 int Attach(  
-   IDebugSession2 pSession  
+   IDebugSession2 pSession  
 );  
 ```  
   

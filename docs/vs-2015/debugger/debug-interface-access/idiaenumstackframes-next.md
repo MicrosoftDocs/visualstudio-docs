@@ -28,9 +28,9 @@ Retrieves a specified number of stack frame elements from the enumeration sequen
   
 ```cpp#  
 HRESULT Next(   
-   ULONG             celt,  
-   IDiaStackFrame**  rgelt,  
-   ULONG*            pceltFetched  
+   ULONG             celt,  
+   IDiaStackFrame**  rgelt,  
+   ULONG*            pceltFetched  
 );  
 ```  
   

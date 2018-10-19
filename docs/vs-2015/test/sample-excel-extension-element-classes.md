@@ -46,7 +46,7 @@ The extension uses classes that are derived from <xref:Microsoft.VisualStudio.Te
 ## Utilities and ExcelUtilities Classes  
  The internal `ExcelUtilities` class provides some constant values, such as the technology name, and a method that determines if the provided window handle represents an Excel worksheet.  
   
- The `Utilities` class has helper methods that return a variety of information about the UI. Some methods use direct calls into external system DLLs, such as **USER32.DLL** and **OLEACC.DLL**, to get window handles from the UI**.**  
+ The `Utilities` class has helper methods that return a variety of information about the UI. Some methods use direct calls into external system DLLs, such as **USER32.DLL** and **OLEACC.DLL**, to get window handles from the UI<strong>.</strong>  
   
 ## See Also  
  <xref:System.Runtime.InteropServices.ComVisibleAttribute>   

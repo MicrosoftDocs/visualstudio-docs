@@ -27,15 +27,15 @@ This method sets a registry value known as a metric.
   
 ```cpp#  
 HRESULT SetMetric(  
-   LPCOLESTR pszMetric,  
-   VARIANT   varValue  
+   LPCOLESTR pszMetric,  
+   VARIANT   varValue  
 );  
 ```  
   
 ```csharp  
 int SetMetric(  
-   string pszMetric,  
-   object varValue  
+   string pszMetric,  
+   object varValue  
 );  
 ```  
   

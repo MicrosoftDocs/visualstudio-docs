@@ -28,11 +28,11 @@ Retrieves all children of a specified parent identifier that match the name and 
   
 ```cpp#  
 HRESULT findChildren (   
-   IDiaSymbol*       parent,  
-   SymTagEnum        symtag,  
-   LPCOLESTR         name,  
-   DWORD             compareFlags,  
-   IDiaEnumSymbols** ppResult  
+   IDiaSymbol*       parent,  
+   SymTagEnum        symtag,  
+   LPCOLESTR         name,  
+   DWORD             compareFlags,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

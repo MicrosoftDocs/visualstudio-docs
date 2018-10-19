@@ -26,17 +26,17 @@ Creates an array of the specified type and size.
   
 ```cpp#  
 HRESULT CreateArrayOfType (  
-   IDebugField*  pTypeField,  
-   DWORD         rank,  
-   IDebugField** pArrayOfTypeField  
+   IDebugField*  pTypeField,  
+   DWORD         rank,  
+   IDebugField** pArrayOfTypeField  
 );  
 ```  
   
 ```csharp  
 int CreateArrayOfType (  
-   IDebugField     pTypeField,  
-   uint            rank,  
-   out IDebugField pArrayOfTypeField  
+   IDebugField     pTypeField,  
+   uint            rank,  
+   out IDebugField pArrayOfTypeField  
 );  
 ```  
   

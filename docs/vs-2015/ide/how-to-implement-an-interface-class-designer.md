@@ -28,13 +28,13 @@ In Class Designer, you can implement an interface on the class diagram by connec
   
 ### To implement an interface by drawing an inheritance line  
   
-1.  On the class diagram, display the interface and the class that will implement the interface.  
+1. On the class diagram, display the interface and the class that will implement the interface.  
   
-2.  Draw an inheritance line from the class and the interface.  
+2. Draw an inheritance line from the class and the interface.  
   
-     A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members.  
+    A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members.  
   
- For more information, see [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md).  
+   For more information, see [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md).  
   
 ### To implement an interface from the Class View window  
   

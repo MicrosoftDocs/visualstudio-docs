@@ -27,13 +27,13 @@ Gets the method that gets the property.
   
 ```cpp#  
 HRESULT GetPropertyGetter(   
-   IDebugMethodField** ppField  
+   IDebugMethodField** ppField  
 );  
 ```  
   
 ```cpp#  
 int GetPropertyGetter(  
-   out IDebugMethodField ppField  
+   out IDebugMethodField ppField  
 );  
 ```  
   

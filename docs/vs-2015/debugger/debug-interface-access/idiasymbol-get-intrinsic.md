@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether a class is an intrinsic type.
   
 ```cpp#  
 HRESULT get_intrinsic(   
-   BOOL* pRetVal)  
+   BOOL* pRetVal)  
 );  
 ```  
   

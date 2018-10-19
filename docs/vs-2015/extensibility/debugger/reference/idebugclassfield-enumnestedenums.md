@@ -27,13 +27,13 @@ Creates an enumerator for the nested enumerators of this class.
   
 ```cpp#  
 HRESULT EnumNestedEnums(   
-   IEnumDebugFields** ppEnum  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumNestedEnums(  
-   out IEnumDebugFields ppEnum  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

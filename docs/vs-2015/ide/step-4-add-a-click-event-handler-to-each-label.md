@@ -20,13 +20,13 @@ manager: "ghogen"
 
 The matching game works as follows:  
   
-1.  When a player chooses one of the squares with a hidden icon, the program shows the icon to the player by changing the icon color to black.  
+1. When a player chooses one of the squares with a hidden icon, the program shows the icon to the player by changing the icon color to black.  
   
-2.  Then the player chooses another hidden icon.  
+2. Then the player chooses another hidden icon.  
   
-3.  If the icons match, they stay visible. If not, both icons are hidden again.  
+3. If the icons match, they stay visible. If not, both icons are hidden again.  
   
- To get your program to work that way, you add a Click event handler that changes the color of the label that is chosen.  
+   To get your program to work that way, you add a Click event handler that changes the color of the label that is chosen.  
   
 ### To add a Click event handler to each label  
   

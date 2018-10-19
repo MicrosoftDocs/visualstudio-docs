@@ -28,7 +28,7 @@ Retrieves the section number that maps to this segment.
   
 ```cpp#  
 HRESULT get_addressSection (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the user-defined data type has any cast 
   
 ```cpp#  
 HRESULT get_hasCastOperator (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

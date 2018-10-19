@@ -28,9 +28,9 @@ Retrieves line numbers within specified compiland and source file identifiers.
   
 ```cpp#  
 HRESULT findLines (   
-   IDiaSymbol*           compiland,  
-   IDiaSourceFile*       file,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaSymbol*           compiland,  
+   IDiaSourceFile*       file,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

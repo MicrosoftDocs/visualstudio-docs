@@ -29,9 +29,9 @@ This is a callback function given to the [SccPopulateDirList](../extensibility/s
   
 ```cpp#  
 typedef BOOL (*POPDIRLISTFUNC)(  
-   LPVOID pvCallerData,  
-   BOOL bFolder,  
-   LPCSTR lpDirectoryOrFileName  
+   LPVOID pvCallerData,  
+   BOOL bFolder,  
+   LPCSTR lpDirectoryOrFileName  
 );  
 ```  
   

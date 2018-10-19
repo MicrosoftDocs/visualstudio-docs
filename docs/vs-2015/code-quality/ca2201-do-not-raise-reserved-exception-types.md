@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2201: Do not raise reserved exception types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotRaiseReservedExceptionTypes|
@@ -36,31 +37,31 @@ manager: "wpickett"
 ## Rule Description
  The following exception types are too general to provide sufficient information to the user:
 
--   <xref:System.Exception?displayProperty=fullName>
+- <xref:System.Exception?displayProperty=fullName>
 
--   <xref:System.ApplicationException?displayProperty=fullName>
+- <xref:System.ApplicationException?displayProperty=fullName>
 
--   <xref:System.SystemException?displayProperty=fullName>
+- <xref:System.SystemException?displayProperty=fullName>
 
- The following exception types are reserved and should be thrown only by the common language runtime:
+  The following exception types are reserved and should be thrown only by the common language runtime:
 
--   <xref:System.ExecutionEngineException?displayProperty=fullName>
+- <xref:System.ExecutionEngineException?displayProperty=fullName>
 
--   <xref:System.IndexOutOfRangeException?displayProperty=fullName>
+- <xref:System.IndexOutOfRangeException?displayProperty=fullName>
 
--   <xref:System.NullReferenceException?displayProperty=fullName>
+- <xref:System.NullReferenceException?displayProperty=fullName>
 
--   <xref:System.OutOfMemoryException?displayProperty=fullName>
+- <xref:System.OutOfMemoryException?displayProperty=fullName>
 
- **Do Not Throw General Exceptions**
+  **Do Not Throw General Exceptions**
 
- If you throw a general exception type, such as <xref:System.Exception> or <xref:System.SystemException> in a library or framework, it forces consumers to catch all exceptions, including unknown exceptions that they do not know how to handle.
+  If you throw a general exception type, such as <xref:System.Exception> or <xref:System.SystemException> in a library or framework, it forces consumers to catch all exceptions, including unknown exceptions that they do not know how to handle.
 
- Instead, either throw a more derived type that already exists in the framework, or create your own type that derives from <xref:System.Exception>.
+  Instead, either throw a more derived type that already exists in the framework, or create your own type that derives from <xref:System.Exception>.
 
- **Throw Specific Exceptions**
+  **Throw Specific Exceptions**
 
- The following table shows parameters and which exceptions to throw when you validate the parameter, including the value parameter in the set accessor of a property:
+  The following table shows parameters and which exceptions to throw when you validate the parameter, including the value parameter in the set accessor of a property:
 
 |Parameter Description|Exception|
 |---------------------------|---------------|

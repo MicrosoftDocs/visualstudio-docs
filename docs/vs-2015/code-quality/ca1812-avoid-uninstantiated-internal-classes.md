@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1812: Avoid uninstantiated internal classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|AvoidUninstantiatedInternalClasses|
@@ -38,21 +39,21 @@ manager: "wpickett"
 
  The following types are not examined by this rule:
 
--   Value types
+- Value types
 
--   Abstract types
+- Abstract types
 
--   Enumerations
+- Enumerations
 
--   Delegates
+- Delegates
 
--   Compiler-emitted array types
+- Compiler-emitted array types
 
--   Types that cannot be instantiated and that define `static` (`Shared` in Visual Basic) methods only.
+- Types that cannot be instantiated and that define `static` (`Shared` in Visual Basic) methods only.
 
- If you apply <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute?displayProperty=fullName> to the assembly that is being analyzed, this rule will not occur on any constructors that are marked as `internal` because you cannot tell whether a field is being used by another `friend` assembly.
+  If you apply <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute?displayProperty=fullName> to the assembly that is being analyzed, this rule will not occur on any constructors that are marked as `internal` because you cannot tell whether a field is being used by another `friend` assembly.
 
- Even though you cannot work around this limitation in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Code Analysis, the external stand-alone FxCop will occur on internal constructors if every `friend` assembly is present in the analysis.
+  Even though you cannot work around this limitation in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Code Analysis, the external stand-alone FxCop will occur on internal constructors if every `friend` assembly is present in the analysis.
 
 ## How to Fix Violations
  To fix a violation of this rule, remove the type or add the code that uses it. If the type contains only static methods, add one of the following to the type to prevent the compiler from emitting a default public instance constructor:
@@ -64,32 +65,32 @@ manager: "wpickett"
 ## When to Suppress Warnings
  It is safe to suppress a warning from this rule. We recommend that you suppress this warning in the following situations:
 
--   The class is created through late-bound reflection methods such as <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>.
+- The class is created through late-bound reflection methods such as <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>.
 
--   The class is created automatically by the runtime or [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]. For example, classes that implement <xref:System.Configuration.IConfigurationSectionHandler?displayProperty=fullName> or <xref:System.Web.IHttpHandler?displayProperty=fullName>.
+- The class is created automatically by the runtime or [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]. For example, classes that implement <xref:System.Configuration.IConfigurationSectionHandler?displayProperty=fullName> or <xref:System.Web.IHttpHandler?displayProperty=fullName>.
 
--   The class is passed as a generic type parameter that has a new constraint. For example, the following example will raise this rule.
+- The class is passed as a generic type parameter that has a new constraint. For example, the following example will raise this rule.
 
-    ```csharp
-    internal class MyClass
-    {
-        public DoSomething()
-        {
-        }
-    }
-    public class MyGeneric<T> where T : new()
-    {
-        public T Create()
-        {
-            return new T();
-        }
-    }
-    // [...]
-    MyGeneric<MyClass> mc = new MyGeneric<MyClass>();
-    mc.Create();
-    ```
+  ```csharp
+  internal class MyClass
+  {
+      public DoSomething()
+      {
+      }
+  }
+  public class MyGeneric<T> where T : new()
+  {
+      public T Create()
+      {
+          return new T();
+      }
+  }
+  // [...]
+  MyGeneric<MyClass> mc = new MyGeneric<MyClass>();
+  mc.Create();
+  ```
 
- In these situations, we recommended you suppress this warning.
+  In these situations, we recommended you suppress this warning.
 
 ## Related Rules
  [CA1811: Avoid uncalled private code](../code-quality/ca1811-avoid-uncalled-private-code.md)
