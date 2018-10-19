@@ -20,7 +20,7 @@ manager: "ghogen"
 
 Here are some ways to get the most out of the Source Code Annotation Language (SAL) and avoid some common problems.  
   
-## \_In\_  
+## \_In\_
  If the function is supposed to write to the element, use `_Inout_` instead of `_In_`. This is particularly relevant in cases of automated conversion from older macros to SAL. Prior to SAL, many programmers used macros as comments—macros that were named `IN`, `OUT`, `IN_OUT`, or variants of these names. Although we recommend that you convert these macros to SAL, we also urge you to be careful when you convert them because the code might have changed since the original prototype was written and the old macro might no longer reflect what the code does. Be especially careful about the `OPTIONAL` comment macro because it is frequently placed incorrectly—for example, on the wrong side of a comma.  
   
 ```cpp  
