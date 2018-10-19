@@ -14,42 +14,42 @@ metadata:
 sections:
 - title: Publish to Azure
   items:
-  type: paragraph
-  text: 'Deploy your app to Azure to Staging or Production with Visual Studio, or set up continuous integration and deployment (CI/CD). Learn how to debug your app in Azure, and monitor performance.'
+  - type: paragraph
+    text: 'Deploy your app to Azure to Staging or Production with Visual Studio, or set up continuous integration and deployment (CI/CD). Learn how to debug your app in Azure, and monitor performance.'
   - type: list
     style: cards
     className: cardsM
     columns: 3
     items:
     - href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1
-      html: 
+      html: <p></p>
       image:
-        src: 
+        src: https://docs.microsoft.com/media/logos/logo_NETcore.svg
       title: Publish an ASP.NET Core app to Azure
-    - href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet
-      html: 
+    - href: https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework
+      html: <p></p>
       image:
-        src: 
+        src: https://docs.microsoft.com/azure/media/logos/logo_NET.svg
       title: Publish an ASP.NET Web App to Azure
     - href: /azure/azure-functions/functions-develop-vs
-      html:
+      html: <p></p>
       image:
-        src: 
+        src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
       title: Publish Azure Functions
     - href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1
-      html:
+      html: <p></p>
       image:
-        src: 
+        src: https://docs.microsoft.com/media/logos/logo_octokitty.svg
       title: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
     - href: /azure/devops/pipelines/get-started-yaml?view=vsts&viewFallbackFrom=aspnetcore-2.1
-      html:
-      image:
-        src: 
+      html: <p></p>
+      image: 
+        src: https://docs.microsoft.com/azure/devops/_img/index/DevOpsIconPipelines96.svg
       title: Continuous deployment to Azure with Azure Pipelines
     - href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio
-      html:
+      html: <p></p>
       image:
-        src: 
+        src: https://docs.microsoft.com/media/common/i_vmm-cloud.svg
       title: Publish an ASP.NET Web App to an Azure VM
 - title: Azure App Services and Azure Functions
   items:
@@ -70,6 +70,11 @@ sections:
       image: 
         src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
       title: Azure Functions
+    - href: https://docs.microsoft.com/dotnet/azure/?view=azure-dotnet
+      html: 
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_NET.svg
+      title: Azure SDK for .NET and .NET Core Developers
 - title: Container development
   items:
   - type: paragraph
