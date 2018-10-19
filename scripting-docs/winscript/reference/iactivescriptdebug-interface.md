@@ -20,11 +20,11 @@ Implemented by script engines that support debugging. Typically, an object that 
   
  The `IActiveScriptDebug` interface provides the means for:  
   
--   Smart hosts to take over document management.  
+- Smart hosts to take over document management.  
   
--   Process debug manager to synchronize debugging of multiple script engines.  
+- Process debug manager to synchronize debugging of multiple script engines.  
   
- In addition to the methods inherited from `IUnknown`, the `IActiveScriptDebug` interface exposes the following methods.  
+  In addition to the methods inherited from `IUnknown`, the `IActiveScriptDebug` interface exposes the following methods.  
   
 ## Methods in Vtable Order  
   

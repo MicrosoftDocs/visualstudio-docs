@@ -51,11 +51,11 @@ While the Visual Studio for Mac Tools for Unity extension should be enabled by d
 
 1. From the Visual Studio menu, select **Extensions...**.
 
-  ![Select Extensions](media/setup-vsmac-tools-unity-image1.png)
+   ![Select Extensions](media/setup-vsmac-tools-unity-image1.png)
 
-1. Expand the Game Development section and confirm the Visual Studio for Mac Tools for Unity entry.
+2. Expand the Game Development section and confirm the Visual Studio for Mac Tools for Unity entry.
 
-  ![View Unity Entry](media/setup-vsmac-tools-unity-image2.png)
+   ![View Unity Entry](media/setup-vsmac-tools-unity-image2.png)
 
 ## Configure Unity for use with Visual Studio for Mac
 
@@ -63,16 +63,16 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 
 1. Select **Preferences...** from the Unity menu.
 
-  ![Select Preferences](media/setup-vsmac-tools-unity-image4.png)
+   ![Select Preferences](media/setup-vsmac-tools-unity-image4.png)
 
-1. In the Preferences dialog, select the **External Tools** tab.
+2. In the Preferences dialog, select the **External Tools** tab.
 
-1. From the External Script Editor dropdown list, choose **Visual Studio** if it is listed, otherwise select **Browse...**.
+3. From the External Script Editor dropdown list, choose **Visual Studio** if it is listed, otherwise select **Browse...**.
 
-  ![Select Visual Studio](media/setup-vsmac-tools-unity-image5.png)
+   ![Select Visual Studio](media/setup-vsmac-tools-unity-image5.png)
 
-1. If **Browse...** was selected, navigate to the Applications directory and select Visual Studio and then click **Open**.
+4. If **Browse...** was selected, navigate to the Applications directory and select Visual Studio and then click **Open**.
 
-  ![Select Open](media/setup-vsmac-tools-unity-image6.png)
+   ![Select Open](media/setup-vsmac-tools-unity-image6.png)
 
-1. Once Visual Studio is selected in the **External Script Editor** list, close the Preferences dialog to complete the configuration process.
+5. Once Visual Studio is selected in the **External Script Editor** list, close the Preferences dialog to complete the configuration process.
