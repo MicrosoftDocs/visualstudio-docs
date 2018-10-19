@@ -59,12 +59,12 @@ public static void Main(string[] args)
 ```
 An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](https://docs.microsoft.com/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
 
- * `UseKestrel`: Specifies the Kestrel server will be used by the app
- * `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
- * `.UseIISIntegration()`: Specifies that the app should work with IIS. To use IIS with ASP.NET Core both `UseKestrel` and `UseIISIntegration` need to be specified.
- * `.UseStartup<Startup>()`: Specifies the Startup class.
+* `UseKestrel`: Specifies the Kestrel server will be used by the app
+* `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
+* `.UseIISIntegration()`: Specifies that the app should work with IIS. To use IIS with ASP.NET Core both `UseKestrel` and `UseIISIntegration` need to be specified.
+* `.UseStartup<Startup>()`: Specifies the Startup class.
 
- The Build and Run methods build the IWebHost that will host the app and start it listening for incoming HTTP requests.
+  The Build and Run methods build the IWebHost that will host the app and start it listening for incoming HTTP requests.
 
 ### Startup.cs
 

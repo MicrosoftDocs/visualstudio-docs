@@ -26,7 +26,7 @@ Gets the number of `ExtendedDebugPropertyInfo` structures in the enumerator.
   
 ```  
 HRESULT GetCount (  
-   ULONG* pcelt  
+   ULONG* pcelt  
 );  
 ```  
   
