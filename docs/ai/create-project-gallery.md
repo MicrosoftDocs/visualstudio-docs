@@ -45,16 +45,16 @@ Once you've [installed Visual Studio Tools for AI](installation.md), it's easy t
    - **Project Path**: Location to save the code
    - **Project Name**: Type **TensorFlowMNIST**
 
-![Resulting project when using the Python Application template](media/create-project-gallery/new-AzureSampleProject.png)
+   ![Resulting project when using the Python Application template](media/create-project-gallery/new-AzureSampleProject.png)
 
-1. Visual Studio creates the project file (a `.pyproj` file on disk) along with other files defined in the sample. With the "MNIST" template, the project contains several files.
+5. Visual Studio creates the project file (a `.pyproj` file on disk) along with other files defined in the sample. With the "MNIST" template, the project contains several files.
 
     ![mnist](media/create-project-gallery/azml-mnist.png)
 
-2. Submit the job to Azure Machine Learning.
+6. Submit the job to Azure Machine Learning.
 
     ![mnist](media/create-project-gallery/submit-azml.png)
 
-3. Run in a Docker container or on your local machine
+7. Run in a Docker container or on your local machine
 
     ![mnist](media/create-project-gallery/azml-local.png)

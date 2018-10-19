@@ -2,6 +2,7 @@
 ms.technology: vs-ai-tools
 ---
 # Monitoring GPU Utilization
+
 To monitor GPU utilization of remote Linux machines:
 
 1. In **Server Explorer**, expand **Remote Machines**.

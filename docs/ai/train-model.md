@@ -13,7 +13,6 @@ ms.technology: vs-ai-tools
 ms.workload:
   - "azure"
 ---
-
 # Train AI models in Azure Batch AI
 
 Batch AI is a managed service that enables data scientists and AI researchers to train AI and other machine learning models on clusters of Azure virtual machines, including VMs with GPU support. You describe the requirements of your job, where to find the inputs and store the outputs, and Batch AI handles the rest. [Learn more about Azure Batch AI](https://docs.microsoft.com/azure/batch-ai/overview)
@@ -23,7 +22,6 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 1. Launch Visual Studio. Open the **Server Explorer** by opening the **AI Tools** menu and choosing **Select Cluster**
 
     ![Cluster chooser](media/train-model/select-cluster.png)
-
 
 2. Expand **AI Tools**. Any Batch AI resources you have will be auto-detected and appear in the Server Explorer.
 
