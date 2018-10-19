@@ -16,11 +16,12 @@ ms.workload:
   - "multiple"
 ---
 # Code Analysis Policy Errors
+
 The following errors occur if the code analysis policy is not satisfied at check-in:
 
- **The Code Analysis settings for one or more projects are not compatible with Code Analysis policy.**
+**The Code Analysis settings for one or more projects are not compatible with Code Analysis policy.**
 
- The code analysis requirements checking in to the project source control was not met for one or more code projects. This error can be caused by one or more of the following conditions:
+The code analysis requirements checking in to the project source control was not met for one or more code projects. This error can be caused by one or more of the following conditions:
 
 1. Code Analysis is not enabled on build for all of the projects in the solution.
 
@@ -69,4 +70,5 @@ The following errors occur if the code analysis policy is not satisfied at check
    This error applies to unmanaged projects. The code analysis policy requires Code Analysis for C/C++, but it is not enabled in the current project on the client.
 
 ## See Also
- [Code Analysis Application Errors](../code-quality/code-analysis-application-errors.md)
+
+- [Code Analysis Application Errors](../code-quality/code-analysis-application-errors.md)

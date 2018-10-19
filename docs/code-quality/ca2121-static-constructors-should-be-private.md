@@ -27,21 +27,25 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A type has a static constructor that is not private.
+
+A type has a static constructor that is not private.
 
 ## Rule description
- A static constructor, also known as a class constructor, is used to initialize a type. The system calls the static constructor before the first instance of the type is created or any static members are referenced. The user has no control over when the static constructor is called. If a static constructor is not private, it can be called by code other than the system. Depending on the operations that are performed in the constructor, this can cause unexpected behavior.
 
- This rule is enforced by the C# and Visual Basic compilers.
+A static constructor, also known as a class constructor, is used to initialize a type. The system calls the static constructor before the first instance of the type is created or any static members are referenced. The user has no control over when the static constructor is called. If a static constructor is not private, it can be called by code other than the system. Depending on the operations that are performed in the constructor, this can cause unexpected behavior.
+
+This rule is enforced by the C# and Visual Basic compilers.
 
 ## How to fix violations
- Violations are typically caused by one of the following actions:
+
+Violations are typically caused by one of the following actions:
 
 - You defined a static constructor for your type and did not make it private.
 
 - The programming language compiler added a default static constructor to your type and did not make it private.
 
-  To fix the first kind of violation, make your static constructor private. To fix the second kind, add a private static constructor to your type.
+To fix the first kind of violation, make your static constructor private. To fix the second kind, add a private static constructor to your type.
 
 ## When to suppress warnings
- Do not suppress these violations. If your software design requires an explicit call to a static constructor, it is likely that the design contains serious flaws and should be reviewed.
+
+Do not suppress these violations. If your software design requires an explicit call to a static constructor, it is likely that the design contains serious flaws and should be reviewed.
