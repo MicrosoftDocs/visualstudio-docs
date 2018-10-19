@@ -21,7 +21,7 @@ At present, Python is supported on Azure App Service for Linux, and you can publ
 > [!Note]
 > Python support on Azure App Service for Windows is officially deprecated. As a result, the **Publish** command in Visual Studio is officially supported only for an [IIS target](#publish-to-iis), and remote debugging on Azure App Service is no longer officially supported.
 >
-> However, these features do continue to work for the time being, as the Python extensions for App Service on Windows remain available but will not be serviced or updated.
+> However, [Publishing to App Service on Windows](publish-to-app-service-windows.md) features still works for the time being, as the Python extensions for App Service on Windows remain available but will not be serviced or updated.
 
 ## Publish to App Service on Linux using Git deploy
 
