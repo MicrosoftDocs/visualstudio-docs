@@ -38,9 +38,9 @@ These installers are available as ISO files for easy installation on virtual mac
 
 ## Compatible versions of TFS, Microsoft Test Manager, the test controller, and test agent
 
-You can mix different versions of TFS, Microsoft Test Manager (MTM), the test controller, and the test agent, according to the following table:
+You can mix different versions of TFS, Microsoft Test Manager, the test controller, and the test agent, according to the following table:
 
-| TFS | MTM with Lab Center | Controller | Agent |
+| TFS | Microsoft Test Manager with Lab Center | Controller | Agent |
 | --- | -------------------------------------- | ---------- | ----- |
 | 2017: upgrade from 2015 or new install | 2017 | 2017 | 2017 |
 | 2017: upgrade from 2015 or new install | 2017 | 2013 Update 5 | 2013 Update 5 |
