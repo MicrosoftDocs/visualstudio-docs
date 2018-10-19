@@ -1,7 +1,7 @@
 ---
 title: "Learn to debug using the Visual Studio debugger"
 ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
-ms.custom: "mvc"
+ms.custom: "debug-experiment"
 ms.date: "08/01/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
