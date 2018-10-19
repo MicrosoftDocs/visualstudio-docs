@@ -30,7 +30,9 @@ ms.workload:
 
 During debugging, the **Memory** window shows the memory space your app is using. 
 
-Other debugger windows like **Watch**, **Autos**, **Locals**, and **QuickWatch** show you variables, which are stored at specific locations in memory. The **Memory** window shows you the large-scale picture. The memory view is convenient for examining large pieces of data (buffers or large strings, for example) that don't display well in the other windows. The **Memory** window isn't limited to displaying data. It displays everything in the memory space, including data, code, and random bits of garbage in unassigned memory.  
+Other debugger windows like **Watch**, **Autos**, **Locals**, and **QuickWatch** show you variables, which are stored at specific locations in memory. The **Memory** window shows you the large-scale picture. The memory view is convenient for examining large pieces of data (buffers or large strings, for example) that don't display well in the other windows. 
+
+The **Memory** window isn't limited to displaying data. It displays everything in the memory space, including data, code, and random bits of garbage in unassigned memory.  
 
 The **Memory** window isn't available for Script or SQL debugging. Those languages don't recognize the concept of memory.  
   
@@ -77,7 +79,7 @@ You can customize the way the **Memory** window shows memory contents.
 
 By default, memory contents appear as 1-byte integers in hexadecimal format, and the window width determines the number of columns shown.  
   
-- **To change the format of the memory contents:**  
+**To change the format of the memory contents:**  
   
 -  Right-click in the **Memory** window, and choose the formats that you want from the context menu.  
   
