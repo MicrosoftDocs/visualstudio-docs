@@ -51,7 +51,7 @@ The following are popular Visual Studio shortcuts:
 > [!NOTE]
 > Some extensions unbind the default Visual Studio keybindings. To use the above commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
-Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](..\ide\tips-and-tricks-for-visual-studio.md).
+Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](../ide/tips-and-tricks-for-visual-studio.md).
 
 ## I need a way to quickly navigate to files or types
 

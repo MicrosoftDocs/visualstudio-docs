@@ -19,7 +19,7 @@ ms.workload:
 When using Internet Information Services (IIS) as a web server on a Windows computer (including [Windows virtual machines on Azure](/azure/architecture/reference-architectures/n-tier/windows-vm), Python apps must include specific settings in their *web.config* files so that IIS can properly process Python code. The computer itself must also have Python installed along with any packages the web app requires.
 
 > [!Note]
-> This article previously contained guidance for configuring Python on Azure App Service on Windows. The Python extensions and Windows hosts used in that scenario have been deprecated in favor of Azure App Service on Linux. For more information, see [Publishing Python Apps to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md). If you still need the information that was previously available for Managing App Service on Windows with the Python extensions, please file an issue at the bottom of this article.
+> This article previously contained guidance for configuring Python on Azure App Service on Windows. The Python extensions and Windows hosts used in that scenario have been deprecated in favor of Azure App Service on Linux. For more information, see [Publishing Python Apps to Azure App Service (Linux)](publishing-python-web-applications-to-azure-from-visual-studio.md). The previous article, however, is still available on [Managing App Service on Windows with the Python extensions](managing-python-on-azure-app-service.md).
 
 ## Install Python on Windows
 

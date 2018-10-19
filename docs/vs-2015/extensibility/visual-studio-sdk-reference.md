@@ -228,7 +228,7 @@ This section contains information about Visual Studio namespaces, related namesp
  <xref:Microsoft.VisualStudio.Threading>  
  Used for Visual Studio threading.  
   
- <xref:Microsoft.VisualStudio.Connected Services?qualifyHint=False&autoUpgrade=True> 
+ <xref:Microsoft.VisualStudio.ConnectedServices?qualifyHint=False&autoUpgrade=True> 
  Used for Visual Studio connected services.  
   
  [IntelliSenseHostFlags](../extensibility/intellisensehostflags.md) enumeration  

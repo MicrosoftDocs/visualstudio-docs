@@ -1906,11 +1906,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/python/managing-python-on-azure-app-service.md.md",
-            "redirect_url": "/visualstudio/python/configure-web-apps-for-iis-windows",
-            "redirect_document_id": false
-        },        
-        {
             "source_path": "docs/python/options.md",
             "redirect_url": "/visualstudio/python/python-support-options-and-settings-in-visual-studio",
             "redirect_document_id": false
