@@ -80,12 +80,13 @@ the upper right. Once the Excel spreadsheet downloads, go to the **Azure Price L
 filter the **Meter Category** column to **Visual Studio**.
 
 Here's how to interpret what you see on this spreadsheet:
-| Meter category    |	Name                 |	Units	                             |           What this is                          |
+
+| Meter category    |   Name                 |  Units                                |           What this is                          |
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
-| Visual Studio	    | Enterprise             |	Subscription	                     | Visual Studio Enterprise monthly subscription   |
-| Visual Studio	    | Enterprise (Annual)    |	Annual Subscriptions                 | Visual Studio Enterprise annual subscription    |
-| Visual Studio	    | Professional           |	Subscription	                     | Visual Studio Professional monthly subscription |
-| Visual Studio	    | Professional (Annual)  |	Annual Subscriptions                 | Visual Studio Professional annual subscription  |
+| Visual Studio     | Enterprise             |  Subscription                         | Visual Studio Enterprise monthly subscription   |
+| Visual Studio     | Enterprise (Annual)    |  Annual Subscriptions                 | Visual Studio Enterprise annual subscription    |
+| Visual Studio     | Professional           |  Subscription                         | Visual Studio Professional monthly subscription |
+| Visual Studio     | Professional (Annual)  |  Annual Subscriptions                 | Visual Studio Professional annual subscription  |
 
 We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each
 subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5,

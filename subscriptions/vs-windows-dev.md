@@ -23,27 +23,28 @@ We recommend that you create a "private" browser window for this process.  For e
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the Windows Developer Account tile in the Tools section and click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**.
-    > [!div class="mx-imgBorder"]
-    > ![Windows Developer Benefit Tile](_img\vs-windows-dev\vs-windows-dev-tile.png)
+   > [!div class="mx-imgBorder"]
+   > ![Windows Developer Benefit Tile](_img/vs-windows-dev/vs-windows-dev-tile.png)
 
-2. On the [https://developer.microsoft.com](https://developer.microsoft.com) site you can begin the registration process.  Click **Sign up** to continue.
-    > [!div class="mx-imgBorder"]
-    > ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-register1-cropped.png)
+3. On the [https://developer.microsoft.com](https://developer.microsoft.com) site you can begin the registration process.  Click **Sign up** to continue.
+   > [!div class="mx-imgBorder"]
+   > ![Windows Developer Benefit Registration](_img/vs-windows-dev/vs-windows-dev-register1-cropped.png)
 
-3. Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription.
-4. On the next page, select the country or region where you live or where your business is located, and then click **Next**.
-5. Select **Individual** as your account type.
-6. Create your publisher display name.  This will be the unique name your customers will see associated with your apps, add-ins, and services.
-7. Provide your contact information and preferred email language, then click **Next**.
-8. You may be asked to verify your password.  Enter it and click **Sign in**.
-9. On the Registration – Payment page, paste the code you copied earlier into the Promo Code field.  The page will update to show that *no payment is required*.  Click **Next**.
+4. Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription.
+5. On the next page, select the country or region where you live or where your business is located, and then click **Next**.
+6. Select **Individual** as your account type.
+7. Create your publisher display name.  This will be the unique name your customers will see associated with your apps, add-ins, and services.
+8. Provide your contact information and preferred email language, then click **Next**.
+9. You may be asked to verify your password.  Enter it and click **Sign in**.
+10. On the Registration – Payment page, paste the code you copied earlier into the Promo Code field.  The page will update to show that *no payment is required*.  Click **Next**.
     > [!div class="mx-imgBorder"]
-    > ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-promo-cropped.png)
+    > ![Windows Developer Benefit Registration](_img/vs-windows-dev/vs-windows-dev-promo-cropped.png)
 
-10.	Review your account information, review the App Developer Agreement, and click the checkbox to indicate your acceptance of the terms and conditions.  Then click **Finish**.
-11. Click **Go to dashboard** to begin using your Windows Developer Account!
+11. Review your account information, review the App Developer Agreement, and click the checkbox to indicate your acceptance of the terms and conditions.  Then click **Finish**.
+12. Click **Go to dashboard** to begin using your Windows Developer Account!
 
 ## Eligibility
+
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included       |  Yes|
