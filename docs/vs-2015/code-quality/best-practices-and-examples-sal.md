@@ -45,7 +45,7 @@ void Func2(_Inout_ PCHAR p1)
 ```  
   
 ## \_opt\_  
- If the caller is not allowed to pass in a null pointer, use `_In_` or `_Out_` instead of `_In_opt_` or `_Out_opt_`. This applies even to a function that checks its parameters and returns an error if it is NULL when it should not be. Although having a function check its parameter for unexpected NULL and return gracefully is a good defensive coding practice, it does not mean that the parameter annotation can be of an optional type (**Xxx*_opt\\*).  
+ If the caller is not allowed to pass in a null pointer, use `_In_` or `_Out_` instead of `_In_opt_` or `_Out_opt_`. This applies even to a function that checks its parameters and returns an error if it is NULL when it should not be. Although having a function check its parameter for unexpected NULL and return gracefully is a good defensive coding practice, it does not mean that the parameter annotation can be of an optional type (\_*Xxx*_opt\_).  
   
 ```cpp  
   

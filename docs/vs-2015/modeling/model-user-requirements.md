@@ -140,7 +140,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 ##  <a name="BusinessRules"></a> Showing Business Rules  
  A business rule is a requirement that is not associated with a particular use case, and should be observed throughout the system.  
   
- Many business rules are constraints on the relationships among the conceptual classes. You can write these *static*<em>business rules</em> as comments associated with the relevant classes on a conceptual class diagram. For example:  
+ Many business rules are constraints on the relationships among the conceptual classes. You can write these *static business rules* as comments associated with the relevant classes on a conceptual class diagram. For example:  
   
  ![Rule in Comment attached to Order class.](../modeling/media/uml-reqmcd2.png "UML_ReqmCD2")  
   

@@ -52,7 +52,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
     [Defining a Gesture Handler](#gesture)  
   
-6. To install the extension in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in **bin\\\\**<em>. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates</em>* on the **Tools** menu.  
+6. To install the extension in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in *bin\\*. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
 ## Adding a Command or Gesture to a separate VSIX  
  If you want to create one VSIX that contains commands, layer validators, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. For information about other types of modeling extension, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  

@@ -57,7 +57,7 @@ In Visual Studio, users can validate the source code in a project against a laye
    > [!NOTE]
    >  Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).  
   
-5. To install the extension in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in **bin\\\\**<em>. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates</em>* on the **Tools** menu.  
+5. To install the extension in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in *bin\\*. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
 ## Adding a Layer Validator to a Separate VSIX  
  If you want to create one VSIX that contains layer validators, commands, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. For information about other types of modeling extension, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  

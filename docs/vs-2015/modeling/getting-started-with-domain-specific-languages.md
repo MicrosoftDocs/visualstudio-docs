@@ -132,7 +132,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
    ![](../modeling/media/dsl-min.png "DSL_min")  
   
 ### The Content of a Model  
- The content of a file that is an instance of a DSL is called a *model*. The model contains *model*<em>elements</em> and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.  
+ The content of a file that is an instance of a DSL is called a *model*. The model contains *model elements* and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.  
   
  The DSL definition can specify how the model appears on a diagram. You can choose from a variety of styles of shapes and connectors. You can specify that some shapes appear inside other shapes.  
   
