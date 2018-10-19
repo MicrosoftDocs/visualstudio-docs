@@ -26,10 +26,10 @@ Enumerates the members of a property.
   
 ```  
 HRESULT EnumMembers (  
-   DBGPROP_INFO_FLAGSdwFieldSpec,  
-   UINTnRadix,  
-   REFIIDrefiid,  
-   IEnumDebugPropertyInfo**ppEnum  
+   DBGPROP_INFO_FLAGSdwFieldSpec,  
+   UINTnRadix,  
+   REFIIDrefiid,  
+   IEnumDebugPropertyInfo**ppEnum  
 );  
 ```  
   

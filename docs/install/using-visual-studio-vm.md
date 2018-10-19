@@ -6,15 +6,15 @@ ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
-  - "azure services"
-  - "virtual machine; VM"
-  - "installation"
-  - "visual studio"
+  - azure services
+  - virtual machine
+  - installation
+  - visual studio
 author: PhilLee-MSFT
 ms.author: tglee
 manager: douge
-ms.workload: 
-  - "multiple"
+ms.workload:
+  - multiple
 ---
 # <a id="top"> </a> Visual Studio images on Azure
 

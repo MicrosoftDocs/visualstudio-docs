@@ -26,8 +26,8 @@ Sets the value of a property from a given string.
   
 ```  
 HRESULT SetValueAsString (  
-   LPCOLESTR pszValue,  
-   UINTnRadix,  
+   LPCOLESTR pszValue,  
+   UINTnRadix,  
 );  
 ```  
   
