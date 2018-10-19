@@ -1,7 +1,7 @@
 ---
-title: "View Memory for Variables in the Debugger | Microsoft Docs"
+title: "View memory for variables in the debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "10/04/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -26,90 +26,98 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Use the Memory Windows in the Visual Studio Debugger
-The **Memory** window provides a view into the memory space that is used by your application. The **Watch** window, **QuickWatch** dialog box, **Autos** window, and **Locals** window show you the content of variables, which are stored at specific locations in memory. But the **Memory** window shows you the large-scale picture. This view can be convenient for examining large pieces of data (buffers or large strings, for example) that do not display well in the other windows. However, the **Memory** window is not limited to displaying data. It displays everything in the memory space, whether the content is data, code, or random bits of garbage in unassigned memory.  
+# Use the Memory windows in the Visual Studio debugger
+
+During debugging, the **Memory** window shows the memory space your app is using. 
+
+Other debugger windows like the **Watch** windows, **Autos** window, **Locals** window, and **QuickWatch** dialog box show you variables, which are stored at specific locations in memory. The **Memory** window shows you the large-scale picture. The memory view is convenient for examining large pieces of data (buffers or large strings, for example) that do not display well in the other windows. The **Memory** window is not limited to displaying data. It displays everything in the memory space, including data, code, and random bits of garbage in unassigned memory.  
+
+The **Memory** window is not available for Script or SQL debugging. Those languages do not recognize the concept of memory.  
   
- The **Memory** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node. The **Memory** window is not available for Script or SQL, which are languages that do not recognize the concept of memory.  
+## Open a Memory window  
   
-## Opening a Memory Window  
+Like other debugger windows, the **Memory** windows are available only during a debugging session. 
+
+>[!NOTE]
+>To enable the **Memory** windows, you must select **Enable address-level debugging** in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** **General**. 
+
+**To open a Memory window**
   
-#### To open a Memory window  
+1. Make sure **Enable address-level debugging** is selected in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** **General**. 
+   
+1. Start debugging by selecting the green arrow, pressing **F5**, or selecting **Debug** > **Start Debugging**.  
+   
+2. Under **Debug** > **Windows** > **Memory**, select **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Some editions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] offer only one **Memory** window.)  
+
+## Scroll in the Memory window  
+
+The address space of a computer is very large, and you can easily lose your place by scrolling to a random location in the **Memory** window. 
+
+<!-- For that reason, the thumb is "spring-loaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but cannot scroll about freely. -->  
   
-1.  Start debugging, if you are not already in debug mode.  
+Higher memory addresses appear at the bottom of the window. To view a higher address, scroll down. To view a lower address, scroll up.  
   
-2.  In the **Debug** menu, point to **Windows**. Then, point to **Memory** and then click **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Lower-level editions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have only a single **Memory** window. If you are using one of those editions, just click **Memory**.)  
-  
-## Paging in the Memory Window  
- The **Memory** window has a vertical scrollbar that operates in a nonstandard manner. The address space of a modern computer is very large, and you could easily get lost by grabbing the scrollbar thumb and dragging it to a random location. For that reason, the thumb is "spring-loaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but cannot scroll about freely.  
-  
- Higher memory addresses appear at the bottom of the window. To view a higher address, scroll down, not up.  
-  
-#### To page up or down in memory  
+<!--**To page up or down in the Memory window:**  
   
 1.  To page down (move to a higher memory address), click under the thumb in the vertical scrollbar.  
   
-2.  To page up (move to a lower memory address), click above the thumb the vertical scrollbar.  
+2.  To page up (move to a lower memory address), click above the thumb in the vertical scrollbar.  -->
   
-## Selecting a Memory Location  
- If you want to move instantly to a selected location in memory, you can do so by using a drag-and-drop operation or by editing the value in the **Address** box. The **Address** box accepts not only numeric values but also expressions that evaluate to addresses. By default, the **Memory** window treats an **Address** expression as a live expression, which is reevaluated as your program executes. Live expressions can be very useful. For example, you can use them to view the memory that is touched by a pointer.  
+## Move to a specific Memory location  
+
+You can instantly go to a specified address in the **Memory** window by using drag-and-drop, or by entering the address in the **Address** field. The **Address** field accepts alphanumeric addresses and expressions that evaluate to addresses, such as `e.User.NonroamableId`. 
+
+By default, the **Memory** window treats **Address** expressions as live expressions, which are reevaluated as the app runs. Live expressions can be very useful. For example, you can use them to view the memory that is touched by a pointer.  
+
+You can force immediate reevaluation of expressions in the **Address** field by selecting the rounded-arrow **Reevaluate Automatically** icon in the toolbar. 
+
+**To use drag and drop to move to a memory location:**  
+   
+1. In any debugger window, select a memory address, or a pointer variable that contains a memory address.  
+   
+2. Drag the address or pointer to the **Memory** window. The window immediately moves to that location, and the address appears in the **Address** field.  
   
-#### To select a memory location by dragging and dropping  
+**To move to a memory location by entering it in the Address field:**
   
-1.  In any window, select a memory address or pointer variable that contains a memory address.  
+- Type or paste the address or expression in the **Address** field and press **Enter**, or choose it from the dropdown in the **Address**field. The window moves to that location. 
   
-2.  Drag the address or pointer to the **Memory** window.  
+## Customize the Memory window 
+
+You can customize the way the **Memory** window shows memory contents. 
+
+By default, memory contents appear as one-byte integers in hexadecimal format, and the number of columns is determined automatically by the current width of the window.  
   
-#### To select a memory location by editing  
+- **To change the format of the memory contents:**  
   
-1.  In the **Memory** window, select the **Address** box.  
+-  Right-click in the **Memory** window, and choose the formats that you want from the context menu.  
   
-2.  Type or paste the address you want to see, and then press **ENTER**.  
+**To change the number of columns in the Memory window:**
   
-## Changing the Way the Memory Window Displays Information  
- You can customize the way the **Memory** window shows memory contents. By default, memory contents appear as one-byte integers in hexadecimal format, and the number of columns is determined automatically by the current width of the window.  
+- Select the drop down arrow next to the **Columns** field, and select the number of columns to display, or select **Auto** for automatic adjustment.  
   
-#### To change the format of the memory contents  
+If you do not want the contents of the **Memory** window to change as your app runs, you can turn off live expression evaluation. Live expression evaluation is on by default, and selecting **Reevaluate Automatically** turns it off. It is a toggle, so selecting **Reevaluate Automatically** again turns it back on. 
   
-1.  Right-click the **Memory** window.  
+**To toggle live evaluation:**  
   
-2.  Choose the format that you want.  
+- Right-click in the **Memory** window, and select **Reevaluate Automatically** in the context menu. 
+
+You can hide or display the toolbar at the top of the **Memory** window. You will not have access to the **Address** field or other tools when the toolbar is hidden.  
   
-#### To change the number of columns in the Memory window  
+**To toggle the toolbar display:**  
   
-1.  In the toolbar at the top of the **Memory** window, locate the **Columns** list.  
+- Right-click in the **Memory** window, and select **Show Toolbar** in the context menu. The toolbar appears or disappears, depending on its previous state.  
   
-2.  In the **Columns** list, select the number of columns that you want to display or select **Auto** for automatic adjustment to fit the width of the window.  
+## Follow a pointer through memory  
+
+In native code apps, you can use register names as live expressions. For example, you can use the stack pointer to follow the stack.  
   
- If you do not want the contents of the **Memory** window to change as your program executes, you can turn off live expression evaluation.  
+**To follow a pointer through memory:**
   
-#### To toggle live evaluation  
+1. In the **Memory** window **Address** field, enter a pointer expression that is in the current scope. Depending on the language, you might have to dereference it.  
   
-1.  Right-click the **Memory** window.  
+2. Press **Enter**.  
+   
+   When you use a debug command such as **Step**, the memory address that is displayed will automatically change as the pointer changes.  
   
-2.  On the shortcut menu, click **Reevaluate Automatically**.  
-  
-     If live evaluation is on, the option will be selected, and clicking it turns off live evaluation. If live evaluation is off, the option is not selected, and clicking it turns on live evaluation.  
-  
- You can hide or display the toolbar at the top of the **Memory** window. You will not have access to Address box or other tools as long as the toolbar is hidden.  
-  
-#### To toggle the toolbar  
-  
-1.  Right-click a **Memory** window.  
-  
-2.  On the shortcut menu, click **Show Toolbar**.  
-  
-     The toolbar appears or disappears, depending on its previous state.  
-  
-## Following a Pointer Through Memory  
- In native code applications, you can use register names as live expressions. For example, you can use the stack pointer to follow the stack.  
-  
-#### To follow a pointer through memory  
-  
-1.  In the **Memory** window **Address** box, type a pointer expression. The pointer variable must be in the current scope. Depending on the language, you might have to dereference it.  
-  
-2.  Press **ENTER**.  
-  
-     Now, when you use an execution command such as **Step**, the memory address that is displayed will automatically change as the pointer changes.  
-  
-## See Also  
- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
+## See also  
+ [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)
