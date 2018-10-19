@@ -38,7 +38,7 @@ The **Memory** window is not available for Script or SQL debugging. Those langua
   
 Like other debugger windows, the **Memory** windows are available only during a debugging session. 
 
->[!NOTE]
+>[!IMPORTANT]
 >To enable the **Memory** windows, you must select **Enable address-level debugging** in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** **General**. 
 
 **To open a Memory window**
@@ -53,23 +53,15 @@ Like other debugger windows, the **Memory** windows are available only during a 
 
 The address space of a computer is very large, and you can easily lose your place by scrolling to a random location in the **Memory** window. 
 
-<!-- For that reason, the thumb is "spring-loaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but cannot scroll about freely. -->  
-  
 Higher memory addresses appear at the bottom of the window. To view a higher address, scroll down. To view a lower address, scroll up.  
-  
-<!--**To page up or down in the Memory window:**  
-  
-1.  To page down (move to a higher memory address), click under the thumb in the vertical scrollbar.  
-  
-2.  To page up (move to a lower memory address), click above the thumb in the vertical scrollbar.  -->
   
 ## Move to a specific Memory location  
 
-You can instantly go to a specified address in the **Memory** window by using drag-and-drop, or by entering the address in the **Address** field. The **Address** field accepts alphanumeric addresses and expressions that evaluate to addresses, such as `e.User.NonroamableId`. 
+You can instantly go to a specified address by using drag-and-drop in the **Memory** window, or by entering the address in the **Address** field. The **Address** field accepts alphanumeric addresses and expressions that evaluate to addresses, such as `e.User.NonroamableId`. 
+
+You can force immediate reevaluation of an expression in the **Address** field by selecting the rounded-arrow **Reevaluate Automatically** icon in the toolbar. 
 
 By default, the **Memory** window treats **Address** expressions as live expressions, which are reevaluated as the app runs. Live expressions can be very useful. For example, you can use them to view the memory that is touched by a pointer.  
-
-You can force immediate reevaluation of expressions in the **Address** field by selecting the rounded-arrow **Reevaluate Automatically** icon in the toolbar. 
 
 **To use drag and drop to move to a memory location:**  
    
@@ -79,7 +71,7 @@ You can force immediate reevaluation of expressions in the **Address** field by 
   
 **To move to a memory location by entering it in the Address field:**
   
-- Type or paste the address or expression in the **Address** field and press **Enter**, or choose it from the dropdown in the **Address**field. The window moves to that location. 
+- Type or paste the address or expression in the **Address** field and press **Enter**, or choose it from the dropdown in the **Address** field. The window moves to that location. 
   
 ## Customize the Memory window 
 
