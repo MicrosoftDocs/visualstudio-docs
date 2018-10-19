@@ -250,4 +250,4 @@ Because of the way the code analysis rules are loaded, you must install the Micr
 
 ## See Also
 
--[Visual Studio C++ Core Check Reference](code-analysis-for-cpp-corecheck.md)
+- [Visual Studio C++ Core Check Reference](code-analysis-for-cpp-corecheck.md)

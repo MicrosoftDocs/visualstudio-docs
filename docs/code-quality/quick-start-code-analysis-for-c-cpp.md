@@ -85,7 +85,7 @@ To suppress a warning:
 
 3. Choose **Suppress Message** and then choose **In Source**.
 
-   Suppressing a message inserts `#pragma warning (disable:`*WarningId*`)` that suppresses the warning for the line of code.
+   Suppressing a message inserts `#pragma warning (disable:[warning ID])` that suppresses the warning for the line of code.
 
 ## Create work items for code analysis warnings
 
