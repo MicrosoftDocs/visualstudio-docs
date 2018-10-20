@@ -65,11 +65,11 @@ partition.SetLocks(Locks.Delete);
 ## Lock values
  Locks can be set on a Store, Partition, or individual ModelElement. Locks is a `Flags` enumeration: you can combine its values using '&#124;'.
 
--   Locks of a ModelElement always include the Locks of its Partition.
+- Locks of a ModelElement always include the Locks of its Partition.
 
--   Locks of a Partition always include the Locks of the Store.
+- Locks of a Partition always include the Locks of the Store.
 
- You cannot set a lock on a partition or store and at the same time disable the lock on an individual element.
+  You cannot set a lock on a partition or store and at the same time disable the lock on an individual element.
 
 |Value|Meaning if `IsLocked(Value)` is true|
 |-----------|------------------------------------------|
@@ -136,7 +136,6 @@ namespace Company.YourDsl.DslPackage // Change
       return Environment.UserName == "aUser"
            ? proposedLocks : Locks.All;
     }
-
 ```
 
  To make sure that users can always delete elements, even if other code calls `SetLocks(Lock.Delete):`

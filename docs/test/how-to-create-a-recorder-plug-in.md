@@ -83,9 +83,9 @@ The following procedures describe how to create the rudimentary code for a recor
 
 After you compile the recorder plug-in, you will need to place the resulting DLL in one of two locations:
 
--   *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies\WebTestPlugins*
+- *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies\WebTestPlugins*
 
--   *%USERPROFILE%\My Documents\Visual Studio \<*version*>\WebTestPlugins*
+- <em>%USERPROFILE%\My Documents\Visual Studio \<</em>version<em>>\WebTestPlugins</em>
 
 > [!WARNING]
 > After you copy the recorder plug-in to one of the two locations, you must restart Visual Studio for the recorder plug-in to be registered.

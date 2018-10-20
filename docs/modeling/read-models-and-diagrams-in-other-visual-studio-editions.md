@@ -41,11 +41,11 @@ When you open a model in a version of Visual Studio that does not support model 
 ## Changes that you can Make in Read-Only Mode
  If you open a model and its diagrams in a version of Visual Studio that does not support model creation, you cannot change the model. That is, you cannot change the elements and relationships that are displayed on the diagrams or in the model explorer. However, you can make some changes to the layout of the diagrams:
 
--   Rearrange the shapes and connectors on the diagram.
+- Rearrange the shapes and connectors on the diagram.
 
--   Expand and collapse shapes.
+- Expand and collapse shapes.
 
- You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.
+  You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.
 
 ## <a name="RelatedTopics"></a> Related Topics
 

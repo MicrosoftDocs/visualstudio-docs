@@ -61,7 +61,6 @@ namespace ExampleNamespace
    }
  }
 }
-
 ```
 
 > [!NOTE]
@@ -69,13 +68,13 @@ namespace ExampleNamespace
 
 ### To define a rule
 
-1.  Define the rule as a class prefixed with the `RuleOn` attribute. The attribute associates the rule with one of your domain classes, relationships, or diagram elements. The rule will be applied to every instance of this class, which may be abstract.
+1. Define the rule as a class prefixed with the `RuleOn` attribute. The attribute associates the rule with one of your domain classes, relationships, or diagram elements. The rule will be applied to every instance of this class, which may be abstract.
 
-2.  Register the rule by adding it to the set returned by `GetCustomDomainModelTypes()` in your domain model class.
+2. Register the rule by adding it to the set returned by `GetCustomDomainModelTypes()` in your domain model class.
 
-3.  Derive the rule class from one of the abstract Rule classes, and write the code of the execution method.
+3. Derive the rule class from one of the abstract Rule classes, and write the code of the execution method.
 
- The following sections describe these steps in more detail.
+   The following sections describe these steps in more detail.
 
 ### To define a rule on a domain class
 
@@ -123,24 +122,26 @@ namespace ExampleNamespace
 
 ### To write the code of the rule
 
--   Derive the rule class from one of the following base classes:
+- Derive the rule class from one of the following base classes:
 
-    |Base class|Trigger|
-    |----------------|-------------|
-    |<xref:Microsoft.VisualStudio.Modeling.AddRule>|An element, link, or shape is added.<br /><br /> Use this to detect new relationships, in addition to new elements.|
-    |<xref:Microsoft.VisualStudio.Modeling.ChangeRule>|A domain property value is changed. The method argument provides the old and new values.<br /><br /> For shapes, this rule is triggered when the built-in `AbsoluteBounds` property changes, if the shape is moved.<br /><br /> In many cases, it is more convenient to override `OnValueChanged` or `OnValueChanging` in the property handler. These methods are called immediately before and after the change. By contrast, the rule usually runs at the end of the transaction. For more information, see [Domain Property Value Change Handlers](../modeling/domain-property-value-change-handlers.md). **Note:**  This rule is not triggered when a link is created or deleted. Instead, write an `AddRule` and a `DeleteRule` for the domain relationship.|
-    |<xref:Microsoft.VisualStudio.Modeling.DeletingRule>|Triggered when an element or link is about to be deleted. The property ModelElement.IsDeleting is true until the end of the transaction.|
-    |<xref:Microsoft.VisualStudio.Modeling.DeleteRule>|Performed when an element or link has been deleted. The rule is executed after all other rules have been executed, including DeletingRules. ModelElement.IsDeleting is false, and ModelElement.IsDeleted is true. To allow for a subsequent Undo, the element is not actually removed from the memory, but it is removed from Store.ElementDirectory.|
-    |<xref:Microsoft.VisualStudio.Modeling.MoveRule>|An element is moved from one store partition to another.<br /><br /> (Notice that this is not related to the graphical position of a shape.)|
-    |<xref:Microsoft.VisualStudio.Modeling.RolePlayerChangeRule>|This rule applies only to domain relationships. It is triggered if you explicitly assign a model element to either end of a link.|
-    |<xref:Microsoft.VisualStudio.Modeling.RolePlayerPositionChangeRule>|Triggered when the ordering of links to or from an element is changed using the MoveBefore or MoveToIndex methods on a link.|
-    |<xref:Microsoft.VisualStudio.Modeling.TransactionBeginningRule>|Executed when a transaction is created.|
-    |<xref:Microsoft.VisualStudio.Modeling.TransactionCommittingRule>|Executed when the transaction is about to be committed.|
-    |<xref:Microsoft.VisualStudio.Modeling.TransactionRollingBackRule>|Executed when the transaction is about to be rolled back.|
 
--   Each class has a method that you override. Type `override` in your class to discover it. The parameter of this method identifies the element that is being changed.
+  |                             Base class                              |                                                                                                                                                                                                                                                                                                                                                                              Trigger                                                                                                                                                                                                                                                                                                                                                                              |
+  |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  |           <xref:Microsoft.VisualStudio.Modeling.AddRule>            |                                                                                                                                                                                                                                                                                                                        An element, link, or shape is added.<br /><br /> Use this to detect new relationships, in addition to new elements.                                                                                                                                                                                                                                                                                                                        |
+  |          <xref:Microsoft.VisualStudio.Modeling.ChangeRule>          | A domain property value is changed. The method argument provides the old and new values.<br /><br /> For shapes, this rule is triggered when the built-in `AbsoluteBounds` property changes, if the shape is moved.<br /><br /> In many cases, it is more convenient to override `OnValueChanged` or `OnValueChanging` in the property handler. These methods are called immediately before and after the change. By contrast, the rule usually runs at the end of the transaction. For more information, see [Domain Property Value Change Handlers](../modeling/domain-property-value-change-handlers.md). **Note:**  This rule is not triggered when a link is created or deleted. Instead, write an `AddRule` and a `DeleteRule` for the domain relationship. |
+  |         <xref:Microsoft.VisualStudio.Modeling.DeletingRule>         |                                                                                                                                                                                                                                                                                                             Triggered when an element or link is about to be deleted. The property ModelElement.IsDeleting is true until the end of the transaction.                                                                                                                                                                                                                                                                                                              |
+  |          <xref:Microsoft.VisualStudio.Modeling.DeleteRule>          |                                                                                                                                                                                                       Performed when an element or link has been deleted. The rule is executed after all other rules have been executed, including DeletingRules. ModelElement.IsDeleting is false, and ModelElement.IsDeleted is true. To allow for a subsequent Undo, the element is not actually removed from the memory, but it is removed from Store.ElementDirectory.                                                                                                                                                                                                       |
+  |           <xref:Microsoft.VisualStudio.Modeling.MoveRule>           |                                                                                                                                                                                                                                                                                                           An element is moved from one store partition to another.<br /><br /> (Notice that this is not related to the graphical position of a shape.)                                                                                                                                                                                                                                                                                                            |
+  |     <xref:Microsoft.VisualStudio.Modeling.RolePlayerChangeRule>     |                                                                                                                                                                                                                                                                                                                 This rule applies only to domain relationships. It is triggered if you explicitly assign a model element to either end of a link.                                                                                                                                                                                                                                                                                                                 |
+  | <xref:Microsoft.VisualStudio.Modeling.RolePlayerPositionChangeRule> |                                                                                                                                                                                                                                                                                                                   Triggered when the ordering of links to or from an element is changed using the MoveBefore or MoveToIndex methods on a link.                                                                                                                                                                                                                                                                                                                    |
+  |   <xref:Microsoft.VisualStudio.Modeling.TransactionBeginningRule>   |                                                                                                                                                                                                                                                                                                                                                              Executed when a transaction is created.                                                                                                                                                                                                                                                                                                                                                              |
+  |  <xref:Microsoft.VisualStudio.Modeling.TransactionCommittingRule>   |                                                                                                                                                                                                                                                                                                                                                      Executed when the transaction is about to be committed.                                                                                                                                                                                                                                                                                                                                                      |
+  |  <xref:Microsoft.VisualStudio.Modeling.TransactionRollingBackRule>  |                                                                                                                                                                                                                                                                                                                                                     Executed when the transaction is about to be rolled back.                                                                                                                                                                                                                                                                                                                                                     |
 
- Notice the following points about rules:
+
+- Each class has a method that you override. Type `override` in your class to discover it. The parameter of this method identifies the element that is being changed.
+
+  Notice the following points about rules:
 
 1.  The set of changes in a transaction might trigger many rules. Usually, the rules are executed when the outermost transaction is committed. They are executed in an unspecified order.
 
@@ -202,7 +203,6 @@ namespace Company.TaskRuleExample
   }
 
 }
-
 ```
 
 ## See Also

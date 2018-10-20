@@ -249,7 +249,6 @@ private void WriteSquareLine(int i)
 #>
 Content of MyFile.txt is:
 <#= myFile #>
-
 ```
 
 You can also obtain other services that are provided by the host. For more information, see [Accessing Visual Studio or other Hosts from a Template](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4).

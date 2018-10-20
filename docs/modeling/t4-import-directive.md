@@ -35,15 +35,15 @@ The file contains: <#=  fileContent #>
 ## Standard Imports
  The following namespace is imported automatically, so that you do not need to write an import directive for it:
 
--   `System`
+- `System`
 
- In addition, if you use a custom directive, the directive processor might import some namespaces automatically.
+  In addition, if you use a custom directive, the directive processor might import some namespaces automatically.
 
- For example, if you write templates for a domain-specific language (DSL), you do not need to write import directives for the following namespaces:
+  For example, if you write templates for a domain-specific language (DSL), you do not need to write import directives for the following namespaces:
 
--   `Microsoft.VisualStudio.Modeling`
+- `Microsoft.VisualStudio.Modeling`
 
--   Your DSL's namespace
+- Your DSL's namespace
 
 ## See Also
 
