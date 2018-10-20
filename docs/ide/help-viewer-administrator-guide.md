@@ -45,7 +45,6 @@ Requirements:
 
 -   Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
 
-
 Caveats:
 
 -   The default source for Help will still be online.
@@ -106,7 +105,6 @@ Before you can create the base content set, you must first uninstall all local V
 2.  Under **Recommended Documentation** or **Available Documentation**, navigate to the documentation sets you want to download and then choose **Add**.
 
 3.  Choose **Update**.
-
 
 Next, you need to package the content so it can be deployed to client computers.
 

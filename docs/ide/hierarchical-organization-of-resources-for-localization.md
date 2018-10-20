@@ -33,15 +33,15 @@ In Visual Studio, localized resources (data such as strings and images appropria
 
 - Below the neutral culture resources are the resources for any specific cultures. A specific culture is associated with a language and a country/region. For example, French Canadian ("fr-CA") is a specific culture.
 
-  If an application tries to load any localized resource, such as a string, and does not find it, it will travel up the hierarchy until it finds a resource file containing the requested resource.
+If an application tries to load any localized resource, such as a string, and does not find it, it will travel up the hierarchy until it finds a resource file containing the requested resource.
 
-  The best way to store your resources is to generalize them as much as possible. That means to store localized strings, images, and so forth in resource files for neutral cultures rather than specific cultures whenever possible. For instance, if you have resources for the French Belgian ("fr-BE") culture and the resources immediately above are the fallback resources in English, a problem may result when someone uses your application on a system configured for the French Canadian culture. The system looks for a satellite assembly for "fr-CA" but doesn't find it, so loads the main assembly containing the fallback resource, English, instead of loading French resources. The following picture shows this undesirable scenario.
+The best way to store your resources is to generalize them as much as possible. That means to store localized strings, images, and so forth in resource files for neutral cultures rather than specific cultures whenever possible. For instance, if you have resources for the French Belgian ("fr-BE") culture and the resources immediately above are the fallback resources in English, a problem may result when someone uses your application on a system configured for the French Canadian culture. The system looks for a satellite assembly for "fr-CA" but doesn't find it, so loads the main assembly containing the fallback resource, English, instead of loading French resources. The following picture shows this undesirable scenario.
 
-  ![Specific Resources Only](../ide/media/vbspecificresourcesonly.gif)
+![Specific Resources Only](../ide/media/vbspecificresourcesonly.gif)
 
-  If you follow the recommended practice of placing as many resources as possible in a neutral resource file for the "fr" culture, the French Canadian user would not see resources marked for the "fr-BE" culture, but would be shown strings in French. The following situation shows this preferred scenario.
+If you follow the recommended practice of placing as many resources as possible in a neutral resource file for the "fr" culture, the French Canadian user would not see resources marked for the "fr-BE" culture, but would be shown strings in French. The following situation shows this preferred scenario.
 
-  ![NeutralSpecificResources graphic](../ide/media/vbneutralspecificresources.gif)
+![NeutralSpecificResources graphic](../ide/media/vbneutralspecificresources.gif)
 
 ## See also
 

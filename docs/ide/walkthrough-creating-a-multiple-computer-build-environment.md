@@ -49,7 +49,7 @@ By installing Visual Studio on the host computer, you create the files and setti
 
 1. On the host computer, install Visual Studio.
 
-2. On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key <strong>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version</strong> starts with "4.5".
+2. On the build computer, install the .NET Framework 4.5 or later. To verify that it's installed, check that the **Version** entry in the registry subkey **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full** has a value of **4.5** or higher.
 
 ## Copy files from the host computer to the build computer
 
@@ -230,11 +230,11 @@ You must create registry entries to configure settings for MSBuild.
 
    - <strong>%RegistryRoot%\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath11</strong>
 
-     On an x64 build computer, also create the following registry entry and refer to the host computer to determine how to set it.
+   On an x64 build computer, also create the following registry entry and refer to the host computer to determine how to set it.
 
    - <strong>%RegistryRoot%\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x64@InstallationFolder</strong>
 
-     If your build computer is x64 and you want to use the 64-bit version of MSBuild, or if you're using Team Foundation Server Build Service on an x64 computer, you must create the following registry entries in the native 64-bit registry. Refer to the host computer to determine how to set these entries.
+   If your build computer is x64 and you want to use the 64-bit version of MSBuild, or if you're using Team Foundation Server Build Service on an x64 computer, create the following registry entries in the native 64-bit registry. Refer to the host computer to determine how to set these entries.
 
    - <strong>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\11.0\Setup\VS@ProductDir</strong>
 
@@ -270,13 +270,13 @@ If *vcvarsall.bat* runs successfully—that is, no error message is displayed—
 
 2. Optionally, you can also add the following paths to the PATH variable to make it easier to use MSBuild to build your solutions.
 
-    If you want to use the native 32-bit MSBuild, add these paths to the PATH variable:
+   If you want to use the native 32-bit MSBuild, add these paths to the PATH variable:
 
    - %Program Files%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools
 
    - %windir%\Microsoft.NET\Framework\v4.0.30319
 
-     If you want to use the native 64-bit MSBuild, add these paths to the PATH variable:
+   If you want to use the native 64-bit MSBuild, add these paths to the PATH variable:
 
    - %Program Files%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\x64
 

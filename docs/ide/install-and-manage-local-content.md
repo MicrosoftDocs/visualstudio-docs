@@ -34,7 +34,7 @@ To manage content on your local computer, you must log on with an account that h
 
 ## Change the content installation source
 
-By default, the Help Viewer installs content by using a Microsoft online service as the source. You generally shouldn't change your content source unless you work in an enterprise environment for which a system administrator has already installed content in another location.
+By default, Help Viewer installs content by using a Microsoft online service as the source. You generally shouldn't change your content source unless you work in an enterprise environment for which a system administrator has already installed content in another location.
 
 ### To change the content installation source
 
@@ -106,7 +106,7 @@ The status bar indicates when updates to your installed content are available.
 
 - In the lower-right corner of the status bar, choose the **Click here to download now** link.
 
-  Update times can vary, but you can view the update progress in the status bar.
+Update times can vary, but you can view the update progress in the status bar.
 
 ## Move local content
 

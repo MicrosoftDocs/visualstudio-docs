@@ -94,7 +94,7 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
     When you create a new application, some projects target the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] by default.
 
-- You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
+You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
 
 > [!NOTE]
 > In Visual Studio 2015 or later, a file reference instead of a project reference is created if the target version of the .NET Framework of one project is version 4.5 or later, and the target version of the other project is version 2, 3, 3.5, or 4.0.
@@ -103,9 +103,9 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
 - Move or copy the assembly to one of the following locations:
 
-  - The current project directory. (You can find these assemblies by using the **Browse** tab.)
+   - The current project directory. (You can find these assemblies by using the **Browse** tab.)
 
-  - Other project directories in the same solution. (You can find these assemblies by using the **Projects** tab.)
+   - Other project directories in the same solution. (You can find these assemblies by using the **Projects** tab.)
 
     \- or -
 
@@ -113,23 +113,23 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
    For a 32-bit operating system, add one of the following registry keys.
 
-  - `[HKEY_CURRENT_USER\SOFTWARE\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
+   - `[HKEY_CURRENT_USER\SOFTWARE\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-  - `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
+   - `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-    For a 64-bit operating system, add one of the following registry keys in a 32-bit registry hive.
+   For a 64-bit operating system, add one of the following registry keys in a 32-bit registry hive.
 
-  - `[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
+   - `[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-  - `[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
+   - `[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-    *\<VersionMinimum\>* is the lowest .NET Framework version that applies. If *\<VersionMinimum\>* is v3.0, folders specified in *AssemblyFoldersEx* apply to projects that target .NET Framework 3.0 and later.
+   *\<VersionMinimum\>* is the lowest .NET Framework version that applies. If *\<VersionMinimum\>* is v3.0, folders specified in *AssemblyFoldersEx* apply to projects that target .NET Framework 3.0 and later.
 
-    *\<AssemblyLocation\>* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, *C:\MyAssemblies*.
+   *\<AssemblyLocation\>* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, *C:\MyAssemblies*.
 
-    Creating the registry key under the `HKEY_LOCAL_MACHINE` node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the `HKEY_CURRENT_USER` node affects only the setting for the current user.
+   Creating the registry key under the `HKEY_LOCAL_MACHINE` node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the `HKEY_CURRENT_USER` node affects only the setting for the current user.
 
-    Open the **Add Reference** dialog box again. The assemblies should appear on the **.NET** tab. If they do not, make sure that the assemblies are located in the specified *AssemblyLocation* directory, restart Visual Studio, and try again.
+   Open the **Add Reference** dialog box again. The assemblies should appear on the **.NET** tab. If they do not, make sure that the assemblies are located in the specified *AssemblyLocation* directory, restart Visual Studio, and try again.
 
 ## Projects tab
 

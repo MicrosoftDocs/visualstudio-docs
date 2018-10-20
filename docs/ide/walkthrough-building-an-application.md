@@ -133,7 +133,6 @@ You can change how much information about the build process appears in the **Out
 > [!IMPORTANT]
 > If you display more information, the build will take longer to complete.
 
-
 ### Change the amount of information in the Output window
 
 1. Open the **Options** dialog box.
@@ -215,7 +214,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
    The executable file is copied to the network path that you specified. Its path would be `\\myserver\builds\\FileName.exe`.
 
-Congratulations: you've successfully completed this walkthrough.
+Congratulations! You've successfully completed this walkthrough.
 
 ## See also
 

@@ -88,7 +88,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 - [Go To Definition](../ide/go-to-and-peek-definition.md)
 
-  The Go To Definition feature takes you directly to the location where a function or type is defined.
+   The Go To Definition feature takes you directly to the location where a function or type is defined.
 
    ![Go to Definition](../ide/media/go-to-definition-menu.png)
 
@@ -168,11 +168,11 @@ First, let's rename the `name` variable:
 
 1. Double-click the `name` variable to select it.
 
-1. Type in the new name for the variable, **username**.
+2. Type in the new name for the variable, **username**.
 
    Notice that a gray box appears around the variable, and a light bulb appears in the margin.
 
-1. Select the light bulb icon to show the available [Quick Actions](quick-actions.md). Select **Rename 'name' to 'username'**.
+3. Select the light bulb icon to show the available [Quick Actions](quick-actions.md). Select **Rename 'name' to 'username'**.
 
    ![Rename action in Visual Studio](media/rename-quick-action.png)
 
@@ -180,15 +180,15 @@ First, let's rename the `name` variable:
 
    ![Animated gif showing rename refactoring in Visual Studio](media/rename-refactoring.gif)
 
-1. Now let's take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **DateTime now = DateTime.**.
+4. Now let's take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **DateTime now = DateTime.**.
 
    A box displays the members of the <xref:System.DateTime> class. In addition, the description of the currently selected member displays in a separate box.
 
    ![IntelliSense list members in Visual Studio](media/intellisense-list-members.png)
 
-1. Select the member named **Now**, which is a property of the class, by double-clicking on it or pressing **Tab**. Complete the line of code by adding a semi-colon **;**.
+5. Select the member named **Now**, which is a property of the class, by double-clicking on it or pressing **Tab**. Complete the line of code by adding a semi-colon **;**.
 
-1. Below that, type in or copy the following lines of code:
+6. Below that, type in or copy the following lines of code:
 
    ```csharp
    int dayOfYear = now.DayOfYear;
@@ -200,17 +200,17 @@ First, let's rename the `name` variable:
    > [!TIP]
    > <xref:System.Console.Write%2A?displayProperty=nameWithType> is a little different to <xref:System.Console.WriteLine%2A?displayProperty=nameWithType> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see their description.
 
-1. Next, we'll use refactoring again to make the code a little more concise. Click on the variable `now` in the line `DateTime now = DateTime.Now;`.
+7. Next, we'll use refactoring again to make the code a little more concise. Click on the variable `now` in the line `DateTime now = DateTime.Now;`.
 
    Notice that a little screwdriver icon appears in the margin on that line.
 
-1. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
+8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
 
    ![Inline temporary variable refactoring in Visual Studio](media/inline-temporary-variable-refactoring.png)
 
-1. Click **Inline temporary variable** to refactor the code.
+9. Click **Inline temporary variable** to refactor the code.
 
-1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
+10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
    ![Console window with program output](../ide/media/overview-console-final.png)
 
@@ -246,7 +246,7 @@ You can personalize the Visual Studio user interface, including change the defau
 
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
    The color theme for the entire IDE changes to **Dark**.
 
