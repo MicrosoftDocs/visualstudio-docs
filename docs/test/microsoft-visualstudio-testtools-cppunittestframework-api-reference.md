@@ -23,73 +23,72 @@ Header and lib paths are automatically configured in a Native Test project.
 ##  <a name="In_this_topic"></a> In this topic
  [CppUnitTest.h](#cppUnitTest_h)
 
-- [Create test classes and methods](#create_test_classes_and_methods)
+-   [Create test classes and methods](#create_test_classes_and_methods)
 
-- [Initialize and cleanup](#Initialize_and_cleanup)
+-   [Initialize and cleanup](#Initialize_and_cleanup)
 
-  -   [Test methods](#test_methods)
+    -   [Test methods](#test_methods)
 
-  -   [Test classes](#test_classes)
+    -   [Test classes](#test_classes)
 
-  -   [Test modules](#test_modules)
+    -   [Test modules](#test_modules)
 
-- [Create test attributes](#create_test_attributes)
+-   [Create test attributes](#create_test_attributes)
 
-  - [Test method attributes](#test_method_attributes)
+    -   [Test method attributes](#test_method_attributes)
 
-  - [Test class attributes](#test_class_attributes)
+    -   [Test class attributes](#test_class_attributes)
 
-  - [Test module attributes](#test_module_attributes)
+    -   [Test module attributes](#test_module_attributes)
 
-  - [Pre-defined attributes](#pre_defined_attributes)
+    -   [Pre-defined attributes](#pre_defined_attributes)
 
-    [CppUnitTestAssert.h](#cppUnitTestAssert_h)
+     [CppUnitTestAssert.h](#cppUnitTestAssert_h)
 
-  - [General Asserts](#general_asserts)
+    -   [General Asserts](#general_asserts)
 
-    -   [Are Equal](#general_are_equal)
+        -   [Are Equal](#general_are_equal)
 
-    -   [Are Not Equal](#general_are_not_equal)
+        -   [Are Not Equal](#general_are_not_equal)
 
-    -   [Are Same](#general_are_same)
+        -   [Are Same](#general_are_same)
 
-    -   [Are Not Same](#general_are_not_same)
+        -   [Are Not Same](#general_are_not_same)
 
-    -   [Is Null](#general_is_null)
+        -   [Is Null](#general_is_null)
 
-    -   [Is Not Null](#general_is_not_null)
+        -   [Is Not Null](#general_is_not_null)
 
-    -   [Is True](#general_is_True)
+        -   [Is True](#general_is_True)
 
-    -   [Is False](#general_is_false)
+        -   [Is False](#general_is_false)
 
-    -   [Fail](#general_Fail)
+        -   [Fail](#general_Fail)
 
-  - [Windows Runtime Asserts](#winrt_asserts)
+    -   [Windows Runtime Asserts](#winrt_asserts)
 
-    -   [Are Equal](#winrt_are_equal)
+        -   [Are Equal](#winrt_are_equal)
 
-    -   [Are Same](#winrt_are_same)
+        -   [Are Same](#winrt_are_same)
 
-    -   [Are Not Equal](#winrt_are_not_equal)
+        -   [Are Not Equal](#winrt_are_not_equal)
 
-    -   [Are Not Same](#winrt_are_not_same)
+        -   [Are Not Same](#winrt_are_not_same)
 
-    -   [Is Null](#winrt_is_null)
+        -   [Is Null](#winrt_is_null)
 
-    -   [Is Not Null](#winrt_is_not_null)
+        -   [Is Not Null](#winrt_is_not_null)
 
-  - [Exception Asserts](#exception_asserts)
+    -   [Exception Asserts](#exception_asserts)
 
-    - [Expect Exception](#expect_exception)
+        -   [Expect Exception](#expect_exception)
 
-      [CppUnitTestLogger.h](#cppunittestlogger_h)
+         [CppUnitTestLogger.h](#cppunittestlogger_h)
 
-    - [Logger](#logger)
+        -   [Logger](#logger)
 
-    - [Write Message](#write_message)
-
-  - [Usage Example](#example)
+        -   [Write Message](#write_message)
+    -    [Usage Example](#example)
 
 ##  <a name="cppUnitTest_h"></a> CppUnitTest.h
 
@@ -106,6 +105,7 @@ TEST_METHOD(methodName)
 {
     // test method body
 }
+
 ```
 
  Defines *methodName* as a test method. `TEST_METHOD` must be declared in the scope of the method's class.
@@ -119,6 +119,7 @@ TEST_METHOD_INITIALIZE(methodName)
 {
     // method initialization code
 }
+
 ```
 
  Defines *methodName* as a method that runs before each test method is run. `TEST_METHOD_INITIALIZE` can only be defined once in a test class and must be defined in the test class.
@@ -128,6 +129,7 @@ TEST_METHOD_CLEANUP(methodName)
 {
     // test method cleanup  code
 }
+
 ```
 
  Defines *methodName* as a method that runs after each test method is run. `TEST_METHOD_CLEANUP` can only be defined once in a test class and must be defined in the scope of the test class.

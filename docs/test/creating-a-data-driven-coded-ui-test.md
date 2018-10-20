@@ -27,64 +27,64 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 ### Step 1 - Create a coded UI test
 
-1. Create a project.
+1.  Create a project.
 
-    ![Create a coded UI test project](../test/media/cuit_datadriven_.png)
+     ![Create a coded UI test project](../test/media/cuit_datadriven_.png)
 
    > [!NOTE]
    > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
 
-2. Choose to **record the actions**.
+2.  Choose to **record the actions**.
 
-    ![Choose to record the actions](../test/media/cuit_datadriven_generatecodedialog.png)
+     ![Choose to record the actions](../test/media/cuit_datadriven_generatecodedialog.png)
 
-3. Open the calculator app and start recording the test.
+3.  Open the calculator app and start recording the test.
 
-    ![Record actions](../test/media/cuit_datadriven_cuitbuilder.png)
+     ![Record actions](../test/media/cuit_datadriven_cuitbuilder.png)
 
-4. Add 1 plus 2, pause the recorder, and generate the test method. Later we'll replace the values of this user input with values from a data file.
+4.  Add 1 plus 2, pause the recorder, and generate the test method. Later we'll replace the values of this user input with values from a data file.
 
-    ![Genetate test method](../test/media/cuit_datadriven_cuitbuildergencode.png)
+     ![Genetate test method](../test/media/cuit_datadriven_cuitbuildergencode.png)
 
-    Close the test builder. The method is added to the test:
+     Close the test builder. The method is added to the test:
 
-   ```csharp
-   [TestMethod]
-   public void CodedUITestMethod1()
-   {
-       // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
-       this.UIMap.AddNumbers();
-   }
-   ```
+    ```csharp
+    [TestMethod]
+    public void CodedUITestMethod1()
+    {
+        // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
+        this.UIMap.AddNumbers();
+    }
+    ```
 
-5. Use the `AddNumbers()` method to verify that the test runs. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
+5.  Use the `AddNumbers()` method to verify that the test runs. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
 
-    The test result that shows if the test passed or failed is displayed in the **Test Explorer** window. To open the Test Explorer window, from the **Test** menu, choose **Windows** and then choose **Test Explorer**.
+     The test result that shows if the test passed or failed is displayed in the **Test Explorer** window. To open the Test Explorer window, from the **Test** menu, choose **Windows** and then choose **Test Explorer**.
 
-6. Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let's add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the context menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.
+6.  Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let's add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the context menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.
 
-    Map the text control in the calculator that displays the sum.
+     Map the text control in the calculator that displays the sum.
 
-    ![Map the UI text control](../test/media/cuit_datadriven_addassertion.png)
+     ![Map the UI text control](../test/media/cuit_datadriven_addassertion.png)
 
-7. Add an assertion that validates that the value of the sum is correct. Choose the **DisplayText** property that has the value of **3** and then choose **Add Assertion**. Use the **AreEqual** comparator and verify that the comparison value is **3**.
+7.  Add an assertion that validates that the value of the sum is correct. Choose the **DisplayText** property that has the value of **3** and then choose **Add Assertion**. Use the **AreEqual** comparator and verify that the comparison value is **3**.
 
-    ![Configure the assertion](../test/media/cuit_datadriven_builderaddassertion2.png)
+     ![Configure the assertion](../test/media/cuit_datadriven_builderaddassertion2.png)
 
-8. After configuring the assertion, generate code from the builder again. This creates a new method for the validation.
+8.  After configuring the assertion, generate code from the builder again. This creates a new method for the validation.
 
-    ![Generate the assertion method](../test/media/cuit_datadriven_assertiongencode.png)
+     ![Generate the assertion method](../test/media/cuit_datadriven_assertiongencode.png)
 
-    Because the `ValidateSum` method validates the results of the `AddNumbers` method, move it to the bottom of the code block.
+     Because the `ValidateSum` method validates the results of the `AddNumbers` method, move it to the bottom of the code block.
 
-   ```csharp
-   public void CodedUITestMethod1()
-   {
-       // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
-       this.UIMap.AddNumbers();
-       this.UIMap.ValidateSum();
-   }
-   ```
+    ```csharp
+    public void CodedUITestMethod1()
+    {
+        // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
+        this.UIMap.AddNumbers();
+        this.UIMap.ValidateSum();
+    }
+    ```
 
 9. Verify that the test runs by using the `ValidateSum()` method. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
 

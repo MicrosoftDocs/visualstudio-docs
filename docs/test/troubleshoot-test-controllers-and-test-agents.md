@@ -41,20 +41,20 @@ You can control the level of logging on a test controller computer. This is usef
 
     ```xml
     <system.diagnostics>
-        <trace autoflush="true" indentsize="4">
-            <listeners>
-                <add name="myListener" type="System.Diagnostics.TextWriterTraceListener" initializeData="d:\VSTestHost.log" />
-            </listeners>
-        </trace>
-        <switches>
-            <!-- You must use integral values for "value":
-                    0 = off,
-                    1 = error,
-                    2 = warn,
-                    3 = info,
-                    4 = verbose. -->
-            <add name="EqtTraceLevel" value="4" />
-        </switches>
+        <trace autoflush="true" indentsize="4">
+            <listeners>
+                <add name="myListener" type="System.Diagnostics.TextWriterTraceListener" initializeData="d:\VSTestHost.log" />
+            </listeners>
+        </trace>
+        <switches>
+            <!-- You must use integral values for "value":
+                    0 = off,
+                    1 = error,
+                    2 = warn,
+                    3 = info,
+                    4 = verbose. -->
+            <add name="EqtTraceLevel" value="4" />
+        </switches>
     </system.diagnostics>
     ```
 
@@ -113,13 +113,13 @@ To fix this error, you must bind the test controller to one of the network adapt
 
     ```xml
     <appSettings>
-        <add key="LogSizeLimitInMegs" value="20" />
-        <add key="AgentSyncTimeoutInSeconds" value="120" />
-        <add key="ControllerServicePort" value="6901" />
-        <add key="ControllerUsersGroup" value="TeamTestControllerUsers" />
-        <add key="ControllerAdminsGroup" value="TeamTestControllerAdmins" />
-        <add key="CreateTraceListener" value="no" />
-        <add key="BindTo" value="<YOUR IP ADDRESS>" />
+        <add key="LogSizeLimitInMegs" value="20" />
+        <add key="AgentSyncTimeoutInSeconds" value="120" />
+        <add key="ControllerServicePort" value="6901" />
+        <add key="ControllerUsersGroup" value="TeamTestControllerUsers" />
+        <add key="ControllerAdminsGroup" value="TeamTestControllerAdmins" />
+        <add key="CreateTraceListener" value="no" />
+        <add key="BindTo" value="<YOUR IP ADDRESS>" />
     </appSettings>
     ```
 
