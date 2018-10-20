@@ -74,13 +74,13 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
 
  The `Code` element includes three variables.
 
-- $name$ is user-defined variable. It creates a `name` element, which has an editable value that defaults to "name". User-defined variables are defined using the `Literal` element.
+-   $name$ is user-defined variable. It creates a `name` element, which has an editable value that defaults to "name". User-defined variables are defined using the `Literal` element.
 
-- $selected$ is a predefined variable. It represents the text that was selected in the XML Editor before invoking the snippet. The placement of this variable determines where the selected text appears in the code snippet that surrounds that selection.
+-   $selected$ is a predefined variable. It represents the text that was selected in the XML Editor before invoking the snippet. The placement of this variable determines where the selected text appears in the code snippet that surrounds that selection.
 
-- $end$ is a predefined variable. When the user presses **Enter** to finish editing the code snippet fields, this variable determines where the caret (^) is moved to.
+-   $end$ is a predefined variable. When the user presses **Enter** to finish editing the code snippet fields, this variable determines where the caret (^) is moved to.
 
-  The above `Code` element inserts the following XML text:
+ The above `Code` element inserts the following XML text:
 
 ```xml
 <test>
