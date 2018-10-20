@@ -19,13 +19,13 @@ The imports designer enables you to enter namespaces for the types that you will
 
 The imports designer reacts to both changes in the UI and changes made when the workflow is saved. When the workflow is saved, namespaces can be added automatically to the imports designer. These include the following:
 
-- Namespaces for any types used in variable and argument declarations.
+-   Namespaces for any types used in variable and argument declarations.
 
-- Namespaces for any types used in expressions.
+-   Namespaces for any types used in expressions.
 
-- Any other namespaces required for serializing the workflow (for example, namespaces used by custom activities dropped in the workflow).
+-   Any other namespaces required for serializing the workflow (for example, namespaces used by custom activities dropped in the workflow).
 
-  When the workflow is saved, you might notice that some namespaces you have manually deleted are automatically re-added to the imports designer because of the logic described in the preceding list.
+ When the workflow is saved, you might notice that some namespaces you have manually deleted are automatically re-added to the imports designer because of the logic described in the preceding list.
 
 ## To add a namespace to the list of imported namespaces
 
