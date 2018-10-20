@@ -15,7 +15,7 @@ sections:
 - title: Publish to Azure
   items:
   - type: paragraph
-    text: 'Deploy your app to Azure to Staging or Production with Visual Studio, or set up continuous integration and deployment (CI/CD). Learn how to debug your app in Azure, and monitor performance.'
+    text: 'Deploy your app to Azure to Staging or Production with Visual Studio, or set up continuous integration and deployment (CI/CD).'
   - type: list
     style: cards
     className: cardsM
@@ -96,6 +96,8 @@ sections:
       href: /visualstudio/deployment/tutorial-kubernetes-tools
 - title: Debug and Monitor Performance
   items:
+  - type: paragraph
+    text: ' Learn how to debug your app in Azure, and monitor performance.'
   - type: list
     style: cards
     className: cardsM
