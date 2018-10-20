@@ -21,7 +21,7 @@ sections:
     className: cardsM
     columns: 3
     items:
-    - href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1
+    - href: https://docs.microsoft.com/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_NETcore.svg
@@ -29,9 +29,9 @@ sections:
     - href: https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework
       html: <p></p>
       image:
-        src: https://docs.microsoft.com/azure/media/logos/logo_NET.svg
+        src: https://docs.microsoft.com/media/logos/logo_NET.svg
       title: Publish an ASP.NET Web App to Azure
-    - href: /azure/azure-functions/functions-develop-vs
+    - href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
       html: <p></p>
       image:
         src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
@@ -61,17 +61,17 @@ sections:
     columns: 3
     items:
     - href: https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet
-      html: <p>Build and host an ASP.NET Core web app in Azure</p>
+      html: <p>Build and host a web app in Azure</p>
       image: 
         src: https://docs.microsoft.com/azure/media/index/AppService.svg
       title: ASP.NET Core
-    - href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
+    - href: /azure/azure-functions/functions-develop-vs
       html: <p>Process events with serverless code</p>
       image: 
         src: https://docs.microsoft.com/azure/media/index/AzureFunctions.svg
       title: Azure Functions
     - href: https://docs.microsoft.com/dotnet/azure/?view=azure-dotnet
-      html: 
+      html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_NET.svg
       title: Azure SDK for .NET and .NET Core Developers
@@ -94,6 +94,33 @@ sections:
         src: https://docs.microsoft.com/media/logos/logo_kubernetes.svg
       text: Kubernetes Tools
       href: /visualstudio/deployment/tutorial-kubernetes-tools
+- title: Debug and Monitor Performance
+  items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
+    - href: /visualstudio/debugger/remote-debugging-azure
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_NETcore.svg
+      title: Debug ASP.NET Core on IIS in Azure
+    - href: vs-azure-tools-intellitrace-debug-published-cloud-services.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_debug.svg
+      title: Debug a cloud service in Azure
+    - href: vs-azure-tools-debug-cloud-services-virtual-machines.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_vmm-cloud.svg
+      title: Debug an app running on a virtual machine
+    - href: vs-azure-tools-performance-profiling-cloud-services.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_code-performance.svg
+      title: Measure performance for cloud services in Azure
 - title: Connect your apps to Azure with Visual Studio Connected Services
   items:
   - type: paragraph
