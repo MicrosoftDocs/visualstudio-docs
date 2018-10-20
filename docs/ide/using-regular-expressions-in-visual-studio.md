@@ -53,7 +53,7 @@ Here are some examples:
 |Escape the character following the backslash| \\ |`\^` matches the character ^.|
 |Specify the number of occurrences of the preceding character or group|{x}, where x is the number of occurrences|`x(ab){2}x` matches "xababx", and `x(ab){2,3}x` matches "xababx" and "xabababx" but not "xababababx".|
 |Match text in a Unicode character class, where "X" is the Unicode number. For more information about Unicode character classes, see<br /><br /> [Unicode Standard 5.2 Character Properties](http://www.unicode.org/versions/Unicode5.2.0/ch04.pdf).|\p{X}|`\p{Lu}` matches "T" and "D" in "Thomas Doe".|
-|Match a word boundary|`\b` (Outside a character class \b specifies a word boundary, and inside a character class specifies a backspace).|`\bin` matches "in" in "inside" but not "pinto".|
+|Match a word boundary (Outside a character class specifies a word boundary, and inside a character class specifies a backspace).|\b|`\bin` matches "in" in "inside" but not "pinto".|
 |Match a line break (that is, a carriage return followed by a new line).|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line.|
 |Match any alphanumeric character|\w|`a\wd` matches "add" and "a1d" but not "a d".|
 |Match any whitespace character.|(?([^\r\n])\s)|`Public\sInterface` matches the phrase "Public Interface".|
