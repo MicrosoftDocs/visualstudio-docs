@@ -33,30 +33,30 @@ This refactoring applies to:
 
    - C#:
 
-     ![Highlighted code - C#](media/synctype-highlight-cs.png)
+       ![Highlighted code - C#](media/synctype-highlight-cs.png)
 
    - Visual Basic:
 
-     ![Highlighted code - Visual Basic](media/synctype-highlight-vb.png)
+       ![Highlighted code - Visual Basic](media/synctype-highlight-vb.png)
 
 2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Rename type to _Filename_** from the Preview window popup, where *Filename* is the name of the current file.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Rename type to _Filename_** from the Preview window popup, where *Filename* is the name of the current file.
    - **Mouse**
-     - Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
-     - Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Rename type to _Filename_** from the Preview window popup, where *Filename* is the name of the current file.
+      - Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Rename file to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+      - Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Rename type to _Filename_** from the Preview window popup, where *Filename* is the name of the current file.
 
    The type or file is renamed.
 
    - C#: In the example below, the file **MyClass.cs** was renamed to **MyNewClass.cs** to match the type name.
 
-      ![Inline result C#](media/synctype-result-cs.png)
+       ![Inline result C#](media/synctype-result-cs.png)
 
    - Visual Basic: In the example below, the file **Employee.vb** was renamed to **Person.vb** to match the type name.
 
-      ![Inline result Visual Basic](media/synctype-result-vb.png)
+       ![Inline result Visual Basic](media/synctype-result-vb.png)
 
 > ![NOTE]
 > This refactoring is not yet available for .NET Standard and .NET Core projects.

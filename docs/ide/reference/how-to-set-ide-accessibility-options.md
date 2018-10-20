@@ -41,7 +41,7 @@ ms.workload:
 
  You can change the settings for text-based tool windows, such as the **Command** window, **Immediate** window, and **Output** window, in the **Fonts and Colors** pane of the **Environment** options in the **Tools** dialog box. When **[All Text Tool Windows]** is selected in the **Show settings for** drop-down list, the default setting is listed as **Default** in the **Item foreground** and **Item background** drop-down lists. You can also change the settings for how text is displayed in the editor.
 
-##### To change the size of text in text-based tool windows and editors
+#### To change the size of text in text-based tool windows and editors
 
 1.  From the **Tools** menu, choose **Options**.
 
@@ -64,7 +64,7 @@ ms.workload:
 6.  In **Size**, select a new font size.
 
     > [!NOTE]
-    >  To reset the text size for text-based tool windows and editors, choose **Use Defaults**.
+    > To reset the text size for text-based tool windows and editors, choose **Use Defaults**.
 
 7.  Choose **OK**.
 
@@ -75,8 +75,7 @@ ms.workload:
 > [!NOTE]
 > To use high contrast colors for all application windows on your operating system, press Left <strong>ALT+</strong>Left **SHIFT+PRINT SCREEN**. If [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is open, close and reopen [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to fully implement high contrast colors.
 
-
-##### To change the color of items in the editor
+#### To change the color of items in the editor
 
 1.  From the **Tools** menu, choose **Options**.
 
@@ -94,7 +93,7 @@ ms.workload:
 
  To improve toolbar usability and accessibility, you can add text to toolbar buttons.
 
-#### To assign text to toolbar buttons
+### To assign text to toolbar buttons
 
 1.  From the **Tools** menu, choose **Customize**.
 
@@ -108,7 +107,7 @@ ms.workload:
 
 6.  Choose **Image and Text**.
 
-#### To modify the displayed text in a button
+### To modify the displayed text in a button
 
 1.  Re-select **Modify Selection**.
 

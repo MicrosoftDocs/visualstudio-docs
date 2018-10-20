@@ -50,11 +50,11 @@ This refactoring applies to:
 
    - C#:
 
-     ![Inline result - C#](media/movetype-result-cs.png)
+      ![Inline result - C#](media/movetype-result-cs.png)
 
    - Visual Basic:
 
-     ![Inline result - Visual Basic](media/movetype-result-vb.png)
+      ![Inline result - Visual Basic](media/movetype-result-vb.png)
 
 ## See also
 

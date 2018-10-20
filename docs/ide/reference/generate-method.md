@@ -30,22 +30,22 @@ This code generation applies to:
 
    - C#:
 
-     ![Highlighted code C#](media/method-highlight-cs.png)
+       ![Highlighted code C#](media/method-highlight-cs.png)
 
    - Visual Basic:
 
-     ![Highlighted code VB](media/method-highlight-vb.png)
+       ![Highlighted code VB](media/method-highlight-vb.png)
 
 2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-     ![Generate method preview](media/method-preview-cs.png)
+      ![Generate method preview](media/method-preview-cs.png)
 
 3. Select **Generate method** from the drop-down menu.
 
@@ -56,11 +56,11 @@ This code generation applies to:
 
    - C#:
 
-      ![Generate method result C#](media/method-result-cs.png)
+       ![Generate method result C#](media/method-result-cs.png)
 
    - Visual Basic:
 
-      ![Generate method result VB](media/method-result-vb.png)
+       ![Generate method result VB](media/method-result-vb.png)
 
 ## See also
 

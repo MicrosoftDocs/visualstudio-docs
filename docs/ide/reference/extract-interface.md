@@ -35,20 +35,20 @@ This refactoring applies to:
 
    - C#:
 
-     ![Highlighted code - C#](media/extractinterface-highlight-cs.png)
+       ![Highlighted code - C#](media/extractinterface-highlight-cs.png)
 
    - Visual Basic:
 
-     ![Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
+       ![Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
 
 2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+R**, then **Ctrl+I**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
+      - Press **Ctrl+R**, then **Ctrl+I**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
    - **Mouse**
-     - Select **Edit > Refactor > Extract Interface**.
-     - Right-click the name of the class, select the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
+      - Select **Edit > Refactor > Extract Interface**.
+      - Right-click the name of the class, select the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
 
 3. In the **Extract Interface** dialog box that pops up, enter the information asked:
 
@@ -68,13 +68,13 @@ This refactoring applies to:
 
    - C#:
 
-     ![Resulting Class - C#](media/extractinterface-class-cs.png)
-     ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
+      ![Resulting Class - C#](media/extractinterface-class-cs.png)
+      ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
 
    - Visual Basic:
 
-     ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
-     ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
+      ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
+      ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
 
 ## See also
 

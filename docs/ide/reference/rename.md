@@ -35,29 +35,29 @@ This refactoring applies to:
 
    - C#:
 
-     ![Highlighted code - C#](media/rename-highlight-cs.png)
+       ![Highlighted code - C#](media/rename-highlight-cs.png)
 
    - Visual Basic:
 
-     ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
+       ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
 
 2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+R**, then **Ctrl+R**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
+      - Press **Ctrl+R**, then **Ctrl+R**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
    - **Mouse**
-     - Select **Edit > Refactor > Rename**.
-     - Right-click the code and select **Rename**.
+      - Select **Edit > Refactor > Rename**.
+      - Right-click the code and select **Rename**.
 
 3. Rename the item simply by typing the new name.
 
    - C#:
 
-     ![Rename animation - C#](media/rename-animated-cs.gif)
+      ![Rename animation - C#](media/rename-animated-cs.gif)
 
    - Visual Basic:
 
-     ![Rename - VB](media/rename-rename-vb.png)
+      ![Rename - VB](media/rename-rename-vb.png)
 
    > [!TIP]
    > You can also update comments and other strings to use this new name, as well as [preview the changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your editor.

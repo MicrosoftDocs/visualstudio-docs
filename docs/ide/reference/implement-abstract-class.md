@@ -30,20 +30,20 @@ This code generation applies to:
 
    - C#:
 
-     ![Highlighted code C#](media/abstract-highlight-cs.png)
+       ![Highlighted code C#](media/abstract-highlight-cs.png)
 
    - Visual Basic:
 
-     ![Highlighted code VB](media/abstract-highlight-vb.png)
+       ![Highlighted code VB](media/abstract-highlight-vb.png)
 
 2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
    ![Implement class preview](media/abstract-preview-cs.png)
 
@@ -57,11 +57,11 @@ This code generation applies to:
 
    - C#:
 
-      ![Implement class result C#](media/abstract-result-cs.png)
+       ![Implement class result C#](media/abstract-result-cs.png)
 
    - Visual Basic:
 
-      ![Implement class result VB](media/abstract-result-vb.png)
+       ![Implement class result VB](media/abstract-result-vb.png)
 
 ## See also
 

@@ -30,11 +30,11 @@ This code generation applies to:
 
    - C#:
 
-     ![Override IntelliSense C#](media/override-intellisense-cs.png)
+      ![Override IntelliSense C#](media/override-intellisense-cs.png)
 
    - Visual Basic:
 
-     ![Override IntelliSense VB](media/override-intellisense-vb.png)
+      ![Override IntelliSense VB](media/override-intellisense-vb.png)
 
 2. Select the method you want to override from the base class.
 
@@ -46,11 +46,11 @@ This code generation applies to:
 
    - C#:
 
-      ![Override result C#](media/override-result-cs.png)
+       ![Override result C#](media/override-result-cs.png)
 
    - Visual Basic:
 
-      ![Override result VB](media/override-result-vb.png)
+       ![Override result VB](media/override-result-vb.png)
 
 ## See also
 
