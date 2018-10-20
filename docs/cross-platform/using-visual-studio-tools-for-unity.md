@@ -149,7 +149,7 @@ You can debug development builds of various Unity players with Visual Studio.
 
    The **Select Unity Instance** dialog displays some information about each Unity instance that you can connect to.
 
-   [Choose an instance of Unity to connect to.](../cross-platform/media/vstu_attach-debugger.png "vstu_connection_to_unity")
+   ![Choose an instance of Unity to connect to.](../cross-platform/media/vstu_attach-debugger.png "vstu_connection_to_unity")
 
    **Project**
 

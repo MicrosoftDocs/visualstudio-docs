@@ -65,7 +65,7 @@ The following procedure demonstrates using the `TableAdapter.Insert` method to i
 
 ## Insert new records by using command objects
 
-ou can insert new records directly into a database using command objects.
+You can insert new records directly into a database using command objects.
 
 ### To insert new records into a database by using command objects
 
