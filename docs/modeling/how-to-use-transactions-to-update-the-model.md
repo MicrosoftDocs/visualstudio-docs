@@ -95,4 +95,5 @@ if (!this.Store.InUndoRedoOrRollback) {...}
 
 ```csharp
 if (!this.Store.InSerializationTransaction) {...}
+
 ```

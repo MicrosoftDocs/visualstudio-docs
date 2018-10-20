@@ -109,41 +109,41 @@ If you have an open dependency diagram  that is linked to solution items, you ca
 
 ### Validate code at the command prompt
 
-1. Open the Visual Studio command prompt.
+1.  Open the Visual Studio command prompt.
 
-2. Choose one of the following:
+2.  Choose one of the following:
 
-   - To validate code against a specific modeling project in the solution, run MSBuild with the following custom property.
+    - To validate code against a specific modeling project in the solution, run MSBuild with the following custom property.
 
-       ```
-       msbuild <FilePath+ModelProjectFileName>.modelproj /p:ValidateArchitecture=true
-       ```
+        ```
+        msbuild <FilePath+ModelProjectFileName>.modelproj /p:ValidateArchitecture=true
+        ```
 
-     - or -
+         - or -
 
-       Browse to the folder that contains the modeling project (.modelproj) file and the dependency diagram and then run MSBuild with the following custom property:
+         Browse to the folder that contains the modeling project (.modelproj) file and the dependency diagram and then run MSBuild with the following custom property:
 
-       ```
-       msbuild /p:ValidateArchitecture=true
-       ```
+        ```
+        msbuild /p:ValidateArchitecture=true
+        ```
 
-   - To validate code against all modeling projects in the solution, run MSBuild with the following custom property:
+    - To validate code against all modeling projects in the solution, run MSBuild with the following custom property:
 
-       ```
-       msbuild <FilePath+SolutionName>.sln /p:ValidateArchitecture=true
-       ```
+        ```
+        msbuild <FilePath+SolutionName>.sln /p:ValidateArchitecture=true
+        ```
 
-     - or -
+         - or -
 
-       Browse to the solution folder, which must contain a modeling project that contains a dependency diagram, and then run MSBuild with the following custom property:
+         Browse to the solution folder, which must contain a modeling project that contains a dependency diagram, and then run MSBuild with the following custom property:
 
-       ```
-       msbuild /p:ValidateArchitecture=true
-       ```
+        ```
+        msbuild /p:ValidateArchitecture=true
+        ```
 
      Any errors that occur will be listed. For more information about MSBuild, see [MSBuild](../msbuild/msbuild.md) and [MSBuild Task](../msbuild/msbuild-task.md).
 
-   For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
+ For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
 
 ### Manage validation errors
 
@@ -220,14 +220,14 @@ The following section describes the syntax that is used in these errors, explain
 |*LayerNameN*|The name of a layer on the dependency diagram.|
 |*DependencyType*|The type of dependency relationship between *Artifact1* and *Artifact2*. For example, *Artifact1* has a **Calls** relationship with *Artifact2*.|
 
-|                     **Error Syntax**                     |                                                                                                                                                                                                         **Error Description**                                                                                                                                                                                                         |
-|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|              DV0001: **Invalid Dependency**              |                                                                This issue is reported when a code element (namespace, type, member) mapped to a Layer references a code element mapped to another layer, but there is no dependency arrow between these layers in the dependency validation diagram containing this layers. This is a dependency constraint violation.                                                                |
-|            DV1001: **Invalid namespace name**            |                    This issue is reported on a code element associated with a layer which "Allowed Namespace Names" property does not contain the namespace in which this code element is defined. This is a naming constraint violation. Note that the syntax of "Allowed Namespace Names" is to be a semi-colon list of namespaces in which code elements associated with are layer are permitted to be defined.                    |
-|   DV1002: **Dependency on unreferenceable namespace**    | This issue is reported on a code element associated with a layer and referencing another code element defined in a namespace which is defined in the "Unreferenceable Namespace" property of the layer. This is a naming constraint violation. Note that the "Unreferenceable Namespaces" property is defined as a Semi-colon separated list of namespaces that should not be referenced in code elements associated with this layer. |
-|          DV1003: **Disallowed namespace name**           |                 This issue is reported on a code element associated with a layer which "Disallowed Namespace Names" property contains the namespace in which this code element is defined. This is a naming constraint violation. Note that the "Disallowed namespace name" property is defined as a Semi-colon separated list of namespaces in which code elements associated with this Layer should not be defined.                 |
-|                 DV3001: **Missing Link**                 |                                                                                                                                                                Layer '*LayerName*' links to '*Artifact*' which cannot be found. Are you missing an assembly reference?                                                                                                                                                                |
-| DV9001: **Architectural analysis found internal errors** |                                                                                                                                                                Results might not be complete. For more information, see the detailed build event log or output window.                                                                                                                                                                |
+|**Error Syntax**|**Error Description**|
+|----------------------|---------------------------|
+|DV0001: **Invalid Dependency**|This issue is reported when a code element (namespace, type, member) mapped to a Layer references a code element mapped to another layer, but there is no dependency arrow between these layers in the dependency validation diagram containing this layers. This is a dependency constraint violation.|
+|DV1001: **Invalid namespace name**|This issue is reported on a code element associated with a layer which "Allowed Namespace Names" property does not contain the namespace in which this code element is defined. This is a naming constraint violation. Note that the syntax of "Allowed Namespace Names" is to be a semi-colon list of namespaces in which code elements associated with are layer are permitted to be defined.|
+|DV1002: **Dependency on unreferenceable namespace**|This issue is reported on a code element associated with a layer and referencing another code element defined in a namespace which is defined in the "Unreferenceable Namespace" property of the layer. This is a naming constraint violation. Note that the "Unreferenceable Namespaces" property is defined as a Semi-colon separated list of namespaces that should not be referenced in code elements associated with this layer.|
+|DV1003: **Disallowed namespace name**|This issue is reported on a code element associated with a layer which "Disallowed Namespace Names" property contains the namespace in which this code element is defined. This is a naming constraint violation. Note that the "Disallowed namespace name" property is defined as a Semi-colon separated list of namespaces in which code elements associated with this Layer should not be defined.|
+|DV3001: **Missing Link**|Layer '*LayerName*' links to '*Artifact*' which cannot be found. Are you missing an assembly reference?|*LayerName* links to an artifact that cannot be found. For example, a link to a class might be missing because the modeling project is missing a reference to the assembly that contains the class.|
+|DV9001: **Architectural analysis found internal errors**|Results might not be complete. For more information, see the detailed build event log or output window.|See the build event log or output window for more details.|
 
 ## See also
 

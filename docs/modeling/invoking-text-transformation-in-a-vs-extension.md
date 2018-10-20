@@ -27,6 +27,7 @@ ITextTemplating t4 = serviceProvider.GetService(typeof(STextTemplating)) as ITex
 
 // Process a text template:
 string result = t4.ProcessTemplate(filePath, System.IO.File.ReadAllText(filePath));
+
 ```
 
 ## Passing parameters to the template
@@ -67,6 +68,7 @@ string result = t4.ProcessTemplate("",
 
 // This test code yields a result similar to the following line:
 //     Test: Hello    07/06/2010 12:37:45    42
+
 ```
 
 ## Error Reporting and the Output Directive
@@ -112,6 +114,7 @@ class T4Callback : ITextTemplatingCallback
   public void SetOutputEncoding(Encoding encoding, bool fromOutputDirective)
   { outputEncoding = encoding; }
 }
+
 ```
 
  The code can be tested with a template file similar to the following:

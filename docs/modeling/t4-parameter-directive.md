@@ -34,6 +34,7 @@ In a Visual Studio text template, the `parameter` directive declares properties 
 <# for (int i = 0; i < TimesToRepeat; i++) { #>
 Line <#= i #>
 <# } #>
+
 ```
 
 ## Passing parameter values to a template
@@ -52,6 +53,7 @@ session["TimesToRepeat"] = 5;
 // Process a text template:
 string result = t4.ProcessTemplate("MyTemplateFile.t4",
   System.IO.File.ReadAllText("MyTemplateFile.t4"));
+
 ```
 
 ## Passing values in the Call Context
@@ -76,6 +78,7 @@ string result = t4.ProcessTemplate("",
 
 // Result value is:
 //     Test 32 test
+
 ```
 
 ## Passing values to a Run-Time (Preprocessed) Text Template
@@ -90,6 +93,7 @@ t.Session["TimesToRepeat"] = 5;
 // Add other parameter values to t.Session here.
 t.Initialize(); // Must call this to transfer values.
 string resultText = t.TransformText();
+
 ```
 
 ## Obtaining arguments from TextTemplate.exe

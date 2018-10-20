@@ -125,9 +125,9 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 > [!NOTE]
 > Dependencies cannot be reverse-engineered for certain kinds of artifacts. For example, no dependencies will be reverse-engineered from or to a layer that is linked to a text file. To see which artifacts have dependencies that you can reverse-engineer, open the shortcut menu for one or multiple layers, and then choose **View Links**. In **Layer Explorer**, examine the **Supports Validation** column. Dependencies will not be reverse-engineered for artifacts for which this column shows **False**.
 
-- Select one or multiple layers, open the shortcut menu for a selected layer, and then choose **Generate Dependencies**.
+-   Select one or multiple layers, open the shortcut menu for a selected layer, and then choose **Generate Dependencies**.
 
-  Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.
+ Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.
 
 ## <a name="EditDependencies"></a> Edit layers and dependencies to show the intended design
  To describe the changes that you plan to make to your system or the intended architecture, edit the dependency diagram:

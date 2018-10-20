@@ -18,13 +18,13 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
  In summary, the steps are performed in the DslPackage project, as follows:
 
-1. [Declare the command in Commands.vsct](#VSCT)
+1.  [Declare the command in Commands.vsct](#VSCT)
 
-2. [Update the package version number in Package.tt](#version). You have to do this whenever you change Commands.vsct
+2.  [Update the package version number in Package.tt](#version). You have to do this whenever you change Commands.vsct
 
-3. [Write methods in the CommandSet class](#CommandSet) to make the command visible and to define what you want the command to do.
+3.  [Write methods in the CommandSet class](#CommandSet) to make the command visible and to define what you want the command to do.
 
-   For samples, see the [Visualization and Modeling SDK website](http://go.microsoft.com/fwlink/?LinkID=185579).
+ For samples, see the [Visualization and Modeling SDK website](http://go.microsoft.com/fwlink/?LinkID=185579).
 
 > [!NOTE]
 >  You can also modify the behavior of some existing commands such as Cut, Paste, Select All, and Print by overriding methods in CommandSet.cs. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).
@@ -34,15 +34,15 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
  Use the method in this topic if:
 
-1. You want to define menu commands on menus other than the right-click shortcut menu.
+1.  You want to define menu commands on menus other than the right-click shortcut menu.
 
-2. You want to define specific groupings of commands in the menu.
+2.  You want to define specific groupings of commands in the menu.
 
-3. You do not want to enable others to extend the DSL with their own commands.
+3.  You do not want to enable others to extend the DSL with their own commands.
 
-4. You only want to define one command.
+4.  You only want to define one command.
 
-   Otherwise, consider using the MEF method to define commands. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
+ Otherwise, consider using the MEF method to define commands. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
 
 ##  <a name="VSCT"></a> Declare the Command in Commands.Vsct
  Menu commands are declared in DslPackage\Commands.vsct. These definitions specify the labels of the menu items and where they appear on the menus.
@@ -215,21 +215,21 @@ private void OnStatusMyContextMenuCommand(object sender, EventArgs e)
 
  The following fragments are frequently useful in OnStatus methods:
 
-- `this.CurrentSelection`. The shape that the user right-clicked is always included in this list. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.
+-   `this.CurrentSelection`. The shape that the user right-clicked is always included in this list. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.
 
-- `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.
+-   `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.
 
-- `this.IsCurrentDiagramEmpty()`
+-   `this.IsCurrentDiagramEmpty()`
 
-- `this.IsSingleSelection()` - the user did not select multiple objects
+-   `this.IsSingleSelection()` - the user did not select multiple objects
 
-- `this.SingleSelection` - the shape or diagram that the user right-clicked
+-   `this.SingleSelection` - the shape or diagram that the user right-clicked
 
-- `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.
+-   `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.
 
-  As a general guideline, make the `Visible` property depend on what is selected, and make the `Enabled` property depend on the state of the selected elements.
+ As a general guideline, make the `Visible` property depend on what is selected, and make the `Enabled` property depend on the state of the selected elements.
 
-  An OnStatus method should not change the state of the Store.
+ An OnStatus method should not change the state of the Store.
 
 ### Define what the command does
  For each command, define an `OnMenu...` method that performs the required action when the user clicks the menu command.
@@ -327,29 +327,29 @@ protected override IList<MenuCommand> GetMenuCommands()
 ## Troubleshooting
  **Command does not appear in menu:**
 
-- The command will appear only in debugging instances of Visual Studio, until you install the DSL package. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+-   The command will appear only in debugging instances of Visual Studio, until you install the DSL package. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
 
-- Make sure that your experimental sample has the correct file name extension for this DSL. To check the file name extension, open DslDefinition.dsl in the main instance of Visual Studio. Then in DSL Explorer, right-click the Editor node, and then click Properties. In the Properties window, examine the FileExtension property.
+-   Make sure that your experimental sample has the correct file name extension for this DSL. To check the file name extension, open DslDefinition.dsl in the main instance of Visual Studio. Then in DSL Explorer, right-click the Editor node, and then click Properties. In the Properties window, examine the FileExtension property.
 
-- Did you [increment the package version number](#version)?
+-   Did you [increment the package version number](#version)?
 
-- Set a breakpoint at the beginning of your OnStatus method. It should break when you right-click over any part of the diagram.
+-   Set a breakpoint at the beginning of your OnStatus method. It should break when you right-click over any part of the diagram.
 
-   **OnStatus method is not called**:
+     **OnStatus method is not called**:
 
-  -   Make sure that the GUIDs and IDs in your CommandSet code match those in the Symbols section of Commands.vsct.
+    -   Make sure that the GUIDs and IDs in your CommandSet code match those in the Symbols section of Commands.vsct.
 
-  -   In Commands.vsct, make sure that the GUID and ID in every Parent node identify the correct parent Group.
+    -   In Commands.vsct, make sure that the GUID and ID in every Parent node identify the correct parent Group.
 
-  -   In a Visual Studio command prompt, type devenv /rootsuffix exp /setup. Then restart the debugging instance of Visual Studio.
+    -   In a Visual Studio command prompt, type devenv /rootsuffix exp /setup. Then restart the debugging instance of Visual Studio.
 
-- Step through the OnStatus method to verify that command.Visible and command.Enabled are set to true.
+-   Step through the OnStatus method to verify that command.Visible and command.Enabled are set to true.
 
-  **Wrong menu text appears, or command appears in the wrong place**:
+ **Wrong menu text appears, or command appears in the wrong place**:
 
-- Make sure that the combination of GUID and ID is unique to this command.
+-   Make sure that the combination of GUID and ID is unique to this command.
 
-- Make sure that you have uninstalled earlier versions of the package.
+-   Make sure that you have uninstalled earlier versions of the package.
 
 ## See Also
 

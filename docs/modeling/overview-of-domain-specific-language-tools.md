@@ -28,31 +28,31 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in Visual Studio, l
 ## The DSL Tools Solution
  The Domain-Specific Designer Wizard provides the following solution templates:
 
-- Task Flow
+-   Task Flow
 
-- Class Diagrams
+-   Class Diagrams
 
-- Minimal Language
+-   Minimal Language
 
-- Component Models
+-   Component Models
 
-- Minimal WPF
+-   Minimal WPF
 
-- Minimal Windows.Forms
+-   Minimal Windows.Forms
 
-- DSL Library
+-   DSL Library
 
-  For more information, see [Choosing a Domain-Specific Language Solution Template](../modeling/choosing-a-domain-specific-language-solution-template.md).
+ For more information, see [Choosing a Domain-Specific Language Solution Template](../modeling/choosing-a-domain-specific-language-solution-template.md).
 
-  The wizard creates a Visual Studio solution that has the following projects:
+ The wizard creates a Visual Studio solution that has the following projects:
 
-- Dsl
+-   Dsl
 
-   The Dsl project defines the domain-specific language and its editing and processing tools.
+     The Dsl project defines the domain-specific language and its editing and processing tools.
 
-- **DslPackage**
+-   **DslPackage**
 
-   The DslPackage project determines how the language tools integrate with Visual Studio.
+     The DslPackage project determines how the language tools integrate with Visual Studio.
 
 ## The DSL Tools Graphical Interface
  You can use the DSL Tools graphical interface to add elements and relationships to your domain-specific language. After you have added the elements, you can define their appearance by mapping them to shapes, customizing colors, and adding decorators. You can also add the elements to the toolbox.

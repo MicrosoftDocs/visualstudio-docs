@@ -133,6 +133,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
         {
             return base.CreateElementToolPrototype(store, domainClassId);
 }  }    }
+
 ```
 
 ## <a name="connections"></a> Customizing Connection Tools
@@ -160,15 +161,15 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ### Custom Code for Connection Builders
  There are four checkboxes in the user interface that define different types of customization of connection builders:
 
-- the **Custom accept** check box on a source or target role directive
+-   the **Custom accept** check box on a source or target role directive
 
-- the **Custom connect** check box on a source or target role directive
+-   the **Custom connect** check box on a source or target role directive
 
-- the **Uses custom connect** check box on a connect directive
+-   the **Uses custom connect** check box on a connect directive
 
-- the **Is Custom** property of the connection builder
+-   the **Is Custom** property of the connection builder
 
-  You have to provide some program code to make these customizations. To discover what code you must supply, check one of these boxes, click Transform All Templates, and then build your solution. An error report will result. Double-click the error report to see a comment that explains what code you should add.
+ You have to provide some program code to make these customizations. To discover what code you must supply, check one of these boxes, click Transform All Templates, and then build your solution. An error report will result. Double-click the error report to see a comment that explains what code you should add.
 
 > [!NOTE]
 >  To add custom code, create a partial class definition in a code file separate from the code files in the GeneratedCode folders. To avoid losing your work, you should not edit the generated code files. For more information, see [Overriding and Extending the Generated Classes](../modeling/overriding-and-extending-the-generated-classes.md).
@@ -197,23 +198,23 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
  You must then provide methods in the ConnectionBuilder class:
 
 ```
-  public partial class ConnectionBuilder
-  {
-    /// <summary>
-    /// OK if this component has children
-    /// </summary>
-    private static bool CanAcceptInPortAsSource(InPort candidate)
-    {
-       return candidate.Component.Children.Count > 0;
-    }
+  public partial class ConnectionBuilder
+  {
+    /// <summary>
+    /// OK if this component has children
+    /// </summary>
+    private static bool CanAcceptInPortAsSource(InPort candidate)
+    {
+       return candidate.Component.Children.Count > 0;
+    }
 
-    /// <summary>
-    /// Only if source is on parent of target.
-    /// </summary>
-    private static bool CanAcceptInPortAndInPortAsSourceAndTarget                (InPort sourceInPort, InPort targetInPort)
-    {
-      return sourceInPort.Component == targetInPort.Component.Parent;
-    }
+    /// <summary>
+    /// Only if source is on parent of target.
+    /// </summary>
+    private static bool CanAcceptInPortAndInPortAsSourceAndTarget                (InPort sourceInPort, InPort targetInPort)
+    {
+      return sourceInPort.Component == targetInPort.Component.Parent;
+    }
 // And similar for OutPorts...
 ```
 

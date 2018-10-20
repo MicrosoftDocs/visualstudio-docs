@@ -93,6 +93,7 @@ Number of projects in this solution: <#=  dte.Solution.Projects.Count #>
 #>
 Content of myFile is:
 <#= myFile #>
+
 ```
 
  If you use the `inherits` and `hostspecific` attributes together, specify host="trueFromBase" in the derived class and host="true" in the base class. This avoids a double definition of the `Host` property in the generated code.
@@ -122,6 +123,7 @@ Squares of numbers:
 <#
   Next number
 #>
+
 ```
 
 ## inherits attribute
@@ -150,6 +152,7 @@ This is the common footer.
   protected virtual void SpecificFragment1() { }
   protected virtual void SpecificFragment2() { }
 #>
+
 ```
 
  Run-time (preprocessed) text template DerivedTemplate1.tt:
@@ -174,6 +177,7 @@ protected override void SpecificFragment2()
 <#+
 }
 #>
+
 ```
 
  Application code to invoke DerivedTemplate1:

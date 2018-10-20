@@ -158,27 +158,27 @@ There are several ways of creating a .vsix file. The following procedure describ
 
 #### To register a directive processor by setting a registry key
 
-1. Run `regedit`.
+1.  Run `regedit`.
 
-2. In regedit, navigate to
+2.  In regedit, navigate to
 
-    **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\*.0\TextTemplating\DirectiveProcessors**
+     **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\*.0\TextTemplating\DirectiveProcessors**
 
-    If you want to install the directive processor in the experimental version of Visual Studio, insert "Exp" after "11.0".
+     If you want to install the directive processor in the experimental version of Visual Studio, insert "Exp" after "11.0".
 
-3. Add a registry key that has the same name as the directive processor class.
+3.  Add a registry key that has the same name as the directive processor class.
 
-   -   In the registry tree, right-click the **DirectiveProcessors** node, point to **New**, and then click **Key**.
+    -   In the registry tree, right-click the **DirectiveProcessors** node, point to **New**, and then click **Key**.
 
-4. In the new node, add string values for Class and CodeBase or Assembly, according to the following tables.
+4.  In the new node, add string values for Class and CodeBase or Assembly, according to the following tables.
 
-   1.  Right-click the node that you created, point to **New**, and then click **String Value**.
+    1.  Right-click the node that you created, point to **New**, and then click **String Value**.
 
-   2.  Edit the name of the value.
+    2.  Edit the name of the value.
 
-   3.  Double-click the name and edit the data.
+    3.  Double-click the name and edit the data.
 
-   If the custom directive processor is not in the GAC, the registry subkeys should look like the following table:
+ If the custom directive processor is not in the GAC, the registry subkeys should look like the following table:
 
 |Name|Type|Data|
 |----------|----------|----------|

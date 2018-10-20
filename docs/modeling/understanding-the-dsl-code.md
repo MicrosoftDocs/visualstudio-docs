@@ -104,25 +104,25 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
  Each domain class contains:
 
-- A property definition and a nested handler class for each domain property. You can override OnValueChanging() and OnValueChanged(). For more information, see [Domain Property Value Change Handlers](../modeling/domain-property-value-change-handlers.md).
+-   A property definition and a nested handler class for each domain property. You can override OnValueChanging() and OnValueChanged(). For more information, see [Domain Property Value Change Handlers](../modeling/domain-property-value-change-handlers.md).
 
-   In the example DSL, the `Comment` class contains a property `Text` and a handler class `TextPropertyHandler`.
+     In the example DSL, the `Comment` class contains a property `Text` and a handler class `TextPropertyHandler`.
 
-- Accessor properties for the relationships in which this domain class participates. (There is no nested class for role properties.)
+-   Accessor properties for the relationships in which this domain class participates. (There is no nested class for role properties.)
 
-   In the example DSL, the `Comment` class has accessors that access its parent model through the embedding relationship `ComponentModelHasComments`.
+     In the example DSL, the `Comment` class has accessors that access its parent model through the embedding relationship `ComponentModelHasComments`.
 
-- Constructors. If you want to override these, set **Has Custom Constructor** on the domain class.
+-   Constructors. If you want to override these, set **Has Custom Constructor** on the domain class.
 
-- Element Group Prototype (EGP) handler methods. These are necessary if the user can *merge* (add) another element onto instances of this class. Typically the user does this by dragging from an element tool or another shape, or by pasting.
+-   Element Group Prototype (EGP) handler methods. These are necessary if the user can *merge* (add) another element onto instances of this class. Typically the user does this by dragging from an element tool or another shape, or by pasting.
 
-   In the example DSL, an Input Port or Output Port can be merged onto a Component. Also, Components and Comments can be merged onto the model. The
+     In the example DSL, an Input Port or Output Port can be merged onto a Component. Also, Components and Comments can be merged onto the model. The
 
-   The EGP handler methods in the Component class allow a Component to accept Ports, but not Comments. The EGP handler in the root model class accepts Comments and Components, but not Ports.
+     The EGP handler methods in the Component class allow a Component to accept Ports, but not Comments. The EGP handler in the root model class accepts Comments and Components, but not Ports.
 
-  `DomainModel.cs`
+ `DomainModel.cs`
 
-  The class that represents the domain model. It is derived from <xref:Microsoft.VisualStudio.Modeling.DomainModel>.
+ The class that represents the domain model. It is derived from <xref:Microsoft.VisualStudio.Modeling.DomainModel>.
 
 > [!NOTE]
 >  This is not the same as the root class of the model.
@@ -155,31 +155,31 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
  `SerializationHelper.cs`
 
-- A validation method to ensure that no two elements are referenced by the same moniker. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
+-   A validation method to ensure that no two elements are referenced by the same moniker. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
-- SerializationHelper class, which provides functions that are used in common by the serialization classes.
+-   SerializationHelper class, which provides functions that are used in common by the serialization classes.
 
-  `Serializer.cs`
+ `Serializer.cs`
 
-  A serializer class for each domain class, relationship, shape, connector, diagram, and model.
+ A serializer class for each domain class, relationship, shape, connector, diagram, and model.
 
-  Many of the features of these classes can be controlled by the settings in DSL Explorer under **Xml Serialization Behavior**.
+ Many of the features of these classes can be controlled by the settings in DSL Explorer under **Xml Serialization Behavior**.
 
-  `Shapes.cs`
+ `Shapes.cs`
 
-  A class for every shape class in the DSL Definition. Shapes are derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
+ A class for every shape class in the DSL Definition. Shapes are derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).
 
-  To override the generated methods with your own methods in a partial class, set **Generates Double Derived** for the connector in the DSL Definition. To replace a constructor with your own code, set **Has Custom Constructor**.
+ To override the generated methods with your own methods in a partial class, set **Generates Double Derived** for the connector in the DSL Definition. To replace a constructor with your own code, set **Has Custom Constructor**.
 
-  To make the color and some other style features variable at run time, right-click the class on the DSL Definition diagram and point to **Add Exposed**.
+ To make the color and some other style features variable at run time, right-click the class on the DSL Definition diagram and point to **Add Exposed**.
 
-  To make additional style features variable at run time, see for example <xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>
+ To make additional style features variable at run time, see for example <xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>
 
-  `ToolboxHelper.cs`
+ `ToolboxHelper.cs`
 
-  Sets up the toolbox by installing element group prototypes into the element tools. Copies of these prototypes are merged with the target elements when the user runs the tool.
+ Sets up the toolbox by installing element group prototypes into the element tools. Copies of these prototypes are merged with the target elements when the user runs the tool.
 
-  You could override `CreateElementPrototype()` to define a toolbox item that creates a group of several objects. For example, you could define an item to represent objects that have sub-components. After changing the code, reset the experimental instance of Visual Studio to clear the toolbox cache.
+ You could override `CreateElementPrototype()` to define a toolbox item that creates a group of several objects. For example, you could define an item to represent objects that have sub-components. After changing the code, reset the experimental instance of Visual Studio to clear the toolbox cache.
 
 ## Generated files in the DslPackage project
  DslPackage couples the DSL model to the Visual Studio shell, managing the window, toolbox, and menu commands. Most of the classes are double derived, so that you can override any of their methods.
@@ -268,6 +268,7 @@ namespace Company.EmbedInForm
   }
 
 }
+
 ```
 
  `EditorFactory.cs`
@@ -319,6 +320,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
 }
 }
 }
+
 ```
 
  `ModelExplorerToolWindow.cs`

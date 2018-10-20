@@ -19,15 +19,15 @@ When you modify or add text templates in a domain-specific language solution, yo
 ## Creating a Domain-Specific Language Solution
  In this procedure, you create a domain-specific language solution that has the following characteristics:
 
-- Name: DebuggingTestLanguage
+-   Name: DebuggingTestLanguage
 
-- Solution template: Minimal Language
+-   Solution template: Minimal Language
 
-- File extension: .ddd
+-   File extension: .ddd
 
-- Company name: Fabrikam
+-   Company name: Fabrikam
 
-  For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).
+ For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).
 
 ## Creating a text template
  Add a text template to your solution.

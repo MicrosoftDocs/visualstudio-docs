@@ -52,13 +52,13 @@ You can open DSL models in any application.
 ## Reading from a File
  The following example is designed to read a DSL in which the important classes are as follows:
 
-- FamilyTreeModel
+-   FamilyTreeModel
 
-- FamilyTreeSerializationHelper
+-   FamilyTreeSerializationHelper
 
-- FamilyTreeDomainModel
+-   FamilyTreeDomainModel
 
-  The other domain class in this DSL is Person.
+ The other domain class in this DSL is Person.
 
 ```csharp
 using System;

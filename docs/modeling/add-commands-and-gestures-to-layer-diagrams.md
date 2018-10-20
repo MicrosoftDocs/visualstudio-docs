@@ -29,25 +29,25 @@ You can define context menu commands and gesture handlers on dependency diagrams
 
 #### To define an extension by using a project template
 
-1. Create a project in a new solution, by using the **New Project** command on the **File** menu.
+1.  Create a project in a new solution, by using the **New Project** command on the **File** menu.
 
-2. In the **New Project** dialog box, under **Modeling Projects**, select either **Layer Designer Command Extension** or **Layer Designer Gesture Extension**.
+2.  In the **New Project** dialog box, under **Modeling Projects**, select either **Layer Designer Command Extension** or **Layer Designer Gesture Extension**.
 
-    The template creates a project that contains a small working example.
+     The template creates a project that contains a small working example.
 
-3. To test the extension, press **CTRL+F5** or **F5**.
+3.  To test the extension, press **CTRL+F5** or **F5**.
 
-    An experimental instance of Visual Studio starts. In this instance, create a dependency diagram. Your command or gesture extension should work in this diagram.
+     An experimental instance of Visual Studio starts. In this instance, create a dependency diagram. Your command or gesture extension should work in this diagram.
 
-4. Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
+4.  Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
 
-5. You can add more command or gesture handlers to the same project. For more information, see one of the following sections:
+5.  You can add more command or gesture handlers to the same project. For more information, see one of the following sections:
 
-    [Defining a Menu Command](#command)
+     [Defining a Menu Command](#command)
 
-    [Defining a Gesture Handler](#gesture)
+     [Defining a Gesture Handler](#gesture)
 
-6. To install the extension in the main instance of Visual Studio, or on another computer, find the **.vsix** file in **bin\\\\**<em>. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates</em>* on the **Tools** menu.
+6.  To install the extension in the main instance of Visual Studio, or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.
 
 ## Adding a Command or Gesture to a separate VSIX
  If you want to create one VSIX that contains commands, layer validators, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers.
@@ -105,37 +105,37 @@ You can define context menu commands and gesture handlers on dependency diagrams
 ##  <a name="command"></a> Defining a Menu Command
  You can add more menu command definitions to an existing gesture or command project. Each command is defined by a class that has the following characteristics:
 
-- The class is declared as follows:
+-   The class is declared as follows:
 
-   `[LayerDesignerExtension]`
+     `[LayerDesignerExtension]`
 
-   `[Export(typeof(ICommandExtension))]`
+     `[Export(typeof(ICommandExtension))]`
 
-   `public class`  *MyLayerCommand*  `: ICommandExtension { ... }`
+     `public class`  *MyLayerCommand*  `: ICommandExtension { ... }`
 
-- The namespace and the name of the class are unimportant.
+-   The namespace and the name of the class are unimportant.
 
-- The methods that implement `ICommandExtension` are as follows:
+-   The methods that implement `ICommandExtension` are as follows:
 
-  -   `string Text {get;}` - The label that appears in the menu.
+    -   `string Text {get;}` - The label that appears in the menu.
 
-  -   `void QueryStatus(IMenuCommand command)` - called when the user right-clicks the diagram, and determines whether the command should be visible and enabled for the user's current selection.
+    -   `void QueryStatus(IMenuCommand command)` - called when the user right-clicks the diagram, and determines whether the command should be visible and enabled for the user's current selection.
 
-  -   `void Execute(IMenuCommand command)` - called when the user selects the command.
+    -   `void Execute(IMenuCommand command)` - called when the user selects the command.
 
-- To determine the current selection, you can import `IDiagramContext`:
+-   To determine the current selection, you can import `IDiagramContext`:
 
-   `[Import]`
+     `[Import]`
 
-   `public IDiagramContext DiagramContext { get; set; }`
+     `public IDiagramContext DiagramContext { get; set; }`
 
-   `...`
+     `...`
 
-   `DiagramContext.CurrentDiagram.SelectedShapes.Count()...`
+     `DiagramContext.CurrentDiagram.SelectedShapes.Count()...`
 
-  For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
+ For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).
 
-  To add a new command, create a new code file that contains the following sample. Then test and edit it.
+ To add a new command, create a new code file that contains the following sample. Then test and edit it.
 
 ```
 using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer;
