@@ -60,7 +60,7 @@ In the first step, you add a web project to host the service.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
-#### To create the web project
+### To create the web project
 
 1.  On the menu bar, choose **File** > **New** > **Project**.
 
@@ -72,7 +72,7 @@ In the first step, you add a web project to host the service.
 
 In the next step, you create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] that represents the `Customers` table in the Northwind database.
 
-#### To create the Entity Data Model
+### To create the Entity Data Model
 
 1.  On the menu bar, choose **Project** > **Add New Item**.
 
@@ -95,12 +95,12 @@ In the next step, you create an [!INCLUDE[adonet_edm](../data-tools/includes/ado
 6.  If the database requires a password, choose the **Yes, include sensitive data in the connection string** option button, and then choose the **Next** button.
 
     > [!NOTE]
-    >  If a dialog box appears, choose **Yes** to save the file to your project.
+    > If a dialog box appears, choose **Yes** to save the file to your project.
 
 7.  On the **Choose your version** page, choose the **Entity Framework 5.0** option button, and then choose the **Next** button.
 
     > [!NOTE]
-    >  In order to use the latest version of the Entity Framework 6 with WCF Services, you'll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](https://blogs.msdn.microsoft.com/odatateam/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6/).
+    > In order to use the latest version of the Entity Framework 6 with WCF Services, you'll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](https://blogs.msdn.microsoft.com/odatateam/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6/).
 
 8.  On the **Choose Your Database Objects** page, expand the **Tables** node, select the **Customers** check box, and then choose the **Finish** button.
 
@@ -108,7 +108,7 @@ In the next step, you create an [!INCLUDE[adonet_edm](../data-tools/includes/ado
 
 In the next step, you create and test the data service.
 
-#### To create the data service
+### To create the data service
 
 1.  On the menu bar, choose **Project** > **Add New Item**.
 
@@ -135,7 +135,7 @@ In the next step, you create and test the data service.
      An XML representation of the data in the `Customers` table appears.
 
     > [!NOTE]
-    >  In some cases, Internet Explorer will misinterpret the data as an RSS feed. You must make sure that the option to display RSS feeds is disabled. For more information, see [Troubleshooting service references](../data-tools/troubleshooting-service-references.md).
+    > In some cases, Internet Explorer will misinterpret the data as an RSS feed. You must make sure that the option to display RSS feeds is disabled. For more information, see [Troubleshooting service references](../data-tools/troubleshooting-service-references.md).
 
 8.  Close the browser window.
 
@@ -146,7 +146,7 @@ In the next steps, you create a Windows Forms client application to consume the 
 
  In the first step, you add a Windows Forms project to the solution and set it as the startup project.
 
-#### To create the client application
+### To create the client application
 
 1.  On the menu bar, choose File, **Add** > **New Project**.
 
@@ -160,7 +160,7 @@ In the next steps, you create a Windows Forms client application to consume the 
 
 In the next step, you add a service reference to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] in the web project.
 
-#### To add a service reference
+### To add a service reference
 
 1.  On the menu bar, choose **Project** > **Add Service Reference**.
 
@@ -172,7 +172,7 @@ In the next step, you add a service reference to the [!INCLUDE[ss_data_service](
 
 In the next step, you configure a data source to enable data binding to the service.
 
-#### To enable data binding to the service
+### To enable data binding to the service
 
 1.  On the menu bar, choose **View** > **Other Windows** > **Data Sources**.
 
@@ -186,7 +186,7 @@ In the next step, you configure a data source to enable data binding to the serv
 
 In the next step, you create the user interface that displays the data from the service.
 
-#### To create the user interface
+### To create the user interface
 
 1. In the **Data Sources** window, open the shortcut menu for the **Customers** node and choose **Copy**.
 
@@ -239,7 +239,7 @@ In the next optional step, you learn how to filter the data that is returned by 
 ## Adding Filtering Capabilities
  In this step, you customize the application to filter the data by the customer's city.
 
-#### To add filtering by city
+### To add filtering by city
 
 1.  In **Solution Explorer**, open the shortcut menu for the **Form1.vb** or **Form1.cs** node and choose **Open**.
 

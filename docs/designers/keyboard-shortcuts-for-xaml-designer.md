@@ -12,10 +12,12 @@ ms.workload:
   - "uwp"
 ---
 # Keyboard shortcuts for XAML Designer
+
 Keyboard shortcuts in XAML Designer can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut.
 
 ## Element shortcuts
- This table lists the shortcuts that are available for working with elements on the artboard.
+
+This table lists the shortcuts that are available for working with elements on the artboard.
 
 |**To perform this action**|**Do this**|
 |--------------------------------|-----------------|
@@ -33,7 +35,8 @@ Keyboard shortcuts in XAML Designer can speed up your work by reducing an action
 |Select a property for an element|With an element selected and the focus on the Properties window, press **Tab**. (Use **Ctrl**+**Tab** to change focus to the Properties window.) You can use the arrow keys to select property values from drop-down lists.|
 
 ## Document Outline window shortcuts
- The following table lists the shortcuts available when working with elements in the Document Outline window.
+
+The following table lists the shortcuts available when working with elements in the Document Outline window.
 
 |**To perform this action**|**Do this**|
 |--------------------------------|-----------------|

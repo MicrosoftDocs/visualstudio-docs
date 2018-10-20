@@ -37,9 +37,9 @@ The sphere is the default preview shape in the Shader Designer; if you are curre
 
 - On the Shader Designer toolbar, choose **Preview with sphere.**
 
-  In the next step, you'll create a shader program that applies a texture to the model, but first you have to create a texture that you can use. This walkthrough demonstrates how to create the texture by using the Image Editor, which is a part of Visual Studio, but you can use any image editor that can save the texture in a suitable format.
+In the next step, you'll create a shader program that applies a texture to the model, but first you have to create a texture that you can use. This walkthrough demonstrates how to create the texture by using the Image Editor, which is a part of Visual Studio, but you can use any image editor that can save the texture in a suitable format.
 
-  Make sure that the **Properties** window and the **Toolbox** are displayed.
+Make sure that the **Properties** window and the **Toolbox** are displayed.
 
 ### To create a billiard ball texture by using the Image Editor
 
@@ -83,9 +83,9 @@ The sphere is the default preview shape in the Shader Designer; if you are curre
 
 So far, you've created an easily recognizable billiard ball. However, it appears flat and uninteresting—more like a cartoon picture of a billiard ball than a convincing replica. The flat appearance results from the simplistic shader, which behaves as if each pixel on the surface of the billiard ball receives the same amount of light.
 
- In the real world, light appears brightest on surfaces that directly face a light source and appears less bright on surfaces that are at an oblique angle to the light source. This is because the energy in the light rays is distributed across the smallest surface area when the surface directly faces the light source. As the surface turns away from the light source, the same amount of energy is distributed across an increasingly larger surface area. A surface that faces away from a light source receives no light energy at all, resulting in a completely dark appearance. This variance in brightness across the surface of an object is an important visual cue that helps indicate the shape of an object; without it, the object appears flat.
+In the real world, light appears brightest on surfaces that directly face a light source and appears less bright on surfaces that are at an oblique angle to the light source. This is because the energy in the light rays is distributed across the smallest surface area when the surface directly faces the light source. As the surface turns away from the light source, the same amount of energy is distributed across an increasingly larger surface area. A surface that faces away from a light source receives no light energy at all, resulting in a completely dark appearance. This variance in brightness across the surface of an object is an important visual cue that helps indicate the shape of an object; without it, the object appears flat.
 
- In computer graphics, *lighting models*—simplified approximations of complex, real-world lighting interactions—are used to replicate the appearance of real-world lighting. The Lambert lighting model varies the amount of diffusely reflected light across the surface of an object as described in the previous paragraph. You can add the Lambert lighting model to your shader to give the billiard ball a more convincing 3D appearance.
+In computer graphics, *lighting models*—simplified approximations of complex, real-world lighting interactions—are used to replicate the appearance of real-world lighting. The Lambert lighting model varies the amount of diffusely reflected light across the surface of an object as described in the previous paragraph. You can add the Lambert lighting model to your shader to give the billiard ball a more convincing 3D appearance.
 
 ### To add Lambert lighting to your shader
 
@@ -95,19 +95,19 @@ So far, you've created an easily recognizable billiard ball. However, it appears
 
 - Optionally, you can adjust how the lighting behaves by configuring the **MaterialDiffuse** property of the shader graph. To access properties of the shader graph, choose an empty area of the design surface, and then locate the property that you want to access in the **Properties** window.
 
-  For more information about how to apply Lambert lighting in your shader, see [How to: Create a basic Lambert shader](../designers/how-to-create-a-basic-lambert-shader.md).
+For more information about how to apply Lambert lighting in your shader, see [How to: Create a basic Lambert shader](../designers/how-to-create-a-basic-lambert-shader.md).
 
-  With Lambert lighting applied, your billiard ball should look similar to this:
+With Lambert lighting applied, your billiard ball should look similar to this:
 
-  ![A closeup of the textured and lit billiard ball](../designers/media/gfx_shader_demo_billiard_ball_2.png)
+![A closeup of the textured and lit billiard ball](../designers/media/gfx_shader_demo_billiard_ball_2.png)
 
 ## Enhance the basic appearance with specular highlights
 
 The Lambert lighting model provides the sense of shape and dimension that was absent in the texture-only shader. However, the billiard ball still has a somewhat dull appearance.
 
- A real billiard ball usually has a glossy finish that reflects a portion of the light that falls on it. Some of this reflected light results in specular highlights, which simulate the reflecting properties of a surface. Depending on the properties of the finish, the highlights can be localized or broad, intense or subtle. These specular reflections are modeled by using the relationship between a light source, the orientation of the surface, and the camera position—that is, the highlight is most intense when the orientation of the surface reflects the light source directly into the camera, and is less intense when the reflection is less direct.
+A real billiard ball usually has a glossy finish that reflects a portion of the light that falls on it. Some of this reflected light results in specular highlights, which simulate the reflecting properties of a surface. Depending on the properties of the finish, the highlights can be localized or broad, intense or subtle. These specular reflections are modeled by using the relationship between a light source, the orientation of the surface, and the camera position—that is, the highlight is most intense when the orientation of the surface reflects the light source directly into the camera, and is less intense when the reflection is less direct.
 
- The Phong lighting model builds on the Lambert lighting model to include specular highlights as described in the previous paragraph. You can add the Phong lighting model to your shader to give the billiard ball a simulated finish that results in a more interesting appearance.
+The Phong lighting model builds on the Lambert lighting model to include specular highlights as described in the previous paragraph. You can add the Phong lighting model to your shader to give the billiard ball a simulated finish that results in a more interesting appearance.
 
 ### To add specular highlights to your shader
 
@@ -127,13 +127,13 @@ The Lambert lighting model provides the sense of shape and dimension that was ab
 
 With specular highlights applied, your billiard ball looks pretty convincing. It's got the right shape, the right paint job, and the right finish. However, there's still one more technique that will make your billiard ball look more like a part of its environment.
 
- If you examine a real billiard ball closely, you can see that its glossy surface doesn't just exhibit specular highlights but also faintly reflects an image of the world around it. You can simulate this reflection by using an image of the environment as a texture and combining it with the model's own texture to determine the final color of each pixel. Depending on the kind of finish you want, you can combine more or less of the reflection texture together with the rest of the shader. For example, a shader that simulates a highly reflective surface like a mirror might use only the reflection texture, but a shader that simulates a more subtle reflection like the one found on a billiard ball might combine just a small portion of the reflection texture's value together with the rest of the shader calculation.
+If you examine a real billiard ball closely, you can see that its glossy surface doesn't just exhibit specular highlights but also faintly reflects an image of the world around it. You can simulate this reflection by using an image of the environment as a texture and combining it with the model's own texture to determine the final color of each pixel. Depending on the kind of finish you want, you can combine more or less of the reflection texture together with the rest of the shader. For example, a shader that simulates a highly reflective surface like a mirror might use only the reflection texture, but a shader that simulates a more subtle reflection like the one found on a billiard ball might combine just a small portion of the reflection texture's value together with the rest of the shader calculation.
 
- Of course, you can't just apply the reflected image to the model in the same way that you apply the model's texture map. If you did, the reflection of the world would move with the billiard ball as if the reflection were glued to it. Because a reflection can come from any direction, you need a way to provide a reflection map value for any angle, and a way to keep the reflection map oriented according to the world. To satisfy these requirements you can use a special kind of texture map—called a *cube map*—that provides six textures arranged to form the sides of a cube. From inside this cube, you can point in any direction to find a texture value. If the textures on each side of the cube contain images of the environment, you can simulate any reflection by sampling the correct location on the surface of the cube. By keeping the cube aligned to the world, you'll get an accurate reflection of the environment. To determine where the cube should be sampled, you just calculate the reflection of the camera vector off the surface of the object, and then use it as 3D texture coordinates. Using cube maps in this way is a common technique that's known as *environment mapping*.
+Of course, you can't just apply the reflected image to the model in the same way that you apply the model's texture map. If you did, the reflection of the world would move with the billiard ball as if the reflection were glued to it. Because a reflection can come from any direction, you need a way to provide a reflection map value for any angle, and a way to keep the reflection map oriented according to the world. To satisfy these requirements you can use a special kind of texture map—called a *cube map*—that provides six textures arranged to form the sides of a cube. From inside this cube, you can point in any direction to find a texture value. If the textures on each side of the cube contain images of the environment, you can simulate any reflection by sampling the correct location on the surface of the cube. By keeping the cube aligned to the world, you'll get an accurate reflection of the environment. To determine where the cube should be sampled, you just calculate the reflection of the camera vector off the surface of the object, and then use it as 3D texture coordinates. Using cube maps in this way is a common technique that's known as *environment mapping*.
 
- Environment mapping provides an efficient approximation of real reflections as described in the preceding paragraphs. You can blend environment-mapped reflections into your shader to give the billiard ball a simulated finish that makes the billiard ball seem more grounded in the scene.
+Environment mapping provides an efficient approximation of real reflections as described in the preceding paragraphs. You can blend environment-mapped reflections into your shader to give the billiard ball a simulated finish that makes the billiard ball seem more grounded in the scene.
 
- The first step is to create a cube map texture. In many kinds of apps, the contents of the cube map don't have to be perfect to be effective, especially when the reflection is subtle or doesn't occupy a prominent space on the screen. For example, many games use pre-computed cube maps for environment mapping and just use the one nearest to each reflective object, although this means that the reflection isn't correct. Even a rough approximation is often good enough for a convincing effect.
+The first step is to create a cube map texture. In many kinds of apps, the contents of the cube map don't have to be perfect to be effective, especially when the reflection is subtle or doesn't occupy a prominent space on the screen. For example, many games use pre-computed cube maps for environment mapping and just use the one nearest to each reflective object, although this means that the reflection isn't correct. Even a rough approximation is often good enough for a convincing effect.
 
 ### To create textures for an environment map by using the Image Editor
 
