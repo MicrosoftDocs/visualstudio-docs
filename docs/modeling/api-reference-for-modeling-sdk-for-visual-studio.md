@@ -17,7 +17,7 @@ The Visual Studio Visualization and Modeling SDK provides the platform on which 
 This section contains reference material for namespaces that have names that begin with "Microsoft.VisualStudio.Modeling".
 
 |Namespace|Content|
-|---------------|-------------|
+|-|-|
 |<xref:Microsoft.VisualStudio.Modeling?displayProperty=fullName>|Classes such as ModelElement, which is the base class of all domain classes that you define in a DSL.|
 |<xref:Microsoft.VisualStudio.Modeling.Design?displayProperty=fullName>|Classes that form part of a DSL definition.|
 |<xref:Microsoft.VisualStudio.Modeling.Diagnostics?displayProperty=fullName>|The model Store Viewer and performance measurement tools.|

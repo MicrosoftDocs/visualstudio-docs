@@ -26,7 +26,7 @@ Inside Visual Studio, the global shortcuts and debugging shortcuts apply to the 
 The following table summarizes the default keyboard shortcuts assigned to Workflow Designer commands.
 
 |Shortcut|Purpose|
-|--------------|-------------|
+|-|-------------|
 |CTRL+E, A|Shows or hides the Argument Designer.|
 |CTRL+E, C|Collapses the selected activity in place.|
 |CTRL+E, E|Expands the selected activity in place.|

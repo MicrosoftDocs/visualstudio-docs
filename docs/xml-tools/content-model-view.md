@@ -42,7 +42,7 @@ The Content Model View provides a graphic representation of local and global sch
  When you right-click an item on the design surface or **Workspace** panel, a context menu appears. The following table describes the options that are available for the Content Model View design surface.
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Show in XML Schema Explorer**|Puts focus on the Schema Explorer and highlights the schema set node.|
 |**Show in Graph View**|Switches to the Graph View.|
 |**Generate Sample XML**|Available only for global elements. Generates a sample XML file for the global element.|
@@ -54,7 +54,7 @@ The Content Model View provides a graphic representation of local and global sch
  The following table describes the options that are available for the **Workspace** panel.
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Show in XML Schema Explorer**|Puts focus on the Schema Explorer and highlights the schema set node.|
 |**Show in Graph View**|Switches to Graph View.|
 |**Clear Workspace**|Clears the workspace and the design surface.|
@@ -76,7 +76,7 @@ The Content Model View provides a graphic representation of local and global sch
  ![XML Schema Designer Toolbar](../xml-tools/media/xsdcontentmodelviewtoolbar.gif)
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Show Start View**|Switches to the [Start View](../xml-tools/start-view.md). This view can be accessed by using the keyboard shortcut: **Ctrl**+**1**.|
 |**Show Content Model View**|Switches to the [Content Model View](../xml-tools/content-model-view.md). This view can be accessed by using the keyboard shortcut: **Ctrl**+**2**.|
 |**Show Graph View**|Switches to the [Graph View](../xml-tools/graph-view.md). This view can be accessed by using the keyboard shortcut: **Ctrl**+**3**.|

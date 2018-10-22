@@ -24,7 +24,7 @@ The initial run setting is created when you create a load test by using the **Ne
 ## Tasks
 
 |Tasks|Associated Topics|
-|-----------|-----------------------|
+|-|-|
 |**Add more run settings to your load test:** In addition to the run setting that is created when you run the **New Load Test Wizard**, you can add more run settings to your load test so that you can run the test under different conditions.|-   [How to: Add additional run settings to a load test](../test/how-to-add-additional-run-settings-to-a-load-test.md)|
 |**Specify the active run setting to use with the load test:** You can select the run setting that you want to use with your load test using the Load Test Editor. The active run setting is identified by the "[Active]" suffix.|-   [How to: Select the active run setting for a load test](../test/how-to-select-the-active-run-setting-for-a-load-test.md)|
 |**Edit run setting properties:** You can edit your run setting properties for such things as logging options (see more below), determining the length of the test, warm-up duration, maximum number of error details reported, sampling rate, connection model (web performance tests only), results storage type, validation level and SQL tracing. The run settings should reflect the goals of your load test.|-   [Load test run settings properties](../test/load-test-run-settings-properties.md)<br />-   [Changing run setting properties](../test/load-test-run-settings-properties.md#change-run-setting-properties)|

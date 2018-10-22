@@ -38,7 +38,7 @@ When you run your load tests, any information gathered during a load test run ma
 ## Load Test Analyzer tasks
 
 |Tasks|Associated topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Set up a load test results repository:** You can set up a load test results repository on a SQL database. **Note:**  A load test repository can also be created when you install a test controller. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).||
 |**Selecting and viewing a results repository:** You can select a specific results repository. You are not limited to a local results store. Frequently, load tests are run on a remote set of Agent computers. Test results from your agents or your local computer can be saved to any SQL server on which you have created a load test results store. In either case, you must identify where to store your load test results by using the **Administer Test Controllers** window.|-   [How to: Select a load test results repository](../test/how-to-select-a-load-test-results-repository.md)<br />-   [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md)|
 |**Deleting a load test result from the repository:** You can remove a load test result from the **Load Test Editor** by using the **Open and Manage Load Test Results** dialog box.|-   [How to: Delete load test results from a repository](../test/how-to-delete-load-test-results-from-a-repository.md)|
