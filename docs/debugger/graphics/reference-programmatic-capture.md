@@ -32,8 +32,8 @@ Graphics Diagnostics supports programmatic control over its capture features, th
 
 ## Related Articles  
 
-|                                Title                                |                                                                                                    Description                                                                                                    |
-|---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Title | Description |
+| - | - |
 | [Capturing Graphics Information](capturing-graphics-information.md) | Shows how to capture graphics information from your DirectX-based app so that you can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to diagnose rendering problems. |
-|    [Overview](overview-of-visual-studio-graphics-diagnostics.md)    |                                                           Shows how Graphics Diagnostics can help you debug rendering errors in DirectX games and apps.                                                           |
+| [Overview](overview-of-visual-studio-graphics-diagnostics.md) | Shows how Graphics Diagnostics can help you debug rendering errors in DirectX games and apps. |
 
