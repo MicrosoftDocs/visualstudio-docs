@@ -23,13 +23,13 @@ Get the process that this program is running in.
   
 ```cpp  
 HRESULT GetProcess(  
-   IDebugProcess2** ppProcess  
+   IDebugProcess2** ppProcess  
 );  
 ```  
   
 ```csharp  
 int GetProcess(  
-   out IDebugProcess2 ppProcess  
+   out IDebugProcess2 ppProcess  
 );  
 ```  
   

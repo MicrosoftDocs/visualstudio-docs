@@ -23,20 +23,20 @@ Retrieves type information about the specified array given its debug address.
 ```  
 [C++]  
 HRESULT GetArrayTypeFromAddress(  
-   IDebugAddress* pAddress,  
-   BYTE*          pSig,  
-   DWORD          dwSigLength,  
-   IDebugField**  ppField  
+   IDebugAddress* pAddress,  
+   BYTE*          pSig,  
+   DWORD          dwSigLength,  
+   IDebugField**  ppField  
 );  
 ```  
   
 ```  
 [C#]  
 int GetArrayTypeFromAddress(  
-   IDebugAddress   pAddress,  
-   int[]           pSig,  
-   uint            dwSigLength,  
-   out IDebugField ppField  
+   IDebugAddress   pAddress,  
+   int[]           pSig,  
+   uint            dwSigLength,  
+   out IDebugField ppField  
 );  
 ```  
   

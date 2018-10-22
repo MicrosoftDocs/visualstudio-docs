@@ -23,13 +23,13 @@ Gets the value returned on stepping out of or over a function.
   
 ```cpp  
 HRESULT GetReturnValue (   
-   IDebugProperty2** ppReturnValue  
+   IDebugProperty2** ppReturnValue  
 );  
 ```  
   
 ```csharp  
 int GetReturnValue (   
-   out IDebugProperty2 ppReturnValue  
+   out IDebugProperty2 ppReturnValue  
 );  
 ```  
   

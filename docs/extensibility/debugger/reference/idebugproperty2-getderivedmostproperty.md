@@ -23,13 +23,13 @@ Gets the derived-most property of a property.
   
 ```cpp  
 HRESULT GetDerivedMostProperty (   
-   IDebugProperty2** ppDerivedMost  
+   IDebugProperty2** ppDerivedMost  
 );  
 ```  
   
 ```csharp  
 int GetDerivedMostProperty (   
-   out IDebugProperty2 ppDerivedMost  
+   out IDebugProperty2 ppDerivedMost  
 );  
 ```  
   

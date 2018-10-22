@@ -23,15 +23,15 @@ Gets a machine-dependent representation of the range of physical addresses assoc
   
 ```cpp  
 HRESULT GetPhysicalStackRange (   
-   UINT64* paddrMin,  
-   UINT64* paddrMax  
+   UINT64* paddrMin,  
+   UINT64* paddrMax  
 );  
 ```  
   
 ```csharp  
 int GetPhysicalStackRange (   
-   out ulong paddrMin,  
-   out ulong paddrMax  
+   out ulong paddrMin,  
+   out ulong paddrMax  
 );  
 ```  
   

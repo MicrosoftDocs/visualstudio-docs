@@ -39,24 +39,24 @@ ms.workload:
 ```csharp  
 namespace EEMC  
 {  
-    public class CParsedExpression : IDebugParsedExpression  
-    {  
-        public HRESULT Parse(  
-                string                 expression,   
-                uint                   parseFlags,  
-                uint                   radix,  
-            out string                 errorMessage,   
-            out uint                   errorPosition,   
-            out IDebugParsedExpression parsedExpression)  
-        {   
-            errorMessage = "";  
-            errorPosition = 0;  
+    public class CParsedExpression : IDebugParsedExpression  
+    {  
+        public HRESULT Parse(  
+                string                 expression,   
+                uint                   parseFlags,  
+                uint                   radix,  
+            out string                 errorMessage,   
+            out uint                   errorPosition,   
+            out IDebugParsedExpression parsedExpression)  
+        {   
+            errorMessage = "";  
+            errorPosition = 0;  
   
-            parsedExpression =  
-                new CParsedExpression(parseFlags, radix, expression);  
-            return COM.S_OK;  
-        }  
-    }  
+            parsedExpression =  
+                new CParsedExpression(parseFlags, radix, expression);  
+            return COM.S_OK;  
+        }  
+    }  
 }  
 ```  
   
@@ -65,42 +65,42 @@ The following code is an implementation of `IDebugExpressionEvaluator::Parse` in
   
 ```cpp  
 STDMETHODIMP CExpressionEvaluator::Parse(  
-        in    LPCOLESTR                 pszExpression,  
-        in    PARSEFLAGS                flags,  
-        in    UINT                      radix,  
-        out   BSTR                     *pbstrErrorMessages,  
-        inout UINT                     *perrorCount,  
-        out   IDebugParsedExpression  **ppparsedExpression  
-    )  
+        in    LPCOLESTR                 pszExpression,  
+        in    PARSEFLAGS                flags,  
+        in    UINT                      radix,  
+        out   BSTR                     *pbstrErrorMessages,  
+        inout UINT                     *perrorCount,  
+        out   IDebugParsedExpression  **ppparsedExpression  
+    )  
 {  
-    if (pbstrErrorMessages == NULL)  
-        return E_INVALIDARG;  
-    else  
-        *pbstrErrormessages = 0;  
+    if (pbstrErrorMessages == NULL)  
+        return E_INVALIDARG;  
+    else  
+        *pbstrErrormessages = 0;  
   
-    if (pparsedExpression == NULL)  
-        return E_INVALIDARG;  
-    else  
-        *pparsedExpression = 0;  
+    if (pparsedExpression == NULL)  
+        return E_INVALIDARG;  
+    else  
+        *pparsedExpression = 0;  
   
-    if (perrorCount == NULL)  
-        return E_INVALIDARG;  
+    if (perrorCount == NULL)  
+        return E_INVALIDARG;  
   
-    HRESULT hr;  
-    // Look for errors in the expression but ignore results  
-    hr = ::Parse( pszExpression, pbstrErrorMessages );  
-    if (hr != S_OK)  
-        return hr;  
+    HRESULT hr;  
+    // Look for errors in the expression but ignore results  
+    hr = ::Parse( pszExpression, pbstrErrorMessages );  
+    if (hr != S_OK)  
+        return hr;  
   
-    CParsedExpression* pparsedExpr = new CParsedExpression( radix, flags, pszExpression );  
-    if (!pparsedExpr)  
-        return E_OUTOFMEMORY;  
+    CParsedExpression* pparsedExpr = new CParsedExpression( radix, flags, pszExpression );  
+    if (!pparsedExpr)  
+        return E_OUTOFMEMORY;  
   
-    hr = pparsedExpr->QueryInterface( IID_IDebugParsedExpression,  
-                                      reinterpret_cast<void**>(ppparsedExpression) );  
-    pparsedExpr->Release();  
+    hr = pparsedExpr->QueryInterface( IID_IDebugParsedExpression,  
+                                      reinterpret_cast<void**>(ppparsedExpression) );  
+    pparsedExpr->Release();  
   
-    return hr;  
+    return hr;  
 }  
 ```  
   

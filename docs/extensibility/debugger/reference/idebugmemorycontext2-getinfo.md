@@ -24,15 +24,15 @@ Retrieves a [CONTEXT_INFO](../../../extensibility/debugger/reference/context-inf
   
 ```cpp  
 HRESULT GetInfo(   
-   CONTEXT_INFO_FIELDS dwFields,  
-   CONTEXT_INFO*       pInfo  
+   CONTEXT_INFO_FIELDS dwFields,  
+   CONTEXT_INFO*       pInfo  
 );  
 ```  
   
 ```csharp  
 int GetInfo(  
-   enum_CONTEXT_INFO_FIELDS dwFields,   
-   CONTEXT_INFO[]           pinfo  
+   enum_CONTEXT_INFO_FIELDS dwFields,   
+   CONTEXT_INFO[]           pinfo  
 );  
 ```  
   

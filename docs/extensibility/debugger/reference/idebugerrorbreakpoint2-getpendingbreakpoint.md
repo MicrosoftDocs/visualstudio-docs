@@ -23,13 +23,13 @@ Gets the pending breakpoint that caused the error.
   
 ```cpp  
 HRESULT GetPendingBreakpoint (   
-   IDebugPendingBreakpoint2** ppPendingBreakpoint  
+   IDebugPendingBreakpoint2** ppPendingBreakpoint  
 );  
 ```  
   
 ```csharp  
 int GetPendingBreakpoint (   
-   out IDebugPendingBreakpoint2 ppPendingBreakpoint  
+   out IDebugPendingBreakpoint2 ppPendingBreakpoint  
 );  
 ```  
   

@@ -23,19 +23,19 @@ Describes the bound breakpoint information for either a code breakpoint or a dat
   
 ```cpp  
 typedef struct _BP_RESOLUTION_INFO {   
-   BPRESI_FIELDS          dwFields;  
-   BP_RESOLUTION_LOCATION bpResLocation;  
-   IDebugProgram2*        pProgram;  
-   IDebugThread2*         pThread;  
+   BPRESI_FIELDS          dwFields;  
+   BP_RESOLUTION_LOCATION bpResLocation;  
+   IDebugProgram2*        pProgram;  
+   IDebugThread2*         pThread;  
 } BP_RESOLUTION_INFO;  
 ```  
   
 ```csharp  
 public struct BP_RESOLUTION_INFO {   
-   public uint                   dwFields;  
-   public BP_RESOLUTION_LOCATION bpResLocation;  
-   public IDebugProgram2         pProgram;  
-   public IDebugThread2          pThread;  
+   public uint                   dwFields;  
+   public BP_RESOLUTION_LOCATION bpResLocation;  
+   public IDebugProgram2         pProgram;  
+   public IDebugThread2          pThread;  
 };  
 ```  
   

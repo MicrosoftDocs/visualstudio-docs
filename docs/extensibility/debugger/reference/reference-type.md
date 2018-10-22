@@ -23,16 +23,16 @@ Specifies the reference type.
   
 ```cpp  
 enum enum_REFERENCE_TYPE {   
-   REF_TYPE_WEAK   = 0x0001,  
-   REF_TYPE_STRONG = 0x0002  
+   REF_TYPE_WEAK   = 0x0001,  
+   REF_TYPE_STRONG = 0x0002  
 };  
 typedef DWORD REFERENCE_TYPE;  
 ```  
   
 ```csharp  
 public enum enum_REFERENCE_TYPE {   
-   REF_TYPE_WEAK   = 0x0001,  
-   REF_TYPE_STRONG = 0x0002  
+   REF_TYPE_WEAK   = 0x0001,  
+   REF_TYPE_STRONG = 0x0002  
 };  
 ```  
   

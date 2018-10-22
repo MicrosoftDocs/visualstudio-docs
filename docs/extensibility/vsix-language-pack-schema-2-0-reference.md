@@ -28,6 +28,7 @@ The root element of the language pack file is `<PackageLanguagePackManifest>`, w
 ### PackageLangaugePackManifest element
 
 Within the `<PackageLanguagePackManifest>` element the following element must exist:
+
 |Title|Description|
 |-----------|-----------------|
 |`<Metadata>`| The containing element for all localized package metadata
@@ -35,6 +36,7 @@ Within the `<PackageLanguagePackManifest>` element the following element must ex
 ### Metadata element
 
 Within the `<Metadata>` element you can have the following elements:
+
 |Title|Description|
 |-----------|-----------------|
 |`<DisplayName>`|The localized name of the extension to be installed|

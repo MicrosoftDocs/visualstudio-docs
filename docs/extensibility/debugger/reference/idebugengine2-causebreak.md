@@ -23,7 +23,7 @@ Requests that all programs being debugged by this debug engine (DE) to stop exec
   
 ```cpp  
 HRESULT CauseBreak(   
-   void   
+   void   
 );  
 ```  
   

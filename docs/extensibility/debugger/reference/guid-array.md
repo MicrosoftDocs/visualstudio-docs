@@ -22,16 +22,16 @@ Describes an array of unique identifiers for available debug engines.
 ```cpp  
 typedef struct tagGUID_ARRAY  
 {  
-   DWORD dwCount;  
-   GUID *Members;  
+   DWORD dwCount;  
+   GUID *Members;  
 } GUID_ARRAY;  
 ```  
   
 ```csharp  
 public struct GUID_ARRAY  
 {  
-   public uint dwCount;  
-   public Guid Members;  
+   public uint dwCount;  
+   public Guid Members;  
 }  
 ```  
   

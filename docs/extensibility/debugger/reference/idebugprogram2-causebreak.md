@@ -23,7 +23,7 @@ Requests that the program stop execution the next time one of its threads attemp
   
 ```cpp  
 HRESULT CauseBreak(   
-   void   
+   void   
 );  
 ```  
   

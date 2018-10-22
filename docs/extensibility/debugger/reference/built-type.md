@@ -23,17 +23,17 @@ This structure specifies information about a field type taken from metadata.
   
 ```cpp  
 typedef struct _tagTYPE_BUILT {  
-   ULONG32      ulAppDomainID;  
-   GUID         guidModule;  
-   IDebugField* pUnderlyingField;  
+   ULONG32      ulAppDomainID;  
+   GUID         guidModule;  
+   IDebugField* pUnderlyingField;  
 } BUILT_TYPE;  
 ```  
   
 ```csharp  
 public struct BUILT_TYPE {  
-   public uint        ulAppDomainID;  
-   public Guid        guidModule;  
-   public IDebugField pUnderlyingField;  
+   public uint        ulAppDomainID;  
+   public Guid        guidModule;  
+   public IDebugField pUnderlyingField;  
 };  
 ```  
   

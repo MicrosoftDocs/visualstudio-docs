@@ -23,10 +23,10 @@ This function retrieves a queued status event.
   
 ```cpp  
 SCCRTN SccGetEvents (  
-   LPVOID pvContext,  
-   LPSTR  lpFileName,  
-   LPLONG lpStatus,  
-   LPLONG pnEventsRemaining  
+   LPVOID pvContext,  
+   LPSTR  lpFileName,  
+   LPLONG lpStatus,  
+   LPLONG pnEventsRemaining  
 );  
 ```  
   

@@ -23,13 +23,13 @@ Gets the breakpoint type.
   
 ```cpp  
 HRESULT GetBreakpointType(   
-   BP_TYPE* pBPType  
+   BP_TYPE* pBPType  
 );  
 ```  
   
 ```csharp  
 int GetBreakpointType(   
-   out enum_BP_TYPE pBPType  
+   out enum_BP_TYPE pBPType  
 );  
 ```  
   

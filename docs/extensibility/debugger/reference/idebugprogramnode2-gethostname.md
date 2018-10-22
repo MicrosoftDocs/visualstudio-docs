@@ -23,15 +23,15 @@ Gets the name of the process hosting the program.
   
 ```cpp  
 HRESULT GetHostName (   
-   GETHOSTNAME_TYPE dwHostNameType,  
-   BSTR*            pbstrHostName  
+   GETHOSTNAME_TYPE dwHostNameType,  
+   BSTR*            pbstrHostName  
 );  
 ```  
   
 ```csharp  
 int GetHostName (   
-   enum_GETHOSTNAME_TYPE dwHostNameType,  
-   out string            pbstrHostName  
+   enum_GETHOSTNAME_TYPE dwHostNameType,  
+   out string            pbstrHostName  
 );  
 ```  
   

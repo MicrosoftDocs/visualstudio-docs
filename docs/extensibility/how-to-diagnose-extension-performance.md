@@ -163,11 +163,11 @@ For the example above some interesting call stacks would be:
 
 1. IO using `System.IO` class: While inclusive cost of these frames might not be too expensive in the trace, they are a potential cause of an issue since file IO speed will vary from machine to machine.
 
-  ![system io frames](media/perfview-system-io-frames.png)
+   ![system io frames](media/perfview-system-io-frames.png)
 
 2. Blocking calls waiting on other asynchronous work: In this case, inclusive time would represent the time the main thread is blocked on the completion of asynchronous work.
 
-  ![blocking call frames](media/perfview-blocking-call-frames.png)
+   ![blocking call frames](media/perfview-blocking-call-frames.png)
 
 One of the other views in the trace that will be useful to determine impact will be the **Image Load Stacks**. You can apply the same filters as applied to **Thread Time Stacks** view and find out all assemblies loaded because of the code executed by your auto loaded package.
 

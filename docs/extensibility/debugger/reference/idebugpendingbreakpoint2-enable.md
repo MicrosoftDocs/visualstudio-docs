@@ -24,13 +24,13 @@ Toggles the enabled state of the pending breakpoint.
   
 ```cpp  
 HRESULT Enable(   
-   BOOL fEnable  
+   BOOL fEnable  
 );  
 ```  
   
 ```csharp  
 int Enable(   
-   int fEnable  
+   int fEnable  
 );  
 ```  
   

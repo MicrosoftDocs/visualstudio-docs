@@ -52,94 +52,94 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
 ##  <a name="BKMK_RunAddin"></a> How can I run my add-in code in a VSPackage?  
  Add-in code usually runs in one of two ways:  
   
--   Triggered by a menu command (the code is in the `IDTCommandTarget.Exec` method.)  
+- Triggered by a menu command (the code is in the `IDTCommandTarget.Exec` method.)  
   
--   Automatically on startup (the code is in the `OnConnection` event handler.)  
+- Automatically on startup (the code is in the `OnConnection` event handler.)  
   
- You can do the same things in a VSPackage. Here's how to add some add-in code in the callback method:  
+  You can do the same things in a VSPackage. Here's how to add some add-in code in the callback method:  
   
 ### To implement a menu command in a VSPackage  
   
-1.  Create a VSPackage that has a menu command. (For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).)  
+1. Create a VSPackage that has a menu command. (For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).)  
   
-2.  Open the file that contains the definition of the VSPackage. (In a C# project, it's *\<your project name>Package.cs*.)  
+2. Open the file that contains the definition of the VSPackage. (In a C# project, it's *\<your project name>Package.cs*.)  
   
-3.  Add the following `using` statements to the file:  
+3. Add the following `using` statements to the file:  
   
-    ```csharp  
-    using EnvDTE;  
-    using EnvDTE80;  
-    ```  
+   ```csharp  
+   using EnvDTE;  
+   using EnvDTE80;  
+   ```  
   
-4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:  
+4. Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:  
   
-    ```csharp  
-    DTE2 dte = (DTE2)GetService(typeof(DTE));  
-    ```  
+   ```csharp  
+   DTE2 dte = (DTE2)GetService(typeof(DTE));  
+   ```  
   
-5.  Add the code that your add-in had in its `IDTCommandTarget.Exec` method. For example, here is some code that adds a new pane to the **Output** window and prints "Some Text" in the new pane.  
+5. Add the code that your add-in had in its `IDTCommandTarget.Exec` method. For example, here is some code that adds a new pane to the **Output** window and prints "Some Text" in the new pane.  
   
-    ```csharp  
-    private void MenuItemCallback(object sender, EventArgs e)  
-    {  
-        DTE2 dte = (DTE2) GetService(typeof(DTE));  
-        OutputWindow outputWindow = dte.ToolWindows.OutputWindow;  
+   ```csharp  
+   private void MenuItemCallback(object sender, EventArgs e)  
+   {  
+       DTE2 dte = (DTE2) GetService(typeof(DTE));  
+       OutputWindow outputWindow = dte.ToolWindows.OutputWindow;  
   
-        OutputWindowPane outputWindowPane = outputWindow.OutputWindowPanes.Add("A New Pane");  
-        outputWindowPane.OutputString("Some Text");  
-    }  
+       OutputWindowPane outputWindowPane = outputWindow.OutputWindowPanes.Add("A New Pane");  
+       outputWindowPane.OutputString("Some Text");  
+   }  
   
-    ```  
+   ```  
   
-6.  Build and run this project. Press **F5** or select **Start** on the **Debug** toolbar. In the experimental instance of Visual Studio, the **Tools** menu should have a button named **My Command name**. When you choose this button, the words **Some Text** should appear in an **Output** window pane. (You may have to open the **Output** window.)  
+6. Build and run this project. Press **F5** or select **Start** on the **Debug** toolbar. In the experimental instance of Visual Studio, the **Tools** menu should have a button named **My Command name**. When you choose this button, the words **Some Text** should appear in an **Output** window pane. (You may have to open the **Output** window.)  
   
- You can also have your code run on startup. However, this approach is generally discouraged for VSPackage extensions. If too many extensions try to load when Visual Studio starts, the start time might become noticeably longer. A better practice is to load the VSPackage automatically only when some condition is met (like a solution being opened).  
+   You can also have your code run on startup. However, this approach is generally discouraged for VSPackage extensions. If too many extensions try to load when Visual Studio starts, the start time might become noticeably longer. A better practice is to load the VSPackage automatically only when some condition is met (like a solution being opened).  
   
- This procedure shows how to run add-in code in a VSPackage that loads automatically when a solution is opened:  
+   This procedure shows how to run add-in code in a VSPackage that loads automatically when a solution is opened:  
   
 ### To autoload a VSPackage  
   
-1.  Create a VSIX project with a Visual Studio Package project item. (For the steps to do this, see [How do I start developing VSIX extensions?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping). Just add the **Visual Studio Package** project item instead.) Name the VSIX project **TestAutoload**.  
+1. Create a VSIX project with a Visual Studio Package project item. (For the steps to do this, see [How do I start developing VSIX extensions?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping). Just add the **Visual Studio Package** project item instead.) Name the VSIX project **TestAutoload**.  
   
-2.  Open *TestAutoloadPackage.cs*. Find the line where the package class is declared:  
+2. Open *TestAutoloadPackage.cs*. Find the line where the package class is declared:  
   
-    ```csharp  
-    public sealed class <name of your package>Package : Package  
-    ```  
+   ```csharp  
+   public sealed class <name of your package>Package : Package  
+   ```  
   
-3.  Above this line is a set of attributes. Add this attribute:  
+3. Above this line is a set of attributes. Add this attribute:  
   
-    ```csharp  
-    [ProvideAutoLoad(UIContextGuids80.SolutionExists)]  
-    ```  
+   ```csharp  
+   [ProvideAutoLoad(UIContextGuids80.SolutionExists)]  
+   ```  
   
-4.  Set a breakpoint in the `Initialize()` method and start debugging (**F5**).  
+4. Set a breakpoint in the `Initialize()` method and start debugging (**F5**).  
   
-5.  In the experimental instance, open a project. The VSPackage should load, and your breakpoint should be hit.  
+5. In the experimental instance, open a project. The VSPackage should load, and your breakpoint should be hit.  
   
- You can specify other contexts in which to load your VSPackage by using the fields of <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80>. For more information, see [Load VSPackages](../extensibility/loading-vspackages.md).  
+   You can specify other contexts in which to load your VSPackage by using the fields of <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80>. For more information, see [Load VSPackages](../extensibility/loading-vspackages.md).  
   
 ## How can I get the DTE object?  
  If your add-in doesn't display UI—for example, menu commands, toolbar buttons, or tool windows—you may be able to use your code as-is as long as you get the DTE automation object from the VSPackage. Here's how:  
   
 ### To get the DTE object from a VSPackage  
   
-1.  In a VSIX project with a Visual Studio Package item template, look for the *\<project name>Package.cs* file. This is the class that derives from <xref:Microsoft.VisualStudio.Shell.Package>; it can help you interact with Visual Studio. In this case, you use its <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object.  
+1. In a VSIX project with a Visual Studio Package item template, look for the *\<project name>Package.cs* file. This is the class that derives from <xref:Microsoft.VisualStudio.Shell.Package>; it can help you interact with Visual Studio. In this case, you use its <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object.  
   
-2.  Add these `using` statements:  
+2. Add these `using` statements:  
   
-    ```csharp  
-    using EnvDTE;  
-    using EnvDTE80;  
-    ```  
+   ```csharp  
+   using EnvDTE;  
+   using EnvDTE80;  
+   ```  
   
-3.  Find the `Initialize` method. This method handles the command you specified in the package wizard. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the DTE object:  
+3. Find the `Initialize` method. This method handles the command you specified in the package wizard. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the DTE object:  
   
-    ```csharp  
-    DTE dte = (DTE)GetService(typeof(DTE));  
-    ```  
+   ```csharp  
+   DTE dte = (DTE)GetService(typeof(DTE));  
+   ```  
   
- After you have the <xref:EnvDTE.DTE> automation object, you can add the rest of your add-in code to the project. If you need the <xref:EnvDTE80.DTE2> object, you can do the same thing.  
+   After you have the <xref:EnvDTE.DTE> automation object, you can add the rest of your add-in code to the project. If you need the <xref:EnvDTE80.DTE2> object, you can do the same thing.  
   
 ## How do I change menu commands and toolbar buttons in my add-in to the VSPackage style?  
  VSPackage extensions use the *.vsct* file to create most of the menu commands, toolbars, toolbar buttons, and other UI. The **Custom Command** project item template gives you the option to create a command on the **Tools** menu. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
