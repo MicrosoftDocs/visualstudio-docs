@@ -102,11 +102,11 @@ The Graphics Log document is the record of graphics events that occurred while y
  Lists information about the graphics log document.  
 
 
-|        Property        |                                                                                                                                         Description                                                                                                                                          |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     **Created by**     | The name of the app that created the graphics log document. For example, if the capture session was initiated from [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] (manual capture) the value of this property is [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. |
-| **Session Start Time** |                                                                                                                      The date and time that the capture session began.                                                                                                                       |
-|        **Size**        |                                                                                                                            The size of the graphics log document.                                                                                                                            |
+| Property | Description |
+|------------------------| - |
+| **Created by** | The name of the app that created the graphics log document. For example, if the capture session was initiated from [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] (manual capture) the value of this property is [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. |
+| **Session Start Time** | The date and time that the capture session began. |
+| **Size** | The size of the graphics log document. |
 
 ## See Also  
  [Walkthrough: Missing Objects Due to Vertex Shading](walkthrough-missing-objects-due-to-vertex-shading.md)   

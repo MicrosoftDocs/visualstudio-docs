@@ -77,7 +77,7 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
  To create groups and markers in Direct3D 12, use the APIs described in this section. The table below summarizes the APIs that you can use depending on whether you are marking events in a command queue or command list.  
 
 |API Description|[ID3D12CommandQueue](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue)|[ID3D12GraphicsCommandList](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist)|  
-|---------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|  
+|---------------------| - | - |  
 |Check user-defined event availability|[PIXGetStatus](https://msdn.microsoft.com/library/f7ebd985-fb5d-46d7-abec-099df4b9be0e)|[PIXGetStatus](http://msdn.microsoft.com/en-us/1046ac43-a0a3-42bf-bae8-14aa72fa7567)|  
 |Begin an event group|[PIXBeginEvent](http://msdn.microsoft.com/en-us/5f51fff7-f313-4558-965b-2a443653cd7b)|[PIXBeginEvent](http://msdn.microsoft.com/en-us/4ddb3311-b9b5-449a-bbfb-7634e0d56e87)|  
 |End   an event group|[PIXEndEvent](http://msdn.microsoft.com/en-us/fb526bf2-c17d-4a2a-8665-3b577a0f7fba)|[PIXEndEvent](http://msdn.microsoft.com/en-us/a3cd34a9-9dd9-40e1-ae86-0214b25ff185)|  
@@ -87,7 +87,7 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
  To create groups and markers in Direct3D 11 or earlier, use the APIs described in this section. The table below summarizes the APIs that you can use for different versions of Direct3D 11 and earlier versions of Direct3D.  
 
 |API Description|[ID3D11DeviceContext2](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) (Direct3D 11.2)|[ID3DUserDefinedAnnotation](http://go.microsoft.com/fwlink/p/?LinkID=250967) (Direct3D 11.1)|D3DPerf_ API family (Direct3D 11.0 and earlier)|  
-|---------------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------|  
+|---------------------| - | - | - |  
 |Begin an event group|`BeginEventInt`|`BeginEvent`|`D3DPerf_BeginEvent`|  
 |End an event group|`EndEventInt`|`EndEvent`|`D3DPerf_EndEvent`|  
 |Create an event marker|`SetMarkerInt`|`SetMarker`|`D3DPerf_SetMarker`|  
@@ -104,10 +104,10 @@ Visual Studio 2017 and greater contain the **Resource History** window.  Selecti
 This window allows you to view the history of the selected item in the event list.  The dropdown at the top can be used to select other items to view the history of.  The top half of the window contains the **Frame Setup Events**.  These are the events which fall into the *Create* type category and are calls that typically initialize and create the resource.  The bottom half of the window contains the **Frame Events** section.  These are the normal read and write events that occur during the usage of the resource.  
 
 
-|  Column   |                                                                                                                                                                   Description                                                                                                                                                                    |
-|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Type**  |                                                                                                                                       Shows the type of the entry, typically *Create*, *Read* and *Write*.                                                                                                                                       |
-| **View**  |                                                                                                    Shows a thumbnail of the resource at that moment in time.  Double-click the thumbnail to open a details view of the resource at that time.                                                                                                    |
+| Column | Description |
+|-----------| - |
+| **Type** | Shows the type of the entry, typically *Create*, *Read* and *Write*. |
+| **View** | Shows a thumbnail of the resource at that moment in time.  Double-click the thumbnail to open a details view of the resource at that time. |
 | **Event** | Shows the method call that occurred which generated the event.  Any additional history on individual items can be viewed by selecting the watch icon ![watch icon](media/gfx_watch.png) on the appropriate line.  Also, any item which is drawn in blue text, such as `m_commandList` in the screenshot above, can be selected for more details. |
 
 <!-- /VERSIONLESS -->
