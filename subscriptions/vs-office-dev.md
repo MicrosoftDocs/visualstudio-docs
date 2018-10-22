@@ -24,32 +24,32 @@ Subscribers with selected Visual Studio Enterprise subscriptions receive the Off
 3. Once the sign-in process is complete, you should see the Subscriptions Benefits page.  If you have more than one subscription, you can switch between the subscriptions by clicking the drop-down arrow in the top right corner, below the black ribbon.  The Office 365 Developer Subscription benefit tile is in the Tools category.  Use the arrow to the right of the row of tiles to scroll until the Office tile is visible.
 
 4. Click on the **Activate** link at the bottom of the benefit tile.   
-    > [!div class="mx-imgBorder"]
-    > ![Office 365 Dev Benefit Tile](_img\vs-office-dev\vs-office-dev-tile.png)
+   > [!div class="mx-imgBorder"]
+   > ![Office 365 Dev Benefit Tile](_img/vs-office-dev/vs-office-dev-tile.png)
 
-5.	The next step is to create an account.  Your name and sign-in email address will be displayed.  
-- Choose your country.
-- Enter your company name. 
-- Click the first check box to accept the terms and conditions. 
-- Click **Next**.
-    > [!div class="mx-imgBorder"]
-    > ![Office 365 Dev Sign-up](_img\vs-office-dev\vs-office-dev-signup.png)
-    
-6.	Indicate your preferences and areas of interest, and click **Activate subscription**.   
-    > [!div class="mx-imgBorder"]
-    > ![Office 365 Dev Preferences](_img\vs-office-dev\vs-office-dev-preferences.png)
+5. The next step is to create an account.  Your name and sign-in email address will be displayed.  
+6. Choose your country.
+7. Enter your company name. 
+8. Click the first check box to accept the terms and conditions. 
+9. Click **Next**.
+   > [!div class="mx-imgBorder"]
+   > ![Office 365 Dev Sign-up](_img/vs-office-dev/vs-office-dev-signup.png)
 
-7.	Next, you'll verify your country/region, and create your username, domain, and password.
+10. Indicate your preferences and areas of interest, and click **Activate subscription**.   
     > [!div class="mx-imgBorder"]
-    > ![Office 365 Dev Username and Domain](_img\vs-office-dev\vs-office-dev-domain.png)
+    > ![Office 365 Dev Preferences](_img/vs-office-dev/vs-office-dev-preferences.png)
 
-8.	Enter your phone number, and click **Send Code**.  This helps us ensure the account is being created by a real person. 
+11. Next, you'll verify your country/region, and create your username, domain, and password.
     > [!div class="mx-imgBorder"]
-    > ![Office 365 Dev Phone Verification](_img\vs-office-dev\vs-office-dev-send-code.png)
+    > ![Office 365 Dev Username and Domain](_img/vs-office-dev/vs-office-dev-domain.png)
 
-9.	Enter the code you receive and click **Set up**.
+12. Enter your phone number, and click **Send Code**.  This helps us ensure the account is being created by a real person. 
     > [!div class="mx-imgBorder"]
-    > ![Office 365 Dev Code Validation](_img\vs-office-dev\vs-office-dev-setup.png)
+    > ![Office 365 Dev Phone Verification](_img/vs-office-dev/vs-office-dev-send-code.png)
+
+13. Enter the code you receive and click **Set up**.
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Code Validation](_img/vs-office-dev/vs-office-dev-setup.png)
 
 That's it!  You'll see a page displaying information tailored to your preferences.  
 
@@ -60,6 +60,7 @@ To learn more about the Office 365 Developer subscription, check out the [Office
 
 
 ## Eligibility
+
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included      |  Yes          |

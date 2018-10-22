@@ -26,9 +26,9 @@ Fetches extended information for an extended property, which is more information
   
 ```  
 HRESULT GetExtendedPropertyInfo(  
-   EX_DBGPROP_INFO_FLAGS  dwFieldSpec,  
-   UINT  nRadix,  
-   ExtendedDebugPropertyInfo*  pExtendedPropertyInfo  
+   EX_DBGPROP_INFO_FLAGS  dwFieldSpec,  
+   UINT  nRadix,  
+   ExtendedDebugPropertyInfo*  pExtendedPropertyInfo  
 );  
 ```  
   

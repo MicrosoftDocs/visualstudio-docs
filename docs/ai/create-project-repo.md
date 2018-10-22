@@ -7,13 +7,13 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
 1. To connect to GitHub repositories, run the Visual Studio installer, select **Modify**, and select the **Individual components** tab. Scroll down to the **Code tools** section, select **GitHub extension for Visual Studio**, and select **Modify**.
 
-    ![Selecting the GitHub extension in the Visual Studio installer](media\create-project-repo\installation-github-extension.png)
+    ![Selecting the GitHub extension in the Visual Studio installer](media/create-project-repo/installation-github-extension.png)
 
 2. Launch Visual Studio.
 
 3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Azure DevOps, or clone a repository.
 
-    ![Team explorer window showing Azure DevOps, GitHub, and cloning a repository](media\create-project-repo\team-explorer.png)
+    ![Team explorer window showing Azure DevOps, GitHub, and cloning a repository](media/create-project-repo/team-explorer.png)
 
 4. In the URL field under **Local Git Repositories**, enter `https://github.com/Microsoft/samples-for-ai`, enter a folder for the cloned files, and select **Clone**.
 
@@ -22,7 +22,7 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
 5. When cloning is complete, double-click the repository folder at the bottom of Team Explorer to navigate to the repository dashboard. Under **Solutions**, select **New...**.
 
-    ![Team explorer window, creating a new project from a clone](media\create-project-repo\team-explorer-new-project.png)
+    ![Team explorer window, creating a new project from a clone](media/create-project-repo/team-explorer-new-project.png)
 
 6. In the **New Project** dialog that appears, select "**From Existing Python Code**", specify a name for the project, set **Location** to the same folder as the repository, and select **OK**. In the wizard that appears, select **Finish**.
 
@@ -35,14 +35,14 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
 11. When the program runs successfully, you'll see it start to download your training and test dataset, then train the model and output your error rate. You want error rate to decrease over time
 
-    ![First output from the Python MNIST program](media\create-project-repo\tensorflow-mnist-running.png)
+    ![First output from the Python MNIST program](media/create-project-repo/tensorflow-mnist-running.png)
 
 > If you are using Anaconda and get an error about missing numpy, you may need to [change your Python environment to use Anaconda](../python/selecting-a-python-environment-for-a-project.md).
 
 11. You can visualize the progress with TensorBoard. Right click your project and click **Run TensorBoard** then select the directory of your output TensorBoard logs.
 
-    ![run tensorboard](media\create-project-repo\run-tensorboard.png)
+    ![run tensorboard](media/create-project-repo/run-tensorboard.png)
 
 11. Notice the error decreasing overtime, which means the quality is improving
 
-    ![run tensorboard](media\create-project-repo\tensorboard.png)
+    ![run tensorboard](media/create-project-repo/tensorboard.png)

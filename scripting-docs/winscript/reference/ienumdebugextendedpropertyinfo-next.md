@@ -26,9 +26,9 @@ Retrieves a specified number of`ExtendedDebugPropertyInfo` structures in an enum
   
 ```  
 HRESULT Next (  
-   ULONGcelt,  
-   ExtendedDebugPropertyInfo *rgelt,  
-   ULONG* pceltFetched  
+   ULONGcelt,  
+   ExtendedDebugPropertyInfo *rgelt,  
+   ULONG* pceltFetched  
 );  
 ```  
   

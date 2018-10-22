@@ -26,9 +26,9 @@ Retrieves a specified number of `DebugPropertyInfo` structures in an enumeration
   
 ```  
 HRESULT Next (  
-   ULONGcelt,  
-   DebugPropertyInfo*rgelt,  
-   ULONG* pceltFetched  
+   ULONGcelt,  
+   DebugPropertyInfo*rgelt,  
+   ULONG* pceltFetched  
 );  
 ```  
   
