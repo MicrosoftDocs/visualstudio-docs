@@ -40,8 +40,8 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
   
 ### {Attribute name} Attribute  
   
-|                           Value                           |                Description                |
-|-----------------------------------------------------------|-------------------------------------------|
+| Value | Description |
+| - | - |
 | http://schemas.openformats.org/package/2006/content-types | The location of the content types schema. |
   
 ### Child Elements  

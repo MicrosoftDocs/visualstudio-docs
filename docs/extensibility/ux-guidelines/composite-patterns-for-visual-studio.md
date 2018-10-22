@@ -391,16 +391,16 @@ Composite patterns combine interaction and design elements in distinct configura
  The selection handles are squares drawn in a rectangular pattern around the bounding box of the object. The chart below shows examples of the various states that a graphical object can have with handle, sizing, and in-place editing appearance. The size of the handles should be tied to window border and edge metrics using the **GetSystemMetrics** API.  
 
 
-|          State          |  Appearance   |                                                                  Visual details                                                                  |
-|-------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|     **Unselected**      |    Default    |                 ![Default button state](../../extensibility/ux-guidelines/media/0713-10_defaultstate.png "0713-10_DefaultState")                 |
-|  **Primary selection**  |   Resizable   |       ![Primary selection with resize handles](../../extensibility/ux-guidelines/media/0713-11_primaryresize.png "0713-11_PrimaryResize")        |
-|  **Primary selection**  | Not resizable |    ![Primary selection without resize handles](../../extensibility/ux-guidelines/media/0713-13_primarynoresize.png "0713-13_PrimaryNoResize")    |
-|  **Primary selection**  |    Locked     |              ![Primary selection locked](../../extensibility/ux-guidelines/media/0713-15_primarylocked.png "0713-15_PrimaryLocked")              |
-| **Secondary selection** |   Resizable   |    ![Secondary selection with resize handles](../../extensibility/ux-guidelines/media/0713-17_secondaryresize.png "0713-17_SecondaryResize")     |
+| State | Appearance | Visual details |
+|-------------------------|---------------| - |
+| **Unselected** | Default | ![Default button state](../../extensibility/ux-guidelines/media/0713-10_defaultstate.png "0713-10_DefaultState") |
+| **Primary selection** | Resizable | ![Primary selection with resize handles](../../extensibility/ux-guidelines/media/0713-11_primaryresize.png "0713-11_PrimaryResize") |
+| **Primary selection** | Not resizable | ![Primary selection without resize handles](../../extensibility/ux-guidelines/media/0713-13_primarynoresize.png "0713-13_PrimaryNoResize") |
+| **Primary selection** | Locked | ![Primary selection locked](../../extensibility/ux-guidelines/media/0713-15_primarylocked.png "0713-15_PrimaryLocked") |
+| **Secondary selection** | Resizable | ![Secondary selection with resize handles](../../extensibility/ux-guidelines/media/0713-17_secondaryresize.png "0713-17_SecondaryResize") |
 | **Secondary selection** | Not resizable | ![Secondary selection without resize handles](../../extensibility/ux-guidelines/media/0713-19_secondarynoresize.png "0713-19_SecondaryNoResize") |
-| **Secondary selection** |    Locked     |           ![Secondary selection locked](../../extensibility/ux-guidelines/media/0713-21_secondarylocked.png "0713-21_SecondaryLocked")           |
-|      **UI active**      |    Default    |                       ![UI active state](../../extensibility/ux-guidelines/media/0713-23_uiactive.png "0713-23_UIActive")                        |
+| **Secondary selection** | Locked | ![Secondary selection locked](../../extensibility/ux-guidelines/media/0713-21_secondarylocked.png "0713-21_SecondaryLocked") |
+| **UI active** | Default | ![UI active state](../../extensibility/ux-guidelines/media/0713-23_uiactive.png "0713-23_UIActive") |
 
 ### View selection models  
 
@@ -434,11 +434,11 @@ Composite patterns combine interaction and design elements in distinct configura
  Selections in lists may be contiguous, disjoint, or region. When multiple selections are allowed, contiguous and disjoint selection should always be supported, while support for region (box) selections is optional. Region selections are initiated by dragging in the white space of the list body.  
 
 
-| Object | Selection  |
+| Object | Selection |
 |--------|------------|
-|  List  | Contiguous |
-|  List  |  Disjoint  |
-|  List  |   Region   |
+| List | Contiguous |
+| List | Disjoint |
+| List | Region |
 
  Clicking once on a list selects the row where the click occurred. If the user happens to click in a list cell that supports in-place editing, the cell is also immediately activated for in-place editing. Otherwise, the whole row is immediately selected and shows a highlight.  
 

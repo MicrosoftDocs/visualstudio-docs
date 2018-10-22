@@ -54,10 +54,10 @@ Creating a source-control plug-in involves three steps:
 
       **DisableSccManager** is a DWORD value and is set to *0* to enable the **Launch \<Source Control Server>** menu option, set to *1* to disable the menu option, and set to *2* to hide the menu option. If this registry entry does not appear, the default behavior is to show the menu option.  
 
-   |                        Sample registry entry                        | Sample value |
-   |---------------------------------------------------------------------|--------------|
-   | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\HideInVisualStudio |      1       |
-   | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\DisableSccManager  |      1       |
+   | Sample registry entry | Sample value |
+   | - |--------------|
+   | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\HideInVisualStudio | 1 |
+   | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\DisableSccManager | 1 |
 
 
 3. Add the subkey, **SourceCodeControlProvider**, under the **HKEY_LOCAL_MACHINE** key in the **SOFTWARE** subkey.  

@@ -33,10 +33,10 @@ The process for adding items to the **Add New Item** dialog box starts with the 
  **SortPriority** = dword:00000064
 
 
-|       Name       |   Type    |                             Data (from *.rgs* file)                             |                                            Description                                            |
-|------------------|-----------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-|   @ (Default)    |  REG_SZ   |                         #%IDS_ADDITEM_TEMPLATES_ENTRY%                          |                              Resource ID for **Add Item** templates.                              |
-| Val TemplatesDir |  REG_SZ   |                    %TEMPLATE_PATH%\\&lt;SomeProjectItems&gt;                    |        Path of the project items displayed in the dialog for the **Add New Item** wizard.         |
+| Name | Type | Data (from *.rgs* file) | Description |
+|------------------|-----------| - | - |
+| @ (Default) | REG_SZ | #%IDS_ADDITEM_TEMPLATES_ENTRY% | Resource ID for **Add Item** templates. |
+| Val TemplatesDir | REG_SZ | %TEMPLATE_PATH%\\&lt;SomeProjectItems&gt; | Path of the project items displayed in the dialog for the **Add New Item** wizard. |
 | Val SortPriority | REG_DWORD | 100 ([!INCLUDE[vcprx64](../../extensibility/internals/includes/vcprx64_md.md)]) | Determines the sort order in the tree node of files displayed in the **Add New Item** dialog box. |
 
 > [!NOTE]

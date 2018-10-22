@@ -45,13 +45,13 @@ Specifies a file that is included in the item template.
   
 ### Attributes  
   
-|      Attribute      |                                                                                                             Description                                                                                                              |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      `SubType`      | Optional attribute.<br /><br /> Specifies the subtype of an item in a multi-file item template. This value is used to determine the editor that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will use to open the item. |
-|    `CustomTool`     |                                                                        Optional attribute.<br /><br /> Sets the CustomTool for the item in the project file.                                                                         |
-|     `ItemType`      |                                                                         Optional attribute.<br /><br /> Sets the ItemType for the item in the project file.                                                                          |
-| `ReplaceParameters` |                  Optional attribute.<br /><br /> A Boolean value that specifies whether the item has parameter values that must be replaced when a project is created from the template. Default value is `false`.                   |
-|  `TargetFileName`   |                          Optional attribute.<br /><br /> Specifies the name of the item that is created from the template. This attribute is useful for using parameter replacement to create an item name.                          |
+| Attribute | Description |
+|---------------------| - |
+| `SubType` | Optional attribute.<br /><br /> Specifies the subtype of an item in a multi-file item template. This value is used to determine the editor that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will use to open the item. |
+| `CustomTool` | Optional attribute.<br /><br /> Sets the CustomTool for the item in the project file. |
+| `ItemType` | Optional attribute.<br /><br /> Sets the ItemType for the item in the project file. |
+| `ReplaceParameters` | Optional attribute.<br /><br /> A Boolean value that specifies whether the item has parameter values that must be replaced when a project is created from the template. Default value is `false`. |
+| `TargetFileName` | Optional attribute.<br /><br /> Specifies the name of the item that is created from the template. This attribute is useful for using parameter replacement to create an item name. |
   
 ### Child elements  
  None.  
