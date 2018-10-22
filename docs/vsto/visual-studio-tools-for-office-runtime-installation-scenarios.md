@@ -33,7 +33,7 @@ ms.workload:
  The following table shows which runtime components are installed by default in each runtime installation scenario. More information about each scenario appears later.  
   
 |Runtime installation scenario|Office solution loader|Office extensions for the .NET Framework 3.5|Office extensions for the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]|Office extensions for the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]|  
-|-----------------------------------|----------------------------|--------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------|  
+|-----------------------------------|----------------------------|--------------------------------------------------| - |---------------------------------------------------------------------------|  
 |With [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] and later|Yes|Yes, if the .NET Framework 3.5 is already installed.|Yes|Yes|  
 |With [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)]|Yes|Yes, if the .NET Framework 3.5 is already installed.|No|No|  
 |With Office 2010 Service Pack 1 (SP1) or later|Yes|Yes, if the .NET Framework 3.5 is already installed.|Yes, if the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is already installed.|No|  

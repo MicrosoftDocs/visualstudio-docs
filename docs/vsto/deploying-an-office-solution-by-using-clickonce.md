@@ -344,12 +344,12 @@ ms.workload:
  You can use the following parameters with *VSTOinstaller.exe*.  
 
 
-|    Parameter     |                                                                                                                                                                                        Definition                                                                                                                                                                                         |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  /Install or /I  | Install the solution. You must follow this option with the path of a deployment manifest. You can specify a path on the local computer, a universal naming convention (UNC) file share. You can specify a local path (*C:\FolderName\PublishFolder*), a relative path (*Publish\\*), or a fully qualified location (*\\\ServerName\FolderName* or http://<em>ServerName/FolderName</em>). |
-| /Uninstall or /U |           Uninstall the solution. You must follow this option with the path of a deployment manifest. You can specify a path can be on the local computer, a UNC file share. You can specify a local path (*c:\FolderName\PublishFolder*), a relative path (*Publish\\*), or a fully qualified location (*\\\ServerName\FolderName* or http://<em>ServerName/FolderName</em>).            |
-|  /Silent or /S   |                                                                                                            Install or uninstall without prompting the user for input or displaying any messages. If a trust prompt is required, the customization isn't installed or updated.                                                                                                             |
-|   /Help or /?    |                                                                                                                                                                               Display the Help information.                                                                                                                                                                               |
+| Parameter | Definition |
+|------------------| - |
+| /Install or /I | Install the solution. You must follow this option with the path of a deployment manifest. You can specify a path on the local computer, a universal naming convention (UNC) file share. You can specify a local path (*C:\FolderName\PublishFolder*), a relative path (*Publish\\*), or a fully qualified location (*\\\ServerName\FolderName* or http://<em>ServerName/FolderName</em>). |
+| /Uninstall or /U | Uninstall the solution. You must follow this option with the path of a deployment manifest. You can specify a path can be on the local computer, a UNC file share. You can specify a local path (*c:\FolderName\PublishFolder*), a relative path (*Publish\\*), or a fully qualified location (*\\\ServerName\FolderName* or http://<em>ServerName/FolderName</em>). |
+| /Silent or /S | Install or uninstall without prompting the user for input or displaying any messages. If a trust prompt is required, the customization isn't installed or updated. |
+| /Help or /? | Display the Help information. |
 
  When you run *VSTOinstaller.exe*, the following error codes might appear.  
 
