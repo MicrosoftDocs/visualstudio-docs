@@ -31,7 +31,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
 1. In your project folder, create an app folder called `HelloFlask` (right-click the project in **Solution Explorer** and select **Add** > **New Folder**.)
 
-1. In the *HelloFlask* folder, create a file named *\_\_init\_\_.py* with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
+2. In the *HelloFlask* folder, create a file named *\_\_init\_\_.py* with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
 
     ```python
     from flask import Flask
@@ -40,7 +40,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
     import HelloFlask.views
     ```
 
-1. In the *HelloFlask* folder, create a file named *views.py* with the following contents. The name *views.py* is important because you used `import HelloFlask.views` within *\_\_init\_\_.py*; you'll see an error at run time if the names don't match.
+3. In the *HelloFlask* folder, create a file named *views.py* with the following contents. The name *views.py* is important because you used `import HelloFlask.views` within *\_\_init\_\_.py*; you'll see an error at run time if the names don't match.
 
     ```python
     from flask import Flask
@@ -54,9 +54,9 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
     In addition to renaming the function and route to `home`, this code contains the page rendering code from *app.py* and imports the `app` object that's declared in *\_\_init\_\_.py*.
 
-1. Create a subfolder in *HelloFlask* named *templates*, which remains empty for now.
+4. Create a subfolder in *HelloFlask* named *templates*, which remains empty for now.
 
-1. In the project's root folder, rename *app.py* to *runserver.py*, and make the contents match the following code:
+5. In the project's root folder, rename *app.py* to *runserver.py*, and make the contents match the following code:
 
     ```python
     import os
@@ -72,17 +72,17 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
         app.run(HOST, PORT)
     ```
-1. Your project structure should look like the following image:
+6. Your project structure should look like the following image:
 
     ![Project structure after refactoring the code](media/flask/step02-project-structure.png)
 
-1. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see may vary) to start the app and open a browser. Try both the / and /home URL routes.
+7. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see may vary) to start the app and open a browser. Try both the / and /home URL routes.
 
-1. You can also set breakpoints at various parts of the code and restart the app to follow the startup sequence. For example, set a breakpoint on the first lines of *runserver.py* and *HelloFlask\__init__.py*, and on the `return "Hello Flask!"` line in *views.py*. Then restart the app (**Debug** > **Restart**, **Ctrl**+**F5**, or the toolbar button shown below) and step through (**F10**) the code, or run from each breakpoint using **F5**.
+8. You can also set breakpoints at various parts of the code and restart the app to follow the startup sequence. For example, set a breakpoint on the first lines of *runserver.py* and *HelloFlask\_*init_*.py*, and on the `return "Hello Flask!"` line in *views.py*. Then restart the app (**Debug** > **Restart**, **Ctrl**+**F5**, or the toolbar button shown below) and step through (**F10**) the code, or run from each breakpoint using **F5**.
 
     ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
 
-1. Stop the app when you're done.
+9. Stop the app when you're done.
 
 ### Commit to source control
 
