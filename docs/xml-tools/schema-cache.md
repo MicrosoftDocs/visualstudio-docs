@@ -21,7 +21,7 @@ The following table describes the schemas that are installed with the XML Editor
 
 
 | Filename | Description |
-|-|-----------------------------------------------------------------------------------------------------------------------|
+|-| - |
 | *catalog.xsd* | Schema for XML editor schema catalog files. For information about schema catalogs, see below. |
 | *DotNetConfig.xsd* | Schema for Web.Config files, "<http://schemas.microsoft.com/.NETConfiguration/v2.0>". |
 | *msbuild.xsd* | Schema for the MSBuild make files, "<http://schemas.microsoft.com/developer/msbuild/2003>". |
