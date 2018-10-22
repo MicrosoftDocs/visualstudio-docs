@@ -534,28 +534,28 @@ The user should always be able to determine the effect of a drag-and-drop operat
 The following table summarizes the drag-and-drop (as well as cut/copy/paste) operations that should be performed based on the nature of the source item and modifier keys pressed for directory-based target projects:  
 
 
-|    Modifier     | Category |                                      Source item: Reference/Link                                       |                         Source item: Physical item or file system (`CF_HDROP`)                         |
-|-----------------|----------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-|   No modifier   |  Action  |                                                  Move                                                  |                                                  Move                                                  |
-|   No modifier   |  Target  |                                     Copies item to target location                                     |                                     Copies item to target location                                     |
-|   No modifier   |  Source  |                                   Deletes reference to original item                                   |                                   Deletes reference to original item                                   |
-|   Shift+Drag    |  Action  |                                                  Move                                                  |                                                  Move                                                  |
-|   Shift+Drag    |  Target  |                                     Copies item to target location                                     |                                     Copies item to target location                                     |
-|   Shift+Drag    |  Source  |                                   Deletes reference to original item                                   |                                  Deletes item from original location                                   |
-|   Shift+Drag    |  Result  | `DROPEFFECT_MOVE` is returned as action from `::Drop` and item remains in original location in storage | `DROPEFFECT_MOVE` is returned as action from `::Drop` and item remains in original location in storage |
-|    Ctrl+Drag    |  Action  |                                                  Copy                                                  |                                                  Copy                                                  |
-|    Ctrl+Drag    |  Target  |                                     Copies item to target location                                     |                                     Copies item to target location                                     |
-|    Ctrl+Drag    |  Source  |                                   Retains reference to original item                                   |                                   Retains reference to original item                                   |
-|    Ctrl+Drag    |  Result  | `DROPEFFECT_COPY` is returned as action from `::Drop` and item remains in original location in storage | `DROPEFFECT_COPY` is returned as action from `::Drop` and item remains in original location in storage |
-| Ctrl+Shift+Drag |          |                                                No drop                                                 |                                                No drop                                                 |
-|    Cut/Paste    |  Action  |                                                  Move                                                  |                                                  Move                                                  |
-|    Cut/Paste    |  Target  |                                     Copies item to target location                                     |                                     Copies item to target location                                     |
-|    Cut/Paste    |  Source  |                                   Deletes reference to original item                                   |                                  Deletes item from original location                                   |
-|    Cut/Paste    |  Result  |                              Item remains in original location in storage                              |                           Item is deleted from original location in storage                            |
-|   Copy/Paste    |  Action  |                                                  Copy                                                  |                                                  Copy                                                  |
-|   Copy/Paste    |  Target  |                                    Adds reference to original item                                     |                                     Copies item to target location                                     |
-|   Copy/Paste    |  Source  |                                         Retains original item                                          |                                         Retains original item                                          |
-|   Copy/Paste    |  Result  |                              Item remains in original location in storage                              |                             Item remains in original location ins storage                              |
+| Modifier | Category | Source item: Reference/Link | Source item: Physical item or file system (`CF_HDROP`) |
+|-----------------|----------| - | - |
+| No modifier | Action | Move | Move |
+| No modifier | Target | Copies item to target location | Copies item to target location |
+| No modifier | Source | Deletes reference to original item | Deletes reference to original item |
+| Shift+Drag | Action | Move | Move |
+| Shift+Drag | Target | Copies item to target location | Copies item to target location |
+| Shift+Drag | Source | Deletes reference to original item | Deletes item from original location |
+| Shift+Drag | Result | `DROPEFFECT_MOVE` is returned as action from `::Drop` and item remains in original location in storage | `DROPEFFECT_MOVE` is returned as action from `::Drop` and item remains in original location in storage |
+| Ctrl+Drag | Action | Copy | Copy |
+| Ctrl+Drag | Target | Copies item to target location | Copies item to target location |
+| Ctrl+Drag | Source | Retains reference to original item | Retains reference to original item |
+| Ctrl+Drag | Result | `DROPEFFECT_COPY` is returned as action from `::Drop` and item remains in original location in storage | `DROPEFFECT_COPY` is returned as action from `::Drop` and item remains in original location in storage |
+| Ctrl+Shift+Drag | | No drop | No drop |
+| Cut/Paste | Action | Move | Move |
+| Cut/Paste | Target | Copies item to target location | Copies item to target location |
+| Cut/Paste | Source | Deletes reference to original item | Deletes item from original location |
+| Cut/Paste | Result | Item remains in original location in storage | Item is deleted from original location in storage |
+| Copy/Paste | Action | Copy | Copy |
+| Copy/Paste | Target | Adds reference to original item | Copies item to target location |
+| Copy/Paste | Source | Retains original item | Retains original item |
+| Copy/Paste | Result | Item remains in original location in storage | Item remains in original location ins storage |
 
 #### Mixed-target projects  
 The following table summarizes the drag-and-drop (as well as cut/copy/paste) operations that should be performed based on the nature of the source item and modifier keys pressed for mixed-target projects:  

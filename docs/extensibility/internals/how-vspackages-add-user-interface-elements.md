@@ -186,7 +186,7 @@ priority="0x0100" type="Menu">
  The following rules govern how an item can call another item as its parent.  
   
 |Element|Defined in this section of the Command Table|May be contained (as a parent, or by placement in the `CommandPlacements` section, or both)|May contain (referred to as a parent)|  
-|-------------|--------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------|  
+|-------------| - | - | - |  
 |Group|[Groups element](../../extensibility/groups-element.md), the IDE, other VSPackages|A menu, a group, the item itself|Menus, groups, and commands|  
 |Menu|[Menus element](../../extensibility/menus-element.md), the IDE, other VSPackages|1 to *n* groups|0 to *n* groups|  
 |Toolbar|[Menus element](../../extensibility/menus-element.md), the IDE, other VSPackages|The item itself|0 to *n* groups|  

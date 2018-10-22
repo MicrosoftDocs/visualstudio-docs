@@ -53,12 +53,12 @@ Project types must register the directories where their project and project-item
 ```  
 
 
-|           Name           |   Type    |                                                                                                                                                   Description                                                                                                                                                    |
-|--------------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            @             |  REG_SZ   |                                                                                                                                       Resource ID for Add Item templates.                                                                                                                                        |
-|       TemplatesDir       |  REG_SZ   |                                                                                                              Path of the project items displayed in the dialog box for the **Add New Item** wizard.                                                                                                              |
-| TemplatesLocalizedSubDir |  REG_SZ   | Resource ID of a string that names the subdirectory of TemplatesDir that holds localized templates. Because [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] loads the string resource from satellite DLLs if you have them, each satellite DLL can contain a different localized subdirectory name. |
-|       SortPriority       | REG_DWORD |                                                                    Set SortPriority to govern the order in which templates are displayed in the **Add New Item** dialog box. Larger SortPriority values appear earlier in the template list.                                                                     |
+| Name | Type | Description |
+|--------------------------|-----------| - |
+| @ | REG_SZ | Resource ID for Add Item templates. |
+| TemplatesDir | REG_SZ | Path of the project items displayed in the dialog box for the **Add New Item** wizard. |
+| TemplatesLocalizedSubDir | REG_SZ | Resource ID of a string that names the subdirectory of TemplatesDir that holds localized templates. Because [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] loads the string resource from satellite DLLs if you have them, each satellite DLL can contain a different localized subdirectory name. |
+| SortPriority | REG_DWORD | Set SortPriority to govern the order in which templates are displayed in the **Add New Item** dialog box. Larger SortPriority values appear earlier in the template list. |
 
 ### Registering file filters  
  Optionally, you can register filters that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses when it prompts for file names. For example, the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] filter for the **Open File** dialog box is:  

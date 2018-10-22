@@ -192,19 +192,19 @@ STDMETHODIMP CFieldProperty::GetPropertyInfo(
   
     if (infoFlags & DEBUGPROP_INFO_FULLNAME)  
     {  
-        ppropertyInfo->dwFields     |= DEBUGPROP_INFO_FULLNAME;  
+        ppropertyInfo->dwFields |= DEBUGPROP_INFO_FULLNAME;  
         ppropertyInfo->bstrFullName  = SysAllocString( m_fieldInfo.bstrFullName );  
     }  
   
     if (infoFlags & DEBUGPROP_INFO_NAME)  
     {  
-        ppropertyInfo->dwFields     |= DEBUGPROP_INFO_NAME;  
+        ppropertyInfo->dwFields |= DEBUGPROP_INFO_NAME;  
         ppropertyInfo->bstrName      = SysAllocString( m_fieldInfo.bstrName );  
     }  
   
     if (infoFlags & DEBUGPROP_INFO_TYPE)  
     {  
-        ppropertyInfo->dwFields     |= DEBUGPROP_INFO_TYPE;  
+        ppropertyInfo->dwFields |= DEBUGPROP_INFO_TYPE;  
   
         VARIANT type;  
         if (SUCCEEDED(FieldGetType( m_field, &type )))  
@@ -220,14 +220,14 @@ STDMETHODIMP CFieldProperty::GetPropertyInfo(
   
     if (infoFlags & DEBUGPROP_INFO_PROP)  
     {  
-        ppropertyInfo->dwFields     |= DEBUGPROP_INFO_PROP;  
+        ppropertyInfo->dwFields |= DEBUGPROP_INFO_PROP;  
         QueryInterface( IID_IDebugProperty2,  
                         reinterpret_cast<void**>(&(ppropertyInfo->pProperty)) );  
     }  
   
     if (infoFlags & DEBUGPROP_INFO_VALUE)  
     {  
-        ppropertyInfo->dwFields   |= DEBUGPROP_INFO_VALUE;  
+        ppropertyInfo->dwFields |= DEBUGPROP_INFO_VALUE;  
   
         //only show primitive values  
         VARIANT value;  
@@ -249,7 +249,7 @@ STDMETHODIMP CFieldProperty::GetPropertyInfo(
   
     if (infoFlags & DEBUGPROP_INFO_ATTRIB)  
     {  
-        ppropertyInfo->dwFields   |= DEBUGPROP_INFO_ATTRIB;  
+        ppropertyInfo->dwFields |= DEBUGPROP_INFO_ATTRIB;  
   
         FIELD_MODIFIERS   modifiers = m_fieldInfo.dwModifiers;  
         DBG_ATTRIB_FLAGS  attrib    = DBG_ATTRIB_NONE;  

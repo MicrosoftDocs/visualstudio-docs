@@ -44,7 +44,7 @@ In the Source Control Plug-in API Version 1.2, a user can specify a single root 
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], it is suggested that the name for the SUR folder be the same as the solution name without the extension. The following table summarizes the behavior in the two versions.  
   
 |Feature|Source Control Plug-in API Version 1.1|Source Control Plug-in API Version 1.2|  
-|-------------|----------------------------------------------|---------------------------------------------|  
+|-------------| - | - |  
 |Add solution to SCC|SccInitialize()<br /><br /> SccGetProjPath()<br /><br /> SccGetProjPath()<br /><br /> SccOpenProject()|SccInitialize()<br /><br /> SccGetProjPath()<br /><br /> SccCreateSubProject()<br /><br /> SccCreateSubProject()<br /><br /> SccOpenProject()|  
 |Add project to source-controlled solution|SccGetProjPath()<br /><br /> OpenProject()|SccGetParentProjectPath()<br /><br /> SccOpenProject()<br /><br />  **Note:**  Visual Studio assumes that a solution is a direct child of the SUR.|  
   
