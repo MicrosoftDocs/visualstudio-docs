@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2230: Use params for variable arguments
+
 |||
 |-|-|
 |TypeName|UseParamsForVariableArguments|

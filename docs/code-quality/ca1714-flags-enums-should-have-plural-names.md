@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1714: Flags enums should have plural names
+
 |||
 |-|-|
 |TypeName|FlagsEnumsShouldHavePluralNames|

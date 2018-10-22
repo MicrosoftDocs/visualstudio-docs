@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2228: Do not ship unreleased resource formats
+
 |||
 |-|-|
 |TypeName|DoNotShipUnreleasedResourceFormats|

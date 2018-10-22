@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2207: Initialize value type static fields inline
+
 |||
 |-|-|
 |TypeName|InitializeValueTypeStaticFieldsInline|

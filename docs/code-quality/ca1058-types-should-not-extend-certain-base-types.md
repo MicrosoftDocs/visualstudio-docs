@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1058: Types should not extend certain base types
+
 |||
 |-|-|
 |TypeName|TypesShouldNotExtendCertainBaseTypes|

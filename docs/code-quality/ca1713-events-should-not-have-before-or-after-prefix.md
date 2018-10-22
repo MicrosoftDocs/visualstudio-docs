@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1713: Events should not have before or after prefix
+
 |||
 |-|-|
 |TypeName|EventsShouldNotHaveBeforeOrAfterPrefix|

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1010: Collections should implement generic interface
+
 |||
 |-|-|
 |TypeName|CollectionsShouldImplementGenericInterface|
