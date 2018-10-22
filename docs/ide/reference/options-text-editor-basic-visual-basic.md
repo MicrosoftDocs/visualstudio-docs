@@ -21,12 +21,12 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Options, Text Editor, Basic (Visual Basic)
+# Options, Text Editor, Basic (Visual Basic), Advanced
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box contains the following properties:
 
  **Enable highlighting of references and keywords**
 
-The text editor can highlight all instances of a symbol or all of the keywords in a clause such as `If..Then`, `While...End While`, or `Try...Catch...Finally`. You can navigate between highlighted references or keywords by pressing CTRL+SHIFT+DOWN ARROW or CTRL+SHIFT+UP ARROW.
+The text editor can highlight all instances of a symbol or all of the keywords in a clause such as `If..Then`, `While...End While`, or `Try...Catch...Finally`. You can navigate between highlighted references or keywords by pressing **Ctrl** + **Shift** + **Down arrow** or **Ctrl** + **Shift** + **Up arrow**.
 
 **Enable outlining mode**
 
@@ -34,7 +34,7 @@ When you open a file in the code editor, you can view the document in outlining 
 
 **Show procedure line separators**
 
-The text editor indicates visual scope of procedures. A line is drawn in the .vb source files of your project at locations listed in the following table:
+The text editor indicates visual scope of procedures. A line is drawn in the *.vb* source files of your project at locations listed in the following table:
 
 |Location in .vb Source File|Example of Line Location|
 |---------------------------------|------------------------------|
@@ -60,7 +60,8 @@ The text editor indicates visual scope of procedures. A line is drawn in the .vb
 -   Reformat dates
 
 **Automatic insertion of end constructs**
- When you type—for example, the first line of a procedure declaration, `Sub Main—`and press ENTER, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.
+
+ When you type—for example, the first line of a procedure declaration, `Sub Main—`and press **Enter**, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.
 
 **Automatic insertion of Interface and MustOverride members**
 
@@ -69,7 +70,6 @@ When you commit an `Implements` statement or an `Inherits` statement for a class
 **Enable error correction suggestions**
 
 The text editor can suggest solutions to common errors and allow you to select the appropriate correction, which is then applied to your code.
-
 
 ## See Also
 
