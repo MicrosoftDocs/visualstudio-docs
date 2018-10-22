@@ -215,7 +215,7 @@
     <None Include="res\help24.bmp" />
     <None Include="res\img_inte_hc.bmp" />
     <None Include="res\intellisense.bmp" />
-    <None Include="res\lable.bmp" />
+    <None Include="res\label.bmp" />
     <None Include="res\menuimages.bmp" />
     <None Include="res\menuimages24.bmp" />
     <None Include="res\optionsimages.bmp" />
