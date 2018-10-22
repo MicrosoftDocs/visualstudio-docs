@@ -326,8 +326,8 @@ Warning("A warning message");
 
    | | |
    |-|-|
-   | **Custom Tool =**  | **TextTemplatingFileGenerator** |
-   | **Build Action =** |            **None**             |
+   | **Custom Tool =** | **TextTemplatingFileGenerator** |
+   | **Build Action =** | **None** |
 
 
 5. Insert the following lines at the beginning of the file:

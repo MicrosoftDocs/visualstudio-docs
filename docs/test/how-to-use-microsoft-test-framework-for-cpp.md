@@ -32,7 +32,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
       | Directory | Property |
       |-|----------------------------------------------------|
       | **Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)** |
-      | **Library Directories** |   **$(VCInstallDir)UnitTest\lib;$(LibraryPath)**   |
+      | **Library Directories** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)** |
 
 
 2. Add a C++ Unit Test file:

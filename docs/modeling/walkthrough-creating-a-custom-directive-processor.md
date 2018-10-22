@@ -653,7 +653,7 @@ In this section, you add a key for your custom directive processor to the regist
 
    | Name | Type | Data |
    |-|-|-|
-   | (Default) | REG_SZ |                             (value not set)                              |
+   | (Default) | REG_SZ | (value not set) |
    | Class | REG_SZ | CustomDP.CustomDirectiveProcessor |
    | CodeBase | REG_SZ | <strong>\<Path to Your Solution></strong>CustomDP\bin\Debug\CustomDP.dll |
 
@@ -662,7 +662,7 @@ In this section, you add a key for your custom directive processor to the regist
 
    | Name | Type | Data |
    |-|-|-|
-   | (Default) | REG_SZ |          (value not set)          |
+   | (Default) | REG_SZ | (value not set) |
    | Class | REG_SZ | CustomDP.CustomDirectiveProcessor |
    | Assembly | REG_SZ | CustomDP.dll |
 
