@@ -15,9 +15,9 @@ ms.workload:
 
 Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you accumulate data (such as variable values, function calls, and events) over a period of time such as the time that you run your application. You can view the state of your application at different points during the execution of your code, or perform a post-mortem analysis of your application performance.
 
-|         |         |
+| | |
 |---------|---------|
-|  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171) on using the diagnostics tools that shows how to analyze CPU usage and how to analyze memory usage. |
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171) on using the diagnostics tools that shows how to analyze CPU usage and how to analyze memory usage. |
 
 ## Next steps
 

@@ -68,12 +68,12 @@ To have your application to install and run successfully, first install all comp
  If you change any bootstrapper options, you must change the unsigned bootstrapper and then later sign the bootstrapper file.  
 
 
-|          Command-line argument           |                                                                                                               Description                                                                                                               |
-|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            **-?, -h, -help**             |                                                                                                       Displays a Help dialog box.                                                                                                       |
-|         **-url, -componentsurl**         |                                                                                        Shows the stored URL and components url for this set up.                                                                                         |
-|           **-url=** `location`           |                                                     Sets the URL where *Setup.exe* will look for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.                                                     |
-|      **-componentsurl=** `location`      |                                             Sets the URL where *Setup.exe* will look for the dependencies, such as the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].                                             |
+| Command-line argument | Description |
+| - | - |
+| **-?, -h, -help** | Displays a Help dialog box. |
+| **-url, -componentsurl** | Shows the stored URL and components url for this set up. |
+| **-url=** `location` | Sets the URL where *Setup.exe* will look for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. |
+| **-componentsurl=** `location` | Sets the URL where *Setup.exe* will look for the dependencies, such as the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. |
 | **-homesite=** `true` **&#124;** `false` | When `true`, downloads the dependencies from the preferred location on the vendor's site. This setting overrides the **-componentsurl** setting. When `false`, downloads the dependencies from the URL specified by **-componentsurl**. |
 
 ## Operating system support  

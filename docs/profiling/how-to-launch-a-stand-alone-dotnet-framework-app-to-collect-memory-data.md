@@ -44,10 +44,10 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
      You can use any of the following options with the **/start:sample** option.  
 
-   |                              Option                              |                                                                  Description                                                                  |
-   |------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-   | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` |                                   Specifies a Windows performance counter to be collected during profiling.                                   |
-   |      [/automark](../profiling/automark.md) **:** `Interval`      | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
+   | Option | Description |
+   | - | - |
+   | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
+   | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
 
 
 3. Start the target application. Type:  

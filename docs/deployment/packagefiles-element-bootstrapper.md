@@ -50,13 +50,13 @@ The `PackageFiles` element contains `PackageFile` elements, which define the ins
  `PackageFile` has the following attributes.  
 
 
-|   Attribute   |                                                                                                                                                                                Description                                                                                                                                                                                |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    `Name`     | Required. The name of the package file. This is the name that the `Command` element will reference when it defines the conditions under which a package installs. This value is also used as a key into the `Strings` table to retrieve the localized name that tools such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will use to describe the package. |
-|  `HomeSite`   |                                                                                                                                   Optional. The location of the package on the remote server, if it is not included with the installer.                                                                                                                                   |
-| `CopyOnBuild` |                                                                                                                        Optional. Specifies whether the bootstrapper should copy the package file onto the disk at build time. The default is true.                                                                                                                        |
-|  `PublicKey`  |                                                                                                                            The encrypted public key of the package's certificate signer. Required if `HomeSite` is used; otherwise, optional.                                                                                                                             |
-|    `Hash`     |                                                                             Optional. An SHA1 hash of the package file. This is used to verify the integrity of the file at install time. If the identical hash cannot be computed from the package file, the package will not be installed.                                                                              |
+| Attribute | Description |
+|---------------| - |
+| `Name` | Required. The name of the package file. This is the name that the `Command` element will reference when it defines the conditions under which a package installs. This value is also used as a key into the `Strings` table to retrieve the localized name that tools such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will use to describe the package. |
+| `HomeSite` | Optional. The location of the package on the remote server, if it is not included with the installer. |
+| `CopyOnBuild` | Optional. Specifies whether the bootstrapper should copy the package file onto the disk at build time. The default is true. |
+| `PublicKey` | The encrypted public key of the package's certificate signer. Required if `HomeSite` is used; otherwise, optional. |
+| `Hash` | Optional. An SHA1 hash of the package file. This is used to verify the integrity of the file at install time. If the identical hash cannot be computed from the package file, the package will not be installed. |
 
 ## Example  
  The following code example defines packages for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] redistributable package and its dependencies, such as the Windows Installer.  

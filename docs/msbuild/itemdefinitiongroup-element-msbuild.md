@@ -53,8 +53,8 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 
 ### Parent elements  
 
-|                     Element                      |                                                        Description                                                         |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Element | Description |
+| - | - |
 | [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
 
 ## Example  

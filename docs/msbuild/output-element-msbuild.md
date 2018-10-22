@@ -54,8 +54,8 @@ Stores task output values in items and properties.
 
 ### Parent elements  
 
-|                  Element                   |                                                          Description                                                          |
-|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Element | Description |
+| - | - |
 | [Task](../msbuild/task-element-msbuild.md) | Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. |
 
 ## Example  

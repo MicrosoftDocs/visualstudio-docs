@@ -78,57 +78,57 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
  Represents the source files for the compiler.  
 
 
-|  Item metadata name   |                                                                                      Description                                                                                      |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     DependentUpon     |                                                    Optional string. Specifies the file this file depends on to compile correctly.                                                     |
-|        AutoGen        | Optional boolean. Indicates whether the file was generated for the project by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). |
-|         Link          |                          Optional string. The notational path to be displayed when the file is physically located outside the influence of the project file.                          |
-|        Visible        |                    Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].                     |
-| CopyToOutputDirectory |                Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest                |
+| Item metadata name | Description |
+|-----------------------| - |
+| DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
+| AutoGen | Optional boolean. Indicates whether the file was generated for the project by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). |
+| Link | Optional string. The notational path to be displayed when the file is physically located outside the influence of the project file. |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
 ### EmbeddedResource  
  Represents resources to be embedded in the generated assembly.  
 
 
-|  Item metadata name   |                                                                       Description                                                                       |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     DependentUpon     |                                      Optional string. Specifies the file this file depends on to compile correctly                                      |
-|       Generator       |                                        Required string. The name of any file generator that is run on this item.                                        |
-|     LastGenOutput     |                           Required string. The name of the file that was created by any file generator that ran on this item.                           |
-|  CustomToolNamespace  |                          Required string. The namespace in which any file generator that runs on this item should create code.                          |
-|         Link          |                Optional string. The notational path is displayed if the file is physically located outside the influence of the project.                |
-|        Visible        |     Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].      |
+| Item metadata name | Description |
+|-----------------------| - |
+| DependentUpon | Optional string. Specifies the file this file depends on to compile correctly |
+| Generator | Required string. The name of any file generator that is run on this item. |
+| LastGenOutput | Required string. The name of the file that was created by any file generator that ran on this item. |
+| CustomToolNamespace | Required string. The namespace in which any file generator that runs on this item should create code. |
+| Link | Optional string. The notational path is displayed if the file is physically located outside the influence of the project. |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
-|      LogicalName      |                                               Required string. The logical name of the embedded resource.                                               |
+| LogicalName | Required string. The logical name of the embedded resource. |
 
 ### Content  
  Represents files that are not compiled into the project, but may be embedded or published together with it.  
 
 
-|  Item metadata name   |                                                                          Description                                                                           |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     DependentUpon     |                                         Optional string. Specifies the file this file depends on to compile correctly.                                         |
-|       Generator       |                                            Required string. The name of any file generator that runs on this item.                                             |
-|     LastGenOutput     |                            Required string. The name of the file that was created by any file generator that was run on this item.                             |
-|  CustomToolNamespace  |                             Required string. The namespace in which any file generator that runs on this item should create code.                              |
-|         Link          |                  Optional string. The notational path to be displayed if the file is physically located outside the influence of the project.                  |
-|     PublishState      | Required string. The publish state of the content, either:<br /><br /> -   Default<br />-   Included<br />-   Excluded<br />-   DataFile<br />-   Prerequisite |
-|      IsAssembly       |                                                  Optional boolean. Specifies whether the file is an assembly.                                                  |
-|        Visible        |         Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].         |
-| CopyToOutputDirectory |    Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest     |
+| Item metadata name | Description |
+|-----------------------| - |
+| DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
+| Generator | Required string. The name of any file generator that runs on this item. |
+| LastGenOutput | Required string. The name of the file that was created by any file generator that was run on this item. |
+| CustomToolNamespace | Required string. The namespace in which any file generator that runs on this item should create code. |
+| Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
+| PublishState | Required string. The publish state of the content, either:<br /><br /> -   Default<br />-   Included<br />-   Excluded<br />-   DataFile<br />-   Prerequisite |
+| IsAssembly | Optional boolean. Specifies whether the file is an assembly. |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
 ### None  
  Represents files that should have no role in the build process.  
 
 
-|  Item metadata name   |                                                                       Description                                                                       |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     DependentUpon     |                                     Optional string. Specifies the file this file depends on to compile correctly.                                      |
-|       Generator       |                                        Required string. The name of any file generator that is run on this item.                                        |
-|     LastGenOutput     |                           Required string. The name of the file that was created by any file generator that ran on this item.                           |
-|  CustomToolNamespace  |                          Required string. The namespace in which any file generator that runs on this item should create code.                          |
-|         Link          |              Optional string. The notational path to be displayed if the file is physically located outside the influence of the project.               |
-|        Visible        |     Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].      |
+| Item metadata name | Description |
+|-----------------------| - |
+| DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
+| Generator | Required string. The name of any file generator that is run on this item. |
+| LastGenOutput | Required string. The name of the file that was created by any file generator that ran on this item. |
+| CustomToolNamespace | Required string. The namespace in which any file generator that runs on this item should create code. |
+| Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
 ### BaseApplicationManifest  

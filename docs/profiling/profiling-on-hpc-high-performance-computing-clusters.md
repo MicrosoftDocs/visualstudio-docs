@@ -46,11 +46,11 @@ To profile on a HPC compute node, you must do the following:
 
     3. `clusrun /all /scheduler:` *%HeadNode% %ProfilerPath%* `/q /norestart`
 
-|                  |                                                                                                                                                                                                   |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   *%HeadNode%*   |                                                                              Name of the head node for the cluster.                                                                               |
-|    *%FxPath%*    | Path to the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
-| *%ProfilerPath%* |                   Path to the standalone version of the Profiling Tools installer. On the Visual Studio installation media the path is: Standalone Profiler\x64\vs_profiler.exe                   |
+| | |
+|------------------| - |
+| *%HeadNode%* | Name of the head node for the cluster. |
+| *%FxPath%* | Path to the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
+| *%ProfilerPath%* | Path to the standalone version of the Profiling Tools installer. On the Visual Studio installation media the path is: Standalone Profiler\x64\vs_profiler.exe |
 
 ## Profile on an HPC compute node
 
@@ -131,17 +131,17 @@ You can change the performance session properties that you set on the HPC Profil
 
 ### Advanced properties
 
-|               Property                |                                                                                                                                                                   Description                                                                                                                                                                   |
-|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|           **Project name**            |                                                                                                           The name of the current [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] project or solution.                                                                                                            |
+| Property | Description |
+|---------------------------------------| - |
+| **Project name** | The name of the current [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] project or solution. |
 | **Clean up when profiler is stopped** | When true, removes the binaries that have been deployed to the execution directory. Files and directories created by the user program are not removed in this step. If the execution directory and deployment directory were created by the IDE, the IDE attempts to remove them but does not do so if they have files not deployed by the IDE. |
-|    **Additional files to deploy**     |                                                                             Specifies a semicolon separated list of any additional files to deploy on the compute node. You can click the ellipsis button (**...**) to select multiple files by using a dialog box.                                                                             |
-|          **Mpiexec command**          |                                                                                                                         Specifies the application that starts the MPI application. The default value is **mpiexec.exe**                                                                                                                         |
-|         **Mpiexec arguments**         |                                                                                                                                           Specifies the arguments to pass to the mpiexec.exe command.                                                                                                                                           |
-|  **Requested nodes on the cluster**   |                                                                                                                                  Specifies the number of nodes on the cluster on which to run the application.                                                                                                                                  |
-|         **Deploy CRT files**          |                                                                                                                                              When true, deploys the C/C++ run time on the cluster.                                                                                                                                              |
-|        **Pre-profile script**         |                                                                                                           Specifies the path and file name of a script to run on the local development computer before the profiling session starts.                                                                                                            |
-|   **Pre-profile script arguments**    |                                                                                                                                           Specifies the arguments to pass to the pre-profile script.                                                                                                                                            |
-|        **Post-profile script**        |                                                                                                             Specifies the path and file name of a script to run on the local development computer after the profiling session ends.                                                                                                             |
-|   **Post-profile script arguments**   |                                                                                                                                           Specifies the arguments to pass to the post-profile script.                                                                                                                                           |
+| **Additional files to deploy** | Specifies a semicolon separated list of any additional files to deploy on the compute node. You can click the ellipsis button (**...**) to select multiple files by using a dialog box. |
+| **Mpiexec command** | Specifies the application that starts the MPI application. The default value is **mpiexec.exe** |
+| **Mpiexec arguments** | Specifies the arguments to pass to the mpiexec.exe command. |
+| **Requested nodes on the cluster** | Specifies the number of nodes on the cluster on which to run the application. |
+| **Deploy CRT files** | When true, deploys the C/C++ run time on the cluster. |
+| **Pre-profile script** | Specifies the path and file name of a script to run on the local development computer before the profiling session starts. |
+| **Pre-profile script arguments** | Specifies the arguments to pass to the pre-profile script. |
+| **Post-profile script** | Specifies the path and file name of a script to run on the local development computer after the profiling session ends. |
+| **Post-profile script arguments** | Specifies the arguments to pass to the post-profile script. |
 

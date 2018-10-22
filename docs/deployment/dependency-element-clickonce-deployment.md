@@ -75,13 +75,13 @@ Identifies the version of the application to install, and the location of the ap
  Required. This element contains the `assemblyIdentity` element. The following table shows the attributes the `dependentAssembly` supports.  
 
 
-|    Attribute     |                                                                                                                                Description                                                                                                                                 |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  `preRequisite`  |                                Optional. Specifies that this assembly should already exist in the GAC. Valid values are `true` and `false`. If `true`, and the specified assembly does not exist in the GAC, the application fails to run.                                 |
-|    `visible`     |                          Optional. Identifies the top-level application identity, including its dependencies. Used internally by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] to manage application storage and activation.                           |
+| Attribute | Description |
+|------------------| - |
+| `preRequisite` | Optional. Specifies that this assembly should already exist in the GAC. Valid values are `true` and `false`. If `true`, and the specified assembly does not exist in the GAC, the application fails to run. |
+| `visible` | Optional. Identifies the top-level application identity, including its dependencies. Used internally by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] to manage application storage and activation. |
 | `dependencyType` | Required. The relationship between this dependency and the application. Valid values are:<br /><br /> -   `install`. Component represents a separate installation from the current application.<br />-   `preRequisite`. Component is required by the current application. |
-|    `codebase`    |                                                                                                            Optional. The full path to the application manifest.                                                                                                            |
-|      `size`      |                                                                                                         Optional. The size of the application manifest, in bytes.                                                                                                          |
+| `codebase` | Optional. The full path to the application manifest. |
+| `size` | Optional. The size of the application manifest, in bytes. |
 
 ## assemblyIdentity  
  Required. This element is a child of the `dependentAssembly` element. The content of `assemblyIdentity` must be the same as described in the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. The following table shows the attributes of the `assemblyIdentity` element.  
@@ -107,16 +107,16 @@ Identifies the version of the application to install, and the location of the ap
  The `dsig:Transform` element is a required child of the `dsig:Transforms` element. The following table shows the attributes of the `dsig:Transform` element.  
 
 
-|  Attribute  |                                                                                                     Description                                                                                                      |
-|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Attribute | Description |
+|-------------| - |
 | `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
 
 ## dsig:DigestMethod  
  The `dsig:DigestMethod` element is a required child of the `hash` element. The following table shows the attributes of the `dsig:DigestMethod` element.  
 
 
-|  Attribute  |                                                                                                Description                                                                                                |
-|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Attribute | Description |
+|-------------| - |
 | `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `http://www.w3.org/2000/09/xmldsig#sha1`. |
 
 ## dsig:DigestValue  

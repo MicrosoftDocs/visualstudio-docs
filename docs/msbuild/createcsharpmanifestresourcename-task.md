@@ -26,13 +26,13 @@ Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest
  The following table describes the parameters of the [CreateCSharpManifestResourceName task](../msbuild/createcsharpmanifestresourcename-task.md).  
 
 
-|                Parameter                 |                                                                              Description                                                                               |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|         `ManifestResourceNames`          |                         <xref:Microsoft.Build.Framework.ITaskItem> `[]` output read-only parameter.<br /><br /> The resulting manifest names.                          |
-|             `ResourceFiles`              | Required `String` parameter.<br /><br /> The name of the resource file from which to create the [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] manifest name. |
-|             `RootNamespace`              |                Optional `String` parameter.<br /><br /> The root namespace of the resource file, typically taken from the project file. May be `null`.                 |
-|       `PrependCultureAsDirectory`        |  Optional `Boolean` parameter.<br /><br /> If `true`, the culture name is added as a directory name just before the manifest resource name. Default value is `true`.   |
-| `ResourceFilesWithManifestResourceNames` |             Optional read-only `String` output parameter.<br /><br /> Returns the name of the resource file that now includes the manifest resource name.              |
+| Parameter | Description |
+| - | - |
+| `ManifestResourceNames` | <xref:Microsoft.Build.Framework.ITaskItem> `[]` output read-only parameter.<br /><br /> The resulting manifest names. |
+| `ResourceFiles` | Required `String` parameter.<br /><br /> The name of the resource file from which to create the [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] manifest name. |
+| `RootNamespace` | Optional `String` parameter.<br /><br /> The root namespace of the resource file, typically taken from the project file. May be `null`. |
+| `PrependCultureAsDirectory` | Optional `Boolean` parameter.<br /><br /> If `true`, the culture name is added as a directory name just before the manifest resource name. Default value is `true`. |
+| `ResourceFilesWithManifestResourceNames` | Optional read-only `String` output parameter.<br /><br /> Returns the name of the resource file that now includes the manifest resource name. |
 
 ## Remarks  
  The [CreateVisualBasicManifestResourceName task](../msbuild/createvisualbasicmanifestresourcename-task.md) determines the appropriate manifest resource name to assign to a given *.resx* or other resource file. The task provides a logical name to a resource file, and then attaches it to an output parameter as metadata.  

@@ -28,12 +28,12 @@ Stops a build and logs an error based on an evaluated conditional statement.
  The following table describes the parameters of the `Error` task.  
 
 
-|   Parameter   |                                                                                             Description                                                                                              |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    `Code`     |                                                         Optional `String` parameter.<br /><br /> The error code to associate with the error.                                                         |
-|    `File`     |                 Optional `String` parameter.<br /><br /> The name of the file that contains the error. If no file name is provided, the file containing the Error task will be used.                 |
-| `HelpKeyword` |                                                        Optional `String` parameter.<br /><br /> The Help keyword to associate with the error.                                                        |
-|    `Text`     | Optional `String` parameter.<br /><br /> The error text that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] logs if the `Condition` parameter evaluates to `true`. |
+| Parameter | Description |
+|---------------| - |
+| `Code` | Optional `String` parameter.<br /><br /> The error code to associate with the error. |
+| `File` | Optional `String` parameter.<br /><br /> The name of the file that contains the error. If no file name is provided, the file containing the Error task will be used. |
+| `HelpKeyword` | Optional `String` parameter.<br /><br /> The Help keyword to associate with the error. |
+| `Text` | Optional `String` parameter.<br /><br /> The error text that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] logs if the `Condition` parameter evaluates to `true`. |
 
 ## Remarks  
  The `Error` task allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects to issue error text to loggers and stop build execution.  

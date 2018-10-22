@@ -28,9 +28,9 @@ Populates properties with the values passed in. This allows values to be copied 
  The following table describes the parameters of the `CreateProperty` task.  
 
 
-|    Parameter     |                                                                                                                                                                Description                                                                                                                                                                 |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     `Value`      |                                                                                                                      Optional `String` output parameter.<br /><br /> Specifies the value to copy to the new property.                                                                                                                      |
+| Parameter | Description |
+|------------------| - |
+| `Value` | Optional `String` output parameter.<br /><br /> Specifies the value to copy to the new property. |
 | `ValueSetByTask` | Optional `String` output parameter.<br /><br /> Contains the same value as the `Value` parameter. Use this parameter only when you want to avoid having the output property set by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] when it skips the enclosing target because the outputs are up-to-date. |
 
 ## Remarks  

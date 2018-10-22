@@ -42,9 +42,9 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 3. Add the following attribute name and value to the **assemblyBinding** element:  
 
 
-   | Attribute Name |           Attribute Value            |
+   | Attribute Name | Attribute Value |
    |----------------|--------------------------------------|
-   |   **Xmlns**    | **urn:schemas-microsoft-com:asm.v1** |
+   | **Xmlns** | **urn:schemas-microsoft-com:asm.v1** |
 
 
 4. Add a **dependentAssembly** element as a child element of the **assemblyBinding** element.  
@@ -56,11 +56,11 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 6. Add the following attribute names and values to the **assemblyIdentity** element:  
 
 
-   |   Attribute Name   |                  Attribute Value                   |
-   |--------------------|----------------------------------------------------|
-   |      **name**      | **Microsoft.VisualStudio.Enterprise.ASPNetHelper** |
-   | **PublicKeyToken** |                **b03f5f7f11d50a3a**                |
-   |    **culture**     |                    **Neutral**                     |
+   | Attribute Name | Attribute Value |
+   |--------------------| - |
+   | **name** | **Microsoft.VisualStudio.Enterprise.ASPNetHelper** |
+   | **PublicKeyToken** | **b03f5f7f11d50a3a** |
+   | **culture** | **Neutral** |
 
 
 7. Add a **codeBase** element as a child of the **dependentAssembly** element.  
@@ -138,10 +138,10 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 3. Add the following attribute names and values to the **add** element:  
 
 
-   | Attribute Name |                          Attribute Value                           |
-   |----------------|--------------------------------------------------------------------|
-   |    **key**     | **Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation** |
-   |   **value**    |             `PerformanceToolsFolder` **\VSInstr.Exe**              |
+   | Attribute Name | Attribute Value |
+   |----------------| - |
+   | **key** | **Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation** |
+   | **value** | `PerformanceToolsFolder` **\VSInstr.Exe** |
 
 
 4. Add another **add** element as a child of the **appSettings** element.  

@@ -50,8 +50,8 @@ Causes one or more targets to execute, if the `ContinueOnError` attribute is `fa
 
 ### Parent elements  
 
-|                    Element                     |                                                  Description                                                  |
-|------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Element | Description |
+| - | - |
 | [Target](../msbuild/target-element-msbuild.md) | Container element for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks. |
 
 ## Remarks  

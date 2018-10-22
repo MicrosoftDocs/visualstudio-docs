@@ -91,12 +91,12 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports installing applications from any HTTP 1.1 Web server or file server. FTP, the File Transfer Protocol, is not supported for installing applications. You can use FTP to publish applications only. The following table summarizes these differences:  
 
 
-| URL Type |                                                       Description                                                       |
-|----------|-------------------------------------------------------------------------------------------------------------------------|
-|  ftp://  | You can publish a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
-| http://  | You can install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
+| URL Type | Description |
+|----------| - |
+| ftp:// | You can publish a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
+| http:// | You can install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
 | https:// | You can install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
-| file://  | You can install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
+| file:// | You can install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
 
 ## Windows XP SP2: Windows Firewall  
  By default, Windows XP SP2 enables the Windows Firewall. If you are developing your application on a computer that has Windows XP installed, you are still able to publish and run [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications from the local server that is running IIS. However, you cannot access that server that is running IIS from another computer unless you open the Windows Firewall. See Windows Help for instructions on managing the Windows Firewall.  

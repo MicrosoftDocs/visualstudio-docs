@@ -65,10 +65,10 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
  Required. Must be a child of the `entryPoint` element. It has no child elements and has the following attributes.  
 
 
-|  Attribute   |                                                                                                        Description                                                                                                        |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    `file`    | Required. A local reference to the startup assembly for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This value cannot contain forward slash (/) or backslash (\\) path separators. |
-| `parameters` |                                       Required. Describes the action to take with the entry point. The only valid value is `run`; if a blank string is supplied, `run` is assumed.                                        |
+| Attribute | Description |
+|--------------| - |
+| `file` | Required. A local reference to the startup assembly for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This value cannot contain forward slash (/) or backslash (\\) path separators. |
+| `parameters` | Required. Describes the action to take with the entry point. The only valid value is `run`; if a blank string is supplied, `run` is assumed. |
 
 ## customHostRequired  
  Optional. If included, specifies that this deployment contains a component that will be deployed inside of a custom host, and is not a stand-alone application.  

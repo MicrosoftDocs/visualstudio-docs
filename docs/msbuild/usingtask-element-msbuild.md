@@ -58,8 +58,8 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
 ### Parent elements  
 
-|                     Element                      |                                                        Description                                                         |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Element | Description |
+| - | - |
 | [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
 
 ## Remarks  

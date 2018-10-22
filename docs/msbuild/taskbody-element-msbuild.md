@@ -49,8 +49,8 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
 
 ### Parent elements  
 
-|                       Element                        |                                                                                    Description                                                                                     |
-|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Element | Description |
+| - | - |
 | [UsingTask](../msbuild/usingtask-element-msbuild.md) | Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project. |
 
 ## Example  

@@ -47,13 +47,13 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
      You can use any one of the following options with the **/start:sample** option.  
 
-   |                                 Option                                  |                                                                                                  Description                                                                                                  |
-   |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   | Option | Description |
+   | - | - |
    | [/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName` | Specifies the optional domain and user name of the account that owns the profiled process. This option is required only if the profiled application has been started as a user other than the logged on user. |
-   |              [/crosssession](../profiling/crosssession.md)              |   Enables profiling of processes in other logon sessions. **/CS** can be specified as an abbreviation for **/crosssession**. This option is required if the application is running in a different session.    |
-   |    [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`     |                                                                   Specifies a Windows performance counter to be collected during profiling.                                                                   |
-   |         [/automark](../profiling/automark.md) **:** `Interval`          |                                 Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.                                 |
-   |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                  Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file.                                   |
+   | [/crosssession](../profiling/crosssession.md) | Enables profiling of processes in other logon sessions. **/CS** can be specified as an abbreviation for **/crosssession**. This option is required if the application is running in a different session. |
+   | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
+   | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
+   | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
 
 
 4. If necessary, start the target application in the typical way.  

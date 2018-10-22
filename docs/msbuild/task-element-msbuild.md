@@ -54,8 +54,8 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 
 ### Parent elements  
 
-|                    Element                     |                                                  Description                                                  |
-|------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Element | Description |
+| - | - |
 | [Target](../msbuild/target-element-msbuild.md) | Container element for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks. |
 
 ## Remarks  

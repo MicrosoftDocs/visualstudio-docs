@@ -53,8 +53,8 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
 
 ### Parent elements  
 
-|                     Element                      |                                                        Description                                                         |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Element | Description |
+| - | - |
 | [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
 
 ## Example  

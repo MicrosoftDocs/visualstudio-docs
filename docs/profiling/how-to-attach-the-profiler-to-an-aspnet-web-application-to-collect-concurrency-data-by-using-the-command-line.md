@@ -32,13 +32,13 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
      You can use any option in the following table with the **/start** option.  
 
-   |                               Option                               |                                                                     Description                                                                      |
-   |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | [/user](../profiling/user-vsperfcmd.md) **:**[`Domain\`]`UserName` |                           Specifies the optional domain and user name of the account to be granted access to the profiler.                           |
-   |           [/crosssession](../profiling/crosssession.md)            |                                               Enables profiling of processes in other logon sessions.                                                |
-   |  [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`  |                                      Specifies a Windows performance counter to be collected during profiling.                                       |
-   |       [/automark](../profiling/automark.md) **:** `Interval`       | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. The default value is 500. |
-   |     [/events](../profiling/events-vsperfcmd.md) **:** `Config`     |      Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file.      |
+   | Option | Description |
+   | - | - |
+   | [/user](../profiling/user-vsperfcmd.md) **:**[`Domain\`]`UserName` | Specifies the optional domain and user name of the account to be granted access to the profiler. |
+   | [/crosssession](../profiling/crosssession.md) | Enables profiling of processes in other logon sessions. |
+   | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
+   | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. The default value is 500. |
+   | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
 
 
 2. Start the ASP.NET application in the typical way.  

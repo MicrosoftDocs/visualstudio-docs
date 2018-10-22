@@ -49,10 +49,10 @@ Imports the contents of one project file into another project file.
 
 ### Parent elements  
 
-|                     Element                      |                                                        Description                                                         |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Element | Description |
+| - | - |
 | [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
-| [ImportGroup](../msbuild/importgroup-element.md) |                      Contains a collection of `Import` elements grouped under an optional condition.                       |
+| [ImportGroup](../msbuild/importgroup-element.md) | Contains a collection of `Import` elements grouped under an optional condition. |
 
 ## Remarks  
  By using the `Import` element, you can reuse code that is common to many project files. This makes it easier to maintain the code because any updates you make to the shared code get propagated to all the projects that import it.  

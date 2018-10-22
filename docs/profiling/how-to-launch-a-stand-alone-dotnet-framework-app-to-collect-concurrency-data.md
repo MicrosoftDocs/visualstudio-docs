@@ -33,24 +33,24 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
    - The [/start](../profiling/start.md) option initializes the profiler.  
 
 
-     |                                     |                                                                        |
-     |-------------------------------------|------------------------------------------------------------------------|
-     |       **/start:concurrency**        | Enables collecting both resource contention and thread execution data. |
-     | **/start:concurrency,resourceonly** |           Enables collecting only resource contention data.            |
-     |  **/start:concurrency,threadonly**  |             Enables collecting only thread execution data.             |
+     | | |
+     |-------------------------------------| - |
+     | **/start:concurrency** | Enables collecting both resource contention and thread execution data. |
+     | **/start:concurrency,resourceonly** | Enables collecting only resource contention data. |
+     | **/start:concurrency,threadonly** | Enables collecting only thread execution data. |
 
 
    - The [/output](../profiling/output.md)**:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.vsp) file.  
 
      You can use any of the following options with the **/start:concurrency** option.  
 
-   |                               Option                               |                                                                  Description                                                                  |
-   |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-   | [/user](../profiling/user-vsperfcmd.md) **:**[`domain\`]`username` |                       Specifies the optional domain and user name of the account to be granted access to the profiler.                        |
-   |           [/crosssession](../profiling/crosssession.md)            |                                            Enables profiling of processes in other logon sessions.                                            |
-   |  [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`  |                                   Specifies a Windows performance counter to be collected during profiling.                                   |
-   |       [/automark](../profiling/automark.md) **:** `Interval`       | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
-   |     [/events](../profiling/events-vsperfcmd.md) **:** `Config`     |  Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file.   |
+   | Option | Description |
+   | - | - |
+   | [/user](../profiling/user-vsperfcmd.md) **:**[`domain\`]`username` | Specifies the optional domain and user name of the account to be granted access to the profiler. |
+   | [/crosssession](../profiling/crosssession.md) | Enables profiling of processes in other logon sessions. |
+   | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
+   | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
+   | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
 
 
 3. Start the target application. Type:  

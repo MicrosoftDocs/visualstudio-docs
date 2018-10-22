@@ -26,12 +26,12 @@ You can use the performance session **Method** property to specify the most appr
 
 - On the first page of the wizard, select one of the following options:
 
-|           Option           |                                                                 Description                                                                 |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|      **CPU Sampling**      |               Collects application statistics that are useful for initial analysis and for analyzing CPU utilization issues.                |
-|    **Instrumentation**     |            Collects detailed timing data that are useful for focused analysis and for analyzing input/output performance issues.            |
+| Option | Description |
+|----------------------------| - |
+| **CPU Sampling** | Collects application statistics that are useful for initial analysis and for analyzing CPU utilization issues. |
+| **Instrumentation** | Collects detailed timing data that are useful for focused analysis and for analyzing input/output performance issues. |
 | **.NET Memory Allocation** | Collects [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] memory allocation data by using the sampling profiling method. |
-|      **Concurrency**       |                                                 Collects numeric resource contention data.                                                  |
+| **Concurrency** | Collects numeric resource contention data. |
 
 ## Performance Explorer
 

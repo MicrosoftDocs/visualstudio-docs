@@ -26,12 +26,12 @@ Invokes the specified targets within the project file.
  The following table describes the parameters of the `CallTarget` task.  
 
 
-|         Parameter         |                                                                                                                                                                         Description                                                                                                                                                                          |
-|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Parameter | Description |
+|---------------------------| - |
 | `RunEachTargetSeparately` | Optional `Boolean` input parameter.<br /><br /> If `true`, the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine is called once per target. If `false`, the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine is called once to build all targets. The default value is `false`. |
-|      `TargetOutputs`      |                                                                                                               Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the outputs of all built targets.                                                                                                               |
-|         `Targets`         |                                                                                                                                     Optional `String[]` parameter.<br /><br /> Specifies the target or targets to build.                                                                                                                                     |
-|     `UseResultsCache`     |                                                 Optional `Boolean` parameter.<br /><br /> If `true`, the cached result is returned if present.<br /><br /> **Note** When an MSBuild task is run, its output is cached in a scope (ProjectFileName, GlobalProperties)[TargetNames] as a list of build items.                                                  |
+| `TargetOutputs` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the outputs of all built targets. |
+| `Targets` | Optional `String[]` parameter.<br /><br /> Specifies the target or targets to build. |
+| `UseResultsCache` | Optional `Boolean` parameter.<br /><br /> If `true`, the cached result is returned if present.<br /><br /> **Note** When an MSBuild task is run, its output is cached in a scope (ProjectFileName, GlobalProperties)[TargetNames] as a list of build items. |
 
 ## Remarks  
  If a target specified in `Targets` fails and `RunEachTargetSeparately` is `true`, the task continues to build the remaining targets.  
