@@ -64,7 +64,7 @@ If you have difficulty reading or handling printed materials, you can obtain the
 In addition, you can obtain additional Microsoft publications from Learning Ally. Learning Ally distributes these documents to registered, eligible members of their distribution service. For information about the availability of Microsoft product documentation and books from Microsoft Press, contact:
 
 |Learning Ally|
-|----------------------------------------------|
+| - |
 |20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Learning Ally website: [http://www.learningally.org](http://www.learningally.org/).|
 
 Web addresses can change, so you might be unable to connect to the website or sites mentioned here.

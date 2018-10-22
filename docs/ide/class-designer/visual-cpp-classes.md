@@ -126,9 +126,9 @@ For more information about anonymous classes, see [Anonymous Class Types](/cpp/c
 **Class Designer** supports the visualization of template classes. Nested declarations are supported. The following table shows some typical declarations.
 
 
-|                                Code element                                |         Class Designer view          |
-|----------------------------------------------------------------------------|--------------------------------------|
-|               `template <class T>`<br /><br /> `class A {};`               |  `A<T>`<br /><br /> Template Class   |
+| Code element | Class Designer view |
+| - | - |
+|               `template <class T>`<br /><br /> `class A {};`               |  `A<T>`<br /><br /> Template Class |
 |          `template <class T, class U>`<br /><br /> `class A {};`           | `A<T, U>`<br /><br /> Template Class |
 |           `template <class T, int i>`<br /><br /> `class A {};`            | `A<T, i>`<br /><br /> Template Class |
 | `template <class T, template <class K> class U>`<br /><br /> `class A {};` | `A<T, U>`<br /><br /> Template Class |
@@ -136,7 +136,7 @@ For more information about anonymous classes, see [Anonymous Class Types](/cpp/c
 The following table shows some examples of partial specialization.
 
 |Code element|Class Designer view|
-|------------------|-------------------------|
+|------------------| - |
 |`template<class T, class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> Template Class|
 |`template<class T>`<br /><br /> `class A<T, T> {};`|`A<T, T>`<br /><br /> Template Class|
 |`template <class T>`<br /><br /> `class A<T, int> {};`|`A<T, int>`<br /><br /> Template Class|
@@ -145,13 +145,13 @@ The following table shows some examples of partial specialization.
 The following table shows some examples of inheritance in partial specialization.
 
 |Code element|Class Designer view|
-|------------------|-------------------------|
+|------------------| - |
 |`template <class T, class U>`<br /><br /> `class A {};`<br /><br /> `template <class TC>`<br /><br /> `class A<T, int> {};`<br /><br /> `class B : A<int, float>`<br /><br /> `{};`<br /><br /> `class C : A<int, int>`<br /><br /> `{};`|`A<T, U>`<br /><br /> Template Class<br /><br /> `B`<br /><br /> Class<br /><br /> (points to Class A)<br /><br /> `C`<br /><br /> Class<br /><br /> (points to Class A)|
 
 The following table shows some examples of partial specialization template functions.
 
 |Code element|Class Designer view|
-|------------------|-------------------------|
+|------------------| - |
 |`class A`<br /><br /> `{`<br /><br /> `template <class T, class U>`<br /><br /> `void func(T a, U b);`<br /><br /> `template <class T>`<br /><br /> `void func(T a, int b);`<br /><br /> `};`|`A`<br /><br /> func\<T, U> (+ 1 overload)|
 |`template <class T1>`<br /><br /> `class A {`<br /><br /> `template <class T2>`<br /><br /> `class B {};`<br /><br /> `};`<br /><br /> `template<> template<>`<br /><br /> `class A<type>::B<type> {};`|`A<T1>`<br /><br /> Template Class<br /><br /> `B<T2>`<br /><br /> Template Class<br /><br /> (B is contained within class A under **Nested Types**)|
 |`template <class T>`<br /><br /> `class C {};`<br /><br /> `class A : C<int> {};`|`A`<br /><br /> Class<br /><br /> -> C\<int><br /><br /> `C<T>`<br /><br /> Template Class|
@@ -159,13 +159,13 @@ The following table shows some examples of partial specialization template funct
 The following table shows some examples of template inheritance.
 
 |Code element|Class Designer view|
-|------------------|-------------------------|
+|------------------| - |
 |`template <class T>`<br /><br /> `class C {};`<br /><br /> `template<>`<br /><br /> `class C<int> {`<br /><br /> `class B {};`<br /><br /> `}`<br /><br /> `class A : C<int>::B {};`|`A`<br /><br /> Class<br /><br /> ->B<br /><br /> `C<int>`<br /><br /> Class<br /><br /> (B is contained within class C under **Nested Types**)<br /><br /> `C<T>`<br /><br /> Template Class|
 
 The following table shows some examples of canonical specialized class connection.
 
 |Code element|Class Designer view|
-|------------------|-------------------------|
+|------------------| - |
 |`template <class T>`<br /><br /> `class C {};`<br /><br /> `template<>`<br /><br /> `class C<int> {};`<br /><br /> `class A : C<int> {};`<br /><br /> `class D : C<float> {};`|`A`<br /><br /> Class<br /><br /> ->C\<int><br /><br /> `C<int>`<br /><br /> Class<br /><br /> `C<T>`<br /><br /> Template Class<br /><br /> `D`<br /><br /> Class<br /><br /> ->C\<float>|
 |`class B {`<br /><br /> `template <class T>`<br /><br /> `T min (const T &a, const T &b);`<br /><br /> `};`|`B`<br /><br /> min \<T>|
 
