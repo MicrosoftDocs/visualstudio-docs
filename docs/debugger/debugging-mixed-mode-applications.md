@@ -42,13 +42,13 @@ To enable Edit and Continue for C++, see [How to enable and disable Edit and Con
   
 #### To turn off property evaluation  
   
-1.  On the **Tools** menu, choose **Options**.  
+1. On the **Tools** menu, choose **Options**.  
   
-2.  In the **Options** dialog box, open the **Debugging** folder and select the **General** category.  
+2. In the **Options** dialog box, open the **Debugging** folder and select the **General** category.  
   
-3.  Clear the **Enable property evaluation and other implicit function calls** check box.  
+3. Clear the **Enable property evaluation and other implicit function calls** check box.  
   
- Because native call stacks and managed call stacks differ, the debugger cannot always provide the complete call stack for mixed code. When native code calls managed code, you may notice some discrepancies. For more information, see [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md).  
+   Because native call stacks and managed call stacks differ, the debugger cannot always provide the complete call stack for mixed code. When native code calls managed code, you may notice some discrepancies. For more information, see [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md).  
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

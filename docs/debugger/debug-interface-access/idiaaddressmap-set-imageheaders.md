@@ -22,9 +22,9 @@ Sets image headers to enable relative virtual address translation.
   
 ```C++  
 HRESULT set_imageHeaders (   
-   DWORD cbData,  
-   BYTE  data[],  
-   BOOL  originalHeaders  
+   DWORD cbData,  
+   BYTE  data[],  
+   BOOL  originalHeaders  
 );  
 ```  
   

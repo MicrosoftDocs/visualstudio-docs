@@ -26,15 +26,15 @@ In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], you ca
   
 ### To step into a WCF Service  
   
-1.  Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that contains both the WCF client and WCF service projects.  
+1. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that contains both the WCF client and WCF service projects.  
   
-2.  In Solution Explorer, right-click the WCF Client project and then click **Set as Startup Project**.  
+2. In Solution Explorer, right-click the WCF Client project and then click **Set as Startup Project**.  
   
-3.  Enable debugging in the app.config or web.config file. For more information, see [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md).  
+3. Enable debugging in the app.config or web.config file. For more information, see [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md).  
   
-4.  Set a breakpoint at the location in the client project where you want to start stepping. Typically, this will be just before the WCF service call.  
+4. Set a breakpoint at the location in the client project where you want to start stepping. Typically, this will be just before the WCF service call.  
   
-5.  Run to the breakpoint, then begin stepping. The debugger will step into the service automatically.  
+5. Run to the breakpoint, then begin stepping. The debugger will step into the service automatically.  
   
 ## See Also  
  [Debugging WCF Services](../debugger/debugging-wcf-services.md)   

@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the section can be modified.
   
 ```C++  
 HRESULT get_write (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

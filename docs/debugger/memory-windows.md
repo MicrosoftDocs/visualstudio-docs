@@ -35,9 +35,9 @@ The **Memory** window provides a view into the memory space that is used by your
   
 #### To open a Memory window  
   
-1.  Start debugging, if you are not already in debug mode.  
+1. Start debugging, if you are not already in debug mode.  
   
-2.  In the **Debug** menu, point to **Windows**. Then, point to **Memory** and then click **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Lower-level editions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have only a single **Memory** window. If you are using one of those editions, just click **Memory**.)  
+2. In the **Debug** menu, point to **Windows**. Then, point to **Memory** and then click **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Lower-level editions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have only a single **Memory** window. If you are using one of those editions, just click **Memory**.)  
   
 ## Paging in the Memory Window  
  The **Memory** window has a vertical scrollbar that operates in a nonstandard manner. The address space of a modern computer is very large, and you could easily get lost by grabbing the scrollbar thumb and dragging it to a random location. For that reason, the thumb is "spring-loaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but cannot scroll about freely.  
@@ -76,21 +76,21 @@ The **Memory** window provides a view into the memory space that is used by your
   
 #### To change the number of columns in the Memory window  
   
-1.  In the toolbar at the top of the **Memory** window, locate the **Columns** list.  
+1. In the toolbar at the top of the **Memory** window, locate the **Columns** list.  
   
-2.  In the **Columns** list, select the number of columns that you want to display or select **Auto** for automatic adjustment to fit the width of the window.  
+2. In the **Columns** list, select the number of columns that you want to display or select **Auto** for automatic adjustment to fit the width of the window.  
   
- If you do not want the contents of the **Memory** window to change as your program executes, you can turn off live expression evaluation.  
+   If you do not want the contents of the **Memory** window to change as your program executes, you can turn off live expression evaluation.  
   
 #### To toggle live evaluation  
   
-1.  Right-click the **Memory** window.  
+1. Right-click the **Memory** window.  
   
-2.  On the shortcut menu, click **Reevaluate Automatically**.  
+2. On the shortcut menu, click **Reevaluate Automatically**.  
   
-     If live evaluation is on, the option will be selected, and clicking it turns off live evaluation. If live evaluation is off, the option is not selected, and clicking it turns on live evaluation.  
+    If live evaluation is on, the option will be selected, and clicking it turns off live evaluation. If live evaluation is off, the option is not selected, and clicking it turns on live evaluation.  
   
- You can hide or display the toolbar at the top of the **Memory** window. You will not have access to Address box or other tools as long as the toolbar is hidden.  
+   You can hide or display the toolbar at the top of the **Memory** window. You will not have access to Address box or other tools as long as the toolbar is hidden.  
   
 #### To toggle the toolbar  
   

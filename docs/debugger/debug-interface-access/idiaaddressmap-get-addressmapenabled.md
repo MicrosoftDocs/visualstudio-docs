@@ -22,7 +22,7 @@ Indicates whether an address map has been established for a particular session.
   
 ```C++  
 HRESULT get_addressMapEnabled (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

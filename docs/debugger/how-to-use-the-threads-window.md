@@ -66,29 +66,29 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 #### To start debugging  
   
-1.  Click in the left gutter of the `Console.WriteLine` statement to insert a new breakpoint.  
+1. Click in the left gutter of the `Console.WriteLine` statement to insert a new breakpoint.  
   
-     In the gutter on the left side of the source code editor, a red circle appears. This indicates that a breakpoint is now set at this location.  
+    In the gutter on the left side of the source code editor, a red circle appears. This indicates that a breakpoint is now set at this location.  
   
-2.  On the **Debug** menu, click **Start Debugging** (**F5**).  
+2. On the **Debug** menu, click **Start Debugging** (**F5**).  
   
-     Debugging starts, your console application starts to run, and then stops at the breakpoint.  
+    Debugging starts, your console application starts to run, and then stops at the breakpoint.  
   
-3.  If the console application window has focus at this point, click in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window to return focus to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+3. If the console application window has focus at this point, click in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window to return focus to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-4.  In the source code editor, locate the line that contains the following code:  
+4. In the source code editor, locate the line that contains the following code:  
   
-    ```VB  
-    Thread.Sleep(5000)   
-    ```  
+   ```VB  
+   Thread.Sleep(5000)   
+   ```  
   
-    ```csharp  
-    Thread.Sleep(3000);  
-    ```  
+   ```csharp  
+   Thread.Sleep(3000);  
+   ```  
   
-    ```C++  
-    Thread::Sleep(3000);  
-    ```
+   ```C++  
+   Thread::Sleep(3000);  
+   ```
   
 #### To discover the thread marker  
 

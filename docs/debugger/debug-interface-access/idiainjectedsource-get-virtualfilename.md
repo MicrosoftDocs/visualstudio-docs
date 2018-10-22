@@ -22,7 +22,7 @@ Retrieves the name given to non-file source code; that is, code that was injecte
   
 ```C++  
 HRESULT get_virtualFilename (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

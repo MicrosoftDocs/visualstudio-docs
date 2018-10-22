@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the user-defined data type has overloade
   
 ```C++  
 HRESULT get_overloadedOperator (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

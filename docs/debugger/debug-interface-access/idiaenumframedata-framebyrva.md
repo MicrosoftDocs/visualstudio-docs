@@ -22,8 +22,8 @@ Returns a frame by relative virtual address (RVA).
   
 ```C++  
 HRESULT frameByRVA(   
-   DWORD           relativeVirtualAddress,  
-   IDiaFrameData** frame  
+   DWORD           relativeVirtualAddress,  
+   IDiaFrameData** frame  
 );  
 ```  
   

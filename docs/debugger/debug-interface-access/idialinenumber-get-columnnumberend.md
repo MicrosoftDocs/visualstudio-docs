@@ -22,7 +22,7 @@ Retrieves the one-based source column number where the expression or statement e
   
 ```C++  
 HRESULT get_columnNumberEnd (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

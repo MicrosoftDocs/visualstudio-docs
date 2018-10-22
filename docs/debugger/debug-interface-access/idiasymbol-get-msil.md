@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the symbol refers to Microsoft Intermedi
   
 ```C++  
 HRESULT get_msil (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

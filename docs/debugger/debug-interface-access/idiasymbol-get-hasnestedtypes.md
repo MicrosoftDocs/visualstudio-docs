@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the user-defined data type has nested ty
   
 ```C++  
 HRESULT get_hasNestedTypes (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

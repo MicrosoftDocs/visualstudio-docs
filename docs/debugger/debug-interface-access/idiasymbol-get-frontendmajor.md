@@ -22,7 +22,7 @@ Retrieves the front end major version number.
   
 ```C++  
 HRESULT get_frontEndMajor (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

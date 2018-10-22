@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the data symbol has been split into an a
   
 ```C++  
 HRESULT get_isSplitted(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   
