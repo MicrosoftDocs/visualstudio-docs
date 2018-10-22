@@ -49,7 +49,7 @@ Be sure to select the **PickBranch** designer, as selecting one of the activitie
 The following table shows the most useful <xref:System.Activities.Statements.PickBranch> properties and describes how to use them in the Workflow Designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Statements.PickBranch.DisplayName%2A>|False|The friendly name displayed on the header of the **PickBranch** designer. The default value is Branch.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.PickBranch.Trigger%2A>|True|Each <xref:System.Activities.Statements.PickBranch> contains a <xref:System.Activities.Statements.PickBranch.Trigger%2A> action that can invoke the <xref:System.Activities.Statements.PickBranch.Action%2A>.|
 |<xref:System.Activities.Statements.PickBranch.Action%2A>|False|Each <xref:System.Activities.Statements.PickBranch> contains an <xref:System.Activities.Statements.PickBranch.Action%2A> that is executed if triggered.|

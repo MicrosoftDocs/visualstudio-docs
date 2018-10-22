@@ -50,7 +50,7 @@ When you open a model in a version of Visual Studio that does not support model 
 ## <a name="RelatedTopics"></a> Related Topics
 
 |Title|Description|
-|-----------|-----------------|
+|-|-|
 |[Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)|A layer diagram shows the structure of an existing or proposed architecture. When code is written, it can be automatically validated against a layer diagram.|
 
 ## See Also

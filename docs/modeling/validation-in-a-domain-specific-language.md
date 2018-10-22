@@ -141,7 +141,7 @@ public partial class ParentsHaveChildren
  In the <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute> attribute, you specify when the validation method should be executed.
 
 |Category|Execution|
-|--------------|---------------|
+|-|-|
 |<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the user invokes the Validate menu command.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the model file is opened.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the file is saved. If there are validation errors, the user will be given the option of canceling the save operation.|

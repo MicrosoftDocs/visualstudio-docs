@@ -324,8 +324,8 @@ Warning("A warning message");
 4. Verify the following properties of the **.tt** file:
 
 
-   |                    |                                 |
-   |--------------------|---------------------------------|
+   | | |
+   |-|-|
    | **Custom Tool =**  | **TextTemplatingFileGenerator** |
    | **Build Action =** |            **None**             |
 
@@ -355,7 +355,7 @@ Warning("A warning message");
 ## Next steps
 
 |Next step|Topic|
-|---------------|-----------|
+|-|-|
 |Write and debug a more advanced text template, with code that uses auxiliary functions, included files, and external data.|[Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)|
 |Generate documents from templates at run time.|[Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)|
 |Run text generation outside Visual Studio.|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|

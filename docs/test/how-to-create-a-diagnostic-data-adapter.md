@@ -27,7 +27,7 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
  The following is a partial list of key events that you can use when you create your diagnostic data adapter. For a complete list of diagnostic data adapter events, see the abstract <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionEvents> class.
 
 |Event|Description|
-|-----------|-----------------|
+|-|-----------------|
 |<xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionEvents.SessionStart>|Start of your test run|
 |<xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionEvents.SessionEnd>|End of your test run|
 |<xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionEvents.TestCaseStart>|Start of each test in the test run|

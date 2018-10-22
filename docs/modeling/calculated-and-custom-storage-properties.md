@@ -19,7 +19,7 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
  In the DSL Definition, you can set the **Kind** of a domain property, as listed in the following table:
 
 |Domain Property Kind|Description|
-|--------------------------|-----------------|
+|-|-|
 |**Standard** (Default)|A domain property that is saved in the *store* and serialized to file.|
 |**Calculated**|A read-only domain property that is not saved in the store, but is calculated from other values.<br /><br /> For example, `Person.Age` could be calculated from `Person.BirthDate`.<br /><br /> You have to provide the code that performs the calculation. Typically, you calculate the value from other domain properties. However, you can also use external resources.|
 |**Custom Storage**|A domain property that is not saved directly in the store, but can be both get and set.<br /><br /> You have to provide the methods that get and set the value.<br /><br /> For example, `Person.FullAddress` could be stored in `Person.StreetAddress`, `Person.City`, and `Person.PostalCode`.<br /><br /> You can also access external resources, for example to get and set values from a database.<br /><br /> Your code should not set values in the store when `Store.InUndoRedoOrRollback` is true. See [Transactions and Custom Setters](#setters).|

@@ -45,7 +45,7 @@ A requirements model provides greatest benefit if you use it to focus discussion
 You can create several different views of the users' requirements.  Each view provides a particular type of information.  When you create these views, it is best to move frequently from one to another. You can start from any view.
 
 |Diagram or document|What it describes in a requirements model|Section|
-|-------------------------|-----------------------------------------------|-------------|
+|-|-|-|
 |Conceptual class diagram|Glossary of types that are used to describe the requirements; the types visible at the system's interface.||
 |Additional documents or work items|Performance, security, usability and reliability criteria.|[Describing quality of service requirements](#QoSRequirements)|
 |Additional documents or work items|Constraints and rules not specific to a particular use case|[Showing business rules](#BusinessRules)|
@@ -69,7 +69,7 @@ Notice that the choice here is about how you define the requirements, and that t
 The following topics provide more information:
 
 |To learn about|Read|
-|--------------------|----------|
+|-|-|
 |How to develop code that adheres to business rules|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|
 
 ##  <a name="QoSRequirements"></a> Describing Quality of Service Requirements

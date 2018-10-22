@@ -98,7 +98,7 @@ If you want to create one VSIX that contains layer validators, commands, and oth
 5.  Return to the layer validation project, and add the following project references:
 
     |**Reference**|**What this allows you to do**|
-    |-------------------|------------------------------------|
+    |-|-|
     |Microsoft.VisualStudio.GraphModel.dll|Read the architecture graph|
     |Microsoft.VisualStudio.ArchitectureTools.Extensibility.CodeSchema.dll|Read the code DOM associated with layers|
     |Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.dll|Read the Layer model|

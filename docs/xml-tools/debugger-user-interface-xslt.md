@@ -35,7 +35,7 @@ For more information, see the [Debugging user interface reference](../debugger/d
  The Locals window also displays the predefined context variables that track the context of the XSLT transformation. The following table describes the predefined context variables used by the XSLT debugger.
 
 |Name|Description|
-|----------|-----------------|
+|-|-----------------|
 |`last()`|The context size.|
 |`position()`|The position, or index number, of the context node, relative to the context size.|
 |`self::node()`|The value of the context node.|

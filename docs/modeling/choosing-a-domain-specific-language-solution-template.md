@@ -18,7 +18,7 @@ To create a domain-specific language solution, choose one of the solution templa
  The following solution templates are available in the Domain-Specific Language Designer Wizard.
 
 |Template|Features|Description|
-|--------------|--------------|-----------------|
+|-|-|-|
 |Class Diagrams|-   Compartment shapes<br />-   Class inheritance<br />-   Relationship inheritance<br />-   Shape inheritance<br />-   Relationship properties|Use this solution template if your domain-specific language includes entities and relationships that have properties. This template creates a domain-specific language that resembles UML class diagrams. The main entities are classes and interfaces, together with association, generalization, and implementation relationships. A class or interface appears as a box that contains a list of attributes.|
 |Component Diagrams|-   Ports|Use this solution template if your domain-specific language includes components, that is, parts of a software system. This template creates a domain-specific language that resembles UML component diagrams. The main entities are components and ports, which appear as small shapes on the outside of components.|
 |Task Flow Diagrams|-   Image and geometry shapes<br />-   *Swimlanes*|Use this solution template if your domain-specific language includes workflows, states, or sequences. This template creates a domain-specific language that resembles UML activity diagrams. The main entity is an activity, and the main relationship is a transition between activities. The template includes several other elements such as start state, final state, and a synchronization bar.|

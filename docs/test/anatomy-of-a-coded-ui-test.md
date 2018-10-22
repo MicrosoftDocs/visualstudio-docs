@@ -21,7 +21,7 @@ When you create a Coded UI Test in a coded UI test project, several files are ad
 When you create a Coded UI Test, the **Coded UI Test Builder** creates a map of the user interface under test, and also the test methods, parameters, and assertions for all tests. It also creates a class file for each test.
 
 |File|Contents|Editable?|
-|----------|--------------|---------------|
+|-|-|-|
 |[UIMap.Designer.cs](#UIMapDesignerFile)|[Declarations section](#UIMapDesignerFile)<br /><br /> [UIMap class](#UIMapClass) (partial, auto-generated)<br /><br /> [Methods](#UIMapMethods)<br /><br /> [Properties](#UIMapProperties)|No|
 |[UIMap.cs](#UIMapCS)|[UIMap class](#UIMapCS) (partial)|Yes|
 |[CodedUITest1.cs](#CodedUITestCS)|[CodedUITest1 class](#CodedUITestCS)<br /><br /> [Methods](#CodedUITestMethods)<br /><br /> [Properties](#CodedUITestProperties)|Yes|

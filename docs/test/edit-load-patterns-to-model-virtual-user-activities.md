@@ -75,7 +75,7 @@ The load pattern is a component of a scenario. The scenarios, together with thei
   In the following table, an example shows a goal-based pattern with the following property settings:
 
 |Property Group|Property|Value|
-|--------------------|--------------|-----------|
+|-|--------------|-|
 |Performance Counter|Category|Processor|
 |Performance Counter|Computer|ContosoServer1|
 |Performance Counter|Counter|% Processor Time|
@@ -103,7 +103,7 @@ The load pattern is a component of a scenario. The scenarios, together with thei
 ## Tasks
 
 |Tasks|Associated Topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Specifying the initial load pattern for your load test:** When you create a load test by using the **New Load Test Wizard**, you select a load pattern.|-   [Change the load pattern](../test/edit-load-patterns-to-model-virtual-user-activities.md#change-the-load-pattern)|
 |**Editing the load pattern for your load test:** After you create your load test, you can edit the load pattern in the **Load Test Editor**.|-   [How to: Specify the step ramp time property for a step load pattern](../test/how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern.md)|
 |**Specifying whether the virtual users in your load test scenario should include web cache data:** You can change the **Percentage of new Users** property to affect the way in which the load test simulates the web caching that would be performed by a web browser for the virtual users.|-   [How to: Specify the percentage of virtual users that use web cache data](../test/how-to-specify-the-percentage-of-virtual-users-that-use-web-cache-data.md)|

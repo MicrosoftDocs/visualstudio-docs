@@ -39,7 +39,7 @@ You can use image shapes to specify how domain classes appear in a generated des
   Image shapes have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Fill Color|The fill color of this shape.|White|
 |Fill Gradient Mode|The fill gradient mode of this shape.|Horizontal|
 |Has Default Connection Points|If `True`, the shape will use top, bottom, left, and right connection points in the generated designer.|False|

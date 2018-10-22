@@ -29,8 +29,8 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
    2. Click on the down arrow in the following rows and choose **<Edit>** :
 
 
-      |        Directory        |                      Property                      |
-      |-------------------------|----------------------------------------------------|
+      | Directory | Property |
+      |-|----------------------------------------------------|
       | **Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)** |
       | **Library Directories** |   **$(VCInstallDir)UnitTest\lib;$(LibraryPath)**   |
 
@@ -86,7 +86,7 @@ TEST_METHOD(Method1)
 The following pre-defined traits are found in `CppUnitTest.h`. For more information, see [The Microsoft Unit Testing Framework for C++ API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md).
 
 |Macro|Description|
-|-----------|-----------------|
+|-|-----------------|
 |`TEST_METHOD_ATTRIBUTE(attributeName, attributeValue)`|Use the TEST_METHOD_ATTRIBUTE macro to define a trait.|
 |`TEST_OWNER(ownerAlias)`|Use the predefined Owner trait to specify an owner of the test method.|
 |`TEST_PRIORITY(priority)`|Use the predefined Priority trait to assign relative priorities to your test methods.|

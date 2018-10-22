@@ -84,7 +84,7 @@ If you want to create one VSIX that contains commands, layer validators, and oth
 4.  Return to the command or gesture handler project, and add the following project references:
 
    |**Reference**|**What this allows you to do**|
-   |-------------------|------------------------------------|
+   |-|-|
    |Program Files\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.dll|Create and edit layers|
    |Microsoft.VisualStudio.Uml.Interfaces|Create and edit layers|
    |Microsoft.VisualStudio.ArchitectureTools.Extensibility|Modify shapes on diagrams|

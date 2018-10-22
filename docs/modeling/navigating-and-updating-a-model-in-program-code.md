@@ -319,7 +319,7 @@ using (Transaction t = targetDiagram.Store.
  In your DSL Definition, each element that you specify creates a class that is derived from one of the following standard classes.
 
 |Kind of element|Base class|
-|---------------------|----------------|
+|-|-|
 |Domain class|<xref:Microsoft.VisualStudio.Modeling.ModelElement>|
 |Domain relationship|<xref:Microsoft.VisualStudio.Modeling.ElementLink>|
 |Shape|<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>|

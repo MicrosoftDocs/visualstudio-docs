@@ -17,7 +17,7 @@ You can install a domain-specific language on your own computer or on other comp
  There are two methods of deploying a domain-specific language:
 
 |Method|Benefits|
-|------------|--------------|
+|-|-|
 |VSX (Visual Studio Extension)|Very easy to deploy: Copy and execute the **.vsix** file from the DslPackage project.<br /><br /> For more information see [Installing and Uninstalling a DSL by using the VSX](#Installing).|
 |MSI (installer file)|-   Allows the user to open Visual Studio by double-clicking a DSL file.<br />-   Associates an icon with the DSL file type in the target computer.<br />-   Associates an XSD (XML schema) with the DSL file type. This avoids warnings when the file is loaded into Visual Studio.<br /><br /> You must add a setup project to your solution to create an MSI.<br /><br /> For more information, see [Deploying a DSL by using an MSI file](#msi).|
 

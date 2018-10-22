@@ -38,11 +38,11 @@ The rest of this overview is a walkthrough that introduces the basic operations 
 To define a DSL, you must have installed the following components:
 
 
-|                                                                                 |                                                                                                |
-|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-|                                  Visual Studio                                  | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |
+| | |
+|-|-|
+| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |
 | [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580) |
-|                         Modeling SDK for Visual Studio                          |                                                                                                |
+| Modeling SDK for Visual Studio | |
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

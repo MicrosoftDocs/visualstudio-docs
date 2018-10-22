@@ -230,7 +230,7 @@ attribute of the Assembly element in the .fakes:
   **Special method names** such as property getter or setters are treated as described in the following table:
 
 |If method is...|Example|Method name appended|
-|-------------------|-------------|--------------------------|
+|-|-|-|
 |A **constructor**|`.ctor`|`Constructor`|
 |A static **constructor**|`.cctor`|`StaticConstructor`|
 |An **accessor** with method name composed of two parts separated by "_" (such as property getters)|*kind_name* (common case, but not enforced by ECMA)|*NameKind*, where both parts have been capitalized and swapped|
@@ -250,7 +250,7 @@ attribute of the Assembly element in the .fakes:
 ### Parameter type naming conventions
 
 |Given|Appended string is...|
-|-----------|-------------------------|
+|-|-|
 |A **type**`T`|T<br /><br /> The namespace, nested structure, and generic tics are dropped.|
 |An **out parameter**`out T`|`TOut`|
 |A **ref parameter** `ref T`|`TRef`|

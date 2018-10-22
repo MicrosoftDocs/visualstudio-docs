@@ -29,7 +29,7 @@ There are several basic types of shapes that you can used to display information
   The following types of shapes are available:
 
 |Shape type|Description|
-|----------------|-----------------|
+|-|-|
 |Geometry shape|General purpose rectangular or elliptical shape. You can display text and icon decorators in specific positions relative to the bounds of the shape.<br /><br /> To nest shapes inside geometry shapes, see [Nesting Shapes](../modeling/nesting-shapes.md).|
 |Compartment shape|Rectangle containing a header and compartments, like a UML class. Each compartment can contain a list of text rows.<br /><br /> The rows typically represent elements embedded under the element represented by the shape. For an example, create a DSL from the Class Diagrams solution template.|
 |Image shape|Shape that displays an image.|

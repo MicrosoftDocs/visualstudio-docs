@@ -117,7 +117,7 @@ A model can be viewed through several kinds of diagrams. For information about m
 Different kinds of diagram are useful for describing the design at different levels of abstraction. Many of the diagram types are useful at more than one level. This table shows how each type of diagram can be used.
 
 |Design level|Diagram types|
-|------------------|-------------------|
+|-|-|
 |Business Process<br /><br /> Understanding the context within which your system will be used helps you understand what the users need from it.|- Conceptual class diagrams describe the business concepts used within the business process.|
 |User requirements<br /><br /> Definition of what the users need from your system.|- Business rules and quality of service requirements can be described in separate documents.|
 |High level design<br /><br /> The overall structure of the system: the major components and how they couple together.|- Dependency Diagrams describe how the system is structured into interdependent parts. You can validate program code against dependency diagrams to ensure that it adheres to the architecture.|
@@ -126,7 +126,7 @@ Different kinds of diagram are useful for describing the design at different lev
 ## External resources
 
 |**Category**|**Links**|
-|------------------|---------------|
+|-|-|
 |**Videos**|![link to video](../data-tools/media/playvideo.gif) [MSDN How Do I Videos: How to Create and Use UML Models and Diagrams (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [Channel 9: UML with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [MSDN How Do I Series: UML Tools and Extensibility (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|
 |**Forums**|- [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
 |**Blogs**|[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)|

@@ -181,7 +181,7 @@ There are several ways of creating a .vsix file. The following procedure describ
    If the custom directive processor is not in the GAC, the registry subkeys should look like the following table:
 
 |Name|Type|Data|
-|----------|----------|----------|
+|-|-|-|
 |(Default)|REG_SZ|(value not set)|
 |Class|REG_SZ|**\<Namespace Name>.\<Class Name>**|
 |CodeBase|REG_SZ|**\<Your Path>\\<Your Assembly Name\>**|
@@ -189,7 +189,7 @@ There are several ways of creating a .vsix file. The following procedure describ
  If the assembly is in the GAC, the registry subkeys should look like the following table:
 
 |Name|Type|Data|
-|----------|----------|----------|
+|-|-|-|
 |(Default)|REG_SZ|(value not set)|
 |Class|REG_SZ|\<**Your Fully Qualified Class Name**>|
 |Assembly|REG_SZ|\<**Your Assembly Name in the GAC**>|

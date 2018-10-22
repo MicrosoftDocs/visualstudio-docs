@@ -101,7 +101,7 @@ An add-in is a compiled DLL that runs in the Visual Studio integrated developmen
 Two copies of the *.addin* files are automatically created by the **Add-In Wizard**, as follows:
 
 |**.Addin File Location**|**Description**|
-|------------------------------|----------------------------|---------------------|
+|-|----------------------------|-|
 |Root project folder|Used for deployment of the add-in project. Included in the project for ease of editing and has the local path for XCopy-style deployment.|
 |Add-in folder|Used for running the add-in in the debugging environment. Should always point to the output path of the current build configuration.|
 

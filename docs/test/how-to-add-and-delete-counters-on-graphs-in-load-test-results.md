@@ -27,7 +27,7 @@ You can use the **Counters** panel to add performance counters to a graph.
  Here are some guidelines for sample rates:
 
 |Load Test Duration|Recommended Sample Rate|
-|------------------------|-----------------------------|
+|-|-----------------------------|
 |\< 1 Hour|5 seconds|
 |1 - 8 Hours|15 seconds|
 |8 - 24 Hours|30 seconds|

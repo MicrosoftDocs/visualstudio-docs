@@ -265,7 +265,7 @@ You can also obtain other services that are provided by the host. For more infor
 ## Related topics
 
 |Task|Topic|
-|----------|-----------|
+|-|-|
 |Writing a template.|[Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)|
 |Generate text by using program code.|[Text Template Structure](../modeling/writing-a-t4-text-template.md)|
 |Generate files in a Visual Studio solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|

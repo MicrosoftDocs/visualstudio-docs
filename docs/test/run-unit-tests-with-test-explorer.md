@@ -94,7 +94,7 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 ### Test Explorer groups
 
 |Group|Description|
-|-----------|-----------------|
+|-|-----------------|
 |**Duration**|Groups test by execution time: **Fast**, **Medium**, and **Slow**.|
 |**Outcome**|Groups tests by execution results: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
 |**Traits**|Groups test by category/value pairs that you define. The syntax to specify trait categories and values is defined by the unit test framework.|
@@ -109,7 +109,7 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
  In the Microsoft unit test framework for managed apps, you define a trait name/ value pair in a  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> attribute. The test framework also contains these predefined traits:
 
 |Trait|Description|
-|-----------|-----------------|
+|-|-----------------|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>|The Owner category is defined by the unit test framework and requires you to provide a string value of the owner.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The Priority category is defined by the unit test framework and requires you to provide an integer value of the priority.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to provide a category without a value. A category defined by the TestCategory attribute can also be the category of a TestProperty attribute.|
@@ -138,7 +138,7 @@ To filter by a different criteria:
 > Searches are case insensitive and match the specified string to any part of the criteria value.
 
 |Qualifier|Description|
-|---------------|-----------------|
+|-|-----------------|
 |**Trait**|Searches both trait category and value for matches. The syntax to specify trait categories and values are defined by the unit test framework.|
 |**Project**|Searches the test project names for matches.|
 |**Error Message**|Searches the user-defined error messages returned by failed asserts for matches.|
@@ -211,7 +211,7 @@ For more information, see [Use code coverage to determine how much code is being
 Tests can be run from the **Test Explorer**, by right-clicking in the code editor on a test and selecting **Run test**, or by using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio. Some of the shortcuts are context-based. This means that they run or debug tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. This is the same for the namespace level as well.
 
 |Frequent Commands| Keyboard Shortcuts|
-|--------------|------------------------|
+|-|------------------------|
 |TestExplorer.DebugAllTestsInContext|**Ctrl**+**R**, **Ctrl**+**T**|
 |TestExplorer.RunAllTestsInContext|**Ctrl**+**R**, **T**|
 
