@@ -154,11 +154,11 @@ Text transformation happens before other tasks in the build process. You can def
 
 In `AfterTransform`, you can reference lists of files:
 
--   GeneratedFiles - a list of files written by the process. For those files that overwrote existing read-only files, %(GeneratedFiles.ReadOnlyFileOverwritten) will be true. These files can be checked out of source control.
+- GeneratedFiles - a list of files written by the process. For those files that overwrote existing read-only files, %(GeneratedFiles.ReadOnlyFileOverwritten) will be true. These files can be checked out of source control.
 
--   NonGeneratedFiles - a list of read-only files that were not overwritten.
+- NonGeneratedFiles - a list of read-only files that were not overwritten.
 
- For example, you define a task to check out GeneratedFiles.
+  For example, you define a task to check out GeneratedFiles.
 
 ## OutputFilePath and OutputFileName
 
@@ -249,7 +249,6 @@ Edit your .csproj or .vbproj file to define a project property. This example def
       <Value>$(myLibFolder)</Value>
     </T4ParameterValues>
   </ItemGroup>
-
 ```
 
 Now you can use your project property in assembly and include directives:

@@ -27,13 +27,13 @@ This method returns a `GUID` representing the language of this process as set by
   
 ```cpp  
 HRESULT GetHostingProcessLanguage(  
-   GUID* pguidLang  
+   GUID* pguidLang  
 );  
 ```  
   
 ```csharp  
 int GetHostingProcessLanguage(  
-   out Guid pguidLang  
+   out Guid pguidLang  
 );  
 ```  
   

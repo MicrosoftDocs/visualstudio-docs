@@ -59,13 +59,13 @@ This walkthrough illustrates how to use a data source defined in an app.config f
   
 #### To add the custom configuration section to the app.config file  
   
-1.  The root element of app.config should be the `configuration` element. Create a `configSections` element within the `configuration` element. The `configSections` should be the first element in the app.config file.  
+1. The root element of app.config should be the `configuration` element. Create a `configSections` element within the `configuration` element. The `configSections` should be the first element in the app.config file.  
   
-2.  Within the `configSections` element, create a `section` element.  
+2. Within the `configSections` element, create a `section` element.  
   
-3.  In the `section` element, add an attribute called `name` and assign it a value equal `microsoft.visualstudio.testtools`. Add another attribute called `type` and assign it a value equal `Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`  
+3. In the `section` element, add an attribute called `name` and assign it a value equal `microsoft.visualstudio.testtools`. Add another attribute called `type` and assign it a value equal `Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`  
   
- The `section` element should look similar to this:  
+   The `section` element should look similar to this:  
   
 ```  
 <section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>  
@@ -111,15 +111,15 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 ## Define Data Sources  
  The data sources section contains four attributes that are used by the test engine to retrieve data from a data source.  
   
--   `name` defines the identity used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> to specify which data source to use.  
+- `name` defines the identity used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> to specify which data source to use.  
   
--   `connectionString` identifies the connection string created in the previous Define Connection Strings section.  
+- `connectionString` identifies the connection string created in the previous Define Connection Strings section.  
   
--   `dataTableName` defines the table or sheet that holds the data to use in the test.  
+- `dataTableName` defines the table or sheet that holds the data to use in the test.  
   
--   `dataAccessMethod` defines the technique for accessing data values in the data source.  
+- `dataAccessMethod` defines the technique for accessing data values in the data source.  
   
- In this section, you will define two data sources to use in a unit test.  
+  In this section, you will define two data sources to use in a unit test.  
   
 #### To define data sources  
   

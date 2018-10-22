@@ -28,7 +28,7 @@ Retrieves the metadata token of a managed function or variable.
   
 ```cpp#  
 HRESULT get_token (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

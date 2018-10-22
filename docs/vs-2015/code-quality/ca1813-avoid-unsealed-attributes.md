@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1813: Avoid unsealed attributes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|AvoidUnsealedAttributes|

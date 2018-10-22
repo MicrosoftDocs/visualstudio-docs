@@ -26,13 +26,13 @@ Determines if the specified debug address is a sequence point.
   
 ```cpp#  
 HRESULT IsAddressSequencePoint(  
-   IDebugAddress* pAddress  
+   IDebugAddress* pAddress  
 );  
 ```  
   
 ```csharp  
 int IsAddressSequencePoint(  
-   IDebugAddress pAddress  
+   IDebugAddress pAddress  
 );  
 ```  
   

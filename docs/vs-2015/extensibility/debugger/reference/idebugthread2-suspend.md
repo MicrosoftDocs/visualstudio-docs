@@ -27,13 +27,13 @@ Suspends a thread.
   
 ```cpp#  
 HRESULT Suspend (   
-   DWORD *pdwSuspendCount  
+   DWORD *pdwSuspendCount  
 );  
 ```  
   
 ```csharp  
 HRESULT Suspend (   
-   out uint pdwSuspendCount  
+   out uint pdwSuspendCount  
 );  
 ```  
   

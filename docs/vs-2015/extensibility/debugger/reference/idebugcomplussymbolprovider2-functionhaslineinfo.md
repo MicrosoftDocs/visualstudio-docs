@@ -26,13 +26,13 @@ Determines if the specified method has line information.
   
 ```cpp#  
 HRESULT FunctionHasLineInfo(  
-   IDebugAddress* pAddress  
+   IDebugAddress* pAddress  
 );  
 ```  
   
 ```csharp  
 int FunctionHasLineInfo(  
-   IDebugAddress pAddress  
+   IDebugAddress pAddress  
 );  
 ```  
   

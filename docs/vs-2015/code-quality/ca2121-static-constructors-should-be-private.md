@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2121: Static constructors should be private
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|StaticConstructorsShouldBePrivate|
@@ -41,11 +42,11 @@ manager: "wpickett"
 ## How to Fix Violations
  Violations are typically caused by one of the following actions:
 
--   You defined a static constructor for your type and did not make it private.
+- You defined a static constructor for your type and did not make it private.
 
--   The programming language compiler added a default static constructor to your type and did not make it private.
+- The programming language compiler added a default static constructor to your type and did not make it private.
 
- To fix the first kind of violation, make your static constructor private. To fix the second kind, add a private static constructor to your type.
+  To fix the first kind of violation, make your static constructor private. To fix the second kind, add a private static constructor to your type.
 
 ## When to Suppress Warnings
  Do not suppress these violations. If your software design requires an explicit call to a static constructor, it is likely that the design contains serious flaws and should be reviewed.

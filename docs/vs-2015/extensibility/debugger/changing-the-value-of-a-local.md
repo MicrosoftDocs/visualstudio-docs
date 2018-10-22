@@ -27,21 +27,21 @@ manager: "ghogen"
   
  This is an overview of the process of changing the value of a local:  
   
-1.  After the user enters the new value, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with the local.  
+1. After the user enters the new value, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with the local.  
   
-2.  `IDebugProperty2::SetValueAsString` performs the following tasks:  
+2. `IDebugProperty2::SetValueAsString` performs the following tasks:  
   
-    1.  Evaluates the string to produce a value.  
+   1.  Evaluates the string to produce a value.  
   
-    2.  Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to obtain an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
+   2.  Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to obtain an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
   
-    3.  Converts the value to a series of bytes.  
+   3.  Converts the value to a series of bytes.  
   
-    4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to put the value's bytes into memory so the program being debugged can access them.  
+   4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to put the value's bytes into memory so the program being debugged can access them.  
   
-3.  Visual Studio refreshes the **Locals** display (see [Displaying Locals](../../extensibility/debugger/displaying-locals.md) for details).  
+3. Visual Studio refreshes the **Locals** display (see [Displaying Locals](../../extensibility/debugger/displaying-locals.md) for details).  
   
- This procedure is also used to change the value of a variable in the **Watch** window except it is the `IDebugProperty2` object associated with the value of the local that is used instead of the `IDebugProperty2` object associated with the local itself.  
+   This procedure is also used to change the value of a variable in the **Watch** window except it is the `IDebugProperty2` object associated with the value of the local that is used instead of the `IDebugProperty2` object associated with the local itself.  
   
 ## In This Section  
  [Sample Implementation of Changing Values](../../extensibility/debugger/sample-implementation-of-changing-values.md)  

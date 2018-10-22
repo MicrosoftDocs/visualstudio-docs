@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2115: Call GC.KeepAlive when using native resources
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|CallGCKeepAliveWhenUsingNativeResources|
@@ -44,11 +45,11 @@ manager: "wpickett"
 ## When to Suppress Warnings
  This rule makes some assumptions that can lead to false positives. You can safely suppress a warning from this rule if:
 
--   The finalizer does not free the contents of the <xref:System.IntPtr> or <xref:System.UIntPtr> field referenced by the method.
+- The finalizer does not free the contents of the <xref:System.IntPtr> or <xref:System.UIntPtr> field referenced by the method.
 
--   The method does not pass the <xref:System.IntPtr> or <xref:System.UIntPtr> field to unmanaged code.
+- The method does not pass the <xref:System.IntPtr> or <xref:System.UIntPtr> field to unmanaged code.
 
- Carefully review other messages before excluding them. This rule detects errors that are difficult to reproduce and debug.
+  Carefully review other messages before excluding them. This rule detects errors that are difficult to reproduce and debug.
 
 ## Example
  In the following example, `BadMethod` does not include a call to `GC.KeepAlive` and therefore violates the rule. `GoodMethod` contains the corrected code.

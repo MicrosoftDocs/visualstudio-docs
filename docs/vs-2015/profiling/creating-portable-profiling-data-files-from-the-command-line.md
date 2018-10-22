@@ -31,19 +31,19 @@ To make sharing of profiling data easier, you can use the [VSPerfReport](../prof
   
 ### To embed the symbols for a profiling run into a profiling data (.vsp) file  
   
--   At a command prompt window, type the following command:  
+- At a command prompt window, type the following command:  
   
-     \<Path>**VSPerfReport \<**VSP File> **/PackSymbols**  
+   \<Path><strong>VSPerfReport \<</strong>VSP File> **/PackSymbols**  
   
-     By default, the .vsps file is named with the base name of the .vsp file. You can specify an alternative name by using the **Output** option.  
+   By default, the .vsps file is named with the base name of the .vsp file. You can specify an alternative name by using the **Output** option.  
   
 ### To create a summary profiling data file  
   
--   At a command prompt window, type the following command:  
+- At a command prompt window, type the following command:  
   
-     \<Path>**VSPerfReport \<**VSP File> **/SummaryFile** [**/Output:**\<File Name>]  
+   \<Path><strong>VSPerfReport \<</strong>VSP File> **/SummaryFile** [**/Output:**\<File Name>]  
   
-     By default, the .vsps file is named with the base name of the .vsp file. You can specify an alternative name by using the **Output** option.
+   By default, the .vsps file is named with the base name of the .vsp file. You can specify an alternative name by using the **Output** option.
 
 
 

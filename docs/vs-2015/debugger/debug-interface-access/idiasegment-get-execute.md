@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether the segment is executable.
   
 ```cpp#  
 HRESULT get_execute (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

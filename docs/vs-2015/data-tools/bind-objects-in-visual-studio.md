@@ -58,11 +58,11 @@ Visual Studio provides design-time tools for working with custom objects as the 
 ### Loaddata into objects  
  For this example, you load data into your objects by using TableAdapters. By default, TableAdapters are created with two kinds of methods that fetch data from a database and populate data tables.  
   
--   The `TableAdapter.Fill` method fills an existing data table with the data returned.  
+- The `TableAdapter.Fill` method fills an existing data table with the data returned.  
   
--   The `TableAdapter.GetData` method returns a new data table populated with data.  
+- The `TableAdapter.GetData` method returns a new data table populated with data.  
   
- The easiest way to load your custom objects with data is to call the `TableAdapter.GetData` method, loop through the collection of rows in the returned data table, and populate each object with the values in each row. You can create a `GetData` method that returns a populated data table for any query added to a TableAdapter.  
+  The easiest way to load your custom objects with data is to call the `TableAdapter.GetData` method, loop through the collection of rows in the returned data table, and populate each object with the values in each row. You can create a `GetData` method that returns a populated data table for any query added to a TableAdapter.  
   
 > [!NOTE]
 >  Visual Studio names the TableAdapter queries `Fill` and `GetData` by default, but those names can be changed to any valid method name.  

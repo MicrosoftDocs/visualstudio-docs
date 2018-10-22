@@ -28,9 +28,9 @@ Retrieves a specified number of symbols in the enumeration sequence.
   
 ```cpp#  
 HRESULT Next (   
-   ULONG        celt,  
-   IDiaSymbol** rgelt,  
-   ULONG*       pceltFetched  
+   ULONG        celt,  
+   IDiaSymbol** rgelt,  
+   ULONG*       pceltFetched  
 );  
 ```  
   

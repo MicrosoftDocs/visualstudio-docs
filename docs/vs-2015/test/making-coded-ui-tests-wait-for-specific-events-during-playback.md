@@ -61,8 +61,8 @@ In a coded UI test playback, you can instruct the test to wait for certain event
 // Define the method to evaluate the condition   
 private static bool IsStatusDone(UITestControl control)   
 {   
-    WinText statusText = control as WinText;   
-    return statusText.DisplayText == "Succeeded" || statusText.DisplayText == "Failed";   
+    WinText statusText = control as WinText;   
+    return statusText.DisplayText == "Succeeded" || statusText.DisplayText == "Failed";   
 }   
   
 // In test method, wait till the method evaluates to true   
@@ -79,9 +79,9 @@ statusText.WaitForControlCondition(IsStatusDone);
 // Define the method to evaluate the condition   
 private static bool IsStatusDoneOrError(UITestControl[] controls)   
 {   
-    WinText statusText = controls[0] as WinText;   
-    WinWindow errorDialog = controls[1] as WinWindow;   
-    return statusText.DisplayText == "Succeeded" || errorDialog.Exists;   
+    WinText statusText = controls[0] as WinText;   
+    WinWindow errorDialog = controls[1] as WinWindow;   
+    return statusText.DisplayText == "Succeeded" || errorDialog.Exists;   
 }   
   
 // In test method, wait till the method evaluates to true   

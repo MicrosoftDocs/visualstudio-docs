@@ -93,16 +93,16 @@ A thread is a sequence of instructions to which the operating system allocates p
  [Using Breakpoints](../debugger/using-breakpoints.md)  
  -   Use breakpoint filters when you want to place a breakpoint on an individual thread.  
   
--   Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.  
+- Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.  
   
- [Threading](http://msdn.microsoft.com/library/7b46a7d9-c6f1-46d1-a947-ae97471bba87)  
- Threading concepts in [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] programming, including example code.  
+  [Threading](http://msdn.microsoft.com/library/7b46a7d9-c6f1-46d1-a947-ae97471bba87)  
+  Threading concepts in [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] programming, including example code.  
   
- [Multithreading in Components](http://msdn.microsoft.com/library/2fc31e68-fb71-4544-b654-0ce720478779)  
- How to use multithreading in [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] components.  
+  [Multithreading in Components](http://msdn.microsoft.com/library/2fc31e68-fb71-4544-b654-0ce720478779)  
+  How to use multithreading in [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] components.  
   
- [Multithreading Support for Older Code (Visual C++)](http://msdn.microsoft.com/library/24425b1f-5031-4c6b-aac7-017115a40e7c)  
- Threading concepts and example code for C++ programmers using MFC.  
+  [Multithreading Support for Older Code (Visual C++)](http://msdn.microsoft.com/library/24425b1f-5031-4c6b-aac7-017115a40e7c)  
+  Threading concepts and example code for C++ programmers using MFC.  
   
 ## See Also  
  [Debug Threads and Processes](../debugger/debug-threads-and-processes.md)   

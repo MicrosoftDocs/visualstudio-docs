@@ -32,15 +32,15 @@ Run analyzers on code maps to help you identify code that might be overly comple
   
 ## Analyze code maps  
   
-1.  On the map toolbar, choose **Layout**, **Analyzers**, and then analyzer that you want to run:  
+1. On the map toolbar, choose **Layout**, **Analyzers**, and then analyzer that you want to run:  
   
-    |**Analyzer**|**To identify nodes that**|  
-    |------------------|--------------------------------|  
-    |**Circular References  Analyzer**|Have circular dependencies on each other. **Note:**  Circular dependencies that are in the **Generics** group are not shown on the map when you expand the group.|  
-    |**Find Hubs Analyzer**|Are in the top 25% of highly-connected nodes<br /><br /> **To hide all other nodes on the map**<br /><br /> -   Open the shortcut menu for the map, choose **Advanced**, **Select**, **Hide Unselected**.<br />     The map hides the unselected nodes, and the analyzer identifies new nodes as hubs.|  
-    |**Unreferenced Nodes Analyzer**|Do not have references from any other nodes. **Caution:**  Verify each of these cases before assuming that the code is not used. Certain dependencies such as XAML dependencies and run-time dependencies cannot be found statically in the code.|  
+   |**Analyzer**|**To identify nodes that**|  
+   |------------------|--------------------------------|  
+   |**Circular References  Analyzer**|Have circular dependencies on each other. **Note:**  Circular dependencies that are in the **Generics** group are not shown on the map when you expand the group.|  
+   |**Find Hubs Analyzer**|Are in the top 25% of highly-connected nodes<br /><br /> **To hide all other nodes on the map**<br /><br /> -   Open the shortcut menu for the map, choose **Advanced**, **Select**, **Hide Unselected**.<br />     The map hides the unselected nodes, and the analyzer identifies new nodes as hubs.|  
+   |**Unreferenced Nodes Analyzer**|Do not have references from any other nodes. **Caution:**  Verify each of these cases before assuming that the code is not used. Certain dependencies such as XAML dependencies and run-time dependencies cannot be found statically in the code.|  
   
- Code map analyzers will continue to run after you apply them. If you change the map, any applied analyzers will automatically reprocess the updated map. To stop running an analyzer, on the map toolbar, choose **Layout**, **Analyzers**. Turn off the selected analyzer.  
+   Code map analyzers will continue to run after you apply them. If you change the map, any applied analyzers will automatically reprocess the updated map. To stop running an analyzer, on the map toolbar, choose **Layout**, **Analyzers**. Turn off the selected analyzer.  
   
 > [!TIP]
 >  If you have a very large map, running an analyzer might cause an out of memory exception. If this occurs, edit the map to reduce its scope or generate a smaller one, and then run the analyzer.  

@@ -26,9 +26,9 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support three m
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- You can use the performance session **Method** property to specify the most appropriate collection method for your application. You can set the collection method from Performance Wizard, Performance Explorer, or from the property pages of a performance session. If you are using command-line tools, see [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md) for more information.  
+  You can use the performance session **Method** property to specify the most appropriate collection method for your application. You can set the collection method from Performance Wizard, Performance Explorer, or from the property pages of a performance session. If you are using command-line tools, see [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md) for more information.  
   
 ## Performance Wizard  
   

@@ -25,13 +25,13 @@ Retrieves the index of this generic parameter.
   
 ```cpp#  
 HRESULT GetIndex(  
-   DWORD* pIndex  
+   DWORD* pIndex  
 );  
 ```  
   
 ```csharp  
 int GetIndex(  
-   out uint pIndex  
+   out uint pIndex  
 );  
 ```  
   

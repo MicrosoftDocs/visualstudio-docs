@@ -27,17 +27,17 @@ Returns the next set of elements from the enumeration.
   
 ```cpp#  
 HRESULT Next(  
-   ULONG                 celt,  
-   DEBUG_PROPERTY_INFO** rgelt,  
-   ULONG*                pceltFetched  
+   ULONG                 celt,  
+   DEBUG_PROPERTY_INFO** rgelt,  
+   ULONG*                pceltFetched  
 );  
 ```  
   
 ```csharp  
 int Next(  
-   uint                  celt,  
-   DEBUG_PROPERTY_INFO[] rgelt,  
-   ref uint              pceltFetched  
+   uint                  celt,  
+   DEBUG_PROPERTY_INFO[] rgelt,  
+   ref uint              pceltFetched  
 );  
 ```  
   

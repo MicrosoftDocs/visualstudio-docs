@@ -24,6 +24,7 @@ manager: "wpickett"
 ---
 # CA2231: Overload operator equals on overriding ValueType.Equals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|OverloadOperatorEqualsOnOverridingValueTypeEquals|

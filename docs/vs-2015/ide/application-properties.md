@@ -26,31 +26,31 @@ You can set general application properties for Visual Basic, C#, and F# applicat
   
  The following tasks can be accomplished in the **Application** pane:  
   
--   Specify assembly information  
+- Specify assembly information  
   
--   Specify a splash screen for an application  
+- Specify a splash screen for an application  
   
--   Specify application-level events  
+- Specify application-level events  
   
--   Change an assembly name  
+- Change an assembly name  
   
--   Change the namespace for an application  
+- Change the namespace for an application  
   
--   Change the application type  
+- Change the application type  
   
--   Change the Startup object for an application  
+- Change the Startup object for an application  
   
--   Specify an application icon  
+- Specify an application icon  
   
--   Enable Windows XP visual styles  
+- Enable Windows XP visual styles  
   
--   Specify instancing behavior for an application  
+- Specify instancing behavior for an application  
   
--   Enable custom user authentication  
+- Enable custom user authentication  
   
--   Specify shutdown behavior for an application  
+- Specify shutdown behavior for an application  
   
- The tasks available for your application depend on the development language being used.  
+  The tasks available for your application depend on the development language being used.  
   
 ## In This Section  
  [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)  

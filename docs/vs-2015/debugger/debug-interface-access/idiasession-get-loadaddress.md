@@ -28,7 +28,7 @@ Retrieves the load address for the executable file that corresponds to the symbo
   
 ```cpp#  
 HRESULT get_loadAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

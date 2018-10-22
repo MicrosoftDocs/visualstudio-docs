@@ -27,13 +27,13 @@ Terminates a process.
   
 ```cpp#  
 HRESULT TerminateProcess(   
-   IDebugProcess2* pPortProcess  
+   IDebugProcess2* pPortProcess  
 );  
 ```  
   
 ```csharp  
 int TerminateProcess(   
-   IDebugProcess2 pPortProcess  
+   IDebugProcess2 pPortProcess  
 );  
 ```  
   

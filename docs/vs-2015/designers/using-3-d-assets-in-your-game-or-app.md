@@ -51,18 +51,18 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 #### To add an asset to your build  
   
-1.  In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.  
+1. In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.  
   
-2.  Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.  
+2. Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.  
   
-3.  Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.  
+3. Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.  
   
-    > [!IMPORTANT]
-    >  By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
+   > [!IMPORTANT]
+   >  By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
   
-4.  Choose the **OK** button.  
+4. Choose the **OK** button.  
   
- Here are the three content pipeline item types and their associated source and output file types.  
+   Here are the three content pipeline item types and their associated source and output file types.  
   
 |Item Type|Source file types|Output file format|  
 |---------------|-----------------------|------------------------|  

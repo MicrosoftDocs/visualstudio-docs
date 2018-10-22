@@ -44,11 +44,11 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
   
  [Configuring the Visual Studio project for remote debugging](#BKMK_ConnectVS)  
   
--   [Choosing the remote device for C# and Visual Basic projects](#BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects)  
+- [Choosing the remote device for C# and Visual Basic projects](#BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects)  
   
--   [Choosing the remote device for JavaScript and C++ projects](#BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects)  
+- [Choosing the remote device for JavaScript and C++ projects](#BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects)  
   
- [Running a remote debugging session](#BKMK_RunRemoteDebug)  
+  [Running a remote debugging session](#BKMK_RunRemoteDebug)  
   
 ##  <a name="BKMK_Prerequisites"></a> Prerequisites  
  To debug on a remote device:  
@@ -117,20 +117,20 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 ##  <a name="BKMK_ConfigureRemoteDebugger"></a> Configuring the remote debugger  
  You use two tools to modify the configuration of the remote debugger.  
   
-1.  On the **Tools** menu of the **Visual Studio Remote Debugging Monitor**:  
+1. On the **Tools** menu of the **Visual Studio Remote Debugging Monitor**:  
   
-    1.  Choose **Options** to change the port number, authentication mode, or timeout interval of the remote debugger.  
+   1.  Choose **Options** to change the port number, authentication mode, or timeout interval of the remote debugger.  
   
-    2.  Choose **Permissions** to add or remove users that have permission for remote debugging.  
+   2.  Choose **Permissions** to add or remove users that have permission for remote debugging.  
   
-        > [!NOTE]
-        >  Permissions must be granted to every user account that debugs remotely.  
+       > [!NOTE]
+       >  Permissions must be granted to every user account that debugs remotely.  
   
- You use the **Remote Debugger Configuration Wizard** to set advanced options for the remote debugger. To open the wizard, choose **Remote Debugger Configuration Wizard** on the Start screen.  
+   You use the **Remote Debugger Configuration Wizard** to set advanced options for the remote debugger. To open the wizard, choose **Remote Debugger Configuration Wizard** on the Start screen.  
   
-1.  On the **Configure the Visual Studio Remote Debugger** page, you can choose to run the remote debugger as a service. In most cases, running as a service is not required.  
+2. On the **Configure the Visual Studio Remote Debugger** page, you can choose to run the remote debugger as a service. In most cases, running as a service is not required.  
   
-2.  On the **Configure the Windows Firewall for Debugging** page, you can add or remove the type of networks that you want the remote debugger to connect to. Only those networks that the device is currently connected to are enabled. You must choose at least one network.  
+3. On the **Configure the Windows Firewall for Debugging** page, you can add or remove the type of networks that you want the remote debugger to connect to. Only those networks that the device is currently connected to are enabled. You must choose at least one network.  
   
 ##  <a name="BKMK_ConnectVS"></a> Configuring the Visual Studio project for remote debugging  
  You specify the remote device to connect to in the properties of the project. The procedure differs depending on the programming language. You can type the network name of the remote device, or you can select it from the Select Remote Debugger Connection dialog box.  

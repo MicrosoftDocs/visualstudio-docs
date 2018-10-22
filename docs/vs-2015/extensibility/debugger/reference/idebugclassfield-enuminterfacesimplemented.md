@@ -27,13 +27,13 @@ Creates an enumerator for the interfaces implemented by this class.
   
 ```cpp#  
 HRESULT EnumInterfacesImplemented(   
-   IEnumDebugFields** ppEnum  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumInterfacesImplemented(  
-   out IEnumDebugFields ppEnum  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

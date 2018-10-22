@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2120: Secure serialization constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|SecureSerializationConstructors|

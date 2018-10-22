@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether the section cannot be cached.
   
 ```cpp#  
 HRESULT get_notCached (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

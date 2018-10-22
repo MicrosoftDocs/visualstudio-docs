@@ -27,15 +27,15 @@ manager: "ghogen"
 ## RegPkg Versions Related to Package Versions  
  There are two versions of RegPkg. One version is included in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Use this version to register packages that have been built by using one of the following assemblies:  
   
-1.  Microsoft.VisualStudioShell.9.0.dll  
+1. Microsoft.VisualStudioShell.9.0.dll  
   
-2.  Microsoft.VisualStudioShell.10.0.dll  
+2. Microsoft.VisualStudioShell.10.0.dll  
   
-3.  Microsoft.VisualStudioShell.11.0.dll  
+3. Microsoft.VisualStudioShell.11.0.dll  
   
- It cannot register packages that have been built by using the earlier Microsoft.VisualStudio.Shell.dll assembly.  
+   It cannot register packages that have been built by using the earlier Microsoft.VisualStudio.Shell.dll assembly.  
   
- The earlier version of RegPkg can register packages that have been built by using the Microsoft.VisualStudio.Shell.dll assembly. However, it cannot register packages built by using later versions of that assembly.  
+   The earlier version of RegPkg can register packages that have been built by using the Microsoft.VisualStudio.Shell.dll assembly. However, it cannot register packages built by using later versions of that assembly.  
   
 ## See Also  
  [Releasing a Product](../../misc/releasing-a-visual-studio-integration-product.md)

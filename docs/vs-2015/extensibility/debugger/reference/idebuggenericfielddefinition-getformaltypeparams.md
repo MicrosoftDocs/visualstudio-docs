@@ -26,17 +26,17 @@ Retrieves the type parameters given the number of parameters.
   
 ```cpp#  
 HRESULT GetFormalTypeParams(  
-   ULONG32                   cParams,  
-   IDebugGenericParamField** ppParams,  
-   ULONG32*                  pcParams  
+   ULONG32                   cParams,  
+   IDebugGenericParamField** ppParams,  
+   ULONG32*                  pcParams  
 );  
 ```  
   
 ```csharp  
 int GetFormalTypeParams(  
-   uint                          cParams,  
-   out IDebugGenericParamField[] ppParams,  
-   ref uint                      pcParams  
+   uint                          cParams,  
+   out IDebugGenericParamField[] ppParams,  
+   ref uint                      pcParams  
 );  
 ```  
   

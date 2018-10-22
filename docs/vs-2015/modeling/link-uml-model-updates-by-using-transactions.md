@@ -78,7 +78,7 @@ When you define an extension to the UML designers in Visual Studio, you can grou
     using Microsoft.VisualStudio.Uml.Extensions;  
     using System.Linq;  
     using System.ComponentModel.Composition;  
- ...  
+ ...  
   [Import]  
   public ILinkedUndoContext LinkedUndoContext { get; set; }  
   

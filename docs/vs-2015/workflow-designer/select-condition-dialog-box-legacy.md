@@ -22,17 +22,17 @@ This topic describes how use the **Select Condition** dialog box in the legacy [
   
  The **Select Condition** dialog box is used to select a declarative rule condition to be assigned to an activity's condition property. These rule conditions are exposed as properties on the following Windows Workflow Foundation out-of-box activities:  
   
--   [ConditionedActivityGroup](http://go.microsoft.com/fwlink?LinkID=65017)  
+- [ConditionedActivityGroup](http://go.microsoft.com/fwlink?LinkID=65017)  
   
--   [IfElseBranchActivity](http://go.microsoft.com/fwlink?LinkID=65034)  
+- [IfElseBranchActivity](http://go.microsoft.com/fwlink?LinkID=65034)  
   
--   [ReplicatorActivity](http://go.microsoft.com/fwlink?LinkID=65039)  
+- [ReplicatorActivity](http://go.microsoft.com/fwlink?LinkID=65039)  
   
--   [WhileActivity](http://go.microsoft.com/fwlink?LinkID=65049)  
+- [WhileActivity](http://go.microsoft.com/fwlink?LinkID=65049)  
   
- For information about how to access the **Select Condition** dialog box, see [How to: Create a Declarative Rule Condition (Legacy)](../workflow-designer/how-to-create-a-declarative-rule-condition-legacy.md).  
+  For information about how to access the **Select Condition** dialog box, see [How to: Create a Declarative Rule Condition (Legacy)](../workflow-designer/how-to-create-a-declarative-rule-condition-legacy.md).  
   
- The following table describes the user interface (UI) elements of the **Select Condition** dialog box.  
+  The following table describes the user interface (UI) elements of the **Select Condition** dialog box.  
   
 |UI Element|Description|  
 |----------------|-----------------|  

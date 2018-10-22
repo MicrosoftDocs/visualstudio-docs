@@ -28,7 +28,7 @@ Retrieves the index of the symbol in the virtual base displacement table.
   
 ```cpp#  
 HRESULT get_virtualBaseDispIndex (  
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

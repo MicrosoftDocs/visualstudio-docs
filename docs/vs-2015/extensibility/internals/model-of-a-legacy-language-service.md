@@ -26,20 +26,20 @@ A language service defines the elements and features for a specific language, an
 ## A Minimal Language Service  
  The most basic language service contains the following two objects:  
   
--   The *language service* implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface. A language service has information about the language, including its name, file name extensions, code window manager, and colorizer.  
+- The *language service* implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface. A language service has information about the language, including its name, file name extensions, code window manager, and colorizer.  
   
--   The *colorizer* implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface.  
+- The *colorizer* implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface.  
   
- The following conceptual drawing shows a model of a basic language service.  
+  The following conceptual drawing shows a model of a basic language service.  
   
- ![Language Service Model graphic](../../extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
-Basic language service model  
+  ![Language Service Model graphic](../../extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
+  Basic language service model  
   
- The document window hosts the *document view* of the editor, in this case the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] core editor. The document view and the text buffer are owned by the editor. These objects work with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] through a specialized document window called a *code window*. The code window is contained in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that is created and controlled by the IDE.  
+  The document window hosts the *document view* of the editor, in this case the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] core editor. The document view and the text buffer are owned by the editor. These objects work with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] through a specialized document window called a *code window*. The code window is contained in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that is created and controlled by the IDE.  
   
- When a file with a given extension is loaded, the editor locates the language service associated with that extension and passes to it the code window by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetCodeWindowManager%2A> method. The language service returns a *code window manager*, which implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface.  
+  When a file with a given extension is loaded, the editor locates the language service associated with that extension and passes to it the code window by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetCodeWindowManager%2A> method. The language service returns a *code window manager*, which implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface.  
   
- The following table provides an overview of the objects in the model.  
+  The following table provides an overview of the objects in the model.  
   
 |Component|Object|Function|  
 |---------------|------------|--------------|  

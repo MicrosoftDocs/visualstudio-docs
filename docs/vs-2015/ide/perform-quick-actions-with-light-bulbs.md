@@ -26,11 +26,11 @@ Light bulbs are a new productivity feature in Visual Studio 2015. They are icons
   
 ## To see a light bulb  
   
-1.  In many cases, light bulbs spontaneously appear when you hover the mouse at the point of an error, or in the left margin of the editor when you move the caret into a line that has an error in it. When you see a red squiggle, you can hover over it to display the light bulb. You can also cause a light bulb to display when you use the mouse or keyboard to go to anywhere in the line where the issue occurs.  
+1. In many cases, light bulbs spontaneously appear when you hover the mouse at the point of an error, or in the left margin of the editor when you move the caret into a line that has an error in it. When you see a red squiggle, you can hover over it to display the light bulb. You can also cause a light bulb to display when you use the mouse or keyboard to go to anywhere in the line where the issue occurs.  
   
-2.  Press **Ctrl + .** anywhere on a line to invoke the light bulb and go directly to the list of potential fixes.  
+2. Press **Ctrl + .** anywhere on a line to invoke the light bulb and go directly to the list of potential fixes.  
   
- ![Light bulb with mouse hovering](../ide/media/vs2015-lightbulb-hover.png "VS2015_LightBulb_Hover")  
+   ![Light bulb with mouse hovering](../ide/media/vs2015-lightbulb-hover.png "VS2015_LightBulb_Hover")  
   
 ## To see potential fixes  
  Either click on the down arrow or the Show potential fixes link to display a list of quick actions that the light bulb can take for you.  

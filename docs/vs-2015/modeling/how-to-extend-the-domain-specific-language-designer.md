@@ -68,17 +68,17 @@ You can make extensions to the designer that you use to edit DSL Definitions. Ty
   
  To deploy the extensions to the main [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], and to other computers, follow these steps:  
   
-1.  Find the VSIX installation file, in your VSIX project in bin\\*\\\*.vsix  
+1. Find the VSIX installation file, in your VSIX project in bin\\*\\\*.vsix  
   
-2.  Copy this file to the target computer, and then in Windows Explorer (or File Explorer), double-click it.  
+2. Copy this file to the target computer, and then in Windows Explorer (or File Explorer), double-click it.  
   
-     The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension Manager opens to confirm that the extension has been installed.  
+    The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension Manager opens to confirm that the extension has been installed.  
   
- To uninstall the extension, follow these steps:  
+   To uninstall the extension, follow these steps:  
   
-1.  in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], on the **Tools** menu, click **Extension Manager**.  
+3. in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], on the **Tools** menu, click **Extension Manager**.  
   
-2.  Select the extension and delete it.  
+4. Select the extension and delete it.  
   
 ## Adding a Shortcut Menu Command  
  To make a shortcut menu command appear on the DSL Designer surface or in the DSL Explorer window, write a class resembling the following.  

@@ -21,15 +21,15 @@ Your control can be more easily tested if you implement support for the coded UI
   
  **In this topic:**  
   
-1.  [Support Record and Playback and Property Validation by implementing Accessibility](../test/enable-coded-ui-testing-of-your-controls.md#recordandplayback)  
+1. [Support Record and Playback and Property Validation by implementing Accessibility](../test/enable-coded-ui-testing-of-your-controls.md#recordandplayback)  
   
-2.  [Support Custom Property Validation by implementing a Property Provider](../test/enable-coded-ui-testing-of-your-controls.md#customproprties)  
+2. [Support Custom Property Validation by implementing a Property Provider](../test/enable-coded-ui-testing-of-your-controls.md#customproprties)  
   
-3.  [Support Code Generation by implementing a Class to Access Custom Properties](../test/enable-coded-ui-testing-of-your-controls.md#codegeneration)  
+3. [Support Code Generation by implementing a Class to Access Custom Properties](../test/enable-coded-ui-testing-of-your-controls.md#codegeneration)  
   
-4.  [Support Intent-Aware Actions by implementing an Action Filter](../test/enable-coded-ui-testing-of-your-controls.md#intentawareactions)  
+4. [Support Intent-Aware Actions by implementing an Action Filter](../test/enable-coded-ui-testing-of-your-controls.md#intentawareactions)  
   
- ![CUIT&#95;Full](../test/media/cuit-full.png "CUIT_Full")  
+   ![CUIT&#95;Full](../test/media/cuit-full.png "CUIT_Full")  
   
 ##  <a name="recordandplayback"></a> Support Record and Playback and Property Validation by implementing Accessibility  
  The coded UI test builder captures information about the controls that it encounters during a recording and then generates code to replay that session. If your control doesn't support accessibility, then the coded UI test builder will capture actions (like mouse clicks) using screen coordinates. When the test is played back, the generated code will issue those mouse clicks in the same screen coordinates. If your control appears in a different place on the screen when the test is played back, the generated code will fail to perform that action on your control. This can result in failures if the test is played back on different screen configurations, in different environments, or after there have been changes to the UI layout.  

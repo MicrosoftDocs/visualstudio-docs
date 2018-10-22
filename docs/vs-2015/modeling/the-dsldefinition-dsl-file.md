@@ -267,7 +267,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
  The Component Diagram example contains a path in the ParentElementPath of the ShapeMap for InPort. This path starts as follows:  
   
 ```  
-    ComponentHasPorts.Component  
+    ComponentHasPorts.Component  
 ```  
   
  In this example, InPort is a subclass of ComponentPort and has a relationship ComponentHasPorts. The property is called Component.  
@@ -275,13 +275,13 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
  When writing C# against this model, you can jump across a link in one step by using the property that the relationship generates on each of the classes that it relates:  
   
 ```  
-     InPort port; ...  Component c = port.Component;  
+     InPort port; ...  Component c = port.Component;  
 ```  
   
  However, you must do both hops explicitly in Path Syntax. Because of this requirement, you can access the intermediate link more easily. The following code completes the hop from the link to the Component:  
   
 ```  
-    ComponentHasPorts.Component / ! Component  
+    ComponentHasPorts.Component / ! Component  
 ```  
   
  (You can omit the relationship name where it is the same as in the previous segment.)  

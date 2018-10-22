@@ -28,7 +28,7 @@ This function retrieves a flag that indicates whether no stack ordering could be
   
 ```cpp#  
 HRESULT get_noStackOrdering(  
-   BOOL *pRetVal  
+   BOOL *pRetVal  
 );  
 ```  
   

@@ -36,19 +36,19 @@ A VSPackage declares its menu items and their default states through the Visual 
   
  The following list shows the interfaces affected by the active state of a source control VSPackage:  
   
--   Track Project Documents events.  
+- Track Project Documents events.  
   
--   Solution events.  
+- Solution events.  
   
--   Solution persistence interfaces. When inactive, packages should not write to .sln and .suo files.  
+- Solution persistence interfaces. When inactive, packages should not write to .sln and .suo files.  
   
--   Property extenders.  
+- Property extenders.  
   
- The required <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>, and also any optional interfaces associated with source control, are not called when the source control VSPackage is inactive.  
+  The required <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>, and also any optional interfaces associated with source control, are not called when the source control VSPackage is inactive.  
   
- When the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE starts, [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] sets the command UI context to the ID of the current default source control VSPackage ID. This causes the static UI of the active source control VSPackage to appear in the IDE without actually loading the VSPackage. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] pauses for the VSPackage to register with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterScciProvider> before it makes any calls to the VSPackage.  
+  When the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE starts, [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] sets the command UI context to the ID of the current default source control VSPackage ID. This causes the static UI of the active source control VSPackage to appear in the IDE without actually loading the VSPackage. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] pauses for the VSPackage to register with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterScciProvider> before it makes any calls to the VSPackage.  
   
- The following table describes specific details about how the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE hides different UI items.  
+  The following table describes specific details about how the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE hides different UI items.  
   
 |UI item|Description|  
 |-------------|-----------------|  

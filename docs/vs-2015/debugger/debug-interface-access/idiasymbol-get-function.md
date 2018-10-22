@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the public symbol refers to a function.
   
 ```cpp#  
 HRESULT get_function (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

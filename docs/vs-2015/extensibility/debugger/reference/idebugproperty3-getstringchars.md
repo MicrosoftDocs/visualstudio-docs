@@ -27,17 +27,17 @@ Retrieves the string associated with this property and stores it in a user-suppl
   
 ```cpp  
 HRESULT GetStringChars(  
-   ULONG  buflen,  
-   WCHAR* rgString,  
-   ULONG* pceltFetched  
+   ULONG  buflen,  
+   WCHAR* rgString,  
+   ULONG* pceltFetched  
 );  
 ```  
   
 ```csharp  
 int GetStringChars(  
-   uint       buflen,   
-   out string rgString,   
-   out uint   pceltFetched  
+   uint       buflen,   
+   out string rgString,   
+   out uint   pceltFetched  
 );  
 ```  
   
@@ -68,21 +68,21 @@ int GetStringChars(
 ```  
 CStringW RetrievePropertyString(IDebugProperty2 *pPropInfo)  
 {  
-    CStringW returnString = L"";  
-    CComQIPtr<IDebugProperty3> pProp3 = pPropInfo->pProperty;  
-    If (pProp3 != NULL) {  
-        ULONG dwStrLen = 0;  
-        HRESULT hr;  
-        hr = pProp3->GetStringCharLength(&dwStrLen);  
-        if (SUCCEEDED(hr) && dwStrLen > 0) {  
-            ULONG dwRead;  
-            CStrBufW buf(returnString,dwStrLen,CStrBuf::SET_LENGTH);  
-            hr = pProp3->GetStringChars(dwStrLen,  
+    CStringW returnString = L"";  
+    CComQIPtr<IDebugProperty3> pProp3 = pPropInfo->pProperty;  
+    If (pProp3 != NULL) {  
+        ULONG dwStrLen = 0;  
+        HRESULT hr;  
+        hr = pProp3->GetStringCharLength(&dwStrLen);  
+        if (SUCCEEDED(hr) && dwStrLen > 0) {  
+            ULONG dwRead;  
+            CStrBufW buf(returnString,dwStrLen,CStrBuf::SET_LENGTH);  
+            hr = pProp3->GetStringChars(dwStrLen,  
                                         reinterpret_cast<WCHAR*>(static_cast<CStringW::PXSTR>(buf)),  
                                         &dwRead);  
-        }  
-    }  
-    return(returnString);  
+        }  
+    }  
+    return(returnString);  
 ```  
   
 <!-- TODO: review snippet reference  [!CODE [}](})]  -->  

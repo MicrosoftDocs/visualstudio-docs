@@ -27,13 +27,13 @@ Creates an enumerator for the parameters of the method.
   
 ```cpp#  
 HRESULT EnumParameters(   
-   IEnumDebugFields** ppParams  
+   IEnumDebugFields** ppParams  
 );  
 ```  
   
 ```csharp  
 int EnumParameters(  
-   out IEnumDebugFields ppParams  
+   out IEnumDebugFields ppParams  
 );  
 ```  
   

@@ -28,7 +28,7 @@ Retrieves an enumerator of compilands that have line numbers referencing this fi
   
 ```cpp#  
 HRESULT get_compilands (   
-   IDiaEnumSymbols** ppRetVal  
+   IDiaEnumSymbols** ppRetVal  
 );  
 ```  
   

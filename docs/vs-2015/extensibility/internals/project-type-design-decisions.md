@@ -42,13 +42,13 @@ Before you create a new project type, you must make several design decisions reg
   
  You have several options to consider regarding persistence for the items in your project. You can perform any one of the following options:  
   
--   Save each file individually when it has been changed.  
+- Save each file individually when it has been changed.  
   
--   Capture many transactions in a single **Save** operation.  
+- Capture many transactions in a single **Save** operation.  
   
--   Save files locally, and then publish to a server or use another approach to saving project items when the item represents a data connection to a remote object.  
+- Save files locally, and then publish to a server or use another approach to saving project items when the item represents a data connection to a remote object.  
   
- For more information about persistence, see [Project Persistence](../../extensibility/internals/project-persistence.md) and [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md).  
+  For more information about persistence, see [Project Persistence](../../extensibility/internals/project-persistence.md) and [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md).  
   
 ## Project Commitment Model  
  Will persisted data objects be opened in direct mode or transacted mode?  

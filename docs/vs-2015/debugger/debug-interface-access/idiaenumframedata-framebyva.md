@@ -28,8 +28,8 @@ Returns a frame by virtual address (VA).
   
 ```cpp#  
 HRESULT frameByVA(   
-   ULONGLONG       virtualAddress,  
-   IDiaFrameData** frame  
+   ULONGLONG       virtualAddress,  
+   IDiaFrameData** frame  
 );  
 ```  
   

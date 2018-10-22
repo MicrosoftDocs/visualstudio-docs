@@ -27,13 +27,13 @@ Retrieves a list of all available port suppliers.
   
 ```cpp#  
 HRESULT EnumPortSuppliers(  
-   IEnumDebugPortSuppliers2** ppEnum  
+   IEnumDebugPortSuppliers2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumPortSuppliers(  
-   out IEnumDebugPortSuppliers2 ppEnum  
+   out IEnumDebugPortSuppliers2 ppEnum  
 );  
 ```  
   

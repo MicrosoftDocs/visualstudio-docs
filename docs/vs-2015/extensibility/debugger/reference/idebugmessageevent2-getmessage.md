@@ -28,21 +28,21 @@ Gets the message to be displayed.
   
 ```cpp#  
 HRESULT GetMessage(   
-   MESSAGETYPE* pMessageType,  
-   BSTR*        pbstrMessage,  
-   DWORD*       pdwType,  
-   BSTR*        pbstrHelpFileName,  
-   DWORD*       pdwHelpId  
+   MESSAGETYPE* pMessageType,  
+   BSTR*        pbstrMessage,  
+   DWORD*       pdwType,  
+   BSTR*        pbstrHelpFileName,  
+   DWORD*       pdwHelpId  
 );  
 ```  
   
 ```csharp  
 int GetMessage(   
-   out enum_MESSAGETYPE pMessageType,  
-   out string           pbstrMessage,  
-   out uint             pdwType,  
-   out string           pbstrHelpFileName,  
-   out uint             dwHelpId  
+   out enum_MESSAGETYPE pMessageType,  
+   out string           pbstrMessage,  
+   out uint             pdwType,  
+   out string           pbstrHelpFileName,  
+   out uint             dwHelpId  
 );  
 ```  
   

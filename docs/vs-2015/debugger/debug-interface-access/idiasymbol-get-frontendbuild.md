@@ -28,7 +28,7 @@ Retrieves the front end build number.
   
 ```cpp#  
 HRESULT get_frontEndBuild (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

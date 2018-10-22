@@ -51,46 +51,46 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
   
 #### To create a combined fragment  
   
-1.  Select one message, or a sequence of messages, that all begin on the same lifeline or execution occurrence.  
+1. Select one message, or a sequence of messages, that all begin on the same lifeline or execution occurrence.  
   
-    > [!NOTE]
-    >  If you select more than one message, they must form an uninterrupted sequence.  
+   > [!NOTE]
+   >  If you select more than one message, they must form an uninterrupted sequence.  
   
-2.  Right-click one of the messages, point to **Surround With**, and then click the kind of combined fragment that you want, such as **Alt Combined Fragment**.  
+2. Right-click one of the messages, point to **Surround With**, and then click the kind of combined fragment that you want, such as **Alt Combined Fragment**.  
   
-     A new combined fragment appears. The heading indicates the kind of combined fragment you selected, such as **Alt**.  
+    A new combined fragment appears. The heading indicates the kind of combined fragment you selected, such as **Alt**.  
   
-     Inside the combined fragment, there is a fragment that contains the messages that you selected.  
+    Inside the combined fragment, there is a fragment that contains the messages that you selected.  
   
- You can add more interaction operands to some kinds of combined fragment.  
+   You can add more interaction operands to some kinds of combined fragment.  
   
- After you rearrange messages within a combined fragment, choose **Rearrange Layout** on the shortcut menu to resize the combined fragment frame.  
+   After you rearrange messages within a combined fragment, choose **Rearrange Layout** on the shortcut menu to resize the combined fragment frame.  
   
 #### To add a new interaction operand to a combined fragment  
   
-1.  Right-click in a blank space inside the interaction operand (2), outside any contained fragment, and below the heading of the combined fragment.  
+1. Right-click in a blank space inside the interaction operand (2), outside any contained fragment, and below the heading of the combined fragment.  
   
-2.  Point to **Add**.  
+2. Point to **Add**.  
   
-3.  Click **Interaction Operand Before**, or **Interaction Operand After**.  
+3. Click **Interaction Operand Before**, or **Interaction Operand After**.  
   
-4.  You can add messages inside the new interaction operand using the message tools, or by copying and pasting existing messages.  
+4. You can add messages inside the new interaction operand using the message tools, or by copying and pasting existing messages.  
   
- You can set the **Guard** property of an interaction operand to describe the conditions in which the messages inside it are performed. For example, in a **Loop** combined fragment, you can use the guard to specify the condition during which the loop continues. In an **Alt** combined fragment, you can specify a separate condition for each interaction operand.  
+   You can set the **Guard** property of an interaction operand to describe the conditions in which the messages inside it are performed. For example, in a **Loop** combined fragment, you can use the guard to specify the condition during which the loop continues. In an **Alt** combined fragment, you can specify a separate condition for each interaction operand.  
   
 #### To set the guard of an interaction operand  
   
-1.  Click in a blank space inside the interaction operand (2), outside any contained fragment.  
+1. Click in a blank space inside the interaction operand (2), outside any contained fragment.  
   
-     A selection border appears around the interaction operand, and around the guard condition.  
+    A selection border appears around the interaction operand, and around the guard condition.  
   
-     The heading in the **Properties** window shows **Interaction Operand**.  
+    The heading in the **Properties** window shows **Interaction Operand**.  
   
-2.  Type the guard condition.  
+2. Type the guard condition.  
   
-     The condition will appear near the top of the fragment (4).  
+    The condition will appear near the top of the fragment (4).  
   
- You can set the properties of some kinds of combined fragments.  
+   You can set the properties of some kinds of combined fragments.  
   
 #### To set or view the properties of a combined fragment  
   

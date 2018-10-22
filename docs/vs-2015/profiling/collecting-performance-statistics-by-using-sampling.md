@@ -41,9 +41,9 @@ By default, the [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] Profiling T
 ## Common Tasks  
  You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:  
   
--   In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
+- In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
   
- The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the sampling method.  
+  The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the sampling method.  
   
 |Task|Related Content|  
 |----------|---------------------|  

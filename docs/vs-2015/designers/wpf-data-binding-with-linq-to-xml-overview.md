@@ -25,11 +25,11 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
   
  There are two broad ways that XAML and LINQ to XML can interact:  
   
--   Because XAML files are well-formed XML, they can be queried and manipulated through XML technologies such as LINQ to XML.  
+- Because XAML files are well-formed XML, they can be queried and manipulated through XML technologies such as LINQ to XML.  
   
--   Because LINQ to XML queries represent a source of data, these queries can be used as a data source for data binding for WPF UI elements.  
+- Because LINQ to XML queries represent a source of data, these queries can be used as a data source for data binding for WPF UI elements.  
   
- This documentation describes the second scenario.  
+  This documentation describes the second scenario.  
   
 ## Data Binding in the Windows Presentation Foundation  
  WPF data binding enables a UI element to associate one of its properties with a data source. A simple example of this is a <xref:System.Windows.Controls.Label> whose text presents the value of a public property in a user-defined object. WPF data binding relies on the following components:  
@@ -46,13 +46,13 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
 ### Dynamic Data Binding in WPF  
  By default, data binding occurs only when the target UI element is initialized. This is called *one-time* binding. For most purposes, this is insufficient; typically, a data-binding solution requires that the changes be dynamically propagated at run time using one of the following:  
   
--   *One-way* binding causes the changes to one side to be propagated automatically. Most commonly, changes to the source are reflected in the target, but the reverse can sometimes be useful.  
+- *One-way* binding causes the changes to one side to be propagated automatically. Most commonly, changes to the source are reflected in the target, but the reverse can sometimes be useful.  
   
--   In *two-way* binding, changes to the source are automatically propagated to the target, and changes to the target are automatically propagated to the source.  
+- In *two-way* binding, changes to the source are automatically propagated to the target, and changes to the target are automatically propagated to the source.  
   
- For one-way or two-way binding to occur, the source must implement a change notification mechanism, for example by implementing the <xref:System.ComponentModel.INotifyPropertyChanged> interface or by using a *PropertyNameChanged* pattern for each property supported.  
+  For one-way or two-way binding to occur, the source must implement a change notification mechanism, for example by implementing the <xref:System.ComponentModel.INotifyPropertyChanged> interface or by using a *PropertyNameChanged* pattern for each property supported.  
   
- For more information about data binding in WPF, see [Data Binding (WPF)](http://msdn.microsoft.com/library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e).  
+  For more information about data binding in WPF, see [Data Binding (WPF)](http://msdn.microsoft.com/library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e).  
   
 ## Dynamic Properties in LINQ to XML Classes  
  Most LINQ to XML classes do not qualify as proper WPF dynamic data sources: Some of the most useful information is available only through methods (and not properties), and properties in these classes do not implement change notifications. To support WPF data binding, LINQ to XML exposes a set of *dynamic properties*.  
@@ -65,13 +65,13 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
 ### Accessing Dynamic Properties  
  The dynamic properties in the <xref:System.Xml.Linq.XAttribute> and <xref:System.Xml.Linq.XElement> classes cannot be accessed like standard properties. For example, in CLR-compliant languages such as C#, they cannot be:  
   
--   Accessed directly at compile time. Dynamic properties are invisible to the compiler and to Visual Studio IntelliSense.  
+- Accessed directly at compile time. Dynamic properties are invisible to the compiler and to Visual Studio IntelliSense.  
   
--   Discovered or accessed at run time using .NET reflection. Even at run time, they are not properties in the basic CLR sense.  
+- Discovered or accessed at run time using .NET reflection. Even at run time, they are not properties in the basic CLR sense.  
   
- In C#, dynamic properties can only be accessed at run time through facilities provided by the <xref:System.ComponentModel> namespace.  
+  In C#, dynamic properties can only be accessed at run time through facilities provided by the <xref:System.ComponentModel> namespace.  
   
- In contrast, however, in an XML source dynamic properties can be accessed through a straightforward notation in the following form:  
+  In contrast, however, in an XML source dynamic properties can be accessed through a straightforward notation in the following form:  
   
 ```  
 <object>.<dynamic-property>  

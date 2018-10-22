@@ -28,7 +28,7 @@ Retrieves the type of the target CPU.
   
 ```cpp#  
 HRESULT get_machineType (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

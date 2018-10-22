@@ -28,7 +28,7 @@ Indicates whether the calculation and use of relative virtual addresses (RVA) is
   
 ```cpp#  
 HRESULT get_relativeVirtualAddressEnabled (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

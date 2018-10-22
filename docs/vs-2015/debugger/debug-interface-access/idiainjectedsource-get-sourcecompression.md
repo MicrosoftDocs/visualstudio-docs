@@ -28,7 +28,7 @@ Retrieves the indicator of the source compression used.
   
 ```cpp#  
 HRESULT get_sourceCompression (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

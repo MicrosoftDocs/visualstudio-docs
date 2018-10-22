@@ -47,13 +47,13 @@ Sometimes Visual Studio cannot fully convert a project from an earlier version o
   
 #### To resolve incorrect references  
   
-1.  Open your project file in a text editor.  
+1. Open your project file in a text editor.  
   
-2.  Open the project properties.  
+2. Open the project properties.  
   
-3.  Select the correct **Target Framework** value. Alternatively, you can modify the value of the `<TargetFrameworkVersion>` element directly in the project file.  
+3. Select the correct **Target Framework** value. Alternatively, you can modify the value of the `<TargetFrameworkVersion>` element directly in the project file.  
   
- If you want your project to run in the upgraded [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version, you must update the references for the project, and also update any `Imports` or `Using` statements that call the references. If your project loads in the IDE, you can update the references by using **Solution Explorer** or the **Reference Manager** dialog box.  
+   If you want your project to run in the upgraded [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version, you must update the references for the project, and also update any `Imports` or `Using` statements that call the references. If your project loads in the IDE, you can update the references by using **Solution Explorer** or the **Reference Manager** dialog box.  
   
 ## See Also  
  [/Upgrade (devenv.exe)](../ide/reference/upgrade-devenv-exe.md)   

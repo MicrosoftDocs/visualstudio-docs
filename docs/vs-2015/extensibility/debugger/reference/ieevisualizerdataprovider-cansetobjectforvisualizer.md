@@ -27,13 +27,13 @@ This method determines whether the visualizer can have the data object it repres
   
 ```cpp  
 HRESULT CanSetObjectForVisualizer(  
-   BOOL* b  
+   BOOL* b  
 );  
 ```  
   
 ```csharp  
 int CanSetObjectForVisualizer(  
-   out int b  
+   out int b  
 );  
 ```  
   

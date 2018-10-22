@@ -28,52 +28,52 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
  [Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 from the Visual Studio IDE](#BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE)  
   
--   [Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 by using sampling from the Visual Studio IDE](#BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_by_using_sampling_from_the_Visual_Studio_IDE)  
+- [Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 by using sampling from the Visual Studio IDE](#BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_by_using_sampling_from_the_Visual_Studio_IDE)  
   
- [Profiling from the command line](#BKMK_Profiling_from_the_command_line)  
+  [Profiling from the command line](#BKMK_Profiling_from_the_command_line)  
   
- [Collecting tier interaction (TIP) data](#BKMK_Collecting_tier_interaction__TIP__data)  
+  [Collecting tier interaction (TIP) data](#BKMK_Collecting_tier_interaction__TIP__data)  
   
 ##  <a name="BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE"></a> Collecting data on Windows Store apps from the Visual Studio IDE  
  When you profile a Windows Store app that is written in JavaScript and HTML 5, you collect instrumentation data for the JavaScript code. When you profile a Windows Store app or component that is written in Visual C++, Visual C#, or Visual Basic, you collect sampling data for the native and managed code. You can profile your app locally or on a remote machine.  
   
  These profiling features and options are not supported when profiling Windows Store apps:  
   
--   Profiling JavaScript apps using the sampling method.  
+- Profiling JavaScript apps using the sampling method.  
   
--   Profiling managed and native code using the instrumentation method.  
+- Profiling managed and native code using the instrumentation method.  
   
--   Concurrency profiling  
+- Concurrency profiling  
   
--   .NET memory profiling  
+- .NET memory profiling  
   
--   Tier interaction profiling (TIP)  
+- Tier interaction profiling (TIP)  
   
--   Sampling options, such as setting the sampling event and timing interval, or collecting additional performance counter data.  
+- Sampling options, such as setting the sampling event and timing interval, or collecting additional performance counter data.  
   
--   Instrumentation options, such as collecting performance and windows counter data, or specifying additional command-line options.  
+- Instrumentation options, such as collecting performance and windows counter data, or specifying additional command-line options.  
   
- For more information about profiling Windows Store apps, see the following topics in the Windows Dev Center:  
+  For more information about profiling Windows Store apps, see the following topics in the Windows Dev Center:  
   
- [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)  
+  [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)  
   
- [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)  
+  [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)  
   
- [Analyze app performance](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)  
+  [Analyze app performance](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)  
   
--   [JavaScript Function Timing](http://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03)  
+- [JavaScript Function Timing](http://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03)  
   
--   [JavaScript Function Timing on a Remote Device](http://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
+- [JavaScript Function Timing on a Remote Device](http://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
   
--   [Analyze JavaScript Function Timing data](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
+- [Analyze JavaScript Function Timing data](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
   
--   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)  
+- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)  
   
--   [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](http://msdn.microsoft.com/en-us/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
+- [Profile Visual C++, Visual C#, and Visual Basic code in Windows Store apps on a remote device](http://msdn.microsoft.com/en-us/b932a2be-11b0-40fd-b996-75c6b6a79d22)  
   
--   [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](http://msdn.microsoft.com/en-us/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
+- [Analyze performance data for Visual C++, Visual C#, and Visual Basic code in Windows Store apps](http://msdn.microsoft.com/en-us/5de4a413-d924-425f-afc4-e1ecfb0fca18)  
   
- [In this topic](#BKMK_In_this_topic)  
+  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Profiling_apps_running_on_the_Windows_8_desktop_or_on_Windows_Server_2012_from_the_Visual_Studio_IDE"></a> Collecting data on apps running on the Windows 8 desktop or on Windows Server 2012 from the Visual Studio IDE  
  Profiling using the instrumentation method has not changed for Windows 8.  
@@ -123,25 +123,25 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
  **Windows 8 and Windows Server 2012**  
   
-1.  To collect tier interaction data from apps that are running on the Windows 8 desktop or Windows Server 2012, you must use the instrumentation method.  
+1. To collect tier interaction data from apps that are running on the Windows 8 desktop or Windows Server 2012, you must use the instrumentation method.  
   
-2.  You cannot collect tier interaction data for Windows Store apps.  
+2. You cannot collect tier interaction data for Windows Store apps.  
   
-3.  You can include tier interaction data in all profiling methods on other supported version of Windows.  
+3. You can include tier interaction data in all profiling methods on other supported version of Windows.  
   
- **Performance Wizard and Performance Explorer**  
+   **Performance Wizard and Performance Explorer**  
   
- You must add the tier interaction data collection option to a profiling run from the Performance Explorer. You must also add the project, executable, or website to the Target node of Performance Explorer. See [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md).  
+   You must add the tier interaction data collection option to a profiling run from the Performance Explorer. You must also add the project, executable, or website to the Target node of Performance Explorer. See [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md).  
   
- **Collecting TIP data on a remote machine**  
+   **Collecting TIP data on a remote machine**  
   
- To collect tier interaction data on a remote machine, you must copy the **vs\_profiler\_**_\<Platform>_**\_**_\<Language>_**.exe** file from the _%VSInstallDir%_**\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Visual Studio Remote Tools](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c) download package.  
+   To collect tier interaction data on a remote machine, you must copy the **vs\_profiler\_**_\<Platform>_**\_**_\<Language>_**.exe** file from the _%VSInstallDir%_**\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Visual Studio Remote Tools](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c) download package.  
   
- You can use [VSPerfCmd](../profiling/vsperfcmd.md) or [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) to collect the profiling data.  
+   You can use [VSPerfCmd](../profiling/vsperfcmd.md) or [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) to collect the profiling data.  
   
- **TIP reports**  
+   **TIP reports**  
   
- Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] or [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
+   Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] or [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)   
