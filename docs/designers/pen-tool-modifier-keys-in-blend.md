@@ -15,7 +15,7 @@ ms.workload:
 The following table lists shortcuts that you can use to modify a path while you are creating it with the **Pen** tool ![Pen tool](../designers/media/d514358f-185a-412f-a55d-36633b25dc8a.png). You can also use the **Pen** tool to add or remove points on an existing path, or to join two existing paths.
 
 |To do this action|Do this|Pointer|
-| - |-------------|-------------|
+|-----------------------|-------------|-------------|
 |Create a point to start a straight line segment|Click to create the new point|![Create a point to start a straight line segment](../designers/media/0bfb1b71-80ac-4ad4-aed8-40e09f8b7ab8.png)<br /><br /> Pen pointer|
 |Create a point to start a curved line segment|Click to create the new point, and then drag to adjust the tangent handles before releasing the mouse button|![Create a point to start a curved line segment](../designers/media/0bfb1b71-80ac-4ad4-aed8-40e09f8b7ab8.png)<br /><br /> Pen pointer|
 |Adjust the last tangent without the smooth constraint, allowing you to make a sharp corner|Click to create the new point, and then press **Alt** before releasing the mouse button|![Adjust the last tangent without the smooth constraint](../designers/media/317e5475-b70c-489f-9477-110a98639ade.png)<br /><br /> Pen adjust pointer|

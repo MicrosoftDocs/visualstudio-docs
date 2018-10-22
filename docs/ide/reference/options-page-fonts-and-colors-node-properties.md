@@ -31,7 +31,7 @@ This document describes font and color properties for a tool window that is regi
  `DTE.Properties("FontsAndColors", "Dialogs and Tool Windows")`
 
 |Property Item Name|Value|Description|
-| - |-----------|-----------------|
+|------------------------|-----------|-----------------|
 |FontFamily|Get/Set (String)|The font name to use, such as "Courier New."|
 |FontCharacterSet|Get/Set (<xref:EnvDTE.vsFontCharSet>)|A <xref:EnvDTE.vsFontCharSet> value, specifying the type of character set to use, such as Hebrew or Russian.|
 |FontSize|Get/Set (Short)|The size of font to use, in points. For example, 10 or 12.|

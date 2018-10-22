@@ -35,13 +35,13 @@ TFSConfig CodeIndex /indexingStatus | /setIndexing:[ on | off | keepupOnly ] | /
 ### Parameters
 
 |**Argument**|**Description**|
-|------------------| - |
+|------------------|---------------------|
 |`CollectionName`|Specifies the name of the project collection. If the name has spaces, enclose the name with quotation marks, for example, "Fabrikam Website".|
 |`CollectionId`|Specifies the identification number of the project collection.|
 |`ServerPath`|Specifies the path to a code file.|
 
 |**Option**|**Description**|
-|----------------| - |
+|----------------|---------------------|
 |**/indexingStatus**|Show the status and configuration of the code indexing service.|
 |**/setIndexing:**[ on &#124; off &#124; keepupOnly ]|-   **on**: Start indexing all changesets.<br />-   **off**: Stop indexing all changesets.<br />-   **keepupOnly**: Stop indexing previously created changesets and start indexing new changesets only.|
 |**/ignoreList:**[ add &#124; remove &#124; removeAll &#124; view ] `ServerPath`<br /><br /> You can use the wildcard character (*) at the start, end, or both ends of the server path.|Specifies a list of code files and their paths that you don't want indexed.<br /><br /> -   **add**: Add the file that you don't want indexed to the ignored file list.<br />-   **remove**: Remove the file that you want indexed from the ignored file list.<br />-   **removeAll**: Clear the ignored file list and start indexing all files.<br />-   **view**: See all the files that aren't being indexed.|

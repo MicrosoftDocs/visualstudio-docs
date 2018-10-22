@@ -30,7 +30,7 @@ For general information about how to create data-bound controls in Visual Studio
 The following table lists the tasks that can be accomplished by dragging items from the **Data Sources** window to the [!INCLUDE[wpfdesigner_current_short](../data-tools/includes/wpfdesigner_current_short_md.md)].
 
 |Task|More information|
-|----------| - |
+|----------|----------------------|
 |Create new data-bound controls.<br /><br /> Bind existing controls to data.|[Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)|
 |Create controls that display related data in a parent-child relationship: when the user selects a parent data record in one control, another control displays related child data for the selected record.|[Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)|
 |Create a *lookup table* that displays information from one table based on the value of a foreign-key field in another table.|[Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)|
@@ -47,12 +47,12 @@ When you drag an item from the **Data Sources** window to the [!INCLUDE[wpfdesig
 The following table lists the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] and code that Visual Studio generates for each type of data source in the **Data Sources** window.
 
 
-| Data source | Generate XAML that binds a control to the data source | Generate code that fills the data source with data |
-| - |-------------------------------------------------------| - |
-| Dataset | Yes | Yes |
-| [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] | Yes | Yes |
-| Service | Yes | No |
-| Object | Yes | No |
+|                           Data source                           | Generate XAML that binds a control to the data source | Generate code that fills the data source with data |
+|-----------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------|
+|                             Dataset                             |                          Yes                          |                        Yes                         |
+| [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] |                          Yes                          |                        Yes                         |
+|                             Service                             |                          Yes                          |                         No                         |
+|                             Object                              |                          Yes                          |                         No                         |
 
 ### Datasets
 

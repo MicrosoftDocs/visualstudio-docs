@@ -51,7 +51,7 @@ Advanced search operators refine your search for content by specifying where in 
 You can use the `code:` operator to find content about any of several programming languages. To return examples for a specific programming language, use one of the following programming language values:
 
 |Programming Language|Search operator syntax|
-| - |---------|
+|--------------------|---------|
 |Visual Basic|`code:vb`<br/>`code:visualbasic`|
 |C#|`code:c#`<br/>`code:csharp`|
 |C++|`code:cpp`<br/>`code:c++`<br/>`code:cplusplus`|

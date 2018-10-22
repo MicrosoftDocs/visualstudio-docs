@@ -25,7 +25,7 @@ You can use the keyboard in addition to the mouse to perform navigational action
 The following mouse actions are supported in class diagrams:
 
 |Mouse Combination|Context|Description|
-| - |-------------|-----------------|
+|-----------------------|-------------|-----------------|
 |Double-click|Shape elements|Opens the code editor.|
 |Double-click|Lollipop connector|Expand/collapse lollipop.|
 |Double-click|Lollipop connector label|Invokes **Show Interface** command.|

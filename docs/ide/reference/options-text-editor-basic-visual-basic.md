@@ -56,7 +56,7 @@ When you commit an `Implements` statement or an `Inherits` statement for a class
 The text editor indicates visual scope of procedures. A line is drawn in the .vb source files of your project at locations listed in the following table:
 
 |Location in .vb Source File|Example of Line Location|
-| - |------------------------------|
+|---------------------------------|------------------------------|
 |After the close of a block declaration construct|-   At the end of a class, structure, module, interface, or enum<br />-   After a property, function, or sub<br />-   Not between the get and set clauses in a property|
 |After a set of single line constructs|-   After the import statements, before a type definition in a class file<br />-   After variables declared in a class, before any procedures|
 |After single line declarations (non-block level declarations)|-   Following import statements, inherits statements, variable declarations, event declarations, delegate declarations, and DLL declare statements|

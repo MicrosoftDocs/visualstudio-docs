@@ -23,7 +23,7 @@ This document describes some pages (or properties collections) that are associat
  `DTE.Properties("TextEditor", "General")`
 
 |Property Item Name|Value|Description|
-| - |-----------|-----------------|
+|------------------------|-----------|-----------------|
 |GoToAnchorAfterEscape|Get/Set (Boolean)|If `True`, pressing escape while there is a selection causes the insertion point to move to where the action that created the selection was initiated. `False` moves the insertion point to the other end of the selection.|
 |DragNDropTextEditing|Get/Set (Boolean)|Determines whether you can drag a selected region of text from one location to another in the document for copy or cut/paste operations.|
 |HorizontalScrollBar|Get/Set (Boolean)|Determines whether there is a horizontal scrollbar on editor windows.|
@@ -42,7 +42,7 @@ This document describes some pages (or properties collections) that are associat
  The `PlainText` editor options affect the editor settings when text files are edited. Each programming language and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] package has its own specific **Text Editor** settings. For example, to view or change the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] editor settings, use `DTE.Properties("TextEditor", "CSharp") or DTE.Properties("TextEditor", "CSharp-Specific")`. For the **SQL Script** editor settings, use `DTE.Properties("TextEditor", "SQL ")`.
 
 |Property Item Name|Value|Description|
-| - |-----------|-----------------|
+|------------------------|-----------|-----------------|
 |AutoListMembers|Get/Set (Boolean)|Determines whether an available list of members automatically appears when a user types a period following a variable reference.|
 |AutoListParams|Get/Set (Boolean)|Determines whether a description of an argument list automatically displays when the users types a "(" following a function name.|
 |HideAdvancedMembers|Get/Set (Boolean)|Determines whether statement completion lists all members or only the commonly used ones.|

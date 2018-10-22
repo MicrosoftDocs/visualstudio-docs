@@ -35,7 +35,7 @@ Create more space for viewing topics by choosing the pin icon for the navigation
 You open the **Viewer Options** dialog box by choosing the **Viewer Options** button on the toolbar.
 
 |To perform this task:|Take this step:|
-| - |---------------------|
+|---------------------------|---------------------|
 |Change the size of the font in which text appears|Choose a size in the **Text Size** list.|
 |Change the maximum number of search results that appear in the **Search** tab|Choose a value in the **Maximum Search Results** list.|
 |Change the maximum number of history entries that appear in the **Favorites** window|Choose a value in the **Maximum History entries saved** list.|

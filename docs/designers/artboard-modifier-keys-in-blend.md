@@ -15,7 +15,7 @@ ms.workload:
 Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] user interface to discover them. The following table lists shortcuts that modify an action, such as resizing an object.
 
 |To do this action|Do this|
-| - |-------------|
+|-----------------------|-------------|
 |Temporarily select the **Selection** tool while a different tool remains selected (this reduces the number of times you have to click something in the **Tools** panel, going back and forth between the **Selection** tool and others)|Hold down **Ctrl**|
 |Nudge selected objects while the **Selection** tool is selected|Press the arrow keys|
 |Pan the artboard|Hold down **Spacebar** and drag the artboard|

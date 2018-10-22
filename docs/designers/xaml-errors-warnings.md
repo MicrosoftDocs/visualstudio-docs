@@ -20,7 +20,7 @@ When authoring XAML, Visual Studio analyzes the code as you type. A squiggle app
 Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are categorized into one of the following three types, based on the tool that detected the error:
 
 |**Error detected by**|**Error code format**|
-| - |-----------------|
+|--------------------------------|-----------------|
 |XAML Language Service (XAML editor)|XLSxxxx|
 |XAML Designer|XDGxxxx|
 |XAML Edit and Continue|XECxxxx|

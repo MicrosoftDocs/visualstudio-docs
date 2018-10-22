@@ -21,7 +21,7 @@ Images, videos, and audio clips add visual appeal to your app.
  These videos can help you insert images, videos, and audio clips into your app.
 
 |Task|Watch a short video|
-|----------| - |
+|----------|-------------------------|
 |Import an Adobe FXG File|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [FXG Import Preview in Blend](http://www.bing.com/videos/search?q=blend%20import%20FXG%20file&qs=n&form=QBVR&pq=blend%20import%20fxg%20file&sc=0-13&sp=-1&sk=#view=detail&mid=3C733B0B50A43166C55C3C733B0B50A43166C55C)|
 |Import an Adobe Illustrator file|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [Import an Adobe Illustrator (ai) file into Blend](http://www.bing.com/videos/search?q=add%20illustrator%20file%20to%20blend&qs=n&form=QBVR&pq=add%20illustrator%20file%20to%20blend&sc=0-0&sp=-1&sk=#view=detail&mid=FDB1B25D4DEB69D24515FDB1B25D4DEB69D24515)|
 |Import an Adobe Photoshop file|![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [Import a Photoshop file into Blend](https://www.youtube.com/watch?v=ekYyhirFKs0)|

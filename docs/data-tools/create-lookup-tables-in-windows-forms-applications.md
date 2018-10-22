@@ -46,7 +46,7 @@ The term *lookup table* describes controls that are bound to two related data ta
      The lookup bindings are now established. Refer to the following table for the specific properties that were set on the control.
 
     |Property|Explanation of setting|
-    |--------------| - |
+    |--------------|----------------------------|
     |**DataSource**|Visual Studio sets this property to the <xref:System.Windows.Forms.BindingSource>, created for the table you drag onto the control (as opposed to the <xref:System.Windows.Forms.BindingSource>, created when the control was created).<br /><br /> If you need to make an adjustment, set this to the <xref:System.Windows.Forms.BindingSource> of the table with the column you want to display.|
     |**DisplayMember**|Visual Studio sets this property to the first column after the primary key that has a string data type for the table you drag onto the control.<br /><br /> If you need to make an adjustment, set this to the column name you want to display.|
     |**ValueMember**|Visual Studio sets this property to the first column participating in the primary key, or the first column in the table if no key is defined.<br /><br /> If you need to make an adjustment, set this to the primary key in the table with the column you want to display.|

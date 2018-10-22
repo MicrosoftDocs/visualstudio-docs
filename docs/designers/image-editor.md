@@ -24,7 +24,7 @@ You can use the **Image Editor** to work with the kinds of rich texture and imag
 The **Image Editor** supports the following image formats:
 
 |Format name|File Name Extension|
-|-----------------| - |
+|-----------------|-------------------------|
 |Portable Network Graphics|*.png*|
 |JPEG|*.jpg*, *.jpeg*, *.jpe*, *.jfif*|
 |Direct Draw Surface|*.dds*|
@@ -239,7 +239,7 @@ The following table describes tool properties:
 ## Keyboard shortcuts
 
 |Command|Keyboard shortcuts|
-|-------------| - |
+|-------------|------------------------|
 |Switch to **Select** mode|**S**|
 |Switch to **Zoom** mode|**Z**|
 |Switch to **Pan** mode|**K**|

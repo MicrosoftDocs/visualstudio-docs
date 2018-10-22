@@ -20,7 +20,7 @@ Keyboard shortcuts in XAML Designer can speed up your work by reducing an action
 This table lists the shortcuts that are available for working with elements on the artboard.
 
 |**To perform this action**|**Do this**|
-| - |-----------------|
+|--------------------------------|-----------------|
 |Create an element|Press **Ctrl**+**N**|
 |Duplicate an element|Hold down **Alt** and press an arrow key.|
 |Edit the text in a control|Press **F2** (press **Esc** to exit)|
@@ -39,7 +39,7 @@ This table lists the shortcuts that are available for working with elements on t
 The following table lists the shortcuts available when working with elements in the Document Outline window.
 
 |**To perform this action**|**Do this**|
-| - |-----------------|
+|--------------------------------|-----------------|
 |Hide artboard objects while focus is on the Document Outline window|**Ctrl**+**H**|
 |Unhide artboard objects while focus is on the Document Outline window|**Shift**+**Ctrl**+**H**|
 |Lock artboard objects while focus is on the Document Outline window|**Ctrl**+**L**|

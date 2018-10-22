@@ -26,7 +26,7 @@ If you want to build a game or immersive graphical app, install Visual Studio to
 With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows in the same solution, sharing code and even UI.
 
 |**Learn more**|
-| - |
+|--------------------|
 |[Install Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
 |[Learn about Xamarin in Visual Studio](https://visualstudio.microsoft.com/xamarin/) (VisualStudio.com)|
 |[Xamarin mobile app development documentation](/xamarin/) |
@@ -59,7 +59,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
  You can share your code by using a shared project, a Portable Class Library project, or both. You might find that some code fits best in a shared project, and some code makes more sense inside a Portable Class Library project.
 
 |**Learn more**|
-| - |
+|--------------------|
 |[Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing/) (Xamarin) |
 |[Code sharing options with .NET](/dotnet/standard/cross-platform/) |
 
@@ -72,7 +72,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
  Start with a Universal Windows Platform (UWP) app project template. Design your pages visually, and then open them in a preview window to see how they appear for various types of devices. If you don't like how a page appears on a device, you can optimize the page to better fit the screen size, resolution, or various orientations such as landscape or portrait mode. You can do all of that by using intuitive tool windows and easily accessible menu options in Visual Studio. When you're ready to run your app and step through your code, you'll find all of the device emulators and simulators for different types of devices together in one drop-down list that is located on the **Standard** toolbar.
 
 |**Learn more**|
-| - |
+|--------------------|
 |[Intro to the Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide)|
 |[Create your first app](/windows/uwp/get-started/your-first-app)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
@@ -99,7 +99,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
  Project templates for creating Universal Windows Platform (UWP) apps are still available in Visual Studio so feel free to use them if you plan to target only Windows devices. If you decide to target Android and iOS later, you can always port your code to a Cordova project.
 
 |**Learn more**|
-| - |
+|--------------------|
 |[Install Visual Studio](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
 |[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/)|
 |[Learn about the Visual Studio Emulator for Android](http://visualstudio.microsoft.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
@@ -128,7 +128,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
  As you write code in these libraries, you can use IntelliSense to explore the native APIs of the Android and Windows platforms. These library projects are fully integrated with the Visual Studio debugger so you can set breakpoints, step through code, and find and fix issues by using all of the advanced features of the debugger.
 
 |**Learn more**|
-| - |
+|--------------------|
 |[Download Visual Studio.](http://visualstudio.microsoft.com/products/visual-studio-community-vs) (VisualStudio.com)|
 |[Install the Visual C++ for Cross-Platform Mobile Development tools.](https://msdn.microsoft.com/library/dn707591.aspx) (MSDN Library)|
 |[Learn more about using C++ to target multiple platforms.](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
@@ -148,7 +148,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
  With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU brings support for Unity 2018.1 and includes syntax coloring for Unity's ShaderLab shader language, better synchronization with Unity, richer debugging, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
 
 |**Learn more**|
-| - |
+|--------------------|
 |[Learn more about building Unity games with Visual Studio](https://visualstudio.microsoft.com/vs/features/game-development/#tab-4b0d0be8de5f65564ad)|
 |[Read more about Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) |
 |[Start using Visual Studio Tools for Unity](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md) |

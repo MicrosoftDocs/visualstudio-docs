@@ -33,7 +33,7 @@ The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes 
  The **/warnaserror** command-line option of the compiler can also be used to specify whether warnings are treated as errors. You can add a comma delimited list to this option to specify which warnings should be treated as errors or warnings by using + or -. The following table details the possible options.
 
 |Command-line option|Specifies|
-| - |---------------|
+|--------------------------|---------------|
 |`/warnaserror+`|Treat all warnings as errors|
 |`/warnsaserror`-|Do not treat as warnings as errors. This is the default.|
 |`/warnaserror+:<warning list` `>`|Treat specific warnings as errors, listed by their error ID number in a comma delimited list r.|

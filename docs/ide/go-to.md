@@ -21,7 +21,7 @@ Visual Studio's **Go To** commands perform a focused search of your code to help
 
 ## How to use it
 
-Input | Function
+Input        | Function
 ------------ | ---
 **Keyboard** | Press **Ctrl**+**T** or **Ctrl**+**,**
 **Mouse**    | Select **Edit** > **Go To** > **Go To All**
@@ -79,8 +79,8 @@ Selecting the gear icon ![Gear icon](media/gotoall_gear.png) lets you change how
 Setting | Description
 ------- | ---
 Use preview tab | Display the selected item immediately in the IDE's preview tab
-Show details | Display project, file, line, and summary information from documentation comments in the window
-Center window | Move this window to the top-center of the code editor, instead of the top-right
+Show details    | Display project, file, line, and summary information from documentation comments in the window
+Center window   | Move this window to the top-center of the code editor, instead of the top-right
 
 ## See also
 

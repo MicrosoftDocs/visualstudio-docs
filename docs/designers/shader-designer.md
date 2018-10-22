@@ -25,7 +25,7 @@ You can use **Shader Designer** to create custom visual effects for your game or
 The **Shader Designer** supports these shader formats:
 
 |Format Name|File Extension|Supported Operations (View, Edit, Export)|
-|-----------------| - |-------------------------------------------------|
+|-----------------|--------------------|-------------------------------------------------|
 |Directed Graph Shader Language|*.dgsl*|View, Edit|
 |HLSL Shader (source code)|*.hlsl*|Export|
 |HLSL Shader (bytecode)|*.cso*|Export|
@@ -171,7 +171,7 @@ For more information about how to export shaders, see [How to: Export a shader](
 ## Keyboard shortcuts
 
 |Command|Keyboard shortcuts|
-|-------------| - |
+|-------------|------------------------|
 |Switch to **Select** mode|**Ctrl**+**G**, **Ctrl**+**Q**<br /><br /> **S**|
 |Switch to **Zoom** mode|**Ctrl**+**G**, **Ctrl**+**Z**<br /><br /> **Z**|
 |Switch to **Pan** mode|**Ctrl**+**G**, **Ctrl**+**P**<br /><br /> **K**|

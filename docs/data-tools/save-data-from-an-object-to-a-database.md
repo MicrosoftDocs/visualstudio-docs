@@ -29,7 +29,7 @@ You can save data in objects to a database by passing the values from your objec
 >  When you're configuring a TableAdapter, the main query must provide enough information for the `DBDirect` methods to be created. For example, if a TableAdapter is configured to query data from a table that does not have a primary key column defined, it does not generate `DBDirect` methods.
 
 |TableAdapter DBDirect method|Description|
-| - |-----------------|
+|----------------------------------|-----------------|
 |`TableAdapter.Insert`|Adds new records to a database and enables you to pass in individual column values as method parameters.|
 |`TableAdapter.Update`|Updates existing records in a database. The `Update` method takes original and new column values as method parameters. The original values are used to locate the original record, and the new values are used to update that record.<br /><br /> The `TableAdapter.Update` method is also used to reconcile changes in a dataset back to the database by taking a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, <xref:System.Data.DataRow>, or an array of <xref:System.Data.DataRow>s as method parameters.|
 |`TableAdapter.Delete`|Deletes existing records from the database based on the original column values passed in as method parameters.|

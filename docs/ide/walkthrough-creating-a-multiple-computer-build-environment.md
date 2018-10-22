@@ -255,7 +255,7 @@ Open a **Command Prompt** window on the build computer and run *%Program Files%\
 This table describes the supported arguments for *vcvarsall.bat*:
 
 |Vcvarsall.bat argument|Compiler|Build computer architecture|Build output architecture|
-| - |--------------| - |-------------------------------|
+|----------------------------|--------------|---------------------------------|-------------------------------|
 |x86 (default)|32-bit Native|x86, x64|x86|
 |x86_amd64|x64 Cross|x86, x64|x64|
 |amd64|x64 Native|x64|x64|

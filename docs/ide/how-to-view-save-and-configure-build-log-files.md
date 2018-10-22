@@ -38,7 +38,7 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
 3.  In the **MSBuild project build output verbosity** list, choose one of the following values, and then choose the **OK** button.
 
     |Verbosity level|Description|
-    | - |-----------------|
+    |---------------------|-----------------|
     |**Quiet**|Displays a summary of the build only.|
     |**Minimal**|Displays a summary of the build and errors, warnings, and messages that are categorized as highly important.|
     |**Normal**|Displays a summary of the build; errors, warnings, and messages that are categorized as highly important; and the main steps of the build. You'll use this level of detail most frequently.|

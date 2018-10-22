@@ -1426,7 +1426,7 @@ The following table shows the rule name, applicable languages, default value, an
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| dotnet_sort_system_directives_first | C# and Visual Basic | true | 15.3 |
+| dotnet_sort_system_directives_first |  C# and Visual Basic | true | 15.3  |
 
 **dotnet\_sort\_system\_directives_first**
 
@@ -1467,13 +1467,13 @@ The following table shows the "new line" rule names, applicable languages, defau
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_new_line_before_open_brace | C# | all | 15.3 |
-| csharp_new_line_before_else | C# | true | 15.3 |
-| csharp_new_line_before_catch | C# | true | 15.3 |
-| csharp_new_line_before_finally | C# | true | 15.3 |
-| csharp_new_line_before_members_in_object_initializers | C# | true | 15.3 |
-| csharp_new_line_before_members_in_anonymous_types | C# | true | 15.3 |
-| csharp_new_line_between_query_expression_clauses | C# | true | 15.3 |
+| csharp_new_line_before_open_brace |  C# | all | 15.3  |
+| csharp_new_line_before_else |  C# | true | 15.3  |
+| csharp_new_line_before_catch |  C# | true | 15.3  |
+| csharp_new_line_before_finally |  C# | true | 15.3  |
+| csharp_new_line_before_members_in_object_initializers |  C# | true | 15.3  |
+| csharp_new_line_before_members_in_anonymous_types |  C# | true | 15.3  |
+| csharp_new_line_between_query_expression_clauses |  C# | true | 15.3  |
 
 **csharp\_new\_line\_before\_open_brace**
 
@@ -1666,9 +1666,9 @@ The following table shows the rule names, applicable languages, default values, 
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_indent_case_contents | C# | true | 15.3 |
-| csharp_indent_switch_labels | C# | true | 15.3 |
-| csharp_indent_labels | C# | no_change | 15.3 |
+| csharp_indent_case_contents |  C# | true | 15.3  |
+| csharp_indent_switch_labels |  C# | true | 15.3  |
+| csharp_indent_labels |  C# | no_change | 15.3  |
 
 **csharp\_indent\_case_contents**
 
@@ -1811,17 +1811,17 @@ The following table shows the rule names, applicable languages, default values, 
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_space_after_cast | C# | false | 15.3 |
-| csharp_space_after_keywords_in_control_flow_statements | C# | true | 15.3 |
-| csharp_space_between_method_declaration_parameter_ list_parentheses | C# | false | 15.3 |
-| csharp_space_between_method_call_parameter_list_parentheses | C# | false | 15.3 |
-| csharp_space_between_parentheses | C# | false | 15.3 |
-| csharp_space_before_colon_in_inheritance_clause | C# | true | 15.7 |
-| csharp_space_after_colon_in_inheritance_clause | C# | true | 15.7 |
-| csharp_space_around_binary_operators | C# | before_and_after | 15.7 |
-| csharp_space_between_method_declaration_empty_parameter_list_parentheses | C# | false | 15.7 |
-| csharp_space_between_method_call_name_and_opening_parenthesis | C# | false | 15.7 |
-| csharp_space_between_method_call_empty_parameter_list_parentheses | C# | false | 15.7 |
+| csharp_space_after_cast |  C# | false | 15.3  |
+| csharp_space_after_keywords_in_control_flow_statements |  C# | true | 15.3  |
+| csharp_space_between_method_declaration_parameter_ list_parentheses |  C# | false | 15.3  |
+| csharp_space_between_method_call_parameter_list_parentheses |  C# | false | 15.3  |
+| csharp_space_between_parentheses |  C# | false | 15.3  |
+| csharp_space_before_colon_in_inheritance_clause |  C# | true | 15.7  |
+| csharp_space_after_colon_in_inheritance_clause |  C# | true | 15.7  |
+| csharp_space_around_binary_operators |  C# | before_and_after | 15.7  |
+| csharp_space_between_method_declaration_empty_parameter_list_parentheses |  C# | false | 15.7  |
+| csharp_space_between_method_call_name_and_opening_parenthesis |  C# | false | 15.7  |
+| csharp_space_between_method_call_empty_parameter_list_parentheses |  C# | false | 15.7  |
 
 **csharp\_space\_after_cast**
 
@@ -2114,8 +2114,8 @@ The following table shows the rule names, applicable languages, default values, 
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ----------------  |
-| csharp_preserve_single_line_statements | C# | true | 15.3 |
-| csharp_preserve_single_line_blocks | C# | true | 15.3 |
+| csharp_preserve_single_line_statements |  C# | true | 15.3  |
+| csharp_preserve_single_line_blocks |  C# | true | 15.3  |
 
 **csharp_preserve_single_line_statements**
 
