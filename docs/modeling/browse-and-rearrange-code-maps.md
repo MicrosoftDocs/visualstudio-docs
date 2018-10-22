@@ -26,9 +26,10 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Browse and rearrange code maps
+
 Rearrange items on code maps to make them easier to read and improve their performance.
 
- You can customize code maps without affecting the underlying code in a solution. This is useful when you want to focus on key code elements or communicate ideas about the code. For example, to highlight interesting areas, you can select code elements on the map and filter them, change the style of code elements and links, hide or delete code elements, and organize code elements using properties, categories, or groups.
+You can customize code maps without affecting the underlying code in a solution. This is useful when you want to focus on key code elements or communicate ideas about the code. For example, to highlight interesting areas, you can select code elements on the map and filter them, change the style of code elements and links, hide or delete code elements, and organize code elements using properties, categories, or groups.
 
  **Requirements**
 
@@ -37,9 +38,10 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 -   You can view code maps and make limited edits to code maps in Visual Studio Professional.
 
 ##  <a name="ManageLargeGraphs"></a> Get started working with code maps
- Create a code map (see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) for more details). If you don't want to wait for the map to finish generating, click the **Cancel** link at any time to stop the generation process. However, you will not see the details of all dependencies and links if you do this.
 
- After you generate the map, get started with these tips for reviewing your code:
+Create a code map (see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) for more details). If you don't want to wait for the map to finish generating, click the **Cancel** link at any time to stop the generation process. However, you will not see the details of all dependencies and links if you do this.
+
+After you generate the map, get started with these tips for reviewing your code:
 
 -   Look at the natural dependency clusters in the code. On the map toolbar, choose **Layout**, **Quick Clusters**![Quick Clusters button on graph toolbar](../modeling/media/quickclustersicon.gif). See [Change the map layout](#Selecting).
 
@@ -83,10 +85,11 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Filter the types of links that are shown on the map.|Set or clear the checkboxes in the **Relationships** list in the Filters pane.|
 |Show or hide Test project nodes on the map.|Set or clear the **Test Assets** checkbox in the **Miscellaneous** list in the Filters pane.|
 
- The icons shown in the Legend panel of the map reflect the settings you make in the list. To show or hide the Legend panel, click the **Legend** button on the code map toolbar.
+The icons shown in the Legend panel of the map reflect the settings you make in the list. To show or hide the Legend panel, click the **Legend** button on the code map toolbar.
 
 ##  <a name="Inspect"></a> Examine nodes and links
- Code maps show these kinds of links:
+
+Code maps show these kinds of links:
 
 -   An individual link represents a single relationship between two nodes.
 
@@ -95,7 +98,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 -   An aggregate link represents all the relationships that point in the same direction between two groups.
 
 > [!TIP]
->  By default, the map shows cross-group links only for selected nodes. To change this behavior to show or hide aggregated links between groups, click **Layout** on the code map toolbar and choose **Advanced**, then **Show All Cross-Group Links** or **Hide All Cross-Group Links**. See [Hide or show nodes and links](#HidingShowing) for more details.
+> By default, the map shows cross-group links only for selected nodes. To change this behavior to show or hide aggregated links between groups, click **Layout** on the code map toolbar and choose **Advanced**, then **Show All Cross-Group Links** or **Hide All Cross-Group Links**. See [Hide or show nodes and links](#HidingShowing) for more details.
 
 |**To**|**Perform these steps**|
 |------------|-----------------------------|
@@ -107,10 +110,11 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |See the items that a node or link references.|Open the shortcut menu for the node and choose **Find All References**. **Note:**  This applies only when the `Reference` attribute is set for the node or link in the map's .dgml file. To add references to items from nodes or links, see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).|
 
 ##  <a name="HidingShowing"></a> Hide or show nodes and links
- Hiding nodes keeps them from participating in layout algorithms. By default, cross-group links are hidden. Cross-group links are individual links that connect nodes across groups. When groups are collapsed, the map aggregates all cross-group links into single links between groups. When you expand a group and select nodes inside the group, cross-group links appear and show the dependencies in that group.
+
+Hiding nodes keeps them from participating in layout algorithms. By default, cross-group links are hidden. Cross-group links are individual links that connect nodes across groups. When groups are collapsed, the map aggregates all cross-group links into single links between groups. When you expand a group and select nodes inside the group, cross-group links appear and show the dependencies in that group.
 
 > [!CAUTION]
->  Before you share a map that was created in Visual Studio Enterprise with those who use Visual Studio Professional, make sure to unhide any nodes or cross-group links that you want others to see. Otherwise, those users won't be able to unhide those items.
+> Before you share a map that was created in Visual Studio Enterprise with those who use Visual Studio Professional, make sure to unhide any nodes or cross-group links that you want others to see. Otherwise, those users won't be able to unhide those items.
 
 ### To hide or show nodes
 
@@ -142,10 +146,11 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Remove nodes from their parent group.|Select the nodes that you want to move. Open the shortcut menu for your selection and choose **Group**, **Remove From Parent**. This removes nodes up to their grandparent, or to outside the group if they have no grandparent group.<br /><br /> - or -<br /><br /> Select the nodes and drag them out of the group.|
 
 ##  <a name="AddRemoveNodesLinks"></a> Add, remove, or rename nodes, links, and comments
- You can display more or fewer items on a map in order to drill down or to simplify the map. You can also rename items, and add comments to items.
+
+You can display more or fewer items on a map in order to drill down or to simplify the map. You can also rename items, and add comments to items.
 
 > [!CAUTION]
->  Before you share a map that was created using Visual Studio Enterprise with those who use Visual Professional, make sure any code elements you want others to see are visible on the map. Otherwise, those users won't be able to retrieve deleted code elements.
+> Before you share a map that was created using Visual Studio Enterprise with those who use Visual Professional, make sure any code elements you want others to see are visible on the map. Otherwise, those users won't be able to retrieve deleted code elements.
 
 ### Add a node for a code element
 
@@ -165,7 +170,8 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |Compiled .NET assemblies (.dll or .exe) or binaries.|Drag the assemblies or binaries from outside Visual Studio to a map.<br /><br /> You can drag from Windows Explorer or File Explorer only if you are running it and Visual Studio at the same User Access Control (UAC) permissions level. For example, if UAC is turned on and you are running Visual Studio as Administrator, Windows Explorer or File Explorer will block the dragging operation.|
 
 ###  <a name="AddNodes"></a>
-##### Add a link between existing code elements
+
+#### Add a link between existing code elements
 
 1. Select the source code element. A toolbar appears above the code element.
 
@@ -175,20 +181,21 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 
 3. Select the target code element. A link appears between the two code elements.
 
-   \- or -
+**OR**
 
-4. Select the source code element on the map.
+1. Select the source code element on the map.
 
-5. If you have a mouse installed, move the mouse pointer outside the bounds of the map.
+2. If you have a mouse installed, move the mouse pointer outside the bounds of the map.
 
-6. Open the code element's shortcut menu and choose **Edit**, **Add**, **Generic Link**.
+3. Open the code element's shortcut menu and choose **Edit** > **Add** > **Generic Link**.
 
-7. Tab to and select the target code element for the link.
+4. Tab to and select the target code element for the link.
 
-8. Press **RETURN**.
+5. Press **Enter**.
 
 ###  <a name="AddComments"></a>
-##### Add a comment to an existing node on the map
+
+#### Add a comment to an existing node on the map
 
 1.  Select the code element. A toolbar appears above it.
 
@@ -198,38 +205,39 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 
      \- or -
 
-     Open the shortcut menu for the code element and choose **Edit**, **New Comment**.
+     Open the shortcut menu for the code element and choose **Edit** > **New Comment**.
 
-3.  Type your comments. To type on a new line, press **SHIFT** + **RETURN**.
+3.  Type your comments. To type on a new line, press **Shift** + **Enter**.
 
-##### Add a comment to the map itself
+#### Add a comment to the map itself
 
-1.  Open the shortcut menu for the map and choose **Edit**, **New Comment**.
+1.  Open the shortcut menu for the map and choose **Edit** > **New Comment**.
 
-2.  Type your comments. To type on a new line, press **SHIFT** + **RETURN**.
+2.  Type your comments. To type on a new line, press **Shift** + **Enter**.
 
 ###  <a name="RenameNodes"></a>
-##### Rename a code element or link
+
+#### Rename a code element or link
 
 1.  Select the code element or the link you want to rename.
 
-2.  Press **F2**, or open the shortcut menu and choose **Edit**, **Rename**.
+2.  Press **F2**, or open the shortcut menu and choose **Edit** > **Rename**.
 
 3.  When the edit box appears in the map, rename the code element or the link.
 
-     \- or -
+**OR**
 
-4.  Open the shortcut menu and choose **Edit**, **Properties**.
+1.  Open the shortcut menu and choose **Edit** > **Properties**.
 
-5.  Edit the **Label** property in the Visual Studio Properties window.
+2.  Edit the **Label** property in the Visual Studio Properties window.
 
-##### Remove a code element or link from the map
+#### Remove a code element or link from the map
 
 1.  Select the code element or link and press the **Delete** key.
 
      \- or -
 
-     Open the shortcut menu for the code element or link and choose **Edit**, **Remove**.
+     Open the shortcut menu for the code element or link and choose **Edit** > **Remove**.
 
 2.  If the element or link is part of a group, the **Refetch Children** button ![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png) appears inside the group. Click this to retrieve missing elements and links.
 
@@ -237,20 +245,21 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 
 -   Maps created by editing the DGML, by adding undefined code elements, or by using some earlier versions of Visual Studio, do not support this capability.
 
-##### Flag a code element for follow-up
+#### Flag a code element for follow-up
 
 1.  Select the code element or link you want to flag for follow-up.
 
-2.  Open the shortcut menu and choose **Edit**, **Flag for Follow Up**.
+2.  Open the shortcut menu and choose **Edit** > **Flag for Follow Up**.
 
 -   By default, the code element gains a red background. Consider [adding a comment](#AddComments) to it with the appropriate follow-up information.
 
--   Change the background color of the element or clear the follow-up flag by choosing **Edit**, **Other Flag Colors**.
+-   Change the background color of the element or clear the follow-up flag by choosing **Edit** > **Other Flag Colors**.
 
 ##  <a name="ChangeStyleCodeOrLink"></a> Change the style of a code element or link
- You can change the icons on code elements and the colors of code elements and links using predefined icons and colors. For example, you can choose a color to highlight code elements and links that have a certain category or property. This lets you identify and focus on specific areas of the map. You can specify custom icons and colors by editing the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).
 
-#### To apply a predefined color or icon to code elements or links with a certain category or property
+You can change the icons on code elements and the colors of code elements and links using predefined icons and colors. For example, you can choose a color to highlight code elements and links that have a certain category or property. This lets you identify and focus on specific areas of the map. You can specify custom icons and colors by editing the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).
+
+### To apply a predefined color or icon to code elements or links with a certain category or property
 
 1.  On the map toolbar, choose **Legend**.
 
@@ -259,7 +268,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 3.  If the list does not include the category or property, choose **+** in the **Legend** box, then choose **Node Property**, **Node Category**, **Link Property**, or **Link Category**. Then choose the property or category. The category or property now appears in the **Legend** box.
 
     > [!NOTE]
-    >  To create and assign a category or a property to a code element, you can edit the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).
+    > To create and assign a category or a property to a code element, you can edit the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).
 
 4.  In the **Legend** box, click the icon next to the category or property you added or you want to change.
 
@@ -282,10 +291,11 @@ Rearrange items on code maps to make them easier to read and improve their perfo
     |Specific color or icon|Open the category or property value list. Select a color or icon.|
 
     > [!NOTE]
-    >  You can rearrange, delete, or temporarily inactivate styles in the **Legend** box. See [Edit the Legend box](#ModifyLegend).
+    > You can rearrange, delete, or temporarily inactivate styles in the **Legend** box. See [Edit the Legend box](#ModifyLegend).
 
 ##  <a name="ModifyLegend"></a> Edit the Legend box
- You can rearrange, delete, or temporarily inactivate styles in the **Legend** box:
+
+You can rearrange, delete, or temporarily inactivate styles in the **Legend** box:
 
 1.  Open the shortcut menu for a style in the **Legend** box.
 
@@ -307,9 +317,10 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 3.  Paste the legend onto the target map.
 
 ##  <a name="MergeMaps"></a> Merge code maps
- You can merge maps by copying and pasting code elements between maps. If the code element identifiers match, then pasting code elements functions like a merge operation. To make this task easier, put all the assemblies or binaries that you want to visualize in the same folder so that the full path of each assembly or binary is the same for each map that you want to merge.
 
- Alternatively, you can drag those assemblies or binaries to the same map from that folder.
+You can merge maps by copying and pasting code elements between maps. If the code element identifiers match, then pasting code elements functions like a merge operation. To make this task easier, put all the assemblies or binaries that you want to visualize in the same folder so that the full path of each assembly or binary is the same for each map that you want to merge.
+
+Alternatively, you can drag those assemblies or binaries to the same map from that folder.
 
 ## See Also
 

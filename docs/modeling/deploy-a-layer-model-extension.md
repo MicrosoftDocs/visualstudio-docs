@@ -23,7 +23,7 @@ Your extension is compiled to a VSIX file, which you can install on other comput
 
 ### To install the extension
 
-1. In the project that contains **source.vsix.manifest**, open **bin\\\\*** in File Explorer.
+1. In the project that contains **source.vsix.manifest**, open the *bin* directory in File Explorer.
 
 2. Copy the **\*.vsix** file to the computer on which you want to install the extension.
 

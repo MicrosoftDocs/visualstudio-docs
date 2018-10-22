@@ -23,20 +23,20 @@ You can generate Microsoft Excel load test reports that are based on two or more
 > [!TIP]
 > You can also manually create Microsoft Word reports by copying and pasting data from the summary view, graphs view, and tables view. See [How to: Manually create a load test performance report using Microsoft Word](../test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md).
 
- Either report can be used to share performance data with stakeholders and convey whether the overall performance and health of the system is getting better or worse.
+Either report can be used to share performance data with stakeholders and convey whether the overall performance and health of the system is getting better or worse.
 
- Report definitions are stored in the load test database. When a report is saved, the definition for the report is saved in the database and can be re-used later.
+Report definitions are stored in the load test database. When a report is saved, the definition for the report is saved in the database and can be re-used later.
 
- Also, the Excel workbook can be shared with stakeholders so that stakeholders do not have to connect to the database to see the report.
+Also, the Excel workbook can be shared with stakeholders so that stakeholders do not have to connect to the database to see the report.
 
 > [!NOTE]
 > You can share the Excel workbook; however, only users who have Visual Studio installed on their machine will be able to modify any of the spreadsheets. Other users will not see the **Load Test Report** option in the **Office** ribbon, but they will be able to view the workbook.
 
- The following illustration is an example of a report that shows a correlation between a decline in transaction (Update Cart) speed and the degeneration of the (% Processor) counter. This points to a potential problem in the application code, instead of the database or network, and is a good candidate to diagnose by using the ASP.NET Profiler.
+The following illustration is an example of a report that shows a correlation between a decline in transaction (Update Cart) speed and the degeneration of the (% Processor) counter. This points to a potential problem in the application code, instead of the database or network, and is a good candidate to diagnose by using the ASP.NET Profiler.
 
- ![Potential problem in the application code](../test/media/lt_excel.png)
+![Potential problem in the application code](../test/media/lt_excel.png)
 
- Excel reports can either be generated in the **Load Test Analyzer**, by using the **Create Excel Report** button in the toolbar, or from Excel by using the **Load Test Report** option in the **Load Test** tab of the **Office** ribbon.
+Excel reports can either be generated in the **Load Test Analyzer**, by using the **Create Excel Report** button in the toolbar, or from Excel by using the **Load Test Report** option in the **Load Test** tab of the **Office** ribbon.
 
 > [!NOTE]
 > If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add comments while analyzing a completed load test](../test/how-to-add-comments-on-a-completed-load-test.md).
@@ -47,22 +47,22 @@ You can generate Microsoft Excel load test reports that are based on two or more
 
 2. You can create Excel load test reports in two ways:
 
-   1. After you complete a load test, in the **Load Test Results** page, choose the **Create Excel Report** button in the toolbar.
+   - After you complete a load test, in the **Load Test Results** page, choose the **Create Excel Report** button in the toolbar.
 
       > [!NOTE]
       > If the **Create Excel Report** button is disabled in the **Web Performance Test Results Viewer** toolbar, you may need to run Microsoft Excel one time before it is enabled. When Visual Studio Enterprise is installed, the Visual Studio Enterprise load test add-in is copied to your computer for Microsoft Excel; however, Microsoft Excel must be run to complete the installation process for the add-in.
 
       Microsoft Excel opens with the **Generate a Load Test Report Wizard**.
 
-      -or-
+   **OR**
 
-   2. Open Microsoft Excel, select the **Load Test** tab in the **Office** ribbon and then choose **Load Test Report**.
+   1. Open Microsoft Excel, select the **Load Test** tab in the **Office** ribbon and then choose **Load Test Report**.
 
        The **Generate a Load Test Report Wizard** appears.
 
-   3. In the **Select database which contains load tests** page, under **Server name**, type the name of the server containing the load test results.
+   2. In the **Select database which contains load tests** page, under **Server name**, type the name of the server containing the load test results.
 
-   4. In the **Databasename** drop-down list, select the database containing the load test results.
+   3. In the **Databasename** drop-down list, select the database containing the load test results.
 
 3. In the **How do you want to generate your report** page, verify that **Create a report** is selected and choose **Next**.
 
@@ -102,22 +102,22 @@ You can generate Microsoft Excel load test reports that are based on two or more
 
 2. You can create Excel load test reports in two ways:
 
-   1. After you complete a load test, in the **Load Test Results** page, choose the **Create Excel Report** button in the toolbar.
+   - After you complete a load test, in the **Load Test Results** page, choose the **Create Excel Report** button in the toolbar.
 
       > [!NOTE]
       > If the **Create Excel Report** button is disabled in the **Web Performance Test Results Viewer** toolbar, you may need to run Microsoft Excel one time before it is enabled. When Visual Studio Enterprise is installed, the Visual Studio Enterprise load test add-in is copied to your computer for Microsoft Excel; however, Microsoft Excel must be run to complete the installation process for the add-in.
 
       Microsoft Excel opens with the **Generate a Load Test Report Wizard**.
 
-      -or-
+   **OR**
 
-   2. Open Microsoft Excel, select the **Load Test** tab in the **Office** ribbon and then choose **Load Test Report**.
+   1. Open Microsoft Excel, select the **Load Test** tab in the **Office** ribbon and then choose **Load Test Report**.
 
        The **Generate a Load Test Report Wizard** appears.
 
-   3. In the **Select database which contains load tests** page, under **Server name**, type the name of the server containing the load test results.
+   2. In the **Select database which contains load tests** page, under **Server name**, type the name of the server containing the load test results.
 
-   4. In the **Databasename** drop-down list, select the database containing the load test results.
+   3. In the **Databasename** drop-down list, select the database containing the load test results.
 
 3. In the **How do you want to generate your report** page, verify that **Create a report** is selected and choose **Next**.
 
