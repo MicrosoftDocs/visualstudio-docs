@@ -59,7 +59,7 @@ This refactoring applies to:
    | Button | Description
    | ------ | ---
    | **Up/Down** | Move the selected parameter up and down the list
-   | **Remove**  | Remove the selected parameter from the list
+   | **Remove** | Remove the selected parameter from the list
    | **Restore** | Restore the selected, crossed-out parameter to the list
 
    > [!TIP]

@@ -62,7 +62,7 @@ Finds all the references to the selected element in the solution. You can use th
 Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift**+**F12**
-**Mouse**    | Select **Find All References** from the context menu
+**Mouse** | Select **Find All References** from the context menu
 
 ## Reference highlighting
 
@@ -101,7 +101,7 @@ Go To Definition takes you to the definition of the selected element. For more i
 Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **F12**
-**Mouse**    | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)
+**Mouse** | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)
 
 ## Peek Definition
 
@@ -110,7 +110,7 @@ Peek Definition displays the definition of the selected element in a window with
 Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt**+**F12**
-**Mouse**    | Right-click on the type name and select **Peek Definition** OR press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)
+**Mouse** | Right-click on the type name and select **Peek Definition** OR press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)
 
 ## Go To Implementation
 
@@ -119,7 +119,7 @@ Using Go To Implementation, you can navigate from a base class or type to its im
 Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**F12**
-**Mouse**    | Right-click on the type name and select **Go To Implementation**
+**Mouse** | Right-click on the type name and select **Go To Implementation**
 
 ## Call Hierarchy
 
@@ -128,7 +128,7 @@ You can view calls to and from a method in the [Call Hierarchy window](../ide/re
 Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**K**, **Ctrl**+**T**
-**Mouse**    | Right-click on the member name and select **View Call Hierarchy**
+**Mouse** | Right-click on the member name and select **View Call Hierarchy**
 
 ## Next Method and Previous Method commands (Visual Basic)
 

@@ -28,8 +28,8 @@ You can display data to users of your application by binding data to controls. Y
 | Data source | Drag-and-drop support in **the Windows Forms Designer** | Drag-and-drop support in **the WPF Designer** | Drag-and-drop support in **the Silverlight Designer** |
 | - | - | - | - |
 | Dataset | Yes | Yes | No |
-| Entity Data Model | Yes<sup>1</sup>                     | Yes | Yes |
-| LINQ to SQL classes | No<sup>2</sup>                      | No<sup>2</sup>                 | No<sup>2</sup>                     |
+| Entity Data Model | Yes<sup>1</sup> | Yes | Yes |
+| LINQ to SQL classes | No<sup>2</sup> | No<sup>2</sup> | No<sup>2</sup> |
 | Services (including [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF services, and web services) | Yes | Yes | Yes |
 | Object | Yes | Yes | Yes |
 | SharePoint | Yes | Yes | Yes |

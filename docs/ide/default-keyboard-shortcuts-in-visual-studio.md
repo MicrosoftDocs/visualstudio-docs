@@ -767,111 +767,111 @@ The sections in the following table include commands that are global in that you
 
 | Commands | Keyboard shortcuts |
 | - | - |
-| Edit.BreakLine |     **Enter**<br /><br /> or<br /><br /> **Shift+Enter**      |
-| Edit.CharLeft |                        **Left Arrow**                         |
-| Edit.CharLeftExtend |                     **Shift+Left Arrow**                      |
-| Edit.CharLeftExtendColumn |                   **Shift+Alt+Left Arrow**                    |
-| Edit.CharRight |                        **Right Arrow**                        |
-| Edit.CharRightExtend |                     **Shift+Right Arrow**                     |
-| Edit.CharRightExtendColumn |                   **Shift+Alt+Right Arrow**                   |
-| Edit.CharTranspose |                          **Ctrl+T**                           |
-| Edit.ClearBookmarks |                      **Ctrl+K, Ctrl+L**                       |
-| Edit.CollapseAllOutlining |                      **Ctrl+M, Ctrl+A**                       |
-| Edit.CollapseCurrentRegion |                      **Ctrl+M, Ctrl+S**                       |
-| Edit.CollapseTag |                      **Ctrl+M, Ctrl+T**                       |
-| Edit.CollapseToDefinitions |                **Ctrl+M, Ctrl+O** (letter 'O')                |
-| Edit.CommentSelection |                      **Ctrl+K, Ctrl+C**                       |
+| Edit.BreakLine | **Enter**<br /><br /> or<br /><br /> **Shift+Enter** |
+| Edit.CharLeft | **Left Arrow** |
+| Edit.CharLeftExtend | **Shift+Left Arrow** |
+| Edit.CharLeftExtendColumn | **Shift+Alt+Left Arrow** |
+| Edit.CharRight | **Right Arrow** |
+| Edit.CharRightExtend | **Shift+Right Arrow** |
+| Edit.CharRightExtendColumn | **Shift+Alt+Right Arrow** |
+| Edit.CharTranspose | **Ctrl+T** |
+| Edit.ClearBookmarks | **Ctrl+K, Ctrl+L** |
+| Edit.CollapseAllOutlining | **Ctrl+M, Ctrl+A** |
+| Edit.CollapseCurrentRegion | **Ctrl+M, Ctrl+S** |
+| Edit.CollapseTag | **Ctrl+M, Ctrl+T** |
+| Edit.CollapseToDefinitions | **Ctrl+M, Ctrl+O** (letter 'O') |
+| Edit.CommentSelection | **Ctrl+K, Ctrl+C** |
 | Edit.CompleteWord | **Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow** |
-| Edit.CopyParameterTip |                     **Ctrl+Shift+Alt+C**                      |
-| Edit.DecreaseFilterLevel |                           **Alt+,**                           |
-| Edit.DeleteBackwards |   **Backspace**<br /><br /> or<br /><br /> **Shift+Bkspce**   |
-| Edit.DeleteHorizontalWhiteSpace |                      **Ctrl+K, Ctrl+\\**                      |
-| Edit.DocumentEnd |                         **Ctrl+End**                          |
-| Edit.DocumentEndExtend |                      **Ctrl+Shift+End**                       |
-| Edit.DocumentStart |                         **Ctrl+Home**                         |
-| Edit.DocumentStartExtend |                      **Ctrl+Shift+Home**                      |
-| Edit.ExpandAllOutlining |                      **Ctrl+M, Ctrl+X**                       |
-| Edit.ExpandCurrentRegion |                      **Ctrl+M, Ctrl+E**                       |
-| Edit.FormatDocument |                      **Ctrl+K, Ctrl+D**                       |
-| Edit.FormatSelection |                      **Ctrl+K, Ctrl+F**                       |
-| Edit.GotoBrace |                          **Ctrl+]**                           |
-| Edit.GotoBraceExtend |                       **Ctrl+Shift+]**                        |
-| Edit.HideSelection |                      **Ctrl+M, Ctrl+H**                       |
-| Edit.IncreaseFilterLevel |                           **Alt+.**                           |
-| Edit.IncrementalSearch |                          **Ctrl+I**                           |
-| Edit.InsertTab |                            **Tab**                            |
-| Edit.LineCut |                          **Ctrl+L**                           |
-| Edit.LineDelete |                       **Ctrl+Shift+L**                        |
-| Edit.LineDown |                        **Down Arrow**                         |
-| Edit.LineDownExtend |                     **Shift+Down Arrow**                      |
-| Edit.LineDownExtendColumn |                   **Shift+Alt+Down Arrow**                    |
-| Edit.LineEnd |                            **End**                            |
-| Edit.LineEndExtend |                         **Shift+End**                         |
-| Edit.LineEndExtendColumn |                       **Shift+Alt+End**                       |
-| Edit.LineOpenAbove |                        **Ctrl+Enter**                         |
-| Edit.LineOpenBelow |                     **Ctrl+Shift+Enter**                      |
-| Edit.LineStart |                           **Home**                            |
-| Edit.LineStartExtend |                        **Shift+Home**                         |
-| Edit.LineStartExtendColumn |                      **Shift+Alt+Home**                       |
-| Edit.LineTranspose |                        **Shift+Alt+T**                        |
-| Edit.LineUp |                         **Up Arrow**                          |
-| Edit.LineUpExtend |                      **Shift+Up Arrow**                       |
-| Edit.LineUpExtendColumn |                    **Shift+Alt+Up Arrow**                     |
-| Edit.ListMembers |                          **Ctrl+J**                           |
-| Edit.MakeLowercase |                          **Ctrl+U**                           |
-| Edit.MakeUppercase |                       **Ctrl+Shift+U**                        |
-| Edit.MoveSelectedLinesDown |                      **Alt+Down Arrow**                       |
-| Edit.MoveSelectedLinesUp |                       **Alt+Up Arrow**                        |
-| Edit.NextHighlightedReference |                   **Ctrl+Shift+Down Arrow**                   |
-| Edit.OvertypeMode |                          **Insert**                           |
-| Edit.PageDown |                           **PgDn**                            |
-| Edit.PageDownExtend |                        **Shift+PgDn**                         |
-| Edit.PageUp |                           **PgUp**                            |
-| Edit.PageUpExtend |                        **Shift+PgUp**                         |
-| Edit.ParameterInfo |                    **Ctrl+Shift+Spacebar**                    |
-| Edit.PasteParameterTip |                     **Ctrl+Shift+Alt+P**                      |
-| Edit.PeekBackward |                        **Ctrl+Alt+-**                         |
-| Edit.PeekDefinition |                          **Alt+F12**                          |
-| Edit.PeekForward |                        **Ctrl+Alt+=**                         |
-| Edit.PreviousHighlightedReference |                    **Ctrl+Shift+Up Arrow**                    |
-| Edit.QuickInfo |                      **Ctrl+K, Ctrl+I**                       |
-| Edit.ReverseIncrementalSearch |                       **Ctrl+Shift+I**                        |
-| Edit.ScrollLineDown |                      **Ctrl+Down Arrow**                      |
-| Edit.ScrollLineUp |                       **Ctrl+Up Arrow**                       |
-| Edit.SelectCurrentWord |                          **Ctrl+W**                           |
-| Edit.SelectionCancel |                          **Escape**                           |
-| Edit.SelectToLastGoBack |                          **Ctrl+=**                           |
-| Edit.ShowCodeLensMenu |                          **Alt+\`**                           |
-| Edit.StopHidingCurrent |                      **Ctrl+M, Ctrl+U**                       |
-| Edit.StopOutlining |                      **Ctrl+M, Ctrl+P**                       |
-| Edit.SwapAnchor |                      **Ctrl+K, Ctrl+A**                       |
-| Edit.TabLeft |                         **Shift+Tab**                         |
-| Edit.ToggleAllOutlining |                      **Ctrl+M, Ctrl+L**                       |
-| Edit.ToggleBookmark |                      **Ctrl+K, Ctrl+K**                       |
-| Edit.ToggleCompletionMode |                      **Ctrl+Alt+Space**                       |
-| Edit.ToggleOutliningExpansion |                      **Ctrl+M, Ctrl+M**                       |
-| Edit.ToggleTaskListShortcut |                      **Ctrl+K, Ctrl+H**                       |
-| Edit.ToggleWordWrap |                      **Ctrl+E, Ctrl+W**                       |
-| Edit.UncommentSelection |                      **Ctrl+K, Ctrl+U**                       |
-| Edit.ViewBottom |                         **Ctrl+PgDn**                         |
-| Edit.ViewBottomExtend |                      **Ctrl+Shift+PgDn**                      |
-| Edit.ViewTop |                         **Ctrl+PgUp**                         |
-| Edit.ViewTopExtend |                      **Ctrl+Shift+PgUp**                      |
-| Edit.ViewWhiteSpace |                      **Ctrl+R, Ctrl+W**                       |
-| Edit.WordDeleteToEnd |                        **Ctrl+Delete**                        |
-| Edit.WordDeleteToStart |                      **Ctrl+Backspace**                       |
-| Edit.WordNext |                     **Ctrl+Right Arrow**                      |
-| Edit.WordNextExtend |                  **Ctrl+Shift+Right Arrow**                   |
-| Edit.WordNextExtendColumn |                **Ctrl+Shift+Alt+Right Arrow**                 |
-| Edit.WordPrevious |                      **Ctrl+Left Arrow**                      |
-| Edit.WordPreviousExtend |                   **Ctrl+Shift+Left Arrow**                   |
-| Edit.WordPreviousExtendColumn |                 **Ctrl+Shift+Alt+Left Arrow**                 |
-| Edit.WordTranspose |                       **Ctrl+Shift+T**                        |
-| EditorContextMenus.CodeWindow.ExecuteInInteractive |                         **Alt+Enter**                         |
-| EditorContextMenus.CodeWindow.ExecuteLineInInteractive |                           **Alt+'**                           |
-| OtherContextMenus.HTMLContext.ViewinPageInspector |                      **Ctrl+K, Ctrl+G**                       |
-| TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion |                         **Alt+PgDn**                          |
-| TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion |                         **Alt+PgUp**                          |
+| Edit.CopyParameterTip | **Ctrl+Shift+Alt+C** |
+| Edit.DecreaseFilterLevel | **Alt+,** |
+| Edit.DeleteBackwards | **Backspace**<br /><br /> or<br /><br /> **Shift+Bkspce** |
+| Edit.DeleteHorizontalWhiteSpace | **Ctrl+K, Ctrl+\\** |
+| Edit.DocumentEnd | **Ctrl+End** |
+| Edit.DocumentEndExtend | **Ctrl+Shift+End** |
+| Edit.DocumentStart | **Ctrl+Home** |
+| Edit.DocumentStartExtend | **Ctrl+Shift+Home** |
+| Edit.ExpandAllOutlining | **Ctrl+M, Ctrl+X** |
+| Edit.ExpandCurrentRegion | **Ctrl+M, Ctrl+E** |
+| Edit.FormatDocument | **Ctrl+K, Ctrl+D** |
+| Edit.FormatSelection | **Ctrl+K, Ctrl+F** |
+| Edit.GotoBrace | **Ctrl+]** |
+| Edit.GotoBraceExtend | **Ctrl+Shift+]** |
+| Edit.HideSelection | **Ctrl+M, Ctrl+H** |
+| Edit.IncreaseFilterLevel | **Alt+.** |
+| Edit.IncrementalSearch | **Ctrl+I** |
+| Edit.InsertTab | **Tab** |
+| Edit.LineCut | **Ctrl+L** |
+| Edit.LineDelete | **Ctrl+Shift+L** |
+| Edit.LineDown | **Down Arrow** |
+| Edit.LineDownExtend | **Shift+Down Arrow** |
+| Edit.LineDownExtendColumn | **Shift+Alt+Down Arrow** |
+| Edit.LineEnd | **End** |
+| Edit.LineEndExtend | **Shift+End** |
+| Edit.LineEndExtendColumn | **Shift+Alt+End** |
+| Edit.LineOpenAbove | **Ctrl+Enter** |
+| Edit.LineOpenBelow | **Ctrl+Shift+Enter** |
+| Edit.LineStart | **Home** |
+| Edit.LineStartExtend | **Shift+Home** |
+| Edit.LineStartExtendColumn | **Shift+Alt+Home** |
+| Edit.LineTranspose | **Shift+Alt+T** |
+| Edit.LineUp | **Up Arrow** |
+| Edit.LineUpExtend | **Shift+Up Arrow** |
+| Edit.LineUpExtendColumn | **Shift+Alt+Up Arrow** |
+| Edit.ListMembers | **Ctrl+J** |
+| Edit.MakeLowercase | **Ctrl+U** |
+| Edit.MakeUppercase | **Ctrl+Shift+U** |
+| Edit.MoveSelectedLinesDown | **Alt+Down Arrow** |
+| Edit.MoveSelectedLinesUp | **Alt+Up Arrow** |
+| Edit.NextHighlightedReference | **Ctrl+Shift+Down Arrow** |
+| Edit.OvertypeMode | **Insert** |
+| Edit.PageDown | **PgDn** |
+| Edit.PageDownExtend | **Shift+PgDn** |
+| Edit.PageUp | **PgUp** |
+| Edit.PageUpExtend | **Shift+PgUp** |
+| Edit.ParameterInfo | **Ctrl+Shift+Spacebar** |
+| Edit.PasteParameterTip | **Ctrl+Shift+Alt+P** |
+| Edit.PeekBackward | **Ctrl+Alt+-** |
+| Edit.PeekDefinition | **Alt+F12** |
+| Edit.PeekForward | **Ctrl+Alt+=** |
+| Edit.PreviousHighlightedReference | **Ctrl+Shift+Up Arrow** |
+| Edit.QuickInfo | **Ctrl+K, Ctrl+I** |
+| Edit.ReverseIncrementalSearch | **Ctrl+Shift+I** |
+| Edit.ScrollLineDown | **Ctrl+Down Arrow** |
+| Edit.ScrollLineUp | **Ctrl+Up Arrow** |
+| Edit.SelectCurrentWord | **Ctrl+W** |
+| Edit.SelectionCancel | **Escape** |
+| Edit.SelectToLastGoBack | **Ctrl+=** |
+| Edit.ShowCodeLensMenu | **Alt+\`** |
+| Edit.StopHidingCurrent | **Ctrl+M, Ctrl+U** |
+| Edit.StopOutlining | **Ctrl+M, Ctrl+P** |
+| Edit.SwapAnchor | **Ctrl+K, Ctrl+A** |
+| Edit.TabLeft | **Shift+Tab** |
+| Edit.ToggleAllOutlining | **Ctrl+M, Ctrl+L** |
+| Edit.ToggleBookmark | **Ctrl+K, Ctrl+K** |
+| Edit.ToggleCompletionMode | **Ctrl+Alt+Space** |
+| Edit.ToggleOutliningExpansion | **Ctrl+M, Ctrl+M** |
+| Edit.ToggleTaskListShortcut | **Ctrl+K, Ctrl+H** |
+| Edit.ToggleWordWrap | **Ctrl+E, Ctrl+W** |
+| Edit.UncommentSelection | **Ctrl+K, Ctrl+U** |
+| Edit.ViewBottom | **Ctrl+PgDn** |
+| Edit.ViewBottomExtend | **Ctrl+Shift+PgDn** |
+| Edit.ViewTop | **Ctrl+PgUp** |
+| Edit.ViewTopExtend | **Ctrl+Shift+PgUp** |
+| Edit.ViewWhiteSpace | **Ctrl+R, Ctrl+W** |
+| Edit.WordDeleteToEnd | **Ctrl+Delete** |
+| Edit.WordDeleteToStart | **Ctrl+Backspace** |
+| Edit.WordNext | **Ctrl+Right Arrow** |
+| Edit.WordNextExtend | **Ctrl+Shift+Right Arrow** |
+| Edit.WordNextExtendColumn | **Ctrl+Shift+Alt+Right Arrow** |
+| Edit.WordPrevious | **Ctrl+Left Arrow** |
+| Edit.WordPreviousExtend | **Ctrl+Shift+Left Arrow** |
+| Edit.WordPreviousExtendColumn | **Ctrl+Shift+Alt+Left Arrow** |
+| Edit.WordTranspose | **Ctrl+Shift+T** |
+| EditorContextMenus.CodeWindow.ExecuteInInteractive | **Alt+Enter** |
+| EditorContextMenus.CodeWindow.ExecuteLineInInteractive | **Alt+'** |
+| OtherContextMenus.HTMLContext.ViewinPageInspector | **Ctrl+K, Ctrl+G** |
+| TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion | **Alt+PgDn** |
+| TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion | **Alt+PgUp** |
 
 ##  UML activity diagram
 

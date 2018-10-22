@@ -57,9 +57,9 @@ This refactoring applies to:
 
    | Field | Description |
    | - | - |
-   |           **New interface name**            | The name of the interface to be created. This will default to I*ClassName*, where *ClassName* is the name of the class you selected above.                                  |
-   |              **New file name**              | The name of the file which will be generated that will contain the interface. As with the interface name, this will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
-   | **Select public members to form interface** | The items to extract into the interface. You may select as many as you wish.                                                                 |
+   | **New interface name** | The name of the interface to be created. This will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
+   | **New file name** | The name of the file which will be generated that will contain the interface. As with the interface name, this will default to I*ClassName*, where *ClassName* is the name of the class you selected above. |
+   | **Select public members to form interface** | The items to extract into the interface. You may select as many as you wish. |
 
 
 4. Choose **OK**.

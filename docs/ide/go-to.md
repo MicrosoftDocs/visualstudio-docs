@@ -24,7 +24,7 @@ Visual Studio's **Go To** commands perform a focused search of your code to help
 Input | Function
 ------------ | ---
 **Keyboard** | Press **Ctrl**+**T** or **Ctrl**+**,**
-**Mouse**    | Select **Edit** > **Go To** > **Go To All**
+**Mouse** | Select **Edit** > **Go To** > **Go To All**
 
 A small window is displayed at the top right of your code editor.
 
@@ -50,7 +50,7 @@ To narrow your search to a specific type of code element, you can either specify
 
 Prefix | Icon | Shortcut | Description
 :-: | - | - | -
-:| ![Line icon](media/gotoall-line-icon.png) | **Ctrl**+**G**         | Go to the specified line number
+:| ![Line icon](media/gotoall-line-icon.png) | **Ctrl**+**G** | Go to the specified line number
 f| ![Files icon](media/gotoall-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
 r| ![Recent files icon](media/gotoall-recent-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**R** | Go to the specified, recently visited file
 t| ![Types icon](media/gotoall-types-icon.png) | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type

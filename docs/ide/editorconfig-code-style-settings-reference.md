@@ -313,7 +313,7 @@ The style rules in this section concern modifier preferences, including requirin
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
 | Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| --------- | ------- | -------------------- | ----------------------| ----------------  |
+| --------- | ------- | -------------------- | ----------------------| ---------------- |
 | dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | 15.5 |
 | csharp_preferred_modifier_order | IDE0036 | C# | public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:none | 15.5 |
 | visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial, Default, Private, Protected, Public, Friend, NotOverridable, Overridable, MustOverride, Overloads, Overrides, MustInherit, NotInheritable, Static, Shared, Shadows, ReadOnly, WriteOnly, Dim, Const,WithEvents, Widening, Narrowing, Custom, Async:none | 15.5 |
@@ -976,7 +976,7 @@ The style rules in this section concern the use of [expression-bodied members](/
 The following table shows the rule names, rule IDs, applicable language versions, default values, and first supported version of Visual Studio:
 
 | Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| --------- | ------- | -------------------- | ----------------------| ----------------  |
+| --------- | ------- | -------------------- | ----------------------| ---------------- |
 | csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | false:none | 15.3 |
 | csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | false:none | 15.3 |
 | csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | false:none | 15.3 |
@@ -1211,7 +1211,7 @@ The style rules in this section concern expression-level preferences, including 
 The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:
 
 | Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| --------- | ------- | -------------------- | ----------------------| ----------------  |
+| --------- | ------- | -------------------- | ----------------------| ---------------- |
 | csharp_prefer_simple_default_expression | IDE0034 | C# 7.1+ | true:suggestion | 15.3 |
 | csharp_style_deconstructed_variable_declaration | IDE0042 | C# 7.0+ | true:suggestion | 15.5 |
 | csharp_style_pattern_local_over_anonymous_function | IDE0039 | C# 7.0+ | true:suggestion | 15.5 |
@@ -1346,7 +1346,7 @@ This style rule concerns the use of curly braces `{ }` to surround code blocks.
 The following table shows the rule name, rule ID, applicable language versions, default values, and first supported version of Visual Studio:
 
 | Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| --------- | ------- | -------------------- | ----------------------| ----------------  |
+| --------- | ------- | -------------------- | ----------------------| ---------------- |
 | csharp_prefer_braces | IDE0011 | C# | true:none | 15.3 |
 
 **csharp\_prefer\_braces**
@@ -1425,7 +1425,7 @@ This formatting rule concerns the placement of System.* using directives with re
 The following table shows the rule name, applicable languages, default value, and first supported version of Visual Studio:
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| ----------- | -------------------- | ----------------------| ----------------  |
+| ----------- | -------------------- | ----------------------| ---------------- |
 | dotnet_sort_system_directives_first | C# and Visual Basic | true | 15.3 |
 
 **dotnet\_sort\_system\_directives_first**
@@ -1466,7 +1466,7 @@ These formatting rules concern the use of new lines to format code.
 The following table shows the "new line" rule names, applicable languages, default values, and first supported version of Visual Studio:
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| ----------- | -------------------- | ----------------------| ----------------  |
+| ----------- | -------------------- | ----------------------| ---------------- |
 | csharp_new_line_before_open_brace | C# | all | 15.3 |
 | csharp_new_line_before_else | C# | true | 15.3 |
 | csharp_new_line_before_catch | C# | true | 15.3 |
@@ -1665,7 +1665,7 @@ These formatting rules concern the use of indentation to format code.
 The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| ----------- | -------------------- | ----------------------| ----------------  |
+| ----------- | -------------------- | ----------------------| ---------------- |
 | csharp_indent_case_contents | C# | true | 15.3 |
 | csharp_indent_switch_labels | C# | true | 15.3 |
 | csharp_indent_labels | C# | no_change | 15.3 |
@@ -1810,7 +1810,7 @@ These formatting rules concern the use of space characters to format code.
 The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| ----------- | -------------------- | ----------------------| ----------------  |
+| ----------- | -------------------- | ----------------------| ---------------- |
 | csharp_space_after_cast | C# | false | 15.3 |
 | csharp_space_after_keywords_in_control_flow_statements | C# | true | 15.3 |
 | csharp_space_between_method_declaration_parameter_ list_parentheses | C# | false | 15.3 |
@@ -2113,7 +2113,7 @@ These formatting rules concern the use of single lines versus separate lines for
 The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:
 
 | Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| ----------- | -------------------- | ----------------------| ----------------  |
+| ----------- | -------------------- | ----------------------| ---------------- |
 | csharp_preserve_single_line_statements | C# | true | 15.3 |
 | csharp_preserve_single_line_blocks | C# | true | 15.3 |
 
