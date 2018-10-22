@@ -35,22 +35,22 @@ You'll do these things to build it:
 
 > [!TIP]
 > You can find the complete source code for this project in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
->
+> 
 > If you have difficulties or run into errors, please post questions on [forums.xamarin.com](http://forums.xamarin.com). Many errors can be resolved by updating to the latest SDKs required by Xamarin, which are described in the [Xamarin Release Notes](https://developer.xamarin.com/releases/) for each platform.
-
+> 
 > [!NOTE]
 > Xamarin's developer documentation also offers several walkthroughs with both Quickstart and Deep Dive sections as listed below. On all these pages, be sure that "Visual Studio" is selected to see walkthroughs specific to Visual Studio.
->
->  -   Xamarin apps with native UI:
->     -   [Hello, Android](/xamarin/android/get-started/hello-android/) (simple app with one screen)
->     -   [Hello, Android multiscreen](/xamarin/android/get-started/hello-android-multiscreen/) (app with navigation between screens)
->     -   [Android Fragments Walkthrough](/xamarin/android/platform/fragments/implementing-with-fragments/) (used for master/detail screens, among other things)
->     -   [Hello, iOS](/xamarin/ios/get-started/hello-iOS/)
->     -   [Hello, iOS Multiscreen](/xamarin/ios/get-started/hello-iOS-multiscreen/)
-
->  -   Xamarin apps with Xamarin.Forms (shared UI)
->     -   [Hello, Xamarin.Forms](/xamarin/xamarin-forms/get-started/hello-xamarin-forms/quickstart/)
->     -   [Hello, Xamarin.Forms Multiscreen](/xamarin/xamarin-forms/get-started/hello-xamarin-forms-multiscreen/)
+> 
+> - Xamarin apps with native UI:
+>   -   [Hello, Android](/xamarin/android/get-started/hello-android/) (simple app with one screen)
+>   -   [Hello, Android multiscreen](/xamarin/android/get-started/hello-android-multiscreen/) (app with navigation between screens)
+>   -   [Android Fragments Walkthrough](/xamarin/android/platform/fragments/implementing-with-fragments/) (used for master/detail screens, among other things)
+>   -   [Hello, iOS](/xamarin/ios/get-started/hello-iOS/)
+>   -   [Hello, iOS Multiscreen](/xamarin/ios/get-started/hello-iOS-multiscreen/)
+> 
+> - Xamarin apps with Xamarin.Forms (shared UI)
+>   -   [Hello, Xamarin.Forms](/xamarin/xamarin-forms/get-started/hello-xamarin-forms/quickstart/)
+>   -   [Hello, Xamarin.Forms Multiscreen](/xamarin/xamarin-forms/get-started/hello-xamarin-forms-multiscreen/)
 
 <a name="solution" />
 

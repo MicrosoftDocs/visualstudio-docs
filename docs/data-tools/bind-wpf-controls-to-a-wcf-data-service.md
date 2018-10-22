@@ -46,13 +46,13 @@ You need the following components to complete this walkthrough:
 
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 
--   WCF Data Services. For more information, see [Overview](/dotnet/framework/data/wcf/wcf-data-services-overview).
+- WCF Data Services. For more information, see [Overview](/dotnet/framework/data/wcf/wcf-data-services-overview).
 
--   Data models in [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)].
+- Data models in [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)].
 
--   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework overview](/dotnet/framework/data/adonet/ef/overview).
+- Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework overview](/dotnet/framework/data/adonet/ef/overview).
 
--   WPF data binding. For more information, see [Data Binding overview](/dotnet/framework/wpf/data/data-binding-overview).
+- WPF data binding. For more information, see [Data Binding overview](/dotnet/framework/wpf/data/data-binding-overview).
 
 ## Create the service project
 
@@ -165,23 +165,23 @@ To display the data from the WCF Data Service, create a new WPF application with
 
 Add several buttons to the window by modifying the XAML in the WPF designer. Later in this walkthrough, you will add code that enables users to view and update sales records by using these buttons.
 
-1.  In **Solution Explorer**, double-click **MainWindow.xaml**.
+1. In **Solution Explorer**, double-click **MainWindow.xaml**.
 
-     The window opens in the WPF designer.
+    The window opens in the WPF designer.
 
-2.  In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:
+2. In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:
 
-    ```xaml
-    <Grid.RowDefinitions>
-        <RowDefinition Height="75" />
-        <RowDefinition Height="525" />
-    </Grid.RowDefinitions>
-    <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75"><</Button>
-    <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75">></Button>
-    <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>
-    ```
+   ```xaml
+   <Grid.RowDefinitions>
+       <RowDefinition Height="75" />
+       <RowDefinition Height="525" />
+   </Grid.RowDefinitions>
+   <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75"><</Button>
+   <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75">></Button>
+   <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>
+   ```
 
-3.  Build the project.
+3. Build the project.
 
 ## Create the data-bound controls
 

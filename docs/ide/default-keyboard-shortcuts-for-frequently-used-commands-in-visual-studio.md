@@ -20,7 +20,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Build
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Build.BuildSolution|**Ctrl+Shift+B** [Global]|
 |Build.Cancel|**Ctrl+Break** [Global]|
 |Build.Compile|**Ctrl+F7** [Global]|
@@ -29,7 +29,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Debug
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Debug.BreakatFunction|**Ctrl+B** [Global]|
 |Debug.BreakAll|**Ctrl+Alt+Break** [Global]|
 |Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9** [Global]|
@@ -49,7 +49,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Edit
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Edit.BreakLine|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br /> or **Shift+Enter** [Text Editor]|
 |Edit.CollapseToDefinitions|**Ctrl+M**, **Ctrl+O** [Text Editor]|
 |Edit.CommentSelection|**Ctrl+K**, **Ctrl+C** [Text Editor]|
@@ -100,7 +100,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## File
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |File.Exit|**Alt+F4** [Global]|
 |File.NewFile|**Ctrl+N** [Global]|
 |File.NewProject|**Ctrl+Shift+N** [Global]|
@@ -116,26 +116,26 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Project
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Project.AddExistingItem|**Shift+Alt+A** [Global]|
 |Project.AddNewItem|**Ctrl+Shift+A** [Global]|
 
 ## Refactor
 
 |Command|Keyboard shortcut [Context]|
-|-------------|-----------------------------------|
+|-------------| - |
 |Refactor.ExtractMethod|**Ctrl+R, Ctrl+M** [Global]|
 
 ## Tools
 
 |Command|Keyboard shortcut [Context]|
-|-------------|-----------------------------------|
+|-------------| - |
 |Tools.AttachtoProcess|**Ctrl+Alt+P** [Global]|
 
 ## View
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |View.ClassView|**Ctrl+Shift+C** [Global]|
 |View.EditLabel|**F2** [Global]|
 |View.ErrorList|**Ctrl+\\, Ctrl+E** [Global]<br /><br /> or **Ctrl+\\, E** [Global]|
@@ -156,7 +156,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Window
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Window.ActivateDocumentWindow|**Esc** [Global]|
 |Window.CloseDocumentWindow|**Ctrl+F4** [Global]|
 |Window.NextDocumentWindow|**Ctrl+F6** [Global]|

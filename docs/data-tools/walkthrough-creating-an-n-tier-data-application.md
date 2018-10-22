@@ -67,7 +67,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
  The first step of this walkthrough is to create a solution and two class library projects. The first class library holds the dataset (the generated typed `DataSet` class and DataTables that hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The dataset creates the initial dataset and automatically separates the code into the two class libraries.
 
 > [!NOTE]
->  Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.
+> Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.
 
 ### To create the n-tier solution and DataEntityTier class library
 
@@ -100,7 +100,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
  The next step is to create a typed dataset. Typed datasets are created with both the dataset class (including `DataTables` classes) and the `TableAdapter` classes in a single project. (All classes are generated into a single file.) When you separate the dataset and TableAdapters into different projects, it is the dataset class that is moved to the other project, leaving the `TableAdapter` classes in the original project. Therefore, create the dataset in the project that will ultimately contain the TableAdapters (the DataAccessTier project). You create the dataset by using the **Data Source Configuration Wizard**.
 
 > [!NOTE]
->  You must have access to the Northwind sample database to create the connection. For information about how to set up the Northwind sample database, see [How to: Install sample databases](../data-tools/installing-database-systems-tools-and-samples.md).
+> You must have access to the Northwind sample database to create the connection. For information about how to set up the Northwind sample database, see [How to: Install sample databases](../data-tools/installing-database-systems-tools-and-samples.md).
 
 ### To create the dataset
 
@@ -123,7 +123,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 6.  If the database requires a password, select the option to include sensitive data, and then choose **Next**.
 
     > [!NOTE]
-    >  If you selected a local database file (instead of connecting to SQL Server) you might be asked if you want to add the file to the project. Choose **Yes** to add the database file to the project.
+    > If you selected a local database file (instead of connecting to SQL Server) you might be asked if you want to add the file to the project. Choose **Yes** to add the database file to the project.
 
 7.  Select **Next** on the **Save the Connection String to the Application Configuration File** page.
 
@@ -138,20 +138,20 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ### To separate the TableAdapters from the Dataset
 
-1.  Double-click **NorthwindDataSet.xsd** in **Solution Explorer** to open the dataset in the **Dataset Designer**.
+1. Double-click **NorthwindDataSet.xsd** in **Solution Explorer** to open the dataset in the **Dataset Designer**.
 
-2.  Select an empty area on the designer.
+2. Select an empty area on the designer.
 
-3.  Locate the **DataSet Project** node in the **Properties** window.
+3. Locate the **DataSet Project** node in the **Properties** window.
 
-4.  In the **DataSet Project** list, select **DataEntityTier**.
+4. In the **DataSet Project** list, select **DataEntityTier**.
 
-5.  On the **Build** menu, select **Build Solution**.
+5. On the **Build** menu, select **Build Solution**.
 
- The dataset and TableAdapters are separated into the two class library projects. The project that originally contained the whole dataset (`DataAccessTier`) now contains only the TableAdapters. The project designated in the **DataSet Project** property (`DataEntityTier`) contains the typed dataset: *NorthwindDataSet.Dataset.Designer.vb* (or *NorthwindDataSet.Dataset.Designer.cs*).
+   The dataset and TableAdapters are separated into the two class library projects. The project that originally contained the whole dataset (`DataAccessTier`) now contains only the TableAdapters. The project designated in the **DataSet Project** property (`DataEntityTier`) contains the typed dataset: *NorthwindDataSet.Dataset.Designer.vb* (or *NorthwindDataSet.Dataset.Designer.cs*).
 
 > [!NOTE]
->  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be manually moved to the dataset project.
+> When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be manually moved to the dataset project.
 
 ## Create a New Service Application
 This walkthrough demonstrates how to access the data access tier by using a WCF service, so let's create a new WCF service application.
@@ -218,7 +218,7 @@ This walkthrough demonstrates how to access the data access tier by using a WCF 
  Now that the data access tier contains the methods to return data, create methods in the data service to call the methods in the data access tier.
 
 > [!NOTE]
->  For C# projects, you must add a reference to the `System.Data.DataSetExtensions` assembly for the following code to compile.
+> For C# projects, you must add a reference to the `System.Data.DataSetExtensions` assembly for the following code to compile.
 
 ### To create the GetCustomers and GetOrders functions in the data service
 
@@ -317,7 +317,7 @@ We'll set the **PresentationTier** project to be the startup project for the sol
 3.  Select **Service1** and choose **OK**.
 
     > [!NOTE]
-    >  If you have multiple services on the current computer, select the service that you created previously in this walkthrough (the service that contains the `GetCustomers` and `GetOrders` methods).
+    > If you have multiple services on the current computer, select the service that you created previously in this walkthrough (the service that contains the `GetCustomers` and `GetOrders` methods).
 
 ## Add DataGridViews to the form to display the data returned by the data service
  After you add the service reference to the data service, the **Data Sources** window is automatically populated with the data that is returned by the service.
@@ -355,7 +355,7 @@ We'll set the **PresentationTier** project to be the startup project for the sol
 The default value for `maxReceivedMessageSize` is not large enough to hold the data retrieved from the `Customers` and `Orders` tables. In the following steps, you'll increase the value to 6553600. You change the value on the client, which automatically updates the service reference.
 
 > [!NOTE]
->  The lower default size is intended to limit exposure to denial of service (DoS) attacks. For more information, see <xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize%2A>.
+> The lower default size is intended to limit exposure to denial of service (DoS) attacks. For more information, see <xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize%2A>.
 
 ### To increase the maxReceivedMessageSize value
 
