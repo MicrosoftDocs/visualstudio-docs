@@ -13,7 +13,6 @@ ms.technology: vs-ai-tools
 ms.workload:
   - "azure"
 ---
-
 # Train AI models in Azure Batch AI
 
 Batch AI is a managed service that enables data scientists and AI researchers to train AI and other machine learning models on clusters of Azure virtual machines, including VMs with GPU support. You describe the requirements of your job, where to find the inputs and store the outputs, and Batch AI handles the rest. [Learn more about Azure Batch AI](https://docs.microsoft.com/azure/batch-ai/overview)
@@ -23,7 +22,6 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 1. Launch Visual Studio. Open the **Server Explorer** by opening the **AI Tools** menu and choosing **Select Cluster**
 
     ![Cluster chooser](media/train-model/select-cluster.png)
-
 
 2. Expand **AI Tools**. Any Batch AI resources you have will be auto-detected and appear in the Server Explorer.
 
@@ -40,20 +38,19 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
 5. When cloning is complete, click **File > Open Solution > Project / Solution**
 
-	![Sample gallery](media/train-model/open-solution.png)
+    ![Sample gallery](media/train-model/open-solution.png)
 
-5. Open **samples-for-ai\TensorFlowExamples\TensorFlowExamples.sln** in the directory you cloned the repository
+6. Open **samples-for-ai\TensorFlowExamples\TensorFlowExamples.sln** in the directory you cloned the repository
 
-	![Sample gallery](media/train-model/tensorflowexamples.png)
+    ![Sample gallery](media/train-model/tensorflowexamples.png)
 
-5. Set MNIST project as the **Startup Project **
+7. Set MNIST project as the **Startup Project **
 
-	![Sample gallery](media/train-model/mnist-startup.png)
+    ![Sample gallery](media/train-model/mnist-startup.png)
 
-1. **Right-click **MNIST project, **Submit Job**
+8. <strong>Right-click **MNIST project, **Submit Job</strong>
 
-	![Sample gallery](media/train-model/submit-job.png)
+    ![Sample gallery](media/train-model/submit-job.png)
+9. Select your **Azure Batch AI** cluster, then click **Import**. Select the `AzureBatchAI_TF_MNIST.json` file to quickly populate some default values like which Docker Image to use. Then click **Submit**
 
-1. Select your **Azure Batch AI** cluster, then click **Import**. Select the `AzureBatchAI_TF_MNIST.json` file to quickly populate some default values like which Docker Image to use. Then click **Submit**
-
-	![Sample gallery](media/train-model/submit-batch.png)
+    ![Sample gallery](media/train-model/submit-batch.png)
