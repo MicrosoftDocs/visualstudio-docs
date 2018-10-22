@@ -15,7 +15,7 @@ sections:
 - title: Publish to Azure
   items:
   - type: paragraph
-    text: 'Deploy your app to Azure to Staging or Production with Visual Studio, or set up continuous integration and deployment (CI/CD).'
+    text: 'Deploy your app to Azure to staging or production environments with Visual Studio, or set up continuous integration and deployment (CI/CD).'
   - type: list
     style: cards
     className: cardsM
@@ -40,7 +40,7 @@ sections:
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_octokitty.svg
-      title: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
+      title: Continuous deployment to Azure with Visual Studio and Git
     - href: /azure/devops/pipelines/get-started-yaml?view=vsts&viewFallbackFrom=aspnetcore-2.1
       html: <p></p>
       image: 
@@ -126,7 +126,7 @@ sections:
 - title: Connect your apps to Azure with Visual Studio Connected Services
   items:
   - type: paragraph
-    text: 'Visual Studio provides a convenient way to connect your app or service project to a variety of Azure services. Using Visual Studio Connected Services greatly simplifies the development process, since all the configuration is done automatically for you. For a tutorial, choose what Azure service you want to add support for in your project:'
+    text: 'Quickly connect your app or service project to a variety of Azure services by using Visual Studio Connected Services to automatically add connection code and configuration.'
   - type: list
     style: icon48
     items: 
