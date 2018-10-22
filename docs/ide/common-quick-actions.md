@@ -53,7 +53,7 @@ Function MyFunction as Integer
 End Function
 ```
 
-|  Error ID | Applicable Languages |  Supported Version |
+| Error ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0103, BC30002 | C# and Visual Basic | Visual Studio 2015 Update 2 |
 
@@ -83,9 +83,9 @@ private void MyMethod()
 }
 ```
 
-|  Error ID | Applicable Languages |  Supported Version |
+| Error ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
-| CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 version 15.3 |
+| CS8300, BC37284 | C# and Visual Basic | Visual Studio 2017 version 15.3 |
 
 ## Actions that remove unnecessary code
 
@@ -93,9 +93,9 @@ private void MyMethod()
 
 The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` statements for the current file. When you select this item, unused namespace imports are removed.
 
-|  Applicable Languages |  Supported Version |
+| Applicable Languages | Supported Version |
 |  -------------------- | ----------------  |
-|  C# and Visual Basic | Visual Studio 2015 RTW |
+| C# and Visual Basic | Visual Studio 2015 RTW |
 
 ### Remove unnecessary cast
 
@@ -121,7 +121,7 @@ Dim number as Integer = CType(3, Integer)
 Dim number as Integer = 3
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0004 | C# and Visual Basic | Visual Studio 2015 RTW |
 
@@ -148,7 +148,7 @@ public MyMethod()
 }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0219, BC42024 | C# and Visual Basic | Visual Studio 2017 version 15.3 |
 
@@ -166,7 +166,7 @@ void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { 
 void DoWork(CancellationToken cancellationToken = default) { ... }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0034 | C# 7.1+ | Visual Studio 2017 version 15.3 |
 
@@ -205,7 +205,7 @@ Imports System.Diagnostics
 Debug.WriteLine("Hello")
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS0103, BC30451 | C# and Visual Basic| Visual Studio 2015 Update 2 |
 
@@ -274,7 +274,7 @@ Select Case myEnum
 End Select
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0010 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
@@ -308,7 +308,7 @@ class MyClass
 }
 ```
 
-| Applicable Languages |  Supported Version |
+| Applicable Languages | Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
@@ -324,7 +324,7 @@ var date = new DateTime(1997, 7, 8);
 var date = new DateTime(year: 1997, month: 7, day: 8);
 ```
 
-| Applicable Languages |  Supported Version |
+| Applicable Languages | Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
@@ -346,7 +346,7 @@ if (true)
 }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0011 | C# | Visual Studio 2017 RTW |
 
@@ -380,7 +380,7 @@ static private int thisFieldIsPublic;
 private static int thisFieldIsPublic;
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0036 | C# and Visual Basic| Visual Studio 2017 version 15.5 |
 | IDE0040 | C# and Visual Basic| Visual Studio 2017 version 15.5 |
@@ -438,7 +438,7 @@ Select Case obj
 End Select
 ```
 
-| Applicable Languages |  Supported Version |
+| Applicable Languages | Supported Version |
 | -------------------- | ----------------  |
 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
 
@@ -470,7 +470,7 @@ Dim num as Integer = 3
 Dim s As String = $"My string with {num} in the middle"
 ```
 
-| Applicable Languages |  Supported Version |
+| Applicable Languages | Supported Version |
 | -------------------- | ----------------  |
 | C# 6.0+ and Visual Basic 14+ | Visual Studio 2017 RTW |
 
@@ -575,7 +575,7 @@ Public Property Name As String
 End Property
 ```
 
-|  Applicable Languages |  Supported Version |
+| Applicable Languages | Supported Version |
 |  -------------------- | ----------------  |
 | C# and Visual Basic | Visual Studio 2017 version 15.5 |
 
@@ -628,7 +628,7 @@ class MyClass4
 }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0021-27 | C# 6.0+ | Visual Studio 2017 RTW |
 
@@ -655,7 +655,7 @@ int fibonacci(int n)
 
 ### Convert 'ReferenceEquals' to 'is null'
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0041 | C# 7.0+ | Visual Studio 2017 version 15.5 |
 
@@ -679,7 +679,7 @@ if (value is null)
 }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
+| Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | IDE0039 | C# 7.0+ | Visual Studio 2017 version 15.5 |
 
@@ -903,7 +903,7 @@ Function MyAsyncMethod() As Integer
 End Function
 ```
 
-|  Error ID | Applicable Languages |  Supported Version |
+| Error ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
 
@@ -941,7 +941,7 @@ Async Function MyAsyncMethod() As Task(Of Integer)
 End Function
 ```
 
-|  Error ID | Applicable Languages |  Supported Version |
+| Error ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 |
 

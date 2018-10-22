@@ -39,12 +39,12 @@ The tools generate or modify an *.edmx* file. This *.edmx* file contains informa
 
 ## Related topics
 
-|                                                     Title                                                      |                                                                                            Description                                                                                            |
-|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Title | Description |
+| - |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                       [ADO.NET Entity Framework](/dotnet/framework/data/adonet/ef/index)                       | Describes how to use [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] Tools, which [!INCLUDE[adonet_ef](../data-tools/includes/adonet_ef_md.md)] provides, to create applications. |
-|                      [Entity Data Model](/dotnet/framework/data/adonet/entity-data-model)                      |                     Provides links and information for working with data that is used by applications built on [!INCLUDE[adonet_ef](../data-tools/includes/adonet_ef_md.md)].                     |
-|             [Entity Framework (EF) Documentation)](https://docs.microsoft.com/ef/ef6/get-started)              |                                         Provides an index of videos, tutorials, and advanced documentation to help you make the most of Entity Framework.                                         |
-| [ASP.NET 5 Application to New Database](https://docs.efproject.net/en/latest/platforms/aspnetcore/new-db.html) |                                                         Describes how to create a new ASP.NET 5 application by using Entity Framework 7.                                                          |
+|                      [Entity Data Model](/dotnet/framework/data/adonet/entity-data-model)                      | Provides links and information for working with data that is used by applications built on [!INCLUDE[adonet_ef](../data-tools/includes/adonet_ef_md.md)].                     |
+|             [Entity Framework (EF) Documentation)](https://docs.microsoft.com/ef/ef6/get-started)              | Provides an index of videos, tutorials, and advanced documentation to help you make the most of Entity Framework.                                         |
+| [ASP.NET 5 Application to New Database](https://docs.efproject.net/en/latest/platforms/aspnetcore/new-db.html) | Describes how to create a new ASP.NET 5 application by using Entity Framework 7.                                                          |
 
 ## See also
 

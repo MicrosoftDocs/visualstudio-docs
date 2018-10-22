@@ -33,7 +33,7 @@ The text value of the **Assembly** element is either the friendly text name of t
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Reference element](../ide/code-snippets-schema-reference.md#reference-element)|Contains information about assembly references required by the code snippet.|
 
  A text value is required. This text specifies the assembly that the code snippet references.
@@ -49,7 +49,7 @@ Specifies the name of the snippet author. The **Code Snippets Manager** displays
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
  A text value is required. This text specifies the author of the code snippet.
@@ -131,7 +131,7 @@ There are three attributes available for the Code element:
 ### Parent element
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Contains the references, imports, declarations, and code for the code snippet.|
 
 ## CodeSnippet element
@@ -155,7 +155,7 @@ Allows you to specify a heading and multiple IntelliSense Code Snippets, which y
 |[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Required element. Contains the code that will be inserted by Visual Studio. There must be exactly one `Snippet` element in a code snippet.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[CodeSnippets element](../ide/code-snippets-schema-reference.md#codesnippets-element)|Root element of the code snippet XML schema.|
 
 ## CodeSnippets element
@@ -189,7 +189,7 @@ Specifies the literals and objects that make up the parts of a code snippet that
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Optional element. Defines the objects of the code snippet that you can edit. There may be zero or more `Object` elements in a `Declarations` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Contains the references, imports, declarations, and code for the code snippet.|
 
 ## Default element
@@ -203,7 +203,7 @@ Specifies the default value of the literal or object for an IntelliSense Code Sn
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
@@ -220,7 +220,7 @@ Specifies descriptive information about the contents of an IntelliSense Code Sni
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
  A text value is required. This text describes the code snippet.
@@ -239,7 +239,7 @@ Specifies a function to execute when the literal or object receives focus in Vis
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
@@ -272,7 +272,7 @@ Specifies general information about the IntelliSense Code Snippet.
 |[Title element](../ide/code-snippets-schema-reference.md#title-element)|Required element. The friendly name of the code snippet. There must be exactly one `Title` element in a `Header` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Parent element for all code snippet data.|
 
 ## HelpUrl element
@@ -289,7 +289,7 @@ Specifies a URL that provides more information about a code snippet.
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
 A text value is optional. This text specifies the URL to visit for more information about a code snippet.
@@ -305,7 +305,7 @@ Specifies a unique identifier for a `Literal` or `Object` element. No two litera
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
@@ -329,7 +329,7 @@ Specifies the imported namespaces used by an IntelliSense Code Snippet.
 |[Namespace element](../ide/code-snippets-schema-reference.md#namespace-element)|Required element. Specifies the namespace used by the code snippet. There must be exactly one `Namespace` element in an `Import` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Imports element](../ide/code-snippets-schema-reference.md#imports-element)|Grouping element for **Import** elements.|
 
 ## Imports element
@@ -350,7 +350,7 @@ Groups individual `Import` elements.
 |[Import element](../ide/code-snippets-schema-reference.md#import-element)|Optional element. Contains the imported namespaces for the code snippet. There may be zero or more **Import** elements in an `Imports` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Contains the references, imports, declarations, and code for the code snippet.|
 
 ## Keyword element
@@ -364,7 +364,7 @@ Specifies a custom keyword for the code snippet. The code snippet keywords are u
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Keywords element](../ide/code-snippets-schema-reference.md#keywords-element)|Groups individual `Keyword` elements.|
 
 A text value is required. The keyword for the code snippet.
@@ -385,7 +385,7 @@ Groups individual `Keyword` elements. The code snippet keywords are used by Visu
 |[Keyword element](../ide/code-snippets-schema-reference.md#keyword-element)|Optional element. Contains individual keywords for the code snippet. There may be zero or more `Keyword` elements in a `Keywords` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
 ## Literal element
@@ -415,7 +415,7 @@ Literals and objects cannot contain an **ID** element with a value of selected o
 |[ToolTip element](../ide/code-snippets-schema-reference.md#tooltip-element)|Optional element. Describes the expected value and usage of the literal. There may be zero or one **Tooltip** elements in a `Literal` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Declarations element](../ide/code-snippets-schema-reference.md#declarations-element)|Contains the literals and objects of a code snippet that you can edit.|
 
 ## Namespace element
@@ -432,7 +432,7 @@ Specifies the namespace that must be imported for the code snippet to compile an
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Import element](../ide/code-snippets-schema-reference.md#import-element)|Imports the specified namespace.|
 
 A text value is required. This text specifies a namespace that the code snippet assumes is imported.
@@ -464,7 +464,7 @@ Defines the objects of the code snippet that you can edit. The `Object` element 
 |[Type element](../ide/code-snippets-schema-reference.md#type-element)|Required element. Specifies the type of the object. There must be exactly one `Type` element in an `Object` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Declarations element](../ide/code-snippets-schema-reference.md#declarations-element)|Contains the literals and objects of a code snippet that you can edit.|
 
 ## Reference element
@@ -484,7 +484,7 @@ Specifies information about the assembly references required by the code snippet
 |[Url element](../ide/code-snippets-schema-reference.md#url-element)|Optional element. Contains a URL that provides more information about the referenced assembly. There may be zero or one `Url` elements in a `Reference` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[References element](../ide/code-snippets-schema-reference.md#references-element)|Grouping element for `Reference` elements.|
 
 ## References element
@@ -502,7 +502,7 @@ Groups individual `Reference` elements.
 |[Reference element](../ide/code-snippets-schema-reference.md#reference-element)|Optional element. Contains information about assembly references for the code snippet. There may be zero or more `Reference` elements in a `References` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Contains the references, imports, declarations, and code for the code snippet.|
 
 ## Shortcut element
@@ -519,7 +519,7 @@ Specifies the shortcut text used to insert the snippet. The text value of a `Sho
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
  A text value is optional. This text is used as a shortcut for inserting the code snippet.
@@ -545,7 +545,7 @@ Specifies the references, imports, declarations, and code for the code snippet.
 ||Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.|
 
 ## SnippetType element
@@ -559,7 +559,7 @@ Specifies how Visual Studio inserts the code snippet.
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[SnippetTypes element](../ide/code-snippets-schema-reference.md#snippettypes-element)|Groups `SnippetType` elements.|
 
 The text value must be one of the following values:
@@ -586,7 +586,7 @@ Groups individual `SnippetType` elements. If the `SnippetTypes` element is not p
 |[SnippetType element](../ide/code-snippets-schema-reference.md#snippettype-element)|Optional element. Specifies how Visual Studio inserts the code snippet into the code. There may be zero or more `SnippetType` elements in a `SnippetTypes` element.|
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Specifies general information about the code snippet.|
 
 ## Title element
@@ -600,7 +600,7 @@ Specifies the title for the code snippet. The title stored in the `Title` elemen
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Header element](../ide/code-snippets-schema-reference.md#header-element)|Specifies general information about the code snippet.|
 
  A text value is required. This text specifies the title of the code snippet.
@@ -616,7 +616,7 @@ Describes the expected value and usage of a literal or object in a code snippet,
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
@@ -633,7 +633,7 @@ Specifies the type of the object. The `Object` element is used to identify an it
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
  A text value is required. This text specifies the type of the object.
@@ -652,7 +652,7 @@ Specifies a URL that provides more information about the referenced assembly.
 ```
 
 |Parent element|Description|
-|--------------------|-----------------|
+| - |-----------------|
 |[Reference element](../ide/code-snippets-schema-reference.md#reference-element)|Specifies the assembly references required by the code snippet.|
 
 A text value is required. This text specifies a URL with more information about the referenced assembly. This URL is displayed when the reference cannot be added to the project.

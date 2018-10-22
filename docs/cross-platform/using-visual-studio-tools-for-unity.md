@@ -203,7 +203,7 @@ Note that the scenario described here assumes that you have the source code—th
 You can quickly access the Unity Tools for Visual Studio functionality by using their keyboard shortcuts. Here's a summary of the shortcuts that are available.
 
 |Command|Shortcut|Shortcut command name|
-|-------------|--------------|---------------------------|
+|-------------|--------------| - |
 |Open the MonoBehavior Wizard|**Ctrl**+**Shift**+**M**|**EditorContextMenus.CodeWindow.ImplementMonoBehaviours**|
 |Open the Unity Project Explorer|**Alt**+**Shift**+**E**|**View.UnityProjectExplorer**|
 |Access Unity documentation|**Ctrl**+**Alt**+**M, Ctrl**+**H**|**Help.UnityAPIReference**|

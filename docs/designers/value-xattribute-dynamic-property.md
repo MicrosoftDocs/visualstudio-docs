@@ -31,7 +31,7 @@ A <xref:System.String> containing the value of this attribute.
 ## Exceptions
 
 |Exception type|Condition|
-|--------------------|---------------|
+| - |---------------|
 |<xref:System.ArgumentNullException>|When setting, the `value` is `null`.|
 
 ## Remarks
