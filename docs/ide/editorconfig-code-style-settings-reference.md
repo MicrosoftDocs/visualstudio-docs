@@ -732,12 +732,12 @@ if (object.ReferenceEquals(value, null))
 ```
 
 ```vb
-' dotnet_style_prefer_auto_properties = true
+' dotnet_style_prefer_is_null_check_over_reference_equality_method = true
 If value Is Nothing
     Return
 End If
 
-' dotnet_style_prefer_auto_properties = false
+' dotnet_style_prefer_is_null_check_over_reference_equality_method = false
 If Object.ReferenceEquals(value, Nothing)
     Return
 End If
