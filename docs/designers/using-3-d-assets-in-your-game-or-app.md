@@ -35,7 +35,7 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
 2.  Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in the following table:
 
     |Asset type|Build customization Name|
-    |----------------|------------------------------|
+    |----------------| - |
     |Textures and images|**ImageContentTask(.targets, .props)**|
     |3D Models|**MeshContentTask(.targets, .props)**|
     |Shaders|**ShaderGraphContentTask(.targets, .props)**|
@@ -61,7 +61,7 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
 Following are the three content pipeline item types and their associated source and output file types.
 
 |Item Type|Source file types|Output file format|
-|---------------|-----------------------|------------------------|
+|---------------| - |------------------------|
 |**Image Content Pipeline**|Portable Network Graphics (*.png*)<br /><br /> JPEG (*.jpg*, *.jpeg*, *.jpe*, *.jfif*)<br /><br /> Direct Draw Surface (*.dds*)<br /><br /> Graphics Interchange Format (*.gif*)<br /><br /> Bitmap (*.bmp*, *.dib*)<br /><br /> Tagged Image File Format (*.tif*, *.tiff*)<br /><br /> Targa (*.tga*)|DirectDraw Surface (*.dds*)|
 |**Mesh Content Pipeline**|AutoDesk FBX Interchange File (*.fbx*)<br /><br /> Collada DAE File (*.dae*)<br /><br /> Wavefront OBJ File (*.obj*)|3D mesh file (*.cmo*)|
 |**Shader Content Pipeline**|Visual Shader Graph (*.dgsl*)|Compiled Shader Output (*.cso*)|

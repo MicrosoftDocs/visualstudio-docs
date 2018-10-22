@@ -82,7 +82,7 @@ By default, the editor detects encoding by searching for byte order marks or cha
 When selected, displays a vertical margin along the left edge of the editor's text area. You can click this margin to select an entire line of text, or click and drag to select consecutive lines of text.
 
 |Selection Margin on|Selection Margin off|
-|-------------------------|--------------------------|
+| - |--------------------------|
 |![HTMLpageSelectionMarginOn screenshot](../../ide/reference/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../../ide/reference/media/vxselmaroff.gif)|
 
 ### Indicator margin

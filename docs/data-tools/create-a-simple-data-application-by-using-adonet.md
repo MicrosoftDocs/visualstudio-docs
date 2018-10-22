@@ -81,7 +81,7 @@ Create the sample database by following these steps:
    ![Navigation dialog box](../data-tools/media/simpleappnav.png)
 
 |Controls for the Navigation form|Properties|
-|--------------------------------------|----------------|
+| - |----------------|
 |Button|Name = btnGoToAdd|
 |Button|Name = btnGoToFillOrCancel|
 |Button|Name = btnExit|
@@ -91,7 +91,7 @@ Create the sample database by following these steps:
  ![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png)
 
 |Controls for the NewCustomer form|Properties|
-|---------------------------------------|----------------|
+| - |----------------|
 |TextBox|Name = txtCustomerName|
 |TextBox|Name = txtCustomerID<br /><br /> Readonly = True|
 |Button|Name = btnCreateAccount|
@@ -106,7 +106,7 @@ Create the sample database by following these steps:
  ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png)
 
 |Controls for the FillOrCancel form|Properties|
-|----------------------------------------|----------------|
+| - |----------------|
 |TextBox|Name = txtOrderID|
 |Button|Name = btnFindByOrderID|
 |DateTimePicker|Format = Short<br /><br /> Name = dtpFillDate|

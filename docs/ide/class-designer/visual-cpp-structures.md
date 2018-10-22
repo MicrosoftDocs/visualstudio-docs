@@ -31,7 +31,7 @@ For more information about using the `struct` type, see [struct](/cpp/cpp/struct
 A C++ structure shape in a class diagram looks and works like a class shape, except that the label reads **Struct** and it has square corners instead of rounded corners.
 
 |Code element|Class Designer view|
-|------------------|-------------------------|
+|------------------| - |
 |`struct StructureName {};`|**StructureName**<br /><br /> Struct|
 
 ## See also
