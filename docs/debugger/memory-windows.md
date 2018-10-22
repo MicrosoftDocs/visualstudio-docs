@@ -30,7 +30,7 @@ ms.workload:
 
 During debugging, the **Memory** window shows the memory space your app is using. 
 
-Other debugger windows like **Watch**, **Autos**, **Locals**, and **QuickWatch** show you variables, which are stored at specific locations in memory. The **Memory** window shows you the large-scale picture. The memory view is convenient for examining large pieces of data (buffers or large strings, for example) that don't display well in the other windows. 
+Debugger windows like **Watch**, **Autos**, **Locals**, and the **QuickWatch** dialog show you variables, which are stored at specific locations in memory. The **Memory** window shows you the overall picture. The memory view is convenient for examining large pieces of data (buffers or large strings, for example) that don't display well in the other windows. 
 
 The **Memory** window isn't limited to displaying data. It displays everything in the memory space, including data, code, and random bits of garbage in unassigned memory.  
 
@@ -41,11 +41,11 @@ The **Memory** window isn't available for Script or SQL debugging. Those languag
 Like other debugger windows, the **Memory** windows are available only during a debugging session. 
 
 >[!IMPORTANT]
->To enable the **Memory** windows, you must first select **Enable address-level debugging** in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** **General**. 
+>To enable the **Memory** windows, **Enable address-level debugging** must be selected in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**. 
 
 **To open a Memory window**
   
-1. Make sure **Enable address-level debugging** is selected in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** **General**. 
+1. Make sure **Enable address-level debugging** is selected in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**. 
    
 1. Start debugging by selecting the green arrow, pressing **F5**, or selecting **Debug** > **Start Debugging**.  
    
@@ -57,21 +57,21 @@ The address space of a computer is large, and you can easily lose your place by 
 
 Higher memory addresses appear at the bottom of the window. To view a higher address, scroll down. To view a lower address, scroll up.  
 
-You can instantly go to a specified address in the **Memory** window by using drag-and-drop, or by entering the address in the **Address** field. The **Address** field accepts alphanumeric addresses and expressions that evaluate to addresses, such as `e.User.NonroamableId`. 
+You can instantly go to a specified address in the **Memory** window by using drag-and-drop, or by entering the address in the **Address** field. The **Address** field accepts alphanumeric addresses, and expressions that evaluate to addresses, such as `e.User.NonroamableId`. 
 
 To force immediate re-evaluation of an expression in the **Address** field, select the rounded-arrow **Reevaluate Automatically** icon. 
 
-By default, the **Memory** window treats **Address** expressions as live expressions, which are re-evaluated as the app runs. Live expressions can be useful; for example, for viewing the memory that is touched by a pointer.  
+By default, the **Memory** window treats **Address** expressions as live expressions, which are re-evaluated as the app runs. Live expressions can be useful, for example, to view the memory that is touched by a pointer variable.  
 
 **To use drag and drop to move to a memory location:**  
    
 1. In any debugger window, select a memory address, or a pointer variable that contains a memory address.  
    
-2. Drag and drop the address or pointer in the **Memory** window. That address appears in the **Address** field, and the **Memory** window to show that address at the top.  
+2. Drag and drop the address or pointer in the **Memory** window. That address appears in the **Address** field and at the top of the **Memory** window.  
   
 **To move to a memory location by entering it in the Address field:**
   
-- Type or paste the address or expression in the **Address** field and press **Enter**, or choose it from the dropdown in the **Address** field. The **Memory** window immediately shifts to show that address at the top. 
+- Type or paste the address or expression in the **Address** field and press **Enter**, or choose it from the dropdown in the **Address** field. That address appears at the top of the **Memory** window. 
   
 ## Customize the Memory window 
 
