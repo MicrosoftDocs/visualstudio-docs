@@ -87,7 +87,7 @@ msbuild.exe myproj.proj -distributedlogger:XMLCentralLogger,MyLogger,Version=1.0
  The following is a list of the available ConfigurableForwardingLogger parameters.  
   
 |ConfigurableForwardingLogger Parameters|  
-|---------------------------------------------|  
+| - |  
 |BUILDSTARTEDEVENT|  
 |BUILDFINISHEDEVENT|  
 |PROJECTSTARTEDEVENT|  

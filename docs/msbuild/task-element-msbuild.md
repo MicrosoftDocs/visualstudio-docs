@@ -54,9 +54,9 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 
 ### Parent elements  
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Target](../msbuild/target-element-msbuild.md)|Container element for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks.|  
+| Element | Description |
+| - | - |
+| [Target](../msbuild/target-element-msbuild.md) | Container element for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks. |
 
 ## Remarks  
  A `Task` element in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file creates an instance of a task, sets properties on it, and executes it. The `Output` element stores output parameters in properties or items to be used elsewhere in the project file.  
