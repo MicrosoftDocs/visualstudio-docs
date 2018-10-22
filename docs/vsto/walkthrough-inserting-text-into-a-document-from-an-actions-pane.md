@@ -54,17 +54,17 @@ ms.workload:
   
 ### To add text to your document  
   
-1.  Type the following text into your Word document:  
+1. Type the following text into your Word document:  
   
-     **March 21, 2008**  
+    **March 21, 2008**  
   
-     **Name**  
+    **Name**  
   
-     **Address**  
+    **Address**  
   
-     **This is an example of a basic actions pane in Word.**  
+    **This is an example of a basic actions pane in Word.**  
   
- You can add a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document by dragging it from the **Toolbox** in Visual Studio or by using the **Bookmark** dialog box in Word.  
+   You can add a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document by dragging it from the **Toolbox** in Visual Studio or by using the **Bookmark** dialog box in Word.  
   
 ### To add a Bookmark control to your document  
   

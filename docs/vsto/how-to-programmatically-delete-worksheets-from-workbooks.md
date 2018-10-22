@@ -25,15 +25,15 @@ ms.workload:
 ## Use the worksheet host item  
  If the worksheet was added at design-time in a document-level customization, use the <xref:Microsoft.Office.Tools.Excel.Worksheet.Delete%2A> method to delete a specified worksheet. The following code deletes a worksheet from a workbook by referencing the worksheet host item directly.  
   
-> [!IMPORTANT]  
+> [!IMPORTANT]
 >  This code runs only in projects that you create by using any of the following project templates:  
->   
-> -   Excel 2013 Workbook  
-> -   Excel 2013 Template  
-> -   Excel 2010 Workbook  
-> -   Excel 2010 Template  
->   
->  If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Excel** assembly, and then you must use classes from that assembly to open a workbook and delete a worksheet. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Excel 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189585).  
+> 
+> - Excel 2013 Workbook  
+> - Excel 2013 Template  
+> - Excel 2010 Workbook  
+> - Excel 2010 Template  
+> 
+>   If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Excel** assembly, and then you must use classes from that assembly to open a workbook and delete a worksheet. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Excel 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189585).  
   
 ### To delete a worksheet by using a worksheet host item  
   
@@ -45,11 +45,11 @@ ms.workload:
 ## Use the Sheets collection of the Excel workbook  
  Access worksheets through the Microsoft Office Excel <xref:Microsoft.Office.Interop.Excel.Sheets> collection in the following cases:  
   
--   You want to delete a worksheet in a VSTO Add-in.  
+- You want to delete a worksheet in a VSTO Add-in.  
   
--   The worksheet that you want to delete was created at run time in a document-level customization.  
+- The worksheet that you want to delete was created at run time in a document-level customization.  
   
- The following code deletes a worksheet from a workbook by referencing the sheet through the index number of the **Sheets** collection. This code assumes that a new worksheet was created programmatically.  
+  The following code deletes a worksheet from a workbook by referencing the sheet through the index number of the **Sheets** collection. This code assumes that a new worksheet was created programmatically.  
   
 > [!IMPORTANT]  
 >  If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Excel** assembly, and then you must use classes from that assembly to open a workbook and delete a worksheet. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Excel 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189585).  

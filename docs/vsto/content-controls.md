@@ -45,15 +45,15 @@ ms.workload:
 # Content controls
   Content controls provide a way for you to design documents and templates that have these features:  
   
--   A user interface (UI) that has controlled input like a form.  
+- A user interface (UI) that has controlled input like a form.  
   
--   Restrictions that prevent users from editing protected sections of the document or template. For more information, see [Protect parts of documents by using content controls](#Protection).  
+- Restrictions that prevent users from editing protected sections of the document or template. For more information, see [Protect parts of documents by using content controls](#Protection).  
   
--   Data binding to a data source. For more information, see [Bind data to content controls](#DataBinding).  
+- Data binding to a data source. For more information, see [Bind data to content controls](#DataBinding).  
   
- [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
+  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [Bind data to Word 2007 content controls using Visual Studio Tools for the Office system (3.0)](http://go.microsoft.com/fwlink/?LinkId=136785).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [Bind data to Word 2007 content controls using Visual Studio Tools for the Office system (3.0)](http://go.microsoft.com/fwlink/?LinkId=136785).  
   
 ## Overview of content controls  
  Content controls provide a UI that is optimized for both user input and print. When you add a content control to a document, the control is identified by a border, a title, and temporary text that can provide instructions to the user. The border and the title of the control do not appear in printed versions of the document.  
@@ -62,11 +62,11 @@ ms.workload:
   
  Content controls also help you do the following:  
   
--   Prevent users from editing or deleting parts of a document. This is useful if you have information in a document or template that users should be able to read but not edit, or if you want users to be able to edit content controls but not delete them.  
+- Prevent users from editing or deleting parts of a document. This is useful if you have information in a document or template that users should be able to read but not edit, or if you want users to be able to edit content controls but not delete them.  
   
--   Bind parts of a document or template to data. You can bind content controls to database fields, managed objects in the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)], XML elements that are stored in the document, and other data sources.  
+- Bind parts of a document or template to data. You can bind content controls to database fields, managed objects in the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)], XML elements that are stored in the document, and other data sources.  
   
- In document-level projects, you can add content controls to your document at design time or at run time. In VSTO Add-in projects, you can add content controls to any open document at run time. For more information, see [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md).  
+  In document-level projects, you can add content controls to your document at design time or at run time. In VSTO Add-in projects, you can add content controls to any open document at run time. For more information, see [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md).  
   
 > [!NOTE]  
 >  You can use content controls only in documents that are saved in the Open XML format. You cannot use content controls in documents that are saved in the Word 97-2003 document (*.doc*) format.  
@@ -127,11 +127,11 @@ ms.workload:
   
  If the area you want to protect is inside a content control, you can use properties of the content control to prevent users from editing or deleting the control:  
   
--   The **LockContents** property prevents users from editing the contents.  
+- The **LockContents** property prevents users from editing the contents.  
   
--   The **LockContentControl** property prevents users from deleting the control.  
+- The **LockContentControl** property prevents users from deleting the control.  
   
- If the area you want to protect is not inside a content control, or if you want to protect an area that contains content controls and other types of content, you can put the whole area in a <xref:Microsoft.Office.Tools.Word.GroupContentControl>. Unlike other content controls, a <xref:Microsoft.Office.Tools.Word.GroupContentControl> provides no UI that is visible to the user. Its only purpose is to define a region that users cannot edit.  
+  If the area you want to protect is not inside a content control, or if you want to protect an area that contains content controls and other types of content, you can put the whole area in a <xref:Microsoft.Office.Tools.Word.GroupContentControl>. Unlike other content controls, a <xref:Microsoft.Office.Tools.Word.GroupContentControl> provides no UI that is visible to the user. Its only purpose is to define a region that users cannot edit.  
   
 > [!NOTE]  
 >  If you create a <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains embedded content controls, the embedded content controls are not automatically protected. You must use the **LockContents** property of each embedded control to prevent users from editing their contents.  
@@ -143,11 +143,11 @@ ms.workload:
   
  Content controls provide the following data binding options:  
   
--   You can bind content controls to database fields or managed objects by using the same data binding model as Windows Forms.  
+- You can bind content controls to database fields or managed objects by using the same data binding model as Windows Forms.  
   
--   You can bind content controls to elements in pieces of XML (also named *custom XML parts*) that are embedded in the document.  
+- You can bind content controls to elements in pieces of XML (also named *custom XML parts*) that are embedded in the document.  
   
- For an overview of binding host controls in Office solutions to data, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).  
+  For an overview of binding host controls in Office solutions to data, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).  
   
 ### Use the Windows Forms data binding model  
  Most content controls support the simple data binding model that Windows Forms uses. Simple data binding means that a control is bound to a single data element, such as a value in a column of a data table. For more information, see [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).  

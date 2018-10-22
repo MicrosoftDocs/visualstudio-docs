@@ -26,19 +26,19 @@ ms.workload:
   
 ### To add a configuration file to your Office project  
   
-1.  On the **Project** menu, click **Add New Item**.  
+1. On the **Project** menu, click **Add New Item**.  
   
-2.  In the **Categories** pane, click **General**.  
+2. In the **Categories** pane, click **General**.  
   
-3.  In the **Templates** pane, select **Application Configuration File**.  
+3. In the **Templates** pane, select **Application Configuration File**.  
   
-4.  In the **Name** box, type the same name as the assembly plus the extension *.config*. For example, a configuration file for an Excel project assembly called *ExcelWorkbook1.dll* would be named *ExcelWorkbook1.dll.config*.  
+4. In the **Name** box, type the same name as the assembly plus the extension *.config*. For example, a configuration file for an Excel project assembly called *ExcelWorkbook1.dll* would be named *ExcelWorkbook1.dll.config*.  
   
-5.  Click **Add**.  
+5. Click **Add**.  
   
-6.  Create your configuration file according to the application configuration file schema. For more information, see [Configuration file schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index).  
+6. Create your configuration file according to the application configuration file schema. For more information, see [Configuration file schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index).  
   
- There are no special considerations for using configuration files with Office projects.  
+   There are no special considerations for using configuration files with Office projects.  
   
 ## See also  
  [Configuration file schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index)   

@@ -49,11 +49,11 @@ ms.workload:
   
  The object model guard can affect VSTO Add-ins in different ways, depending on whether Outlook is used with Microsoft Exchange Server:  
   
--   If Outlook is not used with Exchange, an administrator can enable or disable the object model guard for all VSTO Add-ins on the computer.  
+- If Outlook is not used with Exchange, an administrator can enable or disable the object model guard for all VSTO Add-ins on the computer.  
   
--   If Outlook is used with Exchange, an administrator can enable or disable the object model guard for all VSTO Add-ins on the computer, or the administrator can specify that certain VSTO Add-ins can run without encountering the object model guard. Administrators can also modify the behavior of the object model guard for certain areas of the object model. For example, administrators can automatically allow VSTO Add-ins to send email programmatically, even if the object model guard is enabled.  
+- If Outlook is used with Exchange, an administrator can enable or disable the object model guard for all VSTO Add-ins on the computer, or the administrator can specify that certain VSTO Add-ins can run without encountering the object model guard. Administrators can also modify the behavior of the object model guard for certain areas of the object model. For example, administrators can automatically allow VSTO Add-ins to send email programmatically, even if the object model guard is enabled.  
   
- Starting in Outlook 2007, the behavior of the object model guard has been changed to improve the developer and user experience while helping to keep Outlook secure. For more information, see [Code security changes in Outlook 2007](http://go.microsoft.com/fwlink/?LinkId=73429).  
+  Starting in Outlook 2007, the behavior of the object model guard has been changed to improve the developer and user experience while helping to keep Outlook secure. For more information, see [Code security changes in Outlook 2007](http://go.microsoft.com/fwlink/?LinkId=73429).  
   
 ### Minimize object model guard warnings  
  To help avoid security warnings when you use restricted properties and methods, make sure that your VSTO Add-in obtains Outlook objects from the `Application` field of the `ThisAddIn` class in your project. For more information about this field, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
@@ -88,15 +88,15 @@ ms.workload:
   
  If the user prevents VSTO Add-ins from loading by using the **Trust Center**, the following types of VSTO Add-ins will not load:  
   
--   Managed and unmanaged COM VSTO Add-ins.  
+- Managed and unmanaged COM VSTO Add-ins.  
   
--   Managed and unmanaged smart documents.  
+- Managed and unmanaged smart documents.  
   
--   Managed and unmanaged Automation VSTO Add-ins.  
+- Managed and unmanaged Automation VSTO Add-ins.  
   
--   Managed and unmanaged real-time data components.  
+- Managed and unmanaged real-time data components.  
   
- The following procedures describe how users can use the **Trust Center** to restrict VSTO Add-ins from loading in Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and Microsoft Office 2010. These procedures do not affect VSTO Add-ins or customizations created by using Office development tools in Visual Studio.  
+  The following procedures describe how users can use the **Trust Center** to restrict VSTO Add-ins from loading in Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and Microsoft Office 2010. These procedures do not affect VSTO Add-ins or customizations created by using Office development tools in Visual Studio.  
   
 #### To disable VSTO Add-ins in Microsoft Office 2010 and Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications  
   

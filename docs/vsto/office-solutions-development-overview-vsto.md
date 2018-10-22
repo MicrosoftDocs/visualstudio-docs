@@ -25,13 +25,13 @@ ms.workload:
 ## Choose an Office project type  
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides the following types of project templates for VSTO-based Office development:  
   
--   **Document-level customizations** are associated with a specific document.  
+- **Document-level customizations** are associated with a specific document.  
   
--   **VSTO Add-ins** are associated with the application itself.  
+- **VSTO Add-ins** are associated with the application itself.  
   
- To decide which of these project types is best for your solution, think about whether you want your code to run only when a specific document is open, or whether you want the code to be available whenever the application is running. For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
+  To decide which of these project types is best for your solution, think about whether you want your code to run only when a specific document is open, or whether you want the code to be available whenever the application is running. For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
   
- The types of projects you can create depend on which Office applications you have installed on the development computer. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
+  The types of projects you can create depend on which Office applications you have installed on the development computer. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   
 ### Document-level customizations  
  Document-level customizations consist of an assembly that is associated with a single document, workbook, or template in Microsoft Office Word or Microsoft Office Excel. The assembly is loaded when the associated document is opened. Features in customizations that you create are available only when the associated document is open. Customizations cannot make application-wide changes, such as displaying a new menu item or ribbon tab when any document is open.  

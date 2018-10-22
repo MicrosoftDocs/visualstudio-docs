@@ -32,42 +32,42 @@ ms.workload:
 ## Customize the Microsoft Office Ribbon  
  To customize the ribbon, add one of the following Ribbon items to your Office project:  
   
--   **Ribbon (Visual Designer)**  
+- **Ribbon (Visual Designer)**  
   
--   **Ribbon (XML)**  
+- **Ribbon (XML)**  
   
- For example, to customize the Excel Ribbon, add a Ribbon item to an Excel VSTO Add-in project.  
+  For example, to customize the Excel Ribbon, add a Ribbon item to an Excel VSTO Add-in project.  
   
 ### Ribbon (Visual Designer) item  
  The **Ribbon (Visual Designer)** item provides advanced tools that make it easier for you to design and develop a custom ribbon. Use the **Ribbon (Visual Designer)** item to customize the ribbon in the following ways:  
   
--   Add custom or built-in tabs to a ribbon.  
+- Add custom or built-in tabs to a ribbon.  
   
--   Add custom groups to a custom or built-in tab.  
+- Add custom groups to a custom or built-in tab.  
   
-    > [!NOTE]  
-    >  A built-in tab or group is one that already exists on the ribbon of a Microsoft Office application. For example, the **Data** tab is a built-in tab in Excel. The **Connections** group is a built-in group on the **Data** tab.  
+  > [!NOTE]  
+  >  A built-in tab or group is one that already exists on the ribbon of a Microsoft Office application. For example, the **Data** tab is a built-in tab in Excel. The **Connections** group is a built-in group on the **Data** tab.  
   
--   Add custom controls to a custom group.  
+- Add custom controls to a custom group.  
   
--   Add custom controls to the Backstage View.  
+- Add custom controls to the Backstage View.  
   
- For more information about how to customize a ribbon by using the **Ribbon (Visual Designer)** item, see [Ribbon designer](../vsto/ribbon-designer.md).  
+  For more information about how to customize a ribbon by using the **Ribbon (Visual Designer)** item, see [Ribbon designer](../vsto/ribbon-designer.md).  
   
 ### Ribbon (XML) item  
  Use the **Ribbon (XML)** item if you want to customize the ribbon in a way that is not supported by the **Ribbon (Visual Designer)** item. Use the **Ribbon (XML)** item to customize the ribbon in the following ways:  
   
--   Add *built-in* groups to a custom tab or built-in tab.  
+- Add *built-in* groups to a custom tab or built-in tab.  
   
--   Add built-in controls to a custom group.  
+- Add built-in controls to a custom group.  
   
--   Add custom code to override the event handlers of built-in controls.  
+- Add custom code to override the event handlers of built-in controls.  
   
--   Customize the Quick Access Toolbar.  
+- Customize the Quick Access Toolbar.  
   
--   Share a Ribbon customization between VSTO Add-in by using a qualified ID.  
+- Share a Ribbon customization between VSTO Add-in by using a qualified ID.  
   
- For more information about how to customize the ribbon by using the **Ribbon (XML)** item, see [Ribbon XML](../vsto/ribbon-xml.md).  
+  For more information about how to customize the ribbon by using the **Ribbon (XML)** item, see [Ribbon XML](../vsto/ribbon-xml.md).  
   
 ## Export a ribbon from the Ribbon Designer to Ribbon XML  
  If you create a ribbon by using the Ribbon Designer, and then decide that you want to customize the ribbon in ways that the **Ribbon (Visual Designer)** item does not support, you can export the ribbon to XML.  

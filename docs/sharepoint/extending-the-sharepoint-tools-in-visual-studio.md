@@ -32,11 +32,11 @@ ms.workload:
 ### Extend the SharePoint connections node in Server Explorer
  In Visual Studio, you can use the **SharePoint Connections** node in the **Server Explorer** window to view many of the components of one or more local SharePoint sites in a hierarchical tree view. You can also extend the **SharePoint Connections** node in the following ways:
 
--   By adding your own nodes. This is useful if you want to display components of SharePoint sites that are not displayed by default.
+- By adding your own nodes. This is useful if you want to display components of SharePoint sites that are not displayed by default.
 
--   By extending existing nodes. For example, you can add a new child node to an existing node, or you can add a shortcut menu item to a node and perform tasks when a developer clicks the menu item.
+- By extending existing nodes. For example, you can add a new child node to an existing node, or you can add a shortcut menu item to a node and perform tasks when a developer clicks the menu item.
 
- For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
+  For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
 
 ## Development computer requirements
  To create extensions for the SharePoint tools, your development computer must meet the same requirements for creating SharePoint solutions in Visual Studio.

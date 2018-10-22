@@ -26,15 +26,15 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Creating an Outlook VSTO Add-in project for Outlook.  
+- Creating an Outlook VSTO Add-in project for Outlook.  
   
--   Writing code that uses the object model of Outlook to add text to the subject and body of a new mail message.  
+- Writing code that uses the object model of Outlook to add text to the subject and body of a new mail message.  
   
--   Building and running the project to test it.  
+- Building and running the project to test it.  
   
--   Cleaning up the completed project so that the VSTO Add-in no longer runs automatically on your development computer.  
+- Cleaning up the completed project so that the VSTO Add-in no longer runs automatically on your development computer.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -72,24 +72,24 @@ ms.workload:
   
 ### To add text to the subject and body of each new mail message  
   
-1.  In the ThisAddIn code file, declare a field named `inspectors` in the `ThisAddIn` class. The `inspectors` field maintains a reference to the collection of Inspector windows in the current Outlook instance. This reference prevents the garbage collector from freeing the memory that contains the event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.  
+1. In the ThisAddIn code file, declare a field named `inspectors` in the `ThisAddIn` class. The `inspectors` field maintains a reference to the collection of Inspector windows in the current Outlook instance. This reference prevents the garbage collector from freeing the memory that contains the event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.  
   
-     [!code-vb[Trin_OutlookAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#1)]
-     [!code-csharp[Trin_OutlookAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#1)]  
+    [!code-vb[Trin_OutlookAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#1)]
+    [!code-csharp[Trin_OutlookAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#1)]  
   
-2.  Replace the `ThisAddIn_Startup` method with the following code. This code attaches an event handler to the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.  
+2. Replace the `ThisAddIn_Startup` method with the following code. This code attaches an event handler to the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.  
   
-     [!code-vb[Trin_OutlookAddInTutorial#2](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#2)]
-     [!code-csharp[Trin_OutlookAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#2)]  
+    [!code-vb[Trin_OutlookAddInTutorial#2](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#2)]
+    [!code-csharp[Trin_OutlookAddInTutorial#2](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#2)]  
   
-3.  In the ThisAddIn code file, add the following code to the `ThisAddIn` class. This code defines an event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.  
+3. In the ThisAddIn code file, add the following code to the `ThisAddIn` class. This code defines an event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.  
   
-     When the user creates a new mail message, this event handler adds text to the subject line and body of the message.  
+    When the user creates a new mail message, this event handler adds text to the subject line and body of the message.  
   
-     [!code-vb[Trin_OutlookAddInTutorial#3](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#3)]
-     [!code-csharp[Trin_OutlookAddInTutorial#3](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#3)]  
+    [!code-vb[Trin_OutlookAddInTutorial#3](../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb#3)]
+    [!code-csharp[Trin_OutlookAddInTutorial#3](../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs#3)]  
   
- To modify each new mail message, the previous code examples use the following objects:  
+   To modify each new mail message, the previous code examples use the following objects:  
   
 -   The `Application` field of the `ThisAddIn` class. The `Application` field returns an <xref:Microsoft.Office.Interop.Outlook.Application> object, which represents the current instance of Outlook.  
   

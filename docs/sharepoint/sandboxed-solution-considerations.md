@@ -75,66 +75,66 @@ ms.workload:
 ## Sandboxed solution limitations
  When a sandboxed solution is deployed, the array of SharePoint functionality available to it is limited to help reduce any security vulnerabilities it may have. Some of these limitations include the following:  
   
--   Sandboxed solutions have a restricted subset of deployable solution elements available to them. Potentially vulnerable SharePoint project templates, such as site definitions and workflows, are not available.  
+- Sandboxed solutions have a restricted subset of deployable solution elements available to them. Potentially vulnerable SharePoint project templates, such as site definitions and workflows, are not available.  
   
--   SharePoint runs sandboxed solution code in a process (*SPUCWorkerProcess.exe*) separate from the main [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] application pool (*w3wp.exe*) process.  
+- SharePoint runs sandboxed solution code in a process (*SPUCWorkerProcess.exe*) separate from the main [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] application pool (*w3wp.exe*) process.  
   
--   Mapped folders cannot be added to the project.  
+- Mapped folders cannot be added to the project.  
   
--   Types in the [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] assembly Microsoft.Office.Server cannot be used in sandboxed solutions. Also, only types in the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] assembly Microsoft.SharePoint can be used in sandboxed solutions.  
+- Types in the [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] assembly Microsoft.Office.Server cannot be used in sandboxed solutions. Also, only types in the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] assembly Microsoft.SharePoint can be used in sandboxed solutions.  
   
- It is important to note that specifying a SharePoint solution as a sandboxed solution has no affect on SharePoint server; it only determines how the SharePoint project is deployed to SharePoint from [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and what assemblies it binds to. It does not affect the generated *.wsp* file, and the *.wsp* file has no data that directly correlates to the *Sandboxed Solution* property.  
+  It is important to note that specifying a SharePoint solution as a sandboxed solution has no affect on SharePoint server; it only determines how the SharePoint project is deployed to SharePoint from [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and what assemblies it binds to. It does not affect the generated *.wsp* file, and the *.wsp* file has no data that directly correlates to the *Sandboxed Solution* property.  
   
 ## Capabilities and elements in sandboxed solutions
  Sandboxed solutions support the following capabilities and elements:  
   
--   Content Types/Fields  
+- Content Types/Fields  
   
--   Custom actions  
+- Custom actions  
   
--   Declarative workflows  
+- Declarative workflows  
   
--   Event receivers  
+- Event receivers  
   
--   Feature callouts  
+- Feature callouts  
   
--   List Definitions  
+- List Definitions  
   
--   List Instances  
+- List Instances  
   
--   Module/files  
+- Module/files  
   
--   Navigation  
+- Navigation  
   
--   *Onet.xml*  
+- *Onet.xml*  
   
--   SPItemEventReceiver  
+- SPItemEventReceiver  
   
--   SPListEventReceiver  
+- SPListEventReceiver  
   
--   SPWebEventReceiver  
+- SPWebEventReceiver  
   
--   Support for all Web Parts that derive from `System.Web.UI.WebControls.WebParts.WebPart`  
+- Support for all Web Parts that derive from `System.Web.UI.WebControls.WebParts.WebPart`  
   
--   Web Parts  
+- Web Parts  
   
--   WebTemplate feature elements (instead of *Webtemp.xml*)  
+- WebTemplate feature elements (instead of *Webtemp.xml*)  
   
--   Visual Web Parts  
+- Visual Web Parts  
   
- Sandboxed solutions do not support the following capabilities and elements:  
+  Sandboxed solutions do not support the following capabilities and elements:  
   
--   Application Pages  
+- Application Pages  
   
--   Custom Action Group  
+- Custom Action Group  
   
--   Farm-scoped features  
+- Farm-scoped features  
   
--   `HideCustomAction` element  
+- `HideCustomAction` element  
   
--   Web Application-scoped features  
+- Web Application-scoped features  
   
--   Workflows with code  
+- Workflows with code  
   
 ## See also
  [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md)   

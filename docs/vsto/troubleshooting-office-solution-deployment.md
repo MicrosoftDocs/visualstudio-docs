@@ -29,11 +29,11 @@ ms.workload:
 ## Change the assembly name causes conflicts  
  If you change the **Assembly Name** value in the **Application** page of the **Project Designer** after you've already deployed a solution, the publishing tools will modify the Setup package to have one *Setup.exe* file and two deployment manifests. If you deploy two manifest files, the following conditions might occur:  
   
--   If the end user installs both versions, the application will load both VSTO Add-ins.  
+- If the end user installs both versions, the application will load both VSTO Add-ins.  
   
--   If the VSTO Add-in was installed before the assembly name was changed, the end user will never receive updates.  
+- If the VSTO Add-in was installed before the assembly name was changed, the end user will never receive updates.  
   
- To avoid these conditions, don't change the solution's **Assembly Name** value after you deploy the solution.  
+  To avoid these conditions, don't change the solution's **Assembly Name** value after you deploy the solution.  
   
 ## Check for updates takes a long time  
  Visual Studio 2010 Tools for Office runtime provides a registry entry that administrators can use to set the time-out value for downloading the manifests and the solution.  
@@ -57,7 +57,7 @@ ms.workload:
  You can add the .NET Framework, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], and the Office primary interop assemblies to your Setup package as prerequisites that are deployed with your Office solution. For information about how to install the primary interop assemblies, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md) and [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md).  
   
 ## Publish using 'Localhost' can cause installation problems  
- When you use "http://localhost" as the publish or installation location for document-level solutions, the **Publish Wizard** doesn't convert the string to the real computer name. In this case, the solution must be installed on the development computer. To make deployed solutions use IIS on the development computer, use the fully qualified name for all HTTP/HTTPS/FTP locations instead of localhost.  
+ When you use "<http://localhost>" as the publish or installation location for document-level solutions, the **Publish Wizard** doesn't convert the string to the real computer name. In this case, the solution must be installed on the development computer. To make deployed solutions use IIS on the development computer, use the fully qualified name for all HTTP/HTTPS/FTP locations instead of localhost.  
   
 ## Cached assemblies are loaded instead of updated assemblies  
  Fusion, the .NET Framework assembly loader, loads the cached copy of assemblies when the project output path is on a network file share, the assembly is signed with a strong name, and the assembly version of the customization doesn't change. If you update an assembly that meets these conditions, the update won't appear the next time that you run the project because the cached copy is loaded.  
@@ -66,13 +66,13 @@ ms.workload:
   
 ### To download assemblies instead of loading cached copies  
   
-1.  On the menu bar, choose **Project**, _ProjectName_**Properties**.  
+1. On the menu bar, choose **Project**, _ProjectName_**Properties**.  
   
-2.  On the **Application** page, choose **Assembly Information**.  
+2. On the **Application** page, choose **Assembly Information**.  
   
-3.  In the first **Assembly Version** box, enter an asterisk (\*), and then choose the **OK** button.  
+3. In the first **Assembly Version** box, enter an asterisk (\*), and then choose the **OK** button.  
   
- After you change the assembly version, you can continue to sign your assembly with a strong name, and Fusion will load the most recent version of the customization.  
+   After you change the assembly version, you can continue to sign your assembly with a strong name, and Fusion will load the most recent version of the customization.  
   
 ## Installation fails when the URI has characters that aren't US-ASCII  
  When you publish an Office solution to an HTTP/HTTPS/FTP location, the path can't have any Unicode characters that aren't in US-ASCII. Such characters can cause inconsistent behavior in the Setup program. Use US-ASCII characters for the installation path.  
@@ -85,15 +85,15 @@ ms.workload:
 ## Uncaught exception or method not found error when you install a solution  
  When you install Office solutions by opening the deployment manifest (a *.vsto* file), Office application, document, or workbook, error messages for the following conditions might appear:  
   
--   Method not found.  
+- Method not found.  
   
--   MissingMethodException.  
+- MissingMethodException.  
   
--   Uncaught exception.  
+- Uncaught exception.  
   
- To prevent these error messages, install the solution by running the Setup program.  
+  To prevent these error messages, install the solution by running the Setup program.  
   
- When you install the solution without running the Setup program, the installer doesn't check for or install prerequisites. The Setup program checks for the correct version of prerequisites and installs them as necessary.  
+  When you install the solution without running the Setup program, the installer doesn't check for or install prerequisites. The Setup program checks for the correct version of prerequisites and installs them as necessary.  
   
 ## Manifest registry keys for Add-ins change after an InstallShield Limited Edition project is built  
  The manifest registry key that's part of a VSTO Add-in Setup program sometimes changes from *.vsto* to *.dll.manifest* when you build an InstallShield Limited Edition project.  

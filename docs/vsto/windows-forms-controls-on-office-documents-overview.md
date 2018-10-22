@@ -46,25 +46,25 @@ ms.workload:
  On a document.  
  -   When you want to display the controls 100% of the time.  
   
--   When you want users to enter data directly in the document, for example, in forms-based documents where the editing surface is locked.  
+- When you want users to enter data directly in the document, for example, in forms-based documents where the editing surface is locked.  
   
--   When you want the controls to display in line with the data in the document. For example, if you are adding buttons to each row of a list object, you would want them in line with each list item.  
+- When you want the controls to display in line with the data in the document. For example, if you are adding buttons to each row of a list object, you would want them in line with each list item.  
   
- On the actions pane or a custom task pane.  
- -   When you want to provide contextual information to the user.  
+  On the actions pane or a custom task pane.  
+  -   When you want to provide contextual information to the user.  
   
--   When you want only the results to appear in the document, and not the query controls and data.  
+- When you want only the results to appear in the document, and not the query controls and data.  
   
--   When you want to ensure that the controls are not printed with the document.  
+- When you want to ensure that the controls are not printed with the document.  
   
--   When you want to ensure that controls do not interfere with the view of the document.  
+- When you want to ensure that controls do not interfere with the view of the document.  
   
- On a Windows Form.  
- -   When you want to control the size of the UI.  
+  On a Windows Form.  
+  -   When you want to control the size of the UI.  
   
--   When you want to prevent users from hiding or deleting the controls.  
+- When you want to prevent users from hiding or deleting the controls.  
   
--   When you want to get input from the user, and prevent the user from doing anything in the document until the input is received.  
+- When you want to get input from the user, and prevent the user from doing anything in the document until the input is received.  
   
 ## Add Windows Forms controls programmatically  
  You can add Windows Forms controls to Word documents and Excel worksheets at runtime. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] provides helper methods for adding the most common Windows Forms controls. These helper methods enable you to quickly add controls to your Office document and access the combined Windows Forms control functionality and Office-related functionality of these controls.  
@@ -128,13 +128,13 @@ ms.workload:
   
  When you add a control to a Word document at runtime, you can specify the layout style of the new control by using different `Add`\<*control class*> method overloads of the <xref:Microsoft.Office.Tools.Word.ControlCollection> class:  
   
--   To add the control in line with text, use an overload that accepts a <xref:Microsoft.Office.Interop.Word.Range> that specifies the location of the control.  
+- To add the control in line with text, use an overload that accepts a <xref:Microsoft.Office.Interop.Word.Range> that specifies the location of the control.  
   
--   To add the control as a floating shape, use an overload that accepts the left and top coordinates of the control.  
+- To add the control as a floating shape, use an overload that accepts the left and top coordinates of the control.  
   
- For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
+  For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
   
- If you open a Word template in the Visual Studio designer, non-inline controls on the template might not be visible because Visual Studio opens the template in **Normal** view. To view the controls, change the view to **Print Layout**.  
+  If you open a Word template in the Visual Studio designer, non-inline controls on the template might not be visible because Visual Studio opens the template in **Normal** view. To view the controls, change the view to **Print Layout**.  
   
 ### Controls outside the main document body  
  Windows Forms controls are not supported inside of a header or footer, or within a subdocument.  
