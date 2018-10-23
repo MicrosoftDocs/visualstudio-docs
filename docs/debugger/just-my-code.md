@@ -28,20 +28,16 @@ For most programming languages, Just My Code is enabled by default.
 > [!NOTE]
 > **Enable Just My Code** is a global setting that applies to all Visual Studio projects in all languages.  
   
-##  <a name="BKMK_Override_call_stack_filtering"></a> Show non-user code in the Call Stack window  
-
-Just My Code collapses non-user code into a grayed-out line labeled `[External Code]` in the **Call Stack** or **Tasks** window. You can view the collapsed code. 
-
-To open the **Call Stack** or **Tasks** window, you must be in a debugging session. From **Debug** > **Windows**, select **Call Stack** (or press **Alt**+**7**), or select **Tasks**. 
-
 ##  Just My Code debugging
 
-During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code), along with their symbol loading status. To open the **Modules** window, during debugging, select **Debug** > **Windows** > **Modules**. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
+During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code), along with their symbol loading status. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
 
-Just My Code collapses non-user code into a grayed-out line labeled `[External Code]` in the **Call Stack** or **Tasks** window. 
+In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code into a grayed-out line labeled `[External Code]`.
 
-To open the **Call Stack** or **Tasks** window, during debugging, select **Debug** > **Windows**, and then select **Call Stack** (or press **Alt**+**7**), or select **Tasks**. 
+>[!TIP]
+>To open the **Modules**, **Call Stack**, **Tasks**, or most other debugging windows, you must be in a debugging session. Under **Debug** > **Windows**, select the windows you want. These open windows persist over Visual Studio debugging sessions. 
 
+<a name="BKMK_Override_call_stack_filtering"></a> 
 To view the code in a collapsed **[External Code]** frame, right-click in the **Call Stack** or **Task** window, and select **Show External Code** from the context menu. The expanded external code lines replace the **[External Code**] frame. 
 
  ![Show External Code in the Call Stack window](../debugger/media/dbg_justmycode_showexternalcode.png "Show External Code")
@@ -49,61 +45,58 @@ To view the code in a collapsed **[External Code]** frame, right-click in the **
 > [!NOTE]
 > **Show External Code** is a current user profiler setting that applies to all projects in all languages that are opened by the user.
 
-Double-clicking the expanded external code lines in the **Call Stack** window has different effects depending on code language, calling function, and whether there is a source file corresponding to the stack frame. 
-
-Either the calling user code is highlighted in green in the source code, or the symbol file not loaded page appears, allowing you to search for and load a *.pdb* file. 
+Double-clicking expanded external code lines in the **Call Stack** window highlights the calling code in green in the source code, or may open a symbol or source not found page. 
 
 ##  <a name="BKMK__NET_Framework_Just_My_Code"></a>Just My Code in .NET Framework projects 
-  
-###  <a name="BKMK_NET_User_and_non_user_code"></a> .NET Framework user and non-user code  
 
-In .NET Framework projects, Just My Code uses symbol (*.pdb*) files and program optimizations to distinguish user code from non-user code. The .NET Framework debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
+In .NET Framework projects, Just My Code uses symbol (*.pdb*) files and program optimizations to distinguish user and non-user code. The .NET Framework debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
   
-Three compiler attributes also affect what the debugger considers to be user code:  
+Three compiler attributes also affect what the .NET debugger considers to be user code:  
+
 - <xref:System.Diagnostics.DebuggerNonUserCodeAttribute> tells the debugger that the code it is applied to is not user code.  
 - <xref:System.Diagnostics.DebuggerHiddenAttribute> hides the code from the debugger, even if Just My Code is turned off.  
 - <xref:System.Diagnostics.DebuggerStepThroughAttribute> tells the debugger to step through the code it is applied to, rather than step into the code.  
 
 The .NET Framework debugger considers all other code to be user code.  
-  
-###  <a name="BKMK_NET_Stepping_behavior"></a> .NET Framework debugging behavior  
 
-In .NET Framework projects with Just My Code enabled:
+During debugging:
+
 - **Debug** > **Step Into** (or **F11**) on non-user code steps over the code to the next line of user code. 
 - **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code. 
 
 If there is no more user code, execution continues until the app exits, a breakpoint is hit, or an error occurs.  
-  
+
 <a name="BKMK_NET_Breakpoint_behavior"></a> 
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), the **No Source** window appears. You can then use a **Debug** > **Step** command to go to the next line of user code.
 
 If an unhandled exception occurs in non-user code, the debugger breaks at the user code line where the exception was generated.  
   
-If first-chance exceptions are enabled for the exception, the user-code line is highlighted in green in source code, and the **Call Stack** window displays the annotated frame labeled **[External Code]**.  
+If first chance exceptions are enabled for the exception, the calling user-code line is highlighted in green in source code, and the **Call Stack** window displays the annotated frame labeled **[External Code]**.  
   
 ##  <a name="BKMK_C___Just_My_Code"></a> Just My Code in C++ projects  
   
 In C++, enabling Just My Code is the same as using the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch.
-  
-###  <a name="BKMK_CPP_User_and_non_user_code"></a> C++ user and non-user code  
 
+<a name="BKMK_CPP_User_and_non_user_code"></a>
 Just My Code is different in C++ than in .NET Framework and JavaScript, because you can specify non-user files separately for stepping behavior and the **Call Stack** window. 
 
 Just My Code in C++ considers only these functions to be non-user code:
 
-- For the **Call Stack** window:  
+- For the **Call Stack** window: 
+
   - Functions with stripped source information in their symbols file.  
   - Functions where the symbol files indicate that there is no source file corresponding to the stack frame.  
   - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
   
 - For stepping behavior:
+  
   - Functions specified in *\*.natstepfilter* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
   
-You can create *.natstepfilter* and *.natjmc* files to customize Just My Code stepping behavior and the **Call Stack** window display. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior) and {Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior). 
-  
-###  <a name="BKMK_CPP_Stepping_behavior"></a> C++ debugging behavior  
+You can create *.natstepfilter* and *.natjmc* files to customize Just My Code stepping behavior and the **Call Stack** window. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior) and {Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior). 
 
-In C++ projects with Just My Code enabled:
+<a name="BKMK_CPP_Stepping_behavior"></a>
+During debugging:
+
 - **Debug** > **Step Into** (or **F11**) on non-user code steps over the code to the next line of user code. 
 - **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code. 
 
@@ -112,8 +105,8 @@ If there is no more user code, the debugger runs until the app exits, a breakpoi
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), stepping continues in the non-user code.
 
 If the debugger hits an exception, it stops on the exception whether it is in user or non-user code. **User-unhandled** options in the **Exception Settings** dialog box are ignored.  
-  
-###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C## stepping behavior  
+
+###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior  
 
  In C++ projects, you can specify functions to step over by listing them as non-user code in *\*.natstepfilter* files.  
   
@@ -196,9 +189,8 @@ A *.natjmc* file is an XML file with this syntax:
 |`ExceptionImplementation`|When set to `true`, the call stack displays the function that threw the exception rather than this function.|  
   
 ##  <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code  
-  
-###  <a name="BKMK_JS_User_and_non_user_code"></a> JavaScript user and non-user code  
 
+<a name="BKMK_JS_User_and_non_user_code"></a> 
 JavaScript Just My Code controls stepping and call stack display by categorizing code in one of these classifications:  
 
 |||  
@@ -228,15 +220,16 @@ Each classification step overrides the previous steps.
 
 All other code is classified as **MyCode**.  
 
-###  <a name="BKMK_JS_Stepping_behavior"></a> JavaScript debugging behavior  
-  
--   If a function is non-user code, **Debug** > **Step Into** (or **F11**) behaves the same as **Debug** > **Step Over** (or **F10**).  
--   If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, stepping temporarily behaves as if Just My Code is not enabled. When you step back to user code, Just My Code stepping is re-enabled.  
--   When a step in user code results in leaving the current execution context (such as doing a step on the last line of an event handler), the debugger stops at the next executed line of user code. For example, if a callback executes in **LibraryCode** code, the debugger continues until the next line of user code executes.
--   **Step Out** (or **Shift**+**F11**) stops on the next line of user code. 
+<a name="BKMK_JS_Stepping_behavior"></a>
+During debugging: 
+
+- If a function is non-user code, **Debug** > **Step Into** (or **F11**) behaves the same as **Debug** > **Step Over** (or **F10**).  
+- If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, stepping temporarily behaves as if Just My Code is not enabled. When you step back to user code, Just My Code stepping is re-enabled.  
+- When a step in user code results in leaving the current execution context (such as doing a step on the last line of an event handler), the debugger stops at the next executed line of user code. For example, if a callback executes in **LibraryCode** code, the debugger continues until the next line of user code executes.
+- **Step Out** (or **Shift**+**F11**) stops on the next line of user code. 
 
 If there is no more user code, the debugger continues until the app exits, a breakpoint is hit, or an exception occurs.  
-  
+
 Breakpoints set in code are always hit, regardless of the classification of that code.  
 
 - If the `debugger` keyword occurs in **LibraryCode**, the debugger always breaks.  
@@ -256,7 +249,7 @@ If first-chance exceptions are enabled for the exception in the **Exception Sett
 
 To categorize user and non-user code for a single Visual Studio project, you can add a *.json* file named *mycode.json* to the root folder of the project.  
   
-Specifications in this file override the default classifications or those in the *mycode.default.wwa.json* file. The *mycode.json* file does not need to list all key value pairs, and the **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.  
+Specifications in this file override the default classifications and the *mycode.default.wwa.json* file. The *mycode.json* file does not need to list all key value pairs, and the **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.  
   
 *Mycode.json* files use this syntax:  
   
