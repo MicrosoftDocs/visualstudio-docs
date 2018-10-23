@@ -8,48 +8,81 @@ ms.author: amburns
 ms.date: 10/05/2018
 ---
 
-# Visual Studio for Mac Firewall Configuration Instructions
+# Visual Studio for Mac Whitelist
 
-_A list of hosts that you need to whitelist in your firewall to allow Visual Studio for Mac to work for your company._
+If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to "whitelist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio for Mac and Azure Services.
 
-In order for Visual Studio for Mac to install and work properly, certain endpoints must be accessible to download the required tools and updates for your software. If you or your company have strict firewall settings, you may experience issues with installation, licensing, components, and more. This document outlines some of the known endpoints that need to be whitelisted in your firewall in order for Visual Studio for Mac to work. This list does not include the endpoints required for any third-party tools included in the download. If you are still experiencing trouble after going through this list, refer to the Apple or Android installation troubleshooting guides.
+- [**Install Visual Studio for Mac**](#install-visual-studio-for-mac): These tables include the URLs to whitelist so that you have access to all features and workloads of Visual Studio for Mac.
 
-## Endpoints to Whitelist
+- [**Use Visual Studio for Mac**](#use-visual-studio-for-mac): These tables include URLs to whitelist so that you have access to all of the services and features that you want.
 
-### Visual Studio for Mac Installer
+## Install Visual Studio for Mac
 
-The following known addresses will need to be added in order for the software to install properly when using the latest release of the Xamarin installer:
+Because the Visual Studio for Mac Installer downloads from a various domains and download servers, here are the domains and URLs that you may want to add as trusted in your configurations.
 
-- xamarin.com (installer manifests)
-- dl.xamarin.com (Package download location)
-- dl.google.com (to download the Android SDK)
-- download.oracle.com (JDK)
-- visualstudio.com (Setup packages download location)
-- go.microsoft.com (Setup URL resolution)
-- aka.ms (Setup URL resolution)
+### Microsoft Domains
 
-If you are using a Mac and are encountering Xamarin.Android install issues, please ensure that macOS is able to download Java.
+| Domain| Purpose |
+| ----------------------------------- |---------------------------|
+| *.live.com| Credential Management |
+| app.vssps.visualstudio.com| Installer Metadata|
+| vortex.data.microsoft.com | Crash and Error Reporting |
+| az667904.vo.msecnd.net| Crash and Error Reporting |
+| xamarin.com | Installer Metadata|
+| xampubdl.blob.core.windows.net| Installer Packages|
+| download.visualstudio.microsoft.com | Installer Packages|
+| xamarin.azureedge.net | Installer Packages|
+| developer.xamarin.com | Installer Packages|
+| dc.services.visualstudio.com| Crash Reporting |
 
-### NuGet (including Xamarin.Forms)
+### Third Party Domains
 
-The following addresses will need to be added to access NuGet (Xamarin.Forms is packaged as a NuGet):
+| Domain| Purpose |
+| --------------------------|-------------------------|
+| dl.google.com | Android SDK |
+| download.oracle.com | Java SDK|
+| api.apple-cloudkit.com| Apple Security Services |
 
-- www\.nuget.org (to access NuGet)
-- az320820.vo.msecnd.net (NuGet downloads)
-- dl-ssl.google.com (Google components for Android and Xamarin.Forms)
+## Use Visual Studio for Mac
 
-### Software updates
+To make sure that you have access to every feature that you need in Visual Studio for Mac while behind a proxy or firewall, we recommend whitelisting the following domains and ports
 
-The following addresses will need to be added to ensure that software updates can download properly:
+### General
 
-- software.xamarin.com (updater service)
-- download.visualstudio.microsoft.com
-- dl.xamarin.com
+| Domain | Port(s)|Purpose|
+| ----------------------|------------------|------------------|
+| go.microsoft.com | 80/443|Microsoft URL Resolution |
+| vsstartpage.blob.core.windows.net| 80/443| Start Page Data|
+| software.xamarin.com |  80/443|Updater Service|
+| addins.monodevelop.com | 80/443| Extension Services |
+| visualstudio-devdiv-c2s.msedge.net | 80/443| Experimental Feature and Notifications |
+| targetednotifications.azurewebsites.net|  80/443| Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios|
 
-## Xamarin Mac Agent
+### Identity
 
-To connect Visual Studio to a Mac build host using the Xamarin Mac Agent requires the SSH port to be open. By default this is **Port 22**.
+| Domain | Port(s)|Purpose|
+| ----------------------|------------------|------------------|
+| login.microsoftonline.com | 80/443| Identity Provider|
+| secure.aadcdn.microsoftonline-p.com | 80/443|Identity Provider|
+| dc.services.visualstudio.com| 80/443|Crash Reporting|
+| management.azure.com|80/443| Azure Services API |
 
-## Related links
+### NuGet
 
-* [Troubleshooting similar issues on Windows](https://docs.microsoft.com/visualstudio/install/troubleshooting-network-related-errors-in-visual-studio)
+| Domain | Port(s)|Purpose|
+| ----------------------|------------------|------------------|
+| api.nuget.org | 80/443|NuGet API|
+| secure.aadcdn.microsoftonline-p.com |80/443| Identity Provider|
+
+### Android Projects
+
+| Domain| Purpose|
+| ------------------------------------|------------------------------------|
+| time.android.com| Time Server for Android Emulator |
+| connectivitycheck.gstatic.com | Connectivity for Android Emulator|
+| cloudconfig.googleapis.com| APIs for Android Emulator|
+
+## See also
+
+- [Install and use Visual Studio 2017 and Azure Services behind a firewall or proxy server](https://docs.microsoft.com/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server)
+- [Troubleshooting similar issues on Windows](https://docs.microsoft.com/visualstudio/install/troubleshooting-network-related-errors-in-visual-studio)
