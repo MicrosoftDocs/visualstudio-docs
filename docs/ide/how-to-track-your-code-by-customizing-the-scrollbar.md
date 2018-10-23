@@ -4,6 +4,8 @@ ms.date: 09/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
+f1_keywords:
+  - "VS.ToolsOptionsPages.Text_Editor.All_Languages.Scroll_Bars"
 author: gewarren
 ms.author: gewarren
 manager: douge

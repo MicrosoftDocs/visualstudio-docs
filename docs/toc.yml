@@ -772,10 +772,16 @@
           href: ide/reference/options-text-editor-file-extension.md
         - name: Text Editor - All Languages
           href: ide/reference/options-text-editor-all-languages.md
+        - name: Text Editor - All Languages, Scroll Bars
+          href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
         - name: Text Editor - All Languages, Tabs
           href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Text Editor - Basic (Visual Basic)
+        - name: Text Editor - Basic (Visual Basic), Advanced
           href: ide/reference/options-text-editor-basic-visual-basic.md
+        - name: Text Editor - Basic (Visual Basic), Code Style
+          href: ide/code-styles-and-quick-actions.md
+        - name: Text Editor - Basic (Visual Basic), IntelliSense
+          href: ide/visual-basic-specific-intellisense.md
         - name: Text Editor - C/C++, Formatting
           href: ide/reference/options-text-editor-c-cpp-formatting.md
         - name: Text Editor - C/C++, Advanced
