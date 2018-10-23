@@ -32,10 +32,13 @@ For most programming languages, Just My Code is enabled by default.
 
 During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code), along with their symbol loading status. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
 
-In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code into a grayed-out line labeled `[External Code]`.
+In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code into a grayed-out annotated code frame labeled `[External Code]`.
 
+
+ ![External Code frame in the Call Stack window](../debugger/media/dbg_justmycode_externalcode.png "External Code frame")
+  
 >[!TIP]
->To open the **Modules**, **Call Stack**, **Tasks**, or most other debugging windows, you must be in a debugging session. Under **Debug** > **Windows**, select the windows you want. These open windows persist over Visual Studio debugging sessions. 
+>To open the **Modules**, **Call Stack**, **Tasks**, or most other debugging windows, you must be in a debugging session. While debugging, under **Debug** > **Windows**, select the windows you want to open. 
 
 <a name="BKMK_Override_call_stack_filtering"></a> 
 To view the code in a collapsed **[External Code]** frame, right-click in the **Call Stack** or **Task** window, and select **Show External Code** from the context menu. The expanded external code lines replace the **[External Code**] frame. 
@@ -45,9 +48,9 @@ To view the code in a collapsed **[External Code]** frame, right-click in the **
 > [!NOTE]
 > **Show External Code** is a current user profiler setting that applies to all projects in all languages that are opened by the user.
 
-Double-clicking expanded external code lines in the **Call Stack** window highlights the calling code in green in the source code. For DLLs or other modules not found or loaded, a symbol or source not found page may open.
+Double-clicking an expanded external code line in the **Call Stack** window highlights the calling code line in green in the source code. For DLLs or other modules not found or loaded, a symbol or source not found page may open.
 
-##  <a name="BKMK__NET_Framework_Just_My_Code"></a>Just My Code in .NET Framework projects 
+##  <a name="BKMK__NET_Framework_Just_My_Code"></a>.NET Framework Just My Code 
 
 In .NET Framework projects, Just My Code uses symbol (*.pdb*) files and program optimizations to classify user and non-user code. The .NET Framework debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
   
@@ -73,7 +76,7 @@ If an unhandled exception occurs in non-user code, the debugger breaks at the us
   
 If first chance exceptions are enabled for the exception, the calling user-code line is highlighted in green in source code. The **Call Stack** window displays the annotated frame labeled **[External Code]**.  
 
-##  <a name="BKMK_C___Just_My_Code"></a> Just My Code in C++ projects  
+##  <a name="BKMK_C___Just_My_Code"></a> C++ Just My Code  
   
 In C++, enabling Just My Code is the same as using the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch.
 
@@ -104,7 +107,7 @@ If there's no more user code, debugging continues until it ends, hits another br
 
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), stepping continues in the non-user code.
 
-If the debugger hits an exception, it stops on the exception whether it is in user or non-user code. **User-unhandled** options in the **Exception Settings** dialog box are ignored.  
+If the debugger hits an exception, it stops on the exception, whether it is in user or non-user code. **User-unhandled** options in the **Exception Settings** dialog box are ignored.  
 
 ###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior  
 
@@ -206,7 +209,9 @@ The JavaScript debugger classifies code as user or non-user in this order:
    -   Script executed by passing a string to the `Function` constructor is **LibraryCode**.  
    -   Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.  
    -   Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.  
+   
 2. Classifications specified for all Visual Studio JavaScript projects in the *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file.  
+   
 3. Classifications in the *mycode.json* file of the current project.  
   
 Each classification step overrides the previous steps. 
@@ -274,7 +279,7 @@ Specifications in this file override the default classifications and the *mycode
   
  **Eval, Function, and ScriptBlock**  
   
- The **Eval**, **Function**, and **ScriptBlock** key value pairs determine how dynamically generated code is classified.  
+ The **Eval**, **Function**, and **ScriptBlock** key value pairs determine how dynamically generated code is classified:  
   
 |||  
 |-|-|  

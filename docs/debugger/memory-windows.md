@@ -67,7 +67,7 @@ By default, the **Memory** window treats **Address** expressions as live express
    
 1. In any debugger window, select a memory address, or a pointer variable that contains a memory address.  
    
-2. Drag and drop the address or pointer in the **Memory** window. That address then appears in the **Address** field, and  
+2. Drag and drop the address or pointer in the **Memory** window. That address then appears in the **Address** field, and the **Memory** window adjusts to display that address at the top. 
   
 **To move to a memory location by entering it in the Address field:**
   
@@ -75,9 +75,7 @@ By default, the **Memory** window treats **Address** expressions as live express
   
 ## Customize the Memory window 
 
-You can customize the way the **Memory** window shows memory contents. 
-
-By default, memory contents appear as 1-byte integers in hexadecimal format, and the window width determines the number of columns shown.  
+By default, memory contents appear as 1-byte integers in hexadecimal format, and the window width determines the number of columns shown. You can customize the way the **Memory** window shows memory contents.  
   
 **To change the format of the memory contents:**  
   
@@ -93,7 +91,8 @@ If you do not want the contents of the **Memory** window to change as your app r
   
 - Right-click in the **Memory** window, and select **Reevaluate Automatically** in the context menu. 
 
-Live expression evaluation is a toggle, and is on by default, so selecting **Reevaluate Automatically** turns it off. Selecting **Reevaluate Automatically** again turns it back on. 
+  >[!NOTE]
+  >Live expression evaluation is a toggle, and is on by default, so selecting **Reevaluate Automatically** turns it off. Selecting **Reevaluate Automatically** again turns it back on. 
   
 You can hide or display the toolbar at the top of the **Memory** window. You will not have access to the **Address** field or other tools when the toolbar is hidden.  
   
@@ -111,7 +110,7 @@ In native code apps, you can use register names as live expressions. For example
   
 2. Press **Enter**.  
    
-   When you use a debug command such as **Step**, the memory address displayed in the **Address** field and at the top of the **Memory** window will automatically change as the pointer changes.  
+   When you use a debug command such as **Step**, the memory address displayed in the **Address** field and at the top of the **Memory** window automatically changes as the pointer changes.  
   
 ## See also  
  [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)
