@@ -32,7 +32,7 @@ For most programming languages, Just My Code is enabled by default.
 
 During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code), along with their symbol loading status. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
 
- ![User code in the Modules window](../debugger/media/dbg_justmycode_externalcode.png "User code in the Modules window")
+ ![User code in the Modules window](../debugger/media/dbg_justmycode_module.png "User code in the Modules window")
   
 In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code into a grayed-out annotated code frame labeled `[External Code]`.
 
