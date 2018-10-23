@@ -1,5 +1,5 @@
 ---
-title: Options, Text Editor, Basic (Visual Basic)
+title: Options, Text Editor, Basic (VB), Advanced
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -10,6 +10,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Visual_Basic_Editor.Editor"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.SimplifiedEditorPage"
   - "VS.ToolsOptionsPages.Text_Editor.Basic"
+  - "VS.ToolsOptionsPages.Text_Editor.Basic.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific"
 helpviewer_keywords:
   - "Basic Text Editor Options dialog box"
@@ -20,11 +21,26 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Options, Text Editor, Basic (Visual Basic)
+# Options, Text Editor, Basic (Visual Basic), Advanced
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box contains the following properties:
 
- **Automatic insertion of end constructs**
- When you type—for example, the first line of a procedure declaration, `Sub Main—`and press ENTER, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.
+ **Enable highlighting of references and keywords**
+
+The text editor can highlight all instances of a symbol or all of the keywords in a clause such as `If..Then`, `While...End While`, or `Try...Catch...Finally`. You can navigate between highlighted references or keywords by pressing **Ctrl** + **Shift** + **Down arrow** or **Ctrl** + **Shift** + **Up arrow**.
+
+**Enable outlining mode**
+
+When you open a file in the code editor, you can view the document in outlining mode. See [Outlining](../../ide/outlining.md) for more information. When this option is selected, the outlining feature is activated when you open a file.
+
+**Show procedure line separators**
+
+The text editor indicates visual scope of procedures. A line is drawn in the *.vb* source files of your project at locations listed in the following table:
+
+|Location in .vb Source File|Example of Line Location|
+|---------------------------------|------------------------------|
+|After the close of a block declaration construct|-   At the end of a class, structure, module, interface, or enum<br />-   After a property, function, or sub<br />-   Not between the get and set clauses in a property|
+|After a set of single line constructs|-   After the import statements, before a type definition in a class file<br />-   After variables declared in a class, before any procedures|
+|After single line declarations (non-block level declarations)|-   Following import statements, inherits statements, variable declarations, event declarations, delegate declarations, and DLL declare statements|
 
  **Pretty Listing (reformatting) of code**
  The text editor reformats your code as appropriate. When this option is selected, the code editor will:
@@ -43,9 +59,9 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
 
 -   Reformat dates
 
-**Enable outlining mode**
+**Automatic insertion of end constructs**
 
-When you open a file in the code editor, you can view the document in outlining mode. See [Outlining](../../ide/outlining.md) for more information. When this option is selected, the outlining feature is activated when you open a file.
+ When you type—for example, the first line of a procedure declaration, `Sub Main—`and press **Enter**, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.
 
 **Automatic insertion of Interface and MustOverride members**
 
@@ -64,10 +80,6 @@ The text editor indicates visual scope of procedures. A line is drawn in the .vb
 **Enable error correction suggestions**
 
 The text editor can suggest solutions to common errors and allow you to select the appropriate correction, which is then applied to your code.
-
-**Enable highlighting of references and keywords**
-
-The text editor can highlight all instances of a symbol or all of the keywords in a clause such as `If..Then`, `While...End While`, or `Try...Catch...Finally`. You can navigate between highlighted references or keywords by pressing CTRL+SHIFT+DOWN ARROW or CTRL+SHIFT+UP ARROW.
 
 ## See Also
 
