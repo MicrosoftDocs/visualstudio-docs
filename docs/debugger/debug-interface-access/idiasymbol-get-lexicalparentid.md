@@ -22,7 +22,7 @@ Retrieves the lexical parent identifier of the symbol.
   
 ```C++  
 HRESULT get_lexicalParentId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

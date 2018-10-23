@@ -27,20 +27,20 @@ Specifies the criteria for comparing two document contexts.
   
 ```cpp#  
 enum enum_DOCCONTEXT_COMPARE {   
-   DOCCONTEXT_EQUAL         = 0x0001,  
-   DOCCONTEXT_LESS_THAN     = 0x0002,  
-   DOCCONTEXT_GREATER_THAN  = 0x0003,  
-   DOCCONTEXT_SAME_DOCUMENT = 0x0004  
+   DOCCONTEXT_EQUAL         = 0x0001,  
+   DOCCONTEXT_LESS_THAN     = 0x0002,  
+   DOCCONTEXT_GREATER_THAN  = 0x0003,  
+   DOCCONTEXT_SAME_DOCUMENT = 0x0004  
 };  
 typedef DWORD DOCCONTEXT_COMPARE;  
 ```  
   
 ```csharp  
 enum enum_DOCCONTEXT_COMPARE {   
-   DOCCONTEXT_EQUAL         = 0x0001,  
-   DOCCONTEXT_LESS_THAN     = 0x0002,  
-   DOCCONTEXT_GREATER_THAN  = 0x0003,  
-   DOCCONTEXT_SAME_DOCUMENT = 0x0004  
+   DOCCONTEXT_EQUAL         = 0x0001,  
+   DOCCONTEXT_LESS_THAN     = 0x0002,  
+   DOCCONTEXT_GREATER_THAN  = 0x0003,  
+   DOCCONTEXT_SAME_DOCUMENT = 0x0004  
 };  
 ```  
   

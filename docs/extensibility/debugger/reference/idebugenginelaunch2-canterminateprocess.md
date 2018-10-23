@@ -23,13 +23,13 @@ Determines if a process can be terminated.
   
 ```cpp  
 HRESULT CanTerminateProcess (   
-   IDebugProcess2* pProcess  
+   IDebugProcess2* pProcess  
 );  
 ```  
   
 ```csharp  
 int CanTerminateProcess (   
-   IDebugProcess2 pProcess  
+   IDebugProcess2 pProcess  
 );  
 ```  
   

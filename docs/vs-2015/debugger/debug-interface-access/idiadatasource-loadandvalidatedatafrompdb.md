@@ -28,10 +28,10 @@ Opens and verifies that the program database (.pdb) file matches the signature i
   
 ```cpp#  
 HRESULT loadAndValidateDataFromPdb (   
-   LPCOLESTR pdbPath,  
-   GUID*     pcsig70,  
-   DWORD     sig,  
-   DWORD     age  
+   LPCOLESTR pdbPath,  
+   GUID*     pcsig70,  
+   DWORD     sig,  
+   DWORD     age  
 );  
 ```  
   

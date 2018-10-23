@@ -21,28 +21,28 @@ ms.workload:
 # Secure Office solutions
   The security model for Office solutions involves several technologies: the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)], the Trust Center in Microsoft Office, and the Internet Explorer restricted sites zone. The following sections describe how the different security features work:  
   
--   [Grant trust to Office solutions](#GrantingTrustToSolutions)  
+- [Grant trust to Office solutions](#GrantingTrustToSolutions)  
   
--   [Grant trust to documents](#GrantingTrustToDocuments)  
+- [Grant trust to documents](#GrantingTrustToDocuments)  
   
--   [Grant trust when using Windows Installer](#GrantingTrustWindowsInstaller)  
+- [Grant trust when using Windows Installer](#GrantingTrustWindowsInstaller)  
   
--   [Specific security considerations for Office solutions](#Security)  
+- [Specific security considerations for Office solutions](#Security)  
   
--   [Security during development](#SecurityDuringDeployment)  
+- [Security during development](#SecurityDuringDeployment)  
   
--   [Visual Studio Tools for Office runtime](#VisualStudioToolsForOfficeRuntime)  
+- [Visual Studio Tools for Office runtime](#VisualStudioToolsForOfficeRuntime)  
   
- [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
+  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
 ##  <a name="GrantingTrustToSolutions"></a> Grant trust to Office solutions  
  Granting trust to Office solutions means modifying the security policy of each end user to trust the Office solution based on the following evidence:  
   
--   The certificate used to sign the deployment manifest.  
+- The certificate used to sign the deployment manifest.  
   
--   The URL of the deployment manifest.  
+- The URL of the deployment manifest.  
   
- For more information, see [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md).  
+  For more information, see [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md).  
   
 ##  <a name="GrantingTrustToDocuments"></a> Grant trust to documents  
  A document-level customization requires that the document be in a directory that is designated as a trusted location. For more information, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).  
@@ -59,11 +59,11 @@ ms.workload:
 ### Document-level solutions  
  The fully qualified path of a document must be added to the list of trusted locations in the Microsoft Office application if you are developing the following types of projects:  
   
--   Document-level solutions that are on a network file share such as *\\\servername\sharename*.  
+- Document-level solutions that are on a network file share such as *\\\servername\sharename*.  
   
--   Document-level solutions for Word that use *.doc* or *.docm* files.  
+- Document-level solutions for Word that use *.doc* or *.docm* files.  
   
- Include the subdirectories when you add the document location to the trusted locations list, or specifically include the debug and build folders. For more information, see the Microsoft Office Online Help article [Create, remove, or change a trusted location for your files](https://support.office.com/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).  
+  Include the subdirectories when you add the document location to the trusted locations list, or specifically include the debug and build folders. For more information, see the Microsoft Office Online Help article [Create, remove, or change a trusted location for your files](https://support.office.com/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).  
   
 ### Temporary certificates  
  Visual Studio creates a temporary certificate if a signing certificate does not already exist. You should use this temporary certificate only during development, and purchase an official certificate for deployment.  

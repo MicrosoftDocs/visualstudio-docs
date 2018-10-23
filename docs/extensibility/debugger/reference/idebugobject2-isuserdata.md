@@ -23,13 +23,13 @@ Determines whether the object represents user data.
   
 ```cpp  
 HRESULT IsUserData(  
-   BOOL* pfUser  
+   BOOL* pfUser  
 );  
 ```  
   
 ```csharp  
 int IsUserData(  
-   out int pfUser  
+   out int pfUser  
 );  
 ```  
   

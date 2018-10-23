@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether the section can be shared in memory.
   
 ```cpp#  
 HRESULT get_share (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether a user-defined type (UDT) contains homog
   
 ```cpp#  
 HRESULT get_hfaDouble(   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

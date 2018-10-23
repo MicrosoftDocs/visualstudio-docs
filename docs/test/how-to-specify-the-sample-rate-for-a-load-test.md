@@ -22,7 +22,7 @@ Choose an appropriate value for the **Sample Rate** property for the load test r
 Here are some guidelines for sample rates:
 
 |Load Test Duration|Recommended Sample Rate|
-|------------------------|-----------------------------|
+|-|-----------------------------|
 |\< 1 Hour|5 seconds|
 |1 - 8 Hours|15 seconds|
 |8 - 24 Hours|30 seconds|

@@ -34,10 +34,10 @@ Contains all the metadata about the project template, item template, or starter 
   
 ### Attributes  
   
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Type`|Identifies the template as a project template or an item template. This attribute can have a value of `Project` or `Item`.|  
-|`Version`|Specifies a version number for the template. Templates in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] have a `Version` attribute value of `3.0.0`.|  
+| Attribute | Description |
+|-----------| - |
+| `Type` | Identifies the template as a project template or an item template. This attribute can have a value of `Project` or `Item`. |
+| `Version` | Specifies a version number for the template. Templates in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] have a `Version` attribute value of `3.0.0`. |
   
 ### Child elements  
   

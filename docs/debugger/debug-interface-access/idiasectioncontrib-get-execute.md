@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the section is executable as code.
   
 ```C++  
 HRESULT get_excute (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -67,18 +67,18 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
 ###### To define the IDXGraphicsAnalysis interface  
   
--   Define the IDXGraphicsAnalysis interface in the same file in which you included the header files.  
+- Define the IDXGraphicsAnalysis interface in the same file in which you included the header files.  
   
-    ```  
-    interface DECLSPEC_UUID("9f251514-9d4d-4902-9d60-18988ab7d4b5") DECLSPEC_NOVTABLE  
-    IDXGraphicsAnalysis : public IUnknown  
-    {  
-        STDMETHOD_(void, BeginCapture)() PURE;  
-        STDMETHOD_(void, EndCapture)() PURE;  
-    };  
-    ```  
+  ```  
+  interface DECLSPEC_UUID("9f251514-9d4d-4902-9d60-18988ab7d4b5") DECLSPEC_NOVTABLE  
+  IDXGraphicsAnalysis : public IUnknown  
+  {  
+      STDMETHOD_(void, BeginCapture)() PURE;  
+      STDMETHOD_(void, EndCapture)() PURE;  
+  };  
+  ```  
   
- For convenience, you can perform these steps in a new header file and then include it where it's needed in your app.  
+  For convenience, you can perform these steps in a new header file and then include it where it's needed in your app.  
   
 ### Getting the IDXGraphicsAnalysis interface  
  Before you can capture graphics information from DirectX 11.2, you have to get the DXGI debug interface.  
@@ -165,23 +165,23 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
 ##### To configure the name and location of the graphics log file  
   
--   To prevent the graphics log from being written to the temp directory, before the `#include <vsgcapture.h>` line, add this:  
+- To prevent the graphics log from being written to the temp directory, before the `#include <vsgcapture.h>` line, add this:  
   
-    ```  
-    #define DONT_SAVE_VSGLOG_TO_TEMP  
-    ```  
+  ```  
+  #define DONT_SAVE_VSGLOG_TO_TEMP  
+  ```  
   
-     You can define this value to write the graphics log to a location that's relative to the working directory, or to an absolute path if the definition of `VSG_DEFAULT_RUN_FILENAME` is an absolute path.  
+   You can define this value to write the graphics log to a location that's relative to the working directory, or to an absolute path if the definition of `VSG_DEFAULT_RUN_FILENAME` is an absolute path.  
   
--   To save the graphics log to a different location, or give it a different file name, before the `#include <vsgcapture.h>` line, add this:  
+- To save the graphics log to a different location, or give it a different file name, before the `#include <vsgcapture.h>` line, add this:  
   
-    ```  
-    #define VSG_DEFAULT_RUN_FILENAME <filename>  
-    ```  
+  ```  
+  #define VSG_DEFAULT_RUN_FILENAME <filename>  
+  ```  
   
-     If you don't perform this step, the file name is default.vsglog. If you didn't define `DONT_SAVE_VSGLOG_TO_TEMP`, then the location of the file is relative to the temp directory; otherwise, it's relative to the working directory or in another location if you specified an absolute file name.  
+   If you don't perform this step, the file name is default.vsglog. If you didn't define `DONT_SAVE_VSGLOG_TO_TEMP`, then the location of the file is relative to the temp directory; otherwise, it's relative to the working directory or in another location if you specified an absolute file name.  
   
- For [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps, the location of the temp directory is specific to each user and app, and is typically found in a location such as C:\users\\*username*\AppData\Local\Packages\\*package family name*\TempState\\. For desktop apps, the location of the temp directory is specific to each user and is typically found in a location such as C:\Users\\*username*\AppData\Local\Temp\\.  
+  For [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps, the location of the temp directory is specific to each user and app, and is typically found in a location such as C:\users\\*username*\AppData\Local\Packages\\*package family name*\TempState\\. For desktop apps, the location of the temp directory is specific to each user and is typically found in a location such as C:\Users\\*username*\AppData\Local\Temp\\.  
   
 > [!NOTE]
 >  To write to a specific location, you must have permissions to write to that location; otherwise, an error occurs. Keep in mind that [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps are more restricted than desktop apps about where they can write data, and might require additional configuration to write to certain locations.  

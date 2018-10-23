@@ -22,7 +22,7 @@ Retrieves a flag indicating whether the module is a .netmodule (a Microsoft Inte
   
 ```C++  
 HRESULT get_isMSILNetmodule(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

@@ -22,7 +22,7 @@ You can use the pages in the **Environment** folder in the **Options** dialog bo
 
 
 |For information about how to|See|
-|----------------------------------|---------|
+| - |---------|
 |Customize the appearance and behavior of windows, menus, and other elements of the IDE.|[General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)|
 |Change the settings for automatic saving and restoration of files.|[AutoRecover, Environment, Options Dialog Box](../../ide/reference/autorecover-environment-options-dialog-box.md)|
 |Establish document display and management settings that include the behavior of Miscellaneous files.|[Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md)|

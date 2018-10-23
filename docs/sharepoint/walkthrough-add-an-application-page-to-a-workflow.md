@@ -24,13 +24,13 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
--   Adding an ASPX application page to a SharePoint workflow project.
+- Adding an ASPX application page to a SharePoint workflow project.
 
--   Obtaining data from the workflow project and manipulating it.
+- Obtaining data from the workflow project and manipulating it.
 
--   Displaying data in a table on the application page.
+- Displaying data in a table on the application page.
 
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
@@ -299,23 +299,23 @@ ms.workload:
 
 #### To test the application page
 
-1.  Choose the **F5** key to run and deploy the project to SharePoint.
+1. Choose the **F5** key to run and deploy the project to SharePoint.
 
-2.  Choose the **Home** button, and then choose the **Shared Documents** link on the QuickLaunch bar to display the Shared Documents list on the SharePoint site.
+2. Choose the **Home** button, and then choose the **Shared Documents** link on the QuickLaunch bar to display the Shared Documents list on the SharePoint site.
 
-3.  To represent expense reports for this example, upload some new documents into the Documents list by choosing the **Documents** link on the **LibraryTools** tab at the top of the page and then choosing the **Upload Document** button on the tool ribbon.
+3. To represent expense reports for this example, upload some new documents into the Documents list by choosing the **Documents** link on the **LibraryTools** tab at the top of the page and then choosing the **Upload Document** button on the tool ribbon.
 
-4.  After you upload some documents, instantiate the workflow by choosing the **Library** link on the **LibraryTools** tab at the top of the page and then choosing the **Library Settings** button on the tool ribbon.
+4. After you upload some documents, instantiate the workflow by choosing the **Library** link on the **LibraryTools** tab at the top of the page and then choosing the **Library Settings** button on the tool ribbon.
 
-5.  In the **Document Library Settings** page, choose the **Workflow Settings** link in the **Permissions and Management** section.
+5. In the **Document Library Settings** page, choose the **Workflow Settings** link in the **Permissions and Management** section.
 
-6.  In the **Workflow Settings** page, choose the **Add a workflow** link.
+6. In the **Workflow Settings** page, choose the **Add a workflow** link.
 
-7.  In the **Add a Workflow** page, choose the **ExpenseReport - Workflow1** workflow, enter a name for the workflow, such as **ExpenseTest**, and then choose the **Next** button.
+7. In the **Add a Workflow** page, choose the **ExpenseReport - Workflow1** workflow, enter a name for the workflow, such as **ExpenseTest**, and then choose the **Next** button.
 
-     The workflow Association form appears. Use it to report the expense limit amount.
+    The workflow Association form appears. Use it to report the expense limit amount.
 
-8.  In the Association form, enter **1000** into the **Auto Approval Limit** box, and then choose the **Associate Workflow** button.
+8. In the Association form, enter **1000** into the **Auto Approval Limit** box, and then choose the **Associate Workflow** button.
 
 9. Choose the **Home** button to return to the SharePoint home page.
 
@@ -331,7 +331,7 @@ ms.workload:
 
 14. Repeat steps 11 - 13 with other documents in the Shared Documents list. (The exact number of documents is not important.)
 
-15. Display the expense report summary application page by opening the following URL in a Web browser: **http://**_SystemName_**/_layouts/ExpenseReport/ApplicationPage1.aspx**.
+15. Display the expense report summary application page by opening the following URL in a Web browser: **http://**<em>SystemName</em>**/_layouts/ExpenseReport/ApplicationPage1.aspx**.
 
      The expense report summary page lists all of the expense reports that exceeded the allocated amount, the amount they exceeded it by, and the total amount for all reports.
 

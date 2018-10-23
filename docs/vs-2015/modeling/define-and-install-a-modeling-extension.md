@@ -29,13 +29,13 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
 ## Creating a Modeling Extension Solution  
  To define a modeling extension, you must create a solution containing these projects:  
   
--   A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Integration Extension (VSIX) project. This generates a file that acts as an installer for the components of your extension.  
+- A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Integration Extension (VSIX) project. This generates a file that acts as an installer for the components of your extension.  
   
--   A class library project, required for components that include program code.  
+- A class library project, required for components that include program code.  
   
- If you want to make an extension that has several components, you can develop them in a single solution. You need only one VSIX project.  
+  If you want to make an extension that has several components, you can develop them in a single solution. You need only one VSIX project.  
   
- Components that do not require code, such as custom toolbox items and custom UML profiles, can be added directly to the VSIX project without using separate class library projects. Components that require program code are more easily defined in a separate class library project. Components that require code include gesture handlers, menu commands, and validation code.  
+  Components that do not require code, such as custom toolbox items and custom UML profiles, can be added directly to the VSIX project without using separate class library projects. Components that require program code are more easily defined in a separate class library project. Components that require code include gesture handlers, menu commands, and validation code.  
   
 #### To create a class library project for menu commands, gesture handlers, or validation  
   
@@ -127,15 +127,15 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 #### To uninstall an extension  
   
-1.  On the **Tools** menu, click **Extensions and Updates**.  
+1. On the **Tools** menu, click **Extensions and Updates**.  
   
-2.  Expand **Installed Extensions**.  
+2. Expand **Installed Extensions**.  
   
-3.  Select the extension, and then click **Uninstall**.  
+3. Select the extension, and then click **Uninstall**.  
   
- Rarely, a faulty extension fails to load and creates a report in the error window, but does not appear in Extension Manager. In that case, you can remove the extension by deleting the file from the following location where *%LocalAppData%* is typically *DriveName*:\Users\\*UserName*\AppData\Local:  
+   Rarely, a faulty extension fails to load and creates a report in the error window, but does not appear in Extension Manager. In that case, you can remove the extension by deleting the file from the following location where *%LocalAppData%* is typically *DriveName*:\Users\\*UserName*\AppData\Local:  
   
- *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
+   *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
   
 ## See Also  
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)   

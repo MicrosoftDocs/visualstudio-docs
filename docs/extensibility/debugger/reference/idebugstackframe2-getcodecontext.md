@@ -23,13 +23,13 @@ Gets the code context for this stack frame.
   
 ```cpp  
 HRESULT GetCodeContext (   
-   IDebugCodeContext2** ppCodeCxt  
+   IDebugCodeContext2** ppCodeCxt  
 );  
 ```  
   
 ```csharp  
 int GetCodeContext (   
-   out IDebugCodeContext2 ppCodeCxt  
+   out IDebugCodeContext2 ppCodeCxt  
 );  
 ```  
   

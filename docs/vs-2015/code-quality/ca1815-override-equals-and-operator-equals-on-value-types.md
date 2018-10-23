@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1815: Override equals and operator equals on value types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|OverrideEqualsAndOperatorEqualsOnValueTypes|

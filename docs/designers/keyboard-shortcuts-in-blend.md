@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Keyboard shortcuts in Blend
+
 ## Project shortcuts
 
 |To do this|Do this|

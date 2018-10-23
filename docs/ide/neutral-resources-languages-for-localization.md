@@ -27,7 +27,6 @@ The <xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies th
 ```vb
 ' Set neutral resources language for assembly.
 <Assembly: NeutralResourcesLanguageAttribute("en")>
-
 ```
 
 ```csharp

@@ -25,7 +25,7 @@ For reasons of security, you should run Visual Studio as a normal user whenever 
 You can do nearly everything in the Visual Studio IDE as a normal user. You need administrator permissions to complete the following tasks:
 
 |Area|Task|For more information|
-|----------|----------|--------------------------|
+|----------|----------| - |
 |Installation|Install Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md)|
 ||Install, update, or remove local Help content.|[Install and manage local Help content](../ide/install-and-manage-local-content.md)|
 |Toolbox|Add classic COM controls to **Toolbox**.|[Toolbox](../ide/reference/toolbox.md)|

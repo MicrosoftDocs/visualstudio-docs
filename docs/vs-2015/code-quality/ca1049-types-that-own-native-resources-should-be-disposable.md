@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1049: Types that own native resources should be disposable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|TypesThatOwnNativeResourcesShouldBeDisposable|

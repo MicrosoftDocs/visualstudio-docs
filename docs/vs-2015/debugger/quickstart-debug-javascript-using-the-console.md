@@ -35,27 +35,27 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  The JavaScript Console window allows you to:  
   
--   Send objects, values, and messages from your app to the console window.  
+- Send objects, values, and messages from your app to the console window.  
   
--   View and modify the values of local and global variables in the running app.  
+- View and modify the values of local and global variables in the running app.  
   
--   View object visualizers.  
+- View object visualizers.  
   
--   Run JavaScript code that executes within the current script context.  
+- Run JavaScript code that executes within the current script context.  
   
--   View JavaScript errors and exceptions, in addition to Document Object Model (DOM) and Windows Runtime exceptions.  
+- View JavaScript errors and exceptions, in addition to Document Object Model (DOM) and Windows Runtime exceptions.  
   
--   Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md) for the full list of commands.  
+- Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md) for the full list of commands.  
   
- In this topic:  
+  In this topic:  
   
--   [Debug by using the JavaScript Console window](#InteractiveConsole)  
+- [Debug by using the JavaScript Console window](#InteractiveConsole)  
   
--   [Interactive debugging and break mode](#InteractiveDebuggingBreakMode)  
+- [Interactive debugging and break mode](#InteractiveDebuggingBreakMode)  
   
--   [Single-line mode and multiline mode in the JavaScript Console window](#SinglelineMultilineMode)  
+- [Single-line mode and multiline mode in the JavaScript Console window](#SinglelineMultilineMode)  
   
--   [Switching the script execution context](#Switching)  
+- [Switching the script execution context](#Switching)  
   
 > [!TIP]
 >  If the JavaScript Console window is closed, choose **Debug**>**Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.  

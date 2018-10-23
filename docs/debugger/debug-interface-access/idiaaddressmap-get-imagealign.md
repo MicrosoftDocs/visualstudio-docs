@@ -22,7 +22,7 @@ Retrieves the current image alignment.
   
 ```C++  
 HRESULT get_imageAlign (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

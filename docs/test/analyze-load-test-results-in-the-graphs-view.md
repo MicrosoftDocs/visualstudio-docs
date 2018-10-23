@@ -33,7 +33,7 @@ Several built-in graphs are provided. You can use the built-in graphs as is or y
 The following table lists the built-in graphs that are available to analyze load test results.
 
 |Graph Name|Description|
-|----------------|-----------------|
+|-|-|
 |Key Indicators|Counters that describe basic aspects of test performance such as user load, throughput, and response time.|
 |Test Response Time|Data about the amount of time tests take to run.|
 |Page Response Time|The average response time for web pages that are accessed during the load test.|
@@ -57,7 +57,7 @@ The following table lists the built-in graphs that are available to analyze load
  The legend contains the following columns:
 
 |Counter|The name of the counter|
-|-------------|-----------------------------|
+|-|-|
 |Instance|The name of the counter instance.|
 |Category|The name of the counter category.|
 |Computer|The name of the computer to which the counter is collected.|
@@ -71,7 +71,7 @@ The following table lists the built-in graphs that are available to analyze load
 ## Tasks
 
 |Tasks|Associated topics|
-|-----------|-----------------------|
+|-|-|
 |**Customize the graphs by using the legend:** The Graphs view legend displays information for each performance counter that is associated with a graph. You can use the legend to remove performance counters, highlight performance counters in the graph, and customize the plotting options.|-   [Using the Graphs view legend to analyze load tests](../test/use-the-graphs-view-legend-to-analyze-load-tests.md)|
 |**Display counters on graphs:** You can add different kinds of data to a load test results graph by placing counters on the graph.|-   [How to: Add and delete counters on graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)|
 |**Zoom in on graphs:** After a load test has finished, you can use zoom bars to zoom in and scroll to a region of the graph. By zooming in, you can examine the data that was generated during a load test run in finer detail.|-   [How to: Zoom in on a region of the graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md)|

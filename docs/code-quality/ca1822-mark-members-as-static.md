@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1822: Mark members as static
+
 |||
 |-|-|
 |TypeName|MarkMembersAsStatic|

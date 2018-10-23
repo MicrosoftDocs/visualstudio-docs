@@ -22,7 +22,7 @@ Retrieves the number of injected sources.
   
 ```C++  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

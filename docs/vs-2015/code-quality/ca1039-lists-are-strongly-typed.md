@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1039: Lists are strongly typed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ListsAreStronglyTyped|

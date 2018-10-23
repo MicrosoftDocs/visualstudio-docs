@@ -17,13 +17,13 @@ ms.workload:
 # How to: Provide context for editors
 For an editor, the context is active only when the editor has focus or had focus immediately before the focus was moved to a tool window. You can provide context for an editor by doing the following tasks:  
   
-1.  Create a context bag.  
+1. Create a context bag.  
   
-2.  Publish the context bag to the selection element identifier (SEID).  
+2. Publish the context bag to the selection element identifier (SEID).  
   
-3.  Maintain the context in the bag.  
+3. Maintain the context in the bag.  
   
- These tasks are covered by the following procedures. For more information about providing context, see **Robust Programming** later in this article.  
+   These tasks are covered by the following procedures. For more information about providing context, see **Robust Programming** later in this article.  
   
 ## To create a context bag for an editor or a designer  
   

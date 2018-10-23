@@ -28,8 +28,8 @@ Retrieves a frame data element by means of an index.
   
 ```cpp#  
 HRESULT Item (   
-   DWORD           index,  
-   IDiaFrameData** section  
+   DWORD           index,  
+   IDiaFrameData** section  
 );  
 ```  
   

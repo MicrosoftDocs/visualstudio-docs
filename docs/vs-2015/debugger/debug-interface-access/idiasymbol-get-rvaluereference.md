@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether a pointer type is an rvalue reference. U
   
 ```cpp#  
 HRESULT get_RValueReference (  
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

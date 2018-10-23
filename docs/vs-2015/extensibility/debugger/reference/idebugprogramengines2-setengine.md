@@ -27,13 +27,13 @@ Tells the program or program node which debug engine (DE) to use to debug this p
   
 ```cpp#  
 HRESULT SetEngine(   
-   REFGUID guidEngine  
+   REFGUID guidEngine  
 );  
 ```  
   
 ```csharp  
 int SetEngine(   
-   ref Guid guidEngine  
+   ref Guid guidEngine  
 );  
 ```  
   

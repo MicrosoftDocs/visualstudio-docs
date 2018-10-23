@@ -26,11 +26,11 @@ In Source Control Plug-in API 1.2, the ~SAK files have been replaced by capabili
 ## ~SAK Files  
  Visual Studio .NET 2003 created temporary files prefixed with ~SAK. These files are used to determine if a source control plug-in supports:  
   
--   The MSSCCPRJ.SCC file.  
+- The MSSCCPRJ.SCC file.  
   
--   Multiple (shared) checkouts.  
+- Multiple (shared) checkouts.  
   
- For plug-ins that support advanced functions provided in the Source Control Plug-in API 1.2, the IDE can detect these capabilities without creating the temporary files through the use of new capabilities, flags, and functions, detailed in the following sections.  
+  For plug-ins that support advanced functions provided in the Source Control Plug-in API 1.2, the IDE can detect these capabilities without creating the temporary files through the use of new capabilities, flags, and functions, detailed in the following sections.  
   
 ## New Capability Flags  
  `SCC_CAP_SCCFILE`  

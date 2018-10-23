@@ -55,8 +55,8 @@ As these entries are not stored in the global registry, there are special instru
    %localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin
    ```
 
-  > [!NOTE]
-  > `<config>` corresponds to the instance of Visual Studio that you would like to browse.
+   > [!NOTE]
+   > `<config>` corresponds to the instance of Visual Studio that you would like to browse.
 
 You will be prompted to provide a hive name, which becomes the name of your isolated hive. After you do so, you should be able to browse the registry under the isolated hive that you created.
 

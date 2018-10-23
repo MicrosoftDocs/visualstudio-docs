@@ -28,58 +28,58 @@ ms.workload:
   
 ### To create a specific Finder method
   
-1.  On the **BDC Designer**, choose an entity.  
+1. On the **BDC Designer**, choose an entity.  
   
-     For information about how to add an entity to the **BDC Designer** in Visual Studio, see [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md).  
+    For information about how to add an entity to the **BDC Designer** in Visual Studio, see [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md).  
   
-2.  On the menu bar, choose **View** > **Other Windows**, **BDC Method Details**.  
+2. On the menu bar, choose **View** > **Other Windows**, **BDC Method Details**.  
   
-     The **BDC Method Details** window opens. For more information about that window, see [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md).  
+    The **BDC Method Details** window opens. For more information about that window, see [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md).  
   
-3.  In the **Add a Method** list, choose **Create Specific Finder Method**.  
+3. In the **Add a Method** list, choose **Create Specific Finder Method**.  
   
-     Visual Studio adds the following elements to the model. These elements appear in the **BDC Method Details** window.  
+    Visual Studio adds the following elements to the model. These elements appear in the **BDC Method Details** window.  
   
-    -   A method.  
+   - A method.  
   
-    -   An input parameter for the method.  
+   - An input parameter for the method.  
   
-    -   A return parameter for the method.  
+   - A return parameter for the method.  
   
-    -   A type descriptor for each parameter.  
+   - A type descriptor for each parameter.  
   
-    -   A method instance for the method.  
+   - A method instance for the method.  
   
      For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
-4.  Open the Visual Studio **Properties** window.  
+4. Open the Visual Studio **Properties** window.  
   
-5.  Configure the type descriptor of the return parameter as an entity type descriptor. For information about how to create an entity type descriptor, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).  
+5. Configure the type descriptor of the return parameter as an entity type descriptor. For information about how to create an entity type descriptor, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).  
   
-    > [!NOTE]  
-    >  You don't have to perform this step if you have added a Finder method to the entity. Visual Studio uses the type descriptor that you defined in the Finder method.  
+   > [!NOTE]  
+   >  You don't have to perform this step if you have added a Finder method to the entity. Visual Studio uses the type descriptor that you defined in the Finder method.  
   
-    > [!NOTE]  
-    >  If the identifier field of the entity type represents a field in a database table that's automatically generated, set the **Read-only** property of the identifier field to **True**.  
+   > [!NOTE]  
+   >  If the identifier field of the entity type represents a field in a database table that's automatically generated, set the **Read-only** property of the identifier field to **True**.  
   
-6.  In the **Method Details** window, choose the method instance of the method.  
+6. In the **Method Details** window, choose the method instance of the method.  
   
-7.  In the **Properties Window**, set the **Return Parameter Name** property to the name of the return parameter of the method. For more information about method instance properties, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).  
+7. In the **Properties Window**, set the **Return Parameter Name** property to the name of the return parameter of the method. For more information about method instance properties, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).  
   
-8.  In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.  
+8. In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.  
   
-     The entity service code file opens in the Code Editor. For more information about the entity service code file, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).  
+    The entity service code file opens in the Code Editor. For more information about the entity service code file, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).  
   
 9. Add code to the Specific Finder method. This code performs the following tasks:  
   
-    -   Retrieves a record from a data source.  
+   - Retrieves a record from a data source.  
   
-    -   Returns an entity to the BDC service.  
+   - Returns an entity to the BDC service.  
   
      The following example returns a contact from the AdventureWorks sample database for SQL Server.  
   
-    > [!NOTE]  
-    >  Replace the value of the `ServerName` field with the name of your server.  
+     > [!NOTE]  
+     >  Replace the value of the `ServerName` field with the name of your server.  
   
      [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
      [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]  

@@ -27,13 +27,13 @@ Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../includes/vbprvb-md.md)]) poi
   
 ```cpp#  
 HRESULT GetThis(   
-   IDebugClassField** ppClass  
+   IDebugClassField** ppClass  
 );  
 ```  
   
 ```csharp  
 int GetThis(  
-   out IDebugClassField ppClass  
+   out IDebugClassField ppClass  
 );  
 ```  
   

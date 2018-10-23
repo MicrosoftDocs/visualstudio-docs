@@ -70,7 +70,7 @@ To resolve this issue, use a `try`/`finally` block instead of the outer `using` 
 Stream stream = null;
 try
 {
-    stream = new FileStream("file.txt", FileMode.OpenOrCreate);
+    stream = new FileStream("file.txt", FileMode.OpenOrCreate);
     using (StreamWriter writer = new StreamWriter(stream))
     {
         stream = null;
@@ -79,8 +79,8 @@ try
 }
 finally
 {
-    if(stream != null)
-        stream.Dispose();
+    if(stream != null)
+        stream.Dispose();
 }
 ```
 

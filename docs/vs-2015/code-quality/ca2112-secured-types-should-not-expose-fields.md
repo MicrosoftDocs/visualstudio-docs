@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2112: Secured types should not expose fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|SecuredTypesShouldNotExposeFields|

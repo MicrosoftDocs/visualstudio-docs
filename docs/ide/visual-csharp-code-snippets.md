@@ -28,7 +28,7 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 By default the following code snippets are included in Visual Studio for C#.
 
 |Name (or shortcut)|Description|Valid locations to insert snippet|
-|--------------------------|-----------------|---------------------------------------|
+| - |-----------------| - |
 |#if|Creates a [#if](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) directive and a [#endif](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-endif) directive.|Anywhere.|
 |#region|Creates a [#region](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region) directive and a [#endregion](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-endregion) directive.|Anywhere.|
 |~|Creates a [finalizer](/dotnet/csharp/programming-guide/classes-and-structs/destructors) (destructor) for the containing class.|Inside a class.|

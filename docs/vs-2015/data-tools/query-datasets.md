@@ -69,13 +69,13 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
  The following code examples demonstrate how to navigate up and down relationships in typed datasets. The code examples use typed <xref:System.Data.DataRow>s (`NorthwindDataSet.OrdersRow`) and the generated `FindBy`*PrimaryKey* (`FindByCustomerID`) methods to locate a desired row and return the related records. The examples compile and run correctly only if you have:  
   
--   An instance of a dataset named `NorthwindDataSet` with a `Customers` table.  
+- An instance of a dataset named `NorthwindDataSet` with a `Customers` table.  
   
--   An `Orders` table.  
+- An `Orders` table.  
   
--   A relationship named `FK_Orders_Customers`relating the two tables available to the scope of your code  
+- A relationship named `FK_Orders_Customers`relating the two tables available to the scope of your code  
   
- Additionally, both tables need to be filled with data for any records to be returned.  
+  Additionally, both tables need to be filled with data for any records to be returned.  
   
 #### To return the child records of a selected parent record  
   

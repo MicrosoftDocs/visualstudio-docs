@@ -27,16 +27,16 @@ Used to determine if a program can stop execution after reaching a particular po
   
 ```cpp#  
 enum enum_CANSTOP_REASON {   
-   CANSTOP_ENTRYPOINT = 0x0000,  
-   CANSTOP_STEPIN     = 0x0001  
+   CANSTOP_ENTRYPOINT = 0x0000,  
+   CANSTOP_STEPIN     = 0x0001  
 };  
 typedef DWORD CANSTOP_REASON;  
 ```  
   
 ```csharp  
 public enum enum_CANSTOP_REASON {   
-   CANSTOP_ENTRYPOINT = 0x0000,  
-   CANSTOP_STEPIN     = 0x0001  
+   CANSTOP_ENTRYPOINT = 0x0000,  
+   CANSTOP_STEPIN     = 0x0001  
 };  
 ```  
   

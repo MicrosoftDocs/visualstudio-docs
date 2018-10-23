@@ -22,8 +22,8 @@ Retrieves a source file by source file identifier.
   
 ```C++  
 HRESULT findFileById (   
-   DWORD            uniqueId,  
-   IDiaSourceFile** ppResult  
+   DWORD            uniqueId,  
+   IDiaSourceFile** ppResult  
 );  
 ```  
   

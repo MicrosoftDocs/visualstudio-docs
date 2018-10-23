@@ -27,15 +27,15 @@ This method returns the exact type of a variable.
   
 ```cpp#  
 HRESULT ResolveDynamicType (  
-   IDebugDynamicField *pDynamic,  
-   IDebugField       **ppResolved  
+   IDebugDynamicField *pDynamic,  
+   IDebugField       **ppResolved  
 );  
 ```  
   
 ```csharp  
 int ResolveDynamicType(  
-   IDebugDynamicField pDynamic,   
-   out IDebugField    ppResolved  
+   IDebugDynamicField pDynamic,   
+   out IDebugField    ppResolved  
 );  
 ```  
   

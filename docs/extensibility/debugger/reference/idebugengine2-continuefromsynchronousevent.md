@@ -23,13 +23,13 @@ Called by the session debug manager (SDM) to indicate that a synchronous debug e
   
 ```cpp  
 HRESULT ContinueFromSynchronousEvent(   
-   IDebugEvent2* pEvent  
+   IDebugEvent2* pEvent  
 );  
 ```  
   
 ```csharp  
 HRESULT ContinueFromSynchronousEvent(   
-   IDebugEvent2 pEvent  
+   IDebugEvent2 pEvent  
 );  
 ```  
   

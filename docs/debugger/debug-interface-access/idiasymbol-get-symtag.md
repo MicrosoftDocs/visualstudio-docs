@@ -22,7 +22,7 @@ Retrieves the symbol type classifier.
   
 ```C++  
 HRESULT get_symTag (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

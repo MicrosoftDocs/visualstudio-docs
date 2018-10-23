@@ -20,11 +20,11 @@ Returns an enumeration of symbols for inline frames that correspond to the speci
   
 ```C++  
 HRESULT findAcceleratorInlineeLinesByName (   
-   IDiaSymbol*           parent,  
+   IDiaSymbol*           parent,  
    IDiaSourceFile*       file,  
    DWORD                 linenum,  
    DWORD                 colnum,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

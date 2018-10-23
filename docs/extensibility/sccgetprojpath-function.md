@@ -29,14 +29,14 @@ This function prompts the user for a project path, which is a string that is mea
   
 ```cpp  
 SCCRTN SccGetProjPath (  
-   LPVOID pvContext,  
-   HWND   hWnd,  
-   LPSTR  lpUser,  
-   LPSTR  lpProjName,  
-   LPSTR  lpLocalPath,  
-   LPSTR  lpAuxProjPath,  
-   BOOL   bAllowChangePath,  
-   LPBOOL pbNew  
+   LPVOID pvContext,  
+   HWND   hWnd,  
+   LPSTR  lpUser,  
+   LPSTR  lpProjName,  
+   LPSTR  lpLocalPath,  
+   LPSTR  lpAuxProjPath,  
+   BOOL   bAllowChangePath,  
+   LPBOOL pbNew  
 );  
 ```  
   

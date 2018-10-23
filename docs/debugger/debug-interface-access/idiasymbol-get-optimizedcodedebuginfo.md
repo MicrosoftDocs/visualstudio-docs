@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the function contains debug information 
   
 ```C++  
 HRESULT get_optimizedCodeDebugInfo(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

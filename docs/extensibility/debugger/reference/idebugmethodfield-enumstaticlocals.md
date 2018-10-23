@@ -23,13 +23,13 @@ Creates an enumerator for static local variables of the method.
   
 ```cpp  
 HRESULT EnumStaticLocals(   
-   IEnumDebugFields** ppLocals  
+   IEnumDebugFields** ppLocals  
 );  
 ```  
   
 ```csharp  
 int EnumStaticLocals(  
-   out IEnumDebugFields ppLocals  
+   out IEnumDebugFields ppLocals  
 );  
 ```  
   

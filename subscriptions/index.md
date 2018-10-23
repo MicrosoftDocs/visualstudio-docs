@@ -144,28 +144,28 @@ To make your subscription even more useful, we add and update the subscription b
 <ul class="cardsD cols cols3">
     <li>
         <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Developer Tools</h3>
-                        <p>You get access to the latest versions of Visual Studio, the full featured IDE for Android, iOS, Windows, macOS, web and cloud app development, and other cross-platform tooling on PC or Mac.</p>
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Developer Tools</h3>
+                        <p>You get access to the latest versions of Visual Studio, the full featured IDE for Android, iOS, Windows, macOS, web and cloud app development, and other cross-platform tooling on PC or Mac.</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
                             <li>Team Foundation Server and TFS CAL</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
         <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Cloud Services</h3>
-                        <p>With your Visual Studio subscription, you may receive a                         monthly Azure credit and free access to Azure services,                         discounted development and test rates, and exclusive                            access to a subscriber-only image gallery with                                  preconfigured virtual machines. Depending on your                               subscription, cloud services may include:</p>
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Cloud Services</h3>
+                        <p>With your Visual Studio subscription, you may receive a                         monthly Azure credit and free access to Azure services,                         discounted development and test rates, and exclusive                            access to a subscriber-only image gallery with                                  preconfigured virtual machines. Depending on your                               subscription, cloud services may include:</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-azure">Azure</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-visual-studio-app-center">Visual Studio App Center</a></li>
@@ -174,18 +174,18 @@ To make your subscription even more useful, we add and update the subscription b
                             <li><a href="/visualstudio/subscriptions/vs-pbi">Windows Developer Account</a></li>
                             <li>PowerBI Pro</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
         <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Training and Support</h3>
-                        <p>Visual Studio subscriptions include technical and                               professional training benefits through Microsoft and our                        partners. Training content includes the latest courses                          on technology topics and professional courseware for                            your continued career development. Get expert help to                           solve issues and answer questions. Your subscription may                        include:</p>
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Training and Support</h3>
+                        <p>Visual Studio subscriptions include technical and                               professional training benefits through Microsoft and our                        partners. Training content includes the latest courses                          on technology topics and professional courseware for                            your continued career development. Get expert help to                           solve issues and answer questions. Your subscription may                        include:</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-linkedin-learning">LinkedIn Premium</a> (business, tech, and creative)</li>
                             <li><a href="/visualstudio/subscriptions/vs-pluralsight">Pluralsight</a> (cloud, design, mobile and data)</li>
@@ -196,9 +196,9 @@ To make your subscription even more useful, we add and update the subscription b
                             <li><a href="/visualstudio/subscriptions/vs-azure-advisory-chat">Azure Advisory Chat</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-azure-community">Azure Community</a></li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
 </ul>

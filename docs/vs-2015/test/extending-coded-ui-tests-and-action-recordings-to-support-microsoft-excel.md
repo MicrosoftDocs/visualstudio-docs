@@ -21,25 +21,25 @@ The testing framework for coded UI tests and action recordings does not support 
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
- This section presents a coded UI test extension that can record and play back tests of Excel Worksheets. Each part of the extension is explained in this section and in the code comments for developers who want to create just such an extension.  
+  This section presents a coded UI test extension that can record and play back tests of Excel Worksheets. Each part of the extension is explained in this section and in the code comments for developers who want to create just such an extension.  
   
- ![UI Test Architecture](../test/media/ui-testarch.png "UI_TestArch")  
-Architecture Overview  
+  ![UI Test Architecture](../test/media/ui-testarch.png "UI_TestArch")  
+  Architecture Overview  
   
 ## Download the sample  
  The sample consists of four projects in the `CodedUIExtensibilitySample.sln` solution:  
   
--   CodedUIextensibilitySample  
+- CodedUIextensibilitySample  
   
--   ExcelCodedUIAddInHelper  
+- ExcelCodedUIAddInHelper  
   
--   ExcelUICommunicationHelper  
+- ExcelUICommunicationHelper  
   
--   SampleTestProject  
+- SampleTestProject  
   
- Get the sample from this [blog post](http://go.microsoft.com/fwlink/?LinkID=185592).  
+  Get the sample from this [blog post](http://go.microsoft.com/fwlink/?LinkID=185592).  
   
 > [!NOTE]
 >  The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.  

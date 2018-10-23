@@ -27,13 +27,13 @@ Retrieves a list of the modules that this program has loaded and is executing.
   
 ```cpp#  
 HRESULT EnumModules(   
-   IEnumDebugModules2** ppEnum  
+   IEnumDebugModules2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumModules(   
-   out IEnumDebugModules2 ppEnum  
+   out IEnumDebugModules2 ppEnum  
 );  
 ```  
   

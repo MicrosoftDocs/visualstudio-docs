@@ -28,7 +28,7 @@ Retrieves the number of line numbers.
   
 ```cpp#  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

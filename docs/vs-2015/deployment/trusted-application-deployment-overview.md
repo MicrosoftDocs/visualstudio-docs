@@ -51,11 +51,11 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../inclu
   
  In larger organizations, the publisher and deployer are frequently two separate entities:  
   
--   The publisher is the group that creates the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
+- The publisher is the group that creates the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
   
--   The deployer is the group, typically the information technology (IT) department, that distributes [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application to corporate enterprise desktop computers.  
+- The deployer is the group, typically the information technology (IT) department, that distributes [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application to corporate enterprise desktop computers.  
   
- You must follow these steps to take advantage of Trusted Application Deployment:  
+  You must follow these steps to take advantage of Trusted Application Deployment:  
   
 1.  Obtain a certificate for the publisher.  
   

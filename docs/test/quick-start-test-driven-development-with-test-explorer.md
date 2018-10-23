@@ -27,33 +27,33 @@ We recommend that you create unit tests to help keep your code working correctly
 
 ### To run unit tests by using Test Explorer
 
-1.  Create unit tests that use the test frameworks of your choice.
+1. Create unit tests that use the test frameworks of your choice.
 
-     For example, to create a test that uses the MSTest Framework:
+    For example, to create a test that uses the MSTest Framework:
 
-    1.  Create a test project.
+   1.  Create a test project.
 
-         In the **New Project** dialog box, expand **Visual Basic** or **Visual C#** or **Visual C++**, and then choose **Test**.
+        In the **New Project** dialog box, expand **Visual Basic** or **Visual C#** or **Visual C++**, and then choose **Test**.
 
-         Select **Unit Test Project**.
+        Select **Unit Test Project**.
 
-    2.  Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.
+   2.  Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.
 
-2.  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+2. If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
-3.  On the menu bar, choose **Test** > **Run Unit Tests** > **All Tests**.
+3. On the menu bar, choose **Test** > **Run Unit Tests** > **All Tests**.
 
-     The solution builds and the tests run.
+    The solution builds and the tests run.
 
-     Test Explorer opens and displays a summary of the results.
+    Test Explorer opens and displays a summary of the results.
 
- **To see a full list of tests:** Choose **Show All** in any category.
+   **To see a full list of tests:** Choose **Show All** in any category.
 
- **To see the details of a test result:** Select the test in Test Explorer to view details such as exception messages in the details pane.
+   **To see the details of a test result:** Select the test in Test Explorer to view details such as exception messages in the details pane.
 
- **To navigate to the code of a test:** Double-click the test in Test Explorer, or choose **Open Test** on the shortcut menu.
+   **To navigate to the code of a test:** Double-click the test in Test Explorer, or choose **Open Test** on the shortcut menu.
 
- **To debug a test:** Open the shortcut menu for one or more tests, and then choose **Debug Selected Tests**.
+   **To debug a test:** Open the shortcut menu for one or more tests, and then choose **Debug Selected Tests**.
 
 > [!IMPORTANT]
 > The results that are displayed are for the most recent run. The colored results bar shows only the results for the tests that ran. For example, if you run several tests and some of them fail, and then run only the successful tests, then the results bar will show all green.
@@ -68,61 +68,61 @@ We recommend that you create unit tests to help keep your code working correctly
 
 ### Create the test and method
 
-1.  Create a Visual C# Class Library project. This project will contain the code that we want to deliver. In this example, it is named `MyMath`.
+1. Create a Visual C# Class Library project. This project will contain the code that we want to deliver. In this example, it is named `MyMath`.
 
-2.  Create a Test project.
+2. Create a Test project.
 
-    -   In the **New Project** dialog, choose **Visual C#** > **Test** and then choose **Unit Test Project**.
+   -   In the **New Project** dialog, choose **Visual C#** > **Test** and then choose **Unit Test Project**.
 
-         ![New code and test projects](../test/media/unittestexplorerwalk1.png)
+        ![New code and test projects](../test/media/unittestexplorerwalk1.png)
 
-3.  Write a basic test method. Verify the result obtained for a specific input:
+3. Write a basic test method. Verify the result obtained for a specific input:
 
-    ```csharp
+   ```csharp
 
-    [TestMethod]
-    public void BasicRooterTest()
-    {
-      // Create an instance to test:
-      Rooter rooter = new Rooter();
-      // Define a test input and output value:
-      double expectedResult = 2.0;
-      double input = expectedResult * expectedResult;
-      // Run the method under test:
-      double actualResult = rooter.SquareRoot(input);
-      // Verify the result:
-      Assert.AreEqual(expectedResult, actualResult,
-          delta: expectedResult / 100);
-    }
-    ```
+   [TestMethod]
+   public void BasicRooterTest()
+   {
+     // Create an instance to test:
+     Rooter rooter = new Rooter();
+     // Define a test input and output value:
+     double expectedResult = 2.0;
+     double input = expectedResult * expectedResult;
+     // Run the method under test:
+     double actualResult = rooter.SquareRoot(input);
+     // Verify the result:
+     Assert.AreEqual(expectedResult, actualResult,
+         delta: expectedResult / 100);
+   }
+   ```
 
-4.  Generate the method from the test.
+4. Generate the method from the test.
 
-    1.  Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate** > **New Type**.
+   1.  Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate** > **New Type**.
 
-    2.  In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.
+   2.  In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.
 
-    3.  Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate** > **Method Stub**.
+   3.  Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate** > **Method Stub**.
 
-5.  Run the unit test.
+5. Run the unit test.
 
-    1.  On the **Test** menu, choose **Run Unit Tests** > **All Tests**.
+   1.  On the **Test** menu, choose **Run Unit Tests** > **All Tests**.
 
-         The solution builds and runs.
+        The solution builds and runs.
 
-         Test Explorer opens and displays the results.
+        Test Explorer opens and displays the results.
 
-         The test appears under **Failed Tests**.
+        The test appears under **Failed Tests**.
 
-6.  Select the name of the test.
+6. Select the name of the test.
 
-     The details of the test appear in the lower part of Test Explorer.
+    The details of the test appear in the lower part of Test Explorer.
 
-7.  Select the items under **Stack Trace** to see where the test failed.
+7. Select the items under **Stack Trace** to see where the test failed.
 
- ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png)
+   ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png)
 
- At this point, you have created a test and a stub that you will modify so that the test passes.
+   At this point, you have created a test and a stub that you will modify so that the test passes.
 
 #### After every change, make all the tests pass
 

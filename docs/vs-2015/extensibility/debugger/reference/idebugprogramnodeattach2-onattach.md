@@ -27,13 +27,13 @@ Attaches to the associated program or defers the attach process to the [Attach](
   
 ```cpp#  
 HRESULT OnAttach(  
-   [in] REFGUID guidProgramId  
+   [in] REFGUID guidProgramId  
 );  
 ```  
   
 ```csharp  
 int OnAttach(  
-   ref Guid guidProgramId  
+   ref Guid guidProgramId  
 };  
 ```  
   

@@ -31,15 +31,15 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 ## Publish Wizard  
  You can use the Publish Wizard to set the basic settings for publishing your application. This includes the following publishing properties:  
   
--   Publishing Folder Location - where Visual Studio will copy the files (local computer, network file share, FTP server, or Web site)  
+- Publishing Folder Location - where Visual Studio will copy the files (local computer, network file share, FTP server, or Web site)  
   
--   Installation Folder Location - where end users will install from (network file share, FTP server, Web site, CD/DVD)  
+- Installation Folder Location - where end users will install from (network file share, FTP server, Web site, CD/DVD)  
   
--   Online or Offline availability - if end users can access the application with or without a network connection  
+- Online or Offline availability - if end users can access the application with or without a network connection  
   
--   Update frequency - how often the application checks for new updates.  
+- Update frequency - how often the application checks for new updates.  
   
- For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
+  For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
 ## Publish Page  
  The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment. The following table lists topics.  

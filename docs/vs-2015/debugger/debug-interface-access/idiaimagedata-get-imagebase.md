@@ -28,7 +28,7 @@ Retrieves the memory location where the image should be based.
   
 ```cpp#  
 HRESULT get_imageBase (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

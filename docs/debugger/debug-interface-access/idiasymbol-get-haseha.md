@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function contains asynchronous (stru
   
 ```C++  
 HRESULT get_hasEHa(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

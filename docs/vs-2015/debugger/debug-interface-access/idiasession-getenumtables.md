@@ -28,7 +28,7 @@ Retrieves an enumerator for all tables contained in the symbol store.
   
 ```cpp#  
 HRESULT getEnumTables (   
-   IDiaEnumTables** ppEnumTables  
+   IDiaEnumTables** ppEnumTables  
 );  
 ```  
   

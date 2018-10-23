@@ -23,7 +23,7 @@ Indicates that the entire document has been destroyed.
   
 ```cpp  
 HRESULT onDestroy(   
-   void   
+   void   
 );  
 ```  
   

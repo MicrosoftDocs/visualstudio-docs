@@ -53,19 +53,19 @@ ms.workload:
 ## Project items in Solution Explorer  
  In a document-level project, **Solution Explorer** displays the following default items:  
   
--   Nodes for the document, workbook, and sheets that are customized by the project. These nodes serve as containers for the code files that are associated with the document, workbook, and sheets.  
+- Nodes for the document, workbook, and sheets that are customized by the project. These nodes serve as containers for the code files that are associated with the document, workbook, and sheets.  
   
--   Code files that are associated with the document, workbook, and sheets that are customized by the project. In Word projects, code files are associated with the Word document or template. In Excel projects, code files are associated with the Excel workbook or template, and with each worksheet and chart sheet in the workbook or template.  
+- Code files that are associated with the document, workbook, and sheets that are customized by the project. In Word projects, code files are associated with the Word document or template. In Excel projects, code files are associated with the Excel workbook or template, and with each worksheet and chart sheet in the workbook or template.  
   
--   Hidden project files that you are not intended to edit directly. For more information, see [Hidden project files](#hiddenfiles).  
+- Hidden project files that you are not intended to edit directly. For more information, see [Hidden project files](#hiddenfiles).  
   
- In a VSTO Add-in project, **Solution Explorer** displays the following default items:  
+  In a VSTO Add-in project, **Solution Explorer** displays the following default items:  
   
--   The application node. This node has the same name as the host application, such as **Word**, **Excel**, or **Outlook**. The application node contains the ThisAddIn code file. It also provides the **Namespace for Host Item** property. For more information about this property, see [Properties in Office projects](../vsto/properties-in-office-projects.md).  
+- The application node. This node has the same name as the host application, such as **Word**, **Excel**, or **Outlook**. The application node contains the ThisAddIn code file. It also provides the **Namespace for Host Item** property. For more information about this property, see [Properties in Office projects](../vsto/properties-in-office-projects.md).  
   
--   The ThisAddIn code file. This file contains the generated `ThisAddIn` class for your VSTO Add-in. For more information about this class, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
+- The ThisAddIn code file. This file contains the generated `ThisAddIn` class for your VSTO Add-in. For more information about this class, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
   
--   Hidden project files that you are not intended to edit directly. For more information, see [Hidden project files](#hiddenfiles).  
+- Hidden project files that you are not intended to edit directly. For more information, see [Hidden project files](#hiddenfiles).  
   
 ### Temporary Certificates  
  Office projects also include a temporary certificate named *Project Name*_TemporaryKey.pfx. This certificate is used to sign the application and deployment manifests for the project during development. For more information, see [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md) and [Secure Office solutions](../vsto/securing-office-solutions.md).  

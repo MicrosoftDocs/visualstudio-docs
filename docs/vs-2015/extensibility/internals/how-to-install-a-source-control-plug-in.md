@@ -92,16 +92,16 @@ Creating a source-control plug-in involves three steps:
 ## How an IDE Locates the DLL  
  The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE has two ways of finding the source control plug-in DLL:  
   
--   Find the default source control plug-in and connect to it silently.  
+- Find the default source control plug-in and connect to it silently.  
   
--   Find all registered source control plug-ins, from which the user chooses one.  
+- Find all registered source control plug-ins, from which the user chooses one.  
   
- To locate the DLL in the first way, the IDE looks under the HKEY_LOCAL_MACHINE\Software\SourceCodeControlProvider subkey for the entry ProviderRegKey. The value of this entry points to another subkey. The IDE then looks for an entry named SccServerPath in that second subkey under HKEY_LOCAL_MACHINE. The value of this entry points the IDE to the DLL.  
+  To locate the DLL in the first way, the IDE looks under the HKEY_LOCAL_MACHINE\Software\SourceCodeControlProvider subkey for the entry ProviderRegKey. The value of this entry points to another subkey. The IDE then looks for an entry named SccServerPath in that second subkey under HKEY_LOCAL_MACHINE. The value of this entry points the IDE to the DLL.  
   
 > [!NOTE]
 >  The IDE does not load DLLs from relative paths (for example, .\NewProvider.DLL). A full path to the DLL must be specified (for example, c:\Providers\NewProvider.DLL). This strengthens the security of the IDE by preventing the loading of unauthorized or impersonated plug-in DLLs.  
   
- To locate the DLL in the second way, the IDE looks under the HKEY_LOCAL_MACHINE\Software\SourceCodeControlProvider\InstalledSCCProviders subkey for all entries*.* Each entry has a name and a value. The IDE displays a list of these names to the user*.* When the user chooses a name, the IDE finds the value for the selected name that points to a subkey. The IDE looks for an entry named SccServerPath in that subkey under HKEY_LOCAL_MACHINE. The value of that entry points the IDE to the correct DLL.  
+ To locate the DLL in the second way, the IDE looks under the HKEY_LOCAL_MACHINE\Software\SourceCodeControlProvider\InstalledSCCProviders subkey for all entries<em>.</em> Each entry has a name and a value. The IDE displays a list of these names to the user<em>.</em> When the user chooses a name, the IDE finds the value for the selected name that points to a subkey. The IDE looks for an entry named SccServerPath in that subkey under HKEY_LOCAL_MACHINE. The value of that entry points the IDE to the correct DLL.  
   
  A source control plug-in needs to support both ways of finding the DLL and, consequently, set ProviderRegKey, overwriting any previous setting. More importantly, it must add itself to the list of InstalledSccProviders so the user can have a choice of which source control plug-in to use.  
   

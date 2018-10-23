@@ -28,7 +28,7 @@ Retrieves the number of bytes of code.
   
 ```cpp#  
 HRESULT get_length (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

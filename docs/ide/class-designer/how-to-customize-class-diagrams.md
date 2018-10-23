@@ -102,7 +102,7 @@ The sections that contain type members, such as the **Properties** section in a 
 
 2. Right-click the type with the hidden association or inheritance.
 
- Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.
+   Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.
 
 ## Remove a shape from a class diagram
 You can remove a type shape from the class diagram without affecting the type's underlying code. Removing type shapes from a class diagram affects only that diagram: the underlying code that defines the type and other diagrams that display the type are not affected.

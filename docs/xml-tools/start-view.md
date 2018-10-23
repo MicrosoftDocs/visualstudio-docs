@@ -36,7 +36,7 @@ You can navigate between the Start View, the [Content Model View](../xml-tools/c
 The following buttons are enabled in the XSD Designer toolbar when the Start View is active:
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Show Start View**|Switches to the Start View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**1**.|
 |**Show Content Model View**|Switches to the Content Model View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**2**.|
 |**Show Graph View**|Switches to the Graph View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**3**.|

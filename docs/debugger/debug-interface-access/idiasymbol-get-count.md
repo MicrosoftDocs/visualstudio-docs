@@ -22,7 +22,7 @@ Retrieves the number of items in a list or array.
   
 ```C++  
 HRESULT get_count (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

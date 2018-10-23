@@ -28,7 +28,7 @@ Retrieves the base address of the frame.
   
 ```cpp#  
 HRESULT get_base (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

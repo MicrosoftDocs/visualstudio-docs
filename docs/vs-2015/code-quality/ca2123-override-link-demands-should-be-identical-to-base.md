@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2123: Override link demands should be identical to base
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|OverrideLinkDemandsShouldBeIdenticalToBase|

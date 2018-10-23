@@ -51,59 +51,59 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
 #### To suppress specific warnings for Visual Basic  
   
-1.  In **Solution Explorer**, choose the project in which you want to suppress warnings.  
+1. In **Solution Explorer**, choose the project in which you want to suppress warnings.  
   
-2.  On the menu bar, choose **Project**, **Unload Project**.  
+2. On the menu bar, choose **Project**, **Unload Project**.  
   
-3.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Edit**_ProjectName_**.vbproj**.  
+3. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Edit**_ProjectName_**.vbproj**.  
   
-     The project file is opened in the code editor.  
+    The project file is opened in the code editor.  
   
-4.  Locate the `<NoWarn></NoWarn>` element in the build configuration with which you’re building.  
+4. Locate the `<NoWarn></NoWarn>` element in the build configuration with which you’re building.  
   
-     The following example shows the `<NoWarn></NoWarn>` element in bold text for the Debug build configuration on an x86 platform:  
+    The following example shows the `<NoWarn></NoWarn>` element in bold text for the Debug build configuration on an x86 platform:  
   
-    ```  
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">  
-        <PlatformTarget>x86</PlatformTarget>  
-        <DebugSymbols>true</DebugSymbols>  
-        <DebugType>full</DebugType>  
-        <Optimize>false</Optimize>  
-        <OutputPath>bin\Debug\</OutputPath>  
-        <DefineDebug>true</DefineDebug>  
-        <DefineTrace>true</DefineTrace>  
-        <ErrorReport>prompt</ErrorReport>  
-        <NoWarn></NoWarn>  
-        <WarningLevel>1</WarningLevel>  
-      </PropertyGroup>  
-    ```  
+   ```  
+   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">  
+       <PlatformTarget>x86</PlatformTarget>  
+       <DebugSymbols>true</DebugSymbols>  
+       <DebugType>full</DebugType>  
+       <Optimize>false</Optimize>  
+       <OutputPath>bin\Debug\</OutputPath>  
+       <DefineDebug>true</DefineDebug>  
+       <DefineTrace>true</DefineTrace>  
+       <ErrorReport>prompt</ErrorReport>  
+       <NoWarn></NoWarn>  
+       <WarningLevel>1</WarningLevel>  
+     </PropertyGroup>  
+   ```  
   
-5.  Add one or more warning numbers as the value of the `<NoWarn>` element. If you specify multiple warning numbers, separate them with a comma, as the following example shows.  
+5. Add one or more warning numbers as the value of the `<NoWarn>` element. If you specify multiple warning numbers, separate them with a comma, as the following example shows.  
   
-    ```  
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">  
-        <PlatformTarget>x86</PlatformTarget>  
-        <DebugSymbols>true</DebugSymbols>  
-        <DebugType>full</DebugType>  
-        <Optimize>false</Optimize>  
-        <OutputPath>bin\Debug\</OutputPath>  
-        <DefineDebug>true</DefineDebug>  
-        <DefineTrace>true</DefineTrace>  
-        <ErrorReport>prompt</ErrorReport>  
-        <NoWarn>40059,42024</NoWarn>  
-        <WarningLevel>1</WarningLevel>  
-      </PropertyGroup>  
-    ```  
+   ```  
+   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">  
+       <PlatformTarget>x86</PlatformTarget>  
+       <DebugSymbols>true</DebugSymbols>  
+       <DebugType>full</DebugType>  
+       <Optimize>false</Optimize>  
+       <OutputPath>bin\Debug\</OutputPath>  
+       <DefineDebug>true</DefineDebug>  
+       <DefineTrace>true</DefineTrace>  
+       <ErrorReport>prompt</ErrorReport>  
+       <NoWarn>40059,42024</NoWarn>  
+       <WarningLevel>1</WarningLevel>  
+     </PropertyGroup>  
+   ```  
   
-6.  Save the changes to the .vbproj file.  
+6. Save the changes to the .vbproj file.  
   
-7.  On the menu bar, choose **Project**, **Reload Project**.  
+7. On the menu bar, choose **Project**, **Reload Project**.  
   
-8.  On the menu bar, choose **Build**, **Rebuild Solution**.  
+8. On the menu bar, choose **Build**, **Rebuild Solution**.  
   
-     The **Output** window no longer shows the warnings that you specified.  
+    The **Output** window no longer shows the warnings that you specified.  
   
- For more information, see [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).  
+   For more information, see [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).  
   
 ## See Also  
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   

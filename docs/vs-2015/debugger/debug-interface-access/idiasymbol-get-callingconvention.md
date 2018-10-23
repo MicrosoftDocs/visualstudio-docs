@@ -28,7 +28,7 @@ Returns an indicator of a methods calling convention.
   
 ```cpp#  
 HRESULT get_callingConvention (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

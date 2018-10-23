@@ -57,13 +57,13 @@ Groups [Button](../extensibility/button-element.md) elements, which represent in
   
 ```  
 <Buttons>  
-  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
-    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
-    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
-    <Strings>  
-      <ButtonText>C# Command Sample</ButtonText>  
-    </Strings>  
-  </Button>  
+  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
+    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
+    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
+    <Strings>  
+      <ButtonText>C# Command Sample</ButtonText>  
+    </Strings>  
+  </Button>  
 </Buttons>  
 ```  
   

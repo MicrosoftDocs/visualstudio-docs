@@ -59,11 +59,11 @@ ms.workload:
 
  However, there are some accessibility limitations at runtime when Windows Forms controls are hosted on an Excel workbook or Word document:  
 
--   You cannot tab from one control to another.  
+- You cannot tab from one control to another.  
 
--   Controls on a document are disabled when you change the zoom setting of the document to anything other than 100%.  
+- Controls on a document are disabled when you change the zoom setting of the document to anything other than 100%.  
 
- For information about limitations of Windows Forms controls on documents, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).  
+  For information about limitations of Windows Forms controls on documents, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).  
 
 ### Actions panes and custom task panes  
  When an actions pane or custom task pane has focus, you access controls the same way you would access controls on a Windows Forms application. To move your cursor between the actions pane and the document, you can press **F6**.  
@@ -73,11 +73,11 @@ ms.workload:
 ### Display modes  
  Visual Studio has the following limitations related to display modes:  
 
--   Controls on a Word document or Excel worksheet are disabled when you change the zoom setting of the document to anything other than 100%.  
+- Controls on a Word document or Excel worksheet are disabled when you change the zoom setting of the document to anything other than 100%.  
 
--   The **New Project** dialog box does not display controls correctly if a user changes the computer's accessibility options to **Use High Contrast**.  
+- The **New Project** dialog box does not display controls correctly if a user changes the computer's accessibility options to **Use High Contrast**.  
 
- You can use Magnifier to overcome these limitations. Magnifier is a display utility in Windows that creates a separate window that displays a magnified portion of the screen.  
+  You can use Magnifier to overcome these limitations. Magnifier is a display utility in Windows that creates a separate window that displays a magnified portion of the screen.  
 
 ## See also  
  [Develop Office solutions](../vsto/developing-office-solutions.md)   

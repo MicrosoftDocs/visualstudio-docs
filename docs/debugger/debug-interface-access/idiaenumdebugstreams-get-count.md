@@ -22,7 +22,7 @@ Retrieves the number of debug streams.
   
 ```C++  
 HRESULT get_Count(   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

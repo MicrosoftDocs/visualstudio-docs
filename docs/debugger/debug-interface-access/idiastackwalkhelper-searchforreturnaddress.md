@@ -22,8 +22,8 @@ Searches the specified stack frame for the nearest function return address.
   
 ```C++  
 HRESULT searchForReturnAddress(   
-   IDiaFrameData*  frame,  
-   ULONGLONG*      returnAddress  
+   IDiaFrameData*  frame,  
+   ULONGLONG*      returnAddress  
 );  
 ```  
   

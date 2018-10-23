@@ -28,7 +28,7 @@ Retrieves the symbol interface of the array index type of the symbol.
   
 ```cpp#  
 HRESULT get_arrayIndexType (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

@@ -23,15 +23,15 @@ Compares an object with this object.
   
 ```cpp  
 HRESULT IsEqual(   
-   IDebugObject* pObject,  
-   BOOL*         pfIsEqual  
+   IDebugObject* pObject,  
+   BOOL*         pfIsEqual  
 );  
 ```  
   
 ```csharp  
 int IsEqual(  
-   IDebugObject pObject,  
-   out int      pfIsEqual  
+   IDebugObject pObject,  
+   out int      pfIsEqual  
 );  
 ```  
   

@@ -28,8 +28,8 @@ Retrieves a debug stream by means of an index or name.
   
 ```cpp#  
 HRESULT Item (   
-   VARIANT                   index,  
-   IDiaEnumDebugStreamData** stream  
+   VARIANT                   index,  
+   IDiaEnumDebugStreamData** stream  
 );  
 ```  
   

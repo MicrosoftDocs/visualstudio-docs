@@ -28,7 +28,7 @@ Retrieves the file name for the source.
   
 ```cpp#  
 HRESULT get_filename (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

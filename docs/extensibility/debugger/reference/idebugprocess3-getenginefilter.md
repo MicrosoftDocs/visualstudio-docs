@@ -22,13 +22,13 @@ Retrieves an array of unique identifiers for available debug engines.
   
 ```cpp  
 HRESULT GetEngineFilter(  
-   GUID_ARRAY *pEngineArray  
+   GUID_ARRAY *pEngineArray  
 );  
 ```  
   
 ```csharp  
 public int GetEngineFilter(  
-   out GUID_ARRAY[] pEngineArray  
+   out GUID_ARRAY[] pEngineArray  
 );  
 ```  
   

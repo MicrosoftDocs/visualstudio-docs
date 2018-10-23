@@ -35,11 +35,11 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
 ## Prerequisites  
  To profile on a HPC compute node, you must do the following:  
   
--   Install Microsoft HPC Pack 2008 on the same computer as [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]. The computer does not have to be part of the HPC cluster. You can install the HPC Pack at the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=177414).  
+- Install Microsoft HPC Pack 2008 on the same computer as [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]. The computer does not have to be part of the HPC cluster. You can install the HPC Pack at the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=177414).  
   
--   Install the [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] and the stand alone profiler are available on the [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] installation media. **Note** You must restart the compute after you have installed [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] and before you install the Profiling Tools.  
+- Install the [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] and the stand alone profiler are available on the [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] installation media. **Note** You must restart the compute after you have installed [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] and before you install the Profiling Tools.  
   
- To install the [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:  
+  To install the [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:  
   
 1.  Open the command prompt window that is installed with the HPC pack.  
   

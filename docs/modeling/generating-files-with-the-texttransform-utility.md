@@ -45,11 +45,11 @@ TextTransform [<options>] <templateName>
 ### Parameters
 
 |**Argument**|**Description**|
-|------------------|---------------------|
+|-|-|
 |`templateName`|Identifies the name of the template file that you want to transform.|
 
 |**Option**|**Description**|
-|----------------|---------------------|
+|-|-|
 |**-out** \<filename>|The file to which the output of the transform is written.|
 |**-r** \<assembly>|An assembly used for compiling and running the text template.|
 |**-u** \<namespace>|A namespace that is used for compiling the template.|
@@ -62,7 +62,7 @@ TextTransform [<options>] <templateName>
 ## Related topics
 
 |Task|Topic|
-|----------|-----------|
+|-|-|
 |Generate files in a Visual Studio solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|
 |Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
 |Write a text templating host that allows you to invoke text templates from your own application.|[Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md)|

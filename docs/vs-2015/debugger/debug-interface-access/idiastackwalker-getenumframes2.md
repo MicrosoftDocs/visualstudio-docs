@@ -29,9 +29,9 @@ Retrieves a stack frame enumerator for a specific platform type.
 ```cpp#  
   
       HRESULT getEnumFrames2(   
-   enum  CV_CPU_TYPE_e    cpuid,  
-   IDiaStackWalkHelper*   pHelper,  
-   IDiaEnumStackFrames**  ppEnum  
+   enum  CV_CPU_TYPE_e    cpuid,  
+   IDiaStackWalkHelper*   pHelper,  
+   IDiaEnumStackFrames**  ppEnum  
 );  
 ```  
   

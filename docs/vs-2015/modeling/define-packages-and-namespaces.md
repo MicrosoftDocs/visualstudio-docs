@@ -72,20 +72,20 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
   
 #### To create a package in UML Model Explorer  
   
-1.  Open **UML Model Explorer**. On the **Architecture** menu, point to **Windows**, and then click the **UML Model Explorer**.  
+1. Open **UML Model Explorer**. On the **Architecture** menu, point to **Windows**, and then click the **UML Model Explorer**.  
   
-2.  Right-click a package or a model to which you want to add a new package.  
+2. Right-click a package or a model to which you want to add a new package.  
   
-    > [!NOTE]
-    >  You can nest a package inside another package.  
+   > [!NOTE]
+   >  You can nest a package inside another package.  
   
-3.  Point to **Add** and then click **Package**.  
+3. Point to **Add** and then click **Package**.  
   
-     A new package appears in the model.  
+    A new package appears in the model.  
   
-4.  Type a new name for the package.  
+4. Type a new name for the package.  
   
- If you have created a package in UML Model Explorer, you can display it on a UML class diagram. You can also display a package on more than one UML class diagram.  
+   If you have created a package in UML Model Explorer, you can display it on a UML class diagram. You can also display a package on more than one UML class diagram.  
   
 #### To show an existing package on a UML Class Diagram  
   
@@ -97,15 +97,15 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
 ##  <a name="Elements"></a> Creating Model Elements inside Packages  
  There are four ways in which you can place model elements inside a package:  
   
--   Add a new element to a package in UML Model Explorer.  
+- Add a new element to a package in UML Model Explorer.  
   
--   Add classes and other types to packages in a UML class diagram.  
+- Add classes and other types to packages in a UML class diagram.  
   
--   Set the **LinkedPackage** property of a diagram so that new elements created on the diagram are placed inside the package you specify. Class diagrams, component diagrams, and use-case diagrams can be linked to a package in this manner.  
+- Set the **LinkedPackage** property of a diagram so that new elements created on the diagram are placed inside the package you specify. Class diagrams, component diagrams, and use-case diagrams can be linked to a package in this manner.  
   
--   Move elements into or out of a package in UML Model Explorer.  
+- Move elements into or out of a package in UML Model Explorer.  
   
- An element in a package appears underneath the package in UML Model Explorer, and its qualified name begins with the qualified name of the package. To see the qualified name of any element, right-click the element and then click **Properties**. The **Qualified Name** property appears in the **Properties** window.  
+  An element in a package appears underneath the package in UML Model Explorer, and its qualified name begins with the qualified name of the package. To see the qualified name of any element, right-click the element and then click **Properties**. The **Qualified Name** property appears in the **Properties** window.  
   
 #### To create an element in a package in UML Model Explorer  
   

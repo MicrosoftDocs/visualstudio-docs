@@ -23,13 +23,13 @@ Gets the number of elements in the array.
   
 ```cpp  
 HRESULT GetNumberOfElements(   
-   DWORD* pdwNumElements  
+   DWORD* pdwNumElements  
 );  
 ```  
   
 ```csharp  
 int GetNumberOfElements(  
-   out uint pdwNumElements  
+   out uint pdwNumElements  
 );  
 ```  
   

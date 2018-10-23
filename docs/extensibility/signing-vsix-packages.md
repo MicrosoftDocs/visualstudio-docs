@@ -31,17 +31,17 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
   
 #### To use the VSIXSignTool  
   
-1.  Add your VSIX to a project.  
+1. Add your VSIX to a project.  
   
-2.  Right click on the project node in Solution Explorer, selecting **Add &#124; Manage NuGet Packages**.  For more information on NuGet and adding NuGet packages see the [NuGet documentation](/NuGet) and [Package Manager UI](/NuGet/Tools/Package-Manager-UI) topics.  
+2. Right click on the project node in Solution Explorer, selecting **Add &#124; Manage NuGet Packages**.  For more information on NuGet and adding NuGet packages see the [NuGet documentation](/NuGet) and [Package Manager UI](/NuGet/Tools/Package-Manager-UI) topics.  
   
-3.  Search for VSIXSignTool from VisualStudioExtensibility and install the NuGet package.  
+3. Search for VSIXSignTool from VisualStudioExtensibility and install the NuGet package.  
   
-4.  You can now run the VSIXSignTool from the project's local packages location. Consult the tool's command line help for your signing scenario (VSIXSignTool.exe /?).  
+4. You can now run the VSIXSignTool from the project's local packages location. Consult the tool's command line help for your signing scenario (VSIXSignTool.exe /?).  
   
- For example to sign with a password protected certificate file:  
+   For example to sign with a password protected certificate file:  
   
- VSIXSignTool.exe sign /f \<certfile> /p \<password> \<VSIXfile>  
+   VSIXSignTool.exe sign /f \<certfile> /p \<password> \<VSIXfile>  
   
 ## See Also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)

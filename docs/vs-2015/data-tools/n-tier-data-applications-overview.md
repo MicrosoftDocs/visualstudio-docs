@@ -42,31 +42,31 @@ N-tier* data applications are data applications that are separated into multiple
 ## Presentation Tier  
  The *presentation tier* is the tier in which users interact with an application. It often contains additional application logic also. Typical presentation tier components include the following:  
   
--   Data binding components, such as the <xref:System.Windows.Forms.BindingSource> and <xref:System.Windows.Forms.BindingNavigator>.  
+- Data binding components, such as the <xref:System.Windows.Forms.BindingSource> and <xref:System.Windows.Forms.BindingNavigator>.  
   
--   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes for use in the presentation tier.  
+- Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes for use in the presentation tier.  
   
- The presentation tier typically accesses the middle tier by using a service reference (for example, a [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md) application). The presentation tier does not directly access the data tier. The presentation tier communicates with the data tier by way of the data access component in the middle tier.  
+  The presentation tier typically accesses the middle tier by using a service reference (for example, a [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md) application). The presentation tier does not directly access the data tier. The presentation tier communicates with the data tier by way of the data access component in the middle tier.  
   
 ## Middle Tier  
  The *middle tier* is the layer that the presentation tier and the data tier use to communicate with each other. Typical middle tier components include the following:  
   
--   Business logic, such as business rules and data validation.  
+- Business logic, such as business rules and data validation.  
   
--   Data access components and logic, such as the following:  
+- Data access components and logic, such as the following:  
   
-    -   [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and [DataAdapters and DataReaders](http://msdn.microsoft.com/library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
+  -   [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and [DataAdapters and DataReaders](http://msdn.microsoft.com/library/cc952ca2-ec19-46ab-9189-15174b52cb74).  
   
-    -   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes.  
+  -   Object representations of data, such as [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) entity classes.  
   
-    -   Common application services, such as authentication, authorization, and personalization.  
+  -   Common application services, such as authentication, authorization, and personalization.  
   
- The following illustration shows features and technologies that are available in Visual Studio and where they might fit in to the middle tier of an n-tier application.  
+  The following illustration shows features and technologies that are available in Visual Studio and where they might fit in to the middle tier of an n-tier application.  
   
- ![Middle tier components](../data-tools/media/ntiermid.png "NtierMid")  
-Middle tier  
+  ![Middle tier components](../data-tools/media/ntiermid.png "NtierMid")  
+  Middle tier  
   
- The middle tier typically connects to the data tier by using a data connection. This data connection is typically stored in the data access component.  
+  The middle tier typically connects to the data tier by using a data connection. This data connection is typically stored in the data access component.  
   
 ## Data Tier  
  The *data tier* is basically the server that stores an application's data (for example, a server running [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)]).  

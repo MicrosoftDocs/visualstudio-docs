@@ -26,15 +26,15 @@ ms.workload:
   
  This topic describes the following tasks:  
   
--   [Resize ListObject controls at design time](#designtime)  
+- [Resize ListObject controls at design time](#designtime)  
   
--   [Resize ListObject controls at runtime in a document-level project](#runtimedoclevel)  
+- [Resize ListObject controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Resize ListObject controls at runtime in a VSTO Add-in project](#runtimeaddin)  
+- [Resize ListObject controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
- For more information about <xref:Microsoft.Office.Tools.Excel.ListObject> controls, see [ListObject control](../vsto/listobject-control.md).  
+  For more information about <xref:Microsoft.Office.Tools.Excel.ListObject> controls, see [ListObject control](../vsto/listobject-control.md).  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add columns to a data-bound List object at runtime?](http://go.microsoft.com/fwlink/?LinkID=130318).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add columns to a data-bound List object at runtime?](http://go.microsoft.com/fwlink/?LinkID=130318).  
   
 ##  <a name="designtime"></a> Resize a ListObject control at design time  
  To resize a list, you can click and drag one of the sizing handles, or you can redefine its size in the **Resize List** dialog box.  

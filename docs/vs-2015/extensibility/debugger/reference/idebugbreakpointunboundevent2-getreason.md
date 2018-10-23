@@ -27,13 +27,13 @@ Gets the reason the breakpoint was unbound.
   
 ```cpp#  
 HRESULT GetReason(   
-   BP_UNBOUND_REASON* pdwUnboundReason  
+   BP_UNBOUND_REASON* pdwUnboundReason  
 );  
 ```  
   
 ```csharp  
 int GetReason(   
-   out enum_ BP_UNBOUND_REASON pdwUnboundReason  
+   out enum_ BP_UNBOUND_REASON pdwUnboundReason  
 );  
 ```  
   

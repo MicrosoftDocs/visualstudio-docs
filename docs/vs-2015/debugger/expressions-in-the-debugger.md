@@ -98,13 +98,13 @@ int main()
   
  Debugger intrinsic functions:  
   
--   Are guaranteed to be safe: executing a debugger intrinsic function will not corrupt the process that is being debugged.  
+- Are guaranteed to be safe: executing a debugger intrinsic function will not corrupt the process that is being debugged.  
   
--   Are allowed in all expressions , even in scenarios where side effects and function evaluation are not allowed.  
+- Are allowed in all expressions , even in scenarios where side effects and function evaluation are not allowed.  
   
--   Work in scenarios where the regular function calls are not possible, such as debugging a minidump.  
+- Work in scenarios where the regular function calls are not possible, such as debugging a minidump.  
   
- Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, “asd”)` is much easier to write in a breakpoint condition than `str[0] == ‘a’ && str[1] == ‘s’ && str[2] == ‘d’`. )  
+  Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, “asd”)` is much easier to write in a breakpoint condition than `str[0] == ‘a’ && str[1] == ‘s’ && str[2] == ‘d’`. )  
   
 |Area|Intrinsic functions|  
 |----------|-------------------------|  

@@ -27,15 +27,15 @@ This method gets the breakpoint request information that describes this breakpoi
   
 ```cpp#  
 HRESULT GetRequestInfo2(  
-   BPREQI_FIELDS      dwFields,  
-   BP_REQUEST_INFO2*  bBPRequestInfo  
+   BPREQI_FIELDS      dwFields,  
+   BP_REQUEST_INFO2*  bBPRequestInfo  
 );  
 ```  
   
 ```csharp  
 int GetRequestInfo2(  
-   enum_BPREQI_FIELDS  dwFields,   
-   BP_REQUEST_INFO2[]  bBPRequestInfo  
+   enum_BPREQI_FIELDS  dwFields,   
+   BP_REQUEST_INFO2[]  bBPRequestInfo  
 );  
 ```  
   

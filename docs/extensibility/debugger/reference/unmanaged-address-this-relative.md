@@ -23,17 +23,17 @@ This structure represents an address that is relative to a `this` pointer (`Me` 
   
 ```cpp  
 typedef struct _tagUNMANAGED_THIS_RELATIVE {  
-   DWORD dwOffset;  
-   DWORD dwBitOffset;  
-   DWORD dwBitLength;  
+   DWORD dwOffset;  
+   DWORD dwBitOffset;  
+   DWORD dwBitLength;  
 } UNMANAGED_ADDRESS_THIS_RELATIVE;  
 ```  
   
 ```csharp  
 public struct UNMANAGED_THIS_RELATIVE {  
-   public uint dwOffset;  
-   public uint dwBitOffset;  
-   public uint dwBitLength;  
+   public uint dwOffset;  
+   public uint dwBitOffset;  
+   public uint dwBitLength;  
 }  
 ```  
   

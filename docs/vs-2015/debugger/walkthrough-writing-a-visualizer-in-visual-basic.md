@@ -37,17 +37,17 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 #### To create a class library project  
   
-1.  On the **File** menu, choose **New** and click **New Project**.  
+1. On the **File** menu, choose **New** and click **New Project**.  
   
-2.  In the **New Project** dialog box, under **Project Type**s, click **Visual Basic**.  
+2. In the **New Project** dialog box, under **Project Type**s, click **Visual Basic**.  
   
-3.  In the **Templates** box, click **Class Library**.  
+3. In the **Templates** box, click **Class Library**.  
   
-4.  In the **Name** box, type an appropriate name for the class library, such as **MyFirstVisualizer**.  
+4. In the **Name** box, type an appropriate name for the class library, such as **MyFirstVisualizer**.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
- When you have created the class library, you must add a reference to Microsoft.VisualStudio.DebuggerVisualizers.DLL, so that you can use the classes defined there. First, however, you give your project a meaningful name.  
+   When you have created the class library, you must add a reference to Microsoft.VisualStudio.DebuggerVisualizers.DLL, so that you can use the classes defined there. First, however, you give your project a meaningful name.  
   
 #### To rename Class1.vb and add Microsoft.VisualStudio.DebuggerVisualizers  
   
@@ -75,32 +75,32 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 #### To inherit from DialogDebuggerVisualizer  
   
-1.  In DebuggerSide.vb, go to the following line of code:  
+1. In DebuggerSide.vb, go to the following line of code:  
   
-    ```  
-    Public Class DebuggerSide  
-    ```  
+   ```  
+   Public Class DebuggerSide  
+   ```  
   
-2.  Edit the code so that it looks like this:  
+2. Edit the code so that it looks like this:  
   
-    ```  
-    Public Class DebuggerSide  
-    Inherits DialogDebuggerVisualizer  
-    ```  
+   ```  
+   Public Class DebuggerSide  
+   Inherits DialogDebuggerVisualizer  
+   ```  
   
- `DialogDebuggerVisualizer` has one abstract method, `Show`, that you must override.  
+   `DialogDebuggerVisualizer` has one abstract method, `Show`, that you must override.  
   
 #### To override the DialogDebuggerVisualizer.Show method  
   
--   In `public class DebuggerSide`, add the following method:  
+- In `public class DebuggerSide`, add the following method:  
   
-    ```  
-    Protected Overrides Sub Show(ByVal windowService As Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService, ByVal objectProvider As Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider)  
+  ```  
+  Protected Overrides Sub Show(ByVal windowService As Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService, ByVal objectProvider As Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider)  
   
-        End Sub  
-    ```  
+      End Sub  
+  ```  
   
- The `Show` method contains the code that actually creates the visualizer dialog box, or other user interface, and displays the information that has been passed to the visualizer from the debugger. You must add the code that creates the dialog box and displays the information. In this walkthrough, you will do this using a Windows Forms message box. First, you must add a reference and `Imports` statement for <xref:System.Windows.Forms>.  
+  The `Show` method contains the code that actually creates the visualizer dialog box, or other user interface, and displays the information that has been passed to the visualizer from the debugger. You must add the code that creates the dialog box and displays the information. In this walkthrough, you will do this using a Windows Forms message box. First, you must add a reference and `Imports` statement for <xref:System.Windows.Forms>.  
   
 #### To add System.Windows.Forms  
   
@@ -149,30 +149,30 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 #### To add a test method to show the visualizer  
   
-1.  Add the following method to class `public DebuggerSide`:  
+1. Add the following method to class `public DebuggerSide`:  
   
-    ```  
-    Shared Public Sub TestShowVisualizer(ByVal objectToVisualize As Object)  
-        Dim visualizerHost As New VisualizerDevelopmentHost(objectToVisualize, GetType(DebuggerSide))  
-    visualizerHost.ShowVisualizer()  
-    End Sub  
-    ```  
+   ```  
+   Shared Public Sub TestShowVisualizer(ByVal objectToVisualize As Object)  
+       Dim visualizerHost As New VisualizerDevelopmentHost(objectToVisualize, GetType(DebuggerSide))  
+   visualizerHost.ShowVisualizer()  
+   End Sub  
+   ```  
   
-2.  On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.  
+2. On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.  
   
- Next, you must create an executable project to call your visualizer DLL. For simplicity, use a console application project.  
+   Next, you must create an executable project to call your visualizer DLL. For simplicity, use a console application project.  
   
 #### To add a console application project to the solution  
   
-1.  On the **File** menu, click **Add**, and then click **New Project**.  
+1. On the **File** menu, click **Add**, and then click **New Project**.  
   
-2.  In the **Add New Project** dialog box, in the **Templates** box, click **Console Application**.  
+2. In the **Add New Project** dialog box, in the **Templates** box, click **Console Application**.  
   
-3.  In the **Name** box, type a meaningful name for the console application, such as **MyTestConsole**.  
+3. In the **Name** box, type a meaningful name for the console application, such as **MyTestConsole**.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
- Now, you must add the necessary references so MyTestConsole can call MyFirstVisualizer.  
+   Now, you must add the necessary references so MyTestConsole can call MyFirstVisualizer.  
   
 #### To add necessary references to MyTestConsole  
   
@@ -193,38 +193,38 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 #### To add code to MyTestConsole  
   
-1.  In **Solution Explorer**, right-click **Program.vb**, and on the shortcut menu, click **Rename**.  
+1. In **Solution Explorer**, right-click **Program.vb**, and on the shortcut menu, click **Rename**.  
   
-2.  Edit the name from Module1.vb to something appropriate, such as **TestConsole.vb**.  
+2. Edit the name from Module1.vb to something appropriate, such as **TestConsole.vb**.  
   
-     Notice that [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically changes the class declaration in TestConsole.vb to match the new file name.  
+    Notice that [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically changes the class declaration in TestConsole.vb to match the new file name.  
   
-3.  In TestConsole. vb, add the following `Imports` statement:  
+3. In TestConsole. vb, add the following `Imports` statement:  
   
-    ```  
-    Imports MyFirstVisualizer  
-    ```  
+   ```  
+   Imports MyFirstVisualizer  
+   ```  
   
-4.  In method `Main`, add the following code:  
+4. In method `Main`, add the following code:  
   
-    ```  
-    Dim myString As String = "Hello, World"  
-    DebuggerSide.TestShowVisualizer(myString)  
-    ```  
+   ```  
+   Dim myString As String = "Hello, World"  
+   DebuggerSide.TestShowVisualizer(myString)  
+   ```  
   
- Now you are ready to test your first visualizer.  
+   Now you are ready to test your first visualizer.  
   
 #### To test the visualizer  
   
-1.  In **Solution Explorer**, right-click **MyTestConsole**, and on the shortcut menu, click **Set as Startup Project**.  
+1. In **Solution Explorer**, right-click **MyTestConsole**, and on the shortcut menu, click **Set as Startup Project**.  
   
-2.  On the **Debug** menu, click **Start**.  
+2. On the **Debug** menu, click **Start**.  
   
-     The console application starts. The visualizer appears and displays the string "Hello, World."  
+    The console application starts. The visualizer appears and displays the string "Hello, World."  
   
- Congratulations. You have just built and tested your first visualizer.  
+   Congratulations. You have just built and tested your first visualizer.  
   
- If you want to use your visualizer in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).  
+   If you want to use your visualizer in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).  
   
 ## See Also  
  [Visualizer Architecture](../debugger/visualizer-architecture.md)   

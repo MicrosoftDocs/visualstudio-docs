@@ -23,15 +23,15 @@ Retrieves the size of the text at this position in the document.
   
 ```cpp  
 HRESULT GetSize(   
-   ULONG* pcNumLines,  
-   ULONG* pcNumChars  
+   ULONG* pcNumLines,  
+   ULONG* pcNumChars  
 );  
 ```  
   
 ```csharp  
 int GetSize(   
-   ref uint pcNumLines,  
-   ref uint pcNumChars  
+   ref uint pcNumLines,  
+   ref uint pcNumChars  
 );  
 ```  
   

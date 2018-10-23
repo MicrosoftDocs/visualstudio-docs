@@ -28,7 +28,7 @@ Retrieves a flag that specifies if the [Compiland](../../debugger/debug-interfac
   
 ```cpp  
 HRESULT get_hasDebugInfo(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

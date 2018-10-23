@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2103: Review imperative security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ReviewImperativeSecurity|

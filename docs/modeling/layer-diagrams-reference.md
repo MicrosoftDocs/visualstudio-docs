@@ -53,7 +53,7 @@ This topic describes the elements that you can use on a dependency diagram. For 
 The following table describes the elements that you can use on a dependency diagram.
 
 |**Shape**|**Element**|**Description**|
-|---------------|-----------------|---------------------|
+|-|-|-|
 |1|**Layer**|A logical group of physical artifacts in your system. These artifacts can be namespaces, projects, classes, methods, and so on.<br /><br /> To see the artifacts that are linked to a layer, open the shortcut menu for the layer, and then choose **View Links** to open **Layer Explorer**.<br /><br /> For more information, see [Layer Explorer](#Explorer).<br /><br /> -   **Forbidden Namespace Dependencies** - Specifies that artifacts associated with this layer cannot depend on the specified namespaces.<br />-   **Forbidden Namespaces** - Specifies that artifacts associated with this layer must not belong to the specified namespaces.<br />-   **Required Namespaces** - Specifies that artifacts associated with this layer must belong to one of the specified namespaces.|
 |2|**Dependency**|Indicates that one layer can use the functionality in another layer, but not vice versa.<br /><br /> -   **Direction** - Specifies the direction of the dependency.|
 |3|**Bidirectional Dependency**|Indicates that one layer can use the functionality in another layer, and vice versa.<br /><br /> -   **Direction** - Specifies the direction of the dependency.|
@@ -86,7 +86,7 @@ On the dependency diagram, open the shortcut menu for one or more layers, and th
 > If you cannot see all of these properties, expand the **Layer Explorer** window.
 
 |**Column in Layer Explorer**|**Description**|
-|----------------------------------|---------------------|
+|-|-|
 |**Categories**|The kind of artifact, such as a class, namespace, source file, and so on|
 |**Layer**|The layer that links to the artifact|
 |**Supports Validation**|If **True**, then the layer validation process can verify that the project conforms to dependencies to or from this element.<br /><br /> If **False**, then the link does not participate in the layer validation process.<br /><br /> For more information, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).|

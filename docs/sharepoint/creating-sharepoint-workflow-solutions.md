@@ -64,25 +64,25 @@ For more information about SharePoint, see [Microsoft SharePoint Products and Te
 
  There are two types of activities:
 
--   *Simple activities* perform a single unit of work, such as "delay for 1 day" or "start Web service."
+- *Simple activities* perform a single unit of work, such as "delay for 1 day" or "start Web service."
 
--   *Composite activities* contain other activities; for example, a conditional activity might contain two branches.
+- *Composite activities* contain other activities; for example, a conditional activity might contain two branches.
 
- Both types of activities are available in the **Toolbox**.
+  Both types of activities are available in the **Toolbox**.
 
- Activities can have properties, methods, and events. Use the **Properties** window to set the properties of an activity.
+  Activities can have properties, methods, and events. Use the **Properties** window to set the properties of an activity.
 
- You can also create a custom activity. For more information, see [Walkthrough: Create a custom site workflow activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md).
+  You can also create a custom activity. For more information, see [Walkthrough: Create a custom site workflow activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md).
 
- Activities are organized in the following tabs in the **Toolbox**:
+  Activities are organized in the following tabs in the **Toolbox**:
 
--   **SharePoint Workflow**
+- **SharePoint Workflow**
 
--   **Windows Workflow v3.0**
+- **Windows Workflow v3.0**
 
--   **Windows Workflow v3.5**
+- **Windows Workflow v3.5**
 
- Not all core workflow activities are supported by SharePoint. For more information, see [Workflow Activities for Windows SharePoint Services Overview](http://go.microsoft.com/fwlink/?LinkID=156094).
+  Not all core workflow activities are supported by SharePoint. For more information, see [Workflow Activities for Windows SharePoint Services Overview](http://go.microsoft.com/fwlink/?LinkID=156094).
 
 #### SharePoint workflow activities
  The **SharePoint Workflow** tabs contain specialized activities for use in [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)]. These activities simplify and streamline the development of document life cycle workflows. For more information about the activities listed in the **SharePoint Workflow** tab, see [Workflow Activities for Windows SharePoint Services Overview](http://go.microsoft.com/fwlink/?LinkID=156094).
@@ -105,15 +105,15 @@ For more information about SharePoint, see [Microsoft SharePoint Products and Te
 
  There are four types of forms that can be used in a workflow:
 
--   Association
+- Association
 
--   Initiation
+- Initiation
 
--   Modification
+- Modification
 
--   Task
+- Task
 
- Of these, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] includes item templates for association and initiation forms. An example of an *association form* is one that lets the administrator installing the workflow enter parameters that relate to the workflow, such as a spending limit for an expense workflow. An example of an *initiation form* is one that lets the user of an expense workflow enter the amount that they spent into the workflow. For more information about these types of forms, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).
+  Of these, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] includes item templates for association and initiation forms. An example of an *association form* is one that lets the administrator installing the workflow enter parameters that relate to the workflow, such as a spending limit for an expense workflow. An example of an *initiation form* is one that lets the user of an expense workflow enter the amount that they spent into the workflow. For more information about these types of forms, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).
 
 ### Item properties
  You can also collect information from users by using the properties of an item in the SharePoint library or list. The main code file (Workflow1.cs or Workflow1.vb) declares an instance of the Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties.WorkflowProperties class named `workflowProperties`. Use the `workflowProperties` object to access the properties of the library or list in code. For an example, see [Walkthrough: Create and debug a SharePoint workflow solution](../sharepoint/walkthrough-creating-and-debugging-a-sharepoint-workflow-solution.md).

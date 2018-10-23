@@ -26,8 +26,8 @@ This is a callback function used by the [SccQueryChanges](../extensibility/sccqu
   
 ```cpp  
 typedef BOOL (*QUERYCHANGESFUNC)(  
-   LPVOID pvCallerData,  
-   QUERYCHANGESDATA * pChangesData  
+   LPVOID pvCallerData,  
+   QUERYCHANGESDATA * pChangesData  
 );  
 ```  
   

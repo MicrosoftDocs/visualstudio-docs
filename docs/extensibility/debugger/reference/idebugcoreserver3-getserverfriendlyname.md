@@ -23,13 +23,13 @@ Retrieves a friendly name for the server.
   
 ```cpp  
 HRESULT GetServerFriendlyName(  
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetServerFriendlyName(  
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

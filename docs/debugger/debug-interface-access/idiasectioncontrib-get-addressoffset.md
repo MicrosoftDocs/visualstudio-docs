@@ -22,7 +22,7 @@ Retrieves the offset part of the contribution's address.
   
 ```C++  
 HRESULT get_addressOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

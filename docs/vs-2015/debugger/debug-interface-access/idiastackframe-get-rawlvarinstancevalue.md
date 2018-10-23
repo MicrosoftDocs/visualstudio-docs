@@ -28,10 +28,10 @@ This method retrieves the value of the specified local variable as raw bytes.
   
 ```cpp#  
 HRESULT get_rawLVarInstanceValue(  
-   IDiaLVarInstance* pInstance,  
-   DWORD             cbDataMax,  
-   DWORD*            pcbData,  
-   BYTE*             pbData  
+   IDiaLVarInstance* pInstance,  
+   DWORD             cbDataMax,  
+   DWORD*            pcbData,  
+   BYTE*             pbData  
 );  
 ```  
   

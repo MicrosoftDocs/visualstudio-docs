@@ -22,7 +22,7 @@ Retrieves the file name of the compiland source file.
   
 ```C++  
 HRESULT get_sourceFileName (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

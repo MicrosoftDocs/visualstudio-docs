@@ -28,7 +28,7 @@ Deletes the breakpoint.
   
 ```cpp#  
 HRESULT Delete(   
-   void   
+   void   
 );  
 ```  
   

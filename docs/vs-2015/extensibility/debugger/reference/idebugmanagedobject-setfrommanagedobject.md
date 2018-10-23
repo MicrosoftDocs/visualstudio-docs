@@ -27,13 +27,13 @@ Sets the value of the instance of the value class object from the instance of th
   
 ```cpp#  
 HRESULT SetFromManagedObject(   
-   IUnknown* pManagedObject  
+   IUnknown* pManagedObject  
 );  
 ```  
   
 ```csharp  
 int SetFromManagedObject(  
-   object pManagedObject  
+   object pManagedObject  
 );  
 ```  
   

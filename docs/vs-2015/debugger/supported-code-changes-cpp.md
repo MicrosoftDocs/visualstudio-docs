@@ -40,31 +40,31 @@ Edit and Continue for Visual C++ handles most types of code changes. However, so
 ##  <a name="BKMK_Unsupported_changes"></a> Unsupported changes  
  The following C/C++ changes cannot be applied during a debugging session:  
   
--   Most changes to global or static data.  
+- Most changes to global or static data.  
   
--   Changes to executables that are copied from another machine and not built locally.  
+- Changes to executables that are copied from another machine and not built locally.  
   
--   Changes to a data type that affect the layout of an object, such as data members of a class.  
+- Changes to a data type that affect the layout of an object, such as data members of a class.  
   
--   Adding more than 64k bytes of new code or data.  
+- Adding more than 64k bytes of new code or data.  
   
--   Adding variables that require a constructor at a point before the instruction pointer.  
+- Adding variables that require a constructor at a point before the instruction pointer.  
   
--   Changes that affect code that requires run-time initialization.  
+- Changes that affect code that requires run-time initialization.  
   
--   Adding exception handlers, in some instances.  
+- Adding exception handlers, in some instances.  
   
--   Changes to resource files.  
+- Changes to resource files.  
   
--   Changes to code in read-only files.  
+- Changes to code in read-only files.  
   
--   Changes to code without a corresponding PDB file.  
+- Changes to code without a corresponding PDB file.  
   
--   Changes to code that has no object file.  
+- Changes to code that has no object file.  
   
- If you make one of these changes and then try to apply code changes, an error or warning message appears in the **Output** window.  
+  If you make one of these changes and then try to apply code changes, an error or warning message appears in the **Output** window.  
   
--   Edit and Continue does not update static libraries. If you make a change in a static library, execution continues with the old version and no warning is issued.  
+- Edit and Continue does not update static libraries. If you make a change in a static library, execution continues with the old version and no warning is issued.  
   
 ##  <a name="BKMK_Unsupported_scenarios"></a> Unsupported scenarios  
  Edit and Continue for C/C++ is unavailable in the following debugging scenarios:  

@@ -23,13 +23,13 @@ Retrieves information on whether the module represents user code or not.
   
 ```cpp  
 HRESULT IsUserCode(  
-   BOOL* pfUser  
+   BOOL* pfUser  
 );  
 ```  
   
 ```csharp  
 int IsUserCode(  
-   out int pfUser  
+   out int pfUser  
 );  
 ```  
   

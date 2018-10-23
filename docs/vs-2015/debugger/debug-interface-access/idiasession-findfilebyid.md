@@ -28,8 +28,8 @@ Retrieves a source file by source file identifier.
   
 ```cpp#  
 HRESULT findFileById (   
-   DWORD            uniqueId,  
-   IDiaSourceFile** ppResult  
+   DWORD            uniqueId,  
+   IDiaSourceFile** ppResult  
 );  
 ```  
   

@@ -43,9 +43,9 @@ Association lines in Class Designer show how classes in a diagram are related. A
   
 ### To change the name of an association  
   
--   On the diagram surface, click the label of the association line and edit it.  
+- On the diagram surface, click the label of the association line and edit it.  
   
- \- or -  
+  \- or -  
   
 1.  Click the shape that contains the property that is shown as an association.  
   

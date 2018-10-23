@@ -33,7 +33,7 @@ Following are the properties of **Switch<T\>** designer. All of these properties
 The following table shows the most useful <xref:System.Activities.Statements.Switch%601> properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.Switch%601> activity designer. The default value is Switch<Int32\>. The value can be edited in the **Properties** window or directly on the designer header.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.Switch%601.Expression%2A>|True|Specifies the expression used to compare to the keys in the cases collection to determine which case to execute.|
 |<xref:System.Activities.Statements.Switch%601.Default%2A>||Specifies the activity executed if no match is found. Click the **Add an activity** button on the designer to open the **Default** box where the activity can be dropped.|

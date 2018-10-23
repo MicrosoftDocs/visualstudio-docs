@@ -22,7 +22,7 @@ Retrieves the undecorated name for a C++ decorated, or linkage, name.
   
 ```C++  
 HRESULT get_undecoratedName (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

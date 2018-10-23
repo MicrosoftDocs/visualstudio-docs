@@ -23,13 +23,13 @@ This method gets the Edit and Continue (ENC) update for this program. A custom d
   
 ```cpp  
 HRESULT GetENCUpdate(   
-   IUnknown** ppUpdate  
+   IUnknown** ppUpdate  
 );  
 ```  
   
 ```csharp  
 int GetENCUpdate(  
-   out object ppUpdate  
+   out object ppUpdate  
 );  
 ```  
   

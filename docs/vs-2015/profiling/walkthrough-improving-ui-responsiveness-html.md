@@ -157,45 +157,45 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
 ### Analyzing performance data  
   
-1.  On the **Debug** toolbar, in the **Start Debugging** list, choose one of the Windows Phone Emulators or **Simulator**.  
+1. On the **Debug** toolbar, in the **Start Debugging** list, choose one of the Windows Phone Emulators or **Simulator**.  
   
-2.  On the **Debug** menu, choose **Performance and Diagnostics**.  
+2. On the **Debug** menu, choose **Performance and Diagnostics**.  
   
-3.  In **Available Tools**, choose **HTML UI Responsiveness**, and then choose **Start**.  
+3. In **Available Tools**, choose **HTML UI Responsiveness**, and then choose **Start**.  
   
-     In this tutorial, you'll be attaching the profiler to the startup project. For info about other options, like attaching the profiler to an installed app, see [HTML UI responsiveness](../profiling/html-ui-responsiveness.md).  
+    In this tutorial, you'll be attaching the profiler to the startup project. For info about other options, like attaching the profiler to an installed app, see [HTML UI responsiveness](../profiling/html-ui-responsiveness.md).  
   
-     When you start the profiler, you might see a User Account Control requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
+    When you start the profiler, you might see a User Account Control requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
   
-4.  In the running app, choose **Waiting for values** and wait about 10 seconds. Verify that the button text and color update approximately once per second.  
+4. In the running app, choose **Waiting for values** and wait about 10 seconds. Verify that the button text and color update approximately once per second.  
   
-5.  From the running app, switch to Visual Studio (Alt+Tab).  
+5. From the running app, switch to Visual Studio (Alt+Tab).  
   
-6.  Choose **Stop collection**.  
+6. Choose **Stop collection**.  
   
-     The profiler displays information in a new tab in Visual Studio. When you look at the CPU utilization and visual throughput (FPS) data, you can easily identify a few trends:  
+    The profiler displays information in a new tab in Visual Studio. When you look at the CPU utilization and visual throughput (FPS) data, you can easily identify a few trends:  
   
-    -   CPU utilization increases dramatically after about 3 seconds (when you pressed the **Waiting for values** button) and shows a clear pattern of events (a consistent mix of scripting, styling, and rendering events) from this point on.  
+   - CPU utilization increases dramatically after about 3 seconds (when you pressed the **Waiting for values** button) and shows a clear pattern of events (a consistent mix of scripting, styling, and rendering events) from this point on.  
   
-    -   Visual throughput isn't impacted, and FPS remains at 60 throughout (that is, there are no dropped frames).  
+   - Visual throughput isn't impacted, and FPS remains at 60 throughout (that is, there are no dropped frames).  
   
      Let's look at a typical section of the CPU utilization graph to find out what the app is doing in this period of high activity.  
   
-7.  Select a one-to-two second portion in the middle of the CPU utilization graph (either click-and-drag or use the tab and arrow keys). The following illustration shows the CPU utilization graph after making a selection. The non-shared area is the selection.  
+7. Select a one-to-two second portion in the middle of the CPU utilization graph (either click-and-drag or use the tab and arrow keys). The following illustration shows the CPU utilization graph after making a selection. The non-shared area is the selection.  
   
-     ![CPU utilization graph](../profiling/media/js-htmlviz-app-cpu.png "JS_HTMLViz_App_CPU")  
+    ![CPU utilization graph](../profiling/media/js-htmlviz-app-cpu.png "JS_HTMLViz_App_CPU")  
   
-8.  Choose **Zoom in**.  
+8. Choose **Zoom in**.  
   
-     The graph changes to show the selected period in more detail. The following illustration shows the CPU utilization graph after zooming in. (The specific data may vary, but the general pattern will be apparent.)  
+    The graph changes to show the selected period in more detail. The following illustration shows the CPU utilization graph after zooming in. (The specific data may vary, but the general pattern will be apparent.)  
   
-     ![Zoomed in view](../profiling/media/js-htmlviz-app-zoom.png "JS_HTMLViz_App_Zoom")  
+    ![Zoomed in view](../profiling/media/js-htmlviz-app-zoom.png "JS_HTMLViz_App_Zoom")  
   
-     The Timeline details in the lower pane shows an example of details for the selected period.  
+    The Timeline details in the lower pane shows an example of details for the selected period.  
   
-     ![Timeline details](../profiling/media/js-htmlviz-app-details.png "JS_HTMLViz_App_Details")  
+    ![Timeline details](../profiling/media/js-htmlviz-app-details.png "JS_HTMLViz_App_Details")  
   
-     The events in the Timeline details confirm visible trends in the CPU utilization graph: there are a lot of events taking place over short periods of time. The Timeline details view shows that these events are `Timer`, `Layout`, and `Paint` events.  
+    The events in the Timeline details confirm visible trends in the CPU utilization graph: there are a lot of events taking place over short periods of time. The Timeline details view shows that these events are `Timer`, `Layout`, and `Paint` events.  
   
 9. Use the context menu (or right-click) one of the `Timer` events in the lower pane, and choose **Filter to event**. The following illustration shows an example of details typical for one of the `Timer` events in this test app.  
   

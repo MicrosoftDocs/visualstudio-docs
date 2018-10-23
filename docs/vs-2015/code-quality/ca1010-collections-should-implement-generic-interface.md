@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1010: Collections should implement generic interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|CollectionsShouldImplementGenericInterface|

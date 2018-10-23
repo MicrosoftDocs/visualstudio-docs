@@ -106,14 +106,14 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To modify the auto-generated save code  
   
-1.  Select the **Save** button on the **CustomersBindingNavigator** (the button with the floppy disk icon).  
+1. Select the **Save** button on the **CustomersBindingNavigator** (the button with the floppy disk icon).  
   
-2.  Replace the `CustomersBindingNavigatorSaveItem_Click` method with the following code:  
+2. Replace the `CustomersBindingNavigatorSaveItem_Click` method with the following code:  
   
-     [!code-csharp[VbRaddataSaving#4](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#4)]
-     [!code-vb[VbRaddataSaving#4](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#4)]  
+    [!code-csharp[VbRaddataSaving#4](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#4)]
+    [!code-vb[VbRaddataSaving#4](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#4)]  
   
- The order for reconciling changes to related data is as follows:  
+   The order for reconciling changes to related data is as follows:  
   
 -   Delete child records. (In this case, delete records from the `Orders` table.)  
   

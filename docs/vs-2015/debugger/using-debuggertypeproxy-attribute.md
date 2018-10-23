@@ -31,21 +31,21 @@ DebuggerTypeProxyAttribute](assetId:///T:System.Diagnostics.DebuggerTypeProxyAtt
   
  This attribute can be applied to:  
   
--   Structures  
+- Structures  
   
--   Classes  
+- Classes  
   
--   Assemblies  
+- Assemblies  
   
- A type proxy class must have a constructor that takes an argument of the type that the proxy will replace. The debugger creates a new instance of the type proxy class every time it needs to display a variable of the target type. This can have performance implications. As a result, you should not do any more work in the constructor than absolutely necessary.  
+  A type proxy class must have a constructor that takes an argument of the type that the proxy will replace. The debugger creates a new instance of the type proxy class every time it needs to display a variable of the target type. This can have performance implications. As a result, you should not do any more work in the constructor than absolutely necessary.  
   
- To minimize performance penalties, the expression evaluator does not examine the attributes on the display proxy of the type unless the type is expanded by the user clicking the + symbol in the debugger window or by the use of <xref:System.Diagnostics.DebuggerBrowsableAttribute>. Therefore, you should not place attributes on the display type itself. Attributes can and should be used in the body of the display type.  
+  To minimize performance penalties, the expression evaluator does not examine the attributes on the display proxy of the type unless the type is expanded by the user clicking the + symbol in the debugger window or by the use of <xref:System.Diagnostics.DebuggerBrowsableAttribute>. Therefore, you should not place attributes on the display type itself. Attributes can and should be used in the body of the display type.  
   
- It is a good idea for the type proxy to be a private nested class within the class that the attribute targets. This allows it to access internal members easily.  
+  It is a good idea for the type proxy to be a private nested class within the class that the attribute targets. This allows it to access internal members easily.  
   
- If <xref:System.Diagnostics.DebuggerTypeProxyAttribute> is used at the assembly level, the `Target` parameter specifies the type which the proxy will replace.  
+  If <xref:System.Diagnostics.DebuggerTypeProxyAttribute> is used at the assembly level, the `Target` parameter specifies the type which the proxy will replace.  
   
- For an example of how to use this attribute along with <xref:System.Diagnostics.DebuggerDisplayAttribute> and <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, see[Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md).  
+  For an example of how to use this attribute along with <xref:System.Diagnostics.DebuggerDisplayAttribute> and <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, see[Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md).  
   
 ## Using Generics with DebuggerTypeProxy  
  Support for generics is limited. For C#, `DebuggerTypeProxy` supports only open types. An open type, also called an unconstructed type, is a generic type that has not been instantiated with arguments for its type parameters. Closed types, also called constructed types, are not supported.  

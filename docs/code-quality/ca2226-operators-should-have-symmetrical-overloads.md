@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2226: Operators should have symmetrical overloads
+
 |||
 |-|-|
 |TypeName|OperatorsShouldHaveSymmetricalOverloads|

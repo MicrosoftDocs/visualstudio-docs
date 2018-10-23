@@ -32,7 +32,7 @@ The **TerminateWorkflow** activity designer can be dragged from the **Toolbox** 
 The following table shows the <xref:System.Activities.Statements.TerminateWorkflow> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.TerminateWorkflow> activity. The default is TerminateWorkflow. Although the display name is not strictly required, it is a best practice to use a display name.|
 |<xref:System.Activities.Statements.TerminateWorkflow.Exception%2A>|False|The exception to throw when the workflow is terminated. Set this property in the property grid.|
 |<xref:System.Activities.Statements.TerminateWorkflow.Reason%2A>|False|The reason that explains why the workflow was terminated. Set this property in the property grid.|

@@ -28,8 +28,8 @@ Retrieves a stack frame enumerator for x86 platforms.
   
 ```cpp#  
 HRESULT getEnumFrames(   
-   IDiaStackWalkHelper*   pHelper,  
-   IDiaEnumStackFrames**  ppEnum  
+   IDiaStackWalkHelper*   pHelper,  
+   IDiaEnumStackFrames**  ppEnum  
 );  
 ```  
   

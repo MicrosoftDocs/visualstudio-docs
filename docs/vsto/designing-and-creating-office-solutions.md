@@ -35,19 +35,19 @@ ms.workload:
 ## Choose a .NET Framework version  
  After selecting the project type that best fits your requirements, you can choose which version of the .NET Framework to use in your development process. You can target the following .NET Framework versions in Office projects:  
   
--   [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]  
+- [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]  
   
--   [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]  
+- [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]  
   
--   [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]  
+- [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]  
   
- The .NET Framework version that you choose for your project is required on end-user computers for your solution to run. For example, if your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is required on end-user computers. In this example, your solution will not run if only the .NET Framework 3.5 is installed on end-user computers.  
+  The .NET Framework version that you choose for your project is required on end-user computers for your solution to run. For example, if your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is required on end-user computers. In this example, your solution will not run if only the .NET Framework 3.5 is installed on end-user computers.  
   
- If you migrate a VSTO Add-in project that targets the .NET Framework 3.5, Visual Studio changes the target framework of your project to [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later depending on the version of Office that you have installed.  
+  If you migrate a VSTO Add-in project that targets the .NET Framework 3.5, Visual Studio changes the target framework of your project to [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later depending on the version of Office that you have installed.  
   
- However, after Visual Studio changes the target framework, you might need to modify some of the code in your project if it uses certain features. For more information about how to change the target framework, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). For more information about changes you might need to make in your project, see [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md).  
+  However, after Visual Studio changes the target framework, you might need to modify some of the code in your project if it uses certain features. For more information about how to change the target framework, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). For more information about changes you might need to make in your project, see [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md).  
   
- If Visual Studio changes the target .NET Framework for your project and you are using ClickOnce to deploy your solution, make sure that you also select the corresponding version of the .NET Framework in the **Prerequisites** dialog box. This selection does not change automatically when you change the target framework for your project. For more information, see [How to: Install prerequisites on end-user computers to run Office solutions](http://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98).  
+  If Visual Studio changes the target .NET Framework for your project and you are using ClickOnce to deploy your solution, make sure that you also select the corresponding version of the .NET Framework in the **Prerequisites** dialog box. This selection does not change automatically when you change the target framework for your project. For more information, see [How to: Install prerequisites on end-user computers to run Office solutions](http://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98).  
   
 > [!NOTE]  
 >  You cannot target the .NET Framework 3.5 or earlier in Office projects that you create by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)]. Office projects that you create by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] require features that were first introduced in the [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]  

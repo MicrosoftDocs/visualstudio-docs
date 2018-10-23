@@ -20,7 +20,7 @@ You can use geometry shapes to specify how instances of domain classes are displ
  Geometry shapes have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Fill Color|The fill color of this shape.|White|
 |Fill Gradient Mode|The fill gradient mode of this shape (Horizontal, Vertical, Forward Diagonal, Backward Diagonal, or None).|Horizontal|
 |Geometry|The geometry of this shape (Rectangle, Rounded Rectangle, Ellipse, or Circle).|Rectangle|

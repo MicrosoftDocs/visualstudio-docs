@@ -22,8 +22,8 @@ Sets the value of a register.
   
 ```C++  
 HRESULT put_registerValue (   
-   DWORD     index,  
-   ULONGLONG NewVal  
+   DWORD     index,  
+   ULONGLONG NewVal  
 );  
 ```  
   

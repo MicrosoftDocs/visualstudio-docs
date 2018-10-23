@@ -27,13 +27,13 @@ Gets a detailed description of the exception that fired this event.
   
 ```cpp#  
 HRESULT GetException(   
-   EXCEPTION_INFO* pExceptionInfo  
+   EXCEPTION_INFO* pExceptionInfo  
 );  
 ```  
   
 ```csharp  
 int GetException(   
-   EXCEPTION_INFO[] pExceptionInfo  
+   EXCEPTION_INFO[] pExceptionInfo  
 );  
 ```  
   

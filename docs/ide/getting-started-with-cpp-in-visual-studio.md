@@ -146,7 +146,7 @@ Now that you've verified that everything works, you can prepare a release build 
 
 When this build completes, you've created an app that you can copy and run in any command prompt window. It may not do much, but it's the gateway to greater things.
 
-Congratulations on completing this quickstart! If you want to explore more examples, see [Visual Studio samples](../ide/visual-studio-samples.md).
+Congratulations on completing this quickstart!
 
 ## See also
 

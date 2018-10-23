@@ -23,13 +23,13 @@ Tests whether this object is a null reference.
   
 ```cpp  
 HRESULT IsNullReference(   
-   BOOL* pfIsNull  
+   BOOL* pfIsNull  
 );  
 ```  
   
 ```csharp  
 int IsNullReference(  
-   out int pfIsNull  
+   out int pfIsNull  
 );  
 ```  
   
