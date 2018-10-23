@@ -32,8 +32,9 @@ For most programming languages, Just My Code is enabled by default.
 
 During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code), along with their symbol loading status. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
 
+ ![User code in the Modules window](../debugger/media/dbg_justmycode_externalcode.png "User code in the Modules window")
+  
 In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code into a grayed-out annotated code frame labeled `[External Code]`.
-
 
  ![External Code frame in the Call Stack window](../debugger/media/dbg_justmycode_externalcode.png "External Code frame")
   
@@ -247,7 +248,7 @@ If first-chance exceptions are enabled for the exception, and the exception occu
   
 ###  <a name="BKMK_JS_Customize_Just_My_Code"></a> Customize JavaScript Just My Code  
 
-To categorize user and non-user code for a single Visual Studio project, you can add a *.json* file named *mycode.json* to the root folder of the project.  
+To categorize user and non-user code for a single JavaScript project, you can add a *.json* file named *mycode.json* to the root folder of the project.  
   
 Specifications in this file override the default classifications and the *mycode.default.wwa.json* file. The *mycode.json* file does not need to list all key value pairs. The **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.  
   
