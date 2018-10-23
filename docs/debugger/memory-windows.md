@@ -26,7 +26,6 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-<<<<<<< HEAD
 # Use the Memory windows in the Visual Studio debugger
 
 During debugging, the **Memory** window shows the memory space your app is using. 
@@ -68,11 +67,11 @@ By default, the **Memory** window treats **Address** expressions as live express
    
 1. In any debugger window, select a memory address, or a pointer variable that contains a memory address.  
    
-2. Drag and drop the address or pointer in the **Memory** window. That address appears in the **Address** field and at the top of the **Memory** window.  
+2. Drag and drop the address or pointer in the **Memory** window. That address then appears in the **Address** field, and  
   
 **To move to a memory location by entering it in the Address field:**
   
-- Type or paste the address or expression in the **Address** field and press **Enter**, or choose it from the dropdown in the **Address** field. That address appears at the top of the **Memory** window. 
+- Type or paste the address or expression in the **Address** field and press **Enter**, or choose it from the dropdown in the **Address** field. The **Memory** window adjusts to display that address at the top.
   
 ## Customize the Memory window 
 
@@ -88,12 +87,14 @@ By default, memory contents appear as 1-byte integers in hexadecimal format, and
   
 - Select the drop down arrow next to the **Columns** field, and select the number of columns to display, or select **Auto** for automatic adjustment based on window width.  
   
-If you do not want the contents of the **Memory** window to change as your app runs, you can turn off live expression evaluation. Live expression evaluation is on by default, so selecting **Reevaluate Automatically** turns it off. It is a toggle, so selecting **Reevaluate Automatically** again turns it back on. 
-  
+If you do not want the contents of the **Memory** window to change as your app runs, you can turn off live expression evaluation. 
+
 **To toggle live evaluation:**  
   
 - Right-click in the **Memory** window, and select **Reevaluate Automatically** in the context menu. 
 
+Live expression evaluation is a toggle, and is on by default, so selecting **Reevaluate Automatically** turns it off. Selecting **Reevaluate Automatically** again turns it back on. 
+  
 You can hide or display the toolbar at the top of the **Memory** window. You will not have access to the **Address** field or other tools when the toolbar is hidden.  
   
 **To toggle the toolbar display:**  
@@ -110,7 +111,7 @@ In native code apps, you can use register names as live expressions. For example
   
 2. Press **Enter**.  
    
-   When you use a debug command such as **Step**, the memory address that is displayed will automatically change as the pointer changes.  
+   When you use a debug command such as **Step**, the memory address displayed in the **Address** field and at the top of the **Memory** window will automatically change as the pointer changes.  
   
 ## See also  
  [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)

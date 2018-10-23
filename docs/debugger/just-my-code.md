@@ -59,12 +59,12 @@ Three compiler attributes also affect what the .NET debugger considers to be use
 
 The .NET Framework debugger considers all other code to be user code.  
 
-During debugging:
+During .NET Framework debugging:
 
 - **Debug** > **Step Into** (or **F11**) on non-user code steps over the code to the next line of user code. 
 - **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code. 
 
-If there's no more user code, debugging continues to the end, unless it hits another breakpoint or an error.
+If there's no more user code, debugging continues until it ends, hits another breakpoint, or throws an error. 
 
 <a name="BKMK_NET_Breakpoint_behavior"></a> 
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), the **No Source** window appears. You can then use a **Debug** > **Step** command to go to the next line of user code.
@@ -92,15 +92,15 @@ Just My Code in C++ considers only these functions to be non-user code:
   
   - Functions specified in *\*.natstepfilter* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.  
   
-You can create *.natstepfilter* and *.natjmc* files to customize Just My Code stepping behavior and the **Call Stack** window. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior) and {Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior). 
+You can create *.natstepfilter* and *.natjmc* files to customize Just My Code stepping behavior and the **Call Stack** window. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior) and [Customize C++ call stack behavior](#BKMK_CPP_Customize_call_stack_behavior). 
 
 <a name="BKMK_CPP_Stepping_behavior"></a>
-During debugging:
+During C++ debugging:
 
 - **Debug** > **Step Into** (or **F11**) on non-user code steps over the code to the next line of user code. 
 - **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code. 
 
-If there's no more user code, debugging continues to the end, unless it hits another breakpoint or an error.
+If there's no more user code, debugging continues until it ends, hits another breakpoint, or throws an error. 
 
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), stepping continues in the non-user code.
 
@@ -136,7 +136,7 @@ A *.natstepfilter* file is an XML file with this syntax:
 |`Function`|Required. Specifies one or more functions as non-user functions.|  
 |`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|  
 |`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|  
-|`Action`|Required. One of these case-sensitive values:<br /><br /> -   `NoStepInto`  - tells the debugger to step over the function.<br />-   `StepInto`  - tells the debugger to step into the function, overriding any other `NoStepInto` for the matched function.|  
+|`Action`|Required. One of these case-sensitive values:<br /><br /> `NoStepInto`  - tells the debugger to step over the function.<br /> `StepInto`  - tells the debugger to step into the function, overriding any other `NoStepInto` for the matched function.|  
   
 ###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> Customize C++ call stack behavior  
 
@@ -199,38 +199,33 @@ JavaScript Just My Code controls stepping and call stack display by categorizing
 |**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example WinJS or jQuery).|  
 |**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode. In UWP projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
 
-The JavaScript debugger classifies these types of code by default:  
-
--   Script executed by passing a string to the host-provided `eval` function is **MyCode**.  
--   Script executed by passing a string to the `Function` constructor is **LibraryCode**.  
--   Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.  
--   Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.  
-
-The *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file specifies other user and non-user code for all Visual Studio JavaScript projects.  
-
-You can modify the default classifications, and classify specific files and URLs, by adding a *.json* file named *mycode.json* to the root folder of a JavaScript project. See [Customize JavaScript Just My Code](#BKMK_JS_Customize_Just_My_Code). 
-
 The JavaScript debugger classifies code as user or non-user in this order:  
   
 1. The default classifications.  
-2. The classifications in the *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file.  
-3. The classifications in the *mycode.json* file of the current project.  
+   -   Script executed by passing a string to the host-provided `eval` function is **MyCode**.  
+   -   Script executed by passing a string to the `Function` constructor is **LibraryCode**.  
+   -   Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.  
+   -   Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.  
+2. Classifications specified for all Visual Studio JavaScript projects in the *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file.  
+3. Classifications in the *mycode.json* file of the current project.  
   
 Each classification step overrides the previous steps. 
 
 All other code is classified as **MyCode**.  
 
+You can modify the default classifications, and classify specific files and URLs as user or non-user code, by adding a *.json* file named *mycode.json* to the root folder of a JavaScript project. See [Customize JavaScript Just My Code](#BKMK_JS_Customize_Just_My_Code). 
+
 <a name="BKMK_JS_Stepping_behavior"></a>
-During debugging: 
+During JavaScript debugging: 
 
 - If a function is non-user code, **Debug** > **Step Into** (or **F11**) behaves the same as **Debug** > **Step Over** (or **F10**).  
 - If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, stepping temporarily behaves as if Just My Code isn't enabled. When you step back to user code, Just My Code stepping is re-enabled.  
 - When a user code step results in leaving the current execution context, the debugger stops at the next executed user code line. For example, if a callback executes in **LibraryCode** code, the debugger continues until the next line of user code executes.
 - **Step Out** (or **Shift**+**F11**) stops on the next line of user code. 
 
-If there's no more user code, debugging continues to the end, unless it hits another breakpoint or an error.
+If there's no more user code, debugging continues until it ends, hits another breakpoint, or throws an error. 
 
-Breakpoints set in code are always hit, however the code is classified.  
+Breakpoints set in code are always hit, but the code is classified.  
 
 - If the `debugger` keyword occurs in **LibraryCode**, the debugger always breaks.  
 - If the `debugger` keyword occurs in **UnrelatedCode**, the debugger doesn't stop.  
