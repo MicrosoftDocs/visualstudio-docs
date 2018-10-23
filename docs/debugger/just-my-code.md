@@ -45,7 +45,7 @@ To view the code in a collapsed **[External Code]** frame, right-click in the **
 > [!NOTE]
 > **Show External Code** is a current user profiler setting that applies to all projects in all languages that are opened by the user.
 
-Double-clicking expanded external code lines in the **Call Stack** window highlights the calling code in green in the source code, or may open a symbol or source not found page. 
+Double-clicking expanded external code lines in the **Call Stack** window highlights the calling code in green in the source code. For DLLs or other modules not found or loaded, a symbol or source not found page may open.
 
 ##  <a name="BKMK__NET_Framework_Just_My_Code"></a>Just My Code in .NET Framework projects 
 
@@ -53,9 +53,9 @@ In .NET Framework projects, Just My Code uses symbol (*.pdb*) files and program 
   
 Three compiler attributes also affect what the .NET debugger considers to be user code:  
 
-- <xref:System.Diagnostics.DebuggerNonUserCodeAttribute> tells the debugger that the code it is applied to is not user code.  
+- <xref:System.Diagnostics.DebuggerNonUserCodeAttribute> tells the debugger that the code it's applied to isn't user code.  
 - <xref:System.Diagnostics.DebuggerHiddenAttribute> hides the code from the debugger, even if Just My Code is turned off.  
-- <xref:System.Diagnostics.DebuggerStepThroughAttribute> tells the debugger to step through the code it is applied to, rather than step into the code.  
+- <xref:System.Diagnostics.DebuggerStepThroughAttribute> tells the debugger to step through the code it's applied to, rather than step into the code.  
 
 The .NET Framework debugger considers all other code to be user code.  
 
@@ -64,14 +64,14 @@ During debugging:
 - **Debug** > **Step Into** (or **F11**) on non-user code steps over the code to the next line of user code. 
 - **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code. 
 
-If there is no more user code, execution continues until the app exits, a breakpoint is hit, or an error occurs.  
+If there's no more user code, debugging continues to the end, unless it hits another breakpoint or an error.
 
 <a name="BKMK_NET_Breakpoint_behavior"></a> 
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), the **No Source** window appears. You can then use a **Debug** > **Step** command to go to the next line of user code.
 
 If an unhandled exception occurs in non-user code, the debugger breaks at the user code line where the exception was generated.  
   
-If first chance exceptions are enabled for the exception, the calling user-code line is highlighted in green in source code, and the **Call Stack** window displays the annotated frame labeled **[External Code]**.  
+If first chance exceptions are enabled for the exception, the calling user-code line is highlighted in green in source code. The **Call Stack** window displays the annotated frame labeled **[External Code]**.  
   
 ##  <a name="BKMK_C___Just_My_Code"></a> Just My Code in C++ projects  
   
@@ -100,7 +100,7 @@ During debugging:
 - **Debug** > **Step Into** (or **F11**) on non-user code steps over the code to the next line of user code. 
 - **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code. 
 
-If there is no more user code, the debugger runs until the app exits, a breakpoint is hit, or an error occurs.  
+If there's no more user code, debugging continues to the end, unless it hits another breakpoint or an error.
 
 If the debugger breaks in non-user code (for example, you use **Debug** > **Break All** and pause in non-user code), stepping continues in the non-user code.
 
@@ -196,15 +196,15 @@ JavaScript Just My Code controls stepping and call stack display by categorizing
 |||  
 |-|-|  
 |**MyCode**|User code that you own and control.|  
-|**LibraryCode**|Non-user code from libraries that you use regularly and your application relies on to function correctly (for example WinJS or jQuery).|  
-|**UnrelatedCode**|Non-user code that could be running in your application, but you don't own it and your application doesn't directly rely on it to function correctly. For example, this could include an advertising SDK that displays ads. In UWP projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
+|**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example WinJS or jQuery).|  
+|**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode. In UWP projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
   
  The JavaScript debugger classifies these types of code by default:  
   
--   Script that is executed by passing a string to the host-provided `eval` function is classified as **MyCode**.  
--   Script that is executed by passing a string to the `Function` constructor is classified as **LibraryCode**.  
--   Script that is contained in a framework reference, such as WinJS or the Azure SDK, is classified as **LibraryCode**.  
--   Script that is executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is classified as **UnrelatedCode**.  
+-   Script executed by passing a string to the host-provided `eval` function is **MyCode**.  
+-   Script executed by passing a string to the `Function` constructor is **LibraryCode**.  
+-   Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.  
+-   Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.  
 
 The *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file specifies other user and non-user code for all Visual Studio JavaScript projects.  
 
@@ -224,13 +224,13 @@ All other code is classified as **MyCode**.
 During debugging: 
 
 - If a function is non-user code, **Debug** > **Step Into** (or **F11**) behaves the same as **Debug** > **Step Over** (or **F10**).  
-- If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, stepping temporarily behaves as if Just My Code is not enabled. When you step back to user code, Just My Code stepping is re-enabled.  
-- When a step in user code results in leaving the current execution context (such as doing a step on the last line of an event handler), the debugger stops at the next executed line of user code. For example, if a callback executes in **LibraryCode** code, the debugger continues until the next line of user code executes.
+- If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, stepping temporarily behaves as if Just My Code isn't enabled. When you step back to user code, Just My Code stepping is re-enabled.  
+- When a user code step results in leaving the current execution context, the debugger stops at the next executed user code line. For example, if a callback executes in **LibraryCode** code, the debugger continues until the next line of user code executes.
 - **Step Out** (or **Shift**+**F11**) stops on the next line of user code. 
 
-If there is no more user code, the debugger continues until the app exits, a breakpoint is hit, or an exception occurs.  
+If there's no more user code, debugging continues to the end, unless it hits another breakpoint or an error.
 
-Breakpoints set in code are always hit, regardless of the classification of that code.  
+Breakpoints set in code are always hit, however the code is classified.  
 
 - If the `debugger` keyword occurs in **LibraryCode**, the debugger always breaks.  
 - If the `debugger` keyword occurs in **UnrelatedCode**, the debugger doesn't stop.  
@@ -240,7 +240,7 @@ If an unhandled exception occurs in **MyCode** or **LibraryCode** code, the debu
 
 If an unhandled exception occurs in **UnrelatedCode**, and **MyCode** or **LibraryCode** is on the call stack, the debugger breaks.  
   
-If first-chance exceptions are enabled for the exception in the **Exception Settings** dialog box, and the exception occurs in **LibraryCode** or **UnrelatedCode**:  
+If first-chance exceptions are enabled for the exception, and the exception occurs in **LibraryCode** or **UnrelatedCode**:  
   
 -   If the exception is handled, the debugger doesn't break.  
 -   If the exception is not handled, the debugger breaks.  
@@ -249,7 +249,7 @@ If first-chance exceptions are enabled for the exception in the **Exception Sett
 
 To categorize user and non-user code for a single Visual Studio project, you can add a *.json* file named *mycode.json* to the root folder of the project.  
   
-Specifications in this file override the default classifications and the *mycode.default.wwa.json* file. The *mycode.json* file does not need to list all key value pairs, and the **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.  
+Specifications in this file override the default classifications and the *mycode.default.wwa.json* file. The *mycode.json* file does not need to list all key value pairs. The **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.  
   
 *Mycode.json* files use this syntax:  
   
@@ -303,4 +303,4 @@ Specifications in this file override the default classifications and the *mycode
 |**Libraries**|An array of URLs or files that are classified as **LibraryCode**.|  
 |**Unrelated**|An array of URLs or files that are classified as **UnrelatedCode**.|  
   
- The URL or file string can contain one or more `*` characters, which match zero or more characters. `*` is the equivalent of the regular expression `.*`.
+ The URL or file string can have one or more `*` characters, which match zero or more characters. `*` is the same as the regular expression `.*`.
