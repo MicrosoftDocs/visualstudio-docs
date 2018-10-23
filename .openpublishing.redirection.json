@@ -6849,7 +6849,7 @@
         },
         {
             "source_path": "docs/cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md",
-            "redirect_url": "/xamarin/cross-platform/deploy-test/",
+            "redirect_url": "/xamarin/tools/ci/devops/",
             "redirect_document_id": false
         }
     ]
