@@ -28,7 +28,7 @@ Retrieves a flag indicating whether a section contains comments or similar infor
   
 ```cpp#  
 HRESULT get_informational(  
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 };  
 ```  
   

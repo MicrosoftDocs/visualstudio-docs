@@ -28,7 +28,7 @@ Retrieves the size of the stack frame in bytes.
   
 ```cpp#  
 HRESULT get_size (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

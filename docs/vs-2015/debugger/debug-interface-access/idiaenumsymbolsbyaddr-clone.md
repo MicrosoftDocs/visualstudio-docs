@@ -28,7 +28,7 @@ Makes a copy of an object.
   
 ```cpp#  
 HRESULT Clone (   
-   IDiaEnumSymbolsByAddr** ppenum  
+   IDiaEnumSymbolsByAddr** ppenum  
 );  
 ```  
   

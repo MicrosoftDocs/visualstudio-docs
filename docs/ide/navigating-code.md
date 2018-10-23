@@ -59,10 +59,10 @@ To hide the navigation bar, change the **Navigation bar** option in the **Text E
 
 Finds all the references to the selected element in the solution. You can use this to check possible side-effects of a large refactoring, or to verify "dead" code. Press **F8** to jump between results. For more information, see [Find references in your code](finding-references.md).
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift**+**F12**
-**Mouse**    | Select **Find All References** from the context menu
+**Mouse** | Select **Find All References** from the context menu
 
 ## Reference highlighting
 
@@ -98,37 +98,37 @@ See more about these commands in the [Find code using Go To commands](../ide/go-
 
 Go To Definition takes you to the definition of the selected element. For more information, see [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **F12**
-**Mouse**    | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)
+**Mouse** | Right-click on the type name and select **Go To Definition**  OR  press **Ctrl** and click on the type name (new for Visual Studio 2017 version 15.4)
 
 ## Peek Definition
 
 Peek Definition displays the definition of the selected element in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt**+**F12**
-**Mouse**    | Right-click on the type name and select **Peek Definition** OR press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)
+**Mouse** | Right-click on the type name and select **Peek Definition** OR press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)
 
 ## Go To Implementation
 
 Using Go To Implementation, you can navigate from a base class or type to its implementations. If there are multiple implementations, you will see them listed in the **Find Symbol Results** window:
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**F12**
-**Mouse**    | Right-click on the type name and select **Go To Implementation**
+**Mouse** | Right-click on the type name and select **Go To Implementation**
 
 ## Call Hierarchy
 
 You can view calls to and from a method in the [Call Hierarchy window](../ide/reference/call-hierarchy.md):
 
-Input        | Function
+Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**K**, **Ctrl**+**T**
-**Mouse**    | Right-click on the member name and select **View Call Hierarchy**
+**Mouse** | Right-click on the member name and select **View Call Hierarchy**
 
 ## Next Method and Previous Method commands (Visual Basic)
 

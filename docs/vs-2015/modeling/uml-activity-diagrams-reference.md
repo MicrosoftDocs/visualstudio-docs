@@ -31,15 +31,15 @@ An *activity diagram* shows a business process or a software process as a flow o
   
  You can use an activity diagram to describe processes of several types, such as the following examples:  
   
--   A business process or a flow of work between users and your system. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
+- A business process or a flow of work between users and your system. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
   
--   The steps performed in a use case. For more information, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
+- The steps performed in a use case. For more information, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
   
--   A software protocol, that is, the permitted sequences of interactions between components.  
+- A software protocol, that is, the permitted sequences of interactions between components.  
   
--   A software algorithm.  
+- A software algorithm.  
   
- This topic describes the elements that you can use in activity diagrams. For more detailed in information about drawing activity diagrams see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md). To create a UML activity diagram, on the **Architecture** menu, click **New UML or Layer Diagram**. For more information about how to draw modeling diagrams in general, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+  This topic describes the elements that you can use in activity diagrams. For more detailed in information about drawing activity diagrams see [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md). To create a UML activity diagram, on the **Architecture** menu, click **New UML or Layer Diagram**. For more information about how to draw modeling diagrams in general, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
 ## Reading Activity Diagrams  
  The tables in the following sections describe the elements that you can use on an activity diagram and their main properties. For a full list of the properties of the elements, see [Properties of elements on UML activity diagrams](../modeling/properties-of-elements-on-uml-activity-diagrams.md).  

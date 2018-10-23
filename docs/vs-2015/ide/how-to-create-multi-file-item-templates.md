@@ -24,13 +24,13 @@ manager: "ghogen"
 
 Item templates may only specify one item, but sometimes the item is made up of multiple files. For example, a Windows Forms item template for Visual Basic requires the following three files:  
   
--   A .vb file that contains the code for the form.  
+- A .vb file that contains the code for the form.  
   
--   A .designer.vb file that contains the designer information for the form.  
+- A .designer.vb file that contains the designer information for the form.  
   
--   A .resx file that contains the embedded resources for the form.  
+- A .resx file that contains the embedded resources for the form.  
   
- Multi-file item templates require parameters to ensure the correct file name extensions are used when the item is created in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. If you create an item template by using the **Export Template** wizard, these parameters are automatically generated, and no further editing is required. The following steps explain how to use parameters to ensure that the correct file name extensions are created.  
+  Multi-file item templates require parameters to ensure the correct file name extensions are used when the item is created in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. If you create an item template by using the **Export Template** wizard, these parameters are automatically generated, and no further editing is required. The following steps explain how to use parameters to ensure that the correct file name extensions are created.  
   
 ### To manually create a multi-file item template  
   

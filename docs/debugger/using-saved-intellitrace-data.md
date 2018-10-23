@@ -153,25 +153,25 @@ Go to specific points in your application's execution when you start debugging f
 
 ##### Start debugging with a SharePoint correlation ID
 
-1.  Copy the SharePoint correlation ID from its source.
+1. Copy the SharePoint correlation ID from its source.
 
-     For example:
+    For example:
 
-     ![IntelliTrace &#45; SharePoint error &#45; correlation ID](../debugger/media/sharepointerror_intellitrace.png "SharePointError_IntelliTrace")
+    ![IntelliTrace &#45; SharePoint error &#45; correlation ID](../debugger/media/sharepointerror_intellitrace.png "SharePointError_IntelliTrace")
 
-2.  Open the .iTrace file, then go to **Analysis** and enter the SharePoint correlation ID to review the matching web request and recorded events.
+2. Open the .iTrace file, then go to **Analysis** and enter the SharePoint correlation ID to review the matching web request and recorded events.
 
-     ![IntelliTrace log &#45; Enter SharePoint correlation ID](../debugger/media/entersharepointcorrelationid.png "EnterSharePointCorrelationID")
+    ![IntelliTrace log &#45; Enter SharePoint correlation ID](../debugger/media/entersharepointcorrelationid.png "EnterSharePointCorrelationID")
 
-3.  Under **Request Events**, examine the events. Starting from the top, events appear in the order that they happened.
+3. Under **Request Events**, examine the events. Starting from the top, events appear in the order that they happened.
 
-    1.  Choose an event to see its details.
+   1. Choose an event to see its details.
 
-    2.  Choose **Start Debugging** to start debugging at the point where the event happened.
+   2. Choose **Start Debugging** to start debugging at the point where the event happened.
 
-     ![IntelliTrace log file &#45; View web request &#43; events](../debugger/media/entersharepointcorrelationid2.png "EnterSharePointCorrelationID2")
+      ![IntelliTrace log file &#45; View web request &#43; events](../debugger/media/entersharepointcorrelationid2.png "EnterSharePointCorrelationID2")
 
- You can see these kinds of SharePoint events along with IntelliTrace events:
+   You can see these kinds of SharePoint events along with IntelliTrace events:
 
 -   **User profile events**
 
@@ -193,28 +193,28 @@ Go to specific points in your application's execution when you start debugging f
 
 ##### Start debugging from an unhandled exception
 
-1.  Choose a SharePoint correlation ID for an exception. Exceptions are grouped by type and call stack.
+1. Choose a SharePoint correlation ID for an exception. Exceptions are grouped by type and call stack.
 
-2.  (Optional) Expand **Call Stack** to see the call stack for a group of exceptions.
+2. (Optional) Expand **Call Stack** to see the call stack for a group of exceptions.
 
-3.  Choose **Debug Exception** to start debugging at the point where and when the exception happened.
+3. Choose **Debug Exception** to start debugging at the point where and when the exception happened.
 
-     ![IntelliTrace log &#45; SharePoint unhandled exceptions](../debugger/media/sharepointunhandledexceptions_intellitrace.png "SharePointUnhandledExceptions_IntelliTrace")
+    ![IntelliTrace log &#45; SharePoint unhandled exceptions](../debugger/media/sharepointunhandledexceptions_intellitrace.png "SharePointUnhandledExceptions_IntelliTrace")
 
- For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).
+   For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).
 
 ###  <a name="ThreadsList"></a> Threads List
  Examine the recorded threads that ran in the target process. You can start debugging from the first valid IntelliTrace event in a selected thread.
 
 ##### To start debugging from a specific thread
 
-1.  Under **Threads List**, choose a thread.
+1. Under **Threads List**, choose a thread.
 
-2.  At the bottom of **Threads List**, choose **Start Debugging**. You can also double-click a thread.
+2. At the bottom of **Threads List**, choose **Start Debugging**. You can also double-click a thread.
 
-     To start debugging from where the app begins, double-click **Main Thread**. See [IntelliTrace Features](../debugger/intellitrace-features.md).
+    To start debugging from where the app begins, double-click **Main Thread**. See [IntelliTrace Features](../debugger/intellitrace-features.md).
 
- Thread data that the user creates might be more useful than threads that a server creates and manages for IIS-hosted Web apps.
+   Thread data that the user creates might be more useful than threads that a server creates and manages for IIS-hosted Web apps.
 
 |**Column**|**Shows the**|
 |----------------|-------------------|

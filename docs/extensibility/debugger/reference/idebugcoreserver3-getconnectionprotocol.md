@@ -23,13 +23,13 @@ Returns a value indicating the protocol that is being used to communicate betwee
   
 ```cpp  
 HRESULT GetConnectionProtocol(  
-   CONNECTION_PROTOCOL* pProtocol  
+   CONNECTION_PROTOCOL* pProtocol  
 );  
 ```  
   
 ```csharp  
 int GetConnectionProtocol(  
-   CONNECTION_PROTOCOL[] pProtocol  
+   CONNECTION_PROTOCOL[] pProtocol  
 );  
 ```  
   

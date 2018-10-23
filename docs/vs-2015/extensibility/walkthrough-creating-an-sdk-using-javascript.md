@@ -19,11 +19,11 @@ manager: "ghogen"
 
 This walkthrough teaches how to use JavaScript to create a simple math SDK as a Visual Studio Extension (VSIX).  The walkthrough is divided into these parts:  
   
--   [To create the SimpleMathVSIX extension SDK project](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSimpleMathVSIX)  
+- [To create the SimpleMathVSIX extension SDK project](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSimpleMathVSIX)  
   
--   [To create a sample app that uses the SDK](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSampleApp)  
+- [To create a sample app that uses the SDK](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSampleApp)  
   
- For JavaScript, there is no class library project type. In this walkthrough, the sample arithmetic.js file is created directly in the VSIX project. In practice, we recommend that you first build and test the JavaScript and CSS files as a Windows Store app—for example, by using the **Blank App** template—before you put them in a VSIX project.  
+  For JavaScript, there is no class library project type. In this walkthrough, the sample arithmetic.js file is created directly in the VSIX project. In practice, we recommend that you first build and test the JavaScript and CSS files as a Windows Store app—for example, by using the **Blank App** template—before you put them in a VSIX project.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  

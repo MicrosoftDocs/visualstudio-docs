@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1033: Interface methods should be callable by child types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|InterfaceMethodsShouldBeCallableByChildTypes|

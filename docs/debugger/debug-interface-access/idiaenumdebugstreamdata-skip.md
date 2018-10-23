@@ -22,7 +22,7 @@ Skips a specified number of records in an enumerated sequence.
   
 ```C++  
 HRESULT Skip (   
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   

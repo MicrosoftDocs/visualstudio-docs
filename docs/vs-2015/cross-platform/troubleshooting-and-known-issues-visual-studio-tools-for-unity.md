@@ -58,21 +58,21 @@ In this section, you'll find solutions to common issues with Visual Studio Tools
   
 ##### To report that Visual Studio freezes while debugging with Visual Studio Tools for Unity  
   
-1.  Open a new instance of Visual Studio.  
+1. Open a new instance of Visual Studio.  
   
-2.  Open the Attach to Process dialog. In the new instance of Visual Studio, on the main menu, choose **Debug**, **Attach to Process**.  
+2. Open the Attach to Process dialog. In the new instance of Visual Studio, on the main menu, choose **Debug**, **Attach to Process**.  
   
-3.  Attach the debugger to the frozen instance of Visual Studio. In the **Attach to Process** dialog, select the frozen instance of Visual Studio from the **Available Processes** table, then choose the **Attach** button.  
+3. Attach the debugger to the frozen instance of Visual Studio. In the **Attach to Process** dialog, select the frozen instance of Visual Studio from the **Available Processes** table, then choose the **Attach** button.  
   
-4.  Pause the Debugger. In the new instance of Visual Studio, on the main menu, choose **Debug**, **Break All** or just press **Ctrl+Alt+Break**.  
+4. Pause the Debugger. In the new instance of Visual Studio, on the main menu, choose **Debug**, **Break All** or just press **Ctrl+Alt+Break**.  
   
-5.  Create a thread-dump. In the Command window, enter the following command and press **Enter**.  
+5. Create a thread-dump. In the Command window, enter the following command and press **Enter**.  
   
-    ```powershell  
-    Debug.ListCallStack /AllThreads /ShowExternalCode  
-    ```  
+   ```powershell  
+   Debug.ListCallStack /AllThreads /ShowExternalCode  
+   ```  
   
-     You might need to make the **Command** window visible first. In Visual Studio, on the main menu, choose **View**, **Other Windows**, **Command Window**.  
+    You might need to make the **Command** window visible first. In Visual Studio, on the main menu, choose **View**, **Other Windows**, **Command Window**.  
   
-6.  Finally, send the thread-dump to [vstusp@microsoft.com](mailto:vstusp@microsoft.com), along with a description of what you were doing when Visual Studio became frozen.
+6. Finally, send the thread-dump to [vstusp@microsoft.com](mailto:vstusp@microsoft.com), along with a description of what you were doing when Visual Studio became frozen.
 

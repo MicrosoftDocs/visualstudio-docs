@@ -26,13 +26,13 @@ Retrieves the number of type parameters that are associated with the generic fie
   
 ```cpp#  
 HRESULT TypeParamCount(  
-   ULONG32* pcParams  
+   ULONG32* pcParams  
 );  
 ```  
   
 ```csharp  
 int TypeParamCount(  
-   ref uint pcParams  
+   ref uint pcParams  
 );  
 ```  
   

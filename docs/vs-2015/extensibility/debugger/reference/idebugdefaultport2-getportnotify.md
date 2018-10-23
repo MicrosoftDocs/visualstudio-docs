@@ -27,13 +27,13 @@ This method gets an [IDebugPortNotify2](../../../extensibility/debugger/referenc
   
 ```cpp  
 HRESULT GetPortNotify(  
-   IDebugPortNotify2** ppPortNotify  
+   IDebugPortNotify2** ppPortNotify  
 );  
 ```  
   
 ```csharp  
 int GetPortNotify(  
-   out IDebugPortNotify2 ppPortNotify  
+   out IDebugPortNotify2 ppPortNotify  
 );  
 ```  
   

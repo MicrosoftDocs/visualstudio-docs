@@ -26,7 +26,7 @@ Skips a specified number of `ExtendedDebugPropertyInfo` structures in an enumera
   
 ```  
 HRESULT Skip(  
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   

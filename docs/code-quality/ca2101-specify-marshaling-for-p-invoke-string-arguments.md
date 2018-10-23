@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2101: Specify marshaling for P/Invoke string arguments
+
 |||
 |-|-|
 |TypeName|SpecifyMarshalingForPInvokeStringArguments|

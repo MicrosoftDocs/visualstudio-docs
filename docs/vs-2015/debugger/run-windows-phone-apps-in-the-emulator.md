@@ -34,17 +34,17 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
  When you run a Windows Phone app for the first time in Windows Phone Emulator, the following events occur:  
   
-1.  The emulator starts.  
+1. The emulator starts.  
   
-2.  The emulator loads the Windows Phone operating system.  
+2. The emulator loads the Windows Phone operating system.  
   
-3.  The emulator displays the Windows Phone Start screen.  
+3. The emulator displays the Windows Phone Start screen.  
   
-4.  Your app is deployed to the emulator.  
+4. Your app is deployed to the emulator.  
   
-5.  Your app runs on the emulator.  
+5. Your app runs on the emulator.  
   
- If the selected emulator is already running, your app is deployed and started in the running emulator. Only one instance of each emulator can run at a time.  
+   If the selected emulator is already running, your app is deployed and started in the running emulator. Only one instance of each emulator can run at a time.  
   
 > [!TIP]
 >  When you’re testing your app on the emulator, leave the emulator open between debugging sessions so you can run your app again quickly.  
@@ -69,13 +69,13 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
 ##### To stop a running app  
   
--   To stop a running app, do one of the following:  
+- To stop a running app, do one of the following:  
   
-    -   In Visual Studio, on the **Debug** menu, click **Stop Debugging**, or press Shift+F5.  
+  - In Visual Studio, on the **Debug** menu, click **Stop Debugging**, or press Shift+F5.  
   
-    -   In the emulator, press the **Back** button to exit the app. If the active page of the app was not the app’s start page, you may have to press the **Back** button more than once.  
+  - In the emulator, press the **Back** button to exit the app. If the active page of the app was not the app’s start page, you may have to press the **Back** button more than once.  
   
-     The app exits and the Start screen opens. This ends the current debugging session.  
+    The app exits and the Start screen opens. This ends the current debugging session.  
   
 ##### To restart an app without debugging  
   
@@ -116,21 +116,21 @@ The Windows Phone emulator provides a virtualized environment in which you can d
 ##  <a name="BKMK_buttons"></a> Use the simulated hardware buttons on the emulator  
  Simulate the use of a phone's hardware buttons by using the simulated hardware buttons on the right side of the emulator screen.  
   
--   Click the **Power** button to simulate turning the display off and on. Click and hold to simulate turning the phone off.  
+- Click the **Power** button to simulate turning the display off and on. Click and hold to simulate turning the phone off.  
   
--   Click the **Volume Up** or **Volume Down** button to simulate changing the volume of the phone's speaker for phone calls and notifications.  
+- Click the **Volume Up** or **Volume Down** button to simulate changing the volume of the phone's speaker for phone calls and notifications.  
   
--   The **Camera** button launches the camera app. You can simulate taking a photo or a video by using the controls in the camera app.  
+- The **Camera** button launches the camera app. You can simulate taking a photo or a video by using the controls in the camera app.  
   
- The following screenshot shows the simulated hardware buttons.  
+  The following screenshot shows the simulated hardware buttons.  
   
-1.  The left image displays the Start screen on the emulator.  
+1. The left image displays the Start screen on the emulator.  
   
-2.  The middle image displays the emulator after tapping the **Power** button to turn the display off.  
+2. The middle image displays the emulator after tapping the **Power** button to turn the display off.  
   
-3.  The right image displays the emulator screen after tapping the **Volume Up** button to increase the volume.  
+3. The right image displays the emulator screen after tapping the **Volume Up** button to increase the volume.  
   
- ![Buttons on the Windows Phone emulator](../debugger/media/wp-emulator-buttons.png "WP_Emulator_buttons")  
+   ![Buttons on the Windows Phone emulator](../debugger/media/wp-emulator-buttons.png "WP_Emulator_buttons")  
   
 ##  <a name="BKMK_tasks_kbd"></a> Use the computer keyboard with the emulator  
  The emulator supports mapping of the hardware keyboard on your development computer to the keyboard on a Windows Phone. The behavior of the keys is the same as on a Windows Phone device.  
@@ -169,21 +169,21 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
  For example, if your app requires several contacts, you can create the contact records one time and save a snapshot of the emulator. Otherwise you have to recreate the contact records every time you start the emulator.  
   
--   Click **New checkpoint** to capture a new snapshot of the state of the emulator with the data and settings required to test your app again later. The new checkpoint is added to the **Checkpoints** list.  
+- Click **New checkpoint** to capture a new snapshot of the state of the emulator with the data and settings required to test your app again later. The new checkpoint is added to the **Checkpoints** list.  
   
-     You can't capture a checkpoint while the debugger is attached to the emulator.  
+   You can't capture a checkpoint while the debugger is attached to the emulator.  
   
--   Select a checkpoint in the **Checkpoints** list to view info about the checkpoint.  
+- Select a checkpoint in the **Checkpoints** list to view info about the checkpoint.  
   
--   Select the radio button in the **Default** column to make a saved checkpoint the default checkpoint for the active emulator.  
+- Select the radio button in the **Default** column to make a saved checkpoint the default checkpoint for the active emulator.  
   
--   Click **Restore** to restart the Windows Phone operating system on the emulator and load the selected snapshot.  
+- Click **Restore** to restart the Windows Phone operating system on the emulator and load the selected snapshot.  
   
--   Click **Delete** to delete a snapshot that you no longer need.  
+- Click **Delete** to delete a snapshot that you no longer need.  
   
- The original emulator image always appears as the first item in the **Checkpoints** list and cannot be changed or deleted. However you can select a different snapshot as the default emulator image.  
+  The original emulator image always appears as the first item in the **Checkpoints** list and cannot be changed or deleted. However you can select a different snapshot as the default emulator image.  
   
- ![Checkpoints tab of the Windows Phone Emulator](../debugger/media/wp-emulator-checkpoints.png "WP_Emulator_checkpoints")  
+  ![Checkpoints tab of the Windows Phone Emulator](../debugger/media/wp-emulator-checkpoints.png "WP_Emulator_checkpoints")  
   
 ##  <a name="BKMK_tasks_shot"></a> Capture screenshots in the emulator  
  You can create screenshots of your Windows Phone apps by using the screenshot tool from the Additional Tools window. The tool creates PNG files that match the resolution of the running emulator.  
@@ -192,27 +192,27 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
 #### To create an app screenshot by using the built-in emulator screenshot tool  
   
-1.  To optimize the quality of your screenshots, set the zoom level of the emulator to 100 percent. The higher you set the zoom level, the better the quality of the screenshot.  
+1. To optimize the quality of your screenshots, set the zoom level of the emulator to 100 percent. The higher you set the zoom level, the better the quality of the screenshot.  
   
-2.  Start your app in the emulator.  
+2. Start your app in the emulator.  
   
-3.  On the emulator toolbar, click the expand button to open the **Additional Tools** window.  
+3. On the emulator toolbar, click the expand button to open the **Additional Tools** window.  
   
-4.  Click the **Screenshot** tab.  
+4. Click the **Screenshot** tab.  
   
-5.  When your app is ready, click the **Capture** button.  
+5. When your app is ready, click the **Capture** button.  
   
-     The screenshot appears in the workspace.  
+    The screenshot appears in the workspace.  
   
-6.  Click the **Save** button to open the **Save As** dialog box.  
+6. Click the **Save** button to open the **Save As** dialog box.  
   
-7.  Choose the location and **File name** that you want, and then click **Save**.  
+7. Choose the location and **File name** that you want, and then click **Save**.  
   
-8.  Optionally, navigate to other pages in your app and capture additional screenshots.  
+8. Optionally, navigate to other pages in your app and capture additional screenshots.  
   
 9. Launch an emulator with a different screen resolution to capture the same screenshots at a different resolution. If you ran your app with debugging, you have to stop debugging before you can run it again on another emulator.  
   
- Disable the frame rate counters on the emulator screen before you capture screenshots that will be submitted to the Windows Phone Store.  
+   Disable the frame rate counters on the emulator screen before you capture screenshots that will be submitted to the Windows Phone Store.  
   
 #### To disable frame rate counters in the emulator before capturing screenshots  
   

@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2237: Mark ISerializable types with SerializableAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|MarkISerializableTypesWithSerializable|

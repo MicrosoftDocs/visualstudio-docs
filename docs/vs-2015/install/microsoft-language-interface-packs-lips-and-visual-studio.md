@@ -91,15 +91,15 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
   
 #### To set the language that is used for the UI text in Visual Studio  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, expand **Environment** and then click **International Settings**.  
+2. In the **Options** dialog box, expand **Environment** and then click **International Settings**.  
   
-3.  In the **Language** list, choose the language in which the UI text should appear in the development environment.  
+3. In the **Language** list, choose the language in which the UI text should appear in the development environment.  
   
-     To have the UI text in the IDE match the operating system display language setting, select **Same as Microsoft Windows**.  
+    To have the UI text in the IDE match the operating system display language setting, select **Same as Microsoft Windows**.  
   
- You can also use the devenv command to set the language that's used for UI. For more information, see [/LCID (devenv.exe)](../ide/reference/lcid-devenv-exe.md).  
+   You can also use the devenv command to set the language that's used for UI. For more information, see [/LCID (devenv.exe)](../ide/reference/lcid-devenv-exe.md).  
   
 ## See Also  
  [International Settings, Environment, Options Dialog Box](../ide/reference/international-settings-environment-options-dialog-box.md)

@@ -38,23 +38,23 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  In this topic:  
   
--   [Inspecting the live DOM](#InspectingDOM)  
+- [Inspecting the live DOM](#InspectingDOM)  
   
--   [Selecting elements](#SelectingElements)  
+- [Selecting elements](#SelectingElements)  
   
- For additional info on using the DOM Explorer, see the following topics:  
+  For additional info on using the DOM Explorer, see the following topics:  
   
--   [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)  
+- [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)  
   
--   [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)  
+- [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)  
   
--   [View DOM event listeners](../debugger/view-dom-event-listeners.md)  
+- [View DOM event listeners](../debugger/view-dom-event-listeners.md)  
   
--   [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)  
+- [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)  
   
--   [Debug a WebView control](../debugger/debug-a-webview-control.md)  
+- [Debug a WebView control](../debugger/debug-a-webview-control.md)  
   
- For info on other JavaScript debugging features, such as using the JavaScript Console window and setting breakpoints, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
+  For info on other JavaScript debugging features, such as using the JavaScript Console window and setting breakpoints, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
   
 ##  <a name="InspectingDOM"></a> Inspecting the live DOM  
  DOM Explorer shows you a view of the rendered page, and you can use DOM Explorer to change values and immediately see the results. This enables you to test changes without stopping and restarting the debugger. The source code in your project doesn't change when you interact with the page by using this method, so when you find the desired code corrections, you make the changes to your source code.  
@@ -64,13 +64,13 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  You can use DOM Explorer to:  
   
--   Navigate the DOM element subtree and inspect rendered HTML, CSS, and JavaScript code.  
+- Navigate the DOM element subtree and inspect rendered HTML, CSS, and JavaScript code.  
   
--   Dynamically edit attributes and CSS styles for rendered elements and immediately see the results.  
+- Dynamically edit attributes and CSS styles for rendered elements and immediately see the results.  
   
--   Inspect how CSS styles have been applied to page elements, and trace the rules that have been applied.  
+- Inspect how CSS styles have been applied to page elements, and trace the rules that have been applied.  
   
- When debugging apps, you often need to select elements in DOM Explorer. When you select an element, the values that appear on the tabs on the right side of the DOM Explorer automatically update to reflect the selected element in DOM Explorer. These are the tabs: **Styles**, **Computed**, **Layout**. Windows Store apps also support the **Events** and **Changes** tabs. For more info about selecting elements, see [Selecting elements](#SelectingElements).  
+  When debugging apps, you often need to select elements in DOM Explorer. When you select an element, the values that appear on the tabs on the right side of the DOM Explorer automatically update to reflect the selected element in DOM Explorer. These are the tabs: **Styles**, **Computed**, **Layout**. Windows Store apps also support the **Events** and **Changes** tabs. For more info about selecting elements, see [Selecting elements](#SelectingElements).  
   
 > [!TIP]
 >  If the DOM Explorer window is closed, choose **Debug**>**Windows** > **DOM Explorer** to re-open it. The window only appears during a script debugging session.  
@@ -82,100 +82,100 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 #### To debug by inspecting the live DOM  
   
-1.  Create a new solution in Visual Studio by choosing **File** > **New Project**.  
+1. Create a new solution in Visual Studio by choosing **File** > **New Project**.  
   
-2.  Choose **JavaScript** > **Store**, choose either **Windows Apps** or **Windows Phone Apps**, and then choose **Blank App**.  
+2. Choose **JavaScript** > **Store**, choose either **Windows Apps** or **Windows Phone Apps**, and then choose **Blank App**.  
   
-3.  Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
+3. Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
   
-4.  In the BODY element of default.html, add this code:  
+4. In the BODY element of default.html, add this code:  
   
-    ```html  
-    <div id="flipTemplate" data-win-control="WinJS.Binding.Template"  
-             style="display:none">  
-        <div class="fixedItem" >  
-            <img src="#" data-win-bind="src: flipImg" />  
-        </div>  
-    </div>  
-    <div id="fView" style="width:100px;height:100px"  
-        data-win-control="WinJS.UI.FlipView" data-win-options="{  
-        itemDataSource: Data.items.dataSource, itemTemplate: flipTemplate }">  
-    </div>  
-    ```  
+   ```html  
+   <div id="flipTemplate" data-win-control="WinJS.Binding.Template"  
+            style="display:none">  
+       <div class="fixedItem" >  
+           <img src="#" data-win-bind="src: flipImg" />  
+       </div>  
+   </div>  
+   <div id="fView" style="width:100px;height:100px"  
+       data-win-control="WinJS.UI.FlipView" data-win-options="{  
+       itemDataSource: Data.items.dataSource, itemTemplate: flipTemplate }">  
+   </div>  
+   ```  
   
-5.  Open default.css, and add the following CSS:  
+5. Open default.css, and add the following CSS:  
   
-    ```css  
-    #fView {  
-        background-color:#0094ff;  
-        height: 100%;  
-        width: 100%;  
-        margin: 25%;  
-    }  
-    ```  
+   ```css  
+   #fView {  
+       background-color:#0094ff;  
+       height: 100%;  
+       width: 100%;  
+       margin: 25%;  
+   }  
+   ```  
   
-6.  Replace the code in default.js with this code:  
+6. Replace the code in default.js with this code:  
   
-    ```javascript  
-    (function () {  
-        "use strict";  
+   ```javascript  
+   (function () {  
+       "use strict";  
   
-        var app = WinJS.Application;  
-        var activation = Windows.ApplicationModel.Activation;  
+       var app = WinJS.Application;  
+       var activation = Windows.ApplicationModel.Activation;  
   
-        var myData = [];  
-        for (var x = 0; x < 4; x++) {  
-            myData[x] = { flipImg: "/images/logo.png" }  
-        };  
+       var myData = [];  
+       for (var x = 0; x < 4; x++) {  
+           myData[x] = { flipImg: "/images/logo.png" }  
+       };  
   
-        var pages = new WinJS.Binding.List(myData, { proxy: true });  
+       var pages = new WinJS.Binding.List(myData, { proxy: true });  
   
-        app.onactivated = function (args) {  
-            if (args.detail.kind === activation.ActivationKind.launch) {  
-                if (args.detail.previousExecutionState !==  
-                activation.ApplicationExecutionState.terminated) {  
-                    // TODO: . . .  
-                } else {  
-                    // TODO: . . .  
-                }  
-                args.setPromise(WinJS.UI.processAll());  
+       app.onactivated = function (args) {  
+           if (args.detail.kind === activation.ActivationKind.launch) {  
+               if (args.detail.previousExecutionState !==  
+               activation.ApplicationExecutionState.terminated) {  
+                   // TODO: . . .  
+               } else {  
+                   // TODO: . . .  
+               }  
+               args.setPromise(WinJS.UI.processAll());  
   
-                updateImages();  
-            }  
-        };  
+               updateImages();  
+           }  
+       };  
   
-        function updateImages() {  
+       function updateImages() {  
   
-            pages.setAt(0, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223195" });  
-            pages.setAt(1, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223196" });  
-            pages.setAt(2, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
-        };  
+           pages.setAt(0, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223195" });  
+           pages.setAt(1, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223196" });  
+           pages.setAt(2, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
+       };  
   
-        app.oncheckpoint = function (args) {  
-        };  
+       app.oncheckpoint = function (args) {  
+       };  
   
-        app.start();  
+       app.start();  
   
-        var publicMembers = {  
-            items: pages  
-        };  
+       var publicMembers = {  
+           items: pages  
+       };  
   
-        WinJS.Namespace.define("Data", publicMembers);  
+       WinJS.Namespace.define("Data", publicMembers);  
   
-    })();  
-    ```  
+   })();  
+   ```  
   
-     The following illustration shows what we want to see if we run this app in the Phone Emulator (it looks similar in the Simulator). However, to get the app into this state we will have to fix a number of bugs first.  
+    The following illustration shows what we want to see if we run this app in the Phone Emulator (it looks similar in the Simulator). However, to get the app into this state we will have to fix a number of bugs first.  
   
-     ![FlipView app showing expected results](../debugger/media/js-dom-appfixed.png "JS_DOM_AppFixed")  
+    ![FlipView app showing expected results](../debugger/media/js-dom-appfixed.png "JS_DOM_AppFixed")  
   
-7.  Choose either **Simulator** or **Emulator 8.1 WVGA 4 inch 512MB** from the drop-down list next to the **Start Debugging** button on the **Debug** toolbar:  
+7. Choose either **Simulator** or **Emulator 8.1 WVGA 4 inch 512MB** from the drop-down list next to the **Start Debugging** button on the **Debug** toolbar:  
   
-     ![Select debug target list](../debugger/media/js-select-target.png "JS_Select_Target")  
+    ![Select debug target list](../debugger/media/js-select-target.png "JS_Select_Target")  
   
-8.  Choose **Debug** > **Start Debugging**, or press F5, to run your app in debug mode.  
+8. Choose **Debug** > **Start Debugging**, or press F5, to run your app in debug mode.  
   
-     This runs the app in the Simulator or the Phone Emulator, but you'll see a mostly blank screen because the styling has a few bugs in it. The first `FlipView` image appears in a small square near the middle of the screen.  
+    This runs the app in the Simulator or the Phone Emulator, but you'll see a mostly blank screen because the styling has a few bugs in it. The first `FlipView` image appears in a small square near the middle of the screen.  
   
 9. If you're running the app in the Simulator, choose the **Change resolution** toolbar command on the right of the Simulator to configure a screen resolution of 1280 x 800. This will ensure that values shown in the following steps match what you see in the Simulator.  
   
@@ -228,15 +228,15 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      In the **Layout** tab, you'll see the following values:  
   
-    -   For the Simulator: 320px (Offset) and 320px (Margin).  
+    - For the Simulator: 320px (Offset) and 320px (Margin).  
   
-    -   For the Phone Emulator: 100px (Offset) and 100px (Margin).  
+    - For the Phone Emulator: 100px (Offset) and 100px (Margin).  
   
-     The following illustration shows how the **Layout** tab looks if you're using the Phone Emulator (100px offset and margin).  
+      The following illustration shows how the **Layout** tab looks if you're using the Phone Emulator (100px offset and margin).  
   
-     ![DOM Explorer Layout tab](../debugger/media/js-dom-explorer-layout.png "JS_DOM_Explorer_Layout")  
+      ![DOM Explorer Layout tab](../debugger/media/js-dom-explorer-layout.png "JS_DOM_Explorer_Layout")  
   
-     This doesn’t seem right. The **Computed** tab also shows the same margin values.  
+      This doesn’t seem right. The **Computed** tab also shows the same margin values.  
   
 21. Choose the **Styles** tab and locate the `#fView` CSS selector. Here, you see a value of 25% for the **margin** property.  
   
@@ -261,23 +261,23 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="SelectingElements"></a> Selecting elements  
  You can select DOM elements in three ways when debugging an app:  
   
--   By clicking on elements directly in the DOM Explorer window (or by using the arrow keys).  
+- By clicking on elements directly in the DOM Explorer window (or by using the arrow keys).  
   
--   By using the **Select Element** button (Ctrl+B).  
+- By using the **Select Element** button (Ctrl+B).  
   
--   By using the `select` command, which is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md).  
+- By using the `select` command, which is one of the [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
- When you use the DOM Explorer window to select elements, and rest the mouse pointer on an element, the corresponding element is highlighted in the running app. You must click on the element in DOM Explorer to select it, or you can use the arrow keys to highlight and select elements.You can also select elements in DOM Explorer by using the **Select element** button. The following illustration shows the **Select Element** button.  
+  When you use the DOM Explorer window to select elements, and rest the mouse pointer on an element, the corresponding element is highlighted in the running app. You must click on the element in DOM Explorer to select it, or you can use the arrow keys to highlight and select elements.You can also select elements in DOM Explorer by using the **Select element** button. The following illustration shows the **Select Element** button.  
   
- ![Select Element Button in DOM Explorer](../debugger/media/js-dom-select-element-button.png "JS_DOM_Select_Element_Button")  
+  ![Select Element Button in DOM Explorer](../debugger/media/js-dom-select-element-button.png "JS_DOM_Select_Element_Button")  
   
- When you click **Select element** (or press Ctrl+B), this changes the selection mode so that you can select an item in DOM Explorer by clicking it in the running app. The mode changes back to normal selection mode after a single click. When you click **Select element**, the app comes to the foreground and the cursor changes to reflect the new selection mode. When you click the outlined element, DOM Explorer returns to the foreground with the specified element selected.  
+  When you click **Select element** (or press Ctrl+B), this changes the selection mode so that you can select an item in DOM Explorer by clicking it in the running app. The mode changes back to normal selection mode after a single click. When you click **Select element**, the app comes to the foreground and the cursor changes to reflect the new selection mode. When you click the outlined element, DOM Explorer returns to the foreground with the specified element selected.  
   
- Before you choose **Select Element**, you can specify whether to highlight elements in the running app by toggling the **Display web page highlights** button. The following illustration shows this button. Highlights are displayed by default.  
+  Before you choose **Select Element**, you can specify whether to highlight elements in the running app by toggling the **Display web page highlights** button. The following illustration shows this button. Highlights are displayed by default.  
   
- ![Display web page highlights button](../debugger/media/js-dom-display-highlights-button.png "JS_DOM_Display_Highlights_Button")  
+  ![Display web page highlights button](../debugger/media/js-dom-display-highlights-button.png "JS_DOM_Display_Highlights_Button")  
   
- When you choose to highlight elements, elements that you hover over in the Simulator are highlighted. Colors for highlighted elements match the box model that appears in the **Layout** tab of DOM Explorer.  
+  When you choose to highlight elements, elements that you hover over in the Simulator are highlighted. Colors for highlighted elements match the box model that appears in the **Layout** tab of DOM Explorer.  
   
 > [!NOTE]
 >  Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.  
@@ -287,13 +287,13 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The Visual Studio tools for JavaScript, the DOM Explorer, and the JavaScript Console window are supported on the following platforms:  
   
--   [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] and Windows Phone Store apps using JavaScript and HTML  
+- [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] and Windows Phone Store apps using JavaScript and HTML  
   
--   Internet Explorer 11 running on [!INCLUDE[win81](../includes/win81-md.md)]  
+- Internet Explorer 11 running on [!INCLUDE[win81](../includes/win81-md.md)]  
   
--   Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
+- Internet Explorer 10 running on [!INCLUDE[win8](../includes/win8-md.md)]  
   
- Go [here](http://go.microsoft.com/fwlink/?LinkID=232448) to download [!INCLUDE[win8](../includes/win8-md.md)] and Visual Studio.  
+  Go [here](http://go.microsoft.com/fwlink/?LinkID=232448) to download [!INCLUDE[win8](../includes/win8-md.md)] and Visual Studio.  
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

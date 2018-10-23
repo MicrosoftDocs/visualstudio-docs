@@ -19,17 +19,17 @@ ms.workload:
   
  The Visual Studio deployment functionality builds and registers UWP apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:  
   
--   When the target is the local Visual Studio machine, Visual Studio registers the app from its build folder.  
+- When the target is the local Visual Studio machine, Visual Studio registers the app from its build folder.  
   
--   When the target is a remote device, Visual Studio copies the required files to the remote machine and registers the app on that device.  
+- When the target is a remote device, Visual Studio copies the required files to the remote machine and registers the app on that device.  
   
- Deployment is automatic when you debug your app from Visual Studio by using the **Start Debugging** option (Keyboard: F5) or the **Start Without Debugging** option (Keyboard: CTRL + F5). You can also deploy your app manually. Manual deployment is useful in the following scenarios:  
+  Deployment is automatic when you debug your app from Visual Studio by using the **Start Debugging** option (Keyboard: F5) or the **Start Without Debugging** option (Keyboard: CTRL + F5). You can also deploy your app manually. Manual deployment is useful in the following scenarios:  
   
--   Ad-hoc testing on a local or remote machine.  
+- Ad-hoc testing on a local or remote machine.  
   
--   Deploying an app that will start another app that you want to debug.  
+- Deploying an app that will start another app that you want to debug.  
   
--   Deploying an app that will be debugged when it is started by another app or method.
+- Deploying an app that will be debugged when it is started by another app or method.
   
 ##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a UWP app  
  Manually deploying an app is a simple process:  
@@ -55,37 +55,37 @@ Deployment uses the remote debugger network channel to send the app files to the
   
 #### To specify a remote device  
   
-1.  On the Debug property page of the startup project, specify the name or IP address of a remote deployment target.  
+1. On the Debug property page of the startup project, specify the name or IP address of a remote deployment target.  
   
-2.  To open the Debug property page, choose the project in Solution Explorer and then choose **Properties** from the shortcut menu.  
+2. To open the Debug property page, choose the project in Solution Explorer and then choose **Properties** from the shortcut menu.  
   
-3.  Then choose the **Debug** node on the property pages window.
+3. Then choose the **Debug** node on the property pages window.
 
 4. For **Target device**, select **Remote Machine**.
 
 5. Under **Remote machine**, click **Find**.
   
-4.  You can type the name or IP address of the remote device, or you can choose the device from the **Remote Connection** dialog box.  
+6. You can type the name or IP address of the remote device, or you can choose the device from the **Remote Connection** dialog box.  
   
-     ![Select Remote Debugger Connection dialog box](../debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")  
+    ![Select Remote Debugger Connection dialog box](../debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")  
   
-     The **Remote Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.  
+    The **Remote Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.  
   
- **Specifying the remote device in a JavaScript or Visual C++ project page**  
+   **Specifying the remote device in a JavaScript or Visual C++ project page**  
   
- ![C&#43;&#43; project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN_CPP_ProjProp_Remote")  
+   ![C&#43;&#43; project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN_CPP_ProjProp_Remote")  
   
-1.  Choose **Remote Debugger** from the **Debugger to launch** list.  
+7. Choose **Remote Debugger** from the **Debugger to launch** list.  
   
-2.  Enter the network name of the remote device in the **Machine Name** box. Or, you can choose the down arrow in the box to select the device from the Select Remote Debugger Connection dialog box.  
+8. Enter the network name of the remote device in the **Machine Name** box. Or, you can choose the down arrow in the box to select the device from the Select Remote Debugger Connection dialog box.  
   
- **Specifying the remote device in a Visual C# and Visual Basic project page**  
+   **Specifying the remote device in a Visual C# and Visual Basic project page**  
   
- ![Managed project properties for remote debugging](../debugger/media/vsrun_managed_projprop_remote.png "VSRUN_Managed_ProjProp_Remote")  
+   ![Managed project properties for remote debugging](../debugger/media/vsrun_managed_projprop_remote.png "VSRUN_Managed_ProjProp_Remote")  
   
-1.  Choose **Remote Machine** from the **Target Device** list.  
+9. Choose **Remote Machine** from the **Target Device** list.  
   
-2.  Enter the network name of the remote device in the **Remote Machine** box or click **Find** to choose the device from the **Select Remote Debugger Connection** dialog box.  
+10. Enter the network name of the remote device in the **Remote Machine** box or click **Find** to choose the device from the **Select Remote Debugger Connection** dialog box.  
   
 ##  <a name="BKMK_Deployment_options"></a> Deployment options  
  You can set the following deployment options on the Debug property page of the startup project.  
@@ -95,16 +95,16 @@ Deployment uses the remote debugger network channel to send the app files to the
   
  To remove the network loopback exemption from the app:  
   
--   On the C# and VB Debug property page, clear the **Allow Network Loopback** check box.  
+- On the C# and VB Debug property page, clear the **Allow Network Loopback** check box.  
   
--   On the JavaScript and Debug property page, set the **Allow Network Loopback** value to **No**.  
+- On the JavaScript and Debug property page, set the **Allow Network Loopback** value to **No**.  
   
- **Do not launch, but debug my code when it starts (C# and VB) / Launch Application (JavaScript and C++)**  
- To configure the deployment to automatically start a debugging session when the app is launched:  
+  **Do not launch, but debug my code when it starts (C# and VB) / Launch Application (JavaScript and C++)**  
+  To configure the deployment to automatically start a debugging session when the app is launched:  
   
--   On the C# and VB Debug property page, check the **Do not launch, but debug my code when it starts** check box.  
+- On the C# and VB Debug property page, check the **Do not launch, but debug my code when it starts** check box.  
   
--   On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.  
+- On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.  
   
 ## See Also  
  [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)  

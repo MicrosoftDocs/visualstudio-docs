@@ -50,50 +50,50 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 ## <a name="remote_cplusplus"></a> Remote debug a Visual C++ project  
  In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.  
   
-1.  Create an MFC application named **mymfc.**  
+1. Create an MFC application named **mymfc.**  
   
-2.  Set a breakpoint somewhere in the application that is easily reached, for example in **MainFrm.cpp**, at the start of `CMainFrame::OnCreate`.  
+2. Set a breakpoint somewhere in the application that is easily reached, for example in **MainFrm.cpp**, at the start of `CMainFrame::OnCreate`.  
   
-3.  In Solution Explorer, right-click on the project and select **Properties**. Open the **Debugging** tab.  
+3. In Solution Explorer, right-click on the project and select **Properties**. Open the **Debugging** tab.  
   
-4.  Set the **Debugger to launch** to **Remote Windows Debugger**.  
+4. Set the **Debugger to launch** to **Remote Windows Debugger**.  
   
-     ![RemoteDebuggingCPlus](../debugger/media/remotedebuggingcplus.png "RemoteDebuggingCPlus")  
+    ![RemoteDebuggingCPlus](../debugger/media/remotedebuggingcplus.png "RemoteDebuggingCPlus")  
   
-5.  Make the following changes to the properties:  
+5. Make the following changes to the properties:  
   
-    |Setting|Value|
-    |-|-|  
-    |Remote Command|C:\remotetemp\mymfc.exe|  
-    |Working Directory|C:\remotetemp|  
-    |Remote Server Name|MJO-DL:*portnumber*|  
-    |Connection|Remote with Windows Authentication|  
-    |Debugger Type|Native Only|  
-    |Deployment Directory|C:\remotetemp.|  
-    |Additional Files to Deploy|C:\data\mymfcdata.txt.|  
+   |Setting|Value|
+   |-|-|  
+   |Remote Command|C:\remotetemp\mymfc.exe|  
+   |Working Directory|C:\remotetemp|  
+   |Remote Server Name|MJO-DL:*portnumber*|  
+   |Connection|Remote with Windows Authentication|  
+   |Debugger Type|Native Only|  
+   |Deployment Directory|C:\remotetemp.|  
+   |Additional Files to Deploy|C:\data\mymfcdata.txt.|  
   
-     If you deploy additional files (optional), the folder must exist on both machines.  
+    If you deploy additional files (optional), the folder must exist on both machines.  
   
-6.  In Solution Explorer, right-click the solution and choose **Configuration Manager**.  
+6. In Solution Explorer, right-click the solution and choose **Configuration Manager**.  
   
-7.  For the **Debug** configuration, select the **Deploy** check box.  
+7. For the **Debug** configuration, select the **Deploy** check box.  
   
-     ![RemoteDebugCplusDeploy](../debugger/media/remotedebugcplusdeploy.png "RemoteDebugCplusDeploy")  
+    ![RemoteDebugCplusDeploy](../debugger/media/remotedebugcplusdeploy.png "RemoteDebugCplusDeploy")  
   
-8.  Start debugging (**Debug > Start Debugging**, or **F5**).  
+8. Start debugging (**Debug > Start Debugging**, or **F5**).  
   
 9. The executable is automatically deployed to the remote computer.  
   
 10. If prompted, enter network credentials to connect to the remote machine.  
   
-     The required credentials are specific to your network's security configuration. For example, on a domain computer, you might choose a security certificate or enter your domain name and password. On a non-domain machine, you might enter the machine name and a valid user account name, like **MJO-DL\name@something.com**, along with the correct password.  
+     The required credentials are specific to your network's security configuration. For example, on a domain computer, you might choose a security certificate or enter your domain name and password. On a non-domain machine, you might enter the machine name and a valid user account name, like <strong>MJO-DL\name@something.com</strong>, along with the correct password.  
   
 11. On the Visual Studio computer, you should see that execution is stopped at the breakpoint.  
   
     > [!TIP]
     >  Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.  
   
- If you have non-code files that need to be used by the application, you need to include them in the Visual Studio project. Create a project folder for the additional files (in the **Solution Explorer**, click **Add > New Folder**.) Then add the files to the folder (in the **Solution Explorer**, click **Add > Existing Item**, then select the files). On the **Properties** page for each file, set **Copy to Output Directory** to **Copy always**.
+    If you have non-code files that need to be used by the application, you need to include them in the Visual Studio project. Create a project folder for the additional files (in the **Solution Explorer**, click **Add > New Folder**.) Then add the files to the folder (in the **Solution Explorer**, click **Add > Existing Item**, then select the files). On the **Properties** page for each file, set **Copy to Output Directory** to **Copy always**.
   
 ## Set Up Debugging with Remote Symbols 
 

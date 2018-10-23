@@ -29,27 +29,27 @@ You can also open models and diagrams in the Visual Studio user interface by usi
 ##  <a name="Showing"></a> Opening Models and Diagrams in Visual Studio  
  To open a model in the user interface, use the standard Visual Studio API `EnvDTE.DTE`. There are two useful casts that you can perform on modeling project items:  
   
--   `EnvDTE.Project` can be cast to and from `IModelingProject`, if the project is a modeling project, and if the project is loaded in the current AppDomain.  
+- `EnvDTE.Project` can be cast to and from `IModelingProject`, if the project is a modeling project, and if the project is loaded in the current AppDomain.  
   
--   `EnvDTE.ProjectItem` can be cast to and from `IDiagramContext`, if the item is a UML diagram.  
+- `EnvDTE.ProjectItem` can be cast to and from `IDiagramContext`, if the item is a UML diagram.  
   
- For the following example, your project should import these references:  
+  For the following example, your project should import these references:  
   
--   EnvDTE  
+- EnvDTE  
   
--   Microsoft.VisualStudio.ArchitectureTools.Extensibility  
+- Microsoft.VisualStudio.ArchitectureTools.Extensibility  
   
--   Microsoft.VisualStudio.Modeling.Sdk.[version]  
+- Microsoft.VisualStudio.Modeling.Sdk.[version]  
   
--   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
+- Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
   
--   Microsoft.VisualStudio.Shell.Immutable.[version]  
+- Microsoft.VisualStudio.Shell.Immutable.[version]  
   
--   Microsoft.VisualStudio.Uml.Interfaces  
+- Microsoft.VisualStudio.Uml.Interfaces  
   
--   System.ComponentModel.Composition  
+- System.ComponentModel.Composition  
   
- This example opens a UML model in Visual Studio:  
+  This example opens a UML model in Visual Studio:  
   
 ```  
 using EnvDTE; // Visual Studio API for loading diagrams  

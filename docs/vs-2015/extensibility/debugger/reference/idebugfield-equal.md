@@ -27,13 +27,13 @@ This method compares this field with the specified field for equality.
   
 ```cpp#  
 HRESULT Equal(   
-   IDebugField* pField  
+   IDebugField* pField  
 );  
 ```  
   
 ```csharp  
 int Equal(  
-   IDebugField pField  
+   IDebugField pField  
 );  
 ```  
   

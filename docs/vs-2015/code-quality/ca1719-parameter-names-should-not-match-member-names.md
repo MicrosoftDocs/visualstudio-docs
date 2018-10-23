@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1719: Parameter names should not match member names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ParameterNamesShouldNotMatchMemberNames|

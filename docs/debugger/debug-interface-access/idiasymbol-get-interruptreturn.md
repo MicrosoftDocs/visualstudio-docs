@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function contains a return from inte
   
 ```C++  
 HRESULT get_interruptReturn(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

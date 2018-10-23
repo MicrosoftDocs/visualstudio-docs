@@ -27,13 +27,13 @@ Gets the program's properties.
   
 ```cpp#  
 HRESULT GetDebugProperty(   
-   IDebugProperty2** ppProperty  
+   IDebugProperty2** ppProperty  
 );  
 ```  
   
 ```csharp  
 int GetDebugProperty(   
-   out IDebugProperty2 ppProperty  
+   out IDebugProperty2 ppProperty  
 );  
 ```  
   

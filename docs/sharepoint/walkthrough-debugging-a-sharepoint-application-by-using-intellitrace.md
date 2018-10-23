@@ -40,7 +40,7 @@ By using IntelliTrace, you can more easily debug SharePoint solutions. Tradition
 
 - [Debug and Fix the SharePoint Solution](#BKMK_DebugSolution)
 
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
 
@@ -259,15 +259,15 @@ Now that the code is added to the feature receiver and the data collector is run
 
 3. Deactivate the feature by performing the following steps:
 
-    1. On the **Site Actions** menu in SharePoint, choose **Site Settings**.
+   1. On the **Site Actions** menu in SharePoint, choose **Site Settings**.
 
-    2. Under **Site Actions**, choose the **Manage site features** link.
+   2. Under **Site Actions**, choose the **Manage site features** link.
 
-    3. Next to **IntelliTraceTest Feature1**, choose the **Deactivate** button.
+   3. Next to **IntelliTraceTest Feature1**, choose the **Deactivate** button.
 
-    4. On the Warning page, choose the **Deactivate this feature** link.
+   4. On the Warning page, choose the **Deactivate this feature** link.
 
-     The FeatureDeactivating() event handler throws an error.
+      The FeatureDeactivating() event handler throws an error.
 
 ## Collect IntelliTrace data by using Microsoft Monitoring Agent
 
@@ -280,15 +280,15 @@ If you install Microsoft Monitoring Agent on the system that's running SharePoin
 
 2. Deactivate the feature:
 
-    1. On the **Site Actions** menu in SharePoint, choose **Site Settings**.
+   1. On the **Site Actions** menu in SharePoint, choose **Site Settings**.
 
-    2. Under **Site Actions**, choose the **Manage site features** link.
+   2. Under **Site Actions**, choose the **Manage site features** link.
 
-    3. Next to **IntelliTraceTest Feature1**, choose the **Deactivate** button.
+   3. Next to **IntelliTraceTest Feature1**, choose the **Deactivate** button.
 
-    4. On the Warning page, choose the **Deactivate this feature** link.
+   4. On the Warning page, choose the **Deactivate this feature** link.
 
-     An error occurs (in this case, because of the error thrown in the FeatureDeactivating() event handler).
+      An error occurs (in this case, because of the error thrown in the FeatureDeactivating() event handler).
 
 3. In the PowerShell window, run the [Stop-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313687) command to create the .iTrace file, stop monitoring, and restart your SharePoint solution.
 

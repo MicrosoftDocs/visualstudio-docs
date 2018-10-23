@@ -23,13 +23,13 @@ This method gets the object that this visualizer represents.
   
 ```cpp  
 HRESULT GetObjectForVisualizer(  
-   IDebugObject** ppObject  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetObjectForVisualizer(  
-   out IDebugObject ppObject  
+   out IDebugObject ppObject  
 );  
 ```  
   

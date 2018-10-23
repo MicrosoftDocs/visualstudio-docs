@@ -27,17 +27,17 @@ This structure represents a parameter of a method or function.
   
 ```cpp  
 typedef struct _tagMETADATA_ADDRESS_PARAM {  
-   _mdToken tokMethod;  
-   _mdToken tokParam;  
-   DWORD    dwIndex;  
+   _mdToken tokMethod;  
+   _mdToken tokParam;  
+   DWORD    dwIndex;  
 } METADATA_ADDRESS_PARAM;  
 ```  
   
 ```csharp  
 public struct METADATA_ADDRESS_PARAM {  
-   public int  tokMethod;  
-   public int  tokParam;  
-   public uint dwIndex;  
+   public int  tokMethod;  
+   public int  tokParam;  
+   public uint dwIndex;  
 }  
 ```  
   

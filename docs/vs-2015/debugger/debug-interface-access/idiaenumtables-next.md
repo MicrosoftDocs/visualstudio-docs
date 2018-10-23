@@ -28,9 +28,9 @@ Retrieves a specified number of tables in the enumeration sequence.
   
 ```cpp#  
 HRESULT Next (   
-   ULONG       celt,  
-   IDiaTable** rgelt,  
-   ULONG*      pceltFetched  
+   ULONG       celt,  
+   IDiaTable** rgelt,  
+   ULONG*      pceltFetched  
 );  
 ```  
   

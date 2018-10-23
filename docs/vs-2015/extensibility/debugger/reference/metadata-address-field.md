@@ -27,13 +27,13 @@ This structure represents the address of a field of a class or structure.
   
 ```cpp  
 typedef struct _tagMETADATA_ADDRESS_FIELD {  
-   _mdToken tokField;  
+   _mdToken tokField;  
 } METADATA_ADDRESS_FIELD  
 ```  
   
 ```csharp  
 public struct METADATA_ADDRESS_FIELD {  
-   public int tokField;  
+   public int tokField;  
 }  
 ```  
   

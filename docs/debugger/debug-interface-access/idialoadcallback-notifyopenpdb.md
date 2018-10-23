@@ -22,8 +22,8 @@ Called when a candidate .pdb file is opened.
   
 ```C++  
 HRESULT NotifyOpenPDB (   
-   LPCOLESTR pdbPath,  
-   HRESULT   resultCode  
+   LPCOLESTR pdbPath,  
+   HRESULT   resultCode  
 );  
 ```  
   

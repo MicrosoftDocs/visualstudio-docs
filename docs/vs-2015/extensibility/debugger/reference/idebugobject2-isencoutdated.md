@@ -27,13 +27,13 @@ This method determines whether the Edit and Continue status of this object or of
   
 ```cpp  
 HRESULT IsEncOutdated(  
-   BOOL* pfEncOutdated  
+   BOOL* pfEncOutdated  
 );  
 ```  
   
 ```csharp  
 int IsEncOutdated(  
-   out int pfEncOutdated  
+   out int pfEncOutdated  
 );  
 ```  
   

@@ -34,23 +34,23 @@ Strong-name signing gives a software component a globally unique identity. Stron
 ## Asset Types and Signing  
  You can sign .NET assemblies and application manifests. These include the following:  
   
--   executables (.exe)  
+- executables (.exe)  
   
--   application manifests (.exe.manifest)  
+- application manifests (.exe.manifest)  
   
--   deployment manifests (.application)  
+- deployment manifests (.application)  
   
--   shared component assemblies (.dll)  
+- shared component assemblies (.dll)  
   
- You must sign the following types of asset:  
+  You must sign the following types of asset:  
   
-1.  assemblies, if you want to deploy them to the global assembly cache (GAC).  
+1. assemblies, if you want to deploy them to the global assembly cache (GAC).  
   
-2.  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application and deployment manifests. Visual Studio enables signing by default for these applications.  
+2. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application and deployment manifests. Visual Studio enables signing by default for these applications.  
   
-3.  Primary interop assemblies, which are used for COM interoperability. The TLBIMP utility enforces strong-naming when creating a primary interop assembly from a COM type library.  
+3. Primary interop assemblies, which are used for COM interoperability. The TLBIMP utility enforces strong-naming when creating a primary interop assembly from a COM type library.  
   
- In general you should not sign executables. A strongly-named component cannot reference a non-strongly-named component that is deployed with the application. Visual Studio does not sign application executables, but instead signs the application manifest, which points to the weak-named executable. You should generally avoid signing components that are private to your application, because signing can make it more difficult to manage dependencies.  
+   In general you should not sign executables. A strongly-named component cannot reference a non-strongly-named component that is deployed with the application. Visual Studio does not sign application executables, but instead signs the application manifest, which points to the weak-named executable. You should generally avoid signing components that are private to your application, because signing can make it more difficult to manage dependencies.  
   
 ## How to Sign an Assembly in Visual Studio  
  You sign an application or component by using the **Signing** tab of the project properties window (right-click the project node in the **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or press ALT+ ENTER inside the **Solution Explorer** window). Select the **Signing** tab, then select the **Sign the assembly**  check box.  

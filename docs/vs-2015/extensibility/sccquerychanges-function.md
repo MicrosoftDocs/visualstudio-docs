@@ -27,11 +27,11 @@ This function enumerates a given list of files, providing information about name
   
 ```cpp  
 SCCRTN SccQueryChanges(  
-   LPVOID           pContext,  
-   LONG             nFiles,  
-   LPCSTR*          lpFileNames,  
-   QUERYCHANGESFUNC pfnCallback,  
-   LPVOID           pvCallerData  
+   LPVOID           pContext,  
+   LONG             nFiles,  
+   LPCSTR*          lpFileNames,  
+   QUERYCHANGESFUNC pfnCallback,  
+   LPVOID           pvCallerData  
 );  
 ```  
   

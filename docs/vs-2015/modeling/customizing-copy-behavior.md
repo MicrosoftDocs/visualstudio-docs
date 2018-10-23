@@ -23,19 +23,19 @@ In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../includ
   
  By default, when the user copies elements to the clipboard, the following elements are also copied:  
   
--   Embedded descendants of the selected elements. (That is, elements that are the targets of embedding relationships that are sourced at copied elements.)  
+- Embedded descendants of the selected elements. (That is, elements that are the targets of embedding relationships that are sourced at copied elements.)  
   
--   Relationship links between the copied elements.  
+- Relationship links between the copied elements.  
   
- This rule applies recursively to the copied elements and links.  
+  This rule applies recursively to the copied elements and links.  
   
- ![Copied and pasted elements](../modeling/media/dslcopypastedefault.png "DslCopyPasteDefault")  
+  ![Copied and pasted elements](../modeling/media/dslcopypastedefault.png "DslCopyPasteDefault")  
   
- The copied elements and links are serialized and stored in an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> (EGP), which is placed on the clipboard.  
+  The copied elements and links are serialized and stored in an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> (EGP), which is placed on the clipboard.  
   
- An image of the copied elements is also placed on the clipboard. This allows the user to paste into other applications such as Word.  
+  An image of the copied elements is also placed on the clipboard. This allows the user to paste into other applications such as Word.  
   
- The user can paste copied elements onto a target that can accept the elements according to the DSL Definition. For example, in a DSL generated from the components solution template, the user can paste ports onto components, but not onto the diagram; and can paste components onto the diagram, but not onto other components.  
+  The user can paste copied elements onto a target that can accept the elements according to the DSL Definition. For example, in a DSL generated from the components solution template, the user can paste ports onto components, but not onto the diagram; and can paste components onto the diagram, but not onto other components.  
   
 ## Customizing Copy and Paste Behavior  
  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
@@ -221,15 +221,15 @@ partial class MyDslClipboardCommandSet // EDIT NAME
   
  There are three values:  
   
--   Do not propagate copy  
+- Do not propagate copy  
   
--   Propagate copy to link only - when the group is pasted, the new copy of this link will refer to the existing element at the other end of the link.  
+- Propagate copy to link only - when the group is pasted, the new copy of this link will refer to the existing element at the other end of the link.  
   
--   Propagate copy to link and opposite role player - the copied group includes a copy of the element at the other end of the link.  
+- Propagate copy to link and opposite role player - the copied group includes a copy of the element at the other end of the link.  
   
- ![Effect of copying with PropagateCopyToLinkOnly](../modeling/media/dslpropagatecopy.png "DslPropagateCopy")  
+  ![Effect of copying with PropagateCopyToLinkOnly](../modeling/media/dslpropagatecopy.png "DslPropagateCopy")  
   
- The changes that you make will affect both the elements and the image that is copied.  
+  The changes that you make will affect both the elements and the image that is copied.  
   
 ## Programming Copy and Paste Behavior  
  Many aspects of a DSL’s behavior with regard to copy, paste, creation, and deletion of objects are governed by an instance of <xref:Microsoft.VisualStudio.Modeling.ElementOperations> that is coupled to the diagram. You can modify your DSL’s behavior by deriving your own class from <xref:Microsoft.VisualStudio.Modeling.ElementOperations> and overriding the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> property of your diagram class.  
@@ -243,13 +243,13 @@ partial class MyDslClipboardCommandSet // EDIT NAME
   
 #### To define your own ElementOperations  
   
-1.  In a new file in your DSL project, create a class that is derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.DesignSurfaceElementOperations>.  
+1. In a new file in your DSL project, create a class that is derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.DesignSurfaceElementOperations>.  
   
-2.  Add a partial class definition for your diagram class. The name of this class can be found in **Dsl\GeneratedCode\Diagrams.cs**.  
+2. Add a partial class definition for your diagram class. The name of this class can be found in **Dsl\GeneratedCode\Diagrams.cs**.  
   
-     In the diagram class, override  <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> to return an instance of your ElementOperations subclass. You should return the same instance at every call.  
+    In the diagram class, override  <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> to return an instance of your ElementOperations subclass. You should return the same instance at every call.  
   
- Add this code in a custom code file in the DslPackage project:  
+   Add this code in a custom code file in the DslPackage project:  
   
 ```csharp  
   

@@ -32,7 +32,7 @@ The **ExistsInCollection\<T>** activity designer can be dragged from the **Toolb
 The following table shows the <xref:System.Activities.Statements.ExistsInCollection%601> properties and describes how they are used in the designer:
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.ExistsInCollection%601> activity. The default is ExistsInCollection<Int32\>. Although the <xref:System.Activities.Activity.DisplayName%2A> value is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.ExistsInCollection%601.Item%2A>|True|The item to look for in the Collection\<T>. This item is of type *T*, which is of type *TypeArgument*. To specify the item, type a Visual Basic expression in the property grid.|
 |<xref:System.Activities.Statements.ExistsInCollection%601.Collection%2A>|True|The collection in which to check if the item exists. This collection is of type **ICollection<TypeArgument\>.** To specify the collection, type a Visual Basic expression in the property grid.|

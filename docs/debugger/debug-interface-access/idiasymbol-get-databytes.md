@@ -22,9 +22,9 @@ Retrieves the data bytes of an OEM symbol.
   
 ```C++  
 HRESULT get_dataBytes (   
-   DWORD  cbData,  
-   DWORD* pcbData,  
-   BYTE   data[]  
+   DWORD  cbData,  
+   DWORD* pcbData,  
+   BYTE   data[]  
 );  
 ```  
   

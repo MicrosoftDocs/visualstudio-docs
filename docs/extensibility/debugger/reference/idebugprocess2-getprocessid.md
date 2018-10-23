@@ -23,13 +23,13 @@ Gets the GUID for this process.
   
 ```cpp  
 HRESULT GetProcessId(  
-   GUID* pguidProcessId  
+   GUID* pguidProcessId  
 );  
 ```  
   
 ```csharp  
 int GetProcessId(  
-   out Guid pguidProcessId  
+   out Guid pguidProcessId  
 );  
 ```  
   

@@ -27,13 +27,13 @@ Gets an enumerator for all custom attributes attached to this field.
   
 ```cpp#  
 HRESULT EnumCustomAttributes(   
-   IEnumDebugCustomAttributes** ppEnum  
+   IEnumDebugCustomAttributes** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumCustomAttributes(  
-   out IEnumDebugCustomAttributes ppEnum  
+   out IEnumDebugCustomAttributes ppEnum  
 );  
 ```  
   

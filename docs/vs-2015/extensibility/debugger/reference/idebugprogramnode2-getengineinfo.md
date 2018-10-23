@@ -27,15 +27,15 @@ Gets the name and identifier of the debug engine (DE) running a program.
   
 ```cpp#  
 HRESULT GetEngineInfo (   
-   BSTR* pbstrEngine,  
-   GUID* pguidEngine  
+   BSTR* pbstrEngine,  
+   GUID* pguidEngine  
 );  
 ```  
   
 ```csharp  
 int GetEngineInfo(  
-   out string pbstrEngine,   
-   out Guid pguidEngine  
+   out string pbstrEngine,   
+   out Guid pguidEngine  
 );  
 ```  
   

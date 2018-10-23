@@ -28,7 +28,7 @@ Retrieves the age value of a .pdb file.
   
 ```cpp#  
 HRESULT get_age (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -28,7 +28,7 @@ Retrieves the checksum type.
   
 ```cpp#  
 HRESULT get_checksumType (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

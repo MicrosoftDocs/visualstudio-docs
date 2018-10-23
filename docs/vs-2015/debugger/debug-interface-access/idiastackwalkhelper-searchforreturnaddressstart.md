@@ -28,9 +28,9 @@ Searches the specified stack frame for a return address at or near the specified
   
 ```cpp#  
 HRESULT searchForReturnAddressStart(   
-   IDiaFrameData*  frame,  
-   ULONGLONG       startAddress,  
-   ULONGLONG*      returnAddress  
+   IDiaFrameData*  frame,  
+   ULONGLONG       startAddress,  
+   ULONGLONG*      returnAddress  
 );  
 ```  
   

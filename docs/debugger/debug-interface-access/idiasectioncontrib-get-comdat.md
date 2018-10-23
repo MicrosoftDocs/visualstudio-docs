@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the section is a COMDAT record.
   
 ```C++  
 HRESULT get_comdat (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

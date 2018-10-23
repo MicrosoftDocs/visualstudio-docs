@@ -22,11 +22,11 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Expected &#39;@end&#39;
-You attempted to create a conditionally compiled block of code, but did not include the **@end** statement at the end. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] statements can be conditionally compiled by enclosing them within an **@if/@end** block.  
+You attempted to create a conditionally compiled block of code, but did not include the <strong>@end</strong> statement at the end. [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] statements can be conditionally compiled by enclosing them within an <strong>@if/@end</strong> block.  
   
 ### To correct this error  
   
--   Add the corresponding **@end** statement.  
+- Add the corresponding <strong>@end</strong> statement.  
   
 ## See Also  
  [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   

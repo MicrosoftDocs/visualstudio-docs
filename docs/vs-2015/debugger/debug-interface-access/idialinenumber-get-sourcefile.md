@@ -28,7 +28,7 @@ Retrieves a reference to the source file.
   
 ```cpp#  
 HRESULT get_sourceFile (   
-   IDiaSourceFile** pRetVal  
+   IDiaSourceFile** pRetVal  
 );  
 ```  
   

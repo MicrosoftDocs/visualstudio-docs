@@ -147,15 +147,15 @@ Visual Studio 2015 provides a powerful integrated set of project build and debug
   
  Common uses for breakpoints include:  
   
-1.  To narrow down the source of a crash or hang, scatter them throughout and around the code of the method call you think is causing the failure. As you step through the code, remove and then reset the breakpoints closer together until you find the offending line of code.  
+1. To narrow down the source of a crash or hang, scatter them throughout and around the code of the method call you think is causing the failure. As you step through the code, remove and then reset the breakpoints closer together until you find the offending line of code.  
   
-2.  When you introduce new code, set a breakpoint at the beginning of it and step through the code to make sure it is behaving as expected.  
+2. When you introduce new code, set a breakpoint at the beginning of it and step through the code to make sure it is behaving as expected.  
   
-3.  If you have implemented a complicated behavior, set breakpoint(s) for the algorithmic code so you can inspect the values of the variables and data when the program breaks.  
+3. If you have implemented a complicated behavior, set breakpoint(s) for the algorithmic code so you can inspect the values of the variables and data when the program breaks.  
   
-4.  If you are writing C or C++ code, use breakpoints to stop the code so you can inspect address values (look for NULL) and reference counts when debugging for memory-related failures.  
+4. If you are writing C or C++ code, use breakpoints to stop the code so you can inspect address values (look for NULL) and reference counts when debugging for memory-related failures.  
   
- For more information on using breakpoints, read [Using Breakpoints](../debugger/using-breakpoints.md)  
+   For more information on using breakpoints, read [Using Breakpoints](../debugger/using-breakpoints.md)  
   
 ### Setting Conditional Breakpoints  
  If you have a breakpoint in a loop or recursion, or if you have a lot of breakpoints which you frequently step through, use a conditional breakpoint to ensure that your code is suspended ONLY when specific conditions are met. Otherwise, you’ll be pressing F11 an awful lot.  

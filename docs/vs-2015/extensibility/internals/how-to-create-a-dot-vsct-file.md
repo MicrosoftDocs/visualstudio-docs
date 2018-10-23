@@ -21,15 +21,15 @@ manager: "ghogen"
 
 There are several ways to create an XML-based Visual Studio Command Table configuration (.vsct) file.  
   
--   You can create a new VSPackage in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Package Template.  
+- You can create a new VSPackage in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Package Template.  
   
--   You can use the XML-based command table configuration compiler, Vsct.exe, to generate a file from an existing .ctc file.  
+- You can use the XML-based command table configuration compiler, Vsct.exe, to generate a file from an existing .ctc file.  
   
--   You can use Vsct.exe to generate a .vsct file from an existing .cto file.  
+- You can use Vsct.exe to generate a .vsct file from an existing .cto file.  
   
--   You can manually create a new .vsct file.  
+- You can manually create a new .vsct file.  
   
- This topic explains how to manually create a new .vsct file.  
+  This topic explains how to manually create a new .vsct file.  
   
 ### To manually create a new .vsct file  
   

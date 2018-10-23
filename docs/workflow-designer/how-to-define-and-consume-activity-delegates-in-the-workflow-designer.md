@@ -17,54 +17,54 @@ author: gewarren
 
 ## Define an activity delegate
 
-1.  In Visual Studio, select **File** > **New** > **Project**.
+1. In Visual Studio, select **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, select the **Workflow** category on the left, and then select the **Workflow Console Application** project template. Name the project (if desired) and click **Ok**.
+2. In the **New Project** dialog box, select the **Workflow** category on the left, and then select the **Workflow Console Application** project template. Name the project (if desired) and click **Ok**.
 
    > [!NOTE]
    > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio 2017. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
 
-2.  Right-click on the project in **Solution Explorer** and select **Add** > **New Item**. Select the **Workflow** category, and then select the **Activity** item template. Name the new activity **MyForEach.xaml** and then select **OK**.
+3. Right-click on the project in **Solution Explorer** and select **Add** > **New Item**. Select the **Workflow** category, and then select the **Activity** item template. Name the new activity **MyForEach.xaml** and then select **OK**.
 
    The activity opens in the workflow designer.
 
-3.  In the Workflow Designer, click the **Arguments** tab.
+4. In the Workflow Designer, click the **Arguments** tab.
 
-4.  Click **Create Argument**. Name the new argument **Items**.
+5. Click **Create Argument**. Name the new argument **Items**.
 
-5.  In the **Argument type** column, select **Array of [T]**.
+6. In the **Argument type** column, select **Array of [T]**.
 
-6.  In the type browser, select **Object** and then select **OK**.
+7. In the type browser, select **Object** and then select **OK**.
 
-7.  Click **Create Argument** again. Name the new argument **Body**. In the **Direction** column for the new argument, select **Property**.
+8. Click **Create Argument** again. Name the new argument **Body**. In the **Direction** column for the new argument, select **Property**.
 
-8.  In the Argument Type column, select **Browse for types**
+9. In the Argument Type column, select **Browse for types**
 
-9. In the type browser, enter **ActivityAction** in the **Type Name** field. Select **ActivityAction\<T>** in the tree view. Select **Object** in the dropdown that appears to assign the type **ActivityAction\<Object>** to the argument.
+10. In the type browser, enter **ActivityAction** in the **Type Name** field. Select **ActivityAction\<T>** in the tree view. Select **Object** in the dropdown that appears to assign the type **ActivityAction\<Object>** to the argument.
 
-10. Drag a <xref:System.Activities.Statements.While> activity from the **Control Flow** section of the toolbox to the designer surface.
+11. Drag a <xref:System.Activities.Statements.While> activity from the **Control Flow** section of the toolbox to the designer surface.
 
-11. Select the <xref:System.Activities.Statements.While> activity, and select the **Variables** tab.
+12. Select the <xref:System.Activities.Statements.While> activity, and select the **Variables** tab.
 
-12. Select **Create Variable**. Name the new variable **Index**.
+13. Select **Create Variable**. Name the new variable **Index**.
 
-13. In the **Variable type** column, select **Int32**. Leave the **Scope** as **While**, and the **Default** column blank.
+14. In the **Variable type** column, select **Int32**. Leave the **Scope** as **While**, and the **Default** column blank.
 
-14. Set the **Condition** property of the <xref:System.Activities.Statements.While> activity to **index < Items.Length;**.
+15. Set the **Condition** property of the <xref:System.Activities.Statements.While> activity to **index < Items.Length;**.
 
-15. Drag an <xref:System.Activities.Statements.InvokeDelegate> activity from the **Primitives** section of the toolbox to the **Body** of the <xref:System.Activities.Statements.While> activity.
+16. Drag an <xref:System.Activities.Statements.InvokeDelegate> activity from the **Primitives** section of the toolbox to the **Body** of the <xref:System.Activities.Statements.While> activity.
 
-16. Select **Body** in the delegate drop-down.
+17. Select **Body** in the delegate drop-down.
 
-17. In the **Properties** grid for the <xref:System.Activities.Statements.InvokeDelegate> activity, click the **...** button in the **Delegate Arguments** property.
+18. In the **Properties** grid for the <xref:System.Activities.Statements.InvokeDelegate> activity, click the **...** button in the **Delegate Arguments** property.
 
-18. In the **Value** column of the argument named **Argument**, enter **Items[Index]**. Click **Ok** to close the **DelegateArguments** dialog.
+19. In the **Value** column of the argument named **Argument**, enter **Items[Index]**. Click **Ok** to close the **DelegateArguments** dialog.
 
-19. Drag an <xref:System.Activities.Statements.Assign> activity onto the horizontal line underneath the <xref:System.Activities.Statements.InvokeDelegate> activity. The  <xref:System.Activities.Statements.Assign> activity is created, and a <xref:System.Activities.Statements.Sequence> activity is created automatically to contain the two activities in the **Body** section of the **MyForEach** activity. The sequence is needed since the **Body** section can only contain a single activity. Automatically creating a new <xref:System.Activities.Statements.Sequence> activity is a new feature of .NET Framework 4.5.
+20. Drag an <xref:System.Activities.Statements.Assign> activity onto the horizontal line underneath the <xref:System.Activities.Statements.InvokeDelegate> activity. The  <xref:System.Activities.Statements.Assign> activity is created, and a <xref:System.Activities.Statements.Sequence> activity is created automatically to contain the two activities in the **Body** section of the **MyForEach** activity. The sequence is needed since the **Body** section can only contain a single activity. Automatically creating a new <xref:System.Activities.Statements.Sequence> activity is a new feature of .NET Framework 4.5.
 
-20. Set the **To** property of the <xref:System.Activities.Statements.Assign> activity to **index**. Set the **Value** property of the **Assign** activity to **index+1**.
+21. Set the **To** property of the <xref:System.Activities.Statements.Assign> activity to **index**. Set the **Value** property of the **Assign** activity to **index+1**.
 
-   The custom **MyForEach** activity invokes an arbitrary activity once for each value passed into it through the **Items** collection, with the values in the collection as inputs for the activity.
+    The custom **MyForEach** activity invokes an arbitrary activity once for each value passed into it through the **Items** collection, with the values in the collection as inputs for the activity.
 
 ## Use the custom activity in a workflow
 

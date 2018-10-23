@@ -30,25 +30,25 @@ You can specify commands that run before or after the binaries in a performance 
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- The working directory in which the commands are executed depends on the operating systen  where you are running [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] and on the target platform of the profiled application.  
+  The working directory in which the commands are executed depends on the operating systen  where you are running [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] and on the target platform of the profiled application.  
   
- **32-bit computers**  
+  **32-bit computers**  
   
- On 32-bit computers, the default profiler tools directory is Drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools.  
+  On 32-bit computers, the default profiler tools directory is Drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools.  
   
- **64-bit computers**  
+  **64-bit computers**  
   
- On 64-bit computers, specify the path according to the target platform of the profiled application:  
+  On 64-bit computers, specify the path according to the target platform of the profiled application:  
   
--   For 32-bit applications, the default profiler tools directory is:  
+- For 32-bit applications, the default profiler tools directory is:  
   
-     *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools  
+   *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools  
   
--   For 64-bit applications, the default profiler tools directory is:  
+- For 64-bit applications, the default profiler tools directory is:  
   
-     *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64  
+   *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64  
   
 ### To specify pre-instrument commands  
   

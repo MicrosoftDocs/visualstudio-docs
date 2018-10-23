@@ -13,7 +13,6 @@ ms.technology: vs-ai-tools
 ms.workload:
   - "multiple"
 ---
-
 # Train a TensorFlow model in the cloud
 
 In this tutorial, we will train a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) on an Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine.
@@ -46,9 +45,9 @@ Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) c
 
 - Select the **Tensorflow Examples** folder from the samples repository downloaded and open the **TensorflowExamples.sln** file.
 
-![Open project](media/tensorflow-local/open-project.png)
+   ![Open project](media/tensorflow-local/open-project.png)
 
-![Open solution](media/tensorflow-local/open-solution.png)
+   ![Open solution](media/tensorflow-local/open-solution.png)
 
 ## Add Azure Remote VM
 

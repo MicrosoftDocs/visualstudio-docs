@@ -126,7 +126,6 @@ namespace LinqToXmlDataBinding {
         }
     }
 }
-
 ```
 
 ### Comments

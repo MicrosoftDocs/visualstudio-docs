@@ -46,14 +46,14 @@ You may want to persist a property you add to a project item, such as the author
   
     ```csharp  
     IVsBuildPropertyStorage buildPropertyStorage =   
-        hierarchy as IVsBuildPropertyStorage;  
+        hierarchy as IVsBuildPropertyStorage;  
     if (buildPropertyStorage != null)  
     {  
-        uint itemId;  
-        string fullPath = (string)project.ProjectItems.Item(  
-            "VsPkg.cs").Properties.Item("FullPath").Value;  
-        hierarchy.ParseCanonicalName(fullPath, out itemId);  
-        buildPropertyStorage.SetItemAttribute(itemId, "Author", "Tom");  
+        uint itemId;  
+        string fullPath = (string)project.ProjectItems.Item(  
+            "VsPkg.cs").Properties.Item("FullPath").Value;  
+        hierarchy.ParseCanonicalName(fullPath, out itemId);  
+        buildPropertyStorage.SetItemAttribute(itemId, "Author", "Tom");  
     }  
     ```  
   
@@ -70,34 +70,34 @@ You may want to persist a property you add to a project item, such as the author
     // Retrieve shell interface in order to get current selection  
     IVsMonitorSelection monitorSelection =     Package.GetGlobalService(typeof(SVsShellMonitorSelection)) as     IVsMonitorSelection;  
     if (monitorSelection == null)  
-        throw new InvalidOperationException();  
+        throw new InvalidOperationException();  
   
     try  
     {  
-        // Get the current project hierarchy, project item, and selection container for the current selection  
-        // If the selection spans multiple hierachies, hierarchyPtr is Zero  
-        IVsMultiItemSelect multiItemSelect = null;  
-        ErrorHandler.ThrowOnFailure(  
-            monitorSelection.GetCurrentSelection(  
-                out hierarchyPtr, out itemid,   
-                out multiItemSelect, out selectionContainer));  
+        // Get the current project hierarchy, project item, and selection container for the current selection  
+        // If the selection spans multiple hierachies, hierarchyPtr is Zero  
+        IVsMultiItemSelect multiItemSelect = null;  
+        ErrorHandler.ThrowOnFailure(  
+            monitorSelection.GetCurrentSelection(  
+                out hierarchyPtr, out itemid,   
+                out multiItemSelect, out selectionContainer));  
   
-        // We only care if there is only one node selected in the tree  
-        if (!(itemid == VSConstants.VSITEMID_NIL ||   
-            hierarchyPtr == IntPtr.Zero ||  
-            multiItemSelect != null ||  
-            itemid == VSConstants.VSITEMID_SELECTION))  
-        {  
-            hierarchy = Marshal.GetObjectForIUnknown(hierarchyPtr)  
-                as IVsHierarchy;  
-        }  
+        // We only care if there is only one node selected in the tree  
+        if (!(itemid == VSConstants.VSITEMID_NIL ||   
+            hierarchyPtr == IntPtr.Zero ||  
+            multiItemSelect != null ||  
+            itemid == VSConstants.VSITEMID_SELECTION))  
+        {  
+            hierarchy = Marshal.GetObjectForIUnknown(hierarchyPtr)  
+                as IVsHierarchy;  
+        }  
     }  
     finally  
     {  
-        if (hierarchyPtr != IntPtr.Zero)  
-            Marshal.Release(hierarchyPtr);  
-        if (selectionContainer != IntPtr.Zero)  
-            Marshal.Release(selectionContainer);  
+        if (hierarchyPtr != IntPtr.Zero)  
+            Marshal.Release(hierarchyPtr);  
+        if (selectionContainer != IntPtr.Zero)  
+            Marshal.Release(selectionContainer);  
     }  
     ```  
   
@@ -109,10 +109,10 @@ You may want to persist a property you add to a project item, such as the author
   
     ```  
     IVsBuildPropertyStorage buildPropertyStorage =   
-        hierarchy as IVsBuildPropertyStorage;  
+        hierarchy as IVsBuildPropertyStorage;  
     if (buildPropertyStorage != null)  
     {  
-        buildPropertyStorage.SetItemAttribute(itemId, "Author", "Tom");  
+        buildPropertyStorage.SetItemAttribute(itemId, "Author", "Tom");  
     }  
     ```  
   
@@ -131,7 +131,7 @@ You may want to persist a property you add to a project item, such as the author
   
     ```  
     <Compile Include="VsPkg.cs">  
-        <Author>Tom</Author>  
+        <Author>Tom</Author>  
     </Compile>  
     ```  
   

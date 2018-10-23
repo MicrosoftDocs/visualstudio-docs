@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2202: Do not dispose objects multiple times
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotDisposeObjectsMultipleTimes|
@@ -58,7 +59,6 @@ using (Stream stream = new FileStream("file.txt", FileMode.OpenOrCreate))
         // Use the writer object...
     }
 }
-
 ```
 
 ## Example
@@ -68,7 +68,7 @@ using (Stream stream = new FileStream("file.txt", FileMode.OpenOrCreate))
 Stream stream = null;
 try
 {
-    stream = new FileStream("file.txt", FileMode.OpenOrCreate);
+    stream = new FileStream("file.txt", FileMode.OpenOrCreate);
     using (StreamWriter writer = new StreamWriter(stream))
     {
         stream = null;
@@ -77,10 +77,9 @@ try
 }
 finally
 {
-    if(stream != null)
-        stream.Dispose();
+    if(stream != null)
+        stream.Dispose();
 }
-
 ```
 
 ## See Also

@@ -22,7 +22,7 @@ The text template transformation process takes a text template file as the input
 ## Components
 
 |Component|Description|Customizable (Yes/No)|
-|---------------|-----------------|------------------------------|
+|-|-|-|
 |Engine|The engine component controls the text template transformation process|No.|
 |Host|The host is the interface between the engine and the user environment. Visual Studio is a host of the text transformation process.|Yes. You can write a custom host.|
 |Directive Processors|Directive processors are classes that handle directives in text templates. You can use directives to provide data to a text template from an input source.|Yes. You can write custom directive processors|

@@ -67,26 +67,26 @@ The **Property Pages**provides access to project settings. You can use the pages
  **Debugger to Launch**  
  Specifies the default host for the debugger.  
   
--   Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](http://go.microsoft.com/fwlink/?LinkId=234912).  
+- Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](http://go.microsoft.com/fwlink/?LinkId=234912).  
   
--   Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](http://go.microsoft.com/fwlink/?LinkId=234913).  
+- Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](http://go.microsoft.com/fwlink/?LinkId=234913).  
   
--   Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](http://go.microsoft.com/fwlink/?LinkId=234914).  
+- Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](http://go.microsoft.com/fwlink/?LinkId=234914).  
   
- **Launch Application**  
- Specifies whether to start the application when you press F5 or click **Debug**, **Start Debugging**. Select **Yes** to start the application; otherwise, select **No**. If you select **No**, you can still debug the application if you use a different method to start it.  
+  **Launch Application**  
+  Specifies whether to start the application when you press F5 or click **Debug**, **Start Debugging**. Select **Yes** to start the application; otherwise, select **No**. If you select **No**, you can still debug the application if you use a different method to start it.  
   
- **Debugger Type**  
- Specifies the types of code to debug. Select **Script Only** to debug JavaScript code. Select **Managed Only** to debug code that is managed by the common language runtime. Select **Native Only** to debug C++ code. Select **Native with Script** to debug C++ and JavaScript. Select **Mixed (Managed and Native)** to debug both managed and C++ code.  
+  **Debugger Type**  
+  Specifies the types of code to debug. Select **Script Only** to debug JavaScript code. Select **Managed Only** to debug code that is managed by the common language runtime. Select **Native Only** to debug C++ code. Select **Native with Script** to debug C++ and JavaScript. Select **Mixed (Managed and Native)** to debug both managed and C++ code.  
   
- **Allow Local Network Loopback**  
- Specifies whether access to the IP loopback address is allowed for app testing. Select **Yes** to allow use of the loopback address if the client app is on the same machine where the server application is running; otherwise, select **No**. This property is available only if the **Debugger to Launch** property is set to **Remote Machine**.  
+  **Allow Local Network Loopback**  
+  Specifies whether access to the IP loopback address is allowed for app testing. Select **Yes** to allow use of the loopback address if the client app is on the same machine where the server application is running; otherwise, select **No**. This property is available only if the **Debugger to Launch** property is set to **Remote Machine**.  
   
- **Machine Name**  
- Specifies the name of the remote computer to host the debugger. This property is available only if **Debugger to Launch** is set to **Remote Machine**.  
+  **Machine Name**  
+  Specifies the name of the remote computer to host the debugger. This property is available only if **Debugger to Launch** is set to **Remote Machine**.  
   
- **Require Authentication**  
- Specifies whether the remote computer requires authentication. This property is available only if **Debugger to Launch** is set to **Remote Machine**.
+  **Require Authentication**  
+  Specifies whether the remote computer requires authentication. This property is available only if **Debugger to Launch** is set to **Remote Machine**.
 
 
 

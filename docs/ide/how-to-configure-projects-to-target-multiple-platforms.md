@@ -50,11 +50,11 @@ Because you can change the settings based on the combination of configuration an
 
 ### To build multiple solution configurations at once
 
-1.  Use the **Configuration Manager** to add at least two target platforms for the solution.
+1. Use the **Configuration Manager** to add at least two target platforms for the solution.
 
-2.  Use the **Batch Build** window to build several solution configurations at once.
+2. Use the **Batch Build** window to build several solution configurations at once.
 
- It is possible to have a solution-level platform set to, for example, [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)], and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.
+   It is possible to have a solution-level platform set to, for example, [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)], and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.
 
 ## See also
 

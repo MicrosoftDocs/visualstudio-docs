@@ -22,7 +22,7 @@ Retrieves the symbol identifier of the lower bound of a FORTRAN array dimension.
   
 ```C++  
 HRESULT get_lowerBoundId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

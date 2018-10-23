@@ -32,21 +32,21 @@ Line-level sampling is the ability of the profiler to determine where in the cod
 ### Available Data  
  Available line-level sampling data includes the following information:  
   
--   Function name.  
+- Function name.  
   
--   Function address.  
+- Function address.  
   
--   Line begin –line number of the sampled code.  
+- Line begin –line number of the sampled code.  
   
--   Line end – ending source line number. This is generally the same as the "Line begin" data except when a single program statement spans multiple source code lines.  
+- Line end – ending source line number. This is generally the same as the "Line begin" data except when a single program statement spans multiple source code lines.  
   
--   Character begin – beginning column of the aggregate sample. This is generally 0 except when a single line contains multiple program statements.  
+- Character begin – beginning column of the aggregate sample. This is generally 0 except when a single line contains multiple program statements.  
   
--   Character end – ending column of the aggregate sample.  
+- Character end – ending column of the aggregate sample.  
   
--   IP – address where the aggregate sample was taken (IP view only).  
+- IP – address where the aggregate sample was taken (IP view only).  
   
- In **Modules** view, if a function has line-level statistics, the statistics are nested under each function. Additionally, IP-level statistics that are nested under each line are presented.  
+  In **Modules** view, if a function has line-level statistics, the statistics are nested under each function. Additionally, IP-level statistics that are nested under each line are presented.  
   
 ### Turn Off Line-level Sampling for Managed Code  
  By default, line-level sampling is turned on. You can turn off line-level data collection for managed code by doing one of the following:  

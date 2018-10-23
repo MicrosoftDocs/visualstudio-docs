@@ -15,22 +15,22 @@ ms.workload:
 
 You can build most types of projects with multiple, or even all, of their build configurations at the same time by using the **Batch Build** dialog box. However, you can't build the following types of projects in multiple build configurations at the same time:
 
-1.  [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps built for Windows using JavaScript.
+1. [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps built for Windows using JavaScript.
 
-2.  All Visual Basic projects.
+2. All Visual Basic projects.
 
- For more information about build configurations, see [Understand build configurations](../ide/understanding-build-configurations.md).
+   For more information about build configurations, see [Understand build configurations](../ide/understanding-build-configurations.md).
 
 ## To build a project in multiple build configurations
 
-1.  On the menu bar, choose **Build** > **Batch Build**.
+1. On the menu bar, choose **Build** > **Batch Build**.
 
-2.  In the **Build** column, select the check boxes for the configurations in which you want to build a project.
+2. In the **Build** column, select the check boxes for the configurations in which you want to build a project.
 
     > [!TIP]
     > To edit or create a build configuration for a solution, choose **Build** > **Configuration Manager** on the menu bar to open the **Configuration Manager** dialog box. After you have edited a build configuration for a solution, choose the **Rebuild** button in the **Batch Build** dialog box to update all build configurations for the projects in the solution.
 
-3.  Choose the **Build** or **Rebuild** buttons to build the project with the configurations that you specified.
+3. Choose the **Build** or **Rebuild** buttons to build the project with the configurations that you specified.
 
 ## See also
 

@@ -28,7 +28,7 @@ Retrieves the number of bytes in the segment.
   
 ```cpp#  
 HRESULT get_ length (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -27,13 +27,13 @@ Gets a displayable description of the exception.
   
 ```cpp#  
 HRESULT GetExceptionDescription(   
-   BSTR* pbstrDescription  
+   BSTR* pbstrDescription  
 );  
 ```  
   
 ```csharp  
 int GetExceptionDescription(   
-   out string pbstrDescription  
+   out string pbstrDescription  
 );  
 ```  
   

@@ -87,19 +87,19 @@ The Visual Studio Profiler enables you to collect performance data that was gene
   
 ##### To view a list of a list of all CPU counters that are supported on the current platform  
   
-1.  In Performance Explorer, right-click the performance session and then click **Properties**.  
+1. In Performance Explorer, right-click the performance session and then click **Properties**.  
   
-2.  Do one of the following:  
+2. Do one of the following:  
   
-    -   Click **Sampling**, and then select **Performance counter** from the **Sample** event list. The CPU counters are listed in **Available performance counters**.  
+   - Click **Sampling**, and then select **Performance counter** from the **Sample** event list. The CPU counters are listed in **Available performance counters**.  
   
-         **Note** Click **Cancel** to return to the previous sampling configuration.  
+      **Note** Click **Cancel** to return to the previous sampling configuration.  
   
      -or-  
   
-    -   Select **CPU Counters**, and then select **Collect CPU Counters**. The CPU counters are listed in **Available counters**.  
+   - Select **CPU Counters**, and then select **Collect CPU Counters**. The CPU counters are listed in **Available counters**.  
   
-         **Note** Click **Cancel** to return to the previous counter collection configuration.  
+      **Note** Click **Cancel** to return to the previous counter collection configuration.  
   
 ##### To view a list of a list of Window counters that are supported on the current platform  
   

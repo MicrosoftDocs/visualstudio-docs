@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1004: Generic methods should provide type parameter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|GenericMethodsShouldProvideTypeParameter|

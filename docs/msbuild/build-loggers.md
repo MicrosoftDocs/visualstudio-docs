@@ -20,11 +20,11 @@ Loggers provide a way for you to customize the output of your build and display 
   
  There are two approaches you can use when implementing a logger:  
   
--   Implement the <xref:Microsoft.Build.Framework.ILogger> interface directly.  
+- Implement the <xref:Microsoft.Build.Framework.ILogger> interface directly.  
   
--   Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Logger>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. <xref:Microsoft.Build.Utilities.Logger> implements <xref:Microsoft.Build.Framework.ILogger> and provides default implementations of some <xref:Microsoft.Build.Framework.ILogger> members.  
+- Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Logger>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. <xref:Microsoft.Build.Utilities.Logger> implements <xref:Microsoft.Build.Framework.ILogger> and provides default implementations of some <xref:Microsoft.Build.Framework.ILogger> members.  
   
- This topic will explain how to write a simple logger that derives from <xref:Microsoft.Build.Utilities.Logger>, and displays messages on the console in response to certain build events.  
+  This topic will explain how to write a simple logger that derives from <xref:Microsoft.Build.Utilities.Logger>, and displays messages on the console in response to certain build events.  
   
 ## Register for events  
  The purpose of a logger is to gather information on build progress as it is reported by the build engine, and then report that information in a useful way. All loggers must override the <xref:Microsoft.Build.Utilities.Logger.Initialize%2A> method, which is where the logger registers for events. In this example, the logger registers for the <xref:Microsoft.Build.Framework.IEventSource.TargetStarted>, <xref:Microsoft.Build.Framework.IEventSource.ProjectStarted>, and <xref:Microsoft.Build.Framework.IEventSource.ProjectFinished> events.  

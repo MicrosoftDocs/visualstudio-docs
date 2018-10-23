@@ -22,7 +22,7 @@ Retrieves an enumerated sequence of debug data streams.
   
 ```C++  
 HRESULT getEnumDebugStreams (   
-   IDiaEnumDebugStreams** ppEnumDebugStreams  
+   IDiaEnumDebugStreams** ppEnumDebugStreams  
 )  
 ```  
   

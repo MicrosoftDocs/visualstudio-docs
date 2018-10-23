@@ -27,13 +27,13 @@ Gets a memory context of a reference. Reserved for future use.
   
 ```cpp#  
 HRESULT GetMemoryContext (   
-   IDebugMemoryContext2** ppMemory  
+   IDebugMemoryContext2** ppMemory  
 );  
 ```  
   
 ```csharp  
 int GetMemoryContext (   
-   out IDebugMemoryContext2 ppMemory  
+   out IDebugMemoryContext2 ppMemory  
 );  
 ```  
   

@@ -20,21 +20,21 @@ The Lines view for .NET memory allocation profiling data that uses the sampling 
   
  A statement is identified by the following:  
   
--   The source file that contains the function statement.  
+- The source file that contains the function statement.  
   
--   The function that contains the statement.  
+- The function that contains the statement.  
   
--   The source line at which the statement starts.  
+- The source line at which the statement starts.  
   
--   The character in the source line at which the statement starts.  
+- The character in the source line at which the statement starts.  
   
--   The source line at which the statement ends.  
+- The source line at which the statement ends.  
   
--   The character in the source line at which the statement ends.  
+- The character in the source line at which the statement ends.  
   
- The Line Name column provides a sortable concatenation of the identifier data.  
+  The Line Name column provides a sortable concatenation of the identifier data.  
   
- By definition, a statement does not call other functions. Therefore, only exclusive values are listed.  
+  By definition, a statement does not call other functions. Therefore, only exclusive values are listed.  
   
 |Column|Description|  
 |------------|-----------------|  

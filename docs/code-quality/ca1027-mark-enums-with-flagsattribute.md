@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1027: Mark enums with FlagsAttribute
+
 |||
 |-|-|
 |TypeName|MarkEnumsWithFlags|

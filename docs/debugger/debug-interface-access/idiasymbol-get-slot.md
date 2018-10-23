@@ -22,7 +22,7 @@ Retrieves the slot number of the location. Use when the [LocationType Enumeratio
   
 ```C++  
 HRESULT get_slot (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -22,7 +22,7 @@ The correlation between <xref:System.ServiceModel.Activities.Receive> activities
 The following table describes the user interface (UI) elements of the **CorrelatesOn** dialog box.
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**CorrelatesWith**|The <xref:System.ServiceModel.Activities.CorrelationHandle> that is used to route the message to the appropriate workflow instance.|
 |**XPath Queries**|A key/value pair that contains the queries used to extract correlation data from the incoming messages. This value corresponds to the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> property. The XPath queries are contained in a <xref:System.ServiceModel.MessageQuerySet> object.|
 

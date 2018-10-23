@@ -28,7 +28,7 @@ Retrieves the symbol that represents the type for this symbol.
   
 ```cpp#  
 HRESULT get_type (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   
@@ -51,10 +51,10 @@ HRESULT get_type ( 
 IDiaSymbol*         pType;  
 CComPtr<IDiaSymbol> pBaseType;  
 if (SUCCEEDED(pType->get_type( &pBaseType ))) {  
-    BasicType btBaseType;  
-    if (SUCCEEDED(pBaseType->get_baseType((DWORD *)&btBaseType))) {  
-        // Do something with basic type.  
-    }  
+    BasicType btBaseType;  
+    if (SUCCEEDED(pBaseType->get_baseType((DWORD *)&btBaseType))) {  
+        // Do something with basic type.  
+    }  
 }  
 ```  
   

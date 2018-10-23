@@ -33,15 +33,15 @@ The C run-time library contains special Debug versions of the heap allocation fu
   
  You might want to call `_malloc_dbg` explicitly, however. Calling `_malloc_dbg` explicitly has some added benefits:  
   
--   Tracking `_CLIENT_BLOCK` type allocations.  
+- Tracking `_CLIENT_BLOCK` type allocations.  
   
--   Storing the source file and line number where the allocation request occurred.  
+- Storing the source file and line number where the allocation request occurred.  
   
- If you do not want to convert your `malloc` calls to `_malloc_dbg`, you can obtain the source file information by defining [_CRTDBG_MAP_ALLOC](/cpp/c-runtime-library/crtdbg-map-alloc), which causes the preprocessor to directly map all calls to `malloc` to `_malloc_dbg` instead of relying on a wrapper around `malloc`.  
+  If you do not want to convert your `malloc` calls to `_malloc_dbg`, you can obtain the source file information by defining [_CRTDBG_MAP_ALLOC](/cpp/c-runtime-library/crtdbg-map-alloc), which causes the preprocessor to directly map all calls to `malloc` to `_malloc_dbg` instead of relying on a wrapper around `malloc`.  
   
- To track the separate types of allocations in client blocks, you must call `_malloc_dbg` directly and set the `blockType` parameter to `_CLIENT_BLOCK`.  
+  To track the separate types of allocations in client blocks, you must call `_malloc_dbg` directly and set the `blockType` parameter to `_CLIENT_BLOCK`.  
   
- When _DEBUG is not defined, calls to `malloc` are not disturbed, calls to `_malloc_dbg` are resolved to `malloc`, the definition of [_CRTDBG_MAP_ALLOC](/cpp/c-runtime-library/crtdbg-map-alloc) is ignored, and source file information pertaining to the allocation request is not provided. Because `malloc` does not have a block type parameter, requests for `_CLIENT_BLOCK` types are treated as standard allocations.  
+  When _DEBUG is not defined, calls to `malloc` are not disturbed, calls to `_malloc_dbg` are resolved to `malloc`, the definition of [_CRTDBG_MAP_ALLOC](/cpp/c-runtime-library/crtdbg-map-alloc) is ignored, and source file information pertaining to the allocation request is not provided. Because `malloc` does not have a block type parameter, requests for `_CLIENT_BLOCK` types are treated as standard allocations.  
   
 ## See Also  
  [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)

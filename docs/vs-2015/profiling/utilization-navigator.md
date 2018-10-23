@@ -29,11 +29,11 @@ Utilization Navigator and a selected time frame
   
  Here's how you can use the Utilization Navigator to manipulate the displayed time range:  
   
--   You can pan by dragging the thumb left or right. (Keyboard: Move the focus to the thumb and then press the left or right arrow key.)  
+- You can pan by dragging the thumb left or right. (Keyboard: Move the focus to the thumb and then press the left or right arrow key.)  
   
--   You can change the extent of the interval by dragging one of the handles. (Keyboard: Move the focus to a handle and then press the right or left arrow key.)  
+- You can change the extent of the interval by dragging one of the handles. (Keyboard: Move the focus to a handle and then press the right or left arrow key.)  
   
- If you change the interval by using a different Concurrency Visualizer zoom control, the Utilization Navigator updates to reflect the change.
+  If you change the interval by using a different Concurrency Visualizer zoom control, the Utilization Navigator updates to reflect the change.
 
 
 

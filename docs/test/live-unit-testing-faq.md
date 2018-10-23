@@ -70,8 +70,8 @@ The **Output Window** (when the Live Unit Testing drop-down is selected) should 
 ```xml
 <RunSettings>
     <RunConfiguration>
-          <TestAdaptersPaths>path-to-your-test-adapter</TestAdaptersPaths>
-     </RunConfiguration>
+          <TestAdaptersPaths>path-to-your-test-adapter</TestAdaptersPaths>
+     </RunConfiguration>
 </RunSettings>
 ```
 
@@ -95,7 +95,7 @@ For example, there may be a target that produces NuGet packages during a regular
 
 ```xml
 <Target Name="GenerateNuGetPackages" BeforeTargets="AfterBuild" Condition="'$(BuildingForLiveUnitTesting)' != 'true'">
-    <Exec Command='"$(MSBuildThisFileDirectory)..\tools\GenPac" '/>
+    <Exec Command='"$(MSBuildThisFileDirectory)..\tools\GenPac" '/>
 </Target>
 ```
 
@@ -108,9 +108,9 @@ For example, if your build overrides the `<OutputPath>` as shown below:
 
 ```xml 
 <Project>
-  <PropertyGroup>
-    <OutputPath>$(SolutionDir)Artifacts\$(Configuration)\bin\$(MSBuildProjectName)</OutputPath>
-  </PropertyGroup>
+  <PropertyGroup>
+    <OutputPath>$(SolutionDir)Artifacts\$(Configuration)\bin\$(MSBuildProjectName)</OutputPath>
+  </PropertyGroup>
 </Project>
 ```
 
@@ -118,10 +118,10 @@ then you can replace it with the following XML:
 
 ```xml 
 <Project>
-  <PropertyGroup>
-    <BaseOutputPath Condition="'$(BaseOutputPath)' == ''">$(SolutionDir)Artifacts\$(Configuration)\bin\$(MSBuildProjectName)\</BaseOutputPath>
-    <OutputPath Condition="'$(OutputPath)' == ''">$(BaseOutputPath)</OutputPath>
-  </PropertyGroup>
+  <PropertyGroup>
+    <BaseOutputPath Condition="'$(BaseOutputPath)' == ''">$(SolutionDir)Artifacts\$(Configuration)\bin\$(MSBuildProjectName)\</BaseOutputPath>
+    <OutputPath Condition="'$(OutputPath)' == ''">$(BaseOutputPath)</OutputPath>
+  </PropertyGroup>
 </Project>
 ```
 
@@ -153,7 +153,7 @@ There are several differences:
 **How do I exclude tests from participating in Live Unit Testing?**
 
 See the "Include and exclude test projects and test methods" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#include-and-exclude-test-projects-and-test-methods) article for the user-specific setting. Including or excluding tests is useful when you want to run a specific set of tests for a particular edit session or to persist your own personal preferences.
- 
+ 
 For solution-specific settings, you can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute?displayProperty=fullName> attribute programmatically to exclude methods, properties, classes, or structures from being instrumented by Live Unit Testing. Additionally, you can also set the `<ExcludeFromCodeCoverage>` property to `true` in your project file to exclude the whole project from being instrumented. Live Unit Testing will still run the tests that have not been instrumented, but their coverage will not be visualized.
 
 You can also check whether `Microsoft.CodeAnalysis.LiveUnitTesting.Runtime` is loaded in the current application domain and disable tests based on why. For example, you can do something like the following with xUnit:

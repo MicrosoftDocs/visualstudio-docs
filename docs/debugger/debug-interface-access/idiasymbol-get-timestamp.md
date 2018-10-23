@@ -22,7 +22,7 @@ Retrieves the timestamp of the underlying executable file.
   
 ```C++  
 HRESULT get_timeStamp (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

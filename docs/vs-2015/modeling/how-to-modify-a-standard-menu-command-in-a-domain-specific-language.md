@@ -23,13 +23,13 @@ You can modify the behavior of some of the standard commands that are defined au
   
  In summary, to modify a command:  
   
-1.  [Discover what commands you can modify](#what).  
+1. [Discover what commands you can modify](#what).  
   
-2.  [Create a partial declaration of the appropriate command set class](#extend).  
+2. [Create a partial declaration of the appropriate command set class](#extend).  
   
-3.  [Override the ProcessOnStatus and ProcessOnMenu methods](#override) for the command.  
+3. [Override the ProcessOnStatus and ProcessOnMenu methods](#override) for the command.  
   
- This topic explains this procedure.  
+   This topic explains this procedure.  
   
 > [!NOTE]
 >  If you want to create your own menu commands, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
@@ -133,19 +133,19 @@ protected override void ProcessOnMenuDeleteCommand()
 ### Writing the code of the methods  
  The following fragments are frequently useful within these methods:  
   
--   `this.CurrentSelection`. The shape that the user right-clicked is always included in this list of shapes and connectors. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.  
+- `this.CurrentSelection`. The shape that the user right-clicked is always included in this list of shapes and connectors. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.  
   
--   `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.  
+- `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.  
   
--   `this.IsCurrentDiagramEmpty()`  
+- `this.IsCurrentDiagramEmpty()`  
   
--   `this.IsSingleSelection()` - the user did not select multiple shapes  
+- `this.IsSingleSelection()` - the user did not select multiple shapes  
   
--   `this.SingleSelection` - the shape or diagram that the user right-clicked  
+- `this.SingleSelection` - the shape or diagram that the user right-clicked  
   
--   `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.  
+- `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.  
   
- For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
+  For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
 ## See Also  
  <xref:System.ComponentModel.Design.MenuCommand>   

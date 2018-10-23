@@ -27,13 +27,13 @@ Tells the program publisher that a debugger is present and running.
   
 ```cpp  
 HRESULT SetDebuggerPresent(  
-   BOOL fDebuggerPresent  
+   BOOL fDebuggerPresent  
 );  
 ```  
   
 ```csharp  
 int SetDebuggerPresent(  
-   int fDebuggerPresent  
+   int fDebuggerPresent  
 );  
 ```  
   

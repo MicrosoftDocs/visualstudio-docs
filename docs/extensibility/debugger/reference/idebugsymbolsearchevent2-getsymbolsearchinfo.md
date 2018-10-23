@@ -23,17 +23,17 @@ Called by an event handler to retrieve results about a symbol load process.
   
 ```cpp  
 HRESULT GetSymbolSearchInfo(  
-   IDebugModule3**    pModule,  
-   BSTR*              pbstrDebugMessage,  
-   MODULE_INFO_FLAGS* pdwModuleInfoFlags  
+   IDebugModule3**    pModule,  
+   BSTR*              pbstrDebugMessage,  
+   MODULE_INFO_FLAGS* pdwModuleInfoFlags  
 );  
 ```  
   
 ```csharp  
 int GetSymbolSearchInfo(  
-   IDebugModule3              pModule,   
-   ref string                 pbstrDebugMessage,   
-   out enum_MODULE_INFO_FLAGS pdwModuleInfoFlags  
+   IDebugModule3              pModule,   
+   ref string                 pbstrDebugMessage,   
+   out enum_MODULE_INFO_FLAGS pdwModuleInfoFlags  
 );  
   
 ```  

@@ -19,13 +19,13 @@ ms.workload:
 # Visual Studio Tools for Office runtime installation scenarios
   You can install the Visual Studio 2010 Tools for Office runtime in three ways:  
   
--   When you install Visual Studio.  
+- When you install Visual Studio.  
   
--   When you install Microsoft Office.  
+- When you install Microsoft Office.  
   
--   When you install the Visual Studio 2010 Tools for Office runtime redistributable.  
+- When you install the Visual Studio 2010 Tools for Office runtime redistributable.  
   
- The runtime components that are installed depend on the configuration of the computer and the installation scenario.  
+  The runtime components that are installed depend on the configuration of the computer and the installation scenario.  
   
 ## Runtime components that are installed in each installation scenario  
  The Visual Studio 2010 Tools for Office runtime has three components: the Office solution loader, the Office extensions for the .NET Framework 3.5, and the Office extensions for the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. When you install the runtime, the Office solution loader is always installed. The installation of the Office extensions for the .NET Framework depends on the configuration of the computer and the installation scenario. If one of the Office extensions cannot be installed when the runtime is first installed, the runtime will automatically install the missing Office extensions later, when certain requirements are met. This feature of the runtime is called *install on demand*.  
@@ -33,7 +33,7 @@ ms.workload:
  The following table shows which runtime components are installed by default in each runtime installation scenario. More information about each scenario appears later.  
   
 |Runtime installation scenario|Office solution loader|Office extensions for the .NET Framework 3.5|Office extensions for the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]|Office extensions for the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]|  
-|-----------------------------------|----------------------------|--------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------|  
+|-----------------------------------|----------------------------|--------------------------------------------------| - |---------------------------------------------------------------------------|  
 |With [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] and later|Yes|Yes, if the .NET Framework 3.5 is already installed.|Yes|Yes|  
 |With [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)]|Yes|Yes, if the .NET Framework 3.5 is already installed.|No|No|  
 |With Office 2010 Service Pack 1 (SP1) or later|Yes|Yes, if the .NET Framework 3.5 is already installed.|Yes, if the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is already installed.|No|  

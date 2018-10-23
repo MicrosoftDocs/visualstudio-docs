@@ -19,6 +19,7 @@ manager: "wpickett"
 ---
 # CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|TransparentMethodsMustNotHandleProcessCorruptingExceptions|

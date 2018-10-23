@@ -289,17 +289,17 @@ System.IO.File.WriteAllText("outputPage.html", pageContent)
 #### Inheritance pattern: Fragments in Base Methods  
  In the pattern used in the example that follows, notice the following points:  
   
--   The base class `SharedFragments` defines methods within class feature blocks `<#+ ... #>`.  
+- The base class `SharedFragments` defines methods within class feature blocks `<#+ ... #>`.  
   
--   The base class contains no free text. Instead, all its text blocks occur inside the class feature methods.  
+- The base class contains no free text. Instead, all its text blocks occur inside the class feature methods.  
   
--   The derived class invokes the methods defined in `SharedFragments`.  
+- The derived class invokes the methods defined in `SharedFragments`.  
   
--   The application calls the `TextTransform()` method of the derived class, but does not transform the base class `SharedFragments`.  
+- The application calls the `TextTransform()` method of the derived class, but does not transform the base class `SharedFragments`.  
   
--   Both the base and derived classes are runtime text templates: that is, the **Custom Tool** property is set to **TextTemplatingFilePreprocessor**.  
+- Both the base and derived classes are runtime text templates: that is, the **Custom Tool** property is set to **TextTemplatingFilePreprocessor**.  
   
- **SharedFragments.tt:**  
+  **SharedFragments.tt:**  
   
 ```csharp  
 <#@ template language="C#" #>  

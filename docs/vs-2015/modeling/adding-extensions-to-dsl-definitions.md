@@ -20,19 +20,19 @@ DSL Definition extension allows you to create a package of extensions to a domai
   
  The additional features can include the following:  
   
--   Properties for model and presentation elements  
+- Properties for model and presentation elements  
   
--   Decorators for shapes and connectors  
+- Decorators for shapes and connectors  
   
--   Classes, relationships, shapes and connectors  
+- Classes, relationships, shapes and connectors  
   
--   Validation constraints  
+- Validation constraints  
   
--   Toolbox items and tabs  
+- Toolbox items and tabs  
   
- A user of an extended DSL can create and save a model that contains instances of the additional features, and these can be read by other users who have installed the appropriate extension. Users who have not installed the extension cannot use the additional features, but they can update and save a model without losing the additional features.  
+  A user of an extended DSL can create and save a model that contains instances of the additional features, and these can be read by other users who have installed the appropriate extension. Users who have not installed the extension cannot use the additional features, but they can update and save a model without losing the additional features.  
   
- For sample code and more information about this feature, see the [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128) Web site.  
+  For sample code and more information about this feature, see the [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128) Web site.  
   
 ## See Also  
  [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)

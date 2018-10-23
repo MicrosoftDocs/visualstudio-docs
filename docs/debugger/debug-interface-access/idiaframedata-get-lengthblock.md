@@ -22,7 +22,7 @@ Retrieves the length, in bytes, of the block of code described by the frame.
   
 ```C++  
 HRESULT get_lengthBlock (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

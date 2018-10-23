@@ -26,17 +26,17 @@ Retrieves a list of optional modifiers.
   
 ```cpp#  
 HRESULT GetModOpts(  
-   ULONG  celt,  
-   BSTR*  rgelt,  
-   ULONG* pceltFetched  
+   ULONG  celt,  
+   BSTR*  rgelt,  
+   ULONG* pceltFetched  
 );  
 ```  
   
 ```csharp  
 int GetModOpts(  
-   uint         celt,  
-   out string[] rgelt,  
-   ref uint     pceltFetched  
+   uint         celt,  
+   out string[] rgelt,  
+   ref uint     pceltFetched  
 );  
 ```  
   

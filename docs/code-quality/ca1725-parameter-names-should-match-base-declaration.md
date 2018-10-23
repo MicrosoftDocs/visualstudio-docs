@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1725: Parameter names should match base declaration
+
 |||
 |-|-|
 |TypeName|ParameterNamesShouldMatchBaseDeclaration|

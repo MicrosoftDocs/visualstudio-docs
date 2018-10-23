@@ -22,7 +22,7 @@ Returns the offset part of the starting address of the range in which the local 
   
 ```C++  
 HRESULT get_liveRangeStartAddressOffset (   
-   DWORD* offset  
+   DWORD* offset  
 );  
 ```  
   

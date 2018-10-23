@@ -27,15 +27,15 @@ Compares one reference to another. Reserved for future use.
   
 ```cpp#  
 HRESULT Compare (   
-   REFERENCE_COMPARE dwCompare,  
-   IDebugReference2* pReference  
+   REFERENCE_COMPARE dwCompare,  
+   IDebugReference2* pReference  
 );  
 ```  
   
 ```csharp  
 int Compare (   
-   enum_REFERENCE_COMPARE dwCompare,  
-   IDebugReference2       pReference  
+   enum_REFERENCE_COMPARE dwCompare,  
+   IDebugReference2       pReference  
 );  
 ```  
   

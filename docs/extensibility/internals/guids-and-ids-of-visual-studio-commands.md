@@ -28,23 +28,23 @@ The GUID and ID values of the commands included in the Visual Studio integrated 
   
 ### To locate a command definition  
   
-1.  In Visual Studio, open the following files in the *<Visual Studio SDK installation path\>\VisualStudioIntegration\Common\Inc\\* folder: *SharedCmdDef.vsct*, *ShellCmdDef.vsct*, *VsDbgCmdUsed.vsct*, *Venusmenu.vsct*.  
+1. In Visual Studio, open the following files in the *<Visual Studio SDK installation path\>\VisualStudioIntegration\Common\Inc\\* folder: *SharedCmdDef.vsct*, *ShellCmdDef.vsct*, *VsDbgCmdUsed.vsct*, *Venusmenu.vsct*.  
   
-     Most Visual Studio commands are defined in *SharedCmdDef.vsct* and *ShellCmdDef.vsct*. *VsDbgCmdUsed.vsct* defines commands that pertain to the debugger, and *Venusmenu.vsct* defines commands that are specific to Web development.  
+    Most Visual Studio commands are defined in *SharedCmdDef.vsct* and *ShellCmdDef.vsct*. *VsDbgCmdUsed.vsct* defines commands that pertain to the debugger, and *Venusmenu.vsct* defines commands that are specific to Web development.  
   
-2.  If the command is a menu item, note the exact text of the menu item. If the command is a button on a toolbar, note the tooltip text that appears when you pause on it.  
+2. If the command is a menu item, note the exact text of the menu item. If the command is a button on a toolbar, note the tooltip text that appears when you pause on it.  
   
-3.  Press **Ctrl**+**F** to open the **Find** dialog box.  
+3. Press **Ctrl**+**F** to open the **Find** dialog box.  
   
-4.  In the **Find what** box, type the text you noted in step 2.  
+4. In the **Find what** box, type the text you noted in step 2.  
   
-5.  Verify that **All Open Documents** is displayed in the **Look in** box.  
+5. Verify that **All Open Documents** is displayed in the **Look in** box.  
   
-6.  Click the **Find Next** button until the text is selected in the `<Strings>` section of a [Button element](../../extensibility/button-element.md).  
+6. Click the **Find Next** button until the text is selected in the `<Strings>` section of a [Button element](../../extensibility/button-element.md).  
   
-     The `<Button>` element that the command appears in is the command definition.  
+    The `<Button>` element that the command appears in is the command definition.  
   
- When you have found the command definition, you can put a copy of the command on another menu or toolbar by creating a [CommandPlacement element](../../extensibility/commandplacement-element.md) that has the same `guid` and `id` values as the command. For more information, see [Create reusable groups of buttons](../../extensibility/creating-reusable-groups-of-buttons.md).  
+   When you have found the command definition, you can put a copy of the command on another menu or toolbar by creating a [CommandPlacement element](../../extensibility/commandplacement-element.md) that has the same `guid` and `id` values as the command. For more information, see [Create reusable groups of buttons](../../extensibility/creating-reusable-groups-of-buttons.md).  
   
 ### Special cases  
  In the following cases, the menu text or tooltip text may not exactly match what is in the command definition.  

@@ -28,8 +28,8 @@ Retrieves section contributions by means of an index.
   
 ```cpp#  
 HRESULT Item (   
-   DWORD                index,  
-   IDiaSectionContrib** section  
+   DWORD                index,  
+   IDiaSectionContrib** section  
 );  
 ```  
   

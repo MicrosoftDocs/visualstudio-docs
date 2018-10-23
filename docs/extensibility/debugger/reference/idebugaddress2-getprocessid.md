@@ -23,13 +23,13 @@ Retrieves the ID of the process that owns the object represented by this [IDebug
   
 ```cpp  
 HRESULT GetProcessID (  
-   DWORD* pProcID  
+   DWORD* pProcID  
 );  
 ```  
   
 ```csharp  
 int GetProcessID (  
-   out uint pProcID  
+   out uint pProcID  
 );  
 ```  
   

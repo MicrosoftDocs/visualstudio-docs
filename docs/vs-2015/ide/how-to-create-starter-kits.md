@@ -27,19 +27,19 @@ A Starter Kit contains code for a complete application and documentation on how 
   
  If you are creating a sample application or plug-in:  
   
--   Create a project that builds without errors.  
+- Create a project that builds without errors.  
   
--   Add template code to implement additional tasks (optional).  
+- Add template code to implement additional tasks (optional).  
   
--   Prepare the documentation.  
+- Prepare the documentation.  
   
- If you are creating a learning tool:  
+  If you are creating a learning tool:  
   
--   Create a project that builds without errors.  
+- Create a project that builds without errors.  
   
--   Organize the resources, such as code snippets and item templates.  
+- Organize the resources, such as code snippets and item templates.  
   
--   Prepare the documentation.  
+- Prepare the documentation.  
   
 ## Creating a Template  
  After you have completed the project and the documentation, you are ready to create the project template for the Starter Kit. This process is exactly the same as creating a project template.  

@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether system exception handling is in effect.
   
 ```cpp#  
 HRESULT get_systemExceptionHandling (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

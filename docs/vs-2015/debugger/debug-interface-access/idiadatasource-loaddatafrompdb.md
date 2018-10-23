@@ -28,7 +28,7 @@ Opens and prepares a program database (.pdb) file as a debug data source.
   
 ```cpp#  
 HRESULT loadDataFromPdb (  
-   LPCOLESTR pdbPath  
+   LPCOLESTR pdbPath  
 );  
 ```  
   

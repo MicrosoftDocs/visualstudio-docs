@@ -21,23 +21,23 @@ Error markers (or red wavy underlines) are the most difficult of the text editor
   
 ## To implement the red wavy underline feature  
   
-1.  Select the text under which you want place the red wavy underline.  
+1. Select the text under which you want place the red wavy underline.  
   
-2.  Create a marker of the type `MARKER_CODESENSE_ERROR`. For more information, see [How to: Add standard text markers](../extensibility/how-to-add-standard-text-markers.md).  
+2. Create a marker of the type `MARKER_CODESENSE_ERROR`. For more information, see [How to: Add standard text markers](../extensibility/how-to-add-standard-text-markers.md).  
   
-3.  After that, pass in an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface pointer.  
+3. After that, pass in an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface pointer.  
   
- This process also allows you to create tip text or a special context menu over a given marker. For more information, see [How to: Add standard text markers](../extensibility/how-to-add-standard-text-markers.md).  
+   This process also allows you to create tip text or a special context menu over a given marker. For more information, see [How to: Add standard text markers](../extensibility/how-to-add-standard-text-markers.md).  
   
- The following objects are required before error markers can be displayed.  
+   The following objects are required before error markers can be displayed.  
   
--   A parser.  
+- A parser.  
   
--   A task provider (that is, an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2>) that maintains a record of changes in line information in order to identify the lines to be re-parsed.  
+- A task provider (that is, an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2>) that maintains a record of changes in line information in order to identify the lines to be re-parsed.  
   
--   A text view filter that captures caret change events from the view using the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEvents.OnChangeCaretLine%2A>) method.  
+- A text view filter that captures caret change events from the view using the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEvents.OnChangeCaretLine%2A>) method.  
   
- The parser, task provider, and filter provide the infrastructure necessary to make error markers possible. The following steps provide the process for displaying error markers.  
+  The parser, task provider, and filter provide the infrastructure necessary to make error markers possible. The following steps provide the process for displaying error markers.  
   
 1.  In a view that is being filtered, the filter obtains a pointer to the task provider associated with that view's data.  
   

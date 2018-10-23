@@ -14,6 +14,7 @@ ms.workload:
   - "cplusplus"
 ---
 # CA2149: Transparent methods must not call into native code
+
 |||
 |-|-|
 |TypeName|TransparentMethodsMustNotCallNativeCode|

@@ -22,20 +22,22 @@ Typically, you run your test code in its own project in the same solution as the
 
 In some cases, for example when testing non-exported functions in a DLL, you might need to create the tests in the same project as the program you are testing. To write unit tests in the same project:
 
-1.  Modify the project properties to include the headers and library files that are required for unit testing.
+1. Modify the project properties to include the headers and library files that are required for unit testing.
 
-    1.  In **Solution Explorer**, right-click on project node for the program you are testing, then choose **Properties** > **Configuration Properties** > **VC++ Directories**.
+   1. In **Solution Explorer**, right-click on project node for the program you are testing, then choose **Properties** > **Configuration Properties** > **VC++ Directories**.
 
-    3.  Click on the down arrow in the following rows and choose **<Edit>** :
+   2. Click on the down arrow in the following rows and choose **<Edit>** :
 
-        |Directory|Property|
-        |-|-|
-        |**Include Directories**|**$(VCInstallDir)UnitTest\include;$(IncludePath)**|
-        |**Library Directories**|**$(VCInstallDir)UnitTest\lib;$(LibraryPath)**|
 
-2.  Add a C++ Unit Test file:
+      | Directory | Property |
+      |-| - |
+      | **Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)** |
+      | **Library Directories** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)** |
 
-    -   Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ Unit Test**.
+
+2. Add a C++ Unit Test file:
+
+   -   Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ Unit Test**.
 
 ## Write the tests
 
@@ -47,13 +49,13 @@ Use the static methods in the [Assert](microsoft-visualstudio-testtools-cppunitt
 
 ## Run the tests
 
-1.  On the **Test** menu, choose **Windows** > **Test Explorer**.
+1. On the **Test** menu, choose **Windows** > **Test Explorer**.
 2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
-2.  In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
-3. In the **Output Window** choose **Tests** in the drop down to view messages written out by the `Logger` class:
+3. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+4. In the **Output Window** choose **Tests** in the drop down to view messages written out by the `Logger` class:
 
-  ![C++ Output Window showing test messages](media/cpp-test-output-window.png)
+   ![C++ Output Window showing test messages](media/cpp-test-output-window.png)
 
 ## Define traits to enable grouping
 
@@ -84,7 +86,7 @@ TEST_METHOD(Method1)
 The following pre-defined traits are found in `CppUnitTest.h`. For more information, see [The Microsoft Unit Testing Framework for C++ API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md).
 
 |Macro|Description|
-|-----------|-----------------|
+|-|-----------------|
 |`TEST_METHOD_ATTRIBUTE(attributeName, attributeValue)`|Use the TEST_METHOD_ATTRIBUTE macro to define a trait.|
 |`TEST_OWNER(ownerAlias)`|Use the predefined Owner trait to specify an owner of the test method.|
 |`TEST_PRIORITY(priority)`|Use the predefined Priority trait to assign relative priorities to your test methods.|

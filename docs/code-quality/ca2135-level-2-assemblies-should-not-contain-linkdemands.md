@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2135: Level 2 assemblies should not contain LinkDemands
+
 |||
 |-|-|
 |TypeName|SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemands|

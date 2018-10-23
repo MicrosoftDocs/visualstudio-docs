@@ -23,13 +23,13 @@ Gets the parent property of a property.
   
 ```cpp  
 HRESULT GetParent (   
-   IDebugProperty2** ppParent  
+   IDebugProperty2** ppParent  
 );  
 ```  
   
 ```csharp  
 int GetParent (   
-   out IDebugProperty2 ppParent  
+   out IDebugProperty2 ppParent  
 );  
 ```  
   

@@ -27,17 +27,17 @@ Gets a description of the stack frame.
   
 ```cpp#  
 HRESULT GetInfo (   
-   FRAMEINFO_FLAGS dwFieldSpec,  
-   UINT            nRadix,  
-   FRAMEINFO*      pFrameInfo  
+   FRAMEINFO_FLAGS dwFieldSpec,  
+   UINT            nRadix,  
+   FRAMEINFO*      pFrameInfo  
 );  
 ```  
   
 ```csharp  
 int GetInfo (   
-   enum_FRAMEINFO_FLAGS dwFieldSpec,  
-   uint                 nRadix,  
-   FRAMEINFO[]          pFrameInfo  
+   enum_FRAMEINFO_FLAGS dwFieldSpec,  
+   uint                 nRadix,  
+   FRAMEINFO[]          pFrameInfo  
 );  
 ```  
   

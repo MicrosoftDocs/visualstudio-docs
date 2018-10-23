@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1023: Indexers should not be multidimensional
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|IndexersShouldNotBeMultidimensional|

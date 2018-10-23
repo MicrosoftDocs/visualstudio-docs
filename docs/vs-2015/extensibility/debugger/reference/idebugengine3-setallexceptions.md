@@ -27,13 +27,13 @@ This method sets the state of all outstanding exceptions.
   
 ```cpp  
 HRESULT SetAllExceptions(  
-   EXCEPTION_STATE dwState  
+   EXCEPTION_STATE dwState  
 );  
 ```  
   
 ```csharp  
 int SetAllExceptions(  
-   enum_EXCEPTION_STATE dwState  
+   enum_EXCEPTION_STATE dwState  
 );  
 ```  
   

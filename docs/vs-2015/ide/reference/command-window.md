@@ -95,22 +95,22 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
   
  In this example,  
   
--   `Edit.ReplaceInFiles` is the command  
+- `Edit.ReplaceInFiles` is the command  
   
--   `/case` and `/pattern:regex` are switches (prefaced with the slash [/] character)  
+- `/case` and `/pattern:regex` are switches (prefaced with the slash [/] character)  
   
--   `regex` is the value of the `/pattern` switch; the `/case` switch has no value  
+- `regex` is the value of the `/pattern` switch; the `/case` switch has no value  
   
--   `var[1-3]+` and `oldpar` are parameters  
+- `var[1-3]+` and `oldpar` are parameters  
   
-    > [!NOTE]
-    >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
+  > [!NOTE]
+  >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
   
- The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.  
+  The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.  
   
- Nearly every switch supported by a command has two forms: a short (one character) form and a long form. Multiple short-form switches can be combined into a group. For example, `/p /g /m` can be expressed alternately as `/pgm`.  
+  Nearly every switch supported by a command has two forms: a short (one character) form and a long form. Multiple short-form switches can be combined into a group. For example, `/p /g /m` can be expressed alternately as `/pgm`.  
   
- If short-form switches are combined into a group and given a value, that value applies to every switch. For example, `/pgm:123` equates to `/p:123 /g:123 /m:123`. An error occurs if any of the switches in the group does not accept a value.  
+  If short-form switches are combined into a group and given a value, that value applies to every switch. For example, `/pgm:123` equates to `/p:123 /g:123 /m:123`. An error occurs if any of the switches in the group does not accept a value.  
   
 ## Escape Characters  
  A caret (^) character in a command line means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,  
