@@ -1,14 +1,14 @@
 ---
-title: "Visual Studio for Mac Firewall Configuration Instructions"
+title: "Install and use Visual Studio for Mac behind a firewall or proxy server"
 description: "This document provides a list of hosts that must be whitelisted in your firewall to allow Visual Studio for Mac (and its workloads, including Xamarin) to work in a corporate environment."
 ms.topic: troubleshooting
 ms.assetid: 79C0F1A3-0C13-4E55-A820-1138A4082B77
 author: asb3993
 ms.author: amburns
-ms.date: 10/05/2018
+ms.date: 10/23/2018
 ---
 
-# Visual Studio for Mac Whitelist
+# Install and use Visual Studio for Mac behind a firewall or proxy server
 
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to "whitelist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio for Mac and Azure Services.
 
