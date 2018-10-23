@@ -27,13 +27,13 @@ Gets the original expression.
   
 ```cpp#  
 HRESULT GetExpression(   
-   IDebugExpression2** ppExpr  
+   IDebugExpression2** ppExpr  
 );  
 ```  
   
 ```csharp  
 int GetExpression(   
-   out IDebugExpression2 ppExpr  
+   out IDebugExpression2 ppExpr  
 );  
 ```  
   

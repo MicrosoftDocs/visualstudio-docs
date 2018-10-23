@@ -22,10 +22,10 @@ Retrieves the children of the symbol. The local symbols that are returned includ
   
 ```C++  
 HRESULT findChildrenEx (   
-   enum SymTagEnum   symtag,  
-   LPCOLESTR         name,  
-   DWORD             compareFlags,  
-   IDiaEnumSymbols** ppResult  
+   enum SymTagEnum   symtag,  
+   LPCOLESTR         name,  
+   DWORD             compareFlags,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

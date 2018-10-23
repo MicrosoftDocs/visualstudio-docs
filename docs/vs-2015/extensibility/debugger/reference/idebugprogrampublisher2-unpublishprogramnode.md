@@ -27,13 +27,13 @@ Removes a specified program node from availability to debug engines (DEs) and th
   
 ```cpp  
 HRESULT UnpublishProgramNode(  
-   IDebugProgramNode2* pProgramNode  
+   IDebugProgramNode2* pProgramNode  
 );  
 ```  
   
 ```csharp  
 int UnpublishProgramNode(  
-   IDebugProgramNode2 pProgramNode  
+   IDebugProgramNode2 pProgramNode  
 );  
 ```  
   

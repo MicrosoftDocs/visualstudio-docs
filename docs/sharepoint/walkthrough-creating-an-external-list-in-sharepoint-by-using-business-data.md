@@ -226,12 +226,12 @@ To enable the BDC service to display the contacts in a list, you must add a Find
 
 5. In the `ContactService` class, replace the `ReadList` method with the following code. This code performs the following tasks:
 
-    - Retrieves data from the Contacts table of the AdventureWorks database.
+   - Retrieves data from the Contacts table of the AdventureWorks database.
 
-    - Returns a list of Contact entities to the BDC service.
+   - Returns a list of Contact entities to the BDC service.
 
-    > [!NOTE]
-    > Replace the value of the `ServerName` field with the name of your server.
+     > [!NOTE]
+     > Replace the value of the `ServerName` field with the name of your server.
 
      [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
      [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]

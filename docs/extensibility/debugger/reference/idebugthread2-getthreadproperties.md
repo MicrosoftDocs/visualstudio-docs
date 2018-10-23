@@ -23,15 +23,15 @@ Gets the properties that describe this thread.
   
 ```cpp  
 HRESULT GetThreadProperties (   
-   THREADPROPERTY_FIELDS dwFields,  
-   THREADPROPERTIES*     ptp  
+   THREADPROPERTY_FIELDS dwFields,  
+   THREADPROPERTIES*     ptp  
 );  
 ```  
   
 ```csharp  
 int GetThreadProperties (   
-   enum_THREADPROPERTY_FIELDS dwFields,  
-   THREADPROPERTIES[]         ptp  
+   enum_THREADPROPERTY_FIELDS dwFields,  
+   THREADPROPERTIES[]         ptp  
 );  
 ```  
   

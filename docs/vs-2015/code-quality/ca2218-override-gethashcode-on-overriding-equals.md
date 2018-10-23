@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2218: Override GetHashCode on overriding Equals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|OverrideGetHashCodeOnOverridingEquals|

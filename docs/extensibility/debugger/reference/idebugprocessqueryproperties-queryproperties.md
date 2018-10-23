@@ -21,16 +21,16 @@ This method queries for a specified property values of the debugging process.
   
 ```cpp  
 HRESULT QueryProperties(  
-   ULONG                  celt,  
-   PROCESS_PROPERTY_TYPE *rgdwPropTypes,  
-   VARIANT               *rgtPropValues);  
+   ULONG                  celt,  
+   PROCESS_PROPERTY_TYPE *rgdwPropTypes,  
+   VARIANT               *rgtPropValues);  
 ```  
   
 ```csharp  
 int QueryProperties(  
-   uint                       celt,  
-   enum_PROCESS_PROPERTY_TYPE rgdwPropTypes,  
-   out object[ ]              rgtPropValues);  
+   uint                       celt,  
+   enum_PROCESS_PROPERTY_TYPE rgdwPropTypes,  
+   out object[ ]              rgtPropValues);  
 ```  
   
 #### Parameters  
@@ -40,14 +40,14 @@ int QueryProperties(
  `dwPropType`  
  [in] An array that contains definitions of the queried properties. The possible values are:  
   
--   PROCESS_PROPERTY_COMMAND_LINE = 1  
+- PROCESS_PROPERTY_COMMAND_LINE = 1  
   
--   PROCESS_PROPERTY_CURRENT_DIRECTORY = 2  
+- PROCESS_PROPERTY_CURRENT_DIRECTORY = 2  
   
--   PROCESS_PROPERTY_ENVIRONMENT_VARIABLES = 3  
+- PROCESS_PROPERTY_ENVIRONMENT_VARIABLES = 3  
   
- `pvarPropValue`  
- [out] An array containing the property values.  
+  `pvarPropValue`  
+  [out] An array containing the property values.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  

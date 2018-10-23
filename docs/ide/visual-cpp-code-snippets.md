@@ -164,7 +164,6 @@ If you try to insert the destructor snippet outside a class, it provides a destr
 ```cpp
 ~TypeNamePlaceholder()
 {
-
 ```
 
 ## See also

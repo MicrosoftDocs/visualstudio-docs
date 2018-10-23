@@ -21,20 +21,20 @@ This source-control plug-in test area covers placing solutions or projects under
 ## Command Menu Access  
  The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases:  
   
--   For [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], open from source control: **File**, **Open**, **Project**/**Solution**; look in the [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] location.  
+- For [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], open from source control: **File**, **Open**, **Project**/**Solution**; look in the [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] location.  
   
--   For other source control plug-ins, open from source control: **File**, **Source Control**, **Open from Source Control**.  
+- For other source control plug-ins, open from source control: **File**, **Source Control**, **Open from Source Control**.  
   
--   Add to source control: **File**, **Source Control**, **Add Solution to Source Control File**, **Source Control**, **Add Selected Projects to Source Control**.  
+- Add to source control: **File**, **Source Control**, **Add Solution to Source Control File**, **Source Control**, **Add Selected Projects to Source Control**.  
   
--   Shortcut Menu (Project/Solution), **Add Solution to Source Control**.  
+- Shortcut Menu (Project/Solution), **Add Solution to Source Control**.  
   
--   Add from source control: **File**, **Source Control**, **Add Project from Source Control**.  
+- Add from source control: **File**, **Source Control**, **Add Project from Source Control**.  
   
--   For [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], add from source control is also available from **File**, **Add**, **Existing Project**; look in the [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] location.  
+- For [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], add from source control is also available from **File**, **Add**, **Existing Project**; look in the [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] location.  
   
-    > [!NOTE]
-    >  A path of a local file or a local IIS (web server) can be used in this test.  
+  > [!NOTE]
+  >  A path of a local file or a local IIS (web server) can be used in this test.  
   
 ## Expected Behavior  
   

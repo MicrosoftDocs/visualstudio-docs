@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1800: Do not cast unnecessarily
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotCastUnnecessarily|

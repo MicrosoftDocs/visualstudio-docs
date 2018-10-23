@@ -55,7 +55,7 @@ Defines a VSPackage command group.
   
 ```xml  
 <Group guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-  <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
+  <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
 </Group>  
 ```  
   

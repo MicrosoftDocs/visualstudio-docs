@@ -22,7 +22,7 @@ Retrieves the number records in the debug data stream.
   
 ```C++  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

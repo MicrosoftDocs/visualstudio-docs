@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether the section can be read.
   
 ```cpp#  
 HRESULT get_read (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

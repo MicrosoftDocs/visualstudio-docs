@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1308: Normalize strings to uppercase
+
 |||
 |-|-|
 |TypeName|NormalizeStringsToUppercase|

@@ -27,19 +27,19 @@ Moves the read pointer in the disassembly stream a given number of instructions 
   
 ```cpp#  
 HRESULT Seek(   
-   SEEK_START          dwSeekStart,  
-   IDebugCodeContext2* pCodeContext,  
-   UINT64              uCodeLocationId,  
-   INT64               iInstructions  
+   SEEK_START          dwSeekStart,  
+   IDebugCodeContext2* pCodeContext,  
+   UINT64              uCodeLocationId,  
+   INT64               iInstructions  
 );  
 ```  
   
 ```csharp  
 int Seek(   
-   enum_SEEK_START    dwSeekStart,  
-   IDebugCodeContext2 pCodeContext,  
-   ulong              uCodeLocationId,  
-   long               iInstructions  
+   enum_SEEK_START    dwSeekStart,  
+   IDebugCodeContext2 pCodeContext,  
+   ulong              uCodeLocationId,  
+   long               iInstructions  
 );  
 ```  
   

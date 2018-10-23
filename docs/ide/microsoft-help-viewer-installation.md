@@ -39,9 +39,9 @@ Another way to easily install Microsoft Help Viewer is via the **Quick Launch** 
 
    ![Install button](media/help_viewer_install.png)
 
-|         |         |
+| | |
 |---------|---------|
-|  ![movie camera icon for video](../install/media/video-icon.png)  |  [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=ZMfaVID6D_7411787171) on how to install the Microsoft Help Viewer by using Visual Studio Installer. |
+| ![movie camera icon for video](../install/media/video-icon.png) | [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=ZMfaVID6D_7411787171) on how to install the Microsoft Help Viewer by using Visual Studio Installer. |
 
 ## See also
 

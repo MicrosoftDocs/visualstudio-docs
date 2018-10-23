@@ -38,33 +38,33 @@ A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment can test for
 2.  For an operating system prerequisite, add the `supportUrl` attribute to the `dependentOS` element:  
   
     ```  
-     <dependency>  
-        <dependentOS supportUrl="http://www.adatum.com/MyApplication/wrongOSFound.htm">  
-          <osVersionInfo>  
-            <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" servicePackMinor="0" />  
-          </osVersionInfo>  
-        </dependentOS>  
-      </dependency>  
+     <dependency>  
+        <dependentOS supportUrl="http://www.adatum.com/MyApplication/wrongOSFound.htm">  
+          <osVersionInfo>  
+            <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" servicePackMinor="0" />  
+          </osVersionInfo>  
+        </dependentOS>  
+      </dependency>  
     ```  
   
 3.  For a prerequisite for a certain version of the common language runtime, add the `supportUrl` attribute to the `dependentAssembly` entry that specifies the common language runtime dependency:  
   
     ```  
-      <dependency>  
-        <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/wrongClrVersionFound.htm">  
-          <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />  
-        </dependentAssembly>  
-      </dependency>  
+      <dependency>  
+        <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/wrongClrVersionFound.htm">  
+          <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />  
+        </dependentAssembly>  
+      </dependency>  
     ```  
   
 4.  For a prerequisite for an assembly that must be preinstalled in the global assembly cache, set the `supportUrl` for the `dependentAssembly` element that specifies the required assembly:  
   
     ```  
-      <dependency>  
-        <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/missingSampleGACAssembly.htm">  
-          <assemblyIdentity name="SampleGACAssembly" version="5.0.0.0" publicKeyToken="04529dfb5da245c5" processorArchitecture="msil" language="neutral" />  
-        </dependentAssembly>  
-      </dependency>  
+      <dependency>  
+        <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/missingSampleGACAssembly.htm">  
+          <assemblyIdentity name="SampleGACAssembly" version="5.0.0.0" publicKeyToken="04529dfb5da245c5" processorArchitecture="msil" language="neutral" />  
+        </dependentAssembly>  
+      </dependency>  
     ```  
   
 5.  Optional. For applications that target the .NET Framework 4, open the deployment manifest (the .application file) for your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application in a text editor.  

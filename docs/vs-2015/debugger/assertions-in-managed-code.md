@@ -147,19 +147,19 @@ Debug.Assert ( temp != 0 );
   
  Otherwise, for <xref:System.Diagnostics.Trace> methods to work, your program must have one of the following at the top of the source file:  
   
--   `#Const TRACE = True` in Visual Basic  
+- `#Const TRACE = True` in Visual Basic  
   
--   `#define TRACE` in Visual C# and C++  
+- `#define TRACE` in Visual C# and C++  
   
- Or your program must be built with the TRACE option:  
+  Or your program must be built with the TRACE option:  
   
--   `/d:TRACE=True` in Visual Basic  
+- `/d:TRACE=True` in Visual Basic  
   
--   `/d:TRACE` in Visual C# and C++  
+- `/d:TRACE` in Visual C# and C++  
   
- If you need to use the Debug methods in a C# or Visual Basic Release build, you must define the DEBUG symbol in your Release configuration.  
+  If you need to use the Debug methods in a C# or Visual Basic Release build, you must define the DEBUG symbol in your Release configuration.  
   
- C++ does not support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`. You can define these symbols in the **\<Project> Property Pages** dialog box. For more information, see [Changing Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md) or [Changing Project Settings for a C or C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
+  C++ does not support the <xref:System.Diagnostics.Debug> class methods. You can achieve the same effect by using the <xref:System.Diagnostics.Trace> class with conditional compilation, such as `#ifdef DEBUG`... `#endif`. You can define these symbols in the **\<Project> Property Pages** dialog box. For more information, see [Changing Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md) or [Changing Project Settings for a C or C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
   
 ##  <a name="BKMK_Assert_arguments"></a> Assert arguments  
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> take up to three arguments. The first argument, which is mandatory, is the condition you want to check. If you call <xref:System.Diagnostics.Trace.Assert%28System.Boolean%29?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%28System.Boolean%29?displayProperty=fullName> with only one argument, the `Assert` method checks the condition and, if the result is false, outputs the contents of the call stack to the **Output** window. The following example shows <xref:System.Diagnostics.Trace.Assert%28System.Boolean%29?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%28System.Boolean%29?displayProperty=fullName>:  

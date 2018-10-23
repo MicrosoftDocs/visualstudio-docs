@@ -34,21 +34,21 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
 #### To change the layering order
 
--   Do one of the following:
+- Do one of the following:
 
-    -   In the **Document Outline** window, drag the elements up or down to create the desired layering order.
+  - In the **Document Outline** window, drag the elements up or down to create the desired layering order.
 
-    -   Right-click the element in the Document Outline window or the artboard for which you want to change the layering order, point to **Order**, and then click one of the following:
+  - Right-click the element in the Document Outline window or the artboard for which you want to change the layering order, point to **Order**, and then click one of the following:
 
-        -   **Bring to Front** to bring the element all the way to the front of the order.
+    -   **Bring to Front** to bring the element all the way to the front of the order.
 
-        -   **Bring Forward** to bring the element forward one level in the order.
+    -   **Bring Forward** to bring the element forward one level in the order.
 
-        -   **Send Backward** to send the element back one level in the order.
+    -   **Send Backward** to send the element back one level in the order.
 
-        -   **Send to Back** to send the element all the way to the back of the order.
+    -   **Send to Back** to send the element all the way to the back of the order.
 
-     Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
+    Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
 
 ## Changing the alignment of an element
  You can align elements in the artboard by using menu commands or by dragging elements to snaplines.
@@ -103,9 +103,9 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
 #### To ungroup elements and delete the layout
 
--   Right-click the group that you want to ungroup and click **Ungroup**.
+- Right-click the group that you want to ungroup and click **Ungroup**.
 
- You can also group or ungroup elements by right-clicking selected items in the Document Outline window and clicking **Group Into** or **Ungroup**.
+  You can also group or ungroup elements by right-clicking selected items in the Document Outline window and clicking **Group Into** or **Ungroup**.
 
 ## Resetting the element layout
  You can restore default values for specific layout properties of an element by using the Layout Reset commands. By using this command, you can reset the margin, alignment, width, height, and size of an element, either individually or collectively.

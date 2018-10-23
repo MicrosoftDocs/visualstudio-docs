@@ -23,7 +23,7 @@ Creates a unique ID for this property to ensure that it is unique among all othe
   
 ```cpp  
 HRESULT CreateObjectID(  
-   void  
+   void  
 );  
 ```  
   

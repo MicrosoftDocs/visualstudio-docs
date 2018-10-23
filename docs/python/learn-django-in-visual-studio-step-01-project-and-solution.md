@@ -158,16 +158,16 @@ Once project creation completes, examine the boilerplate Django project code (wh
 
     ![Django commands on a Python project context menu](media/django/step01-django-commands-menu.png)
 
-1. In your project is a folder named the same as the project. It contains the basic Django project files:
+2. In your project is a folder named the same as the project. It contains the basic Django project files:
 
-    - *__init.py*: an empty file that tells Python that this folder is a Python package.
-    - *wsgi.py*: an entry point for WSGI-compatible web servers to serve your project. You typically leave this file as-is as it provides the hooks for production web servers.
-    - *settings.py*: contains settings for Django project, which you modify in the course of developing a web app.
-    - *urls.py*: contains a table of contents for the Django project, which you also modify in the course of development.
+   - *__init.py*: an empty file that tells Python that this folder is a Python package.
+   - *wsgi.py*: an entry point for WSGI-compatible web servers to serve your project. You typically leave this file as-is as it provides the hooks for production web servers.
+   - *settings.py*: contains settings for Django project, which you modify in the course of developing a web app.
+   - *urls.py*: contains a table of contents for the Django project, which you also modify in the course of development.
 
-    ![Django project files in Solution Explorer](media/django/step01-django-project-in-solution-explorer.png)
+     ![Django project files in Solution Explorer](media/django/step01-django-project-in-solution-explorer.png)
 
-1. As noted earlier, the Visual Studio template also adds a *requirements.txt* file to your project specifying the Django package dependency. The presence of this file is what invites you to create a virtual environment when first creating the project.
+3. As noted earlier, the Visual Studio template also adds a *requirements.txt* file to your project specifying the Django package dependency. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
 ### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 

@@ -53,13 +53,14 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 > [INSTALLDIR] below refers to the installation root directory of Visual Studio. *VSIXInstaller.exe* will automatically populate this, but to write custom deployment code, please read [locating Visual Studio](locating-visual-studio.md).
 
 * Assemblies that were only installed into the GAC:
-  * These assemblies are now installed under *[INSTALLDIR]\Common7\IDE\*, *[INSTALLDIR]\Common7\IDE\PublicAssemblies* or *[INSTALLDIR]\Common7\IDE\PrivateAssemblies*. These folders are part of the Visual Studio process's probing paths.
+  * These assemblies are now installed under <em>[INSTALLDIR]\Common7\IDE\*, *[INSTALLDIR]\Common7\IDE\PublicAssemblies</em> or *[INSTALLDIR]\Common7\IDE\PrivateAssemblies*. These folders are part of the Visual Studio process's probing paths.
+
 * Assemblies that were installed into a non-probing path and into the GAC:
   * The copy in the GAC was removed from setup.
   * A *.pkgdef* file was added to specify a code base entry for the assembly.
 
     For example:
-    
+
     ```xml
     [$RootKey$\RuntimeConfiguration\dependentAssembly\codeBase\{UniqueGUID}]
     "name"="AssemblyName" "codeBase"="$PackageFolder$\AssemblyName.dll"
@@ -75,7 +76,7 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
   * Your code will be able to find Visual Studio core assemblies.
   * Consider using a *.pkgdef* file to specify a path to your assemblies if necessary.
 * If your extension is running outside the Visual Studio process:
-  * Consider looking for Visual Studio core assemblies under *[INSTALLDIR]\Common7\IDE\*, *[INSTALLDIR]\Common7\IDE\PublicAssemblies* or *[INSTALLDIR]\Common7\IDE\PrivateAssemblies* using configuration file or assembly resolver.
+  * Consider looking for Visual Studio core assemblies under <em>[INSTALLDIR]\Common7\IDE\*, *[INSTALLDIR]\Common7\IDE\PublicAssemblies</em> or *[INSTALLDIR]\Common7\IDE\PrivateAssemblies* using configuration file or assembly resolver.
 
 ## Change: Reduce registry impact
 

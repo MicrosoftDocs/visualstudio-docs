@@ -28,7 +28,7 @@ Creates an enumerator that contains the same enumerated sequence as the current 
   
 ```cpp#  
 HRESULT Clone (   
-   IDiaEnumDebugStreamData** ppenum  
+   IDiaEnumDebugStreamData** ppenum  
 );  
 ```  
   

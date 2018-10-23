@@ -57,26 +57,26 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 ##  <a name="Requirements"></a> System Requirements and backward compatibility  
  For important info about the hardware, software, and configuration requirements for Visual Studio Emulator for Android, see the following topic.  
   
--   [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
+- [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
   
- Visual Studio Emulator for Android requires Visual Studio 2015; it is not backward compatible with earlier versions of Visual Studio.  
+  Visual Studio Emulator for Android requires Visual Studio 2015; it is not backward compatible with earlier versions of Visual Studio.  
   
- New versions of the emulator are installed on top of old versions (and may, in some cases, replace the old images, discarding the settings, apps, and files installed on those images).  
+  New versions of the emulator are installed on top of old versions (and may, in some cases, replace the old images, discarding the settings, apps, and files installed on those images).  
   
 ##  <a name="Networking"></a> Networking in the Visual Studio Emulator for Android  
  The networking connection of the Visual Studio Emulator for Android behaves like the connection of a desktop computer with these characteristics:  
   
--   The emulator appears on the network as a separate device with its own IP address.  
+- The emulator appears on the network as a separate device with its own IP address.  
   
--   It does not require any additional networking software that is not already installed with the emulator.  
+- It does not require any additional networking software that is not already installed with the emulator.  
   
--   It is not joined to a Windows domain.  
+- It is not joined to a Windows domain.  
   
- To understand the capabilities of the emulator's network connection, think of it as similar to a Wi-Fi connection from your Android phone to the same network. If an app running on your phone can access a network resource over its Wi-Fi connection, then an app running on the emulator can also access the same network resource.  
+  To understand the capabilities of the emulator's network connection, think of it as similar to a Wi-Fi connection from your Android phone to the same network. If an app running on your phone can access a network resource over its Wi-Fi connection, then an app running on the emulator can also access the same network resource.  
   
- For more info on network requirements, see [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
+  For more info on network requirements, see [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
   
- For info on troubleshooting networking issues, see [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md).  
+  For info on troubleshooting networking issues, see [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md).  
   
 ##  <a name="Configuring"></a> Configure the Visual Studio Emulator for Android  
  Testing your Android app for compatibility across the staggering variety of Android hardware can be a challenge. Android phones and tablets in the market span a wide range of versions and screen sizes and come in many different hardware configurations (RAM, CPUs, architecture, etc.). The Visual Studio Emulator for Android simplifies this using device profiles. Our set of device profiles represent the most popular hardware in the market, including devices from Samsung, Motorola, Sony, LG, and more.  

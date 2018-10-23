@@ -162,15 +162,15 @@ manager: "ghogen"
 ### Hyperlink anti-patterns  
  The following example contains two anti-patterns.  
   
-1.  The foreground turning red on hover means that the correct shared color from the font service is not being used.  
+1. The foreground turning red on hover means that the correct shared color from the font service is not being used.  
   
-2.  "Learn more" is not the appropriate text for a link to a conceptual topic. The user's goal is not to learn more, it is to understand the ramifications of their choice.  
+2. "Learn more" is not the appropriate text for a link to a conceptual topic. The user's goal is not to learn more, it is to understand the ramifications of their choice.  
   
- ![Hyperlink anti&#45;patterns](../../extensibility/ux-guidelines/media/0102-j-hyperlinkincorrect.png "0102-j_HyperlinkIncorrect")  
+   ![Hyperlink anti&#45;patterns](../../extensibility/ux-guidelines/media/0102-j-hyperlinkincorrect.png "0102-j_HyperlinkIncorrect")  
   
- **Ignoring the color service and using “Learn more” for hyperlinks are Visual Studio anti-patterns.**  
+   **Ignoring the color service and using “Learn more” for hyperlinks are Visual Studio anti-patterns.**  
   
- **Better solution:** Pose the question the user would be asking by clicking the link.  
+   **Better solution:** Pose the question the user would be asking by clicking the link.  
   
 -   How do Windows Azure services work?  
   

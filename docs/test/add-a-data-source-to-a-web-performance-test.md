@@ -258,11 +258,11 @@ Bind data to provide different values to the same test, for example, to provide 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <CheckStatus xmlns="http://tempuri.org/">
-                <userName>string</userName> <password>string</password> <orderID>int</orderID>
-            </CheckStatus>
-        </soap:Body>
+        <soap:Body>
+            <CheckStatus xmlns="http://tempuri.org/">
+                <userName>string</userName> <password>string</password> <orderID>int</orderID>
+            </CheckStatus>
+        </soap:Body>
     </soap:Envelope>
     ```
 
@@ -271,11 +271,11 @@ Bind data to provide different values to the same test, for example, to provide 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <CheckStatus xmlns="http://tempuri.org/">
-                <userName>{{DataSourceName.Users.Name}}</userName> <password>{{DataSourceName.Users.Password}}</password> <orderID>{{DataSourceName.Orders.OrderID}}</orderID>
-            </CheckStatus>
-        </soap:Body>
+        <soap:Body>
+            <CheckStatus xmlns="http://tempuri.org/">
+                <userName>{{DataSourceName.Users.Name}}</userName> <password>{{DataSourceName.Users.Password}}</password> <orderID>{{DataSourceName.Orders.OrderID}}</orderID>
+            </CheckStatus>
+        </soap:Body>
     </soap:Envelope>
     ```
 

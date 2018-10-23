@@ -76,7 +76,6 @@ You can implement an analyzer using Visual Basic that targets C# code, and vice 
 
 ```csharp
 public override void Initialize(AnalysisContext context) {}
-
 ```
 
 Open a new line in this method and type "context." to see an IntelliSense completion list.  You can see in the completion list there are many `Register...` methods to handle various kinds of events.  For example, the first one, `RegisterCodeBlockAction`, calls back to your code for a block, which is usually code between curly braces.  Registering for a block also calls back to your code for the initializer of a field, the value given to an attribute, or the value of an optional parameter.
@@ -219,7 +218,6 @@ namespace ImmutableArrayAnalyzer
     [ExportCodeFixProvider(LanguageNames.CSharp)]
     class BuildCodeFixProvider : CodeFixProvider
     {}
-
 ```
 
 **Stub out derived members.** Now, place the editor's caret in the identifier `CodeFixProvider` and press **Ctrl**+**.** (period) to stub out the implementation for this abstract base class.  This generates a property and a method for you.

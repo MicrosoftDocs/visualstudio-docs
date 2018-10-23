@@ -49,19 +49,19 @@ This error generally occurs when users are connected to the internet through a p
 
 - If you want to use your default credentials with your proxy, you can perform the following actions:
 
-    1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
+  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
 
-    1. In the configuration file, find the `<system.net>` block, and then add this code:
+  2. In the configuration file, find the `<system.net>` block, and then add this code:
 
-        ```xml
-        <defaultProxy enabled="true" useDefaultCredentials="true">
-            <proxy bypassonlocal="True" proxyaddress=" HYPERLINK "http://<yourproxy:port#>" http://<yourproxy:port#>"/>
-        </defaultProxy>
-        ```
+      ```xml
+      <defaultProxy enabled="true" useDefaultCredentials="true">
+          <proxy bypassonlocal="True" proxyaddress=" HYPERLINK "http://<yourproxy:port#>" http://<yourproxy:port#>"/>
+      </defaultProxy>
+      ```
 
-        You must insert the correct proxy address for your network in `proxyaddress="<http://<yourproxy:port#>`.
+      You must insert the correct proxy address for your network in `proxyaddress="<http://<yourproxy:port#>`.
 
-    OR
+     OR
 
 - You can also follow the instructions in the [How to connect through an authenticated Web Proxy](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) blog post, which shows you how to add code that will allow you to use the proxy.
 
@@ -103,8 +103,8 @@ Enable connections for the following URLs:
 
 - &#42;.nuget.org (for NuGet connections)
 
- > [!NOTE]
- > Privately owned NuGet server URLs may not be included in this list. You can check for the NuGet servers that you are using in %APPData%\Nuget\NuGet.Config.
+  > [!NOTE]
+  > Privately owned NuGet server URLs may not be included in this list. You can check for the NuGet servers that you are using in %APPData%\Nuget\NuGet.Config.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

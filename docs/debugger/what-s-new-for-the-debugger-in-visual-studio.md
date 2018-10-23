@@ -29,8 +29,8 @@ The debugger includes these new features:
 
     Snapshot collection is available for the following web apps running in Azure App Service:
 
-    * ASP.NET applications running on .NET Framework 4.6.1 or later.
-    * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+  * ASP.NET applications running on .NET Framework 4.6.1 or later.
+  * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
     For more information, see [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md).
 

@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function is pure virtual.
   
 ```C++  
 HRESULT get_pure (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -23,13 +23,13 @@ Returns a copy of the current enumeration as a separate object.
   
 ```cpp  
 HRESULT Clone(  
-   IEnumDebugPorts2** ppEnum  
+   IEnumDebugPorts2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int Clone(  
-   out IEnumDebugPorts2 ppEnum  
+   out IEnumDebugPorts2 ppEnum  
 );  
 ```  
   

@@ -23,13 +23,13 @@ This method gets an [IDebugFunctionObject](../../../extensibility/debugger/refer
   
 ```cpp  
 HRESULT GetFunctionObject(   
-   IDebugFunctionObject **ppFunction  
+   IDebugFunctionObject **ppFunction  
 );  
 ```  
   
 ```csharp  
 int GetFunctionObject(  
-   out IDebugFunctionObject ppFunction  
+   out IDebugFunctionObject ppFunction  
 );  
 ```  
   

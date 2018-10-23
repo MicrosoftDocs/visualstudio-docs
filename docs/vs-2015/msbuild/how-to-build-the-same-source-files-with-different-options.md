@@ -69,23 +69,23 @@ When you build projects, you frequently compile the same components with differe
   
 #### To specify more than one project property at the command line  
   
--   Use the **/property** or **/p** switch multiple times with the property and property values, or use one **/property** or **/p** switch and separate multiple properties with semicolons (;). For example:  
+- Use the **/property** or **/p** switch multiple times with the property and property values, or use one **/property** or **/p** switch and separate multiple properties with semicolons (;). For example:  
   
-    ```  
-    msbuild file.proj /p:Flavor=Debug;Platform=x86  
-    ```  
+  ```  
+  msbuild file.proj /p:Flavor=Debug;Platform=x86  
+  ```  
   
-     - or-  
+   - or-  
   
-    ```  
-    msbuild file.proj /p:Flavor=Debug /p:Platform=x86  
-    ```  
+  ```  
+  msbuild file.proj /p:Flavor=Debug /p:Platform=x86  
+  ```  
   
- Environment variables are also treated as properties and are automatically incorporated by [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. For more information about using environment variables, see [How to: Use Environment Variables in a Build](../msbuild/how-to-use-environment-variables-in-a-build.md).  
+  Environment variables are also treated as properties and are automatically incorporated by [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. For more information about using environment variables, see [How to: Use Environment Variables in a Build](../msbuild/how-to-use-environment-variables-in-a-build.md).  
   
- The property value that is specified on the command line takes precedence over any value that is set for the same property in the project file, and that value in the project file takes precedence over the value in an environment variable.  
+  The property value that is specified on the command line takes precedence over any value that is set for the same property in the project file, and that value in the project file takes precedence over the value in an environment variable.  
   
- You can change this behavior by using the `TreatAsLocalProperty` attribute in a project tag. For property names that are listed with that attribute, the property value that's specified on the command line doesn't take precedence over the value in the project file. You can find an example later in this topic.  
+  You can change this behavior by using the `TreatAsLocalProperty` attribute in a project tag. For property names that are listed with that attribute, the property value that's specified on the command line doesn't take precedence over the value in the project file. You can find an example later in this topic.  
   
 ## Example  
  The following code example, the "Hello World" project, contains two new property groups that can be used to create a Debug build and a Release build.  

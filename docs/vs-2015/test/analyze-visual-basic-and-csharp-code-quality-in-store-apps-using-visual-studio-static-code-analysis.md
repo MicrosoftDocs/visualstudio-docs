@@ -43,17 +43,17 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="BKMK_Run"></a> Running code analysis  
  To run code analysis on your Visual Studio solution:  
   
--   On the **Build** menu, choose **Run Code Analysis on Solution**.  
+- On the **Build** menu, choose **Run Code Analysis on Solution**.  
   
- To automatically run code analysis each time you build a project:  
+  To automatically run code analysis each time you build a project:  
   
-1.  Right-click the project name in Solution Explorer and then choose **Properties**.  
+1. Right-click the project name in Solution Explorer and then choose **Properties**.  
   
-2.  In the project property page, choose **Code Analysis** and then choose **Enable Code Analysis on Build (defines CODEANALYSIS constant)**.  
+2. In the project property page, choose **Code Analysis** and then choose **Enable Code Analysis on Build (defines CODEANALYSIS constant)**.  
   
- The solution is compiled and code analysis runs. Results appear in the Code Analysis window.  
+   The solution is compiled and code analysis runs. Results appear in the Code Analysis window.  
   
- ![Code Analysis window](../test/media/ca-managed-collapsed.png "CA_Managed_Collapsed")  
+   ![Code Analysis window](../test/media/ca-managed-collapsed.png "CA_Managed_Collapsed")  
   
 ##  <a name="BKMK_Analyze"></a> Analyzing and resolving code analysis warnings  
  To analyze a specific warning, click the title of the warning in the Code Analysis window. The warning expands to display detailed information about the issue.  
@@ -74,15 +74,15 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  To suppress a warning:  
   
-1.  If the detailed information is not displayed, click the title of the warning to expand it.  
+1. If the detailed information is not displayed, click the title of the warning to expand it.  
   
-2.  Choose the **Actions** link at the bottom of the warning.  
+2. Choose the **Actions** link at the bottom of the warning.  
   
-3.  Point to **Suppress Message** and then choose either **In Source** or **In Suppression File**.  
+3. Point to **Suppress Message** and then choose either **In Source** or **In Suppression File**.  
   
-    -   **In Source** inserts a `SuppressMessage` attribute in the source file above the method that generated the warning. This makes the suppression more discoverable.  
+   - **In Source** inserts a `SuppressMessage` attribute in the source file above the method that generated the warning. This makes the suppression more discoverable.  
   
-    -   **In Suppression File** adds a `SuppressMessage` attribute to the **GlobalSuppressions.cs** file of the project. This can make the management of suppressions easier. Note that the `SuppressMessage` attribute added to **GlobalSuppression.cs** also targets the method that generated the warning. It does not suppress the warning globally.  
+   - **In Suppression File** adds a `SuppressMessage` attribute to the **GlobalSuppressions.cs** file of the project. This can make the management of suppressions easier. Note that the `SuppressMessage` attribute added to **GlobalSuppression.cs** also targets the method that generated the warning. It does not suppress the warning globally.  
   
      Your decision whether to suppress the warning in the source file or in the suppression file depends on your coding style and needs.  
   

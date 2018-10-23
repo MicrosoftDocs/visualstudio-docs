@@ -22,8 +22,8 @@ Reads `BSTR` values in a property set.
   
 ```C++  
 HRESULT ReadBSTR (   
-   PROPID id,  
-   BSTR*  pValue  
+   PROPID id,  
+   BSTR*  pValue  
 );  
 ```  
   

@@ -23,10 +23,10 @@ This function prompts the user for advanced options for a given command.
   
 ```cpp  
 SCCRTN SccGetCommandOptions(  
-   LPVOID pvContext,  
-   HWND hWnd,  
-   enum SCCCOMMAND iCommand,  
-   LPCMDOPTS* ppvOptions  
+   LPVOID pvContext,  
+   HWND hWnd,  
+   enum SCCCOMMAND iCommand,  
+   LPCMDOPTS* ppvOptions  
 );  
 ```  
   

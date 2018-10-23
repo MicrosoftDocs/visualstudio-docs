@@ -23,15 +23,15 @@ Contains information about the state of a breakpoint that is ready to bind to a 
   
 ```cpp  
 typedef struct _tagPENDING_BP_STATE_INFO {   
-   PENDING_BP_STATE       state;  
-   PENDING_BP_STATE_FLAGS flags;  
+   PENDING_BP_STATE       state;  
+   PENDING_BP_STATE_FLAGS flags;  
 } PENDING_BP_STATE_INFO;  
 ```  
   
 ```csharp  
 public struct PENDING_BP_STATE_INFO {   
-   public uint state;  
-   public uint flags;  
+   public uint state;  
+   public uint flags;  
 };  
 ```  
   

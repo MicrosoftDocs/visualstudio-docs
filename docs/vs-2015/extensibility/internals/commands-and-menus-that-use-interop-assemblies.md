@@ -24,13 +24,13 @@ manager: "ghogen"
 
 A VSPackage that implements menu and toolbar commands by using interop assemblies must:  
   
--   Inform the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) about the commands it supports and whether they are currently enabled.  
+- Inform the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) about the commands it supports and whether they are currently enabled.  
   
--   Adhere to the rules (contract) for handling commands.  
+- Adhere to the rules (contract) for handling commands.  
   
--   Explicitly implement command handling by using either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface.  
+- Explicitly implement command handling by using either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface.  
   
- The following describes how to do these tasks.  
+  The following describes how to do these tasks.  
   
 ## In This Section  
  [Determining Command Status By Using Interop Assemblies](../../extensibility/internals/determining-command-status-by-using-interop-assemblies.md)  

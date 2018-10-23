@@ -32,10 +32,10 @@ ms.workload:
 ### Special nodes
  Every SharePoint project contains two nodes that cannot be renamed, deleted, cut, copied, or dragged from the project. These nodes are as follows:  
   
--   Features    
--   Package  
+- Features    
+- Package  
   
- Both nodes always appear in all SharePoint projects even if no features or packages are defined for the project.  
+  Both nodes always appear in all SharePoint projects even if no features or packages are defined for the project.  
   
 #### Features node
  The **Features** node contains one or more SharePoint project features. A feature is a container of extensions for SharePoint. After a feature is deployed to SharePoint server, it can be included in site definitions or activated individually by SharePoint administrators on SharePoint sites. For more information, see [Working with Features](http://go.microsoft.com/fwlink/?LinkID=147704).  

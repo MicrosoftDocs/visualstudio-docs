@@ -21,13 +21,13 @@ Determines whether the checksum is enabled for this document.
   
 ```cpp  
 HRESULT IsChecksumEnabled(   
-   BOOL *pfChecksumEnabled  
+   BOOL *pfChecksumEnabled  
 );  
 ```  
   
 ```csharp  
 public int IsChecksumEnabled(   
-   out int pfChecksumEnabled  
+   out int pfChecksumEnabled  
 );  
 ```  
   

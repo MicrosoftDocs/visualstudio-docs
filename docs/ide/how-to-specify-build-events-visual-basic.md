@@ -58,66 +58,66 @@ The following procedure shows how to set the minimum operating system version in
 
 ### To create an .exe command to change the application manifest
 
-1.  Create a console application for the command. From the **File** menu, click **New**, and then click **Project**.
+1. Create a console application for the command. From the **File** menu, click **New**, and then click **Project**.
 
-2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows** and then the **Console Application** template. Name the project `ChangeOSVersionVB`.
+2. In the **New Project** dialog box, in the **Visual Basic** node, select **Windows** and then the **Console Application** template. Name the project `ChangeOSVersionVB`.
 
-3.  In *Module1.vb*, add the following line to the other `Imports` statements at the top of the file:
+3. In *Module1.vb*, add the following line to the other `Imports` statements at the top of the file:
 
-    ```vb
-    Imports System.Xml
-    ```
+   ```vb
+   Imports System.Xml
+   ```
 
-4.  Add the following code in `Sub Main`:
+4. Add the following code in `Sub Main`:
 
-    ```vb
-    Sub Main()
-       Dim applicationManifestPath As String
-       applicationManifestPath = My.Application.CommandLineArgs(0)
-       Console.WriteLine("Application Manifest Path: " & applicationManifestPath.ToString)
+   ```vb
+   Sub Main()
+      Dim applicationManifestPath As String
+      applicationManifestPath = My.Application.CommandLineArgs(0)
+      Console.WriteLine("Application Manifest Path: " & applicationManifestPath.ToString)
 
-       'Get version name
-       Dim osVersion As Version
-       If My.Application.CommandLineArgs.Count >= 2 Then
-          osVersion = New Version(My.Application.CommandLineArgs(1).ToString)
-       Else
-          Throw New ArgumentException("OS Version not specified.")
-       End If
-       Console.WriteLine("Desired OS Version: " & osVersion.ToString())
+      'Get version name
+      Dim osVersion As Version
+      If My.Application.CommandLineArgs.Count >= 2 Then
+         osVersion = New Version(My.Application.CommandLineArgs(1).ToString)
+      Else
+         Throw New ArgumentException("OS Version not specified.")
+      End If
+      Console.WriteLine("Desired OS Version: " & osVersion.ToString())
 
-       Dim document As XmlDocument
-       Dim namespaceManager As XmlNamespaceManager
-       namespaceManager = New XmlNamespaceManager(New NameTable())
-       With namespaceManager
-          .AddNamespace("asmv1", "urn:schemas-microsoft-com:asm.v1")
-          .AddNamespace("asmv2", "urn:schemas-microsoft-com:asm.v2")
-       End With
+      Dim document As XmlDocument
+      Dim namespaceManager As XmlNamespaceManager
+      namespaceManager = New XmlNamespaceManager(New NameTable())
+      With namespaceManager
+         .AddNamespace("asmv1", "urn:schemas-microsoft-com:asm.v1")
+         .AddNamespace("asmv2", "urn:schemas-microsoft-com:asm.v2")
+      End With
 
-       document = New XmlDocument()
-       document.Load(applicationManifestPath)
+      document = New XmlDocument()
+      document.Load(applicationManifestPath)
 
-       Dim baseXPath As String
-       baseXPath = "/asmv1:assembly/asmv2:dependency/asmv2:dependentOS/asmv2:osVersionInfo/asmv2:os"
+      Dim baseXPath As String
+      baseXPath = "/asmv1:assembly/asmv2:dependency/asmv2:dependentOS/asmv2:osVersionInfo/asmv2:os"
 
-       'Change minimum required OS Version.
-       Dim node As XmlNode
-       node = document.SelectSingleNode(baseXPath, namespaceManager)
-       node.Attributes("majorVersion").Value = osVersion.Major.ToString()
-       node.Attributes("minorVersion").Value = osVersion.Minor.ToString()
-       node.Attributes("buildNumber").Value = osVersion.Build.ToString()
-       node.Attributes("servicePackMajor").Value = osVersion.Revision.ToString()
+      'Change minimum required OS Version.
+      Dim node As XmlNode
+      node = document.SelectSingleNode(baseXPath, namespaceManager)
+      node.Attributes("majorVersion").Value = osVersion.Major.ToString()
+      node.Attributes("minorVersion").Value = osVersion.Minor.ToString()
+      node.Attributes("buildNumber").Value = osVersion.Build.ToString()
+      node.Attributes("servicePackMajor").Value = osVersion.Revision.ToString()
 
-       document.Save(applicationManifestPath)
-    End Sub
-    ```
+      document.Save(applicationManifestPath)
+   End Sub
+   ```
 
-    The command takes two arguments. The first argument is the path to the application manifest (that is, the folder in which the build process creates the manifest, typically *<Projectname>.publish*). The second argument is the new operating system version.
+   The command takes two arguments. The first argument is the path to the application manifest (that is, the folder in which the build process creates the manifest, typically *<Projectname>.publish*). The second argument is the new operating system version.
 
-5.  On the **Build** menu, click **Build Solution**.
+5. On the **Build** menu, click **Build Solution**.
 
-6.  Copy the *.exe* file to a directory such as *C:\TEMP\ChangeOSVersionVB.exe*.
+6. Copy the *.exe* file to a directory such as *C:\TEMP\ChangeOSVersionVB.exe*.
 
- Next, invoke this command in a post-build event to change the application manifest.
+   Next, invoke this command in a post-build event to change the application manifest.
 
 ### To invoke a post-build event to change the application manifest
 

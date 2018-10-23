@@ -28,7 +28,7 @@ Retrieves the symbol's signature value.
   
 ```cpp#  
 HRESULT get_signature (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

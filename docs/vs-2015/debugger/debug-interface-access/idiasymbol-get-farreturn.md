@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the function contains a far return.
   
 ```cpp#  
 HRESULT get_farReturn(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

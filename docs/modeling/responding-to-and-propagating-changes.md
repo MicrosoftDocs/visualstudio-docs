@@ -19,7 +19,7 @@ When an element is created, deleted or updated, you can write code that propagat
  As a guideline, consider these techniques in the following order:
 
 |Technique|Scenarios|For more information|
-|---------------|---------------|--------------------------|
+|-|-|-|
 |Define a Calculated domain property.|A domain property whose value is calculated from other properties in the model. For example, a price that is the sum of prices of related elements.|[Calculated and Custom Storage Properties](../modeling/calculated-and-custom-storage-properties.md)|
 |Define a Custom Storage domain property.|A domain property stored in other parts of the model or externally. For example, you could parse an expression string into a tree in the model.|[Calculated and Custom Storage Properties](../modeling/calculated-and-custom-storage-properties.md)|
 |Override change handlers such as OnValueChanging and OnDeleting|Keep different elements in sync, and keep external values in sync with the model.<br /><br /> Constrain values to defined ranges.<br /><br /> Called immediately before and after property value and other changes. You can terminate the change by throwing an exception.|[Domain Property Value Change Handlers](../modeling/domain-property-value-change-handlers.md)|

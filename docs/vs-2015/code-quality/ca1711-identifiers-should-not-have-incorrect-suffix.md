@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1711: Identifiers should not have incorrect suffix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotHaveIncorrectSuffix|
@@ -53,15 +54,15 @@ manager: "wpickett"
 
  In addition, the following suffixes should **not** be used:
 
--   Delegate
+- Delegate
 
--   Enum
+- Enum
 
--   Impl - use 'Core' instead
+- Impl - use 'Core' instead
 
--   Ex or similar suffix to distinguish it from an earlier version of the same type
+- Ex or similar suffix to distinguish it from an earlier version of the same type
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+  Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
 ## How to Fix Violations
  Remove the suffix from the type name.

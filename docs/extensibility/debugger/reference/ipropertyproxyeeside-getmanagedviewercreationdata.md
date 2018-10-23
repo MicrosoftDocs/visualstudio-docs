@@ -23,23 +23,23 @@ Retrieves information about the viewer for this property type in order to instan
   
 ```cpp  
 HRESULT GetManagedViewerCreationData(  
-   BSTR*                  assemName,  
-   IEEDataStorage**       assemBytes,  
-   IEEDataStorage**       assemPdb,  
-   BSTR*                  className,  
-   ASSEMBLYLOCRESOLUTION* alr,  
-   BOOL*                  replacementOk  
+   BSTR*                  assemName,  
+   IEEDataStorage**       assemBytes,  
+   IEEDataStorage**       assemPdb,  
+   BSTR*                  className,  
+   ASSEMBLYLOCRESOLUTION* alr,  
+   BOOL*                  replacementOk  
 );  
 ```  
   
 ```csharp  
 int GetManagedViewerCreationData(  
-   out string                     assemName,  
-   out IEEDataStorage             assemBytes,  
-   out IEEDataStorage             assemPdb,  
-   out string                     className,  
-   out enum_ASSEMBLYLOCRESOLUTION alr,  
-   out int                        replacementOk  
+   out string                     assemName,  
+   out IEEDataStorage             assemBytes,  
+   out IEEDataStorage             assemPdb,  
+   out string                     className,  
+   out enum_ASSEMBLYLOCRESOLUTION alr,  
+   out int                        replacementOk  
 );  
 ```  
   

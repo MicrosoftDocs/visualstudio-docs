@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1027: Mark enums with FlagsAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|MarkEnumsWithFlags|

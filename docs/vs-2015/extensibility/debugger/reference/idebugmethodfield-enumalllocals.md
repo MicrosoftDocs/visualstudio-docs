@@ -27,15 +27,15 @@ Creates an enumerator for all local variables of the method, including those gen
   
 ```cpp#  
 HRESULT EnumAllLocals(   
-   IDebugAddress*     pAddress,  
-   IEnumDebugFields** ppLocals  
+   IDebugAddress*     pAddress,  
+   IEnumDebugFields** ppLocals  
 );  
 ```  
   
 ```csharp  
 int EnumAllLocals(  
-   IDebugAddress        pAddress,   
-   out IEnumDebugFields ppLocals  
+   IDebugAddress        pAddress,   
+   out IEnumDebugFields ppLocals  
 );  
 ```  
   

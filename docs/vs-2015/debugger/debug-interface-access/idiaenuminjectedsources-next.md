@@ -28,9 +28,9 @@ Retrieves a specified number of injected sources in the enumeration sequence.
   
 ```cpp#  
 HRESULT Next (   
-   ULONG                celt,   
-   IDiaInjectedSource** rgelt,  
-   ULONG*               pceltFetched  
+   ULONG                celt,   
+   IDiaInjectedSource** rgelt,  
+   ULONG*               pceltFetched  
 );  
 ```  
   

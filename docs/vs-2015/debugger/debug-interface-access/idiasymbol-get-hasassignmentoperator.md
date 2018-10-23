@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the user-defined data type has any assig
   
 ```cpp#  
 HRESULT get_hasAssignmentOperator (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

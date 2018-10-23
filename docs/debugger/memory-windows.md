@@ -26,6 +26,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
+<<<<<<< HEAD
 # Use the Memory windows in the Visual Studio debugger
 
 During debugging, the **Memory** window shows the memory space your app is using. 

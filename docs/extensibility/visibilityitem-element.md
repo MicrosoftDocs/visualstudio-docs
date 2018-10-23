@@ -61,8 +61,8 @@ The `VisibilityItem` element determines the static visibility of commands and to
   
 ```xml  
 <VisibilityConstraints>  
-  <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
-    context="guidNotViewSourceMode"/>  
+  <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
+    context="guidNotViewSourceMode"/>  
 </VisibilityConstraints>  
 ```  
   

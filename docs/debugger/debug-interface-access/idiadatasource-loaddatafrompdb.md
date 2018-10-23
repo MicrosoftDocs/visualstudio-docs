@@ -22,7 +22,7 @@ Opens and prepares a program database (.pdb) file as a debug data source.
   
 ```C++  
 HRESULT loadDataFromPdb (  
-   LPCOLESTR pdbPath  
+   LPCOLESTR pdbPath  
 );  
 ```  
   

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1722: Identifiers should not have incorrect prefix
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotHaveIncorrectPrefix|

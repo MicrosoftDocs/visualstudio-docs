@@ -21,15 +21,15 @@ manager: "ghogen"
   
 The XML Editor allows you to create an XML Schema definition language (XSD) schema from an XML document. The XML instance document determines how the schema is generated in the following manner:  
   
--   If the XML document has no schema or Document Type Definition (DTD) associated with it, the data in the XML document is used to infer a new XML Schema.  
+- If the XML document has no schema or Document Type Definition (DTD) associated with it, the data in the XML document is used to infer a new XML Schema.  
   
--   If the XML document contains an associated DTD, the external DTD and internal subset are converted to a corresponding XML Schema.  
+- If the XML document contains an associated DTD, the external DTD and internal subset are converted to a corresponding XML Schema.  
   
--   If the XML document contains an inline XML-Data Reduced (XDR) schema, the XDR schema is converted to a corresponding XML Schema.  
+- If the XML document contains an inline XML-Data Reduced (XDR) schema, the XDR schema is converted to a corresponding XML Schema.  
   
- The schemas that are created are then used to provide IntelliSense for the XML document.  
+  The schemas that are created are then used to provide IntelliSense for the XML document.  
   
- For more information about the schema inference engine, see [Inferring an XML Schema](http://msdn.microsoft.com/library/b18e7ffd-3c04-482d-9934-ba2f6a59b2c9).  
+  For more information about the schema inference engine, see [Inferring an XML Schema](http://msdn.microsoft.com/library/b18e7ffd-3c04-482d-9934-ba2f6a59b2c9).  
   
 ### To create an XML Schema  
   

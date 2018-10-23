@@ -22,8 +22,8 @@ Retrieves a segment by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD         index,  
-   IDiaSegment** segment  
+   DWORD         index,  
+   IDiaSegment** segment  
 );  
 ```  
   

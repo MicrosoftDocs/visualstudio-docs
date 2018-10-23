@@ -38,64 +38,64 @@ manager: "ghogen"
 ```csharp  
 namespace EEMC  
 {  
-    [GuidAttribute("462D4A3D-B257-4AEE-97CD-5918C7531757")]  
-    public class EEMCClass : IDebugExpressionEvaluator  
-    {  
-        #region Register and unregister.  
-        private static Guid guidMycLang = new Guid("462D4A3E-B257-4AEE-97CD-5918C7531757");  
-        private static string languageName = "MyC";  
-        private static string eeName = "MyC Expression Evaluator";  
+    [GuidAttribute("462D4A3D-B257-4AEE-97CD-5918C7531757")]  
+    public class EEMCClass : IDebugExpressionEvaluator  
+    {  
+        #region Register and unregister.  
+        private static Guid guidMycLang = new Guid("462D4A3E-B257-4AEE-97CD-5918C7531757");  
+        private static string languageName = "MyC";  
+        private static string eeName = "MyC Expression Evaluator";  
   
-        private static Guid guidMicrosoftVendor = new Guid("994B45C4-E6E9-11D2-903F-00C04FA302A1");  
-        private static Guid guidCOMPlusOnlyEng = new Guid("449EC4CC-30D2-4032-9256-EE18EB41B62B");  
-        private static Guid guidCOMPlusNativeEng = new Guid("92EF0900-2251-11D2-B72E-0000F87572EF");  
+        private static Guid guidMicrosoftVendor = new Guid("994B45C4-E6E9-11D2-903F-00C04FA302A1");  
+        private static Guid guidCOMPlusOnlyEng = new Guid("449EC4CC-30D2-4032-9256-EE18EB41B62B");  
+        private static Guid guidCOMPlusNativeEng = new Guid("92EF0900-2251-11D2-B72E-0000F87572EF");  
   
-        /// <summary>  
-        /// Register the expression evaluator.  
-        /// Set "project properties/configuration properties/build/register for COM interop" to true.  
-        /// </summary>  
-         [ComRegisterFunctionAttribute]  
-        public static void RegisterClass(Type t)  
-        {  
-            // Get Visual Studio version (set by regpkg.exe)  
-            string hive = Environment.GetEnvironmentVariable("EnvSdk_RegKey");  
-            string s = @"SOFTWARE\Microsoft\VisualStudio\"  
-                        + hive  
-                        + @"\AD7Metrics\ExpressionEvaluator";  
+        /// <summary>  
+        /// Register the expression evaluator.  
+        /// Set "project properties/configuration properties/build/register for COM interop" to true.  
+        /// </summary>  
+         [ComRegisterFunctionAttribute]  
+        public static void RegisterClass(Type t)  
+        {  
+            // Get Visual Studio version (set by regpkg.exe)  
+            string hive = Environment.GetEnvironmentVariable("EnvSdk_RegKey");  
+            string s = @"SOFTWARE\Microsoft\VisualStudio\"  
+                        + hive  
+                        + @"\AD7Metrics\ExpressionEvaluator";  
   
-            RegistryKey rk = Registry.LocalMachine.CreateSubKey(s);  
-            if (rk == null)  return;  
+            RegistryKey rk = Registry.LocalMachine.CreateSubKey(s);  
+            if (rk == null)  return;  
   
-            rk = rk.CreateSubKey(guidMycLang.ToString("B"));  
-            rk = rk.CreateSubKey(guidMicrosoftVendor.ToString("B"));  
-            rk.SetValue("CLSID", t.GUID.ToString("B"));  
-            rk.SetValue("Language", languageName);  
-            rk.SetValue("Name", eeName);  
+            rk = rk.CreateSubKey(guidMycLang.ToString("B"));  
+            rk = rk.CreateSubKey(guidMicrosoftVendor.ToString("B"));  
+            rk.SetValue("CLSID", t.GUID.ToString("B"));  
+            rk.SetValue("Language", languageName);  
+            rk.SetValue("Name", eeName);  
   
-            rk = rk.CreateSubKey("Engine");  
-            rk.SetValue("0", guidCOMPlusOnlyEng.ToString("B"));  
-            rk.SetValue("1", guidCOMPlusNativeEng.ToString("B"));  
-        }  
-        /// <summary>  
-        /// Unregister the expression evaluator.  
-        /// </summary>  
-         [ComUnregisterFunctionAttribute]  
-        public static void UnregisterClass(Type t)  
-        {  
-            // Get Visual Studio version (set by regpkg.exe)  
-            string hive = Environment.GetEnvironmentVariable("EnvSdk_RegKey");  
-            string s = @"SOFTWARE\Microsoft\VisualStudio\"  
-                        + hive  
-                        + @"\AD7Metrics\ExpressionEvaluator\"  
-                        + guidMycLang.ToString("B");  
-            RegistryKey key = Registry.LocalMachine.OpenSubKey(s);  
-            if (key != null)  
-            {  
-                key.Close();  
-                Registry.LocalMachine.DeleteSubKeyTree(s);  
-            }  
-        }  
-    }  
+            rk = rk.CreateSubKey("Engine");  
+            rk.SetValue("0", guidCOMPlusOnlyEng.ToString("B"));  
+            rk.SetValue("1", guidCOMPlusNativeEng.ToString("B"));  
+        }  
+        /// <summary>  
+        /// Unregister the expression evaluator.  
+        /// </summary>  
+         [ComUnregisterFunctionAttribute]  
+        public static void UnregisterClass(Type t)  
+        {  
+            // Get Visual Studio version (set by regpkg.exe)  
+            string hive = Environment.GetEnvironmentVariable("EnvSdk_RegKey");  
+            string s = @"SOFTWARE\Microsoft\VisualStudio\"  
+                        + hive  
+                        + @"\AD7Metrics\ExpressionEvaluator\"  
+                        + guidMycLang.ToString("B");  
+            RegistryKey key = Registry.LocalMachine.OpenSubKey(s);  
+            if (key != null)  
+            {  
+                key.Close();  
+                Registry.LocalMachine.DeleteSubKeyTree(s);  
+            }  
+        }  
+    }  
 }  
 ```  
   
@@ -132,82 +132,82 @@ namespace EEMC
   Registration  
 -----------------------------------------------------------*/  
 #ifndef LREGKEY_VISUALSTUDIOROOT  
-    #define LREGKEY_VISUALSTUDIOROOT L"Software\\Microsoft\\VisualStudio\\8.0"  
+    #define LREGKEY_VISUALSTUDIOROOT L"Software\\Microsoft\\VisualStudio\\8.0"  
 #endif  
   
 static HRESULT RegisterMetric( bool registerIt )  
 {  
-    // check where we should register  
-    const ULONG cchBuffer = _MAX_PATH;  
-    WCHAR wszRegistrationRoot[cchBuffer];  
-    DWORD cchFreeBuffer = cchBuffer - 1;  
-    wcscpy(wszRegistrationRoot, LREGKEY_VISUALSTUDIOROOT_NOVERSION);  
-    wcscat(wszRegistrationRoot, L"\\");  
+    // check where we should register  
+    const ULONG cchBuffer = _MAX_PATH;  
+    WCHAR wszRegistrationRoot[cchBuffer];  
+    DWORD cchFreeBuffer = cchBuffer - 1;  
+    wcscpy(wszRegistrationRoot, LREGKEY_VISUALSTUDIOROOT_NOVERSION);  
+    wcscat(wszRegistrationRoot, L"\\");  
   
-    // this is Environment SDK specific  
-    // we check for  EnvSdk_RegKey environment variable to  
-    // determine where to register  
-    DWORD cchDefRegRoot = lstrlenW(LREGKEY_VISUALSTUDIOROOT_NOVERSION) + 1;  
-    cchFreeBuffer = cchFreeBuffer - cchDefRegRoot;  
-    DWORD cchEnvVarRead = GetEnvironmentVariableW(  
-        /* LPCTSTR */ L"EnvSdk_RegKey", // environment variable name  
-        /* LPTSTR  */ &wszRegistrationRoot[cchDefRegRoot],// buffer for variable value  
-        /* DWORD   */ cchFreeBuffer);// size of buffer  
-    if (cchEnvVarRead >= cchFreeBuffer)  
-        return E_UNEXPECTED;  
-    // If the environment variable does not exist then we must use   
-    // LREGKEY_VISUALSTUDIOROOT which has the version number.  
-    if (0 == cchEnvVarRead)  
-        wcscpy(wszRegistrationRoot, LREGKEY_VISUALSTUDIOROOT);  
+    // this is Environment SDK specific  
+    // we check for  EnvSdk_RegKey environment variable to  
+    // determine where to register  
+    DWORD cchDefRegRoot = lstrlenW(LREGKEY_VISUALSTUDIOROOT_NOVERSION) + 1;  
+    cchFreeBuffer = cchFreeBuffer - cchDefRegRoot;  
+    DWORD cchEnvVarRead = GetEnvironmentVariableW(  
+        /* LPCTSTR */ L"EnvSdk_RegKey", // environment variable name  
+        /* LPTSTR  */ &wszRegistrationRoot[cchDefRegRoot],// buffer for variable value  
+        /* DWORD   */ cchFreeBuffer);// size of buffer  
+    if (cchEnvVarRead >= cchFreeBuffer)  
+        return E_UNEXPECTED;  
+    // If the environment variable does not exist then we must use   
+    // LREGKEY_VISUALSTUDIOROOT which has the version number.  
+    if (0 == cchEnvVarRead)  
+        wcscpy(wszRegistrationRoot, LREGKEY_VISUALSTUDIOROOT);  
   
-    if (registerIt)  
-    {  
-        SetEEMetric(guidMycLang,  
-                    guidMicrosoftVendor,  
-                    metricCLSID,  
-                    CLSID_MycEE,  
-                    wszRegistrationRoot );  
-        SetEEMetric(guidMycLang,  
-                    guidMicrosoftVendor,  
-                    metricName,  
-                    GetString(IDS_INFO_MYCDESCRIPTION),  
-                    wszRegistrationRoot );  
-        SetEEMetric(guidMycLang,  
-                    guidMicrosoftVendor,  
-                    metricLanguage, L"MyC",  
-                    wszRegistrationRoot);  
+    if (registerIt)  
+    {  
+        SetEEMetric(guidMycLang,  
+                    guidMicrosoftVendor,  
+                    metricCLSID,  
+                    CLSID_MycEE,  
+                    wszRegistrationRoot );  
+        SetEEMetric(guidMycLang,  
+                    guidMicrosoftVendor,  
+                    metricName,  
+                    GetString(IDS_INFO_MYCDESCRIPTION),  
+                    wszRegistrationRoot );  
+        SetEEMetric(guidMycLang,  
+                    guidMicrosoftVendor,  
+                    metricLanguage, L"MyC",  
+                    wszRegistrationRoot);  
   
-        GUID engineGuids[2];  
-        engineGuids[0] = guidCOMPlusOnlyEng;  
-        engineGuids[1] = guidCOMPlusNativeEng;  
-        SetEEMetric(guidMycLang,  
-                    guidMicrosoftVendor,  
-                    metricEngine,  
-                    engineGuids,  
-                    2,  
-                    wszRegistrationRoot);  
-    }  
-    else  
-    {  
-        RemoveEEMetric( guidMycLang,  
-                        guidMicrosoftVendor,  
-                        metricCLSID,  
-                        wszRegistrationRoot);  
-        RemoveEEMetric( guidMycLang,  
-                        guidMicrosoftVendor,  
-                        metricName,  
-                        wszRegistrationRoot );  
-        RemoveEEMetric( guidMycLang,  
-                        guidMicrosoftVendor,  
-                        metricLanguage,  
-                        wszRegistrationRoot );  
-        RemoveEEMetric( guidMycLang,  
-                        guidMicrosoftVendor,  
-                        metricEngine,  
-                        wszRegistrationRoot );  
-    }  
+        GUID engineGuids[2];  
+        engineGuids[0] = guidCOMPlusOnlyEng;  
+        engineGuids[1] = guidCOMPlusNativeEng;  
+        SetEEMetric(guidMycLang,  
+                    guidMicrosoftVendor,  
+                    metricEngine,  
+                    engineGuids,  
+                    2,  
+                    wszRegistrationRoot);  
+    }  
+    else  
+    {  
+        RemoveEEMetric( guidMycLang,  
+                        guidMicrosoftVendor,  
+                        metricCLSID,  
+                        wszRegistrationRoot);  
+        RemoveEEMetric( guidMycLang,  
+                        guidMicrosoftVendor,  
+                        metricName,  
+                        wszRegistrationRoot );  
+        RemoveEEMetric( guidMycLang,  
+                        guidMicrosoftVendor,  
+                        metricLanguage,  
+                        wszRegistrationRoot );  
+        RemoveEEMetric( guidMycLang,  
+                        guidMicrosoftVendor,  
+                        metricEngine,  
+                        wszRegistrationRoot );  
+    }  
   
-    return S_OK;  
+    return S_OK;  
 }  
 ```  
   

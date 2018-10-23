@@ -94,7 +94,7 @@ When you build a project that contains several files, you can list each file sep
   
 > [!NOTE]
 >  You must use wildcards with items to specify the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:  
->   
+> 
 >  `<CSC Sources="*.cs">...</CSC>`  
   
 ## Example  

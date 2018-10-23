@@ -30,8 +30,8 @@ When the user executes a source control operation from inside the integrated dev
   
 ```cpp  
 typedef LONG (*LPTEXTOUTPROC) (  
-   LPSTR display_string,  
-   LONG mesg_type  
+   LPSTR display_string,  
+   LONG mesg_type  
 );  
 ```  
   
@@ -70,7 +70,7 @@ typedef LONG (*LPTEXTOUTPROC) (
   
 ```cpp  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
+   DWORD dwBackgroundOperationID;  
 } SccMsgDataIsCancelled;  
 ```  
   
@@ -80,8 +80,8 @@ typedef struct {
   
 ```cpp  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szFile;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szFile;  
 } SccMsgDataOnBeforeGetFile;  
 ```  
   
@@ -91,9 +91,9 @@ typedef struct {
   
 ```cpp  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szFile;  
-   SCCRTN sResult;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szFile;  
+   SCCRTN sResult;  
 } SccMsgDataOnAfterGetFile;  
 ```  
   
@@ -104,9 +104,9 @@ typedef struct {
   
 ```cpp  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szMessage;  
-   BOOL bIsError;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szMessage;  
+   BOOL bIsError;  
 } SccMsgDataOnMessage;  
 ```  
   
@@ -117,20 +117,20 @@ typedef struct {
   
 ```cpp  
 LONG SendStatusMessage(  
-    LPTEXTOUTPROC pTextOutProc,  
-    DWORD         dwBackgroundID,  
-    LPCTSTR       pStatusMsg,  
-    BOOL          bIsError)  
+    LPTEXTOUTPROC pTextOutProc,  
+    DWORD         dwBackgroundID,  
+    LPCTSTR       pStatusMsg,  
+    BOOL          bIsError)  
 {  
-    SccMsgDataOnMessage msgData = { 0 };  
-    LONG                result  = 0;  
+    SccMsgDataOnMessage msgData = { 0 };  
+    LONG                result  = 0;  
   
-    msgData.dwBackgroundOperationID = dwBackgroundID;  
-    msgData.szMessage               = pStatusMsg;  
-    msgData.bIsError                = bIsError;  
+    msgData.dwBackgroundOperationID = dwBackgroundID;  
+    msgData.szMessage               = pStatusMsg;  
+    msgData.bIsError                = bIsError;  
   
-    result = pTextOutProc(reinterpret_cast<LPCTSTR>(&msgData), SCC_MSG_BACKGROUND_ON_MESSAGE);  
-    return result;  
+    result = pTextOutProc(reinterpret_cast<LPCTSTR>(&msgData), SCC_MSG_BACKGROUND_ON_MESSAGE);  
+    return result;  
 }  
 ```  
   

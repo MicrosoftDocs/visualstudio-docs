@@ -21,13 +21,13 @@ Determines if the function at the specified debug address is considered stale.
   
 ```cpp  
 HRESULT IsFunctionStale(  
-   IDebugAddress* pAddress  
+   IDebugAddress* pAddress  
 );  
 ```  
   
 ```csharp  
 int IsFunctionStale(  
-   IDebugAddress pAddress  
+   IDebugAddress pAddress  
 );  
 ```  
   

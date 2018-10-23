@@ -14,25 +14,25 @@ ms.workload:
 # Configure the Windows Firewall for Remote Debugging
 This topic describes how to configure the firewall to enable remote debugging on computers that run the following operating systems:  
   
--   Windows 10  
+- Windows 10  
   
--   Windows 8/8.1  
+- Windows 8/8.1  
   
--   Windows 7   
+- Windows 7   
   
--   Windows Server 2012 R2  
+- Windows Server 2012 R2  
 
--   Windows Server 2012
+- Windows Server 2012
   
--   Windows Server 2008 R2 
+- Windows Server 2008 R2 
   
- If the network on which you are debugging is not protected by a firewall, this configuration is unnecessary. Otherwise, both the computer that hosts Visual Studio and the remote computer that is to be debugged require changes to the firewall configuration.  
+  If the network on which you are debugging is not protected by a firewall, this configuration is unnecessary. Otherwise, both the computer that hosts Visual Studio and the remote computer that is to be debugged require changes to the firewall configuration.  
   
- **IPSec** If your network requires that communication be performed using IPSec, you must open additional ports on both the Visual Studio host computer and the remote computer.  
+  **IPSec** If your network requires that communication be performed using IPSec, you must open additional ports on both the Visual Studio host computer and the remote computer.  
   
- **Web Server** If you are debugging a remote Web server, you must open an additional port on the remote computer. (For IIS, port 80 must be open.)  
+  **Web Server** If you are debugging a remote Web server, you must open an additional port on the remote computer. (For IIS, port 80 must be open.)  
   
- Note that both computers do not have to run the same operating system. For example, the Visual Studio computer can run Windows 10 and the remote computer can run Windows Server 2012 R2.      
+  Note that both computers do not have to run the same operating system. For example, the Visual Studio computer can run Windows 10 and the remote computer can run Windows Server 2012 R2.      
   
 ## Ports on the remote computer that enable remote debugging  
   

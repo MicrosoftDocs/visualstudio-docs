@@ -23,8 +23,8 @@ Describes a method or function call.
   
 ```cpp  
 typedef struct tagCODE_PATH {   
-   BSTR                bstrName;  
-   IDebugCodeContext2* pCode;  
+   BSTR                bstrName;  
+   IDebugCodeContext2* pCode;  
 } CODE_PATH;  
 ```  
   

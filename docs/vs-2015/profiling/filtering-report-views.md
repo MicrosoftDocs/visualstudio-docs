@@ -47,19 +47,19 @@ You can apply filters to profiling data files to limit the profiling data that i
   
 #### To create a profiler report filter from the Marks Report view  
   
-1.  Select **Marks** from the **Current View** list on the Performance Report View toolbar.  
+1. Select **Marks** from the **Current View** list on the Performance Report View toolbar.  
   
-     The Marks profiler report is displayed.  
+    The Marks profiler report is displayed.  
   
-2.  Select the ETW or sampling even that you want to use as the starting point of the report.  
+2. Select the ETW or sampling even that you want to use as the starting point of the report.  
   
-3.  Press and hold CTRL and click the event that you want to use as the ending point of the report.  
+3. Press and hold CTRL and click the event that you want to use as the ending point of the report.  
   
-4.  Right-click and then click one of the following options:  
+4. Right-click and then click one of the following options:  
   
-    -   **Add Filter on Marks** creates filter clauses that use the Mark column as the filter field.  
+   - **Add Filter on Marks** creates filter clauses that use the Mark column as the filter field.  
   
-    -   **Add Filter on Timestamps** creates filter clauses that use the Timestamp In Milliseconds column as the filter field.  
+   - **Add Filter on Timestamps** creates filter clauses that use the Timestamp In Milliseconds column as the filter field.  
   
      The two options filter the current data file at the same start and end points. Either option might be better if you export the filter to use in other reports.  
   

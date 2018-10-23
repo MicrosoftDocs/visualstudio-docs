@@ -60,13 +60,13 @@ When you want to understand dependencies across your code, visualize them by cre
   
  **You can map dependencies for code in these languages**:  
   
--   Visual C# .NET or Visual Basic .NET in a solution or assemblies (.dll or .exe)  
+- Visual C# .NET or Visual Basic .NET in a solution or assemblies (.dll or .exe)  
   
--   Native or managed C or C++ code in Visual C++ projects, header files (.h or `#include`), or binaries  
+- Native or managed C or C++ code in Visual C++ projects, header files (.h or `#include`), or binaries  
   
--   X++ projects and assemblies made from .NET modules for Microsoft Dynamics AX  
+- X++ projects and assemblies made from .NET modules for Microsoft Dynamics AX  
   
- **Note:** For projects other than C# or Visual Basic .NET, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from Solution Explorer, Class View, and Object Browser.  
+  **Note:** For projects other than C# or Visual Basic .NET, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from Solution Explorer, Class View, and Object Browser.  
   
 #### To see the overall dependencies across your solution  
   
@@ -116,51 +116,51 @@ When you want to understand dependencies across your code, visualize them by cre
   
 ###  <a name="OverviewSource"></a> See dependencies across your solution  
   
-1.  On the **Architecture** menu, choose **Generate Code Map for Solution**.  
+1. On the **Architecture** menu, choose **Generate Code Map for Solution**.  
   
-     ![Generate a code map command](../modeling/media/codemapsarchitecturemenu.png "CodeMapsArchitectureMenu")  
+    ![Generate a code map command](../modeling/media/codemapsarchitecturemenu.png "CodeMapsArchitectureMenu")  
   
-     You get a map that shows the top-level assemblies and aggregated links between them. The wider the aggregate link, the more dependencies it represents.  
+    You get a map that shows the top-level assemblies and aggregated links between them. The wider the aggregate link, the more dependencies it represents.  
   
-2.  Use the **Legend** button on the code map toolbar to show or hide the list of project type icons (such as Test, Web, and Phone Project), code items (such as Classes, Methods, and Properties), and relation types (such as Inherits From, Implements, and Calls).  
+2. Use the **Legend** button on the code map toolbar to show or hide the list of project type icons (such as Test, Web, and Phone Project), code items (such as Classes, Methods, and Properties), and relation types (such as Inherits From, Implements, and Calls).  
   
-     ![Top&#45;level dependency graph of assemblies](../modeling/media/dependencygraph-toplevelassemblies.png "DependencyGraph_TopLevelAssemblies")  
+    ![Top&#45;level dependency graph of assemblies](../modeling/media/dependencygraph-toplevelassemblies.png "DependencyGraph_TopLevelAssemblies")  
   
-     This example solution contains Solution Folders (**Tests** and **Components**), Test Projects, Web Projects, and assemblies. By default, all containment relationships appear as *groups*, which you can expand and collapse. The **Externals** group contains anything outside your solution, including platform dependencies. External assemblies show only those items that are used. By default, system base types are hidden on the map to reduce clutter.  
+    This example solution contains Solution Folders (**Tests** and **Components**), Test Projects, Web Projects, and assemblies. By default, all containment relationships appear as *groups*, which you can expand and collapse. The **Externals** group contains anything outside your solution, including platform dependencies. External assemblies show only those items that are used. By default, system base types are hidden on the map to reduce clutter.  
   
-3.  To drill down into the map, expand the groups that represent projects and assemblies. You can expand everything by pressing **CTRL+A** to select all the nodes and then choosing **Group**, **Expand** from the shortcut menu.  
+3. To drill down into the map, expand the groups that represent projects and assemblies. You can expand everything by pressing **CTRL+A** to select all the nodes and then choosing **Group**, **Expand** from the shortcut menu.  
   
-     ![Expanding all groups in a code map](../modeling/media/codemapsexpandallgroups.png "CodeMapsExpandAllGroups")  
+    ![Expanding all groups in a code map](../modeling/media/codemapsexpandallgroups.png "CodeMapsExpandAllGroups")  
   
-4.  However, this may not be useful for a large solution. In fact, for complex solutions, memory limitations may prevent you from expanding all the groups. Instead, to see inside an individual node, expand it. Move your mouse pointer on top of the node and then click the chevron (down arrow) when it appears.  
+4. However, this may not be useful for a large solution. In fact, for complex solutions, memory limitations may prevent you from expanding all the groups. Instead, to see inside an individual node, expand it. Move your mouse pointer on top of the node and then click the chevron (down arrow) when it appears.  
   
-     ![Expanding a node in a code map](../modeling/media/dependencygraph-containment.png "DependencyGraph_Containment")  
+    ![Expanding a node in a code map](../modeling/media/dependencygraph-containment.png "DependencyGraph_Containment")  
   
-     Or use the keyboard by selecting the item then pressing the plus key (**+**). To explore deeper levels of code, do the same for namespaces, types, and members.  
+    Or use the keyboard by selecting the item then pressing the plus key (**+**). To explore deeper levels of code, do the same for namespaces, types, and members.  
   
-    > [!TIP]
-    >  For more details of working with code maps using the mouse, keyboard, and touch, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).  
+   > [!TIP]
+   >  For more details of working with code maps using the mouse, keyboard, and touch, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).  
   
-5.  To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, you can hide all the Solution Folder and Assembly containers.  
+5. To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, you can hide all the Solution Folder and Assembly containers.  
   
-     ![Simplify the map by filtering containers](../modeling/media/codemapsfilterfoldersassemblies.png "CodeMapsFilterFoldersAssemblies")  
+    ![Simplify the map by filtering containers](../modeling/media/codemapsfilterfoldersassemblies.png "CodeMapsFilterFoldersAssemblies")  
   
-     You can also simplify the map by hiding or removing individual groups and items from the map, without affecting the underlying solution code.  
+    You can also simplify the map by hiding or removing individual groups and items from the map, without affecting the underlying solution code.  
   
-6.  To see the relationships between items, select them in the map. The colors of the links indicate the types of relationship, as shown in the **Legend** pane.  
+6. To see the relationships between items, select them in the map. The colors of the links indicate the types of relationship, as shown in the **Legend** pane.  
   
-     ![View dependencies across your solutions](../modeling/media/codemapsmainintro.png "CodeMapsMainIntro")  
+    ![View dependencies across your solutions](../modeling/media/codemapsmainintro.png "CodeMapsMainIntro")  
   
-     In this example, the purple links are calls, the dotted links are references, and the light blue links are field access. Green links can be inheritance, or they may be *aggregate links* that indicate more than one type of relationship (or *category*).  
+    In this example, the purple links are calls, the dotted links are references, and the light blue links are field access. Green links can be inheritance, or they may be *aggregate links* that indicate more than one type of relationship (or *category*).  
   
-    > [!TIP]
-    >  If you see a green link, it might not mean there's just an inheritance relationship. There might also be method calls, but these are hidden by the inheritance relationship. To see specific types of links, use the checkboxes in the **Filters** pane to hide the types you aren’t interested in.  
+   > [!TIP]
+   >  If you see a green link, it might not mean there's just an inheritance relationship. There might also be method calls, but these are hidden by the inheritance relationship. To see specific types of links, use the checkboxes in the **Filters** pane to hide the types you aren’t interested in.  
   
-7.  To get more information about an item or link, move the pointer on top of it until a tooltip appears. This shows details of a code element or the categories that a link represents.  
+7. To get more information about an item or link, move the pointer on top of it until a tooltip appears. This shows details of a code element or the categories that a link represents.  
   
-     ![Show the categories of a relationship](../modeling/media/codemapsshowlinkcatgories.png "CodeMapsShowLinkCatgories")  
+    ![Show the categories of a relationship](../modeling/media/codemapsshowlinkcatgories.png "CodeMapsShowLinkCatgories")  
   
-8.  To examine items and dependencies represented by an aggregate link, first select the link and then open its shortcut menu. Choose **Show Contributing Links** (or **Show Contributing Links on New Code Map**). This expands the groups at both ends of the link and shows only those items and dependencies that participate in the link.  
+8. To examine items and dependencies represented by an aggregate link, first select the link and then open its shortcut menu. Choose **Show Contributing Links** (or **Show Contributing Links on New Code Map**). This expands the groups at both ends of the link and shows only those items and dependencies that participate in the link.  
   
 9. To focus in on specific parts of the map, you can continue to remove items you aren’t interested in. For example, to drill into class and member view, simply filter all the namespace nodes in the **Filters** pane.  
   
@@ -178,7 +178,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
      ![Select items to view the relationships](../modeling/media/codemapsviewnewrelationships.png "CodeMapsViewNewRelationships")  
   
- See also:  
+    See also:  
   
 -   [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)  
   
@@ -298,11 +298,11 @@ When you want to understand dependencies across your code, visualize them by cre
 ###  <a name="Troubleshooting"></a> Troubleshoot maps for C and C++ code  
  These items aren't supported for C and C++ code:  
   
--   Base types don't appear on maps that include the parent hierarchy.  
+- Base types don't appear on maps that include the parent hierarchy.  
   
--   Most **Show** menu items aren't available for C and C++ code.  
+- Most **Show** menu items aren't available for C and C++ code.  
   
- These issues might happen when you create code maps for C and C++ code:  
+  These issues might happen when you create code maps for C and C++ code:  
   
 |**Issue**|**Possible cause**|**Resolution**|  
 |---------------|------------------------|--------------------|  
@@ -318,23 +318,23 @@ When you want to understand dependencies across your code, visualize them by cre
 ##  <a name="RenderMoreQuickly"></a> Make code maps render more quickly  
  When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but will improve performance later. If your code changes, Visual Studio re-indexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following:  
   
--   [Map only the dependencies that interest you.](#SeeSpecificSource)  
+- [Map only the dependencies that interest you.](#SeeSpecificSource)  
   
--   Before you generate the map for an entire solution, reduce the solution scope.  
+- Before you generate the map for an entire solution, reduce the solution scope.  
   
--   Turn off automatic build for the solution with the **Skip Build** button on the code map toolbar.  
+- Turn off automatic build for the solution with the **Skip Build** button on the code map toolbar.  
   
--   Turn off automatic adding of parent items with the **Include Parents** button on the code map toolbar.  
+- Turn off automatic adding of parent items with the **Include Parents** button on the code map toolbar.  
   
--   Edit the code map file directly to remove nodes and links you don't need. Changing the map doesn't affect the underlying code. See [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).  
+- Edit the code map file directly to remove nodes and links you don't need. Changing the map doesn't affect the underlying code. See [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).  
   
- ![Skip Build and Include Parents buttons](../modeling/media/codemapsfilterskipbuildicons.png "CodeMapsFilterSkipBuildIcons")  
+  ![Skip Build and Include Parents buttons](../modeling/media/codemapsfilterskipbuildicons.png "CodeMapsFilterSkipBuildIcons")  
   
- Although Visual Studio can run with 1 GB of memory, we recommended that your computer have at least 2 GB of memory to avoid long delays while Visual Studio creates the code index and generates the map.  
+  Although Visual Studio can run with 1 GB of memory, we recommended that your computer have at least 2 GB of memory to avoid long delays while Visual Studio creates the code index and generates the map.  
   
- It might take more time to create maps or add items to a map from Solution Explorer when a project item's **Copy to Output Directory** property is set to **Copy Always**. This might cause issues with incremental builds and Visual Studio to rebuild the project each time. To increase performance, change this property to **Copy if newer** or `PreserveNewest`. See [Incremental Builds](../msbuild/incremental-builds.md).  
+  It might take more time to create maps or add items to a map from Solution Explorer when a project item's **Copy to Output Directory** property is set to **Copy Always**. This might cause issues with incremental builds and Visual Studio to rebuild the project each time. To increase performance, change this property to **Copy if newer** or `PreserveNewest`. See [Incremental Builds](../msbuild/incremental-builds.md).  
   
- The completed map will show dependencies only for successfully-built code. If build errors occur for certain components, these errors appear on the map. Make sure that a component actually builds and has dependencies on it before you make architectural decisions based on the map.  
+  The completed map will show dependencies only for successfully-built code. If build errors occur for certain components, these errors appear on the map. Make sure that a component actually builds and has dependencies on it before you make architectural decisions based on the map.  
   
 ##  <a name="SavingExporting"></a> Share code maps  
   

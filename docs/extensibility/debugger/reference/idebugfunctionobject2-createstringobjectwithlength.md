@@ -22,17 +22,17 @@ Creates a string object that has the specified length.
   
 ```cpp  
 HRESULT CreateStringObjectWithLength (  
-   LPCOLESTR      pcstrString,  
-   UINT           uiLength,  
-   IDebugObject** ppObject  
+   LPCOLESTR      pcstrString,  
+   UINT           uiLength,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int CreateStringObjectWithLength (  
-   string           pcstrString,  
-   uint             uiLength,  
-   out IDebugObject ppObject  
+   string           pcstrString,  
+   uint             uiLength,  
+   out IDebugObject ppObject  
 );  
 ```  
   

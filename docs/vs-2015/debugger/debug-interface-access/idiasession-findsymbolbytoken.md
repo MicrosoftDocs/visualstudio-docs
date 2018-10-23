@@ -28,9 +28,9 @@ Retrieves the symbol that contains a specified metadata token.
   
 ```cpp#  
 HRESULT findSymbolByToken (   
-   ULONG        token,  
-   SymTagEnum   symtag,  
-   IDiaSymbol** ppSymbol  
+   ULONG        token,  
+   SymTagEnum   symtag,  
+   IDiaSymbol** ppSymbol  
 );  
 ```  
   

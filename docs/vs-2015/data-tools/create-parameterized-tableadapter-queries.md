@@ -59,41 +59,41 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
 ### To add a query to an existing data-bound form  
   
-1.  Open the form in the **Windows Forms Designer**.  
+1. Open the form in the **Windows Forms Designer**.  
   
-2.  On the **Data** menu, select**Add Query**or**Data Smart Tags**.  
+2. On the **Data** menu, select**Add Query**or**Data Smart Tags**.  
   
-    > [!NOTE]
-    >  If **Add Query** is not available on the **Data** menu, select a control on the form that displays the data source you want to add the parameterization to. For example, if the form displays data in a <xref:System.Windows.Forms.DataGridView> control, select it. If the form displays data in individual controls, select any data-bound control.  
+   > [!NOTE]
+   >  If **Add Query** is not available on the **Data** menu, select a control on the form that displays the data source you want to add the parameterization to. For example, if the form displays data in a <xref:System.Windows.Forms.DataGridView> control, select it. If the form displays data in individual controls, select any data-bound control.  
   
-3.  In the **Select data source table** area, select the  tablethat you want to add parameterization to.  
+3. In the **Select data source table** area, select the  tablethat you want to add parameterization to.  
   
-4.  Type a name in the **New query name** box if you are creating a new query.  
+4. Type a name in the **New query name** box if you are creating a new query.  
   
-     -or-  
+    -or-  
   
-     Select a query in the **Existing query name** box.  
+    Select a query in the **Existing query name** box.  
   
-5.  In the **Query Text** box, type a query that takes parameters.  
+5. In the **Query Text** box, type a query that takes parameters.  
   
-6.  Select**OK**.  
+6. Select**OK**.  
   
-     A control to input the parameter and a **Load** button are added to the form in a <xref:System.Windows.Forms.ToolStrip> control.  
+    A control to input the parameter and a **Load** button are added to the form in a <xref:System.Windows.Forms.ToolStrip> control.  
   
- TableAdapter parameters can be assigned null values when you want to query for records that have no current value. For example, consider the following query that has a `ShippedDate` parameter in its `WHERE` clause:  
+   TableAdapter parameters can be assigned null values when you want to query for records that have no current value. For example, consider the following query that has a `ShippedDate` parameter in its `WHERE` clause:  
   
- `SELECT CustomerID, OrderDate, ShippedDate`  
+   `SELECT CustomerID, OrderDate, ShippedDate`  
   
- `FROM Orders`  
+   `FROM Orders`  
   
- `WHERE (ShippedDate = @ShippedDate) OR`  
+   `WHERE (ShippedDate = @ShippedDate) OR`  
   
- `(ShippedDate IS NULL)`  
+   `(ShippedDate IS NULL)`  
   
- If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:  
+   If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:  
   
- [!code-csharp[VbRaddataTableAdapters#8](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Form2.cs#8)]
- [!code-vb[VbRaddataTableAdapters#8](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Form2.vb#8)]  
+   [!code-csharp[VbRaddataTableAdapters#8](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Form2.cs#8)]
+   [!code-vb[VbRaddataTableAdapters#8](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Form2.vb#8)]  
   
 #### To enable a query to accept null values  
   

@@ -29,13 +29,13 @@ With [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you can have the language 
   
  You have the following options for command handling:  
   
--   Handle the command and then pass the command on to the next command filter in the chain.  
+- Handle the command and then pass the command on to the next command filter in the chain.  
   
--   Handle the command and do not pass the command on to the next command filter.  
+- Handle the command and do not pass the command on to the next command filter.  
   
--   Do not handle the command, but pass the command on to the next command filter.  
+- Do not handle the command, but pass the command on to the next command filter.  
   
--   Ignore the command. Do not handle it in the current filter, and do not pass it on to the next filter.  
+- Ignore the command. Do not handle it in the current filter, and do not pass it on to the next filter.  
   
- For information about which commands your language service should handle, see [Important Commands for Language Service Filters](../../extensibility/internals/important-commands-for-language-service-filters.md).
+  For information about which commands your language service should handle, see [Important Commands for Language Service Filters](../../extensibility/internals/important-commands-for-language-service-filters.md).
 

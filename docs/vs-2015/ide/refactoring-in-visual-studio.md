@@ -20,15 +20,15 @@ manager: "ghogen"
 
 Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior. Some common *refactorings* include:  
   
-1.  splitting long functions into smaller ones  
+1. splitting long functions into smaller ones  
   
-2.  renaming variables, types, functions or parameters  
+2. renaming variables, types, functions or parameters  
   
-3.  reordering parameters  
+3. reordering parameters  
   
-4.  removing or reordering using directives  
+4. removing or reordering using directives  
   
- Because the logic of refactoring is closely tied to language syntax, each language service in Visual Studio provides its own refactoring capabilities. For more information, see the following pages:  
+   Because the logic of refactoring is closely tied to language syntax, each language service in Visual Studio provides its own refactoring capabilities. For more information, see the following pages:  
   
 ### Refactoring in C#  
  [Refactoring (C#)](../csharp-ide/refactoring-csharp.md)  

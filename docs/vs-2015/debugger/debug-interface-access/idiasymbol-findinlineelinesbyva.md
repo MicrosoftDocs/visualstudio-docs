@@ -28,7 +28,7 @@ Retrieves an enumeration that allows a client to iterate through the line number
 HRESULT findInlineeLinesByVA (   
    ULONGLONG             va,  
    DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

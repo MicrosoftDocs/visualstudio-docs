@@ -27,7 +27,7 @@ This function closes a project, marking the end of a particular session.
   
 ```cpp#  
 SCCRTN SccCloseProject (  
-   LPVOID pvContext  
+   LPVOID pvContext  
 );  
 ```  
   

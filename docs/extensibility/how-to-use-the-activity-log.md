@@ -41,15 +41,15 @@ VSPackages can write messages to the activity log. This feature is especially us
   
 ## To examine the activity log  
   
-1.  Run Visual Studio with the [/Log](../ide/reference/log-devenv-exe.md) command line switch to write ActivityLog.xml to disk during your session.
+1. Run Visual Studio with the [/Log](../ide/reference/log-devenv-exe.md) command line switch to write ActivityLog.xml to disk during your session.
 
-2.  After closing Visual Studio, find the activity log in the subfolder for  Visual Studio data: **%AppData%*\Microsoft\VisualStudio\15.0\ActivityLog.xml*.  
+2. After closing Visual Studio, find the activity log in the subfolder for  Visual Studio data: <em>*%AppData%</em>\Microsoft\VisualStudio\15.0\ActivityLog.xml*.  
   
-3.  Open the activity log with any text editor. Here is a typical entry:  
+3. Open the activity log with any text editor. Here is a typical entry:  
   
-    ```  
-    Called for: Company.MyApp.MyAppPackage ...  
-    ```  
+   ```  
+   Called for: Company.MyApp.MyAppPackage ...  
+   ```  
   
 ## Robust programming  
  Because the activity log is a service, the activity log is unavailable in the VSPackage constructor.  

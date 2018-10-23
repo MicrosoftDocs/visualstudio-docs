@@ -27,7 +27,7 @@ Resets the enumeration to the first element.
   
 ```cpp#  
 HRESULT Reset(  
-   void  
+   void  
 );  
 ```  
   

@@ -24,13 +24,13 @@ Gets the state of the pending breakpoint.
   
 ```cpp  
 HRESULT GetState(   
-   PENDING_BP_STATE_INFO* pState  
+   PENDING_BP_STATE_INFO* pState  
 );  
 ```  
   
 ```csharp  
 int GetState(   
-   PENDING_BP_STATE_INFO[] pState  
+   PENDING_BP_STATE_INFO[] pState  
 );  
 ```  
   

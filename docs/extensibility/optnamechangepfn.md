@@ -23,9 +23,9 @@ This is a callback function specified in a call to the [SccSetOption](../extensi
   
 ```cpp  
 typedef void (*OPTNAMECHANGEPFN)(  
-   LPVOID pvCallerData,  
-   LPCSTR pszOldName,  
-   LPCSTR pszNewName  
+   LPVOID pvCallerData,  
+   LPCSTR pszOldName,  
+   LPCSTR pszNewName  
 );  
 ```  
   

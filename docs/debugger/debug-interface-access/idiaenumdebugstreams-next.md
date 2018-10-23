@@ -22,9 +22,9 @@ Retrieves a specified number of debug streams in the enumeration sequence.
   
 ```C++  
 HRESULT Next (   
-   ULONG                     celt,   
-   IDiaEnumDebugStreamData** rgelt,  
-   ULONG*                    pceltFetched  
+   ULONG                     celt,   
+   IDiaEnumDebugStreamData** rgelt,  
+   ULONG*                    pceltFetched  
 );  
 ```  
   

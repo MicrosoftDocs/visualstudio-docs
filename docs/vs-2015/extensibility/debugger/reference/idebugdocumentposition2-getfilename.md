@@ -27,13 +27,13 @@ Gets the file name of the source file that contains the document position.
   
 ```cpp#  
 HRESULT GetFileName(   
-   BSTR* pbstrFileName  
+   BSTR* pbstrFileName  
 );  
 ```  
   
 ```csharp  
 int GetFileName(   
-   out string pbstrFileName  
+   out string pbstrFileName  
 );  
 ```  
   

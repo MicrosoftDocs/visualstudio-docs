@@ -313,15 +313,15 @@ manager: "ghogen"
   
  This solution makes four assumptions that could cause bugs:  
   
--   The dialog's help button is **IDHELP** (9).  
+- The dialog's help button is **IDHELP** (9).  
   
--   The dialog looks correct when the Help button is hidden.  
+- The dialog looks correct when the Help button is hidden.  
   
--   The dialog does not substitute its winproc.  
+- The dialog does not substitute its winproc.  
   
--   The dialog is not embedded inside of another dialog.  
+- The dialog is not embedded inside of another dialog.  
   
- If your dialog resides within msenv and doesn't use **VBDialogBoxParam**, investigate leveraging **VBDialogBoxParam** before implementing your own handler.  
+  If your dialog resides within msenv and doesn't use **VBDialogBoxParam**, investigate leveraging **VBDialogBoxParam** before implementing your own handler.  
   
 ##### Dialogs created through other packages  
  You can implement your own solution for dialogs that reside outside msenv. For a shared dialog class in your VSPackage, consider moving the button to the title bar or implementing a handler on each dialog. The following code is a skeleton of an implementation to help you get started:  

@@ -28,7 +28,7 @@ Retrieves the number of items in a list or array.
   
 ```cpp#  
 HRESULT get_count (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

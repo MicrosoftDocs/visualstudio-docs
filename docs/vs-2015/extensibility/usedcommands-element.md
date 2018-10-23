@@ -59,9 +59,9 @@ The UsedCommands element groups UsedCommand elements and other UsedCommands grou
   
 ```  
 <UsedCommands>  
-  <UsedCommand guid="guidVSStd97" id="cmdidCut"/>  
-  <UsedCommand guid="guidVSStd97" id="cmdidCopy"/>  
-  <UsedCommand guid="guidVSStd97" id="cmdidPaste"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidCut"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidCopy"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidPaste"/>  
 </UsedCommands>  
 ```  
   

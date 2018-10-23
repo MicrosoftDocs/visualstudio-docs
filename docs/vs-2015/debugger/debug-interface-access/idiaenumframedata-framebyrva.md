@@ -28,8 +28,8 @@ Returns a frame by relative virtual address (RVA).
   
 ```cpp#  
 HRESULT frameByRVA(   
-   DWORD           relativeVirtualAddress,  
-   IDiaFrameData** frame  
+   DWORD           relativeVirtualAddress,  
+   IDiaFrameData** frame  
 );  
 ```  
   

@@ -24,15 +24,15 @@ The following flags are used for the `TEXTOUTPROC` function, which is a callback
   
 ```  
 enum {   
-   SCC_MSG_RTN_CANCEL = -1,   
-   SCC_MSG_RTN_OK = 0,   
-   SCC_MSG_INFO = 1   
-   SCC_MSG_WARNING,   
-   SCC_MSG_ERROR,   
-   SCC_MSG_STATUS,   
-   SCC_MSG_DOCANCEL,   
-   SCC_MSG_STARTCANCEL,   
-   SCC_MSG_STOPCANCEL   
+   SCC_MSG_RTN_CANCEL = -1,   
+   SCC_MSG_RTN_OK = 0,   
+   SCC_MSG_INFO = 1   
+   SCC_MSG_WARNING,   
+   SCC_MSG_ERROR,   
+   SCC_MSG_STATUS,   
+   SCC_MSG_DOCANCEL,   
+   SCC_MSG_STARTCANCEL,   
+   SCC_MSG_STOPCANCEL   
 };  
 ```  
   

@@ -28,8 +28,8 @@ Retrieves the value of a register.
   
 ```cpp#  
 HRESULT get_registerValue (   
-   DWORD      index,  
-   ULONGLONG* pRetVal  
+   DWORD      index,  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

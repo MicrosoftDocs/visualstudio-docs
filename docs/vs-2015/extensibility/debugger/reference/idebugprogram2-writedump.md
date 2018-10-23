@@ -27,15 +27,15 @@ Writes a dump to a file.
   
 ```cpp#  
 HRESULT WriteDump(   
-   DUMPTYPE  DumpType,  
-   LPCOLESTR pszDumpUrl  
+   DUMPTYPE  DumpType,  
+   LPCOLESTR pszDumpUrl  
 );  
 ```  
   
 ```csharp  
 int WriteDump(   
-   enum_DUMPTYPE  DumpType,  
-   string         pszDumpUrl  
+   enum_DUMPTYPE  DumpType,  
+   string         pszDumpUrl  
 );  
 ```  
   

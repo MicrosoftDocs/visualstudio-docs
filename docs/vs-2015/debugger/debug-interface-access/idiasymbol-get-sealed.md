@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the class or method is sealed.
   
 ```cpp#  
 HRESULT get_sealed(   
-   BOOL* pRetVal)  
+   BOOL* pRetVal)  
 );  
 ```  
   

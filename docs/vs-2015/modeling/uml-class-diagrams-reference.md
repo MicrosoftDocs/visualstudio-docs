@@ -43,30 +43,30 @@ A UML class diagram describes the object and information structures used by your
 ## Reading Class Diagrams  
  The table in this section describes the elements that you can see on a UML class diagram. For information about the properties of these elements, see the following topics:  
   
--   [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)  
+- [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)  
   
--   [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
+- [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)  
   
--   [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
+- [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)  
   
--   [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)  
+- [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)  
   
- ![Three classes showing relationships and properties](../modeling/media/uml-classovreading.png "UML_ClassOvReading")  
+  ![Three classes showing relationships and properties](../modeling/media/uml-classovreading.png "UML_ClassOvReading")  
   
-|**Shape**|**Element**|**Description**|  
-|---------------|-----------------|---------------------|  
-|1|**Class**|A definition of objects that share given structural or behavioral characteristics. For more information, see [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md).|  
-|1|Classifier|The general name for a class, interface, or enumeration. Components, use cases, and actors are also classifiers.|  
-|2|Collapse/ Expand control|If you cannot see the details of a classifier, click the expander at upper-left of the classifier. You might also have to click the [+] on each segment.|  
-|3|**Attribute**|A typed value attached to each instance of a classifier.<br /><br /> To add an attribute, click the **Attributes** section and then press **ENTER**. Type the signature of the attribute. For more information, see [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md).|  
-|4|**Operation**|A method or function that can be performed by instances of a classifier. To add an operation, click the **Operations** section and then press **ENTER**. Type the signature of the operation. For more information, see [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md).|  
-|5|**Association**|A relationship between the members of two classifiers. For more information, see [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md).|  
-|5a|**Aggregation**|An association representing a shared ownership relationship. The **Aggregation** property of the owner role is set to **Shared**.|  
-|5b|**Composition**|An Association representing a whole-part relationship. The **Aggregation** property of the owner role is set to **Composite**.|  
-|6|**Association Name**|The name of an association. The name can be left empty.|  
-|7|**Role Name**|The name of a role, that is, one end of an association. Can be used to refer to the associated object. In the previous illustration, for any Order `O`, `O.ChosenMenu` is its associated Menu.<br /><br /> Each role has its own properties, listed under the properties of the association.|  
-|8|**Multiplicity**|Indicates how many of the objects at this end can be linked to each object at the other. In the example, each Order must be linked to exactly one Menu.<br /><br /> **\*** means that there is no upper limit to the number of links that can be made.|  
-|9|**Generalization**|The *specific* classifier inherits part of its definition from the *general* classifier. The general classifier is at the arrow end of the connector. Attributes, associations, and operations are inherited by the specific classifier.<br /><br /> Use the **Inheritance** tool to create a generalization between two classifiers.|  
+| **Shape** |       **Element**        |                                                                                                                                                             **Description**                                                                                                                                                              |
+|-----------|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     1     |        **Class**         |                                                           A definition of objects that share given structural or behavioral characteristics. For more information, see [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md).                                                            |
+|     1     |        Classifier        |                                                                                                             The general name for a class, interface, or enumeration. Components, use cases, and actors are also classifiers.                                                                                                             |
+|     2     | Collapse/ Expand control |                                                                                         If you cannot see the details of a classifier, click the expander at upper-left of the classifier. You might also have to click the [+] on each segment.                                                                                         |
+|     3     |      **Attribute**       |   A typed value attached to each instance of a classifier.<br /><br /> To add an attribute, click the **Attributes** section and then press **ENTER**. Type the signature of the attribute. For more information, see [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md).   |
+|     4     |      **Operation**       | A method or function that can be performed by instances of a classifier. To add an operation, click the **Operations** section and then press **ENTER**. Type the signature of the operation. For more information, see [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md). |
+|     5     |     **Association**      |                                                                  A relationship between the members of two classifiers. For more information, see [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md).                                                                   |
+|    5a     |     **Aggregation**      |                                                                                                    An association representing a shared ownership relationship. The **Aggregation** property of the owner role is set to **Shared**.                                                                                                     |
+|    5b     |     **Composition**      |                                                                                                      An Association representing a whole-part relationship. The **Aggregation** property of the owner role is set to **Composite**.                                                                                                      |
+|     6     |   **Association Name**   |                                                                                                                                         The name of an association. The name can be left empty.                                                                                                                                          |
+|     7     |      **Role Name**       |                       The name of a role, that is, one end of an association. Can be used to refer to the associated object. In the previous illustration, for any Order `O`, `O.ChosenMenu` is its associated Menu.<br /><br /> Each role has its own properties, listed under the properties of the association.                       |
+|     8     |     **Multiplicity**     |                                         Indicates how many of the objects at this end can be linked to each object at the other. In the example, each Order must be linked to exactly one Menu.<br /><br /> **\\**\* means that there is no upper limit to the number of links that can be made.                                         |
+|     9     |    **Generalization**    |  The *specific* classifier inherits part of its definition from the *general* classifier. The general classifier is at the arrow end of the connector. Attributes, associations, and operations are inherited by the specific classifier.<br /><br /> Use the **Inheritance** tool to create a generalization between two classifiers.   |
   
  ![Package containing interface and enumeration](../modeling/media/uml-classovpackage.png "UML_ClassOvPackage")  
   

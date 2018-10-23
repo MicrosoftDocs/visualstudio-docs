@@ -28,7 +28,7 @@ Retrieves the relative virtual address (RVA) of the block.
   
 ```cpp#  
 HRESULT get_relativeVirtualAddress (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

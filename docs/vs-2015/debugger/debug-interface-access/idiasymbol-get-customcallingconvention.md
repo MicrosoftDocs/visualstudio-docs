@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the function has a custom calling conven
   
 ```cpp#  
 HRESULT get_customCallingConvention(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

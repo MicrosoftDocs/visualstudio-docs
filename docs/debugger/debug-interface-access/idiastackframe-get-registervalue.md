@@ -22,8 +22,8 @@ Retrieves the value of a specified register as stored in the stack frame.
   
 ```C++  
 HRESULT get_registerValue(  
-   ULONG      registerIndex,  
-   ULONGLONG *pRetVal  
+   ULONG      registerIndex,  
+   ULONGLONG *pRetVal  
 );  
 ```  
   

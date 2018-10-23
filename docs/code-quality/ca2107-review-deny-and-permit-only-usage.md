@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2107: Review deny and permit only usage
+
 |||
 |-|-|
 |TypeName|ReviewDenyAndPermitOnlyUsage|

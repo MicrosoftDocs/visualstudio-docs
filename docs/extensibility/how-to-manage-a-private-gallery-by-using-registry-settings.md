@@ -35,17 +35,17 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
  The `Repositories` key refers to the gallery to be enabled or disabled. The Visual Studio Gallery and the Samples Gallery use the following repository GUIDs:  
   
--   Visual Studio Gallery : 0F45E408-7995-4375-9485-86B8DB553DC9  
+- Visual Studio Gallery : 0F45E408-7995-4375-9485-86B8DB553DC9  
   
--   Samples Gallery : AEB9CB40-D8E6-4615-B52C-27E307F8506C  
+- Samples Gallery : AEB9CB40-D8E6-4615-B52C-27E307F8506C  
   
- The `Disabled` value is optional. By default, a gallery is enabled.  
+  The `Disabled` value is optional. By default, a gallery is enabled.  
   
- The `Priority` value determines the order in which the galleries are listed in the **Options** dialog box. Visual Studio Gallery has priority 10 and the Samples Gallery has priority 20. Private galleries start at priority 100. If several galleries have the same priority value, the order in which they appear is determined by the values of their localized `DisplayName` attributes.  
+  The `Priority` value determines the order in which the galleries are listed in the **Options** dialog box. Visual Studio Gallery has priority 10 and the Samples Gallery has priority 20. Private galleries start at priority 100. If several galleries have the same priority value, the order in which they appear is determined by the values of their localized `DisplayName` attributes.  
   
- The `Protocol` value is required for Atom-based or SharePoint-based galleries.  
+  The `Protocol` value is required for Atom-based or SharePoint-based galleries.  
   
- Either `DisplayName`, or both `DisplayNameResourceID` and `DisplayNamePackageGuid`, must be specified. If all are specified, then the `DisplayNameResourceID` and `DisplayNamePackageGuid` pair is used.  
+  Either `DisplayName`, or both `DisplayNameResourceID` and `DisplayNamePackageGuid`, must be specified. If all are specified, then the `DisplayNameResourceID` and `DisplayNamePackageGuid` pair is used.  
   
 ## Disable the Visual Studio Gallery using a .pkgdef file  
  You can disable a gallery in a *.pkgdef* file. The following entry disables the Visual Studio Gallery:  

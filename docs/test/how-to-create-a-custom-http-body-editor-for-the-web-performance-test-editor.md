@@ -27,31 +27,31 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 ### Create a user control by using a Windows Control Library project
 
-1.  In Visual Studio, on the **File** menu, choose **New** and then select **Project**.
+1. In Visual Studio, on the **File** menu, choose **New** and then select **Project**.
 
-     The **New Project** dialog box is displayed.
+    The **New Project** dialog box is displayed.
 
-2.  Under **Installed Templates**, select either **Visual Basic** or **Visual C#** depending on your programming preference, and then select **Windows**.
+2. Under **Installed Templates**, select either **Visual Basic** or **Visual C#** depending on your programming preference, and then select **Windows**.
 
-    > [!NOTE]
-    > This sample uses Visual C#.
+   > [!NOTE]
+   > This sample uses Visual C#.
 
-3.  In the list of templates, select **Windows Forms Control Library**.
+3. In the list of templates, select **Windows Forms Control Library**.
 
-4.  In the **Name** text box, type a name, for example, `MessageEditors`, and choose **OK**.
+4. In the **Name** text box, type a name, for example, `MessageEditors`, and choose **OK**.
 
-    > [!NOTE]
-    > This sample uses MessageEditors.
+   > [!NOTE]
+   > This sample uses MessageEditors.
 
-     The project is added to the new solution and a <xref:System.Windows.Forms.UserControl> named *UserControl1.cs* is presented in the Designer.
+    The project is added to the new solution and a <xref:System.Windows.Forms.UserControl> named *UserControl1.cs* is presented in the Designer.
 
-5.  From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
+5. From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
 
-6.  Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
+6. Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
 
-7.  In **Solution Explorer**, right-click the Windows Forms Library project and select **Properties**.
+7. In **Solution Explorer**, right-click the Windows Forms Library project and select **Properties**.
 
-8.  In the **Properties**, select the **Application** tab.
+8. In the **Properties**, select the **Application** tab.
 
 9. In the **Target framework** drop-down list, select **.NET Framework 4**.
 
@@ -89,9 +89,9 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 18. Add the following properties to enable getting and setting the text in RichTextBox1. The <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface will use EditString and the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> will use EditByteArray:
 
-   ```csharp
-   public String EditString
-   {
+    ```csharp
+    public String EditString
+    {
        get
        {
            return this.richTextBox1.Text;
@@ -100,10 +100,10 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
        {
            this.richTextBox1.Text = value;
        }
-   }
+    }
 
-   public byte[] EditByteArray
-   {
+    public byte[] EditByteArray
+    {
        get
        {
            return System.Convert.FromBase64String(richTextBox1.Text);
@@ -112,8 +112,8 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
        {
            richTextBox1.Text = System.Convert.ToBase64String(value, 0, value.Length);
        }
-   }
-   ```
+    }
+    ```
 
 ## Add a class to the Windows Control Library project
 

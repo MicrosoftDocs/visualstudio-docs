@@ -23,7 +23,7 @@ Determines if the server is local to the caller.
   
 ```cpp  
 HRESULT QueryIsLocal(  
-   void  
+   void  
 );  
 ```  
   

@@ -28,8 +28,8 @@ Reads `LONG` values in a property set.
   
 ```cpp#  
 HRESULT ReadDLONG (   
-   PROPID id,  
-   LONG*  pValue  
+   PROPID id,  
+   LONG*  pValue  
 );  
 ```  
   

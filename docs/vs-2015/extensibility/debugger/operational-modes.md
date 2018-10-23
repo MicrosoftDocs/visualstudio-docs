@@ -21,13 +21,13 @@ manager: "ghogen"
 
 There are three modes in which the IDE can operate, as follows:  
   
--   [Design Mode](#vsconoperationalmodesanchor1)  
+- [Design Mode](#vsconoperationalmodesanchor1)  
   
--   [Run Mode](#vsconoperationalmodesanchor2)  
+- [Run Mode](#vsconoperationalmodesanchor2)  
   
--   [Break Mode](#vsconoperationalmodesanchor3)  
+- [Break Mode](#vsconoperationalmodesanchor3)  
   
- How your custom debug engine (DE) transitions between these modes is an implementation decision that requires you to be familiar with the transition mechanisms. The DE may or may not directly implement these modes. These modes are really debug package modes that switch based on user action or events from the DE. For example, the transition from run mode to break mode is instigated by a stopping event from the DE. The transition from break to either run mode or step mode is instigated by the user performing operations such as Step or Execute. For more information about DE transitions, see [Control of Execution](../../extensibility/debugger/control-of-execution.md).  
+  How your custom debug engine (DE) transitions between these modes is an implementation decision that requires you to be familiar with the transition mechanisms. The DE may or may not directly implement these modes. These modes are really debug package modes that switch based on user action or events from the DE. For example, the transition from run mode to break mode is instigated by a stopping event from the DE. The transition from break to either run mode or step mode is instigated by the user performing operations such as Step or Execute. For more information about DE transitions, see [Control of Execution](../../extensibility/debugger/control-of-execution.md).  
   
 ##  <a name="vsconoperationalmodesanchor1"></a> Design Mode  
  Design mode is the nonrunning state of Visual Studio debugging, during which time you can set debugging features in your application.  

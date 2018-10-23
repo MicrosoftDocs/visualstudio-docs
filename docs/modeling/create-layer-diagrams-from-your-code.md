@@ -82,7 +82,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
  To see if a linked item supports validation, open **Layer Explorer** and examine the **Supports Validation** property of the item. See [Managing links to artifacts](#Managing).
 
 |**To**|**Follow these steps**|
-|------------|----------------------------|
+|-|-|
 |Create a layer for a single artifact|<ol><li>Drag the item onto the dependency diagram from these sources:<br /><br /> <ul><li>**Solution Explorer**<br /><br />         For example, you can drag files or projects.</li><li>Code maps<br /><br />         See [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md) and [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md).</li><li>**Class View** or **Object Browser**</li></ul><br />     A layer appears on the diagram and is linked to the artifact.</li><li>Rename the layer to reflect the responsibilities of the associated code or artifacts.</li></ol> **Important:**  Dragging binary files to the dependency diagram does not automatically add their references to modeling project. You must manually add the binary files that you want to validate to the modeling project. **To add binary files to the modeling project** <ol><li>In **Solution Explorer**, open the shortcut menu for the modeling project, and then choose **Add Existing Item**.</li><li>In the **Add Existing Item** dialog box, browse to the binary files, select them, and then choose **OK**.     The binary files appear in the modeling project.</li><li>In **Solution Explorer**, choose a binary file that you added, and then press **F4** to open the **Properties** window.</li><li>On each binary file, set the **Build Action** property to **Validate**.</li></ol>|
 |Create a single layer for all selected artifacts|Drag all the artifacts to the dependency diagram at the same time.<br /><br /> A layer appears on the diagram and is linked to all of the artifacts.|
 |Create a layer for each selected artifact|Press and hold the **SHIFT** key while you drag all of the artifacts to the dependency diagram at the same time. **Note:**  If you use the **SHIFT** key to select a range of items, release the key after you select the artifacts. Press and hold it again when you drag the artifacts to the diagram. <br /><br /> A layer for each artifact appears on the diagram and is linked to each artifact.|
@@ -112,7 +112,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 2.  Use the following tasks to manage these links:
 
 |**To**|**In Layer Explorer**|
-|------------|---------------------------|
+|-|-|
 |Delete the link between the layer and an artifact|Open the shortcut menu for the artifact link, and then choose **Delete**.|
 |Move the link from one layer to another|Drag the artifact link to an existing layer on the diagram.<br /><br /> - or -<br /><br /> 1.  Open the shortcut menu for the artifact link, and then choose **Cut**.<br />2.  On the dependency diagram, open the shortcut menu for the layer, and then choose **Paste**.|
 |Copy the link from one layer to another|1.  Open the shortcut menu for the artifact link, and then choose **Copy**.<br />2.  On the dependency diagram, open the shortcut menu for the layer, and then choose **Paste**.|
@@ -125,15 +125,15 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 > [!NOTE]
 > Dependencies cannot be reverse-engineered for certain kinds of artifacts. For example, no dependencies will be reverse-engineered from or to a layer that is linked to a text file. To see which artifacts have dependencies that you can reverse-engineer, open the shortcut menu for one or multiple layers, and then choose **View Links**. In **Layer Explorer**, examine the **Supports Validation** column. Dependencies will not be reverse-engineered for artifacts for which this column shows **False**.
 
--   Select one or multiple layers, open the shortcut menu for a selected layer, and then choose **Generate Dependencies**.
+- Select one or multiple layers, open the shortcut menu for a selected layer, and then choose **Generate Dependencies**.
 
- Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.
+  Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.
 
 ## <a name="EditDependencies"></a> Edit layers and dependencies to show the intended design
  To describe the changes that you plan to make to your system or the intended architecture, edit the dependency diagram:
 
 |**To**|**Perform these steps**|
-|------------|-----------------------------|
+|-|-|
 |Change or restrict the direction of a dependency|Set its **Direction** property.|
 |Create new dependencies|Use the **Dependency** and **Bidirectional Dependency** tools.<br /><br /> To draw multiple dependencies, double-click the tool. When you are finished, choose the **Pointer** tool or press the **ESC** key.|
 |Specify that artifacts associated with a layer cannot depend on the specified namespaces|Type the namespaces in the layer's **Forbidden Namespace Dependencies** property. Use a semicolon (**;**) to separate the namespaces.|

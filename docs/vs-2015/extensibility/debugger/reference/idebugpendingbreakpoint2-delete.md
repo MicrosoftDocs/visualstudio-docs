@@ -28,7 +28,7 @@ Deletes this pending breakpoint and all breakpoints bound from it.
   
 ```cpp#  
 HRESULT Delete(   
-   void   
+   void   
 );  
 ```  
   

@@ -28,9 +28,9 @@ Retrieves an array of compiler-specific type identifier values for this symbol.
   
 ```cpp#  
 HRESULT get_typeIds (   
-   DWORD  cTypeIds,  
-   DWORD* pcTypeIds,  
-   DWORD  typeIds[]  
+   DWORD  cTypeIds,  
+   DWORD* pcTypeIds,  
+   DWORD  typeIds[]  
 );  
 ```  
   

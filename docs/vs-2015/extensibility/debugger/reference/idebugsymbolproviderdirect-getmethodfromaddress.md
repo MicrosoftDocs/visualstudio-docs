@@ -26,25 +26,25 @@ Retrieves information about the method at the specified debug address.
   
 ```cpp#  
 HRESULT GetMethodFromAddress(  
-   IDebugAddress* pAddress,  
-   GUID*          pGuid,  
-   DWORD*         pAppID,  
-   _mdToken*      pTokenClass,  
-   _mdToken*      pTokenMethod,  
-   DWORD*         pdwOffset,  
-   DWORD*         pdwVersion  
+   IDebugAddress* pAddress,  
+   GUID*          pGuid,  
+   DWORD*         pAppID,  
+   _mdToken*      pTokenClass,  
+   _mdToken*      pTokenMethod,  
+   DWORD*         pdwOffset,  
+   DWORD*         pdwVersion  
 );  
 ```  
   
 ```csharp  
 int GetMethodFromAddress(  
-   IDebugAddress pAddress,  
-   out Guid      pGuid,  
-   out uint      pAppID,  
-   out uint      pTokenClass,  
-   out uint      pTokenMethod,  
-   out uint      pdwOffset,  
-   out uint      pdwVersion  
+   IDebugAddress pAddress,  
+   out Guid      pGuid,  
+   out uint      pAppID,  
+   out uint      pTokenClass,  
+   out uint      pTokenMethod,  
+   out uint      pdwOffset,  
+   out uint      pdwVersion  
 );  
 ```  
   

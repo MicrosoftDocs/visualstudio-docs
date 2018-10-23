@@ -27,13 +27,13 @@ Gets the attributes for this debug event.
   
 ```cpp#  
 HRESULT GetAttribute(   
-   DWORD* pdwAttrib  
+   DWORD* pdwAttrib  
 );  
 ```  
   
 ```csharp  
 int GetAttribute(   
-   out uint pdwAttrib  
+   out uint pdwAttrib  
 );  
 ```  
   

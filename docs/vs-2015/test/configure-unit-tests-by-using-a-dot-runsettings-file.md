@@ -30,17 +30,17 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
   
 ## Customizing tests with a .runsettings file  
   
-1.  Add an XML file to your Visual Studio solution and rename it to test.runsettings. (The filename doesn’t matter, but the extension must be .runsettings.)  
+1. Add an XML file to your Visual Studio solution and rename it to test.runsettings. (The filename doesn’t matter, but the extension must be .runsettings.)  
   
-2.  Replace the file content with the [example](#example).  
+2. Replace the file content with the [example](#example).  
   
-     Edit it to your own needs.  
+    Edit it to your own needs.  
   
-3.  On the **Test** menu, choose **Test Settings**, **Select Test Settings File**.  
+3. On the **Test** menu, choose **Test Settings**, **Select Test Settings File**.  
   
- You can create more than one \*.runsettings file in your solution, and enable or disable them at different times by using the **Test Settings** menu.  
+   You can create more than one \*.runsettings file in your solution, and enable or disable them at different times by using the **Test Settings** menu.  
   
- ![Enabling a run settings file](../test/media/runsettings-1.png "RunSettings-1")  
+   ![Enabling a run settings file](../test/media/runsettings-1.png "RunSettings-1")  
   
 ##  <a name="example"></a> Copy this example .runsettings file  
  Here is a typical *.runsettings file. Each element of the file is optional, because every value has a default.  

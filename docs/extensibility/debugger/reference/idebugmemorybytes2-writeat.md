@@ -24,17 +24,17 @@ Writes the specified number of bytes of memory, starting at the specified addres
   
 ```cpp  
 HRESULT WriteAt(   
-   IDebugMemoryContext2* pStartContext,  
-   DWORD                 dwCount,  
-   BYTE*                 rgbMemory  
+   IDebugMemoryContext2* pStartContext,  
+   DWORD                 dwCount,  
+   BYTE*                 rgbMemory  
 );  
 ```  
   
 ```csharp  
 int WriteAt(  
-   IDebugMemoryContext2 pStartContext,  
-   uint                 dwCount,  
-   byte[]               rgbMemory  
+   IDebugMemoryContext2 pStartContext,  
+   uint                 dwCount,  
+   byte[]               rgbMemory  
 );  
 ```  
   

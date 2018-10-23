@@ -24,13 +24,13 @@ ms.workload:
 ## To force preloading of ContentPrefetcher specified resources  
  This procedure assumes that you have already set up the ContentPrefetcher functionality and specified the content URIs to preload in your app project. To force a preloading of content when the specified resources are new or modified, you have to start and stop the app before you choose the **Trigger Windows Store App Prefetch** command. You run the app first to register the URIs. **Trigger Windows Store App Prefetch** command then forces the ContentPrefetcher to download the content and add it the cache. In subsequent runs of the app, you can assume that the content is preloaded.  
   
-1.  Start the app to register the prefetch content URIs with the app. On the **Debug** menu, choose **Start Debugging** (Keyboard shortcut: F5).  
+1. Start the app to register the prefetch content URIs with the app. On the **Debug** menu, choose **Start Debugging** (Keyboard shortcut: F5).  
   
-2.  On the **Debug** menu, choose **Stop Debugging** (Keyboard shortcut: Shift + F5).  
+2. On the **Debug** menu, choose **Stop Debugging** (Keyboard shortcut: Shift + F5).  
   
-3.  On the **Debug** menu, choose **Other Debug Targets** and then choose **Trigger Windows Store App Prefetch**.  
+3. On the **Debug** menu, choose **Other Debug Targets** and then choose **Trigger Windows Store App Prefetch**.  
   
- You can now debug, test, or analyze your app with the prefetched web resources.  
+   You can now debug, test, or analyze your app with the prefetched web resources.  
   
 > [!NOTE]
 >  Repeat these steps whenever you add or modify the specified web content.  

@@ -22,7 +22,7 @@ Allows the client to enable or disable the calculation and use of relative virtu
   
 ```C++  
 HRESULT put_relativeVirtualAddressEnabled (   
-   BOOL NewVal  
+   BOOL NewVal  
 );  
 ```  
   

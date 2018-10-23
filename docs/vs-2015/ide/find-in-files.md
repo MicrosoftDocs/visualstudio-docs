@@ -36,11 +36,11 @@ Find in Files** allows you to search a specified set of files. The matches found
   
 ### To display Find in Files  
   
-1.  On the menu bar, choose **Edit**, **Find and Replace**.  
+1. On the menu bar, choose **Edit**, **Find and Replace**.  
   
-2.  Choose **Find in Files**.  
+2. Choose **Find in Files**.  
   
- To cancel a Find operation, press CTRL + BREAK.  
+   To cancel a Find operation, press CTRL + BREAK.  
   
 > [!NOTE]
 >  The Find and Replace tool does not search directories with the `Hidden` or `System` attribute set.  

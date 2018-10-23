@@ -53,11 +53,11 @@ The **Project Designer** also provides a way to target different platforms with 
 
 Performing this task varies based on the programming language you are using. See the following links for more information:
 
--   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).
+- For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).
 
--   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
+- For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
 
--   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime compilation)](/cpp/build/reference/clr-common-language-runtime-compilation).
+- For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime compilation)](/cpp/build/reference/clr-common-language-runtime-compilation).
 
 ## See also
 

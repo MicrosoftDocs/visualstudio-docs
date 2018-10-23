@@ -74,15 +74,15 @@ The easiest way to customize an object is to set properties in the **Properties*
   
  To create a style, select the object, and then in the **Object** menu, choose **Edit Style**, and then choose **Edit a Copy** or **Create Empty**.  
   
--   Choose **Edit a Copy** to start with the default style or template of the control.  
+- Choose **Edit a Copy** to start with the default style or template of the control.  
   
--   Choose **Create Empty** to start from scratch.  
+- Choose **Create Empty** to start from scratch.  
   
- The **Edit Current** option appears only if you edit a style or template that you’ve already created. It won’t appear for a control that is still using a default system template.  
+  The **Edit Current** option appears only if you edit a style or template that you’ve already created. It won’t appear for a control that is still using a default system template.  
   
- In the **Create Style Resource** dialog box, you can either name the style or template so that you can use it later, or you can apply the style or template to all controls of that type.  
+  In the **Create Style Resource** dialog box, you can either name the style or template so that you can use it later, or you can apply the style or template to all controls of that type.  
   
- ![](../designers/media/4818ee6a-ce60-4b79-91c8-3b1871829eea.png "4818ee6a-ce60-4b79-91c8-3b1871829eea")  
+  ![](../designers/media/4818ee6a-ce60-4b79-91c8-3b1871829eea.png "4818ee6a-ce60-4b79-91c8-3b1871829eea")  
   
 > [!NOTE]
 >  You can’t create styles or templates for every type of control. If a control doesn’t support them, the breadcrumb button won’t appear above the artboard.  

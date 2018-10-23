@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1811: Avoid uncalled private code
+
 |||
 |-|-|
 |TypeName|AvoidUncalledPrivateCode|

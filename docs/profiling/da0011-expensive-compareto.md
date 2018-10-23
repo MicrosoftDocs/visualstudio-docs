@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # DA0011: Expensive CompareTo
+
 |||  
 |-|-|  
 |Rule Id|DA0011|  
@@ -24,12 +25,12 @@ ms.workload:
 |Profiling methods|Sampling<br /><br /> .NET Memory|  
 |Message|CompareTo functions should be cheap and not allocate any memory. Reduce complexity of CompareTo function if possible.|  
 |Rule type|Warning|  
-  
+
 ## Cause  
  The CompareTo method of the type is expensive or allocates memory.  
-  
+
 ## Rule description  
  CompareTo methods should be efficient and should not allocate memory.  
-  
+
 ## How to fix violations  
  Reduce the complexity of the CompareTo method.

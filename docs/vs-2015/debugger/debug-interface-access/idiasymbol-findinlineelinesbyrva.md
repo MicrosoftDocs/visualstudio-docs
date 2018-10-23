@@ -26,7 +26,7 @@ Retrieves an enumeration that allows a client to iterate through the line number
   
 ```cpp#  
 HRESULT findInlineeLinesByRVA (    DWORD                 rva,   DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

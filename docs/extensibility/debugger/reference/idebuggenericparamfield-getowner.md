@@ -21,13 +21,13 @@ Retrieves the type or method owner of this generic parameter.
   
 ```cpp  
 HRESULT GetOwner(  
-   IDebugField** ppOwner  
+   IDebugField** ppOwner  
 );  
 ```  
   
 ```csharp  
 int GetOwner(  
-   out IDebugField ppOwner  
+   out IDebugField ppOwner  
 );  
 ```  
   

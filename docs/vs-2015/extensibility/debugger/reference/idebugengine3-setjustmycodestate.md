@@ -27,17 +27,17 @@ This method tells the debug engine about the JustMyCode state information.
   
 ```cpp  
 HRESULT SetJustMyCodeState(  
-   BOOL           fUpdate,  
-   DWORD          dwModules,  
-   JMC_CODE_SPEC* rgJMCSpec  
+   BOOL           fUpdate,  
+   DWORD          dwModules,  
+   JMC_CODE_SPEC* rgJMCSpec  
 );  
 ```  
   
 ```csharp  
 int SetJustMyCodeState(  
-   int             fUpdate,   
-   uint            dwModules,   
-   JMC_CODE_SPEC[] rgJMCSpec  
+   int             fUpdate,   
+   uint            dwModules,   
+   JMC_CODE_SPEC[] rgJMCSpec  
 );  
 ```  
   

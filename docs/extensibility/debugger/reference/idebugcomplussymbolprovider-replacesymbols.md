@@ -22,17 +22,17 @@ Replaces the current debug symbols with those in the specified data stream.
   
 ```cpp  
 HRESULT ReplaceSymbols(  
-   ULONG32  ulAppDomainID,  
-   GUID     guidModule,  
-   IStream* pStream  
+   ULONG32  ulAppDomainID,  
+   GUID     guidModule,  
+   IStream* pStream  
 );  
 ```  
   
 ```csharp  
 int ReplaceSymbols(  
-   uint    ulAppDomainID,  
-   Guid    guidModule,  
-   IStream pStream  
+   uint    ulAppDomainID,  
+   Guid    guidModule,  
+   IStream pStream  
 );  
 ```  
   

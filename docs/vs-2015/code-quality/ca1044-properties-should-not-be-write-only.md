@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1044: Properties should not be write only
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|PropertiesShouldNotBeWriteOnly|

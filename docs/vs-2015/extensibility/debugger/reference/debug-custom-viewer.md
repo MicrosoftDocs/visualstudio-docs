@@ -27,23 +27,23 @@ A structure that identifies a custom viewer or type visualizer.
   
 ```cpp  
 typedef struct tagDEBUG_CUSTOM_VIEWER {  
-   DWORD dwID;  
-   BSTR  bstrMenuName;  
-   BSTR  bstrDescription;  
-   GUID  guidLang;  
-   GUID  guidVendor;  
-   BSTR  bstrMetric;  
+   DWORD dwID;  
+   BSTR  bstrMenuName;  
+   BSTR  bstrDescription;  
+   GUID  guidLang;  
+   GUID  guidVendor;  
+   BSTR  bstrMetric;  
 } DEBUG_CUSTOM_VIEWER;  
 ```  
   
 ```csharp  
 public struct DEBUG_CUSTOM_VIEWER {  
-   public uint   dwID;  
-   public string bstrMenuName;  
-   public string bstrDescription;  
-   public Guid   guidLang;  
-   public Guid   guidVendor;  
-   public string bstrMetric;  
+   public uint   dwID;  
+   public string bstrMenuName;  
+   public string bstrDescription;  
+   public Guid   guidLang;  
+   public Guid   guidVendor;  
+   public string bstrMetric;  
 };  
 ```  
   

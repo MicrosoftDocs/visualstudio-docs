@@ -19,6 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2147: Transparent methods may not use security asserts
+
 |||
 |-|-|
 |TypeName|SecurityTransparentCodeShouldNotAssert|

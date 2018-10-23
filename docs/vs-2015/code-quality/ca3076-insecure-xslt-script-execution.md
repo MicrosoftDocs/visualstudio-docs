@@ -16,6 +16,7 @@ manager: "wpickett"
 ---
 # CA3076: Insecure XSLT Script Execution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|InsecureXSLTScriptExecution|

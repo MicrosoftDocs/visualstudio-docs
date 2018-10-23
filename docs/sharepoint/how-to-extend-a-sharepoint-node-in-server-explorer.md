@@ -55,14 +55,14 @@ ms.workload:
 ## Example  
  The following code example demonstrates how to create two different types of node extensions:  
   
--   An extension that adds a context menu item to SharePoint site nodes. When you click the menu item, it displays the name of the node that was clicked.  
+- An extension that adds a context menu item to SharePoint site nodes. When you click the menu item, it displays the name of the node that was clicked.  
   
--   An extension that adds a custom property named **ContosoExampleProperty** to each node that represents a field named **Body**.  
+- An extension that adds a custom property named **ContosoExampleProperty** to each node that represents a field named **Body**.  
   
- [!code-csharp[SPExtensibility.ProjectSystemExtension.General#9](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextension.cs#9)]
- [!code-vb[SPExtensibility.ProjectSystemExtension.General#9](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextension.vb#9)]  
+  [!code-csharp[SPExtensibility.ProjectSystemExtension.General#9](../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextension.cs#9)]
+  [!code-vb[SPExtensibility.ProjectSystemExtension.General#9](../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextension.vb#9)]  
   
- This extension adds an editable string property to nodes. You can also create custom properties that display read-only data from the SharePoint server. For an example that demonstrates how to do this, see [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).  
+  This extension adds an editable string property to nodes. You can also create custom properties that display read-only data from the SharePoint server. For an example that demonstrates how to do this, see [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).  
   
 ## Compile the code  
  This example requires references to the following assemblies:  

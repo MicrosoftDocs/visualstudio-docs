@@ -30,7 +30,7 @@ Gets the name of the session that is debugging this process. An IDE can display 
   
 ```  
 HRESULT GetAttachedSessionName(  
-   BSTR* pbstrSessionName  
+   BSTR* pbstrSessionName  
 );  
 ```  
   

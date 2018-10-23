@@ -27,15 +27,15 @@ Notifies the debug package that text has been replaced in the document.
   
 ```cpp#  
 HRESULT onReplaceText(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToReplace  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToReplace  
 );  
 ```  
   
 ```csharp  
 int onReplaceText(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToReplace  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToReplace  
 );  
 ```  
   

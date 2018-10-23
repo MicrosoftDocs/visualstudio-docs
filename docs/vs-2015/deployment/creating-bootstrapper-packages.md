@@ -39,37 +39,37 @@ The Setup program is a generic installer that can be configured to detect and in
   
  To create a bootstrapper package, you have to supply the redistributable in the form of an EXE or MSI file.to the Bootstrapper Manifest Generator. Then, the Bootstrapper Manifest Generator creates the following files:  
   
--   The product manifest, product.xml, which contains any language-neutral metadata for the package. This contains metadata common to all the localized versions of the redistributable component.  
+- The product manifest, product.xml, which contains any language-neutral metadata for the package. This contains metadata common to all the localized versions of the redistributable component.  
   
--   The package manifest, package.xml, which contains language-specific metadata; it typically contains localized error messages. A component must have at least one package manifest for each localized version of that component.  
+- The package manifest, package.xml, which contains language-specific metadata; it typically contains localized error messages. A component must have at least one package manifest for each localized version of that component.  
   
- After these files are created, put the product manifest file into a folder named for the custom bootstrapper. The package manifest file goes into a folder named for the locale. For example, if the package manifest file is for English redistribution, put the file into a folder called en. Repeat this process for each locale, such as ja for Japanese and de for German. The final custom bootstrapper package could have the following folder structure.  
+  After these files are created, put the product manifest file into a folder named for the custom bootstrapper. The package manifest file goes into a folder named for the locale. For example, if the package manifest file is for English redistribution, put the file into a folder called en. Repeat this process for each locale, such as ja for Japanese and de for German. The final custom bootstrapper package could have the following folder structure.  
   
- `CustomBootstrapperPackage`  
+  `CustomBootstrapperPackage`  
   
- `product.xml`  
+  `product.xml`  
   
- `CustomBootstrapper.msi`  
+  `CustomBootstrapper.msi`  
   
- `de`  
+  `de`  
   
- `eula.rtf`  
+  `eula.rtf`  
   
- `package.xml`  
+  `package.xml`  
   
- `en`  
+  `en`  
   
- `eula.rtf`  
+  `eula.rtf`  
   
- `package.xml`  
+  `package.xml`  
   
- `ja`  
+  `ja`  
   
- `eula.rtf`  
+  `eula.rtf`  
   
- `package.xml`  
+  `package.xml`  
   
- Finally, copy the redistributable files into the bootstrapper folder location. For more information, see [How to: Create a Localized Bootstrapper Package](../deployment/how-to-create-a-localized-bootstrapper-package.md).  
+  Finally, copy the redistributable files into the bootstrapper folder location. For more information, see [How to: Create a Localized Bootstrapper Package](../deployment/how-to-create-a-localized-bootstrapper-package.md).  
   
 ```  
 \Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages  

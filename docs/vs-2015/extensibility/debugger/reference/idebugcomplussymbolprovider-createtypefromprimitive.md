@@ -27,18 +27,18 @@ Creates a type from the specified primitive type.
 ```  
 [C++]  
 HRESULT CreateTypeFromPrimitive(  
-   DWORD          dwPrimType,  
-   IDebugAddress* pAddress,  
-   IDebugField**  ppType  
+   DWORD          dwPrimType,  
+   IDebugAddress* pAddress,  
+   IDebugField**  ppType  
 );  
 ```  
   
 ```  
 [C#]  
 int CreateTypeFromPrimitive(  
-   uint          dwPrimType,  
-   IDebugAddress pAddress,  
-   IDebugField   ppType  
+   uint          dwPrimType,  
+   IDebugAddress pAddress,  
+   IDebugField   ppType  
 );  
 ```  
   

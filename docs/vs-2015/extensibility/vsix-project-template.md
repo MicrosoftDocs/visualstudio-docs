@@ -36,11 +36,11 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
 ## Uses of the VSIX Project Template  
  The VSIX project template has two main uses:  
   
--   To deploy project templates, item templates, and other extensions that do not already have VSIX support.  
+- To deploy project templates, item templates, and other extensions that do not already have VSIX support.  
   
--   To wrap the outputs of multiple extensions into one deployment package.  
+- To wrap the outputs of multiple extensions into one deployment package.  
   
- You do not have to use the VSIX Project template to deploy VSPackages or other kinds of extensions that already have VSIX support.  
+  You do not have to use the VSIX Project template to deploy VSPackages or other kinds of extensions that already have VSIX support.  
   
 ## Packaging an Extension in an Empty VSIX Project  
  You can package an existing extension, or an extension that does not already have VSIX support, by wrapping it in an empty VSIX project. The extension to be wrapped must be of a type that is supported by the [VSIX schema](../extensibility/vsix-extension-schema-2-0-reference.md).  

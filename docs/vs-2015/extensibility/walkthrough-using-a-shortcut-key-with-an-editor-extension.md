@@ -26,21 +26,21 @@ You can respond to shortcut keys in your editor extension. The following walkthr
   
 ## Creating a Managed Extensibility Framework (MEF) Project  
   
-1.  Create a C# VSIX project. (In the **New Project** dialog, select **Visual C# / Extensibility**, then **VSIX Project**.) Name the solution `KeyBindingTest`.  
+1. Create a C# VSIX project. (In the **New Project** dialog, select **Visual C# / Extensibility**, then **VSIX Project**.) Name the solution `KeyBindingTest`.  
   
-2.  Add an Editor Text Adornment item template to the project and name it `KeyBindingTest`. For more information, see [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
+2. Add an Editor Text Adornment item template to the project and name it `KeyBindingTest`. For more information, see [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
   
-3.  Add the following references and set **CopyLocal** to `false`:  
+3. Add the following references and set **CopyLocal** to `false`:  
   
-     Microsoft.VisualStudio.Editor  
+    Microsoft.VisualStudio.Editor  
   
-     Microsoft.VisualStudio.OLE.Interop  
+    Microsoft.VisualStudio.OLE.Interop  
   
-     Microsoft.VisualStudio.Shell.14.0  
+    Microsoft.VisualStudio.Shell.14.0  
   
-     Microsoft.VisualStudio.TextManager.Interop  
+    Microsoft.VisualStudio.TextManager.Interop  
   
- In the KeyBindingTest class file, change the class name to PurpleCornerBox. Use the light bulb that appears in the left margin to make the other appropriate changes. Inside the constructor, change the name of the adornment layer from **KeyBindingTest** to **PurpleCornerBox**:  
+   In the KeyBindingTest class file, change the class name to PurpleCornerBox. Use the light bulb that appears in the left margin to make the other appropriate changes. Inside the constructor, change the name of the adornment layer from **KeyBindingTest** to **PurpleCornerBox**:  
   
 ```csharp  
 this.layer = view.GetAdornmentLayer("PurpleCornerBox");  

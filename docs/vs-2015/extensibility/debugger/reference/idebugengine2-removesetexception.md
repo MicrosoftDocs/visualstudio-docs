@@ -27,13 +27,13 @@ Removes the specified exception so it is no longer handled by the debug engine.
   
 ```cpp#  
 HRESULT RemoveSetException(   
-   EXCEPTION_INFO* pException  
+   EXCEPTION_INFO* pException  
 );  
 ```  
   
 ```csharp  
 int RemoveSetException(   
-   EXCEPTION_INFO[] pException  
+   EXCEPTION_INFO[] pException  
 );  
 ```  
   

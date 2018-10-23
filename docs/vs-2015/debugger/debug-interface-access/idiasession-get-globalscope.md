@@ -28,7 +28,7 @@ Retrieves a reference to the global scope.
   
 ```cpp#  
 HRESULT get_globalScope (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

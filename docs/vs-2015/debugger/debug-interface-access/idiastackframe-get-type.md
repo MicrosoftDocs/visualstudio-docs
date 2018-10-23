@@ -28,7 +28,7 @@ Retrieves the frame type.
   
 ```cpp#  
 HRESULT get_type (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

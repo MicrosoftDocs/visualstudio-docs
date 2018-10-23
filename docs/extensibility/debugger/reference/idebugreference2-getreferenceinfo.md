@@ -23,23 +23,23 @@ Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-
   
 ```cpp  
 HRESULT GetReferenceInfo (   
-   DEBUGREF_INFO_FLAGS   dwFields,  
-   DWORD                 nRadix,  
-   DWORD                 dwTimeout,  
-   IDebugReference2**    rgpArgs,  
-   DWORD                 dwArgCount,  
-   DEBUG_REFERENCE_INFO* pReferenceInfo  
+   DEBUGREF_INFO_FLAGS   dwFields,  
+   DWORD                 nRadix,  
+   DWORD                 dwTimeout,  
+   IDebugReference2**    rgpArgs,  
+   DWORD                 dwArgCount,  
+   DEBUG_REFERENCE_INFO* pReferenceInfo  
 );  
 ```  
   
 ```csharp  
 int GetReferenceInfo (   
-   enum_DEBUGREF_INFO_FLAGS  dwFields,  
-   uint                      nRadix,  
-   uint                      dwTimeout,  
-   IDebugReference2[]        rgpArgs,  
-   uint                      dwArgCount,  
-   DEBUG_REFERENCE_INFO[]    pReferenceInfo  
+   enum_DEBUGREF_INFO_FLAGS  dwFields,  
+   uint                      nRadix,  
+   uint                      dwTimeout,  
+   IDebugReference2[]        rgpArgs,  
+   uint                      dwArgCount,  
+   DEBUG_REFERENCE_INFO[]    pReferenceInfo  
 );  
 ```  
   

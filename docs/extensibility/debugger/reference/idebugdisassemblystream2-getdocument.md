@@ -23,15 +23,15 @@ Gets the source document associated with this input stream.
   
 ```cpp  
 HRESULT GetDocument(   
-   BSTR              bstrDocumentUrl,  
-   IDebugDocument2** ppDocument  
+   BSTR              bstrDocumentUrl,  
+   IDebugDocument2** ppDocument  
 );  
 ```  
   
 ```csharp  
 int GetDocument(   
-   string              bstrDocumentUrl,  
-   out IDebugDocument2 ppDocument  
+   string              bstrDocumentUrl,  
+   out IDebugDocument2 ppDocument  
 );  
 ```  
   

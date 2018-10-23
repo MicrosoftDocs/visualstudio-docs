@@ -25,9 +25,9 @@ The *.NET memory allocation* profiling method of [!INCLUDE[vsprvs](../includes/v
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- The memory profiler interrupts the computer processor at each allocation of a .NET Framework object in a profiled application. When object lifetime data is also collected, the profiler interrupts the processor after each .NET Framework garbage collection. The data is aggregated for each profiled function and for each type of object.  
+  The memory profiler interrupts the computer processor at each allocation of a .NET Framework object in a profiled application. When object lifetime data is also collected, the profiler interrupts the processor after each .NET Framework garbage collection. The data is aggregated for each profiled function and for each type of object.  
   
 ## Allocation data  
  When a .memory event occurs, the total counts and sizes of the allocated or destroyed memory objects are incremented.  

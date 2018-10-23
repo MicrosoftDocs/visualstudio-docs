@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1903: Use only API from targeted framework
+
 |||
 |-|-|
 |TypeName|UseOnlyApiFromTargetedFramework|

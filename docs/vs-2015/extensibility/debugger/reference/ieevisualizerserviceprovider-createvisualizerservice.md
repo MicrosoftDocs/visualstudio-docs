@@ -27,21 +27,21 @@ This method creates a visualizer service.
   
 ```cpp  
 HRESULT CreateVisualizerService(  
-   IDebugBinder*              binder,  
-   IDebugSymbolProvider*      pSymProv,  
-   IDebugAddress*             pAddress,  
-   IEEVisualizerDataProvider* dataProvider,  
-   IEEVisualizerService**     ppService  
+   IDebugBinder*              binder,  
+   IDebugSymbolProvider*      pSymProv,  
+   IDebugAddress*             pAddress,  
+   IEEVisualizerDataProvider* dataProvider,  
+   IEEVisualizerService**     ppService  
 );  
 ```  
   
 ```csharp  
 int CreateVisualizerService(  
-   IDebugBinder binder,  
-   IDebugSymbolProvider      pSymProv,  
-   IDebugAddress             pAddress,  
-   IEEVisualizerDataProvider dataProvider,  
-   out IEEVisualizerService  ppService  
+   IDebugBinder binder,  
+   IDebugSymbolProvider      pSymProv,  
+   IDebugAddress             pAddress,  
+   IEEVisualizerDataProvider dataProvider,  
+   out IEEVisualizerService  ppService  
 );  
 ```  
   

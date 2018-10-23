@@ -27,11 +27,11 @@ Given a list of local files, this function determines which files are different 
   
 ```cpp  
 SCCRTN SccEnumChangedFiles(  
-   LPVOID  pContext,  
-   HWND    hWnd,  
-   LONG    cFiles,  
-   LPCSTR* lpFileNames,  
-   LONG*   plIsFileDifferent  
+   LPVOID  pContext,  
+   HWND    hWnd,  
+   LONG    cFiles,  
+   LPCSTR* lpFileNames,  
+   LONG*   plIsFileDifferent  
 );  
 ```  
   

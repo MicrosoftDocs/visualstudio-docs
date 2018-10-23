@@ -23,13 +23,13 @@ Resumes process execution.
   
 ```cpp  
 HRESULT ResumeProcess (   
-   IDebugProcess2* pProcess  
+   IDebugProcess2* pProcess  
 );  
 ```  
   
 ```csharp  
 int ResumeProcess (   
-   IDebugProcess2 pProcess  
+   IDebugProcess2 pProcess  
 );  
 ```  
   

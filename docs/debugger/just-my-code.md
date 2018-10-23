@@ -49,7 +49,7 @@ Double-clicking expanded external code lines in the **Call Stack** window highli
 
 ##  <a name="BKMK__NET_Framework_Just_My_Code"></a>Just My Code in .NET Framework projects 
 
-In .NET Framework projects, Just My Code uses symbol (*.pdb*) files and program optimizations to distinguish user and non-user code. The .NET Framework debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
+In .NET Framework projects, Just My Code uses symbol (*.pdb*) files and program optimizations to classify user and non-user code. The .NET Framework debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
   
 Three compiler attributes also affect what the .NET debugger considers to be user code:  
 
@@ -72,7 +72,7 @@ If the debugger breaks in non-user code (for example, you use **Debug** > **Brea
 If an unhandled exception occurs in non-user code, the debugger breaks at the user code line where the exception was generated.  
   
 If first chance exceptions are enabled for the exception, the calling user-code line is highlighted in green in source code. The **Call Stack** window displays the annotated frame labeled **[External Code]**.  
-  
+
 ##  <a name="BKMK_C___Just_My_Code"></a> Just My Code in C++ projects  
   
 In C++, enabling Just My Code is the same as using the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch.
@@ -198,9 +198,9 @@ JavaScript Just My Code controls stepping and call stack display by categorizing
 |**MyCode**|User code that you own and control.|  
 |**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example WinJS or jQuery).|  
 |**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode. In UWP projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|  
-  
- The JavaScript debugger classifies these types of code by default:  
-  
+
+The JavaScript debugger classifies these types of code by default:  
+
 -   Script executed by passing a string to the host-provided `eval` function is **MyCode**.  
 -   Script executed by passing a string to the `Function` constructor is **LibraryCode**.  
 -   Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.  
@@ -293,7 +293,7 @@ Specifications in this file override the default classifications and the *mycode
 -   `Library`  classifies the script as **LibraryCode**.  
 -   `Unrelated`  classifies the script as **UnrelatedCode**.  
   
- **MyCode, Libraries, and Unrelated**  
+  **MyCode, Libraries, and Unrelated**  
   
  The **MyCode**, **Libraries**, and **Unrelated** key value pairs specify the URLs or files that you want to include in a classification:  
   

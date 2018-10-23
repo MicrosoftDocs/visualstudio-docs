@@ -28,7 +28,7 @@ Retrieves the return address of the frame.
   
 ```cpp#  
 HRESULT get_returnAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

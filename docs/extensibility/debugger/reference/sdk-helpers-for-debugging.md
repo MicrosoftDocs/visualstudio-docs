@@ -204,7 +204,7 @@ HRESULT EnumMetricSections(
 |metricThisObjectName|Set this to the "this" object name.|  
   
 |Expression Evaluator Extension Properties|Description|  
-|-----------------------------------------------|-----------------|  
+| - |-----------------|  
 |metricExtensionDll|Name of the dll that supports this extension.|  
 |metricExtensionRegistersSupported|List of registers supported.|  
 |metricExtensionRegistersEntryPoint|Entry point for accessing registers.|  

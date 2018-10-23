@@ -21,35 +21,35 @@ Coded UI tests can automate testing for web applications by recording your tests
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
--   Operating systems:  
+- Operating systems:  
   
-    -   Microsoft Windows 7  
+  -   Microsoft Windows 7  
   
-    -   Microsoft Windows 8  
+  -   Microsoft Windows 8  
   
-    -   Microsoft Windows Server 2008 R2 SP1  
+  -   Microsoft Windows Server 2008 R2 SP1  
   
--   Web browser versions:  
+- Web browser versions:  
   
-    -   Windows Internet Explorer 9  
+  -   Windows Internet Explorer 9  
   
-    -   Windows Internet Explorer 10  
+  -   Windows Internet Explorer 10  
   
-    -   For supported versions of Mozilla Firefox and Google Chrome, go [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)  
+  -   For supported versions of Mozilla Firefox and Google Chrome, go [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)  
   
--   Install the [Selenium components for Coded UI Cross Browser Testing](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
+- Install the [Selenium components for Coded UI Cross Browser Testing](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   
- **What’s supported across all web browsers?**  
+  **What’s supported across all web browsers?**  
   
--   [Add custom code for controlling features](http://blogs.msdn.com/b/visualstudioalm/archive/2012/12/10/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer.aspx) such as properties, search, and playback waiters.  
+- [Add custom code for controlling features](http://blogs.msdn.com/b/visualstudioalm/archive/2012/12/10/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer.aspx) such as properties, search, and playback waiters.  
   
--   Pop-ups and dialog boxes  
+- Pop-ups and dialog boxes  
   
--   [Execute basic JavaScript with no return type](http://blogs.msdn.com/b/visualstudioalm/archive/2013/01/18/introducing-jscript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test.aspx)  
+- [Execute basic JavaScript with no return type](http://blogs.msdn.com/b/visualstudioalm/archive/2013/01/18/introducing-jscript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test.aspx)  
   
--   Search resilience (using smart match) and [performance improvements](http://blogs.msdn.com/b/visualstudioalm/archive/2012/02/01/guidelines-on-improving-performance-of-coded-ui-test-playback.aspx)  
+- Search resilience (using smart match) and [performance improvements](http://blogs.msdn.com/b/visualstudioalm/archive/2012/02/01/guidelines-on-improving-performance-of-coded-ui-test-playback.aspx)  
   
 ## Why should I use coded UI tests across multiple web browser types?  
  By testing your web application using a variety of web browser types, you better emulate the UI experience of your users who may run different browsers. For example, your application might include a control or code in Internet Explorer that is not compatible with other web browsers. By running your coded UI tests across other browsers, you can discover and correct any issue before it impacts your customers.  
@@ -68,16 +68,16 @@ Coded UI tests can automate testing for web applications by recording your tests
   
 #### Installing Selenium components  
   
-1.  On the **Tools** menu, choose **Extensions and Updates**.  
+1. On the **Tools** menu, choose **Extensions and Updates**.  
   
-2.  In the Extension and Updates dialog box, search for `Selenium components for Cross Browser Testing`.  
+2. In the Extension and Updates dialog box, search for `Selenium components for Cross Browser Testing`.  
   
-3.  Highlight the extension and choose **Download**.  
+3. Highlight the extension and choose **Download**.  
   
-    > [!TIP]
-    >  You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
+   > [!TIP]
+   >  You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   
- For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
+   For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
   
 ### Enable debugging  
  To enable debugging your web application, you must complete the following configuration options:  
@@ -100,29 +100,29 @@ Coded UI tests can automate testing for web applications by recording your tests
  *What else should I know?*  
  **Notes**  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Apple Safari web browser is not supported.  
+- ![Prerequsite](../test/media/prereq.png "Prereq") Apple Safari web browser is not supported.  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") The action of starting the web browser must be part of the coded UI test.  
+- ![Prerequsite](../test/media/prereq.png "Prereq") The action of starting the web browser must be part of the coded UI test.  
   
-     If you have a web browser already open and you want to run steps on it, the playback will fail unless you are using Internet Explorer. Therefore, it is a best practice to include the startup of your web browser as part of your coded UI tests.  
+   If you have a web browser already open and you want to run steps on it, the playback will fail unless you are using Internet Explorer. Therefore, it is a best practice to include the startup of your web browser as part of your coded UI tests.  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Automating browser specific based UI actions such as maximize, minimize and restore is not supported.  
+- ![Prerequsite](../test/media/prereq.png "Prereq") Automating browser specific based UI actions such as maximize, minimize and restore is not supported.  
   
- **Tips**  
+  **Tips**  
   
--   ![Tip](../test/media/tip.png "Tip") You can configure the output to include screenshots in the coded UI logs. To do so, you need to set some configuration settings in the QTAgent32.exe.config file. By default, this file is installed in the following location:  
+- ![Tip](../test/media/tip.png "Tip") You can configure the output to include screenshots in the coded UI logs. To do so, you need to set some configuration settings in the QTAgent32.exe.config file. By default, this file is installed in the following location:  
   
-     **C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE**  
+   **C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE**  
   
-     Set the following values:  
+   Set the following values:  
   
-    -   `EqtTraceLevel` in the `system.diagnostics` section.  
+  - `EqtTraceLevel` in the `system.diagnostics` section.  
   
-    -   `<add name="EqtTraceLevel" value="4" />`  
+  - `<add name="EqtTraceLevel" value="4" />`  
   
-         By setting the value to be 3 or higher, screenshots are taken for each action. When the value is set to either 1 or 2, screenshots are taken for error actions only.  
+     By setting the value to be 3 or higher, screenshots are taken for each action. When the value is set to either 1 or 2, screenshots are taken for error actions only.  
   
-     For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).  
+    For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).  
   
 ## External Resources  
   

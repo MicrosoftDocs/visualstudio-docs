@@ -22,7 +22,7 @@ Retrieves the offset part of the memory address where a block begins.
   
 ```C++  
 HRESULT get_addressOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

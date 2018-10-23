@@ -27,15 +27,15 @@ This function opens an existing source control project or creates a new one.
   
 ```cpp#  
 SCCRTN SccOpenProject (  
-   LPVOID        pvContext,  
-   HWND          hWnd,  
-   LPSTR         lpUser,  
-   LPCSTR        lpProjName,  
-   LPCSTR        lpLocalProjPath,  
-   LPSTR         lpAuxProjPath,  
-   LPCSTR        lpComment,  
-   LPTEXTOUTPROC lpTextOutProc,  
-   LONG          dwFlags  
+   LPVOID        pvContext,  
+   HWND          hWnd,  
+   LPSTR         lpUser,  
+   LPCSTR        lpProjName,  
+   LPCSTR        lpLocalProjPath,  
+   LPSTR         lpAuxProjPath,  
+   LPCSTR        lpComment,  
+   LPTEXTOUTPROC lpTextOutProc,  
+   LONG          dwFlags  
 );  
 ```  
   

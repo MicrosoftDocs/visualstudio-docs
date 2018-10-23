@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether the section contains executable code.
   
 ```cpp#  
 HRESULT get_code (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -24,13 +24,13 @@ Sets the response, if any, from the message box.
   
 ```cpp  
 HRESULT SetResponse(   
-   DWORD dwResponse  
+   DWORD dwResponse  
 );  
 ```  
   
 ```csharp  
 int SetResponse(   
-   uint dwResponse  
+   uint dwResponse  
 );  
 ```  
   

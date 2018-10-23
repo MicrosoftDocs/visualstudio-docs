@@ -27,26 +27,26 @@ Specifies desired properties to be obtained from a program provider.
   
 ```cpp  
 enum enum_PROVIDER_FLAGS {  
-   PFLAG_NONE                    = 0x00,  
-   PFLAG_REMOTE_PORT             = 0x01,  
-   PFLAG_DEBUGGEE                = 0x02,  
-   PFLAG_ATTACHED_TO_DEBUGGEE    = 0x04,  
-   PFLAG_REASON_WATCH            = 0x08,  
-   PFLAG_GET_PROGRAM_NODES       = 0x10,  
-   PFLAG_GET_IS_DEBUGGER_PRESENT = 0x20  
+   PFLAG_NONE                    = 0x00,  
+   PFLAG_REMOTE_PORT             = 0x01,  
+   PFLAG_DEBUGGEE                = 0x02,  
+   PFLAG_ATTACHED_TO_DEBUGGEE    = 0x04,  
+   PFLAG_REASON_WATCH            = 0x08,  
+   PFLAG_GET_PROGRAM_NODES       = 0x10,  
+   PFLAG_GET_IS_DEBUGGER_PRESENT = 0x20  
 };  
 typedef DWORD PROVIDER_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_PROVIDER_FLAGS {  
-   PFLAG_NONE                    = 0x00,  
-   PFLAG_REMOTE_PORT             = 0x01,  
-   PFLAG_DEBUGGEE                = 0x02,  
-   PFLAG_ATTACHED_TO_DEBUGGEE    = 0x04,  
-   PFLAG_REASON_WATCH            = 0x08,  
-   PFLAG_GET_PROGRAM_NODES       = 0x10,  
-   PFLAG_GET_IS_DEBUGGER_PRESENT = 0x20  
+   PFLAG_NONE                    = 0x00,  
+   PFLAG_REMOTE_PORT             = 0x01,  
+   PFLAG_DEBUGGEE                = 0x02,  
+   PFLAG_ATTACHED_TO_DEBUGGEE    = 0x04,  
+   PFLAG_REASON_WATCH            = 0x08,  
+   PFLAG_GET_PROGRAM_NODES       = 0x10,  
+   PFLAG_GET_IS_DEBUGGER_PRESENT = 0x20  
 };  
 ```  
   
@@ -75,13 +75,13 @@ public enum enum_PROVIDER_FLAGS {
 ## Remarks  
  These flags are passed to the following methods:  
   
--   [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)  
+- [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)  
   
--   [GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)  
+- [GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)  
   
--   [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)  
+- [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)  
   
- These values can be combined with a bitwise `OR`.  
+  These values can be combined with a bitwise `OR`.  
   
 ## Requirements  
  Header: msdbg.h  

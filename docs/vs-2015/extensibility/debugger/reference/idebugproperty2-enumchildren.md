@@ -27,25 +27,25 @@ Retrieves a list of the children of the property.
   
 ```cpp#  
 HRESULT EnumChildren (   
-   DEBUGPROP_INFO_FLAGS      dwFields,  
-   DWORD                     dwRadix,  
-   REFGUID                   guidFilter,  
-   DBG_ATTRIB_FLAGS          dwAttribFilter,  
-   LPCOLESTR                 pszNameFilter,  
-   DWORD                     dwTimeout,  
-   IEnumDebugPropertyInfo2** ppEnum  
+   DEBUGPROP_INFO_FLAGS      dwFields,  
+   DWORD                     dwRadix,  
+   REFGUID                   guidFilter,  
+   DBG_ATTRIB_FLAGS          dwAttribFilter,  
+   LPCOLESTR                 pszNameFilter,  
+   DWORD                     dwTimeout,  
+   IEnumDebugPropertyInfo2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumChildren (   
-   enum_DEBUGPROP_INFO_FLAGS   dwFields,  
-   uint                        dwRadix,  
-   ref Guid                    guidFilter,  
-   uint                        dwAttribFilter,  
-   string                      pszNameFilter,  
-   uint                        dwTimeout,  
-   out IEnumDebugPropertyInfo2 ppEnum  
+   enum_DEBUGPROP_INFO_FLAGS   dwFields,  
+   uint                        dwRadix,  
+   ref Guid                    guidFilter,  
+   uint                        dwAttribFilter,  
+   string                      pszNameFilter,  
+   uint                        dwTimeout,  
+   out IEnumDebugPropertyInfo2 ppEnum  
 );  
 ```  
   

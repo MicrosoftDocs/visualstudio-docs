@@ -27,13 +27,13 @@ Specifies whether the exception should be passed on to the program being debugge
   
 ```cpp#  
 HRESULT PassToDebuggee(  
-   BOOL fPass  
+   BOOL fPass  
 );  
 ```  
   
 ```csharp  
 int PassToDebuggee(  
-   int fPass  
+   int fPass  
 );  
 ```  
   

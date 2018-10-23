@@ -26,13 +26,13 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Providing a user interface (UI) to add controls to the worksheet.  
+- Providing a user interface (UI) to add controls to the worksheet.  
   
--   Adding controls to the worksheet.  
+- Adding controls to the worksheet.  
   
--   Removing controls from the worksheet.  
+- Removing controls from the worksheet.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  

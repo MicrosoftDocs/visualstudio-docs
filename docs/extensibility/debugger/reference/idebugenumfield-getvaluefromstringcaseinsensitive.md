@@ -23,15 +23,15 @@ This method uses a case-insensitive search to return the value associated with t
   
 ```cpp  
 HRESULT GetValueFromStringCaseInsensitive(  
-   LPCOLESTR  pszValue,  
-   ULONGLONG* pvalue  
+   LPCOLESTR  pszValue,  
+   ULONGLONG* pvalue  
 );  
 ```  
   
 ```csharp  
 int GetValueFromStringCaseInsensitive(  
-   string    pszValue,   
-   out ulong pValue  
+   string    pszValue,   
+   out ulong pValue  
 );  
 ```  
   

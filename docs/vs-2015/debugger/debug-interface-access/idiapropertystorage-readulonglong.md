@@ -28,8 +28,8 @@ Reads `ULONGLONG` values in a property set.
   
 ```cpp#  
 HRESULT ReadULONGLONG (   
-   PROPID     id,  
-   ULONGLONG* pValue  
+   PROPID     id,  
+   ULONGLONG* pValue  
 );  
 ```  
   

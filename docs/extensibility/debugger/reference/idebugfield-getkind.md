@@ -23,13 +23,13 @@ This method gets the kind of field.
   
 ```cpp  
 HRESULT GetKind(   
-   FIELD_KIND* pdwKind  
+   FIELD_KIND* pdwKind  
 );  
 ```  
   
 ```csharp  
 int GetKind(  
-   out enum_FIELD_KIND pdwKind  
+   out enum_FIELD_KIND pdwKind  
 );  
 ```  
   

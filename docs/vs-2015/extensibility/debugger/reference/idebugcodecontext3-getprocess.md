@@ -25,13 +25,13 @@ Retrieves a reference to the interface of the debug process.
   
 ```cpp#  
 HRESULT GetProcess(   
-   IDebugProcess2 **ppProcess  
+   IDebugProcess2 **ppProcess  
 );  
 ```  
   
 ```csharp  
 public int GetProcess(   
-   out IDebugProcess2 ppProcess  
+   out IDebugProcess2 ppProcess  
 );  
 ```  
   

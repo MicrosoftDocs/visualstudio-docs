@@ -22,6 +22,7 @@ manager: "wpickett"
 ---
 # CA1012: Abstract types should not have constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|AbstractTypesShouldNotHaveConstructors|

@@ -27,12 +27,12 @@ This function determines which directories and (optionally) files are stored in 
   
 ```cpp  
 SCCRTN SccPopulateDirList(  
-   LPVOID        pContext,  
-   LONG          nDirs,  
-   LPCSTR*       lpDirPaths,  
-   POPDIRLISTFUNCpfnPopulate,  
-   LPVOID        pvCallerData,  
-   LONG          fOptions  
+   LPVOID        pContext,  
+   LONG          nDirs,  
+   LPCSTR*       lpDirPaths,  
+   POPDIRLISTFUNCpfnPopulate,  
+   LPVOID        pvCallerData,  
+   LONG          fOptions  
 );  
 ```  
   

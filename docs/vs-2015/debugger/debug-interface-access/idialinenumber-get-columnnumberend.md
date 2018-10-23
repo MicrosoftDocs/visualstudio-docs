@@ -28,7 +28,7 @@ Retrieves the one-based source column number where the expression or statement e
   
 ```cpp#  
 HRESULT get_columnNumberEnd (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

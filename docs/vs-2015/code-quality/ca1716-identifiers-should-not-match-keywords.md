@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1716: Identifiers should not match keywords
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotMatchKeywords|
@@ -38,13 +39,13 @@ manager: "wpickett"
 
  This rule checks against keywords in the following languages:
 
--   Visual Basic
+- Visual Basic
 
--   C#
+- C#
 
--   C++/CLI
+- C++/CLI
 
- Case-insensitive comparison is used for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] keywords, and case-sensitive comparison is used for the other languages.
+  Case-insensitive comparison is used for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] keywords, and case-sensitive comparison is used for the other languages.
 
 ## How to Fix Violations
  Select a name that does not appear in the list of keywords.

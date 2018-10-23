@@ -38,15 +38,15 @@ ms.workload:
   
  You also need the following components on the development computer to complete this walkthrough:  
   
--   Supported editions of Windows, SharePoint, and Visual Studio.
+- Supported editions of Windows, SharePoint, and Visual Studio.
   
--   The Visual Studio SDK. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
+- The Visual Studio SDK. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
   
- Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
+  Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:  
   
--   Wizards for project and item templates in Visual Studio. For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md) and the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.  
+- Wizards for project and item templates in Visual Studio. For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md) and the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.  
   
--   Custom actions in SharePoint. For more information, see [Custom Action](http://go.microsoft.com/fwlink/?LinkId=177800).  
+- Custom actions in SharePoint. For more information, see [Custom Action](http://go.microsoft.com/fwlink/?LinkId=177800).  
   
 ## Create the wizard project
  To complete this walkthrough, you must add a project to the CustomActionProjectItem solution that you created in [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md). You will implement the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface and define the wizard UI in this project.  

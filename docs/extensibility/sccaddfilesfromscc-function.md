@@ -23,15 +23,15 @@ This function adds a list of files from source control to the currently opened p
   
 ```cpp  
 SCCRTN SccAddFilesFromSCC(  
-   LPVOID  pContext,  
-   HWND    hWnd,  
-   LPSTR   lpUser,  
-   LPSTR   lpAuxProjPath,  
-   LONG    cFiles,  
-   LPCSTR* lpFilePaths,  
-   LPCSTR  lpDestination,  
-   LPCSTR  lpComment,  
-   LPBOOL  pbResults  
+   LPVOID  pContext,  
+   HWND    hWnd,  
+   LPSTR   lpUser,  
+   LPSTR   lpAuxProjPath,  
+   LONG    cFiles,  
+   LPCSTR* lpFilePaths,  
+   LPCSTR  lpDestination,  
+   LPCSTR  lpComment,  
+   LPBOOL  pbResults  
 );  
 ```  
   

@@ -92,33 +92,33 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
 ## Create an Options page  
  You can provide a page in the **Options** dialog box so that users can change settings for the tool window. Creating an Options page requires both a class that describes the options and an entry in the *TodoListPackage.cs* or *TodoListPackage.vb* file.  
   
-1.  Add a class named `ToolsOptions.cs`. Make the `ToolsOptions` class inherit from <xref:Microsoft.VisualStudio.Shell.DialogPage>.  
+1. Add a class named `ToolsOptions.cs`. Make the `ToolsOptions` class inherit from <xref:Microsoft.VisualStudio.Shell.DialogPage>.  
   
-    ```csharp  
-    class ToolsOptions : DialogPage  
-    {  
-    }  
-    ```  
+   ```csharp  
+   class ToolsOptions : DialogPage  
+   {  
+   }  
+   ```  
   
-2.  Add the following using statement:  
+2. Add the following using statement:  
   
-    ```csharp  
-    using Microsoft.VisualStudio.Shell;  
-    ```  
+   ```csharp  
+   using Microsoft.VisualStudio.Shell;  
+   ```  
   
-3.  The Options page in this walkthrough provides only one option named DaysAhead. Add a private field named **daysAhead** and a property named **DaysAhead** to the `ToolsOptions` class:  
+3. The Options page in this walkthrough provides only one option named DaysAhead. Add a private field named **daysAhead** and a property named **DaysAhead** to the `ToolsOptions` class:  
   
-    ```csharp  
-    private double daysAhead;  
+   ```csharp  
+   private double daysAhead;  
   
-    public double DaysAhead  
-    {  
-        get { return daysAhead; }  
-        set { daysAhead = value; }  
-    }  
-    ```  
+   public double DaysAhead  
+   {  
+       get { return daysAhead; }  
+       set { daysAhead = value; }  
+   }  
+   ```  
   
- Now you must make the project aware of this Options page.  
+   Now you must make the project aware of this Options page.  
   
 ### Make the Options page available to users  
   

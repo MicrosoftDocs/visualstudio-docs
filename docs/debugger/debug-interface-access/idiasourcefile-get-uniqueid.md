@@ -22,7 +22,7 @@ Retrieves a simple integer key value that is unique for this image.
   
 ```C++  
 HRESULT get_uniqueId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

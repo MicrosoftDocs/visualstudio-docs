@@ -19,11 +19,11 @@ ms.workload:
 # Save data in project files
 A project subtype can save and retrieve subtype-specific data in the project file. The Managed Package Framework (MPF) provides two interfaces to accomplish this task:  
   
--   The <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> interface allows to access property values from the **MSBuild** section of the project file. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> can be called by any user whenever the user needs to load or save build related data.  
+- The <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> interface allows to access property values from the **MSBuild** section of the project file. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> can be called by any user whenever the user needs to load or save build related data.  
   
--   The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> is used to persist non-build related data in free-form XML. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> are called by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] whenever [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] needs to persist non-build related data in the project file.  
+- The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> is used to persist non-build related data in free-form XML. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> are called by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] whenever [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] needs to persist non-build related data in the project file.  
   
- For more information on how to persist build and non-build related data, see [Persist data in the MSBuild project file](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md).  
+  For more information on how to persist build and non-build related data, see [Persist data in the MSBuild project file](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md).  
   
 ## Save and retrieve build related data  
   

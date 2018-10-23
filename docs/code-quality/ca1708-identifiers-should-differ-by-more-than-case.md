@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1708: Identifiers should differ by more than case
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldDifferByMoreThanCase|

@@ -27,13 +27,13 @@ Gets a custom debug engine (DE) interface.
   
 ```cpp#  
 HRESULT GetEngineInterface(   
-   IUnknown** ppUnk  
+   IUnknown** ppUnk  
 );  
 ```  
   
 ```csharp  
 int GetEngineInterface(   
-   out object ppUnk  
+   out object ppUnk  
 );  
 ```  
   

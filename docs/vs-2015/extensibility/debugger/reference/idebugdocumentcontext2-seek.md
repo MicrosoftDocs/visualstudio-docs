@@ -27,15 +27,15 @@ Moves the document context by a given number of statements or lines.
   
 ```cpp#  
 HRESULT Seek(   
-   int                      nCount,  
-   IDebugDocumentContext2** ppDocContext  
+   int                      nCount,  
+   IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
 ```cpp#  
 int Seek(   
-   int                        nCount,  
-   out IDebugDocumentContext2 ppDocContext  
+   int                        nCount,  
+   out IDebugDocumentContext2 ppDocContext  
 );  
 ```  
   

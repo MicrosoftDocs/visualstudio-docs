@@ -19,6 +19,7 @@ manager: "wpickett"
 ---
 # CA2135: Level 2 assemblies should not contain LinkDemands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemands|

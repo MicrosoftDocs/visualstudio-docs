@@ -25,22 +25,22 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools concurrency pro
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- You can specify the concurrency profiling method by using one of the following procedures:  
+  You can specify the concurrency profiling method by using one of the following procedures:  
   
--   On the first page of the Profiling Wizard, click **Concurrency**  
+- On the first page of the Profiling Wizard, click **Concurrency**  
   
--   On the **General** page of the properties dialog box for the performance session, click **Concurrency**.  
+- On the **General** page of the properties dialog box for the performance session, click **Concurrency**.  
   
--   On the **Performance Explorer** toolbar, in the **Method** list, click **Concurrency**.  
+- On the **Performance Explorer** toolbar, in the **Method** list, click **Concurrency**.  
   
 ## Common Tasks  
  You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:  
   
--   In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
+- In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
   
- The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the concurrency method.  
+  The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the concurrency method.  
   
 |Task|Related Content|  
 |----------|---------------------|  

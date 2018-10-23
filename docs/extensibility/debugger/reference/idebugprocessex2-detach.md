@@ -23,13 +23,13 @@ This method informs the process that a session is no longer debugging the proces
   
 ```cpp  
 HRESULT Detach(   
-   IDebugSession2* pSession  
+   IDebugSession2* pSession  
 );  
 ```  
   
 ```csharp  
 int Detach(  
-   IDebugSession2 pSession  
+   IDebugSession2 pSession  
 );  
 ```  
   

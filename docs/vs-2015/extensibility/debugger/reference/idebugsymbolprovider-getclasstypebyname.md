@@ -27,17 +27,17 @@ This method gets the class field type representing a fully qualified class name.
   
 ```cpp#  
 HRESULT GetClassTypeByName(   
-   LPCOLESTR          pszClassName,  
-   NAME_MATCH         nameMatch,  
-   IDebugClassField** ppField  
+   LPCOLESTR          pszClassName,  
+   NAME_MATCH         nameMatch,  
+   IDebugClassField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetClassTypeByName(  
-   string               pszClassName,   
-   NAME_MATCH           nameMatch,   
-   out IDebugClassField ppField  
+   string               pszClassName,   
+   NAME_MATCH           nameMatch,   
+   out IDebugClassField ppField  
 );  
 ```  
   

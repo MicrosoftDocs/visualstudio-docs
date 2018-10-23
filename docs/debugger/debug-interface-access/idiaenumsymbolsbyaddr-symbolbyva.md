@@ -22,8 +22,8 @@ Positions the enumerator by performing a lookup by virtual address (VA).
   
 ```C++  
 HRESULT symbolByVA (   
-   DWORD**      virtualAddress,  
-   IDiaSymbol** ppsymbol  
+   DWORD**      virtualAddress,  
+   IDiaSymbol** ppsymbol  
 );  
 ```  
   

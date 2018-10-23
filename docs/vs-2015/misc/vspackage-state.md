@@ -20,29 +20,29 @@ manager: "douge"
 # VSPackage State
 Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] application.  
   
--   Projects have project and configuration properties.  
+- Projects have project and configuration properties.  
   
--   Solutions have properties.  
+- Solutions have properties.  
   
--   User settings determine the size and position of document windows, tool windows, docking state, and keyboard shortcuts.  
+- User settings determine the size and position of document windows, tool windows, docking state, and keyboard shortcuts.  
   
--   Applications can have options that a user sets.  
+- Applications can have options that a user sets.  
   
--   Objects that an application creates can have properties of their own.  
+- Objects that an application creates can have properties of their own.  
   
- Here are some of the ways that a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] application state can be managed:  
+  Here are some of the ways that a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] application state can be managed:  
   
--   Through the project and solution property pages.  
+- Through the project and solution property pages.  
   
--   Through the **Import and Export Settings Wizard**, which enables a user to move settings from one computer to another.  
+- Through the **Import and Export Settings Wizard**, which enables a user to move settings from one computer to another.  
   
--   Through the **Options** dialog box, which includes options related to applications.  
+- Through the **Options** dialog box, which includes options related to applications.  
   
--   Through the **Properties** window, which exposes properties of objects.  
+- Through the **Properties** window, which exposes properties of objects.  
   
--   Through Automation. An application can access VSPackage and object properties that have been exposed to Automation.  
+- Through Automation. An application can access VSPackage and object properties that have been exposed to Automation.  
   
- Underlying the application state are various persistence mechanisms that enable the application state to be saved and restored.  
+  Underlying the application state are various persistence mechanisms that enable the application state to be saved and restored.  
   
 ## In This Section  
  [Support for State Persistence](../misc/support-for-state-persistence.md)  

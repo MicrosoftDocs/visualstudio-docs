@@ -23,10 +23,10 @@ This function invokes the source control administration tool.
   
 ```cpp  
 SCCRTN SccRunScc(  
-   LPVOID  pvContext,  
-   HWND    hWnd,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames  
+   LPVOID  pvContext,  
+   HWND    hWnd,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames  
 );  
 ```  
   
