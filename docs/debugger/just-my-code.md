@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Debug only user code with Just My Code 
 
-*Just My Code* is a Visual Studio debugging feature that automatically steps over system, framework, and other non-user calls and collapses them in the **Call Stack** window. 
+*Just My Code* is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. In the **Call Stack** window, Just My Code collapses these calls into **[External Code]** frames. 
 
 Just My Code works differently in .NET Framework, C++, and JavaScript projects.
 

@@ -34,7 +34,7 @@ Debugger windows like **Watch**, **Autos**, **Locals**, and the **QuickWatch** d
 
 The **Memory** window isn't limited to displaying data. It displays everything in the memory space, including data, code, and random bits of garbage in unassigned memory.  
 
-The **Memory** window isn't available for Script or SQL debugging. Those languages don't recognize the concept of memory.  
+The **Memory** window isn't available for script or SQL debugging. Those languages don't recognize the concept of memory.  
   
 ## Open a Memory window  
   
