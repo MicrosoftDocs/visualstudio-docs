@@ -6816,6 +6816,46 @@
             "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-%2215%22.md",
             "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017?view=vs-2015",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-and-xamarin.md",
+            "redirect_url": "/xamarin/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/setup-and-install.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/learn-about-mobile-development-with-xamarin.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/introduction-to-mobile-development/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/verify-your-xamarin-environment.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/setup-install-and-verifications-for-mac-users.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md",
+            "redirect_url": "/xamarin/xamarin-forms/get-started/first-app/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md",
+            "redirect_url": "/xamarin/tools/ci/devops/",
+            "redirect_document_id": true
         }
     ]
 }
