@@ -99,6 +99,9 @@ In this tutorial, you will:
 
 1. In Visual Studio, choose **File** > **New** > **Project**.
 
+    > [!NOTE]
+    > Although you can also add the new managed project to the solution with the C++ project, instead of creating a new solution, we are not doing that here to support a larger set of debugging scenarios.
+
 1. Choose a template for your application code.
 
     For .NET Framework, in the **New Project** dialog box, choose **Visual C#**, **Windows Desktop** from the installed templates section, and then in the middle pane select **Console App (.NET Framework)**.
