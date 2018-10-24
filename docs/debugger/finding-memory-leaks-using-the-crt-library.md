@@ -50,17 +50,17 @@ To enable all the debug heap functions, include the following statements in your
 #include <crtdbg.h>  
 ```  
 
-The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you omit the `#define` statement, the memory leak dump will be [less detailed](#interpret-the-memory-leak-report).  
+The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you leave out the `#define` statement, the memory leak dump will be [less detailed](#interpret-the-memory-leak-report).  
 
 Including crtdbg.h maps the `malloc` and `free` functions to their debug versions, [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg) and [_free_dbg](/cpp/c-runtime-library/reference/free-dbg), which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
 
-After you have enabled the debug heap functions by using the preceding statements, you can place a call to [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) before an app exit point to display a memory-leak report when your app exits.  
+After you've enabled the debug heap functions by using the preceding statements, place a call to [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) before an app exit point to display a memory-leak report when the app exits.  
 
 ```cpp
 _CrtDumpMemoryLeaks();  
 ```  
 
-If your app has multiple exits, you do not need to manually place `_CrtDumpMemoryLeaks` at every exit point. To cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point, place a call to `_CrtSetDbgFlag` at the beginning of your app with the two bit fields shown here:
+If your app has several exits, you don't need to manually place `_CrtDumpMemoryLeaks` at every exit point. To cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point, place a call to `_CrtSetDbgFlag` at the beginning of your app with the bit fields shown here:
 
 ```cpp
 _CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );  
@@ -76,7 +76,7 @@ _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
 
 ## Interpret the memory-leak report  
 
-If your app does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like:  
+If your app doesn't define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like:  
 
 ```cmd
 Detected memory leaks!  
@@ -99,7 +99,7 @@ Object dump complete.
 
 The second report shows the filename and line number where the leaked memory is first allocated.  
 
-Whether or not you define `_CRTDBG_MAP_ALLOC`, the memory-leak report will display:  
+Whether or not you define `_CRTDBG_MAP_ALLOC`, the memory-leak report displays:  
 
 - The memory allocation number, which is `18` in the example  
 - The [block type](https://msdn.microsoft.com/library/e2f42faf-0687-49e7-aa1f-916038354f97), `normal` in the example.  
@@ -109,7 +109,7 @@ Whether or not you define `_CRTDBG_MAP_ALLOC`, the memory-leak report will displ
 
 Memory block types are *normal*, *client*, or *CRT*. A *normal block* is ordinary memory allocated by your program. A *client block* is a special type of memory block used by MFC programs for objects that require a destructor. The MFC `new` operator creates either a normal block or a client block, as appropriate for the object being created. A *CRT block* is allocated by the CRT library for its own use. The CRT library handles the deallocation for these blocks, so CRT blocks won't appear in the memory-leak report unless there are serious problems with the CRT library.  
 
-There are two other types of memory blocks that never appear in memory-leak reports. A *free block* is memory that has been released, so by definition is not leaked. An *ignore block* is memory that you have explicitly marked to exclude from the memory-leak report.  
+There are two other types of memory blocks that never appear in memory-leak reports. A *free block* is memory that has been released, so by definition isn't leaked. An *ignore block* is memory that you have explicitly marked to exclude from the memory-leak report.  
 
 The preceding techniques identify memory leaks for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you may only see the filename and line number where `operator new` calls `_malloc_dbg` in the memory-leak report. To create a more useful memory-leak report, you can write a macro like the following to report the line that made the allocation: 
 
@@ -167,11 +167,11 @@ Object dump complete.
 This output reports that the leaked allocation was on line 20 of *debug_new.cpp*.  
 
 >[!NOTE]
->We do not recommend you create a preprocessor macro named `new`, or any other language keyword. 
+>We don't recommend you create a preprocessor macro named `new`, or any other language keyword. 
 
 ## Set breakpoints on a memory allocation number  
 
-The memory allocation number tells you when a leaked memory block was allocated. A block with a memory allocation number of 18, for example, is the 18th block of memory allocated during the run of the app. The CRT report counts all memory-block allocations during the run, including allocations by the CRT library and other libraries such as MFC. Therefore, memory allocation block number 18 is probably not the 18th memory block allocated by your code. 
+The memory allocation number tells you when a leaked memory block was allocated. A block with a memory allocation number of 18, for example, is the 18th block of memory allocated during the run of the app. The CRT report counts all memory-block allocations during the run, including allocations by the CRT library and other libraries such as MFC. Therefore, memory allocation block number 18 probably isn't the 18th memory block allocated by your code. 
 
 You can use the allocation number to set a breakpoint on the memory allocation.  
 
@@ -183,7 +183,7 @@ You can use the allocation number to set a breakpoint on the memory allocation.
    
 1. In the **Watch** window, type `_crtBreakAlloc` in the **Name** column.  
    
-   If you are using the multithreaded DLL version of the CRT library (the /MD option), add the context operator: `{,,ucrtbased.dll}_crtBreakAlloc`  
+   If you're using the multithreaded DLL version of the CRT library (the /MD option), add the context operator: `{,,ucrtbased.dll}_crtBreakAlloc`  
    
 1. Press **Enter**.  
    
@@ -191,7 +191,7 @@ You can use the allocation number to set a breakpoint on the memory allocation.
    
 1. In the **Value** column, replace the value shown with the allocation number of the memory allocation where you want the debugger to break.  
 
-After you set a breakpoint on a memory-allocation number, you can continue to debug. Be careful to run under the same conditions, so the memory-allocation number does not change. When your program breaks at the specified memory allocation, you can use the **Call Stack** window and other debugger windows to determine the conditions under which the memory was allocated. Then, you can continue execution to observe what happens to the object and determine why it is not correctly deallocated.  
+After you set a breakpoint on a memory-allocation number, continue to debug. Make sure to run under the same conditions, so the memory-allocation number doesn't change. When your program breaks at the specified memory allocation, use the **Call Stack** window and other debugger windows to determine the conditions under which the memory was allocated. Then, you can continue execution to observe what happens to the object and determine why it isn't correctly deallocated.  
 
 Setting a data breakpoint on the object might also be helpful. For more information, see [Using breakpoints](../debugger/using-breakpoints.md).  
 
@@ -248,7 +248,7 @@ if ( _CrtMemDifference( &s3, &s1, &s2) )
 
 `_CrtMemDifference` compares the memory states `s1` and `s2` and returns a result in (`s3`) that is the difference between `s1` and `s2`.  
 
-One technique for finding memory leaks begins by placing `_CrtMemCheckpoint` calls at the beginning and end of your app, then using `_CrtMemDifference` to compare the results. If `_CrtMemDifference` shows a memory leak, you can add more `_CrtMemCheckpoint` calls to divide your program using a binary search, until you have isolated the source of the leak.  
+One technique for finding memory leaks begins by placing `_CrtMemCheckpoint` calls at the beginning and end of your app, then using `_CrtMemDifference` to compare the results. If `_CrtMemDifference` shows a memory leak, you can add more `_CrtMemCheckpoint` calls to divide your program using a binary search, until you've isolated the source of the leak.  
 
 ## False positives  
  `_CrtDumpMemoryLeaks` can give false indications of memory leaks if a library marks internal allocations as normal blocks instead of CRT blocks or client blocks. In that case, `_CrtDumpMemoryLeaks` is unable to tell the difference between user allocations and internal library allocations. If the global destructors for the library allocations run after the point where you call `_CrtDumpMemoryLeaks`, every internal library allocation is reported as a memory leak. Versions of the Standard Template Library earlier than Visual Studio .NET may cause `_CrtDumpMemoryLeaks` to report such false positives.  
