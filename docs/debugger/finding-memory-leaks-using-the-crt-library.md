@@ -34,7 +34,7 @@ ms.workload:
 ---
 # Find memory leaks with the CRT library
 
-Memory leaks are among the most subtle and hard-to-detect bugs in C/C++ apps. Memory leaks result from the failure to correctly deallocate memory that was previously allocated. A small memory leak might not be noticed at first, but over time can cause symptoms ranging from decreased performance to crashing when the app runs out of memory. A leaking app that uses up all available memory can cause other apps to crash, creating confusion as to which app is responsible. Even harmless memory leaks might indicate other problems that should be corrected.  
+Memory leaks are among the most subtle and hard-to-detect bugs in C/C++ apps. Memory leaks result from the failure to correctly deallocate memory that was previously allocated. A small memory leak might not be noticed at first, but over time can cause symptoms ranging from poor performance to crashing when the app runs out of memory. A leaking app that uses up all available memory can cause other apps to crash, creating confusion as to which app is responsible. Even harmless memory leaks might indicate other problems that should be corrected.  
 
  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger and C Run-time Library (CRT) can help you detect and identify memory leaks.  
 
@@ -111,7 +111,7 @@ Memory block types are *normal*, *client*, or *CRT*. A *normal block* is ordinar
 
 A *CRT block* is allocated by the CRT library for its own use. The CRT library handles the deallocation for these blocks, so CRT blocks won't appear in the memory-leak report unless there are serious problems with the CRT library.  
 
-There are two other types of memory blocks that never appear in memory-leak reports. A *free block* is memory that has been released, so by definition isn't leaked. An *ignore block* is memory that you have explicitly marked to exclude from the memory-leak report.  
+There are two other types of memory blocks that never appear in memory-leak reports. A *free block* is memory that has been released, so by definition isn't leaked. An *ignore block* is memory that you've explicitly marked to exclude from the memory-leak report.  
 
 The preceding techniques identify memory leaks for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you may only see the filename and line number where `operator new` calls `_malloc_dbg` in the memory-leak report. To create a more useful memory-leak report, you can write a macro like the following to report the line that made the allocation: 
 
