@@ -32,7 +32,7 @@ Publishes an extension to the Marketplace. The extension can be a vsix, an exe/m
 |payload (required) | Either a path to the payload to publish or a link to use as the "more info URL". |
 |publishManifest (required) | Path to the publish manifest file to use. |
 |ignoreWarnings | List of warnings to ignore when publishing an extension. These warnings are shown as command line messages when publishing an extension. (for example, "VSIXValidatorWarning01, VSIXValidatorWarning02")  
-|personalAccesToken | Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users. |
+|personalAccessToken | Personal Access Token (PAT) that's used to authenticate the publisher. If not provided, the PAT is acquired from the logged-in users. |
 
 ```
 VsixPublisher.exe publish -payload "{path to vsix}" -publishManifest "{path to vs-publish.json}" -ignoreWarnings "VSIXValidatorWarning01,VSIXValidatorWarning02"
