@@ -20,7 +20,7 @@ If you or your organization uses security measures such as a firewall or a proxy
 
 Because the Visual Studio for Mac Installer downloads from a various domains and download servers, here are the domains and URLs that you may want to add as trusted in your configurations.
 
-### Microsoft Domains
+### Microsoft domains
 
 | Domain| Purpose |
 | ----------------------------------- |---------------------------|
@@ -35,7 +35,7 @@ Because the Visual Studio for Mac Installer downloads from a various domains and
 | developer.xamarin.com | Installer Packages|
 | dc.services.visualstudio.com| Crash Reporting |
 
-### Third Party Domains
+### Third party domains
 
 | Domain| Purpose |
 | --------------------------|-------------------------|
@@ -45,7 +45,7 @@ Because the Visual Studio for Mac Installer downloads from a various domains and
 
 ## Use Visual Studio for Mac
 
-To make sure that you have access to every feature that you need in Visual Studio for Mac while behind a proxy or firewall, we recommend whitelisting the following domains and ports
+To make sure that you have access to every feature that you need in Visual Studio for Mac while behind a proxy or firewall, we recommend whitelisting the following domains and ports.
 
 ### General
 
@@ -74,7 +74,7 @@ To make sure that you have access to every feature that you need in Visual Studi
 | api.nuget.org | 80/443|NuGet API|
 | secure.aadcdn.microsoftonline-p.com |80/443| Identity Provider|
 
-### Android Projects
+### Android projects
 
 | Domain| Purpose|
 | ------------------------------------|------------------------------------|
