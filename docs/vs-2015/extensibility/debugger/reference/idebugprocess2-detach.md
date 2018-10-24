@@ -27,7 +27,7 @@ Detaches the debugger from this process by detaching all of the programs in the 
   
 ```cpp#  
 HRESULT Detach(   
-   void   
+   void   
 );  
 ```  
   

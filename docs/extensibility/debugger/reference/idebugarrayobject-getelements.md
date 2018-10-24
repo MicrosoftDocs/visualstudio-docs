@@ -23,13 +23,13 @@ Gets an enumerator of all elements of the array.
   
 ```cpp  
 HRESULT GetElements(   
-   IEnumDebugObjects** ppEnum  
+   IEnumDebugObjects** ppEnum  
 );  
 ```  
   
 ```csharp  
 int GetElements(  
-   out IEnumDebugObjects ppEnum  
+   out IEnumDebugObjects ppEnum  
 );  
 ```  
   

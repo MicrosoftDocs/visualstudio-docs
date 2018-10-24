@@ -45,24 +45,24 @@ You can define validation constraints that test whether the model meets a condit
   
 #### To create a validation extension in its own VSIX  
   
-1.  In the **New Project** dialog box, under **Modeling Projects**, select **Validation Extension**.  
+1. In the **New Project** dialog box, under **Modeling Projects**, select **Validation Extension**.  
   
-2.  Open the **.cs** file in the new project and modify the class to implement your validation constraint.  
+2. Open the **.cs** file in the new project and modify the class to implement your validation constraint.  
   
-     For more information, see [Evaluating the Validation Constraint](#Implementing).  
+    For more information, see [Evaluating the Validation Constraint](#Implementing).  
   
-    > [!IMPORTANT]
-    >  Make sure that your **.cs** files contain the following `using` statement:  
-    >   
-    >  `using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;`  
+   > [!IMPORTANT]
+   >  Make sure that your **.cs** files contain the following `using` statement:  
+   >   
+   >  `using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;`  
   
-3.  You can add additional constraints by defining new methods. To identify a method as a validation method, it must be tagged with the attributes in the same way as the initial validation method.  
+3. You can add additional constraints by defining new methods. To identify a method as a validation method, it must be tagged with the attributes in the same way as the initial validation method.  
   
-4.  Test your constraints by pressing F5. For more information, see [Executing a Validation Constraint](#Executing).  
+4. Test your constraints by pressing F5. For more information, see [Executing a Validation Constraint](#Executing).  
   
-5.  Install the menu command on another computer by copying the file **bin\\\*\\\*.vsix** that is built by your project. For more information, see [Installing and uninstalling an extension](#Installing).  
+5. Install the menu command on another computer by copying the file **bin\\\*\\\*.vsix** that is built by your project. For more information, see [Installing and uninstalling an extension](#Installing).  
   
- When you add other **.cs** files, you will typically require the following `using` statements:  
+   When you add other **.cs** files, you will typically require the following `using` statements:  
   
 ```csharp  
 using System.Collections.Generic;  
@@ -266,13 +266,13 @@ public void ValidateSomething
   
  `context.LogError("error string", errorCode, elementsWithError);`  
   
--   `"error string"` appears in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Error List  
+- `"error string"` appears in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Error List  
   
--   `errorCode` is a string that should be a unique identifier of the error  
+- `errorCode` is a string that should be a unique identifier of the error  
   
--   `elementsWithError` identifies elements in the model. When the user double-clicks the error report, the shape representing this element will be selected.  
+- `elementsWithError` identifies elements in the model. When the user double-clicks the error report, the shape representing this element will be selected.  
   
- `LogError(),` `LogWarning()` and `LogMessage()` place messages in different sections of the error list.  
+  `LogError(),` `LogWarning()` and `LogMessage()` place messages in different sections of the error list.  
   
 ## How Validation Methods are Applied  
  Validation is applied to every element in the model, including relationships and the parts of larger elements, such as attributes of a class and parameters of an operation.  
@@ -383,15 +383,15 @@ context.LogError(... , usecase);
   
 #### To uninstall an extension  
   
-1.  On the **Tools** menu, choose **Extensions and Updates**.  
+1. On the **Tools** menu, choose **Extensions and Updates**.  
   
-2.  Expand **Installed Extensions**.  
+2. Expand **Installed Extensions**.  
   
-3.  Select the extension, and then choose **Uninstall**.  
+3. Select the extension, and then choose **Uninstall**.  
   
- Rarely, a faulty extension fails to load and creates a report in the error window, but does not appear in Extension Manager. In that case, you can remove the extension by deleting the file from the following location where *%LocalAppData%* is typically *DriveName*:\Users\\*UserName*\AppData\Local:  
+   Rarely, a faulty extension fails to load and creates a report in the error window, but does not appear in Extension Manager. In that case, you can remove the extension by deleting the file from the following location where *%LocalAppData%* is typically *DriveName*:\Users\\*UserName*\AppData\Local:  
   
- *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
+   *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
   
 ##  <a name="Example"></a> Example  
  This example finds loops in the Dependency relationship between elements.  

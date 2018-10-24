@@ -27,15 +27,15 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
   
 ### To access this dialog box  
   
-1.  In **Solution Explorer**, choose a project node (not the **Solution** node).  
+1. In **Solution Explorer**, choose a project node (not the **Solution** node).  
   
-2.  On the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Compile** tab.  
+2. On the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Compile** tab.  
   
-3.  On the [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+3. On the [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
   
-4.  Click **Advanced Compile Options**.  
+4. Click **Advanced Compile Options**.  
   
- [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)]  
+   [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)]  
   
 ## Optimizations  
  The following options specify optimizations that can in some cases make a program file smaller, make a program run faster, or speed up the build process.  

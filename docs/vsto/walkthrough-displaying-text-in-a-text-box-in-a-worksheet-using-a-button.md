@@ -56,22 +56,22 @@ ms.workload:
   
 ### To add a button and a text box  
   
-1.  Verify that the **My Excel Button.xlsx** workbook is open in the Visual Studio designer, with `Sheet1` displayed.  
+1. Verify that the **My Excel Button.xlsx** workbook is open in the Visual Studio designer, with `Sheet1` displayed.  
   
-2.  From the **Common Controls** tab of the Toolbox, drag a <xref:Microsoft.Office.Tools.Excel.Controls.TextBox> to `Sheet1`.  
+2. From the **Common Controls** tab of the Toolbox, drag a <xref:Microsoft.Office.Tools.Excel.Controls.TextBox> to `Sheet1`.  
   
-3.  From the **View** menu, select **Properties Window**.  
+3. From the **View** menu, select **Properties Window**.  
   
-4.  Be sure that **TextBox1** is visible in the **Properties** window drop-down box and change the **Name** property of the text box to **displayText**.  
+4. Be sure that **TextBox1** is visible in the **Properties** window drop-down box and change the **Name** property of the text box to **displayText**.  
   
-5.  Drag a **Button** control onto `Sheet1` and change the following properties:  
+5. Drag a **Button** control onto `Sheet1` and change the following properties:  
   
-    |Property|Value|  
-    |--------------|-----------|  
-    |**Name**|**insertText**|  
-    |**Text**|**Insert Text**|  
+   |Property|Value|  
+   |--------------|-----------|  
+   |**Name**|**insertText**|  
+   |**Text**|**Insert Text**|  
   
- Now write the code to run when the button is clicked.  
+   Now write the code to run when the button is clicked.  
   
 ## Populate the text box when the button is clicked  
  Each time the user clicks the button, **Hello World!** is appended to the text box.  

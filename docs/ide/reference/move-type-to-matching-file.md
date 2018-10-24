@@ -34,27 +34,27 @@ This refactoring applies to:
    ```csharp
    class Person
    ```
-   
+
    ```vb
    Class Person
    ```
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - Press **Ctrl**+**.**
    - Right-click on the type name and select **Quick Actions and Refactorings**
-   
+
 1. Select **Move type to *TypeName*.cs** from the menu, where *TypeName* is the name of the type you've selected.
 
    The type is moved to a new file in the project that has the same name as the type.
 
    - C#:
 
-    ![Inline result - C#](media/movetype-result-cs.png)
+      ![Inline result - C#](media/movetype-result-cs.png)
 
    - Visual Basic:
 
-    ![Inline result - Visual Basic](media/movetype-result-vb.png)
+      ![Inline result - Visual Basic](media/movetype-result-vb.png)
 
 ## See also
 

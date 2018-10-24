@@ -57,11 +57,11 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
 1. From your **Downloads** folder, double-click the bootstrapper that matches or is similar to one of the following files:
 
-  * **vs_enterprise.exe** for Visual Studio Enterprise
-  * **vs_professional.exe** for Visual Studio Professional
-  * **vs_community.exe** for Visual Studio Community  <br><br>
+   * **vs_enterprise.exe** for Visual Studio Enterprise
+   * **vs_professional.exe** for Visual Studio Professional
+   * **vs_community.exe** for Visual Studio Community  <br><br>
 
-  If you receive a User Account Control notice, click **Yes**.
+   If you receive a User Account Control notice, click **Yes**.
 
 2. We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Click **Continue**.
 
@@ -73,7 +73,7 @@ After the installer is installed, you can use it to customize your installation 
 
 1. Find the workload you want in the **Installing Visual Studio** screen.
 
- ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-community.png)
+   ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-community.png)
 
      For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 

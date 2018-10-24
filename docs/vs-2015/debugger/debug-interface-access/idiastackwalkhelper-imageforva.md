@@ -28,8 +28,8 @@ Returns the start of an executable's image in memory given a virtual address som
   
 ```cpp#  
 HRESULT imageForVA(  
-   ULONGLONG  vaContext,  
-   ULONGLONG *pvaImageStart  
+   ULONGLONG  vaContext,  
+   ULONGLONG *pvaImageStart  
 );  
 ```  
   

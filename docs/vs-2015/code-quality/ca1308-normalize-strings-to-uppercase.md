@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1308: Normalize strings to uppercase
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|NormalizeStringsToUppercase|

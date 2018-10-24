@@ -30,15 +30,15 @@ By using switches with MSBuild, you can specify how much build data you want to 
 ## Setting the level of detail  
  When you build a project by using MSBuild without specifying a level of detail, the following information appears in the output log:  
   
--   Errors, warnings, and messages that are categorized as highly important.  
+- Errors, warnings, and messages that are categorized as highly important.  
   
--   Some status events.  
+- Some status events.  
   
--   A summary of the build.  
+- A summary of the build.  
   
- By using the **/verbosity** (**/v**) switch, you can control how much data appears in the output log. For troubleshooting, use a verbosity level of either `detailed` (`d`) or `diagnostic` (`diag`), which provides the most information.  
+  By using the **/verbosity** (**/v**) switch, you can control how much data appears in the output log. For troubleshooting, use a verbosity level of either `detailed` (`d`) or `diagnostic` (`diag`), which provides the most information.  
   
- The build process may be slower when you set the **/verbosity** to `detailed` and even slower when you set the **/verbosity** to `diagnostic`.  
+  The build process may be slower when you set the **/verbosity** to `detailed` and even slower when you set the **/verbosity** to `diagnostic`.  
   
 ```  
 msbuild MyProject.proj /t:go /v:diag  

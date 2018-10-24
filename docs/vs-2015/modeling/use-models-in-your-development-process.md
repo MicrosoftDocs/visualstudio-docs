@@ -27,15 +27,15 @@ In Visual Studio, you can use a model to help you understand and change a system
 ## How to use models  
  Models can help you in several ways:  
   
--   Drawing modeling diagrams helps you clarify the concepts involved in requirements, architecture, and high-level design. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
+- Drawing modeling diagrams helps you clarify the concepts involved in requirements, architecture, and high-level design. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
   
--   Working with models can help you expose inconsistencies in requirements.  
+- Working with models can help you expose inconsistencies in requirements.  
   
--   Communicating with models helps you communicate important concepts less ambiguously than with natural language. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
+- Communicating with models helps you communicate important concepts less ambiguously than with natural language. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   
--   You can sometimes use models to generate code or other artifacts such as database schemas or documents. For example, the modeling components of [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)] are generated from a model.  For more information, see [Generate and configure your app from models](../modeling/generate-and-configure-your-app-from-models.md).  
+- You can sometimes use models to generate code or other artifacts such as database schemas or documents. For example, the modeling components of [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)] are generated from a model.  For more information, see [Generate and configure your app from models](../modeling/generate-and-configure-your-app-from-models.md).  
   
- You can use models in a wide variety of processes, from extreme agile to high ceremony.  
+  You can use models in a wide variety of processes, from extreme agile to high ceremony.  
   
 ### Use Models to Reduce Ambiguity  
  Modeling language is less ambiguous than natural language, and it is designed to express the ideas typically required during software development.  

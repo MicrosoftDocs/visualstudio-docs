@@ -23,16 +23,16 @@ Specifies how much of a program's state (such as running threads, stack frames, 
   
 ```cpp  
 enum enum_DUMPTYPE {   
-   DUMP_MINIDUMP = 0,  
-   DUMP_FULLDUMP = 1  
+   DUMP_MINIDUMP = 0,  
+   DUMP_FULLDUMP = 1  
 };  
 typedef DWORD DUMPTYPE;  
 ```  
   
 ```csharp  
 public enum enum_DUMPTYPE {   
-   DUMP_MINIDUMP = 0,  
-   DUMP_FULLDUMP = 1  
+   DUMP_MINIDUMP = 0,  
+   DUMP_FULLDUMP = 1  
 };  
 ```  
   

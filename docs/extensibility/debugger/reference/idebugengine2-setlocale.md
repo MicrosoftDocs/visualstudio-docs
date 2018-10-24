@@ -23,13 +23,13 @@ Sets the locale of the debug engine (DE).
   
 ```cpp  
 HRESULT SetLocale(   
-   WORD wLangID  
+   WORD wLangID  
 );  
 ```  
   
 ```csharp  
 int SetLocale(   
-   ushort wLangID  
+   ushort wLangID  
 );  
 ```  
   

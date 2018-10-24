@@ -22,8 +22,8 @@ Retrieves a source file by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD            index,  
-   IDiaSourceFile** sourceFile  
+   DWORD            index,  
+   IDiaSourceFile** sourceFile  
 );  
 ```  
   

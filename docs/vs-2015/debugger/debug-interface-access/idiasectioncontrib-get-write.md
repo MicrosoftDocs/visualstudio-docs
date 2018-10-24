@@ -28,7 +28,7 @@ Retrieves a flag that indicates whether the section can be modified.
   
 ```cpp#  
 HRESULT get_write (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

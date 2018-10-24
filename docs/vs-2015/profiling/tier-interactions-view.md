@@ -26,15 +26,15 @@ Tier interaction profiling provides additional information about the execution t
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]  
   
- The Interactions View displays tier interaction data in two panes:  
+  The Interactions View displays tier interaction data in two panes:  
   
--   The master pane is a hierarchical tree. The top level row contains aggregated data for the database connections of an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] page or a process. Child nodes contain aggregated data for the database connections of the parent.  
+- The master pane is a hierarchical tree. The top level row contains aggregated data for the database connections of an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] page or a process. Child nodes contain aggregated data for the database connections of the parent.  
   
--   When you click a database call node in the master pane, data for the instance of the database call is displayed in the details pane.  
+- When you click a database call node in the master pane, data for the instance of the database call is displayed in the details pane.  
   
- Time is displayed as the number of milliseconds or the number of CPU clock ticks. To change the time unit displayed, click the **Tools** menu, click **Options**, and then choose one of the **Show time values as** options.  
+  Time is displayed as the number of milliseconds or the number of CPU clock ticks. To change the time unit displayed, click the **Tools** menu, click **Options**, and then choose one of the **Show time values as** options.  
   
 ## Master Pane  
   

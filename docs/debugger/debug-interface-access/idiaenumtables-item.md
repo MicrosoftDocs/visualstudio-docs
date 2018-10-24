@@ -22,8 +22,8 @@ Retrieves a table by means of an index or name.
   
 ```C++  
 HRESULT Item (   
-   VARIANT     index,  
-   IDiaTable** table  
+   VARIANT     index,  
+   IDiaTable** table  
 );  
 ```  
   

@@ -19,31 +19,31 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
   
 ##  <a name="Package"></a> To add an installer package by using Package.xml  
   
-1.  In File Explorer, open the **Packages** folder.  
+1. In File Explorer, open the **Packages** folder.  
   
-     By default, the path is *C:\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages* on a 32-bit system and *C:\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages* on a 64-bit system.  
+    By default, the path is *C:\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages* on a 32-bit system and *C:\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages* on a 64-bit system.  
   
-2.  Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, **en** for English).  
+2. Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, **en** for English).  
   
-3.  In Notepad, open the *Package.xml* file.  
+3. In Notepad, open the *Package.xml* file.  
   
-4.  Locate the **Name** element that contains **http://go.microsoft.com/fwlink**, and copy the URL. Include the **LinkID** portion.  
+4. Locate the **Name** element that contains **http://go.microsoft.com/fwlink**, and copy the URL. Include the **LinkID** portion.  
   
-    > [!NOTE]
-    >  If no **Name** element contains **http://go.microsoft.com/fwlink**, open the **Product.xml** file in the root folder for the prerequisite and locate the **fwlink** string.  
+   > [!NOTE]
+   >  If no **Name** element contains **http://go.microsoft.com/fwlink**, open the **Product.xml** file in the root folder for the prerequisite and locate the **fwlink** string.  
   
-    > [!IMPORTANT]
-    >  Some prerequisites have multiple installer packages (for example, for 32-bit or 64-bit systems). If multiple **Name** elements contain **fwlink**, you must repeat the remaining steps for each of them.  
+   > [!IMPORTANT]
+   >  Some prerequisites have multiple installer packages (for example, for 32-bit or 64-bit systems). If multiple **Name** elements contain **fwlink**, you must repeat the remaining steps for each of them.  
   
-5.  Paste the URL into the address bar of your browser, and then, when you are prompted to run or save, choose **Save**.  
+5. Paste the URL into the address bar of your browser, and then, when you are prompted to run or save, choose **Save**.  
   
-     This step downloads the installer file to your computer.  
+    This step downloads the installer file to your computer.  
   
-6.  Copy the file to the root folder for the prerequisite.  
+6. Copy the file to the root folder for the prerequisite.  
   
-     For example, for the Windows Installer 4.5 prerequisite, copy the file to the *\Packages\WindowsInstaller4_5* folder.  
+    For example, for the Windows Installer 4.5 prerequisite, copy the file to the *\Packages\WindowsInstaller4_5* folder.  
   
-     You can now distribute the installer package with your application.  
+    You can now distribute the installer package with your application.  
   
 ## See also  
  [How to: Install prequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

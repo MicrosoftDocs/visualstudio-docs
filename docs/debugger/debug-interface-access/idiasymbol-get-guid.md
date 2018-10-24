@@ -22,7 +22,7 @@ Retrieves the symbol's globally unique identifier (GUID).
   
 ```C++  
 HRESULT get_guid (   
-   GUID* pRetVal  
+   GUID* pRetVal  
 );  
 ```  
   

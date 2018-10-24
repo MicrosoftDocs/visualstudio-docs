@@ -31,7 +31,7 @@ You can specify one of the following test mix model options for your load test s
 ## Tasks
 
 |Tasks|Associated Topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Specifying the test mix for your load test:** When you create a load test, you specify settings for the load test in the **New Load Test Wizard**. In the **New Load Test Wizard**, you choose existing web and unit tests to add to the initial scenario. After you have added tests to the scenario, you specify the test mix for the scenario.<br /><br /> You use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load-testing. It is important to do this because a load test that is not based on an accurate load model can generate misleading results.|-   [Emulate expected real-world usage of a website or application](../test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md)|
 |**Edit the test mix model:** You can change a load test scenario to use one of the test mix models by using the **Load Test Editor**.||
 |**Configure pacing delay for a user paced test mix model:** If your load test scenario is configured to use the **Based on user pace test mix model**, you can specify how you want the distribution Pacing Delay configured.|-   [How to: Apply distribution to pacing delay when using a user pace test mix model](../test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md)|

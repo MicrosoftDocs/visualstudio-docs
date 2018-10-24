@@ -22,7 +22,7 @@ Retrieves the file name of the library or object file from which the object was 
   
 ```C++  
 HRESULT get_libraryName (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

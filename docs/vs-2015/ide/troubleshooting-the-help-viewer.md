@@ -44,9 +44,9 @@ This topic discusses issues that you might encounter with the Help Viewer.
 ## Additional Resources  
  You can get more information and provide feedback on the Help Viewer by using the following resources:  
   
--   To provide feedback, see [Microsoft Connect](http://go.microsoft.com/fwlink/?linkid=243983) on the Microsoft website or send email to [hlpfdbk@microsoft.com](mailto:hlpfdbk@microsoft.com).  
+- To provide feedback, see [Microsoft Connect](http://go.microsoft.com/fwlink/?linkid=243983) on the Microsoft website or send email to [hlpfdbk@microsoft.com](mailto:hlpfdbk@microsoft.com).  
   
--   For more information, see the [Developer Documentation and Help System](http://go.microsoft.com/fwlink/?LinkId=232741) forum and [The Help Guy](http://go.microsoft.com/fwlink/?LinkId=232743) blog.  
+- For more information, see the [Developer Documentation and Help System](http://go.microsoft.com/fwlink/?LinkId=232741) forum and [The Help Guy](http://go.microsoft.com/fwlink/?LinkId=232743) blog.  
   
 ## See Also  
  [Help Viewer 2.1 Administrator Guide](http://go.microsoft.com/fwlink/?LinkId=243985)

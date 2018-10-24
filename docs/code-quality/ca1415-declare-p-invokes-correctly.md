@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1415: Declare P/Invokes correctly
+
 |||
 |-|-|
 |TypeName|DeclarePInvokesCorrectly|

@@ -23,7 +23,7 @@ HRESULT findInlineeLinesByAddr ( 
    DWORD                 isect,  
    DWORD                 offset,  
    DWORD                 length,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

@@ -39,28 +39,28 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 1. There are multiple ways to create a new project in Visual Studio. On the **Start Page**, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File** > **New** > **Project** on the menu bar, or choose the **New Project** button on the toolbar.
 
-  ![Start page](./media/vside-newproject1.png)
+   ![Start page](./media/vside-newproject1.png)
 
-  In the **New Project** dialog box, available project templates appear in a list under the **Templates** category. Templates are organized by programming language and project type, such as Visual C#, JavaScript, and Azure Data Lake.
+   In the **New Project** dialog box, available project templates appear in a list under the **Templates** category. Templates are organized by programming language and project type, such as Visual C#, JavaScript, and Azure Data Lake.
 
-  ![New project dialog box](./media/vside-newproject-templates-list.png)
+   ![New project dialog box](./media/vside-newproject-templates-list.png)
 
-  > [!NOTE]
-  > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio 2017 by adding or removing workloads and components](../install/modify-visual-studio.md).
+   > [!NOTE]
+   > The list of available languages and project templates that appears depends on the version of Visual Studio you are running and the workloads that are installed. To learn about how to install additional workloads, see [Modify Visual Studio 2017 by adding or removing workloads and components](../install/modify-visual-studio.md).
 
-1. Show the list of templates for the programming language you want to use by choosing the triangle next to the language name, and then choose a project type.
+2. Show the list of templates for the programming language you want to use by choosing the triangle next to the language name, and then choose a project type.
 
-  The following example shows the project templates available for Visual C# .NET Core projects.
+   The following example shows the project templates available for Visual C# .NET Core projects.
 
-  ![Project templates](./media/new-project-dialog-net-core.png)
+   ![Project templates](./media/new-project-dialog-net-core.png)
 
-1. Enter a name for the new project in the **Name** box. You can choose to save the project in the default location on your system, or choose the **Browse** button to find another location.
+3. Enter a name for the new project in the **Name** box. You can choose to save the project in the default location on your system, or choose the **Browse** button to find another location.
 
-  You can also optionally choose to change the solution name, or add the new project to a Git repository by choosing **Add to Source Control**.
+   You can also optionally choose to change the solution name, or add the new project to a Git repository by choosing **Add to Source Control**.
 
-1. Choose the **OK** button to create the solution and project.
+4. Choose the **OK** button to create the solution and project.
 
-1. If you want to add an additional project to the solution, choose the solution node in **Solution Explorer**, and then on the menu bar, choose **Project** > **Add New Item**.
+5. If you want to add an additional project to the solution, choose the solution node in **Solution Explorer**, and then on the menu bar, choose **Project** > **Add New Item**.
 
 ## Create a project from existing code files
 

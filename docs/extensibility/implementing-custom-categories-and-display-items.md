@@ -26,82 +26,82 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 
  To implement custom **Categories** or **Display items**, a VSPackage must:
 
--   Create or identify categories in the registry.
+- Create or identify categories in the registry.
 
-     The IDE's implementation of the **Fonts and Colors** property page uses this information to correctly query for the service supporting a given category.
+   The IDE's implementation of the **Fonts and Colors** property page uses this information to correctly query for the service supporting a given category.
 
--   Create or identify groups (optional) in the registry.
+- Create or identify groups (optional) in the registry.
 
-     It may be useful to define a group, which represents the union of two or more categories. If a group is defined, the IDE automatically merges subcategories and distributes display items within the group.
+   It may be useful to define a group, which represents the union of two or more categories. If a group is defined, the IDE automatically merges subcategories and distributes display items within the group.
 
--   Implement IDE support.
+- Implement IDE support.
 
--   Handle font and color changes.
+- Handle font and color changes.
 
- For information, see [Access stored font and color settings](../extensibility/accessing-stored-font-and-color-settings.md).
+  For information, see [Access stored font and color settings](../extensibility/accessing-stored-font-and-color-settings.md).
 
 ## To create or identify categories
 
--   Construct a special type of category registry entry under *[HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\`<Category>`]*
+- Construct a special type of category registry entry under *[HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\`<Category>`]*
 
-     *\<Category>* is the non-localized name of the category.
+   *\<Category>* is the non-localized name of the category.
 
--   Populate the registry with two values:
+- Populate the registry with two values:
 
-    |Name|Type|Data|Description|
-    |----------|----------|----------|-----------------|
-    |Category|REG_SZ|GUID|A GUID created to identify the category.|
-    |Package|REG_SZ|GUID|The GUID of the VSPackage service that supports the category.|
+  |Name|Type|Data|Description|
+  |----------|----------|----------|-----------------|
+  |Category|REG_SZ|GUID|A GUID created to identify the category.|
+  |Package|REG_SZ|GUID|The GUID of the VSPackage service that supports the category.|
 
- The service specified in the registry must provide an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> for the corresponding category.
+  The service specified in the registry must provide an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> for the corresponding category.
 
 ## To create or identify groups
 
--   Construct a special type of category registry entry under *[HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\*\<group>*]*
+- Construct a special type of category registry entry under *[HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\*\<group>*]*
 
-     *\<group>* is the non-localized name of the group.
+   *\<group>* is the non-localized name of the group.
 
--   Populate the registry with two values:
+- Populate the registry with two values:
 
-    |Name|Type|Data|Description|
-    |----------|----------|----------|-----------------|
-    |Category|REG_SZ|GUID|A GUID created to identify the group.|
-    |Package|REG_SZ|GUID|The GUID of the service that supports the category.|
+  |Name|Type|Data|Description|
+  |----------|----------|----------|-----------------|
+  |Category|REG_SZ|GUID|A GUID created to identify the group.|
+  |Package|REG_SZ|GUID|The GUID of the service that supports the category.|
 
- The service specified in the registry must provide an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> for the corresponding group.
+  The service specified in the registry must provide an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> for the corresponding group.
 
 ## To implement IDE support
 
--   Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider.GetObject%2A>, which returns either an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> interface or an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> interface to the IDE for each **Category** or group GUID supplied.
+- Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider.GetObject%2A>, which returns either an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> interface or an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> interface to the IDE for each **Category** or group GUID supplied.
 
--   For every **Category** it supports, a VSPackage implements a separate instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> interface.
+- For every **Category** it supports, a VSPackage implements a separate instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> interface.
 
--   The methods implemented through <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> must provide the IDE with:
+- The methods implemented through <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> must provide the IDE with:
 
-    -   Lists of **Display items** in the **Category.**
+  -   Lists of **Display items** in the **Category.**
 
-    -   Localizable names for **Display items**.
+  -   Localizable names for **Display items**.
 
-    -   Display information for each member of **Category**.
+  -   Display information for each member of **Category**.
 
-    > [!NOTE]
-    >  Every **Category** must contain at least one **Display item**.
+  > [!NOTE]
+  >  Every **Category** must contain at least one **Display item**.
 
--   The IDE uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> interface to define a union of several categories.
+- The IDE uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> interface to define a union of several categories.
 
-     Its implementation provides the IDE with:
+   Its implementation provides the IDE with:
 
-    -   A list of the **Categories** that comprise a given group.
+  -   A list of the **Categories** that comprise a given group.
 
-    -   Access to instances of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> supporting each **Category** within the group.
+  -   Access to instances of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> supporting each **Category** within the group.
 
-    -   Localizable group names.
+  -   Localizable group names.
 
--   Updating the IDE:
+- Updating the IDE:
 
-     The IDE caches information about **Font and Color** settings. Therefore, after any modification of the IDE **Font and Color** configuration, it is advisable to make sure that the cache is up-to-date.
+   The IDE caches information about **Font and Color** settings. Therefore, after any modification of the IDE **Font and Color** configuration, it is advisable to make sure that the cache is up-to-date.
 
- Updating the cache is done through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface and can be performed globally or just on selected items.
+  Updating the cache is done through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface and can be performed globally or just on selected items.
 
 ## To handle font and color changes
  To properly support the colorization of text that a VSPackage displays, the colorization service supporting the VSPackage must respond to the user-initiated changes made through the **Fonts and Colors** properties page. A VSPackage does this by:

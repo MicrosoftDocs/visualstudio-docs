@@ -28,7 +28,7 @@ Retrieves the section part of the memory address where a block begins.
   
 ```cpp#  
 HRESULT get_addressSection (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -27,13 +27,13 @@ Gets an evaluation context for expression evaluation within the current context 
   
 ```cpp#  
 HRESULT GetExpressionContext (   
-   IDebugExpressionContext2** ppExprCxt  
+   IDebugExpressionContext2** ppExprCxt  
 );  
 ```  
   
 ```csharp  
 int GetExpressionContext (   
-   out IDebugExpressionContext2 ppExprCxt  
+   out IDebugExpressionContext2 ppExprCxt  
 );  
 ```  
   

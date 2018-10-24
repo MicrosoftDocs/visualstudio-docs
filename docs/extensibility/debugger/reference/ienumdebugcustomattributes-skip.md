@@ -23,13 +23,13 @@ Skips a specified number of custom attributes in an enumeration sequence.
   
 ```cpp  
 HRESULT Skip (   
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   
 ```csharp  
 int Skip(  
-   uint celt  
+   uint celt  
 );  
 ```  
   

@@ -23,13 +23,13 @@ Gets the program's exit code.
   
 ```cpp  
 HRESULT GetExitCode(   
-   DWORD* pdwExit  
+   DWORD* pdwExit  
 );  
 ```  
   
 ```csharp  
 int GetExitCode(   
-   out uint pdwExit  
+   out uint pdwExit  
 );  
 ```  
   

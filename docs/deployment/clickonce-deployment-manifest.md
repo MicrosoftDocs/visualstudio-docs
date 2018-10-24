@@ -20,37 +20,38 @@ ms.workload:
 ---
 # ClickOnce deployment manifest
 A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, including the identification of the current [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application version to deploy.  
-  
+
  Deployment manifests have the following elements and attributes.  
-  
-|Element|Description|Attributes|  
-|-------------|-----------------|----------------|  
-|[\<assembly> Element](../deployment/assembly-element-clickonce-deployment.md)|Required. Top-level element.|`manifestVersion`|  
-|[\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md)|Required. Identifies the application manifest for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.|`name`<br /><br /> `version`<br /><br /> `publicKeyToken`<br /><br /> `processorArchitecture`<br /><br /> `culture`|  
-|[\<description> Element](../deployment/description-element-clickonce-deployment.md)|Required. Identifies application information used to create a shell presence and the **Add or Remove Programs** item in Control Panel.|`publisher`<br /><br /> `product`<br /><br /> `supportUrl`|  
-|[\<deployment> Element](../deployment/deployment-element-clickonce-deployment.md)|Optional. Identifies the attributes used for the deployment of updates and exposure to the system.|`install`<br /><br /> `minimumRequiredVersion`<br /><br /> `mapFileExtensions`<br /><br /> `disallowUrlActivation`<br /><br /> `trustUrlParameters`|  
-|[\<compatibleFrameworks> Element](../deployment/compatibleframeworks-element-clickonce-deployment.md)|Required. Identifies the versions of the .NET Framework where this application can install and run.|`SupportUrl`|  
-|[\<dependency> Element](../deployment/dependency-element-clickonce-deployment.md)|Required. Identifies the version of the application to install for the deployment and the location of the application manifest.|`preRequisite`<br /><br /> `visible`<br /><br /> `dependencyType`<br /><br /> `codebase`<br /><br /> `size`|  
-|[\<publisherIdentity> Element](../deployment/publisheridentity-element-clickonce-deployment.md)|Required for signed manifests. Contains information about the publisher that signed this deployment manifest.|`Name`<br /><br /> `issuerKeyHash`|  
-|[\<Signature> Element](../deployment/signature-element-clickonce-deployment.md)|Optional. Contains the necessary information to digitally sign this deployment manifest.|None|  
-|[\<customErrorReporting> Element](../deployment/customerrorreporting-element-clickonce-deployment.md)|Optional. Specifies a URI to show when an error occurs.|Uri|  
-  
+
+
+| Element | Description | Attributes |
+| - | - | - |
+| [\<assembly> Element](../deployment/assembly-element-clickonce-deployment.md) | Required. Top-level element. | `manifestVersion` |
+| [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md) | Required. Identifies the application manifest for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. | `name`<br /><br /> `version`<br /><br /> `publicKeyToken`<br /><br /> `processorArchitecture`<br /><br /> `culture` |
+| [\<description> Element](../deployment/description-element-clickonce-deployment.md) | Required. Identifies application information used to create a shell presence and the **Add or Remove Programs** item in Control Panel. | `publisher`<br /><br /> `product`<br /><br /> `supportUrl` |
+| [\<deployment> Element](../deployment/deployment-element-clickonce-deployment.md) | Optional. Identifies the attributes used for the deployment of updates and exposure to the system. | `install`<br /><br /> `minimumRequiredVersion`<br /><br /> `mapFileExtensions`<br /><br /> `disallowUrlActivation`<br /><br /> `trustUrlParameters` |
+| [\<compatibleFrameworks> Element](../deployment/compatibleframeworks-element-clickonce-deployment.md) | Required. Identifies the versions of the .NET Framework where this application can install and run. | `SupportUrl` |
+| [\<dependency> Element](../deployment/dependency-element-clickonce-deployment.md) | Required. Identifies the version of the application to install for the deployment and the location of the application manifest. | `preRequisite`<br /><br /> `visible`<br /><br /> `dependencyType`<br /><br /> `codebase`<br /><br /> `size` |
+| [\<publisherIdentity> Element](../deployment/publisheridentity-element-clickonce-deployment.md) | Required for signed manifests. Contains information about the publisher that signed this deployment manifest. | `Name`<br /><br /> `issuerKeyHash` |
+| [\<Signature> Element](../deployment/signature-element-clickonce-deployment.md) | Optional. Contains the necessary information to digitally sign this deployment manifest. | None |
+| [\<customErrorReporting> Element](../deployment/customerrorreporting-element-clickonce-deployment.md) | Optional. Specifies a URI to show when an error occurs. | Uri |
+
 ## Remarks  
  The deployment manifest file identifies a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment, including the current version and other deployment settings. It references the application manifest, which describes the current version of the application and all of the files contained within the deployment.  
-  
+
  For more information, see [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md).  
-  
+
 ## File location  
  The deployment manifest file references the correct application manifest for the current version of the application. When you make a new version of an application deployment available, you must update the deployment manifest to refer to the new application manifest.  
-  
+
  The deployment manifest file must be strongly named and can also contain certificates for publisher validation.  
-  
+
 ## File name syntax  
  The name of a deployment manifest file must end with the *.application* extension.  
-  
+
 ## Examples  
  The following code example illustrates a deployment manifest.  
-  
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd"  
@@ -112,6 +113,6 @@ A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../
 ...  
 </Signature></asmv1:assembly>  
 ```  
-  
+
 ## See also  
  [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

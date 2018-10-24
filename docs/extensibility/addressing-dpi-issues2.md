@@ -15,29 +15,29 @@ An increasing number of devices are shipping with "high-resolution" screens. The
   
  Windows 8.1 and higher contains several features to enable these machines to work with displays and environments where the machine is attached to both high-density and standard-density displays at the same time.  
   
--   Windows can allow you to scale content to the device using the "Make text and other items larger or smaller" setting (available since Windows XP).  
+- Windows can allow you to scale content to the device using the "Make text and other items larger or smaller" setting (available since Windows XP).  
   
--   Windows 8.1 and higher will automatically scale content for most applications to be consistent when moved between displays of differing pixel densities. When the primary display is high density (200% scaling) and the secondary display is standard density (100%), Windows will automatically scale the application window contents down on the secondary display (1 pixel displayed for every 4 pixels rendered by the application).  
+- Windows 8.1 and higher will automatically scale content for most applications to be consistent when moved between displays of differing pixel densities. When the primary display is high density (200% scaling) and the secondary display is standard density (100%), Windows will automatically scale the application window contents down on the secondary display (1 pixel displayed for every 4 pixels rendered by the application).  
   
--   Windows will default to the right scaling for the pixel density and viewing distance for the display (Windows 7 and higher, OEM-configurable).  
+- Windows will default to the right scaling for the pixel density and viewing distance for the display (Windows 7 and higher, OEM-configurable).  
   
--   Windows can automatically scale content up to 250% on new devices that exceed 280 ppi (as of Windows 8.1 S14).  
+- Windows can automatically scale content up to 250% on new devices that exceed 280 ppi (as of Windows 8.1 S14).  
   
- Windows has a way of dealing with scaling up UI to take advantage of increased pixel counts. An application opts in to this system by declaring itself "system DPI aware." Applications that do not do this are scaled up by the system. This can result in a "fuzzy" user experience where the entire application is uniformly pixel-stretched. For example:  
+  Windows has a way of dealing with scaling up UI to take advantage of increased pixel counts. An application opts in to this system by declaring itself "system DPI aware." Applications that do not do this are scaled up by the system. This can result in a "fuzzy" user experience where the entire application is uniformly pixel-stretched. For example:  
   
- ![DPI Issues Fuzzy](../extensibility/media/dpi-issues-fuzzy.png "DPI Issues Fuzzy")  
+  ![DPI Issues Fuzzy](../extensibility/media/dpi-issues-fuzzy.png "DPI Issues Fuzzy")  
   
- Visual Studio opts in to being DPI scaling-aware, and therefore is not "virtualized."  
+  Visual Studio opts in to being DPI scaling-aware, and therefore is not "virtualized."  
   
- Windows (and Visual Studio) leverage several UI technologies, which have differing ways of dealing with scaling factors set by the system. For example:  
+  Windows (and Visual Studio) leverage several UI technologies, which have differing ways of dealing with scaling factors set by the system. For example:  
   
--   WPF measures controls in a device-independent way (units, not pixels). WPF UI automatically scales up for the current DPI.  
+- WPF measures controls in a device-independent way (units, not pixels). WPF UI automatically scales up for the current DPI.  
   
--   All text sizes regardless of UI framework are expressed in points, and so are treated by the system as DPI-independent. Text in Win32, WinForms, and WPF already scale up correctly when drawn to the display device.  
+- All text sizes regardless of UI framework are expressed in points, and so are treated by the system as DPI-independent. Text in Win32, WinForms, and WPF already scale up correctly when drawn to the display device.  
   
--   Win32/WinForms dialogs and windows have means for enabling layout that resizes with text (for example, through grid, flow, and table layout panels). These enable avoiding hard-coded pixel locations that are not scaled when the font sizes are increased.  
+- Win32/WinForms dialogs and windows have means for enabling layout that resizes with text (for example, through grid, flow, and table layout panels). These enable avoiding hard-coded pixel locations that are not scaled when the font sizes are increased.  
   
--   Icons provided by the system or resources based on system metrics (for example, SM_CXICON and SM_CXSMICON) are already scaled up.  
+- Icons provided by the system or resources based on system metrics (for example, SM_CXICON and SM_CXSMICON) are already scaled up.  
   
 ## Older Win32 (GDI, GDI+) and WinForms-based UI  
  While WPF is already high DPI-aware, much of our Win32/GDI-based code was not originally written with DPI awareness in mind. Windows has provided DPI-scaling APIs. Fixes to Win32 issues should use these consistently across the product. Visual Studio has provided a helper class library to avoid duplicating functionality and ensuring consistency across the product.  
@@ -79,21 +79,21 @@ ImageList_Create(VsUI::DpiHelper::LogicalToDeviceUnitsX(16),VsUI::DpiHelper::Log
 ## Layout issues  
  Common layout issues can be avoided primarily by keeping points in the UI scaled and relative to one another rather than by using absolute locations (specifically, in pixel units). For example:  
   
--   Layout/text positions need to adjust to account for scaled-up images.  
+- Layout/text positions need to adjust to account for scaled-up images.  
   
--   Columns in grids need to have widths adjusted for the scaled-up text.  
+- Columns in grids need to have widths adjusted for the scaled-up text.  
   
--   Hard-coded sizes or space between elements will also need to be scaled up. Sizes that are based only on text dimensions are typically fine, because fonts are automatically scaled up.  
+- Hard-coded sizes or space between elements will also need to be scaled up. Sizes that are based only on text dimensions are typically fine, because fonts are automatically scaled up.  
   
- Helper functions are available in the <xref:Microsoft.VisualStudio.PlatformUI.DpiHelper> class to allow scaling on the X and Y axis:  
+  Helper functions are available in the <xref:Microsoft.VisualStudio.PlatformUI.DpiHelper> class to allow scaling on the X and Y axis:  
   
--   LogicalToDeviceUnitsX/LogicalToDeviceUnitsY  (functions allow scaling on X/Y axis)  
+- LogicalToDeviceUnitsX/LogicalToDeviceUnitsY  (functions allow scaling on X/Y axis)  
   
--   int space = DpiHelper.LogicalToDeviceUnitsX (10);  
+- int space = DpiHelper.LogicalToDeviceUnitsX (10);  
   
--   int height = VsUI::DpiHelper::LogicalToDeviceUnitsY(5);  
+- int height = VsUI::DpiHelper::LogicalToDeviceUnitsY(5);  
   
- There are LogicalToDeviceUnits overloads to allow scaling objects such as Rect, Point, and Size.  
+  There are LogicalToDeviceUnits overloads to allow scaling objects such as Rect, Point, and Size.  
   
 ## Using the DPIHelper library/class to scale images and layout  
  The Visual Studio DPI helper library is available in native and managed forms and can be used outside of the Visual Studio shell by other applications.  
@@ -138,15 +138,15 @@ VsUI::DpiHelper::LogicalToDeviceUnits(&hBitmap);
   
  Recommendations:  
   
--   For logo image and banners artwork, the default <xref:System.Windows.Media.BitmapScalingMode> resizing mode could be used.  
+- For logo image and banners artwork, the default <xref:System.Windows.Media.BitmapScalingMode> resizing mode could be used.  
   
--   For menu items and iconography images, the <xref:System.Windows.Media.BitmapScalingMode> should be used when it doesn't cause other distortion artifacts to eliminate fuzziness (at 200% and 300%).  
+- For menu items and iconography images, the <xref:System.Windows.Media.BitmapScalingMode> should be used when it doesn't cause other distortion artifacts to eliminate fuzziness (at 200% and 300%).  
   
--   For large zoom levels not multiples of 100% (for example, 250% or 350%), scaling iconography images with bicubic results in fuzzy, washed-out UI. A better result is obtained by first scaling the image with NearestNeighbor to the largest multiple of 100% (for example, 200% or 300%) and scaling with bicubic from there. See Special case: prescaling WPF images for large DPI levels for more information.  
+- For large zoom levels not multiples of 100% (for example, 250% or 350%), scaling iconography images with bicubic results in fuzzy, washed-out UI. A better result is obtained by first scaling the image with NearestNeighbor to the largest multiple of 100% (for example, 200% or 300%) and scaling with bicubic from there. See Special case: prescaling WPF images for large DPI levels for more information.  
   
- The DpiHelper class in the Microsoft.VisualStudio.PlatformUI namespace provides a member <xref:System.Windows.Media.BitmapScalingMode> that can be used for binding. It will allow the Visual Studio shell to control the bitmap scaling mode across the product uniformly, depending on the DPI scaling factor.  
+  The DpiHelper class in the Microsoft.VisualStudio.PlatformUI namespace provides a member <xref:System.Windows.Media.BitmapScalingMode> that can be used for binding. It will allow the Visual Studio shell to control the bitmap scaling mode across the product uniformly, depending on the DPI scaling factor.  
   
- To use it in XAML, add:  
+  To use it in XAML, add:  
   
 ```xaml  
 xmlns:vsui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.14.0"  

@@ -23,13 +23,13 @@ manager: "ghogen"
 
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support the collection of .NET memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.  
   
--   Data about .NET memory allocation includes the size and number of .NET Framework memory objects that were allocated.  
+- Data about .NET memory allocation includes the size and number of .NET Framework memory objects that were allocated.  
   
--   Object lifetime data includes the size and number of .NET Framework memory objects that were reclaimed in the three garbage collection generations.  
+- Object lifetime data includes the size and number of .NET Framework memory objects that were reclaimed in the three garbage collection generations.  
   
- **Requirements**  
+  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
@@ -58,9 +58,9 @@ manager: "ghogen"
 ## Common Tasks  
  You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:  
   
--   In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
+- In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
   
- The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you collect .NET memory data.  
+  The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you collect .NET memory data.  
   
 |Task|Related Content|  
 |----------|---------------------|  

@@ -22,7 +22,7 @@ Retrieves the location in virtual memory of the image.
   
 ```C++  
 HRESULT get_virtualAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

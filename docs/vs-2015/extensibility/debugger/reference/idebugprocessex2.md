@@ -32,11 +32,11 @@ IDebugProcessEx2 : IUnknown
 ## Notes for Implementers  
  A custom port supplier implements this interface on the same object as the [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface in order to:  
   
--   Support tracking of sessions connected to a process  
+- Support tracking of sessions connected to a process  
   
--   Support auto-attach across multiple debug engines  
+- Support auto-attach across multiple debug engines  
   
- The custom port supplier can implement this interface if it chooses.  
+  The custom port supplier can implement this interface if it chooses.  
   
 ## Notes for Callers  
   

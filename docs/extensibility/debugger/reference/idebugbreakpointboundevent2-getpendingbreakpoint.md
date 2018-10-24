@@ -23,13 +23,13 @@ Gets the pending breakpoint that is being bound.
   
 ```cpp  
 HRESULT GetPendingBreakpoint(   
-   IDebugPendingBreakpoint2** ppPendingBP  
+   IDebugPendingBreakpoint2** ppPendingBP  
 );  
 ```  
   
 ```cpp  
 int GetPendingBreakpoint(   
-   out IDebugPendingBreakpoint2 ppPendingBP  
+   out IDebugPendingBreakpoint2 ppPendingBP  
 );  
 ```  
   

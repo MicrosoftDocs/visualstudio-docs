@@ -47,17 +47,17 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environm
 ## To Use State Persistence of Fonts and Colors  
  Persisting fonts and colors involves:  
   
--   Synchronizing the IDE settings with settings stored in the registry.  
+- Synchronizing the IDE settings with settings stored in the registry.  
   
--   Propagating registry modification information.  
+- Propagating registry modification information.  
   
--   Setting and retrieving settings stored in the registry.  
+- Setting and retrieving settings stored in the registry.  
   
- Synchronizing the storage setting with the IDE settings is largely transparent. The underlying IDE automatically writes updated settings for **Display Items** to the registry entries of categories.  
+  Synchronizing the storage setting with the IDE settings is largely transparent. The underlying IDE automatically writes updated settings for **Display Items** to the registry entries of categories.  
   
- If multiple VSPackages share a particular category, a VSPackage should require that events are generated when methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface are used to modify stored registry settings.  
+  If multiple VSPackages share a particular category, a VSPackage should require that events are generated when methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface are used to modify stored registry settings.  
   
- By default, event generation is not enabled. To enable event generation, a category must be opened by using <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>. This causes the IDE to call the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> method that a VSPackage implements.  
+  By default, event generation is not enabled. To enable event generation, a category must be opened by using <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>. This causes the IDE to call the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> method that a VSPackage implements.  
   
 > [!NOTE]
 >  Modifications through the **Font and Color** property page generate events independent of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage>. You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface to determine whether an update of cached font and color settings is needed before calling the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> class.  

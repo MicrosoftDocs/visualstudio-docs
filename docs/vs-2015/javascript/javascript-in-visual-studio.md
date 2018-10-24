@@ -24,18 +24,18 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
   
  Specific versions of Visual Studio, or specific Visual Studio extensions, may be required to develop particular application types and services using HTML and JavaScript. The following list has links to more information.  
   
--   To create cross-platform apps using Apache Cordova, [get the Visual Studio Tools for Apache Cordova](http://go.microsoft.com/fwlink/p/?LinkId=397606).  
+- To create cross-platform apps using Apache Cordova, [get the Visual Studio Tools for Apache Cordova](http://go.microsoft.com/fwlink/p/?LinkId=397606).  
   
--   To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/en-us/develop/downloads).  
+- To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/en-us/develop/downloads).  
   
--   To create cloud-based services, see the [Microsoft Azure site](http://azure.microsoft.com/documentation/).  
+- To create cloud-based services, see the [Microsoft Azure site](http://azure.microsoft.com/documentation/).  
   
--   To create web sites and web apps, [see the ASP.NET site](http://www.asp.net/get-started/websites).  
+- To create web sites and web apps, [see the ASP.NET site](http://www.asp.net/get-started/websites).  
   
-    > [!NOTE]
-    >  You can create an empty ASP.Net Web site and use it for HTML, CSS, and JavaScript programming. The Webconfig file provided by ASP.NET enables debugging in Visual Studio (or you can use F12 tools when you run the app).  
+  > [!NOTE]
+  >  You can create an empty ASP.Net Web site and use it for HTML, CSS, and JavaScript programming. The Webconfig file provided by ASP.NET enables debugging in Visual Studio (or you can use F12 tools when you run the app).  
   
- The JavaScript editor in Visual Studio provides IntelliSense support. For more info, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).  
+  The JavaScript editor in Visual Studio provides IntelliSense support. For more info, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).  
   
 ## What's New in JavaScript  
  New features for JavaScript are listed in the following table.  

@@ -28,8 +28,8 @@ Checks to see if two symbols are equivalent.
   
 ```cpp#  
 HRESULT symsAreEquiv (   
-   IDiaSymbol* symbolA,  
-   IDiaSymbol* symbolB  
+   IDiaSymbol* symbolA,  
+   IDiaSymbol* symbolB  
 );  
 ```  
   

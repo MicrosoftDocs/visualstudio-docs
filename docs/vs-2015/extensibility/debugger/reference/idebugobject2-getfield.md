@@ -27,13 +27,13 @@ Gets the type of this object.
   
 ```cpp  
 HRESULT GetField(  
- IDebugField** ppField  
+ IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetField(  
-   out IDebugField ppField  
+   out IDebugField ppField  
 );  
 ```  
   

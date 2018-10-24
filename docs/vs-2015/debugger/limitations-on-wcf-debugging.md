@@ -28,13 +28,13 @@ manager: "ghogen"
 
 There are three ways that you can begin debugging a WCF service:  
   
--   You are debugging a client process that calls a service. The debugger steps into the service. The service does not have to be in the same solution as your client application.  
+- You are debugging a client process that calls a service. The debugger steps into the service. The service does not have to be in the same solution as your client application.  
   
--   You are debugging a client process that makes a request to a service. The service must be part of your solution.  
+- You are debugging a client process that makes a request to a service. The service must be part of your solution.  
   
--   You use **Attach to Process** to attach to a service that is currently running. Debugging begins inside the service.  
+- You use **Attach to Process** to attach to a service that is currently running. Debugging begins inside the service.  
   
- This topic describes limitations on these scenarios.  
+  This topic describes limitations on these scenarios.  
   
 ## Limitations on Stepping Into a Service  
  To step into a service from a client applications that you are debugging, the following conditions must be met:  

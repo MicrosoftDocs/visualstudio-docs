@@ -30,19 +30,19 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
 8. In Solution Explorer, expand the `TensorFlow Examples> MNIST` node, right-click `convolutional.py`, and select **Set as Startup File**. This step tells Visual Studio which file it should use when running the project.
 
-10. Press Ctrl+F5 or select **Debug > Start Without Debugging** to run the program. If you see an `, re-check the working directory setting in the previous step.
+9. Press **Ctrl**+**F5** or select **Debug > Start Without Debugging** to run the program. If you see an `, re-check the working directory setting in the previous step.
 
-
-11. When the program runs successfully, you'll see it start to download your training and test dataset, then train the model and output your error rate. You want error rate to decrease over time
+10. When the program runs successfully, you'll see it start to download your training and test dataset, then train the model and output your error rate. You want error rate to decrease over time
 
     ![First output from the Python MNIST program](media/create-project-repo/tensorflow-mnist-running.png)
 
-> If you are using Anaconda and get an error about missing numpy, you may need to [change your Python environment to use Anaconda](../python/selecting-a-python-environment-for-a-project.md).
+   > [!NOTE]
+   > If you're using Anaconda and get an error about missing numpy, you may need to [change your Python environment to use Anaconda](../python/selecting-a-python-environment-for-a-project.md).
 
 11. You can visualize the progress with TensorBoard. Right click your project and click **Run TensorBoard** then select the directory of your output TensorBoard logs.
 
-    ![run tensorboard](media/create-project-repo/run-tensorboard.png)
+   ![run tensorboard](media/create-project-repo/run-tensorboard.png)
 
-11. Notice the error decreasing overtime, which means the quality is improving
+12. Notice the error decreasing overtime, which means the quality is improving
 
-    ![run tensorboard](media/create-project-repo/tensorboard.png)
+   ![run tensorboard](media/create-project-repo/tensorboard.png)

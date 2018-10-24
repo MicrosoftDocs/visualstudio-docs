@@ -20,8 +20,8 @@ Retrieves an enumeration that allows a client to iterate through the line number
   
 ```C++  
 HRESULT findInlineeLines (   
-   IDiaSymbol*       parent,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaSymbol*       parent,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

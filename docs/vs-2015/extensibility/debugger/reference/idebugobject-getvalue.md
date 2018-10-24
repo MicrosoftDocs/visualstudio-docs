@@ -27,15 +27,15 @@ Gets the value of the object as a consecutive series of bytes.
   
 ```cpp#  
 HRESULT GetValue(   
-   BYTE* pValue,  
-   UINT  nSize  
+   BYTE* pValue,  
+   UINT  nSize  
 );  
 ```  
   
 ```csharp  
 int GetValue(  
-   ref byte[] pValue,   
-   uint nSize  
+   ref byte[] pValue,   
+   uint nSize  
 );  
 ```  
   

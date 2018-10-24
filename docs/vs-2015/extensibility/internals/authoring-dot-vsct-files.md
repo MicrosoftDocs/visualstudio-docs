@@ -80,159 +80,159 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
 ##### To define UI elements  
   
-1.  If you are defining any new menus, submenus, shortcut menus, or toolbars, add a `Menus` element to the `Commands` element. Then, for each menu to be created, add a [Menu](../../extensibility/menu-element.md) element to the `Menus` element.  
+1. If you are defining any new menus, submenus, shortcut menus, or toolbars, add a `Menus` element to the `Commands` element. Then, for each menu to be created, add a [Menu](../../extensibility/menu-element.md) element to the `Menus` element.  
   
-     Set the `guid` and `id` attributes of the `Menu` element, and then set the `type` attribute to the kind of menu you want. You may also set the `priority` attribute to establish the relative position of the menu in the parent group.  
+    Set the `guid` and `id` attributes of the `Menu` element, and then set the `type` attribute to the kind of menu you want. You may also set the `priority` attribute to establish the relative position of the menu in the parent group.  
   
-    > [!NOTE]
-    >  The `priority` attribute does not apply to toolbars and context menus.  
+   > [!NOTE]
+   >  The `priority` attribute does not apply to toolbars and context menus.  
   
-2.  All commands in the Visual Studio IDE must be hosted by command groups, which are the direct children of menus and toolbars. If you are adding new menus or toolbars to the IDE, these must contain new command groups. You may also add command groups to existing menus and toolbars so that you can visually group your commands.  
+2. All commands in the Visual Studio IDE must be hosted by command groups, which are the direct children of menus and toolbars. If you are adding new menus or toolbars to the IDE, these must contain new command groups. You may also add command groups to existing menus and toolbars so that you can visually group your commands.  
   
-     When you add new command groups, you must first create a `Groups` element, and then add to it a [Group](../../extensibility/group-element.md) element for each command group.  
+    When you add new command groups, you must first create a `Groups` element, and then add to it a [Group](../../extensibility/group-element.md) element for each command group.  
   
-     Set the `guid` and `id` attributes of each `Group` element, and then set the `priority` attribute to establish the relative position of the group on the parent menu. For more information, see [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md).  
+    Set the `guid` and `id` attributes of each `Group` element, and then set the `priority` attribute to establish the relative position of the group on the parent menu. For more information, see [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md).  
   
-3.  If you are adding new commands to the IDE, add a `Buttons` element to the `Commands` element. Then, for each command, add a [Button](../../extensibility/button-element.md) element to the `Buttons` element.  
+3. If you are adding new commands to the IDE, add a `Buttons` element to the `Commands` element. Then, for each command, add a [Button](../../extensibility/button-element.md) element to the `Buttons` element.  
   
-    1.  Set the `guid` and `id` attributes of each `Button` element, and then set the `type` attribute to the kind of button you want. You may also set the `priority` attribute to establish the relative position of the command in the parent group.  
+   1. Set the `guid` and `id` attributes of each `Button` element, and then set the `type` attribute to the kind of button you want. You may also set the `priority` attribute to establish the relative position of the command in the parent group.  
   
-        > [!NOTE]
-        >  Use `type="button"` for standard menu commands and buttons on toolbars.  
+      > [!NOTE]
+      >  Use `type="button"` for standard menu commands and buttons on toolbars.  
   
-    2.  In the `Button` element, add a [Strings](../../extensibility/strings-element.md) element that contains a [ButtonText](../../extensibility/buttontext-element.md) element and a [CommandName](../../extensibility/commandname-element.md) element. The `ButtonText` element provides the text label for a menu item, or the tooltip for a toolbar button. The `CommandName` element provides the name of the command to use in the command well.  
+   2. In the `Button` element, add a [Strings](../../extensibility/strings-element.md) element that contains a [ButtonText](../../extensibility/buttontext-element.md) element and a [CommandName](../../extensibility/commandname-element.md) element. The `ButtonText` element provides the text label for a menu item, or the tooltip for a toolbar button. The `CommandName` element provides the name of the command to use in the command well.  
   
-    3.  If your command will have an icon, create an [Icon](../../extensibility/icon-element.md) element in the `Button` element, and set its `guid` and `id` attributes to the `Bitmap` element for the icon.  
+   3. If your command will have an icon, create an [Icon](../../extensibility/icon-element.md) element in the `Button` element, and set its `guid` and `id` attributes to the `Bitmap` element for the icon.  
   
-        > [!NOTE]
-        >  Toolbar buttons must have icons.  
+      > [!NOTE]
+      >  Toolbar buttons must have icons.  
   
-     For more information, see [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
+      For more information, see [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
   
-4.  If any of your commands require icons, add a [Bitmaps](../../extensibility/bitmaps-element.md) element to the `Commands` element. Then, for each icon, add a [Bitmap](../../extensibility/bitmap-element.md) element to the `Bitmaps` element. This is where you specify the location of the bitmap resource. For more information, see [Adding Icons to Menu Commands](../../extensibility/adding-icons-to-menu-commands.md).  
+4. If any of your commands require icons, add a [Bitmaps](../../extensibility/bitmaps-element.md) element to the `Commands` element. Then, for each icon, add a [Bitmap](../../extensibility/bitmap-element.md) element to the `Bitmaps` element. This is where you specify the location of the bitmap resource. For more information, see [Adding Icons to Menu Commands](../../extensibility/adding-icons-to-menu-commands.md).  
   
- You can rely on the parenting structure to correctly place most menus, groups, and commands. For very large command sets, or when a menu, group, or command must appear in multiple places, we recommend that you specify command placement.  
+   You can rely on the parenting structure to correctly place most menus, groups, and commands. For very large command sets, or when a menu, group, or command must appear in multiple places, we recommend that you specify command placement.  
   
 ##### To rely on parenting to place UI elements in the IDE  
   
-1.  For typical parenting, create a `Parent` element in each `Menu`, `Group`, and `Command` element that is defined in your package.  
+1. For typical parenting, create a `Parent` element in each `Menu`, `Group`, and `Command` element that is defined in your package.  
   
-     The target of the `Parent` element is the menu or group that will contain the menu, group, or command.  
+    The target of the `Parent` element is the menu or group that will contain the menu, group, or command.  
   
-    1.  Set the `guid` attribute to the name of the `GuidSymbol` element that defines the command set. If the target element is not part of your package, use the guid for that command set, as defined in the corresponding .vsct file.  
+   1.  Set the `guid` attribute to the name of the `GuidSymbol` element that defines the command set. If the target element is not part of your package, use the guid for that command set, as defined in the corresponding .vsct file.  
   
-    2.  Set the `id` attribute to match the `id` attribute of the target menu or group. For a listing of the menus and groups that are exposed by Visual Studio, see [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) or [GUIDs and IDs of Visual Studio Toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md).  
+   2.  Set the `id` attribute to match the `id` attribute of the target menu or group. For a listing of the menus and groups that are exposed by Visual Studio, see [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) or [GUIDs and IDs of Visual Studio Toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md).  
   
- If you have a large number of UI elements to place in the IDE, or if you have elements that should appear in multiple places, define their placements in the [CommandPlacements](../../extensibility/commandplacements-element.md) element, as shown in the following steps.  
+   If you have a large number of UI elements to place in the IDE, or if you have elements that should appear in multiple places, define their placements in the [CommandPlacements](../../extensibility/commandplacements-element.md) element, as shown in the following steps.  
   
 ##### To use command placement to place UI elements in the IDE  
   
-1.  After the `Commands` element, add a `CommandPlacements` element.  
+1. After the `Commands` element, add a `CommandPlacements` element.  
   
-2.  In the `CommandPlacements` element, add a `CommandPlacement` element for each menu, group, or command to place.  
+2. In the `CommandPlacements` element, add a `CommandPlacement` element for each menu, group, or command to place.  
   
-     Each `CommandPlacement` element or `Parent` element places one menu, group, or command in one IDE location. A UI element can only have one parent, but it can have multiple command placements. To place a UI element in multiple locations, add a `CommandPlacement` element for each location.  
+    Each `CommandPlacement` element or `Parent` element places one menu, group, or command in one IDE location. A UI element can only have one parent, but it can have multiple command placements. To place a UI element in multiple locations, add a `CommandPlacement` element for each location.  
   
-3.  Set the `guid` and `id` attributes of each `CommandPlacement` element to the hosting menu or group, just as you would for a `Parent` element. You can also set the `priority` attribute to establish the relative position of the UI element.  
+3. Set the `guid` and `id` attributes of each `CommandPlacement` element to the hosting menu or group, just as you would for a `Parent` element. You can also set the `priority` attribute to establish the relative position of the UI element.  
   
- You can mix placement by parenting and command placement. However, for very large command sets, we recommend that you use only command placement.  
+   You can mix placement by parenting and command placement. However, for very large command sets, we recommend that you use only command placement.  
   
 ### Adding Specialized Behaviors  
  You can use [CommandFlag](../../extensibility/command-flag-element.md) elements to modify the behavior of menus and commands, for example, to change their appearance and visibility. You can also affect when a command is visible by using [VisibilityConstraints](../../extensibility/visibilityconstraints-element.md), or add keyboard shortcuts by using [KeyBindings](../../extensibility/keybindings-element.md). Certain kinds of menus and commands already have specialized behaviors built in.  
   
 ##### To add specialized behaviors  
   
-1.  To make a UI element visible only in certain UI contexts, for example, when a solution is loaded, use visibility constraints.  
+1. To make a UI element visible only in certain UI contexts, for example, when a solution is loaded, use visibility constraints.  
   
-    1.  After the `Commands` element, add a `VisibilityConstraints` element.  
+   1.  After the `Commands` element, add a `VisibilityConstraints` element.  
   
-    2.  For each UI item to constrain, add a [VisibilityItem](../../extensibility/visibilityitem-element.md) element.  
+   2.  For each UI item to constrain, add a [VisibilityItem](../../extensibility/visibilityitem-element.md) element.  
   
-    3.  For each `VisibilityItem` element, set the `guid` and `id` attributes to the menu, group, or command, and then set the `context` attribute to the UI context you want, as defined in the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> class. For more information, see [VisibilityItem Element](../../extensibility/visibilityitem-element.md).  
+   3.  For each `VisibilityItem` element, set the `guid` and `id` attributes to the menu, group, or command, and then set the `context` attribute to the UI context you want, as defined in the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80> class. For more information, see [VisibilityItem Element](../../extensibility/visibilityitem-element.md).  
   
-2.  To set the visibility or availability of a UI item in code, use one or more of the following command flags:  
+2. To set the visibility or availability of a UI item in code, use one or more of the following command flags:  
   
-    -   DefaultDisabled  
+   - DefaultDisabled  
   
-    -   DefaultInvisible  
+   - DefaultInvisible  
   
-    -   DynamicItemStart  
+   - DynamicItemStart  
   
-    -   DynamicVisibility  
+   - DynamicVisibility  
   
-    -   NoShowOnMenuController  
+   - NoShowOnMenuController  
   
-    -   NotInTBList  
-  
-     For more information, see [Command Flag Element](../../extensibility/command-flag-element.md).  
-  
-3.  To change how an element appears, or change its appearance dynamically, use one or more of the following command flags:  
-  
-    -   AlwaysCreate  
-  
-    -   CommandWellOnly  
-  
-    -   DefaultDocked  
-  
-    -   DontCache  
-  
-    -   DynamicItemStart  
-  
-    -   FixMenuController  
-  
-    -   IconAndText  
-  
-    -   Pict  
-  
-    -   StretchHorizontally  
-  
-    -   TextMenuUseButton  
-  
-    -   TextChanges  
-  
-    -   TextOnly  
+   - NotInTBList  
   
      For more information, see [Command Flag Element](../../extensibility/command-flag-element.md).  
   
-4.  To change how an element reacts when it receives commands, use one or more of the following command flags:  
+3. To change how an element appears, or change its appearance dynamically, use one or more of the following command flags:  
   
-    -   AllowParams  
+   - AlwaysCreate  
   
-    -   CaseSensitive  
+   - CommandWellOnly  
   
-    -   CommandWellOnly  
+   - DefaultDocked  
   
-    -   FilterKeys  
+   - DontCache  
   
-    -   NoAutoComplete  
+   - DynamicItemStart  
   
-    -   NoButtonCustomize  
+   - FixMenuController  
   
-    -   NoKeyCustomize  
+   - IconAndText  
   
-    -   NoToolbarClose  
+   - Pict  
   
-    -   PostExec  
+   - StretchHorizontally  
   
-    -   RouteToDocs  
+   - TextMenuUseButton  
   
-    -   TextIsAnchorCommand  
+   - TextChanges  
+  
+   - TextOnly  
   
      For more information, see [Command Flag Element](../../extensibility/command-flag-element.md).  
   
-5.  To attach a menu-dependent keyboard shortcut to a menu or an item on a menu, add an ampersand character ('&') in the `ButtonText` element for the menu or menu item. The character that follows the ampersand is the active keyboard shortcut when the parent menu is open.  
+4. To change how an element reacts when it receives commands, use one or more of the following command flags:  
   
-6.  To attach a menu-independent keyboard shortcut to a command, use [KeyBindings](../../extensibility/keybindings-element.md). For more information, see [KeyBinding Element](../../extensibility/keybinding-element.md).  
+   - AllowParams  
   
-7.  To localize menu text, use the `LocCanonicalName` element. For more information, see [Strings Element](../../extensibility/strings-element.md).  
+   - CaseSensitive  
   
- Some menu and button types include specialized behaviors. The following table describes some specialized menu and button types. For other types, see the `types` attribute descriptions in [Menu Element](../../extensibility/menu-element.md), [Button Element](../../extensibility/button-element.md), and [Combo Element](../../extensibility/combo-element.md).  
+   - CommandWellOnly  
   
- Combo box  
- A combo box is a drop-down list that can be used on a toolbar. To add combo boxes to the UI, create a [Combos](../../extensibility/combos-element.md) element in the `Commands` element. Then add to the `Combos` element a `Combo` element for each combo box to add. `Combo` elements have the same attributes and children as `Button` elements and also have `DefaultWidth` and `idCommandList` attributes. The `DefaultWidth` attribute sets the width in pixels, and the `idCommandList` attribute points to a command ID that is used to populate the combo box. For more information, see the `Combo` element documentation.  
+   - FilterKeys  
   
- MenuController  
- A menu controller is a button that has an arrow next to it. Clicking the arrow opens a list. To add a menu controller to the UI, create a `Menu` element and set its `type` attribute to **MenuController** or **MenuControllerLatched**, depending on the behavior you want. To populate a menu controller, set it as the parent of a `Group` element. The menu controller will display all children of that group on its drop-down list.  
+   - NoAutoComplete  
+  
+   - NoButtonCustomize  
+  
+   - NoKeyCustomize  
+  
+   - NoToolbarClose  
+  
+   - PostExec  
+  
+   - RouteToDocs  
+  
+   - TextIsAnchorCommand  
+  
+     For more information, see [Command Flag Element](../../extensibility/command-flag-element.md).  
+  
+5. To attach a menu-dependent keyboard shortcut to a menu or an item on a menu, add an ampersand character ('&') in the `ButtonText` element for the menu or menu item. The character that follows the ampersand is the active keyboard shortcut when the parent menu is open.  
+  
+6. To attach a menu-independent keyboard shortcut to a command, use [KeyBindings](../../extensibility/keybindings-element.md). For more information, see [KeyBinding Element](../../extensibility/keybinding-element.md).  
+  
+7. To localize menu text, use the `LocCanonicalName` element. For more information, see [Strings Element](../../extensibility/strings-element.md).  
+  
+   Some menu and button types include specialized behaviors. The following table describes some specialized menu and button types. For other types, see the `types` attribute descriptions in [Menu Element](../../extensibility/menu-element.md), [Button Element](../../extensibility/button-element.md), and [Combo Element](../../extensibility/combo-element.md).  
+  
+   Combo box  
+   A combo box is a drop-down list that can be used on a toolbar. To add combo boxes to the UI, create a [Combos](../../extensibility/combos-element.md) element in the `Commands` element. Then add to the `Combos` element a `Combo` element for each combo box to add. `Combo` elements have the same attributes and children as `Button` elements and also have `DefaultWidth` and `idCommandList` attributes. The `DefaultWidth` attribute sets the width in pixels, and the `idCommandList` attribute points to a command ID that is used to populate the combo box. For more information, see the `Combo` element documentation.  
+  
+   MenuController  
+   A menu controller is a button that has an arrow next to it. Clicking the arrow opens a list. To add a menu controller to the UI, create a `Menu` element and set its `type` attribute to **MenuController** or **MenuControllerLatched**, depending on the behavior you want. To populate a menu controller, set it as the parent of a `Group` element. The menu controller will display all children of that group on its drop-down list.  
   
 ## See Also  
  [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md)   

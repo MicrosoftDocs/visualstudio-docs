@@ -126,21 +126,21 @@ In the following `Person` class example, the `other` object that is passed to th
 ```csharp
 public class Person
 {
-    public string Name { get; private set; }
-    public int Age { get; private set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
 
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
-    // Copy constructor CA1062 fires because other is dereferenced
-    // without being checked for null
-    public Person(Person other)
-        : this(other.Name, other.Age)
-    {
-    }
+    // Copy constructor CA1062 fires because other is dereferenced
+    // without being checked for null
+    public Person(Person other)
+        : this(other.Name, other.Age)
+    {
+    }
 }
 ```
 
@@ -151,29 +151,28 @@ In the following revised `Person` example, the `other` object that is passed to 
 ```csharp
 public class Person
 {
-    public string Name { get; private set; }
-    public int Age { get; private set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
 
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
-    // Copy constructor
-    public Person(Person other)
-        : this(PassThroughNonNull(other).Name,
-          PassThroughNonNull(other).Age)
-    {
-    }
+    // Copy constructor
+    public Person(Person other)
+        : this(PassThroughNonNull(other).Name,
+          PassThroughNonNull(other).Age)
+    {
+    }
 
-    // Null check method
-    private static Person PassThroughNonNull(Person person)
-    {
-        if (person == null)
-            throw new ArgumentNullException("person");
-        return person;
-    }
+    // Null check method
+    private static Person PassThroughNonNull(Person person)
+    {
+        if (person == null)
+            throw new ArgumentNullException("person");
+        return person;
+    }
 }
-
 ```

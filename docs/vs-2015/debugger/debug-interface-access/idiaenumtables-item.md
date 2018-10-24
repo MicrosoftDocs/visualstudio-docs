@@ -28,8 +28,8 @@ Retrieves a table by means of an index or name.
   
 ```cpp#  
 HRESULT Item (   
-   VARIANT     index,  
-   IDiaTable** table  
+   VARIANT     index,  
+   IDiaTable** table  
 );  
 ```  
   

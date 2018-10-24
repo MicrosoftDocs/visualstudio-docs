@@ -26,7 +26,7 @@ Determines if the field represents a closed type.
   
 ```cpp#  
 HRESULT IsClosedType(  
-   void  
+   void  
 );  
 ```  
   

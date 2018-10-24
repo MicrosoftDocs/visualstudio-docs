@@ -120,34 +120,34 @@ After you create a custom editor, you can add more features to it.
   
 ## Robust programming  
   
--   The editor instance is created when the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method. If the editor supports multiple views, `CreateEditorInstance` creates both the document data and the document view objects. If the document data object is already open, a non-null `punkDocDataExisting` value is passed to `IVsEditorFactory::CreateEditorInstance`. Your editor factory implementation must determine whether an existing document data object is compatible by querying for appropriate interfaces on it. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
+- The editor instance is created when the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method. If the editor supports multiple views, `CreateEditorInstance` creates both the document data and the document view objects. If the document data object is already open, a non-null `punkDocDataExisting` value is passed to `IVsEditorFactory::CreateEditorInstance`. Your editor factory implementation must determine whether an existing document data object is compatible by querying for appropriate interfaces on it. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
   
--   If you use the simplified embedding approach, implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> interface.  
+- If you use the simplified embedding approach, implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> interface.  
   
--   If you decide to use in-place activation, implement the following interfaces:  
+- If you decide to use in-place activation, implement the following interfaces:  
   
-     <xref:Microsoft.VisualStudio.OLE.Interop.IOleObject>  
+   <xref:Microsoft.VisualStudio.OLE.Interop.IOleObject>  
   
-     <xref:Microsoft.VisualStudio.OLE.Interop.IOleInPlaceActiveObject>  
+   <xref:Microsoft.VisualStudio.OLE.Interop.IOleInPlaceActiveObject>  
   
-     <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent>  
+   <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent>  
   
-    > [!NOTE]
-    >  The `IOleInPlaceComponent` interface is used to avoid OLE 2 menu merging.  
+  > [!NOTE]
+  >  The `IOleInPlaceComponent` interface is used to avoid OLE 2 menu merging.  
   
-     Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own *.vsct* file to define its own command menu structure or if it can implement standard commands defined by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it's often necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. Your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus, and toolbars in a *.vsct* file. If you create an in-place activation editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a *.vsct* file instead of using OLE 2 menu merging.  
+   Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own *.vsct* file to define its own command menu structure or if it can implement standard commands defined by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it's often necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. Your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus, and toolbars in a *.vsct* file. If you create an in-place activation editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a *.vsct* file instead of using OLE 2 menu merging.  
   
--   To prevent menu command crowding in the UI, you should use the existing commands in the IDE before inventing new commands. Shared commands are defined in *SharedCmdDef.vsct* and *ShellCmdDef.vsct*. These files are installed by default in the VisualStudioIntegration\Common\Inc subdirectory of your [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] installation.  
+- To prevent menu command crowding in the UI, you should use the existing commands in the IDE before inventing new commands. Shared commands are defined in *SharedCmdDef.vsct* and *ShellCmdDef.vsct*. These files are installed by default in the VisualStudioIntegration\Common\Inc subdirectory of your [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] installation.  
   
--   `ISelectionContainer` can express both single and multiple selections. Each selected object is implemented as an `IDispatch` object.  
+- `ISelectionContainer` can express both single and multiple selections. Each selected object is implemented as an `IDispatch` object.  
   
--   The IDE implements `IOleUndoManager` as a service accessible from a <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance%2A> or as an object that can be instantiated through <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance%2A>. Your editor implements the `IOleUndoUnit` interface for each `Undo` action.  
+- The IDE implements `IOleUndoManager` as a service accessible from a <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance%2A> or as an object that can be instantiated through <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance%2A>. Your editor implements the `IOleUndoUnit` interface for each `Undo` action.  
   
--   There are two places a custom editor can expose automation objects:  
+- There are two places a custom editor can expose automation objects:  
   
-    -   `Document.Object`  
+  -   `Document.Object`  
   
-    -   `Window.Object`  
+  -   `Window.Object`  
   
 ## See also  
  [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)   

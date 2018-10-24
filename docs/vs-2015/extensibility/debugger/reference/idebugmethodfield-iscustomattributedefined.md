@@ -27,13 +27,13 @@ Determines whether a specific custom attribute has been defined.
   
 ```cpp#  
 HRESULT IsCustomAttributeDefined(   
-   LPCOLESTR pszCustomAttributeName  
+   LPCOLESTR pszCustomAttributeName  
 );  
 ```  
   
 ```csharp  
 int IsCustomAttributeDefined(  
-   [In] string pszCustomAttributeName  
+   [In] string pszCustomAttributeName  
 );  
 ```  
   

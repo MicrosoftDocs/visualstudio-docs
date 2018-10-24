@@ -23,13 +23,13 @@ Removes a port.
   
 ```cpp  
 HRESULT RemovePort(   
-   IDebugPort2* pPort  
+   IDebugPort2* pPort  
 );  
 ```  
   
 ```csharp  
 int RemovePort(   
-   IDebugPort2 pPort  
+   IDebugPort2 pPort  
 );  
 ```  
   

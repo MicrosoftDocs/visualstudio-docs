@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1025: Replace repetitive arguments with params array
+
 |||
 |-|-|
 |TypeName|ReplaceRepetitiveArgumentsWithParamsArray|

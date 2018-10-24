@@ -20,31 +20,32 @@ ms.workload:
   - "multiple"
 ---
 # References Page, Project Designer (Visual Basic)
+
 Use the **References** page of the **Project Designer** to manage references, web references, and imported namespaces in your project. Projects can contain references to COM components, XML web services, .NET Framework class libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).
 
- To access the **References** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **References** tab.
+To access the **References** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **References** tab.
 
 ## UIElement List
- The following options allow you to select or remove references and imported namespaces in your project.
 
- **Unused References**
+The following options allow you to select or remove references and imported namespaces in your project.
 
- Click this button to access the **Unused References** dialog box.
+**Unused References**
 
- The **Unused References** dialog box allows you to remove references that are included in your project but not actually used by the code. It contains a grid that lists the **Reference Name**, the **Path**, and other information about the unused namespace references in your project. In the grid, select the namespace references that you want to remove from your project and click **Remove**.
+Click this button to access the **Unused References** dialog box.
 
- **Reference Paths**
+The **Unused References** dialog box allows you to remove references that are included in your project but not actually used by the code. It contains a grid that lists the **Reference Name**, the **Path**, and other information about the unused namespace references in your project. In the grid, select the namespace references that you want to remove from your project and click **Remove**.
 
- Click this button to access the **Reference Paths** dialog box.
+**Reference Paths**
+
+Click this button to access the **Reference Paths** dialog box.
 
 > [!NOTE]
 > When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:
-
 >
->  1.  The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.
-> 2.  Folders that are specified in the **Reference Paths** dialog box.
-> 3.  Folders that display files in the **Add Reference** dialog box.
-> 4.  The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)
+> 1. The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.
+> 2. Folders that are specified in the **Reference Paths** dialog box.
+> 3. Folders that display files in the **Add Reference** dialog box.
+> 4. The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)
 
  **References**
 

@@ -27,13 +27,13 @@ This method gets a new object for the visualizer. This method will always create
   
 ```cpp  
 HRESULT GetNewObjectForVisualizer(  
-   IDebugObject** ppObject  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetNewObjectForVisualizer(  
-   out IDebugObject ppObject  
+   out IDebugObject ppObject  
 );  
 ```  
   

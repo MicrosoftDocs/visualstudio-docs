@@ -22,7 +22,7 @@ Retrieves the symbol interface of the type of the virtual table for a user-defin
   
 ```C++  
 HRESULT get_virtualTableShape (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

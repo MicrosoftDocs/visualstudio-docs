@@ -22,17 +22,17 @@ The association of a file name extension with an application generally has a pre
 ## Register standard verbs  
  The operating system recognizes the following standard verbs:  
   
--   Open  
+- Open  
   
--   Edit  
+- Edit  
   
--   Play  
+- Play  
   
--   Print  
+- Print  
   
--   Preview  
+- Preview  
   
- Whenever possible, register a standard verb. The most common choice is the Open verb. Use the Edit verb only if there is a clear difference between opening the file and editing the file. For example, opening an *.htm* file displays it in the browser, whereas editing an *.htm* file starts an HTML editor. Standard verbs are localized with the operating system locale.  
+  Whenever possible, register a standard verb. The most common choice is the Open verb. Use the Edit verb only if there is a clear difference between opening the file and editing the file. For example, opening an *.htm* file displays it in the browser, whereas editing an *.htm* file starts an HTML editor. Standard verbs are localized with the operating system locale.  
   
 > [!NOTE]
 >  When registering standard verbs, do not set the default value for the Open key. The default value contains the display string on the menu. The operating system supplies this string for standard verbs.  

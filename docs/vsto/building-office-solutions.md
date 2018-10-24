@@ -58,23 +58,23 @@ ms.workload:
 ### Application-level projects  
  When you build a VSTO Add-in project, the following items are included in the project output:  
   
--   The project assembly and all referenced assemblies that have their **Copy Local** property set to **true**.  
+- The project assembly and all referenced assemblies that have their **Copy Local** property set to **true**.  
   
--   The application manifest, which has the file name extension *.manifest*. For more information, see [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
+- The application manifest, which has the file name extension *.manifest*. For more information, see [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
--   The deployment manifest, which has the file name extension *.vsto*. For more information, see [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).  
+- The deployment manifest, which has the file name extension *.vsto*. For more information, see [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).  
   
--   A program database (*PDB*) file for the project assembly.  
+- A program database (*PDB*) file for the project assembly.  
   
- The build process for VSTO Add-in projects also creates a set of registry entries on the development computer that are required to load the VSTO Add-in. For more information, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
+  The build process for VSTO Add-in projects also creates a set of registry entries on the development computer that are required to load the VSTO Add-in. For more information, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
   
- If you build an Outlook VSTO Add-in project that contains form regions, the build process adds the following additional information to the registry:  
+  If you build an Outlook VSTO Add-in project that contains form regions, the build process adds the following additional information to the registry:  
   
--   A key for each message class that is associated with one or more form regions.  
+- A key for each message class that is associated with one or more form regions.  
   
--   An entry for each form region and an associated value that represents the name of the Outlook VSTO Add-in.  
+- An entry for each form region and an associated value that represents the name of the Outlook VSTO Add-in.  
   
- Outlook needs this information to load the form regions.  
+  Outlook needs this information to load the form regions.  
   
 ## Referenced assemblies  
  You can reference assemblies (including class library projects) from your Building Office Solutions project. Every referenced assembly has a property called **Copy Local**. **Copy Local** indicates whether the assembly is copied to the output directory. By default it is set to **true**. Every referenced assembly that has **Copy Local** set to **true** is copied to the output directory.  

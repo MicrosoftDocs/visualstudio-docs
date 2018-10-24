@@ -24,15 +24,15 @@ ms.workload:
   
  This walkthrough demonstrates the following tasks:  
   
--   Creating a site definition by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] project template.  
+- Creating a site definition by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] project template.  
   
--   Creating a SharePoint site by using a site definition in SharePoint.  
+- Creating a SharePoint site by using a site definition in SharePoint.  
   
--   Adding a visual Web part to the solution.  
+- Adding a visual Web part to the solution.  
   
--   Customizing the site's default.aspx page by adding the new visual Web part to it.  
+- Customizing the site's default.aspx page by adding the new visual Web part to it.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -46,29 +46,29 @@ ms.workload:
   
 #### To create a site definition project  
   
-1.  On the menu bar, choose **File** > **New** > **Project**. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.  
+1. On the menu bar, choose **File** > **New** > **Project**. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.  
   
-     The **New Project** dialog box appears.  
+    The **New Project** dialog box appears.  
   
-2.  Expand the **Visual C#** node or the **Visual Basic** node, expand the **SharePoint** node, and then choose the **2010** node.  
+2. Expand the **Visual C#** node or the **Visual Basic** node, expand the **SharePoint** node, and then choose the **2010** node.  
   
-3.  In the **Templates** list, choose the **SharePoint 2010 Project** template.  
+3. In the **Templates** list, choose the **SharePoint 2010 Project** template.  
   
-4.  In the **Name** box, enter **TestSiteDef**, and then choose the **OK** button.  
+4. In the **Name** box, enter **TestSiteDef**, and then choose the **OK** button.  
   
-     The **SharePoint Customization Wizard** appears.  
+    The **SharePoint Customization Wizard** appears.  
   
-5.  On the **Specify the site and security level for debugging** page, enter the URL for the SharePoint site where you want to debug the site definition, or use the default location (http://*System Name*/).  
+5. On the **Specify the site and security level for debugging** page, enter the URL for the SharePoint site where you want to debug the site definition, or use the default location (http://<em>System Name</em>/).  
   
-6.  In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
+6. In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
   
-     All site definition projects must be deployed as farm solutions. For more information about sandboxed solutions versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
+    All site definition projects must be deployed as farm solutions. For more information about sandboxed solutions versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-7.  Choose the **Finish** button.  
+7. Choose the **Finish** button.  
   
-     The project appears in **Solution Explorer**.  
+    The project appears in **Solution Explorer**.  
   
-8.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
+8. In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
 9. Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   

@@ -65,14 +65,14 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
   
 ```  
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
-       <ParameterGroup>  
-              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
-              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
-              ...  
+       <ParameterGroup>  
+              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
+              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
+              ...  
 </ParameterGroup>  
-       <TaskBody Evaluate="true">  
-      ... Task factory-specific data ...  
-       </TaskBody>  
+       <TaskBody Evaluate="true">  
+      ... Task factory-specific data ...  
+       </TaskBody>  
 </UsingTask>  
 ```  
   

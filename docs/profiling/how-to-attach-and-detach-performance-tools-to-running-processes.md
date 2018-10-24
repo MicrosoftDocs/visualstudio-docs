@@ -27,13 +27,13 @@ The profiler can be used to attach to or detach from a running process to make s
   
  The processes that are available to profile depend on the User Access Permissions that are set by an administrator of the computer. A User account may, for example, have permission for any of the following:  
   
--   Advanced profiling features, when the administrator has set the driver and service to start.  
+- Advanced profiling features, when the administrator has set the driver and service to start.  
   
--   Sample profiling only (domain users).  
+- Sample profiling only (domain users).  
   
--   Deny access to profiling to everybody.  
+- Deny access to profiling to everybody.  
   
- For more information, see [Profiling and Windows Vista security](../profiling/profiling-and-windows-vista-security.md) and the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).  
+  For more information, see [Profiling and Windows Vista security](../profiling/profiling-and-windows-vista-security.md) and the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).  
   
 ### To attach to a running process  
   

@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the user-defined data type is an indirec
   
 ```cpp#  
 HRESULT get_indirectVirtualBaseClass (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

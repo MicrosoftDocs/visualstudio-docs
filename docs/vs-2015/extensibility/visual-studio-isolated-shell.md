@@ -38,17 +38,17 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
 ## Working with the isolated shell  
  A Visual Studio isolated shell application has full access to Visual Studio services and supports special customization and branding. There are several ways you can customize an isolated shell application:  
   
--   You can use VSPackages and Managed Extensibility Framework (MEF) component parts to extend an isolated shell application just as you would use them in any other Visual Studio extension. For more information, see [Extending the Isolated Shell](../extensibility/extending-the-isolated-shell.md).  
+- You can use VSPackages and Managed Extensibility Framework (MEF) component parts to extend an isolated shell application just as you would use them in any other Visual Studio extension. For more information, see [Extending the Isolated Shell](../extensibility/extending-the-isolated-shell.md).  
   
--   To make Visual Studio features and menu command groups available or unavailable, update the .vsct file in the user interface (UI) project of the application.  
+- To make Visual Studio features and menu command groups available or unavailable, update the .vsct file in the user interface (UI) project of the application.  
   
--   To remove **Options** pages or other Visual Studio shell components from the application, update the .pkgundef file of the application.  
+- To remove **Options** pages or other Visual Studio shell components from the application, update the .pkgundef file of the application.  
   
--   To modify other aspects of the appearance or behavior of the shell, update the .pkgdef file of the application.  
+- To modify other aspects of the appearance or behavior of the shell, update the .pkgdef file of the application.  
   
--   Some aspects of the shell can also be specified when the application is started. To do this, update the parameters in the call to the Start entry point of the appenvstub.dll.  
+- Some aspects of the shell can also be specified when the application is started. To do this, update the parameters in the call to the Start entry point of the appenvstub.dll.  
   
- For more information about the different elements that you can customize, see [Elements of the Isolated Shell](../extensibility/elements-of-the-isolated-shell.md).  
+  For more information about the different elements that you can customize, see [Elements of the Isolated Shell](../extensibility/elements-of-the-isolated-shell.md).  
   
 ## Standard Features of the Isolated Shell  
  The following features are standard to all editions of Visual Studio.  

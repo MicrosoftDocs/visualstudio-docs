@@ -1,4 +1,3 @@
-
 ---
 title: "Install certificates required for Visual Studio offline installation | Microsoft Docs"
 description: "Learn how to install certificates for a Visual Studio offline installation."

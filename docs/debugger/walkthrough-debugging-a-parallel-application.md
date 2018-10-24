@@ -57,25 +57,25 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 #### To create the sample project  
   
-1.  In Visual Studio, on the **File** menu, point to **New** and then click **Project**.  
+1. In Visual Studio, on the **File** menu, point to **New** and then click **Project**.  
   
-2.  Select either **Visual C#**, **Visual Basic**, or **Visual C++**. For the managed languages, ensure that [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is displayed in the framework box.  
+2. Select either **Visual C#**, **Visual Basic**, or **Visual C++**. For the managed languages, ensure that [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is displayed in the framework box.  
   
-3.  Under **Windows Desktop**, choose **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.  
+3. Under **Windows Desktop**, choose **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.  
   
-4.  Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.  
+4. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.  
   
-5.  Paste the following code for your chosen language into the empty code file.  
+5. Paste the following code for your chosen language into the empty code file.  
   
- [!code-csharp[Debugger#1](../debugger/codesnippet/CSharp/walkthrough-debugging-a-parallel-application_1.cs)]
- [!code-cpp[Debugger#1](../debugger/codesnippet/CPP/walkthrough-debugging-a-parallel-application_1.cpp)]
- [!code-vb[Debugger#1](../debugger/codesnippet/VisualBasic/walkthrough-debugging-a-parallel-application_1.vb)]  
+   [!code-csharp[Debugger#1](../debugger/codesnippet/CSharp/walkthrough-debugging-a-parallel-application_1.cs)]
+   [!code-cpp[Debugger#1](../debugger/codesnippet/CPP/walkthrough-debugging-a-parallel-application_1.cpp)]
+   [!code-vb[Debugger#1](../debugger/codesnippet/VisualBasic/walkthrough-debugging-a-parallel-application_1.vb)]  
   
-1.  On the **File** menu, click **Save All**.  
+6. On the **File** menu, click **Save All**.  
   
-2.  On the **Build** menu, click **Rebuild Solution**.  
+7. On the **Build** menu, click **Rebuild Solution**.  
   
-     Notice that there are four calls to `Debugger.Break` (`DebugBreak` in the C++ sample) Therefore, you do not have to insert breakpoints; just running the application will cause it to break in the debugger up to four times.  
+    Notice that there are four calls to `Debugger.Break` (`DebugBreak` in the C++ sample) Therefore, you do not have to insert breakpoints; just running the application will cause it to break in the debugger up to four times.  
   
 ## Using the Parallel Stacks Window: Threads View  
  On the **Debug** menu, click **Start Debugging**. Wait for the first breakpoint to be hit.  

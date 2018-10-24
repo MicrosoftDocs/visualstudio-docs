@@ -295,7 +295,7 @@ Xml Property nodes are found under the class nodes.
 Role data nodes are found under the source class nodes.
 
 |Property|Description|
-|--------------|-----------------|
+|-|-|
 |Has Custom Moniker|Set this to true if you want to supply your own code for generating and resolving monikers that traverse this relationship.<br /><br /> For detailed instructions, build the solution, and then double-click the error messages.|
 |Domain Relationship|Specifies the relationship to which these options apply. Read-only.|
 |Omit Element|If true, the XML node that corresponds to the source role is omitted from the schema.<br /><br /> If there is more than one relationship between the source and target classes, this role node distinguishes between links that belong to the two relationships. We therefore recommend that you do not set this option in this case.|

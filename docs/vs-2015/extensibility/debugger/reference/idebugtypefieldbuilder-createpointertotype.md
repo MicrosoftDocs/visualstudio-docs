@@ -26,15 +26,15 @@ Creates a pointer to the specified type.
   
 ```cpp#  
 HRESULT CreatePointerToType(  
-   IDebugField*  pTypeField,  
-   IDebugField** pPtrToTypeField  
+   IDebugField*  pTypeField,  
+   IDebugField** pPtrToTypeField  
 );  
 ```  
   
 ```csharp  
 int CreatePointerToType(  
-   IDebugField     pTypeField,  
-   out IDebugField pPtrToTypeField  
+   IDebugField     pTypeField,  
+   out IDebugField pPtrToTypeField  
 );  
 ```  
   

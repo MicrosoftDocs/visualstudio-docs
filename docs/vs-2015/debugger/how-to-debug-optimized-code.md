@@ -44,37 +44,37 @@ NOTE]
   
  Optimization can affect:  
   
--   Local variables, which can be removed by the optimizer or moved to locations the debugger does not understand.  
+- Local variables, which can be removed by the optimizer or moved to locations the debugger does not understand.  
   
--   Positions inside a function, which are changed when the optimizer merges blocks of code.  
+- Positions inside a function, which are changed when the optimizer merges blocks of code.  
   
--   Function names for frames on the call stack, which might be wrong if the optimizer merges two functions.  
+- Function names for frames on the call stack, which might be wrong if the optimizer merges two functions.  
   
- The frames that you see on the call stack are almost always correct, however, assuming you have symbols for all frames. The frames on the call stack will be wrong if you have stack corruption, if you have functions written in assembly language, or if there are operating system frames without matching symbols on the call stack.  
+  The frames that you see on the call stack are almost always correct, however, assuming you have symbols for all frames. The frames on the call stack will be wrong if you have stack corruption, if you have functions written in assembly language, or if there are operating system frames without matching symbols on the call stack.  
   
- Global and static variables are always shown correctly. So is structure layout. If you have a pointer to a structure and the value of the pointer is correct, every member variable of the structure will show the correct value.  
+  Global and static variables are always shown correctly. So is structure layout. If you have a pointer to a structure and the value of the pointer is correct, every member variable of the structure will show the correct value.  
   
- Because of these limitations, you should debug using an unoptimized version of your program if at all possible. By default, optimization is turned off in the Debug configuration of a Visual C++ program and turned on in the Release configuration.  
+  Because of these limitations, you should debug using an unoptimized version of your program if at all possible. By default, optimization is turned off in the Debug configuration of a Visual C++ program and turned on in the Release configuration.  
   
- However, a bug might appear only in an optimized version of a program. In that case, you must debug the optimized code.  
+  However, a bug might appear only in an optimized version of a program. In that case, you must debug the optimized code.  
   
 ### To turn on optimization in a Debug build configuration  
   
-1.  When you create a new project, select the `Win32 Debug` target. Use the `Win32``Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.  
+1. When you create a new project, select the `Win32 Debug` target. Use the `Win32``Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.  
   
-2.  Select the project in Solution Explorer.  
+2. Select the project in Solution Explorer.  
   
-3.  On the **View** menu, click **Property Pages**.  
+3. On the **View** menu, click **Property Pages**.  
   
-4.  In the **Property Pages** dialog box, make sure `Debug` is selected in the **Configuration** drop-down list.  
+4. In the **Property Pages** dialog box, make sure `Debug` is selected in the **Configuration** drop-down list.  
   
-5.  In the folder view on the left, select the **C/C++** folder.  
+5. In the folder view on the left, select the **C/C++** folder.  
   
-6.  Under the **C++** folder, select `Optimization`.  
+6. Under the **C++** folder, select `Optimization`.  
   
-7.  In the properties list on the right, find `Optimization`. The setting next to it probably says `Disabled (`[/Od](http://msdn.microsoft.com/library/b1ac31b7-e086-4eeb-be5e-488f7513f5f5)`)`. Choose one of the other options (`Minimum Size``(`[/O1](http://msdn.microsoft.com/library/2d1423f5-53d9-44da-8908-b33a351656c2)`)`, `Maximum Speed``(`[/O2](http://msdn.microsoft.com/library/2d1423f5-53d9-44da-8908-b33a351656c2)`)`, `Full Optimization``(`[/Ox](http://msdn.microsoft.com/library/3ad7c30b-c615-428c-b1d0-2e024f81c760)`)`, or `Custom`).  
+7. In the properties list on the right, find `Optimization`. The setting next to it probably says `Disabled (`[/Od](http://msdn.microsoft.com/library/b1ac31b7-e086-4eeb-be5e-488f7513f5f5)`)`. Choose one of the other options (`Minimum Size``(`[/O1](http://msdn.microsoft.com/library/2d1423f5-53d9-44da-8908-b33a351656c2)`)`, `Maximum Speed``(`[/O2](http://msdn.microsoft.com/library/2d1423f5-53d9-44da-8908-b33a351656c2)`)`, `Full Optimization``(`[/Ox](http://msdn.microsoft.com/library/3ad7c30b-c615-428c-b1d0-2e024f81c760)`)`, or `Custom`).  
   
-8.  If you chose the `Custom` option for `Optimization`, you can now set options for any of the other properties shown in the properties list.  
+8. If you chose the `Custom` option for `Optimization`, you can now set options for any of the other properties shown in the properties list.  
   
 9. Select the Configuation Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)`)` to the **Additional Options** text box.  
   
@@ -83,7 +83,7 @@ NOTE]
     >   
     >  Adding `/Zo` will disable [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md).  
   
- When you debug optimized code, use the **Disassembly** window to see what instructions are actually created and executed. When you set breakpoints, you need to know that the breakpoint might move together with an instruction. For example, consider the following code:  
+   When you debug optimized code, use the **Disassembly** window to see what instructions are actually created and executed. When you set breakpoints, you need to know that the breakpoint might move together with an instruction. For example, consider the following code:  
   
 ```  
 for (x=0; x<10; x++)  

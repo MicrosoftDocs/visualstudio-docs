@@ -33,11 +33,11 @@ ms.workload:
 # Visual Studio Tools for Office runtime overview
   To run solutions that are created by using the Microsoft Office developer tools in Visual Studio, the Visual Studio 2010 Tools for Office runtime must be installed on end-user computers. For more information, see [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md). The Visual Studio 2010 Tools for Office runtime consists of two main components:  
   
--   The Office extensions for the .NET Framework. These components are managed assemblies that provide the communication layer between your solution and the Microsoft Office application. For more information, see [Understand the Office extensions for the .NET Framework](#officeextensions).  
+- The Office extensions for the .NET Framework. These components are managed assemblies that provide the communication layer between your solution and the Microsoft Office application. For more information, see [Understand the Office extensions for the .NET Framework](#officeextensions).  
   
--   The Office solution loader. This component is a set of unmanaged DLLs that Office applications use to load the runtime and your solutions. For more information, see [Understand the Office solution loader](#UnmanagedLoader).  
+- The Office solution loader. This component is a set of unmanaged DLLs that Office applications use to load the runtime and your solutions. For more information, see [Understand the Office solution loader](#UnmanagedLoader).  
   
- The runtime can be installed in several different ways. Depending on the configuration of the computer, different runtime components are installed when you install the runtime. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).  
+  The runtime can be installed in several different ways. Depending on the configuration of the computer, different runtime components are installed when you install the runtime. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).  
   
 ##  <a name="officeextensions"></a> Understand the Office extensions for the .NET Framework  
  The Visual Studio 2010 Tools for Office runtime includes Office extensions for the .NET Framework 3.5, the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later. Solutions that target each version of the .NET Framework use the appropriate extensions for that version.  
@@ -59,17 +59,17 @@ ms.workload:
   
  By default, the type equivalence feature is not enabled when you create an Office project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. If you want to enable this feature, set the **Embed Interop Types** property of any of the following assembly references in your project to **True**:  
   
--   Microsoft.Office.Tools.dll  
+- Microsoft.Office.Tools.dll  
   
--   Microsoft.Office.Tools.Common.dll  
+- Microsoft.Office.Tools.Common.dll  
   
--   Microsoft.Office.Tools.Excel.dll  
+- Microsoft.Office.Tools.Excel.dll  
   
--   Microsoft.Office.Tools.Outlook.dll  
+- Microsoft.Office.Tools.Outlook.dll  
   
--   Microsoft.Office.Tools.Word.dll  
+- Microsoft.Office.Tools.Word.dll  
   
- After you make this change, type information for all of the runtime types used by the project is embedded into the solution assembly when you build the project. This embedded type information, rather than the type information in the referenced assemblies, are used by the solution at runtime.  
+  After you make this change, type information for all of the runtime types used by the project is embedded into the solution assembly when you build the project. This embedded type information, rather than the type information in the referenced assemblies, are used by the solution at runtime.  
   
 ##  <a name="UnmanagedLoader"></a> Understand the Office solution loader  
  The Visual Studio Tools for Office runtime includes several unmanaged DLLs that Office applications use to load the runtime and Office solutions. Although you should never have to work with these DLLs directly, knowing the purposes of these DLLs can help you better understand the architecture of Office solutions.  
@@ -84,17 +84,17 @@ ms.workload:
 ### VSTOLoader.dll  
  After *VSTOEE.dll* loads the appropriate version of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], *VSTOLoader.dll* performs most of the work that is required to load the solution assembly. *VSTOLoader.dll* does several things:  
   
--   It creates an application domain for each solution assembly.  
+- It creates an application domain for each solution assembly.  
   
--   It performs a set of security checks to verify that the solution assembly has permission to run.  
+- It performs a set of security checks to verify that the solution assembly has permission to run.  
   
--   It loads the version of the Office extensions for the .NET Framework that is required by the solution.  
+- It loads the version of the Office extensions for the .NET Framework that is required by the solution.  
   
- *VSTOLoader.dll* also does several things that are specific to VSTO Add-ins:  
+  *VSTOLoader.dll* also does several things that are specific to VSTO Add-ins:  
   
--   It implements the <xref:Extensibility.IDTExtensibility2> interface. <xref:Extensibility.IDTExtensibility2> is a COM interface that all VSTO Add-ins for Microsoft Office applications must implement. This interface defines methods that the application calls to communicate with the VSTO Add-in.  
+- It implements the <xref:Extensibility.IDTExtensibility2> interface. <xref:Extensibility.IDTExtensibility2> is a COM interface that all VSTO Add-ins for Microsoft Office applications must implement. This interface defines methods that the application calls to communicate with the VSTO Add-in.  
   
--   It implements the IManagedAddin interface. This interface is used by Office applications to help load VSTO Add-ins. For more information, see [IManagedAddin interface](../vsto/imanagedaddin-interface.md).  
+- It implements the IManagedAddin interface. This interface is used by Office applications to help load VSTO Add-ins. For more information, see [IManagedAddin interface](../vsto/imanagedaddin-interface.md).  
   
 ## Understand the 32-bit and 64-bit versions of the runtime  
  There are separate 64-bit and 32-bit versions of the Visual Studio 2010 Tools for Office runtime. These versions of the runtime are used to run solutions in 64-bit and 32-bit editions Office. The following table shows which version of the runtime is required for each combination of Windows and Office.  

@@ -55,45 +55,45 @@ EndGlobal
   
  To load a solution, the environment performs the following sequence of tasks.  
   
-1.  The environment reads the Global section of the .sln file and processes all sections marked `preSolution`. In this case, there is one such statement:  
+1. The environment reads the Global section of the .sln file and processes all sections marked `preSolution`. In this case, there is one such statement:  
   
-    ```  
-    GlobalSection(SolutionConfiguration) = preSolution  
-         ConfigName.0 = Debug  
-         ConfigName.1 = Release  
-    ```  
+   ```  
+   GlobalSection(SolutionConfiguration) = preSolution  
+        ConfigName.0 = Debug  
+        ConfigName.1 = Release  
+   ```  
   
-     When the environment reads the `GlobalSection('name')` tag, it maps the name to a VSPackage using the registry. The key name should exist in the registry under [HKLM\\<Application ID Registry Root\>\SolutionPersistence\AggregateGUIDs]. The keys' default value is the Package GUID (REG_SZ) of the VSPackage that wrote the entries.  
+    When the environment reads the `GlobalSection('name')` tag, it maps the name to a VSPackage using the registry. The key name should exist in the registry under [HKLM\\<Application ID Registry Root\>\SolutionPersistence\AggregateGUIDs]. The keys' default value is the Package GUID (REG_SZ) of the VSPackage that wrote the entries.  
   
-2.  The environment loads the VSPackage, calls `QueryInterface` on the VSPackage for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps> interface, and calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps%2A> method with the data in the section so the VSPackage can store the data. The environment repeats this process for each `preSolution` section.  
+2. The environment loads the VSPackage, calls `QueryInterface` on the VSPackage for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps> interface, and calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps%2A> method with the data in the section so the VSPackage can store the data. The environment repeats this process for each `preSolution` section.  
   
-3.  The environment iterates through the project persistence blocks. In this case, there is one project.  
+3. The environment iterates through the project persistence blocks. In this case, there is one project.  
   
-    ```  
-    Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Project1",  
-    "Project1.vbproj", "{8CDD8387-B905-44A8-B5D5-07BB50E05BEA}"  
-    EndProject  
-    ```  
+   ```  
+   Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Project1",  
+   "Project1.vbproj", "{8CDD8387-B905-44A8-B5D5-07BB50E05BEA}"  
+   EndProject  
+   ```  
   
-     This statement contains the unique project GUID and the project type GUID. This information is used by the environment to find the project file or files belonging to the solution, and the VSPackage required for each project. The project GUID is passed to <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> to load the specific VSPackage related to the project, then the project is loaded by the VSPackage. In this case, the VSPackage that is loaded for this project is Visual Basic.  
+    This statement contains the unique project GUID and the project type GUID. This information is used by the environment to find the project file or files belonging to the solution, and the VSPackage required for each project. The project GUID is passed to <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> to load the specific VSPackage related to the project, then the project is loaded by the VSPackage. In this case, the VSPackage that is loaded for this project is Visual Basic.  
   
-     Each project can persist a unique project instance ID so that it can be accessed as needed by other projects in the solution. Ideally, if the solution and projects are under source code control, the path to the project should be relative to the path to the solution. When the solution is first loaded, the project files cannot be on the user's machine. By having the project file stored on the server relative to the solution file, it is relatively simple for the project file to be found and copied to the user's machine. It then copies and loads the rest of the files needed for the project.  
+    Each project can persist a unique project instance ID so that it can be accessed as needed by other projects in the solution. Ideally, if the solution and projects are under source code control, the path to the project should be relative to the path to the solution. When the solution is first loaded, the project files cannot be on the user's machine. By having the project file stored on the server relative to the solution file, it is relatively simple for the project file to be found and copied to the user's machine. It then copies and loads the rest of the files needed for the project.  
   
-4.  Based on the information contained in the project section of the .sln file, the environment loads each project file. The project itself is then responsible for populating the project hierarchy and loading any nested projects.  
+4. Based on the information contained in the project section of the .sln file, the environment loads each project file. The project itself is then responsible for populating the project hierarchy and loading any nested projects.  
   
-5.  After all sections of the .sln file are processed, the solution is displayed in Solution Explorer and is ready for modification by the user.  
+5. After all sections of the .sln file are processed, the solution is displayed in Solution Explorer and is ready for modification by the user.  
   
- If any VSPackage that implements a project in the solution fails to load, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.OnProjectLoadFailure%2A> method is called and every other project in the solution is given a chance to ignore changes it might have made during loading. If parsing errors occur, as much information as possible is preserved with the solution files and the environment displays a dialog box warning the user that the solution is corrupted.  
+   If any VSPackage that implements a project in the solution fails to load, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.OnProjectLoadFailure%2A> method is called and every other project in the solution is given a chance to ignore changes it might have made during loading. If parsing errors occur, as much information as possible is preserved with the solution files and the environment displays a dialog box warning the user that the solution is corrupted.  
   
- When the solution is saved or closed, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.QuerySaveSolutionProps%2A> method is called and passed to the hierarchy to see if changes have been made to the solution that need to be entered into the .sln file. A null value, passed in to `QuerySaveSolutionProps` in <xref:Microsoft.VisualStudio.Shell.Interop.VSQUERYSAVESLNPROPS>, indicates that information is being persisted for the solution. If the value is not null, the persisted information is for a specific project, determined by the pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface.  
+   When the solution is saved or closed, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.QuerySaveSolutionProps%2A> method is called and passed to the hierarchy to see if changes have been made to the solution that need to be entered into the .sln file. A null value, passed in to `QuerySaveSolutionProps` in <xref:Microsoft.VisualStudio.Shell.Interop.VSQUERYSAVESLNPROPS>, indicates that information is being persisted for the solution. If the value is not null, the persisted information is for a specific project, determined by the pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface.  
   
- If there is information to be saved, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence> interface is called with a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.SaveSolutionProps%2A> method. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.WriteSolutionProps%2A> method is then called by the environment to retrieve the name-value pairs from `IPropertyBag` interface and write the information to the .sln file.  
+   If there is information to be saved, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence> interface is called with a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.SaveSolutionProps%2A> method. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.WriteSolutionProps%2A> method is then called by the environment to retrieve the name-value pairs from `IPropertyBag` interface and write the information to the .sln file.  
   
- `SaveSolutionProps` and `WriteSolutionProps` objects are called recursively by the environment to retrieve information to be saved from the `IPropertyBag` interface until all changes have been entered into the .sln file. In this way, you can insure that the information will be persisted with the solution and available next time the solution is opened.  
+   `SaveSolutionProps` and `WriteSolutionProps` objects are called recursively by the environment to retrieve information to be saved from the `IPropertyBag` interface until all changes have been entered into the .sln file. In this way, you can insure that the information will be persisted with the solution and available next time the solution is opened.  
   
- Every loaded VSPackage is enumerated to see if it has anything to save to .sln file. It is only at load time that the registry keys are queried. The environment knows about all of the loaded packages because they are in memory at the time the solution is saved.  
+   Every loaded VSPackage is enumerated to see if it has anything to save to .sln file. It is only at load time that the registry keys are queried. The environment knows about all of the loaded packages because they are in memory at the time the solution is saved.  
   
- Only the .sln file contains entries in the `preSolution` and `postSolution` sections. There are no similar sections in the .suo file since the solution needs this information to load properly. The .suo file contains user-specific options, such as private notes, that are not intended to be shared or placed under source code control.  
+   Only the .sln file contains entries in the `preSolution` and `postSolution` sections. There are no similar sections in the .suo file since the solution needs this information to load properly. The .suo file contains user-specific options, such as private notes, that are not intended to be shared or placed under source code control.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>   

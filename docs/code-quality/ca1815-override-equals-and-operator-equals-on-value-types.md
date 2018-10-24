@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1815: Override equals and operator equals on value types
+
 |||
 |-|-|
 |TypeName|OverrideEqualsAndOperatorEqualsOnValueTypes|

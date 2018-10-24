@@ -135,41 +135,41 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
 ## Adding the User Control to the Start Page  
  To make this control available to the Start Page project, in the Start Page project file, add a reference to the new control library. Then you can add the control to the Start Page XAML markup.  
   
-1.  In **Solution Explorer**, in the Start Page project, right-click **References** and then click **Add Reference**.  
+1. In **Solution Explorer**, in the Start Page project, right-click **References** and then click **Add Reference**.  
   
-2.  On the **Projects** tab, select **WebUserControl** and then click **OK**.  
+2. On the **Projects** tab, select **WebUserControl** and then click **OK**.  
   
-3.  On the **Build** menu, click **Build Solution**.  
+3. On the **Build** menu, click **Build Solution**.  
   
-     Building the solution makes the user control available to IntelliSense for other files in the solution.  
+    Building the solution makes the user control available to IntelliSense for other files in the solution.  
   
- To add the control to the Start Page XAML markup, add a namespace reference to the assembly, then put the control on the page.  
+   To add the control to the Start Page XAML markup, add a namespace reference to the assembly, then put the control on the page.  
   
 #### To add the control to the markup  
   
-1.  In **Solution Explorer**, open the Start Page .xaml file.  
+1. In **Solution Explorer**, open the Start Page .xaml file.  
   
-2.  In the **XAML** pane, add the following namespace declaration to the top-level <xref:System.Windows.Controls.Grid> element.  
+2. In the **XAML** pane, add the following namespace declaration to the top-level <xref:System.Windows.Controls.Grid> element.  
   
-    ```xml  
-    xmlns:vsc="clr-namespace:WebUserControl;assembly=WebUserControl"  
-    ```  
+   ```xml  
+   xmlns:vsc="clr-namespace:WebUserControl;assembly=WebUserControl"  
+   ```  
   
-3.  In the **XAML** pane, scroll to the \<Grid> section.  
+3. In the **XAML** pane, scroll to the \<Grid> section.  
   
-     The section contains a <xref:System.Windows.Controls.TabControl> element in a <xref:System.Windows.Controls.Grid> element.  
+    The section contains a <xref:System.Windows.Controls.TabControl> element in a <xref:System.Windows.Controls.Grid> element.  
   
-4.  Add a \<TabControl> element containing a \<TabItem> that contains a reference to your user control.  
+4. Add a \<TabControl> element containing a \<TabItem> that contains a reference to your user control.  
   
-    ```xml  
+   ```xml  
   
-    <TabItem Header="Web" Height="Auto">  
-        <vsc:UserControl1 />  
-    </TabItem>  
+   <TabItem Header="Web" Height="Auto">  
+       <vsc:UserControl1 />  
+   </TabItem>  
   
-    ```  
+   ```  
   
- Now you can test the control.  
+   Now you can test the control.  
   
 ## Testing a manually created custom Start Page  
   

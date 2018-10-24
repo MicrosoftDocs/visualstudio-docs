@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the function has been marked as never re
   
 ```cpp  
 HRESULT get_noReturn(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

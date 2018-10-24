@@ -18,18 +18,18 @@ manager: "ghogen"
 ---
 # Dispatch Extension Interfaces
 The DispEx.h header file provides the interfaces listed in this section.  
-  
+
 ## In This Section  
  The following interfaces are for the Microsoft Windows Script Host and Windows Script Engines.  
-  
--   [ICanHandleException Interface](../../winscript/reference/icanhandleexception-interface.md)  
-  
--   [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)  
-  
--   [IDispError Interface](../../winscript/reference/idisperror-interface.md)  
-  
--   [IVariantChangeType Interface](../../winscript/reference/ivariantchangetype-interface.md)  
-  
- The following interfaces are specific to the Windows Script Host:  
-  
--   [IObjectIdentity Interface](../../winscript/reference/iobjectidentity-interface.md)
+
+- [ICanHandleException Interface](../../winscript/reference/icanhandleexception-interface.md)  
+
+- [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)  
+
+- [IDispError Interface](../../winscript/reference/idisperror-interface.md)  
+
+- [IVariantChangeType Interface](../../winscript/reference/ivariantchangetype-interface.md)  
+
+  The following interfaces are specific to the Windows Script Host:  
+
+- [IObjectIdentity Interface](../../winscript/reference/iobjectidentity-interface.md)

@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1056: URI properties should not be strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|UriPropertiesShouldNotBeStrings|

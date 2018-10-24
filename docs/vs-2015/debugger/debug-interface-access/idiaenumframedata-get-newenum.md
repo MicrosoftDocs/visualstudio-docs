@@ -28,7 +28,7 @@ Retrieves the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> versio
   
 ```cpp#  
 HRESULT get__NewEnum (   
-   IUnknown** pRetVal  
+   IUnknown** pRetVal  
 );  
 ```  
   

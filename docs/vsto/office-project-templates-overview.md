@@ -37,15 +37,15 @@ ms.workload:
 # Office project templates overview
   The Microsoft Office developer tools in Visual Studio include project templates for creating the following types of Office solutions:  
   
--   [Document-level customizations](#DocLevel)  
+- [Document-level customizations](#DocLevel)  
   
--   [VSTO Add-ins](#AppLevel)  
+- [VSTO Add-ins](#AppLevel)  
   
- For a detailed comparison of these types of Office solutions, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
+  For a detailed comparison of these types of Office solutions, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
   
- The Office project templates are available in the **New Project** dialog box, under the **Office** node of the **Visual C#** and **Visual Basic** language nodes. Each template generates a project with the appropriate configuration for the target application, including assembly references and debugging settings.  
+  The Office project templates are available in the **New Project** dialog box, under the **Office** node of the **Visual C#** and **Visual Basic** language nodes. Each template generates a project with the appropriate configuration for the target application, including assembly references and debugging settings.  
   
- Each project provides files and code to get you started on a specific kind of solution. The generated code for each project includes startup and shutdown event handlers. You can add code to these event handlers to initialize your solution when it is loaded and to clean up your solution when it is unloaded. For more information, see [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md) and [Events in Office projects](../vsto/events-in-office-projects.md).  
+  Each project provides files and code to get you started on a specific kind of solution. The generated code for each project includes startup and shutdown event handlers. You can add code to these event handlers to initialize your solution when it is loaded and to clean up your solution when it is unloaded. For more information, see [Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md) and [Events in Office projects](../vsto/events-in-office-projects.md).  
   
 > [!NOTE]  
 >  The Office development tools are included with certain editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).  
@@ -53,25 +53,25 @@ ms.workload:
 ##  <a name="DocLevel"></a> Document-level customizations  
  The **Office** node in the **New Project** dialog box provides the following project templates to get you started creating document-level customizations for Word and Excel:  
   
--   **Word 2013 and 2016 VSTO Document**  
+- **Word 2013 and 2016 VSTO Document**  
   
--   **Word 2013 and 2016 VSTO Template**  
+- **Word 2013 and 2016 VSTO Template**  
   
--   **Excel 2013 and 2016 VSTO Workbook**  
+- **Excel 2013 and 2016 VSTO Workbook**  
   
--   **Excel 2013 and 2016 VSTO Template**  
+- **Excel 2013 and 2016 VSTO Template**  
   
--   **Word 2010 VSTO Document**  
+- **Word 2010 VSTO Document**  
   
--   **Word 2010 VSTO Template**  
+- **Word 2010 VSTO Template**  
   
--   **Excel 2010 VSTO Workbook**  
+- **Excel 2010 VSTO Workbook**  
   
--   **Excel 2010 VSTO Template**  
+- **Excel 2010 VSTO Template**  
   
- The Word Document and Excel Workbook project templates provide code to get you started creating a solution that is based on a specific document or workbook. In these types of solutions, your code runs only when the associated document is open in Word or Excel.  
+  The Word Document and Excel Workbook project templates provide code to get you started creating a solution that is based on a specific document or workbook. In these types of solutions, your code runs only when the associated document is open in Word or Excel.  
   
- The Word Template and Excel Template project templates behave identically to the Word Document and Excel Workbook project templates. However, the Word Template and Excel Template project templates makes it easy for users to create new local document or workbook copies of the customized template in your solution. The features in your solution are available from the new document that the user creates from the template.  
+  The Word Template and Excel Template project templates behave identically to the Word Document and Excel Workbook project templates. However, the Word Template and Excel Template project templates makes it easy for users to create new local document or workbook copies of the customized template in your solution. The features in your solution are available from the new document that the user creates from the template.  
   
 > [!NOTE]  
 >  Word templates that reference managed code extensions cannot be used as global VSTO Add-ins. The assembly is not called if the template is loaded from the Startup directory of Word. For more information, see [Limitations of global templates and Excel Add-ins (.xla files)](#Limitations)  
@@ -91,51 +91,51 @@ ms.workload:
 ##  <a name="AppLevel"></a> VSTO Add-ins  
  The **Office/SharePoint** node in the **New Project** dialog box provides the following project templates to get you started creating VSTO Add-ins.  
   
--   **Excel 2013 and 2016 VSTO Add-in**  
+- **Excel 2013 and 2016 VSTO Add-in**  
   
--   **InfoPath 2013 VSTO Add-in**  
+- **InfoPath 2013 VSTO Add-in**  
   
--   **Outlook 2013 and 2016 VSTO Add-in**  
+- **Outlook 2013 and 2016 VSTO Add-in**  
   
--   **PowerPoint 2013 and 2016 Add-in**  
+- **PowerPoint 2013 and 2016 Add-in**  
   
--   **Project 2013 and 2016 Add-in**  
+- **Project 2013 and 2016 Add-in**  
   
--   **Visio 2013 and 2016 Add-in**  
+- **Visio 2013 and 2016 Add-in**  
   
--   **Word 2013 and 2016 Add-in**  
+- **Word 2013 and 2016 Add-in**  
   
--   **Excel 2010 Add-in**  
+- **Excel 2010 Add-in**  
   
--   **InfoPath 2010 Add-in**  
+- **InfoPath 2010 Add-in**  
   
--   **Outlook 2010 Add-in**  
+- **Outlook 2010 Add-in**  
   
--   **PowerPoint 2010 Add-in**  
+- **PowerPoint 2010 Add-in**  
   
--   **Project 2010 Add-in**  
+- **Project 2010 Add-in**  
   
--   **Visio 2010 Add-in**  
+- **Visio 2010 Add-in**  
   
--   **Word 2010 Add-in**  
+- **Word 2010 Add-in**  
   
- When you create a project that is based on one of these project templates, the code in your solution runs when the associated application is open. Unlike document-level projects, your code is not associated with a single document.  
+  When you create a project that is based on one of these project templates, the code in your solution runs when the associated application is open. Unlike document-level projects, your code is not associated with a single document.  
   
- For more information about getting started with these project types, see the following topics:  
+  For more information about getting started with these project types, see the following topics:  
   
--   [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
+- [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
   
--   [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)  
+- [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)  
   
--   [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)  
+- [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)  
   
--   [Walkthrough: Create your first VSTO Add-in for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)  
+- [Walkthrough: Create your first VSTO Add-in for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)  
   
--   [Walkthrough: Create your first VSTO Add-in for PowerPoint](../vsto/walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)  
+- [Walkthrough: Create your first VSTO Add-in for PowerPoint](../vsto/walkthrough-creating-your-first-vsto-add-in-for-powerpoint.md)  
   
--   [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)  
+- [Walkthrough: Create your first VSTO Add-in for Project](../vsto/walkthrough-creating-your-first-vsto-add-in-for-project.md)  
   
--   [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)  
+- [Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)  
   
 ## Document vs. template solutions  
  When you design a solution around a Word document or Excel workbook, you must decide the best way to make that document available to your users.  

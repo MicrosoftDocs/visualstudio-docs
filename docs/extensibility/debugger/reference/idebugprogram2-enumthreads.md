@@ -23,13 +23,13 @@ Retrieves a list of the threads that are running in the program.
   
 ```cpp  
 HRESULT EnumThreads(   
-   IEnumDebugThreads2** ppEnum  
+   IEnumDebugThreads2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumThreads(   
-   out IEnumDebugThreads2 ppEnum  
+   out IEnumDebugThreads2 ppEnum  
 );  
 ```  
   

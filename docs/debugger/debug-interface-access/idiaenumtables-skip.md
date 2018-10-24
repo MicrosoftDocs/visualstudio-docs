@@ -22,7 +22,7 @@ Skips a specified number of tables in an enumeration sequence.
   
 ```C++  
 HRESULT Skip (   
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   

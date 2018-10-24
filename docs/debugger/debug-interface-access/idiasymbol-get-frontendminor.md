@@ -22,7 +22,7 @@ Retrieves the front end minor version number.
   
 ```C++  
 HRESULT get_frontEndMinor (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

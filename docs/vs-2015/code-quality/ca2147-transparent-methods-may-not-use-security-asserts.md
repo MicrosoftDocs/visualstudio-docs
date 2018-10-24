@@ -24,6 +24,7 @@ manager: "wpickett"
 ---
 # CA2147: Transparent methods may not use security asserts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|SecurityTransparentCodeShouldNotAssert|

@@ -23,13 +23,13 @@ Gets the displayable message.
   
 ```cpp  
 HRESULT GetString(   
-   BSTR* pbstrString  
+   BSTR* pbstrString  
 );  
 ```  
   
 ```csharp  
 int GetString(   
-   out string pbstrString  
+   out string pbstrString  
 );  
 ```  
   

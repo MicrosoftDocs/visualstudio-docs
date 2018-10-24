@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # CA5122 P/Invoke declarations should not be safe critical
+
 |||
 |-|-|
 |TypeName|PInvokesShouldNotBeSafeCriticalFxCopRule|
@@ -32,7 +33,6 @@ public class C
     [DllImport("kernel32.dll")]
     public static extern bool Beep(int frequency, int duration); // CA5122 - safe critical p/invoke
    }
-
 ```
 
  In this example, `C.Beep(...)` has been marked as a security safe critical method.
@@ -58,7 +58,6 @@ class C
       return BeepPInvoke(frequency, duration);
    }
 }
-
 ```
 
 ## When to suppress warnings

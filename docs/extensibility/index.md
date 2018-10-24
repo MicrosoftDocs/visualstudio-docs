@@ -43,7 +43,7 @@ Visual Studio gives you a lot of extensibility options. You can extend Visual St
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>.NET Compiler Platform ("Roslyn") Extensibility</h3>
+                        <h3>.NET Compiler Platform (&quot;Roslyn&quot;) Extensibility</h3>
                     </div>
                 </div>
             </div>

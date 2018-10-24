@@ -32,7 +32,7 @@ There are two ways to add <xref:System.Activities.Statements.PickBranch> activit
 The following table shows the <xref:System.Activities.Statements.Pick> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.Pick> activity designer in the header. The default value is Pick. The value can be edited in the property grid or directly on the header of the activity designer.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|
 
 ## See also

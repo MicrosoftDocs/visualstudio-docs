@@ -27,15 +27,15 @@ Returns a code context object corresponding to a specified code location identif
   
 ```cpp#  
 HRESULT GetCodeContext(   
-   UINT64               uCodeLocationId,  
-   IDebugCodeContext2** ppCodeContext  
+   UINT64               uCodeLocationId,  
+   IDebugCodeContext2** ppCodeContext  
 );  
 ```  
   
 ```csharp  
 int GetCodeContext(   
-   ulong                  uCodeLocationId,  
-   out IDebugCodeContext2 ppCodeContext  
+   ulong                  uCodeLocationId,  
+   out IDebugCodeContext2 ppCodeContext  
 );  
 ```  
   

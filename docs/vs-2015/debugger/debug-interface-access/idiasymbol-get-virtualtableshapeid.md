@@ -28,7 +28,7 @@ Retrieves the virtual table shape symbol identifier of the symbol.
   
 ```cpp#  
 HRESULT get_virtualTableShapeId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

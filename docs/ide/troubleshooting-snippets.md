@@ -21,9 +21,9 @@ Problems with IntelliSense code snippets are typically caused by two problems: a
 
 ## The snippet cannot be dragged from File Explorer to a Visual Studio source file
 
--   The XML in the snippet file may be corrupt. The **XML Editor** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can locate problems in the XML structure.
+- The XML in the snippet file may be corrupt. The **XML Editor** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can locate problems in the XML structure.
 
--   The snippet file may not conform to the snippet schema. The **XML Editor** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can locate problems in the XML structure.
+- The snippet file may not conform to the snippet schema. The **XML Editor** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can locate problems in the XML structure.
 
 ## The code has compiler errors that are not highlighted
 

@@ -24,6 +24,7 @@ manager: "wpickett"
 ---
 # CA1303: Do not pass literals as localized parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotPassLiteralsAsLocalizedParameters|

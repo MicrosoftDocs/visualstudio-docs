@@ -43,13 +43,13 @@ To determine what proportion of your project's code is actually being tested by 
   
 > [!TIP]
 >  To get accurate results:  
->   
->  -   Make sure that compiler optimization is turned off.  
->   
->      If you are working with unmanaged (native) code, use a debug build.  
-> -   Make sure that you are generating .pdb (symbol) files for each assembly.  
->   
->  If you don’t get the results you expect, see [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md). . Don’t forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.  
+> 
+> - Make sure that compiler optimization is turned off.  
+> 
+>   If you are working with unmanaged (native) code, use a debug build.  
+>   -   Make sure that you are generating .pdb (symbol) files for each assembly.  
+> 
+>   If you don’t get the results you expect, see [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md). . Don’t forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.  
   
 ## Reporting in blocks or lines  
  Code coverage is counted in *blocks*. A block is a piece of code with exactly one entry and exit point.  If the program’s control flow passes through a block during a test run, that block is counted as covered. The number of times the block is used has no effect on the result.  
@@ -249,19 +249,19 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 ## Analyzing code coverage in the build service  
  When you check in your code, your tests will run on the build server, along with all the other tests from other team members. (If you haven’t already set this up, see [Run tests in your build process](http://msdn.microsoft.com/library/d05743a1-c5cf-447e-bed9-bed3cb595e38).) It’s useful to analyze code coverage on the build service, because that gives the most up-to-date and comprehensive picture of coverage in the whole project. It will also include automated system tests and other coded tests that you don’t usually run on the development machines.  
   
-1.  In Team Explorer, open **Builds**, and then add or edit a build definition.  
+1. In Team Explorer, open **Builds**, and then add or edit a build definition.  
   
-2.  On the **Process** page, expand **Automated Tests**, **Test Source**, **Run Settings**. Set **Type of Run Settings File** to **Code Coverage Enabled**.  
+2. On the **Process** page, expand **Automated Tests**, **Test Source**, **Run Settings**. Set **Type of Run Settings File** to **Code Coverage Enabled**.  
   
-     If you have more than one Test Source definition, repeat this step for each one.  
+    If you have more than one Test Source definition, repeat this step for each one.  
   
-    -   *But there is no field named **Type of Run Settings File**.*  
+   - <em>But there is no field named **Type of Run Settings File</em>*.*  
   
-         Under **Automated Tests**, select **Test Assembly** and choose the ellipsis button **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, under **Test Runner**, choose **Visual Studio Test Runner**.  
+      Under **Automated Tests**, select **Test Assembly** and choose the ellipsis button **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, under **Test Runner**, choose **Visual Studio Test Runner**.  
   
- ![Setting the build definition for code coverage](../test/media/codecoverage-plaincc.png "CodeCoverage-plainCC")  
+   ![Setting the build definition for code coverage](../test/media/codecoverage-plaincc.png "CodeCoverage-plainCC")  
   
- After the build runs, the code coverage results are attached to the test run and appear in the build summary.  
+   After the build runs, the code coverage results are attached to the test run and appear in the build summary.  
   
 ## Analyzing Code Coverage in a Command Line  
  To run tests from the command line, use vstest.console.exe. Code coverage is an option of this utility. For more information, see [VSTest.Console.exe command-line options](http://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11).  

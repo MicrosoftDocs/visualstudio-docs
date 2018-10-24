@@ -28,7 +28,7 @@ Retrieves the offset part of an address location. Use when the [LocationType Enu
   
 ```cpp#  
 HRESULT get_addressOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -26,9 +26,9 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
   
 ```cpp#  
 HRESULT findInlineFramesByAddr (   
-   IDiaSymbol*       parent,   DWORD             isect,  
-   DWORD             offset,  
-   IDiaEnumSymbols** ppResult  
+   IDiaSymbol*       parent,   DWORD             isect,  
+   DWORD             offset,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

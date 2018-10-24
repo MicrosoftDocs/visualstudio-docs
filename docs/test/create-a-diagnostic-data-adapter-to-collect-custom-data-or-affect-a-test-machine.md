@@ -25,7 +25,7 @@ If you are running your tests from Visual Studio, you must set these test settin
  Use the following topics to help you create Diagnostic Data Adapters:
 
 |Tasks|Associated Topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Creating a Diagnostic Data Adapter:** You create a diagnostic data adapter by creating a class library, and then use the diagnostic data adapter APIs to collect information that you want or impact a test system that you are using to run your tests.|-   [How to: Create a diagnostic data adapter](../test/how-to-create-a-diagnostic-data-adapter.md)|
 |**Installing a Custom Diagnostic Data Adapter:** You can install your diagnostic data adapter, or an adapter provided by someone else, by copying it into the correct directory.|-   [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md)|
 |**Selecting a Custom Diagnostic Data Adapter to Use When Tests are Run:** You can select which diagnostic data adapter to use for your test settings, so that the adapter is used when you run your tests.|-   [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts)<br />-   [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|

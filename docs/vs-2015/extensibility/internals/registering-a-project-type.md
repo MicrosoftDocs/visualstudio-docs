@@ -34,18 +34,18 @@ When you create a new project type, you must create registry entries that enable
   
 ```  
 \.figp  
-   @="FigPrjFile"  
-   "Content Type"="text/plain"  
+   @="FigPrjFile"  
+   "Content Type"="text/plain"  
 \.figp\ShellNew  
-   "NullFile"=""  
+   "NullFile"=""  
 \FigPrjFile  
-   @="Figure Project File"  
+   @="Figure Project File"  
 \DefaultIcon  
-   @="<Visual Studio SDK installation path>\\9.0VSIntegration\\SomeFolder\\FigPkgs\\FigPrj\\Debug\\FigPrj.dll,-206"  
+   @="<Visual Studio SDK installation path>\\9.0VSIntegration\\SomeFolder\\FigPkgs\\FigPrj\\Debug\\FigPrj.dll,-206"  
 \shell\open  
-   @="&Open in Visual Studio"  
+   @="&Open in Visual Studio"  
 \shell\open\command  
-   @="devenv.exe \"%1\""  
+   @="devenv.exe \"%1\""  
 ```  
   
 |Name|Type|Data|Description|  
@@ -63,21 +63,21 @@ When you create a new project type, you must create registry entries that enable
   
 ```  
 \{ACEF4EB2-57CF-11D2-96F4-000000000000} (The CLSID for the VSPackage)  
-   @="FigPrj Project Package"  
-   "InprocServer32"="9.0<Visual Studio SDK installation path>\\VSIntegration\\Archive\\FigPkgs\\FigPrj\\                      Debug\\FigPrj.dll"  
-   "CompanyName"="Microsoft"  
-   "ProductName"="Figure Project Sample"  
-   "ProductVersion"="9.0"  
-   "MinEdition"="professional"  
-   "ID"=dword:00000001  
+   @="FigPrj Project Package"  
+   "InprocServer32"="9.0<Visual Studio SDK installation path>\\VSIntegration\\Archive\\FigPkgs\\FigPrj\\                      Debug\\FigPrj.dll"  
+   "CompanyName"="Microsoft"  
+   "ProductName"="Figure Project Sample"  
+   "ProductVersion"="9.0"  
+   "MinEdition"="professional"  
+   "ID"=dword:00000001  
 \{ACEF4EB2-57CF-11D2-96F4-000000000000}\SatelliteDLL  
-   "DllName"="FigPrjUI.dll"  
-   "Path"="9.0<Visual Studio SDK installation path>\\VSIntegration\\Archive\\FigPkgs\\FigPrj\\Debug\\"  
+   "DllName"="FigPrjUI.dll"  
+   "Path"="9.0<Visual Studio SDK installation path>\\VSIntegration\\Archive\\FigPkgs\\FigPrj\\Debug\\"  
 \{ACEF4EB2-57CF-11D2-96F4-000000000000}\Automation  
-   "FigProjects"=""  
+   "FigProjects"=""  
 \{ACEF4EB2-57CF-11D2-96F4-000000000000}\AutomationEvents  
-   "FigProjectsEvents"="Returns the FigProjectsEvents Object"  
-   "FigProjectItemsEvents"="Returns the FigProjectItemsEvents Object"  
+   "FigProjectsEvents"="Returns the FigProjectsEvents Object"  
+   "FigProjectItemsEvents"="Returns the FigProjectItemsEvents Object"  
 ```  
   
 |Name|Type|Data|Description|  
@@ -100,35 +100,35 @@ When you create a new project type, you must create registry entries that enable
   
 ```  
 \{C061DB26-5833-11D2-96F5-000000000000} (The CLSID for projects of this type)  
-   @="FigPrj Project"  
-   "DisplayName"="#2"  
-   "Package"="{ACEF4EB2-57CF-11D2-96F4-000000000000}"  
-   "ProjectTemplatesDir"="C:\\Program Files\\VSIP 9.0\\EnvSDK\\FigPkgs\\                           FigPrj\\FigPrjProjects"  
-   "ItemTemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPkgs\\FigPrj\\                           FigPrjProjectItems"  
-   "DisplayProjectFileExtensions"="#3"  
-   "PossibleProjectExtensions"="figp"  
-   "DefaultProjectExtension"=".figp"  
+   @="FigPrj Project"  
+   "DisplayName"="#2"  
+   "Package"="{ACEF4EB2-57CF-11D2-96F4-000000000000}"  
+   "ProjectTemplatesDir"="C:\\Program Files\\VSIP 9.0\\EnvSDK\\FigPkgs\\                           FigPrj\\FigPrjProjects"  
+   "ItemTemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPkgs\\FigPrj\\                           FigPrjProjectItems"  
+   "DisplayProjectFileExtensions"="#3"  
+   "PossibleProjectExtensions"="figp"  
+   "DefaultProjectExtension"=".figp"  
 \{C061DB26-5833-11D2-96F5-000000000000}\Filters\1       (Folder 1 contains settings for Open Files filters.)  
-   @="#4"  
-   "CommonOpenFilesFilter"=dword:00000000  
-   "CommonFindFilesFilter"=dword:00000000  
-   "NotAddExistingItemFilter"=dword:00000000  
-   "FindInFilesFilter"=dword:00000000  
-   "NotOpenFileFilter"=dword:00000000  
-   "SortPriority"=dword:000003e8  
+   @="#4"  
+   "CommonOpenFilesFilter"=dword:00000000  
+   "CommonFindFilesFilter"=dword:00000000  
+   "NotAddExistingItemFilter"=dword:00000000  
+   "FindInFilesFilter"=dword:00000000  
+   "NotOpenFileFilter"=dword:00000000  
+   "SortPriority"=dword:000003e8  
 \{C061DB26-5833-11D2-96F5-000000000000}\Filters\2  
-      (Folder 2 contains settings for Find in Files filters.)  
-   @="#5"  
-   "CommonOpenFilesFilter"=dword:00000000  
-   "CommonFindFilesFilter"=dword:00000000  
-   "NotAddExistingItemFilter"=dword:00000001  
-   "FindInFilesFilter"=dword:00000001  
-   "NotOpenFileFilter"=dword:00000000  
-   "SortPriority"=dword:000003e8  
+      (Folder 2 contains settings for Find in Files filters.)  
+   @="#5"  
+   "CommonOpenFilesFilter"=dword:00000000  
+   "CommonFindFilesFilter"=dword:00000000  
+   "NotAddExistingItemFilter"=dword:00000001  
+   "FindInFilesFilter"=dword:00000001  
+   "NotOpenFileFilter"=dword:00000000  
+   "SortPriority"=dword:000003e8  
 \{C061DB26-5833-11D2-96F5-000000000000}\AddItemTemplates\TemplateDirs\ {ACEF4EB2-57CF-11D2-96F4-000000000000}\1 (Second GUID indicates the registered project type for the Add Items templates.)  
-   @="#6"  
-   "TemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPkgs\\FigPrj\\                    FigPrjProjectItems"  
-   "SortPriority"=dword:00000064  
+   @="#6"  
+   "TemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPkgs\\FigPrj\\                    FigPrjProjectItems"  
+   "SortPriority"=dword:00000064  
 ```  
   
 |Name|Type|Data|Description|  
@@ -165,10 +165,10 @@ When you create a new project type, you must create registry entries that enable
 ```  
 {FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4} (The CLSID for Enterprise Projects)  
 \{FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4}\AddItemTemplates\TemplateDirs\ {ACEF4EB2-57CF-11D2-96F4-000000000000}\1 (CLSID for projects of this type)  
-   @="#7"  
-   "TemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPrj\\FigPrjProjects"  
-   "SortPriority"=dword:00000029  
-   "NewProjectDialogOnly"=dword:00000000  
+   @="#7"  
+   "TemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPrj\\FigPrjProjects"  
+   "SortPriority"=dword:00000029  
+   "NewProjectDialogOnly"=dword:00000000  
 ```  
   
 |Name|Type|Data|Description|  
@@ -184,12 +184,12 @@ When you create a new project type, you must create registry entries that enable
   
 ```  
 \{A2FE74E1-B743-11d0-AE1A-00A0C90FFFC3} (CLSID for Miscellaneous Files projects)  
-   @="Miscellaneous Files Project"  
+   @="Miscellaneous Files Project"  
 \AddItemTemplates\TemplateDirs\{ACEF4EB2-57CF-11D2-96F4-000000000000}\1  
-                                 (CLSID for Figures Project projects)  
-   @="#6"  
-   "TemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPkgs\\FigPrj\\                    FigPrjProjectItems"  
-   "SortPriority"=dword:00000064  
+                                 (CLSID for Figures Project projects)  
+   @="#6"  
+   "TemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPkgs\\FigPrj\\                    FigPrjProjectItems"  
+   "SortPriority"=dword:00000064  
 ```  
   
 |Name|Type|Data|Description|  
@@ -209,17 +209,17 @@ When you create a new project type, you must create registry entries that enable
   
  The menu entry points the IDE to the resource used to retrieve the menu information. When this data has been merged into the menu database, the same key will be added in the MenusMerged section of the registry. The VSPackage should not modify anything under the MenusMerged section directly. In the Data field in the following table, there are three comma-separated-fields. The first field identifies a full path of a menu resource file:  
   
--   If the first field is omitted, the menu resource is loaded from the satellite DLL identified by the VSPackage GUID.  
+- If the first field is omitted, the menu resource is loaded from the satellite DLL identified by the VSPackage GUID.  
   
- The second field identifies a menu resource ID of the type CTMENU:  
+  The second field identifies a menu resource ID of the type CTMENU:  
   
--   If the resource ID is specified, and the file path is supplied by the first parameter, a menu resource is loaded from the full file path.  
+- If the resource ID is specified, and the file path is supplied by the first parameter, a menu resource is loaded from the full file path.  
   
--   If the resource ID is provided, but the file path is not, the menu resource is loaded from the satellite DLL.  
+- If the resource ID is provided, but the file path is not, the menu resource is loaded from the satellite DLL.  
   
--   If the full file path is provided and the resource ID omitted, the file to be loaded is expected to be a CTO file.  
+- If the full file path is provided and the resource ID omitted, the file to be loaded is expected to be a CTO file.  
   
- The last field identifies the version number for the CTMENU resource. You can merge the menu again by changing the version number.  
+  The last field identifies the version number for the CTMENU resource. You can merge the menu again by changing the version number.  
   
 |Name|Type|Data|Description|  
 |----------|----------|----------|-----------------|  
@@ -229,10 +229,10 @@ When you create a new project type, you must create registry entries that enable
   
 ```  
 \TemplateDirs\{ACEF4EB2-57CF-11D2-96F4-000000000000}\1                (CLSID for Figures Project projects)  
-   @="#7"  
-   "TemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPkgs\\FigPrj\\FigPrjProjects"  
-   "SortPriority"=dword:00000029  
-   "NewProjectDialogOnly"=dword:00000000  
+   @="#7"  
+   "TemplatesDir"="<Visual Studio SDK installation path>\\VSIntegration\\Archive9.0\\FigPkgs\\FigPrj\\FigPrjProjects"  
+   "SortPriority"=dword:00000029  
+   "NewProjectDialogOnly"=dword:00000000  
 ```  
   
 |Name|Type|Data|Description|  
@@ -246,8 +246,8 @@ When you create a new project type, you must create registry entries that enable
   
 ```  
 \FiguresProductSample  
-   "Package"="{ACEF4EB2-57CF-11D2-96F4-000000000000}"  
-   "UseInterface"=dword:00000001  
+   "Package"="{ACEF4EB2-57CF-11D2-96F4-000000000000}"  
+   "UseInterface"=dword:00000001  
 ```  
   
 |Name|Type|Data|Description|  

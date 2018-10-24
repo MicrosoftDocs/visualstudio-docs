@@ -33,11 +33,11 @@ When you build projects, it is often necessary to set build options using inform
   
 #### To use an environment variable in an MSBuild project  
   
--   Reference the environment variable the same way you would a variable declared in your project file. For example, the following code references the BIN_PATH environment variable:  
+- Reference the environment variable the same way you would a variable declared in your project file. For example, the following code references the BIN_PATH environment variable:  
   
-     `<FinalOutput>$(BIN_PATH)\MyAssembly.dll</FinalOutput>`  
+   `<FinalOutput>$(BIN_PATH)\MyAssembly.dll</FinalOutput>`  
   
- You can use a `Condition` attribute to provide a default value for a property if the environment variable was not set.  
+  You can use a `Condition` attribute to provide a default value for a property if the environment variable was not set.  
   
 #### To provide a default value for a property  
   

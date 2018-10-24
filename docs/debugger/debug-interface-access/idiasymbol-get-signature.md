@@ -22,7 +22,7 @@ Retrieves the symbol's signature value.
   
 ```C++  
 HRESULT get_signature (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

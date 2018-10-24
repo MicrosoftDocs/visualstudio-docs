@@ -64,33 +64,33 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
 ### To build only the startup project and its dependencies  
   
-1.  On the menu bar, choose **Tools**, **Options**.  
+1. On the menu bar, choose **Tools**, **Options**.  
   
-2.  In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.  
+2. In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.  
   
-     The **Build and Run, Projects and Solutions, Options** dialog box opens.  
+    The **Build and Run, Projects and Solutions, Options** dialog box opens.  
   
-3.  Select the  **Only build startup projects and dependencies on Run** check box.  
+3. Select the  **Only build startup projects and dependencies on Run** check box.  
   
-     When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:  
+    When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:  
   
-    -   On the menu bar, choose **Debug**, **Start** (F5).  
+   - On the menu bar, choose **Debug**, **Start** (F5).  
   
-    -   On the menu bar, choose **Build**, **Build Solution** (CTRL+SHIFT+B).  
+   - On the menu bar, choose **Build**, **Build Solution** (CTRL+SHIFT+B).  
   
      When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.  
   
 ### To build only the selected Visual C++ project  
   
-1.  Choose a [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] project, and then, on the menu bar, choose **Build**, **Project Only**, and one of the following commands:  
+1. Choose a [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] project, and then, on the menu bar, choose **Build**, **Project Only**, and one of the following commands:  
   
-    -   **Build Only** *ProjectName*  
+   - **Build Only** *ProjectName*  
   
-    -   **Rebuild Only** *ProjectName*  
+   - **Rebuild Only** *ProjectName*  
   
-    -   **Clean Only** *ProjectName*  
+   - **Clean Only** *ProjectName*  
   
-    -   **Link Only** *ProjectName*  
+   - **Link Only** *ProjectName*  
   
      These commands apply only to the [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the **Project Only** submenu might contain more commands.  
   

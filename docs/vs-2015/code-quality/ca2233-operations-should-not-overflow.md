@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2233: Operations should not overflow
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|OperationsShouldNotOverflow|
@@ -59,9 +60,9 @@ manager: "wpickett"
 ```
 public static void Main()
 {
-    int value = int.MinValue;    // int.MinValue is -2147483648
-    value = Calculator.Decrement(value);
-    Console.WriteLine(value);
+    int value = int.MinValue;    // int.MinValue is -2147483648
+    value = Calculator.Decrement(value);
+    Console.WriteLine(value);
 }
 ```
 
@@ -69,9 +70,9 @@ public static void Main()
 
 ```
 Public Shared Sub Main()
-    Dim value = Integer.MinValue    ' Integer.MinValue is -2147483648
-    value = Calculator.Decrement(value)
-    Console.WriteLine(value)
+    Dim value = Integer.MinValue    ' Integer.MinValue is -2147483648
+    value = Calculator.Decrement(value)
+    Console.WriteLine(value)
 End Sub
 ```
 

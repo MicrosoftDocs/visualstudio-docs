@@ -232,7 +232,6 @@ The last UI section, **Add New Book**, doesn't use data binding in its XAML code
         </DockPanel>
     </StackPanel>
 </Window>
-
 ```
 
 ### Comments

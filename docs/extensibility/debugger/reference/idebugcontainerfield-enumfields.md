@@ -23,21 +23,21 @@ Creates an enumerator for the fields of the container.
   
 ```cpp  
 HRESULT EnumFields(   
-   FIELD_KIND         dwKindFilter,  
-   FIELD_MODIFIERS    dwModifiersFilter,  
-   LPCOLESTR          pszNameFilter,  
-   NAME_MATCH         nameMatch,  
-   IEnumDebugFields** ppEnum  
+   FIELD_KIND         dwKindFilter,  
+   FIELD_MODIFIERS    dwModifiersFilter,  
+   LPCOLESTR          pszNameFilter,  
+   NAME_MATCH         nameMatch,  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumFields(  
-   enum_ FIELD_KIND      dwKindFilter,   
-   enum_ FIELD_MODIFIERS dwModifiersFilter,   
-   string                pszNameFilter,   
-   NAME_MATCH            nameMatch,   
-   out IEnumDebugFields  ppEnum  
+   enum_ FIELD_KIND      dwKindFilter,   
+   enum_ FIELD_MODIFIERS dwModifiersFilter,   
+   string                pszNameFilter,   
+   NAME_MATCH            nameMatch,   
+   out IEnumDebugFields  ppEnum  
 );  
 ```  
   

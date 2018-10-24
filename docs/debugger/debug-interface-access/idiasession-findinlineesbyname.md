@@ -20,9 +20,9 @@ Retrieves an enumeration that allows a client to iterate through the line number
   
 ```C++  
 HRESULT findInlineesByName (   
-   LPCOLESTR             name,  
+   LPCOLESTR             name,  
    DWORD                 option,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

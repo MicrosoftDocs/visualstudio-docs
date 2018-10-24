@@ -44,11 +44,11 @@ The <xref:System.Activities.Statements.Switch%601> activity evaluates a specifie
   
  There are 2 ways to delete a case:  
   
-1.  Select the case and delete it.  
+1. Select the case and delete it.  
   
-2.  Select the case, right-click to display the context menu and select **Delete**.  
+2. Select the case, right-click to display the context menu and select **Delete**.  
   
- Note that you must select the case itself to delete it. Selecting and deleting the activity inside a case only deletes the activity not the case.  
+   Note that you must select the case itself to delete it. Selecting and deleting the activity inside a case only deletes the activity not the case.  
   
 ## See Also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)

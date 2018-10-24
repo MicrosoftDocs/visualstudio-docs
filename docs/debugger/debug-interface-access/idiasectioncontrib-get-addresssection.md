@@ -22,7 +22,7 @@ Retrieves the section part of the contribution's address.
   
 ```C++  
 HRESULT get_addressSection (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

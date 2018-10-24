@@ -27,11 +27,11 @@ A *domain property* is a feature of a model element that can hold a value. For e
   
  Most domain properties are implemented as ordinary CLR properties. However, from a programming point of view, domain properties have richer functionality than ordinary program properties:  
   
--   You can define rules and events that monitor the state of a property. For more information, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).  
+- You can define rules and events that monitor the state of a property. For more information, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).  
   
--   Transactions help prevent inconsistent states. For more information, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
+- Transactions help prevent inconsistent states. For more information, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
- When you select a Domain Property in a diagram or in DSL Explorer, you can see the following items in the Properties window. For more information about how to use these items, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
+  When you select a Domain Property in a diagram or in DSL Explorer, you can see the following items in the Properties window. For more information about how to use these items, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   
 |Property|Description|Default Value|  
 |--------------|-----------------|-------------------|  

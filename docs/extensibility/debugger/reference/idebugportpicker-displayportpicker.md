@@ -22,15 +22,15 @@ Displays the specified dialog box that allows the user to select a port.
   
 ```cpp  
 HRESULT DisplayPortPicker(  
-   HWND hwndParentDialog,  
-   BSTR* pbstrPortId  
+   HWND hwndParentDialog,  
+   BSTR* pbstrPortId  
 );  
 ```  
   
 ```csharp  
 public int DisplayPortPicker(  
-   int hwndParentDialog,  
-   out string pbstrPortId  
+   int hwndParentDialog,  
+   out string pbstrPortId  
 );  
 ```  
   

@@ -40,13 +40,13 @@ You can use Edit and Continue in Visual C++ projects. See [Supported Code Change
 ##  <a name="BKMK_Enable_or_disable_automatic_invocation_of_Edit_and_Continue"></a> Enable or disable Edit and Continue  
  You may want to  disable the automatic invocation of Edit and Continue if you are making edits to the code that you do not want applied during the current debugging session. You can also re-enable automatic Edit and Continue.  
   
-1.  On the **Tools** menu, choose **Options**.  
+1. On the **Tools** menu, choose **Options**.  
   
-2.  In the **Options** dialog box, select **Debugging / General**.  
+2. In the **Options** dialog box, select **Debugging / General**.  
   
-3.  In the **Edit and Continue** group, select or clear the **Enable Native Edit and Continue** check box.  
+3. In the **Edit and Continue** group, select or clear the **Enable Native Edit and Continue** check box.  
   
- Altering this setting affects all projects you work on. You do not need to rebuild your application after changing this setting. You can change the setting even while you are debugging. If you build your application from the command line or from a makefile, but you debug in the Visual Studio  environment, you can still use Edit and Continue if you set the **/ZI** option.  
+   Altering this setting affects all projects you work on. You do not need to rebuild your application after changing this setting. You can change the setting even while you are debugging. If you build your application from the command line or from a makefile, but you debug in the Visual Studio  environment, you can still use Edit and Continue if you set the **/ZI** option.  
   
 ##  <a name="BKMK_How_to_apply_code_changes_explicitly"></a> How to apply code changes explicitly  
  In Visual C++, Edit and Continue can apply code changes in two ways. Code changes can be applied implicitly, when you choose an execution command, or explicitly, using the **Apply Code Changes** command.  
@@ -60,11 +60,11 @@ You can use Edit and Continue in Visual C++ projects. See [Supported Code Change
   
  To stop applying code changes:  
   
--   On the **Debug** menu, choose **Stop Applying Code Changes**.  
+- On the **Debug** menu, choose **Stop Applying Code Changes**.  
   
- This menu item is visible only when code changes are being applied.  
+  This menu item is visible only when code changes are being applied.  
   
- If you choose this option, none of the code changes are committed.  
+  If you choose this option, none of the code changes are committed.  
   
 ##  <a name="BKMK_How_to_reset_the_point_of_execution"></a> How to reset the point of execution  
  Some code changes can cause the point of execution to move to a new location when Edit and Continue applies the changes. Edit and Continue places the point of execution as accurately as possible, but the results may not be correct in all cases.  

@@ -27,13 +27,13 @@ Initializes the source data for this object and returns an object containing the
   
 ```cpp#  
 HRESULT InitSourceDataProvider(  
-   IEEDataStorage** dataOut  
+   IEEDataStorage** dataOut  
 );  
 ```  
   
 ```csharp  
 int InitSourceDataProvider(  
-   out IEEDataStorage dataOut  
+   out IEEDataStorage dataOut  
 );  
 ```  
   

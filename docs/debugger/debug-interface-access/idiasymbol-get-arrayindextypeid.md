@@ -22,7 +22,7 @@ Retrieves the array index type identifier of the symbol.
   
 ```C++  
 HRESULT get_arrayIndexTypeId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

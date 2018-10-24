@@ -57,17 +57,17 @@ If the method in this example is passed <xref:System.Int32.MinValue?displayPrope
 ```csharp
 public static void Main()
 {
-    int value = int.MinValue;    // int.MinValue is -2147483648
-    value = Calculator.Decrement(value);
-    Console.WriteLine(value);
+    int value = int.MinValue;    // int.MinValue is -2147483648
+    value = Calculator.Decrement(value);
+    Console.WriteLine(value);
 }
 ```
 
 ```vb
 Public Shared Sub Main()
-    Dim value = Integer.MinValue    ' Integer.MinValue is -2147483648
-    value = Calculator.Decrement(value)
-    Console.WriteLine(value)
+    Dim value = Integer.MinValue    ' Integer.MinValue is -2147483648
+    value = Calculator.Decrement(value)
+    Console.WriteLine(value)
 End Sub
 ```
 

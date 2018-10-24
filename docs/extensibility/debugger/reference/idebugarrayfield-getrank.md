@@ -23,13 +23,13 @@ Gets the rank or number of dimensions of the array.
   
 ```cpp  
 HRESULT GetRank(   
-   DWORD* pdwRank  
+   DWORD* pdwRank  
 );  
 ```  
   
 ```csharp  
 int GetRank(  
-   out uint pdwRank  
+   out uint pdwRank  
 );  
 ```  
   

@@ -108,23 +108,23 @@ You can temporarily hide certain warning messages during a build rather than hav
 
 1. In **Solution Explorer**, choose the top-level project node.
 
-1. On the menu bar, choose **View** > **Property Pages**.
+2. On the menu bar, choose **View** > **Property Pages**.
 
      The **Project Designer** opens.
 
-1. On the **Compile** page, select the **Disable all warnings** check box.
+3. On the **Compile** page, select the **Disable all warnings** check box.
 
      ![Compile page, Project Designer](../ide/media/buildwalk_vbsupresswarnings.png)
 
      For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
 
-1. Build the solution.
+4. Build the solution.
 
- The **Output** window displays only summary information for the build.
+   The **Output** window displays only summary information for the build.
 
- ![Output Window, Visual Basic Build Warnings](../ide/media/buildwalk_visualbasicbuildwarnings.png)
+   ![Output Window, Visual Basic Build Warnings](../ide/media/buildwalk_visualbasicbuildwarnings.png)
 
- For more information, see [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md).
+   For more information, see [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md).
 
 ## Display additional build details in the Output window
 
@@ -132,7 +132,6 @@ You can change how much information about the build process appears in the **Out
 
 > [!IMPORTANT]
 > If you display more information, the build will take longer to complete.
-
 
 ### Change the amount of information in the Output window
 
@@ -215,7 +214,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
    The executable file is copied to the network path that you specified. Its path would be `\\myserver\builds\\FileName.exe`.
 
-Congratulations: you've successfully completed this walkthrough.
+Congratulations! You've successfully completed this walkthrough.
 
 ## See also
 
