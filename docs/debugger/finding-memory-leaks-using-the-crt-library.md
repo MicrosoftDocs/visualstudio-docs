@@ -34,7 +34,7 @@ ms.workload:
 ---
 # Find memory leaks with the CRT library
 
-Memory leaks result from the failure to correctly deallocate memory that was previously allocated. Memory leaks are among the most subtle and hard-to-detect bugs in C/C++ apps. A small memory leak might not be noticed at first, but over time can cause symptoms ranging from decreased performance to crashing when the app runs out of memory. A leaking app that uses up all available memory can cause other apps to crash, creating confusion as to which app is responsible. Even harmless memory leaks might indicate other problems that should be corrected.  
+Memory leaks are among the most subtle and hard-to-detect bugs in C/C++ apps. Memory leaks result from the failure to correctly deallocate memory that was previously allocated. A small memory leak might not be noticed at first, but over time can cause symptoms ranging from decreased performance to crashing when the app runs out of memory. A leaking app that uses up all available memory can cause other apps to crash, creating confusion as to which app is responsible. Even harmless memory leaks might indicate other problems that should be corrected.  
 
  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger and C Run-time Library (CRT) can help you detect and identify memory leaks.  
 
@@ -42,7 +42,7 @@ Memory leaks result from the failure to correctly deallocate memory that was pre
 
 The primary tools for detecting memory leaks are the C/C++ debugger and the C Run-time Library (CRT) debug heap functions.  
 
-To enable all the debug heap functions, include the following statements in your C++ program, in this order:  
+To enable all the debug heap functions, include the following statements in your C++ program, in the following order:  
 
 ```cpp
 #define _CRTDBG_MAP_ALLOC  
@@ -76,7 +76,7 @@ _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
 
 ## Interpret the memory-leak report  
 
-If your app does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like this:  
+If your app does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like:  
 
 ```cmd
 Detected memory leaks!  
@@ -86,7 +86,7 @@ Dumping objects ->
 Object dump complete.  
 ```  
 
-If your app defines `_CRTDBG_MAP_ALLOC`, the memory-leak report looks like this:  
+If your app defines `_CRTDBG_MAP_ALLOC`, the memory-leak report looks like:  
 
 ```cmd
 Detected memory leaks!  
@@ -111,7 +111,7 @@ Memory block types are *normal*, *client*, or *CRT*. A *normal block* is ordinar
 
 There are two other types of memory blocks that never appear in memory-leak reports. A *free block* is memory that has been released, so by definition is not leaked. An *ignore block* is memory that you have explicitly marked to exclude from the memory-leak report.  
 
-The preceding techniques identify memory leaks for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you may only see the filename and line number where `operator new` calls `_malloc_dbg` in the memory-leak report. Because that is not very useful, you can write a macro like the following to report the line that made the allocation: 
+The preceding techniques identify memory leaks for memory allocated using the standard CRT `malloc` function. If your program allocates memory using the C++ `new` operator, however, you may only see the filename and line number where `operator new` calls `_malloc_dbg` in the memory-leak report. To create a more useful memory-leak report, you can write a macro like the following to report the line that made the allocation: 
 
 ```cpp  
 #ifdef _DEBUG
@@ -153,7 +153,7 @@ void main() {
 }
 ```  
 
-When you run this code in the Visual Studio debugger, the call to `_CrtDumpMemoryLeaks` generates a report in the **Output** window that looks similar to this:  
+When you run this code in the Visual Studio debugger, the call to `_CrtDumpMemoryLeaks` generates a report in the **Output** window that looks similar to:  
 
 ```Output  
 Detected memory leaks!
@@ -194,7 +194,7 @@ After you set a breakpoint on a memory-allocation number, you can continue to de
 
 Setting a data breakpoint on the object might also be helpful. For more information, see [Using breakpoints](../debugger/using-breakpoints.md).  
 
-You can also set memory-allocation breakpoints in code. There are two ways to do this:  
+You can also set memory-allocation breakpoints in code. You can set:  
 
 ```cpp
 _crtBreakAlloc = 18;  
@@ -222,7 +222,7 @@ To output the contents of a **_CrtMemState** structure, pass the structure to th
 _CrtMemDumpStatistics( &s1 );  
 ```  
 
-`_ CrtMemDumpStatistics` outputs a dump of memory state that looks like this:  
+`_ CrtMemDumpStatistics` outputs a dump of memory state that looks like:  
 
 ```cmd
 0 bytes in 0 Free Blocks.  
@@ -250,7 +250,7 @@ if ( _CrtMemDifference( &s3, &s1, &s2) )
 One technique for finding memory leaks begins by placing `_CrtMemCheckpoint` calls at the beginning and end of your app, then using `_CrtMemDifference` to compare the results. If `_CrtMemDifference` shows a memory leak, you can add more `_CrtMemCheckpoint` calls to divide your program using a binary search, until you have isolated the source of the leak.  
 
 ## False positives  
- In some cases, `_CrtDumpMemoryLeaks` can give false indications of memory leaks. This might occur if you use a library that marks internal allocations as normal blocks instead of CRT blocks or client blocks. In that case, `_CrtDumpMemoryLeaks` is unable to tell the difference between user allocations and internal library allocations. If the global destructors for the library allocations run after the point where you call `_CrtDumpMemoryLeaks`, every internal library allocation is reported as a memory leak. Versions of the Standard Template Library earlier than Visual Studio .NET caused `_CrtDumpMemoryLeaks` to report such false positives, but this has been fixed in recent releases.  
+ `_CrtDumpMemoryLeaks` can give false indications of memory leaks if a library marks internal allocations as normal blocks instead of CRT blocks or client blocks. In that case, `_CrtDumpMemoryLeaks` is unable to tell the difference between user allocations and internal library allocations. If the global destructors for the library allocations run after the point where you call `_CrtDumpMemoryLeaks`, every internal library allocation is reported as a memory leak. Versions of the Standard Template Library earlier than Visual Studio .NET may cause `_CrtDumpMemoryLeaks` to report such false positives.  
 
 ## See also  
  [CRT debug heap details](../debugger/crt-debug-heap-details.md)   
