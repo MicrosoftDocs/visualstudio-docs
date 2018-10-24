@@ -128,8 +128,7 @@ We offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talkto
 Here are a few more support options:
 
 * Report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* Share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* Track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
 * Use your [GitHub](https://github.com/) account to talk to us and other Visual Studio developers in the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).
 
 ## See also
@@ -137,4 +136,3 @@ Here are a few more support options:
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-
