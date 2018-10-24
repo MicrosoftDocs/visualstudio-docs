@@ -28,10 +28,10 @@ Reads the specified number of bytes starting at the specified offset from an exe
   
 ```cpp#  
 HRESULT ReadExecutableAt (   
-   DWORDLONG fileOffset,  
-   DWORD     cbData,  
-   DWORD*    pcbData,  
-   BYTE      data[]  
+   DWORDLONG fileOffset,  
+   DWORD     cbData,  
+   DWORD*    pcbData,  
+   BYTE      data[]  
 );  
 ```  
   

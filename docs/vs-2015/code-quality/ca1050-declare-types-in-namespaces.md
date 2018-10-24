@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1050: Declare types in namespaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DeclareTypesInNamespaces|

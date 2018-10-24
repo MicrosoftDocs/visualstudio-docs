@@ -28,7 +28,7 @@ Gets an enumerator for properties within this set.
   
 ```cpp#  
 HRESULT Enum (   
-   IEnumSTATPROPSTG** ppenum  
+   IEnumSTATPROPSTG** ppenum  
 );  
 ```  
   

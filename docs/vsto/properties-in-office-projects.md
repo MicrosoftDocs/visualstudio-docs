@@ -37,11 +37,11 @@ ms.workload:
   
  This property takes a Boolean value:  
   
--   Select **true** to cache the dataset in the document.  
+- Select **true** to cache the dataset in the document.  
   
--   Select **false** if you do not want the dataset to be cached in the document.  
+- Select **false** if you do not want the dataset to be cached in the document.  
   
- For more information about caching data, see [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md).  
+  For more information about caching data, see [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md).  
   
 ## Value2  
  The **Value2** property is only available for Excel workbook or template projects. It appears under the **Databindings** property node in the **Properties** window when you select a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on the worksheet designer.  

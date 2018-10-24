@@ -20,28 +20,28 @@ manager: "ghogen"
 
 In this tutorial, you build a program that loads a picture from a file and displays it in a window. You learn how to drag controls like buttons and picture boxes on your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. You learn how to:  
   
--   Create a new project.  
+- Create a new project.  
   
--   Test (debug) an application.  
+- Test (debug) an application.  
   
--   Add basic controls like check boxes and buttons to a form.  
+- Add basic controls like check boxes and buttons to a form.  
   
--   Position controls on a form using layouts.  
+- Position controls on a form using layouts.  
   
--   Add **Open File** and **Color** dialog boxes to a form.  
+- Add **Open File** and **Color** dialog boxes to a form.  
   
--   Write code using IntelliSense and code snippets.  
+- Write code using IntelliSense and code snippets.  
   
--   Write event handler methods.  
+- Write event handler methods.  
   
- When you finish, your program will look like the following picture.  
+  When you finish, your program will look like the following picture.  
   
- ![Picture that you create in this tutorial](../ide/media/express-pictureviewerdone.png "Express_PictureViewerDone")  
-Picture that you create in this tutorial  
+  ![Picture that you create in this tutorial](../ide/media/express-pictureviewerdone.png "Express_PictureViewerDone")  
+  Picture that you create in this tutorial  
   
- To download a completed version of the sample, see [Complete Picture Viewer tutorial sample](http://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).  
+  To download a completed version of the sample, see [Complete Picture Viewer tutorial sample](http://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).  
   
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [How Do I: Create a Picture Viewer in Visual Basic?](http://go.microsoft.com/fwlink/?LinkId=205207) or [How Do I: Create a Picture Viewer in C#?](http://go.microsoft.com/fwlink/?LinkId=205198).  
+  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [How Do I: Create a Picture Viewer in Visual Basic?](http://go.microsoft.com/fwlink/?LinkId=205207) or [How Do I: Create a Picture Viewer in C#?](http://go.microsoft.com/fwlink/?LinkId=205198).  
   
 > [!NOTE]
 >  These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio. Visual C# and Visual Basic are both covered in this tutorial, so focus on information specific to the programming language that you're using.  

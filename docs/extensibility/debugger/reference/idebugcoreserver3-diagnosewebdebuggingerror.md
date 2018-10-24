@@ -23,13 +23,13 @@ Attempts to determine why an auto-attach failed.
   
 ```cpp  
 HRESULT DiagnoseWebDebuggingError(  
-   LPCWSTR pszUrl  
+   LPCWSTR pszUrl  
 );  
 ```  
   
 ```csharp  
 int DiagnoseWebDebuggingError(  
-   string pszUrl  
+   string pszUrl  
 );  
 ```  
   

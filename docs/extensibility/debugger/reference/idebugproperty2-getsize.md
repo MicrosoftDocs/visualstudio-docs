@@ -23,13 +23,13 @@ Gets the size, in bytes, of the property value.
   
 ```cpp  
 HRESULT GetSize (   
-   DWORD* pdwSize  
+   DWORD* pdwSize  
 );  
 ```  
   
 ```csharp  
 int GetSize (   
-   out uint pdwSize  
+   out uint pdwSize  
 );  
 ```  
   

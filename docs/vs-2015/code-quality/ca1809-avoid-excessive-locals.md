@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1809: Avoid excessive locals
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|AvoidExcessiveLocals|

@@ -62,25 +62,25 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 #### To create the sample project  
   
-1.  In Visual Studio, on the **File** menu, point to **New** and then click **Project**.  
+1. In Visual Studio, on the **File** menu, point to **New** and then click **Project**.  
   
-2.  In the **Installed Templates** pane, select either Visual C#, Visual Basic, or Visual C++. For the managed languages, ensure that [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] is displayed in the framework box.  
+2. In the **Installed Templates** pane, select either Visual C#, Visual Basic, or Visual C++. For the managed languages, ensure that [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] is displayed in the framework box.  
   
-3.  Select **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.  
+3. Select **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.  
   
-4.  Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.  
+4. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.  
   
-5.  Paste the following code for your chosen language into the empty code file.  
+5. Paste the following code for your chosen language into the empty code file.  
   
- [!code-cpp[Debugger#1](../snippets/cpp/VS_Snippets_Misc/debugger/cpp/beta2_native.cpp#1)]
- [!code-csharp[Debugger#1](../snippets/csharp/VS_Snippets_Misc/debugger/cs/s.cs#1)]
- [!code-vb[Debugger#1](../snippets/visualbasic/VS_Snippets_Misc/debugger/vb/module1.vb#1)]  
+   [!code-cpp[Debugger#1](../snippets/cpp/VS_Snippets_Misc/debugger/cpp/beta2_native.cpp#1)]
+   [!code-csharp[Debugger#1](../snippets/csharp/VS_Snippets_Misc/debugger/cs/s.cs#1)]
+   [!code-vb[Debugger#1](../snippets/visualbasic/VS_Snippets_Misc/debugger/vb/module1.vb#1)]  
   
-1.  On the **File** menu, click **Save All**.  
+6. On the **File** menu, click **Save All**.  
   
-2.  On the **Build** menu, click **Rebuild Solution**.  
+7. On the **Build** menu, click **Rebuild Solution**.  
   
-     Notice that there are four calls to `Debugger.Break` (`DebugBreak` in the C++ sample) Therefore, you do not have to insert breakpoints; just running the application will cause it to break in the debugger up to four times.  
+    Notice that there are four calls to `Debugger.Break` (`DebugBreak` in the C++ sample) Therefore, you do not have to insert breakpoints; just running the application will cause it to break in the debugger up to four times.  
   
 ## Using the Parallel Stacks Window: Threads View  
  On the **Debug** menu, click **Start Debugging**. Wait for the first breakpoint to be hit.  
@@ -147,33 +147,33 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 #### To resume execution until the third breakpoint  
   
-1.  To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.  
+1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.  
   
-     When multiple threads are in the same method but the method was not at the beginning of the call stack, the method appears in different boxes. An example at the current breakpoint is S.L, which has three threads in it and appears in three boxes. Double-click S.L.  
+    When multiple threads are in the same method but the method was not at the beginning of the call stack, the method appears in different boxes. An example at the current breakpoint is S.L, which has three threads in it and appears in three boxes. Double-click S.L.  
   
-     ![Execution path in Parallel Stacks window](../debugger/media/pdb-walkthrough-3b.png "PDB_Walkthrough_3B")  
+    ![Execution path in Parallel Stacks window](../debugger/media/pdb-walkthrough-3b.png "PDB_Walkthrough_3B")  
   
-     Notice that S.L is bold in the other two boxes so that you can see where else it appears. If you want to see which frames call into S.L and which frames it calls, click the **Toggle Method View** button on the toolbar. The following illustration shows the method view of The **Parallel Stacks** window.  
+    Notice that S.L is bold in the other two boxes so that you can see where else it appears. If you want to see which frames call into S.L and which frames it calls, click the **Toggle Method View** button on the toolbar. The following illustration shows the method view of The **Parallel Stacks** window.  
   
-     ![Method view in Parallel Stacks window](../debugger/media/pdw-walkthrough-4.png "PDW_Walkthrough_4")  
+    ![Method view in Parallel Stacks window](../debugger/media/pdw-walkthrough-4.png "PDW_Walkthrough_4")  
   
-     Notice how the diagram pivoted on the selected method and positioned it in its own box in the middle of the view. The callees and callers appear on the top and bottom. Click the **Toggle Method View** button again to leave this mode.  
+    Notice how the diagram pivoted on the selected method and positioned it in its own box in the middle of the view. The callees and callers appear on the top and bottom. Click the **Toggle Method View** button again to leave this mode.  
   
-     The shortcut menu of the **Parallel Stacks** window also has the following other items.  
+    The shortcut menu of the **Parallel Stacks** window also has the following other items.  
   
-    -   **Hexadecimal Display** toggles the numbers in the tooltips between decimal and hexadecimal.  
+   - **Hexadecimal Display** toggles the numbers in the tooltips between decimal and hexadecimal.  
   
-    -   **Symbol Load Information** and **Symbol Settings** open the respective dialog boxes.  
+   - **Symbol Load Information** and **Symbol Settings** open the respective dialog boxes.  
   
-    -   **Go To Source Code** and **Go To Disassembly** navigate in the editor to the selected method.  
+   - **Go To Source Code** and **Go To Disassembly** navigate in the editor to the selected method.  
   
-    -   **Show External Code** displays all the frames even if they are not in user code. Try it to see the diagram expand to accommodate the additional frames (which may be dimmed because you do not have symbols for them).  
+   - **Show External Code** displays all the frames even if they are not in user code. Try it to see the diagram expand to accommodate the additional frames (which may be dimmed because you do not have symbols for them).  
   
      When you have large diagrams and you step to the next breakpoint, you may want the view to auto scroll to the active stack frame of the current thread; that is, the thread that hit the breakpoint first. In the **Parallel Stacks** window, make sure that the **Auto Scroll to Current Stack Frame** button on the toolbar is on.  
   
      ![Autoscrolling in the Parallel Stacks window](../debugger/media/pdb-walkthrough-4a.png "PDB_Walkthrough_4A")  
   
-2.  Before you continue, in the **Parallel Stacks** window, scroll all the way to the left and all the way down.  
+2. Before you continue, in the **Parallel Stacks** window, scroll all the way to the left and all the way down.  
   
 #### To resume execution until the fourth breakpoint  
   

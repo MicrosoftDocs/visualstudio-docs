@@ -35,40 +35,40 @@ ms.workload:
   
  [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] does not support the importing of solutions created in the following applications:  
   
--   [!INCLUDE[winshare3](../sharepoint/includes/winshare3-md.md)]  
+- [!INCLUDE[winshare3](../sharepoint/includes/winshare3-md.md)]  
   
--   [!INCLUDE[offshare7](../sharepoint/includes/offshare7-md.md)]  
+- [!INCLUDE[offshare7](../sharepoint/includes/offshare7-md.md)]  
   
--   [!INCLUDE[vs_orcas_long](../sharepoint/includes/vs-orcas-long-md.md)]  
+- [!INCLUDE[vs_orcas_long](../sharepoint/includes/vs-orcas-long-md.md)]  
   
--   Microsoft SharePoint Designer 2007  
+- Microsoft SharePoint Designer 2007  
   
--   [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)]  
+- [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)]  
   
- Although you can often successfully import solutions created by these applications, that functionality is not tested and not supported.  
+  Although you can often successfully import solutions created by these applications, that functionality is not tested and not supported.  
   
 ## Item import restrictions
  Although most SharePoint items can be imported from an existing *.wsp* file, the following items are not supported and may require modifications to work correctly:  
   
--   BDC entities  
+- BDC entities  
   
--   Code workflow association elements  
+- Code workflow association elements  
   
--   Code workflows  
+- Code workflows  
   
--   Visual Web parts (.ascx)  
+- Visual Web parts (.ascx)  
   
--   Web services (*.asmx*)  
+- Web services (*.asmx*)  
   
--   Content type bindings  
+- Content type bindings  
   
--   Event receivers  
+- Event receivers  
   
--   List definitions (templates)  
+- List definitions (templates)  
   
--   Site definitions  
+- Site definitions  
   
- When you export a solution from [!INCLUDE[wss_14_short](../sharepoint/includes/wss-14-short-md.md)] or [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)], these items are automatically excluded from the *.wsp* file. However, other *.wsp* files generated from unsupported tools may contain these items. (See "Supported SharePoint Solutions" earlier in this topic.)  
+  When you export a solution from [!INCLUDE[wss_14_short](../sharepoint/includes/wss-14-short-md.md)] or [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)], these items are automatically excluded from the *.wsp* file. However, other *.wsp* files generated from unsupported tools may contain these items. (See "Supported SharePoint Solutions" earlier in this topic.)  
   
 ## What happens when you import a solution
  When you import a solution with the Import SharePoint Solution Package template, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] copies all of the contents of the *.wsp* file and tries to reconcile and retain as many associations and references between imported elements and their files as possible.  

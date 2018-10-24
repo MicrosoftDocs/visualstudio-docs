@@ -26,23 +26,23 @@ ms.workload:
 # Excel object model overview
   To develop solutions that use Microsoft Office Excel, you can interact with the objects provided by the Excel object model. This topic introduces the most important objects:  
   
--   <xref:Microsoft.Office.Interop.Excel.Application>  
+- <xref:Microsoft.Office.Interop.Excel.Application>  
   
--   <xref:Microsoft.Office.Interop.Excel.Workbook>  
+- <xref:Microsoft.Office.Interop.Excel.Workbook>  
   
--   <xref:Microsoft.Office.Interop.Excel.Worksheet>  
+- <xref:Microsoft.Office.Interop.Excel.Worksheet>  
   
--   <xref:Microsoft.Office.Interop.Excel.Range>  
+- <xref:Microsoft.Office.Interop.Excel.Range>  
   
- [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
+  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   
- The object model closely follows the user interface. The <xref:Microsoft.Office.Interop.Excel.Application> object represents the entire application, and each <xref:Microsoft.Office.Interop.Excel.Workbook> object contains a collection of `Worksheet` objects. From there, the major abstraction that represents cells is the <xref:Microsoft.Office.Interop.Excel.Range> object, which enables you to work with individual cells or groups of cells.  
+  The object model closely follows the user interface. The <xref:Microsoft.Office.Interop.Excel.Application> object represents the entire application, and each <xref:Microsoft.Office.Interop.Excel.Workbook> object contains a collection of `Worksheet` objects. From there, the major abstraction that represents cells is the <xref:Microsoft.Office.Interop.Excel.Range> object, which enables you to work with individual cells or groups of cells.  
   
- In addition to the Excel object model, Office projects in Visual Studio provide *host items* and *host controls* that extend some objects in the Excel object model. Host items and host controls behave like the Excel objects they extend, but they also have additional functionality such as data-binding capabilities and extra events. For more information, see [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md) and [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).  
+  In addition to the Excel object model, Office projects in Visual Studio provide *host items* and *host controls* that extend some objects in the Excel object model. Host items and host controls behave like the Excel objects they extend, but they also have additional functionality such as data-binding capabilities and extra events. For more information, see [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md) and [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).  
   
- This topic provides a brief overview of the Excel object model. For resources where you can learn more about the entire Excel object model, see [Use the Excel object model documentation](#ExcelOMDocumentation).  
+  This topic provides a brief overview of the Excel object model. For resources where you can learn more about the entire Excel object model, see [Use the Excel object model documentation](#ExcelOMDocumentation).  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use event handlers in an Excel 2007 Add-in?](http://go.microsoft.com/fwlink/?LinkID=130291), and [How do I: Use shapes to create a bubble chart in Excel?](http://go.microsoft.com/fwlink/?LinkID=130313).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use event handlers in an Excel 2007 Add-in?](http://go.microsoft.com/fwlink/?LinkID=130291), and [How do I: Use shapes to create a bubble chart in Excel?](http://go.microsoft.com/fwlink/?LinkID=130313).  
   
 ## Access objects in an Excel project  
  When you create a new VSTO Add-in project for Excel, Visual Studio automatically creates a *ThisAddIn.vb* or *ThisAddIn.cs* code file. You can access the Application object by using `Me.Application` or `this.Application`.  
@@ -63,15 +63,15 @@ ms.workload:
   
  Because the data in an Excel document is highly structured, the object model is hierarchical and straightforward. Excel provides hundreds of objects with which you might want to interact, but you can get a good start on the object model by focusing on a small subset of the available objects. These objects include the following four:  
   
--   Application  
+- Application  
   
--   Workbook  
+- Workbook  
   
--   Worksheet  
+- Worksheet  
   
--   Range  
+- Range  
   
- Much of the work done with Excel centers around these four objects and their members.  
+  Much of the work done with Excel centers around these four objects and their members.  
   
 ### Application object  
  The Excel <xref:Microsoft.Office.Interop.Excel.Application> object represents the Excel application itself. The <xref:Microsoft.Office.Interop.Excel.Application> object exposes a great deal of information about the running application, the options applied to that instance, and the current user objects open within the instance.  

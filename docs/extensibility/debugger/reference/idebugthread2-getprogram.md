@@ -23,13 +23,13 @@ Gets the program in which a thread is running.
   
 ```cpp  
 HRESULT GetProgram (   
-   IDebugProgram2** ppProgram  
+   IDebugProgram2** ppProgram  
 );  
 ```  
   
 ```csharp  
 int GetProgram (   
-   out IDebugProgram2 ppProgram  
+   out IDebugProgram2 ppProgram  
 );  
 ```  
   

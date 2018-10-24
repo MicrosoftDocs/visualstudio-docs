@@ -1,4 +1,3 @@
-
 ---
 title: "Using shims to isolate your application for unit testing in Visual Studio"
 ms.date: 11/04/2016
@@ -430,7 +429,6 @@ This behavior can be changed at any time by setting the `InstanceBehavior` prope
 var shim = new ShimMyClass();
 //return default(T) or do nothing
 shim.InstanceBehavior = ShimsBehaviors.DefaultValue;
-
 ```
 
 The behavior can also be changed globally for all shimmed instances for which the `InstanceBehavior` property was not explicitly set by setting the static `ShimsBehaviors.Current` property:

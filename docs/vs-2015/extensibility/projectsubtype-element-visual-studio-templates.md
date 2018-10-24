@@ -59,15 +59,15 @@ Classifies the template into a subcategory of the value specified in the `Projec
   
  The `ProjectSubType` element provides a subcategory to the [ProjectType](../extensibility/projecttype-element-visual-studio-templates.md) element. This value can include:  
   
--   `SmartDevice-NETCFv1`: Specifies that the template targets the [!INCLUDE[Compact](../includes/compact-md.md)] version 1.0.  
+- `SmartDevice-NETCFv1`: Specifies that the template targets the [!INCLUDE[Compact](../includes/compact-md.md)] version 1.0.  
   
--   `SmartDevice-NETCFv2`: Specifies that the tempalate targets the [!INCLUDE[Compact](../includes/compact-md.md)] version 2.0.  
+- `SmartDevice-NETCFv2`: Specifies that the tempalate targets the [!INCLUDE[Compact](../includes/compact-md.md)] version 2.0.  
   
- If a template contains a `ProjectType` element with a value of `Web`, the `ProjectSubType` element specifies the programming language of the template. This element can have the following values:  
+  If a template contains a `ProjectType` element with a value of `Web`, the `ProjectSubType` element specifies the programming language of the template. This element can have the following values:  
   
--   `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../includes/csprcs-md.md)] Web project or item.  
+- `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../includes/csprcs-md.md)] Web project or item.  
   
--   `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] Web project or item.  
+- `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] Web project or item.  
   
 ## Example  
  The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../includes/csprcs-md.md)] device application targeting the [!INCLUDE[Compact](../includes/compact-md.md)] version 2.0.  

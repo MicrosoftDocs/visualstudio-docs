@@ -24,13 +24,13 @@ ms.workload:
   
  This topic describes the following tasks:  
   
--   [Add Chart controls at design time](#designtime)  
+- [Add Chart controls at design time](#designtime)  
   
--   [Add Chart controls at runtime in a document-level project](#runtimedoclevel)  
+- [Add Chart controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Add Chart controls at runtime in a VSTO Add-in project](#runtimeaddin)  
+- [Add Chart controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
- For more information about <xref:Microsoft.Office.Tools.Excel.Chart> controls, see [Chart control](../vsto/chart-control.md).  
+  For more information about <xref:Microsoft.Office.Tools.Excel.Chart> controls, see [Chart control](../vsto/chart-control.md).  
   
 ##  <a name="designtime"></a> Add Chart controls at design time  
  You can add the <xref:Microsoft.Office.Tools.Excel.Chart> control to your worksheet in the same manner you would add a chart from within the application.  

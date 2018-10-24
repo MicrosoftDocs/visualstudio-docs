@@ -28,9 +28,9 @@ Retrieves a specified symbol type that contains, or is closest to, a specified v
   
 ```cpp#  
 HRESULT findSymbolByVA (   
-   ULONGLONG    va,  
-   SymTagEnum   symtag,  
-   IDiaSymbol** ppSymbol  
+   ULONGLONG    va,  
+   SymTagEnum   symtag,  
+   IDiaSymbol** ppSymbol  
 );  
 ```  
   

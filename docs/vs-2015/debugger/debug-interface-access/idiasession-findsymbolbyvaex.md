@@ -28,10 +28,10 @@ Retrieves a specified symbol type that contains, or is closest to, a specified v
   
 ```cpp#  
 HRESULT findSymbolByVAEx (   
-   ULONGLONG    va,  
-   SymTagEnum   symtag,  
-   IDiaSymbol** ppSymbol,  
-   LONG*        displacement  
+   ULONGLONG    va,  
+   SymTagEnum   symtag,  
+   IDiaSymbol** ppSymbol,  
+   LONG*        displacement  
 );  
 ```  
   

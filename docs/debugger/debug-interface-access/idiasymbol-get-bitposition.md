@@ -22,7 +22,7 @@ Retrieves the bit position of location. Used when the [LocationType Enumeration]
   
 ```C++  
 HRESULT get_bitPosition (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

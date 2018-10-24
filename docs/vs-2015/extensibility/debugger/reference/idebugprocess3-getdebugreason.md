@@ -27,13 +27,13 @@ This method returns the reason that the process was launched for debugging.
   
 ```cpp  
 HRESULT GetDebugReason(  
-   DEBUG_REASON* pReason  
+   DEBUG_REASON* pReason  
 );  
 ```  
   
 ```csharp  
 int GetDebugReason(  
-   out enum_DEBUG_REASON pReason  
+   out enum_DEBUG_REASON pReason  
 );  
 ```  
   

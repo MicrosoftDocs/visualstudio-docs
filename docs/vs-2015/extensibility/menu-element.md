@@ -65,12 +65,12 @@ Defines one menu item. These are the six kinds of menus: Context, Menu, MenuCont
   
 ```  
 <Menu guid="cmdGuidWidgetCommands" id="menuIDEditWidget"  
-  priority="0x0002" type="Menu">  
-  <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-    <CommandFlag>AlwaysCreate</CommandFlag>  
-    <Strings>  
-      <ButtonText>Edit Widget</ButtonText>  
-    </Strings>  
+  priority="0x0002" type="Menu">  
+  <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
+    <CommandFlag>AlwaysCreate</CommandFlag>  
+    <Strings>  
+      <ButtonText>Edit Widget</ButtonText>  
+    </Strings>  
     </Parent>  
 </Menu>  
 ```  

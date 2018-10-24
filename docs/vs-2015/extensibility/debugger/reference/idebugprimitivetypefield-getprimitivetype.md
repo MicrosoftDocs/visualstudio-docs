@@ -26,13 +26,13 @@ Retrieves the primitive type that is associated with this field.
   
 ```cpp#  
 HRESULT GetPrimitiveType (  
-   DWORD* pdwType  
+   DWORD* pdwType  
 );  
 ```  
   
 ```csharp  
 int GetPrimitiveType (  
-   out uint pdwType  
+   out uint pdwType  
 );  
 ```  
   

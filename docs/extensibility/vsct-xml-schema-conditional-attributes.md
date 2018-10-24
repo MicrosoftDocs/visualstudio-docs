@@ -45,24 +45,24 @@ You can apply conditional attributes to all lists and items. Logical operators a
 </Menu>  
   
 <Menus Condition="Defined(DEBUG)">  
-    <Menu ...  
-    </Menu>  
+    <Menu ...  
+    </Menu>  
 </Menus>  
   
 <Menus Condition="Defined(DEMO_SKU)">  
-    <Menus Condition="!Defined(DEBUG)">  
-        <Menu ...  
-        </Menu>  
-    </Menus>  
+    <Menus Condition="!Defined(DEBUG)">  
+        <Menu ...  
+        </Menu>  
+    </Menus>  
   
-    <Menu ...  
-    </Menu>  
+    <Menu ...  
+    </Menu>  
 </Menus>  
   
 <Menus Condition="(Defined(DEMO_SKU) or Defined(SAMPLE_SKU))   
 and !Defined(DEBUG)">  
-    <Menu ...  
-    </Menu>  
+    <Menu ...  
+    </Menu>  
 </Menus>  
 ```  
   

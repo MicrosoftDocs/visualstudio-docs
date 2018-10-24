@@ -30,22 +30,22 @@ This code generation applies to:
 
    - C#:
 
-    ![Highlighted code C#](media/interface-highlight-cs.png)
+       ![Highlighted code C#](media/interface-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code VB](media/interface-highlight-vb.png)
+       ![Highlighted code VB](media/interface-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-1. Select **Implement interface** from the drop-down menu.
+3. Select **Implement interface** from the drop-down menu.
 
    ![Implement interface preview](media/interface-preview-cs.png)
 
@@ -57,11 +57,11 @@ This code generation applies to:
 
    - C#:
 
-      ![Implement interface result C#](media/interface-result-cs.png)
+       ![Implement interface result C#](media/interface-result-cs.png)
 
    - Visual Basic:
 
-      ![Implement interface result VB](media/interface-result-vb.png)
+       ![Implement interface result VB](media/interface-result-vb.png)
 
    > [!TIP]
    > (C# only) Use the **Implement interface explicitly** option to preface each generated method with the interface name to avoid name collisions.

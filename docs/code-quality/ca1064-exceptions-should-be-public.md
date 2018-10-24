@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1064: Exceptions should be public
+
 |||
 |-|-|
 |TypeName|ExceptionsShouldBePublic|

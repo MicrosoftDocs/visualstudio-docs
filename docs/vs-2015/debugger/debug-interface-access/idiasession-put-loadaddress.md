@@ -28,7 +28,7 @@ Sets the load address for the executable file that corresponds to the symbols in
   
 ```cpp#  
 HRESULT put_loadAddress (   
-   ULONGLONG NewVal  
+   ULONGLONG NewVal  
 );  
 ```  
   

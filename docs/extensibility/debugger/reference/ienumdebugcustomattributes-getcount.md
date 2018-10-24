@@ -23,13 +23,13 @@ Gets the number of custom attributes in an enumerator.
   
 ```cpp  
 HRESULT GetCount(   
-   ULONG* pcelt  
+   ULONG* pcelt  
 );  
 ```  
   
 ```csharp  
 int GetCount(  
-   out uint pcelt  
+   out uint pcelt  
 );  
 ```  
   

@@ -22,14 +22,14 @@ A *domain property* is a feature of a model element that can hold a value. For e
 
  Most domain properties are implemented as ordinary CLR properties. However, from a programming point of view, domain properties have richer functionality than ordinary program properties:
 
--   You can define rules and events that monitor the state of a property. For more information, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).
+- You can define rules and events that monitor the state of a property. For more information, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).
 
--   Transactions help prevent inconsistent states. For more information, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
+- Transactions help prevent inconsistent states. For more information, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
- When you select a Domain Property in a diagram or in DSL Explorer, you can see the following items in the Properties window. For more information about how to use these items, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
+  When you select a Domain Property in a diagram or in DSL Explorer, you can see the following items in the Properties window. For more information about how to use these items, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
 |Property|Description|Default Value|
-|--------------|-----------------|-------------------|
+|-|-|-|
 |**Description**|The description that is used to document the user interface (UI) of the generated designer.|\<none>|
 |**Display Name**|The name that will be displayed in the generated designer for this domain property. It can contain spaces and punctuation, for example "Song Title".|\<none>|
 |**Element Name Provider**|This is applicable only if you have set `Is Element Name` to `true`. You can write code that provides a name for a new element of a domain class, overriding the default behavior.<br /><br /> In a code file in the DSL project, create a class that is derived from <xref:Microsoft.VisualStudio.Modeling.ElementNameProvider>.<br /><br /> Then in DSL Explorer, right-click the root of the DSL, and click Add External Type. Enter the name of your class.<br /><br /> Select this domain property again, and select the name of the class in the drop-down list.|\<none>|

@@ -24,15 +24,15 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Adding a chart to the document in a document-level project at design time.  
+- Adding a chart to the document in a document-level project at design time.  
   
--   Grouping radio buttons by adding them to a user control.  
+- Grouping radio buttons by adding them to a user control.  
   
--   Changing the chart style when an option is selected.  
+- Changing the chart style when an option is selected.  
   
- To see the result as a completed sample, see the Word Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
+  To see the result as a completed sample, see the Word Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  

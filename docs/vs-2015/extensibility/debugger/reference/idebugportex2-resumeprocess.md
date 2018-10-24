@@ -27,13 +27,13 @@ Resumes execution of a process.
   
 ```cpp#  
 HRESULT ResumeProcess(   
-   IDebugProcess2* pPortProcess  
+   IDebugProcess2* pPortProcess  
 );  
 ```  
   
 ```cpp#  
 int ResumeProcess(   
-   IDebugProcess2 pPortProcess  
+   IDebugProcess2 pPortProcess  
 );  
 ```  
   

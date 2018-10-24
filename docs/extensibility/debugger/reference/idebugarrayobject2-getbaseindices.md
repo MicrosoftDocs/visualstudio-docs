@@ -22,15 +22,15 @@ Retrieves the base indices (lower bounds) for each index given the number of dim
   
 ```cpp  
 HRESULT GetBaseIndices (  
-   DWORD  dwRank,  
-   DWORD* dwIndices  
+   DWORD  dwRank,  
+   DWORD* dwIndices  
 );  
 ```  
   
 ```csharp  
 int GetBaseIndices (  
-   uint       dwRank,  
-   out uint[] dwIndices  
+   uint       dwRank,  
+   out uint[] dwIndices  
 );  
 ```  
   

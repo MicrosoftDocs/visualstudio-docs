@@ -23,13 +23,13 @@ This method gets the number of type visualizers available from this service.
   
 ```cpp  
 HRESULT GetCustomViewerCount(  
-   ULONG* pcelt  
+   ULONG* pcelt  
 );  
 ```  
   
 ```csharp  
 int GetCustomViewerCount(  
-   out uint pcelt  
+   out uint pcelt  
 );  
 ```  
   

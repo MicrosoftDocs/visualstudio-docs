@@ -61,12 +61,12 @@ Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, 
   
 ```  
 <Symbols>  
-  <GuidSymbol name="guidVsPackage1Pkg" value="{c5f54698-101a-4846-84d3-dc748f9cd848}" />  
-  <GuidSymbol name="guidVsPackage1CmdSet" value="{cb9dfd7f-2fcc-4a3e-aae8-f7fe30b1cfac}">  
-    <IDSymbol name="MyMenuGroup" value="0x1020" />  
-    <IDSymbol name="cmdidMyCommand" value="0x0100" />  
-    <IDSymbol name="cmdidMyTool" value="0x0101" />  
-  </GuidSymbol>  
+  <GuidSymbol name="guidVsPackage1Pkg" value="{c5f54698-101a-4846-84d3-dc748f9cd848}" />  
+  <GuidSymbol name="guidVsPackage1CmdSet" value="{cb9dfd7f-2fcc-4a3e-aae8-f7fe30b1cfac}">  
+    <IDSymbol name="MyMenuGroup" value="0x1020" />  
+    <IDSymbol name="cmdidMyCommand" value="0x0100" />  
+    <IDSymbol name="cmdidMyTool" value="0x0101" />  
+  </GuidSymbol>  
 </Symbols>  
 ```  
   

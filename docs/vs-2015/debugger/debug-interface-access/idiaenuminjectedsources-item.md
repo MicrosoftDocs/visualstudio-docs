@@ -28,8 +28,8 @@ Retrieves an injected source by means of an index.
   
 ```cpp#  
 HRESULT Item (   
-   DWORD                index,  
-   IDiaInjectedSource** injectedSource  
+   DWORD                index,  
+   IDiaInjectedSource** injectedSource  
 );  
 ```  
   

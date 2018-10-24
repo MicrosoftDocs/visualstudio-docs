@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2134: Methods must keep consistent transparency when overriding base methods
+
 |||
 |-|-|
 |TypeName|MethodsMustOverrideWithConsistentTransparency|

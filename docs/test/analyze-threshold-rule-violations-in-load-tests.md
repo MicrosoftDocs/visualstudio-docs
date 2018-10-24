@@ -29,7 +29,7 @@ If any violations occurred, a **threshold violations** hyperlink appears on the 
  The threshold violations table displays the first 1,000 violations. The following table contains these columns:
 
 |Column|Description|Visible By Default|
-|------------|-----------------|------------------------|
+|-|-|-|
 |Time|The time during the load test at which the violation occurred.|Yes|
 |Computer|The name of the computer under test on which the violation occurred. **Note:**  This is important when you run load tests on rigs.|Yes|
 |Category|The category of the performance counter on which the violation occurred.|Yes|

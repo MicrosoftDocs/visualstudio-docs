@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1819: Properties should not return arrays
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|PropertiesShouldNotReturnArrays|

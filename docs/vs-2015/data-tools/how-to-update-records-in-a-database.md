@@ -56,18 +56,18 @@ You can use the `TableAdapter.Update` method to update (edit) records in a datab
   
 #### To update records in a database with the TableAdapter.Update method that takes DataSet, DataTable, DataRow, or DataRows()  
   
-1.  Edit records in the desired <xref:System.Data.DataTable> by directly editing the <xref:System.Data.DataRow> in the <xref:System.Data.DataTable>. For more information, see [How to: Edit Rows in a DataTable](http://msdn.microsoft.com/library/d5eea200-9bfa-4956-bf7c-08dd6fb6663c).  
+1. Edit records in the desired <xref:System.Data.DataTable> by directly editing the <xref:System.Data.DataRow> in the <xref:System.Data.DataTable>. For more information, see [How to: Edit Rows in a DataTable](http://msdn.microsoft.com/library/d5eea200-9bfa-4956-bf7c-08dd6fb6663c).  
   
-2.  After the rows are edited in the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in either an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>.  
+2. After the rows are edited in the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in either an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>.  
   
-     The following code shows how to edit a record in a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the changes to the database. (This example uses the Northwind database Region table.)  
+    The following code shows how to edit a record in a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the changes to the database. (This example uses the Northwind database Region table.)  
   
-     [!code-csharp[VbRaddataSaving#17](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form5.cs#17)]
-     [!code-vb[VbRaddataSaving#17](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb#17)]  
+    [!code-csharp[VbRaddataSaving#17](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form5.cs#17)]
+    [!code-vb[VbRaddataSaving#17](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb#17)]  
   
- If your application uses objects to store the data in your application, you can use the TableAdapter's `DBDirect` methods to send data from your objects directly to the database. These methods allow you to pass individual values for each column as method parameters. Calling this method updates an existing record in the database with the column values passed into the method.  
+   If your application uses objects to store the data in your application, you can use the TableAdapter's `DBDirect` methods to send data from your objects directly to the database. These methods allow you to pass individual values for each column as method parameters. Calling this method updates an existing record in the database with the column values passed into the method.  
   
- The following procedure uses the Northwind `Region` table as an example.  
+   The following procedure uses the Northwind `Region` table as an example.  
   
 #### To update records in a database using the TableAdapter.Update method that takes column values  
   

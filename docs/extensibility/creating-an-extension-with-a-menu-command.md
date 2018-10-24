@@ -112,20 +112,20 @@ This walkthrough shows how to create an extension with a menu command that launc
 ## Next steps  
  This walkthrough has shown you only a small part of what you can do with a Visual Studio extension. Here's a short list of other (reasonably easy) things you can do with Visual Studio extensions:  
   
-1.  You can do many more things with a simple menu command:  
+1. You can do many more things with a simple menu command:  
   
-    1.  Add your own icon: [Add icons to menu commands](../extensibility/adding-icons-to-menu-commands.md)  
+   1.  Add your own icon: [Add icons to menu commands](../extensibility/adding-icons-to-menu-commands.md)  
   
-    2.  Change the text of the menu command: [Change the text of a menu command](../extensibility/changing-the-text-of-a-menu-command.md)  
+   2.  Change the text of the menu command: [Change the text of a menu command](../extensibility/changing-the-text-of-a-menu-command.md)  
   
-    3.  Add a menu shortcut to a command: [Bind keyboard shortcuts to menu items](../extensibility/binding-keyboard-shortcuts-to-menu-items.md)  
+   3.  Add a menu shortcut to a command: [Bind keyboard shortcuts to menu items](../extensibility/binding-keyboard-shortcuts-to-menu-items.md)  
   
-2.  Add different kinds of commands, menus, and toolbars: [Extend menus and commands](../extensibility/extending-menus-and-commands.md)  
+2. Add different kinds of commands, menus, and toolbars: [Extend menus and commands](../extensibility/extending-menus-and-commands.md)  
   
-3.  Add tool windows and extend the built-in Visual Studio tool windows: [Extend and Customize tool windows](../extensibility/extending-and-customizing-tool-windows.md)  
+3. Add tool windows and extend the built-in Visual Studio tool windows: [Extend and Customize tool windows](../extensibility/extending-and-customizing-tool-windows.md)  
   
-4.  Add IntelliSense, code suggestions, and other features to existing code editors: [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md)  
+4. Add IntelliSense, code suggestions, and other features to existing code editors: [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md)  
   
-5.  Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md) and [Extend user settings and Ooptions](../extensibility/extending-user-settings-and-options.md)  
+5. Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md) and [Extend user settings and Ooptions](../extensibility/extending-user-settings-and-options.md)  
   
- Other kinds of extensions require a little more work, such as creating a new type of project ([Extend projects](../extensibility/extending-projects.md)), creating a new type of editor ([Creat custom editors and designers](../extensibility/creating-custom-editors-and-designers.md)), or implementing your extension in an isolated shell: [Visual Studio isolated shell](../extensibility/visual-studio-isolated-shell.md)
+   Other kinds of extensions require a little more work, such as creating a new type of project ([Extend projects](../extensibility/extending-projects.md)), creating a new type of editor ([Creat custom editors and designers](../extensibility/creating-custom-editors-and-designers.md)), or implementing your extension in an isolated shell: [Visual Studio isolated shell](../extensibility/visual-studio-isolated-shell.md)

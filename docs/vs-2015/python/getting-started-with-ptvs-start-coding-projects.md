@@ -30,13 +30,13 @@ Python Tools for Visual Studio (PTVS) helps you manage your code.
  
 - Define the boundaries of your components. If you have multiple components in your app, you can put each one in a separate project. These may eventually be deployed to different servers, built with different build or debug settings, or could even be written using another language supported by Visual Studio such as C++ or Node.js 
  
- There are several project templates to help get you started. If you already have Python code that you'd like to work on, the From Existing code wizard will help you create a project that includes all of your files. Multiple Web projects exist for some popular frameworks. More templates are available in the PTVS samples pack. There are options to make the provided web templates work with other frameworks. The Python Application template is a clean, empty project. There's one module to get you started. 
+  There are several project templates to help get you started. If you already have Python code that you'd like to work on, the From Existing code wizard will help you create a project that includes all of your files. Multiple Web projects exist for some popular frameworks. More templates are available in the PTVS samples pack. There are options to make the provided web templates work with other frameworks. The Python Application template is a clean, empty project. There's one module to get you started. 
  
- Visual Studio shows your open projects in the Solution Explorer window, including all files, search paths, and Python environments. To add new items, select your project folder and from the context menu (press the right pointer button), choose Add and then New Item. You can select any item in the dialog, customize the item’s name, and add the item to the project. 
+  Visual Studio shows your open projects in the Solution Explorer window, including all files, search paths, and Python environments. To add new items, select your project folder and from the context menu (press the right pointer button), choose Add and then New Item. You can select any item in the dialog, customize the item’s name, and add the item to the project. 
  
- You can drag and drop into the Solution Explorer. If you've already copied files into your project directory structure, you can choose Show All Files at the top of the Solution Explorer. Then you can select the items you want to add, and from the context menu, choose Include in Project. 
+  You can drag and drop into the Solution Explorer. If you've already copied files into your project directory structure, you can choose Show All Files at the top of the Solution Explorer. Then you can select the items you want to add, and from the context menu, choose Include in Project. 
  
- You can watch these instructions in a very short [youtube video](https://www.youtube.com/watch?v=KHPoVpL7zHg&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=2). 
+  You can watch these instructions in a very short [youtube video](https://www.youtube.com/watch?v=KHPoVpL7zHg&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=2). 
  
 ## See Also 
  [Wiki documentation](https://github.com/Microsoft/PTVS/wiki/Projects) 

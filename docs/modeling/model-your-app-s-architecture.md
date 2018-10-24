@@ -48,30 +48,30 @@ To help ensure that your software system or application meets your users' needs,
 
  The requirements model provides these essential pieces of information:
 
--   Provided interfaces. A provided interface lists the services or operations that the system or component must provide to its users, whether they are human users or other software components.
+- Provided interfaces. A provided interface lists the services or operations that the system or component must provide to its users, whether they are human users or other software components.
 
--   Required interfaces. A required interface lists the services or operations that the system or component can use. In some cases, you will be able to design all these services as part of your own system. In other cases, especially if you are designing a component that can be combined with other components in many configurations, the required interface will be set by external considerations.
+- Required interfaces. A required interface lists the services or operations that the system or component can use. In some cases, you will be able to design all these services as part of your own system. In other cases, especially if you are designing a component that can be combined with other components in many configurations, the required interface will be set by external considerations.
 
--   Quality of service requirements. The performance, security, robustness, and other goals and constraints that the system must meet.
+- Quality of service requirements. The performance, security, robustness, and other goals and constraints that the system must meet.
 
- The requirements model is written from the point of view of your system's users, whether they are people or other software components. They know nothing of the internal workings of your system. By contrast, your goal in an architectural model is to describe the internal workings and show how they meet the users' needs.
+  The requirements model is written from the point of view of your system's users, whether they are people or other software components. They know nothing of the internal workings of your system. By contrast, your goal in an architectural model is to describe the internal workings and show how they meet the users' needs.
 
- Keeping the requirements and architectural models separate is useful because it makes it easier to discuss the requirements with the users. It also helps you refactor the design and consider alternative architectures while keeping the requirements unchanged.
+  Keeping the requirements and architectural models separate is useful because it makes it easier to discuss the requirements with the users. It also helps you refactor the design and consider alternative architectures while keeping the requirements unchanged.
 
- The amount of detail that you should put into either a requirements or an architectural model depends on the scale of the project and the size and distribution of the team. A small team on a short project might go no further than sketching a class diagram of the business concepts and some design patterns; a large project distributed over more than one region would need significantly more detail.
+  The amount of detail that you should put into either a requirements or an architectural model depends on the scale of the project and the size and distribution of the team. A small team on a short project might go no further than sketching a class diagram of the business concepts and some design patterns; a large project distributed over more than one region would need significantly more detail.
 
 ## <a name="BigDecisions"></a> Architectural Patterns
  Early in a development, you have to choose the major technologies and elements on which the design depends. The areas in which these choices must be made include the following:
 
--   Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a web client, and so on.
+- Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a web client, and so on.
 
--   Frameworks choices, such as a choice between Windows Workflow Foundation or ADO.NET Entity Framework.
+- Frameworks choices, such as a choice between Windows Workflow Foundation or ADO.NET Entity Framework.
 
--   Integration method choices, for example between an enterprise service bus or a point-to-point channel.
+- Integration method choices, for example between an enterprise service bus or a point-to-point channel.
 
- These choices are frequently determined by quality of service requirements such as scale and flexibility, and can be made before the detailed requirements are known. In a large system, the configuration of hardware and software are strongly interrelated.
+  These choices are frequently determined by quality of service requirements such as scale and flexibility, and can be made before the detailed requirements are known. In a large system, the configuration of hardware and software are strongly interrelated.
 
- The selections that you make affect how you use and interpret the architectural model. For example, in a system that uses a database, associations in a class diagram might represent relations or foreign keys in the database, whereas in a system that is based on XML files, associations might indicate cross-references that use XPath. In a distributed system, messages in a sequence diagram can represent messages on a wire; in a self-contained application, they can represent function calls.
+  The selections that you make affect how you use and interpret the architectural model. For example, in a system that uses a database, associations in a class diagram might represent relations or foreign keys in the database, whereas in a system that is based on XML files, associations might indicate cross-references that use XPath. In a distributed system, messages in a sequence diagram can represent messages on a wire; in a self-contained application, they can represent function calls.
 
 ## <a name="Patterns"></a> Design Patterns
  A design pattern is an outline of how to design a particular aspect of the software, especially one that recurs in different parts of the system. By adopting a uniform approach across the project, you can reduce the cost of design, ensure consistency in the user interface, and reduce the cost of understanding and changing the code.

@@ -28,8 +28,8 @@ Retrieves the value of a specified register as stored in the stack frame.
   
 ```cpp#  
 HRESULT get_registerValue(  
-   ULONG      registerIndex,  
-   ULONGLONG *pRetVal  
+   ULONG      registerIndex,  
+   ULONGLONG *pRetVal  
 );  
 ```  
   

@@ -34,17 +34,17 @@ manager: "wpickett"
 ## Cause  
  There are several possible reasons for this warning:  
   
--   A new object is created but never used.  
+- A new object is created but never used.  
   
--   A method that creates and returns a new string is called and the new string is never used.  
+- A method that creates and returns a new string is called and the new string is never used.  
   
--   A COM or P/Invoke method that returns a HRESULT or error code that is never used. Rule Description  
+- A COM or P/Invoke method that returns a HRESULT or error code that is never used. Rule Description  
   
- Unnecessary object creation and the associated garbage collection of the unused object degrade performance.  
+  Unnecessary object creation and the associated garbage collection of the unused object degrade performance.  
   
- Strings are immutable and methods such as String.ToUpper returns a new instance of a string instead of modifying the instance of the string in the calling method.  
+  Strings are immutable and methods such as String.ToUpper returns a new instance of a string instead of modifying the instance of the string in the calling method.  
   
- Ignoring HRESULT or error code can lead to unexpected behavior in error conditions or to low-resource conditions.  
+  Ignoring HRESULT or error code can lead to unexpected behavior in error conditions or to low-resource conditions.  
   
 ## How to Fix Violations  
  If method A creates a new instance of B object that is never used, pass the instance as an argument to another method or assign the instance to a variable. If the object creation is unnecessary, remove the it.-or-  

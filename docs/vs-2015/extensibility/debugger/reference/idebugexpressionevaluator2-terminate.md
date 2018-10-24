@@ -26,7 +26,7 @@ Stops and cleans up the expression evaluator.
   
 ```cpp#  
 HRESULT Terminate (  
-    void  
+    void  
 );  
 ```  
   

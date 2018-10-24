@@ -77,19 +77,19 @@ Imports System.Diagnostics
 
 Namespace Microsoft.Samples
 
-    Public Class TestClass
+    Public Class TestClass
 
-        ' [...]
+        ' [...]
 
-        <DebuggerBrowsable(DebuggerBrowsableState.Never)> _
-        Public ReadOnly Property LargeObject() As LargeObject
-            Get
-                ' Allocate large object
-                ' [...]
-            End Get
-        End Property
+        <DebuggerBrowsable(DebuggerBrowsableState.Never)> _
+        Public ReadOnly Property LargeObject() As LargeObject
+            Get
+                ' Allocate large object
+                ' [...]
+            End Get
+        End Property
 
-    End Class
+    End Class
 
 End Namespace
 ```
@@ -100,19 +100,19 @@ using System.Diagnostics;
 
 namespace Microsoft.Samples
 {
-    publicclass TestClass
-    {
-        // [...]
+    publicclass TestClass
+    {
+        // [...]
 
-        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
-        public LargeObject LargeObject
-        {
-            get
-            {
-                // Allocate large object
-                // [...]
-            }
-        }
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        public LargeObject LargeObject
+        {
+            get
+            {
+                // Allocate large object
+                // [...]
+            }
+        }
     }
 }
 ```

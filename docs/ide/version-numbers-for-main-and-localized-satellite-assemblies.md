@@ -29,7 +29,6 @@ The <xref:System.Resources.SatelliteContractVersionAttribute> class provides ver
 
 ```vb
 <Assembly: SatelliteContractVersionAttribute("4.3.2.1")>
-
 ```
 
 ```csharp

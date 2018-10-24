@@ -28,7 +28,7 @@ Retrieves the original type for this symbol. Use when the [SymTagEnum Enumeratio
   
 ```cpp#  
 HRESULT get_unmodifiedType(   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

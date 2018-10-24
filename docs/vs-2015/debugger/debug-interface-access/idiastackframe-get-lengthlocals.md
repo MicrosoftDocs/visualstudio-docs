@@ -28,7 +28,7 @@ Retrieves the number of bytes of local variables pushed on the stack.
   
 ```cpp#  
 HRESULT get_lengthLocals (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

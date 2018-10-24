@@ -22,7 +22,7 @@ Retrieves the offset section of a thunk target.
   
 ```C++  
 HRESULT get_targetOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

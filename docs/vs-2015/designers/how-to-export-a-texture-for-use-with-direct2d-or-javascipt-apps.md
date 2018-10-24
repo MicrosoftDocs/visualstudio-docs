@@ -49,22 +49,22 @@ The Image Content Pipeline can generate textures that are compatible with Direct
   
 #### To create a texture that's compatible with Direct2D rendering conventions  
   
-1.  Begin with a basic texture. Load an existing image, or create a new one as described in [How to: Create a Basic Texture](../designers/how-to-create-a-basic-texture.md). To support block-compression in .dds format, specify a texture that has a width and height that are multiples of four in size, for example, 100x100, 128x128, or 256x192. Because mipmapping is not supported, the texture does not have to be square and does not have to be a power of two in size.  
+1. Begin with a basic texture. Load an existing image, or create a new one as described in [How to: Create a Basic Texture](../designers/how-to-create-a-basic-texture.md). To support block-compression in .dds format, specify a texture that has a width and height that are multiples of four in size, for example, 100x100, 128x128, or 256x192. Because mipmapping is not supported, the texture does not have to be square and does not have to be a power of two in size.  
   
-2.  Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file you just created and then choose **Properties**. On the **Configuration Properties**, **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.  
+2. Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file you just created and then choose **Properties**. On the **Configuration Properties**, **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.  
   
-3.  Set the output format to one of the block-compressed formats. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Compress** property to **BC3_UNORM compression (/compress:BC3_UNORM)**. You could choose any of the other BC1, BC2, or BC3 formats, depending on your requirements. Direct2D doesn't currently support BC4, BC5, BC6, or BC7 textures. For more information about the different BC formats, see [Block Compression (Direct3D 10)](http://msdn.microsoft.com/library/windows/desktop/bb694531.aspx).  
+3. Set the output format to one of the block-compressed formats. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Compress** property to **BC3_UNORM compression (/compress:BC3_UNORM)**. You could choose any of the other BC1, BC2, or BC3 formats, depending on your requirements. Direct2D doesn't currently support BC4, BC5, BC6, or BC7 textures. For more information about the different BC formats, see [Block Compression (Direct3D 10)](http://msdn.microsoft.com/library/windows/desktop/bb694531.aspx).  
   
-    > [!NOTE]
-    >  The compression format that's specified determines the format of the file that's produced by the Image Content Pipeline. This is different than the **Format** property of the source image in the Image Editor, which determines the format of the source image file as stored on disk—that is, the *working format*. Typically, you don’t want a working format that's compressed.  
+   > [!NOTE]
+   >  The compression format that's specified determines the format of the file that's produced by the Image Content Pipeline. This is different than the **Format** property of the source image in the Image Editor, which determines the format of the source image file as stored on disk—that is, the *working format*. Typically, you don’t want a working format that's compressed.  
   
-4.  Configure the Image Content Pipeline to produce output that uses premultiplied alpha. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Convert to pre-multiplied alpha format** property to **Yes (/generatepremultipliedalpha)**.  
+4. Configure the Image Content Pipeline to produce output that uses premultiplied alpha. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Convert to pre-multiplied alpha format** property to **Yes (/generatepremultipliedalpha)**.  
   
-5.  Configure the image content pipeline so that it doesn't generate mipmaps. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Generate Mips** property to **No**.  
+5. Configure the image content pipeline so that it doesn't generate mipmaps. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Generate Mips** property to **No**.  
   
-6.  Choose the **OK** button.  
+6. Choose the **OK** button.  
   
- When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified—conversion includes generation of premultiplied alpha—and the result is copied to the project’s output directory.
+   When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified—conversion includes generation of premultiplied alpha—and the result is copied to the project’s output directory.
 
 
 

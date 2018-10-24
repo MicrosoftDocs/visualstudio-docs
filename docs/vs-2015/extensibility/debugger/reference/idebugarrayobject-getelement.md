@@ -27,15 +27,15 @@ Gets an element of the array.
   
 ```cpp#  
 HRESULT GetElement(   
-   DWORD          dwIndex,  
-   IDebugObject** ppElement  
+   DWORD          dwIndex,  
+   IDebugObject** ppElement  
 );  
 ```  
   
 ```csharp  
 int GetElement(  
-   [In] uint dwIndex,   
-   out IDebugObject ppElement  
+   [In] uint dwIndex,   
+   out IDebugObject ppElement  
 );  
 ```  
   

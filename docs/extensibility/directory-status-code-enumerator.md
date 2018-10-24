@@ -22,10 +22,10 @@ The `SccDirStatus` enumerator contains named constant values that specify the st
   
 ```  
 enum SccDirStatus {  
-   SCC_DIRSTATUS_INVALID       = -1L,  
-   SCC_DIRSTATUS_NOTCONTROLLED = 0x0000L,  
-   SCC_DIRSTATUS_CONTROLLED    = 0x0001L,  
-   SCC_DIRSTATUS_EMPTYPROJ     = 0x0002L  
+   SCC_DIRSTATUS_INVALID       = -1L,  
+   SCC_DIRSTATUS_NOTCONTROLLED = 0x0000L,  
+   SCC_DIRSTATUS_CONTROLLED    = 0x0001L,  
+   SCC_DIRSTATUS_EMPTYPROJ     = 0x0002L  
 };  
 ```  
   

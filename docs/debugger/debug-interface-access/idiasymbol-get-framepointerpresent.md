@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the frame pointer is present. Use when t
   
 ```C++  
 HRESULT get_framePointerPresent(   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -77,31 +77,31 @@ You can use this capability to debug apps that are running on a local or remote 
 
 1. In Visual Studio, select **Debug / Attach to Process** (or press **CTRL+ALT+P**).
 
-2.  In the **Attach to Process** dialog box, select the appropriate connection type from the **Transport** list. **Default** is the correct setting for most cases.
+2. In the **Attach to Process** dialog box, select the appropriate connection type from the **Transport** list. **Default** is the correct setting for most cases.
 
-    The **Transport** setting persists between debugging sessions. 
+   The **Transport** setting persists between debugging sessions. 
   
-3.  Use the **Qualifier** list box to choose the remote computer name by one of the following methods:  
+3. Use the **Qualifier** list box to choose the remote computer name by one of the following methods:  
   
-    1.  Type the name in the **Qualifier** list box.
+   1. Type the name in the **Qualifier** list box.
     
-        >**Note** If, in later steps, you can't connect using the remote computer name, use the IP address. (The port number may appear automatically after selecting the process. You can also enter it manually. In the illustration below, 4020 is the default port for the remote debugger.)  
+      >**Note** If, in later steps, you can't connect using the remote computer name, use the IP address. (The port number may appear automatically after selecting the process. You can also enter it manually. In the illustration below, 4020 is the default port for the remote debugger.)  
   
-    2.  Click the drop-down arrow attached to the **Qualifier** list box and select the computer name from the drop-down list.  
+   2. Click the drop-down arrow attached to the **Qualifier** list box and select the computer name from the drop-down list.  
   
-    3.  Click the **Find** button next to the**Qualifier** list to open the **Select Remote Debugger Connection** dialog box. The **Select Remote Debugger Connection** dialog box lists all the devices that are on your local sub-net, and any device that is directly attached to your computer through an Ethernet cable. Click the computer or device that you want, and then click **Select**. 
+   3. Click the **Find** button next to the**Qualifier** list to open the **Select Remote Debugger Connection** dialog box. The **Select Remote Debugger Connection** dialog box lists all the devices that are on your local sub-net, and any device that is directly attached to your computer through an Ethernet cable. Click the computer or device that you want, and then click **Select**. 
   
-     The **Qualifier** setting persists between debugging sessions only if a successful debugging connection occurs with that qualifier.
+      The **Qualifier** setting persists between debugging sessions only if a successful debugging connection occurs with that qualifier.
      
-4.  Click **Refresh**.
+4. Click **Refresh**.
 
-      The **Available Processes** list is displayed automatically when you open the **Processes** dialog box. Processes can start and stop in the background while the dialog box is open. However, the contents are not always current. You can refresh the list at any time to see the current list of processes by clicking **Refresh**. 
+     The **Available Processes** list is displayed automatically when you open the **Processes** dialog box. Processes can start and stop in the background while the dialog box is open. However, the contents are not always current. You can refresh the list at any time to see the current list of processes by clicking **Refresh**. 
      
-4.  In the **Attach to Process** dialog box, find the program that you want to attach to from the **Available Processes** list.  
+5. In the **Attach to Process** dialog box, find the program that you want to attach to from the **Available Processes** list.  
   
-     If the process is running under a different user account, select the **Show processes from all users** check box.
+    If the process is running under a different user account, select the **Show processes from all users** check box.
      
-5.  Click **Attach**.  
+6. Click **Attach**.  
 
 ## Additional info
 
@@ -158,21 +158,21 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
   
  **To obtain specific information about why a code type failed to attach**  
   
-1.  Detach from the process. On the **Debug** menu, click **Detach All**.  
+1. Detach from the process. On the **Debug** menu, click **Detach All**.  
   
-2.  Reattach to the process, selecting only a single code type.  
+2. Reattach to the process, selecting only a single code type.  
   
-    1.  In the **Attach to Process** dialog box, select the process in the **Available Processes** list.  
+   1. In the **Attach to Process** dialog box, select the process in the **Available Processes** list.  
   
-    2.  Click **Select**.  
+   2. Click **Select**.  
   
-    3.  In the **Select Code Type** dialog box, select **Debug these code types** and the code type that failed to attach. Clear any other code.  
+   3. In the **Select Code Type** dialog box, select **Debug these code types** and the code type that failed to attach. Clear any other code.  
   
-    4.  Click **OK**. The **Select Code Type** dialog box closes.  
+   4. Click **OK**. The **Select Code Type** dialog box closes.  
   
-    5.  In the **Attach to Process** dialog box, click **Attach**.  
+   5. In the **Attach to Process** dialog box, click **Attach**.  
   
-     This time, the attach will fail completely, and you will get a specific error message.  
+      This time, the attach will fail completely, and you will get a specific error message.  
   
 ## See Also  
  [Debug Multiple Processes](../debugger/debug-multiple-processes.md)   

@@ -22,10 +22,10 @@ Reads the specified number of bytes starting at the specified relative virtual a
   
 ```C++  
 HRESULT ReadExecutableAtRVA (   
-   DWORD  relativeVirtualAddress,  
-   DWORD  cbData,  
-   DWORD* pcbData,  
-   BYTE   data[]  
+   DWORD  relativeVirtualAddress,  
+   DWORD  cbData,  
+   DWORD* pcbData,  
+   BYTE   data[]  
 );  
 ```  
   

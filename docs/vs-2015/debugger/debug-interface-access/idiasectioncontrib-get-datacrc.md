@@ -28,7 +28,7 @@ Retrieves the cyclic redundancy check (CRC) of the data in the section.
   
 ```cpp#  
 HRESULT get_dataCrc (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

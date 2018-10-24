@@ -23,13 +23,13 @@ Gets the description of a port that was previously used to create the port (if a
   
 ```cpp  
 HRESULT GetPortRequest(   
-   IDebugPortRequest2** ppRequest  
+   IDebugPortRequest2** ppRequest  
 );  
 ```  
   
 ```csharp  
 int GetPortRequest(   
-   out IDebugPortRequest2 ppRequest  
+   out IDebugPortRequest2 ppRequest  
 );  
 ```  
   

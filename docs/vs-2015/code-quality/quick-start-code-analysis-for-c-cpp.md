@@ -75,15 +75,15 @@ You can improve the quality of your application by running code analysis regular
   
  To run code analysis on a solution:  
   
--   On the **Build** menu, choose **Run Code Analysis on Solution**.  
+- On the **Build** menu, choose **Run Code Analysis on Solution**.  
   
- To run code analysis on a project:  
+  To run code analysis on a project:  
   
--   In Solution Explorer, choose the name of the project.  
+- In Solution Explorer, choose the name of the project.  
   
--   On the **Build** menu, choose **Run Code Analysis on** *Project Name*.  
+- On the **Build** menu, choose **Run Code Analysis on** *Project Name*.  
   
- The project or solution is compiled and code analysis runs. Results appear in the Code Analysis window.  
+  The project or solution is compiled and code analysis runs. Results appear in the Code Analysis window.  
   
 ##  <a name="BKMK_Analyze"></a> Analyze and resolve code analysis warnings  
  To analyze a specific warning, choose the title of the warning in the Code Analysis window. The warning expands to display additional information about the issue. When possible, code analysis displays the line numbers and analysis logic that led to the warning. For detailed information about the warning, including possible solutions to the issue, choose the warning id to display the help topic in the MSND Library for the message.  
@@ -100,13 +100,13 @@ You can improve the quality of your application by running code analysis regular
   
  To suppress a warning:  
   
-1.  If the detailed information is not displayed, choose the title of the warning to expand it.  
+1. If the detailed information is not displayed, choose the title of the warning to expand it.  
   
-2.  Choose the **Actions** link at the bottom of the warning.  
+2. Choose the **Actions** link at the bottom of the warning.  
   
-3.  Choose **Suppress Message** and then choose **In Source**.  
+3. Choose **Suppress Message** and then choose **In Source**.  
   
- Suppressing a message inserts `#pragma warning (disable:`*WarningId*`)` that suppresses the warning for the line of code.  
+   Suppressing a message inserts `#pragma warning (disable:`*WarningId*`)` that suppresses the warning for the line of code.  
   
 ##  <a name="BKMK_Creating_work_items_for_code_analysis_warnings"></a> Creating work items for code analysis warnings  
  You can use the work item tracking feature to log bugs from within Visual Studio. To use this feature, you must connect to an instance of Team Foundation Server.  

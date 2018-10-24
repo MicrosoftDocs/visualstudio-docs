@@ -23,13 +23,13 @@ Sets the name of the thread.
   
 ```cpp  
 HRESULT SetThreadName (   
-   LPCOLESTR pszName  
+   LPCOLESTR pszName  
 );  
 ```  
   
 ```csharp  
 int SetThreadName (   
-   string pszName  
+   string pszName  
 );  
 ```  
   

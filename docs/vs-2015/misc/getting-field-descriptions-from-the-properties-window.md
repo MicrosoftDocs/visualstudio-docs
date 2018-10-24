@@ -22,18 +22,18 @@ At the bottom of the **Properties** window, a description area displays informat
   
 ### To specify localized help strings  
   
-1.  Add the `helpstringdll` attribute to the library statement in the type library (`typelib`).  
+1. Add the `helpstringdll` attribute to the library statement in the type library (`typelib`).  
   
-    > [!NOTE]
-    >  This step is optional if the type library is in an object library (.olb) file.  
+   > [!NOTE]
+   >  This step is optional if the type library is in an object library (.olb) file.  
   
-2.  Specify `helpstringcontext` attributes for the strings. You can also specify `helpstring` attributes.  
+2. Specify `helpstringcontext` attributes for the strings. You can also specify `helpstring` attributes.  
   
-     These attributes are distinct from the `helpfile` and `helpcontext` attributes, which are contained in actual .chm file Help topics.  
+    These attributes are distinct from the `helpfile` and `helpcontext` attributes, which are contained in actual .chm file Help topics.  
   
- To retrieve the description information to be displayed for the highlighted property name, the **Properties** window calls <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2.GetDocumentation2%2A> for the property that is selected, specifying the desired `lcid` attribute for the output string. Internally, <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2> finds the .dll file specified in the `helpstringdll` attribute and calls `DLLGetDocumentation` on that .dll file with the specified context and `lcid` attribute.  
+   To retrieve the description information to be displayed for the highlighted property name, the **Properties** window calls <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2.GetDocumentation2%2A> for the property that is selected, specifying the desired `lcid` attribute for the output string. Internally, <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2> finds the .dll file specified in the `helpstringdll` attribute and calls `DLLGetDocumentation` on that .dll file with the specified context and `lcid` attribute.  
   
- The signature and implementation of `DLLGetDocumentation` are:  
+   The signature and implementation of `DLLGetDocumentation` are:  
   
 ```  
 STDAPI DLLGetDocumentation  

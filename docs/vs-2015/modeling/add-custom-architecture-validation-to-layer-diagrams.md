@@ -38,26 +38,26 @@ In Visual Studio, users can validate the source code in a project against a laye
   
 #### To define an extension by using a project template  
   
-1.  Create a project in a new solution, by using the **New Project** command on the **File** menu.  
+1. Create a project in a new solution, by using the **New Project** command on the **File** menu.  
   
-2.  In the **New Project** dialog box, under **Modeling Projects**, select **Layer Designer Validation Extension**.  
+2. In the **New Project** dialog box, under **Modeling Projects**, select **Layer Designer Validation Extension**.  
   
-     The template creates a project that contains a small example.  
+    The template creates a project that contains a small example.  
   
-    > [!WARNING]
-    >  To makethe template work properly:  
-    >   
-    >  -   Edit calls to `LogValidationError` to remove the optional arguments `errorSourceNodes` and `errorTargetNodes`.  
-    > -   If you use custom properties, apply the update mentioned in [Add custom properties to layer diagrams](../modeling/add-custom-properties-to-layer-diagrams.md).  
+   > [!WARNING]
+   >  To makethe template work properly:  
+   > 
+   > - Edit calls to `LogValidationError` to remove the optional arguments `errorSourceNodes` and `errorTargetNodes`.  
+   >   -   If you use custom properties, apply the update mentioned in [Add custom properties to layer diagrams](../modeling/add-custom-properties-to-layer-diagrams.md).  
   
-3.  Edit the code to define your validation. For more information, see [Programming Validation](#programming).  
+3. Edit the code to define your validation. For more information, see [Programming Validation](#programming).  
   
-4.  To test the extension, see [Debugging Layer Validation](#debugging).  
+4. To test the extension, see [Debugging Layer Validation](#debugging).  
   
-    > [!NOTE]
-    >  Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).  
+   > [!NOTE]
+   >  Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).  
   
-5.  To install the extension in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
+5. To install the extension in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in *bin\\*. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
 ## Adding a Layer Validator to a Separate VSIX  
  If you want to create one VSIX that contains layer validators, commands, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. For information about other types of modeling extension, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  
@@ -121,42 +121,42 @@ In Visual Studio, users can validate the source code in a project against a laye
 ##  <a name="programming"></a> Programming Validation  
  To define a layer validation extension, you define a class that has the following characteristics:  
   
--   The overall form of the declaration is as follows:  
+- The overall form of the declaration is as follows:  
   
-    ```  
+  ```  
   
-    using System.ComponentModel.Composition;  
-    using Microsoft.VisualStudio.ArchitectureTools.Extensibility.CodeSchema;  
-    using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer;  
-    using Microsoft.VisualStudio.GraphModel;  
-    ...  
-     [Export(typeof(IValidateArchitectureExtension))]  
-      public partial class Validator1Extension :  
-                      IValidateArchitectureExtension  
+  using System.ComponentModel.Composition;  
+  using Microsoft.VisualStudio.ArchitectureTools.Extensibility.CodeSchema;  
+  using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer;  
+  using Microsoft.VisualStudio.GraphModel;  
+  ...  
+   [Export(typeof(IValidateArchitectureExtension))]  
+    public partial class Validator1Extension :  
+                    IValidateArchitectureExtension  
+    {  
+      public void ValidateArchitecture(Graph graph)  
       {  
-        public void ValidateArchitecture(Graph graph)  
-        {  
-           GraphSchema schema = graph.DocumentSchema;  
-          ...  
-      } }  
-    ```  
+         GraphSchema schema = graph.DocumentSchema;  
+        ...  
+    } }  
+  ```  
   
--   When you discover an error, you can report it by using `LogValidationError()`.  
+- When you discover an error, you can report it by using `LogValidationError()`.  
   
-    > [!WARNING]
-    >  Do not use the optional parameters of `LogValidationError`.  
+  > [!WARNING]
+  >  Do not use the optional parameters of `LogValidationError`.  
   
- When the user invokes the **Validate Architecture** menu command, the layer runtime system analyses the layers and their artifacts to produce a graph. The graph has four parts:  
+  When the user invokes the **Validate Architecture** menu command, the layer runtime system analyses the layers and their artifacts to produce a graph. The graph has four parts:  
   
--   The layer models of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that are represented as nodes and links in the graph.  
+- The layer models of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that are represented as nodes and links in the graph.  
   
--   The code, project items, and other artifacts that are defined in the solution and represented as nodes, and links that represent the dependencies discovered by the analysis process.  
+- The code, project items, and other artifacts that are defined in the solution and represented as nodes, and links that represent the dependencies discovered by the analysis process.  
   
--   Links from the layer nodes to the code artifact nodes.  
+- Links from the layer nodes to the code artifact nodes.  
   
--   Nodes that represent errors discovered by the validator.  
+- Nodes that represent errors discovered by the validator.  
   
- When the graph has been constructed, the standard validation method is called. When this is complete, any installed extension validation methods are called in unspecified order. The graph is passed to each `ValidateArchitecture` method, which can scan the graph and report any errors that it finds.  
+  When the graph has been constructed, the standard validation method is called. When this is complete, any installed extension validation methods are called in unspecified order. The graph is passed to each `ValidateArchitecture` method, which can scan the graph and report any errors that it finds.  
   
 > [!NOTE]
 >  This is not the same as the validation process that is applied to UML diagrams, and it is not the same as the validation process that can be used in domain-specific languages.  
@@ -167,25 +167,25 @@ In Visual Studio, users can validate the source code in a project against a laye
   
  Each Node and each Link has one or more Categories which specify the type of element or relationship that it represents. The nodes of a typical graph have the following categories:  
   
--   Dsl.LayerModel  
+- Dsl.LayerModel  
   
--   Dsl.Layer  
+- Dsl.Layer  
   
--   Dsl.Reference  
+- Dsl.Reference  
   
--   CodeSchema_Type  
+- CodeSchema_Type  
   
--   CodeSchema_Namespace  
+- CodeSchema_Namespace  
   
--   CodeSchema_Type  
+- CodeSchema_Type  
   
--   CodeSchema_Method  
+- CodeSchema_Method  
   
--   CodeSchema_Field  
+- CodeSchema_Field  
   
--   CodeSchema_Property  
+- CodeSchema_Property  
   
- Links from layers to elements in the code have the category "Represents".  
+  Links from layers to elements in the code have the category "Represents".  
   
 ##  <a name="debugging"></a> Debugging Validation  
  To debug your layer validation extension, press CTRL+F5. An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens. In this instance, open or create a layer model. This model must be associated with code, and must have at least one dependency.  
@@ -193,11 +193,11 @@ In Visual Studio, users can validate the source code in a project against a laye
 ### Test with a Solution that contains Dependencies  
  Validation is not executed unless the following characteristics are present:  
   
--   There is at least one dependency link on the layer diagram.  
+- There is at least one dependency link on the layer diagram.  
   
--   There are layers in the model that are associated with code elements.  
+- There are layers in the model that are associated with code elements.  
   
- The first time that you start an experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to test your validation extension, open or create a solution that has these characteristics.  
+  The first time that you start an experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to test your validation extension, open or create a solution that has these characteristics.  
   
 ### Run Clean Solution before Validate Architecture  
  Whenever you update your validation code, use the **Clean Solution** command on the **Build** menu in the experimental solution, before you test the Validate command. This is necessary because the results of validation are cached. If you have not updated the test layer diagram or its code, the validation methods will not be executed.  

@@ -22,7 +22,7 @@ Retrieves the number of bytes of saved registers pushed on the stack.
   
 ```C++  
 HRESULT get_lengthSavedRegisters (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

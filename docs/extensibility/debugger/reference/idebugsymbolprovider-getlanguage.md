@@ -23,17 +23,17 @@ This method gets the language that was used to compile the code at the debug add
   
 ```cpp  
 HRESULT GetLanguage(   
-   IDebugAddress* pAddress,  
-   GUID*          pguidLanguage,  
-   GUID*          pguidLanguageVendor  
+   IDebugAddress* pAddress,  
+   GUID*          pguidLanguage,  
+   GUID*          pguidLanguageVendor  
 );  
 ```  
   
 ```csharp  
 int GetLanguage(  
-   IDebugAddress pAddress,   
-   out Guid      pguidLanguage,   
-   out Guid      pguidLanguageVendor  
+   IDebugAddress pAddress,   
+   out Guid      pguidLanguage,   
+   out Guid      pguidLanguageVendor  
 );  
 ```  
   

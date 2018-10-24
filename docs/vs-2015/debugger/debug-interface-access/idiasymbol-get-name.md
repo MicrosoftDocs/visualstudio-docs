@@ -28,7 +28,7 @@ Retrieves the name of the symbol.
   
 ```cpp#  
 HRESULT get_name (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

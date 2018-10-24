@@ -22,7 +22,7 @@ For more information, see [Data contract known types](/dotnet/framework/wcf/feat
 The following table describes the user interface (UI) elements of the **Type Collection** dialog box.
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**Type List**|A list of the types that have been added or removed.|
 
 ## To bring up the Type Collection Editor for the Send and Receive activities

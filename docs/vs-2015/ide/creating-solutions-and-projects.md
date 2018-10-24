@@ -68,15 +68,15 @@ Projects are the logical containers for everything that's needed to build your a
   
 #### To create an empty solution  
   
-1.  On the **File** menu, click **New** and then click **New Project**.  
+1. On the **File** menu, click **New** and then click **New Project**.  
   
-2.  In the left pane, select **Installed**, select **Other Project Types**, and then select **Visual Studio Solutions** from the expanded list.  
+2. In the left pane, select **Installed**, select **Other Project Types**, and then select **Visual Studio Solutions** from the expanded list.  
   
-3.  In the middle pane, select **Blank Solution**.  
+3. In the middle pane, select **Blank Solution**.  
   
-4.  Set the **Name** and **Location** values for your solution, then click **OK**.  
+4. Set the **Name** and **Location** values for your solution, then click **OK**.  
   
- After you create an empty solution, you can add new or existing projects or items to it by clicking **Add New Item** or **Add Existing Item** on the **Project** menu.  
+   After you create an empty solution, you can add new or existing projects or items to it by clicking **Add New Item** or **Add Existing Item** on the **Project** menu.  
   
 ### Deleting Solutions  
  You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Before you delete a solution, move any projects that you might want to use again in another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  

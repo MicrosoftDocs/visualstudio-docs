@@ -27,15 +27,15 @@ Sets the value of the object from a consecutive series of bytes.
   
 ```cpp#  
 HRESULT SetValue(   
-   BYTE* pValue,  
-   UINT  nSize  
+   BYTE* pValue,  
+   UINT  nSize  
 );  
 ```  
   
 ```csharp  
 int SetValue(  
-   byte[] pValue,   
-   uint   nSize  
+   byte[] pValue,   
+   uint   nSize  
 );  
 ```  
   

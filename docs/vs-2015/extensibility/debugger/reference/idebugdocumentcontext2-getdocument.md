@@ -27,13 +27,13 @@ Gets the document that contains this document context.
   
 ```cpp#  
 HRESULT GetDocument(   
-   IDebugDocument2** ppDocument  
+   IDebugDocument2** ppDocument  
 );  
 ```  
   
 ```csharp  
 int GetDocument(   
-   out IDebugDocument2 ppDocument  
+   out IDebugDocument2 ppDocument  
 );  
 ```  
   

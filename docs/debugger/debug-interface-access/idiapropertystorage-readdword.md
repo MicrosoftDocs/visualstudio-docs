@@ -22,8 +22,8 @@ Reads `DWORD` values in a property set.
   
 ```C++  
 HRESULT ReadDWORD (   
-   PROPID id,  
-   DWORD* pValue  
+   PROPID id,  
+   DWORD* pValue  
 );  
 ```  
   

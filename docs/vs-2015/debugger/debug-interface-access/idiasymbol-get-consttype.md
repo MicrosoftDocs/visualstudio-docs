@@ -28,7 +28,7 @@ Retrieves a flag that specifies whether the user-defined data type is constant.
   
 ```cpp#  
 HRESULT get_constType (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

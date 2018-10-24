@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1030: Use events where appropriate
+
 |||
 |-|-|
 |TypeName|UseEventsWhereAppropriate|

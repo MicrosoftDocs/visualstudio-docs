@@ -20,7 +20,7 @@ You can add swimlanes to a diagram. Swimlanes divide a diagram into vertical or 
  Swimlanes have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Body Fill Color|The fill color for the body of the swimlane.|White|
 |Header Fill Color|The fill color for the header of the swimlane.|DarkGray|
 |Separator Color|The color of the separator line.|LightGray|

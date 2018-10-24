@@ -27,13 +27,13 @@ Gets the system process identifier.
   
 ```cpp#  
 HRESULT GetPhysicalProcessId(  
-   AD_PROCESS_ID* pdwProcessId  
+   AD_PROCESS_ID* pdwProcessId  
 );  
 ```  
   
 ```csharp  
 int GetPhysicalProcessId(  
-   AD_PROCESS_ID[] pdwProcessId  
+   AD_PROCESS_ID[] pdwProcessId  
 );  
 ```  
   

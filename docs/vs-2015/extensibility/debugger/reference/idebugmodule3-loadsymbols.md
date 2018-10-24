@@ -27,7 +27,7 @@ Loads the symbols for the current module.
   
 ```cpp#  
 HRESULT LoadSymbols(  
-   void  
+   void  
 );  
 ```  
   

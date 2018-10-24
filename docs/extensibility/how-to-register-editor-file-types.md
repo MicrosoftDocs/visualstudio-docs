@@ -20,44 +20,44 @@ The easiest way to register editor file types is by using the registration attri
 
 ### To register editor file types using MPF classes
 
-1.  Provide the <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> class with the appropriate parameters for your editor in the class of your VSPackage.
+1. Provide the <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> class with the appropriate parameters for your editor in the class of your VSPackage.
 
-    ```
-    [Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute(typeof(EditorFactory), ".Sample", 32,
-         ProjectGuid = "{A2FE74E1-B743-11d0-AE1A-00A0C90FFFC3}",
-         TemplateDir = "..\\..\\Templates",
-         NameResourceID = 106)]
-    ```
+   ```
+   [Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute(typeof(EditorFactory), ".Sample", 32,
+        ProjectGuid = "{A2FE74E1-B743-11d0-AE1A-00A0C90FFFC3}",
+        TemplateDir = "..\\..\\Templates",
+        NameResourceID = 106)]
+   ```
 
-     Where *.Sample* is the extension that is registered for this editor, and "32" is its priority level.
+    Where *.Sample* is the extension that is registered for this editor, and "32" is its priority level.
 
-     The `projectGuid` is the GUID for miscellaneous file types, defined in <xref:Microsoft.VisualStudio.VSConstants.CLSID.MiscellaneousFilesProject_guid>. The miscellaneous file type is provided, so that the resulting file is not going to be a part of the build process.
+    The `projectGuid` is the GUID for miscellaneous file types, defined in <xref:Microsoft.VisualStudio.VSConstants.CLSID.MiscellaneousFilesProject_guid>. The miscellaneous file type is provided, so that the resulting file is not going to be a part of the build process.
 
-     *TemplateDir* represents the folder that contains the template files that are included with the managed basic editor sample.
+    *TemplateDir* represents the folder that contains the template files that are included with the managed basic editor sample.
 
-     `NameResourceID` is defined in the *Resources.h* file of the BasicEditorUI project, and identifies the editor as "My Editor".
+    `NameResourceID` is defined in the *Resources.h* file of the BasicEditorUI project, and identifies the editor as "My Editor".
 
-2.  Override the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.
+2. Override the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.
 
-     In your implementation of the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method, call the <xref:Microsoft.VisualStudio.Shell.Package.RegisterEditorFactory%2A> method and pass the instance of your editor factory as demonstrated below.
+    In your implementation of the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method, call the <xref:Microsoft.VisualStudio.Shell.Package.RegisterEditorFactory%2A> method and pass the instance of your editor factory as demonstrated below.
 
-    ```csharp
-    protected override void Initialize()
-    {
-        Trace.WriteLine (string.Format(CultureInfo.CurrentCulture,
-        "Entering Initialize() of: {0}", this.ToString()));
-        base.Initialize();
-           //Create Editor Factory
-        editorFactory = new EditorFactory(this);
-        base.RegisterEditorFactory(editorFactory);
-    }
-    ```
+   ```csharp
+   protected override void Initialize()
+   {
+       Trace.WriteLine (string.Format(CultureInfo.CurrentCulture,
+       "Entering Initialize() of: {0}", this.ToString()));
+       base.Initialize();
+          //Create Editor Factory
+       editorFactory = new EditorFactory(this);
+       base.RegisterEditorFactory(editorFactory);
+   }
+   ```
 
-     This step registers both the editor factory and the editor file extensions.
+    This step registers both the editor factory and the editor file extensions.
 
-3.  Unregister the editor factories.
+3. Unregister the editor factories.
 
-     Editor factories are automatically unregistered when the VSPackage is disposed. If the editor factory object implements the <xref:System.IDisposable> interface, its `Dispose` method is called after the factory has been unregistered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+    Editor factories are automatically unregistered when the VSPackage is disposed. If the editor factory object implements the <xref:System.IDisposable> interface, its `Dispose` method is called after the factory has been unregistered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 
 ## Registration using a registry script
  Registering editor factories and file types in native [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is done using a registry script to write to the windows registry, as illustrated by the following.

@@ -151,18 +151,18 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ##### To transform an object by setting its properties  
   
-1.  In **Select** mode, select the object that you want to transform. A wireframe overlay indicates that the object is selected.  
+1. In **Select** mode, select the object that you want to transform. A wireframe overlay indicates that the object is selected.  
   
-2.  In the **Properties** window, specify values for the **Rotation**, **Scale**, and **Translation** properties.  
+2. In the **Properties** window, specify values for the **Rotation**, **Scale**, and **Translation** properties.  
   
-    > [!IMPORTANT]
-    >  For the **Rotation** property, specify the degree of rotation around each of the three axes. Rotations are applied in order, so make sure to plan a rotation, first in terms of the x-axis rotation, then the y-axis, and then the z-axis.  
+   > [!IMPORTANT]
+   >  For the **Rotation** property, specify the degree of rotation around each of the three axes. Rotations are applied in order, so make sure to plan a rotation, first in terms of the x-axis rotation, then the y-axis, and then the z-axis.  
   
- By using the modeling tools, you can create transformations quickly but not precisely. By setting the object properties, you can specify transformations precisely but not quickly. We recommend that you use the modeling tools to get "close enough" to the transformations you want, and then fine-tune the property values.  
+   By using the modeling tools, you can create transformations quickly but not precisely. By setting the object properties, you can specify transformations precisely but not quickly. We recommend that you use the modeling tools to get "close enough" to the transformations you want, and then fine-tune the property values.  
   
- If you don't want to use manipulators, you can enable free-form mode. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Free-form Manipulation** to enable (or disable) free-form mode. In free-form mode, you can begin a manipulation at any point on the design surface instead of a point on the manipulator. In free-form mode, you can constrain changes to certain axes by locking the ones you don't want to change. On the **Model Editor Mode** toolbar, choose any combination of the **Lock X**, **Lock Y**, and **Lock Z** buttons.  
+   If you don't want to use manipulators, you can enable free-form mode. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Free-form Manipulation** to enable (or disable) free-form mode. In free-form mode, you can begin a manipulation at any point on the design surface instead of a point on the manipulator. In free-form mode, you can constrain changes to certain axes by locking the ones you don't want to change. On the **Model Editor Mode** toolbar, choose any combination of the **Lock X**, **Lock Y**, and **Lock Z** buttons.  
   
- You might find it useful to work with objects by using snap-to-grid. On the **Model Editor Mode** toolbar, choose **Snap** to enable (or disable) snap-to-grid. When snap-to-grid is enabled, translation, rotation, and scaling transformations are constrained to predefined increments.  
+   You might find it useful to work with objects by using snap-to-grid. On the **Model Editor Mode** toolbar, choose **Snap** to enable (or disable) snap-to-grid. When snap-to-grid is enabled, translation, rotation, and scaling transformations are constrained to predefined increments.  
   
 ### Working with the pivot point  
  The pivot point of an object defines its center of rotation and scaling. You can change the pivot point of an object to change how it's affected by rotation and scaling transformations. On the **Model Editor Mode** toolbar, choose **Pivot Mode** to enable (or disabled) pivot mode. When pivot mode is enabled, a small axis indicator appears at the pivot point of the selected object. You can then use the **Translation** and **Rotation** tools to manipulate the pivot point.  
@@ -185,11 +185,11 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ##### To subdivide faces  
   
-1.  In face-select mode, select the faces you want to subdivide. Because subdivision creates new edge data, subdividing all faces at once gives more-consistent results when the faces are adjacent.  
+1. In face-select mode, select the faces you want to subdivide. Because subdivision creates new edge data, subdividing all faces at once gives more-consistent results when the faces are adjacent.  
   
-2.  On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Subdivide**.  
+2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Subdivide**.  
   
- You can also triangulate faces, merge objects, and convert polygon selections into new objects. Triangulation creates additional edges such that a non-triangular face is converted to an optimal number of triangles; however, it doesn't provide additional geometric detail. Merging combines selected objects into one object. New objects can be created from a polygon selection.  
+   You can also triangulate faces, merge objects, and convert polygon selections into new objects. Triangulation creates additional edges such that a non-triangular face is converted to an optimal number of triangles; however, it doesn't provide additional geometric detail. Merging combines selected objects into one object. New objects can be created from a polygon selection.  
   
 ##### To triangulate a face  
   
@@ -253,13 +253,13 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ##### To create a hierarchy of sibling objects  
   
-1.  In **Select** mode, select two or more objects. A placeholder object is created and becomes their parent object.  
+1. In **Select** mode, select two or more objects. A placeholder object is created and becomes their parent object.  
   
-2.  On the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Create Group**.  
+2. On the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Create Group**.  
   
- The Model Editor uses a white wireframe to identify the first selected object, which becomes the parent. Other objects in the selection have a blue wireframe. By default, placeholder nodes are not displayed. To display placeholder nodes, on the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Show Placeholder Nodes**. You can work with placeholder nodes just as you work with non-placeholder objects.  
+   The Model Editor uses a white wireframe to identify the first selected object, which becomes the parent. Other objects in the selection have a blue wireframe. By default, placeholder nodes are not displayed. To display placeholder nodes, on the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Show Placeholder Nodes**. You can work with placeholder nodes just as you work with non-placeholder objects.  
   
- To remove the parent-child association between two objects, select the child object, and then on the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Detach from Parent**. When you detach the parent from a child object, the child object becomes a root object in the scene.  
+   To remove the parent-child association between two objects, select the child object, and then on the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Detach from Parent**. When you detach the parent from a child object, the child object becomes a root object in the scene.  
   
 ## Keyboard shortcuts  
   

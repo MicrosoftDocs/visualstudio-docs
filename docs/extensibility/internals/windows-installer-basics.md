@@ -23,17 +23,17 @@ The Windows Installer installs and uninstalls applications or software products 
 ## Authoring a VSPackage  
  Windows Installer uses installation packages, which contain information that Windows Installer needs to install, uninstall, or repair a product and to run the setup user interface (UI). Each installation package includes an .msi file, which contains an installation database, a summary information stream, and data streams for various parts of the installation. To use the installer, you must author an installation. Because the installer organizes installations around the concept of components and stores information about the installation in a relational database, the process of authoring an installation package broadly entails the following steps:  
   
-1.  Plan your setup authoring to support your versioning and side-by-side strategies.  
+1. Plan your setup authoring to support your versioning and side-by-side strategies.  
   
-2.  Identify the features to be presented to users.  
+2. Identify the features to be presented to users.  
   
-3.  Organize the VSPackage and dependencies into components.  
+3. Organize the VSPackage and dependencies into components.  
   
-4.  Populate the installation database with information.  
+4. Populate the installation database with information.  
   
-5.  Validate the installation package.  
+5. Validate the installation package.  
   
- This documentation is concerned primarily with the first and third steps of the process. During these steps you organize your VSPackage features into WICs so you can frame your versioning and servicing strategy to account for subsequent versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The remaining three steps are covered in detail in Windows Installer documentation in the Platform SDK.  
+   This documentation is concerned primarily with the first and third steps of the process. During these steps you organize your VSPackage features into WICs so you can frame your versioning and servicing strategy to account for subsequent versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The remaining three steps are covered in detail in Windows Installer documentation in the Platform SDK.  
   
 ## Key Terms  
  Following are definitions of key terms related to the Windows Installer technology.  

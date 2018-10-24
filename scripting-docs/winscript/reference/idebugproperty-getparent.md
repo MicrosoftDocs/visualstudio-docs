@@ -26,7 +26,7 @@ Gets the parent property of a property.
   
 ```  
 HRESULT GetParent (  
-   IDebugProperty** ppParent  
+   IDebugProperty** ppParent  
 );  
 ```  
   

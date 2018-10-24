@@ -28,8 +28,8 @@ Retrieves the stack frame that contains the specified virtual address.
   
 ```cpp#  
 HRESULT frameForVA(   
-   ULONGLONG        va,  
-   IDiaFrameData**  ppFrame  
+   ULONGLONG        va,  
+   IDiaFrameData**  ppFrame  
 );  
 ```  
   

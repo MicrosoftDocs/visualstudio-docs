@@ -27,15 +27,15 @@ This method evaluates the expression asynchronously.
   
 ```cpp#  
 HRESULT EvaluateAsync (   
-   EVALFLAGS             dwFlags,  
-   IDebugEventCallback2* pExprCallback  
+   EVALFLAGS             dwFlags,  
+   IDebugEventCallback2* pExprCallback  
 );  
 ```  
   
 ```csharp  
 int EvaluateAsync(  
-   enum_EVALFLAGS       dwFlags,   
-   IDebugEventCallback2 pExprCallback  
+   enum_EVALFLAGS       dwFlags,   
+   IDebugEventCallback2 pExprCallback  
 );  
 ```  
   
@@ -61,15 +61,15 @@ int EvaluateAsync(
   
 ```cpp#  
 HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,  
-                                   IDebugEventCallback2* pExprCallback)  
+                                   IDebugEventCallback2* pExprCallback)  
 {  
-    // Set the aborted state to FALSE  
-    // in case the user tries to redo the evaluation after aborting.  
-    m_bAborted = FALSE;  
-    // Post the WM_EVAL_EXPR message in the message queue of the current thread.  
-    // This starts the expression evaluation on a background thread.  
-    PostThreadMessage(GetCurrentThreadId(), WM_EVAL_EXPR, 0, (LPARAM) this);  
-    return S_OK;  
+    // Set the aborted state to FALSE  
+    // in case the user tries to redo the evaluation after aborting.  
+    m_bAborted = FALSE;  
+    // Post the WM_EVAL_EXPR message in the message queue of the current thread.  
+    // This starts the expression evaluation on a background thread.  
+    PostThreadMessage(GetCurrentThreadId(), WM_EVAL_EXPR, 0, (LPARAM) this);  
+    return S_OK;  
 }  
 ```  
   

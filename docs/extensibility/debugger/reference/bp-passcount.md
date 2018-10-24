@@ -23,15 +23,15 @@ Describes the count and conditions upon which a conditional breakpoint is fired.
   
 ```cpp  
 typedef struct _BP_PASSCOUNT {   
-   DWORD              dwPassCount;  
-   BP_PASSCOUNT_STYLE stylePassCount;  
+   DWORD              dwPassCount;  
+   BP_PASSCOUNT_STYLE stylePassCount;  
 } BP_PASSCOUNT;  
 ```  
   
 ```csharp  
 public struct BP_PASSCOUNT {   
-   public uint dwPassCount;  
-   public uint stylePassCount;  
+   public uint dwPassCount;  
+   public uint stylePassCount;  
 };  
 ```  
   

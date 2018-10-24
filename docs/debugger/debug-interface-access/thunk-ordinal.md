@@ -22,15 +22,15 @@ Designates thunk types.
   
 ```C++  
 typedef enum THUNK_ORDINAL {   
-   THUNK_ORDINAL_NOTYPE,  
-   THUNK_ORDINAL_ADJUSTOR,  
-   THUNK_ORDINAL_VCALL,  
-   THUNK_ORDINAL_PCODE,  
-   THUNK_ORDINAL_LOAD   
+   THUNK_ORDINAL_NOTYPE,  
+   THUNK_ORDINAL_ADJUSTOR,  
+   THUNK_ORDINAL_VCALL,  
+   THUNK_ORDINAL_PCODE,  
+   THUNK_ORDINAL_LOAD   
   
-   // trampoline thunk ordinals - only for use in Trampoline thunk symbols  
-   THUNK_ORDINAL_TRAMP_INCREMENTAL,  
-   THUNK_ORDINAL_TRAMP_BRANCHISLAND,  
+   // trampoline thunk ordinals - only for use in Trampoline thunk symbols  
+   THUNK_ORDINAL_TRAMP_INCREMENTAL,  
+   THUNK_ORDINAL_TRAMP_BRANCHISLAND,  
 } THUNK_ORDINAL;  
 ```  
   

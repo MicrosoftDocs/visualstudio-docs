@@ -27,13 +27,13 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Creating a data source for an Excel project.  
+- Creating a data source for an Excel project.  
   
--   Adding controls to a worksheet.  
+- Adding controls to a worksheet.  
   
--   Scrolling through database records.  
+- Scrolling through database records.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -51,34 +51,34 @@ ms.workload:
   
 ### To create a new project  
   
-1.  Create an Excel workbook project with the name **My Simple Data Binding**, using either Visual Basic or C#. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1. Create an Excel workbook project with the name **My Simple Data Binding**, using either Visual Basic or C#. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
- Visual Studio opens the new Excel workbook in the designer and adds the **My Simple Data Binding** project to **Solution Explorer**.  
+   Visual Studio opens the new Excel workbook in the designer and adds the **My Simple Data Binding** project to **Solution Explorer**.  
   
 ## Create the data source  
  Use the **Data Sources** window to add a typed dataset to your project.  
   
 ### To create the data source  
   
-1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
+1. If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
   
-2.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+2. Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  Select **Database** and then click **Next**.  
+3. Select **Database** and then click **Next**.  
   
-4.  Select a data connection to the Northwind sample SQL Server database, or add a new connection using the **New Connection** button.  
+4. Select a data connection to the Northwind sample SQL Server database, or add a new connection using the **New Connection** button.  
   
-5.  After a connection has been selected or created, click **Next**.  
+5. After a connection has been selected or created, click **Next**.  
   
-6.  Clear the option to save the connection if it is selected, and then click **Next**.  
+6. Clear the option to save the connection if it is selected, and then click **Next**.  
   
-7.  Expand the **Tables** node in the **Database objects** window.  
+7. Expand the **Tables** node in the **Database objects** window.  
   
-8.  Select the check box next to the **Customers** table.  
+8. Select the check box next to the **Customers** table.  
   
 9. Click **Finish**.  
   
- The wizard adds the **Customers** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
+   The wizard adds the **Customers** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
   
 ## Add controls to the worksheet  
  For this walkthrough, you need two named ranges and four buttons on the first worksheet. First, add the two named ranges from the **Data Sources** window so that they are automatically bound to the data source. Next, add the buttons from the **Toolbox**.  
@@ -103,37 +103,37 @@ ms.workload:
   
 ### To add four buttons  
   
-1.  From the **Common Controls** tab of the **Toolbox**, add a <xref:System.Windows.Forms.Button> control to cell **A3** of the worksheet.  
+1. From the **Common Controls** tab of the **Toolbox**, add a <xref:System.Windows.Forms.Button> control to cell **A3** of the worksheet.  
   
-     This button is named `Button1`.  
+    This button is named `Button1`.  
   
-2.  Add three more buttons to the following cells in this order, so that the names are as shown:  
+2. Add three more buttons to the following cells in this order, so that the names are as shown:  
   
-    |Cell|(Name)|  
-    |----------|--------------|  
-    |B3|Button2|  
-    |C3|Button3|  
-    |D3|Button4|  
+   |Cell|(Name)|  
+   |----------|--------------|  
+   |B3|Button2|  
+   |C3|Button3|  
+   |D3|Button4|  
   
- The next step is to add text to the buttons, and in C# add event handlers.  
+   The next step is to add text to the buttons, and in C# add event handlers.  
   
 ## Initialize the controls  
  Set the button text and add event handlers during the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event.  
   
 ### To initialize the controls  
   
-1.  In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Code** on the shortcut menu.  
+1. In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Code** on the shortcut menu.  
   
-2.  Add the following code to the `Sheet1_Startup` method to set the text for each button.  
+2. Add the following code to the `Sheet1_Startup` method to set the text for each button.  
   
-     [!code-csharp[Trin_VstcoreDataExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#2)]
-     [!code-vb[Trin_VstcoreDataExcel#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#2)]  
+    [!code-csharp[Trin_VstcoreDataExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#2)]
+    [!code-vb[Trin_VstcoreDataExcel#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#2)]  
   
-3.  For C# only, add event handlers for the button click events to the `Sheet1_Startup` method.  
+3. For C# only, add event handlers for the button click events to the `Sheet1_Startup` method.  
   
-     [!code-csharp[Trin_VstcoreDataExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#3)]  
+    [!code-csharp[Trin_VstcoreDataExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#3)]  
   
- Now add code to handle the <xref:System.Windows.Forms.Control.Click> events of the buttons so that the user can browse through the records.  
+   Now add code to handle the <xref:System.Windows.Forms.Control.Click> events of the buttons so that the user can browse through the records.  
   
 ## Add code to enable scrolling through the records  
  Add code to the <xref:System.Windows.Forms.Control.Click> event handler of each button to move through the records.  

@@ -21,7 +21,7 @@ ms.technology: vs-ide-modeling
 Run analyzers on code maps to help you identify code that might be overly complex or that might need improvement. For example, you can use these analyzers:
 
 |**To find code that has**|**Examine these areas to see whether**|
-|-------------------------------|--------------------------------------------|
+|-|-|
 |Loops or circular dependencies|You can simplify them and consider whether you can break these cycles.|
 |Too many dependencies|They are performing too many functions or to determine the impact of changing these areas. A well-formed code map will show a minimal number of dependencies. To make code easier to maintain, change, test, and reuse, consider whether you can refactor these areas so that they are more clearly defined, or whether you can merge code that performs similar functions.|
 |No dependencies|They are necessary or whether you should remove this code.|
@@ -31,7 +31,7 @@ Run analyzers on code maps to help you identify code that might be overly comple
 On the map toolbar, choose **Layout** > **Analyzers**, and then the analyzer that you want to run:
 
 |**Analyzer**|**To identify nodes that**|
-|------------------|--------------------------------|
+|-|-|
 |**Circular References  Analyzer**|Have circular dependencies on each other. **Note:**  Circular dependencies that are in the **Generics** group are not shown on the map when you expand the group.|
 |**Find Hubs Analyzer**|Are in the top 25% of highly-connected nodes<br /><br /> **To hide all other nodes on the map**<br /><br /> -   Open the shortcut menu for the map, choose **Advanced**, **Select**, **Hide Unselected**.<br />     The map hides the unselected nodes, and the analyzer identifies new nodes as hubs.|
 |**Unreferenced Nodes Analyzer**|Do not have references from any other nodes. **Caution:**  Verify each of these cases before assuming that the code is not used. Certain dependencies such as XAML dependencies and run-time dependencies cannot be found statically in the code.|

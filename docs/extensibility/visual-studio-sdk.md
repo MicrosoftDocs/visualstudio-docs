@@ -21,21 +21,21 @@ ms.workload:
 # Visual Studio SDK
 The Visual Studio SDK helps you extend Visual Studio features or integrate new features into Visual Studio. You can distribute your extensions to other users, as well as to the Visual Studio Marketplace. The following are some of the ways in which you can extend Visual Studio:  
   
--   Add commands, buttons, menus, and other UI elements to the IDE  
+- Add commands, buttons, menus, and other UI elements to the IDE  
   
--   Add tool windows for new functionality  
+- Add tool windows for new functionality  
   
--   Extend IntelliSense for a given language, or provide IntelliSense for new programming languages  
+- Extend IntelliSense for a given language, or provide IntelliSense for new programming languages  
   
--   Use light bulbs to provide hints and suggestions that help developers write better code  
+- Use light bulbs to provide hints and suggestions that help developers write better code  
   
--   Enable support for a new language  
+- Enable support for a new language  
   
--   Add a custom project type  
+- Add a custom project type  
   
--   Reach millions of developers via the Visual Studio Marketplace  
+- Reach millions of developers via the Visual Studio Marketplace  
   
- If you've never written a Visual Studio extension before, you should find more information about these features and at [Starting to develop Visual Studio extensions](../extensibility/starting-to-develop-visual-studio-extensions.md).  
+  If you've never written a Visual Studio extension before, you should find more information about these features and at [Starting to develop Visual Studio extensions](../extensibility/starting-to-develop-visual-studio-extensions.md).  
   
 ## Install the Visual Studio SDK  
  The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  

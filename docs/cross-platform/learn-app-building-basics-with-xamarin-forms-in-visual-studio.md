@@ -110,110 +110,110 @@ To run this sample, you must first sign up for a free API key at [http://openwea
 
 The following steps then add code to the .NET Standard library to access and store data from that weather service:
 
-1.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You'll use this class to store data from the weather data service.
+1. Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You'll use this class to store data from the weather data service.
 
-2.  Replace the entire contents of *Weather.cs* with the following code:
+2. Replace the entire contents of *Weather.cs* with the following code:
 
-    ```csharp
-    namespace WeatherApp
-    {
-        public class Weather
-        {
-            // Because labels bind to these values, set them to an empty string to
-            // ensure that the label appears on all platforms by default.
-            public string Title { get; set; } = " ";
-            public string Temperature { get; set; } = " ";
-            public string Wind { get; set; } = " ";
-            public string Humidity { get; set; } = " ";
-            public string Visibility { get; set; } = " ";
-            public string Sunrise { get; set; } = " ";
-            public string Sunset { get; set; } = " ";
-        }
-    }
-    ```
+   ```csharp
+   namespace WeatherApp
+   {
+       public class Weather
+       {
+           // Because labels bind to these values, set them to an empty string to
+           // ensure that the label appears on all platforms by default.
+           public string Title { get; set; } = " ";
+           public string Temperature { get; set; } = " ";
+           public string Wind { get; set; } = " ";
+           public string Humidity { get; set; } = " ";
+           public string Visibility { get; set; } = " ";
+           public string Sunrise { get; set; } = " ";
+           public string Sunset { get; set; } = " ";
+       }
+   }
+   ```
 
-3.  Add another class to the **WeatherApp** project named **DataService.cs** that you'll use to process JSON data from the weather data service.
+3. Add another class to the **WeatherApp** project named **DataService.cs** that you'll use to process JSON data from the weather data service.
 
-4.  Replace the entire contents of **DataService.cs** with the following code:
+4. Replace the entire contents of **DataService.cs** with the following code:
 
-    ```csharp
-    using System.Net.Http;
-    using System.Threading.Tasks;
-    using Newtonsoft.Json;
+   ```csharp
+   using System.Net.Http;
+   using System.Threading.Tasks;
+   using Newtonsoft.Json;
 
-    namespace WeatherApp
-    {
-        public class DataService
-        {
-            public static async Task<dynamic> getDataFromService(string queryString)
-            {
-                HttpClient client = new HttpClient();
-                var response = await client.GetAsync(queryString);
+   namespace WeatherApp
+   {
+       public class DataService
+       {
+           public static async Task<dynamic> getDataFromService(string queryString)
+           {
+               HttpClient client = new HttpClient();
+               var response = await client.GetAsync(queryString);
 
-                dynamic data = null;
-                if (response != null)
-                {
-                    string json = response.Content.ReadAsStringAsync().Result;
-                    data = JsonConvert.DeserializeObject(json);
-                }
+               dynamic data = null;
+               if (response != null)
+               {
+                   string json = response.Content.ReadAsStringAsync().Result;
+                   data = JsonConvert.DeserializeObject(json);
+               }
 
-                return data;
-            }
-        }
-    }
-    ```
+               return data;
+           }
+       }
+   }
+   ```
 
-5.  Add a third class to the **WeatherApp** project named **Core.cs** where you'll put shared business logic. This code forms a query string with a zip code, calls the weather data service, and populates an instance of the `Weather` class.
+5. Add a third class to the **WeatherApp** project named **Core.cs** where you'll put shared business logic. This code forms a query string with a zip code, calls the weather data service, and populates an instance of the `Weather` class.
 
-6.  Replace the contents of **Core.cs** with the following code:
+6. Replace the contents of **Core.cs** with the following code:
 
-    ```csharp
-    using System;
-    using System.Threading.Tasks;
+   ```csharp
+   using System;
+   using System.Threading.Tasks;
 
-    namespace WeatherApp
-    {
-        public class Core
-        {
-            public static async Task<Weather> GetWeather(string zipCode)
-            {
-                //Sign up for a free API key at http://openweathermap.org/appid
-                string key = "YOUR API KEY HERE";
-                string queryString = "http://api.openweathermap.org/data/2.5/weather?zip="
-                    + zipCode + ",us&appid=" + key + "&units=imperial";
+   namespace WeatherApp
+   {
+       public class Core
+       {
+           public static async Task<Weather> GetWeather(string zipCode)
+           {
+               //Sign up for a free API key at http://openweathermap.org/appid
+               string key = "YOUR API KEY HERE";
+               string queryString = "http://api.openweathermap.org/data/2.5/weather?zip="
+                   + zipCode + ",us&appid=" + key + "&units=imperial";
 
-                dynamic results = await DataService.getDataFromService(queryString).ConfigureAwait(false);
+               dynamic results = await DataService.getDataFromService(queryString).ConfigureAwait(false);
 
-                if (results["weather"] != null)
-                {
-                    Weather weather = new Weather();
-                    weather.Title = (string)results["name"];
-                    weather.Temperature = (string)results["main"]["temp"] + " F";
-                    weather.Wind = (string)results["wind"]["speed"] + " mph";
-                    weather.Humidity = (string)results["main"]["humidity"] + " %";
-                    weather.Visibility = (string)results["weather"][0]["main"];
+               if (results["weather"] != null)
+               {
+                   Weather weather = new Weather();
+                   weather.Title = (string)results["name"];
+                   weather.Temperature = (string)results["main"]["temp"] + " F";
+                   weather.Wind = (string)results["wind"]["speed"] + " mph";
+                   weather.Humidity = (string)results["main"]["humidity"] + " %";
+                   weather.Visibility = (string)results["weather"][0]["main"];
 
-                    DateTime time = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
-                    DateTime sunrise = time.AddSeconds((double)results["sys"]["sunrise"]);
-                    DateTime sunset = time.AddSeconds((double)results["sys"]["sunset"]);
-                    weather.Sunrise = sunrise.ToString() + " UTC";
-                    weather.Sunset = sunset.ToString() + " UTC";
-                    return weather;
-                }
-                else
-                {
-                    return null;
-                }
-            }
-        }
-    }
-    ```
+                   DateTime time = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+                   DateTime sunrise = time.AddSeconds((double)results["sys"]["sunrise"]);
+                   DateTime sunset = time.AddSeconds((double)results["sys"]["sunset"]);
+                   weather.Sunrise = sunrise.ToString() + " UTC";
+                   weather.Sunset = sunset.ToString() + " UTC";
+                   return weather;
+               }
+               else
+               {
+                   return null;
+               }
+           }
+       }
+   }
+   ```
 
 7. Replace *YOUR API KEY HERE* with the API key you obtained. It still needs quotes around it!
 
-8.  Build the **WeatherApp** library project to make sure the code is correct.
+8. Build the **WeatherApp** library project to make sure the code is correct.
 
- <a name="uicode" />
+   <a name="uicode" />
 
 ## Begin writing shared UI code
 

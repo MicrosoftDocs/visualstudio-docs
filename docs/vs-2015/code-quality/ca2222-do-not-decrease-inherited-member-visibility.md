@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2222: Do not decrease inherited member visibility
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotDecreaseInheritedMemberVisibility|

@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1045: Do not pass types by reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotPassTypesByReference|

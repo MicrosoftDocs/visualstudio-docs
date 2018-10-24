@@ -19,6 +19,7 @@ manager: "wpickett"
 ---
 # CA2137: Transparent methods must contain only verifiable IL
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|TransparentMethodsMustBeVerifiable|

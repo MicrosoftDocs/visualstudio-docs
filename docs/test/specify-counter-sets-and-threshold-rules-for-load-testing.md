@@ -32,7 +32,7 @@ It is important that you add the servers under test to the list of computers on 
 ## Tasks
 
 |Tasks|Associated Topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Manage counter sets for your load test:** After you create your load test, you can edit the Counter Set in the Load Test Editor. Managing counter sets involves choosing the set of computers from which you want to collect performance data and assigning a set of counter sets to collect from each individual computer. You manage your counters in the Load Test Editor.|-   [How to: Manage counter sets](../test/how-to-manage-counter-sets-using-the-load-test-editor.md)|
 |**Add counter sets to your load test:** When you create a load test with the **New Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test. After you create a load test, you can add new counters to existing counter sets using the Load Test Editor.|-   [How to: Add counters to counter sets](../test/how-to-add-counters-to-counter-sets-using-the-load-test-editor.md)<br />-   [How to: Add custom counter sets](../test/how-to-add-custom-counter-sets-using-the-load-test-editor.md)|
 |**Specify a threshold rule using counters for your load test:** A threshold rule is a rule that is set on an individual performance counter to monitor system resource usage during a load test. Counter set definitions contain predefined threshold rules for many key performance counters. Threshold rules in load tests compare a performance counter value with either a constant value or another performance counter value.|-   [How to: Add a threshold rule](../test/how-to-add-a-threshold-rule-using-the-load-test-editor.md)|
@@ -61,7 +61,7 @@ Select an appropriate value for the **Sample Rate** property in the load test ru
 The following are some guidelines for sample rates.
 
 |Load test duration|Recommended sample rate|
-|------------------------|-----------------------------|
+|-|-----------------------------|
 |\< 1 Hour|5 seconds|
 |1−8 Hours|15 seconds|
 |8−24 Hours|30 seconds|

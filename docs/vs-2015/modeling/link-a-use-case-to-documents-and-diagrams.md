@@ -23,17 +23,17 @@ manager: "douge"
 
 You can link a use case in a use case diagram to another diagram or document. For example, you can link the use case to the following diagrams and documents:  
   
--   A sequence diagram that shows how the goals of the use case are realized by interactions between users and the system or its major components.  
+- A sequence diagram that shows how the goals of the use case are realized by interactions between users and the system or its major components.  
   
--   An activity diagram that shows the detailed actions of the users and the system or its major components as they perform the use case.  
+- An activity diagram that shows the detailed actions of the users and the system or its major components as they perform the use case.  
   
--   A OneNote page or paragraph that describes the use case in detail.  
+- A OneNote page or paragraph that describes the use case in detail.  
   
--   A Word document or PowerPoint presentation that describes the use case in detail. You can keep such documents either in the solution, or in a location accessible to your team, such as a SharePoint site.  
+- A Word document or PowerPoint presentation that describes the use case in detail. You can keep such documents either in the solution, or in a location accessible to your team, such as a SharePoint site.  
   
- To link a use case to a document, you create an artifact on the use case diagram and connect the use case to the artifact. In the artifact's properties, you set the file path of the other diagram or document. When you double-click the artifact, the other diagram or document opens.  
+  To link a use case to a document, you create an artifact on the use case diagram and connect the use case to the artifact. In the artifact's properties, you set the file path of the other diagram or document. When you double-click the artifact, the other diagram or document opens.  
   
- You can connect as many artifacts to each use case as you want. You can also link artifacts to other kinds of element on a use case diagram.  
+  You can connect as many artifacts to each use case as you want. You can also link artifacts to other kinds of element on a use case diagram.  
   
 ### To open a document associated with an artifact  
   

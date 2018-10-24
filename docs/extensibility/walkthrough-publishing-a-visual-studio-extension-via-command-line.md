@@ -27,12 +27,12 @@ VsixPublisher.exe is the command line tool for publishing Visual Studio extensio
 
 Publishes an extension to the Marketplace. The extension can be a vsix, an exe/msi file, or a link. If the extension already exists with the same version, it will overwrite the extension. If the extension does not already exist, it will create a new extension.
 
-|Command Options                    |Description  |
+|Command Options |Description |
 |---------|---------|
-|payload (required)                 |  Either a path to the payload to publish or a link to use as the "more info URL".      |
-|publishManifest (required)         |  Path to the publish manifest file to use.       |
-|ignoreWarnings                     |  List of warnings to ignore when publishing an extension. These warnings are shown as command line messages when publishing an extension. (for example, "VSIXValidatorWarning01, VSIXValidatorWarning02")  
-|personalAccessToken                 |  Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users.       |
+|payload (required) | Either a path to the payload to publish or a link to use as the "more info URL". |
+|publishManifest (required) | Path to the publish manifest file to use. |
+|ignoreWarnings | List of warnings to ignore when publishing an extension. These warnings are shown as command line messages when publishing an extension. (for example, "VSIXValidatorWarning01, VSIXValidatorWarning02")  
+|personalAccessToken | Personal Access Token (PAT) that's used to authenticate the publisher. If not provided, the PAT is acquired from the logged-in users. |
 
 ```
 VsixPublisher.exe publish -payload "{path to vsix}" -publishManifest "{path to vs-publish.json}" -ignoreWarnings "VSIXValidatorWarning01,VSIXValidatorWarning02"
@@ -42,13 +42,13 @@ VsixPublisher.exe publish -payload "{path to vsix}" -publishManifest "{path to v
 
 Creates a publisher on the Marketplace. Also logs the publisher into the machine for future actions (for example, deleting/publishing an extension).
 
-|Command Options                    |Description  |
+|Command Options |Description |
 |---------|---------|
-|displayName (required)             |  Display name of the publisher.      |
-|publisherName (required)           |  The name of the publisher (for example, the identifier).      |
-|personalAccessToken (required)     |  Personal Access Token that is used to authenticate the publisher.      |
-|shortDescription                   |  A short description of the publisher (not a file).       |
-|longDescription                    |  A long description of the publisher (not a file).      |
+|displayName (required) | Display name of the publisher. |
+|publisherName (required) | The name of the publisher (for example, the identifier). |
+|personalAccessToken (required) | Personal Access Token that is used to authenticate the publisher. |
+|shortDescription | A short description of the publisher (not a file). |
+|longDescription | A long description of the publisher (not a file). |
 
 ```
 VsixPublisher.exe createPublisher -publisherName "{Publisher Name}" -displayName "{Publisher Display Name}" -personalAccessToken "{Personal Access Token}"
@@ -58,10 +58,10 @@ VsixPublisher.exe createPublisher -publisherName "{Publisher Name}" -displayName
 
 Deletes a publisher on the Marketplace.
 
-|Command Options                    |Description  |
+|Command Options |Description |
 |---------|---------|
-|publisherName (required)           |  The name of the publisher (for example, the identifier).      |
-|personalAccessToken (required)     |  Personal Access Token that is used to authenticate the publisher.      |
+|publisherName (required) | The name of the publisher (for example, the identifier). |
+|personalAccessToken (required) | Personal Access Token that is used to authenticate the publisher. |
 
 ```
 VsixPublisher.exe deletePublisher -publisherName "{Publisher Name}" -personalAccessToken "{Personal Access Token}"
@@ -71,11 +71,11 @@ VsixPublisher.exe deletePublisher -publisherName "{Publisher Name}" -personalAcc
 
 Deletes an extension from the Marketplace.
 
-|Command Options                    |Description  |
+|Command Options |Description |
 |---------|---------|
-|extensionName (required)           |  The name of the extension to delete.      |
-|publisherName (required)           |  The name of the publisher (for example, the identifier).      |
-|personalAccessToken                |  Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users.     |
+|extensionName (required) | The name of the extension to delete. |
+|publisherName (required) | The name of the publisher (for example, the identifier). |
+|personalAccessToken | Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users. |
 
 ```
 VsixPublisher.exe deleteExtension -extensionName "{Extension Name}" -publisherName "{Publisher Name}"
@@ -85,11 +85,11 @@ VsixPublisher.exe deleteExtension -extensionName "{Extension Name}" -publisherNa
 
 Logs a publisher into the machine.
 
-|Command Options                    |Description  |
+|Command Options |Description |
 |---------|---------|
-|personalAccessToken (required      |  Personal Access Token that is used to authenticate the publisher.      |
-|publisherName (required)           |  The name of the publisher (for example, the identifier).      |
-|overwrite                          |  Specifies that any existing publisher should be overwritten with the new personal access token.     |
+|personalAccessToken (required | Personal Access Token that is used to authenticate the publisher. |
+|publisherName (required) | The name of the publisher (for example, the identifier). |
+|overwrite | Specifies that any existing publisher should be overwritten with the new personal access token. |
 
 ```
 VsixPublisher.exe login -personalAccessToken "{Personal Access Token}" -publisherName "{Publisher Name}"
@@ -99,10 +99,10 @@ VsixPublisher.exe login -personalAccessToken "{Personal Access Token}" -publishe
 
 Logs a publisher out of the machine.
 
-|Command Options                    |Description  |
+|Command Options |Description |
 |---------|---------|
-|publisherName (required)           |  The name of the publisher (for example, the identifier).      |
-|ignoreMissingPublisher             |  Specifies that the tool should not error if the specified publisher is not already logged-in.     |
+|publisherName (required) | The name of the publisher (for example, the identifier). |
+|ignoreMissingPublisher | Specifies that the tool should not error if the specified publisher is not already logged-in. |
 
 ```
 VsixPublisher.exe logout -publisherName "{Publisher Name}"

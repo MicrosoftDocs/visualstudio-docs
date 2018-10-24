@@ -22,7 +22,7 @@ Retrieves the ID of the register that holds a base pointer to the parameters. Us
   
 ```C++  
 HRESULT get_paramBasePointerRegisterId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

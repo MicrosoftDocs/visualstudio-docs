@@ -24,6 +24,7 @@ manager: "wpickett"
 ---
 # CA2241: Provide correct arguments to formatting methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ProvideCorrectArgumentsToFormattingMethods|

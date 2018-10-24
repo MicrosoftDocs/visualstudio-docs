@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1400: P/Invoke entry points should exist
+
 |||
 |-|-|
 |TypeName|PInvokeEntryPointsShouldExist|

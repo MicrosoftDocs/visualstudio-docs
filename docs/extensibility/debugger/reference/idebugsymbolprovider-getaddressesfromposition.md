@@ -23,19 +23,19 @@ This method maps a document position into an array of debug addresses.
   
 ```cpp  
 HRESULT GetAddressesFromPosition(   
-   IDebugDocumentPosition2* pDocPos,  
-   BOOL                     fStatmentOnly,  
-   IEnumDebugAddresses**    ppEnumBegAddresses,  
-   IEnumDebugAddresses**    ppEnumEndAddresses  
+   IDebugDocumentPosition2* pDocPos,  
+   BOOL                     fStatmentOnly,  
+   IEnumDebugAddresses**    ppEnumBegAddresses,  
+   IEnumDebugAddresses**    ppEnumEndAddresses  
 );  
 ```  
   
 ```csharp  
 int GetAddressesFromPosition(   
-   IDebugDocumentPosition2  pDocPos,  
-   bool                     fStatmentOnly,  
-   out IEnumDebugAddresses  ppEnumBegAddresses,  
-   out IEnumDebugAddresses  ppEnumEndAddresses  
+   IDebugDocumentPosition2  pDocPos,  
+   bool                     fStatmentOnly,  
+   out IEnumDebugAddresses  ppEnumBegAddresses,  
+   out IEnumDebugAddresses  ppEnumEndAddresses  
 );  
 ```  
   

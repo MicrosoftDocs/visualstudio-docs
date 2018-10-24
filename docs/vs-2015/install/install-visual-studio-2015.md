@@ -129,17 +129,17 @@ This page includes detailed information to help you with installing **Visual Stu
   
 #### To install or uninstall Help content  
   
-1.  On the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] menu bar, choose **Help**, **Add and Remove Help Content**.  
+1. On the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] menu bar, choose **Help**, **Add and Remove Help Content**.  
   
-2.  On the **Manage Content** tab of the **Microsoft Help Viewer**, select the installation source for your Help content.  
+2. On the **Manage Content** tab of the **Microsoft Help Viewer**, select the installation source for your Help content.  
   
-3.  If you're looking for a specific Help collection, enter the name or a keyword in the **Search** text box, and then press **Enter**.  
+3. If you're looking for a specific Help collection, enter the name or a keyword in the **Search** text box, and then press **Enter**.  
   
-4.  Next to the name of the Help collection you want, choose the **Add** or **Remove** link.  
+4. Next to the name of the Help collection you want, choose the **Add** or **Remove** link.  
   
-5.  Click the **Update** button.  
+5. Click the **Update** button.  
   
- For more information about how to install or deploy offline Help, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
+   For more information about how to install or deploy offline Help, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
   
 ##  <a name="serviceReleases"></a> Checking for Service Releases and Product Updates  
  Because not all extensions are compatible, Visual Studio doesn't automatically upgrade extensions when you upgrade from previous versions. You must reinstall the extensions from the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=178891) or from the software publisher.  

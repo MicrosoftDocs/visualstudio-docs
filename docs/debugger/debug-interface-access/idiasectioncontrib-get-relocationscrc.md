@@ -22,7 +22,7 @@ Retrieves the cyclic redundancy check (CRC) of the relocation information for th
   
 ```C++  
 HRESULT get_relocationsCrc (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

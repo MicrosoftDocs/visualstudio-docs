@@ -28,8 +28,8 @@ Retrieves a symbol by its unique identifier.
   
 ```cpp#  
 HRESULT symbolById (   
-   DWORD        id,  
-   IDiaSymbol** ppSymbol  
+   DWORD        id,  
+   IDiaSymbol** ppSymbol  
 );  
 ```  
   

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1048: Do not declare virtual members in sealed types
+
 |||
 |-|-|
 |TypeName|DoNotDeclareVirtualMembersInSealedTypes|

@@ -22,7 +22,7 @@ Retrieves a reference to the class parent of the symbol.
   
 ```C++  
 HRESULT get_classParent (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

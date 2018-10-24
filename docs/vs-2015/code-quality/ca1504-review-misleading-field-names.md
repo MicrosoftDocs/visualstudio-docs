@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1504: Review misleading field names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|ReviewMisleadingFieldNames|

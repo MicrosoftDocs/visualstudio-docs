@@ -26,19 +26,19 @@ This method retrieves a list of argument types associated with this object.
 
 ```cpp
 HRESULT GetTypeArguments(
-   UINT          skip,
-   UINT          count,
-   IDebugField** ppFields,
-   UINT*         pFetched
+   UINT          skip,
+   UINT          count,
+   IDebugField** ppFields,
+   UINT*         pFetched
 );
 ```
 
 ```csharp
 int GetTypeArguments(
-   uint          skip,
-   uint          count,
-   IDebugField[] ppFields,
-   out uint      pFetched
+   uint          skip,
+   uint          count,
+   IDebugField[] ppFields,
+   out uint      pFetched
 );
 ```
 

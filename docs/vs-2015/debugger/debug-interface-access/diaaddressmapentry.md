@@ -28,8 +28,8 @@ Describes an entry in an address map.
   
 ```cpp#  
 struct DiaAddressMapEntry {   
-   DWORD rva,  
-   DWORD rvaTo  
+   DWORD rva,  
+   DWORD rvaTo  
 };  
 ```  
   
@@ -45,13 +45,13 @@ struct DiaAddressMapEntry { 
   
  To translate an address, `addrA`, in image A to an address, `addrB`, in image B, perform the following steps:  
   
-1.  Search the map for the entry, `e`, with the largest `rva` less than or equal to `addrA`.  
+1. Search the map for the entry, `e`, with the largest `rva` less than or equal to `addrA`.  
   
-2.  Set `delta = addrA – e.rva`.  
+2. Set `delta = addrA – e.rva`.  
   
-3.  Set `addrB = e.rvaTo + delta`.  
+3. Set `addrB = e.rvaTo + delta`.  
   
- An array of `DiaAddressMapEntry` structures is passed to the [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md) method.  
+   An array of `DiaAddressMapEntry` structures is passed to the [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md) method.  
   
 ## Requirements  
  Header: dia2.h  

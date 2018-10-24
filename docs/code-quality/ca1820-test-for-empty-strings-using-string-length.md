@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1820: Test for empty strings using string length
+
 |||
 |-|-|
 |TypeName|TestForEmptyStringsUsingStringLength|

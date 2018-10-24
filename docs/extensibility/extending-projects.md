@@ -30,7 +30,7 @@ Projects and solutions are the ways Visual Studio organizes code and resource fi
  Describes how to create a custom project system.  
   
  [Save data in project files](../extensibility/saving-data-in-project-files.md)  
- Explains how add to project (*.*proj*) files.  
+ Explains how add to project (<em>.</em>proj*) files.  
   
  [Verify subtypes of a project at run time](../extensibility/verifying-subtypes-of-a-project-at-run-time.md)  
  Explains how to verify the subtype of a project at run time.  

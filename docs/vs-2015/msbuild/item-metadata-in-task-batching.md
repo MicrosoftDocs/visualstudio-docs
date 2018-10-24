@@ -26,15 +26,15 @@ manager: "ghogen"
   
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a task one time with each batch. It can be confusing to understand exactly what items are being passed with which batch. This topic covers the following common scenarios that involve batching.  
   
--   Dividing an item list into batches  
+- Dividing an item list into batches  
   
--   Dividing several item lists into batches  
+- Dividing several item lists into batches  
   
--   Batching one item at a time  
+- Batching one item at a time  
   
--   Filtering item lists  
+- Filtering item lists  
   
- For more information on batching with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], see [Batching](../msbuild/msbuild-batching.md).  
+  For more information on batching with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], see [Batching](../msbuild/msbuild-batching.md).  
   
 ## Dividing an Item list into Batches  
  Batching allows you to divide an item list into different batches based on item metadata, and pass each of the batches into a task separately. This is useful for building satellite assemblies.  

@@ -19,6 +19,7 @@ manager: "wpickett"
 ---
 # CA2142: Transparent code should not be protected with LinkDemands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|TransparentMethodsShouldNotBeProtectedWithLinkDemands|

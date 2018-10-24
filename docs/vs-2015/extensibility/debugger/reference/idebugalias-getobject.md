@@ -27,13 +27,13 @@ Gets the object that this alias is for.
   
 ```cpp  
 HRESULT GetObject(  
-   IDebugObject2** ppObject  
+   IDebugObject2** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetObject(  
-   Out IDebugObject2 ppObject  
+   Out IDebugObject2 ppObject  
 )  
 ```  
   

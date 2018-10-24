@@ -26,18 +26,18 @@ Describes the computer on which the debugger is running.
 ```cpp#  
 typedef struct tagCOMPUTER_INFO  
 {  
-    WORD wProcessorArchitecture;  
-    WORD wSuiteMask;  
-    DWORD dwOperatingSystemVersion;  
+    WORD wProcessorArchitecture;  
+    WORD wSuiteMask;  
+    DWORD dwOperatingSystemVersion;  
 } COMPUTER_INFO;  
 ```  
   
 ```csharp  
 public struct COMPUTER_INFO  
 {  
-    public ushort wProcessorArchitecture;  
-    public ushort wSuiteMask;  
-    public uint dwOperatingSystemVersion;  
+    public ushort wProcessorArchitecture;  
+    public ushort wSuiteMask;  
+    public uint dwOperatingSystemVersion;  
 }  
 ```  
   

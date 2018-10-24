@@ -28,7 +28,7 @@ Retrieves the one-based source line number where the statement or expression end
   
 ```cpp#  
 HRESULT get_lineNumberEnd (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

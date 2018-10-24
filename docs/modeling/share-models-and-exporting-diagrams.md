@@ -40,7 +40,7 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
 ## Related Topics
 
 |Title|Description|
-|-----------|-----------------|
+|-|-|
 |[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)|Sharing models in a large or medium project.|
 |[Export diagrams as images](../modeling/export-diagrams-as-images.md)|You can copy parts of diagrams into applications such as PowerPoint or Word, or print a diagram to an XPS file.|
 |[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)|Overview of models and diagrams.|

@@ -26,7 +26,7 @@ Returns a BSTR containing the name of the `EnumType`.
   
 ```  
 HRESULT GetName(  
-   BSTR*  pname  
+   BSTR*  pname  
 );  
 ```  
   
