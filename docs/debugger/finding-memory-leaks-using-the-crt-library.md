@@ -52,7 +52,7 @@ To enable all the debug heap functions, include the following statements in your
 
 The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you leave out the `#define` statement, the memory leak dump will be [less detailed](#interpret-the-memory-leak-report).  
 
-Including crtdbg.h maps the `malloc` and `free` functions to their debug versions, [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg) and [_free_dbg](/cpp/c-runtime-library/reference/free-dbg), which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
+Including `crtdbg.h` maps the `malloc` and `free` functions to their debug versions, [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg) and [_free_dbg](/cpp/c-runtime-library/reference/free-dbg), which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
 
 After you've enabled the debug heap functions by using the preceding statements, place a call to [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) before an app exit point to display a memory-leak report when the app exits.  
 
@@ -107,7 +107,9 @@ Whether or not you define `_CRTDBG_MAP_ALLOC`, the memory-leak report displays:
 - The size of the block, `64 bytes` in the example.  
 - The first 16 bytes of data in the block, in hexadecimal form.  
 
-Memory block types are *normal*, *client*, or *CRT*. A *normal block* is ordinary memory allocated by your program. A *client block* is a special type of memory block used by MFC programs for objects that require a destructor. The MFC `new` operator creates either a normal block or a client block, as appropriate for the object being created. A *CRT block* is allocated by the CRT library for its own use. The CRT library handles the deallocation for these blocks, so CRT blocks won't appear in the memory-leak report unless there are serious problems with the CRT library.  
+Memory block types are *normal*, *client*, or *CRT*. A *normal block* is ordinary memory allocated by your program. A *client block* is a special type of memory block used by MFC programs for objects that require a destructor. The MFC `new` operator creates either a normal block or a client block, as appropriate for the object being created. 
+
+A *CRT block* is allocated by the CRT library for its own use. The CRT library handles the deallocation for these blocks, so CRT blocks won't appear in the memory-leak report unless there are serious problems with the CRT library.  
 
 There are two other types of memory blocks that never appear in memory-leak reports. A *free block* is memory that has been released, so by definition isn't leaked. An *ignore block* is memory that you have explicitly marked to exclude from the memory-leak report.  
 
