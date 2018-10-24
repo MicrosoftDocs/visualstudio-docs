@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 
-namespace Lable_Cs
+namespace Label_Cs
 {
 	/// <summary>
 	/// Summary description for Form1.
