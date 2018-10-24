@@ -72,6 +72,9 @@ If you downloaded symbols separately, follow the steps below to make Visual Stud
 | 3.3.2 | [32-bit](https://www.org/ftp/python/3.3.2/python-3.3.2-pdb.zip) - [64-bit](https://www.org/ftp/python/3.3.2/python-3.3.2.amd64-pdb.zip) |
 | 3.3.1 | [32-bit](https://www.org/ftp/python/3.3.1/python-3.3.1-pdb.zip) - [64-bit](https://www.org/ftp/python/3.3.1/python-3.3.1.amd64-pdb.zip) |
 | 3.3.0 | [32-bit](https://www.org/ftp/python/3.3.0/python-3.3.0-pdb.zip) - [64-bit](https://www.org/ftp/python/3.3.0/python-3.3.0.amd64-pdb.zip) |
+| 2.7.15 | [32-bit](https://www.python.org/ftp/python/2.7.15/python-2.7.15-pdb.zip) - [64-bit](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64-pdb.zip) |
+| 2.7.14 | [32-bit](https://www.python.org/ftp/python/2.7.14/python-2.7.14-pdb.zip) - [64-bit](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64-pdb.zip) |
+| 2.7.13 | [32-bit](https://www.python.org/ftp/python/2.7.13/python-2.7.13-pdb.zip) - [64-bit](https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64-pdb.zip) |
 | 2.7.12 | [32-bit](https://www.python.org/ftp/python/2.7.12/python-2.7.12-pdb.zip) - [64-bit](https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64-pdb.zip) |
 | 2.7.11 | [32-bit](https://www.python.org/ftp/python/2.7.11/python-2.7.11-pdb.zip) - [64-bit](https://www.python.org/ftp/python/2.7.11/python-2.7.11.amd64-pdb.zip) |
 | 2.7.10 | [32-bit](https://www.python.org/ftp/python/2.7.10/python-2.7.10-pdb.zip) - [64-bit](https://www.python.org/ftp/python/2.7.10/python-2.7.10.amd64-pdb.zip) |
