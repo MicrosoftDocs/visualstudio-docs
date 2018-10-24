@@ -52,15 +52,15 @@ To enable all the debug heap functions, include the following statements in your
 
 The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you omit the `#define` statement, the memory leak dump will be [less detailed](#interpret-the-memory-leak-report).  
 
-Including crtdbg.h maps the `malloc` and the [free](/cpp/c-runtime-library/reference/free) functions to their debug versions, [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
+Including crtdbg.h maps the `malloc` and `free` functions to their debug versions, [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg) and [_free_dbg](/cpp/c-runtime-library/reference/free-dbg), which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
 
-After you have enabled the debug heap functions by using the preceding statements, you can place a call to `_CrtDumpMemoryLeaks` before an app exit point to display a memory-leak report when your app exits.  
+After you have enabled the debug heap functions by using the preceding statements, you can place a call to [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) before an app exit point to display a memory-leak report when your app exits.  
 
 ```cpp
 _CrtDumpMemoryLeaks();  
 ```  
 
-If your app has multiple exits, you do not need to manually place [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) at every exit point. To cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point, place a call to `_CrtSetDbgFlag` at the beginning of your app with the two bit fields shown here:
+If your app has multiple exits, you do not need to manually place `_CrtDumpMemoryLeaks` at every exit point. To cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point, place a call to `_CrtSetDbgFlag` at the beginning of your app with the two bit fields shown here:
 
 ```cpp
 _CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );  
@@ -99,7 +99,7 @@ Object dump complete.
 
 The second report shows the filename and line number where the leaked memory is first allocated.  
 
-Whether you define `_CRTDBG_MAP_ALLOC` or not, the memory-leak report will display:  
+Whether or not you define `_CRTDBG_MAP_ALLOC`, the memory-leak report will display:  
 
 - The memory allocation number, which is `18` in the example  
 - The [block type](https://msdn.microsoft.com/library/e2f42faf-0687-49e7-aa1f-916038354f97), `normal` in the example.  
@@ -172,6 +172,7 @@ This output reports that the leaked allocation was on line 20 of *debug_new.cpp*
 ## Set breakpoints on a memory allocation number  
 
 The memory allocation number tells you when a leaked memory block was allocated. A block with a memory allocation number of 18, for example, is the 18th block of memory allocated during the run of the app. The CRT report counts all memory-block allocations during the run, including allocations by the CRT library and other libraries such as MFC. Therefore, memory allocation block number 18 is probably not the 18th memory block allocated by your code. 
+
 You can use the allocation number to set a breakpoint on the memory allocation.  
 
 **To set a memory-allocation breakpoint using the Watch window:**  
