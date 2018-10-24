@@ -52,7 +52,7 @@ To enable all the debug heap functions, include the following statements in your
 
 The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you leave out the `#define` statement, the memory leak dump will be [less detailed](#interpret-the-memory-leak-report).  
 
-Including `crtdbg.h` maps the `malloc` and `free` functions to their debug versions, [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg) and [_free_dbg](/cpp/c-runtime-library/reference/free-dbg), which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
+Including *crtdbg.h* maps the `malloc` and `free` functions to their debug versions, [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg) and [_free_dbg](/cpp/c-runtime-library/reference/free-dbg), which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
 
 After you've enabled the debug heap functions by using the preceding statements, place a call to [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) before an app exit point to display a memory-leak report when the app exits.  
 
@@ -102,7 +102,7 @@ The second report shows the filename and line number where the leaked memory is 
 Whether or not you define `_CRTDBG_MAP_ALLOC`, the memory-leak report displays:  
 
 - The memory allocation number, which is `18` in the example  
-- The [block type](https://msdn.microsoft.com/library/e2f42faf-0687-49e7-aa1f-916038354f97), `normal` in the example.  
+- The block type, `normal` in the example.  
 - The hexadecimal memory location, `0x00780E80` in the example.  
 - The size of the block, `64 bytes` in the example.  
 - The first 16 bytes of data in the block, in hexadecimal form.  
@@ -191,7 +191,7 @@ You can use the allocation number to set a breakpoint on the memory allocation.
    
    The debugger evaluates the call and places the result in the **Value** column. This value will be **-1** if you have not set any breakpoints on memory allocations.  
    
-1. In the **Value** column, replace the value shown with the allocation number of the memory allocation where you want the debugger to break.  
+1. In the **Value** column, replace the value with the allocation number of the memory allocation where you want the debugger to break.  
 
 After you set a breakpoint on a memory-allocation number, continue to debug. Make sure to run under the same conditions, so the memory-allocation number doesn't change. When your program breaks at the specified memory allocation, use the **Call Stack** window and other debugger windows to determine the conditions under which the memory was allocated. Then, you can continue execution to observe what happens to the object and determine why it isn't correctly deallocated.  
 
@@ -219,7 +219,7 @@ _CrtMemCheckpoint( &s1 );
 
 The `_CrtMemCheckpoint` function fills in the structure with a snapshot of the current memory state.  
 
-To output the contents of a **_CrtMemState** structure, pass the structure to the `_ CrtMemDumpStatistics` function:  
+To output the contents of a `_CrtMemState` structure, pass the structure to the `_ CrtMemDumpStatistics` function:  
 
 ```cpp
 _CrtMemDumpStatistics( &s1 );  
