@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Set the installation locations in Visual Studio 2017
 
-**New in 15.7**: You can reduce the installation footprint on your system drive by changing the location for Visual Studio files. Specifically, you can set a location for the download cache, shared components, SDKs, and tools to different drives.
+**New in 15.7**: You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
 
 Here's how.
 
@@ -26,30 +26,30 @@ Here's how.
 
    ![Visual Studio 2017 - Set the installation location](media/vs-installation-locations.png "Set the installation location")
 
-   > [!IMPORTANT]
-   > If you pause the installation and later resume it, Visual Studio picks up where it left off. In other words, its installation progress applies to what's left to be downloaded and installed, and does not start from the previous count.
-
 1. In the **Visual Studio IDE** section, accept the default. Visual Studio installs the core product and includes files that are specific to this version of Visual Studio.
 
    ![Visual Studio IDE section of the Installation Locations tab](media/vs-installation-locations-ide.png "Accept the default for the Visual Studio IDE section of the Installations Location tab")
 
    > [!TIP]
-   > If your system drive is a solid-state drive (SSD), here's why we recommend that you accept the default location on your system drive: When you develop with Visual Studio, you read from and write to a lot of files, which increases the disk I/O activity.  It's best to choose your fastest drive to handle the load.
+   > If your system drive is a solid-state drive (SSD), we recommend that you accept the default location on your system drive. The reason? When you develop with Visual Studio, you read from and write to a lot of files, which increases the disk I/O activity. It's best to choose your fastest drive to handle the load.
 
-1. In the **Download cache** section, decide if you want to keep the download cache, and then check or uncheck **Keep download cache** accordingly.
+1. In the **Download cache** section, decide if you want to keep the download cache, and then decide where you want to store installation files.
 
-   If you decide not to keep the download cache, the location is used only temporarily. As well, this action will not affect or delete files from previous installations. (To clean all installation packages, you must modify your previous installations separately.)
+     ![Download Cache section of the Installation Locations tab](media/vs-installation-locations-cache.png "Choose whether to keep the download cache after installation, and then specific the drive where you want to store files.")
 
-   Next, specify the drive where you want to store installation files and manifests.
+    1. Check or uncheck **Keep download cache after the installation**.
 
-   ![Download Cache section of the Installation Locations tab](media/vs-installation-locations-cache.png "Choose whether to keep the download cache after installation, and then specific the drive where you want to store files.")
+       If you decide not to keep the download cache, the location is used only temporarily. This action won't affect or delete files from previous installations. (To clean all installation packages, you must modify your previous installations separately.)
 
-   For example, if you select the "Desktop development with C++" workload, the temporarily required size is 1.58 GB on your system drive, which is then freed as soon as the installation completes.
+    1. Next, specify the drive where you want to store installation files and manifests.
 
-   > [!NOTE]
-   > The files are first downloaded to a temp folder on your system drive and later deleted after Visual Studio verifies and then moves them to the download cache folder. If you select to keep your download cache to a different drive, Visual Studio still needs disk space that is equivalent to the size of the download cache on your system drive.
-   > [!IMPORTANT]
-   > The location is set with your first installation and cannot be changed later from the installer UI. Instead, you must [use command-line parameters](use-command-line-parameters-to-install-visual-studio.md) to move the download cache
+        For example, if you select the "Desktop development with C++" workload, the temporarily required size is 1.58 GB on your system drive, which is then freed as soon as the installation completes.
+
+       > [!NOTE]
+       > The files are first downloaded to a temp folder on your system drive and later deleted after Visual Studio verifies and then moves them to the download cache folder. If you select to keep your download cache to a different drive, Visual Studio still needs disk space that is equivalent to the size of the download cache on your system drive.
+
+       > [!IMPORTANT]
+       > The location is set with your first installation and cannot be changed later from the installer UI. Instead, you must [use command-line parameters](use-command-line-parameters-to-install-visual-studio.md) to move the download cache
 
 1. In the **Shared components, tools, and SDKs** section, specify the drive where you want to store files that are shared by side-by-side Visual Studio installations. SDKs and tools that let the Visual Studio installer change its install location are also stored in this directory.
 
