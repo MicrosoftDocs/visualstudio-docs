@@ -6818,6 +6818,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/cross-platform/visual-studio-and-xamarin.md",
+            "redirect_url": "/xamarin/",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/cross-platform/setup-and-install.md",
             "redirect_url": "/xamarin/cross-platform/get-started/installation/",
             "redirect_document_id": false
