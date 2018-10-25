@@ -7,7 +7,6 @@ ms.topic: reference
 f1_keywords:
   - "VS.Environment.Documents"
   - "VS.ToolsOptionsPages.Environment.Documents"
-  - "VS.ToolsOptionsPag.Environment.Documents"
 helpviewer_keywords:
   - "Documents Environment Options dialog box"
   - "defaults, directories"

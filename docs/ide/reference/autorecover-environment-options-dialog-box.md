@@ -5,7 +5,6 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPag.Environment.AutoRecover"
   - "VS.DialogAutoRestore"
   - "VS.ToolsOptionsPages.Environment.AutoRecover"
   - "VS.ToolsOptionsPages.Environment.Auto_Save_and_Restore"
