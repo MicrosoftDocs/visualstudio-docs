@@ -89,14 +89,6 @@ When selected, displays a vertical margin along the left edge of the editor's te
 
 When selected, displays a vertical margin outside the left edge of the editor's text area. When you click in this margin, an icon and ToolTip that are related to the text appear. For example, breakpoint or task list shortcuts appear in the indicator margin. Indicator Margin information does not print.
 
-### Vertical scroll bar
-
-When selected, displays a vertical scrollbar which allows you to scroll up and down to view elements that fall outside the viewing area of the Editor. If vertical scrollbars are not available, you can use the Page Up, Page Down and cursor keys to scroll.
-
-### Horizontal scroll bar
-
-When selected, displays a horizontal scrollbar which allows you to scroll from side-to-side to view elements that fall outside the viewing area of the Editor. If horizontal scrollbars are unavailable, you can use the cursor keys to scroll.
-
 ### Highlight current line
 
 When selected, displays a gray box around the line of code in which the cursor is located.

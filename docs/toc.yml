@@ -788,7 +788,7 @@
           href: ide/reference/options-text-editor-c-cpp-advanced.md
         - name: Text Editor - C/C++, Experimental
           href: ide/reference/options-text-editor-c-cpp-experimental.md
-        - name: Text Editor - C#, Formatting
+        - name: Text Editor - C#, Code Style
           href: ide/reference/options-text-editor-csharp-formatting.md
         - name: Text Editor - C#, Advanced
           href: ide/reference/options-text-editor-csharp-advanced.md
