@@ -16,7 +16,7 @@ ms.workload:
 This dialog box lets you change the default behavior of the code editor scroll bar. To display these options, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder, and then choose **Scroll Bars**.
 
 > [!CAUTION]
-> This page sets default options for all development languages. Remember that resetting an option in this dialog will reset the Tabs options in all languages to whatever choices are selected here. To change Text Editor options for just one language, expand the subfolder for that language and select its option pages.
+> This page sets default options for all development languages. Remember that resetting an option in this dialog will reset the Scroll Bars options in all languages to whatever choices are selected here. To change Text Editor options for just one language, expand the subfolder for that language and select its option pages.
 
 ## Show horizontal scroll bar
 
@@ -26,7 +26,7 @@ When selected, displays a horizontal scrollbar, which allows you to scroll from 
 
 When selected, displays a vertical scrollbar, which allows you to scroll up and down to view elements that fall outside the viewing area of the Editor. If vertical scrollbars are not available, you can use the Page Up, Page Down and cursor keys to scroll.
 
-## Display modes
+## Display
 
 ### Show annotations
 
