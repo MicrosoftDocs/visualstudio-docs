@@ -6,7 +6,6 @@ ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.Build_and_Run"
-  - "VS.ToolsOptionsPag.Projects.Build_and_Run"
 helpviewer_keywords:
   - "builds [Visual Studio], setting up"
   - "run actions"
