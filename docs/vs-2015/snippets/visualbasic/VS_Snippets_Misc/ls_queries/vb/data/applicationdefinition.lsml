@@ -4369,7 +4369,7 @@
             </BinaryExpression.Left>
             <BinaryExpression.Right>
               <ConstantExpression ResultType=":String?"
-                                  Value="Fuck You" />
+                                  Value="foobar" />
             </BinaryExpression.Right>
           </BinaryExpression>
         </QueryFilterExpressionTree>
