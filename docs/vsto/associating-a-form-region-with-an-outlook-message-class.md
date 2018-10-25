@@ -105,7 +105,7 @@ ms.workload:
  [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)   
  [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)   
- [Form name and message class overview](http://msdn.microsoft.com/library/office/ff867629.aspx)   
- [How Outlook forms and items work together](http://msdn.microsoft.com/library/office/ff869706.aspx)  
+ [Form name and message class overview](/office/vba/outlook/Concepts/Forms/form-name-and-message-class-overview)   
+ [How Outlook forms and items work together](/office/vba/outlook/Concepts/Forms/how-outlook-forms-and-items-work-together)  
   
   
