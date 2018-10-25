@@ -15,7 +15,7 @@ ms.workload:
 ---
 # What is debugging?
 
-The Visual Studio debugger is a powerful tool. Before we teach how to use it, we want to start off on the right foot, so we explain some terms such as *debug mode*, *debugger*, and *debugging*. This way, when we talk later about finding and fixing bugs, we all mean the same thing.
+The Visual Studio debugger is a powerful tool. Before we show how to use it, we want to talk about some terms such as *debug mode*, *debugger*, and *debugging*. This way, when we talk later about finding and fixing bugs, we all mean the same thing.
 
 ## Debug mode vs. running your app
 
@@ -35,11 +35,11 @@ When you start the app (press the green arrow or **F5**) for a debug configurati
 
 The term *debugging* is pretty general, and can mean a lot of different things. In the most literal usage of the word, it means removing bugs from your code. Now, there are a lot of ways to do this. For example, you might debug by scanning your code looking for typos, or by using a code analyzer. You might debug code by using a performance profiler. Or, you might debug by using a *debugger*.
 
-A debugger is a very specialized developer tool. A debugger attaches to your running app and allows you to inspect your code. So, when you run a debug configuration, your app runs in debug mode, which means you are running your app with a debugger attached. In the debugging documentation for Visual Studio, this is usually what we mean when we say "debugging".
+A debugger is a very specialized developer tool. A debugger attaches to your running app and allows you to inspect your code. So, when you run a debug configuration, your app runs in debug mode, which means you are running your app with a debugger attached. In the debugging documentation for Visual Studio, this is typically what we mean when we say "debugging".
 
 ## When to use a debugger
 
-The debugger is an essential tool to find and fix bugs in your apps. However, context is king, and we want to point you to the right tools for the right task, because bug fixing can take a lot of time, especially when you are just getting started or just learning to use the IDE. Sometimes, the right "tool" might be a better coding practice. If you already know you need the debugger, see [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md). Otherwise, follow the link in Next Steps.
+The debugger is an essential tool to find and fix bugs in your apps. However, context is king, and it is important to leverage all the tools at your disposable to help you quickly eliminate bugs or errors. Sometimes, the right "tool" might be a better coding practice. By learning when to use the debugger vs. some other tool, you will also learn how to use the debugger more effectively. If you already know you need to learn about the debugger, see [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md). Otherwise, follow the link in the next section.
 
 ## Next steps
 
