@@ -21,7 +21,7 @@ manager: douge
 ms.workload:
   - "dotnet"
 ---
-# Options, Text Editor, C#, Code Style
+# Options, Text Editor, C#, Code Style, Formatting
 
 Use the **Formatting** options page to set options for formatting code in the code editor. To access this options page, choose **Tools** > **Options**. In the **Options** dialog box, choose **Text Editor** > **C#** > **Code Style** > **Formatting**.
 

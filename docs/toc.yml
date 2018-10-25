@@ -773,7 +773,7 @@
         - name: Text Editor - All Languages
           href: ide/reference/options-text-editor-all-languages.md
         - name: Text Editor - All Languages, Scroll Bars
-          href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
+          href: ide/reference/options-text-editor-all-languages-scroll-bars.md
         - name: Text Editor - All Languages, Tabs
           href: ide/reference/options-text-editor-all-languages-tabs.md
         - name: Text Editor - Basic (Visual Basic), Advanced
@@ -788,7 +788,7 @@
           href: ide/reference/options-text-editor-c-cpp-advanced.md
         - name: Text Editor - C/C++, Experimental
           href: ide/reference/options-text-editor-c-cpp-experimental.md
-        - name: Text Editor - C#, Code Style
+        - name: Text Editor - C#, Code Style, Formatting
           href: ide/reference/options-text-editor-csharp-formatting.md
         - name: Text Editor - C#, Advanced
           href: ide/reference/options-text-editor-csharp-advanced.md

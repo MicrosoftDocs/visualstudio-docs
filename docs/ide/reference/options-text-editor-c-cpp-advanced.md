@@ -128,7 +128,7 @@ By changing these options, you can change the behavior related to IntelliSense a
 
  Disables IntelliSense error squiggles. The red "squiggles" don't show in the editor window, but the error will still appear in the Error List window.
 
- **Max Cached Translation Units**
+ **Auto Tune Max Cached Translation Units**
 
  The maximum number of translation units that will be kept active at any one time for IntelliSense requests. You must specify a value between 2 and 15. This number directly relates to the maximum number of VCPkgSrv.exe processes that will run (for a given instance of Visual Studio). The default value is 2, but if you have available memory, you can increase this value and possibly achieve slightly better performance on IntelliSense.
 
@@ -141,10 +141,6 @@ By changing these options, you can change the behavior related to IntelliSense a
  **Use Forward Slash in #include Auto Complete**
 
  Triggers auto-completion of `#include` statements when "/" is used. The default delimiter is backslash '\'. The compiler can accept either, so use this option to specify what your code base uses.
-
- **Member List Dot-To-Arrow**
-
- Replaces '.' with '->' when applicable for Member List.
 
  **Disable Aggressive Member List**
 
@@ -173,6 +169,10 @@ By changing these options, you can change the behavior related to IntelliSense a
  **Smart Member List Commit**
 
  Adds a line when you choose the Enter key at the end of a fully typed word.
+
+ **Enable Member List Dot-To-Arrow**
+
+ Replaces '.' with '->' when applicable for Member List.
 
 ## References
  **Disable Resolving**

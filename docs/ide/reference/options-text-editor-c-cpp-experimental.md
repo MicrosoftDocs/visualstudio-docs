@@ -25,9 +25,9 @@ These features are available in a Visual Studio 2017 installation.
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
-## Manage code squiggles
+## Code squiggles
 
-You can enable or disable the following settings to manage the way in which text editor handles code squiggles for C / C++:
+You can enable or disable the following settings to manage the way in which text editor handles code squiggles for C and C++:
 
 - Disable C++ Code Analysis Experience
 -	Disable Background Code Analysis
