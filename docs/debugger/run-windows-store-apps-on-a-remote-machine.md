@@ -36,7 +36,7 @@ To debug a UWP app on a remote device from Visual Studio:
 You use the project **Properties** to specify the remote device to connect to. The settings differ depending on the programming language. 
 
 > [!WARNING]
-> By default, the property page sets **Universal (Unencrypted Protocol)** as the **Authentication Type** for Windows 10 remote connections. **Universal (Unencrypted Protocol)** or **No Authentication** protocols have no network security, so data passed between the development and remote machines is vulnerable. Choose these authentication types only for trusted networks that you are sure are not at risk from malicious or hostile traffic. 
+> By default, the property page sets **Universal (Unencrypted Protocol)** as the **Authentication Type** for Windows 10 remote connections. **Universal (Unencrypted Protocol)** and **No Authentication** protocols have no network security, so data passed between the development and remote machines is vulnerable. Choose these authentication types only for trusted networks that you are sure are not at risk from malicious or hostile traffic. 
 >
 >If you choose **Windows Authentication** for the **Authentication Type**, you will need to sign in to the remote machine when debugging, and the remote tools on the remote machine must be running under the same user account as Visual Studio on the local machine.
 
@@ -76,7 +76,7 @@ You use the project **Properties** to specify the remote device to connect to. T
 
 ### <a name="remote-connections"></a> Use the Remote Connections dialog box
 
-In the **Remote Connections** dialog box, you can search for a specific remote computer name or IP address, or auto-detect connections by selecting the rounded-arrow refresh icon. The dialog searches only devices on the local subnet of the Visual Studio computer that are currently running the remote debugger.  
+In the **Remote Connections** dialog box, you can search for a specific remote computer name or IP address, or auto-detect connections by selecting the rounded-arrow refresh icon. The dialog searches only devices on the local subnet that are currently running the remote debugger.  
 
  ![Remote Connection dialog box](../debugger/media/vsrun_selectremotedebuggerdlg.png "Remote Connections dialog")  
 
@@ -96,7 +96,7 @@ Windows 10 PCs running Creator's Update (version 1703) and later, and Windows 10
 
 Windows Mobile 10 devices do not require or support the remote tools. 
 
-On pre-Creator's Update Windows 10 PCs, you must download, install, and be running the remote tools on the remote computer before you start debugging.
+On pre-Creator's Update Windows 10 PCs, you must manually download, install, and be running the remote tools on the remote computer before you start debugging.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
