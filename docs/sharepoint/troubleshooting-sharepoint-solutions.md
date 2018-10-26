@@ -130,7 +130,7 @@ ms.workload:
   
 -   Install [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)].  
   
--   Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/assign-or-remove-administrators-of-service-applications).  
+-   Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/assign-or-remove-administrators-of-service-applications).  
   
 ## Site deletion web event does not occur in event receiver project
  When you create an event receiver project and you select certain Web events such as "a site is being deleted," the event never occurs.  

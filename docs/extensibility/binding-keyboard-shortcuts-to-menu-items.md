@@ -39,7 +39,7 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the *
 4. Try different combinations of keys until you find one that is not mapped.  
   
    > [!NOTE]
-   >  Keyboard shortcuts that use **Alt** may open a menu and not directly execute a command. Therefore, the **Shorcut currently used by** box may be blank when you type a shortcut that includes **Alt**. You can verify that the shortcut does not open a menu by closing the **Options** dialog box and then pressing the keys.  
+   >  Keyboard shortcuts that use **Alt** may open a menu and not directly execute a command. Therefore, the **Shortcut currently used by** box may be blank when you type a shortcut that includes **Alt**. You can verify that the shortcut does not open a menu by closing the **Options** dialog box and then pressing the keys.  
   
    The following procedure assumes that you have an existing VSPackage with a menu command. If you need help doing that, take a look at [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
@@ -72,7 +72,7 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the *
   
    In most situations, **Shift** should not be used without a second modifier because pressing it already causes most alphanumeric keys to type an uppercase letter or a symbol.  
   
-   Virtual-key codes let you access special keys that do not have a character associated with them, for example, function keys and the **Backspace** key. For more information, see [Virtual-key codes](https://docs.microsoft.com/en-us/windows/desktop/inputdev/virtual-key-codes).  
+   Virtual-key codes let you access special keys that do not have a character associated with them, for example, function keys and the **Backspace** key. For more information, see [Virtual-key codes](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes).  
   
    To make the command available in the Visual Studio editor, set the `editor` attribute to `guidVSStd97`.  
   
