@@ -1,6 +1,6 @@
 ---
 title: Overview of Visual Studio 2017
-ms.date: 06/01/2018
+ms.date: 10/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
