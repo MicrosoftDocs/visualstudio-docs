@@ -35,12 +35,12 @@ To debug a UWP app on a remote device from Visual Studio:
 
 You use the project **Properties** to specify the remote device to connect to. The settings differ depending on the programming language. 
 
-> [!SECURITY WARNING]
+> [!WARNING]
 > By default, the property page sets **Universal (Unencrypted Protocol)** as the **Authentication Type** for Windows 10 remote connections. **Universal (Unencrypted Protocol)** or **No Authentication** protocols have no network security, so data passed between the development and remote machines is vulnerable. Choose these authentication types only for trusted networks that you are sure are not at risk from malicious or hostile traffic. 
 >
 >If you choose **Windows Authentication** for the **Authentication Type**, you will need to sign in to the remote machine when debugging, and the remote tools on the remote machine must be running under the same user account as Visual Studio on the local machine.
 
-##  <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> Configure a C# or Visual Basic project for remote debugging  
+###  <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> Configure a C# or Visual Basic project for remote debugging  
 
 1. Select the C# or Visual Basic project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
   
@@ -48,13 +48,13 @@ You use the project **Properties** to specify the remote device to connect to. T
   
 1.  Under **Target device**, select **Remote Machine**.  
   
-1.  Enter the network name or IP address of the remote device in the **Remote machine** field, or select **Find** to search for the device in the [Remote Connections** dialog box](#remote-connections). 
-
+1.  Enter the network name or IP address of the remote device in the **Remote machine** field, or select **Find** to search for the device in the [Remote Connections dialog box](#remote-connections). 
+    
     ![Managed project properties for remote debugging](../debugger/media/vsrun_managed_projprop_remote.png "Managed Debug project properties")  
-  
-  > [!TIP]
-  >  If you can't connect to a remote device by name, try using its IP address. To determine the IP address, on the device, type **ipconfig** in a command window. The IP address is listed as **IPv4 Address**.  
-  
+    
+    > [!TIP]
+    >  If you can't connect to a remote device by name, try using its IP address. To determine the IP address, on the device, type **ipconfig** in a command window. The IP address is listed as **IPv4 Address**.  
+    
 1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save changes.
 
 ###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> Configure a JavaScript or C++ project for remote debugging   
@@ -68,10 +68,10 @@ You use the project **Properties** to specify the remote device to connect to. T
 1.  Under **Machine Name**, enter or select the network name or IP address of the remote device, or drop down and select **Locate** to search for the device in the [Remote Connections dialog box](#remote-connections). 
 
     ![C++ project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "C++ Debugging project properties")
-  
-  > [!TIP]
-  >  If you can't connect to a remote device by name, try using its IP address. To determine the IP address, on the device, type **ipconfig** in a command window. The IP address is listed as **IPv4 Address**.  
-  
+    
+    > [!TIP]
+    >If you can't connect to a remote device by name, try using its IP address. To determine the IP address, on the device, type **ipconfig** in a command window. The IP address is listed as **IPv4 Address**.  
+    
 1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save changes.
 
 ### <a name="remote-connections"></a> Use the Remote Connections dialog box
@@ -80,7 +80,7 @@ In the **Remote Connections** dialog box, you can search for a specific remote c
 
  ![Remote Connection dialog box](../debugger/media/vsrun_selectremotedebuggerdlg.png "Remote Connections dialog")  
 
-###  <a name="BKMK_DirectConnect"></a> Configure remote debugging on Windows Mobile 10 devices
+##  <a name="BKMK_DirectConnect"></a> Configure remote debugging on Windows Mobile 10 devices
 
 To configure remote debugging on Windows Mobile 10 devices:
 
