@@ -77,15 +77,15 @@ When you drag items from the [Data Sources Window](http://msdn.microsoft.com/lib
   
 10. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionSuffix`.  
   
-11. Right-click the **SmartCaptionExpression** item, and select**Modify**.  
+11. Right-click the **SmartCaptionExpression** item, and select **Modify**.  
   
 12. Enter the regular expression you want the **Data Sources** window to use.  
   
-13. Right-click the **SmartCaptionReplacement** item, and select**Modify**.  
+13. Right-click the **SmartCaptionReplacement** item, and select **Modify**.  
   
 14. Enter the replacement string formatted the way you want to display the patterns matched in your regular expression.  
   
-15. Right-click the **SmartCaptionSuffix** item, and select**Modify**.  
+15. Right-click the **SmartCaptionSuffix** item, and select **Modify**.  
   
 16. Enter any characters you want to appear at the end of the caption.  
   
@@ -113,11 +113,11 @@ When you drag items from the [Data Sources Window](http://msdn.microsoft.com/lib
   
 10. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionSuffix`.  
   
-11. Right-click the **SmartCaptionExpression** item, and select**Modify**.  
+11. Right-click the **SmartCaptionExpression** item, and select **Modify**.  
   
 12. Enter `(.*)` for the value. This will match the entire string.  
   
-13. Right-click the **SmartCaptionReplacement** item, and select**Modify**.  
+13. Right-click the **SmartCaptionReplacement** item, and select **Modify**.  
   
 14. Enter `$1` for the value. This replaces the string with the matched value, which is the entire string so that it will remain unchanged.  
   

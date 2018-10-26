@@ -31,7 +31,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
      The **New Project** dialog box appears.  
   
-2.  In the **Project Type**s box, click the language of your choice: **Visual Basic**, **Visual C#**, or **Visual C++**.  
+2.  In the **Project Types** box, click the language of your choice: **Visual Basic**, **Visual C#**, or **Visual C++**.  
   
 3.  Under **Windows Desktop**, choose **Console App**.  
   

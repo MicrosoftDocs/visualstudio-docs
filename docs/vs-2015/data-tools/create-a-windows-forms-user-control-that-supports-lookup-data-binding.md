@@ -106,7 +106,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
 3.  From the **Build** menu, choose **Build Solution**.  
   
 ## Create a data source from your database  
- This step creates a data source using the **Data Source Configuration**wizard, based on the `Customers` and `Orders` tables in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
+ This step creates a data source using the **Data Source Configuration** wizard, based on the `Customers` and `Orders` tables in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
   
 #### To create the data source  
   

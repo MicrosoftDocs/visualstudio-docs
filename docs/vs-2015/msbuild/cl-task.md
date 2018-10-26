@@ -53,7 +53,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
    For more information, see [Compiler Options](http://msdn.microsoft.com/library/ed3376c8-bef4-4c9a-80e9-3b5da232644c).  
   
-- **AdditionalUsingDirectories**Optional String[] parameter.  
+- **AdditionalUsingDirectories** Optional String[] parameter.  
   
    Specifies a directory that the compiler will search to resolve file references passed to the **#using** directive.  
   
