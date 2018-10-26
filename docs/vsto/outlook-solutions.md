@@ -43,13 +43,13 @@ ms.workload:
 ## Automate Outlook by using the Outlook object model  
  The Outlook object model exposes many types that you can use to automate Outlook. These types enable you to write code to accomplish common tasks:  
   
--   Programmatically create and send e-mail messages.  
+- Programmatically create and send e-mail messages.  
   
--   Send new meeting requests.  
+- Send new meeting requests.  
   
--   Search for items in Outlook folders.  
+- Search for items in Outlook folders.  
   
- For more information, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).  
+  For more information, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).  
   
 ## Customize the user interface of an Outlook application  
   

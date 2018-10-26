@@ -24,13 +24,13 @@ Gets the document context that describes the position in the document that is to
   
 ```cpp  
 HRESULT GetDocumentContext (   
-   IDebugDocumentContext2** ppDocContext  
+   IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
 ```csharp  
 int GetDocumentContext (   
-   out IDebugDocumentContext2 ppDocContext  
+   out IDebugDocumentContext2 ppDocContext  
 );  
 ```  
   

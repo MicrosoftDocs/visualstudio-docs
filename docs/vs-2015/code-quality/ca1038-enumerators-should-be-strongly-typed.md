@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1038: Enumerators should be strongly typed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|EnumeratorsShouldBeStronglyTyped|

@@ -111,10 +111,10 @@ After a subscription is  assigned to the Subscriber, they will receive an email 
 1. Navigate to https://my.visualstudio.com, and click **Create new Microsoft account**.
 
 2. Complete the Fields:
-    - Enter the email address which received the Welcome Email in the Someone@example.com box
-    - Create your password
-    - Choose your promotional settings
-    - Click **Next**
+   - Enter the email address which received the Welcome Email in the Someone@example.com box
+   - Create your password
+   - Choose your promotional settings
+   - Click **Next**
 
 3. Complete the validation steps and click **Next**.
 
@@ -136,10 +136,10 @@ You have been assigned a Visual Studio subscription, and may have been directed 
 2. Click Create new Microsoft Account on the right hand side
 
 3. Complete the Form:
-    - Use your corporate email address in the someone@example.com box
-    - Enter a password
-    - Select your promotional preference
-    - Click Next
+   - Use your corporate email address in the someone@example.com box
+   - Enter a password
+   - Select your promotional preference
+   - Click Next
 
 4. Complete the account validation steps
 

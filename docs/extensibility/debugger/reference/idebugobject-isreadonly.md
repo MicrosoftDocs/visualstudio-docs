@@ -23,13 +23,13 @@ Determines if this object is read-only.
   
 ```cpp  
 HRESULT IsReadOnly(   
-   BOOL* pfIsReadOnly  
+   BOOL* pfIsReadOnly  
 );  
 ```  
   
 ```csharp  
 int IsReadOnly(  
-   out int pfIsReadOnly  
+   out int pfIsReadOnly  
 );  
 ```  
   

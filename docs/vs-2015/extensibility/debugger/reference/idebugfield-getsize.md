@@ -27,13 +27,13 @@ This method gets the size of a field, in bytes.
   
 ```cpp#  
 HRESULT GetSize(   
-   DWORD* pdwSize  
+   DWORD* pdwSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out uint pdwSize  
+   out uint pdwSize  
 );  
 ```  
   

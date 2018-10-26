@@ -27,13 +27,13 @@ Describes the location of a code breakpoint.
   
 ```cpp#  
 typedef struct _BP_RESOLUTION_CODE {   
-   IDebugCodeContext2* pCodeContext;  
+   IDebugCodeContext2* pCodeContext;  
 } BP_RESOLUTION_CODE;  
 ```  
   
 ```csharp  
 public struct BP_RESOLUTION_CODE {   
-   public IDebugCodeContext2 pCodeContext;  
+   public IDebugCodeContext2 pCodeContext;  
 };  
 ```  
   

@@ -28,15 +28,15 @@ Gets a list of all error breakpoints that resulted from this pending breakpoint.
   
 ```cpp#  
 HRESULT EnumErrorBreakpoints(   
-   BP_ERROR_TYPE                 bpErrorType,  
-   IEnumDebugErrorBreakpoints2** ppEnum  
+   BP_ERROR_TYPE                 bpErrorType,  
+   IEnumDebugErrorBreakpoints2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumErrorBreakpoints(   
-   enum_BP_ERROR_TYPE              bpErrorType,  
-   out IEnumDebugErrorBreakpoints2 ppEnum  
+   enum_BP_ERROR_TYPE              bpErrorType,  
+   out IEnumDebugErrorBreakpoints2 ppEnum  
 );  
 ```  
   

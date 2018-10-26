@@ -27,17 +27,17 @@ This method converts either an object location or a memory address to a memory c
   
 ```cpp#  
 HRESULT GetMemoryContext(   
-   IDebugField*           pField,  
-   DWORD                  dwConstant,  
-   IDebugMemoryContext2** ppMemCxt  
+   IDebugField*           pField,  
+   DWORD                  dwConstant,  
+   IDebugMemoryContext2** ppMemCxt  
 );  
 ```  
   
 ```csharp  
 int GetMemoryContext(  
-   IDebugField              pField,   
-   uint                     dwConstant,   
-   out IDebugMemoryContext2 ppMemCxt  
+   IDebugField              pField,   
+   uint                     dwConstant,   
+   out IDebugMemoryContext2 ppMemCxt  
 );  
 ```  
   

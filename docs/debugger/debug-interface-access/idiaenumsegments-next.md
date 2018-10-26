@@ -22,9 +22,9 @@ Retrieves a specified number of segments in the enumeration sequence.
   
 ```C++  
 HRESULT Next (   
-   ULONG         celt,   
-   IDiaSegment** rgelt,  
-   ULONG*        pceltFetched  
+   ULONG         celt,   
+   IDiaSegment** rgelt,  
+   ULONG*        pceltFetched  
 );  
 ```  
   

@@ -223,7 +223,7 @@ def seed():
     return redirect('/')
 ```
 
-The call to `repository.add_sample_polls()` ends up in one of the specific `Repository` implementations for your chosen data store. Each implementation calls the `_load_samples_json` method found in *models\__init__.py* to load the *models\samples.json* file into memory, then iterates through that data to create the necessary `Poll` and `Choice` objects in the data store.
+The call to `repository.add_sample_polls()` ends up in one of the specific `Repository` implementations for your chosen data store. Each implementation calls the `_load_samples_json` method found in *models\_\_init\_\_.py* to load the *models\samples.json* file into memory, then iterates through that data to create the necessary `Poll` and `Choice` objects in the data store.
 
 Once that process is complete, the `redirect('/')` statement in the `seed` method navigates back to the home page. Because `repository.get_polls` now returns a data object, the conditional tags in *templates\index.html* now renders a table containing the polls.
 
@@ -351,4 +351,4 @@ Running a web app on your development computer is just one step in making the ap
 
 - Add a repository implementation that uses another production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). You can also use the [Azure SDK for Python](azure-sdk-for-python.md) to work with Azure storage services like tables and blobs as well as Cosmos DB.
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Visual Studio Team Services (VSTS). In addition to working with source control (on VSTS, GitHub, or elsewhere), you can have VSTS automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. VSTS, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts).
+- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts).

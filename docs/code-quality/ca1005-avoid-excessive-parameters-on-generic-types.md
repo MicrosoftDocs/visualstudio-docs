@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1005: Avoid excessive parameters on generic types
+
 |||
 |-|-|
 |TypeName|AvoidExcessiveParametersOnGenericTypes|

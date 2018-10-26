@@ -26,12 +26,12 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 > [!NOTE]
 >  Visual Studio Community, Enterprise. and Professional provide additional features for unit testing.  
->   
->  -   Use any third-party and open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for the tests.  
-> -   Run your tests after every build.  
-> -   VS Enterprise also contains Microsoft Fakes, an isolation framework for managed code that helps you to focus your tests on your own code by substituting test code for system and third-party functionality.  
->   
->  For more information, see [Verifying Code by Using Unit Tests](http://msdn.microsoft.com/library/dd264975.aspx) in the MSDN Library.  
+> 
+> - Use any third-party and open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for the tests.  
+>   -   Run your tests after every build.  
+>   -   VS Enterprise also contains Microsoft Fakes, an isolation framework for managed code that helps you to focus your tests on your own code by substituting test code for system and third-party functionality.  
+> 
+>   For more information, see [Verifying Code by Using Unit Tests](http://msdn.microsoft.com/library/dd264975.aspx) in the MSDN Library.  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [Create the solution and the unit test project](#BKMK_Create_the_solution_and_the_unit_test_project)  
@@ -146,48 +146,48 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 ##  <a name="BKMK_Couple_the_test_project_to_the_app_project"></a> Couple the test project to the app project  
   
-1.  Add a reference to the Maths app to the RooterTests project.  
+1. Add a reference to the Maths app to the RooterTests project.  
   
-    1.  In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference...** on the shortcut menu.  
+   1.  In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference...** on the shortcut menu.  
   
-    2.  On the **Add Reference - RooterTests** dialog box, expand **Solution** and choose **Projects**. Then select the **Maths** item.  
+   2.  On the **Add Reference - RooterTests** dialog box, expand **Solution** and choose **Projects**. Then select the **Maths** item.  
   
-         ![Add a reference to the Maths project](../test/media/ute-cs-windows-addreference.png "UTE_Cs_windows_AddReference")  
+        ![Add a reference to the Maths project](../test/media/ute-cs-windows-addreference.png "UTE_Cs_windows_AddReference")  
   
-2.  Add a using statement to the UnitTest1.cs file:  
+2. Add a using statement to the UnitTest1.cs file:  
   
-    1.  Open **UnitTest1.cs**.  
+   1.  Open **UnitTest1.cs**.  
   
-    2.  Add this code below the `using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;` line:  
+   2.  Add this code below the `using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;` line:  
   
-        ```csharp  
-        using Maths;  
-        ```  
+       ```csharp  
+       using Maths;  
+       ```  
   
-3.  Add a test that uses the Rooter function. Add the following code to **UnitTest1.cpp**:  
+3. Add a test that uses the Rooter function. Add the following code to **UnitTest1.cpp**:  
   
-    ```csharp  
-    [TestMethod]  
-    public void BasicTest()  
-    {  
-        Maths.Rooter rooter = new Rooter();  
-        double expected = 0.0;  
-        double actual = rooter.SquareRoot(expected * expected);  
-        double tolerance = .001;  
-        Assert.AreEqual(expected, actual, tolerance);  
-    }  
+   ```csharp  
+   [TestMethod]  
+   public void BasicTest()  
+   {  
+       Maths.Rooter rooter = new Rooter();  
+       double expected = 0.0;  
+       double actual = rooter.SquareRoot(expected * expected);  
+       double tolerance = .001;  
+       Assert.AreEqual(expected, actual, tolerance);  
+   }  
   
-    ```  
+   ```  
   
-4.  Build the solution.  
+4. Build the solution.  
   
-     The new test appears in Test Explorer in the **Not Run Tests** node.  
+    The new test appears in Test Explorer in the **Not Run Tests** node.  
   
-5.  In Test Explorer, choose **Run All**.  
+5. In Test Explorer, choose **Run All**.  
   
-     ![Basic Test passed](../test/media/ute-cpp-testexplorer-basictest.png "UTE_Cpp_TestExplorer_BasicTest")  
+    ![Basic Test passed](../test/media/ute-cpp-testexplorer-basictest.png "UTE_Cpp_TestExplorer_BasicTest")  
   
- You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.  
+   You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.  
   
 ##  <a name="BKMK_Iteratively_augment_the_tests_and_make_them_pass"></a> Iteratively augment the tests and make them pass  
   
@@ -250,70 +250,70 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
 ##  <a name="BKMK_Debug_a_failing_test"></a> Debug a failing test  
   
-1.  Add another test to **UnitTest1.cs**:  
+1. Add another test to **UnitTest1.cs**:  
   
-    ```csharp  
-    // Verify that negative inputs throw an exception.  
-    [TestMethod]  
-    public void NegativeRangeTest()  
-    {  
-        string message;  
-        Rooter rooter = new Rooter();  
-        for (double v = -0.1; v > -3.0; v = v - 0.5)  
-        {  
-            try  
-            {  
-                // Should raise an exception:  
-                double actual = rooter.SquareRoot(v);  
+   ```csharp  
+   // Verify that negative inputs throw an exception.  
+   [TestMethod]  
+   public void NegativeRangeTest()  
+   {  
+       string message;  
+       Rooter rooter = new Rooter();  
+       for (double v = -0.1; v > -3.0; v = v - 0.5)  
+       {  
+           try  
+           {  
+               // Should raise an exception:  
+               double actual = rooter.SquareRoot(v);  
   
-                message = String.Format("No exception for input {0}", v);  
-                Assert.Fail(message);  
-            }  
-            catch (ArgumentOutOfRangeException ex)  
-            {  
-                continue; // Correct exception.  
-            }  
-            catch (Exception e)  
-            {  
-                message = String.Format("Incorrect exception for {0}", v);  
-                Assert.Fail(message);  
-            }  
-        }  
-    }  
+               message = String.Format("No exception for input {0}", v);  
+               Assert.Fail(message);  
+           }  
+           catch (ArgumentOutOfRangeException ex)  
+           {  
+               continue; // Correct exception.  
+           }  
+           catch (Exception e)  
+           {  
+               message = String.Format("Incorrect exception for {0}", v);  
+               Assert.Fail(message);  
+           }  
+       }  
+   }  
   
-    ```  
+   ```  
   
-2.  In Test Explorer, choose **Run All**.  
+2. In Test Explorer, choose **Run All**.  
   
-     The test fails. Choose the test name in Test Explorer. The failed assertion is highlighted. The failure message is visible in the detail pane of Test Explorer.  
+    The test fails. Choose the test name in Test Explorer. The failed assertion is highlighted. The failure message is visible in the detail pane of Test Explorer.  
   
-     ![NegativeRangeTests failed](../test/media/ute-cpp-testexplorer-negativerangetest-fail.png "UTE_Cpp_TestExplorer_NegativeRangeTest_Fail")  
+    ![NegativeRangeTests failed](../test/media/ute-cpp-testexplorer-negativerangetest-fail.png "UTE_Cpp_TestExplorer_NegativeRangeTest_Fail")  
   
-3.  To see why the test fails, step through the function:  
+3. To see why the test fails, step through the function:  
   
-    1.  Set a breakpoint at the start of the `SquareRoot` function.  
+   1.  Set a breakpoint at the start of the `SquareRoot` function.  
   
-    2.  On the shortcut menu of the failed test, choose **Debug Selected Tests**.  
+   2.  On the shortcut menu of the failed test, choose **Debug Selected Tests**.  
   
-         When the run stops at the breakpoint, step through the code.  
+        When the run stops at the breakpoint, step through the code.  
   
-    3.  Add code to the Rooter method to catch the exception:  
+   3.  Add code to the Rooter method to catch the exception:  
   
-        ```csharp  
-        public double SquareRoot(double x)  
-        {  
-            if (x < 0.0)  
-            {  
-                throw new ArgumentOutOfRangeException();  
-        }  
+       ```csharp  
+       public double SquareRoot(double x)  
+       {  
+           if (x < 0.0)  
+           {  
+               throw new ArgumentOutOfRangeException();  
+       }  
   
-        ```  
+       ```  
   
-    1.  In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.  
+   1.  In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.  
   
- All tests now pass.  
+   All tests now pass.  
   
- ![All tests pass](../test/media/ute-ult-alltestspass.png "UTE_ULT_AllTestsPass")  
+   ![All tests pass](../test/media/ute-ult-alltestspass.png "UTE_ULT_AllTestsPass")  
   
 ##  <a name="BKMK_Refactor_the_code_"></a> Refactor the code  
  **Simplify the central calculation in the SquareRoot function.**  

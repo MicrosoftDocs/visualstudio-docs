@@ -26,15 +26,15 @@ This topic discusses options and issues in Fakes code generation and compilation
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [Code generation and compilation](#BKMK_Code_generation_and_compilation)  
   
--   [Configuring code generation of stubs](#BKMK_Configuring_code_generation_of_stubs) • [Type filtering](#BKMK_Type_filtering) • [Stubbing concrete classes and virtual methods](#BKMK_Stubbing_concrete_classes_and_virtual_methods) • [Internal types](#BKMK_Internal_types) • [Optimizing build times](#BKMK_Optimizing_build_times) • [Avoiding assembly name clashing](#BKMK_Avoiding_assembly_name_clashing)  
+- [Configuring code generation of stubs](#BKMK_Configuring_code_generation_of_stubs) • [Type filtering](#BKMK_Type_filtering) • [Stubbing concrete classes and virtual methods](#BKMK_Stubbing_concrete_classes_and_virtual_methods) • [Internal types](#BKMK_Internal_types) • [Optimizing build times](#BKMK_Optimizing_build_times) • [Avoiding assembly name clashing](#BKMK_Avoiding_assembly_name_clashing)  
   
- [Fakes naming conventions](#BKMK_Fakes_naming_conventions)  
+  [Fakes naming conventions](#BKMK_Fakes_naming_conventions)  
   
--   [Shim type and stub type naming conventions](#BKMK_Shim_type_and_stub_type_naming_conventions) • [Shim delegate property or stub delegate field naming conventions](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions) • [Parameter type naming conventions](#BKMK_Parameter_type_naming_conventions) • [Recursive rules](#BKMK_Recursive_rules)  
+- [Shim type and stub type naming conventions](#BKMK_Shim_type_and_stub_type_naming_conventions) • [Shim delegate property or stub delegate field naming conventions](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions) • [Parameter type naming conventions](#BKMK_Parameter_type_naming_conventions) • [Recursive rules](#BKMK_Recursive_rules)  
   
- [External resources](#BKMK_External_resources)  
+  [External resources](#BKMK_External_resources)  
   
--   [Guidance](#BKMK_Guidance)  
+- [Guidance](#BKMK_Guidance)  
   
 ##  <a name="BKMK_Code_generation_and_compilation"></a> Code generation and compilation  
   
@@ -121,21 +121,21 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  If the shimmed assembly is strongly named and you want access internal types of the assembly:  
   
--   Both your test assembly and the Fakes assembly must be strongly named.  
+- Both your test assembly and the Fakes assembly must be strongly named.  
   
--   You must add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how our example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:  
+- You must add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how our example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:  
   
-    ```csharp  
-    // FileSystem\AssemblyInfo.cs  
-    [assembly: InternalsVisibleTo("FileSystem.Fakes",  
-        PublicKey=<Fakes_assembly_public_key>)]  
-    [assembly: InternalsVisibleTo("FileSystem.Tests",  
-        PublicKey=<Test_assembly_public_key>)]  
-    ```  
+  ```csharp  
+  // FileSystem\AssemblyInfo.cs  
+  [assembly: InternalsVisibleTo("FileSystem.Fakes",  
+      PublicKey=<Fakes_assembly_public_key>)]  
+  [assembly: InternalsVisibleTo("FileSystem.Tests",  
+      PublicKey=<Test_assembly_public_key>)]  
+  ```  
   
- If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](http://msdn.microsoft.com/library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9).  
+  If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](http://msdn.microsoft.com/library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9).  
   
- The Fakes framework uses the same key to sign all generated assemblies, so you can use this snippet as a starting point to add the **InternalsVisibleTo** attribute for the fakes assembly to your shimmed assembly code.  
+  The Fakes framework uses the same key to sign all generated assemblies, so you can use this snippet as a starting point to add the **InternalsVisibleTo** attribute for the fakes assembly to your shimmed assembly code.  
   
 ```csharp  
 [assembly: InternalsVisibleTo("FileSystem.Fakes, PublicKey=0024000004800000940000000602000000240000525341310004000001000100e92decb949446f688ab9f6973436c535bf50acd1fd580495aae3f875aa4e4f663ca77908c63b7f0996977cb98fcfdb35e05aa2c842002703cad835473caac5ef14107e3a7fae01120a96558785f48319f66daabc862872b2c53f5ac11fa335c0165e202b4c011334c7bc8f4c4e570cf255190f4e3e2cbc9137ca57cb687947bc")]  
@@ -205,38 +205,38 @@ attribute of the Assembly element in the .fakes:
 ###  <a name="BKMK_Shim_type_and_stub_type_naming_conventions"></a> Shim type and stub type naming conventions  
  **Namespaces**  
   
--   .Fakes suffix is added to the namespace.  
+- .Fakes suffix is added to the namespace.  
   
-     For example, `System.Fakes` namespace contains the shim types of System namespace.  
+   For example, `System.Fakes` namespace contains the shim types of System namespace.  
   
--   Global.Fakes contains the shim type of the empty namespace.  
+- Global.Fakes contains the shim type of the empty namespace.  
   
- **Type names**  
+  **Type names**  
   
--   Shim prefix is added to the type name to build the shim type name.  
+- Shim prefix is added to the type name to build the shim type name.  
   
-     For example, ShimExample is the shim type of the Example type.  
+   For example, ShimExample is the shim type of the Example type.  
   
--   Stub prefix is added to the type name to build the stub type name.  
+- Stub prefix is added to the type name to build the stub type name.  
   
-     For example, StubIExample is the stub type of the IExample type.  
+   For example, StubIExample is the stub type of the IExample type.  
   
- **Type Arguments and Nested Type Structures**  
+  **Type Arguments and Nested Type Structures**  
   
--   Generic type arguments are copied.  
+- Generic type arguments are copied.  
   
--   Nested type structure is copied for shim types.  
+- Nested type structure is copied for shim types.  
   
 ###  <a name="BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions"></a> Shim delegate property or stub delegate field naming conventions  
  **Basic rules** for field naming, starting from an empty name:  
   
--   The method name is appended.  
+- The method name is appended.  
   
--   If the method name is an explicit interface implementation, the dots are removed.  
+- If the method name is an explicit interface implementation, the dots are removed.  
   
--   If the method is generic, `Of`*n* is appended where *n* is the number of generic method arguments.  
+- If the method is generic, `Of`*n* is appended where *n* is the number of generic method arguments.  
   
- **Special method names** such as property getter or setters are treated as described in the following table.  
+  **Special method names** such as property getter or setters are treated as described in the following table.  
   
 |If method is…|Example|Method name appended|  
 |-------------------|-------------|--------------------------|  

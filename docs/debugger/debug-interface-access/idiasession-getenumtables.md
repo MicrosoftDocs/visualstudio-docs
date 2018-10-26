@@ -22,7 +22,7 @@ Retrieves an enumerator for all tables contained in the symbol store.
   
 ```C++  
 HRESULT getEnumTables (   
-   IDiaEnumTables** ppEnumTables  
+   IDiaEnumTables** ppEnumTables  
 );  
 ```  
   

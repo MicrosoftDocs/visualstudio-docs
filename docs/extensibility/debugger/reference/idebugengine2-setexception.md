@@ -23,13 +23,13 @@ Specifies how the debug engine (DE) should handle a given exception.
   
 ```cpp  
 HRESULT SetException(   
-   EXCEPTION_INFO* pException  
+   EXCEPTION_INFO* pException  
 );  
 ```  
   
 ```csharp  
 int SetException(   
-   EXCEPTION_INFO[] pException  
+   EXCEPTION_INFO[] pException  
 );  
 ```  
   

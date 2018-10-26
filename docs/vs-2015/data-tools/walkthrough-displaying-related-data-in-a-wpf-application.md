@@ -30,28 +30,28 @@ In this walkthrough, you will create a WPF application that displays data from d
   
  This walkthrough illustrates the following tasks:  
   
--   Creating a WPF application and an Entity Data Model that is generated from data in the AdventureWorksLT sample database.  
+- Creating a WPF application and an Entity Data Model that is generated from data in the AdventureWorksLT sample database.  
   
--   Creating a set of data-bound controls that display overview information for a set of orders. You create the controls by dragging a parent entity from the **Data Sources** window to **the WPF Designer**.  
+- Creating a set of data-bound controls that display overview information for a set of orders. You create the controls by dragging a parent entity from the **Data Sources** window to **the WPF Designer**.  
   
--   Creating a <xref:System.Windows.Controls.DataGrid> control that displays related details for each selected order. You create the controls by dragging a child entity from the **Data Sources** window to a window in **the WPF designer**.  
+- Creating a <xref:System.Windows.Controls.DataGrid> control that displays related details for each selected order. You create the controls by dragging a child entity from the **Data Sources** window to a window in **the WPF designer**.  
   
-     [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
+   [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
--   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).  
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).  
   
- Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
+  Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
--   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
+- Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
   
--   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+- Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
--   WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
+- WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
   
 ## Creating the Project  
  Create a new WPF project to display the order records.  
@@ -79,80 +79,80 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 #### To create an Entity Data Model  
   
-1.  On the **Data** menu, click **Add New Data Source** to open the **Data Source Configuration Wizard**.  
+1. On the **Data** menu, click **Add New Data Source** to open the **Data Source Configuration Wizard**.  
   
-2.  On the **Choose a Data Source Type** page, click **Database**, and then click **Next**.  
+2. On the **Choose a Data Source Type** page, click **Database**, and then click **Next**.  
   
-3.  On the **Choose a Database Model** page, click **Entity Data Model**, and then click **Next**.  
+3. On the **Choose a Database Model** page, click **Entity Data Model**, and then click **Next**.  
   
-4.  On the **Choose Model Contents** page, click **Generate from database**, and then click **Next**.  
+4. On the **Choose Model Contents** page, click **Generate from database**, and then click **Next**.  
   
-5.  On the **Choose Your Data Connection** page, do one of the following:  
+5. On the **Choose Your Data Connection** page, do one of the following:  
   
-    -   If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it.  
+   - If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it.  
   
-         -or-  
+      -or-  
   
-    -   Click **New Connection** and create a connection to the AdventureWorksLT database.  
+   - Click **New Connection** and create a connection to the AdventureWorksLT database.  
   
      Make sure that the **Save entity connection settings in App.Config as** option is selected, and then click **Next**.  
   
-6.  On the **Choose Your Database Objects** page, expand **Tables**, and then select the following tables:  
+6. On the **Choose Your Database Objects** page, expand **Tables**, and then select the following tables:  
   
-    -   **SalesOrderDetail**  
+   -   **SalesOrderDetail**  
   
-    -   **SalesOrderHeader**  
+   -   **SalesOrderHeader**  
   
-7.  Click **Finish**.  
+7. Click **Finish**.  
   
-8.  Build the project.  
+8. Build the project.  
   
 ## Creating Data-Bound Controls that Display the Orders  
  Create controls that display order records by dragging the `SalesOrderHeaders` entity from the **Data Sources** window to the WPF designer.  
   
 #### To create data-bound controls that display the order records  
   
-1.  In **Solution Explorer**, double-click MainWindow.xaml.  
+1. In **Solution Explorer**, double-click MainWindow.xaml.  
   
-     The window opens in the WPF designer.  
+    The window opens in the WPF designer.  
   
-2.  Edit the XAML so the **Height** and **Width** properties are set to 800  
+2. Edit the XAML so the **Height** and **Width** properties are set to 800  
   
-3.  In the **Data Sources** window, click the drop-down menu for the **SalesOrderHeaders** node and select **Details**.  
+3. In the **Data Sources** window, click the drop-down menu for the **SalesOrderHeaders** node and select **Details**.  
   
-4.  Expand the **SalesOrderHeaders** node.  
+4. Expand the **SalesOrderHeaders** node.  
   
-5.  Click the drop-down menu next to **SalesOrderID** and select **ComboBox**.  
+5. Click the drop-down menu next to **SalesOrderID** and select **ComboBox**.  
   
-6.  For each of the following child nodes of the **SalesOrderHeaders** node, click the drop-down menu next the node and select **None**:  
+6. For each of the following child nodes of the **SalesOrderHeaders** node, click the drop-down menu next the node and select **None**:  
   
-    -   **RevisionNumber**  
+   - **RevisionNumber**  
   
-    -   **OnlineOrderFlag**  
+   - **OnlineOrderFlag**  
   
-    -   **ShipToAddressID**  
+   - **ShipToAddressID**  
   
-    -   **BillToAddressID**  
+   - **BillToAddressID**  
   
-    -   **CreditCardApprovalCode**  
+   - **CreditCardApprovalCode**  
   
-    -   **SubTotal**  
+   - **SubTotal**  
   
-    -   **TaxAmt**  
+   - **TaxAmt**  
   
-    -   **Freight**  
+   - **Freight**  
   
-    -   **rowguid**  
+   - **rowguid**  
   
-    -   **ModifiedDate**  
+   - **ModifiedDate**  
   
      This action prevents Visual Studio from creating data-bound controls for these nodes in the next step. For this walkthrough, it is assumed that the end user does not need to see this data.  
   
-7.  From the **Data Sources** window, drag the **SalesOrderHeaders** node to the window in **the WPF Designer**.  
+7. From the **Data Sources** window, drag the **SalesOrderHeaders** node to the window in **the WPF Designer**.  
   
-     Visual Studio generates XAML that creates a set of controls that are bound to data in the **SalesOrderHeaders** entity, and code that loads the data. For more information about the generated XAML and code, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+    Visual Studio generates XAML that creates a set of controls that are bound to data in the **SalesOrderHeaders** entity, and code that loads the data. For more information about the generated XAML and code, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
-8.  In the designer, click the combo box next to the **Sales Order ID** label.  
+8. In the designer, click the combo box next to the **Sales Order ID** label.  
   
 9. In the **Properties** window, select the check box next to the **IsReadOnly** property.  
   
@@ -161,28 +161,28 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 #### To create a DataGrid that displays the order details  
   
-1.  In the **Data Sources** window, locate the **SalesOrderDetails** node that is a child of the **SalesOrderHeaders** node.  
+1. In the **Data Sources** window, locate the **SalesOrderDetails** node that is a child of the **SalesOrderHeaders** node.  
   
-    > [!NOTE]
-    >  There is also a **SalesOrderDetails** node that is a peer of the **SalesOrderHeaders** node. Make sure that you select the child node of the **SalesOrderHeaders** node.  
+   > [!NOTE]
+   >  There is also a **SalesOrderDetails** node that is a peer of the **SalesOrderHeaders** node. Make sure that you select the child node of the **SalesOrderHeaders** node.  
   
-2.  Expand the child **SalesOrderDetails** node.  
+2. Expand the child **SalesOrderDetails** node.  
   
-3.  For each of the following child nodes of the **SalesOrderDetails** node, click the drop-down menu next the node and select **None**:  
+3. For each of the following child nodes of the **SalesOrderDetails** node, click the drop-down menu next the node and select **None**:  
   
-    -   **SalesOrderID**  
+   - **SalesOrderID**  
   
-    -   **SalesOrderDetailID**  
+   - **SalesOrderDetailID**  
   
-    -   **rowguid**  
+   - **rowguid**  
   
-    -   **ModifiedDate**  
+   - **ModifiedDate**  
   
      This action prevents Visual Studio from including this data in the <xref:System.Windows.Controls.DataGrid> control you create in the next step. For this walkthrough, it is assumed that the end user does not need to see this data.  
   
-4.  From the **Data Sources** window, drag the child **SalesOrderDetails** node to the window in **the WPF Designer**.  
+4. From the **Data Sources** window, drag the child **SalesOrderDetails** node to the window in **the WPF Designer**.  
   
-     Visual Studio generates XAML to define a new data-bound <xref:System.Windows.Controls.DataGrid> control, and the control appears in the designer. Visual Studio also updates the generated `GetSalesOrderHeadersQuery` method in the code-behind file to include the data in the **SalesOrderDetails** entity.  
+    Visual Studio generates XAML to define a new data-bound <xref:System.Windows.Controls.DataGrid> control, and the control appears in the designer. Visual Studio also updates the generated `GetSalesOrderHeadersQuery` method in the code-behind file to include the data in the **SalesOrderDetails** entity.  
   
 ## Testing the Application  
  Build and run the application to verify that it displays the order records.  

@@ -22,7 +22,7 @@ Retrieves the symbol's original equipment manufacturer (OEM) ID value.
   
 ```C++  
 HRESULT get_oemId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

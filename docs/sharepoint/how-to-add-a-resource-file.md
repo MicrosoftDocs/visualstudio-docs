@@ -24,20 +24,20 @@ ms.workload:
   
 ### To add a global resource file to a SharePoint solution  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open a SharePoint solution.  
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open a SharePoint solution.  
   
-2.  In **Solution Explorer**, choose a SharePoint project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
+2. In **Solution Explorer**, choose a SharePoint project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
-3.  In the **Add New Item** dialog box, choose the **Global Resources File** template, and then choose the **Add** button.  
+3. In the **Add New Item** dialog box, choose the **Global Resources File** template, and then choose the **Add** button.  
   
-    > [!NOTE]  
-    >  The Global Resources File project item template appears only when a SharePoint project item is selected.  
+   > [!NOTE]  
+   >  The Global Resources File project item template appears only when a SharePoint project item is selected.  
   
-4.  In the **Add Resource** dialog box, choose a culture for the resource file, such as English (United States).  
+4. In the **Add Resource** dialog box, choose a culture for the resource file, such as English (United States).  
   
-     This step adds a global resource file to your solution in the format, Resource_x_**.**_culture_**.**resx, such as, *Resource1.en-US.resx*.  
+    This step adds a global resource file to your solution in the format, Resource_x_**.**<em>culture</em><strong>.</strong>resx, such as, *Resource1.en-US.resx*.  
   
-5.  When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.  
+5. When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.  
   
 ### To add a feature resource file to a SharePoint feature  
   

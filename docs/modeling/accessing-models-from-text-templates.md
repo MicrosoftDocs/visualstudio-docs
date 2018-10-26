@@ -20,11 +20,11 @@ By using text templates, you can create report files, source code files, and oth
 
  To access a model from a text template:
 
--   Set the inherit property of the template directive to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation>. This provides access to the Store.
+- Set the inherit property of the template directive to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation>. This provides access to the Store.
 
--   Specify directive processors for the DSL that you want to access. This loads the assemblies for your DSL so that you can use its domain classes, properties, and relationships in the code of your text template. It also loads the model file that you specify.
+- Specify directive processors for the DSL that you want to access. This loads the assemblies for your DSL so that you can use its domain classes, properties, and relationships in the code of your text template. It also loads the model file that you specify.
 
- A `.tt` file similar to the following example is created in the Debugging project when you create a new Visual Studio solution from the DSL Minimal Language template.
+  A `.tt` file similar to the following example is created in the Debugging project when you create a new Visual Studio solution from the DSL Minimal Language template.
 
 ```
 <#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
@@ -44,22 +44,21 @@ Here is a list of elements in the model:
 <#
   }
 #>
-
 ```
 
  Notice the following points about this template:
 
--   The template can use the domain classes, properties, and relationships that you defined in the DSL Definition.
+- The template can use the domain classes, properties, and relationships that you defined in the DSL Definition.
 
--   The template loads the model file that you specify in the `requires` property.
+- The template loads the model file that you specify in the `requires` property.
 
--   A property in `this` contains the root element. From there, your code can navigate to other elements of the model. The name of the property is usually the same as the root domain class of your DSL. In this example, it is `this.ExampleModel`.
+- A property in `this` contains the root element. From there, your code can navigate to other elements of the model. The name of the property is usually the same as the root domain class of your DSL. In this example, it is `this.ExampleModel`.
 
--   Although the language in which the code fragments are written is C#, you can generate text of any kind. You can alternatively write the code in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] by adding the property `language="VB"` to the `template` directive.
+- Although the language in which the code fragments are written is C#, you can generate text of any kind. You can alternatively write the code in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] by adding the property `language="VB"` to the `template` directive.
 
--   To debug the template, add `debug="true"` to the `template` directive. The template will open in another instance of Visual Studio if an exception occurs. If you want to break into the debugger at a specific point in the code, insert the statement `System.Diagnostics.Debugger.Break();`
+- To debug the template, add `debug="true"` to the `template` directive. The template will open in another instance of Visual Studio if an exception occurs. If you want to break into the debugger at a specific point in the code, insert the statement `System.Diagnostics.Debugger.Break();`
 
-     For more information, see [Debugging a T4 Text Template](../modeling/debugging-a-t4-text-template.md).
+   For more information, see [Debugging a T4 Text Template](../modeling/debugging-a-t4-text-template.md).
 
 ## About the DSL directive processor
  The template can use the domain classes that you defined in your DSL Definition. This is brought about by a directive that usually appears near the start of the template. In the previous example, it is the following.
@@ -81,16 +80,15 @@ Here is a list of elements in the model:
 
 ```
 <#@ MyLanguage processor="MyLanguageDirectiveProcessor" requires="fileName='Sample.myDsl1';validation='open|load|save|menu'" #>
-
 ```
 
  Notice that:
 
-1.  The `filename` and `validation` parameters are separated with ";" and there must be no other separators or spaces.
+1. The `filename` and `validation` parameters are separated with ";" and there must be no other separators or spaces.
 
-2.  The list of validation categories determines which validation methods will be executed. Multiple categories should be separated with "&#124;" and there must be no other separators or spaces.
+2. The list of validation categories determines which validation methods will be executed. Multiple categories should be separated with "&#124;" and there must be no other separators or spaces.
 
- If an error is found, it will be reported in the errors window, and the result file will contain an error message.
+   If an error is found, it will be reported in the errors window, and the result file will contain an error message.
 
 ## <a name="Multiple"></a> Accessing multiple models from a text template
 
@@ -167,7 +165,6 @@ For Each element As ExampleElement In Me.WorkModel.Elements
    // Here you generate more content derived from the element.
   }
 #>
-
 ```
 
  `LoopSplitter.tt` invokes `LoopTemplate.t4`, and then splits the resulting file into its segments. Notice that this template does not have to be a modeling template, because it does not read the model.
@@ -209,5 +206,4 @@ For Each element As ExampleElement In Me.WorkModel.Elements
      File.WriteAllText(Path.Combine(dir, parts[0] + ".txt"), parts[1]);
   }
 #>
-
 ```

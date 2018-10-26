@@ -32,20 +32,20 @@ Entity Framework is an object-relational mapping technology that enables .NET de
   
  These are the specific tools that make up Entity Data Model Tools in Visual Studio 2015:  
   
--   You can use the [!INCLUDE[vstecado](../includes/vstecado-md.md)] **[!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Designer** (**Entity Designer**) to visually create and modify entities, associations, mappings, and inheritance relationships. The **Entity Designer** also generates [!INCLUDE[TLA#tla_cshrp](../includes/tlasharptla-cshrp-md.md)] or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] object-layer code.  
+- You can use the [!INCLUDE[vstecado](../includes/vstecado-md.md)] **[!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Designer** (**Entity Designer**) to visually create and modify entities, associations, mappings, and inheritance relationships. The **Entity Designer** also generates [!INCLUDE[TLA#tla_cshrp](../includes/tlasharptla-cshrp-md.md)] or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] object-layer code.  
   
--   You can use the **[!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Wizard** to generate a conceptual model from an existing database and add database connection information to your application.  
+- You can use the **[!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Wizard** to generate a conceptual model from an existing database and add database connection information to your application.  
   
--   You can use the **Create Database Wizard** to create a conceptual model first and then create a database that supports the model.  
+- You can use the **Create Database Wizard** to create a conceptual model first and then create a database that supports the model.  
   
--   You can use the **Update Model Wizard** to update your conceptual model, storage model, and mappings when changes have been made to the underlying database.  
+- You can use the **Update Model Wizard** to update your conceptual model, storage model, and mappings when changes have been made to the underlying database.  
   
-    > [!NOTE]
-    >  Starting with Visual Studio 2010, [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Tools do not support [!INCLUDE[ss2k](../includes/ss2k-md.md)].  
+  > [!NOTE]
+  >  Starting with Visual Studio 2010, [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Tools do not support [!INCLUDE[ss2k](../includes/ss2k-md.md)].  
   
- The tools generate or modify an .edmx file. This file contains information that describes the conceptual model, the storage model, and the mappings between them. For more information, see  [EDMX](https://msdn.microsoft.com/data/jj650889.aspx).  
+  The tools generate or modify an .edmx file. This file contains information that describes the conceptual model, the storage model, and the mappings between them. For more information, see  [EDMX](https://msdn.microsoft.com/data/jj650889.aspx).  
   
- Entity Framework Power Tools help you build applications that use the Entity Data Model. The tools can generate a conceptual model, validate an existing model, produce source-code files that contain object classes based on the conceptual model, and produce source-code files that contain views that the model generates. For detailed information, see [Pre-Generated Mapping Views](https://msdn.microsoft.com/data/dn469601.aspx).  
+  Entity Framework Power Tools help you build applications that use the Entity Data Model. The tools can generate a conceptual model, validate an existing model, produce source-code files that contain object classes based on the conceptual model, and produce source-code files that contain views that the model generates. For detailed information, see [Pre-Generated Mapping Views](https://msdn.microsoft.com/data/dn469601.aspx).  
   
 ## Related topics  
   

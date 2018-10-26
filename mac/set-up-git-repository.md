@@ -33,7 +33,7 @@ To set up a Git repository, execute the following steps:
 
     ![view and copy address](media/version-control-git3.png)
 
-  You'll need the HTTPS address to point Visual Studio for Mac to this repo.
+   You'll need the HTTPS address to point Visual Studio for Mac to this repo.
 
 
 ## Publishing an existing project
@@ -103,7 +103,7 @@ It's very likely that you'll have to work with a GitHub repo that exists only on
 5. Enter the directory that you want to clone the repo into and press **Checkout**.
 
 > [!NOTE]
-You may experience issues if the repo is over 4GB in size.
+> You may experience issues if the repo is over 4GB in size.
 
 ## Troubleshooting
 

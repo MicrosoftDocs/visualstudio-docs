@@ -61,19 +61,19 @@ manager: "ghogen"
 #### Tool window states  
  Visual Studio tool windows have different states, some of which are user-activated (like the auto-hide feature). Other states, such as auto-visible, allow tool windows to appear in the correct context and hide when not needed. There are five tool window states in total.  
   
--   **Docked/pinned** tool windows can be attached to any of the four sides of the document area. The pushpin icon appears in the tool window title bar. The tool window can be docked horizontally or vertically along the edge of the shell and other tool windows, and can also be tab-linked.  
+- **Docked/pinned** tool windows can be attached to any of the four sides of the document area. The pushpin icon appears in the tool window title bar. The tool window can be docked horizontally or vertically along the edge of the shell and other tool windows, and can also be tab-linked.  
   
--   **Auto-hidden** tool windows are unpinned. The window can slide out of sight, leaving a tab (with the name of tool window and its icon) on the edge of the document area. The tool window slides out when a user hovers over the tab.  
+- **Auto-hidden** tool windows are unpinned. The window can slide out of sight, leaving a tab (with the name of tool window and its icon) on the edge of the document area. The tool window slides out when a user hovers over the tab.  
   
--   **Auto-visible** tool windows automatically appear when another piece of UI, such as an editor, is launched or gains focus.  
+- **Auto-visible** tool windows automatically appear when another piece of UI, such as an editor, is launched or gains focus.  
   
--   **Floating** tool windows hover outside the IDE. This is useful for multi-monitor configurations.  
+- **Floating** tool windows hover outside the IDE. This is useful for multi-monitor configurations.  
   
--   **Tabbed document** tool windows can be docked within the document well. This is useful for large tool windows, such as the Object Browser, that need more real estate than docking to the edges of the frame allows.  
+- **Tabbed document** tool windows can be docked within the document well. This is useful for large tool windows, such as the Object Browser, that need more real estate than docking to the edges of the frame allows.  
   
- ![Tool window states in Visual Studio](../../extensibility/ux-guidelines/media/0702-01-toolwindowstates.png "0702-01_ToolWindowStates")  
+  ![Tool window states in Visual Studio](../../extensibility/ux-guidelines/media/0702-01-toolwindowstates.png "0702-01_ToolWindowStates")  
   
- **Tool window states in Visual Studio**  
+  **Tool window states in Visual Studio**  
   
 #### Single-instance and multi-instance  
  Tool windows are either single-instance or multi-instance. Some single-instance tool windows might be associated with the active document window, while multi-instance tool windows might not. Multi-instance tool windows respond to the Window/New Window command by creating a new instance of the window. The following image illustrates a tool window enabling the New Window command when an instance of the window is active:  
@@ -158,19 +158,19 @@ manager: "ghogen"
 ### User expectations for specific document types  
  There are several different basic types of document editors and each has a set of interactions that are consistent with others of the same type.  
   
--   **Text-based editor:** code editor, log files  
+- **Text-based editor:** code editor, log files  
   
--   **Design surface:** WPF forms designer, Windows forms  
+- **Design surface:** WPF forms designer, Windows forms  
   
--   **Dialog-style editor:** Manifest Designer, project properties  
+- **Dialog-style editor:** Manifest Designer, project properties  
   
--   **Model designer:** workflow designer, codemap, architecture diagram, progression  
+- **Model designer:** workflow designer, codemap, architecture diagram, progression  
   
- There are also several non-editor types that use the document well. While they don't edit documents themselves, they do need to follow standard interactions for document windows.  
+  There are also several non-editor types that use the document well. While they don't edit documents themselves, they do need to follow standard interactions for document windows.  
   
--   **Reports:** IntelliTrace report, Hyper-V report, profiler report  
+- **Reports:** IntelliTrace report, Hyper-V report, profiler report  
   
--   **Dashboard:** Diagnostics Hub  
+- **Dashboard:** Diagnostics Hub  
   
 #### Text-based editors  
   
@@ -245,13 +245,13 @@ manager: "ghogen"
   
  If you have determined that you need a dialog, you have three choices, in order of preference:  
   
-1.  Integrate your features into one of the shared dialogs in Visual Studio.  
+1. Integrate your features into one of the shared dialogs in Visual Studio.  
   
-2.  Create your own dialog using a pattern found in an existing similar dialog.  
+2. Create your own dialog using a pattern found in an existing similar dialog.  
   
-3.  Create a new dialog, following interaction and layout guidelines.  
+3. Create a new dialog, following interaction and layout guidelines.  
   
- This topic describes how to choose the correct dialog pattern within Visual Studio workflows and the common conventions for dialog design.  
+   This topic describes how to choose the correct dialog pattern within Visual Studio workflows and the common conventions for dialog design.  
   
 ### Themes  
  Dialogs in Visual Studio follow one of two basic styles:  
@@ -262,15 +262,15 @@ manager: "ghogen"
 #### Themed  
  Specialty "signature" dialogs may be themed. Themed dialogs have a distinct appearance, which also has some special interaction patterns associated with the style. Theme your dialog only if it meets these requirements:  
   
--   The dialog is a common experience that will be seen and used often or by many users (for example, the **New Project** dialog.  
+- The dialog is a common experience that will be seen and used often or by many users (for example, the **New Project** dialog.  
   
--   The dialog contains prominent product brand elements (for example, the **Account Settings** dialog).  
+- The dialog contains prominent product brand elements (for example, the **Account Settings** dialog).  
   
--   The dialog appears as an integral part of a larger flow that includes other themed dialogs (for example, the **Add Connected Service** dialog).  
+- The dialog appears as an integral part of a larger flow that includes other themed dialogs (for example, the **Add Connected Service** dialog).  
   
--   The dialog is an important part of an experience that plays a strategic role in promoting or differentiating a product version.  
+- The dialog is an important part of an experience that plays a strategic role in promoting or differentiating a product version.  
   
- When creating a themed dialog, use the appropriate environment colors and follow the correct layout and interaction patterns. (See [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md))  
+  When creating a themed dialog, use the appropriate environment colors and follow the correct layout and interaction patterns. (See [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md))  
   
 ### Dialog design  
  Well-designed dialogs take the following elements into consideration:  
@@ -354,17 +354,17 @@ manager: "ghogen"
   
 #### Title bars  
   
--   The text in the title bar must reflect the name of the command that launched it.  
+- The text in the title bar must reflect the name of the command that launched it.  
   
--   No icon should be used in dialog title bars. In cases where the system requires one, use the Visual Studio logo.  
+- No icon should be used in dialog title bars. In cases where the system requires one, use the Visual Studio logo.  
   
--   Dialogs should not have minimize or maximize buttons.  
+- Dialogs should not have minimize or maximize buttons.  
   
--   Help buttons in the title bar have been deprecated. Do not add them to new dialogs. When they do exist, they should launch a Help topic that is conceptually relevant to the task.  
+- Help buttons in the title bar have been deprecated. Do not add them to new dialogs. When they do exist, they should launch a Help topic that is conceptually relevant to the task.  
   
- ![Title bar specifications for Visual Studio](../../extensibility/ux-guidelines/media/0704-03-titlebarspecs.png "0704-03_TitleBarSpecs")  
+  ![Title bar specifications for Visual Studio](../../extensibility/ux-guidelines/media/0704-03-titlebarspecs.png "0704-03_TitleBarSpecs")  
   
- **Guideline specifications for title bars in Visual Studio dialogs.**  
+  **Guideline specifications for title bars in Visual Studio dialogs.**  
   
 #### Control buttons  
  In general, **OK**/**Cancel**/**Help** buttons should be arranged horizontally in the lower right corner of the dialog. The alternate vertical stack is permitted if a dialog has several other buttons at the bottom of the dialog that would present visual confusion with the control buttons.  
@@ -375,11 +375,11 @@ manager: "ghogen"
   
  The dialog must include a default control button. To determine the best command to use as the default, choose from the following options (listed in order of precedence):  
   
--   Choose the safest and most secure command as the default. This means choosing the command most likely to prevent data loss and avoid unintended system access.  
+- Choose the safest and most secure command as the default. This means choosing the command most likely to prevent data loss and avoid unintended system access.  
   
--   If data loss and security aren't factors, then choose the default command based on convenience. Including the most likely command as the default will improve the user’s workflow when the dialog supports frequent or repetitive tasks.  
+- If data loss and security aren't factors, then choose the default command based on convenience. Including the most likely command as the default will improve the user’s workflow when the dialog supports frequent or repetitive tasks.  
   
- Avoid choosing a permanently destructive action for the default command. If such a command is present, choose a safer command as the default instead.  
+  Avoid choosing a permanently destructive action for the default command. If such a command is present, choose a safer command as the default instead.  
   
 #### Access keys  
  Do not use access keys for **OK**/**Cancel**/**Help** buttons. These buttons are mapped to shortcut keys by default:  
@@ -431,54 +431,54 @@ manager: "ghogen"
   
  Projects should always:  
   
--   Support the ability to add project folders to organize project contents  
+- Support the ability to add project folders to organize project contents  
   
--   Maintain a consistent model for project persistence  
+- Maintain a consistent model for project persistence  
   
- Projects should also maintain consistent interaction models for:  
+  Projects should also maintain consistent interaction models for:  
   
--   Removing project items  
+- Removing project items  
   
--   Saving documents  
+- Saving documents  
   
--   Project property editing  
+- Project property editing  
   
--   Editing the project in an alternate view  
+- Editing the project in an alternate view  
   
--   Drag-and-drop operations  
+- Drag-and-drop operations  
   
 ### Drag-and-drop interaction model  
  Projects typically classify themselves as reference-based (able to persist only references to project items in storage), directory-based (able to persist only project items physically stored within a project's hierarchy), or mixed (able to persist references or physical items). The IDE accommodates all three types of projects simultaneously within the **Solution Explorer**.  
   
  From a drag-and-drop perspective, the following characteristics should apply to each type of project within the **Solution Explorer**:  
   
--   **Reference-based project:** The key point is that the project is dragging around a reference to an item in storage. When a reference-based project acts as a source for a move operation, it should only remove the reference to the item from the project. The item should not actually be deleted from the hard drive. When a reference-based project acts as a target for a move (or copy) operation, it should add a reference to the original source item without making a private copy of the item.  
+- **Reference-based project:** The key point is that the project is dragging around a reference to an item in storage. When a reference-based project acts as a source for a move operation, it should only remove the reference to the item from the project. The item should not actually be deleted from the hard drive. When a reference-based project acts as a target for a move (or copy) operation, it should add a reference to the original source item without making a private copy of the item.  
   
--   **Directory-based project:** From a drag-and-drop point of view, the project is dragging around the physical item rather than a reference. When a directory-based project acts as a source for a move operation, it should end up deleting the physical item from the hard drive as well as removing it from the project. When a directory-based project acts as a target for a move (or copy) operation, it should make a copy of the source item in its target location.  
+- **Directory-based project:** From a drag-and-drop point of view, the project is dragging around the physical item rather than a reference. When a directory-based project acts as a source for a move operation, it should end up deleting the physical item from the hard drive as well as removing it from the project. When a directory-based project acts as a target for a move (or copy) operation, it should make a copy of the source item in its target location.  
   
--   **Mixed-target project:** From a drag-and-drop point of view, the behavior of this type of project is based on the nature of the item being dragged (either a reference to an item in storage or the item itself). The correct behavior for references and physical items are described above.  
+- **Mixed-target project:** From a drag-and-drop point of view, the behavior of this type of project is based on the nature of the item being dragged (either a reference to an item in storage or the item itself). The correct behavior for references and physical items are described above.  
   
- If there were only one type of project in the **Solution Explorer**, then drag-and-drop operations would be straightforward. Because each project system has the ability to define its own drag-and-drop behavior, certain guidelines (based on the Windows Explorer drag-and-drop behavior) should be followed to ensure a predictable user experience:  
+  If there were only one type of project in the **Solution Explorer**, then drag-and-drop operations would be straightforward. Because each project system has the ability to define its own drag-and-drop behavior, certain guidelines (based on the Windows Explorer drag-and-drop behavior) should be followed to ensure a predictable user experience:  
   
--   An unmodified drag operation in the **Solution Explorer** (when neither Ctrl nor Shift keys are held down) should result in a move operation.  
+- An unmodified drag operation in the **Solution Explorer** (when neither Ctrl nor Shift keys are held down) should result in a move operation.  
   
--   Shift-drag operation should also result in a move operation.  
+- Shift-drag operation should also result in a move operation.  
   
--   Ctrl-drag operation should result in a copy operation.  
+- Ctrl-drag operation should result in a copy operation.  
   
--   Reference-based and mixed project systems support the notion of adding a link (or reference) to the source item. When these projects are the target of a drag-and-drop operation (when **Ctrl + Shift** is held down), it should result in a reference to the item being added to the project  
+- Reference-based and mixed project systems support the notion of adding a link (or reference) to the source item. When these projects are the target of a drag-and-drop operation (when **Ctrl + Shift** is held down), it should result in a reference to the item being added to the project  
   
- Not all drag-and-drop operations are sensible across combinations of reference-based, directory-based, and mixed projects. In particular, it is problematic to pretend to allow a move operation between a directory-based source project and reference-based target project because the source directory-based project will have to delete the source item upon completion of the move. The target reference-based project would then end up with a reference to a deleted item.  
+  Not all drag-and-drop operations are sensible across combinations of reference-based, directory-based, and mixed projects. In particular, it is problematic to pretend to allow a move operation between a directory-based source project and reference-based target project because the source directory-based project will have to delete the source item upon completion of the move. The target reference-based project would then end up with a reference to a deleted item.  
   
- It is also misleading to pretend to allow a copy operation between these types of projects because the target reference-based project should not make an independent copy of the source item. Similarly, Ctrl + Shift dragging to a directory-based target project should not be allowed because a directory-based project is unable to persist references. In cases where the drag-and-drop operation is not supported, the IDE should disallow the drop and show the user the no-drop cursor (shown in the pointer table below).  
+  It is also misleading to pretend to allow a copy operation between these types of projects because the target reference-based project should not make an independent copy of the source item. Similarly, Ctrl + Shift dragging to a directory-based target project should not be allowed because a directory-based project is unable to persist references. In cases where the drag-and-drop operation is not supported, the IDE should disallow the drop and show the user the no-drop cursor (shown in the pointer table below).  
   
- To properly implement drag-and-drop behavior, the source project of the drag needs to communicate its nature (for example, is it reference- or directory-based?) to the target project. This information is indicated by the clipboard format that is offered by the source. As the source of a drag (or clipboard copy operation) a project should offer either **CF_VSREFPROJECTITEM**S or **CF_VSSTGPROJECTITEMS** respectively, depending on whether the project is reference-based or directory-based. Both of these formats have the same data content, which is similar to the Windows **CF_HDROP** format except that lists of strings, instead of being filenames, are a double-**NULL** terminated list of **Projref** strings (as returned from **IVsSolution::GetProjrefOfItem** or **::GetProjrefOfProject** as appropriate).  
+  To properly implement drag-and-drop behavior, the source project of the drag needs to communicate its nature (for example, is it reference- or directory-based?) to the target project. This information is indicated by the clipboard format that is offered by the source. As the source of a drag (or clipboard copy operation) a project should offer either **CF_VSREFPROJECTITEM**S or **CF_VSSTGPROJECTITEMS** respectively, depending on whether the project is reference-based or directory-based. Both of these formats have the same data content, which is similar to the Windows **CF_HDROP** format except that lists of strings, instead of being filenames, are a double-**NULL** terminated list of **Projref** strings (as returned from **IVsSolution::GetProjrefOfItem** or **::GetProjrefOfProject** as appropriate).  
   
- As the target of a drop (or clipboard paste operation), a project should accept both **CF_VSREFPROJECTITEMS** and **CF_VSSTGPROJECTITEMS**, though the exact handling of the drag-and-drop operation varies depending on the nature of the target project and the source project. The source project declares its nature by whether it offers **CF_VSREFPROJECTITEMS** or **CF_VSSTGPROJECTITEMS**. The target of the drop understands its own nature and thus has enough information to make decisions as to whether a move, copy, or link should be performed. The user also modifies which drag-and-drop operation should be performed by pressing the Ctrl, Shift, or both Ctrl and Shift keys. It is important for the drop target to properly indicate which operation will be performed in advance in its **DragEnter** and **DragOver** methods. The **Solution Explorer** automatically knows whether the source project and the target project are the same project.  
+  As the target of a drop (or clipboard paste operation), a project should accept both **CF_VSREFPROJECTITEMS** and **CF_VSSTGPROJECTITEMS**, though the exact handling of the drag-and-drop operation varies depending on the nature of the target project and the source project. The source project declares its nature by whether it offers **CF_VSREFPROJECTITEMS** or **CF_VSSTGPROJECTITEMS**. The target of the drop understands its own nature and thus has enough information to make decisions as to whether a move, copy, or link should be performed. The user also modifies which drag-and-drop operation should be performed by pressing the Ctrl, Shift, or both Ctrl and Shift keys. It is important for the drop target to properly indicate which operation will be performed in advance in its **DragEnter** and **DragOver** methods. The **Solution Explorer** automatically knows whether the source project and the target project are the same project.  
   
- Dragging project items across instances of Visual Studio (for example, from one instance of devenv.exe to another) is specifically not supported. The **Solution Explorer** also directly disables this.  
+  Dragging project items across instances of Visual Studio (for example, from one instance of devenv.exe to another) is specifically not supported. The **Solution Explorer** also directly disables this.  
   
- The user should always be able to determine the effect of a drag-and-drop operation by selecting an item, dragging it to the target location, and observing which of the following mouse pointers appears before the item is dropped:  
+  The user should always be able to determine the effect of a drag-and-drop operation by selecting an item, dragging it to the target location, and observing which of the following mouse pointers appears before the item is dropped:  
   
 |Mouse pointer|Command|Description|  
 |-------------------|-------------|-----------------|  
@@ -577,33 +577,33 @@ manager: "ghogen"
   
  These details should be taken into consideration when implementing dragging in the **Solution Explorer**:  
   
--   Design for multiple selection scenarios.  
+- Design for multiple selection scenarios.  
   
--   File names (full path) must be unique across the target project or the drop should not be allowed.  
+- File names (full path) must be unique across the target project or the drop should not be allowed.  
   
--   Folder names must be unique (case-insensitive) at the level they are being dropped.  
+- Folder names must be unique (case-insensitive) at the level they are being dropped.  
   
--   There are behavior differences between files that are open or closed at time of drag (not mentioned in scenarios above).  
+- There are behavior differences between files that are open or closed at time of drag (not mentioned in scenarios above).  
   
--   Top-level files behave slightly differently than files in folders.  
+- Top-level files behave slightly differently than files in folders.  
   
- Another issue to be aware of is how to handle move operations on items that have open designers or editors. The expected behavior is as follows (this applies to all project types):  
+  Another issue to be aware of is how to handle move operations on items that have open designers or editors. The expected behavior is as follows (this applies to all project types):  
   
-1.  If the open editor/designer does not have any unsaved changes, then the editor/designer window should be silently closed.  
+1. If the open editor/designer does not have any unsaved changes, then the editor/designer window should be silently closed.  
   
-2.  If the open editor/designer does have unsaved changes, then the source of the drag should wait for the drop to occur and then ask the user to save the uncommitted changes in the open documents before closing the window with a prompt similar to the following:  
+2. If the open editor/designer does have unsaved changes, then the source of the drag should wait for the drop to occur and then ask the user to save the uncommitted changes in the open documents before closing the window with a prompt similar to the following:  
   
-    ```  
-    ==========================================================   
-         One or more open documents have unsaved changes.  
-    Do you want to save uncommitted changes before proceeding?   
-                      [Yes]  [No]  [Cancel]   
-    ==========================================================  
-    ```  
+   ```  
+   ==========================================================   
+        One or more open documents have unsaved changes.  
+   Do you want to save uncommitted changes before proceeding?   
+                     [Yes]  [No]  [Cancel]   
+   ==========================================================  
+   ```  
   
- This gives the user the opportunity to save work in progress before the target makes its copies. A new method **IVsHierarchyDropDataSource2::OnBeforeDropNotify** has been added to enable this handling.  
+   This gives the user the opportunity to save work in progress before the target makes its copies. A new method **IVsHierarchyDropDataSource2::OnBeforeDropNotify** has been added to enable this handling.  
   
- The target will then copy the state of the item as it is in storage (not including the unsaved changes in the editor if the user chose **No**). After the target has completed its copying (in **IVsHierarchyDropDataSource::Drop**), the source is given the opportunity to complete the delete portion of the move operation (in **IVsHierarchyDropDataSource::OnDropNotify**).  
+   The target will then copy the state of the item as it is in storage (not including the unsaved changes in the editor if the user chose **No**). After the target has completed its copying (in **IVsHierarchyDropDataSource::Drop**), the source is given the opportunity to complete the delete portion of the move operation (in **IVsHierarchyDropDataSource::OnDropNotify**).  
   
- Any editors with unsaved changes should be left open. For those documents with unsaved changes, this means that the copy portion of the move operation will be performed but the delete portion will be aborted. In a multiple selection scenario when the user chooses **No**, those documents with unsaved changes should not be closed or removed, but those without unsaved changes should be closed and removed.
+   Any editors with unsaved changes should be left open. For those documents with unsaved changes, this means that the copy portion of the move operation will be performed but the delete portion will be aborted. In a multiple selection scenario when the user chooses **No**, those documents with unsaved changes should not be closed or removed, but those without unsaved changes should be closed and removed.
 

@@ -31,13 +31,13 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Defining a class that can be exposed to other Office solutions.  
+- Defining a class that can be exposed to other Office solutions.  
   
--   Exposing the class to other Office solutions.  
+- Exposing the class to other Office solutions.  
   
--   Calling a method of the class from VBA code.  
+- Calling a method of the class from VBA code.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  

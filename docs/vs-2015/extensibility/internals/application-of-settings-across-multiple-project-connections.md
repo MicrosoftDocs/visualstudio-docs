@@ -29,11 +29,11 @@ A source control plug-in built using the Source Control Plug-in API 1.2, can use
 ## New Functions  
  The following new functions support the batch operation:  
   
--   [SccBeginBatch](../../extensibility/sccbeginbatch-function.md)  
+- [SccBeginBatch](../../extensibility/sccbeginbatch-function.md)  
   
--   [SccEndBatch](../../extensibility/sccendbatch-function.md)  
+- [SccEndBatch](../../extensibility/sccendbatch-function.md)  
   
- The `SCCBeginBatch` function starts a group of source control operations. `SccEndBatch` closes the group. The groups may not be nested.  
+  The `SCCBeginBatch` function starts a group of source control operations. `SccEndBatch` closes the group. The groups may not be nested.  
   
 ## See Also  
  [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

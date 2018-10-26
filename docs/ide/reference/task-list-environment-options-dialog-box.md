@@ -6,7 +6,6 @@ ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Task_List"
-  - "VS.ToolsOptionsPag.Environment.Task_List"
   - "VS.ToolsOptionsPages.Environment.TaskList"
   - "VS.Environment.Task List"
 helpviewer_keywords:

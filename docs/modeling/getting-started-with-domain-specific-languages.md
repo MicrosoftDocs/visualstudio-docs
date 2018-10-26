@@ -37,11 +37,12 @@ The rest of this overview is a walkthrough that introduces the basic operations 
 
 To define a DSL, you must have installed the following components:
 
-|||
+
+| | |
 |-|-|
-|Visual Studio|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|
-|[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|
-|Modeling SDK for Visual Studio||
+| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579) |
+| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580) |
+| Modeling SDK for Visual Studio | |
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
@@ -137,7 +138,7 @@ Your experimental Visual Studio will resemble the following example:
 
 ### The Content of a Model
 
-The content of a file that is an instance of a DSL is called a *model*. The model contains *model**elements* and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.
+The content of a file that is an instance of a DSL is called a *model*. The model contains *model*<em>elements</em> and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.
 
 The DSL definition can specify how the model appears on a diagram. You can choose from a variety of styles of shapes and connectors. You can specify that some shapes appear inside other shapes.
 
@@ -240,39 +241,39 @@ Rename the existing domain classes and relationships. For example, starting from
 
 ##### To add properties and display them
 
-1.  Add the properties.
+1. Add the properties.
 
-    1.  In the DSL Definition diagram, right-click the **Person** domain class, point to **Add**, and then click **Domain Property**.
+   1.  In the DSL Definition diagram, right-click the **Person** domain class, point to **Add**, and then click **Domain Property**.
 
-    2.  Type a list of new property names, such as **Birth** and **Death**. Press **Enter** after each one.
+   2.  Type a list of new property names, such as **Birth** and **Death**. Press **Enter** after each one.
 
-2.  Add decorators that will display the properties in the shape.
+2. Add decorators that will display the properties in the shape.
 
-    1.  Follow the gray line that extends from the Person domain class to the other side of the diagram. This is a diagram element map. It links the domain class to a shape class.
+   1.  Follow the gray line that extends from the Person domain class to the other side of the diagram. This is a diagram element map. It links the domain class to a shape class.
 
-    2.  Right-click this shape class, point to **Add**, and then click **Text Decorator**.
+   2.  Right-click this shape class, point to **Add**, and then click **Text Decorator**.
 
-    3.  Add two decorators with names such as **BirthDecorator** and **DeathDecorator**.
+   3.  Add two decorators with names such as **BirthDecorator** and **DeathDecorator**.
 
-    4.  Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.
+   4.  Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.
 
-         ![Compartment shape definition](../modeling/media/familyt_compartment.png)
+        ![Compartment shape definition](../modeling/media/familyt_compartment.png)
 
-3.  Map the decorators to the properties.
+3. Map the decorators to the properties.
 
-    1.  Open the DSL Details window. It is usually in a tab next to the Output window. If you cannot see it, on the **View** menu, point to **Other Windows**, and then click **DSL Details**.
+   1.  Open the DSL Details window. It is usually in a tab next to the Output window. If you cannot see it, on the **View** menu, point to **Other Windows**, and then click **DSL Details**.
 
-    2.  On the DSL definition diagram, click the line that connects the **Person** domain class to the shape class.
+   2.  On the DSL definition diagram, click the line that connects the **Person** domain class to the shape class.
 
-    3.  In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display Property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **Birth**.
+   3.  In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display Property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **Birth**.
 
-4.  Save the DSL, click Transform All Templates, and press F5.
+4. Save the DSL, click Transform All Templates, and press F5.
 
-5.  In a sample model diagram, verify that you can now click the positions you chose and type values into them. In addition, when you select a **Person** shape, the Properties window displays the new properties Birth and Death.
+5. In a sample model diagram, verify that you can now click the positions you chose and type values into them. In addition, when you select a **Person** shape, the Properties window displays the new properties Birth and Death.
 
-6.  In a .tt file, you can add code that obtains the properties of each person.
+6. In a .tt file, you can add code that obtains the properties of each person.
 
- ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
+   ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
 
 ### Define New Classes
  You can add domain classes and relationships to a model. For example, you could create a new class to represent towns, and a new relationship to represent that a person lived in a town.

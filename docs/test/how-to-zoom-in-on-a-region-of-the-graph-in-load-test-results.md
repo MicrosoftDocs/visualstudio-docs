@@ -89,15 +89,15 @@ Graph View Zoom Control
 
 ### To zoom to a region of the graph by choosing and dragging
 
-1.  Choose a graph at one end of the zoom area.
+1. Choose a graph at one end of the zoom area.
 
-2.  Drag the mouse pointer to the other end of the zoom area.
+2. Drag the mouse pointer to the other end of the zoom area.
 
-3.  Release the mouse button.
+3. Release the mouse button.
 
-     This magnifies the area that you defined by choosing and dragging.
+    This magnifies the area that you defined by choosing and dragging.
 
- The following procedure describes how to quickly zoom out without having to adjust the ends of the zoom bar.
+   The following procedure describes how to quickly zoom out without having to adjust the ends of the zoom bar.
 
 ### To zoom out
 

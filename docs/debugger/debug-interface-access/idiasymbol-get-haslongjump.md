@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function contains a use of the [long
   
 ```C++  
 HRESULT get_hasLongJump  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

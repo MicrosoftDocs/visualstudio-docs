@@ -22,7 +22,7 @@ Retrieves the number of bytes of code.
   
 ```C++  
 HRESULT get_length (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

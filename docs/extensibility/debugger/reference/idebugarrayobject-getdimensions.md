@@ -23,15 +23,15 @@ Gets the dimensions of the array.
   
 ```cpp  
 HRESULT GetDimensions(   
-   DWORD dwCount,  
-   DWORD dwDimensions[]  
+   DWORD dwCount,  
+   DWORD dwDimensions[]  
 );  
 ```  
   
 ```csharp  
 int GetDimensions(  
-   [In] uint    dwCount,   
-   [Out] uint[] dwDimensions  
+   [In] uint    dwCount,   
+   [Out] uint[] dwDimensions  
 );  
 ```  
   

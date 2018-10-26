@@ -22,11 +22,11 @@ You can customize the appearance and behavior of the properties window in your d
 
  **Description**. The Description of a domain property appears in two places:
 
--   In the bottom of the properties window when the user selects the property. You can use it to explain to the user what the property represents.
+- In the bottom of the properties window when the user selects the property. You can use it to explain to the user what the property represents.
 
--   In the generated program code. If you use the documentation facilities to extract API documentation, it will appear as the description of this property in the API.
+- In the generated program code. If you use the documentation facilities to extract API documentation, it will appear as the description of this property in the API.
 
- **Category**. A category is a heading in the Properties window.
+  **Category**. A category is a heading in the Properties window.
 
 ## Exposing Style Features
  Some of the dynamic features of graphical elements can be represented or *exposed* as domain properties. A feature that has been exposed in this manner can be updated by the user and can more easily be updated by program code.
@@ -61,67 +61,67 @@ You can customize the appearance and behavior of the properties window in your d
 
 ##### To forward a property from another element
 
-1.  Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.
+1. Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.
 
-     The multiplicity of the source role (the role at the **Book** side) should be 0..1 or 1..1, so that each **Book** has one **Author**.
+    The multiplicity of the source role (the role at the **Book** side) should be 0..1 or 1..1, so that each **Book** has one **Author**.
 
-2.  In **DSL Explorer**, right-click the **Book** domain class, and then click **Add New DomainTypeDescriptor**.
+2. In **DSL Explorer**, right-click the **Book** domain class, and then click **Add New DomainTypeDescriptor**.
 
-     A node named **Paths of Custom Property Descriptors** appears under the **Custom Type Descriptor** node.
+    A node named **Paths of Custom Property Descriptors** appears under the **Custom Type Descriptor** node.
 
-3.  Right-click the **Custom Type Descriptor** node, and then click **Add New PropertyPath**.
+3. Right-click the **Custom Type Descriptor** node, and then click **Add New PropertyPath**.
 
-     A new property path appears under the **Paths Of Custom Property Descriptors** node.
+    A new property path appears under the **Paths Of Custom Property Descriptors** node.
 
-4.  Select the new property path, and in the **Properties** window, set **Path to Property** to the path of the appropriate model element.
+4. Select the new property path, and in the **Properties** window, set **Path to Property** to the path of the appropriate model element.
 
-     You can edit the path in a tree view by clicking the down arrow to the right of this property. For more information about domain paths, see [Domain Path Syntax](../modeling/domain-path-syntax.md). When you have edited it, the path should resemble **BookReferencesAuthor.Author/!Author**.
+    You can edit the path in a tree view by clicking the down arrow to the right of this property. For more information about domain paths, see [Domain Path Syntax](../modeling/domain-path-syntax.md). When you have edited it, the path should resemble **BookReferencesAuthor.Author/!Author**.
 
-5.  Set **Property** to the **Name** domain property of **Author**.
+5. Set **Property** to the **Name** domain property of **Author**.
 
-6.  Set **Display Name** to **Author Name**.
+6. Set **Display Name** to **Author Name**.
 
-7.  Transform All Templates, build and run the DSL.
+7. Transform All Templates, build and run the DSL.
 
-8.  In a model diagram, create a book, an author, and link them using the reference relationship. Select the book element, and in the Properties window you should see Author Name in addition to the properties of the book. Change the name of the linked author, or link the book to a different author, and observe that the Author Name of the book changes.
+8. In a model diagram, create a book, an author, and link them using the reference relationship. Select the book element, and in the Properties window you should see Author Name in addition to the properties of the book. Change the name of the linked author, or link the book to a different author, and observe that the Author Name of the book changes.
 
 ## Custom Property Editors
  The property window provides an appropriate default editing experience for the type of each domain property. For example, for an enumerated type, the user sees a drop-down list, and for a numeric property, the user can enter digits. This is only true for the built-in types. If you specify an external type, the user will be able to see the property's values, but not edit it.
 
  However, you can specify the following editors and types:
 
-1.  Another editor that is used with a standard type. For example, you could specify a file path editor for a string property.
+1. Another editor that is used with a standard type. For example, you could specify a file path editor for a string property.
 
-2.  An external type for the domain property, and an editor for it.
+2. An external type for the domain property, and an editor for it.
 
-3.  A .NET editor such as the file path editor, or you can create your own custom property editor.
+3. A .NET editor such as the file path editor, or you can create your own custom property editor.
 
-     A conversion between an external type and an type such as String, which has a default editor.
+    A conversion between an external type and an type such as String, which has a default editor.
 
- In a DSL, an *external type* is any type that is not one of the simple types (such as Boolean or Int32) or String.
+   In a DSL, an *external type* is any type that is not one of the simple types (such as Boolean or Int32) or String.
 
 #### To define a domain property that has an external type
 
-1.  In **Solution Explorer**, add a reference to the assembly (DLL) that contains the external type, in the **Dsl** project.
+1. In **Solution Explorer**, add a reference to the assembly (DLL) that contains the external type, in the **Dsl** project.
 
-     The assembly can be a .NET assembly, or an assembly supplied by you.
+    The assembly can be a .NET assembly, or an assembly supplied by you.
 
-2.  Add the type to the **Domain Types** list, unless you have already done so.
+2. Add the type to the **Domain Types** list, unless you have already done so.
 
-    1.  Open DslDefinition.dsl, and in **DSL Explorer**, right-click the root node, and then click **Add New External Type**.
+   1.  Open DslDefinition.dsl, and in **DSL Explorer**, right-click the root node, and then click **Add New External Type**.
 
-         A new entry appears under the **Domain Types** node.
+        A new entry appears under the **Domain Types** node.
 
-        > [!WARNING]
-        >  The menu item is on the DSL root node, not the **Domain Types** node.
+       > [!WARNING]
+       >  The menu item is on the DSL root node, not the **Domain Types** node.
 
-    2.  Set the name and the namespace of the new type in the Properties window.
+   2.  Set the name and the namespace of the new type in the Properties window.
 
-3.  Add a domain property to a domain class in the usual manner.
+3. Add a domain property to a domain class in the usual manner.
 
-     In the Properties window, select the external type from the drop-down list in the **Type** field.
+    In the Properties window, select the external type from the drop-down list in the **Type** field.
 
- At this stage, users can view the values of the property, but they cannot edit it. The displayed values are obtained from the `ToString()` function. You could write program code that sets the value of the property, for example in a command or rule.
+   At this stage, users can view the values of the property, but they cannot edit it. The displayed values are obtained from the `ToString()` function. You could write program code that sets the value of the property, for example in a command or rule.
 
 ### Setting a Property Editor
  Add a CLR attribute to the domain property, in the following form:
@@ -130,7 +130,6 @@ You can customize the appearance and behavior of the properties window in your d
 [System.ComponentModel.Editor (
    typeof(AnEditor),
    typeof(System.Drawing.Design.UITypeEditor))]
-
 ```
 
  You can set the attribute on a property by using the **Custom Attribute** entry in the Properties window.
@@ -167,11 +166,11 @@ You can customize the appearance and behavior of the properties window in your d
 
  You define an editor by writing a class that is derived from <xref:System.Drawing.Design.UITypeEditor>. Your class must override:
 
--   <xref:System.Drawing.Design.UITypeEditor.EditValue%2A>, to interact with the user and update the property value.
+- <xref:System.Drawing.Design.UITypeEditor.EditValue%2A>, to interact with the user and update the property value.
 
--   <xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A>, to specify whether your editor will open a dialog or provide a drop-down menu.
+- <xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A>, to specify whether your editor will open a dialog or provide a drop-down menu.
 
- You can also provide a graphical representation of the property's value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.
+  You can also provide a graphical representation of the property's value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.
 
 > [!NOTE]
 >  Add the code in a separate code file in the **Dsl** project.
@@ -188,7 +187,6 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
     openFileDialog.Title = "Select a text file";
   }
 }
-
 ```
 
  To use this editor, set the **Custom Attribute** of a domain property to:
@@ -197,7 +195,6 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 [System.ComponentModel.Editor (
    typeof(MyNamespace.TextFileNameEditor)
    , typeof(System.Drawing.Design.UITypeEditor))]
-
 ```
 
  For more information, see <xref:System.Drawing.Design.UITypeEditor>.
@@ -213,7 +210,6 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 ```csharp
 [System.ComponentModel.TypeConverter
 (typeof(MyTypeConverter))]
-
 ```
 
  Define a class that derives from <xref:System.ComponentModel.TypeConverter>. Add the code in a separate file in the **Dsl** project. For example:
@@ -307,7 +303,6 @@ public class MyTypeConverter : System.ComponentModel.TypeConverter
   }
 
 }
-
 ```
 
 ## See Also

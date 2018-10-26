@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1821: Remove empty finalizers
+
 |||
 |-|-|
 |TypeName|RemoveEmptyFinalizers|

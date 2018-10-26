@@ -57,9 +57,9 @@ Contains entries that define the command groups of a VSPackage.
   
 ```  
 <Groups>  
-  <Group guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-    <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
-  </Group>  
+  <Group guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
+    <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
+  </Group>  
 </Groups>  
 ```  
   

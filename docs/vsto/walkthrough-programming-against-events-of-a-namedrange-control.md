@@ -82,15 +82,15 @@ ms.workload:
   
 ### To add text to your worksheet  
   
-1.  In Cell **A1**, type the following text:  
+1. In Cell **A1**, type the following text:  
   
-     **This is an example of a NamedRange control.**  
+    **This is an example of a NamedRange control.**  
   
-2.  In Cell **A3** (to the left of `namedRange2`), type the following text:  
+2. In Cell **A3** (to the left of `namedRange2`), type the following text:  
   
-     **Events:**  
+    **Events:**  
   
- In the following sections, you will write code that inserts text into `namedRange2` and modifies properties of the `namedRange2` control in response to the <xref:Microsoft.Office.Tools.Excel.NamedRange.BeforeDoubleClick>, <xref:Microsoft.Office.Tools.Excel.NamedRange.Change>, and <xref:Microsoft.Office.Tools.Excel.NamedRange.SelectionChange> events of `namedRange1`.  
+   In the following sections, you will write code that inserts text into `namedRange2` and modifies properties of the `namedRange2` control in response to the <xref:Microsoft.Office.Tools.Excel.NamedRange.BeforeDoubleClick>, <xref:Microsoft.Office.Tools.Excel.NamedRange.Change>, and <xref:Microsoft.Office.Tools.Excel.NamedRange.SelectionChange> events of `namedRange1`.  
   
 ## Add code to respond to the BeforeDoubleClick event  
   

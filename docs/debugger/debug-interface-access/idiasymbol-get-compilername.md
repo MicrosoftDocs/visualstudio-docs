@@ -22,7 +22,7 @@ Returns the name of the compiler used to generate the [Compiland](../../debugger
   
 ```C++  
 HRESULT get_compilerName (  
-   BSTR *pName  
+   BSTR *pName  
 );  
 ```  
   

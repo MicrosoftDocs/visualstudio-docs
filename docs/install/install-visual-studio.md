@@ -57,11 +57,11 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
 1. From your **Downloads** folder, double-click the bootstrapper that matches or is similar to one of the following files:
 
-  * **vs_enterprise.exe** for Visual Studio Enterprise
-  * **vs_professional.exe** for Visual Studio Professional
-  * **vs_community.exe** for Visual Studio Community  <br><br>
+   * **vs_enterprise.exe** for Visual Studio Enterprise
+   * **vs_professional.exe** for Visual Studio Professional
+   * **vs_community.exe** for Visual Studio Community  <br><br>
 
-  If you receive a User Account Control notice, click **Yes**.
+   If you receive a User Account Control notice, click **Yes**.
 
 2. We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Click **Continue**.
 
@@ -73,7 +73,7 @@ After the installer is installed, you can use it to customize your installation 
 
 1. Find the workload you want in the **Installing Visual Studio** screen.
 
- ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-community.png)
+   ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-community.png)
 
      For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
@@ -124,15 +124,17 @@ For more information, see the [Change installation locations in Visual Studio](c
 
 ## Step 8 - Start developing
 
-1. After Visual Studio installation is complete, click the **Launch** button to [get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md).
+1. After Visual Studio installation is complete, click the **Launch** button to get started developing with Visual Studio.
 
 2. Click **File**, and then click **New Project**.
 
-3. Select a project type. <br><br>
-   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md),  click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build. <br><br>
-   To [build a C# app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md),  click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
+3. Select a project type.
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)] 
+   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), click **Installed**, expand **Visual C++**, and then select the C++ project type that you want to build.
+
+   To [build a C# app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md), click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

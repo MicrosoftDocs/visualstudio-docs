@@ -50,34 +50,34 @@ You can write your own host that processes text templates. A basic custom host i
   
 #### To use Domain-Specific Language Tools to generate a directive processor that is based on a domain model  
   
-1.  Create a domain-specific language solution that has the following characteristics:  
+1. Create a domain-specific language solution that has the following characteristics:  
   
-    -   Name: DSLMinimalTest  
+   - Name: DSLMinimalTest  
   
-    -   Solution template: Minimal Language  
+   - Solution template: Minimal Language  
   
-    -   File extension: min  
+   - File extension: min  
   
-    -   Company name: Fabrikam  
+   - Company name: Fabrikam  
   
      For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).  
   
-2.  On the **Build** menu, click **Build Solution**.  
+2. On the **Build** menu, click **Build Solution**.  
   
-    > [!IMPORTANT]
-    >  This step generates the directive processor and adds the key for it in the registry.  
+   > [!IMPORTANT]
+   >  This step generates the directive processor and adds the key for it in the registry.  
   
-3.  On the **Debug** menu, click **Start Debugging**.  
+3. On the **Debug** menu, click **Start Debugging**.  
   
-     A second instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens.  
+    A second instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens.  
   
-4.  In the experimental build, in **Solution Explorer**, double-click the file **sample.min**.  
+4. In the experimental build, in **Solution Explorer**, double-click the file **sample.min**.  
   
-     The file opens in the designer. Notice that the model has two elements, ExampleElement1 and ExampleElement2, and a link between them.  
+    The file opens in the designer. Notice that the model has two elements, ExampleElement1 and ExampleElement2, and a link between them.  
   
-5.  Close the second instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+5. Close the second instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-6.  Save the solution, and then close the Domain-Specific Language Designer.  
+6. Save the solution, and then close the Domain-Specific Language Designer.  
   
 ## Connecting a Custom Text Template Host to a Directive Processor  
  After you generate the directive processor, you connect the directive processor and the custom text template host that you created in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md).  

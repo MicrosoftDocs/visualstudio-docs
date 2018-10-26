@@ -94,7 +94,7 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
     When you create a new application, some projects target the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] by default.
 
-- You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
+You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
 
 > [!NOTE]
 > In Visual Studio 2015 or later, a file reference instead of a project reference is created if the target version of the .NET Framework of one project is version 4.5 or later, and the target version of the other project is version 2, 3, 3.5, or 4.0.
@@ -103,9 +103,9 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
 - Move or copy the assembly to one of the following locations:
 
-    - The current project directory. (You can find these assemblies by using the **Browse** tab.)
+   - The current project directory. (You can find these assemblies by using the **Browse** tab.)
 
-    - Other project directories in the same solution. (You can find these assemblies by using the **Projects** tab.)
+   - Other project directories in the same solution. (You can find these assemblies by using the **Projects** tab.)
 
     \- or -
 

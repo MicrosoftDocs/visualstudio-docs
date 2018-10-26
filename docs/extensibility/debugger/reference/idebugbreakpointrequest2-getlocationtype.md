@@ -23,13 +23,13 @@ Gets the breakpoint location type of this breakpoint request.
   
 ```cpp  
 HRESULT GetLocationType(   
-   BP_LOCATION_TYPE* pBPLocationType  
+   BP_LOCATION_TYPE* pBPLocationType  
 );  
 ```  
   
 ```csharp  
 int GetLocationType(   
-   out enum_BP_LOCATION_TYPE pBPLocationType  
+   out enum_BP_LOCATION_TYPE pBPLocationType  
 );  
 ```  
   

@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2232: Mark Windows Forms entry points with STAThread
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|MarkWindowsFormsEntryPointsWithStaThread|

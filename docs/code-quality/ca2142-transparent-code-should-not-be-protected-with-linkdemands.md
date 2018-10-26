@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2142: Transparent code should not be protected with LinkDemands
+
 |||
 |-|-|
 |TypeName|TransparentMethodsShouldNotBeProtectedWithLinkDemands|

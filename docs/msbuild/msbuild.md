@@ -164,19 +164,19 @@ For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-ove
 
 ## See also
 
-|Title|Description|
-|-----------|-----------------|
-|[Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|Shows how to create a basic project file incrementally, by using only a text editor.|
-|[Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)|Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio IDE.|
-|[MSBuild concepts](../msbuild/msbuild-concepts.md)|Presents the four building blocks of MSBuild: properties, items, targets, and tasks.|
-|[Items](../msbuild/msbuild-items.md)|Describes the general concepts behind the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file format and how the pieces fit together.|
-|[MSBuild properties](../msbuild/msbuild-properties.md)|Introduces properties and property collections. Properties are key/value pairs that can be used to configure builds.|
-|[Targets](../msbuild/msbuild-targets.md)|Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line.|
-|[Tasks](../msbuild/msbuild-tasks.md)|Shows how to create a unit of executable code that can be used by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to perform atomic build operations.|
-|[Conditions](../msbuild/msbuild-conditions.md)|Discusses how to use the `Condition` attribute in an MSBuild element.|
-|[Advanced concepts](../msbuild/msbuild-advanced-concepts.md)|Presents batching, performing transforms, multitargeting, and other advanced techniques.|
-|[Logging in MSBuild](../msbuild/logging-in-msbuild.md)|Describes how to log build events, messages, and errors.|
-|[Additional resources](../msbuild/additional-msbuild-resources.md)|Lists community and support resources for more information about MSBuild.|
+| Title | Description |
+| - | - |
+| [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md) | Shows how to create a basic project file incrementally, by using only a text editor. |
+| [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md) | Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio IDE. |
+| [MSBuild concepts](../msbuild/msbuild-concepts.md) | Presents the four building blocks of MSBuild: properties, items, targets, and tasks. |
+| [Items](../msbuild/msbuild-items.md) | Describes the general concepts behind the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file format and how the pieces fit together. |
+| [MSBuild properties](../msbuild/msbuild-properties.md) | Introduces properties and property collections. Properties are key/value pairs that can be used to configure builds. |
+| [Targets](../msbuild/msbuild-targets.md) | Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line. |
+| [Tasks](../msbuild/msbuild-tasks.md) | Shows how to create a unit of executable code that can be used by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to perform atomic build operations. |
+| [Conditions](../msbuild/msbuild-conditions.md) | Discusses how to use the `Condition` attribute in an MSBuild element. |
+| [Advanced concepts](../msbuild/msbuild-advanced-concepts.md) | Presents batching, performing transforms, multitargeting, and other advanced techniques. |
+| [Logging in MSBuild](../msbuild/logging-in-msbuild.md) | Describes how to log build events, messages, and errors. |
+| [Additional resources](../msbuild/additional-msbuild-resources.md) | Lists community and support resources for more information about MSBuild. |
 
 ## Reference
  [MSBuild reference](../msbuild/msbuild-reference.md)

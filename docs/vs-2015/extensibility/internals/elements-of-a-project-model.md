@@ -27,20 +27,20 @@ The interfaces and implementations of all projects in [!INCLUDE[vsprvs](../../in
   
  Other implementation considerations:  
   
--   A single project model can contain more than one project type.  
+- A single project model can contain more than one project type.  
   
--   Project types and the attendant project factories are registered independently with GUIDs.  
+- Project types and the attendant project factories are registered independently with GUIDs.  
   
--   Each project must have a template file or wizard to initialize the new project file when a user creates a new project through the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] UI. For example, the [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] templates initialize what eventually become .vcproj files.  
+- Each project must have a template file or wizard to initialize the new project file when a user creates a new project through the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] UI. For example, the [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] templates initialize what eventually become .vcproj files.  
   
- The following illustration shows the primary interfaces, services, and objects that compose a typical project implementation. You can use the application helper, HierUtil7, to create the underlying objects and other programming boilerplate. For more information about the HierUtil7 application helper, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346).  
+  The following illustration shows the primary interfaces, services, and objects that compose a typical project implementation. You can use the application helper, HierUtil7, to create the underlying objects and other programming boilerplate. For more information about the HierUtil7 application helper, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346).  
   
- ![Visual Studio Project Model graphic](../../extensibility/internals/media/vsprojectmodel.gif "vsProjectModel")  
-Project model  
+  ![Visual Studio Project Model graphic](../../extensibility/internals/media/vsprojectmodel.gif "vsProjectModel")  
+  Project model  
   
- For more information about the interfaces and services listed in the previous diagram, and other optional interfaces not included in the diagram, see [Project Model Core Components](../../extensibility/internals/project-model-core-components.md).  
+  For more information about the interfaces and services listed in the previous diagram, and other optional interfaces not included in the diagram, see [Project Model Core Components](../../extensibility/internals/project-model-core-components.md).  
   
- Projects can support commands and therefore must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to participate in command routing through the command context GUIDs.  
+  Projects can support commands and therefore must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to participate in command routing through the command context GUIDs.  
   
 ## See Also  
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   

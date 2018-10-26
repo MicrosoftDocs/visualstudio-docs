@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the user-defined type (UDT) has been ali
   
 ```C++  
 HRESULT get_isDataAligned(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   
@@ -37,7 +37,7 @@ HRESULT get_isDataAligned(
 >  A return value of `S_FALSE` means that the property is not available for the symbol.  
   
 ## Remarks  
- This property is generally set when the executable is compiled with nondefault data alignment. For example, the Microsoft C++ compiler can change the data alignment with the command-line option, /Zp*#*, where *#* is a byte value.  
+ This property is generally set when the executable is compiled with nondefault data alignment. For example, the Microsoft C++ compiler can change the data alignment with the command-line option, /Zp<em>#</em>, where *#* is a byte value.  
   
 ## Requirements  
   

@@ -27,13 +27,13 @@ Gets the port name.
   
 ```cpp#  
 HRESULT GetPortName(   
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetPortName(   
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

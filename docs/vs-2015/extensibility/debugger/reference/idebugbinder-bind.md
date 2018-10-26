@@ -27,17 +27,17 @@ This method gets the memory context or object that contains the symbol's current
   
 ```cpp#  
 HRESULT Bind(   
-   IDebugObject*  pContainer,  
-   IDebugField*   pField,  
-   IDebugObject** ppObject  
+   IDebugObject*  pContainer,  
+   IDebugField*   pField,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int Bind(  
-   IDebugObject     pContainer,  
-   IDebugField      pField,  
-   out IDebugObject ppObject  
+   IDebugObject     pContainer,  
+   IDebugField      pField,  
+   out IDebugObject ppObject  
 );  
 ```  
   

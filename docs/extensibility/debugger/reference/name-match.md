@@ -23,17 +23,17 @@ Selects the case option for matching names.
   
 ```cpp  
 typedef enum {   
-   nmNone            = 0,  
-   nmCaseSensitive   = 1,  
-   nmCaseInsensitive = 2  
+   nmNone            = 0,  
+   nmCaseSensitive   = 1,  
+   nmCaseInsensitive = 2  
 } NAME_MATCH;  
 ```  
   
 ```csharp  
 public enum NameMatchOptions {   
-   nmNone            = 0,  
-   nmCaseSensitive   = 1,  
-   nmCaseInsensitive = 2  
+   nmNone            = 0,  
+   nmCaseSensitive   = 1,  
+   nmCaseInsensitive = 2  
 }  
 ```  
   

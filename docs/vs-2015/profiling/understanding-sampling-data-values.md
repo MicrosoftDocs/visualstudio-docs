@@ -25,15 +25,15 @@ The *sampling* profiling method of the [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- The profiler analysis determines whether the processor is executing code in the target process. If the processor is not executing code in the target process, the sample is discarded.  
+  The profiler analysis determines whether the processor is executing code in the target process. If the processor is not executing code in the target process, the sample is discarded.  
   
- If the processor is executing the target code, the profiler increments the sample counts for each function on the call stack. At the time that the sample is taken, only one function on the call stack is currently executing code. The other functions on the stack are parents in the hierarchy of function calls that are waiting for their children to return.  
+  If the processor is executing the target code, the profiler increments the sample counts for each function on the call stack. At the time that the sample is taken, only one function on the call stack is currently executing code. The other functions on the stack are parents in the hierarchy of function calls that are waiting for their children to return.  
   
- For the sample event, the profiler increments the *exclusive* sample count of the function that is currently executing its instructions. Because an exclusive sample is also part of the total (*inclusive*) samples of the function, the inclusive sample count of the currently active function is also incremented.  
+  For the sample event, the profiler increments the *exclusive* sample count of the function that is currently executing its instructions. Because an exclusive sample is also part of the total (*inclusive*) samples of the function, the inclusive sample count of the currently active function is also incremented.  
   
- The profiler increments the inclusive sample count of all other functions on the call stack.  
+  The profiler increments the inclusive sample count of all other functions on the call stack.  
   
 ## Inclusive samples  
  The total number of samples that are collected during the execution of the target function.  

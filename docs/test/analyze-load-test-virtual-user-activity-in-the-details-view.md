@@ -48,7 +48,7 @@ ms.technology: vs-ide-test
 ## Tasks
 
 |Tasks|Associated topics|
-|-----------|-----------------------|
+|-|-|
 |**Configure your load test to use the Virtual User Activity Chart:** Before you run a load test that you want to view virtual user activity data on, you must first configure your load tests property settings.|-   [How to: Configure collecting full details to enable the virtual user activity chart](../test/how-to-configure-load-tests-to-collect-full-details.md)|
 |**Run your load test:** After you have created a load test and configured it to enable virtual user activity data collecting, you must run the test until it is complete in order to view the **Virtual User Activity Chart**.||
 |**View the load test results that contain the virtual user activity data:** After your load test has been created, configured, and has completed running, you can view the virtual user activity data by using the **Virtual User Activity Chart**.|-   [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)<br />-   [How to: Analyze what virtual users are doing during a load test](../test/how-to-analyze-virtual-user-activity-during-a-load-test.md)|

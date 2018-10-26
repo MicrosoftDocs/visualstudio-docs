@@ -44,15 +44,15 @@ You can decide to generate code metrics results for either an entire solution or
   
 ### To generate code metrics results for one or more selected projects  
   
-1.  In **Solution Explorer**, select one or more projects.  
+1. In **Solution Explorer**, select one or more projects.  
   
-2.  Click **Analyze**, and then click **Generate Code Metrics for Selected Projects(s)**.  
+2. Click **Analyze**, and then click **Generate Code Metrics for Selected Projects(s)**.  
   
-     \- or -  
+    \- or -  
   
-     Right-click your selections and then click **CalculateCode Metrics**.  
+    Right-click your selections and then click **CalculateCode Metrics**.  
   
- The results are generated and the **Code Metrics Results** window is displayed.  
+   The results are generated and the **Code Metrics Results** window is displayed.  
   
 ### To view the results details  
   

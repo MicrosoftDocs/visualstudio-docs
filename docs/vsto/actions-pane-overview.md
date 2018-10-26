@@ -42,16 +42,16 @@ ms.workload:
 ### Add multiple controls to the actions pane  
  When you add multiple controls to the actions pane, you should group the controls in a user control and then add the user control to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> property. This process includes the following steps:  
 
-1.  Create the user interface (UI) of the actions pane by adding an **Actions Pane Control** or **User Control** item to your project. Both of these items include a custom Windows Forms <xref:System.Windows.Forms.UserControl> class. The **Actions Pane Control** and **User Control** items are equivalent; the only difference is their name.  
+1. Create the user interface (UI) of the actions pane by adding an **Actions Pane Control** or **User Control** item to your project. Both of these items include a custom Windows Forms <xref:System.Windows.Forms.UserControl> class. The **Actions Pane Control** and **User Control** items are equivalent; the only difference is their name.  
 
-2.  Add Windows Forms controls to the <xref:System.Windows.Forms.UserControl> by using the designer, or by writing code.  
+2. Add Windows Forms controls to the <xref:System.Windows.Forms.UserControl> by using the designer, or by writing code.  
 
-    > [!NOTE]  
-    >  You can also add WPF controls to the actions pane by adding a WPF <xref:System.Windows.Controls.UserControl> to the Windows Forms <xref:System.Windows.Forms.UserControl>. For more information, see [Use WPF controls in Office solutions](../vsto/using-wpf-controls-in-office-solutions.md).  
+   > [!NOTE]  
+   >  You can also add WPF controls to the actions pane by adding a WPF <xref:System.Windows.Controls.UserControl> to the Windows Forms <xref:System.Windows.Forms.UserControl>. For more information, see [Use WPF controls in Office solutions](../vsto/using-wpf-controls-in-office-solutions.md).  
 
-3.  Add an instance of the custom user control to the controls that are contained in the `ActionsPane` field of the `ThisWorkbook` (for Excel) or `ThisDocument` (for Word) class in your project.  
+3. Add an instance of the custom user control to the controls that are contained in the `ActionsPane` field of the `ThisWorkbook` (for Excel) or `ThisDocument` (for Word) class in your project.  
 
- For examples that demonstrate this process in more detail, see [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md).  
+   For examples that demonstrate this process in more detail, see [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md).  
 
 ## Hide the actions pane  
  Although the <xref:Microsoft.Office.Tools.ActionsPane> class has a <xref:Microsoft.Office.Tools.ActionsPane.Hide%2A> method and a <xref:Microsoft.Office.Tools.ActionsPane.Visible%2A> property, you cannot remove the actions pane from the user interface by using any members of the <xref:Microsoft.Office.Tools.ActionsPane> class itself. Calling the <xref:Microsoft.Office.Tools.ActionsPane.Hide%2A> method or setting the <xref:Microsoft.Office.Tools.ActionsPane.Visible%2A> property to **false** hides only the controls on the actions pane; it does not hide the task pane.  

@@ -36,7 +36,7 @@ The **TryCatch** designer does not support editing **Catch**. If you want to cha
 The following table shows the <xref:System.Activities.Statements.TryCatch>properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.TryCatch> activity. The default is TryCatch.|
 |<xref:System.Activities.Statements.TryCatch.Try%2A>|False|The activity first executed when the <xref:System.Activities.Statements.TryCatch> executes.|
 |<xref:System.Activities.Statements.TryCatch.Catches%2A>|False|The collection of **Catch** elements to be checked when the <xref:System.Activities.Statements.TryCatch.Try%2A> activity throws an exception.<br /><br /> You need at least add one activity in <xref:System.Activities.Statements.TryCatch.Catches%2A> or an activity in the <xref:System.Activities.Statements.TryCatch.Finally%2A> block.|

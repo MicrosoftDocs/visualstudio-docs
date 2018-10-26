@@ -26,8 +26,8 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
   
 ```cpp#  
 HRESULT findInlineFramesByVA (   
-   IDiaSymbol*       parent,   ULONGLONG         va,  
-   IDiaEnumSymbols** ppResult  
+   IDiaSymbol*       parent,   ULONGLONG         va,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

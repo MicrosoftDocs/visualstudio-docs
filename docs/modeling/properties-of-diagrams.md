@@ -22,7 +22,7 @@ You can set properties that specify how diagrams will appear in the generated de
  The following table lists the properties of diagrams.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Fill Color|The fill color for the diagram.|White|
 |Text Color|The color of the text that is displayed on the diagram.|Black|
 |Access Modifier|The access modifier of the class (public or internal).|Public|

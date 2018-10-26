@@ -23,8 +23,8 @@ This function checks whether the source control plug-in allows multiple checkout
   
 ```cpp  
 SCCRTN SccIsMultiCheckoutEnabled(  
-   LPVOID pContext,  
-   LPBOOL pbMultiCheckout  
+   LPVOID pContext,  
+   LPBOOL pbMultiCheckout  
 );  
 ```  
   

@@ -27,13 +27,13 @@ This structure represents a native address.
   
 ```cpp  
 typedef struct _tagNATIVE_ADDRESS {  
-   DWORD unknown;  
+   DWORD unknown;  
 } NATIVE_ADDRESS;  
 ```  
   
 ```csharp  
 public struct NATIVE_ADDRESS {  
-   public uint unknown;  
+   public uint unknown;  
 }  
 ```  
   

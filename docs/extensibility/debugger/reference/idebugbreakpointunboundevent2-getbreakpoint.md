@@ -23,13 +23,13 @@ Gets the breakpoint that became unbound.
   
 ```cpp  
 HRESULT GetBreakpoint(   
-   IDebugBoundBreakpoint2** ppBP  
+   IDebugBoundBreakpoint2** ppBP  
 );  
 ```  
   
 ```csharp  
 int GetBreakpoint(   
-   out IDebugBoundBreakpoint2 ppBP  
+   out IDebugBoundBreakpoint2 ppBP  
 );  
 ```  
   

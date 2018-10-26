@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1709: Identifiers should be cased correctly
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldBeCasedCorrectly|

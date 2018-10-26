@@ -22,9 +22,9 @@ Retrieves a specified number of frame data elements in the enumeration sequence.
   
 ```C++  
 HRESULT Next (   
-   ULONG           celt,   
-   IDiaFrameData** rgelt,  
-   ULONG*          pceltFetched  
+   ULONG           celt,   
+   IDiaFrameData** rgelt,  
+   ULONG*          pceltFetched  
 );  
 ```  
   

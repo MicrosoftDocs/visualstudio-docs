@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2003: Do not treat fibers as threads
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotTreatFibersAsThreads|

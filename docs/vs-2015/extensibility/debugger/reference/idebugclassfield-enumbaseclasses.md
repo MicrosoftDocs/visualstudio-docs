@@ -27,13 +27,13 @@ Creates an enumerator for the base classes of this class.
   
 ```cpp#  
 HRESULT EnumBaseClasses(   
-   IEnumDebugFields** ppEnum  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumBaseClasses(  
-   out IEnumDebugFields ppEnum  
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

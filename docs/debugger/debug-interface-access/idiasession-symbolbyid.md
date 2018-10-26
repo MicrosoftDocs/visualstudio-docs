@@ -22,8 +22,8 @@ Retrieves a symbol by its unique identifier.
   
 ```C++  
 HRESULT symbolById (   
-   DWORD        id,  
-   IDiaSymbol** ppSymbol  
+   DWORD        id,  
+   IDiaSymbol** ppSymbol  
 );  
 ```  
   

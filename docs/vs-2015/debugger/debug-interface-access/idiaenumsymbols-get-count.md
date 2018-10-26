@@ -28,7 +28,7 @@ Retrieves the number of symbols.
   
 ```cpp#  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

@@ -27,15 +27,15 @@ Gets a port from a port supplier.
   
 ```cpp#  
 HRESULT GetPort(   
-   REFGUID       guidPort,  
-   IDebugPort2** ppPort  
+   REFGUID       guidPort,  
+   IDebugPort2** ppPort  
 );  
 ```  
   
 ```csharp  
 int GetPort(   
-   ref Guid        guidPort,  
-   out IDebugPort2 ppPort  
+   ref Guid        guidPort,  
+   out IDebugPort2 ppPort  
 );  
 ```  
   

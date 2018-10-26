@@ -22,7 +22,7 @@ Retrieves the type of the target CPU.
   
 ```C++  
 HRESULT get_machineType (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

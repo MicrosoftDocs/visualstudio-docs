@@ -30,36 +30,36 @@ Creating a Web template is different than creating other kinds of templates. Bec
   
 ### To manually create a Web template  
   
-1.  Create a Web project.  
+1. Create a Web project.  
   
-2.  Modify or delete the files in the project, or add new files to the project.  
+2. Modify or delete the files in the project, or add new files to the project.  
   
-3.  Create an XML file and save it by using a .vstemplate file name extension, in the same directory as your project. Do not add it to the project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+3. Create an XML file and save it by using a .vstemplate file name extension, in the same directory as your project. Do not add it to the project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-4.  Author the .vstemplate XML file to provide project template metadata. For more information, see the example in the following section.  
+4. Author the .vstemplate XML file to provide project template metadata. For more information, see the example in the following section.  
   
-5.  Locate the `ProjectType` element in the .vstemplate file, and set the text value to `Web`.  
+5. Locate the `ProjectType` element in the .vstemplate file, and set the text value to `Web`.  
   
-6.  Following the `ProjectType` element, add a `ProjectSubType` element and set the text value to the programming language of the template. The programming language can be one of the following values:  
+6. Following the `ProjectType` element, add a `ProjectSubType` element and set the text value to the programming language of the template. The programming language can be one of the following values:  
   
-    -   CSharp  
+   - CSharp  
   
-    -   VisualBasic  
+   - VisualBasic  
   
      For example:  
   
-    ```  
-    <TemplateData>  
-        ...  
-        <ProjectType>Web</ProjectType>  
-        <ProjectSubType>CSharp</ProjectSubType>  
-        ...  
-    </TemplateData>  
-    ```  
+   ```  
+   <TemplateData>  
+       ...  
+       <ProjectType>Web</ProjectType>  
+       <ProjectSubType>CSharp</ProjectSubType>  
+       ...  
+   </TemplateData>  
+   ```  
   
-7.  Select the files in your template (this includes the .vstemplate file), right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files are compressed into a .zip file.  
+7. Select the files in your template (this includes the .vstemplate file), right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files are compressed into a .zip file.  
   
-8.  Put the .zip template file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project template directory. By default, this directory is \My Documents\Visual Studio *Version*\My Exported Templates\\.  
+8. Put the .zip template file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project template directory. By default, this directory is \My Documents\Visual Studio *Version*\My Exported Templates\\.  
   
 ## Example  
  The following example shows a basic .vstemplate file for a Web project template.  

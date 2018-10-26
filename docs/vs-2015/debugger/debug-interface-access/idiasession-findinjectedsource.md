@@ -28,8 +28,8 @@ Retrieves a list of sources that has been placed into the symbol store by attrib
   
 ```cpp#  
 HRESULT findInjectedSource (   
-   LPCOLESTR                 srcFile,  
-   IDiaEnumInjectedSources** ppResult  
+   LPCOLESTR                 srcFile,  
+   IDiaEnumInjectedSources** ppResult  
 );  
 ```  
   

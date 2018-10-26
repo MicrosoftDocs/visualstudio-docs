@@ -19,7 +19,7 @@ You can set breakpoints in text templates. To debug a design-time text template,
  To debug a text template, you should understand the steps of the template transformation process. Different kinds of errors can occur within each step. The steps are as follows.
 
 |Step|Design-time template: when it happens|Run-time template: when it happens|
-|----------|--------------------------------------------|-----------------------------------------|
+|-|-|-|
 |Code is generated from the text template.<br /><br /> Errors in directives, or mismatched or disordered `<#...#>` tags.|When you save the template or invoke text transformation.|When you save the template or invoke text transformation.|
 |Generated code is compiled.<br /><br /> Compilation errors in your template code.|Immediately after the previous step.|Along with your application code.|
 |Code runs.<br /><br /> Run-time errors in your template code.|Immediately after the previous step.|When your application runs and invokes the template code.|
@@ -32,7 +32,7 @@ You can set breakpoints in text templates. To debug a design-time text template,
  The following table lists the most common errors and their fixes.
 
 |Error Message|Description|Solution|
-|-------------------|-----------------|--------------|
+|-|-|-|
 |Failed to load base class '{0}' from which Transformation class inherits.|Occurs if you cannot find the base class specified in the `inherits` parameter in a template directive. The message provides the line number of the template directive.|Be sure the specified class exists, and that the assembly that it exists in is specified in an assembly directive.|
 |Failed to resolve include text for file:{0}|Occurs when you cannot find an included template. The message provides the name of the requested include file.|Be sure that the file path is relative to the original template path, or that the file is in a location that is registered with the host, or that there is a full path to the file.|
 |Errors were generated when initializing the transformation object. The transformation will not be run.|Occurs when the 'Initialize()' of the transformation class failed or returned false.|The code in the Initialize() function comes from the base transformation class specified in the \<#@template#> directive and from directive processors. The error that caused initialize to fail probably is on the error list. Investigate why it failed. You can look at the actual generated code for Initialize() by following the procedures to debug a template.|
@@ -46,7 +46,7 @@ You can set breakpoints in text templates. To debug a design-time text template,
  The following table lists the most common warnings together with fixes, if available.
 
 |Warning Message|Description|Solution|
-|---------------------|-----------------|--------------|
+|-|-|-|
 |Loading the include file '{0}' returned a null or empty string.|Occurs if an included text template file is blank. The message provides the file name of the included file.|Either remove the include directive or be sure the file has some content.|
 |Compiling transformation:|Prepends this string to all errors or warnings originating from the compiler when it compiles the transformation. This string means that the compiler threw an error or warning.|If you have a problem finding the DLL, you may need to provide either the full path or a fully qualified strong name if the DLL is in the GAC.|
 |The parameter '{0}' already exists in the directive. The duplicate parameter will be ignored.|Occurs when a parameter is specified more than once in a directive. The message provides the name of the parameter and the line number of the directive.|Remove the duplicate parameter specification.|

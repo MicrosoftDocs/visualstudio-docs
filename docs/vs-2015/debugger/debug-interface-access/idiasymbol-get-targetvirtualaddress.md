@@ -28,7 +28,7 @@ Retrieves the virtual address (VA) of a thunk target.
   
 ```cpp#  
 HRESULT get_targetVirtualAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

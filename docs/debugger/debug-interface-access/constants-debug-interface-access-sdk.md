@@ -39,12 +39,12 @@ These string constants can be used to identify various sections of a program deb
 ```C++  
 HRESULT GetSymbolTable(IDiaEnumTables *pEnumTables, IDiaTable **pTable)  
 {  
-    HRESULT hr;  
-    VARIANT var;  
-    var.vt      = VT_BSTR;  
-    var.bstrVal = SysAllocString( DiaTable_Symbols );  
-    hr = pEnumTables->Item( var, pTable );  
-    return(hr);  
+    HRESULT hr;  
+    VARIANT var;  
+    var.vt      = VT_BSTR;  
+    var.bstrVal = SysAllocString( DiaTable_Symbols );  
+    hr = pEnumTables->Item( var, pTable );  
+    return(hr);  
 }  
 ```  
   

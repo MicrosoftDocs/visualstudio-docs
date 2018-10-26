@@ -28,7 +28,7 @@ Prepares the debug data stored in a program database (.pdb) file accessed throug
   
 ```cpp#  
 HRESULT loadDataFromIStream (   
-   IStream* pIStream  
+   IStream* pIStream  
 );  
 ```  
   

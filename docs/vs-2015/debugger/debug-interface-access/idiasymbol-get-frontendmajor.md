@@ -28,7 +28,7 @@ Retrieves the front end major version number.
   
 ```cpp#  
 HRESULT get_frontEndMajor (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

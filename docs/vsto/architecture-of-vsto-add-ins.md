@@ -23,15 +23,15 @@ ms.workload:
 # Architecture of VSTO Add-ins
   VSTO Add-ins created by using the Office developer tools in Visual Studio have architectural features that emphasize stability and security, and enable them to work closely with Microsoft Office. This topic describes the following aspects of VSTO Add-ins:  
   
--   [Understand VSTO Add-ins](#UnderstandingAddIns)  
+- [Understand VSTO Add-ins](#UnderstandingAddIns)  
   
--   [Components of VSTO Add-ins](#AddinComponents)  
+- [Components of VSTO Add-ins](#AddinComponents)  
   
--   [How VSTO Add-ins work with Microsoft Office applications](#HowAddinsWork)  
+- [How VSTO Add-ins work with Microsoft Office applications](#HowAddinsWork)  
   
- [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
+  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
   
- For general information about creating VSTO Add-ins, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md).  
+  For general information about creating VSTO Add-ins, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md).  
   
 ##  <a name="UnderstandingAddIns"></a> Understand VSTO Add-ins  
  When you use the Office developer tools in Visual Studio to build a VSTO Add-in, you create a managed code assembly that is loaded by a Microsoft Office application. After the assembly is loaded, the VSTO Add-in can respond to events that are raised in the application (for example, when a user clicks a menu item). The VSTO Add-in can also call into the object model to automate and extend the application, and it can use any of the classes in the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)].  

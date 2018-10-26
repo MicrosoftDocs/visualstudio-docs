@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA1506: Avoid excessive class coupling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|AvoidExcessiveClassCoupling|

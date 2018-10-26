@@ -53,13 +53,13 @@ ms.workload:
 ### Application object  
  The <xref:Microsoft.Office.Interop.Outlook.Application> object represents the Outlook application, and it is the highest-level object in the Outlook object model. Some of the most important members of this object include:  
   
--   The [CreateItem](/previous-versions/office/developer/office-2003/aa220082(v=office.11)) method which you can use to create a new item such as an e-mail message, task, or appointment.  
+- The [CreateItem](/previous-versions/office/developer/office-2003/aa220082(v=office.11)) method which you can use to create a new item such as an e-mail message, task, or appointment.  
   
--   The <xref:Microsoft.Office.Interop.Outlook._Application.Explorers%2A> property, which you can use to access the windows that display the contents of a folder in the Outlook user interface (UI).  
+- The <xref:Microsoft.Office.Interop.Outlook._Application.Explorers%2A> property, which you can use to access the windows that display the contents of a folder in the Outlook user interface (UI).  
   
--   The <xref:Microsoft.Office.Interop.Outlook._Application.Inspectors%2A> property, which you can use to access the windows that display the contents of a single item, such as an e-mail message or meeting request.  
+- The <xref:Microsoft.Office.Interop.Outlook._Application.Inspectors%2A> property, which you can use to access the windows that display the contents of a single item, such as an e-mail message or meeting request.  
   
- To get an instance of the <xref:Microsoft.Office.Interop.Outlook.Application> object, use the Application field of the `ThisAddIn` class in your project. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
+  To get an instance of the <xref:Microsoft.Office.Interop.Outlook.Application> object, use the Application field of the `ThisAddIn` class in your project. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
 > [!NOTE]  
 >  To help avoid security warnings when you use properties and methods that are blocked by the Outlook object model guard, get Outlook objects from the Application field of the `ThisAddIn` class. For more information, see [Specific security considerations for Office solutions](../vsto/specific-security-considerations-for-office-solutions.md).  

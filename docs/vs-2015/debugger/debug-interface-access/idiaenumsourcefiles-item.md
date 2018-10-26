@@ -28,8 +28,8 @@ Retrieves a source file by means of an index.
   
 ```cpp#  
 HRESULT Item (   
-   DWORD            index,  
-   IDiaSourceFile** sourceFile  
+   DWORD            index,  
+   IDiaSourceFile** sourceFile  
 );  
 ```  
   

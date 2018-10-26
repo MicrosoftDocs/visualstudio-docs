@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2122: Do not indirectly expose methods with link demands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|DoNotIndirectlyExposeMethodsWithLinkDemands|

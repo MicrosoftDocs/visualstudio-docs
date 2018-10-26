@@ -32,7 +32,7 @@ The **TransactedReceiveScope** designer contains **Request** and **Body** boxes.
 The following table shows the <xref:System.ServiceModel.Activities.TransactedReceiveScope> properties and describes how they are used in the designer. These <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid or on the Workflow Designer surface, but the others must be edited on the design surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The optional friendly name of the <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity. The default is TransactedReceiveScope.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> name is not strictly required, it is a best practice to use a display name.|
 |<xref:System.ServiceModel.Activities.TransactedReceiveScope.Request%2A>|True|Drops a <xref:System.ServiceModel.Activities.Receive> activity into the **Request** block on the activity designer surface.|
 |<xref:System.ServiceModel.Activities.TransactedReceiveScope.Body%2A>|False|Drops an <xref:System.Activities.Activity> into the **Body** block on the activity designer surface.|

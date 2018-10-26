@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2227: Collection properties should be read only
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|CollectionPropertiesShouldBeReadOnly|

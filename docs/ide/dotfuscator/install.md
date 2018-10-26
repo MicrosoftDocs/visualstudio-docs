@@ -42,9 +42,9 @@ You can install Dotfuscator CE from the Visual Studio IDE:
 
 1. In the **Quick Launch** (Ctrl+Q) search bar, type `dotfuscator`. <br/> <br/> ![Quick Launch](media/install_from_vs_12.png) <br/> <br/>
 2. In the Quick Launch results shown, under the *Install* heading, select **PreEmptive Protection - Dotfuscator (Individual Component)**.
-  * If you instead see, under the *Menus* heading, **Tools - PreEmptive Protection - Dotfuscator**, then Dotfuscator CE is already installed. For usage details, see [the Getting Started page of the full Dotfuscator CE User Guide][get-started].
+   * If you instead see, under the *Menus* heading, **Tools - PreEmptive Protection - Dotfuscator**, then Dotfuscator CE is already installed. For usage details, see [the Getting Started page of the full Dotfuscator CE User Guide][get-started].
 3. A Visual Studio Installer window will launch, pre-configured with to install Dotfuscator CE.
-  * You may be required to provide administrator credentials to continue.
+   * You may be required to provide administrator credentials to continue.
 4. Close all instances of the Visual Studio IDE. <br/> <br/> ![Click Install](media/install_from_vs_345.png) <br/> <br/>
 5. In the Visual Studio Installer window, click *Install*.
 

@@ -42,20 +42,20 @@ The integrated development environment (IDE) has been designed to allow you to m
   
 #### To move through open files in order of use  
   
--   To activate open documents in the order they were most recently touched, press CTRL + MINUS SIGN.  
+- To activate open documents in the order they were most recently touched, press CTRL + MINUS SIGN.  
   
--   To activate open documents in the reverse order, press CTRL + SHIFT + MINUS SIGN.  
+- To activate open documents in the reverse order, press CTRL + SHIFT + MINUS SIGN.  
   
-    > [!NOTE]
-    >  **Navigate Backward** and **Navigate Forward** also can be found on the **View** menu.  
+  > [!NOTE]
+  >  **Navigate Backward** and **Navigate Forward** also can be found on the **View** menu.  
   
- You also can switch to a specific file open in the editor, regardless of when you last accessed the file, using the **IDE Navigator**, the **Active Files** list in the editor, or the **Windows** dialog box.  
+  You also can switch to a specific file open in the editor, regardless of when you last accessed the file, using the **IDE Navigator**, the **Active Files** list in the editor, or the **Windows** dialog box.  
   
- The **IDE Navigator** works much like the Windows application switcher. It is not available from menus and can be accessed only using shortcut keys. You can use either of two commands to access the **IDE Navigator** (shown below) to cycle through files, depending on the order in which you want to cycle through.  
+  The **IDE Navigator** works much like the Windows application switcher. It is not available from menus and can be accessed only using shortcut keys. You can use either of two commands to access the **IDE Navigator** (shown below) to cycle through files, depending on the order in which you want to cycle through.  
   
- ![Visual Studio IDE Navigator](../ide/media/vs2015-ide-navigator.png "VS2015_IDE_Navigator")  
+  ![Visual Studio IDE Navigator](../ide/media/vs2015-ide-navigator.png "VS2015_IDE_Navigator")  
   
- `Window.PreviousDocumentWindowNav` allows you to move to the file most recently accessed and `Window.NextDocumentWindowNav` allows you to move in the reverse order. General Development Settings assigns CTRL + SHIFT + TAB to `Window.PreviousDocumentWindowNav` and CTRL + TAB to `Window.NextDocumentWindowNav`.  
+  `Window.PreviousDocumentWindowNav` allows you to move to the file most recently accessed and `Window.NextDocumentWindowNav` allows you to move in the reverse order. General Development Settings assigns CTRL + SHIFT + TAB to `Window.PreviousDocumentWindowNav` and CTRL + TAB to `Window.NextDocumentWindowNav`.  
   
 > [!NOTE]
 >  If the settings combination you are using does not already have a shortcut key combination assigned to this command, you can assign your own custom command using the **Keyboard** page of the **Options** dialog box. For more information, see [Identifying and Customizing Keyboard Shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).  

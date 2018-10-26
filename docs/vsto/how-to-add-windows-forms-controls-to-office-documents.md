@@ -26,13 +26,13 @@ ms.workload:
   
  This topic describes the following tasks:  
   
--   [Add controls at design time](#designtime)  
+- [Add controls at design time](#designtime)  
   
--   [Add controls at runtime in document-level projects](#runtimedoclevel)  
+- [Add controls at runtime in document-level projects](#runtimedoclevel)  
   
--   [Add controls at runtime in VSTO Add-ins](#runtimeaddin)  
+- [Add controls at runtime in VSTO Add-ins](#runtimeaddin)  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).  
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).  
   
 ##  <a name="designtime"></a> Add controls at design time  
  There are several ways to add Windows Forms controls to the document in a document-level project at design time.  

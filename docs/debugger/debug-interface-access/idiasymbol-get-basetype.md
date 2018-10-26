@@ -16,13 +16,13 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_baseType
-Retrieves the base type for this symbol*.*  
+Retrieves the base type for this symbol<em>.</em>  
   
 ## Syntax  
   
 ```C++  
 HRESULT get_baseType (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   
@@ -46,11 +46,11 @@ IDiaSymbol* pType;
 CComPtr<IDiaSymbol> pBaseType;  
 if (pType->get_type( &pBaseType ) == S_OK)  
 {  
-    BasicType btBaseType;  
-    if (pBaseType->get_baseType((DWORD *)&btBaseType) == S_OK)  
+    BasicType btBaseType;  
+    if (pBaseType->get_baseType((DWORD *)&btBaseType) == S_OK)  
     {  
-        // Do something with basic type.  
-    }  
+        // Do something with basic type.  
+    }  
 }  
 ```  
   

@@ -18,7 +18,7 @@ The load test result for the completed load test contains performance counter sa
 The *test controller* spools all collected load test sample data to a database log while the test is running. Additional data, such as timing details and error details, is loaded into the database when the test completes.
 
 |Task|Associated topics|
-|----------|-----------------------|
+|-|-----------------------|
 |**Specify how frequently to save logs during a load test run:** You can specify how frequently you want the test log saved when your load test is run.|-   [How to: Specify how frequently test logs are saved](../test/how-to-specify-how-frequently-test-logs-are-saved.md)|
 |**Save logs if a load test fails:** You can specify if you want to save the test log whenever a load test fails.|-   [How to: Specify if test failures are saved to test logs](../test/how-to-specify-if-test-failures-are-saved-to-test-logs.md)|
 |**Set the maximum file size for the log file:** You can edit the XML configuration file that is associated with the test controller service to specify the maximum file size you want to use for the log file.|[How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)|

@@ -26,13 +26,13 @@ Sets the path to the common language runtime (CLR) loaded in the debugger.
   
 ```cpp#  
 HRESULT SetCorPath(  
-   LPCOLESTR pcstrCorPath  
+   LPCOLESTR pcstrCorPath  
 );  
 ```  
   
 ```csharp  
 int SetCorPath(  
-   string pcstrCorPath  
+   string pcstrCorPath  
 );  
 ```  
   

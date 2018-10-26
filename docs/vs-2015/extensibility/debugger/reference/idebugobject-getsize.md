@@ -27,13 +27,13 @@ Gets the size of the object in bytes.
   
 ```cpp#  
 HRESULT GetSize(   
-   UINT* pnSize  
+   UINT* pnSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out uint pnSize  
+   out uint pnSize  
 );  
 ```  
   

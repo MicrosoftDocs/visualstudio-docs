@@ -28,7 +28,7 @@ Retrieves the section part of an address location. Use when the [LocationType En
   
 ```cpp#  
 HRESULT get_addressSection (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

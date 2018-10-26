@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function contains any unmanaged C++-
   
 ```C++  
 HRESULT get_hasEH(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

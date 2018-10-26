@@ -63,27 +63,27 @@ ms.workload:
   
 ### To add a new data source to the project  
   
-1.  If the **Data Sources** window isn't visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
+1. If the **Data Sources** window isn't visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
   
-2.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+2. Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  Select **Database** and then click **Next**.  
+3. Select **Database** and then click **Next**.  
   
-4.  Select a data connection to the Northwind sample SQL Server database, or add a new connection by using the **New Connection** button.  
+4. Select a data connection to the Northwind sample SQL Server database, or add a new connection by using the **New Connection** button.  
   
-5.  Click **Next**.  
+5. Click **Next**.  
   
-6.  Clear the option to save the connection if it's selected, and then click **Next**.  
+6. Clear the option to save the connection if it's selected, and then click **Next**.  
   
-7.  Expand the **Tables** node in the **Database objects** window.  
+7. Expand the **Tables** node in the **Database objects** window.  
   
-8.  Select the check box next to the **Suppliers** table.  
+8. Select the check box next to the **Suppliers** table.  
   
 9. Expand the **Products** table and select **ProductName**, **SupplierID**, **QuantityPerUnit**, and **UnitPrice**.  
   
 10. Click **Finish**.  
   
- The wizard adds the **Suppliers** table and **Products** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
+    The wizard adds the **Suppliers** table and **Products** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
   
 ## Add controls to the worksheet  
  Next, add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control and a <xref:Microsoft.Office.Tools.Excel.ListObject> control to the first worksheet.  

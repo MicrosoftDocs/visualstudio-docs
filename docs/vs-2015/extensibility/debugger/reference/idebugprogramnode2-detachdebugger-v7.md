@@ -28,7 +28,7 @@ DEPRECATED. DO NOT USE.
   
 ```cpp#  
 HRESULT DetachDebugger_V7 (   
-   void   
+   void   
 );  
 ```  
   

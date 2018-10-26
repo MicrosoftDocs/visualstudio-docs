@@ -36,7 +36,7 @@ The expression that states the <xref:System.Activities.Statements.FlowDecision.C
 The following table shows the <xref:System.Activities.Statements.FlowDecision> properties and describes how they are used in the designer. These properties can be edited in the property grid or on the designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Statements.FlowDecision.Condition%2A>|True|The condition that determines which path the flow control takes.|
 |<xref:System.Activities.Statements.FlowDecision.True%2A>|False|The path taken by the flow control if the <xref:System.Activities.Statements.FlowDecision.Condition%2A> is satisfied.|
 |<xref:System.Activities.Statements.FlowDecision.False%2A>|False|The path taken by the flow control if the <xref:System.Activities.Statements.FlowDecision.Condition%2A> is not satisfied.|

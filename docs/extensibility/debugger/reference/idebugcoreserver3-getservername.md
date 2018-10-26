@@ -23,13 +23,13 @@ Retrieves the name of the server.
   
 ```cpp  
 HRESULT GetServerName(  
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetServerName(  
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

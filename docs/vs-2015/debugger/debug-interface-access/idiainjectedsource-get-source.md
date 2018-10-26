@@ -28,9 +28,9 @@ Retrieves the source code bytes.
   
 ```cpp#  
 HRESULT get_source (   
-   DWORD  cbData,  
-   DWORD* pcbData,  
-   BYTE   data[]  
+   DWORD  cbData,  
+   DWORD* pcbData,  
+   BYTE   data[]  
 );  
 ```  
   

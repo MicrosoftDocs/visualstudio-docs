@@ -26,9 +26,9 @@ Gets extended information for the property.
   
 ```  
 HRESULT GetExtendedInfo (  
-   ULONG  cInfos,  
-   GUID*  rgguidExtendedInfo,  
-   VARIANT* pExtendedInfo  
+   ULONG  cInfos,  
+   GUID*  rgguidExtendedInfo,  
+   VARIANT* pExtendedInfo  
 );  
 ```  
   

@@ -92,15 +92,15 @@ For benefits and risks of using self-signed certificate see the Windows descript
 To issue a self-signed certificate yourself:
 
 1. SSH or login to your Linux machine.
-1. Install `ssl-cert` package:
+2. Install `ssl-cert` package:
     ```sh
     sudo apt-get install ssl-cert
     ```
-1. Run `make-ssl-cert` to generate the default self-signed SSL certificate:
+3. Run `make-ssl-cert` to generate the default self-signed SSL certificate:
     ```sh
     sudo make-ssl-cert generate-default-snakeoil --force-overwrite
     ```
-1. Convert the generated key and PEM files to PFX. The generated PFX should be in your home folder:
+4. Convert the generated key and PEM files to PFX. The generated PFX should be in your home folder:
     ```sh
     openssl pkcs12 -export -out ~/ssl-cert-snakeoil.pfx -inkey /etc/ssl/private/ssl-cert-snakeoil.key -in /etc/ssl/certs/ssl-cert-snakeoil.pem -password pass:SnakeOil
     ```
@@ -130,12 +130,12 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
 1. Download and install one of the following:
 
-    - [Microsoft R Open](https://mran.microsoft.com/open/)
-    - [CRAN R for Windows](https://cran.r-project.org/bin/windows/base/)
+   - [Microsoft R Open](https://mran.microsoft.com/open/)
+   - [CRAN R for Windows](https://cran.r-project.org/bin/windows/base/)
 
-    Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
+     Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-1. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
+2. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
 
     - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\\* and copy all the required binaries.
     - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.
@@ -155,12 +155,12 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
 1. Download and install one of the following:
 
-    - [Microsoft R Open](https://mran.microsoft.com/open/)
-    - [CRAN R for Windows](https://cran.r-project.org/bin/linux/ubuntu/)
+   - [Microsoft R Open](https://mran.microsoft.com/open/)
+   - [CRAN R for Windows](https://cran.r-project.org/bin/linux/ubuntu/)
 
-    Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
+     Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-1. Follow the instructions on [Remote R Service for Linux](setting-up-remote-r-service-on-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
+2. Follow the instructions on [Remote R Service for Linux](setting-up-remote-r-service-on-linux.md), which covers physical Ubuntu computers, Azure Ubuntu VMs, Windows Subsystem for Linux (WSL), and Docker containers, including those running on Azure Container Repository.
 
 ## Configure R services
 

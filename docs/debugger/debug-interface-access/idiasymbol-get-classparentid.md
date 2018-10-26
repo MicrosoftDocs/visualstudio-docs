@@ -22,7 +22,7 @@ Retrieves the class parent identifier of the symbol.
   
 ```C++  
 HRESULT get_classParentId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

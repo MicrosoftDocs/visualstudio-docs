@@ -23,6 +23,7 @@ manager: "wpickett"
 ---
 # CA2235: Mark all non-serializable fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 |||
 |-|-|
 |TypeName|MarkAllNonSerializableFields|

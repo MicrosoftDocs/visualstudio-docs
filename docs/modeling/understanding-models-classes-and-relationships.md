@@ -129,7 +129,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  Configure the multiplicity of a role either by typing on the diagram or by modifying the `Multiplicity` property in the **Properties** window. The following table describes the settings for this property.
 
 |Multiplicity type|Description|
-|-----------------------|-----------------|
+|-|-|
 |0..* (Zero to many)|Each instance of the domain class can have multiple instances of the relationship or no instances of the relationship.|
 |0..1 (Zero to one)|Each instance of the domain class can have no more than one instance of the relationship or no instances of the relationship.|
 |1..1 (One)|Each instance of the domain class can have one instance of the relationship. You cannot create more than one instance of this relationship from any instance of the role class. If validation is enabled, a validation error will appear when any instance of the role class has no instance of the relationship.|

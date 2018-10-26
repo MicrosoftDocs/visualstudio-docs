@@ -25,7 +25,7 @@ ms.workload:
 
 ```cpp
 HRESULT DetachDebugger_V7 (
-   void 
+   void 
 );
 ```
 

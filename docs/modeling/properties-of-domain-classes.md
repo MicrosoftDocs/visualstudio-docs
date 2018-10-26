@@ -16,7 +16,7 @@ ms.technology: vs-ide-modeling
 Domain classes have the properties in the following table. For information about domain classes, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Access Modifier|The level of access of the domain class (`public` or `internal`).|`public`|
 |Custom Attributes|Used to add attributes to the source code class that is generated from this domain class.|\<none>|
 |Generates Double Derived|If `True`, both a base class and a partial class (to support customization through overrides) will be generated. For more information, see [Overriding and Extending the Generated Classes](../modeling/overriding-and-extending-the-generated-classes.md).|`False`|

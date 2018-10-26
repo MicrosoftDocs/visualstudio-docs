@@ -55,7 +55,7 @@ The syntax rules for `devenv` switches resemble those for other DOS command-line
 The following command-line switches display the IDE and perform the described task.
 
 |Command line switch|Description|
-|-------------------------|-----------------|
+| - |-----------------|
 |[/Command](../../ide/reference/command-devenv-exe.md)|Starts the IDE and executes the specified command.|
 |[/DebugExe](../../ide/reference/debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch is not available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).|
 |[/LCID or /l](../../ide/reference/lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language is not included in your installation of Visual Studio, this setting is ignored.|
@@ -71,7 +71,7 @@ The following command-line switches display the IDE and perform the described ta
 The following command-line switches do not display the IDE.
 
 |Command line switch|Description|
-|-------------------------|-----------------|
+| - |-----------------|
 |[/?](../../ide/reference/q-devenv-exe.md)|Displays help for devenv switches in the **Command Prompt window**.<br /><br /> **Devenv /?**|
 |[/Build](../../ide/reference/build-devenv-exe.md)|Builds the specified solution or project according to the configuration of the specified solution.<br /><br /> **Devenv myproj.csproj /build**|
 |[/Clean](../../ide/reference/clean-devenv-exe.md)|Deletes any files created by the build command, without affecting source files.<br /><br /> **Devenv myproj.csproj /clean**|

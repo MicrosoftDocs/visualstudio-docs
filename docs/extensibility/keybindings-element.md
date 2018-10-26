@@ -55,10 +55,10 @@ The KeyBindings element groups KeyBinding elements and other KeyBindings groupin
   
 ```xml  
 <KeyBindings>  
-  <KeyBinding guid="guidWidgetPackage" id="cmdidUpdateWidget"   
-    editor="guidWidgetEditor" key1="VK_F5"/>  
-  <KeyBinding guid="guidWidgetPackage" id="cmdidRunWidget"   
-    editor="guidWidgetEditor" key1="VK_F5" mod1="Control"/>  
+  <KeyBinding guid="guidWidgetPackage" id="cmdidUpdateWidget"   
+    editor="guidWidgetEditor" key1="VK_F5"/>  
+  <KeyBinding guid="guidWidgetPackage" id="cmdidRunWidget"   
+    editor="guidWidgetEditor" key1="VK_F5" mod1="Control"/>  
 </KeyBindings>  
 ```  
   

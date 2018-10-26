@@ -27,7 +27,7 @@ Detaches a debug engine from the program.
   
 ```cpp#  
 HRESULT Detach(   
-   void   
+   void   
 );  
 ```  
   

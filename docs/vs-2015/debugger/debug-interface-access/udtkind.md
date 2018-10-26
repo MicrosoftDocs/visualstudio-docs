@@ -28,10 +28,10 @@ Describes the variety of user-defined type (UDT).
   
 ```cpp#  
 enum UdtKind {   
-   UdtStruct,  
-   UdtClass,  
-   UdtUnion,  
-   UdtInterface  
+   UdtStruct,  
+   UdtClass,  
+   UdtUnion,  
+   UdtInterface  
 };  
 ```  
   

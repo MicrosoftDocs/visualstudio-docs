@@ -32,7 +32,7 @@ Also, the spreadsheet file can be shared with stakeholders so that stakeholders 
 ## Tasks
 
 |Tasks|Associated topics|
-|-----------|-----------------------|
+|-|-|
 |**Create a performance and stress report:** You can create reports on your load and web performance tests, using Microsoft Excel.|- [How to: Create load test performance reports using Microsoft Excel](../test/how-to-create-load-test-performance-reports-using-microsoft-excel.md)|
 |**Manually create a performance and stress report by using Microsoft Word:** You can create reports on your load and web performance tests manually by copying and pasting summary, table, and graph data to a Microsoft Word document.|- [How to: Manually create a load test performance report using Microsoft Word](../test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md)|
 

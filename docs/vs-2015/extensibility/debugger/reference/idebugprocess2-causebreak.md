@@ -27,7 +27,7 @@ Requests that the next program that is running code in this process halt and sen
   
 ```cpp#  
 HRESULT CauseBreak(   
-   void  
+   void  
 );  
 ```  
   

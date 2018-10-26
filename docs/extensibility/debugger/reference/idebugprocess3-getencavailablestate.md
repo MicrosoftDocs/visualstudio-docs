@@ -23,13 +23,13 @@ This method gets the current Edit and Continue state of the process. A custom po
   
 ```cpp  
 HRESULT GetENCAvailableState(  
-   EncUnavailableReason* pReason  
+   EncUnavailableReason* pReason  
 );  
 ```  
   
 ```csharp  
 int GetENCAvailableState(  
-   EncUnavailableReason[] pReason  
+   EncUnavailableReason[] pReason  
 );  
 ```  
   

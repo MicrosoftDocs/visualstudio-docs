@@ -22,7 +22,7 @@ Retrieves the number of bits or bytes of memory used by the object represented b
   
 ```C++  
 HRESULT get_length (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

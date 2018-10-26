@@ -22,10 +22,10 @@ Retrieves a specified symbol type that contains, or is closest to, a specified r
   
 ```C++  
 HRESULT findSymbolByRVAEx (   
-   DWORD        rva,  
-   SymTagEnum   symtag,  
-   IDiaSymbol** ppSymbol,  
-   LONG*        displacement  
+   DWORD        rva,  
+   SymTagEnum   symtag,  
+   IDiaSymbol** ppSymbol,  
+   LONG*        displacement  
 );  
 ```  
   

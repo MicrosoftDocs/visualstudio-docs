@@ -30,10 +30,10 @@ This callback is supplied to the [SccPopulateList](../extensibility/sccpopulatel
   
 ```cpp#  
 typedef BOOL (*POPLISTFUNC) (  
-   LPVOID pvCallerData,  
-   BOOL fAddRemove,  
-   LONG nStatus,  
-   LPSTR lpFileName  
+   LPVOID pvCallerData,  
+   BOOL fAddRemove,  
+   LONG nStatus,  
+   LPSTR lpFileName  
 );  
 ```  
   

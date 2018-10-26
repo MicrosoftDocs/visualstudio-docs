@@ -31,17 +31,17 @@ As the author of a domain-specific language (DSL), you can define validation con
 ## Running Validation  
  When a user is editing a model, that is, an instance of your domain-specific language, the following actions can run validation:  
   
--   Right-click the diagram and select **Validate All**.  
+- Right-click the diagram and select **Validate All**.  
   
--   Right-click the top node in the Explorer of your DSL and select **Validate All**  
+- Right-click the top node in the Explorer of your DSL and select **Validate All**  
   
--   Save the model.  
+- Save the model.  
   
--   Open the model.  
+- Open the model.  
   
--   In addition, you can write program code that runs validation, for example, as part of a menu command or in response to a change.  
+- In addition, you can write program code that runs validation, for example, as part of a menu command or in response to a change.  
   
- Any validation errors will appear in the **Error List** window. The user can double-click an error message to select the model elements that are the cause of the error.  
+  Any validation errors will appear in the **Error List** window. The user can double-click an error message to select the model elements that are the cause of the error.  
   
 ## Defining Validation Constraints  
  You define validation constraints by adding validation methods to the domain classes or relationships of your DSL. When validation is run, either by the user or under program control, some or all of the validation methods are executed. Each method is applied to each instance of its class, and there can be several validation methods in each class.  
@@ -53,37 +53,37 @@ As the author of a domain-specific language (DSL), you can define validation con
   
 #### To define a validation constraint  
   
-1.  Enable validation in the **Editor\Validation** node:  
+1. Enable validation in the **Editor\Validation** node:  
   
-    1.  Open **Dsl\DslDefinition.dsl**.  
+   1.  Open **Dsl\DslDefinition.dsl**.  
   
-    2.  In DSL Explorer, expand the **Editor** node and select **Validation**.  
+   2.  In DSL Explorer, expand the **Editor** node and select **Validation**.  
   
-    3.  In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.  
+   3.  In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.  
   
-    4.  Click **Transform All Templates** in the Solution Explorer toolbar.  
+   4.  Click **Transform All Templates** in the Solution Explorer toolbar.  
   
-2.  Write partial class definitions for one or more of your domain classes or domain relationships. Write these definitions in a new code file in the **Dsl** project.  
+2. Write partial class definitions for one or more of your domain classes or domain relationships. Write these definitions in a new code file in the **Dsl** project.  
   
-3.  Prefix each class with this attribute:  
+3. Prefix each class with this attribute:  
   
-    ```csharp  
-    [ValidationState(ValidationState.Enabled)]  
-    ```  
+   ```csharp  
+   [ValidationState(ValidationState.Enabled)]  
+   ```  
   
-    -   By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
+   -   By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
   
-4.  Add validation methods to the classes. Each validation method can have any name, but have one parameter of type <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>.  
+4. Add validation methods to the classes. Each validation method can have any name, but have one parameter of type <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>.  
   
-     It must be prefixed with one or more `ValidationMethod` attributes:  
+    It must be prefixed with one or more `ValidationMethod` attributes:  
   
-    ```csharp  
-    [ValidationMethod (ValidationCategories.Open | ValidationCategories.Save | ValidationCategories.Menu ) ]  
-    ```  
+   ```csharp  
+   [ValidationMethod (ValidationCategories.Open | ValidationCategories.Save | ValidationCategories.Menu ) ]  
+   ```  
   
-     The ValidationCategories specify when the method is executed.  
+    The ValidationCategories specify when the method is executed.  
   
- For example:  
+   For example:  
   
 ```csharp  
 using Microsoft.VisualStudio.Modeling;  
@@ -126,21 +126,21 @@ public partial class ParentsHaveChildren
   
  Notice the following points about this code:  
   
--   You can add validation methods to domain classes or domain relationships. The code for these types is in **Dsl\Generated Code\Domain\*.cs**.  
+- You can add validation methods to domain classes or domain relationships. The code for these types is in **Dsl\Generated Code\Domain\*.cs**.  
   
--   Each validation method is applied to every instance of its class and its subclasses. In the case of a domain relationship, each instance is a link between two model elements.  
+- Each validation method is applied to every instance of its class and its subclasses. In the case of a domain relationship, each instance is a link between two model elements.  
   
--   Validation methods are not applied in any specified order, and each method is not applied to the instances of its class in any predictable order.  
+- Validation methods are not applied in any specified order, and each method is not applied to the instances of its class in any predictable order.  
   
--   It is usually bad practice for a validation method to update the store content, because this would lead to inconsistent results. Instead, the method should report any error by calling `context.LogError`, `LogWarning` or `LogInfo`.  
+- It is usually bad practice for a validation method to update the store content, because this would lead to inconsistent results. Instead, the method should report any error by calling `context.LogError`, `LogWarning` or `LogInfo`.  
   
--   In the LogError call, you can provide a list of model elements or relationship links that will be selected when the user double-clicks the error message.  
+- In the LogError call, you can provide a list of model elements or relationship links that will be selected when the user double-clicks the error message.  
   
--   For information about how to read the model in program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
+- For information about how to read the model in program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
- The example applies to the following domain model. The ParentsHaveChildren relationship has roles that are named Child and Parent.  
+  The example applies to the following domain model. The ParentsHaveChildren relationship has roles that are named Child and Parent.  
   
- ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt-person.png "FamilyT_Person")  
+  ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt-person.png "FamilyT_Person")  
   
 ## Validation Categories  
  In the <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute> attribute, you specify when the validation method should be executed.  
@@ -196,7 +196,7 @@ if (erroneousLinks.Count < 5) { context.LogError( ... ); }
   
  If you set the multiplicity of a role of a domain relationship to be 1..* or 1..1, but the user does not create a link of this relationship, a validation error message will appear.  
   
- For example, if your DSL has classes Person and Town, and a relationship PersonLivesInTown with a relationship **1..\*** at the Town role, then for each Person that has no Town, an error message will appear.  
+ For example, if your DSL has classes Person and Town, and a relationship PersonLivesInTown with a relationship **1..\\*** at the Town role, then for each Person that has no Town, an error message will appear.  
   
 ## Running Validation from Program Code  
  You can run validation by accessing or creating a ValidationController. If you want the errors to be displayed to the user in the error window, use the ValidationController that is attached to your diagram’s DocData. For example, if you are writing a menu command, `CurrentDocData.ValidationController` is available in the command set class:  

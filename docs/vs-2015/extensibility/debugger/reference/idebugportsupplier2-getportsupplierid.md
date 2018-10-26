@@ -27,13 +27,13 @@ Gets the port supplier identifier.
   
 ```cpp#  
 HRESULT GetPortSupplierId(   
-   GUID* pguidPortSupplier  
+   GUID* pguidPortSupplier  
 );  
 ```  
   
 ```csharp  
 HRESULT GetPortSupplierId(   
-   out Guid pguidPortSupplier  
+   out Guid pguidPortSupplier  
 );  
 ```  
   

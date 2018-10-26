@@ -28,13 +28,13 @@ Gets the breakpoint request that was used to create this pending breakpoint.
   
 ```cpp#  
 HRESULT GetBreakpointRequest(   
-   IDebugBreakpointRequest2** ppBPRequest  
+   IDebugBreakpointRequest2** ppBPRequest  
 );  
 ```  
   
 ```csharp  
 int GetBreakpointRequest(   
-   out IDebugBreakpointRequest2 ppBPRequest  
+   out IDebugBreakpointRequest2 ppBPRequest  
 );  
 ```  
   

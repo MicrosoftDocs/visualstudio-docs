@@ -61,24 +61,24 @@ The debugger also searches for symbol files in the following locations:
    
    By default, if you have built a DLL or an *.exe* file on your computer, the linker places the full path and filename of the associated *.pdb* file in the DLL or *.exe* file. The debugger checks to see if the symbol file exists in that location.  
    
-1. The same folder as the DLL or *.exe* file.
+2. The same folder as the DLL or *.exe* file.
    
-1. Any locations specified in the debugger options for symbol files. To add and enable symbol locations, see [Configure symbol locations and loading options](#BKMK_Specify_symbol_locations_and_loading_behavior). 
+3. Any locations specified in the debugger options for symbol files. To add and enable symbol locations, see [Configure symbol locations and loading options](#BKMK_Specify_symbol_locations_and_loading_behavior). 
    
-    - Any local symbol cache folder.  
+   - Any local symbol cache folder.  
   
-    - Specified network, internet, or local symbol servers and locations, such as the Microsoft Symbol Servers if selected. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can download debugging symbol files from symbol servers that implement the `symsrv` protocol. [Visual Studio Team Foundation Server](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6) and the [Debugging Tools for Windows](http://msdn.microsoft.com/library/windows/hardware/ff551063\(v=VS.85\).aspx) are two tools that can use symbol servers. 
+   - Specified network, internet, or local symbol servers and locations, such as the Microsoft Symbol Servers if selected. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can download debugging symbol files from symbol servers that implement the `symsrv` protocol. [Visual Studio Team Foundation Server](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6) and the [Debugging Tools for Windows](http://msdn.microsoft.com/library/windows/hardware/ff551063\(v=VS.85\).aspx) are two tools that can use symbol servers. 
       
-      Symbol servers you might use include:  
+     Symbol servers you might use include:  
       
-      **Public Microsoft Symbol Servers**: To debug a crash that occurs during a call to a system DLL or to a third-party library, you often need system *.pdb* files. System *.pdb* files contain symbols for Windows DLLs, *.exe* files, and device drivers. You can get symbols for Windows operating systems, MDAC, IIS, ISA, and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] from the public Microsoft Symbol Servers. 
+     **Public Microsoft Symbol Servers**: To debug a crash that occurs during a call to a system DLL or to a third-party library, you often need system *.pdb* files. System *.pdb* files contain symbols for Windows DLLs, *.exe* files, and device drivers. You can get symbols for Windows operating systems, MDAC, IIS, ISA, and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] from the public Microsoft Symbol Servers. 
       
-      **Symbol servers on an internal network or on your local machine**: Your team or company can create symbol servers for your own products, and as a cache for symbols from external sources. You might have a symbol server on your own machine. 
+     **Symbol servers on an internal network or on your local machine**: Your team or company can create symbol servers for your own products, and as a cache for symbols from external sources. You might have a symbol server on your own machine. 
       
-      **Third-party symbol servers**: Third-party providers of Windows applications and libraries can provide access to symbol server on the internet. 
+     **Third-party symbol servers**: Third-party providers of Windows applications and libraries can provide access to symbol server on the internet. 
     
-    > [!WARNING]
-    > If you use a symbol server other than the public Microsoft Symbol Servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can be exposed to security threats.  
+     > [!WARNING]
+     > If you use a symbol server other than the public Microsoft Symbol Servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can be exposed to security threats.  
 
 <a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a>
 ### Configure symbol locations and loading options
@@ -95,7 +95,7 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
    
    ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.png "Tools &#45; Options &#45; Debugging &#45; Symbols page")  
    
-1. Under **Symbol file (.pdb) locations**,
+2. Under **Symbol file (.pdb) locations**,
    - To use the **Microsoft Symbol Servers**, select the checkbox.  
    
    - To add a new symbol server location,
@@ -113,21 +113,21 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
    - To edit a URL or path, double-click the entry, or select it and press **F2**.  
    - To remove an entry, select it, and then select the **-** icon.
   
-1.  (Optional) To improve symbol loading performance, under **Cache symbols in this directory**, type a local folder path that symbol servers can copy symbols to.  
+3. (Optional) To improve symbol loading performance, under **Cache symbols in this directory**, type a local folder path that symbol servers can copy symbols to.  
   
-    > [!NOTE]
-    > Do not place the local symbol cache in a protected folder, like C:\Windows or a subfolder. Use a read-write folder instead.  
+   > [!NOTE]
+   > Do not place the local symbol cache in a protected folder, like C:\Windows or a subfolder. Use a read-write folder instead.  
   
-    > [!NOTE]
-    > For C++ projects, if you have the `_NT_SYMBOL_PATH` environment variable set, it will override the value set under **Cache symbols in this directory**.
+   > [!NOTE]
+   > For C++ projects, if you have the `_NT_SYMBOL_PATH` environment variable set, it will override the value set under **Cache symbols in this directory**.
   
-1. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.  
+4. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.  
   
-  -  Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.  
+   -  Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.  
   
-  -  To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.  
+   -  To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.  
   
-1.  Select **OK**.
+5. Select **OK**.
 
 ## Other symbol options for debugging
   

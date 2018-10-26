@@ -40,9 +40,9 @@ First, create a Universal Windows Platform project. The project type comes with 
 
    ![Accept the default Target version and Minimum version settings in the New Universal Windows Platform Project dialog box](../ide/media/new-uwp-project-target-minver-dialog.png)
 
-  > [!NOTE]
-  > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
- ![Enable the Developer Mode in the UWP Settings dialog box](../ide/media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+   > [!NOTE]
+   > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
+   ![Enable the Developer Mode in the UWP Settings dialog box](../ide/media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
 
 ## Create the application
 
@@ -52,29 +52,29 @@ It's time to start developing. You'll add a button control, add an action to the
 
 1. In the **Solution Explorer**, double-click *MainPage.xaml* to open a split view.
 
-  ![Open MainPage.xaml from the Solution Explorer ](../ide/media/uwp-solution-explorer-MainPage-xaml.png)
+   ![Open MainPage.xaml from the Solution Explorer ](../ide/media/uwp-solution-explorer-MainPage-xaml.png)
 
-  There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.
+   There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.
 
-  ![The XAML Designer pane in the XAML editor](../ide/media/uwp-xaml-editor.png)
+   ![The XAML Designer pane in the XAML editor](../ide/media/uwp-xaml-editor.png)
 
 2. Choose **Toolbox** to open the Toolbox fly-out window.
 
-  ![Click Toolbox to open the Toolbox fly-out window](../ide/media/uwp-toolbox.png)
+   ![Click Toolbox to open the Toolbox fly-out window](../ide/media/uwp-toolbox.png)
 
-  (If you don't see the **Toolbox** option, you can open it from the menu bar. To do so, choose **View** > **Toolbar**. Or, press **Ctrl**+**Alt**+**X**.)
+   (If you don't see the **Toolbox** option, you can open it from the menu bar. To do so, choose **View** > **Toolbar**. Or, press **Ctrl**+**Alt**+**X**.)
 
 3. Click the **Pin** icon to dock the Toolbox window.
 
-  ![Click the Pin icon to dock the Toolbox window](../ide/media/uwp-toolbox-autohide.png)
+   ![Click the Pin icon to dock the Toolbox window](../ide/media/uwp-toolbox-autohide.png)
 
 4. Click the **Button** control and then drag it onto the design canvas.
 
    ![Click the Button control and drag it onto the Design canvas](../ide/media/uwp-toolbox-add-button-control.png)
 
-  If you look at the code in the **XAML Editor**, you'll see that the Button has been added there, too:
+   If you look at the code in the **XAML Editor**, you'll see that the Button has been added there, too:
 
-  ![Click the Button control and drag it onto the Design canvas](../ide/media/uwp-xaml-control-code-window.png)
+   ![Click the Button control and drag it onto the Design canvas](../ide/media/uwp-xaml-control-code-window.png)
 
 ### Add a label to the button
 
@@ -94,18 +94,18 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
 2. Edit the event handler code in *MainPage.xaml.cs*, the code-behind page.
 
- This is where things get interesting. The default event handler looks like this:
+   This is where things get interesting. The default event handler looks like this:
 
    ![The default Button_Click event handler ](../ide/media/uwp-button-click-code.png)
 
- Let's change it, so it looks like this:
+   Let's change it, so it looks like this:
 
     ![The new async Button_Click event handler ](../ide/media/uwp-add-hello-world-async-code.png)
 
-  Here's the code to copy and paste:
+   Here's the code to copy and paste:
 
-  ```C#
-  private async void Button_Click(object sender, RoutedEventArgs e)
+   ```C#
+   private async void Button_Click(object sender, RoutedEventArgs e)
          {
              MediaElement mediaElement = new MediaElement();
              var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
@@ -113,7 +113,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
              mediaElement.SetSource(stream, stream.ContentType);
              mediaElement.Play();
          }
-  ```
+   ```
 
 #### What did we just do?
 
@@ -135,7 +135,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 3. Click the **Hello World** button.
 
- Your Windows 10 device will literally say, "Hello, World!"
+   Your Windows 10 device will literally say, "Hello, World!"
 
 4. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift**+**F5**.)
 

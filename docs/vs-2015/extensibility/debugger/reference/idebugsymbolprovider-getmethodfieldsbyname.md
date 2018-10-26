@@ -27,17 +27,17 @@ This method gets the field representing a fully qualified method name.
   
 ```cpp#  
 HRESULT GetMethodFieldsByName(   
-   LPCOLESTR          pszFullName,  
-   NAME_MATCH         nameMatch,  
-   IEnumDebugFields** ppEnum  
+   LPCOLESTR          pszFullName,  
+   NAME_MATCH         nameMatch,  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int GetMethodFieldsByName(  
-   string               pszFullName,   
-   NAME_MATCH           nameMatch,   
-   out IEnumDebugFields ppEnum  
+   string               pszFullName,   
+   NAME_MATCH           nameMatch,   
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

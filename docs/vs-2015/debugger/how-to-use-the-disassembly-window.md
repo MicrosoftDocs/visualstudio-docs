@@ -40,23 +40,23 @@ This feature is available only if address-level debugging is enabled the **Optio
   
  In addition to assembly instructions, the **Disassembly** window can show the following optional information:  
   
--   Memory address where each instruction is located. For native applications, this is the actual memory address. For Visual Basic, C#, or managed code, it is an offset from the beginning of the function.  
+- Memory address where each instruction is located. For native applications, this is the actual memory address. For Visual Basic, C#, or managed code, it is an offset from the beginning of the function.  
   
--   Source code from which the assembly code derives.  
+- Source code from which the assembly code derives.  
   
--   Code bytes—byte representations of the actual machine or MSIL instructions.  
+- Code bytes—byte representations of the actual machine or MSIL instructions.  
   
--   Symbol names for the memory addresses.  
+- Symbol names for the memory addresses.  
   
--   Line numbers corresponding to the source code.  
+- Line numbers corresponding to the source code.  
   
- Assembly-language instructions consist of mnemonics, which are abbreviations for instruction names, and symbols that represent variables, registers, and constants. Each machine-language instruction is represented by one assembly-language mnemonic, usually followed by one or more variables, registers, or constants.  
+  Assembly-language instructions consist of mnemonics, which are abbreviations for instruction names, and symbols that represent variables, registers, and constants. Each machine-language instruction is represented by one assembly-language mnemonic, usually followed by one or more variables, registers, or constants.  
   
- If you cannot read assembly language and want to take full advantage of the Disassembly window, consult a good book on assembly-language programming. Assembly-language programming is beyond the scope of what we can address in this brief introduction to the Disassembly window.  
+  If you cannot read assembly language and want to take full advantage of the Disassembly window, consult a good book on assembly-language programming. Assembly-language programming is beyond the scope of what we can address in this brief introduction to the Disassembly window.  
   
- Because assembly code relies heavily on processor registers or, in the case of managed code, common language runtime registers, you will often find it useful to use the Disassembly window in conjunction with the Registers window, which allows you to examine register contents.  
+  Because assembly code relies heavily on processor registers or, in the case of managed code, common language runtime registers, you will often find it useful to use the Disassembly window in conjunction with the Registers window, which allows you to examine register contents.  
   
- You probably will never have the desire or need to view machine-code instructions in their raw, numeric form, rather than assembly language. However, if you want to do so, you can use the Memory window for that purpose or choose Code Bytes from the shortcut menu in the Disassembly window.  
+  You probably will never have the desire or need to view machine-code instructions in their raw, numeric form, rather than assembly language. However, if you want to do so, you can use the Memory window for that purpose or choose Code Bytes from the shortcut menu in the Disassembly window.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  

@@ -23,13 +23,13 @@ Gets the field or variable (if any) that may be backing the property represented
   
 ```cpp  
 HRESULT GetBackingFieldForProperty(  
-   IDebugObject2** ppObject  
+   IDebugObject2** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetBackingFieldForProperty(  
-   out IDebugObject2 ppObject  
+   out IDebugObject2 ppObject  
 );  
 ```  
   

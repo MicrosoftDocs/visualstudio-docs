@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function has been marked as being no
   
 ```C++  
 HRESULT get_noInline(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

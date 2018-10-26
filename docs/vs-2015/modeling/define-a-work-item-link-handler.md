@@ -86,11 +86,11 @@ You can create a Visual Studio Integration Extension that responds when the user
 ### Import the Work Item Namespace  
  In your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project **References**, add references to the following assemblies:  
   
--   Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
+- Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
   
--   Microsoft.VisualStudio.TeamFoundation.WorkItemTracking.dll  
+- Microsoft.VisualStudio.TeamFoundation.WorkItemTracking.dll  
   
- In your program code, import the following namespaces:  
+  In your program code, import the following namespaces:  
   
 ```  
 using System.ComponentModel.Composition;  
@@ -276,21 +276,21 @@ element.AddReference(ReferenceConstants.WorkItem, linkString, true);
   
  where:  
   
--   The URI for your server would be:  
+- The URI for your server would be:  
   
-     `http://tfServer:8080/tfs/projectCollection`  
+   `http://tfServer:8080/tfs/projectCollection`  
   
-     Case is important in `projectCollection`.  
+   Case is important in `projectCollection`.  
   
--   `RepositoryGuid` can be obtained from your TFS connection:  
+- `RepositoryGuid` can be obtained from your TFS connection:  
   
-    ```csharp  
-    TfsTeamProjectCollection tpc = TfsTeamProjectCollectionFactory...;  
-    RepositoryGuid= tpc.InstanceId;  
+  ```csharp  
+  TfsTeamProjectCollection tpc = TfsTeamProjectCollectionFactory...;  
+  RepositoryGuid= tpc.InstanceId;  
   
-    ```  
+  ```  
   
- For more information about References, see [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md).  
+  For more information about References, see [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md).  
   
 ## See Also  
  <xref:Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore?displayProperty=fullName>   

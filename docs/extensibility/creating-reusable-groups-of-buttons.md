@@ -82,37 +82,37 @@ A command group is a collection of commands that always appear together on a men
   
 ## To put a reusable group of buttons on a menu  
   
-1.  Create an entry in the `CommandPlacements` section. Set the GUID and ID of the `CommandPlacement` element to those of your group, and set the parent GUID and ID to those of the target location.  
+1. Create an entry in the `CommandPlacements` section. Set the GUID and ID of the `CommandPlacement` element to those of your group, and set the parent GUID and ID to those of the target location.  
   
-     The CommandPlacements section should be placed just after the Commands section:  
+    The CommandPlacements section should be placed just after the Commands section:  
   
-    ```xml  
-    <CommandTable>  
-    ...  
-      <Commands>... </Commands>  
-      <CommandPlacements>... </CommandPlacements>  
-    ...   
-    </CommandTable>  
-    ```  
+   ```xml  
+   <CommandTable>  
+   ...  
+     <Commands>... </Commands>  
+     <CommandPlacements>... </CommandPlacements>  
+   ...   
+   </CommandTable>  
+   ```  
   
-     A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (as described in *ShellCmdDef.vsct* or *SharedCmdDef.vsct*), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or to a shortcut menu that is displayed by a VSPackage.  
+    A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (as described in *ShellCmdDef.vsct* or *SharedCmdDef.vsct*), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or to a shortcut menu that is displayed by a VSPackage.  
   
-     The following example puts the group on the **Solution Explorer** toolbar, to the right of the other buttons.  
+    The following example puts the group on the **Solution Explorer** toolbar, to the right of the other buttons.  
   
-    ```xml  
-    <CommandPlacements>  
-        <CommandPlacement guid="guidReusableCommandPackageCmdSet" id="MyMenuGroup" priority="0xF00">  
-          <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_PROJWIN"/>  
-        </CommandPlacement>  
-    </CommandPlacements>  
-    ```  
+   ```xml  
+   <CommandPlacements>  
+       <CommandPlacement guid="guidReusableCommandPackageCmdSet" id="MyMenuGroup" priority="0xF00">  
+         <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_PROJWIN"/>  
+       </CommandPlacement>  
+   </CommandPlacements>  
+   ```  
   
-    ```xml  
-    <CommandPlacements>  
-      <CommandPlacement guid="guidButtonGroupCmdSet" id="MyMenuGroup"   
-          priority="0x605">  
-        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />  
-      </CommandPlacement>  
-    </CommandPlacements>  
+   ```xml  
+   <CommandPlacements>  
+     <CommandPlacement guid="guidButtonGroupCmdSet" id="MyMenuGroup"   
+         priority="0x605">  
+       <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />  
+     </CommandPlacement>  
+   </CommandPlacements>  
   
-    ```
+   ```

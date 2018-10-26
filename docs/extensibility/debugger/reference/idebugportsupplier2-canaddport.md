@@ -23,7 +23,7 @@ Verifies that a port supplier can add new ports.
   
 ```cpp  
 HRESULT CanAddPort(   
-   void   
+   void   
 );  
 ```  
   

@@ -28,7 +28,7 @@ Retrieves the class parent identifier of the symbol.
   
 ```cpp#  
 HRESULT get_classParentId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

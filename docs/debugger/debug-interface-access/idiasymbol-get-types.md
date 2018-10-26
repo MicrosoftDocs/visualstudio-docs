@@ -22,9 +22,9 @@ Retrieves an array of compiler-specific types for this symbol.
   
 ```C++  
 HRESULT get_types (   
-   DWORD       cTypes,  
-   DWORD*      pcTypes,  
-   IDiaSymbol* types[]  
+   DWORD       cTypes,  
+   DWORD*      pcTypes,  
+   IDiaSymbol* types[]  
 );  
 ```  
   

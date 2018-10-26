@@ -36,15 +36,15 @@ You can write code to create and update layer diagrams, and to validate the stru
 ##  <a name="prereqs"></a> Requirements  
  You must have the following installed on the computer where you want to develop your layer extensions:  
   
--   Visual Studio  
+- Visual Studio  
   
--   [Visual Studio SDK](../extensibility/visual-studio-sdk.md)  
+- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)  
   
--   [Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148)  
+- [Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148)  
   
- You must have a suitable version of Visual Studio installed on the computer where you want to run your layer extensions. For more information, see [Deploy a layer model extension](../modeling/deploy-a-layer-model-extension.md).  
+  You must have a suitable version of Visual Studio installed on the computer where you want to run your layer extensions. For more information, see [Deploy a layer model extension](../modeling/deploy-a-layer-model-extension.md).  
   
- To see which versions of Visual Studio support layer diagrams, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
+  To see which versions of Visual Studio support layer diagrams, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 ## In This Section  
  [Add commands and gestures to layer diagrams](../modeling/add-commands-and-gestures-to-layer-diagrams.md)  

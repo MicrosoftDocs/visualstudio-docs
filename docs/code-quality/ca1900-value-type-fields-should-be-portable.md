@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1900: Value type fields should be portable
+
 |||
 |-|-|
 |TypeName|ValueTypeFieldsShouldBePortable|

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1059: Members should not expose certain concrete types
+
 |||
 |-|-|
 |TypeName|MembersShouldNotExposeCertainConcreteTypes|
