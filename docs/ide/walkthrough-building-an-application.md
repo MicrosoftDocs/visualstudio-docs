@@ -94,7 +94,7 @@ You can temporarily hide certain warning messages during a build rather than hav
 
 1. Choose the **Build** page and then, in the **Suppress warnings** box, specify the warning number **0168**.
 
-     ![Build page, Project Designer](../ide/media/buildwalk_csharpsupresswarnings.png)
+     ![Build page, Project Designer](../ide/media/buildwalk_csharpsuppresswarnings.png)
 
      For more information, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
 
@@ -114,7 +114,7 @@ You can temporarily hide certain warning messages during a build rather than hav
 
 3. On the **Compile** page, select the **Disable all warnings** check box.
 
-     ![Compile page, Project Designer](../ide/media/buildwalk_vbsupresswarnings.png)
+     ![Compile page, Project Designer](../ide/media/buildwalk_vbsuppresswarnings.png)
 
      For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
 
