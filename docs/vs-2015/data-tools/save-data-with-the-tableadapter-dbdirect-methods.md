@@ -55,7 +55,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 2.  Name the project **TableAdapterDbDirectMethodsWalkthrough**.  
   
-3.  Select **Windows Application**, and thenselect **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -64,13 +64,13 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1.  On the **Data** menu, select **Show Data Sources**.  
   
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
+3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.  
   
-4.  On the **Choose your Data Connection**screen, do one of the following:  
+4.  On the **Choose your Data Connection** screen, do one of the following:  
   
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
@@ -80,9 +80,9 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file**screen, select **Next**.  
+6.  On the **Save connection string to the Application Configuration file** screen, select **Next**.  
   
-7.  On the **Choose your Database Objects**screen, expand the **Tables** node.  
+7.  On the **Choose your Database Objects** screen, expand the **Tables** node.  
   
 8.  Select the `Region` table, and then select **Finish**.  
   

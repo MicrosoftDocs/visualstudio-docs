@@ -209,8 +209,8 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
      The concurrency error is raised, and the message box appears.  
   
-10. Selecting **No** cancels the update and updates the dataset with the values that are  currently in the database.Selecting **Yes** writes the proposed value to the database.  
+10. Selecting **No** cancels the update and updates the dataset with the values that are currently in the database. Selecting **Yes** writes the proposed value to the database.
   
-## See Also  
- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
+## See Also
 
+- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
