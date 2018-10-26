@@ -56,7 +56,7 @@ ms.workload:
  The Office PIAs are not required on end-user computers to run Office solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).  
   
 ### Use types in primary interop assemblies  
- The Office PIAs contain a combination of types that expose the object model of the Office applications and additional infrastructure types that are not intended to be used directly in your code. For an overview of the types in the Office PIAs, see [Overview of classes and interfaces in the Office primary interop assemblies](http://msdn.microsoft.com/da92dc3c-8209-44de-8095-a843659368d5).  
+ The Office PIAs contain a combination of types that expose the object model of the Office applications and additional infrastructure types that are not intended to be used directly in your code. For an overview of the types in the Office PIAs, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12//ms247299(v=office.12)).  
   
  Because the types in the Office PIAs correspond to types in the COM-based object models, the way you use these types is often different from other managed types. For example, the way you call methods that have optional parameters in an Office primary interop assembly depends on the programming language you are using in your project. For more information, see the following topics:  
   
