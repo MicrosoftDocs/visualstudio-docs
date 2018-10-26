@@ -95,7 +95,7 @@ private void MyButtonAddAllClick(object sender, EventArgs e)
          }
       }
         
-      // Supress repainting until all the objects have been created.
+      // Suppress repainting until all the objects have been created.
       myTreeViewBase.BeginUpdate();
 
       // Clear the 'TreeView' each time the method is called.
