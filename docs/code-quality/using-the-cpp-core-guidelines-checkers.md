@@ -129,10 +129,10 @@ These macros correspond to the rule sets and expand into a space-separated list 
 The Microsoft Visual C++ compiler has a limited support for the GSL suppress attribute. It can be used to suppress warnings on expression and block statements inside of a function.
 
 ```cpp
-// Supress only warnings from the 'r.11' rule in expression.
+// Suppress only warnings from the 'r.11' rule in expression.
 [[gsl::suppress(r.11)]] new int;
 
-// Supress all warnings from the 'r' rule group (resource management) in block.
+// Suppress all warnings from the 'r' rule group (resource management) in block.
 [[gsl::suppress(r)]]
 {
     new int;

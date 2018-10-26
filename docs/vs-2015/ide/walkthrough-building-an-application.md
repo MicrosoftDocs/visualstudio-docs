@@ -136,7 +136,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 3.  Choose the **Build** page and then, in the **Suppress warnings** box, specify the warning number `1762`.  
   
-     ![Build page, Project Designer](../ide/media/buildwalk-csharpsupresswarnings.png "BuildWalk_CsharpSupressWarnings")  
+     ![Build page, Project Designer](../ide/media/buildwalk-csharpsuppresswarnings.png "BuildWalk_CsharpSuppressWarnings")  
   
      For more information, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
@@ -156,7 +156,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 3. On the **Compile** page, select the **Disable all warnings** check box.  
   
-    ![Compile page, Project Designer](../ide/media/buildwalk-vbsupresswarnings.png "BuildWalk_VBSupressWarnings")  
+    ![Compile page, Project Designer](../ide/media/buildwalk-vbsuppresswarnings.png "BuildWalk_VBSuppressWarnings")  
   
     For more information, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  
   
