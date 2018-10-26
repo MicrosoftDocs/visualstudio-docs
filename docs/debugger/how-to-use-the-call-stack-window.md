@@ -51,7 +51,7 @@ When [debugging symbols](#bkmk_symbols) are not available for part of a call sta
 
   ![Call Stack Window](../debugger/media/dbg_basics_callstack_window.png "CallStackWindow")
 
-A yellow arrow identifies the stack frame where the execution pointer is currently located. By default, this is the stack frame whose information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).   
+A yellow arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).   
   
 ## Display non-user code in the Call Stack window  
   
@@ -69,7 +69,7 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
   
 2.  Select **Switch to Frame**.  
   
-     A green arrow with a curly tail appears next to the stack frame you selected. The execution pointer remains in the original frame, which is still marked with the yellow arrow. If you select **Step** or **Continue** from the **Debug** menu, execution will continue in the original frame, not the frame you just selected.  
+     A green arrow with a curly tail appears next to the stack frame you selected. The execution pointer remains in the original frame, which is still marked with the yellow arrow. If you select **Step** or **Continue** from the **Debug** menu, execution will continue in the original frame, not the frame you selected.  
   
 ## View the source code for a function on the call stack  
   
@@ -77,7 +77,7 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 ## Run to a specific function from the Call Stack window  
   
--  In the **Call Stack** window, select the function, right-click and  choose **Run to Cursor**.  
+-  In the **Call Stack** window, select the function, right-click, and then choose **Run to Cursor**.  
   
 ## Set a breakpoint on the exit point of a function call  
   
