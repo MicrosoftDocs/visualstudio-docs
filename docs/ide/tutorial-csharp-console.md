@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Tutorial: Get started with a C# console app in Visual Studio
 
-In this tutorial for C#, you'll use Visual Studio to create and run a console app while exploring some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md).
+In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md) while you do so.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -38,7 +38,7 @@ First, we'll create a C# application project. The project type comes with all th
 
 If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. You can add this workload in one of the two following ways, depending on which Visual Studio 2017 updates are installed on your machine.
 
-#### Method 1: Use the New Project dialog box
+#### Option 1: Use the New Project dialog box
 
 1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
@@ -48,7 +48,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
 
-#### Method 2: Use the Tools menu bar
+#### Option 2: Use the Tools menu bar
 
 1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
 
@@ -128,7 +128,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    ![Code editor showing the C# Console Calculator](../ide/media/csharp-console-calculator-code.png)
 
-1. Press **Calculator** or **F5** to run your program.
+1. Choose **Calculator** to run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](../ide/media/csharp-console-calculator-button.png)
 
