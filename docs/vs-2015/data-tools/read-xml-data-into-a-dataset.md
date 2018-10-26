@@ -57,7 +57,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2.  Name the project `ReadingXML`.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **ReadingXML** project is created and added to **Solution Explorer**.  
   
@@ -68,7 +68,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 1.  On the **Project** menu, select**Add New Item**.  
   
-2.  Select **XML File**, name the file `authors.xml`, and then select**Add**.  
+2.  Select **XML File**, name the file `authors.xml`, and then select **Add**.  
   
      The XML file loads into the designer and is ready for edit.  
   
@@ -181,7 +181,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2.  From the [Toolbox, Data Tab](../ide/reference/toolbox-data-tab.md), drag a **DataSet** onto **Form1**.  
   
-3.  In the **Add Dataset** dialog box, select **Untyped dataset**, and then select**OK**.  
+3.  In the **Add Dataset** dialog box, select **Untyped dataset**, and then select **OK**.  
   
      **DataSet1** is added to the component tray.  
   
@@ -226,7 +226,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 #### To test the form  
   
-1.  Select**F5** to run the application.  
+1.  Select **F5** to run the application.  
   
 2.  Select the **Read XML** button.  
   

@@ -83,7 +83,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  In the **Data Sources** window, click **Add New Data Source**.  
   
-     The **Data Source Configuration**wizard opens.  
+     The **Data Source Configuration** wizard opens.  
   
 3.  On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.  
   
@@ -116,7 +116,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  In the designer, right-click the **Fill,GetData()** query and select **Configure**.  
   
-     The **TableAdapter Configuration**wizard opens.  
+     The **TableAdapter Configuration** wizard opens.  
   
 3.  In the **Enter a SQL Statement** page, add the following WHERE clause after the `SELECT` statement in the text box.  
   

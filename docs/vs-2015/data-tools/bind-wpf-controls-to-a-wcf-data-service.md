@@ -91,7 +91,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 3.  Change the name to `AdventureWorksModel.edmx`, and click **Add**.  
   
-     The **Entity Data Model**wizard opens.  
+     The **Entity Data Model** wizard opens.  
   
 4.  On the **Choose Model Contents** page, click **Generate from database**, and click **Next**.  
   
@@ -155,7 +155,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 6.  In the **Data Sources** window, click **Add New Data Source**.  
   
-     The **Data Source Configuration**wizard opens.  
+     The **Data Source Configuration** wizard opens.  
   
 7.  In the **Choose a Data Source Type** page of the wizard, select **Service**, and then click **Next**.  
   

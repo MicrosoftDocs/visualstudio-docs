@@ -43,7 +43,7 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 |**Place open brace on new line for control blocks**|When this option is selected, the Code Editor moves the open brace associated with a control block (for example, `if` and `while` control blocks) to a new line.|
 
 ## Spacing
- These options determine how spaces are inserted in **Source**view.
+ These options determine how spaces are inserted in **Source** view.
 
 ## UIElement List
 
