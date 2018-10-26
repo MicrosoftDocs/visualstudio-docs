@@ -16,7 +16,7 @@ ms.workload:
 This dialog box lets you change the default behavior of the code editor scroll bar. To display these options, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder, and then choose **Scroll Bars**.
 
 > [!CAUTION]
-> This page sets default options for all development languages. Remember that resetting an option in this dialog will reset the Scroll Bars options in all languages to whatever choices are selected here. To change Text Editor options for just one language, expand the subfolder for that language and select its option pages.
+> This page sets default options for all development languages. Resetting an option in this dialog will reset the Scroll Bars options in all languages to whatever choices are selected here. To change Text Editor options for just one language, expand the subfolder for that language and select its option pages.
 
 ## Show horizontal scroll bar
 
@@ -28,20 +28,17 @@ When selected, displays a vertical scrollbar, which allows you to scroll up and 
 
 ## Display
 
-### Show annotations
+### Show annotations over vertical scroll bar
 
-You can select whether the scroll bar shows annotations such as code changes, breakpoints, bookmarks, errors, and caret position.
+Select whether the vertical scroll bar shows the following annotations:
 
-   1. On the **Scroll Bars** options page, select **Show Annotations over vertical scroll bar**. 
-   2. Select the annotations you want to see. The available annotations are:
+- changes
+- marks
+- errors
+- caret position
 
-      - changes
-      - marks
-      - errors
-      - caret position
-
-      > [!TIP]
-      > The **Show marks** option includes breakpoints and bookmarks.
+> [!TIP]
+> The **Show marks** option includes breakpoints and bookmarks.
 
 Try it out by opening a large code file and replacing some text that occurs in several places in the file. The scroll bar shows you the effect of the replacements, so you can back out your changes if you replaced something you shouldn't have.
 
