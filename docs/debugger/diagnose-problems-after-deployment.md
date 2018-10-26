@@ -38,7 +38,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 Visual Studio 2017 does not include the *BuildInfo.config* file, which was deprecated and then removed. To debug ASP.NET web apps after deployment, use one of the following methods:
 
-* For deployment to Azure, use [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/).
+* For deployment to Azure, use [Application Insights](https://docs.microsoft.com/azure/application-insights/).
 
 * If you need to use IntelliTrace, open the project in Visual Studio and load the symbol files from the matching build. You can load symbol files from the **Modules** window or by configuring symbols in **Tools** > **Options** > **Debugging** > **Symbols**.
 

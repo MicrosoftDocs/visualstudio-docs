@@ -95,7 +95,7 @@ When evaluating the import, [!INCLUDE[vstecmsbuild](../extensibility/internals/i
    This resolver locates project SDKs such as `Microsoft.NET.Sdk` and `Microsoft.NET.Sdk.Web` which are part of the product.
 3. A default resolver that resolves SDKs that were installed with MSBuild.
 
-The NuGet-based SDK resolver supports specifying a version in your [global.json](https://docs.microsoft.com/en-us/dotnet/core/tools/global-json) that allows you to control the project SDK version in one place rather than in each individual project:
+The NuGet-based SDK resolver supports specifying a version in your [global.json](https://docs.microsoft.com/dotnet/core/tools/global-json) that allows you to control the project SDK version in one place rather than in each individual project:
 
 ```json
 {

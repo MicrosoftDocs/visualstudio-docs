@@ -20,7 +20,7 @@ manager: "ghogen"
 # How to: Upgrade Visual C++ Projects to Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the lastest documentation for Visual Studio 2017, see [Visual C++ Porting and Upgrading Guide](https://docs.microsoft.com/en-us/cpp/porting/visual-cpp-porting-and-upgrading-guide).
+For the lastest documentation for Visual Studio 2017, see [Visual C++ Porting and Upgrading Guide](https://docs.microsoft.com/cpp/porting/visual-cpp-porting-and-upgrading-guide).
 
 When you first open a Visual C++ project that was created in an earlier version of Visual Studio, you might be prompted to update the project. The message asks whether you want to upgrade to the most recent version of the Visual C++ compiler and libraries. The options for upgrading depend on the version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that was used to create the project.  
   
