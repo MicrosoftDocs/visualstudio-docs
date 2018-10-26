@@ -138,7 +138,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 6.  On the **Debug** menu, choose **Step Into**.  
   
-     The value of textBox1.Text changes in the **Watch1**window to:  
+     The value of textBox1.Text changes in the **Watch1** window to:  
   
     ```  
     Button was clicked!  

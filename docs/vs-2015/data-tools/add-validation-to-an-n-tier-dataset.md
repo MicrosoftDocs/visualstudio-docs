@@ -65,7 +65,7 @@ End Sub
   
 3.  Add code to verify that `e.ProposedValue` contains data that meets the requirements of your application. If the proposed value is unacceptable, set the column to indicate that it contains an error.  
   
-     The following code example validates that the **Quantity** column contains more than 0. If**Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if**Quantity** is more than 0. The code in the column-changing event handler should resemble the following:  
+     The following code example validates that the **Quantity** column contains more than 0. If **Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if **Quantity** is more than 0. The code in the column-changing event handler should resemble the following:  
   
     ```vb  
     If (e.Column.ColumnName = Me.QuantityColumn.ColumnName) Then  

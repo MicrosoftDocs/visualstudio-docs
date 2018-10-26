@@ -31,7 +31,7 @@ The most recent version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides
   
 ### To enable .NET Framework source debugging  
   
-1.  On the **Tools** menu, click **Option**s.  
+1.  On the **Tools** menu, click **Options**.  
   
 2.  In the **Options** dialog box, click the **Debugging** category.  
   

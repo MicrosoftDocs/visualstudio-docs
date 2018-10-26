@@ -89,7 +89,7 @@ You can use this capability to debug apps that are running on a local or remote 
   
    2. Click the drop-down arrow attached to the **Qualifier** list box and select the computer name from the drop-down list.  
   
-   3. Click the **Find** button next to the**Qualifier** list to open the **Select Remote Debugger Connection** dialog box. The **Select Remote Debugger Connection** dialog box lists all the devices that are on your local sub-net, and any device that is directly attached to your computer through an Ethernet cable. Click the computer or device that you want, and then click **Select**. 
+   3. Click the **Find** button next to the **Qualifier** list to open the **Select Remote Debugger Connection** dialog box. The **Select Remote Debugger Connection** dialog box lists all the devices that are on your local sub-net, and any device that is directly attached to your computer through an Ethernet cable. Click the computer or device that you want, and then click **Select**. 
   
       The **Qualifier** setting persists between debugging sessions only if a successful debugging connection occurs with that qualifier.
      
