@@ -7,7 +7,6 @@ ms.topic: reference
 f1_keywords:
   - "VS.Environment.Web Browser"
   - "VS.ToolsOptionsPages.Environment.WebBrowser"
-  - "VS.ToolsOptionsPag.Environment.Web_Browser"
   - "VS.ToolsOptionsPages.Environment.Web_Browser"
 helpviewer_keywords:
   - "browsers, customizing"

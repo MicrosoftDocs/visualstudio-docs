@@ -5,7 +5,6 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPag.Environment.Fonts_And_Colors"
   - "VS.ToolsOptionsPages.FontsAndColors"
   - "VS.ToolsOptionsPages.Environment.Fonts_And_Colors"
   - "VS.Environment.Fonts And Colors"
