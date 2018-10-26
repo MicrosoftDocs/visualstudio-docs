@@ -69,12 +69,9 @@ ms.topic: hub-page
     <div class="container">
         <h1>Visual Studio Documentation</h1>
         <ul class="pivots">
-            <li>
-                <li>
-                <a href="#get-started">Get Started</a>
+            <li><a href="#get-started">Get Started</a>
                 <ul id="get-started">
-                    <li>
-                        <a href="#get-started1"></a>
+                    <a href="#get-started1"></a>
                         <ul id="get-started1" class="cardsL">
                             <li>
                                <div class="cardSize">
@@ -83,12 +80,12 @@ ms.topic: hub-page
                                             <div class="cardText">
                                                 <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Guided tour icon" />Start a guided tour</a></li>
-                                                    <li><a class="barLink" href="ide/index-writing-code.md"><img  src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="Pencil icon" />Write and edit code</a></li>
-                                                    <li><a class="barLink" href="ide/compiling-and-building-in-visual-studio.md"><img  src="https://docs.microsoft.com/media/common/i_build.svg" alt="Crane icon" />Build your code</a></li>
-                                                    <li><a class="barLink" href="debugger/getting-started-with-the-debugger.md"><img  src="https://docs.microsoft.com/media/common/i_debug.svg" alt="Debug icon" />Debug your code</a></li>
-                                                    <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img  src="https://docs.microsoft.com/media/common/i_test.svg" alt="Science flask icon" />Test your code</a></li>
-                                                    <li><a class="barLink" href="data-tools/create-a-sql-database-by-using-a-designer.md"><img  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="Database icon" />Access data locally or in the cloud</a></li>
+                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img height="60" width="60" src="https://docs.microsoft.com/media/common/i_overview.svg" alt="Guided tour icon" />Start a guided tour</a></li>
+                                                    <li><a class="barLink" href="ide/index-writing-code.md"><img height="60" width="60"  src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="Pencil icon" />Write and edit code</a></li>
+                                                    <li><a class="barLink" href="ide/compiling-and-building-in-visual-studio.md"><img height="60" width="60"  src="https://docs.microsoft.com/media/common/i_build.svg" alt="Crane icon" />Build your code</a></li>
+                                                    <li><a class="barLink" href="debugger/getting-started-with-the-debugger.md"><img height="60" width="60"  src="https://docs.microsoft.com/media/common/i_debug.svg" alt="Debug icon" />Debug your code</a></li>
+                                                    <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img height="60" width="60"  src="https://docs.microsoft.com/media/common/i_test.svg" alt="Science flask icon" />Test your code</a></li>
+                                                    <li><a class="barLink" href="data-tools/create-a-sql-database-by-using-a-designer.md"><img height="60" width="60"  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="Database icon" />Access data locally or in the cloud</a></li>
                                                 </ul>
                                             </div>
                                         </div>
