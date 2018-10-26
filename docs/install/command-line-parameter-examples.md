@@ -37,8 +37,7 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.ex
 * Update a Visual Studio instance by using the command line, with no interactive prompts but progress displayed:
 
   ```cmd
-  vs_enterprise.exe --update --quiet --wait
-  vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
+  vs_enterprise.exe update --passive --installpath "C:\installPathVS"
   ```
 
   > [!NOTE]
