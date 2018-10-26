@@ -56,7 +56,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ## Create a "C# Console Calculator" app
 
-1. After creating a new **C# Console Application**, enter or paste the following code into the code editor:
+1. After you create the **C# Console Application**, enter or paste the following code into the code editor:
 
     ```csharp
     using System;
