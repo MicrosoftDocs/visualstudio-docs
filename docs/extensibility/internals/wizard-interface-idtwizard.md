@@ -31,7 +31,7 @@ STDMETHOD(Execute)(THIS_
    );  
 ```  
   
- The start mechanism is similar for both the **New Project** and **Add New Item**wizards. To start either, you call the <xref:EnvDTE.IDTWizard> interface defined in Dteinternal.h. The only difference is the set of context and custom parameters that are passed to the interface when the interface is called.  
+ The start mechanism is similar for both the **New Project** and **Add New Item** wizards. To start either, you call the <xref:EnvDTE.IDTWizard> interface defined in Dteinternal.h. The only difference is the set of context and custom parameters that are passed to the interface when the interface is called.  
   
  The following information describes the <xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. The IDE calls the <xref:EnvDTE.IDTWizard.Execute%2A> method on the wizard, passing it the following:  
   

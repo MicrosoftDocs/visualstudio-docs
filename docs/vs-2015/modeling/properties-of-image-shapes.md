@@ -37,7 +37,7 @@ You can use image shapes to specify how domain classes appear in a generated des
   
 - .png  
   
-  By default, designer resource files, such as image files, are located in the **Resources**folder in the **Dsl** project.  
+  By default, designer resource files, such as image files, are located in the **Resources** folder in the **Dsl** project.  
   
   For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   

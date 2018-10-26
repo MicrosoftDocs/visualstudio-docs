@@ -60,7 +60,7 @@ ms.workload:
   
 #### To add a safe control  
   
-1.  Open the **Edit Existing Assembly** dialog box. To accomplish this, open the Package Designer, choose the **Advanced** tab, choose an assembly, and then choose the **Edit**button.  
+1.  Open the **Edit Existing Assembly** dialog box. To accomplish this, open the Package Designer, choose the **Advanced** tab, choose an assembly, and then choose the **Edit** button.  
   
 2.  In the **Safe Controls** pane, choose the **Click here to add a new item** button.  
   

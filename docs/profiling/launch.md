@@ -32,7 +32,7 @@ VSPerfCmd.exe /Launch:AppName [Options]
  **Start:** `Method`  
  Initializes the command-line profiler session and sets the specified profiling method.  
   
- **GlobalOn**and **GlobalOff**  
+ **GlobalOn** and **GlobalOff**  
  Resumes (**GlobalOn**) or pauses (**GlobalOff**) profiling, but does not end the profiling session.  
   
  **ProcessOn:** `PID` and **ProcessOff**:`PID`  

@@ -43,7 +43,7 @@ You can extend the functionality of a TableAdapter by adding code to the TableAd
   
 2.  Name the class `CustomersTableAdapterExtended`.  
   
-3.  Select**Add**.  
+3.  Select **Add**.  
   
 4.  Replace the code with the correct namespace and partial class name for your project as follows:  
   

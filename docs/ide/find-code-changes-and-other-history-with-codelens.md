@@ -121,7 +121,7 @@ You can find out how many people changed your code and how many changes were mad
 
 ### Find when your code was branched
 
-To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press**Alt**+**6**:
+To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press **Alt**+**6**:
 
 ![CodeLens: Find when your code was branched](../ide/media/codelens-first-branch.png)
 
