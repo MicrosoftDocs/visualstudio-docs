@@ -310,7 +310,7 @@ ms.topic: hub-page
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Debug</h3>
-                                                    <p>Investigate and fix problems with your code.</p>
+                                                    <p>Investigate and fix bugs in your code.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -404,7 +404,7 @@ ms.topic: hub-page
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Improve Performance</h3>
+                                                    <h3>Optimized For Performance</h3>
                                                     <p>Identify bottlenecks and optimize code performance by using diagnostic tools.
                                                     </p>
                                                 </div>
