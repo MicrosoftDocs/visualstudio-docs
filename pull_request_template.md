@@ -4,11 +4,12 @@ Before submitting your PR, please check your content against these quality crite
 - Did you review the staged content?
 - For new articles, did you add it to the TOC?
 - Did you update ms.date for new or significantly updated articles?
-- Did you consider SEO in the metadata title, page tite (H1 heading), and summary (first paragraph)?
+- Did you consider [SEO](https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-seo-basics?branch=master) when you chose the title in the metadata, the H1 heading (displayed title), and summary (first paragraph)?
 - Is the content concise and conversational?
-- Are technical terms and concepts introduced and explained, and are acronyms spelled out on first usage?
+- Are technical terms and concepts introduced and explained, and are acronyms spelled out on first mention?
 - Do screenshots display any personally identifiable information?
-- Should this article be linked to from other topics or Microsoft web sites?
+- Do all the images you added have [alt text](https://review.docs.microsoft.com/en-us/help/contribute/contribute-alt-text?branch=master)?
+- Should this page be linked to from other pages or Microsoft web sites?
 
 Additional resources:
 
