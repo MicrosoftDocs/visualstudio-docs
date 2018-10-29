@@ -1,7 +1,7 @@
 ---
 title: "View the call stack in the Visual Studio debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "10/26/2018"
+ms.date: "10/29/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -31,11 +31,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# View the call stack and use the Call Stack Window in the Visual Studio debugger
+# View the call stack and use the Call Stack window in the debugger
 
 By using the **Call Stack** window, you can view the function or procedure calls that are currently on the stack. The **Call Stack** window shows the order in which methods and functions are getting called. The call stack is a good way to examine and understand the execution flow of an app.
   
-When [debugging symbols](#bkmk_symbols) are not available for part of a call stack, the **Call Stack** window might not be able to display correct information for that part of the call stack, as noted by:  
+When [debugging symbols](#bkmk_symbols) are not available for part of a call stack, the **Call Stack** window might not be able to display correct information for that part of the call stack, displaying instead:  
   
 `[Frames below may be incorrect and/or missing, no symbols loaded for name.dll]`
 
@@ -59,7 +59,7 @@ A yellow arrow identifies the stack frame where the execution pointer is current
 
 Non-user code is any code that is not shown when [Just My Code](../debugger/just-my-code.md) is enabled. In managed code, non-user code frames are hidden by default. The following notation appears in place of the non-user code frames:  
   
-`[\<External Code>]`
+`[<External Code>]`
   
 ## <a name="bkmk_switch"></a> Switch to another stack frame (change the debugger context)
   
@@ -91,7 +91,7 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 In Visual Studio Enterprise (only), you can view code maps for the call stack while debugging.
 
-- In the **Call Stack** window, open the shortcut menu. Choose **Show Call Stack on Code Map** (**CTRL** + **SHIFT** + **`**).  
+- In the **Call Stack** window, open the shortcut menu. Choose **Show Call Stack on Code Map** (**Ctrl** + **Shift** + **`**).  
   
     For more information, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).
 
@@ -105,10 +105,10 @@ In Visual Studio Enterprise (only), you can view code maps for the call stack wh
   
 -   Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
   
-## <a name="bkmk_symbols"></a> Load Symbols for a module
+## <a name="bkmk_symbols"></a> Load symbols for a module
 In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET Framework or system symbols downloaded from the Microsoft public symbol servers, or symbols in a symbol path on the computer that you are debugging.  
   
-See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
+See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
   
 ### To load symbols  
   
@@ -132,8 +132,8 @@ See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-
   
 5.  Select **OK** to close the **Options** dialog box.  
   
-## See Also  
- [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)  
- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
- [Using Breakpoints](../debugger/using-breakpoints.md)
+## See also  
+ [Mixed code and missing information in the Call Stack window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)  
+ [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)   
+ [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
+ [Using breakpoints](../debugger/using-breakpoints.md)
