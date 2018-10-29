@@ -83,9 +83,10 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    using System.Linq;
    ```
    
-- Add usings for types in reference assemblies and NuGet packages 
+- Suggest usings for types in reference assemblies 
+- Suggest usings for types in NuGet packages 
 
-   When selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
+   When these are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
   
@@ -100,6 +101,16 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 - Enter outlining mode when files open
 
    When selected, automatically outlines the code file, which creates collapsible blocks of code. The first time a file is opened, #regions blocks and inactive code blocks collapse.
+
+- Show procedure line separators
+
+   The text editor indicates visual scope of procedures. A line is drawn in the *.vb* source files of your project at locations listed in the following table:
+
+   |Location in .vb Source File|Example of Line Location|
+   |---------------------------------|------------------------------|
+   |After the close of a block declaration construct|-   At the end of a class, structure, module, interface, or enum<br />-   After a property, function, or sub<br />-   Not between the get and set clauses in a property|
+   |After a set of single line constructs|-   After the import statements, before a type definition in a class file<br />-   After variables declared in a class, before any procedures|
+   |After single line declarations (non-block level declarations)|-   Following import statements, inherits statements, variable declarations, event declarations, delegate declarations, and DLL declare statements|
 
 ## Editor Help
 

@@ -6,7 +6,6 @@ ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
-  - "VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.Spacing"
 helpviewer_keywords:
   - "element spacing, XAML view settings"
@@ -90,22 +89,11 @@ You can specify which events cause auto-formatting.
 ## Element Spacing
  Use this setting to control how elements are arranged in your XAML document
 
-
 | | |
 | - | - |
 | **Preserve new lines in content** | Empty lines in element content are not removed.<br /><br /> `<Grid>`<br /><br /> ``<br /><br /> ``<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> ``<br /><br /> `</Grid>\` |
 | **Collapse multiple empty lines in content to a single line** | Empty lines in element content are collapsed to a single line.<br /><br /> `<Grid>`<br /><br /> ``<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> ``<br /><br /> `</Grid>` |
 | **Remove empty lines in content** | All empty lines in element content are removed.<br /><br /> `<Grid>`<br /><br /> `<Button Name="button1">Hello</Button>`<br /><br /> `</Grid>` |
-
-## Miscellaneous section, Auto Insert
- Use this setting to control when tags and quotes are automatically generated.
-
-|||
-|-|-|
-|**Closing tags**|Specifies whether an element's closing tag is automatically generated when you close the opening tag with the greater than character (>).|
-|**Attribute quotes**|Specifies whether enclosing quotes are generated when an attribute value is selected from the statement completion drop-down list.|
-|**Closing braces for MarkupExtensions**|Specifies whether a markup extension's closing brace (}) is automatically generated when you type the opening brace character ({).|
-|**Commas to separate MarkupExtension parameters**|Specifies whether commas are generated when you type more than one parameter in a markup extension.|
 
 ## See also
 
