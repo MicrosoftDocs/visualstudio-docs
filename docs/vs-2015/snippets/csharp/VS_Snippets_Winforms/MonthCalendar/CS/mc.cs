@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using System.Data;
 using System.IO ;
 
-namespace MonthCalender
+namespace MonthCalendar
 {
     /// <summary>
     /// Summary description for Form1.
