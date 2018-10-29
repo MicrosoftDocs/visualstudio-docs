@@ -24,21 +24,19 @@ You can use Visual Studio to run, debug, profile, and test a Universal Windows P
 
 To debug a UWP app on a remote device from Visual Studio:  
   
+- The Visual Studio project must be configured for remote debugging.
 - The remote machine and the Visual Studio computer must be connected over a network, or connected directly through a USB or Ethernet cable. Debugging over the internet is not supported.  
-- You must [enable developer mode](/windows/uwp/get-started/enable-your-device-for-development) on both the Visual Studio computer and the remote machine. 
-- The remote computer must be running the Remote Tools for Visual Studio. 
-  - Windows 10 PCs running Creator's Update (version 1703) and later, and Windows 10 Xbox, IoT, and HoloLens devices, install and start the remote tools automatically. 
-  - On pre-Creator's Update Windows 10 PCs, you must [install and start the remote tools manually](#BKMK_download) before you start debugging. 
-  - Windows Mobile 10 devices do not require or support the remote tools.   
+- You must [turn on developer mode](/windows/uwp/get-started/enable-your-device-for-development) on both the Visual Studio computer and the remote machine. 
+- Remote computers must be running the [Remote Tools for Visual Studio](#BKMK_download). Windows Mobile 10 devices don't require or support the remote tools. 
 
 ##  <a name="BKMK_ConnectVS"></a> Configure a Visual Studio project for remote debugging
-
+<a name="BKMK_DirectConnect"></a>
 You use the project **Properties** to specify the remote device to connect to. The settings differ depending on the programming language. 
 
 > [!WARNING]
 > By default, the property page sets **Universal (Unencrypted Protocol)** as the **Authentication Type** for Windows 10 remote connections. **Universal (Unencrypted Protocol)** and **No Authentication** protocols have no network security, so data passed between the development and remote machines is vulnerable. Choose these authentication types only for trusted networks that you are sure are not at risk from malicious or hostile traffic. 
 >
->If you choose **Windows Authentication** for the **Authentication Type**, you will need to sign in to the remote machine when debugging, and the remote tools on the remote machine must be running under the same user account as Visual Studio on the local machine.
+>If you choose **Windows Authentication** for the **Authentication Type**, you will need to sign in to the remote machine when debugging. The remote tools on the remote machine must also be running under **Windows Authentication** mode with the same user account as Visual Studio on the local machine.
 
 ###  <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> Configure a C# or Visual Basic project for remote debugging  
 
@@ -46,55 +44,41 @@ You use the project **Properties** to specify the remote device to connect to. T
   
 1.  Select the **Debug** tab.  
   
-1.  Under **Target device**, select **Remote Machine**.  
+1.  Under **Target device**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.  
   
-1.  Enter the network name or IP address of the remote device in the **Remote machine** field, or select **Find** to search for the device in the [Remote Connections dialog box](#remote-connections). 
+1.  For a remote machine, enter the network name or IP address in the **Remote machine** field, or select **Find** to search for the device in the [Remote Connections dialog box](#remote-connections). 
     
     ![Managed project properties for remote debugging](../debugger/media/vsrun_managed_projprop_remote.png "Managed Debug project properties")  
     
-    > [!TIP]
-    >  If you can't connect to a remote device by name, try using its IP address. To determine the IP address, on the device, type **ipconfig** in a command window. The IP address is listed as **IPv4 Address**.  
-    
-1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save changes.
-
 ###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> Configure a JavaScript or C++ project for remote debugging   
   
-1. Select the C++ or JavaScript project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1.  Select the C++ or JavaScript project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
   
 1.  Select the **Debugging** tab.  
   
-3.  Under **Debugger to launch**, select **Remote Machine**.  
+3.  Under **Debugger to launch**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device. 
   
-1.  Under **Machine Name**, enter or select the network name or IP address of the remote device, or drop down and select **Locate** to search for the device in the [Remote Connections dialog box](#remote-connections). 
+1.  For a remote machine, enter or select the network name or IP address in the **Machine Name** field, or drop down and select **Locate** to search for the device in the [Remote Connections dialog box](#remote-connections). 
 
     ![C++ project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "C++ Debugging project properties")
     
-    > [!TIP]
-    >If you can't connect to a remote device by name, try using its IP address. To determine the IP address, on the device, type **ipconfig** in a command window. The IP address is listed as **IPv4 Address**.  
-    
-1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save changes.
-
 ### <a name="remote-connections"></a> Use the Remote Connections dialog box
 
-In the **Remote Connections** dialog box, you can search for a specific remote computer name or IP address, or auto-detect connections by selecting the rounded-arrow refresh icon. The dialog searches only devices on the local subnet that are currently running the remote debugger.  
+In the **Remote Connections** dialog box, you can search for a specific remote computer name or IP address, or auto-detect connections by selecting the rounded-arrow refresh icon. The dialog searches only devices on the local subnet that are currently running the remote debugger. Not all devices can be detected in the **Remote Connections** dialog box. 
 
  ![Remote Connection dialog box](../debugger/media/vsrun_selectremotedebuggerdlg.png "Remote Connections dialog")  
 
-##  <a name="BKMK_DirectConnect"></a> Configure remote debugging on Windows Mobile 10 devices
-
-To configure remote debugging on Windows Mobile 10 devices:
-
-- Physically connect the Windows Mobile 10 device to the computer with a USB cable.
-- Enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development) on the Windows Mobile 10 device and the Visual Studio computer.
-- Configure your Visual Studio project for remote debugging, selecting **Device** instead of **Remote Machine** as the target debugger on the properties page.
-
+>[!TIP]
+>If you can't connect to a remote device by name, try using its IP address. To determine the IP address, on the remote device, enter **ipconfig** in a command window. The IP address appears as **IPv4 Address**.  
+    
 ## <a name="BKMK_download"></a> Download and install the Remote Tools for Visual Studio
 
-To use Visual Studio to debug UWP apps on a remote computer, the remote computer must be running the Remote Tools for Visual Studio. 
+For Visual Studio to debug apps on a remote computer, the remote computer must be running the Remote Tools for Visual Studio. Windows Mobile 10 devices do not require or support the remote tools. 
 
-Windows 10 PCs running Creator's Update (version 1703) and later, and Windows 10 Xbox, IoT, and HoloLens devices, install and start the remote tools automatically when you start debugging in Visual Studio. 
+Windows 10 PCs running Creator's Update (version 1703) and later, Windows 10 Xbox, IoT, and HoloLens devices may install the remote tools automatically when you deploy the app. 
 
-Windows Mobile 10 devices do not require or support the remote tools. 
+
+
 
 On pre-Creator's Update Windows 10 PCs, you must manually download, install, and be running the remote tools on the remote computer before you start debugging.
 
