@@ -27,16 +27,18 @@ To debug a UWP app on a remote device from Visual Studio:
 - The Visual Studio project must be configured for remote debugging.
 - The remote machine and the Visual Studio computer must be connected over a network, or connected directly through a USB or Ethernet cable. Debugging over the internet is not supported.  
 - You must [turn on developer mode](/windows/uwp/get-started/enable-your-device-for-development) on both the Visual Studio computer and the remote machine. 
-- Remote computers must be running the [Remote Tools for Visual Studio](#BKMK_download). Windows Mobile 10 devices don't require or support the remote tools. 
+- Remote computers must be running the [Remote Tools for Visual Studio](#BKMK_download). 
+  - Some Windows 10 versions start and run the remote tools automatically. Otherwise, [install and run the Remote Tools for Visual Studio](#BKMK_download).
+  - Windows Mobile 10 devices don't require or support the remote tools. 
 
 ##  <a name="BKMK_ConnectVS"></a> Configure a Visual Studio project for remote debugging
 <a name="BKMK_DirectConnect"></a>
 You use the project **Properties** to specify the remote device to connect to. The settings differ depending on the programming language. 
 
-> [!WARNING]
-> By default, the property page sets **Universal (Unencrypted Protocol)** as the **Authentication Type** for Windows 10 remote connections. **Universal (Unencrypted Protocol)** and **No Authentication** protocols have no network security, so data passed between the development and remote machines is vulnerable. Choose these authentication types only for trusted networks that you are sure are not at risk from malicious or hostile traffic. 
+> [!CAUTION]
+> By default, the property page sets **Universal (Unencrypted Protocol)** as the **Authentication Type** for Windows 10 remote connections. You may need to set **No Authentication** to connect to the remote debugger. **Universal (Unencrypted Protocol)** and **No Authentication** protocols have no network security, so data passed between the development and remote machines is vulnerable. Choose these authentication types only for trusted networks that you are sure are not at risk from malicious or hostile traffic. 
 >
->If you choose **Windows Authentication** for the **Authentication Type**, you will need to sign in to the remote machine when debugging. The remote tools on the remote machine must also be running under **Windows Authentication** mode with the same user account as Visual Studio on the local machine.
+>If you choose **Windows Authentication** for the **Authentication Type**, you will need to sign in to the remote machine when debugging. The remote debugger must also be running under **Windows Authentication** mode, with the same user account as on the Visual Studio machine.
 
 ###  <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> Configure a C# or Visual Basic project for remote debugging  
 
@@ -73,14 +75,11 @@ In the **Remote Connections** dialog box, you can search for a specific remote c
     
 ## <a name="BKMK_download"></a> Download and install the Remote Tools for Visual Studio
 
-For Visual Studio to debug apps on a remote computer, the remote computer must be running the Remote Tools for Visual Studio. Windows Mobile 10 devices do not require or support the remote tools. 
+For Visual Studio to debug apps on a remote computer, the remote computer must be running the Remote Tools for Visual Studio. 
 
-Windows 10 PCs running Creator's Update (version 1703) and later, Windows 10 Xbox, IoT, and HoloLens devices may install the remote tools automatically when you deploy the app. 
-
-
-
-
-On pre-Creator's Update Windows 10 PCs, you must manually download, install, and be running the remote tools on the remote computer before you start debugging.
+- Windows Mobile 10 devices do not require or support the remote tools. 
+- Windows 10 PCs running Creator's Update (version 1703) and later, Windows 10 Xbox, IoT, and HoloLens devices install the remote tools automatically when you deploy the app. 
+- On pre-Creator's Update Windows 10 PCs, you must manually download, install, and be running the remote tools on the remote computer before you start debugging.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
