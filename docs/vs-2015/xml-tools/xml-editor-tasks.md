@@ -47,7 +47,7 @@ This section describes how to complete common tasks with the XML Editor.
  Demonstrates how to create new XML snippets.  
   
  [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md)  
- Demonstrates how to use XSLT IntelliSence feature.  
+ Demonstrates how to use XSLT IntelliSense feature.  
   
  [Walkthrough: Using XSLT Hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md)  
  Demonstrates how to debug a referenced style sheet.  
