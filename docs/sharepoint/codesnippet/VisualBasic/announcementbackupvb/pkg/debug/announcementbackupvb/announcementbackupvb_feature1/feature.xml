@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="My SharePoint Workflow Feature" Id="94758d45-fb3f-4481-8a0d-39a3c4773514" Scope="Site" Title="AnnouncementBackupVB Feature1">
-  <Properties>
-    <Property Key="GloballyAvailable" Value="true" />
-  </Properties>
-  <ElementManifests>
-    <ElementManifest Location="Workflow1\Elements.xml" />
-  </ElementManifests>
-</Feature>
