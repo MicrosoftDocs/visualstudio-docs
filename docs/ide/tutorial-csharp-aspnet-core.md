@@ -2,7 +2,7 @@
 title: "Get started with C# and ASP.NET Core in Visual Studio"
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: ""
-ms.date: 09/17/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -21,7 +21,19 @@ ms.workload:
 
 In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, make changes to it, explore some features of the IDE, and then run the app.
 
+## Before you begin
+
+### Install Visual Studio
+
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+
+### Update Visual Studio
+
+If you've already installed Visual Studio, make sure that you are running the most recent release. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
+
+### Choose your theme (optional)
+
+This tutorial includes screenshots that use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](quickstart-personalize-the-ide.md) page to learn how.
 
 ## Create a project
 
@@ -41,7 +53,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 #### Option 1: Use the New Project dialog box
 
-1. Select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+1. Select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. (Depending on your display settings, you might have to scroll to see it.)
 
    ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/open-visual-studio-installer-mycoreapp.png)
 
@@ -66,6 +78,9 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 1. Verify that **ASP.NET Core 2.1** appears in the top drop-down menu. Then, choose **OK**.
 
    ![New ASP.NET Core Web Application dialog box](../ide/media/new-project-csharp-aspnet-razor-web-app.png)
+
+   > [!NOTE]
+   > If you don't see **ASP.NET Core 2.0** or later from the top drop-down menu, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
 
 ### About your solution
 
