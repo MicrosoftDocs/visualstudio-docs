@@ -1,7 +1,7 @@
 ---
 title: "View Threads in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2018"
+ms.date: "10/29/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -28,34 +28,35 @@ ms.workload:
 ---
 # View threads in the Visual Studio debugger by using the Threads window
 In the **Threads** window, you can examine and work with threads in the application that you're debugging. For step-by-step guidance on how to use the **Threads** window, see [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).
+
+## Threads window details 
+ The **Threads** window contains a table where each row describes a separate thread in your application. By default, the table lists all the threads in your application, but you can filter the list to show only the threads that interest you. Each column describes a different type of information. You can also hide some columns. If you display all the columns, the following columns appear, from left to right:  
   
- The **Threads** window contains a table where each row describes a thread in your application. By default, the table lists all the threads in your application, but you can filter the list to show only the threads that interest you. Each column contains a different type of information. You can also hide some columns. If you display all the columns, the following information appears, from left to right:  
+- Flag: With this column, you can mark a thread to which you want to pay special attention. For information about how to flag a thread, see [How to: Flag and unflag threads](../debugger/how-to-flag-and-unflag-threads.md).  
   
--   The flag column, where you can mark a thread to which you want to pay special attention. For information about how to flag a thread, see [How to: Flag and unflag threads](../debugger/how-to-flag-and-unflag-threads.md).  
+- Current thread: A yellow arrow indicates the current thread. An arrow outline indicates the current debugger context for a non-current thread.
   
--   The current thread column, in which a yellow arrow indicates the current thread (an arrow outline indicates the current debugger context for a non-current thread).
+- **ID**: Displays the identification number for each thread.  
   
--   The **ID** column, which contains the identification number for each thread.  
+- **Managed ID**: Displays the managed identification numbers for managed threads.  
   
--   The **Managed ID** column, which contains the managed identification numbers for managed threads.  
+- **Category**: Displays the category of threads as either user interface threads, remote procedure call handlers, or worker threads. A special category identifies the main thread of the application.  
   
--   The **Category** column, which categorizes threads as user interface threads, remote procedure call handlers, or worker threads. A special category identifies the main thread of the application.  
+- **Name**: Identifies each thread by name, if it has one, or as \<No Name>.  
   
--   The **Name** column, which identifies each thread by name, if it has one, or as \<No Name>.  
+- **Location**: Shows where the thread is running. You can expand this location to show the full call stack for the thread.  
   
--   The **Location** column, which shows where the thread is running. You can expand this location to show the full call stack for the thread.  
+- **Priority**: An advanced column (hidden by default) that displays the priority or precedence that the system has assigned to each thread.  
   
--   The **Priority** column, which contains the priority or precedence that the system has assigned to each thread.  
+- **Affinity Mask**: An advanced column (hidden by default) that shows the processor affinity mask for each thread. In a multiprocessor system, the affinity mask determines which processors on which a thread can run.  
   
--   The **Affinity Mask** column, which is an advanced column (usually hidden). This column shows the processor affinity mask for each thread. In a multiprocessor system, the affinity mask determines which processors on which a thread can run.  
+- **Suspended Count**: An advanced column (hidden by default) that displays the suspended count. This count determines whether a thread can run. For more information about suspended counts, see [Freeze and thaw threads](#freeze-and-thaw-threads).  
   
--   The **Suspended Count** column (usually hidden), which contains the suspended count and is usually hidden. This count determines whether a thread can run. For an explanation of suspended count, see [Freeze and thaw threads](#freeze-and-thaw-threads).  
-  
--   The **Process Name** column (usually hidden), which contains the process to which each thread belongs. This column can be useful when you're debugging many processes.  
+- **Process Name**: An advanced column (hidden by default) that displays the process to which each thread belongs. The data in this column can be useful when you're debugging many processes.  
   
 ### To display the Threads window in break mode or run mode  
   
--   While debugging, select the **Debug** menu, point to **Windows**, and then select **Threads**.  
+-   While Visual Studio is in debug mode, select the **Debug** menu, point to **Windows**, and then select **Threads**.  
   
 ### To display or hide a column  
   
@@ -64,21 +65,21 @@ In the **Threads** window, you can examine and work with threads in the applicat
 ## Display flagged threads  
  You can flag a thread that you want to give special attention by marking it with an icon in the **Threads** window. For more information, see [How to: Flag and Unflag Threads](../debugger/how-to-flag-and-unflag-threads.md). In the **Threads** window, you can choose to display all the threads or only the flagged threads.  
   
-#### To display only flagged threads  
+### To display only flagged threads  
   
--   Choose the **Show Flagged Threads Only** button at the top of the **Threads** window. (If it's dimmed, you need to flag some threads first.) 
+-   Choose **Show Flagged Threads Only** in the toolbar at the top of the **Threads** window. (If it's dimmed, you'll need to flag some threads first.) 
 
 ## Freeze and thaw threads  
  When you freeze a thread, the system won't start execution of the thread even if resources are available.  
   
- In native code, you can suspend or resume threads by calling the Windows functions `SuspendThread` and `ResumeThread`, or the MFC functions [CWinThread::SuspendThread](/cpp/mfc/reference/CWinThread-class#suspendthread) and [CWinThread::ResumeThread](/cpp/mfc/reference/CWinThread-class#resumethread). If you call `SuspendThread` or `ResumeThread`, the suspended count shown in the **Threads** window will be changed. The suspended count doesn't change if you freeze or thaw a native thread. In native code, a thread can't execute unless it's thawed and has a suspended count of zero.  
+ In native code, you can suspend or resume threads by calling the Windows functions `SuspendThread` and `ResumeThread`. Or, call the MFC functions [CWinThread::SuspendThread](/cpp/mfc/reference/CWinThread-class#suspendthread) and [CWinThread::ResumeThread](/cpp/mfc/reference/CWinThread-class#resumethread). If you call `SuspendThread` or `ResumeThread`, the *suspended count* shown in the **Threads** window will be changed. The suspended count doesn't change if you freeze or thaw a native thread. A thread can't execute in native code unless it's thawed and has a suspended count of zero.  
   
- In managed code, freezing or thawing a thread does change the suspended count. A frozen thread in managed code has a suspended count of 1. A frozen thread in native code has a suspended count of 0 unless the thread has been suspended by a `SuspendThread` call.  
+ In managed code, the suspended count changes when you freeze or thaw a thread. If you freeze a thread in managed code, its suspended count is 1. When you freeze a thread in native code, its suspended count is 0, unless you suspended the thread with a `SuspendThread` call.  
   
 > [!NOTE]
 >  When you debug a call from native code to managed code, the managed code runs in the same physical thread as the native code that called it. Suspending or freezing the native thread freezes the managed code also.  
   
-#### To freeze or thaw execution of a thread  
+### To freeze or thaw execution of a thread  
   
 -   In the toolbar at the top of the **Threads** window, select **Freeze Threads** or **Thaw Threads**.  
   
@@ -94,14 +95,14 @@ A yellow arrow indicates the current thread (and the location of the execution p
   
     -   Double-click any thread.  
   
-    -   Right-click a thread and select **Switch to Thread**.
+    -   Right-click a thread and select **Switch To Thread**.
 
 ## Group and sort threads  
  When you group threads, a heading appears in the table for each group. The heading contains a group description, such as **Worker Thread** or **Unflagged Threads**, and a tree control. The member threads of each group appear under the group heading. If you want to hide the member threads for a group, use the tree control to collapse the group.  
   
  Because grouping takes precedence over sorting, you can group threads by category, for example, and then sort them by ID within each category.  
   
-#### To sort threads  
+### To sort threads  
   
 1.  In the toolbar at the top of the **Threads** window, select the button at the top of any column.  
   
@@ -111,7 +112,7 @@ A yellow arrow indicates the current thread (and the location of the execution p
   
      Threads that appeared at the top of the list now appear on the bottom.  
   
-#### To group threads  
+### To group threads  
   
 -   In the **Threads** window toolbar, select the **Group by** list, then select the criteria that you want to group threads by.  
   
@@ -125,14 +126,14 @@ A yellow arrow indicates the current thread (and the location of the execution p
   
 #### To expand or collapse all groups  
   
--   In the toolbar at the top of the **Threads** window, select **Expand Groups** or **Collapse Groups**.  
+-   In the toolbar at the top of the **Threads** window, select **Expand groups** or **Collapse groups**.  
   
 ## Search for specific threads  
  In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], you can search for threads that match a specified string. When you search for threads in the **Threads** window, the window displays all the threads that match the search string in any column. This information includes the thread location that appears at the top of the call stack in the **Location** column. By default, the full call stack isn't searched.  
   
-#### To search for specific threads  
+### To search for specific threads  
   
--   In the toolbar at the top of the **Threads** window, go to the **Search** box and either:  
+1.   In the toolbar at the top of the **Threads** window, go to the **Search** box and either:  
   
     -   Type a search string and then press **Enter**.  
   
@@ -140,7 +141,7 @@ A yellow arrow indicates the current thread (and the location of the execution p
   
     -   Select the drop-down list next to the **Search** box and select a search string from a previous search.  
   
--   (Optional) To include the full call stack in your search, select **Search Call Stack**.   
+2.   (Optional) To include the full call stack in your search, select **Search Call Stack**.   
   
 ## Display thread call stacks and switch between frames  
 In a multithreaded program, each thread has its own call stack. The **Threads** window provides a convenient way to view these stacks.
@@ -148,16 +149,16 @@ In a multithreaded program, each thread has its own call stack. The **Threads** 
 > [!TIP]
 > For a visual representation of the call stack for each thread, use the [Parallel Stacks](../debugger/get-started-debugging-multithreaded-apps.md) window.
   
-#### To view the call stack of a thread  
+### To view the call stack of a thread  
   
 -   In the **Location** column, select the inverted triangle next to the thread location.  
   
      The location expands to show the call stack for the thread.  
   
-#### To view or collapse the call stacks of all threads  
+### To view or collapse the call stacks of all threads  
   
 -   In the toolbar at the top of the **Threads** window, select **Expand Call Stacks** or **Collapse Call Stacks**.  
   
 ## See also  
  [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
- [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
+ [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)
