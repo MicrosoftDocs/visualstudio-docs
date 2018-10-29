@@ -27,7 +27,7 @@ To debug a UWP app on a remote device from Visual Studio:
 - The Visual Studio project must be configured for remote debugging.
 - The remote machine and the Visual Studio computer must be connected over a network, or connected directly through a USB or Ethernet cable. Debugging over the internet is not supported.  
 - You must [turn on developer mode](/windows/uwp/get-started/enable-your-device-for-development) on both the Visual Studio computer and the remote machine. 
-- Remote computers must be running the [Remote Tools for Visual Studio](#BKMK_download). 
+- Remote computers must be running the Remote Tools for Visual Studio. 
   - Some Windows 10 versions start and run the remote tools automatically. Otherwise, [install and run the Remote Tools for Visual Studio](#BKMK_download).
   - Windows Mobile 10 devices don't require or support the remote tools. 
 
