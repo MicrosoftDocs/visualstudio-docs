@@ -11,8 +11,8 @@ Before creating your pull request, please check your content against these quali
 
 After you create the pull request and the Acrolinx and build checks have run, please:
 
-- Check the Acrolinx report and make sure the score at least 80
-- Review the staged content to see how it looks when built
+- Check the Acrolinx report and make sure the score is at least 80.
+- Review the staged content to see how it looks when built.
 
 Additional resources:
 
