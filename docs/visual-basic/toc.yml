@@ -1,0 +1,3 @@
+- name: Get started with Visual Basic in Visual Studio
+  - name: Create a console app
+    href: ../ide/tutorial-visual-basic-console.md

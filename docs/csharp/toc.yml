@@ -1,0 +1,21 @@
+- name: Get started with C# in Visual Studio
+  items:
+  - name: Overview
+    items:
+      - name: About Visual Studio 2017
+        href: ../ide/visual-studio-ide.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      - name: About the code editor
+        href: ../ide/quickstart-editor.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      - name: About projects and solutions
+        href: ../ide/quickstart-projects-solutions.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      - name: More Visual Studio features
+        href: ../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+  - name: Tutorials
+    expanded: true
+    items:
+    - name: "Learn the basics"
+      href: ide/tutorial-csharp-console.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: "Create a UWP app"
+      href: ../ide/quickstart-uwp-csharp.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: "Create a web app"
+      href: ../ide/tutorial-csharp-aspnet-core.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
