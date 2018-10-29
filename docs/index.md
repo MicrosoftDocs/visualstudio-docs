@@ -69,6 +69,8 @@ ms.topic: hub-page
     <div class="container">
         <h1>Visual Studio Documentation</h1>
         <ul class="pivots">
+            <li>
+                <li>
                 <a href="#get-started">Get Started</a>
                 <ul id="get-started">
                     <li>
@@ -1036,6 +1038,8 @@ ms.topic: hub-page
                         </ul>
                     </li>
                 </ul>
+            </li>
+            </li>
             </li>
         </ul>
     </div>
