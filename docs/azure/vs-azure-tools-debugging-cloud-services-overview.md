@@ -1,7 +1,7 @@
 ---
 title: Options for debugging Azure cloud services | Microsoft Docs
 description: Debugging Azure cloud services
-services: visual-studio-online
+
 documentationcenter: n/a
 author: mikejo
 manager: douge

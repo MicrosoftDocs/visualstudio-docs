@@ -1,7 +1,7 @@
 ---
 title: Browse and manage storage resources by using Server Explorer | Microsoft Docs
 description: Browsing and managing storage resources by using Server Explorer
-services: visual-studio-online
+
 author: ghogen
 manager: douge
 assetId: 658dc064-4a4e-414b-ae5a-a977a34c930d

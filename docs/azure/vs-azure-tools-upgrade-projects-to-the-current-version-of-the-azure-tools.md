@@ -1,7 +1,7 @@
 ---
 title: How to upgrade projects to the current version of the Azure tools | Microsoft Docs
 description: Learn how to upgrade an Azure project in Visual Studio to the current version of the Azure tools
-services: visual-studio-online
+
 author: ghogen
 manager: douge
 assetId: 1d64070a-078d-468a-87f4-e6715de6475f

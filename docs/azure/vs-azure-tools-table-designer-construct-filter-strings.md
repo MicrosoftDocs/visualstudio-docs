@@ -1,7 +1,7 @@
 ---
 title: Constructing filter strings for the table designer | Microsoft Docs
 description: Constructing filter strings for the table designer
-services: visual-studio-online
+
 author: ghogen
 manager: douge
 assetId: a1a10ea1-687a-4ee1-a952-6b24c2fe1a22

@@ -1,7 +1,7 @@
 ---
 title: How to manage service configurations and profiles | Microsoft Docs
 description: Learn how to work with service configurations and profiles configuration files| which store settings for the deployment environments and publish settings for cloud services.
-services: visual-studio-online
+
 author: ghogen
 manager: douge
 assetId: 7da8c551-fb06-4057-b5c7-c77f4b39d803

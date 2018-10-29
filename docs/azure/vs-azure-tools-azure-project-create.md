@@ -1,7 +1,7 @@
 ---
 title: Creating an Azure cloud service project with Visual Studio | Microsoft Docs
 description: Learn now to create an Azure cloud service project with Visual Studio
-services: visual-studio-online
+
 author: ghogen
 manager: douge
 assetId: ec580df7-3dcc-45a9-a1d9-8c110678dfb5
