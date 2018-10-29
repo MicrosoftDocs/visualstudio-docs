@@ -353,7 +353,7 @@ void CDrawView::Remove(CDrawObj* pObj)
 
 void CDrawView::PasteNative(COleDataObject& dataObject)
 {
-	// get file refering to clipboard data
+	// get file referring to clipboard data
 	CFile* pFile = dataObject.GetFileData(m_cfDraw);
 	if (pFile == NULL)
 		return;

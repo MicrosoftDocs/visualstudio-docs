@@ -8,6 +8,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.New_Lines"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.Spacing"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.General"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.New_Lines"
 ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 author: gewarren
 ms.author: gewarren
@@ -43,7 +46,7 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 |**Place open brace on new line for control blocks**|When this option is selected, the Code Editor moves the open brace associated with a control block (for example, `if` and `while` control blocks) to a new line.|
 
 ## Spacing
- These options determine how spaces are inserted in **Source**view.
+ These options determine how spaces are inserted in **Source** view.
 
 ## UIElement List
 

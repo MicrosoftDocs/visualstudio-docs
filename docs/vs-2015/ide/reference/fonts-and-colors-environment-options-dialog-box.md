@@ -147,7 +147,7 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
 |**Keyword**|Keywords for the given language that are reserved. For example: class and namespace.|  
 |**Memory Address**|The color of text used to display the address column inside the **Memory** window.|  
 |**Memory Changed**|The color of text used to display changed data inside the **Memory** window.|  
-|**Memory Data**|The color of text used to display data inside the M**emory** window.|  
+|**Memory Data**|The color of text used to display data inside the **Memory** window.|  
 |**Memory Unreadable**|The color of text used to display unreadable memory areas within the **Memory** window.|  
 |**Number**|A number in code that represents an actual numeric value.|  
 |**Operator**|Operators such as +, -, and !=.|  

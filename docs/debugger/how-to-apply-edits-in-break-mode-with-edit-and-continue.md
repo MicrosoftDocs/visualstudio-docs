@@ -42,7 +42,7 @@ For limitations on using Edit and Continue while debugging, see [Supported Code 
   
          -or-  
   
-    -   When an exception occurs, choose **Enable Editing** on the**Exception Assistant**.  
+    -   When an exception occurs, choose **Enable Editing** on the **Exception Assistant**.  
   
 2.  Make any desired and supported code changes.  
   

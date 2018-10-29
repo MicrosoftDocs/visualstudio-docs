@@ -434,7 +434,7 @@ pMyPerson->Dump( afxDump );
 
    4.  In the **Copy Settings from** list, choose **Release**.  
 
-   5.  Click **OK** to close the **New Project Configuration**dialog box.  
+   5.  Click **OK** to close the **New Project Configuration** dialog box.  
 
    6.  Close the **Configuration Manager** dialog box.  
 

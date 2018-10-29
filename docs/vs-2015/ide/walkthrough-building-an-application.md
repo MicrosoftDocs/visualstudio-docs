@@ -92,7 +92,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
 4. In the **Active solution platform** list, choose **New**.  
   
-5. In the **New Solution Platform** dialog box, choose**x64**, and don’t copy settings from the x86 platform.  
+5. In the **New Solution Platform** dialog box, choose **x64**, and don’t copy settings from the x86 platform.  
   
     ![New Solution Platform Dialog Box](../ide/media/buildwalk-newsolutionplatform.png "BuildWalk_NewSolutionPlatform")  
   

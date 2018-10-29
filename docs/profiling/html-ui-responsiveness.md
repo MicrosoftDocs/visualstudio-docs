@@ -36,7 +36,7 @@ This topic describes how to isolate performance problems in your apps using the 
   
 2.  On the **Debug** menu, choose **Performance Profiler**.  
   
-     If you want to change the analysis target for the profiler, choose**Change Target**.  
+     If you want to change the analysis target for the profiler, choose **Change Target**.  
   
      ![Change analysis target](../profiling/media/js_tools_target.png "JS_Tools_Target")  
   

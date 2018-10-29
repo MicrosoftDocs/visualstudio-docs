@@ -62,7 +62,7 @@ One of the most common scenarios in application development is to display data o
   
 2.  Name the project `UpdateMultipleTablesWalkthrough`.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **UpdateMultipleTablesWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -75,7 +75,7 @@ One of the most common scenarios in application development is to display data o
   
 2.  In the **Data Sources** window, select**Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select**Next**.  
+3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
   
 4.  On the **Choose your Data Connection**screen do one of the following:  
   
@@ -85,9 +85,9 @@ One of the most common scenarios in application development is to display data o
   
     -   Select **New Connection** to open the **Add/Modify Connection** dialog box.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then select**Next**.  
+5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file**, select**Next**.  
+6.  On the **Save connection string to the Application Configuration file**, select **Next**.  
   
 7.  On the **Choose your Database Objects**screen, expand the **Tables** node .  
   
@@ -121,7 +121,7 @@ One of the most common scenarios in application development is to display data o
      A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. An [OrdersTableAdapter](../data-tools/tableadapter-overview.md) and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
   
 ## Addcode to update the database  
- You can update the database by calling the `Update` methods of the **Customers** and **Orders** TableAdapters. By default, an event handler for the**Save** button of the<xref:System.Windows.Forms.BindingNavigator> is added to the form's code to send updates to the database. This procedure modifies the code to send updates in the correct order.This eliminates the possibility of raising referential integrity errors. The code also implements error handling by wrapping the update call in a try-catch block. You can modify the code to suit the needs of your application.  
+ You can update the database by calling the `Update` methods of the **Customers** and **Orders** TableAdapters. By default, an event handler for the **Save** button of the<xref:System.Windows.Forms.BindingNavigator> is added to the form's code to send updates to the database. This procedure modifies the code to send updates in the correct order.This eliminates the possibility of raising referential integrity errors. The code also implements error handling by wrapping the update call in a try-catch block. You can modify the code to suit the needs of your application.  
   
 > [!NOTE]
 >  For clarity, this walkthrough does not use a transaction.However, if you're updating two or more related tables, include all the update logic within a transaction. A transaction is a process that assures that all related changes to a database are successful before any changes are committed. For more information, see [Transactions and Concurrency](http://msdn.microsoft.com/library/f46570de-9e50-4fe6-8710-a8c31fa8569b).  
@@ -139,7 +139,7 @@ One of the most common scenarios in application development is to display data o
   
 #### To test the application  
   
-1.  Select**F5**.  
+1.  Select **F5**.  
   
 2.  Make some changes to the data of one or more records in each table.  
   

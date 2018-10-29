@@ -1,7 +1,7 @@
 ---
 title: Options and settings for Python
 description: A reference for the various settings in Visual Studio that relate to Python code and projects.
-ms.date: 06/27/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: reference
