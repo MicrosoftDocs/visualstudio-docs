@@ -32,7 +32,7 @@ To resolve this issue:
 > [!NOTE]
 > If files appear shared, you may still need to click the "Reset credentials..." link at the bottom of the dialog in order to re-enable volume sharing. To continue after you reset credentials, you might have to restart Visual Studio.
 
-![shared drives](/azure/media/vs-azure-tools-docker-troubleshooting-docker-errors/shareddrives.png)
+![shared drives](media/vs-azure-tools-docker-troubleshooting-docker-errors/shareddrives.png)
 
 ## Unable to start debugging
 

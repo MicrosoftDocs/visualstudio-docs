@@ -61,5 +61,5 @@ To configure a Docker client, simply open Windows PowerShell, and perform the fo
 > 
 > 
 
-[0]: /azure/media/vs-azure-tools-docker-setup/docker-machine-ls.png
-[1]: /azure/media/vs-azure-tools-docker-setup/docker-ps.png
+[0]: media/vs-azure-tools-docker-setup/docker-machine-ls.png
+[1]: media/vs-azure-tools-docker-setup/docker-ps.png
