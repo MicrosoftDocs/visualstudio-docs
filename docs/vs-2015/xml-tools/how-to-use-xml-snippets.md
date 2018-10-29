@@ -107,7 +107,7 @@ You can invoke XML snippets by using the following two commands on the XML Edito
   
  Pressing ENTER or ESC cancels field editing and returns the editor to normal.  
   
- The default colors for editable code snippet fields can be changed by modifying the Code Snippet Field setting in the **Fonts and Colors** pane of the **Option**s dialog box. For more information, see [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).  
+ The default colors for editable code snippet fields can be changed by modifying the Code Snippet Field setting in the **Fonts and Colors** pane of the **Options** dialog box. For more information, see [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).  
   
 ## See Also  
  [XML Snippets](../xml-tools/xml-snippets.md)   

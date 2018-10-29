@@ -55,7 +55,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 2.  Name the project **TableAdapterDbDirectMethodsWalkthrough**.  
   
-3.  Select **Windows Application**, and thenselect**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -64,13 +64,13 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1.  On the **Data** menu, select **Show Data Sources**.  
   
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select**Next**.  
+3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.  
   
-4.  On the **Choose your Data Connection**screen, do one of the following:  
+4.  On the **Choose your Data Connection** screen, do one of the following:  
   
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
@@ -78,13 +78,13 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then select**Next**.  
+5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file**screen, select **Next**.  
+6.  On the **Save connection string to the Application Configuration file** screen, select **Next**.  
   
-7.  On the **Choose your Database Objects**screen, expand the **Tables** node.  
+7.  On the **Choose your Database Objects** screen, expand the **Tables** node.  
   
-8.  Select the `Region` table, and then select**Finish**.  
+8.  Select the `Region` table, and then select **Finish**.  
   
      The **NorthwindDataSet** is added to your project and the `Region` table appears in the **Data Sources** window.  
   
@@ -111,7 +111,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 #### To add code to insert new records into the database  
   
-1.  Select**InsertButton** to create an event handler for the click event and open your form in the code editor.  
+1.  Select **InsertButton** to create an event handler for the click event and open your form in the code editor.  
   
 2.  Replace the `InsertButton_Click` event handler with the following code:  
   
@@ -129,7 +129,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 #### To add code to delete records from the database  
   
-1.  Select**DeleteButton** to create an event handler for the click event and open your form in the code editor.  
+1.  Select **DeleteButton** to create an event handler for the click event and open your form in the code editor.  
   
 2.  Replace the `DeleteButton_Click` event handler with the following code:  
   
@@ -140,7 +140,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 #### To run the application  
   
--   Select**F5** to run the application.  
+-   Select **F5** to run the application.  
   
 -   Select the **Insert** button, and verify that the new record appears in the grid.  
   

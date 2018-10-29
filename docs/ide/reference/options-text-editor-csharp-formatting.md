@@ -11,6 +11,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Wrapping"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.General"
+  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.Formatting.General"
 helpviewer_keywords:
   - "formatting options [C#]"
   - "Text editor Options dialog box, formatting"
@@ -20,7 +21,7 @@ manager: douge
 ms.workload:
   - "dotnet"
 ---
-# Options, Text Editor, C#, Formatting
+# Options, Text Editor, C#, Code Style, Formatting
 
 Use the **Formatting** options page to set options for formatting code in the code editor. To access this options page, choose **Tools** > **Options**. In the **Options** dialog box, choose **Text Editor** > **C#** > **Code Style** > **Formatting**.
 

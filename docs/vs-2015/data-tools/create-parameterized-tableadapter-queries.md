@@ -61,10 +61,10 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
 1. Open the form in the **Windows Forms Designer**.  
   
-2. On the **Data** menu, select**Add Query**or**Data Smart Tags**.  
+2. On the **Data** menu, select **Add Query** or **Data Smart Tags**.  
   
    > [!NOTE]
-   >  If **Add Query** is not available on the **Data** menu, select a control on the form that displays the data source you want to add the parameterization to. For example, if the form displays data in a <xref:System.Windows.Forms.DataGridView> control, select it. If the form displays data in individual controls, select any data-bound control.  
+   > If **Add Query** is not available on the **Data** menu, select a control on the form that displays the data source you want to add the parameterization to. For example, if the form displays data in a <xref:System.Windows.Forms.DataGridView> control, select it. If the form displays data in individual controls, select any data-bound control.  
   
 3. In the **Select data source table** area, select the  tablethat you want to add parameterization to.  
   
@@ -76,7 +76,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
 5. In the **Query Text** box, type a query that takes parameters.  
   
-6. Select**OK**.  
+6. Select **OK**.  
   
     A control to input the parameter and a **Load** button are added to the form in a <xref:System.Windows.Forms.ToolStrip> control.  
   
@@ -99,7 +99,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
 1.  In the **Dataset Designer**, select the TableAdapter query that needs to accept null parameter values.  
   
-2.  In the **Properties** window, select**Parameters**.Then press the ellipsis (**…**) button to open the **Parameters Collection Editor**.  
+2.  In the **Properties** window, select **Parameters**. Then press the ellipsis (**…**) button to open the **Parameters Collection Editor**.  
   
 3.  Select the parameter that allows null values and set the **AllowDbNull** property to `true`.  
   

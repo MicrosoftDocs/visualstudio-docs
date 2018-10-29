@@ -27,7 +27,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
   
      [VSPerfCmd](../profiling/vsperfcmd.md) **/start:concurrency**  
   
-     You can use any of the options in the following table with the **/start:concurrency**option.  
+     You can use any of the options in the following table with the **/start:concurrency** option.  
   
     |Option|Description|  
     |------------|-----------------|  

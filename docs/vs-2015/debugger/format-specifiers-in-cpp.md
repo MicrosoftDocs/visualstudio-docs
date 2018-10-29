@@ -114,7 +114,7 @@ int main() {
 |**l,h**|long or short prefix for: d, i, u, o, x, X|00406042|0x0c22|  
 |**f**|signed floating point|(3./2.), f|1.500000|  
 |**e**|signed scientific notation|(3.0/2.0)|1.500000e+000|  
-|**g**g|signed floating point or signed scientific notation, whichever is shorter|(3.0/2.0)|1.5|  
+|**g**|signed floating point or signed scientific notation, whichever is shorter|(3.0/2.0)|1.5|  
 |c|single character|\<location>|101 'e'|  
 |s|const char*|\<location>|"hello world"|  
 |su|const wchar_t*<br /><br /> const char16_t\*|\<location>|L"hello world"|  

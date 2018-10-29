@@ -79,6 +79,10 @@ manager: douge
 
 The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7 preview 3. This feature had low usage, and the Test Explorer can retrieve test methods faster by excluding this feature. If this change interrupts your development flow, please let us know by submitting feedback on [Developer Community](https://developercommunity.visualstudio.com/).
 
+## Remove undocumented interfaces
+**Some test-related APIs are no longer present in Visual Studio 2019. What changed?**
+In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented will be removed. They were marked as "deprecated" in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions had found these APIs and taken a dependency on them. These include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`. If this change affects your extension, please let us know by filing a bug on [Developer Community](https://developercommunity.visualstudio.com).
+
 ## Test adapter NuGet reference
 **In Visual Studio 2017 version 15.8 my tests are discovered, but don't execute.**
 
