@@ -2,7 +2,7 @@
 title: "Use Visual Studio to create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
 ms.custom: mvc
-ms.date: 09/23/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -22,11 +22,23 @@ experiment_id: "bef9e21b-00d0-4b"
 
 In this 5-10 minute introduction to how to use Visual Studio, you'll create a simple "Hello World" web app by using an ASP.NET project template and the C# programming language.
 
+## Before you begin
+
+### Install Visual Studio
+
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+
+### Update Visual Studio
+
+If you've already installed Visual Studio, make sure that you are running the most recent release. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
+
+### Choose your theme (optional)
+
+This quickstart tutorial includes screenshots that use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](quickstart-personalize-the-ide.md) page to learn how.
 
 ## Create a project
 
-First, you'll create an ASP.NET Core web application project. Here's how.
+To start, you'll create an ASP.NET Core web application project. Here's how.
 
 1. Open Visual Studio 2017.
 
@@ -34,14 +46,17 @@ First, you'll create an ASP.NET Core web application project. Here's how.
 
 1. In the left pane of the **New Project** dialog box, expand **Visual C#**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name your file `HelloWorld` and choose **OK**.
 
-1. In the **New ASP.NET Core Web Application** dialog box, verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **Web Application** and choose **OK**.
+1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.0** or later from the top drop-down menu, and then select **Web Application**.
+
+   > [!NOTE]
+   > If you don't see **ASP.NET Core 2.0** or later from the top drop-down menu, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio 2017 to the most recent release](../install/update-visual-studio.md) page.
 
    ![View the animated .gif file that shows how to create a C# ASP.NET Core project in Visual Studio](../ide/media/csharp-aspnet-animated-create-project.gif)
 
    Soon after, Visual Studio opens your project file.
 
    > [!NOTE]
-   > If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane.
+   > If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane. (Depending on your display settings, you might have to scroll to see it.)
    >
    > ![Open Visual Studio Installer from the new project dialog box](../ide/media/open-visual-studio-installer.png)
    >
@@ -74,7 +89,7 @@ Next, you'll create and run your "Hello World" web app. Here's how.
    ![View the animated .gif file that shows how to create and run a C# ASP.NET Core web app in Visual Studio](../ide/media/csharp-aspnet-animated-hello-world.gif)
 
    > [!NOTE]
-   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, or an error message that mentions an SSL certificate, close Visual Studio. Next, open Visual Studio by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
 
 1. In the web browser, verify that the **About** page includes your updated text.
 
