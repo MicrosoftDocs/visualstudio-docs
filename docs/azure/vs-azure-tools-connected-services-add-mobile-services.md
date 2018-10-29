@@ -1,7 +1,7 @@
 ---
 title: Adding Mobile Services by using Connected Services in Visual Studio | Microsoft Docs
 description: Add Mobile Services by using the Visual Studio Add Connected Services dialog box
-services: visual-studio-online
+
 documentationcenter: na
 author: mlhoop
 manager: douge

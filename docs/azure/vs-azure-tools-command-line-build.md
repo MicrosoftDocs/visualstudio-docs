@@ -1,7 +1,7 @@
 ---
 title: Command-line build for Azure | Microsoft Docs
 description: Command-line build for Azure
-services: visual-studio-online
+
 author: ghogen
 manager: douge
 assetId: 94b35d0d-0d35-48b6-b48b-3641377867fd
