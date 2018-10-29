@@ -1,3 +1,4 @@
 - name: Get started with Visual Basic in Visual Studio
+  href: index.yml
   - name: Create a console app
     href: ../ide/tutorial-visual-basic-console.md

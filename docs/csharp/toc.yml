@@ -1,4 +1,5 @@
 - name: Get started with C# in Visual Studio
+  href: index.yml
   items:
   - name: Overview
     items:
