@@ -1,6 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Miscellaneous
-ms.date: 10/26/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "tag wrapping, XAML view settings"
   - "WPF Designer, XAML formatting"
   - "XAML view settings, attribute spacing"
-ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
+ms.assetid: 2a420e58-a408-4e8d-9220-44eeb4f67801
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -49,7 +49,7 @@ Use the **Miscellaneous** property page to specify how elements and attributes a
 |**Commas to separate MarkupExtension parameters**|Specifies whether commas are generated when you type more than one parameter in a markup extension.|
 
 ## Errors and Warnings
- Use this setting to control when errors and warnings are automatically generated. See [XAML errors and warnings](../../designers/xaml-errors-warnings.md) for more information.
+ Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](../../designers/xaml-errors-warnings.md).
 
 ## See also
 

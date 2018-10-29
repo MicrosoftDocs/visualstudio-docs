@@ -1,6 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Formatting
-ms.date: 01/17/2017
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -40,7 +40,7 @@ Use the **Formatting** property page to specify how elements and attributes are 
 
 
 ## Auto-Formatting Events
- Auto-formatting may occur when any of the following events is detected.
+ Autoformatting may occur when any of the following events is detected.
 
 -   Completion of an end tag or simple tag.
 
@@ -50,16 +50,16 @@ Use the **Formatting** property page to specify how elements and attributes are 
 
 -   Formatting keyboard commands.
 
-You can specify which events cause auto-formatting.
+You can specify which events cause autoformatting.
 
 |||
 |-|-|
-|**On completion of end tag or simple tag**|Auto-formatting occurs when you finish typing an end tag or a simple tag. A simple tag has no attributes, for example `<Button />`.|
-|**On completion of start tag**|Auto-formatting occurs when you finish typing a start tag.|
-|**On paste from clipboard**|Auto-formatting occurs when you paste XAML from the clipboard into XAML view.|
+|**On completion of end tag or simple tag**|Autoformatting occurs when you finish typing an end tag or a simple tag. A simple tag has no attributes, for example `<Button />`.|
+|**On completion of start tag**|Autoformatting occurs when you finish typing a start tag.|
+|**On paste from clipboard**|Autoformatting occurs when you paste XAML from the clipboard into XAML view.|
 
 ## Quotation Mark Style
- This setting indicates whether attribute values are enclosed in single or double quotation marks. The auto-formatter and IntelliSense auto-completion both use this setting.
+ This setting indicates whether attribute values are enclosed in single or double quotation marks. The autoformatter and IntelliSense autocompletion both use this setting.
 
  Once you set this option, only attributes subsequently added either using the designer or manually in the XAML view are affected.
 
@@ -83,7 +83,7 @@ You can specify which events cause auto-formatting.
 |-|-|
 |**Preserve newlines and spaces between attributes**|New lines and spaces between attributes are not affected by auto-formatting.<br /><br /> `<Button Height="23"   Name="button1"`<br /><br /> `Width="75">Hello</Button>`|
 |**Insert a single space between attributes**|Attributes occupy one line, with one space separating adjacent attributes. Tag wrapping settings are applied.<br /><br /> `<Button Height="23" Name="button1" Width="75">Hello</Button>`|
-|**Position each attribute on a separate line**|Each attribute occupies its own line. This is useful when many attributes are present.<br /><br /> `<Button`<br /><br /> `Height="23"`<br /><br /> `Name="button1"`<br /><br /> `Width="75">Hello</Button>`|
+|**Position each attribute on a separate line**|Each attribute occupies its own line, which is useful when many attributes are present.<br /><br /> `<Button`<br /><br /> `Height="23"`<br /><br /> `Name="button1"`<br /><br /> `Width="75">Hello</Button>`|
 |**Position first attribute on same line as start tag**|When checked, the first attribute appears on the same line as the element's start tag.<br /><br /> `<Button Height="23"`<br /><br /> `Name="button1"`<br /><br /> `Width="75">Hello</Button>`|
 
 ## Element Spacing

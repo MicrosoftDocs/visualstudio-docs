@@ -1,6 +1,6 @@
 ---
 title: Options, Text Editor, C#, Advanced
-ms.date: 11/04/2016
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -30,7 +30,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Place 'System' directives first when sorting usings
 
-   When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list
+   When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list.
 
    Before sorting:
 
@@ -86,7 +86,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 - Suggest usings for types in reference assemblies 
 - Suggest usings for types in NuGet packages 
 
-   When these are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
+   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
   

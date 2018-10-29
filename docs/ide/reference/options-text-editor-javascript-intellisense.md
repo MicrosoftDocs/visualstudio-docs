@@ -1,6 +1,6 @@
 ---
 title: Options, Text Editor, JavaScript, IntelliSense
-ms.date: 11/04/2016
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -28,7 +28,7 @@ The **IntelliSense** page contains the following sections:
 ### UIElement List
  **Only use Tab or Enter to commit**
 
- When this check box is selected, the JavaScript code editor appends statements with items selected in the completion list only after you choose the Tab or Enter key. When this check box is not selected, other characters, such as a period, comma, colon, open parenthesis, and open brace ({), can also append statements with the selected items.
+ When you select this check box, the JavaScript code editor appends statements with items selected in the completion list only after you choose the Tab or Enter key. When you de-select this check box, other characters – such as a period, comma, colon, open parenthesis, and open brace ({) – can also append statements with the selected items.
 
 ## References
  You can use these options to specify the types of IntelliSense .js files that are in scope for different JavaScript project types. The IntelliSense references are typically used to provide IntelliSense support for global objects. You can also use this page to set the loading order for scripts that must be loaded at run time, and to add IntelliSense extension files.

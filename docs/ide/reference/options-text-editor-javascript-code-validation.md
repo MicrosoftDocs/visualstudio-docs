@@ -1,12 +1,11 @@
 ---
 title: Options, Text Editor, JavaScript, Code Validation
-ms.date: 10/26/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Code_Validation.JavaScript_Errors"
-ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -23,10 +22,10 @@ The **Code Validation** page contains the following sections:
 ## JavaScript Errors
  You can use these options to set preferences for how the JavaScript editor validates syntax in your document.
 
-## UIElement List
+### UIElement List
  **Enable JavaScript errors**
 
- When set to **True**, the JavaScript code editor shows errors for JavaScript and JSX files. Errors appear in the Error List with a (JS) prefix. This is useful if you are working with code that you didn't write and you don't intend to fix syntax errors.
+ When set to **True**, the JavaScript code editor shows errors for JavaScript and JSX files. Errors appear in the Error List with a (JS) prefix. Viewing these errors is useful if you're working with code that you didn't write and you don't intend to fix syntax errors.
 
  **Show errors as warnings**
 

@@ -1,11 +1,12 @@
 ---
 title: Options, Text Editor, XML, Formatting
-ms.date: 06/13/2017
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.XML.Formatting"
+ms.assetid: 203e60b2-7b80-4ff4-9fa1-aa9f4374377b
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -19,7 +20,7 @@ Use the **Formatting** property page to specify how elements and attributes are 
 
 ## Attributes  
  **Preserve manual attribute formatting**  
- Do not reformat attributes. This is the default.  
+ Do not reformat attributes. This setting is the default.  
   
 > [!NOTE]  
 >  If the attributes are on multiple lines, the editor indents each line of attributes to match the indentation of the parent element.  
@@ -43,7 +44,7 @@ Use the **Formatting** property page to specify how elements and attributes are 
   
 ## Mixed Content  
  **Format mixed content by default.**  
- Attempt to reformat mixed content, except when the content is found in an `xml:space="preserve"` scope. This is the default.  
+ Attempt to reformat mixed content, except when the content is found in an `xml:space="preserve"` scope. This setting is the default.  
   
  If an element contains a mix of text and markup, the contents are considered to be mixed content. Following is an example of an element with mixed content.  
   

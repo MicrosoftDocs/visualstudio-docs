@@ -29,7 +29,7 @@ These features are available in a Visual Studio 2017 installation.
 
 You can enable or disable the following settings to manage the way in which text editor handles code squiggles for C and C++:
 
-- **Macros in Skipped Browsing Regions** - Defines how to highlight macros that arae inside skipped regions by the browsing database, such as macros whose definitions include braces.
+- **Macros in Skipped Browsing Regions** - Defines how to highlight macros that are inside skipped regions by the browsing database, such as macros whose definitions include braces.
 
 - **Macros Convertible to constexpr** - Defines how to highlight macro definitions that can be converted to constexpr definitions.
 
