@@ -1,7 +1,7 @@
 ---
 title: Using a requirements.txt file to manage package requirements
-description: You can use a requirements.txt file to manage a project's dependencies. If you receive a project that contains a requirements.txt file, you can easily install those dependencies in one step.
-ms.date: 06/27/2018
+description: A requirements.txt file describes a project's dependencies. If you receive a project that contains a requirements.txt file, you can easily install those dependencies in one step.
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -15,7 +15,7 @@ ms.workload:
 
 # Manage required packages with requirements.txt
 
-If you're sharing a project with others, using a build system, or plan to deploy it to any other location where you need to restore an environment, you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages.
+If you share a project with others, use a build system, or plan to copy the project to any other location where you need to restore an environment, you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages. The most common command is `pip freeze > requirements.txt`, which records an environment's current package list into *requirements.txt*.
 
 Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but Visual Studio provides specific support for *requirements.txt*:
 
@@ -60,7 +60,7 @@ Cleaning up...
     Removing temporary dir C:\Project\env\build...
 ```
 
-### See also
+## See also
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)
 - [Select an interpreter for a project](selecting-a-python-environment-for-a-project.md)
