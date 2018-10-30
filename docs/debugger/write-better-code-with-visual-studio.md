@@ -27,7 +27,7 @@ In this article, we talk about leveraging the IDE to make your debugging session
 
 * When to use the debugger
 
-To demonstrate these tasks, we show a few of the most common types of errors and bugs that you'll encounter when trying to debug your apps.
+To demonstrate these tasks, we show a few of the most common types of errors and bugs that you'll encounter when trying to debug your apps. Although the sample code is C#, the conceptual information is generally applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#.
 
 ## Follow along using the sample app
 

@@ -336,6 +336,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/debugger-overview.md",
+            "redirect_url": "/visualstudio/debugger/what-is-debugging",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/debugger/0x-2x-4x-msaa-variants.md",
             "redirect_url": "/visualstudio/debugger/graphics/0x-2x-4x-msaa-variants",
             "redirect_document_id": false
