@@ -5,7 +5,7 @@
   expanded: true
   items:
   - name: Publish an ASP.NET Core app to Azure 
-    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1
+    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json&view=aspnetcore-2.1
   - name: Publish a .NET TODO List Web App to Azure
     href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet
   - name: Publish Azure Functions
