@@ -16,14 +16,14 @@ ms.workload:
 # Step 9: Try other features
 To learn more, try changing icons and colors, adding a game timer, and adding sounds. To make the game more challenging, try making the board bigger and adjusting the timer.  
   
- To download a completed version of the sample, see [Complete matching game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  
+ To download a completed version of the sample, see [Complete matching game tutorial sample](https://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  
   
 ## To try other features  
 
 -   Replace the icons and colors with ones you choose.  
 
     > [!TIP]
-    >  Try looking at the label's [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor.aspx) property.  
+    >  Try looking at the label's [Forecolor](<xref:System.Windows.Forms.Control.ForeColor%2A>) property.  
 
 -   Add a game timer that tracks how long it takes for the player to win.  
 
@@ -44,8 +44,8 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 
 ## To continue or review  
   
--   If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](http://social.msdn.microsoft.com/Forums/home?forum=vbgeneral) and [Visual C# forum](http://social.msdn.microsoft.com/Forums/home?forum=csharpgeneral).  
+-   If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vbgeneral) and [Visual C# forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=csharpgeneral).
   
--   There are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](http://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# fundamentals: Development for absolute beginners](http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).  
+-   There are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).  
   
 -   To return to the previous tutorial step, see [Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).

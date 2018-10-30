@@ -7,6 +7,7 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.General"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.IntelliSense.General"
 ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
 author: gewarren
 ms.author: gewarren

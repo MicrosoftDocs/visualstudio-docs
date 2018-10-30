@@ -27,31 +27,31 @@ Figure 1
   
  In the subsections below, each key component in Active Debugging and its associated interfaces are discussed. However, before proceeding further, several key Active Debugging concepts must be defined:  
   
- host application  
+ **host application**  
  The application that hosts the script engines and provides a scriptable set of objects (or "object model").  
   
- language engine  
+ **language engine**  
  A component that provides parsing, execution, and debugging abstractions for a particular language.  
   
- debugger IDE  
+ **debugger IDE**  
  The application that provides debugging UI by communicating with the host application and language engines.  
   
- machine debug manager  
+ **machine debug manager** 
  A component that maintains a registry of debuggable application processes.  
   
- process debug manager  
+ **process debug manager**  
  A component that maintains the tree of debuggable documents for a particular application, tracks the running threads, and so on.  
   
- document context  
+ **document context**  
  A document context is an abstraction representing a specific range in the source code of a host document.  
   
- code context  
+ **code context**  
  A code context represents a particular location in the running code of a language engine (a "virtual instruction pointer".)  
   
- expression context  
+ **expression context**  
  A particular context (for example, a stack frame) in which expressions may be evaluated by a language engine.  
   
- object browsing  
+ **object browsing**  
  A structured, language-independent representation of an object's name, type, value, and sub-objects, suitable for implementing a "watch window" UI.  
   
  Below is an overview of each of the key Active Debugging components and corresponding, associated interfaces, followed by the details of those interfaces.  

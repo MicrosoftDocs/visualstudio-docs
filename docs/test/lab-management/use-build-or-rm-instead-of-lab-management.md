@@ -1,6 +1,6 @@
 ---
-title: "Use build or release management for automated testing"
-ms.date: 03/02/2018
+title: "Use Azure Pipelines for automated testing"
+ms.date: 10/19/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
@@ -14,19 +14,19 @@ author: gewarren
 ---
 # Use Azure Test Plans instead of Lab Management for automated testing
 
-If you use Microsoft Test Manager (MTM) and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts) features in Team Foundation Server (TFS) and Azure Test Plans.
+If you use Microsoft Test Manager and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts) features in Azure Pipelines and Team Foundation Server (TFS).
 
 ## Build-deploy-test automation
 
-MTM and Lab Management rely on a XAML build definition to automate build, deployment, and testing of your applications. The XAML build relies on various constructs created in MTM such as a lab environment, test suites, and testing settings, and on various infrastructure components such as a Build controller, Build agents, Test controller, and Test agents to achieve this goal. You can accomplish the same with fewer steps using Build or Release Management in TFS and Azure Pipelines.
+Microsoft Test Manager and Lab Management rely on a XAML build definition to automate build, deployment, and testing of your applications. The XAML build relies on various constructs created in Microsoft Test Manager such as a lab environment, test suites, and testing settings, and on various infrastructure components such as a Build controller, Build agents, Test controller, and Test agents to achieve this goal. You can accomplish the same with fewer steps using Azure Pipelines or TFS.
 
-| Steps | With XAML Build | With Build or Release Management |
-|-------|-|-----------------|
-| Identify the machines to deploy the build to and run tests. | Create a standard lab environment in MTM with those machines. | n/a |
-| Identify the tests to be run. | Create a test suite in MTM, create test cases, and associate automation with each test case. Create test settings in MTM identifying the role of machines in the lab environment in which tests should be run. | Create automated test suite in MTM in the same manner if you plan to manage your testing through test plans. Alternatively, you can skip this if you want to run tests directly from test binaries produced by your builds. There is no need to create test settings in either case. |
+| Steps | With XAML build | In a build or release |
+|-------|----------------------|-----------------|
+| Identify the machines to deploy the build to and run tests. | Create a standard lab environment in Microsoft Test Manager with those machines. | n/a |
+| Identify the tests to be run. | Create a test suite in Microsoft Test Manager, create test cases, and associate automation with each test case. Create test settings in Microsoft Test Manager identifying the role of machines in the lab environment in which tests should be run. | Create automated test suite in Microsoft Test Manager in the same manner if you plan to manage your testing through test plans. Alternatively, you can skip this if you want to run tests directly from test binaries produced by your builds. There is no need to create test settings in either case. |
 | Automate deployment and testing. | Create a XAML build definition using LabDefaultTemplate.*.xaml. Specify the build, test suites, and lab environment in the build definition. | Create a [build or release pipeline](/azure/devops/pipelines/index?view=vsts) with a single environment. Run the same deployment script (from the XAML build definition) using the Command line task, and run automated tests using Test Agent Deployment and Run Functional Tests tasks. Specify the list of machines and their credentials as inputs to these tasks. |
 
-Some of the benefits of using Build or Release Management for this scenario are:
+Some of the benefits of using Azure Pipelines or TFS for this scenario are:
 
 * You do not need a Build controller or Test controller.
 * The Test agent is installed through a task as part of the build or release.
@@ -51,8 +51,8 @@ However, given the evolution of richer public and private cloud management syste
 
 The following table summarizes the typical activities you perform in Lab Center, and how you can accomplish them through SCVMM or Azure (if they are infrastructure management activities) or through TFS and Azure DevOps Services (if they are test or deployment activities):
 
-| Steps | With Lab Center | With Build or Release Management |
-|-------|-|-----------------|
+| Steps | With Lab Center | In a build or release |
+|-------|-----------------|-----------------------|
 | Manage a library of environment templates. | Create a lab environment. Install necessary software on the virtual machines. Sysprep and store the environment as a template in library. | Use SCVMM administration console directly to create and manage either virtual machine templates or service templates. When using Azure, select one of the [Azure quickstart templates](https://azure.microsoft.com/resources/templates/). |
 | Create a lab environment. | Select an environment template in the library and deploy it. Provide the necessary parameters to customize the virtual machine configurations. | Use SCVMM administration console directly to create VMs or service instances from templates. Use Azure portal directly to create resources. Or, create a release definition with an environment. Use the Azure tasks or tasks from the [SCVMM Integration extension](https://marketplace.visualstudio.com/items?itemname=ms-vscs-rm.scvmmapp) to create new virtual machines. Creating a new release of this definition is equivalent to creating a new environment in Lab Center. |
 | Connect to machines. | Open the lab environment in Environment viewer. | Use SCVMM administration console directly to connect to the virtual machines. Alternatively, use the IP address or DNS names of the virtual machines to open remote desktop sessions. |
@@ -62,7 +62,7 @@ The following table summarizes the typical activities you perform in Lab Center,
 
 A network isolated lab environment is a group of SCVMM virtual machines that can be cloned safely without causing network conflicts. This was done in MTM using a series of instructions that used a set of network interface cards to configure the virtual machines in a private network, and another set of network interface cards to configure the virtual machines in a public network.
 
-However, Azure Test Plans and TFS, in conjunction with the SCVMM build and deploy task, can be used to manage SCVMM environments, provision isolated virtual networks, and implement build-deploy-test scenarios. For example, you can use the task to:
+However, Azure Pipelines and TFS, in conjunction with the SCVMM build and deploy task, can be used to manage SCVMM environments, provision isolated virtual networks, and implement build-deploy-test scenarios. For example, you can use the task to:
 
 * Create, restore, and delete checkpoints
 * Create new virtual machines using a template
