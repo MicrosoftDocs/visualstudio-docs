@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Configure the Windows Firewall for remote debugging
+# Configure Windows Firewall for remote debugging
 
 On a network protected by Windows Firewall, the firewall must be configured to permit remote debugging. Visual Studio and the remote debugging tools try to open the correct firewall ports during installation or startup, but you may also need to open ports or allow apps manually. 
 
@@ -67,7 +67,7 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 
    The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
 
-## <a name="troubleshooting"></a>Configure remote debugging through Windows firewall
+## Configure remote debugging through Windows firewall
 
 You can install the remote debugging tools on the remote computer, or run them from a shared folder. In either case, the remote computer firewall must be configured correctly. On a remote computer, the remote debugging tools are in:  
   
@@ -83,7 +83,7 @@ You can install the remote debugging tools on the remote computer, or run them f
 
 1.  If the remote debugger app still isn't listed in the **Add an app** dialog, select **Browse**, and navigate to *\<Visual Studio installation directory>\Common7\IDE\Remote Debugger*. In the appropriate *x86*, *x64*, or *Appx* folder for your app, select *msvsmon.exe*, and then select **Add**.  
     
-1.  In the **Apps** list, select **Remote Debugger** that you just added. Select **Network types**, and then select one or more network types, including the network type for the remote connection. 
+1.  In the **Apps** list, select the **Remote Debugger** that you just added. Select **Network types**, and then select one or more network types, including the network type for the remote connection. 
     
 1.  Select **Add**, and then select **OK**.
 
@@ -91,9 +91,13 @@ You can install the remote debugging tools on the remote computer, or run them f
   
 If you can't attach to your app with the remote debugger, make sure the remote debugging firewall ports, protocols, network types, and app settings are all correct. 
 
-- In Windows **Start** menu, search for and open **Windows Firewall**, and select **Allow an app through Windows Firewall**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears in the **Allowed apps and features** list with a selected check box, and the correct network types are selected. If not, [add the correct apps and settings](#allow-the-remote-debugger-app-through-the-window-firewall).
+- In the Windows **Start** menu, search for and open **Windows Firewall**, and select **Allow an app through Windows Firewall**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears in the **Allowed apps and features** list with a selected check box, and the correct network types are selected. If not, [add the correct apps and settings](#configure-remote-debugging-through-windows-firewall).
   
-- In Windows **Start** menu, search for and open **Windows Firewall with Advanced Security**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears under **Inbound Rules** and (optionally) **Outbound Rules** with a green checkmark icon, and that all settings are correct. Right-click the **Remote Debugger** app and select **Properties** to enable or disable the rule, or change port numbers, protocols, and network types. If the remote debugger app doesn't appear, [add and configure the correct ports](#configure-ports-for-remote-debugging). 
+- In the Windows **Start** menu, search for and open **Windows Firewall with Advanced Security**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears under **Inbound Rules** and (optionally) **Outbound Rules** with a green checkmark icon, and that all settings are correct. 
+  
+  - To view or change the settings, right-click the **Remote Debugger** app in the list and select **Properties**. Use the **Properties** tabs to enable or disable the rule, or change port numbers, protocols, and network types. 
+  - If the remote debugger app doesn't appear, [add and configure the correct ports](#configure-ports-for-remote-debugging). 
 
 ## See also  
  [Remote debugging](../debugger/remote-debugging.md)
+ [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)
