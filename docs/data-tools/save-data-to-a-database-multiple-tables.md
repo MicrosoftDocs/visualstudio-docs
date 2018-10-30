@@ -80,7 +80,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 1.  On the **Data** menu, select **Show Data Sources**.
 
-2.  In the **Data Sources** window, select**Add New Data Source** to start the **Data Source Configuration Wizard**.
+2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
 3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.
 
@@ -96,7 +96,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 6.  On the **Save connection string to the Application Configuration file**, select **Next**.
 
-7.  On the **Choose your Database Objects**screen, expand the **Tables** node.
+7.  On the **Choose your Database Objects** screen, expand the **Tables** node.
 
 8.  Select the **Customers** and **Orders** tables, and then select **Finish**.
 

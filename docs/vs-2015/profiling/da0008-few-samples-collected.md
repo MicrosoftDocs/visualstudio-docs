@@ -1,7 +1,7 @@
 ---
 title: "DA0008: Few samples collected | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # DA0008: Few samples collected
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0008: Few samples collected](https://docs.microsoft.com/visualstudio/profiling/da0008-few-samples-collected).  
-  
 Rule Id|DA0008|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Sampling|  

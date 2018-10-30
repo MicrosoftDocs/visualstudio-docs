@@ -1,7 +1,7 @@
 ---
 title: "VSCT XML Schema Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # VSCT XML Schema Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSCT XML Schema Reference](https://docs.microsoft.com/visualstudio/extensibility/vsct-xml-schema-reference).  
-  
 Provides a table of Command Table Compiler schema elements, with allowed child elements and attributes for each.  
   
  An XML-based command table configuration (.vsct) file defines the command elements that a VSPackage provides to the integrated development environment (IDE). These elements include menu items, menus, toolbars, and combo boxes.  
@@ -36,11 +34,11 @@ Provides a table of Command Table Compiler schema elements, with allowed child e
   
  All GUID and ID values must be defined by using symbolic names. These names may be defined in header files or in VSCT \<Symbols> sections. The symbolic names must be local, included through \<Include> elements, or referenced by \<Extern> elements. A symbolic name is imported from a header file specified in an \<Extern> element if it follows the simple pattern of #define SYMBOL   VALUE. The value may be another symbol as long as that symbol was previously defined. GUID definitions must follow either the OLE or C++ format. ID values may be either decimal digits or hexadecimal digits that are preceded by 0x, as shown in the following lines:  
   
--   {6D484634-E53D-4a2c-ADCB-55145C9362C8}  
+- {6D484634-E53D-4a2c-ADCB-55145C9362C8}  
   
--   { 0x6d484634, 0xe53d, 0x4a2c, { 0xad, 0xcb, 0x55, 0x14, 0x5c, 0x93, 0x62, 0xc8 } }  
+- { 0x6d484634, 0xe53d, 0x4a2c, { 0xad, 0xcb, 0x55, 0x14, 0x5c, 0x93, 0x62, 0xc8 } }  
   
- XML comments may be used, but round-trip graphical user interface (GUI) tools might discard them. The contents of \<Annotation> elements are guaranteed to be maintained regardless of format.  
+  XML comments may be used, but round-trip graphical user interface (GUI) tools might discard them. The contents of \<Annotation> elements are guaranteed to be maintained regardless of format.  
   
 ## Schema Hierarchy  
  A .vsct file has the following major elements.  

@@ -1,7 +1,7 @@
 ---
 title: "Define a work item link handler | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Define a work item link handler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define a work item link handler](https://docs.microsoft.com/visualstudio/modeling/define-a-work-item-link-handler).  
-  
 You can create a Visual Studio Integration Extension that responds when the user creates or deletes a link between a UML model element and a work item. For example, when the user chooses to link a new work item to a model element, your code could initialize the fields of the work item from values in the model.  
   
 ## Set up a UML Extension Solution  
@@ -88,11 +86,11 @@ You can create a Visual Studio Integration Extension that responds when the user
 ### Import the Work Item Namespace  
  In your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project **References**, add references to the following assemblies:  
   
--   Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
+- Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
   
--   Microsoft.VisualStudio.TeamFoundation.WorkItemTracking.dll  
+- Microsoft.VisualStudio.TeamFoundation.WorkItemTracking.dll  
   
- In your program code, import the following namespaces:  
+  In your program code, import the following namespaces:  
   
 ```  
 using System.ComponentModel.Composition;  
@@ -278,21 +276,21 @@ element.AddReference(ReferenceConstants.WorkItem, linkString, true);
   
  where:  
   
--   The URI for your server would be:  
+- The URI for your server would be:  
   
-     `http://tfServer:8080/tfs/projectCollection`  
+   `http://tfServer:8080/tfs/projectCollection`  
   
-     Case is important in `projectCollection`.  
+   Case is important in `projectCollection`.  
   
--   `RepositoryGuid` can be obtained from your TFS connection:  
+- `RepositoryGuid` can be obtained from your TFS connection:  
   
-    ```csharp  
-    TfsTeamProjectCollection tpc = TfsTeamProjectCollectionFactory...;  
-    RepositoryGuid= tpc.InstanceId;  
+  ```csharp  
+  TfsTeamProjectCollection tpc = TfsTeamProjectCollectionFactory...;  
+  RepositoryGuid= tpc.InstanceId;  
   
-    ```  
+  ```  
   
- For more information about References, see [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md).  
+  For more information about References, see [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md).  
   
 ## See Also  
  <xref:Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore?displayProperty=fullName>   

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Broken References | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,21 +24,19 @@ manager: "ghogen"
 # Troubleshooting Broken References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshoot broken references](https://docs.microsoft.com/visualstudio/ide/troubleshooting-broken-references).  
-  
 If your application attempts to use a broken reference, an exception error is generated. The inability to find the referenced component is the primary trigger for the error, but there are several situations in which a reference can be considered broken. These instances are shown in the following list:  
   
--   The project's reference path is incorrect or incomplete.  
+- The project's reference path is incorrect or incomplete.  
   
--   The file being referenced has been deleted.  
+- The file being referenced has been deleted.  
   
--   The file being referenced has been renamed.  
+- The file being referenced has been renamed.  
   
--   The network connection or authentication has failed.  
+- The network connection or authentication has failed.  
   
--   The reference is to a COM component that is not installed on the computer.  
+- The reference is to a COM component that is not installed on the computer.  
   
- The following are remedies to these problems.  
+  The following are remedies to these problems.  
   
 > [!NOTE]
 >  Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) and [Programming with Assemblies](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6).  

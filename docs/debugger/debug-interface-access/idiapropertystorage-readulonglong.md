@@ -22,8 +22,8 @@ Reads `ULONGLONG` values in a property set.
   
 ```C++  
 HRESULT ReadULONGLONG (   
-   PROPID     id,  
-   ULONGLONG* pValue  
+   PROPID     id,  
+   ULONGLONG* pValue  
 );  
 ```  
   

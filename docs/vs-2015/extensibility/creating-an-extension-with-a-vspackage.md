@@ -1,7 +1,7 @@
 ---
 title: "Creating an Extension with a VSPackage | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Creating an Extension with a VSPackage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating an Extension with a VSPackage](https://docs.microsoft.com/visualstudio/extensibility/creating-an-extension-with-a-vspackage).  
-  
 This walkthrough shows you how to create a VSIX project and add a VSPackage project item. We will use the VSPackage to get the UI Shell service in order to show a message box.  
   
 ## Prerequisites  

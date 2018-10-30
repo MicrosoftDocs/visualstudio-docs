@@ -25,11 +25,11 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Adding a <xref:Microsoft.Office.Tools.Excel.ListObject> control to a worksheet at runtime.
+- Adding a <xref:Microsoft.Office.Tools.Excel.ListObject> control to a worksheet at runtime.
 
--   Creating a <xref:System.Windows.Forms.BindingSource> that connects the control to an instance of a dataset.
+- Creating a <xref:System.Windows.Forms.BindingSource> that connects the control to an instance of a dataset.
 
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
@@ -60,27 +60,27 @@ ms.workload:
 
 ### To add a typed dataset to the project
 
-1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.
+1. If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.
 
-2.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.
+2. Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
-3.  Click **Database**, and then click **Next**.
+3. Click **Database**, and then click **Next**.
 
-4.  If you have an existing connection to the `AdventureWorksLT` database, choose this connection and click **Next**.
+4. If you have an existing connection to the `AdventureWorksLT` database, choose this connection and click **Next**.
 
-     Otherwise, click **New Connection**, and use the **Add Connection** dialog box to create the new connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+    Otherwise, click **New Connection**, and use the **Add Connection** dialog box to create the new connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-5.  In the **Save the Connection String to the Application Configuration File** page, click **Next**.
+5. In the **Save the Connection String to the Application Configuration File** page, click **Next**.
 
-6.  In the **Choose Your Database Objects** page, expand **Tables** and select **Address (SalesLT)**.
+6. In the **Choose Your Database Objects** page, expand **Tables** and select **Address (SalesLT)**.
 
-7.  Click **Finish**.
+7. Click **Finish**.
 
-     The *AdventureWorksLTDataSet.xsd* file is added to **Solution Explorer**. This file defines the following items:
+    The *AdventureWorksLTDataSet.xsd* file is added to **Solution Explorer**. This file defines the following items:
 
-    -   A typed dataset named `AdventureWorksLTDataSet`. This dataset represents the contents of the **Address (SalesLT)** table in the AdventureWorksLT database.
+   - A typed dataset named `AdventureWorksLTDataSet`. This dataset represents the contents of the **Address (SalesLT)** table in the AdventureWorksLT database.
 
-    -   A TableAdapter named `AddressTableAdapter`. This TableAdapter can be used to read and write data in the `AdventureWorksLTDataSet`. For more information, see [TableAdapter overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).
+   - A TableAdapter named `AddressTableAdapter`. This TableAdapter can be used to read and write data in the `AdventureWorksLTDataSet`. For more information, see [TableAdapter overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).
 
      You will use both of these objects later in this walkthrough.
 

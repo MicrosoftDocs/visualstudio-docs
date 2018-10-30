@@ -1,7 +1,7 @@
 ---
 title: "Shader Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Shader Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Shader Designer](https://docs.microsoft.com/visualstudio/designers/shader-designer).  
-  
 This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  
   
  You can use the Shader Designer to create custom visual effects for your game or app even if you don't know HLSL programming. To create a shader in the Shader Designer, you just lay it out as a graph; that is, you add to the design surface *nodes* that represent data and operations and then make connections between them to define how the operations process the data. At each operation node, a preview of the effect up to that point is provided so that you can visualize its result. Data flows through the nodes toward a final node that represents the output of the shader.  
@@ -121,11 +119,11 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ###### To bind a different texture to a texture register, or to modify other material parameters  
   
-1.  In **Select** mode, select an empty area of the design surface. This causes the **Properties** window to display the global shader properties.  
+1. In **Select** mode, select an empty area of the design surface. This causes the **Properties** window to display the global shader properties.  
   
-2.  In the **Properties** window, specify new values for the texture and parameter properties that you want to change.  
+2. In the **Properties** window, specify new values for the texture and parameter properties that you want to change.  
   
- Here are the shader parameters that you can modify:  
+   Here are the shader parameters that you can modify:  
   
 |Parameter|Properties|  
 |---------------|----------------|  

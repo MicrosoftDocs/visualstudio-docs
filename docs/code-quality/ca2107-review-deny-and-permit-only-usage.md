@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2107: Review deny and permit only usage
+
 |||
 |-|-|
 |TypeName|ReviewDenyAndPermitOnlyUsage|
@@ -29,7 +30,7 @@ ms.workload:
  A method contains a security check that specifies the PermitOnly or Deny security action.
 
 ## Rule description
- The <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName> security action should be used only by those who have an advanced knowledge of [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] security. Code that uses these security actions should undergo a security review.
+ The <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName> security action should be used only by those who have an advanced knowledge of .NET Framework security. Code that uses these security actions should undergo a security review.
 
  Deny alters the default behavior of the stack walk that occurs in response to a security demand. It lets you specify permissions that must not be granted for the duration of the denying method, regardless of the actual permissions of the callers in the call stack. If the stack walk detects a method that is secured by Deny, and if the demanded permission is included in the denied permissions, the stack walk fails. PermitOnly also alters the default behavior of the stack walk. It allows code to specify only those permissions that can be granted, regardless of the permissions of the callers. If the stack walk detects a method that is secured by PermitOnly, and if the demanded permission is not included in the permissions that are specified by the PermitOnly, the stack walk fails.
 

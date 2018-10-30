@@ -1,7 +1,7 @@
 ---
 title: "PARSEFLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,26 +21,24 @@ manager: "ghogen"
 # PARSEFLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PARSEFLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/parseflags).  
-  
 Specifies how to parse an expression.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_PARSEFLAGS {   
-   PARSE_EXPRESSION            = 0x0001,  
-   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  
-   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000  
+   PARSE_EXPRESSION            = 0x0001,  
+   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  
+   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000  
 };  
 typedef DWORD PARSEFLAGS;  
 ```  
   
 ```csharp  
 public enum enum_PARSEFLAGS {   
-   PARSE_EXPRESSION            = 0x0001,  
-   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  
-   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000  
+   PARSE_EXPRESSION            = 0x0001,  
+   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,  
+   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000  
 };  
 ```  
   

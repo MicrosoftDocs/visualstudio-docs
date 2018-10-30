@@ -1,7 +1,7 @@
 ---
 title: "IDebugThread2::GetThreadId | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugThread2::GetThreadId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThread2::GetThreadId](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthread2-getthreadid).  
-  
 Gets the system thread identifier.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetThreadId (   
-   DWORD* pdwThreadId  
+   DWORD* pdwThreadId  
 );  
 ```  
   
 ```csharp  
 int GetThreadId (   
-   out uint pdwThreadId  
+   out uint pdwThreadId  
 );  
 ```  
   

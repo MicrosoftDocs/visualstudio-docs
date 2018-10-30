@@ -1,7 +1,7 @@
 ---
 title: "CA1021: Avoid out parameters | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1021: Avoid out parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1021: Avoid out parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1021-avoid-out-parameters).
 
 |||
 |-|-|

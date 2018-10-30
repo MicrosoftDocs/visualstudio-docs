@@ -1,7 +1,7 @@
 ---
 title: "IDiaFrameData::get_systemExceptionHandling | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaFrameData::get_systemExceptionHandling
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::get_systemExceptionHandling](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-get-systemexceptionhandling).  
-  
 Retrieves a flag that indicates whether system exception handling is in effect.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_systemExceptionHandling (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

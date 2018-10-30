@@ -1,7 +1,7 @@
 ---
 title: "Properties of Image Shapes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,29 +21,27 @@ manager: "douge"
 # Properties of Image Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Properties of Image Shapes](https://docs.microsoft.com/visualstudio/modeling/properties-of-image-shapes).  
-  
 You can use image shapes to specify how domain classes appear in a generated designer. Define an image shape by setting the `Image` property of the class to a predefined image file. The following formats are supported:  
   
--   .gif  
+- .gif  
   
--   .jpg  
+- .jpg  
   
--   .jpeg  
+- .jpeg  
   
--   .bmp  
+- .bmp  
   
--   .wmf  
+- .wmf  
   
--   .emf  
+- .emf  
   
--   .png  
+- .png  
   
- By default, designer resource files, such as image files, are located in the **Resources**folder in the **Dsl** project.  
+  By default, designer resource files, such as image files, are located in the **Resources** folder in the **Dsl** project.  
   
- For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
+  For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  
   
- Image shapes have the properties that are listed in the following table.  
+  Image shapes have the properties that are listed in the following table.  
   
 |Property|Description|Default|  
 |--------------|-----------------|-------------|  

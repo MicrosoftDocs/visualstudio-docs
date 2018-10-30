@@ -1,7 +1,7 @@
 ---
 title: "SEEK_START | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,30 +21,28 @@ manager: "ghogen"
 # SEEK_START
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SEEK_START](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/seek-start).  
-  
 Specifies the position from which to start seeking in a disassembly stream.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_SEEK_START {   
-   SEEK_START_BEGIN       = 0x0001,  
-   SEEK_START_END         = 0x0002,  
-   SEEK_START_CURRENT     = 0x0003,  
-   SEEK_START_CODECONTEXT = 0x0004,  
-   SEEK_START_CODELOCID   = 0x0005  
+   SEEK_START_BEGIN       = 0x0001,  
+   SEEK_START_END         = 0x0002,  
+   SEEK_START_CURRENT     = 0x0003,  
+   SEEK_START_CODECONTEXT = 0x0004,  
+   SEEK_START_CODELOCID   = 0x0005  
 };  
 typedef DWORD SEEK_START;  
 ```  
   
 ```csharp  
 public enum enum_SEEK_START {   
-   SEEK_START_BEGIN       = 0x0001,  
-   SEEK_START_END         = 0x0002,  
-   SEEK_START_CURRENT     = 0x0003,  
-   SEEK_START_CODECONTEXT = 0x0004,  
-   SEEK_START_CODELOCID   = 0x0005  
+   SEEK_START_BEGIN       = 0x0001,  
+   SEEK_START_END         = 0x0002,  
+   SEEK_START_CURRENT     = 0x0003,  
+   SEEK_START_CODECONTEXT = 0x0004,  
+   SEEK_START_CODELOCID   = 0x0005  
 };  
 ```  
   

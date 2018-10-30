@@ -23,13 +23,13 @@ Returns a list of all the processes running on a port.
   
 ```cpp  
 HRESULT EnumProcesses(   
-   IEnumDebugProcesses2** ppEnum  
+   IEnumDebugProcesses2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumProcesses(   
-   out IEnumDebugProcesses2 ppEnum  
+   out IEnumDebugProcesses2 ppEnum  
 );  
 ```  
   

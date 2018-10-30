@@ -14,6 +14,7 @@ ms.workload:
   - "cplusplus"
 ---
 # CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute
+
 |||
 |-|-|
 |TypeName|TransparentMethodsMustNotCallSuppressUnmanagedCodeSecurityMethods|

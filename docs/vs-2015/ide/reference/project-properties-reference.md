@@ -1,7 +1,7 @@
 ---
 title: "Project Properties Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Project Properties Reference
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Properties Reference](https://docs.microsoft.com/visualstudio/ide/reference/project-properties-reference).  
-  
   
 Learn more about how to configure and customize project properties.  
   

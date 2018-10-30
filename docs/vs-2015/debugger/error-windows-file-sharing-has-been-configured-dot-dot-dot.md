@@ -1,7 +1,7 @@
 ---
 title: "Error: Windows file sharing has been configured... | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Error: Windows file sharing has been configured...
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Windows file sharing has been configured...](https://docs.microsoft.com/visualstudio/debugger/error-windows-file-sharing-has-been-configured-dot-dot-dot).  
-  
 Windows file sharing has been configured so that you will connect to the remote computer using a different user name. This is incompatible with remote debugging  
   
  The current file sharing configuration is set up to connect to the remote computer using a different user name. Remote debugging is not possible in this scenario.  

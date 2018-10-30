@@ -1,7 +1,7 @@
 ---
 title: "IDebugAlias2::GetAppDomainId | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,21 +20,19 @@ manager: "ghogen"
 # IDebugAlias2::GetAppDomainId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugAlias2::GetAppDomainId](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugalias2-getappdomainid).  
-  
 Retrieves the identifier for the application domain.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetAppDomainId (  
-   ULONG32* pappDomainId  
+   ULONG32* pappDomainId  
 );  
 ```  
   
 ```csharp  
 int GetAppDomainId (  
-   out uint pappDomainId  
+   out uint pappDomainId  
 );  
 ```  
   

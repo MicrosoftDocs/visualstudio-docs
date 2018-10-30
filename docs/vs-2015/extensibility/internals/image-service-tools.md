@@ -1,7 +1,7 @@
 ---
 title: "Image Service Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,6 @@ manager: "ghogen"
 # Image Service Tools
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Service Tools](https://docs.microsoft.com/visualstudio/extensibility/internals/image-service-tools).  
-  
 The VS SDK includes several tools to help extension builders use the Visual Studio image service.  
   
 -   The [Manifest from Resources](../../extensibility/internals/manifest-from-resources.md) tool takes a list of image resources (.png or .xaml files) and generates an image manifest file.  

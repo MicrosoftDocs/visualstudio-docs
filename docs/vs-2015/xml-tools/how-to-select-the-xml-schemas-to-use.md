@@ -1,7 +1,7 @@
 ---
 title: "How to: Select the XML Schemas to Use | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Select the XML Schemas to Use
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Select the XML Schemas to Use](https://docs.microsoft.com/visualstudio/xml-tools/how-to-select-the-xml-schemas-to-use).  
-  
   
 The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas directory. The schema cache includes well-known XML schemas that are used for IntelliSense and XML document validation.  
   
@@ -32,23 +30,23 @@ The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas d
   
 ### To select an XML Schema from the schema cache  
   
-1.  Open a file in the XML editor.  
+1. Open a file in the XML editor.  
   
-2.  In the document properties window, click the button on the **Schemas** field.  
+2. In the document properties window, click the button on the **Schemas** field.  
   
-     The **XML Schemas** dialog box is displayed. The dialog box lists all schemas with an .xsd extension in the schema cache (including schemas referenced in the catalog.xml file), and also any schema that is in the current solution, open in Visual Studio, referenced in an `xsd:schemaLocation` attribute, or referenced in the **Schemas** property.  
+    The **XML Schemas** dialog box is displayed. The dialog box lists all schemas with an .xsd extension in the schema cache (including schemas referenced in the catalog.xml file), and also any schema that is in the current solution, open in Visual Studio, referenced in an `xsd:schemaLocation` attribute, or referenced in the **Schemas** property.  
   
-3.  Select the schemas to use for validation by doing one of the following:  
+3. Select the schemas to use for validation by doing one of the following:  
   
-    -   Select a schema listed in the **XML Schemas** dialog, click the **Use** column, and then select **Use this schema**.  
+   - Select a schema listed in the **XML Schemas** dialog, click the **Use** column, and then select **Use this schema**.  
   
      -or-  
   
-    -   Select multiple schemas listed in the **XML Schemas** dialog, right-click and select **Use this schema**.  
+   - Select multiple schemas listed in the **XML Schemas** dialog, right-click and select **Use this schema**.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
-     The list of selected schemas is copied back to the **Schemas** document property.  
+    The list of selected schemas is copied back to the **Schemas** document property.  
   
 ### To add an XML Schema to the schema cache  
   

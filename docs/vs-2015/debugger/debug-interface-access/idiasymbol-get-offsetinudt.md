@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_offsetInUdt | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_offsetInUdt
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_offsetInUdt](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-offsetinudt).  
-  
 Retrieves the offset to the beginning of a user-defined type (UDT) of a member in the UDT.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_offsetInUdt(   
-   DWORD* pRetVal)  
+   DWORD* pRetVal)  
 );  
 ```  
   

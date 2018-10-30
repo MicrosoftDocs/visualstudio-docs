@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgram2::EnumCodeContexts | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugProgram2::EnumCodeContexts
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::EnumCodeContexts](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-enumcodecontexts).  
-  
 Retrieves a list of the code contexts for a given position in a source file.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT EnumCodeContexts(   
-   IDebugDocumentPosition2*  pDocPos,  
-   IEnumDebugCodeContexts2** ppEnum  
+   IDebugDocumentPosition2*  pDocPos,  
+   IEnumDebugCodeContexts2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumCodeContexts(   
-   IDebugDocumentPosition2     pDocPos,  
-   out IEnumDebugCodeContexts2 ppEnum  
+   IDebugDocumentPosition2     pDocPos,  
+   out IEnumDebugCodeContexts2 ppEnum  
 );  
 ```  
   

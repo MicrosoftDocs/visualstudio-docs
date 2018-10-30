@@ -1,7 +1,7 @@
 ---
 title: "Project Type Design Decisions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Project Type Design Decisions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Project Type Design Decisions](https://docs.microsoft.com/visualstudio/extensibility/internals/project-type-design-decisions).  
-  
 Before you create a new project type, you must make several design decisions regarding your project type. You must decide what types of items your projects will contain, how project files will be persisted, and what commitment model you will use.  
   
 ## Project Items  
@@ -44,13 +42,13 @@ Before you create a new project type, you must make several design decisions reg
   
  You have several options to consider regarding persistence for the items in your project. You can perform any one of the following options:  
   
--   Save each file individually when it has been changed.  
+- Save each file individually when it has been changed.  
   
--   Capture many transactions in a single **Save** operation.  
+- Capture many transactions in a single **Save** operation.  
   
--   Save files locally, and then publish to a server or use another approach to saving project items when the item represents a data connection to a remote object.  
+- Save files locally, and then publish to a server or use another approach to saving project items when the item represents a data connection to a remote object.  
   
- For more information about persistence, see [Project Persistence](../../extensibility/internals/project-persistence.md) and [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md).  
+  For more information about persistence, see [Project Persistence](../../extensibility/internals/project-persistence.md) and [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md).  
   
 ## Project Commitment Model  
  Will persisted data objects be opened in direct mode or transacted mode?  

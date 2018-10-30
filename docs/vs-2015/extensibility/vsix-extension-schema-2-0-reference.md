@@ -1,7 +1,7 @@
 ---
 title: "VSIX Extension Schema 2.0 Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # VSIX Extension Schema 2.0 Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSIX Extension Schema 2.0 Reference](https://docs.microsoft.com/visualstudio/extensibility/vsix-extension-schema-2-0-reference).  
-  
 A VSIX deployment manifest file describes the contents of a VSIX package. The file format is governed by a schema. Version 2.0 of this schema supports the adding of custom types and attributes.  The schema of the manifest is extensible. The manifest loader ignores XML elements and attributes that it doesn’t understand.  
   
 > [!IMPORTANT]
@@ -162,31 +160,31 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 ### Assets Element  
  This element contains a list of `<Asset>` tags for each extension or content element surfaced by this package.  
   
--   `<Asset>` -  This element contains the following attributes and elements:  
+- `<Asset>` -  This element contains the following attributes and elements:  
   
-    -   `Type` – This is the type of extension or content represented by this element. Each `<Asset>` element must have a single `Type`, but multiple `<Asset>` elements may have the same `Type`. This attribute should be represented as a fully qualified name, according to namespace conventions. The known types are:  
+  - `Type` – This is the type of extension or content represented by this element. Each `<Asset>` element must have a single `Type`, but multiple `<Asset>` elements may have the same `Type`. This attribute should be represented as a fully qualified name, according to namespace conventions. The known types are:  
   
-        1.  Microsoft.VisualStudio.VsPackage  
+    1. Microsoft.VisualStudio.VsPackage  
   
-        2.  Microsoft.VisualStudio.MefComponent  
+    2. Microsoft.VisualStudio.MefComponent  
   
-        3.  Microsoft.VisualStudio.ToolboxControl  
+    3. Microsoft.VisualStudio.ToolboxControl  
   
-        4.  Microsoft.VisualStudio.Samples  
+    4. Microsoft.VisualStudio.Samples  
   
-        5.  Microsoft.VisualStudio.ProjectTemplate  
+    5. Microsoft.VisualStudio.ProjectTemplate  
   
-        6.  Microsoft.VisualStudio.ItemTemplate  
+    6. Microsoft.VisualStudio.ItemTemplate  
   
-        7.  Microsoft.VisualStudio.Assembly  
+    7. Microsoft.VisualStudio.Assembly  
   
-         You can create your own types, and give them unique names. At run time inside Visual Studio, your code can enumerate and access these custom types through the Extension Manager API.  
+       You can create your own types, and give them unique names. At run time inside Visual Studio, your code can enumerate and access these custom types through the Extension Manager API.  
   
-    -   Path – the relative path to the file or folder within the package that contains the asset.  
+  - Path – the relative path to the file or folder within the package that contains the asset.  
   
-    -   `AnyAttribute*` – An open-ended set of attributes that'll be exposed at runtime as a name-value pair dictionary.  
+  - `AnyAttribute*` – An open-ended set of attributes that'll be exposed at runtime as a name-value pair dictionary.  
   
-         `<AnyElement>*` – Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at runtime.  
+     `<AnyElement>*` – Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at runtime.  
   
 ### Sample Manifest  
   

@@ -1,7 +1,7 @@
 ---
 title: "DA0018: 32-bit Application running at process managed memory limits | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # DA0018: 32-bit Application running at process managed memory limits
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0018: 32-bit Application running at process managed memory limits](https://docs.microsoft.com/visualstudio/profiling/da0018-32-bit-application-running-at-process-managed-memory-limits).  
-  
 Rule Id|DA0018|  
 |Category|Profiling Tools Usage|  
 |Profiling method|Sampling|  
@@ -53,23 +51,23 @@ Rule Id|DA0018|
   
  If excessive managed memory overhead is a problem, consider either of these options:  
   
--   optimizing the application’s usage of managed memory resources  
+- optimizing the application’s usage of managed memory resources  
   
-     -or-  
+   -or-  
   
--   taking steps to relieve the architectural constraints on the maximum size of virtual memory for a 32-bit process  
+- taking steps to relieve the architectural constraints on the maximum size of virtual memory for a 32-bit process  
   
- To optimize the application’s usage of managed memory resources, gather managed memory allocation data in a .NET Memory Allocation profiling run. Review the [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md) reports to understand the application’s pattern of memory allocation.  
+  To optimize the application’s usage of managed memory resources, gather managed memory allocation data in a .NET Memory Allocation profiling run. Review the [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md) reports to understand the application’s pattern of memory allocation.  
   
- Use the [Object Lifetime View](../profiling/object-lifetime-view.md) to determine which of the program’s data objects are surviving into generation and then being reclaimed from there.  
+  Use the [Object Lifetime View](../profiling/object-lifetime-view.md) to determine which of the program’s data objects are surviving into generation and then being reclaimed from there.  
   
- Use the [Allocations View](../profiling/dotnet-memory-allocations-view.md) to determine the execution path that resulted in these allocations.  
+  Use the [Allocations View](../profiling/dotnet-memory-allocations-view.md) to determine the execution path that resulted in these allocations.  
   
- For more information about how to improve garbage collection performance, see .NET Framework technical article, [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=177946) on the MSDN Web site.  
+  For more information about how to improve garbage collection performance, see .NET Framework technical article, [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=177946) on the MSDN Web site.  
   
- To gain architectural relief from the virtual memory constraints on the size of the private portion of a process address space, try running this 32-bit process on a 64-bit machine.  A 32-bit process on a 64-bit machine can acquire up to 4 GB of private virtual memory.  
+  To gain architectural relief from the virtual memory constraints on the size of the private portion of a process address space, try running this 32-bit process on a 64-bit machine.  A 32-bit process on a 64-bit machine can acquire up to 4 GB of private virtual memory.  
   
- A 64-bit process running on a 64-bit machine can acquire up to 8 TB of virtual memory. Consider re-compiling the application to execute as a native 64-bit application. This rule is for information only, and might not require corrective action.
+  A 64-bit process running on a 64-bit machine can acquire up to 8 TB of virtual memory. Consider re-compiling the application to execute as a native 64-bit application. This rule is for information only, and might not require corrective action.
 
 
 

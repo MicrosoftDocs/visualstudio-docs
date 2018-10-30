@@ -1,7 +1,7 @@
 ---
 title: "Changing the Value of a Local | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Changing the Value of a Local
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Changing the Value of a Local](https://docs.microsoft.com/visualstudio/extensibility/debugger/changing-the-value-of-a-local).  
-  
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
@@ -29,21 +27,21 @@ The latest version of this topic can be found at [Changing the Value of a Local]
   
  This is an overview of the process of changing the value of a local:  
   
-1.  After the user enters the new value, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with the local.  
+1. After the user enters the new value, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with the local.  
   
-2.  `IDebugProperty2::SetValueAsString` performs the following tasks:  
+2. `IDebugProperty2::SetValueAsString` performs the following tasks:  
   
-    1.  Evaluates the string to produce a value.  
+   1.  Evaluates the string to produce a value.  
   
-    2.  Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to obtain an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
+   2.  Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to obtain an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
   
-    3.  Converts the value to a series of bytes.  
+   3.  Converts the value to a series of bytes.  
   
-    4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to put the value's bytes into memory so the program being debugged can access them.  
+   4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to put the value's bytes into memory so the program being debugged can access them.  
   
-3.  Visual Studio refreshes the **Locals** display (see [Displaying Locals](../../extensibility/debugger/displaying-locals.md) for details).  
+3. Visual Studio refreshes the **Locals** display (see [Displaying Locals](../../extensibility/debugger/displaying-locals.md) for details).  
   
- This procedure is also used to change the value of a variable in the **Watch** window except it is the `IDebugProperty2` object associated with the value of the local that is used instead of the `IDebugProperty2` object associated with the local itself.  
+   This procedure is also used to change the value of a variable in the **Watch** window except it is the `IDebugProperty2` object associated with the value of the local that is used instead of the `IDebugProperty2` object associated with the local itself.  
   
 ## In This Section  
  [Sample Implementation of Changing Values](../../extensibility/debugger/sample-implementation-of-changing-values.md)  

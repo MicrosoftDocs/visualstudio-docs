@@ -1,7 +1,7 @@
 ---
 title: "Determining the Default Namespace of a Project | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,11 +22,11 @@ For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)], if the `CustomToolNamespace` p
   
  An exception to this rule occurs when the hierarchy chain contains a Web reference folder. For example, if:  
   
--   FolderC were a Web reference folder, the namespace would be **CL9.FolderC**.  
+- FolderC were a Web reference folder, the namespace would be **CL9.FolderC**.  
   
--   FolderB were a Web reference folder, the namespace would be **CL9.FolderB.FolderC**.  
+- FolderB were a Web reference folder, the namespace would be **CL9.FolderB.FolderC**.  
   
- That is, the namespace uses the following format:  
+  That is, the namespace uses the following format:  
   
 ```  
 rootNamespace.webReferenceFolder.containedFolder.containedFolder ...  

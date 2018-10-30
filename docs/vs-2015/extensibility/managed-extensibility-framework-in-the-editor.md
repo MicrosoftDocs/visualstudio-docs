@@ -1,7 +1,7 @@
 ---
 title: "Managed Extensibility Framework in the Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Managed Extensibility Framework in the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managed Extensibility Framework in the Editor](https://docs.microsoft.com/visualstudio/extensibility/managed-extensibility-framework-in-the-editor).  
-  
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.  
   
 ## Overview of the Managed Extensibility Framework  
@@ -33,13 +31,13 @@ The editor is built by using Managed Extensibility Framework (MEF) components. Y
 ### Component Parts and Composition Containers  
  A component part is a class or a member of a class that can do one (or both) of the following:  
   
--   Consume another component  
+- Consume another component  
   
--   Be consumed by another component  
+- Be consumed by another component  
   
- For example, consider a shopping application that has an order entry component that depends on product availability data provided by a warehouse inventory component. In MEF terms, the inventory part can *export* product availability data, and the order entry part can *import* the data. The order entry part and the inventory part do not have to know about each other; the *composition container* (provided by the host application) is responsible for maintaining the set of exports, and resolving the exports and imports.  
+  For example, consider a shopping application that has an order entry component that depends on product availability data provided by a warehouse inventory component. In MEF terms, the inventory part can *export* product availability data, and the order entry part can *import* the data. The order entry part and the inventory part do not have to know about each other; the *composition container* (provided by the host application) is responsible for maintaining the set of exports, and resolving the exports and imports.  
   
- The composition container, <xref:System.ComponentModel.Composition.Hosting.CompositionContainer>, is typically owned by the host. The composition container maintains a *catalog* of exported component parts.  
+  The composition container, <xref:System.ComponentModel.Composition.Hosting.CompositionContainer>, is typically owned by the host. The composition container maintains a *catalog* of exported component parts.  
   
 ### Exporting and Importing Component Parts  
  You can export any functionality, as long as it is implemented as a public class or a public member of a class (property or method). You do not have to derive your component part from <xref:System.ComponentModel.Composition.Primitives.ComposablePart>. Instead, you must add a <xref:System.ComponentModel.Composition.ExportAttribute> attribute to the class or class member that you want to export. This attribute specifies the *contract* by which another component part can import your functionality.  

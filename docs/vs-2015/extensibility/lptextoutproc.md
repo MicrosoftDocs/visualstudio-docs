@@ -1,7 +1,7 @@
 ---
 title: "LPTEXTOUTPROC | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # LPTEXTOUTPROC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [LPTEXTOUTPROC](https://docs.microsoft.com/visualstudio/extensibility/lptextoutproc).  
-  
 When the user executes a source control operation from inside the integrated development environment (IDE), the source control plug-in might want to convey error or status messages relating to the operation. The plug-in can display its own message boxes for this purpose. However, for more seamless integration, the plug-in can pass strings to the IDE, which then displays them in its native way of displaying status information. The mechanism for this is the `LPTEXTOUTPROC` function pointer. The IDE implements this function (described in more detail below) for displaying error and status.  
   
  The IDE passes to the source control plug-in a function pointer to this function, as the `lpTextOutProc` parameter, when calling the [SccOpenProject](../extensibility/sccopenproject-function.md). During an SCC operation, for example, in the middle of a call to the [SccGet](../extensibility/sccget-function.md) involving many files, the plug-in can call the `LPTEXTOUTPROC` function, periodically passing strings to display. The IDE may display these strings on a status bar, in an output window, or in a separate message box, as appropriate. Optionally, the IDE may be able to display certain messages with a **Cancel** button. This enables the user to cancel the operation, and it gives the IDE the ability to pass this information back to the plug-in.  
@@ -36,8 +34,8 @@ When the user executes a source control operation from inside the integrated dev
   
 ```cpp#  
 typedef LONG (*LPTEXTOUTPROC) (  
-   LPSTR display_string,  
-   LONG mesg_type  
+   LPSTR display_string,  
+   LONG mesg_type  
 );  
 ```  
   
@@ -76,7 +74,7 @@ typedef LONG (*LPTEXTOUTPROC) (
   
 ```cpp#  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
+   DWORD dwBackgroundOperationID;  
 } SccMsgDataIsCancelled;  
 ```  
   
@@ -86,8 +84,8 @@ typedef struct {
   
 ```cpp#  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szFile;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szFile;  
 } SccMsgDataOnBeforeGetFile;  
 ```  
   
@@ -97,9 +95,9 @@ typedef struct {
   
 ```cpp#  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szFile;  
-   SCCRTN sResult;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szFile;  
+   SCCRTN sResult;  
 } SccMsgDataOnAfterGetFile;  
 ```  
   
@@ -110,9 +108,9 @@ typedef struct {
   
 ```  
 typedef struct {  
-   DWORD dwBackgroundOperationID;  
-   PCSTR szMessage;  
-   BOOL bIsError;  
+   DWORD dwBackgroundOperationID;  
+   PCSTR szMessage;  
+   BOOL bIsError;  
 } SccMsgDataOnMessage;  
 ```  
   
@@ -123,20 +121,20 @@ typedef struct {
   
 ```cpp#  
 LONG SendStatusMessage(  
-    LPTEXTOUTPROC pTextOutProc,  
-    DWORD         dwBackgroundID,  
-    LPCTSTR       pStatusMsg,  
-    BOOL          bIsError)  
+    LPTEXTOUTPROC pTextOutProc,  
+    DWORD         dwBackgroundID,  
+    LPCTSTR       pStatusMsg,  
+    BOOL          bIsError)  
 {  
-    SccMsgDataOnMessage msgData = { 0 };  
-    LONG                result  = 0;  
+    SccMsgDataOnMessage msgData = { 0 };  
+    LONG                result  = 0;  
   
-    msgData.dwBackgroundOperationID = dwBackgroundID;  
-    msgData.szMessage               = pStatusMsg;  
-    msgData.bIsError                = bIsError;  
+    msgData.dwBackgroundOperationID = dwBackgroundID;  
+    msgData.szMessage               = pStatusMsg;  
+    msgData.bIsError                = bIsError;  
   
-    result = pTextOutProc(reinterpret_cast<LPCTSTR>(&msgData), SCC_MSG_BACKGROUND_ON_MESSAGE);  
-    return result;  
+    result = pTextOutProc(reinterpret_cast<LPCTSTR>(&msgData), SCC_MSG_BACKGROUND_ON_MESSAGE);  
+    return result;  
 }  
 ```  
   

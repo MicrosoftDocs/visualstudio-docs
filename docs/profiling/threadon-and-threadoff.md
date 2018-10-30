@@ -20,11 +20,11 @@ The *VSPerfCmd.exe* **ThreadOff** and **ThreadOn** subcommands are only availabl
   
  The **ThreadOff** and **ThreadOn** subcommands also affect the Thread Start/Stop count that is manipulated by profiler API functions.  
   
--   **ThreadOff** immediately sets the Thread Start/Stop Count to 0 and therefore pauses profiling.  
+- **ThreadOff** immediately sets the Thread Start/Stop Count to 0 and therefore pauses profiling.  
   
--   **ThreadOn** immediately sets the Thread Start/Stop Count to 1 and therefore resumes profiling.  
+- **ThreadOn** immediately sets the Thread Start/Stop Count to 1 and therefore resumes profiling.  
   
- For more information, see [Profiling tools APIs](../profiling/profiling-tools-apis.md).  
+  For more information, see [Profiling tools APIs](../profiling/profiling-tools-apis.md).  
   
 ## Syntax  
   

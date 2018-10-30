@@ -21,13 +21,13 @@ You can provide feedback to your user by changing the appearance of a command. F
   
  To change the appearance of a command, perform one of these actions:  
   
--   Specify the appropriate flags in the command definition in the command table file.  
+- Specify the appropriate flags in the command definition in the command table file.  
   
--   Use the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> service.  
+- Use the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> service.  
   
--   Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and modify the raw command objects.  
+- Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and modify the raw command objects.  
   
- The following steps show how to find and update the appearance of a command by using the Managed Package Framework (MPF).  
+  The following steps show how to find and update the appearance of a command by using the Managed Package Framework (MPF).  
   
 ### To change the appearance of a menu command  
   
@@ -52,7 +52,7 @@ You can provide feedback to your user by changing the appearance of a command. F
     {  
         var command = sender as OleMenuCommand;  
         if (command.Text == "New Text")  
-            ChangeMyCommand(command.CommandID.ID, false);}  
+            ChangeMyCommand(command.CommandID.ID, false);
     }  
     ```  
   
@@ -71,7 +71,7 @@ You can provide feedback to your user by changing the appearance of a command. F
             mc.Enabled = enableCmd;  
             cmdUpdated = true;  
         }  
-        return cmdUpdated;    }  
+        return cmdUpdated;
     }  
     ```  
   

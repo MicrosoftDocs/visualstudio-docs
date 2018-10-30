@@ -1,7 +1,7 @@
 ---
 title: "Memory Usage without Debugging2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,17 +23,15 @@ manager: "ghogen"
 # Memory Usage without Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze Memory Usage without the VS Debugger](https://docs.microsoft.com/visualstudio/profiling/memory-usage-without-debugging2).  
-  
 You can use the **Memory Usage** tool without debugging to do the following  
   
--   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  
+- Monitor your app's memory use right in Visual Studio while you are developing a scenario.  
   
--   Create detailed snapshots of the state of your app’s memory.  
+- Create detailed snapshots of the state of your app’s memory.  
   
--   Compare snapshots to find the root cause of memory issues.  
+- Compare snapshots to find the root cause of memory issues.  
   
- This topic describes how use the Memory Usage tool to analyze a Windows Universal XAML app. If you want to analyze memory use in Windows Universal apps that use JavaScript and HTML, see [Analyze memory usage (JavaScript)](http://msdn.microsoft.com/library/windows/apps/jj819176.aspx).  
+  This topic describes how use the Memory Usage tool to analyze a Windows Universal XAML app. If you want to analyze memory use in Windows Universal apps that use JavaScript and HTML, see [Analyze memory usage (JavaScript)](http://msdn.microsoft.com/library/windows/apps/jj819176.aspx).  
   
 ##  <a name="BKMK_Start_a_Memory_Usage_diagnostic_session"></a> Start a Memory Usage diagnostic session  
   
@@ -72,13 +70,13 @@ You can use the **Memory Usage** tool without debugging to do the following
 ###  <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshot views  
  You use snapshot views to open detailed reports in new Visual Studio windows. There are two kinds of snapshot views:  
   
--   A [Snapshot details reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_details_reports) shows the types and instances in one snapshot.  
+- A [Snapshot details reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_details_reports) shows the types and instances in one snapshot.  
   
--   A [Snapshot difference (diff) reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_difference__diff__reports) compares the types and instances in two snapshots.  
+- A [Snapshot difference (diff) reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_difference__diff__reports) compares the types and instances in two snapshots.  
   
- ![Snapshot view links](../profiling/media/memuse-snapshotview-numbered.png "MEMUSE__SnapshotView_Numbered")  
+  ![Snapshot view links](../profiling/media/memuse-snapshotview-numbered.png "MEMUSE__SnapshotView_Numbered")  
   
- The numbered items in the picture of the snapshot view are links that open Memory Usage report views.  
+  The numbered items in the picture of the snapshot view are links that open Memory Usage report views.  
   
 |||  
 |-|-|  

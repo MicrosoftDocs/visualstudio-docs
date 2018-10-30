@@ -1,7 +1,7 @@
 ---
 title: "Diagnose problems after deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Diagnose problems after deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Diagnose problems after deployment](https://docs.microsoft.com/visualstudio/debugger/diagnose-problems-after-deployment).  
-  
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.  
   
  If you are using Microsoft Monitoring Agent to control IntelliTrace, you also need to set up set up application performance monitoring on your web server. This records diagnostic events while your app runs and saves the events to an IntelliTrace log file. You can then look at the events in Visual Studio Enterprise (but not Professional or Community editions), go to the code where an event happened, look at the recorded values at that point in time, and move forwards or backwards through the code that ran. After you find and fix the problem, repeat the cycle to build, release, and monitor your release so you can resolve future potential problems earlier and faster.  
@@ -43,97 +41,97 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 ####  <a name="TFS2013"></a> Team Foundation Server 2013  
  Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.  
   
-1.  [Edit your build definition or create a new build definition.](http://msdn.microsoft.com/library/1c2eca2d-9a65-477e-9b23-0678ff7882ee)  
+1. [Edit your build definition or create a new build definition.](http://msdn.microsoft.com/library/1c2eca2d-9a65-477e-9b23-0678ff7882ee)  
   
-     ![View build definition in TFS 2013](../debugger/media/ffr-tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
+    ![View build definition in TFS 2013](../debugger/media/ffr-tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
   
-2.  Choose the default template (TfvcTemplate.12.xaml) or your own custom template.  
+2. Choose the default template (TfvcTemplate.12.xaml) or your own custom template.  
   
-     ![Choose build process template &#45; TFS 2013](../debugger/media/ffr-tfs2013buildprocesstemplate.png "FFR_TFS2013BuildProcessTemplate")  
+    ![Choose build process template &#45; TFS 2013](../debugger/media/ffr-tfs2013buildprocesstemplate.png "FFR_TFS2013BuildProcessTemplate")  
   
-3.  Specify where to save the symbols (PDB) file so that your source is indexed automatically.  
+3. Specify where to save the symbols (PDB) file so that your source is indexed automatically.  
   
-     If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.  
+    If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.  
   
-     ![Set up symbols path in build defintion TFS 2013](../debugger/media/ffr-tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
+    ![Set up symbols path in build defintion TFS 2013](../debugger/media/ffr-tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
   
-     For more about symbols, see [Publish symbol data](http://msdn.microsoft.com/library/bd6977ca-e30a-491a-a153-671d81222ce6).  
+    For more about symbols, see [Publish symbol data](http://msdn.microsoft.com/library/bd6977ca-e30a-491a-a153-671d81222ce6).  
   
-4.  Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:  
+4. Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:  
   
-     **/p:IncludeServerNameInBuildInfo=True**  
+    **/p:IncludeServerNameInBuildInfo=True**  
   
-     Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.  
+    Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.  
   
-5.  If you use a custom template, add this MSBuild argument to specify where to save the symbols file:  
+5. If you use a custom template, add this MSBuild argument to specify where to save the symbols file:  
   
-     **/p:BuildSymbolStorePath=**\<*path to symbols*>  
+    **/p:BuildSymbolStorePath=**\<*path to symbols*>  
   
-     ![Include build server info in build def TFS 2013](../debugger/media/ffr-tfs2013builddefincludeserverinfo.png "FFR_TFS2013BuildDefIncludeServerInfo")  
+    ![Include build server info in build def TFS 2013](../debugger/media/ffr-tfs2013builddefincludeserverinfo.png "FFR_TFS2013BuildDefIncludeServerInfo")  
   
-     And add these lines to your web project file (.csproj, .vbproj):  
+    And add these lines to your web project file (.csproj, .vbproj):  
   
-    ```  
-    <!-- Import the targets file. Change the folder location as necessary. -->  
-       <Import Project=""$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" />  
+   ```  
+   <!-- Import the targets file. Change the folder location as necessary. -->  
+      <Import Project=""$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" />  
   
-    ```  
+   ```  
   
-6.  Run a new build.  
+6. Run a new build.  
   
- **Step 2:** [Step 2: Release your app](#DeployRelease)  
+   **Step 2:** [Step 2: Release your app](#DeployRelease)  
   
 ####  <a name="TFS2012_2010"></a> Team Foundation Server 2012 or 2010  
  Follow these steps to automatically create the build manifest (BuildInfo.config file) for your project and put the file in your project's output folder. The file appears as "*ProjectName*.BuildInfo.config" in the output folder but is renamed "BuildInfo.config" in the deployment folder after you publish your app.  
   
-1.  Install Visual Studio 2013 (any edition) on your Team Foundation build server.  
+1. Install Visual Studio 2013 (any edition) on your Team Foundation build server.  
   
-2.  In your build definition, specify where to save the symbols so that your source is indexed automatically.  
+2. In your build definition, specify where to save the symbols so that your source is indexed automatically.  
   
-     If you use a custom template, make sure that the template has an activity to index your source.  
+    If you use a custom template, make sure that the template has an activity to index your source.  
   
-3.  Add these MSBuild arguments to your build definition:  
+3. Add these MSBuild arguments to your build definition:  
   
-    -   **/p:VisualStudioVersion=12.0**  
+   -   **/p:VisualStudioVersion=12.0**  
   
-    -   **/p:MSBuildAssemblyVersion=12.0**  
+   -   **/p:MSBuildAssemblyVersion=12.0**  
   
-    -   **/tv:12.0**  
+   -   **/tv:12.0**  
   
-    -   **/p:IncludeServerNameInBuildInfo=True**  
+   -   **/p:IncludeServerNameInBuildInfo=True**  
   
-    -   **/p:BuildSymbolStorePath=**\<*path to symbols*>  
+   -   **/p:BuildSymbolStorePath=**\<*path to symbols*>  
   
-4.  Run a new build.  
+4. Run a new build.  
   
- **Step 2:** [Step 2: Release your app](#DeployRelease)  
+   **Step 2:** [Step 2: Release your app](#DeployRelease)  
   
 ###  <a name="ManualBuild"></a> Create the build manifest for a manual build using Visual Studio  
  Follow these steps to automatically create the build manifest (BuildInfo.config file) for your project and put the file in your project's output folder. The file appears as "*ProjectName*.BuildInfo.config" in the output folder but is renamed "BuildInfo.config" in the deployment folder after you publish your app.  
   
-1.  In **Solution Explorer**, unload your web project.  
+1. In **Solution Explorer**, unload your web project.  
   
-2.  Open the project file (.csproj, .vbproj). Add these lines:  
+2. Open the project file (.csproj, .vbproj). Add these lines:  
   
-    ```xml  
-    <!-- **************************************************** -->  
-    <!-- Build info -->  
-    <PropertyGroup>  
-       <!-- Generate the BuildInfo.config file -->  
-       <GenerateBuildInfoConfigFile>True</GenerateBuildInfoConfigFile>  
-       <!-- Include server name in build info -->   
-       <IncludeServerNameInBuildInfo>True</IncludeServerNameInBuildInfo>   
-       <!-- Include the symbols path so Visual Studio can find the matching deployed code when you start debugging. -->  
-       <BuildSymbolStorePath><path to symbols></BuildSymbolStorePath>  
-    </PropertyGroup>  
-    <!-- **************************************************** -->  
-    ```  
+   ```xml  
+   <!-- **************************************************** -->  
+   <!-- Build info -->  
+   <PropertyGroup>  
+      <!-- Generate the BuildInfo.config file -->  
+      <GenerateBuildInfoConfigFile>True</GenerateBuildInfoConfigFile>  
+      <!-- Include server name in build info -->   
+      <IncludeServerNameInBuildInfo>True</IncludeServerNameInBuildInfo>   
+      <!-- Include the symbols path so Visual Studio can find the matching deployed code when you start debugging. -->  
+      <BuildSymbolStorePath><path to symbols></BuildSymbolStorePath>  
+   </PropertyGroup>  
+   <!-- **************************************************** -->  
+   ```  
   
-3.  Check in the updated project file.  
+3. Check in the updated project file.  
   
-4.  Run a new build.  
+4. Run a new build.  
   
- **Step 2:** [Step 2: Release your app](#DeployRelease)  
+   **Step 2:** [Step 2: Release your app](#DeployRelease)  
   
 ###  <a name="MSBuild"></a> Create the build manifest for a manual build using MSBuild.exe  
  Add these build arguments when you run a build:  
@@ -247,100 +245,100 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 3.  Make sure the file has the required information:  
   
--   **ProjectName**  
+- **ProjectName**  
   
-     The name of your project in Visual Studio. For example:  
+   The name of your project in Visual Studio. For example:  
+  
+  ```  
+  <ProjectName>FabrikamFiber.Extranet.Web</ProjectName>  
+  ```  
+  
+- **SourceControl**  
+  
+- Information about your source control system and these required properties:  
+  
+  - **TFS**  
+  
+    - **ProjectCollectionUri**: The URI for your Team Foundation Server and project collection  
+  
+    - **ProjectItemSpec**: The path to your app's project file (.csproj or .vbproj)  
+  
+    - **ProjectVersionSpec**: The version for your project  
+  
+      For example:  
   
     ```  
-    <ProjectName>FabrikamFiber.Extranet.Web</ProjectName>  
+    <SourceControl type="TFS">  
+       <TfsSourceControl>  
+          <ProjectCollectionUri>http://fabrikamfiber:8080/tfs/FabrikamFiber</ProjectCollectionUri>  
+          <ProjectItemSpec>$/WorkInProgress/FabrikamFiber/FabrikamFiber.CallCenter/FabrikamFiber.Web/FabrikamFiber.Web.csproj</ProjectItemSpec>  
+          <ProjectVersionSpec>LFabrikamFiber_BuildAndPublish_20130813@$/WorkInProgress</ProjectVersionSpec>  
+       </TfsSourceControl>  
+    </SourceControl>  
     ```  
   
--   **SourceControl**  
+  - **Git**  
   
--   Information about your source control system and these required properties:  
+    - **GitSourceControl**: The location of the **GitSourceControl** schema  
   
-    -   **TFS**  
+    - **RepositoryUrl**: The URI for your Team Foundation Server, project collection, and Git repository  
   
-        -   **ProjectCollectionUri**: The URI for your Team Foundation Server and project collection  
+    - **ProjectPath**: The path to your app's project file (.csproj or .vbproj)  
   
-        -   **ProjectItemSpec**: The path to your app's project file (.csproj or .vbproj)  
+    - **CommitId**: The id for your commit  
   
-        -   **ProjectVersionSpec**: The version for your project  
+      For example:  
   
-         For example:  
+    ```  
+    <SourceControl type="Git">   
+       <GitSourceControl xmlns="http://schemas.microsoft.com/visualstudio/deploymentevent_git/2013/09">  
+          <RepositoryUrl>http://gittf:8080/tfs/defaultcollection/_git/FabrikamFiber</RepositoryUrl>  
+          <ProjectPath>/FabrikamFiber.CallCenter/FabrikamFiber.Web/FabrikamFiber.Web.csproj</ProjectPath>  
+          <CommitId>50662c96502dddaae5cd5ced962d9f14ec5bc64d</CommitId>  
+       </GitSourceControl>  
+    </SourceControl>  
+    ```  
   
-        ```  
-        <SourceControl type="TFS">  
-           <TfsSourceControl>  
-              <ProjectCollectionUri>http://fabrikamfiber:8080/tfs/FabrikamFiber</ProjectCollectionUri>  
-              <ProjectItemSpec>$/WorkInProgress/FabrikamFiber/FabrikamFiber.CallCenter/FabrikamFiber.Web/FabrikamFiber.Web.csproj</ProjectItemSpec>  
-              <ProjectVersionSpec>LFabrikamFiber_BuildAndPublish_20130813@$/WorkInProgress</ProjectVersionSpec>  
-           </TfsSourceControl>  
-        </SourceControl>  
-        ```  
+- **Build**  
   
-    -   **Git**  
+   Information about your build system, either `"TeamBuild"` or `"MSBuild"`, and these required properties:  
   
-        -   **GitSourceControl**: The location of the **GitSourceControl** schema  
+  - **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](http://msdn.microsoft.com/library/1f302e9d-4b0a-40b5-8009-b69ca6f988c3).  
   
-        -   **RepositoryUrl**: The URI for your Team Foundation Server, project collection, and Git repository  
+  - **SymbolPath** (Recommended): The list of URIs for your symbols (PDB file) locations separated by semi-colons. These URIs can be URLs or UNCs. This makes it easier for Visual Studio to find the matching symbols to help you with debugging.  
   
-        -   **ProjectPath**: The path to your app's project file (.csproj or .vbproj)  
+  - **BuildReportUrl** (for TeamBuild): The location of the build report in TFS  
   
-        -   **CommitId**: The id for your commit  
+  - **BuildId** (for TeamBuild): The URI for the build details in TFS. This URI is also used as the ID of the deployment event. This must id must be unique if you're not using TeamBuild.  
   
-         For example:  
+  - **BuiltSolution**: The path to the solution file that Visual Studio uses to find and open the matching solution. This is the contents of the **SolutionPath** MsBuild property.  
   
-        ```  
-        <SourceControl type="Git">   
-           <GitSourceControl xmlns="http://schemas.microsoft.com/visualstudio/deploymentevent_git/2013/09">  
-              <RepositoryUrl>http://gittf:8080/tfs/defaultcollection/_git/FabrikamFiber</RepositoryUrl>  
-              <ProjectPath>/FabrikamFiber.CallCenter/FabrikamFiber.Web/FabrikamFiber.Web.csproj</ProjectPath>  
-              <CommitId>50662c96502dddaae5cd5ced962d9f14ec5bc64d</CommitId>  
-           </GitSourceControl>  
-        </SourceControl>  
-        ```  
+    For example:  
   
--   **Build**  
+  - **TFS**  
   
-     Information about your build system, either `"TeamBuild"` or `"MSBuild"`, and these required properties:  
+    ```  
+    <Build type="TeamBuild">  
+       <MsBuild>  
+          <BuildLabel kind="label">FabrikamFiber_BuildAndPublish_20130813.1</BuildLabel>  
+          <SymbolPath>\\fabrikamfiber\FabrikamFiber.CallCenter\Symbols</SymbolPath>  
+          <BuildReportUrl kind="informative, url" url="http://fabrikamfiber:8080/tfs/FabrikamFiber/_releasePipeline/FindRelease?buildUri=fabrikamfiber%3a%2f%2f%2fBuild%2fBuild%2f448">Build Report Url</BuildReportUrl>  
+          <BuildId kind="id">1c4444d2-518d-4673-a590-dce2773c7744,fabrikamfiber:///Build/Build/448</BuildId>  
+          <BuiltSolution>$/WorkInProgress/FabrikamFiber/FabrikamFiber.CallCenter/FabrikamFiber.CallCenter.sln</BuiltSolution>  
+       </MsBuild>  
+    </Build>  
+    ```  
   
-    -   **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](http://msdn.microsoft.com/library/1f302e9d-4b0a-40b5-8009-b69ca6f988c3).  
+  - **Git**  
   
-    -   **SymbolPath** (Recommended): The list of URIs for your symbols (PDB file) locations separated by semi-colons. These URIs can be URLs or UNCs. This makes it easier for Visual Studio to find the matching symbols to help you with debugging.  
-  
-    -   **BuildReportUrl** (for TeamBuild): The location of the build report in TFS  
-  
-    -   **BuildId** (for TeamBuild): The URI for the build details in TFS. This URI is also used as the ID of the deployment event. This must id must be unique if you're not using TeamBuild.  
-  
-    -   **BuiltSolution**: The path to the solution file that Visual Studio uses to find and open the matching solution. This is the contents of the **SolutionPath** MsBuild property.  
-  
-     For example:  
-  
-    -   **TFS**  
-  
-        ```  
-        <Build type="TeamBuild">  
-           <MsBuild>  
-              <BuildLabel kind="label">FabrikamFiber_BuildAndPublish_20130813.1</BuildLabel>  
-              <SymbolPath>\\fabrikamfiber\FabrikamFiber.CallCenter\Symbols</SymbolPath>  
-              <BuildReportUrl kind="informative, url" url="http://fabrikamfiber:8080/tfs/FabrikamFiber/_releasePipeline/FindRelease?buildUri=fabrikamfiber%3a%2f%2f%2fBuild%2fBuild%2f448">Build Report Url</BuildReportUrl>  
-              <BuildId kind="id">1c4444d2-518d-4673-a590-dce2773c7744,fabrikamfiber:///Build/Build/448</BuildId>  
-              <BuiltSolution>$/WorkInProgress/FabrikamFiber/FabrikamFiber.CallCenter/FabrikamFiber.CallCenter.sln</BuiltSolution>  
-           </MsBuild>  
-        </Build>  
-        ```  
-  
-    -   **Git**  
-  
-        ```  
-        <Build type="MSBuild">   
-           <MSBuild>  
-              <SymbolPath>\\gittf\FabrikamFiber.CallCenter\Symbols</SymbolPath>  
-              <BuiltSolution>/FabrikamFiber.CallCenter/FabrikamFiber.CallCenter.sln</BuiltSolution>  
-           </MSBuild>  
-        </Build>  
-        ```  
+    ```  
+    <Build type="MSBuild">   
+       <MSBuild>  
+          <SymbolPath>\\gittf\FabrikamFiber.CallCenter\Symbols</SymbolPath>  
+          <BuiltSolution>/FabrikamFiber.CallCenter/FabrikamFiber.CallCenter.sln</BuiltSolution>  
+       </MSBuild>  
+    </Build>  
+    ```  
   
 ####  <a name="IneligibleWorkspace"></a> Q: Why does Visual Studio say my selected workspace is ineligible?  
  **A:** The selected workspace doesn't have any mappings between the source control folder and a local folder. To create a mapping for this workspace, choose **Manage**. Otherwise, choose an already mapped workspace or create a new workspace.  

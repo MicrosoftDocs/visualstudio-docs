@@ -1,7 +1,7 @@
 ---
 title: "How to: Stop Code Changes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # How to: Stop Code Changes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Stop Code Changes](https://docs.microsoft.com/visualstudio/debugger/how-to-stop-code-changes).  
-  
 While Edit and Continue is in the process of applying code changes, you can stop the operation.  
   
 > [!CAUTION]
@@ -38,11 +36,11 @@ While Edit and Continue is in the process of applying code changes, you can stop
   
 ### To stop applying code changes  
   
--   Choose **Stop Applying Code Changes** from the **Debug** menu.  
+- Choose **Stop Applying Code Changes** from the **Debug** menu.  
   
- This menu item is visible only when code changes are being applied.  
+  This menu item is visible only when code changes are being applied.  
   
- If you choose this option, none of the code changes are committed.  
+  If you choose this option, none of the code changes are committed.  
   
 ## See Also  
  [Edit and Continue](../debugger/edit-and-continue.md)   

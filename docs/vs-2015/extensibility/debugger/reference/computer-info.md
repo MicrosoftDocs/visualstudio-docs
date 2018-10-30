@@ -1,7 +1,7 @@
 ---
 title: "COMPUTER_INFO | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # COMPUTER_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [COMPUTER_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/computer-info).  
-  
 Describes the computer on which the debugger is running.  
   
 ## Syntax  
@@ -28,18 +26,18 @@ Describes the computer on which the debugger is running.
 ```cpp#  
 typedef struct tagCOMPUTER_INFO  
 {  
-    WORD wProcessorArchitecture;  
-    WORD wSuiteMask;  
-    DWORD dwOperatingSystemVersion;  
+    WORD wProcessorArchitecture;  
+    WORD wSuiteMask;  
+    DWORD dwOperatingSystemVersion;  
 } COMPUTER_INFO;  
 ```  
   
 ```csharp  
 public struct COMPUTER_INFO  
 {  
-    public ushort wProcessorArchitecture;  
-    public ushort wSuiteMask;  
-    public uint dwOperatingSystemVersion;  
+    public ushort wProcessorArchitecture;  
+    public ushort wSuiteMask;  
+    public uint dwOperatingSystemVersion;  
 }  
 ```  
   

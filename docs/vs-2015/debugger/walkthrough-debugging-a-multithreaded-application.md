@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Debugging a Multithreaded Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Walkthrough: Debugging a Multithreaded Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging a Multithreaded App using the Threads Window](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-threads-window).  
-  
 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] provides an improved **Threads** window and other user interface improvements to make it easier to debug multithreaded applications. This walkthrough takes only a few minutes, but completing it will familiarize you with the new interface features for debugging multithreaded applications.  
   
  To begin this walkthrough, you need a multithreaded application project. Follow the steps listed here to create that project.  
@@ -101,17 +99,17 @@ Thread::Sleep(3000);
   
 #### To discover the thread marker  
   
-1.  Right-click in the **Threads** window, then click **Show Threads in Source**.  
+1. Right-click in the **Threads** window, then click **Show Threads in Source**.  
   
-2.  Look at the gutter on the left side of the window. On this line, you will see an icon that resembles two cloth threads. One thread is red and the other is blue. The thread marker indicates that a thread is stopped at this location. Possibly, thread is stopped at this location.  
+2. Look at the gutter on the left side of the window. On this line, you will see an icon that resembles two cloth threads. One thread is red and the other is blue. The thread marker indicates that a thread is stopped at this location. Possibly, thread is stopped at this location.  
   
-3.  Hover the pointer over the thread marker. A DataTip that appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
+3. Hover the pointer over the thread marker. A DataTip that appears. The DataTip tells you the name and thread ID number for each stopped thread. In this case, there is only one thread, whose name is probably `<noname>`.  
   
-4.  Right-click the thread marker. Note the choices on the shortcut menu.  
+4. Right-click the thread marker. Note the choices on the shortcut menu.  
   
- This icon is a *thread marker*:  
+   This icon is a *thread marker*:  
   
- ![Thread Marker](../debugger/media/threadmarker.gif "ThreadMarker")  
+   ![Thread Marker](../debugger/media/threadmarker.gif "ThreadMarker")  
   
 ## Flagging and Unflagging Threads  
  In [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)], you can flag threads that you want to give special attention. Flagging threads is a good way to keep track of important threads and ignore threads you do not care about.  

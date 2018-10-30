@@ -1,7 +1,7 @@
 ---
 title: "T4 Template Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # T4 Template Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Template Directive](https://docs.microsoft.com/visualstudio/modeling/t4-template-directive).  
-  
 A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts with a `template` directive, which specifies how the template should be processed. There should be no more than one template directive in a text template and any files that it includes.  
   
  For a general overview of writing text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  

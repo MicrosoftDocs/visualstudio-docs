@@ -1,7 +1,7 @@
 ---
 title: "IDebugArrayObject::GetElement | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugArrayObject::GetElement
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayObject::GetElement](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayobject-getelement).  
-  
 Gets an element of the array.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetElement(   
-   DWORD          dwIndex,  
-   IDebugObject** ppElement  
+   DWORD          dwIndex,  
+   IDebugObject** ppElement  
 );  
 ```  
   
 ```csharp  
 int GetElement(  
-   [In] uint dwIndex,   
-   out IDebugObject ppElement  
+   [In] uint dwIndex,   
+   out IDebugObject ppElement  
 );  
 ```  
   

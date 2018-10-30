@@ -1,7 +1,7 @@
 ---
 title: "DA0503: Average Working Set in Bytes for the Process being profiled | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # DA0503: Average Working Set in Bytes for the Process being profiled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0503: Average Working Set in Bytes for the Process being profiled](https://docs.microsoft.com/visualstudio/profiling/da0503-average-working-set-in-bytes-for-the-process-being-profiled).  
-  
 Rule Id|DA0503|  
 |Category|Resource Monitoring|  
 |Profiling method|All|  

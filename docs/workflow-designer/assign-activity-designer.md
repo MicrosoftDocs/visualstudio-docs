@@ -32,7 +32,7 @@ The **Assign** activity designer can be dragged from the **Toolbox** and dropped
 The following table shows the <xref:System.Activities.Statements.Assign> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Assign> activity. The default is Assign. Although the <xref:System.Activities.Activity.DisplayName%2A> value is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.Assign.To%2A>|True|The variable or argument to which the <xref:System.Activities.Statements.Assign.Value%2A> is assigned. The value must be a valid Visual Basic identifier. To set the property, type a Visual Basic expression in the **To** box on the **Assign** activity designer or in the property grid.|
 |<xref:System.Activities.Statements.Assign.Value%2A>|True|The value that is assigned to the variable. To set the <xref:System.Activities.Statements.Assign.Value%2A>, type a Visual Basic expression in the **Value** box on the **Assign** activity designer or in the property grid.|

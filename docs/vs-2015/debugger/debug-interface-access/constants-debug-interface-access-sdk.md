@@ -1,7 +1,7 @@
 ---
 title: "Constants (Debug Interface Access SDK) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Constants (Debug Interface Access SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Constants (Debug Interface Access SDK)](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/constants-debug-interface-access-sdk).  
-  
 These string constants can be used to identify various sections of a program debug database (PDB) file through the DIA SDK.  
   
 ## Constants  
@@ -47,12 +45,12 @@ These string constants can be used to identify various sections of a program deb
 ```cpp#  
 HRESULT GetSymbolTable(IDiaEnumTables *pEnumTables, IDiaTable **pTable)  
 {  
-    HRESULT hr;  
-    VARIANT var;  
-    var.vt      = VT_BSTR;  
-    var.bstrVal = SysAllocString( DiaTable_Symbols );  
-    hr = pEnumTables->Item( var, pTable );  
-    return(hr);  
+    HRESULT hr;  
+    VARIANT var;  
+    var.vt      = VT_BSTR;  
+    var.bstrVal = SysAllocString( DiaTable_Symbols );  
+    hr = pEnumTables->Item( var, pTable );  
+    return(hr);  
 }  
 ```  
   

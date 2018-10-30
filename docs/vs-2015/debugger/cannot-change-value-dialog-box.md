@@ -1,7 +1,7 @@
 ---
 title: "Cannot Change Value Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Cannot Change Value Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Cannot Change Value Dialog Box](https://docs.microsoft.com/visualstudio/debugger/cannot-change-value-dialog-box).  
-  
 Error  
  `The value of this variable cannot be changed` &#124; `The name` *name* `does not exist in the current context` &#124; *various other messages*  
   

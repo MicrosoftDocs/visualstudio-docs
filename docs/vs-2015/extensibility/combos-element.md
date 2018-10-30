@@ -1,7 +1,7 @@
 ---
 title: "Combos Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Combos Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Combos Element](https://docs.microsoft.com/visualstudio/extensibility/combos-element).  
-  
 Groups [Combo Element](../extensibility/combo-element.md) elements.  
   
 ## Syntax  
@@ -59,23 +57,23 @@ Groups [Combo Element](../extensibility/combo-element.md) elements.
   
 ```  
 <Combos>  
-  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">  
-    <CommandFlag>DynamicVisibility</CommandFlag>  
-    <Strings>  
-      <ButtonText>Select Insert Options</ButtonText>  
-    </Strings>  
-  </Combo>  
+  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
+    defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">  
+    <CommandFlag>DynamicVisibility</CommandFlag>  
+    <Strings>  
+      <ButtonText>Select Insert Options</ButtonText>  
+    </Strings>  
+  </Combo>  
   
-  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    priority="0x0500" type="DropDownCombo" defaultWidth="100"  
-    idCommandList="cmdidGetInsertOptionsList">  
-    <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-    <CommandFlag>DynamicVisibility</CommandFlag>  
-    <Strings>  
-      <ButtonText>Select Insert Options</ButtonText>  
-    </Strings>  
-  </Combo>  
+  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
+    priority="0x0500" type="DropDownCombo" defaultWidth="100"  
+    idCommandList="cmdidGetInsertOptionsList">  
+    <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
+    <CommandFlag>DynamicVisibility</CommandFlag>  
+    <Strings>  
+      <ButtonText>Select Insert Options</ButtonText>  
+    </Strings>  
+  </Combo>  
 </Combos>  
 ```  
   

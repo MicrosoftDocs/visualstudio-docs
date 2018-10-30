@@ -1,7 +1,7 @@
 ---
 title: "CA1062: Validate arguments of public methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 ---
 # CA1062: Validate arguments of public methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1062: Validate arguments of public methods](https://docs.microsoft.com/visualstudio/code-quality/ca1062-validate-arguments-of-public-methods).
 
 |||
 |-|-|
@@ -71,23 +69,22 @@ The latest version of this topic can be found at [CA1062: Validate arguments of 
 
 public class Person
 {
-    public string Name { get; private set; }
-    public int Age { get; private set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
 
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
-    // Copy constructor CA1062 fires because other is dereferenced
-    // without being checked for null
-    public Person(Person other)
-        : this(other.Name, other.Age)
-    {
-    }
+    // Copy constructor CA1062 fires because other is dereferenced
+    // without being checked for null
+    public Person(Person other)
+        : this(other.Name, other.Age)
+    {
+    }
 }
-
 ```
 
 ## Example
@@ -96,31 +93,30 @@ public class Person
 ```
 public class Person
 {
-    public string Name { get; private set; }
-    public int Age { get; private set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
 
-    public Person(string name, int age)
-    {
-        Name = name;
-        Age = age;
-    }
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
-    // Copy constructor
-    public Person(Person other)
-        : this(PassThroughNonNull(other).Name,
-          PassThroughNonNull(other).Age)
-    {
-    }
+    // Copy constructor
+    public Person(Person other)
+        : this(PassThroughNonNull(other).Name,
+          PassThroughNonNull(other).Age)
+    {
+    }
 
-    // Null check method
-    private static Person PassThroughNonNull(Person person)
-    {
-        if (person == null)
-            throw new ArgumentNullException("person");
-        return person;
-    }
+    // Null check method
+    private static Person PassThroughNonNull(Person person)
+    {
+        if (person == null)
+            throw new ArgumentNullException("person");
+        return person;
+    }
 }
-
 ```
 
 

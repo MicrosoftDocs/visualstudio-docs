@@ -16,7 +16,7 @@ ms.technology: vs-ide-modeling
 ---
 # Customize File Storage and XML Serialization
 
-When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.
+When the user saves an instance, or *model*, of a domain-specific language (DSL) in Visual Studio, an XML file is created or updated. The file can be reloaded to recreate the model in the Store.
 
 You can customize the serialization scheme by adjusting the settings under **Xml Serialization Behavior** in DSL Explorer. There is a node under **Xml Serialization Behavior** for every domain class, property, and relationship. The relationships are located under their source classes. There are also nodes corresponding to the shape, connector, and diagram classes.
 
@@ -295,7 +295,7 @@ Xml Property nodes are found under the class nodes.
 Role data nodes are found under the source class nodes.
 
 |Property|Description|
-|--------------|-----------------|
+|-|-|
 |Has Custom Moniker|Set this to true if you want to supply your own code for generating and resolving monikers that traverse this relationship.<br /><br /> For detailed instructions, build the solution, and then double-click the error messages.|
 |Domain Relationship|Specifies the relationship to which these options apply. Read-only.|
 |Omit Element|If true, the XML node that corresponds to the source role is omitted from the schema.<br /><br /> If there is more than one relationship between the source and target classes, this role node distinguishes between links that belong to the two relationships. We therefore recommend that you do not set this option in this case.|

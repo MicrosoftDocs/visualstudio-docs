@@ -1,7 +1,7 @@
 ---
 title: "Navigate a debugging session in Visual Studio (Xaml and C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigate a debugging session in Visual Studio (Xaml and C#)](https://docs.microsoft.com/visualstudio/debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp).  
-  
 This quick start demonstrates how to navigate Visual Studio debug sessions and how to view and change the program state in a session.  
   
  This quick start is for developers who are new to debugging with Visual Studio and for developers who want to learn more about navigating in a Visual Studio debug session. It does not teach the art of debugging itself. The methods in the sample code are designed only to demonstrate the debugging procedures described in this topic. The methods do not employ best practices of app or function design. In fact, you will quickly discover that the methods, and the app itself, do not do much of anything at all.  
@@ -89,29 +87,29 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
   
  When you step into a line of code, the debugger performs one of the following actions:  
   
--   If the next statement is not a call to a function in your solution, the debugger executes the statement, moves to the next statement, and then suspends execution.  
+- If the next statement is not a call to a function in your solution, the debugger executes the statement, moves to the next statement, and then suspends execution.  
   
--   If the statement is a call to a function in your solution, the debugger moves to the entry point of the called function and then suspends execution.  
+- If the statement is a call to a function in your solution, the debugger moves to the entry point of the called function and then suspends execution.  
   
- Continue to step into the statements of Example1 until you have reached the exit point. The debugger highlights the closing curly brace of the method.  
+  Continue to step into the statements of Example1 until you have reached the exit point. The debugger highlights the closing curly brace of the method.  
   
- **Examine variable values in data tips.** When you hover the mouse over a variable name, the name, value, and type of the variable is displayed in a data tip.  
+  **Examine variable values in data tips.** When you hover the mouse over a variable name, the name, value, and type of the variable is displayed in a data tip.  
   
- ![Debugger data tip](../debugger/media/dbg-basics-datatip.png "DBG_Basics_DataTip")  
+  ![Debugger data tip](../debugger/media/dbg-basics-datatip.png "DBG_Basics_DataTip")  
   
- Hover the mouse over the variable `a`. Note the name, value, and data type. Hover the mouse over the variable `methodTrack`. Again, note the name, value, and data type.  
+  Hover the mouse over the variable `a`. Note the name, value, and data type. Hover the mouse over the variable `methodTrack`. Again, note the name, value, and data type.  
   
- **Examine variable values in the Locals window.** On the **Debug** menu, point to **Windows**, and then choose **Locals**. (Keyboard: Alt+4).  
+  **Examine variable values in the Locals window.** On the **Debug** menu, point to **Windows**, and then choose **Locals**. (Keyboard: Alt+4).  
   
- ![Locals window](../debugger/media/dbg-basics-localswindow.png "DBG_Basics_LocalsWindow")  
+  ![Locals window](../debugger/media/dbg-basics-localswindow.png "DBG_Basics_LocalsWindow")  
   
- The Locals windows is a tree view of the parameters and variables of the function. The properties of an object variable are child nodes of the object itself. The `this` variable is a hidden parameter in every object method that represents the object itself. In this case, it represents the MainPage class. Because `methodTrack` is a member of the MainPage class, its value and data type are listed in a line underneath `this`. Expand the `this` node to view the `methodTrack` information.  
+  The Locals windows is a tree view of the parameters and variables of the function. The properties of an object variable are child nodes of the object itself. The `this` variable is a hidden parameter in every object method that represents the object itself. In this case, it represents the MainPage class. Because `methodTrack` is a member of the MainPage class, its value and data type are listed in a line underneath `this`. Expand the `this` node to view the `methodTrack` information.  
   
- **Add a watch for the methodTrack variable.** The `methodWatch` variable is used throughout this quick start to show the methods called in the examples. To make it easier to view the value of the variable, add it to a watch window. Right-click the variable name in the Locals window and then choose **Add Watch**.  
+  **Add a watch for the methodTrack variable.** The `methodWatch` variable is used throughout this quick start to show the methods called in the examples. To make it easier to view the value of the variable, add it to a watch window. Right-click the variable name in the Locals window and then choose **Add Watch**.  
   
- ![Watch window](../debugger/media/dbg-basics-watchwindow.png "DBG_Basics_WatchWindow")  
+  ![Watch window](../debugger/media/dbg-basics-watchwindow.png "DBG_Basics_WatchWindow")  
   
- You can watch multiple variables in a watch window. The values of watched variables, like values in the Locals and data tip windows, are updated whenever execution is suspended. You can also add variables to the watch window from the code editor. Select the variable to watch, right-click, and then choose **Add Watch**.  
+  You can watch multiple variables in a watch window. The values of watched variables, like values in the Locals and data tip windows, are updated whenever execution is suspended. You can also add variables to the watch window from the code editor. Select the variable to watch, right-click, and then choose **Add Watch**.  
   
 ##  <a name="BKMK_StepIntoOverOut"></a> Step into, over, and out of methods  
  In contrast to stepping into a method called by a parent method, stepping over a method executes the child method and then suspends execution in the calling method as the parent resumes. You might step over a method when you are familiar with the way the method works and are sure that its execution will not affect the issue that you are investigating.  

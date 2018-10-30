@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the section cannot be paged out of memor
   
 ```C++  
 HRESULT get_notPaged (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumFrameData::Next | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,17 +22,15 @@ manager: "ghogen"
 # IDiaEnumFrameData::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumFrameData::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumframedata-next).  
-  
 Retrieves a specified number of frame data elements in the enumeration sequence.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Next (   
-   ULONG           celt,   
-   IDiaFrameData** rgelt,  
-   ULONG*          pceltFetched  
+   ULONG           celt,   
+   IDiaFrameData** rgelt,  
+   ULONG*          pceltFetched  
 );  
 ```  
   

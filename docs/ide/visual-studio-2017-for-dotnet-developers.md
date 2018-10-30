@@ -1,7 +1,7 @@
 ---
 title: Increase your productivity for .NET development
 description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
-author: gewarren
+author: kuhlenh
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
@@ -51,7 +51,7 @@ The following are popular Visual Studio shortcuts:
 > [!NOTE]
 > Some extensions unbind the default Visual Studio keybindings. To use the above commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
-Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](..\ide\tips-and-tricks-for-visual-studio.md).
+Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](../ide/tips-and-tricks-for-visual-studio.md).
 
 ## I need a way to quickly navigate to files or types
 
@@ -155,7 +155,7 @@ Here is a list of editor and productivity features to make writing code more eff
 | Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources** |
 | Completion/Suggestion Mode | Changes the completion behavior in IntelliSense--developers with IntelliJ backgrounds tend to change the setting here from the default | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
-| [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate |  Type a snippet name and press **Tab** twice. |
+| [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate | Type a snippet name and press **Tab** twice. |
 
 ## Missing a feature that makes you productive or experiencing poor performance?
 

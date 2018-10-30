@@ -1,7 +1,7 @@
 ---
 title: "FIELD_INFO_FIELDS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,32 +21,30 @@ manager: "ghogen"
 # FIELD_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FIELD_INFO_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/field-info-fields).  
-  
 Specifies what information to retrieve about an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_FIELD_INFO_FIELDS {   
-   FIF_FULLNAME  = 0x0001,  
-   FIF_NAME      = 0x0002,  
-   FIF_TYPE      = 0x0004,  
-   FIF_MODIFIERS = 0x0008,  
-   FIF_ALL       = 0xffffffff,  
-   FIF_NONE      = 0x0000  
+   FIF_FULLNAME  = 0x0001,  
+   FIF_NAME      = 0x0002,  
+   FIF_TYPE      = 0x0004,  
+   FIF_MODIFIERS = 0x0008,  
+   FIF_ALL       = 0xffffffff,  
+   FIF_NONE      = 0x0000  
 };  
 typedef DWORD FIELD_INFO_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_FIELD_INFO_FIELDS {  
-   FIF_FULLNAME  = 0x0001,  
-   FIF_NAME      = 0x0002,  
-   FIF_TYPE      = 0x0004,  
-   FIF_MODIFIERS = 0x0008,  
-   FIF_ALL       = 0xffffffff,  
-   FIF_NONE      = 0x0000  
+   FIF_FULLNAME  = 0x0001,  
+   FIF_NAME      = 0x0002,  
+   FIF_TYPE      = 0x0004,  
+   FIF_MODIFIERS = 0x0008,  
+   FIF_ALL       = 0xffffffff,  
+   FIF_NONE      = 0x0000  
 };  
 ```  
   

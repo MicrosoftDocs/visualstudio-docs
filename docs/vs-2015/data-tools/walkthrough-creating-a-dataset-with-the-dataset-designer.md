@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Dataset with the Dataset Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,17 +32,17 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
   
  Tasks illustrated in this walkthrough include:  
   
--   Creating a new **Windows Application** project.  
+- Creating a new **Windows Application** project.  
   
--   Adding an empty **DataSet** item to the project.  
+- Adding an empty **DataSet** item to the project.  
   
--   Creating and configuring a data source in your application by building a dataset with the **Dataset Designer**.  
+- Creating and configuring a data source in your application by building a dataset with the **Dataset Designer**.  
   
--   Creating a connection to the Northwind database in **Server Explorer**.  
+- Creating a connection to the Northwind database in **Server Explorer**.  
   
--   Creating tables with TableAdapters in the dataset based on tables in the database.  
+- Creating tables with TableAdapters in the dataset based on tables in the database.  
   
- [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  In order to complete this walkthrough, you need:  

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findChildren | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,19 +22,17 @@ manager: "ghogen"
 # IDiaSession::findChildren
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findChildren](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findchildren).  
-  
 Retrieves all children of a specified parent identifier that match the name and symbol type.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT findChildren (   
-   IDiaSymbol*       parent,  
-   SymTagEnum        symtag,  
-   LPCOLESTR         name,  
-   DWORD             compareFlags,  
-   IDiaEnumSymbols** ppResult  
+   IDiaSymbol*       parent,  
+   SymTagEnum        symtag,  
+   LPCOLESTR         name,  
+   DWORD             compareFlags,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

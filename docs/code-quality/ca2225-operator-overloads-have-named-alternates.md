@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2225: Operator overloads have named alternates
+
 |||
 |-|-|
 |TypeName|OperatorOverloadsHaveNamedAlternates|

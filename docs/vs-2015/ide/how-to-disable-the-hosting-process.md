@@ -1,7 +1,7 @@
 ---
 title: "How to: Disable the Hosting Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # How to: Disable the Hosting Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Disable the Hosting Process](https://docs.microsoft.com/visualstudio/ide/how-to-disable-the-hosting-process).  
-  
 Calls to certain APIs can be affected when the hosting process is enabled. In these cases, it is necessary to disable the hosting process to return the correct results.  
   
 ### To disable the hosting process  
   
-1.  Open an executable project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Projects that do not produce executables (for example, class library or service projects) do not have this option.  
+1. Open an executable project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Projects that do not produce executables (for example, class library or service projects) do not have this option.  
   
-2.  On the **Project** menu, click **Properties**.  
+2. On the **Project** menu, click **Properties**.  
   
-3.  Click the **Debug** tab.  
+3. Click the **Debug** tab.  
   
-4.  Clear the **Enable the Visual Studio hosting process** check box.  
+4. Clear the **Enable the Visual Studio hosting process** check box.  
   
- When the hosting process is disabled, several debugging features are unavailable or experience decreased performance. For more information, see [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md).  
+   When the hosting process is disabled, several debugging features are unavailable or experience decreased performance. For more information, see [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md).  
   
- In general, when the hosting process is disabled:  
+   In general, when the hosting process is disabled:  
   
 -   The time needed to begin debugging [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] applications increases.  
   

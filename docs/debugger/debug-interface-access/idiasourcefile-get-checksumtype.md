@@ -22,7 +22,7 @@ Retrieves the checksum type.
   
 ```C++  
 HRESULT get_checksumType (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

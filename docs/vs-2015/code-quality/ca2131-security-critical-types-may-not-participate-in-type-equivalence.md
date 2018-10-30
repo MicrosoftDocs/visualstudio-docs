@@ -1,7 +1,7 @@
 ---
 title: "CA2131: Security critical types may not participate in type equivalence | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "wpickett"
 ---
 # CA2131: Security critical types may not participate in type equivalence
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2131: Security critical types may not participate in type equivalence](https://docs.microsoft.com/visualstudio/code-quality/ca2131-security-critical-types-may-not-participate-in-type-equivalence).
 
 |||
 |-|-|

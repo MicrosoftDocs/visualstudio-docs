@@ -15,11 +15,11 @@ ms.workload:
 # Walkthrough: Create an SDK using JavaScript
 This walkthrough teaches how to use JavaScript to create a simple math SDK as a Visual Studio Extension (VSIX).  The walkthrough is divided into these parts:  
   
--   [To create the SimpleMathVSIX extension SDK project](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSimpleMathVSIX)  
+- [To create the SimpleMathVSIX extension SDK project](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSimpleMathVSIX)  
   
--   [To create a sample app that uses the SDK](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSampleApp)  
+- [To create a sample app that uses the SDK](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSampleApp)  
   
- For JavaScript, there is no class library project type. In this walkthrough, the sample *arithmetic.js* file is created directly in the VSIX project. In practice, we recommend that you first build and test the JavaScript and CSS files as a Windows Store app—for example, by using the **Blank App** template—before you put them in a VSIX project.  
+  For JavaScript, there is no class library project type. In this walkthrough, the sample *arithmetic.js* file is created directly in the VSIX project. In practice, we recommend that you first build and test the JavaScript and CSS files as a Windows Store app—for example, by using the **Blank App** template—before you put them in a VSIX project.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
@@ -73,7 +73,7 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
       MinVSVersion="14.0"  
       AppliesTo="JavaScript+WindowsAppContainer"  
       SupportsMultipleVersions="Error"  
-      MoreInfo="http://www.msdn.microsoft.com/">  
+      MoreInfo="https://msdn.microsoft.com/">  
   
       <!-- JS -->  
       <File Content="js\arithmetic.js" />  
@@ -137,57 +137,57 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 ##  <a name="createSampleApp"></a> To create a sample app that uses the SDK  
   
-1.  On the menu bar, choose **File** > **New** > **Project**.  
+1. On the menu bar, choose **File** > **New** > **Project**.  
   
-2.  In the list of template categories, under **JavaScript**, select **Windows Store**, and then select the **Blank App** template.  
+2. In the list of template categories, under **JavaScript**, select **Windows Store**, and then select the **Blank App** template.  
   
-3.  In the **Name** box, specify `ArithmeticUI`. Choose the **OK** button.  
+3. In the **Name** box, specify `ArithmeticUI`. Choose the **OK** button.  
   
-4.  In **Solution Explorer**, open the shortcut menu for the **ArithmeticUI** project, and then choose **Add** > **Reference**.  
+4. In **Solution Explorer**, open the shortcut menu for the **ArithmeticUI** project, and then choose **Add** > **Reference**.  
   
-5.  Under **Windows**, choose **Extensions**, and notice that **Simple Math** is displayed.  
+5. Under **Windows**, choose **Extensions**, and notice that **Simple Math** is displayed.  
   
-6.  Select the **Simple Math** check box and then choose the **OK** button.  
+6. Select the **Simple Math** check box and then choose the **OK** button.  
   
-7.  In **Solution Explorer**, under **References**, notice that the **Simple Math** reference is displayed. Expand it and notice that there's a **\js\** folder that includes **arithmetic.js**. You can open **arithmetic.js** to confirm that your source code was installed.  
+7. In **Solution Explorer**, under **References**, notice that the **Simple Math** reference is displayed. Expand it and notice that there's a **\js\\** folder that includes **arithmetic.js**. You can open **arithmetic.js** to confirm that your source code was installed.  
   
-8.  Use the following code to replace the contents of *default.htm*.  
+8. Use the following code to replace the contents of *default.htm*.  
   
-    ```html  
-    <!DOCTYPE html>  
-    <html>  
-    <head>  
-        <meta charset="utf-8" />  
-        <title>ArithmeticUI</title>  
+   ```html  
+   <!DOCTYPE html>  
+   <html>  
+   <head>  
+       <meta charset="utf-8" />  
+       <title>ArithmeticUI</title>  
   
-        <!-- WinJS references -->  
-        <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />  
-        <script src="//Microsoft.WinJS.1.0/js/base.js"></script>  
-        <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>  
+       <!-- WinJS references -->  
+       <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />  
+       <script src="//Microsoft.WinJS.1.0/js/base.js"></script>  
+       <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>  
   
-        <!-- ArithmeticUI references -->  
-        <link href="/css/default.css" rel="stylesheet" />  
-        <script src="/js/default.js"></script>  
-        <script src="/SimpleMath/js/arithmetic.js"></script>  
-    </head>  
-    <body>  
-        <form>  
-        <div id="calculator" class="ms-grid">  
-            <input name="firstNumber" id="firstNumber" type="number" step="any">  
-            <div id="operators">  
-                <button class="operator" type="button">+</button>  
-                <button class="operator" type="button">-</button>  
-                <button class="operator" type="button">*</button>  
-                <button class="operator" type="button">/</button>  
-            </div>  
-            <input id="secondNumber" type="number">  
-            <button class="calculate" type="button">=</button>  
-            <input id="result" type="number" name="result" disabled="" readonly="">  
-        </div>  
-        </form>  
-    </body>  
-    </html>  
-    ```  
+       <!-- ArithmeticUI references -->  
+       <link href="/css/default.css" rel="stylesheet" />  
+       <script src="/js/default.js"></script>  
+       <script src="/SimpleMath/js/arithmetic.js"></script>  
+   </head>  
+   <body>  
+       <form>  
+       <div id="calculator" class="ms-grid">  
+           <input name="firstNumber" id="firstNumber" type="number" step="any">  
+           <div id="operators">  
+               <button class="operator" type="button">+</button>  
+               <button class="operator" type="button">-</button>  
+               <button class="operator" type="button">*</button>  
+               <button class="operator" type="button">/</button>  
+           </div>  
+           <input id="secondNumber" type="number">  
+           <button class="calculate" type="button">=</button>  
+           <input id="result" type="number" name="result" disabled="" readonly="">  
+       </div>  
+       </form>  
+   </body>  
+   </html>  
+   ```  
   
 9. Use the following code to replace the contents of *\js\default.js*.  
   

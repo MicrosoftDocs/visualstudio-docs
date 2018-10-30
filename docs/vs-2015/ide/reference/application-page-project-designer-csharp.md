@@ -1,7 +1,7 @@
 ---
 title: "Application Page, Project Designer (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Application Page, Project Designer (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Application Page, Project Designer (C#)](https://docs.microsoft.com/visualstudio/ide/reference/application-page-project-designer-csharp).  
-  
   
 Use the **Application** page of the **Project Designer** to specify the project's application settings and properties.  
   
@@ -90,16 +88,16 @@ Use the **Application** page of the **Project Designer** to specify the project'
  **Manifest**  
  Selects a manifest generation option when the application runs on Windows Vista under User Account Control (UAC). This option can have the following values:  
   
--   **Embed manifest with default settings**. Supports the typical manner in which Visual Studio operates on Windows Vista, which is to embed security information in the application's executable file, specifying that `requestedExecutionLevel` be `AsInvoker`. This is the default option.  
+- **Embed manifest with default settings**. Supports the typical manner in which Visual Studio operates on Windows Vista, which is to embed security information in the application's executable file, specifying that `requestedExecutionLevel` be `AsInvoker`. This is the default option.  
   
--   **Create application without a manifest**. This method is known as *virtualization*. Use this option for compatibility with earlier applications.  
+- **Create application without a manifest**. This method is known as *virtualization*. Use this option for compatibility with earlier applications.  
   
--   **Properties\app.manifest**. This option is required for applications deployed by ClickOnce or Registration-Free COM. If you publish an application by using ClickOnce deployment, **Manifest** is automatically set to this option.  
+- **Properties\app.manifest**. This option is required for applications deployed by ClickOnce or Registration-Free COM. If you publish an application by using ClickOnce deployment, **Manifest** is automatically set to this option.  
   
- **Resource File**  
- Select this radio button when you are providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.  
+  **Resource File**  
+  Select this radio button when you are providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.  
   
- Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.  
+  Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.  
   
 ## See Also  
 [Managing Application Properties](../../ide/application-properties.md)  

@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackWalker::getEnumFrames2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaStackWalker::getEnumFrames2
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalker::getEnumFrames2](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalker-getenumframes2).  
-  
 Retrieves a stack frame enumerator for a specific platform type.  
   
 ## Syntax  
@@ -31,9 +29,9 @@ Retrieves a stack frame enumerator for a specific platform type.
 ```cpp#  
   
       HRESULT getEnumFrames2(   
-   enum  CV_CPU_TYPE_e    cpuid,  
-   IDiaStackWalkHelper*   pHelper,  
-   IDiaEnumStackFrames**  ppEnum  
+   enum  CV_CPU_TYPE_e    cpuid,  
+   IDiaStackWalkHelper*   pHelper,  
+   IDiaEnumStackFrames**  ppEnum  
 );  
 ```  
   

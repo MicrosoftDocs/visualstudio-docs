@@ -1,7 +1,7 @@
 ---
 title: "Testing SharePoint 2010 Applications with Coded UI Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Testing SharePoint 2010 Applications with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Testing SharePoint 2010 Applications with Coded UI Tests](https://docs.microsoft.com/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests).  
-  
 Including coded UI tests in a SharePoint application lets you verify that the whole application, including its UI controls, is functioning correctly. Coded UI tests can also validate values and logic in the user interface.  
   
  **Requirements**  
@@ -103,15 +101,15 @@ uiGridKeyboardInputEdit.Text=value;
   
 #### Setting up your machine  
   
-1.  Make sure that you have Visual Studio 2012.1 or later installed.  
+1. Make sure that you have Visual Studio 2012.1 or later installed.  
   
-2.  Install the [Microsoft Visual Studio UI Test Plugin for Silverlight](http://visualstudiogallery.msdn.microsoft.com/28312a61-9451-451a-990c-c9929b751eb4).  
+2. Install the [Microsoft Visual Studio UI Test Plugin for Silverlight](http://visualstudiogallery.msdn.microsoft.com/28312a61-9451-451a-990c-c9929b751eb4).  
   
-3.  Install [Fiddler](http://www.fiddler2.com/fiddler2/). This is simply a tool that captures and logs the HTTP traffic.  
+3. Install [Fiddler](http://www.fiddler2.com/fiddler2/). This is simply a tool that captures and logs the HTTP traffic.  
   
-4.  Download the [fiddlerXap project](http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-components-postattachments/00-10-36-48-70/FiddlerXapProxy.zip). Unzip it, build it, and run the “CopySLHelper.bat” script to install the helper DLL that is required to test Silverlight web parts when you use the Fiddler tool.  
+4. Download the [fiddlerXap project](http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-components-postattachments/00-10-36-48-70/FiddlerXapProxy.zip). Unzip it, build it, and run the “CopySLHelper.bat” script to install the helper DLL that is required to test Silverlight web parts when you use the Fiddler tool.  
   
- After setting up your machine, to start testing your SharePoint 2010 app with Silverlight web parts, follow these steps:  
+   After setting up your machine, to start testing your SharePoint 2010 app with Silverlight web parts, follow these steps:  
   
 #### Testing Silverlight web parts  
   

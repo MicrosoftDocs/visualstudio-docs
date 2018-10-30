@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,25 +23,23 @@ manager: "ghogen"
 # Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio SDK](https://docs.microsoft.com/visualstudio/extensibility/visual-studio-sdk).  
-  
 The Visual Studio SDK helps you extend Visual Studio features or integrate new features into Visual Studio. You can distribute your extensions to other users, as well as to the Visual Studio Gallery. The following are some of the ways in which you can extend Visual Studio:  
   
--   Add commands, buttons, menus, and other UI elements to the IDE  
+- Add commands, buttons, menus, and other UI elements to the IDE  
   
--   Add tool windows for new functionality  
+- Add tool windows for new functionality  
   
--   Extend IntelliSense for a given language, or provide IntelliSense for new programming languages  
+- Extend IntelliSense for a given language, or provide IntelliSense for new programming languages  
   
--   Use light bulbs to provide hints and suggestions that help developers write better code  
+- Use light bulbs to provide hints and suggestions that help developers write better code  
   
--   Enable support for a new language  
+- Enable support for a new language  
   
--   Add a custom project type  
+- Add a custom project type  
   
--   Reach millions of developers via the Visual Studio Gallery  
+- Reach millions of developers via the Visual Studio Gallery  
   
- If you’ve never written a Visual Studio extension before, you should find more information about these features and at [Starting to Develop Visual Studio Extensions](../extensibility/starting-to-develop-visual-studio-extensions.md).  
+  If you’ve never written a Visual Studio extension before, you should find more information about these features and at [Starting to Develop Visual Studio Extensions](../extensibility/starting-to-develop-visual-studio-extensions.md).  
   
 ## Installing the Visual Studio SDK  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  

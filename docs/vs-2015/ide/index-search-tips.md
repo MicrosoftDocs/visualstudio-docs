@@ -1,7 +1,7 @@
 ---
 title: "Index Search Tips | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Index Search Tips
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Index Search Tips](https://docs.microsoft.com/visualstudio/ide/index-search-tips).  
-  
 You can locate information in the Index by entering keywords. This topic suggests useful ways to search Help using the Index.  
   
 ## Index Search Tips  

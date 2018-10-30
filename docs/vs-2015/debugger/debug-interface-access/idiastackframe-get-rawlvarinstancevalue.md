@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackFrame::get_rawLVarInstanceValue | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,18 +22,16 @@ manager: "ghogen"
 # IDiaStackFrame::get_rawLVarInstanceValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_rawLVarInstanceValue](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-rawlvarinstancevalue).  
-  
 This method retrieves the value of the specified local variable as raw bytes.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_rawLVarInstanceValue(  
-   IDiaLVarInstance* pInstance,  
-   DWORD             cbDataMax,  
-   DWORD*            pcbData,  
-   BYTE*             pbData  
+   IDiaLVarInstance* pInstance,  
+   DWORD             cbDataMax,  
+   DWORD*            pcbData,  
+   BYTE*             pbData  
 );  
 ```  
   

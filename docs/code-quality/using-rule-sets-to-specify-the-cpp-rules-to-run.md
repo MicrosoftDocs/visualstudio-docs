@@ -29,11 +29,11 @@ To create a new custom rule set, you save it by using a new file name. The custo
 
 3. In the **Rule Set** drop-down list, do one of the following:
 
-    - Choose the rule set that you want to customize.
+   - Choose the rule set that you want to customize.
 
      \- or -
 
-    - Choose **\<Browse...>** to specify an existing rule set that is not in the list.
+   - Choose **\<Browse...>** to specify an existing rule set that is not in the list.
 
 4. Choose **Open** to display the rules in the rule set editor.
 

@@ -1,7 +1,7 @@
 ---
 title: "Debugging or Disabling Project Code in XAML Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,17 +19,17 @@ In many cases, unhandled exceptions in the XAML designer can be caused by projec
   
  Project code includes:  
   
--   Custom controls and user controls  
+- Custom controls and user controls  
   
--   Class libraries  
+- Class libraries  
   
--   Value converters  
+- Value converters  
   
--   Bindings against design time data generated from project code  
+- Bindings against design time data generated from project code  
   
- When project code is disabled, Visual Studio will show placeholders such as the name of the property for a binding where the data is no longer available; or a placeholder for a control which is no longer running.  
+  When project code is disabled, Visual Studio will show placeholders such as the name of the property for a binding where the data is no longer available; or a placeholder for a control which is no longer running.  
   
- ![Unhandled exception dialog](../designers/media/xaml-unhandledexception.png "XAML_UnhandledException")  
+  ![Unhandled exception dialog](../designers/media/xaml-unhandledexception.png "XAML_UnhandledException")  
   
 #### To determine if project code is causing an exception  
   

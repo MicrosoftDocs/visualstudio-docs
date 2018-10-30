@@ -1,7 +1,7 @@
 ---
 title: "Run unit tests with Test Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Run unit tests with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Run unit tests with Test Explorer](https://docs.microsoft.com/visualstudio/test/run-unit-tests-with-test-explorer).  
-  
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects, group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage.  
   
 ##  <a name="BKMK_Contents"></a> Contents  
@@ -63,17 +61,17 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
 ###  <a name="BKMK_Run_tests"></a> Run tests  
  You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:  
   
--   To run all the tests in a solution, choose **Run All**.  
+- To run all the tests in a solution, choose **Run All**.  
   
--   To run all the tests in a default group, choose **Run...** and then choose the group on the menu.  
+- To run all the tests in a default group, choose **Run...** and then choose the group on the menu.  
   
--   Select the individual tests that you want to run, open the context menu for a selected test and then choose **Run Selected Tests**.  
+- Select the individual tests that you want to run, open the context menu for a selected test and then choose **Run Selected Tests**.  
   
--   If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.  
+- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.  
   
- The pass/fail bar at the top of the Test Explorer window is animated as the tests run. At the conclusion of the test run, the pass/fail bar turns green if all tests passed or turns red if any test failed.  
+  The pass/fail bar at the top of the Test Explorer window is animated as the tests run. At the conclusion of the test run, the pass/fail bar turns green if all tests passed or turns red if any test failed.  
   
- ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_Run_tests_after_every_build"></a> Run tests after every build  
   
@@ -98,19 +96,19 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
   
  The test details pane displays the following information:  
   
--   The source file name and the line number of the test method.  
+- The source file name and the line number of the test method.  
   
--   The status of the test.  
+- The status of the test.  
   
--   The elapsed time that the test method took to run.  
+- The elapsed time that the test method took to run.  
   
- If the test fails, the details pane also displays:  
+  If the test fails, the details pane also displays:  
   
--   The message returned by the unit test framework for the test.  
+- The message returned by the unit test framework for the test.  
   
--   The stack trace at the time the test failed.  
+- The stack trace at the time the test failed.  
   
- ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_View_the_source_code_of_a_test_method"></a> View the source code of a test method  
  To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the context menu (Keyboard: F12).  
@@ -189,17 +187,17 @@ TEST_METHOD(Method1)
 ###  <a name="BKMK_Search_and_filter_the_test_list"></a> Search and filter the test list  
  You can use Test Explorer filters to limit the test methods in your projects that you view and run.  
   
- When you type a string in in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.  
+ When you type a string in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.  
   
  To filter by a different criteria:  
   
-1.  Open the drop-down list to the right of the search box.  
+1. Open the drop-down list to the right of the search box.  
   
-2.  Choose a new criteria.  
+2. Choose a new criteria.  
   
-3.  Enter the filter value between the quotation marks.  
+3. Enter the filter value between the quotation marks.  
   
- ![Filter tests in Test Explorer](../test/media/ute-filtertestlist.png "UTE_FilterTestList")  
+   ![Filter tests in Test Explorer](../test/media/ute-filtertestlist.png "UTE_FilterTestList")  
   
 > [!NOTE]
 >  Searches are case insensitive and match the specified string to any part of the criteria value.  
@@ -251,16 +249,16 @@ FullName:"MyClass" - FullName:"PerfTest"
 ###  <a name="BKMK_Debug_unit_tests"></a> Debug unit tests  
  You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:  
   
-1.  In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
+1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
   
-    > [!NOTE]
-    >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
+   > [!NOTE]
+   >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
   
-2.  In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the context menu.  
+2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the context menu.  
   
- For more information, about the debugger, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).  
+   For more information, about the debugger, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).  
   
- ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_Diagnose_test_method_performance_issues"></a> Diagnose test method performance issues  
  To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose Profile on the context menu. See [Performance Explorer](../profiling/performance-explorer.md).  
@@ -274,19 +272,19 @@ FullName:"MyClass" - FullName:"PerfTest"
   
  To run code coverage for test methods in a solution:  
   
-1.  Choose **Tests** on the Visual Studio menu and then choose **Analyze code coverage**.  
+1. Choose **Tests** on the Visual Studio menu and then choose **Analyze code coverage**.  
   
-2.  Choose one of the following commands from the sub-menu:  
+2. Choose one of the following commands from the sub-menu:  
   
-    -   **Selected tests** runs the test methods that you have selected in Test Explorer.  
+   -   **Selected tests** runs the test methods that you have selected in Test Explorer.  
   
-    -   **All tests** runs all the test methods in the solution.  
+   -   **All tests** runs all the test methods in the solution.  
   
- The Code Coverage Results window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.  
+   The Code Coverage Results window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.  
   
- For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).  
+   For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).  
   
- ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_External_resources"></a> External resources  
   

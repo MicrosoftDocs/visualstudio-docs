@@ -27,7 +27,7 @@ A text template contains the text that will be generated from it. For example, a
 
 -   **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.
 
- To try the examples in this topic, copy them into a template file as described in [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). After editing the template file, save it, and then inspect the output **.txt** file.
+To try the examples in this topic, copy them into a template file as described in [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). After editing the template file, save it, and then inspect the output **.txt** file.
 
 ## Directives
  Text template directives provide general instructions to the text templating engine about how to generate the transformation code and the output file.
@@ -35,7 +35,6 @@ A text template contains the text that will be generated from it. For example, a
  For example, the following directive specifies that the output file should have a .txt extension:
 
 ```
-
 <#@ output extension=".txt" #>
 ```
 
@@ -66,8 +65,7 @@ Hello
  For example, the following control block and text block cause the output file to contain the line "0, 1, 2, 3, 4 Hello!":
 
 ```
-
-      <#
+<#
     for(int i = 0; i < 4; i++)
     {
         Write(i + ", ");
@@ -204,10 +202,12 @@ private void WriteSquareLine(int i)
 
  For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).
 
-###  <a name="Include"></a> Including code and text
+### <a name="Include"></a> Including code and text
  The `include` directive inserts text from another template file. For example, this directive inserts the content of `test.txt`.
 
- `<#@ include file="c:\test.txt" #>`
+```
+<#@ include file="c:\test.txt" #>
+```
 
  The included content is processed almost as if it were part of the including text template. However, you can include a file that contains a class feature block `<#+...#>` even if the include directive is followed by ordinary text and standard control blocks.
 
@@ -239,7 +239,7 @@ private void WriteSquareLine(int i)
 ### Relative file paths in design-time templates
  In a [design-time text template](../modeling/design-time-code-generation-by-using-t4-text-templates.md), if you want to reference a file in a location relative to the text template, use `this.Host.ResolvePath()`. You must also set `hostspecific="true"` in the `template` directive:
 
-```csharp
+```
 <#@ template hostspecific="true" language="C#" #>
 <#@ output extension=".txt" #>
 <#@ import namespace="System.IO" #>
@@ -249,7 +249,6 @@ private void WriteSquareLine(int i)
 #>
 Content of MyFile.txt is:
 <#= myFile #>
-
 ```
 
 You can also obtain other services that are provided by the host. For more information, see [Accessing Visual Studio or other Hosts from a Template](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4).
@@ -266,10 +265,10 @@ You can also obtain other services that are provided by the host. For more infor
 ## Related topics
 
 |Task|Topic|
-|----------|-----------|
+|-|-|
 |Writing a template.|[Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)|
 |Generate text by using program code.|[Text Template Structure](../modeling/writing-a-t4-text-template.md)|
-|Generate files in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|
-|Run text generation outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|
+|Generate files in a Visual Studio solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|
+|Run text generation outside Visual Studio.|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|
 |Transform your data in the form of a domain-specific language.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|
 |Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|

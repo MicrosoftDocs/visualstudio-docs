@@ -1,7 +1,7 @@
 ---
 title: "CommandPlacements Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # CommandPlacements Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CommandPlacements Element](https://docs.microsoft.com/visualstudio/extensibility/commandplacements-element).  
-  
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.  
   
  The CommandPlacements element is optional. If no commands, groups, or menus must be included in a secondary location, you do not have to include this section in your .vsct file.  
@@ -63,10 +61,10 @@ The CommandPlacements element groups CommandPlacement elements and other Command
   
 ```  
 <CommandPlacements>  
-  <CommandPlacement guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    priority="0x0300">  
-    <Parent guid="cmdGuidWidgetCommands" id="menuIDEditWidget"/>  
-  </CommandPlacement>  
+  <CommandPlacement guid="guidWidgetPackage" id="cmdidInsertOptions"  
+    priority="0x0300">  
+    <Parent guid="cmdGuidWidgetCommands" id="menuIDEditWidget"/>  
+  </CommandPlacement>  
 </CommandPlacements>  
 ```  
   

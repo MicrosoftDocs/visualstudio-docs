@@ -1,7 +1,7 @@
 ---
 title: "SccGetExtendedCapabilities Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,17 +21,15 @@ manager: "ghogen"
 # SccGetExtendedCapabilities Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccGetExtendedCapabilities Function](https://docs.microsoft.com/visualstudio/extensibility/sccgetextendedcapabilities-function).  
-  
 This function returns additional capabilities supported by the source control plug-in.  
   
 ## Syntax  
   
 ```cpp  
 SCCRTN SccGetExtendedCapabilities(  
-   LPVOID pContext,  
-   LONG lSccExCaps,  
-   LPBOOL pbSupported  
+   LPVOID pContext,  
+   LONG lSccExCaps,  
+   LPBOOL pbSupported  
 );  
 ```  
   

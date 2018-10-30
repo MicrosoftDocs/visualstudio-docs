@@ -1,7 +1,7 @@
 ---
 title: "CA1006: Do not nest generic types in member signatures | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1006: Do not nest generic types in member signatures
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1006: Do not nest generic types in member signatures](https://docs.microsoft.com/visualstudio/code-quality/ca1006-do-not-nest-generic-types-in-member-signatures).
 
 |||
 |-|-|

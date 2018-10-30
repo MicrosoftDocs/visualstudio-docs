@@ -1,7 +1,7 @@
 ---
 title: "Local Data Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,19 +42,19 @@ When developing data applications, it is usually best to use a local copy of a d
   
 2.  
   
--  
+- 
   
--  
+- 
   
--   Create a SQL Server database project by clicking on the solution node in Solution Explorer and choosing **Add &#124; New Project**.  In the left pane, choose **SQL Server &#124; Database** project and click OK. In Solution Explorer, right click on the database project node to import a local database file, then develop the application that connects to the database produced by the project. Good when you are developing and modifying the database schema at the same time that you are developing the application.  
+- Create a SQL Server database project by clicking on the solution node in Solution Explorer and choosing **Add &#124; New Project**.  In the left pane, choose **SQL Server &#124; Database** project and click OK. In Solution Explorer, right click on the database project node to import a local database file, then develop the application that connects to the database produced by the project. Good when you are developing and modifying the database schema at the same time that you are developing the application.  
   
-     ![Import Database into Database project](../data-tools/media/raddata-import-database-into-database-project.png "raddata Import Database into Database project")  
+   ![Import Database into Database project](../data-tools/media/raddata-import-database-into-database-project.png "raddata Import Database into Database project")  
   
--   If you are creating a new database, first add a **Service-based database file** to your project (**Project &#124; Add New Item)**. This creates a new .mdf file that is attached to the default SQL Server instance on the local machine, which by default is (localdb)\MSSQLocalDB. The database should appear in Server Explorer. Expand the node, and right-click on the nodes to add new database objects such as tables, views, functions, and so on.  
+- If you are creating a new database, first add a **Service-based database file** to your project (**Project &#124; Add New Item)**. This creates a new .mdf file that is attached to the default SQL Server instance on the local machine, which by default is (localdb)\MSSQLocalDB. The database should appear in Server Explorer. Expand the node, and right-click on the nodes to add new database objects such as tables, views, functions, and so on.  
   
- For more information about SQL Server Express LocalDB, see [Introducing LocalDB, an Improved SQL Express](http://go.microsoft.com/fwlink/?LinkId=234375) and [LocalDB: Where is My Database?](http://go.microsoft.com/fwlink/?LinkId=234376) on the Microsoft website.  
+  For more information about SQL Server Express LocalDB, see [Introducing LocalDB, an Improved SQL Express](http://go.microsoft.com/fwlink/?LinkId=234375) and [LocalDB: Where is My Database?](http://go.microsoft.com/fwlink/?LinkId=234376) on the Microsoft website.  
   
- The following table provides links to topics that describe how to connect your application to local data:  
+  The following table provides links to topics that describe how to connect your application to local data:  
   
 |Topic|Description|  
 |-----------|-----------------|  

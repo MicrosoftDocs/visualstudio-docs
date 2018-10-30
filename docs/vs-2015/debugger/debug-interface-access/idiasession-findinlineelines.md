@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findInlineeLines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,16 +20,14 @@ manager: "ghogen"
 # IDiaSession::findInlineeLines
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findInlineeLines](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findinlineelines).  
-  
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT findInlineeLines (   
-   IDiaSymbol*       parent,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaSymbol*       parent,  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

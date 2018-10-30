@@ -40,7 +40,7 @@ Click the **Click to browse** text in the **ActivityType** box, either on the **
 The following table shows the <xref:System.Activities.Statements.Interop> properties, and describes how they are used in the designer. These properties can be edited in property grid or on the Workflow Designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Interop> activity. The default value is **Interop**. Although the display name is not required, it's recommended to provide one.|
 |<xref:System.Activities.Statements.Interop.ActivityType%2A>|True|Specifies the type of the activity contained by the <xref:System.Activities.Statements.Interop> activity. This type specified must derive from <xref:System.Workflow.ComponentModel.Activity>.|
 

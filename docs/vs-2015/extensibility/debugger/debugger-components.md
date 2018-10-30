@@ -1,7 +1,7 @@
 ---
 title: "Debugger Components | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # Debugger Components
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugger Components](https://docs.microsoft.com/visualstudio/extensibility/debugger/debugger-components).  
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:  
   
--   **Debug Package:** The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger provides the same user interface no matter what is being debugged.  
+- **Debug Package:** The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger provides the same user interface no matter what is being debugged.  
   
--   **Session debug manager (SDM):** Provides a consistent programmatic interface to the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Debugger for the management of a variety of debug engines. It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
+- **Session debug manager (SDM):** Provides a consistent programmatic interface to the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Debugger for the management of a variety of debug engines. It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
--   **Process debug manager (PDM):** Manages, for all running instances of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], a list of all programs that can be or are being debugged. It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
+- **Process debug manager (PDM):** Manages, for all running instances of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], a list of all programs that can be or are being debugged. It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
--   **Debug engine (DE):** Is responsible for monitoring a program being debugged, communicating the state of the running program to the SDM and the PDM, and interacting with the expression evaluator and symbol provider to provide real-time analysis of the state of a program's memory and variables. It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (for the languages it supports) and third-party vendors who want to support their own run time.  
+- **Debug engine (DE):** Is responsible for monitoring a program being debugged, communicating the state of the running program to the SDM and the PDM, and interacting with the expression evaluator and symbol provider to provide real-time analysis of the state of a program's memory and variables. It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (for the languages it supports) and third-party vendors who want to support their own run time.  
   
--   **Expression evaluator (EE):** Provides support for dynamically evaluating variables and expressions supplied by the user when a program has been stopped at a particular point. It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (for the languages it supports) and third-party vendors who want to support their own languages.  
+- **Expression evaluator (EE):** Provides support for dynamically evaluating variables and expressions supplied by the user when a program has been stopped at a particular point. It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (for the languages it supports) and third-party vendors who want to support their own languages.  
   
--   **Symbol provider (SP):** Also called a symbol handler, maps the debugging symbols of a program to a running instance of the program so that meaningful information can be provided (such as source-code-level debugging and expression evaluation). It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (for the Common Language Runtime [CLR] symbols and the Program DataBase [PDB] symbol file format) and by third-party vendors who have their own proprietary method of storing debugging information.  
+- **Symbol provider (SP):** Also called a symbol handler, maps the debugging symbols of a program to a running instance of the program so that meaningful information can be provided (such as source-code-level debugging and expression evaluation). It is implemented by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] (for the Common Language Runtime [CLR] symbols and the Program DataBase [PDB] symbol file format) and by third-party vendors who have their own proprietary method of storing debugging information.  
   
- The following diagram shows the relationship among these elements of the Visual Studio debugger.  
+  The following diagram shows the relationship among these elements of the Visual Studio debugger.  
   
- ![Debugging Components Overview](../../extensibility/debugger/media/dbugcompovrview.gif "DBugCompOvrview")  
+  ![Debugging Components Overview](../../extensibility/debugger/media/dbugcompovrview.gif "DBugCompOvrview")  
   
 ## In This Section  
  [Debug Package](../../extensibility/debugger/debug-package.md)  

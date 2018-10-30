@@ -1,7 +1,7 @@
 ---
 title: "IDE-Defined Commands, Menus, and Groups | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,22 +21,20 @@ manager: "ghogen"
 # IDE-Defined Commands, Menus, and Groups
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDE-Defined Commands, Menus, and Groups](https://docs.microsoft.com/visualstudio/extensibility/internals/ide-defined-commands-menus-and-groups).  
-  
 Many menus, commands and command groups are already defined for use by the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE. These commands are also available for your use when you extend [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
 ## Finding Environment-Defined Commands  
  The environment commands are defined in a set of four .vsct files:  
   
--   SharedCmdDef.vsct  
+- SharedCmdDef.vsct  
   
--   SharedCmdPlace.vsct  
+- SharedCmdPlace.vsct  
   
--   ShellCmdDef.vsct  
+- ShellCmdDef.vsct  
   
--   ShellCmdPlace.vsct  
+- ShellCmdPlace.vsct  
   
- These files are located in *\<Visual Studio SDK installation path>*\VisualStudioIntegration\Common\Inc\\. These files provide the definitions and GUIDs of the menus and groups that you can use in the command table configuration (.vsct) file of your VSPackage as containers for your own menus, groups, and commands.  
+  These files are located in *\<Visual Studio SDK installation path>*\VisualStudioIntegration\Common\Inc\\. These files provide the definitions and GUIDs of the menus and groups that you can use in the command table configuration (.vsct) file of your VSPackage as containers for your own menus, groups, and commands.  
   
 ## In This Section  
  [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md)  

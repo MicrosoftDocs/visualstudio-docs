@@ -1,7 +1,7 @@
 ---
 title: "Statement Completion in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Statement Completion in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Statement Completion in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/statement-completion-in-a-legacy-language-service).  
-  
 Statement completion is the process by which the language service helps users finish a language keyword or element that they have started typing in the core editor. This topic discusses how statement completion works and how to implement it in your language service.  
   
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement statement completion, see [Walkthrough: Displaying Statement Completion](../../extensibility/walkthrough-displaying-statement-completion.md).  

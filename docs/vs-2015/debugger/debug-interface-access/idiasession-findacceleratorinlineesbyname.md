@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findAcceleratorInlineesByName | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,17 +20,15 @@ manager: "ghogen"
 # IDiaSession::findAcceleratorInlineesByName
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findAcceleratorInlineesByName](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findacceleratorinlineesbyname).  
-  
 Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT findAcceleratorInlineeLinesByName (   
-   LPCOLESTR             name,  
+   LPCOLESTR             name,  
    DWORD                 option,  
-   IDiaEnumSymbols**     ppResult  
+   IDiaEnumSymbols**     ppResult  
 );  
 ```  
   

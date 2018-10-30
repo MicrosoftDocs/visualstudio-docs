@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug .NET Framework Source | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,15 +25,13 @@ manager: "ghogen"
 # How to: Debug .NET Framework Source
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug .NET Framework Source](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-dotnet-framework-source).  
-  
 The most recent version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides new features for [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] debugging. To debug [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] source, you must have access to debugging symbols for the code. You also need to enable stepping into [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] source.  
   
  You can enable [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] stepping and symbol downloading in the **Options** dialog box. When you enable symbol downloading, you can choose to download symbols immediately or just enable the option for later downloading. If you do not download the symbols immediately, symbols will be downloaded the next time that you start debugging your application. You also can do a manual download from the **Modules** window or the **Call Stack** window.  
   
 ### To enable .NET Framework source debugging  
   
-1.  On the **Tools** menu, click **Option**s.  
+1.  On the **Tools** menu, click **Options**.  
   
 2.  In the **Options** dialog box, click the **Debugging** category.  
   

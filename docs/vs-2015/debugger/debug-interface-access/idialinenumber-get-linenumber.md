@@ -1,7 +1,7 @@
 ---
 title: "IDiaLineNumber::get_lineNumber | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaLineNumber::get_lineNumber
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_lineNumber](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-linenumber).  
-  
 Retrieves the line number in the source file.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_lineNumber (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

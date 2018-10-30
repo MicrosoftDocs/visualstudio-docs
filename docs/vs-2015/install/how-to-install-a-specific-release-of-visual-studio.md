@@ -1,7 +1,7 @@
 ---
 title: "How to: Install a Specific Release of Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,20 +43,20 @@ We update Visual Studio setup often so that you get the most current, optimized 
   
 > [!IMPORTANT]
 >  Depending on the language that you want to use, please replace "enu" (for English) with one of the following values:  
->   
->  -   chs (for Chinese (Simplified))  
-> -   cht (for Chinese (Traditional))  
-> -   csy (for Czech)  
-> -   deu (for German)  
-> -   esn (for Spanish)  
-> -   fra (for French)  
-> -   ita (for Italian)  
-> -   jpa (for Japanese)  
-> -   kor (for Korean)  
-> -   plk (for Polish)  
-> -   ptb (for Portuguese)  
-> -   rus (for Russian)  
-> -   trk (for Turkish)  
+> 
+> - chs (for Chinese (Simplified))  
+>   -   cht (for Chinese (Traditional))  
+>   -   csy (for Czech)  
+>   -   deu (for German)  
+>   -   esn (for Spanish)  
+>   -   fra (for French)  
+>   -   ita (for Italian)  
+>   -   jpa (for Japanese)  
+>   -   kor (for Korean)  
+>   -   plk (for Polish)  
+>   -   ptb (for Portuguese)  
+>   -   rus (for Russian)  
+>   -   trk (for Turkish)  
   
 ## See Also  
  [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)

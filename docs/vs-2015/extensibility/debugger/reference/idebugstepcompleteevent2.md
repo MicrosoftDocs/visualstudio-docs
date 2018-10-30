@@ -1,7 +1,7 @@
 ---
 title: "IDebugStepCompleteEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugStepCompleteEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStepCompleteEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstepcompleteevent2).  
-  
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when the program being debugged completes a step into, a step over, or a step out of a line of source code or statement or instruction.  
   
 ## Syntax  

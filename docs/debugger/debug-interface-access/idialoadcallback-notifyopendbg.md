@@ -22,8 +22,8 @@ Called when a candidate .dbg file has been opened.
   
 ```C++  
 HRESULT NotifyOpenDBG (   
-   LPCOLESTR dbgPath,  
-   HRESULT   resultCode  
+   LPCOLESTR dbgPath,  
+   HRESULT   resultCode  
 );  
 ```  
   

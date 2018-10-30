@@ -1,7 +1,7 @@
 ---
 title: "IntelliSense Hosting | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # IntelliSense Hosting
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IntelliSense Hosting](https://docs.microsoft.com/visualstudio/extensibility/intellisense-hosting).  
-  
 Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide IntelliSense for code that is not hosted by the Visual Studio text editor.  
   
 ## IntelliSense Hosting Usage  

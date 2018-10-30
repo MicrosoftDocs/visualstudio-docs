@@ -1,7 +1,7 @@
 ---
 title: "BasicType | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,32 +22,30 @@ manager: "ghogen"
 # BasicType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BasicType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/basictype).  
-  
 Specifies the symbol's basic type.  
   
 ## Syntax  
   
 ```cpp#  
 enum BasicType {   
-   btNoType   = 0,  
-   btVoid     = 1,  
-   btChar     = 2,  
-   btWChar    = 3,  
-   btInt      = 6,  
-   btUInt     = 7,  
-   btFloat    = 8,  
-   btBCD      = 9,  
-   btBool     = 10,  
-   btLong     = 13,  
-   btULong    = 14,  
-   btCurrency = 25,  
-   btDate     = 26,  
-   btVariant  = 27,  
-   btComplex  = 28,  
-   btBit      = 29,  
-   btBSTR     = 30,  
-   btHresult  = 31  
+   btNoType   = 0,  
+   btVoid     = 1,  
+   btChar     = 2,  
+   btWChar    = 3,  
+   btInt      = 6,  
+   btUInt     = 7,  
+   btFloat    = 8,  
+   btBCD      = 9,  
+   btBool     = 10,  
+   btLong     = 13,  
+   btULong    = 14,  
+   btCurrency = 25,  
+   btDate     = 26,  
+   btVariant  = 27,  
+   btComplex  = 28,  
+   btBit      = 29,  
+   btBSTR     = 30,  
+   btHresult  = 31  
 };  
 ```  
   

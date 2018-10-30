@@ -1,7 +1,7 @@
 ---
 title: "References Page, Project Designer (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # References Page, Project Designer (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [References Page, Project Designer (Visual Basic)](https://docs.microsoft.com/visualstudio/ide/reference/references-page-project-designer-visual-basic).  
-  
   
 Use the **References** page of the **Project Designer** to manage references, Web references, and imported namespaces in your project. Projects can contain references to COM components, XML Web services, .NET Framework class libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).  
   
@@ -46,11 +44,11 @@ Use the **References** page of the **Project Designer** to manage references, We
   
 > [!NOTE]
 >  When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
->   
->  1.  The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.  
-> 2.  Folders that are specified in the **Reference Paths** dialog box.  
-> 3.  Folders that display files in the **Add Reference** dialog box.  
-> 4.  The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)  
+> 
+> 1. The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.  
+>    2.  Folders that are specified in the **Reference Paths** dialog box.  
+>    3.  Folders that display files in the **Add Reference** dialog box.  
+>    4.  The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)  
   
  **References**  
  This list shows all references in the project, used or unused.  

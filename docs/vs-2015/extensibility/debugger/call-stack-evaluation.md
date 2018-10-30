@@ -1,7 +1,7 @@
 ---
 title: "Call Stack Evaluation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Call Stack Evaluation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Call Stack Evaluation](https://docs.microsoft.com/visualstudio/extensibility/debugger/call-stack-evaluation).  
-  
 In order to view the stack frames of the call stack during break mode , you must implement the [EnumFrameInfo](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) method.  
   
 ## Methods for Evaluation  

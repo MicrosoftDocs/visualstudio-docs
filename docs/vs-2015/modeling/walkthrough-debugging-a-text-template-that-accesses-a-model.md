@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Debugging a Text Template that Accesses a Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # Walkthrough: Debugging a Text Template that Accesses a Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Debugging a Text Template that Accesses a Model](https://docs.microsoft.com/visualstudio/modeling/walkthrough-debugging-a-text-template-that-accesses-a-model).  
-  
 When you modify or add text templates in a domain-specific language solution, you may get errors when the engine transforms the template to source code or when it compiles the generated code. The following walkthrough demonstrates some of the things you can do to debug a text template.  
   
 > [!NOTE]
@@ -26,15 +24,15 @@ When you modify or add text templates in a domain-specific language solution, yo
 ## Creating a Domain-Specific Language Solution  
  In this procedure, you create a domain-specific language solution that has the following characteristics:  
   
--   Name: DebuggingTestLanguage  
+- Name: DebuggingTestLanguage  
   
--   Solution template: Minimal Language  
+- Solution template: Minimal Language  
   
--   File extension: .ddd  
+- File extension: .ddd  
   
--   Company name: Fabrikam  
+- Company name: Fabrikam  
   
- For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).  
+  For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).  
   
 ## Creating a text template  
  Add a text template to your solution.  

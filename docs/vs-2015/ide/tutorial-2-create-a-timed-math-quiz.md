@@ -1,7 +1,7 @@
 ---
 title: "Tutorial 2: Create a Timed Math Quiz | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,24 +18,22 @@ manager: "ghogen"
 # Tutorial 2: Create a Timed Math Quiz
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tutorial 2: Create a Timed Math Quiz](https://docs.microsoft.com/visualstudio/ide/tutorial-2-create-a-timed-math-quiz).  
-  
 In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:  
   
--   Generate random numbers by using the `Random` class.  
+- Generate random numbers by using the `Random` class.  
   
--   Trigger events to occur at a specific time by using a **Timer** control.  
+- Trigger events to occur at a specific time by using a **Timer** control.  
   
--   Control program flow by using `if else` statements.  
+- Control program flow by using `if else` statements.  
   
--   Perform basic arithmetic operations in code.  
+- Perform basic arithmetic operations in code.  
   
- When you finish, your quiz will look like the following picture, except with different numbers.  
+  When you finish, your quiz will look like the following picture, except with different numbers.  
   
- ![Math quiz with four problems](../ide/media/express-finishedquiz.png "Express_FinishedQuiz")  
-Quiz that you create in this tutorial  
+  ![Math quiz with four problems](../ide/media/express-finishedquiz.png "Express_FinishedQuiz")  
+  Quiz that you create in this tutorial  
   
- To download a completed version of the quiz, see [Complete Math Quiz tutorial sample](http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).  
+  To download a completed version of the quiz, see [Complete Math Quiz tutorial sample](http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).  
   
 > [!NOTE]
 >  This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.  

@@ -1,7 +1,7 @@
 ---
 title: "Create a simple data application by using ADO.NET | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Create a simple data application by using ADO.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create a simple data application by using ADO.NET](https://docs.microsoft.com/visualstudio/data-tools/create-a-simple-data-application-by-using-adonet).  
-  
   
 When you create an application that manipulates data in a database, you perform basic tasks such defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET.  All .NET data technologies—including datasets, LINQ to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.  
   
@@ -48,41 +46,41 @@ When you create an application that manipulates data in a database, you perform 
 ## Prerequisites  
  To create the application, you'll need:  
   
--   Visual Studio Community Edition.  
+- Visual Studio Community Edition.  
   
--   SQL Server Express LocalDB.  
+- SQL Server Express LocalDB.  
   
--   The small sample database that you create by following the steps in [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md).  
+- The small sample database that you create by following the steps in [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md).  
   
--   The connection string for the database after you set it up. You can find this value by opening **SQL Server Object Explorer**, opening the shortcut menu for the database, selecting **Properties**, and then scrolling to the **ConnectionString**  property.  
+- The connection string for the database after you set it up. You can find this value by opening **SQL Server Object Explorer**, opening the shortcut menu for the database, selecting **Properties**, and then scrolling to the **ConnectionString**  property.  
   
- This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to that project, put buttons and other controls on those forms, set properties of those controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) before you start this topic.  
+  This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to that project, put buttons and other controls on those forms, set properties of those controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) before you start this topic.  
   
 ##  <a name="BKMK_setupthesampledatabase"></a> Set up the sample database  
  The sample database for this walkthrough consists of the Customer and Orders tables. The tables contain no data initially, but you’ll add data when you run the application that you'll create. The database also has five simple stored procedures. [Create a SQL database by using a script](../data-tools/create-a-sql-database-by-using-a-script.md) contains a Transact-SQL script that creates the tables, the primary and foreign keys, the constraints, and the stored procedures.  
   
 ##  <a name="BKMK_createtheformsandaddcontrols"></a> Create the forms and add controls  
   
-1.  Create a project for a Windows Forms application, and then name it SimpleDataApp.  
+1. Create a project for a Windows Forms application, and then name it SimpleDataApp.  
   
-     Visual Studio creates the project and several files, including an empty Windows form that's named Form1.  
+    Visual Studio creates the project and several files, including an empty Windows form that's named Form1.  
   
-2.  Add two Windows forms to your project so that it has three forms, and then give them the following names:  
+2. Add two Windows forms to your project so that it has three forms, and then give them the following names:  
   
-    -   Navigation  
+   -   Navigation  
   
-    -   NewCustomer  
+   -   NewCustomer  
   
-    -   FillOrCancel  
+   -   FillOrCancel  
   
-3.  For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.  
+3. For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.  
   
-    > [!NOTE]
-    >  The group box and the label controls add clarity but aren't used in the code.  
+   > [!NOTE]
+   >  The group box and the label controls add clarity but aren't used in the code.  
   
- **Navigation form**  
+   **Navigation form**  
   
- ![Navigation dialog box](../data-tools/media/simpleappnav.png "SimpleAppNav")  
+   ![Navigation dialog box](../data-tools/media/simpleappnav.png "SimpleAppNav")  
   
 |Controls for the Navigation form|Properties|  
 |--------------------------------------|----------------|  

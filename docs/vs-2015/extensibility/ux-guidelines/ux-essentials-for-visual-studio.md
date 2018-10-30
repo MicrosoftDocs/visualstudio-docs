@@ -1,7 +1,7 @@
 ---
 title: "UX Essentials for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # UX Essentials for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UX Essentials for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/ux-essentials-for-visual-studio).  
-  
 ## Best practices  
   
 ### 1. Be consistent within the Visual Studio environment.  
@@ -164,15 +162,15 @@ The latest version of this topic can be found at [UX Essentials for Visual Studi
 ### Hyperlink anti-patterns  
  The following example contains two anti-patterns.  
   
-1.  The foreground turning red on hover means that the correct shared color from the font service is not being used.  
+1. The foreground turning red on hover means that the correct shared color from the font service is not being used.  
   
-2.  "Learn more" is not the appropriate text for a link to a conceptual topic. The user's goal is not to learn more, it is to understand the ramifications of their choice.  
+2. "Learn more" is not the appropriate text for a link to a conceptual topic. The user's goal is not to learn more, it is to understand the ramifications of their choice.  
   
- ![Hyperlink anti&#45;patterns](../../extensibility/ux-guidelines/media/0102-j-hyperlinkincorrect.png "0102-j_HyperlinkIncorrect")  
+   ![Hyperlink anti&#45;patterns](../../extensibility/ux-guidelines/media/0102-j-hyperlinkincorrect.png "0102-j_HyperlinkIncorrect")  
   
- **Ignoring the color service and using “Learn more” for hyperlinks are Visual Studio anti-patterns.**  
+   **Ignoring the color service and using “Learn more” for hyperlinks are Visual Studio anti-patterns.**  
   
- **Better solution:** Pose the question the user would be asking by clicking the link.  
+   **Better solution:** Pose the question the user would be asking by clicking the link.  
   
 -   How do Windows Azure services work?  
   

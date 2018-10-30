@@ -1,7 +1,7 @@
 ---
 title: "NAME_MATCH | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # NAME_MATCH
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [NAME_MATCH](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/name-match).  
-  
 Selects the case option for matching names.  
   
 ## Syntax  
   
 ```cpp#  
 typedef enum {   
-   nmNone            = 0,  
-   nmCaseSensitive   = 1,  
-   nmCaseInsensitive = 2  
+   nmNone            = 0,  
+   nmCaseSensitive   = 1,  
+   nmCaseInsensitive = 2  
 } NAME_MATCH;  
 ```  
   
 ```csharp  
 public enum NameMatchOptions {   
-   nmNone            = 0,  
-   nmCaseSensitive   = 1,  
-   nmCaseInsensitive = 2  
+   nmNone            = 0,  
+   nmCaseSensitive   = 1,  
+   nmCaseInsensitive = 2  
 }  
 ```  
   

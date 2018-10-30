@@ -1,7 +1,7 @@
 ---
 title: "IDebugEnumField::GetValueFromStringCaseInsensitive | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugEnumField::GetValueFromStringCaseInsensitive
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEnumField::GetValueFromStringCaseInsensitive](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenumfield-getvaluefromstringcaseinsensitive).  
-  
 This method uses a case-insensitive search to return the value associated with the name of an enumeration constant.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetValueFromStringCaseInsensitive(  
-   LPCOLESTR  pszValue,  
-   ULONGLONG* pvalue  
+   LPCOLESTR  pszValue,  
+   ULONGLONG* pvalue  
 );  
 ```  
   
 ```csharp  
 int GetValueFromStringCaseInsensitive(  
-   string    pszValue,   
-   out ulong pValue  
+   string    pszValue,   
+   out ulong pValue  
 );  
 ```  
   

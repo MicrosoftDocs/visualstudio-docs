@@ -53,9 +53,9 @@ Groups [Bitmap element](../extensibility/bitmap-element.md) elements.
   
 ```  
 <Bitmaps>  
-  <Bitmap guid="guidWidgetIcons" href="WidgetToolbarIcons_32.bmp" />  
-  <Bitmap guid="guidWidgetIcons2" resID="IDBMP_WIDGETICONS"  
-    usedList="1, 2, 3, 4"/>  
+  <Bitmap guid="guidWidgetIcons" href="WidgetToolbarIcons_32.bmp" />  
+  <Bitmap guid="guidWidgetIcons2" resID="IDBMP_WIDGETICONS"  
+    usedList="1, 2, 3, 4"/>  
 </Bitmaps>  
 ```  
   

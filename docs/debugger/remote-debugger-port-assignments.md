@@ -14,15 +14,15 @@ ms.workload:
 # Remote Debugger Port Assignments
 The Visual Studio Remote Debugger can run as an application or as a background service. When it runs as an application, it uses a port that is assigned by default as follows:  
 
--   Visual Studio 2017: 4022
+- Visual Studio 2017: 4022
 
--   Visual Studio 2015: 4020  
+- Visual Studio 2015: 4020  
   
--   Visual Studio 2013: 4018  
+- Visual Studio 2013: 4018  
   
--   Visual Studio 2012: 4016  
+- Visual Studio 2012: 4016  
   
- In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number of you like. We will explain how to set port numbers in a later section.  
+  In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number of you like. We will explain how to set port numbers in a later section.  
   
 ## The Remote Debugger Port on 32-bit Operating Systems  
  TCP 4022 (in Visual Studio 2017) is the main port, and is required for all scenarios. You can configure this from either the command line or the remote debugger window.  

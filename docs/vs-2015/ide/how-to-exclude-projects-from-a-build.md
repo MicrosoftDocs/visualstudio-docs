@@ -1,7 +1,7 @@
 ---
 title: "How to: Exclude Projects from a Build | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,17 +18,15 @@ manager: "ghogen"
 # How to: Exclude Projects from a Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Exclude Projects from a Build](https://docs.microsoft.com/visualstudio/ide/how-to-exclude-projects-from-a-build).  
-  
 You can build a solution without building all projects that it contains. For example, you might exclude a project that breaks the build. You could then build the project after you investigate and address the issues.  
   
  You can exclude a project by taking the following approaches:  
   
--   Removing it temporarily from the active solution configuration.  
+- Removing it temporarily from the active solution configuration.  
   
--   Creating a solution configuration that doesn’t  include the project.  
+- Creating a solution configuration that doesn’t  include the project.  
   
- For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
+  For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
   
 ### To temporarily remove a project from the active solution configuration  
   

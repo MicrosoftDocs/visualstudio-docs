@@ -1,7 +1,7 @@
 ---
 title: "Rapid Web Site Profiling with VSPerfASPNETCmd | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Rapid Web Site Profiling with VSPerfASPNETCmd
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Rapid Web Site Profiling with VSPerfASPNETCmd](https://docs.microsoft.com/visualstudio/profiling/rapid-web-site-profiling-with-vsperfaspnetcmd).  
-  
 The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. Using **VSPerfASPNETCmd** is the preferred method for profiling with the standalone profiler. For more information, see [How to: Install the Stand-Alone Profiler](../profiling/how-to-install-the-stand-alone-profiler.md).  
   
 > [!NOTE]
@@ -69,7 +67,7 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
 > [!WARNING]
 >  Tier interaction profiling (TIP) data can be collected using [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vs_pro_current_short](../includes/vs-pro-current-short-md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] and [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
 >   
->  To collect TIP data on Windows 8 or Windows Server 2012, you must use the the instrumentation (**/trace**) option.  
+>  To collect TIP data on Windows 8 or Windows Server 2012, you must use the instrumentation (**/trace**) option.  
   
  To collect tier interaction data with sampling data:  
   

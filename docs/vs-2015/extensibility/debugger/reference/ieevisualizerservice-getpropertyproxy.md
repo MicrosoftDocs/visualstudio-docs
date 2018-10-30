@@ -1,7 +1,7 @@
 ---
 title: "IEEVisualizerService::GetPropertyProxy | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IEEVisualizerService::GetPropertyProxy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEEVisualizerService::GetPropertyProxy](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy).  
-  
 This method returns a proxy for a property object.  
   
 ## Syntax  
   
 ```cpp  
 HRESULT GetPropertyProxy(  
-   DWORD                  dwID,  
-   IPropertyProxyEESide** proxy  
+   DWORD                  dwID,  
+   IPropertyProxyEESide** proxy  
 );  
 ```  
   
 ```csharp  
 int GetPropertyProxy(  
-   uint                     dwID,  
-   out IPropertyProxyEESide proxy  
+   uint                     dwID,  
+   out IPropertyProxyEESide proxy  
 );  
 ```  
   

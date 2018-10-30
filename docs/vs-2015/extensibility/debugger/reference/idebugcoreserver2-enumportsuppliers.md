@@ -1,7 +1,7 @@
 ---
 title: "IDebugCoreServer2::EnumPortSuppliers | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugCoreServer2::EnumPortSuppliers
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer2::EnumPortSuppliers](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver2-enumportsuppliers).  
-  
 Retrieves a list of all available port suppliers.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT EnumPortSuppliers(  
-   IEnumDebugPortSuppliers2** ppEnum  
+   IEnumDebugPortSuppliers2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumPortSuppliers(  
-   out IEnumDebugPortSuppliers2 ppEnum  
+   out IEnumDebugPortSuppliers2 ppEnum  
 );  
 ```  
   

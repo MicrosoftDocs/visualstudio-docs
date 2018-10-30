@@ -1,7 +1,7 @@
 ---
 title: "-Upgrade (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # /Upgrade (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Upgrade (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/upgrade-devenv-exe).  
-  
   
 Updates the solution file and all of its project files, or the project file specified, to the current [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] formats for these files.  
   

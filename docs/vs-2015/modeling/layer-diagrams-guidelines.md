@@ -1,7 +1,7 @@
 ---
 title: "Layer Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "douge"
 # Layer Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Dependency Diagrams: Guidelines](https://docs.microsoft.com/visualstudio/modeling/layer-diagrams-guidelines).  
-  
 Describe your app's architecture at a high level by creating *layer diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a layer diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -88,9 +86,9 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
 #### To reverse-engineer existing dependencies between layers  
   
--   Select one layer or multiple layers, right-click a selected layer, and then click **Generate Dependencies**.  
+- Select one layer or multiple layers, right-click a selected layer, and then click **Generate Dependencies**.  
   
- Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.  
+  Typically, you will see some dependencies that should not exist. You can edit these dependencies to align them with the intended design.  
   
 ##  <a name="EditArchitecture"></a> Edit layers and dependencies to show the intended design  
  To describe the changes that you plan to make to your system or the intended architecture, use the following steps to edit the layer diagram. You might also consider making some refactoring changes to improve the structure of the code before extending it. See [Improving the structure of the code](#Improving).  
@@ -147,11 +145,11 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 ##  <a name="UpdateCode"></a> Update the code to conform to the new architecture  
  Typically, errors will appear the first time that you validate code against an updated layer diagram. These errors can have several causes:  
   
--   An artifact is assigned to the wrong layer. In this case, move the artifact.  
+- An artifact is assigned to the wrong layer. In this case, move the artifact.  
   
--   An artifact, such as a class, uses another class in a way that conflicts with your architecture. In this case, refactor the code to remove the dependency.  
+- An artifact, such as a class, uses another class in a way that conflicts with your architecture. In this case, refactor the code to remove the dependency.  
   
- To resolve these errors, update the code until no more errors appear during validation. This is usually an iterative process. For more information about these errors, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
+  To resolve these errors, update the code until no more errors appear during validation. This is usually an iterative process. For more information about these errors, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
   
 > [!NOTE]
 >  As you develop or refactor the code, you might have new artifacts to link to the layer diagram. However, this might not be necessary, for example, when you have layers that represent existing namespaces, and the new code only adds more material to those namespaces.  

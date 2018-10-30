@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Debug an XSLT Style Sheet | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,29 +30,29 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
   
 #### To start debugging  
   
-1.  From the **File** menu, point to **Open**, and click **File**.  
+1. From the **File** menu, point to **Open**, and click **File**.  
   
-2.  Locate the belowAvg.xsl file and click **Open**.  
+2. Locate the belowAvg.xsl file and click **Open**.  
   
-     The style sheet is opened in the XML Editor.  
+    The style sheet is opened in the XML Editor.  
   
-3.  Click the browse button (**...**) on the **Input** field of the document properties window.  
+3. Click the browse button (**...**) on the **Input** field of the document properties window.  
   
-4.  Locate the books.xml file and click **Open**.  
+4. Locate the books.xml file and click **Open**.  
   
-     This sets the source document file that is used for the XSLT transformation.  
+    This sets the source document file that is used for the XSLT transformation.  
   
-5.  Right-click the `xsl:if` start tag, point to **Breakpoint**, and click **Insert Breakpoint**.  
+5. Right-click the `xsl:if` start tag, point to **Breakpoint**, and click **Insert Breakpoint**.  
   
-6.  Click the **Debug XSL** button on the XML Editor toolbar.  
+6. Click the **Debug XSL** button on the XML Editor toolbar.  
   
- This starts the debugging process and opens several new windows that are used by the debugger.  
+   This starts the debugging process and opens several new windows that are used by the debugger.  
   
- There are two windows that display the input document and styles sheet. The debugger uses these windows to show the current execution state. The debugger is positioned on the `xsl:if` element of the style sheet and on the first book node in the books.xml file.  
+   There are two windows that display the input document and styles sheet. The debugger uses these windows to show the current execution state. The debugger is positioned on the `xsl:if` element of the style sheet and on the first book node in the books.xml file.  
   
- The Locals window displays all the local variables and their current values. This includes variables defined in the style sheet and also variables that the debugger uses to track the nodes that are currently in context.  
+   The Locals window displays all the local variables and their current values. This includes variables defined in the style sheet and also variables that the debugger uses to track the nodes that are currently in context.  
   
- The **XSL Output** window displays the output of the XSL transformation. This window is separate from the **Visual Studio Output** window.  
+   The **XSL Output** window displays the output of the XSL transformation. This window is separate from the **Visual Studio Output** window.  
   
 ## Watch Window  
   

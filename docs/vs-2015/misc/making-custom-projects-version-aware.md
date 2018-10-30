@@ -1,7 +1,7 @@
 ---
 title: "Making Custom Projects Version-Aware | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -119,13 +119,13 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
   
  If this method sets `pUpgradeRequired` to TRUE and returns `S_OK`, the result is treated as “Upgrade” and as though the method set an upgrade flag to the value `VSPUVF_PROJECT_ONEWAYUPGRADE`, which is described later in this topic. The following return values are supported by using this older method but only when `pUpgradeRequired` is set to TRUE:  
   
-1.  `VS_S_PROJECT_SAFEREPAIRREQUIRED`. This return value translates the `pUpgradeRequired` value to TRUE as equivalent to `VSPUVF_PROJECT_SAFEREPAIR`, which is described later in this topic.  
+1. `VS_S_PROJECT_SAFEREPAIRREQUIRED`. This return value translates the `pUpgradeRequired` value to TRUE as equivalent to `VSPUVF_PROJECT_SAFEREPAIR`, which is described later in this topic.  
   
-2.  `VS_S_PROJECT_UNSAFEREPAIRREQUIRED`. This return value translates the `pUpgradeRequired` value to TRUE as equivalent to `VSPUVF_PROJECT_UNSAFEREPAIR`, which is described later in this topic  
+2. `VS_S_PROJECT_UNSAFEREPAIRREQUIRED`. This return value translates the `pUpgradeRequired` value to TRUE as equivalent to `VSPUVF_PROJECT_UNSAFEREPAIR`, which is described later in this topic  
   
-3.  `VS_S_PROJECT_ONEWAYUPGRADEREQUIRED`. This return value translates the `pUpgradeRequired` value to TRUE as equivalent to `VSPUVF_PROJECT_ONEWAYUPGRADE`, which is described later in this topic.  
+3. `VS_S_PROJECT_ONEWAYUPGRADEREQUIRED`. This return value translates the `pUpgradeRequired` value to TRUE as equivalent to `VSPUVF_PROJECT_ONEWAYUPGRADE`, which is described later in this topic.  
   
- The new implementations in `IVsProjectUpgradeViaFactory4` and `IVsProjectFlavorUpgradeViaFactory2` enable specifying the migration type more precisely.  
+   The new implementations in `IVsProjectUpgradeViaFactory4` and `IVsProjectFlavorUpgradeViaFactory2` enable specifying the migration type more precisely.  
   
 > [!NOTE]
 >  You can cache the result of the compatibility check by the `UpgradeProject_CheckOnly` method so that it can also be used by the subsequent call to `CreateProject`.  

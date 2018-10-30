@@ -1,7 +1,7 @@
 ---
 title: "Options, Text Editor, Basic (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Options, Text Editor, Basic (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, Basic (Visual Basic)](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-basic-visual-basic).  
-  
   
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box contains the following properties:  
   
@@ -38,28 +36,28 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
  **Pretty Listing (reformatting) of code**  
  The text editor reformats your code as appropriate. When this option is selected, the code editor will:  
   
--   Align your code to the correct tab position  
+- Align your code to the correct tab position  
   
--   Recase keywords, variables, and objects to the correct case  
+- Recase keywords, variables, and objects to the correct case  
   
--   Add a missing `Then` to an `If...Then` statement  
+- Add a missing `Then` to an `If...Then` statement  
   
--   Add parenthesis to function calls  
+- Add parenthesis to function calls  
   
--   Add missing end quotes to strings  
+- Add missing end quotes to strings  
   
--   Reformat exponential notation  
+- Reformat exponential notation  
   
--   Reformat dates  
+- Reformat dates  
   
- **Enable outlining mode**  
- When you open a file in the code editor, you can view the document in outlining mode. See [Outlining](../../ide/outlining.md) for more information. When this option is selected, the outlining feature is activated when you open a file.  
+  **Enable outlining mode**  
+  When you open a file in the code editor, you can view the document in outlining mode. See [Outlining](../../ide/outlining.md) for more information. When this option is selected, the outlining feature is activated when you open a file.  
   
- **Automatic insertion of Interface and MustOverride members**  
- When you commit an `Implements` statement or an `Inherits` statement for a class, the text editor inserts prototypes for the members that have to be implemented or overridden, respectively.  
+  **Automatic insertion of Interface and MustOverride members**  
+  When you commit an `Implements` statement or an `Inherits` statement for a class, the text editor inserts prototypes for the members that have to be implemented or overridden, respectively.  
   
- **Show procedure line separators**  
- The text editor indicates visual scope of procedures. A line is drawn in the .vb source files of your project at locations listed in the following table:  
+  **Show procedure line separators**  
+  The text editor indicates visual scope of procedures. A line is drawn in the .vb source files of your project at locations listed in the following table:  
   
 |Location in .vb Source File|Example of Line Location|  
 |---------------------------------|------------------------------|  

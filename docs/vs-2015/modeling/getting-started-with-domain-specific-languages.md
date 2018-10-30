@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Domain-Specific Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # Getting Started with Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with Domain-Specific Languages](https://docs.microsoft.com/visualstudio/modeling/getting-started-with-domain-specific-languages).  
-  
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.  
   
  If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
@@ -49,42 +47,42 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 #### To create a DSL solution  
   
-1.  On the **File** menu, point to **New**, and then click **Project**.  
+1. On the **File** menu, point to **New**, and then click **Project**.  
   
-2.  Under **Project types**, expand the **Other Project Types** node, and click **Extensibility**.  
+2. Under **Project types**, expand the **Other Project Types** node, and click **Extensibility**.  
   
-3.  Click **Domain-Specific Language Designer**.  
+3. Click **Domain-Specific Language Designer**.  
   
-     ![Create DSL dialog](../modeling/media/create-dsldialog.png "Create_DSLDialog")  
+    ![Create DSL dialog](../modeling/media/create-dsldialog.png "Create_DSLDialog")  
   
-4.  In the **Name** box, type **FamilyTree**. Click **OK**.  
+4. In the **Name** box, type **FamilyTree**. Click **OK**.  
   
-     The **Domain-Specific Language Wizard** opens, and displays a list of template DSL solutions.  
+    The **Domain-Specific Language Wizard** opens, and displays a list of template DSL solutions.  
   
-     Click each template to see a description,  
+    Click each template to see a description,  
   
-     The templates are useful starting points. Each of them provides a complete working DSL, which you can edit to suit your needs. Ordinarily, you would choose the template nearest what you want to create.  
+    The templates are useful starting points. Each of them provides a complete working DSL, which you can edit to suit your needs. Ordinarily, you would choose the template nearest what you want to create.  
   
-5.  For this walkthrough, choose the **Minimal Language** template.  
+5. For this walkthrough, choose the **Minimal Language** template.  
   
-6.  Enter a file name extension for your DSL in the appropriate wizard page. This is the extension that files containing instances of your DSL will use.  
+6. Enter a file name extension for your DSL in the appropriate wizard page. This is the extension that files containing instances of your DSL will use.  
   
-    -   Choose an extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.  
+   -   Choose an extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.  
   
-    -   The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.  
+   -   The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.  
   
-7.  Inspect the other pages and then click **Finish**.  
+7. Inspect the other pages and then click **Finish**.  
   
-     A solution is generated that contains two projects. They are named Dsl and DslPackage. A diagram file opens that is named DslDefinition.dsl.  
+    A solution is generated that contains two projects. They are named Dsl and DslPackage. A diagram file opens that is named DslDefinition.dsl.  
   
-    > [!NOTE]
-    >  Most of the code that you can see in the folders in the two projects is generated from DslDefinition.dsl. For this reason, most modifications to your DSL are made in this file.  
+   > [!NOTE]
+   >  Most of the code that you can see in the folders in the two projects is generated from DslDefinition.dsl. For this reason, most modifications to your DSL are made in this file.  
   
- The user interface now resembles the following picture.  
+   The user interface now resembles the following picture.  
   
- ![dsl designer](../modeling/media/dsl-designer.png "dsl_designer")  
+   ![dsl designer](../modeling/media/dsl-designer.png "dsl_designer")  
   
- This solution defines a domain specific language. For more information, see [Overview of the Domain-Specific Language Tools User Interface](../modeling/overview-of-the-domain-specific-language-tools-user-interface.md).  
+   This solution defines a domain specific language. For more information, see [Overview of the Domain-Specific Language Tools User Interface](../modeling/overview-of-the-domain-specific-language-tools-user-interface.md).  
   
 ## The important parts of the DSL solution  
  Notice the following aspects of the new solution.  
@@ -100,41 +98,41 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 #### To experiment with the DSL  
   
-1.  Click **Transform All Templates** in the Solution Explorer toolbar. This regenerates most of the source code from DslDefinition.dsl.  
+1. Click **Transform All Templates** in the Solution Explorer toolbar. This regenerates most of the source code from DslDefinition.dsl.  
   
-    > [!NOTE]
-    >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+   > [!NOTE]
+   >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
-2.  Press F5, or on the **Debug** menu, click **Start Debugging**.  
+2. Press F5, or on the **Debug** menu, click **Start Debugging**.  
   
-     The DSL builds and is installed in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+    The DSL builds and is installed in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-     An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts. The experimental instance takes its settings from a separate subtree of the registry, where [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensions are registered for debugging purposes. Normal instances of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] do not have access to extensions registered there.  
+    An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts. The experimental instance takes its settings from a separate subtree of the registry, where [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensions are registered for debugging purposes. Normal instances of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] do not have access to extensions registered there.  
   
-3.  In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open the model file named **Test** from **Solution Explorer**.  
+3. In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open the model file named **Test** from **Solution Explorer**.  
   
-     \- or -  
+    \- or -  
   
-     Right-click the Debugging project, point to **Add**, and then click **Item**. In the **Add Item** dialog box, select the file type of your DSL.  
+    Right-click the Debugging project, point to **Add**, and then click **Item**. In the **Add Item** dialog box, select the file type of your DSL.  
   
-     The model file opens as a blank diagram.  
+    The model file opens as a blank diagram.  
   
-     The toolbox opens and displays tools appropriate to the diagram type.  
+    The toolbox opens and displays tools appropriate to the diagram type.  
   
-4.  Use the tools to create shapes and connectors on the diagram.  
+4. Use the tools to create shapes and connectors on the diagram.  
   
-    1.  To create shapes, drag from the Example Shape tool onto the diagram.  
+   1.  To create shapes, drag from the Example Shape tool onto the diagram.  
   
-    2.  To connect two shapes, click the Example Connector tool, click the first shape, and then click the second shape.  
+   2.  To connect two shapes, click the Example Connector tool, click the first shape, and then click the second shape.  
   
-5.  Click the labels of the shapes to change them.  
+5. Click the labels of the shapes to change them.  
   
- Your experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will resemble the following example:  
+   Your experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will resemble the following example:  
   
- ![](../modeling/media/dsl-min.png "DSL_min")  
+   ![](../modeling/media/dsl-min.png "DSL_min")  
   
 ### The Content of a Model  
- The content of a file that is an instance of a DSL is called a *model*. The model contains *model**elements* and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.  
+ The content of a file that is an instance of a DSL is called a *model*. The model contains *model elements* and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.  
   
  The DSL definition can specify how the model appears on a diagram. You can choose from a variety of styles of shapes and connectors. You can specify that some shapes appear inside other shapes.  
   
@@ -157,17 +155,17 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 ##### To regenerate text files after you change the model file  
   
-1.  In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], save the model file.  
+1. In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], save the model file.  
   
-2.  Make sure that the file name parameter in each .tt file refers to the model file that you are using for experiments. Save the .tt file.  
+2. Make sure that the file name parameter in each .tt file refers to the model file that you are using for experiments. Save the .tt file.  
   
-3.  Click **Transform All Templates** in the toolbar of **Solution Explorer**.  
+3. Click **Transform All Templates** in the toolbar of **Solution Explorer**.  
   
-     \- or -  
+    \- or -  
   
-     Right-click the templates that you want to regenerate and then click **Run Custom Tool**.  
+    Right-click the templates that you want to regenerate and then click **Run Custom Tool**.  
   
- You can add any number of text template files to a project. Each template generates one result file.  
+   You can add any number of text template files to a project. Each template generates one result file.  
   
 > [!NOTE]
 >  When you change the DSL definition, the sample text template code will not work, unless you update it.  
@@ -234,39 +232,39 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 ##### To add properties and display them  
   
-1.  Add the properties.  
+1. Add the properties.  
   
-    1.  In the DSL Definition diagram, right-click the **Person** domain class, point to **Add**, and then click **Domain Property**.  
+   1.  In the DSL Definition diagram, right-click the **Person** domain class, point to **Add**, and then click **Domain Property**.  
   
-    2.  Type a list of new property names, such as **Birth** and **Death**. Press **Enter** after each one.  
+   2.  Type a list of new property names, such as **Birth** and **Death**. Press **Enter** after each one.  
   
-2.  Add decorators that will display the properties in the shape.  
+2. Add decorators that will display the properties in the shape.  
   
-    1.  Follow the gray line that extends from the Person domain class to the other side of the diagram. This is a diagram element map. It links the domain class to a shape class.  
+   1.  Follow the gray line that extends from the Person domain class to the other side of the diagram. This is a diagram element map. It links the domain class to a shape class.  
   
-    2.  Right-click this shape class, point to **Add**, and then click **Text Decorator**.  
+   2.  Right-click this shape class, point to **Add**, and then click **Text Decorator**.  
   
-    3.  Add two decorators with names such as **BirthDecorator** and **DeathDecorator**.  
+   3.  Add two decorators with names such as **BirthDecorator** and **DeathDecorator**.  
   
-    4.  Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.  
+   4.  Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.  
   
-         ![Compartment shape definition](../modeling/media/familyt-compartment.png "FamilyT_Compartment")  
+        ![Compartment shape definition](../modeling/media/familyt-compartment.png "FamilyT_Compartment")  
   
-3.  Map the decorators to the properties.  
+3. Map the decorators to the properties.  
   
-    1.  Open the DSL Details window. It is usually in a tab next to the Output window. If you cannot see it, on the **View** menu, point to **Other Windows**, and then click **DSL Details**.  
+   1.  Open the DSL Details window. It is usually in a tab next to the Output window. If you cannot see it, on the **View** menu, point to **Other Windows**, and then click **DSL Details**.  
   
-    2.  On the DSL definition diagram, click the line that connects the **Person** domain class to the shape class.  
+   2.  On the DSL definition diagram, click the line that connects the **Person** domain class to the shape class.  
   
-    3.  In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display Property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **Birth**.  
+   3.  In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display Property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **Birth**.  
   
-4.  Save the DSL, click Transform All Templates, and press F5.  
+4. Save the DSL, click Transform All Templates, and press F5.  
   
-5.  In a sample model diagram, verify that you can now click the positions you chose and type values into them. In addition, when you select a **Person** shape, the Properties window displays the new properties Birth and Death.  
+5. In a sample model diagram, verify that you can now click the positions you chose and type values into them. In addition, when you select a **Person** shape, the Properties window displays the new properties Birth and Death.  
   
-6.  In a .tt file, you can add code that obtains the properties of each person.  
+6. In a .tt file, you can add code that obtains the properties of each person.  
   
- ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt-instance.png "FamilyT_Instance")  
+   ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt-instance.png "FamilyT_Instance")  
   
 ### Define New Classes  
  You can add domain classes and relationships to a model. For example, you could create a new class to represent towns, and a new relationship to represent that a person lived in a town.  

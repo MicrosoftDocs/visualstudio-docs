@@ -1,7 +1,7 @@
 ---
 title: "IDebugStackFrame2::GetLanguageInfo | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugStackFrame2::GetLanguageInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetLanguageInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getlanguageinfo).  
-  
 Gets the language associated with this stack frame.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetLanguageInfo (   
-   BSTR* pbstrLanguage,  
-   GUID* pguidLanguage  
+   BSTR* pbstrLanguage,  
+   GUID* pguidLanguage  
 );  
 ```  
   
 ```csharp  
 int GetLanguageInfo (   
-   ref string pbstrLanguage,  
-   ref Guid   pguidLanguage  
+   ref string pbstrLanguage,  
+   ref Guid   pguidLanguage  
 );  
 ```  
   

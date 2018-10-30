@@ -1,7 +1,7 @@
 ---
 title: "Web Site Support Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Web Site Support Templates
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Web Site Support Templates](https://docs.microsoft.com/visualstudio/extensibility/internals/web-site-support-templates).  
-  
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] templates, see [Creating Project and Item Templates](../../ide/creating-project-and-item-templates.md).  
   
 ## Project Template Folder  

@@ -1,7 +1,7 @@
 ---
 title: "Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](https://docs.microsoft.com/visualstudio/debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb).  
-  
 Stepping into a Web application or XML Web service failed because the IIS lockdown tool has been run and URLScan has been installed and activated. This condition blocks IIS from receiving the DEBUG verb.  
   
  URLScan is a security tool that works in conjunction with the IIS Lockdown Tool to give IIS Web site administrators the ability to turn off unnecessary features and restrict the type of HTTP requests that the server will process. By blocking specific HTTP requests, the URLScan security tool prevents potentially harmful requests from reaching the server and causing damage.  

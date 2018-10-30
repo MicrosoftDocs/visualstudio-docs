@@ -1,7 +1,7 @@
 ---
 title: "How to: Create a Custom Rule Set | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "wpickett"
 # How to: Create a Custom Rule Set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Custom Rule Set](https://docs.microsoft.com/visualstudio/code-quality/how-to-create-a-custom-rule-set).  
-  
 In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)], and [!INCLUDE[vsPro](../includes/vspro-md.md)], you can create and modify a custom *rule set* to meet specific project needs associated with code analysis. To create a custom rule set, you open one or more standard rule sets in the rule set editor. You can then add or remove specific rules and you can change the action that occurs when code analysis determines that a rule has been violated.  
   
  To create a new custom rule set, you save it by using a new file name. The custom rule set is automatically assigned to the project.  
@@ -40,19 +38,19 @@ In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](.
   
 #### To create a custom rule from a single existing rule set  
   
-1.  In Solution Explorer, right-click the project and then select **Properties**.  
+1. In Solution Explorer, right-click the project and then select **Properties**.  
   
-2.  On the **Properties** tab, click **Code Analysis**.  
+2. On the **Properties** tab, click **Code Analysis**.  
   
-3.  In the **Rule Set** drop-down list, do one of the following:  
+3. In the **Rule Set** drop-down list, do one of the following:  
   
-    -   Select the rule set that you want to customize.  
+   - Select the rule set that you want to customize.  
   
      \- or -  
   
-    -   Select **\<Browse...>** to specify an existing rule set that is not in the list.  
+   - Select **\<Browse...>** to specify an existing rule set that is not in the list.  
   
-4.  Click **Open** to display the rules in the rule set editor.  
+4. Click **Open** to display the rules in the rule set editor.  
   
 #### To create a custom rule set from multiple existing rule sets  
   

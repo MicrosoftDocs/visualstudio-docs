@@ -1,7 +1,7 @@
 ---
 title: "Model your app&#39;s architecture | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Model your app&#39;s architecture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Model your app&#39;s architecture](https://docs.microsoft.com/visualstudio/modeling/model-your-app-s-architecture).  
-  
 To help ensure that your software system or application meets your users' needs, you can create models in Visual Studio as part of your description of the overall structure and behavior of your software system or application. Using models, you can also describe patterns that are used throughout the design. These models help you understand the existing architecture, discuss changes, and communicate your intentions clearly.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -59,49 +57,49 @@ To help ensure that your software system or application meets your users' needs,
   
  The requirements model provides these essential pieces of information:  
   
--   Provided interfaces. A provided interface lists the services or operations that the system or component must provide to its users, whether they are human users or other software components.  
+- Provided interfaces. A provided interface lists the services or operations that the system or component must provide to its users, whether they are human users or other software components.  
   
--   Required interfaces. A required interface lists the services or operations that the system or component can use. In some cases, you will be able to design all these services as part of your own system. In other cases, especially if you are designing a component that can be combined with other components in many configurations, the required interface will be set by external considerations.  
+- Required interfaces. A required interface lists the services or operations that the system or component can use. In some cases, you will be able to design all these services as part of your own system. In other cases, especially if you are designing a component that can be combined with other components in many configurations, the required interface will be set by external considerations.  
   
--   Quality of service requirements. The performance, security, robustness, and other goals and constraints that the system must meet.  
+- Quality of service requirements. The performance, security, robustness, and other goals and constraints that the system must meet.  
   
- The requirements model is written from the point of view of your system's users, whether they are people or other software components. They know nothing of the internal workings of your system. By contrast, your goal in an architectural model is to describe the internal workings and show how they meet the users' needs.  
+  The requirements model is written from the point of view of your system's users, whether they are people or other software components. They know nothing of the internal workings of your system. By contrast, your goal in an architectural model is to describe the internal workings and show how they meet the users' needs.  
   
- Keeping the requirements and architectural models separate is useful because it makes it easier to discuss the requirements with the users. It also helps you refactor the design and consider alternative architectures while keeping the requirements unchanged.  
+  Keeping the requirements and architectural models separate is useful because it makes it easier to discuss the requirements with the users. It also helps you refactor the design and consider alternative architectures while keeping the requirements unchanged.  
   
- You can separate the requirements and architectural models in two alternative ways:  
+  You can separate the requirements and architectural models in two alternative ways:  
   
--   Keep them in the same solution but different projects. They will appear as separate models in UML Model Explorer. Different team members can work in parallel on the models. Limited kinds of tracing can be created between the models.  
+- Keep them in the same solution but different projects. They will appear as separate models in UML Model Explorer. Different team members can work in parallel on the models. Limited kinds of tracing can be created between the models.  
   
--   Put them in the same UML model, but in different packages. This makes it easier to trace dependencies between the models, but prevents more than one person at a time from working on the model. Additionally, a very large model will take longer to load into Visual Studio. This approach is therefore less suitable for large projects.  
+- Put them in the same UML model, but in different packages. This makes it easier to trace dependencies between the models, but prevents more than one person at a time from working on the model. Additionally, a very large model will take longer to load into Visual Studio. This approach is therefore less suitable for large projects.  
   
- The amount of detail that you should put into either a requirements or an architectural model depends on the scale of the project and the size and distribution of the team. A small team on a short project might go no further than sketching a class diagram of the business concepts and some design patterns; a large project distributed over more than one region would need significantly more detail.  
+  The amount of detail that you should put into either a requirements or an architectural model depends on the scale of the project and the size and distribution of the team. A small team on a short project might go no further than sketching a class diagram of the business concepts and some design patterns; a large project distributed over more than one region would need significantly more detail.  
   
 ##  <a name="BigDecisions"></a> Architectural Patterns  
  Early in a development, you have to choose the major technologies and elements on which the design depends. The areas in which these choices must be made include the following:  
   
--   Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a Web client, and so on.  
+- Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a Web client, and so on.  
   
--   Frameworks choices, such as a choice between Windows Workflow Foundation or ADO.NET Entity Framework.  
+- Frameworks choices, such as a choice between Windows Workflow Foundation or ADO.NET Entity Framework.  
   
--   Integration method choices, for example between an enterprise service bus or a point-to-point channel.  
+- Integration method choices, for example between an enterprise service bus or a point-to-point channel.  
   
- These choices are frequently determined by quality of service requirements such as scale and flexibility, and can be made before the detailed requirements are known. In a large system, the configuration of hardware and software are strongly interrelated.  
+  These choices are frequently determined by quality of service requirements such as scale and flexibility, and can be made before the detailed requirements are known. In a large system, the configuration of hardware and software are strongly interrelated.  
   
- The selections that you make affect how you use and interpret the architectural model. For example, in a system that uses a database, associations in a class diagram might represent relations or foreign keys in the database, whereas in a system that is based on XML files, associations might indicate cross-references that use XPath. In a distributed system, messages in a sequence diagram can represent messages on a wire; in a self-contained application, they can represent function calls.  
+  The selections that you make affect how you use and interpret the architectural model. For example, in a system that uses a database, associations in a class diagram might represent relations or foreign keys in the database, whereas in a system that is based on XML files, associations might indicate cross-references that use XPath. In a distributed system, messages in a sequence diagram can represent messages on a wire; in a self-contained application, they can represent function calls.  
   
 ##  <a name="Components"></a> Components and their Interfaces  
  The major recommendations of this section are as follows:  
   
--   Create component diagrams to show the major parts of your system.  
+- Create component diagrams to show the major parts of your system.  
   
--   Draw dependencies between the components or their interfaces to show the structure of the system.  
+- Draw dependencies between the components or their interfaces to show the structure of the system.  
   
--   Use interfaces on the components to show the services that each component provides or requires.  
+- Use interfaces on the components to show the services that each component provides or requires.  
   
--   In a large design, you can draw separate diagrams to decompose each component into smaller parts.  
+- In a large design, you can draw separate diagrams to decompose each component into smaller parts.  
   
- These points are elaborated in the rest of this section.  
+  These points are elaborated in the rest of this section.  
   
 ### Components  
  The central views of an architecture model are the component diagrams that show the major parts of the system and how they depend on one another. For more information about component diagrams, see [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md).  
@@ -127,13 +125,13 @@ To help ensure that your software system or application meets your users' needs,
   
  A well-structured architecture has a clear arrangement of dependencies, in which these conditions are true:  
   
--   There are no loops on a code map.  
+- There are no loops on a code map.  
   
--   The components can be arranged into layers in which every dependency goes from a component in one layer to a component in the next. All the dependencies between any two layers go in the same direction.  
+- The components can be arranged into layers in which every dependency goes from a component in one layer to a component in the next. All the dependencies between any two layers go in the same direction.  
   
- You can show dependencies directly between components, or you can show dependencies between required and provided interfaces that are attached to the components. By using interfaces, you can define what operations are used in each dependency. Typically, dependencies are shown between components when the diagrams are first drawn, and then replaced by dependencies between interfaces as more information is added. Both versions are correct descriptions of the software, but the version with interfaces provides more detail than the earlier version.  
+  You can show dependencies directly between components, or you can show dependencies between required and provided interfaces that are attached to the components. By using interfaces, you can define what operations are used in each dependency. Typically, dependencies are shown between components when the diagrams are first drawn, and then replaced by dependencies between interfaces as more information is added. Both versions are correct descriptions of the software, but the version with interfaces provides more detail than the earlier version.  
   
- Managing dependencies is most important for the production of maintainable software. The component diagrams should reflect all the dependencies in your code. If the code already exists, make sure that all the dependencies are shown in the diagrams. If the code is being developed, make sure that it does not include dependencies that are not planned in the component diagram. To help you discover dependencies in the code, you can generate layer diagrams. To help you ensure that your planned dependency constraints are met, you can validate the code against layer diagrams. For more information, see [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md).  
+  Managing dependencies is most important for the production of maintainable software. The component diagrams should reflect all the dependencies in your code. If the code already exists, make sure that all the dependencies are shown in the diagrams. If the code is being developed, make sure that it does not include dependencies that are not planned in the component diagram. To help you discover dependencies in the code, you can generate layer diagrams. To help you ensure that your planned dependency constraints are met, you can validate the code against layer diagrams. For more information, see [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md).  
   
 ### Interfaces  
  By placing interfaces on your components, you can separate and name the major groups of operations that are provided by each component. For example, components in a web-based sales system might have an interface through which customers buy goods, an interface through which suppliers update their catalogs, and a third interface through which the system is managed.  
@@ -142,17 +140,17 @@ To help ensure that your software system or application meets your users' needs,
   
  If you define both provided and required interfaces, this helps you separate the component cleanly from the rest of the design, so that you can use these techniques:  
   
--   Place the component into a test harness in which the surrounding components are simulated by the test harness.  
+- Place the component into a test harness in which the surrounding components are simulated by the test harness.  
   
--   Develop your component independently of the other components.  
+- Develop your component independently of the other components.  
   
--   Reuse the component in other contexts by coupling its interfaces to different components.  
+- Reuse the component in other contexts by coupling its interfaces to different components.  
   
- When you want to define the list of operations in an interface, you can create another view of the interface on a UML class diagram. To do this, locate the interface in UML Model Explorer, and drag it onto a class diagram. You can then add operations to the interface.  
+  When you want to define the list of operations in an interface, you can create another view of the interface on a UML class diagram. To do this, locate the interface in UML Model Explorer, and drag it onto a class diagram. You can then add operations to the interface.  
   
- An operation in a UML interface can represent any way in which a behavior of a component can be invoked. It might represent a Web service request, a signal or interaction of some other kind, or an ordinary program function call.  
+  An operation in a UML interface can represent any way in which a behavior of a component can be invoked. It might represent a Web service request, a signal or interaction of some other kind, or an ordinary program function call.  
   
- To determine what operations to add, create sequence diagrams to show how the components interact with one another. See [Interactions between Components](#Interactions). Each of these sequence diagrams shows the interactions that occur in a different use case. In this manner, you can gradually add to the list of operations in each component's interface, as you explore the use cases.  
+  To determine what operations to add, create sequence diagrams to show how the components interact with one another. See [Interactions between Components](#Interactions). Each of these sequence diagrams shows the interactions that occur in a different use case. In this manner, you can gradually add to the list of operations in each component's interface, as you explore the use cases.  
   
 ### Decomposing a Component into Parts  
  You can apply the procedure that is described in the preceding sections to each component.  
@@ -165,32 +163,32 @@ To help ensure that your software system or application meets your users' needs,
   
  Use Parts in the following situations:  
   
--   The design of the parent component must always use the Part's component type. Therefore, the design of the part is integral to the design of the parent component.  
+- The design of the parent component must always use the Part's component type. Therefore, the design of the part is integral to the design of the parent component.  
   
--   The parent component has no concrete existence of its own. For example, you could have a conceptual component called Presentation Layer that represents a collection of real components that handle views and user interactions.  
+- The parent component has no concrete existence of its own. For example, you could have a conceptual component called Presentation Layer that represents a collection of real components that handle views and user interactions.  
   
- Use separate components accessed through required interfaces in these situations:  
+  Use separate components accessed through required interfaces in these situations:  
   
--   The requiring component can be coupled through its interfaces to different providing components at run time.  
+- The requiring component can be coupled through its interfaces to different providing components at run time.  
   
--   The design is such that it would be easy to replace one provider with another.  
+- The design is such that it would be easy to replace one provider with another.  
   
- The use of required interfaces is usually preferable to the use of parts. Although the design can take longer, the resulting system is more flexible. It is also easier to test the components separately. This allows less coupling in their development plans.  
+  The use of required interfaces is usually preferable to the use of parts. Although the design can take longer, the resulting system is more flexible. It is also easier to test the components separately. This allows less coupling in their development plans.  
   
 ##  <a name="Interactions"></a> Interactions between Components  
  The major recommendations of this section are as follows:  
   
--   Identify the use cases of your system.  
+- Identify the use cases of your system.  
   
--   For each use case, draw one or more diagrams to show how the components of your system achieve the required outcome by collaborating with one another and with the users. Usually, these are sequence diagrams or activity diagrams.  
+- For each use case, draw one or more diagrams to show how the components of your system achieve the required outcome by collaborating with one another and with the users. Usually, these are sequence diagrams or activity diagrams.  
   
--   Use Interfaces to specify the messages received by each component.  
+- Use Interfaces to specify the messages received by each component.  
   
--   Describe the effects of the Operations in the Interfaces.  
+- Describe the effects of the Operations in the Interfaces.  
   
--   Repeat the procedure for each component, showing how its parts interact.  
+- Repeat the procedure for each component, showing how its parts interact.  
   
- For example, in a web-based sales system, the requirements model might define a customer purchase as a use case. You can create a sequence diagram to show the interactions that the customer has with the components in the presentation layer, and to show the interactions that they have with the warehouse and accounting components.  
+  For example, in a web-based sales system, the requirements model might define a customer purchase as a use case. You can create a sequence diagram to show the interactions that the customer has with the components in the presentation layer, and to show the interactions that they have with the warehouse and accounting components.  
   
 ### Identifying the initiating events  
  The work done by most software systems can be conveniently divided up by the responses it gives to different inputs or events. The initiating event might be one of the following events:  

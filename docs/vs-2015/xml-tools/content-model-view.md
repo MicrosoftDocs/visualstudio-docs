@@ -1,7 +1,7 @@
 ---
 title: "Content Model View | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Content Model View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Content Model View](https://docs.microsoft.com/visualstudio/xml-tools/content-model-view).  
-  
   
 The Content Model View provides a graphic representation of local and global schema nodes and their components, including simple and complex types, elements, model groups, attributes, and attribute groups. XML comments and processing instructions cannot be viewed in the Content Model View. The Content Model View contains two panels: a **Workspace** panel that contains a list of the nodes in the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md), and the design surface where you can see the content model of schema nodes that are selected in the **Workspace** panel. The Content Model View also includes the XML Schema Designer toolbar and the breadcrumb bar.  
   
@@ -106,11 +104,11 @@ The Content Model View provides a graphic representation of local and global sch
   
  Zoom can be controlled in the following ways:  
   
--   By holding the CTRL key and spinning the mouse wheel when the mouse is hovering over the Content Model View surface.  
+- By holding the CTRL key and spinning the mouse wheel when the mouse is hovering over the Content Model View surface.  
   
--   By using the slider control. The slider shows the current zoom level.  
+- By using the slider control. The slider shows the current zoom level.  
   
- The Zoom slider is opaque when you select it, hover over it, or use CTRL with the mouse wheel to zoom; at all other times, it is transparent.  
+  The Zoom slider is opaque when you select it, hover over it, or use CTRL with the mouse wheel to zoom; at all other times, it is transparent.  
   
 ## XML Editor Integration  
  You can switch back and forth between the XSD Designer and the XML Editor by using the context menu.  

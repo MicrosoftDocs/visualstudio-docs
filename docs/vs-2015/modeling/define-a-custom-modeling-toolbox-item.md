@@ -1,7 +1,7 @@
 ---
 title: "Define a custom modeling toolbox item | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Define a custom modeling toolbox item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define a custom modeling toolbox item](https://docs.microsoft.com/visualstudio/modeling/define-a-custom-modeling-toolbox-item).  
-  
 To make it easy to create an element or group of elements according to a pattern that you often use, you can add new tools to the toolbox of modeling diagrams in Visual Studio. You can distribute these toolbox items to other Visual Studio users.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -62,25 +60,25 @@ To make it easy to create an element or group of elements according to a pattern
 ### What the Custom Tool will Replicate  
  A custom tool will replicate most of the features of the source diagram:  
   
--   Names. When an item is created from the toolbox, a number is added to the end of the name if necessary to avoid duplicate names in the same namespace.  
+- Names. When an item is created from the toolbox, a number is added to the end of the name if necessary to avoid duplicate names in the same namespace.  
   
--   Colors, sizes and shapes  
+- Colors, sizes and shapes  
   
--   Stereotypes and package profiles  
+- Stereotypes and package profiles  
   
--   Property values such as Is Abstract  
+- Property values such as Is Abstract  
   
--   Linked work items  
+- Linked work items  
   
--   Multiplicities and other properties of relationships  
+- Multiplicities and other properties of relationships  
   
--   The relative positions of shapes.  
+- The relative positions of shapes.  
   
- The following features will not be preserved in a custom tool:  
+  The following features will not be preserved in a custom tool:  
   
--   Simple shapes. These are shapes that are not related to model elements, that you can draw on some kinds of diagrams.  
+- Simple shapes. These are shapes that are not related to model elements, that you can draw on some kinds of diagrams.  
   
--   Connector routing. If you route connectors manually, the routing will not be preserved when your tool is used. The positions of some nested shapes, such as Ports, are not preserved relative to their owners.  
+- Connector routing. If you route connectors manually, the routing will not be preserved when your tool is used. The positions of some nested shapes, such as Ports, are not preserved relative to their owners.  
   
 ##  <a name="tbxinfo"></a> How to Define the Properties of Custom Tools  
  A toolbox information (**.tbxinfo**) file allows you to specify a toolbox name, icon, tooltip, tab, and help keyword for one or more custom tools. Give it any name, such as **MyTools.tbxinfo**.  
@@ -110,19 +108,19 @@ To make it easy to create an element or group of elements according to a pattern
   
  The value of each item can be either:  
   
--   As shown in the example, `<bmp fileName="…"/>` for the toolbox icon and `<value>string</value>` for the other items.  
+- As shown in the example, `<bmp fileName="…"/>` for the toolbox icon and `<value>string</value>` for the other items.  
   
- \- or -  
+  \- or -  
   
--   `<resource fileName="Resources.dll"`  
+- `<resource fileName="Resources.dll"`  
   
-     `baseName="Observer.resources" id="Observer.tabname" />`  
+   `baseName="Observer.resources" id="Observer.tabname" />`  
   
-     In this case, you supply a compiled assembly in which the string values have been compiled as resources.  
+   In this case, you supply a compiled assembly in which the string values have been compiled as resources.  
   
- Add a `<customToolboxItem>` node for each toolbox item you want to define.  
+  Add a `<customToolboxItem>` node for each toolbox item you want to define.  
   
- The nodes in the **.tbxinfo** file are as follows. There is a default value for each node.  
+  The nodes in the **.tbxinfo** file are as follows. There is a default value for each node.  
   
 |Node name|Defines|  
 |---------------|-------------|  
@@ -211,21 +209,21 @@ To make it easy to create an element or group of elements according to a pattern
   
 #### To provide versions of the tool in more than one language  
   
-1.  Create a Visual Studio Extension project that contains one or more custom tools.  
+1. Create a Visual Studio Extension project that contains one or more custom tools.  
   
-     In the **.tbxinfo** file, use the resource file method to define the tool's `displayName`, toolbox `tabName`, and the tooltip. Create a resource file in which these strings are defined, compile it into an assembly, and refer to it from the tbxinfo file.  
+    In the **.tbxinfo** file, use the resource file method to define the tool's `displayName`, toolbox `tabName`, and the tooltip. Create a resource file in which these strings are defined, compile it into an assembly, and refer to it from the tbxinfo file.  
   
-2.  Create additional assemblies that contain resource files with strings in other languages.  
+2. Create additional assemblies that contain resource files with strings in other languages.  
   
-3.  Place each additional assembly in a folder whose name is the culture code for the language. For example, place a French version of the assembly inside a folder that is named **fr**.  
+3. Place each additional assembly in a folder whose name is the culture code for the language. For example, place a French version of the assembly inside a folder that is named **fr**.  
   
-4.  You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](http://go.microsoft.com/fwlink/?LinkId=160782), which provides a complete list of culture codes.  
+4. You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](http://go.microsoft.com/fwlink/?LinkId=160782), which provides a complete list of culture codes.  
   
-5.  Build the Visual Studio Extension, and distribute it.  
+5. Build the Visual Studio Extension, and distribute it.  
   
-6.  When the extension is installed on another computer, the version of the resource file for the user's local culture will be automatically loaded. If you have not provided a version for the user's culture, the default resources will be used.  
+6. When the extension is installed on another computer, the version of the resource file for the user's local culture will be automatically loaded. If you have not provided a version for the user's culture, the default resources will be used.  
   
- You cannot use this method to install different versions of the prototype diagram. The names of elements and connectors will be the same in every installation.  
+   You cannot use this method to install different versions of the prototype diagram. The names of elements and connectors will be the same in every installation.  
   
 ## Other Toolbox Operations  
  Ordinarily, in [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], you can personalize the toolbox by renaming tools, moving them to different toolbox tabs, and deleting them. But these changes do not persist for custom modeling tools created with the procedures that are described in this topic. When you restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], custom tools will reappear with their defined names and toolbox locations.  

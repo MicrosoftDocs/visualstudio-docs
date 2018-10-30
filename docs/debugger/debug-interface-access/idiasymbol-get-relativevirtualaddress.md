@@ -22,7 +22,7 @@ Retrieves the relative virtual address (RVA) of the location. Use when the [Loca
   
 ```C++  
 HRESULT get_relativeVirtualAddress (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -22,7 +22,7 @@ Returns the section part of the starting address of the range in which the local
   
 ```C++  
 HRESULT get_liveRangeStartAddressSection (   
-   DWORD* section  
+   DWORD* section  
 );  
 ```  
   

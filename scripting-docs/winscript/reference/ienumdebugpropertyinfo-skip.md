@@ -26,7 +26,7 @@ Skips a specified number of `DebugPropertyInfo` structures in an enumeration seq
   
 ```  
 HRESULT Skip(  
-   ULONGcelt  
+   ULONGcelt  
 );  
 ```  
   

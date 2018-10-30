@@ -22,7 +22,7 @@ Retrieves the type identifier of the symbol.
   
 ```C++  
 HRESULT get_typeId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

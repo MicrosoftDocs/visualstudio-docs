@@ -1,7 +1,7 @@
 ---
 title: "DEBUG_REFERENCE_INFO | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,33 +21,31 @@ manager: "ghogen"
 # DEBUG_REFERENCE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DEBUG_REFERENCE_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/debug-reference-info).  
-  
 Describes a reference.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct tagDEBUG_REFERENCE_INFO {   
-   DEBUGREF_INFO_FLAGS dwFields;  
-   BSTR                bstrName;  
-   BSTR                bstrType;  
-   BSTR                bstrValue;  
-   DBG_ATTRIB_FLAGS    dwAttrib;  
-   REFERENCE_TYPE.     dwRefType;  
-   IDebugReference2*   m_pReference;  
+   DEBUGREF_INFO_FLAGS dwFields;  
+   BSTR                bstrName;  
+   BSTR                bstrType;  
+   BSTR                bstrValue;  
+   DBG_ATTRIB_FLAGS    dwAttrib;  
+   REFERENCE_TYPE.     dwRefType;  
+   IDebugReference2*   m_pReference;  
 } DEBUG_REFERENCE_INFO;  
 ```  
   
 ```csharp  
 public struct DEBUG_REFERENCE_INFO {   
-   public uint             dwFields;  
-   public string           bstrName;  
-   public string           bstrType;  
-   public string           bstrValue;  
-   public ulong            dwAttrib;  
-   public uint.            dwRefType;  
-   public IDebugReference2 m_pReference;  
+   public uint             dwFields;  
+   public string           bstrName;  
+   public string           bstrType;  
+   public string           bstrValue;  
+   public ulong            dwAttrib;  
+   public uint.            dwRefType;  
+   public IDebugReference2 m_pReference;  
 };  
 ```  
   

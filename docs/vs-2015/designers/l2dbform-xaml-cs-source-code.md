@@ -1,7 +1,7 @@
 ---
 title: "L2DBForm.xaml.cs Source Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # L2DBForm.xaml.cs Source Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [L2DBForm.xaml.cs Source Code](https://docs.microsoft.com/visualstudio/designers/l2dbform-xaml-cs-source-code).  
-  
 This topic contains the contents and description of the C# source code in the file L2DBForm.xaml.cs. The L2XDBForm partial class contained in this file can be divided into three logical sections: data members and the `OnRemove` and `OnAddBook` button click event handlers.  
   
 ## Data Members  
@@ -47,19 +45,19 @@ This topic contains the contents and description of the C# source code in the fi
   
  However the core work of removing the selected book item is accomplished by only two statements:  
   
--   First, the book element associated with the currently selected item in the list box is retrieved:  
+- First, the book element associated with the currently selected item in the list box is retrieved:  
   
-    ```  
-    XElement selBook = (XElement)lbBooks.SelectedItem;   
-    ```  
+  ```  
+  XElement selBook = (XElement)lbBooks.SelectedItem;   
+  ```  
   
--   Then, this element is deleted from the data provider:  
+- Then, this element is deleted from the data provider:  
   
-    ```  
-    selBook.Remove();  
-    ```  
+  ```  
+  selBook.Remove();  
+  ```  
   
- Again, dynamic data binding assures that the program's UI is automatically updated.  
+  Again, dynamic data binding assures that the program's UI is automatically updated.  
   
 ## Example  
   

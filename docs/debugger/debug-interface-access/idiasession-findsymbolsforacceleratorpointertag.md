@@ -20,9 +20,9 @@ Returns an enumeration of symbols for the variable that the specified tag value 
   
 ```C++  
 HRESULT findSymbolsForAcceleratorPointerTag (   
-   IDiaSymbol*           parent,  
+   IDiaSymbol*           parent,  
    DWORD                 tagValue,  
-   IDiaEnumSymbols**     ppResult  
+   IDiaEnumSymbols**     ppResult  
 );  
 ```  
   

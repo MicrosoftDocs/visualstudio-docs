@@ -1,7 +1,7 @@
 ---
 title: "Sys (VSPerfCmd) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Sys (VSPerfCmd)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sys (VSPerfCmd)](https://docs.microsoft.com/visualstudio/profiling/sys-vsperfcmd).  
-  
 The VSPerfCmd.exe **Sys** option sets the profiling event that is sampled to system call events (function calls from the profiled application to the operating system), and optionally changes the number of system calls in a sampling interval from the default of 10.  
   
  **Sys** can only be used in a command line that also contains the **Launch** or the **Attach** option.  

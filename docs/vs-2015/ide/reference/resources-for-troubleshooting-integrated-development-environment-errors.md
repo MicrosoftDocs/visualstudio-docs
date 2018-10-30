@@ -1,7 +1,7 @@
 ---
 title: "Resources for Troubleshooting Integrated Development Environment Errors | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -103,8 +103,6 @@ manager: "ghogen"
 # Resources for Troubleshooting Integrated Development Environment Errors
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resources for Troubleshooting Integrated Development Environment Errors](https://docs.microsoft.com/visualstudio/ide/reference/resources-for-troubleshooting-integrated-development-environment-errors).  
-  
   
 Not all error messages have a specific associated Help topic. If the information in the error message does not help you resolve the problem, you can consult other resources such as Knowledge Base articles, the developer community, or product support.  
   

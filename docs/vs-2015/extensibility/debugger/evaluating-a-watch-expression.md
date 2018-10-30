@@ -1,7 +1,7 @@
 ---
 title: "Evaluating a Watch Expression | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Evaluating a Watch Expression
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Evaluating a Watch Expression](https://docs.microsoft.com/visualstudio/extensibility/debugger/evaluating-a-watch-expression).  
-  
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
@@ -41,44 +39,44 @@ The latest version of this topic can be found at [Evaluating a Watch Expression]
 ```csharp  
 namespace EEMC  
 {  
-    public class CParsedExpression : IDebugParsedExpression  
-    {  
-        public HRESULT EvaluateSync(  
-            uint evalFlags,  
-            uint timeout,  
-            IDebugSymbolProvider provider,  
-            IDebugAddress address,  
-            IDebugBinder binder,  
-            string resultType,  
-            out IDebugProperty2 result)  
-        {  
-            HRESULT retval = COM.S_OK;  
-            this.evalFlags = evalFlags;  
-            this.timeout = timeout;  
-            this.provider = provider;  
-            this.address = address;  
-            this.binder = binder;  
-            this.resultType = resultType;  
+    public class CParsedExpression : IDebugParsedExpression  
+    {  
+        public HRESULT EvaluateSync(  
+            uint evalFlags,  
+            uint timeout,  
+            IDebugSymbolProvider provider,  
+            IDebugAddress address,  
+            IDebugBinder binder,  
+            string resultType,  
+            out IDebugProperty2 result)  
+        {  
+            HRESULT retval = COM.S_OK;  
+            this.evalFlags = evalFlags;  
+            this.timeout = timeout;  
+            this.provider = provider;  
+            this.address = address;  
+            this.binder = binder;  
+            this.resultType = resultType;  
   
-            try  
-            {  
-                IDebugField field = null;  
-                // Tokenize, then parse.  
-                tokens = Tokenize(expression);  
-                result = new CValueProperty(  
-                             expression,  
-                             (int) FindTerm(EvalToken(tokens[0], out field),1),  
-                             field,  
-                             binder);  
-            }  
-            catch (ParseException)  
-            {  
-                result = new CValueProperty(expression, "Huh?");  
-                retval = COM.E_INVALIDARG;  
-            }  
-            return retval;  
-        }  
-    }  
+            try  
+            {  
+                IDebugField field = null;  
+                // Tokenize, then parse.  
+                tokens = Tokenize(expression);  
+                result = new CValueProperty(  
+                             expression,  
+                             (int) FindTerm(EvalToken(tokens[0], out field),1),  
+                             field,  
+                             binder);  
+            }  
+            catch (ParseException)  
+            {  
+                result = new CValueProperty(expression, "Huh?");  
+                retval = COM.E_INVALIDARG;  
+            }  
+            return retval;  
+        }  
+    }  
 }  
 ```  
   
@@ -88,90 +86,90 @@ namespace EEMC
 ```  
 [C++]  
 STDMETHODIMP CParsedExpression::EvaluateSync(   
-    in  DWORD                 evalFlags,  
-    in  DWORD                 dwTimeout,  
-    in  IDebugSymbolProvider* pprovider,  
-    in  IDebugAddress*        paddress,  
-    in  IDebugBinder*         pbinder,  
-    in  BSTR                  bstrResultType,  
-    out IDebugProperty2**     ppproperty )  
+    in  DWORD                 evalFlags,  
+    in  DWORD                 dwTimeout,  
+    in  IDebugSymbolProvider* pprovider,  
+    in  IDebugAddress*        paddress,  
+    in  IDebugBinder*         pbinder,  
+    in  BSTR                  bstrResultType,  
+    out IDebugProperty2**     ppproperty )  
 {  
-    // dwTimeout parameter is ignored in this implementation.  
-    if (pprovider == NULL)  
-        return E_INVALIDARG;  
+    // dwTimeout parameter is ignored in this implementation.  
+    if (pprovider == NULL)  
+        return E_INVALIDARG;  
   
-    if (paddress == NULL)  
-        return E_INVALIDARG;  
+    if (paddress == NULL)  
+        return E_INVALIDARG;  
   
-    if (pbinder == NULL)  
-        return E_INVALIDARG;  
+    if (pbinder == NULL)  
+        return E_INVALIDARG;  
   
-    if (ppproperty == NULL)  
-        return E_INVALIDARG;  
-    else  
-        *ppproperty = 0;  
+    if (ppproperty == NULL)  
+        return E_INVALIDARG;  
+    else  
+        *ppproperty = 0;  
   
-    HRESULT hr;  
-    VARIANT value;  
-    BSTR    bstrErrorMessage = NULL;  
-    hr = ::Evaluate( pprovider,  
-                     paddress,  
-                     pbinder,  
-                     m_expr,  
-                     &bstrErrorMessage,  
-                     &value );  
-    if (hr != S_OK)  
-    {  
-        if (bstrErrorMessage == NULL)  
-            return hr;  
+    HRESULT hr;  
+    VARIANT value;  
+    BSTR    bstrErrorMessage = NULL;  
+    hr = ::Evaluate( pprovider,  
+                     paddress,  
+                     pbinder,  
+                     m_expr,  
+                     &bstrErrorMessage,  
+                     &value );  
+    if (hr != S_OK)  
+    {  
+        if (bstrErrorMessage == NULL)  
+            return hr;  
   
-        //we can display better messages ourselves.  
-        HRESULT hrLocal = S_OK;  
-        VARIANT varType;  
-        VARIANT varErrorMessage;  
+        //we can display better messages ourselves.  
+        HRESULT hrLocal = S_OK;  
+        VARIANT varType;  
+        VARIANT varErrorMessage;  
   
-        VariantInit( &varType );  
-        VariantInit( &varErrorMessage );  
-        varErrorMessage.vt      = VT_BSTR;  
-        varErrorMessage.bstrVal = bstrErrorMessage;  
+        VariantInit( &varType );  
+        VariantInit( &varErrorMessage );  
+        varErrorMessage.vt      = VT_BSTR;  
+        varErrorMessage.bstrVal = bstrErrorMessage;  
   
-        CValueProperty* valueProperty = new CValueProperty();  
-        if (valueProperty != NULL)  
-        {  
-            hrLocal = valueProperty->Init(m_expr, varType, varErrorMessage);  
-            if (SUCCEEDED(hrLocal))   
-            {  
-                hrLocal = valueProperty->QueryInterface( IID_IDebugProperty2,  
-                        reinterpret_cast<void**>(ppproperty) );  
-            }  
-        }  
+        CValueProperty* valueProperty = new CValueProperty();  
+        if (valueProperty != NULL)  
+        {  
+            hrLocal = valueProperty->Init(m_expr, varType, varErrorMessage);  
+            if (SUCCEEDED(hrLocal))   
+            {  
+                hrLocal = valueProperty->QueryInterface( IID_IDebugProperty2,  
+                        reinterpret_cast<void**>(ppproperty) );  
+            }  
+        }  
   
-        VariantClear(&varType);  
-        VariantClear(&varErrorMessage); //frees BSTR  
-        if (!valueProperty)  
-            return hr;  
-        valueProperty->Release();  
-        if (FAILED(hrLocal))  
-            return hr;  
-    }  
-    else  
-    {  
-        if (bstrErrorMessage != NULL)  
-            SysFreeString(bstrErrorMessage);  
+        VariantClear(&varType);  
+        VariantClear(&varErrorMessage); //frees BSTR  
+        if (!valueProperty)  
+            return hr;  
+        valueProperty->Release();  
+        if (FAILED(hrLocal))  
+            return hr;  
+    }  
+    else  
+    {  
+        if (bstrErrorMessage != NULL)  
+            SysFreeString(bstrErrorMessage);  
   
-        hr = VariantValueToProperty( pprovider,  
-                                     paddress,  
-                                     pbinder,  
-                                     m_radix,  
-                                     m_expr,  
-                                     value,  
-                                     ppproperty );  
-        VariantClear(&value);  
-        if (FAILED(hr))  
-            return hr;  
-    }  
+        hr = VariantValueToProperty( pprovider,  
+                                     paddress,  
+                                     pbinder,  
+                                     m_radix,  
+                                     m_expr,  
+                                     value,  
+                                     ppproperty );  
+        VariantClear(&value);  
+        if (FAILED(hr))  
+            return hr;  
+    }  
   
-    return S_OK;  
+    return S_OK;  
 }  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "CONST_GUID_ARRAY | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # CONST_GUID_ARRAY
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CONST_GUID_ARRAY](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/const-guid-array).  
-  
 A structure that holds a list of `GUID`s.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct tagCONST_GUID_ARRAY {  
-   DWORD       dwCount;  
-   CONST GUID* Members;  
+   DWORD       dwCount;  
+   CONST GUID* Members;  
 } CONST_GUID_ARRAY;  
 ```  
   
 ```csharp  
 public struct CONST_GUID_ARRAY {  
-   public uint   dwCount;  
-   public Guid[] Members;  
+   public uint   dwCount;  
+   public Guid[] Members;  
 }  
 ```  
   

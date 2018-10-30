@@ -1,7 +1,7 @@
 ---
 title: "XML Document Properties, Properties Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # XML Document Properties, Properties Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XML Document Properties, Properties Window](https://docs.microsoft.com/visualstudio/xml-tools/xml-document-properties-properties-window).  
-  
   
 The **Properties** window provides basic information about the document that is active in the XML Editor. The properties that are available vary depending on the type of XML document that is currently active.  
   

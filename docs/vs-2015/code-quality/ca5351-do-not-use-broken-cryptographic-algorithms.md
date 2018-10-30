@@ -1,7 +1,7 @@
 ---
 title: "CA5351 Do Not Use Broken Cryptographic Algorithms | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,11 +37,11 @@ manager: "wpickett"
   
  For encryption algorithms:  
   
--   <xref:System.Security.Cryptography.DES> encryption contains a small key size, which could be brute-forced in less than a day.  
+- <xref:System.Security.Cryptography.DES> encryption contains a small key size, which could be brute-forced in less than a day.  
   
--   <xref:System.Security.Cryptography.RC2> encryption is susceptible to a related-key attack, where the attacker finds mathematical relationships between all key values.  
+- <xref:System.Security.Cryptography.RC2> encryption is susceptible to a related-key attack, where the attacker finds mathematical relationships between all key values.  
   
- This rule triggers when it finds any of the above cryptographic functions in source code and throws a warning to the user.  
+  This rule triggers when it finds any of the above cryptographic functions in source code and throws a warning to the user.  
   
 ## How to Fix Violations  
  Use cryptographically stronger options:  

@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugCustomAttributes::Clone | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IEnumDebugCustomAttributes::Clone
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugCustomAttributes::Clone](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugcustomattributes-clone).  
-  
 Creates an enumerator that contains the same enumeration state as the current enumerator.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Clone (   
-   IEnumCustomAttributes** ppEnum  
+   IEnumCustomAttributes** ppEnum  
 );  
 ```  
   
 ```csharp  
 int Clone(  
-   out IEnumDebugCustomAttributes ppEnum  
+   out IEnumDebugCustomAttributes ppEnum  
 );  
 ```  
   

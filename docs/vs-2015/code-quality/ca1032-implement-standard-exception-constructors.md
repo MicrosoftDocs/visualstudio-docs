@@ -1,7 +1,7 @@
 ---
 title: "CA1032: Implement standard exception constructors | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # CA1032: Implement standard exception constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1032: Implement standard exception constructors](https://docs.microsoft.com/visualstudio/code-quality/ca1032-implement-standard-exception-constructors).
-
 |||
 |-|-|
 |TypeName|ImplementStandardExceptionConstructors|
@@ -39,15 +37,15 @@ The latest version of this topic can be found at [CA1032: Implement standard exc
 ## Rule Description
  Exception types must implement the following constructors:
 
--   public NewException()
+- public NewException()
 
--   public NewException(string)
+- public NewException(string)
 
--   public NewException(string, Exception)
+- public NewException(string, Exception)
 
--   protected or private NewException(SerializationInfo, StreamingContext)
+- protected or private NewException(SerializationInfo, StreamingContext)
 
- Failure to provide the full set of constructors can make it difficult to correctly handle exceptions. For example, the constructor that has the signature `NewException(string, Exception)` is used to create exceptions that are caused by other exceptions. Without this constructor you cannot create and throw an instance of your custom exception that contains an inner (nested) exception, which is what managed code should do in such a situation. The first three exception constructors are public by convention. The fourth constructor is protected in unsealed classes, and private in sealed classes. For more information, see [CA2229: Implement serialization constructors](../code-quality/ca2229-implement-serialization-constructors.md)
+  Failure to provide the full set of constructors can make it difficult to correctly handle exceptions. For example, the constructor that has the signature `NewException(string, Exception)` is used to create exceptions that are caused by other exceptions. Without this constructor you cannot create and throw an instance of your custom exception that contains an inner (nested) exception, which is what managed code should do in such a situation. The first three exception constructors are public by convention. The fourth constructor is protected in unsealed classes, and private in sealed classes. For more information, see [CA2229: Implement serialization constructors](../code-quality/ca2229-implement-serialization-constructors.md)
 
 ## How to Fix Violations
  To fix a violation of this rule, add the missing constructors to the exception, and make sure that they have the correct accessibility.

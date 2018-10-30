@@ -1,7 +1,7 @@
 ---
 title: "What is debugging?"
 description: "Understand what it means to debug an app"
-ms.custom: ""
+ms.custom: "debug-experiments"
 ms.date: "10/17/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
@@ -46,4 +46,4 @@ The debugger is an essential tool to find and fix bugs in your apps. However, co
 In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio and how to write code with less bugs.
 
 > [!div class="nextstepaction"]
-> [Write better code using Visual Studio](../debugger/write-better-code-using-visual-studio.md)
+> [Write better C# code using Visual Studio](../debugger/write-better-code-using-visual-studio.md)

@@ -1,7 +1,7 @@
 ---
 title: "BP_COND_STYLE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,26 +21,24 @@ manager: "ghogen"
 # BP_COND_STYLE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_COND_STYLE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-cond-style).  
-  
 Specifies the breakpoint condition style for pending and bound breakpoints.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_BP_COND_STYLE {   
-   BP_COND_NONE         = 0x0000,  
-   BP_COND_WHEN_TRUE    = 0x0001,  
-   BP_COND_WHEN_CHANGED = 0x0002  
+   BP_COND_NONE         = 0x0000,  
+   BP_COND_WHEN_TRUE    = 0x0001,  
+   BP_COND_WHEN_CHANGED = 0x0002  
 };  
 typedef DWORD BP_COND_STYLE;  
 ```  
   
 ```csharp  
 public enum enum_BP_COND_STYLE {   
-   BP_COND_NONE         = 0x0000,  
-   BP_COND_WHEN_TRUE    = 0x0001,  
-   BP_COND_WHEN_CHANGED = 0x0002  
+   BP_COND_NONE         = 0x0000,  
+   BP_COND_WHEN_TRUE    = 0x0001,  
+   BP_COND_WHEN_CHANGED = 0x0002  
 };  
 ```  
   

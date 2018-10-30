@@ -1,7 +1,7 @@
 ---
 title: "How to: Build to a Common Output Directory | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Build to a Common Output Directory
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Build to a Common Output Directory](https://docs.microsoft.com/visualstudio/ide/how-to-build-to-a-common-output-directory).  
-  
 By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] builds each project in a solution in its own folder inside the solution. You can change the build output paths of your projects to force all outputs to be placed in the same folder.  
   
 ### To place all solution outputs in a common directory  

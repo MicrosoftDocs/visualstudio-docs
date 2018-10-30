@@ -1,7 +1,7 @@
 ---
 title: "Lines View - Sampling Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Lines View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Lines View - Sampling Data](https://docs.microsoft.com/visualstudio/profiling/lines-view-sampling-data).  
-  
 The Lines view of sampling data lists performance data for the statements that were executing when the samples were collected in the profiling run.  
   
 > [!NOTE]
@@ -29,21 +27,21 @@ The Lines view of sampling data lists performance data for the statements that w
   
  In a source file, a statement can span more than one line in a source file, and a single line can include more than one statement. A statement is identified by the following:  
   
--   The source file that contains the function statement.  
+- The source file that contains the function statement.  
   
--   The function that contains the statement.  
+- The function that contains the statement.  
   
--   The source line at which the statement begins.  
+- The source line at which the statement begins.  
   
--   The character in the source line at which the statement starts.  
+- The character in the source line at which the statement starts.  
   
--   The source line at which the statement ends.  
+- The source line at which the statement ends.  
   
--   The character in the source line at which the statement ends.  
+- The character in the source line at which the statement ends.  
   
- The Line Name column provides a sortable concatenation of the identifier data.  
+  The Line Name column provides a sortable concatenation of the identifier data.  
   
- By definition, a statement does not call other functions. Therefore, only exclusive values are listed.  
+  By definition, a statement does not call other functions. Therefore, only exclusive values are listed.  
   
 |Column|Description|  
 |------------|-----------------|  

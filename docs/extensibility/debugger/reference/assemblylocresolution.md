@@ -23,20 +23,20 @@ Specifies where an assembly is located.
   
 ```cpp  
 enum enum_ASSEMBLYLOCRESOLUTION {  
-   ALR_NAME      = 0x0,  
-   ALR_USERDIR   = 0x1,  
-   ALR_SHAREDDIR = 0x2,  
-   ALR_REMOTEDIR = 0x4,  
+   ALR_NAME      = 0x0,  
+   ALR_USERDIR   = 0x1,  
+   ALR_SHAREDDIR = 0x2,  
+   ALR_REMOTEDIR = 0x4,  
 };  
 typedef DWORD ASSEMBLYLOCRESOLUTION;  
 ```  
   
 ```csharp  
 public enum enum_ASSEMBLYLOCRESOLUTION {  
-   ALR_NAME      = 0x0,  
-   ALR_USERDIR   = 0x1,  
-   ALR_SHAREDDIR = 0x2,  
-   ALR_REMOTEDIR = 0x4,  
+   ALR_NAME      = 0x0,  
+   ALR_USERDIR   = 0x1,  
+   ALR_SHAREDDIR = 0x2,  
+   ALR_REMOTEDIR = 0x4,  
 };  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Accessing Models from Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Accessing Models from Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessing Models from Text Templates](https://docs.microsoft.com/visualstudio/modeling/accessing-models-from-text-templates).  
-  
 By using text templates, you can create report files, source code files, and other text files that are based on domain-specific language models. For basic information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md). The text templates will work in the experimental mode when you are debugging your DSL, and will also work on a computer on which you have deployed the DSL.  
   
 > [!NOTE]
@@ -27,11 +25,11 @@ By using text templates, you can create report files, source code files, and oth
   
  To access a model from a text template:  
   
--   Set the inherit property of the template directive to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation>. This provides access to the Store.  
+- Set the inherit property of the template directive to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation>. This provides access to the Store.  
   
--   Specify directive processors for the DSL that you want to access. This loads the assemblies for your DSL so that you can use its domain classes, properties, and relationships in the code of your text template. It also loads the model file that you specify.  
+- Specify directive processors for the DSL that you want to access. This loads the assemblies for your DSL so that you can use its domain classes, properties, and relationships in the code of your text template. It also loads the model file that you specify.  
   
- A `.tt` file similar to the following example is created in the Debugging project when you create a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution from the DSL Minimal Language template.  
+  A `.tt` file similar to the following example is created in the Debugging project when you create a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution from the DSL Minimal Language template.  
   
 ```  
 <#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>  
@@ -93,11 +91,11 @@ Here is a list of elements in the model:
   
  Notice that:  
   
-1.  The `filename` and `validation` parameters are separated with ";" and there must be no other separators or spaces.  
+1. The `filename` and `validation` parameters are separated with ";" and there must be no other separators or spaces.  
   
-2.  The list of validation categories determines which validation methods will be executed. Multiple categories should be separated with "&#124;" and there must be no other separators or spaces.  
+2. The list of validation categories determines which validation methods will be executed. Multiple categories should be separated with "&#124;" and there must be no other separators or spaces.  
   
- If an error is found, it will be reported in the errors window, and the result file will contain an error message.  
+   If an error is found, it will be reported in the errors window, and the result file will contain an error message.  
   
 ##  <a name="Multiple"></a> Accessing multiple models from a text template  
   

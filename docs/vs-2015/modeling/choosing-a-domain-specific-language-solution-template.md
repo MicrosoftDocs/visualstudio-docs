@@ -1,7 +1,7 @@
 ---
 title: "Choosing a Domain-Specific Language Solution Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Choosing a Domain-Specific Language Solution Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Choosing a Domain-Specific Language Solution Template](https://docs.microsoft.com/visualstudio/modeling/choosing-a-domain-specific-language-solution-template).  
-  
 To create a domain-specific language solution, choose one of the solution templates that are available in the Domain-Specific Language Designer Wizard. By choosing the template that most closely resembles the language that you want to create, you can minimize the modifications that you have to make to the starting solution.  
   
  The following solution templates are available in the Domain-Specific Language Designer Wizard.  

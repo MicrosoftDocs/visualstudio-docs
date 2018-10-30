@@ -1,7 +1,7 @@
 ---
 title: "IDebugProperty3::GetStringCharLength | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProperty3::GetStringCharLength
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty3::GetStringCharLength](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty3-getstringcharlength).  
-  
 Returns the number of characters in the associated property's string.  
   
 ## Syntax  
   
 ```cpp  
 HRESULT GetStringCharLength(  
-   ULONG *pLen  
+   ULONG *pLen  
 );  
 ```  
   
 ```csharp  
 int GetStringCharLength(  
-   out uint pLen  
+   out uint pLen  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating and Running Unit Tests for Windows Store Apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "douge"
 # Walkthrough: Creating and Running Unit Tests for Windows Store Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating and Running Unit Tests for Windows Store Apps](https://docs.microsoft.com/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-windows-store-apps).  
-  
 Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps and includes unit test library templates for Visual C#, Visual Basic and Visual C++.  
   
 > [!TIP]
@@ -31,15 +29,15 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
   
  Visual Studio provides the following unit testing functionality:  
   
--   [Create unit test projects](#CreateAndRunUnitTestWin8Tailored_Create)  
+- [Create unit test projects](#CreateAndRunUnitTestWin8Tailored_Create)  
   
--   [Edit the Manifest for the Unit Test Project](#CreateAndRunUnitTestWin8Tailored_Manifest)  
+- [Edit the Manifest for the Unit Test Project](#CreateAndRunUnitTestWin8Tailored_Manifest)  
   
--   [Code the Unit Test](#CreateAndRunUnitTestWin8Tailored_Code)  
+- [Code the Unit Test](#CreateAndRunUnitTestWin8Tailored_Code)  
   
--   [Run Unit Tests](#CreateAndRunUnitTestWin8Tailored_Run)  
+- [Run Unit Tests](#CreateAndRunUnitTestWin8Tailored_Run)  
   
- The following procedures describe the steps to create, run and debug unit tests for managed Windows 8 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app.  
+  The following procedures describe the steps to create, run and debug unit tests for managed Windows 8 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app.  
   
 ## Prerequisites  
  Visual Studio  

@@ -1,7 +1,7 @@
 ---
 title: "BP_TYPE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,28 +21,26 @@ manager: "ghogen"
 # BP_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-type).  
-  
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_BP_TYPE {   
-   BPT_NONE    = 0x0000,  
-   BPT_CODE    = 0x0001,  
-   BPT_DATA    = 0x0002,  
-   BPT_SPECIAL = 0x0003  
+   BPT_NONE    = 0x0000,  
+   BPT_CODE    = 0x0001,  
+   BPT_DATA    = 0x0002,  
+   BPT_SPECIAL = 0x0003  
 };  
 typedef DWORD BP_TYPE;  
 ```  
   
 ```csharp  
 public enum enum_BP_TYPE {   
-   BPT_NONE    = 0x0000,  
-   BPT_CODE    = 0x0001,  
-   BPT_DATA    = 0x0002,  
-   BPT_SPECIAL = 0x0003  
+   BPT_NONE    = 0x0000,  
+   BPT_CODE    = 0x0001,  
+   BPT_DATA    = 0x0002,  
+   BPT_SPECIAL = 0x0003  
 };  
 ```  
   

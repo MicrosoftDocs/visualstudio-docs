@@ -1,7 +1,7 @@
 ---
 title: "Vbc Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Vbc Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Vbc Task](https://docs.microsoft.com/visualstudio/msbuild/vbc-task).  
-  
   
 Wraps vbc.exe, which produces executables (.exe), dynamic-link libraries (.dll), or code modules (.netmodule). For more information on vbc.exe, see [Visual Basic Command-Line Compiler](http://msdn.microsoft.com/library/6b57c444-50c7-4b88-8f59-ed65cff5e05c).  
   
@@ -62,7 +60,7 @@ Wraps vbc.exe, which produces executables (.exe), dynamic-link libraries (.dll),
 |`NoLogo`|Optional `Boolean` parameter.<br /><br /> If `true`, suppresses display of compiler banner information. This parameter corresponds to the [/nologo](http://msdn.microsoft.com/library/25ef54b6-d676-4639-a2d2-a747a158bc07) switch of the vbc.exe compiler.|  
 |`NoStandardLib`|Optional `Boolean` parameter.<br /><br /> Causes the compiler not to reference the standard libraries. This parameter corresponds to the [/nostdlib](http://msdn.microsoft.com/library/140381b8-dc96-4ad5-ae11-792c9ed0be4d) switch of the vbc.exe compiler.|  
 |`NoVBRuntimeReference`|Optional `Boolean` parameter.<br /><br /> Internal use only. If true, prevents the automatic reference to Microsoft.VisualBasic.dll..|  
-|`NoWarnings`|Optional `Boolean` parameter.<br /><br /> If `true`, the task supresses all warnings. For more information, see [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).|  
+|`NoWarnings`|Optional `Boolean` parameter.<br /><br /> If `true`, the task suppresses all warnings. For more information, see [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).|  
 |`Optimize`|Optional `Boolean` parameter.<br /><br /> If `true`, enables compiler optimizations. This parameter corresponds to the [/optimize](http://msdn.microsoft.com/library/fcba4a97-3622-4b87-a891-0f77deab4998) switch of the vbc.exe compiler.|  
 |`OptionCompare`|Optional `String` parameter.<br /><br /> Specifies how string comparisons are made. This parameter can have the following values:<br /><br /> -   `binary`<br />-   `text`<br /><br /> The value `binary` specifies that the task uses binary string comparisons. The value `text` specifies that the task uses text string comparisons. The default value of this parameter is `binary`. This parameter corresponds to the [/optioncompare](http://msdn.microsoft.com/library/7237b766-b44d-4cc5-9a3c-885348a7d9e4) switch of the vbc.exe compiler.|  
 |`OptionExplicit`|Optional `Boolean` parameter.<br /><br /> If `true`, explicit declaration of variables is required. This parameter corresponds to the [/optionexplicit](http://msdn.microsoft.com/library/5d296ab3-bafe-4c4d-9887-78f162ed86c7) switch of the vbc.exe compiler.|  

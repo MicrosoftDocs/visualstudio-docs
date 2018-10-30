@@ -1,7 +1,7 @@
 ---
 title: "How to: Update the Status Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Update the Status Bar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Update the Status Bar](https://docs.microsoft.com/visualstudio/extensibility/how-to-update-the-status-bar).  
-  
 The **Status Bar** is a control bar located at the bottom of many application windows that contains one or more status text lines or indicators.  
   
 ### To update the Status Bar  
@@ -35,19 +33,19 @@ The **Status Bar** is a control bar located at the bottom of many application wi
 ## Robust Programming  
  A **Status Bar** contains four separate fields:  
   
--   Status text  
+- Status text  
   
--   Progress bar  
+- Progress bar  
   
--   Animated icon  
+- Animated icon  
   
--   Editor information  
+- Editor information  
   
- For more information, see [Status Bars](http://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e).  
+  For more information, see [Status Bars](http://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e).  
   
- The IDE automatically calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> method of your <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> implementation when your document window is activated.  
+  The IDE automatically calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> method of your <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> implementation when your document window is activated.  
   
- The VSPackage implementer is responsible for updating the status text in the status bar. The IDE resets this string to "READY" if the status text field is set to empty text ("") at idle time.  
+  The VSPackage implementer is responsible for updating the status text in the status bar. The IDE resets this string to "READY" if the status text field is set to empty text ("") at idle time.  
   
 ## See Also  
  [Status Bars](http://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e)

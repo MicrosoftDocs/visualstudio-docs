@@ -1,7 +1,7 @@
 ---
 title: "IDebugModule3::LoadSymbols | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,15 +21,13 @@ manager: "ghogen"
 # IDebugModule3::LoadSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugModule3::LoadSymbols](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmodule3-loadsymbols).  
-  
 Loads the symbols for the current module.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT LoadSymbols(  
-   void  
+   void  
 );  
 ```  
   

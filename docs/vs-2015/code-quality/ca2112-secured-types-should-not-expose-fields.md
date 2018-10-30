@@ -1,7 +1,7 @@
 ---
 title: "CA2112: Secured types should not expose fields | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2112: Secured types should not expose fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2112: Secured types should not expose fields](https://docs.microsoft.com/visualstudio/code-quality/ca2112-secured-types-should-not-expose-fields).
 
 |||
 |-|-|

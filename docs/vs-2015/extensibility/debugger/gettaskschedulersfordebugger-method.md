@@ -1,7 +1,7 @@
 ---
 title: "GetTaskSchedulersForDebugger Method | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # GetTaskSchedulersForDebugger Method
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GetTaskSchedulersForDebugger Method](https://docs.microsoft.com/visualstudio/extensibility/debugger/gettaskschedulersfordebugger-method).  
-  
 Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

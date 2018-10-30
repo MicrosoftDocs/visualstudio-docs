@@ -1,7 +1,7 @@
 ---
 title: "GETNAME_TYPE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,34 +21,32 @@ manager: "ghogen"
 # GETNAME_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [GETNAME_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/getname-type).  
-  
 Specifies the name type of files to retrieve.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_GETNAME_TYPE {   
-   GN_NAME         = 0,  
-   GN_FILENAME     = 1,  
-   GN_BASENAME     = 2,  
-   GN_MONIKERNAME  = 3,  
-   GN_URL          = 4,  
-   GN_TITLE        = 5,  
-   GN_STARTPAGEURL = 6  
+   GN_NAME         = 0,  
+   GN_FILENAME     = 1,  
+   GN_BASENAME     = 2,  
+   GN_MONIKERNAME  = 3,  
+   GN_URL          = 4,  
+   GN_TITLE        = 5,  
+   GN_STARTPAGEURL = 6  
 };  
 typedef DWORD GETNAME_TYPE;  
 ```  
   
 ```csharp  
 public enum enum_GETNAME_TYPE {   
-   GN_NAME         = 0,  
-   GN_FILENAME     = 1,  
-   GN_BASENAME     = 2,  
-   GN_MONIKERNAME  = 3,  
-   GN_URL          = 4,  
-   GN_TITLE        = 5,  
-   GN_STARTPAGEURL = 6  
+   GN_NAME         = 0,  
+   GN_FILENAME     = 1,  
+   GN_BASENAME     = 2,  
+   GN_MONIKERNAME  = 3,  
+   GN_URL          = 4,  
+   GN_TITLE        = 5,  
+   GN_STARTPAGEURL = 6  
 };  
 ```  
   

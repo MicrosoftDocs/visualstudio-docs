@@ -29,30 +29,30 @@ You can change the appearance and behavior of the explorer for your domain-speci
  To change the window title of the generated explorer, select **Explorer Behavior** in the **DSL Explorer**, and then in the **Properties** window, set the **Title** property to the title you want.
 
 ## Changing the Tab Icon
- To change the tab icon for the explorer, use a 16x16-pixel icon in a .bmp file. Put the icon file in the \DslPackage\Resources\ folder, and then change the file name to **ModelExplorerToolWindowBitmaps.bmp**. For example, you could change the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] setup.ico icon file to .bmp format and rename it to **DSLLanguageName\DslPackage\Resources\ModelExplorerToolWindowBitmaps.bmp**. The generated designer will display this icon on the tab of your explorer when it is docked together with **Solution Explorer**.
+ To change the tab icon for the explorer, use a 16x16-pixel icon in a .bmp file. Put the icon file in the \DslPackage\Resources\ folder, and then change the file name to **ModelExplorerToolWindowBitmaps.bmp**. For example, you could change the Visual Studio setup.ico icon file to .bmp format and rename it to **DSLLanguageName\DslPackage\Resources\ModelExplorerToolWindowBitmaps.bmp**. The generated designer will display this icon on the tab of your explorer when it is docked together with **Solution Explorer**.
 
 ## Setting Custom Icons on Explorer Nodes
  You can customize nodes in your explorer by using explorer node settings. The following procedure shows how to add an icon to a node.
 
 #### To add an icon to an explorer node
 
-1.  Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution by using the Task Flow solution template.
+1. Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution by using the Task Flow solution template.
 
-2.  Put a .bmp file that contains a 16x16-pixel icon in the **Dsl\Resources** folder in the solution.
+2. Put a .bmp file that contains a 16x16-pixel icon in the **Dsl\Resources** folder in the solution.
 
-3.  In the **DSL Explorer**, right-click **Explorer Behavior** and then click **Add New Explorer Node Settings**.
+3. In the **DSL Explorer**, right-click **Explorer Behavior** and then click **Add New Explorer Node Settings**.
 
-     An **ExplorerNodeSettings** node appears under the **Custom Node Settings** node.
+    An **ExplorerNodeSettings** node appears under the **Custom Node Settings** node.
 
-4.  Select **ExplorerNodeSettings**, and then in the **Properties** window, set **Class** to **Actor**.
+4. Select **ExplorerNodeSettings**, and then in the **Properties** window, set **Class** to **Actor**.
 
-5.  Set **Icon To Display** to the path of the icon file.
+5. Set **Icon To Display** to the path of the icon file.
 
-6.  Transform all templates, and then build and run the solution.
+6. Transform all templates, and then build and run the solution.
 
-7.  In the generated designer, open the Sample diagram.
+7. In the generated designer, open the Sample diagram.
 
-     The Explorer should show three **Actor** nodes that have your icon.
+    The Explorer should show three **Actor** nodes that have your icon.
 
 > [!NOTE]
 >  If you have set a node icon for any element that is displayed in the generated explorer, all explorer nodes will display the icon. If no icon has been set, the nodes will display the default icon.

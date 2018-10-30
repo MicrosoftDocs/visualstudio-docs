@@ -1,14 +1,14 @@
 ---
 title: "Navigating through Code with the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.execution"
 dev_langs: 
@@ -30,8 +30,6 @@ manager: "ghogen"
 # Navigating through Code with the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigate Code with the Debugger in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/navigating-through-code-with-the-debugger).  
-  
 Get familiar with commands and shortcuts to navigate code in the debugger and that will make it faster and easier to find and resolve issues in your app. While you navigate code in the debugger, you can [inspect the state of your app](https://msdn.microsoft.com/library/mt243867.aspx#BKMK_Inspect_Variables) or learn more about its execution flow.  
   
 ## Start debugging  
@@ -59,25 +57,25 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  Here are some details about the behavior of **Step Into**:  
   
--   On a nested function call, **Step Into** steps into the most deeply nested function. If you use **Step Into** on a call like `Func1(Func2())`, the debugger steps into the function `Func2`.  
+- On a nested function call, **Step Into** steps into the most deeply nested function. If you use **Step Into** on a call like `Func1(Func2())`, the debugger steps into the function `Func2`.  
   
--   The debugger actually steps through code statements rather than physical lines. For example an `if` clause can be written on one line:  
+- The debugger actually steps through code statements rather than physical lines. For example an `if` clause can be written on one line:  
   
-    ```csharp  
-    int x = 42;  
-    string s = "Not answered";  
-    if( int x == 42) s = "Answered!";  
-    ```  
+  ```csharp  
+  int x = 42;  
+  string s = "Not answered";  
+  if( int x == 42) s = "Answered!";  
+  ```  
   
-    ```vb  
-    Dim x As Integer = 42  
-    Dim s As String = "Not answered"  
-    If x = 42 Then s = "Answered!"  
-    ```  
+  ```vb  
+  Dim x As Integer = 42  
+  Dim s As String = "Not answered"  
+  If x = 42 Then s = "Answered!"  
+  ```  
   
-     When you step into this line, the debugger treats the condition as one step and the consequence as another (In this example, the condition is true).  
+   When you step into this line, the debugger treats the condition as one step and the consequence as another (In this example, the condition is true).  
   
- To visually trace the call stack while stepping into functions, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).  
+  To visually trace the call stack while stepping into functions, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).  
   
 ##  <a name="BKMK_Step_over_Step_out"></a> Step through code, skipping functions  
  When running code in the debugger, often you will realize that you don't need to see what happens in a particular function (you don't care about it or you know it works, like well-tested library code). Use these commands to skip through code (the functions still execute, of course, but the debugger skips over them).  
@@ -142,20 +140,20 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
 > [!CAUTION]
 >  Setting the next statement causes the program counter to jump directly to the new location. Use this command with caution:  
->   
->  -   Instructions between the old and new execution points are not executed.  
-> -   If you move the execution point backwards, intervening instructions are not undone.  
-> -   Moving the next statement to another function or scope usually results in call-stack corruption, causing a run-time error or exception. If you try moving the next statement to another scope, the debugger opens a dialog box with a warning and gives you a chance to cancel the operation. In Visual Basic, you cannot move the next statement to another scope or function.  
-> -   In native C++, if you have run-time checks enabled, setting the next statement can cause an exception to be thrown when execution reaches the end of the method.  
-> -   When Edit and Continue is enabled, **Set Next Statement** fails if you have made edits that Edit and Continue cannot remap immediately. This can occur, for example, if you have edited code inside a catch block. When this happens, you’ll see an error message that tells you that the operation is not supported.  
-  
+> 
+> - Instructions between the old and new execution points are not executed.  
+>   -   If you move the execution point backwards, intervening instructions are not undone.  
+>   -   Moving the next statement to another function or scope usually results in call-stack corruption, causing a run-time error or exception. If you try moving the next statement to another scope, the debugger opens a dialog box with a warning and gives you a chance to cancel the operation. In Visual Basic, you cannot move the next statement to another scope or function.  
+>   -   In native C++, if you have run-time checks enabled, setting the next statement can cause an exception to be thrown when execution reaches the end of the method.  
+>   -   When Edit and Continue is enabled, **Set Next Statement** fails if you have made edits that Edit and Continue cannot remap immediately. This can occur, for example, if you have edited code inside a catch block. When this happens, you’ll see an error message that tells you that the operation is not supported.  
+> 
 > [!NOTE]
 >  In managed code, you cannot move the next statement under the following conditions:  
->   
->  -   The next statement is in a different method than the current statement.  
-> -   Debugging was started by using Just-In-Time debugging.  
-> -   A callstack unwind is in progress.  
-> -   A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.  
+> 
+> - The next statement is in a different method than the current statement.  
+>   -   Debugging was started by using Just-In-Time debugging.  
+>   -   A callstack unwind is in progress.  
+>   -   A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.  
   
  You cannot set the next statement while your application is actively running. To set the next statement, the debugger must be in break mode.  
   

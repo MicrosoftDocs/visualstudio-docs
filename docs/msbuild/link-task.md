@@ -61,7 +61,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
   
      Specifies attributes that will be placed in the `dependency` section of the manifest file.  
   
-     For more information, see [/MANIFESTDEPENDENCY (Specify manifest dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also see [Publisher configuration files](https://docs.microsoft.com/en-us/windows/desktop/SbsCs/publisher-configuration-files).  
+     For more information, see [/MANIFESTDEPENDENCY (Specify manifest dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also see [Publisher configuration files](https://docs.microsoft.com/windows/desktop/SbsCs/publisher-configuration-files).  
   
 -   **AdditionalOptions**  
   
@@ -181,7 +181,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
   
      Specifies whether the linker will apply **SuppressUnmanagedCodeSecurityAttribute** to linker-generated P/Invoke calls from managed code into native DLLs.  
   
-    For more information, see [/CLRUNMANAGEDCODECHECK (Add SupressUnmanagedCodeSecurityAttribute)](/cpp/build/reference/clrunmanagedcodecheck-add-supressunmanagedcodesecurityattribute).  
+    For more information, see [/CLRUNMANAGEDCODECHECK (Add SuppressUnmanagedCodeSecurityAttribute)](/cpp/build/reference/clrunmanagedcodecheck-add-suppressunmanagedcodesecurityattribute).  
   
 -   **CreateHotPatchableImage**  
   

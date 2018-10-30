@@ -1822,12 +1822,22 @@
         },
         {
             "source_path": "docs/python/debugging-azure-remote.md",
-            "redirect_url": "/visualstudio/python/debugging-remote-python-code-on-azure",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/python/debugging-azure-remote-troubleshooting.md",
-            "redirect_url": "/visualstudio/python/debugging-remote-python-code-on-azure-troubleshooting",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-remote-python-code-on-azure.md",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-remote-python-code-on-azure-troubleshooting.md",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -6810,6 +6820,51 @@
         {
             "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-%2215%22.md",
             "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/visual-studio-and-xamarin.md",
+            "redirect_url": "/xamarin/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/setup-and-install.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/learn-about-mobile-development-with-xamarin.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/introduction-to-mobile-development/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/verify-your-xamarin-environment.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/setup-install-and-verifications-for-mac-users.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/installation/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md",
+            "redirect_url": "/xamarin/xamarin-forms/get-started/first-app/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md",
+            "redirect_url": "/xamarin/cross-platform/get-started/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md",
+            "redirect_url": "/xamarin/tools/ci/devops/",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/docker/index.md",
+            "redirect_url": "/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json",
             "redirect_document_id": false
         }
     ]

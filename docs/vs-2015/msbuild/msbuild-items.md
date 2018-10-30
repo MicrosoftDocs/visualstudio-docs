@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # MSBuild Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Items](https://docs.microsoft.com/visualstudio/msbuild/msbuild-items).  
-  
   
 MSBuild items are inputs into the build system, and they typically represent files. Items are grouped into item types based on their element names. Item types are named lists of items that can be used as parameters for tasks. The tasks use the item values to perform the steps of the build process.  
   
@@ -96,13 +94,13 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ##  <a name="BKMK_Wildcards"></a> Using Wildcards to Specify Items  
  You can use the **, \*, and ? wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.  
   
--   The ? wildcard character matches a single character.  
+- The ? wildcard character matches a single character.  
   
--   The * wildcard character matches zero or more characters.  
+- The * wildcard character matches zero or more characters.  
   
--   The ** wildcard character sequence matches a partial path.  
+- The ** wildcard character sequence matches a partial path.  
   
- For example, you can specify all the .cs files in the directory that contains the project file by using the following element in your project file.  
+  For example, you can specify all the .cs files in the directory that contains the project file by using the following element in your project file.  
   
 ```  
 <CSFile Include="*.cs"/>  

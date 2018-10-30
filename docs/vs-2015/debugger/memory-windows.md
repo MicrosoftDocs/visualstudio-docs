@@ -1,7 +1,7 @@
 ---
 title: "Memory Windows | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,11 +36,9 @@ manager: "ghogen"
 # Memory Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [View Memory for Variables in the Debugger](https://docs.microsoft.com/visualstudio/debugger/memory-windows).  
-  
 The **Memory** window provides a view into the memory space that is used by your application. The **Watch** window, **QuickWatch** dialog box, **Autos** window, and **Locals** window show you the content of variables, which are stored at specific locations in memory. But the **Memory** window shows you the large-scale picture. This view can be convenient for examining large pieces of data (buffers or large strings, for example) that do not display well in the other windows. However, the **Memory** window is not limited to displaying data. It displays everything in the memory space, whether the content is data, code, or random bits of garbage in unassigned memory.  
   
- The **Memory** window is available only if address-level debugging is enabled in the **Options**dialog box,**Debugging** node. The **Memory** window is not available for Script or SQL, which are languages that do not recognize the concept of memory.  
+ The **Memory** window is available only if address-level debugging is enabled in the **Options** dialog box,**Debugging** node. The **Memory** window is not available for Script or SQL, which are languages that do not recognize the concept of memory.  
   
 ## Opening a Memory Window  
   
@@ -87,21 +85,21 @@ The **Memory** window provides a view into the memory space that is used by your
   
 #### To change the number of columns in the Memory window  
   
-1.  In the toolbar at the top of the **Memory** window, locate the **Columns** list.  
+1. In the toolbar at the top of the **Memory** window, locate the **Columns** list.  
   
-2.  In the **Columns** list, select the number of columns that you want to display or select **Auto** for automatic adjustment to fit the width of the window.  
+2. In the **Columns** list, select the number of columns that you want to display or select **Auto** for automatic adjustment to fit the width of the window.  
   
- If you do not want the contents of the **Memory** window to change as your program executes, you can turn off live expression evaluation.  
+   If you do not want the contents of the **Memory** window to change as your program executes, you can turn off live expression evaluation.  
   
 #### To toggle live evaluation  
   
-1.  Right-click the **Memory** window.  
+1. Right-click the **Memory** window.  
   
-2.  On the shortcut menu, click **Reevaluate Automatically**.  
+2. On the shortcut menu, click **Reevaluate Automatically**.  
   
-     If live evaluation is on, the option will be selected, and clicking it turns off live evaluation. If live evaluation is off, the option is not selected, and clicking it turns on live evaluation.  
+    If live evaluation is on, the option will be selected, and clicking it turns off live evaluation. If live evaluation is off, the option is not selected, and clicking it turns on live evaluation.  
   
- You can hide or display the toolbar at the top of the **Memory** window. You will not have access to Address box or other tools as long as the toolbar is hidden.  
+   You can hide or display the toolbar at the top of the **Memory** window. You will not have access to Address box or other tools as long as the toolbar is hidden.  
   
 #### To toggle the toolbar  
   

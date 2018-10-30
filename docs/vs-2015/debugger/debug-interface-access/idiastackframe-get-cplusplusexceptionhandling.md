@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackFrame::get_cplusplusExceptionHandling | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaStackFrame::get_cplusplusExceptionHandling
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_cplusplusExceptionHandling](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-cplusplusexceptionhandling).  
-  
 Retrieves a flag that indicates if C++ exception handling is in effect.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_cplusplusExceptionHandling (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

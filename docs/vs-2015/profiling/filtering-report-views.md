@@ -1,7 +1,7 @@
 ---
 title: "Filtering Report Views | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Filtering Report Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Filtering Report Views](https://docs.microsoft.com/visualstudio/profiling/filtering-report-views).  
-  
 You can apply filters to profiling data files to limit the profiling data that is displayed in the Performance Report views and exported to report files. You can limit a report to the data between time stamp values, and you can limit the data to specific processes and threads. You can save filters to a file and then create a filter on a different profiling data file by importing the saved filter.  
   
  You can also limit a report to a time segment by using the graphical timeline on the Summary View. See [How to: Filter Report Views from the Summary Timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md).  
@@ -49,19 +47,19 @@ You can apply filters to profiling data files to limit the profiling data that i
   
 #### To create a profiler report filter from the Marks Report view  
   
-1.  Select **Marks** from the **Current View** list on the Performance Report View toolbar.  
+1. Select **Marks** from the **Current View** list on the Performance Report View toolbar.  
   
-     The Marks profiler report is displayed.  
+    The Marks profiler report is displayed.  
   
-2.  Select the ETW or sampling even that you want to use as the starting point of the report.  
+2. Select the ETW or sampling even that you want to use as the starting point of the report.  
   
-3.  Press and hold CTRL and click the event that you want to use as the ending point of the report.  
+3. Press and hold CTRL and click the event that you want to use as the ending point of the report.  
   
-4.  Right-click and then click one of the following options:  
+4. Right-click and then click one of the following options:  
   
-    -   **Add Filter on Marks** creates filter clauses that use the Mark column as the filter field.  
+   - **Add Filter on Marks** creates filter clauses that use the Mark column as the filter field.  
   
-    -   **Add Filter on Timestamps** creates filter clauses that use the Timestamp In Milliseconds column as the filter field.  
+   - **Add Filter on Timestamps** creates filter clauses that use the Timestamp In Milliseconds column as the filter field.  
   
      The two options filter the current data file at the same start and end points. Either option might be better if you export the filter to use in other reports.  
   

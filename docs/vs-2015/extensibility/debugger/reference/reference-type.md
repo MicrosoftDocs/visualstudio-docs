@@ -1,7 +1,7 @@
 ---
 title: "REFERENCE_TYPE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,24 +21,22 @@ manager: "ghogen"
 # REFERENCE_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [REFERENCE_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/reference-type).  
-  
 Specifies the reference type.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_REFERENCE_TYPE {   
-   REF_TYPE_WEAK   = 0x0001,  
-   REF_TYPE_STRONG = 0x0002  
+   REF_TYPE_WEAK   = 0x0001,  
+   REF_TYPE_STRONG = 0x0002  
 };  
 typedef DWORD REFERENCE_TYPE;  
 ```  
   
 ```csharp  
 public enum enum_REFERENCE_TYPE {   
-   REF_TYPE_WEAK   = 0x0001,  
-   REF_TYPE_STRONG = 0x0002  
+   REF_TYPE_WEAK   = 0x0001,  
+   REF_TYPE_STRONG = 0x0002  
 };  
 ```  
   

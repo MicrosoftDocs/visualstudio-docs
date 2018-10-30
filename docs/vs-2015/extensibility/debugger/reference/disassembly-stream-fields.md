@@ -1,7 +1,7 @@
 ---
 title: "DISASSEMBLY_STREAM_FIELDS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,46 +21,44 @@ manager: "ghogen"
 # DISASSEMBLY_STREAM_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DISASSEMBLY_STREAM_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/disassembly-stream-fields).  
-  
 Specifies what information to retrieve about a disassembly field.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_DISASSEMBLY_STREAM_FIELDS {   
-   DSF_ADDRESS          = 0x00000001,  
-   DSF_ADDRESSOFFSET    = 0x00000002,  
-   DSF_CODEBYTES        = 0x00000004,  
-   DSF_OPCODE           = 0x00000008,  
-   DSF_OPERANDS         = 0x00000010,  
-   DSF_SYMBOL           = 0x00000020,  
-   DSF_CODELOCATIONID   = 0x00000040,  
-   DSF_POSITION         = 0x00000080,  
-   DSF_DOCUMENTURL      = 0x00000100,  
-   DSF_BYTEOFFSET       = 0x00000200,  
-   DSF_FLAGS            = 0x00000400,  
-   DSF_OPERANDS_SYMBOLS = 0x00010000,  
-   DSF_ALL              = 0x000107ff  
+   DSF_ADDRESS          = 0x00000001,  
+   DSF_ADDRESSOFFSET    = 0x00000002,  
+   DSF_CODEBYTES        = 0x00000004,  
+   DSF_OPCODE           = 0x00000008,  
+   DSF_OPERANDS         = 0x00000010,  
+   DSF_SYMBOL           = 0x00000020,  
+   DSF_CODELOCATIONID   = 0x00000040,  
+   DSF_POSITION         = 0x00000080,  
+   DSF_DOCUMENTURL      = 0x00000100,  
+   DSF_BYTEOFFSET       = 0x00000200,  
+   DSF_FLAGS            = 0x00000400,  
+   DSF_OPERANDS_SYMBOLS = 0x00010000,  
+   DSF_ALL              = 0x000107ff  
 };  
 typedef DWORD DISASSEMBLY_STREAM_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_DISASSEMBLY_STREAM_FIELDS {   
-   DSF_ADDRESS          = 0x00000001,  
-   DSF_ADDRESSOFFSET    = 0x00000002,  
-   DSF_CODEBYTES        = 0x00000004,  
-   DSF_OPCODE           = 0x00000008,  
-   DSF_OPERANDS         = 0x00000010,  
-   DSF_SYMBOL           = 0x00000020,  
-   DSF_CODELOCATIONID   = 0x00000040,  
-   DSF_POSITION         = 0x00000080,  
-   DSF_DOCUMENTURL      = 0x00000100,  
-   DSF_BYTEOFFSET       = 0x00000200,  
-   DSF_FLAGS            = 0x00000400,  
-   DSF_OPERANDS_SYMBOLS = 0x00010000,  
-   DSF_ALL              = 0x000107ff  
+   DSF_ADDRESS          = 0x00000001,  
+   DSF_ADDRESSOFFSET    = 0x00000002,  
+   DSF_CODEBYTES        = 0x00000004,  
+   DSF_OPCODE           = 0x00000008,  
+   DSF_OPERANDS         = 0x00000010,  
+   DSF_SYMBOL           = 0x00000020,  
+   DSF_CODELOCATIONID   = 0x00000040,  
+   DSF_POSITION         = 0x00000080,  
+   DSF_DOCUMENTURL      = 0x00000100,  
+   DSF_BYTEOFFSET       = 0x00000200,  
+   DSF_FLAGS            = 0x00000400,  
+   DSF_OPERANDS_SYMBOLS = 0x00010000,  
+   DSF_ALL              = 0x000107ff  
 };  
 ```  
   

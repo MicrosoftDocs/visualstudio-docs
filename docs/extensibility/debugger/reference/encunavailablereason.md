@@ -23,26 +23,26 @@ ms.workload:
   
 ```cpp  
 enum tagEncUnavailableReason {  
-   ENCUN_NONE,  
-   ENCUN_INTEROP,  
-   ENCUN_SQLCLR,  
-   ENCUN_MINIDUMP,  
-   ENCUN_EMBEDDED,  
-   ENCUN_ATTACH,  
-   ENCUN_WIN64  
+   ENCUN_NONE,  
+   ENCUN_INTEROP,  
+   ENCUN_SQLCLR,  
+   ENCUN_MINIDUMP,  
+   ENCUN_EMBEDDED,  
+   ENCUN_ATTACH,  
+   ENCUN_WIN64  
 };  
 typedef enum tagEncUnavailableReason EncUnavailableReason;  
 ```  
   
 ```csharp  
 public enum EncUnavailableReason {  
-   ENCUN_NONE,  
-   ENCUN_INTEROP,  
-   ENCUN_SQLCLR,  
-   ENCUN_MINIDUMP,  
-   ENCUN_EMBEDDED,  
-   ENCUN_ATTACH,  
-   ENCUN_WIN64  
+   ENCUN_NONE,  
+   ENCUN_INTEROP,  
+   ENCUN_SQLCLR,  
+   ENCUN_MINIDUMP,  
+   ENCUN_EMBEDDED,  
+   ENCUN_ATTACH,  
+   ENCUN_WIN64  
 };  
 ```  
   

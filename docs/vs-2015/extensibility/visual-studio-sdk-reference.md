@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio SDK Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Visual Studio SDK Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio SDK Reference](https://docs.microsoft.com/visualstudio/extensibility/visual-studio-sdk-reference).  
-  
 This section contains information about Visual Studio namespaces, related namespaces, and other areas of interest for developers who use the Visual Studio SDK.  
   
 ## In This Section
@@ -230,7 +228,7 @@ This section contains information about Visual Studio namespaces, related namesp
  <xref:Microsoft.VisualStudio.Threading>  
  Used for Visual Studio threading.  
   
- <xref:Microsoft.VisualStudio.Connected Services?qualifyHint=False&autoUpgrade=True> 
+ <xref:Microsoft.VisualStudio.ConnectedServices?qualifyHint=False&autoUpgrade=True> 
  Used for Visual Studio connected services.  
   
  [IntelliSenseHostFlags](../extensibility/intellisensehostflags.md) enumeration  

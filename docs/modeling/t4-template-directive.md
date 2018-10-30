@@ -12,7 +12,7 @@ ms.technology: vs-ide-modeling
 ---
 # T4 Template Directive
 
-A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template usually starts with a `template` directive, which specifies how the template should be processed. There should be no more than one template directive in a text template and any files that it includes.
+A Visual Studio T4 text template usually starts with a `template` directive, which specifies how the template should be processed. There should be no more than one template directive in a text template and any files that it includes.
 
  For a general overview of writing text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
@@ -74,7 +74,7 @@ hostspecific="true"
 
  Because the type of this property depends on the type of host, it is only useful if you are writing a text template that works only with a specific host. It's applicable to [design-time templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md), but not [run-time templates](../modeling/run-time-text-generation-with-t4-text-templates.md).
 
- When `hostspecific` is `true` and you are using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can cast `this.Host` to IServiceProvider to access [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] features. You can also use `Host.ResolvePath(filename)` to obtain the absolute path of a file in the project. For example:
+ When `hostspecific` is `true` and you are using Visual Studio, you can cast `this.Host` to IServiceProvider to access Visual Studio features. You can also use `Host.ResolvePath(filename)` to obtain the absolute path of a file in the project. For example:
 
 ```csharp
 <#@ template debug="false" hostspecific="true" language="C#" #>
@@ -93,7 +93,6 @@ Number of projects in this solution: <#=  dte.Solution.Projects.Count #>
 #>
 Content of myFile is:
 <#= myFile #>
-
 ```
 
  If you use the `inherits` and `hostspecific` attributes together, specify host="trueFromBase" in the derived class and host="true" in the base class. This avoids a double definition of the `Host` property in the generated code.
@@ -123,7 +122,6 @@ Squares of numbers:
 <#
   Next number
 #>
-
 ```
 
 ## inherits attribute
@@ -152,7 +150,6 @@ This is the common footer.
   protected virtual void SpecificFragment1() { }
   protected virtual void SpecificFragment2() { }
 #>
-
 ```
 
  Run-time (preprocessed) text template DerivedTemplate1.tt:
@@ -177,7 +174,6 @@ protected override void SpecificFragment2()
 <#+
 }
 #>
-
 ```
 
  Application code to invoke DerivedTemplate1:
@@ -202,7 +198,7 @@ This is the common footer.
 >  If you use the `inherits` and `hostspecific` attributes together, specify hostspecific="trueFromBase" in the derived class and host="true" in the base class. This avoids a double definition of the `Host` property in the generated code.
 
 ### Inheritance in a design-time text template
- A design-time text template is a file for which **Custom Tool** is set to **TextTemplatingFileGenerator**. The template generates an output file of code or text, which forms part of your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. To generate the output file, the template is first translated into an intermediate program code file, which you do not usually see. The `inherits` attribute specifies the base class for this intermediate code.
+ A design-time text template is a file for which **Custom Tool** is set to **TextTemplatingFileGenerator**. The template generates an output file of code or text, which forms part of your Visual Studio project. To generate the output file, the template is first translated into an intermediate program code file, which you do not usually see. The `inherits` attribute specifies the base class for this intermediate code.
 
  For a design-time text template, you can specify any base class that is derived from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. Use the `<#@assembly#>` directive to load the assembly or project that contains the base class.
 

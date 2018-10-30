@@ -20,8 +20,8 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
   
 ```C++  
 HRESULT findInlineFramesByRVA (   
-   IDiaSymbol*       parent,   DWORD             rva,  
-   IDiaEnumSymbols** ppResult  
+   IDiaSymbol*       parent,   DWORD             rva,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

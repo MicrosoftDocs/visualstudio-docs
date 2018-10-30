@@ -1,7 +1,7 @@
 ---
 title: "Profiling and Windows Vista Security | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,17 +21,15 @@ manager: "ghogen"
 # Profiling and Windows Vista Security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Profiling and Windows Vista Security](https://docs.microsoft.com/visualstudio/profiling/profiling-and-windows-vista-security).  
-  
 Depending on the [!INCLUDE[wiprlhext](../includes/wiprlhext-md.md)] User Access Permissions settings that a computer administrator has made available, an individual user might have security permission to profile a process on that computer. The following examples illustrate possible differences among users:  
   
--   Some users may access advanced profiling features when the administrator has set the driver and service to start.  
+- Some users may access advanced profiling features when the administrator has set the driver and service to start.  
   
--   Domain users may access sample profiling only.  
+- Domain users may access sample profiling only.  
   
--   Some users may deny access to profiling to all other users.  
+- Some users may deny access to profiling to all other users.  
   
- For more information, see the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).  
+  For more information, see the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).  
   
 ## Cross-session profiling  
  *Cross-session profiling* is the ability to profile a process that runs in a different logon session. For example, most services run in session 0, and users cannot run directly in session 0. By using the **Attach to Process** button on the Performance Explorer toolbar, or the /attach option of the VSPerfCmd command line tool, you can profile most processes in different logon sessions.  

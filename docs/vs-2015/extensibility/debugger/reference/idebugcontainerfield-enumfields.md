@@ -1,7 +1,7 @@
 ---
 title: "IDebugContainerField::EnumFields | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,29 +21,27 @@ manager: "ghogen"
 # IDebugContainerField::EnumFields
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugContainerField::EnumFields](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcontainerfield-enumfields).  
-  
 Creates an enumerator for the fields of the container.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT EnumFields(   
-   FIELD_KIND         dwKindFilter,  
-   FIELD_MODIFIERS    dwModifiersFilter,  
-   LPCOLESTR          pszNameFilter,  
-   NAME_MATCH         nameMatch,  
-   IEnumDebugFields** ppEnum  
+   FIELD_KIND         dwKindFilter,  
+   FIELD_MODIFIERS    dwModifiersFilter,  
+   LPCOLESTR          pszNameFilter,  
+   NAME_MATCH         nameMatch,  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumFields(  
-   enum_ FIELD_KIND      dwKindFilter,   
-   enum_ FIELD_MODIFIERS dwModifiersFilter,   
-   string                pszNameFilter,   
-   NAME_MATCH            nameMatch,   
-   out IEnumDebugFields  ppEnum  
+   enum_ FIELD_KIND      dwKindFilter,   
+   enum_ FIELD_MODIFIERS dwModifiersFilter,   
+   string                pszNameFilter,   
+   NAME_MATCH            nameMatch,   
+   out IEnumDebugFields  ppEnum  
 );  
 ```  
   

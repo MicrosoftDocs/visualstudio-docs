@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProvider::GetAddressesFromContext | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,27 +21,25 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetAddressesFromContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetAddressesFromContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromcontext).  
-  
 This method maps a document context into an array of debug addresses.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetAddressesFromContext(   
-   IDebugDocumentContext2* pDocContext,  
-   BOOL                    fStatmentOnly,  
-   IEnumDebugAddresses**   ppEnumBegAddresses,  
-   IEnumDebugAddresses**   ppEnumEndAddresses  
+   IDebugDocumentContext2* pDocContext,  
+   BOOL                    fStatmentOnly,  
+   IEnumDebugAddresses**   ppEnumBegAddresses,  
+   IEnumDebugAddresses**   ppEnumEndAddresses  
 );  
 ```  
   
 ```csharp  
 int GetAddressesFromContext(  
-   IDebugDocumentContext2  pDocContext,  
-   bool                    fStatmentOnly,  
-   out IEnumDebugAddresses ppEnumBegAddresses,  
-   out IEnumDebugAddresses ppEnumEndAddresses  
+   IDebugDocumentContext2  pDocContext,  
+   bool                    fStatmentOnly,  
+   out IEnumDebugAddresses ppEnumBegAddresses,  
+   out IEnumDebugAddresses ppEnumEndAddresses  
 );  
 ```  
   

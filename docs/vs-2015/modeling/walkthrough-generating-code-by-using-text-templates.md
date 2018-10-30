@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Generating Code by using Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Walkthrough: Generating Code by using Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Generating Code by using Text Templates](https://docs.microsoft.com/visualstudio/modeling/walkthrough-generating-code-by-using-text-templates).  
-  
 Code generation allows you to produce program code that is strongly typed, and yet can be easily changed when the source model changes. Contrast this with the alternative technique of writing a completely generic program that accepts a configuration file, which is more flexible, but results in code that is neither so easy to read and change, nor has such good performance. This walkthrough demonstrates this benefit.  
   
 ## Typed code for reading XML  
@@ -96,15 +94,15 @@ foreach (XmlNode artist in catalog.SelectNodes("artist"))
   
 ##### To add an XML file  
   
-1.  In **Solution Explorer**, right-click the project, click **Add** and then Click **New Item**.  
+1. In **Solution Explorer**, right-click the project, click **Add** and then Click **New Item**.  
   
-2.  In the **Add New Item** dialog box, select **XML File** from the **Templates** pane.  
+2. In the **Add New Item** dialog box, select **XML File** from the **Templates** pane.  
   
-3.  Add your sample content to the file.  
+3. Add your sample content to the file.  
   
-4.  For this walkthrough, name the file `exampleXml.xml`. Set the content of the file to be the XML shown in the previous section.  
+4. For this walkthrough, name the file `exampleXml.xml`. Set the content of the file to be the XML shown in the previous section.  
   
- ..  
+   ..  
   
 ### Add a test code file  
  Add a C# file to your project and write in it a sample of the code that you want to be able to write. For example:  
@@ -136,33 +134,33 @@ namespace MyProject
   
 ##### To add a text template file to your project  
   
-1.  In **Solution Explorer**, right-click the project, click **Add**, and then click **New Item**.  
+1. In **Solution Explorer**, right-click the project, click **Add**, and then click **New Item**.  
   
-2.  In the **Add New Item** dialog box select **Text Template** from the **Templates** pane.  
+2. In the **Add New Item** dialog box select **Text Template** from the **Templates** pane.  
   
-    > [!NOTE]
-    >  Make sure that you add a Text Template, and not a Preprocessed Text Template.  
+   > [!NOTE]
+   >  Make sure that you add a Text Template, and not a Preprocessed Text Template.  
   
-3.  In the file, in the template directive, change the `hostspecific` attribute to `true`.  
+3. In the file, in the template directive, change the `hostspecific` attribute to `true`.  
   
-     This change will enable the template code to gain access to the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] services.  
+    This change will enable the template code to gain access to the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] services.  
   
-4.  In the output directive, change the extension attribute to ".cs", so that the template generates a C# file. In a Visual Basic project, you would change it to ".vb".  
+4. In the output directive, change the extension attribute to ".cs", so that the template generates a C# file. In a Visual Basic project, you would change it to ".vb".  
   
-5.  Save the file. At this stage, the text template file should contain these lines:  
+5. Save the file. At this stage, the text template file should contain these lines:  
   
-    ```  
-    <#@ template debug="false" hostspecific="true" language="C#" #>  
-    <#@ output extension=".cs" #>  
-    ```  
+   ```  
+   <#@ template debug="false" hostspecific="true" language="C#" #>  
+   <#@ output extension=".cs" #>  
+   ```  
   
- .  
+   .  
   
- Notice that a .cs file appears in Solution Explorer as a subsidiary of the template file. You can see it by clicking [+] next to the name of the template file. This file is generated from the template file whenever you save or move the focus away from the template file. The generated file will be compiled as part of your project.  
+   Notice that a .cs file appears in Solution Explorer as a subsidiary of the template file. You can see it by clicking [+] next to the name of the template file. This file is generated from the template file whenever you save or move the focus away from the template file. The generated file will be compiled as part of your project.  
   
- For convenience while you develop the template file, arrange the windows of the template file and the generated file so that you can see them next to each other. This lets you see immediately the output of your template. You will also notice that when your template generates invalid C# code, errors will appear in the error message window.  
+   For convenience while you develop the template file, arrange the windows of the template file and the generated file so that you can see them next to each other. This lets you see immediately the output of your template. You will also notice that when your template generates invalid C# code, errors will appear in the error message window.  
   
- Any edits you perform directly in the generated file will be lost whenever you save the template file. You should therefore either avoid editing the generated file, or edit it only for short experiments. It is sometimes useful to try a short fragment of code in the generated file, where IntelliSense is in operation, and then copy it to the template file.  
+   Any edits you perform directly in the generated file will be lost whenever you save the template file. You should therefore either avoid editing the generated file, or edit it only for short experiments. It is sometimes useful to try a short fragment of code in the generated file, where IntelliSense is in operation, and then copy it to the template file.  
   
 ## Developing the Text Template  
  Following the best advice on agile development, we will develop the template in small steps, clearing some of the errors at each increment, until the test code compiles and runs correctly.  
@@ -404,17 +402,17 @@ namespace MyProject
 ## Conclusion  
  This walkthrough demonstrates several techniques and benefits of code generation:  
   
--   *Code generation* is the creation of part of the source code of your application from a *model*. The model contains information in a form suited to the application domain, and may change over the lifetime of the application.  
+- *Code generation* is the creation of part of the source code of your application from a *model*. The model contains information in a form suited to the application domain, and may change over the lifetime of the application.  
   
--   Strong typing is one benefit of code generation. While the model represents information in a form more suitable to the user, the generated code allows other parts of the application to deal with the information using a set of types.  
+- Strong typing is one benefit of code generation. While the model represents information in a form more suitable to the user, the generated code allows other parts of the application to deal with the information using a set of types.  
   
--   IntelliSense and the compiler help you create code that adheres to the schema of the model, both when you write new code and when the schema is updated.  
+- IntelliSense and the compiler help you create code that adheres to the schema of the model, both when you write new code and when the schema is updated.  
   
--   The addition of a single uncomplicated template file to a project can provide these benefits.  
+- The addition of a single uncomplicated template file to a project can provide these benefits.  
   
--   A text template can be developed and tested rapidly and incrementally.  
+- A text template can be developed and tested rapidly and incrementally.  
   
- In this walkthrough, the program code is actually generated from an instance of the model, a representative example of the XML files that the application will process. In a more formal approach, the XML schema would be the input to the template, in the form of an .xsd file or a domain-specific language definition. That approach would make it easier for the template to determine characteristics such as the multiplicity of a relationship.  
+  In this walkthrough, the program code is actually generated from an instance of the model, a representative example of the XML files that the application will process. In a more formal approach, the XML schema would be the input to the template, in the form of an .xsd file or a domain-specific language definition. That approach would make it easier for the template to determine characteristics such as the multiplicity of a relationship.  
   
 ## Troubleshooting the Text Template  
  If you have seen template transformation or compilation errors in the **Error List**, or if the output file was not generated correctly, you can troubleshoot the text template with the techniques described in [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md).  

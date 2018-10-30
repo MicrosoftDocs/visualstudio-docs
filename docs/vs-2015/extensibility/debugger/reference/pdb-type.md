@@ -1,7 +1,7 @@
 ---
 title: "PDB_TYPE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # PDB_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PDB_TYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/pdb-type).  
-  
 This structure specifies information about a field type taken from a PDB symbol.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct _tagTYPE_PDB {  
-   ULONG32 ulAppDomainID;  
-   GUID    guidModule;  
-   DWORD   symid;  
+   ULONG32 ulAppDomainID;  
+   GUID    guidModule;  
+   DWORD   symid;  
 } PDB_TYPE;  
 ```  
   
 ```csharp  
 public struct PDB_TYPE {  
-   public uint ulAppDomainID;  
-   public Guid guidModule;  
-   public uint symid;  
+   public uint ulAppDomainID;  
+   public Guid guidModule;  
+   public uint symid;  
 };  
 ```  
   

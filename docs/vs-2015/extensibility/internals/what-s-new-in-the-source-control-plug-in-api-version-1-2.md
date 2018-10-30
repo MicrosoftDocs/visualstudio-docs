@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in the Source Control Plug-in API Version 1.2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # What&#39;s New in the Source Control Plug-in API Version 1.2
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [What&#39;s New in the Source Control Plug-in API Version 1.2](https://docs.microsoft.com/visualstudio/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2).  
-  
 This section highlights the advanced source code control functionality in the Source Control Plug-in API version 1.2. The following lists the new features in version 1.2:  
   
 ## Changes  

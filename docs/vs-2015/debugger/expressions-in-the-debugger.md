@@ -1,14 +1,14 @@
 ---
 title: "Expressions in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.expressions"
 dev_langs: 
@@ -36,8 +36,6 @@ manager: "ghogen"
 # Expressions in the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Expressions in the Debugger](https://docs.microsoft.com/visualstudio/debugger/expressions-in-the-debugger).  
-  
 The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.  
   
  The following sections give details about  expressions in different languages.  
@@ -100,13 +98,13 @@ int main()
   
  Debugger intrinsic functions:  
   
--   Are guaranteed to be safe: executing a debugger intrinsic function will not corrupt the process that is being debugged.  
+- Are guaranteed to be safe: executing a debugger intrinsic function will not corrupt the process that is being debugged.  
   
--   Are allowed in all expressions , even in scenarios where side effects and function evaluation are not allowed.  
+- Are allowed in all expressions , even in scenarios where side effects and function evaluation are not allowed.  
   
--   Work in scenarios where the regular function calls are not possible, such as debugging a minidump.  
+- Work in scenarios where the regular function calls are not possible, such as debugging a minidump.  
   
- Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, “asd”)` is much easier to write in a breakpoint condition than `str[0] == ‘a’ && str[1] == ‘s’ && str[2] == ‘d’`. )  
+  Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, “asd”)` is much easier to write in a breakpoint condition than `str[0] == ‘a’ && str[1] == ‘s’ && str[2] == ‘d’`. )  
   
 |Area|Intrinsic functions|  
 |----------|-------------------------|  

@@ -1,7 +1,7 @@
 ---
 title: "Bind WPF controls to a dataset | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,37 +25,35 @@ manager: "ghogen"
 # Bind WPF controls to a dataset
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Bind WPF controls to a dataset](https://docs.microsoft.com/visualstudio/data-tools/bind-wpf-controls-to-a-dataset).  
-  
   
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to product records that are encapsulated in a dataset. You will also add buttons to browse through products and save changes to product records.  
   
  This walkthrough illustrates the following tasks:  
   
--   Creating a WPF application and a dataset that is generated from data in the AdventureWorksLT sample database.  
+- Creating a WPF application and a dataset that is generated from data in the AdventureWorksLT sample database.  
   
--   Creating a set of data-bound controls by dragging a data table from the **Data Sources** window to a window in the WPF Designer.  
+- Creating a set of data-bound controls by dragging a data table from the **Data Sources** window to a window in the WPF Designer.  
   
--   Creating buttons that navigate forward and backward through product records.  
+- Creating buttons that navigate forward and backward through product records.  
   
--   Creating a button that saves changes that users make to the product records to the data table and the underlying data source.  
+- Creating a button that saves changes that users make to the product records to the data table and the underlying data source.  
   
-     [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
+   [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]  
+- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]  
   
--   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).  
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).  
   
- Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
+  Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
--   Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapter Overview](../data-tools/tableadapter-overview.md).  
+- Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapter Overview](../data-tools/tableadapter-overview.md).  
   
--   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+- Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
--   WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
+- WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
   
 ## Create the project  
  Create a new WPF project. The project will display product records.  
@@ -85,7 +83,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  In the **Data Sources** window, click **Add New Data Source**.  
   
-     The **Data Source Configuration**wizard opens.  
+     The **Data Source Configuration** wizard opens.  
   
 3.  On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.  
   
@@ -118,7 +116,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 2.  In the designer, right-click the **Fill,GetData()** query and select **Configure**.  
   
-     The **TableAdapter Configuration**wizard opens.  
+     The **TableAdapter Configuration** wizard opens.  
   
 3.  In the **Enter a SQL Statement** page, add the following WHERE clause after the `SELECT` statement in the text box.  
   

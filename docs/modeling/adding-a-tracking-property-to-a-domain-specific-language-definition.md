@@ -24,29 +24,30 @@ For example, in the Domain-Specific Language Tools (DSL Tools), the Display Name
 
 In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be).
 
--   The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.
+- The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.
 
- A tracking property has two states: tracking, and updated by the user. Tracking properties have the following features:
+  A tracking property has two states: tracking, and updated by the user. Tracking properties have the following features:
 
--   When in the tracking state, the value of the tracking property is calculated, and the value is updated as other properties in the model change.
+- When in the tracking state, the value of the tracking property is calculated, and the value is updated as other properties in the model change.
 
--   When in the updated by user state, the value of the tracking property retains the value to which the user last set the property.
+- When in the updated by user state, the value of the tracking property retains the value to which the user last set the property.
 
--   In the **Properties** window, the **Reset** command for the tracking property is only enabled when the property is in the updated by user state. The **Reset** command sets the tracking property state to tracking.
+- In the **Properties** window, the **Reset** command for the tracking property is only enabled when the property is in the updated by user state. The **Reset** command sets the tracking property state to tracking.
 
--   In the **Properties** window, when the tracking property is in the tracking state, its value is displayed in a regular font.
+- In the **Properties** window, when the tracking property is in the tracking state, its value is displayed in a regular font.
 
--   In the **Properties** window, when the tracking property is in the updated by user state, its value is displayed in a bold font.
+- In the **Properties** window, when the tracking property is in the updated by user state, its value is displayed in a bold font.
 
 ## Prerequisites
 
 Before you can start this walkthrough, you must first install these components:
 
-|||
+
+| | |
 |-|-|
-|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579)|
-|[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](http://go.microsoft.com/fwlink/?LinkID=185580)|
-|[!INCLUDE[dsl](../modeling/includes/dsl_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185581](http://go.microsoft.com/fwlink/?LinkID=185581)|
+| Visual Studio | [http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579) |
+| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkID=185580](http://go.microsoft.com/fwlink/?LinkID=185580) |
+| [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] | [http://go.microsoft.com/fwlink/?LinkID=185581](http://go.microsoft.com/fwlink/?LinkID=185581) |
 
 ## Create the project
 
@@ -712,33 +713,33 @@ Add code to support the custom post-load behavior for XML serialization.
 
 The next step is to build and run the DSL designer in a new instance of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] so that you can verify that the tracking property is working correctly.
 
-1.  On the **Build** menu, click **Rebuild Solution**.
+1. On the **Build** menu, click **Rebuild Solution**.
 
-2.  On the **Debug** menu, click **Start Debugging**.
+2. On the **Debug** menu, click **Start Debugging**.
 
-     The experimental build of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] opens the **Debugging** solution, which contains an empty test file.
+    The experimental build of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] opens the **Debugging** solution, which contains an empty test file.
 
-3.  In **Solution Explorer**, double-click the Test.trackingPropertyDsl file to open it in the designer, and then click the design surface.
+3. In **Solution Explorer**, double-click the Test.trackingPropertyDsl file to open it in the designer, and then click the design surface.
 
-     Notice that in the **Properties** window for the diagram, the **Default Namespace** property is **DefaultNamespace**, and the **Custom Elements** property is **0/0**.
+    Notice that in the **Properties** window for the diagram, the **Default Namespace** property is **DefaultNamespace**, and the **Custom Elements** property is **0/0**.
 
-4.  Drag an **ExampleElement** element from the **Toolbox** to the diagram surface.
+4. Drag an **ExampleElement** element from the **Toolbox** to the diagram surface.
 
-5.  In the **Properties** window for the element, select the **Element Namespace** property, and change the value from **DefaultNamespace** to **OtherNamespace**.
+5. In the **Properties** window for the element, select the **Element Namespace** property, and change the value from **DefaultNamespace** to **OtherNamespace**.
 
-     Notice that the value of **Element Namespace** is now shown in bold.
+    Notice that the value of **Element Namespace** is now shown in bold.
 
-6.  In the **Properties** window, right-click **Element Namespace**, and then click **Reset**.
+6. In the **Properties** window, right-click **Element Namespace**, and then click **Reset**.
 
-     The value of the property is changed to **DefaultNamespace**, and the value is shown in a regular font.
+    The value of the property is changed to **DefaultNamespace**, and the value is shown in a regular font.
 
-     Right-click **Element Namespace** again. The **Reset** command is now disabled because the property is currently in its tracking state.
+    Right-click **Element Namespace** again. The **Reset** command is now disabled because the property is currently in its tracking state.
 
-7.  Drag another **ExampleElement** from the **Toolbox** to the diagram surface, and change its **Element Namespace** to **OtherNamespace**.
+7. Drag another **ExampleElement** from the **Toolbox** to the diagram surface, and change its **Element Namespace** to **OtherNamespace**.
 
-8.  Click the design surface.
+8. Click the design surface.
 
-     In the **Properties** window for the diagram, the value of **Custom Elements** is now **1/2**.
+    In the **Properties** window for the diagram, the value of **Custom Elements** is now **1/2**.
 
 9. Change **Default Namespace** for the diagram from **DefaultNamespace** to **NewNamespace**.
 

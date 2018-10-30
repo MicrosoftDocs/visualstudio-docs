@@ -1,7 +1,7 @@
 ---
 title: "MESSAGETYPE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,32 +21,30 @@ manager: "ghogen"
 # MESSAGETYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MESSAGETYPE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/messagetype).  
-  
 Specifies the message type and reason.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_MESSAGETYPE {   
-   MT_OUTPUTSTRING      = 0x0000001,  
-   MT_MESSAGEBOX        = 0x00000002,  
-   MT_TYPE_MASK         = 0x000000FF,  
-   MT_REASON_EXCEPTION  = 0x00000100,  
-   MT_REASON_TRACEPOINT = 0x00000200,  
-   MT_REASON_MASK       = 0x0000FF00  
+   MT_OUTPUTSTRING      = 0x0000001,  
+   MT_MESSAGEBOX        = 0x00000002,  
+   MT_TYPE_MASK         = 0x000000FF,  
+   MT_REASON_EXCEPTION  = 0x00000100,  
+   MT_REASON_TRACEPOINT = 0x00000200,  
+   MT_REASON_MASK       = 0x0000FF00  
 };  
 typedef DWORD MESSAGETYPE;  
 ```  
   
 ```csharp  
 public enum enum_MESSAGETYPE {   
-   MT_OUTPUTSTRING      = 0x0000001,  
-   MT_MESSAGEBOX        = 0x00000002,  
-   MT_TYPE_MASK         = 0x000000FF,  
-   MT_REASON_EXCEPTION  = 0x00000100,  
-   MT_REASON_TRACEPOINT = 0x00000200,  
-   MT_REASON_MASK       = 0x0000FF00  
+   MT_OUTPUTSTRING      = 0x0000001,  
+   MT_MESSAGEBOX        = 0x00000002,  
+   MT_TYPE_MASK         = 0x000000FF,  
+   MT_REASON_EXCEPTION  = 0x00000100,  
+   MT_REASON_TRACEPOINT = 0x00000200,  
+   MT_REASON_MASK       = 0x0000FF00  
 };  
 ```  
   

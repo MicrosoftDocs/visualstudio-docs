@@ -1,7 +1,7 @@
 ---
 title: "Colors and Styling for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,28 +17,26 @@ manager: "ghogen"
 # Colors and Styling for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Colors and Styling for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/colors-and-styling-for-visual-studio).  
-  
 ## Using color in Visual Studio  
  In Visual Studio, color is used primarily as a communication tool, not just as decoration. Use color minimally and reserve it for situations where you want to:  
   
--   Communicate meaning or affiliation (for example, platform or language modifiers)  
+- Communicate meaning or affiliation (for example, platform or language modifiers)  
   
--   Attract attention (for example, indicating a status change)  
+- Attract attention (for example, indicating a status change)  
   
--   Improve readability and provide landmarks for navigating the UI  
+- Improve readability and provide landmarks for navigating the UI  
   
--   Increase desirability  
+- Increase desirability  
   
- Several options exist for assigning colors to UI elements in Visual Studio. Sometimes it can be difficult to figure out which option you’re supposed to use, or how to use it correctly. This topic will help you:  
+  Several options exist for assigning colors to UI elements in Visual Studio. Sometimes it can be difficult to figure out which option you’re supposed to use, or how to use it correctly. This topic will help you:  
   
-1.  Understand the different services and systems used to define colors in Visual Studio.  
+1. Understand the different services and systems used to define colors in Visual Studio.  
   
-2.  Select the correct option for a given element.  
+2. Select the correct option for a given element.  
   
-3.  Correctly use the option you have chosen.  
+3. Correctly use the option you have chosen.  
   
- **IMPORTANT:** Never hardcode hex, RGB, or system colors to your UI elements. Using the services allows for flexibility in tuning hue. Additionally, without the service, you will not be able to take advantage of the theme-switching capabilities of the [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService).  
+   **IMPORTANT:** Never hardcode hex, RGB, or system colors to your UI elements. Using the services allows for flexibility in tuning hue. Additionally, without the service, you will not be able to take advantage of the theme-switching capabilities of the [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService).  
   
 ### Methods for assigning color to Visual Studio interface elements  
  Choose the method best suited to your UI elements.  
@@ -379,23 +377,23 @@ protected override void Dispose(bool disposing)
   
  The methods implemented through [IVsFontAndColorDefaults](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) must provide the IDE with:  
   
--   Lists of display items in the category  
+- Lists of display items in the category  
   
--   Localizable names for display items  
+- Localizable names for display items  
   
--   Display information for each member of the category  
+- Display information for each member of the category  
   
- **NOTE:** Every category must contain at least one display item.  
+  **NOTE:** Every category must contain at least one display item.  
   
- The IDE uses the **T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup** interface to define a union of several categories.  
+  The IDE uses the **T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup** interface to define a union of several categories.  
   
- Its implementation provides the IDE with:  
+  Its implementation provides the IDE with:  
   
--   A list of the Categories that make up a given group  
+- A list of the Categories that make up a given group  
   
--   Access to instances of [IVsFontAndColorDefaults](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) supporting each Category within the group  
+- Access to instances of [IVsFontAndColorDefaults](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) supporting each Category within the group  
   
--   Localizable group names  
+- Localizable group names  
   
 #### Updating the IDE  
  The IDE caches information about Font and Color settings. Therefore, after any modification of the IDE Font and Color configuration, ensuring that the cache is up to date is a best practice.  
@@ -407,13 +405,13 @@ protected override void Dispose(bool disposing)
   
  To do this, a VSPackage must:  
   
--   **handle IDE-generated events** by implementing the [IVsFontAndColorEvents](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.aspx) interface. The IDE calls the appropriate method following user modifications of the Fonts and Colors page. For example, it calls the [OnFontChanged](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.onfontchanged.aspx) method if a new font is selected.  
+- **handle IDE-generated events** by implementing the [IVsFontAndColorEvents](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.aspx) interface. The IDE calls the appropriate method following user modifications of the Fonts and Colors page. For example, it calls the [OnFontChanged](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.onfontchanged.aspx) method if a new font is selected.  
   
- **OR**  
+  **OR**  
   
--   **poll the IDE for changes**. This can be done through the system-implemented [IVsFontAndColorStorage](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.aspx) interface. Although primarily for support of persistence, the [GetItem](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem.aspx) method can obtain font and color information for Display Items. For more information on font and color settings, see the MSDN article [Accessing Stored Font and Color Settings](https://msdn.microsoft.com/library/bb166382.aspx).  
+- **poll the IDE for changes**. This can be done through the system-implemented [IVsFontAndColorStorage](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.aspx) interface. Although primarily for support of persistence, the [GetItem](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem.aspx) method can obtain font and color information for Display Items. For more information on font and color settings, see the MSDN article [Accessing Stored Font and Color Settings](https://msdn.microsoft.com/library/bb166382.aspx).  
   
- **NOTE:** To ensure that polling results are correct, use the [IVsFontAndColorCacheManager](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorcachemanager.aspx) interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the [IVsFontAndColorStorage](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.aspx) interface.  
+  **NOTE:** To ensure that polling results are correct, use the [IVsFontAndColorCacheManager](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorcachemanager.aspx) interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the [IVsFontAndColorStorage](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.aspx) interface.  
   
 #### Registering custom font and color Category without implementing interfaces  
  The following code example demonstrates how to register the custom font and color Category without implementing interfaces:  
@@ -424,7 +422,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\FontAndColors\CSharp T
 "Category"="{9FF46859-A47E-47bf-8AC5-EC3DBE69D1FE}"  
 "ToolWindowPackage"="{7259e420-6241-4e0d-b535-5b820671d183}"  
   
-    "NameID"=dword:00000064  
+    "NameID"=dword:00000064  
 ```  
   
  **NOTE:**  

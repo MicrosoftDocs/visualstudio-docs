@@ -1,7 +1,7 @@
 ---
 title: "THUNK_ORDINAL | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,23 +22,21 @@ manager: "ghogen"
 # THUNK_ORDINAL
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [THUNK_ORDINAL](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/thunk-ordinal).  
-  
 Designates thunk types.  
   
 ## Syntax  
   
 ```cpp#  
 typedef enum THUNK_ORDINAL {   
-   THUNK_ORDINAL_NOTYPE,  
-   THUNK_ORDINAL_ADJUSTOR,  
-   THUNK_ORDINAL_VCALL,  
-   THUNK_ORDINAL_PCODE,  
-   THUNK_ORDINAL_LOAD   
+   THUNK_ORDINAL_NOTYPE,  
+   THUNK_ORDINAL_ADJUSTOR,  
+   THUNK_ORDINAL_VCALL,  
+   THUNK_ORDINAL_PCODE,  
+   THUNK_ORDINAL_LOAD   
   
-   // trampoline thunk ordinals - only for use in Trampoline thunk symbols  
-   THUNK_ORDINAL_TRAMP_INCREMENTAL,  
-   THUNK_ORDINAL_TRAMP_BRANCHISLAND,  
+   // trampoline thunk ordinals - only for use in Trampoline thunk symbols  
+   THUNK_ORDINAL_TRAMP_INCREMENTAL,  
+   THUNK_ORDINAL_TRAMP_BRANCHISLAND,  
 } THUNK_ORDINAL;  
 ```  
   

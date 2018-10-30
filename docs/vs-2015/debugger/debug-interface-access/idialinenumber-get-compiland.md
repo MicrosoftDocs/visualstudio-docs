@@ -1,7 +1,7 @@
 ---
 title: "IDiaLineNumber::get_compiland | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaLineNumber::get_compiland
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_compiland](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-compiland).  
-  
 Retrieves a reference to the symbol for the compiland that contributed the bytes of image text.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_compiland (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

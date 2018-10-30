@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgram2::GetMemoryBytes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProgram2::GetMemoryBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::GetMemoryBytes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-getmemorybytes).  
-  
 Retrieves the memory bytes occupied by the program.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetMemoryBytes(   
-   IDebugMemoryBytes2** ppMemoryBytes  
+   IDebugMemoryBytes2** ppMemoryBytes  
 );  
 ```  
   
 ```csharp  
 int GetMemoryBytes(   
-   out IDebugMemoryBytes2 ppMemoryBytes  
+   out IDebugMemoryBytes2 ppMemoryBytes  
 );  
 ```  
   

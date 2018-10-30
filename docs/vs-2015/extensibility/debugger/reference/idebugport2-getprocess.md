@@ -1,7 +1,7 @@
 ---
 title: "IDebugPort2::GetProcess | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugPort2::GetProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPort2::GetProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugport2-getprocess).  
-  
 Gets the specified process running on a port.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetProcess(   
-   AD_PROCESS_ID    ProcessId,  
-   IDebugProcess2** ppProcess  
+   AD_PROCESS_ID    ProcessId,  
+   IDebugProcess2** ppProcess  
 );  
 ```  
   
 ```csharp  
 int GetProcess(   
-   AD_PROCESS_ID      ProcessId,  
-   out IDebugProcess2 ppProcess  
+   AD_PROCESS_ID      ProcessId,  
+   out IDebugProcess2 ppProcess  
 );  
 ```  
   

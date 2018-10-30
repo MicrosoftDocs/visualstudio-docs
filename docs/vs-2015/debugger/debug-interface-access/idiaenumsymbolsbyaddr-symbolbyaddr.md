@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSymbolsByAddr::symbolByAddr | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,17 +22,15 @@ manager: "ghogen"
 # IDiaEnumSymbolsByAddr::symbolByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSymbolsByAddr::symbolByAddr](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyaddr).  
-  
 Positions the enumerator by performing a lookup by image section number and offset.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT symbolByAddr (   
-   DWORD**      isect,  
-   DWORD**      offsect,  
-   IDiaSymbol** ppsymbol  
+   DWORD**      isect,  
+   DWORD**      offsect,  
+   IDiaSymbol** ppsymbol  
 );  
 ```  
   

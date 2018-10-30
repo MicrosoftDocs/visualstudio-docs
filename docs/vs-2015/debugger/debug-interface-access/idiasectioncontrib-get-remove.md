@@ -1,7 +1,7 @@
 ---
 title: "IDiaSectionContrib::get_remove | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSectionContrib::get_remove
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_remove](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-remove).  
-  
 Retrieves a flag that indicates whether the section is removed before it is made part of the in-memory image.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_remove (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

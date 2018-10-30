@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating an SDK using C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Walkthrough: Creating an SDK using C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating an SDK using C++](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-creating-an-sdk-using-cpp).  
-  
 This walkthrough shows how to create a native C++ math library SDK, package the SDK as a Visual Studio Extension (VSIX), and then use it to create an app. The walkthrough is divided into these steps:  
   
 -   [To create the native and Windows Runtime libraries](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createClassLibrary)  
@@ -144,27 +142,27 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 ##  <a name="createSample"></a> To create a sample app that uses the class library  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1. On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  In the list of templates, expand **Visual C++**, **Windows  Store**, and then select **Blank App**. In the **Name** box, specify **NativeMathSDKSample**, and then choose the **OK** button.  
+2. In the list of templates, expand **Visual C++**, **Windows  Store**, and then select **Blank App**. In the **Name** box, specify **NativeMathSDKSample**, and then choose the **OK** button.  
   
-3.  In **Solution Explorer**, open the shortcut menu for the **NativeMathSDKSample** project, and then choose **Add**, **Reference**.  
+3. In **Solution Explorer**, open the shortcut menu for the **NativeMathSDKSample** project, and then choose **Add**, **Reference**.  
   
-4.  On the **Common Properties**, **Framework and References** property page, in the list of reference types, expand **Windows**, and then select **Extensions**. In the details pane, select the **Native Math SDK** extension, and then choose the **Add New Reference** button.  
+4. On the **Common Properties**, **Framework and References** property page, in the list of reference types, expand **Windows**, and then select **Extensions**. In the details pane, select the **Native Math SDK** extension, and then choose the **Add New Reference** button.  
   
-5.  In the **Add Reference** dialog box, select the **Native Math SDK** check box, and then choose the **OK** button.  
+5. In the **Add Reference** dialog box, select the **Native Math SDK** check box, and then choose the **OK** button.  
   
-6.  Display the project properties for NativeMathSDKSample.  
+6. Display the project properties for NativeMathSDKSample.  
   
-     The properties that you defined in NativeMathSDK.props were applied when you added the reference. You can verify this by examining the **VC++ Directories** property of the project's **Configuration Properties**.  
+    The properties that you defined in NativeMathSDK.props were applied when you added the reference. You can verify this by examining the **VC++ Directories** property of the project's **Configuration Properties**.  
   
-7.  In **Solution Explorer**, open MainPage.xaml, and then use the following XAML to replace its content:  
+7. In **Solution Explorer**, open MainPage.xaml, and then use the following XAML to replace its content:  
   
-     [!code-xml[CreatingAnSDKUsingCppDemoApp#1](../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml#1)]  
+    [!code-xml[CreatingAnSDKUsingCppDemoApp#1](../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml#1)]  
   
-8.  Update Mainpage.xaml.h to match this code:  
+8. Update Mainpage.xaml.h to match this code:  
   
-     [!code-cpp[CreatingAnSDKUsingCppDemoApp#2](../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml.h#2)]  
+    [!code-cpp[CreatingAnSDKUsingCppDemoApp#2](../snippets/cpp/VS_Snippets_VSSDK/creatingansdkusingcppdemoapp/cpp/mainpage.xaml.h#2)]  
   
 9. Update MainPage.xaml.cpp to match this code:  
   
@@ -176,7 +174,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
      The correct result appears.  
   
- This walkthrough showed how to create and use an Extension SDK to call into a [!INCLUDE[wrt](../includes/wrt-md.md)] library and a non-[!INCLUDE[wrt](../includes/wrt-md.md)] library.  
+    This walkthrough showed how to create and use an Extension SDK to call into a [!INCLUDE[wrt](../includes/wrt-md.md)] library and a non-[!INCLUDE[wrt](../includes/wrt-md.md)] library.  
   
 ## Next Steps  
   

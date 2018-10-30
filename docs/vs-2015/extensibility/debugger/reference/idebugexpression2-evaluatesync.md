@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpression2::EvaluateSync | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,27 +21,25 @@ manager: "ghogen"
 # IDebugExpression2::EvaluateSync
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpression2::EvaluateSync](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpression2-evaluatesync).  
-  
 This method evaluates the expression synchronously.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT EvaluateSync(   
-   EVALFLAGS             dwFlags,  
-   DWORD                 dwTimeout,  
-   IDebugEventCallback2* pExprCallback,  
-   IDebugProperty2**     ppResult  
+   EVALFLAGS             dwFlags,  
+   DWORD                 dwTimeout,  
+   IDebugEventCallback2* pExprCallback,  
+   IDebugProperty2**     ppResult  
 );  
 ```  
   
 ```csharp  
 int EvaluateSync(  
-   enum_EVALFLAGS       dwFlags,   
-   uint                 dwTimeout,   
-   IDebugEventCallback2 pExprCallback,   
-   out IDebugProperty2  ppResult  
+   enum_EVALFLAGS       dwFlags,   
+   uint                 dwTimeout,   
+   IDebugEventCallback2 pExprCallback,   
+   out IDebugProperty2  ppResult  
 );  
 ```  
   
@@ -74,46 +72,46 @@ int EvaluateSync(
   
 ```cpp#  
 HRESULT CExpression::EvaluateSync(EVALFLAGS dwFlags,  
-                                  DWORD dwTimeout,  
-                                  IDebugEventCallback2* pExprCallback,  
-                                  IDebugProperty2** ppResult)  
+                                  DWORD dwTimeout,  
+                                  IDebugEventCallback2* pExprCallback,  
+                                  IDebugProperty2** ppResult)  
 {  
-    // Set the aborted state to FALSE.    
-    m_bAborted = FALSE;    
-    // Delegate the evaluation to EvalExpression.    
-    return EvalExpression(TRUE, ppResult);    
+    // Set the aborted state to FALSE.    
+    m_bAborted = FALSE;    
+    // Delegate the evaluation to EvalExpression.    
+    return EvalExpression(TRUE, ppResult);    
 }  
   
 HRESULT CExpression::EvalExpression(BOOL bSynchronous,  
-                                    IDebugProperty2** ppResult)  
+                                    IDebugProperty2** ppResult)  
 {  
-    HRESULT hr;  
+    HRESULT hr;  
   
-    // Get the value of an environment variable.  
-    PCSTR pszVal = m_pEnvBlock->GetEnv(m_pszVarName);  
-    // Create and initialize a CEnvVar object with the retrieved value.  
-    // CEnvVar implements the IDebugProperty2 interface.  
-    CComObject<CEnvVar> *pEnvVar;  
-    CComObject<CEnvVar>::CreateInstance(&pEnvVar);  
-    pEnvVar->Init(m_pszVarName, pszVal, m_pDoc);  
+    // Get the value of an environment variable.  
+    PCSTR pszVal = m_pEnvBlock->GetEnv(m_pszVarName);  
+    // Create and initialize a CEnvVar object with the retrieved value.  
+    // CEnvVar implements the IDebugProperty2 interface.  
+    CComObject<CEnvVar> *pEnvVar;  
+    CComObject<CEnvVar>::CreateInstance(&pEnvVar);  
+    pEnvVar->Init(m_pszVarName, pszVal, m_pDoc);  
   
-    if (pszVal) {  
-        // Check for synchronous evaluation.  
-        if (bSynchronous) {  
-            // Set and AddRef the result, IDebugProperty2 interface.  
-            *ppResult = pEnvVar;  
-            (*ppResult)->AddRef();  
-            hr = S_OK;  
-        } else {  
-            //For asynchronous evaluation, send an evaluation complete event.  
-            CExprEvalEvent *pExprEvent = new CExprEvalEvent(this, pEnvVar);  
-            pExprEvent->SendEvent(m_pExprCallback, NULL, NULL, NULL);  
-        }  
-    } else {  
-        // If a valid value is not retrieved, return E_FAIL.  
-        hr = E_FAIL;  
-    }  
-    return hr;  
+    if (pszVal) {  
+        // Check for synchronous evaluation.  
+        if (bSynchronous) {  
+            // Set and AddRef the result, IDebugProperty2 interface.  
+            *ppResult = pEnvVar;  
+            (*ppResult)->AddRef();  
+            hr = S_OK;  
+        } else {  
+            //For asynchronous evaluation, send an evaluation complete event.  
+            CExprEvalEvent *pExprEvent = new CExprEvalEvent(this, pEnvVar);  
+            pExprEvent->SendEvent(m_pExprCallback, NULL, NULL, NULL);  
+        }  
+    } else {  
+        // If a valid value is not retrieved, return E_FAIL.  
+        hr = E_FAIL;  
+    }  
+    return hr;  
 }  
 ```  
   

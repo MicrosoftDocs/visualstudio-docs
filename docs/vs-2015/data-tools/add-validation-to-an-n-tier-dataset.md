@@ -1,7 +1,7 @@
 ---
 title: "Add validation to an n-tier dataset | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Add validation to an n-tier dataset
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add validation to an n-tier dataset](https://docs.microsoft.com/visualstudio/data-tools/add-validation-to-an-n-tier-dataset).  
-  
   
 Adding validation to a dataset that is separated into an n-tier solution is basically the same as adding validation to a single-file dataset (a dataset in a single project). The suggested location for performing validation on data is during the <xref:System.Data.DataTable.ColumnChanging> and/or <xref:System.Data.DataTable.RowChanging> events of a data table.  
   
@@ -67,7 +65,7 @@ End Sub
   
 3.  Add code to verify that `e.ProposedValue` contains data that meets the requirements of your application. If the proposed value is unacceptable, set the column to indicate that it contains an error.  
   
-     The following code example validates that the **Quantity** column contains more than 0. If**Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if**Quantity** is more than 0. The code in the column-changing event handler should resemble the following:  
+     The following code example validates that the **Quantity** column contains more than 0. If **Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if **Quantity** is more than 0. The code in the column-changing event handler should resemble the following:  
   
     ```vb  
     If (e.Column.ColumnName = Me.QuantityColumn.ColumnName) Then  

@@ -1,7 +1,7 @@
 ---
 title: "IPropertyProxyEESide::ResolveAssemblyRef | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,29 +21,27 @@ manager: "ghogen"
 # IPropertyProxyEESide::ResolveAssemblyRef
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyEESide::ResolveAssemblyRef](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref).  
-  
 Determines the location of the specified managed assembly reference.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT ResolveAssemblyRef(  
-   BSTR*                  assemName,  
-   IEEDataStorage**       assemBytes,  
-   IEEDataStorage**       assemPdb,  
-   BSTR*                  assemLocation,  
-   ASSEMBLYLOCRESOLUTION* alr  
+   BSTR*                  assemName,  
+   IEEDataStorage**       assemBytes,  
+   IEEDataStorage**       assemPdb,  
+   BSTR*                  assemLocation,  
+   ASSEMBLYLOCRESOLUTION* alr  
 );  
 ```  
   
 ```csharp  
 int ResolveAssemblyRef(  
-   ref string                     assemName,  
-   out IEEDataStorage             assemBytes,  
-   out IEEDataStorage             assemPdb,  
-   out string                     assemLocation,  
-   out enum_ASSEMBLYLOCRESOLUTION alr  
+   ref string                     assemName,  
+   out IEEDataStorage             assemBytes,  
+   out IEEDataStorage             assemPdb,  
+   out string                     assemLocation,  
+   out enum_ASSEMBLYLOCRESOLUTION alr  
 );  
 ```  
   

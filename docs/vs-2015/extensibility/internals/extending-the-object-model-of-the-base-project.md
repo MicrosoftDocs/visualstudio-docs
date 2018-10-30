@@ -1,7 +1,7 @@
 ---
 title: "Extending the Object Model of the Base Project | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Extending the Object Model of the Base Project
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending the Object Model of the Base Project](https://docs.microsoft.com/visualstudio/extensibility/internals/extending-the-object-model-of-the-base-project).  
-  
 A project subtype may extend the automation object model of the base project in the following places:  
   
 -   Project.Extender("\<ProjectSubtypeName>") – This allows a project subtype to offer an object with custom methods from the <xref:EnvDTE.Project>. A project subtype can use Automation Extenders to expose the `Project` object. The <xref:EnvDTE80.IInternalExtenderProvider>interface implemented on the main project subtype aggregator should offer its object for the `VSHPROPID_ExtObjectCATID` from <xref:Microsoft.VisualStudio.Shell.Interop.__VSSPROPID2> (corresponding to an `itemid` value of VSITEMID_ROOT, from `VSITEMID`) CATID.  

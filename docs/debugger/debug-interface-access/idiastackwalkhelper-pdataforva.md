@@ -22,10 +22,10 @@ Returns the PDATA data block associated with the virtual address.
   
 ```C++  
 HRESULT pdataForVA(   
-   ULONGLONG  va,  
-   DWORD      cbData,  
-   DWORD*     pcbData,  
-   BYTE*      pbData  
+   ULONGLONG  va,  
+   DWORD      cbData,  
+   DWORD*     pcbData,  
+   BYTE*      pbData  
 );  
 ```  
   

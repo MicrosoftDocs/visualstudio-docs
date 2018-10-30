@@ -1,7 +1,7 @@
 ---
 title: "JavaScript in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,26 +18,24 @@ manager: "ghogen"
 # JavaScript in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [JavaScript in Visual Studio](https://docs.microsoft.com/visualstudio/javascript/javascript-in-visual-studio).  
-  
 JavaScript is a first-class language in Visual Studio. You can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE. You can write JavaScript code for many application types and services.  
   
  For the JavaScript language reference documentation, see [JavaScript](http://msdn.microsoft.com/library/d1et7k7c\(v=vs.94\).aspx).  
   
  Specific versions of Visual Studio, or specific Visual Studio extensions, may be required to develop particular application types and services using HTML and JavaScript. The following list has links to more information.  
   
--   To create cross-platform apps using Apache Cordova, [get the Visual Studio Tools for Apache Cordova](http://go.microsoft.com/fwlink/p/?LinkId=397606).  
+- To create cross-platform apps using Apache Cordova, [get the Visual Studio Tools for Apache Cordova](http://go.microsoft.com/fwlink/p/?LinkId=397606).  
   
--   To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/en-us/develop/downloads).  
+- To create [Windows Store](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop), and universal apps (that support both platforms), [get the tools](http://dev.windows.com/en-us/develop/downloads).  
   
--   To create cloud-based services, see the [Microsoft Azure site](http://azure.microsoft.com/documentation/).  
+- To create cloud-based services, see the [Microsoft Azure site](http://azure.microsoft.com/documentation/).  
   
--   To create web sites and web apps, [see the ASP.NET site](http://www.asp.net/get-started/websites).  
+- To create web sites and web apps, [see the ASP.NET site](http://www.asp.net/get-started/websites).  
   
-    > [!NOTE]
-    >  You can create an empty ASP.Net Web site and use it for HTML, CSS, and JavaScript programming. The Webconfig file provided by ASP.NET enables debugging in Visual Studio (or you can use F12 tools when you run the app).  
+  > [!NOTE]
+  >  You can create an empty ASP.Net Web site and use it for HTML, CSS, and JavaScript programming. The Webconfig file provided by ASP.NET enables debugging in Visual Studio (or you can use F12 tools when you run the app).  
   
- The JavaScript editor in Visual Studio provides IntelliSense support. For more info, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).  
+  The JavaScript editor in Visual Studio provides IntelliSense support. For more info, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).  
   
 ## What's New in JavaScript  
  New features for JavaScript are listed in the following table.  

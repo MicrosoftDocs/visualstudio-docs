@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentTextEvents2::onRemoveText | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onRemoveText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentTextEvents2::onRemoveText](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttextevents2-onremovetext).  
-  
 Notifies the debug package that text has been removed from the document.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT onRemoveText(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToRemove  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToRemove  
 );  
 ```  
   
 ```csharp  
 int onRemoveText(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToRemove  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToRemove  
 );  
 ```  
   

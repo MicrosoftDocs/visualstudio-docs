@@ -1,7 +1,7 @@
 ---
 title: "COM and ActiveX Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,8 +31,6 @@ manager: "ghogen"
 # COM and ActiveX Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [COM and ActiveX Debugging](https://docs.microsoft.com/visualstudio/debugger/com-and-activex-debugging).  
-  
 This section provides tips on debugging COM applications and ActiveX controls.  
   
 ## In This Section  

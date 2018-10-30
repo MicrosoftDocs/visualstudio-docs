@@ -1,7 +1,7 @@
 ---
 title: "NameSearchOptions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,27 +22,25 @@ manager: "ghogen"
 # NameSearchOptions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [NameSearchOptions](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/namesearchoptions).  
-  
 Specifies the search options for symbol and file names.  
   
 ## Syntax  
   
 ```cpp#  
 enum NameSearchOptions {   
-   nsNone,  
-   nsfCaseSensitive     = 0x1,  
-   nsfCaseInsensitive   = 0x2,  
-   nsfFNameExt          = 0x4,  
-   nsfRegularExpression = 0x8,  
-   nsfUndecoratedName   = 0x10,  
+   nsNone,  
+   nsfCaseSensitive     = 0x1,  
+   nsfCaseInsensitive   = 0x2,  
+   nsfFNameExt          = 0x4,  
+   nsfRegularExpression = 0x8,  
+   nsfUndecoratedName   = 0x10,  
   
 // For backward compatibility:  
-   nsCaseSensitive           = nsfCaseSensitive,  
-   nsCaseInsensitive         = nsfCaseInsensitive,  
-   nsFNameExt                = nsfCaseInsensitive | nsfFNameExt,  
-   nsRegularExpression       = nsfRegularExpression | nsfCaseSensitive,  
-   nsCaseInRegularExpression = nsfRegularExpression | nsfCaseInsensitive  
+   nsCaseSensitive           = nsfCaseSensitive,  
+   nsCaseInsensitive         = nsfCaseInsensitive,  
+   nsFNameExt                = nsfCaseInsensitive | nsfFNameExt,  
+   nsRegularExpression       = nsfRegularExpression | nsfCaseSensitive,  
+   nsCaseInRegularExpression = nsfRegularExpression | nsfCaseInsensitive  
 };  
 ```  
   

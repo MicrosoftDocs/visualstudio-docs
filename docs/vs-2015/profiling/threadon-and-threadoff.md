@@ -1,7 +1,7 @@
 ---
 title: "ThreadOn and ThreadOff | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # ThreadOn and ThreadOff
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ThreadOn and ThreadOff](https://docs.microsoft.com/visualstudio/profiling/threadon-and-threadoff).  
-  
 The VSPerfCmd.exe **ThreadOff** and **ThreadOn** subcommands are only available in command-line profiling sessions that use the instrumentation method. **ThreadOff** and **ThreadOn** pause and resume profiling for the specified thread. **ThreadOff** stops profiling the thread and **ThreadOn** starts profiling the thread.  
   
  In most cases, you specify **ThreadOn** or **ThreadOff** as the only option in a VSPerfCmd.exe command line, but they can also be combined with the **GlobalOn**, **GlobalOff**, **ProcessOn**, and **ProcessOff** subcommands.  
@@ -28,11 +26,11 @@ The VSPerfCmd.exe **ThreadOff** and **ThreadOn** subcommands are only available 
   
  The **ThreadOff** and **ThreadOn** subcommands also affect the Thread Start/Stop count that is manipulated by profiler API functions.  
   
--   **ThreadOff** immediately sets the Thread Start/Stop Count to 0 and therefore pauses profiling.  
+- **ThreadOff** immediately sets the Thread Start/Stop Count to 0 and therefore pauses profiling.  
   
--   **ThreadOn** immediately sets the Thread Start/Stop Count to 1 and therefore resumes profiling.  
+- **ThreadOn** immediately sets the Thread Start/Stop Count to 1 and therefore resumes profiling.  
   
- For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
+  For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
   
 ## Syntax  
   

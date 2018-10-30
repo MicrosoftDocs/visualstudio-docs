@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Find a memory leak (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Walkthrough: Find a memory leak (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Find a memory leak (JavaScript)](https://docs.microsoft.com/visualstudio/profiling/walkthrough-find-a-memory-leak-javascript).  
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  This walkthrough leads you through the process of identifying and fixing a simple memory issue by using the JavaScript memory analyzer. The JavaScript memory analyzer is available in Visual Studio for Windows Store apps built for Windows using JavaScript. In this scenario, you create an app that incorrectly retains DOM elements in memory instead of disposing of elements at the same rate in which they are created.  
@@ -135,44 +133,44 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 ### Analyzing the memory usage  
   
-1.  On the **Debug** toolbar, in the **Start Debugging** list, choose the debug target for the updated project: either one of the Windows Phone Emulators or **Simulator**.  
+1. On the **Debug** toolbar, in the **Start Debugging** list, choose the debug target for the updated project: either one of the Windows Phone Emulators or **Simulator**.  
   
-    > [!TIP]
-    >  For a Windows Store app, you can also choose **Local Machine** or **Remote Machine** in this list. However, the advantage of using the emulator or the simulator is that you can place it next to Visual Studio and easily switch between the running app and the JavaScript memory analyzer. For more info, see [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md) and [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).  
+   > [!TIP]
+   >  For a Windows Store app, you can also choose **Local Machine** or **Remote Machine** in this list. However, the advantage of using the emulator or the simulator is that you can place it next to Visual Studio and easily switch between the running app and the JavaScript memory analyzer. For more info, see [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md) and [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).  
   
-2.  On the **Debug** menu, choose **Performance Profiler...**.  
+2. On the **Debug** menu, choose **Performance Profiler...**.  
   
-3.  In **Available Tools**, choose **JavaScript Memory**, and then choose **Start**.  
+3. In **Available Tools**, choose **JavaScript Memory**, and then choose **Start**.  
   
-     In this tutorial, you'll be attaching the memory analyzer to the startup project. For info about other options, like attaching the memory analyzer to an installed app, see [JavaScript Memory](../profiling/javascript-memory.md).  
+    In this tutorial, you'll be attaching the memory analyzer to the startup project. For info about other options, like attaching the memory analyzer to an installed app, see [JavaScript Memory](../profiling/javascript-memory.md).  
   
-     When you start the memory analyzer, you might see a User Account Control requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
+    When you start the memory analyzer, you might see a User Account Control requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
   
-4.  Choose the **Leak Memory** button four times in succession.  
+4. Choose the **Leak Memory** button four times in succession.  
   
-     When you choose the button, the event handling code in default.js does work that will result in a memory leak. You'll use this for diagnostic purposes.  
+    When you choose the button, the event handling code in default.js does work that will result in a memory leak. You'll use this for diagnostic purposes.  
   
-    > [!TIP]
-    >  Repeating the scenario that you want to test for a memory leak makes it easier to filter out uninteresting info, such as objects that are added to the heap during app initialization or when loading a page.  
+   > [!TIP]
+   >  Repeating the scenario that you want to test for a memory leak makes it easier to filter out uninteresting info, such as objects that are added to the heap during app initialization or when loading a page.  
   
-5.  From the running app, switch to Visual Studio (Alt+Tab).  
+5. From the running app, switch to Visual Studio (Alt+Tab).  
   
-     The JavaScript memory analyzer displays information in a new tab in Visual Studio.  
+    The JavaScript memory analyzer displays information in a new tab in Visual Studio.  
   
-     The memory graph in this summary view shows process memory usage over time. The view also provides commands like **Take heap snapshot**. A snapshot provides detailed information about memory usage at a particular time. For more info, see [JavaScript Memory](../profiling/javascript-memory.md).  
+    The memory graph in this summary view shows process memory usage over time. The view also provides commands like **Take heap snapshot**. A snapshot provides detailed information about memory usage at a particular time. For more info, see [JavaScript Memory](../profiling/javascript-memory.md).  
   
-6.  Choose **Take heap snapshot**.  
+6. Choose **Take heap snapshot**.  
   
-7.  Switch to the app and choose **Leak Memory**.  
+7. Switch to the app and choose **Leak Memory**.  
   
-8.  Switch to Visual Studio and choose **Take heap snapshot** again.  
+8. Switch to Visual Studio and choose **Take heap snapshot** again.  
   
-     This illustration shows the baseline snapshot (#1) and Snapshot #2.  
+    This illustration shows the baseline snapshot (#1) and Snapshot #2.  
   
-     ![The baseline snapshot and snapshot 2](../profiling/media/js-mem-app-snapshot2.png "JS_Mem_App_Snapshot2")  
+    ![The baseline snapshot and snapshot 2](../profiling/media/js-mem-app-snapshot2.png "JS_Mem_App_Snapshot2")  
   
-    > [!NOTE]
-    >  The Windows Phone Emulator does not show a screenshot of the app at the time the snapshot was taken.  
+   > [!NOTE]
+   >  The Windows Phone Emulator does not show a screenshot of the app at the time the snapshot was taken.  
   
 9. Switch to the app and choose the **Leak Memory** button again.  
   
@@ -189,18 +187,18 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 12. In Visual Studio, compare the snapshots. Snapshot #2 shows the following:  
   
-    -   The heap size (shown by the red up arrow on the left) has increased by several KB compared to Snapshot #1.  
+    - The heap size (shown by the red up arrow on the left) has increased by several KB compared to Snapshot #1.  
   
-        > [!IMPORTANT]
-        >  Exact memory usage values for the heap size depend on the debug target.  
+      > [!IMPORTANT]
+      >  Exact memory usage values for the heap size depend on the debug target.  
   
-    -   The number of objects on the heap (shown by the red up arrow on the right) has increased compared to Snapshot #1. One object has been added (+1) and no objects have been removed (-0).  
+    - The number of objects on the heap (shown by the red up arrow on the right) has increased compared to Snapshot #1. One object has been added (+1) and no objects have been removed (-0).  
   
-     Snapshot #3 shows the following:  
+      Snapshot #3 shows the following:  
   
-    -   The heap size has increased again by several hundred bytes compared to Snapshot #2.  
+    - The heap size has increased again by several hundred bytes compared to Snapshot #2.  
   
-    -   The number of objects on the heap has increased again compared to Snapshot #2. One object has been added (+1) and no objects have been removed (-0).  
+    - The number of objects on the heap has increased again compared to Snapshot #2. One object has been added (+1) and no objects have been removed (-0).  
   
 13. In Snapshot #3, choose the link text on the right, which shows a value of +1 / -0 next to the red up arrow.  
   
@@ -216,76 +214,76 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      This view shows helpful information about the memory leak, such as the following:  
   
-    -   This view shows a DIV element with an ID of `item`, and the retained size for the object is several hundred bytes (exact value will vary).  
+    - This view shows a DIV element with an ID of `item`, and the retained size for the object is several hundred bytes (exact value will vary).  
   
-    -   This object is a leftover object from Snapshot #2 and represents a potential memory leak.  
+    - This object is a leftover object from Snapshot #2 and represents a potential memory leak.  
   
-     Some knowledge of the app helps at this point: Choosing the **Leak Memory** button should remove a DIV element and add an element, so the code doesn't seem to be working right (that is, it leaks memory). The next section explains how to fix that.  
+      Some knowledge of the app helps at this point: Choosing the **Leak Memory** button should remove a DIV element and add an element, so the code doesn't seem to be working right (that is, it leaks memory). The next section explains how to fix that.  
   
     > [!TIP]
     >  Sometimes, locating an object in relation to the `Global` object may help identify that object. To do this, open the shortcut menu for the identifier, and then choose **Show in roots view**.  
   
 ##  <a name="FixingMemory"></a> Fixing the memory issue  
   
-1.  Using data revealed by the profiler, you examine code that is responsible for removing DOM elements with an ID of "item". That occurs in the `initialize()` function.  
+1. Using data revealed by the profiler, you examine code that is responsible for removing DOM elements with an ID of "item". That occurs in the `initialize()` function.  
   
-    ```javascript  
-    function initialize() {  
+   ```javascript  
+   function initialize() {  
   
-        if (wrapper != null) {  
-            elem.removeNode(true);  
-        }  
-    }  
-    ```  
+       if (wrapper != null) {  
+           elem.removeNode(true);  
+       }  
+   }  
+   ```  
   
-     `elem.removeNode(true)` is, perhaps, not working correctly. You examine how the code is caching the DOM element and find an issue; the reference to the cached element is not getting updated.  
+    `elem.removeNode(true)` is, perhaps, not working correctly. You examine how the code is caching the DOM element and find an issue; the reference to the cached element is not getting updated.  
   
-2.  In default.js, add the following line of code to the load function, just before calling `appendChild`:  
+2. In default.js, add the following line of code to the load function, just before calling `appendChild`:  
   
-    ```javascript  
-    elem = newDiv;  
-    ```  
+   ```javascript  
+   elem = newDiv;  
+   ```  
   
-     This code updates the reference to the cached element so that the element is correctly removed when you choose the **Leak Memory** button. The complete code for the load function now looks like this:  
+    This code updates the reference to the cached element so that the element is correctly removed when you choose the **Leak Memory** button. The complete code for the load function now looks like this:  
   
-    ```javascript  
-    function load() {  
+   ```javascript  
+   function load() {  
   
-        wrapper = document.querySelector(".wrapper");  
+       wrapper = document.querySelector(".wrapper");  
   
-        var newDiv = document.createElement("div");  
+       var newDiv = document.createElement("div");  
   
-        newDiv.style.zIndex = "-1";  
-        newDiv.id = "item";  
-        elem = newDiv;  
+       newDiv.style.zIndex = "-1";  
+       newDiv.id = "item";  
+       elem = newDiv;  
   
-        wrapper.appendChild(newDiv);  
-    }  
-    ```  
+       wrapper.appendChild(newDiv);  
+   }  
+   ```  
   
-3.  On the **Debug** menu, choose **Performance and Diagnostics**.  
+3. On the **Debug** menu, choose **Performance and Diagnostics**.  
   
-4.  In **Available Tools**, choose **JavaScript Memory**, and then choose **Start**.  
+4. In **Available Tools**, choose **JavaScript Memory**, and then choose **Start**.  
   
-5.  Follow the same procedure as before to take three snapshots. The steps are summarized here:  
+5. Follow the same procedure as before to take three snapshots. The steps are summarized here:  
   
-    1.  In the app, choose the **Leak Memory** button four times in succession.  
+   1. In the app, choose the **Leak Memory** button four times in succession.  
   
-    2.  Switch to Visual Studio and choose **Take heap snapshot** for the baseline snapshot.  
+   2. Switch to Visual Studio and choose **Take heap snapshot** for the baseline snapshot.  
   
-    3.  In the app, choose the **Leak Memory** button.  
+   3. In the app, choose the **Leak Memory** button.  
   
-    4.  Switch to Visual Studio and choose **Take heap snapshot** for the second snapshot.  
+   4. Switch to Visual Studio and choose **Take heap snapshot** for the second snapshot.  
   
-    5.  In the app, choose the **Leak Memory** button.  
+   5. In the app, choose the **Leak Memory** button.  
   
-    6.  Switch to Visual Studio and choose **Take heap snapshot** for the third snapshot.  
+   6. Switch to Visual Studio and choose **Take heap snapshot** for the third snapshot.  
   
-     Snapshot #3 now shows the heap size as **No increase** from Snapshot #2, and the object count as +1 / -1, which indicates that one objects has been added and one object has been removed. This is the desired behavior.  
+      Snapshot #3 now shows the heap size as **No increase** from Snapshot #2, and the object count as +1 / -1, which indicates that one objects has been added and one object has been removed. This is the desired behavior.  
   
-     The following illustration shows Snapshot #2 and Snapshot #3.  
+      The following illustration shows Snapshot #2 and Snapshot #3.  
   
-     ![Snapshots showing the fixed memory leak](../profiling/media/js-mem-app-fixed-snapshot3.png "JS_Mem_App_Fixed_Snapshot3")  
+      ![Snapshots showing the fixed memory leak](../profiling/media/js-mem-app-fixed-snapshot3.png "JS_Mem_App_Fixed_Snapshot3")  
   
 ## See Also  
  [JavaScript Memory](../profiling/javascript-memory.md)

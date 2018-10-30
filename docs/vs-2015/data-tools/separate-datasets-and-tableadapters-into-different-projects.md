@@ -1,7 +1,7 @@
 ---
 title: "Separate datasets and TableAdapters into different projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Separate datasets and TableAdapters into different projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Separate datasets and TableAdapters into different projects](https://docs.microsoft.com/visualstudio/data-tools/separate-datasets-and-tableadapters-into-different-projects).  
-  
   
 Typed datasets have been enhanced so that the [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  
   
@@ -38,29 +36,29 @@ Typed datasets have been enhanced so that the [TableAdapters](http://msdn.micros
   
 #### To separate the dataset into a different project  
   
-1.  Open a solution that contains a dataset (.xsd file).  
+1. Open a solution that contains a dataset (.xsd file).  
   
-    > [!NOTE]
-    >  If the solution does not contain the project into which you want to separate your dataset code, create the project, or add an existing project to the solution.  
+   > [!NOTE]
+   >  If the solution does not contain the project into which you want to separate your dataset code, create the project, or add an existing project to the solution.  
   
-2.  Double-click a typed dataset file (an .xsd file) in **Solution Explorer** to open the dataset in the **Dataset Designer**.  
+2. Double-click a typed dataset file (an .xsd file) in **Solution Explorer** to open the dataset in the **Dataset Designer**.  
   
-3.  Select an empty area of the **Dataset Designer**.  
+3. Select an empty area of the **Dataset Designer**.  
   
-4.  In the **Properties** window, locate the **DataSet Project** node.  
+4. In the **Properties** window, locate the **DataSet Project** node.  
   
-5.  In the **DataSet Project** list, select the name of the project into which you want to generate the dataset code.  
+5. In the **DataSet Project** list, select the name of the project into which you want to generate the dataset code.  
   
-     After you select the project into which you want to generate the dataset code, the **DataSet File** property is populated with a default file name. You can change this name if necessary. Additionally, if you want to generate the dataset code into a specific directory, you can set the **Project Folder** property to the name of a folder.  
+    After you select the project into which you want to generate the dataset code, the **DataSet File** property is populated with a default file name. You can change this name if necessary. Additionally, if you want to generate the dataset code into a specific directory, you can set the **Project Folder** property to the name of a folder.  
   
-    > [!NOTE]
-    >  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project won't be moved automatically. Existing dataset partial classes must be  moved manually to the dataset project.  
+   > [!NOTE]
+   >  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project won't be moved automatically. Existing dataset partial classes must be  moved manually to the dataset project.  
   
-6.  Save the dataset.  
+6. Save the dataset.  
   
-     The dataset code is generated into the selected project  in the **DataSet Project** property, and the **TableAdapter** code is generated into the current project.  
+    The dataset code is generated into the selected project  in the **DataSet Project** property, and the **TableAdapter** code is generated into the current project.  
   
- By default, after you separate the dataset and `TableAdapter` code, the result is a discrete class file in each project. The original project has a file  named DatasetName.Designer.vb (or DatasetName.Designer.cs) that contains the `TableAdapter` code. The project that's designated in the **Dataset Project** property has a file named DatasetName.DataSet.Designer.vb (or DatasetName.DataSet.Designer.cs) that contains the dataset code.  
+   By default, after you separate the dataset and `TableAdapter` code, the result is a discrete class file in each project. The original project has a file  named DatasetName.Designer.vb (or DatasetName.Designer.cs) that contains the `TableAdapter` code. The project that's designated in the **Dataset Project** property has a file named DatasetName.DataSet.Designer.vb (or DatasetName.DataSet.Designer.cs) that contains the dataset code.  
   
 > [!NOTE]
 >  To view the generated class file, select the dataset or `TableAdapter` project. Then, in  **Solution Explorer**, select **Show All Files** .  

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isSplitted | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_isSplitted
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isSplitted](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-issplitted).  
-  
 Retrieves a flag that specifies whether the data symbol has been split into an aggregation or collection of other symbols; the compiler treats the symbols as separate entities, even though they are really part of a larger symbol.  
   
 ## Syntax  
   
 ```cpp  
 HRESULT get_isSplitted(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

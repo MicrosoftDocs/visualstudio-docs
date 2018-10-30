@@ -1,7 +1,7 @@
 ---
 title: "Display data in Blend | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Display data in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Display data in Blend](https://docs.microsoft.com/visualstudio/designers/display-data-in-blend).  
-  
 You can view sample data in your designer as you customize the layout of your pages. You can generate sample data from scratch or by using an existing class. You can also connect to *Live data* that will appear in your app when you run it.  
   
  **In this topic:**  

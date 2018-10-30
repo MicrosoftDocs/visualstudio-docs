@@ -1,7 +1,7 @@
 ---
 title: "Event Handlers Propagate Changes Outside the Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,31 +19,29 @@ manager: "douge"
 # Event Handlers Propagate Changes Outside the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Event Handlers Propagate Changes Outside the Model](https://docs.microsoft.com/visualstudio/modeling/event-handlers-propagate-changes-outside-the-model).  
-  
 In Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store, such as non-store variables, files, models in other stores, or other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensions. Store event handlers are executed after the end of the transaction in which the triggering event occurred. They are also executed in an Undo or Redo operation. Therefore, unlike store rules, store events are most useful for updating values that are outside the store. Unlike .NET events, store event handlers are registered to listen to a class: you do not have to register a separate handler for each instance. For more information about how to choose between different ways to handle changes, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).  
   
  The graphical surface and other user interface controls are examples of external resources that can be handled by store events.  
   
 ### To define a store event  
   
-1.  Choose the type of event that you want to monitor. For a full list, look at the properties of <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
+1. Choose the type of event that you want to monitor. For a full list, look at the properties of <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
   
-    -   `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
+   -   `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
   
-    -   ElementPropertyChanged – triggered when the value of a `Normal` domain property is changed. The event is triggered only if the new and old values are not equal. The event cannot be applied to calculated and custom storage properties.  
+   -   ElementPropertyChanged – triggered when the value of a `Normal` domain property is changed. The event is triggered only if the new and old values are not equal. The event cannot be applied to calculated and custom storage properties.  
   
-         It cannot be applied to the role properties that correspond to relationship links. Instead, use `ElementAdded` to monitor the domain relationship.  
+        It cannot be applied to the role properties that correspond to relationship links. Instead, use `ElementAdded` to monitor the domain relationship.  
   
-    -   `ElementDeleted` – triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
+   -   `ElementDeleted` – triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
   
-2.  Add a partial class definition for _YourDsl_**DocData** in a separate code file in the **DslPackage** project.  
+2. Add a partial class definition for _YourDsl_**DocData** in a separate code file in the **DslPackage** project.  
   
-3.  Write the code of the event as a method, as in the following example. It can be `static`, unless you want to access `DocData`.  
+3. Write the code of the event as a method, as in the following example. It can be `static`, unless you want to access `DocData`.  
   
-4.  Override `OnDocumentLoaded()` to register the handler. If you have more than one handler, you can register them all in the same place.  
+4. Override `OnDocumentLoaded()` to register the handler. If you have more than one handler, you can register them all in the same place.  
   
- The location of the registration code is not critical. `DocView.LoadView()` is an alternative location.  
+   The location of the registration code is not critical. `DocView.LoadView()` is an alternative location.  
   
 ```  
 using System;  

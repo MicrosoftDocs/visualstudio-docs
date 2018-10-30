@@ -1,7 +1,7 @@
 ---
 title: "IDebugProperty2::GetSize | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProperty2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProperty2::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugproperty2-getsize).  
-  
 Gets the size, in bytes, of the property value.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetSize (   
-   DWORD* pdwSize  
+   DWORD* pdwSize  
 );  
 ```  
   
 ```csharp  
 int GetSize (   
-   out uint pdwSize  
+   out uint pdwSize  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "How to: Customize Class Diagrams (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # How to: Customize Class Diagrams (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Customize Class Diagrams (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-customize-class-diagrams-class-designer).  
-  
 You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.  
   
  For example, you can adjust the zoom level of an entire class diagram, change how individual type members are grouped and sorted, hide or show relationships, and move individual or sets of types anywhere on the diagram.  
@@ -125,11 +123,11 @@ You can change the way that class diagrams display information. You can customiz
   
 ##  <a name="DisplayAssociationAndInheritance"></a> Show hidden relationships  
   
-1.  Open and select a class diagram file in Class Designer.  
+1. Open and select a class diagram file in Class Designer.  
   
-2.  Right-click the type with the hidden association or inheritance.  
+2. Right-click the type with the hidden association or inheritance.  
   
- Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.  
+   Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.  
   
 ##  <a name="RemoveCodeAndShape"></a> Remove a shape from a class diagram  
  You can remove a type shape from the class diagram without affecting the type's underlying code. Removing type shapes from a class diagram affects only that diagram: the underlying code that defines the type and other diagrams that display the type are not affected.  

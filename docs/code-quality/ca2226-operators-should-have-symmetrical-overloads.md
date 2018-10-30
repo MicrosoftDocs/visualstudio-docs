@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2226: Operators should have symmetrical overloads
+
 |||
 |-|-|
 |TypeName|OperatorsShouldHaveSymmetricalOverloads|
@@ -37,7 +38,7 @@ ms.workload:
  To fix a violation of this rule, implement both the equality and inequality operators, or remove the one that is present.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule. Your type will not work in a manner that is consistent with the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ Do not suppress a warning from this rule. Your type will not work in a manner that is consistent with the .NET Framework.
 
 ## Related rules
  [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046-do-not-overload-operator-equals-on-reference-types.md)

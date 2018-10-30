@@ -1,7 +1,7 @@
 ---
 title: "Customizing Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Customizing Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Project and Item Templates](https://docs.microsoft.com/visualstudio/ide/customizing-project-and-item-templates).  
-  
 After project and item templates have been created, you still have the ability to further customize them to meet your needs.  
   
  For example, you can perform the following tasks:  

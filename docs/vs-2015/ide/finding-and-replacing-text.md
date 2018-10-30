@@ -1,7 +1,7 @@
 ---
 title: "Finding and Replacing Text | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,8 +46,6 @@ manager: "ghogen"
 # Finding and Replacing Text
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Finding and Replacing Text](https://docs.microsoft.com/visualstudio/ide/finding-and-replacing-text).  
-  
 You can find and replace text in the Visual Studio code editor, and certain text-based output windows such as the **Find Results** windows, using the **Find and Replace** control or **Find/Replace in Files**. You can also search and replace in some designer windows, such as the XAML designer and the Windows Forms designer, and tool windows  
   
  You can scope searches to the current document, the current solution, or a custom set of folders. You can also specify a set of file name extensions for multi-file searches. You can customize search syntax by using .NET regular expressions.  

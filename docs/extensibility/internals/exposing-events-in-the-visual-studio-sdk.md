@@ -22,23 +22,23 @@ ms.workload:
   
  The following process explains how VSPackage-specific events are returned.  
   
-1.  The environment starts.  
+1. The environment starts.  
   
-2.  It reads from the registry all value names under the **Automation**, **AutomationEvents**, and **AutomationProperties** keys of all VSPackages, and stores those names in a table.  
+2. It reads from the registry all value names under the **Automation**, **AutomationEvents**, and **AutomationProperties** keys of all VSPackages, and stores those names in a table.  
   
-3.  An automation consumer calls, in this example, `DTE.Events.AutomationProjectsEvents` or `DTE.Events.AutomationProjectItemsEvents`.  
+3. An automation consumer calls, in this example, `DTE.Events.AutomationProjectsEvents` or `DTE.Events.AutomationProjectItemsEvents`.  
   
-4.  The environment finds the string parameter in the table and loads the corresponding VSPackage.  
+4. The environment finds the string parameter in the table and loads the corresponding VSPackage.  
   
-5.  The environment calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> method by using the name passed in the call; in this example, `AutomationProjectsEvents` or `AutomationProjectItemsEvents`.  
+5. The environment calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> method by using the name passed in the call; in this example, `AutomationProjectsEvents` or `AutomationProjectItemsEvents`.  
   
-6.  The VSPackage creates a root object that has methods such as `get_AutomationProjectsEvents` and `get_AutomationProjectItemEvents` and then returns an IDispatch pointer to the object.  
+6. The VSPackage creates a root object that has methods such as `get_AutomationProjectsEvents` and `get_AutomationProjectItemEvents` and then returns an IDispatch pointer to the object.  
   
-7.  The environment calls the appropriate method based on the name passed into the automation call.  
+7. The environment calls the appropriate method based on the name passed into the automation call.  
   
-8.  The `get_` method creates another IDispatch-based event object that implements both the `IConnectionPointContainer` interface and the `IConnectionPoint` interface and returns an `IDispatchpointer` to the object.  
+8. The `get_` method creates another IDispatch-based event object that implements both the `IConnectionPointContainer` interface and the `IConnectionPoint` interface and returns an `IDispatchpointer` to the object.  
   
- To expose an event by using automation, you must respond to <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> and watch for the strings that you add to the registry. In the Basic Project sample, the strings are *BscProjectsEvents* and *BscProjectItemsEvents*.  
+   To expose an event by using automation, you must respond to <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> and watch for the strings that you add to the registry. In the Basic Project sample, the strings are *BscProjectsEvents* and *BscProjectItemsEvents*.  
   
 ## Registry entries from the Basic Project sample  
  This section shows where to add automation event values to the registry.  

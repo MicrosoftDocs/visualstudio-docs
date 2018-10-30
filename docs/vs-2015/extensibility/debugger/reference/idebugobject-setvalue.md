@@ -1,7 +1,7 @@
 ---
 title: "IDebugObject::SetValue | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugObject::SetValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::SetValue](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-setvalue).  
-  
 Sets the value of the object from a consecutive series of bytes.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT SetValue(   
-   BYTE* pValue,  
-   UINT  nSize  
+   BYTE* pValue,  
+   UINT  nSize  
 );  
 ```  
   
 ```csharp  
 int SetValue(  
-   byte[] pValue,   
-   uint   nSize  
+   byte[] pValue,   
+   uint   nSize  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "NameProfile | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # NameProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [NameProfile](https://docs.microsoft.com/visualstudio/profiling/nameprofile).  
-  
 The `NameProfile` function assigns a string to the specified process or thread.  
   
  The NameProfile API is available only for instrumentation profiling. The NameProfile API is not supported for sampling profiling.  
@@ -31,9 +29,9 @@ The `NameProfile` function assigns a string to the specified process or thread.
   
 ```  
 PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(  
-                                   LPCTSTR pszName,   
-                                   PROFILE_CONTROL_LEVEL Level,  
-                                   unsigned int dwId);  
+                                   LPCTSTR pszName,   
+                                   PROFILE_CONTROL_LEVEL Level,  
+                                   unsigned int dwId);  
 ```  
   
 #### Parameters  
@@ -41,17 +39,17 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
   
  The name of the profiling element. A name is invalid (resulting in NameProfileA return NAME_ERROR_INVALID_NAME) if:  
   
--   The pointer passed into NameProfileA is a NULL value  
+- The pointer passed into NameProfileA is a NULL value  
   
--   The string data of pszName starts with a number  
+- The string data of pszName starts with a number  
   
--   The string data of pszName contains a space  
+- The string data of pszName contains a space  
   
--   The string data of pszName contains any of the following characters: ,;.`~!@#$%^&*()=[]{}&#124;\\?/<>  
+- The string data of pszName contains any of the following characters: ,;.`~!@#$%^&*()=[]{}&#124;\\?/<>  
   
- `Level`  
+  `Level`  
   
- Indicates the profile level to which performance data collection can be applied. The following **PROFILE_CONTROL_LEVEL** values can be used to indicate one of the three levels to which performance data collection can be applied:  
+  Indicates the profile level to which performance data collection can be applied. The following **PROFILE_CONTROL_LEVEL** values can be used to indicate one of the three levels to which performance data collection can be applied:  
   
 |Enumerator|Description|  
 |----------------|-----------------|  

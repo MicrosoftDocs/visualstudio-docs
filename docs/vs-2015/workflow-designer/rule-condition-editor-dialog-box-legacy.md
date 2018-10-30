@@ -1,7 +1,7 @@
 ---
 title: "Rule Condition Editor Dialog Box (Legacy) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,21 +22,21 @@ This topic describes how use the **Rule Condition Editor** dialog box in the leg
   
  You create and modify declarative rule conditions by using the **Rule Condition Editor** dialog box. These rule conditions are exposed as properties on the following Windows Workflow Foundation out-of-box activities:  
   
--   [ConditionedActivityGroup](http://go.microsoft.com/fwlink?LinkID=65017)  
+- [ConditionedActivityGroup](http://go.microsoft.com/fwlink?LinkID=65017)  
   
--   [IfElseBranchActivity](http://go.microsoft.com/fwlink?LinkID=65034)  
+- [IfElseBranchActivity](http://go.microsoft.com/fwlink?LinkID=65034)  
   
--   [ReplicatorActivity](http://go.microsoft.com/fwlink?LinkID=65039)  
+- [ReplicatorActivity](http://go.microsoft.com/fwlink?LinkID=65039)  
   
--   [WhileActivity](http://go.microsoft.com/fwlink?LinkID=65049)  
+- [WhileActivity](http://go.microsoft.com/fwlink?LinkID=65049)  
   
--   [SequentialWorkflowActivity](http://go.microsoft.com/fwlink?LinkID=65040)  
+- [SequentialWorkflowActivity](http://go.microsoft.com/fwlink?LinkID=65040)  
   
--   [StateMachineWorkflowActivity](http://go.microsoft.com/fwlink?LinkID=65045)  
+- [StateMachineWorkflowActivity](http://go.microsoft.com/fwlink?LinkID=65045)  
   
- You access the **Rule Condition Editor** dialog box by using the [Select Condition Dialog Box (Legacy)](../workflow-designer/select-condition-dialog-box-legacy.md).  
+  You access the **Rule Condition Editor** dialog box by using the [Select Condition Dialog Box (Legacy)](../workflow-designer/select-condition-dialog-box-legacy.md).  
   
- The following table describes the user interface (UI) elements of the **Rule Condition Editor** dialog box.  
+  The following table describes the user interface (UI) elements of the **Rule Condition Editor** dialog box.  
   
 |UI Element|Description|  
 |----------------|-----------------|  
@@ -50,33 +50,33 @@ This topic describes how use the **Rule Condition Editor** dialog box in the leg
   
  The Rule Condition Editor supports the following operators:  
   
--   Relational operators: ==, =, !=  
+- Relational operators: ==, =, !=  
   
--   Comparison operators: <, \<=, >, >=  
+- Comparison operators: <, \<=, >, >=  
   
--   Arithmetic operators: +, - , *, /, MOD  
+- Arithmetic operators: +, - , *, /, MOD  
   
--   Logical operators: AND, &&, OR, &#124;&#124;, NOT, !  
+- Logical operators: AND, &&, OR, &#124;&#124;, NOT, !  
   
--   Bitwise operators: &, &#124;  
+- Bitwise operators: &, &#124;  
   
- Expression operator precedence follows C# operator precedence rules.  
+  Expression operator precedence follows C# operator precedence rules.  
   
- The Rule Condition Editor supports the following numeric expressions:  
+  The Rule Condition Editor supports the following numeric expressions:  
   
- this.i == 1D (resolves to 1.0)  
+  this.i == 1D (resolves to 1.0)  
   
- this.i == 1E1 (resolves to 10.0)  
+  this.i == 1E1 (resolves to 10.0)  
   
- this.i == 1L (resolves as a long)  
+  this.i == 1L (resolves as a long)  
   
- this.i == 1M (resolves as a decimal)  
+  this.i == 1M (resolves as a decimal)  
   
- this.i == 1F (resolves as a single)  
+  this.i == 1F (resolves as a single)  
   
- this.i == 1U (resolves as an unsigned int)  
+  this.i == 1U (resolves as an unsigned int)  
   
- For more information about conditions, see [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009).  
+  For more information about conditions, see [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009).  
   
 ## See Also  
  [IfElseActivity](http://go.microsoft.com/fwlink?LinkID=65033)   

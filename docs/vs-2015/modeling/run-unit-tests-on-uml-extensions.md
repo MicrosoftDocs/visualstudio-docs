@@ -1,7 +1,7 @@
 ---
 title: "Run unit tests on UML extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,33 +16,31 @@ manager: "douge"
 # Run unit tests on UML extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Run unit tests on UML extensions](https://docs.microsoft.com/visualstudio/modeling/run-unit-tests-on-uml-extensions).  
-  
 To help keep your code stable through successive changes, we recommend that you write unit tests and perform them as part of a regular build process. For more information, see [Unit Test Your Code](../test/unit-test-your-code.md). To set up tests for Visual Studio modeling extensions, you need some key pieces of information. In summary:  
   
--   [Setting up a Unit Test for VSIX Extensions](#Host)  
+- [Setting up a Unit Test for VSIX Extensions](#Host)  
   
-     Run tests with the VS IDE host adapter. Prefix each test method with `[HostType("VS IDE")]`. This host adapter starts [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] when your tests run.  
+   Run tests with the VS IDE host adapter. Prefix each test method with `[HostType("VS IDE")]`. This host adapter starts [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] when your tests run.  
   
--   [Accessing DTE and ModelStore](#DTE)  
+- [Accessing DTE and ModelStore](#DTE)  
   
-     Typically, you will have to open a model and its diagrams and access the `IModelStore` in the test initialization.  
+   Typically, you will have to open a model and its diagrams and access the `IModelStore` in the test initialization.  
   
--   [Opening a Model Diagram](#Opening)  
+- [Opening a Model Diagram](#Opening)  
   
-     You can cast `EnvDTE.ProjectItem` to and from `IDiagramContext`.  
+   You can cast `EnvDTE.ProjectItem` to and from `IDiagramContext`.  
   
--   [Performing Changes in the UI Thread](#UiThread)  
+- [Performing Changes in the UI Thread](#UiThread)  
   
-     Tests that make changes to the model store must be performed in the UI thread. You can use `Microsoft.VSSDK.Tools.VsIdeTesting.UIThreadInvoker` for this.  
+   Tests that make changes to the model store must be performed in the UI thread. You can use `Microsoft.VSSDK.Tools.VsIdeTesting.UIThreadInvoker` for this.  
   
--   [Testing commands, gestures and other MEF components](#MEF)  
+- [Testing commands, gestures and other MEF components](#MEF)  
   
-     To test MEF components, you must explicitly connect their imported properties to values.  
+   To test MEF components, you must explicitly connect their imported properties to values.  
   
- These points are elaborated in the following sections.  
+  These points are elaborated in the following sections.  
   
- A sample of a unit tested UML extension can be found on Code Samples Gallery at [UML – Rapid Entry by using Text](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a).  
+  A sample of a unit tested UML extension can be found on Code Samples Gallery at [UML – Rapid Entry by using Text](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a).  
   
 ## Requirements  
  See [Requirements](../modeling/extend-uml-models-and-diagrams.md#Requirements).  

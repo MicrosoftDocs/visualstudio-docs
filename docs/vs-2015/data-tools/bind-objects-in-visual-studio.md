@@ -1,7 +1,7 @@
 ---
 title: "Bind objects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Bind objects in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Bind objects in Visual Studio](https://docs.microsoft.com/visualstudio/data-tools/bind-objects-in-visual-studio).  
-  
   
 Visual Studio provides design-time tools for working with custom objects as the data source in your application. When you want to store data from a database in an object that you bind to UI controls, the recommended approach is to use Entity Framework to generate the class or classes. Entity Frameworkautogenerates all the boilerplate change-tracking code, which means that any changes to the local objects are automatically persisted to the database when you call AcceptChanges on the DbSet object.    For more information, see [Entity Framework Documentation](https://ef.readthedocs.org/en/latest/).  
   
@@ -60,11 +58,11 @@ Visual Studio provides design-time tools for working with custom objects as the 
 ### Loaddata into objects  
  For this example, you load data into your objects by using TableAdapters. By default, TableAdapters are created with two kinds of methods that fetch data from a database and populate data tables.  
   
--   The `TableAdapter.Fill` method fills an existing data table with the data returned.  
+- The `TableAdapter.Fill` method fills an existing data table with the data returned.  
   
--   The `TableAdapter.GetData` method returns a new data table populated with data.  
+- The `TableAdapter.GetData` method returns a new data table populated with data.  
   
- The easiest way to load your custom objects with data is to call the `TableAdapter.GetData` method, loop through the collection of rows in the returned data table, and populate each object with the values in each row. You can create a `GetData` method that returns a populated data table for any query added to a TableAdapter.  
+  The easiest way to load your custom objects with data is to call the `TableAdapter.GetData` method, loop through the collection of rows in the returned data table, and populate each object with the values in each row. You can create a `GetData` method that returns a populated data table for any query added to a TableAdapter.  
   
 > [!NOTE]
 >  Visual Studio names the TableAdapter queries `Fill` and `GetData` by default, but those names can be changed to any valid method name.  

@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumDebugStreamData::get_Count | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaEnumDebugStreamData::get_Count
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreamData::get_Count](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreamdata-get-count).  
-  
 Retrieves the number records in the debug data stream.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

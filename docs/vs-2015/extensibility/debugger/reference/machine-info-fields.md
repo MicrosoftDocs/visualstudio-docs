@@ -1,7 +1,7 @@
 ---
 title: "MACHINE_INFO_FIELDS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,26 +21,24 @@ manager: "ghogen"
 # MACHINE_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MACHINE_INFO_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/machine-info-fields).  
-  
 Specifies what kind of information to retrieve for a particular machine.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_MACHINE_INFO_FIELDS {   
-   MCIF_NAME  = 0x00000001,  
-   MCIF_FLAGS = 0x00000002,  
-   MCIF_ALL   = 0x00000003  
+   MCIF_NAME  = 0x00000001,  
+   MCIF_FLAGS = 0x00000002,  
+   MCIF_ALL   = 0x00000003  
 };  
 typedef DWORD MACHINE_INFO_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_MACHINE_INFO_FIELDS {   
-   MCIF_NAME  = 0x00000001,  
-   MCIF_FLAGS = 0x00000002,  
-   MCIF_ALL   = 0x00000003  
+   MCIF_NAME  = 0x00000001,  
+   MCIF_FLAGS = 0x00000002,  
+   MCIF_ALL   = 0x00000003  
 };  
 ```  
   

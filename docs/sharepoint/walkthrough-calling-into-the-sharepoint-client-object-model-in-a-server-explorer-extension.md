@@ -51,11 +51,11 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 ## Create the projects
  To complete this walkthrough, you must create two projects:  
   
--   A VSIX project to create the VSIX package to deploy the **Server Explorer** extension.  
+- A VSIX project to create the VSIX package to deploy the **Server Explorer** extension.  
   
--   A class library project that implements the **Server Explorer** extension.  
+- A class library project that implements the **Server Explorer** extension.  
   
- Start the walkthrough by creating the projects.  
+  Start the walkthrough by creating the projects.  
   
 #### To create the VSIX project  
   

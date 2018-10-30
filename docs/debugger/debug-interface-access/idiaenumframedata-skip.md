@@ -22,7 +22,7 @@ Skips a specified number of frame data elements in an enumeration sequence.
   
 ```C++  
 HRESULT Skip (   
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Create a SQL database by using a designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ robots: noindex,nofollow
 # Create a SQL database by using a designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create a SQL database by using a designer](https://docs.microsoft.com/visualstudio/data-tools/create-a-sql-database-by-using-a-designer).  
-  
   
 You can explore basic tasks, such as adding tables and defining columns, by using Visual Studio to create and update a local database file in SQL Server Express LocalDB. After you finish this walkthrough, you can discover more advanced capabilities by using your local database as a starting point for other walkthroughs that require it.  
   
@@ -54,23 +52,23 @@ You can explore basic tasks, such as adding tables and defining columns, by usin
   
 #### To create a project and a database file  
   
-1.  Create a Windows Forms project that's named `SampleDatabaseWalkthrough`.  
+1. Create a Windows Forms project that's named `SampleDatabaseWalkthrough`.  
   
-2.  On the menu bar, select **Project** > **Add New Item**.  
+2. On the menu bar, select **Project** > **Add New Item**.  
   
-3.  In the list of item templates, scroll down and select **Service-based Database**.  
+3. In the list of item templates, scroll down and select **Service-based Database**.  
   
-     ![Item Templates dialog box](../data-tools/media/raddata-vsitemtemplates.png "raddata VSItemTemplates")  
+    ![Item Templates dialog box](../data-tools/media/raddata-vsitemtemplates.png "raddata VSItemTemplates")  
   
-4.  Name the database **SampleDatabase**, and then select the **Add** button.  
+4. Name the database **SampleDatabase**, and then select the **Add** button.  
   
-5.  If the **Data Sources** window isn't open, open it by selecting the Shift+Alt+D keys or, on the menu bar, selecting **View** > **Other Windows** > **Data Sources**.  
+5. If the **Data Sources** window isn't open, open it by selecting the Shift+Alt+D keys or, on the menu bar, selecting **View** > **Other Windows** > **Data Sources**.  
   
-6.  In the **Data Sources** window, select the **Add New Data Source** link.  
+6. In the **Data Sources** window, select the **Add New Data Source** link.  
   
-7.  In the **Data Source Configuration Wizard**, select the **Next** button four times to accept the default settings, and then select the **Finish** button.  
+7. In the **Data Source Configuration Wizard**, select the **Next** button four times to accept the default settings, and then select the **Finish** button.  
   
- By opening the properties window for the database, you can view its connection string and the location of the primary .mdf file. You will see that the database file is in the project folder.  
+   By opening the properties window for the database, you can view its connection string and the location of the primary .mdf file. You will see that the database file is in the project folder.  
   
 -   In Visual Studio, select **View** > **SQL Server Object Explorer** if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for SampleDatabase.mdf, and then selecting **Properties**.  
   

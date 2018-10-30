@@ -1,7 +1,7 @@
 ---
 title: "Adding a Command to the Solution Explorer Toolbar | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Adding a Command to the Solution Explorer Toolbar
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Command to the Solution Explorer Toolbar](https://docs.microsoft.com/visualstudio/extensibility/adding-a-command-to-the-solution-explorer-toolbar).  
-  
 This walkthrough shows how to add a button to the **Solution Explorer** toolbar.  
   
  Any command on a toolbar or menu is called a button in Visual Studio. When the button is clicked, the code in the command handler is executed. Typically, related commands are grouped together to form one group. Menus or toolbars act as containers for groups. Priority determines the order in which individual commands in a group appear in the menu or on the toolbar. You can prevent a button from being displayed on the toolbar or the menu by controlling its visibility. A command that is listed in a `<VisibilityConstraints>` section of the .vsct file appears only in the associated context. The visibility cannot be applied to groups.  
@@ -83,41 +81,41 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
   
 #### To display a button when one or more projects are open  
   
-1.  In the `<Buttons>` section of ToolbarButtonPackage.vsct, add two command flags to the existing `<Button>` element, between the `<Strings>` and `<Icons>` tags.  
+1. In the `<Buttons>` section of ToolbarButtonPackage.vsct, add two command flags to the existing `<Button>` element, between the `<Strings>` and `<Icons>` tags.  
   
-    ```xml  
-    <CommandFlag>DefaultInvisible</CommandFlag>  
-    <CommandFlag>DynamicVisibility</CommandFlag>  
-    ```  
+   ```xml  
+   <CommandFlag>DefaultInvisible</CommandFlag>  
+   <CommandFlag>DynamicVisibility</CommandFlag>  
+   ```  
   
-     The `DefaultInvisible` and `DynamicVisibility` flags must be set so that entries in the `<VisibilityConstraints>` section can take effect.  
+    The `DefaultInvisible` and `DynamicVisibility` flags must be set so that entries in the `<VisibilityConstraints>` section can take effect.  
   
-2.  Create a `<VisibilityConstraints>` section that has two `<VisibilityItem>` entries. Put the new section just after the closing `</Commands>` tag.  
+2. Create a `<VisibilityConstraints>` section that has two `<VisibilityItem>` entries. Put the new section just after the closing `</Commands>` tag.  
   
-    ```xml  
-    <VisibilityConstraints>  
-        <VisibilityItem guid="guidToolbarButtonPackageCmdSet"  
-              id="ToolbarButtonId"  
-              context="UICONTEXT_SolutionHasSingleProject" />  
-        <VisibilityItem guid="guidToolbarButtonPackageCmdSet"  
-              id="ToolbarButtonId"  
-              context="UICONTEXT_SolutionHasMultipleProjects" />  
-    </VisibilityConstraints>  
-    ```  
+   ```xml  
+   <VisibilityConstraints>  
+       <VisibilityItem guid="guidToolbarButtonPackageCmdSet"  
+             id="ToolbarButtonId"  
+             context="UICONTEXT_SolutionHasSingleProject" />  
+       <VisibilityItem guid="guidToolbarButtonPackageCmdSet"  
+             id="ToolbarButtonId"  
+             context="UICONTEXT_SolutionHasMultipleProjects" />  
+   </VisibilityConstraints>  
+   ```  
   
-     Each visibility item represents a condition under which the specified button is displayed. To apply multiple conditions, you must create multiple entries for the same button.  
+    Each visibility item represents a condition under which the specified button is displayed. To apply multiple conditions, you must create multiple entries for the same button.  
   
-3.  Build the project and start debugging. The experimental instance appears.  
+3. Build the project and start debugging. The experimental instance appears.  
   
-     The **Solution Explorer** toolbar does not contain the strikethrough button.  
+    The **Solution Explorer** toolbar does not contain the strikethrough button.  
   
-4.  Open any solution that contains a project.  
+4. Open any solution that contains a project.  
   
-     The strikethrough button appears on the toolbar to the right of the existing buttons.  
+    The strikethrough button appears on the toolbar to the right of the existing buttons.  
   
-5.  On the **File** menu, click **Close Solution**. The button disappears from the toolbar.  
+5. On the **File** menu, click **Close Solution**. The button disappears from the toolbar.  
   
- The visibility of the button is controlled by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md).  
+   The visibility of the button is controlled by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md).  
   
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

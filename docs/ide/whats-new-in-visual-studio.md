@@ -21,7 +21,7 @@ ms.workload:
 ---
 # What&#39;s new in Visual Studio 2017
 
-**Updated for the [15.8 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)**
+**Updated for the [15.8 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)**
 
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
@@ -37,7 +37,7 @@ Here's a high-level recap of the changes that were made since the previous versi
 * **[AI development](#ai-development)**. With Visual Studio Tools for AI, you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default). And for a peek at future feature offerings, see the [Preview release notes](/visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default).
+> For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017). And for a peek at future feature offerings, see the [Preview release notes](/visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default&contextView=vs-2017).
 
 Here's more detailed information about some of the most notable improvements and new features in Visual Studio 2017.
 
@@ -45,7 +45,7 @@ Here's more detailed information about some of the most notable improvements and
 
 ### A new setup experience
 
-[Download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) or [Check Visual Studio system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default)
+[Download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) or [Check Visual Studio system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default&contextView=vs-2017)
 
  Visual Studio makes it easier and faster to install just the features you need, when you need them. And, it uninstalls cleanly, too.
 
@@ -207,7 +207,7 @@ The new Exception Helper helps you view your exception information at-a-glance. 
 
 ![The New Exception Helper dialog in Visual Studio](../ide/media/vs2017ide-ExceptionHelper.png)
 
-For more information, see the [Use the new Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
+For more information, see the [Use the new Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/devops/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
 #### Snapshots and IntelliTrace step-back
 
@@ -376,7 +376,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 
 ## See also
 
-* [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)
+* [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)

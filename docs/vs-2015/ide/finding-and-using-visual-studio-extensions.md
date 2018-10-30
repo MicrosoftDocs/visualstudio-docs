@@ -1,7 +1,7 @@
 ---
 title: "Finding and Using Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Finding and Using Visual Studio Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Finding and Using Visual Studio Extensions](https://docs.microsoft.com/visualstudio/ide/finding-and-using-visual-studio-extensions).  
-  
 Visual Studio extensions are code packages that run inside Visual Studio and provide new or improved Visual Studio features. You can find more information about Visual Studio extensions here: [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
  You can use the **Extensions and Updates** dialog box to install Visual Studio extensions and samples from websites and other locations, and then enable, disable, update, or uninstall them. (**Tools / Extensions and Updates**, or type **Extensions** in the **Quick Launch** window). The dialog box also shows updates for installed samples and extensions. You can also download extensions from websites, or get them from other developers.  
@@ -65,23 +63,23 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
 ## Sample Master Copies and Working Copies  
  When you install an online sample, the solution is stored in two locations:  
   
--   A working copy is stored in the location that you specified in the **New Project** dialog box.  
+- A working copy is stored in the location that you specified in the **New Project** dialog box.  
   
--   A separate master copy is stored on your computer.  
+- A separate master copy is stored on your computer.  
   
- You can use the **Extensions and Updates** dialog box to perform these samples-related tasks:  
+  You can use the **Extensions and Updates** dialog box to perform these samples-related tasks:  
   
--   List the master copies of samples that you have installed.  
+- List the master copies of samples that you have installed.  
   
--   Disable or uninstall the master copy of a sample.  
+- Disable or uninstall the master copy of a sample.  
   
--   Install Sample Packs, which are collections of samples that relate to a technology or feature.  
+- Install Sample Packs, which are collections of samples that relate to a technology or feature.  
   
--   Install individual online samples. (You can also do this in the **New Project** dialog box.)  
+- Install individual online samples. (You can also do this in the **New Project** dialog box.)  
   
--   View update notifications when source code changes are published for installed samples.  
+- View update notifications when source code changes are published for installed samples.  
   
--   Update the master copy of an installed sample when there is an update notification.  
+- Update the master copy of an installed sample when there is an update notification.  
   
 ## Installing Without Using the Extensions and Updates Dialog Box  
  Extensions that have been packaged in .vsix files may be available in locations other than the Visual Studio Gallery. The **Extensions and Updates** dialog box can't detect these files, but you can install a .vsix file by double-clicking the file, or selecting the file and pressing the ENTER key. After that, just follow the instructions. When the extension is installed, you can use the **Extensions and Updates** dialog box to enable it, disable it, or uninstall it.  

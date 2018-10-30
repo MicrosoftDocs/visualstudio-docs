@@ -1,7 +1,7 @@
 ---
 title: "IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # IDebugCustomAttributeQuery2::GetCustomAttributeByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomAttributeQuery2::GetCustomAttributeByName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomattributequery2-getcustomattributebyname).  
-  
 Obtains the custom attributes bytes given the name of the custom attribute.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetCustomAttributeByName(   
-   LPCOLESTR pszCustomAttributeName,  
-   BYTE*     ppBlob,  
-   DWORD*    pdwLen  
+   LPCOLESTR pszCustomAttributeName,  
+   BYTE*     ppBlob,  
+   DWORD*    pdwLen  
 );  
 ```  
   
 ```csharp  
 int GetCustomAttributeByName(  
-   [In] string        pszCustomAttributeName,   
-   [In, Out] byte[]   ppBlob,   
-   [In, Out] ref uint pdwLen  
+   [In] string        pszCustomAttributeName,   
+   [In, Out] byte[]   ppBlob,   
+   [In, Out] ref uint pdwLen  
 );  
 ```  
   

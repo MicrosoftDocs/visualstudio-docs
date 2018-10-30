@@ -1,7 +1,7 @@
 ---
 title: "JMC_CODE_SPEC | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # JMC_CODE_SPEC
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [JMC_CODE_SPEC](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/jmc-code-spec).  
-  
 This structure is used to set the JustMyCode information for a module.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct _JMC_CODE_SPEC {  
-   BOOL fIsUserCode;  
-   BSTR bstrModuleName;  
+   BOOL fIsUserCode;  
+   BSTR bstrModuleName;  
 } JMC_CODE_SPEC;  
 ```  
   
 ```csharp  
 public struct JMC_CODE_SPEC {  
-   public int    fIsUserCode;  
-   public string bstrModuleName;  
+   public int    fIsUserCode;  
+   public string bstrModuleName;  
 };  
 ```  
   

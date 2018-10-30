@@ -1,7 +1,7 @@
 ---
 title: "IEEDataStorage::GetData | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # IEEDataStorage::GetData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEEDataStorage::GetData](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ieedatastorage-getdata).  
-  
 Retrieves the specified number of bytes from the object.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetData(  
-   ULONG  dataSize,  
-   ULONG* sizeGotten,  
-   BYTE*  data  
+   ULONG  dataSize,  
+   ULONG* sizeGotten,  
+   BYTE*  data  
 );  
 ```  
   
 ```csharp  
 int GetData(  
-   uint     dataSize,  
-   out uint sizeGotten,  
-   byte[]   data  
+   uint     dataSize,  
+   out uint sizeGotten,  
+   byte[]   data  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Collecting Additional Performance Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Collecting Additional Performance Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Additional Performance Data](https://docs.microsoft.com/visualstudio/profiling/collecting-additional-performance-data).  
-  
 In addition to the data that you collect by using a profiling method, [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] Profiling Tools enable you to record and view additional data.  
   
 ## Common Tasks  

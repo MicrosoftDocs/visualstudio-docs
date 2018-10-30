@@ -1,7 +1,7 @@
 ---
 title: "Bind WPF controls to a WCF data service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,43 +25,41 @@ manager: "ghogen"
 # Bind WPF controls to a WCF data service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Bind WPF controls to a WCF data service](https://docs.microsoft.com/visualstudio/data-tools/bind-wpf-controls-to-a-wcf-data-service).  
-  
   
 In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to customer records that are encapsulated in a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]. You will also add buttons that customers can use to view and update records.  
   
  This walkthrough illustrates the following tasks:  
   
--   Creating an Entity Data Model that is generated from data in the AdventureWorksLT sample database.  
+- Creating an Entity Data Model that is generated from data in the AdventureWorksLT sample database.  
   
--   Creating a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] that exposes the data in the Entity Data Model to a WPF application.  
+- Creating a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] that exposes the data in the Entity Data Model to a WPF application.  
   
--   Creating a set of data-bound controls by dragging items from the **Data Sources** window to the WPF designer.  
+- Creating a set of data-bound controls by dragging items from the **Data Sources** window to the WPF designer.  
   
--   Creating buttons that navigate forward and backward through customer records.  
+- Creating buttons that navigate forward and backward through customer records.  
   
--   Creating a button that saves changes to data in the controls to the [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] and the underlying data source.  
+- Creating a button that saves changes to data in the controls to the [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] and the underlying data source.  
   
-     [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
+   [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]  
+- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]  
   
--   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).  
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).  
   
- Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
+  Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:  
   
--   WCF Data Services. For more information, see [Overview](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb).  
+- WCF Data Services. For more information, see [Overview](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb).  
   
--   Data models in [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)].  
+- Data models in [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)].  
   
--   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
+- Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
   
--   Working with the WPF designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+- Working with the WPF designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
--   WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
+- WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211).  
   
 ## Create the service project  
  Start this walkthrough by creating a project for a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
@@ -93,7 +91,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 3.  Change the name to `AdventureWorksModel.edmx`, and click **Add**.  
   
-     The **Entity Data Model**wizard opens.  
+     The **Entity Data Model** wizard opens.  
   
 4.  On the **Choose Model Contents** page, click **Generate from database**, and click **Next**.  
   
@@ -157,7 +155,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 6.  In the **Data Sources** window, click **Add New Data Source**.  
   
-     The **Data Source Configuration**wizard opens.  
+     The **Data Source Configuration** wizard opens.  
   
 7.  In the **Choose a Data Source Type** page of the wizard, select **Service**, and then click **Next**.  
   
@@ -203,39 +201,39 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 #### To create the data-bound controls  
   
-1.  In the **Data Sources** window, click the drop-down menu for the **SalesOrderHeaders** node, and select **Details**.  
+1. In the **Data Sources** window, click the drop-down menu for the **SalesOrderHeaders** node, and select **Details**.  
   
-2.  Expand the **SalesOrderHeaders** node.  
+2. Expand the **SalesOrderHeaders** node.  
   
-3.  For this example, some fields will not be displayed, so click the drop-down menu next to the following nodes and select **None**:  
+3. For this example, some fields will not be displayed, so click the drop-down menu next to the following nodes and select **None**:  
   
-    -   **CreditCardApprovalCode**  
+   - **CreditCardApprovalCode**  
   
-    -   **ModifiedDate**  
+   - **ModifiedDate**  
   
-    -   **OnlineOrderFlag**  
+   - **OnlineOrderFlag**  
   
-    -   **RevisionNumber**  
+   - **RevisionNumber**  
   
-    -   **rowguid**  
+   - **rowguid**  
   
      This action prevents Visual Studio from creating data-bound controls for these nodes in the next step. For this walkthrough, assume that the end user does not need to see this data.  
   
-4.  From the **Data Sources** window, drag the **SalesOrderHeaders** node to the grid row under the row that contains the buttons.  
+4. From the **Data Sources** window, drag the **SalesOrderHeaders** node to the grid row under the row that contains the buttons.  
   
-     Visual Studio generates XAML and code that creates a set of controls that are bound to data in the **Product** table. For more information about the generated XAML and code, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+    Visual Studio generates XAML and code that creates a set of controls that are bound to data in the **Product** table. For more information about the generated XAML and code, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
-5.  In the designer, click the text box next to the **Customer ID** label.  
+5. In the designer, click the text box next to the **Customer ID** label.  
   
-6.  In the **Properties** window, select the check box next to the **IsReadOnly** property.  
+6. In the **Properties** window, select the check box next to the **IsReadOnly** property.  
   
-7.  Set the **IsReadOnly** property for each of the following text boxes:  
+7. Set the **IsReadOnly** property for each of the following text boxes:  
   
-    -   **Purchase Order Number**  
+   -   **Purchase Order Number**  
   
-    -   **Sales Order ID**  
+   -   **Sales Order ID**  
   
-    -   **Sales Order Number**  
+   -   **Sales Order Number**  
   
 ## Load the data from the service  
  Use the service proxy object to load sales data from the service. Then assign the returned data to the data source for the <xref:System.Windows.Data.CollectionViewSource> in the WPF window.  

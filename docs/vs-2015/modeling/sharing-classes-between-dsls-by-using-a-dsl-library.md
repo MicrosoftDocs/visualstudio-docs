@@ -1,7 +1,7 @@
 ---
 title: "Sharing Classes between DSLs by using a DSL Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # Sharing Classes between DSLs by using a DSL Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sharing Classes between DSLs by using a DSL Library](https://docs.microsoft.com/visualstudio/modeling/sharing-classes-between-dsls-by-using-a-dsl-library).  
-  
 In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.  
   
 ## Creating and using DSL Libraries  
@@ -48,21 +46,21 @@ In the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling S
   
 #### To import a DSL Library  
   
-1.  In another DSL Definition, in **DSL Explorer**, right-click the root class of the DSL, and then click **Add New DslLibrary Import**.  
+1. In another DSL Definition, in **DSL Explorer**, right-click the root class of the DSL, and then click **Add New DslLibrary Import**.  
   
-2.  In the Properties window, set the **File Path** of the library. You can use either a relative or an absolute path.  
+2. In the Properties window, set the **File Path** of the library. You can use either a relative or an absolute path.  
   
-     The imported library appears in DSL Explorer, in read-only mode.  
+    The imported library appears in DSL Explorer, in read-only mode.  
   
-3.  You can use the imported classes as base classes. Create a domain class in the importing DSL, and in the Properties window, set **Base Class** to an imported class.  
+3. You can use the imported classes as base classes. Create a domain class in the importing DSL, and in the Properties window, set **Base Class** to an imported class.  
   
-4.  Click Transform All Templates.  
+4. Click Transform All Templates.  
   
-5.  Add to the DSL project a reference to the assembly (DLL) that was built by the DSL Library project.  
+5. Add to the DSL project a reference to the assembly (DLL) that was built by the DSL Library project.  
   
-6.  Build the solution.  
+6. Build the solution.  
   
- A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.  
+   A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.  
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

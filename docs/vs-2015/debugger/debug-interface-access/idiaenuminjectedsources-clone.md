@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumInjectedSources::Clone | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaEnumInjectedSources::Clone
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumInjectedSources::Clone](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenuminjectedsources-clone).  
-  
 Creates an enumerator that contains the same enumeration state as the current enumerator.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Clone (   
-   IDiaEnumInjectedSources** ppenum  
+   IDiaEnumInjectedSources** ppenum  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "IDebugReference2::SetValueAsString | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # IDebugReference2::SetValueAsString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::SetValueAsString](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-setvalueasstring).  
-  
 Sets the value of a reference from a string. Reserved for future use.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT SetValueAsString (   
-   LPCOLESTR pszValue,  
-   DWORD     dwRadix,  
-   DWORD     dwTimeout  
+   LPCOLESTR pszValue,  
+   DWORD     dwRadix,  
+   DWORD     dwTimeout  
 );  
 ```  
   
 ```csharp  
 int SetValueAsString (   
-   string pszValue,  
-   uint   dwRadix,  
-   uint   dwTimeout  
+   string pszValue,  
+   uint   dwRadix,  
+   uint   dwTimeout  
 );  
 ```  
   

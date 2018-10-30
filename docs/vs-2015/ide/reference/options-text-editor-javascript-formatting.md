@@ -1,7 +1,7 @@
 ---
 title: "Options, Text Editor, JavaScript, Formatting | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Options, Text Editor, JavaScript, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, JavaScript, Formatting](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-javascript-formatting).  
-  
   
 Use the **Formatting** page of the **Options** dialog box to set options for formatting code in the Code Editor. To access this page, on the menu bar, choose **Tools**, **Options**, and then expand **Text Editor**, **JavaScript**, and **Formatting**.  
   
@@ -52,7 +50,7 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 |**Place open brace on new line for control blocks**|When this option is selected, the Code Editor moves the open brace associated with a control block (for example, `if` and `while` control blocks) to a new line.|  
   
 ## Spacing  
- These options determine how spaces are inserted in **Source**view.  
+ These options determine how spaces are inserted in **Source** view.  
   
 ## UIElement List  
   

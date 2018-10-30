@@ -23,6 +23,8 @@ You must first set up your customer tenant in the Partner Center and create an A
 
 [Learn more](/azure/devops/organizations/billing/csp/set-up-csp-customer)
 
+## Who can buy Visual Studio subscriptions?
+Anyone with [owner or contributor access](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0) to the Azure subscription can purchase Visual Studio subscriptions. 
 
 ## How to buy
 
@@ -78,12 +80,13 @@ the upper right. Once the Excel spreadsheet downloads, go to the **Azure Price L
 filter the **Meter Category** column to **Visual Studio**.
 
 Here's how to interpret what you see on this spreadsheet:
-| Meter category    |	Name                 |	Units	                             |           What this is                          |
+
+| Meter category    |   Name                 |  Units                                |           What this is                          |
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
-| Visual Studio	    | Enterprise             |	Subscription	                     | Visual Studio Enterprise monthly subscription   |
-| Visual Studio	    | Enterprise (Annual)    |	Annual Subscriptions                 | Visual Studio Enterprise annual subscription    |
-| Visual Studio	    | Professional           |	Subscription	                     | Visual Studio Professional monthly subscription |
-| Visual Studio	    | Professional (Annual)  |	Annual Subscriptions                 | Visual Studio Professional annual subscription  |
+| Visual Studio     | Enterprise             |  Subscription                         | Visual Studio Enterprise monthly subscription   |
+| Visual Studio     | Enterprise (Annual)    |  Annual Subscriptions                 | Visual Studio Enterprise annual subscription    |
+| Visual Studio     | Professional           |  Subscription                         | Visual Studio Professional monthly subscription |
+| Visual Studio     | Professional (Annual)  |  Annual Subscriptions                 | Visual Studio Professional annual subscription  |
 
 We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each
 subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5,

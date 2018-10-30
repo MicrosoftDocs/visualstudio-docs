@@ -1,7 +1,7 @@
 ---
 title: "Implementing GetMethodProperty | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Implementing GetMethodProperty
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Implementing GetMethodProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/implementing-getmethodproperty).  
-  
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
@@ -43,29 +41,29 @@ The latest version of this topic can be found at [Implementing GetMethodProperty
 ```csharp  
 namespace EEMC  
 {  
-    [GuidAttribute("462D4A3D-B257-4AEE-97CD-5918C7531757")]  
-    public class EEMCClass : IDebugExpressionEvaluator  
-    {  
-        public HRESULT GetMethodProperty(  
-                IDebugSymbolProvider symbolProvider,  
-                IDebugAddress        address,  
-                IDebugBinder         binder,  
-                int                  includeHiddenLocals,  
-            out IDebugProperty2      property)   
-        {  
-            IDebugContainerField containerField = null;  
-            IDebugMethodField methodField       = null;  
-            property = null;  
+    [GuidAttribute("462D4A3D-B257-4AEE-97CD-5918C7531757")]  
+    public class EEMCClass : IDebugExpressionEvaluator  
+    {  
+        public HRESULT GetMethodProperty(  
+                IDebugSymbolProvider symbolProvider,  
+                IDebugAddress        address,  
+                IDebugBinder         binder,  
+                int                  includeHiddenLocals,  
+            out IDebugProperty2      property)   
+        {  
+            IDebugContainerField containerField = null;  
+            IDebugMethodField methodField       = null;  
+            property = null;  
   
-            // Get the containing method field.  
-            symbolProvider.GetContainerField(address, out containerField);  
-            methodField = (IDebugMethodField) containerField;  
+            // Get the containing method field.  
+            symbolProvider.GetContainerField(address, out containerField);  
+            methodField = (IDebugMethodField) containerField;  
   
-            // Return the property of method field.  
-            property = new CFieldProperty(symbolProvider, address, binder, methodField);  
-            return COM.S_OK;  
-        }  
-    }  
+            // Return the property of method field.  
+            property = new CFieldProperty(symbolProvider, address, binder, methodField);  
+            return COM.S_OK;  
+        }  
+    }  
 }  
 ```  
   
@@ -75,55 +73,55 @@ namespace EEMC
 ```  
 [CPP]  
 STDMETHODIMP CExpressionEvaluator::GetMethodProperty(  
-        in IDebugSymbolProvider *pprovider,  
-        in IDebugAddress        *paddress,  
-        in IDebugBinder         *pbinder,  
-        in BOOL                  includeHiddenLocals,  
-        out IDebugProperty2    **ppproperty  
-    )  
+        in IDebugSymbolProvider *pprovider,  
+        in IDebugAddress        *paddress,  
+        in IDebugBinder         *pbinder,  
+        in BOOL                  includeHiddenLocals,  
+        out IDebugProperty2    **ppproperty  
+    )  
 {  
-    if (pprovider == NULL)  
-        return E_INVALIDARG;  
+    if (pprovider == NULL)  
+        return E_INVALIDARG;  
   
-    if (ppproperty == NULL)  
-        return E_INVALIDARG;  
-    else  
-        *ppproperty = 0;  
+    if (ppproperty == NULL)  
+        return E_INVALIDARG;  
+    else  
+        *ppproperty = 0;  
   
-    HRESULT hr;  
-    IDebugContainerField* pcontainer = NULL;  
+    HRESULT hr;  
+    IDebugContainerField* pcontainer = NULL;  
   
-    hr = pprovider->GetContainerField(paddress, &pcontainer);  
-    if (FAILED(hr))  
-        return hr;  
+    hr = pprovider->GetContainerField(paddress, &pcontainer);  
+    if (FAILED(hr))  
+        return hr;  
   
-    IDebugMethodField*    pmethod    = NULL;  
-    hr = pcontainer->QueryInterface( IID_IDebugMethodField,  
-            reinterpret_cast<void**>(&pmethod));  
-    pcontainer->Release();  
-    if (FAILED(hr))  
-        return hr;  
+    IDebugMethodField*    pmethod    = NULL;  
+    hr = pcontainer->QueryInterface( IID_IDebugMethodField,  
+            reinterpret_cast<void**>(&pmethod));  
+    pcontainer->Release();  
+    if (FAILED(hr))  
+        return hr;  
   
-    CFieldProperty* pfieldProperty = new CFieldProperty( pprovider,  
-                                                         paddress,  
-                                                         pbinder,  
-                                                         pmethod );  
-    pmethod->Release();  
-    if (!pfieldProperty)  
-        return E_OUTOFMEMORY;  
+    CFieldProperty* pfieldProperty = new CFieldProperty( pprovider,  
+                                                         paddress,  
+                                                         pbinder,  
+                                                         pmethod );  
+    pmethod->Release();  
+    if (!pfieldProperty)  
+        return E_OUTOFMEMORY;  
   
-    hr = pfieldProperty->Init();  
-    if (FAILED(hr))  
-    {  
-        pfieldProperty->Release();  
-        return hr;  
-    }  
+    hr = pfieldProperty->Init();  
+    if (FAILED(hr))  
+    {  
+        pfieldProperty->Release();  
+        return hr;  
+    }  
   
-    hr = pfieldProperty->QueryInterface( IID_IDebugProperty2,  
-            reinterpret_cast<void**>(ppproperty));  
-    pfieldProperty->Release();  
+    hr = pfieldProperty->QueryInterface( IID_IDebugProperty2,  
+            reinterpret_cast<void**>(ppproperty));  
+    pfieldProperty->Release();  
   
-    return hr;  
+    return hr;  
 }  
 ```  
   

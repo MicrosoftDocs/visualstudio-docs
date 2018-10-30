@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackWalkHelper::symbolForVA | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,16 +22,14 @@ manager: "ghogen"
 # IDiaStackWalkHelper::symbolForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::symbolForVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-symbolforva).  
-  
 Retrieves the symbol that contains the specified virtual address.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT symbolForVA(   
-   ULONGLONG     va,  
-   IDiaSymbol**  ppSymbol  
+   ULONGLONG     va,  
+   IDiaSymbol**  ppSymbol  
 );  
 ```  
   

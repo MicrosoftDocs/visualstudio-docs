@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortSupplier2::GetPortSupplierId | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugPortSupplier2::GetPortSupplierId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplier2::GetPortSupplierId](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplier2-getportsupplierid).  
-  
 Gets the port supplier identifier.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetPortSupplierId(   
-   GUID* pguidPortSupplier  
+   GUID* pguidPortSupplier  
 );  
 ```  
   
 ```csharp  
 HRESULT GetPortSupplierId(   
-   out Guid pguidPortSupplier  
+   out Guid pguidPortSupplier  
 );  
 ```  
   

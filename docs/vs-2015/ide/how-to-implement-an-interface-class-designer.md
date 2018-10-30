@@ -1,7 +1,7 @@
 ---
 title: "How to: Implement an Interface (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Implement an Interface (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Implement an Interface (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-implement-an-interface-class-designer).  
-  
 In Class Designer, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods. Class Designer generates an interface implementation and displays the relationship between the interface and the class as an inheritance relationship. You can implement an interface by drawing an inheritance line between the interface and the class or by dragging the interface from Class View.  
   
 > [!TIP]
@@ -30,13 +28,13 @@ In Class Designer, you can implement an interface on the class diagram by connec
   
 ### To implement an interface by drawing an inheritance line  
   
-1.  On the class diagram, display the interface and the class that will implement the interface.  
+1. On the class diagram, display the interface and the class that will implement the interface.  
   
-2.  Draw an inheritance line from the class and the interface.  
+2. Draw an inheritance line from the class and the interface.  
   
-     A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members.  
+    A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members.  
   
- For more information, see [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md).  
+   For more information, see [How to: Create Inheritance Between Types (Class Designer)](../ide/how-to-create-inheritance-between-types-class-designer.md).  
   
 ### To implement an interface from the Class View window  
   

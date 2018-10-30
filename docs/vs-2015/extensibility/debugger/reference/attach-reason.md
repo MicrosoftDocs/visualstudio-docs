@@ -1,7 +1,7 @@
 ---
 title: "ATTACH_REASON | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,26 +21,24 @@ manager: "ghogen"
 # ATTACH_REASON
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ATTACH_REASON](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/attach-reason).  
-  
 Specifies the reason for the debug engine (DE) to attach to a program node.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_ATTACH_REASON {   
-   ATTACH_REASON_LAUNCH = 0x0001,  
-   ATTACH_REASON_USER   = 0x0002,  
-   ATTACH_REASON_AUTO   = 0x0003  
+   ATTACH_REASON_LAUNCH = 0x0001,  
+   ATTACH_REASON_USER   = 0x0002,  
+   ATTACH_REASON_AUTO   = 0x0003  
 };  
 typedef DWORD ATTACH_REASON;  
 ```  
   
 ```csharp  
 public enum enum_ATTACH_REASON {   
-   ATTACH_REASON_LAUNCH = 0x0001,  
-   ATTACH_REASON_USER   = 0x0002,  
-   ATTACH_REASON_AUTO   = 0x0003  
+   ATTACH_REASON_LAUNCH = 0x0001,  
+   ATTACH_REASON_USER   = 0x0002,  
+   ATTACH_REASON_AUTO   = 0x0003  
 };  
 ```  
   

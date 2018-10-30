@@ -7,6 +7,7 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.General"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.IntelliSense.General"
 ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
 author: gewarren
 ms.author: gewarren
@@ -61,13 +62,13 @@ The **IntelliSense** page contains the following sections:
 
  You can use pre-defined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. Four reference groups are available:
 
--   Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps using JavaScript.
+- Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps using JavaScript.
 
--   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.
+- Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.
 
--   Dedicated worker reference groups, for HTML5 web workers. Files specified in this group are in scope for .js files that have an explicit reference to a dedicated worker reference group.
+- Dedicated worker reference groups, for HTML5 web workers. Files specified in this group are in scope for .js files that have an explicit reference to a dedicated worker reference group.
 
--   Generic, for other JavaScript project types.
+- Generic, for other JavaScript project types.
 
 **Included files**
 

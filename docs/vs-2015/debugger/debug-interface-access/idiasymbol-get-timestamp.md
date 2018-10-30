@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_timeStamp | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_timeStamp
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_timeStamp](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-timestamp).  
-  
 Retrieves the timestamp of the underlying executable file.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_timeStamp (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

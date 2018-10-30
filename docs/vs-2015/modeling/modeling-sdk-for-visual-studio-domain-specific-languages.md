@@ -1,7 +1,7 @@
 ---
 title: "Modeling SDK for Visual Studio - Domain-Specific Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "douge"
 # Modeling SDK for Visual Studio - Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modeling SDK for Visual Studio - Domain-Specific Languages](https://docs.microsoft.com/visualstudio/modeling/modeling-sdk-for-visual-studio-domain-specific-languages).  
-  
 By using the Modeling SDK for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] (MSDK), you can create powerful model-based development tools that you can integrate into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. As an example, the UML tools are created using MSDK. In the same manner, you can create one or more model definitions and integrate them into a set of tools.  
   
  At the heart of MSDK is the definition of a model that you create to represent concepts in your business area. You can surround the model with a variety of tools, such as a diagrammatic view, the ability to generate code and other artifacts, commands for transforming the model, and the ability to interact with code and other objects in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. As you develop the model, you can combine it with other models and tools to form a powerful toolset that is centered on your development.  
   
  MSDK lets you develop a model quickly in the form of a domain-specific language (DSL). You begin by using a specialized editor to define a schema or abstract syntax together with a graphical notation. From this definition, VMSDK generates:  
   
--   A model implementation with a strongly-typed API that runs in a transaction-based store.  
+- A model implementation with a strongly-typed API that runs in a transaction-based store.  
   
--   A tree-based explorer.  
+- A tree-based explorer.  
   
--   A graphical editor in which users can view the model or parts of it that you define.  
+- A graphical editor in which users can view the model or parts of it that you define.  
   
--   Serialization methods that save your models in readable XML.  
+- Serialization methods that save your models in readable XML.  
   
--   Facilities for generating program code and other artifacts using text templating.  
+- Facilities for generating program code and other artifacts using text templating.  
   
- You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.  
+  You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.  
   
 ## Samples and the Latest Information  
  [Download the Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148)  

@@ -1,7 +1,7 @@
 ---
 title: "SccBackgroundGet Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,19 +21,17 @@ manager: "ghogen"
 # SccBackgroundGet Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccBackgroundGet Function](https://docs.microsoft.com/visualstudio/extensibility/sccbackgroundget-function).  
-  
 This function retrieves from source control each of the specified files with no user interaction.  
   
 ## Syntax  
   
 ```cpp  
 SCCRTN SccBackgroundGet(  
-   LPVOID  pContext,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames,  
-   LONG    dwFlags,  
-   LONG    dwBackgroundOperationID  
+   LPVOID  pContext,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames,  
+   LONG    dwFlags,  
+   LONG    dwBackgroundOperationID  
 );  
 ```  
   

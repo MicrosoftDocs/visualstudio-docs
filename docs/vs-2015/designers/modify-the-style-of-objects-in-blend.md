@@ -1,7 +1,7 @@
 ---
 title: "Modify the style of objects in Blend | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Modify the style of objects in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Modify the style of objects in Blend](https://docs.microsoft.com/visualstudio/designers/modify-the-style-of-objects-in-blend).  
-  
 The easiest way to customize an object is to set properties in the **Properties** pane.  
   
  If you want re-use settings or groups of settings, create a re-usable resource. This could be a *style*, *template*, or something simple like a custom color. You can also make a control appear differently based on its state. For example, a button turns green when the user clicks it.  
@@ -76,15 +74,15 @@ The easiest way to customize an object is to set properties in the **Properties*
   
  To create a style, select the object, and then in the **Object** menu, choose **Edit Style**, and then choose **Edit a Copy** or **Create Empty**.  
   
--   Choose **Edit a Copy** to start with the default style or template of the control.  
+- Choose **Edit a Copy** to start with the default style or template of the control.  
   
--   Choose **Create Empty** to start from scratch.  
+- Choose **Create Empty** to start from scratch.  
   
- The **Edit Current** option appears only if you edit a style or template that you’ve already created. It won’t appear for a control that is still using a default system template.  
+  The **Edit Current** option appears only if you edit a style or template that you’ve already created. It won’t appear for a control that is still using a default system template.  
   
- In the **Create Style Resource** dialog box, you can either name the style or template so that you can use it later, or you can apply the style or template to all controls of that type.  
+  In the **Create Style Resource** dialog box, you can either name the style or template so that you can use it later, or you can apply the style or template to all controls of that type.  
   
- ![](../designers/media/4818ee6a-ce60-4b79-91c8-3b1871829eea.png "4818ee6a-ce60-4b79-91c8-3b1871829eea")  
+  ![](../designers/media/4818ee6a-ce60-4b79-91c8-3b1871829eea.png "4818ee6a-ce60-4b79-91c8-3b1871829eea")  
   
 > [!NOTE]
 >  You can’t create styles or templates for every type of control. If a control doesn’t support them, the breadcrumb button won’t appear above the artboard.  

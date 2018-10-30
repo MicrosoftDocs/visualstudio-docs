@@ -53,13 +53,13 @@ ms.workload:
 ## Differences between F5 deployment
  When you use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to deploy your SharePoint project to the local SharePoint server for testing and debugging, there are some additional steps that are performed by [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-1.  Reset the Internet Information Service (IIS) during the deployment step.
+1. Reset the Internet Information Service (IIS) during the deployment step.
 
-2.  Automatically associate workflows.
+2. Automatically associate workflows.
 
-3.  Set the feature activation order according to the hierarchy in the Package Designer.
+3. Set the feature activation order according to the hierarchy in the Package Designer.
 
- You can add custom deployment steps to further change the **F5** behavior. For more information, see [Walkthrough: Create a custom deployment step for SharePoint projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).
+   You can add custom deployment steps to further change the **F5** behavior. For more information, see [Walkthrough: Create a custom deployment step for SharePoint projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).
 
 ## Delay displaying SharePoint page when Deploy visual web part
  The SharePoint page takes a long time to appear when deploying a Visual Web part to the Bin folder on [!INCLUDE[wiprlhext](../sharepoint/includes/wiprlhext-md.md)], [!INCLUDE[win7](../sharepoint/includes/win7-md.md)], or [!INCLUDE[winsvr08](../sharepoint/includes/winsvr08-md.md)]. If you change any files in a top-level [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] directory, such as the Bin directory, the entire Web application recompiles. This can cause a delay of up to 25 seconds for the SharePoint page to render.

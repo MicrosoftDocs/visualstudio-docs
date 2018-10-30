@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcessQueryProperties::QueryProperties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,24 +19,22 @@ manager: "ghogen"
 # IDebugProcessQueryProperties::QueryProperties
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessQueryProperties::QueryProperties](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocessqueryproperties-queryproperties).  
-  
 This method queries for a specified property values of the debugging process.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT QueryProperties(  
-   ULONG                  celt,  
-   PROCESS_PROPERTY_TYPE *rgdwPropTypes,  
-   VARIANT               *rgtPropValues);  
+   ULONG                  celt,  
+   PROCESS_PROPERTY_TYPE *rgdwPropTypes,  
+   VARIANT               *rgtPropValues);  
 ```  
   
 ```csharp  
 int QueryProperties(  
-   uint                       celt,  
-   enum_PROCESS_PROPERTY_TYPE rgdwPropTypes,  
-   out object[ ]              rgtPropValues);  
+   uint                       celt,  
+   enum_PROCESS_PROPERTY_TYPE rgdwPropTypes,  
+   out object[ ]              rgtPropValues);  
 ```  
   
 #### Parameters  
@@ -46,14 +44,14 @@ int QueryProperties(
  `dwPropType`  
  [in] An array that contains definitions of the queried properties. The possible values are:  
   
--   PROCESS_PROPERTY_COMMAND_LINE = 1  
+- PROCESS_PROPERTY_COMMAND_LINE = 1  
   
--   PROCESS_PROPERTY_CURRENT_DIRECTORY = 2  
+- PROCESS_PROPERTY_CURRENT_DIRECTORY = 2  
   
--   PROCESS_PROPERTY_ENVIRONMENT_VARIABLES = 3  
+- PROCESS_PROPERTY_ENVIRONMENT_VARIABLES = 3  
   
- `pvarPropValue`  
- [out] An array containing the property values.  
+  `pvarPropValue`  
+  [out] An array containing the property values.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  

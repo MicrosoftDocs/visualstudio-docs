@@ -1,7 +1,7 @@
 ---
 title: "Adding Icons to Menu Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Adding Icons to Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Icons to Menu Commands](https://docs.microsoft.com/visualstudio/extensibility/adding-icons-to-menu-commands).  
-  
 Commands can appear on both menus and toolbars. On toolbars, it is common for a command to be displayed with just an icon (to save space) while on menus a command typically appears with both an icon and text.  
   
  Icons are 16 pixels wide by 16 pixels high and can be either 8-bit color depth (256 colors) or 32-bit color depth (true color). 32-bit color icons are preferred. Icons are typically arranged in a single horizontal row in a single bitmap, although multiple bitmaps are allowed. This bitmap is declared in the .vsct file along with the individual icons available in the bitmap. See the reference for the [Bitmaps Element](../extensibility/bitmaps-element.md) for more details.  

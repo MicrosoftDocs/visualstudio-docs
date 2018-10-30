@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackWalkHelper::pdataForVA | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,18 +22,16 @@ manager: "ghogen"
 # IDiaStackWalkHelper::pdataForVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::pdataForVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-pdataforva).  
-  
 Returns the PDATA data block associated with the virtual address.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT pdataForVA(   
-   ULONGLONG  va,  
-   DWORD      cbData,  
-   DWORD*     pcbData,  
-   BYTE*      pbData  
+   ULONGLONG  va,  
+   DWORD      cbData,  
+   DWORD*     pcbData,  
+   BYTE*      pbData  
 );  
 ```  
   

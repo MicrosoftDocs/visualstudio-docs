@@ -1,7 +1,7 @@
 ---
 title: "Adding tier interaction data from the command line | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Adding tier interaction data from the command line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding tier interaction data from the command line](https://docs.microsoft.com/visualstudio/profiling/adding-tier-interaction-data-from-the-command-line).  
-  
 Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../includes/vstecado-md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.  
   
  **Windows 8 and Windows Server 2012**  
@@ -51,36 +49,36 @@ Tier interaction profiling provides additional information about the execution t
   
 ##### Profiling a Windows desktop application example  
   
-1.  Open a command prompt window with Administrator privileges. Click **Start**, point to **All Programs**, and then point to **Accessories**. Right-click **Command Prompt**, and then click **Run As Administrator**.  
+1. Open a command prompt window with Administrator privileges. Click **Start**, point to **All Programs**, and then point to **Accessories**. Right-click **Command Prompt**, and then click **Run As Administrator**.  
   
-2.  Initialize .NET profiling and the TIP environment variables. Type the following commands:  
+2. Initialize .NET profiling and the TIP environment variables. Type the following commands:  
   
-    ```  
-    vsperfclrenv /traceon  
-    vsperfclrenv /interactionon  
-    ```  
+   ```  
+   vsperfclrenv /traceon  
+   vsperfclrenv /interactionon  
+   ```  
   
-3.  Start the profiler. Type the following command:  
+3. Start the profiler. Type the following command:  
   
-    ```  
-    vsperfcmd /start:trace /output:Desktop_tip.vsp   
-    ```  
+   ```  
+   vsperfcmd /start:trace /output:Desktop_tip.vsp   
+   ```  
   
-4.  Start the application with VSPerfCmd. Type the following command:  
+4. Start the application with VSPerfCmd. Type the following command:  
   
-    ```  
-    vsperfcmd /launch:DesktopApp.exe  
-    ```  
+   ```  
+   vsperfcmd /launch:DesktopApp.exe  
+   ```  
   
-5.  Exercise the application to collect profiling data, and then close the application in the regular way.  
+5. Exercise the application to collect profiling data, and then close the application in the regular way.  
   
-6.  Clear the TIP environment variables. Type the following command:  
+6. Clear the TIP environment variables. Type the following command:  
   
-    ```  
-    vsperfclrenv /off  
-    ```  
+   ```  
+   vsperfclrenv /off  
+   ```  
   
- For more information, see [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md).  
+   For more information, see [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md).  
   
 ### Profiling services  
  To profile services, including [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applications, use the **VSPerfClrEnv /GlobalInteractionOn** option to set the environment variables, and the **VSPerfClrEnv /GlobalInteractionOff** option to remove them.  
@@ -91,33 +89,33 @@ Tier interaction profiling provides additional information about the execution t
   
 ##### Profiling a Windows service example  
   
-1.  If necessary, install the service.  
+1. If necessary, install the service.  
   
-2.  Open a command prompt window with Administrator privileges. Click **Start**, point to **All Programs**, and then point to **Accessories**. Right-click **Command Prompt**, and then click **Run As Administrator**.  
+2. Open a command prompt window with Administrator privileges. Click **Start**, point to **All Programs**, and then point to **Accessories**. Right-click **Command Prompt**, and then click **Run As Administrator**.  
   
-3.  Initialize the .NET profiling environment variables. Type the following command:  
+3. Initialize the .NET profiling environment variables. Type the following command:  
   
-    ```  
-    vsperfclrenv /globaltraceon  
-    ```  
+   ```  
+   vsperfclrenv /globaltraceon  
+   ```  
   
-4.  Initialize the TIP environment variables. Type the following command  
+4. Initialize the TIP environment variables. Type the following command  
   
-    ```  
-    vsperfclrenv /globalinteractionon  
-    ```  
+   ```  
+   vsperfclrenv /globalinteractionon  
+   ```  
   
-5.  Restart the computer to register the environment variables.  
+5. Restart the computer to register the environment variables.  
   
-6.  Open a command prompt window with Administrator privileges.  
+6. Open a command prompt window with Administrator privileges.  
   
-7.  Start the profiler. Type the following command:  
+7. Start the profiler. Type the following command:  
   
-    ```  
-    vsperfcmd /start:trace /output:MiddleTier_tip.vsp /user:SYSTEM /crosssession   
-    ```  
+   ```  
+   vsperfcmd /start:trace /output:MiddleTier_tip.vsp /user:SYSTEM /crosssession   
+   ```  
   
-8.  If necessary, start the service.  
+8. If necessary, start the service.  
   
 9. Attach the profiler to the service. Type the following command:  
   
@@ -139,11 +137,11 @@ Tier interaction profiling provides additional information about the execution t
   
 13. Restart the computer to register the cleared environment variables.  
   
- For more information, see one of the following topics:  
+    For more information, see one of the following topics:  
   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
+    [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)  
+    [Profiling Services](../profiling/command-line-profiling-of-services.md)  
   
 ## Adding tier interaction data with VSPerfASPNETCmd  
  The VSPerfASPNETCmd command-line tool enables you to easily profile [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications. Compared with the **VSPerfCmd** command-line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. These features of VSPerfASPNETCmd make the collection of tier interaction data exceptionally easy.  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Install the Stand-Alone Profiler | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Install the Stand-Alone Profiler
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Install the Stand-Alone Profiler](https://docs.microsoft.com/visualstudio/profiling/how-to-install-the-stand-alone-profiler).  
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides a command line based stand-alone profiler that can be run without installing the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE. This situation occurs when a computer does not or cannot have a development environment installed. For example, you should not install a development environment on a production Web server.  
   
 > [!NOTE]

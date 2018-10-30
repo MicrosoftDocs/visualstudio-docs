@@ -1,7 +1,7 @@
 ---
 title: "IDebugCustomViewer::DisplayValue | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,27 +21,25 @@ manager: "ghogen"
 # IDebugCustomViewer::DisplayValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomViewer::DisplayValue](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomviewer-displayvalue).  
-  
 This method is called to display the specified value.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT DisplayValue(  
-   HWND             hwnd,  
-   DWORD            dwID,  
-   IUnknown *       pHostServices,  
-   IDebugProperty3* pDebugProperty);  
+   HWND             hwnd,  
+   DWORD            dwID,  
+   IUnknown *       pHostServices,  
+   IDebugProperty3* pDebugProperty);  
 );  
 ```  
   
 ```csharp  
 int DisplayValue(  
-   IntPtr          hwnd,   
-   uint            dwID,   
-   object          pHostServices,   
-   IDebugProperty3 pDebugProperty  
+   IntPtr          hwnd,   
+   uint            dwID,   
+   object          pHostServices,   
+   IDebugProperty3 pDebugProperty  
 );  
 ```  
   

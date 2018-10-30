@@ -1,7 +1,7 @@
 ---
 title: "Help Viewer Administrator Guide | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Help Viewer Administrator Guide
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Help Viewer Administrator Guide](https://docs.microsoft.com/visualstudio/ide/help-viewer-administrator-guide).  
-  
 The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.  
   
  If your network environment allows clients to access the internet, the Help Viewer allows you to use command line scripts to deploy local Help content from the internet.  
@@ -43,18 +41,18 @@ The Help Viewer allows you to manage local Help installations for network enviro
   
  Requirements:  
   
--   Client computers must have access to the Internet.  
+- Client computers must have access to the Internet.  
   
--   Users must have administrator rights to update, add, or remove the local Help content after it has been installed.  
+- Users must have administrator rights to update, add, or remove the local Help content after it has been installed.  
   
- Caveats:  
+  Caveats:  
   
--   The default source for Help will still be Online.  
+- The default source for Help will still be Online.  
   
-    > [!TIP]
-    >  You can change the default source for Help by modifying the HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\help\UseOnlineHelp registry key. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+  > [!TIP]
+  >  You can change the default source for Help by modifying the HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\help\UseOnlineHelp registry key. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
   
--   Clients will still be prompted to install the basic Help content on the first launch of Visual Studio. You can disable this prompt by modifying the HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\Help\DisableFirstRunHelpSelection registry key.  
+- Clients will still be prompted to install the basic Help content on the first launch of Visual Studio. You can disable this prompt by modifying the HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\Help\DisableFirstRunHelpSelection registry key.  
   
 ### Example  
  The following example installs English content for Visual Studio to a client computer.  
@@ -74,47 +72,47 @@ The Help Viewer allows you to manage local Help installations for network enviro
   
  Requirements:  
   
--   The computer you install the set of content to must have access to the Internet.  
+- The computer you install the set of content to must have access to the Internet.  
   
--   Users must have administrator rights to update, add, or remove the local Help content after it has been installed.  
+- Users must have administrator rights to update, add, or remove the local Help content after it has been installed.  
   
-    > [!TIP]
-    >  If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+  > [!TIP]
+  >  If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
   
- Caveats:  
+  Caveats:  
   
--   If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+- If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
   
--   The default source for Help will still be Online.  
+- The default source for Help will still be Online.  
   
--   Clients will still be prompted to install the basic Help content on the first launch of Visual Studio. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+- Clients will still be prompted to install the basic Help content on the first launch of Visual Studio. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
   
 ### Create the content set  
  Before you can create the base content set, you must first uninstall all local Visual Studio content on the target computer.  
   
 ##### To uninstall local help  
   
-1.  In the Help Viewer, choose the **Manage Content** tab.  
+1. In the Help Viewer, choose the **Manage Content** tab.  
   
-2.  Under **Available Documentation**, navigate to the Visual Studio document set.  
+2. Under **Available Documentation**, navigate to the Visual Studio document set.  
   
-3.  Choose **Remove** next to each sub-item.  
+3. Choose **Remove** next to each sub-item.  
   
-4.  Choose **Start** to uninstall  
+4. Choose **Start** to uninstall  
   
-5.  Browse to *n*:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio12 and verify that the folder only contains the file catalogType.xml.  
+5. Browse to *n*:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio12 and verify that the folder only contains the file catalogType.xml.  
   
- Once you have removed all previously installed local Visual Studio Help content, you are ready to download the base content set.  
+   Once you have removed all previously installed local Visual Studio Help content, you are ready to download the base content set.  
   
 ##### To download the content  
   
-1.  In the Help Viewer, choose the **Manage Content** tab.  
+1. In the Help Viewer, choose the **Manage Content** tab.  
   
-2.  Under **Available Documentation**, navigate to the documentation sets you want to download and then choose **Add**.  
+2. Under **Available Documentation**, navigate to the documentation sets you want to download and then choose **Add**.  
   
-3.  Choose **Start**.  
+3. Choose **Start**.  
   
- Next, you need to package the content so it can be deployed to client computers.  
+   Next, you need to package the content so it can be deployed to client computers.  
   
 ##### To package the content  
   

@@ -1,7 +1,7 @@
 ---
 title: "IDebugCoreServer3::GetServerName | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugCoreServer3::GetServerName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer3::GetServerName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver3-getservername).  
-  
 Retrieves the name of the server.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetServerName(  
-   BSTR* pbstrName  
+   BSTR* pbstrName  
 );  
 ```  
   
 ```csharp  
 int GetServerName(  
-   out string pbstrName  
+   out string pbstrName  
 );  
 ```  
   

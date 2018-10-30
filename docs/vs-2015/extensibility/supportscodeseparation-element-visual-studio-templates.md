@@ -1,7 +1,7 @@
 ---
 title: "SupportsCodeSeparation Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # SupportsCodeSeparation Element (Visual Studio Templates)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SupportsCodeSeparation Element (Visual Studio Templates)](https://docs.microsoft.com/visualstudio/extensibility/supportscodeseparation-element-visual-studio-templates).  
-  
 Specifies whether or not the **Place code in separate file** check box is enabled in the **Add New Item** dialog box.  
   
  \<VSTemplate>  

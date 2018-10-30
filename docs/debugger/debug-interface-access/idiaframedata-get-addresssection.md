@@ -22,7 +22,7 @@ Retrieves the section part of the code address for the frame.
   
 ```C++  
 HRESULT get_addressSection (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

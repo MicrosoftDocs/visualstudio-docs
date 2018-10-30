@@ -1,7 +1,7 @@
 ---
 title: "Creating Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Creating Project Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Project Types](https://docs.microsoft.com/visualstudio/extensibility/internals/creating-project-types).  
-  
 You can extend [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by creating a new project type. To create a new project type, you must understand several concepts and complete a number of steps. The following topics provide an overview of how to create project types.  
   
 ## In This Section  

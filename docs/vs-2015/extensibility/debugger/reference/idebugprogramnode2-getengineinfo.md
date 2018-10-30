@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramNode2::GetEngineInfo | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugProgramNode2::GetEngineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2::GetEngineInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2-getengineinfo).  
-  
 Gets the name and identifier of the debug engine (DE) running a program.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetEngineInfo (   
-   BSTR* pbstrEngine,  
-   GUID* pguidEngine  
+   BSTR* pbstrEngine,  
+   GUID* pguidEngine  
 );  
 ```  
   
 ```csharp  
 int GetEngineInfo(  
-   out string pbstrEngine,   
-   out Guid pguidEngine  
+   out string pbstrEngine,   
+   out Guid pguidEngine  
 );  
 ```  
   

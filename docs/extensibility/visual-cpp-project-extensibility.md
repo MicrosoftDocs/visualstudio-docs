@@ -13,7 +13,7 @@ ms.workload: ["vssdk"]
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
 
-The *Visual C++ Project system* is used by .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures and target platforms. 
+The *Visual C++ Project system* is used for .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures and target platforms. 
 
 ## C++ MSBuild targets structure
 
@@ -41,7 +41,7 @@ These files define little by themselves. Instead, they import other files based 
 
    The build architecture, named "Platform" for historical reasons.
 
-   Examples: Win32, x86, x64, ARM	
+   Examples: Win32, x86, x64, ARM   
 
 - `$(PlatformToolset)`
 
@@ -220,13 +220,13 @@ If you look at the targets, such as `_ClCompile`, you'll see they don't do anyth
 </Target>
 ```
 
-`ClCompile` and other build tool-specific targets are defined as empty targets in Microsoft.CppBuild.targets:
+`ClCompile` and other build tool-specific targets are defined as empty targets in *Microsoft.CppBuild.targets*:
 
 ```xml
 <Target Name="ClCompile"/>
 ```
 
-Because the `ClCompile` target is defined as an empty target in *Microsoft.CppBuild.targets*, unless it is overridden by a toolset, no real build action is performed. The toolset targets can override the `ClCompile` target, that is, they can contain another `ClCompile` definition after importing *Microsoft.CppBuild.targets*: 
+Because the `ClCompile` target is empty, unless it is overridden by a toolset, no real build action is performed. The toolset targets can override the `ClCompile` target, that is, they can contain another `ClCompile` definition after importing *Microsoft.CppBuild.targets*: 
 
 ```xml
 <Target Name="ClCompile"
@@ -236,7 +236,7 @@ Because the `ClCompile` target is defined as an empty target in *Microsoft.CppBu
 </Target>
 ```
 
-Despite the name `ClCompile`, which was created before Visual Studio implemented cross-platform support, the `ClCompile` target doesn't have to call CL.exe. It can also call Clang, gcc, or other compilers by using appropriate MSBuild tasks.
+Despite its name, which was created before Visual Studio implemented cross-platform support, the `ClCompile` target doesn't have to call CL.exe. It can also call Clang, gcc, or other compilers by using appropriate MSBuild tasks.
 
 The `ClCompile` target should not have any dependencies except the `SelectClCompile` target, which is required for the single file compile command to work in the IDE.
 
@@ -282,7 +282,7 @@ If you need to create a new task for a build tool, you can choose from the follo
 
 1. If you want better task performance or just need more complex functionality, use the regular MSBuild [task writing](../msbuild/task-writing.md) process.
 
-   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and .tlog file creation, derive your task from `TrackedVCToolTask`.
+   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and .tlog file creation, derive your task from the `Microsoft.Build.CPPTasks.TrackedVCToolTask` class. At present, while there is documentation for the base [ToolTask](/dotnet/api/microsoft.build.utilities.tooltask) class, there are no examples or documentation for the details of the `TrackedVCToolTask` class. If this would be of particular interest, add your voice to a request on [developercommunity.visualstudio.com](https://developercommunity.visualstudio.com/spaces/62/index.html).
 
 ## Incremental builds and up-to-date checks
 
@@ -421,7 +421,7 @@ To use `Task.HostObject` to get the unsaved content of source files, the targets
 @="{83046B3F-8984-444B-A5D2-8029DEE2DB70}"
 ```
 
-## Project extensibility in the Visual Studio IDE
+## Visual C++ project extensibility in the Visual Studio IDE
 
 The Visual C++ project system is based on the [VS Project System](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md), and uses its extensibility points. However, the project hierarchy implementation is specific to Visual C++ and not based on CPS, so hierarchy extensibility is limited to project items.
 
@@ -472,12 +472,13 @@ attributes that affect how the rule looks in the user interface.
 
 The `PageTemplate` attribute defines how the rule is displayed in the **Property Pages** dialog. The attribute can have one of these values:
 
-|Attribute|Description|
-|-|-|
-`generic`|All properties are shown on one page under Category headings<br/>The rule can be visible for `Project` and `PropertySheet` contexts, but not `File`.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*general.xml*
-`tool`|Categories are shown as subpages.<br/>The rule can be visible in all contexts: `Project`, `PropertySheet` and `File`.<br/>The rule is visible in Project Properties only if the project has items with the `ItemType` defined in `Rule.DataSource`, unless the rule name is included in the `ProjectTools` item group.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*clang.xml*
-`debugger`|The page is shown as a part of the Debugging page.<br/>Categories are currently ignored.<br/>The rule name should match the Debug Launcher MEF object's `ExportDebugger` attribute.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*debugger\_local\_windows.xml*
-*custom*| Custom template. The name of the template should match the `ExportPropertyPageUIFactoryProvider` attribute of the `PropertyPageUIFactoryProvider` MEF object. See **Microsoft.VisualStudio.ProjectSystem.Designers.Properties.IPropertyPageUIFactoryProvider**.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*userMacros.xml*
+
+| Attribute | Description |
+|------------| - |
+| `generic` | All properties are shown on one page under Category headings<br/>The rule can be visible for `Project` and `PropertySheet` contexts, but not `File`.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*general.xml* |
+| `tool` | Categories are shown as subpages.<br/>The rule can be visible in all contexts: `Project`, `PropertySheet` and `File`.<br/>The rule is visible in Project Properties only if the project has items with the `ItemType` defined in `Rule.DataSource`, unless the rule name is included in the `ProjectTools` item group.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*clang.xml* |
+| `debugger` | The page is shown as a part of the Debugging page.<br/>Categories are currently ignored.<br/>The rule name should match the Debug Launcher MEF object's `ExportDebugger` attribute.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*debugger\_local\_windows.xml* |
+| *custom* | Custom template. The name of the template should match the `ExportPropertyPageUIFactoryProvider` attribute of the `PropertyPageUIFactoryProvider` MEF object. See **Microsoft.VisualStudio.ProjectSystem.Designers.Properties.IPropertyPageUIFactoryProvider**.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*userMacros.xml* |
 
 If the rule uses one of the Property Grid-based templates, it can use these extensibility points for its properties:
 
@@ -650,6 +651,6 @@ For information on how to create VSIX files, see [Shipping Visual Studio Extensi
 
 The Microsoft Build System ([MSBuild](../msbuild/msbuild.md)) provides the build engine and the extensible XML-based format for project files. You should be familiar with basic [MSBuild concepts](../msbuild/msbuild-concepts.md) and with how [MSBuild for Visual C++](/cpp/build/msbuild-visual-cpp-overview) works in order to extend the Visual C++ project system.
 
-The Managed Extensibility Framework ([MEF](/dotnet/framework/mef/)) provides the extension APIs that are used by CPS and the Visual C++ project system. For an overview of how MEF is used by CPS, see [MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md).
+The Managed Extensibility Framework ([MEF](/dotnet/framework/mef/)) provides the extension APIs that are used by CPS and the Visual C++ project system. For an overview of how MEF is used by CPS, see [CPS and MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md#cps-and-mef) in the [VSProjectSystem overview of MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md).
 
 You can customize the existing build system to add build steps or new file types. For more information, see [MSBuild (Visual C++) Overview](/cpp/build/msbuild-visual-cpp-overview) and [Working with project properties](/cpp/ide/working-with-project-properties).

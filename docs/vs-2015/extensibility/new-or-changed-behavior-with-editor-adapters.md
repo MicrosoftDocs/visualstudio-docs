@@ -1,7 +1,7 @@
 ---
 title: "New or Changed Behavior with Editor Adapters | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # New or Changed Behavior with Editor Adapters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [New or Changed Behavior with Editor Adapters](https://docs.microsoft.com/visualstudio/extensibility/new-or-changed-behavior-with-editor-adapters).  
-  
 If you are updating code that was written against earlier versions of the Visual Studio core editor, and you plan to use the editor adapters (or shims) rather than using the new API, you should be aware of the following differences in the behavior of the editor adapters with respect to the previous core editor.  
   
 ## Features  

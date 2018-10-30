@@ -1,7 +1,7 @@
 ---
 title: "How to: Extend the Visual Studio Build Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # How to: Extend the Visual Studio Build Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Extend the Visual Studio Build Process](https://docs.microsoft.com/visualstudio/msbuild/how-to-extend-the-visual-studio-build-process).  
-  
   
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process is defined by a series of [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] .targets files that are imported into your project file. One of these imported files, Microsoft.Common.targets, can be extended to allow you to run custom tasks at several points in the build process. This topic explains two methods you can use to extend the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process:  
   
@@ -37,25 +35,25 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process is defined by a s
   
 #### To override a predefined target  
   
-1.  Identify a predefined target in Microsoft.Common.targets that you want to override. See the table below for the complete list of targets that you can safely override.  
+1. Identify a predefined target in Microsoft.Common.targets that you want to override. See the table below for the complete list of targets that you can safely override.  
   
-2.  Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:  
+2. Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:  
   
-    ```  
-    <Project>  
-        ...  
-        <Target Name="BeforeBuild">  
-            <!-- Insert tasks to run before build here -->  
-        </Target>  
-        <Target Name="AfterBuild">  
-            <!-- Insert tasks to run after build here -->  
-        </Target>  
-    </Project>  
-    ```  
+   ```  
+   <Project>  
+       ...  
+       <Target Name="BeforeBuild">  
+           <!-- Insert tasks to run before build here -->  
+       </Target>  
+       <Target Name="AfterBuild">  
+           <!-- Insert tasks to run after build here -->  
+       </Target>  
+   </Project>  
+   ```  
   
-3.  Build the project file.  
+3. Build the project file.  
   
- The following table shows all of the targets in Microsoft.Common.targets that you can safely override.  
+   The following table shows all of the targets in Microsoft.Common.targets that you can safely override.  
   
 |Target Name|Description|  
 |-----------------|-----------------|  

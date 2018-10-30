@@ -1,7 +1,7 @@
 ---
 title: "IDebugStackFrame2::GetExpressionContext | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugStackFrame2::GetExpressionContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetExpressionContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getexpressioncontext).  
-  
 Gets an evaluation context for expression evaluation within the current context of a stack frame and thread.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetExpressionContext (   
-   IDebugExpressionContext2** ppExprCxt  
+   IDebugExpressionContext2** ppExprCxt  
 );  
 ```  
   
 ```csharp  
 int GetExpressionContext (   
-   out IDebugExpressionContext2 ppExprCxt  
+   out IDebugExpressionContext2 ppExprCxt  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Sample Excel Extension: Element Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Sample Excel Extension: Element Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Excel Extension: Element Classes](https://docs.microsoft.com/visualstudio/test/sample-excel-extension-element-classes).  
-  
 The extension uses classes that are derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement> and represent the Worksheet control and Cell control in [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)].  
   
  The base element for this extension is the `ExcelElement`. The `ExcelWorksheetElement` class and the `ExcelCellElement` class inherit from that element  
@@ -48,7 +46,7 @@ The extension uses classes that are derived from <xref:Microsoft.VisualStudio.Te
 ## Utilities and ExcelUtilities Classes  
  The internal `ExcelUtilities` class provides some constant values, such as the technology name, and a method that determines if the provided window handle represents an Excel worksheet.  
   
- The `Utilities` class has helper methods that return a variety of information about the UI. Some methods use direct calls into external system DLLs, such as **USER32.DLL** and **OLEACC.DLL**, to get window handles from the UI**.**  
+ The `Utilities` class has helper methods that return a variety of information about the UI. Some methods use direct calls into external system DLLs, such as **USER32.DLL** and **OLEACC.DLL**, to get window handles from the UI<strong>.</strong>  
   
 ## See Also  
  <xref:System.Runtime.InteropServices.ComVisibleAttribute>   

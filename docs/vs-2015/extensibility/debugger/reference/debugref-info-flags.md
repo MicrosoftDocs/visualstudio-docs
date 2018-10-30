@@ -1,7 +1,7 @@
 ---
 title: "DEBUGREF_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,38 +21,36 @@ manager: "ghogen"
 # DEBUGREF_INFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DEBUGREF_INFO_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/debugref-info-flags).  
-  
 Specifies what information to retrieve about a debug reference object.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_DEBUGREF_INFO_FLAGS {   
-   DEBUGREF_INFO_NAME             = 0x00000001,  
-   DEBUGREF_INFO_TYPE             = 0x00000002,  
-   DEBUGREF_INFO_VALUE            = 0x00000004,  
-   DEBUGREF_INFO_ATTRIB           = 0x00000008,  
-   DEBUGREF_INFO_REFTYPE          = 0x00000010,  
-   DEBUGREF_INFO_REF              = 0x00000020,  
-   DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,  
-   DEBUGREF_INFO_NONE             = 0x00000000,  
-   DEBUGREF_INFO_ALL              = 0xffffffff  
+   DEBUGREF_INFO_NAME             = 0x00000001,  
+   DEBUGREF_INFO_TYPE             = 0x00000002,  
+   DEBUGREF_INFO_VALUE            = 0x00000004,  
+   DEBUGREF_INFO_ATTRIB           = 0x00000008,  
+   DEBUGREF_INFO_REFTYPE          = 0x00000010,  
+   DEBUGREF_INFO_REF              = 0x00000020,  
+   DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,  
+   DEBUGREF_INFO_NONE             = 0x00000000,  
+   DEBUGREF_INFO_ALL              = 0xffffffff  
 };  
 typedef DWORD DEBUGREF_INFO_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_DEBUGREF_INFO_FLAGS {   
-   DEBUGREF_INFO_NAME             = 0x00000001,  
-   DEBUGREF_INFO_TYPE             = 0x00000002,  
-   DEBUGREF_INFO_VALUE            = 0x00000004,  
-   DEBUGREF_INFO_ATTRIB           = 0x00000008,  
-   DEBUGREF_INFO_REFTYPE          = 0x00000010,  
-   DEBUGREF_INFO_REF              = 0x00000020,  
-   DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,  
-   DEBUGREF_INFO_NONE             = 0x00000000,  
-   DEBUGREF_INFO_ALL              = 0xffffffff  
+   DEBUGREF_INFO_NAME             = 0x00000001,  
+   DEBUGREF_INFO_TYPE             = 0x00000002,  
+   DEBUGREF_INFO_VALUE            = 0x00000004,  
+   DEBUGREF_INFO_ATTRIB           = 0x00000008,  
+   DEBUGREF_INFO_REFTYPE          = 0x00000010,  
+   DEBUGREF_INFO_REF              = 0x00000020,  
+   DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,  
+   DEBUGREF_INFO_NONE             = 0x00000000,  
+   DEBUGREF_INFO_ALL              = 0xffffffff  
 };  
 ```  
   

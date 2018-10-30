@@ -1,7 +1,7 @@
 ---
 title: "Prefetch content for Windows Store apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Prefetch content for Windows Store apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Prefetch content for Windows Store apps](https://docs.microsoft.com/visualstudio/debugger/prefetch-content-for-windows-store-apps).  
-  
 Applies to Windows only](../Image/windows_only_content.png "windows_only_content")  
   
  To make your Windows Store app more responsive, you can request Windows to preload some web content, such as web pages or images, into the app's [WinINet](http://msdn.microsoft.com/en-us/0a06f2af-957a-4dff-a8cc-187370181b5c)[WinINet](http://msdn.microsoft.com/library/aa383630.aspx)cache. This functionality is called prefetching. It’s especially effective for content that's used at startup but you can prefetch other frequently used content, too. The methods of the [Windows.Networking.BackgroundTransfer.ContentPrefetcher](http://msdn.microsoft.com/library/windows/apps/windows.networking.backgroundtransfer.contentprefetcher.aspx) class let you specify the URIs of the content that you want to preload. See the Windows SDK [Content prefetch sample](http://code.msdn.microsoft.com/windowsapps/ContentPrefetcher-Sample-432c8309) for examples of how to add ContentPrefetcher functionality to your app.  
@@ -34,13 +32,13 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 ## To force preloading of ContentPrefetcher specified resources  
  This procedure assumes that you have already set up the ContentPrefetcher functionality and specified the content URIs to preload in your app project. To force a preloading of content when the specified resources are new or modified, you have to start and stop the app before you choose the **Trigger Windows Store App Prefetch** command. You run the app first to register the URIs. **Trigger Windows Store App Prefetch** command then forces the ContentPrefetcher to download the content and add it the cache. In subsequent runs of the app, you can assume that the content is preloaded.  
   
-1.  Start the app to register the prefetch content URIs with the app. On the **Debug** menu, choose **Start Debugging** (Keyboard shortcut: F5).  
+1. Start the app to register the prefetch content URIs with the app. On the **Debug** menu, choose **Start Debugging** (Keyboard shortcut: F5).  
   
-2.  On the **Debug** menu, choose **Stop Debugging** (Keyboard shortcut: Shift + F5).  
+2. On the **Debug** menu, choose **Stop Debugging** (Keyboard shortcut: Shift + F5).  
   
-3.  On the **Debug** menu, choose **Other Debug Targets** and then choose **Trigger Windows Store App Prefetch**.  
+3. On the **Debug** menu, choose **Other Debug Targets** and then choose **Trigger Windows Store App Prefetch**.  
   
- You can now debug, test, or analyze your app with the prefetched web resources.  
+   You can now debug, test, or analyze your app with the prefetched web resources.  
   
 > [!NOTE]
 >  Repeat these steps whenever you add or modify the specified web content.  

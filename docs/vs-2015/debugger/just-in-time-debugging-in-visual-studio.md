@@ -1,7 +1,7 @@
 ---
 title: "Just-In-Time Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Just-In-Time Debugging in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Just-In-Time Debugging in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/just-in-time-debugging-in-visual-studio).  
-  
 Just-In-Time debugging launches Visual Studio automatically when an exception or crash occurs in an application that is running outside Visual Studio. This enables you to test your application when Visual Studio is not running, and begin debugging with Visual Studio when a problem occurs.
 
 Just-In-Time debugging works for Windows desktop apps. It does not work for Windows Universal apps, and it does not work for managed code that is hosted in a native application, such as Visualizers.
@@ -58,19 +56,19 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
   
 #### To enable or disable Just-In-Time debugging  
   
-1.  Open Visual Studio. On the **Tools** menu, click **Options**.  
+1. Open Visual Studio. On the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, select the **Debugging** folder.  
+2. In the **Options** dialog box, select the **Debugging** folder.  
   
-3.  In the **Debugging** folder, select the **Just-In-Time** page.  
+3. In the **Debugging** folder, select the **Just-In-Time** page.  
   
-4.  In the **Enable Just-In-Time debugging of these types of code** box, select or clear the relevant program types: **Managed**, **Native**, or **Script**.  
+4. In the **Enable Just-In-Time debugging of these types of code** box, select or clear the relevant program types: **Managed**, **Native**, or **Script**.  
   
-     To disable Just-In-Time debugging, once it has been enabled, you must be running with Administrator privileges. Enabling Just-In-Time debugging sets a registry key, and Administrator privileges are required to change that key.  
+    To disable Just-In-Time debugging, once it has been enabled, you must be running with Administrator privileges. Enabling Just-In-Time debugging sets a registry key, and Administrator privileges are required to change that key.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
- Just-In-Time debugging may still be enabled even if Visual Studio is no longer installed on your computer. When Visual Studio is not installed, you cannot disable Just-In-Time debugging from the Visual Studio **Options** dialog box. In that case, you can disable Just-In-Time debugging by editing the Windows registry.  
+   Just-In-Time debugging may still be enabled even if Visual Studio is no longer installed on your computer. When Visual Studio is not installed, you cannot disable Just-In-Time debugging from the Visual Studio **Options** dialog box. In that case, you can disable Just-In-Time debugging by editing the Windows registry.  
   
 #### To disable Just-In-Time debugging by editing the registry  
   

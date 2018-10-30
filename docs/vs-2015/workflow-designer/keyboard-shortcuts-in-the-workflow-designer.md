@@ -1,7 +1,7 @@
 ---
 title: "Keyboard Shortcuts in the Workflow Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,29 +43,29 @@ All of the core functionality of the [!INCLUDE[wfd1](../includes/wfd1-md.md)] ca
 ### Flowchart  
  The following list shows the gestures used to construct a flowchart by keyboard. As in the rest of the [!INCLUDE[wfd2](../includes/wfd2-md.md)], activities are added to the designer surface using the global toolbox shortcuts provided with [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
   
--   To move an activity, select the activity and use the arrow keys to reposition it.  
+- To move an activity, select the activity and use the arrow keys to reposition it.  
   
--   To resize a flowchart, move an activity past the current border of the flowchart using the arrow keys. The flowchart is resized automatically.  
+- To resize a flowchart, move an activity past the current border of the flowchart using the arrow keys. The flowchart is resized automatically.  
   
--   To set an activity as the start node, use the **Set as StartNode** command in the context menu.  
+- To set an activity as the start node, use the **Set as StartNode** command in the context menu.  
   
--   To connect activities:  
+- To connect activities:  
   
-    1.  Select the source activity by tabbing to the activity.  
+  1.  Select the source activity by tabbing to the activity.  
   
-    2.  Press CTRL+E, M as many times as necessary to move keyboard focus to the destination activity.  
+  2.  Press CTRL+E, M as many times as necessary to move keyboard focus to the destination activity.  
   
-    3.  Press CTRL+E, S to add the destination activity to the selection.  
+  3.  Press CTRL+E, S to add the destination activity to the selection.  
   
-    4.  Press CTRL+E, F to add the connector from the source to the destination.  
+  4.  Press CTRL+E, F to add the connector from the source to the destination.  
   
- Notes about connecting activities by keyboard:  
+  Notes about connecting activities by keyboard:  
   
--   You can make multiple connections at the same time by adding more activities to the selection before pressing CTRL+E, F. The connections are made in the order that the activities were added to the selection.  
+- You can make multiple connections at the same time by adding more activities to the selection before pressing CTRL+E, F. The connections are made in the order that the activities were added to the selection.  
   
--   If a pair of activities cannot be connected, for example if the source activity already has an outgoing connection, other connections between activities in the selection are still made whenever possible.  
+- If a pair of activities cannot be connected, for example if the source activity already has an outgoing connection, other connections between activities in the selection are still made whenever possible.  
   
--   When a **FlowDecision** is included in the selection and the **FlowDecision** has no outgoing connectors, the connector is placed on the **True** branch.  
+- When a **FlowDecision** is included in the selection and the **FlowDecision** has no outgoing connectors, the connector is placed on the **True** branch.  
   
 ### Expression Editing  
  By default, the default keyboard shortcuts for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] text editing apply inside the expression editor in [!INCLUDE[wfd2](../includes/wfd2-md.md)], with the following limitations:  

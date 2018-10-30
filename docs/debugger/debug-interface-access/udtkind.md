@@ -22,10 +22,10 @@ Describes the variety of user-defined type (UDT).
   
 ```C++  
 enum UdtKind {   
-   UdtStruct,  
-   UdtClass,  
-   UdtUnion,  
-   UdtInterface  
+   UdtStruct,  
+   UdtClass,  
+   UdtUnion,  
+   UdtInterface  
 };  
 ```  
   

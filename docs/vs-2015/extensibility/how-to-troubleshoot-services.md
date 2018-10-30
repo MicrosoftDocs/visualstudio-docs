@@ -1,7 +1,7 @@
 ---
 title: "How to: Troubleshoot Services | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,23 +19,21 @@ manager: "ghogen"
 # How to: Troubleshoot Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Troubleshoot Services](https://docs.microsoft.com/visualstudio/extensibility/how-to-troubleshoot-services).  
-  
 There are several common problems that can occur when you try to get a service:  
   
--   The service is not registered with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+- The service is not registered with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
--   The service is requested by interface type and not by service type.  
+- The service is requested by interface type and not by service type.  
   
--   The VSPackage requesting the service has not been sited.  
+- The VSPackage requesting the service has not been sited.  
   
--   The wrong service provider is used.  
+- The wrong service provider is used.  
   
- If the requested service cannot be obtained, the call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> returns null. You should always test for null after requesting a service:  
+  If the requested service cannot be obtained, the call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> returns null. You should always test for null after requesting a service:  
   
 ```csharp  
 IVsActivityLog log =   
-    GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
+    GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
 if (log == null) return;  
 ```  
   

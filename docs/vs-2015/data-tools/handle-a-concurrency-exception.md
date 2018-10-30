@@ -1,7 +1,7 @@
 ---
 title: "Handle a concurrency exception | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Handle a concurrency exception
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Handle a concurrency exception](https://docs.microsoft.com/visualstudio/data-tools/handle-a-concurrency-exception).  
-  
   
 Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a <xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.  
   
@@ -68,7 +66,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 3.  In the **Templates** pane, select **Windows Application**.  
   
-4.  Name the project `ConcurrencyWalkthrough`, and then select**OK**.  
+4.  Name the project `ConcurrencyWalkthrough`, and then select **OK**.  
   
      Visual Studio adds the project to **Solution Explorer** and displays a new form in the designer.  
   
@@ -92,7 +90,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 5.  Expand the **Tables** node and select the `Customers` table. The default name for the dataset should be `NorthwindDataSet`.  
   
-6.  Select**Finish** to add the dataset to the project.  
+6.  Select **Finish** to add the dataset to the project.  
   
 ## Create a data-bound DataGridView control  
  In this section, you create a <xref:System.Windows.Forms.DataGridView> by dragging the **Customers** item from the **Data Sources** window onto your Windows Form.  
@@ -103,7 +101,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 2.  In the **Data Sources** window, expand the **NorthwindDataSet** node, and then select the **Customers** table.  
   
-3.  Select the down arrow on the table node, and then select **DataGridView**in the drop-down list.  
+3.  Select the down arrow on the table node, and then select **DataGridView** in the drop-down list.  
   
 4.  Drag the table onto an empty area of your form.  
   
@@ -114,7 +112,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 #### To test the form  
   
-1.  Select**F5** to run the application  
+1.  Select **F5** to run the application  
   
      The form appears with a <xref:System.Windows.Forms.DataGridView> control on it that's filled with data from the `Customers` table.  
   
@@ -125,13 +123,13 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
  The applicationpresents the user with three versions of the record:  
   
--   The current record in the database  
+- The current record in the database  
   
--   The original record that's loaded into the dataset  
+- The original record that's loaded into the dataset  
   
--   The proposed changes in the dataset  
+- The proposed changes in the dataset  
   
- The user is then able to either overwrite the database with the proposed version, or cancel the update and refresh the dataset with the new values from the database.  
+  The user is then able to either overwrite the database with the proposed version, or cancel the update and refresh the dataset with the new values from the database.  
   
 #### To enable the handling of concurrency errors  
   
@@ -188,7 +186,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 #### To test the form  
   
-1.  Select**F5** to run the application.  
+1.  Select **F5** to run the application.  
   
 2.  After the form appears, leave it running and switch to the Visual Studio IDE.  
   
@@ -211,8 +209,8 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
      The concurrency error is raised, and the message box appears.  
   
-10. Selecting**No** cancels the update and updates the dataset with the values that are  currently in the database.Selecting**Yes** writes the proposed value to the database.  
+10. Selecting **No** cancels the update and updates the dataset with the values that are currently in the database. Selecting **Yes** writes the proposed value to the database.
   
-## See Also  
- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
+## See Also
 
+- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

@@ -1,7 +1,7 @@
 ---
 title: "CONSTRUCTOR_ENUM | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # CONSTRUCTOR_ENUM
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CONSTRUCTOR_ENUM](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/constructor-enum).  
-  
 Selects different types of constructors.  
   
 ## Syntax  
   
 ```cpp#  
 typedef enum ConstructorMatchOptions {   
-   crAll       = 0,  
-   crNonStatic = 1,  
-   crStatic    = 2  
+   crAll       = 0,  
+   crNonStatic = 1,  
+   crStatic    = 2  
 } CONSTRUCTOR_ENUM;  
 ```  
   
 ```csharp  
 public enum ConstructorMatchOptions {   
-   crAll       = 0,  
-   crNonStatic = 1,  
-   crStatic    = 2  
+   crAll       = 0,  
+   crNonStatic = 1,  
+   crStatic    = 2  
 };  
 ```  
   

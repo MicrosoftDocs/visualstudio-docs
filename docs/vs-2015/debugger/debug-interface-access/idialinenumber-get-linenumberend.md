@@ -1,7 +1,7 @@
 ---
 title: "IDiaLineNumber::get_lineNumberEnd | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaLineNumber::get_lineNumberEnd
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_lineNumberEnd](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-linenumberend).  
-  
 Retrieves the one-based source line number where the statement or expression ends.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_lineNumberEnd (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

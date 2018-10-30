@@ -1,7 +1,7 @@
 ---
 title: "Customize how Visual Studio creates captions for data-bound controls | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Customize how Visual Studio creates captions for data-bound controls
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customize how Visual Studio creates captions for data-bound controls](https://docs.microsoft.com/visualstudio/data-tools/customize-how-visual-studio-creates-captions-for-data-bound-controls).  
-  
   
 When you drag items from the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) onto the Windows Forms Designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together. You can customize the way in which these labels are created, by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data Designers** registry key.  
   
@@ -79,15 +77,15 @@ When you drag items from the [Data Sources Window](http://msdn.microsoft.com/lib
   
 10. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionSuffix`.  
   
-11. Right-click the **SmartCaptionExpression** item, and select**Modify**.  
+11. Right-click the **SmartCaptionExpression** item, and select **Modify**.  
   
 12. Enter the regular expression you want the **Data Sources** window to use.  
   
-13. Right-click the **SmartCaptionReplacement** item, and select**Modify**.  
+13. Right-click the **SmartCaptionReplacement** item, and select **Modify**.  
   
 14. Enter the replacement string formatted the way you want to display the patterns matched in your regular expression.  
   
-15. Right-click the **SmartCaptionSuffix** item, and select**Modify**.  
+15. Right-click the **SmartCaptionSuffix** item, and select **Modify**.  
   
 16. Enter any characters you want to appear at the end of the caption.  
   
@@ -115,11 +113,11 @@ When you drag items from the [Data Sources Window](http://msdn.microsoft.com/lib
   
 10. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionSuffix`.  
   
-11. Right-click the **SmartCaptionExpression** item, and select**Modify**.  
+11. Right-click the **SmartCaptionExpression** item, and select **Modify**.  
   
 12. Enter `(.*)` for the value. This will match the entire string.  
   
-13. Right-click the **SmartCaptionReplacement** item, and select**Modify**.  
+13. Right-click the **SmartCaptionReplacement** item, and select **Modify**.  
   
 14. Enter `$1` for the value. This replaces the string with the matched value, which is the entire string so that it will remain unchanged.  
   

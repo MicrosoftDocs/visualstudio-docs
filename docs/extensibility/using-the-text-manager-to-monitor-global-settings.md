@@ -21,20 +21,20 @@ If you implement a core editor, you must monitor the changes that are made to gl
 ## Text manager functions  
  The text manager raises events for a number of settings, including the following:  
   
--   Whether a buffer is under source code control  
+- Whether a buffer is under source code control  
   
--   How to register for file-change notifications  
+- How to register for file-change notifications  
   
--   How to keep track of which views are associated with certain buffers  
+- How to keep track of which views are associated with certain buffers  
   
--   Text colorization preferences  
+- Text colorization preferences  
   
--   Tab versus space preferences  
+- Tab versus space preferences  
   
- Preferences that are unique to a given language are not managed by the text manager. These settings must be managed by each language service.  
+  Preferences that are unique to a given language are not managed by the text manager. These settings must be managed by each language service.  
   
- Event notification for the text manager is provided by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManagerEvents> interface. Implement this interface on your client object to handle events raised the text manager. You register for these events by using the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> interface on the text manager.  
+  Event notification for the text manager is provided by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManagerEvents> interface. Implement this interface on your client object to handle events raised the text manager. You register for these events by using the <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> interface on the text manager.  
   
 ## See also  
  [Inside the core editor](../extensibility/inside-the-core-editor.md)   
- [Editor features](http://msdn.microsoft.com/en-us/bdac940d-1f14-4019-a01f-fd0bb3dc7198)
+ [Editor features](https://msdn.microsoft.com/library/bdac940d-1f14-4019-a01f-fd0bb3dc7198)

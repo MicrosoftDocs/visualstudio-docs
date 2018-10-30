@@ -1,7 +1,7 @@
 ---
 title: "CA1716: Identifiers should not match keywords | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # CA1716: Identifiers should not match keywords
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1716: Identifiers should not match keywords](https://docs.microsoft.com/visualstudio/code-quality/ca1716-identifiers-should-not-match-keywords).
-
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotMatchKeywords|
@@ -41,13 +39,13 @@ The latest version of this topic can be found at [CA1716: Identifiers should not
 
  This rule checks against keywords in the following languages:
 
--   Visual Basic
+- Visual Basic
 
--   C#
+- C#
 
--   C++/CLI
+- C++/CLI
 
- Case-insensitive comparison is used for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] keywords, and case-sensitive comparison is used for the other languages.
+  Case-insensitive comparison is used for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] keywords, and case-sensitive comparison is used for the other languages.
 
 ## How to Fix Violations
  Select a name that does not appear in the list of keywords.

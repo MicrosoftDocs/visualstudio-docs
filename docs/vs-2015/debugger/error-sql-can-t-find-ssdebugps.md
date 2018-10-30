@@ -1,7 +1,7 @@
 ---
 title: "Error: SQL Can&#39;t Find SSDEBUGPS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Error: SQL Can&#39;t Find SSDEBUGPS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: SQL Can&#39;t Find SSDEBUGPS](https://docs.microsoft.com/visualstudio/debugger/error-sql-can-t-find-ssdebugps).  
-  
 SSDEBUGPS.dll is the SQL Server Debugging Host component.  
   
  This error occurs when you are trying to start debugging, and indicates that the specified file is not present on the [!INCLUDE[sqprsqlong](../includes/sqprsqlong-md.md)] machine. Possible causes are that either Remote Debugging setup was never run, or that somehow this file got deleted.  

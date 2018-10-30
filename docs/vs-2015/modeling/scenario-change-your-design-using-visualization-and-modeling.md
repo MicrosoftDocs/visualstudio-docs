@@ -1,14 +1,14 @@
 ---
 title: "Scenario: Change your design using visualization and modeling | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code visualization [Visual Studio ALM]"
   - "modeling software [Visual Studio ALM]"
@@ -26,58 +26,56 @@ manager: "douge"
 # Scenario: Change your design using visualization and modeling
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Scenario: Change your design using visualization and modeling](https://docs.microsoft.com/visualstudio/modeling/scenario-change-your-design-using-visualization-and-modeling).  
-  
 Make sure that your software system meets users' needs by using the visualization and modeling tools in Visual Studio. Use tools such as Unified Modeling Language (UML) diagrams, code maps, layer diagrams, and class diagrams to:  
   
  To see which versions of Visual Studio support each tool, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
--   Clarify users' requirements and business processes.  
+- Clarify users' requirements and business processes.  
   
--   Visualize and explore existing code.  
+- Visualize and explore existing code.  
   
--   Describe changes to an existing system.  
+- Describe changes to an existing system.  
   
--   Verify that the system meets its requirements.  
+- Verify that the system meets its requirements.  
   
--   Keep code consistent with the design.  
+- Keep code consistent with the design.  
   
- This walkthrough:  
+  This walkthrough:  
   
--   Describes how these tools can benefit your software project.  
+- Describes how these tools can benefit your software project.  
   
--   Shows how you might use these tools, regardless your development approach, with an example scenario.  
+- Shows how you might use these tools, regardless your development approach, with an example scenario.  
   
- To find out more about these tools and the scenarios that they support, see:  
+  To find out more about these tools and the scenarios that they support, see:  
   
--   [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)  
+- [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)  
   
--   [Visualize code](../modeling/visualize-code.md)  
+- [Visualize code](../modeling/visualize-code.md)  
   
--   [Create models for your app](../modeling/create-models-for-your-app.md)  
+- [Create models for your app](../modeling/create-models-for-your-app.md)  
   
 ##  <a name="ScenarioOverview"></a> Scenario Overview  
  This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now Web site. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a Web site where customers can post restaurant reviews.  
   
  Lucerne recently acquired Dinner Now and wants to make the following changes:  
   
--   Integrate their Web sites by adding restaurant review capabilities to Dinner Now.  
+- Integrate their Web sites by adding restaurant review capabilities to Dinner Now.  
   
--   Replace Dinner Now's payment system with Lucerne's system.  
+- Replace Dinner Now's payment system with Lucerne's system.  
   
--   Expand the Dinner Now service across the region.  
+- Expand the Dinner Now service across the region.  
   
- Dinner Now uses SCRUM and eXtreme Programming. They have very high test coverage and very little unsupported code. They minimize risks by creating small but working versions of a system and then adding functionality incrementally. They develop their code over short and frequent iterations. This lets them embrace change confidently, refactor code frequently, and avoid "big design up front".  
+  Dinner Now uses SCRUM and eXtreme Programming. They have very high test coverage and very little unsupported code. They minimize risks by creating small but working versions of a system and then adding functionality incrementally. They develop their code over short and frequent iterations. This lets them embrace change confidently, refactor code frequently, and avoid "big design up front".  
   
- Lucerne maintains a vastly larger and complex collection of systems, some of which are more than 40 years old. They are very cautious about making changes because of the complexity and scope of legacy code. They follow a more rigorous development process, preferring to design detailed solutions and to document the design and changes that occur during development.  
+  Lucerne maintains a vastly larger and complex collection of systems, some of which are more than 40 years old. They are very cautious about making changes because of the complexity and scope of legacy code. They follow a more rigorous development process, preferring to design detailed solutions and to document the design and changes that occur during development.  
   
- Both teams use modeling diagrams in Visual Studio to help them develop systems that meet the users' needs. They use Team Foundation Server alongside other tools to help them plan, organize, and manage their work.  
+  Both teams use modeling diagrams in Visual Studio to help them develop systems that meet the users' needs. They use Team Foundation Server alongside other tools to help them plan, organize, and manage their work.  
   
- For more information about Team Foundation Server, see:  
+  For more information about Team Foundation Server, see:  
   
--   [Planning and tracking work](#PlanningTracking)  
+- [Planning and tracking work](#PlanningTracking)  
   
--   [Testing, validating, and checking in updated code](#TestValidateCheckInCode)  
+- [Testing, validating, and checking in updated code](#TestValidateCheckInCode)  
   
 ##  <a name="ModelingDiagramsTools"></a> Roles of Architecture and Modeling Diagrams in Software Development  
  The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:  
@@ -98,73 +96,73 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md)  
+- [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md)  
   
--   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
+- [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
   
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)  
   
--   [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)  
+- [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)  
   
--   [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)  
+- [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)  
   
- To show alternate views of the architecture, you can reuse certain elements from the same model on multiple or different diagrams. For example, you can drag a component to another component diagram or to a sequence diagram so that it can function as an actor. See [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+  To show alternate views of the architecture, you can reuse certain elements from the same model on multiple or different diagrams. For example, you can drag a component to another component diagram or to a sequence diagram so that it can function as an actor. See [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
- Both teams also use layer validation to make sure that code under development remains consistent with the design.  
+  Both teams also use layer validation to make sure that code under development remains consistent with the design.  
   
- See:  
+  See:  
   
--   [Keeping Code Consistent with the Design](#ValidatingCode)  
+- [Keeping Code Consistent with the Design](#ValidatingCode)  
   
--   [Describe the Logical Architecture: Layer Diagrams](#DescribeLayers)  
+- [Describe the Logical Architecture: Layer Diagrams](#DescribeLayers)  
   
--   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
+- [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
   
-    > [!NOTE]
-    >  Some versions of Visual Studio support layer validation and read-only versions of code maps and UML diagrams for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
+  > [!NOTE]
+  >  Some versions of Visual Studio support layer validation and read-only versions of code maps and UML diagrams for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 ##  <a name="UnderstandingCommunicating"></a> Understanding and Communicating Information about the System  
  There is no prescribed order for using the Visual Studio modeling diagrams, so you can use them as they fit with your needs or approach. Usually, teams revisit their models iteratively and frequently throughout a project. Each diagram offers particular strengths to help you understand, describe, and communicate different aspects of the system under development.  
   
  Dinner Now and Lucerne communicate with each another and with project stakeholders by using diagrams as their common language. For example, Dinner Now uses diagrams to perform these tasks:  
   
--   Visualize existing code.  
+- Visualize existing code.  
   
--   Communicate with Lucerne about new or updated user stories.  
+- Communicate with Lucerne about new or updated user stories.  
   
--   Identify changes that are required to support new or updated user stories.  
+- Identify changes that are required to support new or updated user stories.  
   
- Lucerne uses diagrams to perform these tasks:  
+  Lucerne uses diagrams to perform these tasks:  
   
--   Learn about the Dinner Now business process.  
+- Learn about the Dinner Now business process.  
   
--   Understand the design of the system.  
+- Understand the design of the system.  
   
--   Communicate with Dinner Now about new or updated user requirements.  
+- Communicate with Dinner Now about new or updated user requirements.  
   
--   Document updates to the system.  
+- Document updates to the system.  
   
- The diagrams are integrated with Team Foundation Server so the teams can plan, manage, and track their work more easily. For example, they use models to identify test cases and development tasks and to estimate their work. Lucerne links Team Foundation Server work items to model elements so that they can monitor progress and make sure that the system meets the users' requirements. For example, they link use cases to test case work items so they can see that use cases are fulfilled when all the tests pass.  
+  The diagrams are integrated with Team Foundation Server so the teams can plan, manage, and track their work more easily. For example, they use models to identify test cases and development tasks and to estimate their work. Lucerne links Team Foundation Server work items to model elements so that they can monitor progress and make sure that the system meets the users' requirements. For example, they link use cases to test case work items so they can see that use cases are fulfilled when all the tests pass.  
   
- Before teams check in their changes, they validate the code against the tests and the design by running builds that include layer validation and automated tests. This helps make sure that the updated code does not conflict with the design and break previously working functionality.  
+  Before teams check in their changes, they validate the code against the tests and the design by running builds that include layer validation and automated tests. This helps make sure that the updated code does not conflict with the design and break previously working functionality.  
   
- See:  
+  See:  
   
--   [Understanding the role of the system in the business process](#UnderstandingBPMandSystemDesign)  
+- [Understanding the role of the system in the business process](#UnderstandingBPMandSystemDesign)  
   
--   [Describing new or updated user requirements](#DescribingURM)  
+- [Describing new or updated user requirements](#DescribingURM)  
   
--   [Creating tests from models](#CreatingTests)  
+- [Creating tests from models](#CreatingTests)  
   
--   [Identifying changes to the existing system](#DeterminingChanges)  
+- [Identifying changes to the existing system](#DeterminingChanges)  
   
--   [Keeping code consistent with the design](#ValidatingCode)  
+- [Keeping code consistent with the design](#ValidatingCode)  
   
--   [General tips for creating and using models](#GeneralTips)  
+- [General tips for creating and using models](#GeneralTips)  
   
--   [Planning and tracking work](#PlanningTracking)  
+- [Planning and tracking work](#PlanningTracking)  
   
--   [Testing, validating, and checking in updated code](#TestValidateCheckInCode)  
+- [Testing, validating, and checking in updated code](#TestValidateCheckInCode)  
   
 ###  <a name="UnderstandingBPMandSystemDesign"></a> Understanding the Role of the System in the Business Process  
  Lucerne wants to learn more about the Dinner Now business process. They create the following diagrams to clarify their understanding with Dinner Now more easily:  
@@ -223,19 +221,19 @@ Make sure that your software system meets users' needs by using the visualizatio
 ###  <a name="CreatingTests"></a> Creating Tests from Models  
  Both teams agree that they need a complete set of tests for the system and its components before they make any changes. Lucerne has a specialized team that performs system and component-level testing. They reuse the tests created by Dinner Now and structure those tests using the UML diagrams:  
   
--   Each use case is represented by one or multiple tests. The elements on the use case diagram link to Test Case work items in Team Foundation Server.  
+- Each use case is represented by one or multiple tests. The elements on the use case diagram link to Test Case work items in Team Foundation Server.  
   
--   Each flow on an activity diagram or system-level sequence diagram is linked to one test at the very least. The test team systematically makes sure that they test every possible path through the activity diagram.  
+- Each flow on an activity diagram or system-level sequence diagram is linked to one test at the very least. The test team systematically makes sure that they test every possible path through the activity diagram.  
   
--   The terms used to describe the tests are based on the terms defined by use case, class, and activity diagrams.  
+- The terms used to describe the tests are based on the terms defined by use case, class, and activity diagrams.  
   
- As requirements change and the diagrams are updated to reflect those changes, the tests are also updated. A requirement is considered fulfilled only when the tests pass. When it is possible or practical, the tests are defined and based on UML diagrams before implementation starts.  
+  As requirements change and the diagrams are updated to reflect those changes, the tests are also updated. A requirement is considered fulfilled only when the tests pass. When it is possible or practical, the tests are defined and based on UML diagrams before implementation starts.  
   
- See:  
+  See:  
   
--   [Develop tests from a model](../modeling/develop-tests-from-a-model.md)  
+- [Develop tests from a model](../modeling/develop-tests-from-a-model.md)  
   
--   [Validate your UML model](../modeling/validate-your-uml-model.md)  
+- [Validate your UML model](../modeling/validate-your-uml-model.md)  
   
 ###  <a name="DeterminingChanges"></a> Identifying Changes to the Existing System  
  Dinner Now must estimate the cost of meeting the new requirement. This depends partly on how much this change will affect other parts of the system. To help them understand this, one of the Dinner Now developers creates these maps and diagrams from existing code:  
@@ -306,144 +304,144 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 ###  <a name="GeneralTips"></a> General Tips for Creating and Using Models  
   
--   Most diagrams consist of nodes that are connected by lines. For each diagram type, the toolbox provides different kinds of nodes and lines.  
+- Most diagrams consist of nodes that are connected by lines. For each diagram type, the toolbox provides different kinds of nodes and lines.  
   
-     To open the toolbox, on the **View** menu, click **Toolbox**.  
+   To open the toolbox, on the **View** menu, click **Toolbox**.  
   
--   To create a node, drag it from the toolbox to the diagram. Certain kinds of nodes must be dragged onto existing nodes. For example, on a component diagram, a new port must be added to an existing component.  
+- To create a node, drag it from the toolbox to the diagram. Certain kinds of nodes must be dragged onto existing nodes. For example, on a component diagram, a new port must be added to an existing component.  
   
--   To create a line or a connection, click the appropriate tool in the toolbox, click the source node, and then click the target node. Some lines can be created only between certain kinds of nodes. When you move the pointer over a possible source or target, the pointer indicates whether you can create a connection.  
+- To create a line or a connection, click the appropriate tool in the toolbox, click the source node, and then click the target node. Some lines can be created only between certain kinds of nodes. When you move the pointer over a possible source or target, the pointer indicates whether you can create a connection.  
   
--   When you create items on UML diagrams, you are also adding them to a common model. The UML diagrams in a modeling project are views of that model. Items on a layer diagram are part of the modeling project, even though they are not stored in the common model.  
+- When you create items on UML diagrams, you are also adding them to a common model. The UML diagrams in a modeling project are views of that model. Items on a layer diagram are part of the modeling project, even though they are not stored in the common model.  
   
-     To see the model, on the **Architecture** menu, point to  **Windows**, and then click **UML Model Explorer**.  
+   To see the model, on the **Architecture** menu, point to  **Windows**, and then click **UML Model Explorer**.  
   
--   In some cases, you can drag certain items from **UML Model Explorer** to a UML diagram. Some elements within the same model can be used on multiple or different diagrams to show alternate views of the architecture. For example, you can drag a component to another component diagram or to a sequence diagram to use as an actor.  
+- In some cases, you can drag certain items from **UML Model Explorer** to a UML diagram. Some elements within the same model can be used on multiple or different diagrams to show alternate views of the architecture. For example, you can drag a component to another component diagram or to a sequence diagram to use as an actor.  
   
--   Visual Studio supports UML 2.1.2. This overview describes only the major features of the UML diagrams in this release, but there are many books that discuss UML and its use in detail.  
+- Visual Studio supports UML 2.1.2. This overview describes only the major features of the UML diagrams in this release, but there are many books that discuss UML and its use in detail.  
   
- See [Create models for your app](../modeling/create-models-for-your-app.md).  
+  See [Create models for your app](../modeling/create-models-for-your-app.md).  
   
 ###  <a name="PlanningTracking"></a> Planning and Tracking Work  
  Visual Studio modeling diagrams are integrated with Team Foundation Server so that you can plan, manage, and track work more easily. Both teams use models to identify test cases and development tasks and to estimate their work. Lucerne creates and links Team Foundation Server work items to model elements, such as use cases or components. This helps them monitor their progress and trace their work back to the users' requirements. This helps them make sure that their changes continue to meet those requirements.  
   
  As their work progresses, the teams update their work items to reflect the time that they spent on their tasks. They also monitor and report status on their work by using the following Team Foundation Server features:  
   
--   Daily *burndown reports* that show whether they will complete the planned work in the expected time. They generate other similar reports from Team Foundation Server to track the progress of bugs.  
+- Daily *burndown reports* that show whether they will complete the planned work in the expected time. They generate other similar reports from Team Foundation Server to track the progress of bugs.  
   
--   An *iteration worksheet* that uses Microsoft Excel to help the team monitor and balance the workload between its members. This worksheet is linked to Team Foundation Server and provides focus for discussion during their regular progress meetings.  
+- An *iteration worksheet* that uses Microsoft Excel to help the team monitor and balance the workload between its members. This worksheet is linked to Team Foundation Server and provides focus for discussion during their regular progress meetings.  
   
--   A *development dashboard* that uses Office Project to keep the team informed about important project information.  
+- A *development dashboard* that uses Office Project to keep the team informed about important project information.  
   
- See:  
+  See:  
   
--   [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
+- [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
   
--   [Link model elements and work items](../modeling/link-model-elements-and-work-items.md)  
+- [Link model elements and work items](../modeling/link-model-elements-and-work-items.md)  
   
--   [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
+- [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
   
--   [Create your backlog and tasks using Project](http://msdn.microsoft.com/library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
+- [Create your backlog and tasks using Project](http://msdn.microsoft.com/library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
   
 ###  <a name="TestValidateCheckInCode"></a> Testing, Validating, and Checking In Code  
  As the teams complete each task, they check their code into Team Foundation version control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and layer validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and layer validation regularly. This helps make sure that the code meets the following criteria:  
   
--   It works.  
+- It works.  
   
--   It does not break previously working code.  
+- It does not break previously working code.  
   
--   It does not conflict with the design.  
+- It does not conflict with the design.  
   
- Dinner Now has a large collection of automated tests, which Lucerne can reuse because almost all still apply. Lucerne can also build on these tests and add new ones to cover new functionality. Both also use Visual Studio to run manual tests.  
+  Dinner Now has a large collection of automated tests, which Lucerne can reuse because almost all still apply. Lucerne can also build on these tests and add new ones to cover new functionality. Both also use Visual Studio to run manual tests.  
   
- To make sure that the code conforms to the design, the teams configure their builds in Team Foundation Build to include layer validation. If any conflicts occur, a report is generated with the details.  
+  To make sure that the code conforms to the design, the teams configure their builds in Team Foundation Build to include layer validation. If any conflicts occur, a report is generated with the details.  
   
- See:  
+  See:  
   
--   [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)  
+- [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)  
   
--   [Validate your system during development](../modeling/validate-your-system-during-development.md)  
+- [Validate your system during development](../modeling/validate-your-system-during-development.md)  
   
--   [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)  
+- [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
--   [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+- [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
 ##  <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne and Dinner Now must integrate their payment systems. The following sections show the modeling diagrams in Visual Studio help them perform this task:  
   
--   [Understand the User Requirements: Use Case Diagrams](#UnderstandUseCases)  
+- [Understand the User Requirements: Use Case Diagrams](#UnderstandUseCases)  
   
--   [Understand the Business Process: Activity Diagrams](#UnderstandActivities)  
+- [Understand the Business Process: Activity Diagrams](#UnderstandActivities)  
   
--   [Describe the System Structure: Component Diagrams](#DescribeComponents)  
+- [Describe the System Structure: Component Diagrams](#DescribeComponents)  
   
--   [Describe the Interactions: Sequence Diagrams](#DescribeSequence)  
+- [Describe the Interactions: Sequence Diagrams](#DescribeSequence)  
   
--   [Visualize Existing Code: Code Maps](#VisualizeCode)  
+- [Visualize Existing Code: Code Maps](#VisualizeCode)  
   
--   [Define a Glossary of Types: Class Diagrams](#DefineClasses)  
+- [Define a Glossary of Types: Class Diagrams](#DefineClasses)  
   
--   [Describe the Logical Architecture: Layer Diagrams](#DescribeLayers)  
+- [Describe the Logical Architecture: Layer Diagrams](#DescribeLayers)  
   
- See:  
+  See:  
   
--   [Create models for your app](../modeling/create-models-for-your-app.md)  
+- [Create models for your app](../modeling/create-models-for-your-app.md)  
   
--   [Visualize code](../modeling/visualize-code.md)  
+- [Visualize code](../modeling/visualize-code.md)  
   
--   [Use models in your development process](../modeling/use-models-in-your-development-process.md)  
+- [Use models in your development process](../modeling/use-models-in-your-development-process.md)  
   
--   [Model user requirements](../modeling/model-user-requirements.md)  
+- [Model user requirements](../modeling/model-user-requirements.md)  
   
--   [Model your app's architecture](../modeling/model-your-app-s-architecture.md)  
+- [Model your app's architecture](../modeling/model-your-app-s-architecture.md)  
   
 ###  <a name="UnderstandUseCases"></a> Understand the User Requirements: Use Case Diagrams  
  Use case diagrams summarize the activities that a system supports and who performs those activities. Lucerne uses a use case diagram to learn the following about the Dinner Now system:  
   
--   Customers create orders.  
+- Customers create orders.  
   
--   Restaurants receive orders.  
+- Restaurants receive orders.  
   
--   The External Payment Processor Gateway, which the Dinner Now Payment System uses to validate payments, is out of scope for the Web site.  
+- The External Payment Processor Gateway, which the Dinner Now Payment System uses to validate payments, is out of scope for the Web site.  
   
- The diagram also shows how some of the major use cases divide into smaller use cases. Lucerne wants to use its own payment system. They highlight the Process Payment use case in a different color to indicate that it requires changes:  
+  The diagram also shows how some of the major use cases divide into smaller use cases. Lucerne wants to use its own payment system. They highlight the Process Payment use case in a different color to indicate that it requires changes:  
   
- ![Highlighting Process Payment on a use case diagram](../modeling/media/uml-processpay.png "UML_ProcessPay")  
+  ![Highlighting Process Payment on a use case diagram](../modeling/media/uml-processpay.png "UML_ProcessPay")  
   
- **Highlighting Process Payment on the use case diagram**  
+  **Highlighting Process Payment on the use case diagram**  
   
- If development time was short, the team might discuss whether they want to let customers pay restaurants directly. To show this, they would replace the Process Payment use case with one that is outside the Dinner Now system boundary. They would then link the Customer directly to the Restaurant, indicating that Dinner Now would only process orders:  
+  If development time was short, the team might discuss whether they want to let customers pay restaurants directly. To show this, they would replace the Process Payment use case with one that is outside the Dinner Now system boundary. They would then link the Customer directly to the Restaurant, indicating that Dinner Now would only process orders:  
   
- ![Rescoping Pay Restaurant on the use case diagram](../modeling/media/uml-payrestaurant.png "UML_PayRestaurant")  
+  ![Rescoping Pay Restaurant on the use case diagram](../modeling/media/uml-payrestaurant.png "UML_PayRestaurant")  
   
- **Rescoping Pay Restaurant on the use case diagram**  
+  **Rescoping Pay Restaurant on the use case diagram**  
   
- See:  
+  See:  
   
--   [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)  
+- [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)  
   
--   [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)  
+- [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)  
   
 #### Drawing a Use Case Diagram  
  A use case diagram has the following major features:  
   
--   *Actors* represent roles played by persons, organizations, machines, or software systems. For example, Customer, Restaurant, and the Dinner Now Payment System are actors.  
+- *Actors* represent roles played by persons, organizations, machines, or software systems. For example, Customer, Restaurant, and the Dinner Now Payment System are actors.  
   
--   *Use cases* represent interactions between actors and the system under development.  They can represent any scale of interaction from a single mouse-click or message to a transaction extended over many days.  
+- *Use cases* represent interactions between actors and the system under development.  They can represent any scale of interaction from a single mouse-click or message to a transaction extended over many days.  
   
--   *Associations* link actors to use cases.  
+- *Associations* link actors to use cases.  
   
--   A larger use case can *include* smaller ones, for example, Create Order includes Select Restaurant. You can *extend* a use case, which adds goals and steps to the extended use case, to indicate that the use case occurs only under certain conditions. Use cases can also inherit from each another.  
+- A larger use case can *include* smaller ones, for example, Create Order includes Select Restaurant. You can *extend* a use case, which adds goals and steps to the extended use case, to indicate that the use case occurs only under certain conditions. Use cases can also inherit from each another.  
   
--   A *subsystem* represents the software system that is under development or one of its components. It is a large box that contains use cases. A use case diagram clarifies what is inside or outside the subsystem boundary. To indicate that the user must accomplish certain goals in other ways, draw those use cases outside the subsystem boundary.  
+- A *subsystem* represents the software system that is under development or one of its components. It is a large box that contains use cases. A use case diagram clarifies what is inside or outside the subsystem boundary. To indicate that the user must accomplish certain goals in other ways, draw those use cases outside the subsystem boundary.  
   
--   *Artifacts* link elements on the diagram to other diagrams or documents.  
+- *Artifacts* link elements on the diagram to other diagrams or documents.  
   
- See:  
+  See:  
   
--   [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)  
+- [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)  
   
--   [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)  
+- [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)  
   
 #### Summary: Strengths of Use Case Diagrams  
  Use case diagrams help you visualize:  
@@ -488,27 +486,27 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Drawing an Activity Diagram  
  An activity diagram has the following major features:  
   
--   An *initial node* that indicates the first action of the activity.  
+- An *initial node* that indicates the first action of the activity.  
   
-     The diagram should always have one of these nodes.  
+   The diagram should always have one of these nodes.  
   
--   *Actions* that describe steps where the user or software performs a task.  
+- *Actions* that describe steps where the user or software performs a task.  
   
--   *Control flows* that show the flow between actions.  
+- *Control flows* that show the flow between actions.  
   
--   *Decision nodes* that represent conditional branches in the flow.  
+- *Decision nodes* that represent conditional branches in the flow.  
   
--   *Fork nodes* that divide single flows into concurrent flows.  
+- *Fork nodes* that divide single flows into concurrent flows.  
   
--   *Activity final nodes* that shows ends of the activity.  
+- *Activity final nodes* that shows ends of the activity.  
   
-     Although these nodes are optional, it is useful to include them on the diagram to show where the activity ends.  
+   Although these nodes are optional, it is useful to include them on the diagram to show where the activity ends.  
   
- See:  
+  See:  
   
--   [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)  
+- [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)  
   
--   [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)  
+- [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)  
   
 #### Summary: Strengths of Activity Diagrams  
  Activity diagrams help you visualize and describe the flow of control and information between the actions of a business, system, or program. This is a simple and useful way to describe workflow when communicating with other people.  
@@ -535,50 +533,50 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  The following diagram shows a specific configuration of components for the Dinner Now Web Site. This configuration indicates that any instance of the Web site consists of four *parts*:  
   
--   CustomerProcessing  
+- CustomerProcessing  
   
--   OrderProcessing  
+- OrderProcessing  
   
--   ReviewProcessing  
+- ReviewProcessing  
   
--   PaymentProcessing  
+- PaymentProcessing  
   
- These parts are instances of the specified component types and are connected as follows:  
+  These parts are instances of the specified component types and are connected as follows:  
   
- ![Components inside Dinner Now Web site](../modeling/media/uml-dinnernow.png "UML_DinnerNow")  
+  ![Components inside Dinner Now Web site](../modeling/media/uml-dinnernow.png "UML_DinnerNow")  
   
- **Components inside the Dinner Now Web Site**  
+  **Components inside the Dinner Now Web Site**  
   
- The Dinner Now Web Site delegates its behavior to these parts, which handle the functions of the Web site. The arrows between the parent component and its member components show *delegations* that indicate which parts handle the messages that the parent receives or sends through its interfaces.  
+  The Dinner Now Web Site delegates its behavior to these parts, which handle the functions of the Web site. The arrows between the parent component and its member components show *delegations* that indicate which parts handle the messages that the parent receives or sends through its interfaces.  
   
- In this configuration, the PaymentProcessing component processes customer payments. Therefore, it must be updated to integrate with Lucerne's payment system. In other scenarios, multiple instances of a component type might exist in the same parent component.  
+  In this configuration, the PaymentProcessing component processes customer payments. Therefore, it must be updated to integrate with Lucerne's payment system. In other scenarios, multiple instances of a component type might exist in the same parent component.  
   
- See:  
+  See:  
   
--   [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)  
+- [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)  
   
--   [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md)  
+- [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md)  
   
 #### Drawing a Component Diagram  
  A component diagram has the following major features:  
   
--   *Components* that represent separable pieces of system functionality.  
+- *Components* that represent separable pieces of system functionality.  
   
--   *Provided interface ports* that represent groups of messages or calls which components implement and are used by other components or external systems.  
+- *Provided interface ports* that represent groups of messages or calls which components implement and are used by other components or external systems.  
   
--   *Required interface ports* that represent groups of messages or calls which components send to other components or external systems. This kind of port describes the operations that a component at least expects from other components or external systems.  
+- *Required interface ports* that represent groups of messages or calls which components send to other components or external systems. This kind of port describes the operations that a component at least expects from other components or external systems.  
   
--   *Parts* are members of components and are typically instances of other components. A part is a piece of the internal design of the parent component.  
+- *Parts* are members of components and are typically instances of other components. A part is a piece of the internal design of the parent component.  
   
--   *Dependencies* that indicate components require the functionality of other components.  
+- *Dependencies* that indicate components require the functionality of other components.  
   
--   *Delegations* that indicate parts of a component handle the messages sent from or received by the parent component.  
+- *Delegations* that indicate parts of a component handle the messages sent from or received by the parent component.  
   
- See:  
+  See:  
   
--   [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)  
+- [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)  
   
--   [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md)  
+- [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md)  
   
 #### Summary: Strengths of Component Diagrams  
  Component diagrams help you visualize:  
@@ -600,41 +598,41 @@ Make sure that your software system meets users' needs by using the visualizatio
 ###  <a name="VisualizeCode"></a> Visualize Existing Code: Code Maps  
  Code maps show the current organization and relationships in the code. Items are represented by *nodes* on the map, and relationships are represented by *links*. Code maps can help you perform the following kinds of tasks:  
   
--   Explore unfamiliar code.  
+- Explore unfamiliar code.  
   
--   Understand where and how a proposed change might affect existing code.  
+- Understand where and how a proposed change might affect existing code.  
   
--   Find areas of complexity, natural layers or patterns, or other areas that might benefit from improvement.  
+- Find areas of complexity, natural layers or patterns, or other areas that might benefit from improvement.  
   
- For example, Dinner Now must estimate the cost of updating the PaymentProcessing component. This depends partly on how much this change will affect other parts of the system. To help them understand this, one of the Dinner Now developers generates code maps from the code and adjusts the scope focus on the areas that might be affected by the change.  
+  For example, Dinner Now must estimate the cost of updating the PaymentProcessing component. This depends partly on how much this change will affect other parts of the system. To help them understand this, one of the Dinner Now developers generates code maps from the code and adjusts the scope focus on the areas that might be affected by the change.  
   
- The following map shows the dependencies between the PaymentProcessing class and other parts of the Dinner Now system, which appear selected:  
+  The following map shows the dependencies between the PaymentProcessing class and other parts of the Dinner Now system, which appear selected:  
   
- ![Dependency graph for Dinner Now payment system](../modeling/media/dep-dnpayment.png "Dep_DNPayment")  
+  ![Dependency graph for Dinner Now payment system](../modeling/media/dep-dnpayment.png "Dep_DNPayment")  
   
- **Code map for Dinner Now payment system**  
+  **Code map for Dinner Now payment system**  
   
- The developer explores the map by expanding the PaymentProcessing class and selecting its members to see the areas that are potentially affected:  
+  The developer explores the map by expanding the PaymentProcessing class and selecting its members to see the areas that are potentially affected:  
   
- ![Methods inside PaymentProcessing and dependencies](../modeling/media/depgraph-expandeddn.png "DepGraph_ExpandedDN")  
+  ![Methods inside PaymentProcessing and dependencies](../modeling/media/depgraph-expandeddn.png "DepGraph_ExpandedDN")  
   
- **Methods inside PaymentProcessing class and their dependencies**  
+  **Methods inside PaymentProcessing class and their dependencies**  
   
- They generate the following map for the Lucerne Payment System to inspect its classes, methods, and dependencies. The team sees that the Lucerne system might also require work to interact with the other parts of Dinner Now:  
+  They generate the following map for the Lucerne Payment System to inspect its classes, methods, and dependencies. The team sees that the Lucerne system might also require work to interact with the other parts of Dinner Now:  
   
- ![Dependency graph for Lucerne payment system](../modeling/media/depgraph-lucernepay.png "DepGraph_LucernePay")  
+  ![Dependency graph for Lucerne payment system](../modeling/media/depgraph-lucernepay.png "DepGraph_LucernePay")  
   
- **Code map for Lucerne Payment System**  
+  **Code map for Lucerne Payment System**  
   
- Both teams work together to determine the changes that are required to integrate the two systems. They decide to refactor some of the code so that it will be easier to update. The PaymentApprover class will move to the DinnerNow.Business namespace and will require some new methods. The Dinner Now classes that handle transactions will have their own namespace. The teams create and use work items to plan, organize, and track their work. They link the work items to model elements where it is useful.  
+  Both teams work together to determine the changes that are required to integrate the two systems. They decide to refactor some of the code so that it will be easier to update. The PaymentApprover class will move to the DinnerNow.Business namespace and will require some new methods. The Dinner Now classes that handle transactions will have their own namespace. The teams create and use work items to plan, organize, and track their work. They link the work items to model elements where it is useful.  
   
- After reorganizing the code, the teams generate a new code map to see the updated structure and relationships:  
+  After reorganizing the code, the teams generate a new code map to see the updated structure and relationships:  
   
- ![Dependency graph with reorganized code](../modeling/media/depgraph-integrated.png "DepGraph_Integrated")  
+  ![Dependency graph with reorganized code](../modeling/media/depgraph-integrated.png "DepGraph_Integrated")  
   
- **Code map with reorganized code**  
+  **Code map with reorganized code**  
   
- This map shows that the PaymentApprover class is now in the DinnerNow.Business namespace and has some new methods. The Dinner Now transaction classes now have their own PaymentSystem namespace, which makes it easier to deal with that code later.  
+  This map shows that the PaymentApprover class is now in the DinnerNow.Business namespace and has some new methods. The Dinner Now transaction classes now have their own PaymentSystem namespace, which makes it easier to deal with that code later.  
   
 #### Creating a Code Map  
   
@@ -692,21 +690,21 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Drawing a Sequence Diagram  
  A sequence diagram has the following major features:  
   
--   Vertical *lifelines* represent actors or instances of software objects.  
+- Vertical *lifelines* represent actors or instances of software objects.  
   
-     To add an actor symbol, which indicates a participant is outside the system under development, click the lifeline. In the **Properties** window, set **Actor** to **True**. If the **Properties** window is not open, press **F4**.  
+   To add an actor symbol, which indicates a participant is outside the system under development, click the lifeline. In the **Properties** window, set **Actor** to **True**. If the **Properties** window is not open, press **F4**.  
   
--   Horizontal *messages* represent method calls, Web service messages, or some other communication. *Execution occurrences* are vertical shaded rectangles that appear on lifelines and represent the periods during which receiving objects process calls.  
+- Horizontal *messages* represent method calls, Web service messages, or some other communication. *Execution occurrences* are vertical shaded rectangles that appear on lifelines and represent the periods during which receiving objects process calls.  
   
--   During a *synchronous* message, the sender object waits for control to <\<return>> as in a regular function call. During an *asynchronous* message, the sender can continue immediately.  
+- During a *synchronous* message, the sender object waits for control to <\<return>> as in a regular function call. During an *asynchronous* message, the sender can continue immediately.  
   
--   Use <\<create>> messages to indicate the construction of objects by other objects. It should be the first message sent to the object.  
+- Use <\<create>> messages to indicate the construction of objects by other objects. It should be the first message sent to the object.  
   
- See:  
+  See:  
   
--   [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)  
+- [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)  
   
--   [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)  
+- [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)  
   
 #### Summary: Strengths of Sequence Diagrams  
  Sequence diagrams help you visualize:  
@@ -749,43 +747,43 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Drawing a Class Diagram  
  A class diagram has the following major features:  
   
--   Types such as classes, interfaces, and enumerations:  
+- Types such as classes, interfaces, and enumerations:  
   
-    -   A *class* is the definition of objects that share specific structural or behavioral characteristics.  
+  -   A *class* is the definition of objects that share specific structural or behavioral characteristics.  
   
-    -   An *interface* defines a part of the externally visible behavior of an object.  
+  -   An *interface* defines a part of the externally visible behavior of an object.  
   
-    -   An *enumeration* is a classifier that contains a list of literal values.  
+  -   An *enumeration* is a classifier that contains a list of literal values.  
   
--   *Attributes* are values of a certain type that describe each instance of a *classifier*. A classifier is a general name for types, components, use cases, and even actors.  
+- *Attributes* are values of a certain type that describe each instance of a *classifier*. A classifier is a general name for types, components, use cases, and even actors.  
   
--   *Operations* are methods or functions that instances of a classifier can perform.  
+- *Operations* are methods or functions that instances of a classifier can perform.  
   
--   An *association* indicates some kind of relationship between two classifiers.  
+- An *association* indicates some kind of relationship between two classifiers.  
   
-    -   An *aggregation* is an association that indicates a shared ownership between classifiers.  
+  - An *aggregation* is an association that indicates a shared ownership between classifiers.  
   
-    -   A *composition* is an association that indicates a whole-part relationship between classifiers.  
+  - A *composition* is an association that indicates a whole-part relationship between classifiers.  
   
-     To show aggregations or compositions, set the **Aggregation** property on an association. **Shared** shows aggregations and **Composite** shows compositions.  
+    To show aggregations or compositions, set the **Aggregation** property on an association. **Shared** shows aggregations and **Composite** shows compositions.  
   
--   A *dependency* indicates that changing the definition of one classifier might change the definition of another classifier.  
+- A *dependency* indicates that changing the definition of one classifier might change the definition of another classifier.  
   
--   A *generalization* indicates that a specific classifier inherits part of its definition from a general classifier. A *realization* indicates that a class implements the operations and attributes offered by an interface.  
+- A *generalization* indicates that a specific classifier inherits part of its definition from a general classifier. A *realization* indicates that a class implements the operations and attributes offered by an interface.  
   
-     To create these relationships, use the **Inheritance** tool. Alternatively, a realization can be represented as a *lollipop*.  
+   To create these relationships, use the **Inheritance** tool. Alternatively, a realization can be represented as a *lollipop*.  
   
--   *Packages* are groups of classifiers, associations, lifelines, components, and other packages. *Import* relationships indicate that one package includes all definitions of another package.  
+- *Packages* are groups of classifiers, associations, lifelines, components, and other packages. *Import* relationships indicate that one package includes all definitions of another package.  
   
- As a starting point to explore and discuss existing classes, you can use Class Designer to create class diagrams from code.  
+  As a starting point to explore and discuss existing classes, you can use Class Designer to create class diagrams from code.  
   
- See:  
+  See:  
   
--   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
+- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
   
--   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
+- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
   
--   [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)  
+- [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)  
   
 #### Summary: Strengths of Class Diagrams  
  Class diagrams help you define:  
@@ -835,35 +833,35 @@ Make sure that your software system meets users' needs by using the visualizatio
 #### Drawing a Layer Diagram  
  A layer diagram has the following major features:  
   
--   *Layers* describe logical groups of artifacts.  
+- *Layers* describe logical groups of artifacts.  
   
--   A *link* is an association between a layer and an artifact.  
+- A *link* is an association between a layer and an artifact.  
   
-     To create layers from artifacts, drag items from Solution Explorer, code maps, Class View, or Object Browser. To draw new layers and then link them to artifacts, use the toolbox or right-click the diagram surface to create the layers, and then drag items to those layers.  
+   To create layers from artifacts, drag items from Solution Explorer, code maps, Class View, or Object Browser. To draw new layers and then link them to artifacts, use the toolbox or right-click the diagram surface to create the layers, and then drag items to those layers.  
   
-     The number on a layer shows the number of artifacts that are linked to the layer. These artifacts can be namespaces, projects, classes, methods, and so on. When you interpret the number of artifacts on a layer, remember the following:  
+   The number on a layer shows the number of artifacts that are linked to the layer. These artifacts can be namespaces, projects, classes, methods, and so on. When you interpret the number of artifacts on a layer, remember the following:  
   
-    -   If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.  
+  - If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.  
   
-         For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.  
+     For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.  
   
-    -   If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.  
+  - If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.  
   
-     To see the artifacts that are linked to a layer, right-click the layer, and then click **View Links** to open **Layer Explorer**.  
+    To see the artifacts that are linked to a layer, right-click the layer, and then click **View Links** to open **Layer Explorer**.  
   
--   A *dependency* indicates that one layer can use the functionality in another layer, but not vice versa. A *bidirectional dependency* indicates that one layer can use the functionality in another layer, and vice versa.  
+- A *dependency* indicates that one layer can use the functionality in another layer, but not vice versa. A *bidirectional dependency* indicates that one layer can use the functionality in another layer, and vice versa.  
   
-     To display existing dependencies on the layer diagram, right-click the diagram surface, and then click **Generate Dependencies**. To describe intended dependencies, draw new ones.  
+   To display existing dependencies on the layer diagram, right-click the diagram surface, and then click **Generate Dependencies**. To describe intended dependencies, draw new ones.  
   
- See:  
+  See:  
   
--   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
+- [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
   
--   [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)  
+- [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)  
   
--   [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
+- [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
   
--   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
+- [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)  
   
 #### Summary: Strengths of Layer Diagrams  
  Layer diagrams help you:  

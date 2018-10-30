@@ -260,107 +260,107 @@ some F# code
 </div>  
 </body>  
 </html>  
-  
 ```  
-  
+
 **F1 Support**  
-  
+
 In Visual Studio, selecting F1 generates values supplied from the placement of the cursor within the IDE and populates a "property bag" with the supplied values (based on cursor location. When the cursor is over feature x, feature x is active/in focus and populates property bag with values.  When F1 is selected the property bag is populated and Visual Studio F1 code looks to see if the customers default Help source is local or online (online is the default), then creates the appropriate string based on the users setting (online is the default) - shell execute (see the Help Administrator Guide for exe launch parameters) with parameters for the local help viewer + keyword(s) from the property bag if local help is the default, or the MSDN URL with the keyword in the parameter list.  
-  
+
 If three strings are returned for F1, referred to as a multi-value string, take the first term, look for a hit, and if found, we are done; if not, move to the next string.  Order matters. Presentation of the multi-value keywords should be longest string to shortest string.  To verify this in the case for multi-value keywords, look at the online F1 URL string, which will include the chosen keyword.  
-  
+
 In Visual Studio 2012, we intentionally made a stronger divide between online and offline, so that if the user's setting was for Online, then we simply passed the F1 request directly to our online query service on MSDN rather than routing through the Help Library Agent that we had in Visual Studio 2010. We then rely on a state of "vendor content installed = true" to determine whether to do something different in that context. If true, we then perform this parsing and routing logic depending on what you wish to support for your customers. If false, then we just go to MSDN. If the user's setting is to Local, then all calls simply go to the local help engine.  
-  
+
 F1 Flow Diagram:  
-  
+
 ![F1 flow](../../extensibility/internals/media/f1flow.png "F1flow")  
-  
+
 When the Help Viewer default help content source is set to online (Launch in browser):  
-  
+
 -   Visual Studio Partner (VSP) features emit a value to the F1 property bag (property bag prefix.keyword and online URL for the prefix found in the registry): F1 sends a VSP URL+ parameters to the browser.  
-  
+
 -   Visual Studio features (language editor, Visual Studio specific menu items, etc.):  F1 sends  a Visual Studio URL to the browser.  
-  
+
 When the Help Viewer default help content source  is set to local Help (Launch in Help Viewer):  
-  
+
 -   VSP features where keyword match between F1 property bag and local store index (that is, the property bag prefix.keyword = the value found in the local store index):  F1 renders the topic in the Help Viewer.  
-  
+
 -   Visual Studio features (no option for the VSP to override the property bag emitted from Visual Studio features): F1 renders a Visual Studio topic in the Help Viewer.  
-  
+
 Set the following registry values to enable F1 Fallback for vendor Help content. F1 Fallback means that the Help Viewer is set to look for F1 Help content online, and the vendor content is installed locally to the users' hard drive. The Help Viewer should look at local Help for the content even though the default setting is for online help.  
-  
-1.  Set the **VendorContent** value under the Help 2.3 registry key:  
-  
-    -   For 32-bit operating systems:  
-  
-         HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.3\Catalogs\VisualStudio15  
-  
-         "VendorContent"=dword:00000001  
-  
-    -   For 64-bit operating systems:  
-  
-         HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15  
-  
-         "VendorContent"=dword:00000001  
-  
-2.  Register the partner namespace under the Help 2.3 registry key:  
-  
-    -   For 32-bit operating systems:  
-  
-         HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.3\Partner*\\<namespace\>*  
-  
-         "location"="offline"  
-  
-    -   For 64-bit operating systems:  
-  
-         HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Partner*\\<namespace\>*  
-  
-         "location"="offline"  
-  
+
+1. Set the **VendorContent** value under the Help 2.3 registry key:  
+
+   -   For 32-bit operating systems:  
+
+        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.3\Catalogs\VisualStudio15  
+
+        "VendorContent"=dword:00000001  
+
+   -   For 64-bit operating systems:  
+
+        HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15  
+
+        "VendorContent"=dword:00000001  
+
+2. Register the partner namespace under the Help 2.3 registry key:  
+
+   - For 32-bit operating systems:  
+
+      HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.3\Partner<em>\\<namespace\></em>  
+
+      "location"="offline"  
+
+   - For 64-bit operating systems:  
+
+      HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Partner<em>\\<namespace\></em>  
+
+      "location"="offline"  
+
 **Base Native Namespace Parsing**  
-  
+
 To turn on base native namespace parsing, in the registry add a new DWORD by the name of: BaseNativeNamespaces and set its value to 1 (under the catalog key that they want to support).  For example, if you want to use the Visual Studio catalog, you could add the key to the path:  
-  
+
 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15
-  
+
 When an F1 keyword in the format HEADER/METHOD is encountered, the '/' character will be parsed out, resulting in the following construct:  
-  
+
 -   HEADER: will be the namespace that can be used to register in the registry  
-  
+
 -   METHOD: this will become the keyword that gets passed through.  
-  
+
 For example, given a custom library called CustomLibrary and a method called MyTestMethod, when an F1 request comes in it will be formatted as `CustomLibrary/MyTestMethod`.  
-  
+
 A user can then register CustomLibrary as the namespace under the Partners hive, and provide whatever location key they desire, and the keyword passed to the query will be MyTestMethod.  
-  
+
 **Enable Help debugging tool in the IDE**  
-  
+
 Add the following registry key and value:  
-  
+
 HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help key: Display Debug Output in Retail value: YES  
-  
+
 In the IDE, under the Help menu item, select "Debug Help Context"  
-  
+
 **Content Metadata**  
-  
+
 In the following table, any string that appears between brackets is a placeholder that must be replaced by a recognized value. For example, in \<meta name="Microsoft.Help.Locale" content="[language code]" />, "[language code]" must be replaced by a value such as "en-us".  
+
   
-|Property (HTML Representation)|Description|  
-|--------------------------------------|-----------------|  
-|\< meta name="Microsoft.Help.Locale" content="[language-code]" />|Sets a locale for this topic. If this tag is used in a topic, it must be used just once and it must be inserted above any other Microsoft Help tags. If this tag is not used, the body text of the topic is indexed by using word breaker that is associated with the product locale, if it is specified; otherwise, the en-us word breaker is used. This tag conforms to ISOC RFC 4646. To ensure that Microsoft Help works correctly, use this property instead of the general Language attribute.|  
-|\< meta name="Microsoft.Help.TopicLocale" content="[language-code]" />|Sets a locale for this topic when other locales are also used. If this tag is used in a topic, it must be used just once. Use this tag when the catalog contains content in more than one language. Multiple topics in a catalog can have the same ID, but each must specify a unique TopicLocale. The topic that specifies a TopicLocale that matches the locale of the catalog is the topic that is displayed in the table of contents. However, all language versions of the topic are displayed in Search results.|  
-|\< title>[Title]\</title>|Specifies the title of this topic. This tag is required, and must be used just once in a topic. If the body of the topic does not contain a title \<div> section, this Title is displayed in the topic and in the table of contents.|  
-|\< meta name=" Microsoft.Help.Keywords" content="[aKeywordPhrase]"/>|Specifies the text of a link that is displayed in the index pane of the Help Viewer. When the link is clicked, the topic is displayed.You can specify multiple index keywords for a topic, or you can omit this tag if you do not want links to this topic to appear in the index. "K" keywords from earlier versions of Help can be converted to this property.|  
-|\< meta name="Microsoft.Help.Id" content="[TopicID]"/>|Sets the identifier for this topic. This tag is required, and must be used just once in a topic. The ID must be unique among topics in the catalog that have the same locale setting. In another topic, you can create a link to this topic by using this ID.|  
-|\< meta name="Microsoft.Help.F1" content="[System.Windows.Controls.Primitives.IRecyclingItemContainerGenerator]"/>|Specifies the F1 keyword for this topic. You can specify multiple F1 keywords for a topic, or you can omit this tag if you do not want this topic to be displayed when an application user presses F1. Typically, just one F1 keyword is specified for a topic. "F" keywords from earlier versions of Help can be converted to this property.|  
-|\< meta name="Description" content="[topic description]" />|Provides a short summary of the content in this topic. If this tag is used in a topic, it must be used just once. This property is accessed directly by the query library; it is not stored in the index file.|  
- meta name="Microsoft.Help.TocParent" content="[parent_Id]"/>|Specifies the parent topic of this topic in the table of contents. This tag is required, and must be used just once in a topic. The value is the Microsoft.Help.Id of the parent. A topic can have just one location in the table of contents. "-1" is considered the topic ID for the TOC root. In [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)], that page is Help Viewer home page. This is the same reason we specifically add TocParent=-1 to some topics to ensure that they show up at the top level.The Help Viewer home page is a system page and so non-replaceable. If a VSP tries to add a page with an ID of -1, it may get added to the content set, but Help Viewer will always use the system page - Help Viewer Home|  
-|\< meta name="Microsoft.Help.TocOrder" content="[positive integer]"/>|Specifies where in the table of contents this topic appears relative to its peer topics. This tag is required, and must be used just once in a topic. The value is an integer. A topic that specifies a lower-value integer appears above a topic that specifies a higher-value integer.|  
-|\< meta name="Microsoft.Help.Product" content="[product code]"/>|Specifies the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer.|  
-|\< meta name="Microsoft.Help.ProductVersion" content="[version number]"/>|Specifies the version of the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer.|  
-|\< meta name="Microsoft.Help.Category" content="[string]"/>|Used by products to identify subsections of content. You can identify multiple subsections for a topic, or you can omit this tag if you do not want links to identify any subsections. This tag is used to store the attributes for TargetOS and TargetFrameworkMoniker when a topic is converted from an earlier version of Help. The format of the content is AttributeName:AttributeValue.|  
-|\< meta name="Microsoft.Help.TopicVersion content="[topic version number]"/>|Specifies this version of the topic when multiple versions exist in a catalog. Because Microsoft.Help.Id is not guaranteed to be unique, this tag is required when more than one version of a topic exists in a catalog, for example, when a catalog contains a topic for the .NET Framework 3.5 and a topic for the .NET Framework 4 and both have the same Microsoft.Help.Id.|  
-|\< meta name="SelfBranded" content="[TRUE or FALSE]"/>|Specifies whether this topic uses the Help Library Manager start-up branding package or a branding package that is specific to the topic. This tag must be either TRUE or FALSE. If it is TRUE, then the branding package for the associated topic overrides the branding package that is set when Help Library Manager starts so that the topic is rendered as intended even if it differs from the rendering of other content. If it is FALSE, the current topic is rendered according to the branding package that is set when Help Library Manager starts. By default, Help Library Manager assumes self-branding to be false unless the SelfBranded variable is declared as TRUE; therefore, you do not have to declare \<meta name="SelfBranded" content="FALSE"/>.|  
+| Property (HTML Representation) | Description |
+| - | - |
+| \< meta name="Microsoft.Help.Locale" content="[language-code]" /> | Sets a locale for this topic. If this tag is used in a topic, it must be used just once and it must be inserted above any other Microsoft Help tags. If this tag is not used, the body text of the topic is indexed by using word breaker that is associated with the product locale, if it is specified; otherwise, the en-us word breaker is used. This tag conforms to ISOC RFC 4646. To ensure that Microsoft Help works correctly, use this property instead of the general Language attribute. |
+| \< meta name="Microsoft.Help.TopicLocale" content="[language-code]" /> | Sets a locale for this topic when other locales are also used. If this tag is used in a topic, it must be used just once. Use this tag when the catalog contains content in more than one language. Multiple topics in a catalog can have the same ID, but each must specify a unique TopicLocale. The topic that specifies a TopicLocale that matches the locale of the catalog is the topic that is displayed in the table of contents. However, all language versions of the topic are displayed in Search results. |
+| \< title>[Title]\</title> | Specifies the title of this topic. This tag is required, and must be used just once in a topic. If the body of the topic does not contain a title \<div> section, this Title is displayed in the topic and in the table of contents. |
+| \< meta name=" Microsoft.Help.Keywords" content="[aKeywordPhrase]"/> | Specifies the text of a link that is displayed in the index pane of the Help Viewer. When the link is clicked, the topic is displayed.You can specify multiple index keywords for a topic, or you can omit this tag if you do not want links to this topic to appear in the index. "K" keywords from earlier versions of Help can be converted to this property. |
+| \< meta name="Microsoft.Help.Id" content="[TopicID]"/> | Sets the identifier for this topic. This tag is required, and must be used just once in a topic. The ID must be unique among topics in the catalog that have the same locale setting. In another topic, you can create a link to this topic by using this ID. |
+| \< meta name="Microsoft.Help.F1" content="[System.Windows.Controls.Primitives.IRecyclingItemContainerGenerator]"/> | Specifies the F1 keyword for this topic. You can specify multiple F1 keywords for a topic, or you can omit this tag if you do not want this topic to be displayed when an application user presses F1. Typically, just one F1 keyword is specified for a topic. "F" keywords from earlier versions of Help can be converted to this property. |
+| \< meta name="Description" content="[topic description]" /> | Provides a short summary of the content in this topic. If this tag is used in a topic, it must be used just once. This property is accessed directly by the query library; it is not stored in the index file. |
+| meta name="Microsoft.Help.TocParent" content="[parent_Id]"/> | Specifies the parent topic of this topic in the table of contents. This tag is required, and must be used just once in a topic. The value is the Microsoft.Help.Id of the parent. A topic can have just one location in the table of contents. "-1" is considered the topic ID for the TOC root. In [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)], that page is Help Viewer home page. This is the same reason we specifically add TocParent=-1 to some topics to ensure that they show up at the top level.The Help Viewer home page is a system page and so non-replaceable. If a VSP tries to add a page with an ID of -1, it may get added to the content set, but Help Viewer will always use the system page - Help Viewer Home |
+| \< meta name="Microsoft.Help.TocOrder" content="[positive integer]"/> | Specifies where in the table of contents this topic appears relative to its peer topics. This tag is required, and must be used just once in a topic. The value is an integer. A topic that specifies a lower-value integer appears above a topic that specifies a higher-value integer. |
+| \< meta name="Microsoft.Help.Product" content="[product code]"/> | Specifies the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer. |
+| \< meta name="Microsoft.Help.ProductVersion" content="[version number]"/> | Specifies the version of the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer. |
+| \< meta name="Microsoft.Help.Category" content="[string]"/> | Used by products to identify subsections of content. You can identify multiple subsections for a topic, or you can omit this tag if you do not want links to identify any subsections. This tag is used to store the attributes for TargetOS and TargetFrameworkMoniker when a topic is converted from an earlier version of Help. The format of the content is AttributeName:AttributeValue. |
+| \< meta name="Microsoft.Help.TopicVersion content="[topic version number]"/> | Specifies this version of the topic when multiple versions exist in a catalog. Because Microsoft.Help.Id is not guaranteed to be unique, this tag is required when more than one version of a topic exists in a catalog, for example, when a catalog contains a topic for the .NET Framework 3.5 and a topic for the .NET Framework 4 and both have the same Microsoft.Help.Id. |
+| \< meta name="SelfBranded" content="[TRUE or FALSE]"/> | Specifies whether this topic uses the Help Library Manager start-up branding package or a branding package that is specific to the topic. This tag must be either TRUE or FALSE. If it is TRUE, then the branding package for the associated topic overrides the branding package that is set when Help Library Manager starts so that the topic is rendered as intended even if it differs from the rendering of other content. If it is FALSE, the current topic is rendered according to the branding package that is set when Help Library Manager starts. By default, Help Library Manager assumes self-branding to be false unless the SelfBranded variable is declared as TRUE; therefore, you do not have to declare \<meta name="SelfBranded" content="FALSE"/>. |
   
 ### Creating a branding package  
 The Visual Studio release encompasses a number of different Visual Studio products, including the Isolated and Integrated shells for Visual Studio Partners.  Each of these products requires some degree of topic-based Help content branding support, unique to the product.  For example, Visual Studio topics need to have a consistent brand presentation, whereas SQL Studio, which wraps ISO Shell, requires its own unique Help content branding for each topic.  An Integrated Shell Partner may want their Help topics to be within the parent Visual Studio product Help content while maintaining their own topic branding.  
@@ -429,88 +429,89 @@ Note: variables noted by "{n}" have code dependencies - removing or changing the
   
 **Branding.xml**  
   
-|||  
-|-|-|  
-|Feature:|**CollapsibleArea**|  
-|Use:|Expand collapses content control text|  
-|**Element**|**Value**|  
-|ExpandText|Expand|  
-|CollapseText|Collapse|  
-|Feature:|**CodeSnippet**|  
-|Use:|Code snippet control text.  Note: Code snippet content with "Non-Breaking" space will be changed to space.|  
-|**Element**|**Value**|  
-|CopyToClipboard|Copy to Clipboard|  
-|ViewColorizedText|View Colorized|  
-|CombinedVBTabDisplayLanguage|Visual Basic (Sample)|  
-|VBDeclaration|Declaration|  
-|VBUsage|Usage|  
-|Feature:|**Feedback, Footer, and Logo**|  
-|Use:|Provide a Feedback control for customer to supply feedback on the current topic via e-mail.  Copyright text for the content.  Logo definition.|  
-|**Element**|**Value  (These strings can be modified to meet content adopter need.)**|  
-|CopyRight|© 2013 Microsoft Corporation. All rights reserved.|  
-|SendFeedback|\<a href="{0}" {1}>Send Feedback\</a> on this topic to Microsoft.|  
-|FeedbackLink||  
-|LogoTitle|[!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)]|  
-|LogoFileName|vs_logo_bk.gif|  
-|LogoFileNameHC|vs_logo_wh.gif|  
-|Feature:|**Disclaimer**|  
-|Use:|A set of case specific disclaimers for machine translated content.|  
-|**Element**|**Value**|  
-|MT_Editable|This article was machine translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|  
-|MT_NonEditable|This article was machine translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|  
-|MT_QualityEditable|This article was manually translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|  
-|MT_QualityNonEditable|This article was manually translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|  
-|MT_BetaContents|This article was machine translated for a preliminary release. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|  
-|MT_BetaRecycledContents|This article was manually translated for a preliminary release. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|  
-|Feature:|**LinkTable**|  
-|Use:|Support for online topic links|  
-|**Element**|**Value**|  
-|LinkTableTitle|Link Table|  
-|TopicEnuLinkText|View the English version\</a> of this topic that is available on your computer.|  
-|TopicOnlineLinkText|View this topic \<a href="{0}" {1}>online\</a>|  
-|OnlineText|Online|  
-|Feature:|**Video Audio control**|  
-|Use:|Display elements and text for video content|  
-|**Element**|**Value**|  
-|MultiMediaNotSupported|Internet Explorer 9 or greater must be installed to support {0} content.|  
-|VideoText|displaying video|  
-|AudioText|streaming audio|  
-|OnlineVideoLinkText|\<p>To view the video associated with this topic, click {0}\<a href="{1}">{2}here\</a>.\</p>|  
-|OnlineAudioLinkText|\<p>To listen to the audio associated with this topic, click {0}\<a href="{1}">{2}here\</a>.\</p>|  
-|Feature:|**Content Not Installed control**|  
-|Use:|Text elements (strings) used for the rendering of contentnotinstalled.htm|  
-|**Element**|**Value**|  
-|ContentNotInstalledTitle|No content was found on your computer.|  
-|ContentNotInstalledDownloadContentText|\<p>To download content to your computer, \<a href="{0}" {1}>click the Manage tab\</a>.\</p>|  
-|ContentNotInstalledText|\<p>No content is installed on your computer. Please see your Administrator for local Help content installation.\</p>|  
-|Feature:|**Topic Not Found control**|  
-|Use:|Text elements (strings) used for the rendering of topicnotfound.htm|  
-|**Element**|**Value**|  
-|TopicNotFoundTitle|Cannot find requested topic on your computer.|  
-|TopicNotFoundViewOnlineText|\<p>The topic you requested was not found on your computer, but you can \<a href="{0}" {1}>view the topic online\</a>.\</p>|  
-|TopicNotFoundDownloadContentText|\<p>See the navigation pane for links to similar topics, or \<a href="{0}" {1}>click the Manage tab\</a> to download content to your computer.\</p>|  
-|TopicNotFoundText|\<p>The topic you requested was not found on your computer.\</p>|  
-|Feature:|**Topic Corrupted Control**|  
-|Use:|Text elements (strings) used for the rendering of topiccorrupted.htm|  
-|**Element**|**Value**|  
-|TopicCorruptedTitle|Unable to display the requested topic.|  
-|TopicCorruptedViewOnlineText|\<p>Help Viewer is unable to display the requested topic. There may be an error in the topic's content or an underlying system dependency.\</p>|  
-|Feature:|**Home Page control**|  
-|Use:|Text supporting the display of the Help Viewer top level node content.|  
-|**Element**|**Value**|  
-|HomePageTitle|Help Viewer Home|  
-|HomePageIntroduction|\<p>Welcome to the Microsoft Help Viewer, an essential source of information for everyone who uses Microsoft tools, products, technologies, and services. The Help Viewer gives you access to how-to and reference information, sample code, technical articles, and more. To find the content you need, browse the table of contents, use full-text search, or navigate through content using the keyword index.\</p>|  
-|HomePageContentInstallText|\<p>\<br />Use the \<a href="{0}" {1}>Manage Content\</a> tab to do the following:\<ul>\<li>Add content to your computer.\</li>\<li>Check for updates to your local content.\</li>\<li>Remove content from your computer.\</li>\</ul>\</p>|  
-|HomePageInstalledBooks|Installed Books|  
-|HomePageNoBooksInstalled|No content was found on your computer.|  
-|HomePageHelpSettings|Help Content Settings|  
-|HomePageHelpSettingsText|\<p>Your current setting is local help. The Help Viewer displays content that you have installed on your computer.\<br />To change your source of Help content, on the Visual Studio menu bar, choose \<span style="{0}">Help, Set Help Preference\</span>.\<br />\</p>|  
-|MegaByte|MB|  
-  
+
+| | |
+| - | - |
+| Feature: | **CollapsibleArea** |
+| Use: | Expand collapses content control text |
+| **Element** | **Value** |
+| ExpandText | Expand |
+| CollapseText | Collapse |
+| Feature: | **CodeSnippet** |
+| Use: | Code snippet control text.  Note: Code snippet content with "Non-Breaking" space will be changed to space. |
+| **Element** | **Value** |
+| CopyToClipboard | Copy to Clipboard |
+| ViewColorizedText | View Colorized |
+| CombinedVBTabDisplayLanguage | Visual Basic (Sample) |
+| VBDeclaration | Declaration |
+| VBUsage | Usage |
+| Feature: | **Feedback, Footer, and Logo** |
+| Use: | Provide a Feedback control for customer to supply feedback on the current topic via e-mail.  Copyright text for the content.  Logo definition. |
+| **Element** | **Value  (These strings can be modified to meet content adopter need.)** |
+| CopyRight | © 2013 Microsoft Corporation. All rights reserved. |
+| SendFeedback | \<a href="{0}" {1}>Send Feedback\</a> on this topic to Microsoft. |
+| FeedbackLink | |
+| LogoTitle | [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] |
+| LogoFileName | vs_logo_bk.gif |
+| LogoFileNameHC | vs_logo_wh.gif |
+| Feature: | **Disclaimer** |
+| Use: | A set of case specific disclaimers for machine translated content. |
+| **Element** | **Value** |
+| MT_Editable | This article was machine translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time. |
+| MT_NonEditable | This article was machine translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time. |
+| MT_QualityEditable | This article was manually translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time. |
+| MT_QualityNonEditable | This article was manually translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time. |
+| MT_BetaContents | This article was machine translated for a preliminary release. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time. |
+| MT_BetaRecycledContents | This article was manually translated for a preliminary release. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time. |
+| Feature: | **LinkTable** |
+| Use: | Support for online topic links |
+| **Element** | **Value** |
+| LinkTableTitle | Link Table |
+| TopicEnuLinkText | View the English version\</a> of this topic that is available on your computer. |
+| TopicOnlineLinkText | View this topic \<a href="{0}" {1}>online\</a> |
+| OnlineText | Online |
+| Feature: | **Video Audio control** |
+| Use: | Display elements and text for video content |
+| **Element** | **Value** |
+| MultiMediaNotSupported | Internet Explorer 9 or greater must be installed to support {0} content. |
+| VideoText | displaying video |
+| AudioText | streaming audio |
+| OnlineVideoLinkText | \<p>To view the video associated with this topic, click {0}\<a href="{1}">{2}here\</a>.\</p> |
+| OnlineAudioLinkText | \<p>To listen to the audio associated with this topic, click {0}\<a href="{1}">{2}here\</a>.\</p> |
+| Feature: | **Content Not Installed control** |
+| Use: | Text elements (strings) used for the rendering of contentnotinstalled.htm |
+| **Element** | **Value** |
+| ContentNotInstalledTitle | No content was found on your computer. |
+| ContentNotInstalledDownloadContentText | \<p>To download content to your computer, \<a href="{0}" {1}>click the Manage tab\</a>.\</p> |
+| ContentNotInstalledText | \<p>No content is installed on your computer. Please see your Administrator for local Help content installation.\</p> |
+| Feature: | **Topic Not Found control** |
+| Use: | Text elements (strings) used for the rendering of topicnotfound.htm |
+| **Element** | **Value** |
+| TopicNotFoundTitle | Cannot find requested topic on your computer. |
+| TopicNotFoundViewOnlineText | \<p>The topic you requested was not found on your computer, but you can \<a href="{0}" {1}>view the topic online\</a>.\</p> |
+| TopicNotFoundDownloadContentText | \<p>See the navigation pane for links to similar topics, or \<a href="{0}" {1}>click the Manage tab\</a> to download content to your computer.\</p> |
+| TopicNotFoundText | \<p>The topic you requested was not found on your computer.\</p> |
+| Feature: | **Topic Corrupted Control** |
+| Use: | Text elements (strings) used for the rendering of topiccorrupted.htm |
+| **Element** | **Value** |
+| TopicCorruptedTitle | Unable to display the requested topic. |
+| TopicCorruptedViewOnlineText | \<p>Help Viewer is unable to display the requested topic. There may be an error in the topic's content or an underlying system dependency.\</p> |
+| Feature: | **Home Page control** |
+| Use: | Text supporting the display of the Help Viewer top level node content. |
+| **Element** | **Value** |
+| HomePageTitle | Help Viewer Home |
+| HomePageIntroduction | \<p>Welcome to the Microsoft Help Viewer, an essential source of information for everyone who uses Microsoft tools, products, technologies, and services. The Help Viewer gives you access to how-to and reference information, sample code, technical articles, and more. To find the content you need, browse the table of contents, use full-text search, or navigate through content using the keyword index.\</p> |
+| HomePageContentInstallText | \<p>\<br />Use the \<a href="{0}" {1}>Manage Content\</a> tab to do the following:\<ul>\<li>Add content to your computer.\</li>\<li>Check for updates to your local content.\</li>\<li>Remove content from your computer.\</li>\</ul>\</p> |
+| HomePageInstalledBooks | Installed Books |
+| HomePageNoBooksInstalled | No content was found on your computer. |
+| HomePageHelpSettings | Help Content Settings |
+| HomePageHelpSettingsText | \<p>Your current setting is local help. The Help Viewer displays content that you have installed on your computer.\<br />To change your source of Help content, on the Visual Studio menu bar, choose \<span style="{0}">Help, Set Help Preference\</span>.\<br />\</p> |
+| MegaByte | MB |
+
 **branding.js**  
-  
+
 The branding.js file contains JavaScript used by the Visual Studio Help Viewer branding elements.  Below is a list of the branding elements and the supporting JavaScript function.  All strings to be localized for this file are defined in the "Localizable Strings" section at the top of this file.  Note that ICL file has been created for loc strings within the branding.js file.  
-  
+
 ||||  
 |-|-|-|  
 |**Branding Feature**|**JavaScript Function**|**Description**|  
@@ -543,11 +544,11 @@ The branding.js file contains JavaScript used by the Visual Studio Help Viewer b
 ||styleRectify(styleName, styleValue)||  
 ||showCC(id)||  
 ||subtitle(id)||  
-  
+
 **HTM FILES**  
-  
+
 The branding package contains a set of HTM files that support scenarios for communicating key information to Help content users, for example a homepage that contains a section describing which content sets are installed and pages telling the user when topics cannot be found in the local set of topics. Note that these HTM files can be modified per product.  ISO Shell vendors are able to take the default branding package and change the behavior and content of these pages to suite their need.  These files refer to their respective branding package in order for the branding tags to get the corresponding content from the branding.xml file.  
-  
+
 ||||  
 |-|-|-|  
 |**File**|**Use**|**Displayed Content Source**|  
@@ -568,21 +569,21 @@ The branding package contains a set of HTM files that support scenarios for comm
 ||<META_CONTENT_NOT_INSTALLED_TITLE_ADD />|Branding.xml, tag \<ContentNotInstalledTitle>|  
 ||<META_CONTENT_NOT_INSTALLED_ID_ADD />|Branding.xml, tag \<ContentNotInstalledDownloadContentText>|  
 ||<CONTENT_NOT_INSTALLED_SECTION_ADD />|Branding.xml, tag \<ContentNotInstalledText>|  
-  
+
 **CSS Files**  
-  
+
 The Visual Studio Help Viewer Branding Package contains two css files to support consistent Visual Studio Help content presentation:  
-  
+
 -   Branding.css - contains css elements for rendering where SelfBranded=false  
-  
+
 -   Printer.css - contains css elements for rendering where SelfBranded=false  
-  
+
 Branding.css files includes definitions for Visual Studio topic presentation (caveat is that the branding.css contained in the Branding_\<locale>.mshc from the package service may change).  
-  
+
 **Graphic Files**  
-  
+
 Visual Studio content displays a Visual Studio logo as well as other graphics.  The complete list of graphic files in the Visual Studio Help Viewer branding package is shown below.  
-  
+
 ||||  
 |-|-|-|  
 |**File**|**Use**|**Examples**|  
@@ -597,18 +598,18 @@ Visual Studio content displays a Visual Studio logo as well as other graphics.  
 |ccOff.png|Captioning graphic||  
 |ccOn.png|Captioning graphic||  
 |ImageSprite.png|Used to render Collapsible Area|expanded or collapse graphic|  
-  
+
 ### Deploying a set of topics  
 This is a very simple and quick tutorial for creating a Help Viewer content deployment set comprised of an MSHA file and the set of cabs or MSHC's containing the topics. The MSHA is an XML file that describes a set of cabs or MSHC files. The Help Viewer can read the MSHA to obtain a list of content (the .CAB or .MSHC files) available for local installation.  
-  
+
 This is only a primer describing the very basic XML schema for the Help Viewer MSHA.  Note that there is an example implementation below this brief overview and sample HelpContentSetup.msha.  
-  
+
 The name of the MSHA, for the purposes of this primer, is HelpContentSetup.msha (the name of the file can be anything, with the extension .MSHA). HelpContentSetup.msha (example below) should contain a list of the cabs or MSHCs available.  Note that the file type must be consistent within the MSHA (does not support a combination of MSHA and CAB file types). For each CAB or MSHC, there should be a \<div class="package">...\</div> (see example below).  
-  
+
 Note: in the implementation example below, we have included the branding package. This is critical to include in order to get the needed Visual Studio content rendering elements and content behaviors.  
-  
+
 Sample HelpContentSetup.msha file: (Replace "content set name 1" and "content set name 2" etc. with your file names.)  
-  
+
 ```html
 <html>  
 <head />  
@@ -630,7 +631,6 @@ Sample HelpContentSetup.msha file: (Replace "content set name 1" and "content se
 <span class="deployed">True</span>  
 <a class="current-link"href=" Your_Company _Content_Set_2.mshc "> Your_Company _Content_Set_2.mshc </a>  
 </div>.  
-  
 ```  
   
 1.  Create local folder, something like "C:\SampleContent"  
@@ -697,11 +697,11 @@ The [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Shell is a
   
 The basic steps for creating an Isolated Shell-based application and its Help:  
   
-1.  Obtain the [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] ISO Shell redistributable (a Microsoft download).  
+1. Obtain the [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] ISO Shell redistributable (a Microsoft download).  
   
-2.  In Visual Studio, create a Help extension that is based on the Isolated Shell, for example, the Contoso Help extension that is described later in this walkthrough.  
+2. In Visual Studio, create a Help extension that is based on the Isolated Shell, for example, the Contoso Help extension that is described later in this walkthrough.  
   
-3.  Wrap the extension and the ISO Shell redistributable into a deployment MSI (an application setup). This Walkthrough does not include a setup step.  
+3. Wrap the extension and the ISO Shell redistributable into a deployment MSI (an application setup). This Walkthrough does not include a setup step.  
   
 Create a Visual Studio content store. For the Integrated Shell scenario, change Visual Studio12 to the product catalog name as follows:  
   
@@ -716,13 +716,13 @@ Create a Visual Studio content store. For the Integrated Shell scenario, change 
   
 Define the content store in the registry. For the Integrated Shell, change VisualStudio15 to the product catalog name:  
   
--   HKLM\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15  
+- HKLM\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15  
   
-     Key: LocationPath  String value: C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio15\  
+   Key: LocationPath  String value: C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio15\  
   
--   HKLM\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15\en-US  
+- HKLM\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15\en-US  
   
-     Key: CatalogName String value: [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Documentation  
+   Key: CatalogName String value: [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Documentation  
   
 **Create the Project**  
   
@@ -766,42 +766,42 @@ To create an Isolated Shell extension:
   
 To test this as if deployed:  
   
-1.  On the machine you are deploying Contoso to, install the downloaded (from above) ISO Shell.  
+1. On the machine you are deploying Contoso to, install the downloaded (from above) ISO Shell.  
   
-2.  Create a folder in \\\Program Files (x86)\\, and name it `Contoso`.  
+2. Create a folder in \\\Program Files (x86)\\, and name it `Contoso`.  
   
-3.  Copy the contents from the ContosoHelpShell release folder to \\\Program Files (x86)\Contoso\ folder.  
+3. Copy the contents from the ContosoHelpShell release folder to \\\Program Files (x86)\Contoso\ folder.  
   
-4.  Start Registry Editor by choosing  **Run** in the **Start** menu and entering `Regedit`. In the registry editor, choose **File**, and then **Import**. Browse to the ContosoHelpShell project folder. In the ContosoHelpShell sub-folder, choose ContosoHelpShell.reg.  
+4. Start Registry Editor by choosing  **Run** in the **Start** menu and entering `Regedit`. In the registry editor, choose **File**, and then **Import**. Browse to the ContosoHelpShell project folder. In the ContosoHelpShell sub-folder, choose ContosoHelpShell.reg.  
   
-5.  Create a content store:  
+5. Create a content store:  
   
-     For ISO Shell - create a Contoso content store C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\ContosoDev12  
+    For ISO Shell - create a Contoso content store C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\ContosoDev12  
   
-     For [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Integrated Shell, create folder C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio15  
+    For [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Integrated Shell, create folder C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio15  
   
-6.  Create CatalogType.xml and add to the content store (previous step) containing:  
+6. Create CatalogType.xml and add to the content store (previous step) containing:  
   
-    ```  
-    <?xml version="1.0" encoding="UTF-8"?>  
-    <catalogType>UserManaged</catalogType>  
-    ```  
+   ```  
+   <?xml version="1.0" encoding="UTF-8"?>  
+   <catalogType>UserManaged</catalogType>  
+   ```  
   
-7.  Add the following registry keys:  
+7. Add the following registry keys:  
   
-     HKLM\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15Key: LocationPath  String value:  
+    HKLM\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15Key: LocationPath  String value:  
   
-     For ISO Shell:  
+    For ISO Shell:  
   
-     C:ProgramDataMicrosoftHelpLibrary2CatalogsVisualStudio15  
+    C:ProgramDataMicrosoftHelpLibrary2CatalogsVisualStudio15  
   
-     [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Integrated Shell:  
+    [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Integrated Shell:  
   
-     C:ProgramDataMicrosoftHelpLibrary2CatalogsVisualStudio15en-US  
+    C:ProgramDataMicrosoftHelpLibrary2CatalogsVisualStudio15en-US  
   
-     Key: CatalogName String value: [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Documentation. For ISO Shell, this is the name of your catalog.  
+    Key: CatalogName String value: [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Documentation. For ISO Shell, this is the name of your catalog.  
   
-8.  Copy your content (cabs or MSHC and MSHA) to a local folder.  
+8. Copy your content (cabs or MSHC and MSHA) to a local folder.  
   
 9. Example Integrated Shell command line for testing content store. For ISO Shell, change the catalog and launchingApp values as appropriate to match the product.  
   
@@ -816,13 +816,13 @@ To test this as if deployed:
 ### Additional Resources  
 For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/helpapi/helpapi-portal).  
   
-For additional information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e)  
+For additional information on how to leverage the Help API, see [Help Viewer Code Examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples)  
   
 To provide feedback about these components, use [Microsoft Connect](http://connect.microsoft.com/).  
   
 Please submit feature suggestions to [Microsoft User Voice](http://visualstudio.uservoice.com/forums/121579-visual-studio)  
   
-To get additional help, try the [MSDN Developer Documentation and Help System forums](http://social.msdn.microsoft.com/Forums/devdocs/threads)  
+To get additional help, try the [MSDN Developer Documentation and Help System forums](https://social.msdn.microsoft.com/Forums)  
   
 Updates on breaking issue, please see the [Help Viewer Readme](http://go.microsoft.com/fwlink/?LinkID=231397&clcid=0x409)  
   

@@ -1,7 +1,7 @@
 ---
 title: "Test Guide for Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Test Guide for Source Control Plug-ins
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Guide for Source Control Plug-ins](https://docs.microsoft.com/visualstudio/extensibility/internals/test-guide-for-source-control-plug-ins).  
-  
 This section provides guidance for testing your source control plug-in with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. An extensive overview of the most common testing areas, as well as some of the more intricate areas that may be problematic is provided. This overview is not meant to be an exhaustive list of test cases.  
   
 > [!NOTE]
@@ -42,19 +40,19 @@ This section provides guidance for testing your source control plug-in with [!IN
  Web project  
  There are four types of Web projects: File System, Local IIS, Remote Sites, and FTP.  
   
--   File System projects are created on a local path, but they do not require the Internet Information Services (IIS) to be installed as they are accessed internally via a UNC path, and can be placed under source control from inside the IDE, much like client projects.  
+- File System projects are created on a local path, but they do not require the Internet Information Services (IIS) to be installed as they are accessed internally via a UNC path, and can be placed under source control from inside the IDE, much like client projects.  
   
--   Local IIS projects work with IIS that is installed on the same machine and are accessed with a URL pointing to the local machine.  
+- Local IIS projects work with IIS that is installed on the same machine and are accessed with a URL pointing to the local machine.  
   
--   Remote Sites projects are also created under an IIS Services, but they are placed under source control on the IIS server machine and not from inside the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE.  
+- Remote Sites projects are also created under an IIS Services, but they are placed under source control on the IIS server machine and not from inside the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE.  
   
--   FTP projects are accessed through a remote FTP server but they cannot be placed under source control.  
+- FTP projects are accessed through a remote FTP server but they cannot be placed under source control.  
   
- Enlistment  
- Another term for the solution or project under source control.  
+  Enlistment  
+  Another term for the solution or project under source control.  
   
- Version Store  
- The source control database that is being accessed through the Source Control Plug-in API.  
+  Version Store  
+  The source control database that is being accessed through the Source Control Plug-in API.  
   
 ## Test Areas Covered in This Section  
   

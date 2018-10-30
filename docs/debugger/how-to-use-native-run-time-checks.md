@@ -43,27 +43,27 @@ ms.workload:
 # How to: Use Native Run-Time Checks
 In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:  
   
--   Stack pointer corruption.  
+- Stack pointer corruption.  
   
--   Overruns of local arrays.  
+- Overruns of local arrays.  
   
--   Stack corruption.  
+- Stack corruption.  
   
--   Dependencies on uninitialized local variables.  
+- Dependencies on uninitialized local variables.  
   
--   Loss of data on an assignment to a shorter variable.  
+- Loss of data on an assignment to a shorter variable.  
   
- If you use **/RTC** with an optimized (**/O**) build, a compiler error results. If you use a `runtime_checks` pragma in an optimized build, the pragma has no effect.  
+  If you use **/RTC** with an optimized (**/O**) build, a compiler error results. If you use a `runtime_checks` pragma in an optimized build, the pragma has no effect.  
   
- When you debug a program that has run-time checks enabled, the default action is for the program to stop and break to the debugger when a run-time error occurs. You can change this default behavior for any run-time check. For more information, see [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).  
+  When you debug a program that has run-time checks enabled, the default action is for the program to stop and break to the debugger when a run-time error occurs. You can change this default behavior for any run-time check. For more information, see [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).  
   
- The following procedures describe how to enable native run-time checks in a debug build, and how to modify native run-time check behavior.  
+  The following procedures describe how to enable native run-time checks in a debug build, and how to modify native run-time check behavior.  
   
- Other topics in this section provide information about:  
+  Other topics in this section provide information about:  
   
--   [Customizing Run-Time Checks with the C Run-Time Library](../debugger/native-run-time-checks-customization.md)  
+- [Customizing Run-Time Checks with the C Run-Time Library](../debugger/native-run-time-checks-customization.md)  
   
--   [Using Run-Time Checks without the C Run-Time Library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)  
+- [Using Run-Time Checks without the C Run-Time Library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)  
   
 ### To enable native run-time checks in a debug build  
   

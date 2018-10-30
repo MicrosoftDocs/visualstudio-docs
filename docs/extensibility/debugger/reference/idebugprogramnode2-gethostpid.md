@@ -23,13 +23,13 @@ Gets the system process identifier for the process hosting the program.
   
 ```cpp  
 HRESULT GetHostPid (   
-   AD_PROCESS_ID * pdwHostPid  
+   AD_PROCESS_ID * pdwHostPid  
 );  
 ```  
   
 ```csharp  
 int GetHostPid (   
-   out AD_PROCESS_ID pdwHostPid  
+   out AD_PROCESS_ID pdwHostPid  
 );  
 ```  
   

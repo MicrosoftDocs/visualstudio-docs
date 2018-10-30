@@ -1,7 +1,7 @@
 ---
 title: "Model of a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Model of a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Model of a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/model-of-a-legacy-language-service).  
-  
 A language service defines the elements and features for a specific language, and is used to provide the editor with information specific to that language. For example, the editor needs to know the elements and keywords of the language in order to support syntax coloring.  
   
  The language service works closely with the text buffer managed by the editor and the view that contains the editor. The Microsoft IntelliSense **Quick Info** option is an example of a feature provided by a language service.  
@@ -28,20 +26,20 @@ A language service defines the elements and features for a specific language, an
 ## A Minimal Language Service  
  The most basic language service contains the following two objects:  
   
--   The *language service* implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface. A language service has information about the language, including its name, file name extensions, code window manager, and colorizer.  
+- The *language service* implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface. A language service has information about the language, including its name, file name extensions, code window manager, and colorizer.  
   
--   The *colorizer* implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface.  
+- The *colorizer* implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface.  
   
- The following conceptual drawing shows a model of a basic language service.  
+  The following conceptual drawing shows a model of a basic language service.  
   
- ![Language Service Model graphic](../../extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
-Basic language service model  
+  ![Language Service Model graphic](../../extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
+  Basic language service model  
   
- The document window hosts the *document view* of the editor, in this case the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] core editor. The document view and the text buffer are owned by the editor. These objects work with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] through a specialized document window called a *code window*. The code window is contained in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that is created and controlled by the IDE.  
+  The document window hosts the *document view* of the editor, in this case the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] core editor. The document view and the text buffer are owned by the editor. These objects work with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] through a specialized document window called a *code window*. The code window is contained in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that is created and controlled by the IDE.  
   
- When a file with a given extension is loaded, the editor locates the language service associated with that extension and passes to it the code window by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetCodeWindowManager%2A> method. The language service returns a *code window manager*, which implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface.  
+  When a file with a given extension is loaded, the editor locates the language service associated with that extension and passes to it the code window by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetCodeWindowManager%2A> method. The language service returns a *code window manager*, which implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface.  
   
- The following table provides an overview of the objects in the model.  
+  The following table provides an overview of the objects in the model.  
   
 |Component|Object|Function|  
 |---------------|------------|--------------|  

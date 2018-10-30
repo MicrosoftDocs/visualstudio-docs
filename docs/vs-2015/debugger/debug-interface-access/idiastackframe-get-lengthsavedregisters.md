@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackFrame::get_lengthSavedRegisters | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaStackFrame::get_lengthSavedRegisters
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_lengthSavedRegisters](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-lengthsavedregisters).  
-  
 Retrieves the number of bytes of saved registers pushed on the stack.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_lengthSavedRegisters (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

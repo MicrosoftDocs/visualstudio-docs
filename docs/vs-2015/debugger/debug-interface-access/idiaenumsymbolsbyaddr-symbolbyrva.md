@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSymbolsByAddr::symbolByRVA | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,16 +22,14 @@ manager: "ghogen"
 # IDiaEnumSymbolsByAddr::symbolByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSymbolsByAddr::symbolByRVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyrva).  
-  
 Positions the enumerator by performing a lookup by relative virtual address (RVA).  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT symbolByRVA (   
-   DWORD**      relativeVirtualAddress,  
-   IDiaSymbol** ppsymbol  
+   DWORD**      relativeVirtualAddress,  
+   IDiaSymbol** ppsymbol  
 );  
 ```  
   

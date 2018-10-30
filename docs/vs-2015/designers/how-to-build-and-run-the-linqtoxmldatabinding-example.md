@@ -1,7 +1,7 @@
 ---
 title: "How to: Build and Run the LinqToXmlDataBinding Example | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Build and Run the LinqToXmlDataBinding Example
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Build and Run the LinqToXmlDataBinding Example](https://docs.microsoft.com/visualstudio/designers/how-to-build-and-run-the-linqtoxmldatabinding-example).  
-  
 This topic shows how to create and build the LinqToXmlDataBinding Visual Studio project, and how to run the resulting LinqToXmlDataBinding Windows Presentation Foundation (WPF) example program.  
   
  For more information about using Visual Studio to create projects, see [Application Development in Visual Studio](http://msdn.microsoft.com/en-us/97490c1b-a247-41fb-8f2c-bc4c201eff68).  

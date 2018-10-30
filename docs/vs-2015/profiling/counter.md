@@ -1,7 +1,7 @@
 ---
 title: "Counter | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,15 +18,13 @@ manager: "ghogen"
 # Counter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Counter](https://docs.microsoft.com/visualstudio/profiling/counter).  
-  
 The **Counter** option collects data from processor (hardware) performance counters.  
   
--   When you are using the sampling profiling method, **Counter** specifies the on-chip performance counter and the number of counter events to use as the sampling interval. You can specify only one counter when you are using sampling.  
+- When you are using the sampling profiling method, **Counter** specifies the on-chip performance counter and the number of counter events to use as the sampling interval. You can specify only one counter when you are using sampling.  
   
--   When you are using the instrumentation profiling method, the number of counter events that occurred in the interval between the previous and current collection events are listed as separate fields in profiler reports. Multiple **Counter** options can be specified when you are using instrumentation.  
+- When you are using the instrumentation profiling method, the number of counter events that occurred in the interval between the previous and current collection events are listed as separate fields in profiler reports. Multiple **Counter** options can be specified when you are using instrumentation.  
   
- Each processor type has its own set of hardware performance counters. The profiler defines a set of generic performance counters that are common to almost all processors. To list the generic and processor-specific counters on your computer, use the VSPerfCmd **QueryCounters** command.  
+  Each processor type has its own set of hardware performance counters. The profiler defines a set of generic performance counters that are common to almost all processors. To list the generic and processor-specific counters on your computer, use the VSPerfCmd **QueryCounters** command.  
   
 ## Syntax  
   

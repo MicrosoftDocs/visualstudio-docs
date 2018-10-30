@@ -87,4 +87,4 @@ This walkthrough shows how to create a custom Visual Studio Start Page that cont
   
 ## See also  
  [Customize the start page](../ide/customizing-the-start-page-for-visual-studio.md)   
- [WPF container controls](http://msdn.microsoft.com/en-us/a0177167-d7db-4205-9607-8ae316952566)
+ [WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)

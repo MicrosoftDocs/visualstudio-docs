@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_baseType | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_baseType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_baseType](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-basetype).  
-  
-Retrieves the base type for this symbol*.*  
+Retrieves the base type for this symbol.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_baseType (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   
@@ -54,11 +52,11 @@ IDiaSymbol* pType;
 CComPtr<IDiaSymbol> pBaseType;  
 if (pType->get_type( &pBaseType ) == S_OK)  
 {  
-    BasicType btBaseType;  
-    if (pBaseType->get_baseType((DWORD *)&btBaseType) == S_OK)  
+    BasicType btBaseType;  
+    if (pBaseType->get_baseType((DWORD *)&btBaseType) == S_OK)  
     {  
-        // Do something with basic type.  
-    }  
+        // Do something with basic type.  
+    }  
 }  
 ```  
   

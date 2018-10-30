@@ -1,7 +1,7 @@
 ---
 title: "How to: Create XML Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create XML Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create XML Snippets](https://docs.microsoft.com/visualstudio/xml-tools/how-to-create-xml-snippets).  
-  
   
 The XML Editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.  
   
@@ -77,13 +75,13 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
   
  The `Code` element includes three variables.  
   
--   $name$ is user-defined variable. It creates a `name` element, which has an editable value that defaults to "name". User-defined variables are defined using the `Literal` element.  
+- $name$ is user-defined variable. It creates a `name` element, which has an editable value that defaults to "name". User-defined variables are defined using the `Literal` element.  
   
--   $selected$ is a predefined variable. It represents the text that was selected in the XML Editor before invoking the snippet. The placement of this variable determines where the selected text appears in the code snippet that surrounds that selection.  
+- $selected$ is a predefined variable. It represents the text that was selected in the XML Editor before invoking the snippet. The placement of this variable determines where the selected text appears in the code snippet that surrounds that selection.  
   
--   $end$ is a predefined variable. When the user presses ENTER to finish editing the code snippet fields, this variable determines where the caret (^) is moved to.  
+- $end$ is a predefined variable. When the user presses ENTER to finish editing the code snippet fields, this variable determines where the caret (^) is moved to.  
   
- The above `Code` element inserts the following XML text:  
+  The above `Code` element inserts the following XML text:  
   
 ```  
 <test>  

@@ -26,7 +26,7 @@ Continues running this program from a stopped state. Any previous execution stat
   
 ```cpp  
 HRESULT Execute(  
-   void  
+   void  
 );  
 ```  
   

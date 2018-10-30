@@ -15,7 +15,7 @@ ms.technology: vs-ide-modeling
 ---
 # Event Handlers Propagate Changes Outside the Model
 
-In Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store, such as non-store variables, files, models in other stores, or other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions. Store event handlers are executed after the end of the transaction in which the triggering event occurred. They are also executed in an Undo or Redo operation. Therefore, unlike store rules, store events are most useful for updating values that are outside the store. Unlike .NET events, store event handlers are registered to listen to a class: you do not have to register a separate handler for each instance. For more information about how to choose between different ways to handle changes, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).
+In Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store, such as non-store variables, files, models in other stores, or other Visual Studio extensions. Store event handlers are executed after the end of the transaction in which the triggering event occurred. They are also executed in an Undo or Redo operation. Therefore, unlike store rules, store events are most useful for updating values that are outside the store. Unlike .NET events, store event handlers are registered to listen to a class: you do not have to register a separate handler for each instance. For more information about how to choose between different ways to handle changes, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).
 
 The graphical surface and other user interface controls are examples of external resources that can be handled by store events.
 
@@ -167,7 +167,7 @@ If you write an event that updates the store:
 Each event type corresponds to a collection in Store.EventManagerDirectory. You can add or remove event handlers at any time, but it is usual to add them when the document is loaded.
 
 |`EventManagerDirectory` Property name|Executed when|
-|-------------------------------------------|-------------------|
+|-|-|
 |ElementAdded|An instance of a domain class, domain relationship, shape, connector or diagram is created.|
 |ElementDeleted|A model element has been removed from the store's element directory and is no longer the source or target of any relationship. The element is not actually deleted from memory, but is retained in case of a future Undo.|
 |ElementEventsBegun|Invoked at the end of an outer transaction.|

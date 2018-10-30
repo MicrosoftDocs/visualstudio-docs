@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngineLaunch2::TerminateProcess | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugEngineLaunch2::TerminateProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineLaunch2::TerminateProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenginelaunch2-terminateprocess).  
-  
 Terminates a process.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT TerminateProcess (   
-   IDebugProcess2* pProcess  
+   IDebugProcess2* pProcess  
 );  
 ```  
   
 ```csharp  
 int TerminateProcess (   
-   IDebugProcess2 pProcess  
+   IDebugProcess2 pProcess  
 );  
 ```  
   

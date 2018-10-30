@@ -1,7 +1,7 @@
 ---
 title: "How to ... with Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # How to ... with Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to ... with Text Templates](https://docs.microsoft.com/visualstudio/modeling/how-to-dot-dot-dot-with-text-templates).  
-  
 Text templates in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I …?" questions.  
   
  In this topic, multiple answers that are preceded by bullets are alternative suggestions.  
@@ -50,21 +48,21 @@ Text templates in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provide a useful 
 ### Invoke methods from a template  
  If the methods already exist, for example, in standard [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] classes:  
   
--   Use the \<#@assembly#> directive to load the assembly, and use \<#@import#> to set the namespace context. For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).  
+- Use the \<#@assembly#> directive to load the assembly, and use \<#@import#> to set the namespace context. For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).  
   
-     If you frequently use the same set of assembly and import directives, consider writing a directive processor. In each template, you can invoke the directive processor, which can load the assemblies and the model files and set the namespace context. For more information, see [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md).  
+   If you frequently use the same set of assembly and import directives, consider writing a directive processor. In each template, you can invoke the directive processor, which can load the assemblies and the model files and set the namespace context. For more information, see [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md).  
   
- If you are writing the methods yourself:  
+  If you are writing the methods yourself:  
   
--   If you are writing a runtime text template, write a partial class definition that has the same name as your runtime text template. Add the additional methods into this class.  
+- If you are writing a runtime text template, write a partial class definition that has the same name as your runtime text template. Add the additional methods into this class.  
   
--   Write a class feature control block `<#+ ... #>` in which you can declare methods, properties, and private classes. When the text template is compiled, it is transformed to a class. The standard control blocks `<#...#>` and text are transformed to a single method, and class feature blocks are inserted as separate members. For more information, see [Text Template Control Blocks](../modeling/text-template-control-blocks.md).  
+- Write a class feature control block `<#+ ... #>` in which you can declare methods, properties, and private classes. When the text template is compiled, it is transformed to a class. The standard control blocks `<#...#>` and text are transformed to a single method, and class feature blocks are inserted as separate members. For more information, see [Text Template Control Blocks](../modeling/text-template-control-blocks.md).  
   
-     Methods defined as class features can also include embedded text blocks.  
+   Methods defined as class features can also include embedded text blocks.  
   
-     Consider placing class features in a separate file which you can `<#@include#>` into one or more template files.  
+   Consider placing class features in a separate file which you can `<#@include#>` into one or more template files.  
   
--   Write the methods in a separate assembly (class library) and call them from your template. Use the `<#@assembly#>` directive to load the assembly, and `<#@import#>` to set the namespace context. Note that in order to rebuild the assembly while you are debugging it, you might have to stop and restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. For more information, see [T4 Text Template Directives](../modeling/t4-text-template-directives.md).  
+- Write the methods in a separate assembly (class library) and call them from your template. Use the `<#@assembly#>` directive to load the assembly, and `<#@import#>` to set the namespace context. Note that in order to rebuild the assembly while you are debugging it, you might have to stop and restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. For more information, see [T4 Text Template Directives](../modeling/t4-text-template-directives.md).  
   
 ### Generate many files from one model schema  
  If you often generate files from models that have the same XML or database schema:  

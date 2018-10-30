@@ -1,7 +1,7 @@
 ---
 title: "Customizing window layouts in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "ghogen"
 # Customizing window layouts in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customize window layouts in Visual Studio](https://docs.microsoft.com/visualstudio/ide/customizing-window-layouts-in-visual-studio).  
-  
 In Visual Studio you can customize the position, size and behavior of windows to create window layouts that work best for various development workflows. When you customize the layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you start, even if you are working on another computer, **Solution Explorer** will be docked in that same location. You can also give a custom layout a name and save it, and then switch between layouts with a single command. For example you could create a layout for editing, and another for debugging, and switch between them by using the **Window &#124; Apply Window Layout** menu command.  
   
 ## Kinds of Windows  
@@ -61,21 +59,21 @@ In Visual Studio you can customize the position, size and behavior of windows to
   
  You can arrange windows in the following ways:  
   
--   Pin document windows to the left of the tab well.  
+- Pin document windows to the left of the tab well.  
   
--   Tab-dock windows to the editing frame.  
+- Tab-dock windows to the editing frame.  
   
--   Dock tool windows to the edge of a frame in the IDE.  
+- Dock tool windows to the edge of a frame in the IDE.  
   
--   Float document or tool windows over or outside the IDE.  
+- Float document or tool windows over or outside the IDE.  
   
--   Hide tool windows along the edge of the IDE.  
+- Hide tool windows along the edge of the IDE.  
   
--   Display windows on different monitors.  
+- Display windows on different monitors.  
   
--   Reset window placement to the default layout or to a saved custom layout.  
+- Reset window placement to the default layout or to a saved custom layout.  
   
- Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.  
+  Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.  
   
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  

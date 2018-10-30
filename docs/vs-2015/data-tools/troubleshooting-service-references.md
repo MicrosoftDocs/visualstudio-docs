@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Service References | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,9 +23,6 @@ manager: "ghogen"
 ---
 # Troubleshooting Service References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Troubleshooting Service References](https://docs.microsoft.com/visualstudio/data-tools/troubleshooting-service-references).
-
 This topic lists common issues that may occur when you are working with [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] or [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] references in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].
 
 ## Error Returning Data from a Service
@@ -64,9 +61,9 @@ This topic lists common issues that may occur when you are working with [!INCLUD
 ## Error Debugging Service Code
  When you step into the code for a WCF service from client code, you may receive an error related to missing symbols. This can occur when a service that was part of your solution was moved or removed from the solution.
 
- When you first add a reference to a WCF service that is part of the current solution, an explicit build dependency is added between the service project and the service client project. This guarantees that that the client always accesses up-to-date service binaries, which is especially important for debugging scenarios such as stepping from client code into service code.
+ When you first add a reference to a WCF service that is part of the current solution, an explicit build dependency is added between the service project and the service client project. This guarantees that the client always accesses up-to-date service binaries, which is especially important for debugging scenarios such as stepping from client code into service code.
 
- If the service project is removed from the solution, this explicit build dependency is invalidated. Visual Studio can no longer guarantee that that the service project is rebuilt as necessary.
+ If the service project is removed from the solution, this explicit build dependency is invalidated. Visual Studio can no longer guarantee that the service project is rebuilt as necessary.
 
  To fix this error, you have to manually rebuild the service project:
 

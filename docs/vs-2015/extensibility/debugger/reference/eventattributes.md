@@ -1,7 +1,7 @@
 ---
 title: "EVENTATTRIBUTES | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,34 +21,32 @@ manager: "ghogen"
 # EVENTATTRIBUTES
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [EVENTATTRIBUTES](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/eventattributes).  
-  
 Specifies the event attributes.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_EVENTATTRIBUTES {   
-   EVENT_ASYNCHRONOUS          = 0x0000,  
-   EVENT_SYNCHRONOUS           = 0x0001,  
-   EVENT_STOPPING              = 0x0002,  
-   EVENT_ASYNC_STOP            = 0x0002,  
-   EVENT_SYNC_STOP             = 0x0003,  
-   EVENT_IMMEDIATE             = 0x0004,  
-   EVENT_EXPRESSION_EVALUATION = 0x0008  
+   EVENT_ASYNCHRONOUS          = 0x0000,  
+   EVENT_SYNCHRONOUS           = 0x0001,  
+   EVENT_STOPPING              = 0x0002,  
+   EVENT_ASYNC_STOP            = 0x0002,  
+   EVENT_SYNC_STOP             = 0x0003,  
+   EVENT_IMMEDIATE             = 0x0004,  
+   EVENT_EXPRESSION_EVALUATION = 0x0008  
 };  
 typedef DWORD EVENTATTRIBUTES;  
 ```  
   
 ```csharp  
 public enum enum_EVENTATTRIBUTES {   
-   EVENT_ASYNCHRONOUS          = 0x0000,  
-   EVENT_SYNCHRONOUS           = 0x0001,  
-   EVENT_STOPPING              = 0x0002,  
-   EVENT_ASYNC_STOP            = 0x0002,  
-   EVENT_SYNC_STOP             = 0x0003,  
-   EVENT_IMMEDIATE             = 0x0004,  
-   EVENT_EXPRESSION_EVALUATION = 0x0008  
+   EVENT_ASYNCHRONOUS          = 0x0000,  
+   EVENT_SYNCHRONOUS           = 0x0001,  
+   EVENT_STOPPING              = 0x0002,  
+   EVENT_ASYNC_STOP            = 0x0002,  
+   EVENT_SYNC_STOP             = 0x0003,  
+   EVENT_IMMEDIATE             = 0x0004,  
+   EVENT_EXPRESSION_EVALUATION = 0x0008  
 };  
 ```  
   

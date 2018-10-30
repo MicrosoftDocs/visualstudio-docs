@@ -11,16 +11,16 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Guidelines for Writing T4 Text Templates
-These general guidelines might be helpful if you are generating program code or other application resources in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. They are not fixed rules.
+These general guidelines might be helpful if you are generating program code or other application resources in Visual Studio. They are not fixed rules.
 
 ## Guidelines for Design-Time T4 Templates
- Design-time T4 templates are templates that generate code in your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project at design time. For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
+ Design-time T4 templates are templates that generate code in your Visual Studio project at design time. For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
 
  Generate variable aspects of the application.
  Code generation is most useful for those aspects of the application that might change during the project, or will change between different versions of the application. Separate these variable aspects from the more invariant aspects so that you can more easily determine what has to be generated. For example, if your application provides a website, separate the standard page serving functions from the logic that defines the navigation paths from one page to another.
 
  Encode the variable aspects in one or more source models.
- A model is a file or database that each template reads to obtain specific values for variable parts of the code that is to be generated. Models can be databases, XML files of your own design, diagrams, or domain-specific languages. Typically, one model is used to generate many files in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. Each file is generated from a separate template.
+ A model is a file or database that each template reads to obtain specific values for variable parts of the code that is to be generated. Models can be databases, XML files of your own design, diagrams, or domain-specific languages. Typically, one model is used to generate many files in a Visual Studio project. Each file is generated from a separate template.
 
  You can use more than one model in a project. For example, you might define a model for navigation between web pages, and a separate model for the layout of the pages.
 
@@ -37,31 +37,31 @@ These general guidelines might be helpful if you are generating program code or 
  Allow for custom code: generate partial classes.
  Allow for code that you write by hand in addition to the generated code. It is unusual for a code generation scheme to be able to account for all possible variations that might arise. Therefore, you should expect to add to or override some of the generated code. Where the generated material is in a .NET language such as [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], two strategies are especially useful:
 
--   The generated classes should be partial. This lets you to add content to the generated code.
+- The generated classes should be partial. This lets you to add content to the generated code.
 
--   Classes should be generated in pairs, one inheriting from the other. The base class should contain all the generated methods and properties, and the derived class should contain only the constructors. This allows your hand-written code to override any of the generated methods.
+- Classes should be generated in pairs, one inheriting from the other. The base class should contain all the generated methods and properties, and the derived class should contain only the constructors. This allows your hand-written code to override any of the generated methods.
 
- In other generated languages such as XML, use the `<#@include#>` directive to make simple combinations of hand-written and generated content. In more complex cases, you might have to write a post-processing step that combines the generated file with any hand-written files.
+  In other generated languages such as XML, use the `<#@include#>` directive to make simple combinations of hand-written and generated content. In more complex cases, you might have to write a post-processing step that combines the generated file with any hand-written files.
 
- Move common material into include files or run-time templates
- To avoid repeating similar blocks of text and code in multiple templates, use the `<#@ include #>` directive. For more information, see [T4 Include Directive](../modeling/t4-include-directive.md).
+  Move common material into include files or run-time templates
+  To avoid repeating similar blocks of text and code in multiple templates, use the `<#@ include #>` directive. For more information, see [T4 Include Directive](../modeling/t4-include-directive.md).
 
- You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project. For examples, see ["Inheritance in Text Templates" in Gareth Jones' Blog](http://go.microsoft.com/fwlink/?LinkId=208373).
+  You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project. For examples, see ["Inheritance in Text Templates" in Gareth Jones' Blog](http://go.microsoft.com/fwlink/?LinkId=208373).
 
- Consider moving large blocks of code into a separate assembly.
- If you have large code blocks and class feature blocks, it might be useful to move some of this code into methods that you compile in a separate project. You can use the `<#@ assembly #>` directive to access the code in the template. For more information, see [T4 Assembly Directive](../modeling/t4-assembly-directive.md).
+  Consider moving large blocks of code into a separate assembly.
+  If you have large code blocks and class feature blocks, it might be useful to move some of this code into methods that you compile in a separate project. You can use the `<#@ assembly #>` directive to access the code in the template. For more information, see [T4 Assembly Directive](../modeling/t4-assembly-directive.md).
 
- You can put the methods in an abstract class that the template can inherit. The abstract class must inherit from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. For more information, see [T4 Template Directive](../modeling/t4-template-directive.md).
+  You can put the methods in an abstract class that the template can inherit. The abstract class must inherit from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. For more information, see [T4 Template Directive](../modeling/t4-template-directive.md).
 
- Generate code, not configuration files
- One method of writing a variable application is to write generic program code that accepts a configuration file. An application written in this manner is very flexible, and can be reconfigured when the business requirements change, without rebuilding the application. However, a drawback of this approach is that the application will perform less well than a more specific application. Also, its program code will be more difficult to read and maintain, partly because it has always to deal with the most generic types.
+  Generate code, not configuration files
+  One method of writing a variable application is to write generic program code that accepts a configuration file. An application written in this manner is very flexible, and can be reconfigured when the business requirements change, without rebuilding the application. However, a drawback of this approach is that the application will perform less well than a more specific application. Also, its program code will be more difficult to read and maintain, partly because it has always to deal with the most generic types.
 
- By contrast, an application whose variable parts are generated before compilation can be strongly typed. This makes it much easier and more reliable to write hand-written code and integrate it with the generated parts of the software.
+  By contrast, an application whose variable parts are generated before compilation can be strongly typed. This makes it much easier and more reliable to write hand-written code and integrate it with the generated parts of the software.
 
- To obtain the full benefit of code generation, try to generate program code instead of configuration files.
+  To obtain the full benefit of code generation, try to generate program code instead of configuration files.
 
- Use a Generated Code folder
- Place the templates and the generated files in a project folder named **Generated Code**, to make it clear that these are not files that should be edited directly. If you create custom code to override or add to the generated classes, place those classes in a folder that is named **Custom Code**. The structure of a typical project looks like this:
+  Use a Generated Code folder
+  Place the templates and the generated files in a project folder named **Generated Code**, to make it clear that these are not files that should be edited directly. If you create custom code to override or add to the generated classes, place those classes in a folder that is named **Custom Code**. The structure of a typical project looks like this:
 
 ```
 MyProject
@@ -74,7 +74,6 @@ MyProject
       Class2.tt
           Class2.cs
    AnotherClass.cs
-
 ```
 
 ## Guidelines for Run-Time (Preprocessed) T4 Templates
@@ -115,7 +114,6 @@ class FabrikamTemplate : MyStandardRunTimeTemplate
 }
 ...
   string PageToDisplay = new FabrikamTemplate().TextTransform();
-
 ```
 
 ## Guidelines for All T4 Templates
@@ -123,7 +121,7 @@ class FabrikamTemplate : MyStandardRunTimeTemplate
  Try to avoid mixing computation and text blocks. In each text template, use the first \<# code block #> to set variables and perform complex computations. From the first text block down to the end of the template or the first \<#+ class feature block #>, avoid long expressions, and avoid loops and conditionals unless they contain text blocks. This practice makes the template easier to read and maintain.
 
  Don't use `.tt` for include files
- Use a different file name extension such as `.ttinclude` for include files. Use `.tt` only for files that you want to be processed either as run-time or design-time text templates. In some cases, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] recognizes `.tt` files and automatically sets their properties for processing.
+ Use a different file name extension such as `.ttinclude` for include files. Use `.tt` only for files that you want to be processed either as run-time or design-time text templates. In some cases, Visual Studio recognizes `.tt` files and automatically sets their properties for processing.
 
  Start each template as a fixed prototype.
  Write an example of the code or text that you want to generate, and make sure that it is correct. Then change its extension to .tt and incrementally insert code that modifies the content by reading the model.

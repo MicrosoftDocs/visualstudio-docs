@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2146: Types must be at least as critical as their base types and interfaces
+
 |||
 |-|-|
 |TypeName|TypesMustBeAtLeastAsCriticalAsBaseTypes|

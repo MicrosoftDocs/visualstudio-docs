@@ -1,7 +1,7 @@
 ---
 title: "Upgrading Coded UI Tests from Visual Studio 2010 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Upgrading Coded UI Tests from Visual Studio 2010
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Upgrading Coded UI Tests from Visual Studio 2010](https://docs.microsoft.com/visualstudio/test/upgrading-coded-ui-tests-from-visual-studio-2010).  
-  
 Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 are silently repaired when opened in Visual Studio 2012. If the Test projects are checked into source control, the project files are checked out for this repair. Once repaired, these test projects containing coded UI tests can then be used in both [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 and [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].  
   
  **Requirements**  
@@ -52,17 +50,17 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
   
  After you apply the update, the following [!INCLUDE[vs2010](../includes/vs2010-md.md)] SP1 coded UI test tool features are improved for Windows 8:  
   
--   You can run a Coded UI Test for the Microsoft .NET Framework 4.5-based Windows Presentation Foundation (WPF) controls on a computer that is running Windows 8.  
+- You can run a Coded UI Test for the Microsoft .NET Framework 4.5-based Windows Presentation Foundation (WPF) controls on a computer that is running Windows 8.  
   
--   You can run a Coded UI test for 64-bit (x64) Internet Explorer 10 on a computer that is running Windows 8.  
+- You can run a Coded UI test for 64-bit (x64) Internet Explorer 10 on a computer that is running Windows 8.  
   
- The update also contains fixes for the following issues:  
+  The update also contains fixes for the following issues:  
   
--   **Code coverage:** Inability to open a code coverage file (.coverage) that is created by Visual Studio 2012 in [!INCLUDE[vs2010](../includes/vs2010-md.md)] SP1.  
+- **Code coverage:** Inability to open a code coverage file (.coverage) that is created by Visual Studio 2012 in [!INCLUDE[vs2010](../includes/vs2010-md.md)] SP1.  
   
--   **Stranded test artifacts:** Your team has a test artifact that is assigned to an invalid user in Team Foundation Server (TFS) 2010. For example, a user has left the company, but still has a test case that is assigned to him. You upgrade TFS 2010 to TFS 2012. You use [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010 to connect to the upgraded TFS server. You are not able to assign the test artifact to any TFS users by using [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010.  
+- **Stranded test artifacts:** Your team has a test artifact that is assigned to an invalid user in Team Foundation Server (TFS) 2010. For example, a user has left the company, but still has a test case that is assigned to him. You upgrade TFS 2010 to TFS 2012. You use [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010 to connect to the upgraded TFS server. You are not able to assign the test artifact to any TFS users by using [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010.  
   
--   **Load testing:** When you run a load test together with a network type other than the local area network (LAN) profile on a computer this is running Windows 8, the network emulator driver causes the operating system to crash. For more details, see [KB Article 2736182](http://support.microsoft.com/kb/2736182).  
+- **Load testing:** When you run a load test together with a network type other than the local area network (LAN) profile on a computer this is running Windows 8, the network emulator driver causes the operating system to crash. For more details, see [KB Article 2736182](http://support.microsoft.com/kb/2736182).  
   
 ## See Also  
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   

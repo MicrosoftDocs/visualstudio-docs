@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumDebugStreams::Next | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,23 +22,21 @@ manager: "ghogen"
 # IDiaEnumDebugStreams::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumDebugStreams::Next](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumdebugstreams-next).  
-  
 Retrieves a specified number of debug streams in the enumeration sequence.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Next (   
-   ULONG                     celt,   
-   IDiaEnumDebugStreamData** rgelt,  
-   ULONG*                    pceltFetched  
+   ULONG                     celt,   
+   IDiaEnumDebugStreamData** rgelt,  
+   ULONG*                    pceltFetched  
 );  
 ```  
   
 #### Parameters  
  celt  
- [in] **T**he number of debug streams in the enumerator to be retrieved.  
+ [in] The number of debug streams in the enumerator to be retrieved.  
   
  rgelt  
  [out] Returns an array of [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) objects that represents the debug streams being retrieved.  

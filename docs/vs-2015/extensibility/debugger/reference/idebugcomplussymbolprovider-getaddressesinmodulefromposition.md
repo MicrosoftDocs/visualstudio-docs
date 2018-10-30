@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-getaddressesinmodulefromposition).  
-  
 Maps a document position in the specified module to an array of debug addresses.  
   
 ## Syntax  
@@ -29,24 +27,24 @@ Maps a document position in the specified module to an array of debug addresses.
 ```  
 [C++]  
 HRESULT GetAddressesInModuleFromPosition(  
-   ULONG32                  ulAppDomainID,  
-   GUID                     guidModule,  
-   IDebugDocumentPosition2* pDocPos,  
-   BOOL                     fStatmentOnly,  
-   IEnumDebugAddresses**    ppEnumBegAddresses,  
-   IEnumDebugAddresses**    ppEnumEndAddresses  
+   ULONG32                  ulAppDomainID,  
+   GUID                     guidModule,  
+   IDebugDocumentPosition2* pDocPos,  
+   BOOL                     fStatmentOnly,  
+   IEnumDebugAddresses**    ppEnumBegAddresses,  
+   IEnumDebugAddresses**    ppEnumEndAddresses  
 );  
 ```  
   
 ```  
 [C#]  
 int GetAddressesInModuleFromPosition(  
-   uint                    ulAppDomainID,  
-   Guid                    guidModule,  
-   IDebugDocumentPosition2 pDocPos,  
-   bool                    fStatmentOnly,  
-   out IEnumDebugAddresses ppEnumBegAddresses,  
-   out IEnumDebugAddresses ppEnumEndAddresses  
+   uint                    ulAppDomainID,  
+   Guid                    guidModule,  
+   IDebugDocumentPosition2 pDocPos,  
+   bool                    fStatmentOnly,  
+   out IEnumDebugAddresses ppEnumBegAddresses,  
+   out IEnumDebugAddresses ppEnumEndAddresses  
 );  
 ```  
   

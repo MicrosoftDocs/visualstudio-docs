@@ -1,7 +1,7 @@
 ---
 title: "Half-Quarter Texture Dimensions Variant | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Half/Quarter Texture Dimensions Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Half-Quarter Texture Dimensions Variant](https://docs.microsoft.com/visualstudio/debugger/graphics/half-quarter-texture-dimensions-variant).  
-  
 Reduces the texture dimensions on textures that are not render targets.  
   
 ## Interpretation  
@@ -34,15 +32,15 @@ Reduces the texture dimensions on textures that are not render targets.
 ## Remarks  
  Texture dimensions are reduced on every call to `ID3D11Device::CreateTexture2D` that creates a source texture. Specifically, texture dimensions are reduced when the D3D11_TEXTURE2D_DESC object passed in `pDesc` describes a texture that's used in rendering; that is:  
   
--   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
+- The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
   
--   The MiscFlags member does not have the D3D11_RESOURCE_MISC_TILE_POOL flag or the D3D11_RESOURCE_MISC_TILED flag set (tiled resources are not resized).  
+- The MiscFlags member does not have the D3D11_RESOURCE_MISC_TILE_POOL flag or the D3D11_RESOURCE_MISC_TILED flag set (tiled resources are not resized).  
   
--   The texture format is supported as a render target—as determined by D3D11_FORMAT_SUPPORT_RENDER_TARGET—which is required for reducing the texture size. BC1, BC2, and BC3 formats are also supported, even though they're not supported as render targets.  
+- The texture format is supported as a render target—as determined by D3D11_FORMAT_SUPPORT_RENDER_TARGET—which is required for reducing the texture size. BC1, BC2, and BC3 formats are also supported, even though they're not supported as render targets.  
   
- If initial data is supplied by the application, this variant scales the texture data to the appropriate size before it creates the texture. If initial data is supplied in a block-compressed format such as BC1, BC2, or BC3, it is decoded, scaled, and re-encoded before it's used to create the smaller texture. (The nature of block-based compression means that the extra decode-scale-encode process almost always causes lower image quality than when a block-compressed texture is generated from a scaled version of the texture that had not previously been encoded.)  
+  If initial data is supplied by the application, this variant scales the texture data to the appropriate size before it creates the texture. If initial data is supplied in a block-compressed format such as BC1, BC2, or BC3, it is decoded, scaled, and re-encoded before it's used to create the smaller texture. (The nature of block-based compression means that the extra decode-scale-encode process almost always causes lower image quality than when a block-compressed texture is generated from a scaled version of the texture that had not previously been encoded.)  
   
- If mip-maps are enabled for the texture, the variant reduces the number of mip levels accordingly—one fewer when scaling to half-size or two fewer when scaling to quarter-size.  
+  If mip-maps are enabled for the texture, the variant reduces the number of mip levels accordingly—one fewer when scaling to half-size or two fewer when scaling to quarter-size.  
   
 ## Example  
  This variant resizes textures at runtime before the call to `CreateTexture2D`. We recommend against this approach for production code because the full-size textures consume more disk space and because the additional step can increase loading times in your app—especially for compressed textures, which require significant computational resources to encode. Instead, we recommend that you resize your textures offline by using an image editor or image processor that's part of your build pipeline. These approaches reduce disk-space requirements and eliminate runtime overhead in your app, and afford more processing time so that you can retain the best image quality while shrinking or compressing your textures.  

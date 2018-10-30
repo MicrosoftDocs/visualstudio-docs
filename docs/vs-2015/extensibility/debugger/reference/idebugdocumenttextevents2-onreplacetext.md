@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentTextEvents2::onReplaceText | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onReplaceText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentTextEvents2::onReplaceText](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttextevents2-onreplacetext).  
-  
 Notifies the debug package that text has been replaced in the document.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT onReplaceText(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToReplace  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToReplace  
 );  
 ```  
   
 ```csharp  
 int onReplaceText(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToReplace  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToReplace  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Common Control Patterns for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Common Control Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Common Control Patterns for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/common-control-patterns-for-visual-studio).  
-  
 ##  <a name="BKMK_CommonControls"></a> Common controls  
   
 ### Overview  
@@ -214,23 +212,23 @@ The latest version of this topic can be found at [Common Control Patterns for Vi
   
 ##### Visual style  
   
--   Watermarks should be centered horizontally within the window.  
+- Watermarks should be centered horizontally within the window.  
   
--   Watermarks should be center-aligned, not left-aligned.  
+- Watermarks should be center-aligned, not left-aligned.  
   
--   Watermarks may be vertically centered or positioned near the top of the area. If located near the top of the area, there must be enough space above so that the watermark stands out.  
+- Watermarks may be vertically centered or positioned near the top of the area. If located near the top of the area, there must be enough space above so that the watermark stands out.  
   
--   Use the `Environment.GrayText` color token and standard environment font. Hyperlinks should use the standard hyperlink shared tokens: `Environment.PanelHyperlink`, `Environment.PanelHyperlinkHover`, `Environment.PanelHyperlinkPressed`, and `Environment.PanelHyperlinkDisabled`.  
+- Use the `Environment.GrayText` color token and standard environment font. Hyperlinks should use the standard hyperlink shared tokens: `Environment.PanelHyperlink`, `Environment.PanelHyperlinkHover`, `Environment.PanelHyperlinkPressed`, and `Environment.PanelHyperlinkDisabled`.  
   
--   Watermarks cannot be selected on the background  
+- Watermarks cannot be selected on the background  
   
--   If possible, include links in the watermark to help the user get started.  
+- If possible, include links in the watermark to help the user get started.  
   
- ![Watermark text in a designer window](../../extensibility/ux-guidelines/media/070702-05-watermark1.png "070702-05_Watermark1")  
+  ![Watermark text in a designer window](../../extensibility/ux-guidelines/media/070702-05-watermark1.png "070702-05_Watermark1")  
   
- ![Watermark text in a tool window](../../extensibility/ux-guidelines/media/070702-06-watermark2.png "070702-06_Watermark2")  
+  ![Watermark text in a tool window](../../extensibility/ux-guidelines/media/070702-06-watermark2.png "070702-06_Watermark2")  
   
- **Examples of watermark text in Visual Studio**  
+  **Examples of watermark text in Visual Studio**  
   
 ##  <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks  
   
@@ -242,25 +240,25 @@ The latest version of this topic can be found at [Common Control Patterns for Vi
   
  When to use command buttons:  
   
--   Primary commands  
+- Primary commands  
   
--   Displaying windows used to gather input or making choices, even if they are secondary commands  
+- Displaying windows used to gather input or making choices, even if they are secondary commands  
   
--   Destructive or irreversible actions  
+- Destructive or irreversible actions  
   
--   Commitment buttons within wizards and page flows  
+- Commitment buttons within wizards and page flows  
   
- Avoid command buttons in tool windows, or if you need more than two words for the label. Links can have longer labels.  
+  Avoid command buttons in tool windows, or if you need more than two words for the label. Links can have longer labels.  
   
- When to use links:  
+  When to use links:  
   
--   Navigation to another window, document, or web page  
+- Navigation to another window, document, or web page  
   
--   Situations that require a longer label or short sentence to describe the intent of the action  
+- Situations that require a longer label or short sentence to describe the intent of the action  
   
--   Tight spaces where a button would overwhelm the UI, provided that the action is not destructive or irreversible  
+- Tight spaces where a button would overwhelm the UI, provided that the action is not destructive or irreversible  
   
--   De-emphasizing secondary commands in situations where there are many commands  
+- De-emphasizing secondary commands in situations where there are many commands  
   
 #### Examples  
  ![Infobar command links following a status message](../../extensibility/ux-guidelines/media/070703-01-commandlinkinfobar.png "070703-01_CommandLinkInfobar")  
@@ -303,19 +301,19 @@ The latest version of this topic can be found at [Common Control Patterns for Vi
   
  When to use the ellipsis-only short button:  
   
--   If there is more than one long **[Browse…]** button in a dialog, such as when several fields allow for browsing. Use the short **[...]** button for each to avoid the confusing access keys created by this situation (**&Browse** and **B&rowse** in the same dialog).  
+- If there is more than one long **[Browse…]** button in a dialog, such as when several fields allow for browsing. Use the short **[...]** button for each to avoid the confusing access keys created by this situation (**&Browse** and **B&rowse** in the same dialog).  
   
--   In a tight dialog, or when there is no reasonable place to put the long button.  
+- In a tight dialog, or when there is no reasonable place to put the long button.  
   
--   If the button will appear in a grid control.  
+- If the button will appear in a grid control.  
   
- Guidelines for using the button:  
+  Guidelines for using the button:  
   
--   Do not use an access key. To access it using the keyboard, the user must tab from the adjacent control. Ensure that the tab order is such that any browse button falls immediately after the field that it will fill. Never use an underscore below the first period.  
+- Do not use an access key. To access it using the keyboard, the user must tab from the adjacent control. Ensure that the tab order is such that any browse button falls immediately after the field that it will fill. Never use an underscore below the first period.  
   
--   Set the Microsoft Active Accessibility (MSAA) **Name** property to **Browse...** (including the ellipsis) so that screen readers will read it as "Browse" and not "dot-dot-dot" or "period-period-period." For managed controls, this means setting the **AccessibleName** property.  
+- Set the Microsoft Active Accessibility (MSAA) **Name** property to **Browse...** (including the ellipsis) so that screen readers will read it as "Browse" and not "dot-dot-dot" or "period-period-period." For managed controls, this means setting the **AccessibleName** property.  
   
--   Never use an ellipsis **[...]** button for anything except a browse action. For example, if you need a **[New...]** button but don't have enough room for the text, then the dialog needs to be redesigned.  
+- Never use an ellipsis **[...]** button for anything except a browse action. For example, if you need a **[New...]** button but don't have enough room for the text, then the dialog needs to be redesigned.  
   
 ##### Sizing and spacing  
  ![Sizing &#91;Browse...&#93; buttons](../../extensibility/ux-guidelines/media/070703-06-browsesizing.png "070703-06_BrowseSizing")  
@@ -438,13 +436,13 @@ The latest version of this topic can be found at [Common Control Patterns for Vi
 ##### Trid (tree view and grid view)  
  A trid control is a complex control which contains a tree view within a grid. Expanding, collapsing, and navigating the tree should respect the same keyboard commands as a tree view, with the following additions:  
   
--   **Right Arrow:** Expand a node. After the node is expanded, it should continue navigating to the nearest column on the right. Navigation should stop at the end of the row.  
+- **Right Arrow:** Expand a node. After the node is expanded, it should continue navigating to the nearest column on the right. Navigation should stop at the end of the row.  
   
--   **Tab:** Navigates to the nearest cell on the right.  At the end of the row, navigation continues to the next row.  
+- **Tab:** Navigates to the nearest cell on the right.  At the end of the row, navigation continues to the next row.  
   
--   **Shift + Tab:** Navigates to the nearest cell on the left.  At the beginning of the row, navigation continues to the rightmost cell in the previous row.  
+- **Shift + Tab:** Navigates to the nearest cell on the left.  At the beginning of the row, navigation continues to the rightmost cell in the previous row.  
   
- ![Trid control in Visual Studio](../../extensibility/ux-guidelines/media/070705-6-trid.png "070705-6_Trid")  
+  ![Trid control in Visual Studio](../../extensibility/ux-guidelines/media/070705-6-trid.png "070705-6_Trid")  
   
- **A trid control in Visual Studio**
+  **A trid control in Visual Studio**
 

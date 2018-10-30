@@ -1,7 +1,7 @@
 ---
 title: "Adding Search to a Tool Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,21 +19,19 @@ manager: "ghogen"
 # Adding Search to a Tool Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Search to a Tool Window](https://docs.microsoft.com/visualstudio/extensibility/adding-search-to-a-tool-window).  
-  
 When you create or update a tool window in your extension, you can add the same search functionality that appears elsewhere in Visual Studio. This functionality includes the following features:  
   
--   A search box that’s always located in a custom area of the toolbar.  
+- A search box that’s always located in a custom area of the toolbar.  
   
--   A progress indicator that’s overlaid on the search box itself.  
+- A progress indicator that’s overlaid on the search box itself.  
   
--   The ability to show results as soon as you enter each character (instant search) or only after you choose the Enter key (search on demand).  
+- The ability to show results as soon as you enter each character (instant search) or only after you choose the Enter key (search on demand).  
   
--   A list that shows terms for which you’ve searched most recently.  
+- A list that shows terms for which you’ve searched most recently.  
   
--   The ability to filter searches by specific fields or aspects of the search targets.  
+- The ability to filter searches by specific fields or aspects of the search targets.  
   
- By following this walkthrough, you’ll learn how to perform the following tasks:  
+  By following this walkthrough, you’ll learn how to perform the following tasks:  
   
 1.  Create a VSPackage project.  
   

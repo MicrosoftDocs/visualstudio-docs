@@ -1,7 +1,7 @@
 ---
 title: "Options, Text Editor, C-C++, Experimental | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Options, Text Editor, C/C++, Experimental
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, C/C++, Experimental](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-c-cpp-experimental).  
-  
   
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.  
   
@@ -55,15 +53,15 @@ By changing these options, you can change the behavior related to IntelliSense a
   
  For additional text editor features on the Visual Studio Gallery, see the list [here](http://go.microsoft.com/fwlink/?LinkId=692016). An example is [C++ Quick Fixes](https://visualstudiogallery.msdn.microsoft.com/be91feef-8dc3-4f7a-ac9f-f34e7ca5918f), which supports the following:  
   
--   **Add missing #include** - Suggests relevant #include's for unknown symbols in your code  
+- **Add missing #include** - Suggests relevant #include's for unknown symbols in your code  
   
--   **Add using namespace/Fully qualify symbol** - Like the previous item, but for namespaces  
+- **Add using namespace/Fully qualify symbol** - Like the previous item, but for namespaces  
   
--   **Add missing semicolon**  
+- **Add missing semicolon**  
   
--   **MSDN Help** - Search MSDN for your error messages  
+- **MSDN Help** - Search MSDN for your error messages  
   
- You can either hover over a squiggle to get a light bulb, or use the default keyboard shortcut Ctrl+Dot (Ctrl+.). Note that for the keyboard shortcut, your caret doesn't need to be positioned on the specific error or token; you can simply be on the same line as the error to invoke suggestions for anything on that line.  
+  You can either hover over a squiggle to get a light bulb, or use the default keyboard shortcut Ctrl+Dot (Ctrl+.). Note that for the keyboard shortcut, your caret doesn't need to be positioned on the specific error or token; you can simply be on the same line as the error to invoke suggestions for anything on that line.  
   
 ## See Also  
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)   

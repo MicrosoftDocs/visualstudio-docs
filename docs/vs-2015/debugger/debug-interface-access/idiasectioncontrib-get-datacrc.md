@@ -1,7 +1,7 @@
 ---
 title: "IDiaSectionContrib::get_dataCrc | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSectionContrib::get_dataCrc
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSectionContrib::get_dataCrc](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasectioncontrib-get-datacrc).  
-  
 Retrieves the cyclic redundancy check (CRC) of the data in the section.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_dataCrc (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

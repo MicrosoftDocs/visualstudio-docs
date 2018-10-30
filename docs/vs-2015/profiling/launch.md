@@ -1,7 +1,7 @@
 ---
 title: "Launch | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Launch
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Launch](https://docs.microsoft.com/visualstudio/profiling/launch).  
-  
 The **Launch** option starts the profiler using the sampling method and it also starts the specified application.  
   
  To use the **Launch** option, you must specify the **Sample** method in the **Start** option.  
@@ -40,7 +38,7 @@ VSPerfCmd.exe /Launch:AppName [Options]
  **Start:** `Method`  
  Initializes the command-line profiler session and sets the specified profiling method.  
   
- **GlobalOn**and **GlobalOff**  
+ **GlobalOn** and **GlobalOff**  
  Resumes (**GlobalOn**) or pauses (**GlobalOff**) profiling, but does not end the profiling session.  
   
  **ProcessOn:** `PID` and **ProcessOff**:`PID`  

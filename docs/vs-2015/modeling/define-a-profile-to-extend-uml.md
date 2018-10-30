@@ -1,7 +1,7 @@
 ---
 title: "Define a profile to extend UML | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,19 +23,17 @@ manager: "douge"
 # Define a profile to extend UML
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define a profile to extend UML](https://docs.microsoft.com/visualstudio/modeling/define-a-profile-to-extend-uml).  
-  
 You can define a *UML profile* to customize the standard model elements for specific purposes. A profile defines one or more *UML stereotypes*. A stereotype can be used to mark a type as representing a particular kind of object. A stereotype can also extend an element's list of properties.  
   
  Several profiles are installed with supported editions of Visual Studio. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport). For more information about those profiles and about how to apply stereotypes, see [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md).  
   
  You can define your own profiles to adapt and extend UML to your own business area or architecture. For example:  
   
--   If you frequently define Web sites, you could define your own profile that provides a «WebPage» stereotype that can be applied to classes in class diagrams. You could then use class diagrams to plan a Web site. Every «WebPage» class would have extra properties for page content, style, and so on.  
+- If you frequently define Web sites, you could define your own profile that provides a «WebPage» stereotype that can be applied to classes in class diagrams. You could then use class diagrams to plan a Web site. Every «WebPage» class would have extra properties for page content, style, and so on.  
   
--   If you develop banking software, you could define a profile that provides an «Account» stereotype. You could then use class diagrams to define different types of account and show the relationships between them.  
+- If you develop banking software, you could define a profile that provides an «Account» stereotype. You could then use class diagrams to define different types of account and show the relationships between them.  
   
- You can distribute your own profiles to your team. Each team member can install your profile. This enables them to edit and create models that use its stereotypes.  
+  You can distribute your own profiles to your team. Each team member can install your profile. This enables them to edit and create models that use its stereotypes.  
   
 > [!NOTE]
 >  If you apply the stereotypes of a profile in a model that you are editing, and then share the model with other people, they should install the same profile on their own computers. Otherwise, they will not be able to see the stereotypes that you have used.  
@@ -79,56 +77,56 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 #### To define a profile in a new Visual Studio Extension  
   
-1.  Create a Visual Studio Extension project.  
+1. Create a Visual Studio Extension project.  
   
-    > [!NOTE]
-    >  You must have installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to use this procedure.  
+   > [!NOTE]
+   >  You must have installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to use this procedure.  
   
-    1.  On the **File** menu, point to **New**, and then click **Project**.  
+   1.  On the **File** menu, point to **New**, and then click **Project**.  
   
-    2.  In the **New Project** dialog box, under **Installed Templates**, expand **Visual C#**, click **Extensibility**, and then click **VSIX project**. Set the project name and click **OK**.  
+   2.  In the **New Project** dialog box, under **Installed Templates**, expand **Visual C#**, click **Extensibility**, and then click **VSIX project**. Set the project name and click **OK**.  
   
-2.  Add your profile to the project.  
+2. Add your profile to the project.  
   
-    -   In Solution Explorer, right-click the project, point to **Add**, and then click **Existing Item**. In the dialog box, locate your profile file.  
+   -   In Solution Explorer, right-click the project, point to **Add**, and then click **Existing Item**. In the dialog box, locate your profile file.  
   
-3.  Set the profile file's **Copy to Output** property.  
+3. Set the profile file's **Copy to Output** property.  
   
-    1.  In Solution Explorer, right-click the profile file, and then click **Properties**.  
+   1.  In Solution Explorer, right-click the profile file, and then click **Properties**.  
   
-    2.  In the Properties window, set the **Copy to Output Directory** property to **Copy Always**.  
+   2.  In the Properties window, set the **Copy to Output Directory** property to **Copy Always**.  
   
-4.  In Solution Explorer, open `source.extension.vsixmanifest`.  
+4. In Solution Explorer, open `source.extension.vsixmanifest`.  
   
-     The file opens in the extension manifest editor.  
+    The file opens in the extension manifest editor.  
   
-5.  On the **Assets** page, add a row describing the profile:  
+5. On the **Assets** page, add a row describing the profile:  
   
-    -   Click **New**. Set the fields in the **Add New Asset** dialog as follows.  
+   -   Click **New**. Set the fields in the **Add New Asset** dialog as follows.  
   
-    -   Set **Type** to `Microsoft.VisualStudio.UmlProfile`  
+   -   Set **Type** to `Microsoft.VisualStudio.UmlProfile`  
   
-         This is not one of the drop-down choices. Enter this name from the keyboard.  
+        This is not one of the drop-down choices. Enter this name from the keyboard.  
   
-    -   Click **File on filesystem** and select the name of your profile file, for example `MyProfile.profile`  
+   -   Click **File on filesystem** and select the name of your profile file, for example `MyProfile.profile`  
   
-6.  Build the project.  
+6. Build the project.  
   
-7.  **To debug the profile**, press F5.  
+7. **To debug the profile**, press F5.  
   
-     An experimental instance of Visual Studio opens. In this instance, open a modeling project. In UML Explorer, select the root element of the model, and in the Properties window, select your profile. Then select elements inside the model and set stereotypes that you have defined for them.  
+    An experimental instance of Visual Studio opens. In this instance, open a modeling project. In UML Explorer, select the root element of the model, and in the Properties window, select your profile. Then select elements inside the model and set stereotypes that you have defined for them.  
   
-8.  **To extract the VSIX for deployment**  
+8. **To extract the VSIX for deployment**  
   
-    1.  In Windows Explorer, open the folder **.\bin\Debug** or **.\bin\Release** to find the **.vsix** file. This is a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] Extension file. It can be installed on your computer and sent to other Visual Studio users.  
+   1.  In Windows Explorer, open the folder **.\bin\Debug** or **.\bin\Release** to find the **.vsix** file. This is a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] Extension file. It can be installed on your computer and sent to other Visual Studio users.  
   
-    2.  To install the extension:  
+   2.  To install the extension:  
   
-        1.  Double-click the `.vsix` file. The Visual Studio Extension Installer will start.  
+       1.  Double-click the `.vsix` file. The Visual Studio Extension Installer will start.  
   
-        2.  Restart any instances of Visual Studio that are running.  
+       2.  Restart any instances of Visual Studio that are running.  
   
- The following alternative procedure can be used for small extensions if you have not installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)].  
+   The following alternative procedure can be used for small extensions if you have not installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)].  
   
 #### To define a profile extension without using Visual Studio SDK  
   
@@ -344,24 +342,24 @@ You can define a *UML profile* to customize the standard model elements for spec
  The following error appears when I open a UML model: **VS1707: The following profiles cannot be loaded because a serialization error occurred: MyProfile.profile**  
  1.  Verify that the basic XML syntax of the .profile is correct.  
   
-2.  Ensure that each Moniker name is in the form /profileName/nodeName. The profileName is the value of the name attribute in the root profile node. The nodeName is the value of the name attribute of a metaclass, externalType, or enumerationType.  
+2. Ensure that each Moniker name is in the form /profileName/nodeName. The profileName is the value of the name attribute in the root profile node. The nodeName is the value of the name attribute of a metaclass, externalType, or enumerationType.  
   
-3.  Ensure the syntax is as described here, and as demonstrated in _drive_**:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\UmlProfiles\\**.  
+3. Ensure the syntax is as described here, and as demonstrated in _drive_**:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\UmlProfiles\\**.  
   
-4.  Uninstall the faulty extension. On the **Tools** menu, click **Extensions and Updates**.  
+4. Uninstall the faulty extension. On the **Tools** menu, click **Extensions and Updates**.  
   
-    -   If the extension does not appear, see the next item.  
+   -   If the extension does not appear, see the next item.  
   
-5.  Rebuild the VSIX file and open it in Windows Explorer to re-install it. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+5. Rebuild the VSIX file and open it in Windows Explorer to re-install it. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
- The extension does not appear in Extension Manager, but when you try to re-install it, the following message appears: **The extension is already installed to all applicable products.**  
- 1.  Remove the extension file from a subfolder of *LocalAppData*\Microsoft\VisualStudio\\[version]\Extensions\  
+   The extension does not appear in Extension Manager, but when you try to re-install it, the following message appears: **The extension is already installed to all applicable products.**  
+   1.  Remove the extension file from a subfolder of *LocalAppData*\Microsoft\VisualStudio\\[version]\Extensions\  
   
-    -   To see *LocalAppData*, you must set Show Hidden Files and Folders in the View tab of the Windows Explorer Folder Options.  
+   -   To see *LocalAppData*, you must set Show Hidden Files and Folders in the View tab of the Windows Explorer Folder Options.  
   
-    -   *LocalAppData* is typically in C:\Users\\*userName*\AppData\Local\  
+   -   *LocalAppData* is typically in C:\Users\\*userName*\AppData\Local\  
   
-2.  Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+6. Restart [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 ## See Also  
  [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md)   

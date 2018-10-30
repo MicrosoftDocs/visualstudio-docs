@@ -1,7 +1,7 @@
 ---
 title: "THREADPROPERTY_FIELDS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,34 +21,32 @@ manager: "ghogen"
 # THREADPROPERTY_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [THREADPROPERTY_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/threadproperty-fields).  
-  
 Specifies what information about a thread is to be retrieved.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_THREADPROPERTY_FIELDS {   
-   TPF_ID           = 0x0001,  
-   TPF_SUSPENDCOUNT = 0x0002,  
-   TPF_STATE        = 0x0004,  
-   TPF_PRIORITY     = 0x0008,  
-   TPF_NAME         = 0x0010,  
-   TPF_LOCATION     = 0x0020,  
-   TPF_ALLFIELDS    = 0xffffffff  
+   TPF_ID           = 0x0001,  
+   TPF_SUSPENDCOUNT = 0x0002,  
+   TPF_STATE        = 0x0004,  
+   TPF_PRIORITY     = 0x0008,  
+   TPF_NAME         = 0x0010,  
+   TPF_LOCATION     = 0x0020,  
+   TPF_ALLFIELDS    = 0xffffffff  
 };  
 typedef DWORD THREADPROPERTY_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_THREADPROPERTY_FIELDS {   
-   TPF_ID           = 0x0001,  
-   TPF_SUSPENDCOUNT = 0x0002,  
-   TPF_STATE        = 0x0004,  
-   TPF_PRIORITY     = 0x0008,  
-   TPF_NAME         = 0x0010,  
-   TPF_LOCATION     = 0x0020,  
-   TPF_ALLFIELDS    = 0xffffffff  
+   TPF_ID           = 0x0001,  
+   TPF_SUSPENDCOUNT = 0x0002,  
+   TPF_STATE        = 0x0004,  
+   TPF_PRIORITY     = 0x0008,  
+   TPF_NAME         = 0x0010,  
+   TPF_LOCATION     = 0x0020,  
+   TPF_ALLFIELDS    = 0xffffffff  
 };  
 ```  
   

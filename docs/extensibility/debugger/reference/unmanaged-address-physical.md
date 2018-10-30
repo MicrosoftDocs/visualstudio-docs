@@ -23,13 +23,13 @@ This structure represents a physical address.
   
 ```cpp  
 typedef struct _tagUNMANAGED_ADDRESS_PHYSICAL {  
-   ULONGLONG offset;  
+   ULONGLONG offset;  
 } UNMANAGED_ADDRESS_PHYSICAL;  
 ```  
   
 ```csharp  
 public struct UNMANAGED_ADDRESS_PHYSICAL {  
-   public ulong offset;  
+   public ulong offset;  
 }  
 ```  
   

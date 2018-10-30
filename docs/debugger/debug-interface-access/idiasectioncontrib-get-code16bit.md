@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the section contains 16-bit code.
   
 ```C++  
 HRESULT get_code16bit(  
-   BOOL *pRetVal  
+   BOOL *pRetVal  
 };  
 ```  
   

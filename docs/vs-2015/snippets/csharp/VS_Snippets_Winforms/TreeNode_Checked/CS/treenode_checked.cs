@@ -60,7 +60,7 @@ public class TreeNode_Bounds : Form
             customer1.CustomerOrders.Add(new Order("Order" + y.ToString()));    
          }
       }
-      // Supress repainting of the TreeView.
+      // Suppress repainting of the TreeView.
       myTreeView.BeginUpdate();
 
       // Clear the TreeView each time the method is called.

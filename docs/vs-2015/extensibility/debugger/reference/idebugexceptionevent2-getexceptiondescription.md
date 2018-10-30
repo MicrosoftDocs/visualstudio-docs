@@ -1,7 +1,7 @@
 ---
 title: "IDebugExceptionEvent2::GetExceptionDescription | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugExceptionEvent2::GetExceptionDescription
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExceptionEvent2::GetExceptionDescription](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexceptionevent2-getexceptiondescription).  
-  
 Gets a displayable description of the exception.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetExceptionDescription(   
-   BSTR* pbstrDescription  
+   BSTR* pbstrDescription  
 );  
 ```  
   
 ```csharp  
 int GetExceptionDescription(   
-   out string pbstrDescription  
+   out string pbstrDescription  
 );  
 ```  
   

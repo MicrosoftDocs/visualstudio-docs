@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::CreateTypeFromPrimitive | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::CreateTypeFromPrimitive
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::CreateTypeFromPrimitive](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-createtypefromprimitive).  
-  
 Creates a type from the specified primitive type.  
   
 ## Syntax  
@@ -29,18 +27,18 @@ Creates a type from the specified primitive type.
 ```  
 [C++]  
 HRESULT CreateTypeFromPrimitive(  
-   DWORD          dwPrimType,  
-   IDebugAddress* pAddress,  
-   IDebugField**  ppType  
+   DWORD          dwPrimType,  
+   IDebugAddress* pAddress,  
+   IDebugField**  ppType  
 );  
 ```  
   
 ```  
 [C#]  
 int CreateTypeFromPrimitive(  
-   uint          dwPrimType,  
-   IDebugAddress pAddress,  
-   IDebugField   ppType  
+   uint          dwPrimType,  
+   IDebugAddress pAddress,  
+   IDebugField   ppType  
 );  
 ```  
   

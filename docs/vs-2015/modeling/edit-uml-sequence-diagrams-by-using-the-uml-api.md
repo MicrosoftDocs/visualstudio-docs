@@ -1,7 +1,7 @@
 ---
 title: "Edit UML sequence diagrams by using the UML API | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Edit UML sequence diagrams by using the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit UML sequence diagrams by using the UML API](https://docs.microsoft.com/visualstudio/modeling/edit-uml-sequence-diagrams-by-using-the-uml-api).  
-  
 An interaction is a sequence of messages between a set of lifelines. An interaction is displayed on a UML sequence diagram.  
   
  For full details of the API, see <xref:Microsoft.VisualStudio.Uml.Interactions?displayProperty=fullName>.  
@@ -117,13 +115,13 @@ public void Execute (IMenuCommand command)
 ## Updating an Interaction and its Layout  
  When you update an Interaction, always end your operation by updating its layout using one of the following methods:  
   
--   `ISequenceDiagram.UpdateShapePositions()` adjusts the positions of shapes that have recently been inserted or moved, and their neighboring shapes.  
+- `ISequenceDiagram.UpdateShapePositions()` adjusts the positions of shapes that have recently been inserted or moved, and their neighboring shapes.  
   
--   `ISequenceDiagram.Layout([SequenceDiagramLayoutKinds])` redraws the whole diagram. You can use the parameter to specify repositioning of the lifelines, the messages, or both.  
+- `ISequenceDiagram.Layout([SequenceDiagramLayoutKinds])` redraws the whole diagram. You can use the parameter to specify repositioning of the lifelines, the messages, or both.  
   
- This is particularly important when you insert new elements or move existing elements. They will not be in the correct positions on the diagram until you have performed one of these operations. You only need to call one of these operations once at the end of a series of changes.  
+  This is particularly important when you insert new elements or move existing elements. They will not be in the correct positions on the diagram until you have performed one of these operations. You only need to call one of these operations once at the end of a series of changes.  
   
- To avoid bemusing the user who performs an undo after your command, use an `ILinkedUndoTransaction` to enclose your changes and the final `Layout()` or `UpdateShapePositions()` operations. For example:  
+  To avoid bemusing the user who performs an undo after your command, use an `ILinkedUndoTransaction` to enclose your changes and the final `Layout()` or `UpdateShapePositions()` operations. For example:  
   
 ```  
 using (ILinkedUndoTransaction transaction = LinkedUndoContext.BeginTransaction("create loop"))  

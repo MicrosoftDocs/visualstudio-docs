@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function contains a far return.
   
 ```C++  
 HRESULT get_farReturn(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

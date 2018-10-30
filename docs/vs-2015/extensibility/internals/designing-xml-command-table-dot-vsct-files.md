@@ -1,7 +1,7 @@
 ---
 title: "Designing XML Command Table (.Vsct) Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Designing XML Command Table (.Vsct) Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Designing XML Command Table (.Vsct) Files](https://docs.microsoft.com/visualstudio/extensibility/internals/designing-xml-command-table-dot-vsct-files).  
-  
 An XML command table (.vsct) file describes the layout and appearance of command items for a VSPackage. Command items include buttons, combo boxes, menus, toolbars, and groups of command items. This topic describes XML command table files, how they affect command items and menus, and how to create them.  
   
 ## Commands, Menus, Groups, and the .vsct File  
@@ -33,41 +31,41 @@ An XML command table (.vsct) file describes the layout and appearance of command
 ## Differences Between .ctc and .vsct Files  
  While the meaning behind the XML tags in a .vsct file are the same as those in the now deprecated .ctc file format, their implementation is a bit different.  
   
--   The new **\<extern>** tag is where you reference other .h files to be compiled, such as those for the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] toolbar.  
+- The new **\<extern>** tag is where you reference other .h files to be compiled, such as those for the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] toolbar.  
   
--   While .vsct files support the **/include** statement, as .ctc files do, it also features a new \<**import>** element. The difference is, **/include** brings in **all** of the information, but \<**import>** brings in only the names.  
+- While .vsct files support the **/include** statement, as .ctc files do, it also features a new \<**import>** element. The difference is, **/include** brings in **all** of the information, but \<**import>** brings in only the names.  
   
--   While .ctc files require a header file in which you define your preprocessor directives, one is not required for .vsct files. Instead, place your directives in the symbol table, located in the **\<Symbol>** elements, located at the bottom of the .vsct file.  
+- While .ctc files require a header file in which you define your preprocessor directives, one is not required for .vsct files. Instead, place your directives in the symbol table, located in the **\<Symbol>** elements, located at the bottom of the .vsct file.  
   
--   .vsct files feature an **\<Annotation>** tag, which allows you to embed any information you like, such as notes or even pictures.  
+- .vsct files feature an **\<Annotation>** tag, which allows you to embed any information you like, such as notes or even pictures.  
   
--   Values are stored as attributes on the item.  
+- Values are stored as attributes on the item.  
   
--   Command flags can be stored individually or stacked.  Intellisense, however, does not work on stacked command flags. For more information about command flags, see the [Command Flag Element](../../extensibility/command-flag-element.md).  
+- Command flags can be stored individually or stacked.  Intellisense, however, does not work on stacked command flags. For more information about command flags, see the [Command Flag Element](../../extensibility/command-flag-element.md).  
   
--   You can specify multiple types, such as split dropdowns, combos, etc.  
+- You can specify multiple types, such as split dropdowns, combos, etc.  
   
--   Guids don't validate.  
+- Guids don't validate.  
   
--   Each UI element has a string that represents the text that is displayed with it.  
+- Each UI element has a string that represents the text that is displayed with it.  
   
--   Parent is optional. If omitted, the value "Group Unknown" is used.  
+- Parent is optional. If omitted, the value "Group Unknown" is used.  
   
--   The Icon argument is optional.  
+- The Icon argument is optional.  
   
--   The bitmap section -- The same as a .ctc file, except that you can now specify a file name via href that will be pulled in by the vsct.exe compiler at compile time.  
+- The bitmap section -- The same as a .ctc file, except that you can now specify a file name via href that will be pulled in by the vsct.exe compiler at compile time.  
   
--   ResID -- the old bitmap resource ID can be used and still works the same as in .ctc files.  
+- ResID -- the old bitmap resource ID can be used and still works the same as in .ctc files.  
   
--   HRef -- a new method that allows you to specify a file name for the bitmap resource. It assumes that all are used, so you can omit the Used section. The compiler will first search for local resources for the file, then on any net shares, and any resources defined by the /I switch.  
+- HRef -- a new method that allows you to specify a file name for the bitmap resource. It assumes that all are used, so you can omit the Used section. The compiler will first search for local resources for the file, then on any net shares, and any resources defined by the /I switch.  
   
--   Keybinding -- You no longer have to specify an emulator. If you do specify one, the compiler will assume that the editor and the emulator are the same.  
+- Keybinding -- You no longer have to specify an emulator. If you do specify one, the compiler will assume that the editor and the emulator are the same.  
   
--   Keychord -- has been dropped. The new format is Key1,Mod1,Key2,Mod2.  You can specify either a character, hexadecimal, or VK constant.  
+- Keychord -- has been dropped. The new format is Key1,Mod1,Key2,Mod2.  You can specify either a character, hexadecimal, or VK constant.  
   
- The new compiler, vsct.exe, compiles both .ctc and .vsct files. The old ctc.exe compiler, however, will neither recognize nor compile .vsct files.  
+  The new compiler, vsct.exe, compiles both .ctc and .vsct files. The old ctc.exe compiler, however, will neither recognize nor compile .vsct files.  
   
- You can use the vsct.exe compiler to convert an existing .cto file into an .vsct file. For more information about this, see [How to: Create a .Vsct File from an Existing .Cto File](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md).  
+  You can use the vsct.exe compiler to convert an existing .cto file into an .vsct file. For more information about this, see [How to: Create a .Vsct File from an Existing .Cto File](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md).  
   
 ## The .vsct File Elements  
  The command table has the following hierarchy and elements:  

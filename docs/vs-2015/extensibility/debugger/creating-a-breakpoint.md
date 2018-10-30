@@ -1,7 +1,7 @@
 ---
 title: "Creating a Breakpoint | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Creating a Breakpoint
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Breakpoint](https://docs.microsoft.com/visualstudio/extensibility/debugger/creating-a-breakpoint).  
-  
 The following describes the process of creating a breakpoint.  
   
 ## Methods in Breakpoint Creation  

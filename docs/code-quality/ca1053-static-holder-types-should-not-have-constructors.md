@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1053: Static holder types should not have constructors
+
 |||
 |-|-|
 |TypeName|StaticHolderTypesShouldNotHaveConstructors|

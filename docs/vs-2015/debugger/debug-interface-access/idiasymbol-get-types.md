@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_types | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,17 +22,15 @@ manager: "ghogen"
 # IDiaSymbol::get_types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_types](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-types).  
-  
 Retrieves an array of compiler-specific types for this symbol.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_types (   
-   DWORD       cTypes,  
-   DWORD*      pcTypes,  
-   IDiaSymbol* types[]  
+   DWORD       cTypes,  
+   DWORD*      pcTypes,  
+   IDiaSymbol* types[]  
 );  
 ```  
   

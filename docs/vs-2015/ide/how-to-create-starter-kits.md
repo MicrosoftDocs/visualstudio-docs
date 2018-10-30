@@ -1,7 +1,7 @@
 ---
 title: "How to: Create Starter Kits | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # How to: Create Starter Kits
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create Starter Kits](https://docs.microsoft.com/visualstudio/ide/how-to-create-starter-kits).  
-  
 A Starter Kit contains code for a complete application and documentation on how to modify or expand the application. Creating a Starter Kit is fundamentally the same as creating a normal project template, the only difference being that a Starter Kit contains documentation files that are set to open when a project based on the Starter Kit is created.  
   
 ## Designing and Developing a Starter Kit  
@@ -29,19 +27,19 @@ A Starter Kit contains code for a complete application and documentation on how 
   
  If you are creating a sample application or plug-in:  
   
--   Create a project that builds without errors.  
+- Create a project that builds without errors.  
   
--   Add template code to implement additional tasks (optional).  
+- Add template code to implement additional tasks (optional).  
   
--   Prepare the documentation.  
+- Prepare the documentation.  
   
- If you are creating a learning tool:  
+  If you are creating a learning tool:  
   
--   Create a project that builds without errors.  
+- Create a project that builds without errors.  
   
--   Organize the resources, such as code snippets and item templates.  
+- Organize the resources, such as code snippets and item templates.  
   
--   Prepare the documentation.  
+- Prepare the documentation.  
   
 ## Creating a Template  
  After you have completed the project and the documentation, you are ready to create the project template for the Starter Kit. This process is exactly the same as creating a project template.  

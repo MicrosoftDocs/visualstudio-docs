@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,33 +20,31 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider2-loadsymbolsfromcallback).  
-  
 Loads debug symbols using the specified callback method.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT LoadSymbolsFromCallback(  
-   ULONG32   ulAppDomainID,  
-   GUID      guidModule,  
-   IUnknown* pUnkMetadataImport,  
-   IUnknown* pUnkCorDebugModule,  
-   BSTR      bstrModuleName,  
-   BSTR      bstrSymSearchPath,  
-   IUnknown* pCallback  
+   ULONG32   ulAppDomainID,  
+   GUID      guidModule,  
+   IUnknown* pUnkMetadataImport,  
+   IUnknown* pUnkCorDebugModule,  
+   BSTR      bstrModuleName,  
+   BSTR      bstrSymSearchPath,  
+   IUnknown* pCallback  
 );  
 ```  
   
 ```csharp  
 int LoadSymbolsFromCallback(  
-   uint   ulAppDomainID,  
-   Guid   guidModule,  
-   object pUnkMetadataImport,  
-   object pUnkCorDebugModule,  
-   string bstrModuleName,  
-   string bstrSymSearchPath,  
-   object pCallback  
+   uint   ulAppDomainID,  
+   Guid   guidModule,  
+   object pUnkMetadataImport,  
+   object pUnkCorDebugModule,  
+   string bstrModuleName,  
+   string bstrSymSearchPath,  
+   object pCallback  
 );  
 ```  
   

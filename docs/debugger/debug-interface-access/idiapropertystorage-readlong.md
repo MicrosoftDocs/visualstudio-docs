@@ -22,8 +22,8 @@ Reads `LONG` values in a property set.
   
 ```C++  
 HRESULT ReadDLONG (   
-   PROPID id,  
-   LONG*  pValue  
+   PROPID id,  
+   LONG*  pValue  
 );  
 ```  
   

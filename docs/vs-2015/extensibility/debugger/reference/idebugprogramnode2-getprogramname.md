@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramNode2::GetProgramName | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProgramNode2::GetProgramName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2::GetProgramName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2-getprogramname).  
-  
 Gets the name of the program.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetProgramName (   
-   BSTR* pbstrProgramName  
+   BSTR* pbstrProgramName  
 );  
 ```  
   
 ```csharp  
 int GetProgramName (   
-   out string pbstrProgramName  
+   out string pbstrProgramName  
 );  
 ```  
   

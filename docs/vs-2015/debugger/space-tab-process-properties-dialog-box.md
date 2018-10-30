@@ -1,7 +1,7 @@
 ---
 title: "Space Tab, Process Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Space Tab, Process Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Space Tab, Process Properties Dialog Box](https://docs.microsoft.com/visualstudio/debugger/space-tab-process-properties-dialog-box).  
-  
 Use the **Space** tab to examine the address space of a process. To display the [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md), move the focus to a [Processes View](../debugger/processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.  
   
  The following settings are available on the **Space** tab:  

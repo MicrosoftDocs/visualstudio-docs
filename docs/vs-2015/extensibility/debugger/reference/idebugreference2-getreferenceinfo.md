@@ -1,7 +1,7 @@
 ---
 title: "IDebugReference2::GetReferenceInfo | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,31 +21,29 @@ manager: "ghogen"
 # IDebugReference2::GetReferenceInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::GetReferenceInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-getreferenceinfo).  
-  
 Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes a reference. Reserved for future use.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetReferenceInfo (   
-   DEBUGREF_INFO_FLAGS   dwFields,  
-   DWORD                 nRadix,  
-   DWORD                 dwTimeout,  
-   IDebugReference2**    rgpArgs,  
-   DWORD                 dwArgCount,  
-   DEBUG_REFERENCE_INFO* pReferenceInfo  
+   DEBUGREF_INFO_FLAGS   dwFields,  
+   DWORD                 nRadix,  
+   DWORD                 dwTimeout,  
+   IDebugReference2**    rgpArgs,  
+   DWORD                 dwArgCount,  
+   DEBUG_REFERENCE_INFO* pReferenceInfo  
 );  
 ```  
   
 ```csharp  
 int GetReferenceInfo (   
-   enum_DEBUGREF_INFO_FLAGS  dwFields,  
-   uint                      nRadix,  
-   uint                      dwTimeout,  
-   IDebugReference2[]        rgpArgs,  
-   uint                      dwArgCount,  
-   DEBUG_REFERENCE_INFO[]    pReferenceInfo  
+   enum_DEBUGREF_INFO_FLAGS  dwFields,  
+   uint                      nRadix,  
+   uint                      dwTimeout,  
+   IDebugReference2[]        rgpArgs,  
+   uint                      dwArgCount,  
+   DEBUG_REFERENCE_INFO[]    pReferenceInfo  
 );  
 ```  
   

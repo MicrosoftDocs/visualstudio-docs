@@ -76,7 +76,7 @@ For more information about Team Foundation Server, see:
 The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:
 
 ||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|
-|------|------------------------------------|-----------------------------------|--------------------------------------|------------------------------------------|----------------------|
+|------|-|-|-|-|-|
 |Domain-Specific Language (DSL) diagram|Yes|Yes|Yes|||
 |Dependency diagram, layer validation|||Yes|Yes|Yes|
 |Code map|||Yes|Yes|Yes|
@@ -106,7 +106,7 @@ Both teams also use dependency validation to make sure that code under developme
 - [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
 > [!NOTE]
-> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 ## Understand and communicate information about the system
 
@@ -139,7 +139,7 @@ Before teams check in their changes, they validate the code against the tests an
 Dinner Now must estimate the cost of meeting the new requirement. This depends partly on how much this change will affect other parts of the system. To help them understand this, one of the Dinner Now developers creates these maps and diagrams from existing code:
 
 |**Map or diagram**|**Shows**|
-|------------------------|---------------|
+|-|-|
 |*Code map*<br /><br /> See:<br /><br /> - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br />- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)<br />- [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)|Dependencies and other relationships in code.<br /><br /> For example, Dinner Now might start by reviewing assembly code maps for an overview of the assemblies and their dependencies. They can drill into the maps to explore the namespaces and classes in those assemblies.<br /><br /> Dinner Now can also create maps to explore particular areas and other kinds of relationships in the code. They use Solution Explorer to find and select the areas and relationships that interest them.|
 |*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|Existing classes in code|
 
@@ -160,15 +160,15 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
  To describe changes to other parts of the system, such as components or interactions, the team might draw these elements on whiteboards. They might also draw the following diagrams in Visual Studio so that the details can be captured, managed, and understood by both teams:
 
 |**Diagrams**|**Describes**|
-|------------------|-------------------|
+|-|-|
 |*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|Existing classes in code.|
 
-###  <a name="ValidatingCode"></a> Keep Code Consistent with the Design
+### <a name="ValidatingCode"></a> Keep Code Consistent with the Design
  Dinner Now must make sure that the updated code stays consistent with the design. They create dependency diagrams that describe the layers of functionality in the system, specify the permitted dependencies between them, and associate solution artifacts to those layers.
 
 |**Diagram**|**Describes**|
-|-----------------|-------------------|
-|*Dependency diagram*<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|
+|-|-|
+|*Dependency diagram*<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a Visual Studio solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|
 
  For example, the following dependency diagram describes dependencies between layers and the number of artifacts that are associated with each layer:
 
@@ -176,7 +176,7 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 
  **Dependency Diagram**
 
-To make sure that conflicts with the design do not occur during code development, the teams uses dependency validation on builds that are run on Team Foundation Build. They also create a custom MSBuild task to require dependency validation in their check-in operations. They use build reports to collect validation errors.
+To make sure that conflicts with the design do not occur during code development, the teams uses dependency validation on builds that are run on Azure DevOps. They also create a custom MSBuild task to require dependency validation in their check-in operations. They use build reports to collect validation errors.
 
 See:
 
@@ -218,7 +218,7 @@ See:
 
 ### <a name="TestValidateCheckInCode"></a> Test, Validate, and Check In Code
 
-As the teams complete each task, they check their code into Team Foundation version control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and dependency validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and dependency validation regularly. This helps make sure that the code meets the following criteria:
+As the teams complete each task, they check their code into source control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and dependency validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and dependency validation regularly. This helps make sure that the code meets the following criteria:
 
 - It works.
 
@@ -228,7 +228,7 @@ As the teams complete each task, they check their code into Team Foundation vers
 
 Dinner Now has a large collection of automated tests, which Lucerne can reuse because almost all still apply. Lucerne can also build on these tests and add new ones to cover new functionality. Both also use Visual Studio to run manual tests.
 
-To make sure that the code conforms to the design, the teams configure their builds in Team Foundation Build to include dependency validation. If any conflicts occur, a report is generated with the details.
+To make sure that the code conforms to the design, the teams configure their builds in Azure DevOps to include dependency validation. If any conflicts occur, a report is generated with the details.
 
 See:
 
@@ -324,7 +324,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 #### Relationship to Other Diagrams
 
 |**Diagram**|**Describes**|
-|-----------------|-------------------|
+|-|-|
 |Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencys or intended dependencys, create a code map and group related items. To create a dependency diagram, see:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|
 |Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|
 
@@ -363,11 +363,11 @@ A class diagram has the following major features:
 
 - An *association* indicates some kind of relationship between two classifiers.
 
-    - An *aggregation* is an association that indicates a shared ownership between classifiers.
+  - An *aggregation* is an association that indicates a shared ownership between classifiers.
 
-    - A *composition* is an association that indicates a whole-part relationship between classifiers.
+  - A *composition* is an association that indicates a whole-part relationship between classifiers.
 
-     To show aggregations or compositions, set the **Aggregation** property on an association. **Shared** shows aggregations and **Composite** shows compositions.
+    To show aggregations or compositions, set the **Aggregation** property on an association. **Shared** shows aggregations and **Composite** shows compositions.
 
 - A *dependency* indicates that changing the definition of one classifier might change the definition of another classifier.
 
@@ -393,7 +393,7 @@ As a starting point to explore and discuss existing classes, you can use Class D
 #### Relationship to Other Diagrams
 
 |**Diagram**|**Description**|
-|-----------------|---------------------|
+|-|-|
 |Dependency diagram|Define the logical architecture of the system as it relates to classes.<br /><br /> Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|
 |Code map|Visualize the organization and relationships in existing code.<br /><br /> To identify classes, their relationships, and their methods, create a code map that shows those elements.<br /><br /> See:<br /><br /> - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)|
 
@@ -434,13 +434,13 @@ A dependency diagram has the following major features:
 
      The number on a layer shows the number of artifacts that are linked to the layer. These artifacts can be namespaces, projects, classes, methods, and so on. When you interpret the number of artifacts on a layer, remember the following:
 
-    - If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
+  - If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
 
-         For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.
+       For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.
 
-    - If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
+  - If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
 
-     To see the artifacts that are linked to a layer, right-click the dependency, and then click **View Links** to open **Layer Explorer**.
+    To see the artifacts that are linked to a layer, right-click the dependency, and then click **View Links** to open **Layer Explorer**.
 
 - A *dependency* indicates that one layer can use the functionality in another layer, but not vice versa. A *bidirectional dependency* indicates that one layer can use the functionality in another layer, and vice versa.
 
@@ -467,13 +467,13 @@ Dependency diagrams help you:
 #### Relationship to Other Diagrams
 
 |**Diagram**|**Description**|
-|-----------------|---------------------|
+|-|-|
 |Code map|Visualize the organization and relationships in existing code.<br /><br /> To create layers, generate a code map, and then group items on the map as potential layers. Drag the groups from the map to the dependency diagram.<br /><br /> See:<br /><br /> - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br />- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)|
 
 ## External Resources
 
 |**Category**|**Links**|
-|------------------|---------------|
+|-|-|
 |**Forums**|- [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
 
 ## See also

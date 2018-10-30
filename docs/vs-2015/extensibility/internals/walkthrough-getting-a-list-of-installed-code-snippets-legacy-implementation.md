@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting a List of Installed Code Snippets (Legacy)](https://docs.microsoft.com/visualstudio/extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation).  
-  
 A code snippet is a piece of code that can be inserted into the source buffer either with a menu command (which allows choosing among a list of installed code snippets) or by selecting a snippet shortcut from an IntelliSense completion list.  
   
  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionManager.EnumerateExpansions%2A> method gets all code snippets for a specific language GUID. The shortcuts for those snippets can be inserted into an IntelliSense completion list.  

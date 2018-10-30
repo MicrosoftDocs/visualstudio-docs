@@ -28,11 +28,11 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 3. In the **Run this rule set** drop-down list, do one of the following:
 
-    - Select the rule set that you want to customize.
+   - Select the rule set that you want to customize.
 
      \- or -
 
-    - Select **\<Browse...>** to specify an existing rule set that is not in the list.
+   - Select **\<Browse...>** to specify an existing rule set that is not in the list.
 
 4. Select **Open** to display the rules in the rule set editor.
 

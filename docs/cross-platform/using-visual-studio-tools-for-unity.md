@@ -25,23 +25,23 @@ Alternatively, you can open Visual Studio with no script open in the source edit
 
 ## Unity documentation access
 
- You can access the Unity scripting documentation quickly from Visual Studio. If Visual Studio Tools for Unity doesn't find the API documentation locally, it will try to find it online.
+You can access the Unity scripting documentation quickly from Visual Studio. If Visual Studio Tools for Unity doesn't find the API documentation locally, it will try to find it online.
 
 - In Visual Studio, highlight or place the cursor over the Unity API you want to learn about, then press **Ctrl**+**Alt**+**M**, **Ctrl**+**H**
 
 ## Intellisense for Unity API Messages
 
- Intellisense code-completion makes it easy to implement Unity API messages in MonoBehaviour scripts, and assists with learning the Unity API. To use IntelliSense for Unity messages:
+Intellisense code-completion makes it easy to implement Unity API messages in MonoBehaviour scripts, and assists with learning the Unity API. To use IntelliSense for Unity messages:
 
 1. Place the cursor on a new line inside the body of a class that derives from `MonoBehaviour`.
 
-1. Begin typing the name of a Unity message, such as `OnTriggerEnter`.
+2. Begin typing the name of a Unity message, such as `OnTriggerEnter`.
 
-1. Once the letters "**ontri**" have been typed, a list of IntelliSense suggestions appears.
+3. Once the letters "**ontri**" have been typed, a list of IntelliSense suggestions appears.
 
-  ![Using IntelliSense](media/vstu_intellisense1.png)
+   ![Using IntelliSense](media/vstu_intellisense1.png)
 
-1. The selection on the list can be changed in three ways:
+4. The selection on the list can be changed in three ways:
 
     - With the **Up** and **Down** arrow keys.
 
@@ -49,7 +49,7 @@ Alternatively, you can open Visual Studio with no script open in the source edit
 
     - By continuing to type the name of the desired item.
 
-1. IntelliSense can insert the selected Unity message, including any necessary parameters:
+5. IntelliSense can insert the selected Unity message, including any necessary parameters:
 
     - By pressing **Tab**.
 
@@ -57,7 +57,7 @@ Alternatively, you can open Visual Studio with no script open in the source edit
 
     - By double-clicking the selected item.
 
-  ![Insert Unity message from IntelliSense](media/vstu_intellisense2.png)
+   ![Insert Unity message from IntelliSense](media/vstu_intellisense2.png)
 
 ## Unity MonoBehavior scripting wizard
 
@@ -67,39 +67,31 @@ To create empty MonoBehavior method definitions with the MonoBehavior wizard:
 
 1. In Visual Studio, position the cursor where you want the methods to be inserted, then press **Ctrl**+**Shift**+**M** to launch the MonoBehavior wizard.
 
-1. In the **Create script methods** window, mark the checkbox next to the name of each method you want to add.
+2. In the **Create script methods** window, mark the checkbox next to the name of each method you want to add.
 
-1. Use the **Framework version** dropdown to select your desired version.
+3. Use the **Framework version** dropdown to select your desired version.
 
-1. By default, the methods are inserted at the position of the cursor. Alternatively, you can choose to insert them after any method that's already implemented in your class by changing the value of the **Insertion point** dropdown to the location you want.
+4. By default, the methods are inserted at the position of the cursor. Alternatively, you can choose to insert them after any method that's already implemented in your class by changing the value of the **Insertion point** dropdown to the location you want.
 
-1. If you want the wizard to generate comments for the methods you selected, mark the **Generate method comments** checkbox. These comments are meant to help you understand when the method is called and what its general responsibilities are.
+5. If you want the wizard to generate comments for the methods you selected, mark the **Generate method comments** checkbox. These comments are meant to help you understand when the method is called and what its general responsibilities are.
 
-1. Choose the **OK** button to exit the wizard and insert the methods into your code.
+6. Choose the **OK** button to exit the wizard and insert the methods into your code.
 
- ![The monobehavior wizard dialog.](../cross-platform/media/vstu_monobehavior_wizard_full.png "vstu_monobehavior_wizard_full")
+   ![The monobehavior wizard dialog.](../cross-platform/media/vstu_monobehavior_wizard_full.png "vstu_monobehavior_wizard_full")
 
 ## Unity Project Explorer
 
- ![The Unity Project Explorer window.](../cross-platform/media/vstu_unity_project_explorer.png "vstu_unity_project_explorer")
+![The Unity Project Explorer window.](../cross-platform/media/vstu_unity_project_explorer.png "vstu_unity_project_explorer")
 
- The Unity Project Explorer shows all of your Unity project files and directories in the same way that the Unity Editor does. This is different than navigating your Unity scripts with the normal Visual Studio Solution Explorer, which organizes them into projects and a solution generated by Visual Studio.
+The Unity Project Explorer shows all of your Unity project files and directories in the same way that the Unity Editor does. This is different than navigating your Unity scripts with the normal Visual Studio Solution Explorer, which organizes them into projects and a solution generated by Visual Studio.
 
 - On the main Visual Studio menu, choose **View > Unity Project Explorer**. Keyboard shortcut: **Alt**+**Shift**+**E**
 
-     ![View the Unity Project Explorer window.](../cross-platform/media/vstu_view_unity_project_explorer.png "vstu_view_unity_project_explorer")
-
-## Unity Error List
-
- You can view messages from the Unity console inside Visual Studio when it's connected to a Unity instance. This includes errors and warnings from Unity. The messages are displayed in Visual Studio's **Error List** window; error messages from Unity are displayed on the **Errors** tab, warning messages on the **Warnings** tab, and other messages—for example, messages sent by using the Debug.Log Unity API—are displayed on the **Messages** tab.
-
- In order to see the messages, your Unity project must be connected to Visual Studio as described in the [Unity debugging](#unity-debugging) section.
-
- If you don't want to see errors, warnings, and messages from Unity in Visual Studio's **Error List** window, you can disable them in the Configuration menu.
+   ![View the Unity Project Explorer window.](../cross-platform/media/vstu_view_unity_project_explorer.png "vstu_view_unity_project_explorer")
 
 ## Unity debugging
 
- Visual Studio Tools for Unity lets you debug both editor and game scripts for your Unity project using Visual Studio's powerful debugger.
+Visual Studio Tools for Unity lets you debug both editor and game scripts for your Unity project using Visual Studio's powerful debugger.
 
 ### Debug in the Unity editor
 
@@ -107,13 +99,13 @@ To create empty MonoBehavior method definitions with the MonoBehavior wizard:
 
 1. Connect Visual Studio to Unity by clicking the **Play** button labeled **Attach to Unity**, or use the keyboard shortcut **F5**.
 
-  ![Click Play in Visual Studio](media/vstu_play-button.png)
+   ![Click Play in Visual Studio](media/vstu_play-button.png)
 
-1. Switch to Unity and click the **Play** button to run the game in the editor.
+2. Switch to Unity and click the **Play** button to run the game in the editor.
 
-  ![Click Play in Unity](media/vstu_unity-play-button.png)
+   ![Click Play in Unity](media/vstu_unity-play-button.png)
 
-1. When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio.
+3. When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio.
 
 #### Stop debugging
 
@@ -145,69 +137,70 @@ You can debug development builds of various Unity players with Visual Studio.
 
 1. In Unity, open the Build Settings by selecting **File > Build Settings**.
 
-1. In the Build Settings window, mark the **Development Build** and **Script Debugging** checkboxes.
+2. In the Build Settings window, mark the **Development Build** and **Script Debugging** checkboxes.
 
- ![Configure the Unity build settings for debugging.](../cross-platform/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")
+   ![Configure the Unity build settings for debugging.](../cross-platform/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")
 
 #### Select a Unity instance to attach the debugger to
 
 - In Visual Studio, on the main menu, choose **Debug > Attach Unity Debugger**.
 
-     ![Attach the debugger of Unity.](../cross-platform/media/vstu_debugging_attach_unity_debugger.png "vstu_debugging_attach_unity_debugger")
+   ![Attach the debugger of Unity.](../cross-platform/media/vstu_debugging_attach_unity_debugger.png "vstu_debugging_attach_unity_debugger")
 
-    The **Select Unity Instance** dialog displays some information about each Unity instance that you can connect to.
+   The **Select Unity Instance** dialog displays some information about each Unity instance that you can connect to.
 
-     ![Choose an instance of Unity to connect to.](../cross-platform/media/vstu_attach-debugger.png "vstu_connection_to_unity")
+   ![Choose an instance of Unity to connect to.](../cross-platform/media/vstu_attach-debugger.png "vstu_connection_to_unity")
 
- **Project**
- The name of the Unity project that's running in this instance of Unity.
+   **Project**
 
- **Machine**
- The name of the computer or device that this instance of Unity is running on.
+   The name of the Unity project that's running in this instance of Unity.
 
- **Type**
- **Editor** if this instance of Unity is running as part of the Unity Editor; **Player** if this instance of Unity is a stand-alone player.
+   **Machine**
+   The name of the computer or device that this instance of Unity is running on.
 
- **Port**
- The port number of the UDP socket that this instance of Unity is communicating over.
+   **Type**
+   **Editor** if this instance of Unity is running as part of the Unity Editor; **Player** if this instance of Unity is a stand-alone player.
+
+   **Port**
+   The port number of the UDP socket that this instance of Unity is communicating over.
 
 > [!IMPORTANT]
 > Because Visual Studio Tools for Unity and the Unity instance are communicating over a UDP network socket, your firewall might ask about it. If this happens, you'll have to authorize the connection so that VSTU and Unity can communicate.
 
 ### Debug a DLL in your Unity project
 
- Many Unity developers are writing code components as external DLLs so that the functionality they develop can be easily shared with other projects. Visual Studio Tools for Unity makes it easy to debug code in these DLLs seamlessly with other code in your Unity project.
+Many Unity developers are writing code components as external DLLs so that the functionality they develop can be easily shared with other projects. Visual Studio Tools for Unity makes it easy to debug code in these DLLs seamlessly with other code in your Unity project.
 
 > [!NOTE]
 > At this time, Visual Studio Tools for Unity only supports managed DLLs. It does not support debugging of native code DLLs, such as those written in C++.
 
- Note that the scenario described here assumes that you have the source code—that is, you are developing or re-using your own first-party code, or you have the source code to a third-party library, and plan to deploy it in your Unity project as a DLL. This scenario does not describe debugging a DLL for which you do not have the source code.
+Note that the scenario described here assumes that you have the source code—that is, you are developing or re-using your own first-party code, or you have the source code to a third-party library, and plan to deploy it in your Unity project as a DLL. This scenario does not describe debugging a DLL for which you do not have the source code.
 
 #### To debug a managed DLL project used in your Unity project
 
 1. Add your existing DLL project to the Visual Studio solution generated by Visual Studio Tools for Unity. Less commonly, you might be starting a new managed DLL project to contain code components in your Unity project; if that's the case, you can add a new managed DLL project to the Visual Studio solution instead. For more information on adding a new or existing project to a solution, see [How to: Add Projects to a Solution](https://msdn.microsoft.com/library/ff460187.aspx).
 
-     ![Add your existing DLL project to the solution.](../cross-platform/media/vstu_debugging_dll_add_existing.png "vstu_debugging_dll_add_existing")
+   ![Add your existing DLL project to the solution.](../cross-platform/media/vstu_debugging_dll_add_existing.png "vstu_debugging_dll_add_existing")
 
-     In either case, Visual Studio Tools for Unity maintains the project reference, even if it has to regenerate the project and solution files again, so you only need to perform these steps once.
+   In either case, Visual Studio Tools for Unity maintains the project reference, even if it has to regenerate the project and solution files again, so you only need to perform these steps once.
 
-1. Reference the correct Unity framework profile in the DLL project. In Visual Studio, in the DLL project's properties, set the **Target framework** property to the Unity framework version you're using. This is the Unity Base Class Library that matches the API compatibility that your project targets, such as the Unity full, micro, or web base class libraries. This prevents your DLL from calling framework methods that exist in other frameworks or compatibility levels, but which might not exist in the Unity framework version you're using.
+2. Reference the correct Unity framework profile in the DLL project. In Visual Studio, in the DLL project's properties, set the **Target framework** property to the Unity framework version you're using. This is the Unity Base Class Library that matches the API compatibility that your project targets, such as the Unity full, micro, or web base class libraries. This prevents your DLL from calling framework methods that exist in other frameworks or compatibility levels, but which might not exist in the Unity framework version you're using.
 
-     ![Set the DLL's target framework to Unity framework.](../cross-platform/media/vstu_debugging_dll_target_framework.png "vstu_debugging_dll_target_framework")
+   ![Set the DLL's target framework to Unity framework.](../cross-platform/media/vstu_debugging_dll_target_framework.png "vstu_debugging_dll_target_framework")
 
-1. Copy the DLL to your Unity project's Asset folder. In Unity, assets are files that are packaged and deployed together with your Unity app so that they can be loaded at run-time. Since DLLs are linked at runtime, DLLs must be deployed as assets. To be deployed as an asset, the Unity Editor requires the DLLs to be put inside the Assets folder in your Unity project. There are two ways you can do this:
+3. Copy the DLL to your Unity project's Asset folder. In Unity, assets are files that are packaged and deployed together with your Unity app so that they can be loaded at run-time. Since DLLs are linked at runtime, DLLs must be deployed as assets. To be deployed as an asset, the Unity Editor requires the DLLs to be put inside the Assets folder in your Unity project. There are two ways you can do this:
 
    - Modify the build settings of your DLL project to include a post-built task that copies the output DLL and PDB files from its output folder to the **Assets** folder of your Unity project.
 
    - Modify the build settings of your DLL project to set its output folder to be the **Assets** folder of your Unity project. Both DLL and PDB files will be placed in the **Assets** folder.
 
-     The PDB files are needed for debugging because they contain the DLL's debugging symbols, and map the DLL code to its source code form. Visual Studio Tools for Unity will use information from the DLL and PDB to create a DLL.MDB file, which is the debug symbol format used by the Unity scripting engine.
+   The PDB files are needed for debugging because they contain the DLL's debugging symbols, and map the DLL code to its source code form. Visual Studio Tools for Unity will use information from the DLL and PDB to create a DLL.MDB file, which is the debug symbol format used by the Unity scripting engine.
 
-1. Debug your code. You can now debug your DLL source code together with your Unity project's source code, and use all the debugging features you are used to, such as breakpoints and stepping through code.
+4. Debug your code. You can now debug your DLL source code together with your Unity project's source code, and use all the debugging features you are used to, such as breakpoints and stepping through code.
 
 ## Keyboard shortcuts
 
- You can quickly access the Unity Tools for Visual Studio functionality by using their keyboard shortcuts. Here's a summary of the shortcuts that are available.
+You can quickly access the Unity Tools for Visual Studio functionality by using their keyboard shortcuts. Here's a summary of the shortcuts that are available.
 
 |Command|Shortcut|Shortcut command name|
 |-------------|--------------|---------------------------|
@@ -216,4 +209,4 @@ You can debug development builds of various Unity players with Visual Studio.
 |Access Unity documentation|**Ctrl**+**Alt**+**M, Ctrl**+**H**|**Help.UnityAPIReference**|
 |Attach to Unity debugger (player or editor)|**_no default_**|**Debug.AttachUnityDebugger**|
 
- You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
+You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).

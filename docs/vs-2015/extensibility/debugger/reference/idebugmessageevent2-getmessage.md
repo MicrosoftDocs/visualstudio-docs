@@ -1,7 +1,7 @@
 ---
 title: "IDebugMessageEvent2::GetMessage | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,29 +22,27 @@ manager: "ghogen"
 # IDebugMessageEvent2::GetMessage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMessageEvent2::GetMessage](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmessageevent2-getmessage).  
-  
 Gets the message to be displayed.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetMessage(   
-   MESSAGETYPE* pMessageType,  
-   BSTR*        pbstrMessage,  
-   DWORD*       pdwType,  
-   BSTR*        pbstrHelpFileName,  
-   DWORD*       pdwHelpId  
+   MESSAGETYPE* pMessageType,  
+   BSTR*        pbstrMessage,  
+   DWORD*       pdwType,  
+   BSTR*        pbstrHelpFileName,  
+   DWORD*       pdwHelpId  
 );  
 ```  
   
 ```csharp  
 int GetMessage(   
-   out enum_MESSAGETYPE pMessageType,  
-   out string           pbstrMessage,  
-   out uint             pdwType,  
-   out string           pbstrHelpFileName,  
-   out uint             dwHelpId  
+   out enum_MESSAGETYPE pMessageType,  
+   out string           pbstrMessage,  
+   out uint             pdwType,  
+   out string           pbstrHelpFileName,  
+   out uint             dwHelpId  
 );  
 ```  
   

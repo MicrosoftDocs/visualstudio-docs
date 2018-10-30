@@ -1,7 +1,7 @@
 ---
 title: "Cores View Timeline | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Cores View Timeline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Cores View Timeline](https://docs.microsoft.com/visualstudio/profiling/cores-view-timeline).  
-  
 Every row in the timeline represents a logical processor core on the profiled system. For each row, the horizontal axis shows which thread was running on a logical core at a given point in time. You can hover over a color of interest in a timeline to return a tooltip that identifies the thread. To help with thread identification, the legend at the bottom of the window shows what each color represents. Use the Zoom tool to zoom in and out, by clicking and dragging or by pressing CTRL and moving the mouse wheel. Zoom consistency is maintained when you switch between Cores View and Threads View.  
   
 ## See Also  

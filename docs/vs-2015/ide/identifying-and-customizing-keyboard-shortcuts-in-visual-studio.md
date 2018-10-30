@@ -1,7 +1,7 @@
 ---
 title: "Identifying and Customizing Keyboard Shortcuts in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,27 +28,25 @@ manager: "ghogen"
 # Identifying and Customizing Keyboard Shortcuts in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Identifying and Customizing Keyboard Shortcuts in Visual Studio](https://docs.microsoft.com/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio).  
-  
 You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut can vary based on the following conditions:  
   
--   Which default environment settings you chose the first time that you ran Visual Studio (for example, General Development or Visual C#).  
+- Which default environment settings you chose the first time that you ran Visual Studio (for example, General Development or Visual C#).  
   
--   Whether you've customized the shortcut's behavior.  
+- Whether you've customized the shortcut's behavior.  
   
--   Which context you're in when you choose the shortcut. For example, the F2 shortcut invokes the Edit.EditCell command if you're using the Settings Designer and the File.Rename command if you're using Team Explorer.  
+- Which context you're in when you choose the shortcut. For example, the F2 shortcut invokes the Edit.EditCell command if you're using the Settings Designer and the File.Rename command if you're using Team Explorer.  
   
- Regardless of settings, customization, and context, you can always find and change a keyboard shortcut in the **Options** dialog box. You can also look up the default keyboard shortcuts for several dozen commands in [Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md), and you can find a complete list of all default shortcuts (based on the General Development Settings) in [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).  
+  Regardless of settings, customization, and context, you can always find and change a keyboard shortcut in the **Options** dialog box. You can also look up the default keyboard shortcuts for several dozen commands in [Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md), and you can find a complete list of all default shortcuts (based on the General Development Settings) in [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).  
   
- **In this topic**  
+  **In this topic**  
   
--   [Identifying a keyboard shortcut](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#bkmk_identify)  
+- [Identifying a keyboard shortcut](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#bkmk_identify)  
   
--   [Customizing a keyboard shortcut](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#bkmk_assign)  
+- [Customizing a keyboard shortcut](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#bkmk_assign)  
   
--   [Sharing custom keyboard shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#bkmk_transfer)  
+- [Sharing custom keyboard shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#bkmk_transfer)  
   
- If a shortcut is assigned to a command in the Global context and no other contexts, that shortcut will always invoke that command. But a shortcut can be assigned to one command in the Global context and a different command in a specific context. If you use such a shortcut when you're in the specific context, the shortcut invokes the command for the specific context, not the Global context.  
+  If a shortcut is assigned to a command in the Global context and no other contexts, that shortcut will always invoke that command. But a shortcut can be assigned to one command in the Global context and a different command in a specific context. If you use such a shortcut when you're in the specific context, the shortcut invokes the command for the specific context, not the Global context.  
   
 > [!NOTE]
 >  Your settings and edition of Visual Studio might change the names and locations of menu commands and the options that appear in dialog boxes. This topic is based on the **General Development Settings**.  

@@ -22,7 +22,7 @@ The <xref:System.Activities.Statements.DoWhile> activity executes the activity c
 The following table shows the most useful <xref:System.Activities.Statements.DoWhile> activity properties, and describes how to use them in the designer:
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Statements.DoWhile.Body%2A>|False|The activity to execute while the condition is **true**. To add the <xref:System.Activities.Statements.DoWhile.Body%2A> activity, drop an activity from the toolbox into the **Body** box on the **DoWhile** activity designer with hint text "Drop Activity Here".|
 |<xref:System.Activities.Statements.DoWhile.Condition%2A>|True|The condition to evaluate after each iteration of the loop. To set the <xref:System.Activities.Statements.DoWhile.Condition%2A>, type a Visual Basic expression in the **Condition** box on the **DoWhile** activity designer or in the property grid.|
 

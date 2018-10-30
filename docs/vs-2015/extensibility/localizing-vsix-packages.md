@@ -1,7 +1,7 @@
 ---
 title: "Localizing VSIX Packages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Localizing VSIX Packages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Localizing VSIX Packages](https://docs.microsoft.com/visualstudio/extensibility/localizing-vsix-packages).  
-  
 You can localize a VSIX package by creating an Extension.vsixlangpack file for each target language and then putting them in the correct folder. When a localized package is installed, the localized name of the extension is displayed together with a localized description. If you supply a localized license file, or a URL that points to localized information, they are also displayed.  
   
  If the content your VSIX package includes a VSPackage that adds menu commands or other UI, see [Localizing Menu Commands](../extensibility/localizing-menu-commands.md) for information about localizing the new UI elements.  

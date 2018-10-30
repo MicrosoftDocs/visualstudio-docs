@@ -23,13 +23,13 @@ Gets the name of the machine that the process hosting this program is running on
   
 ```cpp  
 HRESULT GetHostMachineName(   
-   BSTR* pbstrHostMachineName  
+   BSTR* pbstrHostMachineName  
 );  
 ```  
   
 ```csharp  
 int GetHostMachineName(   
-   out string pbstrHostMachineName  
+   out string pbstrHostMachineName  
 );  
 ```  
   

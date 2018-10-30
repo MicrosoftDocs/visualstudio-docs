@@ -1,7 +1,7 @@
 ---
 title: "Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](https://docs.microsoft.com/visualstudio/debugger/error-debugging-failed-because-integrated-windows-authentication-is-not-enabled).  
-  
 Authentication of the user who requested debugging was prevented by an authentication error. This can occur when you try to step into a Web application or an XML Web service. One cause of this error is that integrated Windows authentication is not enabled. To enable it, follow the steps in "To enable integrated Windows authentication."  
   
  If you have enabled integrated Windows authentication and this error still appears, it is possible that this error is caused because **Digest Authentication for Windows Domain Servers** is enabled. In this situation you should contact with your network administrator.  

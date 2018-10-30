@@ -1,7 +1,7 @@
 ---
 title: "IDebugCustomAttribute::GetAttributeTypeField | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugCustomAttribute::GetAttributeTypeField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCustomAttribute::GetAttributeTypeField](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcustomattribute-getattributetypefield).  
-  
 Gets the custom attribute class type.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetAttributeTypeField(   
-   IDebugClassField** ppCAType  
+   IDebugClassField** ppCAType  
 );  
 ```  
   
 ```csharp  
 int GetAttributeTypeField(  
-   out IDebugClassField ppCAType  
+   out IDebugClassField ppCAType  
 );  
 ```  
   

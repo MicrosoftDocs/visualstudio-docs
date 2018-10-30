@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcess3::Execute | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcess3::Execute
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess3::Execute](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess3-execute).  
-  
 Continues running this process from a stopped state. Any previous execution state (such as a step) is cleared and the process starts executing again.  
   
 > [!NOTE]
@@ -32,13 +30,13 @@ Continues running this process from a stopped state. Any previous execution stat
   
 ```cpp  
 HRESULT Execute(  
-   IDebugThread2* pThread  
+   IDebugThread2* pThread  
 );  
 ```  
   
 ```csharp  
 int Execute(  
-   IDebugThread2 pThread  
+   IDebugThread2 pThread  
 );  
 ```  
   

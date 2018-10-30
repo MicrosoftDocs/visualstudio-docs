@@ -1,7 +1,7 @@
 ---
 title: "License Element (VSIX Language Pack Schema) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # License Element (VSIX Language Pack Schema)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [License Element (VSIX Language Pack Schema)](https://docs.microsoft.com/visualstudio/extensibility/license-element-vsix-language-pack-schema).  
-  
 Optional. The path of a localized version of the license file for the extension.  
   
 ## Syntax  
@@ -56,12 +54,12 @@ Optional. The path of a localized version of the license file for the extension.
   
 ## Element Information  
   
-|||  
-|-|-|  
-|Namespace|http://schemas.microsoft.com/developer/vsx-schema-lp/2010|  
-|Schema Name|VSIX Language Pack Schema|  
-|Validation File|VSIXLanguagePackSchema.xsd|  
-|Can be Empty|Not applicable|  
+|                 |                                                           |
+|-----------------|-----------------------------------------------------------|
+|    Namespace    | http://schemas.microsoft.com/developer/vsx-schema-lp/2010 |
+|   Schema Name   |                 VSIX Language Pack Schema                 |
+| Validation File |                VSIXLanguagePackSchema.xsd                 |
+|  Can be Empty   |                      Not applicable                       |
   
 ## See Also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   

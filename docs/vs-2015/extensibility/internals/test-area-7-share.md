@@ -1,7 +1,7 @@
 ---
 title: "Test Area 7: Share | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Test Area 7: Share
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 7: Share](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-7-share).  
-  
 This test area covers sharing items between locations via the **Share** command.  
   
  A hhare operation is the apparent duplication of files and folder items between two or more locations within a source control file hierarchy. Duplication does not really occur on the server, but the user does see the same file in two or more specified locations. Whenever changes are made to any of the shared items, those changes appear in all other shared locations.  

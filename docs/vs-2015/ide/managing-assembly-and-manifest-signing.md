@@ -1,7 +1,7 @@
 ---
 title: "Managing Assembly and Manifest Signing | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Managing Assembly and Manifest Signing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing Assembly and Manifest Signing](https://docs.microsoft.com/visualstudio/ide/managing-assembly-and-manifest-signing).  
-  
 Strong-name signing gives a software component a globally unique identity. Strong names are used to guarantee that the assembly cannot be spoofed by someone else, and to ensure that component dependencies and configuration statements map to the correct component and component version.  
   
  A strong name consists of the assembly's identity (simple text name, version number, and culture information), plus a public key token and a digital signature.  
@@ -36,23 +34,23 @@ Strong-name signing gives a software component a globally unique identity. Stron
 ## Asset Types and Signing  
  You can sign .NET assemblies and application manifests. These include the following:  
   
--   executables (.exe)  
+- executables (.exe)  
   
--   application manifests (.exe.manifest)  
+- application manifests (.exe.manifest)  
   
--   deployment manifests (.application)  
+- deployment manifests (.application)  
   
--   shared component assemblies (.dll)  
+- shared component assemblies (.dll)  
   
- You must sign the following types of asset:  
+  You must sign the following types of asset:  
   
-1.  assemblies, if you want to deploy them to the global assembly cache (GAC).  
+1. assemblies, if you want to deploy them to the global assembly cache (GAC).  
   
-2.  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application and deployment manifests. Visual Studio enables signing by default for these applications.  
+2. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application and deployment manifests. Visual Studio enables signing by default for these applications.  
   
-3.  Primary interop assemblies, which are used for COM interoperability. The TLBIMP utility enforces strong-naming when creating a primary interop assembly from a COM type library.  
+3. Primary interop assemblies, which are used for COM interoperability. The TLBIMP utility enforces strong-naming when creating a primary interop assembly from a COM type library.  
   
- In general you should not sign executables. A strongly-named component cannot reference a non-strongly-named component that is deployed with the application. Visual Studio does not sign application executables, but instead signs the application manifest, which points to the weak-named executable. You should generally avoid signing components that are private to your application, because signing can make it more difficult to manage dependencies.  
+   In general you should not sign executables. A strongly-named component cannot reference a non-strongly-named component that is deployed with the application. Visual Studio does not sign application executables, but instead signs the application manifest, which points to the weak-named executable. You should generally avoid signing components that are private to your application, because signing can make it more difficult to manage dependencies.  
   
 ## How to Sign an Assembly in Visual Studio  
  You sign an application or component by using the **Signing** tab of the project properties window (right-click the project node in the **Solution Explorer** and select **Properties**, or type **project properties** in the **Quick Launch** window, or press ALT+ ENTER inside the **Solution Explorer** window). Select the **Signing** tab, then select the **Sign the assembly**  check box.  

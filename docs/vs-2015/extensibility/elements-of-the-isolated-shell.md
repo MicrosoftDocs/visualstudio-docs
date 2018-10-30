@@ -1,7 +1,7 @@
 ---
 title: "Elements of the Isolated Shell | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Elements of the Isolated Shell
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Elements of the Isolated Shell](https://docs.microsoft.com/visualstudio/extensibility/elements-of-the-isolated-shell).  
-  
 You can modify the registry settings, run-time settings, and application entry point of your isolated shell application, and its .vsct, .pkgdef, and.pkgundef files.  
   
 ## Registry Settings  
@@ -41,11 +39,11 @@ You can modify the registry settings, run-time settings, and application entry p
 ## Run-Time Settings  
  When a user starts the isolated shell application, it calls the Start entry point of the Visual Studio shell. Application settings are defined when your application starts, as follows:  
   
-1.  The Visual Studio shell checks the application registry for specific keys. If the setting for a key is specified in the call to the Start entry point, then that value overrides the value in the registry.  
+1. The Visual Studio shell checks the application registry for specific keys. If the setting for a key is specified in the call to the Start entry point, then that value overrides the value in the registry.  
   
-2.  If neither the registry nor the entry point parameter specifies the value of a setting, then the default value for the setting is used.  
+2. If neither the registry nor the entry point parameter specifies the value of a setting, then the default value for the setting is used.  
   
- When a user starts your application from the command line, all command-line switches are passed to the Visual Studio shell, which treats them in the same way that Devenv does. For more information about Devenv switches, see [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md) and [Devenv Command-Line Switches for VSPackage Development](../extensibility/devenv-command-line-switches-for-vspackage-development.md). For more information about how a package registers for command line switches, see [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md).  
+   When a user starts your application from the command line, all command-line switches are passed to the Visual Studio shell, which treats them in the same way that Devenv does. For more information about Devenv switches, see [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md) and [Devenv Command-Line Switches for VSPackage Development](../extensibility/devenv-command-line-switches-for-vspackage-development.md). For more information about how a package registers for command line switches, see [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md).  
   
 ## The Start Entry Point  
  The Appenvstub.dll file contains entry points for accessing the isolated shell. When the application starts, it calls the Start entry point of Appenvstub.dll.  

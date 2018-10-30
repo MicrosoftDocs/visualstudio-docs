@@ -1,7 +1,7 @@
 ---
 title: "How to: Connect to Data in a Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # How to: Connect to Data in a Service
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Connect to Data in a Service](https://docs.microsoft.com/visualstudio/data-tools/how-to-connect-to-data-in-a-service).  
-  
   
 You connect your application to the data returned from a service by running the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) and selecting **Service** on the **Choose a Data Source Type** page.  
   

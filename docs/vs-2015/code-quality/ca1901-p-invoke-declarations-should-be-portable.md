@@ -1,7 +1,7 @@
 ---
 title: "CA1901: P-Invoke declarations should be portable | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1901: P/Invoke declarations should be portable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1901: P-Invoke declarations should be portable](https://docs.microsoft.com/visualstudio/code-quality/ca1901-p-invoke-declarations-should-be-portable).
 
 |||
 |-|-|
@@ -55,9 +53,9 @@ The latest version of this topic can be found at [CA1901: P-Invoke declarations 
 ```csharp
 internal class NativeMethods
 {
-    [DllImport("shell32.dll", CharSet=CharSet.Auto)]
-    internal static extern IntPtr ExtractIcon(IntPtr hInst,
-        string lpszExeFileName, IntPtr nIconIndex);
+    [DllImport("shell32.dll", CharSet=CharSet.Auto)]
+    internal static extern IntPtr ExtractIcon(IntPtr hInst,
+        string lpszExeFileName, IntPtr nIconIndex);
 }
 ```
 
@@ -65,7 +63,7 @@ internal class NativeMethods
 
 ```csharp
 HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,
-    UINT nIconIndex);
+    UINT nIconIndex);
 ```
 
 ## Example
@@ -73,9 +71,9 @@ HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,
 
 ```csharp
 internal class NativeMethods{
-    [DllImport("shell32.dll", CharSet=CharSet.Auto)] 
-    internal static extern IntPtr ExtractIcon(IntPtr hInst,
-        string lpszExeFileName, uint nIconIndex);
+    [DllImport("shell32.dll", CharSet=CharSet.Auto)] 
+    internal static extern IntPtr ExtractIcon(IntPtr hInst,
+        string lpszExeFileName, uint nIconIndex);
 }
 ```
 

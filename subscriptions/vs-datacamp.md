@@ -22,15 +22,15 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the DataCamp benefit tile in the "Professional Development" category, and click on **Activate**.
-    > [!div class="mx-imgBorder"]
-    > ![DataCamp Benefit Tile](_img\vs-datacamp\vs-datacamp-tile-2.png)
+   > [!div class="mx-imgBorder"]
+   > ![DataCamp Benefit Tile](_img/vs-datacamp/vs-datacamp-tile-2.png)
 
 3. On the DataCamp page, you can create a new account.  You can choose to enter an email address and password, or sign in using existing accounts from Facebook, LinkedIn, or Google.  Once you've provided your sign-in information, click **Get Started**.
-    > [!div class="mx-imgBorder"]
-    > ![DataCamp Create New Account](_img\vs-datacamp\vs-datacamp-create-account.png)
-
-    > [!NOTE]
-    > When you begin creating your account, you may receive the following error message: "OOPS!  Your promo code is invalid or expired."  This happens because when your promo code is created, it expires after a few minutes.  If you receive this message, simply return to the [Benefits](https://my.visualstudio.com/benefits) page and click on the **Activate** link on the DataCamp benefit tile.
+   > [!div class="mx-imgBorder"]
+   > ![DataCamp Create New Account](_img/vs-datacamp/vs-datacamp-create-account.png)
+   > 
+   > [!NOTE]
+   > When you begin creating your account, you may receive the following error message: "OOPS!  Your promo code is invalid or expired."  This happens because when your promo code is created, it expires after a few minutes.  If you receive this message, simply return to the [Benefits](https://my.visualstudio.com/benefits) page and click on the **Activate** link on the DataCamp benefit tile.
 
 4. Once your account has been created, you can choose a learning path.  Options include:
     - Learning R for Data Science
@@ -38,28 +38,30 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
     - Develop your Data Science Skillset
 
 
-    Just click on your chosen path to get started.
-    > [!div class="mx-imgBorder"]
-    > ![DataCamp Choose Path](_img\vs-datacamp\vs-datacamp-choose-path.png)
+~~~
+Just click on your chosen path to get started.
+> [!div class="mx-imgBorder"]
+> ![DataCamp Choose Path](_img\vs-datacamp\vs-datacamp-choose-path.png)
+~~~
 
 5. After you have selected your path, you can further refine your learning path by selecting a goal.  For example, if you chose the "Develop your Data Science Skillset" path, you will see the following options. Choose an option, or click **I am not sure.  Show me all career paths** to create a broader path.
-    > [!div class="mx-imgBorder"]
-    > ![DataCamp Data Science Skillset](_img\vs-datacamp\vs-datacamp-datascience.png)
+   > [!div class="mx-imgBorder"]
+   > ![DataCamp Data Science Skillset](_img/vs-datacamp/vs-datacamp-datascience.png)
 
 
 6. Based on the path and options you have selected, you'll see a selection of Career Tracks.  Click on the **Enroll** button for the track of your choice.
-    > [!div class="mx-imgBorder"]
-    > ![DataCamp Career Track](_img\vs-datacamp\vs-datacamp-all-tracks.png)
+   > [!div class="mx-imgBorder"]
+   > ![DataCamp Career Track](_img/vs-datacamp/vs-datacamp-all-tracks.png)
 
 7. Once you have enrolled in your track, the first course in that track will open.  You'll see a tutorial explaining how to interact with the course, including navigation and completing the course exercises.
 
-    > [!div class="mx-imgBorder"]
-    > ![DataCamp Getting Started](_img\vs-datacamp\vs-datacamp-getting-started.png)
+   > [!div class="mx-imgBorder"]
+   > ![DataCamp Getting Started](_img/vs-datacamp/vs-datacamp-getting-started.png)
 
 You can stop at any point, and resume your training in your next session.  Just visit [http://www.datacamp.com](http://www.datacamp.com), and sign in.  You'll see your dashboard and can resume your training right where you paused. Simply click **Continue Track**.
 
 > [!div class="mx-imgBorder"]   
-> ![DataCamp Continue Training](_img\vs-datacamp\vs-datacamp-continue-training.png)
+> ![DataCamp Continue Training](_img/vs-datacamp/vs-datacamp-continue-training.png)
 
 ## Eligibility
 
@@ -75,7 +77,7 @@ You can stop at any point, and resume your training in your next session.  Just 
 
 
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Microsoft Valued Partner (MVP), Region Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Microsoft Valued Professional (MVP), Region Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
 
 
 

@@ -23,13 +23,13 @@ Gets the class that encloses this class.
   
 ```cpp  
 HRESULT GetEnclosingClass(   
-   IDebugClassField** ppClassField  
+   IDebugClassField** ppClassField  
 );  
 ```  
   
 ```csharp  
 int GetEnclosingClass(  
-   out IDebugClassField ppClassField  
+   out IDebugClassField ppClassField  
 );  
 ```  
   

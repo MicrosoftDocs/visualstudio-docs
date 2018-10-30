@@ -1,7 +1,7 @@
 ---
 title: "Updating Shapes and Connectors to Reflect the Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # Updating Shapes and Connectors to Reflect the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Updating Shapes and Connectors to Reflect the Model](https://docs.microsoft.com/visualstudio/modeling/updating-shapes-and-connectors-to-reflect-the-model).  
-  
 In a domain-specific language in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can make the appearance of a shape reflect the state of the underlying model.  
   
  The code examples in this topic should be added to a `.cs` file in your `Dsl` project. You will need these statements in each file:  

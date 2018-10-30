@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1809: Avoid excessive locals
+
 |||
 |-|-|
 |TypeName|AvoidExcessiveLocals|

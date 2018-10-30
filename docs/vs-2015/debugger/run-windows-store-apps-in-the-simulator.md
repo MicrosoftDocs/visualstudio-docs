@@ -1,7 +1,7 @@
 ---
 title: "Run Windows Store apps in the simulator | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Run Windows Store apps in the simulator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Run Windows Store apps in the simulator](https://docs.microsoft.com/visualstudio/debugger/run-windows-store-apps-in-the-simulator).  
-  
 The Visual Studio simulator for Windows Store apps is a desktop application that simulates a Windows Store app. You can run applications and simulate common touch and rotation events on your development computer. You can also choose the physical screen size and resolution that you want to emulate and simulate network connection properties.  
   
  The simulator provides an environment in which you can design, develop, debug, and test Windows Store apps. However, before you publish your app to the Windows Store, you should test your app on an actual device.  
@@ -119,35 +117,35 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
  To simulate network properties:  
   
-1.  On the simulator toolbar, choose the **Change network properties** button.  
+1. On the simulator toolbar, choose the **Change network properties** button.  
   
-2.  On the **Set Network Properties** dialog box, select **Use simulated network properties**.  
+2. On the **Set Network Properties** dialog box, select **Use simulated network properties**.  
   
-     Clear the check box to remove the simulation and return to the network properties of the currently connected interface.  
+    Clear the check box to remove the simulation and return to the network properties of the currently connected interface.  
   
-3.  Enter a **Profile Name** for the simulated network. We recommend using a unique name that you can use to identify the simulation in the [ProfileName](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectionprofile.profilename.aspx) property of the [ConnectionProfile](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectionprofile.aspx) object.  
+3. Enter a **Profile Name** for the simulated network. We recommend using a unique name that you can use to identify the simulation in the [ProfileName](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectionprofile.profilename.aspx) property of the [ConnectionProfile](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectionprofile.aspx) object.  
   
-4.  Select the [NetworkCostType](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkcosttype.aspx) value for the profile from the **Network Cost Type** list.  
+4. Select the [NetworkCostType](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkcosttype.aspx) value for the profile from the **Network Cost Type** list.  
   
-5.  From the **Data Limit Status Flag** list, you can set the [ApproachingDataLimit](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectioncost.approachingdatalimit.aspx) property or the [OverDataLimit](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectioncost.overdatalimit.aspx)property to true, or you can choose **Under Data Limit** to set both values to false.  
+5. From the **Data Limit Status Flag** list, you can set the [ApproachingDataLimit](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectioncost.approachingdatalimit.aspx) property or the [OverDataLimit](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectioncost.overdatalimit.aspx)property to true, or you can choose **Under Data Limit** to set both values to false.  
   
-6.  From the **Roaming State** list, set the [Roaming](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectioncost.roaming.aspx) property.  
+6. From the **Roaming State** list, set the [Roaming](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectioncost.roaming.aspx) property.  
   
-7.  Choose **Set Properties** to simulate the network properties by triggering a foreground [NetworkStatusChanged](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.networkstatuschanged.aspx) event and a background [SystemTrigger](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.background.systemtrigger.aspx) of type **NetworkStateChange**.  
+7. Choose **Set Properties** to simulate the network properties by triggering a foreground [NetworkStatusChanged](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.networkstatuschanged.aspx) event and a background [SystemTrigger](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.background.systemtrigger.aspx) of type **NetworkStateChange**.  
   
- **More information about managing network connections**  
+   **More information about managing network connections**  
   
- [Quickstart: Managing metered network cost constraints](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
+   [Quickstart: Managing metered network cost constraints](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
   
- [Network information sample](http://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
+   [Network information sample](http://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
   
- [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
+   [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
   
- [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx)  
+   [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx)  
   
- [How to respond to system events with background tasks](http://msdn.microsoft.com/en-us/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
+   [How to respond to system events with background tasks](http://msdn.microsoft.com/en-us/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
   
- [How to trigger suspend, resume, and background events in Windows Store apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
+   [How to trigger suspend, resume, and background events in Windows Store apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
   
 ##  <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> Navigate the simulator with the keyboard  
  You can navigate the simulator toolbar by pressing **CTRL+ALT+Up Arrow** to switch focus from the simulator window to the simulator toolbar. Use the **Up Arrow** and the **Down Arrow** to move between toolbar buttons.  

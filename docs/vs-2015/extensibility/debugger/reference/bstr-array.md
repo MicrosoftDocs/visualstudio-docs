@@ -1,7 +1,7 @@
 ---
 title: "BSTR_ARRAY | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # BSTR_ARRAY
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BSTR_ARRAY](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bstr-array).  
-  
 A structure that describes an array of strings.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct tagBSTR_ARRAY {  
-   DWORD dwCount;  
-   BSTR* Members;  
+   DWORD dwCount;  
+   BSTR* Members;  
 } BSTR_ARRAY;  
 ```  
   
 ```csharp  
 struct BSTR_ARRAY {  
-   DWORD    dwCount;  
-   string[] Members;  
+   DWORD    dwCount;  
+   string[] Members;  
 }  
 ```  
   

@@ -121,7 +121,7 @@ namespace ListViewAfterLabelEditEx
             // Determine if the ASCII code is within the valid range of numerical values.
             if(bc[0] > 47 && bc[0] < 58)
             {
-               // Cancel the event and return the lable to its original state.
+               // Cancel the event and return the label to its original state.
                e.CancelEdit = true;
                // Display a MessageBox alerting the user that numbers are not allowed.
                MessageBox.Show ("The text for the item cannot contain numerical values.");

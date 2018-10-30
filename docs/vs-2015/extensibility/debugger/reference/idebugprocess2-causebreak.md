@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcess2::CauseBreak | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,15 +21,13 @@ manager: "ghogen"
 # IDebugProcess2::CauseBreak
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::CauseBreak](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-causebreak).  
-  
 Requests that the next program that is running code in this process halt and send an [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md) event object.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT CauseBreak(   
-   void  
+   void  
 );  
 ```  
   

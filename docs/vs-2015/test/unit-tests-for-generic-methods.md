@@ -1,7 +1,7 @@
 ---
 title: "Unit tests for Generic Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Unit tests for Generic Methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unit tests for Generic Methods](https://docs.microsoft.com/visualstudio/test/unit-tests-for-generic-methods).  
-  
 You can generate unit tests for generic methods exactly as you do for other methods, as described in [How to: Create and Run a Unit Test](http://msdn.microsoft.com/en-us/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48). The following sections provide information about and examples of creating unit tests for generic methods.  
   
 ## Type Arguments and Type Constraints  
@@ -96,24 +94,24 @@ public void SizeOfLinkedListTest()
   
 public void SizeOfLinkedListTestHelper<T>()  
 {  
-    T val = default(T);   
-    MyLinkedList<T> target = new MyLinkedList<T>(val); // step 1  
-    for (int i = 0; i < 4; i++) // step 2  
-    {  
-        MyLinkedList<T> newNode = new MyLinkedList<T>(val);  
-        target.Append(newNode);  
-    }  
-    int expected = 5; // step 3  
-    int actual;  
-    actual = target.SizeOfLinkedList(); // step 4  
-    Assert.AreEqual(expected, actual); // step 5  
+    T val = default(T);   
+    MyLinkedList<T> target = new MyLinkedList<T>(val); // step 1  
+    for (int i = 0; i < 4; i++) // step 2  
+    {  
+        MyLinkedList<T> newNode = new MyLinkedList<T>(val);  
+        target.Append(newNode);  
+    }  
+    int expected = 5; // step 3  
+    int actual;  
+    actual = target.SizeOfLinkedList(); // step 4  
+    Assert.AreEqual(expected, actual); // step 5  
 }  
   
 [TestMethod()]  
 public void SizeOfLinkedListTest()   
 {  
-    SizeOfLinkedListTestHelper<int>();  // step 6  
-    SizeOfLinkedListTestHelper<char>(); // step 7  
+    SizeOfLinkedListTestHelper<int>();  // step 6  
+    SizeOfLinkedListTestHelper<char>(); // step 7  
 }  
 ```  
   
@@ -135,25 +133,25 @@ using System.Text;
   
 namespace ClassLibrary2  
 {  
-    public class Employee  
-    {  
-        public Employee(string s, int i)  
-        {  
-        }  
-    }  
+    public class Employee  
+    {  
+        public Employee(string s, int i)  
+        {  
+        }  
+    }  
   
-    public class GenericList<T> where T : Employee  
-    {  
-        private class Node  
-        {  
-            private T data;  
-            public T Data  
-            {  
-                get { return data; }  
-                set { data = value; }  
-            }  
-        }  
-    }  
+    public class GenericList<T> where T : Employee  
+    {  
+        private class Node  
+        {  
+            private T data;  
+            public T Data  
+            {  
+                get { return data; }  
+                set { data = value; }  
+            }  
+        }  
+    }  
 }  
 ```  
   
@@ -172,29 +170,29 @@ namespace ClassLibrary2
   
 ```  
 {  
-    [TestClass()]  
-    public class GenericList_NodeTest  
-    {  
+    [TestClass()]  
+    public class GenericList_NodeTest  
+    {  
   
-        public void DataTestHelper<T>()  
-            where T : Employee  
-        {  
-            GenericList_Shadow<T>.Node target = new GenericList_Shadow<T>.Node(); // TODO: Initialize to an appropriate value  
-            T expected = default(T); // TODO: Initialize to an appropriate value  
-            T actual;  
-            target.Data = expected;  
-            actual = target.Data;  
-            Assert.AreEqual(expected, actual);  
-            Assert.Inconclusive("Verify the correctness of this test method.");  
-        }  
+        public void DataTestHelper<T>()  
+            where T : Employee  
+        {  
+            GenericList_Shadow<T>.Node target = new GenericList_Shadow<T>.Node(); // TODO: Initialize to an appropriate value  
+            T expected = default(T); // TODO: Initialize to an appropriate value  
+            T actual;  
+            target.Data = expected;  
+            actual = target.Data;  
+            Assert.AreEqual(expected, actual);  
+            Assert.Inconclusive("Verify the correctness of this test method.");  
+        }  
   
-        [TestMethod()]  
-        public void DataTest()  
-        {  
-            Assert.Inconclusive("No appropriate type parameter is found to satisfies the type constraint(s) of T. " +  
-            "Please call DataTestHelper<T>() with appropriate type parameters.");  
-        }  
-    }  
+        [TestMethod()]  
+        public void DataTest()  
+        {  
+            Assert.Inconclusive("No appropriate type parameter is found to satisfies the type constraint(s) of T. " +  
+            "Please call DataTestHelper<T>() with appropriate type parameters.");  
+        }  
+    }  
 }  
 ```  
   

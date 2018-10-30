@@ -1,7 +1,7 @@
 ---
 title: "Options Page, Debugging Node Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Options Page, Debugging Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options Page, Debugging Node Properties](https://docs.microsoft.com/visualstudio/ide/reference/options-page-debugging-node-properties).  
-  
   
 The following tables describe the pages (or properties collections) that are associated with the **Debugging** category, `DTE.Properties("Debugging", <Property Page>)` of the **Options** dialog box.  
   

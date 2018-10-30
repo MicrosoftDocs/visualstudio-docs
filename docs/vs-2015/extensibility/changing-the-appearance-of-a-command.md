@@ -1,7 +1,7 @@
 ---
 title: "Changing the Appearance of a Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,19 +21,17 @@ manager: "ghogen"
 # Changing the Appearance of a Command
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Changing the Appearance of a Command](https://docs.microsoft.com/visualstudio/extensibility/changing-the-appearance-of-a-command).  
-  
 You can provide feedback to your user by changing the appearance of a command. For example, you may want a command to look different when it is unavailable. You can make commands available or unavailable, hide or show them, or check or uncheck them on the menu.  
   
  To change the appearance of a command, perform one of these actions:  
   
--   Specify the appropriate flags in the command definition in the command table file.  
+- Specify the appropriate flags in the command definition in the command table file.  
   
--   Use the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> service.  
+- Use the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> service.  
   
--   Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and modify the raw command objects.  
+- Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and modify the raw command objects.  
   
- The following steps show how to find and update the appearance of a command by using the Managed Package Framework (MPF).  
+  The following steps show how to find and update the appearance of a command by using the Managed Package Framework (MPF).  
   
 ### To change the appearance of a menu command  
   

@@ -1,5 +1,5 @@
 ---
-title: "Installing Preview releases"
+title: "Install a Preview release"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
 author: conceptdev
 ms.author: crdun
@@ -9,9 +9,9 @@ ms.technology: vs-ide-install
 ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
 ---
 
-# Installing Preview releases
+# Install a Preview release
 
-Before a new version of Visual Studio for Mac is officially released, it's released as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they are fully incorporated into the product.
+Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they are fully incorporated into the product.
 
 Preview releases to Visual Studio for Mac are distributed as an update, rather than through a separate download. Visual Studio for Mac has three updater channels, as described in the [update](update.md) article: Stable, Beta, and Alpha.
 

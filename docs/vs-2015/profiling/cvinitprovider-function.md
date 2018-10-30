@@ -1,7 +1,7 @@
 ---
 title: "CvInitProvider Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # CvInitProvider Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CvInitProvider Function](https://docs.microsoft.com/visualstudio/profiling/cvinitprovider-function).  
-  
 Initializes marker provider. Has to be called before any other Concurrency Visualizer SDK functions.  
   
 ## Syntax  

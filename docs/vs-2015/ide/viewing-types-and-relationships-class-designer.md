@@ -1,7 +1,7 @@
 ---
 title: "Viewing Types and Relationships (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Viewing Types and Relationships (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Viewing Types and Relationships (Class Designer)](https://docs.microsoft.com/visualstudio/ide/viewing-types-and-relationships-class-designer).  
-  
 Class Designer uses class diagrams to show you the details of types, for example, their constituent members, and the relationships that they share. The visualization of these entities is actually a dynamic view into the code. This means that you can edit types on the designer and then see your edits reflected in the source code of the entity. Similarly, the class diagram is kept synchronized with changes you make to entities in code.  
   
 > [!NOTE]

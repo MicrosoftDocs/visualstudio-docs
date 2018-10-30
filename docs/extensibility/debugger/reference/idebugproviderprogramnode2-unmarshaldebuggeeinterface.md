@@ -23,15 +23,15 @@ Obtains a specified interface across process boundaries.
   
 ```cpp  
 HRESULT UnmarshalDebuggeeInterface(  
-   REFIID riid,  
-   void** ppvObject  
+   REFIID riid,  
+   void** ppvObject  
 );  
 ```  
   
 ```csharp  
 int UnmarshalDebuggeeInterface(  
-   ref Guid   riid,  
-   out IntPtr ppvObject  
+   ref Guid   riid,  
+   out IntPtr ppvObject  
 );  
 ```  
   

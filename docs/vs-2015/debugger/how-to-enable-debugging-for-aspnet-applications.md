@@ -1,7 +1,7 @@
 ---
 title: "How to: Enable Debugging for ASP.NET Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # How to: Enable Debugging for ASP.NET Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Enable Debugging for ASP.NET Applications](https://docs.microsoft.com/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications).  
-  
 To enable debugging, you must enable it in both the **Project Properties** page and in the application's web.config file.  
   
 > [!NOTE]  

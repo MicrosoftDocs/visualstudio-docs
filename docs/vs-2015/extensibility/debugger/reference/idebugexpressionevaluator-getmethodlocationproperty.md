@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpressionEvaluator::GetMethodLocationProperty | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,29 +21,27 @@ manager: "ghogen"
 # IDebugExpressionEvaluator::GetMethodLocationProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator::GetMethodLocationProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator-getmethodlocationproperty).  
-  
 This method converts a method location and offset into a memory address.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetMethodLocationProperty(   
-   LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,  
-   IDebugSymbolProvider* pSymbolProvider,  
-   IDebugAddress*        pAddress,  
-   IDebugBinder*         pBinder,  
-   IDebugProperty2**     ppProperty  
+   LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,  
+   IDebugSymbolProvider* pSymbolProvider,  
+   IDebugAddress*        pAddress,  
+   IDebugBinder*         pBinder,  
+   IDebugProperty2**     ppProperty  
 );  
 ```  
   
 ```csharp  
 int GetMethodLocationProperty(  
-   string               upstrFullyQualifiedMethodPlusOffset,   
-   IDebugSymbolProvider pSymbolProvider,   
-   IDebugAddress        pAddress,   
-   IDebugBinder         pBinder,   
-   out IDebugProperty2  ppProperty  
+   string               upstrFullyQualifiedMethodPlusOffset,   
+   IDebugSymbolProvider pSymbolProvider,   
+   IDebugAddress        pAddress,   
+   IDebugBinder         pBinder,   
+   out IDebugProperty2  ppProperty  
 );  
 ```  
   

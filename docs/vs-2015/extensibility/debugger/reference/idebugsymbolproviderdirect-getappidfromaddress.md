@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProviderDirect::GetAppIDFromAddress | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,23 +20,21 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetAppIDFromAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProviderDirect::GetAppIDFromAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolproviderdirect-getappidfromaddress).  
-  
 Retrieves the application domain identifier given the debug address.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetAppIDFromAddress(  
-   IDebugAddress* pAddress,  
-   DWORD*         pAppID  
+   IDebugAddress* pAddress,  
+   DWORD*         pAppID  
 );  
 ```  
   
 ```csharp  
 int GetAppIDFromAddress(  
-   IDebugAddress pAddress,  
-   out uint      pAppID  
+   IDebugAddress pAddress,  
+   out uint      pAppID  
 );  
 ```  
   

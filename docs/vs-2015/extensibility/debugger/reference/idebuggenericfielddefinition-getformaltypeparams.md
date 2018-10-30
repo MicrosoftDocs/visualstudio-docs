@@ -1,7 +1,7 @@
 ---
 title: "IDebugGenericFieldDefinition::GetFormalTypeParams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,25 +20,23 @@ manager: "ghogen"
 # IDebugGenericFieldDefinition::GetFormalTypeParams
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericFieldDefinition::GetFormalTypeParams](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericfielddefinition-getformaltypeparams).  
-  
 Retrieves the type parameters given the number of parameters.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetFormalTypeParams(  
-   ULONG32                   cParams,  
-   IDebugGenericParamField** ppParams,  
-   ULONG32*                  pcParams  
+   ULONG32                   cParams,  
+   IDebugGenericParamField** ppParams,  
+   ULONG32*                  pcParams  
 );  
 ```  
   
 ```csharp  
 int GetFormalTypeParams(  
-   uint                          cParams,  
-   out IDebugGenericParamField[] ppParams,  
-   ref uint                      pcParams  
+   uint                          cParams,  
+   out IDebugGenericParamField[] ppParams,  
+   ref uint                      pcParams  
 );  
 ```  
   

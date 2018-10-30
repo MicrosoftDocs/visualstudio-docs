@@ -1,7 +1,7 @@
 ---
 title: "Customizing File Storage and XML Serialization | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Customizing File Storage and XML Serialization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing File Storage and XML Serialization](https://docs.microsoft.com/visualstudio/modeling/customizing-file-storage-and-xml-serialization).  
-  
 When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.  
   
  You can customize the serialization scheme by adjusting the settings under **Xml Serialization Behavior** in DSL Explorer. There is a node under **Xml Serialization Behavior** for every domain class, property, and relationship. The relationships are located under their source classes. There are also nodes corresponding to the shape, connector, and diagram classes.  
@@ -101,26 +99,26 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
 ## Understanding Monikers  
  Monikers are used to represent cross-references between different parts of the model and diagram files. They are also used in the `.diagram` file to refer to nodes in the model file. There are two forms of moniker:  
   
--   *Id monikers* quote the GUID of the target element. For example:  
+- *Id monikers* quote the GUID of the target element. For example:  
   
-    ```  
-    <personShapeMoniker Id="f79734c0-3da1-4d72-9514-848fa9e75157" />  
+  ```  
+  <personShapeMoniker Id="f79734c0-3da1-4d72-9514-848fa9e75157" />  
   
-    ```  
+  ```  
   
--   *Qualified key monikers* identify the target element by the value of a designated domain property called the moniker key. The moniker of the target element is prefixed by the moniker of its parent element in the tree of embedding relationships.  
+- *Qualified key monikers* identify the target element by the value of a designated domain property called the moniker key. The moniker of the target element is prefixed by the moniker of its parent element in the tree of embedding relationships.  
   
-     The following examples are taken from a DSL in which there is a domain class named Album, which has an embedding relationship to a domain class named Song:  
+   The following examples are taken from a DSL in which there is a domain class named Album, which has an embedding relationship to a domain class named Song:  
   
-    ```  
-    <albumMoniker title="/My Favorites/Jazz after Teatime" />  
-    <songMoniker title="/My Favorites/Jazz after Teatime/Hot tea" />  
+  ```  
+  <albumMoniker title="/My Favorites/Jazz after Teatime" />  
+  <songMoniker title="/My Favorites/Jazz after Teatime/Hot tea" />  
   
-    ```  
+  ```  
   
-     Qualified key monikers will be used if the target class has a domain property for which the option **Is Moniker Key** is set to `true` in **Xml Serialization Behavior**. In the example, this option is set for domain properties named "Title" in the domain classes "Album" and "Song".  
+   Qualified key monikers will be used if the target class has a domain property for which the option **Is Moniker Key** is set to `true` in **Xml Serialization Behavior**. In the example, this option is set for domain properties named "Title" in the domain classes "Album" and "Song".  
   
- Qualified key monikers are easier to read than ID monikers. If you intend the XML of your model files to be read by people, consider using qualified key monikers. However, it is possible for the user to set more than one element to have the same moniker key. Duplicate keys could cause the file not to reload correctly. Therefore, if you define a domain class that is referenced using qualified key monikers, you should consider ways of preventing the user from saving a file that has duplicate monikers.  
+  Qualified key monikers are easier to read than ID monikers. If you intend the XML of your model files to be read by people, consider using qualified key monikers. However, it is possible for the user to set more than one element to have the same moniker key. Duplicate keys could cause the file not to reload correctly. Therefore, if you define a domain class that is referenced using qualified key monikers, you should consider ways of preventing the user from saving a file that has duplicate monikers.  
   
 #### To set a domain class to be referenced by ID monikers  
   

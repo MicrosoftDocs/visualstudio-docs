@@ -1,7 +1,7 @@
 ---
 title: "How to: Connect to the Northwind Database | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,29 +32,29 @@ As you learn how to create database applications by using Visual Studio, you'll 
   
 #### To create a data connection to the Northwind database (SQL Server)  
   
-1.  On the **View** menu, choose **Server Explorer**/**Database Explorer**.  
+1. On the **View** menu, choose **Server Explorer**/**Database Explorer**.  
   
-2.  In **Server Explorer**/**Database Explorer**, open the shortcut menu for **Data Connections** and choose **Add Connection**.  
+2. In **Server Explorer**/**Database Explorer**, open the shortcut menu for **Data Connections** and choose **Add Connection**.  
   
-     After you choose **Add Connection**, either the **Choose Data Source** dialog box or the **Add Connection** dialog box will appear.  
+    After you choose **Add Connection**, either the **Choose Data Source** dialog box or the **Add Connection** dialog box will appear.  
   
-3.  If the **Choose Data Source** dialog box appears, select **Microsoft SQL Server**, and then choose **OK**.  
+3. If the **Choose Data Source** dialog box appears, select **Microsoft SQL Server**, and then choose **OK**.  
   
-     If the **Add Connection** dialog box appears and the **Data source** is not **Microsoft SQL Server (SqlClient)**, choose the **Change** button to open the **Change Data Source** dialog box, select **Microsoft SQL Server**, and then choose the **OK** button.  
+    If the **Add Connection** dialog box appears and the **Data source** is not **Microsoft SQL Server (SqlClient)**, choose the **Change** button to open the **Change Data Source** dialog box, select **Microsoft SQL Server**, and then choose the **OK** button.  
   
-4.  In the **Server name** list, specify the name of the server on which the Northwind database is located.  
+4. In the **Server name** list, specify the name of the server on which the Northwind database is located.  
   
-5.  Depending on the requirements of your version of SQL Server and the Northwind database, either choose **Use Windows Authentication** or choose **Use SQL Server Authentication** and enter a user name and password to log on to the computer running SQL Server.  
+5. Depending on the requirements of your version of SQL Server and the Northwind database, either choose **Use Windows Authentication** or choose **Use SQL Server Authentication** and enter a user name and password to log on to the computer running SQL Server.  
   
-6.  Choose the Northwind database in the **Select or enter a database name** list.  
+6. Choose the Northwind database in the **Select or enter a database name** list.  
   
-7.  Choose **Test Connection** to verify connectivity to the Northwind database.  
+7. Choose **Test Connection** to verify connectivity to the Northwind database.  
   
-8.  Choose **OK**.  
+8. Choose **OK**.  
   
-     A data connection to the Northwind database is added to **Server Explorer**/**Database Explorer**.  
+    A data connection to the Northwind database is added to **Server Explorer**/**Database Explorer**.  
   
- In addition to connecting to a remote instance of a SQL Server database, you can also connect directly to the actual files that contain the database. This enables you to add the database files directly into a project where they can be deployed as part of the application. The following local database files are currently supported: SQL Server Compact database files (.sdf), [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] and SQL Server Express database files (.mdf), and Microsoft Access database files (.mdb or .accdb).  
+   In addition to connecting to a remote instance of a SQL Server database, you can also connect directly to the actual files that contain the database. This enables you to add the database files directly into a project where they can be deployed as part of the application. The following local database files are currently supported: SQL Server Compact database files (.sdf), [!INCLUDE[ssNoVersion](../includes/ssnoversion-md.md)] and SQL Server Express database files (.mdf), and Microsoft Access database files (.mdb or .accdb).  
   
 #### To create a data connection to the Northwind database—SQL Server database file (.mdf)  
   

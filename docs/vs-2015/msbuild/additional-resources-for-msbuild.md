@@ -1,7 +1,7 @@
 ---
 title: "Additional Resources for MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Additional Resources for MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Additional Resources for MSBuild](https://docs.microsoft.com/visualstudio/msbuild/additional-resources-for-msbuild).  
-  
   
 The following Web sites and forums can help you find answers to common questions when working with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)].  
   

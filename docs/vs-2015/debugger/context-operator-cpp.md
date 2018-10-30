@@ -1,7 +1,7 @@
 ---
 title: "Context Operator (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # Context Operator (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Context Operator (C++)](https://docs.microsoft.com/visualstudio/debugger/context-operator-cpp).  
-  
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.  
   
 ##  <a name="BKMK_Using_context_operators_to_specify_a_symbol"></a> Syntax  
@@ -55,17 +53,17 @@ You can use the context operator in C++ to qualify a breakpoint location, variab
     EXAMPLE.dll!SomeFunction  
     ```  
   
--   *module* is the name of a module. You can use a full path to disambiguate between modules with the same name.  
+- *module* is the name of a module. You can use a full path to disambiguate between modules with the same name.  
   
-     If the *module* path includes a comma, an embedded space, or a brace, you must use quotation marks around the path so that the context parser can properly recognize the string. Single quotation marks are considered part of a Windows file name, so you must use double quotation marks. For example,  
+   If the *module* path includes a comma, an embedded space, or a brace, you must use quotation marks around the path so that the context parser can properly recognize the string. Single quotation marks are considered part of a Windows file name, so you must use double quotation marks. For example,  
   
-    ```cpp  
-    {,,"a long, long, library name.dll"} g_Var  
-    ```  
+  ```cpp  
+  {,,"a long, long, library name.dll"} g_Var  
+  ```  
   
--   *expression* is any valid C++ expression that resolves to a valid target, such as a function name, variable name, or pointer address in *module*.  
+- *expression* is any valid C++ expression that resolves to a valid target, such as a function name, variable name, or pointer address in *module*.  
   
- When the expression evaluator encounters a symbol in an expression, it searches for the symbol in the following order:  
+  When the expression evaluator encounters a symbol in an expression, it searches for the symbol in the following order:  
   
 1.  Lexical scope outward, starting with the current block, series of statements enclosed in braces, and continuing outward with the enclosing block. The current block is the code containing the current location, instruction pointer address.  
   

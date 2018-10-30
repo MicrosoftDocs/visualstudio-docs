@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine3::SetAllExceptions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugEngine3::SetAllExceptions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3::SetAllExceptions](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3-setallexceptions).  
-  
 This method sets the state of all outstanding exceptions.  
   
 ## Syntax  
   
 ```cpp  
 HRESULT SetAllExceptions(  
-   EXCEPTION_STATE dwState  
+   EXCEPTION_STATE dwState  
 );  
 ```  
   
 ```csharp  
 int SetAllExceptions(  
-   enum_EXCEPTION_STATE dwState  
+   enum_EXCEPTION_STATE dwState  
 );  
 ```  
   

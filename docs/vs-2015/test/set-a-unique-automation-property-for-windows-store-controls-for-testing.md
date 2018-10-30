@@ -1,7 +1,7 @@
 ---
 title: "Set a Unique Automation Property for Windows Store Controls for Testing | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Set a Unique Automation Property for Windows Store Controls for Testing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set a Unique Automation Property for Windows Store Controls for Testing](https://docs.microsoft.com/visualstudio/test/set-a-unique-automation-property-for-windows-store-controls-for-testing).  
-  
 If you want to run coded UI tests for your XAML-based Windows Store application, you must have a unique automation property that identifies each control.  
   
  You can assign a unique automation property based on the type of XAML control in your application. Here’s how to assign this unique automation property in the following situations:  
@@ -102,13 +100,13 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
   
 <ListBox Name="listBox1" ItemsSource="{Binding Source={StaticResource employees}}">  
    <ListBox.ItemTemplate>  
-      <DataTemplate>  
-         <StackPanel Orientation="Horizontal">  
-            <TextBlock Text="{Binding EmployeeName}" />  
-            <TextBlock Text="{Binding EmployeeID}" />  
-         </StackPanel>  
-      </DataTemplate>  
-   </ListBox.ItemTemplate>  
+      <DataTemplate>  
+         <StackPanel Orientation="Horizontal">  
+            <TextBlock Text="{Binding EmployeeName}" />  
+            <TextBlock Text="{Binding EmployeeID}" />  
+         </StackPanel>  
+      </DataTemplate>  
+   </ListBox.ItemTemplate>  
 </ListBox>  
 ```  
   
@@ -117,20 +115,20 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
 ```xaml  
   
       <ListBox Name="listBox1" ItemsSource="{Binding Source={StaticResource employees}}">  
-            <ListBox.ItemContainerStyle>  
-                <Style TargetType="ListBoxItem">  
-                    <Setter Property="Template">  
-                        <Setter.Value>  
-                            <ControlTemplate TargetType="ListBoxItem">  
-                                <Grid>  
-                                    <Button Content="{Binding EmployeeName}" AutomationProperties.AutomationId="{Binding EmployeeID}"/>  
-                                </Grid>  
-                            </ControlTemplate>  
-                        </Setter.Value>  
-                    </Setter>  
-                </Style>  
-            </ListBox.ItemContainerStyle>           
-        </ListBox>  
+            <ListBox.ItemContainerStyle>  
+                <Style TargetType="ListBoxItem">  
+                    <Setter Property="Template">  
+                        <Setter.Value>  
+                            <ControlTemplate TargetType="ListBoxItem">  
+                                <Grid>  
+                                    <Button Content="{Binding EmployeeName}" AutomationProperties.AutomationId="{Binding EmployeeID}"/>  
+                                </Grid>  
+                            </ControlTemplate>  
+                        </Setter.Value>  
+                    </Setter>  
+                </Style>  
+            </ListBox.ItemContainerStyle>           
+        </ListBox>  
   
 ```  
   
@@ -144,9 +142,9 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
 Employee[] employees = new Employee[]   
 {  
    new Employee("john", "4384"),  
-   new Employee("margaret", "7556"),  
-   new Employee("richard", "8688"),  
-   new Employee("george", "1293")  
+   new Employee("margaret", "7556"),  
+   new Employee("richard", "8688"),  
+   new Employee("george", "1293")  
 };  
   
 listBox1.ItemsSource = employees;  

@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::Attach | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,29 +21,27 @@ manager: "ghogen"
 # IDebugEngine2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::Attach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-attach).  
-  
 Attaches a debug engine (DE) to a program or programs. Called by the session debug manager (SDM) when the DE is running in-process to the SDM.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Attach(   
-   IDebugProgram2**      pProgram,  
-   IDebugProgramNode2**  rgpProgramNodes,  
-   DWORD                 celtPrograms,  
-   IDebugEventCallback2* pCallback,  
-   ATTACH_REASON         dwReason  
+   IDebugProgram2**      pProgram,  
+   IDebugProgramNode2**  rgpProgramNodes,  
+   DWORD                 celtPrograms,  
+   IDebugEventCallback2* pCallback,  
+   ATTACH_REASON         dwReason  
 );  
 ```  
   
 ```csharp  
 int Attach(   
-   IDebugProgram2[]     pProgram,  
-   IDebugProgramNode2[] rgpProgramNodes,  
-   uint                 celtPrograms,  
-   IDebugEventCallback2 pCallback,  
-   Enum_ATTACH_REASON   dwReason  
+   IDebugProgram2[]     pProgram,  
+   IDebugProgramNode2[] rgpProgramNodes,  
+   uint                 celtPrograms,  
+   IDebugEventCallback2 pCallback,  
+   Enum_ATTACH_REASON   dwReason  
 );  
 ```  
   
@@ -69,25 +67,25 @@ int Attach( 
 ## Remarks  
  There are three reasons for attaching to a program, as follows:  
   
--   `ATTACH_REASON_LAUNCH` indicates that the DE is attaching to the program because the user launched the process that contains it.  
+- `ATTACH_REASON_LAUNCH` indicates that the DE is attaching to the program because the user launched the process that contains it.  
   
--   `ATTACH_REASON_USER` indicates that the user has explicitly requested the DE to attach to a program (or the process that contains a program).  
+- `ATTACH_REASON_USER` indicates that the user has explicitly requested the DE to attach to a program (or the process that contains a program).  
   
--   `ATTACH_REASON_AUTO` indicates the DE is attaching to a particular program because it is already debugging other programs in a particular process. This is also called auto-attach.  
+- `ATTACH_REASON_AUTO` indicates the DE is attaching to a particular program because it is already debugging other programs in a particular process. This is also called auto-attach.  
   
- When this method is called, the DE needs to send these events in sequence:  
+  When this method is called, the DE needs to send these events in sequence:  
   
-1.  [IDebugEngineCreateEvent2](../../../extensibility/debugger/reference/idebugenginecreateevent2.md) (if it has not already been sent for a particular instance of the debug engine)  
+1. [IDebugEngineCreateEvent2](../../../extensibility/debugger/reference/idebugenginecreateevent2.md) (if it has not already been sent for a particular instance of the debug engine)  
   
-2.  [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md)  
+2. [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md)  
   
-3.  [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md)  
+3. [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md)  
   
- In addition, if the reason for attaching is `ATTACH_REASON_LAUNCH`, the DE needs to send the [IDebugEntryPointEvent2](../../../extensibility/debugger/reference/idebugentrypointevent2.md) event.  
+   In addition, if the reason for attaching is `ATTACH_REASON_LAUNCH`, the DE needs to send the [IDebugEntryPointEvent2](../../../extensibility/debugger/reference/idebugentrypointevent2.md) event.  
   
- Once the DE gets the [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object corresponding to the program being debugged, it can be queried for any private interface.  
+   Once the DE gets the [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object corresponding to the program being debugged, it can be queried for any private interface.  
   
- Before calling the methods of a program node in the array given by `pProgram` or `rgpProgramNodes`, impersonation, if required, should be enabled on the `IDebugProgram2` interface that represents the program node. Normally, however, this step is not necessary. For more information, see [Security Issues](../../../extensibility/debugger/security-issues.md).  
+   Before calling the methods of a program node in the array given by `pProgram` or `rgpProgramNodes`, impersonation, if required, should be enabled on the `IDebugProgram2` interface that represents the program node. Normally, however, this step is not necessary. For more information, see [Security Issues](../../../extensibility/debugger/security-issues.md).  
   
 ## See Also  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   

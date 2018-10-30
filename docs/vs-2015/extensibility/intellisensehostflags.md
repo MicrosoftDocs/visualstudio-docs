@@ -1,7 +1,7 @@
 ---
 title: "IntelliSenseHostFlags | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IntelliSenseHostFlags
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IntelliSenseHostFlags](https://docs.microsoft.com/visualstudio/extensibility/intellisensehostflags).  
-  
 Specifies IntelliSense host flags.  
   
 ## Syntax  
@@ -31,11 +29,11 @@ Specifies IntelliSense host flags.
 ```cpp#  
 enum IntellisenseHostFlags  
 {  
-    IHF_READONLYCONTEXT      = 0x00000001  
-    IHF_NOSEPARATESUBJECT    = 0x00000002  
-    IHF_SINGLELINESUBJECT    = 0x00000004  
-    IHF_FORCECOMMITTOCONTEXT = 0x00000008  
-    IHF_OVERTYPE             = 0x00000010  
+    IHF_READONLYCONTEXT      = 0x00000001  
+    IHF_NOSEPARATESUBJECT    = 0x00000002  
+    IHF_SINGLELINESUBJECT    = 0x00000004  
+    IHF_FORCECOMMITTOCONTEXT = 0x00000008  
+    IHF_OVERTYPE             = 0x00000010  
 };  
 ```  
   

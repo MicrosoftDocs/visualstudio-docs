@@ -1,7 +1,7 @@
 ---
 title: "Client-Side Script Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Client-Side Script Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Client-Side Script Debugging](https://docs.microsoft.com/visualstudio/debugger/client-side-script-debugging).  
-  
 The Visual Studio  debugger provides a comprehensive debugging environment for finding and correcting errors in client-side scripts in ASP.NET pages.  
   
 ## Opening Script Documents  
@@ -43,17 +41,17 @@ The Visual Studio  debugger provides a comprehensive debugging environment for f
   
  The debugger automatically attaches to script when one of the following things occurs:  
   
--   You hit a breakpoint set in script.  
+- You hit a breakpoint set in script.  
   
--   You hit a VBScript `Stop` statement or JScript `debugger` statement in your script code.  
+- You hit a VBScript `Stop` statement or JScript `debugger` statement in your script code.  
   
--   The browser or server encounters a syntax or run time error in your script. When this occurs, a dialog box appears and have the option to begin debugging.  
+- The browser or server encounters a syntax or run time error in your script. When this occurs, a dialog box appears and have the option to begin debugging.  
   
- When you manually attach to script, the script process continues to run until it is somehow halted. You can halt it by choosing **Break** on the **Debug** menu.  
+  When you manually attach to script, the script process continues to run until it is somehow halted. You can halt it by choosing **Break** on the **Debug** menu.  
   
- When the debugger attaches automatically, script execution is halted at the line where the breakpoint, `Stop` statement or `debugger` statement, or error occurred, or at the point where you chose to start debugging in Internet Explorer.  
+  When the debugger attaches automatically, script execution is halted at the line where the breakpoint, `Stop` statement or `debugger` statement, or error occurred, or at the point where you chose to start debugging in Internet Explorer.  
   
- At that point, you can use the normal debugger facilities to begin debugging. For example, you can use **Step** commands to continue to execute your code line by line. You can use the **Call Stack** window to view and control script flow. You can use the variable windows or **Immediate** window to view or change variables and properties.  
+  At that point, you can use the normal debugger facilities to begin debugging. For example, you can use **Step** commands to continue to execute your code line by line. You can use the **Call Stack** window to view and control script flow. You can use the variable windows or **Immediate** window to view or change variables and properties.  
   
 ## Enhanced Error Messages for Script Debugging  
  Visual Studio provides enhanced error messages for common script debugging problems. These messages do not appear unless you attach to Internet Explorer manually. If you encounter an error condition when Internet Explorer is opened automatically, try manually attaching so that you can see the error messages.  

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using Profiler APIs | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Walkthrough: Using Profiler APIs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Using Profiler APIs](https://docs.microsoft.com/visualstudio/profiling/walkthrough-using-profiler-apis).  
-  
 The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools APIs. You will use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.  
   
  The steps in this walkthrough generally apply to a C/C++ application. For each language, you will have to configure your build environment appropriately.  
@@ -120,19 +118,19 @@ DataCollection.CurrentId);
   
 #### To collect and view data in the Visual Studio IDE  
   
-1.  Open the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE. On to the **Analyze** menu, point to **Profiler**, and then select **New Performance Session.**  
+1. Open the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE. On to the **Analyze** menu, point to **Profiler**, and then select **New Performance Session.**  
   
-2.  Add your compiled binary to the **Targets** list in the **Performance Explorer** window. Right-click **Targets**, and then select **Add Target Binary**. Locate the binary in the **Add Target Binary** dialog box, and then click **Open**.  
+2. Add your compiled binary to the **Targets** list in the **Performance Explorer** window. Right-click **Targets**, and then select **Add Target Binary**. Locate the binary in the **Add Target Binary** dialog box, and then click **Open**.  
   
-3.  Select **Instrumentation** from the **Method** list on the **Performance Explorer** toolbar.  
+3. Select **Instrumentation** from the **Method** list on the **Performance Explorer** toolbar.  
   
-4.  Click **Launch with Profiling**.  
+4. Click **Launch with Profiling**.  
   
-     The profiler will instrument and execute the binary and create a performance report file. The performance report file will appear in the **Reports** node of the **Performance Explorer**.  
+    The profiler will instrument and execute the binary and create a performance report file. The performance report file will appear in the **Reports** node of the **Performance Explorer**.  
   
-5.  Open the resulting performance report file.  
+5. Open the resulting performance report file.  
   
- By default, when the profiler is started, the profiler will collect data at the global level. The following code at the start of the program turns global profiling off.  
+   By default, when the profiler is started, the profiler will collect data at the global level. The following code at the start of the program turns global profiling off.  
   
 ```  
 DataCollection.StopProfile(  

@@ -1,7 +1,7 @@
 ---
 title: "DataContext Methods (O-R Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "ghogen"
 # DataContext Methods (O/R Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DataContext Methods (O-R Designer)](https://docs.microsoft.com/visualstudio/data-tools/datacontext-methods-o-r-designer).  
-  
   
 DataContext](assetId:///T:System.Data.Linq.DataContext?qualifyHint=False&autoUpgrade=True) methods (in the context of the [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)) are methods of the <xref:System.Data.Linq.DataContext> class that run stored procedures and functions in a database.  
   

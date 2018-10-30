@@ -47,17 +47,17 @@ ms.workload:
   
  The following sections briefly describe the top-level objects and how they interact with each other. These objects include the following five:  
   
--   Application object  
+- Application object  
   
--   Document object  
+- Document object  
   
--   Selection object  
+- Selection object  
   
--   Range object  
+- Range object  
   
--   Bookmark object  
+- Bookmark object  
   
- In addition to the Word object model, Office projects in Visual Studio provide *host items* and *host controls* that extend some objects in the Word object model. Host items and host controls behave like the Word objects they extend, but they also have additional functionality such as data-binding capabilities and extra events. For more information, see [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md) and [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).  
+  In addition to the Word object model, Office projects in Visual Studio provide *host items* and *host controls* that extend some objects in the Word object model. Host items and host controls behave like the Word objects they extend, but they also have additional functionality such as data-binding capabilities and extra events. For more information, see [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md) and [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).  
   
 ### Application object  
  The <xref:Microsoft.Office.Interop.Word.Application> object represents the Word application, and is the parent of all of the other objects. Its members usually apply to Word as a whole. You can use its properties and methods to control the Word environment.  
@@ -84,17 +84,17 @@ ms.workload:
 ### Range object  
  The <xref:Microsoft.Office.Interop.Word.Range> object represents a contiguous area in a document, and is defined by a starting character position and an ending character position. You are not limited to a single <xref:Microsoft.Office.Interop.Word.Range> object. You can define multiple <xref:Microsoft.Office.Interop.Word.Range> objects in the same document. A <xref:Microsoft.Office.Interop.Word.Range> object has the following characteristics:  
   
--   It can consist of the insertion point alone, a range of text, or the entire document.  
+- It can consist of the insertion point alone, a range of text, or the entire document.  
   
--   It includes non-printing characters such as spaces, tab characters, and paragraph marks.  
+- It includes non-printing characters such as spaces, tab characters, and paragraph marks.  
   
--   It can be the area represented by the current selection, or it can represent an area different from the current selection.  
+- It can be the area represented by the current selection, or it can represent an area different from the current selection.  
   
--   It is not visible in a document, unlike a selection, which is always visible.  
+- It is not visible in a document, unlike a selection, which is always visible.  
   
--   It is not saved with a document and exists only while the code is running.  
+- It is not saved with a document and exists only while the code is running.  
   
- When you insert text at the end of a range, Word automatically expands the range to include the inserted text.  
+  When you insert text at the end of a range, Word automatically expands the range to include the inserted text.  
   
 ### Content control objects  
  A <xref:Microsoft.Office.Interop.Word.ContentControl> provides a way for you to control the input and presentation of text and other types of content in Word documents. A <xref:Microsoft.Office.Interop.Word.ContentControl> can display several different types of UI that are optimized for use in Word documents, such as a rich text control, a date picker, or a combo box. You can also use a <xref:Microsoft.Office.Interop.Word.ContentControl> to prevent users from editing sections of the document or template.  
@@ -104,13 +104,13 @@ ms.workload:
 ### Bookmark object  
  The <xref:Microsoft.Office.Interop.Word.Bookmark> object represents a contiguous area in a document, with both a starting position and an ending position. You can use bookmarks to mark a location in a document, or as a container for text in a document. A <xref:Microsoft.Office.Interop.Word.Bookmark> object can consist of the insertion point, or be as large as the entire document. A <xref:Microsoft.Office.Interop.Word.Bookmark> has the following characteristics that set it apart from the <xref:Microsoft.Office.Interop.Word.Range> object:  
   
--   You can name the bookmark at design time.  
+- You can name the bookmark at design time.  
   
--   <xref:Microsoft.Office.Interop.Word.Bookmark> objects are saved with the document, and thus are not deleted when the code stops running or your document is closed.  
+- <xref:Microsoft.Office.Interop.Word.Bookmark> objects are saved with the document, and thus are not deleted when the code stops running or your document is closed.  
   
--   Bookmarks can be hidden or made visible by setting the <xref:Microsoft.Office.Interop.Word.View.ShowBookmarks%2A> property of the <xref:Microsoft.Office.Interop.Word.View> object to **false** or **true**.  
+- Bookmarks can be hidden or made visible by setting the <xref:Microsoft.Office.Interop.Word.View.ShowBookmarks%2A> property of the <xref:Microsoft.Office.Interop.Word.View> object to **false** or **true**.  
   
- Visual Studio extends the <xref:Microsoft.Office.Interop.Word.Bookmark> object by providing the <xref:Microsoft.Office.Tools.Word.Bookmark> host control. The <xref:Microsoft.Office.Tools.Word.Bookmark> host control behaves like a native <xref:Microsoft.Office.Interop.Word.Bookmark>, but has additional events and data-binding capabilities. You can bind data to a bookmark control on a document in the same way that you bind data to a text box control on a Windows Form. For more information, see [Bookmark control](../vsto/bookmark-control.md).  
+  Visual Studio extends the <xref:Microsoft.Office.Interop.Word.Bookmark> object by providing the <xref:Microsoft.Office.Tools.Word.Bookmark> host control. The <xref:Microsoft.Office.Tools.Word.Bookmark> host control behaves like a native <xref:Microsoft.Office.Interop.Word.Bookmark>, but has additional events and data-binding capabilities. You can bind data to a bookmark control on a document in the same way that you bind data to a text box control on a Windows Form. For more information, see [Bookmark control](../vsto/bookmark-control.md).  
   
 ##  <a name="WordOMDocumentation"></a> Use the Word object model documentation  
  For complete information about the Word object model, you can refer to the Word primary interop assembly (PIA) reference and the Visual Basic for Applications (VBA) object model reference.  

@@ -23,15 +23,15 @@ This method returns a proxy for a property object.
   
 ```cpp  
 HRESULT GetPropertyProxy(  
-   DWORD                  dwID,  
-   IPropertyProxyEESide** proxy  
+   DWORD                  dwID,  
+   IPropertyProxyEESide** proxy  
 );  
 ```  
   
 ```csharp  
 int GetPropertyProxy(  
-   uint                     dwID,  
-   out IPropertyProxyEESide proxy  
+   uint                     dwID,  
+   out IPropertyProxyEESide proxy  
 );  
 ```  
   

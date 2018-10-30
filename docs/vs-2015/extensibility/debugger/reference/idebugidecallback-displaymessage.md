@@ -1,7 +1,7 @@
 ---
 title: "IDebugIDECallback::DisplayMessage | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,21 +19,19 @@ manager: "ghogen"
 # IDebugIDECallback::DisplayMessage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugIDECallback::DisplayMessage](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugidecallback-displaymessage).  
-  
 Sends the specified message string to the debugger's output window.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT DisplayMessage (  
-   LPCOLESTR szMessage  
+   LPCOLESTR szMessage  
 );  
 ```  
   
 ```csharp  
 int DisplayMessage (  
-   string szMessage  
+   string szMessage  
 );  
 ```  
   

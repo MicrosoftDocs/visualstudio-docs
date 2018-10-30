@@ -1,7 +1,7 @@
 ---
 title: "Accessing Stored Font and Color Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Accessing Stored Font and Color Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessing Stored Font and Color Settings](https://docs.microsoft.com/visualstudio/extensibility/accessing-stored-font-and-color-settings).  
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) stores modified settings for fonts and colors in the registry. You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface to access these settings.  
   
 ## To Initiate State Persistence of Fonts and Colors  
@@ -49,17 +47,17 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environm
 ## To Use State Persistence of Fonts and Colors  
  Persisting fonts and colors involves:  
   
--   Synchronizing the IDE settings with settings stored in the registry.  
+- Synchronizing the IDE settings with settings stored in the registry.  
   
--   Propagating registry modification information.  
+- Propagating registry modification information.  
   
--   Setting and retrieving settings stored in the registry.  
+- Setting and retrieving settings stored in the registry.  
   
- Synchronizing the storage setting with the IDE settings is largely transparent. The underlying IDE automatically writes updated settings for **Display Items** to the registry entries of categories.  
+  Synchronizing the storage setting with the IDE settings is largely transparent. The underlying IDE automatically writes updated settings for **Display Items** to the registry entries of categories.  
   
- If multiple VSPackages share a particular category, a VSPackage should require that events are generated when methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface are used to modify stored registry settings.  
+  If multiple VSPackages share a particular category, a VSPackage should require that events are generated when methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface are used to modify stored registry settings.  
   
- By default, event generation is not enabled. To enable event generation, a category must be opened by using <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>. This causes the IDE to call the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> method that a VSPackage implements.  
+  By default, event generation is not enabled. To enable event generation, a category must be opened by using <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>. This causes the IDE to call the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> method that a VSPackage implements.  
   
 > [!NOTE]
 >  Modifications through the **Font and Color** property page generate events independent of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage>. You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface to determine whether an update of cached font and color settings is needed before calling the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> class.  

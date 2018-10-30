@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
  And—of course—support for classic desktop applications is better than ever, with lots of improvements to languages, libraries, and tools.  
   
 ### Cross-platform mobile apps in C# with Xamarin for Visual Studio  
- Xamarin is a mobile framework that enables you to write code in C# that binds natively to iOS and Android APIs. Microsoft has partnered closely with Xamarin on their release of Xamarin for Visual Studio, an extension that enables you to develop for Android, iOS, and Windows Phone in a single solution with shared code. With Xamarin, you’ll use one  language and one code base with minimal deltas between the platforms.  Xamarin for Visual Studio is supported on Visual Studio 2010 and later. The starter edition of Xamarin is  is included in Visual Studio 2015. To get started, see [Build apps with native UI using Xamarin in Visual Studio](./cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md).  
+ Xamarin is a mobile framework that enables you to write code in C# that binds natively to iOS and Android APIs. Microsoft has partnered closely with Xamarin on their release of Xamarin for Visual Studio, an extension that enables you to develop for Android, iOS, and Windows Phone in a single solution with shared code. With Xamarin, you’ll use one  language and one code base with minimal deltas between the platforms.  Xamarin for Visual Studio is supported on Visual Studio 2010 and later. The starter edition of Xamarin is included in Visual Studio 2015. To get started, see [Build apps with native UI using Xamarin in Visual Studio](./cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md).  
   
 ### Cross-platform mobile apps in HTML/JavaScript with Apache Cordova  
  Visual Studio Tools for Apache Cordova is the result of close collaboration between Microsoft and the open source Apache Cordova community. The tools enable cross-platform mobile development using HTML, CSS, and JavaScript (or Typescript). You can target Android, iOS, and Windows with a single code base and enjoy the richness of the Visual Studio IDE including JavaScript IntelliSense, the DOM Explorer, JavaScript Console, breakpoints, watches, locals, Just My Code, and more.  With Visual Studio Tools for Apache Cordova, your apps have access to native device capabilities on all platforms through plugins that provide a common JavaScript API. To get started, see [Get Started with Visual Studio Tools for Apache Cordova](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42).  
@@ -102,17 +102,17 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 ## Connect to Services  
  Visual Studio 2015 makes it easier than ever to connect your app to services.  The new Add Connected Service wizard configures your project, adds the necessary authentication support, and downloads the necessary NuGet packages to get you started coding against your service quickly and painlessly. The Add Connected Service wizard also integrates with the new Account Manager to make it easy to work with multiple user accounts and subscriptions. In Visual Studio 2015, support for the following services is provided out of the box (assuming that you have an account):  
   
-1.  Azure Mobile Services  
+1. Azure Mobile Services  
   
-2.  Azure Storage  
+2. Azure Storage  
   
-3.  Office 365 (mail, contacts, calendars, files, users & groups)  
+3. Office 365 (mail, contacts, calendars, files, users & groups)  
   
-4.  Salesforce  
+4. Salesforce  
   
- New services will be added on an ongoing basis, and you can discover those by clicking the “Find new services link” in the wizard.  
+   New services will be added on an ongoing basis, and you can discover those by clicking the “Find new services link” in the wizard.  
   
- ![Add Connected Services Dialog](./ide/media/vs2015-addconnectedservicedialog.png "VS2015_AddConnectedServiceDialog")  
+   ![Add Connected Services Dialog](./ide/media/vs2015-addconnectedservicedialog.png "VS2015_AddConnectedServiceDialog")  
   
 ## Design your UI  
  The Blend experience for designing XAML user interfaces has been significantly enhanced. Blend has been completely redesigned to provide a more intuitive UI, more powerful XAML editing capabilities including IntelliSense, and better integration with Visual Studio. For more information, see [Designing XAML in Visual Studio and Blend for Visual Studio](./designers/designing-xaml-in-visual-studio.md).  
@@ -182,19 +182,19 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
   
  In Visual Studio Enterprise and Visual Studio Professional, you can now:  
   
--   Get history for an entire code file in the Visual Studio editor.  
+- Get history for an entire code file in the Visual Studio editor.  
   
-     ![CodeLens: Get code file details](./ide/media/codelensfilelevel.png "CodeLensFileLevel")  
+   ![CodeLens: Get code file details](./ide/media/codelensfilelevel.png "CodeLensFileLevel")  
   
--   See a graph that shows the people who changed your code. This can help you find patterns in your team's changes and assess their impact.  
+- See a graph that shows the people who changed your code. This can help you find patterns in your team's changes and assess their impact.  
   
-     ![CodeLens: See code changes history as a graph](./ide/media/codelens.png "CodeLens")  
+   ![CodeLens: See code changes history as a graph](./ide/media/codelens.png "CodeLens")  
   
--   Easily see when your code was last changed.  
+- Easily see when your code was last changed.  
   
--   Find changes in other branches that affect your code.  
+- Find changes in other branches that affect your code.  
   
- See [CodeLens](./ide/find-code-changes-and-other-history-with-codelens.md).  
+  See [CodeLens](./ide/find-code-changes-and-other-history-with-codelens.md).  
   
 ### Design and modeling tools (Enterprise edition only)  
  **Code maps and dependency graphs**  
@@ -207,35 +207,35 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
   
  Other improvements include:  
   
--   **Improved top-down diagrams**. For medium to large Visual Studio solutions, you can now use a simplified Architecture menu to get a more useful code maps for your solution. The assemblies of your solution are grouped by the solution folders, so you can see them in context and leverage the effort you've put in structuring the solution. You'll immediately see project and assembly references, and then the link types appear. In addition, the assemblies external to your solution are grouped in a more compact way.  
+- **Improved top-down diagrams**. For medium to large Visual Studio solutions, you can now use a simplified Architecture menu to get a more useful code maps for your solution. The assemblies of your solution are grouped by the solution folders, so you can see them in context and leverage the effort you've put in structuring the solution. You'll immediately see project and assembly references, and then the link types appear. In addition, the assemblies external to your solution are grouped in a more compact way.  
   
--   **Test Projects are styled differently and can be filtered**. You can now more easily and quickly identify test projects on map because they are styled differently. They can also be filtered out so that you can focus on the application’s working code.  
+- **Test Projects are styled differently and can be filtered**. You can now more easily and quickly identify test projects on map because they are styled differently. They can also be filtered out so that you can focus on the application’s working code.  
   
--   **Simplified external dependency links**. Dependency links no longer represent the inheritance from System.Object, System.ValueType, System.Enum, and System.Delegate, which makes it easier to see external dependencies in your code map.  
+- **Simplified external dependency links**. Dependency links no longer represent the inheritance from System.Object, System.ValueType, System.Enum, and System.Delegate, which makes it easier to see external dependencies in your code map.  
   
--   **'Drill-in into dependency links' takes filters into account**. You get a useful, clear diagram when expanding it to understand the contributions to a dependency link. The diagram is less cluttered, and it takes into account the link filtering options you’ve selected.  
+- **'Drill-in into dependency links' takes filters into account**. You get a useful, clear diagram when expanding it to understand the contributions to a dependency link. The diagram is less cluttered, and it takes into account the link filtering options you’ve selected.  
   
--   **Code elements are added to a code map with their context**. Because diagrams now appear with their context (up to the assembly and solution folder that you can filter out if required), you get more useful diagrams when dragging and dropping code elements from Solution Explorer, Class View, Object Browser; or when selecting elements in Solution Explorer and choosing Show on Code Map.  
+- **Code elements are added to a code map with their context**. Because diagrams now appear with their context (up to the assembly and solution folder that you can filter out if required), you get more useful diagrams when dragging and dropping code elements from Solution Explorer, Class View, Object Browser; or when selecting elements in Solution Explorer and choosing Show on Code Map.  
   
--   **Get reactive code maps more quickly**. Drag and drop operations produce an immediate result, and the links between nodes are created much more quickly, without affecting subsequent user-initiated operations such as expanding a node or requesting more nodes. When you create code maps without building the solution, all the corner cases—such as when assemblies are not built—are now processed.  
+- **Get reactive code maps more quickly**. Drag and drop operations produce an immediate result, and the links between nodes are created much more quickly, without affecting subsequent user-initiated operations such as expanding a node or requesting more nodes. When you create code maps without building the solution, all the corner cases—such as when assemblies are not built—are now processed.  
   
--   **Skip rebuilding your solution.** Provides better performance when creating and editing diagrams.  
+- **Skip rebuilding your solution.** Provides better performance when creating and editing diagrams.  
   
--   **Filter code element nodes and groups**. You can quickly unclutter your maps by showing or hiding code elements based on their category, as well as by grouping code elements by solution folders, assemblies, namespaces, project folders, and types.  
+- **Filter code element nodes and groups**. You can quickly unclutter your maps by showing or hiding code elements based on their category, as well as by grouping code elements by solution folders, assemblies, namespaces, project folders, and types.  
   
--   **Filter relationships to make diagrams easier to read**. Link filtering now also applies to cross group links, which makes working with the filter window less intrusive than it was in previous releases.  
+- **Filter relationships to make diagrams easier to read**. Link filtering now also applies to cross group links, which makes working with the filter window less intrusive than it was in previous releases.  
   
--   **Create diagrams from the Class View and Object Browser**. Drag and drop files and assemblies into a new or an existing map from the Class View and Object Browser windows.  
+- **Create diagrams from the Class View and Object Browser**. Drag and drop files and assemblies into a new or an existing map from the Class View and Object Browser windows.  
   
- See [Map dependencies across your solutions](./modeling/map-dependencies-across-your-solutions.md).  
+  See [Map dependencies across your solutions](./modeling/map-dependencies-across-your-solutions.md).  
   
- **Other design and modeling changes in this release:**  
+  **Other design and modeling changes in this release:**  
   
--   **Layer diagrams**. Update these diagrams using Class View and Object Browser. To meet software design requirements, use layer diagrams to describe the desired dependencies for your software. Keep code consistent with this design by finding code that doesn’t meet these constraints, and by validating future code with this baseline.  
+- **Layer diagrams**. Update these diagrams using Class View and Object Browser. To meet software design requirements, use layer diagrams to describe the desired dependencies for your software. Keep code consistent with this design by finding code that doesn’t meet these constraints, and by validating future code with this baseline.  
   
--   **UML diagrams**. You can no longer create UML class diagrams and sequence diagrams from code. But you still create these diagrams using new UML elements.  
+- **UML diagrams**. You can no longer create UML class diagrams and sequence diagrams from code. But you still create these diagrams using new UML elements.  
   
--   **Architecture Explorer**. You can no longer use Architecture Explorer to create diagrams. But you can still use Solution Explorer.  
+- **Architecture Explorer**. You can no longer use Architecture Explorer to create diagrams. But you can still use Solution Explorer.  
   
 ## Visual Studio Extensibility Tools  
  It’s never been easier to install the Visual Studio Extensibility Tools (VS SDK and templates) as they are now included as an optional component during setup.  The Extensibility Tools allow developers to write extensions to customize and add features to Visual Studio. For more information about Visual Studio extensibility, see [Visual Studio SDK](./extensibility/visual-studio-sdk.md)  
@@ -274,4 +274,4 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 * [Create custom window layouts](./misc/create-custom-window-layouts.md)   
 * [Perform quick actions with light bulbs](./ide/perform-quick-actions-with-light-bulbs.md)   
 * [What's new for Application Lifecycle Management in Visual Studio 2015](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)
-* [What's New in Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
+* [What's New in Visual Studio 2017](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)

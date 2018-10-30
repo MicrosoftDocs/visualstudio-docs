@@ -27,7 +27,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about Visual Studio and the .NET Framework's tooling and API support for developing data applications</h3>
+                        <h3>Learn about Visual Studio and the .NET Framework&#39;s tooling and API support for developing data applications</h3>
                     </div>
                 </div>
             </div>

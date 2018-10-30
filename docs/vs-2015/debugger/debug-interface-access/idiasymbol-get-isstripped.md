@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isStripped | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_isStripped
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isStripped](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-isstripped).  
-  
 Retrieves flag indicating whether private symbols were stripped from the symbol file.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_isStripped(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

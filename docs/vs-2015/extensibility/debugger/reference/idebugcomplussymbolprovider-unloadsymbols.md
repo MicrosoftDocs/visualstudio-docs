@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::UnloadSymbols | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,23 +20,21 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::UnloadSymbols
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::UnloadSymbols](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-unloadsymbols).  
-  
 Unloads the debug symbols for the specified module from memory.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT UnloadSymbols(  
-   ULONG32 ulAppDomainID,  
-   GUID    guidModule  
+   ULONG32 ulAppDomainID,  
+   GUID    guidModule  
 );  
 ```  
   
 ```csharp  
 int UnloadSymbols(  
-   uint ulAppDomainID,  
-   Guid guidModule  
+   uint ulAppDomainID,  
+   Guid guidModule  
 );  
 ```  
   

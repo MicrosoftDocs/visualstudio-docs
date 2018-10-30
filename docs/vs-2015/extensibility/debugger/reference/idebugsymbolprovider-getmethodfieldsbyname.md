@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProvider::GetMethodFieldsByName | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetMethodFieldsByName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetMethodFieldsByName](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getmethodfieldsbyname).  
-  
 This method gets the field representing a fully qualified method name.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetMethodFieldsByName(   
-   LPCOLESTR          pszFullName,  
-   NAME_MATCH         nameMatch,  
-   IEnumDebugFields** ppEnum  
+   LPCOLESTR          pszFullName,  
+   NAME_MATCH         nameMatch,  
+   IEnumDebugFields** ppEnum  
 );  
 ```  
   
 ```csharp  
 int GetMethodFieldsByName(  
-   string               pszFullName,   
-   NAME_MATCH           nameMatch,   
-   out IEnumDebugFields ppEnum  
+   string               pszFullName,   
+   NAME_MATCH           nameMatch,   
+   out IEnumDebugFields ppEnum  
 );  
 ```  
   

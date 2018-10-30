@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumFrameData::frameByRVA | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,16 +22,14 @@ manager: "ghogen"
 # IDiaEnumFrameData::frameByRVA
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumFrameData::frameByRVA](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumframedata-framebyrva).  
-  
 Returns a frame by relative virtual address (RVA).  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT frameByRVA(   
-   DWORD           relativeVirtualAddress,  
-   IDiaFrameData** frame  
+   DWORD           relativeVirtualAddress,  
+   IDiaFrameData** frame  
 );  
 ```  
   

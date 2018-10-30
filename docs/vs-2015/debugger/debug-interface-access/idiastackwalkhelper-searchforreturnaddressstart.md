@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackWalkHelper::searchForReturnAddressStart | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,17 +22,15 @@ manager: "ghogen"
 # IDiaStackWalkHelper::searchForReturnAddressStart
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::searchForReturnAddressStart](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-searchforreturnaddressstart).  
-  
 Searches the specified stack frame for a return address at or near the specified stack address.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT searchForReturnAddressStart(   
-   IDiaFrameData*  frame,  
-   ULONGLONG       startAddress,  
-   ULONGLONG*      returnAddress  
+   IDiaFrameData*  frame,  
+   ULONGLONG       startAddress,  
+   ULONGLONG*      returnAddress  
 );  
 ```  
   

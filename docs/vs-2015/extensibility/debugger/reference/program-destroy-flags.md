@@ -1,7 +1,7 @@
 ---
 title: "PROGRAM_DESTROY_FLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # PROGRAM_DESTROY_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PROGRAM_DESTROY_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/program-destroy-flags).  
-  
 Enumerates the valid values of the program destroy flags.  
   
 ## Syntax  
@@ -28,7 +26,7 @@ Enumerates the valid values of the program destroy flags.
 ```cpp#  
 enum enum_PPROGRAM_DESTROY_FLAGS  
 {  
-   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  
+   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  
 };  
 typedef DWORD PROGRAM_DESTROY_FLAGS;  
 ```  
@@ -36,7 +34,7 @@ typedef DWORD PROGRAM_DESTROY_FLAGS;
 ```csharp  
 public enum enum_PPROGRAM_DESTROY_FLAGS  
 {  
-   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  
+   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1  
 };  
 ```  
   

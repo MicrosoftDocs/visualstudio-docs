@@ -1,7 +1,7 @@
 ---
 title: "IDiaFrameData::execute | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaFrameData::execute
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaFrameData::execute](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaframedata-execute).  
-  
 Performs stack unwinding and returns results in a stack walk frame interface.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT execute (   
-   IDiaStackWalkFrame* frame  
+   IDiaStackWalkFrame* frame  
 );  
 ```  
   

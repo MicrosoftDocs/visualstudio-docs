@@ -1,7 +1,7 @@
 ---
 title: "IDebugArrayObject2::HasBaseIndices | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,21 +20,19 @@ manager: "ghogen"
 # IDebugArrayObject2::HasBaseIndices
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayObject2::HasBaseIndices](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayobject2-hasbaseindices).  
-  
 Determines if the array has base indices (lower bounds) defined.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT HasBaseIndices (  
-   BOOL* pfHasBaseIndices  
+   BOOL* pfHasBaseIndices  
 );  
 ```  
   
 ```csharp  
 int HasBaseIndices (  
-   out bool pfHasBaseIndices  
+   out bool pfHasBaseIndices  
 );  
 ```  
   

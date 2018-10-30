@@ -1,7 +1,7 @@
 ---
 title: "Using stubs to isolate parts of your application from each other for unit testing | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Using stubs to isolate parts of your application from each other for unit testing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using stubs to isolate parts of your application from each other for unit testing](https://docs.microsoft.com/visualstudio/test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing).  
-  
 Stub types* are one of two technologies that the Microsoft Fakes framework provides to let you easily isolate a component you are testing from other components that it calls. A stub is a small piece of code that takes the place of another component during testing. The benefit of using a stub is that it returns consistent results, making the test easier to write. And you can run tests even if the other components are not working yet.  
   
  For an overview and quick start guide to Fakes, see [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).  
@@ -121,13 +119,13 @@ End Function
   
  Interface injection applies the following rule:  
   
--   The code of any component of your application should never explicitly refer to a class in another component, either in a declaration or in a `new` statement. Instead, variables and parameters should be declared with interfaces. Component instances should be created only by the component’s container.  
+- The code of any component of your application should never explicitly refer to a class in another component, either in a declaration or in a `new` statement. Instead, variables and parameters should be declared with interfaces. Component instances should be created only by the component’s container.  
   
-     By "component" in this case we mean a class, or a group of classes that you develop and update together. Typically, a component is the code in one Visual Studio project. It’s less important to decouple classes within one component, because they are updated at the same time.  
+   By "component" in this case we mean a class, or a group of classes that you develop and update together. Typically, a component is the code in one Visual Studio project. It’s less important to decouple classes within one component, because they are updated at the same time.  
   
-     It is also not so important to decouple your components from the classes of a relatively stable platform such as System.dll. Writing interfaces for all these classes would clutter your code.  
+   It is also not so important to decouple your components from the classes of a relatively stable platform such as System.dll. Writing interfaces for all these classes would clutter your code.  
   
- The StockAnalyzer code can therefore be improved by decoupling it from the StockFeed by using an interface like this:  
+  The StockAnalyzer code can therefore be improved by decoupling it from the StockFeed by using an interface like this:  
   
 ```csharp  
 public interface IStockFeed  

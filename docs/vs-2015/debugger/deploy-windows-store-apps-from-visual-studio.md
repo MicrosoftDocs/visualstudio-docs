@@ -1,7 +1,7 @@
 ---
 title: "Deploy Windows Store apps from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,23 +23,21 @@ manager: "ghogen"
 # Deploy Windows Store apps from Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploy Windows Store apps from Visual Studio](https://docs.microsoft.com/visualstudio/debugger/deploy-windows-store-apps-from-visual-studio).  
-  
 Applies to Windows only](../Image/windows_only_content.png "windows_only_content")  
   
  The Visual Studio deployment functionality builds and registers Windows Store apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:  
   
--   When the target is the local Visual Studio machine, Visual Studio registers the app from its build folder.  
+- When the target is the local Visual Studio machine, Visual Studio registers the app from its build folder.  
   
--   When the target is a remote device, Visual Studio copies the required files to the remote machine and registers the app on that device.  
+- When the target is a remote device, Visual Studio copies the required files to the remote machine and registers the app on that device.  
   
- Deployment is automatic when you debug your app from Visual Studio by using the **Start Debugging** option (Keyboard: F5) or the **Start Without Debugging** option (Keyboard: CTRL + F5). You can also deploy your app manually. Manual deployment is useful in the following scenarios:  
+  Deployment is automatic when you debug your app from Visual Studio by using the **Start Debugging** option (Keyboard: F5) or the **Start Without Debugging** option (Keyboard: CTRL + F5). You can also deploy your app manually. Manual deployment is useful in the following scenarios:  
   
--   Ad-hoc testing on a local or remote machine.  
+- Ad-hoc testing on a local or remote machine.  
   
--   Deploying an app that will start another app that you want to debug.  
+- Deploying an app that will start another app that you want to debug.  
   
--   Deploying an app that will be debugged when it is started by another app or method.  
+- Deploying an app that will be debugged when it is started by another app or method.  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  In this topic, you can learn:  
@@ -74,33 +72,33 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
   
 #### To specify a remote device  
   
-1.  On the Debug property page of the startup project, specify the name or IP address of a remote deployment target.  
+1. On the Debug property page of the startup project, specify the name or IP address of a remote deployment target.  
   
-2.  To open the Debug property page, choose the project in Solution Explorer and then choose **Properties** from the shortcut menu.  
+2. To open the Debug property page, choose the project in Solution Explorer and then choose **Properties** from the shortcut menu.  
   
-3.  Then choose the **Debug** node on the property pages window.  
+3. Then choose the **Debug** node on the property pages window.  
   
-4.  You can type the name or IP address of the remote device, or you can choose the device from the **Select Remote Debugger Connection** dialog box.  
+4. You can type the name or IP address of the remote device, or you can choose the device from the **Select Remote Debugger Connection** dialog box.  
   
-     ![Select Remote Debugger Connection dialog box](../debugger/media/vsrun-selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")  
+    ![Select Remote Debugger Connection dialog box](../debugger/media/vsrun-selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")  
   
-     The **Select Remote Debugger Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.  
+    The **Select Remote Debugger Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.  
   
- **Specifying the remote device in a JavaScript or Visual C++ project page**  
+   **Specifying the remote device in a JavaScript or Visual C++ project page**  
   
- ![C&#43;&#43; project properties for remote debugging](../debugger/media/vsrun-cpp-projprop-remote.png "VSRUN_CPP_ProjProp_Remote")  
+   ![C&#43;&#43; project properties for remote debugging](../debugger/media/vsrun-cpp-projprop-remote.png "VSRUN_CPP_ProjProp_Remote")  
   
-1.  Choose **Remote Debugger** from the **Debugger to launch** list.  
+5. Choose **Remote Debugger** from the **Debugger to launch** list.  
   
-2.  Enter the network name of the remote device in the **Machine Name** box. Or, you can choose the down arrow in the box to select the device from the Select Remote Debugger Connection dialog box.  
+6. Enter the network name of the remote device in the **Machine Name** box. Or, you can choose the down arrow in the box to select the device from the Select Remote Debugger Connection dialog box.  
   
- **Specifying the remote device in a Visual C# and Visual Basic project page**  
+   **Specifying the remote device in a Visual C# and Visual Basic project page**  
   
- ![Managed project properties for remote debugging](../debugger/media/vsrun-managed-projprop-remote.png "VSRUN_Managed_ProjProp_Remote")  
+   ![Managed project properties for remote debugging](../debugger/media/vsrun-managed-projprop-remote.png "VSRUN_Managed_ProjProp_Remote")  
   
-1.  Choose **Remote Machine** from the **Target Device** list.  
+7. Choose **Remote Machine** from the **Target Device** list.  
   
-2.  Enter the network name of the remote device in the **Remote Machine** box or click **Find** to choose the device from the **Select Remote Debugger Connection** dialog box.  
+8. Enter the network name of the remote device in the **Remote Machine** box or click **Find** to choose the device from the **Select Remote Debugger Connection** dialog box.  
   
 ##  <a name="BKMK_Deployment_options"></a> Deployment options  
  You can set the following deployment options on the Debug property page of the startup project.  
@@ -110,16 +108,16 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
   
  To remove the network loopback exemption from the app:  
   
--   On the C# and VB Debug property page, clear the **Allow Network Loopback** check box.  
+- On the C# and VB Debug property page, clear the **Allow Network Loopback** check box.  
   
--   On the JavaScript and Debug property page, set the **Allow Network Loopback** value to **No**.  
+- On the JavaScript and Debug property page, set the **Allow Network Loopback** value to **No**.  
   
- **Do not launch, but debug my code when it starts (C# and VB) / Launch Application (JavaScript and C++)**  
- To configure the deployment to automatically start a debugging session when the app is launched:  
+  **Do not launch, but debug my code when it starts (C# and VB) / Launch Application (JavaScript and C++)**  
+  To configure the deployment to automatically start a debugging session when the app is launched:  
   
--   On the C# and VB Debug property page, check the **Do not launch, but debug my code when it starts** check box.  
+- On the C# and VB Debug property page, check the **Do not launch, but debug my code when it starts** check box.  
   
--   On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.  
+- On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.  
   
 ## See Also  
  [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)

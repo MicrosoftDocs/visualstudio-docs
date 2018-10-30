@@ -1,7 +1,7 @@
 ---
 title: "Understanding Memory Allocation and Object Lifetime Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,15 +21,13 @@ manager: "ghogen"
 # Understanding Memory Allocation and Object Lifetime Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Understanding Memory Allocation and Object Lifetime Data Values](https://docs.microsoft.com/visualstudio/profiling/understanding-memory-allocation-and-object-lifetime-data-values).  
-  
 The *.NET memory allocation* profiling method of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools collects information about the size and number of objects that were created in an allocation or destroyed in a garbage collection and additional information about the function *call stack* when the event occurred. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- The memory profiler interrupts the computer processor at each allocation of a .NET Framework object in a profiled application. When object lifetime data is also collected, the profiler interrupts the processor after each .NET Framework garbage collection. The data is aggregated for each profiled function and for each type of object.  
+  The memory profiler interrupts the computer processor at each allocation of a .NET Framework object in a profiled application. When object lifetime data is also collected, the profiler interrupts the processor after each .NET Framework garbage collection. The data is aggregated for each profiled function and for each type of object.  
   
 ## Allocation data  
  When a .memory event occurs, the total counts and sizes of the allocated or destroyed memory objects are incremented.  

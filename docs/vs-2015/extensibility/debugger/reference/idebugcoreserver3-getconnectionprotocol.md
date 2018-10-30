@@ -1,7 +1,7 @@
 ---
 title: "IDebugCoreServer3::GetConnectionProtocol | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugCoreServer3::GetConnectionProtocol
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer3::GetConnectionProtocol](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver3-getconnectionprotocol).  
-  
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetConnectionProtocol(  
-   CONNECTION_PROTOCOL* pProtocol  
+   CONNECTION_PROTOCOL* pProtocol  
 );  
 ```  
   
 ```csharp  
 int GetConnectionProtocol(  
-   CONNECTION_PROTOCOL[] pProtocol  
+   CONNECTION_PROTOCOL[] pProtocol  
 );  
 ```  
   

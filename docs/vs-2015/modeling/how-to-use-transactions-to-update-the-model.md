@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Transactions to Update the Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # How to: Use Transactions to Update the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use Transactions to Update the Model](https://docs.microsoft.com/visualstudio/modeling/how-to-use-transactions-to-update-the-model).  
-  
 Transactions make sure that changes that were made to the store are treated as a group. Changes that are grouped can be committed or rolled back as a single unit.  
   
  Whenever your program code modifies, adds, or deletes any element in the Store in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK, it must do so inside a transaction. There must be an active instance of <xref:Microsoft.VisualStudio.Modeling.Transaction> associated with the Store when the change happens. This applies to all model elements, relationships, shapes, diagrams, and their properties.  

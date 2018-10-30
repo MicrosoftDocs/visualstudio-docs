@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/walkthrough-creating-a-legacy-language-service).  
-  
 Using the managed package framework (MPF) language classes to implement a language service in [!INCLUDE[csprcs](../../includes/csprcs-md.md)] is straightforward. You need a VSPackage to host the language service, the language service itself, and a parser for your language.  
   
 ## Prerequisites  

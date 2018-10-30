@@ -1,7 +1,7 @@
 ---
 title: "About Microsoft Spy++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # About Microsoft Spy++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [About Microsoft Spy++](https://docs.microsoft.com/visualstudio/debugger/about-microsoft-spy-increment).  
-  
 Use this dialog box to display copyright, version, ownership, and other information about Spy++.
 
 

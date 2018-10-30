@@ -1,7 +1,7 @@
 ---
 title: "XML Editor Tasks | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # XML Editor Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XML Editor Tasks](https://docs.microsoft.com/visualstudio/xml-tools/xml-editor-tasks).  
-  
   
 This section describes how to complete common tasks with the XML Editor.  
   
@@ -49,7 +47,7 @@ This section describes how to complete common tasks with the XML Editor.
  Demonstrates how to create new XML snippets.  
   
  [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md)  
- Demonstrates how to use XSLT IntelliSence feature.  
+ Demonstrates how to use XSLT IntelliSense feature.  
   
  [Walkthrough: Using XSLT Hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md)  
  Demonstrates how to debug a referenced style sheet.  

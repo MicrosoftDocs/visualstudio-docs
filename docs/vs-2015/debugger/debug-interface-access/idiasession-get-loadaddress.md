@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::get_loadAddress | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSession::get_loadAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::get_loadAddress](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-get-loadaddress).  
-  
 Retrieves the load address for the executable file that corresponds to the symbols in this symbol store.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_loadAddress (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

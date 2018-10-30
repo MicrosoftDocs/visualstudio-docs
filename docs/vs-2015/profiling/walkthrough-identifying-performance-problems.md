@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Identifying Performance Problems | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Walkthrough: Identifying Performance Problems
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Identifying Performance Problems](https://docs.microsoft.com/visualstudio/profiling/walkthrough-identifying-performance-problems).  
-  
 This walkthrough demonstrates how to profile an application to identify performance problems.  
   
  In this walkthrough, you will step through the process of profiling a managed application and using sampling and instrumentation to isolate and identify performance problems in the application.  
@@ -41,11 +39,11 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 ## Prerequisites  
   
--   Intermediate understanding of C#.  
+- Intermediate understanding of C#.  
   
--   A copy of the [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md).  
+- A copy of the [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md).  
   
- To work with the information provided by profiling, it is best to have debugging symbol information available.  
+  To work with the information provided by profiling, it is best to have debugging symbol information available.  
   
 ## Profiling by Using the Sampling Method  
  Sampling is a profiling method by which the process in question is periodically polled to determine the active function. The resulting data provides a count of how frequently the function in question was on top of the call stack when the process was sampled.  
@@ -135,29 +133,29 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 #### To analyze instrumented profiling results  
   
-1.  The timeline graph of the **Summary** view of the report shows the CPU utilization of the program over the duration of the profiling run. The export data operation should be the large peak or plateau on the right side of the graph. We can filter the performance session to display and analyze only the data that was collected in the export operation. Click to the left of the point on the graph where the export data operation begins. Click again to the right side of the operation. Then click **Filter by Selection** in the list of links to the right of the timeline.  
+1. The timeline graph of the **Summary** view of the report shows the CPU utilization of the program over the duration of the profiling run. The export data operation should be the large peak or plateau on the right side of the graph. We can filter the performance session to display and analyze only the data that was collected in the export operation. Click to the left of the point on the graph where the export data operation begins. Click again to the right side of the operation. Then click **Filter by Selection** in the list of links to the right of the timeline.  
   
-     The **Hot Path** tree show that the <xref:System.String.Concat%2A> method that is called by PeopleTrax.Form1.ExportData method consumes a large percentage of the time. Because **System.String.Concat** is also at the top of the **Functions With Most Individual Work** list, reducing the time spent in the function is a likely point of optimization.  
+    The **Hot Path** tree show that the <xref:System.String.Concat%2A> method that is called by PeopleTrax.Form1.ExportData method consumes a large percentage of the time. Because **System.String.Concat** is also at the top of the **Functions With Most Individual Work** list, reducing the time spent in the function is a likely point of optimization.  
   
-2.  Double-click **System.String.Concat** in either of the summary tables to see more information in the Function Details view.  
+2. Double-click **System.String.Concat** in either of the summary tables to see more information in the Function Details view.  
   
-3.  You can see that the PeopleTrax.Form1.ExportData is the only method that calls Concat. Click **PeopleTrax.Form1.ExportData** in the **Calling Functions** list to select the method is as the target of the Function Details view.  
+3. You can see that the PeopleTrax.Form1.ExportData is the only method that calls Concat. Click **PeopleTrax.Form1.ExportData** in the **Calling Functions** list to select the method is as the target of the Function Details view.  
   
-4.  Examine the method in the Function Code View window. Notice that there are no literal calls to **System.String.Concat**. Instead, there are several uses of the += operand, which the compiler replaces with calls to **System.String.Concat**. Any modifications to a string in the .NET Framework cause a new string to be allocated. The .NET Framework includes a <xref:System.Text.StringBuilder> class that is optimized for string concatenation  
+4. Examine the method in the Function Code View window. Notice that there are no literal calls to **System.String.Concat**. Instead, there are several uses of the += operand, which the compiler replaces with calls to **System.String.Concat**. Any modifications to a string in the .NET Framework cause a new string to be allocated. The .NET Framework includes a <xref:System.Text.StringBuilder> class that is optimized for string concatenation  
   
-5.  To replace this problem area with optimized code, add OPTIMIZED_EXPORTDATA as a conditional compilation symbol to the PeopleTrax project.  
+5. To replace this problem area with optimized code, add OPTIMIZED_EXPORTDATA as a conditional compilation symbol to the PeopleTrax project.  
   
-6.  In Solution Explorer, right-click the PeopleTrax project and then click **Properties**.  
+6. In Solution Explorer, right-click the PeopleTrax project and then click **Properties**.  
   
-     The PeopleTrax project properties form appears.  
+    The PeopleTrax project properties form appears.  
   
-7.  Click the **Build** tab.  
+7. Click the **Build** tab.  
   
-8.  In the **Conditional Compilation Symbols** text box, type **OPTIMIZED_EXPORTDATA**.  
+8. In the **Conditional Compilation Symbols** text box, type **OPTIMIZED_EXPORTDATA**.  
   
 9. Close the project property form and choose **save all** when you are prompted.  
   
- When you run the application again, you will see marked improvements in performance. It is recommended that you run the profiling session again, even if there are user visible improvements in performance. Reviewing the data after you fix a problem is important because the first problem might obscure some other problem.  
+   When you run the application again, you will see marked improvements in performance. It is recommended that you run the profiling session again, even if there are user visible improvements in performance. Reviewing the data after you fix a problem is important because the first problem might obscure some other problem.  
   
 ## See Also  
  [Overviews](../profiling/overviews-performance-tools.md)   

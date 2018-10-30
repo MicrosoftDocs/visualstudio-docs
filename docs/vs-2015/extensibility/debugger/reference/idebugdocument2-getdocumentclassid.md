@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocument2::GetDocumentClassID | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugDocument2::GetDocumentClassID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocument2::GetDocumentClassID](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocument2-getdocumentclassid).  
-  
 Gets the class identifier of the document.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetDocumentClassID(   
-   CLSID* pclsid  
+   CLSID* pclsid  
 );  
 ```  
   
 ```csharp  
 int GetDocumentClassID(   
-   out Guid pclsid  
+   out Guid pclsid  
 );  
 ```  
   

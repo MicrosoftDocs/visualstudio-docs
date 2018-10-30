@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramPublisher2::SetDebuggerPresent | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProgramPublisher2::SetDebuggerPresent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramPublisher2::SetDebuggerPresent](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogrampublisher2-setdebuggerpresent).  
-  
 Tells the program publisher that a debugger is present and running.  
   
 ## Syntax  
   
 ```cpp  
 HRESULT SetDebuggerPresent(  
-   BOOL fDebuggerPresent  
+   BOOL fDebuggerPresent  
 );  
 ```  
   
 ```csharp  
 int SetDebuggerPresent(  
-   int fDebuggerPresent  
+   int fDebuggerPresent  
 );  
 ```  
   

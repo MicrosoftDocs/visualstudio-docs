@@ -1,7 +1,7 @@
 ---
 title: "Performance Rules by ID | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Performance Rules by ID
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Performance Rules by ID](https://docs.microsoft.com/visualstudio/profiling/performance-rules-by-id).  
-  
 Warning|Description|  
 |-------------|-----------------|  
 |[DA0001: Use StringBuilder for concatenations](../profiling/da0001-use-stringbuilder-for-concatenations.md)|Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.|  

@@ -23,13 +23,13 @@ Gets the server that this process is running on.
   
 ```cpp  
 HRESULT GetServer(   
-   IDebugCoreServer2** ppServer  
+   IDebugCoreServer2** ppServer  
 );  
 ```  
   
 ```csharp  
 int GetServer(   
-   out IDebugCoreServer2 ppServer  
+   out IDebugCoreServer2 ppServer  
 );  
 ```  
   

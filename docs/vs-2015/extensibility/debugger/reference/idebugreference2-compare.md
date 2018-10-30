@@ -1,7 +1,7 @@
 ---
 title: "IDebugReference2::Compare | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugReference2::Compare
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::Compare](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-compare).  
-  
 Compares one reference to another. Reserved for future use.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Compare (   
-   REFERENCE_COMPARE dwCompare,  
-   IDebugReference2* pReference  
+   REFERENCE_COMPARE dwCompare,  
+   IDebugReference2* pReference  
 );  
 ```  
   
 ```csharp  
 int Compare (   
-   enum_REFERENCE_COMPARE dwCompare,  
-   IDebugReference2       pReference  
+   enum_REFERENCE_COMPARE dwCompare,  
+   IDebugReference2       pReference  
 );  
 ```  
   

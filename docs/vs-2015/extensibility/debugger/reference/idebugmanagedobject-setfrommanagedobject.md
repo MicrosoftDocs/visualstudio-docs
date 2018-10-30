@@ -1,7 +1,7 @@
 ---
 title: "IDebugManagedObject::SetFromManagedObject | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugManagedObject::SetFromManagedObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugManagedObject::SetFromManagedObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmanagedobject-setfrommanagedobject).  
-  
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT SetFromManagedObject(   
-   IUnknown* pManagedObject  
+   IUnknown* pManagedObject  
 );  
 ```  
   
 ```csharp  
 int SetFromManagedObject(  
-   object pManagedObject  
+   object pManagedObject  
 );  
 ```  
   

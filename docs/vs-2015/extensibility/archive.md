@@ -1,7 +1,7 @@
 ---
 title: "Archive | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Archive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Archive](https://docs.microsoft.com/visualstudio/extensibility/archive).  
-  
 This section contains discussions of Visual Studio extensibility technologies that are still supported but that have replacement technologies that are newer.  
   
 ## Legacy Interfaces in the Editor  

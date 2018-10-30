@@ -1,7 +1,7 @@
 ---
 title: "Messages Tab, Message Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Messages Tab, Message Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Messages Tab, Message Options Dialog Box](https://docs.microsoft.com/visualstudio/debugger/messages-tab-message-options-dialog-box).  
-  
 Use the **Messages** tab to select which message types to list in [Messages View](../debugger/messages-view.md), and to specify message search criteria. To display the [Message Options Dialog Box](../debugger/message-options-dialog-box.md), choose **Log Messages** from the **Spy** menu.  
   
  Typically, you first select **Message Groups**, and then fine-tune the selection by selecting individual **Messages to View**. The **All** button selects all message types, and the **None** button clears all types.  
@@ -34,18 +32,18 @@ Use the **Messages** tab to select which message types to list in [Messages View
  **Message Groups**  
  Select message groups for viewing. The available groups include:  
   
--   WM_USER: with a code greater than or equal to WM_USER  
+- WM_USER: with a code greater than or equal to WM_USER  
   
--   Registered: registered with the **RegisterWindowMessage** call  
+- Registered: registered with the **RegisterWindowMessage** call  
   
--   Unknown: unknown messages in the range 0 to (WM_USER – 1)  
+- Unknown: unknown messages in the range 0 to (WM_USER – 1)  
   
- Note that these **Message Groups** do not map to specific entries under **Messages To View**. When you select a group, the selection is applied directly to the message stream.  
+  Note that these **Message Groups** do not map to specific entries under **Messages To View**. When you select a group, the selection is applied directly to the message stream.  
   
- A grayed check box within **Message Groups** indicates that the **Messages To View** list box has been modified for messages in that group; not all of the message types in that group are selected.  
+  A grayed check box within **Message Groups** indicates that the **Messages To View** list box has been modified for messages in that group; not all of the message types in that group are selected.  
   
- **Save Settings as Default**  
- Save the current settings for later use as message search options. These settings are also saved when exiting Spy++.
+  **Save Settings as Default**  
+  Save the current settings for later use as message search options. These settings are also saved when exiting Spy++.
 
 
 

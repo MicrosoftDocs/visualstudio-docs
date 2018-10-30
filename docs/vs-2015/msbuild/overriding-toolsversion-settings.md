@@ -1,7 +1,7 @@
 ---
 title: "Overriding ToolsVersion Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Overriding ToolsVersion Settings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overriding ToolsVersion Settings](https://docs.microsoft.com/visualstudio/msbuild/overriding-toolsversion-settings).  
-  
   
 You can change the Toolset for projects and solutions in one of three ways:  
   

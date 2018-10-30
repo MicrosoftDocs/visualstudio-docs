@@ -1,7 +1,7 @@
 ---
 title: "PROCESS_INFO_FIELDS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,38 +21,36 @@ manager: "ghogen"
 # PROCESS_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PROCESS_INFO_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/process-info-fields).  
-  
 Specified what kind of information to retrieve for a process.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_PROCESS_INFO_FIELDS {   
-   PIF_FILE_NAME             = 0x00000001,  
-   PIF_BASE_NAME             = 0x00000002,  
-   PIF_TITLE                 = 0x00000004,  
-   PIF_PROCESS_ID            = 0x00000008,  
-   PIF_SESSION_ID            = 0x00000010,  
-   PIF_ATTACHED_SESSION_NAME = 0x00000020,  
-   PIF_CREATION_TIME         = 0x00000040,  
-   PIF_FLAGS                 = 0x00000080,  
-   PIF_ALL                   = 0x000000ff  
+   PIF_FILE_NAME             = 0x00000001,  
+   PIF_BASE_NAME             = 0x00000002,  
+   PIF_TITLE                 = 0x00000004,  
+   PIF_PROCESS_ID            = 0x00000008,  
+   PIF_SESSION_ID            = 0x00000010,  
+   PIF_ATTACHED_SESSION_NAME = 0x00000020,  
+   PIF_CREATION_TIME         = 0x00000040,  
+   PIF_FLAGS                 = 0x00000080,  
+   PIF_ALL                   = 0x000000ff  
 };  
 typedef DWORD PROCESS_INFO_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_PROCESS_INFO_FIELDS {   
-   PIF_FILE_NAME             = 0x00000001,  
-   PIF_BASE_NAME             = 0x00000002,  
-   PIF_TITLE                 = 0x00000004,  
-   PIF_PROCESS_ID            = 0x00000008,  
-   PIF_SESSION_ID            = 0x00000010,  
-   PIF_ATTACHED_SESSION_NAME = 0x00000020,  
-   PIF_CREATION_TIME         = 0x00000040,  
-   PIF_FLAGS                 = 0x00000080,  
-   PIF_ALL                   = 0x000000ff  
+   PIF_FILE_NAME             = 0x00000001,  
+   PIF_BASE_NAME             = 0x00000002,  
+   PIF_TITLE                 = 0x00000004,  
+   PIF_PROCESS_ID            = 0x00000008,  
+   PIF_SESSION_ID            = 0x00000010,  
+   PIF_ATTACHED_SESSION_NAME = 0x00000020,  
+   PIF_CREATION_TIME         = 0x00000040,  
+   PIF_FLAGS                 = 0x00000080,  
+   PIF_ALL                   = 0x000000ff  
 };  
 ```  
   

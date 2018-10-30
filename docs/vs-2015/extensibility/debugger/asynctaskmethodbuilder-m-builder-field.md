@@ -1,7 +1,7 @@
 ---
 title: "AsyncTaskMethodBuilder.m_builder Field | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # AsyncTaskMethodBuilder.m_builder Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AsyncTaskMethodBuilder.m_builder Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/asynctaskmethodbuilder-m-builder-field).  
-  
 Represents the generic builder object to which this non-generic instance delegates.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  

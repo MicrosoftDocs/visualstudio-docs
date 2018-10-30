@@ -1,7 +1,7 @@
 ---
 title: "IDiaInjectedSource::get_length | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaInjectedSource::get_length
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaInjectedSource::get_length](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiainjectedsource-get-length).  
-  
 Retrieves the number of bytes of code.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_length (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

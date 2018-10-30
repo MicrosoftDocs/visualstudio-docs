@@ -22,7 +22,7 @@ Retrieves a flag that specifies if the [Compiland](../../debugger/debug-interfac
   
 ```C++  
 HRESULT get_hasDebugInfo(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

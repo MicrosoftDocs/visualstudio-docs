@@ -1,7 +1,7 @@
 ---
 title: "How to: Create a Grayscale Texture Shader | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create a Grayscale Texture Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Grayscale Texture Shader](https://docs.microsoft.com/visualstudio/designers/how-to-create-a-grayscale-texture-shader).  
-  
 This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a grayscale texture shader. This shader modifies the RGB color value of the texture sample, and then uses it together with the unmodified alpha value to set the final color.  
   
 ## Creating a grayscale texture shader  
@@ -29,20 +27,20 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
 #### To create a grayscale texture shader  
   
-1.  Create a basic texture shader, as described in [How to: Create a Basic Texture Shader](../designers/how-to-create-a-basic-texture-shader.md).  
+1. Create a basic texture shader, as described in [How to: Create a Basic Texture Shader](../designers/how-to-create-a-basic-texture-shader.md).  
   
-2.  Disconnect the **RGB** terminal of the **Texture Sample** node from the **RGB** terminal of the **Final Color** node. In **Select** mode, choose the **RGB** terminal of the **Texture Sample** node, and then choose **Break Links**. This makes room for the node that's added in the next step.  
+2. Disconnect the **RGB** terminal of the **Texture Sample** node from the **RGB** terminal of the **Final Color** node. In **Select** mode, choose the **RGB** terminal of the **Texture Sample** node, and then choose **Break Links**. This makes room for the node that's added in the next step.  
   
-3.  Add a **Desaturate** node to the graph. In the **Toolbox**, under **Filters**, select **Desaturate** and move it to the design surface.  
+3. Add a **Desaturate** node to the graph. In the **Toolbox**, under **Filters**, select **Desaturate** and move it to the design surface.  
   
-4.  Calculate the grayscale value by using the **Desaturate** node. In **Select** mode, move the **RGB** terminal of the **Texture Sample** node to the **RGB** terminal of the **Desaturate** node.  
+4. Calculate the grayscale value by using the **Desaturate** node. In **Select** mode, move the **RGB** terminal of the **Texture Sample** node to the **RGB** terminal of the **Desaturate** node.  
   
-    > [!NOTE]
-    >  By default, the **Desaturate** node fully desaturates the input color, and uses the standard luminance weights for greyscale conversion. You can change how the **Desaturate** node behaves by changing the value of the **Luminance** property, or by only partially desaturating the input color. To partially desaturate the input color, provide a scalar value in the range [0,1) to the **Percent** terminal of the **Desaturate** node.  
+   > [!NOTE]
+   >  By default, the **Desaturate** node fully desaturates the input color, and uses the standard luminance weights for greyscale conversion. You can change how the **Desaturate** node behaves by changing the value of the **Luminance** property, or by only partially desaturating the input color. To partially desaturate the input color, provide a scalar value in the range [0,1) to the **Percent** terminal of the **Desaturate** node.  
   
-5.  Connect the grayscale color value to the final color. Move the **Output** terminal of the **Desaturate** node to the **RGB** terminal of the **Final Color** node.  
+5. Connect the grayscale color value to the final color. Move the **Output** terminal of the **Desaturate** node to the **RGB** terminal of the **Final Color** node.  
   
- The following illustration shows the completed shader graph and a preview of the shader applied to a cube.  
+   The following illustration shows the completed shader graph and a preview of the shader applied to a cube.  
   
 > [!NOTE]
 >  In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.  

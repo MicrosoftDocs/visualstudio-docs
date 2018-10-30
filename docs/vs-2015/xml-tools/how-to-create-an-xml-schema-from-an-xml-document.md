@@ -1,7 +1,7 @@
 ---
 title: "How to: Create an XML Schema from an XML Document | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,20 +18,18 @@ manager: "ghogen"
 # How to: Create an XML Schema from an XML Document
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create an XML Schema from an XML Document](https://docs.microsoft.com/visualstudio/xml-tools/how-to-create-an-xml-schema-from-an-xml-document).  
-  
   
 The XML Editor allows you to create an XML Schema definition language (XSD) schema from an XML document. The XML instance document determines how the schema is generated in the following manner:  
   
--   If the XML document has no schema or Document Type Definition (DTD) associated with it, the data in the XML document is used to infer a new XML Schema.  
+- If the XML document has no schema or Document Type Definition (DTD) associated with it, the data in the XML document is used to infer a new XML Schema.  
   
--   If the XML document contains an associated DTD, the external DTD and internal subset are converted to a corresponding XML Schema.  
+- If the XML document contains an associated DTD, the external DTD and internal subset are converted to a corresponding XML Schema.  
   
--   If the XML document contains an inline XML-Data Reduced (XDR) schema, the XDR schema is converted to a corresponding XML Schema.  
+- If the XML document contains an inline XML-Data Reduced (XDR) schema, the XDR schema is converted to a corresponding XML Schema.  
   
- The schemas that are created are then used to provide IntelliSense for the XML document.  
+  The schemas that are created are then used to provide IntelliSense for the XML document.  
   
- For more information about the schema inference engine, see [Inferring an XML Schema](http://msdn.microsoft.com/library/b18e7ffd-3c04-482d-9934-ba2f6a59b2c9).  
+  For more information about the schema inference engine, see [Inferring an XML Schema](http://msdn.microsoft.com/library/b18e7ffd-3c04-482d-9934-ba2f6a59b2c9).  
   
 ### To create an XML Schema  
   

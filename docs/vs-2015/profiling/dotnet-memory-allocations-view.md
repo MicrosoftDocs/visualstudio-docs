@@ -1,7 +1,7 @@
 ---
 title: ".NET Memory Allocations View | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,17 +25,15 @@ manager: "ghogen"
 # .NET Memory Allocations View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [.NET Memory Allocations View](https://docs.microsoft.com/visualstudio/profiling/dotnet-memory-allocations-view).  
-  
 The Allocations view lists the types that were created during the profiling run. Each type is the root node of a call tree that displays the function execution paths that resulted in the allocations of the type.  
   
  The data in a type row displays the total number of objects of the type that were created in the profiling run and the total number of bytes allocated for the objects of that type. Inclusive and exclusive values for a type are always the same.  
   
--   Inclusive values are for objects created in the instances of the function and its child functions that were called by the parent function in the call tree.  
+- Inclusive values are for objects created in the instances of the function and its child functions that were called by the parent function in the call tree.  
   
--   Exclusive values are for objects that were created directly by the function when they were called by the parent function. Objects created in child functions are not included.  
+- Exclusive values are for objects that were created directly by the function when they were called by the parent function. Objects created in child functions are not included.  
   
- The data for a function displays the number of objects created and the number of bytes allocated for objects of the parent type.  
+  The data for a function displays the number of objects created and the number of bytes allocated for objects of the parent type.  
   
 ## Highlighting the Execution Hot Path  
  You can find the execution path of the call tree  that created the most objects of the parent type.  

@@ -1,6 +1,6 @@
 ---
 title: Shader Designer
-ms.date: 11/04/2016
+ms.date: 09/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
@@ -16,16 +16,16 @@ ms.workload:
 ---
 # Shader Designer
 
-This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.
+This document describes how to work with the Visual Studio **Shader Designer** to create, modify, and export custom visual effects that are known as *shaders*.
 
-You can use the Shader Designer to create custom visual effects for your game or app even if you don't know HLSL programming. To create a shader in the Shader Designer, you just lay it out as a graph; that is, you add to the design surface *nodes* that represent data and operations and then make connections between them to define how the operations process the data. At each operation node, a preview of the effect up to that point is provided so that you can visualize its result. Data flows through the nodes toward a final node that represents the output of the shader.
+You can use **Shader Designer** to create custom visual effects for your game or app even if you don't know high-level shader language (HLSL) programming. To create a shader in **Shader Designer**, you lay it out as a graph. That is, you add to the design surface *nodes* that represent data and operations and then make connections between them to define how the operations process the data. At each operation node, a preview of the effect up to that point is provided so that you can visualize its result. Data flows through the nodes toward a final node that represents the output of the shader.
 
 ## Supported formats
 
-The Shader Designer supports these shader formats:
+The **Shader Designer** supports these shader formats:
 
 |Format Name|File Extension|Supported Operations (View, Edit, Export)|
-|-----------------|--------------------|-------------------------------------------------|
+|-----------------| - | - |
 |Directed Graph Shader Language|*.dgsl*|View, Edit|
 |HLSL Shader (source code)|*.hlsl*|Export|
 |HLSL Shader (bytecode)|*.cso*|Export|
@@ -33,17 +33,29 @@ The Shader Designer supports these shader formats:
 
 ## Get started
 
-This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and provides basic information to help you get started.
+This section describes how to add a DGSL shader to your Visual Studio C++ project and provides basic information to help you get started.
+
+> [!NOTE]
+> Automatic build integration of graphics items like shader graphs (.dgsl files) is only supported for C++ projects.
 
 ### To add a DGSL shader to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project to which you want to add the shader, and then choose **Add** > **New Item**.
+1. Ensure you have the required Visual Studio component installed that you need to work with graphics. The component is called **Image and 3D model editors**.
 
-2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.
+   To install it, open Visual Studio Installer by selecting **Tools** > **Get Tools and Features** from the menu bar, and then select the **Individual components** tab. Select the **Image and 3D model editors** component under the **Games and Graphics** category, and then select **Modify**.
 
-3.  Specify the **Name** of the shader file, and the **Location** where you want it to be created.
+   ![Image and 3D model editors component](media/image-3d-model-editors-component.png)
 
-4.  Choose the **Add** button.
+2. In **Solution Explorer**, open the shortcut menu for the C++ project to which you want to add the shader, and then choose **Add** > **New Item**.
+
+3. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.
+
+   > [!NOTE]
+   > If you don't see the **Graphics** category in the **Add New Item** dialog, and you have the **Image and 3D model editors** component installed, graphics items are not supported for your project type.
+
+4. Specify the **Name** of the shader file, and the **Location** where you want it to be created.
+
+5. Choose the **Add** button.
 
 ### The default shader
 
@@ -57,7 +69,7 @@ The following sections describe how to use the Shader Designer to work with cust
 
 The Shader Designer toolbars contain commands that help you work with DGSL shader graphs.
 
-Commands that affect the state of the Shader Designer are located on the **Shader Designer Mode** toolbar in the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window. Design tools and commands are located on the **Shader Designer** toolbar on the Shader Designer design surface.
+Commands that affect the state of the Shader Designer are located on the **Shader Designer Mode** toolbar in the main Visual Studio window. Design tools and commands are located on the **Shader Designer** toolbar on the Shader Designer design surface.
 
 Here's the **Shader Designer Mode** toolbar:
 
@@ -71,7 +83,7 @@ This table describes the items on the **Shader Designer Mode** toolbar, which ar
 |**Pan**|Enables movement of a shader graph relative to the window frame. To pan, select a point on the design surface and move it around.<br /><br /> In **Select** mode, you can press and hold **Ctrl** to activate **Pan** mode temporarily.|
 |**Zoom**|Enables the display of more or less shader-graph detail relative to the window frame. In **Zoom** mode, select a point on the design surface and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can press and hold **Ctrl** to zoom in or out by using the mouse wheel.|
 |**Zoom to Fit**|Displays the full shader graph in the window frame.|
-|**Real-Time Rendering Mode**|When real-time rendering is enabled, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|
+|**Real-Time Rendering Mode**|When real-time rendering is enabled, Visual Studio redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|
 |**Preview with sphere**|When enabled, a model of a sphere is used to preview the shader. Only one preview shape at a time can be enabled.|
 |**Preview with cube**|When enabled, a model of a cube is used to preview the shader. Only one preview shape at a time can be enabled.|
 |**Preview with Cylinder**|When enabled, a model of a cylinder is used to preview the shader. Only one preview shape at a time can be enabled.|
@@ -91,19 +103,19 @@ Use **Select** mode to add, remove, reposition, connect, and configure nodes. He
 
 #### To perform basic operations in Select mode
 
--   Here's how:
+- Here's how:
 
-    -   To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.
+   - To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.
 
-    -   To remove a node from the graph, select it and then press **Delete**.
+   - To remove a node from the graph, select it and then press **Delete**.
 
-    -   To reposition a node, select it and then move it to a new location.
+   - To reposition a node, select it and then move it to a new location.
 
-    -   To connect two nodes, move an output terminal of one node to an input terminal of the other node. Only terminals that have compatible types can be connected. A line between the terminals shows the connection.
+   - To connect two nodes, move an output terminal of one node to an input terminal of the other node. Only terminals that have compatible types can be connected. A line between the terminals shows the connection.
 
-    -   To remove a connection, on the shortcut menu for either one of the connected terminals, choose **Break Links**.
+   - To remove a connection, on the shortcut menu for either one of the connected terminals, choose **Break Links**.
 
-    -   To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.
+   - To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.
 
 ### Preview shaders
 
@@ -116,15 +128,16 @@ The Shader Designer includes six shapes—a sphere, a cube, a cylinder, a cone, 
 To choose a preview shape, on the **Shader Designer Modes** toolbar, choose the shape that you want.
 
 #### Textures and material parameters
- Many shaders rely on textures and material properties to produce a unique appearance for each kind of object in your app. To see what your shader will look like in your app, you can set the textures and material properties that are used to render the preview to match the textures and parameters that you might use in your app.
 
-##### To bind a different texture to a texture register, or to modify other material parameters
+Many shaders rely on textures and material properties to produce a unique appearance for each kind of object in your app. To see what your shader will look like in your app, you can set the textures and material properties that are used to render the preview to match the textures and parameters that you might use in your app.
 
-1.  In **Select** mode, select an empty area of the design surface. This causes the **Properties** window to display the global shader properties.
+To bind a different texture to a texture register, or to modify other material parameters:
 
-2.  In the **Properties** window, specify new values for the texture and parameter properties that you want to change.
+1. In **Select** mode, select an empty area of the design surface. This causes the **Properties** window to display the global shader properties.
 
-Here are the shader parameters that you can modify:
+2. In the **Properties** window, specify new values for the texture and parameter properties that you want to change.
+
+The following table shows the shader parameters that you can modify:
 
 |Parameter|Properties|
 |---------------|----------------|
@@ -158,7 +171,7 @@ For more information about how to export shaders, see [How to: Export a shader](
 ## Keyboard shortcuts
 
 |Command|Keyboard shortcuts|
-|-------------|------------------------|
+|-------------| - |
 |Switch to **Select** mode|**Ctrl**+**G**, **Ctrl**+**Q**<br /><br /> **S**|
 |Switch to **Zoom** mode|**Ctrl**+**G**, **Ctrl**+**Z**<br /><br /> **Z**|
 |Switch to **Pan** mode|**Ctrl**+**G**, **Ctrl**+**P**<br /><br /> **K**|
@@ -184,6 +197,6 @@ For more information about how to export shaders, see [How to: Export a shader](
 
 |Title|Description|
 |-----------|-----------------|
-|[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that you can use to work with textures and images, 3D models, and shader effects.|
-|[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to work with textures and images.|
-|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to work with 3D models.|
+|[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the Visual Studio tools that you can use to work with textures and images, 3D models, and shader effects.|
+|[Image Editor](../designers/image-editor.md)|Describes how to use the Visual Studio Image Editor to work with textures and images.|
+|[Model Editor](../designers/model-editor.md)|Describes how to use the Visual Studio Model Editor to work with 3D models.|

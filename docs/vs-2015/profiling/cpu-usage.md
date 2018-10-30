@@ -1,7 +1,7 @@
 ---
 title: "CPU Usage | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # CPU Usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyz CPU Usage in Visual Studio](https://docs.microsoft.com/visualstudio/profiling/cpu-usage).  
-  
 When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing Visual C++, Visual C#/Visual Basic, and JavaScript code.  
   
  Starting in Visual Studio 2015 Update 1, you can see a per-function breakdown of CPU usage without leaving the debugger. You can turn CPU profiling on and off while debugging, and view the results when execution is stopped, for example at a breakpoint. For more information, see [Profile Your CPU in the Debugger in Visual Studio 2015](http://blogs.msdn.com/b/visualstudioalm/archive/2015/10/29/profile-your-cpu-in-the-debugger-in-visual-studio-2015.aspx).  
@@ -30,33 +28,33 @@ When you need to investigate performance issues in your app, a good place to sta
   
 ##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
   
-1.  In Visual Studio, set the solution configuration to **Release** and choose the deployment target.  
+1. In Visual Studio, set the solution configuration to **Release** and choose the deployment target.  
   
-     ![Select Release and Local Machine](../profiling/media/cpuuse-selectreleaselocalmachine.png "CPUUSE_SelectReleaseLocalMachine")  
+    ![Select Release and Local Machine](../profiling/media/cpuuse-selectreleaselocalmachine.png "CPUUSE_SelectReleaseLocalMachine")  
   
-    -   Running the app in **Release** mode gives you a better view of the actual performance of your app.  
+   -   Running the app in **Release** mode gives you a better view of the actual performance of your app.  
   
-    -   Running the app on the local machine best replicates the execution of the installed app.  
+   -   Running the app on the local machine best replicates the execution of the installed app.  
   
-    -   If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
+   -   If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
   
-    -   For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
+   -   For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
   
-2.  On the **Debug** menu, choose **Performance Profiler...**.  
+2. On the **Debug** menu, choose **Performance Profiler...**.  
   
-3.  Choose **CPU Usage** and then choose **Start**.  
+3. Choose **CPU Usage** and then choose **Start**.  
   
-     ![Choose CPU Usage](../profiling/media/cpuuse-lib-choosecpuusage.png "CPUUSE_LIB_ChooseCpuUsage")  
+    ![Choose CPU Usage](../profiling/media/cpuuse-lib-choosecpuusage.png "CPUUSE_LIB_ChooseCpuUsage")  
   
-4.  When the app starts, click **Get Max Number**. Wait about a second after the output is displayed, then choose **Get Max Number Async**. Waiting between button clicks makes it easier to isolate the button click routines in the diagnostic report.  
+4. When the app starts, click **Get Max Number**. Wait about a second after the output is displayed, then choose **Get Max Number Async**. Waiting between button clicks makes it easier to isolate the button click routines in the diagnostic report.  
   
-5.  After the second output line appears, choose **Stop Collection** in the Performance and Diagnostic hub.  
+5. After the second output line appears, choose **Stop Collection** in the Performance and Diagnostic hub.  
   
- ![Stop CpuUsage data collection](../profiling/media/cpu-use-wt-stopcollection.png "CPU_USE_WT_StopCollection")  
+   ![Stop CpuUsage data collection](../profiling/media/cpu-use-wt-stopcollection.png "CPU_USE_WT_StopCollection")  
   
- The CPU Usage tool analyzes the data and displays the report.  
+   The CPU Usage tool analyzes the data and displays the report.  
   
- ![CpuUsage report](../profiling/media/cpu-use-wt-report.png "CPU_USE_WT_Report")  
+   ![CpuUsage report](../profiling/media/cpu-use-wt-report.png "CPU_USE_WT_Report")  
   
 ## Analyze the CPU Usage report  
   

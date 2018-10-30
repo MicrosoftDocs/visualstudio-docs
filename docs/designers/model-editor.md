@@ -16,40 +16,47 @@ ms.workload:
 ---
 # Model editor
 
-This document describes how to work with the Visual Studio Model editor to view, create, and modify 3D models.
+This document describes how to work with the Visual Studio **Model Editor** to view, create, and modify 3D models.
 
-You can use the Model Editor to create basic 3D models from scratch, or to view and modify more-complex 3D models that were created by using full-featured 3D modeling tools. The Model Editor supports several 3D model formats that are used in DirectX app development.
+You can use **Model Editor** to create basic 3D models from scratch, or to view and modify more-complex 3D models that were created by using full-featured 3D modeling tools.
 
 ## Supported formats
 
-The Model editor supports these model formats:
+The **Model Editor** supports several 3D model formats that are used in DirectX app development:
 
 |Format Name|File Extension|Supported Operations (View, Edit, Create)|
-|-----------------|--------------------|-------------------------------------------------|
+|-----------------| - | - |
 |AutoDesk FBX Interchange File|*.fbx*|View, Edit, Create|
 |Collada DAE File|*.dae*|View, Edit (Modifications to Collada DAE files are saved by using the FBX format.)|
 |OBJ|*.obj*|View, Edit (Modifications to OBJ files are saved by using the FBX format.)|
 
 ## Get started
 
-This section describes how to add a 3D model to your Visual Studio project and provides the basic information you need to get started.
+This section describes how to add a 3D model to your Visual Studio C++ project and other basic information that will help you get started.
+
+> [!NOTE]
+> Automatic build integration of graphics items like 3D scenes (.fbx files) is only supported for C++ projects.
 
 ### To add a 3D model to your project
 
-1. In **Solution Explorer**, open the shortcut menu for the project to which you want to add the image, and then choose **Add** > **New Item**.
+1. Ensure you have the required Visual Studio component installed that you need to work with graphics. The component is called **Image and 3D model editors**.
 
-2. In the **Add New Item** dialog box, under the **Graphics** category, select **3D Scene (.fbx)**.
+   To install it, open Visual Studio Installer by selecting **Tools** > **Get Tools and Features** from the menu bar, and then select the **Individual components** tab. Select the **Image and 3D model editors** component under the **Games and Graphics** category, and then select **Modify**.
+
+   ![Image and 3D model editors component](media/image-3d-model-editors-component.png)
+
+   The component starts installing.
+
+2. In **Solution Explorer**, open the shortcut menu for the C++ project you want to add the image to, and then choose **Add** > **New Item**.
+
+3. In the **Add New Item** dialog box, under the **Graphics** category, select **3D Scene (.fbx)**.
 
    ![Add New Item dialog with 3D scene selected](media/add-new-3d-scene.png)
 
    > [!NOTE]
-   > If you don't see the **Graphics** category in the **Add New Item** dialog, you may need to install the **Image and 3D model editors** component. Close the dialog and then select **Tools** > **Get Tools and Features** from the menu bar, to open the **Visual Studio Installer**. Select the **Individual components** tab, and then select the **Image and 3D model editors** component under the **Games and Graphics** category. Select **Modify**.
-   >
-   > ![Image and 3D model editors component](media/image-3d-model-editors-component.png)
-   >
-   > If you have the **Image and 3D model editors** component installed and still don't see the **Graphics** template category, note that this category only appears for certain project types, for example, console applications.
+   > If you don't see the **Graphics** category in the **Add New Item** dialog, and you have the **Image and 3D model editors** component installed, graphics items are not supported for your project type.
 
-3. Enter the **Name** of the model file, and then select **Add**.
+4. Enter the **Name** of the model file, and then select **Add**.
 
 ### Axis orientation
 
@@ -153,7 +160,7 @@ You can *transform* an object by changing its **Rotation**, **Scale**, and **Tra
 
 You can transform and object either by using modeling tools or by setting properties.
 
-#### To transform an object by using modeling tools
+#### Transform an object by using modeling tools
 
 1. In **Select** mode, select the object you want to transform. A wireframe overlay indicates that the object is selected.
 
@@ -161,7 +168,7 @@ You can transform and object either by using modeling tools or by setting proper
 
 3. Use the manipulator to perform the transformation. For translation and scaling transformations, the manipulator is an axis indicator. You can change one axis at a time, or you can change all axes at the same time by using the white cube at the center of the indicator. For rotation, the manipulator is a sphere made of color-coded circles that correspond to the x-axis (red), y-axis (green), and z-axis (blue). You have to change each axis individually to create the rotation you want.
 
-#### To transform an object by setting its properties
+#### Transform an object by setting its properties
 
 1. In **Select** mode, select the object that you want to transform. A wireframe overlay indicates that the object is selected.
 
@@ -190,7 +197,7 @@ Translation and rotation can occur in either the local coordinate system (or *lo
 
 You can change the shape of a 3D object by moving or deleting its vertices, edges, and faces. By default, the Model Editor is in *object mode*, so that you can select and transform entire objects. To select points, edges, or faces, choose the appropriate selection mode. On the **Model Editor Mode** toolbar, choose **Selection modes**, and then choose the mode that you want.
 
- You can create additional vertices by extrusion or by subdivision. Extrusion duplicates the vertices of a face (a co-planar set of vertices), which remain connected by the duplicated vertices. Subdivision adds vertices to create several faces where there was previously one. To create the new faces, new vertices are added—one in the center of the original face, and one in the middle of each edge—and then joined together with the original vertices. The number of added faces is equal to the number of edges in the original face. In both cases, you can translate, rotate, and scale the new vertices to change the geometry of the object.
+You can create additional vertices by extrusion or by subdivision. Extrusion duplicates the vertices of a face (a co-planar set of vertices), which remain connected by the duplicated vertices. Subdivision adds vertices to create several faces where there was previously one. To create the new faces, new vertices are added—one in the center of the original face, and one in the middle of each edge—and then joined together with the original vertices. The number of added faces is equal to the number of edges in the original face. In both cases, you can translate, rotate, and scale the new vertices to change the geometry of the object.
 
 #### To extrude a face from an object
 
@@ -204,21 +211,21 @@ You can change the shape of a 3D object by moving or deleting its vertices, edge
 
 2. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Subdivide**.
 
- You can also triangulate faces, merge objects, and convert polygon selections into new objects. Triangulation creates additional edges such that a non-triangular face is converted to an optimal number of triangles; however, it doesn't provide additional geometric detail. Merging combines selected objects into one object. New objects can be created from a polygon selection.
+You can also triangulate faces, merge objects, and convert polygon selections into new objects. Triangulation creates additional edges such that a non-triangular face is converted to an optimal number of triangles; however, it doesn't provide additional geometric detail. Merging combines selected objects into one object. New objects can be created from a polygon selection.
 
-#### To triangulate a face
+#### Triangulate a face
 
 1. In face-select mode, select the face you want to triangulate.
 
 2. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Triangulate**.
 
-#### To merge objects
+#### Merge objects
 
 1. In object-select mode, select the objects you want to merge.
 
 2. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Merge Objects**.
 
-#### To create an object from a polygon selection
+#### Create an object from a polygon selection
 
 1. In face-select mode, select the faces you want to create a new object from.
 
@@ -241,7 +248,7 @@ Each of these materials applies one texture on the surface of an object. You can
 To modify how a particular object reacts to the different light sources in the scene, you can change the lighting properties of material independent of other objects that use the material. This table describes common lighting properties:
 
 |Lighting Property|Description|
-|-----------------------|-----------------|
+| - |-----------------|
 |**Ambient**|Describes how the surface is affected by ambient lighting.|
 |**Diffuse**|Describes how the surface is affected by directional and point lights.|
 |**Emissive**|Describes how the surface emits light, independent of other lighting.|
@@ -262,13 +269,13 @@ You can use the **Document Outline** window to view the scene hierarchy and sele
 
 You can construct a hierarchy of objects either by making one of them the parent to the others or by grouping them together as siblings under a placeholder node that acts as the parent.
 
-#### To create a hierarchy that has a parent object
+#### Create a hierarchy that has a parent object
 
 1. In **Select** mode, select two or more objects. The first one you select will be the parent object.
 
 2. On the **Model Editor** toolbar, choose **Scripts** > **Scene Management** > **Attach to Parent**.
 
-#### To create a hierarchy of sibling objects
+#### Create a hierarchy of sibling objects
 
 1. In **Select** mode, select two or more objects. A placeholder object is created and becomes their parent object.
 
@@ -281,7 +288,7 @@ To remove the parent-child association between two objects, select the child obj
 ## Keyboard shortcuts
 
 |Command|Keyboard shortcuts|
-|-------------|------------------------|
+|-------------| - |
 |Switch to **Select** mode|**Ctrl**+**G**, **Ctrl**+**Q**<br /><br /> **S**|
 |Switch to **Zoom** mode|**Ctrl**+**G**, **Ctrl**+**Z**<br /><br /> **Z**|
 |Switch to **Pan** mode|**Ctrl**+**G**, **Ctrl**+**P**<br /><br /> **K**|

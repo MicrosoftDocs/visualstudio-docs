@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Basic Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Walkthrough: Creating a Basic Isolated Shell Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating a Basic Isolated Shell Application](https://docs.microsoft.com/visualstudio/extensibility/walkthrough-creating-a-basic-isolated-shell-application).  
-  
 This walkthrough shows how to create an isolated shell solution, customize the Help About tool window, and create a setup program that installs the isolated shell.  
   
 ## Prerequisites  
@@ -71,13 +69,13 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 #### To customize the default Web Browser home page  
   
-1.  In the MyVSShellStub.Application.pkgdef file, change the `DefaultHomePage` element value to "http://www.microsoft.com".  
+1. In the MyVSShellStub.Application.pkgdef file, change the `DefaultHomePage` element value to "<http://www.microsoft.com>".  
   
-2.  Rebuild the MyVSShellStub project.  
+2. Rebuild the MyVSShellStub project.  
   
-3.  Build the solution and start debugging.  
+3. Build the solution and start debugging.  
   
-4.  In **View / Other Windows**, click **Web Browser**. The **Web Browser** window displays the Microsoft Corporation home page.  
+4. In **View / Other Windows**, click **Web Browser**. The **Web Browser** window displays the Microsoft Corporation home page.  
   
 ## Removing the Print Command  
  The .vsct file in an isolated shell UI project consists of a set of declarations of the form `<Define name=No_`*Element*`>`, where *Element* is one of the standard Visual Studio menus and commands.  
@@ -169,26 +167,26 @@ This walkthrough shows how to create an isolated shell solution, customize the H
 ## Deploying the Isolated Shell Application  
  You deploy your isolated shell application to a target computer by creating a setup project. You must specify these things:  
   
--   The layout of the folders and files on the target computer.  
+- The layout of the folders and files on the target computer.  
   
--   The launch conditions that guarantee that the .NET Framework and the Visual Studio shell runtime are installed on the target computer.  
+- The launch conditions that guarantee that the .NET Framework and the Visual Studio shell runtime are installed on the target computer.  
   
- In the following procedure you will need to install InstallShield Limited Edition on your computer.  
+  In the following procedure you will need to install InstallShield Limited Edition on your computer.  
   
 #### To create the setup project  
   
-1.  In **Solution Explorer**, right-click the solution node and then click **Add New Project**.  
+1. In **Solution Explorer**, right-click the solution node and then click **Add New Project**.  
   
-2.  In the **New Project** dialog box, expand **Other Project Types** and then select **Setup and Deployment**. Select the InstallShield template. Name the new project `MySetup` and then click **OK**.  
+2. In the **New Project** dialog box, expand **Other Project Types** and then select **Setup and Deployment**. Select the InstallShield template. Name the new project `MySetup` and then click **OK**.  
   
-3.  If InstallShield Limited Edition is already installed, continue to the next step.  
+3. If InstallShield Limited Edition is already installed, continue to the next step.  
   
-     If InstallShield Limited Edition is not already installed, the InstallShield download page appears. Follow the instructions to download and install the product, choosing the version of InstallShield that is compatible with your version of Visual Studio. You must decide whether to register your installation of InstallShield or use it as an evaluation. You must restart Visual Studio after you complete the installation.  
+    If InstallShield Limited Edition is not already installed, the InstallShield download page appears. Follow the instructions to download and install the product, choosing the version of InstallShield that is compatible with your version of Visual Studio. You must decide whether to register your installation of InstallShield or use it as an evaluation. You must restart Visual Studio after you complete the installation.  
   
-    > [!IMPORTANT]
-    >  You must start Visual Studio as an administrator before you create an InstallShield project. If you do not do so, you will get an error when you build the project.  
+   > [!IMPORTANT]
+   >  You must start Visual Studio as an administrator before you create an InstallShield project. If you do not do so, you will get an error when you build the project.  
   
- The next steps show how to configure the setup project.  
+   The next steps show how to configure the setup project.  
   
 > [!IMPORTANT]
 >  Make sure that you have built the release configuration of your isolated shell project at least once before you configure the setup project.  

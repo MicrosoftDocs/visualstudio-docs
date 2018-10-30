@@ -76,7 +76,6 @@ You can implement an analyzer using Visual Basic that targets C# code, and vice 
 
 ```csharp
 public override void Initialize(AnalysisContext context) {}
-
 ```
 
 Open a new line in this method and type "context." to see an IntelliSense completion list.  You can see in the completion list there are many `Register...` methods to handle various kinds of events.  For example, the first one, `RegisterCodeBlockAction`, calls back to your code for a block, which is usually code between curly braces.  Registering for a block also calls back to your code for the initializer of a field, the value given to an attribute, or the value of an optional parameter.
@@ -219,7 +218,6 @@ namespace ImmutableArrayAnalyzer
     [ExportCodeFixProvider(LanguageNames.CSharp)]
     class BuildCodeFixProvider : CodeFixProvider
     {}
-
 ```
 
 **Stub out derived members.** Now, place the editor's caret in the identifier `CodeFixProvider` and press **Ctrl**+**.** (period) to stub out the implementation for this abstract base class.  This generates a property and a method for you.
@@ -301,13 +299,13 @@ You can now press **F5** to execute your analyzer in a second instance of Visual
 
 ## Talk video and finish code project
 
-You can see this example developed and discussed further in [this talk](http://channel9.msdn.com/events/Build/2015/3-725).  The talk demonstrates the working analyzer and walks you through building it.
+You can see this example developed and discussed further in [this talk](https://channel9.msdn.com/events/Build/2015/3-725).  The talk demonstrates the working analyzer and walks you through building it.
 
 You can see all the finished code [here](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers).  The sub folders *DoNotUseImmutableArrayCollectionInitializer* and *DoNotUseImmutableArrayCtor* each have a C# file for finding issues and a C# file that implements the code fixes that show up in the Visual Studio light bulb UI.  Note, the finished code has a little more abstraction to avoid fetching the ImmutableArray\<T> type object over and over.  It uses nested registered actions to save the type object in a context that is available whenever the sub actions (analyze object creation and analyze collection initializations) execute.
 
 ## See also
 
-* [\\\Build 2015 talk](http://channel9.msdn.com/events/Build/2015/3-725)
+* [\\\Build 2015 talk](https://channel9.msdn.com/events/Build/2015/3-725)
 * [Completed code on GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)
 * [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 * [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)

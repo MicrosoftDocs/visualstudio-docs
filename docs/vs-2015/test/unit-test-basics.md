@@ -1,7 +1,7 @@
 ---
 title: "Unit Test Basics | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Unit Test Basics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unit Test Basics](https://docs.microsoft.com/visualstudio/test/unit-test-basics).  
-  
 Check that your code is working as expected by creating and running unit tests. It’s called unit testing because you break down the functionality of your program into discrete testable behaviors that you can test as individual *units*. Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results in Visual Studio. Visual Studio installs the Microsoft unit testing frameworks for managed and native code. Use a *unit testing framework* to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes to test that your code is still working correctly. When you use Visual Studio Enterprise, you can run tests automatically after every build.  
   
  Unit testing has the greatest effect on the quality of your code when it’s an integral part of your software development workflow. As soon as you write a function or other block of application code, create unit tests that verify the behavior of the code in response to standard, boundary, and incorrect cases of input data, and that check any explicit or implicit assumptions made by the code. With *test driven development*, you create the unit tests before you write the code, so you use the unit tests as both design documentation and functional specifications.  
@@ -61,19 +59,19 @@ Check that your code is working as expected by creating and running unit tests. 
   
  We create a `MyBank` solution that contains two projects:  
   
--   `Accounts`  
+- `Accounts`  
   
--   `BankDb`  
+- `BankDb`  
   
- Our first attempt at designing the `Accounts` project contain a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:  
+  Our first attempt at designing the `Accounts` project contain a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:  
   
--   `AccountInfo.cs` defines the basic information for an account.  
+- `AccountInfo.cs` defines the basic information for an account.  
   
--   `IAccount.cs` defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.  
+- `IAccount.cs` defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.  
   
--   `CheckingAccount.cs` contains the `CheckingAccount` class that implements the `IAccounts` interface for a checking account.  
+- `CheckingAccount.cs` contains the `CheckingAccount` class that implements the `IAccounts` interface for a checking account.  
   
- We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdaw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:  
+  We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdaw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:  
   
 ```csharp  
   
@@ -98,46 +96,46 @@ public void Withdraw(double amount)
   
  **Generate unit test project and unit test stubs**  
   
-1.  From the code editor window, right-click and choose **Create Unit Tests** from the context menu.  
+1. From the code editor window, right-click and choose **Create Unit Tests** from the context menu.  
   
-     ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png "CreateUnitTestsRightClick")  
+    ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png "CreateUnitTestsRightClick")  
   
-2.  Click OK to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.  
+2. Click OK to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.  
   
-     ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png "CreateUnitTestsDialog")  
+    ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png "CreateUnitTestsDialog")  
   
-3.  The unit test stubs are created in a new unit test project for all the methods in the class.  
+3. The unit test stubs are created in a new unit test project for all the methods in the class.  
   
-     ![The unit tests are created](../test/media/createunittestsstubs.png "CreateUnitTestsStubs")  
+    ![The unit tests are created](../test/media/createunittestsstubs.png "CreateUnitTestsStubs")  
   
-4.  Now jump ahead to learn how to [add code to the unit test methods](#BKMK_Writing_your_tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.  
+4. Now jump ahead to learn how to [add code to the unit test methods](#BKMK_Writing_your_tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.  
   
- **Create your unit test project and unit tests manually**  
+   **Create your unit test project and unit tests manually**  
   
- A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.  
+   A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.  
   
- **To add a unit test project to a solution:**  
+   **To add a unit test project to a solution:**  
   
-1.  On the **File** menu, choose **New** and then choose **Project** (Keyboard Ctrl + Shift + N).  
+5. On the **File** menu, choose **New** and then choose **Project** (Keyboard Ctrl + Shift + N).  
   
-2.  On the New Project dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.  
+6. On the New Project dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.  
   
-3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.  
+7. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.  
   
-    > [!WARNING]
-    >  Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.  
+   > [!WARNING]
+   >  Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.  
   
-4.  In your unit test project, add a reference to the code project under test, in our example to the Accounts project.  
+8. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.  
   
-     To create the reference to the code project:  
+    To create the reference to the code project:  
   
-    1.  Select the project in Solution Explorer.  
+   1.  Select the project in Solution Explorer.  
   
-    2.  On the **Project** menu, choose **Add Reference**.  
+   2.  On the **Project** menu, choose **Add Reference**.  
   
-    3.  On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.  
+   3.  On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.  
   
- Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:  
+   Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:  
   
 -   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `BankAccount` project  
   
@@ -148,13 +146,13 @@ public void Withdraw(double amount)
   
  The AAA (Arrange, Act, Assert) pattern is a common way of writing unit tests for a method under test.  
   
--   The **Arrange** section of a unit test method initializes objects and sets the value of the data that is passed to the method under test.  
+- The **Arrange** section of a unit test method initializes objects and sets the value of the data that is passed to the method under test.  
   
--   The **Act** section invokes the method under test with the arranged parameters.  
+- The **Act** section invokes the method under test with the arranged parameters.  
   
--   The **Assert** section verifies that the action of the method under test behaves as expected.  
+- The **Assert** section verifies that the action of the method under test behaves as expected.  
   
- To test the `CheckingAccount.Withdraw` method of our example, we can write two tests: one that verifies the standard behavior of the method, and one that verifies that a withdrawal of more than the balance will fail. In the `CheckingAccountTests` class, we add the following methods:  
+  To test the `CheckingAccount.Withdraw` method of our example, we can write two tests: one that verifies the standard behavior of the method, and one that verifies that a withdrawal of more than the balance will fail. In the `CheckingAccountTests` class, we add the following methods:  
   
 ```csharp  
 [TestMethod]  
@@ -261,24 +259,24 @@ public void My_Test ()
   
  **A:** Use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:  
   
-1.  In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
+1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
   
-    > [!NOTE]
-    >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
+   > [!NOTE]
+   >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
   
-2.  In Test Explorer, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.  
+2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.  
   
- Learn more details about [debugging unit tests](../debugger/debugging-in-visual-studio.md).  
+   Learn more details about [debugging unit tests](../debugger/debugging-in-visual-studio.md).  
   
- **Q: If I’m using TDD, how do I generate code from my tests?**  
+   **Q: If I’m using TDD, how do I generate code from my tests?**  
   
- **A:** Use IntelliSense to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the IntelliSense menu under the call. If the call is to a constructor of the new class, choose **Generate new type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate new method** from the IntelliSense menu.  
+   **A:** Use IntelliSense to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the IntelliSense menu under the call. If the call is to a constructor of the new class, choose **Generate new type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate new method** from the IntelliSense menu.  
   
- ![Generate Method Stub Intellisense Menu](../test/media/ute-generatemethodstubintellisense.png "UTE_GenerateMethodStubIntellisense")  
+   ![Generate Method Stub Intellisense Menu](../test/media/ute-generatemethodstubintellisense.png "UTE_GenerateMethodStubIntellisense")  
   
- **Q: Can I create unit tests that take multiple sets of data as input to run the test?**  
+   **Q: Can I create unit tests that take multiple sets of data as input to run the test?**  
   
- **A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.  
+   **A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.  
   
 > [!NOTE]
 >  These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you’re using a different framework, consult the framework documentation for equivalent functionality.  
@@ -330,21 +328,21 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
   
  Microsoft Fakes uses two approaches to create substitute classes for external dependencies.  
   
-1.  *Stubs* generate substitute classes derived from the parent interface of the target dependency class. Stub methods can be substituted for public virtual methods of the target class.  
+1. *Stubs* generate substitute classes derived from the parent interface of the target dependency class. Stub methods can be substituted for public virtual methods of the target class.  
   
-2.  *Shims* use runtime instrumentation to divert calls to a target method to a substitute shim method for non-virtual methods.  
+2. *Shims* use runtime instrumentation to divert calls to a target method to a substitute shim method for non-virtual methods.  
   
- In both approaches, you use the generated delegates of calls to the dependency method to specify the behavior that you want in the test method.  
+   In both approaches, you use the generated delegates of calls to the dependency method to specify the behavior that you want in the test method.  
   
- Learn more about [isolating unit test methods with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).  
+   Learn more about [isolating unit test methods with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).  
   
- **Q: Can I use other unit test frameworks to create unit tests?**  
+   **Q: Can I use other unit test frameworks to create unit tests?**  
   
- **A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md). After you restart Visual Studio, reopen your solution to create your unit tests, and then select your installed frameworks here:  
+   **A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md). After you restart Visual Studio, reopen your solution to create your unit tests, and then select your installed frameworks here:  
   
- ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png "CreateUnitTestsDialogExtensions")  
+   ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png "CreateUnitTestsDialogExtensions")  
   
- Your unit test stubs will be created using the selected framework.
+   Your unit test stubs will be created using the selected framework.
 
 
 

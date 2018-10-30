@@ -99,16 +99,18 @@ The impact on overall stepping performance depends on your application. The over
 ## Known Issues  
 * If you are using IntelliTrace events and snapshots mode on versions of Windows older than Windows 10 Fall Creators Update (RS3), and if the debug platform target of the application is set to x86, IntelliTrace does not take snapshots.
 
-    Workaround:
-    * Install or upgrade to Windows 10 Fall Creators Update (RS3). 
-    * Alternatively: 
-        1. Install the VC++ 2015.3 v140 toolset for desktop (x86, x64) component from the Visual Studio installer.
-        2. Build the target application.
-        3. From the command line, use the editbin tool to set the `Largeaddressaware` flag for the target executable. For example, you might use this command (after updating the path): "C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.12.25718\bin\Hostx86\x86\editbin.exe" /Largeaddressaware "C:\Path\To\Application\app.exe".
-        4. To start debugging, press **F5**. Now, snapshots are taken on debugger steps and breakpoints.
+    Workarounds:
+  * If you are on the Windows 10 Anniversary Update (RS1) and below version 10.0.14393.2273, [install KB4103720](https://support.microsoft.com/help/4103720/windows-10-update-kb4103720). 
+  * If you are on the Windows 10 Creators Update (RS2) and below version 10.0.15063.1112, [install KB4103722](https://support.microsoft.com/help/4103722/windows-10-update-4103722).
+  * Install or upgrade to Windows 10 Fall Creators Update (RS3). 
+  * Alternatively: 
+    1. Install the VC++ 2015.3 v140 toolset for desktop (x86, x64) component from the Visual Studio installer.
+    2. Build the target application.
+    3. From the command line, use the editbin tool to set the `Largeaddressaware` flag for the target executable. For example, you might use this command (after updating the path): "C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.12.25718\bin\Hostx86\x86\editbin.exe" /Largeaddressaware "C:\Path\To\Application\app.exe".
+    4. To start debugging, press **F5**. Now, snapshots are taken on debugger steps and breakpoints.
 
-        > [!Note]
-        > The `Largeaddressaware` flag must be set each time that the executable is rebuilt with changes.
+       > [!Note]
+       > The `Largeaddressaware` flag must be set each time that the executable is rebuilt with changes.
 
 * When a snapshot of the application's process is taken on an application that uses a persisted memory-mapped file, the process with the snapshot holds an exclusive lock on the memory-mapped file (even after the parent process has released its lock). Other processes are still able to read, but not write, to the memory-mapped file.
 

@@ -1,7 +1,7 @@
 ---
 title: "How to: Modify a Standard Menu Command in a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,19 +19,17 @@ manager: "douge"
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Modify a Standard Menu Command in a Domain-Specific Language](https://docs.microsoft.com/visualstudio/modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language).  
-  
 You can modify the behavior of some of the standard commands that are defined automatically in your DSL. For example, you could modify **Cut** so that it excludes sensitive information. To do this, you override methods in a command set class. These classes are defined in the CommandSet.cs file, in the DslPackage project, and are derived from <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.  
   
  In summary, to modify a command:  
   
-1.  [Discover what commands you can modify](#what).  
+1. [Discover what commands you can modify](#what).  
   
-2.  [Create a partial declaration of the appropriate command set class](#extend).  
+2. [Create a partial declaration of the appropriate command set class](#extend).  
   
-3.  [Override the ProcessOnStatus and ProcessOnMenu methods](#override) for the command.  
+3. [Override the ProcessOnStatus and ProcessOnMenu methods](#override) for the command.  
   
- This topic explains this procedure.  
+   This topic explains this procedure.  
   
 > [!NOTE]
 >  If you want to create your own menu commands, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
@@ -135,19 +133,19 @@ protected override void ProcessOnMenuDeleteCommand()
 ### Writing the code of the methods  
  The following fragments are frequently useful within these methods:  
   
--   `this.CurrentSelection`. The shape that the user right-clicked is always included in this list of shapes and connectors. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.  
+- `this.CurrentSelection`. The shape that the user right-clicked is always included in this list of shapes and connectors. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.  
   
--   `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.  
+- `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.  
   
--   `this.IsCurrentDiagramEmpty()`  
+- `this.IsCurrentDiagramEmpty()`  
   
--   `this.IsSingleSelection()` - the user did not select multiple shapes  
+- `this.IsSingleSelection()` - the user did not select multiple shapes  
   
--   `this.SingleSelection` - the shape or diagram that the user right-clicked  
+- `this.SingleSelection` - the shape or diagram that the user right-clicked  
   
--   `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.  
+- `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.  
   
- For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
+  For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
 ## See Also  
  <xref:System.ComponentModel.Design.MenuCommand>   

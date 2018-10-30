@@ -108,8 +108,8 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
         </Configuration>
       </DataCollector>
 
-      <!--Video data collector is only available with Visual Studio 2017 version 15.5 and higher -->
       <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
+        <!--Video data collector is only available with Visual Studio 2017 version 15.5 and higher -->
       </DataCollector>
 
     </DataCollectors>
@@ -131,7 +131,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
     <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
     <DeploymentEnabled>False</DeploymentEnabled>
     <AssemblyResolution>
-      <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/>
+      <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
     </AssemblyResolution>
   </MSTest>
 
@@ -158,7 +158,7 @@ The sections that follow detail the elements of a *.runsettings* file.
 The **RunConfiguration** element can include the following elements:
 
 |Node|Default|Values|
-|----------|-------------|------------|
+|-|-|-|
 |**ResultsDirectory**||The directory where test results are placed.|
 |**TargetFrameworkVersion**|Framework40|Framework35, Framework40, Framework45<br /><br />This setting specifies the version of the unit test framework used to discover and execute the tests. It can be different from the version of the .NET platform that you specify in the build properties of the unit test project.|
 |**TargetPlatform**|x86|x86, x64|
@@ -235,7 +235,7 @@ To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools
 These settings are specific to the test adapter that runs test methods that have the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute> attribute.
 
 |Configuration|Default|Values|
-|-------------------|-------------|------------|
+|-|-|-|
 |**ForcedLegacyMode**|false|In Visual Studio 2012, the MSTest adapter was optimized to make it faster and more scalable. Some behavior, such as the order in which tests are run, might not be exactly as it was in previous editions of Visual Studio. Set this value to **true** to use the older test adapter.<br /><br />For example, you might use this setting if you have an *app.config* file specified for a unit test.<br /><br />We recommend that you consider refactoring your tests to allow you to use the newer adapter.|
 |**IgnoreTestImpact**|false|The test impact feature prioritizes tests that are affected by recent changes, when run in MSTest or from Microsoft Test Manager. This setting deactivates the feature. For more information, see [Which tests should be run since a previous build](https://msdn.microsoft.com/library/dd286589).|
 |**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file by selecting **Test** > **Test Settings** > **Select Test Settings File**.<br /><br />If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|

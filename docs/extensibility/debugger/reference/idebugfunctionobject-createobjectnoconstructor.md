@@ -23,15 +23,15 @@ Creates an object with no constructor.
   
 ```cpp  
 HRESULT CreateObjectNoConstructor(   
-   IDebugField*   pClassObject,  
-   IDebugObject** ppObject  
+   IDebugField*   pClassObject,  
+   IDebugObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int CreateObjectNoConstructor(  
-   IDebugField      pClassField,   
-   out IDebugObject ppObject  
+   IDebugField      pClassField,   
+   out IDebugObject ppObject  
 );  
 ```  
   

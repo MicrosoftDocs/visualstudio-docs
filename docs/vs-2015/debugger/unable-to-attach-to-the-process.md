@@ -1,7 +1,7 @@
 ---
 title: "Unable to Attach to the Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Unable to Attach to the Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Unable to Attach to the Process](https://docs.microsoft.com/visualstudio/debugger/unable-to-attach-to-the-process).  
-  
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.  
   
  There are two common scenarios that cause this error:  

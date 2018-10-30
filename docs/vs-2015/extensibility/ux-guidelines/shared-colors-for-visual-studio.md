@@ -1,7 +1,7 @@
 ---
 title: "Shared Colors for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Shared Colors for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Shared Colors for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/shared-colors-for-visual-studio).  
-  
 When you are designing UI that uses common Visual Studio shell elements, or you would like your interface element to be consistent with similar features, use existing token names in package definition files to choose and assign colors. This ensures that your UI stays consistent with the overall Visual Studio environment and that it updates automatically when themes are added or updated.  
   
  This article describes common UI elements and the token names that they use, which you can reference when building similar UI. For specific information about how to access these color tokens, see [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService).  
@@ -44,10 +42,10 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Use …  
  -   whenever you need to create a custom menu.  
   
--   when you have a new UI component that you want to match the Visual Studio menus.  
+- when you have a new UI component that you want to match the Visual Studio menus.  
   
- Do not use …  
- the background color alone. Always use the background/foreground combination as specified.  
+  Do not use …  
+  the background color alone. Always use the background/foreground combination as specified.  
   
 #### Menu title  
  Menu titles consist of a background, a border, and the title text, as well as an optional glyph, usually when the menu is found in a command bar.  
@@ -60,137 +58,137 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use…  
  -   for anything that you don't want to always match the menu title.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Menu title default](../../extensibility/ux-guidelines/media/0303-002-menutitledefault.png "0303-002_MenuTitleDefault")  
+  ![Menu title default](../../extensibility/ux-guidelines/media/0303-002-menutitledefault.png "0303-002_MenuTitleDefault")  
   
- **Menu title**  
+  **Menu title**  
   
- Background  
+  Background  
   
- None  
+  None  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextActive`  
+  `Environment.CommandBarTextActive`  
   
- ![Menu title with glyph default](../../extensibility/ux-guidelines/media/0303-003-menutitlewithglyphdefault.png "0303-003_MenuTitleWithGlyphDefault")  
+  ![Menu title with glyph default](../../extensibility/ux-guidelines/media/0303-003-menutitlewithglyphdefault.png "0303-003_MenuTitleWithGlyphDefault")  
   
- **Menu title with glyph**  
+  **Menu title with glyph**  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.CommandBarMenuGlyph`  
+  `Environment.CommandBarMenuGlyph`  
   
- Border  
+  Border  
   
- None  
+  None  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Menu title on hover](../../extensibility/ux-guidelines/media/0303-004-menutitlehover.png "0303-004_MenuTitleHover")  
+  ![Menu title on hover](../../extensibility/ux-guidelines/media/0303-004-menutitlehover.png "0303-004_MenuTitleHover")  
   
- **Menu title**  
+  **Menu title**  
   
- Background  
+  Background  
   
- `Environment.CommandBarMouseOverBackgroundBegin`  
+  `Environment.CommandBarMouseOverBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextHover`  
+  `Environment.CommandBarTextHover`  
   
- ![Menu title with glyph on hover](../../extensibility/ux-guidelines/media/0303-005-menutitlewithglyphhover.png "0303-005_MenuTitleWithGlyphHover")  
+  ![Menu title with glyph on hover](../../extensibility/ux-guidelines/media/0303-005-menutitlewithglyphhover.png "0303-005_MenuTitleWithGlyphHover")  
   
- **Menu title with glyph**  
+  **Menu title with glyph**  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.CommandBarMenuMouseOverGlyph`  
+  `Environment.CommandBarMenuMouseOverGlyph`  
   
- Border  
+  Border  
   
- `Environment.CommandBarBorder`  
+  `Environment.CommandBarBorder`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Menu title pressed](../../extensibility/ux-guidelines/media/0303-006-menutitlepressed.png "0303-006_MenuTitlePressed")  
+  ![Menu title pressed](../../extensibility/ux-guidelines/media/0303-006-menutitlepressed.png "0303-006_MenuTitlePressed")  
   
- **Menu title**  
+  **Menu title**  
   
- Background  
+  Background  
   
- `Environment.CommandBarMenuBackgroundGradientBegin`  
+  `Environment.CommandBarMenuBackgroundGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextActive`  
+  `Environment.CommandBarTextActive`  
   
- ![Menu title with glyph pressed](../../extensibility/ux-guidelines/media/0303-007-menutitlewithglyphpressed.png "0303-007_MenuTitleWithGlyphPressed")  
+  ![Menu title with glyph pressed](../../extensibility/ux-guidelines/media/0303-007-menutitlewithglyphpressed.png "0303-007_MenuTitleWithGlyphPressed")  
   
- **Menu title with glyph**  
+  **Menu title with glyph**  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.CommandBarMenuMouseDownGlyph`  
+  `Environment.CommandBarMenuMouseDownGlyph`  
   
- Border  
+  Border  
   
- `Environment.CommandBarMenuBorder`  
+  `Environment.CommandBarMenuBorder`  
   
- Only left, top, and right sides.  
+  Only left, top, and right sides.  
   
- **Disabled**  
+  **Disabled**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Menu title with glyph disabled](../../extensibility/ux-guidelines/media/0303-008-menutitlewithglyphdisabled.png "0303-008_MenuTitleWithGlyphDisabled")  
+  ![Menu title with glyph disabled](../../extensibility/ux-guidelines/media/0303-008-menutitlewithglyphdisabled.png "0303-008_MenuTitleWithGlyphDisabled")  
   
- **Menu title with glyph**  
+  **Menu title with glyph**  
   
- Background  
+  Background  
   
- None  
+  None  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextInactive`  
+  `Environment.CommandBarTextInactive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.CommandBarTextInactive`  
+  `Environment.CommandBarTextInactive`  
   
- Border  
+  Border  
   
- None  
+  None  
   
 #### Menu  
  An individual menu item consists of the menu text and an optional icon, check box, or submenu glyph. Its background and text color change on hover. This color token is a background/foreground pair.  
@@ -203,153 +201,153 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use…  
  -   for any drop-down list that occurs in another context.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Menu default](../../extensibility/ux-guidelines/media/0303-010-menudefault.png "0303-010_MenuDefault")  
+  ![Menu default](../../extensibility/ux-guidelines/media/0303-010-menudefault.png "0303-010_MenuDefault")  
   
- **Menu**  
+  **Menu**  
   
- Background  
+  Background  
   
- `Environment.CommandBarMenuBackgroundGradientBegin`  
+  `Environment.CommandBarMenuBackgroundGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextActive`  
+  `Environment.CommandBarTextActive`  
   
- Foreground (Submenu glyph)  
+  Foreground (Submenu glyph)  
   
- `Environment.CommandBarMenuSubmenuGlyph`  
+  `Environment.CommandBarMenuSubmenuGlyph`  
   
- Border  
+  Border  
   
- `Environment.CommandBarMenuBorder`  
+  `Environment.CommandBarMenuBorder`  
   
- Icon channel background  
+  Icon channel background  
   
- `Environment.CommandBarMenuIconBackground`  
+  `Environment.CommandBarMenuIconBackground`  
   
- Separator  
+  Separator  
   
- `Environment.CommandBarMenuSeparator`  
+  `Environment.CommandBarMenuSeparator`  
   
- Shadow  
+  Shadow  
   
- `Environment.DropShadowBackground`  
+  `Environment.DropShadowBackground`  
   
- ![Menu checked](../../extensibility/ux-guidelines/media/0303-011-menuchecked.png "0303-011_MenuChecked")  
+  ![Menu checked](../../extensibility/ux-guidelines/media/0303-011-menuchecked.png "0303-011_MenuChecked")  
   
- **Checked**  
+  **Checked**  
   
- Check mark  
+  Check mark  
   
- `Environment.CommandBarCheckBox`  
+  `Environment.CommandBarCheckBox`  
   
- Check mark background  
+  Check mark background  
   
- `Environment.CommandBarSelectedIcon`  
+  `Environment.CommandBarSelectedIcon`  
   
- ![Menu selected](../../extensibility/ux-guidelines/media/0303-012-menuselected.png "0303-012_MenuSelected")  
+  ![Menu selected](../../extensibility/ux-guidelines/media/0303-012-menuselected.png "0303-012_MenuSelected")  
   
- **Selected**  
+  **Selected**  
   
- Icon background  
+  Icon background  
   
- `Environment.CommandBarSelected`  
+  `Environment.CommandBarSelected`  
   
- Icon border  
+  Icon border  
   
- `Environment.CommandBarSelectedBorder`  
+  `Environment.CommandBarSelectedBorder`  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Menu hover](../../extensibility/ux-guidelines/media/0303-013-menuhover.png "0303-013_MenuHover")  
+  ![Menu hover](../../extensibility/ux-guidelines/media/0303-013-menuhover.png "0303-013_MenuHover")  
   
- **Menu item**  
+  **Menu item**  
   
- Background  
+  Background  
   
- `Environment.CommandBarMenuItemMouseOver`  
+  `Environment.CommandBarMenuItemMouseOver`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarMenuItemMouseOver`  
+  `Environment.CommandBarMenuItemMouseOver`  
   
- Foreground (Submenu glyph)  
+  Foreground (Submenu glyph)  
   
- `Environment.CommandBarMenuMouseOverSubmenuGlyph`  
+  `Environment.CommandBarMenuMouseOverSubmenuGlyph`  
   
- ![Menu hover checked](../../extensibility/ux-guidelines/media/0303-014-menuhoverchecked.png "0303-014_MenuHoverChecked")  
+  ![Menu hover checked](../../extensibility/ux-guidelines/media/0303-014-menuhoverchecked.png "0303-014_MenuHoverChecked")  
   
- **Checked**  
+  **Checked**  
   
- Check mark  
+  Check mark  
   
- `Environment.CommandBarCheckBoxMouseOver`  
+  `Environment.CommandBarCheckBoxMouseOver`  
   
- Check mark background  
+  Check mark background  
   
- `Environment.CommandBarHoverOverSelectedIcon`  
+  `Environment.CommandBarHoverOverSelectedIcon`  
   
- ![Menu hover selected](../../extensibility/ux-guidelines/media/0303-015-menuhoverselected.png "0303-015_MenuHoverSelected")  
+  ![Menu hover selected](../../extensibility/ux-guidelines/media/0303-015-menuhoverselected.png "0303-015_MenuHoverSelected")  
   
- **Selected**  
+  **Selected**  
   
- Icon background  
+  Icon background  
   
- `Environment.CommandBarHoverOverSelected`  
+  `Environment.CommandBarHoverOverSelected`  
   
- Icon border  
+  Icon border  
   
- `Environment.CommandBarHoverOverSelectedIconBorder`  
+  `Environment.CommandBarHoverOverSelectedIconBorder`  
   
- **Disabled**  
+  **Disabled**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Menu disabled](../../extensibility/ux-guidelines/media/0303-016-menudisabled.png "0303-016_MenuDisabled")  
+  ![Menu disabled](../../extensibility/ux-guidelines/media/0303-016-menudisabled.png "0303-016_MenuDisabled")  
   
- Menu item  
+  Menu item  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextInactive`  
+  `Environment.CommandBarTextInactive`  
   
- Foreground (Submenu glyph)  
+  Foreground (Submenu glyph)  
   
- `Environment.CommandBarMenuSubmenuGlyph`  
+  `Environment.CommandBarMenuSubmenuGlyph`  
   
- ![Menu disabled checked](../../extensibility/ux-guidelines/media/0303-017-menudisabledchecked.png "0303-017_MenuDisabledChecked")  
+  ![Menu disabled checked](../../extensibility/ux-guidelines/media/0303-017-menudisabledchecked.png "0303-017_MenuDisabledChecked")  
   
- Checked  
+  Checked  
   
- Check mark  
+  Check mark  
   
- `Environment.CommandBarCheckBoxDisabled`  
+  `Environment.CommandBarCheckBoxDisabled`  
   
- Check mark background  
+  Check mark background  
   
- `Environment.CommandBarSelectedIconDisabled`  
+  `Environment.CommandBarSelectedIconDisabled`  
   
 ### Command bar  
  The command bar can appear in multiple places within the Visual Studio IDE, most notably the command shelf and embedded in tool or document windows.  
@@ -379,33 +377,33 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use…  
  -   for UI elements that are not similar to a command bar.  
   
--   for command bar components other than the ones for which token names are specified.  
+- for command bar components other than the ones for which token names are specified.  
   
- **Default** (no other states)  
+  **Default** (no other states)  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- Background  
+  Background  
   
- `Environment.CommandBarGradientBegin`  
+  `Environment.CommandBarGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Border  
+  Border  
   
- `Environment.CommandBarToolBarBorder`  
+  `Environment.CommandBarToolBarBorder`  
   
- Drag handle  
+  Drag handle  
   
- `Environment.CommandBarDragHandle`  
+  `Environment.CommandBarDragHandle`  
   
- Separator  
+  Separator  
   
- `Environment.CommandBarToolBarSeparator`  
+  `Environment.CommandBarToolBarSeparator`  
   
- `Environment.CommandBarToolBarSeparatorHighlight`  
+  `Environment.CommandBarToolBarSeparatorHighlight`  
   
 #### Command icons  
  ![Command icon redline](../../extensibility/ux-guidelines/media/0303-021-commandiconredline1.png "0303-021_CommandIconRedline1")  
@@ -418,139 +416,139 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use…  
  -   for controls that have their own token names.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Command icon default](../../extensibility/ux-guidelines/media/0303-023-commandicondefault.png "0303-023_CommandIconDefault")  
+  ![Command icon default](../../extensibility/ux-guidelines/media/0303-023-commandicondefault.png "0303-023_CommandIconDefault")  
   
- **Default**  
+  **Default**  
   
- Background  
+  Background  
   
- N/A (inherits from command bar background)  
+  N/A (inherits from command bar background)  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextActive`  
+  `Environment.CommandBarTextActive`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
- ![Command icon default selected](../../extensibility/ux-guidelines/media/0303-024-commandicondefaultselected.png "0303-024_CommandIconDefaultSelected")  
+  ![Command icon default selected](../../extensibility/ux-guidelines/media/0303-024-commandicondefaultselected.png "0303-024_CommandIconDefaultSelected")  
   
- **Selected**  
+  **Selected**  
   
- Background  
+  Background  
   
- `Environment.CommandBarSelected`  
+  `Environment.CommandBarSelected`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextSelected`  
+  `Environment.CommandBarTextSelected`  
   
- Border  
+  Border  
   
- `Environment.CommandBarSelectedBorder`  
+  `Environment.CommandBarSelectedBorder`  
   
- **Hover and keyboard focused**  
+  **Hover and keyboard focused**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Command icon hover](../../extensibility/ux-guidelines/media/0303-025-commandiconhover.png "0303-025_CommandIconHover")  
+  ![Command icon hover](../../extensibility/ux-guidelines/media/0303-025-commandiconhover.png "0303-025_CommandIconHover")  
   
- **Standard on hover**  
+  **Standard on hover**  
   
- Background  
+  Background  
   
- `Environment.CommandBarMouseOverBackgroundBegin`  
+  `Environment.CommandBarMouseOverBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextHover`  
+  `Environment.CommandBarTextHover`  
   
- Border  
+  Border  
   
- `Environment.CommandBarBorder`  
+  `Environment.CommandBarBorder`  
   
- ![Command icon hover selected](../../extensibility/ux-guidelines/media/0303-026-commandiconhoverselected.png "0303-026_CommandIconHoverSelected")  
+  ![Command icon hover selected](../../extensibility/ux-guidelines/media/0303-026-commandiconhoverselected.png "0303-026_CommandIconHoverSelected")  
   
- **Selected on hover**  
+  **Selected on hover**  
   
- Background  
+  Background  
   
- `Environment.CommandBarHoverOverSelected`  
+  `Environment.CommandBarHoverOverSelected`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextHoverOverSelected`  
+  `Environment.CommandBarTextHoverOverSelected`  
   
- Border  
+  Border  
   
- `Environment.CommandBarHoverOverSelectedIconBorder`  
+  `Environment.CommandBarHoverOverSelectedIconBorder`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Command icon pressed](../../extensibility/ux-guidelines/media/0303-027-commandiconpressed.png "0303-027_CommandIconPressed")  
+  ![Command icon pressed](../../extensibility/ux-guidelines/media/0303-027-commandiconpressed.png "0303-027_CommandIconPressed")  
   
- **Pressed command icon**  
+  **Pressed command icon**  
   
- Background  
+  Background  
   
- `Environment.CommandBarMouseDownBackgroundBegin`  
+  `Environment.CommandBarMouseDownBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextMouseDown`  
+  `Environment.CommandBarTextMouseDown`  
   
- Border  
+  Border  
   
- `Environment.CommandBarBorder`  
+  `Environment.CommandBarBorder`  
   
- **Disabled**  
+  **Disabled**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Command icon disabled](../../extensibility/ux-guidelines/media/0303-028-commandicondisabled.png "0303-028_CommandIconDisabled")  
+  ![Command icon disabled](../../extensibility/ux-guidelines/media/0303-028-commandicondisabled.png "0303-028_CommandIconDisabled")  
   
- **Disabled command icon**  
+  **Disabled command icon**  
   
- Background  
+  Background  
   
- N/A (inherits from command bar background)  
+  N/A (inherits from command bar background)  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextInactive`  
+  `Environment.CommandBarTextInactive`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
 ####  <a name="BKMK_CommandComboBox"></a> Combo box  
   
@@ -562,242 +560,242 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Use …  
  -   when building custom combo boxes.  
   
--   when creating a command bar control that is similar to a combo box.  
+- when creating a command bar control that is similar to a combo box.  
   
- Do not use …  
- -   for anything you don’t want always to match the command bar UI.  
+  Do not use …  
+  -   for anything you don’t want always to match the command bar UI.  
   
--   when you have access to a styled combo box.  
+- when you have access to a styled combo box.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Combo box input field](../../extensibility/ux-guidelines/media/0303-030-comboboxinputfield.png "0303-030_ComboBoxInputField")  
+  ![Combo box input field](../../extensibility/ux-guidelines/media/0303-030-comboboxinputfield.png "0303-030_ComboBoxInputField")  
   
- **Input field**  
+  **Input field**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxBackground`  
+  `Environment.ComboBoxBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxText`  
+  `Environment.ComboBoxText`  
   
- Border  
+  Border  
   
- `Environment.ComboBoxBorder`  
+  `Environment.ComboBoxBorder`  
   
- Separator  
+  Separator  
   
- No separator  
+  No separator  
   
- ![Combo box drop&#45;down button](../../extensibility/ux-guidelines/media/0303-031-comboboxdropdownbutton.png "0303-031_ComboBoxDropdownButton")  
+  ![Combo box drop&#45;down button](../../extensibility/ux-guidelines/media/0303-031-comboboxdropdownbutton.png "0303-031_ComboBoxDropdownButton")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- N/A (inherits)  
+  N/A (inherits)  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ComboBoxGlyph`  
+  `Environment.ComboBoxGlyph`  
   
- ![Combo box&#47;drop&#45;down list](../../extensibility/ux-guidelines/media/0303-032-comboboxdropdownlist.png "0303-032_ComboBoxDropdownList")  
+  ![Combo box&#47;drop&#45;down list](../../extensibility/ux-guidelines/media/0303-032-comboboxdropdownlist.png "0303-032_ComboBoxDropdownList")  
   
- **Drop-down list**  
+  **Drop-down list**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxPopupBackgroundBegin`  
+  `Environment.ComboBoxPopupBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxItemText`  
+  `Environment.ComboBoxItemText`  
   
- Border  
+  Border  
   
- `Environment.ComboBoxPopupBorder`  
+  `Environment.ComboBoxPopupBorder`  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Combo box input field on hover](../../extensibility/ux-guidelines/media/0303-033-comboboxinputfieldhover.png "0303-033_ComboBoxInputFieldHover")  
+  ![Combo box input field on hover](../../extensibility/ux-guidelines/media/0303-033-comboboxinputfieldhover.png "0303-033_ComboBoxInputFieldHover")  
   
- **Input field**  
+  **Input field**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxMouseOverBackgroundBegin`  
+  `Environment.ComboBoxMouseOverBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxMouseOverText`  
+  `Environment.ComboBoxMouseOverText`  
   
- Border  
+  Border  
   
- `Environment.ComboBoxMouseOverBorder`  
+  `Environment.ComboBoxMouseOverBorder`  
   
- Separator  
+  Separator  
   
- `Environment.ComboBoxMouseOverSeparator`  
+  `Environment.ComboBoxMouseOverSeparator`  
   
- ![Combo box&#47;drop&#45;down button on hover](../../extensibility/ux-guidelines/media/0303-034-comboboxdropdownbuttonhover.png "0303-034_ComboBoxDropdownButtonHover")  
+  ![Combo box&#47;drop&#45;down button on hover](../../extensibility/ux-guidelines/media/0303-034-comboboxdropdownbuttonhover.png "0303-034_ComboBoxDropdownButtonHover")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxButtonMouseOverBackground`  
+  `Environment.ComboBoxButtonMouseOverBackground`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ComboBoxMouseOverGlyph`  
+  `Environment.ComboBoxMouseOverGlyph`  
   
- ![Combo box&#47;drop&#45;down list on hover](../../extensibility/ux-guidelines/media/0303-035-comboboxdropdownlisthover.png "0303-035_ComboBoxDropdownListHover")  
+  ![Combo box&#47;drop&#45;down list on hover](../../extensibility/ux-guidelines/media/0303-035-comboboxdropdownlisthover.png "0303-035_ComboBoxDropdownListHover")  
   
- **Drop-down list**  
+  **Drop-down list**  
   
- Background (Menu item)  
+  Background (Menu item)  
   
- `Environment.ComboBoxItemMouseOverBackground`  
+  `Environment.ComboBoxItemMouseOverBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxItemMouseOverText`  
+  `Environment.ComboBoxItemMouseOverText`  
   
- Border (Menu item)  
+  Border (Menu item)  
   
- `Environment.ComboBoxItemMouseOverBorder`  
+  `Environment.ComboBoxItemMouseOverBorder`  
   
- **Focused**  
+  **Focused**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Color.category  
+  Token name: Color.category  
   
- ![Combo box input field focused](../../extensibility/ux-guidelines/media/0303-036-comboboxinputfieldfocused.png "0303-036_ComboBoxInputFieldFocused")  
+  ![Combo box input field focused](../../extensibility/ux-guidelines/media/0303-036-comboboxinputfieldfocused.png "0303-036_ComboBoxInputFieldFocused")  
   
- **Input field**  
+  **Input field**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxFocusedBackground`  
+  `Environment.ComboBoxFocusedBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxFocusedText`  
+  `Environment.ComboBoxFocusedText`  
   
- Border  
+  Border  
   
- `Environment.ComboBoxFocusedBorder`  
+  `Environment.ComboBoxFocusedBorder`  
   
- Separator  
+  Separator  
   
- `Environment.ComboBoxFocusedButtonSeparator`  
+  `Environment.ComboBoxFocusedButtonSeparator`  
   
- ![Combo box&#47;drop&#45;down button focused](../../extensibility/ux-guidelines/media/0303-037-comboboxdropdownbuttonfocused.png "0303-037_ComboBoxDropdownButtonFocused")  
+  ![Combo box&#47;drop&#45;down button focused](../../extensibility/ux-guidelines/media/0303-037-comboboxdropdownbuttonfocused.png "0303-037_ComboBoxDropdownButtonFocused")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxFocusedButtonBackground`  
+  `Environment.ComboBoxFocusedButtonBackground`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ComboBoxFocusedGlyph`  
+  `Environment.ComboBoxFocusedGlyph`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Color.category  
+  Token name: Color.category  
   
- ![Combo box input field pressed](../../extensibility/ux-guidelines/media/0303-038-comboboxinputfieldpressed.png "0303-038_ComboBoxInputFieldPressed")  
+  ![Combo box input field pressed](../../extensibility/ux-guidelines/media/0303-038-comboboxinputfieldpressed.png "0303-038_ComboBoxInputFieldPressed")  
   
- **Input field**  
+  **Input field**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxMouseDownBackground`  
+  `Environment.ComboBoxMouseDownBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxMouseDownText`  
+  `Environment.ComboBoxMouseDownText`  
   
- Border  
+  Border  
   
- `Environment.ComboBoxMouseDownBorder`  
+  `Environment.ComboBoxMouseDownBorder`  
   
- Separator  
+  Separator  
   
- `Environment.ComboBoxMouseDownSeparator`  
+  `Environment.ComboBoxMouseDownSeparator`  
   
- ![Combo box&#47;drop&#45;down button pressed](../../extensibility/ux-guidelines/media/0303-039-comboboxdropdownbuttonpressed.png "0303-039_ComboBoxDropdownButtonPressed")  
+  ![Combo box&#47;drop&#45;down button pressed](../../extensibility/ux-guidelines/media/0303-039-comboboxdropdownbuttonpressed.png "0303-039_ComboBoxDropdownButtonPressed")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxButtonMouseDownBackground`  
+  `Environment.ComboBoxButtonMouseDownBackground`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ComboBoxMouseDownGlyph`  
+  `Environment.ComboBoxMouseDownGlyph`  
   
- **Disabled**  
+  **Disabled**  
   
- ![Combo box input field disabled](../../extensibility/ux-guidelines/media/0303-041-comboboxinputfielddisabled.png "0303-041_ComboBoxInputFieldDisabled")  
+  ![Combo box input field disabled](../../extensibility/ux-guidelines/media/0303-041-comboboxinputfielddisabled.png "0303-041_ComboBoxInputFieldDisabled")  
   
- **Input field**  
+  **Input field**  
   
- Background  
+  Background  
   
- `Environment.ComboBoxDisabledBackground`  
+  `Environment.ComboBoxDisabledBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxDisabledText`  
+  `Environment.ComboBoxDisabledText`  
   
- Border  
+  Border  
   
- `Environment.ComboBoxDisabledBorder`  
+  `Environment.ComboBoxDisabledBorder`  
   
- Separator  
+  Separator  
   
- No separator  
+  No separator  
   
- ![Combo box&#47;drop&#45;down button disabled](../../extensibility/ux-guidelines/media/0303-040-comboboxdropdownbuttondisabled.png "0303-040_ComboBoxDropdownButtonDisabled")  
+  ![Combo box&#47;drop&#45;down button disabled](../../extensibility/ux-guidelines/media/0303-040-comboboxdropdownbuttondisabled.png "0303-040_ComboBoxDropdownButtonDisabled")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- None  
+  None  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ComboBoxDisabledGlyph`  
+  `Environment.ComboBoxDisabledGlyph`  
   
 ####  <a name="BKMK_CommandDropDown"></a> Drop-down  
   
@@ -812,203 +810,203 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use …  
  -   for anything that is not similar to a drop-down list.  
   
--   for combo boxes or split buttons.  
+- for combo boxes or split buttons.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down selection field](../../extensibility/ux-guidelines/media/0303-043-dropdownselectionfield.png "0303-043_DropdownSelectionField")  
+  ![Drop&#45;down selection field](../../extensibility/ux-guidelines/media/0303-043-dropdownselectionfield.png "0303-043_DropdownSelectionField")  
   
- **Selection field**  
+  **Selection field**  
   
- Background  
+  Background  
   
- `Environment.DropDownBackground`  
+  `Environment.DropDownBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `DropDownText`  
+  `DropDownText`  
   
- Border  
+  Border  
   
- `DropDownBorder`  
+  `DropDownBorder`  
   
- Separator  
+  Separator  
   
- No separator  
+  No separator  
   
- ![Drop&#45;down button](../../extensibility/ux-guidelines/media/0303-044-dropdownbutton.png "0303-044_DropdownButton")  
+  ![Drop&#45;down button](../../extensibility/ux-guidelines/media/0303-044-dropdownbutton.png "0303-044_DropdownButton")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- None  
+  None  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.DropDownGlyph`  
+  `Environment.DropDownGlyph`  
   
- ![Drop&#45;down list](../../extensibility/ux-guidelines/media/0303-045-dropdownlist.png "0303-045_DropdownList")  
+  ![Drop&#45;down list](../../extensibility/ux-guidelines/media/0303-045-dropdownlist.png "0303-045_DropdownList")  
   
- **Drop-down list**  
+  **Drop-down list**  
   
- Background  
+  Background  
   
- `Environment.DropDownPopupBackgroundBegin`  
+  `Environment.DropDownPopupBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxItemText`  
+  `Environment.ComboBoxItemText`  
   
- Border  
+  Border  
   
- `Environment.DropDownPopupBorder`  
+  `Environment.DropDownPopupBorder`  
   
- Shadow  
+  Shadow  
   
- `Environment.DropShadowBackground`  
+  `Environment.DropShadowBackground`  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down selection field on hover](../../extensibility/ux-guidelines/media/0303-046-dropdownselectionfieldhover.png "0303-046_DropdownSelectionFieldHover")  
+  ![Drop&#45;down selection field on hover](../../extensibility/ux-guidelines/media/0303-046-dropdownselectionfieldhover.png "0303-046_DropdownSelectionFieldHover")  
   
- **Selection field**  
+  **Selection field**  
   
- Background  
+  Background  
   
- `Environment.DropDownMouseOverBackgroundBegin`  
+  `Environment.DropDownMouseOverBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.DropDownMouseOverText`  
+  `Environment.DropDownMouseOverText`  
   
- Border  
+  Border  
   
- `Environment.DropDownMouseOverBorder`  
+  `Environment.DropDownMouseOverBorder`  
   
- Separator  
+  Separator  
   
- `Environment.DropDownButtonMouseOverSeparator`  
+  `Environment.DropDownButtonMouseOverSeparator`  
   
- ![Drop&#45;down button on hover](../../extensibility/ux-guidelines/media/0303-047-dropdownbuttonhover.png "0303-047_DropdownButtonHover")  
+  ![Drop&#45;down button on hover](../../extensibility/ux-guidelines/media/0303-047-dropdownbuttonhover.png "0303-047_DropdownButtonHover")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- `Environment.DropDownButtonMouseOverBackground`  
+  `Environment.DropDownButtonMouseOverBackground`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.DropDownMouseOverGlyph`  
+  `Environment.DropDownMouseOverGlyph`  
   
- ![Drop&#45;down list on hover](../../extensibility/ux-guidelines/media/0303-048-dropdownlisthover.png "0303-048_DropdownListHover")  
+  ![Drop&#45;down list on hover](../../extensibility/ux-guidelines/media/0303-048-dropdownlisthover.png "0303-048_DropdownListHover")  
   
- **Drop-down list**  
+  **Drop-down list**  
   
- Background (Menu item)  
+  Background (Menu item)  
   
- `Environment.ComboBoxItemMouseOverBackground`  
+  `Environment.ComboBoxItemMouseOverBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxItemMouseOverText`  
+  `Environment.ComboBoxItemMouseOverText`  
   
- Border (Menu item)  
+  Border (Menu item)  
   
- `Environment.ComboBoxItemMouseOverBorder`  
+  `Environment.ComboBoxItemMouseOverBorder`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down selection field pressed](../../extensibility/ux-guidelines/media/0303-049-dropdownselectionfieldpressed.png "0303-049_DropdownSelectionFieldPressed")  
+  ![Drop&#45;down selection field pressed](../../extensibility/ux-guidelines/media/0303-049-dropdownselectionfieldpressed.png "0303-049_DropdownSelectionFieldPressed")  
   
- **Selection field**  
+  **Selection field**  
   
- Background  
+  Background  
   
- `Environment.DropDownMouseDownBackground`  
+  `Environment.DropDownMouseDownBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.DropDownMouseDownText`  
+  `Environment.DropDownMouseDownText`  
   
- Border  
+  Border  
   
- `Environment.DropDownMouseDownBorder`  
+  `Environment.DropDownMouseDownBorder`  
   
- Separator  
+  Separator  
   
- `Environment.DropDownButtonMouseDownSeparator`  
+  `Environment.DropDownButtonMouseDownSeparator`  
   
- ![Drop&#45;down button pressed](../../extensibility/ux-guidelines/media/0303-050-dropdownbuttonpressed.png "0303-050_DropdownButtonPressed")  
+  ![Drop&#45;down button pressed](../../extensibility/ux-guidelines/media/0303-050-dropdownbuttonpressed.png "0303-050_DropdownButtonPressed")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- `Environment.DropDownButtonMouseDownBackground`  
+  `Environment.DropDownButtonMouseDownBackground`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.DropDownMouseDownGlyph`  
+  `Environment.DropDownMouseDownGlyph`  
   
- **Disabled**  
+  **Disabled**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down selection field disabled](../../extensibility/ux-guidelines/media/0303-051-dropdownselectionfielddisabled.png "0303-051_DropdownSelectionFieldDisabled")  
+  ![Drop&#45;down selection field disabled](../../extensibility/ux-guidelines/media/0303-051-dropdownselectionfielddisabled.png "0303-051_DropdownSelectionFieldDisabled")  
   
- Background  
+  Background  
   
- `Environment.DropDownDisabledBackground`  
+  `Environment.DropDownDisabledBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.DropDownDisabledText`  
+  `Environment.DropDownDisabledText`  
   
- Border  
+  Border  
   
- `Environment.DropDownDisabledBorder`  
+  `Environment.DropDownDisabledBorder`  
   
- Separator  
+  Separator  
   
- No separator  
+  No separator  
   
- ![Drop&#45;down button disabled](../../extensibility/ux-guidelines/media/0303-052-dropdownbuttondisabled.png "0303-052_DropdownButtonDisabled")  
+  ![Drop&#45;down button disabled](../../extensibility/ux-guidelines/media/0303-052-dropdownbuttondisabled.png "0303-052_DropdownButtonDisabled")  
   
- Background  
+  Background  
   
- N/A  
+  N/A  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.DropDownDisabledGlyph`  
+  `Environment.DropDownDisabledGlyph`  
   
 #### Split button  
  Split buttons share many token names with other command bar controls, such as buttons, menus, and command bar text. All necessary action and drop-down button token names are repeated here for convenience. Split button drop-down lists are implementations of command bar [Menus](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandMenus).  
@@ -1021,139 +1019,139 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use …  
  -   for other kinds of buttons.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Split button](../../extensibility/ux-guidelines/media/0303-054-splitbutton.png "0303-054_SplitButton")  
+  ![Split button](../../extensibility/ux-guidelines/media/0303-054-splitbutton.png "0303-054_SplitButton")  
   
- **Split button (default)**  
+  **Split button (default)**  
   
- Background  
+  Background  
   
- None  
+  None  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextActive`  
+  `Environment.CommandBarTextActive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.CommandBarSplitButtonGlyph`  
+  `Environment.CommandBarSplitButtonGlyph`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
- Separator  
+  Separator  
   
- N/A  
+  N/A  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Split button on hover](../../extensibility/ux-guidelines/media/0303-055-splitbuttonhover.png "0303-055_SplitButtonHover")  
+  ![Split button on hover](../../extensibility/ux-guidelines/media/0303-055-splitbuttonhover.png "0303-055_SplitButtonHover")  
   
- **Split button (on hover)**  
+  **Split button (on hover)**  
   
- Background  
+  Background  
   
- `Environment.CommandBarMouseOverBackgroundBegin`  
+  `Environment.CommandBarMouseOverBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextHover`  
+  `Environment.CommandBarTextHover`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.CommandBarSplitButtonMouseOverGlyph`  
+  `Environment.CommandBarSplitButtonMouseOverGlyph`  
   
- Border  
+  Border  
   
- `Environment.CommandBarBorder`  
+  `Environment.CommandBarBorder`  
   
- Separator  
+  Separator  
   
- `Environment.CommandBarSplitButtonSeparator`  
+  `Environment.CommandBarSplitButtonSeparator`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Split button pressed](../../extensibility/ux-guidelines/media/0303-056-splitbuttonpressed.png "0303-056_SplitButtonPressed")  
+  ![Split button pressed](../../extensibility/ux-guidelines/media/0303-056-splitbuttonpressed.png "0303-056_SplitButtonPressed")  
   
- **Split button (pressed)**  
+  **Split button (pressed)**  
   
- Background  
+  Background  
   
- `Environment.CommandBarMouseDownBackgroundBegin`  
+  `Environment.CommandBarMouseDownBackgroundBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.CommandBarTextMouseDown`  
+  `Environment.CommandBarTextMouseDown`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.CommandBarSplitButtonMouseDownGlyph`  
+  `Environment.CommandBarSplitButtonMouseDownGlyph`  
   
- Border  
+  Border  
   
- `Environment.CommandBarBorder`  
+  `Environment.CommandBarBorder`  
   
- Separator  
+  Separator  
   
- N/A  
+  N/A  
   
- **Disabled**  
+  **Disabled**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Split button disabled](../../extensibility/ux-guidelines/media/0303-057-splitbuttondisabled.png "0303-057_SplitButtonDisabled")  
+  ![Split button disabled](../../extensibility/ux-guidelines/media/0303-057-splitbuttondisabled.png "0303-057_SplitButtonDisabled")  
   
- **Split button (disabled)**  
+  **Split button (disabled)**  
   
- Background  
+  Background  
   
- N/A  
+  N/A  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.ComboBoxItemTextInactive`  
+  `Environment.ComboBoxItemTextInactive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.CommandBarTextInactive`  
+  `Environment.CommandBarTextInactive`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
- Separator  
+  Separator  
   
- N/A  
+  N/A  
   
 #### ‘More options’ and ‘Overflow’ buttons  
  The "More options" button is used when a command bar group is customizable by either adding or removing related command bar buttons. The "Overflow" button appears when a command bar is truncated due to lack of horizontal space, and on click shows a menu containing the command bar buttons that cannot be displayed. Colors for these two buttons are controlled by the same set of token names.  
@@ -1416,19 +1414,19 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
 #### Open document tabs  
  Each open document has a tab in the document tab channel that displays its name. Documents can be either selected or open in the background, and their tabs reflect these states:  
   
--   The selected tab represents the document that is currently displayed in the document well. A selected tab has a document border that extends across the top edge of the document well.  
+- The selected tab represents the document that is currently displayed in the document well. A selected tab has a document border that extends across the top edge of the document well.  
   
--   Background tabs are any document tabs that are not the currently selected tab. Once clicked, they become the selected tab and acquire all background, border, and text colors from those token names.  
+- Background tabs are any document tabs that are not the currently selected tab. Once clicked, they become the selected tab and acquire all background, border, and text colors from those token names.  
   
- ![Open document tab redline](../../extensibility/ux-guidelines/media/0303-073-opendocumenttabredline.png "0303-073_OpenDocumentTabRedline")  
+  ![Open document tab redline](../../extensibility/ux-guidelines/media/0303-073-opendocumenttabredline.png "0303-073_OpenDocumentTabRedline")  
   
- Use …  
- when you are creating custom document tabs.  
+  Use …  
+  when you are creating custom document tabs.  
   
- Do not use …  
- -   for provisional (preview) tabs.  
+  Do not use …  
+  -   for provisional (preview) tabs.  
   
--   for any UI that you don't want to change automatically if the shell has a theme update.  
+- for any UI that you don't want to change automatically if the shell has a theme update.  
   
 #### Selected tab  
  **Focused**  
@@ -1549,117 +1547,117 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use …  
  -   for any kind of document or tab that is not provisional (preview).  
   
--   for any UI that you don't want to change automatically if the shell has a theme update.  
+- for any UI that you don't want to change automatically if the shell has a theme update.  
   
- **Selected preview tab: Focused**  
+  **Selected preview tab: Focused**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Preview tab focused](../../extensibility/ux-guidelines/media/0303-079-previewtabfocused.png "0303-079_PreviewTabFocused")  
+  ![Preview tab focused](../../extensibility/ux-guidelines/media/0303-079-previewtabfocused.png "0303-079_PreviewTabFocused")  
   
- **Focused preview tab**  
+  **Focused preview tab**  
   
- Background  
+  Background  
   
- `Environment.FileTabProvisionalSelectedActive`  
+  `Environment.FileTabProvisionalSelectedActive`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.FileTabProvisionalSelectedActiveForeground`  
+  `Environment.FileTabProvisionalSelectedActiveForeground`  
   
- Border  
+  Border  
   
- `Environment.FileTabProvisionalSelectedActiveBorder`  
+  `Environment.FileTabProvisionalSelectedActiveBorder`  
   
- Set to same color as background.  
+  Set to same color as background.  
   
- Document border  
+  Document border  
   
- `Environment.FileTabProvisionalSelectedActiveBorder`  
+  `Environment.FileTabProvisionalSelectedActiveBorder`  
   
- **Selected preview tab: Unfocused**  
+  **Selected preview tab: Unfocused**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Preview tab unfocused](../../extensibility/ux-guidelines/media/0303-080-previewtabunfocused.png "0303-080_PreviewTabUnfocused")  
+  ![Preview tab unfocused](../../extensibility/ux-guidelines/media/0303-080-previewtabunfocused.png "0303-080_PreviewTabUnfocused")  
   
- **Unfocused preview tab**  
+  **Unfocused preview tab**  
   
- Background  
+  Background  
   
- `Environment.FileTabProvisionalSelectedInactive`  
+  `Environment.FileTabProvisionalSelectedInactive`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.FileTabProvisionalSelectedInactiveForeground`  
+  `Environment.FileTabProvisionalSelectedInactiveForeground`  
   
- Border  
+  Border  
   
- `Environment.FileTabProvisionalSelectedInactiveBorder`  
+  `Environment.FileTabProvisionalSelectedInactiveBorder`  
   
- Document border  
+  Document border  
   
- `Environment.FileTabProvisionalSelectedInactiveBorder`  
+  `Environment.FileTabProvisionalSelectedInactiveBorder`  
   
- **Background preview tab: Default**  
+  **Background preview tab: Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Preview background tab](../../extensibility/ux-guidelines/media/0303-081-previewbackgroundtab.png "0303-081_PreviewBackgroundTab")  
+  ![Preview background tab](../../extensibility/ux-guidelines/media/0303-081-previewbackgroundtab.png "0303-081_PreviewBackgroundTab")  
   
- **Preview tab background tab**  
+  **Preview tab background tab**  
   
- Background  
+  Background  
   
- `Environment.FileTabProvisionalInactive`  
+  `Environment.FileTabProvisionalInactive`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.FileTabProvisionalInactiveForeground`  
+  `Environment.FileTabProvisionalInactiveForeground`  
   
- Border  
+  Border  
   
- `Environment.FileTabProvisionalInactiveBorder`  
+  `Environment.FileTabProvisionalInactiveBorder`  
   
- Set to same color as background.  
+  Set to same color as background.  
   
- **Background preview tab: Hover**  
+  **Background preview tab: Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Preview background tab on hover](../../extensibility/ux-guidelines/media/0303-082-previewbackgroundtabhover.png "0303-082_PreviewBackgroundTabHover")  
+  ![Preview background tab on hover](../../extensibility/ux-guidelines/media/0303-082-previewbackgroundtabhover.png "0303-082_PreviewBackgroundTabHover")  
   
- **Preview tab background tab on hover**  
+  **Preview tab background tab on hover**  
   
- Background  
+  Background  
   
- `Environment.FileTabProvisionalHover`  
+  `Environment.FileTabProvisionalHover`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `Environment.FileTabProvisionalHoverForeground`  
+  `Environment.FileTabProvisionalHoverForeground`  
   
- Border  
+  Border  
   
- `Environment.FileTabProvisionalHoverBorder`  
+  `Environment.FileTabProvisionalHoverBorder`  
   
- Set to same color as background.  
+  Set to same color as background.  
   
 #### Document overflow button  
  The document overflow button is present if there are one or more documents open, regardless of whether there is vertical space in the current configuration to fit all document tabs. The document overflow drop-down menu, which is controlled by the **CommandBarMenu** colors (see [Menus](../../misc/shared-colors.md#BKMK_CommandMenus)), displays a list of all open documents, both visible and hidden, and the overflow glyph changes depending on whether all the open documents are displayed in the tab channel.  
@@ -1672,79 +1670,79 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use …  
  -   for UI that is not similar to an overflow button.  
   
--   for command bar overflow buttons.  
+- for command bar overflow buttons.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Overflow](../../extensibility/ux-guidelines/media/0303-084-overflow.png "0303-084_Overflow")  
+  ![Overflow](../../extensibility/ux-guidelines/media/0303-084-overflow.png "0303-084_Overflow")  
   
- **Document overflow button**  
+  **Document overflow button**  
   
- Background  
+  Background  
   
- `Environment.DocWellOverflowButtonBackground`  
+  `Environment.DocWellOverflowButtonBackground`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.DocWellOverflowButtonGlyph`  
+  `Environment.DocWellOverflowButtonGlyph`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Overflow on hover](../../extensibility/ux-guidelines/media/0303-085-overflowhover.png "0303-085_OverflowHover")  
+  ![Overflow on hover](../../extensibility/ux-guidelines/media/0303-085-overflowhover.png "0303-085_OverflowHover")  
   
- **Document overflow button on hover**  
+  **Document overflow button on hover**  
   
- Background  
+  Background  
   
- `Environment.DocWellOverflowButtonMouseOverBackground`  
+  `Environment.DocWellOverflowButtonMouseOverBackground`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.DocWellOverflowButtonMouseOverGlyph`  
+  `Environment.DocWellOverflowButtonMouseOverGlyph`  
   
- Border  
+  Border  
   
- `Environment.DocWellOverflowButtonMouseOverBorder`  
+  `Environment.DocWellOverflowButtonMouseOverBorder`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Overflow pressed](../../extensibility/ux-guidelines/media/0303-086-overflowpressed.png "0303-086_OverflowPressed")  
+  ![Overflow pressed](../../extensibility/ux-guidelines/media/0303-086-overflowpressed.png "0303-086_OverflowPressed")  
   
- **Pressed document overflow button**  
+  **Pressed document overflow button**  
   
- Background  
+  Background  
   
- `Environment.DocWellOverflowButtonMouseDownBackground`  
+  `Environment.DocWellOverflowButtonMouseDownBackground`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.DocWellOverflowButtonMouseDownGlyph`  
+  `Environment.DocWellOverflowButtonMouseDownGlyph`  
   
- Border  
+  Border  
   
- `Environment.DocWellOverflowButtonMouseDownBorder`  
+  `Environment.DocWellOverflowButtonMouseDownBorder`  
   
 ## Tool windows  
  There is no need to replicate tool windows, because they are provided by the Visual Studio environment. However, you might decide that you want to leverage the colors used in tool windows so that your UI always appears consistent with this part of the Visual Studio environment.  
@@ -1904,127 +1902,127 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use …  
  -   for buttons that appear in other locations.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Title bar button focused](../../extensibility/ux-guidelines/media/0303-096-titlebarbuttonfocused.png "0303-096_TitleBarButtonFocused")  
+  ![Title bar button focused](../../extensibility/ux-guidelines/media/0303-096-titlebarbuttonfocused.png "0303-096_TitleBarButtonFocused")  
   
- **Focused**  
+  **Focused**  
   
- Background  
+  Background  
   
- N/A  
+  N/A  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ToolWindowButtonActiveGlyph`  
+  `Environment.ToolWindowButtonActiveGlyph`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
- ![Title bar button unfocused](../../extensibility/ux-guidelines/media/0303-097-titlebarbuttonunfocused.png "0303-097_TitleBarButtonUnfocused")  
+  ![Title bar button unfocused](../../extensibility/ux-guidelines/media/0303-097-titlebarbuttonunfocused.png "0303-097_TitleBarButtonUnfocused")  
   
- **Unfocused**  
+  **Unfocused**  
   
- Background  
+  Background  
   
- N/A  
+  N/A  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ToolWindowButtonInactiveGlyph`  
+  `Environment.ToolWindowButtonInactiveGlyph`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Title bar button focused on hover](../../extensibility/ux-guidelines/media/0303-098-titlebarbuttonfocusedhover.png "0303-098_TitleBarButtonFocusedHover")  
+  ![Title bar button focused on hover](../../extensibility/ux-guidelines/media/0303-098-titlebarbuttonfocusedhover.png "0303-098_TitleBarButtonFocusedHover")  
   
- **Focused**  
+  **Focused**  
   
- Background  
+  Background  
   
- `Environment.ToolWindowButtonHoverActive`  
+  `Environment.ToolWindowButtonHoverActive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ToolWindowButtonHoverActiveGlyph`  
+  `Environment.ToolWindowButtonHoverActiveGlyph`  
   
- Border  
+  Border  
   
- `Environment.ToolWindowButtonHoverActiveBorder`  
+  `Environment.ToolWindowButtonHoverActiveBorder`  
   
- ![Title bar button unfocused on hover](../../extensibility/ux-guidelines/media/0303-099-titlebarbuttonunfocusedhover.png "0303-099_TitleBarButtonUnfocusedHover")  
+  ![Title bar button unfocused on hover](../../extensibility/ux-guidelines/media/0303-099-titlebarbuttonunfocusedhover.png "0303-099_TitleBarButtonUnfocusedHover")  
   
- **Unfocused**  
+  **Unfocused**  
   
- Background  
+  Background  
   
- `Environment.ToolWindowButtonHoverInactive`  
+  `Environment.ToolWindowButtonHoverInactive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ToolWindowButtonHoverInactiveGlyph`  
+  `Environment.ToolWindowButtonHoverInactiveGlyph`  
   
- Border  
+  Border  
   
- `Environment.ToolWindowButtonHoverInactiveBorder`  
+  `Environment.ToolWindowButtonHoverInactiveBorder`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Title bar button focused and pressed](../../extensibility/ux-guidelines/media/0303-100-titlebarbuttonfocusedpressed.png "0303-100_TitleBarButtonFocusedPressed")  
+  ![Title bar button focused and pressed](../../extensibility/ux-guidelines/media/0303-100-titlebarbuttonfocusedpressed.png "0303-100_TitleBarButtonFocusedPressed")  
   
- **Focused**  
+  **Focused**  
   
- Background  
+  Background  
   
- `Environment.ToolWindowButtonDown`  
+  `Environment.ToolWindowButtonDown`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ToolWindowButtonDownActiveGlyph`  
+  `Environment.ToolWindowButtonDownActiveGlyph`  
   
- Border  
+  Border  
   
- `Environment.ToolWindowButtonDownBorder`  
+  `Environment.ToolWindowButtonDownBorder`  
   
- ![Title bar button unfocused and pressed](../../extensibility/ux-guidelines/media/0303-101-titlebarbuttonunfocusedpressed.png "0303-101_TitleBarButtonUnfocusedPressed")  
+  ![Title bar button unfocused and pressed](../../extensibility/ux-guidelines/media/0303-101-titlebarbuttonunfocusedpressed.png "0303-101_TitleBarButtonUnfocusedPressed")  
   
- **Unfocused**  
+  **Unfocused**  
   
- Background  
+  Background  
   
- `Environment.ToolWindowButtonDown`  
+  `Environment.ToolWindowButtonDown`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `Environment.ToolWindowButtonDownInactiveGlyph`  
+  `Environment.ToolWindowButtonDownInactiveGlyph`  
   
- Border  
+  Border  
   
- `Environment.ToolWindowButtonDownBorder`  
+  `Environment.ToolWindowButtonDownBorder`  
   
 ### Tool window tabs  
  ![Tool window tab redline](../../extensibility/ux-guidelines/media/0303-102-toolwindowtabredline.png "0303-102_ToolWindowTabRedline")  
@@ -2214,307 +2212,307 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
   
  A search box can be one of several states, some of which are mutually exclusive:  
   
--   "Focused" or "unfocused" refers to whether or not the cursor is in the text box.  
+- "Focused" or "unfocused" refers to whether or not the cursor is in the text box.  
   
--   "Active" or "inactive" refers to whether the user has input a search query in the text box.  
+- "Active" or "inactive" refers to whether the user has input a search query in the text box.  
   
--   "Hover" means that the user has moused over the search box with the mouse (this state overrides all other states).  
+- "Hover" means that the user has moused over the search box with the mouse (this state overrides all other states).  
   
--   "Disabled" means that search functionality is turned off for the current context.  
+- "Disabled" means that search functionality is turned off for the current context.  
   
- ![Search box redline](../../extensibility/ux-guidelines/media/0303-110-searchboxredline.png "0303-110_SearchBoxRedline")  
+  ![Search box redline](../../extensibility/ux-guidelines/media/0303-110-searchboxredline.png "0303-110_SearchBoxRedline")  
   
- Use …  
- when you are designing a custom search box.  
+  Use …  
+  when you are designing a custom search box.  
   
- Do not use …  
- -   for anything that is not a search box.  
+  Do not use …  
+  -   for anything that is not a search box.  
   
--   for anything that you do not want always to match the search box UI.  
+- for anything that you do not want always to match the search box UI.  
   
- **Focused**  
+  **Focused**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Search input field focused](../../extensibility/ux-guidelines/media/0303-111-searchinputfieldfocused.png "0303-111_SearchInputFieldFocused")  
+  ![Search input field focused](../../extensibility/ux-guidelines/media/0303-111-searchinputfieldfocused.png "0303-111_SearchInputFieldFocused")  
   
- **Input field**  
+  **Input field**  
   
- Background  
+  Background  
   
- `SearchControl.FocusedBackground`  
+  `SearchControl.FocusedBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `SearchControl.FocusedBackground`  
+  `SearchControl.FocusedBackground`  
   
- Border  
+  Border  
   
- `SearchControl.FocusedBorder`  
+  `SearchControl.FocusedBorder`  
   
- Separator  
+  Separator  
   
- `SearchControl.FocusedDropDownSeparator`  
+  `SearchControl.FocusedDropDownSeparator`  
   
- ![Search action button focused](../../extensibility/ux-guidelines/media/0303-112-searchactionbuttonfocused.png "0303-112_SearchActionButtonFocused")  
+  ![Search action button focused](../../extensibility/ux-guidelines/media/0303-112-searchactionbuttonfocused.png "0303-112_SearchActionButtonFocused")  
   
- **Action button**  
+  **Action button**  
   
- Background  
+  Background  
   
- None  
+  None  
   
- Foreground (Search glyph)  
+  Foreground (Search glyph)  
   
- `SearchControl.SearchGlyph`  
+  `SearchControl.SearchGlyph`  
   
- Foreground (Stop glyph)  
+  Foreground (Stop glyph)  
   
- `SearchControl.StopGlyph`  
+  `SearchControl.StopGlyph`  
   
- Foreground (Clear glyph)  
+  Foreground (Clear glyph)  
   
- `SearchControl.ClearGlyph`  
+  `SearchControl.ClearGlyph`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
- ![Search drop&#45;down button focused](../../extensibility/ux-guidelines/media/0303-113-searchdropdownbuttonfocused.png "0303-113_SearchDropdownButtonFocused")  
+  ![Search drop&#45;down button focused](../../extensibility/ux-guidelines/media/0303-113-searchdropdownbuttonfocused.png "0303-113_SearchDropdownButtonFocused")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- `SearchControl.FocusedDropDownButton`  
+  `SearchControl.FocusedDropDownButton`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `SearchControl.FocusedDropDownButtonGlyph`  
+  `SearchControl.FocusedDropDownButtonGlyph`  
   
- Border  
+  Border  
   
- `SearchControl.FocusedDropDownButtonBorder`  
+  `SearchControl.FocusedDropDownButtonBorder`  
   
- **Unfocused**  
+  **Unfocused**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Search input field unfocused](../../extensibility/ux-guidelines/media/0303-114-searchinputfieldunfocused.png "0303-114_SearchInputFieldUnfocused")  
+  ![Search input field unfocused](../../extensibility/ux-guidelines/media/0303-114-searchinputfieldunfocused.png "0303-114_SearchInputFieldUnfocused")  
   
- **Active input field**  
+  **Active input field**  
   
- Background  
+  Background  
   
- `SearchControl.SearchActiveBackground`  
+  `SearchControl.SearchActiveBackground`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `SearchControl.SearchActiveBackground`  
+  `SearchControl.SearchActiveBackground`  
   
- Border  
+  Border  
   
- `SearchControl.UnfocusedBorder`  
+  `SearchControl.UnfocusedBorder`  
   
- Separator  
+  Separator  
   
- `SearchControl.DropDownSeparator`  
+  `SearchControl.DropDownSeparator`  
   
- ![Search input field unfocused and inactive](../../extensibility/ux-guidelines/media/0303-114-1-searchinputfieldunfocusedinactive.png "0303-114-1_SearchInputFieldUnfocusedInactive")  
+  ![Search input field unfocused and inactive](../../extensibility/ux-guidelines/media/0303-114-1-searchinputfieldunfocusedinactive.png "0303-114-1_SearchInputFieldUnfocusedInactive")  
   
- **Inactive input field**  
+  **Inactive input field**  
   
- Background  
+  Background  
   
- `SearchControl.Unfocused`  
+  `SearchControl.Unfocused`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `SearchControl.Unfocused`  
+  `SearchControl.Unfocused`  
   
- Border  
+  Border  
   
- `SearchControl.UnfocusedBorder`  
+  `SearchControl.UnfocusedBorder`  
   
- Separator  
+  Separator  
   
- `SearchControl.DropDownSeparator`  
+  `SearchControl.DropDownSeparator`  
   
- ![Search action button unfocused](../../extensibility/ux-guidelines/media/0303-115-searchactionbuttonunfocused.png "0303-115_SearchActionButtonUnfocused")  
+  ![Search action button unfocused](../../extensibility/ux-guidelines/media/0303-115-searchactionbuttonunfocused.png "0303-115_SearchActionButtonUnfocused")  
   
- **Action button**  
+  **Action button**  
   
- Background  
+  Background  
   
- N/A  
+  N/A  
   
- Foreground (Search glyph)  
+  Foreground (Search glyph)  
   
- `SearchControl.SearchGlyph`  
+  `SearchControl.SearchGlyph`  
   
- Foreground (Stop glyph)  
+  Foreground (Stop glyph)  
   
- `SearchControl.StopGlyph`  
+  `SearchControl.StopGlyph`  
   
- Foreground (Clear glyph)  
+  Foreground (Clear glyph)  
   
- `SearchControl.ClearGlyph`  
+  `SearchControl.ClearGlyph`  
   
- Border  
+  Border  
   
- N/A  
+  N/A  
   
- ![Search drop&#45;down button unfocused](../../extensibility/ux-guidelines/media/0303-116-searchdropdownbuttonunfocused.png "0303-116_SearchDropdownButtonUnfocused")  
+  ![Search drop&#45;down button unfocused](../../extensibility/ux-guidelines/media/0303-116-searchdropdownbuttonunfocused.png "0303-116_SearchDropdownButtonUnfocused")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- `SearchControl.UnfocusedDropDownButton`  
+  `SearchControl.UnfocusedDropDownButton`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `SearchControl.UnfocusedDropDownButtonGlyph`  
+  `SearchControl.UnfocusedDropDownButtonGlyph`  
   
- Border  
+  Border  
   
- `SearchControl.UnfocusedDropDownButtonBorder`  
+  `SearchControl.UnfocusedDropDownButtonBorder`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Search action button pressed](../../extensibility/ux-guidelines/media/0303-116-1-searchactionbuttonpressed.png "0303-116-1_SearchActionButtonPressed")  
+  ![Search action button pressed](../../extensibility/ux-guidelines/media/0303-116-1-searchactionbuttonpressed.png "0303-116-1_SearchActionButtonPressed")  
   
- **Action button**  
+  **Action button**  
   
- Background  
+  Background  
   
- `SearchControl.ActionButtonMouseDown`  
+  `SearchControl.ActionButtonMouseDown`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `SearchControl.ActionButtonMouseDownGlyph`  
+  `SearchControl.ActionButtonMouseDownGlyph`  
   
- Border  
+  Border  
   
- `SearchControl.ActionButtonMouseDownBorder`  
+  `SearchControl.ActionButtonMouseDownBorder`  
   
- ![Search drop&#45;down button pressed](../../extensibility/ux-guidelines/media/0303-116-2-searchdropdownbuttonpressed.png "0303-116-2_SearchDropdownButtonPressed")  
+  ![Search drop&#45;down button pressed](../../extensibility/ux-guidelines/media/0303-116-2-searchdropdownbuttonpressed.png "0303-116-2_SearchDropdownButtonPressed")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- `SearchControl.MouseDownDropDownButton`  
+  `SearchControl.MouseDownDropDownButton`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `SearchControl.MouseDownDropDownButtonGlyph`  
+  `SearchControl.MouseDownDropDownButtonGlyph`  
   
- Border  
+  Border  
   
- `SearchControl.MouseDownDropDownButtonBorder`  
+  `SearchControl.MouseDownDropDownButtonBorder`  
   
- **Highlighted (Text only)**  
+  **Highlighted (Text only)**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Search input field highlight](../../extensibility/ux-guidelines/media/0303-120-searchinputfieldhighlight.png "0303-120_SearchInputFieldHighlight")  
+  ![Search input field highlight](../../extensibility/ux-guidelines/media/0303-120-searchinputfieldhighlight.png "0303-120_SearchInputFieldHighlight")  
   
- **Input field with text highlighted**  
+  **Input field with text highlighted**  
   
- Background  
+  Background  
   
- `SearchControl.Selection`  
+  `SearchControl.Selection`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `SearchControl.FocusedBackground`  
+  `SearchControl.FocusedBackground`  
   
- Border  
+  Border  
   
- None  
+  None  
   
- Separator  
+  Separator  
   
- `SearchControl.FocusedDropDownSeparator`  
+  `SearchControl.FocusedDropDownSeparator`  
   
- **Disabled**  
+  **Disabled**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Search input field disabled](../../extensibility/ux-guidelines/media/0303-121-searchinputfielddisabled.png "0303-121_SearchInputFieldDisabled")  
+  ![Search input field disabled](../../extensibility/ux-guidelines/media/0303-121-searchinputfielddisabled.png "0303-121_SearchInputFieldDisabled")  
   
- **Input field**  
+  **Input field**  
   
- Background  
+  Background  
   
- `SearchControl.Disabled`  
+  `SearchControl.Disabled`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `SearchControl.Disabled`  
+  `SearchControl.Disabled`  
   
- Border  
+  Border  
   
- `SearchControl.DisabledBorder`  
+  `SearchControl.DisabledBorder`  
   
- Separator  
+  Separator  
   
- `SearchControl.DropDownSeparator`  
+  `SearchControl.DropDownSeparator`  
   
- ![Search action button disabled](../../extensibility/ux-guidelines/media/0303-122-searchactionbuttondisabled.png "0303-122_SearchActionButtonDisabled")  
+  ![Search action button disabled](../../extensibility/ux-guidelines/media/0303-122-searchactionbuttondisabled.png "0303-122_SearchActionButtonDisabled")  
   
- **Action button**  
+  **Action button**  
   
- Background  
+  Background  
   
- None  
+  None  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `SearchControl.ActionButtonDisabledGlyph`  
+  `SearchControl.ActionButtonDisabledGlyph`  
   
- Border  
+  Border  
   
- None  
+  None  
   
- ![Search drop&#45;down button disabled](../../extensibility/ux-guidelines/media/0303-123-searchdropdownbuttondisabled.png "0303-123_SearchDropdownButtonDisabled")  
+  ![Search drop&#45;down button disabled](../../extensibility/ux-guidelines/media/0303-123-searchdropdownbuttondisabled.png "0303-123_SearchDropdownButtonDisabled")  
   
- **Drop-down button**  
+  **Drop-down button**  
   
- Background  
+  Background  
   
- None  
+  None  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `SearchControl.DisabledDownButtonGlyph`  
+  `SearchControl.DisabledDownButtonGlyph`  
   
- Border  
+  Border  
   
- None  
+  None  
   
 #### Search drop-down lists  
  The search box dropdown menu has the potential to be slightly more complex than other dropdown menus in Visual Studio. The "suggested searches" and "search options" sections can appear alone or together in the menu and each one is colored separately. A line also separates these two sections when they appear together and a border surrounds the entire dropdown menu.  
@@ -2524,176 +2522,176 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Use …  
  -   when you are creating a custom search dropdown list.  
   
--   the correct token names for the correct list components.  
+- the correct token names for the correct list components.  
   
- Do not use …  
- -   for dropdown lists that appear in other contexts.  
+  Do not use …  
+  -   for dropdown lists that appear in other contexts.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default (no other states)**  
+  **Default (no other states)**  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- Border  
+  Border  
   
- `SearchControl.PopupBorder`  
+  `SearchControl.PopupBorder`  
   
- Separator  
+  Separator  
   
- `SearchControl.PopupSectionHeaderSeparator`  
+  `SearchControl.PopupSectionHeaderSeparator`  
   
- Shadow  
+  Shadow  
   
- `Environment.DropShadowBackground`  
+  `Environment.DropShadowBackground`  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Search suggested](../../extensibility/ux-guidelines/media/0303-125-searchsuggested.png "0303-125_SearchSuggested")  
+  ![Search suggested](../../extensibility/ux-guidelines/media/0303-125-searchsuggested.png "0303-125_SearchSuggested")  
   
- **Suggested searches**  
+  **Suggested searches**  
   
- Background  
+  Background  
   
- `SearchControl.PopupItemsListBackgroundGradientBegin`  
+  `SearchControl.PopupItemsListBackgroundGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `SearchControl.PopupItemText`  
+  `SearchControl.PopupItemText`  
   
- ![Search check box](../../extensibility/ux-guidelines/media/0303-126-searchcheckbox.png "0303-126_SearchCheckbox")  
+  ![Search check box](../../extensibility/ux-guidelines/media/0303-126-searchcheckbox.png "0303-126_SearchCheckbox")  
   
- **Search options (check box)**  
+  **Search options (check box)**  
   
- ![Search options](../../extensibility/ux-guidelines/media/0303-127-searchoptions.png "0303-127_SearchOptions")  
+  ![Search options](../../extensibility/ux-guidelines/media/0303-127-searchoptions.png "0303-127_SearchOptions")  
   
- **Search options (link)**  
+  **Search options (link)**  
   
- Background  
+  Background  
   
- `SearchControl.PopupSectionBackgroundGradientBegin`  
+  `SearchControl.PopupSectionBackgroundGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Check box text)  
+  Foreground (Check box text)  
   
- `SearchControl.PopupCheckboxText`  
+  `SearchControl.PopupCheckboxText`  
   
- Foreground (Link text)  
+  Foreground (Link text)  
   
- `SearchControl.PopupButtonText`  
+  `SearchControl.PopupButtonText`  
   
- Header background  
+  Header background  
   
- `SearchControl.PopupSectionHeaderGradientBegin`  
+  `SearchControl.PopupSectionHeaderGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Header text)  
+  Foreground (Header text)  
   
- `SearchControl.PopupSectionHeaderText`  
+  `SearchControl.PopupSectionHeaderText`  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Search suggested on hover](../../extensibility/ux-guidelines/media/0303-128-searchsuggestedhover.png "0303-128_SearchSuggestedHover")  
+  ![Search suggested on hover](../../extensibility/ux-guidelines/media/0303-128-searchsuggestedhover.png "0303-128_SearchSuggestedHover")  
   
- **Suggested searches**  
+  **Suggested searches**  
   
- Background  
+  Background  
   
- `SearchControl.PopupControlMouseOverBackgroundGradientBegin`  
+  `SearchControl.PopupControlMouseOverBackgroundGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `SearchControl.PopupMouseOverItemText`  
+  `SearchControl.PopupMouseOverItemText`  
   
- Border  
+  Border  
   
- `SearchControl.PopupControlMouseOverBorder`  
+  `SearchControl.PopupControlMouseOverBorder`  
   
- ![Search check box on hover](../../extensibility/ux-guidelines/media/0303-129-searchcheckboxhover.png "0303-129_SearchCheckboxHover")  
+  ![Search check box on hover](../../extensibility/ux-guidelines/media/0303-129-searchcheckboxhover.png "0303-129_SearchCheckboxHover")  
   
- **Suggested searches (check box)**  
+  **Suggested searches (check box)**  
   
- ![Search options on hover](../../extensibility/ux-guidelines/media/0303-130-searchoptionshover.png "0303-130_SearchOptionsHover")  
+  ![Search options on hover](../../extensibility/ux-guidelines/media/0303-130-searchoptionshover.png "0303-130_SearchOptionsHover")  
   
- **Search options**  
+  **Search options**  
   
- Background  
+  Background  
   
- `SearchControl.PopupControlMouseOverBackgroundGradientBegin`  
+  `SearchControl.PopupControlMouseOverBackgroundGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Check box text)  
+  Foreground (Check box text)  
   
- `SearchControl.PopupCheckboxMouseDownText`  
+  `SearchControl.PopupCheckboxMouseDownText`  
   
- Foreground (Link text)  
+  Foreground (Link text)  
   
- `SearchControl.PopupButtonMouseDownText`  
+  `SearchControl.PopupButtonMouseDownText`  
   
- Border  
+  Border  
   
- `SearchControl.PopupControlMouseOverBorder`  
+  `SearchControl.PopupControlMouseOverBorder`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Search suggested pressed](../../extensibility/ux-guidelines/media/0303-131-searchsuggestedpressed.png "0303-131_SearchSuggestedPressed")  
+  ![Search suggested pressed](../../extensibility/ux-guidelines/media/0303-131-searchsuggestedpressed.png "0303-131_SearchSuggestedPressed")  
   
- **Suggested searches (check box)**  
+  **Suggested searches (check box)**  
   
- ![Search options pressed](../../extensibility/ux-guidelines/media/0303-132-searchoptionspressed.png "0303-132_SearchOptionsPressed")  
+  ![Search options pressed](../../extensibility/ux-guidelines/media/0303-132-searchoptionspressed.png "0303-132_SearchOptionsPressed")  
   
- **Search options**  
+  **Search options**  
   
- Check box background  
+  Check box background  
   
- `SearchControl.PopupControlMouseDownBackgroundGradientBegin`  
+  `SearchControl.PopupControlMouseDownBackgroundGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- `SearchControl.PopupControlMouseDownBackgroundGradientEnd`  
+  `SearchControl.PopupControlMouseDownBackgroundGradientEnd`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Check box text)  
+  Foreground (Check box text)  
   
- `SearchControl.PopupCheckboxMouseDownText`  
+  `SearchControl.PopupCheckboxMouseDownText`  
   
- Link background  
+  Link background  
   
- `SearchControl.PopupButtonMouseDownBackgroundGradientBegin`  
+  `SearchControl.PopupButtonMouseDownBackgroundGradientBegin`  
   
- While not used in modern themed UI, there are gradient stops and values for this background.  
+  While not used in modern themed UI, there are gradient stops and values for this background.  
   
- Foreground (Link text)  
+  Foreground (Link text)  
   
- `SearchControl.PopupButtonMouseDownText`  
+  `SearchControl.PopupButtonMouseDownText`  
   
 ### Hyperlink  
  The hyperlink is one control that does not have a foreground/background pair. In all cases, use the foreground hyperlink color, which will appear correctly on dark, gray and white backgrounds. If you do not use the color token for the hyperlink control, you will see the default system color for "pressed,"" which will flash red. That is the signal that the control is not using the correct environment color token.  
@@ -2796,7 +2794,7 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  `Environment.ToolWindowBorder`  
   
 ### Scroll bar  
- Scroll bars are styled by the Visual Studio environment, and will not need to be themed. However, you might decide that you want to leverage the colors used in scroll bars so that your UI always appears consistent with this this part of the Visual Studio environment.  
+ Scroll bars are styled by the Visual Studio environment, and will not need to be themed. However, you might decide that you want to leverage the colors used in scroll bars so that your UI always appears consistent with this part of the Visual Studio environment.  
   
  ![Scroll bar redline](../../extensibility/ux-guidelines/media/0303-140-scrollbarredline.png "0303-140_ScrollbarRedline")  
   
@@ -2919,181 +2917,181 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use …  
  -   for anything that is not similar to a tree view.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Tree view](../../extensibility/ux-guidelines/media/0303-148-treeview.png "0303-148_TreeView")  
+  ![Tree view](../../extensibility/ux-guidelines/media/0303-148-treeview.png "0303-148_TreeView")  
   
- Background  
+  Background  
   
- `TreeView.Background`  
+  `TreeView.Background`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `TreeView.Background`  
+  `TreeView.Background`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `TreeView.Glyph`  
+  `TreeView.Glyph`  
   
- Border  
+  Border  
   
- None  
+  None  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Tree view on hover](../../extensibility/ux-guidelines/media/0303-149-treeviewhover.png "0303-149_TreeViewHover")  
+  ![Tree view on hover](../../extensibility/ux-guidelines/media/0303-149-treeviewhover.png "0303-149_TreeViewHover")  
   
- Background  
+  Background  
   
- `TreeView.Background`  
+  `TreeView.Background`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `TreeView.Background`  
+  `TreeView.Background`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `TreeView.GlyphMouseOver`  
+  `TreeView.GlyphMouseOver`  
   
- Border  
+  Border  
   
- None  
+  None  
   
- **Drag over**  
+  **Drag over**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Tree view dragover](../../extensibility/ux-guidelines/media/0303-150-treeviewdragover.png "0303-150_TreeViewDragOver")  
+  ![Tree view dragover](../../extensibility/ux-guidelines/media/0303-150-treeviewdragover.png "0303-150_TreeViewDragOver")  
   
- Background  
+  Background  
   
- `TreeView.DragOverItem`  
+  `TreeView.DragOverItem`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `TreeView.DragOverItem`  
+  `TreeView.DragOverItem`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `TreeView.DragOverItemGlyph`  
+  `TreeView.DragOverItemGlyph`  
   
- Border  
+  Border  
   
- None  
+  None  
   
- **Selected**  
+  **Selected**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Tree view focused](../../extensibility/ux-guidelines/media/0303-151-treeviewfocused.png "0303-151_TreeViewFocused")  
+  ![Tree view focused](../../extensibility/ux-guidelines/media/0303-151-treeviewfocused.png "0303-151_TreeViewFocused")  
   
- **Focused**  
+  **Focused**  
   
- Background  
+  Background  
   
- `TreeView.SelectedItemActive`  
+  `TreeView.SelectedItemActive`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `TreeView.SelectedItemActive`  
+  `TreeView.SelectedItemActive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `TreeView.SelectedItemActiveGlyph`  
+  `TreeView.SelectedItemActiveGlyph`  
   
- Border  
+  Border  
   
- `TreeView.FocusVisualBorder`  
+  `TreeView.FocusVisualBorder`  
   
- ![Tree view unfocused](../../extensibility/ux-guidelines/media/0303-152-treeviewunfocused.png "0303-152_TreeViewUnfocused")  
+  ![Tree view unfocused](../../extensibility/ux-guidelines/media/0303-152-treeviewunfocused.png "0303-152_TreeViewUnfocused")  
   
- **Unfocused**  
+  **Unfocused**  
   
- Background  
+  Background  
   
- `TreeView.SelectedItemInactive`  
+  `TreeView.SelectedItemInactive`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `TreeView.SelectedItemInactive`  
+  `TreeView.SelectedItemInactive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `TreeView.SelectedItemInactiveGlyph`  
+  `TreeView.SelectedItemInactiveGlyph`  
   
- Border  
+  Border  
   
- None  
+  None  
   
- **Hover over selected**  
+  **Hover over selected**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Tree view focused on hover](../../extensibility/ux-guidelines/media/0303-153-treeviewfocusedhover.png "0303-153_TreeViewFocusedHover")  
+  ![Tree view focused on hover](../../extensibility/ux-guidelines/media/0303-153-treeviewfocusedhover.png "0303-153_TreeViewFocusedHover")  
   
- **Focused**  
+  **Focused**  
   
- Background  
+  Background  
   
- `TreeView.SelectedItemActive`  
+  `TreeView.SelectedItemActive`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `TreeView.SelectedItemActive`  
+  `TreeView.SelectedItemActive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `TreeView.SelectedItemActiveGlyphMouseOver`  
+  `TreeView.SelectedItemActiveGlyphMouseOver`  
   
- Border  
+  Border  
   
- None`TreeView.FocusVisualBorder`  
+  None`TreeView.FocusVisualBorder`  
   
- ![Tree view unfocused on hover](../../extensibility/ux-guidelines/media/0303-154-treeviewunfocusedhover.png "0303-154_TreeViewUnfocusedHover")  
+  ![Tree view unfocused on hover](../../extensibility/ux-guidelines/media/0303-154-treeviewunfocusedhover.png "0303-154_TreeViewUnfocusedHover")  
   
- **Unfocused**  
+  **Unfocused**  
   
- Background  
+  Background  
   
- `TreeView.SelectedItemInactive`  
+  `TreeView.SelectedItemInactive`  
   
- Foreground (Text)  
+  Foreground (Text)  
   
- `TreeView.SelectedItemInactive`  
+  `TreeView.SelectedItemInactive`  
   
- Foreground (Glyph)  
+  Foreground (Glyph)  
   
- `TreeView.SelectedItemActiveGlyphMouseOver`  
+  `TreeView.SelectedItemActiveGlyphMouseOver`  
   
- Border  
+  Border  
   
- None  
+  None  
   
 ### Button controls  
  ![Button control redline](../../extensibility/ux-guidelines/media/0303-155-buttoncontrolredline.png "0303-155_ButtonControlRedline")  
@@ -3342,229 +3340,229 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use …  
  -   for any UI that is not a drop-down or combo box.  
   
--   for a [Drop-down](../../misc/shared-colors.md#BKMK_CommandDropDown) or [Combo box](../../misc/shared-colors.md#BKMK_CommandComboBox) in the command bar.  
+- for a [Drop-down](../../misc/shared-colors.md#BKMK_CommandDropDown) or [Combo box](../../misc/shared-colors.md#BKMK_CommandComboBox) in the command bar.  
   
- **Default**  
+  **Default**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down&#47;combo box](../../extensibility/ux-guidelines/media/0303-168-dropdowncombobox.png "0303-168_DropDownComboBox")  
+  ![Drop&#45;down&#47;combo box](../../extensibility/ux-guidelines/media/0303-168-dropdowncombobox.png "0303-168_DropDownComboBox")  
   
- Background  
+  Background  
   
- `CommonControls.ComboBoxBackground`  
+  `CommonControls.ComboBoxBackground`  
   
- Border  
+  Border  
   
- `CommonControls.ComboBoxBorder`  
+  `CommonControls.ComboBoxBorder`  
   
- Text  
+  Text  
   
- `CommonControls.ComboBoxText`  
+  `CommonControls.ComboBoxText`  
   
- Separator  
+  Separator  
   
- `CommonControls.ComboBoxSeparator`  
+  `CommonControls.ComboBoxSeparator`  
   
- Glyph  
+  Glyph  
   
- `CommonControls.ComboBoxGlyph`  
+  `CommonControls.ComboBoxGlyph`  
   
- Glyph background  
+  Glyph background  
   
- `CommonControls.ComboBoxGlyphBackground`  
+  `CommonControls.ComboBoxGlyphBackground`  
   
- **Disabled**  
+  **Disabled**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down&#47;combo box disabled](../../extensibility/ux-guidelines/media/0303-169-dropdowncomboboxdisabled.png "0303-169_DropDownComboBoxDisabled")  
+  ![Drop&#45;down&#47;combo box disabled](../../extensibility/ux-guidelines/media/0303-169-dropdowncomboboxdisabled.png "0303-169_DropDownComboBoxDisabled")  
   
- Background  
+  Background  
   
- `CommonControls.ComboBoxBackgroundDisabled`  
+  `CommonControls.ComboBoxBackgroundDisabled`  
   
- Border  
+  Border  
   
- `CommonControls.ComboBoxBorderDisabled`  
+  `CommonControls.ComboBoxBorderDisabled`  
   
- Text  
+  Text  
   
- `CommonControls.ComboBoxTextDisabled`  
+  `CommonControls.ComboBoxTextDisabled`  
   
- Separator  
+  Separator  
   
- `CommonControls.ComboBoxSeparatorDisabled`  
+  `CommonControls.ComboBoxSeparatorDisabled`  
   
- Glyph  
+  Glyph  
   
- `CommonControls.ComboBoxGlyphDisabled`  
+  `CommonControls.ComboBoxGlyphDisabled`  
   
- Glyph background  
+  Glyph background  
   
- `CommonControls.ComboBoxGlyphBackgroundDisabled`  
+  `CommonControls.ComboBoxGlyphBackgroundDisabled`  
   
- **Hover**  
+  **Hover**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down&#47;combo box on hover](../../extensibility/ux-guidelines/media/0303-170-dropdowncomboboxhover.png "0303-170_DropDownComboBoxHover")  
+  ![Drop&#45;down&#47;combo box on hover](../../extensibility/ux-guidelines/media/0303-170-dropdowncomboboxhover.png "0303-170_DropDownComboBoxHover")  
   
- Background  
+  Background  
   
- `CommonControls.ComboBoxBackgroundHover`  
+  `CommonControls.ComboBoxBackgroundHover`  
   
- Border  
+  Border  
   
- `CommonControls.ComboBoxBorderHover`  
+  `CommonControls.ComboBoxBorderHover`  
   
- Text  
+  Text  
   
- `CommonControls.ComboBoxTextHover`  
+  `CommonControls.ComboBoxTextHover`  
   
- Separator  
+  Separator  
   
- `CommonControls.ComboBoxSeparatorHover`  
+  `CommonControls.ComboBoxSeparatorHover`  
   
- Glyph  
+  Glyph  
   
- `CommonControls.ComboBoxGlyphHover`  
+  `CommonControls.ComboBoxGlyphHover`  
   
- Glyph background  
+  Glyph background  
   
- `CommonControls.ComboBoxGlyphBackgroundHover`  
+  `CommonControls.ComboBoxGlyphBackgroundHover`  
   
- **Pressed**  
+  **Pressed**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down&#47;combo box pressed](../../extensibility/ux-guidelines/media/0303-171-dropdowncomboboxpressed.png "0303-171_DropDownComboBoxPressed")  
+  ![Drop&#45;down&#47;combo box pressed](../../extensibility/ux-guidelines/media/0303-171-dropdowncomboboxpressed.png "0303-171_DropDownComboBoxPressed")  
   
- Background  
+  Background  
   
- `CommonControls.ComboBoxBackgroundPressed`  
+  `CommonControls.ComboBoxBackgroundPressed`  
   
- Border  
+  Border  
   
- `CommonControls.ComboBoxBorderPressed`  
+  `CommonControls.ComboBoxBorderPressed`  
   
- Text  
+  Text  
   
- `CommonControls.ComboBoxTextPressed`  
+  `CommonControls.ComboBoxTextPressed`  
   
- Separator  
+  Separator  
   
- `CommonControls.ComboBoxSeparatorPressed`  
+  `CommonControls.ComboBoxSeparatorPressed`  
   
- Glyph  
+  Glyph  
   
- `CommonControls.ComboBoxGlyphPressed`  
+  `CommonControls.ComboBoxGlyphPressed`  
   
- Glyph background  
+  Glyph background  
   
- `CommonControls.ComboBoxGlyphBackgroundPressed`  
+  `CommonControls.ComboBoxGlyphBackgroundPressed`  
   
- **Focused**  
+  **Focused**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down&#47;combo box focused](../../extensibility/ux-guidelines/media/0303-172-dropdowncomboboxfocused.png "0303-172_DropDownComboBoxFocused")  
+  ![Drop&#45;down&#47;combo box focused](../../extensibility/ux-guidelines/media/0303-172-dropdowncomboboxfocused.png "0303-172_DropDownComboBoxFocused")  
   
- Background  
+  Background  
   
- `CommonControls.ComboBoxBackgroundFocused`  
+  `CommonControls.ComboBoxBackgroundFocused`  
   
- Border  
+  Border  
   
- `CommonControls.ComboBoxBorderFocused`  
+  `CommonControls.ComboBoxBorderFocused`  
   
- Text  
+  Text  
   
- `CommonControls.ComboBoxTextFocused`  
+  `CommonControls.ComboBoxTextFocused`  
   
- Separator  
+  Separator  
   
- `CommonControls.ComboBoxSeparatorFocused`  
+  `CommonControls.ComboBoxSeparatorFocused`  
   
- Glyph  
+  Glyph  
   
- `CommonControls.ComboBoxGlyphFocused`  
+  `CommonControls.ComboBoxGlyphFocused`  
   
- Glyph background  
+  Glyph background  
   
- `CommonControls.ComboBoxGlyphBackgroundFocused`  
+  `CommonControls.ComboBoxGlyphBackgroundFocused`  
   
- **Text input selection**  
+  **Text input selection**  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- ![Drop&#45;down&#47;combo box text input](../../extensibility/ux-guidelines/media/0303-173-dropdowncomboboxtextinput.png "0303-173_DropDownComboBoxTextInput")  
+  ![Drop&#45;down&#47;combo box text input](../../extensibility/ux-guidelines/media/0303-173-dropdowncomboboxtextinput.png "0303-173_DropDownComboBoxTextInput")  
   
- Highlight  
+  Highlight  
   
- `CommonControls.ComboBoxTextInputSelection`  
+  `CommonControls.ComboBoxTextInputSelection`  
   
- **Pressed – List item view**  
+  **Pressed – List item view**  
   
- ![Drop&#45;down&#47;combo box list view](../../extensibility/ux-guidelines/media/0303-174-dropdowncomboboxlistview.png "0303-174_DropDownComboBoxListView")  
+  ![Drop&#45;down&#47;combo box list view](../../extensibility/ux-guidelines/media/0303-174-dropdowncomboboxlistview.png "0303-174_DropDownComboBoxListView")  
   
- Background  
+  Background  
   
- `CommonControls.ComboBoxListBackground`  
+  `CommonControls.ComboBoxListBackground`  
   
- `CommonControls.ComboBoxListBackgroundHover`  
+  `CommonControls.ComboBoxListBackgroundHover`  
   
- `CommonControls.ComboBoxListItemBackgroundPressed`  
+  `CommonControls.ComboBoxListItemBackgroundPressed`  
   
- `CommonControls.ComboBoxListItemBackgroundFocused`  
+  `CommonControls.ComboBoxListItemBackgroundFocused`  
   
- Border  
+  Border  
   
- `CommonControls.ComboBoxListBorder`  
+  `CommonControls.ComboBoxListBorder`  
   
- `CommonControls.ComboBoxListBorderHover`  
+  `CommonControls.ComboBoxListBorderHover`  
   
- `CommonControls.ComboBoxListBorderPressed`  
+  `CommonControls.ComboBoxListBorderPressed`  
   
- `CommonControls.ComboBoxListBorderFocused`  
+  `CommonControls.ComboBoxListBorderFocused`  
   
- Item text  
+  Item text  
   
- `CommonControls.ComboBoxListItemText`  
+  `CommonControls.ComboBoxListItemText`  
   
- `CommonControls.ComboBoxListItemTextHover`  
+  `CommonControls.ComboBoxListItemTextHover`  
   
- `CommonControls.ComboBoxListItemTextPressed`  
+  `CommonControls.ComboBoxListItemTextPressed`  
   
- `CommonControls.ComboBoxListItemTextFocused`  
+  `CommonControls.ComboBoxListItemTextFocused`  
   
- Background shadow  
+  Background shadow  
   
- `CommonControls.ComboBoxListBackgroundShadow`  
+  `CommonControls.ComboBoxListBackgroundShadow`  
   
 ### Tabular data (grid) controls  
  Tabular data controls, also known as grid controls, are common controls for Visual Studio that can be used to present large amounts of data in multiple columns. Standard tabular data controls can be found in multiple places within Visual Studio: the Error List tool window, IntelliTrace reports, and memory heap view, among others. Always use the standard tabular data controls provided. In some rare instances, you might not have access to the standard tabular data controls. In these situations, use the following token names to ensure that your UI is consistent with other tabular data controls in Visual Studio.  
@@ -3699,66 +3697,66 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Use …  
  -   for designers that are similar to the Manifest Designer.  
   
--   in place of using common tab controls at the top of an editor within the document well.  
+- in place of using common tab controls at the top of an editor within the document well.  
   
- Do not use …  
- -   if you have more than six tabs.  
+  Do not use …  
+  -   if you have more than six tabs.  
   
--   for any UI that is not structured like the Manifest Designer.  
+- for any UI that is not structured like the Manifest Designer.  
   
- State  
+  State  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- Default (selected)  
+  Default (selected)  
   
- Tab  
+  Tab  
   
- Background  
+  Background  
   
- `ManifestDesigner.TabActive`  
+  `ManifestDesigner.TabActive`  
   
- Border  
+  Border  
   
- None  
+  None  
   
- Description pane  
+  Description pane  
   
- Background  
+  Background  
   
- `ManifestDesigner.DescriptionPane`  
+  `ManifestDesigner.DescriptionPane`  
   
- Content page  
+  Content page  
   
- Background  
+  Background  
   
- `ManifestDesigner.Background`  
+  `ManifestDesigner.Background`  
   
- Dialog helper text  
+  Dialog helper text  
   
- `ManifestDesigner.WatermarkText`  
+  `ManifestDesigner.WatermarkText`  
   
- This token name does not match its function.  
+  This token name does not match its function.  
   
- Non-selected  
+  Non-selected  
   
- Tab  
+  Tab  
   
- Background  
+  Background  
   
- `ManifestDesigner.Tab.Inactive`  
+  `ManifestDesigner.Tab.Inactive`  
   
- Hover  
+  Hover  
   
- Tab  
+  Tab  
   
- Background  
+  Background  
   
- `ManifestDesigner.Tab.Mouseover`  
+  `ManifestDesigner.Tab.Mouseover`  
   
 ## Tagging  
  Visual Studio supports tagging, which allows a user to declare searchable keywords for tracking purposes. For example, project managers and developers can use Team Foundation Server (TFS) to tag work items. The tables below give color names for both the tag itself and the "close icon" glyph that appears in hover and selected states.  
@@ -3976,39 +3974,39 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Do not use …  
  -   as a fill for places that are not background surfaces.  
   
--   as a background on which you wish to place foreground elements.  
+- as a background on which you wish to place foreground elements.  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- Bottom layer  
+  Bottom layer  
   
- Background  
+  Background  
   
- `Environment.EnvironmentBackground`  
+  `Environment.EnvironmentBackground`  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- Top layer  
+  Top layer  
   
- Background  
+  Background  
   
- *Gradient stops set to the same color value in Visual Studio 2013 Light and Dark themes.*  
+  *Gradient stops set to the same color value in Visual Studio 2013 Light and Dark themes.*  
   
- `Environment.EnvironmentBackgroundGradientBegin`  
+  `Environment.EnvironmentBackgroundGradientBegin`  
   
- `Environment.EnvironmentBackgroundGradientEnd`  
+  `Environment.EnvironmentBackgroundGradientEnd`  
   
- `Environment.EnvironmentBackgroundGradientMiddle1`  
+  `Environment.EnvironmentBackgroundGradientMiddle1`  
   
- `Environment.EnvironmentBackgroundGradientMiddle2`  
+  `Environment.EnvironmentBackgroundGradientMiddle2`  
   
 ### Command shelf  
  Two sets of token names are used for the command shelf backgrounds: one set for where the menu bar sits and one for where the command bars sit. An individual command bar group has its own background color values, which are discussed in more detail in the "command bar" section. Menu bar and command bar text is discussed in the menu and command bar sections, respectively.  
@@ -4018,40 +4016,40 @@ When you are designing UI that uses common Visual Studio shell elements, or you 
  Use …  
  -   for areas where you place menus or toolbars.  
   
--   with the correct background/?foreground token name combination.  
+- with the correct background/?foreground token name combination.  
   
- Do not use …  
- for areas that are not similar to a command shelf.  
+  Do not use …  
+  for areas that are not similar to a command shelf.  
   
- Component  
+  Component  
   
- Element  
+  Element  
   
- Token name: Category.color  
+  Token name: Category.color  
   
- Menu bar  
+  Menu bar  
   
- Background  
+  Background  
   
- *Gradient stops set to the same color value in Visual Studio 2013 Light and Dark themes.*  
+  *Gradient stops set to the same color value in Visual Studio 2013 Light and Dark themes.*  
   
- `Environment.CommandShelfHighlightGradientBegin`  
+  `Environment.CommandShelfHighlightGradientBegin`  
   
- `Environment.CommandShelfHighlightGradientMiddle`  
+  `Environment.CommandShelfHighlightGradientMiddle`  
   
- `Environment.CommandShelfHighlightGradientEnd`  
+  `Environment.CommandShelfHighlightGradientEnd`  
   
- Command bar  
+  Command bar  
   
- Background  
+  Background  
   
- *Gradient stops set to the same color value in Visual Studio 2013 Light and Dark themes.*  
+  *Gradient stops set to the same color value in Visual Studio 2013 Light and Dark themes.*  
   
- `Environment.CommandShelfBackgroundGradientBegin`  
+  `Environment.CommandShelfBackgroundGradientBegin`  
   
- `Environment.CommandShelfBackgroundGradientMiddle`  
+  `Environment.CommandShelfBackgroundGradientMiddle`  
   
- `Environment.CommandShelfBackgroundGradientEnd`  
+  `Environment.CommandShelfBackgroundGradientEnd`  
   
 ## Toolbox  
  The toolbox is one of the common tool windows that is most frequently used in Visual Studio. It is essentially a tree control with a special theme and styling applied.  

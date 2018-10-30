@@ -1,7 +1,7 @@
 ---
 title: "Create Modern Desktop Applications with Windows Presentation Foundation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Create Modern Desktop Applications with Windows Presentation Foundation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create Modern Desktop Applications with Windows Presentation Foundation](https://docs.microsoft.com/visualstudio/designers/create-modern-desktop-applications-with-windows-presentation-foundation).  
-  
 Windows Presentation Foundation (WPF) in Visual Studio 2015 provides developers with a unified programming model for building modern line-of-business desktop applications on Windows.  
   
  [Getting Started with WPF](../designers/getting-started-with-wpf.md)  

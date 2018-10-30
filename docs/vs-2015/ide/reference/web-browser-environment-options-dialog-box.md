@@ -1,7 +1,7 @@
 ---
 title: "Web Browser, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "ghogen"
 # Web Browser, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Web Browser, Environment, Options Dialog Box](https://docs.microsoft.com/visualstudio/ide/reference/web-browser-environment-options-dialog-box).  
-  
   
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.  
   
@@ -53,14 +51,14 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
  View Source in  
  Sets the editor used to open a Web page when you choose **View Source** on the page from the internal Web browser.  
   
--   **Source editor** Select to view source in the [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md).  
+- **Source editor** Select to view source in the [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md).  
   
--   **HTML editor** Select to view source in the [HTML Designer](http://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.  
+- **HTML editor** Select to view source in the [HTML Designer](http://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.  
   
--   **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.  
+- **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.  
   
- Internet Explorer Options  
- Click to change options for Internet Explorer in the **Internet Properties** dialog box. Changes made in this dialog box affect both the internal Web browser and instances of Internet Explorer initiated outside of the Visual Studio IDE (for example, from the Start menu).  
+  Internet Explorer Options  
+  Click to change options for Internet Explorer in the **Internet Properties** dialog box. Changes made in this dialog box affect both the internal Web browser and instances of Internet Explorer initiated outside of the Visual Studio IDE (for example, from the Start menu).  
   
 > [!NOTE]
 >  Use the Browse With dialog box to replace the Visual Studio internal Web browser, which is a version of Internet Explorer, by using a different, external Web browser.  

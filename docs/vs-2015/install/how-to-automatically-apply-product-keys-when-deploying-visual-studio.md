@@ -1,7 +1,7 @@
 ---
 title: "How to: Automatically apply product keys when deploying Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,7 +18,7 @@ manager: "ghogen"
 # How to: Automatically apply product keys when deploying Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see [Automatically apply product keys when deploying Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/automatically-apply-product-keys-when-deploying-visual-studio).
+For the latest documentation for Visual Studio 2017, see [Automatically apply product keys when deploying Visual Studio](/visualstudio/install/automatically-apply-product-keys-when-deploying-visual-studio).
 
 You can apply your product key programmatically as part of a script used to automate the deployment of Visual Studio 2015. Product keys can be set on a device programmatically during installation of Visual Studio or after an installation completed.  
   

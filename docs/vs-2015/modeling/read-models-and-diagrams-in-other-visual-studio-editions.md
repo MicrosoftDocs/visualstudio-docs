@@ -1,7 +1,7 @@
 ---
 title: "Read models and diagrams in other Visual Studio editions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Read models and diagrams in other Visual Studio editions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Read models and diagrams in other Visual Studio editions](https://docs.microsoft.com/visualstudio/modeling/read-models-and-diagrams-in-other-visual-studio-editions).  
-  
 When you open a model in a version of Visual Studio that does not support model creation, the model opens in read-only mode. In this mode, you can change the layout of the diagrams, but you cannot change the model.  
   
  To see which versions of Visual Studio support model creation, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -48,11 +46,11 @@ When you open a model in a version of Visual Studio that does not support model 
 ## Changes that you can Make in Read-Only Mode  
  If you open a model and its diagrams in a version of Visual Studio that does not support model creation, you cannot change the model. That is, you cannot change the elements and relationships that are displayed on the diagrams or in the model explorer. However, you can make some changes to the layout of the diagrams:  
   
--   Rearrange the shapes and connectors on the diagram.  
+- Rearrange the shapes and connectors on the diagram.  
   
--   Expand and collapse shapes.  
+- Expand and collapse shapes.  
   
- You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.  
+  You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.  
   
 ##  <a name="RelatedTopics"></a> Related Topics  
   

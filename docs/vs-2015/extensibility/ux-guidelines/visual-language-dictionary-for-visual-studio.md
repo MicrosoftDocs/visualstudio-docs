@@ -1,7 +1,7 @@
 ---
 title: "Visual Language Dictionary for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,21 +17,19 @@ manager: "ghogen"
 # Visual Language Dictionary for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Language Dictionary for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio).  
-  
 Visual Studio uses a common visual language to illustrate the concepts that are the building blocks of its iconography and other imagery. When designing new icons, use this dictionary to identify the concepts that you want to convey in your own image.  
   
  **General guidelines**  
   
--   These visual concepts must be used consistently with their dictionary definition. Otherwise, you risk confusing your users, who expect common elements to have consistent meanings.  
+- These visual concepts must be used consistently with their dictionary definition. Otherwise, you risk confusing your users, who expect common elements to have consistent meanings.  
   
--   Choose only the most relevant or important concepts for use in your icons, so that the imagery is crisp and easy to distinguish.  
+- Choose only the most relevant or important concepts for use in your icons, so that the imagery is crisp and easy to distinguish.  
   
--   Use only one or two concepts in each image.  
+- Use only one or two concepts in each image.  
   
--   For more strategies for designing icons, see [Icon design](../../extensibility/ux-guidelines/images-and-icons-for-visual-studio.md#BKMK_IconDesign).  
+- For more strategies for designing icons, see [Icon design](../../extensibility/ux-guidelines/images-and-icons-for-visual-studio.md#BKMK_IconDesign).  
   
- **Jump to section:**  
+  **Jump to section:**  
   
 1.  [Concepts A-Z](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDConcepts)  
   

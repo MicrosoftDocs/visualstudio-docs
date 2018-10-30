@@ -1,7 +1,7 @@
 ---
 title: "How to: Create and Edit Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # How to: Create and Edit Configurations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create and Edit Configurations](https://docs.microsoft.com/visualstudio/ide/how-to-create-and-edit-configurations).  
-  
 You can create several build configurations for a solution. For example, you can configure a debug build that your testers can use to find and fix problems, and you can configure different kinds of builds that you can distribute to different customers.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
@@ -39,14 +37,14 @@ You can create several build configurations for a solution. For example, you can
   
 #### To open the Configuration Manager dialog box  
   
--   In **Solution Explorer**, open the shortcut menu for the solution and then choose **Configuration Manager**.  
+- In **Solution Explorer**, open the shortcut menu for the solution and then choose **Configuration Manager**.  
   
-    > [!NOTE]
-    >  If the **Configuration Manager** command doesn't appear on the shortcut menu, look under the **Build** menu on the menu bar. If it doesn't appear there either, on the menu bar, choose **Tools**, **Options**, and then in the left pane of the **Options** dialog box, expand **Projects and Solutions**, **General**, and in the right pane, select the **Show advanced build configurations** check box.  
+  > [!NOTE]
+  >  If the **Configuration Manager** command doesn't appear on the shortcut menu, look under the **Build** menu on the menu bar. If it doesn't appear there either, on the menu bar, choose **Tools**, **Options**, and then in the left pane of the **Options** dialog box, expand **Projects and Solutions**, **General**, and in the right pane, select the **Show advanced build configurations** check box.  
   
-     In the **Configuration Manager** dialog box, you can use the **Active solution configuration** drop-down list to select a solution-wide build configuration, modify an existing one, or create a new configuration. You can use the **Active solution platform** drop-down list to select the platform that the configuration targets, modify an existing one, or add a new platform. The **Project contexts** pane lists the projects in the solution. For each project, you can select a project-specific configuration and platform, modify existing ones, or create a new configuration or add a new platform. You can also select check boxes that indicate whether each project is included when you use the solution-wide configuration to build or deploy the solution.  
+   In the **Configuration Manager** dialog box, you can use the **Active solution configuration** drop-down list to select a solution-wide build configuration, modify an existing one, or create a new configuration. You can use the **Active solution platform** drop-down list to select the platform that the configuration targets, modify an existing one, or add a new platform. The **Project contexts** pane lists the projects in the solution. For each project, you can select a project-specific configuration and platform, modify existing ones, or create a new configuration or add a new platform. You can also select check boxes that indicate whether each project is included when you use the solution-wide configuration to build or deploy the solution.  
   
- After you set up the configurations you want, you can set project properties that are appropriate for those configurations.  
+  After you set up the configurations you want, you can set project properties that are appropriate for those configurations.  
   
 #### To set properties based on configurations  
   

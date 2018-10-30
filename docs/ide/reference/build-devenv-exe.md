@@ -59,7 +59,7 @@ devenv "C:\Visual Studio Projects\MySolution\MySolution.sln" /build Debug /proje
 ## See also
 
 - [Build and clean projects and solutions](../../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
-- [Devenv command-line wwitches](../../ide/reference/devenv-command-line-switches.md)
+- [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
 - [/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)
 - [/Clean (devenv.exe)](../../ide/reference/clean-devenv-exe.md)
 - [/Out (devenv.exe)](../../ide/reference/out-devenv-exe.md)

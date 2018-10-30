@@ -1,7 +1,7 @@
 ---
 title: "IDebugObject2::IsEncOutdated | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugObject2::IsEncOutdated
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject2::IsEncOutdated](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject2-isencoutdated).  
-  
 This method determines whether the Edit and Continue status of this object or of the parent container is out of date. A custom expression evaluator does not implement this method and always returns `E_NOTIMPL`.  
   
 ## Syntax  
   
 ```cpp  
 HRESULT IsEncOutdated(  
-   BOOL* pfEncOutdated  
+   BOOL* pfEncOutdated  
 );  
 ```  
   
 ```csharp  
 int IsEncOutdated(  
-   out int pfEncOutdated  
+   out int pfEncOutdated  
 );  
 ```  
   

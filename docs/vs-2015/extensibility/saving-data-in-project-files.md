@@ -1,7 +1,7 @@
 ---
 title: "Saving Data in Project Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,15 +21,13 @@ manager: "ghogen"
 # Saving Data in Project Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Saving Data in Project Files](https://docs.microsoft.com/visualstudio/extensibility/saving-data-in-project-files).  
-  
 A project subtype can save and retrieve subtype-specific data in the project file. The Managed Package Framework (MPF) provides two interfaces to accomplish this task:  
   
--   The <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> interface allows to access property values from the **MSBuild** section of the project file. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> can be called by any user whenever the user needs to load or save build related data.  
+- The <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> interface allows to access property values from the **MSBuild** section of the project file. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> can be called by any user whenever the user needs to load or save build related data.  
   
--   The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> is used to persist non-build related data in free-form XML. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> are called by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] whenever [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] needs to persist non-build related data in the project file.  
+- The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> is used to persist non-build related data in free-form XML. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> are called by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] whenever [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] needs to persist non-build related data in the project file.  
   
- For more information on how to persist build and non-build related data, see [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md).  
+  For more information on how to persist build and non-build related data, see [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md).  
   
 ## Saving and retrieving build related data  
   

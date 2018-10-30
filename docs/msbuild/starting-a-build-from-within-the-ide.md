@@ -15,17 +15,17 @@ ms.workload:
 ---
 # Start a build from within the IDE
 Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This article describes the reasons for this requirement and outlines the procedure.  
-  
+
 ## Parallel builds and threads  
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows parallel builds, which requires mediation for access to common resources. Project systems can run builds asynchronously, but such systems must not call build functions from within call backs is provided to the build manager.  
-  
+
  If the project system modifies environment variables, it must set the NodeAffinity of the build to OutOfProc. This requirement means that you cannot use host objects, since they require the in-proc node.  
-  
+
 ## Use IVSBuildManagerAccessor  
  The code below outlines a method that a project system can use to start a build:  
-  
+
 ```csharp
-  
+
 public bool Build(Project project, bool isDesignTimeBuild)  
 {  
     // Get the accessor from the IServiceProvider interface for the   
@@ -112,5 +112,4 @@ public bool Build(Project project, bool isDesignTimeBuild)
          }  
      }  
 }  
-  
 ```

@@ -12,12 +12,12 @@ ms.workload:
   - "multiple"
 ---
 # Using the Microsoft Monitoring Agent
-You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 applications for errors, performance issues, or other problems by using **Microsoft Monitoring Agent**. You can save diagnostic events from the agent to an IntelliTrace log (.iTrace) file. You can then open the log in Visual Studio Enterprise (but not Professional or Community editions) to debug problems with all the Visual Studio diagnostic tools. You can also collect IntelliTrace diagnostic data and method data by running the agent in **Trace** mode. Microsoft Monitoring Agent can be integrated with [Application Insights](/azure/application-insights/) and [System Center Operation Manager](http://technet.microsoft.com/library/hh205987.aspx). Microsoft Monitoring Agent does alter the target system's environment when it is installed.  
+You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 applications for errors, performance issues, or other problems by using **Microsoft Monitoring Agent**. You can save diagnostic events from the agent to an IntelliTrace log (.iTrace) file. You can then open the log in Visual Studio Enterprise (but not Professional or Community editions) to debug problems with all the Visual Studio diagnostic tools. You can also collect IntelliTrace diagnostic data and method data by running the agent in **Trace** mode. Microsoft Monitoring Agent can be integrated with [Application Insights](/azure/application-insights/) and [System Center Operation Manager](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12)). Microsoft Monitoring Agent does alter the target system's environment when it is installed.  
   
 > [!NOTE]
 >  You can also collect IntelliTrace diagnostic and method data for web, SharePoint, WPF, and Windows Form apps on remote machines without changing the target environment by using the **IntelliTrace stand-alone collector**. The stand-alone collector has a greater performance impact than running the Microsoft Monitoring Agent in **Monitor** mode. See [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).  
   
- If you use System Center 2012, use Microsoft Monitoring Agent with Operations Manager to get alerts about problems and create Team Foundation Server work items with links to the saved IntelliTrace logs. You can then assign these work items to others for further debugging. See [Integrating Operations Manager with Development Processes](http://technet.microsoft.com/library/jj614609.aspx) and [Monitoring with Microsoft Monitoring Agent](http://technet.microsoft.com/en-us/library/dn465153.aspx).  
+ If you use System Center 2012, use Microsoft Monitoring Agent with Operations Manager to get alerts about problems and create Team Foundation Server work items with links to the saved IntelliTrace logs. You can then assign these work items to others for further debugging. See [Integrating Operations Manager with Development Processes](/previous-versions/system-center/system-center-2012-R2/jj614609(v=sc.12)) and [Monitoring with Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465153(v=sc.12)).  
   
  Before you start, check that you have the matching source and symbols for the built and deployed code. This helps you go directly to the application code when you start debugging and browsing diagnostic events in the IntelliTrace log. [Set up your builds](../debugger/diagnose-problems-after-deployment.md) so that Visual Studio can automatically find and open the matching source for your deployed code.  
   
@@ -28,13 +28,13 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 3.  [Step 3: Save recorded events](#SaveEvents)  
   
 ##  <a name="SetUpMonitoring"></a> Step 1: Set up Microsoft Monitoring Agent  
- Set up the standalone agent on your web server to perform local monitoring without changing your application. If you use System Center 2012, see [Installing Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465156.aspx).  
+ Set up the standalone agent on your web server to perform local monitoring without changing your application. If you use System Center 2012, see [Installing Microsoft Monitoring Agent](/previous-versions/system-center/system-center-2012-R2/dn465156(v=sc.12)).  
   
 ###  <a name="SetUpStandaloneMMA"></a> Set up the standalone agent  
   
 1.  Make sure that:  
   
-    -   Your web server is running [supported versions of Internet Information Services (IIS)](http://technet.microsoft.com/en-us/library/dn465154.aspx).  
+    -   Your web server is running [supported versions of Internet Information Services (IIS)](/previous-versions/system-center/system-center-2012-R2/dn465154(v=sc.12)).  
   
     -   Your web server has .NET Framework 3.5, 4, or 4.5.  
   
@@ -73,33 +73,33 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 ####  <a name="FullPermissionsITLog"></a> Q: How do I set up permissions for the application pool?  
  **A:** Use the Windows **icacls** command or use Windows Explorer (or File Explorer). For example:  
   
--   To set up permissions with the Windows **icacls** command:  
+- To set up permissions with the Windows **icacls** command:  
   
-    -   For a web app in the **DefaultAppPool** application pool:  
+  - For a web app in the **DefaultAppPool** application pool:  
   
-         `icacls "C:\IntelliTraceLogs" /grant "IIS APPPOOL\DefaultAppPool":RX`  
+     `icacls "C:\IntelliTraceLogs" /grant "IIS APPPOOL\DefaultAppPool":RX`  
   
-    -   For a SharePoint application in the **SharePoint - 80** application pool:  
+  - For a SharePoint application in the **SharePoint - 80** application pool:  
   
-         `icacls "C:\IntelliTraceLogs" /grant "IIS APPPOOL\SharePoint - 80":RX`  
+     `icacls "C:\IntelliTraceLogs" /grant "IIS APPPOOL\SharePoint - 80":RX`  
   
-     -or-  
+    -or-  
   
--   To set up permissions with Windows Explorer (or File Explorer):  
+- To set up permissions with Windows Explorer (or File Explorer):  
   
-    1.  Open **Properties** for the IntelliTrace log directory.  
+  1.  Open **Properties** for the IntelliTrace log directory.  
   
-    2.  On the **Security** tab, choose **Edit**, **Add**.  
+  2.  On the **Security** tab, choose **Edit**, **Add**.  
   
-    3.  Make sure that **Built-in security principals** appears in the **Select this object type** box. If it's not there, choose **Object Types** to add it.  
+  3.  Make sure that **Built-in security principals** appears in the **Select this object type** box. If it's not there, choose **Object Types** to add it.  
   
-    4.  Make sure your local computer appears in the **From this location** box. If it's not there, choose **Locations** to change it.  
+  4.  Make sure your local computer appears in the **From this location** box. If it's not there, choose **Locations** to change it.  
   
-    5.  In the **Enter the object names to select** box, add the application pool for the web app or SharePoint application.  
+  5.  In the **Enter the object names to select** box, add the application pool for the web app or SharePoint application.  
   
-    6.  Choose **Check Names** to resolve the name. Choose **OK**.  
+  6.  Choose **Check Names** to resolve the name. Choose **OK**.  
   
-    7.  Make sure the application pool has **Read & execute** permissions.  
+  7.  Make sure the application pool has **Read & execute** permissions.  
   
 ##  <a name="MonitorEvents"></a> Step 2: Start monitoring your app  
  Use the Windows PowerShell [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) command to start monitoring your app. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465157.aspx).  
@@ -143,83 +143,83 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 ####  <a name="Minimizing"></a> Q: How do I get the most data without slowing down my app?  
  **A:** Microsoft Monitoring Agent can collect lots of data and affects your app's performance depending on the data that you choose to collect and how you collect it. Here are some ways to get the most data without slowing down your app:  
   
--   For web apps and SharePoint applications, the agent records data for every app that shares the specified application pool. This might slow down any app that shares the same application pool, even though you can restrict collection to the modules for a single app. To avoid slowing down other apps, host each app in its own application pool.  
+- For web apps and SharePoint applications, the agent records data for every app that shares the specified application pool. This might slow down any app that shares the same application pool, even though you can restrict collection to the modules for a single app. To avoid slowing down other apps, host each app in its own application pool.  
   
--   Review the events for which the agent collects data in the collection plan. Edit the collection plan to disable events that aren't relevant or don't interest you. This can improve startup performance and runtime performance.  
+- Review the events for which the agent collects data in the collection plan. Edit the collection plan to disable events that aren't relevant or don't interest you. This can improve startup performance and runtime performance.  
   
-     To disable an event, set the `enabled` attribute for the `<DiagnosticEventSpecification>` element to `false`:  
+   To disable an event, set the `enabled` attribute for the `<DiagnosticEventSpecification>` element to `false`:  
   
-     `<DiagnosticEventSpecification enabled="false">`  
+   `<DiagnosticEventSpecification enabled="false">`  
   
-     If the `enabled` attribute doesn't exist, the event is enabled.  
+   If the `enabled` attribute doesn't exist, the event is enabled.  
   
-     For example:  
+   For example:  
   
-    -   Disable Windows Workflow events for apps that don't use Windows Workflow.  
+  -   Disable Windows Workflow events for apps that don't use Windows Workflow.  
   
-    -   Disable registry events for apps that access the registry but don't show problems with registry settings.  
+  -   Disable registry events for apps that access the registry but don't show problems with registry settings.  
   
--   Review the modules for which the agent collects data in the collection plan. Edit the collection plan to include only the modules that interest you.  
+- Review the modules for which the agent collects data in the collection plan. Edit the collection plan to include only the modules that interest you.  
   
-     This reduces how much method call information and other instrumentation data that the agent collects when the app starts and runs. This data helps you to step through code when you're debugging and reviewing values passed into and returned from function calls.  
+   This reduces how much method call information and other instrumentation data that the agent collects when the app starts and runs. This data helps you to step through code when you're debugging and reviewing values passed into and returned from function calls.  
   
-    1.  Open the collection plan. Find the `<ModuleList>` element.  
+  1. Open the collection plan. Find the `<ModuleList>` element.  
   
-    2.  In `<ModuleList>`, set the `isExclusionList` attribute to `false`.  
+  2. In `<ModuleList>`, set the `isExclusionList` attribute to `false`.  
   
-    3.  Use the `<Name>` element to specify each module with one of the following: file name, string value to include any module whose name contains that string, or public key.  
+  3. Use the `<Name>` element to specify each module with one of the following: file name, string value to include any module whose name contains that string, or public key.  
   
      This example creates a list that collects data only from the main module of the Fabrikam Fiber web app:  
   
-    ```xml  
-    <ModuleList isExclusionList="false">  
-       <Name>FabrikamFiber.Web.dll</Name>  
-    </ModuleList>  
+  ```xml  
+  <ModuleList isExclusionList="false">  
+     <Name>FabrikamFiber.Web.dll</Name>  
+  </ModuleList>  
   
-    ```  
+  ```  
   
-     To collect data from any module whose name includes "Fabrikam", create a list like this one:  
+   To collect data from any module whose name includes "Fabrikam", create a list like this one:  
   
-    ```xml  
-    <ModuleList isExclusionList="false">  
-       <Name>Fabrikam</Name>  
-    </ModuleList>  
+  ```xml  
+  <ModuleList isExclusionList="false">  
+     <Name>Fabrikam</Name>  
+  </ModuleList>  
   
-    ```  
+  ```  
   
-     To collect data from modules by specifying their public key tokens, create a list like this one:  
+   To collect data from modules by specifying their public key tokens, create a list like this one:  
   
-    ```xml  
-    <ModuleList isExclusionList="false">  
-       <Name>PublicKeyToken:B77A5C561934E089</Name>  
-       <Name>PublicKeyToken:B03F5F7F11D50A3A</Name>  
-       <Name>PublicKeyToken:31BF3856AD364E35</Name>  
-       <Name>PublicKeyToken:89845DCD8080CC91</Name>  
-       <Name>PublicKeyToken:71E9BCE111E9429C</Name>  
-    </ModuleList>  
+  ```xml  
+  <ModuleList isExclusionList="false">  
+     <Name>PublicKeyToken:B77A5C561934E089</Name>  
+     <Name>PublicKeyToken:B03F5F7F11D50A3A</Name>  
+     <Name>PublicKeyToken:31BF3856AD364E35</Name>  
+     <Name>PublicKeyToken:89845DCD8080CC91</Name>  
+     <Name>PublicKeyToken:71E9BCE111E9429C</Name>  
+  </ModuleList>  
   
-    ```  
+  ```  
   
-     **Q: Why not just exclude modules instead?**  
+   **Q: Why not just exclude modules instead?**  
   
-     **A:** By default, collection plans exclude modules by setting the `isExclusionList` attribute to `true`. However, this might still collect data from modules that don't meet the list's criteria or that might not interest you, such as third-party or open-source modules.  
+   **A:** By default, collection plans exclude modules by setting the `isExclusionList` attribute to `true`. However, this might still collect data from modules that don't meet the list's criteria or that might not interest you, such as third-party or open-source modules.  
   
 #### Q: What values does the agent collect?  
  **A:** To reduce impact on performance, the agent collects only these values:  
   
--   Primitive data types that are passed into and returned from methods  
+- Primitive data types that are passed into and returned from methods  
   
--   Primitive data types in fields for top-level objects passed into and returned from methods  
+- Primitive data types in fields for top-level objects passed into and returned from methods  
   
- For example, suppose you have an `AlterEmployee` method signature that accepts an integer `id` and an `Employee` object `oldemployee`:  
+  For example, suppose you have an `AlterEmployee` method signature that accepts an integer `id` and an `Employee` object `oldemployee`:  
   
- `public Employee AlterEmployee(int id, Employee oldemployee)`  
+  `public Employee AlterEmployee(int id, Employee oldemployee)`  
   
- The `Employee` type has the following attributes: `Id`, `Name`, and `HomeAddress`. An association relationship exists between `Employee` and the `Address` type.  
+  The `Employee` type has the following attributes: `Id`, `Name`, and `HomeAddress`. An association relationship exists between `Employee` and the `Address` type.  
   
- ![Relationship between Employee and Address](../debugger/media/employeeaddressrelationship.png "EmployeeAddressRelationship")  
+  ![Relationship between Employee and Address](../debugger/media/employeeaddressrelationship.png "EmployeeAddressRelationship")  
   
- The agent records values for `id`, `Employee.Id`, `Employee.Name` and the `Employee` object returned from the `AlterEmployee` method. However, the agent doesn't record information about the `Address` object other than whether it was null or not. The agent also doesn't record data about local variables in the `AlterEmployee` method unless other methods use those local variables as parameters at which point they are recorded as method parameters.  
+  The agent records values for `id`, `Employee.Id`, `Employee.Name` and the `Employee` object returned from the `AlterEmployee` method. However, the agent doesn't record information about the `Address` object other than whether it was null or not. The agent also doesn't record data about local variables in the `AlterEmployee` method unless other methods use those local variables as parameters at which point they are recorded as method parameters.  
   
 ##  <a name="SaveEvents"></a> Step 3: Save recorded events  
  When you find an error or a performance issue, save the recorded events to an IntelliTrace log. The agent creates the log only if it recorded events. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465157.aspx).  
@@ -227,63 +227,63 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 ### Save recorded events but continue monitoring  
  Follow these steps when you want to create the IntelliTrace log but don't want to restart your app or stop monitoring. The agent continues monitoring even if the server or application restarts.  
   
-1.  On your web server, open a Windows PowerShell command prompt window as an administrator.  
+1. On your web server, open a Windows PowerShell command prompt window as an administrator.  
   
-2.  Run the [Checkpoint-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313684) command to save a snapshot of the IntelliTrace log:  
+2. Run the [Checkpoint-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313684) command to save a snapshot of the IntelliTrace log:  
   
-     **Checkpoint-WebApplicationMonitoring** *"\<IISWebsiteName>\\<IISWebAppName\>"*  
+    **Checkpoint-WebApplicationMonitoring** *"\<IISWebsiteName>\\<IISWebAppName\>"*  
   
-     \- or -  
+    \- or -  
   
-     **Checkpoint-WebApplicationMonitoring "IIS:\sites** *\\<IISWebsiteName\>\\<IISWebAppName\>"*  
+    **Checkpoint-WebApplicationMonitoring "IIS:\sites** *\\<IISWebsiteName\>\\<IISWebAppName\>"*  
   
-     For example:  
+    For example:  
   
-     **PS C:\\>Checkpoint-WebApplicationMonitoring "Fabrikam\FabrikamFiber.Web"**  
+    **PS C:\\>Checkpoint-WebApplicationMonitoring "Fabrikam\FabrikamFiber.Web"**  
   
-     -or-  
+    -or-  
   
-     **PS C:>Checkpoint-WebApplicationMonitoring "IIS:sitesFabrikamFabrikamFiber.Web"**  
+    **PS C:>Checkpoint-WebApplicationMonitoring "IIS:sitesFabrikamFabrikamFiber.Web"**  
   
-     For more information, run the **get-help Checkpoint-WebApplicationMonitoring -detailed** command or the **get-help Checkpoint-WebApplicationMonitoring -examples** command.  
+    For more information, run the **get-help Checkpoint-WebApplicationMonitoring -detailed** command or the **get-help Checkpoint-WebApplicationMonitoring -examples** command.  
   
-3.  Copy the log to a secure shared folder, and then open the log from a computer that has Visual Studio Enterprise (but not Professional or Community editions).  
+3. Copy the log to a secure shared folder, and then open the log from a computer that has Visual Studio Enterprise (but not Professional or Community editions).  
   
-    > [!IMPORTANT]
-    >  Be cautious when you share IntelliTrace logs because they might contain personal and sensitive data. Make sure that whoever can access these logs has permissions to look at that data. Check your company's privacy policies.  
+   > [!IMPORTANT]
+   >  Be cautious when you share IntelliTrace logs because they might contain personal and sensitive data. Make sure that whoever can access these logs has permissions to look at that data. Check your company's privacy policies.  
   
- **Next:** [Diagnose recorded events in Visual Studio Enterprise](../debugger/diagnose-problems-after-deployment.md#InvestigateEvents)  
+   **Next:** [Diagnose recorded events in Visual Studio Enterprise](../debugger/diagnose-problems-after-deployment.md#InvestigateEvents)  
   
 ### Save recorded events and stop monitoring  
  Follow these steps when you just want to get diagnostic information while reproducing a specific problem. This will restart all the web apps on your web server.  
   
-1.  On your web server, open a Windows PowerShell command prompt window as an administrator.  
+1. On your web server, open a Windows PowerShell command prompt window as an administrator.  
   
-2.  Run the [Stop-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313687) command to create the IntelliTrace log and stop monitoring a specific web app:  
+2. Run the [Stop-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313687) command to create the IntelliTrace log and stop monitoring a specific web app:  
   
-     **Stop-WebApplicationMonitoring** *"\<IISWebsiteName>\\<IISWebAppName\>"*  
+    **Stop-WebApplicationMonitoring** *"\<IISWebsiteName>\\<IISWebAppName\>"*  
   
-     \- or -  
+    \- or -  
   
-     **Stop-WebApplicationMonitoring "IIS:\sites** *\\<IISWebsiteName\>\\<IISWebAppName\>"*  
+    **Stop-WebApplicationMonitoring "IIS:\sites** *\\<IISWebsiteName\>\\<IISWebAppName\>"*  
   
-     Or to stop monitoring all web apps:  
+    Or to stop monitoring all web apps:  
   
-     **Stop-WebApplicationMonitoring -All**  
+    **Stop-WebApplicationMonitoring -All**  
   
-     For example:  
+    For example:  
   
-     **PS C:\\>Stop-WebApplicationMonitoring "Fabrikam\iFabrikamFiber.Web"**  
+    **PS C:\\>Stop-WebApplicationMonitoring "Fabrikam\iFabrikamFiber.Web"**  
   
-     \- or -  
+    \- or -  
   
-     **PS C:\\>Stop-WebApplicationMonitoring "IIS:\sites\Fabrikam\FabrikamFiber.Web"**  
+    **PS C:\\>Stop-WebApplicationMonitoring "IIS:\sites\Fabrikam\FabrikamFiber.Web"**  
   
-     For more information, run the **get-help Stop-WebApplicationMonitoring -detailed** command or the **get-help Stop-WebApplicationMonitoring -examples** command.  
+    For more information, run the **get-help Stop-WebApplicationMonitoring -detailed** command or the **get-help Stop-WebApplicationMonitoring -examples** command.  
   
-3.  Copy the log to a secure shared folder, and then open the log from a computer that has Visual Studio Enterprise.  
+3. Copy the log to a secure shared folder, and then open the log from a computer that has Visual Studio Enterprise.  
   
- **Next:** [Diagnose recorded events in Visual Studio Enterprise](../debugger/diagnose-problems-after-deployment.md#InvestigateEvents)  
+   **Next:** [Diagnose recorded events in Visual Studio Enterprise](../debugger/diagnose-problems-after-deployment.md#InvestigateEvents)  
   
 ## Q & A  
   

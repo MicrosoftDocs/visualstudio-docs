@@ -1,7 +1,7 @@
 ---
 title: "Test Area 6: Delete | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,21 +20,19 @@ manager: "ghogen"
 # Test Area 6: Delete
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Area 6: Delete](https://docs.microsoft.com/visualstudio/extensibility/internals/test-area-6-delete).  
-  
 This source-control plug-in test area covers delete actions.  
   
  Source control responds to delete actions in **Solution Explorer**.  
   
  Following is a list of items that can be deleted:  
   
--   Files  
+- Files  
   
--   Folders  
+- Folders  
   
--   Project  
+- Project  
   
- Depending on the project type, you might have the option to **Remove** the project (leaves the files on disk) or **Delete** the project (removes the files on disk). Either action removes the project or item from **Solution Explorer**.  
+  Depending on the project type, you might have the option to **Remove** the project (leaves the files on disk) or **Delete** the project (removes the files on disk). Either action removes the project or item from **Solution Explorer**.  
   
 ## Expected Behavior  
  The expected behavior for the test cases in the delete test area is:  

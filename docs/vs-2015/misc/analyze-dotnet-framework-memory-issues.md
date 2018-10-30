@@ -1,7 +1,7 @@
 ---
 title: "Analyze .NET Framework memory issues | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,11 +21,11 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  The memory analysis tool analyzes information in *dump files with heap data* that a copy of the objects in an app's memory. You can collect dump (.dmp) files from the Visual Studio IDE or by using other system tools.  
   
--   You can analyze a single snapshot to understand the relative impact of the object types on memory use, and to find code in your app that uses memory inefficiently.  
+- You can analyze a single snapshot to understand the relative impact of the object types on memory use, and to find code in your app that uses memory inefficiently.  
   
--   You can also compare (*diff*) two snapshots of an app to find areas in your code that cause the memory use to increase over time.  
+- You can also compare (*diff*) two snapshots of an app to find areas in your code that cause the memory use to increase over time.  
   
- For a walkthrough of the managed memory analyzer, see [Using Visual Studio 2013 to Diagnose .NET Memory Issues in Production](http://blogs.msdn.com/b/visualstudioalm/archive/2013/06/20/using-visual-studio-2013-to-diagnose-net-memory-issues-in-production.aspx) on the Visual Studio ALM + Team Foundation Server blog .  
+  For a walkthrough of the managed memory analyzer, see [Using Visual Studio 2013 to Diagnose .NET Memory Issues in Production](http://blogs.msdn.com/b/visualstudioalm/archive/2013/06/20/using-visual-studio-2013-to-diagnose-net-memory-issues-in-production.aspx) on the Visual Studio ALM + Team Foundation Server blog .  
   
 ##  <a name="BKMK_Contents"></a> Contents  
  [Memory use in .NET Framework apps](#BKMK_Memory_use_in__NET_Framework_apps)  
@@ -62,32 +62,32 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  **To collect a dump from Visual Studio**  
   
-1.  You can create a dump file for a process that was started from a Visual Studio project, or you can attach the debugger to a running process. See [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
+1. You can create a dump file for a process that was started from a Visual Studio project, or you can attach the debugger to a running process. See [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
-2.  Stop execution. The debugger stops when you choose **Break All** on the **Debug** menu, or at an exception or at a breakpoint  
+2. Stop execution. The debugger stops when you choose **Break All** on the **Debug** menu, or at an exception or at a breakpoint  
   
-3.  On the **Debug** menu, choose **Save Dump As**. In the **Save Dump As** dialog box, specify a location and make sure that **Minidump with Heap** (the default) is selected in the **Save as type** list.  
+3. On the **Debug** menu, choose **Save Dump As**. In the **Save Dump As** dialog box, specify a location and make sure that **Minidump with Heap** (the default) is selected in the **Save as type** list.  
   
- **To compare two memory snapshots**  
+   **To compare two memory snapshots**  
   
- To analyze the growth in memory use of an app, collect two dump files from a single instance of the app.  
+   To analyze the growth in memory use of an app, collect two dump files from a single instance of the app.  
   
- ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Analyze_memory_use"></a> Analyze memory use  
  [Filter the list of objects](#BKMK_Filter_the_list_of_objects) **&#124;** [Analyze memory data in from a single snapshot](#BKMK_Analyze_memory_data_in_from_a_single_snapshot) **&#124;** [Compare two memory snapshots](#BKMK_Compare_two_memory_snapshots)  
   
  To analyze a dump file for memory use issues:  
   
-1.  In Visual Studio, choose **File**, **Open** and specify the dump file.  
+1. In Visual Studio, choose **File**, **Open** and specify the dump file.  
   
-2.  On the **Minidump File Summary** page, choose **Debug Managed Memory**.  
+2. On the **Minidump File Summary** page, choose **Debug Managed Memory**.  
   
-     ![Dump file summary page](../misc/media/mngdmem-dumpfilesummary.png "MNGDMEM_DumpFileSummary")  
+    ![Dump file summary page](../misc/media/mngdmem-dumpfilesummary.png "MNGDMEM_DumpFileSummary")  
   
- The memory analyzer starts a debug session to analyze the file and displays the results in the Heap View page:  
+   The memory analyzer starts a debug session to analyze the file and displays the results in the Heap View page:  
   
- ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_Filter_the_list_of_objects"></a> Filter the list of objects  
  By default, the memory analyzer filters the list of objects in a memory snapshot to show only the types and instances that are user code, and to show only those types whose total inclusive size exceed a threshold percentage of the total heap size. You can change these options in the **View Settings** list:  
@@ -111,28 +111,28 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
 #### Object Type table  
  The top table lists the types of objects that are held in memory.  
   
--   **Count** shows the number of instances of the type in the snapshot.  
+- **Count** shows the number of instances of the type in the snapshot.  
   
--   **Size (Bytes)** is the size of the all instances of the type, excluding the size of objects it holds references to. The  
+- **Size (Bytes)** is the size of the all instances of the type, excluding the size of objects it holds references to. The  
   
--   **Inclusive Size (Bytes)** includes the sizes of referenced objects.  
+- **Inclusive Size (Bytes)** includes the sizes of referenced objects.  
   
- You can choose the instances icon (![The instance icon in the Object Type column](../misc/media/dbg-mma-instancesicon.png "DBG_MMA_InstancesIcon")) in the **Object Type** column to view a list of the instances of the type.  
+  You can choose the instances icon (![The instance icon in the Object Type column](../misc/media/dbg-mma-instancesicon.png "DBG_MMA_InstancesIcon")) in the **Object Type** column to view a list of the instances of the type.  
   
 #### Instance table  
  ![Instances table](../misc/media/dbg-mma-instancestable.png "DBG_MMA_InstancesTable")  
   
--   **Instance** is the memory location of the object that serves as the object identifier of the object  
+- **Instance** is the memory location of the object that serves as the object identifier of the object  
   
--   **Value** shows the actual value of value types. You can hover over the name of a reference type to view its data values in a data tip.  
+- **Value** shows the actual value of value types. You can hover over the name of a reference type to view its data values in a data tip.  
   
-     ![Instance values in a data tip](../misc/media/dbg-mma-instancevaluesindatatip.png "DBG_MMA_InstanceValuesInDataTip")  
+   ![Instance values in a data tip](../misc/media/dbg-mma-instancevaluesindatatip.png "DBG_MMA_InstanceValuesInDataTip")  
   
--   **Size (Bytes)** is the size of the object, excluding the size of objects it holds references to. The  
+- **Size (Bytes)** is the size of the object, excluding the size of objects it holds references to. The  
   
--   **Inclusive Size (Bytes)** includes the sizes of referenced objects.  
+- **Inclusive Size (Bytes)** includes the sizes of referenced objects.  
   
- By default, types and instances are sorted by **Inclusive Size (Bytes)**. Choose a column header in the list to change the sort order.  
+  By default, types and instances are sorted by **Inclusive Size (Bytes)**. Choose a column header in the list to change the sort order.  
   
 #### Paths to Root  
   
@@ -142,17 +142,17 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
 #### Referenced Types / Referenced Objects  
   
--   For a type selected from the **Object Type** table, the **Referenced Types** tab shows the size and number of referenced types held by all objects of the selected type.  
+- For a type selected from the **Object Type** table, the **Referenced Types** tab shows the size and number of referenced types held by all objects of the selected type.  
   
--   For a selected instance of a type, **Referenced Objects** shows the objects that are held by the selected instance. You can hover over the name to view its data values in a data tip.  
+- For a selected instance of a type, **Referenced Objects** shows the objects that are held by the selected instance. You can hover over the name to view its data values in a data tip.  
   
- **Circular references**  
+  **Circular references**  
   
- An object can reference a second object that directly or indirectly holds a reference to the first object. When the memory analyzer encounters this situation, it stops expanding the reference path and adds a **[Cycle Detected]** annotation to the listing of the first object and stops.  
+  An object can reference a second object that directly or indirectly holds a reference to the first object. When the memory analyzer encounters this situation, it stops expanding the reference path and adds a **[Cycle Detected]** annotation to the listing of the first object and stops.  
   
- **Root types**  
+  **Root types**  
   
- The memory analyzer adds annotations to root objects that describe the kind of reference that is being held:  
+  The memory analyzer adds annotations to root objects that describe the kind of reference that is being held:  
   
 |Annotation|Description|  
 |----------------|-----------------|  
@@ -170,17 +170,17 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
 ###  <a name="BKMK_Compare_two_memory_snapshots"></a> Compare two memory snapshots  
  You can compare two dump files of a process to find objects that might be the cause of memory leaks. The interval between the collection of the first (earlier) and second (later) file should be large enough that the growth of the number of leaked objects is easily apparent. To compare the two files:  
   
-1.  Open the second dump file, and then choose **Debug Managed Memory** on the **Minidump File Summary** page.  
+1. Open the second dump file, and then choose **Debug Managed Memory** on the **Minidump File Summary** page.  
   
-2.  On the memory analysis report page, open the **Select baseline** list, and then choose **Browse** to specify the first dump file.  
+2. On the memory analysis report page, open the **Select baseline** list, and then choose **Browse** to specify the first dump file.  
   
- The analyzer adds columns to the top pane of the report that display the difference between the **Count**, **Size**, and **Inclusive Size** of the types to those values in the earlier snapshot.  
+   The analyzer adds columns to the top pane of the report that display the difference between the **Count**, **Size**, and **Inclusive Size** of the types to those values in the earlier snapshot.  
   
- ![Diff columns in the type list](../misc/media/mngdmem-diffcolumns.png "MNGDMEM_DiffColumns")  
+   ![Diff columns in the type list](../misc/media/mngdmem-diffcolumns.png "MNGDMEM_DiffColumns")  
   
- A **Reference Count Diff** column is also added to the **Paths to Root** table.  
+   A **Reference Count Diff** column is also added to the **Paths to Root** table.  
   
- ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ## See Also  
  [VS ALM TFS Blog: Using Visual Studio 2013 to Diagnose .NET Memory Issues in Production](http://blogs.msdn.com/b/visualstudioalm/archive/2013/06/20/using-visual-studio-2013-to-diagnose-net-memory-issues-in-production.aspx)   

@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgram2::EnumThreads | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProgram2::EnumThreads
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram2::EnumThreads](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram2-enumthreads).  
-  
 Retrieves a list of the threads that are running in the program.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT EnumThreads(   
-   IEnumDebugThreads2** ppEnum  
+   IEnumDebugThreads2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumThreads(   
-   out IEnumDebugThreads2 ppEnum  
+   out IEnumDebugThreads2 ppEnum  
 );  
 ```  
   

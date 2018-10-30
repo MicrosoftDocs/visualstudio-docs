@@ -1,7 +1,7 @@
 ---
 title: "How to: Change Fonts and Colors in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Change Fonts and Colors in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Change Fonts and Colors in Visual Studio](https://docs.microsoft.com/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio).  
-  
 You can customize the color of the IDE frame and tool windows in Visual Studio in several ways.  
   
 > [!TIP]

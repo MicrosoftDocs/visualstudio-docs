@@ -1,7 +1,7 @@
 ---
 title: "Using 3-D Assets in Your Game or App | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Using 3-D Assets in Your Game or App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Using 3-D Assets in Your Game or App](https://docs.microsoft.com/visualstudio/designers/using-3-d-assets-in-your-game-or-app).  
-  
 This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to process 3-D assets and include them in your builds.  
   
  After you use the tools in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to create 3-D assets, the next step is to use them in your app. But before you can use them, your assets have to be transformed into a format that DirectX can understand. To help you transform your assets, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides build customizations for each kind of asset that it can produce. To include the assets in your build, all you have to do is configure your project to use the build customizations, add the assets to your project, and configure the assets to use the correct build customization. After that, you can load the assets into your app and use them by creating and filling DirectX resources just like you would in any other DirectX app.  
@@ -53,18 +51,18 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 #### To add an asset to your build  
   
-1.  In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.  
+1. In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.  
   
-2.  Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.  
+2. Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.  
   
-3.  Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.  
+3. Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.  
   
-    > [!IMPORTANT]
-    >  By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
+   > [!IMPORTANT]
+   >  By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
   
-4.  Choose the **OK** button.  
+4. Choose the **OK** button.  
   
- Here are the three content pipeline item types and their associated source and output file types.  
+   Here are the three content pipeline item types and their associated source and output file types.  
   
 |Item Type|Source file types|Output file format|  
 |---------------|-----------------------|------------------------|  

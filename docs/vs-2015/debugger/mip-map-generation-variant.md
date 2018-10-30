@@ -1,7 +1,7 @@
 ---
 title: "Mip-map Generation Variant | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Mip-map Generation Variant
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Mip-map Generation Variant](https://docs.microsoft.com/visualstudio/debugger/graphics/mip-map-generation-variant).  
-  
 Enables mip-maps on textures that are not render targets.  
   
 ## Interpretation  
@@ -32,19 +30,19 @@ Enables mip-maps on textures that are not render targets.
 ## Remarks  
  Mip-map generation is forced on every call to `ID3D11Device::CreateTexture2D` that creates a source texture. Specifically, mip-map generation is forced when the D3D11_TEXTUR2D_DESC object passed in `pDesc` describes an unchanging shader resource; that is:  
   
--   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
+- The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
   
--   The Usage member is set to either D3D11_USAGE_DEFUALT or D3D11_USAGE_IMMUTABLE.  
+- The Usage member is set to either D3D11_USAGE_DEFUALT or D3D11_USAGE_IMMUTABLE.  
   
--   The CPUAccessFlags member is set to 0 (no CPU access).  
+- The CPUAccessFlags member is set to 0 (no CPU access).  
   
--   The SampleDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).  
+- The SampleDesc member has its Count member set to 1 (no Multi-Sample Anti-Aliasing (MSAA)).  
   
--   The MipLevels member is set to 1 (no existing mip-map).  
+- The MipLevels member is set to 1 (no existing mip-map).  
   
- When initial data is supplied by the application, the texture format must support automatic mip-map generation—as determined by D3D11_FORMAT_SUPPORT_MIP_AUTOGEN—unless the format is BC1, BC2, or BC3; otherwise, the texture is not modified and no mip-maps are generated when initial data is supplied.  
+  When initial data is supplied by the application, the texture format must support automatic mip-map generation—as determined by D3D11_FORMAT_SUPPORT_MIP_AUTOGEN—unless the format is BC1, BC2, or BC3; otherwise, the texture is not modified and no mip-maps are generated when initial data is supplied.  
   
- If mip-maps have been automatically generated for a texture, calls to `ID3D11Device::CreateShaderResourceView` are modified during playback to use the mip-chain during texture sampling.  
+  If mip-maps have been automatically generated for a texture, calls to `ID3D11Device::CreateShaderResourceView` are modified during playback to use the mip-chain during texture sampling.  
   
 ## Example  
  The **Mip-map Generation** variant can be reproduced by using code like this:  

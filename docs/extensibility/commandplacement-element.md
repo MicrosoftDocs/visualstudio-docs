@@ -56,10 +56,10 @@ The CommandPlacement element enables buttons, groups, and menus to be included i
   
 ```  
 <CommandPlacements>  
-  <CommandPlacement guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    priority="0x0300">  
-    <Parent guid="cmdGuidWidgetCommands" id="menuIDEditWidget"/>  
-  </CommandPlacement>  
+  <CommandPlacement guid="guidWidgetPackage" id="cmdidInsertOptions"  
+    priority="0x0300">  
+    <Parent guid="cmdGuidWidgetCommands" id="menuIDEditWidget"/>  
+  </CommandPlacement>  
 </CommandPlacements>  
 ```  
   

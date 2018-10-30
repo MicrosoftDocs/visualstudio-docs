@@ -23,13 +23,13 @@ Makes a program unavailable to be debugged.
   
 ```cpp  
 HRESULT UnpublishProgram(  
-   IUnknown* pDebuggeeInterface  
+   IUnknown* pDebuggeeInterface  
 );  
 ```  
   
 ```csharp  
 int UnpublishProgram(  
-   object pDebuggeeInterface  
+   object pDebuggeeInterface  
 );  
 ```  
   

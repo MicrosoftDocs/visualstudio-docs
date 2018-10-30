@@ -1,7 +1,7 @@
 ---
 title: "Multiple Categories Are Present | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Multiple Categories Are Present
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Multiple Categories Are Present](https://docs.microsoft.com/visualstudio/profiling/multiple-categories-are-present).  
-  
 A section that contains more than one kind of activity for a given time range is selected. Notice that two colors are displayed, one vertically stacked on the other. These colors represent just the top two most frequent activities in the given time range. The frequencies of these two activities are shown relative to one another as thirds or halves of the vertical bar. To see more detail, try zooming in on this section of the thread view.  
   
 ## See Also  

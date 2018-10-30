@@ -125,14 +125,14 @@
   - name: Debugger tips and tricks
     href: debugger-tips-and-tricks.md
     items:
-    - name: Attach to running processes with the Visual Studio debugger
+    - name: Attach to running processes with the debugger
       href: attach-to-running-processes-with-the-visual-studio-debugger.md
     - name: Debug at design time
       href: walkthrough-debugging-at-design-time.md
     - name: Debug using the Just-In-Time Debugger
       href: debug-using-the-just-in-time-debugger.md
       items:
-      - name: Respond to the Just-In-Time Debugger
+      - name: Disable the Just-In-Time Debugger
         href: just-in-time-debugging-in-visual-studio.md
   - name: Configure debugging
     items:
@@ -152,7 +152,7 @@
           href: how-to-write-a-run-time-error-reporting-function.md
         - name: Use run-time checks without the C Run-Time Library
           href: using-run-time-checks-without-the-c-run-time-library.md
-    - name: Specify symbol (.pdb) and source files in the Visual Studio debugger
+    - name: Specify symbol (.pdb) and source files in the debugger
       href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
     - name: Debug user code
       href: just-my-code.md
@@ -479,7 +479,7 @@
               href: allocation-hooks-and-c-run-time-memory-allocations.md
           - name: Report hook functions
             href: report-hook-functions.md
-        - name: Finding memory leaks using the CRT Library
+        - name: Find memory leaks with the CRT library
           href: finding-memory-leaks-using-the-crt-library.md
       - name: Debugging native code FAQs
         href: debugging-native-code-faqs.md

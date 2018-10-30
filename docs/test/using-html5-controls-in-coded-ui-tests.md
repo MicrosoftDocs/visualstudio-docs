@@ -32,7 +32,7 @@ Coded UI tests include support for some of the HTML5 controls that are included 
  ![HTML5 Audio control](../test/media/codedui_html5_audio.png)
 
 |Action|Recording|Generated Code|
-|------------|---------------|--------------------|
+|-|---------------|-|
 |**Play audio**<br /><br /> Directly from control, or from controls context menu.|Play \<name> Audio from 00:00:00|HtmlAudio.Play(TimeSpan)|
 |**Seek to a specific time in the audio**|Seek \<name> Audio to 00:01:48|HtmlAudio.Seek(TimeSpan)|
 |**Pause audio**<br /><br /> Directly from control, or from controls context menu.|Pause \<name> Audio at 00:01:53|HtmlAudio.Pause(TimeSpan)|
@@ -56,7 +56,7 @@ See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioEleme
  ![HTML5 Video control](../test/media/codedui_html5_video.png)
 
 |Action|Recording|Generated Code|
-|------------|---------------|--------------------|
+|-|---------------|-|
 |**Play video**<br /><br /> Directly from control, or from controls context menu.|Play \<name> Video  from 00:00:00|HtmlVideo.Play(TimeSpan)|
 |**Seek to a specific time in the video**|Seek \<name> Video to 00:01:48|HtmlVideo.Seek(TimeSpan)|
 |**Pause video**<br /><br /> Directly from control, or from controls context menu.|Pause \<name> Video at 00:01:53|HtmlVideo.Pause(TimeSpan)|

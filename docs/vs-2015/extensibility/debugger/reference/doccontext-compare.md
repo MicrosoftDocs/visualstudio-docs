@@ -1,7 +1,7 @@
 ---
 title: "DOCCONTEXT_COMPARE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,28 +21,26 @@ manager: "ghogen"
 # DOCCONTEXT_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DOCCONTEXT_COMPARE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/doccontext-compare).  
-  
 Specifies the criteria for comparing two document contexts.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_DOCCONTEXT_COMPARE {   
-   DOCCONTEXT_EQUAL         = 0x0001,  
-   DOCCONTEXT_LESS_THAN     = 0x0002,  
-   DOCCONTEXT_GREATER_THAN  = 0x0003,  
-   DOCCONTEXT_SAME_DOCUMENT = 0x0004  
+   DOCCONTEXT_EQUAL         = 0x0001,  
+   DOCCONTEXT_LESS_THAN     = 0x0002,  
+   DOCCONTEXT_GREATER_THAN  = 0x0003,  
+   DOCCONTEXT_SAME_DOCUMENT = 0x0004  
 };  
 typedef DWORD DOCCONTEXT_COMPARE;  
 ```  
   
 ```csharp  
 enum enum_DOCCONTEXT_COMPARE {   
-   DOCCONTEXT_EQUAL         = 0x0001,  
-   DOCCONTEXT_LESS_THAN     = 0x0002,  
-   DOCCONTEXT_GREATER_THAN  = 0x0003,  
-   DOCCONTEXT_SAME_DOCUMENT = 0x0004  
+   DOCCONTEXT_EQUAL         = 0x0001,  
+   DOCCONTEXT_LESS_THAN     = 0x0002,  
+   DOCCONTEXT_GREATER_THAN  = 0x0003,  
+   DOCCONTEXT_SAME_DOCUMENT = 0x0004  
 };  
 ```  
   

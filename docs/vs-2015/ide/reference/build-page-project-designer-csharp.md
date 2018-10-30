@@ -1,7 +1,7 @@
 ---
 title: "Build Page, Project Designer (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Build Page, Project Designer (C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Build Page, Project Designer (C#)](https://docs.microsoft.com/visualstudio/ide/reference/build-page-project-designer-csharp).  
-  
   
 Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to [!INCLUDE[csprcs](../../includes/csprcs-md.md)] projects only.  
   
@@ -68,17 +66,17 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
   
  This check box is available only if all of the following conditions are true:  
   
--   On the **Build Page**, the **Platform target** list is set to **Any CPU**.  
+- On the **Build Page**, the **Platform target** list is set to **Any CPU**.  
   
--   On the **Application Page**, the **Output type** list specifies that the project is an application.  
+- On the **Application Page**, the **Output type** list specifies that the project is an application.  
   
--   On the **Application Page**, the **Target framework** list specifies the .NET Framework 4.5.  
+- On the **Application Page**, the **Target framework** list specifies the .NET Framework 4.5.  
   
- **Allow unsafe code**  
- Allows code that uses the [unsafe](http://msdn.microsoft.com/library/7e818009-1c6e-4b9e-b769-3728a01586a0) keyword to compile. For more information, see [/unsafe (C# Compiler Options)](http://msdn.microsoft.com/library/fdb77ed9-da03-45bd-bb7f-250704da1bcc).  
+  **Allow unsafe code**  
+  Allows code that uses the [unsafe](http://msdn.microsoft.com/library/7e818009-1c6e-4b9e-b769-3728a01586a0) keyword to compile. For more information, see [/unsafe (C# Compiler Options)](http://msdn.microsoft.com/library/fdb77ed9-da03-45bd-bb7f-250704da1bcc).  
   
- **Optimize code**  
- Enable or disable optimizations performed by the compiler to make your output file smaller, faster, and more efficient. For more information, see [/optimize (C# Compiler Options)](http://msdn.microsoft.com/library/6dd5b6f2-cd1d-4593-a9f4-1c2ed9404ca0).  
+  **Optimize code**  
+  Enable or disable optimizations performed by the compiler to make your output file smaller, faster, and more efficient. For more information, see [/optimize (C# Compiler Options)](http://msdn.microsoft.com/library/6dd5b6f2-cd1d-4593-a9f4-1c2ed9404ca0).  
   
 ## Errors and Warnings  
  The following settings are used to configure the error and warning options for the build process.  

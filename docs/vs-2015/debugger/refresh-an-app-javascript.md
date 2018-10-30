@@ -1,7 +1,7 @@
 ---
 title: "Refresh an app (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # Refresh an app (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Refresh an app (JavaScript)](https://docs.microsoft.com/visualstudio/debugger/refresh-an-app-javascript).  
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  You can make changes to your code while you're debugging, and then refresh a Store app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for both Windows Store and Windows Phone Store apps.  

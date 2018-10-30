@@ -1,7 +1,7 @@
 ---
 title: "Find in Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,19 +30,17 @@ manager: "ghogen"
 # Find in Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Find in Files](https://docs.microsoft.com/visualstudio/ide/find-in-files).  
-  
 Find in Files** allows you to search a specified set of files. The matches found and actions taken are listed in the **Find Results** window selected in **Result options**.  
   
  You can use any of the following methods to display **Find in Files** in the **Find and Replace** window.  
   
 ### To display Find in Files  
   
-1.  On the menu bar, choose **Edit**, **Find and Replace**.  
+1. On the menu bar, choose **Edit**, **Find and Replace**.  
   
-2.  Choose **Find in Files**.  
+2. Choose **Find in Files**.  
   
- To cancel a Find operation, press CTRL + BREAK.  
+   To cancel a Find operation, press CTRL + BREAK.  
   
 > [!NOTE]
 >  The Find and Replace tool does not search directories with the `Hidden` or `System` attribute set.  

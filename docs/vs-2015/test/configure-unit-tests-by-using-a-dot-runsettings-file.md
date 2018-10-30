@@ -1,7 +1,7 @@
 ---
 title: "Configure unit tests by using a .runsettings file | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Configure unit tests by using a .runsettings file
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Configure unit tests by using a .runsettings file](https://docs.microsoft.com/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file).  
-  
 Unit tests in Visual Studio can be configured by using a *.runsettings file. (The file name doesn’t matter, provided you use the extension ‘.runsettings.’) For example, you can change the .NET Framework on which the tests will be run, the directory where test results are delivered, and the data collected during a test run.  
   
  If you don’t want to do any special configuration, you don’t need a *.runsettings file. The most frequent use is to customize [Code Coverage](../test/customizing-code-coverage-analysis.md).  
@@ -32,17 +30,17 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
   
 ## Customizing tests with a .runsettings file  
   
-1.  Add an XML file to your Visual Studio solution and rename it to test.runsettings. (The filename doesn’t matter, but the extension must be .runsettings.)  
+1. Add an XML file to your Visual Studio solution and rename it to test.runsettings. (The filename doesn’t matter, but the extension must be .runsettings.)  
   
-2.  Replace the file content with the [example](#example).  
+2. Replace the file content with the [example](#example).  
   
-     Edit it to your own needs.  
+    Edit it to your own needs.  
   
-3.  On the **Test** menu, choose **Test Settings**, **Select Test Settings File**.  
+3. On the **Test** menu, choose **Test Settings**, **Select Test Settings File**.  
   
- You can create more than one \*.runsettings file in your solution, and enable or disable them at different times by using the **Test Settings** menu.  
+   You can create more than one \*.runsettings file in your solution, and enable or disable them at different times by using the **Test Settings** menu.  
   
- ![Enabling a run settings file](../test/media/runsettings-1.png "RunSettings-1")  
+   ![Enabling a run settings file](../test/media/runsettings-1.png "RunSettings-1")  
   
 ##  <a name="example"></a> Copy this example .runsettings file  
  Here is a typical *.runsettings file. Each element of the file is optional, because every value has a default.  

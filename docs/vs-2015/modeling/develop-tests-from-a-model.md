@@ -1,7 +1,7 @@
 ---
 title: "Develop tests from a model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Develop tests from a model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Develop tests from a model](https://docs.microsoft.com/visualstudio/modeling/develop-tests-from-a-model).  
-  
 You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../includes/tcmext-md.md)], you can also maintain links between the models and the tests.  
   
  To see which versions of Visual Studio support these features, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -62,19 +60,19 @@ You can use requirements and architectural models to help you organize the tests
   
 ###### To link tests to a use case  
   
-1.  In [!INCLUDE[TCMlong](../includes/tcmlong-md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac).  
+1. In [!INCLUDE[TCMlong](../includes/tcmlong-md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac).  
   
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../includes/vststfsshort-md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../includes/esprfound-md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).  
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../includes/vststfsshort-md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../includes/esprfound-md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).  
   
-2.  Link the requirement work item to one or more use cases in your model.  
+2. Link the requirement work item to one or more use cases in your model.  
   
-     In a use case diagram, right-click a use case and then click **Link to Work Item**. For more information, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+    In a use case diagram, right-click a use case and then click **Link to Work Item**. For more information, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
   
-3.  Add to the test suite, test cases that verify the use cases.  
+3. Add to the test suite, test cases that verify the use cases.  
   
- Usually, each user story or requirement work item will link to several use cases in your model, and each use case will link to several user stories or requirements. This is because each user story or requirement covers a set of tasks that develop several use cases. For example, in an early iteration of your project, you might develop the basic user story in which a customer can choose items from a catalog and have them delivered. In a later iteration, the story might be that the user pays when completing the order, and the supplier receives the money after it sends the goods.  Each story adds a clause to the postcondition of the Order Goods use case.  
+   Usually, each user story or requirement work item will link to several use cases in your model, and each use case will link to several user stories or requirements. This is because each user story or requirement covers a set of tasks that develop several use cases. For example, in an early iteration of your project, you might develop the basic user story in which a customer can choose items from a catalog and have them delivered. In a later iteration, the story might be that the user pays when completing the order, and the supplier receives the money after it sends the goods.  Each story adds a clause to the postcondition of the Order Goods use case.  
   
- You can create separate links from requirements to the clauses of the postcondition by writing those clauses in separate comments on the use case diagram. You can link each comment to a requirement work item, and link the comment to the use case on the diagram.  
+   You can create separate links from requirements to the clauses of the postcondition by writing those clauses in separate comments on the use case diagram. You can link each comment to a requirement work item, and link the comment to the use case on the diagram.  
   
 ### Base Tests on the Requirements Types  
  The types, that is, the classes, interfaces and enumerations, of a requirements model describe the concepts and relationships in terms of how users think and communicate about their business. It excludes types concerned only with the internal design of the system.  

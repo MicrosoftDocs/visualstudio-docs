@@ -1,7 +1,7 @@
 ---
 title: "IDebugField::GetKind | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugField::GetKind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::GetKind](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-getkind).  
-  
 This method gets the kind of field.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetKind(   
-   FIELD_KIND* pdwKind  
+   FIELD_KIND* pdwKind  
 );  
 ```  
   
 ```csharp  
 int GetKind(  
-   out enum_FIELD_KIND pdwKind  
+   out enum_FIELD_KIND pdwKind  
 );  
 ```  
   

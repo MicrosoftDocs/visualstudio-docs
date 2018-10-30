@@ -1,7 +1,7 @@
 ---
 title: "Deploying a Custom Directive Processor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,32 +18,30 @@ manager: "douge"
 # Deploying a Custom Directive Processor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Deploying a Custom Directive Processor](https://docs.microsoft.com/visualstudio/modeling/deploying-a-custom-directive-processor).  
-  
 To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on any computer, you must register it by one of the methods described in this topic.  
   
  The alternative methods are:  
   
--   [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
+- [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
   
--   [VSPackage](../extensibility/internals/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.  
+- [VSPackage](../extensibility/internals/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.  
   
--   Set a registry key. In this method, you add a registry entry for the directive processor.  
+- Set a registry key. In this method, you add a registry entry for the directive processor.  
   
- You need to use one of these methods only if you want to transform your text template in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] or [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
+  You need to use one of these methods only if you want to transform your text template in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] or [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
   
 ## Deploying a Directive Processor in a VSIX  
  You can add a custom directive processor to a [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832).  
   
  You need to make sure that the following two items are contained in the .vsix file:  
   
--   The assembly (.dll) that contains the custom directive processor class.  
+- The assembly (.dll) that contains the custom directive processor class.  
   
--   A .pkgdef file that registers the directive processor. The root name of the file must be the same as the assembly. For example, your files could be named CDP.dll and CDP.pkgdef.  
+- A .pkgdef file that registers the directive processor. The root name of the file must be the same as the assembly. For example, your files could be named CDP.dll and CDP.pkgdef.  
   
- To inspect or change the content of a .vsix file, change its file name extension to .zip and then open it. After editing the contents, change the filename back to .vsix.  
+  To inspect or change the content of a .vsix file, change its file name extension to .zip and then open it. After editing the contents, change the filename back to .vsix.  
   
- There are several ways of creating a .vsix file. The following procedure describes one method.  
+  There are several ways of creating a .vsix file. The following procedure describes one method.  
   
 #### To develop a custom directive processor in a VSIX project  
   
@@ -163,27 +161,27 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 #### To register a directive processor by setting a registry key  
   
-1.  Run `regedit`.  
+1. Run `regedit`.  
   
-2.  In regedit, navigate to  
+2. In regedit, navigate to  
   
-     **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\*.0\TextTemplating\DirectiveProcessors**  
+    **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\*.0\TextTemplating\DirectiveProcessors**  
   
-     If you want to install the directive processor in the experimental version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], insert "Exp" after "11.0".  
+    If you want to install the directive processor in the experimental version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], insert "Exp" after "11.0".  
   
-3.  Add a registry key that has the same name as the directive processor class.  
+3. Add a registry key that has the same name as the directive processor class.  
   
-    -   In the registry tree, right-click the **DirectiveProcessors** node, point to **New**, and then click **Key**.  
+   -   In the registry tree, right-click the **DirectiveProcessors** node, point to **New**, and then click **Key**.  
   
-4.  In the new node, add string values for Class and CodeBase or Assembly, according to the following tables.  
+4. In the new node, add string values for Class and CodeBase or Assembly, according to the following tables.  
   
-    1.  Right-click the node that you created, point to **New**, and then click **String Value**.  
+   1.  Right-click the node that you created, point to **New**, and then click **String Value**.  
   
-    2.  Edit the name of the value.  
+   2.  Edit the name of the value.  
   
-    3.  Double-click the name and edit the data.  
+   3.  Double-click the name and edit the data.  
   
- If the custom directive processor is not in the GAC, the registry subkeys should look like the following table:  
+   If the custom directive processor is not in the GAC, the registry subkeys should look like the following table:  
   
 |Name|Type|Data|  
 |----------|----------|----------|  

@@ -1,7 +1,7 @@
 ---
 title: "MODULE_INFO_FIELDS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,46 +21,44 @@ manager: "ghogen"
 # MODULE_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MODULE_INFO_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/module-info-fields).  
-  
 Specifies the flags for the debug module information.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_MODULE_INFO_FIELDS {   
-   MIF_NONE              = 0x0000,  
-   MIF_NAME              = 0x0001,  
-   MIF_URL               = 0x0002,  
-   MIF_VERSION           = 0x0004,  
-   MIF_DEBUGMESSAGE      = 0x0008,  
-   MIF_LOADADDRESS       = 0x0010,  
-   MIF_PREFFEREDADDRESS  = 0x0020,  
-   MIF_SIZE              = 0x0040,  
-   MIF_LOADORDER         = 0x0080,  
-   MIF_TIMESTAMP         = 0x0100,  
-   MIF_URLSYMBOLLOCATION = 0x0200,  
-   MIF_FLAGS             = 0x0400,  
-   MIF_ALLFIELDS         = 0x07ff  
+   MIF_NONE              = 0x0000,  
+   MIF_NAME              = 0x0001,  
+   MIF_URL               = 0x0002,  
+   MIF_VERSION           = 0x0004,  
+   MIF_DEBUGMESSAGE      = 0x0008,  
+   MIF_LOADADDRESS       = 0x0010,  
+   MIF_PREFFEREDADDRESS  = 0x0020,  
+   MIF_SIZE              = 0x0040,  
+   MIF_LOADORDER         = 0x0080,  
+   MIF_TIMESTAMP         = 0x0100,  
+   MIF_URLSYMBOLLOCATION = 0x0200,  
+   MIF_FLAGS             = 0x0400,  
+   MIF_ALLFIELDS         = 0x07ff  
 };  
 typedef DWORD MODULE_INFO_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_MODULE_INFO_FIELDS {   
-   MIF_NONE              = 0x0000,  
-   MIF_NAME              = 0x0001,  
-   MIF_URL               = 0x0002,  
-   MIF_VERSION           = 0x0004,  
-   MIF_DEBUGMESSAGE      = 0x0008,  
-   MIF_LOADADDRESS       = 0x0010,  
-   MIF_PREFFEREDADDRESS  = 0x0020,  
-   MIF_SIZE              = 0x0040,  
-   MIF_LOADORDER         = 0x0080,  
-   MIF_TIMESTAMP         = 0x0100,  
-   MIF_URLSYMBOLLOCATION = 0x0200,  
-   MIF_FLAGS             = 0x0400,  
-   MIF_ALLFIELDS         = 0x07ff  
+   MIF_NONE              = 0x0000,  
+   MIF_NAME              = 0x0001,  
+   MIF_URL               = 0x0002,  
+   MIF_VERSION           = 0x0004,  
+   MIF_DEBUGMESSAGE      = 0x0008,  
+   MIF_LOADADDRESS       = 0x0010,  
+   MIF_PREFFEREDADDRESS  = 0x0020,  
+   MIF_SIZE              = 0x0040,  
+   MIF_LOADORDER         = 0x0080,  
+   MIF_TIMESTAMP         = 0x0100,  
+   MIF_URLSYMBOLLOCATION = 0x0200,  
+   MIF_FLAGS             = 0x0400,  
+   MIF_ALLFIELDS         = 0x07ff  
 };  
 ```  
   

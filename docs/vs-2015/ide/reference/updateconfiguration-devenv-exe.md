@@ -1,7 +1,7 @@
 ---
 title: "-Updateconfiguration (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # /Updateconfiguration (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [-Updateconfiguration (devenv.exe)](https://docs.microsoft.com/visualstudio/ide/reference/updateconfiguration-devenv-exe).  
-  
   
 Notifies [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to merge the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] packages on the system and check the MEF cache for any changes.  
   

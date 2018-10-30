@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpressionEvaluationCompleteEvent2::GetExpression | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugExpressionEvaluationCompleteEvent2::GetExpression
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluationCompleteEvent2::GetExpression](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getexpression).  
-  
 Gets the original expression.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetExpression(   
-   IDebugExpression2** ppExpr  
+   IDebugExpression2** ppExpr  
 );  
 ```  
   
 ```csharp  
 int GetExpression(   
-   out IDebugExpression2 ppExpr  
+   out IDebugExpression2 ppExpr  
 );  
 ```  
   

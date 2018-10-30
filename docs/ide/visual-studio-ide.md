@@ -1,6 +1,6 @@
 ---
 title: Overview of Visual Studio 2017
-ms.date: 06/01/2018
+ms.date: 10/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -18,9 +18,11 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
-Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps.
+Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2017.
 
-This overview article focuses on Visual Studio 2017 for Windows. It introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
+There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
+
+This overview article introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
 
 ## Install the Visual Studio IDE
 
@@ -88,11 +90,11 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 - [Go To Definition](../ide/go-to-and-peek-definition.md)
 
-  The Go To Definition feature takes you directly to the location where a function or type is defined.
+   The Go To Definition feature takes you directly to the location where a function or type is defined.
 
    ![Go to Definition](../ide/media/go-to-definition-menu.png)
 
-- [Peek To Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
+- [Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 
    The **Peek Definition** window shows the definition of a method or type without actually opening a separate file.
 
@@ -106,14 +108,14 @@ Let's dive in and create a new, simple program.
 
    ![File > New Project on menu bar](../ide/media/file-new-project-menu.png)
 
-1. The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type. Choose the **.NET Core** category under **Visual C#**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
+2. The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type. Choose the **.NET Core** category under **Visual C#**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
 
    ![.NET Core app template](../ide/media/overview-new-project-dialog.png)
 
    Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 
-  > [!NOTE]
-  > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After Visual Studio Installer opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
+   > [!NOTE]
+   > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After Visual Studio Installer opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
 
    Shortly, you should see something like the following:
 
@@ -121,21 +123,21 @@ Let's dive in and create a new, simple program.
 
    The C# code for your application shows in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different parts of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter. The project files are listed on the right side in a window called **Solution Explorer**.
 
-  ![Visual Studio IDE with red boxes](../ide/media/overview-ide-console-app-red-boxes.png)
+   ![Visual Studio IDE with red boxes](../ide/media/overview-ide-console-app-red-boxes.png)
 
-  There are other menus and tool windows available, but let's move on for now.
+   There are other menus and tool windows available, but let's move on for now.
 
-1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
+3. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
 
-  ![Debug > Start without debugging menu](../ide/media/overview-start-without-debugging.png)
+   ![Debug > Start without debugging menu](../ide/media/overview-start-without-debugging.png)
 
-  Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
+   Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-  ![Console window](../ide/media/overview-console-window.png)
+   ![Console window](../ide/media/overview-console-window.png)
 
-1. To close the console window, press any key on your keyboard.
+4. To close the console window, press any key on your keyboard.
 
-1. Let's add some additional code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
+5. Let's add some additional code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
 
    ```csharp
    Console.WriteLine("\nWhat is your name?");
@@ -144,21 +146,21 @@ Let's dive in and create a new, simple program.
 
    This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
 
-1. Change the line that says `Console.WriteLine("Hello World!");` to the following code:
+6. Change the line that says `Console.WriteLine("Hello World!");` to the following code:
 
    ```csharp
    Console.WriteLine($"\nHello {name}!");
    ```
 
-1. Run the app again by selecting **Debug** > **Start Without Debugging** or by pressing **Ctrl**+**F5**.
+7. Run the app again by selecting **Debug** > **Start Without Debugging** or by pressing **Ctrl**+**F5**.
 
    Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
 
-1. Enter your name in the console window and press **Enter**.
+8. Enter your name in the console window and press **Enter**.
 
    ![Console window input](media/overview-console-input.png)
 
-1. Press any key to close the console window and stop the running program.
+9. Press any key to close the console window and stop the running program.
 
 ## Use refactoring and IntelliSense
 
@@ -168,11 +170,11 @@ First, let's rename the `name` variable:
 
 1. Double-click the `name` variable to select it.
 
-1. Type in the new name for the variable, **username**.
+2. Type in the new name for the variable, **username**.
 
    Notice that a gray box appears around the variable, and a light bulb appears in the margin.
 
-1. Select the light bulb icon to show the available [Quick Actions](quick-actions.md). Select **Rename 'name' to 'username'**.
+3. Select the light bulb icon to show the available [Quick Actions](quick-actions.md). Select **Rename 'name' to 'username'**.
 
    ![Rename action in Visual Studio](media/rename-quick-action.png)
 
@@ -180,15 +182,15 @@ First, let's rename the `name` variable:
 
    ![Animated gif showing rename refactoring in Visual Studio](media/rename-refactoring.gif)
 
-1. Now let's take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **DateTime now = DateTime.**.
+4. Now let's take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **DateTime now = DateTime.**.
 
    A box displays the members of the <xref:System.DateTime> class. In addition, the description of the currently selected member displays in a separate box.
 
    ![IntelliSense list members in Visual Studio](media/intellisense-list-members.png)
 
-1. Select the member named **Now**, which is a property of the class, by double-clicking on it or pressing **Tab**. Complete the line of code by adding a semi-colon **;**.
+5. Select the member named **Now**, which is a property of the class, by double-clicking on it or pressing **Tab**. Complete the line of code by adding a semi-colon **;**.
 
-1. Below that, type in or copy the following lines of code:
+6. Below that, type in or copy the following lines of code:
 
    ```csharp
    int dayOfYear = now.DayOfYear;
@@ -200,17 +202,17 @@ First, let's rename the `name` variable:
    > [!TIP]
    > <xref:System.Console.Write%2A?displayProperty=nameWithType> is a little different to <xref:System.Console.WriteLine%2A?displayProperty=nameWithType> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see their description.
 
-1. Next, we'll use refactoring again to make the code a little more concise. Click on the variable `now` in the line `DateTime now = DateTime.Now;`.
+7. Next, we'll use refactoring again to make the code a little more concise. Click on the variable `now` in the line `DateTime now = DateTime.Now;`.
 
    Notice that a little screwdriver icon appears in the margin on that line.
 
-1. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
+8. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
 
    ![Inline temporary variable refactoring in Visual Studio](media/inline-temporary-variable-refactoring.png)
 
-1. Click **Inline temporary variable** to refactor the code.
+9. Click **Inline temporary variable** to refactor the code.
 
-1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
+10. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
    ![Console window with program output](../ide/media/overview-console-final.png)
 
@@ -246,7 +248,7 @@ You can personalize the Visual Studio user interface, including change the defau
 
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+2. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
    The color theme for the entire IDE changes to **Dark**.
 

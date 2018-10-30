@@ -1,7 +1,7 @@
 ---
 title: "Validate code with layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,31 +28,29 @@ manager: "douge"
 # Validate code with layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Validate code with dependency diagrams](https://docs.microsoft.com/visualstudio/modeling/validate-code-with-layer-diagrams).  
-  
 To make sure that code doesn't conflict with its design, validate your code with layer diagrams in Visual Studio. This can help you:  
   
--   Find conflicts between dependencies in your code and dependencies on the layer diagram.  
+- Find conflicts between dependencies in your code and dependencies on the layer diagram.  
   
--   Find dependencies that might be affected by proposed changes.  
+- Find dependencies that might be affected by proposed changes.  
   
-     For example, you can edit the layer diagram to show potential architecture changes and then validate the code to see the affected dependencies.  
+   For example, you can edit the layer diagram to show potential architecture changes and then validate the code to see the affected dependencies.  
   
--   Refactor or migrate code to a different design.  
+- Refactor or migrate code to a different design.  
   
-     Find code or dependencies that require work when you move the code to a different architecture.  
+   Find code or dependencies that require work when you move the code to a different architecture.  
   
- **Requirements**  
+  **Requirements**  
   
--   Visual Studio  
+- Visual Studio  
   
--   Visual Studio on your Team Foundation Build server to validate code automatically with Team Foundation Build  
+- Visual Studio on your Team Foundation Build server to validate code automatically with Team Foundation Build  
   
--   A solution that has a modeling project with a layer diagram. This layer diagram must be linked to artifacts in Visual C# .NET or Visual Basic .NET projects that you want to validate. See [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).  
+- A solution that has a modeling project with a layer diagram. This layer diagram must be linked to artifacts in Visual C# .NET or Visual Basic .NET projects that you want to validate. See [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).  
   
- To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
+  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
- You can validate code manually from an open layer diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Team Foundation Build. See [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).  
+  You can validate code manually from an open layer diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Team Foundation Build. See [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).  
   
 > [!IMPORTANT]
 >  If you want to run layer validation with Team Foundation Build, you must also install the same version of Visual Studio on your build server.  
@@ -104,41 +102,41 @@ To make sure that code doesn't conflict with its design, validate your code with
   
 #### To validate code at the command prompt  
   
-1.  Open the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] command prompt.  
+1. Open the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] command prompt.  
   
-2.  Choose one of the following:  
+2. Choose one of the following:  
   
-    -   To validate code against a specific modeling project in the solution, run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] with the following custom property.  
+   - To validate code against a specific modeling project in the solution, run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] with the following custom property.  
   
-        ```  
-        msbuild <FilePath+ModelProjectFileName>.modelproj /p:ValidateArchitecture=true  
-        ```  
+     ```  
+     msbuild <FilePath+ModelProjectFileName>.modelproj /p:ValidateArchitecture=true  
+     ```  
   
-         - or -  
+     - or -  
   
-         Browse to the folder that contains the modeling project (.modelproj) file and the layer diagram and then run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] with the following custom property:  
+       Browse to the folder that contains the modeling project (.modelproj) file and the layer diagram and then run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] with the following custom property:  
   
-        ```  
-        msbuild /p:ValidateArchitecture=true   
-        ```  
+     ```  
+     msbuild /p:ValidateArchitecture=true   
+     ```  
   
-    -   To validate code against all modeling projects in the solution, run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] with the following custom property:  
+   - To validate code against all modeling projects in the solution, run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] with the following custom property:  
   
-        ```  
-        msbuild <FilePath+SolutionName>.sln /p:ValidateArchitecture=true   
-        ```  
+     ```  
+     msbuild <FilePath+SolutionName>.sln /p:ValidateArchitecture=true   
+     ```  
   
-         - or -  
+     - or -  
   
-         Browse to the solution folder, which must contain a modeling project that contains a layer diagram, and then run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] with the following custom property:  
+       Browse to the solution folder, which must contain a modeling project that contains a layer diagram, and then run [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] with the following custom property:  
   
-        ```  
-        msbuild /p:ValidateArchitecture=true  
-        ```  
+     ```  
+     msbuild /p:ValidateArchitecture=true  
+     ```  
   
      Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], see [MSBuild](../msbuild/msbuild.md) and [MSBuild Task](../msbuild/msbuild-task.md).  
   
- For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
+   For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   
 ###  <a name="ManageErrors"></a> Manage validation errors  
  During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../includes/esprfound-md.md)].  
@@ -148,9 +146,9 @@ To make sure that code doesn't conflict with its design, validate your code with
   
 ##### To create a work item for a validation error  
   
--   In the **Error List** window, right-click the error, point to **Create Work Item**, and then click the type of work item that you want to create.  
+- In the **Error List** window, right-click the error, point to **Create Work Item**, and then click the type of work item that you want to create.  
   
- Use these tasks to manage validation errors in the **Error List** window:  
+  Use these tasks to manage validation errors in the **Error List** window:  
   
 |**To**|**Follow these steps**|  
 |------------|----------------------------|  
@@ -172,29 +170,29 @@ To make sure that code doesn't conflict with its design, validate your code with
   
  \- or -  
   
-1.  In **Solution Explorer**, right-click the modeling project that contains the layer diagram or diagrams, and then click **Properties**.  
+1. In **Solution Explorer**, right-click the modeling project that contains the layer diagram or diagrams, and then click **Properties**.  
   
-2.  In the **Properties** window, set the modeling project's **Validate Architecture** property to **True**.  
+2. In the **Properties** window, set the modeling project's **Validate Architecture** property to **True**.  
   
-     This includes the modeling project in the validation process.  
+    This includes the modeling project in the validation process.  
   
-3.  In **Solution Explorer**, click the layer diagram (.layerdiagram) file that you want to use for validation.  
+3. In **Solution Explorer**, click the layer diagram (.layerdiagram) file that you want to use for validation.  
   
-4.  In the **Properties** window, make sure that the diagram's **Build Action** property is set to **Validate**.  
+4. In the **Properties** window, make sure that the diagram's **Build Action** property is set to **Validate**.  
   
-     This includes the layer diagram in the validation process.  
+    This includes the layer diagram in the validation process.  
   
- To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).  
+   To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).  
   
 #### To validate code automatically during a Team Foundation Build  
   
-1.  In **Team Explorer**, double-click the build definition, and then click **Process**.  
+1. In **Team Explorer**, double-click the build definition, and then click **Process**.  
   
-2.  Under **Build process parameters**, expand **Compilation**, and type the following in the **MSBuild Arguments** parameter:  
+2. Under **Build process parameters**, expand **Compilation**, and type the following in the **MSBuild Arguments** parameter:  
   
-     `/p:ValidateArchitecture=true`  
+    `/p:ValidateArchitecture=true`  
   
- For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../includes/esprbuild-md.md)], see:  
+   For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../includes/esprbuild-md.md)], see:  
   
 -   [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
@@ -216,13 +214,13 @@ To make sure that code doesn't conflict with its design, validate your code with
 ##  <a name="UnderstandingValidationErrors"></a> Understanding and Resolving Layer Validation Errors  
  When you validate code against a layer diagram, validation errors occur when the code conflicts with the design. For example, the following conditions might cause validation errors to occur:  
   
--   An artifact is assigned to the wrong layer. In this case, move the artifact.  
+- An artifact is assigned to the wrong layer. In this case, move the artifact.  
   
--   An artifact, such as a class, uses another class in a way that conflicts with your architecture. In this case, refactor the code to remove the dependency.  
+- An artifact, such as a class, uses another class in a way that conflicts with your architecture. In this case, refactor the code to remove the dependency.  
   
- To resolve these errors, update the code until no more errors appear during validation. You can perform this task in an iterative manner.  
+  To resolve these errors, update the code until no more errors appear during validation. You can perform this task in an iterative manner.  
   
- The following section describes the syntax that is used in these errors, explains the meaning of these errors, and suggests what you can do to resolve or manage them.  
+  The following section describes the syntax that is used in these errors, explains the meaning of these errors, and suggests what you can do to resolve or manage them.  
   
 |**Syntax**|**Description**|  
 |----------------|---------------------|  

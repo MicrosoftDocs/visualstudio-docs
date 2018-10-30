@@ -22,7 +22,7 @@ This function retrieves a flag indicating whether the function was marked as inl
   
 ```C++  
 HRESULT get_inlSpec(  
-   BOOL *pRetVal  
+   BOOL *pRetVal  
 );  
 ```  
   

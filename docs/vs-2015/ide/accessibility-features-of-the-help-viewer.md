@@ -1,7 +1,7 @@
 ---
 title: "Accessibility Features of the Help Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Accessibility Features of the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessibility Features of the Help Viewer](https://docs.microsoft.com/visualstudio/ide/accessibility-features-of-the-help-viewer).  
-  
 Microsoft is committed to making its products and services easier for everyone to use. This topic includes information about the features, products, and services that help make Microsoft Help Viewer 2.2 accessible for people with a wide range of abilities.  
   
 ## Keyboard access  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Find the Name of the ASP.NET Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,17 +26,15 @@ manager: "ghogen"
 # How to: Find the Name of the ASP.NET Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Find the Name of the ASP.NET Process](https://docs.microsoft.com/visualstudio/debugger/how-to-find-the-name-of-the-aspnet-process).  
-  
 To attach to a running [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application, you have to know the name of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process:  
   
--   If you are running IIS 6.0 or IIS 7.0, the name is w3wp.exe.  
+- If you are running IIS 6.0 or IIS 7.0, the name is w3wp.exe.  
   
--   If you are running an earlier version of IIS, the name is aspnet_wp.exe.  
+- If you are running an earlier version of IIS, the name is aspnet_wp.exe.  
   
- For applications built by using [!INCLUDE[vsprvslong](../includes/vsprvslong-md.md)] or later versions, the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code can reside on the file system and run under the test server WebDev.WebServer.exe. In that case, you must attach to WebDev.WebServer.exe instead of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process. This scenario applies only to local debugging.  
+  For applications built by using [!INCLUDE[vsprvslong](../includes/vsprvslong-md.md)] or later versions, the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code can reside on the file system and run under the test server WebDev.WebServer.exe. In that case, you must attach to WebDev.WebServer.exe instead of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process. This scenario applies only to local debugging.  
   
- Older ASP applications run inside the IIS process inetinfo.exe when they are running in-process.  
+  Older ASP applications run inside the IIS process inetinfo.exe when they are running in-process.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  

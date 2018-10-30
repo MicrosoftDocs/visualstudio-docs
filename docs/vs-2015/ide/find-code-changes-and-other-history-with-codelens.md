@@ -1,7 +1,7 @@
 ---
 title: "Find code changes and other history with CodeLens | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Find code changes and other history with CodeLens
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Find code changes and other history with CodeLens](https://docs.microsoft.com/visualstudio/ide/find-code-changes-and-other-history-with-codelens).  
-  
 Stay focused on your work while you find out what happened to your code - without leaving the editor. Find references and changes to your code, linked bugs, work items, code reviews, and unit tests.  
   
 > [!NOTE]
@@ -38,46 +36,46 @@ Stay focused on your work while you find out what happened to your code - withou
 ##  <a name="FindReferences"></a> Find references to your code  
  You'll need:  
   
--   Visual Studio Enterprise or Visual Studio Professional  
+- Visual Studio Enterprise or Visual Studio Professional  
   
--   Visual C# .NET or Visual Basic .NET code  
+- Visual C# .NET or Visual Basic .NET code  
   
- Choose the **references** indicator (**Alt + 2**). If you see **0 references**, you have no references from Visual C# or Visual Basic code. This doesn't include references from other items such as XAML and ASPX files.  
+  Choose the **references** indicator (**Alt + 2**). If you see **0 references**, you have no references from Visual C# or Visual Basic code. This doesn't include references from other items such as XAML and ASPX files.  
   
- ![CodeLens &#45; Choose references indicator](../ide/media/codelensviewreferenceslist.png "CodeLensViewReferencesList")  
+  ![CodeLens &#45; Choose references indicator](../ide/media/codelensviewreferenceslist.png "CodeLensViewReferencesList")  
   
- To view the referencing code, move your mouse on top of the reference.  
+  To view the referencing code, move your mouse on top of the reference.  
   
- ![CodeLens &#45; Peek reference](../ide/media/codelensviewreferencespeekreference.png "CodeLensViewReferencesPeekReference")  
+  ![CodeLens &#45; Peek reference](../ide/media/codelensviewreferencespeekreference.png "CodeLensViewReferencesPeekReference")  
   
- To open the file containing the reference, double-click the reference.  
+  To open the file containing the reference, double-click the reference.  
   
- To see relationships between this code and its references, [create a code map](../modeling/map-dependencies-across-your-solutions.md) and choose **Show All References** in the code map shortcut menu.  
+  To see relationships between this code and its references, [create a code map](../modeling/map-dependencies-across-your-solutions.md) and choose **Show All References** in the code map shortcut menu.  
   
- ![CodeLens &#45; References on code map](../ide/media/codelensmappedreferences.png "CodeLensMappedReferences")  
+  ![CodeLens &#45; References on code map](../ide/media/codelensmappedreferences.png "CodeLensMappedReferences")  
   
 ##  <a name="FindCodeHistory"></a> Find your code's history and linked items  
  Review your code's history to find out what happened to your code. Or, review changes before they're merged into your code so you can better understand how changes in other branches might affect your code.  
   
  You'll need:  
   
--   Visual Studio Enterprise or Visual Studio Professional  
+- Visual Studio Enterprise or Visual Studio Professional  
   
--   Team Foundation Server 2013 or later, Visual Studio Team Services, or Git  
+- Team Foundation Server 2013 or later, Visual Studio Team Services, or Git  
   
--   [Lync 2010 or later, or Skype for Business](http://technet.microsoft.com/lync), to contact your team from the code editor  
+- [Lync 2010 or later, or Skype for Business](http://technet.microsoft.com/lync), to contact your team from the code editor  
   
- For Visual C# .NET or Visual Basic .NET code that's stored with Team Foundation version control (TFVC) or Git, you get CodeLens details at the class and method levels (*code-element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.  
+  For Visual C# .NET or Visual Basic .NET code that's stored with Team Foundation version control (TFVC) or Git, you get CodeLens details at the class and method levels (*code-element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.  
   
- ![Code element&#45;level indicators](../ide/media/codelenselementlevelindicators.png "CodeLensElementLevelIndicators")  
+  ![Code element&#45;level indicators](../ide/media/codelenselementlevelindicators.png "CodeLensElementLevelIndicators")  
   
- For all other types of files that you can open in the Visual Studio editor, you get CodeLens details for the entire file in one place at the bottom of the window (*file-level* indicators).  
+  For all other types of files that you can open in the Visual Studio editor, you get CodeLens details for the entire file in one place at the bottom of the window (*file-level* indicators).  
   
- ![File&#45;level CodeLens indicators](../ide/media/almcodelensfilelevelindicators.png "ALMCodeLensFileLevelIndicators")  
+  ![File&#45;level CodeLens indicators](../ide/media/almcodelensfilelevelindicators.png "ALMCodeLensFileLevelIndicators")  
   
- To use the keyboard to select indicators, press and hold the **ALT** key to display the related number keys.  
+  To use the keyboard to select indicators, press and hold the **ALT** key to display the related number keys.  
   
- ![Press ALT to see the keyboard access numbers](../ide/media/codelensaltkeyindicators.png "CodeLensAltKeyIndicators")  
+  ![Press ALT to see the keyboard access numbers](../ide/media/codelensaltkeyindicators.png "CodeLensAltKeyIndicators")  
   
 ### Find changes in your code  
  Find who changed your C# or Visual Basic code, and the changes they made, in code-element-level indicators. This is what you see when you use Team Foundation version control (TFVC) in Team Foundation Server or Visual Studio Team Services.  
@@ -239,11 +237,11 @@ Stay focused on your work while you find out what happened to your code - withou
   
  **Which Lync and Skype configurations are supported?**  
   
--   Skype for Business (32-bit or 64-bit)  
+- Skype for Business (32-bit or 64-bit)  
   
--   Lync 2010 or later alone (32-bit or 64-bit), but not Lync Basic 2013 with Windows 8.1  
+- Lync 2010 or later alone (32-bit or 64-bit), but not Lync Basic 2013 with Windows 8.1  
   
- CodeLens doesn't support having different versions of Lync or Skype installed. They might not be localized for all localized versions of Visual Studio.  
+  CodeLens doesn't support having different versions of Lync or Skype installed. They might not be localized for all localized versions of Visual Studio.  
   
 ### Q: How do I change the font and color for CodeLens?  
  **A:** Go to **Tools**, **Options**, **Environment**, **Fonts and Colors**.  

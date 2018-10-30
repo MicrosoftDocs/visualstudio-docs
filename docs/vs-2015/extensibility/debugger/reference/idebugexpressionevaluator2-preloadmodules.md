@@ -1,7 +1,7 @@
 ---
 title: "IDebugExpressionEvaluator2::PreloadModules | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,21 +20,19 @@ manager: "ghogen"
 # IDebugExpressionEvaluator2::PreloadModules
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExpressionEvaluator2::PreloadModules](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexpressionevaluator2-preloadmodules).  
-  
 Preloads the modules designated by the specified symbol provider.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT PreloadModules (  
-   IDebugSymbolProvider* pSym  
+   IDebugSymbolProvider* pSym  
 );  
 ```  
   
 ```csharp  
 int PreloadModules (  
-   IDebugSymbolProvider pSym  
+   IDebugSymbolProvider pSym  
 );  
 ```  
   

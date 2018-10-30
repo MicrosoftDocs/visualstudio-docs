@@ -1,7 +1,7 @@
 ---
 title: "Understanding Instrumentation Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,43 +21,41 @@ manager: "ghogen"
 # Understanding Instrumentation Data Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Understanding Instrumentation Data Values](https://docs.microsoft.com/visualstudio/profiling/understanding-instrumentation-data-values).  
-  
 The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] records detailed timing information for the function calls, lines, and instructions in the profiled application  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- The instrumentation method injects code at the start and end of target functions in the profiled binary, and before and after each call by those functions to other functions. The injected code records the following:  
+  The instrumentation method injects code at the start and end of target functions in the profiled binary, and before and after each call by those functions to other functions. The injected code records the following:  
   
--   The interval between this collection event and the previous one.  
+- The interval between this collection event and the previous one.  
   
--   Whether the operating system has performed an operation during the interval. For example, the operating system might read or write to disk, or switch between the target thread and another thread in another process.  
+- Whether the operating system has performed an operation during the interval. For example, the operating system might read or write to disk, or switch between the target thread and another thread in another process.  
   
- **Requirements**  
+  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- For each interval, the profiler analysis reconstructs the call stack that was present at the end of the interval. A call stack is the list of functions that are active on a processor at a point in time. Only one function (the current function) is executing code; the other functions are the chain of function calls that resulted in the call to the current function (the call stack).  
+  For each interval, the profiler analysis reconstructs the call stack that was present at the end of the interval. A call stack is the list of functions that are active on a processor at a point in time. Only one function (the current function) is executing code; the other functions are the chain of function calls that resulted in the call to the current function (the call stack).  
   
- For each function on the call stack when the interval was recorded, the profiler analysis adds the interval to one or more of four data values for the function. The analysis adds the interval to a data value for a function based on two criteria:  
+  For each function on the call stack when the interval was recorded, the profiler analysis adds the interval to one or more of four data values for the function. The analysis adds the interval to a data value for a function based on two criteria:  
   
--   Whether the interval occurred in the code of the function or in a *child function* (a function that was called by the function).  
+- Whether the interval occurred in the code of the function or in a *child function* (a function that was called by the function).  
   
--   Whether an operating system event occurred in the interval.  
+- Whether an operating system event occurred in the interval.  
   
- The data values for an interval of a function or data range are named *Elapsed Inclusive*, *Elapsed Exclusive*, *Application Inclusive*, and *Application Exclusive*:  
+  The data values for an interval of a function or data range are named *Elapsed Inclusive*, *Elapsed Exclusive*, *Application Inclusive*, and *Application Exclusive*:  
   
--   All intervals of a function are added to the Elapsed Inclusive data value.  
+- All intervals of a function are added to the Elapsed Inclusive data value.  
   
--   If the interval occurred in the code of the function and not in a child function, the interval is added to the Elapsed Exclusive data value of the function.  
+- If the interval occurred in the code of the function and not in a child function, the interval is added to the Elapsed Exclusive data value of the function.  
   
--   If an operating system event did not occur in the interval, the interval is added to the Application Inclusive data value.  
+- If an operating system event did not occur in the interval, the interval is added to the Application Inclusive data value.  
   
--   If an operating system event did not occur in the interval, and the interval occurred in the direct execution of the function code (that is, it did not occur in a child function), the interval is added to the Application Exclusive data value.  
+- If an operating system event did not occur in the interval, and the interval occurred in the direct execution of the function code (that is, it did not occur in a child function), the interval is added to the Application Exclusive data value.  
   
- Profiling Tools reports aggregate the total values of the functions in the profiling session itself, and the processes, threads, and binaries of the session.  
+  Profiling Tools reports aggregate the total values of the functions in the profiling session itself, and the processes, threads, and binaries of the session.  
   
 ## Elapsed Inclusive values  
  The total time that was spent executing a function and its child functions.  

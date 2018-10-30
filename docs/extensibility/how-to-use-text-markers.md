@@ -35,19 +35,19 @@ Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.I
   
 ### To add features to text markers  
   
-1.  It may be desirable to add additional features to a text marker, such as tool tips, a special context menu, or handler for special circumstances. To do so:  
+1. It may be desirable to add additional features to a text marker, such as tool tips, a special context menu, or handler for special circumstances. To do so:  
   
-2.  Create an object implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
+2. Create an object implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
   
-3.  If additional functionality is desired, implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientEx>, and the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientAdvanced> interfaces on the same object that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
+3. If additional functionality is desired, implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientEx>, and the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientAdvanced> interfaces on the same object that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
   
-4.  Pass the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface that you create, to the call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method used to apply the text marker to a given region of text.  
+4. Pass the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface that you create, to the call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method used to apply the text marker to a given region of text.  
   
-5.  When adding context menu support to a text marker region it is necessary to create the menu.  
+5. When adding context menu support to a text marker region it is necessary to create the menu.  
   
-     For more information on how to create a context menu see, [Context menus](../extensibility/context-menus.md).  
+    For more information on how to create a context menu see, [Context menus](../extensibility/context-menus.md).  
   
-6.  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText%2A> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> method as needed.  
+6. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText%2A> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> method as needed.  
   
 ## See Also  
  [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
