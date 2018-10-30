@@ -49,7 +49,7 @@ Microsoft support services are subject to then-current prices, terms, and condit
 
 ## I want to get involved in the developer community
 
-If you want to share your questions and answers with other developers, use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com) site, the [MSDN forums](http://social.msdn.microsoft.com/Forums/home), or [StackOverflow](http://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) site.
+If you want to share your questions and answers with other developers, use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com) site, the [MSDN forums](https://social.msdn.microsoft.com/Forums/home), or [StackOverflow](http://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](https://code.msdn.microsoft.com/) site.
 
 ## I want to help improve the Visual Studio documentation
 
