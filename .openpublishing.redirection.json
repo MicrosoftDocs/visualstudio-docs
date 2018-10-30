@@ -6806,6 +6806,11 @@
             "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-%2215%22.md",
             "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017?view=vs-2015",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/docker/index.md",
+            "redirect_url": "/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json",
+            "redirect_document_id": false
         }
     ]
 }
