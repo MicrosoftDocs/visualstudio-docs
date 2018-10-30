@@ -1,7 +1,7 @@
 ---
 title: "IDebugBreakpointChecksumRequest2::IsChecksumEnabled | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,21 +19,19 @@ manager: "ghogen"
 # IDebugBreakpointChecksumRequest2::IsChecksumEnabled
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointChecksumRequest2::IsChecksumEnabled](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointchecksumrequest2-ischecksumenabled).  
-  
 Determines whether the checksum is enabled for this document.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT IsChecksumEnabled(   
-   BOOL *pfChecksumEnabled  
+   BOOL *pfChecksumEnabled  
 );  
 ```  
   
 ```csharp  
 public int IsChecksumEnabled(   
-   out int pfChecksumEnabled  
+   out int pfChecksumEnabled  
 );  
 ```  
   

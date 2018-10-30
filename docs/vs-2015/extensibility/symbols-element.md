@@ -1,7 +1,7 @@
 ---
 title: "Symbols Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Symbols Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Symbols Element](https://docs.microsoft.com/visualstudio/extensibility/symbols-element).  
-  
 Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, this information typically comes from the header files that are specified by [Extern Element](../extensibility/extern-element.md). Managed code uses the child elements of the Symbols element to define this information.  
   
  If you create a .vsct file from an existing .cto file, the symbols will be generated as children of the Symbols element. For more information, see [How to: Create a .Vsct File from an Existing .Cto File](../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md).  
@@ -63,12 +61,12 @@ Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, 
   
 ```  
 <Symbols>  
-  <GuidSymbol name="guidVsPackage1Pkg" value="{c5f54698-101a-4846-84d3-dc748f9cd848}" />  
-  <GuidSymbol name="guidVsPackage1CmdSet" value="{cb9dfd7f-2fcc-4a3e-aae8-f7fe30b1cfac}">  
-    <IDSymbol name="MyMenuGroup" value="0x1020" />  
-    <IDSymbol name="cmdidMyCommand" value="0x0100" />  
-    <IDSymbol name="cmdidMyTool" value="0x0101" />  
-  </GuidSymbol>  
+  <GuidSymbol name="guidVsPackage1Pkg" value="{c5f54698-101a-4846-84d3-dc748f9cd848}" />  
+  <GuidSymbol name="guidVsPackage1CmdSet" value="{cb9dfd7f-2fcc-4a3e-aae8-f7fe30b1cfac}">  
+    <IDSymbol name="MyMenuGroup" value="0x1020" />  
+    <IDSymbol name="cmdidMyCommand" value="0x0100" />  
+    <IDSymbol name="cmdidMyTool" value="0x0101" />  
+  </GuidSymbol>  
 </Symbols>  
 ```  
   

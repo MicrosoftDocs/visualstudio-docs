@@ -1,7 +1,7 @@
 ---
 title: "Link UML model updates by using transactions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Link UML model updates by using transactions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Link UML model updates by using transactions](https://docs.microsoft.com/visualstudio/modeling/link-uml-model-updates-by-using-transactions).  
-  
 When you define an extension to the UML designers in Visual Studio, you can group several changes into a single transaction called a *linked undo context*. To see which versions of Visual Studio support UML models, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
  By default, each modification that your code makes to a model can be separately undone by the user. For example, if you define a menu command that swaps the names of two UML classes, a user could invoke the command, and then perform a single undo. This would undo the change to one name, but not the other, leaving your model in an unintended state.  
@@ -80,7 +78,7 @@ When you define an extension to the UML designers in Visual Studio, you can grou
     using Microsoft.VisualStudio.Uml.Extensions;  
     using System.Linq;  
     using System.ComponentModel.Composition;  
- ...  
+ ...  
   [Import]  
   public ILinkedUndoContext LinkedUndoContext { get; set; }  
   

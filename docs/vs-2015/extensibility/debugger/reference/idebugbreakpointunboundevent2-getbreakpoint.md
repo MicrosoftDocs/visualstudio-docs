@@ -1,7 +1,7 @@
 ---
 title: "IDebugBreakpointUnboundEvent2::GetBreakpoint | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugBreakpointUnboundEvent2::GetBreakpoint](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbreakpointunboundevent2-getbreakpoint).  
-  
 Gets the breakpoint that became unbound.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetBreakpoint(   
-   IDebugBoundBreakpoint2** ppBP  
+   IDebugBoundBreakpoint2** ppBP  
 );  
 ```  
   
 ```csharp  
 int GetBreakpoint(   
-   out IDebugBoundBreakpoint2 ppBP  
+   out IDebugBoundBreakpoint2 ppBP  
 );  
 ```  
   

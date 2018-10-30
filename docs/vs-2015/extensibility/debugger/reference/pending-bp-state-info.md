@@ -1,7 +1,7 @@
 ---
 title: "PENDING_BP_STATE_INFO | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # PENDING_BP_STATE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PENDING_BP_STATE_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/pending-bp-state-info).  
-  
 Contains information about the state of a breakpoint that is ready to bind to a code location.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct _tagPENDING_BP_STATE_INFO {   
-   PENDING_BP_STATE       state;  
-   PENDING_BP_STATE_FLAGS flags;  
+   PENDING_BP_STATE       state;  
+   PENDING_BP_STATE_FLAGS flags;  
 } PENDING_BP_STATE_INFO;  
 ```  
   
 ```csharp  
 public struct PENDING_BP_STATE_INFO {   
-   public uint state;  
-   public uint flags;  
+   public uint state;  
+   public uint flags;  
 };  
 ```  
   

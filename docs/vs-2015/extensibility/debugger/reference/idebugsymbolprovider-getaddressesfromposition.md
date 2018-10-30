@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProvider::GetAddressesFromPosition | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,27 +21,25 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetAddressesFromPosition
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetAddressesFromPosition](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromposition).  
-  
 This method maps a document position into an array of debug addresses.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetAddressesFromPosition(   
-   IDebugDocumentPosition2* pDocPos,  
-   BOOL                     fStatmentOnly,  
-   IEnumDebugAddresses**    ppEnumBegAddresses,  
-   IEnumDebugAddresses**    ppEnumEndAddresses  
+   IDebugDocumentPosition2* pDocPos,  
+   BOOL                     fStatmentOnly,  
+   IEnumDebugAddresses**    ppEnumBegAddresses,  
+   IEnumDebugAddresses**    ppEnumEndAddresses  
 );  
 ```  
   
 ```csharp  
 int GetAddressesFromPosition(   
-   IDebugDocumentPosition2  pDocPos,  
-   bool                     fStatmentOnly,  
-   out IEnumDebugAddresses  ppEnumBegAddresses,  
-   out IEnumDebugAddresses  ppEnumEndAddresses  
+   IDebugDocumentPosition2  pDocPos,  
+   bool                     fStatmentOnly,  
+   out IEnumDebugAddresses  ppEnumBegAddresses,  
+   out IEnumDebugAddresses  ppEnumEndAddresses  
 );  
 ```  
   

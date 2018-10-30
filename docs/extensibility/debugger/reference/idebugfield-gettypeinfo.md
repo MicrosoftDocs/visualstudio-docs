@@ -23,13 +23,13 @@ This method gets type-independent information about the symbol or type.
   
 ```cpp  
 HRESULT GetTypeInfo(   
-   TYPE_INFO* pTypeInfo  
+   TYPE_INFO* pTypeInfo  
 );  
 ```  
   
 ```csharp  
 int GetTypeInfo(  
-   TYPE_INFO[] pTypeInfo  
+   TYPE_INFO[] pTypeInfo  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Tutorial 3: Create a Matching Game | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,26 +18,24 @@ manager: "ghogen"
 # Tutorial 3: Create a Matching Game
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tutorial 3: Create a Matching Game](https://docs.microsoft.com/visualstudio/ide/tutorial-3-create-a-matching-game).  
-  
 In this tutorial, you build a matching game, where the player must match pairs of hidden icons. You learn how to:  
   
--   Store objects, such as icons, in a `List` object.  
+- Store objects, such as icons, in a `List` object.  
   
--   Use a `foreach` loop in Visual C# or a `For Each` loop in Visual Basic to iterate through items in a list.  
+- Use a `foreach` loop in Visual C# or a `For Each` loop in Visual Basic to iterate through items in a list.  
   
--   Keep track of a form's state by using reference variables.  
+- Keep track of a form's state by using reference variables.  
   
--   Build an event handler to respond to events that you can use with multiple objects.  
+- Build an event handler to respond to events that you can use with multiple objects.  
   
--   Make a timer that counts down and then fires an event exactly once after being started.  
+- Make a timer that counts down and then fires an event exactly once after being started.  
   
- When you finish this tutorial, your program will look like the following picture.  
+  When you finish this tutorial, your program will look like the following picture.  
   
- ![Game that you create in this tutorial](../ide/media/express-finishedgame.png "Express_FinishedGame")  
-Game that you create in this tutorial  
+  ![Game that you create in this tutorial](../ide/media/express-finishedgame.png "Express_FinishedGame")  
+  Game that you create in this tutorial  
   
- To download a completed version of the sample, see [Complete Matching Game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  
+  To download a completed version of the sample, see [Complete Matching Game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  
   
 > [!NOTE]
 >  In this tutorial, both Visual C# and Visual Basic are covered, so focus on information specific to the programming language that you're using.  

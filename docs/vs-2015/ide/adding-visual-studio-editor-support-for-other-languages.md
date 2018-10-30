@@ -1,7 +1,7 @@
 ---
 title: "Adding Visual Studio editor support for other languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Adding Visual Studio editor support for other languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Visual Studio editor support for other languages](https://docs.microsoft.com/visualstudio/ide/adding-visual-studio-editor-support-for-other-languages).  
-  
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.  
   
 ## Syntax colorization, statement completion, and Navigate To support  
@@ -45,23 +43,23 @@ Learn about how the Visual Studio editor supports reading and navigating through
   
  In addition to syntax colorization and basic statement completion, Visual Studio also has a feature called [Navigate To](https://blogs.msdn.microsoft.com/benwilli/2015/04/09/visual-studio-tip-3-use-navigate-to/). This feature enables you to quickly search code files, file paths and code symbols. Visual Studio provides Navigate To support for the following languages.  
   
--   Go  
+- Go  
   
--   Java  
+- Java  
   
--   JavaScript  
+- JavaScript  
   
--   PHP  
+- PHP  
   
--   TypeScript  
+- TypeScript  
   
--   Visual Basic  
+- Visual Basic  
   
--   Visual C++  
+- Visual C++  
   
--   Visual C#  
+- Visual C#  
   
- All of these file types have  the features described earlier even if support for a given language hasn't yet  been installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features such as Light Bulbs.  
+  All of these file types have  the features described earlier even if support for a given language hasn't yet  been installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features such as Light Bulbs.  
   
 ## Adding support for non-supported languages  
  Visual Studio 2015 Update 1 and later versions provide language support in the editor by using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite programming language currently isn't supported in the Visual Studio editor, first, search the web - a TextMate bundle for the language may already exist. If you can't find one, though, you can add support for it yourself in Visual Studio 2015 Update 1 or later by creating a TextMate bundle  model for language grammars and snippets.  

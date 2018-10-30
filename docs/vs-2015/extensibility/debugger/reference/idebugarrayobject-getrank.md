@@ -1,7 +1,7 @@
 ---
 title: "IDebugArrayObject::GetRank | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugArrayObject::GetRank
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayObject::GetRank](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayobject-getrank).  
-  
 Gets the rank of the array, that is, the number of dimensions.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetRank(   
-   DWORD* pdwRank  
+   DWORD* pdwRank  
 );  
 ```  
   
 ```csharp  
 int GetRank(  
-   out uint pdwRank  
+   out uint pdwRank  
 );  
 ```  
   

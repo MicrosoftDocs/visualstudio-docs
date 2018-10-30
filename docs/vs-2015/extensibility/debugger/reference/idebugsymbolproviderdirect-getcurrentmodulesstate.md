@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProviderDirect::GetCurrentModulesState | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,23 +20,21 @@ manager: "ghogen"
 # IDebugSymbolProviderDirect::GetCurrentModulesState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProviderDirect::GetCurrentModulesState](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolproviderdirect-getcurrentmodulesstate).  
-  
 Retrieves information about the symbol group of which the symbol provider is a member.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetCurrentModulesState(  
-    DWORD*          pState,  
-    unsigned long * count  
+    DWORD*          pState,  
+    unsigned long * count  
 );  
 ```  
   
 ```csharp  
 int GetCurrentModulesState(  
-    out uint pState,  
-    out uint count  
+    out uint pState,  
+    out uint count  
 );  
 ```  
   

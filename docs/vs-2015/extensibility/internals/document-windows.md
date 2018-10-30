@@ -1,7 +1,7 @@
 ---
 title: "Document Windows | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,21 +19,19 @@ manager: "ghogen"
 # Document Windows
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Document Windows](https://docs.microsoft.com/visualstudio/extensibility/internals/document-windows).  
-  
 In Visual Studio, a *document window* is a framed child window that is associated with a multiple-document interface (MDI) window. Document windows are typically used for the display and modification of source code or text, but they can also host other functional types. Document windows:  
   
--   Can be organized in separate horizontal or vertical tab groups in the parent MDI so that multiple files can be viewed at the same time.  
+- Can be organized in separate horizontal or vertical tab groups in the parent MDI so that multiple files can be viewed at the same time.  
   
--   Can be docked in any order in the parent MDI.  
+- Can be docked in any order in the parent MDI.  
   
--   Can be floated freely.  
+- Can be floated freely.  
   
--   Are linked in tab order to other MDI windows.  
+- Are linked in tab order to other MDI windows.  
   
- The commands for grouping, docking, and floating can be found on the shortcut menu for a document window tab.  
+  The commands for grouping, docking, and floating can be found on the shortcut menu for a document window tab.  
   
- For more information about window behavior in Visual Studio, see [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md).  
+  For more information about window behavior in Visual Studio, see [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md).  
   
 ## Document Window Implementation  
  Document windows are created by implementing an editor. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface creates document windows as part of instantiating an editor. For more information, see [Legacy Interfaces in the Editor](../../extensibility/legacy-interfaces-in-the-editor.md).  

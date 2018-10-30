@@ -1,7 +1,7 @@
 ---
 title: "Class Tab, Window Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Class Tab, Window Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Class Tab, Window Properties Dialog Box](https://docs.microsoft.com/visualstudio/debugger/class-tab-window-properties-dialog-box).  
-  
 Use the **Class** tab to show information on the class of the selected window. To display the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md), move the focus to the [Windows View](../debugger/windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.  
   
  The following settings are available on the **Class** tab:  

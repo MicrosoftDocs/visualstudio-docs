@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortEx2::CanTerminateProcess | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugPortEx2::CanTerminateProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortEx2::CanTerminateProcess](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportex2-canterminateprocess).  
-  
 Determines whether a process can be terminated.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT CanTerminateProcess(   
-   IDebugProcess2* pPortProcess  
+   IDebugProcess2* pPortProcess  
 );  
 ```  
   
 ```csharp  
 HRESULT CanTerminateProcess(   
-   IDebugProcess2 pPortProcess  
+   IDebugProcess2 pPortProcess  
 );  
 ```  
   

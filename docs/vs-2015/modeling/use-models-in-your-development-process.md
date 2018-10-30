@@ -1,14 +1,14 @@
 ---
 title: "Use models in your development process | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-devops-techdebt"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML, using models"
 ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
@@ -20,8 +20,6 @@ manager: "douge"
 # Use models in your development process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Use models in your development process](https://docs.microsoft.com/visualstudio/modeling/use-models-in-your-development-process).  
-  
 In Visual Studio, you can use a model to help you understand and change a system, application, or component. A model can help you visualize the world in which your system works, clarify users' needs, define the architecture of your system, analyze the code, and ensure that your code meets the requirements. See [Channel 9 Video: Improve architecture through modeling](http://go.microsoft.com/fwlink/?LinkID=252078).  
   
  To see which versions of Visual Studio support each type of model, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -29,15 +27,15 @@ In Visual Studio, you can use a model to help you understand and change a system
 ## How to use models  
  Models can help you in several ways:  
   
--   Drawing modeling diagrams helps you clarify the concepts involved in requirements, architecture, and high-level design. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
+- Drawing modeling diagrams helps you clarify the concepts involved in requirements, architecture, and high-level design. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
   
--   Working with models can help you expose inconsistencies in requirements.  
+- Working with models can help you expose inconsistencies in requirements.  
   
--   Communicating with models helps you communicate important concepts less ambiguously than with natural language. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
+- Communicating with models helps you communicate important concepts less ambiguously than with natural language. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   
--   You can sometimes use models to generate code or other artifacts such as database schemas or documents. For example, the modeling components of [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)] are generated from a model.  For more information, see [Generate and configure your app from models](../modeling/generate-and-configure-your-app-from-models.md).  
+- You can sometimes use models to generate code or other artifacts such as database schemas or documents. For example, the modeling components of [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)] are generated from a model.  For more information, see [Generate and configure your app from models](../modeling/generate-and-configure-your-app-from-models.md).  
   
- You can use models in a wide variety of processes, from extreme agile to high ceremony.  
+  You can use models in a wide variety of processes, from extreme agile to high ceremony.  
   
 ### Use Models to Reduce Ambiguity  
  Modeling language is less ambiguous than natural language, and it is designed to express the ideas typically required during software development.  

@@ -2,7 +2,7 @@
 title: "Tutorial: Debug managed and native code (mixed mode)"
 description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed mode debugging
 ms.custom: ""
-ms.date: "04/27/2018"
+ms.date: "10/24/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 dev_langs:
@@ -17,7 +17,7 @@ ms.workload:
   - "dotnet"
   - "cplusplus"
 ---
-# Tutorial: Debug managed and native code in Visual Studio
+# Tutorial: Debug managed and native code in the same debugging session
 
 Visual Studio allows you to enable more than one debugger type when debugging, which is called mixed mode debugging. In this tutorial, you set options to debug both managed and native code in a single debugging session. This tutorial shows how to debug native code from a managed app, but you can also do the reverse, and [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md) and using the script debugger in app types such as ASP.NET.
 
@@ -36,7 +36,7 @@ In this tutorial, you will:
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
 * You must also have either the **.NET desktop development** workload or the **.NET Core cross platform development** workload installed, depending on which app type you want to create.
 
@@ -44,26 +44,26 @@ In this tutorial, you will:
 
 1. In Visual Studio, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, choose **Visual C++**, **General** from the installed templates section, and then in the middle pane select **Empty Project**.
+1. In the **New Project** dialog box, choose **Visual C++**, **Other** from the installed templates section, and then in the middle pane select **Empty Project**.
 
-1. In the **Name** field, type **Mixed-Mode-Debugging** and click **OK**.
+1. In the **Name** field, type **Mixed_Mode_Debugging** and click **OK**.
 
     Visual Studio creates the empty project, which appears in Solution Explorer in the right pane.
 
-1. In Solution Explorer, right-click the **Source Files** node in the C++ project, and then choose **Add** > **New Item**, and then select **C++ file (.cpp)**. Give the file the name **Mixed-Mode.cpp**, and choose **Add**.
+1. In Solution Explorer, right-click the **Source Files** node in the C++ project, and then choose **Add** > **New Item**, and then select **C++ file (.cpp)**. Give the file the name **Mixed_Mode.cpp**, and choose **Add**.
 
     Visual Studio adds the new C++ file.
 
-1. Copy the following code into *Mixed-Mode.cpp*:
+1. Copy the following code into *Mixed_Mode.cpp*:
 
     ```cpp
     #include "Mixed_Mode.h"
     ```
-1. In Solution Explorer, right-click the **Header Files** node in the C++ project, and then choose **Add** > **New Item**, and then select **Header file (.h)**. Give the file the name **Mixed-Mode.h**, and choose **Add**.
+1. In Solution Explorer, right-click the **Header Files** node in the C++ project, and then choose **Add** > **New Item**, and then select **Header file (.h)**. Give the file the name **Mixed_Mode.h**, and choose **Add**.
 
     Visual Studio adds the new header file.
 
-1. Copy the following code into *Mixed-Mode.h*:
+1. Copy the following code into *Mixed_Mode.h*:
 
     ```cpp
     #ifndef MIXED_MODE_MULTIPLY_HPP
@@ -78,26 +78,29 @@ In this tutorial, you will:
     #endif
     ```
 
-1. From the Debug toolbar, select a **Debug** configuration and **Any CPU** as the platform, or, for .NET Core, select **x64** as the platform.
+1. From the Debug toolbar, select a **Debug** configuration and **x86** or **x64** as the platform (for .NET Core, which always runs in 64-bit mode, select **x64** as the platform).
 
-    > [!NOTE]
-    > On .NET Core, choose **x64** as the platform. .NET Core always runs in 64-bit mode so this is required.
+1. In Solution Explorer, right-click the project node (**Mixed_Mode_Debugging**) and choose **Properties**.
 
-1. In Solution Explorer, right-click the project node (**Mixed-Mode-Debugging**) and choose **Properties**.
+    > [!IMPORTANT]
+    > Property configuration for C++ is per-platform. So, if you switch from one to the other (x86 to x64 or vice versa), you must also set the properties for the new configuration. (In the Properties page, verify either **x64** or **Win32** is set as the platform at the top of the page.)
 
-1. In the **Properties** page, choose **Configuration Properties** > **Linker** > **Advanced**, and then in the **No Entry Point** drop-down list, select **NO**. Then apply settings.
+1. In the **Properties** page, choose **Configuration Properties** > **Linker** > **Advanced**, and then in the **No Entry Point** drop-down list, make sure that **No** is selected. If you need to change the setting to **No**, then choose **Apply**.
 
 1. In the **Properties** page, choose **Configuration Properties** > **General**, and then select **Dynamic Library (.dll)** from the **Configuration Type** field. Then apply settings.
 
     ![Switch to a native DLL](../debugger/media/mixed-mode-set-as-native-dll.png)
 
-1. Right-click the project and choose **Debug** > **Build**.
+1. Right-click the project and choose **Build**.
 
     The project should build with no errors.
 
 ## Create a simple .NET Framework or .NET Core app to call the DLL
 
 1. In Visual Studio, choose **File** > **New** > **Project**.
+
+    > [!NOTE]
+    > Although you can also add the new managed project to the solution with the C++ project, instead of creating a new solution, we are not doing that here to support a larger set of debugging scenarios.
 
 1. Choose a template for your application code.
 
@@ -122,9 +125,9 @@ In this tutorial, you will:
             // Replace the file path shown here with the
             // file path on your computer. For .NET Core, the typical (default) path
             // for a 64-bit DLL might look like this:
-            // C:\Users\username\source\repos\Mixed-Mode-Debugging\x64\Debug\Mixed-Mode-Debugging.dll
-            // Here, we show a typical path for a DLL targeting the **Any CPU** option.
-            [DllImport(@"C:\Users\username\source\repos\Mixed-Mode-Debugging\Debug\Mixed-Mode-Debugging.dll", EntryPoint =
+            // C:\Users\username\source\repos\Mixed_Mode_Debugging\x64\Debug\Mixed_Mode_Debugging.dll
+            // Here, we show a typical path for a DLL targeting the **x86** option.
+            [DllImport(@"C:\Users\username\source\repos\Mixed_Mode_Debugging\Debug\Mixed_Mode_Debugging.dll", EntryPoint =
             "mixed_mode_multiply", CallingConvention = CallingConvention.StdCall)]
             public static extern int Multiply(int x, int y);
             public static void Main(string[] args)
@@ -136,6 +139,8 @@ In this tutorial, you will:
         }
     }
     ```
+
+1. In the new code, update the file path to the path for the DLL that you previously created (see code comments). Make sure you replace the *username* placeholder.
 
 ## Configure mixed mode debugging (.NET Framework)
 

@@ -1,7 +1,7 @@
 ---
 title: "Command Code Enumerator | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,25 +20,23 @@ manager: "ghogen"
 # Command Code Enumerator
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Code Enumerator](https://docs.microsoft.com/visualstudio/extensibility/command-code-enumerator).  
-  
 This enumerator is used in the options for the [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) and the [SccPopulateList](../extensibility/sccpopulatelist-function.md)to indicate the command for which the options are specified.  
   
 ## Syntax  
   
 ```  
 enum SCCCOMMAND {  
-   SCC_COMMAND_GET,  
-   SCC_COMMAND_CHECKOUT,  
-   SCC_COMMAND_CHECKIN,  
-   SCC_COMMAND_UNCHECKOUT,  
-   SCC_COMMAND_ADD,  
-   SCC_COMMAND_REMOVE,  
-   SCC_COMMAND_DIFF,  
-   SCC_COMMAND_HISTORY,  
-   SCC_COMMAND_RENAME,  
-   SCC_COMMAND_PROPERTIES,  
-   SCC_COMMAND_OPTIONS  
+   SCC_COMMAND_GET,  
+   SCC_COMMAND_CHECKOUT,  
+   SCC_COMMAND_CHECKIN,  
+   SCC_COMMAND_UNCHECKOUT,  
+   SCC_COMMAND_ADD,  
+   SCC_COMMAND_REMOVE,  
+   SCC_COMMAND_DIFF,  
+   SCC_COMMAND_HISTORY,  
+   SCC_COMMAND_RENAME,  
+   SCC_COMMAND_PROPERTIES,  
+   SCC_COMMAND_OPTIONS  
 };  
 ```  
   

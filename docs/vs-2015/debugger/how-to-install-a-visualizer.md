@@ -1,7 +1,7 @@
 ---
 title: "How to: Install a Visualizer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # How to: Install a Visualizer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Install a Visualizer](https://docs.microsoft.com/visualstudio/debugger/how-to-install-a-visualizer).  
-  
 After you have created a visualizer, you must install the visualizer so that it will be available in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Installing a visualizer is a simple process.  
   
 > [!NOTE]

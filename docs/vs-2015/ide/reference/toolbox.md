@@ -1,7 +1,7 @@
 ---
 title: "Toolbox | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Toolbox
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Toolbox](https://docs.microsoft.com/visualstudio/ide/reference/toolbox).  
-  
   
 The **Toolbox** displays icons for controls and other items that you can add to [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] projects. To open the **Toolbox**, click **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.  
   

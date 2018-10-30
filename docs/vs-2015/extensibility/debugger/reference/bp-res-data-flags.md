@@ -1,7 +1,7 @@
 ---
 title: "BP_RES_DATA_FLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,22 +21,20 @@ manager: "ghogen"
 # BP_RES_DATA_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_RES_DATA_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-res-data-flags).  
-  
 Specifies whether the data breakpoint is being emulated or implemented in hardware.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_BP_RES_DATA_FLAGS {   
-   BP_RES_DATA_EMULATED = 0x0001  
+   BP_RES_DATA_EMULATED = 0x0001  
 };  
 typedef DWORD BP_RES_DATA_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_BP_RES_DATA_FLAGS {   
-   BP_RES_DATA_EMULATED = 0x0001  
+   BP_RES_DATA_EMULATED = 0x0001  
 };  
 ```  
   

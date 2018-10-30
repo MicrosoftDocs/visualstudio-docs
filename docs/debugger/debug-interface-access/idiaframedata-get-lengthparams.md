@@ -22,7 +22,7 @@ Retrieves the number of bytes of parameters pushed on the stack.
   
 ```C++  
 HRESULT get_lengthParams (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_arrayIndexTypeId | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_arrayIndexTypeId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_arrayIndexTypeId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-arrayindextypeid).  
-  
 Retrieves the array index type identifier of the symbol.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_arrayIndexTypeId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

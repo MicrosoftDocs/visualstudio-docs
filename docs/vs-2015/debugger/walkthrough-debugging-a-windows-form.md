@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Debugging a Windows Form | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,8 +35,6 @@ manager: "ghogen"
 # Walkthrough: Debugging a Windows Form
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Debugging a Windows Form](https://docs.microsoft.com/visualstudio/debugger/walkthrough-debugging-a-windows-form).  
-  
 A Windows Form is one of the most common managed applications. A Windows Form creates a standard Windows application. You can complete this walkthrough using Visual Basic, C#, or C++.  
   
  First, you must close any open solutions.  
@@ -140,7 +138,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 6.  On the **Debug** menu, choose **Step Into**.  
   
-     The value of textBox1.Text changes in the **Watch1**window to:  
+     The value of textBox1.Text changes in the **Watch1** window to:  
   
     ```  
     Button was clicked!  

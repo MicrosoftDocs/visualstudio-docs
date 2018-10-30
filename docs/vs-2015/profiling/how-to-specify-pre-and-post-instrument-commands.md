@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Pre- and Post-Instrument Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,33 +24,31 @@ manager: "ghogen"
 # How to: Specify Pre- and Post-Instrument Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Pre- and Post-Instrument Commands](https://docs.microsoft.com/visualstudio/profiling/how-to-specify-pre-and-post-instrument-commands).  
-  
 You can specify commands that run before or after the binaries in a performance session are instrumented. Any command that can be issued from the command line can be specified as a pre-instrument or a post-instrument event. For example, you can specify commands that automate the resigning of an assembly with a strong name key in a batch file that is executed after the binaries are instrumented.  
   
  You can specify commands for all instrumented binaries in the profiling run or for individual binaries. However, you can specify only one pre-instrument command to run before and only one post-instrument command to run after the instrumentation process. You cannot specify commands for both all binaries and for individual binaries. When you specify commands for all binaries, the commands are run before or after the instrumentation of each binary in the session.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- The working directory in which the commands are executed depends on the operating systen  where you are running [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] and on the target platform of the profiled application.  
+  The working directory in which the commands are executed depends on the operating systen  where you are running [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] and on the target platform of the profiled application.  
   
- **32-bit computers**  
+  **32-bit computers**  
   
- On 32-bit computers, the default profiler tools directory is Drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools.  
+  On 32-bit computers, the default profiler tools directory is Drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools.  
   
- **64-bit computers**  
+  **64-bit computers**  
   
- On 64-bit computers, specify the path according to the target platform of the profiled application:  
+  On 64-bit computers, specify the path according to the target platform of the profiled application:  
   
--   For 32-bit applications, the default profiler tools directory is:  
+- For 32-bit applications, the default profiler tools directory is:  
   
-     *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools  
+   *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools  
   
--   For 64-bit applications, the default profiler tools directory is:  
+- For 64-bit applications, the default profiler tools directory is:  
   
-     *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64  
+   *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64  
   
 ### To specify pre-instrument commands  
   

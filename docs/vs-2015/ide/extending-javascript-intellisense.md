@@ -1,7 +1,7 @@
 ---
 title: "Extending JavaScript IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # Extending JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](https://docs.microsoft.com/en-us/visualstudio/).  
-  
 The JavaScript IntelliSense extensibility feature enables you to customize IntelliSense results in the JavaScript editor for third-party libraries. This can improve the experience of developers who use these libraries.  
   
  The JavaScript language service provides IntelliSense features for third-party JavaScript libraries that are added to a project. For most libraries, statement completion is provided automatically by the language service. The following illustration shows an example of statement completion:  
@@ -80,13 +78,13 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  In your extension code, you can create handlers for the following event types by using `addEventListener`:  
   
--   `statementcompletion`, which adds a handler for a statement completion event. Statement completion provides a list of members for a particular type that appears after you type a special character such as a period (.), or a list of identifiers that appears while you type or when you press CTRL + J. The handler receives an event object of type `CompletionEvent`, which supports the following members: [items Property](#Items), [target Property](#Target), [targetName Property](#TargetName), and [scope Property](#Scope).  
+- `statementcompletion`, which adds a handler for a statement completion event. Statement completion provides a list of members for a particular type that appears after you type a special character such as a period (.), or a list of identifiers that appears while you type or when you press CTRL + J. The handler receives an event object of type `CompletionEvent`, which supports the following members: [items Property](#Items), [target Property](#Target), [targetName Property](#TargetName), and [scope Property](#Scope).  
   
--   `signaturehelp`, which adds a handler for IntelliSense Parameter Info. Parameter information gives you information about the number, names, and types of parameters required by a function. The handler receives an event object of type `SignatureHelpEvent`, which supports the following members: [target Property](#Target), [parentObject Property](#ParentObject), [functionComments Property](#FunctionComments), [functionHelp Property](#FunctionHelp).  
+- `signaturehelp`, which adds a handler for IntelliSense Parameter Info. Parameter information gives you information about the number, names, and types of parameters required by a function. The handler receives an event object of type `SignatureHelpEvent`, which supports the following members: [target Property](#Target), [parentObject Property](#ParentObject), [functionComments Property](#FunctionComments), [functionHelp Property](#FunctionHelp).  
   
--   `statementcompletionhint`, which adds a handler for IntelliSense Quick Info. The Quick Info pop-up box shows the complete declaration for identifiers in your code. The handler receives an event object of type `CompletionHintEvent`, which supports the following members: [completionItem Property](#CompletionItem), and [symbolHelp Property](#SymbolHelp).  
+- `statementcompletionhint`, which adds a handler for IntelliSense Quick Info. The Quick Info pop-up box shows the complete declaration for identifiers in your code. The handler receives an event object of type `CompletionHintEvent`, which supports the following members: [completionItem Property](#CompletionItem), and [symbolHelp Property](#SymbolHelp).  
   
- For examples that show IntelliSense features such as statement completion, parameter information, and Quick Info, see [Using IntelliSense](../ide/using-intellisense.md).  
+  For examples that show IntelliSense features such as statement completion, parameter information, and Quick Info, see [Using IntelliSense](../ide/using-intellisense.md).  
   
 > [!NOTE]
 >  In JavaScript, Quick Info refers to the pop-up box that appears to the right of a completion list. You cannot manually invoke Quick Info.  

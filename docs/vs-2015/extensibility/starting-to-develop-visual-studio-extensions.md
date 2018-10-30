@@ -1,7 +1,7 @@
 ---
 title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Starting to Develop Visual Studio Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Starting to Develop Visual Studio Extensions](https://docs.microsoft.com/visualstudio/extensibility/starting-to-develop-visual-studio-extensions).  
-  
 If you’ve never written a Visual Studio extension before, you probably have some questions. We’ve listed some of the most common ones here. If you don’t see the information you’re looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  
   
 ## What software do I need to develop Visual Studio extensions?  
@@ -30,13 +28,13 @@ If you’ve never written a Visual Studio extension before, you probably have so
 ## What kinds of things can I do with Visual Studio extensions?  
  The sky’s the limit when it comes to imagining different Visual Studio extensions. Of course, most extensions have something to do with writing code, but that doesn’t have to be the case. Here are some examples of the kinds of extensions you can build:  
   
--   Support for languages that aren’t included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support  
+- Support for languages that aren’t included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support  
   
--   Productivity tools that extend the core IDE experience with additional templates, code refactoring, new dialogs or tool windows  
+- Productivity tools that extend the core IDE experience with additional templates, code refactoring, new dialogs or tool windows  
   
--   Domain-specific designers for scenarios like data design or cloud support  
+- Domain-specific designers for scenarios like data design or cloud support  
   
- For examples of extensions, check out the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/). You can also take a look at [Visual Studio Open Source Extensions](https://github.com/Microsoft/extendvs/blob/master/CommunityExtensions.md).  
+  For examples of extensions, check out the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/). You can also take a look at [Visual Studio Open Source Extensions](https://github.com/Microsoft/extendvs/blob/master/CommunityExtensions.md).  
   
 ## Which Visual Studio features can I extend?  
  In theory, you can extend just about any part of Visual Studio: menus, toolbars, commands, windows, solutions, projects, editors, and so on.  

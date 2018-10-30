@@ -1,7 +1,7 @@
 ---
 title: "Capturing Graphics Information | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Capturing Graphics Information
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Capturing Graphics Information](https://docs.microsoft.com/visualstudio/debugger/graphics/capturing-graphics-information).  
-  
 Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.  
   
 ## Capturing graphics information  
@@ -31,30 +29,30 @@ Capture graphics information from your Direct3D app so that you can use Visual S
   
 #### To run your app under Graphics Diagnostics  
   
--   On the menu bar, choose **Debug**, **Graphics**, **Start Diagnostics**. (Keyboard: Press Alt+F5)  
+- On the menu bar, choose **Debug**, **Graphics**, **Start Diagnostics**. (Keyboard: Press Alt+F5)  
   
--   On the **Graphics** toolbar, choose the **Start Diagnostics** button.  
+- On the **Graphics** toolbar, choose the **Start Diagnostics** button.  
   
- While an app is running under Graphics Diagnostics, certain kinds of graphics information is captured all the time; this includes device set up, creation of the swap-chain, creation of graphics objects and resources, and other important events that affect more than one frame. At the same time, you can capture detailed information about specific frames; this includes draw calls and compute-shader dispatches, together with the Direct3D objects and resources that support them.  
+  While an app is running under Graphics Diagnostics, certain kinds of graphics information is captured all the time; this includes device set up, creation of the swap-chain, creation of graphics objects and resources, and other important events that affect more than one frame. At the same time, you can capture detailed information about specific frames; this includes draw calls and compute-shader dispatches, together with the Direct3D objects and resources that support them.  
   
 #### To capture a frame  
   
--   In Visual Studio, on the **Graphics** toolbar, choose the **Capture Frame** button![Graphics capture button icon](../debugger/media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics").  
+- In Visual Studio, on the **Graphics** toolbar, choose the **Capture Frame** button![Graphics capture button icon](../debugger/media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics").  
   
--   On the keyboard, press Print Screen.  
+- On the keyboard, press Print Screen.  
   
-    > [!NOTE]
-    >  While an app is running under **Graphics Diagnostics**, the Print Screen key can only be used to capture a frame of graphics information; it doesn't perform its regular function. This remains in effect until you have stopped capturing graphics information—usually by stopping debugging or exiting the app normally—even if another application is in focus.  
+  > [!NOTE]
+  >  While an app is running under **Graphics Diagnostics**, the Print Screen key can only be used to capture a frame of graphics information; it doesn't perform its regular function. This remains in effect until you have stopped capturing graphics information—usually by stopping debugging or exiting the app normally—even if another application is in focus.  
   
--   In the Visual Studio capture interface, chose the **Capture Frame** button located above the **Diagnostic session** timeline, or choose the large **Capture Frame** button located below the **Frames per second** swim-lane and to the right of any previously-captured frames. Both buttons are highlighted in the image below.  
+- In the Visual Studio capture interface, chose the **Capture Frame** button located above the **Diagnostic session** timeline, or choose the large **Capture Frame** button located below the **Frames per second** swim-lane and to the right of any previously-captured frames. Both buttons are highlighted in the image below.  
   
-     ![Capture frames using the GPU Usage tool.](../debugger/media/pix-gpu-usage-tool-capture-frame.png "pix_gpu_usage_tool_capture_frame")  
+   ![Capture frames using the GPU Usage tool.](../debugger/media/pix-gpu-usage-tool-capture-frame.png "pix_gpu_usage_tool_capture_frame")  
   
-     When you're ready to examine the frames you've captured, start the **Visual Studio Graphics Analyzer** by following the **Frame …** link above the image thumbnails, or by double-clicking the thumbnail.  
+   When you're ready to examine the frames you've captured, start the **Visual Studio Graphics Analyzer** by following the **Frame …** link above the image thumbnails, or by double-clicking the thumbnail.  
   
- Only whole frames can be captured, so when you initiate a capture, it’s really the graphics information from the next frame that's recorded. Recording begins immediately after the frame in which you initiated capture is presented and ends when the captured frame is presented. You can capture as many frames as you want while the app is running under Graphics Diagnostics. If you don't capture any frames, the graphics log is discarded.  
+  Only whole frames can be captured, so when you initiate a capture, it’s really the graphics information from the next frame that's recorded. Recording begins immediately after the frame in which you initiated capture is presented and ends when the captured frame is presented. You can capture as many frames as you want while the app is running under Graphics Diagnostics. If you don't capture any frames, the graphics log is discarded.  
   
- While capturing frames, Visual Studio displays the diagnostics session (.diagsession) window. If you close this window, stop debugging, or close the app, you can’t capture any more frames to that log. To capture more graphics information, you have to run the app under Graphics Diagnostics again to start a new diagnostics session.  
+  While capturing frames, Visual Studio displays the diagnostics session (.diagsession) window. If you close this window, stop debugging, or close the app, you can’t capture any more frames to that log. To capture more graphics information, you have to run the app under Graphics Diagnostics again to start a new diagnostics session.  
   
 ### Graphics Diagnostics Capture Options  
  You can configure capture to collect call stacks for all graphics events or a limited subset, disable the capture HUD, and enable or disable capture compatibility mode.  

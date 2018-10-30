@@ -1,7 +1,7 @@
 ---
 title: "Error: The web server is not configured correctly | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Error: The web server is not configured correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Error: The web server is not configured correctly](https://docs.microsoft.com/visualstudio/debugger/error-the-web-server-is-not-configured-correctly).  
-  
 Possible causes of this error include:  
   
 -   Trying to debug a .NET Web application that was copied to a different machine, manually renamed, or moved.  

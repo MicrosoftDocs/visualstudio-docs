@@ -1,7 +1,7 @@
 ---
 title: "Learn about mobile development with Xamarin | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,6 @@ manager: "crdun"
 # Learn about mobile development with Xamarin
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Learn about mobile development with Xamarin](https://docs.microsoft.com/visualstudio/cross-platform/learn-about-mobile-development-with-xamarin).  
-  
   
 This topic directs you to overview material that helps you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.  
   
@@ -34,13 +32,13 @@ This topic directs you to overview material that helps you understand developing
 ## Essentials: Overview of the Visual Studio and Xamarin Environment  
  *5-15 minutes*  
   
--   The Windows computer with Visual Studio and Xamarin is where you’ll do most of your work. On this computer you directly build Windows and Android apps and run and debug them on a device or an emulator. You also remotely build, run, and debug iOS apps via the Mac. Visual Studio on the Windows computer can also connect to the iOS storyboard designer and the iOS simulator.  
+- The Windows computer with Visual Studio and Xamarin is where you’ll do most of your work. On this computer you directly build Windows and Android apps and run and debug them on a device or an emulator. You also remotely build, run, and debug iOS apps via the Mac. Visual Studio on the Windows computer can also connect to the iOS storyboard designer and the iOS simulator.  
   
--   The Mac with Xcode and Xamarin serves as the build/signing host and runtime environment for iOS apps. Builds for iOS from Visual Studio on the Windows computer are delegated to this Mac; when debugging an iOS app from Visual Studio, it runs in the iOS simulator on the Mac or directly on a tethered device connected to the Mac. In this case you’ll interact with the app on or near the Mac, and have your debugging experience in Visual Studio.  
+- The Mac with Xcode and Xamarin serves as the build/signing host and runtime environment for iOS apps. Builds for iOS from Visual Studio on the Windows computer are delegated to this Mac; when debugging an iOS app from Visual Studio, it runs in the iOS simulator on the Mac or directly on a tethered device connected to the Mac. In this case you’ll interact with the app on or near the Mac, and have your debugging experience in Visual Studio.  
   
- These relationships are illustrated below, and you can read more about working with iOS apps on [Introduction to Xamarin.iOS for Visual Studio](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/introduction_to_xamarin_ios_for_visual_studio/) (xamarin.com).  
+  These relationships are illustrated below, and you can read more about working with iOS apps on [Introduction to Xamarin.iOS for Visual Studio](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/introduction_to_xamarin_ios_for_visual_studio/) (xamarin.com).  
   
- ![The relationship between Windows and Mac dev computers in a Xamarin environment](../cross-platform/media/crossplat-xamarin-learn-1.png "CrossPlat Xamarin Learn 1")  
+  ![The relationship between Windows and Mac dev computers in a Xamarin environment](../cross-platform/media/crossplat-xamarin-learn-1.png "CrossPlat Xamarin Learn 1")  
   
 ## Essentials: How projects are structured  
  *10-30 minutes*  
@@ -60,15 +58,15 @@ This topic directs you to overview material that helps you understand developing
   
  You don’t need to decide which approach to take up front; apps can be implemented using a combination of both Xamarin Native and Xamarin.Forms:  
   
--   Use Xamarin.Forms to build general-purpose screens that provide similar UI and capabilities across platforms, such as logins, contact forms, and search results.  
+- Use Xamarin.Forms to build general-purpose screens that provide similar UI and capabilities across platforms, such as logins, contact forms, and search results.  
   
--   Use a variety of customization capabilities in Xamarin.Forms to adjust UI on a per-platform basis. These include the OnPlatform API that can be used from both code and XAML, creating a custom view, extending an existing renderer, and creating a custom renderer.  
+- Use a variety of customization capabilities in Xamarin.Forms to adjust UI on a per-platform basis. These include the OnPlatform API that can be used from both code and XAML, creating a custom view, extending an existing renderer, and creating a custom renderer.  
   
--   If necessary, use Xamarin Native to build screens that  use unique UI features of each platform, for example, a screen that uses native camera capture and image manipulation.  
+- If necessary, use Xamarin Native to build screens that  use unique UI features of each platform, for example, a screen that uses native camera capture and image manipulation.  
   
- We recommend always starting with a Xamarin.Forms solution to set up UI code sharing across platforms, and using the customization capabilities to make platform-specific adjustments. If and when you need wholly platform-specific screens, you can add those individually using Xamarin Native.  
+  We recommend always starting with a Xamarin.Forms solution to set up UI code sharing across platforms, and using the customization capabilities to make platform-specific adjustments. If and when you need wholly platform-specific screens, you can add those individually using Xamarin Native.  
   
- To learn more:  
+  To learn more:  
   
 1.  [Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/) (xamarin.com) provides a brief overview and the pros and cons of Xamarin.Forms vs. native UI layers (that is, Xamarin.iOS and Xamarin.Android).  
   

@@ -1,7 +1,7 @@
 ---
 title: "BP_ERROR_RESOLUTION_INFO | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,31 +21,29 @@ manager: "ghogen"
 # BP_ERROR_RESOLUTION_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_ERROR_RESOLUTION_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-error-resolution-info).  
-  
 Describes the resolution of an error breakpoint, including location, program, and thread.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct _BP_ERROR_RESOLUTION_INFO {   
-   BPERESI_FIELDS         dwFields;  
-   BP_RESOLUTION_LOCATION bpResLocation;  
-   IDebugProgram2*        pProgram;  
-   IDebugThread2*         pThread;  
-   BSTR                   bstrMessage;  
-   BP_ERROR_TYPE          dwType;  
+   BPERESI_FIELDS         dwFields;  
+   BP_RESOLUTION_LOCATION bpResLocation;  
+   IDebugProgram2*        pProgram;  
+   IDebugThread2*         pThread;  
+   BSTR                   bstrMessage;  
+   BP_ERROR_TYPE          dwType;  
 } BP_ERROR_RESOLUTION_INFO;  
 ```  
   
 ```csharp  
 public struct BP_ERROR_RESOLUTION_INFO {   
-   public uint                   dwFields;  
-   public BP_RESOLUTION_LOCATION bpResLocation;  
-   public IDebugProgram2         pProgram;  
-   public IDebugThread2          pThread;  
-   public string                 bstrMessage;  
-   public uint                   dwType;  
+   public uint                   dwFields;  
+   public BP_RESOLUTION_LOCATION bpResLocation;  
+   public IDebugProgram2         pProgram;  
+   public IDebugThread2          pThread;  
+   public string                 bstrMessage;  
+   public uint                   dwType;  
 };  
 ```  
   

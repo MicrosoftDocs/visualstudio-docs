@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentText2::GetSize | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugDocumentText2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentText2::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttext2-getsize).  
-  
 Retrieves the size of the text at this position in the document.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetSize(   
-   ULONG* pcNumLines,  
-   ULONG* pcNumChars  
+   ULONG* pcNumLines,  
+   ULONG* pcNumChars  
 );  
 ```  
   
 ```csharp  
 int GetSize(   
-   ref uint pcNumLines,  
-   ref uint pcNumChars  
+   ref uint pcNumLines,  
+   ref uint pcNumChars  
 );  
 ```  
   

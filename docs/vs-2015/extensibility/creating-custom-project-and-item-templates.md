@@ -1,7 +1,7 @@
 ---
 title: "Creating Custom Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Creating Custom Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Custom Project and Item Templates](https://docs.microsoft.com/visualstudio/extensibility/creating-custom-project-and-item-templates).  
-  
 The Visual Studio SDK includes project templates that create a custom project template and a custom  item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the zip file to the location you  
   
  The template creation templates let you include templates in larger extensions. This lets you implement version control on the source files and build a group of template projects into one VSIX package.  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Where Visual Studio Copies the Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "wpickett"
 # How to: Specify Where Visual Studio Copies the Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Where Visual Studio Copies the Files](https://docs.microsoft.com/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files).  
-  
 When you publish an application by using ClickOnce, the `Publish Location` property specifies the location where the application files and manifest are put. This can be a file path or the path to an FTP server.  
   
  You can specify the `Publish Location` property on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
@@ -36,15 +34,15 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
   
 ### To specify a publishing location  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  In the **Publish Location** field, enter the publishing location by using one of the following formats:  
+3. In the **Publish Location** field, enter the publishing location by using one of the following formats:  
   
-    -   To publish to a file share or disk path, enter the path by using either a UNC path (\\\Server\ApplicationName) or a file path (C:\Deploy\ApplicationName).  
+   - To publish to a file share or disk path, enter the path by using either a UNC path (\\\Server\ApplicationName) or a file path (C:\Deploy\ApplicationName).  
   
-    -   To publish to an FTP server, enter the path using the format ftp://ftp.microsoft.com/ApplicationName.  
+   - To publish to an FTP server, enter the path using the format ftp://ftp.microsoft.com/ApplicationName.  
   
      Note that text must be present in the **Publishing Location** box in order for the Browse (**...**) button to work.  
   

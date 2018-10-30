@@ -1,7 +1,7 @@
 ---
 title: "Collecting Thread and Process Concurrency Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,28 +21,26 @@ manager: "ghogen"
 # Collecting Thread and Process Concurrency Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Collecting Thread and Process Concurrency Data](https://docs.microsoft.com/visualstudio/profiling/collecting-thread-and-process-concurrency-data).  
-  
 The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools concurrency profiling method enables you to collect resource contention data that includes information about every synchronization event that causes a function in the profiled application to wait for access to a resource.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- You can specify the concurrency profiling method by using one of the following procedures:  
+  You can specify the concurrency profiling method by using one of the following procedures:  
   
--   On the first page of the Profiling Wizard, click **Concurrency**  
+- On the first page of the Profiling Wizard, click **Concurrency**  
   
--   On the **General** page of the properties dialog box for the performance session, click **Concurrency**.  
+- On the **General** page of the properties dialog box for the performance session, click **Concurrency**.  
   
--   On the **Performance Explorer** toolbar, in the **Method** list, click **Concurrency**.  
+- On the **Performance Explorer** toolbar, in the **Method** list, click **Concurrency**.  
   
 ## Common Tasks  
  You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:  
   
--   In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
+- In **Performance Explorer**, right-click the performance session name, and then click **Properties**.  
   
- The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the concurrency method.  
+  The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the concurrency method.  
   
 |Task|Related Content|  
 |----------|---------------------|  

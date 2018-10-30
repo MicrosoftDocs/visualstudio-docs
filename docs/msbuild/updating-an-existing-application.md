@@ -34,7 +34,7 @@ The mechanism for changing your project to avoid loading MSBuild from a central 
 
 #### Use NuGet packages (preferred)
 
-These instructions assume that you're using [PackageReference-style NuGet references](https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files).
+These instructions assume that you're using [PackageReference-style NuGet references](https://docs.microsoft.com/nuget/consume-packages/package-references-in-project-files).
 
 Change your project file(s) to reference MSBuild assemblies from their NuGet packages. Specify `ExcludeAssets=runtime` to tell NuGet that the assemblies are needed only at build time, and shouldn't be copied to the output directory.
 

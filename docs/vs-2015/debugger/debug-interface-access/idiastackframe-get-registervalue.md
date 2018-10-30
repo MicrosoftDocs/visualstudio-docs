@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackFrame::get_registerValue | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,16 +22,14 @@ manager: "ghogen"
 # IDiaStackFrame::get_registerValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackFrame::get_registerValue](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-registervalue).  
-  
 Retrieves the value of a specified register as stored in the stack frame.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_registerValue(  
-   ULONG      registerIndex,  
-   ULONGLONG *pRetVal  
+   ULONG      registerIndex,  
+   ULONGLONG *pRetVal  
 );  
 ```  
   

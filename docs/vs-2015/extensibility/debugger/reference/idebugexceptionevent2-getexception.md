@@ -1,7 +1,7 @@
 ---
 title: "IDebugExceptionEvent2::GetException | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugExceptionEvent2::GetException
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugExceptionEvent2::GetException](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexceptionevent2-getexception).  
-  
 Gets a detailed description of the exception that fired this event.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetException(   
-   EXCEPTION_INFO* pExceptionInfo  
+   EXCEPTION_INFO* pExceptionInfo  
 );  
 ```  
   
 ```csharp  
 int GetException(   
-   EXCEPTION_INFO[] pExceptionInfo  
+   EXCEPTION_INFO[] pExceptionInfo  
 );  
 ```  
   

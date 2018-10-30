@@ -1,7 +1,7 @@
 ---
 title: "Options, Text Editor, C#, Advanced | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # Options, Text Editor, C#, Advanced
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Options, Text Editor, C#, Advanced](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-csharp-advanced).  
-  
   
 Use this dialog box to modify the settings for editor formatting, code refactoring, and XML documentation comments for Visual C#. To access this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, expand **C#**, and then click **Advanced**.  
   
@@ -45,21 +43,21 @@ Use this dialog box to modify the settings for editor formatting, code refactori
  Underline errors in the editor  
  Identifies build errors in code. When this option is selected, wavy underlines appear in colors that have specific meanings:  
   
--   Parse errors are red.  
+- Parse errors are red.  
   
--   Build errors are blue.  
+- Build errors are blue.  
   
--   Build warnings are green.  
+- Build warnings are green.  
   
--   Invalid [Edit and Continue](../../debugger/edit-and-continue.md) edits are purple.  
+- Invalid [Edit and Continue](../../debugger/edit-and-continue.md) edits are purple.  
   
- Move the pointer over the underlined code segment to see a ToolTip with information about the error.  
+  Move the pointer over the underlined code segment to see a ToolTip with information about the error.  
   
- Show live semantic errors  
- Identifies certain compile errors without explicit compilation, for example, declaring and using an unknown type or referencing an unknown property.  
+  Show live semantic errors  
+  Identifies certain compile errors without explicit compilation, for example, declaring and using an unknown type or referencing an unknown property.  
   
- Highlight references to symbol under cursor  
- When the cursor is positioned inside a symbol, or when you click a symbol, all the instances of that symbol in the code file are highlighted.  
+  Highlight references to symbol under cursor  
+  When the cursor is positioned inside a symbol, or when you click a symbol, all the instances of that symbol in the code file are highlighted.  
   
 ## Refactoring  
  Verify results of refactoring  

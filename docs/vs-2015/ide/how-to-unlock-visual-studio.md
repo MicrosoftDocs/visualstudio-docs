@@ -1,7 +1,7 @@
 ---
 title: "How to Unlock Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to Unlock Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to unlock Visual Studio](https://docs.microsoft.com/visualstudio/ide/how-to-unlock-visual-studio).  
-  
 You can evaluate Visual Studio for free up to 30 days. When you sign into the IDE you can extend the trial period by 90 days. To continue using Visual Studio you can unlock the IDE by  
   
 1.  using an online subscription.  
@@ -54,13 +52,13 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
   
  This message indicates that while your subscription may still be valid, the license token Visual Studio uses to keep your subscription up to date hasn’t been refreshed and has gone stale due to one of the following reasons:  
   
-1.  You have not used Visual Studio or have had no internet connection for an extend period of time.  
+1. You have not used Visual Studio or have had no internet connection for an extend period of time.  
   
-2.  You signed out of Visual Studio.  
+2. You signed out of Visual Studio.  
   
- Before the license token goes stale, Visual Studio will first show a warning message asking you to re-enter your credentials.  
+   Before the license token goes stale, Visual Studio will first show a warning message asking you to re-enter your credentials.  
   
- If you do not reenter your credentials the token starts to go stale. When this happens, the Account Settings dialog tells you how many days you have left before your token will fully expire. After your token expires, you will need to reenter your credentials for this account or license with another method above before you can continue using Visual Studio.  
+   If you do not reenter your credentials the token starts to go stale. When this happens, the Account Settings dialog tells you how many days you have left before your token will fully expire. After your token expires, you will need to reenter your credentials for this account or license with another method above before you can continue using Visual Studio.  
   
 > [!IMPORTANT]
 >  If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio in order to avoid interruption.  

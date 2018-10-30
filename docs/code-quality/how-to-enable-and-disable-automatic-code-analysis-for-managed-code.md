@@ -1,6 +1,6 @@
 ---
-title: "How to: Enable and Disable Automatic Code Analysis for Managed Code"
-ms.date: 09/28/2018
+title: Enable or disable code analysis
+ms.date: 10/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
@@ -12,13 +12,18 @@ ms.workload:
 ---
 # How to: Enable and disable automatic code analysis for managed code
 
-You can configure code analysis to run after each build of a managed code project. You can set different code analysis properties for each build configuration, for example, debug and release.
+You can configure (static) code analysis to run after each build of a managed code project. You can set different code analysis properties for each build configuration, for example, debug and release.
+
+This article applies only to static code analysis and not live code analysis using [Roslyn code analyzers](roslyn-analyzers-overview.md).
 
 ## To enable or disable automatic code analysis
 
 1. In **Solution Explorer**, right-click the project, and then choose **Properties**.
 
 1. In the properties dialog box for the project, choose the **Code Analysis** tab.
+
+   > [!TIP]
+   > Newer project types such as .NET Core and .NET Standard applications don't have a **Code Analysis** tab. Static code analysis is not available for these project types, but you can still get live code analysis using [Roslyn code analyzers](roslyn-analyzers-overview.md). To suppress warnings from Roslyn code analyzers, see the note at the end of this article.
 
 1. Specify the build type in **Configuration** and the target platform in **Platform**.
 

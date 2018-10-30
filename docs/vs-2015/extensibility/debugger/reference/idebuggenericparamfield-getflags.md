@@ -1,7 +1,7 @@
 ---
 title: "IDebugGenericParamField::GetFlags | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,21 +20,19 @@ manager: "ghogen"
 # IDebugGenericParamField::GetFlags
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericParamField::GetFlags](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericparamfield-getflags).  
-  
 Retrieves the flags for this generic parameter.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetFlags(  
-   DWORD* pdwFlags  
+   DWORD* pdwFlags  
 );  
 ```  
   
 ```csharp  
 int GetFlags(  
-   ref uint pdwFlags  
+   ref uint pdwFlags  
 );  
 ```  
   

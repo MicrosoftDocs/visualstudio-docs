@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_type | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_type
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_type](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-type).  
-  
 Retrieves the symbol that represents the type for this symbol.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_type (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   
@@ -53,10 +51,10 @@ HRESULT get_type ( 
 IDiaSymbol*         pType;  
 CComPtr<IDiaSymbol> pBaseType;  
 if (SUCCEEDED(pType->get_type( &pBaseType ))) {  
-    BasicType btBaseType;  
-    if (SUCCEEDED(pBaseType->get_baseType((DWORD *)&btBaseType))) {  
-        // Do something with basic type.  
-    }  
+    BasicType btBaseType;  
+    if (SUCCEEDED(pBaseType->get_baseType((DWORD *)&btBaseType))) {  
+        // Do something with basic type.  
+    }  
 }  
 ```  
   

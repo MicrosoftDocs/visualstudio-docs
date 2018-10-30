@@ -1,7 +1,7 @@
 ---
 title: "Editing TableAdapters | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -121,21 +121,21 @@ Sometimes you might want to change the schema of the adapter's table. To do this
 ## Create New Stored Procedures  
  This section explains how to complete the **TableAdapter Query Configuration Wizard** when selecting the **Create new stored procedures** option.  
   
-1.  In the **Generate the Stored Procedures** page, type the SQL statement to execute when calling the stored procedure.  
+1. In the **Generate the Stored Procedures** page, type the SQL statement to execute when calling the stored procedure.  
   
-    > [!NOTE]
-    >  The wizard provides access to the **Query Builder**, a visual tool for creating SQL queries. To open it, click the **Query Builder** button.  
+   > [!NOTE]
+   >  The wizard provides access to the **Query Builder**, a visual tool for creating SQL queries. To open it, click the **Query Builder** button.  
   
-2.  In the **Create the stored procedures** page, do the following:  
+2. In the **Create the stored procedures** page, do the following:  
   
-    1.  Type a name for the new stored procedure.  
+   1. Type a name for the new stored procedure.  
   
-    2.  Specify whether to create the stored procedure in the underlying database.  
+   2. Specify whether to create the stored procedure in the underlying database.  
   
-        > [!NOTE]
-        >  The ability to create a stored procedure in the database is determined by the security settings for the specific database.  
+      > [!NOTE]
+      >  The ability to create a stored procedure in the database is determined by the security settings for the specific database.  
   
-     The **View Wizard Results** page shows the results of creating the TableAdapter query. If the wizard encounters problems, this page provides the error information.  
+      The **View Wizard Results** page shows the results of creating the TableAdapter query. If the wizard encounters problems, this page provides the error information.  
   
 ## Use Existing Stored Procedures  
  This section explains how to complete the **TableAdapter Query Configuration Wizard** when selecting the **Use existing stored procedures** option.  

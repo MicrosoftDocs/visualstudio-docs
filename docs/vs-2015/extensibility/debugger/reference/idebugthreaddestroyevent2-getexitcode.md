@@ -1,7 +1,7 @@
 ---
 title: "IDebugThreadDestroyEvent2::GetExitCode | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugThreadDestroyEvent2::GetExitCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThreadDestroyEvent2::GetExitCode](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthreaddestroyevent2-getexitcode).  
-  
 Gets the exit code for a thread.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetExitCode (   
-   DWORD* pdwExit  
+   DWORD* pdwExit  
 );  
 ```  
   
 ```csharp  
 int GetExitCode (   
-   out uint pdwExit  
+   out uint pdwExit  
 );  
 ```  
   

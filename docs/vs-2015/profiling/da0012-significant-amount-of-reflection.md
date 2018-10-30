@@ -1,7 +1,7 @@
 ---
 title: "DA0012: Significant amount of Reflection | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # DA0012: Significant amount of Reflection
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0012: Significant amount of Reflection](https://docs.microsoft.com/visualstudio/profiling/da0012-significant-amount-of-reflection).  
-  
 Rule Id|DA0012|  
 |Category|.NET Framework Usage|  
 |Profiling methods|Sampling|  

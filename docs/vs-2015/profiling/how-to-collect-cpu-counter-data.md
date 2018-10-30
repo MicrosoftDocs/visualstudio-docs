@@ -1,7 +1,7 @@
 ---
 title: "How to: Collect CPU Counter Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,35 +23,33 @@ manager: "ghogen"
 # How to: Collect CPU Counter Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Collect CPU Counter Data](https://docs.microsoft.com/visualstudio/profiling/how-to-collect-cpu-counter-data).  
-  
 A CPU event counter is used to collect hardware-specific performance data. This topic shows you how to collect event counter data when you use the instrumentation profiling method.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- Two types of CPU counter events occur:  
+  Two types of CPU counter events occur:  
   
--   Portable events - CPU events that can be collected, regardless of the specific CPU.  
+- Portable events - CPU events that can be collected, regardless of the specific CPU.  
   
--   Platform events - CPU events that are coupled to a specific CPU.  
+- Platform events - CPU events that are coupled to a specific CPU.  
   
- Portable events include general events, such as Instructions Retired and Non Halted Cycles, CPU buffer events, branching events, and L2 cache events. The available platform event counters are determined by the processor manufacturer.  
+  Portable events include general events, such as Instructions Retired and Non Halted Cycles, CPU buffer events, branching events, and L2 cache events. The available platform event counters are determined by the processor manufacturer.  
   
- Categories of events can be shared between portable and platform counters. For example, the following categories of data are frequently common to both types:  
+  Categories of events can be shared between portable and platform counters. For example, the following categories of data are frequently common to both types:  
   
--   Memory events.  
+- Memory events.  
   
--   Front end events.  
+- Front end events.  
   
--   Branch events.  
+- Branch events.  
   
- You can collect performance counter data in two ways in the Profiler:  
+  You can collect performance counter data in two ways in the Profiler:  
   
--   Collect data from one or more counters when you profile by instrumentation.  
+- Collect data from one or more counters when you profile by instrumentation.  
   
--   Specify a counter event as the sampling interval when you profile by sampling. For more information, see [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md).  
+- Specify a counter event as the sampling interval when you profile by sampling. For more information, see [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md).  
   
 ### To collect CPU performance counter data when you profile by instrumentation  
   

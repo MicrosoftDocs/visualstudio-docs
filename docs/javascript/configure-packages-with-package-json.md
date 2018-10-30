@@ -22,7 +22,7 @@ The npm package versioning system has strict rules. The version format follows h
 
     [major].[minor].[patch]
 
-Let's say you have a package in your app with a version of 5.2.1. 5 is the major version, 2 is the minor version, and 1 is the patch.
+Let's say you have a package in your app with a version of 5.2.1. The major version is 5, the minor version is 2, and the patch is 1.
 
 * In a major version update, the package includes new features that are backwards-incompatible, that is, breaking changes.
 * In a minor version update, new features have been added to the package that are backwards-compatible with earlier package versions.

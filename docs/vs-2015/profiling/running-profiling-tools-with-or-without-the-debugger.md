@@ -1,7 +1,7 @@
 ---
 title: "Running Profiling Tools With or Without the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Running Profiling Tools With or Without the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Running Profiling Tools With or Without the Debugger](https://docs.microsoft.com/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger).  
-  
 Visual Studio now offers you a choice of performance tools, some of which (for example, **CPU Usage** and **Memory Usage**) can be run with or without the debugger. Non-debugger performance tools are intended to run on Release configurations, while debugger-integrated tools are intended to run on Debug configurations.  
   
 ## Should I run the tool with or without the debugger?  
@@ -42,60 +40,60 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging  
  The following section deals with debugging locally. You can find out about debugging on a device or remote debugging, in later sections.  
   
-1.  Open the project you want to debug, then click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).  
+1. Open the project you want to debug, then click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).  
   
-2.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.  
+2. The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.  
   
-3.  Run the scenarios that you want to collect data for.  
+3. Run the scenarios that you want to collect data for.  
   
-     While you are running the session, you can see information about events, process memory, and CPU utilization.  
+    While you are running the session, you can see information about events, process memory, and CPU utilization.  
   
-     The following graphic shows the **Diagnostic Tools** window in Visual Studio 2015 Update 1:  
+    The following graphic shows the **Diagnostic Tools** window in Visual Studio 2015 Update 1:  
   
-     ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
+    ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
   
-4.  You can choose whether to see **Memory Usage** or **CPU Usage** (or both) with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.  
+4. You can choose whether to see **Memory Usage** or **CPU Usage** (or both) with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.  
   
-5.  The diagnostic session ends when you stop debugging.  
+5. The diagnostic session ends when you stop debugging.  
   
- In Visual Studio 2015 Update 1, the **Diagnostic Tools** window makes it easier for you focus on the events you are interested in.   The event names are now shown with category prefixes (**Gesture**, **Program Output**, **Breakpoint**, **File,** etc.) so you can quickly scan the list for a given category or skip the categories you don't care about.  
+   In Visual Studio 2015 Update 1, the **Diagnostic Tools** window makes it easier for you focus on the events you are interested in.   The event names are now shown with category prefixes (**Gesture**, **Program Output**, **Breakpoint**, **File,** etc.) so you can quickly scan the list for a given category or skip the categories you don't care about.  
   
- The window now has a search box so that you can find a specific string anywhere in the event list. For example, the following graphic shows the results of a search for the string "install" that matched four events:  
+   The window now has a search box so that you can find a specific string anywhere in the event list. For example, the following graphic shows the results of a search for the string "install" that matched four events:  
   
- ![DiagnosticsEventSearch](../profiling/media/diagnosticseventsearch.png "DiagnosticsEventSearch")  
+   ![DiagnosticsEventSearch](../profiling/media/diagnosticseventsearch.png "DiagnosticsEventSearch")  
   
- You can also filter events in and out of view in the window. In the **Filter** dropdown, you can check or uncheck specific categories of events:. The category names are the same as the prefix names.  
+   You can also filter events in and out of view in the window. In the **Filter** dropdown, you can check or uncheck specific categories of events:. The category names are the same as the prefix names.  
   
- ![DiagnosticEventFilter](../profiling/media/diagnosticeventfilter.png "DiagnosticEventFilter")  
+   ![DiagnosticEventFilter](../profiling/media/diagnosticeventfilter.png "DiagnosticEventFilter")  
   
- For more information, see [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx).  
+   For more information, see [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx).  
   
 ## Collect profiling data without debugging  
  Some profiling tools require administrator privileges to run. You can start Visual Studio as an administrator, or you can choose to run the tools as an administrator when you start the diagnostic session.  
   
-1.  Open the project in Visual Studio.  
+1. Open the project in Visual Studio.  
   
-2.  On the **Debug** menu, choose **Performance Profiler...** (Shortcut key: Alt + F2).  
+2. On the **Debug** menu, choose **Performance Profiler...** (Shortcut key: Alt + F2).  
   
-3.  On the diagnostic launch page, choose one or more tools to run in the session. Only the tools that are applicable to the project type, operating system, and programming language are displayed. When you choose a diagnostic tool, the selections for tools that cannot be run in the same diagnostic session are disabled. Here's how your choices might look for a C# Windows Universal app:  
+3. On the diagnostic launch page, choose one or more tools to run in the session. Only the tools that are applicable to the project type, operating system, and programming language are displayed. When you choose a diagnostic tool, the selections for tools that cannot be run in the same diagnostic session are disabled. Here's how your choices might look for a C# Windows Universal app:  
   
-     ![Select the diagnostic tools](../profiling/media/diag-selecttool.png "DIAG_SelectTool")  
+    ![Select the diagnostic tools](../profiling/media/diag-selecttool.png "DIAG_SelectTool")  
   
-4.  To start the diagnostic session, click **Start**.  
+4. To start the diagnostic session, click **Start**.  
   
-5.  Run the scenarios for which you want to collect data.  
+5. Run the scenarios for which you want to collect data.  
   
-     While you are running the session, some tools display graphs of real-time data on the diagnostic tools launch page.  
+    While you are running the session, some tools display graphs of real-time data on the diagnostic tools launch page.  
   
-     ![Collect data on the Performance and Diagnostic pag](../profiling/media/pdhub-collectdata.png "PDHUB_CollectData")  
+    ![Collect data on the Performance and Diagnostic pag](../profiling/media/pdhub-collectdata.png "PDHUB_CollectData")  
   
-6.  To end the diagnostic session, click **Stop collection**.  
+6. To end the diagnostic session, click **Stop collection**.  
   
- When you stop collecting data in a diagnostic session, the data is analyzed and the report is displayed in the Diagnostic page.  
+   When you stop collecting data in a diagnostic session, the data is analyzed and the report is displayed in the Diagnostic page.  
   
- You can also open saved .diagnostic session files from the recently opened list on the diagnostic tools launch page.  
+   You can also open saved .diagnostic session files from the recently opened list on the diagnostic tools launch page.  
   
- ![Open a saved diagnosis session file](../profiling/media/pdhub-openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
+   ![Open a saved diagnosis session file](../profiling/media/pdhub-openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
   
 ## The profiling report  
  ![Diagnostic tools report](../profiling/media/diag-report.png "DIAG_Report")  

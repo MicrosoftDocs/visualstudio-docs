@@ -1,7 +1,7 @@
 ---
 title: "VSPerf | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,15 +18,13 @@ manager: "ghogen"
 # VSPerf
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VSPerf](https://docs.microsoft.com/visualstudio/profiling/vsperf).  
-  
 Use the **VsPerf** command line tool to:  
   
-1.  Profile Windows Store apps from the command line when Visual Studio is not installed on the device.  
+1. Profile Windows Store apps from the command line when Visual Studio is not installed on the device.  
   
-2.  Profile Windows 8 desktop applications and Windows Server 2012 applications using the sampling profiling method.  
+2. Profile Windows 8 desktop applications and Windows Server 2012 applications using the sampling profiling method.  
   
- For more information about your profiling options, see [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+   For more information about your profiling options, see [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  This topic describes the options that you can use with the `vsperf.exe` command line tool. The topic contains the following sections:  
@@ -54,7 +52,7 @@ Use the **VsPerf** command line tool to:
 |||  
 |-|-|  
 |**/launch:{Executable}**|Starts and begins profiling the specified executable file.|  
-|**/args:{ExecutableArguments}**|Specifies command line arguments to pass the the **/launch** target.|  
+|**/args:{ExecutableArguments}**|Specifies command line arguments to pass the **/launch** target.|  
 |**/console**|Runs the **/launch** target in a new command window.|  
   
 ##  <a name="BKMK_All_applications"></a> All applications  

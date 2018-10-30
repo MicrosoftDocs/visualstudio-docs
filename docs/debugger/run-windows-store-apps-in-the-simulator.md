@@ -109,35 +109,35 @@ The Visual Studio simulator for UWP apps is a desktop application that simulates
   
  To simulate network properties:  
   
-1.  On the simulator toolbar, choose the **Change network properties** button.  
+1. On the simulator toolbar, choose the **Change network properties** button.  
   
-2.  On the **Set Network Properties** dialog box, select **Use simulated network properties**.  
+2. On the **Set Network Properties** dialog box, select **Use simulated network properties**.  
   
-     Clear the check box to remove the simulation and return to the network properties of the currently connected interface.  
+    Clear the check box to remove the simulation and return to the network properties of the currently connected interface.  
   
-3.  Enter a **Profile Name** for the simulated network. We recommend using a unique name that you can use to identify the simulation in the [ProfileName](/uwp/api/windows.networking.connectivity.connectionprofile) property of the [ConnectionProfile](/uwp/api/windows.networking.connectivity.connectionprofile) object.  
+3. Enter a **Profile Name** for the simulated network. We recommend using a unique name that you can use to identify the simulation in the [ProfileName](/uwp/api/windows.networking.connectivity.connectionprofile) property of the [ConnectionProfile](/uwp/api/windows.networking.connectivity.connectionprofile) object.  
   
-4.  Select the [NetworkCostType](/uwp/api/windows.networking.connectivity.networkcosttype) value for the profile from the **Network Cost Type** list.  
+4. Select the [NetworkCostType](/uwp/api/windows.networking.connectivity.networkcosttype) value for the profile from the **Network Cost Type** list.  
   
-5.  From the **Data Limit Status Flag** list, you can set the [ApproachingDataLimit](/uwp/api/windows.networking.connectivity.connectioncost) property or the [OverDataLimit](/uwp/api/windows.networking.connectivity.connectioncost) property to true, or you can choose **Under Data Limit** to set both values to false.  
+5. From the **Data Limit Status Flag** list, you can set the [ApproachingDataLimit](/uwp/api/windows.networking.connectivity.connectioncost) property or the [OverDataLimit](/uwp/api/windows.networking.connectivity.connectioncost) property to true, or you can choose **Under Data Limit** to set both values to false.  
   
-6.  From the **Roaming State** list, set the [Roaming](/uwp/api/windows.networking.connectivity.connectioncost) property.  
+6. From the **Roaming State** list, set the [Roaming](/uwp/api/windows.networking.connectivity.connectioncost) property.  
   
-7.  Choose **Set Properties** to simulate the network properties by triggering a foreground [NetworkStatusChanged](/uwp/api/windows.networking.connectivity.networkinformation) event and a background [SystemTrigger](/uwp/api/windows.applicationmodel.background.systemtrigger) of type **NetworkStateChange**.  
+7. Choose **Set Properties** to simulate the network properties by triggering a foreground [NetworkStatusChanged](/uwp/api/windows.networking.connectivity.networkinformation) event and a background [SystemTrigger](/uwp/api/windows.applicationmodel.background.systemtrigger) of type **NetworkStateChange**.  
   
- **More information about managing network connections**  
+   **More information about managing network connections**  
   
- [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
+   [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
   
- [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
+   [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
   
- [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
+   [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
   
- [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity)  
+   [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity)  
   
- [How to respond to system events with background tasks](/previous-versions/windows/apps/hh977058(v=win.10))  
+   [How to respond to system events with background tasks](/previous-versions/windows/apps/hh977058(v=win.10))  
   
- [How to trigger suspend, resume, and background events in UWP apps](/visualstudio/debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio)  
+   [How to trigger suspend, resume, and background events in UWP apps](/visualstudio/debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio)  
   
 ##  <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> Navigate the simulator with the keyboard  
  You can navigate the simulator toolbar by pressing **CTRL + ALT + Up Arrow** to switch focus from the simulator window to the simulator toolbar. Use the **Up Arrow** and the **Down Arrow** to move between toolbar buttons.  

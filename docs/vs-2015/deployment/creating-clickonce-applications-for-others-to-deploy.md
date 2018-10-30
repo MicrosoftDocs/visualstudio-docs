@@ -1,7 +1,7 @@
 ---
 title: "Creating ClickOnce Applications for Others to Deploy | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,8 +34,6 @@ manager: "wpickett"
 # Creating ClickOnce Applications for Others to Deploy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating ClickOnce Applications for Others to Deploy](https://docs.microsoft.com/visualstudio/deployment/creating-clickonce-applications-for-others-to-deploy).  
-  
 Not all developers who are creating ClickOnce deployments plan to deploy the applications themselves. Many of them just package their application by using ClickOnce and then hand the files off to a customer, such as a large corporation. The customer becomes the one responsible for hosting the application on its network. This topic discusses some of the problems inherent in such deployments in versions of the .NET Framework prior to version 3.5. It then describes a new solution provided by using the new "use manifest for trust" feature in the .NET Framework 3.5. Finally, it concludes with recommended strategies for creating ClickOnce deployments for customers who are still using older versions of the .NET Framework.  
   
 ## Issues Involved in Creating Deployments for Customers  
@@ -88,13 +86,13 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
   
  There are three ways that the customer can sign the deployment manifest in this situation:  
   
-1.  The customer can use a valid certificate issued by a certification authority (CA).  
+1. The customer can use a valid certificate issued by a certification authority (CA).  
   
-2.  As a variation on this approach, the customer can choose to sign their deployment manifest with a self-signed certificate. The drawback to this is that it will cause the application to display the words "Unknown Publisher" when the user is asked whether to install it. However, the benefit is that it prevents smaller customers from having to spend the time and money required for a certificate issued by a certification authority.  
+2. As a variation on this approach, the customer can choose to sign their deployment manifest with a self-signed certificate. The drawback to this is that it will cause the application to display the words "Unknown Publisher" when the user is asked whether to install it. However, the benefit is that it prevents smaller customers from having to spend the time and money required for a certificate issued by a certification authority.  
   
-3.  Finally, the developer can include their own self-signed certificate in the setup package. This introduces the potential problems with application identity discussed earlier in this topic.  
+3. Finally, the developer can include their own self-signed certificate in the setup package. This introduces the potential problems with application identity discussed earlier in this topic.  
   
- The drawback to the setup deployment project method is the time and expense required to build a custom deployment application.  
+   The drawback to the setup deployment project method is the time and expense required to build a custom deployment application.  
   
 ### Have Customer Generate Deployment Manifest  
  A third possible deployment strategy is to hand only the application files and application manifest off to the customer. In this scenario, the customer is responsible for using the .NET Framework SDK to generate and sign the deployment manifest.  

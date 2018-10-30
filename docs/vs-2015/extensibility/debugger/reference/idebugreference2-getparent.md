@@ -1,7 +1,7 @@
 ---
 title: "IDebugReference2::GetParent | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugReference2::GetParent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::GetParent](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-getparent).  
-  
 Gets the parent reference of a reference. Reserved for future use.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetParent (   
-   IDebugReference2** ppParent  
+   IDebugReference2** ppParent  
 );  
 ```  
   
 ```csharp  
 int GetParent (   
-   out IDebugReference2 ppParent  
+   out IDebugReference2 ppParent  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Test Windows UWP and 8.1 Phone Apps with Coded UI Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Test Windows UWP and 8.1 Phone Apps with Coded UI Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Test Windows UWP and 8.1 Phone Apps with Coded UI Tests](https://docs.microsoft.com/visualstudio/test/test-windows-phone-8-1-apps-with-coded-ui-tests).  
-  
 Use this walkthrough for creating UI tests for UWP apps that run on mobile device or emulators and XAML-based Phone 8.1 apps.   
   
 ## Create a simple Windows Phone app  
@@ -81,37 +79,37 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
 
 [How do I create coded UI tests for Universal Windows Platform (UWP) apps?](#uwpapps)
   
-1.  Add a new coded UI test project to the solution with the Windows Phone app.  
+1. Add a new coded UI test project to the solution with the Windows Phone app.  
   
-     ![Create new coded UI  test for Windows Phone](../test/media/cuit-phone-newproject.png "CUIT_Phone_NewProject")  
+    ![Create new coded UI  test for Windows Phone](../test/media/cuit-phone-newproject.png "CUIT_Phone_NewProject")  
   
-2.  Choose to edit the UI map using the cross-hair tool.  
+2. Choose to edit the UI map using the cross-hair tool.  
   
-     ![Generate coded UI test using cross&#45;hair tool.](../test/media/cuit-phone-howgencodedialog.png "CUIT_Phone_HowGenCodeDialog")  
+    ![Generate coded UI test using cross&#45;hair tool.](../test/media/cuit-phone-howgencodedialog.png "CUIT_Phone_HowGenCodeDialog")  
   
-3.  Use the cross-hair tool to select the app, then copy the value for the app’s **AutomationId** property, which will be used later to start the app in the test.  
+3. Use the cross-hair tool to select the app, then copy the value for the app’s **AutomationId** property, which will be used later to start the app in the test.  
   
-     ![Copy the app's AutomationId value](../test/media/cuit-phone-getautomationid.png "CUIT_Phone_GetAutomationId")  
+    ![Copy the app's AutomationId value](../test/media/cuit-phone-getautomationid.png "CUIT_Phone_GetAutomationId")  
   
-4.  In the emulator, start the app and use the cross-hair tool to select the button control. Then add the button control to the UI control map.  
+4. In the emulator, start the app and use the cross-hair tool to select the button control. Then add the button control to the UI control map.  
   
-     ![Use the cross&#45;hair tool to map controls](../test/media/cuit-phone-mapbuttoncontrol.png "CUIT_Phone_MapButtonControl")  
+    ![Use the cross&#45;hair tool to map controls](../test/media/cuit-phone-mapbuttoncontrol.png "CUIT_Phone_MapButtonControl")  
   
-5.  To add the textbox control to the UI control map, repeat the previous step.  
+5. To add the textbox control to the UI control map, repeat the previous step.  
   
-     ![Use the cross&#45;hair tool and map textbox control](../test/media/cuit-phone-maptextboxcontrol.png "CUIT_Phone_MapTextBoxControl")  
+    ![Use the cross&#45;hair tool and map textbox control](../test/media/cuit-phone-maptextboxcontrol.png "CUIT_Phone_MapTextBoxControl")  
   
-6.  Generate code to create code for changes to the UI control map.  
+6. Generate code to create code for changes to the UI control map.  
   
-     ![Generate code from the builder](../test/media/cuit-phone-generatecode.png "CUIT_Phone_GenerateCode")  
+    ![Generate code from the builder](../test/media/cuit-phone-generatecode.png "CUIT_Phone_GenerateCode")  
   
-7.  Use the cross-hair tool to select the textbox control, and then select the **Text** property.  
+7. Use the cross-hair tool to select the textbox control, and then select the **Text** property.  
   
-     ![Select the Text property](../test/media/cuit-phone-textproperty.png "CUIT_Phone_TextProperty")  
+    ![Select the Text property](../test/media/cuit-phone-textproperty.png "CUIT_Phone_TextProperty")  
   
-8.  Add an assertion. It will be used in the test to verify that the value is correct.  
+8. Add an assertion. It will be used in the test to verify that the value is correct.  
   
-     ![Add assertion to the test](../test/media/cuit-phone-addassertion.png "CUIT_Phone_AddAssertion")  
+    ![Add assertion to the test](../test/media/cuit-phone-addassertion.png "CUIT_Phone_AddAssertion")  
   
 9. Add and generate code for the assert method.  
   
@@ -219,37 +217,37 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
 11. In Solution Explorer, open the CodedUITest1.cs or CodedUITest1.vb file. You can now add code to the CodedUTTestMethod1 method for the actions needed to run the test. Use the controls that were added to the UIMap to add code:  
   
-    1.  Launch the Windows Phone app using the automation ID property you copied to the clipboard previously:  
+    1. Launch the Windows Phone app using the automation ID property you copied to the clipboard previously:  
   
-        ```csharp  
-        XamlWindow myAppWindow = XamlWindow.Launch("ed85f6ff-2fd1-4ec5-9eef-696026c3fa7b_cyrqexqw8cc7c!App");  
-        ```  
+       ```csharp  
+       XamlWindow myAppWindow = XamlWindow.Launch("ed85f6ff-2fd1-4ec5-9eef-696026c3fa7b_cyrqexqw8cc7c!App");  
+       ```  
   
-        ```vb  
-        XamlWindow.Launch("ed85f6ff-2fd1-4ec5-9eef-696026c3fa7b_cyrqexqw8cc7c!App");  
-        ```  
+       ```vb  
+       XamlWindow.Launch("ed85f6ff-2fd1-4ec5-9eef-696026c3fa7b_cyrqexqw8cc7c!App");  
+       ```  
   
-    2.  Add a gesture to tap the button control:  
+    2. Add a gesture to tap the button control:  
   
-        ```csharp  
-        Gesture.Tap(this.UIMap.UIApp1Window.UIButtonButton);  
-        ```  
+       ```csharp  
+       Gesture.Tap(this.UIMap.UIApp1Window.UIButtonButton);  
+       ```  
   
-        ```vb  
-        Gesture.Tap(Me.UIMap.UIApp1Window.UIButtonButton)  
-        ```  
+       ```vb  
+       Gesture.Tap(Me.UIMap.UIApp1Window.UIButtonButton)  
+       ```  
   
-    3.  Verify that the call to the assert method that was automatically generated comes after launching the app and tap gesture on the button:  
+    3. Verify that the call to the assert method that was automatically generated comes after launching the app and tap gesture on the button:  
   
-        ```csharp  
-        this.UIMap.AssertMethod1();  
-        ```  
+       ```csharp  
+       this.UIMap.AssertMethod1();  
+       ```  
   
-        ```vb  
-        Me.UIMap.AssertMethod1()  
-        ```  
+       ```vb  
+       Me.UIMap.AssertMethod1()  
+       ```  
   
-     After the code is added, the CodedUITestMethod1 test method should appear as follows:  
+       After the code is added, the CodedUITestMethod1 test method should appear as follows:  
   
     ```csharp  
     [TestMethod]  
@@ -336,11 +334,11 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 ### Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?  
  **A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:  
   
--   A UWP app running on local machine will run as a Store app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
+- A UWP app running on local machine will run as a Store app. To test this, you must use the **Coded UI Test Project (Windows)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows** node.  
   
--   A UWP app running on mobile device or emulator will run as a Phone app. To test this, you must use the **Coded UI Test Project (Windows Phone)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows Phone** node.  
+- A UWP app running on mobile device or emulator will run as a Phone app. To test this, you must use the **Coded UI Test Project (Windows Phone)** template. To find this template when you create a new project, go to the **Windows**, **Universal** node. Or go to the **Windows**, **Windows 8**, **Windows Phone** node.  
   
- After you create the project, authoring a test stays the same as before.  
+  After you create the project, authoring a test stays the same as before.  
   
 ### Q: Can I select controls that are outside the emulator?  
  **A**: No, the builder will not detect them.  

@@ -16,18 +16,18 @@ ms.workload:
   - "multiple"
 ---
 # How to: Specify which target to build first
-A project file can contain one or more `Target` elements that define how the project is built. The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]) engine builds the first project it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **/target** switch.  
+A project file can contain one or more `Target` elements that define how the project is built. The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]) engine builds the first project it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **-target** switch.  
   
 ## Use the InitialTargets attribute  
  The `InitialTargets` attribute of the `Project` element specifies a target that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.  
   
 #### To specify one initial target  
   
--   Specify the default target in the `InitialTargets` attribute of the `Project` element. For example:  
+- Specify the default target in the `InitialTargets` attribute of the `Project` element. For example:  
   
-     `<Project InitialTargets="Clean">`  
+   `<Project InitialTargets="Clean">`  
   
- You can specify more than one initial target in the `InitialTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.  
+  You can specify more than one initial target in the `InitialTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.  
   
 #### To specify more than one initial target  
   
@@ -40,11 +40,11 @@ A project file can contain one or more `Target` elements that define how the pro
   
 #### To specify one default target  
   
--   Specify the default target in the `DefaultTargets` attribute of the `Project` element. For example:  
+- Specify the default target in the `DefaultTargets` attribute of the `Project` element. For example:  
   
-     `<Project DefaultTargets="Compile">`  
+   `<Project DefaultTargets="Compile">`  
   
- You can specify more than one default target in the `DefaultTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.  
+  You can specify more than one default target in the `DefaultTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.  
   
 #### To specify more than one default target  
   
@@ -52,20 +52,21 @@ A project file can contain one or more `Target` elements that define how the pro
   
      `<Project DefaultTargets="Clean;Compile">`  
   
-## Use the /target Switch  
- If a default target is not defined in the project file, or if you do not want to use that default target, you can use the command line switch **/target** to specify a different target. The target or targets specified with the **/target** switch are run instead of the targets specified by the `DefaultTargets` attribute. Targets specified in the `InitialTargets` attribute always run first.  
-  
+## Use the -target Switch  
+ If a default target is not defined in the project file, or if you do not want to use that default target, you can use the command line switch **-target** to specify a different target. The target or targets specified with the **-target** switch are run instead of the targets specified by the `DefaultTargets` attribute. Targets specified in the `InitialTargets` attribute always run first.  
+ 
+ 
 #### To use a target other than the default target first  
   
--   Specify the target as the first target using the **/target** command line switch. For example:  
+-   Specify the target as the first target using the **-target** command line switch. For example:  
   
-     `msbuild file.proj /target:Clean`  
+     `msbuild file.proj -target:Clean`  
   
 #### To use several targets other than the default targets first  
   
--   List the targets, separated by semicolons or commas, using the **/target** command line switch. For example:  
+-   List the targets, separated by semicolons or commas, using the **-target** command line switch. For example:  
   
-     `msbuild <file name>.proj /t:Clean;Compile`  
+     `msbuild <file name>.proj -t:Clean;Compile`  
   
 ## See also
   [MSBuild](../msbuild/msbuild.md)  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Manually Package an Extension (VSIX Deployment) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,13 +16,13 @@ manager: "douge"
 # How to: Manually Package an Extension (VSIX Deployment)
 You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension for deployment. There are three ways to create the package:  
   
--   Create a VSIX package project by using one of the extensibility templates that are included in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] SDK. This is the easiest option for most scenarios.  
+- Create a VSIX package project by using one of the extensibility templates that are included in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] SDK. This is the easiest option for most scenarios.  
   
--   Wrap the output of your extension project in an empty [VSIX Project](../extensibility/vsix-project-template.md). We recommend this option for templates, unsupported assemblies, and custom types.  
+- Wrap the output of your extension project in an empty [VSIX Project](../extensibility/vsix-project-template.md). We recommend this option for templates, unsupported assemblies, and custom types.  
   
--   Manually create a VSIX package. We recommend this option only when the other two options are not available.  
+- Manually create a VSIX package. We recommend this option only when the other two options are not available.  
   
- This document describes the third option.  
+  This document describes the third option.  
   
 ## Creating a VSIX Package  
  To manually package an extension, add an extension.manifest file and a [Content_Types].xml file to the extension project, put them in a compressed file together with your build output, and rename the compressed file so that it has a .vsix file name extension. The extension to be packaged must be of a type that is supported by the [VSIX schema](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).  

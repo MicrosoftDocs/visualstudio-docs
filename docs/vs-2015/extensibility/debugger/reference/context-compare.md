@@ -1,7 +1,7 @@
 ---
 title: "CONTEXT_COMPARE | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,38 +21,36 @@ manager: "ghogen"
 # CONTEXT_COMPARE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CONTEXT_COMPARE](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/context-compare).  
-  
 Specifies the criteria for comparing two memory contexts.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_CONTEXT_COMPARE {   
-   CONTEXT_EQUAL                 = 0x0001,  
-   CONTEXT_LESS_THAN             = 0x0002,  
-   CONTEXT_GREATER_THAN          = 0x0003,  
-   CONTEXT_LESS_THAN_OR_EQUAL    = 0x0004,  
-   CONTEXT_GREATER_THAN_OR_EQUAL = 0x0005,  
-   CONTEXT_SAME_SCOPE            = 0x0006,  
-   CONTEXT_SAME_FUNCTION         = 0x0007,  
-   CONTEXT_SAME_MODULE           = 0x0008,  
-   CONTEXT_SAME_PROCESS          = 0x0009  
+   CONTEXT_EQUAL                 = 0x0001,  
+   CONTEXT_LESS_THAN             = 0x0002,  
+   CONTEXT_GREATER_THAN          = 0x0003,  
+   CONTEXT_LESS_THAN_OR_EQUAL    = 0x0004,  
+   CONTEXT_GREATER_THAN_OR_EQUAL = 0x0005,  
+   CONTEXT_SAME_SCOPE            = 0x0006,  
+   CONTEXT_SAME_FUNCTION         = 0x0007,  
+   CONTEXT_SAME_MODULE           = 0x0008,  
+   CONTEXT_SAME_PROCESS          = 0x0009  
 };  
 typedef DWORD CONTEXT_COMPARE;  
 ```  
   
 ```csharp  
 public enum enum_CONTEXT_COMPARE {   
-   CONTEXT_EQUAL                 = 0x0001,  
-   CONTEXT_LESS_THAN             = 0x0002,  
-   CONTEXT_GREATER_THAN          = 0x0003,  
-   CONTEXT_LESS_THAN_OR_EQUAL    = 0x0004,  
-   CONTEXT_GREATER_THAN_OR_EQUAL = 0x0005,  
-   CONTEXT_SAME_SCOPE            = 0x0006,  
-   CONTEXT_SAME_FUNCTION         = 0x0007,  
-   CONTEXT_SAME_MODULE           = 0x0008,  
-   CONTEXT_SAME_PROCESS          = 0x0009  
+   CONTEXT_EQUAL                 = 0x0001,  
+   CONTEXT_LESS_THAN             = 0x0002,  
+   CONTEXT_GREATER_THAN          = 0x0003,  
+   CONTEXT_LESS_THAN_OR_EQUAL    = 0x0004,  
+   CONTEXT_GREATER_THAN_OR_EQUAL = 0x0005,  
+   CONTEXT_SAME_SCOPE            = 0x0006,  
+   CONTEXT_SAME_FUNCTION         = 0x0007,  
+   CONTEXT_SAME_MODULE           = 0x0008,  
+   CONTEXT_SAME_PROCESS          = 0x0009  
 };  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Shell | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,66 +20,64 @@ manager: "ghogen"
 # Visual Studio Shell
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio Shell](https://docs.microsoft.com/visualstudio/extensibility/internals/visual-studio-shell).  
-  
 The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] shell is the primary agent of integration in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.  
   
 ## Shell Responsibilities  
  The shell has the following key responsibilities:  
   
--   Supporting (through COM interfaces) basic elements of the user interface (UI). These include default menus and toolbars, document window frames or multi-document interface (MDI) child windows, and tool window frames, and docking support.  
+- Supporting (through COM interfaces) basic elements of the user interface (UI). These include default menus and toolbars, document window frames or multi-document interface (MDI) child windows, and tool window frames, and docking support.  
   
--   Maintaining a running list of all currently open documents in a running document table (RDT) in order to coordinate the persistence of documents and to guarantee that one document cannot be opened in more than one way, or in incompatible ways.  
+- Maintaining a running list of all currently open documents in a running document table (RDT) in order to coordinate the persistence of documents and to guarantee that one document cannot be opened in more than one way, or in incompatible ways.  
   
--   Supporting the command-routing and command-handling interface, `IOleCommandTarget`.  
+- Supporting the command-routing and command-handling interface, `IOleCommandTarget`.  
   
--   Loading VSPackages at appropriate times. Delay-loading a VSPackage is necessary to improving performance of the shell.  
+- Loading VSPackages at appropriate times. Delay-loading a VSPackage is necessary to improving performance of the shell.  
   
--   Managing certain shared services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>, which provides basic shell functionality, and <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which supplies basic windowing functionality.  
+- Managing certain shared services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>, which provides basic shell functionality, and <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which supplies basic windowing functionality.  
   
--   Managing the solution (.sln) files. Solutions contain groups of related projects, similar to workspace (.dsw) files in Visual C++ 6.0.  
+- Managing the solution (.sln) files. Solutions contain groups of related projects, similar to workspace (.dsw) files in Visual C++ 6.0.  
   
--   Tracking shell-wide selection, context, and currency. The shell tracks the following types of items:  
+- Tracking shell-wide selection, context, and currency. The shell tracks the following types of items:  
   
-    -   The current project  
+  -   The current project  
   
-    -   The current project item or ItemID the current <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>  
+  -   The current project item or ItemID the current <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>  
   
-    -   The current selection for the **Properties** window or `SelectionContainer`  
+  -   The current selection for the **Properties** window or `SelectionContainer`  
   
-    -   The UI context IDs or CmdUIGuids that control the visibility of commands, menus, and toolbars  
+  -   The UI context IDs or CmdUIGuids that control the visibility of commands, menus, and toolbars  
   
-    -   The currently active elements such as the active window, document, and undo manager  
+  -   The currently active elements such as the active window, document, and undo manager  
   
-    -   The User Context attributes that drive Dynamic Help  
+  -   The User Context attributes that drive Dynamic Help  
   
- The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. These core features include the following items:  
+  The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. These core features include the following items:  
   
--   **About** dialog box and splash screen  
+- **About** dialog box and splash screen  
   
--   **Add New and Add Existing Item** dialog boxes  
+- **Add New and Add Existing Item** dialog boxes  
   
--   **Class View** window and **Object Browser**  
+- **Class View** window and **Object Browser**  
   
--   **References** dialog box  
+- **References** dialog box  
   
--   **Document Outline** window  
+- **Document Outline** window  
   
--   **Dynamic Help** window  
+- **Dynamic Help** window  
   
--   **Find** and **Replace**  
+- **Find** and **Replace**  
   
--   **Open Project** and **Open File** dialog boxes on the **New** menu  
+- **Open Project** and **Open File** dialog boxes on the **New** menu  
   
--   **Options** dialog box on the **Tools** menu  
+- **Options** dialog box on the **Tools** menu  
   
--   **Properties** window  
+- **Properties** window  
   
--   **Solution Explorer**  
+- **Solution Explorer**  
   
--   **Task List** window  
+- **Task List** window  
   
--   **Toolbox**  
+- **Toolbox**  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   

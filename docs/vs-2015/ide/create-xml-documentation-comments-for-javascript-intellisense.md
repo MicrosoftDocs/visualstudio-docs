@@ -1,7 +1,7 @@
 ---
 title: "Create XML Documentation Comments for JavaScript IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Create XML Documentation Comments for JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual Studio 2017 Documentation](https://docs.microsoft.com/en-us/visualstudio/).  
-  
 *XML documentation comments* are JavaScript comments that you add to a script to provide information about code elements such as functions, fields, and variables. In Visual Studio, these text descriptions are displayed with IntelliSense when you reference the script function.  
   
  This topic provides a basic tutorial on using XML documentation comments. For information about using other elements, such as [\<var>](../ide/var-javascript.md) and [\<value>](../ide/value-javascript.md), and for additional code examples, see [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md). For information about providing IntelliSense information for an asynchronous callback such as a `Promise`, see [\<returns>](../ide/returns-javascript.md).  

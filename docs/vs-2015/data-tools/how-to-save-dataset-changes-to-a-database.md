@@ -1,7 +1,7 @@
 ---
 title: "How to: Save Dataset Changes to a Database | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -63,15 +63,15 @@ After the data in your dataset has been modified and validated, you probably wan
 ## Updating Two Related Tables in a Dataset  
  When updating related tables in a dataset, it is important to update in the proper sequence to reduce the chance of violating referential integrity constraints. The order of command execution will also follow the indices of the <xref:System.Data.DataRowCollection> in the dataset. To prevent data integrity errors from being raised, the best practice is to update the database in the following sequence:  
   
-1.  Child table: delete records.  
+1. Child table: delete records.  
   
-2.  Parent table: insert, update, and delete records.  
+2. Parent table: insert, update, and delete records.  
   
-3.  Child table: insert and update records.  
+3. Child table: insert and update records.  
   
- For detailed information on saving data from multiple tables, see [Save data to a database (multiple tables)](../data-tools/save-data-to-a-database-multiple-tables.md).  
+   For detailed information on saving data from multiple tables, see [Save data to a database (multiple tables)](../data-tools/save-data-to-a-database-multiple-tables.md).  
   
- If you are updating two or more related tables, then you should include all the update logic within a transaction. A transaction is a process that assures all related changes to a database are successful before committing any changes. For more information see, [Transactions and Concurrency](http://msdn.microsoft.com/library/f46570de-9e50-4fe6-8710-a8c31fa8569b).  
+   If you are updating two or more related tables, then you should include all the update logic within a transaction. A transaction is a process that assures all related changes to a database are successful before committing any changes. For more information see, [Transactions and Concurrency](http://msdn.microsoft.com/library/f46570de-9e50-4fe6-8710-a8c31fa8569b).  
   
 #### To update two related tables using a TableAdapter  
   

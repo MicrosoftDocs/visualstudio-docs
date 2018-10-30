@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1601: Do not use timers that prevent power state changes
+
 |||
 |-|-|
 |TypeName|DoNotUseTimersThatPreventPowerStateChanges|

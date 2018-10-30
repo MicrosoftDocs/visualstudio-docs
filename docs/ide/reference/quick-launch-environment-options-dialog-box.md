@@ -28,7 +28,7 @@ You can use **Quick Launch** to quickly search and execute actions for IDE asset
  You can use the following shortcuts to limit your search to specific categories.
 
 |Category|Shortcut|Shortcut Description|
-|--------------|--------------|--------------------------|
+|--------------|--------------| - |
 |Most recently used|@mru<br /><br /> For example, `@mru font`|Displays up to five of the items that you **Most Recently Used**.|
 |Menus|@menu<br /><br /> For example, `@menu font`|Limits the search to menu items.|
 |Options|@opt<br /><br /> For example, `@opt font`|Limits the search to settings in the **Options** dialog box.|

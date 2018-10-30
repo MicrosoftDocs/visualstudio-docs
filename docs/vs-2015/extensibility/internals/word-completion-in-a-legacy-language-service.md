@@ -1,7 +1,7 @@
 ---
 title: "Word Completion in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Word Completion in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Word Completion in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/word-completion-in-a-legacy-language-service).  
-  
 Word completion fills in the missing characters on a partially typed word. If there is only one possible completion, the word is completed when the completion character is entered. If the partial word matches more than one possibility, a list of possible completions is displayed. A completion character can be any character that is not used for identifiers.  
   
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).  
@@ -32,15 +30,15 @@ Word completion fills in the missing characters on a partially typed word. If th
   
 ## Implementation Steps  
   
-1.  When the user selects **Complete Word** from the **IntelliSense** menu, the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> command is sent to the language service.  
+1. When the user selects **Complete Word** from the **IntelliSense** menu, the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> command is sent to the language service.  
   
-2.  The <xref:Microsoft.VisualStudio.Package.ViewFilter> class catches the command and calls the <xref:Microsoft.VisualStudio.Package.Source.Completion%2A> method with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>.  
+2. The <xref:Microsoft.VisualStudio.Package.ViewFilter> class catches the command and calls the <xref:Microsoft.VisualStudio.Package.Source.Completion%2A> method with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>.  
   
-3.  The <xref:Microsoft.VisualStudio.Package.Source> class then calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method to get the list of possible word completions and then displays the words in a tool tip list using the <xref:Microsoft.VisualStudio.Package.CompletionSet> class.  
+3. The <xref:Microsoft.VisualStudio.Package.Source> class then calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method to get the list of possible word completions and then displays the words in a tool tip list using the <xref:Microsoft.VisualStudio.Package.CompletionSet> class.  
   
-     If there is only one matching word, the <xref:Microsoft.VisualStudio.Package.Source> class completes the word.  
+    If there is only one matching word, the <xref:Microsoft.VisualStudio.Package.Source> class completes the word.  
   
- Alternatively, if the scanner returns the trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> when the first character of an identifier is typed, the <xref:Microsoft.VisualStudio.Package.Source> class detects this and calls the <xref:Microsoft.VisualStudio.Package.Source.Completion%2A> method with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>. In this case the parser must detect the presence of a member selection character and provide a list of members.  
+   Alternatively, if the scanner returns the trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> when the first character of an identifier is typed, the <xref:Microsoft.VisualStudio.Package.Source> class detects this and calls the <xref:Microsoft.VisualStudio.Package.Source.Completion%2A> method with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>. In this case the parser must detect the presence of a member selection character and provide a list of members.  
   
 ## Enabling Support for the Complete Word  
  To enable support for word completion set the `CodeSense` named parameter passed to the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> user attribute associated with the language package. This sets the <xref:Microsoft.VisualStudio.Package.LanguagePreferences.EnableCodeSense%2A> property on the <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class.  

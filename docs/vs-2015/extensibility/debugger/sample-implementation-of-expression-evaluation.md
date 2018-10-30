@@ -1,7 +1,7 @@
 ---
 title: "Sample Implementation of Expression Evaluation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Sample Implementation of Expression Evaluation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Sample Implementation of Expression Evaluation](https://docs.microsoft.com/visualstudio/extensibility/debugger/sample-implementation-of-expression-evaluation).  
-  
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
@@ -45,24 +43,24 @@ The latest version of this topic can be found at [Sample Implementation of Expre
 ```csharp  
 namespace EEMC  
 {  
-    public class CParsedExpression : IDebugParsedExpression  
-    {  
-        public HRESULT Parse(  
-                string                 expression,   
-                uint                   parseFlags,  
-                uint                   radix,  
-            out string                 errorMessage,   
-            out uint                   errorPosition,   
-            out IDebugParsedExpression parsedExpression)  
-        {   
-            errorMessage = "";  
-            errorPosition = 0;  
+    public class CParsedExpression : IDebugParsedExpression  
+    {  
+        public HRESULT Parse(  
+                string                 expression,   
+                uint                   parseFlags,  
+                uint                   radix,  
+            out string                 errorMessage,   
+            out uint                   errorPosition,   
+            out IDebugParsedExpression parsedExpression)  
+        {   
+            errorMessage = "";  
+            errorPosition = 0;  
   
-            parsedExpression =  
-                new CParsedExpression(parseFlags, radix, expression);  
-            return COM.S_OK;  
-        }  
-    }  
+            parsedExpression =  
+                new CParsedExpression(parseFlags, radix, expression);  
+            return COM.S_OK;  
+        }  
+    }  
 }  
 ```  
   
@@ -71,42 +69,42 @@ namespace EEMC
   
 ```cpp#  
 STDMETHODIMP CExpressionEvaluator::Parse(  
-        in    LPCOLESTR                 pszExpression,  
-        in    PARSEFLAGS                flags,  
-        in    UINT                      radix,  
-        out   BSTR                     *pbstrErrorMessages,  
-        inout UINT                     *perrorCount,  
-        out   IDebugParsedExpression  **ppparsedExpression  
-    )  
+        in    LPCOLESTR                 pszExpression,  
+        in    PARSEFLAGS                flags,  
+        in    UINT                      radix,  
+        out   BSTR                     *pbstrErrorMessages,  
+        inout UINT                     *perrorCount,  
+        out   IDebugParsedExpression  **ppparsedExpression  
+    )  
 {  
-    if (pbstrErrorMessages == NULL)  
-        return E_INVALIDARG;  
-    else  
-        *pbstrErrormessages = 0;  
+    if (pbstrErrorMessages == NULL)  
+        return E_INVALIDARG;  
+    else  
+        *pbstrErrormessages = 0;  
   
-    if (pparsedExpression == NULL)  
-        return E_INVALIDARG;  
-    else  
-        *pparsedExpression = 0;  
+    if (pparsedExpression == NULL)  
+        return E_INVALIDARG;  
+    else  
+        *pparsedExpression = 0;  
   
-    if (perrorCount == NULL)  
-        return E_INVALIDARG;  
+    if (perrorCount == NULL)  
+        return E_INVALIDARG;  
   
-    HRESULT hr;  
-    // Look for errors in the expression but ignore results  
-    hr = ::Parse( pszExpression, pbstrErrorMessages );  
-    if (hr != S_OK)  
-        return hr;  
+    HRESULT hr;  
+    // Look for errors in the expression but ignore results  
+    hr = ::Parse( pszExpression, pbstrErrorMessages );  
+    if (hr != S_OK)  
+        return hr;  
   
-    CParsedExpression* pparsedExpr = new CParsedExpression( radix, flags, pszExpression );  
-    if (!pparsedExpr)  
-        return E_OUTOFMEMORY;  
+    CParsedExpression* pparsedExpr = new CParsedExpression( radix, flags, pszExpression );  
+    if (!pparsedExpr)  
+        return E_OUTOFMEMORY;  
   
-    hr = pparsedExpr->QueryInterface( IID_IDebugParsedExpression,  
-                                      reinterpret_cast<void**>(ppparsedExpression) );  
-    pparsedExpr->Release();  
+    hr = pparsedExpr->QueryInterface( IID_IDebugParsedExpression,  
+                                      reinterpret_cast<void**>(ppparsedExpression) );  
+    pparsedExpr->Release();  
   
-    return hr;  
+    return hr;  
 }  
 ```  
   

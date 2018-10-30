@@ -4,6 +4,8 @@ ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
+f1_keywords:
+  - "VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens"
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -119,7 +121,7 @@ You can find out how many people changed your code and how many changes were mad
 
 ### Find when your code was branched
 
-To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press**Alt**+**6**:
+To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press **Alt**+**6**:
 
 ![CodeLens: Find when your code was branched](../ide/media/codelens-first-branch.png)
 
@@ -156,7 +158,7 @@ Compare an incoming change with your local version by pressing **Shift**+**F10**
 The icon in the **Branch** column tells you how the branch is related to the branch you're working in.
 
 |**Icon**|**The change came from:**|
-|--------------|-----------------------------------------|
+|--------------| - |
 |![CodeLens: Change from current branch icon](../ide/media/codelensbranchcurrenticon.png)|The current branch|
 |![CodeLens: Change from parent branch icon](../ide/media/codelensbranchparenticon.png)|The parent branch|
 |![CodeLens: Change from child branch icon](../ide/media/codelensbranchchildicon.png)|A child branch|
@@ -289,7 +291,7 @@ To use the keyboard:
 
 4. Press **Tab** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.
 
-### Q: Can I move the CodeLens `head`s-up display?
+### Q: Can I move the CodeLens heads-up display?
 
 **A:** Yes, choose ![Dock icon](../ide/media/codelensdockwindow.png) to dock CodeLens as a window.
 

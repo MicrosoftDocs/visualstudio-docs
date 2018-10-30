@@ -22,10 +22,10 @@ Retrieves the specified record.
   
 ```C++  
 HRESULT Item (   
-   DWORD  index,  
-   DWORD  cbData,  
-   DWORD* pcbData,  
-   BYTE   data[]  
+   DWORD  index,  
+   DWORD  cbData,  
+   DWORD* pcbData,  
+   BYTE   data[]  
 );  
 ```  
   

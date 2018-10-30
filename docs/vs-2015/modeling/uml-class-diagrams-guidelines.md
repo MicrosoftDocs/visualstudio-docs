@@ -1,7 +1,7 @@
 ---
 title: "UML Class Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "douge"
 # UML Class Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Class Diagrams: Guidelines](https://docs.microsoft.com/visualstudio/modeling/uml-class-diagrams-guidelines).  
-  
 In Visual Studio, you can use a *UML class diagram* to describe data types and their relationships separately from their implementation. The diagram is used to focus on the logical aspects of the classes, instead of their implementation.  
   
  To create a UML class diagram, on the **Architecture** menu, choose **New UML Diagram or Layer Diagram**.  
@@ -118,17 +116,17 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  ![A class, an enumeration, and an interface](../modeling/media/uml-classguidetypes.png "UML_ClassGuideTypes")  
   
--   Use **Classes** (1) to represent data or object types for most purposes.  
+- Use **Classes** (1) to represent data or object types for most purposes.  
   
--   Use **Interfaces** (2) in a context where you have to differentiate between pure interfaces and concrete classes that have internal implementations. This difference is useful when the purpose of the diagram is to describe a software implementation. It is less useful when you are modeling passive data, or where you are defining concepts used to describe the user requirements.  
+- Use **Interfaces** (2) in a context where you have to differentiate between pure interfaces and concrete classes that have internal implementations. This difference is useful when the purpose of the diagram is to describe a software implementation. It is less useful when you are modeling passive data, or where you are defining concepts used to describe the user requirements.  
   
--   Use an **Enumeration** (3) to represent a type that has a limited number of literal values, for example `Stop` and `Go`.  
+- Use an **Enumeration** (3) to represent a type that has a limited number of literal values, for example `Stop` and `Go`.  
   
-    -   Add the literal values to the enumeration. Give each one a separate name.  
+  -   Add the literal values to the enumeration. Give each one a separate name.  
   
-    -   You can also provide a numeric value for each literal value, if you want. Open the shortcut menu for the literal in the enumeration, choose **Properties**, and then type a number in the **Value** field in the **Properties** window.  
+  -   You can also provide a numeric value for each literal value, if you want. Open the shortcut menu for the literal in the enumeration, choose **Properties**, and then type a number in the **Value** field in the **Properties** window.  
   
- Give each type a unique name.  
+  Give each type a unique name.  
   
 ### Getting Types from Other Diagrams  
  You can make types from another diagram appear on your UML class diagram.  
@@ -162,7 +160,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
  To see its properties, open the shortcut menu for the attribute or operation, and then choose **Properties**. The properties appear in the **Properties** window.  
   
- To see the properties of an operation's parameters, choose **[…]**in the **Parameters** property. A new properties dialog box appears.  
+ To see the properties of an operation's parameters, choose <strong>[…]</strong>in the **Parameters** property. A new properties dialog box appears.  
   
  For detailed information about all the properties that you can set, see:  
   
@@ -173,15 +171,15 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
 ### Types of Attributes and Operations  
  Each *Type* of an attribute or operation, and each parameter type, can be one of the following:  
   
--   **(none)** - You can leave a type unspecified in the signature by omitting the preceding colon (`:`).  
+- **(none)** - You can leave a type unspecified in the signature by omitting the preceding colon (`:`).  
   
--   One of the standard primitive types: **Boolean**, **Integer**, **String**.  
+- One of the standard primitive types: **Boolean**, **Integer**, **String**.  
   
--   A type that is defined in your model.  
+- A type that is defined in your model.  
   
--   A parameterized value of a template type, written Template\<Parameter>. See [Template Types](#Templates).  
+- A parameterized value of a template type, written Template\<Parameter>. See [Template Types](#Templates).  
   
- You can also write the name of a type that you have not yet defined in your model. The name will be listed under **Unspecified Types** in UML Model Explorer.  
+  You can also write the name of a type that you have not yet defined in your model. The name will be listed under **Unspecified Types** in UML Model Explorer.  
   
 > [!NOTE]
 >  If you subsequently define a class or interface of that name in your model, the older attributes and operations will still refer to the element in Unspecified Types. If you want to change them to refer to the new class, you must visit each attribute or operation and reset the type, selecting the new class from the drop-down menu.  
@@ -339,15 +337,15 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
  Some properties of each role are directly visible on the diagram. They are as follows:  
   
--   Role name. This appears at the appropriate end of the association on the diagram. You can set it either on the diagram or in the **Properties** window.  
+- Role name. This appears at the appropriate end of the association on the diagram. You can set it either on the diagram or in the **Properties** window.  
   
--   **Multiplicity**, which defaults to **1**. This also appears on the diagram near the appropriate end of the association.  
+- **Multiplicity**, which defaults to **1**. This also appears on the diagram near the appropriate end of the association.  
   
--   **Aggregation**. This appears as a diamond shape at one end of the connector. You can use it to indicate that instances at the aggregating role own or contain instances of the other.  
+- **Aggregation**. This appears as a diamond shape at one end of the connector. You can use it to indicate that instances at the aggregating role own or contain instances of the other.  
   
--   **Is Navigable**. If true for only one role, an arrow appears in the navigable direction. You can use this to indicate navigability of links and database relations in the software.  
+- **Is Navigable**. If true for only one role, an arrow appears in the navigable direction. You can use this to indicate navigability of links and database relations in the software.  
   
- For the full details of these and other properties, see [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md).  
+  For the full details of these and other properties, see [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md).  
   
 ### Navigability  
  When you draw an association, it has an arrow at one end, signifying that the association is navigable in that direction. This is useful if your class diagram represents software classes, and the associations represent pointers or references. But when you use a class diagram to represent entities and relations or business concepts, it is less relevant to represent navigability. In this case, you might prefer to draw associations without arrows. You can do so by setting the **Is Navigable** property on both ends of the association to True. To make this easier, you can download the code sample [UML Domain Modeling](http://code.msdn.microsoft.com/UML-Domain-Modeling-6df6f7f4).  
@@ -364,13 +362,13 @@ visibility operation-name (parameter1 : Type1, ...) : Type
 ##  <a name="Inheritance"></a> Inheritance  
  Use the **Inheritance** tool to create the following relationships:  
   
--   A *generalization* relationship between a specialized type and a general type  
+- A *generalization* relationship between a specialized type and a general type  
   
-     \- or -  
+   \- or -  
   
--   A *realization* relation between a class and an interface that it implements.  
+- A *realization* relation between a class and an interface that it implements.  
   
- You cannot create loops in inheritance relationships.  
+  You cannot create loops in inheritance relationships.  
   
 ### Generalization  
  Generalization means that the specializing or derived type inherits attributes, operations, and associations of the general or base type.  
@@ -381,17 +379,17 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
 ##### To override an operation's definition in a specializing type  
   
-1.  Click the generalization relation.  
+1. Click the generalization relation.  
   
-     It appears highlighted, and an Action tag appears near to it.  
+    It appears highlighted, and an Action tag appears near to it.  
   
-2.  Click the Action tag, and then click **Override Operations**.  
+2. Click the Action tag, and then click **Override Operations**.  
   
-     The **Override Operations** dialog box appears.  
+    The **Override Operations** dialog box appears.  
   
-3.  Select the operations that you want to appear in the specializing type, and then click **OK**.  
+3. Select the operations that you want to appear in the specializing type, and then click **OK**.  
   
- The operations that you selected now appear in the specializing type.  
+   The operations that you selected now appear in the specializing type.  
   
 ### Realization  
  Realization means that a class implements the attributes and operations specified by the interface. The interface is at the arrow end of the connector.  
@@ -413,23 +411,23 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
 #### To create a template type  
   
-1.  Create a class or interface. This will become your template type. Name it accordingly, for example, `Dictionary`.  
+1. Create a class or interface. This will become your template type. Name it accordingly, for example, `Dictionary`.  
   
-2.  Open the shortcut menu for the new type, and then choose **Properties**.  
+2. Open the shortcut menu for the new type, and then choose **Properties**.  
   
-3.  In the **Properties** window, click **[…]** in the **Template Parameters** field.  
+3. In the **Properties** window, click **[…]** in the **Template Parameters** field.  
   
-     The **Template Parameter Collection Editor** dialog box appears.  
+    The **Template Parameter Collection Editor** dialog box appears.  
   
-4.  Choose **Add**.  
+4. Choose **Add**.  
   
-5.  Set the name property to a parameter name for your template type, for example, `Key`.  
+5. Set the name property to a parameter name for your template type, for example, `Key`.  
   
-6.  Set **Parameter Kind**. The default is **Class**.  
+6. Set **Parameter Kind**. The default is **Class**.  
   
-7.  If you want the parameter to accept only derived classes of a particular base class, set **Constrained Value** to the base class that you want.  
+7. If you want the parameter to accept only derived classes of a particular base class, set **Constrained Value** to the base class that you want.  
   
-8.  Add as many parameters as you need, then choose **OK**.  
+8. Add as many parameters as you need, then choose **OK**.  
   
 9. Add attributes and operations to the template type as you would do for other classes.  
   
@@ -439,9 +437,9 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
      You can use a parameter whose kind is **Integer** as a bound in a multiplicity. For example, a parameter integer max could be used to define the multiplicity of an attribute as `[0..max]`.  
   
- When you have created template types, you can use them to define template bindings:  
+   When you have created template types, you can use them to define template bindings:  
   
- ![A  class bound from the Dictionary template](../modeling/media/uml-classguidetemplate2.png "UML_ClassGuideTemplate2")  
+   ![A  class bound from the Dictionary template](../modeling/media/uml-classguidetemplate2.png "UML_ClassGuideTemplate2")  
   
 #### To use a template type  
   

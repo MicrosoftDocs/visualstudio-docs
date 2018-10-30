@@ -1,7 +1,7 @@
 ---
 title: "UML Activity Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "douge"
 # UML Activity Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Activity Diagrams: Guidelines](https://docs.microsoft.com/visualstudio/modeling/uml-activity-diagrams-guidelines).  
-  
 In Visual Studio, you can draw an activity diagram to describe a business process or a software algorithm as a flow of work through a series of actions. People, software components, or devices can perform these actions. For a video demonstration, see: [Capture Business Workflows by using Activity Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-4-Capture-Business-Workflows/).  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -32,28 +30,28 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
  You can use an activity diagram for many purposes:  
   
--   To describe a business process or a flow of work between users and your system. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
+- To describe a business process or a flow of work between users and your system. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
   
--   To describe the steps performed in a use case. For more information, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
+- To describe the steps performed in a use case. For more information, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
   
--   To describe a method, function or operation in software. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
+- To describe a method, function or operation in software. For more information, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   
- Drawing an activity diagram can help you improve a process. If the diagram of an existing process proves to be very complex, you can consider how the process could be simplified.  
+  Drawing an activity diagram can help you improve a process. If the diagram of an existing process proves to be very complex, you can consider how the process could be simplified.  
   
- For reference information about the elements on activity diagrams, see [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md).  
+  For reference information about the elements on activity diagrams, see [UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md).  
   
 ##  <a name="Relationships"></a> Relationship to Other Diagrams  
  If you draw an activity diagram to describe a business process, or a way in which users use your system, you can draw a use case diagram to show a different view of the same information. In the use case diagram, you draw actions as use cases. Give the use cases the same names as the corresponding actions. The advantages of the use case view are that you can:  
   
--   Show in one diagram how larger actions/use cases are composed of smaller ones, using the Includes relation.  
+- Show in one diagram how larger actions/use cases are composed of smaller ones, using the Includes relation.  
   
--   Connect each action/use case explicitly to the users or external systems involved in its execution.  
+- Connect each action/use case explicitly to the users or external systems involved in its execution.  
   
--   Draw boundaries around the actions/use cases supported by your system, or each major component of it.  
+- Draw boundaries around the actions/use cases supported by your system, or each major component of it.  
   
- You can also draw an activity diagram to describe the detailed design of a software operation.  
+  You can also draw an activity diagram to describe the detailed design of a software operation.  
   
- In an activity diagram, you can show the flow of data passed between actions. See the section on [Describing Data Flow](#DataFlows). But an activity diagram does not describe the structure of the data. For that purpose, you can draw a UML class diagram. For information see [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md).  
+  In an activity diagram, you can show the flow of data passed between actions. See the section on [Describing Data Flow](#DataFlows). But an activity diagram does not describe the structure of the data. For that purpose, you can draw a UML class diagram. For information see [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md).  
   
 ##  <a name="BasicSteps"></a> Basic Steps for Drawing Activity Diagrams  
  Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
@@ -108,18 +106,18 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
  Activity diagrams use **Actions** and **Connectors** to describe your system or application as a series of actions with the control flowing sequentially from one action to the next.  
   
--   Create an **Action** (1) for each major task that is performed by a user, the system, or both in collaboration.  
+- Create an **Action** (1) for each major task that is performed by a user, the system, or both in collaboration.  
   
-    > [!NOTE]
-    >  Try to describe your process or algorithm with just a few actions. You can use **Call Behavior Actions** to define each action in more detail in a separate diagram, as described in [Describing Sub-activities with Call Behavior Actions](#Subactivities).  
+  > [!NOTE]
+  >  Try to describe your process or algorithm with just a few actions. You can use **Call Behavior Actions** to define each action in more detail in a separate diagram, as described in [Describing Sub-activities with Call Behavior Actions](#Subactivities).  
   
--   Make sure that the title of each action clearly indicates what it typically achieves.  
+- Make sure that the title of each action clearly indicates what it typically achieves.  
   
--   Link the actions in sequence with **Connectors** (2).  
+- Link the actions in sequence with **Connectors** (2).  
   
--   Each action ends before the next action in the control flow begins. If you want to describe actions that overlap, use a **Fork Node** as described in the section [Concurrent Flows](#Concurrent).  
+- Each action ends before the next action in the control flow begins. If you want to describe actions that overlap, use a **Fork Node** as described in the section [Concurrent Flows](#Concurrent).  
   
- Although the diagram describes the sequence of actions, it does not describe how the actions are executed, or how control is passed from one action to the next. If you use the diagram to represent a business process, control might be passed, for example, when one person sends an e-mail message to another. If you use the diagram to represent a software design, control might be passed by the normal flow of execution from one statement to the next.  
+  Although the diagram describes the sequence of actions, it does not describe how the actions are executed, or how control is passed from one action to the next. If you use the diagram to represent a business process, control might be passed, for example, when one person sends an e-mail message to another. If you use the diagram to represent a software design, control might be passed by the normal flow of execution from one statement to the next.  
   
 ### Describing Decisions and Loops  
   
@@ -167,11 +165,11 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 ### Swimlanes  
  It is sometimes useful to arrange the actions of an activity into areas corresponding to different objects or business roles that perform the actions. These areas are conventionally arranged in columns and are called *swimlanes*.  
   
--   Use lines or rectangles from the **Simple Shapes** section of the Toolbox to draw swimlanes or other areas.  
+- Use lines or rectangles from the **Simple Shapes** section of the Toolbox to draw swimlanes or other areas.  
   
--   To label each swimlane, create a comment and set its **Transparent** property to **True**.  
+- To label each swimlane, create a comment and set its **Transparent** property to **True**.  
   
- Simple shapes do not form part of the UML model, and do not appear in UML Model Explorer.  
+  Simple shapes do not form part of the UML model, and do not appear in UML Model Explorer.  
   
 ##  <a name="DataFlows"></a> Describing Data Flow  
  You can describe the data passing in and out of an activity in either of two ways:  
@@ -273,16 +271,16 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 ### Describing data flow in and out of sub-activities  
  You can describe the data flowing in and out of sub-activities, in the same way that you use parameters in software.  
   
--   Create input and output pins (1) on the Called Behavior Action, for each piece of data that flows into or out of the action. Name each one appropriately.  
+- Create input and output pins (1) on the Called Behavior Action, for each piece of data that flows into or out of the action. Name each one appropriately.  
   
--   In the sub-activity diagram, create an **Activity Parameter Node** (2) for each input and output pin on the calling action. Give each node the same name as its corresponding pin.  
+- In the sub-activity diagram, create an **Activity Parameter Node** (2) for each input and output pin on the calling action. Give each node the same name as its corresponding pin.  
   
-    > [!NOTE]
-    >  An activity parameter node resembles an object node. To check what type of node that you are looking at, right-click the node and then click **Properties**. The type of node is shown in the header of the Properties window.  
+  > [!NOTE]
+  >  An activity parameter node resembles an object node. To check what type of node that you are looking at, right-click the node and then click **Properties**. The type of node is shown in the header of the Properties window.  
   
--   In the sub-activity diagram, draw connectors that show the flow of objects into or out of each activity parameter node.  
+- In the sub-activity diagram, draw connectors that show the flow of objects into or out of each activity parameter node.  
   
- ![Pins on Call Behavior map to activity parameters](../modeling/media/uml-actguidesub.png "UML_ActGuideSub")  
+  ![Pins on Call Behavior map to activity parameters](../modeling/media/uml-actguidesub.png "UML_ActGuideSub")  
   
 ###  <a name="Postcondition"></a> Defining Postconditions and Preconditions  
  You can use the **Local Postconditions** and **Local Preconditions** properties to specify in detail the outcome of an action. These properties describe the effect of the action without describing how the effect is achieved.  
@@ -385,45 +383,45 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
 ### Selection and Transformation  
  You can specify that the objects in an object flow are transformed, selected, or both. An object flow is a flow to or from a pin or an object node.  
   
--   A transformation describes how objects entering a flow are converted to another type.  
+- A transformation describes how objects entering a flow are converted to another type.  
   
--   A selection describes how only some of the objects entering a flow are transmitted to the receiving action.  
+- A selection describes how only some of the objects entering a flow are transmitted to the receiving action.  
   
- The example shows a transformation. The first action in Diagram 1 produces a postal code, or zip code, at an output pin. This is connected to an input pin on the second action. But the second action expects a fully-specified address. The conversion from one type to another is specified in a second activity, Address Lookup. This is referenced from the Transformation property of the object flow. The Address Lookup activity contains one Activity Parameter Node for the incoming postal code, and another Activity Parameter Node for the outgoing full address.  
+  The example shows a transformation. The first action in Diagram 1 produces a postal code, or zip code, at an output pin. This is connected to an input pin on the second action. But the second action expects a fully-specified address. The conversion from one type to another is specified in a second activity, Address Lookup. This is referenced from the Transformation property of the object flow. The Address Lookup activity contains one Activity Parameter Node for the incoming postal code, and another Activity Parameter Node for the outgoing full address.  
   
- ![Object transformation defined in another diagram](../modeling/media/uml-actguidetransform.png "UML_ActGuideTransform")  
+  ![Object transformation defined in another diagram](../modeling/media/uml-actguidetransform.png "UML_ActGuideTransform")  
   
- You can specify a transformation or selection in two ways:  
+  You can specify a transformation or selection in two ways:  
   
--   Attach a comment to the input or output pin.  
+- Attach a comment to the input or output pin.  
   
-    -   To distinguish this description from a general comment, you can begin the comment with <\<**transformation**>> or <\<**selection**>>.  
+  -   To distinguish this description from a general comment, you can begin the comment with <\<**transformation**>> or <\<**selection**>>.  
   
--   Specify the transformation or selection in detail in a separate activity diagram.  
+- Specify the transformation or selection in detail in a separate activity diagram.  
   
-    -   If you use this method, attach a comment also, to make it clear to readers that the transformation has been defined.  
+  -   If you use this method, attach a comment also, to make it clear to readers that the transformation has been defined.  
   
 ##### To specify a transformation or selection in a separate activity diagram  
   
-1.  Create a new Activity Diagram in which to describe the transformation or selection flow.  
+1. Create a new Activity Diagram in which to describe the transformation or selection flow.  
   
-    -   In **Solution Explorer**, right-click your project, point to **Add**, click **New Item**, and then click **Activity Diagram**. Give the diagram an appropriate name for the transformation or selection flow. Click **Add**.  
+   -   In **Solution Explorer**, right-click your project, point to **Add**, click **New Item**, and then click **Activity Diagram**. Give the diagram an appropriate name for the transformation or selection flow. Click **Add**.  
   
-2.  In the new diagram:  
+2. In the new diagram:  
   
-    1.  Create two Activity Parameter Nodes, one for the input flow and one for the output.  
+   1.  Create two Activity Parameter Nodes, one for the input flow and one for the output.  
   
-    2.  Create actions interconnected with object flows. This shows how the transformation or selection works.  
+   2.  Create actions interconnected with object flows. This shows how the transformation or selection works.  
   
-3.  In any diagram where you want to use the transformation or selection:  
+3. In any diagram where you want to use the transformation or selection:  
   
-    1.  Create an object flow, that is, a connector to or from an input or output pin, an object node, or an activity parameter node.  
+   1.  Create an object flow, that is, a connector to or from an input or output pin, an object node, or an activity parameter node.  
   
-    2.  Right-click the object flow and then click **Properties**.  
+   2.  Right-click the object flow and then click **Properties**.  
   
-    3.  In the **Transformation** or **Selection** property, select the diagram where you specified the transformation or selection flow.  
+   3.  In the **Transformation** or **Selection** property, select the diagram where you specified the transformation or selection flow.  
   
- You can also define a selection for an object node, and on individual input and output pins. Define a selection activity as in the previous procedure, and then set the **Selection** property of the object node, or input or output pin.  
+   You can also define a selection for an object node, and on individual input and output pins. Define a selection activity as in the previous procedure, and then set the **Selection** property of the object node, or input or output pin.  
   
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   

@@ -1,7 +1,7 @@
 ---
 title: "CA1024: Use properties where appropriate | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # CA1024: Use properties where appropriate
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1024: Use properties where appropriate](https://docs.microsoft.com/visualstudio/code-quality/ca1024-use-properties-where-appropriate).
-
 |||
 |-|-|
 |TypeName|UsePropertiesWhereAppropriate|
@@ -39,25 +37,25 @@ The latest version of this topic can be found at [CA1024: Use properties where a
 ## Rule Description
  In most cases, properties represent data and methods perform actions. Properties are accessed like fields, which makes them easier to use. A method is a good candidate to become a property if one of these conditions is present:
 
--   Takes no arguments and returns the state information of an object.
+- Takes no arguments and returns the state information of an object.
 
--   Accepts a single argument to set some part of the state of an object.
+- Accepts a single argument to set some part of the state of an object.
 
- Properties should behave as if they are fields; if the method cannot, it should not be changed to a property. Methods are better than properties in the following situations:
+  Properties should behave as if they are fields; if the method cannot, it should not be changed to a property. Methods are better than properties in the following situations:
 
--   The method performs a time-consuming operation. The method is perceivably slower than the time that is required to set or get the value of a field.
+- The method performs a time-consuming operation. The method is perceivably slower than the time that is required to set or get the value of a field.
 
--   The method performs a conversion. Accessing a field does not return a converted version of the data that it stores.
+- The method performs a conversion. Accessing a field does not return a converted version of the data that it stores.
 
--   The Get method has an observable side effect. Retrieving the value of a field does not produce any side effects.
+- The Get method has an observable side effect. Retrieving the value of a field does not produce any side effects.
 
--   The order of execution is important. Setting the value of a field does not rely on the occurrence of other operations.
+- The order of execution is important. Setting the value of a field does not rely on the occurrence of other operations.
 
--   Calling the method two times in succession creates different results.
+- Calling the method two times in succession creates different results.
 
--   The method is static but returns an object that can be changed by the caller. Retrieving the value of a field does not allow the caller to change the data that is stored by the field.
+- The method is static but returns an object that can be changed by the caller. Retrieving the value of a field does not allow the caller to change the data that is stored by the field.
 
--   The method returns an array.
+- The method returns an array.
 
 ## How to Fix Violations
  To fix a violation of this rule, change the method to a property.
@@ -76,19 +74,19 @@ Imports System.Diagnostics
 
 Namespace Microsoft.Samples
 
-    Public Class TestClass
+    Public Class TestClass
 
-        ' [...]
+        ' [...]
 
-        <DebuggerBrowsable(DebuggerBrowsableState.Never)> _
-        Public ReadOnly Property LargeObject() As LargeObject
-            Get
-                ' Allocate large object
-                ' [...]
-            End Get
-        End Property
+        <DebuggerBrowsable(DebuggerBrowsableState.Never)> _
+        Public ReadOnly Property LargeObject() As LargeObject
+            Get
+                ' Allocate large object
+                ' [...]
+            End Get
+        End Property
 
-    End Class
+    End Class
 
 End Namespace
 ```
@@ -100,20 +98,20 @@ using System.Diagnostics;
 
 namespace Microsoft.Samples
 {
-    publicclass TestClass
-    {
-        // [...]
+    publicclass TestClass
+    {
+        // [...]
 
-        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
-        public LargeObject LargeObject
-        {
-            get
-            {
-                // Allocate large object
-                // [...]
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        public LargeObject LargeObject
+        {
+            get
+            {
+                // Allocate large object
+                // [...]
 
-        }
-    }
+        }
+    }
 }
 ```
 

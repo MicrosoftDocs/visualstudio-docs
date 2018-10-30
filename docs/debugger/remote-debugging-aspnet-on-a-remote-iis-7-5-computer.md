@@ -41,7 +41,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
-1. Create a new MVC ASP.NET application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application. In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
+1. Create a new MVC ASP.NET application. (**File > New > Project**, then select <strong>Visual C# > Web > ASP.NET Web Application. In the **ASP.NET 4.5.2</strong> templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
 
 2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
 
@@ -160,12 +160,7 @@ You can also publish and deploy the app using the file system or other tools.
 
 In this tutorial, we are using Visual Studio 2017.
 
-If you have trouble opening the page with the remote debugger download, see [Unblock the file download](../debugger/remote-debugging.md#unblock_msvsmon) for help.
-
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
-
-> [!TIP]
-> In some scenarios, it can be most efficient to run the remote debugger from a file share. For more information, see [Run the remote debugger from a file share](../debugger/remote-debugging.md#fileshare_msvsmon).
   
 ## <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
 

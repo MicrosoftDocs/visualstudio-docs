@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::ContinueFromSynchronousEvent | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugEngine2::ContinueFromSynchronousEvent
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::ContinueFromSynchronousEvent](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent).  
-  
 Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT ContinueFromSynchronousEvent(   
-   IDebugEvent2* pEvent  
+   IDebugEvent2* pEvent  
 );  
 ```  
   
 ```csharp  
 HRESULT ContinueFromSynchronousEvent(   
-   IDebugEvent2 pEvent  
+   IDebugEvent2 pEvent  
 );  
 ```  
   

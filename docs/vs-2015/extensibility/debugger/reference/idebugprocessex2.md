@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcessEx2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # IDebugProcessEx2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessEx2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocessex2).  
-  
 This interface lets the session debug manager (SDM) notify a process that it is attaching to or detaching from the process.  
   
 ## Syntax  
@@ -34,11 +32,11 @@ IDebugProcessEx2 : IUnknown
 ## Notes for Implementers  
  A custom port supplier implements this interface on the same object as the [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface in order to:  
   
--   Support tracking of sessions connected to a process  
+- Support tracking of sessions connected to a process  
   
--   Support auto-attach across multiple debug engines  
+- Support auto-attach across multiple debug engines  
   
- The custom port supplier can implement this interface if it chooses.  
+  The custom port supplier can implement this interface if it chooses.  
   
 ## Notes for Callers  
   

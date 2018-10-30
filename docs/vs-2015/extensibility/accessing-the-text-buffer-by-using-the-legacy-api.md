@@ -1,7 +1,7 @@
 ---
 title: "Accessing the Text Buffer by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Accessing the Text Buffer by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Accessing the Text Buffer by Using the Legacy API](https://docs.microsoft.com/visualstudio/extensibility/accessing-the-text-buffer-by-using-the-legacy-api).  
-  
 The text is responsible for managing text streams and file persistence. Although the buffer can read or write other formats, all ordinary communication with the buffer is performed by using Unicode. In the legacy APIs, the text buffer can use either a one- or a two-dimensional coordinate system to identify character locations in the buffer.  
   
 ## One- and Two-Dimension Coordinate Systems  

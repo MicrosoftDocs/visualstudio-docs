@@ -1,7 +1,7 @@
 ---
 title: "How to: Set Permissions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,19 +24,17 @@ manager: "ghogen"
 # How to: Set Permissions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set Permissions](https://docs.microsoft.com/visualstudio/profiling/how-to-set-permissions).  
-  
 This topic describes how an Administrator of a computer grants the security permissions required for profiling to a user or group that does not have Administrator permissions on that computer.  
   
  A basic security principle states that applications should run with no more than the permissions they need. This principle also applies to users. If users can be fully effective when they are logged on as members of the Users group instead of the Administrators group, they should not be granted Administrator permissions. The first procedure, "To create a user account that has User permissions," describes how to create a user account for a member of the Users group.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
- Members of the Users group will need access to the folders and files on disk that are shared with other members of the team. The second procedure, "To grant access to shared project files," describes how to grant that access.  
+  Members of the Users group will need access to the folders and files on disk that are shared with other members of the team. The second procedure, "To grant access to shared project files," describes how to grant that access.  
   
- Members of the Users group can run the profiling tools if an administrator grants them access to the software driver for the profiling tools. The last procedure, "To grant access to the profiling driver," describes how to grant access to that driver.  
+  Members of the Users group can run the profiling tools if an administrator grants them access to the software driver for the profiling tools. The last procedure, "To grant access to the profiling driver," describes how to grant access to that driver.  
   
 > [!NOTE]
 >  You need administrator permissions to follow the steps in these procedures.  
@@ -85,47 +83,47 @@ This topic describes how an Administrator of a computer grants the security perm
   
 ### To grant access to the profiling driver  
   
-1.  Open a command prompt as an administrator.  
+1. Open a command prompt as an administrator.  
   
-2.  Change the directory to:  
+2. Change the directory to:  
   
-    ```  
-    <drive>:\Program Files\Microsoft Visual Studio 10\Team Tools\Performance Tools  
-    ```  
+   ```  
+   <drive>:\Program Files\Microsoft Visual Studio 10\Team Tools\Performance Tools  
+   ```  
   
-3.  Run the following command:  
+3. Run the following command:  
   
-    ```  
-    vsperfcmd /admin:driver,start /admin:service,start  
-    ```  
+   ```  
+   vsperfcmd /admin:driver,start /admin:service,start  
+   ```  
   
-     This command installs and starts the driver for the profiling tools.  
+    This command installs and starts the driver for the profiling tools.  
   
-     This command starts the profiling driver and service so that non-admin users may use profiling features that are available in their User process space. Only an Administrator may run the command; and it will fail for non-administrative Users.  
+    This command starts the profiling driver and service so that non-admin users may use profiling features that are available in their User process space. Only an Administrator may run the command; and it will fail for non-administrative Users.  
   
-     Notice that the effects of this step are undone after the computer restarts, unless you also perform the final step in this procedure.  
+    Notice that the effects of this step are undone after the computer restarts, unless you also perform the final step in this procedure.  
   
-4.  Run the command to allow access to profiling driver functionality by a user or group that does not have administrator access to the computer:  
+4. Run the command to allow access to profiling driver functionality by a user or group that does not have administrator access to the computer:  
   
-    ```  
-    vsperfcmd /admin:security,allow,<right[,right],<user name|group name>  
-    ```  
+   ```  
+   vsperfcmd /admin:security,allow,<right[,right],<user name|group name>  
+   ```  
   
-     This command grants the \<user name> or \<group name> account access to the Profiling tools. The \<right> option determines the profiling functionality the user can access. The \<right> option can be one or more of the following values:  
+    This command grants the \<user name> or \<group name> account access to the Profiling tools. The \<right> option determines the profiling functionality the user can access. The \<right> option can be one or more of the following values:  
   
-    -   FullAccess - allows access to all profiling methods including collecting performance data from services, sampling, and cross session profiling.  
+   -   FullAccess - allows access to all profiling methods including collecting performance data from services, sampling, and cross session profiling.  
   
-    -   SampleProfiling - allows access to sample profiling methods  
+   -   SampleProfiling - allows access to sample profiling methods  
   
-    -   CrossSession - allows access to cross session profiling which is required for profiling services.  
+   -   CrossSession - allows access to cross session profiling which is required for profiling services.  
   
-5.  (Optional) To preserve the results of any of the previous steps after computer restarts, run the following command:  
+5. (Optional) To preserve the results of any of the previous steps after computer restarts, run the following command:  
   
-    ```  
-    vsperfcmd /admin:driver,autostart,on  
-    ```  
+   ```  
+   vsperfcmd /admin:driver,autostart,on  
+   ```  
   
- The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.  
+   The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

@@ -1,7 +1,7 @@
 ---
 title: "Publish Page, Project Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Publish Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Publish Page, Project Designer](https://docs.microsoft.com/visualstudio/ide/reference/publish-page-project-designer).  
-  
   
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.  
   

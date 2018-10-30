@@ -1,7 +1,7 @@
 ---
 title: "DEBUGPROP_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,52 +21,50 @@ manager: "ghogen"
 # DEBUGPROP_INFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DEBUGPROP_INFO_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/debugprop-info-flags).  
-  
 Specifies what information to retrieve about a debug property object.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_DEBUGPROP_INFO_FLAGS {   
-   DEBUGPROP_INFO_FULLNAME          = 0x00000001,  
-   DEBUGPROP_INFO_NAME              = 0x00000002,  
-   DEBUGPROP_INFO_TYPE              = 0x00000004,  
-   DEBUGPROP_INFO_VALUE             = 0x00000008,  
-   DEBUGPROP_INFO_ATTRIB            = 0x00000010,  
-   DEBUGPROP_INFO_PROP              = 0x00000020,  
-   DEBUGPROP_INFO_VALUE_AUTOEXPAND  = 0x00010000,  
-   DEBUGPROP_INFO_VALUE_NOFUNCEVAL  = 0x00020000,  
-   DEBUGPROP_INFO_VALUE_RAW         = 0x00040000,  
-   DEBUGPROP_INFO_VALUE_NO_TOSTRING = 0x00080000  
-   DEBUGPROP_INFO_NONE              = 0x00000000,  
-   DEBUGPROP_INFO_STANDARD          = DEBUGPROP_INFO_ATTRIB |  
+   DEBUGPROP_INFO_FULLNAME          = 0x00000001,  
+   DEBUGPROP_INFO_NAME              = 0x00000002,  
+   DEBUGPROP_INFO_TYPE              = 0x00000004,  
+   DEBUGPROP_INFO_VALUE             = 0x00000008,  
+   DEBUGPROP_INFO_ATTRIB            = 0x00000010,  
+   DEBUGPROP_INFO_PROP              = 0x00000020,  
+   DEBUGPROP_INFO_VALUE_AUTOEXPAND  = 0x00010000,  
+   DEBUGPROP_INFO_VALUE_NOFUNCEVAL  = 0x00020000,  
+   DEBUGPROP_INFO_VALUE_RAW         = 0x00040000,  
+   DEBUGPROP_INFO_VALUE_NO_TOSTRING = 0x00080000  
+   DEBUGPROP_INFO_NONE              = 0x00000000,  
+   DEBUGPROP_INFO_STANDARD          = DEBUGPROP_INFO_ATTRIB |  
                                       DEBUGPROP_INFO_NAME |  
                                       DEBUGPROP_INFO_TYPE |  
                                       DEBUGPROP_INFO_VALUE,  
-   DEBUGPROP_INFO_ALL               = 0xffffffff  
+   DEBUGPROP_INFO_ALL               = 0xffffffff  
 };  
 typedef DWORD DEBUGPROP_INFO_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_DEBUGPROP_INFO_FLAGS {   
-   DEBUGPROP_INFO_FULLNAME          = 0x00000001,  
-   DEBUGPROP_INFO_NAME              = 0x00000002,  
-   DEBUGPROP_INFO_TYPE              = 0x00000004,  
-   DEBUGPROP_INFO_VALUE             = 0x00000008,  
-   DEBUGPROP_INFO_ATTRIB            = 0x00000010,  
-   DEBUGPROP_INFO_PROP              = 0x00000020,  
-   DEBUGPROP_INFO_VALUE_AUTOEXPAND  = 0x00010000,  
-   DEBUGPROP_INFO_VALUE_NOFUNCEVAL  = 0x00020000,  
-   DEBUGPROP_INFO_VALUE_RAW         = 0x00040000,  
-   DEBUGPROP_INFO_VALUE_NO_TOSTRING = 0x00080000  
-   DEBUGPROP_INFO_NONE              = 0x00000000,  
-   DEBUGPROP_INFO_STANDARD          = DEBUGPROP_INFO_ATTRIB |  
+   DEBUGPROP_INFO_FULLNAME          = 0x00000001,  
+   DEBUGPROP_INFO_NAME              = 0x00000002,  
+   DEBUGPROP_INFO_TYPE              = 0x00000004,  
+   DEBUGPROP_INFO_VALUE             = 0x00000008,  
+   DEBUGPROP_INFO_ATTRIB            = 0x00000010,  
+   DEBUGPROP_INFO_PROP              = 0x00000020,  
+   DEBUGPROP_INFO_VALUE_AUTOEXPAND  = 0x00010000,  
+   DEBUGPROP_INFO_VALUE_NOFUNCEVAL  = 0x00020000,  
+   DEBUGPROP_INFO_VALUE_RAW         = 0x00040000,  
+   DEBUGPROP_INFO_VALUE_NO_TOSTRING = 0x00080000  
+   DEBUGPROP_INFO_NONE              = 0x00000000,  
+   DEBUGPROP_INFO_STANDARD          = DEBUGPROP_INFO_ATTRIB |  
                                       DEBUGPROP_INFO_NAME |  
                                       DEBUGPROP_INFO_TYPE |  
                                       DEBUGPROP_INFO_VALUE,  
-   DEBUGPROP_INFO_ALL               = 0xffffffff  
+   DEBUGPROP_INFO_ALL               = 0xffffffff  
 };  
 ```  
   

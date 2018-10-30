@@ -1,7 +1,7 @@
 ---
 title: "Browse and rearrange code maps | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -172,25 +172,25 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 ###  <a name="AddNodes"></a>   
 ##### Add a link between existing code elements  
   
-1.  Select the source code element. A toolbar appears above the code element.  
+1. Select the source code element. A toolbar appears above the code element.  
   
-     ![Dependency graph toolbar](../modeling/media/depedencygraph-toolbar.png "DepedencyGraph_Toolbar")  
+    ![Dependency graph toolbar](../modeling/media/depedencygraph-toolbar.png "DepedencyGraph_Toolbar")  
   
-2.  On the toolbar, choose the first icon, **Create new link from this node to which ever node that you click on next**.  
+2. On the toolbar, choose the first icon, **Create new link from this node to which ever node that you click on next**.  
   
-3.  Select the target code element. A link appears between the two code elements.  
+3. Select the target code element. A link appears between the two code elements.  
   
- \- or -  
+   \- or -  
   
-1.  Select the source code element on the map.  
+4. Select the source code element on the map.  
   
-2.  If you have a mouse installed, move the mouse pointer outside the bounds of the map.  
+5. If you have a mouse installed, move the mouse pointer outside the bounds of the map.  
   
-3.  Open the code element’s shortcut menu and choose **Edit**, **Add**, **Generic Link**.  
+6. Open the code element’s shortcut menu and choose **Edit**, **Add**, **Generic Link**.  
   
-4.  Tab to and select the target code element for the link.  
+7. Tab to and select the target code element for the link.  
   
-5.  Press **RETURN**.  
+8. Press **RETURN**.  
   
 ###  <a name="AddComments"></a>   
 ##### Add a comment to an existing node on the map  

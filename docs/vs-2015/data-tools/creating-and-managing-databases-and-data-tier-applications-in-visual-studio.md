@@ -1,7 +1,7 @@
 ---
 title: "Creating and managing databases and data-tier applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Creating and managing databases and data-tier applications in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating and managing databases and data-tier applications](https://docs.microsoft.com/visualstudio/data-tools/creating-and-managing-databases-and-data-tier-applications-in-visual-studio).  
-  
   
 IMPORTANT]
 >  The database projects that were included in earlier versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] are now provided in [!INCLUDE[sql_Denali_long](../includes/sql-denali-long-md.md)] tools. For more information, see [SQL Server Developer Tools](http://go.microsoft.com/fwlink/?LinkId=228126).  

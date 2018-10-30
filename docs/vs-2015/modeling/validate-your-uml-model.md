@@ -1,7 +1,7 @@
 ---
 title: "Validate your UML model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Validate your UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Validate your UML model](https://docs.microsoft.com/visualstudio/modeling/validate-your-uml-model).  
-  
 Some of the UML models that you can draw in Visual Studio might be considered invalid in your project. For example, you might require that a use case must always be linked to a sequence diagram that has lifelines representing the use case's actors. You can install or define *constraints* that help your team to conform to requirements such as this. Constraints can be applied when the user saves or opens a model, and can be invoked by menu command.  
   
  No constraints are provided with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], because they depend on how your team interprets and uses UML models. But you can define your own constraints, and install constraints that are defined by other users. To learn how to define constraints and package them for distribution, see [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md).  
@@ -28,20 +26,20 @@ Some of the UML models that you can draw in Visual Studio might be considered in
 ## Invoking Validation  
  When you have installed a validation extension, the constraints it provides may be applied in the following cases. Some constraints are set to apply in only some of these cases.  
   
--   **Validation command.** To invoke validation at any time, click **Validate UML Model** on the **Architecture** menu.  
+- **Validation command.** To invoke validation at any time, click **Validate UML Model** on the **Architecture** menu.  
   
-    > [!NOTE]
-    >  The command will appear only if validation constraints are installed.  
+  > [!NOTE]
+  >  The command will appear only if validation constraints are installed.  
   
--   **On saving a model.** Validation constraints may be applied when you save the model. The purpose of these constraints is to help make sure that you do not save a model that is invalid according to your project's interpretation.  
+- **On saving a model.** Validation constraints may be applied when you save the model. The purpose of these constraints is to help make sure that you do not save a model that is invalid according to your project's interpretation.  
   
-     If there are errors, you will be asked whether you still want to save the model. You can choose to correct the errors, or to save the model anyway.  
+   If there are errors, you will be asked whether you still want to save the model. You can choose to correct the errors, or to save the model anyway.  
   
--   **On opening a model.** When you open a model, validation methods can be applied to restore error messages that existed when you saved the model. Errors can also be introduced by inconsistencies between the changes that are made by users who are working on different parts of a model. For more information, see [Share models and exporting diagrams](../modeling/share-models-and-exporting-diagrams.md).  
+- **On opening a model.** When you open a model, validation methods can be applied to restore error messages that existed when you saved the model. Errors can also be introduced by inconsistencies between the changes that are made by users who are working on different parts of a model. For more information, see [Share models and exporting diagrams](../modeling/share-models-and-exporting-diagrams.md).  
   
- Validation errors are reported in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] errors window.  
+  Validation errors are reported in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] errors window.  
   
- To select in a diagram the elements that are incorrect, double-click the error. This works only if the incorrect elements are visible in an open diagram.  
+  To select in a diagram the elements that are incorrect, double-click the error. This works only if the incorrect elements are visible in an open diagram.  
   
 ## Installing Validation Constraints  
  Constraints are packaged within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension (VSIX) files. Typically, a set of constraints will be part of an extension that also contains other definitions such as menu commands, profiles, and toolbox items.  

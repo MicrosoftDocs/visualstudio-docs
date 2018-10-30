@@ -1,7 +1,7 @@
 ---
 title: "IPropertyProxyEESide::InPlaceUpdateObject | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IPropertyProxyEESide::InPlaceUpdateObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IPropertyProxyEESide::InPlaceUpdateObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ipropertyproxyeeside-inplaceupdateobject).  
-  
 Updates the object's data with the given data object and returns a new data object representing the object's new data.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT InPlaceUpdateObject(  
-   [in] IEEDataStorage*   dataIn,  
-   [out] IEEDataStorage** dataOut  
+   [in] IEEDataStorage*   dataIn,  
+   [out] IEEDataStorage** dataOut  
 );  
 ```  
   
 ```csharp  
 int InPlaceUpdateObject(  
-   IEEDataStorage     dataIn,  
-   out IEEDataStorage dataOut  
+   IEEDataStorage     dataIn,  
+   out IEEDataStorage dataOut  
 );  
 ```  
   

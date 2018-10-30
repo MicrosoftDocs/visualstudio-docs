@@ -1,7 +1,7 @@
 ---
 title: "Choosing Between Shared and Versioned VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Choosing Between Shared and Versioned VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Choosing Between Shared and Versioned VSPackages](https://docs.microsoft.com/visualstudio/extensibility/choosing-between-shared-and-versioned-vspackages).  
-  
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] versions.  
   
  You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and associated versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)].  
@@ -54,15 +52,15 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
 ## Binary Compatibility  
  Generally, binary compatibility enables native-code VSPackages developed with earlier versions of Visual Studio to run in later versions of Visual Studio. However, there are three important exceptions:  
   
--   If your VSPackage relies on a particular version of the common language runtime, then it must determine in which version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] it is running.  
+- If your VSPackage relies on a particular version of the common language runtime, then it must determine in which version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] it is running.  
   
--   A VSPackage might have a dependency on a specific feature of another VSPackage or another product. Consequently, the VSPackage can run only where the dependency is satisfied.  
+- A VSPackage might have a dependency on a specific feature of another VSPackage or another product. Consequently, the VSPackage can run only where the dependency is satisfied.  
   
--   A VSPackage might be affected by a security fix in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] service pack or a later version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. In those cases, a VSPackage developed with an earlier version of the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] might not run in versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] after the security fix was applied. However, you can rebuild your package with the later version and have it also run in earlier versions.  
+- A VSPackage might be affected by a security fix in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] service pack or a later version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. In those cases, a VSPackage developed with an earlier version of the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] might not run in versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] after the security fix was applied. However, you can rebuild your package with the later version and have it also run in earlier versions.  
   
- Managed VSPackages must be built using a version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] that match the target version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+  Managed VSPackages must be built using a version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] that match the target version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
- In addition to planning for binary compatibility for your VSPackage binaries, you also should consider solution and project file formats. If your VSPackage creates a new project type, you must decide whether it can run in just one version or in multiple versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. For more information, see [Upgrading Custom Projects](../misc/upgrading-custom-projects.md).  
+  In addition to planning for binary compatibility for your VSPackage binaries, you also should consider solution and project file formats. If your VSPackage creates a new project type, you must decide whether it can run in just one version or in multiple versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. For more information, see [Upgrading Custom Projects](../misc/upgrading-custom-projects.md).  
   
 ## See Also  
  [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)   

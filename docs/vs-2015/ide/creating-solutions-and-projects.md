@@ -1,7 +1,7 @@
 ---
 title: "Creating Solutions and Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Creating Solutions and Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Create solutions and projects](https://docs.microsoft.com/visualstudio/ide/creating-solutions-and-projects).  
-  
 Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File &#124; New &#124; Project** from the main menu, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.  
   
 > [!NOTE]
@@ -70,15 +68,15 @@ Projects are the logical containers for everything that's needed to build your a
   
 #### To create an empty solution  
   
-1.  On the **File** menu, click **New** and then click **New Project**.  
+1. On the **File** menu, click **New** and then click **New Project**.  
   
-2.  In the left pane, select **Installed**, select **Other Project Types**, and then select **Visual Studio Solutions** from the expanded list.  
+2. In the left pane, select **Installed**, select **Other Project Types**, and then select **Visual Studio Solutions** from the expanded list.  
   
-3.  In the middle pane, select **Blank Solution**.  
+3. In the middle pane, select **Blank Solution**.  
   
-4.  Set the **Name** and **Location** values for your solution, then click **OK**.  
+4. Set the **Name** and **Location** values for your solution, then click **OK**.  
   
- After you create an empty solution, you can add new or existing projects or items to it by clicking **Add New Item** or **Add Existing Item** on the **Project** menu.  
+   After you create an empty solution, you can add new or existing projects or items to it by clicking **Add New Item** or **Add Existing Item** on the **Project** menu.  
   
 ### Deleting Solutions  
  You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Before you delete a solution, move any projects that you might want to use again in another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  

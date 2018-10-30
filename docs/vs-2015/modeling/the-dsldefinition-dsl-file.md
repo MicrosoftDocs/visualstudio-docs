@@ -1,7 +1,7 @@
 ---
 title: "The DslDefinition.dsl File | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # The DslDefinition.dsl File
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [The DslDefinition.dsl File](https://docs.microsoft.com/visualstudio/modeling/the-dsldefinition-dsl-file).  
-  
 This topic describes the structure of the DslDefinition.dsl file in the Dsl project of a [!INCLUDE[dsl](../includes/dsl-md.md)] solution, which defines a *domain-specific language*. The DslDefinition.dsl file describes the classes and relationships of a domain-specific language, together with the diagram, shapes, connectors, serialization format, and **Toolbox** of the domain-specific language and its editing tools. In a domain-specific language solution, the code that defines those tools is generated according to the information in the DslDefinition.dsl file.  
   
  Generally, you use the *Domain-Specific Language Designer* to edit the DslDefinition.dsl file. However, its raw form is XML, and you can open a DslDefinition.dsl file in an XML editor. You might find it useful to understand what information the file contains and how it is organized for debugging and extension purposes.  
@@ -269,7 +267,7 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
  The Component Diagram example contains a path in the ParentElementPath of the ShapeMap for InPort. This path starts as follows:  
   
 ```  
-    ComponentHasPorts.Component  
+    ComponentHasPorts.Component  
 ```  
   
  In this example, InPort is a subclass of ComponentPort and has a relationship ComponentHasPorts. The property is called Component.  
@@ -277,13 +275,13 @@ This topic describes the structure of the DslDefinition.dsl file in the Dsl proj
  When writing C# against this model, you can jump across a link in one step by using the property that the relationship generates on each of the classes that it relates:  
   
 ```  
-     InPort port; ...  Component c = port.Component;  
+     InPort port; ...  Component c = port.Component;  
 ```  
   
  However, you must do both hops explicitly in Path Syntax. Because of this requirement, you can access the intermediate link more easily. The following code completes the hop from the link to the Component:  
   
 ```  
-    ComponentHasPorts.Component / ! Component  
+    ComponentHasPorts.Component / ! Component  
 ```  
   
  (You can omit the relationship name where it is the same as in the previous segment.)  

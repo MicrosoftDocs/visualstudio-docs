@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1600: Do not use idle process priority
+
 |||
 |-|-|
 |TypeName|DoNotUseIdleProcessPriority|

@@ -1,7 +1,7 @@
 ---
 title: "T4 Import Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # T4 Import Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [T4 Import Directive](https://docs.microsoft.com/visualstudio/modeling/t4-import-directive).  
-  
 In the code blocks of a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully-qualified name. It is the equivalent of `using` in C# or `imports` in [!INCLUDE[vb_current_short](../includes/vb-current-short-md.md)].  
   
  For a general overview of writing T4 text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
@@ -41,15 +39,15 @@ The file contains: <#=  fileContent #>
 ## Standard Imports  
  The following namespace is imported automatically, so that you do not need to write an import directive for it:  
   
--   `System`  
+- `System`  
   
- In addition, if you use a custom directive, the directive processor might import some namespaces automatically.  
+  In addition, if you use a custom directive, the directive processor might import some namespaces automatically.  
   
- For example, if you write templates for a domain-specific language (DSL), you do not need to write import directives for the following namespaces:  
+  For example, if you write templates for a domain-specific language (DSL), you do not need to write import directives for the following namespaces:  
   
--   `Microsoft.VisualStudio.Modeling`  
+- `Microsoft.VisualStudio.Modeling`  
   
--   Your DSL’s namespace  
+- Your DSL’s namespace  
   
 ## See Also  
  [T4 Assembly Directive](../modeling/t4-assembly-directive.md)

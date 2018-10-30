@@ -1,7 +1,7 @@
 ---
 title: "Overview of Domain-Specific Language Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Overview of Domain-Specific Language Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overview of Domain-Specific Language Tools](https://docs.microsoft.com/visualstudio/modeling/overview-of-domain-specific-language-tools).  
-  
 Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], let you design a domain-specific language and then generate everything that users must have to create models that are based on the language.  
   
  The following tools are included in DSL Tools:  
@@ -35,31 +33,31 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
 ## The DSL Tools Solution  
  The Domain-Specific Designer Wizard provides the following solution templates:  
   
--   Task Flow  
+- Task Flow  
   
--   Class Diagrams  
+- Class Diagrams  
   
--   Minimal Language  
+- Minimal Language  
   
--   Component Models  
+- Component Models  
   
--   Minimal WPF  
+- Minimal WPF  
   
--   Minimal Windows.Forms  
+- Minimal Windows.Forms  
   
--   DSL Library  
+- DSL Library  
   
- For more information, see [Choosing a Domain-Specific Language Solution Template](../modeling/choosing-a-domain-specific-language-solution-template.md).  
+  For more information, see [Choosing a Domain-Specific Language Solution Template](../modeling/choosing-a-domain-specific-language-solution-template.md).  
   
- The wizard creates a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that has the following projects:  
+  The wizard creates a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that has the following projects:  
   
--   Dsl  
+- Dsl  
   
-     The Dsl project defines the domain-specific language and its editing and processing tools.  
+   The Dsl project defines the domain-specific language and its editing and processing tools.  
   
--   **DslPackage**  
+- **DslPackage**  
   
-     The DslPackage project determines how the language tools integrate with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+   The DslPackage project determines how the language tools integrate with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 ## The DSL Tools Graphical Interface  
  You can use the DSL Tools graphical interface to add elements and relationships to your domain-specific language. After you have added the elements, you can define their appearance by mapping them to shapes, customizing colors, and adding decorators. You can also add the elements to the toolbox.  

@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentPositionOffset2::GetRange | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,23 +19,21 @@ manager: "ghogen"
 # IDebugDocumentPositionOffset2::GetRange
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentPositionOffset2::GetRange](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentpositionoffset2-getrange).  
-  
 Retrieves the range for the current document position.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetRange(  
-   DWORD* pdwBegOffset,  
-   DWORD* pdwEndOffset  
+   DWORD* pdwBegOffset,  
+   DWORD* pdwEndOffset  
 );  
 ```  
   
 ```csharp  
 public int GetRange(  
-   ref uint pdwBegOffset,  
-   ref uint pdwEndOffset  
+   ref uint pdwBegOffset,  
+   ref uint pdwEndOffset  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Command-Line Arguments for the Help Content Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,19 +18,17 @@ manager: "ghogen"
 # Command-Line Arguments for the Help Content Manager
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command-Line Arguments for the Help Content Manager](https://docs.microsoft.com/visualstudio/ide/command-line-arguments-for-the-help-content-manager).  
-  
 You can specify how to deploy and manage local Help content by using command-line arguments for Help Content Manager (HlpCtntmgr.exe). You must run scripts for this command-line tool with administrator permissions, and you can’t run these scripts as a service. You can perform the following tasks by using this tool:  
   
--   Add or update local Help content from a disk or the cloud.  
+- Add or update local Help content from a disk or the cloud.  
   
--   Remove local Help content.  
+- Remove local Help content.  
   
--   Move the local Help content store.  
+- Move the local Help content store.  
   
--   Add, update, remove, or move local Help content silently.  
+- Add, update, remove, or move local Help content silently.  
   
- Syntax:  
+  Syntax:  
   
 ```  
 HlpCtntmgr.exe /operation Value /catalogname CatalogName /locale Locale /sourceuri InstallationPoint  

@@ -1,7 +1,7 @@
 ---
 title: "Task Writing | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Task Writing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Task Writing](https://docs.microsoft.com/visualstudio/msbuild/task-writing).  
-  
   
 Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], see [Task Reference](../msbuild/msbuild-task-reference.md).  
   
@@ -32,11 +30,11 @@ Tasks provide the code that runs during the build process. Tasks are contained i
   
  There are two approaches you can use when implementing a task:  
   
--   Implement the <xref:Microsoft.Build.Framework.ITask> interface directly.  
+- Implement the <xref:Microsoft.Build.Framework.ITask> interface directly.  
   
--   Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Task>, which is defined in the Microsoft.Build.Utilities.dll assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.  
+- Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Task>, which is defined in the Microsoft.Build.Utilities.dll assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.  
   
- In both cases, you must add to your class a method named `Execute`, which is the method that is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action and returns `true`.  
+  In both cases, you must add to your class a method named `Execute`, which is the method that is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action and returns `true`.  
   
 ```  
 using System;  

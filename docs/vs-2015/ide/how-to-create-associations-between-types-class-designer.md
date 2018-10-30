@@ -1,7 +1,7 @@
 ---
 title: "How to: Create Associations Between Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # How to: Create Associations Between Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create Associations Between Types (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-create-associations-between-types-class-designer).  
-  
 Association lines in Class Designer show how classes in a diagram are related. An Association line represents a class that is the type of a property or field of another class in your project. Association lines are generally used to illustrate the most important relationships between classes in your project.  
   
  While you could display all fields and properties as associations, it makes more sense to show only important members as associations, depending on what you intend to emphasize in the diagram. (You can show less important members as regular members or hide them altogether.)  
@@ -45,9 +43,9 @@ Association lines in Class Designer show how classes in a diagram are related. A
   
 ### To change the name of an association  
   
--   On the diagram surface, click the label of the association line and edit it.  
+- On the diagram surface, click the label of the association line and edit it.  
   
- \- or -  
+  \- or -  
   
 1.  Click the shape that contains the property that is shown as an association.  
   

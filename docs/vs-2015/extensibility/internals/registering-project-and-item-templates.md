@@ -1,7 +1,7 @@
 ---
 title: "Registering Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Registering Project and Item Templates
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering Project and Item Templates](https://docs.microsoft.com/visualstudio/extensibility/internals/registering-project-and-item-templates).  
-  
 Project types must register the directories where their project and project-item templates are located. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] uses the registration information associated with your project types to determine what to show in the **Add New Project** and **Add New Item** dialog boxes.  
   
  For more information about templates, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).  
@@ -66,7 +64,7 @@ Project types must register the directories where their project and project-item
 |SortPriority|REG_DWORD|Set SortPriority to govern the order in which templates are displayed in the **Add New Item** dialog box. Larger SortPriority values appear earlier in the template list.|  
   
 ### Registering file filters  
- Optionally, you can register filters that [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] uses when it prompts for file names. For example, the [!INCLUDE[csprcs](../../includes/csprcs-md.md)] filter for the the **Open File** dialog box is:  
+ Optionally, you can register filters that [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] uses when it prompts for file names. For example, the [!INCLUDE[csprcs](../../includes/csprcs-md.md)] filter for the **Open File** dialog box is:  
   
  **Visual C# Files (\*.cs,\*.resx,\*.settings,\*.xsd,\*.wsdl);\*.cs,\*.resx,\*.settings,\*.xsd,\*.wsdl)**  
   

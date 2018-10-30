@@ -1,7 +1,7 @@
 ---
 title: "Group Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Group Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Group Element](https://docs.microsoft.com/visualstudio/extensibility/group-element).  
-  
 Defines a VSPackage command group.  
   
 ## Syntax  
@@ -61,7 +59,7 @@ Defines a VSPackage command group.
   
 ```  
 <Group guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-  <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
+  <Parent guid="guidSHLMainMenu" id="IDM_VS_TOOL_MAINMENU"/>  
 </Group>  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Comparing Properties and Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Comparing Properties and Items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Comparing Properties and Items](https://docs.microsoft.com/visualstudio/msbuild/comparing-properties-and-items).  
-  
   
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
   
@@ -86,27 +84,27 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
 ## Property and Item Evaluation Order  
  During the evaluation phase of a build, imported files are incorporated into the build in the order in which they appear. Properties and items are defined in three passes in the following order:  
   
--   Properties are defined and modified in the order in which they appear.  
+- Properties are defined and modified in the order in which they appear.  
   
--   Item definitions are defined and modified in the order in which they appear.  
+- Item definitions are defined and modified in the order in which they appear.  
   
--   Items are defined and modified in the order in which they appear.  
+- Items are defined and modified in the order in which they appear.  
   
- During the execution phase of a build, properties and items that are defined within targets are evaluated together in a single phase in the order in which they appear.  
+  During the execution phase of a build, properties and items that are defined within targets are evaluated together in a single phase in the order in which they appear.  
   
- However, this is not the full story. When a property, item definition, or item is defined, its value is evaluated. The expression evaluator expands the string that specifies the value. The string expansion is dependent on the build phase. Here is a more detailed property and item evaluation order:  
+  However, this is not the full story. When a property, item definition, or item is defined, its value is evaluated. The expression evaluator expands the string that specifies the value. The string expansion is dependent on the build phase. Here is a more detailed property and item evaluation order:  
   
--   During the evaluation phase of a build:  
+- During the evaluation phase of a build:  
   
-    -   Properties are defined and modified in the order in which they appear. Property functions are executed. Property values in the form $(PropertyName) are expanded within expressions. The property value is set to the expanded expression.  
+  -   Properties are defined and modified in the order in which they appear. Property functions are executed. Property values in the form $(PropertyName) are expanded within expressions. The property value is set to the expanded expression.  
   
-    -   Item definitions are defined and modified in the order in which they appear. Property functions have already been expanded within expressions. Metadata values are set to the expanded expressions.  
+  -   Item definitions are defined and modified in the order in which they appear. Property functions have already been expanded within expressions. Metadata values are set to the expanded expressions.  
   
-    -   Item types are defined and modified in the order in which they appear. Item values in the form @(ItemType) are expanded. Item transformations are also expanded. Property functions and values have already been expanded within expressions. The item list and metadata values are set to the expanded expressions.  
+  -   Item types are defined and modified in the order in which they appear. Item values in the form @(ItemType) are expanded. Item transformations are also expanded. Property functions and values have already been expanded within expressions. The item list and metadata values are set to the expanded expressions.  
   
--   During the execution phase of a build:  
+- During the execution phase of a build:  
   
-    -   Properties and items that are defined within targets are evaluated together in the order in which they appear. Property functions are executed and property values are expanded within expressions. Item values and item transformations are also expanded. The property values, item type values, and metadata values are set to the expanded expressions.  
+  -   Properties and items that are defined within targets are evaluated together in the order in which they appear. Property functions are executed and property values are expanded within expressions. Item values and item transformations are also expanded. The property values, item type values, and metadata values are set to the expanded expressions.  
   
 ### Subtle Effects of the Evaluation Order  
  In the evaluation phase of a build, property evaluation precedes item evaluation. Nevertheless, properties can have values that appear to depend on item values. Consider the following script.  

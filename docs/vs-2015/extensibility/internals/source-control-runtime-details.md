@@ -1,7 +1,7 @@
 ---
 title: "Source Control Runtime Details | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Source Control Runtime Details
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control Runtime Details](https://docs.microsoft.com/visualstudio/extensibility/internals/source-control-runtime-details).  
-  
 A project is added to source control when the user adds a file in the project to source control, or through an automation controller, such as a wizard. A project does not specify for itself that it is under source control; it supports source control, but must be added to it manually.  
   
 ## Registering with a Source Control Package  

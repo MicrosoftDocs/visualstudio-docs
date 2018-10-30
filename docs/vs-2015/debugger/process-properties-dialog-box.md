@@ -1,7 +1,7 @@
 ---
 title: "Process Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Process Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Process Properties Dialog Box](https://docs.microsoft.com/visualstudio/debugger/process-properties-dialog-box).  
-  
 Use this dialog box to find out more about a specific process. To display this dialog box, move the focus to a [Processes View](../debugger/processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.  
   
  On Windows 98 and Windows 95 operating systems, only a modified version of the **General** tab is displayed.  

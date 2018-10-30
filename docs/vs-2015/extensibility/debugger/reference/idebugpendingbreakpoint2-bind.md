@@ -1,7 +1,7 @@
 ---
 title: "IDebugPendingBreakpoint2::Bind | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::Bind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2::Bind](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2-bind).  
-  
 Binds this pending breakpoint to one or more code locations.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Bind(   
-   void   
+   void   
 );  
 ```  
   

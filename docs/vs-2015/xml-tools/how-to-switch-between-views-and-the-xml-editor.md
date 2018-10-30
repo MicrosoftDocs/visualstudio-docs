@@ -1,7 +1,7 @@
 ---
 title: "How to: Switch Between Views and the XML Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Switch Between Views and the XML Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Switch Between Views and the XML Editor](https://docs.microsoft.com/visualstudio/xml-tools/how-to-switch-between-views-and-the-xml-editor).  
-  
   
 This topic shows how to switch between the XML Schema Designer (XSD Designer) views and the XML Editor. This example uses the [Purchase Order Schema](../xml-tools/sample-xsd-file-simple-schema.md).  
   

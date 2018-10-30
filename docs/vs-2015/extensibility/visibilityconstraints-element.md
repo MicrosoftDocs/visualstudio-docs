@@ -1,7 +1,7 @@
 ---
 title: "VisibilityConstraints Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # VisibilityConstraints Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [VisibilityConstraints Element](https://docs.microsoft.com/visualstudio/extensibility/visibilityconstraints-element).  
-  
 The VisibilityConstraints element determines the static visibility of groups of commands and toolbars. The visibility is first controlled by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE) without loading the VSPackage.  
   
 ## Syntax  
@@ -61,8 +59,8 @@ The VisibilityConstraints element determines the static visibility of groups of 
   
 ```  
 <VisibilityConstraints>  
-  <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
-    context="guidNotViewSourceMode"/>  
+  <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
+    context="guidNotViewSourceMode"/>  
 </VisibilityConstraints>  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "List Call Stack Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # List Call Stack Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [List Call Stack Command](https://docs.microsoft.com/visualstudio/ide/reference/list-call-stack-command).  
-  
   
 Displays the current call stack.  
   

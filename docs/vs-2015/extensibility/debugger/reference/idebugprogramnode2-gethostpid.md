@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramNode2::GetHostPid | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProgramNode2::GetHostPid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNode2::GetHostPid](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnode2-gethostpid).  
-  
 Gets the system process identifier for the process hosting the program.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetHostPid (   
-   AD_PROCESS_ID * pdwHostPid  
+   AD_PROCESS_ID * pdwHostPid  
 );  
 ```  
   
 ```csharp  
 int GetHostPid (   
-   out AD_PROCESS_ID pdwHostPid  
+   out AD_PROCESS_ID pdwHostPid  
 );  
 ```  
   

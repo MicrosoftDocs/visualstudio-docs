@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider::IsHiddenCode | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,21 +19,19 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider::IsHiddenCode
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider::IsHiddenCode](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider-ishiddencode).  
-  
 Determines if the code at the specified debugger address is hidden.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT IsHiddenCode(  
-   IDebugAddress* pAddress  
+   IDebugAddress* pAddress  
 );  
 ```  
   
 ```csharp  
 int IsHiddenCode(  
-   IDebugAddress pAddress  
+   IDebugAddress pAddress  
 );  
 ```  
   

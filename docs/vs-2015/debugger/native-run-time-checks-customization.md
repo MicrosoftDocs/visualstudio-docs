@@ -1,7 +1,7 @@
 ---
 title: "Native Run-Time Checks Customization | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,23 +35,21 @@ manager: "ghogen"
 # Native Run-Time Checks Customization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Native Run-Time Checks Customization](https://docs.microsoft.com/visualstudio/debugger/native-run-time-checks-customization).  
-  
 When you compile with **/RTC** (run-time checks) or use the `runtime_checks` pragma, the C run-time library provides native run-time checks. In some cases, you might want to customize run-time checking:  
   
--   To route run-time check messages to a file or destination other than the default.  
+- To route run-time check messages to a file or destination other than the default.  
   
--   To specify an output destination for run-time check messages under a third-party debugger.  
+- To specify an output destination for run-time check messages under a third-party debugger.  
   
--   To report run-time check messages from a program compiled with a release version of the C run-time library. Release versions of the library do not use `_CrtDbgReportW` to report run-time errors. Instead, they display an **Assert** dialog box for each run-time error.  
+- To report run-time check messages from a program compiled with a release version of the C run-time library. Release versions of the library do not use `_CrtDbgReportW` to report run-time errors. Instead, they display an **Assert** dialog box for each run-time error.  
   
- To customize run-time error checking, you can:  
+  To customize run-time error checking, you can:  
   
--   Write a run-time error reporting function. For more information, see [How to: Write a Run-Time Error Reporting Function](../debugger/how-to-write-a-run-time-error-reporting-function.md).  
+- Write a run-time error reporting function. For more information, see [How to: Write a Run-Time Error Reporting Function](../debugger/how-to-write-a-run-time-error-reporting-function.md).  
   
--   Customize the error message destination.  
+- Customize the error message destination.  
   
--   Query for information about run-time check errors.  
+- Query for information about run-time check errors.  
   
 ## Customize the Error Message Destination  
  If you use `_CrtDbgReportW` to report errors, you can use `_CrtSetReportMode` to specify the destination of error messages.  

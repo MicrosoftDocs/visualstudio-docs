@@ -1,7 +1,7 @@
 ---
 title: "Customizing Tools and the Toolbox | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "douge"
 # Customizing Tools and the Toolbox
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Tools and the Toolbox](https://docs.microsoft.com/visualstudio/modeling/customizing-tools-and-the-toolbox).  
-  
 You must define toolbox items for the elements that you want to let users add to their models. There are two kinds of tools: element tools and connection tools. In the generated designer, a user can select an element tool to drag shapes to the diagram, and can select a connection tool to draw links between the shapes. In general, element tools let users add instances of domain classes to their models, and connection tools let them add instances of domain relationships.  
   
  In this topic:  
@@ -179,15 +177,15 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ### Custom Code for Connection Builders  
  There are four checkboxes in the user interface that define different types of customization of connection builders:  
   
--   the **Custom accept** check box on a source or target role directive  
+- the **Custom accept** check box on a source or target role directive  
   
--   the **Custom connect** check box on a source or target role directive  
+- the **Custom connect** check box on a source or target role directive  
   
--   the **Uses custom connect** check box on a connect directive  
+- the **Uses custom connect** check box on a connect directive  
   
--   the **Is Custom** property of the connection builder  
+- the **Is Custom** property of the connection builder  
   
- You have to provide some program code to make these customizations. To discover what code you must supply, check one of these boxes, click Transform All Templates, and then build your solution. An error report will result. Double-click the error report to see a comment that explains what code you should add.  
+  You have to provide some program code to make these customizations. To discover what code you must supply, check one of these boxes, click Transform All Templates, and then build your solution. An error report will result. Double-click the error report to see a comment that explains what code you should add.  
   
 > [!NOTE]
 >  To add custom code, create a partial class definition in a code file separate from the code files in the GeneratedCode folders. To avoid losing your work, you should not edit the generated code files. For more information, see [Overriding and Extending the Generated Classes](../modeling/overriding-and-extending-the-generated-classes.md).  
@@ -216,23 +214,23 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
  You must then provide methods in the ConnectionBuilder class:  
   
 ```  
-  public partial class ConnectionBuilder  
-  {  
-    /// <summary>  
-    /// OK if this component has children  
-    /// </summary>  
-    private static bool CanAcceptInPortAsSource(InPort candidate)  
-    {  
-       return candidate.Component.Children.Count > 0;  
-    }  
+  public partial class ConnectionBuilder  
+  {  
+    /// <summary>  
+    /// OK if this component has children  
+    /// </summary>  
+    private static bool CanAcceptInPortAsSource(InPort candidate)  
+    {  
+       return candidate.Component.Children.Count > 0;  
+    }  
   
-    /// <summary>  
-    /// Only if source is on parent of target.  
-    /// </summary>  
-    private static bool CanAcceptInPortAndInPortAsSourceAndTarget                (InPort sourceInPort, InPort targetInPort)  
-    {  
-      return sourceInPort.Component == targetInPort.Component.Parent;  
-    }  
+    /// <summary>  
+    /// Only if source is on parent of target.  
+    /// </summary>  
+    private static bool CanAcceptInPortAndInPortAsSourceAndTarget                (InPort sourceInPort, InPort targetInPort)  
+    {  
+      return sourceInPort.Component == targetInPort.Component.Parent;  
+    }  
 // And similar for OutPorts…  
 ```  
   

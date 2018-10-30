@@ -1,7 +1,7 @@
 ---
 title: "Contained Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,7 +19,6 @@ manager: "ghogen"
 # Contained Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)] 
 
-The latest version of this topic can be found at [Contained Languages](https://docs.microsoft.com/visualstudio/extensibility/contained-languages).  
   
 *Contained languages* are languages that are contained by other languages. For example, HTML in [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] pages may contain [!INCLUDE[csprcs](../includes/csprcs-md.md)] or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] scripts. A dual-language architecture is required for the .aspx file editor to provide IntelliSense, colorization, and other editing features for both the HTML and the scripting language.  
   

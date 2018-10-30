@@ -1,7 +1,7 @@
 ---
 title: "HRESULT Information in Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,19 +21,19 @@ The interaction between managed code and COM can cause problems when HRESULT ret
   
  In a COM interface, an HRESULT return value can play these roles:  
   
--   Deliver error information (for example, <xref:Microsoft.VisualStudio.VSConstants.E_INVALIDARG>).  
+- Deliver error information (for example, <xref:Microsoft.VisualStudio.VSConstants.E_INVALIDARG>).  
   
--   Deliver status information about normal program behavior.  
+- Deliver status information about normal program behavior.  
   
- When COM calls into managed code, HRESULTs can cause these problems:  
+  When COM calls into managed code, HRESULTs can cause these problems:  
   
--   COM functions that return HRESULT values less than zero (failure codes) generate exceptions.  
+- COM functions that return HRESULT values less than zero (failure codes) generate exceptions.  
   
--   COM methods that regularly return two or more different success codes, for example, <xref:Microsoft.VisualStudio.VSConstants.S_OK> or <xref:Microsoft.VisualStudio.VSConstants.S_FALSE>, cannot be distinguished.  
+- COM methods that regularly return two or more different success codes, for example, <xref:Microsoft.VisualStudio.VSConstants.S_OK> or <xref:Microsoft.VisualStudio.VSConstants.S_FALSE>, cannot be distinguished.  
   
- Because many of the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] COM functions either return HRESULT values less than zero or return different success codes, the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] interop assemblies have been written so that the method signatures are preserved. All [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] interop methods are of `int` type. HRESULT values are passed through the interop layer without alteration and without generating exceptions.  
+  Because many of the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] COM functions either return HRESULT values less than zero or return different success codes, the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] interop assemblies have been written so that the method signatures are preserved. All [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] interop methods are of `int` type. HRESULT values are passed through the interop layer without alteration and without generating exceptions.  
   
- Because a COM function returns an HRESULT to the managed method that calls it, the calling method must check the HRESULT and throw exceptions as necessary.  
+  Because a COM function returns an HRESULT to the managed method that calls it, the calling method must check the HRESULT and throw exceptions as necessary.  
   
 ## Handling HRESULTs Returned to Managed Code from COM  
  When you call a COM interface from managed code, examine the HRESULT value and throw an exception if required. The <xref:Microsoft.VisualStudio.ErrorHandler> class contains the <xref:Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure%2A> method, which throws a COM exception, depending on the value of the HRESULT passed to it.  

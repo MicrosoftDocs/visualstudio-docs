@@ -1,7 +1,7 @@
 ---
 title: "Getting Service Information from the Settings Store | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Getting Service Information from the Settings Store
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Service Information from the Settings Store](https://docs.microsoft.com/visualstudio/extensibility/getting-service-information-from-the-settings-store).  
-  
 You can use the settings store to find all available services or to determine whether a particular service is installed. You must know the type of the service class.  
   
 ### To list the available services  

@@ -1,7 +1,7 @@
 ---
 title: "Security of Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Security of Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Security of Text Templates](https://docs.microsoft.com/visualstudio/modeling/security-of-text-templates).  
-  
 Text templates have the following security concerns:  
   
 -   Text templates are vulnerable to arbitrary code insertions.  

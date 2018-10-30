@@ -1,7 +1,7 @@
 ---
 title: "Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,9 +16,6 @@ manager: "douge"
 ---
 # Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests](https://docs.microsoft.com/visualstudio/test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests).
-
 The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can use them when you have written the unit test from scratch or are refining a unit test that was generated from code you are testing.
 
 ## Groups of Elements

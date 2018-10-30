@@ -1,7 +1,7 @@
 ---
 title: "CA1700: Do not name enum values &#39;Reserved&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # CA1700: Do not name enum values &#39;Reserved&#39;
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1700: Do not name enum values &#39;Reserved&#39;](https://docs.microsoft.com/visualstudio/code-quality/ca1700-do-not-name-enum-values-reserved).
-
 |||
 |-|-|
 |TypeName|DoNotNameEnumValuesReserved|
@@ -43,11 +41,11 @@ The latest version of this topic can be found at [CA1700: Do not name enum value
 
  In a limited number of cases the addition of a member is a breaking change even when the original members retain their original values. Primarily, the new member cannot be returned from existing code paths without breaking callers that use a `switch` (`Select` in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]) statement on the return value that encompasses the whole member list and that throw an exception in the default case. A secondary concern is that client code might not handle the change in behavior from reflection methods such as <xref:System.Enum.IsDefined%2A?displayProperty=fullName>. Accordingly, if the new member has to be returned from existing methods or a known application incompatibility occurs because of poor reflection usage, the only nonbreaking solution is to:
 
-1.  Add a new enumeration that contains the original and new members.
+1. Add a new enumeration that contains the original and new members.
 
-2.  Mark the original enumeration with the <xref:System.ObsoleteAttribute?displayProperty=fullName> attribute.
+2. Mark the original enumeration with the <xref:System.ObsoleteAttribute?displayProperty=fullName> attribute.
 
- Follow the same procedure for any externally visible types or members that expose the original enumeration.
+   Follow the same procedure for any externally visible types or members that expose the original enumeration.
 
 ## How to Fix Violations
  To fix a violation of this rule, remove or rename the member.

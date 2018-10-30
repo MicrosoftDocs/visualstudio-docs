@@ -1,7 +1,7 @@
 ---
 title: "Creating Custom T4 Text Template Directive Processors | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Creating Custom T4 Text Template Directive Processors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating Custom T4 Text Template Directive Processors](https://docs.microsoft.com/visualstudio/modeling/creating-custom-t4-text-template-directive-processors).  
-  
 The *text template transformation process* takes a *text template* file as the input and produces a text file as the output. The *text template transformation engine* controls the process, and the engine interacts with a text template transformation host and one or more text template *directive processors* to complete the process. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).  
   
  To create a custom directive processor, you create a class that inherits from either <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
@@ -50,19 +48,19 @@ The *text template transformation process* takes a *text template* file as the i
   
  The most important `DirectiveProcessor` methods that you must implement are as follows.  
   
--   `bool IsDirectiveSupported(string directiveName)` - Return `true` if your directive processor can deal with the named directive.  
+- `bool IsDirectiveSupported(string directiveName)` - Return `true` if your directive processor can deal with the named directive.  
   
--   `void ProcessDirective (string directiveName, IDictionary<string, string> arguments)` - The template engine calls this method for each occurrence of a directive in the template. Your processor should save the results.  
+- `void ProcessDirective (string directiveName, IDictionary<string, string> arguments)` - The template engine calls this method for each occurrence of a directive in the template. Your processor should save the results.  
   
- After all calls to ProcessDirective() the templating engine will call these methods:  
+  After all calls to ProcessDirective() the templating engine will call these methods:  
   
--   `string[] GetReferencesForProcessingRun()` - Return the names of assemblies that the template code requires.  
+- `string[] GetReferencesForProcessingRun()` - Return the names of assemblies that the template code requires.  
   
--   `string[] GetImportsForProcessingRun()` - Return the namespaces that can be used in the template code.  
+- `string[] GetImportsForProcessingRun()` - Return the namespaces that can be used in the template code.  
   
--   `string GetClassCodeForProcessingRun()` - Return the code of methods, properties, and other declarations that the template code can use. The easiest way to do this is to build a string containing the C# or Visual Basic code. To make your directive processor capable of being called from a template that uses any CLR language, you can construct the statements as a CodeDom tree and then return the result of serializing the tree in the language used by the template.  
+- `string GetClassCodeForProcessingRun()` - Return the code of methods, properties, and other declarations that the template code can use. The easiest way to do this is to build a string containing the C# or Visual Basic code. To make your directive processor capable of being called from a template that uses any CLR language, you can construct the statements as a CodeDom tree and then return the result of serializing the tree in the language used by the template.  
   
--   For more information, see [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md).  
+- For more information, see [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md).  
   
 ## In This Section  
  [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md)  

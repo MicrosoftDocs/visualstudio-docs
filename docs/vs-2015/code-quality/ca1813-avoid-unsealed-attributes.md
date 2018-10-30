@@ -1,7 +1,7 @@
 ---
 title: "CA1813: Avoid unsealed attributes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1813: Avoid unsealed attributes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1813: Avoid unsealed attributes](https://docs.microsoft.com/visualstudio/code-quality/ca1813-avoid-unsealed-attributes).
 
 |||
 |-|-|

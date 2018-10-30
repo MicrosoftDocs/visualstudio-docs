@@ -1,7 +1,7 @@
 ---
 title: "DA0023: High GC CPU time | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # DA0023: High GC CPU time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DA0023: High GC CPU time](https://docs.microsoft.com/visualstudio/profiling/da0023-high-gc-cpu-time).  
-  
 Rule Id|DA0023|  
 |Category|.NET Framework Usage|  
 |Profiling method|All|  

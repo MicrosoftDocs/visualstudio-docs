@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findInlineFramesByAddr | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # IDiaSymbol::findInlineFramesByAddr
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::findInlineFramesByAddr](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-findinlineframesbyaddr).  
-  
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address.  
   
 ## Syntax  
@@ -29,8 +27,8 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
 ```cpp#  
 HRESULT findInlineFramesByAddr (   
    DWORD             isect,  
-   DWORD             offset,  
-   IDiaEnumSymbols** ppResult  
+   DWORD             offset,  
+   IDiaEnumSymbols** ppResult  
 );  
 ```  
   

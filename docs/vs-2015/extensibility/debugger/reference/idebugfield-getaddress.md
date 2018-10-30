@@ -1,7 +1,7 @@
 ---
 title: "IDebugField::GetAddress | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugField::GetAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::GetAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-getaddress).  
-  
 This method gets the debug address of a field.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetAddress(   
-   IDebugAddress** ppAddress  
+   IDebugAddress** ppAddress  
 );  
 ```  
   
 ```csharp  
 int GetAddress(  
-   out IDebugAddress ppAddress  
+   out IDebugAddress ppAddress  
 );  
 ```  
   

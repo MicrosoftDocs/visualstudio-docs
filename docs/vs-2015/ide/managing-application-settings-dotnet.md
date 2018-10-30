@@ -1,7 +1,7 @@
 ---
 title: "Managing Application Settings (.NET) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Managing Application Settings (.NET)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Managing Application Settings (.NET)](https://docs.microsoft.com/visualstudio/ide/managing-application-settings-dotnet).  
-  
 Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences and other information you need at runtime.  
   
  Application settings replace the dynamic properties used in earlier versions of Visual Studio.  
@@ -38,13 +36,13 @@ Application settings enable you to store application information dynamically. Se
   
  There are two types of application settings, based on scope:  
   
--   Application-scoped settings can be used for information such as a URL for a Web service or a database connection string. These values are associated with the application. Therefore, users cannot change them at run time.  
+- Application-scoped settings can be used for information such as a URL for a Web service or a database connection string. These values are associated with the application. Therefore, users cannot change them at run time.  
   
--   User-scoped settings can be used for information such as persisting the last position of a form or a font preference. Users can change these values at run time.  
+- User-scoped settings can be used for information such as persisting the last position of a form or a font preference. Users can change these values at run time.  
   
- You can change the type of a setting by using the **Scope** property.  
+  You can change the type of a setting by using the **Scope** property.  
   
- The project system stores application settings in two XML files: an app.config file, which is created at design time when you create the first application setting; and a user.config file, which is created at run time when the user who runs the application changes the value of any user setting. Notice that changes in user settings are not written to disk unless the application specifically calls a method to do this.  
+  The project system stores application settings in two XML files: an app.config file, which is created at design time when you create the first application setting; and a user.config file, which is created at run time when the user who runs the application changes the value of any user setting. Notice that changes in user settings are not written to disk unless the application specifically calls a method to do this.  
   
 ## Creating Application Settings at Design Time  
  At design time, you can create application settings in two ways: by using the **Settings** page of the **Project Designer**, or by using the **Properties** window for a form or control, which allows you to bind a setting to a property.  

@@ -23,28 +23,28 @@ As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The sp
 To download the IDE:
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Visual Studio IDE tile in the Tools section, and click on the **Download** link at the bottom of the benefit tile.  You can also download it from the [Downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs) page.
-    > [!div class="mx-imgBorder"]
-    > ![Visual Studio Enterprise tile](_img\vs-ide-experience\vs-ide-tile.png)
+   > [!div class="mx-imgBorder"]
+   > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png)
 
-3.	Click on the You’ll be redirected to the Download Results page for Visual Studio Enterprise, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
-4.	On the Details tab of the Download Results page:
-    - Select your desired architecture (x86, x64)
-    - Select your language preference.
-5.	Click the blue download button.
-    > [!div class="mx-imgBorder"]
-    > ![Visual Studio Enterprise download details](_img\vs-ide-experience\vs-ide-download-details.png)
-6.	To install now, click **Run**.
-7.	In the User Account Control dialog, click **Yes**.
-8.  Click **Continue** to accept the license terms.
-9.  When the installer starts, choose your desired workloads, individual components and language packs by choosing them on the corresponding tabs.
-    > [!div class="mx-imgBorder"]
-    > ![Customize Visual Studio Enterprise](_img\vs-ide-experience\vs-ide-customize-install-cropped.png)
+3. Click on the You’ll be redirected to the Download Results page for Visual Studio Enterprise, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
+4. On the Details tab of the Download Results page:
+   - Select your desired architecture (x86, x64)
+   - Select your language preference.
+5. Click the blue download button.
+   > [!div class="mx-imgBorder"]
+   > ![Visual Studio Enterprise download details](_img/vs-ide-experience/vs-ide-download-details.png)
+6. To install now, click **Run**.
+7. In the User Account Control dialog, click **Yes**.
+8. Click **Continue** to accept the license terms.
+9. When the installer starts, choose your desired workloads, individual components and language packs by choosing them on the corresponding tabs.
+   > [!div class="mx-imgBorder"]
+   > ![Customize Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-customize-install-cropped.png)
 
-10.  Click **Install**.
+10. Click **Install**.
 
 11. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.
     > [!div class="mx-imgBorder"]
-    > ![Launch Visual Studio Enterprise](_img\vs-ide-experience\vs-ide-launch-cropped.png)
+    > ![Launch Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-launch-cropped.png)
 
 12. Sign in with the account associated with your Visual Studio subscription.
 
@@ -52,9 +52,10 @@ To download the IDE:
 
 14. The Start Page will display.  You're ready to start using Visual Studio!
     > [!div class="mx-imgBorder"]
-    > ![Start Using Visual Studio Enterprise](_img\vs-ide-experience\vs-ide-start-cropped.png)
+    > ![Start Using Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-start-cropped.png)
 
 ## Eligibility
+
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
@@ -63,7 +64,7 @@ To download the IDE:
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Dev Essentials | N/A  | Visual Studio Community |Yes |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Partner (MVP), Region Director (RD).  Excludes: MCT Software & Services.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Professional (MVP), Region Director (RD).  Excludes: MCT Software & Services.*
 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.

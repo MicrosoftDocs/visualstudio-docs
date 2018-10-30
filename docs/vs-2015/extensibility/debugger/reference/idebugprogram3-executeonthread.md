@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgram3::ExecuteOnThread | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,20 +19,18 @@ manager: "ghogen"
 # IDebugProgram3::ExecuteOnThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgram3::ExecuteOnThread](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogram3-executeonthread).  
-  
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT ExecuteOnThread(  
-   [in] IDebugThread2* pThread)  
+   [in] IDebugThread2* pThread)  
 ```  
   
 ```csharp  
 int ExecuteOnThread(  
-   IDebugThread2 pThread  
+   IDebugThread2 pThread  
 );  
 ```  
   
@@ -46,13 +44,13 @@ int ExecuteOnThread(
 ## Remarks  
  There are three different ways that a debugger can resume execution after stopping:  
   
--   Execute: Cancel any previous step, and run until the next breakpoint and so on.  
+- Execute: Cancel any previous step, and run until the next breakpoint and so on.  
   
--   Step: Cancel any old step, and run until the new step completes.  
+- Step: Cancel any old step, and run until the new step completes.  
   
--   Continue: Run again, and leave any old step active.  
+- Continue: Run again, and leave any old step active.  
   
- The thread passed to `ExecuteOnThread` is useful when deciding which step to cancel. If you do not know the thread, running execute cancels all steps. With knowledge of the thread, you only need to cancel the step on the active thread.  
+  The thread passed to `ExecuteOnThread` is useful when deciding which step to cancel. If you do not know the thread, running execute cancels all steps. With knowledge of the thread, you only need to cancel the step on the active thread.  
   
 ## See Also  
  [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md)   

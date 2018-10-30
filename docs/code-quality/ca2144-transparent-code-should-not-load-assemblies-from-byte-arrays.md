@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2144: Transparent code should not load assemblies from byte arrays
+
 |||
 |-|-|
 |TypeName|TransparentMethodsShouldNotLoadAssembliesFromByteArrays|

@@ -1,7 +1,7 @@
 ---
 title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,19 +32,17 @@ manager: "ghogen"
 # How to: Add or Remove References By Using the Reference Manager
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Add or Remove References By Using the Reference Manager](https://docs.microsoft.com/visualstudio/ide/how-to-add-or-remove-references-by-using-the-reference-manager).  
-  
 You can use the **Reference Manager** dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references mscorlib.dll. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.  
   
 ## Adding and Removing a Reference  
   
 #### To Add a Reference  
   
-1.  In **Solution Explorer**, right-click on the References node and choose **Add Reference**.  
+1. In **Solution Explorer**, right-click on the References node and choose **Add Reference**.  
   
-2.  Specify the references to add, and then choose the **OK** button.  
+2. Specify the references to add, and then choose the **OK** button.  
   
- **Reference Manager** opens and lists the available references by group. The project type determines which of the following groups appear:  
+   **Reference Manager** opens and lists the available references by group. The project type determines which of the following groups appear:  
   
 -   Assemblies, with the Framework and Extensions subgroups.  
   
@@ -65,29 +63,29 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
  The Assemblies tab consists of two sub-tabs:  
   
-1.  Framework lists all assemblies that constitute the targeted Framework.  
+1. Framework lists all assemblies that constitute the targeted Framework.  
   
-    -   Advertised assemblies are in the Full Framework and enumerated in the Framework list when your project targets a Profile of the targeted Framework. Advertised assemblies are grey to differentiate them from the assemblies that exist in the targeted Framework profile of the project. For example, if a project targets .NET Framework 4 Client, the Framework list shows advertised assemblies from .NET Framework 4. When a user adds an advertised assembly, the user is notified that, after the **Reference Manager** dialog box is closed, the project will be retargeted to the .NET Framework 4 and the advertised assembly will be added.  
+   -   Advertised assemblies are in the Full Framework and enumerated in the Framework list when your project targets a Profile of the targeted Framework. Advertised assemblies are grey to differentiate them from the assemblies that exist in the targeted Framework profile of the project. For example, if a project targets .NET Framework 4 Client, the Framework list shows advertised assemblies from .NET Framework 4. When a user adds an advertised assembly, the user is notified that, after the **Reference Manager** dialog box is closed, the project will be retargeted to the .NET Framework 4 and the advertised assembly will be added.  
   
-    -   Projects for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../includes/net-win8-profile-md.md)] by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the Framework tab won’t enumerate any of the assemblies from the Framework and instead display the following message: “All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework.” For desktop projects, the Framework tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.  
+   -   Projects for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../includes/net-win8-profile-md.md)] by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the Framework tab won’t enumerate any of the assemblies from the Framework and instead display the following message: “All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework.” For desktop projects, the Framework tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.  
   
-2.  Extensions lists all assemblies that external vendors of components and controls have developed to extend the targeted Framework. Depending on the purpose of the user application, it might need these assemblies.  
+2. Extensions lists all assemblies that external vendors of components and controls have developed to extend the targeted Framework. Depending on the purpose of the user application, it might need these assemblies.  
   
-    -   Extensions is populated by enumerating the assemblies that are registered in the following locations:  
+   -   Extensions is populated by enumerating the assemblies that are registered in the following locations:  
   
-        ```  
-        32-bit machine:  
-        HKEY_CURRENT_USER\SOFTWARE\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]  
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]  
-        64-bit machine:  
-        HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]  
-        HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]  
-        And older versions of the [Target Framework Identifier]  
-        ```  
+       ```  
+       32-bit machine:  
+       HKEY_CURRENT_USER\SOFTWARE\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]  
+       HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]  
+       64-bit machine:  
+       HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]  
+       HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]  
+       And older versions of the [Target Framework Identifier]  
+       ```  
   
-         For example, if a project targets the .NET Framework 4 on a 32-bit machine, Extensions will enumerate assemblies that are registered under \Microsoft\\.NETFramework\v4.0\AssemblyFoldersEx\\, \Microsoft\\.NETFramework\v3.5\AssemblyFoldersEx\\, \Microsoft\\.NETFramework\v3.0\AssemblyFoldersEx\\, and \Microsoft\\.NETFramework\v2.0\AssemblyFoldersEx\\.  
+        For example, if a project targets the .NET Framework 4 on a 32-bit machine, Extensions will enumerate assemblies that are registered under \Microsoft\\.NETFramework\v4.0\AssemblyFoldersEx\\, \Microsoft\\.NETFramework\v3.5\AssemblyFoldersEx\\, \Microsoft\\.NETFramework\v3.0\AssemblyFoldersEx\\, and \Microsoft\\.NETFramework\v2.0\AssemblyFoldersEx\\.  
   
- Some components in the list may not be shown, depending on the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version of your project. This can occur under the following conditions:  
+   Some components in the list may not be shown, depending on the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version of your project. This can occur under the following conditions:  
   
 -   A component that uses a recent version of the .NET Framework is incompatible with a project that targets an earlier version of the .NET Framework.  
   
@@ -104,35 +102,35 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
 #### To display an assembly in the Add Reference dialog box  
   
--   Move or copy the assembly to one of the following locations:  
+- Move or copy the assembly to one of the following locations:  
   
-    -   The current project directory. (You can find these assemblies by using the **Browse** tab.)  
+  - The current project directory. (You can find these assemblies by using the **Browse** tab.)  
   
-    -   Other project directories in the same solution. (You can find these assemblies by using the **Projects** tab.)  
+  - Other project directories in the same solution. (You can find these assemblies by using the **Projects** tab.)  
   
-     \- or -  
+    \- or -  
   
--   Set a registry key that specifies the location of assemblies to display:  
+- Set a registry key that specifies the location of assemblies to display:  
   
-     For a 32-bit operating system, add one of the following registry keys.  
+   For a 32-bit operating system, add one of the following registry keys.  
   
-    -   [HKEY_CURRENT_USER\SOFTWARE\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"  
+  - [HKEY_CURRENT_USER\SOFTWARE\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"  
   
-    -   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"  
+  - [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"  
   
-     For a 64-bit operating system, add one of the following registry keys in a 32-bit registry hive.  
+    For a 64-bit operating system, add one of the following registry keys in a 32-bit registry hive.  
   
-    -   [HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"  
+  - [HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"  
   
-    -   [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"  
+  - [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"  
   
-     *VersionMinimum* is the lowest .NET Framework version that applies. If *VersionMinimum* is v3.0, folders specified in AssemblyFoldersEx apply to projects that target .NET Framework 3.0 and later.  
+    *VersionMinimum* is the lowest .NET Framework version that applies. If *VersionMinimum* is v3.0, folders specified in AssemblyFoldersEx apply to projects that target .NET Framework 3.0 and later.  
   
-     *AssemblyLocation* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, C:\MyAssemblies\\.  
+    *AssemblyLocation* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, C:\MyAssemblies\\.  
   
-     Creating the registry key under the HKEY_LOCAL_MACHINE node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the HKEY_CURRENT_USER node affects only the setting for the current user.  
+    Creating the registry key under the HKEY_LOCAL_MACHINE node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the HKEY_CURRENT_USER node affects only the setting for the current user.  
   
-     Open the **Add Reference** dialog box again. The assemblies should appear on the **.NET** tab. If they do not, make sure that the assemblies are located in the specified *AssemblyLocation* directory, restart Visual Studio, and try again.  
+    Open the **Add Reference** dialog box again. The assemblies should appear on the **.NET** tab. If they do not, make sure that the assemblies are located in the specified *AssemblyLocation* directory, restart Visual Studio, and try again.  
   
 ## COM tab  
  The COM tab lists all COM components that are available for referencing. If you want to add a reference to a registered COM DLL that contains an internal manifest, unregister the DLL first. Otherwise, Visual Studio adds the assembly reference as an ActiveX Control instead of as a native DLL.  
@@ -155,11 +153,11 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
  You can generate a WinMD file in Visual Studio in two ways:  
   
--   **[!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app managed projects**: [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app projects can output WinMD binaries by setting Project Properties &#124; Output Type = WinMD File. The WinMD filename must be the superset namespace of all the namespaces that exist within it. For example, if a project consists of namespaces A.B and A.B.C, the possible names for its outputted WinMD are A.winmd and A.B.winmd. If a user enters a Project Properties &#124; Assembly Name or Project Properties &#124; Namespace value that’s disjoint from the set of namespaces in the project or there is no superset namespace within a project, a build warning is generated: 'A.winmd' isn’t a valid .winmd file name for this assembly. All types within a Windows Metadata file must exist in a sub namespace of the file name. Types that don’t exist in a sub namespace of the file name won’t be able to be located at runtime. In this assembly, the smallest common namespace is 'CSWSClassLibrary1'. A desktop Visual Basic or Visual C# project can only consume WinMDs that are generated by using the [!INCLUDE[win8](../includes/win8-md.md)] SDKs, which are known as first-party WinMDs, and can’t generate WinMDs.  
+- **[!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app managed projects**: [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app projects can output WinMD binaries by setting Project Properties &#124; Output Type = WinMD File. The WinMD filename must be the superset namespace of all the namespaces that exist within it. For example, if a project consists of namespaces A.B and A.B.C, the possible names for its outputted WinMD are A.winmd and A.B.winmd. If a user enters a Project Properties &#124; Assembly Name or Project Properties &#124; Namespace value that’s disjoint from the set of namespaces in the project or there is no superset namespace within a project, a build warning is generated: 'A.winmd' isn’t a valid .winmd file name for this assembly. All types within a Windows Metadata file must exist in a sub namespace of the file name. Types that don’t exist in a sub namespace of the file name won’t be able to be located at runtime. In this assembly, the smallest common namespace is 'CSWSClassLibrary1'. A desktop Visual Basic or Visual C# project can only consume WinMDs that are generated by using the [!INCLUDE[win8](../includes/win8-md.md)] SDKs, which are known as first-party WinMDs, and can’t generate WinMDs.  
   
--   **[!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app native projects**: A native WinMD file consists of only metadata. Its implementation exists in a separate DLL file. One can produce native binaries by choosing the Windows Runtime Component project template in the **New Project** dialog box or by starting from a blank project and modifying the project properties to generate a WinMD file. If the project consists of disjoint namespaces, a build error will tell the user to combine their namespaces or run the MSMerge tool.  
+- **[!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app native projects**: A native WinMD file consists of only metadata. Its implementation exists in a separate DLL file. One can produce native binaries by choosing the Windows Runtime Component project template in the **New Project** dialog box or by starting from a blank project and modifying the project properties to generate a WinMD file. If the project consists of disjoint namespaces, a build error will tell the user to combine their namespaces or run the MSMerge tool.  
   
- The Windows tab consists of two subgroups.  
+  The Windows tab consists of two subgroups.  
   
 ### Core Subgroup  
  The Core subgroup lists all of the WinMDs (for Windows Runtime elements) in the SDK for the targeted version of Windows.  

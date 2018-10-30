@@ -1,7 +1,7 @@
 ---
 title: "How to: Customize Search Results | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Customize Search Results
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Customize Search Results](https://docs.microsoft.com/visualstudio/ide/how-to-customize-search-results).  
-  
 You can customize how search results appear in the **Search** tab in several ways.  
   
 ## Change the number of topics that appear on a search results page  

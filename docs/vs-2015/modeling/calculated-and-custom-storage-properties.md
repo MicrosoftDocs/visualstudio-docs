@@ -1,7 +1,7 @@
 ---
 title: "Calculated and Custom Storage Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Calculated and Custom Storage Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Calculated and Custom Storage Properties](https://docs.microsoft.com/visualstudio/modeling/calculated-and-custom-storage-properties).  
-  
 All domain properties in a domain-specific language (DSL) can be displayed to the user on the diagram and in your language explorer, and can be accessed by program code. However, properties differ in the way that their values are stored.  
   
 ## Kinds of Domain Properties  
@@ -89,11 +87,11 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
   
  However, the Set method might also be called if the user invokes Undo or Redo, or if a transaction is being rolled back. When <xref:Microsoft.VisualStudio.Modeling.Store.InUndoRedoOrRollback%2A> is true, your Set method should behave as follows:  
   
--   It should not make changes in the store, such as assigning values to other domain properties. The undo manager will set their values.  
+- It should not make changes in the store, such as assigning values to other domain properties. The undo manager will set their values.  
   
--   However, it should update any external resources, such as database or file contents, or objects outside the store. This will make sure that they are kept in synchronism with the values in the store.  
+- However, it should update any external resources, such as database or file contents, or objects outside the store. This will make sure that they are kept in synchronism with the values in the store.  
   
- For example:  
+  For example:  
   
 ```  
 void SetAgeValue(int value)  

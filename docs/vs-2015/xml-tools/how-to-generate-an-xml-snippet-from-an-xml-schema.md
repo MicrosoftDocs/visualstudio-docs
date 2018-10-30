@@ -1,7 +1,7 @@
 ---
 title: "How to: Generate an XML Snippet From an XML Schema | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,32 +18,30 @@ manager: "ghogen"
 # How to: Generate an XML Snippet From an XML Schema
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Generate an XML Snippet From an XML Schema](https://docs.microsoft.com/visualstudio/xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema).  
-  
   
 The XML Editor has the ability to generate XML snippets from an XML Schema definition language (XSD) schema. For example, as you are authoring an XML file, while positioned next to the element name, you can press TAB to populate the element with XML data generated from the schema information for that element.  
   
  This feature is only available on elements. The following rules also apply:  
   
--   The element must have an associated schema type; that is, the element must be valid according to some associated schema. The schema type cannot be abstract and the type must contain the required attributes and/or required child elements.  
+- The element must have an associated schema type; that is, the element must be valid according to some associated schema. The schema type cannot be abstract and the type must contain the required attributes and/or required child elements.  
   
--   The current element in the editor must be empty with no attributes. For example,  the following are all valid  
+- The current element in the editor must be empty with no attributes. For example,  the following are all valid  
   
-    -   `<Account`  
+  -   `<Account`  
   
-    -   `<Account>`  
+  -   `<Account>`  
   
-    -   `<Account></Account>`  
+  -   `<Account></Account>`  
   
--   The cursor must be located immediately to the right of the element name.  
+- The cursor must be located immediately to the right of the element name.  
   
- The generated snippet contains all required attributes and elements. If `minOccurs` is greater than one, the required minimum number of instances of that element is included in the snippet, up to a maximum of 100 instances. Any fixed values found in the schema result in fixed values in the snippet. `xsd:any` and `xsd:anyAttribute` elements are ignored and result in no additional snippet constructs.  
+  The generated snippet contains all required attributes and elements. If `minOccurs` is greater than one, the required minimum number of instances of that element is included in the snippet, up to a maximum of 100 instances. Any fixed values found in the schema result in fixed values in the snippet. `xsd:any` and `xsd:anyAttribute` elements are ignored and result in no additional snippet constructs.  
   
- Default values are generated and noted as editable values. If the schema specifies a default value, this default value is used. However, if the schema default value is an empty string, the editor generates the default values in the following manner:  
+  Default values are generated and noted as editable values. If the schema specifies a default value, this default value is used. However, if the schema default value is an empty string, the editor generates the default values in the following manner:  
   
--   If the schema type contains any enumeration facets, either directly or indirectly by means of any of members of a union type, the first enumerated value found in the Schema Object Model is used as the default.  
+- If the schema type contains any enumeration facets, either directly or indirectly by means of any of members of a union type, the first enumerated value found in the Schema Object Model is used as the default.  
   
--   If the schema type is an atomic type, the editor gets the atomic type and inserts the atomic type name. For a derived simple type it uses the base simple type. For a list type the atomic type is the `itemType`. For a union, the atomic type is the atomic type of the first `memberType`.  
+- If the schema type is an atomic type, the editor gets the atomic type and inserts the atomic type name. For a derived simple type it uses the base simple type. For a list type the atomic type is the `itemType`. For a union, the atomic type is the atomic type of the first `memberType`.  
   
 ## Example  
  The steps in this section show you how use the schema-generated XML snippet feature of the XML Editor.  

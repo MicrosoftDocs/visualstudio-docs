@@ -1,7 +1,7 @@
 ---
 title: "How to: View Existing Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: View Existing Types (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: View Existing Types (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-view-existing-types-class-designer).  
-  
 To see an existing type and its members, add its shape to a class diagram.  
   
  You can see local and referenced types. A local type exists in the currently open project and is read/write. A referenced type exists in another project or in a referenced assembly and is read-only.  
@@ -34,21 +32,21 @@ To see an existing type and its members, add its shape to a class diagram.
   
 ### To see types in a project on a class diagram  
   
-1.  From a project in Solution Explorer, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).  
+1. From a project in Solution Explorer, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).  
   
-2.  From the project in Solution Explorer, drag a source code file to the class diagram.  
+2. From the project in Solution Explorer, drag a source code file to the class diagram.  
   
-    > [!WARNING]
-    >  If your solution has a project that shares code across multiple apps, you can drag files or code to a class diagram only from these sources:  
-    >   
-    >  -   The app project that contains the diagram  
-    > -   A shared project that was imported by the app project  
-    > -   A referenced project  
-    > -   An assembly  
+   > [!WARNING]
+   >  If your solution has a project that shares code across multiple apps, you can drag files or code to a class diagram only from these sources:  
+   > 
+   > - The app project that contains the diagram  
+   >   -   A shared project that was imported by the app project  
+   >   -   A referenced project  
+   >   -   An assembly  
   
-     Shapes representing the types defined in the source code file appear on the diagram at the position where you dragged the file.  
+    Shapes representing the types defined in the source code file appear on the diagram at the position where you dragged the file.  
   
- You can also view types in the project by dragging one or more types from the project node in Class View to the class diagram.  
+   You can also view types in the project by dragging one or more types from the project node in Class View to the class diagram.  
   
 > [!TIP]
 >  If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](http://msdn.microsoft.com/en-us/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  

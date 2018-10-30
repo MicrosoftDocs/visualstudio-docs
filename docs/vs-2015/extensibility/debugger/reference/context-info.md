@@ -1,7 +1,7 @@
 ---
 title: "CONTEXT_INFO | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,39 +21,37 @@ manager: "ghogen"
 # CONTEXT_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CONTEXT_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/context-info).  
-  
 This structure describes a memory context or code context.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct _tagCONTEXT_INFO {   
-   CONTEXT_INFO_FIELDS dwFields;  
-   BSTR                bstrModuleUrl;  
-   BSTR                bstrFunction;  
-   TEXT_POSITION       posFunctionOffset;  
-   BSTR                bstrAddress;  
-   BSTR                bstrAddressOffset;  
-   BSTR                bstrAddressAbsolute;  
+   CONTEXT_INFO_FIELDS dwFields;  
+   BSTR                bstrModuleUrl;  
+   BSTR                bstrFunction;  
+   TEXT_POSITION       posFunctionOffset;  
+   BSTR                bstrAddress;  
+   BSTR                bstrAddressOffset;  
+   BSTR                bstrAddressAbsolute;  
 } CONTEXT_INFO;  
 ```  
   
 ```csharp  
 public struct CONTEXT_INFO {  
-   public uint          dwFields;  
-   public string        bstrModuleUrl;  
-   public string        bstrFunction;  
-   public TEXT_POSITION posFunctionOffset;  
-   public string        bstrAddress;  
-   public string        bstrAddressOffset;  
-   public string        bstrAddressAbsolute;  
+   public uint          dwFields;  
+   public string        bstrModuleUrl;  
+   public string        bstrFunction;  
+   public TEXT_POSITION posFunctionOffset;  
+   public string        bstrAddress;  
+   public string        bstrAddressOffset;  
+   public string        bstrAddressAbsolute;  
 };  
 ```  
   
 ## Members  
  dwFields  
- A combination of flags from he [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) enumeration that specifies which fields are filled out**.**  
+ A combination of flags from he [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) enumeration that specifies which fields are filled out<strong>.</strong>  
   
  bstrModuleUrl  
  The name of the module where the context is located.  

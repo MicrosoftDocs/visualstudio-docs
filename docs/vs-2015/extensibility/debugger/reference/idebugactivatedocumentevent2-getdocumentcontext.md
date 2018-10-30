@@ -1,7 +1,7 @@
 ---
 title: "IDebugActivateDocumentEvent2::GetDocumentContext | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,21 +22,19 @@ manager: "ghogen"
 # IDebugActivateDocumentEvent2::GetDocumentContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugActivateDocumentEvent2::GetDocumentContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugactivatedocumentevent2-getdocumentcontext).  
-  
 Gets the document context that describes the position in the document that is to be made active by the debug package.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetDocumentContext (   
-   IDebugDocumentContext2** ppDocContext  
+   IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
 ```csharp  
 int GetDocumentContext (   
-   out IDebugDocumentContext2 ppDocContext  
+   out IDebugDocumentContext2 ppDocContext  
 );  
 ```  
   

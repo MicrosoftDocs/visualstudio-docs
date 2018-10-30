@@ -1,7 +1,7 @@
 ---
 title: "ResolveManifestFiles Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # ResolveManifestFiles Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ResolveManifestFiles Task](https://docs.microsoft.com/visualstudio/msbuild/resolvemanifestfiles-task).  
-  
   
 Resolves the following items in the build process to files for manifest generation: built items, dependencies, satellites, content, debug symbols, and documentation.  
   

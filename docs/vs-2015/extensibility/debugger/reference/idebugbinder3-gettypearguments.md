@@ -1,7 +1,7 @@
 ---
 title: "IDebugBinder3::GetTypeArguments | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,28 +20,25 @@ manager: "ghogen"
 ---
 # IDebugBinder3::GetTypeArguments
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [IDebugBinder3::GetTypeArguments](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugbinder3-gettypearguments).
-
 This method retrieves a list of argument types associated with this object.
 
 ## Syntax
 
 ```cpp
 HRESULT GetTypeArguments(
-   UINT          skip,
-   UINT          count,
-   IDebugField** ppFields,
-   UINT*         pFetched
+   UINT          skip,
+   UINT          count,
+   IDebugField** ppFields,
+   UINT*         pFetched
 );
 ```
 
 ```csharp
 int GetTypeArguments(
-   uint          skip,
-   uint          count,
-   IDebugField[] ppFields,
-   out uint      pFetched
+   uint          skip,
+   uint          count,
+   IDebugField[] ppFields,
+   out uint      pFetched
 );
 ```
 

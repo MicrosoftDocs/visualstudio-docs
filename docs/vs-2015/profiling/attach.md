@@ -1,7 +1,7 @@
 ---
 title: "Attach | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Attach
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Attach](https://docs.microsoft.com/visualstudio/profiling/attach).  
-  
 The VSPerfCmd.exe **Attach** option begins sample profiling of the running process specified by the process ID (PID).  
   
  To use the **Attach** option, you must specify the **Sample** method in the Start option.  
@@ -58,7 +56,7 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
 ## Interval Options  
  One of the following sampling interval options can be specified on the Attach command line. The default sampling interval is 10,000,000 processor clock cycles.  
   
- **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[**:**Events]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]  
+ **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[<strong>:</strong>Events]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]  
  Specifies the number and type of the sampling interval.  
   
 -   **Timer** - Samples every `Cycles` processor clock cycles. If `Cycles` is not specified, 10,000,000 cycles are used.  

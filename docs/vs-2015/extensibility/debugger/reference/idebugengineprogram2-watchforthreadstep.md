@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngineProgram2::WatchForThreadStep | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,27 +21,25 @@ manager: "ghogen"
 # IDebugEngineProgram2::WatchForThreadStep
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineProgram2::WatchForThreadStep](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengineprogram2-watchforthreadstep).  
-  
 Watches for execution (or stops watching for execution) to occur on the given thread.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT WatchForThreadStep(   
-   IDebugProgram2* pOriginatingProgram,  
-   DWORD           dwTid,  
-   BOOL            fWatch,  
-   DWORD           dwFrame  
+   IDebugProgram2* pOriginatingProgram,  
+   DWORD           dwTid,  
+   BOOL            fWatch,  
+   DWORD           dwFrame  
 );  
 ```  
   
 ```csharp  
 int WatchForThreadStep(   
-   IDebugProgram2 pOriginatingProgram,  
-   uint           dwTid,  
-   int            fWatch,  
-   uint           dwFrame  
+   IDebugProgram2 pOriginatingProgram,  
+   uint           dwTid,  
+   int            fWatch,  
+   uint           dwFrame  
 );  
 ```  
   

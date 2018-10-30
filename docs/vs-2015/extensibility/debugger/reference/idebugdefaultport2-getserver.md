@@ -1,7 +1,7 @@
 ---
 title: "IDebugDefaultPort2::GetServer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugDefaultPort2::GetServer
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDefaultPort2::GetServer](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdefaultport2-getserver).  
-  
 This method obtains an interface to the server that this port is on.  
   
 ## Syntax  
   
 ```cpp  
 HRESULT GetServer(  
-   IDebugCoreServer3** ppServer  
+   IDebugCoreServer3** ppServer  
 );  
 ```  
   
 ```csharp  
 int GetServer(  
-   out IDebugCoreServer3 ppServer  
+   out IDebugCoreServer3 ppServer  
 );  
 ```  
   

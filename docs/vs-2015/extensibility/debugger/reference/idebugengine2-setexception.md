@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::SetException | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugEngine2::SetException
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::SetException](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-setexception).  
-  
 Specifies how the debug engine (DE) should handle a given exception.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT SetException(   
-   EXCEPTION_INFO* pException  
+   EXCEPTION_INFO* pException  
 );  
 ```  
   
 ```csharp  
 int SetException(   
-   EXCEPTION_INFO[] pException  
+   EXCEPTION_INFO[] pException  
 );  
 ```  
   

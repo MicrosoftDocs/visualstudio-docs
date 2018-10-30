@@ -1,7 +1,7 @@
 ---
 title: "IDebugCoreServer2::GetPortSupplier | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugCoreServer2::GetPortSupplier
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugCoreServer2::GetPortSupplier](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcoreserver2-getportsupplier).  
-  
 Retrieves a specific port supplier.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetPortSupplier(   
-   REFGUID               guidPortSupplier,  
-   IDebugPortSupplier2** ppPortSupplier  
+   REFGUID               guidPortSupplier,  
+   IDebugPortSupplier2** ppPortSupplier  
 );  
 ```  
   
 ```csharp  
 int GetPortSupplier(   
-   ref Guid                guidPortSupplier,  
-   out IDebugPortSupplier2 ppPortSupplier  
+   ref Guid                guidPortSupplier,  
+   out IDebugPortSupplier2 ppPortSupplier  
 );  
 ```  
   

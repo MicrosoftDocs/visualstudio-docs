@@ -46,11 +46,11 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 
 ## <a name="IntelliTraceSupport"></a> What apps can I debug with IntelliTrace?
 
-|||
-|-|-|
-|**Full support**|- Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services).|
-|**Limited support**|- Native apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClicent events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only|
-|**Not supported**|- Other languages and script<br />- Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps|
+| | |
+|---------------------| - |
+| **Full support** | - Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services). |
+| **Limited support** | - Native apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClicent events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only |
+| **Not supported** | - Other languages and script<br />- Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps |
 
 > [!NOTE]
 > If you want to debug a process that is already running, you can collect IntelliTrace events only (no call information). You can attach to a 32-bit or 64-bit process on the local machine only. Events that occur before you attach to the process are not collected.
@@ -71,7 +71,7 @@ You can save IntelliTrace data from these sources:
 
 - ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465153.aspx).
 
- Here are some examples of how IntelliTrace can help you with debugging:
+  Here are some examples of how IntelliTrace can help you with debugging:
 
 - Your application has corrupted a data file, but you don't know where this event happened.
 
@@ -105,11 +105,11 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
      By default, to help with performance, IntelliTrace doesn't record every possible value for a debugger event. Instead, it records these values:
 
-    - Values in the **Locals** window. Keep the **Locals** window open to see these values.
+  - Values in the **Locals** window. Keep the **Locals** window open to see these values.
 
-    - Values in the **Autos** window only if the **Autos** window is open
+  - Values in the **Autos** window only if the **Autos** window is open
 
-    - Values in DataTips that appear when you move the mouse pointer on top of a variable in the source window to see its value. IntelliTrace doesn't collect values in pinned DataTips.
+  - Values in DataTips that appear when you move the mouse pointer on top of a variable in the source window to see its value. IntelliTrace doesn't collect values in pinned DataTips.
 
     When IntelliTrace Events and Snapshots mode is enabled, IntelliTrace will take a snapshot of the application's process at each debugger **Breakpoint** and **Step** event. This will record values in the **Locals**, **Autos**, and **Watch** windows, regardless of whether the windows are open or not. Values in any pinned data tips will also be collected.
 

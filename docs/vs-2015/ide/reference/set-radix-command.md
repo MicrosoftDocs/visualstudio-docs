@@ -1,7 +1,7 @@
 ---
 title: "Set Radix Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Set Radix Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set Radix Command](https://docs.microsoft.com/visualstudio/ide/reference/set-radix-command).  
-  
   
 Sets or returns the numeric base used to display integer values.  
   

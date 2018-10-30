@@ -1,7 +1,7 @@
 ---
 title: "Shared colors | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,10 +42,10 @@ Insert introduction here.
  Use …  
  -   whenever you need to create a custom menu.  
   
--   when you have a new UI component that you want to match the Visual Studio menus.  
+- when you have a new UI component that you want to match the Visual Studio menus.  
   
- Do not use …  
- the background color alone. Always use the background/foreground combination as specified.  
+  Do not use …  
+  the background color alone. Always use the background/foreground combination as specified.  
   
 ##### Menu title  
  Menu titles consist of a background, a border, and the title text, as well as an optional glyph, usually when the menu is found in a command bar.  
@@ -58,9 +58,9 @@ Insert introduction here.
  Do not use…  
  -   for anything that you don't want to always match the menu title.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -107,9 +107,9 @@ Insert introduction here.
  Do not use…  
  -   for any drop-down list that occurs in another context.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -174,9 +174,9 @@ Insert introduction here.
  Do not use…  
  -   for UI elements that are not similar to a command bar.  
   
--   for command bar components other than the ones for which token names are specified.  
+- for command bar components other than the ones for which token names are specified.  
   
- **Default** (no other states)  
+  **Default** (no other states)  
   
 |Element|Token name: Category.color|  
 |-------------|--------------------------------|  
@@ -196,9 +196,9 @@ Insert introduction here.
  Do not use…  
  -   for controls that have their own token names.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -246,14 +246,14 @@ Insert introduction here.
  Use …  
  -   when building custom combo boxes.  
   
--   when creating a command bar control that is similar to a combo box.  
+- when creating a command bar control that is similar to a combo box.  
   
- Do not use …  
- -   for anything you don’t want always to match the command bar UI.  
+  Do not use …  
+  -   for anything you don’t want always to match the command bar UI.  
   
--   when you have access to a styled combo box.  
+- when you have access to a styled combo box.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -327,9 +327,9 @@ Insert introduction here.
  Do not use …  
  -   for anything that is not similar to a drop-down list.  
   
--   for combo boxes or split buttons.  
+- for combo boxes or split buttons.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -391,9 +391,9 @@ Insert introduction here.
  Do not use …  
  -   for other kinds of buttons.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -544,19 +544,19 @@ Insert introduction here.
 ##### Open document tabs  
  Each open document has a tab in the document tab channel that displays its name. Documents can be either selected or open in the background, and their tabs reflect these states:  
   
--   The selected tab represents the document that is currently displayed in the document well. A selected tab has a document border that extends across the top edge of the document well.  
+- The selected tab represents the document that is currently displayed in the document well. A selected tab has a document border that extends across the top edge of the document well.  
   
--   Background tabs are any document tabs that are not the currently selected tab. Once clicked, they become the selected tab and acquire all background, border, and text colors from those token names.  
+- Background tabs are any document tabs that are not the currently selected tab. Once clicked, they become the selected tab and acquire all background, border, and text colors from those token names.  
   
- ![Open document tab redline](../extensibility/ux-guidelines/media/0303-073-opendocumenttabredline.png "0303-073_OpenDocumentTabRedline")  
+  ![Open document tab redline](../extensibility/ux-guidelines/media/0303-073-opendocumenttabredline.png "0303-073_OpenDocumentTabRedline")  
   
- Use …  
- when you are creating custom document tabs.  
+  Use …  
+  when you are creating custom document tabs.  
   
- Do not use …  
- -   for provisional (preview) tabs.  
+  Do not use …  
+  -   for provisional (preview) tabs.  
   
--   for any UI that you don't want to change automatically if the shell has a theme update.  
+- for any UI that you don't want to change automatically if the shell has a theme update.  
   
 ##### Selected tab  
  **Focused**  
@@ -605,9 +605,9 @@ Insert introduction here.
  Do not use …  
  -   for any kind of document or tab that is not provisional (preview).  
   
--   for any UI that you don't want to change automatically if the shell has a theme update.  
+- for any UI that you don't want to change automatically if the shell has a theme update.  
   
- **Selected preview tab: Focused**  
+  **Selected preview tab: Focused**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -652,9 +652,9 @@ Insert introduction here.
  Do not use …  
  -   for UI that is not similar to an overflow button.  
   
--   for command bar overflow buttons.  
+- for command bar overflow buttons.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -759,9 +759,9 @@ Insert introduction here.
  Do not use …  
  -   for buttons that appear in other locations.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -864,25 +864,25 @@ Insert introduction here.
   
  A search box can be one of several states, some of which are mutually exclusive:  
   
--   "Focused" or "unfocused" refers to whether or not the cursor is in the text box.  
+- "Focused" or "unfocused" refers to whether or not the cursor is in the text box.  
   
--   "Active" or "inactive" refers to whether the user has input a search query in the text box.  
+- "Active" or "inactive" refers to whether the user has input a search query in the text box.  
   
--   "Hover" means that the user has moused over the search box with the mouse (this state overrides all other states).  
+- "Hover" means that the user has moused over the search box with the mouse (this state overrides all other states).  
   
--   "Disabled" means that search functionality is turned off for the current context.  
+- "Disabled" means that search functionality is turned off for the current context.  
   
- ![Search box redline](../extensibility/ux-guidelines/media/0303-110-searchboxredline.png "0303-110_SearchBoxRedline")  
+  ![Search box redline](../extensibility/ux-guidelines/media/0303-110-searchboxredline.png "0303-110_SearchBoxRedline")  
   
- Use …  
- when you are designing a custom search box.  
+  Use …  
+  when you are designing a custom search box.  
   
- Do not use …  
- -   for anything that is not a search box.  
+  Do not use …  
+  -   for anything that is not a search box.  
   
--   for anything that you do not want always to match the search box UI.  
+- for anything that you do not want always to match the search box UI.  
   
- **Focused**  
+  **Focused**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -963,14 +963,14 @@ Insert introduction here.
  Use …  
  -   when you are creating a custom search dropdown list.  
   
--   the correct token names for the correct list components.  
+- the correct token names for the correct list components.  
   
- Do not use …  
- -   for dropdown lists that appear in other contexts.  
+  Do not use …  
+  -   for dropdown lists that appear in other contexts.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default (no other states)**  
+  **Default (no other states)**  
   
 |Element|Token name: Category.color|  
 |-------------|--------------------------------|  
@@ -1079,7 +1079,7 @@ Insert introduction here.
 |![Infobar](../extensibility/ux-guidelines/media/0303-139-infobar.png "0303-139_Infobar")<br /><br /> **Infobar**|Border|`Environment.ToolWindowBorder`|  
   
 #### Scroll bar  
- Scroll bars are styled by the Visual Studio environment, and will not need to be themed. However, you might decide that you want to leverage the colors used in scroll bars so that your UI always appears consistent with this this part of the Visual Studio environment.  
+ Scroll bars are styled by the Visual Studio environment, and will not need to be themed. However, you might decide that you want to leverage the colors used in scroll bars so that your UI always appears consistent with this part of the Visual Studio environment.  
   
  ![Scroll bar redline](../extensibility/ux-guidelines/media/0303-140-scrollbarredline.png "0303-140_ScrollbarRedline")  
   
@@ -1127,9 +1127,9 @@ Insert introduction here.
  Do not use …  
  -   for anything that is not similar to a tree view.  
   
--   in any background/foreground combination other than specified.  
+- in any background/foreground combination other than specified.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -1289,9 +1289,9 @@ Insert introduction here.
  Do not use …  
  -   for any UI that is not a drop-down or combo box.  
   
--   for a [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown) or [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox) in the command bar.  
+- for a [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown) or [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox) in the command bar.  
   
- **Default**  
+  **Default**  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -1422,12 +1422,12 @@ Insert introduction here.
  Use …  
  -   for designers that are similar to the Manifest Designer.  
   
--   in place of using common tab controls at the top of an editor within the document well.  
+- in place of using common tab controls at the top of an editor within the document well.  
   
- Do not use …  
- -   if you have more than six tabs.  
+  Do not use …  
+  -   if you have more than six tabs.  
   
--   for any UI that is not structured like the Manifest Designer.  
+- for any UI that is not structured like the Manifest Designer.  
   
 |State|Component|Element|Token name: Category.color|  
 |-----------|---------------|-------------|--------------------------------|  
@@ -1544,10 +1544,10 @@ Insert introduction here.
  Use …  
  -   for areas where you place menus or toolbars.  
   
--   with the correct background/​foreground token name combination.  
+- with the correct background/ foreground token name combination.  
   
- Do not use …  
- for areas that are not similar to a command shelf.  
+  Do not use …  
+  for areas that are not similar to a command shelf.  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  

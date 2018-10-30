@@ -1,7 +1,7 @@
 ---
 title: "Evaluation Tools for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Evaluation Tools for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Evaluation Tools for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/evaluation-tools-for-visual-studio).  
-  
 ## Craftsmanship checklist for Visual Studio  
  Use this checklist to evaluate user experience quality for visual and interaction details.  
   

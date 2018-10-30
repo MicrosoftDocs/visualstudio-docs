@@ -315,7 +315,6 @@ The following is a sample configuration file for your diagnostic data collector 
     </DataCollector>
   </DataCollectorConfiguration>
 </configuration>
-
 ```
 
 ## Compile the code

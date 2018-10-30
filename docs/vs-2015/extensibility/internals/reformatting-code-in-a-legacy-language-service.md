@@ -1,7 +1,7 @@
 ---
 title: "Reformatting Code in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Reformatting Code in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Reformatting Code in a Legacy Language Service](https://docs.microsoft.com/visualstudio/extensibility/internals/reformatting-code-in-a-legacy-language-service).  
-  
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] source code can be reformatted by normalizing the use of indentations and whitespace. This can include inserting or removing spaces or tabs at the beginning of each line, adding new lines between lines, or replacing spaces with tabs or tabs with spaces.  
   
 > [!NOTE]

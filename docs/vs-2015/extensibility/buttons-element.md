@@ -1,7 +1,7 @@
 ---
 title: "Buttons Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Buttons Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Buttons Element](https://docs.microsoft.com/visualstudio/extensibility/buttons-element).  
-  
 Groups [Button](../extensibility/button-element.md) elements, which represent individual commands.  
   
 ## Syntax  
@@ -59,13 +57,13 @@ Groups [Button](../extensibility/button-element.md) elements, which represent in
   
 ```  
 <Buttons>  
-  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
-    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
-    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
-    <Strings>  
-      <ButtonText>C# Command Sample</ButtonText>  
-    </Strings>  
-  </Button>  
+  <Button guid="guidMenuAndCommandsCmdSet" id="cmdidMyCommand"     priority="0x100" type="Button">  
+    <Parent guid="guidMenuAndCommandsCmdSet" id="MyMenuGroup"/>  
+    <Icon guid="guidGenericCmdBmp" id="bmpArrow"/>  
+    <Strings>  
+      <ButtonText>C# Command Sample</ButtonText>  
+    </Strings>  
+  </Button>  
 </Buttons>  
 ```  
   

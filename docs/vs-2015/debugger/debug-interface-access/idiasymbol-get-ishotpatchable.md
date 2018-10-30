@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isHotpatchable | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_isHotpatchable
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isHotpatchable](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-ishotpatchable).  
-  
 Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](http://msdn.microsoft.com/library/aad539b6-c053-4c78-8682-853d98327798) compiler switch.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_isHotpatchable(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

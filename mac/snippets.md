@@ -23,11 +23,11 @@ There are some different ways to add code snippets, some of which are described 
 
 * **Toolbox** - Use the toolbox pad to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
 
- ![Code snippets in Toolbox](media/source-editor-image14.png)
+  ![Code snippets in Toolbox](media/source-editor-image14.png)
 
 * **Insert Templates command** - There is currently no default key binding set for inserting a template. To create one, browse to **Visual Studio > Preferences... > Key Bindings** and search for `template`. This allows adding the desired key binding into the Edit Binding field, then click **Apply**:
 
- ![Inset Template command](media/source-editor-image15.png)
+  ![Inset Template command](media/source-editor-image15.png)
 
 ## Creating a new template
 

@@ -1,7 +1,7 @@
 ---
 title: "Execution Profile Report | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # Execution Profile Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Execution Profile Report](https://docs.microsoft.com/visualstudio/profiling/execution-profile-report).  
-  
 The Execution Profile Report is a traditional sampling profile. Samples are taken approximately every millisecond during periods when a thread is running on a logical core, and the Concurrency Visualizer builds a typical call tree by collating the accumulated set of sample stacks. Data in this table can be affected by the current time range and hidden threads, and by these filters that may be applied:  
   
--   If Just My Code is selected, only stack frames that have user code, plus one level below the user code, are shown.  
+- If Just My Code is selected, only stack frames that have user code, plus one level below the user code, are shown.  
   
--   If the Noise reduction value is set, collated stacks that have less than the specified frequency are filtered out of the report  
+- If the Noise reduction value is set, collated stacks that have less than the specified frequency are filtered out of the report  
   
- The following table shows columns in the report.  
+  The following table shows columns in the report.  
   
 |Column|Description|  
 |------------|-----------------|  

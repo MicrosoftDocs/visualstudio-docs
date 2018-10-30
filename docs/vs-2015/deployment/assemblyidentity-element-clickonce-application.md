@@ -1,7 +1,7 @@
 ---
 title: "&lt;assemblyIdentity&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "wpickett"
 # &lt;assemblyIdentity&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [&lt;assemblyIdentity&gt; Element (ClickOnce Application)](https://docs.microsoft.com/visualstudio/deployment/assemblyidentity-element-clickonce-application).  
-  
 Identifies the application deployed in a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
   
 ## Syntax  

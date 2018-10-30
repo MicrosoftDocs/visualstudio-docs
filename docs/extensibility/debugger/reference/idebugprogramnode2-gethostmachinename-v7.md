@@ -25,13 +25,13 @@ ms.workload:
 
 ```cpp
 HRESULT GetHostMachineName_V7 (
-   BSTR* pbstrHostMachineName
+   BSTR* pbstrHostMachineName
 );
 ```
 
 ```csharp
 int GetHostMachineName_V7 (
-   out string pbstrHostMachineName
+   out string pbstrHostMachineName
 );
 ```
 

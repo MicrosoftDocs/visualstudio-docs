@@ -1,7 +1,7 @@
 ---
 title: "How to: Include a Data File in a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,43 +26,41 @@ manager: "wpickett"
 # How to: Include a Data File in a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Include a Data File in a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-include-a-data-file-in-a-clickonce-application).  
-  
 Each [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application you install is assigned a data directory on the destination computer's local disk where the application can manage its own data. Data files can include files of any type: text files, XML files, or even Microsoft Access database (.mdb) files. The following procedures show you how to add a data file of any type into your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
   
 ### To include a data file by using Mage.exe  
   
-1.  Add the data file to your application directory with the rest of your application's files.  
+1. Add the data file to your application directory with the rest of your application's files.  
   
-     Typically, your application directory will be a directory labeled with the deployment's current version—for example, v1.0.0.0.  
+    Typically, your application directory will be a directory labeled with the deployment's current version—for example, v1.0.0.0.  
   
-2.  Update your application manifest to list the data file.  
+2. Update your application manifest to list the data file.  
   
-     **mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0**  
+    **mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0**  
   
-     Performing this task re-creates the list of files in your application manifest and also automatically generates the hash signatures.  
+    Performing this task re-creates the list of files in your application manifest and also automatically generates the hash signatures.  
   
-3.  Open the application manifest in your preferred text or XML editor and find the `file` element for your recently added file.  
+3. Open the application manifest in your preferred text or XML editor and find the `file` element for your recently added file.  
   
-     If you added an XML file named `Data.xml`, the file will look similar to the following code example.  
+    If you added an XML file named `Data.xml`, the file will look similar to the following code example.  
   
- `<file name="Data.xml" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`  
+   `<file name="Data.xml" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`  
   
-1.  Add the attribute `type` to this element, and supply it with a value of `data`.  
+4. Add the attribute `type` to this element, and supply it with a value of `data`.  
   
- `<file name="Data.xml" writeableType="applicationData" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`  
+   `<file name="Data.xml" writeableType="applicationData" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`  
   
-1.  Re-sign your application manifest by using your key pair or certificate, and then re-sign your deployment manifest.  
+5. Re-sign your application manifest by using your key pair or certificate, and then re-sign your deployment manifest.  
   
-     You must re-sign your deployment manifest because its hash of the application manifest has changed.  
+    You must re-sign your deployment manifest because its hash of the application manifest has changed.  
   
-     **mage -s app manifest -cf cert_file -pwd password**  
+    **mage -s app manifest -cf cert_file -pwd password**  
   
-     **mage -u deployment manifest -appm app manifest**  
+    **mage -u deployment manifest -appm app manifest**  
   
-     **mage -s deployment manifest -cf certfile -pwd password**  
+    **mage -s deployment manifest -cf certfile -pwd password**  
   
-2.  
+6. 
   
 ### To include a data file by using MageUI.exe  
   

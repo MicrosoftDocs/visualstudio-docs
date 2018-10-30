@@ -1,7 +1,7 @@
 ---
 title: "Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Control execution of a Store app in a Visual Studio debug session for Windows Store apps (JavaScript)](https://docs.microsoft.com/visualstudio/debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript).  
-  
 This quick start demonstrates how to navigate in the Visual Studio debugger and how to view the program state in a session.  
   
  This quick start is for developers who are new to debugging with Visual Studio and for developers who want to learn more about navigating in a Visual Studio debug session. It does not teach the art of debugging itself. The functions in the sample code are designed only to demonstrate the debugging procedures described in this topic. The functions do not employ best practices of app or function design. In fact, you will quickly discover that the functions, and the app itself, do not do much of anything at all.  
@@ -51,28 +49,28 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
   
  [View variable data in the Locals window](#BKMK_View_variable_data_in_the_Locals_window)  
   
--   [View variable data and the prototype chain of an object](#BKMK_View_variable_data_and_the_prototype_chain_of_an_object)  
+- [View variable data and the prototype chain of an object](#BKMK_View_variable_data_and_the_prototype_chain_of_an_object)  
   
--   [Examine scope chain data](#BKMK_Examine_scope_chain_data)  
+- [Examine scope chain data](#BKMK_Examine_scope_chain_data)  
   
- [Navigate to code by using the Call Stack window](#BKMK_Navigate_to_code_by_using_the_Call_Stack_window)  
+  [Navigate to code by using the Call Stack window](#BKMK_Navigate_to_code_by_using_the_Call_Stack_window)  
   
 ##  <a name="BKMK_Create_the_sample_app"></a> Create the sample app  
  Debugging is about code, so the sample app uses the framework of the Windows Store app only to create a source file in which you can see how navigating a debug session works and how to examine program state. All of the code that you will invoke is called from the `module` function of the default.js file. No controls are added and no events are handled.  
   
-1.  **Create a blank JavaScript Windows Store app.** Open Visual Studio. On the home page, choose the **New Project** link. On the **New Project** dialog box, choose **JavaScript** in the **Installed** list and then choose **Windows Store**. In the list of project templates, choose **Blank Application**. Visual Studio creates a new solution and project and displays the default.htm file in the code editor.  
+1. **Create a blank JavaScript Windows Store app.** Open Visual Studio. On the home page, choose the **New Project** link. On the **New Project** dialog box, choose **JavaScript** in the **Installed** list and then choose **Windows Store**. In the list of project templates, choose **Blank Application**. Visual Studio creates a new solution and project and displays the default.htm file in the code editor.  
   
-     Note the script files that are loaded into the page.  
+    Note the script files that are loaded into the page.  
   
-    -   The `base.js` and `ui.js` files create the **Windows Library for JavaScript**. The Windows Library for JavaScript is a set of JavaScript and CSS files that make it easier to create Windows Store apps using JavaScript. You use it together with HTML, CSS, and the Windows Runtime to create your app.  
+   -   The `base.js` and `ui.js` files create the **Windows Library for JavaScript**. The Windows Library for JavaScript is a set of JavaScript and CSS files that make it easier to create Windows Store apps using JavaScript. You use it together with HTML, CSS, and the Windows Runtime to create your app.  
   
-    -   Your code starts in the `default.js`  file.  
+   -   Your code starts in the `default.js`  file.  
   
-2.  **Open the default.js source file.** In Solution Explorer, open the **js** node and choose `default.js`.  
+2. **Open the default.js source file.** In Solution Explorer, open the **js** node and choose `default.js`.  
   
-3.  **Replace the page contents with the sample code.** Delete all contents from the `default.js` file. Follow this link: [Debugger navigation sample code (JavaScript)](../debugger/debugger-navigation-sample-code-javascript.md), and then copy the code listed in the JavaScript section to the clipboard. (Choose **Back** in the browser or help viewer to return to this quick start page.) In the Visual Studio editor, paste the code into the now empty `default.js`. Choose **Ctrl+ S** to save the file.  
+3. **Replace the page contents with the sample code.** Delete all contents from the `default.js` file. Follow this link: [Debugger navigation sample code (JavaScript)](../debugger/debugger-navigation-sample-code-javascript.md), and then copy the code listed in the JavaScript section to the clipboard. (Choose **Back** in the browser or help viewer to return to this quick start page.) In the Visual Studio editor, paste the code into the now empty `default.js`. Choose **Ctrl+ S** to save the file.  
   
- You can now follow along with the examples in this topic.  
+   You can now follow along with the examples in this topic.  
   
 ##  <a name="BKMK_Set_and_run_to_a_breakpoint__step_into_a_function__and_examine_program_data"></a> Set and run to a breakpoint, step into a function, and examine program data  
  The most common way to start a debug session is to choose **Start Debugging** from the **Debug** menu (Keyboard: F5). The app starts and continues executing until a breakpoint is reached, you manually suspend execution, an exception occurs, or the app ends.  
@@ -84,45 +82,45 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 ###  <a name="BKMK_Example_1"></a> Example 1  
  In this example, you set a breakpoint in the body of the `module` function in `default.js` as it calls the first of our user statements. You then step into the function, view variable values in debugger data tips, and then stop debugging.  
   
-1.  **Set a breakpoint.** Set a breakpoint at the statement `callTrack = "module function";` that occurs right after the call to `app.start()`. Choose the line in the shaded gutter of the source code editor (Keyboard: Position the cursor on the line and choose the **F9** key).  
+1. **Set a breakpoint.** Set a breakpoint at the statement `callTrack = "module function";` that occurs right after the call to `app.start()`. Choose the line in the shaded gutter of the source code editor (Keyboard: Position the cursor on the line and choose the **F9** key).  
   
-     ![Set a breakpoint at example1](../debugger/media/dbg-jsnav-example1-breakpoint.png "DBG_JSNAV_example1_breakpoint")  
+    ![Set a breakpoint at example1](../debugger/media/dbg-jsnav-example1-breakpoint.png "DBG_JSNAV_example1_breakpoint")  
   
-     The breakpoint icon appears in the gutter.  
+    The breakpoint icon appears in the gutter.  
   
-2.  **Run to the breakpoint.** Start the debug session by choosing **Start Debugging** on the **Debug** menu (Keyboard: F5).  
+2. **Run to the breakpoint.** Start the debug session by choosing **Start Debugging** on the **Debug** menu (Keyboard: F5).  
   
-     The app begins executing and suspends execution immediately before the statement at which you set the breakpoint. The current line icon in the gutter identifies your location and the current statement is highlighted.  
+    The app begins executing and suspends execution immediately before the statement at which you set the breakpoint. The current line icon in the gutter identifies your location and the current statement is highlighted.  
   
-     ![Run to breakpoint](../debugger/media/dbg-jsnav-example1-run-to-breakpoint.png "DBG_JSNAV_example1_run_to_breakpoint")  
+    ![Run to breakpoint](../debugger/media/dbg-jsnav-example1-run-to-breakpoint.png "DBG_JSNAV_example1_run_to_breakpoint")  
   
-     You are now in control of the execution of the app and can examine the program state as you step through the program statements.  
+    You are now in control of the execution of the app and can examine the program state as you step through the program statements.  
   
-3.  **Step into the function.** On the **Debug** menu, choose **Step Into** (Keyboard: **F11**).  
+3. **Step into the function.** On the **Debug** menu, choose **Step Into** (Keyboard: **F11**).  
   
-     ![Step into a line of code](../debugger/media/dbg-jsnav-example1-step-into.png "DBG_JSNAV_example1_step_into")  
+    ![Step into a line of code](../debugger/media/dbg-jsnav-example1-step-into.png "DBG_JSNAV_example1_step_into")  
   
-     Note that the debugger moves to the next line, which is a call to the `example1` function. Choose **Step Into** again. The debugger moves to the first code line of the `example1` function. The highlighted line has not been executed, but the function has been loaded on the call stack and the memory for local variables has been allocated.  
+    Note that the debugger moves to the next line, which is a call to the `example1` function. Choose **Step Into** again. The debugger moves to the first code line of the `example1` function. The highlighted line has not been executed, but the function has been loaded on the call stack and the memory for local variables has been allocated.  
   
-4.  When you step into a line of code, the debugger performs one of the following actions:  
+4. When you step into a line of code, the debugger performs one of the following actions:  
   
-    -   If the next statement is not a call to a function in your solution, the debugger executes the statement, moves to the next statement, and then suspends execution.  
+   - If the next statement is not a call to a function in your solution, the debugger executes the statement, moves to the next statement, and then suspends execution.  
   
-    -   If the statement is a call to a function in your solution, the debugger moves to the first line of the called function and then suspends execution.  
+   - If the statement is a call to a function in your solution, the debugger moves to the first line of the called function and then suspends execution.  
   
      Continue to step into the statements of `example1` until you have reached the exit point. The debugger highlights the closing curly brace of the function.  
   
-5.  **View variable values in data tips.** Continue to step into the statements of `example1` until you have reached the exit point. The debugger highlights the closing curly brace of the function. When you pause the mouse on a variable name, the name and value of the variable are displayed in a data tip.  
+5. **View variable values in data tips.** Continue to step into the statements of `example1` until you have reached the exit point. The debugger highlights the closing curly brace of the function. When you pause the mouse on a variable name, the name and value of the variable are displayed in a data tip.  
   
-     ![View variable values in the data tip](../debugger/media/dbg-jsnav-data-tip.png "DBG_JSNAV_data_tip")  
+    ![View variable values in the data tip](../debugger/media/dbg-jsnav-data-tip.png "DBG_JSNAV_data_tip")  
   
-6.  **Add a watch for the callTrack variable.** The `callTrack` variable is used throughout this quick start to show the functions called in the examples. To make it easier to view the value of the variable, add it to a Watch window. Select the variable name in the editor and then choose **Add Watch** from the shortcut menu.  
+6. **Add a watch for the callTrack variable.** The `callTrack` variable is used throughout this quick start to show the functions called in the examples. To make it easier to view the value of the variable, add it to a Watch window. Select the variable name in the editor and then choose **Add Watch** from the shortcut menu.  
   
-     ![Watch a variable](../debugger/media/dbg-jsnav-watch-window.png "DBG_JSNAV_watch_window")  
+    ![Watch a variable](../debugger/media/dbg-jsnav-watch-window.png "DBG_JSNAV_watch_window")  
   
-     You can watch multiple variables in a watch window. The values of watched variables, like values in data tip windows, are updated whenever execution is suspended. Your watched variables are saved across debug sessions.  
+    You can watch multiple variables in a watch window. The values of watched variables, like values in data tip windows, are updated whenever execution is suspended. Your watched variables are saved across debug sessions.  
   
-7.  **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.  
+7. **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: **Shift+F5**). This ends your debug session.  
   
 ##  <a name="BKMK_Step_into__over__and_out_of_functions"></a> Step into, over, and out of functions  
  In contrast to stepping into a function called by a parent function, stepping over a function executes the child function and then suspends execution in the calling function as the parent resumes. You might step over a function when you are familiar with the way the function works and are sure that its execution will not affect the issue that you are investigating.  
@@ -237,13 +235,13 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
 ##  <a name="BKMK_Examine_scope_chain_data"></a> Examine scope chain data  
  The *scope chain* of a function includes all variables that are active and reachable by the function. Global variables are part of the scope chain, as are any objects (including functions) that are defined in the function that defines the currently executing function. For example, the `callTrack` variable that is defined in the `module` function of `default.js` is reachable by any function that is defined in the `module` function. Each scope is listed separately in the Locals window.  
   
--   The variables of the currently executing function are listed at the top of the window.  
+- The variables of the currently executing function are listed at the top of the window.  
   
--   The variables of each function scope in the scope chain are listed under a **[Scope]** node for the function. The scope functions are listed by their order in the chain, from the function that defines the current function to the outermost function of the chain.  
+- The variables of each function scope in the scope chain are listed under a **[Scope]** node for the function. The scope functions are listed by their order in the chain, from the function that defines the current function to the outermost function of the chain.  
   
--   The **[Globals]** node lists the global objects that are defined outside of any function.  
+- The **[Globals]** node lists the global objects that are defined outside of any function.  
   
- Scope chains can be confusing and are best illustrated by example. In the following example, you can see how the `module` function creates its own scope, and how you can create another level of scope by creating a closure.  
+  Scope chains can be confusing and are best illustrated by example. In the following example, you can see how the `module` function creates its own scope, and how you can create another level of scope by creating a closure.  
   
 ###  <a name="BKMK_Example_4"></a> Example 4  
   
@@ -295,7 +293,7 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
   
     -   **Anonymous function** shows the line in the `module` function where execution is suspended. This is the top of the call stack.  
   
-4.  **Step into functions to reach the example5_d function.** Choose **Step Into** on the **Debug** menu (Keyboard: **F11**) to execute the calls in in the call path until you reach the entry point of the example5_d function. Note that each time that a function calls a function, the line number of the calling function is saved and the called function is placed at the top of the stack. The line number of the calling function is the point at which the calling function has suspended execution. A yellow arrow points to the currently executing function.  
+4.  **Step into functions to reach the example5_d function.** Choose **Step Into** on the **Debug** menu (Keyboard: **F11**) to execute the calls in the call path until you reach the entry point of the example5_d function. Note that each time that a function calls a function, the line number of the calling function is saved and the called function is placed at the top of the stack. The line number of the calling function is the point at which the calling function has suspended execution. A yellow arrow points to the currently executing function.  
   
      ![Call stack window](../debugger/media/dbg-jsnav-callstack-windows.png "DBG_JSNAV_CallStack_windows")  
   

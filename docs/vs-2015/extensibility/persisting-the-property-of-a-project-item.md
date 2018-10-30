@@ -1,7 +1,7 @@
 ---
 title: "Persisting the Property of a Project Item | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Persisting the Property of a Project Item
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Persisting the Property of a Project Item](https://docs.microsoft.com/visualstudio/extensibility/persisting-the-property-of-a-project-item).  
-  
 You may want to persist a property you add to a project item, such as the author of a source file. You can do this by storing the property in the project file.  
   
  The first step to persist a property in a project file is to obtain the hierarchy of the project as an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface. You can obtain this interface either by using Automation or by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>. Once you obtain the interface, you can use it to determine which project item is currently selected. Once you have the project item ID, you can use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> to add the property.  
@@ -48,14 +46,14 @@ You may want to persist a property you add to a project item, such as the author
   
     ```csharp  
     IVsBuildPropertyStorage buildPropertyStorage =   
-        hierarchy as IVsBuildPropertyStorage;  
+        hierarchy as IVsBuildPropertyStorage;  
     if (buildPropertyStorage != null)  
     {  
-        uint itemId;  
-        string fullPath = (string)project.ProjectItems.Item(  
-            "VsPkg.cs").Properties.Item("FullPath").Value;  
-        hierarchy.ParseCanonicalName(fullPath, out itemId);  
-        buildPropertyStorage.SetItemAttribute(itemId, "Author", "Tom");  
+        uint itemId;  
+        string fullPath = (string)project.ProjectItems.Item(  
+            "VsPkg.cs").Properties.Item("FullPath").Value;  
+        hierarchy.ParseCanonicalName(fullPath, out itemId);  
+        buildPropertyStorage.SetItemAttribute(itemId, "Author", "Tom");  
     }  
     ```  
   
@@ -72,34 +70,34 @@ You may want to persist a property you add to a project item, such as the author
     // Retrieve shell interface in order to get current selection  
     IVsMonitorSelection monitorSelection =     Package.GetGlobalService(typeof(SVsShellMonitorSelection)) as     IVsMonitorSelection;  
     if (monitorSelection == null)  
-        throw new InvalidOperationException();  
+        throw new InvalidOperationException();  
   
     try  
     {  
-        // Get the current project hierarchy, project item, and selection container for the current selection  
-        // If the selection spans multiple hierachies, hierarchyPtr is Zero  
-        IVsMultiItemSelect multiItemSelect = null;  
-        ErrorHandler.ThrowOnFailure(  
-            monitorSelection.GetCurrentSelection(  
-                out hierarchyPtr, out itemid,   
-                out multiItemSelect, out selectionContainer));  
+        // Get the current project hierarchy, project item, and selection container for the current selection  
+        // If the selection spans multiple hierachies, hierarchyPtr is Zero  
+        IVsMultiItemSelect multiItemSelect = null;  
+        ErrorHandler.ThrowOnFailure(  
+            monitorSelection.GetCurrentSelection(  
+                out hierarchyPtr, out itemid,   
+                out multiItemSelect, out selectionContainer));  
   
-        // We only care if there is only one node selected in the tree  
-        if (!(itemid == VSConstants.VSITEMID_NIL ||   
-            hierarchyPtr == IntPtr.Zero ||  
-            multiItemSelect != null ||  
-            itemid == VSConstants.VSITEMID_SELECTION))  
-        {  
-            hierarchy = Marshal.GetObjectForIUnknown(hierarchyPtr)  
-                as IVsHierarchy;  
-        }  
+        // We only care if there is only one node selected in the tree  
+        if (!(itemid == VSConstants.VSITEMID_NIL ||   
+            hierarchyPtr == IntPtr.Zero ||  
+            multiItemSelect != null ||  
+            itemid == VSConstants.VSITEMID_SELECTION))  
+        {  
+            hierarchy = Marshal.GetObjectForIUnknown(hierarchyPtr)  
+                as IVsHierarchy;  
+        }  
     }  
     finally  
     {  
-        if (hierarchyPtr != IntPtr.Zero)  
-            Marshal.Release(hierarchyPtr);  
-        if (selectionContainer != IntPtr.Zero)  
-            Marshal.Release(selectionContainer);  
+        if (hierarchyPtr != IntPtr.Zero)  
+            Marshal.Release(hierarchyPtr);  
+        if (selectionContainer != IntPtr.Zero)  
+            Marshal.Release(selectionContainer);  
     }  
     ```  
   
@@ -111,10 +109,10 @@ You may want to persist a property you add to a project item, such as the author
   
     ```  
     IVsBuildPropertyStorage buildPropertyStorage =   
-        hierarchy as IVsBuildPropertyStorage;  
+        hierarchy as IVsBuildPropertyStorage;  
     if (buildPropertyStorage != null)  
     {  
-        buildPropertyStorage.SetItemAttribute(itemId, "Author", "Tom");  
+        buildPropertyStorage.SetItemAttribute(itemId, "Author", "Tom");  
     }  
     ```  
   
@@ -133,7 +131,7 @@ You may want to persist a property you add to a project item, such as the author
   
     ```  
     <Compile Include="VsPkg.cs">  
-        <Author>Tom</Author>  
+        <Author>Tom</Author>  
     </Compile>  
     ```  
   

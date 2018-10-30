@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugFrameInfo2::Next | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # IEnumDebugFrameInfo2::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugFrameInfo2::Next](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugframeinfo2-next).  
-  
 Returns the next set of elements from the enumeration.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Next(  
-   ULONG       celt,  
-   FRAMEINFO** rgelt,  
-   ULONG*      pceltFetched  
+   ULONG       celt,  
+   FRAMEINFO** rgelt,  
+   ULONG*      pceltFetched  
 );  
 ```  
   
 ```csharp  
 int Next(  
-   uint        celt,  
-   FRAMEINFO[] rgelt,  
-   ref uint    pceltFetched  
+   uint        celt,  
+   FRAMEINFO[] rgelt,  
+   ref uint    pceltFetched  
 );  
 ```  
   

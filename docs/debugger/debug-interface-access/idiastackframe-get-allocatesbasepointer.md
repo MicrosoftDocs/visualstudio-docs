@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the base pointer is allocated for code i
   
 ```C++  
 HRESULT get_allocatesBasePointer (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "UsedCommand Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # UsedCommand Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UsedCommand Element](https://docs.microsoft.com/visualstudio/extensibility/usedcommand-element).  
-  
 Enables a VSPackage to access a command that is defined in another .vsct file. For example, if your VSPackage uses the standard **Copy** command, which is defined by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] shell, you can add the command to a menu or toolbar without re-implementing it.  
   
 ## Syntax  
@@ -60,9 +58,9 @@ Enables a VSPackage to access a command that is defined in another .vsct file. F
   
 ```  
 <UsedCommands>  
-  <UsedCommand guid="guidVSStd97" id="cmdidCut"/>  
-  <UsedCommand guid="guidVSStd97" id="cmdidCopy"/>  
-  <UsedCommand guid="guidVSStd97" id="cmdidPaste"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidCut"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidCopy"/>  
+  <UsedCommand guid="guidVSStd97" id="cmdidPaste"/>  
 </UsedCommands>  
 ```  
   

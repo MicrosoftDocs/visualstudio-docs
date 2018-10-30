@@ -1,7 +1,7 @@
 ---
 title: "IDebugGenericFieldInstance::GetTypeArguments | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,25 +20,23 @@ manager: "ghogen"
 # IDebugGenericFieldInstance::GetTypeArguments
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugGenericFieldInstance::GetTypeArguments](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebuggenericfieldinstance-gettypearguments).  
-  
 Retrieves the type parameter arguments for this instance.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetTypeArguments(  
-   ULONG32       cArgs,  
-   IDebugField** ppArgs,  
-   ULONG32*      pcArgs  
+   ULONG32       cArgs,  
+   IDebugField** ppArgs,  
+   ULONG32*      pcArgs  
 );  
 ```  
   
 ```csharp  
 int GetTypeArguments(  
-   uint              cArgs,  
-   out IDebugField[] ppArgs,  
-   ref uint          pcArgs  
+   uint              cArgs,  
+   out IDebugField[] ppArgs,  
+   ref uint          pcArgs  
 );  
 ```  
   

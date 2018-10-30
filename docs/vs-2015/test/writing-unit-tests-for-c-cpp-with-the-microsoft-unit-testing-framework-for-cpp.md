@@ -1,7 +1,7 @@
 ---
 title: "Writing Unit tests for C-C++ with the Microsoft Unit Testing Framework for C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](https://docs.microsoft.com/visualstudio/test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp).  
-  
 In Visual Studio, you can create unit tests for unmanaged code written in C++. Unmanaged code is sometimes referred to as native code.  
   
  The following procedure contains the essential information that will get you started. The later sections provide a walkthrough that describes the steps in more detail.  
@@ -183,53 +181,53 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 ###  <a name="coupleProjects"></a> Couple the test project to the DLL project  
   
-1.  Add the DLL project to the project references of the test project:  
+1. Add the DLL project to the project references of the test project:  
   
-    1.  Open the properties of the test project and choose **Common Properties**, **Framework and References**.  
+   1.  Open the properties of the test project and choose **Common Properties**, **Framework and References**.  
   
-         ![C&#43;&#43; project properties &#45; Framework and References](../test/media/utecpp08.png "UteCpp08")  
+        ![C&#43;&#43; project properties &#45; Framework and References](../test/media/utecpp08.png "UteCpp08")  
   
-    2.  Choose **Add New Reference**.  
+   2.  Choose **Add New Reference**.  
   
-         In the **Add Reference** dialog box, select the DLL project and choose **Add**.  
+        In the **Add Reference** dialog box, select the DLL project and choose **Add**.  
   
-         ![C&#43;&#43; project properties &#45; Add New Reference](../test/media/utecpp09.png "UteCpp09")  
+        ![C&#43;&#43; project properties &#45; Add New Reference](../test/media/utecpp09.png "UteCpp09")  
   
-2.  In the principal unit test .cpp file, include the .h file of the DLL code:  
+2. In the principal unit test .cpp file, include the .h file of the DLL code:  
   
-    ```cpp  
-    #include "..\RootFinder\RootFinder.h"  
-    ```  
+   ```cpp  
+   #include "..\RootFinder\RootFinder.h"  
+   ```  
   
-3.  Add a basic test that uses the exported function:  
+3. Add a basic test that uses the exported function:  
   
-    ```cpp  
-    TEST_METHOD(BasicTest)  
-    {  
-    CRootFinder rooter;  
-    Assert::AreEqual(  
-    // Expected value:  
-    0.0,   
-    // Actual value:  
-    rooter.SquareRoot(0.0),   
-    // Tolerance:  
-    0.01,  
-    // Message:  
-    L"Basic test failed",  
-    // Line number - used if there is no PDB file:  
-    LINE_INFO());  
-    }  
-    ```  
+   ```cpp  
+   TEST_METHOD(BasicTest)  
+   {  
+   CRootFinder rooter;  
+   Assert::AreEqual(  
+   // Expected value:  
+   0.0,   
+   // Actual value:  
+   rooter.SquareRoot(0.0),   
+   // Tolerance:  
+   0.01,  
+   // Message:  
+   L"Basic test failed",  
+   // Line number - used if there is no PDB file:  
+   LINE_INFO());  
+   }  
+   ```  
   
-4.  Build the solution.  
+4. Build the solution.  
   
-     The new test appears in Test Explorer.  
+    The new test appears in Test Explorer.  
   
-5.  In Test Explorer, choose **Run All**.  
+5. In Test Explorer, choose **Run All**.  
   
-     ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png "UteCpp10")  
+    ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png "UteCpp10")  
   
- You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.  
+   You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.  
   
 ###  <a name="iterate"></a> Iteratively augment the tests and make them pass  
   

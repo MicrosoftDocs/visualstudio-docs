@@ -1,7 +1,7 @@
 ---
 title: "PublicSymbol | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # PublicSymbol
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [PublicSymbol](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/publicsymbol).  
-  
 When the .exe file is created, each public symbol (at a minimum, each global function and data symbol) is given a `SymTagPublicSymbol` tag.  
   
 ## Properties  

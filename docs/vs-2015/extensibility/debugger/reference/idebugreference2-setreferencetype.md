@@ -1,7 +1,7 @@
 ---
 title: "IDebugReference2::SetReferenceType | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugReference2::SetReferenceType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::SetReferenceType](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-setreferencetype).  
-  
 Sets the reference type. Reserved for future use.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT SetReferenceType (   
-   REFERENCE_TYPE dwRefType  
+   REFERENCE_TYPE dwRefType  
 );  
 ```  
   
 ```csharp  
 int SetReferenceType (   
-   enum_REFERENCE_TYPE dwRefType  
+   enum_REFERENCE_TYPE dwRefType  
 );  
 ```  
   

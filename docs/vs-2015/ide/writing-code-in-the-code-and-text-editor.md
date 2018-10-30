@@ -1,7 +1,7 @@
 ---
 title: "Writing Code in the Code and Text Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,9 +68,6 @@ manager: "ghogen"
 ---
 # Writing Code in the Code and Text Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [Writing Code in the Code and Text Editor](https://docs.microsoft.com/visualstudio/ide/writing-code-in-the-code-and-text-editor).
-
 The Visual Studio editor provides many features that make it easier for you to write and manage your code. You can expand and collapse different blocks of code by using outlining. You can learn more about the code you are using by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can navigate inside your code by using features such as **Navigate To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio 2015 editor before, see [Editing Your Code](https://www.visualstudio.com/features/ide-vs) for a quick overview.  
 
  You can view your code in a number of different ways. To see a class view of your solution, you can open the **Class View** window or expand the nodes in the **Solution Explorer** under your class files.  
@@ -143,19 +140,19 @@ The Visual Studio editor provides many features that make it easier for you to w
 
  To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools/Options/Text Editor/All Languages**, or you can change the settings for individual languages). You can navigate in the dropdown boxes as follows:  
 
--   To shift focus from the code window to the navigation bar, press the shortcut key combination CTRL+F2.  
+- To shift focus from the code window to the navigation bar, press the shortcut key combination CTRL+F2.  
 
--   To return focus from the navigation bar to the code window, press the ESC key.  
+- To return focus from the navigation bar to the code window, press the ESC key.  
 
--   To shift focus from item to item on the navigation bar, press the TAB key.  
+- To shift focus from item to item on the navigation bar, press the TAB key.  
 
--   To select the Navigation bar item that has focus and return to the IDE, press the ENTER key  
+- To select the Navigation bar item that has focus and return to the IDE, press the ENTER key  
 
--   To navigate to a class or type, click its name in the left dropdown.  
+- To navigate to a class or type, click its name in the left dropdown.  
 
--   To navigate directly to a procedure in a class, click a procedure in the right dropdown.  
+- To navigate directly to a procedure in a class, click a procedure in the right dropdown.  
 
- In a partial class, members defined outside the current code file may be grayed out.  
+  In a partial class, members defined outside the current code file may be grayed out.  
 
 ## Find code using Navigate To
 Visual Studio's "Navigate To" command does a focused search of your code to help you quickly find specified elements in code files, file paths and code symbols. Unlike other text searches such as Find or Find in Files, Navigate To limits its search to areas where actual code lives, such as files, forms and code modules. For example, if you search for a string in an ASP.NET web application using Find or Find in Files in the whole solution, you might get several hits, including instances of the string in code remarks. By using Navigate To, however, you might only get a single function, ignoring any instances of the string in code remarks.

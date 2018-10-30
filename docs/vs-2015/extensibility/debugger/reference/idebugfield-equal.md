@@ -1,7 +1,7 @@
 ---
 title: "IDebugField::Equal | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugField::Equal
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugField::Equal](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfield-equal).  
-  
 This method compares this field with the specified field for equality.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Equal(   
-   IDebugField* pField  
+   IDebugField* pField  
 );  
 ```  
   
 ```csharp  
 int Equal(  
-   IDebugField pField  
+   IDebugField pField  
 );  
 ```  
   

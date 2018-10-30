@@ -1,7 +1,7 @@
 ---
 title: "IDebugOutputStringEvent2::GetString | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugOutputStringEvent2::GetString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugOutputStringEvent2::GetString](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugoutputstringevent2-getstring).  
-  
 Gets the displayable message.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetString(   
-   BSTR* pbstrString  
+   BSTR* pbstrString  
 );  
 ```  
   
 ```csharp  
 int GetString(   
-   out string pbstrString  
+   out string pbstrString  
 );  
 ```  
   

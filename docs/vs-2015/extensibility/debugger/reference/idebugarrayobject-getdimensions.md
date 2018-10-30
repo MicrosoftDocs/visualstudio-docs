@@ -1,7 +1,7 @@
 ---
 title: "IDebugArrayObject::GetDimensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugArrayObject::GetDimensions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugArrayObject::GetDimensions](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugarrayobject-getdimensions).  
-  
 Gets the dimensions of the array.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetDimensions(   
-   DWORD dwCount,  
-   DWORD dwDimensions[]  
+   DWORD dwCount,  
+   DWORD dwDimensions[]  
 );  
 ```  
   
 ```csharp  
 int GetDimensions(  
-   [In] uint    dwCount,   
-   [Out] uint[] dwDimensions  
+   [In] uint    dwCount,   
+   [Out] uint[] dwDimensions  
 );  
 ```  
   

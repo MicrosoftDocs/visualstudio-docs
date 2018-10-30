@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentTextEvents2::onUpdateTextAttributes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentTextEvents2::onUpdateTextAttributes](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttextevents2-onupdatetextattributes).  
-  
 Notifies the debug package that text attributes have been updated in the document.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT onUpdateTextAttributes(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToUpdate  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToUpdate  
 );  
 ```  
   
 ```csharp  
 int onUpdateTextAttributes(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToUpdate  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToUpdate  
 );  
 ```  
   

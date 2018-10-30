@@ -1,7 +1,7 @@
 ---
 title: "Adding Items to the Add New Item Dialog Boxes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Adding Items to the Add New Item Dialog Boxes
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding Items to the Add New Item Dialog Boxes](https://docs.microsoft.com/visualstudio/extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes).  
-  
 The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the AddItemTemplates section contains the path of and name of the directory in which items made available in the **Add New Item** dialog box are put.  
   
 > [!NOTE]
@@ -68,15 +66,15 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 ## Filtering Project Items  
  `IVsFilterAddProjectItemDlg2` provides for filtering of elements in the tree (left pane) and project files (right pane) in the following ways:  
   
--   By the localized names (captions displayed in the dialog box that is contained in the .vsdir file) provided by `IVsFilterAddProjectItemDlg`.  
+- By the localized names (captions displayed in the dialog box that is contained in the .vsdir file) provided by `IVsFilterAddProjectItemDlg`.  
   
--   By the actual names of the files and folders on disk (non-localized — no .vsdir file) provided by `IVsFilterAddProjectItemDlg`.  
+- By the actual names of the files and folders on disk (non-localized — no .vsdir file) provided by `IVsFilterAddProjectItemDlg`.  
   
--   By category, provided by `IVsFilterAddProjectItemDlg2`.  
+- By category, provided by `IVsFilterAddProjectItemDlg2`.  
   
- To filter by category, provide a category string to an item in the .vsdir file, such as "Web form" or "Client item" in Visual Basic. The dialog box code then retrieves the category classification from the .vsdir file and passes it to you. You can then pass that information to your implementation of `IVsFilterAddProjectItemDlg2` to filter the **Add New Item** dialog box by categories. You can also filter items for Web pages or as client Win32 application cases. Additionally, you can identify [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] tagged items as Microsoft Foundation Classes (MFC) or active template library (ATL) items. When you identify these items, the project system can define its own classifications so that the system can be filtered based on categories and classifications.  
+  To filter by category, provide a category string to an item in the .vsdir file, such as "Web form" or "Client item" in Visual Basic. The dialog box code then retrieves the category classification from the .vsdir file and passes it to you. You can then pass that information to your implementation of `IVsFilterAddProjectItemDlg2` to filter the **Add New Item** dialog box by categories. You can also filter items for Web pages or as client Win32 application cases. Additionally, you can identify [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] tagged items as Microsoft Foundation Classes (MFC) or active template library (ATL) items. When you identify these items, the project system can define its own classifications so that the system can be filtered based on categories and classifications.  
   
- If you implement this filter functionality, you do not have to map a table of every item that should be hidden. You can simply classify items into types and put the classifications in the .vsdir file or files. Then you can hide any of the items that have a specific classification by implementing the interface. In this way, you can make the items in the **Add New Item** dialog box dynamic based on the state within the project.  
+  If you implement this filter functionality, you do not have to map a table of every item that should be hidden. You can simply classify items into types and put the classifications in the .vsdir file or files. Then you can hide any of the items that have a specific classification by implementing the interface. In this way, you can make the items in the **Add New Item** dialog box dynamic based on the state within the project.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   

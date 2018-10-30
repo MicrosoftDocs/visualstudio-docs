@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_hasEH | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_hasEH
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasEH](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-haseh).  
-  
 Retrieves a flag that specifies whether the function contains any unmanaged C++-style exception handling (for example, a try/catch block).  
   
 ## Syntax  
   
 ```cpp  
 HRESULT get_hasEH(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

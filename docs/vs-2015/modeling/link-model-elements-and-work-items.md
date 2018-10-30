@@ -1,7 +1,7 @@
 ---
 title: "Link model elements and work items | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "douge"
 # Link model elements and work items
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Link model elements and work items](https://docs.microsoft.com/visualstudio/modeling/link-model-elements-and-work-items).  
-  
 Track tasks, test cases, bugs, requirements, issues, and other work related to your model by linking model elements in Visual Studio and work items in Team Foundation Server or Visual Studio Team Services. Attach documents to linked work items to associate them with model elements.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -37,27 +35,27 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
  For example, you can link:  
   
--   A user story work item and an activity diagram to show how to realize the story as a sequence of operations  
+- A user story work item and an activity diagram to show how to realize the story as a sequence of operations  
   
--   A use case on a use case diagram and test case work items to make sure the use case is implemented correctly  
+- A use case on a use case diagram and test case work items to make sure the use case is implemented correctly  
   
--   An attribute in a class on a UML class diagram and a bug work item to show an error in the implementation of the attribute  
+- An attribute in a class on a UML class diagram and a bug work item to show an error in the implementation of the attribute  
   
--   A component on a component diagram and a task work item to track the component's development. Such a task is usually broken into smaller tasks  
+- A component on a component diagram and a task work item to track the component's development. Such a task is usually broken into smaller tasks  
   
- You can link work items to any element that you can select on modeling diagrams or in UML Model Explorer, like these items:  
+  You can link work items to any element that you can select on modeling diagrams or in UML Model Explorer, like these items:  
   
--   All elements in UML models, such as UML classes, lifelines, use cases, subsystems, activities, object nodes, components, interfaces  
+- All elements in UML models, such as UML classes, lifelines, use cases, subsystems, activities, object nodes, components, interfaces  
   
--   All relations in UML models, such as associations, generalizations, dependencies, flows, messages  
+- All relations in UML models, such as associations, generalizations, dependencies, flows, messages  
   
--   Parts of elements, such as the attributes and operations of classes, the execution occurrences of lifelines, the input and output pins of activities, and the parts and ports of components  
+- Parts of elements, such as the attributes and operations of classes, the execution occurrences of lifelines, the input and output pins of activities, and the parts and ports of components  
   
--   Layers and layer dependencies  
+- Layers and layer dependencies  
   
--   Comments and comment links  
+- Comments and comment links  
   
--   Diagrams. To select a diagram, choose a blank part of the diagram.  
+- Diagrams. To select a diagram, choose a blank part of the diagram.  
   
 > [!WARNING]
 >  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  

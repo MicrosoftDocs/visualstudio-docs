@@ -43,11 +43,11 @@ ms.workload:
   
 ##  <a name="BKMK_The_easy_way_to_start_debugging"></a> The easy way to start debugging  
   
-1.  Open the app solution in Visual Studio.  
+1. Open the app solution in Visual Studio.  
   
-2.  Choose F5.  
+2. Choose F5.  
   
- Visual Studio builds and starts the app with the debugger attached. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
+   Visual Studio builds and starts the app with the debugger attached. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
 ##  <a name="BKMK_Choose_the_build_configuration_options"></a> Choose the build configuration options  
   
@@ -150,19 +150,19 @@ In C# and Visual Basic apps, you can also set the same **Debugger type** values 
 ###  <a name="BKMK_Start_debugging__F5__but_delay_the_app_start"></a> Start debugging (F5) but delay the app start  
  You can set the app to run in debug mode, but start it by a method other than the debugger. For example, you might want to debug the launch of your app from the Start menu, or to debug a background process in the app without starting the app. To delay the app start, do this:  
   
--   On the **Debug** property page of the app (**Debugging** in Visual C++ and JavaScript)  
+- On the **Debug** property page of the app (**Debugging** in Visual C++ and JavaScript)  
   
-    -   For Visual C# and Visual Basic apps, choose **Do not launch, but debug my code when it starts**.  
+  -   For Visual C# and Visual Basic apps, choose **Do not launch, but debug my code when it starts**.  
   
-    -   For Visual C++ and JavaScript apps, choose **Yes** from the **Launch Application** list.  
+  -   For Visual C++ and JavaScript apps, choose **Yes** from the **Launch Application** list.  
   
--   Choose **Start Debugging** on the **Debug** menu (Keyboard: F5).  
+- Choose **Start Debugging** on the **Debug** menu (Keyboard: F5).  
   
--   Start your app from the Start menu, an execution contract, or by another procedure.  
+- Start your app from the Start menu, an execution contract, or by another procedure.  
   
- The app starts in debug mode. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
+  The app starts in debug mode. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
- For more information about debugging background tasks, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
+  For more information about debugging background tasks, see [Trigger suspend, resume, and background events for UWP apps)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
 ###  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Start an installed app in the debugger  
 When you start debugging by using F5, Visual Studio builds and deploys the app, sets the app to run in debug mode, and then starts it. To start an app that is already installed on a device, use the **Debug Installed App Package** dialog box. This procedure is useful when you need to debug an app that was installed from Microsoft Store, or when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  
@@ -203,36 +203,36 @@ To debug an running UWP app, choose **Debug**, then **Other debug targets**, and
 ####  <a name="BKMK_Attach_the_debugger"></a> Attach the debugger  
  To attach the debugger:  
   
-1.  On the **Debug** menu, choose **Attach to Process**.  
+1. On the **Debug** menu, choose **Attach to Process**.  
   
-     The **Attach to Process** dialog box appears.  
+    The **Attach to Process** dialog box appears.  
   
-2.  To attach to an app on a remote device, specify the remote device in the **Qualifier** box. You can:  
+2. To attach to an app on a remote device, specify the remote device in the **Qualifier** box. You can:  
   
-    -   Enter the name in the **Qualifier** box.  
+   -   Enter the name in the **Qualifier** box.  
   
-    -   Choose the down-arrow in the **Qualifier** box and then choose the device from a list of devices that you have attached to before.  
+   -   Choose the down-arrow in the **Qualifier** box and then choose the device from a list of devices that you have attached to before.  
   
-    -   Choose **Find** to select the device from a list of devices on your local subnet.  
+   -   Choose **Find** to select the device from a list of devices on your local subnet.  
   
-3.  Specify the type of code that you want to debug in the **Attach to** box.  
+3. Specify the type of code that you want to debug in the **Attach to** box.  
   
-     Choose **Select** and then do one of the following:  
+    Choose **Select** and then do one of the following:  
   
-    -   Choose **Automatically determine the type of code to debug**  
+   -   Choose **Automatically determine the type of code to debug**  
   
-    -   Choose **Debug these code types** and then choose one or more types from the list.  
+   -   Choose **Debug these code types** and then choose one or more types from the list.  
   
-4.  In the **Available Processes**  list, choose the app process.  
+4. In the **Available Processes**  list, choose the app process.  
 
-    > [!NOTE]
-    >  Unlike other app types, JavaScript apps run in an instance of the wwahost.exe process. If other JavaScript apps are running when you attach to the app, you will need to know the numeric process id (PID) of the wwahost.exe that the app is running in.  
-    >   
-    >  The easiest way to deal with this situation is to close all of the other JavaScript apps. Otherwise, you can open Windows Task Manager before you start the app and note the ids of the wwahost.exe processes. When you specify the process to attach to in the **Available Processes**  dialog box, the wwahost.exe of the app will have an id that is different than the ones that you have noted.  
+   > [!NOTE]
+   >  Unlike other app types, JavaScript apps run in an instance of the wwahost.exe process. If other JavaScript apps are running when you attach to the app, you will need to know the numeric process id (PID) of the wwahost.exe that the app is running in.  
+   >   
+   >  The easiest way to deal with this situation is to close all of the other JavaScript apps. Otherwise, you can open Windows Task Manager before you start the app and note the ids of the wwahost.exe processes. When you specify the process to attach to in the **Available Processes**  dialog box, the wwahost.exe of the app will have an id that is different than the ones that you have noted.  
   
-5.  Choose **Attach**.  
+5. Choose **Attach**.  
   
- Visual Studio attaches the debugger to the process. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
+   Visual Studio attaches the debugger to the process. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

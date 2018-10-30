@@ -1,7 +1,7 @@
 ---
 title: "How to: Add Comments to Class Diagrams (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: Add Comments to Class Diagrams (Class Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Add Comments to Class Diagrams (Class Designer)](https://docs.microsoft.com/visualstudio/ide/how-to-add-comments-to-class-diagrams-class-designer).  
-  
 You can use comment shapes to annotate class diagrams. A comment shape has one property, **Text**, into which you can type text. Comment shapes exist only on the diagram surface and not in code.  
   
  A comment resides on the class diagramview in **Class Designer**; if you open a second class diagram onto the same project, comments you created in the first view are not visible. If you delete a diagram, all the comments it contained are also deleted.  

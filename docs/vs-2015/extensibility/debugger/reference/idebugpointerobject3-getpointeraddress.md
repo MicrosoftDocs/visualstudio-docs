@@ -1,7 +1,7 @@
 ---
 title: "IDebugPointerObject3::GetPointerAddress | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,21 +20,19 @@ manager: "ghogen"
 # IDebugPointerObject3::GetPointerAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPointerObject3::GetPointerAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpointerobject3-getpointeraddress).  
-  
 Retrieves the address of the pointer.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetPointerAddress (  
-   UINT64* puAddress  
+   UINT64* puAddress  
 );  
 ```  
   
 ```csharp  
 int GetPointerAddress (  
-   out ulong puAddress  
+   out ulong puAddress  
 );  
 ```  
   

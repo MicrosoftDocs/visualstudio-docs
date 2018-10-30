@@ -1,7 +1,7 @@
 ---
 title: "Additional resources for troubleshooting data access errors | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -238,8 +238,6 @@ robots: noindex,nofollow
 # Additional resources for troubleshooting data access errors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Additional resources for troubleshooting data access errors](https://docs.microsoft.com/visualstudio/data-tools/additional-resources-for-troubleshooting-data-access-errors).  
-  
   
 You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. The following table lists the data related forums available on MSDN.  
   

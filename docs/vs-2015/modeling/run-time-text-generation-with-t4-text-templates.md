@@ -1,7 +1,7 @@
 ---
 title: "Run-Time Text Generation with T4 Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "douge"
 # Run-Time Text Generation with T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Run-Time Text Generation with T4 Text Templates](https://docs.microsoft.com/visualstudio/modeling/run-time-text-generation-with-t4-text-templates).  
-  
 You can generate text strings in your application at run time by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] runtime text templates. The computer where the application executes does not have to have [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Runtime templates are sometimes called "preprocessed text templates" because at compile time, the template generates code that is executed at run time.  
   
  Each template is a mixture of the text as it will appear in the generated string, and fragments of program code. The program fragments supply values for the variable parts of the string, and also control conditional and repeated parts.  
@@ -291,17 +289,17 @@ System.IO.File.WriteAllText("outputPage.html", pageContent)
 #### Inheritance pattern: Fragments in Base Methods  
  In the pattern used in the example that follows, notice the following points:  
   
--   The base class `SharedFragments` defines methods within class feature blocks `<#+ ... #>`.  
+- The base class `SharedFragments` defines methods within class feature blocks `<#+ ... #>`.  
   
--   The base class contains no free text. Instead, all its text blocks occur inside the class feature methods.  
+- The base class contains no free text. Instead, all its text blocks occur inside the class feature methods.  
   
--   The derived class invokes the methods defined in `SharedFragments`.  
+- The derived class invokes the methods defined in `SharedFragments`.  
   
--   The application calls the `TextTransform()` method of the derived class, but does not transform the base class `SharedFragments`.  
+- The application calls the `TextTransform()` method of the derived class, but does not transform the base class `SharedFragments`.  
   
--   Both the base and derived classes are runtime text templates: that is, the **Custom Tool** property is set to **TextTemplatingFilePreprocessor**.  
+- Both the base and derived classes are runtime text templates: that is, the **Custom Tool** property is set to **TextTemplatingFilePreprocessor**.  
   
- **SharedFragments.tt:**  
+  **SharedFragments.tt:**  
   
 ```csharp  
 <#@ template language="C#" #>  

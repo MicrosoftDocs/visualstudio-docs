@@ -1,7 +1,7 @@
 ---
 title: "Install and Manage Local Content | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "ghogen"
 # Install and Manage Local Content
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Install and Manage Local Content](https://docs.microsoft.com/visualstudio/ide/install-and-manage-local-content).  
-  
 By using the Microsoft Help Viewer, you can add, remove, update, and move the Help content that is installed on your computer to fit your software-development needs.  
   
  To manage content on your local computer, you must log on with an account that has administrative permissions. In addition, you might not be able to manage local content if you work in an enterprise environment because system administrators might make those decisions for your organization. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
@@ -105,9 +103,9 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
   
 #### To update local content  
   
--   In the lower-right corner of the status bar, choose the **Click here to download now** link.  
+- In the lower-right corner of the status bar, choose the **Click here to download now** link.  
   
- Update times can vary, but you can view the update progress in the status bar.  
+  Update times can vary, but you can view the update progress in the status bar.  
   
 ## Moving local content  
  You can save disk space by moving installed content from your local computer to a network share or to another partition on your local computer.  

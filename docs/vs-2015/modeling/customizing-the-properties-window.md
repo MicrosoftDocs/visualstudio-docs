@@ -1,7 +1,7 @@
 ---
 title: "Customizing the Properties Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Customizing the Properties Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing the Properties Window](https://docs.microsoft.com/visualstudio/modeling/customizing-the-properties-window).  
-  
 You can customize the appearance and behavior of the properties window in your domain-specific language (DSL) in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. In your DSL Definition, you define domain properties on each domain class. By default, when you select an instance of the class, either on a diagram or in Model Explorer, every domain property is listed in the properties window. This lets you see and edit the values of domain properties, even if you have not mapped them to shape fields on the diagram.  
   
 ## Names, Descriptions, and Categories  
@@ -29,11 +27,11 @@ You can customize the appearance and behavior of the properties window in your d
   
  **Description**. The Description of a domain property appears in two places:  
   
--   In the bottom of the properties window when the user selects the property. You can use it to explain to the user what the property represents.  
+- In the bottom of the properties window when the user selects the property. You can use it to explain to the user what the property represents.  
   
--   In the generated program code. If you use the documentation facilities to extract API documentation, it will appear as the description of this property in the API.  
+- In the generated program code. If you use the documentation facilities to extract API documentation, it will appear as the description of this property in the API.  
   
- **Category**. A category is a heading in the Properties window.  
+  **Category**. A category is a heading in the Properties window.  
   
 ## Exposing Style Features  
  Some of the dynamic features of graphical elements can be represented or *exposed* as domain properties. A feature that has been exposed in this manner can be updated by the user and can more easily be updated by program code.  
@@ -97,38 +95,38 @@ You can customize the appearance and behavior of the properties window in your d
   
  However, you can specify the following editors and types:  
   
-1.  Another editor that is used with a standard type. For example, you could specify a file path editor for a string property.  
+1. Another editor that is used with a standard type. For example, you could specify a file path editor for a string property.  
   
-2.  An external type for the domain property, and an editor for it.  
+2. An external type for the domain property, and an editor for it.  
   
-3.  A .NET editor such as the file path editor, or you can create your own custom property editor.  
+3. A .NET editor such as the file path editor, or you can create your own custom property editor.  
   
-     A conversion between an external type and an type such as String, which has a default editor.  
+    A conversion between an external type and an type such as String, which has a default editor.  
   
- In a DSL, an *external type* is any type that is not one of the simple types (such as Boolean or Int32) or String.  
+   In a DSL, an *external type* is any type that is not one of the simple types (such as Boolean or Int32) or String.  
   
 #### To define a domain property that has an external type  
   
-1.  In **Solution Explorer**, add a reference to the assembly (DLL) that contains the external type, in the **Dsl** project.  
+1. In **Solution Explorer**, add a reference to the assembly (DLL) that contains the external type, in the **Dsl** project.  
   
-     The assembly can be a .NET assembly, or an assembly supplied by you.  
+    The assembly can be a .NET assembly, or an assembly supplied by you.  
   
-2.  Add the type to the **Domain Types** list, unless you have already done so.  
+2. Add the type to the **Domain Types** list, unless you have already done so.  
   
-    1.  Open DslDefinition.dsl, and in **DSL Explorer**, right-click the root node, and then click **Add New External Type**.  
+   1.  Open DslDefinition.dsl, and in **DSL Explorer**, right-click the root node, and then click **Add New External Type**.  
   
-         A new entry appears under the **Domain Types** node.  
+        A new entry appears under the **Domain Types** node.  
   
-        > [!WARNING]
-        >  The menu item is on the DSL root node, not the **Domain Types** node.  
+       > [!WARNING]
+       >  The menu item is on the DSL root node, not the **Domain Types** node.  
   
-    2.  Set the name and the namespace of the new type in the Properties window.  
+   2.  Set the name and the namespace of the new type in the Properties window.  
   
-3.  Add a domain property to a domain class in the usual manner.  
+3. Add a domain property to a domain class in the usual manner.  
   
-     In the Properties window, select the external type from the drop-down list in the **Type** field.  
+    In the Properties window, select the external type from the drop-down list in the **Type** field.  
   
- At this stage, users can view the values of the property, but they cannot edit it. The displayed values are obtained from the `ToString()` function. You could write program code that sets the value of the property, for example in a command or rule.  
+   At this stage, users can view the values of the property, but they cannot edit it. The displayed values are obtained from the `ToString()` function. You could write program code that sets the value of the property, for example in a command or rule.  
   
 ### Setting a Property Editor  
  Add a CLR attribute to the domain property, in the following form:  
@@ -174,11 +172,11 @@ You can customize the appearance and behavior of the properties window in your d
   
  You define an editor by writing a class that is derived from <xref:System.Drawing.Design.UITypeEditor>. Your class must override:  
   
--   <xref:System.Drawing.Design.UITypeEditor.EditValue%2A>, to interact with the user and update the property value.  
+- <xref:System.Drawing.Design.UITypeEditor.EditValue%2A>, to interact with the user and update the property value.  
   
--   <xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A>, to specify whether your editor will open a dialog or provide a drop-down menu.  
+- <xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A>, to specify whether your editor will open a dialog or provide a drop-down menu.  
   
- You can also provide a graphical representation of the property’s value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.  
+  You can also provide a graphical representation of the property’s value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.  
   
 > [!NOTE]
 >  Add the code in a separate code file in the **Dsl** project.  

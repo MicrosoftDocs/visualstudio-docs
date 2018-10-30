@@ -1,7 +1,7 @@
 ---
 title: "WinCounter | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # WinCounter
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [WinCounter](https://docs.microsoft.com/visualstudio/profiling/wincounter).  
-  
 The **WinCounter** option specifies a Windows or application performance counter to collect at set intervals during the profile run. Windows and application performance counters are listed as marks in the profiling data file. You can specify multiple performance counters to collect in separate options.  
   
  By default, counters are collected every 500 milliseconds. Use the **AutoMark** option to specify a different collection interval.  

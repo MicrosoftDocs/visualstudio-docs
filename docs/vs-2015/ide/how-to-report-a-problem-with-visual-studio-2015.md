@@ -1,7 +1,7 @@
 ---
 title: "How to Report a Problem with Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,7 +16,7 @@ manager: "ghogen"
 # How to Report a Problem with Visual Studio 2015
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see [How to report a problem in Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017).
+For the latest documentation for Visual Studio 2017, see [How to report a problem in Visual Studio 2017](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017).
 
 If you encounter a problem with Visual Studio 2015, we want to know about it so that we can diagnose and fix it.  By using the **Report a Problem** tool, you can collect detailed  information about the problem, and send it to Microsoft with just a few button clicks.  
   
@@ -31,13 +31,13 @@ If you encounter a problem with Visual Studio 2015, we want to know about it so 
   
 ###  <a name="describe_the_problem"></a>  
   
-1.  Give a descriptive title for the problem that will help us route it to the correct team within Visual Studio.  
+1. Give a descriptive title for the problem that will help us route it to the correct team within Visual Studio.  
   
-2.  Give any additional details and if possible, the steps to reproduce the problem.  
+2. Give any additional details and if possible, the steps to reproduce the problem.  
   
-3.  Choose a problem area from the dropdown. Make a best guess if you are not sure.  
+3. Choose a problem area from the dropdown. Make a best guess if you are not sure.  
   
- ![Report A Problem Dialog](../ide/media/report-a-problem-dialog.png "Report A Problem Dialog")  
+   ![Report A Problem Dialog](../ide/media/report-a-problem-dialog.png "Report A Problem Dialog")  
   
 ## Provide a screenshot (optional)  
  Choose **Include a screenshot** to send your current screen to Microsoft. The tool enables you to crop the image to show only            the part of the screen that shows the problem. You can attach additional screenshots or other files by clicking the **Attach Additional Files** button.  

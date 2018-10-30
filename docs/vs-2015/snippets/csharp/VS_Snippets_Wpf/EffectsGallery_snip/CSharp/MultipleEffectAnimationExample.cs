@@ -99,7 +99,7 @@ namespace SDKSample
                 myDoubleAnimationShadowDepth, new PropertyPath(DropShadowBitmapEffect.ShadowDepthProperty));
 
             // Animate the blur to make the object appear to
-            // be comming out of the screen. Use a spline key
+            // be coming out of the screen. Use a spline key
             // frame to make the blur animate suddenly at the 
             // very end of the animation.
             DoubleAnimationUsingKeyFrames myDoubleAnimationUsingKeyFrames = new DoubleAnimationUsingKeyFrames();

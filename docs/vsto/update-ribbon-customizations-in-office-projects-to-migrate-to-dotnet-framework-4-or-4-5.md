@@ -113,18 +113,18 @@ ms.workload:
   
  There are two ways to access the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object:  
   
--   By using the Factory property of the Ribbon class. Use this approach from code in your Ribbon class.  
+- By using the Factory property of the Ribbon class. Use this approach from code in your Ribbon class.  
   
--   By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
+- By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
- The following code example demonstrates how to create a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> in a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.  
+  The following code example demonstrates how to create a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> in a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.  
   
 <CodeContentPlaceHolder>10</CodeContentPlaceHolder>  
 <CodeContentPlaceHolder>11</CodeContentPlaceHolder>  
  The following table lists the controls you can create programmatically and the method to use to create the controls in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.  
   
 |Control|RibbonFactory method to use in [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later projects|  
-|-------------|---------------------------------------------------------------------------------------------------------------|  
+|-------------| - |  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButton>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonButton%2A>|  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButtonGroup>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonButtonGroup%2A>|  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonCheckBox>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonCheckBox%2A>|  
@@ -149,7 +149,7 @@ ms.workload:
  The following table lists the Ribbon events and the delegates that are associated with them in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.  
   
 |Event|Delegate to use in [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later projects|  
-|-----------|---------------------------------------------------------------------------------------------------|  
+|-----------| - |  
 |<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage> event in a generated Ribbon class|<xref:Microsoft.Office.Tools.Ribbon.RibbonLoadImageEventHandler>|  
 |<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.Load>|<xref:Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler>|  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonCheckBox.Click><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox.ItemsLoading><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox.TextChanged><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.ButtonClick><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.ItemsLoading><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.SelectionChanged><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonEditBox.TextChanged><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ButtonClick><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.Click><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ItemsLoading><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGroup.DialogLauncherClick><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu.ItemsLoading><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonSplitButton.Click><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click>|<xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler>|  
@@ -159,11 +159,11 @@ ms.workload:
   
  There are two ways to access the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object:  
   
--   By using the `Factory` property of the Ribbon class. Use this approach from code in your Ribbon class.  
+- By using the `Factory` property of the Ribbon class. Use this approach from code in your Ribbon class.  
   
--   By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
+- By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
- The following code example demonstrates how to set the `Position` property of a tab in a Ribbon class in a project that targets the .NET Framework 3.5.  
+  The following code example demonstrates how to set the `Position` property of a tab in a Ribbon class in a project that targets the .NET Framework 3.5.  
   
 ```vb  
 Me.tab1.Position = RibbonPosition.AfterOfficeId("TabHome")  

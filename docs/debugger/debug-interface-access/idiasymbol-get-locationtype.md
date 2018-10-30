@@ -22,7 +22,7 @@ Retrieves the location type of a data symbol.
   
 ```C++  
 HRESULT get_locationType (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

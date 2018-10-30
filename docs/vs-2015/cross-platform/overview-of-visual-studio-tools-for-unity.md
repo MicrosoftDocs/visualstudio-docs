@@ -1,7 +1,7 @@
 ---
 title: "Overview of Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "crdun"
 # Overview of Visual Studio Tools for Unity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overview of Visual Studio Tools for Unity](https://docs.microsoft.com/visualstudio/cross-platform/overview-of-visual-studio-tools-for-unity).  
-  
   
 In this section, you'll learn more about the features Visual Studio Tools for Unity offers, and how you can use them to become more productive with Unity.  
   
@@ -38,15 +36,15 @@ In this section, you'll learn more about the features Visual Studio Tools for Un
 ## Superior Debugging  
  Connect Visual Studio's powerful debugger to your Unity game to debug your C# scripts and DLLs regardless of whether it's running standalone or in the Unity editor. You can use all the debugging features you expect from Visual Studio.  
   
--   Breakpoints, including conditional breakpoints.  
+- Breakpoints, including conditional breakpoints.  
   
--   Evaluate complex expressions in the Watch window.  
+- Evaluate complex expressions in the Watch window.  
   
--   Inspect and modify the value of variables and arguments.  
+- Inspect and modify the value of variables and arguments.  
   
--   Drill down into complex objects and data structures.  
+- Drill down into complex objects and data structures.  
   
- You can even debug your Unity game while it runs on another machine on your network.  
+  You can even debug your Unity game while it runs on another machine on your network.  
   
 ## Productivity  
  In addition to Visual Studio's established productivity for writing and refactoring code in C#, Visual Studio Tools for Unity provides extra productivity features for Unity developers.  

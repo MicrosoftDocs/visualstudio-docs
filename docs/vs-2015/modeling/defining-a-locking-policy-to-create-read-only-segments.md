@@ -1,7 +1,7 @@
 ---
 title: "Defining a Locking Policy to Create Read-Only Segments | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # Defining a Locking Policy to Create Read-Only Segments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Defining a Locking Policy to Create Read-Only Segments](https://docs.microsoft.com/visualstudio/modeling/defining-a-locking-policy-to-create-read-only-segments).  
-  
 The Immutability API of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  
   
  In addition, as author of a DSL, you can define a *locking policy.* A locking policy defines which locks are permitted, not permitted, or mandatory. For example, when you publish a DSL, you can encourage third-party developers to extend it with new commands. But you could also use a locking policy to prevent them from altering the read-only status of specified parts of the model.  
@@ -70,11 +68,11 @@ partition.SetLocks(Locks.Delete);
 ## Lock values  
  Locks can be set on a Store, Partition, or individual ModelElement. Locks is a `Flags` enumeration: you can combine its values using '&#124;'.  
   
--   Locks of a ModelElement always include the Locks of its Partition.  
+- Locks of a ModelElement always include the Locks of its Partition.  
   
--   Locks of a Partition always include the Locks of the Store.  
+- Locks of a Partition always include the Locks of the Store.  
   
- You cannot set a lock on a partition or store and at the same time disable the lock on an individual element.  
+  You cannot set a lock on a partition or store and at the same time disable the lock on an individual element.  
   
 |Value|Meaning if `IsLocked(Value)` is true|  
 |-----------|------------------------------------------|  

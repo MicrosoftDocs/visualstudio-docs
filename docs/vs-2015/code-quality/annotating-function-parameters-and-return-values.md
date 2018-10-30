@@ -1,7 +1,7 @@
 ---
 title: "Annotating Function Parameters and Return Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -135,8 +135,6 @@ manager: "ghogen"
 # Annotating Function Parameters and Return Values
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Annotating Function Parameters and Return Values](https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values).  
-  
 This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)  
   
 ## Pointer Parameters  
@@ -300,92 +298,92 @@ This article describes typical uses of annotations for simple function parameter
   
  **Annotations and Descriptions**  
   
--   `_Outptr_`  
+- `_Outptr_`  
   
-     Parameter cannot be null, and in the post-state the pointed-to location cannot be null and must be valid.  
+   Parameter cannot be null, and in the post-state the pointed-to location cannot be null and must be valid.  
   
--   `_Outptr_opt_`  
+- `_Outptr_opt_`  
   
-     Parameter may be null, but in the post-state the pointed-to location cannot be null and must be valid.  
+   Parameter may be null, but in the post-state the pointed-to location cannot be null and must be valid.  
   
--   `_Outptr_result_maybenull_`  
+- `_Outptr_result_maybenull_`  
   
-     Parameter cannot be null, and in the post-state the pointed-to location can be null.  
+   Parameter cannot be null, and in the post-state the pointed-to location can be null.  
   
--   `_Outptr_opt_result_maybenull_`  
+- `_Outptr_opt_result_maybenull_`  
   
-     Parameter may be null, and in the post-state the pointed-to location can be null.  
+   Parameter may be null, and in the post-state the pointed-to location can be null.  
   
- In the following table, additional substrings are inserted into the annotation name to further qualify the meaning of the annotation.  The various substrings are `_z`, `_COM_`, `_buffer_`, `_bytebuffer_`, and `_to_`.  
+  In the following table, additional substrings are inserted into the annotation name to further qualify the meaning of the annotation.  The various substrings are `_z`, `_COM_`, `_buffer_`, `_bytebuffer_`, and `_to_`.  
   
 > [!IMPORTANT]
 >  If the interface that you are annotating is COM, use the COM form of these annotations. Do not use the COM annotations with any other type interface.  
   
  **Annotations and Descriptions**  
   
--   `_Outptr_result_z_`  
+- `_Outptr_result_z_`  
   
-     `_Outptr_opt_result_z_`  
+   `_Outptr_opt_result_z_`  
   
-     `_Outptr_result_maybenull_z_`  
+   `_Outptr_result_maybenull_z_`  
   
-     `_Ouptr_opt_result_maybenull_z_`  
+   `_Ouptr_opt_result_maybenull_z_`  
   
-     The returned pointer has the `_Null_terminated_` annotation.  
+   The returned pointer has the `_Null_terminated_` annotation.  
   
--   `_COM_Outptr_`  
+- `_COM_Outptr_`  
   
-     `_COM_Outptr_opt_`  
+   `_COM_Outptr_opt_`  
   
-     `_COM_Outptr_result_maybenull_`  
+   `_COM_Outptr_result_maybenull_`  
   
-     `_COM_Outptr_opt_result_maybenull_`  
+   `_COM_Outptr_opt_result_maybenull_`  
   
-     The returned pointer has COM semantics, and therefore carries an `_On_failure_` post-condition that the returned pointer is null.  
+   The returned pointer has COM semantics, and therefore carries an `_On_failure_` post-condition that the returned pointer is null.  
   
--   `_Outptr_result_buffer_(s)`  
+- `_Outptr_result_buffer_(s)`  
   
-     `_Outptr_result_bytebuffer_(s)`  
+   `_Outptr_result_bytebuffer_(s)`  
   
-     `_Outptr_opt_result_buffer_(s)`  
+   `_Outptr_opt_result_buffer_(s)`  
   
-     `_Outptr_opt_result_bytebuffer_(s)`  
+   `_Outptr_opt_result_bytebuffer_(s)`  
   
-     The returned pointer points to a valid buffer of size `s` elements or bytes.  
+   The returned pointer points to a valid buffer of size `s` elements or bytes.  
   
--   `_Outptr_result_buffer_to_(s, c)`  
+- `_Outptr_result_buffer_to_(s, c)`  
   
-     `_Outptr_result_bytebuffer_to_(s, c)`  
+   `_Outptr_result_bytebuffer_to_(s, c)`  
   
-     `_Outptr_opt_result_buffer_to_(s,c)`  
+   `_Outptr_opt_result_buffer_to_(s,c)`  
   
-     `_Outptr_opt_result_bytebuffer_to_(s,c)`  
+   `_Outptr_opt_result_bytebuffer_to_(s,c)`  
   
-     The returned pointer points to a buffer of size `s` elements or bytes, of which the first `c` are valid.  
+   The returned pointer points to a buffer of size `s` elements or bytes, of which the first `c` are valid.  
   
- Certain interface conventions presume that output parameters are nullified on failure.  Except for explicitly COM code, the forms in the following table are preferred.  For COM code, use the corresponding COM forms that are listed in the previous section.  
+  Certain interface conventions presume that output parameters are nullified on failure.  Except for explicitly COM code, the forms in the following table are preferred.  For COM code, use the corresponding COM forms that are listed in the previous section.  
   
- **Annotations and Descriptions**  
+  **Annotations and Descriptions**  
   
--   `_Result_nullonfailure_`  
+- `_Result_nullonfailure_`  
   
-     Modifies other annotations. The result is set to null if the function fails.  
+   Modifies other annotations. The result is set to null if the function fails.  
   
--   `_Result_zeroonfailure_`  
+- `_Result_zeroonfailure_`  
   
-     Modifies other annotations. The result is set to zero if the function fails.  
+   Modifies other annotations. The result is set to zero if the function fails.  
   
--   `_Outptr_result_nullonfailure_`  
+- `_Outptr_result_nullonfailure_`  
   
-     The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for a non-optional parameter.  
+   The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for a non-optional parameter.  
   
--   `_Outptr_opt_result_nullonfailure_`  
+- `_Outptr_opt_result_nullonfailure_`  
   
-     The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for an optional parameter.  
+   The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for an optional parameter.  
   
--   `_Outref_result_nullonfailure_`  
+- `_Outref_result_nullonfailure_`  
   
-     The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for a reference parameter.  
+   The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for a reference parameter.  
   
 ## Output Reference Parameters  
  A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don’t provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:  

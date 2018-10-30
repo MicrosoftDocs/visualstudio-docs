@@ -1,7 +1,7 @@
 ---
 title: "Making Coded UI Tests Wait For Specific Events During Playback | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "douge"
 # Making Coded UI Tests Wait For Specific Events During Playback
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Making Coded UI Tests Wait For Specific Events During Playback](https://docs.microsoft.com/visualstudio/test/making-coded-ui-tests-wait-for-specific-events-during-playback).  
-  
 In a coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, use the appropriate UITestControl.WaitForControlXXX() method, as described in the following table. For an example of a coded UI test that waits for a control to be enabled using the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.WaitForControlEnabled%2A> method, see [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).  
   
  **Requirements**  
@@ -63,8 +61,8 @@ In a coded UI test playback, you can instruct the test to wait for certain event
 // Define the method to evaluate the condition   
 private static bool IsStatusDone(UITestControl control)   
 {   
-    WinText statusText = control as WinText;   
-    return statusText.DisplayText == "Succeeded" || statusText.DisplayText == "Failed";   
+    WinText statusText = control as WinText;   
+    return statusText.DisplayText == "Succeeded" || statusText.DisplayText == "Failed";   
 }   
   
 // In test method, wait till the method evaluates to true   
@@ -81,9 +79,9 @@ statusText.WaitForControlCondition(IsStatusDone);
 // Define the method to evaluate the condition   
 private static bool IsStatusDoneOrError(UITestControl[] controls)   
 {   
-    WinText statusText = controls[0] as WinText;   
-    WinWindow errorDialog = controls[1] as WinWindow;   
-    return statusText.DisplayText == "Succeeded" || errorDialog.Exists;   
+    WinText statusText = controls[0] as WinText;   
+    WinWindow errorDialog = controls[1] as WinWindow;   
+    return statusText.DisplayText == "Succeeded" || errorDialog.Exists;   
 }   
   
 // In test method, wait till the method evaluates to true   

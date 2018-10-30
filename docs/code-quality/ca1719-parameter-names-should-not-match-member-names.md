@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1719: Parameter names should not match member names
+
 |||
 |-|-|
 |TypeName|ParameterNamesShouldNotMatchMemberNames|

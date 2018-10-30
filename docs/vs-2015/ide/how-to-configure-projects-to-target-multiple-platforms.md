@@ -1,7 +1,7 @@
 ---
 title: "How to: Configure Projects to Target Multiple Platforms | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # How to: Configure Projects to Target Multiple Platforms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Configure Projects to Target Multiple Platforms](https://docs.microsoft.com/visualstudio/ide/how-to-configure-projects-to-target-multiple-platforms).  
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.  
   
 ## Targeting a Platform  
@@ -58,11 +56,11 @@ The latest version of this topic can be found at [How to: Configure Projects to 
   
 #### To build multiple solution configurations at once  
   
-1.  Use the **Configuration Manager** to add at least two target platforms for the solution.  
+1. Use the **Configuration Manager** to add at least two target platforms for the solution.  
   
-2.  Use the **Batch Build** window to build several solution configurations at once.  
+2. Use the **Batch Build** window to build several solution configurations at once.  
   
- It is possible to have a solution-level platform set to, for example, [!INCLUDE[vcprx64](../includes/vcprx64-md.md)], and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.  
+   It is possible to have a solution-level platform set to, for example, [!INCLUDE[vcprx64](../includes/vcprx64-md.md)], and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.  
   
 ## See Also  
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   

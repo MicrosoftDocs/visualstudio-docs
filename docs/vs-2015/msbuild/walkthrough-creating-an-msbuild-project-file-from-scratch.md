@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Walkthrough: Creating an MSBuild Project File from Scratch
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: Creating an MSBuild Project File from Scratch](https://docs.microsoft.com/visualstudio/msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch).  
-  
   
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.  
   
@@ -29,27 +27,27 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
  This walkthrough shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:  
   
--   Create a minimal application source file.  
+- Create a minimal application source file.  
   
--   Create a minimal MSBuild project file.  
+- Create a minimal MSBuild project file.  
   
--   Extend the PATH environment variable to include MSBuild.  
+- Extend the PATH environment variable to include MSBuild.  
   
--   Build the application by using the project file.  
+- Build the application by using the project file.  
   
--   Add properties to control the build.  
+- Add properties to control the build.  
   
--   Control the build by changing property values.  
+- Control the build by changing property values.  
   
--   Add targets to the build.  
+- Add targets to the build.  
   
--   Control the build by specifying targets.  
+- Control the build by specifying targets.  
   
--   Build incrementally.  
+- Build incrementally.  
   
- This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
+  This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
- To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5, 4.0, or 4.5) installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.  
+  To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5, 4.0, or 4.5) installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.  
   
 ## Creating a Minimal Application  
  This section shows how to create a minimal Visual C# application source file by using a text editor.  
@@ -105,48 +103,48 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 #### To create a minimal MSBuild project file  
   
-1.  In the text editor, replace the existing text by using these two lines:  
+1. In the text editor, replace the existing text by using these two lines:  
   
-    ```  
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-    </Project>  
-    ```  
+   ```  
+   <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+   </Project>  
+   ```  
   
-2.  Insert this `ItemGroup` node as a child element of the `Project` node:  
+2. Insert this `ItemGroup` node as a child element of the `Project` node:  
   
-    ```  
-    <ItemGroup>  
-      <Compile Include="helloworld.cs" />  
-    </ItemGroup>  
-    ```  
+   ```  
+   <ItemGroup>  
+     <Compile Include="helloworld.cs" />  
+   </ItemGroup>  
+   ```  
   
-     Notice that this `ItemGroup` already contains an item element.  
+    Notice that this `ItemGroup` already contains an item element.  
   
-3.  Add a `Target` node as a child element of the `Project` node. Name the node `Build`.  
+3. Add a `Target` node as a child element of the `Project` node. Name the node `Build`.  
   
-    ```  
-    <Target Name="Build">  
-    </Target>  
-    ```  
+   ```  
+   <Target Name="Build">  
+   </Target>  
+   ```  
   
-4.  Insert this task element as a child element of the `Target` node:  
+4. Insert this task element as a child element of the `Target` node:  
   
-    ```  
-    <Csc Sources="@(Compile)"/>  
-    ```  
+   ```  
+   <Csc Sources="@(Compile)"/>  
+   ```  
   
-5.  Save this project file and name it Helloworld.csproj.  
+5. Save this project file and name it Helloworld.csproj.  
   
- Your minimal project file should resemble the following code:  
+   Your minimal project file should resemble the following code:  
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <Csc Sources="@(Compile)"/>    
-  </Target>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <Csc Sources="@(Compile)"/>    
+  </Target>  
 </Project>  
 ```  
   
@@ -197,50 +195,50 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 #### To add build properties  
   
-1.  Delete the existing application by typing **del helloworld.exe** at the command prompt.  
+1. Delete the existing application by typing **del helloworld.exe** at the command prompt.  
   
-2.  In the project file, insert this `PropertyGroup` element just after the opening `Project` element:  
+2. In the project file, insert this `PropertyGroup` element just after the opening `Project` element:  
   
-    ```  
-    <PropertyGroup>  
-      <AssemblyName>MSBuildSample</AssemblyName>  
-      <OutputPath>Bin\</OutputPath>  
-    </PropertyGroup>  
-    ```  
+   ```  
+   <PropertyGroup>  
+     <AssemblyName>MSBuildSample</AssemblyName>  
+     <OutputPath>Bin\</OutputPath>  
+   </PropertyGroup>  
+   ```  
   
-3.  Add this task to the Build target, just before the `Csc` task:  
+3. Add this task to the Build target, just before the `Csc` task:  
   
-    ```  
-    <MakeDir Directories="$(OutputPath)"      Condition="!Exists('$(OutputPath)')" />  
-    ```  
+   ```  
+   <MakeDir Directories="$(OutputPath)"      Condition="!Exists('$(OutputPath)')" />  
+   ```  
   
-     The `MakeDir` task creates a folder that is named by the `OutputPath` property, provided that no folder by that name currently exists.  
+    The `MakeDir` task creates a folder that is named by the `OutputPath` property, provided that no folder by that name currently exists.  
   
-4.  Add this `OutputAssembly` attribute to the `Csc` task:  
+4. Add this `OutputAssembly` attribute to the `Csc` task:  
   
-    ```  
-    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
-    ```  
+   ```  
+   <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+   ```  
   
-     This instructs the Visual C# compiler to produce an assembly that is named by the `AssemblyName` property and to put it in the folder that is named by the `OutputPath` property.  
+    This instructs the Visual C# compiler to produce an assembly that is named by the `AssemblyName` property and to put it in the folder that is named by the `OutputPath` property.  
   
-5.  Save your changes.  
+5. Save your changes.  
   
- Your project file should now resemble the following code:  
+   Your project file should now resemble the following code:  
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <PropertyGroup>  
-    <AssemblyName>MSBuildSample</AssemblyName>  
-    <OutputPath>Bin\</OutputPath>  
-  </PropertyGroup>  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
+  <PropertyGroup>  
+    <AssemblyName>MSBuildSample</AssemblyName>  
+    <OutputPath>Bin\</OutputPath>  
+  </PropertyGroup>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
 </Project>  
 ```  
   
@@ -275,52 +273,52 @@ Programming languages that target the .NET Framework use MSBuild project files t
 ## Adding Build Targets  
  Next, add two more targets to the project file, as follows:  
   
--   A Clean target that deletes old files.  
+- A Clean target that deletes old files.  
   
--   A Rebuild target that uses the `DependsOnTargets` attribute to force the Clean task to run before the Build task.  
+- A Rebuild target that uses the `DependsOnTargets` attribute to force the Clean task to run before the Build task.  
   
- Now that you have multiple targets, you can set the Build target as the default target.  
+  Now that you have multiple targets, you can set the Build target as the default target.  
   
 #### To add build targets  
   
-1.  In the project file, add these two targets just after the Build target:  
+1. In the project file, add these two targets just after the Build target:  
   
-    ```  
-    <Target Name="Clean" >  
-      <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
-    </Target>  
-    <Target Name="Rebuild" DependsOnTargets="Clean;Build" />  
-    ```  
+   ```  
+   <Target Name="Clean" >  
+     <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
+   </Target>  
+   <Target Name="Rebuild" DependsOnTargets="Clean;Build" />  
+   ```  
   
-     The Clean target invokes the Delete task to delete the application. The Rebuild target does not run until both the Clean target and the Build target have run. Although the Rebuild target has no tasks, it causes the Clean target to run before the Build target.  
+    The Clean target invokes the Delete task to delete the application. The Rebuild target does not run until both the Clean target and the Build target have run. Although the Rebuild target has no tasks, it causes the Clean target to run before the Build target.  
   
-2.  Add this `DefaultTargets` attribute to the opening `Project` element:  
+2. Add this `DefaultTargets` attribute to the opening `Project` element:  
   
-    ```  
-    <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-    ```  
+   ```  
+   <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+   ```  
   
-     This sets the Build target as the default target.  
+    This sets the Build target as the default target.  
   
- Your project file should now resemble the following code:  
+   Your project file should now resemble the following code:  
   
 ```  
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <PropertyGroup>  
-    <AssemblyName>MSBuildSample</AssemblyName>  
-    <OutputPath>Bin\</OutputPath>  
-  </PropertyGroup>  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
-  <Target Name="Clean" >  
-    <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
-  <Target Name="Rebuild" DependsOnTargets="Clean;Build" />  
+  <PropertyGroup>  
+    <AssemblyName>MSBuildSample</AssemblyName>  
+    <OutputPath>Bin\</OutputPath>  
+  </PropertyGroup>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
+  <Target Name="Clean" >  
+    <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
+  <Target Name="Rebuild" DependsOnTargets="Clean;Build" />  
 </Project>  
 ```  
   
@@ -380,8 +378,8 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
     ```  
     <Target Name="Build" Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe">  
-      <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-      <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+      <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+      <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
     </Target>  
     ```  
   

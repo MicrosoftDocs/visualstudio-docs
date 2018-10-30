@@ -1,7 +1,7 @@
 ---
 title: "CA1016: Mark assemblies with AssemblyVersionAttribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # CA1016: Mark assemblies with AssemblyVersionAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1016: Mark assemblies with AssemblyVersionAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1016-mark-assemblies-with-assemblyversionattribute).
-
 |||
 |-|-|
 |TypeName|MarkAssembliesWithAssemblyVersion|
@@ -39,15 +37,15 @@ The latest version of this topic can be found at [CA1016: Mark assemblies with A
 ## Rule Description
  The identity of an assembly is composed of the following information:
 
--   Assembly name
+- Assembly name
 
--   Version number
+- Version number
 
--   Culture
+- Culture
 
--   Public key (for strongly named assemblies).
+- Public key (for strongly named assemblies).
 
- The [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] uses the version number to uniquely identify an assembly, and to bind to types in strongly named assemblies. The version number is used together with version and publisher policy. By default, applications run only with the assembly version with which they were built.
+  The [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] uses the version number to uniquely identify an assembly, and to bind to types in strongly named assemblies. The version number is used together with version and publisher policy. By default, applications run only with the assembly version with which they were built.
 
 ## How to Fix Violations
  To fix a violation of this rule, add a version number to the assembly by using the <xref:System.Reflection.AssemblyVersionAttribute?displayProperty=fullName> attribute. See the following example.

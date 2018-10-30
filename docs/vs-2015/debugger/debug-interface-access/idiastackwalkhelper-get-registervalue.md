@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackWalkHelper::get_registerValue | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,16 +22,14 @@ manager: "ghogen"
 # IDiaStackWalkHelper::get_registerValue
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaStackWalkHelper::get_registerValue](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackwalkhelper-get-registervalue).  
-  
 Retrieves the value of a register.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_registerValue (   
-   DWORD      index,  
-   ULONGLONG* pRetVal  
+   DWORD      index,  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

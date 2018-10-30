@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "ghogen"
 # MSBuild Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MSBuild Task](https://docs.microsoft.com/visualstudio/msbuild/msbuild-task).  
-  
   
 Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from another [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project.  
   
@@ -85,10 +83,10 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-    <Target Name="Build">  
-        <MSBuild Projects="a1.sln..." Properties="Configuration=Debug"/>  
-        <MSBuild Projects="a2.sln" Properties="Configuration=Release"/>  
-    </Target>  
+    <Target Name="Build">  
+        <MSBuild Projects="a1.sln..." Properties="Configuration=Debug"/>  
+        <MSBuild Projects="a2.sln" Properties="Configuration=Release"/>  
+    </Target>  
 </Project>  
 ```  
   
@@ -98,17 +96,17 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-    <ItemGroup>  
-        <ProjectToBuild Include="a1.sln…">  
+    <ItemGroup>  
+        <ProjectToBuild Include="a1.sln…">  
             <Properties>Configuration=Debug</Properties>  
-        </ProjectToBuild>  
-        <ProjectToBuild Include="a2.sln">  
-            <Properties>Configuration=Release</Properties>  
-        </ProjectToBuild>  
-    </ItemGroup>  
-    <Target Name="Build">  
-        <MSBuild Projects="@(ProjectToBuild)"/>  
-    </Target>  
+        </ProjectToBuild>  
+        <ProjectToBuild Include="a2.sln">  
+            <Properties>Configuration=Release</Properties>  
+        </ProjectToBuild>  
+    </ItemGroup>  
+    <Target Name="Build">  
+        <MSBuild Projects="@(ProjectToBuild)"/>  
+    </Target>  
 </Project>  
 ```  
   
@@ -117,15 +115,15 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
-        <ProjectToBuild Include="a1.sln…"/>  
+        <ProjectToBuild Include="a1.sln…"/>  
         <ProjectToBuild Include="a2.sln">  
             <Properties>Configuration=Release</Properties>  
-        </ProjectToBuild>  
-    </ItemGroup>  
-    <Target Name="Build">  
-        <MSBuild Projects="@(ProjectToBuild)"   
+        </ProjectToBuild>  
+    </ItemGroup>  
+    <Target Name="Build">  
+        <MSBuild Projects="@(ProjectToBuild)"   
           Properties="Configuration=Debug"/>  
-    </Target>  
+    </Target>  
 </Project>  
 ```  
   
@@ -137,11 +135,11 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="Build">  
-        <MSBuild Projects="a1.sln…" Properties="Configuration=Release;   
+        <MSBuild Projects="a1.sln…" Properties="Configuration=Release;   
           Architecture=x86"/>  
-        <MSBuild Projects="a2.sln" Properties="Configuration=Release;   
+        <MSBuild Projects="a2.sln" Properties="Configuration=Release;   
           Architecture=ia64"/>  
-    </Target>  
+    </Target>  
 </Project>  
 ```  
   
@@ -153,18 +151,18 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <ProjectToBuild Include="a1.sln…">  
-            <AdditionalProperties>Architecture=x86  
+            <AdditionalProperties>Architecture=x86  
               </AdditionalProperties>  
         </ProjectToBuild>  
         <ProjectToBuild Include="a2.sln">  
-            <AdditionalProperties>Architecture=ia64  
+            <AdditionalProperties>Architecture=ia64  
               </AdditionalProperties>  
-        </ProjectToBuild>  
-    </ItemGroup>  
+        </ProjectToBuild>  
+    </ItemGroup>  
     <Target Name="Build">  
-        <MSBuild Projects="@(ProjectToBuild)"   
+        <MSBuild Projects="@(ProjectToBuild)"   
           Properties="Configuration=Release"/>  
-    </Target>  
+    </Target>  
 </Project>  
 ```  
   

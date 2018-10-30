@@ -1,7 +1,7 @@
 ---
 title: "Resource Details View - Contention Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # Resource Details View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Resource Details View - Contention Data](https://docs.microsoft.com/visualstudio/profiling/resource-details-view-contention-data).  
-  
 The Resource Details view presents a timeline graph of the blocking events that were caused by contentions over a selected resource. A blocking event occurs when a thread is forced to suspend execution because another thread has locked access to the resource.  
   
  This view represents the execution timeline of each thread as a horizontal bar and represents each blocking event as a vertical bar on the thread timeline. When necessary, you can magnify a section of the timeline to view individual events. To view the execution path (call stack) of the functions that led to the event, click the event bar. The functions appear in the **Call Stack** window. When the source code for a function is available, you can click the function name to edit the source file in the interface for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
@@ -50,9 +48,9 @@ The Resource Details view presents a timeline graph of the blocking events that 
   
 #### To view or edit the source code of a function in the call stack  
   
--   In the **Call Stack** window, click the function name.  
+- In the **Call Stack** window, click the function name.  
   
- The function source code must be part of the current project.  
+  The function source code must be part of the current project.  
   
 #### To view the call tree of contention events for the resource  
   

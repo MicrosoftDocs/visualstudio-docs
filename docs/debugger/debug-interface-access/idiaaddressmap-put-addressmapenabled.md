@@ -22,7 +22,7 @@ Specifies whether the address map should be used to translate symbol addresses.
   
 ```C++  
 HRESULT put_addressMapEnabled (   
-   BOOL NewVal  
+   BOOL NewVal  
 );  
 ```  
   

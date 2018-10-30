@@ -1,7 +1,7 @@
 ---
 title: "IDebugThread2::GetThreadProperties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugThread2::GetThreadProperties
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugThread2::GetThreadProperties](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugthread2-getthreadproperties).  
-  
 Gets the properties that describe this thread.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetThreadProperties (   
-   THREADPROPERTY_FIELDS dwFields,  
-   THREADPROPERTIES*     ptp  
+   THREADPROPERTY_FIELDS dwFields,  
+   THREADPROPERTIES*     ptp  
 );  
 ```  
   
 ```csharp  
 int GetThreadProperties (   
-   enum_THREADPROPERTY_FIELDS dwFields,  
-   THREADPROPERTIES[]         ptp  
+   enum_THREADPROPERTY_FIELDS dwFields,  
+   THREADPROPERTIES[]         ptp  
 );  
 ```  
   
@@ -46,7 +44,7 @@ int GetThreadProperties ( 
  [in] A combination of flags from the [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) enumeration that determines which fields of `ptp` are to be filled in.  
   
  `ptp`  
- [in, out] A [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) structure that that is filled in with the properties of the thread.  
+ [in, out] A [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) structure that is filled in with the properties of the thread.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  

@@ -1,7 +1,7 @@
 ---
 title: "Writing a T4 Text Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,21 +20,19 @@ manager: "douge"
 # Writing a T4 Text Template
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Writing a T4 Text Template](https://docs.microsoft.com/visualstudio/modeling/writing-a-t4-text-template).  
-  
 A text template contains the text that will be generated from it. For example, a template that creates a web page will contain "\<html>…" and all the other standard parts of an HTML page. Inserted into the template are *control blocks*, which are fragments of program code. Control blocks provide varying values and allow parts of the text to be conditional and repeated.  
   
  This structure makes a template easy to develop, because you can start with a prototype of the generated file, and incrementally insert control blocks that vary the result.  
   
  Text templates are composed of the following parts:  
   
--   **Directives** - elements that control how the template is processed.  
+- **Directives** - elements that control how the template is processed.  
   
--   **Text blocks** - content that is copied directly to the output.  
+- **Text blocks** - content that is copied directly to the output.  
   
--   **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.  
+- **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.  
   
- To try the examples in this topic, copy them into a template file as described in [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). After editing the template file, save it, and then inspect the output **.txt** file.  
+  To try the examples in this topic, copy them into a template file as described in [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). After editing the template file, save it, and then inspect the output **.txt** file.  
   
 ## Directives  
  Text template directives provide general instructions to the text templating engine about how to generate the transformation code and the output file.  

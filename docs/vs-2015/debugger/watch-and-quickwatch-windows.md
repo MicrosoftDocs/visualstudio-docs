@@ -1,7 +1,7 @@
 ---
 title: "Watch and QuickWatch Windows | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,8 +33,6 @@ manager: "ghogen"
 # Watch and QuickWatch Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set a Watch on Variables in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/watch-and-quickwatch-windows).  
-  
 You can use the **Watch** (**Debug / Windows / Watch / Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug / QuickWatch**) windows to watch variables and expressions during a debugging session.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.  
   
 ## Observing a single variable with QuickWatch  
@@ -88,19 +86,19 @@ static void Main(string[] args)
   
  Add the values of the three variables to the Watch window as follows:  
   
-1.  Set a breakpoint on the `c = a + b;` line.  
+1. Set a breakpoint on the `c = a + b;` line.  
   
-2.  Start debugging (**F5**). Execution stops at the breakpoint.  
+2. Start debugging (**F5**). Execution stops at the breakpoint.  
   
-3.  Open the Watch window (**Debug / Windows / Watch / Watch 1**, or **CTRL+ALT+W, 1**).  
+3. Open the Watch window (**Debug / Windows / Watch / Watch 1**, or **CTRL+ALT+W, 1**).  
   
-4.  Add the `a` variable to the first row, the `b` variable to the second row, and the `c` variable to the third row.  
+4. Add the `a` variable to the first row, the `b` variable to the second row, and the `c` variable to the third row.  
   
-5.  Continue debugging.  
+5. Continue debugging.  
   
- You should see the variable values changing as you iterate through the `for` loop.  
+   You should see the variable values changing as you iterate through the `for` loop.  
   
- If you are programming in native code, you may sometimes need to qualify the context of a variable name or an expression containing a variable name. The context is the function, source file, and module where a variable is located. If you have to do this, you can use the context operator syntax. For more information, see Expressions in C++.  
+   If you are programming in native code, you may sometimes need to qualify the context of a variable name or an expression containing a variable name. The context is the function, source file, and module where a variable is located. If you have to do this, you can use the context operator syntax. For more information, see Expressions in C++.  
   
 ## Observing expressions with the Watch window  
  Now let’s try using an expression instead. You can add any valid expression recognized by the debugger.  
@@ -134,15 +132,15 @@ static void Main(string[] args)
   
  If you point to the icon, a tooltip provides information about why the expression was not evaluated.  If the circling arrows appear, the expression was not evaluated for one of the following reasons:  
   
--   •   An error occurred as the expression was being evaluated. For example, a time-out might have occurred, or a variable might have been out of scope.  
+- •   An error occurred as the expression was being evaluated. For example, a time-out might have occurred, or a variable might have been out of scope.  
   
--   •   The expression contains a function call which could trigger a side effect in the application (see [Side Effects and Expressions](#bkmk_sideEffects)).  
+- •   The expression contains a function call which could trigger a side effect in the application (see [Side Effects and Expressions](#bkmk_sideEffects)).  
   
--   Automatic evaluation of properties and implicit functions calls by the debugger is turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and then the expression cannot be automatically evaluated.  
+- Automatic evaluation of properties and implicit functions calls by the debugger is turned off (**Tools / Options / Debugging / Enable property evaluation and other implicit function calls**), and then the expression cannot be automatically evaluated.  
   
- To refresh the value, click the refresh icon or press the spacebar. The debugger will try to reevaluate the expression. If the refresh icon appeared because automatic evaluation of properties and implicit side effects was turned off, the expression can be evaluated.  
+  To refresh the value, click the refresh icon or press the spacebar. The debugger will try to reevaluate the expression. If the refresh icon appeared because automatic evaluation of properties and implicit side effects was turned off, the expression can be evaluated.  
   
- If you see an icon that is a circle with two wavy lines that resemble threads, the expression was not evaluated because of a potential cross-thread dependency. In other words, evaluating the code requires other threads in your application to run temporarily. When you are in break mode, all threads in your application are typically stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your program and causes the debugger to ignore events such as breakpoints and exceptions thrown on those threads.  
+  If you see an icon that is a circle with two wavy lines that resemble threads, the expression was not evaluated because of a potential cross-thread dependency. In other words, evaluating the code requires other threads in your application to run temporarily. When you are in break mode, all threads in your application are typically stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your program and causes the debugger to ignore events such as breakpoints and exceptions thrown on those threads.  
   
 ##  <a name="bkmk_sideEffects"></a> Side Effects and Expressions  
  Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating the following expression changes the value of `var1`:  
@@ -234,11 +232,11 @@ public class Program
   
  If you want to display only the **Dynamic View** for an object, you can use the **dynamic** format specifier:  
   
--   C#: **ObjectName, dynamic**  
+- C#: **ObjectName, dynamic**  
   
--   Visual Basic:: **$dynamic, ObjectName**  
+- Visual Basic:: **$dynamic, ObjectName**  
   
- The **Dynamic View** also enhances the debugging experience for COM objects. When the debugger encounters a COM object wrapped in **System.__ComObject**, it adds a **Dynamic View** node for the object.  
+  The **Dynamic View** also enhances the debugging experience for COM objects. When the debugger encounters a COM object wrapped in **System.__ComObject**, it adds a **Dynamic View** node for the object.  
   
 ## See Also  
  [Debugger Windows](../debugger/debugger-windows.md)

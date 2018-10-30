@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: My First WPF Desktop Application2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Walkthrough: My First WPF Desktop Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Walkthrough: My First WPF Desktop Application2](https://docs.microsoft.com/visualstudio/designers/walkthrough-my-first-wpf-desktop-application2).  
-  
 a name="introduction"></a> This walkthrough provides an introduction to Windows Presentation Foundation (WPF) development. You’ll create a basic application that includes the elements that are common to most WPF desktop applications: XAML markup, code-behind, application definitions, controls, layout, data binding, and styles.  
   
 ##  <a name="Create_The_Application_Code_Files"></a> Creating the Application Project  
@@ -954,27 +952,27 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
   
  For more information about the WPF architecture and programming models, see the following topics:  
   
--   [WPF Architecture](https://msdn.microsoft.com/library/ms750441\(v=vs.100\).aspx)  
+- [WPF Architecture](https://msdn.microsoft.com/library/ms750441\(v=vs.100\).aspx)  
   
--   [XAML Overview](https://msdn.microsoft.com/library/ms752059\(v=vs.100\).aspx)  
+- [XAML Overview](https://msdn.microsoft.com/library/ms752059\(v=vs.100\).aspx)  
   
--   [Dependency Properties Overview](https://msdn.microsoft.com/library/ms752914\(v=vs.100\).aspx)  
+- [Dependency Properties Overview](https://msdn.microsoft.com/library/ms752914\(v=vs.100\).aspx)  
   
--   [Layout System](https://msdn.microsoft.com/library/ms745058\(v=vs.100\).aspx)  
+- [Layout System](https://msdn.microsoft.com/library/ms745058\(v=vs.100\).aspx)  
   
--   [Styles and Templates](https://msdn.microsoft.com/library/bb613570\(v=vs.100\).aspx)  
+- [Styles and Templates](https://msdn.microsoft.com/library/bb613570\(v=vs.100\).aspx)  
   
- For more information about creating applications, see the following topics:  
+  For more information about creating applications, see the following topics:  
   
--   [Application Development Overview](https://msdn.microsoft.com/library/bb613549\(v=vs.100\).aspx)  
+- [Application Development Overview](https://msdn.microsoft.com/library/bb613549\(v=vs.100\).aspx)  
   
--   [Controls Overview](https://msdn.microsoft.com/library/bb613551\(v=vs.100\).aspx)  
+- [Controls Overview](https://msdn.microsoft.com/library/bb613551\(v=vs.100\).aspx)  
   
--   [Data Binding Overview](https://msdn.microsoft.com/library/ms752347\(v=vs.100\).aspx)  
+- [Data Binding Overview](https://msdn.microsoft.com/library/ms752347\(v=vs.100\).aspx)  
   
--   [WPF Graphics, Animation, and Media Overview](https://msdn.microsoft.com/library/ms742562\(v=vs.100\).aspx)  
+- [WPF Graphics, Animation, and Media Overview](https://msdn.microsoft.com/library/ms742562\(v=vs.100\).aspx)  
   
--   [Documents in WPF](https://msdn.microsoft.com/library/ms748388\(v=vs.100\).aspx)  
+- [Documents in WPF](https://msdn.microsoft.com/library/ms748388\(v=vs.100\).aspx)  
   
 ## See Also  
  [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md)   

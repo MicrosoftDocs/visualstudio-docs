@@ -1,7 +1,7 @@
 ---
 title: "Creating a Software Development Kit | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,21 +17,19 @@ manager: "ghogen"
 # Creating a Software Development Kit
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating a Software Development Kit](https://docs.microsoft.com/visualstudio/extensibility/creating-a-software-development-kit).  
-  
 A software development kit (SDK) is a collection of APIs that you can reference as a single item in Visual Studio. The **Reference Manager** dialog box lists all the SDKs that are relevant to the project. When you add an SDK to a project, the APIs are available in Visual Studio.  
   
  There are two types of SDKs:  
   
--   Platform SDKs are mandatory components for developing apps for a platform. For example, the [!INCLUDE[win81](../includes/win81-md.md)] SDK is required to develop [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.  
+- Platform SDKs are mandatory components for developing apps for a platform. For example, the [!INCLUDE[win81](../includes/win81-md.md)] SDK is required to develop [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.  
   
--   Extension SDKs are optional components that extend a platform but aren’t mandatory for developing apps for that platform.  
+- Extension SDKs are optional components that extend a platform but aren’t mandatory for developing apps for that platform.  
   
- The following sections describe the general infrastructure of SDKs and how to create a platform SDK and an extension SDK.  
+  The following sections describe the general infrastructure of SDKs and how to create a platform SDK and an extension SDK.  
   
--   [Platform SDKs](#PlatformSDKs)  
+- [Platform SDKs](#PlatformSDKs)  
   
--   [Extension SDKs](#ExtensionSDKs)  
+- [Extension SDKs](#ExtensionSDKs)  
   
 ##  <a name="PlatformSDKs"></a> Platform SDKs  
  Platform SDKs are required to develop apps for a platform. For example, the [!INCLUDE[win81](../includes/win81-md.md)] SDK is required to develop apps for [!INCLUDE[win81](../includes/win81-md.md)].  
@@ -59,7 +57,7 @@ A software development kit (SDK) is a collection of APIs that you can reference 
 |DesignTime folder|Contains files that are needed only at pre-run/debugging time. These could include XML docs, libraries, headers, Toolbox design-time binaries, MSBuild artifacts, and so forth<br /><br /> XML docs would, ideally, be placed in the \DesignTime folder, but XML docs for references will continue to be placed alongside the reference file in Visual Studio. For example, the XML doc for a reference \References\\[config]\\[arch]\sample.dll will be \References\\[config]\\[arch]\sample.xml, and the localized version of that doc will be \References\\[config]\\[arch]\\[locale]\sample.xml.|  
 |Configuration folder|There can be only three folders: debug, retail and CommonConfiguration. SDK authors can place their files under CommonConfiguration if the same set of SDK files should be consumed, regardless of the configuration that the SDK consumer will target.|  
 |Architecture folder|Any supported architecture folder can exist. Visual Studio supports the following architectures: x86, x64, ARM, and neutral. Note: Win32 maps to x86, and AnyCPU maps to neutral.<br /><br /> MSBuild looks only under \CommonConfiguration\neutral for Platform SDKs.|  
-|SDKManifest.xml|This file describes how Visual Studio should consume the SDK. Look at the SDK Manifest for [!INCLUDE[win81](../includes/win81-md.md)]:<br /><br /> `<FileList             DisplayName = “Windows”             PlatformIdentity = “Windows, version=8.1”             TargetFramework = “.NET for Windows Store apps, version=v4.5.1; .NET Framework, version=v4.5.1”             MinVSVersion = “14.0”>              <File Reference = “Windows.winmd”>                <ToolboxItems VSCategory = “Toolbox.Default” />             </File> </FileList>`<br /><br /> **DisplayName:** The value that the Object Browser displays in the Browse list.<br /><br /> **PlatformIdentity:** The existence of this attribute tells Visual Studio and MSBuild that the SDK is a platform SDK and that the references added from it shouldn't be copied locally.<br /><br /> **TargetFramework:** This attribute is used by Visual Studio to ensure that only projects that target the same Frameworks as specified in the value of this attribute can consume the SDK.<br /><br /> **MinVSVersion:** This attribute is used by Visual Studio to consume only the SDKs that apply to it.<br /><br /> **Reference:** This attribute must to be specified for only those references that contain controls. For information about how to specify whether a reference contains controls, see below.|  
+|SDKManifest.xml|This file describes how Visual Studio should consume the SDK. Look at the SDK Manifest for [!INCLUDE[win81](../includes/win81-md.md)]:<br /><br /> `<FileList             DisplayName = "Windows"             PlatformIdentity = "Windows, version=8.1"             TargetFramework = ".NET for Windows Store apps, version=v4.5.1; .NET Framework, version=v4.5.1"             MinVSVersion = "14.0">              <File Reference = "Windows.winmd">                <ToolboxItems VSCategory = "Toolbox.Default" />             </File> </FileList>`<br /><br /> **DisplayName:** The value that the Object Browser displays in the Browse list.<br /><br /> **PlatformIdentity:** The existence of this attribute tells Visual Studio and MSBuild that the SDK is a platform SDK and that the references added from it shouldn't be copied locally.<br /><br /> **TargetFramework:** This attribute is used by Visual Studio to ensure that only projects that target the same Frameworks as specified in the value of this attribute can consume the SDK.<br /><br /> **MinVSVersion:** This attribute is used by Visual Studio to consume only the SDKs that apply to it.<br /><br /> **Reference:** This attribute must to be specified for only those references that contain controls. For information about how to specify whether a reference contains controls, see below.|  
   
 ##  <a name="ExtensionSDKs"></a> Extension SDKs  
  The following sections describe what you need to do to deploy an extension SDK.  
@@ -138,22 +136,22 @@ A software development kit (SDK) is a collection of APIs that you can reference 
   
 ```  
 <FileList>  
-DisplayName = “My SDK”  
-ProductFamilyName = “My SDKs”  
-TargetFramework = “.NETCore, version=v4.5.1; .NETFramework, version=v4.5.1”  
-MinVSVersion = “14.0”  
+DisplayName = "My SDK"  
+ProductFamilyName = "My SDKs"  
+TargetFramework = ".NETCore, version=v4.5.1; .NETFramework, version=v4.5.1"  
+MinVSVersion = "14.0"  
 MaxPlatformVersion = "8.1"  
 AppliesTo = "WindowsAppContainer + WindowsXAML"  
-SupportPrefer32Bit = “True”  
-SupportedArchitectures = “x86;x64;ARM”  
-SupportsMultipleVersions = “Error”  
-CopyRedistToSubDirectory = “.”  
-DependsOn = “SDKB, version=2.0”  
-MoreInfo = “http://msdn.microsoft.com/MySDK”>  
-<File Reference = “MySDK.Sprint.winmd” Implementation = “XNASprintImpl.dll”>  
-<Registration Type = “Flipper” Implementation = “XNASprintFlipperImpl.dll” />  
-<Registration Type = “Flexer” Implementation = “XNASprintFlexerImpl.dll” />  
-<ToolboxItems VSCategory = “Toolbox.Default” />  
+SupportPrefer32Bit = "True"  
+SupportedArchitectures = "x86;x64;ARM"  
+SupportsMultipleVersions = "Error"  
+CopyRedistToSubDirectory = "."  
+DependsOn = "SDKB, version=2.0"  
+MoreInfo = "http://msdn.microsoft.com/MySDK">  
+<File Reference = "MySDK.Sprint.winmd" Implementation = "XNASprintImpl.dll">  
+<Registration Type = "Flipper" Implementation = "XNASprintFlipperImpl.dll" />  
+<Registration Type = "Flexer" Implementation = "XNASprintFlexerImpl.dll" />  
+<ToolboxItems VSCategory = "Toolbox.Default" />  
 </File>  
 </FileList>  
 ```  
@@ -162,21 +160,21 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
   
 1.  DisplayName: the value that appears in the Reference Manager, Solution Explorer, Object Browser, and other locations in the user interface for Visual Studio.  
   
-2.  ProductFamilyName: The overall SDK product name. For example, the [!INCLUDE[winjs_long](../includes/winjs-long-md.md)] SDK is named “Microsoft.WinJS.1.0” and “Microsoft.WinJS.2.0”, which belong to the same family of SDK products family, “Microsoft.WinJS”. This attribute allows Visual Studio and MSBuild to make that connection. If this attribute doesn’t exist, the SDK Name is used as the product family name.  
+2.  ProductFamilyName: The overall SDK product name. For example, the [!INCLUDE[winjs_long](../includes/winjs-long-md.md)] SDK is named "Microsoft.WinJS.1.0" and "Microsoft.WinJS.2.0", which belong to the same family of SDK products family, "Microsoft.WinJS". This attribute allows Visual Studio and MSBuild to make that connection. If this attribute doesn’t exist, the SDK Name is used as the product family name.  
   
 3.  FrameworkIdentity: specifies a dependency on one or more Windows component libraries The value of this attribute is put into the consuming app’s manifest. This attribute is applicable only to Windows component libraries.  
   
-4.  TargetFramework: specifies the SDKs that are available in the Reference Manager and the toolbox. This is a semicolon-delimited list of target framework monikers, for example “.NET Framework, version=v2.0; .NET Framework, version=v4.5.1”. If several versions of the same target framework are specified, the Reference Manager uses the lowest specified version for filtering purposes. For example, if “.NET Framework, version=v2.0; .NET Framework, version=v4.5.1” is specified, Reference Manager will use “.NET Framework, version=v2.0”. If a specific target framework profile is specified, only that profile will be used by the Reference Manager for filtering purposes. For example, when “Silverlight, version=v4.0, profile=WindowsPhone” is specified, Reference Manager filters on only the Windows Phone profile; a project targeting the full Silverlight 4.0 Framework does not see the SDK in the Reference Manager.  
+4.  TargetFramework: specifies the SDKs that are available in the Reference Manager and the toolbox. This is a semicolon-delimited list of target framework monikers, for example ".NET Framework, version=v2.0; .NET Framework, version=v4.5.1". If several versions of the same target framework are specified, the Reference Manager uses the lowest specified version for filtering purposes. For example, if ".NET Framework, version=v2.0; .NET Framework, version=v4.5.1" is specified, Reference Manager will use ".NET Framework, version=v2.0". If a specific target framework profile is specified, only that profile will be used by the Reference Manager for filtering purposes. For example, when "Silverlight, version=v4.0, profile=WindowsPhone" is specified, Reference Manager filters on only the Windows Phone profile; a project targeting the full Silverlight 4.0 Framework does not see the SDK in the Reference Manager.  
   
 5.  MinVSVersion: the minimum Visual Studio version.  
   
 6.  MaxPlatformVerson: The maximum target platform version should be used to specify the platform versions on which your Extension SDK will not work. For example, the Microsoft Visual C++ Runtime Package v11.0 should be referenced only by Windows 8 projects. Thus, the Windows 8 project's MaxPlatformVersion is 8.0. This means that the Reference Manager filters out Microsoft Visual C++ Runtime Package for a Windows 8.1 project, and MSBuild throws an error when a [!INCLUDE[win81](../includes/win81-md.md)] project references it. Note: this element is supported starting in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)].  
   
-7.  AppliesTo: specifies the SDKs that are available in the Reference Manager by specifying applicable Visual Studio project types. Nine values are recognized: WindowsAppContainer, VisualC, VB, CSharp, WindowsXAML, JavaScript, Managed, and Native. The SDK author can use and (“+’), or (“&#124;”), not (“!”) operators to specify exactly the scope of project types that apply to the SDK.  
+7.  AppliesTo: specifies the SDKs that are available in the Reference Manager by specifying applicable Visual Studio project types. Nine values are recognized: WindowsAppContainer, VisualC, VB, CSharp, WindowsXAML, JavaScript, Managed, and Native. The SDK author can use and ("+’), or ("&#124;"), not ("!") operators to specify exactly the scope of project types that apply to the SDK.  
   
      WindowsAppContainer identifies projects for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.  
   
-8.  SupportPrefer32Bit: Supported values are “True” and “False”. The default is "True". If the value is set to “False”, MSBuild returns an error for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] projects (or a warning for desktop projects) if the project that references the SDK has Prefer32Bit enabled. For more information about Prefer32Bit, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md) or [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md).  
+8.  SupportPrefer32Bit: Supported values are "True" and "False". The default is "True". If the value is set to "False", MSBuild returns an error for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] projects (or a warning for desktop projects) if the project that references the SDK has Prefer32Bit enabled. For more information about Prefer32Bit, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md) or [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md).  
   
 9. SupportedArchitectures: a semi-colon delimited list of architectures that the SDK supports. MSBuild displays a warning if the targeted SDK architecture in the consuming project isn't supported. If this attribute isn't specified, MSBuild never displays this type of warning.  
   
@@ -200,26 +198,26 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
 1.  Place controls in the toolbox default category.  
   
     ```  
-    <File Reference = “sample.winmd”>  
-        <ToolboxItems VSCategory = “Toolbox.Default”/>       
+    <File Reference = "sample.winmd">  
+        <ToolboxItems VSCategory = "Toolbox.Default"/>       
     </File>  
     ```  
   
 2.  Place controls under a particular category name.  
   
     ```  
-    <File Reference = “sample.winmd”>  
-        <ToolboxItems VSCategory= “MyCategoryName”/>  
+    <File Reference = "sample.winmd">  
+        <ToolboxItems VSCategory= "MyCategoryName"/>  
     </File>  
     ```  
   
 3.  Place controls under particular category names.  
   
     ```  
-    <File Reference = “sample.winmd”>  
-        <ToolboxItems VSCategory = “Graph”>  
+    <File Reference = "sample.winmd">  
+        <ToolboxItems VSCategory = "Graph">  
         <ToolboxItems/>  
-        <ToolboxItems VSCategory = “Data”>  
+        <ToolboxItems VSCategory = "Data">  
         <ToolboxItems />  
     </File>  
     ```  
@@ -228,8 +226,8 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
   
     ```  
     // Blend accepts a slightly different structure for the category name because it allows a path rather than a single category.  
-    <File Reference = “sample.winmd”>  
-        <ToolboxItems VSCategory = “Graph” BlendCategory = “Controls/sample/Graph”>   
+    <File Reference = "sample.winmd">  
+        <ToolboxItems VSCategory = "Graph" BlendCategory = "Controls/sample/Graph">   
         <ToolboxItems />  
     </File>  
     ```  
@@ -237,10 +235,10 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
 5.  Enumerate specific controls differently in Blend and Visual Studio.  
   
     ```  
-    <File Reference = “sample.winmd”>  
-        <ToolboxItems VSCategory = “Graph”>  
+    <File Reference = "sample.winmd">  
+        <ToolboxItems VSCategory = "Graph">  
         <ToolboxItems/>  
-        <ToolboxItems BlendCategory = “Controls/sample/Graph”>  
+        <ToolboxItems BlendCategory = "Controls/sample/Graph">  
         <ToolboxItems/>  
     </File>  
     ```  
@@ -248,10 +246,10 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
 6.  Enumerate specific controls, and place them under the Visual Studio Common Path or only in the All Controls Group.  
   
     ```  
-    <File Reference = “sample.winmd”>  
-        <ToolboxItems VSCategory = “Toolbox.Common”>  
+    <File Reference = "sample.winmd">  
+        <ToolboxItems VSCategory = "Toolbox.Common">  
         <ToolboxItems />  
-        <ToolboxItems VSCategory = “Toolbox.All”>  
+        <ToolboxItems VSCategory = "Toolbox.All">  
         <ToolboxItems />  
     </File>  
     ```  
@@ -259,8 +257,8 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
 7.  Enumerate specific controls, and show only a specific set in ChooseItems without them being in the toolbox.  
   
     ```  
-    <File Reference = “sample.winmd”>  
-        <ToolboxItems VSCategory = “Toolbox.ChooseItemsOnly”>  
+    <File Reference = "sample.winmd">  
+        <ToolboxItems VSCategory = "Toolbox.ChooseItemsOnly">  
         <ToolboxItems />  
     </File>  
     ```  

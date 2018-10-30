@@ -1,7 +1,7 @@
 ---
 title: "ASSEMBLYLOCRESOLUTION | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,28 +21,26 @@ manager: "ghogen"
 # ASSEMBLYLOCRESOLUTION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ASSEMBLYLOCRESOLUTION](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/assemblylocresolution).  
-  
 Specifies where an assembly is located.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_ASSEMBLYLOCRESOLUTION {  
-   ALR_NAME      = 0x0,  
-   ALR_USERDIR   = 0x1,  
-   ALR_SHAREDDIR = 0x2,  
-   ALR_REMOTEDIR = 0x4,  
+   ALR_NAME      = 0x0,  
+   ALR_USERDIR   = 0x1,  
+   ALR_SHAREDDIR = 0x2,  
+   ALR_REMOTEDIR = 0x4,  
 };  
 typedef DWORD ASSEMBLYLOCRESOLUTION;  
 ```  
   
 ```csharp  
 public enum enum_ASSEMBLYLOCRESOLUTION {  
-   ALR_NAME      = 0x0,  
-   ALR_USERDIR   = 0x1,  
-   ALR_SHAREDDIR = 0x2,  
-   ALR_REMOTEDIR = 0x4,  
+   ALR_NAME      = 0x0,  
+   ALR_USERDIR   = 0x1,  
+   ALR_SHAREDDIR = 0x2,  
+   ALR_REMOTEDIR = 0x4,  
 };  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Visual C++ Intellisense | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Visual C++ Intellisense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual C++ Intellisense](https://docs.microsoft.com/visualstudio/ide/visual-cpp-intellisense).  
-  
 In Visual Studio 2015, IntelliSense is available for single code files as well as for files in projects. In cross-platform projects, some IntelliSense features are available in .cpp and .c files in the shared code project even when you are in an Android or iOS context.  
   
 ## IntelliSense features in C++  
@@ -69,23 +67,23 @@ In Visual Studio 2015, IntelliSense is available for single code files as well a
   
  Notice the following:  
   
--   The #else branch on line 8 is grayed out to indicate inactive region, because __ANDROID\_\_ is defined for Android project.  
+- The #else branch on line 8 is grayed out to indicate inactive region, because `__ANDROID__` is defined for Android project.  
   
--   The greeting variable at line 11 is initialized with identifier HELLO, which has a purple squiggle. This is because no identifier HELLO is defined in the currently inactive iOS project. While in Android project line 11 would compile, it won’t in iOS. Since this is shared code, that is something you should change even though it compiles in the currently active configuration.  
+- The greeting variable at line 11 is initialized with identifier HELLO, which has a purple squiggle. This is because no identifier HELLO is defined in the currently inactive iOS project. While in Android project line 11 would compile, it won’t in iOS. Since this is shared code, that is something you should change even though it compiles in the currently active configuration.  
   
--   Line 12 has red squiggle on identifier BYE; this identifier is not defined in the currently selected active project.  
+- Line 12 has red squiggle on identifier BYE; this identifier is not defined in the currently selected active project.  
   
- Now, change the active project to iOS.StaticLibrary and notice how the squiggles change.  
+  Now, change the active project to iOS.StaticLibrary and notice how the squiggles change.  
   
- ![iOS is selected as the active project.](../ide/media/intellisensecppcrossplatform2.png "IntelliSenseCppCrossPlatform2")  
+  ![iOS is selected as the active project.](../ide/media/intellisensecppcrossplatform2.png "IntelliSenseCppCrossPlatform2")  
   
- Notice the following:  
+  Notice the following:  
   
--   The #ifdef branch on line 6 is grayed out to indicate inactive region, because __ANDROID\_\_ is not defined for iOS project.  
+- The #ifdef branch on line 6 is grayed out to indicate inactive region, because *_ANDROID\\*\_ is not defined for iOS project.  
   
--   The greeting variable at line 11 is initialized with identifier HELLO, which now has red squiggle. This is because no identifier HELLO is defined in the currently active iOS project.  
+- The greeting variable at line 11 is initialized with identifier HELLO, which now has red squiggle. This is because no identifier HELLO is defined in the currently active iOS project.  
   
--   Line 12 has purple squiggle on identifier BYE; this identifier is not defined in currently inactive Android.NativeActivity project.  
+- Line 12 has purple squiggle on identifier BYE; this identifier is not defined in currently inactive Android.NativeActivity project.  
   
 ## Single File IntelliSense  
  When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular features by going to **Text Editor, C/C++, Advanced** to turn on or off IntelliSense features. To configure IntelliSense for single files that aren't part of a project, look for **IntelliSense and Browsing for Non-Project Files** in the **Advanced** section. See [Visual C++ Guided Tour](http://msdn.microsoft.com/en-us/499cb66f-7df1-45d6-8b6b-33d94fd1f17c).  

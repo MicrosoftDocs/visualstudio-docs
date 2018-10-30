@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the user-defined data type has a constru
   
 ```C++  
 HRESULT get_constructor (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "PickBranch Activity Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,21 +28,21 @@ The <xref:System.Activities.Statements.PickBranch> provides an event-based path 
   
  There are two ways to add <xref:System.Activities.Statements.PickBranch> objects to the collection of a <xref:System.Activities.Statements.Pick> object: dragging and dropping the **PickBranch** designer from the **Toolbox** or by using the context menu from within the **Pick** design surface:  
   
-1.  The **PickBranch** designer creates a <xref:System.Activities.Statements.PickBranch> when it is dragged from the **Toolbox** and dropped into one of the branches of a **Pick** activity designer on the [!INCLUDE[wfd2](../includes/wfd2-md.md)] surface. The new <xref:System.Activities.Statements.PickBranch> objects can be placed inside the <xref:System.Activities.Statements.Pick> designer to the left or right of any existing <xref:System.Activities.Statements.PickBranch> elements already contained in the collection. When dragging a **PickBranch** designer onto the **Pick** designer with a mouse, the **Pick** designer uses a vertical blue-gray band to indicate where the <xref:System.Activities.Statements.PickBranch> is added for a given mouse placement.  
+1. The **PickBranch** designer creates a <xref:System.Activities.Statements.PickBranch> when it is dragged from the **Toolbox** and dropped into one of the branches of a **Pick** activity designer on the [!INCLUDE[wfd2](../includes/wfd2-md.md)] surface. The new <xref:System.Activities.Statements.PickBranch> objects can be placed inside the <xref:System.Activities.Statements.Pick> designer to the left or right of any existing <xref:System.Activities.Statements.PickBranch> elements already contained in the collection. When dragging a **PickBranch** designer onto the **Pick** designer with a mouse, the **Pick** designer uses a vertical blue-gray band to indicate where the <xref:System.Activities.Statements.PickBranch> is added for a given mouse placement.  
   
-2.  Right click **Pick** activity designer (but not inside **PickBranch** designer) to obtain a context menu and select **Create Branch** to add a new <xref:System.Activities.Statements.PickBranch>. Notice that the new <xref:System.Activities.Statements.PickBranch> is added to the right of the existing <xref:System.Activities.Statements.PickBranch> objects in the **Pick** designer.  
+2. Right click **Pick** activity designer (but not inside **PickBranch** designer) to obtain a context menu and select **Create Branch** to add a new <xref:System.Activities.Statements.PickBranch>. Notice that the new <xref:System.Activities.Statements.PickBranch> is added to the right of the existing <xref:System.Activities.Statements.PickBranch> objects in the **Pick** designer.  
   
- The **PickBranch** designer can be expanded to reveal the **Trigger** and **Action** boxes or collapsed by clicking the double carets on the right side of their headers. Edit the <xref:System.Activities.Statements.PickBranch.Trigger%2A> and <xref:System.Activities.Statements.PickBranch.Action%2A> of each <xref:System.Activities.Statements.PickBranch> by dropping activities into the **Trigger** and **Action** boxes of their designers.  
+   The **PickBranch** designer can be expanded to reveal the **Trigger** and **Action** boxes or collapsed by clicking the double carets on the right side of their headers. Edit the <xref:System.Activities.Statements.PickBranch.Trigger%2A> and <xref:System.Activities.Statements.PickBranch.Action%2A> of each <xref:System.Activities.Statements.PickBranch> by dropping activities into the **Trigger** and **Action** boxes of their designers.  
   
- The <xref:System.Activities.Statements.PickBranch> objects in the <xref:System.Activities.Statements.Pick.Branches%2A> collection of a <xref:System.Activities.Statements.Pick> object, can be reordered by dragging and dropping them to a new location within the **Pick** designer. The **Pick** designer uses a vertical blue-gray band to indicate where the <xref:System.Activities.Statements.PickBranch> is added for a given mouse placement.  
+   The <xref:System.Activities.Statements.PickBranch> objects in the <xref:System.Activities.Statements.Pick.Branches%2A> collection of a <xref:System.Activities.Statements.Pick> object, can be reordered by dragging and dropping them to a new location within the **Pick** designer. The **Pick** designer uses a vertical blue-gray band to indicate where the <xref:System.Activities.Statements.PickBranch> is added for a given mouse placement.  
   
- There are two ways to delete a <xref:System.Activities.Statements.PickBranch>:  
+   There are two ways to delete a <xref:System.Activities.Statements.PickBranch>:  
   
-1.  Select the **PickBranch** designer and delete it.  
+3. Select the **PickBranch** designer and delete it.  
   
-2.  Select the **PickBranch** designer, right-click to obtain the context menu and select **Delete**.  
+4. Select the **PickBranch** designer, right-click to obtain the context menu and select **Delete**.  
   
- Be sure to select the **PickBranch** designer, as selecting one of the activities inside its **Trigger** or **Action** boxes by mistake deletes one of those activities and not the <xref:System.Activities.Statements.PickBranch> object.  
+   Be sure to select the **PickBranch** designer, as selecting one of the activities inside its **Trigger** or **Action** boxes by mistake deletes one of those activities and not the <xref:System.Activities.Statements.PickBranch> object.  
   
 ### PickBranch Properties in the Workflow Designer  
  The following table shows the most useful <xref:System.Activities.Statements.PickBranch> properties and describes how to use them in the [!INCLUDE[wfd2](../includes/wfd2-md.md)].  

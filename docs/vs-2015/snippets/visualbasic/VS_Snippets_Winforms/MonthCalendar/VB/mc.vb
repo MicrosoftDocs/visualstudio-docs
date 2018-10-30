@@ -8,7 +8,7 @@ Imports System.Data
 Imports System.IO
 Imports Microsoft.VisualBasic
 
-Namespace MonthCalender
+Namespace MonthCalendar
    ' Summary description for Form1.
    Public Class Form1
       Inherits System.Windows.Forms.Form
@@ -414,5 +414,5 @@ Namespace MonthCalender
       End Sub 'setCalendarLook
       '</Snippet7>
    End Class 'Form1
-End Namespace 'MonthCalender
+End Namespace 'MonthCalendar
 '</Snippet1>

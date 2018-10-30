@@ -132,12 +132,12 @@ Your minimal project file should resemble the following code:
 
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <Csc Sources="@(Compile)"/>    
-  </Target>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <Csc Sources="@(Compile)"/>    
+  </Target>  
 </Project>  
 ```  
 
@@ -166,7 +166,7 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
   
 #### To build the application  
   
-1.  At the command prompt, type **msbuild helloworld.csproj /t:Build**.  
+1.  At the command prompt, type **msbuild helloworld.csproj -t:Build**.  
   
      This builds the Build target of the Helloworld project file by invoking the Visual C# compiler to create the Helloworld application.  
   
@@ -177,7 +177,7 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 > [!NOTE]
 >  You can see more details about the build by increasing the verbosity level. To set the verbosity level to "detailed", type this command at the command prompt:  
 >   
->  **msbuild helloworld.csproj /t:Build /verbosity:detailed**  
+>  **msbuild helloworld.csproj -t:Build -verbosity:detailed**  
   
 ## Add build properties  
  You can add build properties to the project file to further control the build. Now add these properties:  
@@ -221,17 +221,17 @@ Your project file should now resemble the following code:
 
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <PropertyGroup>  
-    <AssemblyName>MSBuildSample</AssemblyName>  
-    <OutputPath>Bin\</OutputPath>  
-  </PropertyGroup>  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
+  <PropertyGroup>  
+    <AssemblyName>MSBuildSample</AssemblyName>  
+    <OutputPath>Bin\</OutputPath>  
+  </PropertyGroup>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
 </Project>  
 ```  
 
@@ -253,7 +253,7 @@ Your project file should now resemble the following code:
   
 #### To test the build properties  
   
-1.  At the command prompt, type **msbuild helloworld.csproj /t:Build**.  
+1.  At the command prompt, type **msbuild helloworld.csproj -t:Build**.  
   
      This creates the *\Bin\\* folder and then invokes the Visual C# compiler to create the *MSBuildSample* application and puts it in the *\Bin\\* folder.  
   
@@ -297,21 +297,21 @@ Your project file should now resemble the following code:
 
 ```xml  
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <PropertyGroup>  
-    <AssemblyName>MSBuildSample</AssemblyName>  
-    <OutputPath>Bin\</OutputPath>  
-  </PropertyGroup>  
-  <ItemGroup>  
-    <Compile Include="helloworld.cs" />  
-  </ItemGroup>  
-  <Target Name="Build">  
-    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
-  <Target Name="Clean" >  
-    <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
-  </Target>  
-  <Target Name="Rebuild" DependsOnTargets="Clean;Build" />  
+  <PropertyGroup>  
+    <AssemblyName>MSBuildSample</AssemblyName>  
+    <OutputPath>Bin\</OutputPath>  
+  </PropertyGroup>  
+  <ItemGroup>  
+    <Compile Include="helloworld.cs" />  
+  </ItemGroup>  
+  <Target Name="Build">  
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
+  <Target Name="Clean" >  
+    <Delete Files="$(OutputPath)$(AssemblyName).exe" />  
+  </Target>  
+  <Target Name="Rebuild" DependsOnTargets="Clean;Build" />  
 </Project>  
 ```  
 
@@ -328,9 +328,9 @@ Your project file should now resemble the following code:
   
 #### To test the build targets  
   
-1.  At the command prompt, type **msbuild helloworld.csproj /p:AssemblyName=Greetings**.  
+1.  At the command prompt, type **msbuild helloworld.csproj -p:AssemblyName=Greetings**.  
   
-     Because you did not use the **/t** switch to explicitly set the target, MSBuild runs the default Build target. The **/p** switch overrides the `AssemblyName` property and gives it the new value, `Greetings`. This causes a new application, *Greetings.exe*, to be created in the *\Bin\\* folder.  
+     Because you did not use the **-t** switch to explicitly set the target, MSBuild runs the default Build target. The **-p** switch overrides the `AssemblyName` property and gives it the new value, `Greetings`. This causes a new application, *Greetings.exe*, to be created in the *\Bin\\* folder.  
   
 2.  To verify that the *\Bin\\* folder contains both the *MSBuildSample* application and the new *Greetings* application, type **dir Bin**.  
   
@@ -338,11 +338,11 @@ Your project file should now resemble the following code:
   
      The **Hello, world!** message should be displayed.  
   
-4.  Delete the MSBuildSample application by typing **msbuild helloworld.csproj /t:clean**.  
+4.  Delete the MSBuildSample application by typing **msbuild helloworld.csproj -t:clean**.  
   
      This runs the Clean task to remove the application that has the default `AssemblyName` property value, `MSBuildSample`.  
   
-5.  Delete the Greetings application by typing **msbuild helloworld.csproj /t:clean /p:AssemblyName=Greetings**.  
+5.  Delete the Greetings application by typing **msbuild helloworld.csproj -t:clean -p:AssemblyName=Greetings**.  
   
      This runs the Clean task to remove the application that has the given **AssemblyName** property value, `Greetings`.  
   
@@ -371,16 +371,16 @@ Your project file should now resemble the following code:
   
     ```xml  
     <Target Name="Build" Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe">  
-      <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
-      <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
+      <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />  
+      <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />  
     </Target>  
     ```  
   
-2.  Test the Build target by typing **msbuild /v:d** at the command prompt.  
+2.  Test the Build target by typing **msbuild -v:d** at the command prompt.  
   
      Remember that *helloworld.csproj* is the default project file, and that Build is the default target.  
   
-     The **/v:d** switch specifies a verbose description for the build process.  
+     The **-v:d** switch specifies a verbose description for the build process.  
   
      These lines should be displayed:  
   

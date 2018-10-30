@@ -1,7 +1,7 @@
 ---
 title: "IDebugMemoryBytes2::GetSize | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,21 +22,19 @@ manager: "ghogen"
 # IDebugMemoryBytes2::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugMemoryBytes2::GetSize](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugmemorybytes2-getsize).  
-  
 Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetSize(   
-   UINT64* pqwSize  
+   UINT64* pqwSize  
 );  
 ```  
   
 ```csharp  
 int GetSize(  
-   out ulong pqwSize  
+   out ulong pqwSize  
 );  
 ```  
   

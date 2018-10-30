@@ -1,7 +1,7 @@
 ---
 title: "How to: Delete Records in a Database | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,12 +43,12 @@ To delete records from a database, use the `TableAdapter.Update` method or the `
   
 #### To delete records from a database using the TableAdapter.Update method  
   
--   Delete records from the desired <xref:System.Data.DataTable> by deleting <xref:System.Data.DataRow> objects from the table. For more information, see [How to: Delete Rows in a DataTable](http://msdn.microsoft.com/library/add481e5-08c7-4923-9276-f036ae29d31e). After the rows are deleted from the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>. The following code shows how to delete a record from a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to communicate the change and delete the row from the database. (This example uses the Northwind database's `Region` table.)  
+- Delete records from the desired <xref:System.Data.DataTable> by deleting <xref:System.Data.DataRow> objects from the table. For more information, see [How to: Delete Rows in a DataTable](http://msdn.microsoft.com/library/add481e5-08c7-4923-9276-f036ae29d31e). After the rows are deleted from the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>. The following code shows how to delete a record from a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to communicate the change and delete the row from the database. (This example uses the Northwind database's `Region` table.)  
   
-     [!code-csharp[VbRaddataSaving#20](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form5.cs#20)]
-     [!code-vb[VbRaddataSaving#20](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb#20)]  
+   [!code-csharp[VbRaddataSaving#20](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form5.cs#20)]
+   [!code-vb[VbRaddataSaving#20](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb#20)]  
   
- If your application uses objects to store the data in your application, you can use the TableAdapter's DBDirect methods to delete data directly from the database. Calling the `Delete` method removes records from the database based on the parameter values passed in.  
+  If your application uses objects to store the data in your application, you can use the TableAdapter's DBDirect methods to delete data directly from the database. Calling the `Delete` method removes records from the database based on the parameter values passed in.  
   
 #### To delete records from a database using the TableAdapter.Delete method  
   

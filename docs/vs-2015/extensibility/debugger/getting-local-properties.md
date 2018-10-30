@@ -1,7 +1,7 @@
 ---
 title: "Getting Local Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Getting Local Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Local Properties](https://docs.microsoft.com/visualstudio/extensibility/debugger/getting-local-properties).  
-  
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
@@ -40,60 +38,60 @@ The latest version of this topic can be found at [Getting Local Properties](http
 ```csharp  
 namespace EEMC  
 {  
-    public class CEnumMethodField : IEnumDebugFields  
-    {  
-        public HRESULT Next(  
-                uint                  count,  
-                DEBUG_PROPERTY_INFO[] properties,  
-            out uint                  fetched)  
-        {  
-            if (count > properties.Length)  
-                throw new COMException();  
+    public class CEnumMethodField : IEnumDebugFields  
+    {  
+        public HRESULT Next(  
+                uint                  count,  
+                DEBUG_PROPERTY_INFO[] properties,  
+            out uint                  fetched)  
+        {  
+            if (count > properties.Length)  
+                throw new COMException();  
   
-            // Zero out the array.  
-            for (int i= 0; i < count; i++)  
-            {  
-                properties[i].bstrFullName = "";  
-                properties[i].bstrName = "";  
-                properties[i].bstrType = "";  
-                properties[i].bstrValue = "";  
-                properties[i].dwAttrib = 0;  
-                properties[i].dwFields = 0;  
-                properties[i].pProperty = null;  
-            }  
-            fetched = 0;  
+            // Zero out the array.  
+            for (int i= 0; i < count; i++)  
+            {  
+                properties[i].bstrFullName = "";  
+                properties[i].bstrName = "";  
+                properties[i].bstrType = "";  
+                properties[i].bstrValue = "";  
+                properties[i].dwAttrib = 0;  
+                properties[i].dwFields = 0;  
+                properties[i].pProperty = null;  
+            }  
+            fetched = 0;  
   
-            // COM interop.  
-            HRESULT hr;  
-            uint innerFetched;  
-            IDebugField[] field = new IDebugField[1];  
+            // COM interop.  
+            HRESULT hr;  
+            uint innerFetched;  
+            IDebugField[] field = new IDebugField[1];  
   
-            while (fetched < count)  
-            {  
-                field[0] = null;  
-                innerFetched = 0;  
+            while (fetched < count)  
+            {  
+                field[0] = null;  
+                innerFetched = 0;  
   
-                // Get next field.  
-                if (fetched < fieldCount)  
-                    hr = fields.Next(1, field, ref innerFetched);  
-                // No more fields.  
-                else return COM.S_FALSE;  
+                // Get next field.  
+                if (fetched < fieldCount)  
+                    hr = fields.Next(1, field, ref innerFetched);  
+                // No more fields.  
+                else return COM.S_FALSE;  
   
-                if (hr != COM.S_OK || innerFetched != 1 || field[0] == null)  
-                    throw new COMException("CEnumPropertyInfo.Next");  
+                if (hr != COM.S_OK || innerFetched != 1 || field[0] == null)  
+                    throw new COMException("CEnumPropertyInfo.Next");  
   
-                // Get property from field.  
-                CFieldProperty fieldProperty =   
-                    new CFieldProperty(provider, address, binder, field[0]);  
+                // Get property from field.  
+                CFieldProperty fieldProperty =   
+                    new CFieldProperty(provider, address, binder, field[0]);  
   
-                DEBUG_PROPERTY_INFO[] property =  
-                                new DEBUG_PROPERTY_INFO[1];  
-                fieldProperty.GetPropertyInfo((uint) infoFlags, radix, 0, null, 0, property);  
-                properties[fetched++] = property[0];  
-            }  
-            return COM.S_OK;  
-        }  
-    }  
+                DEBUG_PROPERTY_INFO[] property =  
+                                new DEBUG_PROPERTY_INFO[1];  
+                fieldProperty.GetPropertyInfo((uint) infoFlags, radix, 0, null, 0, property);  
+                properties[fetched++] = property[0];  
+            }  
+            return COM.S_OK;  
+        }  
+    }  
 }  
 ```  
   
@@ -102,60 +100,60 @@ namespace EEMC
   
 ```cpp#  
 STDMETHODIMP CEnumPropertyInfo::Next(  
-    in  ULONG                count,  
-    out DEBUG_PROPERTY_INFO* pelements,   
-    out ULONG*               pfetched )  
+    in  ULONG                count,  
+    out DEBUG_PROPERTY_INFO* pelements,   
+    out ULONG*               pfetched )  
 {  
-    if (pfetched)  
-        *pfetched = 0;  
-    if (!pelements)  
-        return E_INVALIDARG;  
-    else  
-        memset( pelements, 0, count * sizeof(DEBUG_PROPERTY_INFO));  
+    if (pfetched)  
+        *pfetched = 0;  
+    if (!pelements)  
+        return E_INVALIDARG;  
+    else  
+        memset( pelements, 0, count * sizeof(DEBUG_PROPERTY_INFO));  
   
-    HRESULT hr  = S_OK;  
-    ULONG   idx = 0;  
-    while (idx < count)  
-    {  
-        ULONG        fetchedFields;  
-        IDebugField* pfield;  
+    HRESULT hr  = S_OK;  
+    ULONG   idx = 0;  
+    while (idx < count)  
+    {  
+        ULONG        fetchedFields;  
+        IDebugField* pfield;  
   
-        //get the next field  
-        hr = m_fields->Next( 1, &pfield, &fetchedFields );  
-        if (FAILED(hr))  
-            return hr;  
-        if (fetchedFields != 1)  
-            return E_FAIL;  
-        idx++;  
+        //get the next field  
+        hr = m_fields->Next( 1, &pfield, &fetchedFields );  
+        if (FAILED(hr))  
+            return hr;  
+        if (fetchedFields != 1)  
+            return E_FAIL;  
+        idx++;  
   
-        //create a CFieldProperty to retrieve the DEBUG_PROPERTY_INFO  
-        CFieldProperty* pproperty =  
-            new CFieldProperty( m_provider, m_address, m_binder, pfield );  
-        pfield->Release();  
-        if (!pproperty)  
-            return E_OUTOFMEMORY;  
+        //create a CFieldProperty to retrieve the DEBUG_PROPERTY_INFO  
+        CFieldProperty* pproperty =  
+            new CFieldProperty( m_provider, m_address, m_binder, pfield );  
+        pfield->Release();  
+        if (!pproperty)  
+            return E_OUTOFMEMORY;  
   
-        hr = pproperty->Init();  
-        if (FAILED(hr))  
-        {  
-            pproperty->Release();  
-            return hr;  
-        }  
+        hr = pproperty->Init();  
+        if (FAILED(hr))  
+        {  
+            pproperty->Release();  
+            return hr;  
+        }  
   
-        hr = pproperty->GetPropertyInfo( m_infoFlags,  
-                                         m_radix,  
-                                         0,  
-                                         NULL,  
-                                         0,  
-                                         pelements + idx - 1);  
-        pproperty->Release();  
-        if (FAILED(hr))  
-            return hr;  
-    }  
+        hr = pproperty->GetPropertyInfo( m_infoFlags,  
+                                         m_radix,  
+                                         0,  
+                                         NULL,  
+                                         0,  
+                                         pelements + idx - 1);  
+        pproperty->Release();  
+        if (FAILED(hr))  
+            return hr;  
+    }  
   
-    if (pfetched)  
-        *pfetched = idx;  
-    return hr;  
+    if (pfetched)  
+        *pfetched = idx;  
+    return hr;  
 }  
 ```  
   

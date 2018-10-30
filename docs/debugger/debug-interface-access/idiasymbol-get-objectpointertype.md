@@ -22,7 +22,7 @@ Retrieves the type of the object pointer for a class method.
   
 ```C++  
 HRESULT get_objectPointerType (   
-   IDiaSymbol** pRetVal  
+   IDiaSymbol** pRetVal  
 );  
 ```  
   

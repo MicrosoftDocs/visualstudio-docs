@@ -1,7 +1,7 @@
 ---
 title: "Annotating Function Behavior | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # Annotating Function Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Annotating Function Behavior](https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior).  
-  
 In addition to annotating [function parameters and return values](../code-quality/annotating-function-parameters-and-return-values.md), you can annotate properties of the whole function.  
   
 ## Function Annotations  

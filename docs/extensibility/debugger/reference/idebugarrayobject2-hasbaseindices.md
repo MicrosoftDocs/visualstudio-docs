@@ -22,13 +22,13 @@ Determines if the array has base indices (lower bounds) defined.
   
 ```cpp  
 HRESULT HasBaseIndices (  
-   BOOL* pfHasBaseIndices  
+   BOOL* pfHasBaseIndices  
 );  
 ```  
   
 ```csharp  
 int HasBaseIndices (  
-   out bool pfHasBaseIndices  
+   out bool pfHasBaseIndices  
 );  
 ```  
   

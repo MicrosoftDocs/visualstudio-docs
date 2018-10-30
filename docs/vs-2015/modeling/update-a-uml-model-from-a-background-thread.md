@@ -1,7 +1,7 @@
 ---
 title: "Update a UML model from a background thread | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "douge"
 # Update a UML model from a background thread
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Update a UML model from a background thread](https://docs.microsoft.com/visualstudio/modeling/update-a-uml-model-from-a-background-thread).  
-  
 It can sometimes be useful to make changes to a model in a background thread. For example, if you are loading information from a slow external resource, you could use a background thread to supervise the updates. This allows the user to see each update as soon as it happens.  
   
  However, you must be aware that the UML store is not thread safe. The following precautions are important:  
@@ -31,35 +29,35 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
 #### To run the example  
   
-1.  Create a command handler in a C# project as described in [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
+1. Create a command handler in a C# project as described in [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
-2.  Make sure that the project includes references to these assemblies:  
+2. Make sure that the project includes references to these assemblies:  
   
-    -   Microsoft.VisualStudio.ArchitectureTools.Extensibility  
+   -   Microsoft.VisualStudio.ArchitectureTools.Extensibility  
   
-    -   Microsoft.VisualStudio.Modeling.Sdk.[version]  
+   -   Microsoft.VisualStudio.Modeling.Sdk.[version]  
   
-    -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
+   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]  
   
-    -   Microsoft.VisualStudio.Uml.Interfaces  
+   -   Microsoft.VisualStudio.Uml.Interfaces  
   
-    -   System.ComponentModel.Composition  
+   -   System.ComponentModel.Composition  
   
-    -   System.Windows.Forms  
+   -   System.Windows.Forms  
   
-3.  Add to the project a Windows form named **ProgressForm**. It should display a message that states that the updates are in progress. It does not have to have any other controls.  
+3. Add to the project a Windows form named **ProgressForm**. It should display a message that states that the updates are in progress. It does not have to have any other controls.  
   
-4.  Add a C# file that contains the code that is shown after step 7.  
+4. Add a C# file that contains the code that is shown after step 7.  
   
-5.  Build and run the project.  
+5. Build and run the project.  
   
-     A new instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will start in experimental mode.  
+    A new instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will start in experimental mode.  
   
-6.  Create or open a UML class diagram in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+6. Create or open a UML class diagram in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-7.  Right-click anywhere in the UML class diagram and then click **Add Several UML Classes**.  
+7. Right-click anywhere in the UML class diagram and then click **Add Several UML Classes**.  
   
- Several new class boxes will appear in the diagram, one after another at intervals of a half second.  
+   Several new class boxes will appear in the diagram, one after another at intervals of a half second.  
   
 ```csharp  
 using System;  

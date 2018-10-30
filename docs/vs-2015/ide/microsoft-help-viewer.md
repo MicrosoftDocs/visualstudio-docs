@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Help Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "ghogen"
 # Microsoft Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Microsoft Help Viewer](https://docs.microsoft.com/visualstudio/ide/microsoft-help-viewer).  
-  
 You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer.  
   
 > [!WARNING]
@@ -59,21 +57,21 @@ You can install and view content for various products and technologies on your l
   
  The toolbar in the Help Viewer window contains the following buttons:  
   
--   The **Show Topic in Contents** button shows the location of the topic in the **Contents** tab.  
+- The **Show Topic in Contents** button shows the location of the topic in the **Contents** tab.  
   
--   The **Add to Favorites** button adds the active topic to the **Favorites** tab.  
+- The **Add to Favorites** button adds the active topic to the **Favorites** tab.  
   
--   The **Find in Topic** button highlights search text in the active topic.  
+- The **Find in Topic** button highlights search text in the active topic.  
   
--   The **Print** button prints or shows a preview of the active topic.  
+- The **Print** button prints or shows a preview of the active topic.  
   
--   The **Viewer Options** button displays settings such as how large the text appears, how many search results to return, how many topics to show in history, and whether to check for updates online.  
+- The **Viewer Options** button displays settings such as how large the text appears, how many search results to return, how many topics to show in history, and whether to check for updates online.  
   
--   The **Manage Content** button makes the **Manage Content** tab active.  
+- The **Manage Content** button makes the **Manage Content** tab active.  
   
--   The small triangle opens a list of tabs, including topic tabs and the **Manage Content** tab. You can make any of those tabs active by choosing it.  
+- The small triangle opens a list of tabs, including topic tabs and the **Manage Content** tab. You can make any of those tabs active by choosing it.  
   
- The lower area of the Help Viewer window contains information about the total size of pending downloads, the amount of disk space that they require, and the amount of disk space that's available. This area also contains information about errors that may have occurred and a link that you can choose to refresh installed content, if updates are available.  
+  The lower area of the Help Viewer window contains information about the total size of pending downloads, the amount of disk space that they require, and the amount of disk space that's available. This area also contains information about errors that may have occurred and a link that you can choose to refresh installed content, if updates are available.  
   
 ## See Also  
  [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)   

@@ -1,7 +1,7 @@
 ---
 title: "Define and install a modeling extension | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Define and install a modeling extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Define and install a modeling extension](https://docs.microsoft.com/visualstudio/modeling/define-and-install-a-modeling-extension).  
-  
 In Visual Studio, you can define extensions to modeling diagrams. In this manner, you can adapt the diagrams and models to your own needs. For example, you can define menu commands, UML profiles, validation constraints and toolbox items. You can define several components in a single extension. You can also distribute these extensions to other Visual Studio users in the form of a [Visual Studio Integration Extension (VSIX)](http://go.microsoft.com/fwlink/?LinkId=160780). You can create a VSIX using a VSIX project in Visual Studio.  
   
 ## Requirements  
@@ -31,13 +29,13 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
 ## Creating a Modeling Extension Solution  
  To define a modeling extension, you must create a solution containing these projects:  
   
--   A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Integration Extension (VSIX) project. This generates a file that acts as an installer for the components of your extension.  
+- A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Integration Extension (VSIX) project. This generates a file that acts as an installer for the components of your extension.  
   
--   A class library project, required for components that include program code.  
+- A class library project, required for components that include program code.  
   
- If you want to make an extension that has several components, you can develop them in a single solution. You need only one VSIX project.  
+  If you want to make an extension that has several components, you can develop them in a single solution. You need only one VSIX project.  
   
- Components that do not require code, such as custom toolbox items and custom UML profiles, can be added directly to the VSIX project without using separate class library projects. Components that require program code are more easily defined in a separate class library project. Components that require code include gesture handlers, menu commands, and validation code.  
+  Components that do not require code, such as custom toolbox items and custom UML profiles, can be added directly to the VSIX project without using separate class library projects. Components that require program code are more easily defined in a separate class library project. Components that require code include gesture handlers, menu commands, and validation code.  
   
 #### To create a class library project for menu commands, gesture handlers, or validation  
   
@@ -129,15 +127,15 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 #### To uninstall an extension  
   
-1.  On the **Tools** menu, click **Extensions and Updates**.  
+1. On the **Tools** menu, click **Extensions and Updates**.  
   
-2.  Expand **Installed Extensions**.  
+2. Expand **Installed Extensions**.  
   
-3.  Select the extension, and then click **Uninstall**.  
+3. Select the extension, and then click **Uninstall**.  
   
- Rarely, a faulty extension fails to load and creates a report in the error window, but does not appear in Extension Manager. In that case, you can remove the extension by deleting the file from the following location where *%LocalAppData%* is typically *DriveName*:\Users\\*UserName*\AppData\Local:  
+   Rarely, a faulty extension fails to load and creates a report in the error window, but does not appear in Extension Manager. In that case, you can remove the extension by deleting the file from the following location where *%LocalAppData%* is typically *DriveName*:\Users\\*UserName*\AppData\Local:  
   
- *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
+   *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
   
 ## See Also  
  [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md)   

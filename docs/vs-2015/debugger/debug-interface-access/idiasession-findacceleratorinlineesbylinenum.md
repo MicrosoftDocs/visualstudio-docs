@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findAcceleratorInlineesByLinenum | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,19 +20,17 @@ manager: "ghogen"
 # IDiaSession::findAcceleratorInlineesByLinenum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findAcceleratorInlineesByLinenum](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findacceleratorinlineesbylinenum).  
-  
 Returns an enumeration of symbols for inline frames that correspond to the specified source location.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT findAcceleratorInlineeLinesByName (   
-   IDiaSymbol*           parent,  
+   IDiaSymbol*           parent,  
    IDiaSourceFile*       file,  
    DWORD                 linenum,  
    DWORD                 colnum,  
-   IDiaEnumLineNumbers** ppResult  
+   IDiaEnumLineNumbers** ppResult  
 );  
 ```  
   

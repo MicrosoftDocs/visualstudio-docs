@@ -1,7 +1,7 @@
 ---
 title: "CA1011: Consider passing base types as parameters | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # CA1011: Consider passing base types as parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1011: Consider passing base types as parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1011-consider-passing-base-types-as-parameters).
-
 |||
 |-|-|
 |TypeName|ConsiderPassingBaseTypesAsParameters|
@@ -45,13 +43,13 @@ The latest version of this topic can be found at [CA1011: Consider passing base 
 ## When to Suppress Warnings
  It is safe to suppress a warning from this rule
 
--   if the method requires the specific functionality that is provided by the derived type
+- if the method requires the specific functionality that is provided by the derived type
 
-     \- or -
+   \- or -
 
--   to enforce that only the derived type, or a more derived type, is passed to the method.
+- to enforce that only the derived type, or a more derived type, is passed to the method.
 
- In these cases, the code will be more robust because of the strong type checking that is provided by the compiler and runtime.
+  In these cases, the code will be more robust because of the strong type checking that is provided by the compiler and runtime.
 
 ## Example
  The following example shows a method, `ManipulateFileStream`, that can be used only with a <xref:System.IO.FileStream> object, which violates this rule. A second method, `ManipulateAnyStream`, satisfies the rule by replacing the <xref:System.IO.FileStream> parameter by using a <xref:System.IO.Stream>.

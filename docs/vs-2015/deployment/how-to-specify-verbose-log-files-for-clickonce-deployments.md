@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Verbose Log Files for ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "wpickett"
 # How to: Specify Verbose Log Files for ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Verbose Log Files for ClickOnce Deployments](https://docs.microsoft.com/visualstudio/deployment/how-to-specify-verbose-log-files-for-clickonce-deployments).  
-  
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment. To increase the detail that [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] writes to these log files, use Registry Editor (**regedit.exe**) to specify the verbosity level.  
   
 > [!CAUTION]

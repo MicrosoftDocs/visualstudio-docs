@@ -34,7 +34,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
  When a `ToolsVersion` value is defined in a project file, MSBuild uses that value to determine the values of the Toolset properties that are available to the project. One Toolset property is `$(MSBuildToolsPath)`, which specifies the path of the .NET Framework tools. Only that Toolset property (or `$(MSBuildBinPath)`), is required.  
   
- Starting in Visual Studio 2013, the MSBuild Toolset version is the same as the Visual Studio version number. MSBuild defaults to this Toolset within Visual Studio and on the command line, regardless of the Toolset version specified in the project file.  This behavior can be overridden by using the /ToolsVersion flag. For more information, see [Override ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).  
+ Starting in Visual Studio 2013, the MSBuild Toolset version is the same as the Visual Studio version number. MSBuild defaults to this Toolset within Visual Studio and on the command line, regardless of the Toolset version specified in the project file.  This behavior can be overridden by using the -ToolsVersion flag. For more information, see [Override ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).  
   
  In the following example, MSBuild finds the *Microsoft.CSharp.targets* file by using the `MSBuildToolsPath` reserved property.  
   
@@ -55,9 +55,9 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 ## Toolset implementation  
  Implement a Toolset by selecting the paths of the various tools, targets, and tasks that make up the Toolset. The tools in the Toolset that MSBuild defines come from the following sources:  
   
--   The .NET Framework folder.  
+- The .NET Framework folder.  
   
--   Additional managed tools.  
+- Additional managed tools.  
   
   The managed tools include *ResGen.exe* and *TlbImp.exe*.  
 

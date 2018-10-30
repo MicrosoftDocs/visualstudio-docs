@@ -1,7 +1,7 @@
 ---
 title: "Window Menu Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Window Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Window Menu Commands](https://docs.microsoft.com/visualstudio/debugger/window-menu-commands).  
-  
 The **Window** menu provides commands to manage Spy++ windows.  
   
  **Cascade**  

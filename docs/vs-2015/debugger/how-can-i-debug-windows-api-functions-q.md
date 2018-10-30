@@ -1,7 +1,7 @@
 ---
 title: "How Can I Debug Windows API Functions? | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,8 +32,6 @@ manager: "ghogen"
 # How Can I Debug Windows API Functions?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How Can I Debug Windows API Functions?](https://docs.microsoft.com/visualstudio/debugger/how-can-i-debug-windows-api-functions-q).  
-  
 If you want to debug a Windows API function that has NT symbols loaded, you must do the following.  
   
 ### To set a breakpoint on a Windows API function with NT symbols loaded  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Display Message Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,17 +20,15 @@ manager: "ghogen"
 # How to: Display Message Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display Message Properties](https://docs.microsoft.com/visualstudio/debugger/how-to-display-message-properties).  
-  
 To find out more about a message listed in [Messages View](../debugger/messages-view.md), use the [Message Properties Dialog Box](../debugger/message-properties-dialog-box.md).  
   
 ### To open a Message Properties dialog box  
   
-1.  Select a message from the tree displayed in Messages view.  
+1. Select a message from the tree displayed in Messages view.  
   
-2.  From the **View** menu, choose **Properties**.  
+2. From the **View** menu, choose **Properties**.  
   
- Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
+   Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug a Partial Trust Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # How to: Debug a Partial Trust Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Debug a Partial Trust Application](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-a-partial-trust-application).  
-  
 Applies to Windows and console applications.  
   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md) makes it easy to deploy partial trust applications that take advantage of [Code Access Security](http://msdn.microsoft.com/library/859af632-c80d-4736-8d6f-1e01b09ce127) to limit access to resources on a machine.  

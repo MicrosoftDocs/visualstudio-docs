@@ -1,7 +1,7 @@
 ---
 title: "Combo Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Combo Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Combo Element](https://docs.microsoft.com/visualstudio/extensibility/combo-element).  
-  
 Defines commands that appear in a combo box. There are four kinds of combo boxes, as follows: DropDownCombo, DynamicCombo, IndexCombo, and MRUCombo.  
   
 ## Syntax  
@@ -68,21 +66,21 @@ Defines commands that appear in a combo box. There are four kinds of combo boxes
   
 ```  
 <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
-  defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">  
-  <CommandFlag>DynamicVisibility</CommandFlag>  
-  <Strings>  
-    <ButtonText>Select Insert Options</ButtonText>  
-  </Strings>  
+  defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">  
+  <CommandFlag>DynamicVisibility</CommandFlag>  
+  <Strings>  
+    <ButtonText>Select Insert Options</ButtonText>  
+  </Strings>  
 </Combo>  
   
 <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
-  priority="0x0500" type="DropDownCombo" defaultWidth="100"  
-  idCommandList="cmdidGetInsertOptionsList">  
-  <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-  <CommandFlag>DynamicVisibility</CommandFlag>  
-  <Strings>  
-    <ButtonText>Select Insert Options</ButtonText>  
-  </Strings>  
+  priority="0x0500" type="DropDownCombo" defaultWidth="100"  
+  idCommandList="cmdidGetInsertOptionsList">  
+  <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
+  <CommandFlag>DynamicVisibility</CommandFlag>  
+  <Strings>  
+    <ButtonText>Select Insert Options</ButtonText>  
+  </Strings>  
 </Combo>  
 ```  
   

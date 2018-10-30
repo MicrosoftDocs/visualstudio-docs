@@ -1,7 +1,7 @@
 ---
 title: "METADATA_ADDRESS_ARRAYELEM | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # METADATA_ADDRESS_ARRAYELEM
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [METADATA_ADDRESS_ARRAYELEM](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/metadata-address-arrayelem).  
-  
 This structure represents an array element within an array.  
   
 ## Syntax  
   
 ```cpp  
 typedef struct _tagMETADATA_ADDRESS_ARRAYELEM {  
-   _mdToken tokMethod;  
-   DWORD    dwIndex;  
+   _mdToken tokMethod;  
+   DWORD    dwIndex;  
 } METADATA_ADDRESS_ARRAYELEM;  
 ```  
   
 ```csharp  
 public struct METADATA_ADDRESS_ARRAYELEM {  
-   public int  tokMethod;  
-   public uint dwIndex;  
+   public int  tokMethod;  
+   public uint dwIndex;  
 }  
 ```  
   

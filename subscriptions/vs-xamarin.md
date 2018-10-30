@@ -26,7 +26,7 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
     > [!div class="mx-imgBorder"]
     > ![Xamarin University Training Benefit Tile](_img/vs-xamarin/vs-xamarin-tile.png)
 
-3.	You will be redirected to a Xamarin University web page entitled "Xamarin University Mobile Training for Microsoft Visual Studio".  Click **Activate My Subscription Now**.
+3.  You will be redirected to a Xamarin University web page entitled "Xamarin University Mobile Training for Microsoft Visual Studio".  Click **Activate My Subscription Now**.
     > [!div class="mx-imgBorder"]
     > ![Activate My Subscription Now](_img/vs-xamarin/vs-xamarin-activate.png)
 
@@ -41,7 +41,7 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
     > 4. Open a new browser and connect to [https://my.visualstudio.com](https://my.visualstudio.com).
     > 5. Activate the Xamarin University Training benefit again.
 
-4.	You'll see a sign-in page, with a notice that Xamarin recently moved to Microsoft authentication.  Click **Connect with Microsoft**.
+4.  You'll see a sign-in page, with a notice that Xamarin recently moved to Microsoft authentication.  Click **Connect with Microsoft**.
     > [!div class="mx-imgBorder"]
     > ![Connect with Microsoft](_img/vs-xamarin/vs-xamarin-connect.png)
 
@@ -62,6 +62,7 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
     > ![Xamarin University portal](_img/vs-xamarin/vs-xamarin-portal.png)
 
 ## Eligibility
+
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes |
@@ -71,7 +72,7 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
 | Visual Studio Dev Essentials | NA  | Free plan                                             |  Yes        |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Partner (MVP), Region Director (RD).   Excludes: MCT Software & Services.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Professional (MVP), Region Director (RD).   Excludes: MCT Software & Services.*
 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.

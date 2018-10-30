@@ -1,7 +1,7 @@
 ---
 title: "Add custom properties to layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Add custom properties to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Add custom properties to dependency diagrams](https://docs.microsoft.com/visualstudio/modeling/add-custom-properties-to-layer-diagrams).  
-  
 When you write extension code for layer diagrams, you can store values with any element on a layer diagram. The values will persist when the diagram is saved and re-opened. You can also have these properties appear in the **Properties** window so that users can see and edit them. For example, you could let users specify a regular expression for each layer, and write validation code to verify that the names of classes in each layer conform to the pattern specified by the user.  
   
 ## Properties not visible to the user  
@@ -30,21 +28,21 @@ When you write extension code for layer diagrams, you can store values with any 
   
 > [!IMPORTANT]
 >  To make properties appear, you must make the following change on each computer where you want layer properties to be visible.  
->   
->  1.  Run Notepad by using **Run as Administrator**. Open `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`  
-> 2.  Inside the `Content` element, add:  
->   
->     ```xml  
->     <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
->     ```  
-> 3.  Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**.  
->   
->      Enter:  
->   
->      `devenv /rootSuffix /updateConfiguration`  
->   
->      `devenv /rootSuffix Exp /updateConfiguration`  
-> 4.  Restart Visual Studio.  
+> 
+> 1. Run Notepad by using **Run as Administrator**. Open `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`  
+>    2.  Inside the `Content` element, add:  
+> 
+>    ```xml  
+>    <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
+>    ```  
+>    3.  Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**.  
+> 
+>    Enter:  
+> 
+>    `devenv /rootSuffix /updateConfiguration`  
+> 
+>    `devenv /rootSuffix Exp /updateConfiguration`  
+>    4.  Restart Visual Studio.  
   
  **Make sure your code is in a VSIX project**  
   

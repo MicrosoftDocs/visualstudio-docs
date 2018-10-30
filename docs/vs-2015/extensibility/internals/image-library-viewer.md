@@ -1,7 +1,7 @@
 ---
 title: "Image Library Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,29 +14,27 @@ manager: "ghogen"
 # Image Library Viewer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Image Library Viewer](https://docs.microsoft.com/visualstudio/extensibility/internals/image-library-viewer).  
-  
 The Visual Studio Image Library Viewer tool can load and search image manifests, allowing the user to manipulate them in the same way Visual Studio would. The user can alter background, sizes, DPI, high contrast, and other settings. The tool also displays loading information for each image manifest and displays source information for each image in the image manifest. This tool is useful for:  
   
-1.  Diagnosing errors  
+1. Diagnosing errors  
   
-2.  Ensuring attributes are set correctly in custom image manifests  
+2. Ensuring attributes are set correctly in custom image manifests  
   
-3.  Searching for images in the Visual Studio Image Catalog so that a Visual Studio extension can use images that fit the style of Visual Studio  
+3. Searching for images in the Visual Studio Image Catalog so that a Visual Studio extension can use images that fit the style of Visual Studio  
   
- ![Image Library Viewer Hero](../../extensibility/internals/media/image-library-viewer-hero.png "Image Library Viewer Hero")  
+   ![Image Library Viewer Hero](../../extensibility/internals/media/image-library-viewer-hero.png "Image Library Viewer Hero")  
   
- **Image moniker**  
+   **Image moniker**  
   
- An image moniker (or moniker for short) is a GUID:ID pair that uniquely identifies an image asset or image list asset in the Image Library.  
+   An image moniker (or moniker for short) is a GUID:ID pair that uniquely identifies an image asset or image list asset in the Image Library.  
   
- **Image manifest files**  
+   **Image manifest files**  
   
- Image manifest (.imagemanifest) files are XML files that define a set of image assets, the monikers that represent those assets, and the real image or images that represent each asset. Image manifests can define standalone images or image lists for legacy UI support. Additionally, there are attributes that can be set either on the asset or on the individual images behind each asset to change when and how those assets are displayed.  
+   Image manifest (.imagemanifest) files are XML files that define a set of image assets, the monikers that represent those assets, and the real image or images that represent each asset. Image manifests can define standalone images or image lists for legacy UI support. Additionally, there are attributes that can be set either on the asset or on the individual images behind each asset to change when and how those assets are displayed.  
   
- **Image manifest schema**  
+   **Image manifest schema**  
   
- A complete image manifest looks like this:  
+   A complete image manifest looks like this:  
   
 ```xml  
 <ImageManifest>  

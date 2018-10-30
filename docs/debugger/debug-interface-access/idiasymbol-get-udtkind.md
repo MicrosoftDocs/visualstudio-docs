@@ -22,7 +22,7 @@ Retrieves the variety of a user-defined type (UDT).
   
 ```C++  
 HRESULT get_udtKind (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

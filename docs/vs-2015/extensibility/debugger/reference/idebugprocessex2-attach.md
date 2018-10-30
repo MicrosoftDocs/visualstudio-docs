@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcessEx2::Attach | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProcessEx2::Attach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcessEx2::Attach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocessex2-attach).  
-  
 This method informs the process that a session is now debugging the process.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Attach(   
-   IDebugSession2* pSession  
+   IDebugSession2* pSession  
 );  
 ```  
   
 ```csharp  
 int Attach(  
-   IDebugSession2 pSession  
+   IDebugSession2 pSession  
 );  
 ```  
   

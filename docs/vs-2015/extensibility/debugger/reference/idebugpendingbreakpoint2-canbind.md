@@ -1,7 +1,7 @@
 ---
 title: "IDebugPendingBreakpoint2::CanBind | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,21 +22,19 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::CanBind
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2::CanBind](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2-canbind).  
-  
 Determines whether this pending breakpoint can bind to a code location.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT CanBind (   
-   IEnumDebugErrorBreakpoints2** ppErrorEnum  
+   IEnumDebugErrorBreakpoints2** ppErrorEnum  
 );  
 ```  
   
 ```csharp  
 int CanBind (   
-   out IEnumDebugErrorBreakpoints2 ppErrorEnum  
+   out IEnumDebugErrorBreakpoints2 ppErrorEnum  
 );  
 ```  
   

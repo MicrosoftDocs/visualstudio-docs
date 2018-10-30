@@ -1,7 +1,7 @@
 ---
 title: "Configure the Windows Firewall for Remote Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,29 +18,27 @@ manager: "ghogen"
 # Configure the Windows Firewall for Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Configure the Windows Firewall for Remote Debugging](https://docs.microsoft.com/visualstudio/debugger/configure-the-windows-firewall-for-remote-debugging).  
-  
 This topic describes how to configure the firewall to enable remote debugging on computers that run the following operating systems:  
   
--   Windows 7  
+- Windows 7  
   
--   Windows 8/8.1  
+- Windows 8/8.1  
   
--   Windows 10  
+- Windows 10  
   
--   Windows Server 2008 (R2)  
+- Windows Server 2008 (R2)  
   
--   Windows Server 2012  
+- Windows Server 2012  
   
--   Windows Server 2012 R2  
+- Windows Server 2012 R2  
   
- If the network on which you are debugging is not protected by a firewall, this configuration is unnecessary. Otherwise, both the computer that hosts Visual Studio and the remote computer that is to be debugged require changes to the firewall configuration.  
+  If the network on which you are debugging is not protected by a firewall, this configuration is unnecessary. Otherwise, both the computer that hosts Visual Studio and the remote computer that is to be debugged require changes to the firewall configuration.  
   
- **IPSec** If your network requires that communication be performed using IPSec, you must open additional ports on both the Visual Studio host computer and the remote computer.  
+  **IPSec** If your network requires that communication be performed using IPSec, you must open additional ports on both the Visual Studio host computer and the remote computer.  
   
- **Web Server** If you are debugging a remote Web server, you must open an additional port on the remote computer.  
+  **Web Server** If you are debugging a remote Web server, you must open an additional port on the remote computer.  
   
- Note that both computers do not have to run the same operating system. For example, the Visual Studio computer can run Windows 10 and the remote computer can run Windows Server 2012 R2.  
+  Note that both computers do not have to run the same operating system. For example, the Visual Studio computer can run Windows 10 and the remote computer can run Windows Server 2012 R2.  
   
 ## To Configure Windows Firewall on the Visual Studio Computer  
  The instructions for configuring the Windows firewall differ slightly on different operating systems. On Windows 7 or Windows Server 2008, the word **program** is used; on Windows 8/8.1, Windows 10, and Windows Server 2012, the word **app** is used.  In the following steps we will use the word **app**.  

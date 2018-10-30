@@ -1,7 +1,7 @@
 ---
 title: "CA2233: Operations should not overflow | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2233: Operations should not overflow
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2233: Operations should not overflow](https://docs.microsoft.com/visualstudio/code-quality/ca2233-operations-should-not-overflow).
 
 |||
 |-|-|
@@ -62,9 +60,9 @@ The latest version of this topic can be found at [CA2233: Operations should not 
 ```
 public static void Main()
 {
-    int value = int.MinValue;    // int.MinValue is -2147483648
-    value = Calculator.Decrement(value);
-    Console.WriteLine(value);
+    int value = int.MinValue;    // int.MinValue is -2147483648
+    value = Calculator.Decrement(value);
+    Console.WriteLine(value);
 }
 ```
 
@@ -72,9 +70,9 @@ public static void Main()
 
 ```
 Public Shared Sub Main()
-    Dim value = Integer.MinValue    ' Integer.MinValue is -2147483648
-    value = Calculator.Decrement(value)
-    Console.WriteLine(value)
+    Dim value = Integer.MinValue    ' Integer.MinValue is -2147483648
+    value = Calculator.Decrement(value)
+    Console.WriteLine(value)
 End Sub
 ```
 

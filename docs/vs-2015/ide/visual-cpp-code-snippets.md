@@ -1,7 +1,7 @@
 ---
 title: "Visual C++ Code Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Visual C++ Code Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visual C++ Code Snippets](https://docs.microsoft.com/visualstudio/ide/visual-cpp-code-snippets).  
-  
 In Visual Studio, you can use code snippets to add commonly-used code to your C++ code files. In general, you can use code snippets in much the same way as in C#, but the set of default code snippets is different.  
   
  You can either add a code snippet at a particular location in your code (insertion) or surround some selected code with a code snippet.  
@@ -27,13 +25,13 @@ In Visual Studio, you can use code snippets to add commonly-used code to your C+
 ## Inserting a Code Snippet  
  To insert a code snippet, open a C++ code file (.cpp or .h), click somewhere inside the file, and do one of the following:  
   
--   Right-click to get the context menu and select **Insert Snippet**  
+- Right-click to get the context menu and select **Insert Snippet**  
   
--   In the **Edit / IntelliSense** menu, select **Insert Snippet**  
+- In the **Edit / IntelliSense** menu, select **Insert Snippet**  
   
--   Use the hotkeys: **CTRL + K + X**  
+- Use the hotkeys: **CTRL + K + X**  
   
- You should see a list of choices beginning with **#if**. When you select **#if**, you should see the following code added to the file:  
+  You should see a list of choices beginning with **#if**. When you select **#if**, you should see the following code added to the file:  
   
 ```cpp  
 #if 0  
@@ -46,13 +44,13 @@ In Visual Studio, you can use code snippets to add commonly-used code to your C+
 ## Using a Code Snippet to Surround Selected Code  
  To use a code snippet to surround selected code, select a line (or multiple lines) and do one of the following:  
   
-1.  Right-click to get the context menu and select **Surround With**  
+1. Right-click to get the context menu and select **Surround With**  
   
-2.  In the **Edit / IntelliSense** menu, select **Surround With**  
+2. In the **Edit / IntelliSense** menu, select **Surround With**  
   
-3.  Use the hotkeys: **CTRL + K + S**  
+3. Use the hotkeys: **CTRL + K + S**  
   
- Select **#if**. You should see something like this:  
+   Select **#if**. You should see something like this:  
   
 ```cpp  
 #if 0  

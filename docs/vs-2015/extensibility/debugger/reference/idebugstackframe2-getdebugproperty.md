@@ -1,7 +1,7 @@
 ---
 title: "IDebugStackFrame2::GetDebugProperty | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugStackFrame2::GetDebugProperty
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetDebugProperty](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getdebugproperty).  
-  
 Gets a description of the properties of a stack frame.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetDebugProperty (   
-   IDebugProperty2** ppDebugProp  
+   IDebugProperty2** ppDebugProp  
 );  
 ```  
   
 ```csharp  
 int GetDebugProperty (   
-   out IDebugProperty2 ppDebugProp  
+   out IDebugProperty2 ppDebugProp  
 );  
 ```  
   

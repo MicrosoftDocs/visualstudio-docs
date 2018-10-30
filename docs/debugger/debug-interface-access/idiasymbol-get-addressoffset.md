@@ -22,7 +22,7 @@ Retrieves the offset part of an address location. Use when the [LocationType Enu
   
 ```C++  
 HRESULT get_addressOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

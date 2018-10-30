@@ -1,7 +1,7 @@
 ---
 title: "How to: Create a Basic Texture | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Create a Basic Texture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create a Basic Texture](https://docs.microsoft.com/visualstudio/designers/how-to-create-a-basic-texture).  
-  
 This document demonstrates how to use the Image Editor to create a basic texture.  
   
  This document demonstrates these activities:  
@@ -45,24 +43,24 @@ This document demonstrates how to use the Image Editor to create a basic texture
   
 #### To create a "bullseye" target texture  
   
-1.  Create a texture to work with. For information about how to add a texture to your project, see the Getting Started section in [Image Editor](../designers/image-editor.md).  
+1. Create a texture to work with. For information about how to add a texture to your project, see the Getting Started section in [Image Editor](../designers/image-editor.md).  
   
-2.  Set the image size to 512x512 pixels. In the **Properties** window, set the values of the **Width** and **Height** properties to `512`.  
+2. Set the image size to 512x512 pixels. In the **Properties** window, set the values of the **Width** and **Height** properties to `512`.  
   
-3.  On the Image Editor toolbar, choose the **Fill** tool. The **Properties** window now displays the properties of the **Fill** tool together with the image properties.  
+3. On the Image Editor toolbar, choose the **Fill** tool. The **Properties** window now displays the properties of the **Fill** tool together with the image properties.  
   
-4.  Set the foreground color to fully-transparent black. In the **Properties** window, in the **Colors** property group, select **Foreground**. Set the values of the **R**, **G**, **B**, and **A** properties next to the color picker to `0`.  
+4. Set the foreground color to fully-transparent black. In the **Properties** window, in the **Colors** property group, select **Foreground**. Set the values of the **R**, **G**, **B**, and **A** properties next to the color picker to `0`.  
   
-5.  On the Image Editor toolbar, choose the **Fill** tool, and then press and hold the Shift key and choose any point in the image. Using the Shift key causes the alpha value of the fill color to replace the color in the image; otherwise, the alpha value is used to blend the fill color together with the color in the image.  
+5. On the Image Editor toolbar, choose the **Fill** tool, and then press and hold the Shift key and choose any point in the image. Using the Shift key causes the alpha value of the fill color to replace the color in the image; otherwise, the alpha value is used to blend the fill color together with the color in the image.  
   
-    > [!IMPORTANT]
-    >  This step, together with the color selection in the previous step, ensures that the base image is prepared for the "bullseye" target texture that you will draw. When the image is filled with transparent black—and because the border of the target is black—there will be no aliasing artifacts around the target.  
+   > [!IMPORTANT]
+   >  This step, together with the color selection in the previous step, ensures that the base image is prepared for the "bullseye" target texture that you will draw. When the image is filled with transparent black—and because the border of the target is black—there will be no aliasing artifacts around the target.  
   
-6.  On the Image Editor toolbar, choose the **Ellipse** tool.  
+6. On the Image Editor toolbar, choose the **Ellipse** tool.  
   
-7.  Set the foreground color to fully-opaque black. Set the values of the **R**, **G**, and **B** properties to `0` and the value of the **A** property to `255`.  
+7. Set the foreground color to fully-opaque black. Set the values of the **R**, **G**, and **B** properties to `0` and the value of the **A** property to `255`.  
   
-8.  Set the background color to fully-opaque white. In the **Properties** window, in the **Colors** property group, select **Background**. Set the values of the **R**, **G**, **B**, and **A** properties to `255`.  
+8. Set the background color to fully-opaque white. In the **Properties** window, in the **Colors** property group, select **Background**. Set the values of the **R**, **G**, **B**, and **A** properties to `255`.  
   
 9. Set the width of the outline of the ellipse. In the **Properties** window, in the **Appearance** property group, set the value of the **Width** property to `8`.  
   
@@ -85,11 +83,11 @@ This document demonstrates how to use the Image Editor to create a basic texture
   
 17. Draw another circle from pixel coordinate `(192, 192)` to pixel coordinate `(320, 320)`.  
   
- The "bullseye" target texture is complete. Here's the final image, shown with transparency.  
+    The "bullseye" target texture is complete. Here's the final image, shown with transparency.  
   
- ![The complete "bullseye" target texture](../designers/media/gfx-image-demo-bullseye.png "gfx_image_demo_bullseye")  
+    ![The complete "bullseye" target texture](../designers/media/gfx-image-demo-bullseye.png "gfx_image_demo_bullseye")  
   
- As a next step, you can generate MIP levels for this texture. For information, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md).  
+    As a next step, you can generate MIP levels for this texture. For information, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md).  
   
 ## See Also  
  [Image Editor](../designers/image-editor.md)

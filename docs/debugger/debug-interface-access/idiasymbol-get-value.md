@@ -22,7 +22,7 @@ Retrieves the value of a constant.
   
 ```C++  
 HRESULT get_value (   
-   VARIANT* pRetVal  
+   VARIANT* pRetVal  
 );  
 ```  
   

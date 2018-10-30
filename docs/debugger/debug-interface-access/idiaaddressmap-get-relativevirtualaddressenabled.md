@@ -22,7 +22,7 @@ Indicates whether the calculation and use of relative virtual addresses (RVA) is
   
 ```C++  
 HRESULT get_relativeVirtualAddressEnabled (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

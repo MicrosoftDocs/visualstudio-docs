@@ -1,7 +1,7 @@
 ---
 title: "Wizards | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Wizards
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Wizards](https://docs.microsoft.com/visualstudio/extensibility/internals/wizards).  
-  
 After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) so that others can use it. The added wizard then appears in the **Add New Project** or **Add New Item** dialog boxes. To see the **Add New Project** or **Add New Item** dialog boxes, right-click an open solution in **Solution Explorer**, point to **Add**, and then click **New Project** or **New Item**.  
   
  Wizards can be implemented in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to let users select from a tree view of available values when they open the **Add New Project** dialog box or the **Add New Item** dialog box, or when they right-click an item in **Solution Explorer**.  

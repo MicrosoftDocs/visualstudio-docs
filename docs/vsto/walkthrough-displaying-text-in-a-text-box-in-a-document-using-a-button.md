@@ -23,11 +23,11 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Adding controls to the Word document in a document-level project at design time.  
+- Adding controls to the Word document in a document-level project at design time.  
   
--   Populating a text box when a button is clicked.  
+- Populating a text box when a button is clicked.  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -52,25 +52,25 @@ ms.workload:
   
 ### To add a button and a text box  
   
-1.  Verify that the document is open in the Visual Studio designer.  
+1. Verify that the document is open in the Visual Studio designer.  
   
-2.  From the **Common Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Word.Controls.TextBox> control to the document.  
+2. From the **Common Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Word.Controls.TextBox> control to the document.  
   
-    > [!NOTE]  
-    >  In Word, controls are dropped in-line with text by default. You can modify the way controls and shape objects are inserted by changing the default on the **Edit** tab of the **Options** dialog box in Word.  
+   > [!NOTE]  
+   >  In Word, controls are dropped in-line with text by default. You can modify the way controls and shape objects are inserted by changing the default on the **Edit** tab of the **Options** dialog box in Word.  
   
-3.  On the **View** menu, click **Properties Window**.  
+3. On the **View** menu, click **Properties Window**.  
   
-4.  Find **TextBox1** in the **Properties** window drop-down box and change the **Name** property of the text box to **displayText**.  
+4. Find **TextBox1** in the **Properties** window drop-down box and change the **Name** property of the text box to **displayText**.  
   
-5.  Drag a **Button** control to the document and change the following properties.  
+5. Drag a **Button** control to the document and change the following properties.  
   
-    |Property|Value|  
-    |--------------|-----------|  
-    |**Name**|**insertText**|  
-    |**Text**|**Insert Text**|  
+   |Property|Value|  
+   |--------------|-----------|  
+   |**Name**|**insertText**|  
+   |**Text**|**Insert Text**|  
   
- Now you can write the code that will run when the button is clicked.  
+   Now you can write the code that will run when the button is clicked.  
   
 ## Populate the text box when the button is clicked  
  Every time the user clicks the button, **Hello World!** is added to the text box.  

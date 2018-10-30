@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSourceFiles::Reset | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # IDiaEnumSourceFiles::Reset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaEnumSourceFiles::Reset](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiaenumsourcefiles-reset).  
-  
 Resets an enumeration sequence to the beginning.  
   
 ## Syntax  

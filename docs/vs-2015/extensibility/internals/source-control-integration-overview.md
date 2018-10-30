@@ -1,7 +1,7 @@
 ---
 title: "Source Control Integration Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Source Control Integration Overview
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control Integration Overview](https://docs.microsoft.com/visualstudio/extensibility/internals/source-control-integration-overview).  
-  
 This section compares the two ways to integrate into Visual Studio source control; a source control Plug-in and a VSPackage that provides a source control solution and highlights the new source control features. Visual Studio allows for manual switching between source control VSPackages and source control plug-ins as well as automatic solution-based switching.  
   
 ## Source Control Integration  
@@ -33,13 +31,13 @@ This section compares the two ways to integrate into Visual Studio source contro
   
  To implement a source control plug-in using the Source Control Plug-in API, follow these steps:  
   
-1.  Create a DLL that implements the functions specified in [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md).  
+1. Create a DLL that implements the functions specified in [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md).  
   
-2.  Register the DLL by making the appropriate registry entries (described in [How to: Install a Source Control Plug-in](../../extensibility/internals/how-to-install-a-source-control-plug-in.md)).  
+2. Register the DLL by making the appropriate registry entries (described in [How to: Install a Source Control Plug-in](../../extensibility/internals/how-to-install-a-source-control-plug-in.md)).  
   
-3.  Create a helper UI and display when prompted by the Source Control Adapter Package (the Visual Studio component that handles source control functionality via source control plug-ins)  
+3. Create a helper UI and display when prompted by the Source Control Adapter Package (the Visual Studio component that handles source control functionality via source control plug-ins)  
   
- In response to a source control command, the Visual Studio IDE presents a standard UI for the basic operations and then passes the information to the source control plug-in via the functions defined in the Source Control Plug-in API. For advanced options, the source control plug-in may be called on to present its own UI, for example, browsing for a source-controlled project. This means that the user may be presented with two possibly different styles of UI when dealing with source control: the UI that Visual Studio presents and the UI that the source control plug-in presents. This is most noticeable with advanced source control operations.  
+   In response to a source control command, the Visual Studio IDE presents a standard UI for the basic operations and then passes the information to the source control plug-in via the functions defined in the Source Control Plug-in API. For advanced options, the source control plug-in may be called on to present its own UI, for example, browsing for a source-controlled project. This means that the user may be presented with two possibly different styles of UI when dealing with source control: the UI that Visual Studio presents and the UI that the source control plug-in presents. This is most noticeable with advanced source control operations.  
   
 ### Drawbacks to Implementing a Source Control Plug-in  
   

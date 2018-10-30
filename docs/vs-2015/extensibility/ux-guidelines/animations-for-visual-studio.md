@@ -1,7 +1,7 @@
 ---
 title: "Animations for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,6 @@ manager: "ghogen"
 # Animations for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Animations for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/animations-for-visual-studio).  
-  
 ## Animation fundamentals  
   
 ### Animation best practices in Visual Studio  
@@ -60,15 +58,15 @@ The latest version of this topic can be found at [Animations for Visual Studio](
   
 #### Do not:  
   
--   Use small movements (movement in a small footprint), preferring fades and changes over moving objects.  
+- Use small movements (movement in a small footprint), preferring fades and changes over moving objects.  
   
--   Use animations that take place over a large area of screen real estate. Regardless of size, this style of animation is distracting to the user.  
+- Use animations that take place over a large area of screen real estate. Regardless of size, this style of animation is distracting to the user.  
   
--   Use animations that do not relate to the object the user is currently focused on or interacting with.  
+- Use animations that do not relate to the object the user is currently focused on or interacting with.  
   
--   Use animations that require user interaction to reset the state, such as forcing the user to respond to a flashing notification in order to make it stop flashing. Interacting with them in any way should be sufficient to dismiss them.  
+- Use animations that require user interaction to reset the state, such as forcing the user to respond to a flashing notification in order to make it stop flashing. Interacting with them in any way should be sufficient to dismiss them.  
   
- For more information on applications for these best practices, see [Animation patterns](../../extensibility/ux-guidelines/animations-for-visual-studio.md#BKMK_AnimationPatterns).  
+  For more information on applications for these best practices, see [Animation patterns](../../extensibility/ux-guidelines/animations-for-visual-studio.md#BKMK_AnimationPatterns).  
   
 ### Animation metrics  
   
@@ -201,21 +199,21 @@ The latest version of this topic can be found at [Animations for Visual Studio](
 ### Overview  
  Animations in Visual Studio are meant to serve a specific function and not hinder user productivity. General animation characteristics to adhere to include:  
   
--   Small and unobtrusive  
+- Small and unobtrusive  
   
--   Natural and realistic  
+- Natural and realistic  
   
--   Subtle and subdued  
+- Subtle and subdued  
   
--   Fast and efficient  
+- Fast and efficient  
   
--   Relaxed, not hurried  
+- Relaxed, not hurried  
   
- The following illustration shows the animation styles recommended for use in Visual Studio. No animation and subtle animations such as fade in/fade out are the most frequently used. There is limited application of movement animations such as expand and contract, X and Y position change, and rotation.  
+  The following illustration shows the animation styles recommended for use in Visual Studio. No animation and subtle animations such as fade in/fade out are the most frequently used. There is limited application of movement animations such as expand and contract, X and Y position change, and rotation.  
   
- ![Recommended animation styles for Visual Studio](../../extensibility/ux-guidelines/media/1202-a-vsanimstyles.png "1202-a_VSAnimStyles")  
+  ![Recommended animation styles for Visual Studio](../../extensibility/ux-guidelines/media/1202-a-vsanimstyles.png "1202-a_VSAnimStyles")  
   
- **Recommended animation styles for Visual Studio**  
+  **Recommended animation styles for Visual Studio**  
   
 #### Appear and disappear  
  With this pattern, an element switches from visible to out-of-view and back without a transition animation:  
@@ -359,65 +357,65 @@ The latest version of this topic can be found at [Animations for Visual Studio](
   
 #### Tab open  
   
--   Style: Appear  
+- Style: Appear  
   
--   Duration: Zero seconds  
+- Duration: Zero seconds  
   
- ![Tab open animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-h-tabopen.png "1202-h_TabOpen")  
+  ![Tab open animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-h-tabopen.png "1202-h_TabOpen")  
   
 #### Tab close  
   
--   Style: X position change  
+- Style: X position change  
   
--   Duration: 200 milliseconds  
+- Duration: 200 milliseconds  
   
- ![Tab close animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-i-tabclose.png "1202-i_TabClose")  
+  ![Tab close animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-i-tabclose.png "1202-i_TabClose")  
   
 #### Tab reorder  
   
--   Style: X position change  
+- Style: X position change  
   
--   Duration: 200 milliseconds  
+- Duration: 200 milliseconds  
   
- ![Tab reorder animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-j-tabreorder.png "1202-j_TabReorder")  
+  ![Tab reorder animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-j-tabreorder.png "1202-j_TabReorder")  
   
 #### Close floating document  
   
--   Style: Appear  
+- Style: Appear  
   
--   Duration: 200 milliseconds  
+- Duration: 200 milliseconds  
   
- ![Close floating document animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-k-closefloatingdocument.png "1202-k_CloseFloatingDocument")  
+  ![Close floating document animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-k-closefloatingdocument.png "1202-k_CloseFloatingDocument")  
   
 #### Window state transition  
   
--   Style: To be consistent with other windows, let the current operating system define the document close animation.  
+- Style: To be consistent with other windows, let the current operating system define the document close animation.  
   
--   Duration: 200 milliseconds  
+- Duration: 200 milliseconds  
   
- ![Window state transition animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-l-windowstatetransition.png "1202-l_WindowStateTransition")  
+  ![Window state transition animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-l-windowstatetransition.png "1202-l_WindowStateTransition")  
   
 #### Menu open  
   
--   Style: Fade-in  
+- Style: Fade-in  
   
--   Duration: 200 milliseconds  
+- Duration: 200 milliseconds  
   
- ![Menu open animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-m-menuopen.png "1202-m_MenuOpen")  
+  ![Menu open animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-m-menuopen.png "1202-m_MenuOpen")  
   
 #### Menu close  
   
--   Style: Fade-out  
+- Style: Fade-out  
   
--   Duration: 200 milliseconds  
+- Duration: 200 milliseconds  
   
- ![Menu close animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-n-menuclose.png "1202-n_MenuClose")  
+  ![Menu close animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-n-menuclose.png "1202-n_MenuClose")  
   
 #### Auto-hide tool window reveal  
   
--   Style: Appear  
+- Style: Appear  
   
--   Duration: Zero seconds  
+- Duration: Zero seconds  
   
- ![Auto&#45;hide tool window animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-o-autohidetoolwindowreveal.png "1202-o_AutoHideToolWindowReveal")
+  ![Auto&#45;hide tool window animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-o-autohidetoolwindowreveal.png "1202-o_AutoHideToolWindowReveal")
 

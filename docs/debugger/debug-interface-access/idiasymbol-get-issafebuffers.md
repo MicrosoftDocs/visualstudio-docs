@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the preprocesser directive for a safe bu
   
 ```C++  
 HRESULT get_isSafeBuffers(   
-   BOOL* pRetVal)  
+   BOOL* pRetVal)  
 );  
 ```  
   

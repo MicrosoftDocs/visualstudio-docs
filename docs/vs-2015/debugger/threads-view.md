@@ -1,7 +1,7 @@
 ---
 title: "Threads View | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,20 +22,18 @@ manager: "ghogen"
 # Threads View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Threads View](https://docs.microsoft.com/visualstudio/debugger/threads-view).  
-  
 The Threads view is a flat listing of all threads associated with windows on your system. The Thread ID and module name for each thread are shown. Processes are not included, but you can easily find the process that owns a selected thread.  
   
 ## Procedures  
   
 #### To open the Threads view  
   
-1.  From the **Spy** menu, choose **Threads**.  
+1. From the **Spy** menu, choose **Threads**.  
   
- ![Spy&#43;&#43; Threads View](../debugger/media/spy-threads.png "Spy++_Threads")  
-Spy++ Threads View  
+   ![Spy&#43;&#43; Threads View](../debugger/media/spy-threads.png "Spy++_Threads")  
+   Spy++ Threads View  
   
- The figure above shows the Threads view.  
+   The figure above shows the Threads view.  
   
 ## In This Section  
  [Searching for a Thread in Threads View](../debugger/how-to-search-for-a-thread-in-threads-view.md)  

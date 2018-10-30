@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Rule-based UI Context for Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,8 +13,6 @@ ms.author: "gregvanl"
 # How to: Use Rule-based UI Context for Visual Studio Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use Rule-based UI Context for Visual Studio Extensions](https://docs.microsoft.com/visualstudio/extensibility/how-to-use-rule-based-ui-context-for-visual-studio-extensions).  
-  
 Visual Studio allows loading of VSPackages when certain well-known <xref:Microsoft.VisualStudio.Shell.UIContext>s are activated. However, these UI Contexts are not very fine grained, leaving extension authors no choice but to pick an available UI Context that activates before the point they really wanted the VSPackage to load. For a list of well-known UI contexts, see <xref:Microsoft.VisualStudio.Shell.KnownUIContexts>.  
   
  Loading packages can have a performance impact and loading them sooner than they are needed is not the best practice. Visual Studio 2015 introduced the concept of Rules-based UI Contexts, a mechanism that allows extension authors to define the precise conditions under which a UI Context is activated and associated VSPackages loaded.  
@@ -24,75 +22,75 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
   
  Rule-based UI Context can be used in a variety of ways:  
   
-1.  Specify visibility constraints for commands and tool windows. You can hide the commands/tools windows until the UI Context rule is met.  
+1. Specify visibility constraints for commands and tool windows. You can hide the commands/tools windows until the UI Context rule is met.  
   
-2.  As auto load constraints: auto load packages only when the rule is met  
+2. As auto load constraints: auto load packages only when the rule is met  
   
-3.  Delayed task: delay loading until a specified interval has passed and the rule is still met.  
+3. Delayed task: delay loading until a specified interval has passed and the rule is still met.  
   
- The mechanism may be used by any Visual Studio extension.  
+   The mechanism may be used by any Visual Studio extension.  
   
 ## Create a Rule-based UI Context  
  Suppose you have an extension called TestPackage, which offers a menu command which applies only to files with “.config” extension. Before VS2015, the best option was to load TestPackage when <xref:Microsoft.VisualStudio.Shell.KnownUIContexts.SolutionExistsAndFullyLoadedContext%2A> UI Context was activated. This is not efficient, since the loaded solution may not even contain a .config file. Let us see how rules-based UI Context can be used to activate a UI Context only when a file with .config extension is selected, and load TestPackage when that UI Context is activated.  
   
-1.  Define a new UIContext GUID and add to the VSPackage class <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
+1. Define a new UIContext GUID and add to the VSPackage class <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
   
-     For example, let’s assume a new UIContext “UIContextGuid” is to be added. The GUID created (you can create a GUID by clicking on Tools -> create guid) is “8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B”. You then add the following inside your package class:  
+    For example, let’s assume a new UIContext “UIContextGuid” is to be added. The GUID created (you can create a GUID by clicking on Tools -> create guid) is “8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B”. You then add the following inside your package class:  
   
-    ```csharp  
-    public const string UIContextGuid = "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B";  
-    ```  
+   ```csharp  
+   public const string UIContextGuid = "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B";  
+   ```  
   
-     For the attributes, add the following: (Details of these attributes will be explained later)  
+    For the attributes, add the following: (Details of these attributes will be explained later)  
   
-    ```csharp  
-    [ProvideAutoLoad(TestPackage.UIContextGuid)]      
-    [ProvideUIContextRule(TestPackage.UIContextGuid,  
-        name: "Test auto load",   
-        expression: "DotConfig",  
-        termNames: new[] { "DotConfig" },  
-        termValues: new[] { "HierSingleSelectionName:.config$" })]  
-    ```  
+   ```csharp  
+   [ProvideAutoLoad(TestPackage.UIContextGuid)]      
+   [ProvideUIContextRule(TestPackage.UIContextGuid,  
+       name: "Test auto load",   
+       expression: "DotConfig",  
+       termNames: new[] { "DotConfig" },  
+       termValues: new[] { "HierSingleSelectionName:.config$" })]  
+   ```  
   
-     These metadata define the new UIContext GUID (8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B) and an expression referring to a single term, "DotConfig". The "DotConfig" term evaluates to true whenever the current selection in the active hierarchy has a name that matches the regular expression pattern "\\.config$" (ends with ".config"). The (Default) value defines an optional name for the rule useful for debugging.  
+    These metadata define the new UIContext GUID (8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B) and an expression referring to a single term, "DotConfig". The "DotConfig" term evaluates to true whenever the current selection in the active hierarchy has a name that matches the regular expression pattern "\\.config$" (ends with ".config"). The (Default) value defines an optional name for the rule useful for debugging.  
   
-     The values of the attribute are added to pkgdef generated during build time afterwards.  
+    The values of the attribute are added to pkgdef generated during build time afterwards.  
   
-2.  In the VSCT file for the TestPackage’s commands, add the “DynamicVisibility” flag to the appropriate commands:  
+2. In the VSCT file for the TestPackage’s commands, add the “DynamicVisibility” flag to the appropriate commands:  
   
-    ```xml  
-    <CommandFlag>DynamicVisibility</CommandFlag>  
-    ```  
+   ```xml  
+   <CommandFlag>DynamicVisibility</CommandFlag>  
+   ```  
   
-3.  In the Visibilities section of the VSCT, tie the appropriate commands to the new UIContext GUID defined in #1:  
+3. In the Visibilities section of the VSCT, tie the appropriate commands to the new UIContext GUID defined in #1:  
   
-    ```xml  
-    <VisibilityConstraints>   
-        <VisibilityItem guid="guidTestPackageCmdSet" id="TestId"  context="guidTestUIContext"/>   
-    </VisibilityConstraints>  
-    ```  
+   ```xml  
+   <VisibilityConstraints>   
+       <VisibilityItem guid="guidTestPackageCmdSet" id="TestId"  context="guidTestUIContext"/>   
+   </VisibilityConstraints>  
+   ```  
   
-4.  In the Symbols section, add the definition of the UIContext:  
+4. In the Symbols section, add the definition of the UIContext:  
   
-    ```xml  
-    <GuidSymbol name="guidTestUIContext" value="{8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B}" />  
-    ```  
+   ```xml  
+   <GuidSymbol name="guidTestUIContext" value="{8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B}" />  
+   ```  
   
-     Now, the context menu commands for *.config files will be visible only when the selected item in the solution explorer is a ".config" file and the package will not be loaded until one of those commands is selected.  
+    Now, the context menu commands for *.config files will be visible only when the selected item in the solution explorer is a ".config" file and the package will not be loaded until one of those commands is selected.  
   
- Next, let's use a debugger to confirm that the package loads only when we expect it to. To debug TestPackage:  
+   Next, let's use a debugger to confirm that the package loads only when we expect it to. To debug TestPackage:  
   
-1.  Set a breakpoint in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
+5. Set a breakpoint in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
   
-2.  Build the TestPackage and start debugging.  
+6. Build the TestPackage and start debugging.  
   
-3.  Create a project or open one.  
+7. Create a project or open one.  
   
-4.  Select any file with an extension other than .config. The breakpoint should not be hit.  
+8. Select any file with an extension other than .config. The breakpoint should not be hit.  
   
-5.  Select the App.Config file.  
+9. Select the App.Config file.  
   
- The TestPackage loads and stops at the breakpoint.  
+   The TestPackage loads and stops at the breakpoint.  
   
 ## Adding More Rules for UI Context  
  Since the UI Context rules are Boolean expressions, you can add more restricted rules for a UI Context. For example, in the above UI Context, you can specify that the rule applies only when a solution with a project is loaded. In this way, the commands won't show up if you open up a ".config" file as a standalone file, not as part of a project.  

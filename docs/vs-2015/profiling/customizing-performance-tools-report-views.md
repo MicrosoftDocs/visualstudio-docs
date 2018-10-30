@@ -1,7 +1,7 @@
 ---
 title: "Customizing Performance Tools Report Views | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Customizing Performance Tools Report Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Performance Tools Report Views](https://docs.microsoft.com/visualstudio/profiling/customizing-performance-tools-report-views).  
-  
 This section covers how to customize reports that are generated with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools.  
   
 ## Common Tasks  

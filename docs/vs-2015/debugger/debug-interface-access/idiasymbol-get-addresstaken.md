@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_addressTaken | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_addressTaken
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_addressTaken](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-addresstaken).  
-  
 Retrieves a flag that indicates whether another symbol references this symbol's address.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_addressTaken (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "AD_PROCESS_ID | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,29 +21,27 @@ manager: "ghogen"
 # AD_PROCESS_ID
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [AD_PROCESS_ID](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ad-process-id).  
-  
 Specifies the process ID, which may be either a system ID or a GUID.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct _AD_PROCESS_ID {  
-   AD_PROCESS_ID_TYPE ProcessIdType;  
-   union {  
-      DWORD dwProcessId;   
-      GUID  guidProcessId;   
-      DWORD dwUnused;   
-   } ProcessId;  
+   AD_PROCESS_ID_TYPE ProcessIdType;  
+   union {  
+      DWORD dwProcessId;   
+      GUID  guidProcessId;   
+      DWORD dwUnused;   
+   } ProcessId;  
 } AD_PROCESS_ID;  
 ```  
   
 ```csharp  
 public struct AD_PROCESS_ID {  
-   AD_PROCESS_ID_TYPE ProcessIdType;  
-   DWORD              dwProcessId;   
-   GUID               guidProcessId;   
-   DWORD              dwUnused;   
+   AD_PROCESS_ID_TYPE ProcessIdType;  
+   DWORD              dwProcessId;   
+   GUID               guidProcessId;   
+   DWORD              dwUnused;   
 };  
 ```  
   
@@ -63,19 +61,19 @@ public struct AD_PROCESS_ID {
 ## Remarks  
  This structure is passed to the following methods:  
   
--   [GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)  
+- [GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)  
   
--   [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)  
+- [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)  
   
--   [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)  
+- [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)  
   
--   [GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)  
+- [GetProcess](../../../extensibility/debugger/reference/idebugport2-getprocess.md)  
   
- And is returned from the following methods:  
+  And is returned from the following methods:  
   
--   [GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)  
+- [GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)  
   
--   [GetHostId](../../../extensibility/debugger/reference/idebugprogramhost2-gethostid.md)  
+- [GetHostId](../../../extensibility/debugger/reference/idebugprogramhost2-gethostid.md)  
   
 ## Requirements  
  Header: msdbg.h  

@@ -1,7 +1,7 @@
 ---
 title: "m_stateFlags Field | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # m_stateFlags Field
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [m_stateFlags Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/m-stateflags-field).  
-  
 Stores information about the current state of the <xref:System.Threading.Tasks.Task> object.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  

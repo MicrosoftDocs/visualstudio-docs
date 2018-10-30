@@ -1,7 +1,7 @@
 ---
 title: "Overriding and Extending the Generated Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Overriding and Extending the Generated Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Overriding and Extending the Generated Classes](https://docs.microsoft.com/visualstudio/modeling/overriding-and-extending-the-generated-classes).  
-  
 Your DSL Definition is a platform on which you can build a powerful set of tools that are based on a domain-specific language. Many extensions and adaptations can be made by overriding and extending the classes that are generated from the DSL Definition. These classes include not just the domain classes that you have explicitly defined in the DSL Definition diagram, but also other classes that define the toolbox, explorer, serialization, and so on.  
   
 ## Extensibility Mechanisms  
@@ -56,13 +54,13 @@ Your DSL Definition is a platform on which you can build a powerful set of tools
   
  For example, in the sample Library.dsl, the `CirculationBook` domain class has the `Generates``Double Derived` property set to `true`. The generated code for that domain class contains two classes:  
   
--   `CirculationBookBase`, which is an abstract and which contains all the methods and properties.  
+- `CirculationBookBase`, which is an abstract and which contains all the methods and properties.  
   
--   `CirculationBook`, which is derived from `CirculationBookBase`. It is empty, except for its constructors.  
+- `CirculationBook`, which is derived from `CirculationBookBase`. It is empty, except for its constructors.  
   
- To override any method, you create a partial definition of the derived class such as `CirculationBook`. You can override both the generated methods and the methods inherited from the modeling framework.  
+  To override any method, you create a partial definition of the derived class such as `CirculationBook`. You can override both the generated methods and the methods inherited from the modeling framework.  
   
- You can use this method with all types of element, including model elements, relationships, shapes, diagrams, and connectors. You can also override methods of other generated classes. Some generated classes such as the ToolboxHelper are always double-derived.  
+  You can use this method with all types of element, including model elements, relationships, shapes, diagrams, and connectors. You can also override methods of other generated classes. Some generated classes such as the ToolboxHelper are always double-derived.  
   
 ### Custom Constructors  
  You cannot override a constructor. Even in double-derived classes, the constructor must be in the derived class.  

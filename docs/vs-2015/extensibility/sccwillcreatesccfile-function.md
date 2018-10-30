@@ -1,7 +1,7 @@
 ---
 title: "SccWillCreateSccFile Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,18 +21,16 @@ manager: "ghogen"
 # SccWillCreateSccFile Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccWillCreateSccFile Function](https://docs.microsoft.com/visualstudio/extensibility/sccwillcreatesccfile-function).  
-  
 This function determines whether the source control plug-in supports the creation of the MSSCCPRJ.SCC file for each of the given files.  
   
 ## Syntax  
   
 ```cpp#  
 SCCRTN SccWillCreateSccFile(  
-   LPVOID  pContext,  
-   LONG    nFiles,  
-   LPCSTR* lpFileNames,  
-   LPBOOL  pbSccFiles  
+   LPVOID  pContext,  
+   LONG    nFiles,  
+   LPCSTR* lpFileNames,  
+   LPBOOL  pbSccFiles  
 );  
 ```  
   

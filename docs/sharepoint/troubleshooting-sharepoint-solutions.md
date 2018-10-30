@@ -47,21 +47,21 @@ ms.workload:
 ### Resolution  
  For names of SharePoint projects and project items, use only the following characters:  
   
--   Alphanumeric ASCII characters  
+- Alphanumeric ASCII characters  
   
--   Space  
+- Space  
   
--   Period (.)  
+- Period (.)  
   
--   Comma (,)  
+- Comma (,)  
   
--   Underscore (_)  
+- Underscore (_)  
   
--   Dash (-)  
+- Dash (-)  
   
--   Backslash (\\)  
+- Backslash (\\)  
   
- When a project is packaged, a validation rule verifies that the deployment-path property for each file you're deploying contains only these valid characters.  
+  When a project is packaged, a validation rule verifies that the deployment-path property for each file you're deploying contains only these valid characters.  
   
 ## Errors when creating custom fields
  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], custom fields are defined in XML. Errors can occur if a field isn't defined or referenced by using a specific format.  
@@ -130,7 +130,7 @@ ms.workload:
   
 -   Install [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)].  
   
--   Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/assign-or-remove-administrators-of-service-applications).  
+-   Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/assign-or-remove-administrators-of-service-applications).  
   
 ## Site deletion web event does not occur in event receiver project
  When you create an event receiver project and you select certain Web events such as "a site is being deleted," the event never occurs.  
@@ -141,15 +141,15 @@ ms.workload:
 ### Resolution  
  This problem occurs because the feature scope must be "Site" to handle site-level events, but the default feature scope for event receiver projects is "Web". The Web events affected are:  
   
--   A site is being deleted (WebDeleting)  
+- A site is being deleted (WebDeleting)  
   
--   A site was deleted (WebDeleted)  
+- A site was deleted (WebDeleted)  
   
--   A site is being moved (WebMoving)  
+- A site is being moved (WebMoving)  
   
--   A site was moved (WebMoved)  
+- A site was moved (WebMoved)  
   
- To fix the problem, change the feature scope of the event receiver, as follows.  
+  To fix the problem, change the feature scope of the event receiver, as follows.  
   
 ##### To change the feature scope of the event receiver  
   
@@ -209,7 +209,7 @@ ms.workload:
  This problem occurs if you rename an imported list instance and then run it in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
 ### Error message
- Build error: Error occurred in deployment step 'Activate Features': The file Template\Features\\[*import project**feature**name*]\Files\Lists\\[*old**list name*]\Schema.xml does not exist.  
+ Build error: Error occurred in deployment step 'Activate Features': The file Template\Features\\[*import project*<em>feature</em>*name*]\Files\Lists\\[*old*<em>list name</em>]\Schema.xml does not exist.  
   
 ### Resolution  
  When you import a list instance, an attribute named CustomSchema is added to the Elements.xml file of the list instance. Elements.xml includes the path of a custom schema.xml for the list instance. When you rename the list instance in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], the deployment path for the custom schema.xml changes, but the path value of the CustomSchema attribute is not updated. As a result, the list instance cannot find the *schema.xml* file in the old path that is specified by the CustomSchema attribute when the feature is activated.  

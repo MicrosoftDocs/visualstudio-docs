@@ -33,11 +33,11 @@ ms.workload:
   
 ### To protect a worksheet in the designer  
   
-1.  In the **Changes** group of the **Review** tab, click **Protect Sheet**.  
+1. In the **Changes** group of the **Review** tab, click **Protect Sheet**.  
   
-     The **Protect Sheet** dialog box appears. You can set a password and optionally specify certain actions that users are allowed to perform with the worksheet, such as format cells or insert rows.  
+    The **Protect Sheet** dialog box appears. You can set a password and optionally specify certain actions that users are allowed to perform with the worksheet, such as format cells or insert rows.  
   
- You can also allow users to edit specific ranges in protected worksheets.  
+   You can also allow users to edit specific ranges in protected worksheets.  
   
 ### To allow editing in specific ranges  
   

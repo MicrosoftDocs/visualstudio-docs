@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Additional Instrumentation Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "ghogen"
 # How to: Specify Additional Instrumentation Options
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Specify Additional Instrumentation Options](https://docs.microsoft.com/visualstudio/profiling/how-to-specify-additional-instrumentation-options).  
-  
 You can instrument binaries from the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] integrated development environment (IDE) or by using command line tools. If you instrument a binary from within the IDE, you can control the volume of data that is collected during instrumentation by specifying additional instrumentation options to the [VSInstr](../profiling/vsinstr.md) tool. These options are available at the session or the target level. For example, to include or exclude specific functions during the instrumentation process, use the additional instrumentation option at the target level.  
   
  **Requirements**  

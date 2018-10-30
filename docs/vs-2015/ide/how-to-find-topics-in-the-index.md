@@ -1,7 +1,7 @@
 ---
 title: "How to: Find Topics in the Index | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,22 +25,20 @@ manager: "ghogen"
 # How to: Find Topics in the Index
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Find Topics in the Index](https://docs.microsoft.com/visualstudio/ide/how-to-find-topics-in-the-index).  
-  
 The index contains a list of keywords that are associated with topics in the installed content. Each topic might have more than one keyword associated with it, and each keyword might be associated with more than one topic. Use this index in the same way as you would use an index in a book.  
   
 ### To find a topic by using the index  
   
-1.  On the **Index** tab, perform either of the following tasks:  
+1. On the **Index** tab, perform either of the following tasks:  
   
-    -   Specify the keyword to search for in the text box. For example, specify "update" to find topics with keywords such as "update," "updated," and "updating."  
+   - Specify the keyword to search for in the text box. For example, specify "update" to find topics with keywords such as "update," "updated," and "updating."  
   
-         By choosing the filter button near the top of the tab, you can display either all entries that contain the text that you specify or only those entries that start with the text that you specify.  
+      By choosing the filter button near the top of the tab, you can display either all entries that contain the text that you specify or only those entries that start with the text that you specify.  
   
-        > [!NOTE]
-        >  When the filter button appears on a darker background with a border, entries must contain the text that you specify. If the background and border don't appear, entries must start with the text that you specify.  
+     > [!NOTE]
+     >  When the filter button appears on a darker background with a border, entries must contain the text that you specify. If the background and border don't appear, entries must start with the text that you specify.  
   
-    -   Scroll through the index, and choose a keyword.  
+   - Scroll through the index, and choose a keyword.  
   
      If the keyword that you specify is associated with only one topic, it appears. Otherwise, a list of all topics that are associated with that keyword appears.  
   

@@ -20,9 +20,9 @@ Returns an enumeration of symbols for inline frames corresponding to the specifi
   
 ```C++  
 HRESULT findAcceleratorInlineeLinesByName (   
-   LPCOLESTR             name,  
+   LPCOLESTR             name,  
    DWORD                 option,  
-   IDiaEnumSymbols**     ppResult  
+   IDiaEnumSymbols**     ppResult  
 );  
 ```  
   

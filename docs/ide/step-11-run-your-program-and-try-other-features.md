@@ -16,7 +16,7 @@ ms.workload:
 # Step 11: Run your program and try other features
 Your program is finished and ready to run. You can run your program and set the background color of the <xref:System.Windows.Forms.PictureBox>. To learn more, try to improve the program by changing the color of the form, customizing the buttons and check box, and changing the properties of the form.
 
- To download a completed version of the sample, see [Complete picture viewer tutorial sample](http://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).
+ To download a completed version of the sample, see [Complete picture viewer tutorial sample](https://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).
 
  ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 5](http://go.microsoft.com/fwlink/?LinkId=205216) or [Tutorial 1: Create a picture viewer in C# - Video 5](http://go.microsoft.com/fwlink/?LinkId=205206). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
@@ -48,7 +48,7 @@ Your program is finished and ready to run. You can run your program and set the 
 
 ## To continue or review
 
--   To learn more about programming in Visual Studio, see [Programming concepts](http://msdn.microsoft.com/Library/65c12cca-af4f-4017-886e-2dbc00a189d6).
+-   To learn more about programming in Visual Studio, see [Programming concepts](https://msdn.microsoft.com/Library/65c12cca-af4f-4017-886e-2dbc00a189d6).
 
 -   To learn more about Visual Basic, see [Develop applications with Visual Basic](/dotnet/visual-basic/developing-apps/index).
 

@@ -1,7 +1,7 @@
 ---
 title: "Markers Report | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,29 +20,27 @@ manager: "ghogen"
 # Markers Report
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Markers Report](https://docs.microsoft.com/visualstudio/profiling/markers-report).  
-  
 The Markers Report lists the markers in the displayed time frame.  Panning or zooming, or hiding lanes, might cause markers to appear or disappear. The report contains this information about each marker:  
   
--   The time when it began, relative to the start of the trace.  
+- The time when it began, relative to the start of the trace.  
   
--   Its duration. The duration is zero for flags and messages because they represent an instant.  
+- Its duration. The duration is zero for flags and messages because they represent an instant.  
   
--   The ID of the thread that generated it.  
+- The ID of the thread that generated it.  
   
--   The Event Tracking for Windows (ETW) provider that generated it.  
+- The Event Tracking for Windows (ETW) provider that generated it.  
   
--   The marker series from which it was written.  
+- The marker series from which it was written.  
   
--   The category of events it belongs to.  
+- The category of events it belongs to.  
   
--   Its importance level.  
+- Its importance level.  
   
--   Its type (span, flag, or message).  
+- Its type (span, flag, or message).  
   
--   A high-level description of what it represents  
+- A high-level description of what it represents  
   
- Choose the **Export** button to save the Markers Report as a CSV file. You can use the data in the CSV file with other apps or tools.  
+  Choose the **Export** button to save the Markers Report as a CSV file. You can use the data in the CSV file with other apps or tools.  
   
 > [!NOTE]
 >  The Markers Report can display 1,000 markers. To see all markers, export the full report to a CSV file.

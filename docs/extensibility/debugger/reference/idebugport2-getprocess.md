@@ -23,15 +23,15 @@ Gets the specified process running on a port.
   
 ```cpp  
 HRESULT GetProcess(   
-   AD_PROCESS_ID    ProcessId,  
-   IDebugProcess2** ppProcess  
+   AD_PROCESS_ID    ProcessId,  
+   IDebugProcess2** ppProcess  
 );  
 ```  
   
 ```csharp  
 int GetProcess(   
-   AD_PROCESS_ID      ProcessId,  
-   out IDebugProcess2 ppProcess  
+   AD_PROCESS_ID      ProcessId,  
+   out IDebugProcess2 ppProcess  
 );  
 ```  
   

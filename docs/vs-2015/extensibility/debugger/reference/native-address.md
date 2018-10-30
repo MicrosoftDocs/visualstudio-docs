@@ -1,7 +1,7 @@
 ---
 title: "NATIVE_ADDRESS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # NATIVE_ADDRESS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [NATIVE_ADDRESS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/native-address).  
-  
 This structure represents a native address.  
   
 ## Syntax  
   
 ```cpp  
 typedef struct _tagNATIVE_ADDRESS {  
-   DWORD unknown;  
+   DWORD unknown;  
 } NATIVE_ADDRESS;  
 ```  
   
 ```csharp  
 public struct NATIVE_ADDRESS {  
-   public uint unknown;  
+   public uint unknown;  
 }  
 ```  
   

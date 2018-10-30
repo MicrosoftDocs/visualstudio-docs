@@ -1,7 +1,7 @@
 ---
 title: "Obtaining Build Logs with MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "ghogen"
 # Obtaining Build Logs with MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Obtaining Build Logs with MSBuild](https://docs.microsoft.com/visualstudio/msbuild/obtaining-build-logs-with-msbuild).  
-  
   
 By using switches with MSBuild, you can specify how much build data you want to review and whether you want to save build data to one or more files. You can also specify a custom logger to collect build data. For information about MSBuild command-line switches that this topic doesn't cover, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
   
@@ -32,15 +30,15 @@ By using switches with MSBuild, you can specify how much build data you want to 
 ## Setting the level of detail  
  When you build a project by using MSBuild without specifying a level of detail, the following information appears in the output log:  
   
--   Errors, warnings, and messages that are categorized as highly important.  
+- Errors, warnings, and messages that are categorized as highly important.  
   
--   Some status events.  
+- Some status events.  
   
--   A summary of the build.  
+- A summary of the build.  
   
- By using the **/verbosity** (**/v**) switch, you can control how much data appears in the output log. For troubleshooting, use a verbosity level of either `detailed` (`d`) or `diagnostic` (`diag`), which provides the most information.  
+  By using the **/verbosity** (**/v**) switch, you can control how much data appears in the output log. For troubleshooting, use a verbosity level of either `detailed` (`d`) or `diagnostic` (`diag`), which provides the most information.  
   
- The build process may be slower when you set the **/verbosity** to `detailed` and even slower when you set the **/verbosity** to `diagnostic`.  
+  The build process may be slower when you set the **/verbosity** to `detailed` and even slower when you set the **/verbosity** to `diagnostic`.  
   
 ```  
 msbuild MyProject.proj /t:go /v:diag  

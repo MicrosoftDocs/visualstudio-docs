@@ -1,7 +1,7 @@
 ---
 title: "Save data in a transaction | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Save data in a transaction
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Save data in a transaction](https://docs.microsoft.com/visualstudio/data-tools/save-data-in-a-transaction).  
-  
   
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   
@@ -44,7 +42,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 2.  Name the project **SavingDataInATransactionWalkthrough**.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -57,7 +55,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select**Next**.  
+3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
   
 4.  On the **Choose your Data Connection**screen do one of the following:  
   
@@ -67,13 +65,13 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box and create a connection to the Northwind database.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then select**Next**.  
+5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file** screen, select**Next**.  
+6.  On the **Save connection string to the Application Configuration file** screen, select **Next**.  
   
 7.  On the **Choose your Database Objects** screen, expand the **Tables** node.  
   
-8.  Select the `Customers` and `Orders` tables, and then select**Finish**.  
+8.  Select the `Customers` and `Orders` tables, and then select **Finish**.  
   
      The **NorthwindDataSet** is added to your project and the `Customers` and `Orders` tables appear in the **Data Sources** window.  
   
@@ -99,7 +97,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 1.  On the **Project** menu, select**Add Reference**.  
   
-2.  Select **System.Transactions**(on the **.NET** tab), and then select**OK**.  
+2.  Select **System.Transactions**(on the **.NET** tab), and then select **OK**.  
   
      A reference to **System.Transactions** is added to the project.  
   
@@ -108,14 +106,14 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To modify the auto-generated save code  
   
-1.  Select the **Save** button on the **CustomersBindingNavigator** (the button with the floppy disk icon).  
+1. Select the **Save** button on the **CustomersBindingNavigator** (the button with the floppy disk icon).  
   
-2.  Replace the `CustomersBindingNavigatorSaveItem_Click` method with the following code:  
+2. Replace the `CustomersBindingNavigatorSaveItem_Click` method with the following code:  
   
-     [!code-csharp[VbRaddataSaving#4](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#4)]
-     [!code-vb[VbRaddataSaving#4](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#4)]  
+    [!code-csharp[VbRaddataSaving#4](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#4)]
+    [!code-vb[VbRaddataSaving#4](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#4)]  
   
- The order for reconciling changes to related data is as follows:  
+   The order for reconciling changes to related data is as follows:  
   
 -   Delete child records. (In this case, delete records from the `Orders` table.)  
   
@@ -157,7 +155,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To run the application  
   
--   Select**F5** to run the application.  
+-   Select **F5** to run the application.  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

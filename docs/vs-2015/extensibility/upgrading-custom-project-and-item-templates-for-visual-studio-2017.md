@@ -1,7 +1,7 @@
 ---
 title: "Upgrading Custom Project and Item Templates for Visual Studio “15” | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,8 +14,6 @@ manager: "ghogen"
 # Upgrading Custom Project and Item Templates for Visual Studio “15”
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Upgrading Custom Project and Item Templates for Visual Studio ](https://docs.microsoft.com/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017).  
-  
 Starting in Visual Studio "15" Preview 4, Visual Studio is changing the way it discovers project and item templates that have been installed by a .vsix or an .msi. If you own extensions that use custom project or item templates, you need to update your extensions. This topic explains what you must do.  
   
  This change affects only Visual Studio "15". It does not affect previous versions of Visual Studio.  
@@ -177,24 +175,24 @@ VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.c
 ## Upgrades for Extensions Installed with an .MSI  
  Some MSI-based extensions deploy templates to common template locations such as the following:  
   
--   **\<Visual Studio installation directory>\Common7\IDE\\<ProjectTemplates/ItemTemplates>**  
+- **\<Visual Studio installation directory>\Common7\IDE\\<ProjectTemplates/ItemTemplates>**  
   
--   **\<Visual Studio installation directory>\Common7\IDE\Extensions\\<ExtensionName\>\\<Project/ItemTemplates>**  
+- **\<Visual Studio installation directory>\Common7\IDE\Extensions\\<ExtensionName\>\\<Project/ItemTemplates>**  
   
- If your extension performs an MSI-based deployment, you need to generate the template manifest manually and ensure that it is included in the extension setup. You should compare the .vstman examples listed above and the [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md). to see what you need to include  
+  If your extension performs an MSI-based deployment, you need to generate the template manifest manually and ensure that it is included in the extension setup. You should compare the .vstman examples listed above and the [Visual Studio Template Manifest Schema Reference](../extensibility/visual-studio-template-manifest-schema-reference.md). to see what you need to include  
   
- You should create separate manifests for project and item templates, and they should point to root template directory as specified above. You should create one manifest per extension and locale.  
+  You should create separate manifests for project and item templates, and they should point to root template directory as specified above. You should create one manifest per extension and locale.  
   
 ## Troubleshooting Template Installation  
  If you run into problems deploying your project or item templates, you can enable diagnostic logging.  
   
-1.  Run the following command to set the registry key to enable logging:  
+1. Run the following command to set the registry key to enable logging:  
   
-     **reg add HKCU\software\microsoft\visualstudio\15.0_Config\VSTemplate /v EnableTemplateDiscoveryLog /t REG_DWORD /d 1**  
+    **reg add HKCU\software\microsoft\visualstudio\15.0_Config\VSTemplate /v EnableTemplateDiscoveryLog /t REG_DWORD /d 1**  
   
-2.  Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees. The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0\VsTemplateDiagnosticsList.csv**. Each template tree initialization appends entries to this log.  
+2. Start Visual Studio and launch the New Project and New Item dialogs to initialize both template trees. The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0\VsTemplateDiagnosticsList.csv**. Each template tree initialization appends entries to this log.  
   
- The log file contains the following columns:  
+   The log file contains the following columns:  
   
 -   **FullPathToTemplate**, which has the following values:  
   

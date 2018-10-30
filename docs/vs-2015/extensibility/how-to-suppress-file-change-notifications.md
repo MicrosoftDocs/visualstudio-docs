@@ -1,7 +1,7 @@
 ---
 title: "How to: Suppress File Change Notifications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # How to: Suppress File Change Notifications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Suppress File Change Notifications](https://docs.microsoft.com/visualstudio/extensibility/how-to-suppress-file-change-notifications).  
-  
 When the physical file representing the text buffer has been changed, a dialog box displays with the message **Do you want to save changes to the following items?** This is known as file change notification. If many changes are going to be to the file, however, this dialog box displaying over and over again can quickly become annoying.  
   
  You can programmatically suppress this dialog box using the following procedure. By doing this, you can reload a file immediately without having to prompt the user to save the changes each time.  
@@ -50,67 +48,67 @@ When the physical file representing the text buffer has been changed, a dialog b
 //Misc. helper classes  
   
 CSuspendFileChanges::CSuspendFileChanges(  
-    /* [in] */ const CString& strMkDocument,   
-    /* [in] */ BOOL fSuspendNow /* = TRUE */)   
+    /* [in] */ const CString& strMkDocument,   
+    /* [in] */ BOOL fSuspendNow /* = TRUE */)   
 :  
-    m_strMkDocument(strMkDocument),  
-    m_fFileChangeSuspended(FALSE)  
+    m_strMkDocument(strMkDocument),  
+    m_fFileChangeSuspended(FALSE)  
 {  
-    if(fSuspendNow)  
-        Suspend();  
+    if(fSuspendNow)  
+        Suspend();  
 }  
 CSuspendFileChanges::~CSuspendFileChanges()  
 {  
-    Resume();  
+    Resume();  
 }  
 void CSuspendFileChanges::Suspend()  
 {  
-    USES_CONVERSION;  
+    USES_CONVERSION;  
   
-    // Prevent suspend from suspending more than once.  
-    if(m_fFileChangeSuspended)  
-        return;  
+    // Prevent suspend from suspending more than once.  
+    if(m_fFileChangeSuspended)  
+        return;  
   
-    IVsRunningDocumentTable* pRDT =   
+    IVsRunningDocumentTable* pRDT =   
       _VxModule.GetIVsRunningDocumentTable();  
-    ASSERT(pRDT);  
-    if (!pRDT)  
-        return;  
+    ASSERT(pRDT);  
+    if (!pRDT)  
+        return;  
   
-    CComPtr<IUnknown> srpDocData;  
-    VSCOOKIE vscookie = VSCOOKIE_NIL;  
-    pRDT->FindAndLockDocument(RDT_NoLock, T2COLE(m_strMkDocument),    
+    CComPtr<IUnknown> srpDocData;  
+    VSCOOKIE vscookie = VSCOOKIE_NIL;  
+    pRDT->FindAndLockDocument(RDT_NoLock, T2COLE(m_strMkDocument),    
       NULL, NULL, &srpDocData, &vscookie);  
-    if ( (vscookie == VSCOOKIE_NIL) || !srpDocData)  
-        return;  
-    CComPtr<IVsFileChangeEx> srpIVsFileChangeEx;  
-    HRESULT hr = _VxModule.QueryService(SID_SVsFileChangeEx,   
+    if ( (vscookie == VSCOOKIE_NIL) || !srpDocData)  
+        return;  
+    CComPtr<IVsFileChangeEx> srpIVsFileChangeEx;  
+    HRESULT hr = _VxModule.QueryService(SID_SVsFileChangeEx,   
       IID_IVsFileChangeEx, (void **)&srpIVsFileChangeEx);  
-    if (SUCCEEDED(hr) && srpIVsFileChangeEx)  
-    {  
-        m_fFileChangeSuspended = TRUE;  
-        srpIVsFileChangeEx->IgnoreFile(NULL, m_strMkDocument, TRUE);   
-        srpDocData->QueryInterface(IID_IVsDocDataFileChangeControl,   
+    if (SUCCEEDED(hr) && srpIVsFileChangeEx)  
+    {  
+        m_fFileChangeSuspended = TRUE;  
+        srpIVsFileChangeEx->IgnoreFile(NULL, m_strMkDocument, TRUE);   
+        srpDocData->QueryInterface(IID_IVsDocDataFileChangeControl,   
           (void**)&m_srpIVsDocDataFileChangeControl);  
-        if(m_srpIVsDocDataFileChangeControl)  
-            m_srpIVsDocDataFileChangeControl->IgnoreFileChanges(TRUE);  
-    }  
+        if(m_srpIVsDocDataFileChangeControl)  
+            m_srpIVsDocDataFileChangeControl->IgnoreFileChanges(TRUE);  
+    }  
 }  
 void CSuspendFileChanges::Resume()  
 {  
-    if(!m_fFileChangeSuspended)  
-        return;  
+    if(!m_fFileChangeSuspended)  
+        return;  
   
-    CComPtr<IVsFileChangeEx> srpIVsFileChangeEx;  
-    HRESULT hr = _VxModule.QueryService(SID_SVsFileChangeEx,   
+    CComPtr<IVsFileChangeEx> srpIVsFileChangeEx;  
+    HRESULT hr = _VxModule.QueryService(SID_SVsFileChangeEx,   
       IID_IVsFileChangeEx, (void **)&srpIVsFileChangeEx);  
-    if (SUCCEEDED(hr) && srpIVsFileChangeEx)  
+    if (SUCCEEDED(hr) && srpIVsFileChangeEx)  
   
-    srpIVsFileChangeEx->IgnoreFile(NULL, m_strMkDocument, FALSE);   
-    if(m_srpIVsDocDataFileChangeControl)  
-        m_srpIVsDocDataFileChangeControl->IgnoreFileChanges(FALSE);  
-    m_fFileChangeSuspended = FALSE;  
-    m_srpIVsDocDataFileChangeControl.Release();  
+    srpIVsFileChangeEx->IgnoreFile(NULL, m_strMkDocument, FALSE);   
+    if(m_srpIVsDocDataFileChangeControl)  
+        m_srpIVsDocDataFileChangeControl->IgnoreFileChanges(FALSE);  
+    m_fFileChangeSuspended = FALSE;  
+    m_srpIVsDocDataFileChangeControl.Release();  
 }  
 // Misc. helper classes  
 ```  

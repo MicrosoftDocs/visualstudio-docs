@@ -22,8 +22,8 @@ Retrieves a reference to the specified entry in the table.
   
 ```C++  
 HRESULT Item (   
-   DWORD      index,  
-   IUnknown** element  
+   DWORD      index,  
+   IUnknown** element  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "How to: Set the ClickOnce Publish Version | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "wpickett"
 # How to: Set the ClickOnce Publish Version
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Set the ClickOnce Publish Version](https://docs.microsoft.com/visualstudio/deployment/how-to-set-the-clickonce-publish-version).  
-  
 The [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.  
   
  The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.  

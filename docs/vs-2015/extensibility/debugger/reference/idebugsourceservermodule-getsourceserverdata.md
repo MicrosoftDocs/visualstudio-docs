@@ -1,7 +1,7 @@
 ---
 title: "IDebugSourceServerModule::GetSourceServerData | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,23 +19,21 @@ manager: "ghogen"
 # IDebugSourceServerModule::GetSourceServerData
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSourceServerModule::GetSourceServerData](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsourceservermodule-getsourceserverdata).  
-  
 Retrieves an array of source server information.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetSourceServerData(  
-   ULONG* pDataByteCount,   
-   BYTE** ppData  
+   ULONG* pDataByteCount,   
+   BYTE** ppData  
 );  
 ```  
   
 ```csharp  
 public int GetSourceServerData(  
-   out uint  pDataByteCount,   
-   out int[] ppData  
+   out uint  pDataByteCount,   
+   out int[] ppData  
 );  
 ```  
   

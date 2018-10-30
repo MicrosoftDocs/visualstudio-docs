@@ -1,7 +1,7 @@
 ---
 title: "How to: Create an XML Document Based on an XSD Schema | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,30 +18,28 @@ manager: "ghogen"
 # How to: Create an XML Document Based on an XSD Schema
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Create an XML Document Based on an XSD Schema](https://docs.microsoft.com/visualstudio/xml-tools/how-to-create-an-xml-document-based-on-an-xsd-schema).  
-  
   
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.  
   
  You can use this option for the following scenarios:  
   
--   To understand the use of various constructs in your schema.  
+- To understand the use of various constructs in your schema.  
   
--   To confirm that the schema does what it is intended to do.  
+- To confirm that the schema does what it is intended to do.  
   
- The **Generate Sample XML** feature is only available on global elements, and requires a valid XML schema set.  
+  The **Generate Sample XML** feature is only available on global elements, and requires a valid XML schema set.  
   
- This feature typically generates valid XML documents. However, if the schema contains one or more of the following, the sample might not be valid:  
+  This feature typically generates valid XML documents. However, if the schema contains one or more of the following, the sample might not be valid:  
   
--   The `xs:key`, `xs:keyref`, and `xs:unique` identity constraints.  
+- The `xs:key`, `xs:keyref`, and `xs:unique` identity constraints.  
   
--   `xs:pattern` facets.  
+- `xs:pattern` facets.  
   
--   Enumerations of the `xs:QName` type.  
+- Enumerations of the `xs:QName` type.  
   
--   `xs:ENTITY`, `xs:ENTITIES`, and `xs:NOTATION` types.  
+- `xs:ENTITY`, `xs:ENTITIES`, and `xs:NOTATION` types.  
   
- Also, note that `xs:base64Binary` content will be generated only if enumerations occur in the schema for that type.  
+  Also, note that `xs:base64Binary` content will be generated only if enumerations occur in the schema for that type.  
   
 ### To generate an XML instance document based on the XSD file  
   

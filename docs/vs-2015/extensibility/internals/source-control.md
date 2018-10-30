@@ -1,7 +1,7 @@
 ---
 title: "Source Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Source Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Source Control](https://docs.microsoft.com/visualstudio/extensibility/internals/source-control).  
-  
 This section discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], either through a source control plug-in or a source control VSPackage.  
   
 ## In This Section  

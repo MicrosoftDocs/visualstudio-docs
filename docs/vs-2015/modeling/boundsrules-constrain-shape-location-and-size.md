@@ -1,7 +1,7 @@
 ---
 title: "BoundsRules Constrain Shape Location and Size | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # BoundsRules Constrain Shape Location and Size
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BoundsRules Constrain Shape Location and Size](https://docs.microsoft.com/visualstudio/modeling/boundsrules-constrain-shape-location-and-size).  
-  
 A *Bounds Rule* is a class that defines limits on the size and location of a shape. It provides a method that is called repeatedly while a user is dragging a shape or the corners or sides of a shape.  
   
  The following example constrains a rectangular shape to be a bar of fixed size, either horizontal or vertical. When the user drags the corners or sides, the outline flips between the two permitted configurations of height and width.  

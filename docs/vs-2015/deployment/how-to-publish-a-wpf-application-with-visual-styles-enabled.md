@@ -1,7 +1,7 @@
 ---
 title: "How to: Publish a WPF Application with Visual Styles Enabled | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,21 +18,19 @@ manager: "wpickett"
 # How to: Publish a WPF Application with Visual Styles Enabled
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Publish a WPF Application with Visual Styles Enabled](https://docs.microsoft.com/visualstudio/deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled).  
-  
 Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual Styles Overview](http://msdn.microsoft.com/en-us/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e). For more information about the error message, see [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).  
   
  To resolve the error and to publish the solution, you must perform the following tasks:  
   
--   [Publish the solution without visual styles enabled](#BKMK_publishsolwovs).  
+- [Publish the solution without visual styles enabled](#BKMK_publishsolwovs).  
   
--   [Create a manifest file](#BKMK_CreateManifest).  
+- [Create a manifest file](#BKMK_CreateManifest).  
   
--   [Embed the manifest file into the executable file of the published solution](#BKMK_embedmanifest).  
+- [Embed the manifest file into the executable file of the published solution](#BKMK_embedmanifest).  
   
--   [Sign the application and deployment manifests](#BKMK_signappdeplyman).  
+- [Sign the application and deployment manifests](#BKMK_signappdeplyman).  
   
- Then, you can move the published files to the location from which you want end users to install the application.  
+  Then, you can move the published files to the location from which you want end users to install the application.  
   
 ##  <a name="BKMK_publishsolwovs"></a> Publish the solution without visual styles enabled  
   
@@ -96,72 +94,72 @@ Visual styles enable the appearance of common controls to change based on the th
   
 ##  <a name="BKMK_embedmanifest"></a> Embed the manifest file into the executable file of the published solution  
   
-1.  Open the **Visual Studio Command Prompt**.  
+1. Open the **Visual Studio Command Prompt**.  
   
-     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](http://msdn.microsoft.com/library/94fcf524-9045-4993-bfb2-e2d8bad44219).  
+    For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](http://msdn.microsoft.com/library/94fcf524-9045-4993-bfb2-e2d8bad44219).  
   
-    > [!NOTE]
-    >  The remaining steps make the following assumptions about your solution:  
-    >   
-    >  -   The name of the solution is **MyWPFProject**.  
-    > -   The solution is located in the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\`.  
-    >   
-    >      The solution is published to the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\publish`.  
-    > -   The most recent version of the published application files is located in the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\publish\Application Files\WPFApp_1_0_0_0`  
-    >   
-    >  You do not have to use the name or the directory locations described above. The name and locations described above are used only to illustrate the steps required to publish your solution.  
+   > [!NOTE]
+   >  The remaining steps make the following assumptions about your solution:  
+   > 
+   > - The name of the solution is **MyWPFProject**.  
+   >   -   The solution is located in the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\`.  
+   > 
+   >   The solution is published to the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\publish`.  
+   >   -   The most recent version of the published application files is located in the following directory: `%UserProfile%\Documents\Visual Studio 2010\Projects\publish\Application Files\WPFApp_1_0_0_0`  
+   > 
+   >   You do not have to use the name or the directory locations described above. The name and locations described above are used only to illustrate the steps required to publish your solution.  
   
-2.  At the command prompt, change the path to the directory that contains the most recent version of the published application files. The following example demonstrates this step.  
+2. At the command prompt, change the path to the directory that contains the most recent version of the published application files. The following example demonstrates this step.  
   
-    ```  
-    cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\Application Files\WPFApp_1_0_0_0"  
-    ```  
+   ```  
+   cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\Application Files\WPFApp_1_0_0_0"  
+   ```  
   
-3.  At the command prompt, run the following command to embed the manifest file into the executable file of the application.  
+3. At the command prompt, run the following command to embed the manifest file into the executable file of the application.  
   
-    ```  
-    mt –manifest c:\temp\themes.manifest –outputresource:MyWPFApp.exe.deploy  
-    ```  
+   ```  
+   mt –manifest c:\temp\themes.manifest –outputresource:MyWPFApp.exe.deploy  
+   ```  
   
 ##  <a name="BKMK_signappdeplyman"></a> Sign the application and deployment manifests  
   
-1.  At the command prompt, run the following command to remove the `.deploy` extension from the executable file in the current directory.  
+1. At the command prompt, run the following command to remove the `.deploy` extension from the executable file in the current directory.  
   
-    ```  
-    ren MyWPFApp.exe.deploy MyWPFApp.exe  
-    ```  
+   ```  
+   ren MyWPFApp.exe.deploy MyWPFApp.exe  
+   ```  
   
-    > [!NOTE]
-    >  This example assumes that only one file has the `.deploy` file extension. Make sure that you rename all files in this directory that have the `.deploy` file extension.  
+   > [!NOTE]
+   >  This example assumes that only one file has the `.deploy` file extension. Make sure that you rename all files in this directory that have the `.deploy` file extension.  
   
-2.  At the command prompt, run the following command to sign the application manifest.  
+2. At the command prompt, run the following command to sign the application manifest.  
   
-    ```  
-    mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx  
-    ```  
+   ```  
+   mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx  
+   ```  
   
-    > [!NOTE]
-    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `–cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `–password` option (`For example: mage –u MyWPFApp.exe.manifest –cf ..\..\..\MyWPFApp_TemporaryKey.pfx – password Password`).  
+   > [!NOTE]
+   >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `–cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `–password` option (`For example: mage –u MyWPFApp.exe.manifest –cf ..\..\..\MyWPFApp_TemporaryKey.pfx – password Password`).  
   
-3.  At the command prompt, run the following command to add the `.deploy` extension to the name of the file that you renamed in a previous step of this procedure.  
+3. At the command prompt, run the following command to add the `.deploy` extension to the name of the file that you renamed in a previous step of this procedure.  
   
-    ```  
-    ren MyWPFApp.exe MyWPFApp.exe.deploy  
-    ```  
+   ```  
+   ren MyWPFApp.exe MyWPFApp.exe.deploy  
+   ```  
   
-    > [!NOTE]
-    >  This example assumes that only one file had a `.deploy` file extension. Make sure that you rename all files in this directory that previously had the `.deploy` file name extension.  
+   > [!NOTE]
+   >  This example assumes that only one file had a `.deploy` file extension. Make sure that you rename all files in this directory that previously had the `.deploy` file name extension.  
   
-4.  At the command prompt, run the following command to sign the deployment manifest.  
+4. At the command prompt, run the following command to sign the deployment manifest.  
   
-    ```  
-    mage -u ..\..\MyWPFApp.application -appm MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx  
-    ```  
+   ```  
+   mage -u ..\..\MyWPFApp.application -appm MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx  
+   ```  
   
-    > [!NOTE]
-    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `–cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `–password` option, as in this example:`For example: mage –u MyWPFApp.exe.manifest –cf ..\..\..\MyWPFApp_TemporaryKey.pfx – password Password`.  
+   > [!NOTE]
+   >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `–cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `–password` option, as in this example:`For example: mage –u MyWPFApp.exe.manifest –cf ..\..\..\MyWPFApp_TemporaryKey.pfx – password Password`.  
   
- After you have performed these steps, you can move the published files to the location from which you want end users to install the application. If you intend to update the solution often, you can move these commands into a script and run the script each time that you publish a new version.  
+   After you have performed these steps, you can move the published files to the location from which you want end users to install the application. If you intend to update the solution often, you can move these commands into a script and run the script each time that you publish a new version.  
   
 ## See Also  
  [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   

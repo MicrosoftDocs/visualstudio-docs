@@ -1,7 +1,7 @@
 ---
 title: "IDebugSettingsCallback2::GetEEMetricDword | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,27 +19,25 @@ manager: "ghogen"
 # IDebugSettingsCallback2::GetEEMetricDword
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSettingsCallback2::GetEEMetricDword](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsettingscallback2-geteemetricdword).  
-  
 Retrieves a value that corresponds to the specified metric of the expression evaluator.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetEEMetricDword(  
-   REFGUID guidLang,  
-   REFGUID guidVendor,  
-   LPCWSTR pszMetric,  
-   DWORD*  pdwValue  
+   REFGUID guidLang,  
+   REFGUID guidVendor,  
+   LPCWSTR pszMetric,  
+   DWORD*  pdwValue  
 );  
 ```  
   
 ```csharp  
 private int GetEEMetricDword(  
-   ref Guid guidLang,  
-   ref Guid guidVendor,  
-   string   pszMetric,  
-   out uint pdwValue  
+   ref Guid guidLang,  
+   ref Guid guidVendor,  
+   string   pszMetric,  
+   out uint pdwValue  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "How to: Configure Projects to Target Platforms | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # How to: Configure Projects to Target Platforms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Configure Projects to Target Platforms](https://docs.microsoft.com/visualstudio/ide/how-to-configure-projects-to-target-platforms).  
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [64-bit Applications](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
   
 ## Targeting Platforms with the Configuration Manager  
@@ -36,22 +34,22 @@ The latest version of this topic can be found at [How to: Configure Projects to 
   
 #### To configure a project to target a 64-bit platform  
   
-1.  On the menu bar, choose **Build**, **Configuration Manager**.  
+1. On the menu bar, choose **Build**, **Configuration Manager**.  
   
-2.  In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.  
+2. In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.  
   
-    1.  If the platform that you want doesn’t appear in the **Active solution platform** list, choose **New**.  
+   1.  If the platform that you want doesn’t appear in the **Active solution platform** list, choose **New**.  
   
-         The **New Solution Platform** dialog box appears.  
+        The **New Solution Platform** dialog box appears.  
   
-    2.  In the **Type or select the new platform** list, choose **x64**.  
+   2.  In the **Type or select the new platform** list, choose **x64**.  
   
-        > [!NOTE]
-        >  If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.  
+       > [!NOTE]
+       >  If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.  
   
-    3.  If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.  
+   3.  If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.  
   
- The properties for all projects that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.  
+   The properties for all projects that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.  
   
 ## Targeting Platforms in the Project Designer  
  The Project Designer also provides a way to target different platforms with your project. If selecting one of the platforms included in the list in the **New Solution Platform** dialog box does not work for your solution, you can create a custom configuration name and modify the settings in the **Project Designer** to target the correct platform.  

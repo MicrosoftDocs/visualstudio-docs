@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProvider::GetContextFromAddress | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetContextFromAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetContextFromAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getcontextfromaddress).  
-  
 This method maps a debug address into a document context.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetContextFromAddress(   
-   IDebugAddress*           pAddress,  
-   IDebugDocumentContext2** ppDocContext  
+   IDebugAddress*           pAddress,  
+   IDebugDocumentContext2** ppDocContext  
 );  
 ```  
   
 ```csharp  
 int GetContextFromAddress(  
-   IDebugAddress              pAddress,   
-   out IDebugDocumentContext2 ppDocContext  
+   IDebugAddress              pAddress,   
+   out IDebugDocumentContext2 ppDocContext  
 );  
 ```  
   

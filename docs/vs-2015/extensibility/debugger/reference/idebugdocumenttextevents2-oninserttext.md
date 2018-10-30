@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentTextEvents2::onInsertText | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugDocumentTextEvents2::onInsertText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentTextEvents2::onInsertText](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumenttextevents2-oninserttext).  
-  
 Notifies the debug package that text has been inserted into the document.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT onInsert(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToInsert  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToInsert  
 );  
 ```  
   
 ```csharp  
 int onInsert(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToInsert  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToInsert  
 );  
 ```  
   

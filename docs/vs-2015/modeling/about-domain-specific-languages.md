@@ -1,7 +1,7 @@
 ---
 title: "About Domain-Specific Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,29 +18,27 @@ manager: "douge"
 # About Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [About Domain-Specific Languages](https://docs.microsoft.com/visualstudio/modeling/about-domain-specific-languages).  
-  
 Unlike a general-purpose language such as C# or UML, a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.  
   
  Well-known DSLs include regular expressions and SQL. Each DSL is much better than a general-purpose language for describing operations on text strings or a database, but much worse for describing ideas that are outside its own scope. Individual industries also have their own DSLs. For example, in the telecommunications industry, call description languages are widely used to specify the sequence of states in a telephone call, and in the air travel industry a standard DSL is used to describe flight bookings.  
   
  Your business and your project also deal with special sets of concepts that could be described with a DSL. For example, you could define a DSL for one of these applications:  
   
--   Plan of navigation paths in a Web site.  
+- Plan of navigation paths in a Web site.  
   
--   Wiring diagrams for electronic components.  
+- Wiring diagrams for electronic components.  
   
--   Networks of conveyor belts and baggage handling equipment for an airport.  
+- Networks of conveyor belts and baggage handling equipment for an airport.  
   
- When you design a DSL, you define a *domain class* for each of the important concepts in the domain, such as a Web page, lamp, or airport check-in desk. You define *domain relationships* such as hyperlink, wire, or a conveyor belt to link the concepts together.  
+  When you design a DSL, you define a *domain class* for each of the important concepts in the domain, such as a Web page, lamp, or airport check-in desk. You define *domain relationships* such as hyperlink, wire, or a conveyor belt to link the concepts together.  
   
- Users of your DSL create *models.* Models are *instances* of the DSL. For example, they describe a particular Web site, or the wiring of a particular device, or the baggage handling system in a particular airport.  
+  Users of your DSL create *models.* Models are *instances* of the DSL. For example, they describe a particular Web site, or the wiring of a particular device, or the baggage handling system in a particular airport.  
   
- Your users can view a model as a diagram or as a Windows form. Models can also be viewed as XML, which is how they are stored. When you define a DSL, you define how the instances of each domain class and relationship appear on the user's screen. A typical DSL is displayed as a collection of icons or rectangles connected by arrows.  
+  Your users can view a model as a diagram or as a Windows form. Models can also be viewed as XML, which is how they are stored. When you define a DSL, you define how the instances of each domain class and relationship appear on the user's screen. A typical DSL is displayed as a collection of icons or rectangles connected by arrows.  
   
- The following figure shows a small model in a diagrammatic DSL:  
+  The following figure shows a small model in a diagrammatic DSL:  
   
- ![Tudor Family Tree Model](../modeling/media/tudor-familytreemodel.png "Tudor_FamilyTreeModel")  
+  ![Tudor Family Tree Model](../modeling/media/tudor-familytreemodel.png "Tudor_FamilyTreeModel")  
   
 ## What you can do with DSLs  
  A typical application of a DSL is to generate program code or other artifacts. When you define your DSL, you can define *text templates* that read a model of the DSL and generate text files.  

@@ -1,7 +1,7 @@
 ---
 title: "Viewing the Structure of Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,8 +37,6 @@ manager: "ghogen"
 # Viewing the Structure of Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Viewing the Structure of Code](https://docs.microsoft.com/visualstudio/ide/viewing-the-structure-of-code).  
-  
 You can examine the objects and members in Visual Studio projects, and the objects and members in .NET Framework components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).  
   
  The following sections of this document describe the different code structure windows.  
@@ -141,23 +139,23 @@ Call Hierarchy window
   
  You can filter what you want to view in the **Object Browser**. By using the drop-down list at the top of the window, you can choose among the following options:  
   
--   Any .NET Framework  
+- Any .NET Framework  
   
--   Silverlight  
+- Silverlight  
   
--   The active solution  
+- The active solution  
   
--   A custom set of components  
+- A custom set of components  
   
- Custom components can include managed code executables, library assemblies, type libraries, and .ocx files. It is not possible to add C++ custom components. Custom settings are saved in the Visual Studio user application directory, %APPDATA%\Roaming\Microsoft\VisualStudio\11.0\ObjBrowEX.dat.  
+  Custom components can include managed code executables, library assemblies, type libraries, and .ocx files. It is not possible to add C++ custom components. Custom settings are saved in the Visual Studio user application directory, %APPDATA%\Roaming\Microsoft\VisualStudio\11.0\ObjBrowEX.dat.  
   
- The left pane of the **Object Browser** shows physical containers such as .NET Framework and COM components. You can expand the container nodes to display the namespaces they contain, and then expand the namespaces to display the types they contain. When you select a type, its members (such as properties and methods) are listed in the right pane. The lower right pane displays detailed information about the selected item.  
+  The left pane of the **Object Browser** shows physical containers such as .NET Framework and COM components. You can expand the container nodes to display the namespaces they contain, and then expand the namespaces to display the types they contain. When you select a type, its members (such as properties and methods) are listed in the right pane. The lower right pane displays detailed information about the selected item.  
   
- You can search for a specific item by using the **Search** box at the top of the window. Searches are case-insensitive. Search results are displayed in the left pane. To clear a search, choose the **Clear Search** (X) button next to the **Search** box.  
+  You can search for a specific item by using the **Search** box at the top of the window. Searches are case-insensitive. Search results are displayed in the left pane. To clear a search, choose the **Clear Search** (X) button next to the **Search** box.  
   
- The **Object Browser** keeps track of the selections you have made, and you can navigate among your selections by using the **Forward** and **Back** buttons on the toolbar.  
+  The **Object Browser** keeps track of the selections you have made, and you can navigate among your selections by using the **Forward** and **Back** buttons on the toolbar.  
   
- You can use the **Object Browser** to add an assembly reference to an open solution by selecting an item (assembly, namespace, type, or member) and choosing the **Add Reference** button on the toolbar.  
+  You can use the **Object Browser** to add an assembly reference to an open solution by selecting an item (assembly, namespace, type, or member) and choosing the **Add Reference** button on the toolbar.  
   
 ### Object Browser Settings  
  By using the **Object Browser Settings** button on the toolbar, you can specify one of the following views.  

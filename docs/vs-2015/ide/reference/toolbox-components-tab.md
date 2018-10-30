@@ -1,7 +1,7 @@
 ---
 title: "Toolbox, Components Tab | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Toolbox, Components Tab
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Toolbox, Components Tab](https://docs.microsoft.com/visualstudio/ide/reference/toolbox-components-tab).  
-  
   
 Displays components you can add to [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] and [!INCLUDE[csprcs](../../includes/csprcs-md.md)] designers. In addition to the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] components that are included with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab. For more information, see [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/en-us/21285050-cadd-455a-b1f5-a2289a89c4db).  
   

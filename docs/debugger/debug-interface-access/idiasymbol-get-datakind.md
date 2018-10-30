@@ -22,7 +22,7 @@ Retrieves the variable classification of a data symbol.
   
 ```C++  
 HRESULT get_dataKind (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

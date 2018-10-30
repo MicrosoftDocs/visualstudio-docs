@@ -1,7 +1,7 @@
 ---
 title: "IDebugDisassemblyStream2::GetCurrentLocation | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetCurrentLocation
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDisassemblyStream2::GetCurrentLocation](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdisassemblystream2-getcurrentlocation).  
-  
 Returns a code location identifier that represents the current code location.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetCurrentLocation(   
-   UINT64* puCodeLocationId  
+   UINT64* puCodeLocationId  
 );  
 ```  
   
 ```csharp  
 int GetCurrentLocation(   
-   out ulong puCodeLocationId  
+   out ulong puCodeLocationId  
 );  
 ```  
   

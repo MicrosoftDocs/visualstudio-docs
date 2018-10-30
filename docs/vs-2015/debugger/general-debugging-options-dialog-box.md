@@ -1,7 +1,7 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,8 +31,6 @@ manager: "ghogen"
 # General, Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [General, Debugging, Options Dialog Box](https://docs.microsoft.com/visualstudio/debugger/general-debugging-options-dialog-box).  
-  
 The**Tools / Options / Debugging / General** page lets you set the following options:  
   
  **Ask before deleting all breakpoints**  
@@ -135,55 +133,55 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
  **Use Managed Compatibility Mode**  
  Replaces the default debugging engine with a legacy version to enable these scenarios:  
   
--   You are using a .NET Framework language other than C#, VB, or F# that provides its own Expression Evaluator (this includes C++/CLI).  
+- You are using a .NET Framework language other than C#, VB, or F# that provides its own Expression Evaluator (this includes C++/CLI).  
   
--   You want to enable Edit and Continue for C++ projects while mixed mode debugging.  
+- You want to enable Edit and Continue for C++ projects while mixed mode debugging.  
   
- Note that choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine.  
+  Note that choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine.  
   
- **Use Native Compatibility Mode**  
- When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.  
+  **Use Native Compatibility Mode**  
+  When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.  
   
- You should use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Please use Visual Studio 2013 projects for the optimal debugging experience in these cases.  
+  You should use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Please use Visual Studio 2013 projects for the optimal debugging experience in these cases.  
   
- **Use the legacy C# and VB expression evaluators**  
- The debugger will use the Visual Studio 2013 C#/VB expression evaluators instead of the Visual Studio 2015 Roslyn-based expression evaluators.  
+  **Use the legacy C# and VB expression evaluators**  
+  The debugger will use the Visual Studio 2013 C#/VB expression evaluators instead of the Visual Studio 2015 Roslyn-based expression evaluators.  
   
- **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**  
- Visual Studio warns you when you are using a custom debugger visualizer that is running code in the debuggee process, because it could be running unsafe code.  
+  **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**  
+  Visual Studio warns you when you are using a custom debugger visualizer that is running code in the debuggee process, because it could be running unsafe code.  
   
- **Enable Windows debug heap allocator (Native only)**  
- Enables the windows debug heap to improve heap diagnostics. Enabling this option will impact debugging performance.  
+  **Enable Windows debug heap allocator (Native only)**  
+  Enables the windows debug heap to improve heap diagnostics. Enabling this option will impact debugging performance.  
   
- **Enable UI Debugging Tools for XAML**  
- The Live Visual Tree and the Live Property Explore windows will appear when you start debugging (F5) a supported project type. For more information, see [Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md).  
+  **Enable UI Debugging Tools for XAML**  
+  The Live Visual Tree and the Live Property Explore windows will appear when you start debugging (F5) a supported project type. For more information, see [Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md).  
   
- **Preview selected elements in Live Visual Tree**  
- The XAML element whose context is selected is also selected in the **Live Visual Tree** window.  
+  **Preview selected elements in Live Visual Tree**  
+  The XAML element whose context is selected is also selected in the **Live Visual Tree** window.  
   
- **Show runtime tools in application**  
- Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.  
+  **Show runtime tools in application**  
+  Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.  
   
- **Enable Diagnostic Tools while debugging**  
- The **Diagnostic Tools** window appears while you are debugging. For more information, see [Debugger-integrated profiling](http://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859).  
+  **Enable Diagnostic Tools while debugging**  
+  The **Diagnostic Tools** window appears while you are debugging. For more information, see [Debugger-integrated profiling](http://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859).  
   
- **Show elapsed time PerfTip while debugging**  
- The code window displays the elapsed time of a given method call when you are debugging.  
+  **Show elapsed time PerfTip while debugging**  
+  The code window displays the elapsed time of a given method call when you are debugging.  
   
- **Enable Edit and Continue**  
- You can use the Edit and Continue functionality while debugging .  
+  **Enable Edit and Continue**  
+  You can use the Edit and Continue functionality while debugging .  
   
- **Enable Native Edit and Continue**  
- You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).  
+  **Enable Native Edit and Continue**  
+  You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).  
   
- **Apply changes on continue (Native only)**  
- Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the “Apply Code Changes” item under the Debug menu.  
+  **Apply changes on continue (Native only)**  
+  Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the “Apply Code Changes” item under the Debug menu.  
   
- **Warn about stale code (Native only)**  
- Get warnings about stale code.  
+  **Warn about stale code (Native only)**  
+  Get warnings about stale code.  
   
- **Allow precompiling (Native only)**  
- Precompiling is allowed.  
+  **Allow precompiling (Native only)**  
+  Precompiling is allowed.  
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

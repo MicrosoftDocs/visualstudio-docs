@@ -1,7 +1,7 @@
 ---
 title: "MACHINE_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,22 +21,20 @@ manager: "ghogen"
 # MACHINE_INFO_FLAGS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [MACHINE_INFO_FLAGS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/machine-info-flags).  
-  
 Used to describe a machine.  
   
 ## Syntax  
   
 ```cpp#  
 enum enum_MACHINE_INFO_FLAGS {   
-   MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001  
+   MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001  
 };  
 typedef DWORD MACHINE_INFO_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_MACHINE_INFO_FLAGS {   
-   MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001  
+   MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001  
 };  
 ```  
   

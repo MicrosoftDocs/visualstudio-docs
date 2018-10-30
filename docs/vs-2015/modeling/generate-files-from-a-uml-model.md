@@ -1,7 +1,7 @@
 ---
 title: "Generate files from a UML model | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,32 +18,30 @@ manager: "douge"
 # Generate files from a UML model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Generate files from a UML model](https://docs.microsoft.com/visualstudio/modeling/generate-files-from-a-uml-model).  
-  
 From a UML model, you can generate program code, schemas, documents, resources, and other artifacts of any kind. One convenient method of generating text files from a UML model is to use [text templates](../modeling/code-generation-and-t4-text-templates.md). These let you embed program code inside the text that you want to generate.  
   
  There are three principal scenarios:  
   
--   [Generating files from a menu command](#Command) or gesture. You define a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] command that is available on UML models.  
+- [Generating files from a menu command](#Command) or gesture. You define a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] command that is available on UML models.  
   
--   [Generating files from an application](#Application). You write an application that reads UML models and generates files.  
+- [Generating files from an application](#Application). You write an application that reads UML models and generates files.  
   
--   [Generating at design time](#Design). You use a model to define some of your application's functionality, and generate code, resources, and so on within your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.  
+- [Generating at design time](#Design). You use a model to define some of your application's functionality, and generate code, resources, and so on within your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.  
   
- This topic ends with a discussion of [how to use text generation](#What). For more information, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
+  This topic ends with a discussion of [how to use text generation](#What). For more information, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
 ##  <a name="Command"></a> Generating files from a menu command  
  You can use preprocess text templates within a UML menu command. Within the code of the text template, or in a separate partial class, you can read the model that is viewed by the diagram.  
   
  For more information about these features, read the following topics:  
   
--   [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)  
+- [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)  
   
--   [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)  
+- [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)  
   
--   [Navigate the UML model](../modeling/navigate-the-uml-model.md)  
+- [Navigate the UML model](../modeling/navigate-the-uml-model.md)  
   
- The approach demonstrated in the following example is suitable for generating text from a single model, when you initiate the operation from one of the model diagrams. To process a model in a separate context, consider using [Visual Studio Modelbus](../modeling/integrate-uml-models-with-other-models-and-tools.md) to access the model and its elements.  
+  The approach demonstrated in the following example is suitable for generating text from a single model, when you initiate the operation from one of the model diagrams. To process a model in a separate context, consider using [Visual Studio Modelbus](../modeling/integrate-uml-models-with-other-models-and-tools.md) to access the model and its elements.  
   
 ### Example  
  To run this example, create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension (VSIX) project. The project name that is used in this example is `VdmGenerator`. In the **source.extension.vsixmanifest** file, click **Add Content** and set the type field to **MEF Component** and source path referencing the current project. For more information about how to set up this type of project, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
@@ -170,41 +168,41 @@ Type Class2 ::
   
 ##### To set up a Visual Studio solution for this example  
   
-1.  Create a UML class diagram in a modeling project in a new solution.  
+1. Create a UML class diagram in a modeling project in a new solution.  
   
-    1.  In the **Architecture** menu, click **New Diagram**.  
+   1.  In the **Architecture** menu, click **New Diagram**.  
   
-    2.  Select **UML Class Diagram**.  
+   2.  Select **UML Class Diagram**.  
   
-    3.  Follow the prompts to create a new solution and modeling project.  
+   3.  Follow the prompts to create a new solution and modeling project.  
   
-    4.  Add some classes to the diagram by dragging the UML Class tool from the toolbox.  
+   4.  Add some classes to the diagram by dragging the UML Class tool from the toolbox.  
   
-    5.  Save the file.  
+   5.  Save the file.  
   
-2.  Create a C# or Visual Basic project in the same solution.  
+2. Create a C# or Visual Basic project in the same solution.  
   
-    -   In Solution Explorer, right-click the solution, point to **Add**, and then click **New Project**. Under **Installed Templates**, click **Visual Basic** or **Visual C#,** and then select a project type such as **Console Application**.  
+   -   In Solution Explorer, right-click the solution, point to **Add**, and then click **New Project**. Under **Installed Templates**, click **Visual Basic** or **Visual C#,** and then select a project type such as **Console Application**.  
   
-3.  Add a plain text file to the C# or Visual Basic project. This file will contain code that is shared if you want to write several text templates.  
+3. Add a plain text file to the C# or Visual Basic project. This file will contain code that is shared if you want to write several text templates.  
   
-    -   In Solution Explorer, right-click the project, point to **Add**, and then click **New Item**. Select **Text File**.  
+   - In Solution Explorer, right-click the project, point to **Add**, and then click **New Item**. Select **Text File**.  
   
      Insert the text that is shown in the following section.  
   
-4.  Add a Text Template file to the C# or Visual Basic project.  
+4. Add a Text Template file to the C# or Visual Basic project.  
   
-    -   In Solution Explorer, right-click the project, point to **Add**, and then click **New Item**. Select **Text Template**.  
+   - In Solution Explorer, right-click the project, point to **Add**, and then click **New Item**. Select **Text Template**.  
   
      Insert the code that follows into the text template file.  
   
-5.  Save the text template file.  
+5. Save the text template file.  
   
-6.  Inspect the code in the subsidiary file. It should contain a class for each UML class in the model.  
+6. Inspect the code in the subsidiary file. It should contain a class for each UML class in the model.  
   
-    1.  In a Visual Basic project, click **Show All Files** in the Solution Explorer toolbar.  
+   1.  In a Visual Basic project, click **Show All Files** in the Solution Explorer toolbar.  
   
-    2.  Expand the template file node in Solution Explorer.  
+   2.  Expand the template file node in Solution Explorer.  
   
 #### Content of the shared text file  
  In this example, the file is called SharedTemplateCode.txt, and it is in the same folder as the text templates.  

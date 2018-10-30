@@ -1,7 +1,7 @@
 ---
 title: "Registering Single File Generators | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Registering Single File Generators
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registering Single File Generators](https://docs.microsoft.com/visualstudio/extensibility/internals/registering-single-file-generators).  
-  
 To make a custom tool available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you must register it so [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] can instantiate it and associates it with a particular project type.  
   
 ### To register a custom tool  

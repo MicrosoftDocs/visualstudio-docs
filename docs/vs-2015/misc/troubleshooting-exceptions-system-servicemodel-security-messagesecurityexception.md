@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,35 +42,35 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
   
 #### To create a custom service binding for the WCF service hosted inside the ASP.NET Development Server  
   
-1.  Open the Web.config file for the WCF service that is generating the exception.  
+1. Open the Web.config file for the WCF service that is generating the exception.  
   
-2.  Enter the following information into the Web.config file.  
+2. Enter the following information into the Web.config file.  
   
-    ```  
-    <bindings>  
-      <customBinding>  
-        <binding name="Service1Binding">  
-          <transactionFlow />  
-          <textMessageEncoding />  
-          <httpTransport authenticationScheme="Ntlm" />  
-        </binding>  
-      </customBinding>  
-    </bindings>  
-    ```  
+   ```  
+   <bindings>  
+     <customBinding>  
+       <binding name="Service1Binding">  
+         <transactionFlow />  
+         <textMessageEncoding />  
+         <httpTransport authenticationScheme="Ntlm" />  
+       </binding>  
+     </customBinding>  
+   </bindings>  
+   ```  
   
-3.  Save and close the Web.config file.  
+3. Save and close the Web.config file.  
   
-4.  In the code for the WCF or Web service, change the endpoint value to the following:  
+4. In the code for the WCF or Web service, change the endpoint value to the following:  
   
-    ```  
-    <endpoint address="" binding="customBinding" bindingConfiguration="Service1Binding" contract="IService1" />  
-    ```  
+   ```  
+   <endpoint address="" binding="customBinding" bindingConfiguration="Service1Binding" contract="IService1" />  
+   ```  
   
-     This ensures that the service uses the custom binding.  
+    This ensures that the service uses the custom binding.  
   
-5.  Add a reference to the service in the Web application that accesses the service. (In the **Add Service Reference** dialog box, add a reference to the service as you did with the original service that was generating the exception.)  
+5. Add a reference to the service in the Web application that accesses the service. (In the **Add Service Reference** dialog box, add a reference to the service as you did with the original service that was generating the exception.)  
   
- You can follow these steps to disable NTLM security when you are working with a WCF service reference.  
+   You can follow these steps to disable NTLM security when you are working with a WCF service reference.  
   
 > [!IMPORTANT]
 >  Turning off NTLM security is not recommended and could constitute a security threat.  

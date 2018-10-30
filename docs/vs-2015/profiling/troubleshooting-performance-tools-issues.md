@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Performance Tools Issues | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Troubleshooting Performance Tools Issues
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting Performance Tools Issues](https://docs.microsoft.com/visualstudio/profiling/troubleshooting-performance-tools-issues).  
-  
 You might experience one of the following issues when you use the Profiling Tools:  
   
 -   [No Data is Collected by the Profiling Tools](#NoDataCollected)  

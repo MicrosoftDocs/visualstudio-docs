@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider2::GetTypeFromToken | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,27 +20,25 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::GetTypeFromToken
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider2::GetTypeFromToken](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider2-gettypefromtoken).  
-  
 Retrieves a type given its token.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetTypeFromToken(  
-   ULONG32       appDomain,  
-   GUID          guidModule,  
-   DWORD         tdToken,  
-   IDebugField** ppField  
+   ULONG32       appDomain,  
+   GUID          guidModule,  
+   DWORD         tdToken,  
+   IDebugField** ppField  
 );  
 ```  
   
 ```csharp  
 int GetTypeFromToken(  
-   uint            appDomain,  
-   Guid            guidModule,  
-   uint            tdToken,  
-   out IDebugField ppField  
+   uint            appDomain,  
+   Guid            guidModule,  
+   uint            tdToken,  
+   out IDebugField ppField  
 );  
 ```  
   

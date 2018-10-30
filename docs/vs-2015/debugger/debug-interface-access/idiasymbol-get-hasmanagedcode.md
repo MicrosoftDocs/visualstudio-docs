@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_hasManagedCode | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_hasManagedCode
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_hasManagedCode](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hasmanagedcode).  
-  
 Retrieves a flag indicating whether the module contains managed code.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_hasManagedCode(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

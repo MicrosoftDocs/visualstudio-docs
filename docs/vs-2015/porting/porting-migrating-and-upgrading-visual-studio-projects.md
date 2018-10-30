@@ -1,7 +1,7 @@
 ---
 title: "Porting, Migrating, and Upgrading Visual Studio Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -86,19 +86,19 @@ When you are considering whether you should move to a newer version of Visual St
 ## Troubleshooting project compatibility issues  
  Here are some things you can do when a project won't open in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] or [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]:  
   
--   If you try to open a project that isn't supported in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] or [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] and for which the associated version of Visual Studio isn't installed, a message that the project type isn't supported might appear and the project type might be listed in the **Review Project and Solution Changes** dialog box under **Unsupported projects**. To resolve this issue, open the programs and features page in the Windows **Control Panel**, select **Visual Studio**, and then choose **Change**, **Repair**. Then you can install the missing version.  
+- If you try to open a project that isn't supported in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] or [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] and for which the associated version of Visual Studio isn't installed, a message that the project type isn't supported might appear and the project type might be listed in the **Review Project and Solution Changes** dialog box under **Unsupported projects**. To resolve this issue, open the programs and features page in the Windows **Control Panel**, select **Visual Studio**, and then choose **Change**, **Repair**. Then you can install the missing version.  
   
--   If you try to open a project for a desktop app in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)], an error occurs and one of these messages is displayed: "This edition of Visual Studio only supports [!INCLUDE[win81](../includes/win81-md.md)] apps" or "This project is incompatible with the current edition of Visual Studio." [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] is restricted to the development, testing, and deployment of Windows Store apps designed for Windows 8.1. To open a desktop app project, you must use an edition of Visual Studio that supports that project type.  
+- If you try to open a project for a desktop app in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)], an error occurs and one of these messages is displayed: "This edition of Visual Studio only supports [!INCLUDE[win81](../includes/win81-md.md)] apps" or "This project is incompatible with the current edition of Visual Studio." [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] is restricted to the development, testing, and deployment of Windows Store apps designed for Windows 8.1. To open a desktop app project, you must use an edition of Visual Studio that supports that project type.  
   
-     For more information about the Visual Studio editions, see [Microsoft Visual Studio Products](http://go.microsoft.com/fwlink/?LinkId=254332)  
+   For more information about the Visual Studio editions, see [Microsoft Visual Studio Products](http://go.microsoft.com/fwlink/?LinkId=254332)  
   
--   If you try to open a Windows Store App project in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] Desktop, an error occurs. [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] Desktop cannot be used to build Windows Store apps. If you want to build Windows Store apps, you can also install [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]. Or, to develop apps for all Microsoft platforms and the web, try Visual Studio Professional 2013.  
+- If you try to open a Windows Store App project in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] Desktop, an error occurs. [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] Desktop cannot be used to build Windows Store apps. If you want to build Windows Store apps, you can also install [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]. Or, to develop apps for all Microsoft platforms and the web, try Visual Studio Professional 2013.  
   
--   If a project requires features that are specific to [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], it can't be opened in an earlier version.  
+- If a project requires features that are specific to [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], it can't be opened in an earlier version.  
   
--   If you're using [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] and you want to open a project that was created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], you might be able to customize the project system to incorporate features of [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]. For information about how to do this, see [Making Custom Projects Version-Aware](../misc/making-custom-projects-version-aware.md).  
+- If you're using [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] and you want to open a project that was created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], you might be able to customize the project system to incorporate features of [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]. For information about how to do this, see [Making Custom Projects Version-Aware](../misc/making-custom-projects-version-aware.md).  
   
- For additional troubleshooting information, see the [Visual Studio 2013 Compatibility](http://support.microsoft.com/kb/2863286) KB article.  
+  For additional troubleshooting information, see the [Visual Studio 2013 Compatibility](http://support.microsoft.com/kb/2863286) KB article.  
   
 ##  <a name="file"></a> Files  
  The following list identifies whether [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] supports each type of file, whether you can open the file in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] and Visual Studio 2010 SP1, and whether you have to modify it to ensure compatibility.  

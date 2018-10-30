@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_platform | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_platform
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_platform](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-platform).  
-  
 Retrieves the platform type for which the compiland was compiled.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_platform (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

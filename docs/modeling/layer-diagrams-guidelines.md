@@ -99,7 +99,7 @@ Typically, you will see some dependencies that should not exist. You can edit th
 To describe the changes that you plan to make to your system or the intended architecture, use the following steps to edit the dependency diagram. You might also consider making some refactoring changes to improve the structure of the code before extending it. See [Improving the structure of the code](#Improving).
 
 |**To**|**Perform these steps**|
-|------------|-----------------------------|
+|-|-|
 |Delete a dependency that should not exist|Click the dependency, and then press **DELETE**.|
 |Change or restrict the direction of a dependency|Set its **Direction** property.|
 |Create new dependencies|Use the **Dependency** and **Bidirectional Dependency** tools.<br /><br /> To draw multiple dependencies, double-click the tool. When you are finished, click the **Pointer** tool or press the **ESC** key.|

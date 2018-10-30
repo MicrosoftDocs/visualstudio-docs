@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine3::SetEngineGuid | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,22 +21,20 @@ manager: "ghogen"
 # IDebugEngine3::SetEngineGuid
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3::SetEngineGuid](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3-setengineguid).  
-  
 This method sets the debug engine's (DE) `GUID`.  
   
 ## Syntax  
   
 ```cpp  
 HRESULT SetEngineGuid(  
-   GUID* guidEngine  
+   GUID* guidEngine  
 );  
 ```  
   
 ```  
 [C#]  
 int SetEngineGuid(  
-   ref Guid guidEngine  
+   ref Guid guidEngine  
 );  
 ```  
   

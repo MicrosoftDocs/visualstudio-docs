@@ -1,7 +1,7 @@
 ---
 title: "IDebugPendingBreakpoint2::Enable | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,21 +22,19 @@ manager: "ghogen"
 # IDebugPendingBreakpoint2::Enable
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPendingBreakpoint2::Enable](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugpendingbreakpoint2-enable).  
-  
 Toggles the enabled state of the pending breakpoint.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Enable(   
-   BOOL fEnable  
+   BOOL fEnable  
 );  
 ```  
   
 ```csharp  
 int Enable(   
-   int fEnable  
+   int fEnable  
 );  
 ```  
   

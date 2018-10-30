@@ -116,7 +116,7 @@ End Sub
          Next y
       Next myCustomerClass1
       
-      ' Supress repainting until all the objects have been created.
+      ' Suppress repainting until all the objects have been created.
       myTreeView.BeginUpdate()
       
       ' Clear the 'TreeView' each time the method is called.

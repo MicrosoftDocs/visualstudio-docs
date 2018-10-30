@@ -1,7 +1,7 @@
 ---
 title: "IEnumDebugPrograms2::Skip | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IEnumDebugPrograms2::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IEnumDebugPrograms2::Skip](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/ienumdebugprograms2-skip).  
-  
 Skips over the specified number of elements.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Skip(  
-   ULONG celt  
+   ULONG celt  
 );  
 ```  
   
 ```csharp  
 int Skip(  
-   uint celt  
+   uint celt  
 );  
 ```  
   

@@ -48,7 +48,7 @@ The Counters panel provides the following features:
 ## Tasks
 
 |Tasks|Associated topics|
-|-----------|-----------------------|
+|-|-----------------------|
 |**Add more performance counters to a graph in graph view:** In the **Counters** panel, you can add different kinds of data to a load test graph by adding more performance counters on the graph.|-   [How to: Add and delete counters on graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)|
 |**Analyze any thresholds you specified in the load test that were violated:** The **Counters** panel displays icons representing threshold violations that you can then add to tables and graphs for further analysis.|-   [How to: Analyze threshold violations using the Counters panel](../test/analyze-threshold-rule-violations-in-load-tests.md)|
 |**Analyze any errors that were detected during the load test run:** The **Counters** panel includes an errors node that contains error categories and subcategories such as HTTP errors that you can use to add errors to graphs for further analysis.|-   [How to: Analyze errors using the Counters panel](../test/how-to-analyze-errors-using-the-counters-panel.md)|
@@ -60,7 +60,7 @@ Choose a value for the **Sample Rate** property in the load test run settings ba
 Here are some guidelines for sample rates:
 
 |Load Test Duration|Recommended Sample Rate|
-|------------------------|-----------------------------|
+|-|-----------------------------|
 |\< 1 Hour|5 seconds|
 |1 - 8 Hours|15 seconds|
 |8 - 24 Hours|30 seconds|

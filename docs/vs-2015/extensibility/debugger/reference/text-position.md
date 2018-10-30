@@ -1,7 +1,7 @@
 ---
 title: "TEXT_POSITION | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # TEXT_POSITION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [TEXT_POSITION](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/text-position).  
-  
 Describes the line and column location in the given text.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct _tagTEXT_POSITION {   
-   DWORD dwLine;  
-   DWORD dwColumn;  
+   DWORD dwLine;  
+   DWORD dwColumn;  
 } TEXT_POSITION;  
 ```  
   
 ```csharp  
 public struct TEXT_POSITION {   
-   public uint dwLine;  
-   public uint dwColumn;  
+   public uint dwLine;  
+   public uint dwColumn;  
 };  
 ```  
   
@@ -53,25 +51,25 @@ public struct TEXT_POSITION { 
   
  This structure is filled in by a call to the following methods:  
   
--   [GetStatementRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md)  
+- [GetStatementRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md)  
   
--   [GetSourceRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getsourcerange.md)  
+- [GetSourceRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getsourcerange.md)  
   
--   [GetRange](../../../extensibility/debugger/reference/idebugdocumentposition2-getrange.md)  
+- [GetRange](../../../extensibility/debugger/reference/idebugdocumentposition2-getrange.md)  
   
--   [GetOffset](../../../extensibility/debugger/reference/idebugfunctionposition2-getoffset.md)  
+- [GetOffset](../../../extensibility/debugger/reference/idebugfunctionposition2-getoffset.md)  
   
- This structure is passed as a parameter to the following methods:  
+  This structure is passed as a parameter to the following methods:  
   
--   [GetText](../../../extensibility/debugger/reference/idebugdocumenttext2-gettext.md)  
+- [GetText](../../../extensibility/debugger/reference/idebugdocumenttext2-gettext.md)  
   
--   [onInsertText](../../../extensibility/debugger/reference/idebugdocumenttextevents2-oninserttext.md)  
+- [onInsertText](../../../extensibility/debugger/reference/idebugdocumenttextevents2-oninserttext.md)  
   
--   [onRemoveText](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onremovetext.md)  
+- [onRemoveText](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onremovetext.md)  
   
--   [onReplaceText](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onreplacetext.md)  
+- [onReplaceText](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onreplacetext.md)  
   
--   [onUpdateTextAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatetextattributes.md)  
+- [onUpdateTextAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatetextattributes.md)  
   
 ## Requirements  
  Header: msdbg.h  

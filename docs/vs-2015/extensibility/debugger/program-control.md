@@ -1,7 +1,7 @@
 ---
 title: "Program Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Program Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Program Control](https://docs.microsoft.com/visualstudio/extensibility/debugger/program-control).  
-  
 In Visual Studio debugging, all of the following stepping and continuing routines occur at the program level:  
   
 -   Setting the next statement, that is, setting your computer to the next instruction to be executed in a particular frame environment  

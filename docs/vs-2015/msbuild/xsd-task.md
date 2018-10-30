@@ -1,7 +1,7 @@
 ---
 title: "XSD Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,8 +30,6 @@ manager: "ghogen"
 # XSD Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [XSD Task](https://docs.microsoft.com/visualstudio/msbuild/xsd-task).  
-  
   
 Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class files from a source.  
   

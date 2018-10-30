@@ -1,7 +1,7 @@
 ---
 title: "IDebugStackFrame2::GetInfo | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # IDebugStackFrame2::GetInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getinfo).  
-  
 Gets a description of the stack frame.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetInfo (   
-   FRAMEINFO_FLAGS dwFieldSpec,  
-   UINT            nRadix,  
-   FRAMEINFO*      pFrameInfo  
+   FRAMEINFO_FLAGS dwFieldSpec,  
+   UINT            nRadix,  
+   FRAMEINFO*      pFrameInfo  
 );  
 ```  
   
 ```csharp  
 int GetInfo (   
-   enum_FRAMEINFO_FLAGS dwFieldSpec,  
-   uint                 nRadix,  
-   FRAMEINFO[]          pFrameInfo  
+   enum_FRAMEINFO_FLAGS dwFieldSpec,  
+   uint                 nRadix,  
+   FRAMEINFO[]          pFrameInfo  
 );  
 ```  
   

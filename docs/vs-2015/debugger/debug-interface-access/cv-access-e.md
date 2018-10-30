@@ -1,7 +1,7 @@
 ---
 title: "CV_access_e | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,17 +22,15 @@ manager: "ghogen"
 # CV_access_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CV_access_e](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/cv-access-e).  
-  
 Specifies the scope of visibility (access level) of member functions and variables.  
   
 ## Syntax  
   
 ```cpp#  
 typedef enum CV_access_e {   
-   CV_private   = 1,  
-   CV_protected = 2,  
-   CV_public    = 3  
+   CV_private   = 1,  
+   CV_protected = 2,  
+   CV_public    = 3  
 } CV_access_e;  
 ```  
   

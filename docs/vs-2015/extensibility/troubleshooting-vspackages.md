@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Troubleshooting VSPackages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Troubleshooting VSPackages](https://docs.microsoft.com/visualstudio/extensibility/troubleshooting-vspackages).  
-  
 Following are common problems that you might have with your VSPackage and tips to resolve the issues.  
   
 ### To troubleshoot a VSPackage that keeps Visual Studio from starting  
@@ -112,19 +110,19 @@ Following are common problems that you might have with your VSPackage and tips t
   
 ### To troubleshoot a missing VSPackage or one of its dependencies  
   
-1.  For managed code, make sure that the reference paths are correct.  
+1. For managed code, make sure that the reference paths are correct.  
   
-    1.  On the **Project** menu, click **Properties**.  
+   1.  On the **Project** menu, click **Properties**.  
   
-    2.  Select the **References** tab in the **Property Pages** dialog box and make sure all paths are correct. Alternatively, you can use the **Object Browser** to browse for the referenced objects.  
+   2.  Select the **References** tab in the **Property Pages** dialog box and make sure all paths are correct. Alternatively, you can use the **Object Browser** to browse for the referenced objects.  
   
-         For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](http://msdn.microsoft.com/library/e32fa443-0778-4cc3-bf36-5c8ea297d296) to display the details of failed assembly loads.  
+        For managed code, you can use the [Fuslogvw.exe (Assembly Binding Log Viewer)](http://msdn.microsoft.com/library/e32fa443-0778-4cc3-bf36-5c8ea297d296) to display the details of failed assembly loads.  
   
-2.  For unmanaged code, find the CLSID of the VSPackage in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CLSID registry node:  
+2. For unmanaged code, find the CLSID of the VSPackage in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CLSID registry node:  
   
-     HKLM\Software\Microsoft\Visual Studio\\*\<version>*\CLSID  
+    HKLM\Software\Microsoft\Visual Studio\\*\<version>*\CLSID  
   
- Make sure that the InprocServer32 entry has the correct path of the VSPackage dll.  
+   Make sure that the InprocServer32 entry has the correct path of the VSPackage dll.  
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)

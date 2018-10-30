@@ -1,7 +1,7 @@
 ---
 title: "View data values in Data Tips  in the code editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,24 +30,22 @@ manager: "ghogen"
 # View data values in Data Tips  in the code editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [View data values in Data Tips  in the code editor](https://docs.microsoft.com/visualstudio/debugger/view-data-values-in-data-tips-in-the-code-editor).  
-  
 DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution.  
   
  In [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)], DataTips can be pinned to a specific location in a source file, or they can float on top of all [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] windows.  
   
 ### To display a DataTip (in break mode only)  
   
-1.  In a source window, place the mouse pointer over any variable in the current scope.  
+1. In a source window, place the mouse pointer over any variable in the current scope.  
   
-     A DataTip appears.  
+    A DataTip appears.  
   
-    > [!NOTE]
-    >  Data tips are always evaluated in the context where execution is suspended, and not where the cursor is hovering. If you hover over a variable in another function with the same name as a variable that is in the current context, the value of the variable in the other function is displayed as the value of the variable in the current context.  
+   > [!NOTE]
+   >  Data tips are always evaluated in the context where execution is suspended, and not where the cursor is hovering. If you hover over a variable in another function with the same name as a variable that is in the current context, the value of the variable in the other function is displayed as the value of the variable in the current context.  
   
-2.  The DataTip disappears when you remove the mouse pointer. To pin the DataTip so that it remains open, click the **Pin to source** icon, or  
+2. The DataTip disappears when you remove the mouse pointer. To pin the DataTip so that it remains open, click the **Pin to source** icon, or  
   
-    -   Right-click on a variable, then click **Pin to source**.  
+   - Right-click on a variable, then click **Pin to source**.  
   
      The pinned DataTip closes when the debugging session ends.  
   

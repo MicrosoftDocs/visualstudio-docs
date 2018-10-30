@@ -1,7 +1,7 @@
 ---
 title: "How to: Use the Keyboard Exclusively | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # How to: Use the Keyboard Exclusively
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use the Keyboard Exclusively](https://docs.microsoft.com/visualstudio/ide/reference/how-to-use-the-keyboard-exclusively).  
-  
   
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] provides many default shortcut key combinations to make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys used in Visual Studio, see [Default Keyboard Shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [http://www.microsoft.com/enable/products/keyboard.aspx](http://go.microsoft.com/fwlink/?LinkID=40400).  
   
@@ -38,15 +36,15 @@ The latest version of this topic can be found at [How to: Use the Keyboard Exclu
   
 #### To add controls from the Toolbox to a designer from the keyboard  
   
-1.  On the menu bar, choose **View**, **Toolbox**.  
+1. On the menu bar, choose **View**, **Toolbox**.  
   
-2.  Choose the Ctrl + Up Arrow or Ctrl + Down Arrow keys to move among the sections in the current Toolbox tab.  
+2. Choose the Ctrl + Up Arrow or Ctrl + Down Arrow keys to move among the sections in the current Toolbox tab.  
   
-3.  Choose the Up Arrow or **Down Arrow** keys to move among the controls.  
+3. Choose the Up Arrow or **Down Arrow** keys to move among the controls.  
   
-4.  After the control is selected, choose the Enter key.  
+4. After the control is selected, choose the Enter key.  
   
- The control is added to the form or designer.  
+   The control is added to the form or designer.  
   
 ## Dialog Box Options  
  You can move among the options in a dialog and change option settings using the keyboard.  

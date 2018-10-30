@@ -1,7 +1,7 @@
 ---
 title: "Debugging Mixed-Mode Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,8 +34,6 @@ manager: "ghogen"
 # Debugging Mixed-Mode Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debugging Mixed-Mode Applications](https://docs.microsoft.com/visualstudio/debugger/debugging-mixed-mode-applications).  
-  
 A mixed-mode application is any application that combines native code (C++) with managed code (such as Visual Basic, Visual C#, or C++ that runs on the common language runtime). Debugging mixed-mode applications is largely transparent in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]; it is not too different from debugging a single-mode application. There are a few special considerations, however.  
   
 ## Enable C++ Edit and Continue in Mixed Mode Debugging  
@@ -50,13 +48,13 @@ A mixed-mode application is any application that combines native code (C++) with
   
 #### To turn off property evaluation  
   
-1.  On the **Tools** menu, choose **Options**.  
+1. On the **Tools** menu, choose **Options**.  
   
-2.  In the **Options** dialog box, open the **Debugging** folder and select the **General** category.  
+2. In the **Options** dialog box, open the **Debugging** folder and select the **General** category.  
   
-3.  Clear the **Enable property evaluation and other implicit function calls** check box.  
+3. Clear the **Enable property evaluation and other implicit function calls** check box.  
   
- Because native call stacks and managed call stacks differ, the debugger cannot always provide the complete call stack for mixed code. When native code calls managed code, you may notice some discrepancies. For more information, see [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md).  
+   Because native call stacks and managed call stacks differ, the debugger cannot always provide the complete call stack for mixed code. When native code calls managed code, you may notice some discrepancies. For more information, see [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md).  
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

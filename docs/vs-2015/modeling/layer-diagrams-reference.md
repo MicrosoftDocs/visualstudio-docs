@@ -1,7 +1,7 @@
 ---
 title: "Layer Diagrams: Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,8 +29,6 @@ manager: "douge"
 # Layer Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Dependency Diagrams: Reference](https://docs.microsoft.com/visualstudio/modeling/layer-diagrams-reference).  
-  
 In Visual Studio, you can use a *layer diagram* to visualize the high-level, logical architecture of your system. A layer diagram organizes the physical artifacts in your system into logical, abstract groups called *layers*. These layers describe major tasks that the artifacts perform or the major components of your system. Each layer can also contain nested layers that describe more detailed tasks.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -39,15 +37,15 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
   
  Use a layer diagram to help you perform the following tasks:  
   
--   Communicate the existing or intended logical architecture of your system.  
+- Communicate the existing or intended logical architecture of your system.  
   
--   Discover conflicts between your existing code and the intended architecture.  
+- Discover conflicts between your existing code and the intended architecture.  
   
--   Visualize the impact of changes on the intended architecture when you refactor, update, or evolve your system.  
+- Visualize the impact of changes on the intended architecture when you refactor, update, or evolve your system.  
   
--   Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.  
+- Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.  
   
- This topic describes the elements that you can use on a layer diagram. For more detailed information about how to create and draw layer diagrams, see [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).  
+  This topic describes the elements that you can use on a layer diagram. For more detailed information about how to create and draw layer diagrams, see [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).  
   
 ## Reading Layer Diagrams  
  ![Elements on layer diagrams](../modeling/media/uml-layerrefreading.png "UML_LayerRefReading")  
@@ -65,17 +63,17 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
 ##  <a name="Explorer"></a> Layer Explorer  
  You can link each layer to artifacts in your solution, such as projects, classes, namespaces, project files, and other parts of your software. The number on a layer shows the number of artifacts that are linked to the layer. However, when reading the number of artifacts on a layer, remember the following:  
   
--   If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.  
+- If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.  
   
-     For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.  
+   For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.  
   
--   If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.  
+- If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.  
   
- For more information about linking layers and artifacts, see:  
+  For more information about linking layers and artifacts, see:  
   
--   [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
+- [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)  
   
--   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
+- [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)  
   
 #### To examine the linked artifacts  
   

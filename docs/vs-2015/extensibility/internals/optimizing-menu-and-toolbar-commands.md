@@ -1,7 +1,7 @@
 ---
 title: "Optimizing Menu and Toolbar Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "ghogen"
 # Optimizing Menu and Toolbar Commands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Optimizing Menu and Toolbar Commands](https://docs.microsoft.com/visualstudio/extensibility/internals/optimizing-menu-and-toolbar-commands).  
-  
 The addition of VSPackages and their corresponding commands to [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] may cause a crowded UI. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] provides ways to help minimize UI command confusion.  
   
 ## In This Section  

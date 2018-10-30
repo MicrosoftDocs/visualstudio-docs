@@ -1,7 +1,7 @@
 ---
 title: "Registration and Selection (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Registration and Selection (Source Control VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Registration and Selection (Source Control VSPackage)](https://docs.microsoft.com/visualstudio/extensibility/internals/registration-and-selection-source-control-vspackage).  
-  
 A source control VSPackage must be registered to expose it to the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. If more than one source control VSPackage is registered, the user can select which VSPackage to load at appropriate times. See [VSPackages](../../extensibility/internals/vspackages.md) for more details on VSPackages and how to register them.  
   
 ## Registering a Source Control Package  
@@ -34,13 +32,13 @@ A source control VSPackage must be registered to expose it to the [!INCLUDE[vspr
 ### Registry Entries  
  A source control package needs three private GUIDs:  
   
--   Package GUID: This is the main GUID for the package that contains the source control implementation (called ID_Package in this section).  
+- Package GUID: This is the main GUID for the package that contains the source control implementation (called ID_Package in this section).  
   
--   Source Control GUID: This is a GUID for the source control VSPackage used to register with the Visual Studio Source Control Stub and is also used as a command UI context GUID. The source control service GUID is registered under the source control GUID. In the example, the source control GUID is called ID_SccProvider.  
+- Source Control GUID: This is a GUID for the source control VSPackage used to register with the Visual Studio Source Control Stub and is also used as a command UI context GUID. The source control service GUID is registered under the source control GUID. In the example, the source control GUID is called ID_SccProvider.  
   
--   Source control service GUID: This is the private service GUID used by Visual Studio (called SID_SccPkgService in this section). In addition to this, the source control package needs to define other GUIDs for VSPackages, tool windows, and so on.  
+- Source control service GUID: This is the private service GUID used by Visual Studio (called SID_SccPkgService in this section). In addition to this, the source control package needs to define other GUIDs for VSPackages, tool windows, and so on.  
   
- The following registry entries must be made by a source control VSPackage:  
+  The following registry entries must be made by a source control VSPackage:  
   
 |Key name|Entries|  
 |--------------|-------------|  
@@ -54,13 +52,13 @@ A source control VSPackage must be registered to expose it to the [!INCLUDE[vspr
   
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] loads a source control VSPackage when any one of the following operations is performed:  
   
--   Solution is opened (when the solution is under source control).  
+- Solution is opened (when the solution is under source control).  
   
-     When a solution or project under source control is opened, the IDE causes the source control VSPackage that was designated for that solution to be loaded.  
+   When a solution or project under source control is opened, the IDE causes the source control VSPackage that was designated for that solution to be loaded.  
   
--   Any of the menu commands of the source control VSPackage are executed.  
+- Any of the menu commands of the source control VSPackage are executed.  
   
- A source control VSPackage should load any components it needs only when they are actually going to be used (otherwise known as delayed loading).  
+  A source control VSPackage should load any components it needs only when they are actually going to be used (otherwise known as delayed loading).  
   
 ### Automatic Solution-based VSPackage Swapping  
  You can manually swap source control VSPackages through the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] **Options** dialog box under the **Source Control** category. Automatic solution-based package swapping means that a source control package that has been designated for a particular solution is automatically set to active when that solution is opened. Every source control package should implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider.SetActive%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider.SetInactive%2A>. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] handles the switch between both source control plug-ins (implementing the Source Control Plug-in API) and source control VSPackages.  
@@ -72,15 +70,15 @@ A source control VSPackage must be registered to expose it to the [!INCLUDE[vspr
 ### Visual Studio UI for Package Selection and Switching  
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] provides a UI for source control VSPackage and plug-in selection in the **Options** dialog box under the **Source Control** category. It allows the user to select the active source control plug-in or VSPackage. A drop-down list includes:  
   
--   All installed source control packages  
+- All installed source control packages  
   
--   All installed source control plug-ins  
+- All installed source control plug-ins  
   
--   A "none" option, which disables source code control  
+- A "none" option, which disables source code control  
   
- Only the UI for the active source control choice is visible. The VSPackage selection hides the UI for the previous VSPackage and shows the UI for the new one. The active VSPackage is selected on a per-user basis. If a user has multiple copies of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] open concurrently, each one can potentially use a different active VSPackage. If multiple users are logged on to the same computer, each user can have separate instances of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] open, each with a different active VSPackage. When multiple instances of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] are closed by a user, the source control VSPackage that was active for the last open solution becomes the default source control VSPackage, to be set active on restart.  
+  Only the UI for the active source control choice is visible. The VSPackage selection hides the UI for the previous VSPackage and shows the UI for the new one. The active VSPackage is selected on a per-user basis. If a user has multiple copies of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] open concurrently, each one can potentially use a different active VSPackage. If multiple users are logged on to the same computer, each user can have separate instances of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] open, each with a different active VSPackage. When multiple instances of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] are closed by a user, the source control VSPackage that was active for the last open solution becomes the default source control VSPackage, to be set active on restart.  
   
- Unlike previous versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], an IDE restart is no longer the only way to switch source control VSPackages. VSPackage selection is automatic. Switching packages requires Windows User privileges (not Administrator or Power User).  
+  Unlike previous versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], an IDE restart is no longer the only way to switch source control VSPackages. VSPackage selection is automatic. Switching packages requires Windows User privileges (not Administrator or Power User).  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence>   

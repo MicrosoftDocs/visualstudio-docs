@@ -41,7 +41,6 @@ Microsoft is committed to making its products and services easier for everyone t
 > [!NOTE]
 > The information in this section may apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary information card that came with your software package or visit the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.
 
-
 ##  <a name="windows"></a> Accessibility features of Windows
 
  The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For more information about these features, see Help in Windows and the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
@@ -65,24 +64,24 @@ If you have difficulty reading or handling printed materials, you can obtain the
 In addition, you can obtain additional Microsoft publications from Learning Ally. Learning Ally distributes these documents to registered, eligible members of their distribution service. For information about the availability of Microsoft product documentation and books from Microsoft Press, contact:
 
 |Learning Ally|
-|----------------------------------------------|
+| - |
 |20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Learning Ally website: [http://www.learningally.org](http://www.learningally.org/).|
 
 Web addresses can change, so you might be unable to connect to the website or sites mentioned here.
 
 ##  <a name="hearing"></a> Customer service for people with hearing impairments
 
- If you are deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:
+If you are deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:
 
--   For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 AM and 5:30 PM Pacific Time, Monday through Friday, excluding holidays.
+- For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 AM and 5:30 PM Pacific Time, Monday through Friday, excluding holidays.
 
--   For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 AM and 6:00 PM Pacific Time, Monday through Friday, excluding holidays. In Canada, dial (905) 568-9641 between 8:00 AM and 8:00 PM Eastern Time, Monday through Friday, excluding holidays.
+- For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 AM and 6:00 PM Pacific Time, Monday through Friday, excluding holidays. In Canada, dial (905) 568-9641 between 8:00 AM and 8:00 PM Eastern Time, Monday through Friday, excluding holidays.
 
- Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.
+Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.
 
 ##  <a name="moreinfo"></a> For more information
 
- For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
+For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
 ## See also
 

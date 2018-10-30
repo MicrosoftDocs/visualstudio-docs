@@ -1,7 +1,7 @@
 ---
 title: "Tool Windows in the Registry | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Tool Windows in the Registry
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tool Windows in the Registry](https://docs.microsoft.com/visualstudio/extensibility/tool-windows-in-the-registry).  
-  
 VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] as tool window providers. Tool windows created by using the Visual Studio Package template do this by default. Tool window providers have system registry keys that specify visibility attributes, such as default tool window size and location, the GUID of the window that serves as the tool window pane, and docking style.  
   
  During development, managed tool window providers register tool windows by adding attributes to the source code, and then running the RegPkg.exe utility on the resulting assembly. For more information, see [Registering a Tool Window](../extensibility/registering-a-tool-window.md).  

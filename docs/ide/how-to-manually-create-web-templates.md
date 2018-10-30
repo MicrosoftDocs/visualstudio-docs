@@ -24,33 +24,33 @@ Creating a web template is different than creating other kinds of templates. Bec
 
 1. Create a web project.
 
-1. Modify or delete the files in the project, or add new files to the project.
+2. Modify or delete the files in the project, or add new files to the project.
 
-1. Create an XML file and save it with a *vstemplate* file name extension, in the same directory as your project. Do not add it to the project in Visual Studio.
+3. Create an XML file and save it with a *vstemplate* file name extension, in the same directory as your project. Do not add it to the project in Visual Studio.
 
-1. Edit the *vstemplate* XML file to provide project template metadata. For more information, see the [example that follows](#example).
+4. Edit the *vstemplate* XML file to provide project template metadata. For more information, see the [example that follows](#example).
 
-1. Locate the `ProjectType` element in the *vstemplate* file, and set the text value to `Web`.
+5. Locate the `ProjectType` element in the *vstemplate* file, and set the text value to `Web`.
 
-1. Following the `ProjectType` element, add a `ProjectSubType` element and set the text value to the programming language of the template. The programming language can be one of the following values:
+6. Following the `ProjectType` element, add a `ProjectSubType` element and set the text value to the programming language of the template. The programming language can be one of the following values:
 
-    - CSharp
-    - VisualBasic
+   - CSharp
+   - VisualBasic
 
-    For example:
+     For example:
 
-    ```xml
-    <TemplateData>
-        ...
-        <ProjectType>Web</ProjectType>
-        <ProjectSubType>CSharp</ProjectSubType>
-        ...
-    </TemplateData>
-    ```
+     ```xml
+     <TemplateData>
+       ...
+       <ProjectType>Web</ProjectType>
+       <ProjectSubType>CSharp</ProjectSubType>
+       ...
+     </TemplateData>
+     ```
 
-1. Select the files in your template (this includes the *vstemplate* file), right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files are compressed into a *.zip* file.
+7. Select the files in your template (this includes the *vstemplate* file), right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files are compressed into a *.zip* file.
 
-1. Put the *.zip* template file in the Visual Studio project template directory. By default, this directory is *%USERPROFILE%\Documents\Visual Studio \<Version\>\ProjectTemplates*.
+8. Put the *.zip* template file in the Visual Studio project template directory. By default, this directory is *%USERPROFILE%\Documents\Visual Studio \<Version\>\ProjectTemplates*.
 
 ## Example
 

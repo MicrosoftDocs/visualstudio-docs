@@ -23,13 +23,13 @@ This method returns the number of argument types associated with this object.
   
 ```cpp  
 HRESULT GetTypeArgumentCount(  
-   UINT* uCount  
+   UINT* uCount  
 );  
 ```  
   
 ```csharp  
 int GetTypeArgumentCount(  
-   out uint uCount  
+   out uint uCount  
 );  
 ```  
   

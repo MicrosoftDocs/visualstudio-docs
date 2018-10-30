@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine2::SetMetric | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugEngine2::SetMetric
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine2::SetMetric](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine2-setmetric).  
-  
 This method sets a registry value known as a metric.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT SetMetric(  
-   LPCOLESTR pszMetric,  
-   VARIANT   varValue  
+   LPCOLESTR pszMetric,  
+   VARIANT   varValue  
 );  
 ```  
   
 ```csharp  
 int SetMetric(  
-   string pszMetric,  
-   object varValue  
+   string pszMetric,  
+   object varValue  
 );  
 ```  
   

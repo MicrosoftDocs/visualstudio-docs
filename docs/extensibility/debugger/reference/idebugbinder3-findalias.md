@@ -23,15 +23,15 @@ This method locates an alias, given a name. This will search all aliases in the 
   
 ```cpp  
 HRESULT FindAlias(  
-   LPCOLESTR     pcstrName,  
-   IDebugAlias** ppAlias  
+   LPCOLESTR     pcstrName,  
+   IDebugAlias** ppAlias  
 );  
 ```  
   
 ```csharp  
 int FindAlias(  
-   string          pcstrName,  
-   out IDebugAlias ppAlias  
+   string          pcstrName,  
+   out IDebugAlias ppAlias  
 );  
 ```  
   

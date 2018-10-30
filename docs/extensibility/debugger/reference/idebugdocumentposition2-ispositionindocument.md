@@ -23,13 +23,13 @@ Determines if the document position is contained in the given document.
   
 ```cpp  
 HRESULT IsPositionInDocument(   
-   IDebugDocument2* pDoc  
+   IDebugDocument2* pDoc  
 );  
 ```  
   
 ```csharp  
 int IsPositionInDocument(   
-   IDebugDocument2 pDoc  
+   IDebugDocument2 pDoc  
 );  
 ```  
   

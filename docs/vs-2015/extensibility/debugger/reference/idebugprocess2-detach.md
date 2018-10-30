@@ -1,7 +1,7 @@
 ---
 title: "IDebugProcess2::Detach | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,15 +21,13 @@ manager: "ghogen"
 # IDebugProcess2::Detach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProcess2::Detach](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprocess2-detach).  
-  
 Detaches the debugger from this process by detaching all of the programs in the process.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT Detach(   
-   void   
+   void   
 );  
 ```  
   

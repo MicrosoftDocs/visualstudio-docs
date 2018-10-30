@@ -77,7 +77,6 @@ If you want to make the property variable only under program control, and not by
       return types.ToArray();
     }
   }
-
 ```
 
 ## Use OnChildConfigured to initialize a shape's properties
@@ -102,7 +101,6 @@ partial class MyLanguageDiagram
     // else deal with other types of shapes and connectors.
   }
 }
-
 ```
 
 This method can be used both for domain properties and non-store features, such as the size of the shape.

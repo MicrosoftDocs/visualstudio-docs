@@ -1,7 +1,7 @@
 ---
 title: "How to: Locate and Organize Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # How to: Locate and Organize Project and Item Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Locate and Organize Project and Item Templates](https://docs.microsoft.com/visualstudio/ide/how-to-locate-and-organize-project-and-item-templates).  
-  
 Template files must be placed in a location that Visual Studio recognizes so that the templates will appear in the **New Project** and **Add New Item** dialog boxes. You can create custom subcategories for templates so that the subcategories will also appear in the user interface.  
   
 ## Locating Templates  
@@ -35,26 +33,26 @@ Template files must be placed in a location that Visual Studio recognizes so tha
 ### Installed Templates  
  By default, templates installed together with the product are located in:  
   
--   \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\\*Language*\\*Locale*\  
+- \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\\*Language*\\*Locale*\  
   
--   \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\\*Language*\\*Locale\\*  
+- \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\\*Language*\\*Locale\\*  
   
- For example, the following directory contains the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project templates for English:  
+  For example, the following directory contains the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project templates for English:  
   
- C:\\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\VisualBasic\1033\  
+  C:\\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\VisualBasic\1033\  
   
 ### Custom Templates  
  By default, custom templates are located in:  
   
--   \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\*Language*\  
+- \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\*Language*\  
   
--   \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\*Language*\  
+- \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\*Language*\  
   
- For example, the following directory contains custom [!INCLUDE[csprcs](../includes/csprcs-md.md)] project templates:  
+  For example, the following directory contains custom [!INCLUDE[csprcs](../includes/csprcs-md.md)] project templates:  
   
- C:\Documents and Settings\UserName\My Documents\\<Visual Studio version\>\Templates\ProjectTemplates\Visual C#\  
+  C:\Documents and Settings\UserName\My Documents\\<Visual Studio version\>\Templates\ProjectTemplates\Visual C#\  
   
- Custom templates do not include a subdirectory for localized templates. You can change the default directory for custom templates in the **Options** dialog box, under **Environment\Projects and Solutions**.  
+  Custom templates do not include a subdirectory for localized templates. You can change the default directory for custom templates in the **Options** dialog box, under **Environment\Projects and Solutions**.  
   
 ## Organizing Templates  
  The categories in the **New Project** and **Add New Item** dialog boxes reflect the directory structures that exist in the installed and custom template locations. You can modify these directory structures to organize your templates in a way that makes sense to you.  
@@ -69,25 +67,25 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 ##### To create new installed project template categories  
   
-1.  Create a folder in the language folder of the installed template directory. For example, to create an Office category for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project templates you would create the following directory:  
+1. Create a folder in the language folder of the installed template directory. For example, to create an Office category for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project templates you would create the following directory:  
   
-     \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\VisualBasic\1033\Office\  
+    \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\VisualBasic\1033\Office\  
   
-2.  Place all the templates for this category in the new folder.  
+2. Place all the templates for this category in the new folder.  
   
-3.  Close all instances of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+3. Close all instances of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-4.  On the **Start** menu, click **Run**, type **cmd**, and click **OK**.  
+4. On the **Start** menu, click **Run**, type **cmd**, and click **OK**.  
   
-5.  At the command prompt, locate the directory that contains devenv.exe, and type **devenv /installvstemplates**.  
+5. At the command prompt, locate the directory that contains devenv.exe, and type **devenv /installvstemplates**.  
   
-6.  Run [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+6. Run [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-7.  On the **File** menu, click **New**, and then click **Project**.  
+7. On the **File** menu, click **New**, and then click **Project**.  
   
-8.  Verify that the Office category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[vbprvb](../includes/vbprvb-md.md)].  
+8. Verify that the Office category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[vbprvb](../includes/vbprvb-md.md)].  
   
- You can also group a subset of the project item templates into a custom folder.  
+   You can also group a subset of the project item templates into a custom folder.  
   
 ##### To create new installed item template categories  
   
@@ -116,17 +114,17 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 ##### To create new custom project template categories  
   
-1.  Create a folder in the language folder in the custom project template directory. For example, to create a HelloWorld category for [!INCLUDE[csprcs](../includes/csprcs-md.md)] templates, you would create the following directory:  
+1. Create a folder in the language folder in the custom project template directory. For example, to create a HelloWorld category for [!INCLUDE[csprcs](../includes/csprcs-md.md)] templates, you would create the following directory:  
   
-     \My Documents\\<Visual Studio version\>\Templates\ProjectTemplates\CSharp\HelloWorld\  
+    \My Documents\\<Visual Studio version\>\Templates\ProjectTemplates\CSharp\HelloWorld\  
   
-2.  Place all the templates for this category in the new folder.  
+2. Place all the templates for this category in the new folder.  
   
-3.  On the **File** menu, click **New**, and then click **Project**.  
+3. On the **File** menu, click **New**, and then click **Project**.  
   
-4.  Verify that the HelloWorld category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[csprcs](../includes/csprcs-md.md)].  
+4. Verify that the HelloWorld category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[csprcs](../includes/csprcs-md.md)].  
   
- You can also group a subset of the custom item templates into a custom folder.  
+   You can also group a subset of the custom item templates into a custom folder.  
   
 ##### To create new custom item template categories  
   

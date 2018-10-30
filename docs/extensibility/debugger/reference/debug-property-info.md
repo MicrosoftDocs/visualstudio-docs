@@ -23,25 +23,25 @@ Contains information about a debug property.
   
 ```cpp  
 typedef struct tagDEBUG_PROPERTY_INFO {   
-   DEBUGPROP_INFO_FLAGS dwValidFields;  
-   BSTR                 bstrFullName;  
-   BSTR                 bstrName;  
-   BSTR                 bstrType;  
-   BSTR                 bstrValue;  
-   IDebugProperty2*     pProperty;  
-   DBG_ATTRIB_FLAGS     dwAttrib;  
+   DEBUGPROP_INFO_FLAGS dwValidFields;  
+   BSTR                 bstrFullName;  
+   BSTR                 bstrName;  
+   BSTR                 bstrType;  
+   BSTR                 bstrValue;  
+   IDebugProperty2*     pProperty;  
+   DBG_ATTRIB_FLAGS     dwAttrib;  
 } DEBUG_PROPERTY_INFO;  
 ```  
   
 ```csharp  
 public struct DEBUG_PROPERTY_INFO {   
-   public uint            dwValidFields;  
-   public string          bstrFullName;  
-   public string          bstrName;  
-   public string          bstrType;  
-   public string          bstrValue;  
-   public IDebugProperty2 pProperty;  
-   public ulong           dwAttrib;  
+   public uint            dwValidFields;  
+   public string          bstrFullName;  
+   public string          bstrName;  
+   public string          bstrType;  
+   public string          bstrValue;  
+   public IDebugProperty2 pProperty;  
+   public ulong           dwAttrib;  
 };  
 ```  
   

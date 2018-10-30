@@ -1,7 +1,7 @@
 ---
 title: "Adding a Tracking Property to a Domain-Specific Language Definition | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Adding a Tracking Property to a Domain-Specific Language Definition
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Adding a Tracking Property to a Domain-Specific Language Definition](https://docs.microsoft.com/visualstudio/modeling/adding-a-tracking-property-to-a-domain-specific-language-definition).  
-  
 This walkthrough shows how to add a tracking property to a domain model.  
   
  A *tracking domain* property is a property that can be updated by the user but which has a default value that is calculated by using the values of other domain properties or elements.  
@@ -30,19 +28,19 @@ This walkthrough shows how to add a tracking property to a domain model.
   
  In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/en-us/0538b0e4-6221-4e7d-911a-b92cd622f0be).  
   
--   The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.  
+- The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.  
   
- A tracking property has two states: tracking, and updated by the user. Tracking properties have the following features:  
+  A tracking property has two states: tracking, and updated by the user. Tracking properties have the following features:  
   
--   When in the tracking state, the value of the tracking property is calculated, and the value is updated as other properties in the model change.  
+- When in the tracking state, the value of the tracking property is calculated, and the value is updated as other properties in the model change.  
   
--   When in the updated by user state, the value of the tracking property retains the value to which the user last set the property.  
+- When in the updated by user state, the value of the tracking property retains the value to which the user last set the property.  
   
--   In the **Properties** window, the **Reset** command for the tracking property is only enabled when the property is in the updated by user state. The **Reset** command sets the tracking property state to tracking.  
+- In the **Properties** window, the **Reset** command for the tracking property is only enabled when the property is in the updated by user state. The **Reset** command sets the tracking property state to tracking.  
   
--   In the **Properties** window, when the tracking property is in the tracking state, its value is displayed in a regular font.  
+- In the **Properties** window, when the tracking property is in the tracking state, its value is displayed in a regular font.  
   
--   In the **Properties** window, when the tracking property is in the updated by user state, its value is displayed in a bold font.  
+- In the **Properties** window, when the tracking property is in the updated by user state, its value is displayed in a bold font.  
   
 ## Prerequisites  
  Before you can start this walkthrough, you must first install these components:  

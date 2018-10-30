@@ -1,7 +1,7 @@
 ---
 title: "IDebugDisassemblyStream2::GetCodeLocationId | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugDisassemblyStream2::GetCodeLocationId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDisassemblyStream2::GetCodeLocationId](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid).  
-  
 Returns a code location identifier for a particular code context.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetCodeLocationId(   
-   IDebugCodeContext2* pCodeContext,  
-   UINT64*             puCodeLocationId  
+   IDebugCodeContext2* pCodeContext,  
+   UINT64*             puCodeLocationId  
 );  
 ```  
   
 ```csharp  
 int GetCodeLocationId(   
-   IDebugCodeContext2 pCodeContext,  
-   out ulong          puCodeLocationId  
+   IDebugCodeContext2 pCodeContext,  
+   out ulong          puCodeLocationId  
 );  
 ```  
   

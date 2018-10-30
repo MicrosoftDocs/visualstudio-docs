@@ -1,7 +1,7 @@
 ---
 title: "Edit UML models and diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,8 +28,6 @@ manager: "douge"
 # Edit UML models and diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Edit UML models and diagrams](https://docs.microsoft.com/visualstudio/modeling/edit-uml-models-and-diagrams).  
-  
 You can create and edit a UML model through the views provided by several different types of diagram. By providing different perspectives on your system, these diagrams help you understand and discuss different aspects of its design and requirements. Visual Studio provides templates for five of the most frequently used types of UML diagram.  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -73,22 +71,22 @@ You can create and edit a UML model through the views provided by several differ
   
 ##  <a name="Creating"></a> Creating UML Modeling Diagrams  
   
-1.  On the **Architecture** menu in Visual Studio, click **New UML or Layer Diagram**.  
+1. On the **Architecture** menu in Visual Studio, click **New UML or Layer Diagram**.  
   
-2.  Select and name your diagram.  
+2. Select and name your diagram.  
   
-3.  In **Add to modeling project**, select an existing modeling project, or select **Create a new modeling project**.  
+3. In **Add to modeling project**, select an existing modeling project, or select **Create a new modeling project**.  
   
-    > [!NOTE]
-    >  A modeling diagram must exist inside a modeling project.  
+   > [!NOTE]
+   >  A modeling diagram must exist inside a modeling project.  
   
- You can also add a diagram to an existing modeling project in Solution Explorer. Right-click the modeling project, point to **Add**, and then click **New Item**.  
+   You can also add a diagram to an existing modeling project in Solution Explorer. Right-click the modeling project, point to **Add**, and then click **New Item**.  
   
 #### To create an empty UML modeling project  
   
--   On the **File** menu, point to **New**, click **Project**, and in the **New Project** dialog box, double-click **Modeling Projects**.  
+- On the **File** menu, point to **New**, click **Project**, and in the **New Project** dialog box, double-click **Modeling Projects**.  
   
- For more information about how to manage modeling projects, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
+  For more information about how to manage modeling projects, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   
 ##  <a name="Drawing"></a> Drawing UML Modeling Diagrams  
  A modeling diagram displays a collection of model elements linked by relationships. Each element is displayed as a shape and each relationship is displayed as a connector between two shapes.  
@@ -100,21 +98,21 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To create elements and relationships in a UML modeling diagram  
   
-1.  To create a model element, click an element tool in the Toolbox, and then click the diagram where you want it to appear. After you have created the element, adjust its size and shape by dragging its handles.  
+1. To create a model element, click an element tool in the Toolbox, and then click the diagram where you want it to appear. After you have created the element, adjust its size and shape by dragging its handles.  
   
-     In some cases, you can place a new element inside another element. For example, on a UML class diagram, you can place a class inside a Package.  
+    In some cases, you can place a new element inside another element. For example, on a UML class diagram, you can place a class inside a Package.  
   
-    > [!NOTE]
-    >  If you cannot see the toolbox, click **Toolbox** on the **View** menu.  
+   > [!NOTE]
+   >  If you cannot see the toolbox, click **Toolbox** on the **View** menu.  
   
-2.  To create a relationship, click a relationship tool, click the element where you want the relationship to start, and then click the element where you want it to end.  
+2. To create a relationship, click a relationship tool, click the element where you want the relationship to start, and then click the element where you want it to end.  
   
-     Different types of relationships can start or end on different types of elements. For example, on a UML class diagram, an Association relationship cannot start or end on a Comment element.  
+    Different types of relationships can start or end on different types of elements. For example, on a UML class diagram, an Association relationship cannot start or end on a Comment element.  
   
-    > [!NOTE]
-    >  To use the same tool several times, double-click the tool. When you have finished, click the **Pointer** tool.  
+   > [!NOTE]
+   >  To use the same tool several times, double-click the tool. When you have finished, click the **Pointer** tool.  
   
- On some kinds of diagrams, you can also draw simple shapes. These shapes are not part of the model, but you can use them to draw attention to parts of the diagram or to divide it into different areas.  
+   On some kinds of diagrams, you can also draw simple shapes. These shapes are not part of the model, but you can use them to draw attention to parts of the diagram or to divide it into different areas.  
   
 ##  <a name="Editing"></a> Editing Shapes and Connectors  
  When you resize or color a shape, or reroute a connector, there is no effect on the underlying model. However, when you rename a shape on the diagram or in the UML Model Explorer, the corresponding element is renamed in UML Model Explorer and in any other diagrams that present that element.  
@@ -135,17 +133,17 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To move one end of a connector to another shape  
   
-1.  Do one of the following:  
+1. Do one of the following:  
   
-    -   Press **CTRL** and move the end.  
+   - Press **CTRL** and move the end.  
   
      \- or -  
   
-    -   Right-click the connector and then click **Reconnect**.  
+   - Right-click the connector and then click **Reconnect**.  
   
-2.  Click the end of the connector you want to move.  
+2. Click the end of the connector you want to move.  
   
-3.  Click the shape that you want the connector to move to.  
+3. Click the shape that you want the connector to move to.  
   
 #### To change color or other properties of an element, relationship, or diagram  
   
@@ -263,11 +261,11 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To copy an entire diagram  
   
-1.  Create a new diagram.  
+1. Create a new diagram.  
   
-2.  Select all the elements in an existing diagram, copy them, and paste them into the new one.  
+2. Select all the elements in an existing diagram, copy them, and paste them into the new one.  
   
- You cannot replicate a diagram by copying and pasting in Solution Explorer.  
+   You cannot replicate a diagram by copying and pasting in Solution Explorer.  
   
 ##  <a name="Deleting"></a> Deleting a Model Element or its Views  
  Some kinds of elements, specifically classifiers, can be removed from a diagram without deleting them from the model. Classifiers are the major elements that are displayed on class diagrams, component diagrams, and use case diagrams. They can appear on more than one diagram. For these types of elements, there are two separate commands: **Remove from Diagram** and **Delete from Model**.  
@@ -279,15 +277,15 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To remove a classifier's view from a diagram  
   
--   Right-click the element on the diagram, and then click **Remove from Diagram**.  
+- Right-click the element on the diagram, and then click **Remove from Diagram**.  
   
- \- or -  
+  \- or -  
   
--   Click the element on the diagram and then press the **DELETE** key.  
+- Click the element on the diagram and then press the **DELETE** key.  
   
-    -   This view of the element vanishes. However, the element remains in the model, and you can still find it in **UML Model Explorer**. Any other views of the same element also remain.  
+  -   This view of the element vanishes. However, the element remains in the model, and you can still find it in **UML Model Explorer**. Any other views of the same element also remain.  
   
-    -   Every connector that terminates at this shape is removed from the diagram, but the relationship it represents remains in the model. You can see the relationship in **UML Model Explorer** under **Relationships**, under each element that it connects.  
+  -   Every connector that terminates at this shape is removed from the diagram, but the relationship it represents remains in the model. You can see the relationship in **UML Model Explorer** under **Relationships**, under each element that it connects.  
   
 #### To delete an element from the model  
   

@@ -1,7 +1,7 @@
 ---
 title: "IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,21 +20,19 @@ manager: "ghogen"
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugComPlusSymbolProvider2::FunctionHasLineInfo](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugcomplussymbolprovider2-functionhaslineinfo).  
-  
 Determines if the specified method has line information.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT FunctionHasLineInfo(  
-   IDebugAddress* pAddress  
+   IDebugAddress* pAddress  
 );  
 ```  
   
 ```csharp  
 int FunctionHasLineInfo(  
-   IDebugAddress pAddress  
+   IDebugAddress pAddress  
 );  
 ```  
   

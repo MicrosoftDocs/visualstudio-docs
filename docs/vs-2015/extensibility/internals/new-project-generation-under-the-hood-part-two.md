@@ -1,7 +1,7 @@
 ---
 title: "New Project Generation: Under the Hood, Part Two | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # New Project Generation: Under the Hood, Part Two
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [New Project Generation: Under the Hood, Part Two](https://docs.microsoft.com/visualstudio/extensibility/internals/new-project-generation-under-the-hood-part-two).  
-  
 In [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) we saw how the **New Project** dialog Box is populated. Let's assume you've selected a **Visual C# Windows Application**, filled out the **Name** and **Location** text boxes, and clicked OK.  
   
 ## Generating the Solution Files  
@@ -41,10 +39,10 @@ using System.Windows.Forms;
   
 namespace $safeprojectname$  
 {  
-    static class Program  
-    {  
-        // source code deleted here for brevity  
-    }  
+    static class Program  
+    {  
+        // source code deleted here for brevity  
+    }  
 }  
 ```  
   
@@ -57,10 +55,10 @@ using System.Windows.Forms;
   
 namespace Simple  
 {  
-    static class Program  
-    {  
-        // source code deleted here for brevity  
-    }  
+    static class Program  
+    {  
+        // source code deleted here for brevity  
+    }  
 }  
 ```  
   
@@ -71,10 +69,10 @@ namespace Simple
   
 ```  
 <VSTemplate Version="2.0.0"     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"     Type="Project">  
-    <TemplateData>  
-    </TemplateData>  
-    <TemplateContent>  
-    </TemplateContent>  
+    <TemplateData>  
+    </TemplateData>  
+    <TemplateContent>  
+    </TemplateContent>  
 </VSTemplate>  
 ```  
   
@@ -84,33 +82,33 @@ namespace Simple
   
 ```  
 <TemplateContent>  
-  <Project File="WindowsApplication.csproj" ReplaceParameters="true">  
-    <ProjectItem ReplaceParameters="true"  
-      TargetFileName="Properties\AssemblyInfo.cs">  
-      AssemblyInfo.cs  
-    </ProjectItem>  
-    <ProjectItem TargetFileName="Properties\Resources.resx">  
-      Resources.resx  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true"       TargetFileName="Properties\Resources.Designer.cs">  
-      Resources.Designer.cs  
-    </ProjectItem>  
-    <ProjectItem TargetFileName="Properties\Settings.settings">  
-      Settings.settings  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true"       TargetFileName="Properties\Settings.Designer.cs">  
-      Settings.Designer.cs  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true" OpenInEditor="true">  
-      Form1.cs  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true">  
-      Form1.Designer.cs  
-    </ProjectItem>  
-    <ProjectItem ReplaceParameters="true">  
-      Program.cs  
-    </ProjectItem>  
-  </Project>  
+  <Project File="WindowsApplication.csproj" ReplaceParameters="true">  
+    <ProjectItem ReplaceParameters="true"  
+      TargetFileName="Properties\AssemblyInfo.cs">  
+      AssemblyInfo.cs  
+    </ProjectItem>  
+    <ProjectItem TargetFileName="Properties\Resources.resx">  
+      Resources.resx  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true"       TargetFileName="Properties\Resources.Designer.cs">  
+      Resources.Designer.cs  
+    </ProjectItem>  
+    <ProjectItem TargetFileName="Properties\Settings.settings">  
+      Settings.settings  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true"       TargetFileName="Properties\Settings.Designer.cs">  
+      Settings.Designer.cs  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true" OpenInEditor="true">  
+      Form1.cs  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true">  
+      Form1.Designer.cs  
+    </ProjectItem>  
+    <ProjectItem ReplaceParameters="true">  
+      Program.cs  
+    </ProjectItem>  
+  </Project>  
 </TemplateContent>  
 ```  
   
@@ -137,12 +135,12 @@ namespace Simple
   
 ```  
 <ItemGroup>  
-    <Reference Include="System" />  
-    <Reference Include="System.Data" />  
-    <Reference Include="System.Deployment" />  
-    <Reference Include="System.Drawing" />  
-    <Reference Include="System.Windows.Forms" />  
-    <Reference Include="System.Xml" />  
+    <Reference Include="System" />  
+    <Reference Include="System.Data" />  
+    <Reference Include="System.Deployment" />  
+    <Reference Include="System.Drawing" />  
+    <Reference Include="System.Windows.Forms" />  
+    <Reference Include="System.Xml" />  
 </ItemGroup>  
 ```  
   
@@ -150,9 +148,9 @@ namespace Simple
   
 ```  
 <ItemGroup>  
-    <Compile Include="Properties\Settings.Designer.cs">  
-        <DependentUpon>Settings.settings</DependentUpon>  
-    </Compile>  
+    <Compile Include="Properties\Settings.Designer.cs">  
+        <DependentUpon>Settings.settings</DependentUpon>  
+    </Compile>  
 </ItemGroup>  
 ```  
   

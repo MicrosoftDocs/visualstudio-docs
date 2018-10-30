@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngineLaunch2::LaunchSuspended | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,45 +21,43 @@ manager: "ghogen"
 # IDebugEngineLaunch2::LaunchSuspended
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngineLaunch2::LaunchSuspended](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugenginelaunch2-launchsuspended).  
-  
 This method launches a process by means of the debug engine (DE).  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT LaunchSuspended (   
-   LPCOLESTR             pszMachine,  
-   IDebugPort2*          pPort,  
-   LPCOLESTR             pszExe,  
-   LPCOLESTR             pszArgs,  
-   LPCOLESTR             pszDir,  
-   BSTR                  bstrEnv,  
-   LPCOLESTR             pszOptions,  
-   LAUNCH_FLAGS          dwLaunchFlags,  
-   DWORD                 hStdInput,  
-   DWORD                 hStdOutput,  
-   DWORD                 hStdError,  
-   IDebugEventCallback2* pCallback,  
-   IDebugProcess2**      ppDebugProcess  
+   LPCOLESTR             pszMachine,  
+   IDebugPort2*          pPort,  
+   LPCOLESTR             pszExe,  
+   LPCOLESTR             pszArgs,  
+   LPCOLESTR             pszDir,  
+   BSTR                  bstrEnv,  
+   LPCOLESTR             pszOptions,  
+   LAUNCH_FLAGS          dwLaunchFlags,  
+   DWORD                 hStdInput,  
+   DWORD                 hStdOutput,  
+   DWORD                 hStdError,  
+   IDebugEventCallback2* pCallback,  
+   IDebugProcess2**      ppDebugProcess  
 );  
 ```  
   
 ```csharp  
 int LaunchSuspended(  
-   string               pszServer,   
-   IDebugPort2          pPort,   
-   string               pszExe,   
-   string               pszArgs,   
-   string               pszDir,   
-   string               bstrEnv,   
-   string               pszOptions,   
-   enum_LAUNCH_FLAGS    dwLaunchFlags,   
-   uint                 hStdInput,   
-   uint                 hStdOutput,   
-   uint                 hStdError,  
-   IDebugEventCallback2 pCallback,   
-   out IDebugProcess2   ppProcess  
+   string               pszServer,   
+   IDebugPort2          pPort,   
+   string               pszExe,   
+   string               pszArgs,   
+   string               pszDir,   
+   string               bstrEnv,   
+   string               pszOptions,   
+   enum_LAUNCH_FLAGS    dwLaunchFlags,   
+   uint                 hStdInput,   
+   uint                 hStdOutput,   
+   uint                 hStdError,  
+   IDebugEventCallback2 pCallback,   
+   out IDebugProcess2   ppProcess  
 );  
 ```  
   

@@ -355,6 +355,8 @@
           href: ide/javascript-intellisense.md
         - name: Visual C++ IntelliSense
           href: ide/visual-cpp-intellisense.md
+        - name: Configure a C++ project for IntelliSense
+          href: ide/visual-cpp-intellisense-configuration.md
       - name: Navigate your code
         href: ide/navigating-code.md
         items:
@@ -770,17 +772,23 @@
           href: ide/reference/options-text-editor-file-extension.md
         - name: Text Editor - All Languages
           href: ide/reference/options-text-editor-all-languages.md
+        - name: Text Editor - All Languages, Scroll Bars
+          href: ide/reference/options-text-editor-all-languages-scroll-bars.md
         - name: Text Editor - All Languages, Tabs
           href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Text Editor - Basic (Visual Basic)
+        - name: Text Editor - Basic (Visual Basic), Advanced
           href: ide/reference/options-text-editor-basic-visual-basic.md
+        - name: Text Editor - Basic (Visual Basic), Code Style
+          href: ide/code-styles-and-quick-actions.md
+        - name: Text Editor - Basic (Visual Basic), IntelliSense
+          href: ide/visual-basic-specific-intellisense.md
         - name: Text Editor - C/C++, Formatting
           href: ide/reference/options-text-editor-c-cpp-formatting.md
         - name: Text Editor - C/C++, Advanced
           href: ide/reference/options-text-editor-c-cpp-advanced.md
         - name: Text Editor - C/C++, Experimental
           href: ide/reference/options-text-editor-c-cpp-experimental.md
-        - name: Text Editor - C#, Formatting
+        - name: Text Editor - C#, Code Style, Formatting
           href: ide/reference/options-text-editor-csharp-formatting.md
         - name: Text Editor - C#, Advanced
           href: ide/reference/options-text-editor-csharp-advanced.md
@@ -1067,6 +1075,8 @@
     items:
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
+  - name: Suggest a feature for Visual Studio
+    href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:

@@ -1,7 +1,7 @@
 ---
 title: "Customize Control Binding Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,22 +38,22 @@ Use the **Customize Control Binding** dialog box to specify which controls are a
  **Data type**  
  Displays a list of types that you associate with controls:  
   
--   Tables, entities, and objects are represented as **[List]** types.  
+- Tables, entities, and objects are represented as **[List]** types.  
   
--   Columns or public properties of entities and objects are represented as the actual data type of the column or property in the underlying data store.  
+- Columns or public properties of entities and objects are represented as the actual data type of the column or property in the underlying data store.  
   
--   Objects with user-defined shapes are represented as **[Other]**. For example, if your application has a custom control that displays data from more than one property of an object, select the **[Other]** data type for your control.  
+- Objects with user-defined shapes are represented as **[Other]**. For example, if your application has a custom control that displays data from more than one property of an object, select the **[Other]** data type for your control.  
   
- **Associated controls**  
- Displays a list of controls that you can associate with a particular data type. If you want to associate a particular control with the data type selected in the **Data Type** list, select the corresponding check box. Clear the check box to remove an association. Checked controls appear in the shortcut menu presented by the **Data Sources** window for an item of the associated data type.  
+  **Associated controls**  
+  Displays a list of controls that you can associate with a particular data type. If you want to associate a particular control with the data type selected in the **Data Type** list, select the corresponding check box. Clear the check box to remove an association. Checked controls appear in the shortcut menu presented by the **Data Sources** window for an item of the associated data type.  
   
- You can add controls to the list by adding controls that have one of several data-binding attributes to the **Toolbox**. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
+  You can add controls to the list by adding controls that have one of several data-binding attributes to the **Toolbox**. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   
- **Set Default**  
- Assigns the selected control type to be the default for items of the selected data type. The default control appears as the first selection in the shortcut menu presented by the **Data Sources** window for an item. Only one control type can be assigned as the default for a data type.  
+  **Set Default**  
+  Assigns the selected control type to be the default for items of the selected data type. The default control appears as the first selection in the shortcut menu presented by the **Data Sources** window for an item. Only one control type can be assigned as the default for a data type.  
   
- **Clear Default**  
- Removes the designation of a control as the default for the selected data type. If there is no default for the selected data type, **[None]** appears as the first selection in the shortcut menu presented by the **Data Sources** window for an item of the associated type.  
+  **Clear Default**  
+  Removes the designation of a control as the default for the selected data type. If there is no default for the selected data type, **[None]** appears as the first selection in the shortcut menu presented by the **Data Sources** window for an item of the associated type.  
   
 ## See Also  
  [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)   

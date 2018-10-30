@@ -111,53 +111,53 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ##  <a name="make_functions_visible"></a> Couple the test project to the DLL project
 
-1.  Add the DLL project to the project references of the test project:
+1. Add the DLL project to the project references of the test project:
 
-    1.  Open the properties of the test project and choose **Common Properties** > **Framework and References**.
+   1.  Open the properties of the test project and choose **Common Properties** > **Framework and References**.
 
-         ![C++ project properties | Framework and References](../test/media/utecpp08.png)
+        ![C++ project properties | Framework and References](../test/media/utecpp08.png)
 
-    2.  Choose **Add New Reference**.
+   2.  Choose **Add New Reference**.
 
-         In the **Add Reference** dialog box, select the DLL project and choose **Add**.
+        In the **Add Reference** dialog box, select the DLL project and choose **Add**.
 
-         ![C++ project properties | Add New Reference](../test/media/utecpp09.png)
+        ![C++ project properties | Add New Reference](../test/media/utecpp09.png)
 
-2.  In the principal unit test *.cpp* file, include the *.h* file of the DLL code:
+2. In the principal unit test *.cpp* file, include the *.h* file of the DLL code:
 
-    ```cpp
-    #include "..\RootFinder\RootFinder.h"
-    ```
+   ```cpp
+   #include "..\RootFinder\RootFinder.h"
+   ```
 
-3.  Add a basic test that uses the exported function:
+3. Add a basic test that uses the exported function:
 
-    ```cpp
-    TEST_METHOD(BasicTest)
-    {
-       CRootFinder rooter;
-       Assert::AreEqual(
-          // Expected value:
-          0.0,
-          // Actual value:
-          rooter.SquareRoot(0.0),
-          // Tolerance:
-          0.01,
-         // Message:
-         L"Basic test failed",
-         // Line number - used if there is no PDB file:
-         LINE_INFO());
-    }
-    ```
+   ```cpp
+   TEST_METHOD(BasicTest)
+   {
+      CRootFinder rooter;
+      Assert::AreEqual(
+         // Expected value:
+         0.0,
+         // Actual value:
+         rooter.SquareRoot(0.0),
+         // Tolerance:
+         0.01,
+        // Message:
+        L"Basic test failed",
+        // Line number - used if there is no PDB file:
+        LINE_INFO());
+   }
+   ```
 
-4.  Build the solution.
+4. Build the solution.
 
-     The new test appears in **Test Explorer**.
+    The new test appears in **Test Explorer**.
 
-5.  In **Test Explorer**, choose **Run All**.
+5. In **Test Explorer**, choose **Run All**.
 
-     ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png)
+    ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png)
 
- You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
+   You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
 
 ##  <a name="iterate"></a> Iteratively augment the tests and make them pass
 

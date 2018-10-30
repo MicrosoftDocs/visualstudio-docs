@@ -1,7 +1,7 @@
 ---
 title: "Command Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Command Window
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Command Window](https://docs.microsoft.com/visualstudio/ide/reference/command-window).  
-  
   
 The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.  
   
@@ -89,7 +87,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
  will assign to variable `varA` the value of variable `varB`.  
   
 ## Parameters, Switches, and Values  
- Some [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] commands commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.  
+ Some [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.  
   
 ```  
 Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar   
@@ -97,22 +95,22 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
   
  In this example,  
   
--   `Edit.ReplaceInFiles` is the command  
+- `Edit.ReplaceInFiles` is the command  
   
--   `/case` and `/pattern:regex` are switches (prefaced with the slash [/] character)  
+- `/case` and `/pattern:regex` are switches (prefaced with the slash [/] character)  
   
--   `regex` is the value of the `/pattern` switch; the `/case` switch has no value  
+- `regex` is the value of the `/pattern` switch; the `/case` switch has no value  
   
--   `var[1-3]+` and `oldpar` are parameters  
+- `var[1-3]+` and `oldpar` are parameters  
   
-    > [!NOTE]
-    >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
+  > [!NOTE]
+  >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
   
- The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.  
+  The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.  
   
- Nearly every switch supported by a command has two forms: a short (one character) form and a long form. Multiple short-form switches can be combined into a group. For example, `/p /g /m` can be expressed alternately as `/pgm`.  
+  Nearly every switch supported by a command has two forms: a short (one character) form and a long form. Multiple short-form switches can be combined into a group. For example, `/p /g /m` can be expressed alternately as `/pgm`.  
   
- If short-form switches are combined into a group and given a value, that value applies to every switch. For example, `/pgm:123` equates to `/p:123 /g:123 /m:123`. An error occurs if any of the switches in the group does not accept a value.  
+  If short-form switches are combined into a group and given a value, that value applies to every switch. For example, `/pgm:123` equates to `/p:123 /g:123 /m:123`. An error occurs if any of the switches in the group does not accept a value.  
   
 ## Escape Characters  
  A caret (^) character in a command line means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,  

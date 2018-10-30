@@ -1,7 +1,7 @@
 ---
 title: "UML Component Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "douge"
 # UML Component Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [UML Component Diagrams: Guidelines](https://docs.microsoft.com/visualstudio/modeling/uml-component-diagrams-guidelines).  
-  
 In Visual Studio, you can draw a *component diagram* to show the structure a software system. For a video demonstration, see [Designing the Physical Structure by using Component Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-6-Designing-a-Projects-Physical-Structure/).  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -34,11 +32,11 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
  Drawing component diagrams has several benefits:  
   
--   Thinking of your design with regard to the major blocks helps the development team to understand an existing design and create a new one.  
+- Thinking of your design with regard to the major blocks helps the development team to understand an existing design and create a new one.  
   
--   By thinking of your system as a collection of components with well-defined provided and required interfaces, you improve the separation between the components. This in turn makes the design easier to understand and easier to change when requirements change.  
+- By thinking of your system as a collection of components with well-defined provided and required interfaces, you improve the separation between the components. This in turn makes the design easier to understand and easier to change when requirements change.  
   
- You can use a component diagram to represent your design regardless of what language or platform the design uses or will use.  
+  You can use a component diagram to represent your design regardless of what language or platform the design uses or will use.  
   
 ##  <a name="OtherDiagrams"></a> Relationship to Other Diagrams  
  You can use a component diagram in conjunction with other diagrams.  
@@ -114,32 +112,32 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 ##### To add ports to a component  
   
-1.  In the toolbox, click **Provided Interface** or **Required Interface**.  
+1. In the toolbox, click **Provided Interface** or **Required Interface**.  
   
-2.  Click the component that you want to add it to.  
+2. Click the component that you want to add it to.  
   
-     An port appears on the boundary of the component.  
+    An port appears on the boundary of the component.  
   
-     A new interface is created as the type of the port. This interface appears in **UML Model Explorer**.  
+    A new interface is created as the type of the port. This interface appears in **UML Model Explorer**.  
   
-3.  Drag the port around the component boundary to place it where you want.  
+3. Drag the port around the component boundary to place it where you want.  
   
-4.  Drag the port's label to adjust its position.  
+4. Drag the port's label to adjust its position.  
   
-5.  Click the label to change it. The label shows the name of the interface. If you change it, you are changing the name of the interface.  
+5. Click the label to change it. The label shows the name of the interface. If you change it, you are changing the name of the interface.  
   
- If you want to list the attributes and operations of the interface, you can do so by adding them to the interface in UML Model Explorer. Alternatively, you can drag the interface from UML Model Explorer onto a class diagram, and add the operations and attributes there.  
+   If you want to list the attributes and operations of the interface, you can do so by adding them to the interface in UML Model Explorer. Alternatively, you can drag the interface from UML Model Explorer onto a class diagram, and add the operations and attributes there.  
   
 ### Linking between components  
  Use a dependency (4) to show that one component's requirement can be satisfied by the operations or services provided by another component.  
   
 ##### To show that a provided interface can satisfy a required interface  
   
-1.  In the toolbox, click **Dependency**.  
+1. In the toolbox, click **Dependency**.  
   
-2.  Click the port with the required interface on one component, and then click the port with the provided interface in another component.  
+2. Click the port with the required interface on one component, and then click the port with the provided interface in another component.  
   
- You should try to avoid designing dependency loops in which every component in a group depends on all the other components.  
+   You should try to avoid designing dependency loops in which every component in a group depends on all the other components.  
   
 ##### To add a port for an existing interface to a component  
   
@@ -265,11 +263,11 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
  Use the sequence diagrams to assess how the system's work is spread between the different components.  
   
--   If too much is heaped on one part, the application will probably be more difficult to update, than if the work is evenly spread out.  
+- If too much is heaped on one part, the application will probably be more difficult to update, than if the work is evenly spread out.  
   
--   If the work is too thinly spread with many interactions, the system might perform badly and be difficult to understand.  
+- If the work is too thinly spread with many interactions, the system might perform badly and be difficult to understand.  
   
- ![Sequence diagram showing collaborating parts](../modeling/media/uml-compdescparts.png "UML_CompDescParts")  
+  ![Sequence diagram showing collaborating parts](../modeling/media/uml-compdescparts.png "UML_CompDescParts")  
   
 ##### To draw a sequence diagram that shows collaboration between parts  
   
@@ -323,13 +321,13 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
  Typical kinds of dependency include the following:  
   
--   One component calls code within the other.  
+- One component calls code within the other.  
   
--   One component instantiates a class that is defined within another class.  
+- One component instantiates a class that is defined within another class.  
   
--   One component uses information created by another component.  
+- One component uses information created by another component.  
   
- You can use the name of the dependency arrow to denote a particular kind of usage. To set the name, right-click the arrow, then click **Properties**, and set the **Name** field in the properties window.  
+  You can use the name of the dependency arrow to denote a particular kind of usage. To set the name, right-click the arrow, then click **Properties**, and set the **Name** field in the properties window.  
   
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   

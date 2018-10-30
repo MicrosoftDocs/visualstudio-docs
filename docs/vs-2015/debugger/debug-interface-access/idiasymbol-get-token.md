@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_token | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_token
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_token](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-token).  
-  
 Retrieves the metadata token of a managed function or variable.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_token (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "How to: Profile JavaScript Code in Web Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Profile JavaScript Code in Web Pages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Profile JavaScript Code in Web Pages](https://docs.microsoft.com/visualstudio/profiling/how-to-profile-javascript-code-in-web-pages).  
-  
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, an arbitrary Web page, or JavaScript application by using the instrumentation profiling method.  
   
  **Requirements**  
@@ -34,10 +32,10 @@ The latest version of this topic can be found at [How to: Profile JavaScript Cod
   
 > [!WARNING]
 >  To profile JavaScript in Windows Store apps, see one of the following topics:  
->   
->  -   [JavaScript Function Timing](http://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03) [JavaScript Function Timing on a Remote Device](http://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
-> -   [Analyze JavaScript Function Timing data](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
-> -  
+> 
+> - [JavaScript Function Timing](http://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03) [JavaScript Function Timing on a Remote Device](http://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
+>   -   [Analyze JavaScript Function Timing data](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
+>   -  
   
  You can use the Profiling Wizard to create a performance session. Specify the instrumentation method and then specify the JavaScript profiling option on the Instrumentation page of the properties dialog box for the performance session.  
   

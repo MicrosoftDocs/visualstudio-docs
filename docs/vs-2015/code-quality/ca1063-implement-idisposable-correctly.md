@@ -1,7 +1,7 @@
 ---
 title: "CA1063: Implement IDisposable correctly | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # CA1063: Implement IDisposable correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1063: Implement IDisposable correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1063-implement-idisposable-correctly).
-
 |||
 |-|-|
 |TypeName|ImplementIDisposableCorrectly|
@@ -36,23 +34,23 @@ The latest version of this topic can be found at [CA1063: Implement IDisposable 
 ## Cause
  `IDisposable` is not implemented correctly. Some reasons for this problem are listed here:
 
--   IDisposable is re-implemented in the class.
+- IDisposable is re-implemented in the class.
 
--   Finalize is re-overridden.
+- Finalize is re-overridden.
 
--   Dispose is overridden.
+- Dispose is overridden.
 
--   Dispose() is not public, sealed, or named Dispose.
+- Dispose() is not public, sealed, or named Dispose.
 
--   Dispose(bool) is not protected, virtual, or unsealed.
+- Dispose(bool) is not protected, virtual, or unsealed.
 
--   In unsealed types, Dispose() must call Dispose(true).
+- In unsealed types, Dispose() must call Dispose(true).
 
--   For unsealed types, the Finalize implementation does not call either or both Dispose(bool) or the case class finalizer.
+- For unsealed types, the Finalize implementation does not call either or both Dispose(bool) or the case class finalizer.
 
- Violation of any one of these patterns will trigger this warning.
+  Violation of any one of these patterns will trigger this warning.
 
- Every unsealed root IDisposable type must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true) and Finalize should call Dispose(false). If you are creating an unsealed root IDisposable type, you must define Dispose(bool) and call it. For more information, see [Cleaning Up Unmanaged Resources](http://msdn.microsoft.com/library/a17b0066-71c2-4ba4-9822-8e19332fc213) in the [Framework Design Guidelines](http://msdn.microsoft.com/library/5fbcaf4f-ea2a-4d20-b0d6-e61dee202b4b) section of the .NET Framework documentation.
+  Every unsealed root IDisposable type must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true) and Finalize should call Dispose(false). If you are creating an unsealed root IDisposable type, you must define Dispose(bool) and call it. For more information, see [Cleaning Up Unmanaged Resources](http://msdn.microsoft.com/library/a17b0066-71c2-4ba4-9822-8e19332fc213) in the [Framework Design Guidelines](http://msdn.microsoft.com/library/5fbcaf4f-ea2a-4d20-b0d6-e61dee202b4b) section of the .NET Framework documentation.
 
 ## Rule Description
  All IDisposable types should implement the Dispose pattern correctly.

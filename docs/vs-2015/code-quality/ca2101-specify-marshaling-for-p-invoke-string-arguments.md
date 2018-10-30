@@ -1,7 +1,7 @@
 ---
 title: "CA2101: Specify marshaling for P-Invoke string arguments | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA2101: Specify marshaling for P/Invoke string arguments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA2101: Specify marshaling for P-Invoke string arguments](https://docs.microsoft.com/visualstudio/code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments).
 
 |||
 |-|-|

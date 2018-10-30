@@ -1,7 +1,7 @@
 ---
 title: "Symbol Load Information Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "ghogen"
 # Symbol Load Information Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Symbol Load Information Dialog Box](https://docs.microsoft.com/visualstudio/debugger/symbol-load-information-dialog-box).  
-  
 The **Symbol Load Information** dialog box opens when you right-click on the **Modules** window and choose **Symbol Load Information**.  
   
 ## UIElement List  

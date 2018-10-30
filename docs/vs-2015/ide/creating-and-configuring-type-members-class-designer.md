@@ -1,7 +1,7 @@
 ---
 title: "Creating and Configuring Type Members (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,11 +66,11 @@ You can add these members to types on a class diagram and configure those member
   
 #### To open the Class Details window  
   
-1.  Right-click on any class in the diagram to display a context menu.  
+1. Right-click on any class in the diagram to display a context menu.  
   
-2.  In the context menu, click **Class Details Window**.  
+2. In the context menu, click **Class Details Window**.  
   
- – or -  
+   – or -  
   
 -   Point to **Other Windows** on the View menu and then click **Class Details**.  
   
@@ -188,31 +188,31 @@ You can add these members to types on a class diagram and configure those member
   
  Parameter rows contain the following items:  
   
--   **Name**  
+- **Name**  
   
-     The **Name** column in a parameter row displays the name of the parameter. This name is also displayed in the **Name** property in the Properties window. You can use this cell to change the name of any parameter with read-write permissions.  
+   The **Name** column in a parameter row displays the name of the parameter. This name is also displayed in the **Name** property in the Properties window. You can use this cell to change the name of any parameter with read-write permissions.  
   
-     Pointing at the parameter name displays the name of the parameter if the **Name** column is too narrow to show the entire name.  
+   Pointing at the parameter name displays the name of the parameter if the **Name** column is too narrow to show the entire name.  
   
--   **Type**  
+- **Type**  
   
-     The **Parameter Type** cell uses Intellisense, which lets you choose from a list of all the types available in the current project or referenced projects.  
+   The **Parameter Type** cell uses Intellisense, which lets you choose from a list of all the types available in the current project or referenced projects.  
   
--   **Modifier**  
+- **Modifier**  
   
-     The **Modifier** cell in a parameter row accepts and displays the new modifier of the parameter. To enter a new parameter modifier, use the drop-down list box to select from **None**, **ref**, **out**, or **params** in C#, and **ByVal**, **ByRef**, or **ParamArray** in VB.  
+   The **Modifier** cell in a parameter row accepts and displays the new modifier of the parameter. To enter a new parameter modifier, use the drop-down list box to select from **None**, **ref**, **out**, or **params** in C#, and **ByVal**, **ByRef**, or **ParamArray** in VB.  
   
--   **Summary**  
+- **Summary**  
   
-     The **Summary** cell in a parameter row allows entering of code comments that appear in IntelliSense when entering the parameter into the code editor.  
+   The **Summary** cell in a parameter row allows entering of code comments that appear in IntelliSense when entering the parameter into the code editor.  
   
--   **\<add parameter>**  
+- **\<add parameter>**  
   
-     The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod).  
+   The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod).  
   
- **Parameter properties in the Properties window**  
+  **Parameter properties in the Properties window**  
   
- The Properties window displays the same parameter properties displayed in the Class Details window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.  
+  The Properties window displays the same parameter properties displayed in the Class Details window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.  
   
 > [!NOTE]
 >  To add a parameter to a delegate, see [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
@@ -262,62 +262,62 @@ You can add these members to types on a class diagram and configure those member
   
  All cells in the Class Details window are editable with a few exceptions:  
   
--   The entire type is read-only, when, for example, it resides in a referenced assembly (see [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
+- The entire type is read-only, when, for example, it resides in a referenced assembly (see [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
   
--   For indexers, the name is read-only and the rest (type, modifier, summary) are editable.  
+- For indexers, the name is read-only and the rest (type, modifier, summary) are editable.  
   
--   All generics have read-only parameters in the Class Details window. To change a generic parameter, edit its source code.  
+- All generics have read-only parameters in the Class Details window. To change a generic parameter, edit its source code.  
   
--   The name of the type parameter that is defined on a generic type is read-only.  
+- The name of the type parameter that is defined on a generic type is read-only.  
   
--   When a type's code is broken (unparsable), Class Details window displays the type's contents as read-only.  
+- When a type's code is broken (unparsable), Class Details window displays the type's contents as read-only.  
   
- **The Class Details Window and source code**  
+  **The Class Details Window and source code**  
   
--   You can view source code by right-clicking a shape in the Class Details window (or the Class Designer) and then clicking View Code. The source code file opens and scrolls to the selected element.  
+- You can view source code by right-clicking a shape in the Class Details window (or the Class Designer) and then clicking View Code. The source code file opens and scrolls to the selected element.  
   
--   Changing source code is immediately reflected in the display of signature information in the Class Designer and the Class Details window. If the Class Details window is closed at the time, the new information is visible the next time you open it.  
+- Changing source code is immediately reflected in the display of signature information in the Class Designer and the Class Details window. If the Class Details window is closed at the time, the new information is visible the next time you open it.  
   
--   When a type's code is broken (unparsable), Class Details window displays the type's contents as read only.  
+- When a type's code is broken (unparsable), Class Details window displays the type's contents as read only.  
   
- **Clipboard functionality in the Class Details Window**  
+  **Clipboard functionality in the Class Details Window**  
   
- You can copy or cut fields or rows from the Class Details window and paste them into another type. You can cut a row only if it is not read-only. When you paste the row, Class Details window assigns a new name (derived from the name of the copied row) to avoid a conflict.  
+  You can copy or cut fields or rows from the Class Details window and paste them into another type. You can cut a row only if it is not read-only. When you paste the row, Class Details window assigns a new name (derived from the name of the copied row) to avoid a conflict.  
   
 ##  <a name="ReadOnlyInfo"></a> Display of Read-Only Information  
  Class Designer and the Class Details window can display the types (and members of types) for the following:  
   
--   a project that contains a class diagram  
+- a project that contains a class diagram  
   
--   a project referenced from a project that contains a class diagram  
+- a project referenced from a project that contains a class diagram  
   
--   an assembly referenced from a project that contains a class diagram  
+- an assembly referenced from a project that contains a class diagram  
   
- In the latter two cases, the referenced entity (a type or member) is read-only in the class diagram that represents it.  
+  In the latter two cases, the referenced entity (a type or member) is read-only in the class diagram that represents it.  
   
- An entire project or portions of it, such as individual files, may be read-only. The most common cases in which a project or one of its files is read-only are when it is under source-code control (and not checked out), it exists in an external assembly, or when the operating system considers the files to be read-only.  
+  An entire project or portions of it, such as individual files, may be read-only. The most common cases in which a project or one of its files is read-only are when it is under source-code control (and not checked out), it exists in an external assembly, or when the operating system considers the files to be read-only.  
   
- **Source-Code Control**  
+  **Source-Code Control**  
   
- Because a class diagram is saved as a file in a project, you need to check out the project in order to save any changes you make in Class Designer or the Class Details window.  
+  Because a class diagram is saved as a file in a project, you need to check out the project in order to save any changes you make in Class Designer or the Class Details window.  
   
- **Read-Only Projects**  
+  **Read-Only Projects**  
   
- The project may be read-only for a reason other than source-code control. Closing the project displays a dialog box asking whether to overwrite the project file, discard changes (don’t save) or cancel the close operation. If you choose to overwrite, project files are overwritten and made read-write. The new class diagram file is added.  
+  The project may be read-only for a reason other than source-code control. Closing the project displays a dialog box asking whether to overwrite the project file, discard changes (don’t save) or cancel the close operation. If you choose to overwrite, project files are overwritten and made read-write. The new class diagram file is added.  
   
- **Read-Only Types**  
+  **Read-Only Types**  
   
- If you try to save a project containing a type whose source-code file is read-only, the **Save of Read-Only File** dialog box appears, which gives you choices to save the file under a new name or new location, or to overwrite the read-only file. If you overwrite the file, the new copy is no longer read-only.  
+  If you try to save a project containing a type whose source-code file is read-only, the **Save of Read-Only File** dialog box appears, which gives you choices to save the file under a new name or new location, or to overwrite the read-only file. If you overwrite the file, the new copy is no longer read-only.  
   
- If a code file contains a syntax error, shapes displaying code in that file will be temporarily read-only until the syntax error is fixed. Shapes in this state display red text and a red icon which displays a tooltip reading "The source code file contains a parse error".  
+  If a code file contains a syntax error, shapes displaying code in that file will be temporarily read-only until the syntax error is fixed. Shapes in this state display red text and a red icon which displays a tooltip reading "The source code file contains a parse error".  
   
- A referenced type (such as a .NET Framework type), which exists under another project node or under a referenced-assembly node, is indicated on the Class Designer design surface as read-only. A local type, which exists in the project you have open, is read-write, and its shape on the Class Designer design surface is indicated as such.  
+  A referenced type (such as a .NET Framework type), which exists under another project node or under a referenced-assembly node, is indicated on the Class Designer design surface as read-only. A local type, which exists in the project you have open, is read-write, and its shape on the Class Designer design surface is indicated as such.  
   
- Indexers are read-write in code and the Class Details window, but the indexer name is read-only.  
+  Indexers are read-write in code and the Class Details window, but the indexer name is read-only.  
   
- You cannot edit partial methods by using the Class Designer or the Class Details window; you must use the Code Editor to edit them.  
+  You cannot edit partial methods by using the Class Designer or the Class Details window; you must use the Code Editor to edit them.  
   
- You cannot edit native C++ code by using the Class Designer or the Class Details window; you must use the Code Editor to edit native C++ code.  
+  You cannot edit native C++ code by using the Class Designer or the Class Details window; you must use the Code Editor to edit native C++ code.  
   
 ## Related Topics  
   

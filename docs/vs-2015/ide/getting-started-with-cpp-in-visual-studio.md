@@ -1,14 +1,14 @@
 ---
 title: "Getting Started with C++ in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: conceptual
 ms.assetid: 99c73344-86ba-4b08-9e15-f6111cc04185
 caps.latest.revision: 20
 author: gewarren
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Getting Started with C++ in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Getting Started with C++ in Visual Studio](https://docs.microsoft.com/visualstudio/ide/getting-started-with-cpp-in-visual-studio).  
-  
 By completing this walkthrough, you’ll become familiar with many of the tools and dialog boxes that you can use when you develop applications with Visual Studio. You’ll create a simple "Hello, World"-style application while you learn more about working in the integrated development environment (IDE).  
   
  This topic contains the following sections:  
@@ -48,23 +46,23 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
   
 #### To create a console app  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1. On the menu bar, choose **File**, **New**, **Project**.  
   
-     ![On the menu bar, choose File, New, Project](../ide/media/exploreide-filenewproject.png "ExploreIDE-FileNewProject")  
+    ![On the menu bar, choose File, New, Project](../ide/media/exploreide-filenewproject.png "ExploreIDE-FileNewProject")  
   
-2.  In the **Visual C++** category, choose the **Win32 Console Application** template, and then name the project `GreetingsConsoleApp`.  
+2. In the **Visual C++** category, choose the **Win32 Console Application** template, and then name the project `GreetingsConsoleApp`.  
   
-     ![Win32 Console application template](../ide/media/c-ide-newprojectdlg.png "C++IDE_NewProjectDlg")  
+    ![Win32 Console application template](../ide/media/c-ide-newprojectdlg.png "C++IDE_NewProjectDlg")  
   
-3.  When the Win32 Application Wizard appears, choose the **Finish** button.  
+3. When the Win32 Application Wizard appears, choose the **Finish** button.  
   
-     ![Win32 Console application wizard](../ide/media/c-ide-win32consoleappwizard.png "C++IDE_Win32ConsoleAppWizard")  
+    ![Win32 Console application wizard](../ide/media/c-ide-win32consoleappwizard.png "C++IDE_Win32ConsoleAppWizard")  
   
- The GreetingsConsoleApp project and solution, with the basic files for a Win32 console app, are created and automatically loaded into **Solution Explorer**. The GreetingsConsoleApp.cpp file is opened in the code editor. The following items appear in **Solution Explorer**:  
+   The GreetingsConsoleApp project and solution, with the basic files for a Win32 console app, are created and automatically loaded into **Solution Explorer**. The GreetingsConsoleApp.cpp file is opened in the code editor. The following items appear in **Solution Explorer**:  
   
- Figure 4: Project items  
+   Figure 4: Project items  
   
- ![Files for the solution in Solution Explorer](../ide/media/c-ide-solutioncontents.png "C++IDE_SolutionContents")  
+   ![Files for the solution in Solution Explorer](../ide/media/c-ide-solutioncontents.png "C++IDE_SolutionContents")  
   
 ##  <a name="BKMK_AddCode"></a> Add Code to the Application  
  Next, you'll add code to display the word "Hello" in the console window.  
@@ -113,40 +111,40 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
   
 #### To add a breakpoint  
   
-1.  Add a breakpoint from the menu bar at the line `return 0;`. You can also just click in the left margin to set a breakpoint.  
+1. Add a breakpoint from the menu bar at the line `return 0;`. You can also just click in the left margin to set a breakpoint.  
   
-     ![Toggle Breakpoint command on the Debug menu](../ide/media/exploreide-togglebreakpoint.png "ExploreIDE-ToggleBreakpoint")  
+    ![Toggle Breakpoint command on the Debug menu](../ide/media/exploreide-togglebreakpoint.png "ExploreIDE-ToggleBreakpoint")  
   
-     A red circle appears next to the line of code in the far left margin of the editor window.  
+    A red circle appears next to the line of code in the far left margin of the editor window.  
   
-2.  Choose the F5 key to start debugging.  
+2. Choose the F5 key to start debugging.  
   
-     The debugger starts, and a console window appears showing the word **Hello**.  
+    The debugger starts, and a console window appears showing the word **Hello**.  
   
-     ![Hello text in the Windows Command Prompt window](../ide/media/c-ide-hellocommandwindow.png "C++IDE_HelloCommandWindow")  
+    ![Hello text in the Windows Command Prompt window](../ide/media/c-ide-hellocommandwindow.png "C++IDE_HelloCommandWindow")  
   
-3.  Press SHIFT + F5 to stop debugging.  
+3. Press SHIFT + F5 to stop debugging.  
   
- For more information, see [Console Projects](../debugger/debugging-preparation-console-projects.md).  
+   For more information, see [Console Projects](../debugger/debugging-preparation-console-projects.md).  
   
 ##  <a name="BKMK_BuildRelease"></a> Build a release version of the app  
  Now that you’ve verified that everything works, you can prepare a release build of the application.  
   
 #### To clean the solution files and build a release version  
   
-1.  From the menu bar, delete intermediate files and output files that were created during previous builds.  
+1. From the menu bar, delete intermediate files and output files that were created during previous builds.  
   
-     ![The Clean Solution command on the Build menu](../ide/media/exploreide-cleansolution.png "ExploreIDE-CleanSolution")  
+    ![The Clean Solution command on the Build menu](../ide/media/exploreide-cleansolution.png "ExploreIDE-CleanSolution")  
   
-2.  Change the build configuration for GreetingsConsoleApp from **Debug** to **Release**.  
+2. Change the build configuration for GreetingsConsoleApp from **Debug** to **Release**.  
   
-     ![Build a release version of the application](../ide/media/c-ide-changingbuildtorelease.png "C++IDE_ChangingBuildtoRelease")  
+    ![Build a release version of the application](../ide/media/c-ide-changingbuildtorelease.png "C++IDE_ChangingBuildtoRelease")  
   
-3.  Build the solution.  
+3. Build the solution.  
   
-     ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
+    ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
- Congratulations on completing this walkthrough! If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
+   Congratulations on completing this walkthrough! If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
   
 ## See Also  
  [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)   

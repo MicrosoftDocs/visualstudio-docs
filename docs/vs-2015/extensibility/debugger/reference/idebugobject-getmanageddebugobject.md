@@ -1,7 +1,7 @@
 ---
 title: "IDebugObject::GetManagedDebugObject | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugObject::GetManagedDebugObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::GetManagedDebugObject](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-getmanageddebugobject).  
-  
 Creates a copy of the managed object in the address space of the debug engine.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetManagedDebugObject(   
-   IDebugManagedObject** ppObject  
+   IDebugManagedObject** ppObject  
 );  
 ```  
   
 ```csharp  
 int GetManagedDebugObject(  
-   out IDebugManagedObject ppObject  
+   out IDebugManagedObject ppObject  
 );  
 ```  
   

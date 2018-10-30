@@ -1,7 +1,7 @@
 ---
 title: "DEBUG_PROPERTY_INFO | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,33 +21,31 @@ manager: "ghogen"
 # DEBUG_PROPERTY_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [DEBUG_PROPERTY_INFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/debug-property-info).  
-  
 Contains information about a debug property.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct tagDEBUG_PROPERTY_INFO {   
-   DEBUGPROP_INFO_FLAGS dwValidFields;  
-   BSTR                 bstrFullName;  
-   BSTR                 bstrName;  
-   BSTR                 bstrType;  
-   BSTR                 bstrValue;  
-   IDebugProperty2*     pProperty;  
-   DBG_ATTRIB_FLAGS     dwAttrib;  
+   DEBUGPROP_INFO_FLAGS dwValidFields;  
+   BSTR                 bstrFullName;  
+   BSTR                 bstrName;  
+   BSTR                 bstrType;  
+   BSTR                 bstrValue;  
+   IDebugProperty2*     pProperty;  
+   DBG_ATTRIB_FLAGS     dwAttrib;  
 } DEBUG_PROPERTY_INFO;  
 ```  
   
 ```csharp  
 public struct DEBUG_PROPERTY_INFO {   
-   public uint            dwValidFields;  
-   public string          bstrFullName;  
-   public string          bstrName;  
-   public string          bstrType;  
-   public string          bstrValue;  
-   public IDebugProperty2 pProperty;  
-   public ulong           dwAttrib;  
+   public uint            dwValidFields;  
+   public string          bstrFullName;  
+   public string          bstrName;  
+   public string          bstrType;  
+   public string          bstrValue;  
+   public IDebugProperty2 pProperty;  
+   public ulong           dwAttrib;  
 };  
 ```  
   

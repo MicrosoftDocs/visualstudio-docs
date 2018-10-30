@@ -1,7 +1,7 @@
 ---
 title: "BP_RESOLUTION_DATA | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,27 +21,25 @@ manager: "ghogen"
 # BP_RESOLUTION_DATA
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BP_RESOLUTION_DATA](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bp-resolution-data).  
-  
 Describes the result of binding a data breakpoint.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct _BP_RESOLUTION_DATA {   
-   BSTR              bstrDataExpr;  
-   BSTR              bstrFunc;  
-   BSTR              bstrImage;  
-   BP_RES_DATA_FLAGS dwFlags;  
+   BSTR              bstrDataExpr;  
+   BSTR              bstrFunc;  
+   BSTR              bstrImage;  
+   BP_RES_DATA_FLAGS dwFlags;  
 } BP_RESOLUTION_DATA;  
 ```  
   
 ```csharp  
 public struct BP_RESOLUTION_DATA {   
-   public string bstrDataExpr;  
-   public string bstrFunc;  
-   public string bstrImage;  
-   public uint   dwFlags;  
+   public string bstrDataExpr;  
+   public string bstrFunc;  
+   public string bstrImage;  
+   public uint   dwFlags;  
 };  
 ```  
   

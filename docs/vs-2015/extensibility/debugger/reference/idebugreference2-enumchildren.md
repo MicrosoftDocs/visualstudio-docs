@@ -1,7 +1,7 @@
 ---
 title: "IDebugReference2::EnumChildren | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,31 +21,29 @@ manager: "ghogen"
 # IDebugReference2::EnumChildren
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugReference2::EnumChildren](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugreference2-enumchildren).  
-  
 Get a list of selected children of a reference. Reserved for future use.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT EnumChildren (   
-   DEBUGREF_INFO_FLAGS        dwFields,  
-   DWORD                      dwRadix,  
-   DBG_ATTRIB_FLAGS           dwAttribFilter,  
-   LPCOLESTR                  pszNameFilter,  
-   DWORD                      dwTimeout,  
-   IEnumDebugReferenceInfo2** ppEnum  
+   DEBUGREF_INFO_FLAGS        dwFields,  
+   DWORD                      dwRadix,  
+   DBG_ATTRIB_FLAGS           dwAttribFilter,  
+   LPCOLESTR                  pszNameFilter,  
+   DWORD                      dwTimeout,  
+   IEnumDebugReferenceInfo2** ppEnum  
 );  
 ```  
   
 ```csharp  
 int EnumChildren (   
-   enum_DEBUGREF_INFO_FLAGS     dwFields,  
-   uint                         dwRadix,  
-   enum_DBG_ATTRIB_FLAGS        dwAttribFilter,  
-   string                       pszNameFilter,  
-   uint                         dwTimeout,  
-   out IEnumDebugReferenceInfo2 ppEnum  
+   enum_DEBUGREF_INFO_FLAGS     dwFields,  
+   uint                         dwRadix,  
+   enum_DBG_ATTRIB_FLAGS        dwAttribFilter,  
+   string                       pszNameFilter,  
+   uint                         dwTimeout,  
+   out IEnumDebugReferenceInfo2 ppEnum  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "How to: Limit Instrumentation to Specific Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,54 +20,52 @@ manager: "ghogen"
 # How to: Limit Instrumentation to Specific Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Limit Instrumentation to Specific Functions](https://docs.microsoft.com/visualstudio/profiling/how-to-limit-instrumentation-to-specific-functions).  
-  
 You can limit instrumentation and data collection to one or more functions by setting options in the **Advanced** page of the **Performance Session** or target binary property pages:  
   
--   If you specify the functions on the performance session property page, only those functions are instrumented in all instrumented binaries of the session.  
+- If you specify the functions on the performance session property page, only those functions are instrumented in all instrumented binaries of the session.  
   
--   If you specify the functions on the property page of a target binary, only those functions that are in that particular binary are instrumented. Functions in other binaries of the performance are instrumented as usual.  
+- If you specify the functions on the property page of a target binary, only those functions that are in that particular binary are instrumented. Functions in other binaries of the performance are instrumented as usual.  
   
- Limiting data collection in this manner is supported only when the instrumentation profiling method is selected.  
+  Limiting data collection in this manner is supported only when the instrumentation profiling method is selected.  
   
 > [!NOTE]
 >  You can also use the **Advanced** page of the **Performance Session** property pages to set other options that are available to the Profiling Tools [VSInstr](../profiling/vsinstr.md) command line instrumentation tool.  
   
 ### To limit instrumentation to specific functions in a performance session  
   
-1.  In **Performance Explorer**, right-click the session name and then click **Properties**.  
+1. In **Performance Explorer**, right-click the session name and then click **Properties**.  
   
-     The **Property Pages** dialog box is displayed.  
+    The **Property Pages** dialog box is displayed.  
   
-2.  On the **Property Pages** dialog box, click **Advanced**.  
+2. On the **Property Pages** dialog box, click **Advanced**.  
   
-3.  In the **Additional instrumentation options** text box, use the following syntax to type the name of the functions that you want to instrument:  
+3. In the **Additional instrumentation options** text box, use the following syntax to type the name of the functions that you want to instrument:  
   
-     **/include:** `FuncSpec` **[;** `FuncSpec` **]** `...`  
+    **/include:** `FuncSpec` **[;** `FuncSpec` **]** `...`  
   
-     `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\*** specifies all functions in the MyNS namespace.  
+    `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\\*** specifies all functions in the MyNS namespace.  
   
-    > [!NOTE]
-    >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
+   > [!NOTE]
+   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
   
 ### To limit instrumentation to specific functions in a binary  
   
-1.  In **Performance Explorer**, locate the binary name in the **Targets** node of the performance session.  
+1. In **Performance Explorer**, locate the binary name in the **Targets** node of the performance session.  
   
-2.  Right-click the binary name and then click **Properties**.  
+2. Right-click the binary name and then click **Properties**.  
   
-     The **Property Pages** dialog box is displayed.  
+    The **Property Pages** dialog box is displayed.  
   
-3.  On the **Property Pages** dialog box, click **Advanced**.  
+3. On the **Property Pages** dialog box, click **Advanced**.  
   
-4.  In the **Additional instrumentation options** text box, use the following syntax to type the name of the functions that you want to instrument:  
+4. In the **Additional instrumentation options** text box, use the following syntax to type the name of the functions that you want to instrument:  
   
-     **/include:** `FuncSpec` **[;** `FuncSpec` **]** `...`  
+    **/include:** `FuncSpec` **[;** `FuncSpec` **]** `...`  
   
-     `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\*** specifies all functions in the MyNS namespace.  
+    `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\\*** specifies all functions in the MyNS namespace.  
   
-    > [!NOTE]
-    >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
+   > [!NOTE]
+   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   

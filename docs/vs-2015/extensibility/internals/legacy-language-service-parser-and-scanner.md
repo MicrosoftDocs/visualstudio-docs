@@ -1,7 +1,7 @@
 ---
 title: "Legacy Language Service Parser and Scanner | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Legacy Language Service Parser and Scanner
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Legacy Language Service Parser and Scanner](https://docs.microsoft.com/visualstudio/extensibility/internals/legacy-language-service-parser-and-scanner).  
-  
 The parser is the heart of the language service. The Managed Package Framework (MPF) language classes require a language parser to select information about the code being displayed. A parser separates the text into lexical tokens and then identifies those tokens by type and functionality.  
   
 ## Discussion  
@@ -59,11 +57,11 @@ namespace MyNamespace
 ## Types of Parsers  
  A language service parser is not the same as a parser used as part of a compiler. However, this kind of parser needs to use both a scanner and a parser, in the same way as a compiler parser.  
   
--   A scanner is used to identify types of tokens. This information is used for syntax highlighting and for quickly identifying token types that can trigger other operations, for example, brace matching. This scanner is represented by the <xref:Microsoft.VisualStudio.Package.IScanner> interface.  
+- A scanner is used to identify types of tokens. This information is used for syntax highlighting and for quickly identifying token types that can trigger other operations, for example, brace matching. This scanner is represented by the <xref:Microsoft.VisualStudio.Package.IScanner> interface.  
   
--   A parser is used to describe the functions and scope of the tokens. This information is used in IntelliSense operations to identify language elements, such as methods, variables, parameters, and declarations, and to provide lists of members and method signatures based on context. This parser is also used to locate matching language element pairs, such as braces and parentheses. This parser is accessed through the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class.  
+- A parser is used to describe the functions and scope of the tokens. This information is used in IntelliSense operations to identify language elements, such as methods, variables, parameters, and declarations, and to provide lists of members and method signatures based on context. This parser is also used to locate matching language element pairs, such as braces and parentheses. This parser is accessed through the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class.  
   
- How you implement a scanner and parser for your language service is up to you. Several resources are available that describe how parsers work and how to write your own parser. Also, several free and commercial products are available that help in creating a parser.  
+  How you implement a scanner and parser for your language service is up to you. Several resources are available that describe how parsers work and how to write your own parser. Also, several free and commercial products are available that help in creating a parser.  
   
 ### The ParseSource Parser  
  Unlike a parser that is used as part of a compiler (where the tokens are converted to some form of executable code), a language service parser can be called for many different reasons and in many different contexts. How you implement this approach in the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class is up to you. It is important to keep in mind that the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method might be called on a background thread.  
@@ -79,7 +77,7 @@ namespace MyNamespace
 ## Parsing for Matching Braces  
  This example shows the flow of control for matching a closing brace that the user has typed. In this process, the scanner that is used for colorization is also used to determine the type of token and whether the token can trigger a match-brace operation. If the trigger is found, the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method is called to find the matching brace. Finally, the two braces are highlighted.  
   
- Even though braces are used in the names of triggers and parse reasons, this process is not limited to actual braces. Any pair of characters that that is specified to be a matching pair is supported. Examples include ( and ), \< and >, and [ and ].  
+ Even though braces are used in the names of triggers and parse reasons, this process is not limited to actual braces. Any pair of characters that is specified to be a matching pair is supported. Examples include ( and ), \< and >, and [ and ].  
   
  Assume that the language service supports matching braces.  
   

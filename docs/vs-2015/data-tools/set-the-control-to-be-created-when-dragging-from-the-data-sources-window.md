@@ -1,7 +1,7 @@
 ---
 title: "Set the control to be created when dragging from the Data Sources window | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Set the control to be created when dragging from the Data Sources window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Set the control to be created when dragging from the Data Sources window](https://docs.microsoft.com/visualstudio/data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window).  
-  
   
 You can create data-bound controls by dragging items from the **Data Sources** window onto the WPF designer or Windows Forms designer. Each item in the **Data Sources** window has a default control that is created when you drag it to the designer. However, you can choose to create a different control.  
   
@@ -38,15 +36,15 @@ You can create data-bound controls by dragging items from the **Data Sources** w
   
 #### To set the controls to be created for data tables or objects  
   
-1.  Make sure that the WPF designer or the Windows Forms designer is open.  
+1. Make sure that the WPF designer or the Windows Forms designer is open.  
   
-2.  In the **Data Sources** window, select the item that represents the data table or object you want to set.  
+2. In the **Data Sources** window, select the item that represents the data table or object you want to set.  
   
-3.  Click the drop-down menu for the item, and then click one of the following items in the menu:  
+3. Click the drop-down menu for the item, and then click one of the following items in the menu:  
   
-    -   To display each data field in a separate control, click **Details**. When you drag the data item to the designer, this action will create a different data-bound control for each column or property of the parent data table or object, along with labels for each control.  
+   - To display each data field in a separate control, click **Details**. When you drag the data item to the designer, this action will create a different data-bound control for each column or property of the parent data table or object, along with labels for each control.  
   
-    -   To display all of the data in a single control, select a different control in the list, such as **DataGrid** or **List** in a WPF application, or **DataGridView** in a Windows Forms application.  
+   - To display all of the data in a single control, select a different control in the list, such as **DataGrid** or **List** in a WPF application, or **DataGridView** in a Windows Forms application.  
   
      The list of available controls depends on which designer you have open, which version of the .NET Framework your project targets, and whether you have added custom controls that support data binding to the **Toolbox**. If the control you want to create is in the list of available controls, you can add the control to the list. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   

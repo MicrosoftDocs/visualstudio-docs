@@ -1,7 +1,7 @@
 ---
 title: "FRAMEINFO | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,45 +21,43 @@ manager: "ghogen"
 # FRAMEINFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [FRAMEINFO](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/frameinfo).  
-  
 Describes a stack frame.  
   
 ## Syntax  
   
 ```cpp#  
 typedef struct tagFRAMEINFO {   
-   FRAMEINFO_FLAGS    m_dwValidFields;  
-   BSTR               m_bstrFuncName;  
-   BSTR               m_bstrReturnType;  
-   BSTR               m_bstrArgs;  
-   BSTR               m_bstrLanguage;  
-   BSTR               m_bstrModule;  
-   UINT64             m_addrMin;  
-   UINT64             m_addrMax;  
-   IDebugStackFrame2* m_pFrame;  
-   IDebugModule2*     m_pModule;  
-   BOOL               m_fHasDebugInfo;  
-   BOOL               m_fStaleCode;  
-   BOOL               m_fAnnotatedFrame;  
+   FRAMEINFO_FLAGS    m_dwValidFields;  
+   BSTR               m_bstrFuncName;  
+   BSTR               m_bstrReturnType;  
+   BSTR               m_bstrArgs;  
+   BSTR               m_bstrLanguage;  
+   BSTR               m_bstrModule;  
+   UINT64             m_addrMin;  
+   UINT64             m_addrMax;  
+   IDebugStackFrame2* m_pFrame;  
+   IDebugModule2*     m_pModule;  
+   BOOL               m_fHasDebugInfo;  
+   BOOL               m_fStaleCode;  
+   BOOL               m_fAnnotatedFrame;  
 } FRAMEINFO;  
 ```  
   
 ```csharp  
 public struct FRAMEINFO {   
-   public uint              m_dwValidFields;  
-   public string            m_bstrFuncName;  
-   public string            m_bstrReturnType;  
-   public string            m_bstrArgs;  
-   public string            m_bstrLanguage;  
-   public string            m_bstrModule;  
-   public ulong             m_addrMin;  
-   public ulong             m_addrMax;  
-   public IDebugStackFrame2 m_pFrame;  
-   public IDebugModule2     m_pModule;  
-   public int               m_fHasDebugInfo;  
-   public int               m_fStaleCode;  
-   public int               m_fAnnotatedFrame;  
+   public uint              m_dwValidFields;  
+   public string            m_bstrFuncName;  
+   public string            m_bstrReturnType;  
+   public string            m_bstrArgs;  
+   public string            m_bstrLanguage;  
+   public string            m_bstrModule;  
+   public ulong             m_addrMin;  
+   public ulong             m_addrMax;  
+   public IDebugStackFrame2 m_pFrame;  
+   public IDebugModule2     m_pModule;  
+   public int               m_fHasDebugInfo;  
+   public int               m_fStaleCode;  
+   public int               m_fAnnotatedFrame;  
 } FRAMEINFO;  
 ```  
   

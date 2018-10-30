@@ -1,7 +1,7 @@
 ---
 title: "Extending Other Parts of Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Extending Other Parts of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extending Other Parts of Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/extending-other-parts-of-visual-studio).  
-  
 There are many more parts of the Visual Studio UI that you can extend. Here we show you just a few.  
   
 ## Creating a VSPackage  

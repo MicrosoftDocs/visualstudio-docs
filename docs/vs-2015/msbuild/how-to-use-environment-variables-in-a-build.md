@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Environment Variables in a Build | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,8 +22,6 @@ manager: "ghogen"
 # How to: Use Environment Variables in a Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Use Environment Variables in a Build](https://docs.microsoft.com/visualstudio/msbuild/how-to-use-environment-variables-in-a-build).  
-  
   
 When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.  
   
@@ -35,11 +33,11 @@ When you build projects, it is often necessary to set build options using inform
   
 #### To use an environment variable in an MSBuild project  
   
--   Reference the environment variable the same way you would a variable declared in your project file. For example, the following code references the BIN_PATH environment variable:  
+- Reference the environment variable the same way you would a variable declared in your project file. For example, the following code references the BIN_PATH environment variable:  
   
-     `<FinalOutput>$(BIN_PATH)\MyAssembly.dll</FinalOutput>`  
+   `<FinalOutput>$(BIN_PATH)\MyAssembly.dll</FinalOutput>`  
   
- You can use a `Condition` attribute to provide a default value for a property if the environment variable was not set.  
+  You can use a `Condition` attribute to provide a default value for a property if the environment variable was not set.  
   
 #### To provide a default value for a property  
   

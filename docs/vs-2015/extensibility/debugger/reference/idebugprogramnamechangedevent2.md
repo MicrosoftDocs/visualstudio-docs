@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramNameChangedEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # IDebugProgramNameChangedEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramNameChangedEvent2](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramnamechangedevent2).  
-  
 Sent from the debug engine (DE) to the session debug manager (SDM) when the name of a program changes.  
   
 ## Syntax  

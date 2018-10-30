@@ -21,15 +21,15 @@ Retrieves the description and description metadata for the port supplier.
   
 ```cpp  
 HRESULT GetDescription(  
-   PORT_SUPPLIER_DESCRIPTION_FLAGS *pdwFlags,  
-   BSTR *pbstrText  
+   PORT_SUPPLIER_DESCRIPTION_FLAGS *pdwFlags,  
+   BSTR *pbstrText  
 );  
 ```  
   
 ```csharp  
 public int GetDescription(  
-   out enum_PORT_SUPPLIER_DESCRIPTION_FLAGS pdwFlags,  
-   out string pbstrText  
+   out enum_PORT_SUPPLIER_DESCRIPTION_FLAGS pdwFlags,  
+   out string pbstrText  
 );  
 ```  
   

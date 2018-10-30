@@ -1,7 +1,7 @@
 ---
 title: "IDebugEngine3::SetSymbolPath | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # IDebugEngine3::SetSymbolPath
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugEngine3::SetSymbolPath](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugengine3-setsymbolpath).  
-  
 Sets the path or paths that are searched for debugging symbols.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT SetSymbolPath (  
-   LPOLESTR            szSymbolSearchPath,  
-   LPOLESTR            szSymbolCachePath,  
-   LOAD_SYMBOLS_FLAGS  Flags  
+   LPOLESTR            szSymbolSearchPath,  
+   LPOLESTR            szSymbolCachePath,  
+   LOAD_SYMBOLS_FLAGS  Flags  
 );  
 ```  
   
 ```csharp  
 int SetSymbolPath(  
-   string                    szSymbolSearchPath,   
-   string                    szSymbolCachePath,   
-   enum_LOAD_SYMBOLS_FLAGS   Flags  
+   string                    szSymbolSearchPath,   
+   string                    szSymbolCachePath,   
+   enum_LOAD_SYMBOLS_FLAGS   Flags  
 );  
 ```  
   

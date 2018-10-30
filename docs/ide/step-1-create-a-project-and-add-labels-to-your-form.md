@@ -14,10 +14,11 @@ ms.workload:
   - "multiple"
 ---
 # Step 1: Create a project and add labels to your form
+
 As the first steps in developing this quiz, you create the project, and you add labels, a button, and other controls to a form. You also set properties for each control that you add. The project will contain the form, the controls, and (later in the tutorial) code. The button starts the quiz, the labels show the quiz problems, and the other controls show the quiz answers and the time that remains to finish the quiz.
 
 > [!NOTE]
->  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
 ## To create a project and set properties for a form
 
@@ -64,7 +65,6 @@ As the first steps in developing this quiz, you create the project, and you add 
      You can change several font properties, as the following picture shows.
 
      ![Properties window showing font size](../ide/media/express_setfontsize.png)
-**Properties** window showing font size
 
 8.  Add another Label control from the **Toolbox**, and then set its font size to **15.75**.
 
@@ -113,7 +113,6 @@ As the first steps in developing this quiz, you create the project, and you add 
      You've created the first row, as the following picture shows.
 
      ![First row of math quiz](../ide/media/express_firstrow.png)
-First row of math quiz
 
 ## To add controls for the subtraction, multiplication, and division problems
 
@@ -140,7 +139,7 @@ First row of math quiz
 9. For the fourth row, name the first label **dividedLeftLabel**, change the second label's **Text** property to **÷** (division sign), name the third label **dividedRightLabel**, and name the NumericUpDown control **quotient**.
 
     > [!NOTE]
-    >  You can copy the multiplication sign × and the division sign ÷ from this tutorial and paste them onto the form.
+    > You can copy the multiplication sign × and the division sign ÷ from this tutorial and paste them onto the form.
 
 ## To add a start button and set the tab-index order
 
@@ -157,14 +156,13 @@ First row of math quiz
 6.  Set the value of the **TabIndex** property for the **startButton** control to **1**.
 
     > [!NOTE]
-    >  The **TabIndex** property sets the order of the controls when the quiz taker chooses the **Tab** key. To see how it works, open any dialog box (for example, on the menu bar, choose **File** > **Open**), and then choose the **Tab** key a few times. Watch how your cursor moves from control to control each time that you choose the **Tab** key. A programmer decided the order when creating that form.
+    > The **TabIndex** property sets the order of the controls when the quiz taker chooses the **Tab** key. To see how it works, open any dialog box (for example, on the menu bar, choose **File** > **Open**), and then choose the **Tab** key a few times. Watch how your cursor moves from control to control each time that you choose the **Tab** key. A programmer decided the order when creating that form.
 
 7.  Set the value of the **TabIndex** property for the NumericUpDown sum control to **2**, for the difference control to **3**, for the product control to **4**, and for the quotient control to **5**.
 
      The form should look like the following illustration.
 
      ![Initial math quiz form](../ide/media/express_formlaidout.png)
-Initial math quiz form
 
 8.  To verify whether the **TabIndex** property works as you expect, save and run your program by choosing the **F5** key, or by choosing **Debug** > **Start Debugging** on the menu bar, and then choose the **Tab** key a few times.
 

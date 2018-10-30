@@ -22,7 +22,7 @@ Retrieves the number of items in the table.
   
 ```C++  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "IDiaDataSource::loadDataFromIStream | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaDataSource::loadDataFromIStream
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaDataSource::loadDataFromIStream](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiadatasource-loaddatafromistream).  
-  
 Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT loadDataFromIStream (   
-   IStream* pIStream  
+   IStream* pIStream  
 );  
 ```  
   

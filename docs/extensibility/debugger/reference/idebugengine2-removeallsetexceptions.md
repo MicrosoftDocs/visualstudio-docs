@@ -23,13 +23,13 @@ Removes the list of exceptions the IDE has set for a particular run-time archite
   
 ```cpp  
 HRESULT RemoveAllSetExceptions(   
-   REFGUID guidType  
+   REFGUID guidType  
 );  
 ```  
   
 ```csharp  
 int RemoveAllSetExceptions(   
-   ref Guid guidType  
+   ref Guid guidType  
 );  
 ```  
   

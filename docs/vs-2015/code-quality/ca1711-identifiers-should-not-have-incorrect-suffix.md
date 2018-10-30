@@ -1,7 +1,7 @@
 ---
 title: "CA1711: Identifiers should not have incorrect suffix | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,6 @@ manager: "wpickett"
 ---
 # CA1711: Identifiers should not have incorrect suffix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
-The latest version of this topic can be found at [CA1711: Identifiers should not have incorrect suffix](https://docs.microsoft.com/visualstudio/code-quality/ca1711-identifiers-should-not-have-incorrect-suffix).
 
 |||
 |-|-|
@@ -56,15 +54,15 @@ The latest version of this topic can be found at [CA1711: Identifiers should not
 
  In addition, the following suffixes should **not** be used:
 
--   Delegate
+- Delegate
 
--   Enum
+- Enum
 
--   Impl - use 'Core' instead
+- Impl - use 'Core' instead
 
--   Ex or similar suffix to distinguish it from an earlier version of the same type
+- Ex or similar suffix to distinguish it from an earlier version of the same type
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+  Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
 ## How to Fix Violations
  Remove the suffix from the type name.

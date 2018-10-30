@@ -21,13 +21,13 @@ Sends the specified message string to the debugger's output window.
   
 ```cpp  
 HRESULT DisplayMessage (  
-   LPCOLESTR szMessage  
+   LPCOLESTR szMessage  
 );  
 ```  
   
 ```csharp  
 int DisplayMessage (  
-   string szMessage  
+   string szMessage  
 );  
 ```  
   

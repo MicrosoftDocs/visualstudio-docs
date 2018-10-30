@@ -1,7 +1,7 @@
 ---
 title: "Creating an Options Page | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Creating an Options Page
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Creating an Options Page](https://docs.microsoft.com/visualstudio/extensibility/creating-an-options-page).  
-  
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.  
   
  To save these properties to and restore them from a settings file, follow these steps, and then see [Creating a Settings Category](../extensibility/creating-a-settings-category.md).  
@@ -110,7 +108,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 2.  Add the following using statement.  
   
-    ```vb  
+    ```csharp  
     using System.Windows.Forms;  
     ```  
   

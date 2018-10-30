@@ -1,7 +1,7 @@
 ---
 title: "Supported Configurations and Platforms for Coded UI Tests and Action Recordings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "douge"
 # Supported Configurations and Platforms for Coded UI Tests and Action Recordings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](https://docs.microsoft.com/visualstudio/test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings).  
-  
 The supported configurations and platforms for coded UI tests for Visual Studio Enterprise are listed in the following table. These configurations also apply to action recordings created by using [!INCLUDE[MTRlong](../includes/mtrlong-md.md)].  
   
 > [!NOTE]

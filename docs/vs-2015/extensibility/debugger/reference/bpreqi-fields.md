@@ -1,7 +1,7 @@
 ---
 title: "BPREQI_FIELDS | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,48 +21,46 @@ manager: "ghogen"
 # BPREQI_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [BPREQI_FIELDS](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/bpreqi-fields).  
-  
 Specifies the information to be retrieved about a breakpoint request.  
   
 ## Syntax  
   
 ```cpp  
 enum enum_BPREQI_FIELDS {   
-   BPREQI_BPLOCATION   = 0x0001,  
-   BPREQI_LANGUAGE     = 0x0002,  
-   BPREQI_PROGRAM      = 0x0004,  
-   BPREQI_PROGRAMNAME  = 0x0008,  
-   BPREQI_THREAD       = 0x0010,  
-   BPREQI_THREADNAME   = 0x0020,  
-   BPREQI_PASSCOUNT    = 0x0040,  
-   BPREQI_CONDITION    = 0x0080,  
-   BPREQI_FLAGS        = 0x0100,  
-   BPREQI_ALLOLDFIELDS = 0x01ff  
-   BPREQI_VENDOR       = 0x0200,   // BP_REQUEST_INFO2 only  
-   BPREQI_CONSTRAINT   = 0x0400,   // BP_REQUEST_INFO2 only  
-   BPREQI_TRACEPOINT   = 0x0800,   // BP_REQUEST_INFO2 only  
-   BPREQI_ALLFIELDS    = 0x0fff    // BP_REQUEST_INFO2 only  
+   BPREQI_BPLOCATION   = 0x0001,  
+   BPREQI_LANGUAGE     = 0x0002,  
+   BPREQI_PROGRAM      = 0x0004,  
+   BPREQI_PROGRAMNAME  = 0x0008,  
+   BPREQI_THREAD       = 0x0010,  
+   BPREQI_THREADNAME   = 0x0020,  
+   BPREQI_PASSCOUNT    = 0x0040,  
+   BPREQI_CONDITION    = 0x0080,  
+   BPREQI_FLAGS        = 0x0100,  
+   BPREQI_ALLOLDFIELDS = 0x01ff  
+   BPREQI_VENDOR       = 0x0200,   // BP_REQUEST_INFO2 only  
+   BPREQI_CONSTRAINT   = 0x0400,   // BP_REQUEST_INFO2 only  
+   BPREQI_TRACEPOINT   = 0x0800,   // BP_REQUEST_INFO2 only  
+   BPREQI_ALLFIELDS    = 0x0fff    // BP_REQUEST_INFO2 only  
 };  
 typedef DWORD BPREQI_FIELDS;  
 ```  
   
 ```csharp  
 public enum enum_BPREQI_FIELDS {   
-   BPREQI_BPLOCATION   = 0x0001,  
-   BPREQI_LANGUAGE     = 0x0002,  
-   BPREQI_PROGRAM      = 0x0004,  
-   BPREQI_PROGRAMNAME  = 0x0008,  
-   BPREQI_THREAD       = 0x0010,  
-   BPREQI_THREADNAME   = 0x0020,  
-   BPREQI_PASSCOUNT    = 0x0040,  
-   BPREQI_CONDITION    = 0x0080,  
-   BPREQI_FLAGS        = 0x0100,  
-   BPREQI_ALLOLDFIELDS = 0x01ff  
-   BPREQI_VENDOR       = 0x0200,   // BP_REQUEST_INFO2 only  
-   BPREQI_CONSTRAINT   = 0x0400,   // BP_REQUEST_INFO2 only  
-   BPREQI_TRACEPOINT   = 0x0800,   // BP_REQUEST_INFO2 only  
-   BPREQI_ALLFIELDS    = 0x0fff    // BP_REQUEST_INFO2 only  
+   BPREQI_BPLOCATION   = 0x0001,  
+   BPREQI_LANGUAGE     = 0x0002,  
+   BPREQI_PROGRAM      = 0x0004,  
+   BPREQI_PROGRAMNAME  = 0x0008,  
+   BPREQI_THREAD       = 0x0010,  
+   BPREQI_THREADNAME   = 0x0020,  
+   BPREQI_PASSCOUNT    = 0x0040,  
+   BPREQI_CONDITION    = 0x0080,  
+   BPREQI_FLAGS        = 0x0100,  
+   BPREQI_ALLOLDFIELDS = 0x01ff  
+   BPREQI_VENDOR       = 0x0200,   // BP_REQUEST_INFO2 only  
+   BPREQI_CONSTRAINT   = 0x0400,   // BP_REQUEST_INFO2 only  
+   BPREQI_TRACEPOINT   = 0x0800,   // BP_REQUEST_INFO2 only  
+   BPREQI_ALLFIELDS    = 0x0fff    // BP_REQUEST_INFO2 only  
 };  
 ```  
   

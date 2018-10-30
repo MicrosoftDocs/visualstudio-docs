@@ -1,7 +1,7 @@
 ---
 title: "IDebugObject::GetMemoryContext | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugObject::GetMemoryContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugObject::GetMemoryContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugobject-getmemorycontext).  
-  
 Gets the memory context that represents the address of the value of the object.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetMemoryContext(   
-   IDebugMemoryContext2** pContext  
+   IDebugMemoryContext2** pContext  
 );  
 ```  
   
 ```csharp  
 int GetMemoryContext(  
-   ref IDebugMemoryContext2 pContext  
+   ref IDebugMemoryContext2 pContext  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Analyze CPU Usage in a Windows Universal App | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ robots: noindex,nofollow
 # Analyze CPU Usage in a Windows Universal App
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Analyze CPU Usage in a Universal Windows App](https://docs.microsoft.com/visualstudio/profiling/analyze-cpu-usage-in-a-windows-universal-app).  
-  
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
  When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing code. To focus on specific scenarios, CPU Usage can be run with the [XAML UI Responsiveness](http://msdn.microsoft.com/library/4ff84cd1-4e63-4fda-b34f-3ef862a6e480) tool, the [Energy Consumption](../profiling/analyze-energy-use-in-store-apps.md) tool, or both tools in a single diagnostic session.  
@@ -51,27 +49,27 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
  ![Run a release build of the app in the simulator](../profiling/media/cpu-use-wt-setsimulatorandretail.png "CPU_USE_WT_SetSimulatorAndRetail")  
   
-1.  In Visual Studio, set the deployment target to **Simulator** and the solution configuration to **Release**.  
+1. In Visual Studio, set the deployment target to **Simulator** and the solution configuration to **Release**.  
   
-    -   Running the app in the simulator lets you switch easily between the app and the Visual Studio IDE.  
+   -   Running the app in the simulator lets you switch easily between the app and the Visual Studio IDE.  
   
-    -   Running this app in **Release** mode gives you a better view of the actual performance of your app.  
+   -   Running this app in **Release** mode gives you a better view of the actual performance of your app.  
   
-2.  On the **Debug** menu, choose **Performance Profiler...**.  
+2. On the **Debug** menu, choose **Performance Profiler...**.  
   
-3.  In the Performance and Diagnostic hub, choose **CPU Usage** and then choose **Start**.  
+3. In the Performance and Diagnostic hub, choose **CPU Usage** and then choose **Start**.  
   
-     ![Start the CpuUsage diagnostic session](../profiling/media/cpu-use-wt-perfdiaghub.png "CPU_USE_WT_PerfDiagHub")  
+    ![Start the CpuUsage diagnostic session](../profiling/media/cpu-use-wt-perfdiaghub.png "CPU_USE_WT_PerfDiagHub")  
   
-4.  When the app starts, click **Get Max Number**. Wait about a second after the output is displayed, then choose **Get Max Number Async**. Waiting between button clicks makes it easier to isolate the button click routines in the diagnostic report.  
+4. When the app starts, click **Get Max Number**. Wait about a second after the output is displayed, then choose **Get Max Number Async**. Waiting between button clicks makes it easier to isolate the button click routines in the diagnostic report.  
   
-5.  After the second output line appears, choose **Stop Collection** in the Performance and Diagnostic hub.  
+5. After the second output line appears, choose **Stop Collection** in the Performance and Diagnostic hub.  
   
- ![Stop CpuUsage data collection](../profiling/media/cpu-use-wt-stopcollection.png "CPU_USE_WT_StopCollection")  
+   ![Stop CpuUsage data collection](../profiling/media/cpu-use-wt-stopcollection.png "CPU_USE_WT_StopCollection")  
   
- The CPU Usage tool analyzes the data and displays the report.  
+   The CPU Usage tool analyzes the data and displays the report.  
   
- ![CpuUsage report](../profiling/media/cpu-use-wt-report.png "CPU_USE_WT_Report")  
+   ![CpuUsage report](../profiling/media/cpu-use-wt-report.png "CPU_USE_WT_Report")  
   
 ##  <a name="BKMK_Analyze_the_CPU_Usage_report"></a> Analyze the CPU Usage report  
   

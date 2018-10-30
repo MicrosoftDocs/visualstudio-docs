@@ -1,7 +1,7 @@
 ---
 title: "Editing Coded UI Tests Using the Coded UI Test Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,6 @@ manager: "douge"
 # Editing Coded UI Tests Using the Coded UI Test Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Editing Coded UI Tests Using the Coded UI Test Editor](https://docs.microsoft.com/visualstudio/test/editing-coded-ui-tests-using-the-coded-ui-test-editor).  
-  
 The Coded UI Test Editor lets you easily modify your coded UI tests. Using the Coded UI Test Editor, you can locate, view, and edit the properties of your test methods and UI actions. In addition, you can use the UI control map to view and edit their corresponding controls.  
   
  **Requirements**  
@@ -76,7 +74,7 @@ Edit UI action properties
   
  To modify the properties for a UI action, in the **UI Action** pane, expand the test method that contains a UI action that you want to edit the properties for, select the UI action, and then modify the properties using the Properties window.  
   
- For example, if a server is unavailable, and you have a UI action associated with your Web browser that states **Go to Web page ‘http://Contoso1/default.aspx’**, you could change the URL to `‘http://Contoso2/default.aspx’`.  
+ For example, if a server is unavailable, and you have a UI action associated with your Web browser that states **Go to Web page ‘<http://Contoso1/default.aspx’>**, you could change the URL to `‘http://Contoso2/default.aspx’`.  
   
  ![Control properties](../test/media/codeduitestcontrolprop.png "CodedUITestControlProp")  
 Edit control properties  
@@ -121,19 +119,19 @@ Edit control properties
  *What else should I know?*  
  **Important issues**  
   
--   ![Caution icon](../test/media/caution.gif "caution") **Warning:** If you split a method, you must modify any code that calls the existing method to also call the new method you are about to create if you still want those UI actions included. When you split a method, a Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that calls the existing method to also call the new method you are about to create. Choose **Yes**.  
+- ![Caution icon](../test/media/caution.gif "caution") **Warning:** If you split a method, you must modify any code that calls the existing method to also call the new method you are about to create if you still want those UI actions included. When you split a method, a Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that calls the existing method to also call the new method you are about to create. Choose **Yes**.  
   
- **Tips**  
+  **Tips**  
   
--   ![Tip](../test/media/tip.png "Tip") To undo the split, choose **Undo** from the **Edit** menu, or press Ctrl+Z.  
+- ![Tip](../test/media/tip.png "Tip") To undo the split, choose **Undo** from the **Edit** menu, or press Ctrl+Z.  
   
--   ![Tip](../test/media/tip.png "Tip") You can rename the new method. Select it in the UI Actions pane and choose the **Rename** button in the Coded UI Test Editor toolbar.  
+- ![Tip](../test/media/tip.png "Tip") You can rename the new method. Select it in the UI Actions pane and choose the **Rename** button in the Coded UI Test Editor toolbar.  
   
-     -or-  
+   -or-  
   
-     Open the shortcut menu for the new test method and choose **Rename**.  
+   Open the shortcut menu for the new test method and choose **Rename**.  
   
-     A Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that references the method. Choose **Yes**.  
+   A Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that references the method. Choose **Yes**.  
   
 ##  <a name="CodedUITestEditor_MoveMethods"></a> Move a test method to the UIMap File to facilitate customization  
  If you determine that one of your test methods in your coded UI test requires custom code, you must move it into either the UIMap.cs or UIMap.vb file. Otherwise, your code will be overwritten whenever the coded UI test is recompiled. If you do not move the method, your custom code will be overwritten each time the test is recompiled.  
@@ -145,11 +143,11 @@ Edit control properties
  *What else should I know?*  
  **Important issues**  
   
--   ![Caution icon](../test/media/caution.gif "caution") **Warning:** Once you have moved a method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor. When you move a method, a Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the UIMap.uitest file to the UIMap.cs or UIMap.vb file and that you will no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.  
+- ![Caution icon](../test/media/caution.gif "caution") **Warning:** Once you have moved a method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor. When you move a method, a Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the UIMap.uitest file to the UIMap.cs or UIMap.vb file and that you will no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.  
   
- **Tips**  
+  **Tips**  
   
--   ![Tip](../test/media/tip.png "Tip") To undo the move, select **Undo** from the **Edit** menu, or press Ctrl+Z. However, you must then manually remove the code from the UIMap.cs or UIMap.vb file.  
+- ![Tip](../test/media/tip.png "Tip") To undo the move, select **Undo** from the **Edit** menu, or press Ctrl+Z. However, you must then manually remove the code from the UIMap.cs or UIMap.vb file.  
   
 ##  <a name="CodedUITestEditor_LocateUIControl"></a> Locating a UI Control in the application under test  
  Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. Using the **Locate the UI Control** feature on the application under test can also be used to verify search property modifications you have made to a control.  
@@ -163,11 +161,11 @@ Edit control properties
  *What else should I know?*  
  **Important issues**  
   
--   ![Caution icon](../test/media/caution.gif "caution") **Warning:** Before you locate a UI control, verify that the application associated with the test is running.  
+- ![Caution icon](../test/media/caution.gif "caution") **Warning:** Before you locate a UI control, verify that the application associated with the test is running.  
   
- **Tips**  
+  **Tips**  
   
--   ![Tip](../test/media/tip.png "Tip") Alternatively, you can use the **Locate All** option to verify that all the controls under a container can be correctly located. This option is described in the next section.  
+- ![Tip](../test/media/tip.png "Tip") Alternatively, you can use the **Locate All** option to verify that all the controls under a container can be correctly located. This option is described in the next section.  
   
 ##  <a name="CodedUITestEditor_LocateDecendants"></a> Locating a control and its descendants  
  You can verify that all the controls under a container can be correctly located in the UI of the application under test. This can be helpful in verifying search property changes you may have made on the container. Additionally, if there have been significant changes in the UI of the application under test, you can validate that the existing control search properties are still correct.  
@@ -197,11 +195,11 @@ Edit control properties
  *What else should I know?*  
  **Notes**  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") If you need to ensure that a specific control is available before a UI action, you should consider adding custom code to your test method using the appropriate UITestControl.WaitForControlXXX() method. [!INCLUDE[crdefault](../includes/crdefault-md.md)][Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md).  
+- ![Prerequsite](../test/media/prereq.png "Prereq") If you need to ensure that a specific control is available before a UI action, you should consider adding custom code to your test method using the appropriate UITestControl.WaitForControlXXX() method. [!INCLUDE[crdefault](../includes/crdefault-md.md)][Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md).  
   
- **Tips**  
+  **Tips**  
   
--   ![Tip](../test/media/tip.png "Tip") If the Properties window is not displayed, press and hold Alt while you press Enter, or alternatively, press F4.  
+- ![Tip](../test/media/tip.png "Tip") If the Properties window is not displayed, press and hold Alt while you press Enter, or alternatively, press F4.  
   
 ## External resources  
   

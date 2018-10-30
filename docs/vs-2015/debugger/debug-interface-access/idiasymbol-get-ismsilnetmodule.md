@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isMSILNetmodule | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_isMSILNetmodule
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_isMSILNetmodule](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-ismsilnetmodule).  
-  
 Retrieves a flag indicating whether the module is a .netmodule (a Microsoft Intermediate Language (MSIL) module that contains only metadata and no native symbols).  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_isMSILNetmodule(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

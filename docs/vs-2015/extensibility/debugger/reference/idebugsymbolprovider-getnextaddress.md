@@ -1,7 +1,7 @@
 ---
 title: "IDebugSymbolProvider::GetNextAddress | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,25 +21,23 @@ manager: "ghogen"
 # IDebugSymbolProvider::GetNextAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugSymbolProvider::GetNextAddress](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugsymbolprovider-getnextaddress).  
-  
 Gets the debug address that follows a given debug address in a method.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetNextAddress(   
-   IDebugAddress*  pAddress,  
-   BOOL            fStatementOnly,  
-   IDebugAddress** ppAddress  
+   IDebugAddress*  pAddress,  
+   BOOL            fStatementOnly,  
+   IDebugAddress** ppAddress  
 );  
 ```  
   
 ```csharp  
 int GetNextAddress(   
-   IDebugAddress     pAddress,  
-   bool              fStatementOnly,  
-   out IDebugAddress ppAddress  
+   IDebugAddress     pAddress,  
+   bool              fStatementOnly,  
+   out IDebugAddress ppAddress  
 );  
 ```  
   

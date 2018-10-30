@@ -1,7 +1,7 @@
 ---
 title: "The connection property in the Application Settings file is missing or incorrect | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,6 @@ manager: "ghogen"
 # The connection property in the Application Settings file is missing or incorrect
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [The connection property in the Application Settings file is missing or incorrect](https://docs.microsoft.com/visualstudio/data-tools/the-connection-property-in-the-application-settings-file-is-missing-or-incorrect).  
-  
   
 The connection property in the Application Settings file is missing or incorrect. The connection string from the .dbml file has been used in its place.  
   

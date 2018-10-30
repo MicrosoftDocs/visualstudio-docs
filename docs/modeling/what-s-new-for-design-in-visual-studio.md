@@ -64,7 +64,7 @@ For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualst
 Visual Studio 2017 is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 
 |**Feature**|**Enterprise edition**|**Professional edition**|**Community edition**|
-|-----------------|--------------------|----------------------|-------------------|
+|-|-|-|-|
 |**Code maps**|Yes|Only supports reading code maps, filtering code maps, adding new generic nodes, and creating a new Directed Graph from a selection.|-|
 |**Dependency diagrams**|Yes|Only supports reading dependency diagrams.|Only supports reading dependency diagrams.|
 |**Directed graphs** (DGML diagrams)|Yes|Yes|Yes|

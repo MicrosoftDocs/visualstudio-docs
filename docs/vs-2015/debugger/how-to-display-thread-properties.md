@@ -1,7 +1,7 @@
 ---
 title: "How to: Display Thread Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,17 +20,15 @@ manager: "ghogen"
 # How to: Display Thread Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Display Thread Properties](https://docs.microsoft.com/visualstudio/debugger/how-to-display-thread-properties).  
-  
 To find out more about a thread listed in [Threads View](../debugger/threads-view.md), use the [Thread Properties Dialog Box](../debugger/thread-properties-dialog-box.md).  
   
 ### To open a Thread Properties dialog box  
   
-1.  Select a thread from the tree displayed in [Threads View](../debugger/threads-view.md).  
+1. Select a thread from the tree displayed in [Threads View](../debugger/threads-view.md).  
   
-2.  From the **View** menu, choose **Properties**.  
+2. From the **View** menu, choose **Properties**.  
   
- Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
+   Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
 
 
 

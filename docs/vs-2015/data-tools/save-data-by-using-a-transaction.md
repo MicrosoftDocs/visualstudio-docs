@@ -1,7 +1,7 @@
 ---
 title: "Save data by using a transaction | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,6 @@ manager: "ghogen"
 # Save data by using a transaction
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Save data by using a transaction](https://docs.microsoft.com/visualstudio/data-tools/save-data-by-using-a-transaction).  
-  
   
 You save data in a transaction by using the <xref:System.Transactions> namespace. Use the <xref:System.Transactions.TransactionScope> object to participate in a transaction that is automatically managed for you.  
   
@@ -48,7 +46,7 @@ You save data in a transaction by using the <xref:System.Transactions> namespace
   
 1.  On the **Project** menu, select **Add Reference**.  
   
-2.  On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and thenselect**OK**.  
+2.  On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.  
   
      A reference to System.Transactions.dll is added to the project.  
   

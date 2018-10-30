@@ -1,7 +1,7 @@
 ---
 title: "IDebugProgramEngines2::SetEngine | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugProgramEngines2::SetEngine
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugProgramEngines2::SetEngine](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugprogramengines2-setengine).  
-  
 Tells the program or program node which debug engine (DE) to use to debug this program.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT SetEngine(   
-   REFGUID guidEngine  
+   REFGUID guidEngine  
 );  
 ```  
   
 ```csharp  
 int SetEngine(   
-   ref Guid guidEngine  
+   ref Guid guidEngine  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "CA1704: Identifiers should be spelled correctly | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,8 +24,6 @@ manager: "wpickett"
 # CA1704: Identifiers should be spelled correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [CA1704: Identifiers should be spelled correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1704-identifiers-should-be-spelled-correctly).
-
 |||
 |-|-|
 |TypeName|IdentifiersShouldBeSpelledCorrectly|
@@ -39,30 +37,30 @@ The latest version of this topic can be found at [CA1704: Identifiers should be 
 ## Rule Description
  This rule parses the identifier into tokens and checks the spelling of each token. The parsing algorithm performs the following transformations:
 
--   Uppercase letters start a new token. For example, MyNameIsJoe tokenizes to "My", "Name", "Is", "Joe".
+- Uppercase letters start a new token. For example, MyNameIsJoe tokenizes to "My", "Name", "Is", "Joe".
 
--   For multiple uppercase letters, the last uppercase letter starts a new token. For example, GUIEditor tokenizes to "GUI", "Editor".
+- For multiple uppercase letters, the last uppercase letter starts a new token. For example, GUIEditor tokenizes to "GUI", "Editor".
 
--   Leading and trailing apostrophes are removed. For example, 'sender' tokenizes to "sender".
+- Leading and trailing apostrophes are removed. For example, 'sender' tokenizes to "sender".
 
--   Underscores signify the end of a token and are removed. For example, Hello_world tokenizes to "Hello", "world".
+- Underscores signify the end of a token and are removed. For example, Hello_world tokenizes to "Hello", "world".
 
--   Embedded ampersands are removed. For example, for&mat tokenizes to "format".
+- Embedded ampersands are removed. For example, for&mat tokenizes to "format".
 
- By default, the English (en) version of the spelling checker is used. No other language dictionaries are currently available.
+  By default, the English (en) version of the spelling checker is used. No other language dictionaries are currently available.
 
 ## How to Fix Violations
  To fix a violation of this rule, correct the spelling of the word or add the word to a custom dictionary that is named CustomDictionary.xml. Place the dictionary in the installation directory of the tool, the project directory, or in the directory that is associated with the tool under the profile of the user (%USERPROFILE%\Application Data\\...). To learn how to add the custom dictionary to a project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md)
 
--   Add words that should not cause a violation under the Dictionary/Words/Recognized path.
+- Add words that should not cause a violation under the Dictionary/Words/Recognized path.
 
--   Add words that should cause a violation under the Dictionary/Words/Unrecognized path.
+- Add words that should cause a violation under the Dictionary/Words/Unrecognized path.
 
--   Add words that should be flagged as obsolete under the Dictionary/Words/Deprecated path. See the related rule topic [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)for more information.
+- Add words that should be flagged as obsolete under the Dictionary/Words/Deprecated path. See the related rule topic [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)for more information.
 
--   Add exceptions to the acronym casing rules to the Dictionary/Acronyms/CasingExceptions path.
+- Add exceptions to the acronym casing rules to the Dictionary/Acronyms/CasingExceptions path.
 
- The following is an example of the structure of a custom dictionary file.
+  The following is an example of the structure of a custom dictionary file.
 
 ```
 <Dictionary>

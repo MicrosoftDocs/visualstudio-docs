@@ -1,7 +1,7 @@
 ---
 title: "How to: Provide Context for Editors | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,17 +19,15 @@ manager: "ghogen"
 # How to: Provide Context for Editors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Provide Context for Editors](https://docs.microsoft.com/visualstudio/extensibility/how-to-provide-context-for-editors).  
-  
 For an editor, the context is active only when the editor has focus or had focus immediately before the focus was moved to a tool window. You can provide context for an editor by doing the following:  
   
-1.  Create a context bag.  
+1. Create a context bag.  
   
-2.  Publish the context bag to the selection element identifier (SEID).  
+2. Publish the context bag to the selection element identifier (SEID).  
   
-3.  Maintain the context in the bag.  
+3. Maintain the context in the bag.  
   
- These tasks are covered by the following procedures. For more information about providing context, see **Robust Programming** later in this topic.  
+   These tasks are covered by the following procedures. For more information about providing context, see **Robust Programming** later in this topic.  
   
 ### To create a context bag for an editor or a designer  
   

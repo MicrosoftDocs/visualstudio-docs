@@ -1,7 +1,7 @@
 ---
 title: "IDiaLineNumber::get_sourceFileId | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaLineNumber::get_sourceFileId
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaLineNumber::get_sourceFileId](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idialinenumber-get-sourcefileid).  
-  
 Retrieves a unique source file identifier for the source file that contributed this line.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_sourceFileId (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortSupplier2::GetPort | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,23 +21,21 @@ manager: "ghogen"
 # IDebugPortSupplier2::GetPort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugPortSupplier2::GetPort](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplier2-getport).  
-  
 Gets a port from a port supplier.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetPort(   
-   REFGUID       guidPort,  
-   IDebugPort2** ppPort  
+   REFGUID       guidPort,  
+   IDebugPort2** ppPort  
 );  
 ```  
   
 ```csharp  
 int GetPort(   
-   ref Guid        guidPort,  
-   out IDebugPort2 ppPort  
+   ref Guid        guidPort,  
+   out IDebugPort2 ppPort  
 );  
 ```  
   

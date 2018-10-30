@@ -1,7 +1,7 @@
 ---
 title: "File Properties, JavaScript | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,8 +35,6 @@ manager: "ghogen"
 # File Properties, JavaScript
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [File Properties, JavaScript](https://docs.microsoft.com/visualstudio/ide/reference/file-properties-javascript).  
-  
   
 You can use file properties to indicate what actions the project system should perform on the files. For example, you can set file properties to indicate whether a file should be added to the package as a resource file.  
   
@@ -51,15 +49,15 @@ You can use file properties to indicate what actions the project system should p
 ### Package Action  
  The **Package Action** property indicates what Visual Studio does with a file when a build is executed. **Package Action** can have one of several values:  
   
--   **None** - The file is not included in the package manifest. An example is a text file that contains documentation, such as a Readme file.  
+- **None** - The file is not included in the package manifest. An example is a text file that contains documentation, such as a Readme file.  
   
--   **Content** - The file is included in the package manifest. For example, this setting is the default value for an .htm, .js, .css, image, audio, or video file.  
+- **Content** - The file is included in the package manifest. For example, this setting is the default value for an .htm, .js, .css, image, audio, or video file.  
   
--   **Manifest** – The file is not included in the package manifest. Instead, the file is used for input when generating the package manifest. This is the default value for the package.appxmanifest file.  
+- **Manifest** – The file is not included in the package manifest. Instead, the file is used for input when generating the package manifest. This is the default value for the package.appxmanifest file.  
   
--   **Resource** - The file is not included in the package manifest. Instead, the contents of the file are indexed in the Package Resource Index (PRI) that goes into the package manifest. It is typically used for resource files.  
+- **Resource** - The file is not included in the package manifest. Instead, the contents of the file are indexed in the Package Resource Index (PRI) that goes into the package manifest. It is typically used for resource files.  
   
- The default value for **Package Action** depends on the extension of the file that you add to the solution.  
+  The default value for **Package Action** depends on the extension of the file that you add to the solution.  
   
 ### File Name Property  
  Displays the file name as a read-only value. To rename the file, you must right-click in Solution Explorer and select **Rename**.  

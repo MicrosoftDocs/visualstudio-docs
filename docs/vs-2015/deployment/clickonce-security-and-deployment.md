@@ -1,7 +1,7 @@
 ---
 title: "ClickOnce Security and Deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,19 +27,17 @@ manager: "wpickett"
 # ClickOnce Security and Deployment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [ClickOnce Security and Deployment](https://docs.microsoft.com/visualstudio/deployment/clickonce-security-and-deployment).  
-  
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](http://msdn.microsoft.com/library/9988c546-0936-452c-932f-9c76daa42157).  
   
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment overcomes three major issues in deployment:  
   
--   **Difficulties in updating applications.** With Microsoft Windows Installer deployment, whenever an application is updated, the user can install an update, an msp file, and apply it to the installed product; with [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment, you can provide updates automatically. Only those parts of the application that have changed are downloaded, and then the full, updated application is reinstalled from a new side-by-side folder.  
+- **Difficulties in updating applications.** With Microsoft Windows Installer deployment, whenever an application is updated, the user can install an update, an msp file, and apply it to the installed product; with [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment, you can provide updates automatically. Only those parts of the application that have changed are downloaded, and then the full, updated application is reinstalled from a new side-by-side folder.  
   
--   **Impact to the user's computer.** With Windows Installer deployment, applications often rely on shared components, with the potential for versioning conflicts; with [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment, each application is self-contained and cannot interfere with other applications.  
+- **Impact to the user's computer.** With Windows Installer deployment, applications often rely on shared components, with the potential for versioning conflicts; with [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment, each application is self-contained and cannot interfere with other applications.  
   
--   **Security permissions.** Windows Installer deployment requires administrative permissions and allows only limited user installation; [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment enables non-administrative users to install and grants only those Code Access Security permissions necessary for the application.  
+- **Security permissions.** Windows Installer deployment requires administrative permissions and allows only limited user installation; [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment enables non-administrative users to install and grants only those Code Access Security permissions necessary for the application.  
   
- In the past, these issues sometimes caused developers to decide to create Web applications instead of Windows-based applications, sacrificing a rich user interface for ease of installation. By using applications deployed using [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)], you can have the best of both technologies.  
+  In the past, these issues sometimes caused developers to decide to create Web applications instead of Windows-based applications, sacrificing a rich user interface for ease of installation. By using applications deployed using [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)], you can have the best of both technologies.  
   
 ## What Is a ClickOnce Application?  
  A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is any Windows Presentation Foundation (.xbap), Windows Forms (.exe), console application (.exe), or Office solution (.dll) published using [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] technology. You can publish a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application in three different ways: from a Web page, from a network file share, or from media such as a CD-ROM. A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application can be installed on an end user's computer and run locally even when the computer is offline, or it can be run in an online-only mode without permanently installing anything on the end user's computer. For more information, see [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md).  

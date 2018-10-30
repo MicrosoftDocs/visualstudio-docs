@@ -24,13 +24,13 @@ If you've never written a Visual Studio extension before, you probably have some
 ## What kinds of things can I do with Visual Studio extensions?
  The sky's the limit when it comes to imagining different Visual Studio extensions. Of course, most extensions have something to do with writing code, but that doesn't have to be the case. Here are some examples of the kinds of extensions you can build:
 
--   Support for languages that aren't included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support
+- Support for languages that aren't included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support
 
--   Productivity tools that extend the core IDE experience with additional templates, code refactoring, new dialogs or tool windows
+- Productivity tools that extend the core IDE experience with additional templates, code refactoring, new dialogs or tool windows
 
--   Domain-specific designers for scenarios like data design or cloud support
+- Domain-specific designers for scenarios like data design or cloud support
 
- For examples of extensions, check out the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). Many extensions are open sourced, and the Marketplace includes links to their GitHub repo.
+  For examples of extensions, check out the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). Many extensions are open sourced, and the Marketplace includes links to their GitHub repo.
 
 ## Which Visual Studio features can I extend?
  In theory, you can extend just about any part of Visual Studio: menus, toolbars, commands, windows, solutions, projects, editors, and so on.

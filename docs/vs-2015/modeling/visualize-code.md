@@ -1,7 +1,7 @@
 ---
 title: "Visualize code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,21 +22,19 @@ manager: "douge"
 # Visualize code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Visualize code](https://docs.microsoft.com/visualstudio/modeling/visualize-code).  
-  
 You can use the visualization and modeling tools in Visual Studio to help you understand existing code and describe your application. This lets you visually learn how your changes might affect the code and help you assess the work and risks that result from those changes. For example:  
   
--   To understand the relationships in your code, map those relationships visually.  
+- To understand the relationships in your code, map those relationships visually.  
   
--   To describe your system's architecture and keep the code consistent with its design, create layer diagrams and validate code against these diagrams.  
+- To describe your system's architecture and keep the code consistent with its design, create layer diagrams and validate code against these diagrams.  
   
--   To describe class structures, create class diagrams.  
+- To describe class structures, create class diagrams.  
   
--   To model and communicate various aspects of the system, draw Unified Modeling Language (UML) diagrams. For example, you can model a system's components, types, interactions, and processes.  
+- To model and communicate various aspects of the system, draw Unified Modeling Language (UML) diagrams. For example, you can model a system's components, types, interactions, and processes.  
   
- These tools also help you communicate more easily with the people involved with your project. For example, you can use UML class diagrams to create a common glossary for discussing the system with project stakeholders, users, and team members.  
+  These tools also help you communicate more easily with the people involved with your project. For example, you can use UML class diagrams to create a common glossary for discussing the system with project stakeholders, users, and team members.  
   
- To see which versions of Visual Studio support each feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)  
+  To see which versions of Visual Studio support each feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)  
   
 ## What do you want to do?  
   

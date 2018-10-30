@@ -1,7 +1,7 @@
 ---
 title: "Working with the DSL Definition Diagram | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,8 +25,6 @@ manager: "douge"
 # Working with the DSL Definition Diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Working with the DSL Definition Diagram](https://docs.microsoft.com/visualstudio/modeling/working-with-the-dsl-definition-diagram).  
-  
 The diagram of a [!INCLUDE[dsl](../includes/dsl-md.md)] definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.  
   
 ## The Layout of the Diagram  

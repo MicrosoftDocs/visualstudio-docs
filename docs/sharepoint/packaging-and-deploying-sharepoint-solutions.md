@@ -61,23 +61,23 @@ ms.workload:
 ### Packaging Explorer  
  To complement the Feature Designer and Package Designer, you can use the Packaging Explorer to group your SharePoint files into Features and packages. In addition, you can see the hierarchical view of the package, Features, SharePoint project items, and files. The Packaging Explorer is a tool window that you can use to complete the following tasks:  
   
--   Open SharePoint project items and files.  
+- Open SharePoint project items and files.  
   
--   Drag and drop SharePoint project items from one Feature to another.  
+- Drag and drop SharePoint project items from one Feature to another.  
   
--   Drag and drop SharePoint project items and Features from one package to another.  
+- Drag and drop SharePoint project items and Features from one package to another.  
   
--   Add a new Feature to a package.  
+- Add a new Feature to a package.  
   
--   Open a Feature or package designer.  
+- Open a Feature or package designer.  
   
--   Validate Features and packages.  
+- Validate Features and packages.  
   
- The SharePoint development tools in Visual Studio have validation rules to help ensure that the solution package is correctly formed. In addition, the rules verify that the *.wsp* solution file can be successfully deployed and activated on a SharePoint server. For more information about the XML schema for Features, see [Feature Schemas](http://go.microsoft.com/fwlink/?LinkID=169192).  
+  The SharePoint development tools in Visual Studio have validation rules to help ensure that the solution package is correctly formed. In addition, the rules verify that the *.wsp* solution file can be successfully deployed and activated on a SharePoint server. For more information about the XML schema for Features, see [Feature Schemas](http://go.microsoft.com/fwlink/?LinkID=169192).  
   
- You can add custom Feature and package validation rules to the SharePoint project system. For more information, see [How to: Create custom feature and package validation rules for SharePoint solutions](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md).  
+  You can add custom Feature and package validation rules to the SharePoint project system. For more information, see [How to: Create custom feature and package validation rules for SharePoint solutions](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md).  
   
- For more information about the Packaging Explorer, see [How to: Add and remove features and items to a Package by using the Packaging Explorer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer.md).  
+  For more information about the Packaging Explorer, see [How to: Add and remove features and items to a Package by using the Packaging Explorer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer.md).  
   
 ### Solution Explorer
  You can use Solution Explorer to navigate and open the files of the SharePoint project. Use the context menu in Solution Explorer to add Features, Feature event receivers, and Feature resources. In addition, you can open the Feature Designers and Package Designers to configure the Features and packages for deployment.  
@@ -94,11 +94,11 @@ ms.workload:
   
  For example, to add an *.xml* file to a SharePoint project, perform one of these actions:  
   
--   Add a SharePoint "Layouts" Mapped Folder to your project. This creates in **Solution Explorer** a folder named **Layouts** that has a subfolder for the project. Add the *.xml* file to the new subfolder. By default, the file is deployed to the SharePoint file system under *..\TEMPLATE\LAYOUTS\\\<Folder Name>*. For information about how to add mapped folders, see [How to: add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
+- Add a SharePoint "Layouts" Mapped Folder to your project. This creates in **Solution Explorer** a folder named **Layouts** that has a subfolder for the project. Add the *.xml* file to the new subfolder. By default, the file is deployed to the SharePoint file system under *..\TEMPLATE\LAYOUTS\\\<Folder Name>*. For information about how to add mapped folders, see [How to: add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
   
--   Add the *.xml* file to the folder of a SharePoint project item, and then change the **Deployment Type** property of the *.xml* file from **NoDeployment** to another setting such as **RootFile** or **ElementFile**. The appropriate **Deployment Type** setting depends on the file and the project. For more information about the **Deployment Type** property settings, see [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md).  
+- Add the *.xml* file to the folder of a SharePoint project item, and then change the **Deployment Type** property of the *.xml* file from **NoDeployment** to another setting such as **RootFile** or **ElementFile**. The appropriate **Deployment Type** setting depends on the file and the project. For more information about the **Deployment Type** property settings, see [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md).  
   
- If an added file does not apply to any specific project in the solution, you can add an Empty SharePoint Project to your solution and then add the additional files to it. Another alternative for deploying files to SharePoint, especially to the content database, is to add a module to the project and then add the files to the module. For more information, see [Use modules to include files in the solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).  
+  If an added file does not apply to any specific project in the solution, you can add an Empty SharePoint Project to your solution and then add the additional files to it. Another alternative for deploying files to SharePoint, especially to the content database, is to add a module to the project and then add the files to the module. For more information, see [Use modules to include files in the solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).  
   
 ## See also
  [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   

@@ -1,7 +1,7 @@
 ---
 title: "Debug Stepping Options (Legacy) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,13 +24,13 @@ This topic describes how to debug [!INCLUDE[wf](../includes/wf-md.md)] applicati
   
  When you are debugging legacy activities that have concurrent execution, such as **ParallelActivity** or **ConditionedActivityGroup**, you can use one of the following two options to step through your code.  
   
--   **Branch stepping.** This mode of stepping enables you to step through and debug a particular branch of a composite activity, such as the **ParallelActivity** or the **ConditionalActivityGroup** activity. When you use this option to debug, you will not notice that a change in control occurs due to concurrent execution of other activities in the workflow. The debugger only steps through the activities in the currently selected branch while other activities in the workflow may be executing concurrently. For example, by default, the leftmost branch in a **ParallelActivity** activity and the first child activity of a **ConditionedActivityGroup** activity are used for stepping. If the user is interested in debugging any other branch or child activity, an explicit breakpoint must be placed on that branch or child activity. Stepping continues in that branch when the breakpoint is triggered.  
+- **Branch stepping.** This mode of stepping enables you to step through and debug a particular branch of a composite activity, such as the **ParallelActivity** or the **ConditionalActivityGroup** activity. When you use this option to debug, you will not notice that a change in control occurs due to concurrent execution of other activities in the workflow. The debugger only steps through the activities in the currently selected branch while other activities in the workflow may be executing concurrently. For example, by default, the leftmost branch in a **ParallelActivity** activity and the first child activity of a **ConditionedActivityGroup** activity are used for stepping. If the user is interested in debugging any other branch or child activity, an explicit breakpoint must be placed on that branch or child activity. Stepping continues in that branch when the breakpoint is triggered.  
   
--   **Instance stepping.** This mode of stepping enables you to step through and debug concurrently executing activities in the workflow. With this option, you will notice that a change in control occurs when concurrently executing activities run within the workflow.  
+- **Instance stepping.** This mode of stepping enables you to step through and debug concurrently executing activities in the workflow. With this option, you will notice that a change in control occurs when concurrently executing activities run within the workflow.  
   
- By default, the branch stepping option is selected, and users can switch between the two options while debugging a legacy workflow.  
+  By default, the branch stepping option is selected, and users can switch between the two options while debugging a legacy workflow.  
   
- You should select the instance stepping option when debugging legacy state machine workflows.  
+  You should select the instance stepping option when debugging legacy state machine workflows.  
   
 ## See Also  
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)   

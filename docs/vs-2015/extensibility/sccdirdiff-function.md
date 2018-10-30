@@ -1,7 +1,7 @@
 ---
 title: "SccDirDiff Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,19 +21,17 @@ manager: "ghogen"
 # SccDirDiff Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [SccDirDiff Function](https://docs.microsoft.com/visualstudio/extensibility/sccdirdiff-function).  
-  
 This function displays the differences between the current local directory on the client disk and the corresponding project under source control.  
   
 ## Syntax  
   
 ```cpp#  
 SCCRTN SccDirDiff(  
-   LPVOID    pContext,  
-   HWND      hWnd,  
-   LPCSTR    lpDirName,  
-   LONG      dwFlags,  
-   LPCMDOPTS pvOptions  
+   LPVOID    pContext,  
+   HWND      hWnd,  
+   LPCSTR    lpDirName,  
+   LONG      dwFlags,  
+   LPCMDOPTS pvOptions  
 );  
 ```  
   

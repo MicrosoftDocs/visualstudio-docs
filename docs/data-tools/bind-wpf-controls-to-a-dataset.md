@@ -52,15 +52,15 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 Create a new WPF project to display product records.
 
-1.  Start Visual Studio.
+1. Start Visual Studio.
 
-2.  On the **File** menu, select **New** > **Project**.
+2. On the **File** menu, select **New** > **Project**.
 
-3.  Expand **Visual Basic** or **Visual C#**, and then select **Windows**.
+3. Expand **Visual Basic** or **Visual C#**, and then select **Windows**.
 
-4.  Select the **WPF Application** project template.
+4. Select the **WPF Application** project template.
 
-5.  In the **Name** box, enter **AdventureWorksProductsEditor** and then select **OK**.
+5. In the **Name** box, enter **AdventureWorksProductsEditor** and then select **OK**.
 
    Visual Studio creates the AdventureWorksProductsEditor project.
 
@@ -120,23 +120,23 @@ To fill the dataset with data, use the `Fill` method of the `ProductTableAdapter
 
 Add several buttons to the window by modifying the XAML in the WPF Designer. Later in this walkthrough, you will add code that enables users to scroll through and save changes to products records by using these buttons.
 
-1.  In **Solution Explorer**, double-click *MainWindow.xaml*.
+1. In **Solution Explorer**, double-click *MainWindow.xaml*.
 
-     The window opens in the **WPF Designer**.
+    The window opens in the **WPF Designer**.
 
-2.  In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:
+2. In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:
 
-    ```xaml
-    <Grid.RowDefinitions>
-        <RowDefinition Height="75" />
-        <RowDefinition Height="625" />
-    </Grid.RowDefinitions>
-    <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75"><</Button>
-    <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75">></Button>
-    <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>
-    ```
+   ```xaml
+   <Grid.RowDefinitions>
+       <RowDefinition Height="75" />
+       <RowDefinition Height="625" />
+   </Grid.RowDefinitions>
+   <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75"><</Button>
+   <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75">></Button>
+   <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>
+   ```
 
-3.  Build the project.
+3. Build the project.
 
 ## Create data-bound controls
 

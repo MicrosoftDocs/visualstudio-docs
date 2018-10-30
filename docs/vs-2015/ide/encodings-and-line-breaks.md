@@ -1,7 +1,7 @@
 ---
 title: "Encodings and Line Breaks | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,8 +27,6 @@ manager: "ghogen"
 # Encodings and Line Breaks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Encodings and Line Breaks](https://docs.microsoft.com/visualstudio/ide/encodings-and-line-breaks).  
-  
 In Visual Studio you can use the **File/Advanced Save Options** settings to determine the type of line break characters you want. You can also change the encoding of a file with the same settings.  
   
 > [!NOTE]
@@ -36,19 +34,19 @@ In Visual Studio you can use the **File/Advanced Save Options** settings to dete
   
  In Visual Studio the following characters are interpreted as line breaks:  
   
--   CRLF: Carriage return + line feed, Unicode characters 000D + 000A  
+- CRLF: Carriage return + line feed, Unicode characters 000D + 000A  
   
--   LF: Line feed, Unicode character 000A  
+- LF: Line feed, Unicode character 000A  
   
--   NEL: Next line, Unicode character 0085  
+- NEL: Next line, Unicode character 0085  
   
--   LS: Line separator, Unicode character 2028  
+- LS: Line separator, Unicode character 2028  
   
--   PS: Paragraph separator, Unicode character 2029  
+- PS: Paragraph separator, Unicode character 2029  
   
- Text that is copied from other applications keeps the original encoding and line break characters. For example, when you copy text from Notepad and paste it into a text file in Visual Studio, the text has the same settings that it had in Notepad.  
+  Text that is copied from other applications keeps the original encoding and line break characters. For example, when you copy text from Notepad and paste it into a text file in Visual Studio, the text has the same settings that it had in Notepad.  
   
- When you open a file that has a different line break characters, you may see a dialog box that asks whether the inconsistent line break characters should be normalized and which type of line breaks to choose.
+  When you open a file that has a different line break characters, you may see a dialog box that asks whether the inconsistent line break characters should be normalized and which type of line breaks to choose.
 
 
 

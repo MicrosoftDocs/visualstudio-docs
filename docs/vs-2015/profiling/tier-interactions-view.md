@@ -1,7 +1,7 @@
 ---
 title: "Tier Interactions View | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,21 +22,19 @@ manager: "ghogen"
 # Tier Interactions View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Tier Interactions View](https://docs.microsoft.com/visualstudio/profiling/tier-interactions-view).  
-  
 Tier interaction profiling provides additional information about the execution times in functions of multitiered applications that communicate with databases through [!INCLUDE[vstecado](../includes/vstecado-md.md)]. Data is collected only for synchronous function calls.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]  
   
- The Interactions View displays tier interaction data in two panes:  
+  The Interactions View displays tier interaction data in two panes:  
   
--   The master pane is a hierarchical tree. The top level row contains aggregated data for the database connections of an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] page or a process. Child nodes contain aggregated data for the database connections of the parent.  
+- The master pane is a hierarchical tree. The top level row contains aggregated data for the database connections of an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] page or a process. Child nodes contain aggregated data for the database connections of the parent.  
   
--   When you click a database call node in the master pane, data for the instance of the database call is displayed in the details pane.  
+- When you click a database call node in the master pane, data for the instance of the database call is displayed in the details pane.  
   
- Time is displayed as the number of milliseconds or the number of CPU clock ticks. To change the time unit displayed, click the **Tools** menu, click **Options**, and then choose one of the **Show time values as** options.  
+  Time is displayed as the number of milliseconds or the number of CPU clock ticks. To change the time unit displayed, click the **Tools** menu, click **Options**, and then choose one of the **Show time values as** options.  
   
 ## Master Pane  
   

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2004: Remove calls to GC.KeepAlive
+
 |||
 |-|-|
 |TypeName|RemoveCallsToGCKeepAlive|

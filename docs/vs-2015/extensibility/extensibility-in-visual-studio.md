@@ -1,7 +1,7 @@
 ---
 title: "Extensibility in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,8 +15,6 @@ manager: "ghogen"
 # Extensibility in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Extensibility in Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/extensibility-in-visual-studio).  
-  
 Visual Studio gives you a lot of extensibility options. You can create your own SDKs, use the Windows, Windows Phone, and Azure SDKs (which are installed as part of Visual Studio), and extend Visual Studio itself.  
   
 ## Extend Visual Studio  

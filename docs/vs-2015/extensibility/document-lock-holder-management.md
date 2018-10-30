@@ -1,7 +1,7 @@
 ---
 title: "Document Lock Holder Management | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,8 +19,6 @@ manager: "ghogen"
 # Document Lock Holder Management
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Document Lock Holder Management](https://docs.microsoft.com/visualstudio/extensibility/document-lock-holder-management).  
-  
 The Running Document Table (RDT) maintains a count of open documents and any edit locks they have. You can place an edit lock on a document in the RDT when it is programmatically edited in the background without the user seeing an open document in a document window. This functionality is often used by designers that modify multiple files through a graphical user interface.  
   
 ## Document Lock Holder Scenarios  

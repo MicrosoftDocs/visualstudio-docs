@@ -23,15 +23,15 @@ Contains an array of objects that describe programs of interest.
   
 ```cpp  
 typedef struct tagPROGRAM_NODE_ARRAY {  
-   DWORD                dwCount;  
-   IDebugProgramNode2** Members;  
+   DWORD                dwCount;  
+   IDebugProgramNode2** Members;  
 } PROGRAM_NODE_ARRAY;  
 ```  
   
 ```csharp  
 public struct tagPROGRAM_NODE_ARRAY {  
-   public uint                 dwCount;  
-   public IDebugProgramNode2[] Members;  
+   public uint                 dwCount;  
+   public IDebugProgramNode2[] Members;  
 }  
 ```  
   

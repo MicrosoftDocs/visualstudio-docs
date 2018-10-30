@@ -17,15 +17,15 @@ ms.workload:
 # Notify the port
 After launching a program, the port must be notified, as follows:  
   
-1.  When a port receives a new program node, it sends a program creation event back to the debug session. The event carries with it an interface that represents the program.  
+1. When a port receives a new program node, it sends a program creation event back to the debug session. The event carries with it an interface that represents the program.  
   
-2.  The debug session queries the program for the identifier of a debug engine (DE) that can attach to.  
+2. The debug session queries the program for the identifier of a debug engine (DE) that can attach to.  
   
-3.  The debug session checks to see if the DE is on the list of allowable DEs for that program. The debug session gets this list from the solution's active program settings, originally passed to it by the debug package.  
+3. The debug session checks to see if the DE is on the list of allowable DEs for that program. The debug session gets this list from the solution's active program settings, originally passed to it by the debug package.  
   
-     The DE must be on the allowable list, or else the DE will not be attached to the program.  
+    The DE must be on the allowable list, or else the DE will not be attached to the program.  
   
- Programmatically, when a port first receives a new program node, it creates an [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) interface to represent the program.  
+   Programmatically, when a port first receives a new program node, it creates an [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) interface to represent the program.  
   
 > [!NOTE]
 >  This should not be confused with the `IDebugProgram2` interface created later by the debug engine (DE).  

@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentContext2::GetDocument | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugDocumentContext2::GetDocument
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugDocumentContext2::GetDocument](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugdocumentcontext2-getdocument).  
-  
 Gets the document that contains this document context.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetDocument(   
-   IDebugDocument2** ppDocument  
+   IDebugDocument2** ppDocument  
 );  
 ```  
   
 ```csharp  
 int GetDocument(   
-   out IDebugDocument2 ppDocument  
+   out IDebugDocument2 ppDocument  
 );  
 ```  
   

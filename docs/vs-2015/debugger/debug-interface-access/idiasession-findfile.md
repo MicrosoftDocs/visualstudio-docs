@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findFile | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,18 +22,16 @@ manager: "ghogen"
 # IDiaSession::findFile
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSession::findFile](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findfile).  
-  
 Retrieves source files by compiland and name.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT findFile (   
-   IDiaSymbol*           pCompiland,  
-   LPCOLESTR             name,  
-   DWORD                 option,  
-   IDiaEnumSourceFiles** ppResult  
+   IDiaSymbol*           pCompiland,  
+   LPCOLESTR             name,  
+   DWORD                 option,  
+   IDiaEnumSourceFiles** ppResult  
 );  
 ```  
   

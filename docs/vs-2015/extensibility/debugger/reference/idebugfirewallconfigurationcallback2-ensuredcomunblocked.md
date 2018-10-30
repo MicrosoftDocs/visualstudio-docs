@@ -1,7 +1,7 @@
 ---
 title: "IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,15 +20,13 @@ manager: "ghogen"
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugfirewallconfigurationcallback2-ensuredcomunblocked).  
-  
 Requests that the firewall not block remote debugging.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT EnsureDCOMUnblocked(   
-    Void  
+    Void  
 );  
 ```  
   

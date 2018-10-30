@@ -23,70 +23,71 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the LinkedIn Learning tile in the Education category, and click the **Get code** link.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Benefit Tile](_img\vs-linkedin\vs-linkedin-3-month-tile.png)
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-3-month-tile.png)
 
 
 3. If you already have a LinkedIn account and you’re signed in automatically, you’ll immediately be taken to the LinkedIn Learning benefit activation page.  If you have a LinkedIn account but you’re not automatically signed in, simply enter your username and password, and then click **Sign in**.  Please skip to [this step](#activate-your-offer) to activate your offer.
 
 ### Create a LinkedIn account
 4. If you don’t already have a LinkedIn account, click **Join now**.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Join Now](_img\vs-linkedin\vs-linkedin-join-now.png)
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Join Now](_img/vs-linkedin/vs-linkedin-join-now.png)
 
 5. Enter your personal information, choose a username and password, and click **Join now**.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Create Account](_img\vs-linkedin\vs-linkedin-create-account.png)
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Create Account](_img/vs-linkedin/vs-linkedin-create-account.png)
 
 6. Specify your country and ZIP code, then click **Next**.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Set Location](_img\vs-linkedin\vs-linkedin-set-location.png)
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Set Location](_img/vs-linkedin/vs-linkedin-set-location.png)
 
 7. Next, you’ll provide some information about yourself for your profile.  Indicate whether you’re a student, and provide your most recent job title, company, and industry.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Role](_img\vs-linkedin\vs-linkedin-role.png)
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Role](_img/vs-linkedin/vs-linkedin-role.png)
 
 8. In this step, you’ll have the chance to identify areas of interest to you.  To expedite the account creation process, click **Not sure yet.  I’m open!**  (You can identify areas of interest later.)
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Interests](_img\vs-linkedin\vs-linkedin-interests.png)
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Interests](_img/vs-linkedin/vs-linkedin-interests.png)
 
-9.	When you provided your email address, you were sent a message containing a confirmation code.  The message is from “Linkedin Messages”.  If you don’t find it in your inbox, please check your junk mail folders.  Enter the code from the message and click **Verify**.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Verify](_img\vs-linkedin\vs-linkedin-verify.png)
+9. When you provided your email address, you were sent a message containing a confirmation code.  The message is from “Linkedin Messages”.  If you don’t find it in your inbox, please check your junk mail folders.  Enter the code from the message and click **Verify**.
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Verify](_img/vs-linkedin/vs-linkedin-verify.png)
 
-10.	If you would like to import your contacts from the email account you entered earlier, you can do that now.  Otherwise, click **Skip**. (If you choose to skip this step, you’ll be asked to confirm your choice.  Click **Yes**.)
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Contacts](_img\vs-linkedin\vs-linkedin-contacts.png)
+10. If you would like to import your contacts from the email account you entered earlier, you can do that now.  Otherwise, click **Skip**. (If you choose to skip this step, you’ll be asked to confirm your choice.  Click **Yes**.)
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Contacts](_img/vs-linkedin/vs-linkedin-contacts.png)
 
-11.	Job alerts allow you to be notified of jobs in your area that may be a good fit for you.  You can choose to set a job alert now, or skip this step to continue creating your account.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Job Alerts](_img\vs-linkedin\vs-linkedin-job-alerts.png)
+11. Job alerts allow you to be notified of jobs in your area that may be a good fit for you.  You can choose to set a job alert now, or skip this step to continue creating your account.
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Job Alerts](_img/vs-linkedin/vs-linkedin-job-alerts.png)
 
-12.	Based on the preferences and personal information you’ve provided thus far, you’ll see a selection of recommended connections to start building your network.  You can choose to add connections, or skip this step.
+12. Based on the preferences and personal information you’ve provided thus far, you’ll see a selection of recommended connections to start building your network.  You can choose to add connections, or skip this step.
 
-13.	To add a photo to your profile, click **Upload photo**.  Otherwise, you can skip this step.  (You can always add a photo later.)
+13. To add a photo to your profile, click **Upload photo**.  Otherwise, you can skip this step.  (You can always add a photo later.)
     > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Upload Photo](_img\vs-linkedin\vs-linkedin-photo.png)
+    > ![LinkedIn Learning Upload Photo](_img/vs-linkedin/vs-linkedin-photo.png)
 
-14.	You can download the LinkedIn App to your phone to have access to your network anywhere.  You can send a link to your phone, or download directly from the App Store or Google Play.  You can also click **Next** to skip this step now, and download the app later.
+14. You can download the LinkedIn App to your phone to have access to your network anywhere.  You can send a link to your phone, or download directly from the App Store or Google Play.  You can also click **Next** to skip this step now, and download the app later.
     > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Upload Photo](_img\vs-linkedin\vs-linkedin-app.png)
+    > ![LinkedIn Learning Upload Photo](_img/vs-linkedin/vs-linkedin-app.png)
 
 ### Activate your offer
-15.	Now that you’ve either signed in to your LinkedIn account or created a new one, you’re ready to activate your Premium subscription and begin enjoying LinkedIn Learning.  Click **Activate your offer**.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Activate](_img\vs-linkedin\vs-linkedin-Activate1.png)
+15. Now that you’ve either signed in to your LinkedIn account or created a new one, you’re ready to activate your Premium subscription and begin enjoying LinkedIn Learning.  Click **Activate your offer**.
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Activate](_img/vs-linkedin/vs-linkedin-Activate1.png)
 
 
-16.	You can begin exploring skills that interest you.  Choose from the list of recommendations, search for other skills, or click **Skip** to continue without choosing skills.
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Skills](_img\vs-linkedin\vs-linkedin-skills.png)
+16. You can begin exploring skills that interest you.  Choose from the list of recommendations, search for other skills, or click **Skip** to continue without choosing skills.
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Skills](_img/vs-linkedin/vs-linkedin-skills.png)
 
-17.	You’ve successfully activated your Premium subscription offer and can now begin using LinkedIn Learning and all the other benefits of Premium!
-    > [!div class="mx-imgBorder"]
-    > ![LinkedIn Learning Home](_img\vs-linkedin\vs-linkedin-learning-home.png)
+17. You’ve successfully activated your Premium subscription offer and can now begin using LinkedIn Learning and all the other benefits of Premium!
+   > [!div class="mx-imgBorder"]
+   > ![LinkedIn Learning Home](_img/vs-linkedin/vs-linkedin-learning-home.png)
 
 ## Eligibility
+
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  No.  Available to new subscribers only          |
@@ -96,7 +97,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 | Visual Studio Dev Essentials | NA  | 3 months |No.  Available to new subscribers only |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Excludes:  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Partner (MVP), Region Director (RD).  MCT Software & Services.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Excludes:  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Professional (MVP), Region Director (RD).  MCT Software & Services.*
 
 
 

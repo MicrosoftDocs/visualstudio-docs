@@ -1,7 +1,7 @@
 ---
 title: "Cryptography Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +17,6 @@ manager: "wpickett"
 # Cryptography Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Cryptography Warnings](https://docs.microsoft.com/visualstudio/code-quality/cryptography-warnings).  
-  
 Cryptography warnings support safer libraries and applications through the correct use of cryptography. These warnings help prevent security flaws in your program. If you disable any of these warnings, you should clearly mark the reason in code and also inform the designated security officer for your development project.  
   
 |Rule|Description|  

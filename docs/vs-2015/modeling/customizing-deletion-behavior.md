@@ -1,7 +1,7 @@
 ---
 title: "Customizing Deletion Behavior | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "douge"
 # Customizing Deletion Behavior
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Customizing Deletion Behavior](https://docs.microsoft.com/visualstudio/modeling/customizing-deletion-behavior).  
-  
 Deleting an element usually causes related elements to be deleted also. All relationships connected to it, and any child elements are deleted. This behavior is named *delete propagation*. You can customize delete propagation, for example to arrange that additional related elements are deleted. By writing program code, you can make delete propagation depend on the state of the model. You can also cause other changes to occur in response to a deletion.  
   
  This topic includes the following sections:  
@@ -58,19 +56,19 @@ Deleting an element usually causes related elements to be deleted also. All rela
   
 #### To set delete propagation  
   
-1.  On the DSL Definition diagram, select the *role* to which you want propagation to delete. The role is represented by the line on the left or right of a domain relationship box.  
+1. On the DSL Definition diagram, select the *role* to which you want propagation to delete. The role is represented by the line on the left or right of a domain relationship box.  
   
-     For example, if you want to specify that whenever an Album is deleted, the related Artists are also deleted, then select the role connected to the domain class Artist.  
+    For example, if you want to specify that whenever an Album is deleted, the related Artists are also deleted, then select the role connected to the domain class Artist.  
   
-2.  In the Properties window, set the **Propagates Delete** property.  
+2. In the Properties window, set the **Propagates Delete** property.  
   
-3.  Press F5 and verify that:  
+3. Press F5 and verify that:  
   
-    -   When an instance of this relationship is deleted, the element at the selected role will also be deleted.  
+   -   When an instance of this relationship is deleted, the element at the selected role will also be deleted.  
   
-    -   When an element at the opposite role is deleted, instances of this relationship will be deleted, and the related elements at this role will be deleted.  
+   -   When an element at the opposite role is deleted, instances of this relationship will be deleted, and the related elements at this role will be deleted.  
   
- You can also see the **Propagates Delete** option in the **DSL Details** window. Select a domain class and, in the DSL Details window, open the **Delete Behavior** page by clicking the button at the side of the window. The **Propagate** option is shown for the opposite role of each relationship. The **Delete Style** column indicates whether the **Propagate** option is at its default setting, but it does not have any separate effect.  
+   You can also see the **Propagates Delete** option in the **DSL Details** window. Select a domain class and, in the DSL Details window, open the **Delete Behavior** page by clicking the button at the side of the window. The **Propagate** option is shown for the opposite role of each relationship. The **Delete Style** column indicates whether the **Propagate** option is at its default setting, but it does not have any separate effect.  
   
 ## Delete Propagation by using program code  
  The options in the DSL Definition file only let you choose whether deletion propagates to an immediate neighbor. To implement a more complex scheme of delete propagation, you can write program code.  
@@ -134,17 +132,17 @@ partial class MusicLibDeleteClosure
 ##  <a name="ondeleting"></a> Using OnDeleting and OnDeleted  
  You can override `OnDeleting()` or `OnDeleted()` either in a domain class, or in a domain relationship.  
   
-1.  <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleting%2A> is called when an element is about to be deleted, but before its relationships have been disconnected. It is still navigable to and from other elements, and is still in `store.ElementDirectory`.  
+1. <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleting%2A> is called when an element is about to be deleted, but before its relationships have been disconnected. It is still navigable to and from other elements, and is still in `store.ElementDirectory`.  
   
-     If several elements are deleted at the same time, OnDeleting is called for all of them before performing the deletions.  
+    If several elements are deleted at the same time, OnDeleting is called for all of them before performing the deletions.  
   
-     `IsDeleting` is true.  
+    `IsDeleting` is true.  
   
-2.  <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleted%2A> is called when the element has been deleted. It remains in the CLR heap so that an Undo can be performed if required, but it is unlinked from other elements and removed from `store.ElementDirectory`. For relationships, the roles still reference the old role players.`IsDeleted` is true.  
+2. <xref:Microsoft.VisualStudio.Modeling.ModelElement.OnDeleted%2A> is called when the element has been deleted. It remains in the CLR heap so that an Undo can be performed if required, but it is unlinked from other elements and removed from `store.ElementDirectory`. For relationships, the roles still reference the old role players.`IsDeleted` is true.  
   
-3.  OnDeleting and OnDeleted are called when the user invokes Undo after a creating an element, and when an earlier deletion is repeated in Redo. Use `this.Store.InUndoRedoOrRollback` to avoid updating store elements in these cases. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).  
+3. OnDeleting and OnDeleted are called when the user invokes Undo after a creating an element, and when an earlier deletion is repeated in Redo. Use `this.Store.InUndoRedoOrRollback` to avoid updating store elements in these cases. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).  
   
- For example, the following code deletes an Album when its last child Song is deleted:  
+   For example, the following code deletes an Album when its last child Song is deleted:  
   
 ```  
   

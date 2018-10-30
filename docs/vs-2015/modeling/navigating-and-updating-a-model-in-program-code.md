@@ -1,7 +1,7 @@
 ---
 title: "Navigating and Updating a Model in Program Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "douge"
 # Navigating and Updating a Model in Program Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Navigating and Updating a Model in Program Code](https://docs.microsoft.com/visualstudio/modeling/navigating-and-updating-a-model-in-program-code).  
-  
 You can write code to create and delete model elements, set their properties, and create and delete links between elements. All changes must be made within a transaction. If the elements are viewed on a diagram, the diagram will be "fixed up" automatically at the end of the transaction.  
   
 ## In this Topic  
@@ -219,46 +217,46 @@ using (Transaction t =
   
  This example illustrates these essential points about creating an element:  
   
--   Create the new element in a specific partition of the Store. For model elements and relationships, but not shapes, this is usually the default partition.  
+- Create the new element in a specific partition of the Store. For model elements and relationships, but not shapes, this is usually the default partition.  
   
--   Make it the target of an embedding relationship. In the DslDefinition of this example, each Person must be the target of embedding relationship FamilyTreeHasPeople. To achieve this, we can either set the FamilyTreeModel role property of the Person object, or add the Person to the People role property of the FamilyTreeModel object.  
+- Make it the target of an embedding relationship. In the DslDefinition of this example, each Person must be the target of embedding relationship FamilyTreeHasPeople. To achieve this, we can either set the FamilyTreeModel role property of the Person object, or add the Person to the People role property of the FamilyTreeModel object.  
   
--   Set the properties of a new element, particularly the property for which `IsName` is true in the DslDefinition. This flag marks the property that serves to identify the element uniquely within its owner. In this case, the Name property has that flag.  
+- Set the properties of a new element, particularly the property for which `IsName` is true in the DslDefinition. This flag marks the property that serves to identify the element uniquely within its owner. In this case, the Name property has that flag.  
   
--   The DSL definition of this DSL must have been loaded into the Store. If you are writing an extension such as a menu command, this will typically be already true. In other cases, you can explicitly load the model into the Store, or use <xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus> to load it. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md).  
+- The DSL definition of this DSL must have been loaded into the Store. If you are writing an extension such as a menu command, this will typically be already true. In other cases, you can explicitly load the model into the Store, or use <xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus> to load it. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md).  
   
- When you create an element in this way, a shape is automatically created (if the DSL has a diagram). It appears in an automatically assigned location, with default shape, color, and other features. If you want to control where and how the associated shape appears, see [Creating an Element and its Shape](#merge).  
+  When you create an element in this way, a shape is automatically created (if the DSL has a diagram). It appears in an automatically assigned location, with default shape, color, and other features. If you want to control where and how the associated shape appears, see [Creating an Element and its Shape](#merge).  
   
 ##  <a name="links"></a> Creating Relationship Links  
  There are two relationships defined in the example DSL definition. Each relationship defines a *role property* on the class at each end of the relationship.  
   
  There are three ways in which you can create an instance of a relationship. Each of these three methods has the same effect:  
   
--   Set the property of the source role player. For example:  
+- Set the property of the source role player. For example:  
   
-    -   `familyTree.People.Add(edward);`  
+  -   `familyTree.People.Add(edward);`  
   
-    -   `edward.Parents.Add(henry);`  
+  -   `edward.Parents.Add(henry);`  
   
--   Set the property of the target role player. For example:  
+- Set the property of the target role player. For example:  
   
-    -   `edward.familyTreeModel = familyTree;`  
+  -   `edward.familyTreeModel = familyTree;`  
   
-         The multiplicity of this role is `1..1`, so we assign the value.  
+       The multiplicity of this role is `1..1`, so we assign the value.  
   
-    -   `henry.Children.Add(edward);`  
+  -   `henry.Children.Add(edward);`  
   
-         The multiplicity of this role is `0..*`, so we add to the collection.  
+       The multiplicity of this role is `0..*`, so we add to the collection.  
   
--   Construct an instance of the relationship explicitly. For example:  
+- Construct an instance of the relationship explicitly. For example:  
   
-    -   `FamilyTreeHasPeople edwardLink = new FamilyTreeHasPeople(familyTreeModel, edward);`  
+  -   `FamilyTreeHasPeople edwardLink = new FamilyTreeHasPeople(familyTreeModel, edward);`  
   
-    -   `ParentsHaveChildren edwardHenryLink = new ParentsHaveChildren(henry, edward);`  
+  -   `ParentsHaveChildren edwardHenryLink = new ParentsHaveChildren(henry, edward);`  
   
- The last method is useful if you want to set properties on the relationship itself.  
+  The last method is useful if you want to set properties on the relationship itself.  
   
- When you create an element in this way, a connector on the diagram is automatically created, but it has a default shape, color, and other features. To control how the associated connector is created, see [Creating an Element and its Shape](#merge).  
+  When you create an element in this way, a connector on the diagram is automatically created, but it has a default shape, color, and other features. To control how the associated connector is created, see [Creating an Element and its Shape](#merge).  
   
 ##  <a name="deleteelements"></a> Deleting Elements  
  Delete an element by calling `Delete()`:  
@@ -267,21 +265,21 @@ using (Transaction t =
   
  This operation will also delete:  
   
--   Relationship links to and from the element. For example, `edward.Parents` will no longer contain `henry`.  
+- Relationship links to and from the element. For example, `edward.Parents` will no longer contain `henry`.  
   
--   Elements at roles for which the `PropagatesDelete` flag is true. For example, the shape that displays the element will be deleted.  
+- Elements at roles for which the `PropagatesDelete` flag is true. For example, the shape that displays the element will be deleted.  
   
- By default, every embedding relationship has `PropagatesDelete` true at the target role. Deleting `henry` does not delete the `familyTree`, but `familyTree.Delete()` would delete all the `Persons`. For more information, see [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md).  
+  By default, every embedding relationship has `PropagatesDelete` true at the target role. Deleting `henry` does not delete the `familyTree`, but `familyTree.Delete()` would delete all the `Persons`. For more information, see [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md).  
   
- By default, `PropagatesDelete` is not true for the roles of reference relationships.  
+  By default, `PropagatesDelete` is not true for the roles of reference relationships.  
   
- You can cause the deletion rules to omit specific propagations when you delete an object. This is useful if you are substituting one element for another. You supply the GUID of one or more roles for which deletion should not be propagated. The GUID can be obtained from the relationship class:  
+  You can cause the deletion rules to omit specific propagations when you delete an object. This is useful if you are substituting one element for another. You supply the GUID of one or more roles for which deletion should not be propagated. The GUID can be obtained from the relationship class:  
   
- `henry.Delete(ParentsHaveChildren.SourceDomainRoleId);`  
+  `henry.Delete(ParentsHaveChildren.SourceDomainRoleId);`  
   
- (This particular example would have no effect, because `PropagatesDelete` is `false` for the roles of the `ParentsHaveChildren` relationship.)  
+  (This particular example would have no effect, because `PropagatesDelete` is `false` for the roles of the `ParentsHaveChildren` relationship.)  
   
- In some cases, deletion is prevented by the existence of a lock, either on the element or on an element that would be deleted by propagation. You can use `element.CanDelete()` to check whether the element can be deleted.  
+  In some cases, deletion is prevented by the existence of a lock, either on the element or on an element that would be deleted by propagation. You can use `element.CanDelete()` to check whether the element can be deleted.  
   
 ##  <a name="deletelinks"></a> Deleting Relationship Links  
  You can delete a relationship link by removing an element from a role property:  
@@ -463,11 +461,11 @@ FamilyTreeDiagram diagram =
   
  This method:  
   
--   Sets the name, if you have assigned a property as the element name.  
+- Sets the name, if you have assigned a property as the element name.  
   
--   Observes any Element Merge Directives that you specified in the DSL Definition.  
+- Observes any Element Merge Directives that you specified in the DSL Definition.  
   
- This example creates a shape at the mouse position, when the user double-clicks the diagram. In the DSL Definition for this sample, the `FillColor` property of `ExampleShape` has been exposed.  
+  This example creates a shape at the mouse position, when the user double-clicks the diagram. In the DSL Definition for this sample, the `FillColor` property of `ExampleShape` has been exposed.  
   
 ```  
   

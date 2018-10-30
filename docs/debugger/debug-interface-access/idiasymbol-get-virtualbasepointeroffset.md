@@ -22,7 +22,7 @@ Retrieves the offset of the virtual base pointer.
   
 ```C++  
 HRESULT get_virtualBasePointerOffset (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

@@ -1,7 +1,7 @@
 ---
 title: "Reference (Programmatic Capture) | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # Reference (Programmatic Capture)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Reference (Programmatic Capture)](https://docs.microsoft.com/visualstudio/debugger/graphics/reference-programmatic-capture).  
-  
 Graphics Diagnostics supports programmatic control over its capture features, through the programmatic capture API. You can use this API to toggle and add messages to the graphics diagnostics HUD (Head-Up Display), initialize and create graphics log files, and capture graphics information.  
   
 ## Programmatic Capture APIs  

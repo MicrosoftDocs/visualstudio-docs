@@ -1,7 +1,7 @@
 ---
 title: "IDebugStackFrame2::GetCodeContext | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,21 +21,19 @@ manager: "ghogen"
 # IDebugStackFrame2::GetCodeContext
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDebugStackFrame2::GetCodeContext](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugstackframe2-getcodecontext).  
-  
 Gets the code context for this stack frame.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT GetCodeContext (   
-   IDebugCodeContext2** ppCodeCxt  
+   IDebugCodeContext2** ppCodeCxt  
 );  
 ```  
   
 ```csharp  
 int GetCodeContext (   
-   out IDebugCodeContext2 ppCodeCxt  
+   out IDebugCodeContext2 ppCodeCxt  
 );  
 ```  
   

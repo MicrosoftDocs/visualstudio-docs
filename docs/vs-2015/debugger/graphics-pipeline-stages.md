@@ -1,7 +1,7 @@
 ---
 title: "Graphics Pipeline Stages | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,8 +20,6 @@ manager: "ghogen"
 # Graphics Pipeline Stages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Graphics Pipeline Stages](https://docs.microsoft.com/visualstudio/debugger/graphics/graphics-pipeline-stages).  
-  
 The Graphics Pipeline Stages window helps you understand how an individual draw call is transformed by each stage of the Direct3D graphics pipeline.  
   
  This is the Pipeline Stages window:  
@@ -36,11 +34,11 @@ The Graphics Pipeline Stages window helps you understand how an individual draw 
 ### Links to related graphics objects  
  Sometimes additional context is needed to determine why a draw call interacts in a particular way with the graphics pipeline. To make this additional context easier to find, the Graphics Pipeline Stages window links to one or more objects that provide additional context related to what's happening in the graphics pipeline.  
   
--   In Direct3D 12 this object is usually a command list.  
+- In Direct3D 12 this object is usually a command list.  
   
--   In Direct3D 11 this object is usually a graphics device context.  
+- In Direct3D 11 this object is usually a graphics device context.  
   
- These links are part of the current graphics event signature that's located in the upper left-hand corner of the Graphics Pipeline Stages window. Follow any of these links to examine additional details about the object.  
+  These links are part of the current graphics event signature that's located in the upper left-hand corner of the Graphics Pipeline Stages window. Follow any of these links to examine additional details about the object.  
   
 ### Viewing and debugging shader code  
  You can examine and debug code for vertex, hull, domain, geometry and pixel shaders by using the controls at the bottom of their respective stages in the Pipeline Stages window.  

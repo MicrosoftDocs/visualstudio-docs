@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_constructor | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,15 +22,13 @@ manager: "ghogen"
 # IDiaSymbol::get_constructor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IDiaSymbol::get_constructor](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-constructor).  
-  
 Retrieves a flag that specifies whether the user-defined data type has a constructor or destructor.  
   
 ## Syntax  
   
 ```cpp#  
 HRESULT get_constructor (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

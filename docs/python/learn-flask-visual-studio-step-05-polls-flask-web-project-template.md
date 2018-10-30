@@ -223,7 +223,7 @@ def seed():
     return redirect('/')
 ```
 
-The call to `repository.add_sample_polls()` ends up in one of the specific `Repository` implementations for your chosen data store. Each implementation calls the `_load_samples_json` method found in *models\__init__.py* to load the *models\samples.json* file into memory, then iterates through that data to create the necessary `Poll` and `Choice` objects in the data store.
+The call to `repository.add_sample_polls()` ends up in one of the specific `Repository` implementations for your chosen data store. Each implementation calls the `_load_samples_json` method found in *models\_\_init\_\_.py* to load the *models\samples.json* file into memory, then iterates through that data to create the necessary `Poll` and `Choice` objects in the data store.
 
 Once that process is complete, the `redirect('/')` statement in the `seed` method navigates back to the home page. Because `repository.get_polls` now returns a data object, the conditional tags in *templates\index.html* now renders a table containing the polls.
 
@@ -347,11 +347,8 @@ You've now explored the entirety of the "Blank Flask Web Project", "Flask[/Jade]
 
 Running a web app on your development computer is just one step in making the app available to your customers. Next steps may include the following tasks:
 
-- Deploy the web app to a production server, such as Azure App Service. See [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md), which includes specific changes needed for Flask apps.
+- Deploy the web app to a production server, such as Azure App Service. See [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 - Add a repository implementation that uses another production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). You can also use the [Azure SDK for Python](azure-sdk-for-python.md) to work with Azure storage services like tables and blobs as well as Cosmos DB.
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Azure Pipelines. In addition to working with source control (on Azure Repos, GitHub, or elsewhere), you can have Azure Test Plans automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps Services, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see:
-
-  - [Create a CI/CD pipeline for Python with Azure DevOps Projects](/azure/devops-project/azure-devops-project-python?view=vsts)
-  - [Python development in Azure with Azure DevOps (video, 11m 21s)](https://azure.microsoft.com/resources/videos/connect-2017-python-development-in-azure-with-visual-studio-team-services/).
+- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts).

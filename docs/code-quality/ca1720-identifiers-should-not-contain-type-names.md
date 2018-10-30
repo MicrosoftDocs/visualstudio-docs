@@ -132,7 +132,7 @@ In addition, the names of a parameter are also checked against the following lan
  Replace the language-specific data type identifier in the name of the member with a term that better describes its meaning, a language-independent equivalent, or a more generic term, such as 'value'.
 
 ## When to suppress warnings
- Occasional use of type-based parameter and member names might be appropriate. However, for new development, no known scenarios occur where you should suppress a warning from this rule. For libraries that have previous shipped, you might have to suppress a warning from this rule.
+ Occasional use of type-based parameter and member names might be appropriate. However, for new development, no known scenarios occur where you should suppress a warning from this rule. For libraries that have previously shipped, you might have to suppress a warning from this rule.
 
 ## Related rules
  [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)

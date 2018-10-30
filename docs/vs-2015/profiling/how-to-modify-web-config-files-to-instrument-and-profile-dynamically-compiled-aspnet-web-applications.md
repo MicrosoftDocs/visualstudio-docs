@@ -1,7 +1,7 @@
 ---
 title: "How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-06-30"
+ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,6 @@ manager: "ghogen"
 # How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications](https://docs.microsoft.com/visualstudio/profiling/how-to-modify-web-config-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications).  
-  
 You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools instrumentation method to collect detailed timing data, .NET memory allocation data, and .NET object lifetime data from dynamically compiled [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications.  
   
  This topic describes how to modify the web.config configuration file to enable the instrumentation and profiling of [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications.  
@@ -29,13 +27,13 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
   
  The root of a web.config file is the **configuration** element. To instrument and profile a dynamically compiled [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, you must add or modify the following elements:  
   
--   A **configuration/runtime/assemblyBinding/dependentAssembly** element that identifies the Microsoft.VisualStudio.Enterprise.ASPNetHelper assembly that controls profiling. The **dependentAssembly** element contains two child elements: **assemblyIdentity** and **codeBase**.  
+- A **configuration/runtime/assemblyBinding/dependentAssembly** element that identifies the Microsoft.VisualStudio.Enterprise.ASPNetHelper assembly that controls profiling. The **dependentAssembly** element contains two child elements: **assemblyIdentity** and **codeBase**.  
   
--   A **configuration/system.web/compilation** element that identifies the profiler post-process compilation step for the target assembly.  
+- A **configuration/system.web/compilation** element that identifies the profiler post-process compilation step for the target assembly.  
   
--   Two **add** elements that identify the location of the Profiling Tools tools are added to the **configuration/appSettings** section .  
+- Two **add** elements that identify the location of the Profiling Tools tools are added to the **configuration/appSettings** section .  
   
- We recommend that you create a copy of the original web.config file that you can use to restore the configuration of the application.  
+  We recommend that you create a copy of the original web.config file that you can use to restore the configuration of the application.  
   
 ### To add the ASPNetHelper assembly as a configuration/runtime/assemblyBinding/dependentAssembly element  
   
@@ -79,22 +77,22 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
      `PathToASPNetHelperDll` is the file URL of the Microsoft.VisualStudio.Enterprise.ASPNetHelper.dll. If [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed in the default location, the **href** value should be `C:/Program%20Files/Microsoft%20Visual%20Studio%202010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL`  
   
 ```  
-    <configuration>  
-        <runtime>  
-            <assemblyBinding   
-                xmlns="urn:schemas-microsoft-com:asm.v1"  
-            >  
-                <dependentAssembly>  
-                    <assemblyIdentity                         name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"   
-                        publicKeyToken="b03f5f7f11d50a3a"                         culture="neutral"   
-                    />  
-                    <codeBase   
-                        version="10.0.0.0"  
-                        href="file:///C:/Program%20Files/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL"   
-                    />  
-                </dependentAssembly>  
-            </assemblyBinding>  
-        </runtime>  
+    <configuration>  
+        <runtime>  
+            <assemblyBinding   
+                xmlns="urn:schemas-microsoft-com:asm.v1"  
+            >  
+                <dependentAssembly>  
+                    <assemblyIdentity                         name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"   
+                        publicKeyToken="b03f5f7f11d50a3a"                         culture="neutral"   
+                    />  
+                    <codeBase   
+                        version="10.0.0.0"  
+                        href="file:///C:/Program%20Files/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL"   
+                    />  
+                </dependentAssembly>  
+            </assemblyBinding>  
+        </runtime>  
 ```  
   
 ### To add the Profiler post-process step to the configuration/system.web/compilation element  
@@ -114,19 +112,19 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
     |**assemblyPostProcessorType**|**Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter, Microsoft.VisualStudio.Enterprise.ASPNetHelper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a**|  
   
 ```  
-    <configuration>  
-        <runtime>  
-        . . .  
-        </runtime>  
-        <system.web>  
-            <compilation  
-                assemblyPostProcessorType="Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter,  
-                    Microsoft.VisualStudio.Enterprise.ASPNetHelper,  
-                    Version=10.0.0.0,  
-                    Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"   
-            />  
-        </system.web>  
-    <configuration>  
+    <configuration>  
+        <runtime>  
+        . . .  
+        </runtime>  
+        <system.web>  
+            <compilation  
+                assemblyPostProcessorType="Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter,  
+                    Microsoft.VisualStudio.Enterprise.ASPNetHelper,  
+                    Version=10.0.0.0,  
+                    Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"   
+            />  
+        </system.web>  
+    <configuration>  
 ```  
   
 ### To add Profiler location settings to the configuration/appSettings element  
@@ -156,24 +154,24 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
      `PerformanceToolsFolder` is the path of the profiler executable files. If [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed in the default location, the value will be **C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools**  
   
 ```  
-    <configuration>  
-        <runtime>  
-        . . .  
-        </runtime>  
-        . . .  
-        <system.web>  
-        </system.web>  
-        <appSettings>  
-            <add  
-                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"  
-                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\vsinstr.exe"  
-        />  
-            <add  
-                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"  
-                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\"  
-            />  
-        </appSettings>  
-    </configuration>  
+    <configuration>  
+        <runtime>  
+        . . .  
+        </runtime>  
+        . . .  
+        <system.web>  
+        </system.web>  
+        <appSettings>  
+            <add  
+                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"  
+                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\vsinstr.exe"  
+        />  
+            <add  
+                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"  
+                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\"  
+            />  
+        </appSettings>  
+    </configuration>  
 ```  
   
 ## Example  
@@ -181,44 +179,44 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
   
 ```  
 <?xml version="1.0"?>  
-    <configuration>  
-        <runtime>  
-            <assemblyBinding   
-                xmlns="urn:schemas-microsoft-com:asm.v1"  
-            >  
-                <dependentAssembly>  
-                    <assemblyIdentity   
-                        name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"   
-                        publicKeyToken="b03f5f7f11d50a3a"  
-                        culture="neutral"   
-                    />  
-                    <codeBase   
-                        version="10.0.0.0"  
-                        href="file:///C:/Program%20Files/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL"   
-                    />  
-                </dependentAssembly>  
-            </assemblyBinding>  
-        </runtime>  
-        <system.web>  
-            <compilation  
-                assemblyPostProcessorType="Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter,  
-                    Microsoft.VisualStudio.Enterprise.ASPNetHelper,  
-                    Version=10.0.0.0,  
-                    Culture=neutral,  
-                    PublicKeyToken=b03f5f7f11d50a3a"   
-            />  
-        </system.web>  
-        <appSettings>  
-            <add  
-                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"  
-                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\vsinstr.exe"  
-            />  
-            <add  
-                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"  
-                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\"  
-            />  
-        </appSettings>  
-    </configuration>  
+    <configuration>  
+        <runtime>  
+            <assemblyBinding   
+                xmlns="urn:schemas-microsoft-com:asm.v1"  
+            >  
+                <dependentAssembly>  
+                    <assemblyIdentity   
+                        name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"   
+                        publicKeyToken="b03f5f7f11d50a3a"  
+                        culture="neutral"   
+                    />  
+                    <codeBase   
+                        version="10.0.0.0"  
+                        href="file:///C:/Program%20Files/Microsoft%20Visual%20Studio%2010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL"   
+                    />  
+                </dependentAssembly>  
+            </assemblyBinding>  
+        </runtime>  
+        <system.web>  
+            <compilation  
+                assemblyPostProcessorType="Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter,  
+                    Microsoft.VisualStudio.Enterprise.ASPNetHelper,  
+                    Version=10.0.0.0,  
+                    Culture=neutral,  
+                    PublicKeyToken=b03f5f7f11d50a3a"   
+            />  
+        </system.web>  
+        <appSettings>  
+            <add  
+                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation"  
+                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\vsinstr.exe"  
+            />  
+            <add  
+                key="Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrTools"  
+                value="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\"  
+            />  
+        </appSettings>  
+    </configuration>  
   
 ```  
   
