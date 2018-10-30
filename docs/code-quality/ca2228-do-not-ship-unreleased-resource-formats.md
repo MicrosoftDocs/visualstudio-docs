@@ -33,7 +33,7 @@ ms.workload:
  Resource files that were built by using pre-release versions of the .NET Framework might not be usable by supported versions of the .NET Framework.
 
 ## How to fix violations
- To fix a violation of this rule, build the resource using a supported version of the .NET Frameworkk.
+ To fix a violation of this rule, build the resource using a supported version of the .NET Framework.
 
 ## When to suppress warnings
  Do not suppress a warning from this rule.

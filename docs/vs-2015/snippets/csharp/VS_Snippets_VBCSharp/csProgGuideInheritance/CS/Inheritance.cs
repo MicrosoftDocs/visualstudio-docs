@@ -1142,7 +1142,7 @@ namespace Polymorphism_Overview
         static void Main(string[] args)
         {
             // Polymorphism at work #1: a Rectangle, Triangle and Circle
-            // can all be used whereever a Shape is expected. No cast is
+            // can all be used wherever a Shape is expected. No cast is
             // required because an implicit conversion exists from a derived 
             // class to its base class.
             System.Collections.Generic.List<Shape> shapes = new System.Collections.Generic.List<Shape>();

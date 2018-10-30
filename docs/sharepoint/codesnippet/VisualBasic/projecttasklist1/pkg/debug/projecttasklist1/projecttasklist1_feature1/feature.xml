@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="ProjectTaskList1 Feature1" Scope="Web" Id="860744f4-29b4-4a54-a373-d1397aeedd6e" ImageUrl="" Version="1.0.0.0">
-  <ElementManifests>
-    <ElementManifest Location="ListInstance1\Elements.xml" />
-    <ElementManifest Location="ListDefinition1\Elements.xml" />
-    <ElementFile Location="ListDefinition1\Schema.xml" />
-    <ElementManifest Location="ProjectTaskListEventReceiver\Elements.xml" />
-  </ElementManifests>
-</Feature>
