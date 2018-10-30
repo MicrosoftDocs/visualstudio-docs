@@ -42,7 +42,7 @@ You use the project **Properties** to specify the remote device to connect to. T
 
 ###  <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> Configure a C# or Visual Basic project for remote debugging  
 
-1. Select the C# or Visual Basic project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1. Select the C# or Visual Basic project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
   
 1.  Select the **Debug** tab.  
   
@@ -54,7 +54,7 @@ You use the project **Properties** to specify the remote device to connect to. T
     
 ###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> Configure a JavaScript or C++ project for remote debugging   
   
-1.  Select the C++ or JavaScript project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1.  Select the C++ or JavaScript project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
   
 1.  Select the **Debugging** tab.  
   
@@ -91,7 +91,7 @@ For Visual Studio to debug apps on a remote computer, the remote computer must b
 
 Remote debugging works the same as local debugging. 
 
-1. On pre-Creator's Update versions of Windows 10, make sure the Remote Debugging Monitor (*msvsmon.exe*) is running on the remote device. Creator's Update and later runs remote tools automatically, and Windows 10 Mobile does not require or support remote tools. 
+1. On pre-Creator's Update versions of Windows 10, make sure the Remote Debugging Monitor (*msvsmon.exe*) is running on the remote device.  
    
 1. On the Visual Studio computer, make sure the correct debugging target (**Remote Machine** or **Device**) appears next to the green arrow on the toolbar. 
    

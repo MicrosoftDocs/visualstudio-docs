@@ -35,6 +35,8 @@ To configure the remote tools, you must have administrator permissions on the re
   
     The remote debugger is now waiting for a connection. Use the server name and port number shown to set the remote connection configuration in Visual Studio.  
   
-   To stop the remote debugger, select **File** > **Exit**. You can restart it from the **Start** menu, or from the command line:  
+To stop the remote debugger, select **File** > **Exit**. You can restart it from the **Start** menu, or from the command line:  
   
-   **\<Remote debugger installation directory>\\msvsmon.exe**  
+```cmd
+<Remote debugger installation directory>\msvsmon.exe
+```
