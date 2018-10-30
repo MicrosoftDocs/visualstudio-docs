@@ -1,4 +1,5 @@
 - name: Visual Studio Tools for Docker
+  href: /dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json
   expanded: true
   items:
   - name: Debugging apps in a local Docker container
