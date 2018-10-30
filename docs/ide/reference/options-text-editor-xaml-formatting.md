@@ -38,7 +38,6 @@ Use the **Formatting** property page to specify how elements and attributes are 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
-
 ## Auto-Formatting Events
 Autoformatting may occur when any of the following events is detected.
 
@@ -95,8 +94,11 @@ Width="75">Hello</Button>
 ```
 
 **Insert a single space between attributes**  
-Attributes occupy one line, with one space separating adjacent attributes. Tag wrapping settings are applied.  
-`<Button Height="23" Name="button1" Width="75">Hello</Button>`
+Attributes occupy one line, with one space separating adjacent attributes. Tag wrapping settings are applied.
+
+```xml
+<Button Height="23" Name="button1" Width="75">Hello</Button>
+```
 
 **Position each attribute on a separate line**  
 Each attribute occupies its own line, which is useful when many attributes are present.  
@@ -118,17 +120,17 @@ Width="75">Hello</Button>
 ```
 
 ## Element Spacing
-Use this setting to control how elements are arranged in your XAML document
+Use this setting to control how elements are arranged in your XAML document.
 
 **Preserve new lines in content**  
 Empty lines in element content are not removed.  
 
 ```xml
 <Grid>  
-``  
-``  
+
+
 <Button Name="button1">Hello</Button>  
-``   
+
 </Grid>
 ```
 
@@ -137,9 +139,9 @@ Empty lines in element content are collapsed to a single line.
 
 ```xml
 <Grid>  
-``  
+
 <Button Name="button1">Hello</Button>  
-``  
+
 </Grid>
 ```
 
@@ -153,4 +155,5 @@ All empty lines in element content are removed.
 ```
 
 ## See also
+
 - [XAML in WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)
