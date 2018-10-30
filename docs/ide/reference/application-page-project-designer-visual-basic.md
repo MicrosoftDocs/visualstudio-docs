@@ -1,6 +1,6 @@
 ---
-title: Application Page, Project Designer (Visual Basic)
-ms.date: 11/04/2016
+title: Application page of VB project properties
+ms.date: 10/30/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
