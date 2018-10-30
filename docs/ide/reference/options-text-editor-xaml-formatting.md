@@ -87,9 +87,12 @@ The number of characters a line may contain. If necessary, some XAML lines might
 Use this setting to control how attributes are arranged in your XAML document
 
 **Preserve newlines and spaces between attributes**  
-New lines and spaces between attributes are not affected by auto-formatting.  
-`<Button Height="23"   Name="button1"`  
-`Width="75">Hello</Button>`
+New lines and spaces between attributes are not affected by autoformatting.
+
+```xml
+<Button Height="23"   Name="button1"  
+Width="75">Hello</Button>
+```
 
 **Insert a single space between attributes**  
 Attributes occupy one line, with one space separating adjacent attributes. Tag wrapping settings are applied.  
@@ -97,43 +100,57 @@ Attributes occupy one line, with one space separating adjacent attributes. Tag w
 
 **Position each attribute on a separate line**  
 Each attribute occupies its own line, which is useful when many attributes are present.  
-`<Button`  
-`Height="23"`  
-`Name="button1"`  
-`Width="75">Hello</Button>`
+
+```xml
+<Button  
+Height="23"  
+Name="button1"  
+Width="75">Hello</Button>
+```
 
 **Position first attribute on same line as start tag**  
 When checked, the first attribute appears on the same line as the element's start tag.  
-`<Button Height="23"`  
-`Name="button1"`  
-`Width="75">Hello</Button>`
+
+```xml
+<Button Height="23"  
+Name="button1"  
+Width="75">Hello</Button>
+```
 
 ## Element Spacing
 Use this setting to control how elements are arranged in your XAML document
 
 **Preserve new lines in content**  
 Empty lines in element content are not removed.  
-`<Grid>`  
+
+```xml
+<Grid>  
 ``  
 ``  
-`<Button Name="button1">Hello</Button>`  
-``  
-``  
-`</Grid>\`
+<Button Name="button1">Hello</Button>  
+``   
+</Grid>\
+```
 
 **Collapse multiple empty lines in content to a single line**  
 Empty lines in element content are collapsed to a single line.  
-`<Grid>`  
+
+```xml
+<Grid>  
 ``  
+`<Button Name="button1">Hello</Button>  
 ``  
-`<Button Name="button1">Hello</Button>`  
-`</Grid>`
+</Grid>
+```
 
 **Remove empty lines in content**  
 All empty lines in element content are removed.  
-`<Grid>`  
-`<Button Name="button1">Hello</Button>`  
-`</Grid>`
+
+```xml
+<Grid>  
+<Button Name="button1">Hello</Button>  
+</Grid>
+```
 
 ## See also
 - [XAML in WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)

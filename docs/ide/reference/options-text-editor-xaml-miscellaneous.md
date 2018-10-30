@@ -45,7 +45,7 @@ Use the **Miscellaneous** property page to specify how elements and attributes a
 |-|-|
 |**Closing tags**|Specifies whether an element's closing tag is automatically generated when you close the opening tag with the greater than character (>).|
 |**Attribute quotes**|Specifies whether enclosing quotes are generated when an attribute value is selected from the statement completion drop-down list.|
-|**Closing braces for MarkupExtensions**|Specifies whether a markup extension's closing brace (}) is automatically generated when you type the opening brace character ({).|
+|**Closing braces for MarkupExtensions**|Specifies whether a markup extension's closing brace (**}**) is automatically generated when you type the opening brace character (**{**).|
 |**Commas to separate MarkupExtension parameters**|Specifies whether commas are generated when you type more than one parameter in a markup extension.|
 
 ## Errors and Warnings
