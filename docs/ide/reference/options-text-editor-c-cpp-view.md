@@ -18,9 +18,7 @@ ms.workload:
 
 Use these property pages to change the default behavior of the code editor when you are programming in C or C++.
 
-To access this property page, choose **Tools | Options** and expand **Text Editor**, then **C/C++**, and then choose **View**.
-
-These features are available in a Visual Studio 2017 installation.
+To access this property page, choose **Tools** > **Options** and expand **Text Editor**, then **C/C++**, and then choose **View**.
 
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
@@ -31,7 +29,7 @@ You can enable or disable the following settings to manage the way in which text
 
 - **Macros in Skipped Browsing Regions** - Defines how to highlight macros that are inside skipped regions by the browsing database, such as macros whose definitions include braces.
 
-- **Macros Convertible to constexpr** - Defines how to highlight macro definitions that can be converted to constexpr definitions.
+- **Macros Convertible to constexpr** - Defines how to highlight macro definitions that can be converted to `constexpr` definitions.
 
 ## Inactive Code
 
@@ -51,7 +49,7 @@ You can enable or disable the following settings to manage the way in which text
 
 - **Enable Outlining** - Enter outlining mode when a file opens.
 
-- **Outline Pragma Regions** - Automatically outline #pragma region blocks.
+- **Outline Pragma Regions** - Automatically outline `#pragma` region blocks.
 
 - **Outline Statement Blocks** - Automatically outline statement blocks.
 

@@ -32,7 +32,7 @@ ms.workload:
   - "uwp"
 ---
 # Options, Text Editor, XAML, Miscellaneous
-Use the **Miscellaneous** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Miscellaneous** property page, expand the **Text Editor**, **XAML**, **Miscellaneous** node.
+Use the **Miscellaneous** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Miscellaneous** property page, expand the **Text Editor** > **XAML** > **Miscellaneous** node.
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).

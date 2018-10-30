@@ -13,7 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # Options, Text Editor, JavaScript, Code Validation
-Use the **Code Validation** page of the **Options** dialog box to modify settings that affect the way that JavaScript handles errors. You can access the **Code Validation** page by choosing **Tools**, **Options** on the  menu bar, and then expanding **Text Editor**, **JavaScript**, **Code Validation.**
+Use the **Code Validation** page of the **Options** dialog box to modify settings that affect the way that JavaScript handles errors. You can access the **Code Validation** page by choosing **Tools** > **Options** on the  menu bar, and then expanding **Text Editor** > **JavaScript** > **Code Validation.**
 
 [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]
 
@@ -25,11 +25,11 @@ The **Code Validation** page contains the following sections:
 ### UIElement List
  **Enable JavaScript errors**
 
- When set to **True**, the JavaScript code editor shows errors for JavaScript and JSX files. Errors appear in the Error List with a (JS) prefix. Viewing these errors is useful if you're working with code that you didn't write and you don't intend to fix syntax errors.
+ When set to **True**, the JavaScript code editor shows errors for JavaScript and JSX files. Errors appear in the **Error List** with a (JS) prefix. Viewing these errors is useful if you're working with code that you didn't write and you don't intend to fix syntax errors.
 
  **Show errors as warnings**
 
- When set to **True**, JavaScript errors are shown as warnings instead of errors in the Error List.
+ When set to **True**, JavaScript errors are shown as warnings instead of errors in the **Error List**.
 
 ## See Also
 
