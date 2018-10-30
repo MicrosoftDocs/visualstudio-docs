@@ -44,10 +44,10 @@ View.ShowWebBrowser URL [/new][/ext]
  The alias for the **ShowWebBrowser** command is **navigate** or **nav**.
 
 ## Example
- The following example displays the MSDN Online home page in a web browser outside of the IDE. If an instance of the web browser is already open, it is used; otherwise a new instance is launched.
+ The following example displays the Microsoft Docs home page in a web browser outside of the IDE. If an instance of the web browser is already open, it is used; otherwise a new instance is launched.
 
 ```cmd
->View.ShowWebBrowser http://msdn.microsoft.com /ext
+>View.ShowWebBrowser https://docs.microsoft.com /ext
 ```
 
 ## See Also

@@ -27,7 +27,7 @@ We have made several tools available that will help you detect and manage instal
 * [VSSetup.PowerShell](https://github.com/microsoft/vssetup.powershell): PowerShell scripts that use the Setup Configuration API to identify installed instances of Visual Studio.
 * [VS-Setup-Samples](https://github.com/microsoft/vs-setup-samples): C# and C++ samples that demonstrate how to use the Setup Configuration API to query an existing installation.
 
-In addition, the [Setup Configuration API](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.setup.configuration.aspx) provides interfaces for developers who want to build their own utilities for interrogating Visual Studio instances.
+In addition, the [Setup Configuration API](<xref:Microsoft.VisualStudio.Setup.Configuration>) provides interfaces for developers who want to build their own utilities for interrogating Visual Studio instances.
 
 ## Using vswhere.exe
 

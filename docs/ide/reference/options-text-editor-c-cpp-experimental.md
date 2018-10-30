@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Options, Text Editor, C/C++, Experimental
 
-By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++. These features are truly experimental, and may be modified or removed from Visual Studio in a future release. This topic describes the options in Visual Studio 2017. For Visual Studio 2015, see [Options, Text Editor, C/C++, Experimental](https://msdn.microsoft.com/library/mt591979.aspx)
+By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++. These features are truly experimental, and may be modified or removed from Visual Studio in a future release. This topic describes the options in Visual Studio 2017. For Visual Studio 2015, see [Options, Text Editor, C/C++, Experimental](/visualstudio/ide/reference/options-text-editor-c-cpp-experimental?view\=vs-2015).
 
 To access this property page, press **Control + Q** to activate `Quick Launch` and then type "experimental". Quick Launch will find the page after the first few letters. You can also get to it by choosing **Tools | Options** and expanding **Text Editor**, then **C/C++**, and then choosing **Experimental**.
 
@@ -51,4 +51,4 @@ You can browse additional text editor features in the [Visual Studio Marketplace
 ## See also
 
 - [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)
-- [Refactoring in C++ (VC Blog)](http://blogs.msdn.com/b/vcblog/archive/2014/11/14/all-about-c-refactoring-in-visual-studio-2015-preview.aspx)
+- [Refactoring in C++ (VC Blog)](https://blogs.msdn.microsoft.com/vcblog/2014/11/14/all-about-c-refactoring-in-visual-studio-2015-preview/)
