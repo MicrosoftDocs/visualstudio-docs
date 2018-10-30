@@ -41,7 +41,7 @@ If your domain policy requires network communication to be performed through IPS
 |500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPSec.|  
 |80|Outgoing|TCP|Required for web server debugging.|
 
-To allow specific apps through the Windows firewall, see [Configure remote debugging through Windows Firewall](#troubleshooting). 
+To allow specific apps through the Windows firewall, see [Configure remote debugging through Windows Firewall](#configure-remote-debugging-through-windows-firewall). 
 
 ### Open ports in Windows Firewall with Advanced Security  
 
@@ -55,9 +55,9 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 
 1. In the **New Inbound Rule Wizard**, select **Port**, and then select **Next**. 
    
-1. Select either **TCP** or **UDP**, depending on the port number from the preceding table.
+1. Select either **TCP** or **UDP**, depending on the port number from the preceding tables.
    
-1. Under **Specific local ports**, enter the port number from the preceding table, and select **Next**.
+1. Under **Specific local ports**, enter a port number from the preceding tables, and select **Next**.
    
 1. Select **Allow the Connection**, and then select **Next**.
    
@@ -69,7 +69,9 @@ Visual Studio and the remote debugger try to open the correct ports during insta
 
 ## Configure remote debugging through Windows firewall
 
-You can install the remote debugging tools on the remote computer, or run them from a shared folder. In either case, the remote computer firewall must be configured correctly. On a remote computer, the remote debugging tools are in:  
+You can install the remote debugging tools on the remote computer, or run them from a shared folder. In either case, the remote computer firewall must be configured correctly. 
+
+On a remote computer, the remote debugging tools are in:  
   
 *\<Visual Studio installation directory>\Common7\IDE\Remote Debugger* 
   
@@ -93,11 +95,11 @@ If you can't attach to your app with the remote debugger, make sure the remote d
 
 - In the Windows **Start** menu, search for and open **Windows Firewall**, and select **Allow an app through Windows Firewall**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears in the **Allowed apps and features** list with a selected check box, and the correct network types are selected. If not, [add the correct apps and settings](#configure-remote-debugging-through-windows-firewall).
   
-- In the Windows **Start** menu, search for and open **Windows Firewall with Advanced Security**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears under **Inbound Rules** and (optionally) **Outbound Rules** with a green checkmark icon, and that all settings are correct. 
+- In the Windows **Start** menu, search for and open **Windows Firewall with Advanced Security**. Make sure **Remote Debugger** or **Visual Studio Remote Debugger** appears under **Inbound Rules** (and optionally, **Outbound Rules**) with a green checkmark icon, and that all settings are correct. 
   
-  - To view or change the settings, right-click the **Remote Debugger** app in the list and select **Properties**. Use the **Properties** tabs to enable or disable the rule, or change port numbers, protocols, and network types. 
-  - If the remote debugger app doesn't appear, [add and configure the correct ports](#configure-ports-for-remote-debugging). 
+  - To view or change the rule settings, right-click the **Remote Debugger** app in the list and select **Properties**. Use the **Properties** tabs to enable or disable the rule, or change port numbers, protocols, or network types. 
+  - If the remote debugger app doesn't appear in the rules list, [add and configure the correct ports](#configure-ports-for-remote-debugging). 
 
 ## See also  
- [Remote debugging](../debugger/remote-debugging.md)
- [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)
+[Remote debugging](../debugger/remote-debugging.md)
+[Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md)
