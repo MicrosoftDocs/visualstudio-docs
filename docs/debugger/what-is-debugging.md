@@ -15,7 +15,7 @@ ms.workload:
 ---
 # What is debugging?
 
-The Visual Studio debugger is a powerful tool. Before we show how to use it, we want to talk about some terms such as *debug mode*, *debugger*, and *debugging*. This way, when we talk later about finding and fixing bugs, we all mean the same thing.
+The Visual Studio debugger is a powerful tool. Before we show how to use it, we want to talk about some terms such as *debug mode*, *debugger*, and *debugging*. This way, when we talk later about finding and fixing bugs, we'll be talking about the same thing.
 
 ## Debug mode vs. running your app
 
