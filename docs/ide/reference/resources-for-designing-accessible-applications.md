@@ -28,7 +28,7 @@ Use the following links to find information about technologies that support acce
 
 * **Microsoft .NET Speech Technologies** The Microsoft .NET Speech SDK provides a set of Microsoft [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)] controls, a Microsoft Internet Explorer Speech add-in, sample applications, and documentation. Web developers can use these tools to create, debug, and deploy speech-enabled [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)] applications. The tools are integrated seamlessly into Microsoft Visual Studio, allowing developers to work in the familiar development environment. For more information, see [Speech server](/previous-versions/office/developer/speech-technologies/ms950383\(v\=msdn.10\)).
 
-* **Understanding SAMI 1.0** Microsoft Synchronized Accessible Media Interchange (SAMI) technology provides a way for developers to caption audio content for PC multimedia. For more information, see [Understanding SAMI 1.0](/windows/desktop/dnacc/understanding-sami-1.0).
+* **Understanding SAMI 1.0** Microsoft Synchronized Accessible Media Interchange (SAMI) technology provides a way for developers to caption audio content for PC multimedia. For more information, see [Understanding SAMI 1.0](/previous-versions/windows/desktop/dnacc/understanding-sami-1.0).
 
 ## Windows applications
 
