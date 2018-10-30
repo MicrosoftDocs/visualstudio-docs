@@ -193,7 +193,7 @@ namespace MockLanguageExtension
 
         public async Task OnLoadedAsync()
         {
-            await StartAsync?.InvokeAsync(this, EventArgs.Empty);
+            await StartAsync.InvokeAsync(this, EventArgs.Empty);
         }
 
         public async Task OnServerInitializeFailedAsync(Exception e)
