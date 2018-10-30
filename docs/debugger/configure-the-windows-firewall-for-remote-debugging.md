@@ -30,7 +30,7 @@ For remote debugging, the following ports must be open on the remote computer:
 |4023|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).| 
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|    
   
-Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger. If you enable debugger compatibility mode by selecting **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports: 
+Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger. If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports: 
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|  
 |-|-|-|-|  
