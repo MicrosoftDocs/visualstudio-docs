@@ -1,6 +1,6 @@
 ---
 title: Overview of Visual Studio 2017
-ms.date: 06/01/2018
+ms.date: 10/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -18,9 +18,11 @@ ms.workload:
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
-Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps.
+Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2017.
 
-This overview article focuses on Visual Studio 2017 for Windows. It introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
+There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
+
+This overview article introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
 
 ## Install the Visual Studio IDE
 
