@@ -15,7 +15,7 @@
     expanded: true
     items:
     - name: Learn the basics
-      href: ide/tutorial-csharp-console.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+      href: ../ide/tutorial-csharp-console.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: Create a UWP app
       href: ../ide/quickstart-uwp-csharp.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: Create a web app
