@@ -30,14 +30,17 @@ For remote debugging, the following ports must be open on the remote computer:
 |4023|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).| 
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|    
   
-Debugger compatibility mode enables a legacy, Visual Studio 2010 version of the debugger. If you enable debugger compatibility mode by selecting **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, you must open the following additional ports. 
-
-If your domain policy requires network communication to be performed through IPSec, you must open additional ports on both computers. To debug on a remote web server, you must open an additional port on the remote computer. For IIS, port 80 must be open. 
+Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger. If you enable debugger compatibility mode by selecting **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports: 
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|  
 |-|-|-|-|  
 |135, 139, 445|Outgoing|TCP|Required.|  
 |137, 138|Outgoing|UDP|Required.|  
+
+If your domain policy requires network communication to be performed through IPSec, you must open additional ports on both the Visual Studio and remote computers. To debug on a remote IIS web server, you must open port 80 on the remote computer.
+
+|**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|  
+|-|-|-|-|  
 |500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPSec.|  
 |80|Outgoing|TCP|Required for web server debugging.|
 
