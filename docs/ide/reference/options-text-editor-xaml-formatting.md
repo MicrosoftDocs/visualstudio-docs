@@ -129,7 +129,7 @@ Empty lines in element content are not removed.
 ``  
 <Button Name="button1">Hello</Button>  
 ``   
-</Grid>\
+</Grid>
 ```
 
 **Collapse multiple empty lines in content to a single line**  
@@ -138,7 +138,7 @@ Empty lines in element content are collapsed to a single line.
 ```xml
 <Grid>  
 ``  
-`<Button Name="button1">Hello</Button>  
+<Button Name="button1">Hello</Button>  
 ``  
 </Grid>
 ```
