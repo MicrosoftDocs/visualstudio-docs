@@ -66,6 +66,6 @@ A yellow arrow in the left margin marks the current execution point. For native 
 
 ## See also  
 
-[Paging up or down in memory](../debugger/how-to-page-up-or-down-in-memory.md)
-[Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
-[How to: Use the Registers window](../debugger/how-to-use-the-registers-window.md)
+* [Paging up or down in memory](../debugger/how-to-page-up-or-down-in-memory.md)
+* [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
+* [How to: Use the Registers window](../debugger/how-to-use-the-registers-window.md)
