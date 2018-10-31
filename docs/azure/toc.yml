@@ -11,7 +11,7 @@
   - name: Publish Azure Functions
     href: /azure/azure-functions/functions-develop-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core 
-    href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deploymenttoc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json&?view=aspnetcore-2.1
+    href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json&?view=aspnetcore-2.1
   - name: Continuous deployment to Azure with Azure Pipelines
     href: /azure/devops/pipelines/get-started-yaml?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json&view=vsts
   - name: Publish an ASP.NET Web App to an Azure VM
