@@ -6818,6 +6818,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/docker/index.md",
+            "redirect_url": "/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/cross-platform/visual-studio-and-xamarin.md",
             "redirect_url": "/xamarin/",
             "redirect_document_id": false
@@ -6856,11 +6861,6 @@
             "source_path": "docs/cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md",
             "redirect_url": "/xamarin/tools/ci/devops/",
             "redirect_document_id": true
-        },
-        {
-            "source_path": "docs/docker/index.md",
-            "redirect_url": "/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json",
-            "redirect_document_id": false
         }
     ]
 }
