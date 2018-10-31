@@ -23,7 +23,7 @@ In this step, you make the **Show a picture** button work like this:
 
 The IDE has a powerful tool called IntelliSense that helps you write code. As you enter code, the IDE opens a box with suggested completions for partial words that you enter. It tries to determine what you want to do next, and automatically jumps to the last item you choose from the list. You can use the up or down arrows to move in the list, or you can keep typing letters to narrow the choices. When you see the choice you want, choose the **Tab** key to select it. Or, you can ignore the suggestions, if not needed.
 
-![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 4](https://msdn.microsoft.com/en-us/vstudio/gg315355.aspx). This video uses an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
+![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 4](https://msdn.microsoft.com/vstudio/gg315355.aspx). This video uses an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
 ## To write code for the show a picture button event handler
 
@@ -43,7 +43,7 @@ The IDE has a powerful tool called IntelliSense that helps you write code. As yo
 
     2.  The **IntelliSense** window opens and displays **openFileDialog1**. Choose the **Tab** key to select it. (In Visual Basic, it starts with an initial cap, so you see **OpenFileDialog1**. Ensure that **OpenFileDialog1** is selected.)
 
-         To learn more about `OpenFileDialog`, see [OpenFileDialog](http://msdn.microsoft.com/library/system.windows.forms.openfiledialog.aspx).
+         To learn more about `OpenFileDialog`, see [OpenFileDialog](<xref:System.Windows.Forms.OpenFileDialog>).
 
     3.  Type a period (`.`) (Many programmers call this a dot.) Because you typed a dot right after **openFileDialog1**, an **IntelliSense** window opens, filled in with all of the **OpenFileDialog** component's properties and methods. These are the same properties that appear in the **Properties** window when you choose it in **Windows Forms Designer**. You can also choose methods that tell the component to do things (like open a dialog box).
 
@@ -58,7 +58,7 @@ The IDE has a powerful tool called IntelliSense that helps you write code. As yo
 
     4.  Start to type `ShowDialog` (capitalization is unimportant to IntelliSense). The `ShowDialog()` method will show the **Open File** dialog box. After the window has highlighted **ShowDialog**, choose the **Tab** key. You can also highlight "ShowDialog" and choose the **F1** key to get help for it.
 
-         To learn more about the `ShowDialog()` method, see [ShowDialog Method](http://msdn.microsoft.com/library/c7ykbedk.aspx).
+         To learn more about the `ShowDialog()` method, see [ShowDialog Method](<xref:System.Windows.Forms.Form.ShowDialog%2A>).
 
     5.  When you use a method on a control or a component (referred to as *calling a method*), you need to add parentheses. So enter opening and closing parentheses immediately after the "g" in `ShowDialog`: `()` It should now look like "openFileDialog1.ShowDialog()".
 
@@ -74,7 +74,7 @@ The IDE has a powerful tool called IntelliSense that helps you write code. As yo
 
     8.  Type a dot to open the DialogResult value **IntelliSense** window. Enter the letter `O` and choose the **Tab** key to insert **OK**.
 
-         To learn more about DialogResult, see [DialogResult](http://msdn.microsoft.com/library/system.windows.forms.dialogresult.aspx).
+         To learn more about DialogResult, see [DialogResult](<xref:System.Windows.Forms.DialogResult>).
 
         > [!NOTE]
         >  The first line of code should be complete. For Visual C#, it should be the following.

@@ -47,7 +47,7 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
 
 -   **Source editor** Select to view source in the [editor](../../ide/writing-code-in-the-code-and-text-editor.md).
 
--   **HTML editor** Select to view source in the [HTML designer](http://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.
+-   **HTML editor** Select to view source in the [HTML designer](https://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.
 
 -   **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.
 
@@ -62,4 +62,4 @@ Click to change options for Internet Explorer in the **Internet Properties** dia
 
 - [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
-- [HTML Designer](http://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477)
+- [HTML Designer](https://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477)
