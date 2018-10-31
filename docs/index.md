@@ -404,7 +404,7 @@ ms.topic: hub-page
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Optimized For Performance</h3>
+                                                    <h3>Measure Performance</h3>
                                                     <p>Identify bottlenecks and optimize code performance by using diagnostic tools.
                                                     </p>
                                                 </div>
