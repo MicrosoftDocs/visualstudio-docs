@@ -27,14 +27,14 @@ ms.workload:
   - "multiple"
 ---
 # View threads in the Visual Studio debugger by using the Threads window
-In the **Threads** window, you can examine and work with threads in the application that you're debugging. For step-by-step guidance on how to use the **Threads** window, see [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).
+In the **Threads** window, you can examine and work with threads in the application that you're debugging. For step-by-step guidance on how to use the **Threads** window, see [Walkthrough: Debug by using the Threads window](../debugger/how-to-use-the-threads-window.md).
 
 ## Use the Threads window 
  The **Threads** window contains a table where each row describes a separate thread in your application. By default, the table lists all the threads in your application, but you can filter the list to show only the threads that interest you. Each column describes a different type of information. You can also hide some columns. If you display all the columns, the following columns appear, from left to right:  
   
-- Flag column: In this column, you can mark a thread to which you want to pay special attention. For information about how to flag a thread, see [How to: Flag and unflag threads](../debugger/how-to-flag-and-unflag-threads.md).  
+- **Flag**: In this unlabeled column, you can mark a thread to which you want to pay special attention. For information about how to flag a thread, see [How to: Flag and unflag threads](../debugger/how-to-flag-and-unflag-threads.md).  
   
-- Current thread column: In this column, a yellow arrow indicates the current thread. An arrow outline indicates the current debugger context for a non-current thread.
+- **Current thread**: In this unlabeled column, a yellow arrow indicates the current thread. An arrow outline indicates the current debugger context for a non-current thread.
   
 - **ID**: Displays the identification number for each thread.  
   
@@ -53,6 +53,10 @@ In the **Threads** window, you can examine and work with threads in the applicat
 - **Suspended Count**: An advanced column (hidden by default) that displays the suspended count. This count determines whether a thread can run. For more information about suspended counts, see [Freeze and thaw threads](#freeze-and-thaw-threads).  
   
 - **Process Name**: An advanced column (hidden by default) that displays the process to which each thread belongs. The data in this column can be useful when you're debugging many processes.  
+
+- **Process ID**: An advanced column (hidden by default) that displays the process ID to which each thread belongs. 
+
+- **Transport Qualifier**: An advanced column (hidden by default) that uniquely identifies the machine to which the debugger is connected. 
   
 ### To display the Threads window in break mode or run mode  
   
@@ -63,7 +67,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
 -   In the toolbar at the top of the **Threads** window, select **Columns**. Then, select or clear the name of the column that you want to display or hide.  
 
 ## Display flagged threads  
- You can flag a thread that you want to give special attention by marking it with an icon in the **Threads** window. For more information, see [How to: Flag and Unflag Threads](../debugger/how-to-flag-and-unflag-threads.md). In the **Threads** window, you can choose to display all the threads or only the flagged threads.  
+ You can flag a thread that you want to give special attention by marking it with an icon in the **Threads** window. For more information, see [How to: Flag and Unflag threads](../debugger/how-to-flag-and-unflag-threads.md). In the **Threads** window, you can choose to display all the threads or only the flagged threads.  
   
 ### To display only flagged threads  
   
