@@ -80,7 +80,7 @@ ms.workload:
 9. If your solution targets the .NET Framework 4.5, also select the **Visual Studio 2010 Tools for Office Runtime** check box.  
 
     > [!NOTE]  
-    >  By default, this check box doesn't appear. To show this check box, you must create a Bootstrapper package. See [Create a Bootstrapper package for an Office 2013 VSTO Add-in with Visual Studio 2012](http://blogs.msdn.com/b/vsto/archive/2012/12/21/creating-a-bootstrapper-package-for-an-office-2013-vsto-add-in-with-visual-studio-2012.aspx).  
+    >  By default, this check box doesn't appear. To show this check box, you must create a Bootstrapper package. See [Create a Bootstrapper package for an Office 2013 VSTO Add-in with Visual Studio 2012](create-vsto-add-ins-for-office-by-using-visual-studio.md).  
 
 10. Under **Specify the install location for prerequisites**, choose one of the options that appear, and then choose the **OK** button.  
 
@@ -356,7 +356,7 @@ ms.workload:
 |Error Code|Definition|  
 |----------------|----------------|  
 |0|The solution was successfully installed or uninstalled, or the VSTOInstaller Help appeared.|  
-|-100|One or more command-line options isn't valid or was set more than once. For more information, enter "vstoinstaller /?" or see [Create a custom installer for a ClickOnce Office solution](http://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e).|  
+|-100|One or more command-line options isn't valid or was set more than once. For more information, enter "vstoinstaller /?" or see [Create a custom installer for a ClickOnce Office solution](https://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e).|  
 |-101|One or more command-line options isn't valid. For more information, enter "vstoinstaller /?".|  
 |-200|The deployment manifest URI isn't valid. For more information, enter "vstoinstaller /?".|  
 |-201|The solution couldn't be installed because the deployment manifest isn't valid. See [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).|  
@@ -457,9 +457,9 @@ ms.workload:
 ## See also  
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Publish Office solutions](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
- [How to: Publish an Office solution by using ClickOnce](http://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)   
- [How to: Install a ClickOnce Office solution](http://msdn.microsoft.com/14702f48-9161-4190-994c-78211fe18065)   
- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](http://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)   
- [Create a custom installer for a ClickOnce office solution](http://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e)  
+ [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)   
+ [How to: Install a ClickOnce Office solution](https://msdn.microsoft.com/14702f48-9161-4190-994c-78211fe18065)   
+ [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](https://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)   
+ [Create a custom installer for a ClickOnce office solution](https://msdn.microsoft.com/3e5887ed-155f-485d-b8f6-3c02c074085e)  
 
 

@@ -60,7 +60,7 @@ ms.workload:
 |----------|--------------------------|  
 |Customize the ribbon.|[Ribbon Overview](../vsto/ribbon-overview.md)|  
   
- For information about customizing the UI of Visio, see the VBA reference documentation for the [Visio.UIObject](https://msdn.microsoft.com/library/office/ff765763.aspx) class.  
+ For information about customizing the UI of Visio, see the VBA reference documentation for the [Visio.UIObject](/office/vba/api/Visio.UIObject) class.  
   
 ## See also  
  [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)   
