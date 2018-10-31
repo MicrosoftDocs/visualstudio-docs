@@ -26,7 +26,7 @@ ms.workload:
   
 - Save a document with specified arguments.  
   
-  For more information, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Save](https://msdn.microsoft.com/library/office/ff766478.aspx) method, [Microsoft.Office.Interop.Visio.Document.SaveAs](https://msdn.microsoft.com/library/office/ff765824.aspx) method, and [Microsoft.Office.Interop.Visio.Document.SaveAsEx](https://msdn.microsoft.com/library/office/ff768149.aspx) method.  
+  For more information, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Save](/office/vba/api/Visio.Document.Save) method, [Microsoft.Office.Interop.Visio.Document.SaveAs](/office/vba/api/Visio.Document.SaveAs) method, and [Microsoft.Office.Interop.Visio.Document.SaveAsEx](/office/vba/api/Visio.Document.SaveAsEx) method.  
   
 ## Save an existing document  
   
