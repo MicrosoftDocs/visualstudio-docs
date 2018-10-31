@@ -22,6 +22,30 @@ This topic describes how to configure the Windows firewall to enable remote debu
 
 ## Configure ports for remote debugging  
 
+Visual Studio and the remote debugger try to open the correct ports during installation or startup. However, in some scenarios, such as a third-party firewall, you may need to open ports manually. 
+
+**To open a port:**
+  
+1. In Windows **Start** menu, search for and open **Windows Firewall with Advanced Security**. In Windows 10, this is **Windows Defender Firewall with Advanced Security**.
+   
+1. For a new incoming port, select **Inbound Rules** and then select **New Rule**. For an outgoing rule, select **Outbound Rules** instead.
+
+1. In the **New Inbound Rule Wizard**, select **Port**, and then select **Next**. 
+   
+1. Select either **TCP** or **UDP**, depending on the port number from the following tables.
+   
+1. Under **Specific local ports**, enter a port number from the following tables, and select **Next**.
+   
+1. Select **Allow the Connection**, and then select **Next**.
+   
+1. Select one or more network types to enable, including the network type for the remote connection, and then select **Next**.
+   
+1. Add a name for the rule (for example, **msvsmon**, **IIS**, or **Web Deploy**), and then select **Finish**.
+
+   The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
+
+### Ports on the remote computer that enable remote debugging
+
 For remote debugging, the following ports must be open on the remote computer:
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|   
@@ -30,7 +54,7 @@ For remote debugging, the following ports must be open on the remote computer:
 |4023|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).| 
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|    
   
-Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger. If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports: 
+If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports. Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger. 
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|  
 |-|-|-|-|  
@@ -45,30 +69,6 @@ If your domain policy requires network communication to be performed through IPS
 |80|Outgoing|TCP|Required for web server debugging.|
 
 To allow specific apps through the Windows firewall, see [Configure remote debugging through Windows Firewall](#configure-remote-debugging-through-windows-firewall). 
-
-### Open ports in Windows Firewall with Advanced Security  
-
-Visual Studio and the remote debugger try to open the correct ports during installation or startup. However, in some scenarios, such as a third-party firewall, you may need to open ports manually. 
-
-**To open a port:**
-  
-1. In Windows **Start** menu, search for and open **Windows Firewall with Advanced Security**. In Windows 10, this is **Windows Defender Firewall with Advanced Security**.
-   
-1. For a new incoming port, select **Inbound Rules** and then select **New Rule**. For an outgoing rule, select **Outbound Rules** instead.
-
-1. In the **New Inbound Rule Wizard**, select **Port**, and then select **Next**. 
-   
-1. Select either **TCP** or **UDP**, depending on the port number from the preceding tables.
-   
-1. Under **Specific local ports**, enter a port number from the preceding tables, and select **Next**.
-   
-1. Select **Allow the Connection**, and then select **Next**.
-   
-1. Select one or more network types to enable, including the network type for the remote connection, and then select **Next**.
-   
-1. Add a name for the rule (for example, **msvsmon**, **IIS**, or **Web Deploy**), and then select **Finish**.
-
-   The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
 
 ## Configure remote debugging through Windows firewall
 
