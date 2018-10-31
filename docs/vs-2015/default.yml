@@ -2,5 +2,5 @@
 uhfHeaderId: MSDocsHeader-VisualStudio
 searchScope:
   - VS IDE
-breadcrumb_path: ./_breadcrumb/toc.yml
-toc_rel: ./toc.yml
+breadcrumb_path: /visualstudio/_breadcrumb/vs-2015/toc.json
+toc_rel: ./TOC.md
