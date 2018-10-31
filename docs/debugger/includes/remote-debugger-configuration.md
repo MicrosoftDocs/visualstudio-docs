@@ -14,28 +14,30 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-You must have administrative permissions on the remote computer.  
+1. On the remote computer, find and start the **Remote Debugger** from the **Start** menu. 
+   
+   If you don't have administrative permissions on the remote computer, right-click the **Remote Debugger** app and select **Run as administrator**. Otherwise, just start it normally.
+
+   There may be different versions of *msvsmon.exe* in *x64*, *x32*, or other folders. Make sure to start the version you need to debug your app. 
+   
+1. The first time you start the remote debugger (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
   
-1. Locate the Remote Debugger application. (Find msvsmon.exe in the location where it has been installed, or open the Start menu and search for **Remote Debugger**.)
+    ![Remote Debugger configuration](../media/remotedebuggerconfwizardpage.png "Remote Debugger configuration")  
   
-    If you are running the remote debugger on a  remote server, you can right-click the Remote Debugger app and choose **Run as administrator**. If you are not running it on a remote server, just start it normally.
+1. If the Windows Web Services API is not installed, which happens only on Windows Server 2008 R2, select the **Install** button.  
   
-2. When you start the remote tools for the first time (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
+1. Select at least one network type you want to use the remote tools on. If the computers are connected through a domain, you must choose the first item. If the computers are connected through a workgroup or homegroup, choose the second or third item as appropriate.  
   
-    ![RemoteDebuggerConfWizardPage](../media/remotedebuggerconfwizardpage.png "RemoteDebuggerConfWizardPage")  
+1. Select **Configure remote debugging** to configure the firewall and start the remote debugger.  
   
-3. If the Windows Service API is not installed (which happens only on Windows Server 2008 R2), choose the **Install** button.  
+1. When configuration is complete, the **Remote Debugger** window appears.
   
-4. Select the network types you want use the remote tools on. At least one network type must be selected. If the computers are connected through a domain, you must choose the first item. If the computers are connected through a workgroup or homegroup, you need to choose the second or third item as appropriate.  
+    ![Remote Debugger window](../media/remotedebuggerwindow.png "Remote Debugger window")
   
-5. Choose **Configure remote debugging** to configure the firewall and start the tool.  
+    The remote debugger is now waiting for a connection. Use the server name and port number shown to set the remote connection configuration in Visual Studio.  
   
-6. When configuration is complete, the Remote Debugger window appears.
+To stop the remote debugger, select **File** > **Exit**. You can restart it from the **Start** menu, or from the command line:  
   
-    ![RemoteDebuggerWindow](../media/remotedebuggerwindow.png "RemoteDebuggerWindow")
-  
-    The remote debugger is now waiting for a connection. Make a note of the server name and port number that is displayed, because this must match the configuration you later use in Visual Studio.  
-  
-   When you are finished debugging and need to stop the remote debugger, click **File > Exit** on the window. You can restart it from the **Start** menu or from the command line:  
-  
-   **\<Remote debugger installation directory>\\<x86, x64, ARM, ARM64, or Appx>\msvsmon.exe**.  
+```cmd
+<Remote debugger installation directory>\msvsmon.exe
+```
