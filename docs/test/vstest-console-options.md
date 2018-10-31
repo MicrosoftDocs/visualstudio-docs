@@ -1,5 +1,5 @@
 ---
-title: MSTest command-line options
+title: VSTest.Console.exe command-line options
 ms.date: 07/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test

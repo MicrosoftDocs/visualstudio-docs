@@ -788,18 +788,28 @@
           href: ide/reference/options-text-editor-c-cpp-advanced.md
         - name: Text Editor - C/C++, Experimental
           href: ide/reference/options-text-editor-c-cpp-experimental.md
+        - name: Text Editor - C/C++, View
+          href: ide/reference/options-text-editor-c-cpp-view.md
         - name: Text Editor - C#, Code Style, Formatting
           href: ide/reference/options-text-editor-csharp-formatting.md
         - name: Text Editor - C#, Advanced
           href: ide/reference/options-text-editor-csharp-advanced.md
         - name: Text Editor - C#, IntelliSense
           href: ide/reference/options-text-editor-csharp-intellisense.md
+        - name: Text Editor - JavaScript, Code Validation
+          href: ide/reference/options-text-editor-javascript-code-validation.md
         - name: Text Editor - JavaScript, Formatting
           href: ide/reference/options-text-editor-javascript-formatting.md
         - name: Text Editor - JavaScript, IntelliSense
           href: ide/reference/options-text-editor-javascript-intellisense.md
         - name: Text Editor - XAML, Formatting
           href: ide/reference/options-text-editor-xaml-formatting.md
+        - name: Text Editor - XAML, Miscellaneous
+          href: ide/reference/options-text-editor-xaml-miscellaneous.md
+        - name: Text Editor - XML, Formatting
+          href: ide/reference/options-text-editor-xml-formatting.md
+        - name: Text Editor - XML, Miscellaneous
+          href: ide/reference/options-text-editor-xml-miscellaneous.md
       - name: Projects and Solutions Options Dialog Box
         href: ide/reference/projects-and-solutions-options-dialog-box.md
         items:

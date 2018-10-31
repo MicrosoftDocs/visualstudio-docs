@@ -2,7 +2,7 @@
 title: "Get started with C# console apps in Visual Studio"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: 09/28/2018
+ms.date: 10/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -56,11 +56,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 ## Create a "C# Console Calculator" app
 
-1. Open Visual Studio 2017, and then from the top menu bar, choose **File** > **New** > **Project**.
-
-1. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *Calculator*.
-
-1. Enter or paste the following code into the code editor:
+1. After you create the **C# Console Application**, enter or paste the following code into the code editor:
 
     ```csharp
     using System;
