@@ -81,6 +81,8 @@ For Visual Studio to debug apps on a remote computer, the remote computer must b
 - Windows 10 PCs running Creator's Update (version 1703) and later, Windows 10 Xbox, IoT, and HoloLens devices install the remote tools automatically when you deploy the app. 
 - On pre-Creator's Update Windows 10 PCs, you must manually download, install, and be running the remote tools on the remote computer before you start debugging.
 
+**To download and install the remote tools:**
+
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
 ### <a name="BKMK_setup"></a> Configure the remote tools

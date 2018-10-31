@@ -10,8 +10,6 @@
  ms.custom: include file
 ---
 
-**To download and install the remote tools:**
-
 On the remote device or server that you want to debug on, rather than the Visual Studio machine, download and install the correct version of the remote tools from the links in the following table.
 
 - Download the most recent remote tools for your version of Visual Studio. The latest remote tools version is compatible with earlier Visual Studio versions, but earlier remote tools versions aren't compatible with later Visual Studio versions. 

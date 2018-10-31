@@ -14,9 +14,8 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-To configure the remote tools, you must have administrator permissions on the remote computer.  
-  
-1. On the remote computer, right-click the Remote Debugger (*msvsmon.exe*) and select **Run as administrator**. 
+1. On the remote computer, find and start the **Remote Debugger** from the **Start** menu. 
+   
    There may be different versions of *msvsmon.exe* in *x64*, *x32*, or other folders. Make sure to start the version you need to debug your app. 
    
 1. The first time you start the remote debugger (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
