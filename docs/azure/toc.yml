@@ -5,15 +5,15 @@
   expanded: true
   items:
   - name: Publish an ASP.NET Core app to Azure 
-    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json&view=aspnetcore-2.1
+    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1
   - name: Publish a .NET TODO List Web App to Azure
-    href: /dotnet/azure/dotnet-quickstart-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json&view=azure-dotnet
+    href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet
   - name: Publish Azure Functions
     href: /azure/azure-functions/functions-develop-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core 
-    href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json&?view=aspnetcore-2.1
+    href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1
   - name: Continuous deployment to Azure with Azure Pipelines
-    href: /azure/devops/pipelines/get-started-yaml?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json&view=vsts
+    href: /azure/devops/pipelines/get-started-yaml?view=vsts
   - name: Publish an ASP.NET Web App to an Azure VM
     href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
 - name: Connect to Azure Services
