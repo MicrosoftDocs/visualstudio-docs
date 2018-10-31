@@ -134,7 +134,7 @@ Different kinds of diagram are useful for describing the design at different lev
 
 ## See also
 
-- [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Model user requirements](../modeling/model-user-requirements.md)
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)
