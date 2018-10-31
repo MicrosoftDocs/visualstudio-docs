@@ -38,11 +38,9 @@ The **IntelliSense** options page contains the following options:
 
 - Highlight matching portions of completion list items
 
-- Show completion list filters
+- Show completion item filters
 
-- Show name suggestions
-
-### Snippets behavior
+## Snippets behavior
 
 - Never include snippets
 
@@ -56,7 +54,7 @@ The **IntelliSense** options page contains the following options:
 
    When this option is selected, IntelliSense adds aliases for C# code snippets to the completion list when **?**+**Tab** is pressed after an identifier
 
-### Enter key behavior
+## Enter key behavior
 
 - Never add new line on enter
 
@@ -79,6 +77,10 @@ The **IntelliSense** options page contains the following options:
 - Always add new line on enter
 
    Specifies that if you type *any* of the characters for an entry in the completion list and then press **Enter**, a new line is added automatically and the cursor moves to the new line.
+
+## Show name suggestions
+
+   Performs automatic object name completion for the members that you have recently selected. 
 
 ## See also
 

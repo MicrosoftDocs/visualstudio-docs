@@ -54,7 +54,7 @@ ms.workload:
   
 - Display custom UI in the Reading Pane and in Inspectors.  
   
-  For more information, see [Customize form pages and form regions](http://msdn.microsoft.com/library/office/ff869060.aspx).  
+  For more information, see [Customize form pages and form regions](/office/vba/outlook/Concepts/Forms/customizing-form-pages-and-form-regions).  
   
 ##  <a name="Adding"></a> Add an Outlook form region to your project  
  You can use the **New Outlook Form Region** wizard to design a new form region or import a form region that was designed in Outlook. Also, if you have a form region that you used in another Outlook VSTO Add-in project, you can reuse your existing form region.  

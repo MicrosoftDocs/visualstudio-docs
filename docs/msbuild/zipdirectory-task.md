@@ -52,8 +52,7 @@ Creates a *.zip* archive from the contents of a directory.
     <Target Name="ZipOutputPath" AfterTargets="Build">
         <ZipDirectory
             SourceDirectory="$(OutputPath)"
-            DestinationFile="$(MSBuildProjectDirectory)\output.zip">
-        />
+            DestinationFile="$(MSBuildProjectDirectory)\output.zip" />
     </Target>
 
 </Project>

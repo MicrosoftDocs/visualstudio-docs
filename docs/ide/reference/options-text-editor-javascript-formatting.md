@@ -1,6 +1,6 @@
 ---
 title: Options, Text Editor, JavaScript, Formatting
-ms.date: 11/04/2016
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -26,19 +26,20 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 ## Automatic Formatting
  These options determine when formatting occurs in **Source** view.
 
-## UIElement List
+### UIElement List
 
 |Option|Description|
 |------------|-----------------|
 |**Format completed line on Enter**|When this option is selected, the Code Editor automatically formats the line when you choose the Enter key.|
 |**Format completed statement on ;**|When this option is selected, the Code Editor automatically formats the line when you choose the semicolon key.|
+|**Format opened block on {**|When this option is selected, the Code Editor automatically formats the line when you choose the opening brace key.|
 |**Format completed block on }**|When this option is selected, the Code Editor automatically formats the line when you choose the closing brace key.|
 |**Format on paste**|When this option is selected, the Code Editor reformats code when you paste it into the editor. The editor uses the currently defined formatting rules. If this option is not selected, the editor uses the original formatting of the pasted-in code.|
 
 ## New Lines
  These options determine whether the Code Editor puts an open brace for functions and control blocks on a new line.
 
-## UIElement List
+### UIElement List
 
 |Option|Description|
 |------------|-----------------|
@@ -48,15 +49,15 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
 ## Spacing
  These options determine how spaces are inserted in **Source** view.
 
-## UIElement List
+### UIElement List
 
 |Option|Description|
 |------------|-----------------|
 |**Insert space after comma delimiter**|When this option is selected, the Code Editor adds a space after comma delimiters.|
-|**Insert space after semicolon in 'for' statement**|When this option is selected, the Code Editor adds a space after each semicolon in the first line of a `for` loop.|
+|**Insert space after semicolon in 'for' statements**|When this option is selected, the Code Editor adds a space after each semicolon in the first line of a `for` loop.|
 |**Insert space before and after binary operators**|When this option is selected, the Code Editor adds a space before and after binary operators (for example, +, -, &&, &#124;&#124;).|
 |**Insert space after keywords in control flow statements**|When this option is selected, the Code Editor adds a space after JavaScript keywords in control flow statements.|
-|**Insert space after function keyword for anonymous functions.**|When this option is selected, the Code Editor adds a space after the `function` keyword for anonymous functions.|
+|**Insert space after function keyword for anonymous functions**|When this option is selected, the Code Editor adds a space after the `function` keyword for anonymous functions.|
 |**Insert space after opening and before closing non-empty parenthesis**|When this option is selected, the Code Editor adds a space after the opening parenthesis and before the closing parenthesis if non-empty characters are present within the parentheses.|
 
 ## See Also
