@@ -63,7 +63,7 @@ This error generally occurs when users are connected to the internet through a p
 
      OR
 
-- You can also follow the instructions in the [How to connect through an authenticated Web Proxy](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) blog post, which shows you how to add code that will allow you to use the proxy.
+- You can also follow the instructions in the [How to connect through an authenticated Web Proxy](https://blogs.msdn.microsoft.com/rido/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy/) blog post, which shows you how to add code that will allow you to use the proxy.
 
 ## Error: “The underlying connection was closed”
 

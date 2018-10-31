@@ -33,7 +33,7 @@ This topic describes the following aspects of using the Microsoft Office PIAs in
   
 - [Full list of primary interop assemblies for Microsoft Office applications](#pialist)  
   
-For more information about primary interop assemblies, see [Primary interop assemblies](http://msdn.microsoft.com/b977a8be-59a0-40a0-a806-b11ffba5c080).  
+For more information about primary interop assemblies, see [Primary interop assemblies](/previous-versions/dotnet/netframework-4.0/aax7sdch(v=vs.100)).  
 
 <a name="separateassemblies"></a> 
 
