@@ -36,7 +36,7 @@ If you prefer, you can create a .NET Framework or .NET Core console app that con
 To create the app, open Visual Studio and choose **File > New Project**. Under **Visual C#**, choose **Windows Desktop** or **.NET Core**, and then in the middle pane choose a **Console App**. Type a name like **Console_Parse_JSON** and click **OK**. Visual Studio creates the project. Paste the [sample code](#sample-code) into the project's *Program.cs* file.
 
 > [!NOTE]
-> If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the *.NET desktop development** or **.NET Core cross-platform development** workload, then choose **Modify**.
+> If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET desktop development** or **.NET Core cross-platform development** workload, then choose **Modify**.
 
 ## Find the red and green squiggles!
 
@@ -130,7 +130,7 @@ catch (SerializationException)
 
 A `try/catch` block has some performance cost, so you'll only want to use them when you really need them, that is, where (1) they might occur in the release version of the app, and where (2) the documentation for the method indicates that you should check for the exception (assuming the documentation is complete!). In many cases, you can handle an exception appropriately and the user will never need to know about it.
 
-Here is a couple of important tips for exception handling:
+Here are a couple of important tips for exception handling:
 
 * Avoid using an empty catch block, like `catch (Exception) {}`, which does not take appropriate action to expose or handle an error. An empty or ineffective catch block can hide exceptions and can make your code more difficult to debug instead of easier.
 
@@ -147,7 +147,7 @@ Here is a couple of important tips for exception handling:
     }
     ```
 
-* When you encounter an exception, check the documentation to see what method throws the exception and what other exceptions it is likely to throw. This can be critical information for debugging your apps.
+* When you encounter an exception when trying to use a particular method, check the documentation to see what method throws the exception and what other exceptions it is likely to throw. This can be critical information for debugging your apps.
 
 For the sample app, fix the `SerializationException` in the `GetJsonData` method by changing `4o` to `40`.
 
@@ -161,7 +161,7 @@ This time, the app throws another exception, a run-of-the-mill `NullReferenceExc
 
 ![A NullReferenceException occurs](../debugger/media/write-better-code-null-reference-exception.png)
 
-**firstname**, in bold, has the `null` value that caused the exception. The exception occurred because you called a method on a non-object reference (`null`). **firstname** is just a variable referencing a property you defined in your code, not a library method that throws a special exception, so there is no good reason to use a `try/catch` block for this common exception. Let's review other options by asking the same questions as before. (Is this a bug you can easily fix? Might users encounter this exception?)
+**firstname**, in bold, has the `null` value that caused the exception. The exception occurred because you called a method (`Trim()`) on a non-object reference (`null`). **firstname** is just a variable referencing a property you defined in your code, not a library method that throws a special exception, so there is no good reason to use a `try/catch` block for this common exception. Let's review other options by asking the same questions as before. (Is this a bug you can easily fix? Might users encounter this exception?)
 
 If you think it might be a fixable bug, you have several options. You need to make sure the code responds correctly to the `null` value. There are several ways to do this. A useful method, often underutilized, is to use an `assert` statement. By adding the following code, you include a runtime check to make sure that `firstname` is not `null`.
 
@@ -184,7 +184,7 @@ When you add the preceding `assert` statements and rerun the code (click the **R
 
 The `assert` failure tells you that there's a problem that you can then investigate.
 
-While `assert` is great for debugging, at some point you may decide you need to fix the code for the release version. An option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
+While `assert` is great for debugging, at some point you may decide you need to fix the code for the release version. An easy option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
 
 ```c#
 user.firstname = users[i].firstname.Trim();
@@ -220,11 +220,11 @@ You can use `assert` with any kind of expression. So, for example, you could use
 Debug.Assert(users[0].points > 0);
 ```
 
-The preceding code makes sense if it's critical that every user entry update adds new points to the record.
+The preceding code makes sense if it's critical that every user entry update in your app adds new points to the record.
 
 ## Inspect your code in the debugger
 
-OK, now that you've fixed everything that's wrong with the sample app, you can move onto bigger things!
+OK, now that you've fixed everything critical that's wrong with the sample app, you can move onto bigger things!
 
 We showed you the debugger's Exception Helper, but the debugger is a much more powerful tool that also lets you do other things like step through your code and inspect its variables. These more powerful functions are useful in different scenarios, especially the following:
 
