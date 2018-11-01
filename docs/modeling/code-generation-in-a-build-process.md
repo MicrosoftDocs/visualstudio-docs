@@ -230,7 +230,7 @@ In a text template, set `hostspecific` in the template directive. Use the [param
 The project folder is: <#= ProjectFolder #>
 ```
 
-In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.ResolveParameterValue%2A):
+In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](xref:M:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.ResolveParameterValue(System.String,System.String,System.String)):
 
 ```csharp
 string value = Host.ResolveParameterValue("-", "-", "parameterName");
