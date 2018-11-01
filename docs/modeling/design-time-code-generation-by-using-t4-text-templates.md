@@ -266,7 +266,7 @@ Design-time T4 text templates let you generate program code and other files in y
 ### Getting data from Visual Studio
  To use services provided in Visual Studio, set the `hostSpecific` attribute and load the `EnvDTE` assembly. Import `Microsoft.VisualStudio.TextTemplating`, which contains the `GetCOMService()` extension method.  You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
 
-```csharp
+```src
 <#@ template hostspecific="true" language="C#" #>
 <#@ output extension=".txt" #>
 <#@ assembly name="EnvDTE" #>
