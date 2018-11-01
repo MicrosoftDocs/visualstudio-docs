@@ -366,7 +366,7 @@
       - name: Start a debugging session for a UWP app
         href: start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md
         items:
-        - name: Run UWP apps on a remote machine
+        - name: Debug UWP apps on a remote machine
           href: run-windows-store-apps-on-a-remote-machine.md
         - name: Run UWP apps in the simulator
           href: run-windows-store-apps-in-the-simulator.md
