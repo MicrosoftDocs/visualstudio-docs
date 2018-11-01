@@ -110,18 +110,18 @@ The *.natvis* files are evaluated in the following order:
 
 You can modify a *.natvis* file in the IDE while debugging its project. Open the file in the same instance of Visual Studio you are debugging with, modify it, and save it. As soon as the file is saved, the **Watch** and **Locals** windows update to reflect the change. 
 
-You can also add or delete *.natvis* files to a solution that you are debugging, and Visual Studio adds or removes the relevant visualizations.  
+You can also add or delete *.natvis* files in a solution that you are debugging, and Visual Studio adds or removes the relevant visualizations.  
 
 You cannot update *.natvis* files that are embedded in *.pdb* files while you are debugging.  
 
 If you modify the *.natvis* file outside of Visual Studio, the changes do not take effect automatically. To update the debugger windows, you can re-evaluate the **.natvisreload** command in the **Watch** window. This causes the changes to take effect without restarting the debugging session.  
 
-Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version (for example, if it's checked into source control, and you want to pick up recent changes that somebody else made to the file). 
+Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file may be checked into source control, and you want to pick up recent changes that somebody else made. 
 
 ##  <a name="BKMK_Expressions_and_formatting"></a> Expressions and formatting  
 Natvis visualizations use C++ expressions to specify the data items to display. In addition to the enhancements and limitations of C++ expressions in the debugger, which are described in [Context operator (C++)](../debugger/context-operator-cpp.md), be aware of the following:  
 
-- Natvis expressions are evaluated in the context of the object being visualized, not the current stack frame. For example, if you use `x` in a Natvis expression, the identifier refers to the field named `x` in the object being visualized, not to a local variable named `x` in the currently executing function. You cannot access local variables in Natvis expressions, although you can access global variables.  
+- Natvis expressions are evaluated in the context of the object being visualized, not the current stack frame. For example, if you use `x` in a Natvis expression, the identifier refers to the field named `x` in the object being visualized. The identifier does not refer to a local variable named `x` in the currently executing function. You cannot access local variables in Natvis expressions, although you can access global variables.  
 
 - Natvis expressions do not allow function evaluation or side effects. Function calls and assignment operators are ignored. Because [debugger intrinsic functions](../debugger/expressions-in-the-debugger.md#BKMK_Using_debugger_intrinisic_functions_to_maintain_state) are side-effect free, they may be freely called from any Natvis expression, even though other function calls are disallowed.  
 
@@ -145,13 +145,13 @@ Different Natvis views display types in more than one way. For example, here is 
 </Type>  
 ```  
 
-The `DisplayString` and the `ArrayItems` elements are shown in the default view and the `simple` view, while the `[size]` and `[capacity]` items are excluded from the `simple` view. You can use the **,view** format specifier to specify an alternate view. In the **Watch** window, the simple view appears as **vec,view(simple)**:  
+The `DisplayString` and the `ArrayItems` elements show in the default view and the `simple` view, while the `[size]` and `[capacity]` items do not show in the `simple` view. You can use the **,view** format specifier to specify an alternate view. In the **Watch** window, the simple view appears as **vec,view(simple)**:  
 
 ![Watch window with simple view](../debugger/media/watch-simpleview.png "Watch window with simple view")  
 
 ##  <a name="BKMK_Diagnosing_Natvis_errors"></a> Natvis errors  
 
-When the debugger encounters errors in a visualization entry, it ignores the errors, and either displays the type in its raw form, or picks another suitable visualization. You can use Natvis diagnostics to understand why a visualization entry is ignored, and to see the underlying syntax and parse errors. 
+When the debugger encounters errors in a visualization entry, it ignores them. It either displays the type in its raw form, or picks another suitable visualization. You can use Natvis diagnostics to understand why the debugger ignored a visualization entry, and to see underlying syntax and parse errors. 
 
 **To turn on Natvis diagnostics:**
 
@@ -581,7 +581,7 @@ The syntax is similar to the `LinkedListItems` node. `LeftPointer`, `RightPointe
 
  ![auto&#95;ptr&#60;vector&#60;int&#62;&#62; ExpandedItem expansion](../debugger/media/dbg_natvis_expand_expandeditem_visualized.png "ExpandedItem expansion")  
 
-The following example shows how to aggregate properties from the base class in a derived class. Suppose the `CPanel` class derives from `CFrameworkElement`. Instead of repeating the properties that come from the base `CFrameworkElement` class, the `ExpandedItem` node visualization appends those properties to the child list of the `CPanel` class. The `nd` format specifier, which turns off visualization matching for the derived class, is necessary here. Otherwise, the expression `*(CFrameworkElement*)this` would cause the `CPanel` visualization to be applied again, because the default visualization type matching rules consider it the most appropriate one. Using the `nd` format specifier instructs the debugger to use the base class visualization, or the base class default expansion if the base class doesn't have a visualization.  
+The following example shows how to aggregate properties from the base class in a derived class. Suppose the `CPanel` class derives from `CFrameworkElement`. Instead of repeating the properties that come from the base `CFrameworkElement` class, the `ExpandedItem` node visualization appends those properties to the child list of the `CPanel` class. The `nd` format specifier, which turns off visualization matching for the derived class, is necessary here. Otherwise, the expression `*(CFrameworkElement*)this` would cause the `CPanel` visualization to be applied again, because the default visualization type matching rules consider it the most appropriate one. Use the `nd` format specifier to instruct the debugger to use the base class visualization, or the default expansion if the base class has no visualization.  
 
 ```xml
 <Type Name="CPanel">  
@@ -594,7 +594,7 @@ The following example shows how to aggregate properties from the base class in a
 ```  
 
 ####  <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic item expansion  
- Where the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element (that is, a child element that is not a result of an expression), which can have child elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
+ Where the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element that is not a result of an expression. The artificial element can have child elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
 
 ```xml
 <Type Name="Concurrency::array&lt;*,*&gt;">  
@@ -627,7 +627,7 @@ The following example shows how to aggregate properties from the base class in a
 ```  
 
 ###  <a name="BKMK_UIVisualizer"></a> UIVisualizer  
-A `UIVisualizer` element registers a graphical visualizer plug-in with the debugger. A graphical visualizer plug-in creates a dialog box or another interface to display a variable or object in a manner that is appropriate to its data type. The visualizer plug-in must be authored as a [VSPackage](../extensibility/internals/vspackages.md), and must expose a service that the debugger can consume. The *.natvis* file contains registration information for the plug-in, such as its name, the GUID of the service exposed, and the types it can visualize.  
+A `UIVisualizer` element registers a graphical visualizer plug-in with the debugger. A graphical visualizer plug-in creates a dialog box or other interface, to show a variable or object in a way consistent with its data type. The visualizer plug-in must be authored as a [VSPackage](../extensibility/internals/vspackages.md), and must expose a service that the debugger can consume. The *.natvis* file contains registration information for the plug-in, such as its name, the GUID of the exposed service, and the types it can visualize.  
 
  Here's an example of a UIVisualizer element:  
 
@@ -660,8 +660,8 @@ A `UIVisualizer` element registers a graphical visualizer plug-in with the debug
  You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.ImageWatch2017) extension used to view in-memory bitmaps. 
 
 ### CustomVisualizer element  
- `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you can write to control the visualization in Visual Studio code. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md). 
+ `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you write to control visualizations in Visual Studio code. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md). 
 
-Writing a custom visualizer is a lot more work than writing an XML Natvis definition, but you are free from constraints about what Natvis supports or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which you can use to query and modify the debuggee process or communicate with other parts of Visual Studio.  
+It's a lot more work to write a custom visualizer than an XML Natvis definition, but you are free from constraints about what Natvis supports or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can query and modify the debuggee process or communicate with other parts of Visual Studio.  
 
  You can use the `Condition`, `IncludeView`, and `ExcludeView` attributes on `CustomVisualizer` elements.
