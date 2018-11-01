@@ -142,7 +142,9 @@ You can define different Natvis views to display types in different ways. For ex
 </Type>  
 ```  
 
-The `DisplayString` and the `ArrayItems` elements show in the default view and the `simple` view, while the `[size]` and `[capacity]` items don't show in the `simple` view. You can use the **,view** format specifier to specify an alternate view. In the **Watch** window, the simple view appears as **vec,view(simple)**:  
+The `DisplayString` and the `ArrayItems` elements show in the default view and the **simple** view, while the **[size]** and **[capacity]** items don't show in the **simple** view. 
+
+Use the **,view** format specifier to specify an alternate view. In the **Watch** window, the simple view appears as **vec,view(simple)**:  
 
 ![Watch window with simple view](../debugger/media/watch-simpleview.png "Watch window with simple view")  
 
@@ -287,7 +289,7 @@ For example, the following visualization has two `DisplayString` elements for a 
 
 ### IncludeView and ExcludeView attributes  
 
-The `IncludeView` and `ExcludeView` attributes specify elements to display or not display in specific views. For example, given the following Natvis specification of `std::vector`, the simple view doesn't display the [size] and [capacity] items.
+The `IncludeView` and `ExcludeView` attributes specify elements to display or not display in specific views. For example, given the following Natvis specification of `std::vector`, the **simple** view doesn't display the **[size]** and **[capacity]** items.
 
 ```xml
 <Type Name="std::vector&lt;*&gt;">  
@@ -325,7 +327,7 @@ In the `DisplayString` expression, `x` and `y`, which are members of `CPoint`, a
 
 ###  <a name="BKMK_StringView"></a> StringView  
 
-The `StringView` element defines a value that the debugger will send to the built-in text visualizer. For example, given the following visualization for the `ATL::CStringT` type:  
+The `StringView` element defines a value that the debugger can send to the built-in text visualizer. For example, given the following visualization for the `ATL::CStringT` type:  
 
 ```xml
 <Type Name="ATL::CStringT&lt;wchar_t,*&gt;">  
@@ -346,7 +348,7 @@ Adding a `StringView` element tells the debugger it can display the value as a t
 </Type>  
 ```  
 
-Select the magnifying glass icon next to the value to open the text visualizer, which displays the string that `m_pszData` points to.  
+During debugging, when you select the magnifying glass icon next to the variable, the **Text Visualizer** displays the string that `m_pszData` points to.  
 
  ![CStringT data with StringView visualizer](../debugger/media/dbg_natvis_stringview_cstringt.png "CStringT data with StringView visualizer")  
 
@@ -383,7 +385,7 @@ The debugger evaluates the expressions specified in the `Width` and `Height` ele
 The debugger automatically creates the **[Raw View]** node for every custom expansion. The preceding screenshot displays the **[Raw View]** node expanded, to show how the default raw view of the object differs from its visualization. The default expansion creates a subtree for the base class, and lists all the data members of the base class as children.  
 
 > [!NOTE]
-> If the expression of the item element points to a complex type, the `Item` node itself is expandable.  
+> If the expression of the item element points to a complex type, the **Item** node itself is expandable.  
 
 ####  <a name="BKMK_ArrayItems_expansion"></a> ArrayItems expansion  
 Use the `ArrayItems` node to have the Visual Studio debugger interpret the type as an array and display its individual elements. The visualization for `std::vector` is a good example:  
@@ -437,7 +439,7 @@ You can also specify multi-dimensional arrays. In that case, the debugger needs 
 - `Rank` specifies the rank of the array. 
 - The `Size` element accepts the implicit `$i` parameter, which it substitutes with the dimension index to find the length of the array in that dimension. In the previous example, the expression `_M_extent.M_base[0]` should give the length of the 0th dimension, `_M_extent._M_base[1]` the 1st, and so on.  
 
-Here's how a two-dimensional `Concurrency::array` object looks in the debugger:  
+Here's how a two-dimensional `Concurrency::array` object looks in the debugger window:  
 
 ![Two-dimensional array with ArrayItems expansion](../debugger/media/dbg_natvis_expand_arrayitems_2d.png "Two-dimensional array with ArrayItems expansion")  
 
@@ -489,7 +491,7 @@ The debugger evaluates the `NextPointer` and `ValueNode` expressions in the cont
 `ValueNode` can be left empty, or use `this` to refer to the `LinkedListItems` node itself.  
 
 #### CustomListItems expansion  
-The `CustomListItems` expansion allows you to write custom logic for traversing a data structure such as a hashtable. Use `CustomListItems` to visualize data structures that can use C++ expressions for everything you need to evaluate, but that don't quite fit the mold for `ArrayItems`, `IndexListItems`, or `LinkedListItems`.  
+The `CustomListItems` expansion allows you to write custom logic for traversing a data structure such as a hashtable. Use `CustomListItems` to visualize data structures that can use C++ expressions for everything you need to evaluate, but don't quite fit the mold for `ArrayItems`, `IndexListItems`, or `LinkedListItems`.  
 
 The following visualizer for `CAtlMap` is an excellent example where `CustomListItems` is appropriate.  
 
@@ -595,7 +597,7 @@ The following example shows how to aggregate properties from the base class in a
 The **nd** format specifier, which turns off visualization matching for the derived class, is necessary here. Otherwise, the expression `*(CFrameworkElement*)this` would cause the `CPanel` visualization to be applied again, because the default visualization type matching rules consider it the most appropriate one. Use the **nd** format specifier to instruct the debugger to use the base class visualization, or the default expansion if the base class has no visualization.  
 
 ####  <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic item expansion  
- Where the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element that isn't a result of an expression. The artificial element can have child elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
+ While the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element that isn't a result of an expression. The artificial element can have child elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
 
 ```xml
 <Type Name="Concurrency::array&lt;*,*&gt;">  
@@ -646,7 +648,7 @@ Here's an example of a UIVisualizer element:
 
 - A `ServiceId` - `Id` attribute pair identifies a `UIVisualizer`. The `ServiceId` is the GUID of the service the visualizer package exposes. `Id` is a unique identifier that differentiates visualizers, if a service provides more than one. In the preceding example, the same visualizer service provides two visualizers.  
   
-- The `MenuName` attribute defines the visualizer name in the drop-down next to the magnifying glass icon in debugger variable windows. For example:  
+- The `MenuName` attribute defines a visualizer name to display in the drop-down next to the magnifying glass icon in the debugger. For example:  
 
   ![UIVisualizer menu shortcut menu](../debugger/media/dbg_natvis_vectorvisualizer.png "UIVisualizer menu shortcut menu")  
 
