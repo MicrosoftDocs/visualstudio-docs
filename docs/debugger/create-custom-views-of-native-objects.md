@@ -75,7 +75,7 @@ You can add a *.natvis* file to any C++ project.
    
    The new file is added to **Solution Explorer**, and opens in the Visual Studio document pane. 
 
-The Visual Studio debugger loads *.natvis* files in C++ projects automatically, and by default, also includes them in the *.pdb* file when the project builds. This means that if you debug the built app, the debugger loads the *.natvis* file from the *.pdb* file, even if you don't have the project open. If you don't want the *.natvis* file included in the *.pdb*, you can exclude it from the built *.pdb* file.
+The Visual Studio debugger loads *.natvis* files in C++ projects automatically, and by default, also includes them in the *.pdb* file when the project builds. If you debug the built app, the debugger loads the *.natvis* file from the *.pdb* file, even if you don't have the project open. If you don't want the *.natvis* file included in the *.pdb*, you can exclude it from the built *.pdb* file.
 
 **To exclude a *.natvis* file from a *.pdb*:**
 
@@ -111,7 +111,7 @@ You can also add or delete *.natvis* files in a solution that you're debugging, 
 
 You can't update *.natvis* files that are embedded in *.pdb* files while you're debugging.  
 
-If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can re-evaluate the **.natvisreload** command in the **Watch** window. This causes the changes to take effect without restarting the debugging session.  
+If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Watch** window. Then the changes take effect without restarting the debugging session.  
 
 Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file may be checked into source control, and you want to pick up recent changes that somebody else made. 
 
@@ -122,7 +122,7 @@ Natvis visualizations use C++ expressions to specify the data items to display. 
 
 - Natvis expressions don't allow function evaluation or side effects. Function calls and assignment operators are ignored. Because [debugger intrinsic functions](../debugger/expressions-in-the-debugger.md#BKMK_Using_debugger_intrinisic_functions_to_maintain_state) are side-effect free, they may be freely called from any Natvis expression, even though other function calls are disallowed.  
 
-To control how an expression displays, you can use any of the format specifiers described in [Format specifiers in C++](format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers). Note that format specifiers are ignored when the entry is used internally by Natvis, such as the `Size` expression in a [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).  
+To control how an expression displays, you can use any of the format specifiers described in [Format specifiers in C++](format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers). Format specifiers are ignored when the entry is used internally by Natvis, such as the `Size` expression in a [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).  
 
 ## Natvis views  
 
@@ -172,7 +172,7 @@ The errors appear in the **Output** window.
 ```  
 
 ###  <a name="BKMK_Type"></a> Type element  
- A basic `Type` looks like this:  
+ A basic `Type` looks like this example:  
 
 ```xml
 <Type Name="[fully qualified type name]">  
@@ -335,7 +335,7 @@ The `StringView` element defines a value that the debugger can send to the built
 </Type>
 ```  
 
-The `CStringT` object displays in a variable window like this:   
+The `CStringT` object displays in a variable window like this example:   
 
 ![CStringT DisplayString element](../debugger/media/dbg_natvis_displaystring_cstringt.png "CStringT DisplayString element")  
 
@@ -376,7 +376,7 @@ The optional `Expand` node customizes the children of a visualized type when the
 </Type>  
 ```  
 
-The `CRect` type will look like this:  
+In the debugger window, the `CRect` type looks like this example:  
 
 ![CRect with Item element expansion](../debugger/media/dbg_natvis_expand_item_crect1.png "CRect with Item element expansion")  
 
