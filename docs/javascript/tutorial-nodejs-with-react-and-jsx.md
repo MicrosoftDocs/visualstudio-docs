@@ -119,14 +119,14 @@ This app requires a number of npm modules to run correctly.
 
     ```json
     "dependencies": {
-      "express": "^4.16.4",
-      "path": "^0.12.7",
-      "react": "^16.6.0",
-      "react-dom": "^16.6.0",
-      "ts-loader": "^5.3.0",
-      "typescript": "^3.1.5",
-      "webpack": "^4.23.1",
-      "webpack-cli": "^3.1.2"
+      "express": "~4.16.4",
+      "path": "~0.12.7",
+      "react": "~16.6.0",
+      "react-dom": "~16.6.0",
+      "ts-loader": "~5.3.0",
+      "typescript": "~3.1.5",
+      "webpack": "~4.23.1",
+      "webpack-cli": "~3.1.2"
     }
     ```
 
