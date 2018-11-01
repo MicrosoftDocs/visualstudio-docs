@@ -1,21 +1,19 @@
 ---
-title: "Color Value Reference for Visual Studio | Microsoft Docs"
+title: Color Value Reference
 description: "Reference: Hex codes for creating new Visual Studio color tokens"
 keywords: "color, hex code, hue, themed UI, theming"
 author: "brickgeorge"
-ms.author: "v-brickg"
+ms.author: gregvanl
 ms.date: 08/04/2017
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
-ms.custom: ""
 ms.reviewer: "Jamie.Young"
 ms.technology: 
   - "vs-ide-sdk"
 manager: douge
-ms.workload: 
-  - "v-brickg"
 ---
 # Color value reference for Visual Studio
+
 This topic is a reference for creating new color tokens. When you're creating new UI, you can use similar colors from existing UI to choose the colors for each main theme and the system color name for that element for High Contrast themes. 
 
 For implementation information about creating new color tokens, see [Color theming tools](../../extensibility/internals/color-theming-tools.md).
