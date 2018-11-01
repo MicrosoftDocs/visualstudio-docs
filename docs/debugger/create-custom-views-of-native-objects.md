@@ -22,7 +22,7 @@ The Visual Studio *Natvis* framework customizes the way native types appear in d
 
 Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with XML syntax, better diagnostics, versioning, and multiple file support.  
 
-Natvis is only available for native (C/C++) code projects, and doesn't work for for [mixed-mode debugging](how-to-debug-in-mixed-mode.md).  
+Natvis is only available for native (C/C++) code projects, and doesn't work for [mixed-mode debugging](how-to-debug-in-mixed-mode.md).  
 
 ## <a name="BKMK_Why_create_visualizations_"></a>Natvis visualizations
 
