@@ -147,7 +147,7 @@ Design-time T4 text templates let you generate program code and other files in y
 
     ```csharp
 
-              <#@ template debug="false" hostspecific="false" language="C#" #>
+    <#@ template debug="false" hostspecific="false" language="C#" #>
     <#@ output extension=".cs" #>
     <# var properties = new string [] {"P1", "P2", "P3"}; #>
     // This is generated code:
@@ -219,7 +219,7 @@ Design-time T4 text templates let you generate program code and other files in y
 
 ```csharp
 
-      <# var properties = File.ReadLines("C:\\propertyList.txt");#>
+<# var properties = File.ReadLines("C:\\propertyList.txt");#>
 ...
 <# foreach (string propertyName in properties) { #>
 ...
@@ -264,12 +264,13 @@ Design-time T4 text templates let you generate program code and other files in y
  The type of `this.Host` (in VB, `Me.Host`) is `Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost`.
 
 ### Getting data from Visual Studio
- To use services provided in Visual Studio, set the `hostSpecific` attribute and load the `EnvDTE` assembly. You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
+ To use services provided in Visual Studio, set the `hostSpecific` attribute and load the `EnvDTE` assembly. Import `Microsoft.VisualStudio.TextTemplating`, which contains the `GetCOMService()` extension method.  You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
 
-```scr
+```src
 <#@ template hostspecific="true" language="C#" #>
 <#@ output extension=".txt" #>
 <#@ assembly name="EnvDTE" #>
+<#@ import namespace="Microsoft.VisualStudio.TextTemplating" #>
 <#
   IServiceProvider serviceProvider = (IServiceProvider)this.Host;
   EnvDTE.DTE dte = (EnvDTE.DTE) serviceProvider.GetCOMService(typeof(EnvDTE.DTE));
