@@ -22,7 +22,7 @@ The Visual Studio *Natvis* framework customizes the way native types appear in d
 
 Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with XML syntax, better diagnostics, versioning, and multiple file support.  
 
-Natvis is not available for:  
+Natvis isn't available for:  
 > 
 > - C++ Windows desktop projects with **Debugger Type** set to **mixed**.  (Managed and Native?) in **Properties** > **Debugging**. 
 > - Mixed-mode debugging in a C++ Windows desktop app in Managed Compatibility Mode (**Tools** > **Options** > **Debugging** > **General** > **Use Managed Compatibility Mode**).  
@@ -62,7 +62,7 @@ The basic structure of a *.natvis* file is one or more `Type` elements represent
 </AutoVisualizer>  
 ```  
 
-Visual Studio provides some *.natvis* files in the *%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers* folder. These files contain visualization rules for many common types, and can serve as examples for writing visualizations for new types.  
+Visual Studio provides some *.natvis* files in the *%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers* folder. These files have visualization rules for many common types, and can serve as examples for writing visualizations for new types.  
 
 ### Add a .natvis file to a C++ project  
 
@@ -78,7 +78,7 @@ You can add a *.natvis* file to any C++ project.
    
    The new file is added to **Solution Explorer**, and opens in the Visual Studio document pane. 
 
-The Visual Studio debugger loads *.natvis* files in C++ projects automatically, and by default, also includes them in the *.pdb* file when the project builds. This means that if you debug the built app, the debugger loads the *.natvis* file from the *.pdb* file, even if you do not have the project open. If you do not want the *.natvis* file included in the *.pdb*, you can exclude it from the built *.pdb* file.
+The Visual Studio debugger loads *.natvis* files in C++ projects automatically, and by default, also includes them in the *.pdb* file when the project builds. This means that if you debug the built app, the debugger loads the *.natvis* file from the *.pdb* file, even if you don't have the project open. If you don't want the *.natvis* file included in the *.pdb*, you can exclude it from the built *.pdb* file.
 
 **To exclude a *.natvis* file from a *.pdb*:**
 
@@ -98,7 +98,7 @@ You can add *.natvis* files to your user directory or to a system directory, if 
 
 The *.natvis* files are evaluated in the following order:  
 
-1. Any *.natvis* files that are embedded in a *.pdb* you are debugging, unless a file of the same name exists in the loaded project.  
+1. Any *.natvis* files that are embedded in a *.pdb* you're debugging, unless a file of the same name exists in the loaded project.  
 
 1. Any *.natvis* files that are in a loaded C++ project or top-level solution. This group includes all loaded C++ projects, including class libraries, but not projects in other languages. 
 
@@ -108,22 +108,22 @@ The *.natvis* files are evaluated in the following order:
 
 ## Modifying .natvis files while debugging  
 
-You can modify a *.natvis* file in the IDE while debugging its project. Open the file in the same instance of Visual Studio you are debugging with, modify it, and save it. As soon as the file is saved, the **Watch** and **Locals** windows update to reflect the change. 
+You can modify a *.natvis* file in the IDE while debugging its project. Open the file in the same instance of Visual Studio you're debugging with, modify it, and save it. As soon as the file is saved, the **Watch** and **Locals** windows update to reflect the change. 
 
-You can also add or delete *.natvis* files in a solution that you are debugging, and Visual Studio adds or removes the relevant visualizations.  
+You can also add or delete *.natvis* files in a solution that you're debugging, and Visual Studio adds or removes the relevant visualizations.  
 
-You cannot update *.natvis* files that are embedded in *.pdb* files while you are debugging.  
+You can't update *.natvis* files that are embedded in *.pdb* files while you're debugging.  
 
-If you modify the *.natvis* file outside of Visual Studio, the changes do not take effect automatically. To update the debugger windows, you can re-evaluate the **.natvisreload** command in the **Watch** window. This causes the changes to take effect without restarting the debugging session.  
+If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can re-evaluate the **.natvisreload** command in the **Watch** window. This causes the changes to take effect without restarting the debugging session.  
 
 Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file may be checked into source control, and you want to pick up recent changes that somebody else made. 
 
 ##  <a name="BKMK_Expressions_and_formatting"></a> Expressions and formatting  
 Natvis visualizations use C++ expressions to specify the data items to display. In addition to the enhancements and limitations of C++ expressions in the debugger, which are described in [Context operator (C++)](../debugger/context-operator-cpp.md), be aware of the following:  
 
-- Natvis expressions are evaluated in the context of the object being visualized, not the current stack frame. For example, if you use `x` in a Natvis expression, the identifier refers to the field named `x` in the object being visualized. The identifier does not refer to a local variable named `x` in the currently executing function. You cannot access local variables in Natvis expressions, although you can access global variables.  
+- Natvis expressions are evaluated in the context of the object being visualized, not the current stack frame. For example, if you use `x` in a Natvis expression, the identifier refers to the field named `x` in the object being visualized. The identifier doesn't refer to a local variable named `x` in the currently executing function. You can't access local variables in Natvis expressions, although you can access global variables.  
 
-- Natvis expressions do not allow function evaluation or side effects. Function calls and assignment operators are ignored. Because [debugger intrinsic functions](../debugger/expressions-in-the-debugger.md#BKMK_Using_debugger_intrinisic_functions_to_maintain_state) are side-effect free, they may be freely called from any Natvis expression, even though other function calls are disallowed.  
+- Natvis expressions don't allow function evaluation or side effects. Function calls and assignment operators are ignored. Because [debugger intrinsic functions](../debugger/expressions-in-the-debugger.md#BKMK_Using_debugger_intrinisic_functions_to_maintain_state) are side-effect free, they may be freely called from any Natvis expression, even though other function calls are disallowed.  
 
 To control how an expression displays, you can use any of the format specifiers described in the [Format specifiers](../debugger/format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers) section of [Format specifiers in C++](../debugger/format-specifiers-in-cpp.md). Note that format specifiers are ignored when the entry is used internally by Natvis, such as the `Size` expression in a [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).  
 
@@ -145,7 +145,7 @@ Different Natvis views display types in more than one way. For example, here is 
 </Type>  
 ```  
 
-The `DisplayString` and the `ArrayItems` elements show in the default view and the `simple` view, while the `[size]` and `[capacity]` items do not show in the `simple` view. You can use the **,view** format specifier to specify an alternate view. In the **Watch** window, the simple view appears as **vec,view(simple)**:  
+The `DisplayString` and the `ArrayItems` elements show in the default view and the `simple` view, while the `[size]` and `[capacity]` items don't show in the `simple` view. You can use the **,view** format specifier to specify an alternate view. In the **Watch** window, the simple view appears as **vec,view(simple)**:  
 
 ![Watch window with simple view](../debugger/media/watch-simpleview.png "Watch window with simple view")  
 
@@ -195,7 +195,7 @@ The errors appear in the **Output** window.
 #### Templated classes
 The `Name` attribute of the `Type` element accepts an asterisk `*` as a wildcard character that can be used for templated class names.  
 
-In the following example, the same visualization is used whether the object is a `CAtlArray<int>` or a `CAtlArray<float>`. If there is a specific visualization entry for a `CAtlArray<float>`, then it takes precedence over the generic one.  
+In the following example, the same visualization is used whether the object is a `CAtlArray<int>` or a `CAtlArray<float>`. If there's a specific visualization entry for a `CAtlArray<float>`, then it takes precedence over the generic one.  
 
 ```xml
 <Type Name="ATL::CAtlArray&lt;*&gt;">  
@@ -261,7 +261,7 @@ In the following example, the visualization is applicable only for the `DirectUI
 ```  
 
 ### Optional attribute  
-The `Optional` attribute can be on any node. If any subexpression inside an optional node fails to parse, the debugger ignores that node, but applies the rest of the `Type` rules. In the following type, `[State]` is non-optional, but `[Exception]` is optional.  If `MyNamespace::MyClass` has a field named _`M_exceptionHolder`, you see both the `[State]` node and the `[Exception]` node, but if there is no `_M_exceptionHolder` field, you see only the `[State]` node.
+The `Optional` attribute can be on any node. If any subexpression inside an optional node fails to parse, the debugger ignores that node, but applies the rest of the `Type` rules. In the following type, `[State]` is non-optional, but `[Exception]` is optional.  If `MyNamespace::MyClass` has a field named _`M_exceptionHolder`, you see both the `[State]` node and the `[Exception]` node, but if there's no `_M_exceptionHolder` field, you see only the `[State]` node.
 
 ```xml
 <Type Name="MyNamespace::MyClass">  
@@ -274,9 +274,9 @@ The `Optional` attribute can be on any node. If any subexpression inside an opti
 
 ###  <a name="BKMK_Condition_attribute"></a> Condition attribute  
 
-The optional `Condition` attribute is available for many visualization elements, and specifies when to use a visualization rule. If the expression inside the condition attribute resolves to `false`, the visualization rule does not apply. If it evaluates to `true`, or there is no `Condition` attribute, the visualization applies. You can use this attribute for if-else logic in the visualization entries. 
+The optional `Condition` attribute is available for many visualization elements, and specifies when to use a visualization rule. If the expression inside the condition attribute resolves to `false`, the visualization rule doesn't apply. If it evaluates to `true`, or there is no `Condition` attribute, the visualization applies. You can use this attribute for if-else logic in the visualization entries. 
 
-For example, the following visualization has two `DisplayString` elements for a smart pointer type. When the `_Myptr` member is `null`, the condition of the first `DisplayString` element resolves to `true`, so form displays. When the `_Myptr` member is not `null`, the condition evaluates to `false`, and the second `DisplayString` element displays.  
+For example, the following visualization has two `DisplayString` elements for a smart pointer type. When the `_Myptr` member is `null`, the condition of the first `DisplayString` element resolves to `true`, so that form displays. When the `_Myptr` member is not `null`, the condition evaluates to `false`, and the second `DisplayString` element displays.  
 
 ```xml
 <Type Name="std::auto_ptr&lt;*&gt;">  
@@ -290,7 +290,7 @@ For example, the following visualization has two `DisplayString` elements for a 
 
 ### IncludeView and ExcludeView attributes  
 
-The `IncludeView` and `ExcludeView` attributes specify elements to display or not display in specific views. For example, given the following Natvis specification of `std::vector`, the simple view does not display the [size] and [capacity] items.
+The `IncludeView` and `ExcludeView` attributes specify elements to display or not display in specific views. For example, given the following Natvis specification of `std::vector`, the simple view doesn't display the [size] and [capacity] items.
 
 ```xml
 <Type Name="std::vector&lt;*&gt;">  
@@ -359,7 +359,7 @@ The expression `{m_pszData,su}` includes a C++ format specifier `su`, to display
 
 The optional `Expand` node customizes the children of a visualized type when the user expands the type in a variable window. It accepts a list of child nodes that define the child elements.  
 
-- If an `Expand` node is not specified in a visualization entry, the children use the default expansion rules.  
+- If an `Expand` node isn't specified in a visualization entry, the children use the default expansion rules.  
   
 - If an `Expand` node is specified with no child nodes under it, the type won't be expandable in the debugger windows.  
 
@@ -523,7 +523,7 @@ The following visualizer for `CAtlMap` is an excellent example of where `CustomL
 </Type>  
 ```  
 
-You can use `Exec` to execute code inside of a `CustomListItems` expansion, using the variables and objects defined in the expansion. You can use logical operators, arithmetic operators, and assignment operators with `Exec`. You cannot use `Exec` to evaluate functions.
+You can use `Exec` to execute code inside of a `CustomListItems` expansion, using the variables and objects defined in the expansion. You can use logical operators, arithmetic operators, and assignment operators with `Exec`. You can't use `Exec` to evaluate functions.
 
 `CustomListItems` supports the following intrinsic functions:
 
@@ -594,7 +594,7 @@ The following example shows how to aggregate properties from the base class in a
 ```  
 
 ####  <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic item expansion  
- Where the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element that is not a result of an expression. The artificial element can have child elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
+ Where the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element that isn't a result of an expression. The artificial element can have child elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:  
 
 ```xml
 <Type Name="Concurrency::array&lt;*,*&gt;">  
@@ -662,6 +662,6 @@ A `UIVisualizer` element registers a graphical visualizer plug-in with the debug
 ### CustomVisualizer element  
  `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you write to control visualizations in Visual Studio code. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md). 
 
-It's a lot more work to write a custom visualizer than an XML Natvis definition, but you are free from constraints about what Natvis supports or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can query and modify the debuggee process or communicate with other parts of Visual Studio.  
+It's a lot more work to write a custom visualizer than an XML Natvis definition, but you're free from constraints about what Natvis supports or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can query and modify the debuggee process or communicate with other parts of Visual Studio.  
 
  You can use the `Condition`, `IncludeView`, and `ExcludeView` attributes on `CustomVisualizer` elements.
