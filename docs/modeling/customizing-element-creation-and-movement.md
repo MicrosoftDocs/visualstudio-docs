@@ -316,4 +316,4 @@ You can create a forward merge directive in the Component Model solution. If you
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md)
-- [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [Circuit Diagrams sample DSL](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
