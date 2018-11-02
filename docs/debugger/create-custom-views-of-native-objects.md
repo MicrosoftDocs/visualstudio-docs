@@ -22,7 +22,10 @@ The Visual Studio *Natvis* framework customizes the way native types appear in d
 
 Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with XML syntax, better diagnostics, versioning, and multiple file support.  
 
-Natvis is only available for native (C/C++) code projects, and doesn't work for [mixed-mode debugging](how-to-debug-in-mixed-mode.md).  
+Natvis does not work for:
+
+- C++ Windows desktop projects with **Debugger Type** set to **Mixed** under **Configuration Properties** > **Debugging**. 
+- [Mixed-mode debugging](how-to-debug-in-mixed-mode.md) for Windows desktop apps in managed compatibility mode (**Tools** > **Options** > **Debugging** > **General** > **Use Managed Compatibility Mode**).
 
 ## <a name="BKMK_Why_create_visualizations_"></a>Natvis visualizations
 
@@ -532,17 +535,17 @@ You can use `Exec` to execute code inside of a `CustomListItems` expansion, usin
 
 - `strlen`, `wcslen`, `strnlen`, `wcsnlen`, `strcmp`, `wcscmp`, `_stricmp`, `_strcmpi`, `_wcsicmp`, `strncmp`, `wcsncmp`, `_strnicmp`, `_wcsnicmp`, `memcmp`, `memicmp`, `wmemcmp`, `strchr`, `wcschr`, `memchr`, `wmemchr`, `strstr`, `wcsstr`, `__log2`, `__findNonNull`
 - `GetLastError`, `TlsGetValue`, `DecodeHString`, `WindowsGetStringLen`, `WindowsGetStringRawBuffer`, `WindowsCompareStringOrdinal`, `RoInspectCapturedStackBackTrace`, `CoDecodeProxy`, `GetEnvBlockLength`, `DecodeWinRTRestrictedException`, `DynamicMemberLookup`, `DecodePointer`, `DynamicCast`
-- `ConcurrencyArray_OperatorBracket_idx` - `Concurrency::array<>::operator[index<>]` and `operator(index<>)`
-- `ConcurrencyArray_OperatorBracket_int` - `Concurrency::array<>::operator(int, int, ...)`
-- `ConcurrencyArray_OperatorBracket_tidx`- `Concurrency::array<>::operator[tiled_index<>]` and `operator(tiled_index<>)`
-- `ConcurrencyArrayView_OperatorBracket_idx` - `Concurrency::array_view<>::operator[index<>]` and `operator(index<>)`
-- `ConcurrencyArrayView_OperatorBracket_int` - `Concurrency::array_view<>::operator(int, int, ...)`
-- `ConcurrencyArrayView_OperatorBracket_tidx` - `Concurrency::array_view<>::operator[tiled_index<>]` and `operator(tiled_index<>)`
+- `ConcurrencyArray_OperatorBracket_idx // Concurrency::array<>::operator[index<>] and operator(index<>)`
+- `ConcurrencyArray_OperatorBracket_int // Concurrency::array<>::operator(int, int, ...)`
+- `ConcurrencyArray_OperatorBracket_tidx // Concurrency::array<>::operator[tiled_index<>] and operator(tiled_index<>)`
+- `ConcurrencyArrayView_OperatorBracket_idx // Concurrency::array_view<>::operator[index<>] and operator(index<>)`
+- `ConcurrencyArrayView_OperatorBracket_int // Concurrency::array_view<>::operator(int, int, ...)`
+- `ConcurrencyArrayView_OperatorBracket_tidx // Concurrency::array_view<>::operator[tiled_index<>] and operator(tiled_index<>)`
 - `Stdext_HashMap_Int_OperatorBracket_idx`
 - `Std_UnorderedMap_Int_OperatorBracket_idx`
-- `TreeTraverse_Init` - Initializes a new tree traversal
-- `TreeTraverse_Next` - Returns nodes in a tree
-- `TreeTraverse_Skip` - Skips nodes in a pending tree traversal
+- `TreeTraverse_Init // Initializes a new tree traversal`
+- `TreeTraverse_Next // Returns nodes in a tree`
+- `TreeTraverse_Skip // Skips nodes in a pending tree traversal`
 
 ####  <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion  
  If the visualized type represents a tree, the debugger can walk the tree and display its children by using a `TreeItems` node. Here's the visualization for the `std::map` type using a `TreeItems` node:  
