@@ -36,13 +36,13 @@ The results are generated and the **Code Metrics Results** window is displayed.
 
 1. In **Solution Explorer**, select one or more projects.
 
-1. From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For <project\>**.
+1. From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For \[project]**.
 
    The results are generated and the **Code Metrics Results** window is displayed.
 
-## To view the results details
+## View the results
 
-In the **Code Metrics Results** window, expand the tree in the **Hierarchy** column.
+To view the results details, expand the tree in the **Hierarchy** column in the **Code Metrics Results** window.
 
 ## See also
 
