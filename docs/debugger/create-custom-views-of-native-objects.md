@@ -210,19 +210,19 @@ You can reference template parameters in the visualization entry by using macros
 If a visualization entry fails to validate, the next available visualization is used.  
 
 #### Inheritable attribute  
-The optional `Inheritable` attribute specifies whether a visualization applies only to a base type, or to a base type and all derived types. In the following example, the visualization applies only to the `BaseClass` type:  
+The optional `Inheritable` attribute specifies whether a visualization applies only to a base type, or to a base type and all derived types. The default value of `Inheritable` is `true`.  
+
+In the following example, the visualization applies only to the `BaseClass` type:  
 
 ```xml
-<Type Name="Namespace::BaseClass" Inheritable="true">  
+<Type Name="Namespace::BaseClass" Inheritable="false">  
     <DisplayString>{{Count = {m_nSize}}}</DisplayString>  
 </Type>  
 ```  
 
-The default value of `Inheritable` is `true`.  
-
 #### Priority attribute  
 
-The `Priority` attribute specifies the order in which to use alternate definitions if a definition fails to parse. The possible values of `Priority` are: `Low`, `MediumLow`,`Medium`, `MediumHigh`, and `High`. The default value is `Medium`. The `Priority` attribute only distinguishes between priorities within the same *.natvis* file.  
+The optional `Priority` attribute specifies the order in which to use alternate definitions, if a definition fails to parse. The possible values of `Priority` are: `Low`, `MediumLow`,`Medium`, `MediumHigh`, and `High`. The default value is `Medium`. The `Priority` attribute distinguishes only among priorities within the same *.natvis* file.  
 
 The following example first parses the entry that matches the 2015 STL. If that fails to parse, it uses the alternate entry for the 2013 version of the STL:  
 
@@ -245,7 +245,7 @@ The following example first parses the entry that matches the 2015 STL. If that 
 ```  
 
 ### Optional attribute  
-You can put an `Optional` attribute on any node. If any subexpression inside an optional node fails to parse, the debugger ignores that node, but applies the rest of the `Type` rules. In the following type, `[State]` is non-optional, but `[Exception]` is optional.  If `MyNamespace::MyClass` has a field named _`M_exceptionHolder`, you see both the `[State]` node and the `[Exception]` node, but if there's no `_M_exceptionHolder` field, you see only the `[State]` node.
+You can put an `Optional` attribute on any node. If a subexpression inside an optional node fails to parse, the debugger ignores that node, but applies the rest of the `Type` rules. In the following type, `[State]` is non-optional, but `[Exception]` is optional.  If `MyNamespace::MyClass` has a field named _`M_exceptionHolder`, both the `[State]` node and the `[Exception]` node appear, but if there's no `_M_exceptionHolder` field, only the `[State]` node appears.
 
 ```xml
 <Type Name="MyNamespace::MyClass">  
@@ -260,7 +260,7 @@ You can put an `Optional` attribute on any node. If any subexpression inside an 
 
 The optional `Condition` attribute is available for many visualization elements, and specifies when to use a visualization rule. If the expression inside the condition attribute resolves to `false`, the visualization rule doesn't apply. If it evaluates to `true`, or there is no `Condition` attribute, the visualization applies. You can use this attribute for if-else logic in the visualization entries. 
 
-For example, the following visualization has two `DisplayString` elements for a smart pointer type. When the `_Myptr` member is `null`, the condition of the first `DisplayString` element resolves to `true`, so that form displays. When the `_Myptr` member is not `null`, the condition evaluates to `false`, and the second `DisplayString` element displays.  
+For example, the following visualization has two `DisplayString` elements for a smart pointer type. When the `_Myptr` member is empty, the condition of the first `DisplayString` element resolves to `true`, so that form displays. When the `_Myptr` member is not empty, the condition evaluates to `false`, and the second `DisplayString` element displays.  
 
 ```xml
 <Type Name="std::auto_ptr&lt;*&gt;">  
@@ -341,7 +341,7 @@ The `CStringT` object displays in a variable window like this example:
 
 ![CStringT DisplayString element](../debugger/media/dbg_natvis_displaystring_cstringt.png "CStringT DisplayString element")  
 
-Adding a `StringView` element tells the debugger it can display the value as a text visualization:  
+Adding a `StringView` element tells the debugger it can display the value as a text visualization.  
 
 ```xml
 <Type Name="ATL::CStringT&lt;wchar_t,*&gt;">
@@ -358,7 +358,7 @@ The expression `{m_pszData,su}` includes a C++ format specifier **su**, to displ
 
 ###  <a name="BKMK_Expand"></a> Expand element 
 
-The optional `Expand` node customizes the children of a visualized type when the user expands the type in a variable window. The `Expand` node accepts a list of child nodes that define the child elements.  
+The optional `Expand` node customizes the children of a visualized type when you expand the type in a variable window. The `Expand` node accepts a list of child nodes that define the child elements.  
 
 - If an `Expand` node isn't specified in a visualization entry, the children use the default expansion rules.  
   
@@ -366,7 +366,7 @@ The optional `Expand` node customizes the children of a visualized type when the
 
 ####  <a name="BKMK_Item_expansion"></a> Item expansion  
 
- The `Item` element is the most basic and common element in an `Expand` node. `Item` defines a single child element. For example, if a `CRect` class with fields `top`, `left`, `right`, and `bottom` has the following visualization entry:  
+ The `Item` element is the most basic and common element in an `Expand` node. `Item` defines a single child element. For example, a `CRect` class with fields `top`, `left`, `right`, and `bottom` has the following visualization entry:  
 
 ```xml
 <Type Name="CRect">  
@@ -384,7 +384,7 @@ In the debugger window, the `CRect` type looks like this example:
 
 The debugger evaluates the expressions specified in the `Width` and `Height` elements, and shows the values in the **Value** column of the variable window. 
 
-The debugger automatically creates the **[Raw View]** node for every custom expansion. The preceding screenshot displays the **[Raw View]** node expanded, to show how the default raw view of the object differs from its visualization. The default expansion creates a subtree for the base class, and lists all the data members of the base class as children.  
+The debugger automatically creates the **[Raw View]** node for every custom expansion. The preceding screenshot displays the **[Raw View]** node expanded, to show how the default raw view of the object differs from its Natvis visualization. The default expansion creates a subtree for the base class, and lists all the data members of the base class as children.  
 
 > [!NOTE]
 > If the expression of the item element points to a complex type, the **Item** node itself is expandable.  
@@ -535,9 +535,9 @@ You can use `Exec` to execute code inside of a `CustomListItems` expansion, usin
 - `ConcurrencyArray_OperatorBracket_idx` - `Concurrency::array<>::operator[index<>]` and `operator(index<>)`
 - `ConcurrencyArray_OperatorBracket_int` - `Concurrency::array<>::operator(int, int, ...)`
 - `ConcurrencyArray_OperatorBracket_tidx`- `Concurrency::array<>::operator[tiled_index<>]` and `operator(tiled_index<>)`
-- `ConcurrencyArrayView_OperatorBracket_idx` - Concurrency::array_view<>::operator[index<>]` and `operator(index<>)`
-- `ConcurrencyArrayView_OperatorBracket_int` - Concurrency::array_view<>::operator(int, int, ...)`
-- `ConcurrencyArrayView_OperatorBracket_tidx` - Concurrency::array_view<>::operator[tiled_index<>]` and `operator(tiled_index<>)`
+- `ConcurrencyArrayView_OperatorBracket_idx` - `Concurrency::array_view<>::operator[index<>]` and `operator(index<>)`
+- `ConcurrencyArrayView_OperatorBracket_int` - `Concurrency::array_view<>::operator(int, int, ...)`
+- `ConcurrencyArrayView_OperatorBracket_tidx` - `Concurrency::array_view<>::operator[tiled_index<>]` and `operator(tiled_index<>)`
 - `Stdext_HashMap_Int_OperatorBracket_idx`
 - `Std_UnorderedMap_Int_OperatorBracket_idx`
 - `TreeTraverse_Init` - Initializes a new tree traversal
