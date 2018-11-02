@@ -56,9 +56,20 @@ To generate the executable *Metrics.exe*, follow these steps:
 2. Open Developer Command Prompt for Visual Studio as an administrator.
 3. From the root of the **roslyn-analyzers** repo, execute the following command: `Restore.cmd`
 4. Change directory to *src\Tools*.
-5. Execute the following command to build the **Metrics.csproj** project: `msbuild /m /v:m /p:Configuration=Release Metrics.csproj`
+5. Execute the following command to build the **Metrics.csproj** project:
+
+   ```shell
+   msbuild /m /v:m /p:Configuration=Release Metrics.csproj
+   ```
 
    An executable named *Metrics.exe* is generated in the *Binaries* directory under the repo root.
+
+   > [!TIP]
+   > To build *Metrics.exe* in [legacy mode](#legacy-mode), execute the following command:
+   >
+   > ```shell
+   > msbuild /m /v:m /t:rebuild /p:LEGACY_CODE_METRICS_MODE=true Metrics.csproj
+   > ```
 
 ### Usage
 
@@ -138,6 +149,16 @@ The new *Metrics.exe* tool can compute metrics even in the presence of source co
 The `LinesOfCode` metric is more accurate and reliable in the new *Metrics.exe*. It is independent of any codegen differences and doesn’t change when the toolset or runtime changes. The new *Metrics.exe* counts actual lines of code, including blank lines and comments.
 
 Other metrics such as `CyclomaticComplexity` and `MaintainabilityIndex` use the same formulas as previous versions of *Metrics.exe*, but the new *Metrics.exe* counts the number of `IOperations` (logical source instructions) instead of intermediate language (IL) instructions. The numbers will be slightly different from previous versions of *Metrics.exe* and from the Visual Studio 2017 IDE code metrics results.
+
+### Legacy mode
+
+You can also choose to build *Metrics.exe* in *legacy mode*. The legacy mode version of the tool generates metric values that are closer to what older versions of the tool generated. Additionally, in legacy mode, *Metrics.exe* generates code metrics for the same set of method types that previous versions of the tool generated code metrics for. For example, it doesn't generate code metrics data for field and property initializers. Legacy mode is useful for backwards compatibility or if you have code check-in gates based on code metrics numbers. The command to build *Metrics.exe* in legacy mode is:
+
+```shell
+msbuild /m /v:m /t:rebuild /p:LEGACY_CODE_METRICS_MODE=true Metrics.csproj
+```
+
+For more information, see [Enable generating code metrics in legacy mode](https://github.com/dotnet/roslyn-analyzers/pull/1841).
 
 ## See also
 
