@@ -221,4 +221,4 @@ sections:
     - image:
         src: https://docs.microsoft.com/azure/media/index/Fabric.svg
       text: Service Fabric
-      href: https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet
+      href: https://docs.microsoft.com/azure/service-fabric/service-fabric-get-started
