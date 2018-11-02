@@ -180,11 +180,11 @@ To make sure that conflicts with the design do not occur during code development
 
 See:
 
-- [Define your build process](http://msdn.microsoft.com/Library/61593e10-d24b-492f-b19a-af4d85abea6b)
+- [Use the visual designer](/azure/devops/pipelines/get-started-designer)
 
-- [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)
+- [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated)
 
-- [Customize your build process template](http://msdn.microsoft.com/Library/b94c58f2-ae6f-4245-bedb-82cd114f6039)
+- [Build and release tasks](/azure/devops/pipelines/tasks/index)
 
 ### General Tips for Creating and Using Models
 
@@ -214,7 +214,7 @@ See:
 
 - [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
 
-- [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
+- [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 
 ### <a name="TestValidateCheckInCode"></a> Test, Validate, and Check In Code
 
@@ -480,5 +480,5 @@ Dependency diagrams help you:
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-- [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)

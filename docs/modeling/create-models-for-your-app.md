@@ -46,10 +46,10 @@ To visualize the architecture of a system or existing code, create the following
 |[Model user requirements](../modeling/model-user-requirements.md)|Use models to clarify and communicate the users' needs.|
 |[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|Use models to describe the overall structure and behavior of your system and to make sure that it meets the users' needs.|
 |[Validate your system during development](../modeling/validate-your-system-during-development.md)|Make sure that your software stays consistent with your users' needs and the overall architecture of your system.|
-|[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)|Use models to help you understand and change your system during its development.|
+|[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)|Use models to help you understand and change your system during its development.|
 |[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)|Organize models in a large or medium project.|
 
 ## Resources
 
 - [Visual Studio Visualization & Modeling Tools Forum](http://go.microsoft.com/fwlink/?LinkId=184720)
-- [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vsx)
+- [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)
