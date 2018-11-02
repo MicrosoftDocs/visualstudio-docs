@@ -19,26 +19,29 @@ ms.workload:
 ---
 # Tutorial: Debug managed and native code in the same debugging session
 
-Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you learn to debug both managed and native code in a single debugging session. This tutorial shows how to debug native code from a managed app, but you can also [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed-mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md), and using the script debugger in app types such as ASP.NET.
+Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you learn to debug both managed and native code in a single debugging session. 
+
+This tutorial shows how to debug native code from a managed app, but you can also [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed-mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md), and using the script debugger in app types such as ASP.NET.
 
 In this tutorial, you will:
 
 > [!div class="checklist"]
 > * Create a simple native DLL
 > * Create a simple .NET Core or .NET Framework app to call the DLL
+> * Configure mixed-mode debugging
 > * Start the debugger
 > * Hit a breakpoint in the managed app
 > * Step into the native code
 
 ## Prerequisites
 
-You must have Visual Studio installed with the the following workloads:
+You must have Visual Studio installed, with the following workloads:
 - **Desktop development with C++**
 - Either **.NET desktop development** or **.NET Core cross platform development**, depending on which type of app you want to create.
 
 If you haven't installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-If you have Visual Studio installed, but need one of the workloads, select **Open Visual Studio Installer** in the left pane of the Visual Studio **New Project** dialog box. In the Visual Studio Installer, select the workloads you need, and then select **Modify**.
+If you have Visual Studio installed, but don't have both of the workloads, select **Open Visual Studio Installer** in the left pane of the Visual Studio **New Project** dialog box. In the Visual Studio Installer, select the workloads you need, and then select **Modify**.
 
 ## Create a simple native DLL
 
@@ -88,16 +91,16 @@ If you have Visual Studio installed, but need one of the workloads, select **Ope
 
 **To configure and build the DLL project:**
 
-1. In the Visual Studio toolbar, select **Debug** configuration and **x86** or **x64** platform. If your app will be .NET Core, which always runs in 64-bit mode, select **x64** as the platform.
+1. In the Visual Studio toolbar, select **Debug** configuration and **x86** or **x64** platform. If your calling app will be .NET Core, which always runs in 64-bit mode, select **x64** as the platform.
 
 1. In **Solution Explorer**, select the **Mixed_Mode_Debugging** project node and select the **Properties** icon, or right-click the project node and select **Properties**.
 
-1. At the top of the **Properties** pane, make sure the **Configuration** is set to **Active(Debug)** and the **Platform** is what you set in the toolbar: **Active(x64)** or **Active(Win32)**. 
+1. At the top of the **Properties** pane, make sure the **Configuration** is set to **Active(Debug)** and the **Platform** is the same as what you set in the toolbar: **x64**, or **Win32** for *x86* platform. 
 
    > [!IMPORTANT]
-   > If you switch platform from **x86** to **x64** or vice versa, you must reset the properties for the new configuration. 
+   > If you switch platform from **x86** to **x64** or vice versa, you must reconfigure the properties for the new platform. 
 
-1. Under **Configuration Properties** in the left pane, select **Linker** > **Advanced**, and in the dropdown next to **No Entry Point**, select **No**. If you changed it to **No**, select **Apply**.
+1. Under **Configuration Properties** in the left pane, select **Linker** > **Advanced**, and in the dropdown next to **No Entry Point**, select **No**. If you had to change it to **No**, select **Apply**.
 
 1. Under **Configuration Properties**, select **General**, and in the dropdown next to **Configuration Type**, select **Dynamic Library (.dll)**. Select **Apply**, and then select **OK**.
 
@@ -107,7 +110,7 @@ If you have Visual Studio installed, but need one of the workloads, select **Ope
 
    The project should build with no errors.
 
-## Create a simple .NET Framework or .NET Core app to call the DLL
+## Create a simple managed app to call the DLL
 
 1. In Visual Studio, choose **File** > **New** > **Project**.
 
@@ -156,7 +159,9 @@ If you have Visual Studio installed, but need one of the workloads, select **Ope
 
 1. Select **File** > **Save Program.cs** or press **Ctrl**+**S** to save the file.
 
-## Configure mixed mode debugging (.NET Framework)
+## Configure mixed-mode debugging 
+
+**To configure mixed-mode debugging for a .NET Framework app:** 
 
 1. In **Solution Explorer**, select the **Mixed_Mode_Calling_App** project node and select the **Properties** icon, or right-click the project node and select **Properties**.
 
@@ -164,7 +169,7 @@ If you have Visual Studio installed, but need one of the workloads, select **Ope
 
     ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
 
-## Configure mixed mode debugging (.NET Core)
+**To configure mixed-mode debugging for a .NET Core app:** 
 
 In most versions of Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
 
@@ -173,7 +178,7 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
    >[!NOTE]
    >By default, the *launchSettings.json* file is in *C:\Users\<username>\source\repos\Mixed_Mode_Calling_App\Properties*.
    >
-   >If *launchSettings.json* is not present, open the project properties by selecting the **Mixed_Mode_Calling_App** project and then selecting the **Properties** icon, or right-clicking the project node and selecting **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made.
+   >If *launchSettings.json* is not present, open the project properties by selecting the **Mixed_Mode_Calling_App** project and then selecting the **Properties** icon, or right-clicking the project node and selecting **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
 
 1. In the *lauchsettings.json* file, add the following line:
 
@@ -181,7 +186,7 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
     "nativeDebugging": true
     ```
 
-    The complete file might look like the following example:
+    The complete file will look like the following example:
 
     ```csharp
     {
@@ -194,9 +199,9 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
     }
     ```
 
-## Set a breakpoint and start the debugger
+## Set a breakpoint and start debugging
 
-1. In the C# project, open *Program.cs*. Set a breakpoint on the following line of code by clicking in the far left margin, selecting the line and pressing **F9**, or right-clicking the line and selecting **Breakpoint > **Insert Breakpoint**.
+1. In the C# project, open *Program.cs*. Set a breakpoint on the following line of code by clicking in the far left margin, selecting the line and pressing **F9**, or right-clicking the line and selecting **Breakpoint** > **Insert Breakpoint**.
 
     ```csharp
     int result = Multiply(7, 7);
@@ -210,23 +215,23 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
 
 ## Step in and out of native code
 
-1. While paused in the managed app, press **F11**, or select **Debug** > **Step Into**.
+1. While debugging is paused in the managed app, press **F11**, or select **Debug** > **Step Into**.
 
    The *Mixed_Mode.h* native header file opens, and you see the yellow arrow where the debugger is paused.
 
    ![Step into native code](../debugger/media/mixed-mode-step-into-native-code.png)
 
-Now, you can set and hit breakpoints and inspect variables in the native code.
+   Now, you can set and hit breakpoints and inspect variables in the native code.
 
-- Hover over variables in the source code to see their values.
+   - Hover over variables in the source code to see their values.
 
-- Look at variable and their values in the **Autos** and **Locals** windows.
+   - Look at variable and their values in the **Autos** and **Locals** windows.
 
-- While paused in the debugger, you can also use the **Watch** windows and the **Call Stack** window.
+   - While paused in the debugger, you can also use the **Watch** windows and the **Call Stack** window.
 
 1. Press **F11** again to advance the debugger one line.
 
-1. Press **Shift**+**F11** or select **Debug** > **Step Out** to continue execution in the managed app, and pause again.
+1. Press **Shift**+**F11** or select **Debug** > **Step Out** to continue execution and pause again in the managed app.
 
 1. Press **F5** or select the green arrow to continue debugging the app.
 
