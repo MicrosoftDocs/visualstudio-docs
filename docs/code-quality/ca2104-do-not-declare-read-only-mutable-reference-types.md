@@ -43,7 +43,7 @@ A mutable type is a type whose instance data can be modified. The <xref:System.T
 
 The read-only modifier ([readonly](/dotnet/csharp/language-reference/keywords/readonly) in C#, [ReadOnly](/dotnet/visual-basic/language-reference/modifiers/readonly) in Visual Basic, and [const](/cpp/cpp/const-cpp) in C++) on a reference type field (or pointer in C++) prevents the field from being replaced by a different instance of the reference type. However, the modifier does not prevent the instance data of the field from being modified through the reference type.
 
-This rule may inadvertently show a violation for a type that is, in fact, immutable. In that case, it is safe to suppress this rule.
+This rule may inadvertently show a violation for a type that is, in fact, immutable. In that case, it's safe to suppress the warning.
 
 Read-only array fields are exempt from this rule but instead cause a violation of the [CA2105: Array fields should not be read only](../code-quality/ca2105-array-fields-should-not-be-read-only.md) rule.
 
@@ -53,7 +53,7 @@ To fix a violation of this rule, remove the read-only modifier or, if a breaking
 
 ## When to suppress warnings
 
-It is safe to suppress a warning from this rule if the field type is immutable.
+It's safe to suppress a warning from this rule if the field type is immutable.
 
 ## Example
 
