@@ -15,12 +15,17 @@ sections:
 - title: Publish to Azure
   items:
   - type: paragraph
-    text: 'Deploy your app to Azure to staging or production environments with Visual Studio, or set up continuous integration and deployment (CI/CD).'
+    text: 'Deploy your app to Azure to staging or production environments with Visual Studio.'
   - type: list
     style: cards
     className: cardsM
     columns: 3
     items:
+    - href: vs-azure-tools-publishing-a-cloud-service.md
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/azure/media/index/cloud-services.svg
+      title: Publish a Cloud Service project
     - href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio
       html: <p></p>
       image:
