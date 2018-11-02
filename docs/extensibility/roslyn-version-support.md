@@ -30,3 +30,8 @@ The following table shows which .NET compiler platform (Roslyn) package versions
 | 2.7.0 | Visual Studio 2017 version 15.6 or higher |
 | 2.8.2 | Visual Studio 2017 version 15.7 or higher |
 | 2.9.0 | Visual Studio 2017 version 15.8 or higher |
+
+## See also
+
+- [.NET Compiler Platform SDK](/dotnet/csharp/roslyn-sdk/)
+- [Get started with Roslyn analyzers](getting-started-with-roslyn-analyzers.md)
