@@ -70,14 +70,14 @@ Because the code analyzer doesn't know your intent, there are no light bulbs to 
 
 To fix this error, change the `points` member of the `User` class from this:
 
-```c#
+```csharp
 [DataMember]
 internal string points;
 ```
 
 to this:
 
-```c#
+```csharp
 [DataMember]
 internal int points;
 ```
@@ -90,13 +90,13 @@ Next, hover over the green squiggly in the declaration of the `points` data memb
 
 Typically, this represents a problem that needs to be fixed. However, in the sample app you are in fact storing data in the `points` variable during the deserialization process, and then adding that value to the `totalpoints` data member. In this example, you know the intent of the code and can safely ignore the warning. However, if you want to eliminate the warning, you can replace the following code:
 
-```c#
+```csharp
 user.totalpoints = users[i].points;
 ```
 
 to this:
 
-```c#
+```csharp
 user.points = users[i].points;
 user.totalpoints = users[i].points;
 ```
@@ -121,13 +121,13 @@ When you hit an exception, you need to ask (and answer) a couple of questions:
 
 If it's the former, fix the bug. (In the sample app, that means fix the bad data.) If it's the latter, you might need to handle the exception in your code using a `try/catch` block (we look at other possible fixes in the next section). In the sample app, replace the following code:
 
-```c#
+```csharp
 users = ser.ReadObject(ms) as User[];
 ```
 
 with this code:
 
-```c#
+```csharp
 try
 {
     users = ser.ReadObject(ms) as User[];
@@ -147,7 +147,7 @@ Here are a couple of important tips for exception handling:
 
 * Use the `try/catch` block around the specific function that throws the exception (`ReadObject`, in the sample app). If you use it around a larger chunk of code, you end up hiding the location of the error. For example, don't use the `try/catch` block around the call to the parent function `ReadToObject`, shown here, or you won't know exactly where the exception occurred.
 
-    ```c#
+    ```csharp
     // Don't do this
     try
     {
@@ -176,7 +176,7 @@ This time, the app throws another exception, a run-of-the-mill `NullReferenceExc
 
 If you think it might be a fixable bug, you have several options. You need to make sure the code responds correctly to the `null` value. There are several ways to do this. A useful method, often underutilized, is to use an `assert` statement. By adding the following code, you include a runtime check to make sure that `firstname` is not `null`.
 
-```c#
+```csharp
 // To use assert, add a using statement for System.Diagnostics at the start of the file.
 Debug.Assert(users[i].firstname != null);
 Debug.Assert(users[i].lastname != null);
@@ -195,15 +195,15 @@ When you add the preceding `assert` statements and rerun the code (click the **R
 
 The `assert` failure tells you that there's a problem that you can then investigate.
 
-While `assert` is great for debugging, at some point you may decide you need to fix the code for the release version. An easy option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
+While `assert` is great for debugging, you may also decide you need to fix the code for the release version. An easy option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
 
-```c#
+```csharp
 user.firstname = users[i].firstname.Trim();
 ```
 
 with this code:
 
-```c#
+```csharp
 if(users[i].firstname != null)
 {
     user.firstname = users[i].firstname.Trim();
@@ -218,7 +218,7 @@ During the debugging process, it's good to keep the `assert` statement until you
 
 Typically, you want to add code to clarify intent at the entry point of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is null, so check them both with an `assert` statement.
 
-```c#
+```csharp
 public static void UpdateRecords(List<User> db, User[] users)
 {
     Debug.Assert(db != null);
@@ -227,7 +227,7 @@ public static void UpdateRecords(List<User> db, User[] users)
 
 You can use `assert` with any kind of expression. So, for example, you could use an `assert` statement like this.
 
-```c#
+```csharp
 Debug.Assert(users[0].points > 0);
 ```
 
@@ -237,7 +237,7 @@ The preceding code makes sense if it's critical that every user entry update in 
 
 OK, now that you've fixed everything critical that's wrong with the sample app, you can move onto bigger things!
 
-We showed you the debugger's Exception Helper, but the debugger is a much more powerful tool that also lets you do other things like step through your code and inspect its variables. These more powerful functions are useful in different scenarios, especially the following:
+We showed you the debugger's Exception Helper, but the debugger is a much more powerful tool that also lets you do other things like step through your code and inspect its variables. These more powerful capabilities are useful in many scenarios, especially the following:
 
 * You are trying to isolate a runtime bug in your code, but are unable to do it using other tools and methods.
 
@@ -255,7 +255,7 @@ Bugs of another kind include inefficient code that causes your app to run slowly
 
 The following code has some bugs that you can fix using the Visual Studio IDE. The app here is a simple app that simulates getting JSON data from some operation, deserializing the data to an object, and updating a simple in-memory database with the new data.
 
-```c#
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Json;
