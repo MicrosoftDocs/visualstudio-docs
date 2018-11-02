@@ -93,7 +93,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |**Parsing**|Time spent parsing XAML files and creating objects.<br /><br /> Expanding a **Parsing** node in **Timeline details** displays the dependency chain of all the XAML files that were parsed as a result of the root event. This will enable you to identify unnecessary file parsing and object creation in performance sensitive scenarios and optimize them out.|  
 |**Layout**|In large applications, thousands of elements may be shown on the screen at the same time. This might result in a low UI frame rate and correspondingly poor application responsiveness. The Layout event accurately determines the cost of laying out each element (that is, the time spent in Arrange, Measure, ApplyTemplate, ArrangeOverride, and MeasureOverride) and builds the visual trees that took part in a Layout pass. You can use this visualization to determine which of your logical trees to prune, or to evaluate other deferral mechanisms to optimize your layout pass.|  
 |**Render**|Time spent drawing XAML elements to the screen.|  
-|**I/0**|Time spent retrieving data from the local disk or from network resources that are accessed through the [Microsoft Windows Internet (WinINet) API](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385331.aspx).|  
+|**I/0**|Time spent retrieving data from the local disk or from network resources that are accessed through the [Microsoft Windows Internet (WinINet) API](/windows/desktop/WinInet/portal).|  
 |**App Code**|Time spent executing application (user) code that is not related to parsing or layout.|  
 |**Xaml Other**|Time spent executing XAML runtime code.|  
   
@@ -111,8 +111,8 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |![Customize timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
   
 ## See also  
- [WPF team blog: New UI performance analysis tool for WPF applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)  
- [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
+ [WPF team blog: New UI performance analysis tool for WPF applications](https://blogs.msdn.microsoft.com/wpf/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications/)  
+ [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))   
  [Optimize WPF application performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)  
  [Profiling in Visual Studio](../profiling/index.md)  
  [First look at profiling tools](../profiling/profiling-feature-tour.md)

@@ -41,4 +41,4 @@ Depending on the [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] Use
 ## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [How to: Attach to a running process](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)
+ [How to: Attach to a running process](/previous-versions/visualstudio/visual-studio-2010/c6wf8e4z\(v\=vs.100\))
