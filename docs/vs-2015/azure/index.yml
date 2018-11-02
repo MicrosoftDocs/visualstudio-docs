@@ -25,7 +25,7 @@ sections:
       html: <p></p>
       image:
         src: https://docs.microsoft.com/azure/cloud-services/media/index/cloud-services.svg
-      title: Publish a Cloud Service project
+      title: Publish a cloud service project
     - href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio
       html: <p></p>
       image:
