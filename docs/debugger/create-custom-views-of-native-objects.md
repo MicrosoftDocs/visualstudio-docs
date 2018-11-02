@@ -309,7 +309,7 @@ In the following example, the visualization is applicable only for the `DirectUI
 </Type>  
 ```  
 
-###  <a name="BKMK_DisplayString"></a> DisplayString  
+###  <a name="BKMK_DisplayString"></a> DisplayString element 
 The `DisplayString` element specifies a string to show as the value of a variable. It accepts arbitrary strings mixed with expressions. Everything inside curly braces is interpreted as an expression. For instance, the following `DisplayString` entry:  
 
 ```xml
@@ -327,7 +327,7 @@ In the `DisplayString` expression, `x` and `y`, which are members of `CPoint`, a
 > [!NOTE]
 > The `DisplayString` element is the only element that accepts arbitrary strings and curly brace syntax. All other visualization elements accept only expressions that the debugger can evaluate.  
 
-###  <a name="BKMK_StringView"></a> StringView  
+###  <a name="BKMK_StringView"></a> StringView element 
 
 The `StringView` element defines a value that the debugger can send to the built-in text visualizer. For example, given the following visualization for the `ATL::CStringT` type:  
 
@@ -356,7 +356,7 @@ During debugging, you can select the magnifying glass icon next to the variable,
 
 The expression `{m_pszData,su}` includes a C++ format specifier **su**, to display the value as a Unicode string. For more information, see [Format specifiers in C++](../debugger/format-specifiers-in-cpp.md).  
 
-###  <a name="BKMK_Expand"></a> Expand  
+###  <a name="BKMK_Expand"></a> Expand element 
 
 The optional `Expand` node customizes the children of a visualized type when the user expands the type in a variable window. The `Expand` node accepts a list of child nodes that define the child elements.  
 
@@ -530,19 +530,19 @@ You can use `Exec` to execute code inside of a `CustomListItems` expansion, usin
 
 `CustomListItems` supports the following intrinsic functions:
 
-- `strlen, wcslen, strnlen, wcsnlen, strcmp, wcscmp, _stricmp, _strcmpi, _wcsicmp, strncmp, wcsncmp, _strnicmp, _wcsnicmp, memcmp, memicmp, wmemcmp, strchr, wcschr, memchr, wmemchr, strstr, wcsstr, __log2, __findNonNull`
-- `GetLastError, TlsGetValue, DecodeHString, WindowsGetStringLen, WindowsGetStringRawBuffer, WindowsCompareStringOrdinal, RoInspectCapturedStackBackTrace, CoDecodeProxy, GetEnvBlockLength, DecodeWinRTRestrictedException, DynamicMemberLookup, DecodePointer, DynamicCast`
-- `ConcurrencyArray_OperatorBracket_idx // Concurrency::array<>::operator[index<>] and operator(index<>)`
-- `ConcurrencyArray_OperatorBracket_int // Concurrency::array<>::operator(int, int, ...)`
-- `ConcurrencyArray_OperatorBracket_tidx // Concurrency::array<>::operator[tiled_index<>] and operator(tiled_index<>)`
-- `ConcurrencyArrayView_OperatorBracket_idx // Concurrency::array_view<>::operator[index<>] and operator(index<>)`
-- `ConcurrencyArrayView_OperatorBracket_int // Concurrency::array_view<>::operator(int, int, ...)`
-- `ConcurrencyArrayView_OperatorBracket_tidx // Concurrency::array_view<>::operator[tiled_index<>] and operator(tiled_index<>)`
+- `strlen`, `wcslen`, `strnlen`, `wcsnlen`, `strcmp`, `wcscmp`, `_stricmp`, `_strcmpi`, `_wcsicmp`, `strncmp`, `wcsncmp`, `_strnicmp`, `_wcsnicmp`, `memcmp`, `memicmp`, `wmemcmp`, `strchr`, `wcschr`, `memchr`, `wmemchr`, `strstr`, `wcsstr`, `__log2`, `__findNonNull`
+- `GetLastError`, `TlsGetValue`, `DecodeHString`, `WindowsGetStringLen`, `WindowsGetStringRawBuffer`, `WindowsCompareStringOrdinal`, `RoInspectCapturedStackBackTrace`, `CoDecodeProxy`, `GetEnvBlockLength`, `DecodeWinRTRestrictedException`, `DynamicMemberLookup`, `DecodePointer`, `DynamicCast`
+- `ConcurrencyArray_OperatorBracket_idx` - `Concurrency::array<>::operator[index<>]` and `operator(index<>)`
+- `ConcurrencyArray_OperatorBracket_int` - `Concurrency::array<>::operator(int, int, ...)`
+- `ConcurrencyArray_OperatorBracket_tidx`- `Concurrency::array<>::operator[tiled_index<>]` and `operator(tiled_index<>)`
+- `ConcurrencyArrayView_OperatorBracket_idx` - Concurrency::array_view<>::operator[index<>]` and `operator(index<>)`
+- `ConcurrencyArrayView_OperatorBracket_int` - Concurrency::array_view<>::operator(int, int, ...)`
+- `ConcurrencyArrayView_OperatorBracket_tidx` - Concurrency::array_view<>::operator[tiled_index<>]` and `operator(tiled_index<>)`
 - `Stdext_HashMap_Int_OperatorBracket_idx`
 - `Std_UnorderedMap_Int_OperatorBracket_idx`
-- `TreeTraverse_Init // Initializes a new tree traversal`
-- `TreeTraverse_Next // Returns nodes in a tree`
-- `TreeTraverse_Skip // Skips nodes in a pending tree traversal`
+- `TreeTraverse_Init` - Initializes a new tree traversal
+- `TreeTraverse_Next` - Returns nodes in a tree
+- `TreeTraverse_Skip` - Skips nodes in a pending tree traversal
 
 ####  <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion  
  If the visualized type represents a tree, the debugger can walk the tree and display its children by using a `TreeItems` node. Here's the visualization for the `std::map` type using a `TreeItems` node:  
@@ -622,7 +622,7 @@ The **nd** format specifier, which turns off visualization matching for the deri
 
  ![Concurrency::Array with Synthetic element expansion](../debugger/media/dbg_natvis_expand_synthetic.png "Concurrency::Array with Synthetic element expansion")  
 
-###  <a name="BKMK_HResult"></a> HResult  
+###  <a name="BKMK_HResult"></a> HResult element 
  The `HResult` element lets you customize the information shown for an **HRESULT** in debugger windows. The `HRValue` element must contain the 32-bit value of the **HRESULT** that is to be customized. The `HRDescription` element contains the information to show in the debugger window.  
 
 ```xml
@@ -633,7 +633,7 @@ The **nd** format specifier, which turns off visualization matching for the deri
 </HResult>  
 ```  
 
-###  <a name="BKMK_UIVisualizer"></a> UIVisualizer  
+###  <a name="BKMK_UIVisualizer"></a> UIVisualizer element 
 A `UIVisualizer` element registers a graphical visualizer plug-in with the debugger. A graphical visualizer creates a dialog box or other interface that shows a variable or object in a way consistent with its data type. The visualizer plug-in must be authored as a [VSPackage](../extensibility/internals/vspackages.md), and must expose a service that the debugger can consume. The *.natvis* file contains registration information for the plug-in, such as its name, the GUID of the exposed service, and the types it can visualize.  
 
 Here's an example of a UIVisualizer element:  
