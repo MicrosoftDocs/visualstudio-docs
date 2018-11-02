@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Debug managed and native code (mixed mode)"
-description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed-mode debugging
+description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed mode debugging
 ms.custom: ""
 ms.date: "10/24/2018"
 ms.technology: "vs-ide-debug"
@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Tutorial: Debug managed and native code in the same debugging session
 
-Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you set options to debug both managed and native code in a single debugging session. This tutorial shows how to debug native code from a managed app, but you can also [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed-mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md), and using the script debugger in app types such as ASP.NET.
+Visual Studio allows you to enable more than one debugger type when debugging, which is called mixed mode debugging. In this tutorial, you set options to debug both managed and native code in a single debugging session. This tutorial shows how to debug native code from a managed app, but you can also do the reverse, and [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md) and using the script debugger in app types such as ASP.NET.
 
 In this tutorial, you will:
 
@@ -28,44 +28,40 @@ In this tutorial, you will:
 > * Create a simple .NET Core or .NET Framework app to call the DLL
 > * Start the debugger
 > * Hit a breakpoint in the managed app
-> * Step into the native code
+> * Step into native code
 
 ## Prerequisites
 
-You must have Visual Studio installed with the the following workloads:
-- **Desktop development with C++**
-- Either **.NET desktop development** or **.NET Core cross platform development**, depending on which type of app you want to create.
+* You must have Visual Studio installed and the **Desktop development with C++** workload.
 
-If you haven't installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-If you have Visual Studio installed, but need one of the workloads, select **Open Visual Studio Installer** in the left pane of the Visual Studio **New Project** dialog box. In the Visual Studio Installer, select the workloads you need, and then select **Modify**.
+    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+
+* You must also have either the **.NET desktop development** workload or the **.NET Core cross platform development** workload installed, depending on which app type you want to create.
 
 ## Create a simple native DLL
 
-1. In Visual Studio, select **File** > **New** > **Project**.
+1. In Visual Studio, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, under **Visual C++**, select **Other**, and then select **Empty Project** in the middle pane.
+1. In the **New Project** dialog box, choose **Visual C++**, **Other** from the installed templates section, and then in the middle pane select **Empty Project**.
 
-1. In the **Name** field, type **Mixed_Mode_Debugging**, and then select **OK**.
+1. In the **Name** field, type **Mixed_Mode_Debugging** and click **OK**.
 
-   Visual Studio creates the empty project and displays it in **Solution Explorer**.
+    Visual Studio creates the empty project, which appears in Solution Explorer in the right pane.
 
-1. In **Solution Explorer**, select **Source Files**, and then select **Project** > **Add New Item**. Or, right-click **Source Files** and select **Add** > **New Item**. 
+1. In Solution Explorer, right-click the **Source Files** node in the C++ project, and then choose **Add** > **New Item**, and then select **C++ file (.cpp)**. Give the file the name **Mixed_Mode.cpp**, and choose **Add**.
 
-1. In the **New Item** dialog, select **C++ file (.cpp)**. Type **Mixed_Mode.cpp** in the **Name** field, and then select **Add**.
-
-    Visual Studio adds the new C++ file to **Solution Explorer**.
+    Visual Studio adds the new C++ file.
 
 1. Copy the following code into *Mixed_Mode.cpp*:
 
     ```cpp
     #include "Mixed_Mode.h"
     ```
-1. In **Solution Explorer**, select **Header Files**, and then select **Project** > **Add New Item**. Or, right-click **Header Files** and select **Add** > **New Item**. 
+1. In Solution Explorer, right-click the **Header Files** node in the C++ project, and then choose **Add** > **New Item**, and then select **Header file (.h)**. Give the file the name **Mixed_Mode.h**, and choose **Add**.
 
-1. In the **New Item** dialog, select **Header file (.h)**. Type **Mixed_Mode.h** in the **Name** field, and then select **Add**.
-
-   Visual Studio adds the new header file to **Solution Explorer**.
+    Visual Studio adds the new header file.
 
 1. Copy the following code into *Mixed_Mode.h*:
 
@@ -81,8 +77,6 @@ If you have Visual Studio installed, but need one of the workloads, select **Ope
     }
     #endif
     ```
-
-1. Select **File** > **Save All** or press **Ctrl**+**Shift**+**S** to save the files.
 
 1. From the Debug toolbar, select a **Debug** configuration and **x86** or **x64** as the platform (for .NET Core, which always runs in 64-bit mode, select **x64** as the platform).
 
