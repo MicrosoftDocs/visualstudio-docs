@@ -60,7 +60,7 @@ When you click this item, Visual Studio adds the `using System.Text` statement a
 
 The preceding error is a common one that you usually fix by adding a new `using` statement to your code. Another common, similar error to this one is ```The type or namespace `Name` cannot be found.``` This error may indicate a missing assembly reference (right-click the project, choose **Add** > **Reference**), a misspelled name, or a missing library that you need to add using NuGet (right-click the project and choose **Manage NuGet Packages**).
 
-## Fix the squiggles
+## Fix the errors and warnings
 
 There are a few more squiggles to look at in this code. Here, you see a common type conversion error. When you hover over the squiggle, you see that the code is trying to convert a string to an int, which is not supported unless you add explicit code to make the conversion.
 
@@ -88,7 +88,18 @@ Next, hover over the green squiggly in the declaration of the `points` data memb
 
 ![Warning message for unassigned variable](../debugger/media/write-better-code-warning-message.png)
 
-Typically, this represents a problem that needs to be fixed. However, in the sample app you are in fact storing data in the `points` variable during the deserialization process, and then adding that value to the `totalpoints` data member. In this example, you know the intent of the code and can safely ignore the warning.
+Typically, this represents a problem that needs to be fixed. However, in the sample app you are in fact storing data in the `points` variable during the deserialization process, and then adding that value to the `totalpoints` data member. In this example, you know the intent of the code and can safely ignore the warning. However, if you want to eliminate the warning, you can replace the following code:
+
+```c#
+user.totalpoints = users[i].points;
+```
+
+to this:
+
+```c#
+user.points = users[i].points;
+user.totalpoints = users[i].points;
+```
 
 ## Fix an exception
 
