@@ -3,9 +3,9 @@
 - name: Overview
   items:
   - name: "What is debugging?"
-  - href: what-is-debugging.md
-  - name: Write better C# code with Visual Studio
-  - href: write-better-code-with-visual-studio.md
+    href: what-is-debugging.md
+  - name: "Write better C# code with Visual Studio"
+    href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
   - name: First look at the debugger
