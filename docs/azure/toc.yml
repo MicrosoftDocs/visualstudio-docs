@@ -36,7 +36,7 @@
       href: /azure/cognitive-services/face/vs-face-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
     - name: Computer Vision
       href: /azure/cognitive-services/computer-vision/vs-computer-vision-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-- name: Cloud Services
+- name: Cloud Service Development
   expanded: false
   items:
   - name: Work with cloud service projects in Visual Studio

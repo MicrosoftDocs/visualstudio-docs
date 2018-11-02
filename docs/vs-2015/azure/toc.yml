@@ -17,7 +17,7 @@
     href: /azure/active-directory/develop/vs-active-directory-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Add Mobile Services
     href: vs-azure-tools-connected-services-add-mobile-services.md
-- name: Cloud Services
+- name: Cloud Service Development
   expanded: false
   items:
   - name: Work with cloud service projects in Visual Studio
