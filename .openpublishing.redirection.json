@@ -6861,6 +6861,11 @@
             "source_path": "docs/cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md",
             "redirect_url": "/xamarin/tools/ci/devops/",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/javascript/index.md",
+            "redirect_url": "/visualstudio/javascript/quickstart-vuejs-with-nodejs",
+            "redirect_document_id": false
         }
     ]
 }
