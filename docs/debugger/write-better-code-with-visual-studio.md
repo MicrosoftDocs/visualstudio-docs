@@ -40,7 +40,7 @@ To create the app, open Visual Studio and choose **File > New Project**. Under *
 
 ## Find the red and green squiggles!
 
-Before you try to start the sample app and run the debugger, check the code in the code editor for red and green squiggles. These represent errors and warnings that are identified by the IDE's code analyzer. The red squiggles are compile-time errors, which you must fix before you can run the code. The green squiggles are warnings. Although you can run your app without fixing the warnings, they can be a source of bugs and you might save yourself time and trouble by investigating them. These warnings and errors also show up in the **Error List** window, if you prefer a list view.
+Before you try to start the sample app and run the debugger, check the code in the code editor for red and green squiggles. These represent errors and warnings that are identified by the IDE's code analyzer. The red squiggles are compile-time errors, which you must fix before you can run the code. The green squiggles are warnings. Although you can often run your app without fixing the warnings, they can be a source of bugs and you might save yourself time and trouble by investigating them. These warnings and errors also show up in the **Error List** window, if you prefer a list view.
 
 In the sample app, you see several red squiggles that you need to fix, and one green one that you'll look at. Here is the first error.
 
@@ -58,7 +58,7 @@ Notice that this error shows a light bulb icon to the lower left. Along with the
 
 When you click this item, Visual Studio adds the `using System.Text` statement at the top of the *Program.cs* file, and the red squiggle disappears. (When you're not sure what a suggested fix will do, choose the **Preview changes** link on the right before applying the fix.)
 
-The preceding error is a common one that you usually fix by adding a new `using` statement to your code. Another common, similar error to this one is ```The type or namespace `Name` cannot be found.``` This error may indicate a missing assembly reference (right-click the project, choose **Add** > **Reference**), a misspelled name, or a missing library that you need to add using NuGet (right-click the project and choose **Manage NuGet Packages**).
+The preceding error is a common one that you usually fix by adding a new `using` statement to your code. There are several common, similar errors to this one such as ```The type or namespace `Name` cannot be found.``` These kinds of errors may indicate a missing assembly reference (right-click the project, choose **Add** > **Reference**), a misspelled name, or a missing library that you need to add using NuGet (right-click the project and choose **Manage NuGet Packages**).
 
 ## Fix the errors and warnings
 
@@ -66,7 +66,7 @@ There are a few more squiggles to look at in this code. Here, you see a common t
 
 ![Type conversion error](../debugger/media/write-better-code-conversion-error.png)
 
-Because the code analyzer doesn't know your intent, there are no light bulbs to help you out this time. To fix this error, you need to know the intent of the code. In this example, it's not too hard to see that `points` should be a numeric (integer) value, since you are trying to add `points` to `totalpoints`.
+Because the code analyzer can't guess your intent, there are no light bulbs to help you out this time. To fix this error, you need to know the intent of the code. In this example, it's not too hard to see that `points` should be a numeric (integer) value, since you are trying to add `points` to `totalpoints`.
 
 To fix this error, change the `points` member of the `User` class from this:
 
@@ -100,6 +100,8 @@ to this:
 user.points = users[i].points;
 user.totalpoints = users[i].points;
 ```
+
+The green squiggle goes away.
 
 ## Fix an exception
 
@@ -143,7 +145,7 @@ A `try/catch` block has some performance cost, so you'll only want to use them w
 
 Here are a couple of important tips for exception handling:
 
-* Avoid using an empty catch block, like `catch (Exception) {}`, which does not take appropriate action to expose or handle an error. An empty or ineffective catch block can hide exceptions and can make your code more difficult to debug instead of easier.
+* Avoid using an empty catch block, like `catch (Exception) {}`, which does not take appropriate action to expose or handle an error. An empty or non-informative catch block can hide exceptions and can make your code more difficult to debug instead of easier.
 
 * Use the `try/catch` block around the specific function that throws the exception (`ReadObject`, in the sample app). If you use it around a larger chunk of code, you end up hiding the location of the error. For example, don't use the `try/catch` block around the call to the parent function `ReadToObject`, shown here, or you won't know exactly where the exception occurred.
 
@@ -158,7 +160,7 @@ Here are a couple of important tips for exception handling:
     }
     ```
 
-* When you encounter an exception when trying to use a particular method, check the documentation to see what method throws the exception and what other exceptions it is likely to throw. This can be critical information for debugging your apps.
+* For unfamiliar methods that you include in your app, check the documentation to see what exceptions the method is likely to throw. This can be critical information for proper error handling and for debugging your app.
 
 For the sample app, fix the `SerializationException` in the `GetJsonData` method by changing `4o` to `40`.
 
@@ -172,9 +174,9 @@ This time, the app throws another exception, a run-of-the-mill `NullReferenceExc
 
 ![A NullReferenceException occurs](../debugger/media/write-better-code-null-reference-exception.png)
 
-**firstname**, in bold, has the `null` value that caused the exception. The exception occurred because you called a method (`Trim()`) on a non-object reference (`null`). **firstname** is just a variable referencing a property you defined in your code, not a library method that throws a special exception, so there is no good reason to use a `try/catch` block for this common exception. Let's review other options by asking the same questions as before--is this a bug you can easily fix? Might users encounter this exception?
+**firstname**, in bold, has the `null` value that caused the exception. The exception occurred because you called a method (`Trim()`) on a non-object reference (`null`). In the sample app, **firstname** is just a variable referencing a property you defined in your code, not a library method that throws a special exception, so there is no good reason to use a `try/catch` block for this common exception. Let's review other options by asking the same questions as before--is this a bug you can easily fix? Might users encounter this exception?
 
-If you think it might be a fixable bug, you have several options in this example. But instead of fixing the bug just yet, let's take the opportunity to discuss a helpful coding practice, often underutilized, which is to use `assert` statements in your functions. By adding the following code, you include a runtime check to make sure that `firstname` is not `null`.
+If you think it might be a fixable bug, you have several options here. But instead of fixing the bug just yet, let's take the opportunity to discuss a helpful coding practice, often underutilized, which is to use `assert` statements in your functions. By adding the following code, you include a runtime check to make sure that `firstname` is not `null`.
 
 ```csharp
 // To use assert, add a using statement for System.Diagnostics at the start of the file.
@@ -195,7 +197,7 @@ When you add the preceding `assert` statements and rerun the code (click the **R
 
 The `assert` error tells you that there's a problem that you need to investigate.
 
-During the debugging process, it's good to keep an `assert` statement until you know that you need to make a related code fix, then it's time to fix the code. An easy option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
+During the debugging process, it's good to keep a particular `assert` statement until you know you need to replace it with an actual code fix. An easy option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
 
 ```csharp
 user.firstname = users[i].firstname.Trim();
@@ -214,7 +216,7 @@ else
 }
 ```
 
-Typically, when using `assert`, you want to add code to clarify intent at the entry point of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is null, so check them both with an `assert` statement.
+Typically, when using `assert`, it's best to add `assert` statements at the entry point of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is null, so check them both with an `assert` statement at the function's entry point.
 
 ```csharp
 public static void UpdateRecords(List<User> db, User[] users)
@@ -223,7 +225,7 @@ public static void UpdateRecords(List<User> db, User[] users)
     Debug.Assert(users != null);
 ```
 
-You can use `assert` with any kind of expression. So, for example, you could use an `assert` statement like this.
+You can use `assert` with any kind of expression that resolves to `true` or `false`. So, for example, you could add an `assert` statement like this.
 
 ```csharp
 Debug.Assert(users[0].points > 0);
