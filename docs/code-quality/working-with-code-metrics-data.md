@@ -1,9 +1,9 @@
 ---
-title: Code Metrics data
+title: Code Metrics window
 ms.date: 12/12/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "vs.codemetrics.output"
 helpviewer_keywords:
@@ -40,7 +40,7 @@ If code metrics results have been generated, expand the tree in the **Hierarchy*
 
 You can filter the results that are displayed in the **Code Metrics Results** window by using the toolbar at the top. For example, you might want to see only the results that have a maintainability index below 65.
 
-The **Filter** drop-down box contains the names of the results columns. When a filter is defined, it is added to the bottom of the list together with an indentation. The list can contain the last ten filters that were defined.
+The **Filter** drop-down box contains the names of the results columns. When a filter is defined, it is added to the bottom of the list together with an indentation. The list can contain the last 10 filters that were defined.
 
 ### To filter the code metrics results
 
@@ -56,7 +56,7 @@ The **Filter** drop-down box contains the names of the results columns. When a f
 
 ## Add, remove, and rearrange data columns
 
-You can add or remove results columns from the **Code Metrics Results** window . In addition, you can rearrange results columns so that they appear in the order that you want.
+You can add or remove results columns from the **Code Metrics Results** window. In addition, you can rearrange results columns so that they appear in the order that you want.
 
 ### Add or remove a column
 
