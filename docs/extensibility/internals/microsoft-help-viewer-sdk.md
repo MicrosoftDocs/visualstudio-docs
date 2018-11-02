@@ -13,6 +13,7 @@ ms.workload:
   - "vssdk"
 ---
 # Microsoft Help Viewer SDK
+
 This article contains the following tasks for Visual Studio Help Viewer integrators:  
   
 -   Creating a topic (F1 support)  
@@ -813,17 +814,10 @@ To test this as if deployed:
   
 12. Within the Contoso IDE, choose the F1 key to test F1 functionality.  
   
-### Additional Resources  
-For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/helpapi/helpapi-portal).  
+### Additional resources  
+
+For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/helpapi/helpapi-portal).
   
-For additional information on how to leverage the Help API, see [Help Viewer Code Examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples)  
+For additional information on how to leverage the Help API, see [Help Viewer code examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples).
   
-To provide feedback about these components, use [Microsoft Connect](http://connect.microsoft.com/).  
-  
-Please submit feature suggestions to [Microsoft User Voice](http://visualstudio.uservoice.com/forums/121579-visual-studio)  
-  
-To get additional help, try the [MSDN Developer Documentation and Help System forums](https://social.msdn.microsoft.com/Forums)  
-  
-Updates on breaking issue, please see the [Help Viewer Readme](http://go.microsoft.com/fwlink/?LinkID=231397&clcid=0x409)  
-  
-To contact the Help Viewer PM team directly, send e-mail to hlpfdbk@microsoft.com
+You can submit feature suggestions on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

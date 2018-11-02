@@ -818,17 +818,9 @@ some F# code
 19. Within the Contoso IDE, choose the F1 key to test F1 functionality.  
   
 ### Additional Resources  
- For the Runtime API, see [Windows Help API](http://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).  
-  
- For additional information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e)  
-  
- To provide feedback about these components, use [Microsoft Connect](http://connect.microsoft.com/).  
-  
- Please submit feature suggestions to [Microsoft User Voice](http://visualstudio.uservoice.com/forums/121579-visual-studio)  
-  
- To get additional help, try the [MSDN Developer Documentation and Help System forums](http://social.msdn.microsoft.com/Forums/devdocs/threads)  
-  
- Updates on breaking issue, please see the [Help Viewer Readme](http://go.microsoft.com/fwlink/?LinkID=231397&clcid=0x409)  
-  
- To contact the Help Viewer PM team directly, send e-mail to hlpfdbk@microsoft.com
 
+For the Runtime API, see [Windows Help API](http://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).  
+  
+For additional information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e).
+  
+For updates on breaking issues, see the [Help Viewer Readme](http://go.microsoft.com/fwlink/?LinkID=231397&clcid=0x409).

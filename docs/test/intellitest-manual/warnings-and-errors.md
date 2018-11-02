@@ -327,9 +327,7 @@ provide hints about how to use the public methods of
 a class to create an object, and bring it into a 
 state where its private field has the desired value.
 
-Read [Instantiating existing classes](input-generation.md#existing-classes)
-to learn how you can help IntelliTest construct 
-interesting objects. 
+Read [Instantiating existing classes](input-generation.md#existing-classes) to learn how you can help IntelliTest construct interesting objects. 
 
 <a name="help-types"></a>
 ## Need help to find types
@@ -345,8 +343,7 @@ You can help IntelliTest by pointing to one or more
 types that match the constraints. Usually, one of 
 the following attributes will help:
 
-* **PexUseTypeAttribute**, which points to a 
-  particular type.
+* **PexUseTypeAttribute**, which points to a   particular type.
 
   For example, if IntelliTest reports that it "does not
   know of any types assignable to **System.Collections.IDictionary**", 
@@ -396,8 +393,7 @@ Please [report this as a bug](#report-bug).
 <a name="targetinvocationexception"></a>
 ## TargetInvocationException
 
-An exception occurred in user code. Inspect the 
-stack trace, and remove the bug in your code.
+An exception occurred in user code. Inspect the stack trace, and remove the bug in your code.
 
 <a name="uninstrumented-method-called"></a>
 ## Uninstrumented method called
@@ -435,8 +431,7 @@ there are some methods that, for technical reasons,
 IntelliTest cannot monitor . For example, IntelliTest
 cannot monitor a static constructor.
 
-This warning appears when the instrumented code 
-calls a method that IntelliTest cannot monitor. 
+This warning appears when the instrumented code calls a method that IntelliTest cannot monitor. 
 
 <a name="testability-issue"></a>
 ## Testability issue
@@ -505,8 +500,7 @@ system in a state that allows to re-execute that test.
 Ideally, the unit test should not change any global 
 state, but all interactions with globals should be mocked.
 
-This warning indicates that a static field was 
-changed; this might make the test behave non-deterministically.
+This warning indicates that a static field was changed; this might make the test behave non-deterministically.
 
 In some situations, changing a static field is acceptable:
 
@@ -517,5 +511,4 @@ In some situations, changing a static field is acceptable:
 
 ## Got feedback?
 
-Post your ideas and feature requests on 
-**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
