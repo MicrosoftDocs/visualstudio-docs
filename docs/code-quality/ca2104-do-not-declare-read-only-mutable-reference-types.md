@@ -30,9 +30,12 @@ ms.workload:
 |Category|Microsoft.Security|
 |Breaking Change|Non-breaking|
 
+> [!NOTE]
+> Rule CA2104 is obsolete and will be removed in a future version of Visual Studio.
+
 ## Cause
 
-An externally visible type contains an externally visible read-only field that is possibly a mutable reference type.
+An externally visible type contains an externally visible read-only field that is a mutable reference type.
 
 ## Rule description
 
@@ -40,7 +43,7 @@ A mutable type is a type whose instance data can be modified. The <xref:System.T
 
 The read-only modifier ([readonly](/dotnet/csharp/language-reference/keywords/readonly) in C#, [ReadOnly](/dotnet/visual-basic/language-reference/modifiers/readonly) in Visual Basic, and [const](/cpp/cpp/const-cpp) in C++) on a reference type field (or pointer in C++) prevents the field from being replaced by a different instance of the reference type. However, the modifier does not prevent the instance data of the field from being modified through the reference type.
 
-This rule may inadvertently show a violation for a type that is, in fact, immutable. In that case, it is safe to suppress this rule. The rule checks the type against a finite list of types that are known to have immutable semantics, and it considers anything else mutable.
+This rule may inadvertently show a violation for a type that is, in fact, immutable. In that case, it is safe to suppress this rule.
 
 Read-only array fields are exempt from this rule but instead cause a violation of the [CA2105: Array fields should not be read only](../code-quality/ca2105-array-fields-should-not-be-read-only.md) rule.
 
