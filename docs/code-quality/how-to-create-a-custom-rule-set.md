@@ -1,13 +1,13 @@
 ---
-title: Create a custom code analysis rule set in Visual Studio
-ms.date: 04/04/2018
+title: Create a custom code analysis rule set
+ms.date: 11/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.addremoverulesets"
 helpviewer_keywords:
-  - "Development Edition, rule sets"
+  - "rule sets"
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -63,6 +63,10 @@ You can also create a new rule set file from the **New File** dialog:
    The new rule set is selected in the **Run this rule set** list.
 
 6. Select **Open** to open the new rule set in the rule set editor.
+
+### Rule precedence
+
+
 
 ## Name and description
 
