@@ -4,11 +4,17 @@
 - name: Publish to Azure
   expanded: true
   items:
-  - name: Publish a .NET TODO List Web App to Azure
-    href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet
+  - name: Publish a Cloud Service
+    href: vs-azure-tools-publishing-a-cloud-service.md
+  - name: Publish using the Visual Studio IDE
+    href: vs-azure-tools-publish-azure-application-wizard.md
+  - name: Publish using PowerShell script
+    href: vs-azure-tools-publishing-using-powershell-scripts.md
   - name: Publish an ASP.NET Web App to an Azure VM
     href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-- name: Connect to Azure Services
+  - name: Publish a Web App to a Cloud Service
+    href: vs-azure-tools-migrate-publish-web-app-to-cloud-service.md
+  - name: Connect to Azure Services
   expanded: false
   items:
   - name: Add Azure storage
