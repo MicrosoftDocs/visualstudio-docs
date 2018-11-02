@@ -24,7 +24,7 @@ sections:
     - href: vs-azure-tools-publishing-a-cloud-service.md
       html: <p></p>
       image:
-        src: https://docs.microsoft.com/azure/media/index/cloud-services.svg
+        src: https://docs.microsoft.com/azure/cloud-services/media/index/cloud-services.svg
       title: Publish a Cloud Service project
     - href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio
       html: <p></p>
