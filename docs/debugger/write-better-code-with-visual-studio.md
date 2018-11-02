@@ -172,9 +172,9 @@ This time, the app throws another exception, a run-of-the-mill `NullReferenceExc
 
 ![A NullReferenceException occurs](../debugger/media/write-better-code-null-reference-exception.png)
 
-**firstname**, in bold, has the `null` value that caused the exception. The exception occurred because you called a method (`Trim()`) on a non-object reference (`null`). **firstname** is just a variable referencing a property you defined in your code, not a library method that throws a special exception, so there is no good reason to use a `try/catch` block for this common exception. Let's review other options by asking the same questions as before. (Is this a bug you can easily fix? Might users encounter this exception?)
+**firstname**, in bold, has the `null` value that caused the exception. The exception occurred because you called a method (`Trim()`) on a non-object reference (`null`). **firstname** is just a variable referencing a property you defined in your code, not a library method that throws a special exception, so there is no good reason to use a `try/catch` block for this common exception. Let's review other options by asking the same questions as before--is this a bug you can easily fix? Might users encounter this exception?
 
-If you think it might be a fixable bug, you have several options. You need to make sure the code responds correctly to the `null` value. There are several ways to do this. A useful method, often underutilized, is to use an `assert` statement. By adding the following code, you include a runtime check to make sure that `firstname` is not `null`.
+If you think it might be a fixable bug, you have several options in this example. But instead of fixing the bug just yet, let's take the opportunity to discuss a helpful coding practice, often underutilized, which is to use `assert` statements in your functions. By adding the following code, you include a runtime check to make sure that `firstname` is not `null`.
 
 ```csharp
 // To use assert, add a using statement for System.Diagnostics at the start of the file.
@@ -187,15 +187,15 @@ if (existingUser == false)
     user.lastname = users[i].lastname.Trim();
 ```
 
-By adding `assert` statements to your functions, you can quickly specify the intent of your code during the development process. By specifying intent, you enforce your requirements. This is a simple and handy way that you can use to surface bugs during development. (`assert` statements are also used as the main element in unit tests.)
+By adding `assert` statements to your functions during the development process, you can help specify the intent of your code. By specifying intent in this way, you enforce your requirements. This is a simple and handy method that you can use to surface bugs during development. (`assert` statements are also used as the main element in unit tests.)
 
 When you add the preceding `assert` statements and rerun the code (click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button), the debugger pauses on the `assert` statement, as expected, because the expression evaluates to `false`. (The `assert` code is active only in a Debug build.) 
 
 ![Assert resolves to false](../debugger/media/write-better-code-using-assert.png)
 
-The `assert` failure tells you that there's a problem that you can then investigate.
+The `assert` error tells you that there's a problem that you need to investigate.
 
-While `assert` is great for debugging, you may also decide you need to fix the code for the release version. An easy option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
+During the debugging process, it's good to keep an `assert` statement until you know that you need to make a related code fix, then it's time to fix the code. An easy option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
 
 ```csharp
 user.firstname = users[i].firstname.Trim();
@@ -214,9 +214,7 @@ else
 }
 ```
 
-During the debugging process, it's good to keep the `assert` statement until you know that you need to make a code fix, then fix the code.
-
-Typically, you want to add code to clarify intent at the entry point of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is null, so check them both with an `assert` statement.
+Typically, when using `assert`, you want to add code to clarify intent at the entry point of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is null, so check them both with an `assert` statement.
 
 ```csharp
 public static void UpdateRecords(List<User> db, User[] users)
