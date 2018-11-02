@@ -25,15 +25,14 @@ ms.author: "tglee"
 manager: "ghogen"
 ---
 # Install Visual Studio 2015
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest installation documentation for Visual Studio 2017, see [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio). To view installation information about previous versions of Visual Studio, click the "Other Versions" link at the top of this page.
+[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 This page includes detailed information to help you with installing **Visual Studio 2015**, our integrated suite of productivity tools for developers. We've also included links to get you quickly to information about [features](https://www.visualstudio.com/news/vs2015-vs.aspx), [editions](http://go.microsoft.com/fwlink/?LinkID=242142), [system requirements](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs), [downloads](http://go.microsoft.com/fwlink/?LinkId=517106), and more.
 
-
 ## Quick Links
- Before we dig in to the details, here's a list of our most frequently requested links.
+
+Before we dig in to the details, here's a list of our most frequently requested links.
 
 |||
 |------------------|----------------|
@@ -96,7 +95,7 @@ This page includes detailed information to help you with installing **Visual Stu
 ### Downloading from your subscription service
  Visit  the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) page, and select the edition of Visual Studio that you want.
 
-###  <a name="BKMK_Offline"></a> Creating an offline installation  layout
+###  <a name="BKMK_Offline"></a> Creating an offline installation layout
  If you do not have the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installation media, or you do not have a Visual Studio subscription,  or you do not want to install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] by using the web installer, you can perform a "disconnected" installation by creating what is known as an offline installation layout. For more information, see the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page.
 
 ##  <a name="enterprise"></a> Deploying Visual Studio in an Enterprise
@@ -179,7 +178,7 @@ This page includes detailed information to help you with installing **Visual Stu
 
 -   [Visual Studio Setup and Installation](http://go.microsoft.com/fwlink/?LinkID=151190) forum. Review questions and answers from others in the Visual Studio community. If you don't find what you need, ask your own questions.
 
--   [Microsoft Support for Visual Studio](http://go.microsoft.com/fwlink/?LinkID=251019) website. Read knowledge base (KB) articles and learn how to contact Microsoft Support for information about issues with Visual Studio installation. 
+-   [Microsoft Support for Visual Studio](http://go.microsoft.com/fwlink/?LinkID=251019) website. Read knowledge base (KB) articles and learn how to contact Microsoft Support for information about issues with Visual Studio installation.
 
 ##  <a name="relatedTopics"></a> Related Topics
 
@@ -194,4 +193,5 @@ This page includes detailed information to help you with installing **Visual Stu
 |[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|Includes information and links that can help you use Visual Studio more effectively.|
 
 ## See Also
- [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
+
+- [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
