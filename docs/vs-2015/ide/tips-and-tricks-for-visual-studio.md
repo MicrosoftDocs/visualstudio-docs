@@ -138,7 +138,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ##  <a name="BKMK_ALM"></a> Application Lifecycle Management
 
-See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](http://msdn.microsoft.com/en-us/35ea128b-7565-4ee3-8266-b9f0d32aecf4).
+See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](/azure/devops/project/navigation/keyboard-shortcuts?view=vsts).
 
 ## See Also
 

@@ -23,9 +23,9 @@ manager: "ghogen"
 
 Welcome to Visual Studio 2015, an integrated suite of developer productivity tools, cloud services, and extensions that enable you and your team to create great apps and games for the web, for Windows Store, for the desktop, for Android, and for iOS.
 
- This page highlights some of the most important features that are new since Visual Studio 2013 RTM, including features that were first introduced in one of the Visual Studio 2013 updates. For a complete list of what’s new in Visual Studio 2015, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).
+This page highlights some of the most important features that are new since Visual Studio 2013 RTM, including features that were first introduced in one of the Visual Studio 2013 updates. For a complete list of what’s new in Visual Studio 2015, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).
 
- To find out more about the many improvements and new features in Visual Studio ALM, see [What's new for Application Lifecycle Management in Visual Studio 2015](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938).
+To find out more about the many improvements and new features in Visual Studio ALM, see [What's new for TFS 2015](/tfs/server/whats-new?view=vsts#tfs-2015-rtm).
 
 ## A new setup experience
  [!INCLUDE[downloadvs](./includes/downloadvs-md.md)]
@@ -260,7 +260,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 ### Report crashes, hangs and performance issues
  Sometimes, a quick note in a frown just isn’t enough to convey the full impact of something that you do not like. For the times when you have a hang, crash or performance issue, you can easily share repro steps, crash dumps and trace files by using the dialog that’s displayed after you send a frown.
 
- First, send a frown as described above. On the dialog that pops up, you can tag your feedback with either one of the default tags or create your own tag. Tags help us route your feedback to the appropriate feature team. In the **Choose a category** drop down list, select the option that represents the issue you’re reporting then follow the steps to reproduce the issue. Detailed steps on how to use Visual Studio to report feedback are also available. For more information, see [Visual Studio Send a Smile Instructions](http://msdn.microsoft.com/library/5cc9b67a-54d0-41b0-aa8f-80dff4475a6b).  
+ First, send a frown as described above. On the dialog that pops up, you can tag your feedback with either one of the default tags or create your own tag. Tags help us route your feedback to the appropriate feature team. In the **Choose a category** drop down list, select the option that represents the issue you’re reporting then follow the steps to reproduce the issue. Detailed steps on how to use Visual Studio to report feedback are also available. For more information, see [Visual Studio Send a Smile Instructions](http://msdn.microsoft.com/library/5cc9b67a-54d0-41b0-aa8f-80dff4475a6b).
 
 ## See Also
 * [Build cross-platform apps with Apache Cordova](http://msdn.microsoft.com/library/34d3c1be-22b3-4812-97fb-10b4e8ad2134)
@@ -270,5 +270,4 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 * [Work with multiple user accounts](./ide/work-with-multiple-user-accounts.md)
 * [Create custom window layouts](./misc/create-custom-window-layouts.md)
 * [Perform quick actions with light bulbs](./ide/perform-quick-actions-with-light-bulbs.md)
-* [What's new for Application Lifecycle Management in Visual Studio 2015](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)
 * [What's New in Visual Studio 2017](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
