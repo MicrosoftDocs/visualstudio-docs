@@ -1,7 +1,6 @@
 ---
 title: How to manage service configurations and profiles | Microsoft Docs
 description: Learn how to work with service configurations and profiles configuration files| which store settings for the deployment environments and publish settings for cloud services.
-
 author: ghogen
 manager: douge
 assetId: 7da8c551-fb06-4057-b5c7-c77f4b39d803
@@ -12,7 +11,6 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/11/2017
 ms.author: ghogen
-
 ---
 # How to manage service configurations and profiles
 ## Overview
@@ -54,7 +52,7 @@ You can also open the **Manage Configurations** dialog box from the role’s pro
     The name of the service configuration file is changed in the Azure project in Solution Explorer.
 
 ### To change a service configuration
-* If you want to change a service configuration, open the shortcut menu for the specific role you want to change in the Azure project, and then select **Properties**. See [How to: Configure the Roles for an Azure Cloud Service with Visual Studio](https://docs.microsoft.com/azure/vs-azure-tools-configure-roles-for-cloud-service) for more information.
+* If you want to change a service configuration, open the shortcut menu for the specific role you want to change in the Azure project, and then select **Properties**. See [How to: Configure the Roles for an Azure Cloud Service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md) for more information.
 
 ## Make different setting combinations by using profiles
 By using a profile, you can automatically fill in the **Publish Wizard** with different combinations of settings for different purposes. For example, you can have one profile for debugging and another for release builds. In that case, your **Debug** profile would have **IntelliTrace** enabled and the **Debug** configuration selected, and your **Release** profile would have **IntelliTrace** disabled and the **Release** configuration selected. You could also use different profiles to deploy a service using a different storage account.
