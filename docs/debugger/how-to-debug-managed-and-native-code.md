@@ -17,7 +17,6 @@ ms.workload:
   - "dotnet"
   - "cplusplus"
 ---
-
 # Tutorial: Debug managed and native code in the same debugging session
 
 Visual Studio allows you to enable more than one debugger type when debugging, which is called mixed mode debugging. In this tutorial, you set options to debug both managed and native code in a single debugging session. This tutorial shows how to debug native code from a managed app, but you can also do the reverse, and [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md) and using the script debugger in app types such as ASP.NET.
