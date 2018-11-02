@@ -13,7 +13,7 @@ ms.workload:
 ---
 # .NET compiler platform package version reference
 
-The following table shows which [].NET compiler platform (Roslyn) package](https://www.nuget.org/packages/Microsoft.Net.Compilers/) versions are supported for different versions of Visual Studio 2015 and Visual Studio 2017. To ensure that your custom analyzer works on all versions of Visual Studio 2017, for example, it should target version 2.0 of Microsoft.Net.Compilers.
+The following table shows which [.NET compiler platform (Roslyn) package](https://www.nuget.org/packages/Microsoft.Net.Compilers/) versions are supported for different versions of Visual Studio 2015 and Visual Studio 2017. To ensure that your custom analyzer works on all versions of Visual Studio 2017, for example, it should target version 2.0 of Microsoft.Net.Compilers.
 
 | Roslyn package version | Supported Visual Studio version |
 | - | - |
