@@ -20,7 +20,7 @@ You can generate code metrics results for one or more projects or an entire solu
 
 In addition, you can install a [NuGet package](https://dotnet.myget.org/feed/roslyn-analyzers/package/nuget/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.2-beta2-63202-01) that includes four code metrics [analyzer](roslyn-analyzers-overview.md) rules: CA1501, CA1502, CA1505, and CA1506. These rules are disabled by default, but you can enable them from **Solution Explorer** or in a [rule set](using-rule-sets-to-group-code-analysis-rules.md) file.
 
-## Generate code metrics in the Visual Studio IDE
+## Visual Studio IDE code metrics
 
 ### Generate code metrics results for an entire solution
 
@@ -42,13 +42,13 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy**.
 
-## Generate code metrics from the command line
+## Command-line code metrics
 
 You can generate code metrics data from the command line for C# and Visual Basic projects for .NET Framework, .NET Core, and .NET Standard apps. The command line code metrics tools is called *Metrics.exe*.
 
 To obtain the *Metrics.exe* executable, you must [generate it yourself](#generate-the-executable). In the near future, a [published version of *Metrics.exe* will be available](https://github.com/dotnet/roslyn-analyzers/issues/1756) so you don't have to build it yourself.
 
-## Generate the executable
+### Generate the executable
 
 To generate the executable *Metrics.exe*, follow these steps:
 
@@ -60,7 +60,7 @@ To generate the executable *Metrics.exe*, follow these steps:
 
    An executable named *Metrics.exe* is generated in the *Binaries* directory under the repo root.
 
-## Usage
+### Usage
 
 To run *Metrics.exe*, supply a project or solution and an output XML file as arguments. For example:
 
@@ -72,7 +72,7 @@ Writing output to 'report.xml'...
 Completed Successfully.
 ```
 
-## Output
+### Output
 
 The generated XML output takes the following format:
 

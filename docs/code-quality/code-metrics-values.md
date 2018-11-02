@@ -35,7 +35,7 @@ The following list shows the code metrics results that Visual Studio calculates:
 - **Lines of Code** - Indicates the approximate number of lines in the code. The count is based on the IL code and is therefore not the exact number of lines in the source code file. A very high count might indicate that a type or method is trying to do too much work and should be split up. It might also indicate that the type or method might be hard to maintain.
 
    > [!NOTE]
-   > The [command-line version](../code-quality/how-to-generate-code-metrics-data.md#generate-code-metrics-from-the-command-line) of the code metrics tool counts actual lines of code because it analyzes the source code instead of IL.
+   > The [command-line version](../code-quality/how-to-generate-code-metrics-data.md#command-line-code-metrics) of the code metrics tool counts actual lines of code because it analyzes the source code instead of IL.
 
 ## Anonymous methods
 
