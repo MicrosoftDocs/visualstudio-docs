@@ -300,7 +300,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="debugger/">
+                                <a href="/visualstudio/debugger/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -338,7 +338,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="deployment/">
+                                <a href="/visualstudio/deployment/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -395,7 +395,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="profiling/">
+                                <a href="/visualstudio/profiling/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -415,7 +415,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="extensibility/">
+                                <a href="/visualstudio/extensibility/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -624,7 +624,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="python/">
+                                                <a href="/visualstudio/python/">
                                                     <h3>Python</h3>
                                                     <p>A dynamic object-oriented, high-level programming language often used for rapid application development.</p>
                                                 </a>
@@ -643,7 +643,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="rtvs/">
+                                                <a href="/visualstudio/rtvs/">
                                                     <h3>R</h3>
                                                     <p>An extensible programming language typically used for statistical computing and graphics.</p>
                                                 </a>
@@ -707,7 +707,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="python/">
+                                <a href="/visualstudio/python/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -745,7 +745,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="data-tools/">
+                                <a href="/visualstudio/data-tools/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -936,7 +936,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="cross-platform/">
+                                <a href="/visualstudio/cross-platform/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -979,7 +979,7 @@ ms.topic: hub-page
                         <a href="#other">Other Toolsets</a>
                         <ul id="other" class="cardsC">
                             <li>
-                                <a href="extensibility/">
+                                <a href="/visualstudio/extensibility/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
