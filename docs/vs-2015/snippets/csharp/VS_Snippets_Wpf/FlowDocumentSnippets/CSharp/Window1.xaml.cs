@@ -163,7 +163,7 @@ namespace FlowDocumentSnippets
             {
                 // <Snippet_FlowDocumentColumnGap>
                 FlowDocument flowDoc = new FlowDocument(new Paragraph(new Run("A bit of text content...")));
-                // Set the desired column gap to 10 device independend pixels.
+                // Set the desired column gap to 10 device independent pixels.
                 flowDoc.ColumnGap = 10.0;
                 // </Snippet_FlowDocumentColumnGap>
             }
@@ -248,7 +248,7 @@ namespace FlowDocumentSnippets
         {
             // <Snippet_FlowDocumentFontStuff>
             FlowDocument flowDoc = new FlowDocument(new Paragraph(new Run("A bit of text content...")));
-            // Set the desired column gap to 10 device independend pixels.
+            // Set the desired column gap to 10 device independent pixels.
             flowDoc.FontFamily = new FontFamily("Century Gothic");
             flowDoc.FontSize = 12.0;
             flowDoc.FontStretch = FontStretches.UltraExpanded;

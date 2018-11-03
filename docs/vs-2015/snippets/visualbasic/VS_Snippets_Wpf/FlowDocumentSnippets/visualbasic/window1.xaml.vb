@@ -148,7 +148,7 @@ Namespace FlowDocumentSnippets
 		Private Sub ColumnStuff()
 				' <Snippet_FlowDocumentColumnGap>
             Dim flowDocColGap As New FlowDocument(New Paragraph(New Run("A bit of text content...")))
-				' Set the desired column gap to 10 device independend pixels.
+				' Set the desired column gap to 10 device independent pixels.
             flowDocColGap.ColumnGap = 10.0
 				' </Snippet_FlowDocumentColumnGap>
 
@@ -209,7 +209,7 @@ Namespace FlowDocumentSnippets
 		Private Sub FontStuff()
 			' <Snippet_FlowDocumentFontStuff>
 			Dim flowDoc As New FlowDocument(New Paragraph(New Run("A bit of text content...")))
-			' Set the desired column gap to 10 device independend pixels.
+			' Set the desired column gap to 10 device independent pixels.
 			flowDoc.FontFamily = New FontFamily("Century Gothic")
 			flowDoc.FontSize = 12.0
 			flowDoc.FontStretch = FontStretches.UltraExpanded
