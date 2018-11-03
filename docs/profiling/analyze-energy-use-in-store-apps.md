@@ -141,7 +141,7 @@ if (performance && performance.mark) {
   
 ## Other resources  
   
--   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](/previous-versions/windows/apps/hh452985\(v\=win.10\)) and [JavaScript and HTML](https://msdn.microsoft.com/en-us/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
+-   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](/previous-versions/windows/apps/hh452985\(v\=win.10\)) and [JavaScript and HTML](https://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
   
      The Visual Studio simulator for UWP apps enables you to simulate data connection properties of the network information APIs. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   
