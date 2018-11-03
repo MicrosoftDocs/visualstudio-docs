@@ -351,7 +351,7 @@ namespace FlowDocumentSnippets
             tfe.PositionStart = 0;
             tfe.PositionCount = int.MaxValue;
 
-            // Add this text effect to the FlowDocument's effects colleciton.
+            // Add this text effect to the FlowDocument's effects collection.
             fd.TextEffects = new TextEffectCollection();
             fd.TextEffects.Add(tfe);
 

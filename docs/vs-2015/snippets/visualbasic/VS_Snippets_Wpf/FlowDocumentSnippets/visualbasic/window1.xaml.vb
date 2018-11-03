@@ -306,7 +306,7 @@ Namespace FlowDocumentSnippets
 			tfe.PositionStart = 0
 			tfe.PositionCount = Integer.MaxValue
 
-			' Add this text effect to the FlowDocument's effects colleciton.
+			' Add this text effect to the FlowDocument's effects collection.
 			fd.TextEffects = New TextEffectCollection()
 			fd.TextEffects.Add(tfe)
 
