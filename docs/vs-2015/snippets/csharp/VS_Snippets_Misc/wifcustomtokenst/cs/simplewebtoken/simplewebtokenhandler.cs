@@ -49,9 +49,9 @@ namespace SimpleWebToken
         }
 
         /// <summary>
-        /// Gets the System.Type of the SecurityToken is supported by ththis handler.
+        /// Gets the System.Type of the SecurityToken is supported by this handler.
         /// </summary>
-        /// <value>The System.Type of the SecurityToken is supported by ththis handler.</value>
+        /// <value>The System.Type of the SecurityToken is supported by this handler.</value>
         public override Type TokenType
         {
             get
