@@ -39,9 +39,9 @@ You must have Visual Studio installed, with the following workloads:
 - **Desktop development with C++**
 - Either **.NET desktop development** or **.NET Core cross platform development**, depending on which type of app you want to create.
 
-If you haven't installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-If you have Visual Studio installed, but don't have both of the workloads, select **Open Visual Studio Installer** in the left pane of the Visual Studio **New Project** dialog box. In the Visual Studio Installer, select the workloads you need, and then select **Modify**.
+If you have Visual Studio installed, but don't have the workloads you need, select **Open Visual Studio Installer** in the left pane of the Visual Studio **New Project** dialog box. In the Visual Studio Installer, select the workloads you need, and then select **Modify**.
 
 ## Create a simple native DLL
 
@@ -176,9 +176,7 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
 1. In **Solution Explorer**, expand **Properties**, and open the *launchSettings.json* file. 
 
    >[!NOTE]
-   >By default, the *launchSettings.json* file is in *C:\Users\<username>\source\repos\Mixed_Mode_Calling_App\Properties*.
-   >
-   >If *launchSettings.json* is not present, open the project properties by selecting the **Mixed_Mode_Calling_App** project and then selecting the **Properties** icon, or right-clicking the project node and selecting **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
+   >By default, *launchSettings.json* is in *C:\Users\\<username>\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
 
 1. In the *lauchsettings.json* file, add the following line:
 
@@ -209,7 +207,7 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
 
     A red circle appears in the left margin where you set the breakpoint.
 
-1. Press **F5**, select the green arrow in the Visual Studio toolbar, or select **Debug** > **Start Debugging** to start the debugger.
+1. Press **F5**, select the green arrow in the Visual Studio toolbar, or select **Debug** > **Start Debugging** to start debugging.
 
    The debugger pauses on the breakpoint that you set. A yellow arrow indicates where the debugger is currently paused.
 
@@ -221,7 +219,7 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
 
    ![Step into native code](../debugger/media/mixed-mode-step-into-native-code.png)
 
-   Now, you can set and hit breakpoints and inspect variables in the native code.
+   Now, you can set and hit breakpoints and inspect variables in the native or managed code.
 
    - Hover over variables in the source code to see their values.
 
@@ -235,11 +233,11 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
 
 1. Press **F5** or select the green arrow to continue debugging the app.
 
-Congratulations! You have completed the tutorial on mixed mode debugging.
+Congratulations! You have completed the tutorial on mixed-mode debugging.
 
 ## Next step
 
-In this tutorial, you learned how to debug native code from a managed app by enabling mixed-mode debugging. For an overview of other debugger features, see the following article:
+In this tutorial, you learned how to debug native code from a managed app by enabling mixed-mode debugging. For an overview of other debugger features, see:
 
 > [!div class="nextstepaction"]
 > [First look at the debugger](../debugger/debugger-feature-tour.md)
