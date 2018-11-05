@@ -1,7 +1,7 @@
 ---
-title: "SetEnv Task | Microsoft Docs"
+title: "SetEnv task | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/05/2018"
 ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
@@ -33,7 +33,7 @@ Sets or deletes the value of a specified environment variable.
 |**Name**|Required **String** parameter.<br /><br /> The name of an environment variable.|  
 |**OutputEnvironmentVariable**|Optional **String** output parameter.<br /><br /> Contains the value that is assigned to the environment variable that is specified by the **Name** parameter.|  
 |**Prefix**|Mandatory `Boolean` parameter.<br /><br /> If `true`, concatenates the value of the **Value** parameter before the value of the environment variable that is specified by the **Name** parameter, and then assigns the result to the environment variable. If `false`, assigns only the value of the **Value** parameter to the environment variable.|  
-|**Target**|Optional **String** parameter.<br /><br /> Specifies the location where an environment variable is stored. Specify "User" or "Machine".<br /><br /> For more information, see [EnvironmentVariableTarget Enumeration](xref:System.EnvironmentVariableTarget) on the MSDN website.|  
+|**Target**|Optional **String** parameter.<br /><br /> Specifies the location where an environment variable is stored. Specify "User" or "Machine".<br /><br /> For more information, see [EnvironmentVariableTarget Enumeration](xref:System.EnvironmentVariableTarget).|  
 |**Value**|Optional **String** parameter.<br /><br /> The value assigned to the environment variable that is specified by the **Name** parameter. If **Value** is empty and the variable exists, the variable is deleted. If the variable does not exist, no error occurs even though the operation cannot be performed.<br /><br /> For more information, see [Environment::SetEnvironmentVariable Method](xref:System.Environment.SetEnvironmentVariable%2A) on the MSDN website.|  
   
 ## See also  
