@@ -29,7 +29,7 @@ namespace WebApplication
                 // Create a ClaimsPrincipal object from the current user to work with claims
                 ClaimsPrincipal claimsPrincipal = User as ClaimsPrincipal;
 
-                // We can use the FindFirst method to get the first occurance of a specific claim.
+                // We can use the FindFirst method to get the first occurrence of a specific claim.
                 // This is very useful when you only expect a single instance of a particular claim type.
                 // Note the ClaimTypes class contains many common claims defined as properties for your use.
 
