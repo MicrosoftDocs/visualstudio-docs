@@ -161,7 +161,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 ## Configure mixed-mode debugging 
 
-**To configure mixed-mode debugging for a .NET Framework app:** 
+### To configure mixed-mode debugging for a .NET Framework app 
 
 1. In **Solution Explorer**, select the **Mixed_Mode_Calling_App** project node and select the **Properties** icon, or right-click the project node and select **Properties**.
 
@@ -169,14 +169,14 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
     ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
 
-**To configure mixed-mode debugging for a .NET Core app:** 
+### To configure mixed-mode debugging for a .NET Core app 
 
 In most versions of Visual Studio 2017, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging for native code in a .NET Core app. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
 
 1. In **Solution Explorer**, expand **Properties**, and open the *launchSettings.json* file. 
 
    >[!NOTE]
-   >By default, *launchSettings.json* is in *C:\Users\&lt;username&gt;\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
+   >By default, *launchSettings.json* is in *C:\Users\&#x3C;username&gt;\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
 
 1. In the *lauchsettings.json* file, add the following line:
 
