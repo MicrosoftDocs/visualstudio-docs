@@ -59,7 +59,7 @@ namespace BasicManipulation
                     new Rect(rectToMove.RenderSize));
 
             // Check if the rectangle is completely in the window.
-            // If it is not and intertia is occuring, stop the manipulation.
+            // If it is not and intertia is occurring, stop the manipulation.
             if (e.IsInertial && !containingRect.Contains(shapeBounds))
             {
                 e.Complete();
