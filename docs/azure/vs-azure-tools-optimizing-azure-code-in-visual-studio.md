@@ -1,22 +1,16 @@
 ---
 title: Optimizing your Azure code in Visual Studio | Microsoft Docs
 description: Learn about how Azure code optimization tools in Visual Studio help make your code more robust and better-performing.
-
-documentationcenter: na
-author: cawa
-manager: paulyuk
-editor: ''
-
+author: ghogen
+manager: douge
 ms.assetid: ed48ee06-e2d2-4322-af22-07200fb16987
-ms.service: multiple
-ms.devlang: dotnet
-ms.topic: article
-ms.tgt_pltfrm: na
+ms.topic: conceptual
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.date: 11/11/2016
-ms.author: cawa
-
+ms.author: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-azure
 ---
 # Optimizing Your Azure Code
 When you’re programming apps that use Microsoft Azure, there are some coding practices you should follow to help avoid problems with app scalability, behavior and performance in a cloud environment. Microsoft provides an Azure Code Analysis tool that recognizes and identifies several of these commonly-encountered issues and helps you resolve them. You can download the tool in Visual Studio via NuGet.
