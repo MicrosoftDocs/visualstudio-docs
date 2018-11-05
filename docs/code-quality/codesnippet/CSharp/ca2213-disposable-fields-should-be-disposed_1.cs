@@ -1,13 +1,12 @@
-using System;  
+using System;
 
 namespace UsageLibrary
 {
-    public class  TypeA :IDisposable
+    public class  TypeA : IDisposable
     {
-     
-        protected virtual void Dispose(bool disposing) 
+        protected virtual void Dispose(bool disposing)
         {
-            if (disposing) 
+            if (disposing)
             {
                 // Dispose managed resources
             }
@@ -17,11 +16,8 @@ namespace UsageLibrary
 
         public void Dispose()
         {
-
-                Dispose(true);
-
-                GC.SuppressFinalize(this);
-
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
         // Disposable types implement a finalizer.
