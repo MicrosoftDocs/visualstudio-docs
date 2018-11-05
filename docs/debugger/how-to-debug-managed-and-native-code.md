@@ -53,7 +53,7 @@ If you have Visual Studio installed, but don't have both of the workloads, selec
 
 1. In the **Name** field, type **Mixed_Mode_Debugging**, and then select **OK**.
 
-   Visual Studio creates the empty project and shows it in **Solution Explorer**.
+   Visual Studio creates the empty project and displays it in **Solution Explorer**.
 
 1. In **Solution Explorer**, select **Source Files**, and then select **Project** > **Add New Item**. Or, right-click **Source Files** and select **Add** > **New Item**. 
 
@@ -95,7 +95,7 @@ If you have Visual Studio installed, but don't have both of the workloads, selec
 
 1. In **Solution Explorer**, select the **Mixed_Mode_Debugging** project node and select the **Properties** icon, or right-click the project node and select **Properties**.
 
-1. At the top of the **Properties** pane, make sure the **Configuration** is set to **Active(Debug)** and the **Platform** is the same as what you set in the toolbar: **x64**, or **Win32** for *x86* platform. 
+1. At the top of the **Properties** pane, make sure the **Configuration** is set to **Active(Debug)** and the **Platform** is the same as what you set in the toolbar: **x64**, or **Win32** for x86 platform. 
 
    > [!IMPORTANT]
    > If you switch platform from **x86** to **x64** or vice versa, you must reconfigure the properties for the new platform. 

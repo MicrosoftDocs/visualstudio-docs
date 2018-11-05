@@ -26,7 +26,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# View DLLs and executables in the debugger Modules window
+# View DLLs and executables in the Modules window
  
 During Visual Studio debugging, the **Modules** window lists and shows information about the DLLs and executables (*.exe* files) your app uses. 
 
