@@ -103,7 +103,7 @@ Markup zoom enables you to size **XAML** view. You can zoom from 20% to 400%.
 ## Device window
 
 > [!NOTE]
-> If the target platform version (`TargetPlatformVersion`) of a UWP application is 10.0.16299.0 or higher, **Device Window** is not available.
+> If the target platform version (`TargetPlatformVersion`) of a UWP application is 10.0.16299.0 or higher, the **Device** window is not available.
 
 The **Device** window in XAML Designer enables you to simulate at design-time various views, displays, and display options for your project. The **Device** window is available on the **Design** menu when you are working in the XAML Designer. Here's what it looks like:
 
