@@ -69,7 +69,7 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 |-|-|-|
 |Go to All|**Ctrl**+**T**|
 |Go to Recent Files|**Ctrl**+**T**,**R**|
-|Multi-caret multiple insertion points|**Ctrl**+**Alt**+***LeftClick**|
+|Multi-caret multiple insertion points|**Ctrl**+**Alt**+**click**|
 |Multi-caret add matching selection|**Shift**+**Alt**+**Ins**|
 |Format Document|**Ctrl**+**K**,**D**|Visual Studio 2017 version 15.8|
 |IntelliSense Suggestion Mode|**Ctrl**+**Alt**+**Space** (Toggle)||
