@@ -120,7 +120,7 @@ Starting in Visual Studio 2017 Version 15.5, there's a new workflow to help user
 
 If you don't want to or can't use Visual Studio to report a problem, there's a chance that the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
 
-If you don't have a problem to report but want to provide product feedback or a suggestion, there's a place for that, too. For more information, see the [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide) page.
+If you don't have a problem to report but want to suggest a feature, there's a place for that, too. For more information, see the [Suggest a feature](https://developercommunity.visualstudio.com/content/idea/post.html?space=8) page.
 
 ## See also
 

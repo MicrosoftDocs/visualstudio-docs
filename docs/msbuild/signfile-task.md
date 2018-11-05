@@ -67,7 +67,7 @@ Signs the specified file using the specified certificate.
 ```
 
 > [!NOTE]
-> The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 hash of a trusted root CA certificate](http://msdn.microsoft.com/en-us/dd641990-9a88-4228-a245-017797131a87).
+> The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 hash of a trusted root CA certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733076\(v\=ws.10\)).
   
 ## See also  
  [Task reference](../msbuild/msbuild-task-reference.md)   
