@@ -176,7 +176,7 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
 1. In **Solution Explorer**, expand **Properties**, and open the *launchSettings.json* file. 
 
    >[!NOTE]
-   >By default, *launchSettings.json* is in *C:%5CUsers%5C%3Cusername%3E%5Csource%5Crepos%5CMixed_Mode_Calling_App%5CProperties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
+   >By default, *launchSettings.json* is in *C:\Users\username\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
 
 1. In the *lauchsettings.json* file, add the following line:
 
