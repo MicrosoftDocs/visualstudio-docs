@@ -35,17 +35,17 @@ During Visual Studio debugging, the **Modules** window lists and shows informati
   
 ## Use the Modules window
 
-To open the Modules window, while you are debugging, select **Debug** > **Windows** > **Modules**. 
+To open the Modules window, while you're debugging, select **Debug** > **Windows** > **Modules**. 
   
-By default, the **Modules** window sorts modules by load order, but you can sort by any window column by selecting the header at the top of the column.  
+By default, the **Modules** window sorts modules by load order. To sort by any window column, select the header at the top of the column.  
   
 ## Load symbols  
 
-The **Symbol Status** column in the **Modules** window shows which modules have debugging symbols loaded. If the status is **Skipped loading symbols**, **Cannot find or open the PDB file**, or **Loading disabled by include/exclude setting**, you can use the shortcut menu to load symbols manually. For more information about loading and using symbols, see [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+The **Symbol Status** column in the **Modules** window shows which modules have debugging symbols loaded. If the status is **Skipped loading symbols**, **Cannot find or open the PDB file**, or **Loading disabled by include/exclude setting**, you can load symbols manually. For more information about loading and using symbols, see [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 **To load symbols manually**  
 
-1. In the **Modules** window, right-click the module for which symbols have not loaded. 
+1. In the **Modules** window, right-click the module for which symbols haven't loaded. 
    
    - Select **Symbol Load Information** for details about why the symbols didn't load. 
    
