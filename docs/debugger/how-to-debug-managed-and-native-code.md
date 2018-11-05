@@ -176,7 +176,7 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
 1. In **Solution Explorer**, expand **Properties**, and open the *launchSettings.json* file. 
 
    >[!NOTE]
-   >By default, *launchSettings.json* is in *C:\Users\\<username>\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
+   >By default, *launchSettings.json* is in *C:\Users\&lt;username&gt;\source\repos\Mixed_Mode_Calling_App\Properties*. If *launchSettings.json* doesn't exist, select the **Mixed_Mode_Calling_App** project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Make a temporary change in the **Debug** tab, and build the project. This will create a *launchSettings.json* file. Revert the change that you made in the **Debug** tab.
 
 1. In the *lauchsettings.json* file, add the following line:
 
@@ -219,7 +219,7 @@ In most versions of Visual Studio 2017, you must use the *launchSettings.json* f
 
    ![Step into native code](../debugger/media/mixed-mode-step-into-native-code.png)
 
-   Now, you can set and hit breakpoints and inspect variables in the native or managed code.
+1. Now, you can set and hit breakpoints and inspect variables in the native or managed code.
 
    - Hover over variables in the source code to see their values.
 
