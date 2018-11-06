@@ -32,4 +32,4 @@ You can serialize symbols that you must have to analyze your application. Symbol
 ## See also  
  [Configure performance sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md)   
- [How to: Save analyzed report files](http://msdn.microsoft.com/en-us/0340ddde-caf4-48ac-8af3-d15dcdade556)
+ [How to: Save analyzed report files](/previous-versions/visualstudio/visual-studio-2010/bb763106\(v\=vs.100\))
