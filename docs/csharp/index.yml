@@ -54,17 +54,17 @@ sections:
       html: <p>Use ASP.NET Core to create a modern web app.</p>
       image: 
         src: https://docs.microsoft.com/media/common/i_web-color.svg
-      title: Create a web app
+      title: Web app
     - href: ../ide/quickstart-uwp-csharp.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
-      html: <p></p>
+      html: <p>Create a Universal Windows Platform app using the latest rich UI Framework designed to make the most of Windows 10.</p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_Windows.svg
-      title: Create a Universal Windows Platform (UWP) app
+      title: UWP app
     - href: ../ide/walkthrough-create-a-simple-application-in-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
-      html: <p>Create a Windows classic desktop application using Windows Presentation Foundation (WPF), a rich UI framework.</p>
+      html: <p>Create a Windows classic desktop application using Windows Presentation Foundation, a rich UI framework.</p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_Windows.svg
-      title: Create a WPF app
+      title: WPF app
 - title: Develop Applications
   items:
   - type: paragraph
@@ -95,7 +95,7 @@ sections:
         src: https://docs.microsoft.com/media/common/i_test.svg
       title: Test
     - href: ../data-tools/create-a-sql-database-by-using-a-designer.md
-      html: <p></p>
+      html: <p>Create a SQL database using the Visual Studio database design tools.</p>
       image:
         src: https://docs.microsoft.com/media/common/i_generic-database.svg
       title: Access data
