@@ -21,7 +21,7 @@
     - name: Create a UWP app
       href: ../ide/quickstart-uwp-csharp.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: Create a WPF application
-      href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
+      href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
   - name: Learn Visual Studio
     items:
     - name: Writing and editing code

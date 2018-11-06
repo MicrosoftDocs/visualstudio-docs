@@ -60,7 +60,7 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_Windows.svg
       title: UWP app
-    - href: ../ide/walkthrough-create-a-simple-application-in-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - href: ../ide/walkthrough-create-a-simple-application-with-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
       html: <p>Create a Windows classic desktop application using Windows Presentation Foundation, a rich UI framework.</p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_Windows.svg
