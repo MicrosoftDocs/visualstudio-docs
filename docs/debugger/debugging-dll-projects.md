@@ -37,7 +37,7 @@ For more information, see [MFC debugging techniques](../debugger/mfc-debugging-t
 
 You can also create DLLs with the C# or Visual Basic Windows Forms Control (WCF) Library project templates. 
 
-Debugging a WCF Library is similar to debugging a Class Library. In most cases, you call the control from another project. When you debug the calling project, you can step into the code of your control, set breakpoints, and perform other debugging operations. For more information, see [Windows Forms Controls](/dotnet/framework/winforms/controls/index).  
+Debugging a WCF Library is similar to debugging a Class Library. You usually call the control from another project. When you debug the calling project, you can step into the code of your control, set breakpoints, and do other debugging operations. For details, see [Windows Forms Controls](/dotnet/framework/winforms/controls/index).  
 
 ## <a name="vxtskdebuggingdllprojectschangingdefaultconfigurations"></a> Configure DLLs
 
@@ -64,19 +64,19 @@ For more information, see [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-ad
 
 The debugging features available for DLLs outside your project, such as stepping through code, depend on the [debug configuration of the DLL](#vxtskdebuggingdllprojectsbuildingadebugversion) when it was built, and whether the [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and other required DLL files are available.
 
-To debug an external DLL, a project must be able to find the DLL and the *.pdb* file used for debugging. You can create a custom build task to copy these files to your *\<project folder>\Debug* output folder, or you can copy the files there manually.
+To debug an external DLL, a project must find the DLL and its *.pdb* file. You can create a custom build task to copy these files to your *\<project folder>\Debug* output folder, or you can copy the files there manually.
 
-For C/C++ projects, you can set locations of header files and *.lib* files in the project property pages: 
+For C/C++ projects, you can set locations of header files and LIB files in the project property pages: 
 
 1. Select the project in **Solution Explorer** and select the **Properties** icon, or right-click the project and select **Properties**. 
    
 1. At the top of the **Properties** pane, under **Configuration**, select **All Configurations**.
    
-1. Under **C/C++** > **General** > **Additional Include Directories**, specify the folder containing header files.
+1. Under **C/C++** > **General** > **Additional Include Directories**, specify the folder that has header files.
    
-1. Under **Linker** > **General** > **Additional Libraries Directories**, specify the folder containing the *.lib* file. 
+1. Under **Linker** > **General** > **Additional Libraries Directories**, specify the folder that has the LIB file. 
    
-1. Under **Linker** > **Input** > **Additional Dependencies**, specify the full path and filename for the *.lib* file.
+1. Under **Linker** > **Input** > **Additional Dependencies**, specify the full path and filename for the LIB file.
 
 1. Select **OK**.
 
@@ -94,7 +94,7 @@ To debug directly from a DLL project, see [How to: Debug from a DLL project](../
   
 To start debugging, select **Debug** > **Start Debugging**, select the green arrow in the toolbar, or press **F5**. For more information, see [Get started with the debugger](getting-started-with-the-debugger.md).
 
-During debugging, the **Modules** window lists the DLLs and *.exe* files your app has loaded for the process you are debugging. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules**. For more information, see [How to: Use the Modules window](../debugger/how-to-use-the-modules-window.md). 
+The **Modules** window lists the DLLs and *.exe* files your app has loaded for the process you're debugging. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules**. For more information, see [How to: Use the Modules window](../debugger/how-to-use-the-modules-window.md). 
 
 ### <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Start debugging from the calling app
 
@@ -115,7 +115,7 @@ or
 
 - Attach to an existing app that is already deployed and running on a test or production computer. Use this method for DLL controls in Internet Explorer or on web pages. For more information, see [How to: Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
-Before you start debugging the calling app, set a breakpoint in the DLL. For more information, see [Using breakpoints](../debugger/using-breakpoints.md). When the breakpoint is hit, you can step through the code, observing the action at each line. For more information, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
+Before you start debugging the calling app, set a breakpoint in the DLL. See [Using breakpoints](../debugger/using-breakpoints.md). When the breakpoint is hit, you can step through the code, observing the action at each line. For more information, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
   
 ###  <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> Use the Immediate window  
 
@@ -147,7 +147,7 @@ For example, to test a method named `Test` in class `Class1`:
     ?obj.Test(10);  
     ```  
   
-     The breakpoint will be hit and you will be able to step through `Test`. After execution has left `Test`, the debugger will be back in Design mode.
+     The breakpoint will be hit and you can step through `Test`. After execution has left `Test`, the debugger will be back in Design mode.
 
 ##  <a name="vxtskdebuggingdllprojectsmixedmodedebugging"></a> Mixed-mode debugging  
 
