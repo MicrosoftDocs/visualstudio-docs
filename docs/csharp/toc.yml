@@ -1,0 +1,38 @@
+- name: C# in Visual Studio
+  href: index.yml
+  items:
+  - name: Overview
+    items:
+    - name: About Visual Studio 2017
+      href: ../ide/visual-studio-ide.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: About the code editor
+      href: ../ide/quickstart-editor.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: About projects and solutions
+      href: ../ide/quickstart-projects-solutions.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: More Visual Studio features
+      href: ../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+  - name: Create an app
+    expanded: true
+    items:
+    - name: Create your first C# app
+      href: ../ide/tutorial-csharp-console.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: Create a web app
+      href: ../ide/tutorial-csharp-aspnet-core.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: Create a UWP app
+      href: ../ide/quickstart-uwp-csharp.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: Create a WPF application
+      href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+  - name: Learn Visual Studio
+    items:
+    - name: Writing and editing code
+      href: ../ide/index-writing-code.md
+    - name: Compile and build
+      href: ../ide/compiling-and-building-in-visual-studio.md
+    - name: Debug your code
+      href: ../debugger/getting-started-with-the-debugger.md
+    - name: Unit testing
+      href: ../test/getting-started-with-unit-testing.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: Deploy your project
+      href: ../deployment/index.md
+    - name: Access data
+      href: ../data-tools/create-a-sql-database-by-using-a-designer.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json

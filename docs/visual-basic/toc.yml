@@ -1,0 +1,27 @@
+- name: Get started with Visual Basic in Visual Studio
+  href: index.yml
+  items:
+  - name: Create a console app
+    href: ../ide/tutorial-visual-basic-console.md
+  - name: Create a UWP app
+    href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+  - name: Create a WPF app
+    href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+  - name: Create a web app
+    href: /aspnet/web-pages/overview/getting-started/introducing-razor-syntax-vb
+  - name: Create a Windows Forms app
+    href: ../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+  - name: 'Learn Visual Studio'
+    items:
+    - name: Writing and editing code
+      href: ../ide/index-writing-code.md
+    - name: Compile and build
+      href: ../ide/compiling-and-building-in-visual-studio.md
+    - name: Debug your code
+      href: ../debugger/getting-started-with-the-debugger.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    - name: Unit testing
+      href: ../test/getting-started-with-unit-testing.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    - name: Deploy your project
+      href: ../deployment/index.md
+    - name: Access data
+      href: ../data-tools/create-a-sql-database-by-using-a-designer.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
