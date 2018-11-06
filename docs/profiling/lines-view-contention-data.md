@@ -13,26 +13,26 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Lines View - Contention Data
+# Lines View - contention data
 The Lines view of contention data lists performance data for the statements that were executing when the samples were collected in the profiling run. In a source file, a statement can span more than one line in a source file, and a single line can include more than one statement.  
   
  A statement is identified by the following data:  
   
--   The source file that contains the function statement.  
+- The source file that contains the function statement.  
   
--   The function that contains the statement.  
+- The function that contains the statement.  
   
--   The source line at which the statement starts.  
+- The source line at which the statement starts.  
   
--   The character in the source line at which the statement starts.  
+- The character in the source line at which the statement starts.  
   
--   The source line at which the statement ends.  
+- The source line at which the statement ends.  
   
--   The character in the source line at which the statement ends.  
+- The character in the source line at which the statement ends.  
   
- The Line Name column provides a sortable concatenation of the identifier data.  
+  The Line Name column provides a sortable concatenation of the identifier data.  
   
- The following table describes the columns of the Lines View report.  
+  The following table describes the columns of the Lines View report.  
   
 |Column|Description|  
 |------------|-----------------|  
@@ -58,8 +58,8 @@ The Lines view of contention data lists performance data for the statements that
 |**Source Line Begin**|The line number in the source file at which the statement starts.|  
 |**Source Line End**|The line number in the source file at which the statement ends.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
+## See also  
+ [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)   
  [Lines View](../profiling/lines-view.md)   
- [Lines View - Sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)   
+ [Lines View - sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)   
  [Lines View](../profiling/lines-view-sampling-data.md)

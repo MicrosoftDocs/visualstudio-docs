@@ -12,59 +12,59 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Create a Visual Studio Add-In for the Web Performance Test Results Viewer
+# How to: Create a Visual Studio add-in for the Web Performance Test Results Viewer
 
-You can extend the UI for the Web Performance Test Results Viewer by using the following namespaces:
+You can extend the UI for the **Web Performance Test Results Viewer** by using the following namespaces:
 
 -   <xref:Microsoft.VisualStudio.TestTools.LoadTesting>
 
 -   <xref:Microsoft.VisualStudio.TestTools.WebTesting>
 
-Additionally, you need to add a reference to LoadTestPackage DLL which is located in the *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* folder.
+Additionally, you need to add a reference to LoadTestPackage DLL, which is located in the *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* folder.
 
--   To extend the Web Performance Test Results Viewer's UI, you must create a Visual Studio add-in and a user control. The following procedures explain how to create the add-in, the user control, and how to implement the classes necessary to extend the Web Performance Test Results Viewer's UI.
+-   To extend the **Web Performance Test Results Viewer**'s UI, you must create a Visual Studio add-in and a user control. The following procedures explain how to create the add-in, the user control, and how to implement the classes necessary to extend the **Web Performance Test Results Viewer**'s UI.
 
-## Create or Open a Solution that Contains an ASP.NET Web Application and a Web Performance and Load Test Project
+## Create or open a solution that contains an ASP.NET web application and a web performance and load test project
 
 ### To prepare for extending the Web Performance Test Results Viewer
 
-Either create or open a non-production solution that you can experiment with which contains an ASP.NET Web application and a Web performance and load test project with one or more Web performance tests for the ASP.NET Web application.
+Either create or open a non-production solution that you can experiment with which contains an ASP.NET web application and a web performance and load test project with one or more web performance tests for the ASP.NET web application.
 
 > [!NOTE]
-> You can create an ASP.NET Web application and Web performance and load test project that contains Web performance tests by following the procedures in [How to: Create a Web Service Test](../test/how-to-create-a-web-service-test.md) and [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md).
+> You can create an ASP.NET web application and web performance and load test project that contains web performance tests by following the procedures in [How to: Create a web service test](../test/how-to-create-a-web-service-test.md) and [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md).
 
-## Create a Visual Studio Add-In
+## Create a Visual Studio add-in
 
-An add-in is a compiled DLL that runs in the Visual Studio integrated development environment (IDE). Compilation helps protect your intellectual property and improves performance. Although you can create add-ins manually, you may find it easier to use the Add-In Wizard. This wizard creates a functional but basic add-in that you can run immediately after you create it. After the Add-In Wizard generates the basic program, you can add code to it and customize it.
+An add-in is a compiled DLL that runs in the Visual Studio integrated development environment (IDE). Compilation helps protect your intellectual property and improves performance. Although you can create add-ins manually, you may find it easier to use the **Add-In Wizard**. This wizard creates a functional but basic add-in that you can run immediately after you create it. After the **Add-In Wizard** generates the basic program, you can add code to it and customize it.
 
- The Add-In Wizard lets you supply a display name and description for your add-in. Both will appear in **Add-In Manager**. Optionally, you can have the wizard generate code that adds to the **Tools** menu a command to open the add-in. You can also choose to display a custom **About** dialog box for your add-in. When the wizard is finished, you have a new project that has just one class  that implements the add-in. That class is named Connect.
+ The **Add-In Wizard** lets you supply a display name and description for your add-in. Both will appear in **Add-In Manager**. Optionally, you can have the wizard generate code that adds to the **Tools** menu a command to open the add-in. You can also choose to display a custom **About** dialog box for your add-in. When the wizard is finished, you have a new project that has just one class  that implements the add-in. That class is named Connect.
 
- You will use the **Add-In Manager** at the end of this topic.
+ You will use the **Add-In Manager** at the end of this article.
 
 ### To create an add-in by using the Add-In Wizard
 
-1.  In Solution Explorer, right-click the solution, choose **Add** and then select **New Project**.
+1. In **Solution Explorer**, right-click the solution, choose **Add**, and then select **New Project**.
 
-     The New Project dialog box is displayed.
+    The **New Project** dialog box is displayed.
 
-2.  Under **Installed Templates**, expand **Other Project Types** and select **Extensibility**.
+2. Under **Installed Templates**, expand **Other Project Types** and select **Extensibility**.
 
-3.  In the list of templates, select **Visual Studio Add-in**.
+3. In the list of templates, select **Visual Studio Add-in**.
 
-4.  Under Name, type a name for the add-in. For example, **WebPerfTestResultsViewerAddin**.
+4. Under **Name**, type a name for the add-in. For example, **WebPerfTestResultsViewerAddin**.
 
-5.  Choose **OK**.
+5. Choose **OK**.
 
-     The Visual Studio Add-in Wizard starts.
+    The Visual Studio **Add-In Wizard** starts.
 
-6.  Choose **Next**.
+6. Choose **Next**.
 
-7.  On the **Select a Programming Language** page, select the programming language that you want to use to write the add-in.
+7. On the **Select a Programming Language** page, select the programming language that you want to use to write the add-in.
 
-    > [!NOTE]
-    > This topic uses Visual C# for the sample code.
+   > [!NOTE]
+   > This topic uses Visual C# for the sample code.
 
-8.  On the **Select An Application Host** page, select **Visual Studio** and clear **Visual Studio Macros**.
+8. On the **Select An Application Host** page, select **Visual Studio** and clear **Visual Studio Macros**.
 
 9. Choose **Next**.
 
@@ -86,32 +86,32 @@ An add-in is a compiled DLL that runs in the Visual Studio integrated developmen
 
 16. The options that you selected are displayed on the **Summary** page for you to review. If you are satisfied, choose **Finish** to create the add-in. If you want to change something, choose the **Back** button.
 
-     The new solution and project are created and the Connect.cs file for the new add-in is displayed in the Code Editor.
+     The new solution and project are created and the *Connect.cs* file for the new add-in is displayed in the **Code Editor**.
 
-     You will add code to the Connect.cs file after the following procedure which creates a user control that will be referenced by this WebPerfTestResultsViewerAddin project.
+     You will add code to the *Connect.cs* file after the following procedure, which creates a user control that will be referenced by this WebPerfTestResultsViewerAddin project.
 
- After an add-in is created, you must register it with Visual Studio before it can be activated in **Add-In Manager**. You do this by using an XML file that has an .addin file name extension.
+    After an add-in is created, you must register it with Visual Studio before it can be activated in **Add-In Manager**. You do this by using an XML file that has an *.addin* file name extension.
 
- The .addin file describes the information that Visual Studio requires to display the add-in in **Add-In Manager**. When Visual Studio starts, it looks in the .addin file location for any available .addin files. If it finds any, it reads the XML file and gives **Add-In Manager** the information that it requires to start the add-in when it is clicked.
+    The *.addin* file describes the information that Visual Studio requires to display the add-in in **Add-In Manager**. When Visual Studio starts, it looks in the *.addin* file location for any available *.addin* files. If it finds any, it reads the XML file and gives **Add-In Manager** the information that it requires to start the add-in when it is clicked.
 
- The .addin file is created automatically when you create an add-in by using the Add-In Wizard.
+    The *.addin* file is created automatically when you create an add-in by using the **Add-In Wizard**.
 
-### Add-In File Locations
+### Add-in file locations
 
-Two copies of the .addin file are automatically created by the Add-In Wizard, as follows:
+Two copies of the *.addin* files are automatically created by the **Add-In Wizard**, as follows:
 
 |**.Addin File Location**|**Description**|
-|------------------------------|----------------------------|---------------------|
+|-|----------------------------|-|
 |Root project folder|Used for deployment of the add-in project. Included in the project for ease of editing and has the local path for XCopy-style deployment.|
 |Add-in folder|Used for running the add-in in the debugging environment. Should always point to the output path of the current build configuration.|
 
-## Create a Windows Form Control Library Project
+## Create a Windows Form Control Library project
 
 The Visual Studio add-in created in the previous procedure references a Windows Forms Control Library project to create an instance of a <xref:System.Windows.Forms.UserControl> class.
 
 ### To create a control to be used in the Web Test Results Viewer
 
-1.  In Solution Explorer, right-click the solution, choose **Add** and then select **New Project**.
+1.  In **Solution Explorer**, right-click the solution, choose **Add**, and then select **New Project**.
 
      The **New Project** dialog box is displayed.
 
@@ -126,11 +126,11 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 5.  Choose **OK**.
 
-     The Windows forms control library project WebPerfTestResultsViewerControl is added in Solution Explorer and UserControl1.cs is displayed in design mode.
+     The Windows forms control library project WebPerfTestResultsViewerControl is added in **Solution Explorer** and *UserControl1.cs* is displayed in design mode.
 
-6.  From the Toolbox, drag a <xref:System.Windows.Forms.DataGridView> onto the surface of userControl1.
+6.  From the **Toolbox**, drag a <xref:System.Windows.Forms.DataGridView> onto the surface of userControl1.
 
-7.  Click the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif "VS_WinFormSmtTagGlyph")) on the upper-right corner of the <xref:System.Windows.Forms.DataGridView> and follow these steps:
+7.  Click the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.DataGridView> and follow these steps:
 
     1.  Choose **Dock in Parent Container**.
 
@@ -148,11 +148,11 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
     7.  Choose **Close**.
 
-8.  In the Properties window, change the **(Name)** property of the <xref:System.Windows.Forms.DataGridView> to **resultControlDataGridView**.
+8.  In the **Properties** window, change the **(Name)** property of the <xref:System.Windows.Forms.DataGridView> to **resultControlDataGridView**.
 
 9. Right-click the design surface and select **View Code**.
 
-     The UserControl1.cs file is displayed in the Code Editor.
+     The *UserControl1.cs* file is displayed in the **Code Editor**.
 
 10. Change the name of the instantiated <xref:System.Windows.Forms.UserControl> class from UserContro1 to resultControl:
 
@@ -167,15 +167,15 @@ The Visual Studio add-in created in the previous procedure references a Windows 
             }
     ```
 
-     In the next procedure, you will add code to the WebPerfTestResultsViewerAddin project's Connect.cs file which will reference the resultControl class.
+     In the next procedure, you will add code to the WebPerfTestResultsViewerAddin project's *Connect.cs* file, which will reference the resultControl class.
 
-     You will be adding some additional code to the Connect.cs file later.
+     You will be adding some additional code to the *Connect.cs* file later.
 
-## Add Code to the WebPerfTestResultsViewerAddin
+## Add code to the WebPerfTestResultsViewerAddin
 
-### To add code to the Visual Studio Add-in to extend the Web Test Results Viewer
+### To add code to the Visual Studio add-in to extend the Web Test Results Viewer
 
-1.  In Solution Explorer, right-click the **References** node in the WebPerfTestResultsViewerAddin project and select **Add Reference**.
+1.  In **Solution Explorer**, right-click the **References** node in the WebPerfTestResultsViewerAddin project and select **Add Reference**.
 
 2.  In the **Add Reference** dialog box, choose the **.NET** tab.
 
@@ -187,7 +187,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 6.  In the **Add Reference** dialog box, choose the **Browse** tab.
 
-7.  Choose the drop-down for **Look in** and navigate to %ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies and select the Microsoft.VisualStudio.QualityTools.LoadTestPackage.dll file.
+7.  Choose the drop-down for **Look in** and navigate to *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* and select the *Microsoft.VisualStudio.QualityTools.LoadTestPackage.dll* file.
 
 8.  Choose **OK**.
 
@@ -197,9 +197,9 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 11. Under **Project Name**, select the **WebPerfTestResultsViewerControl** project and choose **OK**.
 
-12. If the Connect.cs file is not still open, in Solution Explorer, right-click the **Connect.cs** file in the WebPerfTestResultsViewerAddin project and select **View Code**.
+12. If the *Connect.cs* file is not still open, in **Solution Explorer**, right-click the **Connect.cs** file in the WebPerfTestResultsViewerAddin project and select **View Code**.
 
-13. In the Connect.cs file, add the following Using statements:
+13. In the *Connect.cs* file, add the following Using statements:
 
     ```csharp
     using System.IO;
@@ -210,9 +210,9 @@ The Visual Studio add-in created in the previous procedure references a Windows 
     using WebPerfTestResultsViewerControl;
     ```
 
-14. Scroll down to the bottom of the Connect.cs file. You need to add a list of GUIDs for the <xref:System.Windows.Forms.UserControl> in case more than one instance of the Web Performance Test Results Viewer is open. You will add code later that uses this list.
+14. Scroll down to the bottom of the *Connect.cs* file. You need to add a list of GUIDs for the <xref:System.Windows.Forms.UserControl> in case more than one instance of the **Web Performance Test Results Viewer** is open. You will add code later that uses this list.
 
-     A second List of string is used in the OnDiscconection method which you will code later.
+     A second List of string is used in the OnDiscconection method, which you will code later.
 
     ```csharp
     private DTE2 _applicationObject;
@@ -221,7 +221,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
     private Dictionary<Guid, List<UserControl>> m_controls = new Dictionary<Guid, List<UserControl>>();        private List<string> temporaryFilePaths = new List<string>();
     ```
 
-15. The Connect.cs file instantiates a class named Connect from the <xref:Extensibility.IDTExtensibility2> class and also includes some methods for implementing the Visual Studio add-in. One of the methods is the OnConnection method, which receives notification that the add-in is being loaded. In the OnConnection method, you will use the LoadTestPackageExt class to create your extensibility package for the Web Performance Test Results Viewer. Add the following code to the OnConnection method:
+15. The *Connect.cs* file instantiates a class named Connect from the <xref:Extensibility.IDTExtensibility2> class and also includes some methods for implementing the Visual Studio add-in. One of the methods is the OnConnection method, which receives notification that the add-in is being loaded. In the OnConnection method, you will use the LoadTestPackageExt class to create your extensibility package for the **Web Performance Test Results Viewer**. Add the following code to the OnConnection method:
 
     ```csharp
     public void OnConnection(object application, ext_ConnectMode connectMode, object addInInst, ref Array custom)
@@ -267,19 +267,19 @@ The Visual Studio add-in created in the previous procedure references a Windows 
     }
     ```
 
-     Now that the code has been completed for the Visual Studio add-in, you need to add the Update method to the resultControl in the in the WebPerfTestResultsViewerControl project.
+     Now that the code has been completed for the Visual Studio add-in, you need to add the Update method to the resultControl in the WebPerfTestResultsViewerControl project.
 
 ## Add Code to the WebPerfTestResultsViewerControl
 
 ### To add code to the user control
 
-1.  In Solution Explorer, right-click the WebPerfTestResultsViewerControl project node and select **Properties**.
+1.  In **Solution Explorer**, right-click the WebPerfTestResultsViewerControl project node and select **Properties**.
 
-2.  Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** and close the Properties.
+2.  Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** and close the **Properties**.
 
-     This is required in order to support the DLL references that are needed for extending the Web Performance Test Results Viewer.
+     This is required in order to support the DLL references that are needed for extending the **Web Performance Test Results Viewer**.
 
-3.  In Solution Explorer, in the WebPerfTestResultsViewerControl project, right-click the **References** node and select **Add Reference**.
+3.  In **Solution Explorer**, in the WebPerfTestResultsViewerControl project, right-click the **References** node and select **Add Reference**.
 
 4.  In the **Add Reference** dialog box, click the **.NET** tab.
 
@@ -287,14 +287,14 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 6.  Choose **OK**.
 
-7.  In the UserControl1.cs file, add the following Using statements:
+7.  In the *UserControl1.cs* file, add the following Using statements:
 
     ```csharp
     using Microsoft.VisualStudio.TestTools.WebTesting;
     using Microsoft.VisualStudio.TestTools.WebTesting.Rules;
     ```
 
-8.  Add the Update method that is called and passed a WebTestRequestResult from the WebPerfTestResultsViewerAddin WebTestResultViewer_SelectedChanged method in the Connect.cs file. The Update method populates the DataGridView with various properties passed to it in the WebTestRequestResult.
+8.  Add the Update method that is called and passed a WebTestRequestResult from the WebPerfTestResultsViewerAddin WebTestResultViewer_SelectedChanged method in the *Connect.cs* file. The Update method populates the DataGridView with various properties passed to it in the WebTestRequestResult.
 
     ```csharp
     public void Update(WebTestRequestResult WebTestResults)
@@ -319,13 +319,13 @@ The Visual Studio add-in created in the previous procedure references a Windows 
             }
     ```
 
-## Build the WebPerfTestResultsViewerAddin Solution
+## Build the WebPerfTestResultsViewerAddin solution
 
 ### To build the solution
 
 -   On the **Build** menu, select **Build Solution**.
 
-## Register the WebPerfTestResultsViewerAddin Add-In
+## Register the WebPerfTestResultsViewerAddin add-in
 
 ### To register the add-in using the Add-in Manager
 
@@ -337,11 +337,11 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 4.  Choose **OK**.
 
-## Run the Web Performance Test Using the Build the WebPerfTestResultsViewerAddin Add-In
+## Run the web performance test using the Build the WebPerfTestResultsViewerAddin add-in
 
-### To run the new VS Add-In for the Web Test Results Viewer
+### To run the new VS add-in for the Web Test Results Viewer
 
-1.  Run your Web performance test and you will see the WebPerfTestResultsViewerAddin add-in's new tab titled Sample displayed in the Web Performance Test Results Viewer.
+1.  Run your web performance test and you will see the WebPerfTestResultsViewerAddin add-in's new tab titled Sample displayed in the **Web Performance Test Results Viewer**.
 
 2.  Choose the tab to see the properties presented in the DataGridView.
 
@@ -349,15 +349,15 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 To improve security by preventing malicious add-ins from automatically activating, Visual Studio provides settings in a **Tools Options** page named **Add-in/Macros Security**.
 
-In addition, this options page allows you to specify the folders in which Visual Studio searches for .AddIn registration files. This improves security by allowing you to limit the locations where .AddIn registration files can be read. This  helps prevent malicious .AddIn files from unintentionally being used.
+In addition, this options page allows you to specify the folders in which Visual Studio searches for *.AddIn* registration files. This improves security by allowing you to limit the locations where *.AddIn* registration files can be read. This  helps prevent malicious *.AddIn* files from unintentionally being used.
 
  **Add-In Security Settings**
 
  The settings in the options page for add-in security are as follows:
 
--   **Allow add-in components to load.** Selected by default. When selected, add-ins are allowed to load in Visual Studio. When not selected, add-ins are prohibited from loading in Visual Studio.
+-   **Allow Add-in components to load.** Selected by default. When selected, add-ins are allowed to load in Visual Studio. When not selected, add-ins are prohibited from loading in Visual Studio.
 
--   **Allow add-in components to load from a URL.** Not selected by default. When selected, add-ins are allowed to be loaded from external Web sites. When not selected, remote add-ins are prohibited from loading in Visual Studio. If an add-in cannot load for some reason, then it cannot be loaded from the Web. This setting controls only the loading the add-in DLL. The .Addin registration files must always be located on the local system.
+-   **Allow Add-in components to load from a URL.** Not selected by default. When selected, add-ins can be loaded from external websites. When not selected, remote add-ins are prohibited from loading in Visual Studio. If an add-in cannot load for some reason, then it cannot be loaded from the Web. This setting controls only the loading the add-in DLL. The *.Addin* registration files must always be located on the local system.
 
 ## See also
 

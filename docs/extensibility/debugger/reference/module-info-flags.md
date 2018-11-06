@@ -23,14 +23,14 @@ Specifies the state of symbols for a module.
   
 ```cpp  
 enum enum_MODULE_INFO_FLAGS {  
-   MIF_SYMBOLS_LOADED = 0x0001  
+   MIF_SYMBOLS_LOADED = 0x0001  
 };  
 typedef DWORD MODULE_INFO_FLAGS;  
 ```  
   
 ```csharp  
 public enum enum_MODULE_INFO_FLAGS {  
-   MIF_SYMBOLS_LOADED = 0x0001  
+   MIF_SYMBOLS_LOADED = 0x0001  
 };  
 ```  
   

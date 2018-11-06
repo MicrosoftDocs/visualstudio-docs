@@ -17,26 +17,26 @@ ms.workload:
 ---
 # Implement Custom Code Analysis Check-in Policies for Managed Code
 
-A code analysis check-in policy specifies a set of rules that members of a team project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a team project. A rule set is stored in a .ruleset file.
+A code analysis check-in policy specifies a set of rules that members of an Azure DevOps project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a project. A rule set is stored in a .ruleset file.
 
-Check-in policies are set at the team project level and specified by the location of a .ruleset file in the version control tree. There are no restrictions on the version control location of the team policy custom rule set.
+Check-in policies are set at the Azure DevOps project level and specified by the location of a .ruleset file in the version control tree. There are no restrictions on the version control location of the team policy custom rule set.
 
 Code analysis is configured for the individual code projects in the properties window for each project. A custom rule set for a code project is specified by the physical location of the .ruleset file on the local computer. When a .ruleset file is specified that is located on the same drive as the code project, Visual Studio uses a relative path to the file in the project configuration.
 
-A suggested practice for creating a team project custom rule set is to store the check-in policy .ruleset file in a special folder that is not a part of any code project. If you store the file in a dedicated folder, you can apply permissions that restrict who can edit the rule file, and you can easily move the directory structure that contains the project to another directory or computer.
+A suggested practice for creating an Azure DevOps project custom rule set is to store the check-in policy .ruleset file in a special folder that is not a part of any code project. If you store the file in a dedicated folder, you can apply permissions that restrict who can edit the rule file, and you can easily move the directory structure that contains the project to another directory or computer.
 
-## Create the Team Project Custom Check-in Rule Set
+## Create the Project Custom Check-in Rule Set
 
-To create a custom rule set for a team project, you first create a special folder for the check-in policy rule set in **Source Control Explorer**. Then you create the rule set file and add the file to version control. Finally, you specify the rule set as the code analysis check-in policy for the team project.
+To create a custom rule set for an Azure DevOps project, you first create a special folder for the check-in policy rule set in **Source Control Explorer**. Then you create the rule set file and add the file to version control. Finally, you specify the rule set as the code analysis check-in policy for the project.
 
 > [!NOTE]
-> To create a folder in a team project, you first must map the team project root to a location on the local computer.
+> To create a folder in an Azure DevOps project, you first must map the project root to a location on the local computer.
 
 ### To create the version control folder for the check-in policy rule set
 
-1. In Team Explorer, expand the team project node, and then click **Source Control**.
+1. In Team Explorer, expand the project node, and then click **Source Control**.
 
-2. In the **Folders** pane, right-click the team project and then click **New Folder**.
+2. In the **Folders** pane, right-click the project and then click **New Folder**.
 
 3. In the main Source Control pane, right-click **New Folder**, click **Rename**, and type a name for the rule set folder.
 
@@ -54,7 +54,7 @@ To create a custom rule set for a team project, you first create a special folde
 
 1. In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.
 
-     For more information, see [Git and VSTS](/vsts/git/overview).
+     For more information, see [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts).
 
 2. Click the rule set file that you created, and then click **Finish**.
 
@@ -65,11 +65,11 @@ To create a custom rule set for a team project, you first create a special folde
 4. In the **Check-in** dialog box, you  have the option to add a comment and then click **Check In**.
 
     > [!NOTE]
-    > If you have already configured a code analysis check-in policy for your team project and you have selected the **Enforce check-in to only contain files that are part of current solution**, you will trigger a policy failure warning. In the Policy Failure dialog box, select **Override policy failure and continue checkin**. Add a required comment, and then click **OK**.
+    > If you have already configured a code analysis check-in policy for your Azure DevOps project and you have selected the **Enforce check-in to only contain files that are part of current solution**, you will trigger a policy failure warning. In the Policy Failure dialog box, select **Override policy failure and continue checkin**. Add a required comment, and then click **OK**.
 
 ### To specify the rule set file as the check-in policy
 
-1. On the **Team** menu, point to **Team Project Settings**, and then click **Source Control**.
+1. On the **Team** menu, point to **Project Settings**, and then click **Source Control**.
 
 2. Click **Check-in Policy**, and then click **Add**.
 
@@ -92,9 +92,9 @@ To create a custom rule set for a team project, you first create a special folde
 
 ## Synchronize Code Projects to the Check-in Policy Rule Set
 
-You specify a team project check-in policy rule set as the code analysis rule set of a code project configuration in the properties dialog box of the code project. If the rule set is located on the same drive as the code project, a relative path is used to specify rule set when the path is selected from the file dialog box. The relative path enables the project properties settings to be portable to other computers that use similar local version control structures.
+You specify a project check-in policy rule set as the code analysis rule set of a code project configuration in the properties dialog box of the code project. If the rule set is located on the same drive as the code project, a relative path is used to specify rule set when the path is selected from the file dialog box. The relative path enables the project properties settings to be portable to other computers that use similar local version control structures.
 
-### To specify a team project rule set as the rule set of a code project
+### To specify a project rule set as the rule set of a code project
 
 1. If necessary, retrieve the check-in policy rule set folder and file from version control.
 

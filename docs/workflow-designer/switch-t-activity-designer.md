@@ -18,7 +18,7 @@ ms.workload:
 
 The <xref:System.Activities.Statements.Switch%601> activity evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.
 
-The **Switch<T\>** activity designer is used to create and configure a <xref:System.Activities.Statements.Switch%601> activity in the Windows Workflow Designer.
+The **Switch<T\>** activity designer is used to create and configure a <xref:System.Activities.Statements.Switch%601> activity in the Workflow Designer.
 
 ## The Switch\<T>Activity
 
@@ -26,14 +26,14 @@ A <xref:System.Activities.Statements.Switch%601> activity contains an <xref:Syst
 
 ## How to use the Switch\<T> Activity Designer
 
-The **Switch\<T>** activity designer can be found in the **Control Flow** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.) After dropping it into the Workflow Designer, it displays the **Select Types** dialog to let the user specify the generic type *T* used in <xref:System.Activities.Statements.Switch%601> activity. The default value is **Int32**. Once the generic type *T* has been selected, a **Switch<T\>** designer is added into the workflow designer.
+Access the **Switch\<T>** activity designer in the **Control Flow** category of the **Toolbox**. After dropping it into the Workflow Designer, it displays the **Select Types** dialog to let the user specify the generic type *T* used in <xref:System.Activities.Statements.Switch%601> activity. The default value is **Int32**. Once the generic type *T* has been selected, a **Switch<T\>** designer is added into the workflow designer.
 
 Following are the properties of **Switch<T\>** designer. All of these properties can be edited in property grid. Some of them can also be edited on designer surface.
 
 The following table shows the most useful <xref:System.Activities.Statements.Switch%601> properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.Switch%601> activity designer. The default value is Switch<Int32\>. The value can be edited in the **Properties** window or directly on the designer header.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.Switch%601.Expression%2A>|True|Specifies the expression used to compare to the keys in the cases collection to determine which case to execute.|
 |<xref:System.Activities.Statements.Switch%601.Default%2A>||Specifies the activity executed if no match is found. Click the **Add an activity** button on the designer to open the **Default** box where the activity can be dropped.|
@@ -45,9 +45,9 @@ Clicking the key of existing case changes the key from a label into a textbox so
 
 There are 2 ways to delete a case:
 
-1.  Select the case and delete it.
+- Select the case and delete it.
 
-2.  Select the case, right-click to display the context menu and select **Delete**.
+- Select the case, right-click to display the context menu and select **Delete**.
 
 Note that you must select the case itself to delete it. Selecting and deleting the activity inside a case only deletes the activity not the case.
 

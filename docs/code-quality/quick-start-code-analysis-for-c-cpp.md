@@ -57,13 +57,13 @@ To run code analysis on a solution:
 
 - On the **Build** menu, choose **Run Code Analysis on Solution**.
 
- To run code analysis on a project:
+To run code analysis on a project:
 
-- In Solution Explorer, choose the name of the project.
+1. In Solution Explorer, choose the name of the project.
 
-- On the **Build** menu, choose **Run Code Analysis on** *Project Name*.
+2. On the **Build** menu, choose **Run Code Analysis on** *Project Name*.
 
- The project or solution is compiled and code analysis runs. Results appear in the Error List.
+   The project or solution is compiled and code analysis runs. Results appear in the Error List.
 
 ## Analyze and resolve code analysis warnings
 
@@ -85,7 +85,7 @@ To suppress a warning:
 
 3. Choose **Suppress Message** and then choose **In Source**.
 
- Suppressing a message inserts `#pragma warning (disable:`*WarningId*`)` that suppresses the warning for the line of code.
+   Suppressing a message inserts `#pragma warning (disable:[warning ID])` that suppresses the warning for the line of code.
 
 ## Create work items for code analysis warnings
 

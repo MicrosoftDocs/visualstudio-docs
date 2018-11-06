@@ -74,7 +74,6 @@ Some text.
 <#
  }
 #>
-
 ```
 
 ## Expression control block

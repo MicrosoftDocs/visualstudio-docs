@@ -25,7 +25,7 @@ Defines by its presence whether a default instance of the [VsgDbg Class](vsgdbg-
   
  The programmatic capture interface is provided through a pointer that has global scope, `g_pVsgDbg`.  
   
-```  
+```cpp
 VsgDbg *g_pVsgDbg;  
 ```  
   
@@ -39,7 +39,7 @@ VsgDbg *g_pVsgDbg;
 ## Example  
  This example shows how to disable the default instance:  
   
-```  
+```cpp
 // Define VSG_NODEFAULT_INSTANCE before including vsgcapture.h  
 #define VSG_NODEFAULT_INSTANCE  
   

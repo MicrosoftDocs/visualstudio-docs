@@ -22,7 +22,7 @@ Retrieves the back end minor version number of the compiler.
   
 ```C++  
 HRESULT get_backEndMinor (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

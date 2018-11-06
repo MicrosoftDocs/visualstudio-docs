@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Project Element (Visual Studio Templates)
+# Project element (Visual Studio templates)
 Specifies the files or directories to add to the project.  
   
  \<VSTemplate>  
@@ -36,26 +36,26 @@ Specifies the files or directories to add to the project.
 </Project>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attribute, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`File`|Required attribute.<br /><br /> Specifies the name of the project file in the template .zip file.|  
+|`File`|Required attribute.<br /><br /> Specifies the name of the project file in the template *.zip* file.|  
 |`ReplaceParameters`|Optional attribute.<br /><br /> A Boolean value that specifies whether the project file has parameter values that must be replaced when a project is created from the template. Default value is `false`.|  
 |`TargetFileName`|Optional attribute.<br /><br /> Specifies the name of the project file when a project is created from the template.|  
 |`IgnoreProjectParameter`|Optional attribute.<br /><br /> Specifies whether the project should be added to the current solution. If the value of custom parameter, "$*myCustomParameter*$" exists in the parameter replacement file, the project is created but not added as part of the currently open solution.|  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[Folder](../extensibility/folder-element-visual-studio-project-templates.md)|Optional element.<br /><br /> Specifies a folder to add to the project.|  
 |[ProjectItem](../extensibility/projectitem-element-visual-studio-project-templates.md)|Optional element.<br /><br /> Specifies a file to add to a project.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -97,8 +97,8 @@ Specifies the files or directories to add to the project.
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
- [ProjectItem Element (Visual Studio Project Templates)](../extensibility/projectitem-element-visual-studio-project-templates.md)   
- [Folder Element (Visual Studio Project Templates)](../extensibility/folder-element-visual-studio-project-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Creating project and item templates](../ide/creating-project-and-item-templates.md)   
+ [ProjectItem element (Visual Studio project templates)](../extensibility/projectitem-element-visual-studio-project-templates.md)   
+ [Folder element (Visual Studio project templates)](../extensibility/folder-element-visual-studio-project-templates.md)

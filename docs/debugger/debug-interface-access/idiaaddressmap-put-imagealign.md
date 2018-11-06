@@ -22,7 +22,7 @@ Sets the image alignment.
   
 ```C++  
 HRESULT put_imageAlign (   
-   DWORD NewVal  
+   DWORD NewVal  
 );  
 ```  
   

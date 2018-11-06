@@ -22,7 +22,7 @@ Retrieves the base address of the frame.
   
 ```C++  
 HRESULT get_base (   
-   ULONGLONG* pRetVal  
+   ULONGLONG* pRetVal  
 );  
 ```  
   

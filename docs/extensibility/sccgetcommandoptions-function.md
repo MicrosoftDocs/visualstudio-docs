@@ -16,21 +16,21 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccGetCommandOptions Function
+# SccGetCommandOptions function
 This function prompts the user for advanced options for a given command.  
   
 ## Syntax  
   
 ```cpp  
 SCCRTN SccGetCommandOptions(  
-   LPVOID pvContext,  
-   HWND hWnd,  
-   enum SCCCOMMAND iCommand,  
-   LPCMDOPTS* ppvOptions  
+   LPVOID pvContext,  
+   HWND hWnd,  
+   enum SCCCOMMAND iCommand,  
+   LPCMDOPTS* ppvOptions  
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  pvContext  
  [in] The source control plug-in context structure.  
   
@@ -38,12 +38,12 @@ SCCRTN SccGetCommandOptions(
  [in] A handle to the IDE window that the source control plug-in can use as a parent for any dialog boxes that it provides.  
   
  iCommand  
- [in] The command for which advanced options are requested (see [Command Code](../extensibility/command-code-enumerator.md) for possible values).  
+ [in] The command for which advanced options are requested (see [Command code](../extensibility/command-code-enumerator.md) for possible values).  
   
  ppvOptions  
  [in] The option structure (can also be `NULL`).  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -72,6 +72,6 @@ SCCRTN SccGetCommandOptions(
 > [!NOTE]
 >  The command `SCC_COMMAND_OPTIONS` is used when the IDE displays an **Options** dialog box that lets the user set preferences that control how the integration works. If the source control plug-in wants to supply its own preferences dialog box, it can display it from an **Advanced** button in the IDE's preferences dialog box. The plug-in is solely responsible for getting and persisting this information; the IDE does not use it or modify it.  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
- [Command Code](../extensibility/command-code-enumerator.md)
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)   
+ [Command code](../extensibility/command-code-enumerator.md)

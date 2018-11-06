@@ -22,7 +22,7 @@ Retrieves the file name for the last load error.
   
 ```C++  
 HRESULT get_lastError (  
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

@@ -14,10 +14,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Changing View Settings by Using the Legacy API
+# Change view settings by using the legacy API
 Settings for core editor features, such as word wrap, selection margin, and virtual space, can be changed by the user by means of the **Options** dialog box. However, it is also possible to change these settings programmatically.  
   
-## Changing Settings by Using the Legacy API  
+## Change settings by using the legacy API  
  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> interface exposes a set of text editor properties. The text view contains a category of properties (GUID_EditPropCategory_View_MasterSettings) that represents the group of programmatically changed settings for the text view. Once view settings have been changed in this way, they cannot be changed in the **Options** dialog box until they are reset.  
   
  Following is the typical process for changing view settings for an instance of the core editor.  
@@ -32,14 +32,14 @@ Settings for core editor features, such as word wrap, selection margin, and virt
   
      For example, to force word wrap, call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> and specify a value of VSEDITPROPID_ViewLangOpt_WordWrap, `vt` for the `idprop` parameter. In this call, `vt` is a VARIANT of type VT_BOOL and `vt.boolVal` is VARIANT_TRUE.  
   
-## Resetting Changed View Settings  
+## Reset changed view settings  
  To reset any changed view setting for an instance of the core editor, call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.RemoveProperty%2A> method and specify the appropriate setting value in the `idprop` parameter.  
   
  For example, to allow word wrap to float freely, you would remove it from the property category by calling <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.RemoveProperty%2A> and specifying a value of VSEDITPROPID_ViewLangOpt_WordWrap for the `idprop` parameter.  
   
  To remove all changed settings for the core editor at once, specify a value of VSEDITPROPID_ViewComposite_AllCodeWindowDefaults, vt for the `idprop` parameter. In this call, vt is a VARIANT of type VT_BOOL and vt.boolVal is VARIANT_TRUE.  
   
-## See Also  
- [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
- [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)   
+## See also  
+ [Inside the core editor](../extensibility/inside-the-core-editor.md)   
+ [Access theText view by using the legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)   
  [Options Dialog Box](../ide/reference/options-dialog-box-visual-studio.md)

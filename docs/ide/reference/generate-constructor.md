@@ -1,11 +1,11 @@
 ---
-title: Generate a constructor in Visual Studio
+title: Generate a constructor quick action
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "kuhlenh"
-ms.author: "kaseyu"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "dotnet"
@@ -41,16 +41,16 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the empty line in the class.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the empty line in the class.
 
    ![Generate constructor preview](media/constructor1-preview-cs.png)
 
-1. Select **Generate constructor...** from the drop-down menu.
+1. Select **Generate constructor** from the drop-down menu.
 
-   The **Pick memebers** dialog box opens.
+   The **Pick members** dialog box opens.
 
 1. Pick the members you want to include as constructor parameters. You can order them using the up and down arrows. Choose **OK**.
 
@@ -72,12 +72,12 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the selection.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the selection.
 
-     ![Generate Constructor preview](media/constructor2-preview-cs.png)
+      ![Generate Constructor preview](media/constructor2-preview-cs.png)
 
 1. Select **Generate constructor 'TypeName(...)'** from the drop-down menu.
 
@@ -91,24 +91,24 @@ This code generation applies to:
 
    - C#:
 
-    ![Highlighted code C#](media/constructor-highlight-cs.png)
+       ![Highlighted code C#](media/constructor-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code VB](media/constructor-highlight-vb.png)
+       ![Highlighted code VB](media/constructor-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-    ![Generate constructor preview](media/constructor-preview-cs.png)
+      ![Generate constructor preview](media/constructor-preview-cs.png)
 
-1. Select **Generate constructor in '*TypeName*'** from the drop-down menu.
+3. Select **Generate constructor in '*TypeName*'** from the drop-down menu.
 
    > [!TIP]
    > Use the **Preview changes** link at the bottom of the preview window [to see all of the changes](../../ide/preview-changes.md) that will be made before making your selection.
@@ -117,36 +117,38 @@ This code generation applies to:
 
    - C#:
 
-      ![Generate method result C#](media/constructor-result-cs.png)
+       ![Generate method result C#](media/constructor-result-cs.png)
 
    - Visual Basic:
 
-      ![Generate method result VB](media/constructor-result-vb.png)
+       ![Generate method result VB](media/constructor-result-vb.png)
 
 ## <a id="addparameter"></a> Add parameter to existing constructor (C# only)
 
 1. Add a parameter to an existing constructor call.
 
-1. Place your cursor on the line where there is a red squiggle indicating you've used a constructor that doesn't yet exist.
+2. Place your cursor on the line where there is a red squiggle indicating you've used a constructor that doesn't yet exist.
 
     ![Generate constructor highlight](media/constructor4-highlight-cs.png)
 
-1. Next, do one of the following:
+3. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
 
-    ![Generate constructor preview](media/constructor4-preview-cs.png)
+      ![Generate constructor preview](media/constructor4-preview-cs.png)
 
-1. Select **Add parameter to 'TypeName(...)'** from the drop-down menu.
+4. Select **Add parameter to 'TypeName(...)'** from the drop-down menu.
 
    The parameter is added to the constructor, with its type inferred from its usage.
 
    ![Generate constructor result](media/constructor4-result-cs.png)
+
+You can also add a parameter to an existing method. For more information, see [Add parameter to a method](add-parameter.md).
 
 ## <a id="create"></a> Create and initialize a field or property from a constructor parameter (C# only)
 
@@ -159,10 +161,10 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click and select the **Quick Actions and Refactorings** menu.
-     - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the added parameter.
+      - Right-click and select the **Quick Actions and Refactorings** menu.
+      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the added parameter.
 
    ![Generate constructor preview](media/constructor5-preview-cs.png)
 

@@ -1,10 +1,10 @@
 ---
 title: "Quickstart: use Visual Studio to create a Python web app"
 description: In this quickstart, you use Visual Studio and the Flask framework to build a simple web app in Python.
-ms.date: 03/21/2018
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15
-ms.technology: vs-python  
+ms.technology: vs-python
 ms.topic: quickstart
 author: kraigb
 ms.author: kraigb
@@ -18,7 +18,7 @@ ms.workload:
 
 In this 5-10 minute introduction to Visual Studio as a Python IDE, you create a simple Python web application based on the Flask framework. You create the project through discrete steps that help you learn about Visual Studio's basic features.
 
-If you haven't already installed Visual Studio, go to [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) to install it for free. In the installer, make sure to select the **Python development** workload.
+If you haven't already installed Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) to install it for free. In the installer, make sure to select the **Python development** workload.
 
 ## Create the project
 
@@ -120,19 +120,19 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
     ![Setting the startup file for a project in Solution Explorer](media/quickstart-python-05-set-as-startup-file.png)
 
-1. Right-click the project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Port Number** property to `4449`. This step ensures that Visual Studio launches a browser with `localhost:4449` to match the `app.run` arguments in the code.
+2. Right-click the project in **Solution Explorer** and select **Properties**. Then select the **Debug** tab and set the **Port Number** property to `4449`. This step ensures that Visual Studio launches a browser with `localhost:4449` to match the `app.run` arguments in the code.
 
-1. Select **Debug > Start Without Debugging** (**Ctrl**+**F5**), which saves changes to files and runs the app.
+3. Select **Debug > Start Without Debugging** (**Ctrl**+**F5**), which saves changes to files and runs the app.
 
-1. A command window appears with the message "* Running in https://localhost:4449/", and a browser window should open to `localhost:4449` where you see the message, "Hello, Python!" The GET request also appears in the command window with a status of 200.
+4. A command window appears with the message "* Running in <https://localhost:4449/>", and a browser window should open to `localhost:4449` where you see the message, "Hello, Python!" The GET request also appears in the command window with a status of 200.
 
     If a browser does not open automatically, start the browser of your choice and navigate to `localhost:4449`.
 
     If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, ensure that you set *app.py* as the startup file in step 1 above.
 
-1. Navigate to `localhost:4449/hello` to test that the decorator for the `/hello` resource also works. Again, the GET request appears in the command window with a status of 200. Feel free to try some other URL as well to see that they show 404 status codes in the command window.
+5. Navigate to `localhost:4449/hello` to test that the decorator for the `/hello` resource also works. Again, the GET request appears in the command window with a status of 200. Feel free to try some other URL as well to see that they show 404 status codes in the command window.
 
-1. Close the command window to stop the app, then close the browser window.
+6. Close the command window to stop the app, then close the browser window.
 
 **Question: What's the difference between the Start Without Debugging command and Start Debugging?**
 
@@ -142,15 +142,12 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
 Congratulations on running your first Python app from Visual Studio, in which you've learned a little about using Visual Studio as a Python IDE!
 
-Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project templates. Select the button below for a demonstration that creates a web app similar to the one you created in this article, but with fewer steps.
-
 > [!div class="nextstepaction"]
-> [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md)
+> [Deploy the app to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md)
 
-To continue with a fuller tutorial on Python in Visual Studio, including using the interactive window, debugging, data visualization, and working with Git, select the button below.
+Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project templates. Go through [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md) for a demonstration that creates a web app similar to the one you created in this article, but with fewer steps.
 
-> [!div class="nextstepaction"]
-> [Tutorial: Get started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+To continue with a fuller tutorial on Python in Visual Studio, including using the interactive window, debugging, data visualization, and working with Git, go through [Tutorial: Get started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
 
 To explore more that Visual Studio has to offer, select the links below.
 

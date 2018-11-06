@@ -23,7 +23,7 @@ ms.workload:
   - "multiple"
 ---
 # Debugging Preparation: Windows Forms Applications
-The Windows Forms project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward. For more information, see [Creating a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa).  
+The Windows Forms project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward. For more information, see [Creating a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100)).  
   
  When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings. These settings can be changed in the **\<project name> Property Pages** dialog box (**My Project** in Visual Basic).  
   
@@ -41,23 +41,23 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
   
 ### To debug a C#, F#, or Visual Basic Windows Forms application  
   
-1.  Open the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+1. Open the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-2.  Create breakpoints as needed.  
+2. Create breakpoints as needed.  
   
-     Because Windows Forms applications are event-driven, your breakpoints will go into event handler code, or into methods called by event handler code. Typical events in which to place breakpoints include:  
+    Because Windows Forms applications are event-driven, your breakpoints will go into event handler code, or into methods called by event handler code. Typical events in which to place breakpoints include:  
   
-    1.  Events associated with a control, such as Click, Enter, etc.  
+   1. Events associated with a control, such as Click, Enter, etc.  
   
-    2.  Events associated with application startup and shutdown, such as Load, Activated, etc.  
+   2. Events associated with application startup and shutdown, such as Load, Activated, etc.  
   
-    3.  Focus and Validation Events.  
+   3. Focus and Validation Events.  
   
-     For more information, see [Creating Event Handlers in Windows Forms](/dotnet/framework/winforms/creating-event-handlers-in-windows-forms).  
+      For more information, see [Creating Event Handlers in Windows Forms](/dotnet/framework/winforms/creating-event-handlers-in-windows-forms).  
   
-3.  On the **Debug** menu, click **Start**.  
+3. On the **Debug** menu, click **Start**.  
   
-4.  Debug using the techniques discussed in [Debugger Basics](../debugger/debugger-basics.md).  
+4. Debug using the techniques discussed in [Debugger Basics](../debugger/getting-started-with-the-debugger.md).  
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   

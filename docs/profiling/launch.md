@@ -18,7 +18,7 @@ The **Launch** option starts the profiler using the sampling method and it also 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Launch:AppName [Options]  
 ```  
   
@@ -32,7 +32,7 @@ VSPerfCmd.exe /Launch:AppName [Options]
  **Start:** `Method`  
  Initializes the command-line profiler session and sets the specified profiling method.  
   
- **GlobalOn**and **GlobalOff**  
+ **GlobalOn** and **GlobalOff**  
  Resumes (**GlobalOn**) or pauses (**GlobalOff**) profiling, but does not end the profiling session.  
   
  **ProcessOn:** `PID` and **ProcessOff**:`PID`  
@@ -72,13 +72,13 @@ VSPerfCmd.exe /Launch:AppName [Options]
 ## Example  
  This example demonstrates the use of **Launch** to start an application.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

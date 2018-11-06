@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Flowchart Activity Designer
 
-The <xref:System.Activities.Statements.Flowchart> activity is used to create workflows that define and manage complex flow controls. A <xref:System.Activities.Statements.Flowchart> can be authored either in code or by using Workflow Designer. This topic documents the Workflow Designer experience. The Windows Workflow Designer workflow activity designer enables developers to author workflows in a natural manner.
+The <xref:System.Activities.Statements.Flowchart> activity is used to create workflows that define and manage complex flow controls. A <xref:System.Activities.Statements.Flowchart> can be authored either in code or by using Workflow Designer. This topic documents the Workflow Designer experience. The Workflow Designer workflow activity designer enables developers to author workflows in a natural manner.
 
 ## The Flowchart Activity
 
@@ -25,7 +25,7 @@ The <xref:System.Activities.Statements.Flowchart> specifies a unique <xref:Syste
 
 ### Using the Flowchart Activity Designer
 
-The **Flowchart** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
+The **Flowchart** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
 The **Flowchart** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activity designers are normally placed, either as a root activity or as the child of another control flow activity. If the **Flowchart** activity designer is dropped onto a blank Workflow Designer surface, it creates a <xref:System.Activities.Statements.Flowchart> activity, which by default presents itself in an expanded view in which the start node that initiates execution is represented as a green ball. If the **Flowchart** activity designer is dropped into another control flow activity, it presents itself in a minimized view that can be expanded by double-clicking the **Flowchart** activity designer. Any activity in the **Toolbox** can be dragged directly onto the **Flowchart** activity designer, including other control flow activities.
 
@@ -36,7 +36,7 @@ After dragging various activity designers onto the Workflow Designer canvas, the
 The following table shows the <xref:System.Activities.Statements.Flowchart> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the display name of the activity designer in the header. The default value is Flowchart. The value can be edited in the **Properties** window or directly on the activity designer header.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.Flowchart.Variables%2A>|False|The collection of variables that are scoped within this <xref:System.Activities.Statements.Flowchart> to share state across its child activities.|
 |<xref:System.Activities.Statements.Flowchart.StartNode%2A>|False|The <xref:System.Activities.Statements.FlowNode> that is executed when the <xref:System.Activities.Statements.Flowchart> starts.|

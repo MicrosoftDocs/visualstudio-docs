@@ -12,23 +12,23 @@ ms.workload:
   - "multiple"
 ---
 # ThreadOn and ThreadOff
-The VSPerfCmd.exe **ThreadOff** and **ThreadOn** subcommands are only available in command-line profiling sessions that use the instrumentation method. **ThreadOff** and **ThreadOn** pause and resume profiling for the specified thread. **ThreadOff** stops profiling the thread and **ThreadOn** starts profiling the thread.  
+The *VSPerfCmd.exe* **ThreadOff** and **ThreadOn** subcommands are only available in command-line profiling sessions that use the instrumentation method. **ThreadOff** and **ThreadOn** pause and resume profiling for the specified thread. **ThreadOff** stops profiling the thread and **ThreadOn** starts profiling the thread.  
   
- In most cases, you specify **ThreadOn** or **ThreadOff** as the only option in a VSPerfCmd.exe command line, but they can also be combined with the **GlobalOn**, **GlobalOff**, **ProcessOn**, and **ProcessOff** subcommands.  
+ In most cases, you specify **ThreadOn** or **ThreadOff** as the only option in a *VSPerfCmd.exe* command line, but they can also be combined with the **GlobalOn**, **GlobalOff**, **ProcessOn**, and **ProcessOff** subcommands.  
   
  The **ThreadOn** and **ThreadOff** subcommands interact with the **GlobalOn** and **GlobalOff** subcommands that control data collection for all processes in a command-line profiling session, and the **ProcessOn** and **ProcessOff** subcommands that control data collection for a specified process.  
   
  The **ThreadOff** and **ThreadOn** subcommands also affect the Thread Start/Stop count that is manipulated by profiler API functions.  
   
--   **ThreadOff** immediately sets the Thread Start/Stop Count to 0 and therefore pauses profiling.  
+- **ThreadOff** immediately sets the Thread Start/Stop Count to 0 and therefore pauses profiling.  
   
--   **ThreadOn** immediately sets the Thread Start/Stop Count to 1 and therefore resumes profiling.  
+- **ThreadOn** immediately sets the Thread Start/Stop Count to 1 and therefore resumes profiling.  
   
- For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
+  For more information, see [Profiling tools APIs](../profiling/profiling-tools-apis.md).  
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /{ThreadOff|ThreadOn}:TID [Options]  
   
 ```  
@@ -37,7 +37,7 @@ VSPerfCmd.exe /{ThreadOff|ThreadOn}:TID [Options]
  `TID`  
  The integer identifier of the thread to start or stop.  
   
-## Valid Options  
+## Valid options  
  **ThreadOn** and **ThreadOff** can be specified on command lines that also contain the following subcommands.  
   
  **Start:** `Method`  
@@ -52,7 +52,7 @@ VSPerfCmd.exe /{ThreadOff|ThreadOn}:TID [Options]
 ## Example  
  In this example, the **ThreadOff** subcommand is used to stop collecting profiling data so that only application startup data is collected.  
   
-```  
+```cmd  
 ; Initialize the profiler.  
 VSPerfCmd.exe /Start:Trace /Output:Instrument.vsp   
 ; Start the instrumented application.  
@@ -64,8 +64,8 @@ VSPerfCmd /Shutdown
   
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

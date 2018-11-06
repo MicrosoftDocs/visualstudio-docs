@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "vs.toolsoptionspages.text_editor.file_extension"
+  - "VS.ToolsOptionsPages.Text_Editor.File_Extension"
 helpviewer_keywords:
   - "file extensions, associating to editor"
   - "Editing Experience"

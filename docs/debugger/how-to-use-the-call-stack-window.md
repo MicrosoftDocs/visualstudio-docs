@@ -39,17 +39,17 @@ When [debugging symbols](#bkmk_symbols) are not available for part of a call sta
   
 `[Frames below may be incorrect and/or missing, no symbols loaded for name.dll]`
 
->  [!NOTE]
+> [!NOTE]
 > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse. 
-
+> 
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu.  See [Personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)
   
 ## View the call stack while in the debugger 
   
--   While debugging, in the **Debug** menu, select **Windows > Call Stack**.
+- While debugging, in the **Debug** menu, select **Windows > Call Stack**.
 
- ![Call Stack Window](../debugger/media/dbg_basics_callstack_window.png "CallStackWindow")
+  ![Call Stack Window](../debugger/media/dbg_basics_callstack_window.png "CallStackWindow")
 
 A yellow arrow identifies the stack frame where the execution pointer is currently located. By default, this is the stack frame whose information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. If you want to change the debugger context to another frame on the stack, you can do that by [switching to another stack frame](#bkmk_switch).   
   
@@ -103,7 +103,7 @@ If you are using Visual Studio Enterprise (only), you can view code maps for the
 
 ## Change the optional information displayed  
   
--   Right-click the **Call Stack** window and set or clear **Show \<***the information that you want***>**.  
+-   Right-click the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
   
 ## <a name="bkmk_symbols"></a> Load Symbols for a module
 In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET Framework or system symbols downloaded from the Microsoft public symbol servers or symbols in a symbol path on the computer that you are debugging.  

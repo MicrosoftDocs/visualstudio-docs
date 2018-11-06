@@ -16,7 +16,7 @@ ms.workload:
   - "multiple"
 ---
 # How to: Customize the Code Analysis Dictionary
-Code Analysis uses a built-in dictionary to check identifiers in your code for errors in spelling, grammatical case, and other naming conventions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] guidelines. You can create a custom dictionary Xml file to add, remove, or modify terms, abbreviations, and acronyms to the built-in dictionary.
+Code Analysis uses a built-in dictionary to check identifiers in your code for errors in spelling, grammatical case, and other naming conventions of the .NET Framework guidelines. You can create a custom dictionary Xml file to add, remove, or modify terms, abbreviations, and acronyms to the built-in dictionary.
 
  For example, suppose your code contained a class named **DoorKnokker**. Code Analysis would identify the name as a compound of two words: **door** and **knokker**. It would then raise a warning that **knokker** was not spelled correctly. To force code analysis to recognize the spelling, you can add the term **knokker** to the custom dictionary.
 
@@ -27,27 +27,27 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 ```
 <Dictionary>
-      <Words>
-         <Unrecognized>
-            <Word>knokker</Word>
-         </Unrecognized>
-         <Recognized>
-            <Word></Word>
-         </Recognized>
-         <Deprecated>
-            <Term PreferredAlternate=""></Term>
-         </Deprecated>
-         <Compound>
-            <Term CompoundAlternate=""></Term>
-         </Compound>
-         <DiscreteExceptions>
-            <Term></Term>
-         </DiscreteExceptions>
-      </Words>
-      <Acronyms>
-         <CasingExceptions>
-            <Acronym></Acronym>
-         </CasingExceptions>
+      <Words>
+         <Unrecognized>
+            <Word>knokker</Word>
+         </Unrecognized>
+         <Recognized>
+            <Word></Word>
+         </Recognized>
+         <Deprecated>
+            <Term PreferredAlternate=""></Term>
+         </Deprecated>
+         <Compound>
+            <Term CompoundAlternate=""></Term>
+         </Compound>
+         <DiscreteExceptions>
+            <Term></Term>
+         </DiscreteExceptions>
+      </Words>
+      <Acronyms>
+         <CasingExceptions>
+            <Acronym></Acronym>
+         </CasingExceptions>
       </Acronyms>
    </Dictionary>
 ```
@@ -55,17 +55,17 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 ## Custom Dictionary Elements
  You can modify the behavior of the Code Analysis dictionary by adding terms as the inner text of the following elements in the custom dictionary:
 
--   [Dictionary/Words/Recognized/Word](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsRecognizedWord)
+- [Dictionary/Words/Recognized/Word](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsRecognizedWord)
 
--   [Dictionary/Words/Unrecognized/Word](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsUnrecognizedWord)
+- [Dictionary/Words/Unrecognized/Word](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsUnrecognizedWord)
 
--   [Dictionary/Words/Deprecated/Term[@PreferredAlternate]](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsDeprecatedTermPreferredAlternate)
+- [Dictionary/Words/Deprecated/Term[@PreferredAlternate]](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsDeprecatedTermPreferredAlternate)
 
--   [Dictionary/Words/Compound/Term[@CompoundAlternate]](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsCompoundTermCompoundAlternate)
+- [Dictionary/Words/Compound/Term[@CompoundAlternate]](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsCompoundTermCompoundAlternate)
 
--   [Dictionary/Words/DiscreteExceptions/Term](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsDiscreteExceptionsTerm)
+- [Dictionary/Words/DiscreteExceptions/Term](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryWordsDiscreteExceptionsTerm)
 
--   [Dictionary/Acronyms/CasingExceptions/Acronym](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryAcronymsCasingExceptionsAcronym)
+- [Dictionary/Acronyms/CasingExceptions/Acronym](../code-quality/how-to-customize-the-code-analysis-dictionary.md#BKMK_DictionaryAcronymsCasingExceptionsAcronym)
 
 ###  <a name="BKMK_DictionaryWordsRecognizedWord"></a> Dictionary/Words/Recognized/Word
  To include a term in the list of terms that code analysis identifies as correctly spelled, add the term as the inner text of a Dictionary/Words/Recognized/Word element. Terms in Dictionary/Words/Recognized/Word elements are not case-sensitive.
@@ -74,16 +74,15 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 ```
 <Dictionary>
-      <Words>
-         <Recognized>
-            <Word>knokker</Word>
-            ...
-         </Recognized>
-         ...
-      </Words>
-      ...
+      <Words>
+         <Recognized>
+            <Word>knokker</Word>
+            ...
+         </Recognized>
+         ...
+      </Words>
+      ...
 </Dictionary>
-
 ```
 
  Terms in Dictionary/Words/Recognized nodes are applied to the following code analysis rules:
@@ -109,16 +108,15 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 ```
 <Dictionary>
-      <Words>
-         <Unrecognized>
-            <Word>meth</Word>
-            ...
-         </Unrecognized>
-         ...
-      </Words>
-      ...
+      <Words>
+         <Unrecognized>
+            <Word>meth</Word>
+            ...
+         </Unrecognized>
+         ...
+      </Words>
+      ...
 </Dictionary>
-
 ```
 
  Terms in the Dictionary/Words/Unrecognized node are applied to the following code analysis rules:
@@ -142,24 +140,23 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
  To include a suggested alternate term in the warning, specify the alternate in the PreferredAlternate attribute of the Term element. You can leave the attribute value empty if you do not want to suggest an alternate.
 
--   The deprecated term in Dictionary/Words/ Deprecated/Term element is not case-sensitive.
+- The deprecated term in Dictionary/Words/ Deprecated/Term element is not case-sensitive.
 
--   The PreferredAlternate attribute value is case-sensitive. Use Pascal case for compound alternates.
+- The PreferredAlternate attribute value is case-sensitive. Use Pascal case for compound alternates.
 
- **Example**
+  **Example**
 
 ```
 <Dictionary>
-      <Words>
-         <Deprecated>
-            <Term PreferredAlternate="LogOn">login</Term>
-            ...
-         </Deprecated>
-         ...
-      </Words>
-      ...
+      <Words>
+         <Deprecated>
+            <Term PreferredAlternate="LogOn">login</Term>
+            ...
+         </Deprecated>
+         ...
+      </Words>
+      ...
 </Dictionary>
-
 ```
 
  Terms in the Dictionary/Words/Deprecated node are applied to the following code analysis rules:
@@ -177,24 +174,23 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 ###  <a name="BKMK_DictionaryWordsCompoundTermCompoundAlternate"></a> Dictionary/Words/Compound/Term[@CompoundAlternate]
  The built-in dictionary identifies some terms as single, discrete terms rather than a compound term. To include a term in the list of terms that code analysis identifies as a compound word and to specify the correct casing of the term, add the term as the inner text of a Dictionary/Words/Compound/Term element. In the CompoundAlternate attribute of the Term element, specify the individual words that make up the compound term by capitalizing the first letter of the individual words (Pascal case). Note that the term specified in the inner text is automatically added to the Dictionary/Words/DiscreteExceptions list.
 
--   The deprecated term in Dictionary/Words/ Deprecated/Term element is not case-sensitive.
+- The deprecated term in Dictionary/Words/ Deprecated/Term element is not case-sensitive.
 
--   The PreferredAlternate attribute value is case-sensitive. Use Pascal case for compound alternates.
+- The PreferredAlternate attribute value is case-sensitive. Use Pascal case for compound alternates.
 
- **Example**
+  **Example**
 
 ```
 <Dictionary>
-      <Words>
-         <Compound>
-            <Term CompoundAlternate="CheckBox">checkbox</Term>
-            ...
-         </Compound>
-         ...
-      </Words>
-      ...
+      <Words>
+         <Compound>
+            <Term CompoundAlternate="CheckBox">checkbox</Term>
+            ...
+         </Compound>
+         ...
+      </Words>
+      ...
 </Dictionary>
-
 ```
 
  Terms in the Dictionary/Words/Compound node are applied to the following code analysis rules:
@@ -214,16 +210,15 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 ```
 <Dictionary>
-      <Words>
-         <DiscreteExceptions>
-            <Term>checkbox</Term>
-            ...
-         </DiscreteExceptions>
-         ...
-      </Words>
-      ...
+      <Words>
+         <DiscreteExceptions>
+            <Term>checkbox</Term>
+            ...
+         </DiscreteExceptions>
+         ...
+      </Words>
+      ...
 </Dictionary>
-
 ```
 
  Terms in the Dictionary/Words/DiscreteExceptions node are applied to the following code analysis rules:
@@ -239,16 +234,15 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 ```
 <Dictionary>
-      <Acronyms>
-         <CasingExceptions>
-            <Acronym>NESW</Acronym>   <!-- North East South West -->
-            ...
-         </CasingExceptions>
-         ...
-      </Acronyms>
-      ...
+      <Acronyms>
+         <CasingExceptions>
+            <Acronym>NESW</Acronym>   <!-- North East South West -->
+            ...
+         </CasingExceptions>
+         ...
+      </Acronyms>
+      ...
 </Dictionary>
-
 ```
 
  Terms in the Dictionary/Acronyms/CasingExceptions node are applied to the following code analysis rules:

@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2130: Security critical constants should be transparent
+
 |||
 |-|-|
 |TypeName|ConstantsShouldBeTransparent|
@@ -24,13 +25,13 @@ ms.workload:
 ## Cause
  A constant field or an enumeration member is marked with the <xref:System.Security.SecurityCriticalAttribute>.
 
-## Rule Description
+## Rule description
  Transparency enforcement is not enforced for constant values because compilers inline constant values so that no lookup is required at run time. Constant fields should be security transparent so that code reviewers do not assume that transparent code cannot access the constant.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove the SecurityCritical attribute from the field or value.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example

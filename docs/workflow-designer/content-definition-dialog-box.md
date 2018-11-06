@@ -15,12 +15,12 @@ ms.workload:
 ---
 # Content Definition Dialog Box
 
-The **Content Definition** dialog box is used in Windows Workflow Designer to configure the **Content** properties of the <xref:System.ServiceModel.Activities.Send>, <xref:System.ServiceModel.Activities.Receive>, <xref:System.ServiceModel.Activities.SendReply>, and <xref:System.ServiceModel.Activities.ReceiveReply> activities. For more information about the activity designers that use this box, see the [Send](../workflow-designer/send-activity-designer.md), [Receive](../workflow-designer/receive-activity-designer.md), [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md), and [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topics.
+The **Content Definition** dialog box is used in Workflow Designer to configure the **Content** properties of the <xref:System.ServiceModel.Activities.Send>, <xref:System.ServiceModel.Activities.Receive>, <xref:System.ServiceModel.Activities.SendReply>, and <xref:System.ServiceModel.Activities.ReceiveReply> activities. For more information about the activity designers that use this box, see the [Send](../workflow-designer/send-activity-designer.md), [Receive](../workflow-designer/receive-activity-designer.md), [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md), and [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topics.
 
 The following table describes the user interface (UI) elements of the **Initialize Correlation** dialog box:
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**Message**|Specifies the message content with the **Message data** expression text box and the type by using the **Message type** drop-down list box. By default, the **Content Definition** uses the <xref:System.ServiceModel.Activities.ReceiveMessageContent>, which expects a <xref:System.ServiceModel.Channels.Message> or a message contract type within the workflow service definition.|
 |**Parameters**|Click the **Parameters** radio button to use <xref:System.ServiceModel.Activities.ReceiveParametersContent>, which expects a data contract. Use the data grid to set a generic collection of <xref:System.Activities.OutArgument> key/value pairs whose values are assigned to variable parameters in the current workflow.|
 

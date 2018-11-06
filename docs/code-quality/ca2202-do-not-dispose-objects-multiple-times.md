@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2202: Do not dispose objects multiple times
+
 |||
 |-|-|
 |TypeName|DoNotDisposeObjectsMultipleTimes|
@@ -26,26 +27,32 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- A method implementation contains code paths that could cause multiple calls to <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> or a Dispose equivalent, such as a Close() method on some types, on the same object.
 
-## Rule Description
- A correctly implemented <xref:System.IDisposable.Dispose%2A> method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a <xref:System.ObjectDisposedException?displayProperty=fullName> you should not call <xref:System.IDisposable.Dispose%2A> more than one time on an object.
+A method implementation contains code paths that could cause multiple calls to <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> or a Dispose equivalent, such as a Close() method on some types, on the same object.
 
-## Related Rules
- [CA2000: Dispose objects before losing scope](../code-quality/ca2000-dispose-objects-before-losing-scope.md)
+## Rule description
 
-## How to Fix Violations
- To fix a violation of this rule, change the implementation so that regardless of the code path, <xref:System.IDisposable.Dispose%2A> is called only one time for the object.
+A correctly implemented <xref:System.IDisposable.Dispose%2A> method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a <xref:System.ObjectDisposedException?displayProperty=fullName> you should not call <xref:System.IDisposable.Dispose%2A> more than one time on an object.
 
-## When to Suppress Warnings
- Do not suppress a warning from this rule. Even if <xref:System.IDisposable.Dispose%2A> for the object is known to be safely callable multiple times, the implementation might change in the future.
+## Related rules
+
+- [CA2000: Dispose objects before losing scope](../code-quality/ca2000-dispose-objects-before-losing-scope.md)
+
+## How to fix violations
+
+To fix a violation of this rule, change the implementation so that regardless of the code path, <xref:System.IDisposable.Dispose%2A> is called only one time for the object.
+
+## When to suppress warnings
+
+Do not suppress a warning from this rule. Even if <xref:System.IDisposable.Dispose%2A> for the object is known to be safely callable multiple times, the implementation might change in the future.
 
 ## Example
- Nested `using` statements (`Using` in Visual Basic) can cause violations of the CA2202 warning. If the IDisposable resource of the nested inner `using` statement contains the resource of the outer `using` statement, the `Dispose` method of the nested resource releases the contained resource. When this situation occurs, the `Dispose` method of the outer `using` statement attempts to dispose its resource for a second time.
 
- In the following example, a <xref:System.IO.Stream> object that is created in an outer using statement is released at the end of the inner using statement in the Dispose method of the <xref:System.IO.StreamWriter> object that contains the `stream` object. At the end of the outer `using` statement, the `stream` object is released a second time. The second release is a violation of CA2202.
+Nested `using` statements (`Using` in Visual Basic) can cause violations of the CA2202 warning. If the IDisposable resource of the nested inner `using` statement contains the resource of the outer `using` statement, the `Dispose` method of the nested resource releases the contained resource. When this situation occurs, the `Dispose` method of the outer `using` statement attempts to dispose its resource for a second time.
 
-```
+In the following example, a <xref:System.IO.Stream> object that is created in an outer using statement is released at the end of the inner using statement in the Dispose method of the <xref:System.IO.StreamWriter> object that contains the `stream` object. At the end of the outer `using` statement, the `stream` object is released a second time. The second release is a violation of CA2202.
+
+```csharp
 using (Stream stream = new FileStream("file.txt", FileMode.OpenOrCreate))
 {
     using (StreamWriter writer = new StreamWriter(stream))
@@ -53,17 +60,17 @@ using (Stream stream = new FileStream("file.txt", FileMode.OpenOrCreate))
         // Use the writer object...
     }
 }
-
 ```
 
 ## Example
- To resolve this issue, use a `try`/`finally` block instead of the outer `using` statement. In the `finally` block, make sure that the `stream` resource is not null.
 
-```
+To resolve this issue, use a `try`/`finally` block instead of the outer `using` statement. In the `finally` block, make sure that the `stream` resource is not null.
+
+```csharp
 Stream stream = null;
 try
 {
-    stream = new FileStream("file.txt", FileMode.OpenOrCreate);
+    stream = new FileStream("file.txt", FileMode.OpenOrCreate);
     using (StreamWriter writer = new StreamWriter(stream))
     {
         stream = null;
@@ -72,12 +79,12 @@ try
 }
 finally
 {
-    if(stream != null)
-        stream.Dispose();
+    if(stream != null)
+        stream.Dispose();
 }
-
 ```
 
-## See Also
- <xref:System.IDisposable?displayProperty=fullName>
- [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)
+## See also
+
+- <xref:System.IDisposable?displayProperty=fullName>
+- [Dispose Pattern](/dotnet/standard/design-guidelines/dispose-pattern)

@@ -23,15 +23,15 @@ Notifies the debug package that text has been removed from the document.
   
 ```cpp  
 HRESULT onRemoveText(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToRemove  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToRemove  
 );  
 ```  
   
 ```csharp  
 int onRemoveText(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToRemove  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToRemove  
 );  
 ```  
   

@@ -103,7 +103,7 @@ This topic provides a detailed look at the CRT debug heap.
   
  Currently, the block header structure used to store the debug heap's bookkeeping information is declared as follows in the DBGINT.H header file:  
   
-```  
+```cpp
 typedef struct _CrtMemBlockHeader  
 {  
 // Pointer to the block allocated just before this one:  
@@ -153,7 +153,7 @@ typedef struct _CrtMemBlockHeader
  `_CLIENT_BLOCK`  
  An application can keep special track of a given group of allocations for debugging purposes by allocating them as this type of memory block, using explicit calls to the debug heap functions. MFC, for example, allocates all **CObjects** as Client blocks; other applications might keep different memory objects in Client blocks. Subtypes of Client blocks can also be specified for greater tracking granularity. To specify subtypes of Client blocks, shift the number left by 16 bits and `OR` it with `_CLIENT_BLOCK`. For example:  
   
-```  
+```cpp
 #define MYSUBTYPE 4  
 freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));  
 ```  
@@ -168,7 +168,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
   
  To determine the type and subtype of a given block, use the function [_CrtReportBlockType](/cpp/c-runtime-library/reference/crtreportblocktype) and the macros **_BLOCK_TYPE** and **_BLOCK_SUBTYPE**. The macros are defined (in crtdbg.h), as follows:  
   
-```  
+```cpp
 #define _BLOCK_TYPE(block)          (block & 0xFFFF)  
 #define _BLOCK_SUBTYPE(block)       (block >> 16 & 0xFFFF)  
 ```  
@@ -201,21 +201,21 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
   
  **To use the debug heap**  
   
--   Link the debug build of your application with a debug version of the C run-time library.  
+- Link the debug build of your application with a debug version of the C run-time library.  
   
- **To change one or more _crtDbgFlag bit fields and create a new state for the flag**  
+  **To change one or more _crtDbgFlag bit fields and create a new state for the flag**  
   
-1.  Call `_CrtSetDbgFlag` with the `newFlag` parameter set to `_CRTDBG_REPORT_FLAG` (to obtain the current `_crtDbgFlag` state) and store the returned value in a temporary variable.  
+1. Call `_CrtSetDbgFlag` with the `newFlag` parameter set to `_CRTDBG_REPORT_FLAG` (to obtain the current `_crtDbgFlag` state) and store the returned value in a temporary variable.  
   
-2.  Turn on any bits by `OR`-ing (bitwise &#124; symbol) the temporary variable with the corresponding bitmasks (represented in the application code by manifest constants).  
+2. Turn on any bits by `OR`-ing (bitwise &#124; symbol) the temporary variable with the corresponding bitmasks (represented in the application code by manifest constants).  
   
-3.  Turn off the other bits by `AND`-ing (bitwise & symbol) the variable with a `NOT` (bitwise ~ symbol) of the appropriate bitmasks.  
+3. Turn off the other bits by `AND`-ing (bitwise & symbol) the variable with a `NOT` (bitwise ~ symbol) of the appropriate bitmasks.  
   
-4.  Call `_CrtSetDbgFlag` with the `newFlag` parameter set to the value stored in the temporary variable to create the new state for `_crtDbgFlag`.  
+4. Call `_CrtSetDbgFlag` with the `newFlag` parameter set to the value stored in the temporary variable to create the new state for `_crtDbgFlag`.  
   
- For example, the following lines of code turn on automatic leak detection and turn off checking for blocks of type `_CRT_BLOCK`:  
+   For example, the following lines of code turn on automatic leak detection and turn off checking for blocks of type `_CRT_BLOCK`:  
   
-```  
+```cpp
 // Get current flag  
 int tmpFlag = _CrtSetDbgFlag( _CRTDBG_REPORT_FLAG );  
   
@@ -234,7 +234,7 @@ _CrtSetDbgFlag( tmpFlag );
 ##  <a name="BKMK_new__delete__and__CLIENT_BLOCKs_in_the_C___debug_heap"></a> new, delete, and _CLIENT_BLOCKs in the C++ debug heap  
  The debug versions of the C run-time library contain debug versions of the C++ `new` and `delete` operators. If you use the `_CLIENT_BLOCK` allocation type, you must call the debug version of the `new` operator directly or create macros that replace the `new` operator in debug mode, as shown in the following example:  
   
-```  
+```cpp
 /* MyDbgNew.h  
  Defines global operator new to allocate from  
  client blocks  
@@ -274,7 +274,7 @@ int main( )   {
   
  To capture a summary snapshot of the state of the heap at a given time, use the _CrtMemState structure defined in CRTDBG.H:  
   
-```  
+```cpp
 typedef struct _CrtMemState  
 {  
     // Pointer to the most recently allocated block:  
@@ -321,7 +321,7 @@ typedef struct _CrtMemState
   
  For example, suppose your application contains a commonly used routine similar to the following:  
   
-```  
+```cpp
 int addNewRecord(struct RecStruct * prevRecord,  
                  int recType, int recAccess)  
 {  
@@ -333,7 +333,7 @@ int addNewRecord(struct RecStruct * prevRecord,
   
  In a header file, you could add code such as the following:  
   
-```  
+```cpp
 #ifdef _DEBUG  
 #define  addNewRecord(p, t, a) \  
             addNewRecord(p, t, a, __FILE__, __LINE__)  
@@ -342,7 +342,7 @@ int addNewRecord(struct RecStruct * prevRecord,
   
  Next, you could change the allocation in your record-creation routine as follows:  
   
-```  
+```cpp
 int addNewRecord(struct RecStruct *prevRecord,  
                 int recType, int recAccess  
 #ifdef _DEBUG  

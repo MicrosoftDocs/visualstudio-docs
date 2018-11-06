@@ -22,7 +22,7 @@ Retrieves the platform type for which the compiland was compiled.
   
 ```C++  
 HRESULT get_platform (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

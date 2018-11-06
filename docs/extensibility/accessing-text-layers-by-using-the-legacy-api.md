@@ -14,12 +14,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Accessing Text Layers by Using the Legacy API
+# Access text layers by using the legacy API
 A text layer typically encapsulates some aspect of text layout. For example, a "function-at-a-time" layer hides text before and after a function containing the caret (text insertion point).  
   
  A text layer resides between a buffer and a view, and it modifies the way the view sees the buffer's contents.  
   
-## Text Layer Information  
+## Text layer information  
  The following list describes how text layers work in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:  
   
 -   The text in a text layer can be adorned with syntax coloring and markers.  
@@ -32,7 +32,7 @@ A text layer typically encapsulates some aspect of text layout. For example, a "
   
 -   A layer can affect only layers that are below it. It cannot affect the layers above it beyond originating standard events.  
   
--   In the editor, hidden text, synthetic text, and word wrap are implemented as layers. You can implement hidden and synthetic text without interacting directly with the layers. For more information, see [Outlining in a Legacy Language Service](../extensibility/internals/outlining-in-a-legacy-language-service.md) and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSyntheticTextSession>.  
+-   In the editor, hidden text, synthetic text, and word wrap are implemented as layers. You can implement hidden and synthetic text without interacting directly with the layers. For more information, see [Outlining in a legacy language service](../extensibility/internals/outlining-in-a-legacy-language-service.md) and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSyntheticTextSession>.  
   
 -   Each text layer has its own local coordinate system that is exposed through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLayer> interface. The line-wrap layer, for example, might contain two lines while the underlying text buffer might contain only one line.  
   
@@ -42,7 +42,7 @@ A text layer typically encapsulates some aspect of text layout. For example, a "
   
 -   Besides <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLayer>, a text layer must implement <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> and fire the events in the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLinesEvents> interface.  
   
-## See Also  
- [Syntax Coloring in Custom Editors](../extensibility/syntax-coloring-in-custom-editors.md)   
- [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
- [Customizing Editor Controls and Menus by Using the Legacy API](../extensibility/customizing-editor-controls-and-menus-by-using-the-legacy-api.md)
+## See also  
+ [Syntax coloring in custom editors](../extensibility/syntax-coloring-in-custom-editors.md)   
+ [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
+ [Customize editor controls and menus by using the legacy API](../extensibility/customizing-editor-controls-and-menus-by-using-the-legacy-api.md)

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1045: Do not pass types by reference
+
 |||
 |-|-|
 |TypeName|DoNotPassTypesByReference|
@@ -28,7 +29,7 @@ ms.workload:
 ## Cause
  A public or protected method in a public type has a `ref` parameter that takes a primitive type, a reference type, or a value type that is not one of the built-in types.
 
-## Rule Description
+## Rule description
  Passing types by reference (using `out` or `ref`) requires experience with pointers, understanding how value types and reference types differ, and handling methods that have multiple return values. Also, the difference between `out` and `ref` parameters is not widely understood.
 
  When a reference type is passed "by reference," the method intends to use the parameter to return a different instance of the object. (Passing a reference type by reference is also known as using a double pointer, pointer to a pointer, or double indirection.) Using the default calling convention, which is pass "by value," a parameter that takes a reference type already receives a pointer to the object. The pointer, not the object to which it points, is passed by value. Passing by value means that the method cannot change the pointer to have it point to a new instance of the reference type, but can change the contents of the object to which it points. For most applications this is sufficient and yields the behavior that you want.
@@ -40,12 +41,12 @@ ms.workload:
 > [!NOTE]
 >  When you work with parameters that are large structures, the additional resources that are required to copy these structures could cause a performance effect when you pass by value. In these cases, you might consider using `ref` or `out` parameters.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule that is caused by a value type, have the method return the object as its return value. If the method must return multiple values, redesign it to return a single instance of an object that holds the values.
 
  To fix a violation of this rule that is caused by a reference type, make sure that the behavior that you want is to return a new instance of the reference. If it is, the method should use its return value to do this.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule; however, this design could cause usability issues.
 
 ## Example
@@ -68,15 +69,18 @@ ms.workload:
 
  [!code-csharp[FxCop.Design.TestRefByRefNo#1](../code-quality/codesnippet/CSharp/ca1045-do-not-pass-types-by-reference_4.cs)]
 
- This example produces the following output.
+This example produces the following output:
 
- **Changing pointer - passed by value:**
-**12345**
-**12345**
-**Changing pointer - passed by reference:**
-**12345**
-**12345 ABCDE**
-**Passing by return value:**
-**12345 ABCDE**
-## Related Rules
+```txt
+Changing pointer - passed by value:
+12345
+12345
+Changing pointer - passed by reference:
+12345
+12345 ABCDE
+Passing by return value:
+12345 ABCDE
+```
+
+## Related rules
  [CA1021: Avoid out parameters](../code-quality/ca1021-avoid-out-parameters.md)

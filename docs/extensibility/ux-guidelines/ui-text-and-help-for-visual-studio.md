@@ -52,7 +52,7 @@ ms.workload:
   
 -   Write your text so that every word holds weight and is necessary.  
   
--   Follow existing Microsoft guidance for [User Interface Text](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478\(v=vs.85\).aspx) and [Style and Tone](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742477\(v=vs.85\).aspx).  
+-   Follow existing Microsoft guidance for [User Interface Text](/windows/desktop/uxguide/text-ui) and [Style and Tone](/windows/desktop/uxguide/text-style-tone).  
   
 #### Supplemental instructions  
  Supplemental instructions provide additional information that helps the user understand controls or control groupings. This could also include hint text necessary to understand what format the input control is expecting. Use supplemental instructions sparingly. Reserve them for cases where it's likely that the user won't fully understand the ramifications of the choice they are making.  
@@ -82,10 +82,10 @@ ms.workload:
   
 -   Keep InfoTips short and sweet. Use small words and plain, everyday language that supports and encourages the user.  
   
--   Follow existing Microsoft guidance for [User Interface Text](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478\(v=vs.85\).aspx) and [Style and Tone](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742477\(v=vs.85\).aspx).  
+-   Follow existing Microsoft guidance for [User Interface Text](/windows/desktop/uxguide/text-ui) and [Style and Tone](/windows/desktop/uxguide/text-style-tone).  
   
 #### Control labels  
- Control labels should be short, concise, and follow the [Windows Desktop guidance for Controls](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742399\(v=vs.85\).aspx).  
+ Control labels should be short, concise, and follow the [Windows Desktop guidance for Controls](/windows/desktop/uxguide/controls).  
   
  For more information about control label format and placement within the UI, refer to [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md).  
   
@@ -128,7 +128,7 @@ ms.workload:
      Correct:  
      "What pricing options are available for Windows Azure Mobile Services?"  
   
--   For more information on the correct writing style for Help links, see the [Windows Desktop guidance for Help](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742494\(v=vs.85\).aspx).  
+-   For more information on the correct writing style for Help links, see the [Windows Desktop guidance for Help](/windows/desktop/uxguide/winenv-help).  
   
 #### Hint text  
  Hint text appears as a watermark within a control or below the control. Correct formatting will be applied by using the appropriate VSColors token, `Environment.GrayText`.  
@@ -309,15 +309,15 @@ ms.workload:
   
  This solution makes four assumptions that could cause bugs:  
   
--   The dialog's help button is **IDHELP** (9).  
+- The dialog's help button is **IDHELP** (9).  
   
--   The dialog looks correct when the Help button is hidden.  
+- The dialog looks correct when the Help button is hidden.  
   
--   The dialog does not substitute its winproc.  
+- The dialog does not substitute its winproc.  
   
--   The dialog is not embedded inside of another dialog.  
+- The dialog is not embedded inside of another dialog.  
   
- If your dialog resides within msenv and doesn't use **VBDialogBoxParam**, investigate leveraging **VBDialogBoxParam** before implementing your own handler.  
+  If your dialog resides within msenv and doesn't use **VBDialogBoxParam**, investigate leveraging **VBDialogBoxParam** before implementing your own handler.  
   
 ##### Dialogs created through other packages  
  You can implement your own solution for dialogs that reside outside msenv. For a shared dialog class in your VSPackage, consider moving the button to the title bar or implementing a handler on each dialog. The following code is a skeleton of an implementation to help you get started:  

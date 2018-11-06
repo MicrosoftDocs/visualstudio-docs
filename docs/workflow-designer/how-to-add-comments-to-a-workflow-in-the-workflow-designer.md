@@ -43,15 +43,15 @@ To facilitate creating larger, more complicated workflows, .NET Framework 4.5 al
 
 ## Displaying an annotation in an activity's designer
 
-1.  With an activity designer which has an annotation displaying outside the activity, click the **Pin** icon in the annotation adorner.
+1. With an activity designer which has an annotation displaying outside the activity, click the **Pin** icon in the annotation adorner.
 
    The annotation is displayed in the activity's designer. In the screenshot below, the annotation "Starting activity in the workflow" is displayed in the activity's designer.
 
-   ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png "AnnotationInDesigner")
+   ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png)
 
-1. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon
+2. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon
 
-   ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png "AnnotationOutsideDesigner")
+   ![Annotation displayed outside an activity's designer](../workflow-designer/media/annotationoutsidedesigner.png)
 
 ## Showing or hiding all annotations
 

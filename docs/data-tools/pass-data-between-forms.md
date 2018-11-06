@@ -21,12 +21,13 @@ ms.workload:
   - "data-storage"
 ---
 # Pass data between forms
+
 This walkthrough provides step-by-step instructions for passing data from one form to another. Using the customers and orders tables from Northwind, one form allows users to select a customer, and a second form displays the selected customer's orders. This walkthrough shows how to create a method on the second form that receives data from the first form.
 
 > [!NOTE]
->  This walkthrough demonstrates only one way to pass data between forms. There are other options for passing data to a form, including creating a second constructor to receive data, or creating a public property that can be set with data from the first form.
+> This walkthrough demonstrates only one way to pass data between forms. There are other options for passing data to a form, including creating a second constructor to receive data, or creating a public property that can be set with data from the first form.
 
- Tasks illustrated in this walkthrough include:
+Tasks illustrated in this walkthrough include:
 
 -   Creating a new **Windows Forms Application** project.
 
@@ -43,13 +44,14 @@ This walkthrough provides step-by-step instructions for passing data from one fo
 -   Passing data between forms.
 
 ## Prerequisites
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
 
 2.  Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
@@ -57,15 +59,13 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes running and the Northwind database is created.
 
-## Create the Windows Forms Application
+## Create the Windows Forms app project
 
-#### To create the new Windows project
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
 3. In the middle pane, select the **Windows Forms App** project type.
 
@@ -74,8 +74,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **PassingDataBetweenForms** project is created, and added to **Solution Explorer**.
 
 ## Create the data source
-
-#### To create the data source
 
 1.  On the **Data** menu, click **Show Data Sources**.
 
@@ -102,17 +100,18 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **NorthwindDataSet** is added to your project, and the **Customers** and **Orders** tables appear in the **Data Sources** window.
 
 ## Create the first form (Form1)
- You can create a data-bound grid (a <xref:System.Windows.Forms.DataGridView> control), by dragging the **Customers** node from the **Data Sources** window onto the form.
 
-#### To create a data-bound grid on the form
+You can create a data-bound grid (a <xref:System.Windows.Forms.DataGridView> control), by dragging the **Customers** node from the **Data Sources** window onto the form.
+
+### To create a data-bound grid on the form
 
 -   Drag the main **Customers** node from the **Data Sources** window onto **Form1**.
 
      A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on **Form1**. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
-## Create the second form (Form2)
+## Create the second form
 
-#### To create a second form to pass the data to
+Create a second form to pass data to.
 
 1.  From the **Project** menu, choose **Add Windows Form**.
 
@@ -126,9 +125,9 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
      The **OrdersBindingNavigator** disappears from **Form2**.
 
-## Add a TableAdapter query to Form2 to load orders for the selected customer on Form1
+## Add a TableAdapter query
 
-#### To create a TableAdapter query
+Add a TableAdapter query to Form2 to load orders for the selected customer on Form1.
 
 1.  Double-click the **NorthwindDataSet.xsd** file in **Solution Explorer**.
 
@@ -140,14 +139,14 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 5.  Add a WHERE clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
 
-    ```
+    ```sql
     SELECT OrderID, CustomerID, EmployeeID, OrderDate, RequiredDate, ShippedDate, ShipVia, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry
     FROM Orders
     WHERE CustomerID = @CustomerID
     ```
 
     > [!NOTE]
-    >  Verify the correct parameter syntax for your database. For example, in Microsoft Access, the WHERE clause would look like: `WHERE CustomerID = ?`.
+    > Verify the correct parameter syntax for your database. For example, in Microsoft Access, the WHERE clause would look like: `WHERE CustomerID = ?`.
 
 6.  Click **Next**.
 
@@ -159,8 +158,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a method on Form2 to pass data to
 
-#### To create a method to pass data to
-
 1.  Right-click **Form2**, and select **View Code** to open **Form2** in the **Code Editor**.
 
 2.  Add the following code to **Form2** after the `Form2_Load` method:
@@ -169,8 +166,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      [!code-csharp[VbRaddataDisplaying#1](../data-tools/codesnippet/CSharp/pass-data-between-forms_1.cs)]
 
 ## Create a method on Form1 to pass data and display Form2
-
-#### To create a method to pass data to Form2
 
 1.  In **Form1**, right-click the Customer data grid, and then click **Properties**.
 
@@ -185,19 +180,17 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      [!code-csharp[VbRaddataDisplaying#2](../data-tools/codesnippet/CSharp/pass-data-between-forms_2.cs)]
      [!code-vb[VbRaddataDisplaying#2](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_2.vb)]
 
-## Run the Application
+## Run the app
 
-#### To run the application
-
--   Press F5 to run the application.
+-   Press **F5** to run the application.
 
 -   Double-click a customer record in **Form1** to open **Form2** with that customer's orders.
 
-## Next Steps
+## Next steps
 
 Depending on your application requirements, there are several steps you may want to perform after passing data between forms. Some enhancements you could make to this walkthrough include:
 
--   Editing the dataset, to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
+-   Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
 -   Adding functionality to save data back to the database. For more information, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md).
 

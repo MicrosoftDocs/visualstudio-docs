@@ -22,7 +22,7 @@ Retrieves the offset part of the code address for the frame.
   
 ```C++  
 HRESULT get_addressOffset (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

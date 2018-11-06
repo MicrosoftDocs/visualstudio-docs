@@ -53,19 +53,19 @@ You can use requirements and architectural models to help you organize the tests
 
 ###### To link tests to a use case
 
-1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
+1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts).
 
-2.  Link the requirement work item to one or more use cases in your model.
+2. Link the requirement work item to one or more use cases in your model.
 
-     In a use case diagram, right-click a use case and then click **Link to Work Item**.
+    In a use case diagram, right-click a use case and then click **Link to Work Item**.
 
-3.  Add to the test suite, test cases that verify the use cases.
+3. Add to the test suite, test cases that verify the use cases.
 
- Usually, each user story or requirement work item will link to several use cases in your model, and each use case will link to several user stories or requirements. This is because each user story or requirement covers a set of tasks that develop several use cases. For example, in an early iteration of your project, you might develop the basic user story in which a customer can choose items from a catalog and have them delivered. In a later iteration, the story might be that the user pays when completing the order, and the supplier receives the money after it sends the goods.  Each story adds a clause to the postcondition of the Order Goods use case.
+   Usually, each user story or requirement work item will link to several use cases in your model, and each use case will link to several user stories or requirements. This is because each user story or requirement covers a set of tasks that develop several use cases. For example, in an early iteration of your project, you might develop the basic user story in which a customer can choose items from a catalog and have them delivered. In a later iteration, the story might be that the user pays when completing the order, and the supplier receives the money after it sends the goods.  Each story adds a clause to the postcondition of the Order Goods use case.
 
- You can create separate links from requirements to the clauses of the postcondition by writing those clauses in separate comments on the use case diagram. You can link each comment to a requirement work item, and link the comment to the use case on the diagram.
+   You can create separate links from requirements to the clauses of the postcondition by writing those clauses in separate comments on the use case diagram. You can link each comment to a requirement work item, and link the comment to the use case on the diagram.
 
 ### Base Tests on the Requirements Types
  The types, that is, the classes, interfaces and enumerations, of a requirements model describe the concepts and relationships in terms of how users think and communicate about their business. It excludes types concerned only with the internal design of the system.
@@ -124,7 +124,7 @@ Assert (countAfter == countBefore = 1);
 
  From a testing point of view, a requirements model can be seen as a shorthand for the tests. Therefore, it's important to maintain the relationship between tests and model throughout the project.
 
-##  <a name="Attaching"></a> Attaching Test Cases to Model Elements
+## <a name="Attaching"></a> Attaching Test Cases to Model Elements
  If your project uses [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], you can link tests to the elements in your model. This lets you quickly find the tests affected by a change in the requirements, and helps you track the extent to which a requirement has been realized.
 
  You can link tests to all kinds of element. Here are some examples:
@@ -141,15 +141,15 @@ Assert (countAfter == countBefore = 1);
 
 #### To link tests to a model element or relationship
 
-1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
+1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts).
 
-2.  Link the requirement work item to one or more elements in your model.
+2. Link the requirement work item to one or more elements in your model.
 
-     In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**.
+    In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**.
 
-3.  Add to the test suite, test cases that verify the requirement expressed in the model element.
+3. Add to the test suite, test cases that verify the requirement expressed in the model element.
 
 ## See Also
 

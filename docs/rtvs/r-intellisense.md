@@ -14,7 +14,7 @@ ms.workload:
 
 # IntelliSense
 
-Visual Studio IntelliSense displays information about functions you can call, members of objects, function arguments, and [code snippets](code-snippets-for-r.md) directly in your view as you write code. It also displays possible completions as you type, and completes when you press the Tab or Enter keys (see [editor options](editing-r-code-in-visual-studio.md#editor-options) for the **Advanced** tab). IntelliSense is available in both the editor and the [interactive window](interactive-repl-for-r-in-visual-studio.md).
+Visual Studio IntelliSense displays information about functions you can call, members of objects, function arguments, and [code snippets](code-snippets-for-r.md) directly in your view as you write code. It also displays possible completions as you type, and completes when you press the **Tab** or **Enter** keys (see [Editor options](editing-r-code-in-visual-studio.md#editor-options) for the **Advanced** tab). IntelliSense is available in both the editor and the [interactive window](interactive-repl-for-r-in-visual-studio.md).
 
 ![IntelliSense showing a function signature](media/intellisense-function-signature.png)
 
@@ -22,22 +22,22 @@ When typing a function or other statement, IntelliSense provides an auto-complet
 
 ![IntelliSense auto-completion menu](media/intellisense-auto-complete-menu.png)
 
-Pressing Tab (or Enter, or Space, depending on how options are set), inserts the item selected in the dropdown. You can change the selection with the arrow keys.
+Pressing **Tab** (or **Enter**, or **Space**, depending on how options are set), inserts the item selected in the dropdown. You can change the selection with the arrow keys.
 
 IntelliSense also provides suggestions for members of R objects:
 
 ![IntelliSense suggestions for object members](media/intellisense-auto-complete-r-objects.png)
 
-Pressing ESC dismisses the menu altogether. You can bring it back up with Ctrl+Space.
+Pressing **ESC** dismisses the menu altogether. You can bring it back up with **Ctrl**+**Space**.
 
 Typing the opening `(` for a function call inserts the closing `)` and brings up signature help as shown earlier:
 
 ![IntelliSense signature help for a function](media/intellisense-function-signature.png)
 
-Again, ESC dismisses the popup; for function signatures, you can bring it up again with Ctrl+Shift+Space.
+Again, **ESC** dismisses the popup; for function signatures, you can bring it up again with **Ctrl**+**Shift**+**Space**.
 
 > [!Tip]
-> If parameter help obscures text underneath it, press and hold the Ctrl key to make the parameter help text translucent.
+> If parameter help obscures text underneath it, press and hold the **Ctrl** key to make the parameter help text translucent.
 
 ## IntelliSense for user-defined functions and variables
 

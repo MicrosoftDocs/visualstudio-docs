@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Choose Collection Methods
+# How to: Choose collection methods
 
 The Visual Studio Profiling Tools support three methods of collecting performance data: sampling, instrumentation, and concurrency. You can also use either the sampling or instrumentation method to collect .NET memory allocation and lifetime data.
 
@@ -26,12 +26,12 @@ You can use the performance session **Method** property to specify the most appr
 
 - On the first page of the wizard, select one of the following options:
 
-|Option|Description|
-|------------|-----------------|
-|**CPU Sampling**|Collects application statistics that are useful for initial analysis and for analyzing CPU utilization issues.|
-|**Instrumentation**|Collects detailed timing data that are useful for focused analysis and for analyzing input/output performance issues.|
-|**.NET Memory Allocation**|Collects [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] memory allocation data by using the sampling profiling method.|
-|**Concurrency**|Collects numeric resource contention data.|
+| Option | Description |
+|----------------------------| - |
+| **CPU Sampling** | Collects application statistics that are useful for initial analysis and for analyzing CPU utilization issues. |
+| **Instrumentation** | Collects detailed timing data that are useful for focused analysis and for analyzing input/output performance issues. |
+| **.NET Memory Allocation** | Collects [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] memory allocation data by using the sampling profiling method. |
+| **Concurrency** | Collects numeric resource contention data. |
 
 ## Performance Explorer
 
@@ -47,7 +47,7 @@ You can use the performance session **Method** property to specify the most appr
 
 1. In **Performance Explorer**, select the performance session.
 
-     A performance session file name has a .psess extension.
+     A performance session file name has a .*psess* extension.
 
 2. Right-click the performance session, and then click **Properties**.
 
@@ -75,7 +75,7 @@ You can use the performance session **Method** property to specify the most appr
 
 6. (Optional) Click **Also collect .NET object lifetime information** to collect data about the garbage collection generations in which the object memory was reclaimed.
 
-     For information about the other options that are available when you are collecting .NET memory data, see [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md).
+     For information about the other options that are available when you are collecting .NET memory data, see [Collect .NET memory allocation and lifetime data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md).
 
 ### To select concurrency data collection by using performance session properties
 
@@ -87,6 +87,6 @@ You can use the performance session **Method** property to specify the most appr
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
-[Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)  
-[Performance Session Properties](../profiling/performance-session-properties.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Understand sampling data values](../profiling/understanding-sampling-data-values.md)  
+[Performance session properties](../profiling/performance-session-properties.md)

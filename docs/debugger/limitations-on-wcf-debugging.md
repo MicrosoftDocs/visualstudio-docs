@@ -22,13 +22,13 @@ ms.workload:
 # Limitations on WCF Debugging
 There are three ways that you can begin debugging a WCF service:  
   
--   You are debugging a client process that calls a service. The debugger steps into the service. The service does not have to be in the same solution as your client application.  
+- You are debugging a client process that calls a service. The debugger steps into the service. The service does not have to be in the same solution as your client application.  
   
--   You are debugging a client process that makes a request to a service. The service must be part of your solution.  
+- You are debugging a client process that makes a request to a service. The service must be part of your solution.  
   
--   You use **Attach to Process** to attach to a service that is currently running. Debugging begins inside the service.  
+- You use **Attach to Process** to attach to a service that is currently running. Debugging begins inside the service.  
   
- This topic describes limitations on these scenarios.  
+  This topic describes limitations on these scenarios.  
   
 ## Limitations on Stepping Into a Service  
  To step into a service from a client applications that you are debugging, the following conditions must be met:  
@@ -41,7 +41,7 @@ There are three ways that you can begin debugging a WCF service:
   
 -   Debugging must be enabled with the following code in the app.config or Web.config file:  
   
-    ```  
+    ```xml
     <system.web>  
       <compilation debug="true" />  
     </system.web>  
@@ -55,19 +55,19 @@ There are three ways that you can begin debugging a WCF service:
 ## Limitations on Automatic Attach to a Service  
  Automatically attaching to a service has the following limitations:  
   
--   The service must be part of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution you are debugging.  
+- The service must be part of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution you are debugging.  
   
--   The service must be hosted. It may be part of a Web Site Project (File System and HTTP), Web Application Project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.  
+- The service must be hosted. It may be part of a Web Site project (File System and HTTP), Web Application project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.  
   
--   The service must be invoked from a WCF client.  
+- The service must be invoked from a WCF client.  
   
--   Debugging must be enabled with the following code in the app.config or Web.config file:  
+- Debugging must be enabled with the following code in the app.config or Web.config file:  
   
-    ```  
-    <system.web>  
-      <compilation debug="true" />  
-    <system.web>  
-    ```  
+  ```xml
+  <system.web>  
+    <compilation debug="true" />  
+  <system.web>  
+  ```  
   
 ## Self-Hosting  
  A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md).  

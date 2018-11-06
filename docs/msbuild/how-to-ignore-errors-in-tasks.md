@@ -13,23 +13,23 @@ author: mikejo5000
 ms.author: mikejo
 manager: douge
 ---
-# How to: Ignore Errors in Tasks
+# How to: Ignore errors in tasks
 Sometimes you want a build to be tolerant of faults in certain tasks. If those non-critical tasks fail, you want the build to continue because it can still produce the required output. For example, if a project uses a `SendMail` task to send an e-mail message after each component is built, you might consider it acceptable for the build to proceed to completion even when the mail servers are unavailable and the status messages cannot be sent. Or, for example, if intermediate files are usually deleted during the build, you might consider it acceptable for the build to proceed to completion even when those files cannot be deleted.  
   
-## Using the ContinueOnError Attribute  
+## Use the ContinueOnError attribute  
  The `ContinueOnError` attribute of the `Task` element controls whether a build stops or continues when a task failure occurs. This attribute also controls whether errors are treated as errors or warnings when the build continues.  
   
  The `ContinueOnError` attribute can contain one of the following values:  
   
--   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings.  
+- **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings.  
   
--   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.  
+- **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.  
   
--   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.  
+- **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.  
   
- Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.  
+  Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.  
   
- The default value of `ContinueOnError` is `ErrorAndStop`. If you set the attribute to `ErrorAndStop`, you make the behavior explicit to anyone who reads the project file.  
+  The default value of `ContinueOnError` is `ErrorAndStop`. If you set the attribute to `ErrorAndStop`, you make the behavior explicit to anyone who reads the project file.  
   
 #### To ignore an error in a task  
   
@@ -56,7 +56,7 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
 </Project>  
 ```  
   
-## See Also
+## See also
 [MSBuild](../msbuild/msbuild.md)  
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Tasks](../msbuild/msbuild-tasks.md)
+[Task reference](../msbuild/msbuild-task-reference.md)   
+[Tasks](../msbuild/msbuild-tasks.md)

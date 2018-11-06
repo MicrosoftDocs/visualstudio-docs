@@ -22,8 +22,8 @@ Retrieves a frame data element by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD           index,  
-   IDiaFrameData** section  
+   DWORD           index,  
+   IDiaFrameData** section  
 );  
 ```  
   

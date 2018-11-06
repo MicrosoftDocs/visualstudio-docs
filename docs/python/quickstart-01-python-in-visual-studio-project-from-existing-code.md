@@ -1,7 +1,7 @@
 ---
-title: Quickstart - Creating a Python project from existing code
+title: Quickstart - Create a Python project from existing code
 description: In this quickstart, you create a Visual Studio project for Python from an existing folder, using a convenient template.
-ms.date: 01/08/2018
+ms.date: 09/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: quickstart
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Quickstart: create a Python project from existing code
+# Quickstart: Create a Python project from existing code
 
 Once you've [installed Python support in Visual Studio 2017](installing-python-support-in-visual-studio.md), it's easy to bring existing Python code into a Visual Studio project.
 
@@ -22,15 +22,15 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 [!INCLUDE[project-from-existing](includes/project-from-existing.md)]
 
-8. If desired, run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging**.
+If desired, run the program by pressing **Ctrl**+**F5** or selecting **Debug** > **Start without Debugging**.
 
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Tutorial: Working with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+> [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 ## See also
 
-- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
-- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
-- [Install locations](installing-python-support-in-visual-studio.md#install-locations).
+- [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
+- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md)
+- [Install locations](installing-python-support-in-visual-studio.md#install-locations)

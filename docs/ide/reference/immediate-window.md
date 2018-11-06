@@ -48,31 +48,31 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
 
 #### To execute a function at design time
 
-1.  Copy the following code into a [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] console application:
+1. Copy the following code into a [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] console application:
 
-    ```vb
-    Module Module1
+   ```vb
+   Module Module1
 
-        Sub Main()
-            MyFunction(5)
-        End Sub
+       Sub Main()
+           MyFunction(5)
+       End Sub
 
-        Function MyFunction(ByVal input as Integer) As Integer
-            Return input * 2
-        End Function
+       Function MyFunction(ByVal input as Integer) As Integer
+           Return input * 2
+       End Function
 
-    End Module
-    ```
+   End Module
+   ```
 
-2.  On the **Debug** menu, click **Windows**, and then click **Immediate**.
+2. On the **Debug** menu, click **Windows**, and then click **Immediate**.
 
-3.  Type `?MyFunction(2)` in the **Immediate** window and press Enter.
+3. Type `?MyFunction(2)` in the **Immediate** window and press Enter.
 
-     The **Immediate** window will run `MyFunction` and display `4`.
+    The **Immediate** window will run `MyFunction` and display `4`.
 
 If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md).
 
-You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../../ide/reference/includes/trprvstoshort_md.md)] projects, Web projects, Smart Device projects, and SQL projects.
+You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../../ide/reference/includes/trprvstoshort_md.md)] projects, web projects, Smart Device projects, and SQL projects.
 
 ### Design Time Expression Evaluation in Multi-Project Solutions
  When establishing the context for design time expression evaluation, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] references the currently selected project in Solution Explorer. If no project is selected in Solution Explorer, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] attempts to evaluate the function against the startup project. If the function cannot be evaluated in the current context, you will receive an error message. If you are attempting to evaluate a function in a project that is not the startup project for the solution and you receive an error, try selecting the project in Solution Explorer and attempt the evaluation again.
@@ -123,7 +123,7 @@ You cannot use design time expression evaluation in project types that require s
 - [Navigating through Code with the Debugger](../../debugger/navigating-through-code-with-the-debugger.md)
 - [Command Window](../../ide/reference/command-window.md)
 - [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)
-- [Debugger Basics](../../debugger/debugger-basics.md)
+- [Debugger Basics](../../debugger/getting-started-with-the-debugger.md)
 - [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md)
 - [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
 - [Using Regular Expressions in Visual Studio](../../ide/using-regular-expressions-in-visual-studio.md)

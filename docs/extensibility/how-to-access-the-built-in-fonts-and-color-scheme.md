@@ -16,37 +16,37 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# How to: Access the Built-in Fonts and Color Scheme
+# How to: Access the built-in fonts and color ccheme
 The Visual Studio integrated development environment (IDE) has a scheme of fonts and colors that is associated with the editor window. You can access this scheme through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.
 
  To use the built-in fonts and colors scheme, a VSPackage must:
 
--   Define a category to use with the default fonts and colors service.
+- Define a category to use with the default fonts and colors service.
 
--   Register the category with the default fonts and colors server.
+- Register the category with the default fonts and colors server.
 
--   Advise the IDE that a specific window uses the built-in display items and categories by using the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer> interfaces.
+- Advise the IDE that a specific window uses the built-in display items and categories by using the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer> interfaces.
 
- The IDE uses the resulting category as a handle to the window. The category's name is displayed in the **Show settings for:** drop-down box in the **Fonts and Colors** property page.
+  The IDE uses the resulting category as a handle to the window. The category's name is displayed in the **Show settings for:** drop-down box in the **Fonts and Colors** property page.
 
-### To define a category using built-in fonts and colors
+## To define a category using built-in fonts and colors
 
 1.  Create an arbitrary GUID.
 
-     This GUID is used to uniquely identify a category**.** This category reuses the IDE's default fonts and colors specification.
+     This GUID is used to uniquely identify a category. This category reuses the IDE's default fonts and colors specification.
 
     > [!NOTE]
     >  When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.
 
-2.  The category's name must be added to a string table inside the VSPackage's resources (.rc) file, so that it can be localized as needed when displayed in the IDE.
+2.  The category's name must be added to a string table inside the VSPackage's resources (*.rc*) file, so that it can be localized as needed when displayed in the IDE.
 
-     For more information, see [Adding or Deleting a String](/cpp/windows/adding-or-deleting-a-string).
+     For more information, see [Add or delete a string](/cpp/windows/adding-or-deleting-a-string).
 
 ### To register a category using built-in fonts and colors
 
 1.  Construct a special type of category registry entry in the following location:
 
-     [HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\*\<Category>*]
+     *[HKLM\SOFTWARE\Microsoft \Visual Studio\\\<Visual Studio version>\FontAndColors\\\<Category>*]
 
      *\<Category>* is the non-localized name of the category.
 
@@ -61,15 +61,15 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
 
 ### To initiate the use of system-provided fonts and colors
 
-1.  Create an instance of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> interface as part of the window's implementation and initialization.
+1. Create an instance of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> interface as part of the window's implementation and initialization.
 
-2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory%2A> method to obtain an instance of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer> interface corresponding to the current <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> instance.
+2. Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory%2A> method to obtain an instance of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer> interface corresponding to the current <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> instance.
 
-3.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> twice.
+3. Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> twice.
 
-    -   Call once with `VSEDITPROPID_ViewGeneral_ColorCategory`as an argument.
+   - Call once with `VSEDITPROPID_ViewGeneral_ColorCategory`as an argument.
 
-    -   Call once with `VSEDITPROPID_ViewGeneral_FontCategory` as an argument.
+   - Call once with `VSEDITPROPID_ViewGeneral_FontCategory` as an argument.
 
      This sets and exposes the default fonts and colors services as a property of the window.
 
@@ -80,19 +80,19 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
 CComVariant vt;
 CComQIPtr<IVsTextEditorPropertyCategoryContainer> spPropCatContainer(m_spView);
 if (spPropCatContainer != NULL){
-    CComPtr<IVsTextEditorPropertyContainer> spPropContainer;
-    if (SUCCEEDED(spPropCatContainer->GetPropertyCategory(GUID_EditPropCategory_View_MasterSettings,
-                                                          &spPropContainer))){
-        CComVariant vt;CComVariant VariantGUID(bstrGuidText);
-        spPropContainer->SetProperty(VSEDITPROPID_ViewGeneral_FontCategory, VariantGUID);
-        spPropContainer->SetProperty(VSEDITPROPID_ViewGeneral_ColorCategory, VariantGUID);
-    }
+    CComPtr<IVsTextEditorPropertyContainer> spPropContainer;
+    if (SUCCEEDED(spPropCatContainer->GetPropertyCategory(GUID_EditPropCategory_View_MasterSettings,
+                                                          &spPropContainer))){
+        CComVariant vt;CComVariant VariantGUID(bstrGuidText);
+        spPropContainer->SetProperty(VSEDITPROPID_ViewGeneral_FontCategory, VariantGUID);
+        spPropContainer->SetProperty(VSEDITPROPID_ViewGeneral_ColorCategory, VariantGUID);
+    }
 }
 ```
 
-## See Also
+## See also
 
-- [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md)
-- [Getting Font and Color Information for Text Colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)
-- [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md)
-- [Font and Color Overview](../extensibility/font-and-color-overview.md)
+- [Use fonts and colors](../extensibility/using-fonts-and-colors.md)
+- [Get font and color information for text colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)
+- [Access stored font and color settings](../extensibility/accessing-stored-font-and-color-settings.md)
+- [Font and color overview](../extensibility/font-and-color-overview.md)

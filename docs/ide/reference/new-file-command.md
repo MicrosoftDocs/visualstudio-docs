@@ -58,7 +58,7 @@ File.NewFile [filename] [/t:templatename] [/editor:editorname]
 ```
 
 ## Example
- This example creates a new Web page "test1.htm" and opens it in the source code editor.
+ This example creates a new web page "test1.htm" and opens it in the source code editor.
 
 ```cmd
 >File.NewFile test1 /t:"General\HTML Page" /e:"Source Code (text) Editor"

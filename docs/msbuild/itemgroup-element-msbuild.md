@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# ItemGroup Element (MSBuild)
+# ItemGroup element (MSBuild)
 Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elements. Every item used in a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.  
   
  \<Project>  
@@ -36,7 +36,7 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
 </ItemGroup>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -45,20 +45,18 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
 |---------------|-----------------|  
 |`Condition`|Optional attribute. Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[Item](../msbuild/item-element-msbuild.md)|Defines the inputs for the build process. There may be zero or more `Item` elements in an `ItemGroup`.|  
   
-### Parent Elements  
+### Parent elements  
   
-|Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
-|[Target](../msbuild/target-element-msbuild.md)|Starting with .NET Framework 3.5, the `ItemGroup` element can appear inside a `Target` element. For more information, see [Targets](../msbuild/msbuild-targets.md).|  
-  
-## Remarks  
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Target](../msbuild/target-element-msbuild.md) | Starting with .NET Framework 3.5, the `ItemGroup` element can appear inside a `Target` element. For more information, see [Targets](../msbuild/msbuild-targets.md). |
   
 ## Example  
  The following code example shows the user-defined item collections `Res` and `CodeFiles` declared inside of an `ItemGroup` element. Each of the items in the `Res` item collection contains a user-defined child [ItemMetadata](../msbuild/itemmetadata-element-msbuild.md) element.  
@@ -80,7 +78,7 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
 </Project>  
 ```  
   
-## See Also  
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
+## See also  
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [Items](../msbuild/msbuild-items.md)   
- [Common MSBuild Project Items](../msbuild/common-msbuild-project-items.md)
+ [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)

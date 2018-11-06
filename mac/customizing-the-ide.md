@@ -1,8 +1,8 @@
 ---
 title: Customizing the IDE
 description: Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. This topic explores the variety of ways Visual Studio for Mac can be adapted to suit your needs.
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: F7C2A28C-0759-4E0D-A28E-B72D5AB73DB6
 ---
@@ -20,7 +20,7 @@ You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > 
 
 ## Localization
 
-Visual Studio for Mac is localized in the following 13 languages, enabling it to be accessible to more developers:
+Visual Studio for Mac is localized in the following 14 languages, enabling it to be accessible to more developers:
 
 * Chinese - China
 * Chinese - Taiwan
@@ -31,6 +31,7 @@ Visual Studio for Mac is localized in the following 13 languages, enabling it to
 * Italian
 * Japanese
 * Korean
+* Polish
 * Portuguese - Brazil
 * Russian
 * Spanish

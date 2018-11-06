@@ -20,7 +20,7 @@ ms.workload:
 # Error: Kerberos Authentication Failed
 When you try to do remote debugging, you might get the following error message:  
   
-```  
+```cmd
 Error: The Visual Studio Remote Debugger on the target computer cannot connect back to this computer. Kerberos authentication failed.  
 ```  
   
@@ -28,15 +28,15 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
   
  Kerberos authentication is not available under these conditions:  
   
--   Either the target computer or the debugger host computer is on a workgroup, instead of a domain  
+- Either the target computer or the debugger host computer is on a workgroup, instead of a domain  
   
-     \- or -  
+   \- or -  
   
--   Kerberos has been disabled on the domain controller.  
+- Kerberos has been disabled on the domain controller.  
   
- If Kerberos authentication is not available, change the account that is used to run the Visual Studio Remote Debugging Monitor. For the procedure, see [Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer](../debugger/error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md).  
+  If Kerberos authentication is not available, change the account that is used to run the Visual Studio Remote Debugging Monitor. For the procedure, see [Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer](../debugger/error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md).  
   
- If both computers are connected to the same domain and you still get this message, verify that DNS on the target computer is correctly resolving the name of the debugger host computer. See the following procedure.  
+  If both computers are connected to the same domain and you still get this message, verify that DNS on the target computer is correctly resolving the name of the debugger host computer. See the following procedure.  
   
 ### To verify that DNS on the target computer is correctly resolving the debugger host computer name  
   
@@ -44,7 +44,7 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
   
 2.  In the **Command Prompt** window, type:  
   
-    ```  
+    ```cmd
     ping <debugger_host_computer_name>  
     ```  
   

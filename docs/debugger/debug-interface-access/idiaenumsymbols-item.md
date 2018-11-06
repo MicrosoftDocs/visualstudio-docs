@@ -22,8 +22,8 @@ Retrieves a symbol by means of an index.
   
 ```C++  
 HRESULT Item (   
-   DWORD        index,  
-   IDiaSymbol** symbol  
+   DWORD        index,  
+   IDiaSymbol** symbol  
 );  
 ```  
   

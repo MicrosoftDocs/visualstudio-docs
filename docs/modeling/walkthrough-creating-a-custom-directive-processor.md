@@ -121,7 +121,7 @@ End Property
 
             // These are the errors that occur during processing. The engine passes
             // the errors to the host, and the host can decide how to display them,
-            // for example the the host can display the errors in the UI
+            // for example the host can display the errors in the UI
             // or write them to a file.
             // ---------------------------------------------------------------------
             private CompilerErrorCollection errorsValue;
@@ -380,7 +380,7 @@ End Property
 
             ' These are the errors that occur during processing. The engine passes
             ' the errors to the host, and the host can decide how to display them,
-            ' for example the the host can display the errors in the UI
+            ' for example the host can display the errors in the UI
             ' or write them to a file.
             ' ---------------------------------------------------------------------
             Private errorsValue As CompilerErrorCollection
@@ -650,19 +650,22 @@ In this section, you add a key for your custom directive processor to the regist
 
      Your registry key should have the following values:
 
-    |Name|Type|Data|
-    |----------|----------|----------|
-    |(Default)|REG_SZ|(value not set)|
-    |Class|REG_SZ|CustomDP.CustomDirectiveProcessor|
-    |CodeBase|REG_SZ|**\<Path to Your Solution>**CustomDP\bin\Debug\CustomDP.dll|
+
+   | Name | Type | Data |
+   |-|-|-|
+   | (Default) | REG_SZ | (value not set) |
+   | Class | REG_SZ | CustomDP.CustomDirectiveProcessor |
+   | CodeBase | REG_SZ | <strong>\<Path to Your Solution></strong>CustomDP\bin\Debug\CustomDP.dll |
 
      If you have put the assembly in the GAC, the values should look like the following:
 
-    |Name|Type|Data|
-    |----------|----------|----------|
-    |(Default)|REG_SZ|(value not set)|
-    |Class|REG_SZ|CustomDP.CustomDirectiveProcessor|
-    |Assembly|REG_SZ|CustomDP.dll|
+
+   | Name | Type | Data |
+   |-|-|-|
+   | (Default) | REG_SZ | (value not set) |
+   | Class | REG_SZ | CustomDP.CustomDirectiveProcessor |
+   | Assembly | REG_SZ | CustomDP.dll |
+
 
 6. Restart Visual Studio.
 

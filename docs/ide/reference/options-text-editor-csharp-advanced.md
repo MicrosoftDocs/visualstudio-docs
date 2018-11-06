@@ -1,17 +1,12 @@
 ---
 title: Options, Text Editor, C#, Advanced
-ms.date: 11/04/2016
+ms.date: 10/29/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced"
-helpviewer_keywords:
-  - "XML comments"
-  - "XML documentation, generating"
-  - "outlining options [C#]"
-  - "XML documentation, creating"
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -23,7 +18,7 @@ ms.workload:
 Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Advanced**.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+> Not all options may be listed here.
 
 ## Analysis
 
@@ -31,25 +26,75 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
    Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md).
 
-- Perform editor feature analysis in external process (experimental)
-
 ## Using Directives
 
 - Place 'System' directives first when sorting usings
 
+   When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list.
+
+   Before sorting:
+
+   ```csharp
+   using AutoMapper;
+   using FluentValidation;
+   using System.Collections.Generic;
+   using System.Linq;
+   using Newtonsoft.Json;
+   using System;
+   ```
+   
+   After sorting:
+
+   ```csharp
+   using System;
+   using System.Collections.Generic;
+   using System.Linq;
+   using AutoMapper;
+   using FluentValidation;
+   using Newtonsoft.Json;
+   ```
+   
 - Separate using directive groups
 
-- Suggest usings for types in reference assemblies
+   When selected, the **Remove and Sort Usings** command in the right-click menu separates `using` directives by inserting an empty line between groups of directives that have the same root namespace.
 
-- Suggest usings for types in NuGet packages
+   Before sorting:
 
+   ```csharp
+   using AutoMapper;
+   using FluentValidation;
+   using System.Collections.Generic;
+   using System.Linq;
+   using Newtonsoft.Json;
+   using System;
+   ```
+   
+   After sorting:
+   
+   ```csharp
+   using AutoMapper;
+   
+   using FluentValidation;
+   
+   using Newtonsoft.Json;
+   
+   using System;
+   using System.Collections.Generic;
+   using System.Linq;
+   ```
+   
+- Suggest usings for types in reference assemblies 
+- Suggest usings for types in NuGet packages 
+
+   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
+
+   ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
+  
 ## Highlighting
 
 - Highlight references to symbol under cursor
 
    When the cursor is positioned inside a symbol, or when you click a symbol, all the instances of that symbol in the code file are highlighted.
-
-- Highlight related keywords under cursor
 
 ## Outlining
 
@@ -59,25 +104,13 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Show procedure line separators
 
-- Show outlining for declaration level constructs
+   The text editor indicates visual scope of procedures. A line is drawn in the *.vb* source files of your project at locations listed in the following table:
 
-- Show outlining for code level constructs
-
-- Show outlining for comments and preprocessor regions
-
-- Collapse #regions when collapsing to definitions
-
-## Fading
-
-- Fade out unused usings
-
-- Fade out unreachable code
-
-## Block Structure Guides
-
-- Show guides for declaration level constructs
-
-- Show guides for code level constructs
+   |Location in .vb Source File|Example of Line Location|
+   |---------------------------------|------------------------------|
+   |After the close of a block declaration construct|-   At the end of a class, structure, module, interface, or enum<br />-   After a property, function, or sub<br />-   Not between the get and set clauses in a property|
+   |After a set of single line constructs|-   After the import statements, before a type definition in a class file<br />-   After variables declared in a class, before any procedures|
+   |After single line declarations (non-block level declarations)|-   Following import statements, inherits statements, variable declarations, event declarations, delegate declarations, and DLL declare statements|
 
 ## Editor Help
 
@@ -85,28 +118,10 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
    When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).
 
-- Insert \* at the start of new lines when writing /\* \*/ comments
-
-- Show preview for rename tracking
-
-- Split string literals on enter
-
-- Report invalid placeholders in 'string.Format' calls
-
-## Extract Method
-
-- Don't put ref or out on custom struct
-
-## Implement Interface or Abstract Class
-
-- When inserting properties, events and methods, place them with other members of the same kind, or at the end
-
-- When generating properties, prefer throwing properties or prefer auto properties
-
 ## See also
 
 - [How to: Insert XML comments for documentation generation](../../ide/reference/generate-xml-documentation-comments.md)
 - [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)
-- [Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)
-- [Setting language-specific editor options](../../ide/reference/setting-language-specific-editor-options.md)
+- [Document your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)
+- [Set language-specific editor options](../../ide/reference/setting-language-specific-editor-options.md)
 - [C# IntelliSense](../../ide/visual-csharp-intellisense.md)

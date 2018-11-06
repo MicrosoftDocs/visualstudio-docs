@@ -22,7 +22,7 @@ Retrieves the number of segments.
   
 ```C++  
 HRESULT get_Count (   
-   LONG* pRetVal  
+   LONG* pRetVal  
 );  
 ```  
   

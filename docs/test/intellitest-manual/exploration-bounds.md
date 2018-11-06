@@ -18,7 +18,7 @@ author: gewarren
 
 You can modify the settings by using named properties of this and its derived attributes:
 
-```
+```csharp
 [PexClass(MaxRuns = 10)]
 public partial class FooTest {...}
 ```
@@ -72,7 +72,7 @@ Each conditional and unconditional branch of the executed and monitored code is 
 
 For example, the following code consumes branches in of the order 100:
 
-```
+```csharp
 for (int i=0; i<100; i++) { }
 ```
 
@@ -102,7 +102,7 @@ The motivation behind this exploration bound is to limit the complexity of any e
 
 For example, each path in the following code consumes n+1 conditions:
 
-```
+```csharp
 [PexMethod]
 void ParameterizedTest(int n) 
 {
@@ -185,4 +185,4 @@ The default for this option is **TestEmissionBranchHits=2**, which generates a m
 
 ## Got feedback?
 
-Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

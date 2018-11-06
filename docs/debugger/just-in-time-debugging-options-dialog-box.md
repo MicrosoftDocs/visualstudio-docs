@@ -28,13 +28,13 @@ To access the **Just-In-Time** page, go to the **Tools** menu and click **Option
   
  You can enable Just-In-Time debugging for these program types:  
   
--   Managed  
+- Managed  
   
--   Native  
+- Native  
   
--   Script  
+- Script  
   
- Just-In-Time debugging is a technique for debugging a program that is started outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can run a program created in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] outside of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment. If you have enabled Just-in-time debugging, a crash will display a dialog box that asks if you want to debug.  
+  Just-In-Time debugging is a technique for debugging a program that is started outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can run a program created in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] outside of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment. If you have enabled Just-in-time debugging, a crash will display a dialog box that asks if you want to debug.  
   
 ## Associated Warnings  
  When you visit this page of the **Options** dialog box, you might see a warning message like this:  

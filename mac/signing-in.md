@@ -1,8 +1,8 @@
 ---
 title: "Signing in to Visual Studio for Mac"
 description: "How to sign in to Visual Studio for Mac"
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
 ---
@@ -36,5 +36,5 @@ To sign in to Visual Studio for Mac, do the following steps:
 
 Visual Studio for Mac supports adding multiple accounts to your personalization account. These additional accounts will allow you to access resources, such as Azure, from any added account. 
 
-To add additional user accounts, follow the steps in the [How to sign in to Visual Studio for Mac](#How_to_sign_in_to_Visual_Studio_for_Mac) section.
+To add additional user accounts, follow the steps in the [How to sign in to Visual Studio for Mac](#how-to-sign-in-to-visual-studio-for-mac) section.
 

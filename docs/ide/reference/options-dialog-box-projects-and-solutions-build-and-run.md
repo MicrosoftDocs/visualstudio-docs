@@ -1,12 +1,11 @@
 ---
-title: Options Dialog Box,  Projects and Solutions, Build and Run
+title: Options Dialog Box, Projects and Solutions, Build and Run
 ms.date: 07/14/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.Build_and_Run"
-  - "VS.ToolsOptionsPag.Projects.Build_and_Run"
 helpviewer_keywords:
   - "builds [Visual Studio], setting up"
   - "run actions"
@@ -18,7 +17,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Options Dialog Box,  Projects and Solutions, Build and Run
+# Options Dialog Box, Projects and Solutions, Build and Run
 
 In this dialog box, you can specify the maximum number of Visual C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Build and Run**.
 

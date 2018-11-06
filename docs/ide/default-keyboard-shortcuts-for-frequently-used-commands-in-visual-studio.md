@@ -20,7 +20,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Build
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Build.BuildSolution|**Ctrl+Shift+B** [Global]|
 |Build.Cancel|**Ctrl+Break** [Global]|
 |Build.Compile|**Ctrl+F7** [Global]|
@@ -29,7 +29,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Debug
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Debug.BreakatFunction|**Ctrl+B** [Global]|
 |Debug.BreakAll|**Ctrl+Alt+Break** [Global]|
 |Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9** [Global]|
@@ -49,9 +49,9 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Edit
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Edit.BreakLine|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br /> or **Shift+Enter** [Text Editor]|
-|Edit.CollapsetoDefinitions|**Ctrl+M**, **Ctrl+O** [Text Editor]|
+|Edit.CollapseToDefinitions|**Ctrl+M**, **Ctrl+O** [Text Editor]|
 |Edit.CommentSelection|**Ctrl+K**, **Ctrl+C** [Text Editor]|
 |Edit.CompleteWord|**Alt+Right Arrow** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+Spacebar** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+K**, **W** [Workflow Designer]<br /><br /> or **Ctrl+K, Ctrl+W** [Workflow Designer]|
 |Edit.Copy|**Ctrl+C** [Global]<br /><br /> or **Ctrl+Insert** [Global]|
@@ -100,7 +100,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## File
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |File.Exit|**Alt+F4** [Global]|
 |File.NewFile|**Ctrl+N** [Global]|
 |File.NewProject|**Ctrl+Shift+N** [Global]|
@@ -116,26 +116,26 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Project
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Project.AddExistingItem|**Shift+Alt+A** [Global]|
 |Project.AddNewItem|**Ctrl+Shift+A** [Global]|
 
 ## Refactor
 
 |Command|Keyboard shortcut [Context]|
-|-------------|-----------------------------------|
+|-------------| - |
 |Refactor.ExtractMethod|**Ctrl+R, Ctrl+M** [Global]|
 
 ## Tools
 
 |Command|Keyboard shortcut [Context]|
-|-------------|-----------------------------------|
+|-------------| - |
 |Tools.AttachtoProcess|**Ctrl+Alt+P** [Global]|
 
 ## View
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |View.ClassView|**Ctrl+Shift+C** [Global]|
 |View.EditLabel|**F2** [Global]|
 |View.ErrorList|**Ctrl+\\, Ctrl+E** [Global]<br /><br /> or **Ctrl+\\, E** [Global]|
@@ -144,7 +144,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |View.ObjectBrowser|**Ctrl+Alt+J** [Global]|
 |View.Output|**Ctrl+Alt+O** [Global]|
 |View.PropertiesWindow|**F4**|
-|View.Refresh|**F5** [Team Explorer, Team Foundation Build Detail Editor]|
+|View.Refresh|**F5** [Team Explorer]|
 |View.ServerExplorer|**Ctrl+Alt+S** [Global]|
 |View.ShowSmartTag|**Ctrl+.** [Global]<br /><br /> or **Shift+Alt+F10** [Global, HTML Editor Design View]|
 |View.SolutionExplorer|**Ctrl+Alt+L** [Global]|
@@ -156,7 +156,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 ## Window
 
 |Commands|Keyboard shortcuts [Contexts]|
-|--------------|-------------------------------------|
+|--------------| - |
 |Window.ActivateDocumentWindow|**Esc** [Global]|
 |Window.CloseDocumentWindow|**Ctrl+F4** [Global]|
 |Window.NextDocumentWindow|**Ctrl+F6** [Global]|

@@ -22,8 +22,8 @@ Reads `BOOL` values in a property set.
   
 ```C++  
 HRESULT ReadBOOL (   
-   PROPID id,  
-   BOOL*  pValue  
+   PROPID id,  
+   BOOL*  pValue  
 );  
 ```  
   

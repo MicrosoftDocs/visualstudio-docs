@@ -32,11 +32,12 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Creating and configuring type members (Class Designer)
+# Create and configure type members in Class Designer
+
 You can add these members to types on a class diagram and configure those members in the **Class Details** window:
 
 |**Type**|**Members it can contain**|
-|--------------|--------------------------------|
+|--------------| - |
 |Class|method, property (for C# and Visual Basic), field, event (for C# and Visual Basic), constructor (method), destructor (method), constant|
 |Enum|member|
 |Interface|method, property, event (for C# and Visual Basic)|
@@ -51,31 +52,27 @@ You can add these members to types on a class diagram and configure those member
 ## Common tasks
 
 |Task|Supporting content|
-|----------|------------------------|
-|**Get started:** Before you create and configure type members, you must open the **Class Details** window.|-   [Open the Class Details window](creating-and-configuring-type-members.md#open-the-class-details-window)<br />-   [Class Details usage notes](creating-and-configuring-type-members.md#class-details-usage-notes)<br />-   [Display of read-only information](creating-and-configuring-type-members.md#display-of-read-only-information)<br />-   [Keyboard and mouse shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md)|
-|**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the **Class Details** window.|-   [Create members](creating-and-configuring-type-members.md#create-members)<br />-   [Modify type members](creating-and-configuring-type-members.md#modify-type-members)<br />-   [Add parameters to methods](creating-and-configuring-type-members.md#add-parameters-to-methods)|
+|----------| - |
+|**Get started:** Before you create and configure type members, you must open the **Class Details** window.|- [Open the Class Details window](creating-and-configuring-type-members.md#open-the-class-details-window)<br />- [Class Details usage notes](creating-and-configuring-type-members.md#class-details-usage-notes)<br />- [Display of read-only information](creating-and-configuring-type-members.md#display-of-read-only-information)<br />- [Keyboard and mouse shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md)|
+|**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the **Class Details** window.|- [Create members](creating-and-configuring-type-members.md#create-members)<br />- [Modify type members](creating-and-configuring-type-members.md#modify-type-members)<br />- [Add parameters to methods](creating-and-configuring-type-members.md#add-parameters-to-methods)|
 
 ## Open the Class Details window
-By default, the **Class Details** window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md)). You can also open the **Class Details** window explicitly, in the following ways.
 
-#### To open the Class Details window
+By default, the **Class Details** window appears automatically when you open a new class diagram. See [How to: Add class diagrams to projects](how-to-add-class-diagrams-to-projects.md)). You can also open the **Class Details** window in the following ways:
 
-1.  Right-click on any class in the diagram to display a context menu.
+- Right-click on any class in the diagram to display a context menu, and then select **Class Details**.
 
-2.  In the context menu, click **Class Details**.
-
- - or -
-
--   Point to **Other Windows** on the View menu and then click **Class Details**.
+- Select **View** > **Other Windows** > **Class Details** from the menu bar.
 
 ## Create members
+
 You can create a member using any of the following tools:
 
--   **Class Designer**
+- **Class Designer**
 
--   **Class Details** window toolbar
+- **Class Details** window toolbar
 
--   **Class Details** window
+- **Class Details** window
 
 > [!NOTE]
 > You can also create constructors and destructors using the procedures in this section. Please bear in mind that constructors and destructors are special kinds of methods, and as such, they appear in the **Methods** compartment in class diagram shapes and in the **Methods** section of the **Class Details** window grid.
@@ -83,7 +80,7 @@ You can create a member using any of the following tools:
 > [!NOTE]
 > The only entity you can add to a delegate is parameter. Note that the procedure entitled 'To Create a member using the **Class Details** window toolbar' is not valid for this action.
 
-#### To create a member using Class Designer
+### Create a member using Class Designer
 
 1.  Right-click the type to which you want to add a member, point to **Add**, and then choose the type of member you want to add.
 
@@ -91,7 +88,7 @@ You can create a member using any of the following tools:
 
 2.  Optionally, specify other details about the member, such as its type.
 
-#### To create a member using the Class Details window toolbar
+### Create a member using the Class Details window toolbar
 
 1.  On the diagram surface, select the type to which you want to add a member.
 
@@ -107,7 +104,7 @@ You can create a member using any of the following tools:
 
 4.  Optionally, specify other details about the member, such as its type.
 
-#### To create a member using the Class Details window
+### Create a member using the Class Details window
 
 1.  On the diagram surface, select the type to which you want to add a member.
 
@@ -124,6 +121,7 @@ You can create a member using any of the following tools:
      **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md).
 
 ## Modify type members
+
 Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. You modify type members by using in-place editing on the design surface, Properties window, and the **Class Details** window.
 
 All the members displayed in the **Class Details** window represent the members of the types on the class diagram. There are four kinds of members: methods, properties, fields, and events.
@@ -132,41 +130,41 @@ All member rows appear under headings that group the members by kind. For exampl
 
 Each member row displays the following elements:
 
--   **Member Icon**
+- **Member Icon**
 
      Each kind of member is represented by its own icon. Point the mouse at the member icon to display the member's signature. Click the member icon or the whitespace to the left of the member icon to select the row.
 
--   **Member Name**
+- **Member Name**
 
      The **Name** column in a member row displays the name of the member. This name is also displayed in the **Name** property in the Properties window. Use this cell to change the name of any member that has read-write permissions.
 
      If the **Name** column is too narrow to show the whole name, pointing the mouse on the member name displays the entire name.
 
--   **Member Type**
+- **Member Type**
 
      The **MemberType** cell uses IntelliSense, which lets you select from a list of all the types available in the current project or referenced projects.
 
--   **Member Modifier**
+- **Member Modifier**
 
      Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected``Friend` (`protected``internal`), or `Default`.
 
--   **\<add member>**
+- **\<add member>**
 
      The last row in the **Class Details** window contains the text **\<add member>** in the **Name** cell. If you click this cell, you can create a new member. For more information, see [Create members](creating-and-configuring-type-members.md#create-members).
 
--   **Member properties in the Properties window**
+- **Member properties in the Properties window**
 
      The **Class Details** window displays a subset of the member properties that are displayed in the Properties window. Changing a property in one location will update the value of the property globally. This includes the display of its value in the other location.
 
--   **Summary**
+- **Summary**
 
      The **Summary** cell exposes a summary of information about the member. Click the ellipsis in the **Summary** cell to view or edit information about the **Summary**, **Return Type**, and **Remarks** for the member.
 
--   **Hide**
+- **Hide**
 
      When the **Hide** check box is selected, the member is not displayed in the type.
 
-#### To modify a type member
+### To modify a type member
 
 1.  Using Class Designer, select a type.
 
@@ -175,46 +173,43 @@ Each member row displays the following elements:
 3.  Edit the values in the fields of the **Class Details** window grid. After each edit, press ENTER, or otherwise move focus away from the edited field, for example, by pressing TAB. Your edits reflect immediately in code.
 
     > [!NOTE]
-    >  If you want to modify only the name of a member, you can do so by using in-place editing.
+    > If you want to modify only the name of a member, you can do so by using in-place editing.
 
 ## Add parameters to methods
+
 Add parameters to methods using the **Class Details** window. Parameters can be configured to be required or optional. Providing a value for the **Optional Default** property of a parameter instructs the designer to generate code as an optional parameter.
 
 Parameter rows contain the following items:
 
--   **Name**
+- **Name**
 
      The **Name** column in a parameter row displays the name of the parameter. This name is also displayed in the **Name** property in the Properties window. You can use this cell to change the name of any parameter with read-write permissions.
 
      Pointing at the parameter name displays the name of the parameter if the **Name** column is too narrow to show the entire name.
 
--   **Type**
+- **Type**
 
      The **Parameter Type** cell uses IntelliSense, which lets you choose from a list of all the types available in the current project or referenced projects.
 
--   **Modifier**
+- **Modifier**
 
      The **Modifier** cell in a parameter row accepts and displays the new modifier of the parameter. To enter a new parameter modifier, use the drop-down list box to select from **None**, **ref**, **out**, or **params** in C#, and **ByVal**, **ByRef**, or **ParamArray** in VB.
 
--   **Summary**
+- **Summary**
 
      The **Summary** cell in a parameter row allows entering of code comments that appear in IntelliSense when entering the parameter into the code editor.
 
--   **\<add parameter>**
+- **\<add parameter>**
 
      The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#add-parameters-to-methods).
 
-**Parameter properties in the Properties window**
-
-The Properties window displays the same parameter properties displayed in the **Class Details** window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.
+The **Properties** window displays the same parameter properties displayed in the **Class Details** window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.
 
 > [!NOTE]
 > To add a parameter to a delegate, see [Create members](creating-and-configuring-type-members.md#create-members).
 
-
 > [!NOTE]
 > Although a destructor is a method, it cannot have parameters.
-
 
 ### To add a parameter to a method
 
@@ -249,45 +244,47 @@ The Properties window displays the same parameter properties displayed in the **
 4.  In the Properties window, type a value for the **Optional Default** property. Setting a parameter's Optional Default property makes that parameter optional.
 
     > [!NOTE]
-    >  Optional parameters must be the last parameters in the parameter list.
+    > Optional parameters must be the last parameters in the parameter list.
 
 ## Class details usage notes
+
 Please note the following tips for using the **Class Details** window.
 
-**Editable and non-editable cells**
+### Editable and non-editable cells
 
 All cells in the **Class Details** window are editable with a few exceptions:
 
--   The entire type is read-only, when, for example, it resides in a referenced assembly. When you select the shape in the Class Designer, the **Class Details** window displays its details in a read-only state.
+- The entire type is read-only, when, for example, it resides in a referenced assembly. When you select the shape in the Class Designer, the **Class Details** window displays its details in a read-only state.
 
--   For indexers, the name is read-only and the rest (type, modifier, summary) are editable.
+- For indexers, the name is read-only and the rest (type, modifier, summary) are editable.
 
--   All generics have read-only parameters in the **Class Details** window. To change a generic parameter, edit its source code.
+- All generics have read-only parameters in the **Class Details** window. To change a generic parameter, edit its source code.
 
--   The name of the type parameter that is defined on a generic type is read-only.
+- The name of the type parameter that is defined on a generic type is read-only.
 
--   When a type's code is broken (unparsable), **Class Details** window displays the type's contents as read-only.
+- When a type's code is broken (unparsable), **Class Details** window displays the type's contents as read-only.
 
-**The Class Details window and source code**
+### The Class Details window and source code
 
--   You can view source code by right-clicking a shape in the **Class Details** window (or the Class Designer) and then clicking View Code. The source code file opens and scrolls to the selected element.
+- You can view source code by right-clicking a shape in the **Class Details** window (or the Class Designer) and then clicking View Code. The source code file opens and scrolls to the selected element.
 
--   Changing source code is immediately reflected in the display of signature information in the Class Designer and the **Class Details** window. If the **Class Details** window is closed at the time, the new information is visible the next time you open it.
+- Changing source code is immediately reflected in the display of signature information in the Class Designer and the **Class Details** window. If the **Class Details** window is closed at the time, the new information is visible the next time you open it.
 
--   When a type's code is broken (unparsable), **Class Details** window displays the type's contents as read only.
+- When a type's code is broken (unparsable), **Class Details** window displays the type's contents as read only.
 
-**Clipboard functionality in the Class Details window**
+### Clipboard functionality in the Class Details window
 
- You can copy or cut fields or rows from the **Class Details** window and paste them into another type. You can cut a row only if it is not read-only. When you paste the row, **Class Details** window assigns a new name (derived from the name of the copied row) to avoid a conflict.
+You can copy or cut fields or rows from the **Class Details** window and paste them into another type. You can cut a row only if it is not read-only. When you paste the row, **Class Details** window assigns a new name (derived from the name of the copied row) to avoid a conflict.
 
 ## Display of read-only information
+
 Class Designer and the **Class Details** window can display the types (and members of types) for the following:
 
--   a project that contains a class diagram
+- a project that contains a class diagram
 
--   a project referenced from a project that contains a class diagram
+- a project referenced from a project that contains a class diagram
 
--   an assembly referenced from a project that contains a class diagram
+- an assembly referenced from a project that contains a class diagram
 
 In the latter two cases, the referenced entity (a type or member) is read-only in the class diagram that represents it.
 

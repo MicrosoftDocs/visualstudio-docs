@@ -21,7 +21,7 @@ VSPackages must advise [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.m
 > [!NOTE]
 >  It is an accepted practice during VSPackage development to use self-registration. However, [!INCLUDE[vsipprvsip](../../extensibility/includes/vsipprvsip_md.md)] partners cannot ship their products using self-registration as part of setup.  
   
- Registry entries in a Windows Installer package are generally made in the Registry table. You can also register file extensions in the Registry table. However, Windows Installer provides built-in support through the programmatic identifier (ProgId), class, extension, and verb tables. For more information, see [Database Tables](http://msdn.microsoft.com/library/aa368259\(VS.85\).aspx).  
+ Registry entries in a Windows Installer package are generally made in the Registry table. You can also register file extensions in the Registry table. However, Windows Installer provides built-in support through the programmatic identifier (ProgId), class, extension, and verb tables. For more information, see [Database Tables](/windows/desktop/Msi/database-tables).  
   
  Be sure that your registry entries are associated with the component that is appropriate for your chosen side-by-side strategy. For example, registry entries for a shared file should be associated with that file's Windows Installer component. Likewise, registry entries for a version-specific file should be associated with that file's component. Otherwise, installing or uninstalling your VSPackage for one version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] could break your VSPackage in other versions. For more information, see [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)  
   
@@ -42,16 +42,16 @@ VSPackages must advise [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.m
   
  While good in theory, self-registration has several flaws that make it unsuitable for VSPackage installation:  
   
--   Correctly supporting installation, uninstallation, installation rollback, and uninstallation rollback requires you to author four custom actions for every managed VSPackage that self-registers by calling RegPkg.  
+- Correctly supporting installation, uninstallation, installation rollback, and uninstallation rollback requires you to author four custom actions for every managed VSPackage that self-registers by calling RegPkg.  
   
--   Your approach to side-by-side support might require that you author four custom actions that invoke RegSvr32 or RegPkg for every supported version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
+- Your approach to side-by-side support might require that you author four custom actions that invoke RegSvr32 or RegPkg for every supported version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
--   An installation with self-registered modules cannot be safely rolled back because there is no way of telling if the self-registered keys are used by another feature or application.  
+- An installation with self-registered modules cannot be safely rolled back because there is no way of telling if the self-registered keys are used by another feature or application.  
   
--   Self-registered DLLs sometimes link to auxiliary DLLs that are not present or are the wrong version. In contrast, Windows Installer can register DLLs using the registry tables with no dependency on the current state of the system.  
+- Self-registered DLLs sometimes link to auxiliary DLLs that are not present or are the wrong version. In contrast, Windows Installer can register DLLs using the registry tables with no dependency on the current state of the system.  
   
--   Self-registration code can be denied access to network resources, such as type libraries, if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail during an administrative installation.  
+- Self-registration code can be denied access to network resources, such as type libraries, if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail during an administrative installation.  
   
 ## See Also  
- [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
- [Managed Package Registration](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+ [Windows Installer](/windows/desktop/Msi/windows-installer-portal)   
+ [Managed Package Registration](https://msdn.microsoft.com/library/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

@@ -13,7 +13,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Sample Project for Creating a Diagnostic Data Adapter
+# Sample project for creating a diagnostic data adapter
 
 "MyDiagnosticDataAdapter" is a simple diagnostic data adapter that can attach a log file to the test results when you run your tests.
 
@@ -315,10 +315,9 @@ The following is a sample configuration file for your diagnostic data collector 
     </DataCollector>
   </DataCollectorConfiguration>
 </configuration>
-
 ```
 
-## Compiling the Code
+## Compile the code
 
 ### To create the code project for this diagnostic adapter
 
@@ -348,7 +347,7 @@ The following is a sample configuration file for your diagnostic data collector 
 
 7.  Add the assembly **Microsoft.VisualStudio.QualityTools.Common**.
 
-    1.  In Solution Explorer, right-click **References** and select **Add Reference**.
+    1.  In **Solution Explorer**, right-click **References** and select **Add Reference**.
 
     2.  Choose **Browse** and locate **Microsoft.VisualStudio.QualityTools.Common.dll**.
 
@@ -358,7 +357,7 @@ The following is a sample configuration file for your diagnostic data collector 
 
 8.  Copy the diagnostic data adapter class that was listed earlier in this document into the class for your class library. Save this class.
 
-9. To add a user control to the project, right-click MyDataCollector project in Solution Explorer, point to **Add**, and then choose **User Control**. Choose **Add**.
+9. To add a user control to the project, right-click **MyDataCollector** project in **Solution Explorer**, point to **Add**, and then choose **User Control**. Choose **Add**.
 
 10. By using the Toolbox, add a label to the user control and change the Text property to **File Name:**.
 
@@ -369,15 +368,15 @@ The following is a sample configuration file for your diagnostic data collector 
     > [!NOTE]
     > By default, the user control is called UserControl1. Make sure that the user control class code uses the name of your user control.
 
-13. To create the configuration file, in **Solution Explorer** right-click the solution, point to **Add**, and then choose **New Item**. Choose to select **Application Configuration File**, and then choose **Add**. This will add a file that is named **App.config** to your solution.
+13. To create the configuration file, in **Solution Explorer** right-click the solution, point to **Add**, and then choose **New Item**. Choose to select **Application Configuration File**, and then choose **Add**. This will add a file that is named *App.config* to your solution.
 
 14. Copy the XML from the sample that was provided earlier into the XML file. Save the file.
 
-15. Build the solution, and then copy the built assembly and the `App.config` file into the *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies\DataCollectors* directory.
+15. Build the solution, and then copy the built assembly and the *App.config* file into the *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies\DataCollectors* directory.
 
 16. Create test settings that use this custom data diagnostic adapter. Configure the test settings to collect a file that exists.
 
-     If you are running your tests from Microsoft Test Manager, you can assign these test settings to your test plan before you run your tests or use the Run with Options command to assign test settings and override test settings. For more information about test settings, see [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md).
+     If you are running your tests from Microsoft Test Manager, you can assign these test settings to your test plan before you run your tests or use the Run with Options command to assign test settings and override test settings. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
 17. Run your tests by using the test settings with your diagnostic data adapter selected.
 
@@ -385,7 +384,7 @@ The following is a sample configuration file for your diagnostic data collector 
 
 ## See also
 
-- [How to: Create a Diagnostic Data Adapter](../test/how-to-create-a-diagnostic-data-adapter.md)
-- [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)
-- [How to: Install a Custom Diagnostic Data Adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md)
-- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)
+- [How to: Create a diagnostic data adapter](../test/how-to-create-a-diagnostic-data-adapter.md)
+- [How to: Create a custom editor for data for your diagnostic data adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)
+- [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md)
+- [Create a diagnostic data adapter to collect custom data or affect a test machine](../test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)

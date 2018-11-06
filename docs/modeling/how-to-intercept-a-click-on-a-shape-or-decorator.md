@@ -18,7 +18,7 @@ The following procedures demonstrate how to intercept a click on a shape or an i
 ## To Intercept Clicks on Shapes
  In the Dsl project, in a code file that is separate from the generated code files, write a partial class definition for the shape class. Override `OnDoubleClick()` or one of the other methods that has a name beginning with `On...`. For example:
 
-```
+```csharp
 public partial class MyShape // change
   {
     public override void OnDoubleClick(DiagramPointEventArgs e)
@@ -45,7 +45,7 @@ public partial class MyShape // change
 
 3.  In a code file that is separate from the files in the `GeneratedCode` folder, create the new subclass of ImageField:
 
-    ```
+    ```csharp
     using Microsoft.VisualStudio.Modeling;
     using Microsoft.VisualStudio.Modeling.Design;
     using Microsoft.VisualStudio.Modeling.Diagrams;
@@ -83,7 +83,7 @@ public partial class MyShape // change
 
 4.  Override the InitializeShapeFields method in your shape classs by adding the following partial class definition.
 
-    ```
+    ```csharp
     public partial class MyShape // change
     {
      protected override void InitializeShapeFields
@@ -115,17 +115,17 @@ public partial class MyShape // change
 ## Intercepting clicks and drags on CompartmentShape lists
  The following sample allows users to re-order items in a compartment shape by dragging them. To run this code:
 
-1.  Create a new DSL solution by using the **Class Diagrams** solution template.
+1. Create a new DSL solution by using the **Class Diagrams** solution template.
 
-     You can also work with a solution of your own that contains compartment shapes. This code assumes that there is an embedding relationship between the model elements represented by the shape, and the elements represented in the compartment list items.
+    You can also work with a solution of your own that contains compartment shapes. This code assumes that there is an embedding relationship between the model elements represented by the shape, and the elements represented in the compartment list items.
 
-2.  Set the **Generates Double Derived** property of the compartment shape.
+2. Set the **Generates Double Derived** property of the compartment shape.
 
-3.  Add this code in a file in the **Dsl** project.
+3. Add this code in a file in the **Dsl** project.
 
-4.  Adjust the domain class and shape names in this code to match your own DSL.
+4. Adjust the domain class and shape names in this code to match your own DSL.
 
- In summary, the code works as follows. In this example, `ClassShape` is the name of the compartment shape.
+   In summary, the code works as follows. In this example, `ClassShape` is the name of the compartment shape.
 
 -   A set of mouse event handlers is attached to each compartment instance when it is created.
 
@@ -387,7 +387,6 @@ namespace Company.CompartmentDrag
   }
  }
 }
-
 ```
 
 ## See Also

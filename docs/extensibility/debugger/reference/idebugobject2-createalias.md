@@ -23,13 +23,13 @@ Creates a unique ID or alias for this object or returns an existing alias.
   
 ```cpp  
 HRESULT CreateAlias(  
-   IDebugAlias** ppAlias  
+   IDebugAlias** ppAlias  
 );  
 ```  
   
 ```csharp  
 int CreateAlias(  
-   out IDebugAlias ppAlias  
+   out IDebugAlias ppAlias  
 );  
 ```  
   

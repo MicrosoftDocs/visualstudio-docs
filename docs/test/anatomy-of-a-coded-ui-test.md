@@ -4,24 +4,24 @@ ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "coded UI tests"
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# Anatomy of a Coded UI test
+# Anatomy of a coded UI test
 
 When you create a Coded UI Test in a coded UI test project, several files are added to the solution. This article provides information about the files.
 
-## Contents of a Coded UI Test
+## Contents of a coded UI test
 
 When you create a Coded UI Test, the **Coded UI Test Builder** creates a map of the user interface under test, and also the test methods, parameters, and assertions for all tests. It also creates a class file for each test.
 
 |File|Contents|Editable?|
-|----------|--------------|---------------|
+|-|-|-|
 |[UIMap.Designer.cs](#UIMapDesignerFile)|[Declarations section](#UIMapDesignerFile)<br /><br /> [UIMap class](#UIMapClass) (partial, auto-generated)<br /><br /> [Methods](#UIMapMethods)<br /><br /> [Properties](#UIMapProperties)|No|
 |[UIMap.cs](#UIMapCS)|[UIMap class](#UIMapCS) (partial)|Yes|
 |[CodedUITest1.cs](#CodedUITestCS)|[CodedUITest1 class](#CodedUITestCS)<br /><br /> [Methods](#CodedUITestMethods)<br /><br /> [Properties](#CodedUITestProperties)|Yes|
@@ -49,7 +49,7 @@ using Mouse = Microsoft.VisualStudio.TestTools.UITesting.Mouse;
 using MouseButtons = System.Windows.Forms.MouseButtons;
 ```
 
- The <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls> namespace is included for a Windows user interface (UI). For a Web page UI, the namespace would be <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>; for a Windows Presentation Foundation UI, the namespace would be <xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>.
+ The <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls> namespace is included for a Windows user interface (UI). For a web page UI, the namespace would be <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>; for a Windows Presentation Foundation UI, the namespace would be <xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>.
 
 ####  <a name="UIMapClass"></a> UIMap class
  The next section of the file is the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class.
@@ -59,7 +59,7 @@ using MouseButtons = System.Windows.Forms.MouseButtons;
 public partial class UIMap
 ```
 
-The class code starts with a <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute that is applied to the class, which is declared as a partial class. Notice that the attribute is also applied to every class in this file. The other file that can contain more code for this class is `UIMap.cs`, which is discussed later.
+The class code starts with a <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute that is applied to the class, which is declared as a partial class. Notice that the attribute is also applied to every class in this file. The other file that can contain more code for this class is *UIMap.cs*, which is discussed later.
 
 The generated `UIMap` class includes code for each method that was specified when the test was recorded.
 
@@ -114,11 +114,11 @@ public void AddItems()
 }
 ```
 
-The summary comment for each method definition tells which class to use for parameter values for that method. In this case, it is the `AddItemsParams` class, which is defined later in the `UIMap.cs` file, and which is also the value type that is returned by the `AddItemsParams` property.
+The summary comment for each method definition tells which class to use for parameter values for that method. In this case, it is the `AddItemsParams` class, which is defined later in the *UIMap.cs* file, and which is also the value type that is returned by the `AddItemsParams` property.
 
  At the top of the method code is a `Variable Declarations` region that defines local variables for the UI objects that are used by the method.
 
- In this method, both `UIItemWindow` and `UIItemEdit` are properties that are accessed by using the `UICalculatorWindow` class, which is defined later in the `UIMap.cs` file.
+ In this method, both `UIItemWindow` and `UIItemEdit` are properties that are accessed by using the `UICalculatorWindow` class, which is defined later in the *UIMap.cs* file.
 
  Next are lines that send text from the keyboard to the Calculator application by using properties of the `AddItemsParams` object.
 
@@ -150,7 +150,7 @@ public virtual AddItemsParams AddItemsParams
 }
 ```
 
- Notice that the property uses a private local variable that is named `mAddItemsParams` to hold the value before it returns it. The property name and the class name for the object it returns are the same. The class is defined later in the `UIMap.cs` file.
+ Notice that the property uses a private local variable that is named `mAddItemsParams` to hold the value before it returns it. The property name and the class name for the object it returns are the same. The class is defined later in the *UIMap.cs* file.
 
  Each class that is returned by a property is structured similarly. The following is the `AddItemsParams` class:
 
@@ -175,7 +175,7 @@ public class AddItemsParams
 }
 ```
 
-As with all classes in the `UIMap.cs` file, this class starts with the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>. In this small class is a `Fields` region that defines the strings to use as parameters for the <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName> method that is used in the `UIMap.AddItems()` method that was discussed earlier. You can write code to replace the values in these string fields before the method in which these parameters are used is called.
+As with all classes in the *UIMap.cs* file, this class starts with the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>. In this small class is a `Fields` region that defines the strings to use as parameters for the <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName> method that is used in the `UIMap.AddItems()` method that was discussed earlier. You can write code to replace the values in these string fields before the method in which these parameters are used is called.
 
 ###  <a name="UIMapCS"></a> UIMap.cs
  By default, this file contains a partial `UIMap` class that has no methods or properties.
@@ -258,7 +258,7 @@ public void MyTestCleanup()
 ###  <a name="UIMapuitest"></a> UIMap.uitest
  This is an XML file that represents the structure of the coded UI test recording and all its parts. These include the actions and the classes in addition to the methods and properties of those classes. The [UIMap.Designer.cs](#UIMapDesignerFile) file contains the code that is generated by the Coded UI Builder to reproduce the structure of the test and provides the connection to the testing framework.
 
- The `UIMap.uitest` file is not directly editable. However, you can use the Coded UI Builder to modify the test, which automatically modifies the `UIMap.uitest` file and the [UIMap.Designer.cs](#UIMapDesignerFile) file.
+ The *UIMap.uitest* file is not directly editable. However, you can use the Coded UI Builder to modify the test, which automatically modifies the *UIMap.uitest* file and the [*UIMap.Designer.cs*](#UIMapDesignerFile) file.
 
 ## See also
 
@@ -272,8 +272,8 @@ public void MyTestCleanup()
 - <xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)
-- [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
-- [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
-- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md)
+- [Best practices for coded UI tests](../test/best-practices-for-coded-ui-tests.md)
+- [Testing a large application with multiple UI maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
+- [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

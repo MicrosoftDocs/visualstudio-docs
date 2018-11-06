@@ -22,7 +22,7 @@ In traditional unit testing, a test consists of several things:
 
 Following is an example test structure:
 
-```
+```csharp
 [Test]
 void MyTest() {
     // data
@@ -55,7 +55,7 @@ When IntelliTest needs to construct objects, calls to constructors and factory m
 
 PUTs are defined using the [PexMethod](attribute-glossary.md#pexmethod) custom attribute in a similar fashion to MSTest (or NUnit, xUnit). PUTs are instance methods logically grouped in classes tagged with [PexClass](attribute-glossary.md#pexclass). The following example shows a simple PUT stored in the **MyPexTest** class:
 
-```
+```csharp
 [PexMethod]
 void ReplaceFirstChar(string target, char c) {
 
@@ -67,7 +67,7 @@ void ReplaceFirstChar(string target, char c) {
 
 where **ReplaceFirstChar** is a method that replaces the first character of a string:
 
-```
+```csharp
 class StringHelper {
     static string ReplaceFirstChar(string target, char c) {
         if (target == null) throw new ArgumentNullException();
@@ -79,7 +79,7 @@ class StringHelper {
 
 From this test, IntelliTest can automatically [generate inputs](input-generation.md) for a PUT that covers many execution paths of the tested code. Each input that covers a different execution path gets "serialized" as a unit test:
 
-```
+```csharp
 [TestMethod, ExpectedException(typeof(ArgumentNullException))]
 void ReplaceFirstChar0() {
     this.ReplaceFirstChar(null, 0);
@@ -96,7 +96,7 @@ void ReplaceFirstChar10() {
 
 Parameterized unit tests can be generic methods. In this case, the user must specify the types used to instantiate the method by using [PexGenericArguments](attribute-glossary.md#pexgenericarguments).
 
-```
+```csharp
 [PexClass]
 public partial class ListTest {
     [PexMethod]
@@ -114,7 +114,7 @@ IntelliTest provides numerous validation attributes to help triage exceptions in
 
 Expected exceptions generate negative test cases with the appropriate annotation such as **ExpectedException(typeof(*xxx*))**, while unexpected exceptions generate failing test cases.
 
-```
+```csharp
 [PexMethod, PexAllowedException(typeof(ArgumentNullException))]
 void SomeTest() {...}
 ```
@@ -131,7 +131,7 @@ The validators are:
 
 IntelliTest can "test" internal types, as long as it can see them. For IntelliTest to see the types, the following attribute is added to your product or test project by the Visual Studio IntelliTest wizards:
 
-```
+```csharp
 [assembly: InternalsVisibleTo("Microsoft.Pex, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
 ```
 
@@ -142,7 +142,7 @@ Users can use assumptions and assertions to express [preconditions](#preconditio
 
 Assertions are a well known concept in regular unit test frameworks, so IntelliTest already "understands" the built-in **Assert** classes provided by each supported test framework. However, most frameworks do not provide an **Assume** class. In that case, IntelliTest provides the [PexAssume](static-helper-classes.md#pexassume) class. If you do not want to use an existing test framework, IntelliTest also has the [PexAssert](static-helper-classes.md#pexassert) class.
 
-```
+```csharp
 [PexMethod]
 public void Test1(object o) {
     // precondition: o should not be null
@@ -154,7 +154,7 @@ public void Test1(object o) {
 
 In particular, the non-nullness assumption can be encoded as a custom attribute:
 
-```
+```csharp
 [PexMethod]
 public void Test2([PexAssumeNotNull] object o)
 // precondition: o should not be null
@@ -200,7 +200,7 @@ As part of the integration with test frameworks, IntelliTest supports detecting 
 
 **Example**
 
-```
+```csharp
 using Microsoft.Pex.Framework;
 using NUnit.Framework;
 
@@ -228,7 +228,6 @@ namespace MyTests
         }
     }
 }
-
 ```
 
 <a name="further-reading"></a>
@@ -239,4 +238,4 @@ namespace MyTests
 
 ## Got feedback?
 
-Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

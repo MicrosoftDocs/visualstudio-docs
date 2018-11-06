@@ -22,7 +22,7 @@ Retrieves the back-end major version number of the compiler.
   
 ```C++  
 HRESULT get_backEndMajor (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

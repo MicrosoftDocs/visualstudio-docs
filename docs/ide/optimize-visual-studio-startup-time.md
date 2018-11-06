@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Optimize Visual Studio startup time
 
-Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the the **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
+Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
 
 ## Startup behavior
 
@@ -53,13 +53,13 @@ You can always re-enable the extension for future sessions by using the **Extens
 
 3. Choose one of the following three options:
 
-    - **Use default behavior:** The default behavior for the tool window. Keeping this option selected will not improve startup performance.
+   - **Use default behavior:** The default behavior for the tool window. Keeping this option selected will not improve startup performance.
 
-    - **Do not show window at startup:** The specified tool window is always closed when you open Visual Studio, even if you left it open in a previous session. You can open the tool window from the appropriate menu when you need it.
+   - **Do not show window at startup:** The specified tool window is always closed when you open Visual Studio, even if you left it open in a previous session. You can open the tool window from the appropriate menu when you need it.
 
-    - **Auto hide window at startup:** If a tool window was left open in a previous session, this option collapses the tool window's group at startup to avoid initializing the tool window. This option is a good choice if you use a tool window often. The tool window is still available, but no longer negatively affects Visual Studio startup time.
+   - **Auto hide window at startup:** If a tool window was left open in a previous session, this option collapses the tool window's group at startup to avoid initializing the tool window. This option is a good choice if you use a tool window often. The tool window is still available, but no longer negatively affects Visual Studio startup time.
 
-    ![Manage Visual Studio performance - tool windows view](../ide/media/vside_perfdialog_toolwindows.png)
+     ![Manage Visual Studio performance - tool windows view](../ide/media/vside_perfdialog_toolwindows.png)
 
 > [!NOTE]
 > Some earlier versions of Visual Studio 2017 had a feature called **lightweight solution load**. This feature is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio 2017 version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.

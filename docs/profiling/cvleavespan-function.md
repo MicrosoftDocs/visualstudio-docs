@@ -15,12 +15,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvLeaveSpan Function
+# CvLeaveSpan function
 Marks the end of span.  
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvLeaveSpan(  
    _In_ PCV_SPAN pSpan  
 );  
@@ -34,7 +34,7 @@ HRESULT CvLeaveSpan(
  S_OK when the message is successfully written. Error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)

@@ -69,81 +69,81 @@ The following procedure shows how to set the minimum operating system version in
 
 ### To create an .exe command to change the application manifest
 
-1.  Create a console application for the command. From the **File** menu, point to **New**, and then click **Project**.
+1. Create a console application for the command. From the **File** menu, point to **New**, and then click **Project**.
 
-2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows**, and then click the **Console Application** template. Name the project `ChangeOSVersionCS`.
+2. In the **New Project** dialog box, expand **Visual C#**, click **Windows**, and then click the **Console Application** template. Name the project `ChangeOSVersionCS`.
 
-3.  In *Program.cs*, add the following line to the other `using` statements at the top of the file:
+3. In *Program.cs*, add the following line to the other `using` statements at the top of the file:
 
-    ```csharp
-    using System.Xml;
-    ```
+   ```csharp
+   using System.Xml;
+   ```
 
-4.  In the `ChangeOSVersionCS` namespace, replace the `Program` class implementation with the following code:
+4. In the `ChangeOSVersionCS` namespace, replace the `Program` class implementation with the following code:
 
-    ```csharp
-    class Program
-    {
-       /// <summary>
-       /// This function will set the minimum operating system version for a ClickOnce application.
-       /// </summary>
-       /// <param name="args">
-       /// Command Line Arguments:
-       /// 0 - Path to application manifest (.exe.manifest).
-       /// 1 - Version of OS
-       ///</param>
-       static void Main(string[] args)
-       {
-          string applicationManifestPath = args[0];
-          Console.WriteLine("Application Manifest Path: " + applicationManifestPath);
+   ```csharp
+   class Program
+   {
+      /// <summary>
+      /// This function will set the minimum operating system version for a ClickOnce application.
+      /// </summary>
+      /// <param name="args">
+      /// Command Line Arguments:
+      /// 0 - Path to application manifest (.exe.manifest).
+      /// 1 - Version of OS
+      ///</param>
+      static void Main(string[] args)
+      {
+         string applicationManifestPath = args[0];
+         Console.WriteLine("Application Manifest Path: " + applicationManifestPath);
 
-          // Get version name.
-          Version osVersion = null;
-          if (args.Length >=2 ){
-             osVersion = new Version(args[1]);
-          }else{
-             throw new ArgumentException("OS Version not specified.");
-          }
-          Console.WriteLine("Desired OS Version: " + osVersion.ToString());
+         // Get version name.
+         Version osVersion = null;
+         if (args.Length >=2 ){
+            osVersion = new Version(args[1]);
+         }else{
+            throw new ArgumentException("OS Version not specified.");
+         }
+         Console.WriteLine("Desired OS Version: " + osVersion.ToString());
 
-          XmlDocument document;
-          XmlNamespaceManager namespaceManager;
-          namespaceManager = new XmlNamespaceManager(new NameTable());
-          namespaceManager.AddNamespace("asmv1", "urn:schemas-microsoft-com:asm.v1");
-          namespaceManager.AddNamespace("asmv2", "urn:schemas-microsoft-com:asm.v2");
+         XmlDocument document;
+         XmlNamespaceManager namespaceManager;
+         namespaceManager = new XmlNamespaceManager(new NameTable());
+         namespaceManager.AddNamespace("asmv1", "urn:schemas-microsoft-com:asm.v1");
+         namespaceManager.AddNamespace("asmv2", "urn:schemas-microsoft-com:asm.v2");
 
-          document = new XmlDocument();
-          document.Load(applicationManifestPath);
+         document = new XmlDocument();
+         document.Load(applicationManifestPath);
 
-          string baseXPath;
-          baseXPath = "/asmv1:assembly/asmv2:dependency/asmv2:dependentOS/asmv2:osVersionInfo/asmv2:os";
+         string baseXPath;
+         baseXPath = "/asmv1:assembly/asmv2:dependency/asmv2:dependentOS/asmv2:osVersionInfo/asmv2:os";
 
-          // Change minimum required operating system version.
-          XmlNode node;
-          node = document.SelectSingleNode(baseXPath, namespaceManager);
-          node.Attributes["majorVersion"].Value = osVersion.Major.ToString();
-          node.Attributes["minorVersion"].Value = osVersion.Minor.ToString();
-          node.Attributes["buildNumber"].Value = osVersion.Build.ToString();
-          node.Attributes["servicePackMajor"].Value = osVersion.Revision.ToString();
+         // Change minimum required operating system version.
+         XmlNode node;
+         node = document.SelectSingleNode(baseXPath, namespaceManager);
+         node.Attributes["majorVersion"].Value = osVersion.Major.ToString();
+         node.Attributes["minorVersion"].Value = osVersion.Minor.ToString();
+         node.Attributes["buildNumber"].Value = osVersion.Build.ToString();
+         node.Attributes["servicePackMajor"].Value = osVersion.Revision.ToString();
 
-          document.Save(applicationManifestPath);
-       }
-    }
-    ```
+         document.Save(applicationManifestPath);
+      }
+   }
+   ```
 
-     The command takes two arguments: the path of the application manifest (that is, the folder in which the build process creates the manifest, typically *Projectname.publish*), and the new operating system version.
+    The command takes two arguments: the path of the application manifest (that is, the folder in which the build process creates the manifest, typically *Projectname.publish*), and the new operating system version.
 
-5.  Build the project. On the **Build** menu, click **Build Solution**.
+5. Build the project. On the **Build** menu, click **Build Solution**.
 
-6.  Copy the *.exe* file to a directory such as *C:\TEMP\ChangeOSVersionVB.exe*.
+6. Copy the *.exe* file to a directory such as *C:\TEMP\ChangeOSVersionVB.exe*.
 
- Next, invoke this command in a post-build event to modify the application manifest.
+   Next, invoke this command in a post-build event to modify the application manifest.
 
 ### To invoke a post-build event to modify the application manifest
 
 1.  Create a Windows application for the project to be published. From the **File** menu, point to **New**, and then click **Project**.
 
-2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows Classic Desktop**, and then click the **Windows Forms App** template. Name the project `CSWinApp`.
+2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows Desktop**, and then click the **Windows Forms App** template. Name the project `CSWinApp`.
 
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 

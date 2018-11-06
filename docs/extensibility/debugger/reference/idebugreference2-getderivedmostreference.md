@@ -23,13 +23,13 @@ Gets the derived-most reference of a reference. Reserved for future use.
   
 ```cpp  
 HRESULT GetDerivedMostReference(   
-   IDebugReference2** ppDerivedMost  
+   IDebugReference2** ppDerivedMost  
 );  
 ```  
   
 ```csharp  
 int GetDerivedMostReference(   
-   out IDebugReference2 ppDerivedMost  
+   out IDebugReference2 ppDerivedMost  
 );  
 ```  
   

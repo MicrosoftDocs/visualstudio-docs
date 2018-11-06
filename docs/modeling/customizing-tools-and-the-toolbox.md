@@ -17,33 +17,22 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Customizing Tools and the Toolbox
+
 You must define toolbox items for the elements that you want to let users add to their models. There are two kinds of tools: element tools and connection tools. In the generated designer, a user can select an element tool to drag shapes to the diagram, and can select a connection tool to draw links between the shapes. In general, element tools let users add instances of domain classes to their models, and connection tools let them add instances of domain relationships.
 
- In this topic:
-
--   [How the Toolbox is Defined](#ToolboxDef)
-
--   [Customizing Element Tools](#customizing)
-
--   [Creating Groups of Elements from a Tool](#groups)
-
--   [Customizing Connection Tools](#connections)
-
-##  <a name="ToolboxDef"></a> How the toolbox is defined
+## <a name="ToolboxDef"></a> How the toolbox is defined
  In the DSL Explorer, expand the Editor node and the nodes underneath it. Typically you will see a hierarchy that resembles this:
 
 ```
-
 Editor
      Toobox Tabs
         MyDsl          //a tab
            Tools
                ExampleElement      // an element tool
                ExampleRelationship // a connection tool
-
 ```
 
- In this part of DSL Explorer, you can:
+In this part of DSL Explorer, you can:
 
 -   Create new tabs. Tabs define the section headings in the toolbox.
 
@@ -56,13 +45,13 @@ Editor
 -   Delete tabs and tools.
 
 > [!IMPORTANT]
->  To add or paste items in a DSL Explorer, right-click the grandparent of the new node. For example, to add a tool, right-click the tab, and not the **Tools** node. To add a tab, right-click the **Editor** node.
+> To add or paste items in a DSL Explorer, right-click the grandparent of the new node. For example, to add a tool, right-click the tab, and not the **Tools** node. To add a tab, right-click the **Editor** node.
 
- The **Toolbox Icon** property of every tool references a 16x16 bitmap file. These files are usually kept in the **Dsl\Resources** folder.
+The **Toolbox Icon** property of every tool references a 16x16 bitmap file. These files are usually kept in the **Dsl\Resources** folder.
 
- The **Class** property of an element tool refers to a concrete domain class. By default, the tool will create instances of this class. However, you can write code to have the tool create groups of elements, or elements of different types.
+The **Class** property of an element tool refers to a concrete domain class. By default, the tool will create instances of this class. However, you can write code to have the tool create groups of elements, or elements of different types.
 
- The **Connection Builder** property of a connection tool refers to a connection builder, which defines what types of elements the tool can connect, and what relationships it creates between them. Connection builders are defined as nodes in the DSL Explorer. Connection builders are created automatically when you define domain relationships, but you can write code to customize them.
+The **Connection Builder** property of a connection tool refers to a connection builder, which defines what types of elements the tool can connect, and what relationships it creates between them. Connection builders are defined as nodes in the DSL Explorer. Connection builders are created automatically when you define domain relationships, but you can write code to customize them.
 
 #### To add a tool to the toolbox
 
@@ -82,11 +71,11 @@ Editor
 
      **For a connector tool:** Set the **Connection Builder** property of the tool to one of the items that are offered in the drop-down list. Connection builders are automatically created when you map a connector to a domain relationship. If you have recently created a connector, you would normally select the associated connection builder.
 
-5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.
+5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of Visual Studio, open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.
 
-     If the tool does not appear, stop the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Build** menu, click **Rebuild Solution**. Then test the DSL again.
+     If the tool does not appear, stop the experimental Visual Studio. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the **Build** menu, click **Rebuild Solution**. Then test the DSL again.
 
-##  <a name="customizing"></a> Customizing Element Tools
+## <a name="customizing"></a> Customizing Element Tools
  By default, the tool will create a single instance of the specified class, but you can vary this in two ways:
 
 -   Define Element Merge Directives on other classes, enabling them to accept new instances of this class, and enabling them to create additional links when the new element is created. For example, you could allow the user to drop a Comment onto another element, and thereby create a reference link between the two.
@@ -97,7 +86,7 @@ Editor
 
 -   Write code to customize the tool so that it can create groups of elements. The tool is initialized by methods in ToolboxHelper.cs that you can override. For more information, see [Creating Groups of Elements from a Tool](#groups).
 
-##  <a name="groups"></a> Creating Groups of Elements from a Tool
+## <a name="groups"></a> Creating Groups of Elements from a Tool
  Each element tool contains a prototype of the elements that it should create. By default, each element tool creates a single element, but it is also possible to create a group of related objects with one tool. To do this, you initialize the tool with an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> that contains the related items.
 
  The following example is taken from a DSL in which there is a type Transistor. Each Transistor has three named Terminals. The element tool for Transistors stores a prototype containing four model elements and three relationship links. When the user drags the tool onto the diagram, the prototype is instantiated and linked to the model root.
@@ -144,10 +133,9 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
         {
             return base.CreateElementToolPrototype(store, domainClassId);
 }  }    }
-
 ```
 
-##  <a name="connections"></a> Customizing Connection Tools
+## <a name="connections"></a> Customizing Connection Tools
  Usually, you create an element tool when you create a new connector class. Alternatively, you can overload one tool by allowing the types of the two ends to determine the type of the relationship. For example, you could define one connection tool that could create both Person-Person relationships and Person-Town relationships.
 
  Connection tools invoke connection builders. Use connection builders to specify how users can link elements in the generated designer. Connection builders specify the elements that can be linked and the kind of link that is created between them.
@@ -172,15 +160,15 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ### Custom Code for Connection Builders
  There are four checkboxes in the user interface that define different types of customization of connection builders:
 
--   the **Custom accept** check box on a source or target role directive
+- the **Custom accept** check box on a source or target role directive
 
--   the **Custom connect** check box on a source or target role directive
+- the **Custom connect** check box on a source or target role directive
 
--   the **Uses custom connect** check box on a connect directive
+- the **Uses custom connect** check box on a connect directive
 
--   the **Is Custom** property of the connection builder
+- the **Is Custom** property of the connection builder
 
- You have to provide some program code to make these customizations. To discover what code you must supply, check one of these boxes, click Transform All Templates, and then build your solution. An error report will result. Double-click the error report to see a comment that explains what code you should add.
+  You have to provide some program code to make these customizations. To discover what code you must supply, check one of these boxes, click Transform All Templates, and then build your solution. An error report will result. Double-click the error report to see a comment that explains what code you should add.
 
 > [!NOTE]
 >  To add custom code, create a partial class definition in a code file separate from the code files in the GeneratedCode folders. To avoid losing your work, you should not edit the generated code files. For more information, see [Overriding and Extending the Generated Classes](../modeling/overriding-and-extending-the-generated-classes.md).
@@ -194,38 +182,38 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
  **Connection Coming in to an OutPort from a Nested Component**
 
- ![Connection Builder](../modeling/media/connectionbuilder_3.png "ConnectionBuilder_3")
+ ![Connection Builder](../modeling/media/connectionbuilder_3.png)
 
  Therefore, you might want to specify that a connection can come from a nested component to an OutPort. To specify such a connection, you set **Uses Custom Accept** on the **InPort** type as source role and the **OutPort** type as target role in the **DSL Details** window as shown in the following illustrations:
 
  **Link Connect Directive in DSL Explorer**
 
- ![Connection builder image](../modeling/media/connectionbuilder_4a.png "ConnectionBuilder_4a")
+ ![Connection builder image](../modeling/media/connectionbuilder_4a.png)
 
  **Link Connect Directive in DSL Details Window**
 
- ![](../modeling/media/connectionbuilder_4b.png "ConnectionBuilder_4b")
+ ![](../modeling/media/connectionbuilder_4b.png)
 
  You must then provide methods in the ConnectionBuilder class:
 
 ```
-  public partial class ConnectionBuilder
-  {
-    /// <summary>
-    /// OK if this component has children
-    /// </summary>
-    private static bool CanAcceptInPortAsSource(InPort candidate)
-    {
-       return candidate.Component.Children.Count > 0;
-    }
+  public partial class ConnectionBuilder
+  {
+    /// <summary>
+    /// OK if this component has children
+    /// </summary>
+    private static bool CanAcceptInPortAsSource(InPort candidate)
+    {
+       return candidate.Component.Children.Count > 0;
+    }
 
-    /// <summary>
-    /// Only if source is on parent of target.
-    /// </summary>
-    private static bool CanAcceptInPortAndInPortAsSourceAndTarget                (InPort sourceInPort, InPort targetInPort)
-    {
-      return sourceInPort.Component == targetInPort.Component.Parent;
-    }
+    /// <summary>
+    /// Only if source is on parent of target.
+    /// </summary>
+    private static bool CanAcceptInPortAndInPortAsSourceAndTarget                (InPort sourceInPort, InPort targetInPort)
+    {
+      return sourceInPort.Component == targetInPort.Component.Parent;
+    }
 // And similar for OutPorts...
 ```
 
@@ -246,4 +234,4 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)
 - [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
-- [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+- [Circuit Diagrams sample DSL](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

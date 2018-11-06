@@ -22,7 +22,7 @@ Gets an enumerator for properties within this set.
   
 ```C++  
 HRESULT Enum (   
-   IEnumSTATPROPSTG** ppenum  
+   IEnumSTATPROPSTG** ppenum  
 );  
 ```  
   

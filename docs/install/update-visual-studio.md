@@ -36,7 +36,7 @@ When there is an update, there's a corresponding notification flag in Visual Stu
 
 2. Choose the notification flag to open the **Notifications** hub, and then choose the update that you want to install.
 
-  ![Update Visual Studio 2017 by using the Notification hub](media/vs-install-notifications-hub-15dot6.png "The Notifications hub in Visual Studio 2017")
+   ![Update Visual Studio 2017 by using the Notification hub](media/vs-install-notifications-hub-15dot6.png "The Notifications hub in Visual Studio 2017")
 
 3. When the **Update** dialog box opens, choose **Update Now**.
 
@@ -76,14 +76,14 @@ As in earlier versions of Visual Studio 2017, you can use the Visual Studio Inst
 
 2. Open the installer. The Visual Studio Installer might require updating before you continue.
 
-  > [!NOTE]
-  > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
+   > [!NOTE]
+   > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
 
-2. On the **Product** page in the installer, look for the edition of Visual Studio that you have installed.
+3. On the **Product** page in the installer, look for the edition of Visual Studio that you have installed.
 
-3. If an update is available, you see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
+4. If an update is available, you see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
 
-  Choose the **Update** button to install the updates.
+   Choose the **Update** button to install the updates.
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
 
@@ -95,19 +95,19 @@ If you are using an earlier version, here's how to apply an update from Visual S
 
 1. When there are updates, there's a corresponding notification flag in Visual Studio.
 
-  ![Update Visual Studio 2017 by using the Notification hub](media/notification-flag.png "The update Notification flag in Visual Studio")
+   ![Update Visual Studio 2017 by using the Notification hub](media/notification-flag.png "The update Notification flag in Visual Studio")
 
-  Choose the notification flag to open the **Notifications** hub.
+   Choose the notification flag to open the **Notifications** hub.
 
-  ![Update Visual Studio 2017 by using the Notification hub](media/notifications-hub.png "The Notifications hub in Visual Studio")
+   ![Update Visual Studio 2017 by using the Notification hub](media/notifications-hub.png "The Notifications hub in Visual Studio")
 
 2. Choose **"Visual Studio Update" is available**, which opens the **Extensions and Updates** dialog box.
 
-  ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-hub-select.png "The Notifications hub in Visual Studio")
+   ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-hub-select.png "The Notifications hub in Visual Studio")
 
 3. In the **Extensions and Updates** dialog box, choose the **Update** button.
 
-  ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-extensions-and-updates.png "The Extensions and Updates dialog in Visual Studio")
+   ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-extensions-and-updates.png "The Extensions and Updates dialog in Visual Studio")
 
 #### More about Visual Studio notifications
 
@@ -129,31 +129,21 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
 1. Open the installer. You might need to update the installer before continuing. If this is the case, you are prompted to do so.
 
-  > [!NOTE]
-  > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
+   > [!NOTE]
+   > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
 
 2. On the **Product** page in the installer, look for the edition of Visual Studio that you have installed.
 
 3. If an update is available, you see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
 
-  Choose the **Update** button to install the updates.
+   Choose the **Update** button to install the updates.
 
      ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
+* [Update Visual Studio for Mac](/visualstudio/mac/update)

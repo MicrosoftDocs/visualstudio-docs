@@ -15,24 +15,24 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Command Code Enumerator
+# Command code enumerator
 This enumerator is used in the options for the [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) and the [SccPopulateList](../extensibility/sccpopulatelist-function.md)to indicate the command for which the options are specified.  
   
 ## Syntax  
   
 ```  
 enum SCCCOMMAND {  
-   SCC_COMMAND_GET,  
-   SCC_COMMAND_CHECKOUT,  
-   SCC_COMMAND_CHECKIN,  
-   SCC_COMMAND_UNCHECKOUT,  
-   SCC_COMMAND_ADD,  
-   SCC_COMMAND_REMOVE,  
-   SCC_COMMAND_DIFF,  
-   SCC_COMMAND_HISTORY,  
-   SCC_COMMAND_RENAME,  
-   SCC_COMMAND_PROPERTIES,  
-   SCC_COMMAND_OPTIONS  
+   SCC_COMMAND_GET,  
+   SCC_COMMAND_CHECKOUT,  
+   SCC_COMMAND_CHECKIN,  
+   SCC_COMMAND_UNCHECKOUT,  
+   SCC_COMMAND_ADD,  
+   SCC_COMMAND_REMOVE,  
+   SCC_COMMAND_DIFF,  
+   SCC_COMMAND_HISTORY,  
+   SCC_COMMAND_RENAME,  
+   SCC_COMMAND_PROPERTIES,  
+   SCC_COMMAND_OPTIONS  
 };  
 ```  
   
@@ -70,7 +70,7 @@ enum SCCCOMMAND {
  SCC_COMMAND_OPTIONS  
  Corresponds to the [SccSetOption](../extensibility/sccsetoption-function.md).  
   
-## See Also  
- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
+## See also  
+ [Source control plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)   
  [SccPopulateList](../extensibility/sccpopulatelist-function.md)

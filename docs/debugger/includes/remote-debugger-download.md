@@ -1,37 +1,30 @@
 ---
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ title: Remote debugger download
+ description: Download links for the remote debugger
+ services: ""
+ author: mikejo5000
+ ms.service: ""
+ ms.topic: include
+ ms.date: 05/23/2018
+ ms.author: mikejo
+ ms.custom: include file
 ---
-1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the remote tools.
 
-    |Version|Link|Notes|
-    |-|-|-|
-    |Visual Studio 2017 (latest version)|[Remote tools](https://www.visualstudio.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2017)|Always download the version matching your device operating system (x86 or x64). If enhanced security mode is enabled (Windows Server), you must add new trusted sites if prompted.|
-    |Visual Studio 2017 (older)|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017)|Remote tools for earlier releases of Visual Studio 2017 are available from My.VisualStudio.com. If prompted, join the free Visual Studio Dev Essentials group, or sign in with your Visual Studio subscription ID. If enhanced security mode is enabled (Windows Server), you must add new trusted sites if prompted.|
-    |Visual Studio 2015 Update 3|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group, or sign in with your Visual Studio subscription ID. If enhanced security mode is enabled (Windows Server), you must add new trusted sites if prompted.|
-    |Visual Studio 2015 (older)|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group, or sign in with your Visual Studio subscription ID. If enhanced security mode is enabled (Windows Server), you must add new trusted sites if prompted.|
-    |Visual Studio 2013|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.120).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2013 documentation|
-    |Visual Studio 2012|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.110).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2012 documentation|
-  
-2.  On the download page, choose the version of the tools that matches your operating system (x86, x64, or ARM) and download the remote tools.
-  
-    > [!IMPORTANT]
-    >  We recommend you install the most recent version of the remote tools that matches your version of Visual Studio. Mismatched versions are not recommended. In addition, you must install the remote tools that have the same architecture as the operating system on which you want to install it. In other words, if you want to debug a 32-bit application on a remote computer running a 64-bit operating system, you must install the 64-bit version of the remote tools on the remote computer. 
-    >   
-    >  Surface 3 switched from ARM to x64 architecture. An ARM version of the remote tools is not available for Visual Studio 2017. For Visual Studio 2015, find the ARM version in the Visual Studio 2015 RTW download.
-  
-3.  When you have finished downloading the executable, go to the next section and follow setup instructions.
+On the remote device or server that you want to debug on, rather than the Visual Studio machine, download and install the correct version of the remote tools from the links in the following table.
 
-If you try to copy the remote debugger (msvsmon.exe) to the remote computer and run it, be aware that the **Remote Debugger Configuration Wizard** (**rdbgwiz.exe**) is installed only when you download the tools. You may need to use the wizard for configuration later, especially if you want the remote debugger to run as a service. For more information, see [(Optional) Configure the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).
+- Download the most recent remote tools for your version of Visual Studio. The latest remote tools version is compatible with earlier Visual Studio versions, but earlier remote tools versions aren't compatible with later Visual Studio versions. 
+- Download the remote tools with the same architecture as the machine you're installing them on. For example, if you want to debug a 32-bit app on a remote computer running a 64-bit operating system, install the 64-bit remote tools. 
+
+|Version|Link|Notes|
+|-|-|-|
+|Visual Studio 2017 (latest version)|[Remote tools](https://visualstudio.microsoft.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2017)|Compatible with all Visual Studio 2017 versions. Download the version matching your device operating system (x86, x64, or ARM64). On Windows Server, see [Unblock the file download](../../debugger/remote-debugging-unblock-file-download.md) for help downloading the remote tools.|
+|Visual Studio 2015|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|Remote tools for Visual Studio 2015 are available from My.VisualStudio.com. If prompted, join the free [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) program, or sign in with your Visual Studio subscription ID. On Windows Server, see [Unblock the file download](../../debugger/remote-debugging-unblock-file-download.md) for help downloading the remote tools.|
+|Visual Studio 2013|[Remote tools](/previous-versions/visualstudio/visual-studio-2013/bt727f1t(v=vs.120)#Installing_the_Remote_Tools)|Download page in Visual Studio 2013 documentation|
+|Visual Studio 2012|[Remote tools](/previous-versions/visualstudio/visual-studio-2012/bt727f1t(v=vs.110)#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2012 documentation|
+
+You can run the remote debugger by copying *msvsmon.exe* to the remote computer, rather than installing the remote tools. However, the Remote Debugger Configuration Wizard (*rdbgwiz.exe*) is available only when you install the remote tools. You may need to use the wizard for configuration if you want to run the remote debugger as a service. For more information, see [(Optional) Configure the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).
+
+>[!NOTE]
+>- To debug Windows 10 apps on ARM devices, use ARM64, which is available with the latest version of the remote tools.  
+>- To debug Windows 10 apps on Windows RT devices, use ARM, which is available only in the Visual Studio 2015 remote tools download.
+

@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether a pointer type is a reference.
   
 ```C++  
 HRESULT get_reference (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

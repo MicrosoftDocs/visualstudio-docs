@@ -22,7 +22,7 @@ Retrieves the relative virtual address (RVA) of the code for the frame.
   
 ```C++  
 HRESULT get_relativeVirtualAddress (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

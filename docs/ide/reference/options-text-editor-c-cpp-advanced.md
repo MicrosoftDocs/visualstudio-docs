@@ -11,9 +11,9 @@ f1_keywords:
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: mikeblome
+ms.author: mblome
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---
@@ -128,6 +128,12 @@ By changing these options, you can change the behavior related to IntelliSense a
 
  Disables IntelliSense error squiggles. The red "squiggles" don't show in the editor window, but the error will still appear in the Error List window.
 
+ **Auto Tune Max Cached Translation Units**
+
+ The maximum number of translation units that will be kept active at any one time for IntelliSense requests. You must specify a value between 2 and 15. This number directly relates to the maximum number of VCPkgSrv.exe processes that will run (for a given instance of Visual Studio). The default value is 2, but if you have available memory, you can increase this value and possibly achieve slightly better performance on IntelliSense.
+
+ For more information about translation units, see [Phases of Translation](/cpp/preprocessor/phases-of-translation).
+
  **Disable #include Auto Complete**
 
  Disables auto-completion of `#include` statements.
@@ -135,16 +141,6 @@ By changing these options, you can change the behavior related to IntelliSense a
  **Use Forward Slash in #include Auto Complete**
 
  Triggers auto-completion of `#include` statements when "/" is used. The default delimiter is backslash '\'. The compiler can accept either, so use this option to specify what your code base uses.
-
- **Max Cached Translation Units**
-
- The maximum number of translation units that will be kept active at any one time for IntelliSense requests. You must specify a value between 2 and 15. This number directly relates to the maximum number of VCPkgSrv.exe processes that will run (for a given instance of Visual Studio). The default value is 2, but if you have available memory, you can increase this value and possibly achieve slightly better performance on IntelliSense.
-
- For more information about translation units, see [Phases of Translation](/cpp/preprocessor/phases-of-translation).
-
- **Member List Dot-To-Arrow**
-
- Replaces '.' with '->' when applicable for Member List.
 
  **Disable Aggressive Member List**
 
@@ -158,21 +154,25 @@ By changing these options, you can change the behavior related to IntelliSense a
 
  Code snippets don't appear in member list suggestions.
 
+ **Member List Filter Mode**
+
+ Sets the type of matching algorithm. **Fuzzy** finds the most possible matches because it uses an algorithm that's similar to a spell-checker to find matches that are similar but not identical. **Smart filtering** matches substrings even if they're not at the start of a word. **Prefix** only matches on identical substrings that start at the beginning of the word.
+
  **Disable Semantic Colorization**
 
  Turns off all code colorization except for language keywords, strings, and comments.
+
+ **Member List Commit Characters**
+
+ Specifies the characters that cause the currently highlighted Member List suggestion to be committed. You can add or remove characters from this list.
 
  **Smart Member List Commit**
 
  Adds a line when you choose the Enter key at the end of a fully typed word.
 
- **Member List Filter Mode**
+ **Enable Member List Dot-To-Arrow**
 
- Sets the type of matching algorithm. **Fuzzy** finds the most possible matches because it uses an algorithm that's similar to a spell-checker to find matches that are similar but not identical. **Smart filtering** matches substrings even if they're not at the start of a word. **Prefix** only matches on identical substrings that start at the beginning of the word.
-
- **Member List Commit Characters**
-
- Specifies the characters that cause the currently highlighted Member List suggestion to be committed. You can add or remove characters from this list.
+ Replaces '.' with '->' when applicable for Member List.
 
 ## References
  **Disable Resolving**
@@ -185,12 +185,14 @@ By changing these options, you can change the behavior related to IntelliSense a
 
  **Disable Reference Highlighting**
 
+By default, when you select some text, all instances of the same text are automatically highlighted in the current document. You can disable this feature by setting **Disable Reference Highlighting** to **True**.
+
  ## Text Editor
- **Enable Expand Scopes**
+ **Enable Surround with Braces**
 
  If enabled, you can surround selected text with curly braces by typing '{' into the text editor.
 
- **Enable Expand Precedence**
+ **Enable Surround with Parentheses**
 
  If enabled, you can surround selected text with parentheses by typing '(' into the text editor.
 

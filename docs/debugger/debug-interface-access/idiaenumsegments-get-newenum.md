@@ -22,7 +22,7 @@ Retrieves the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> versio
   
 ```C++  
 HRESULT get__NewEnum (   
-   IUnknown** pRetVal  
+   IUnknown** pRetVal  
 );  
 ```  
   

@@ -22,11 +22,11 @@ ms.workload:
 The **Configure Service Reference** dialog box enables you to configure the behavior of Windows Communication Foundation (WCF) services.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 To access the **Configure Service Reference** dialog box, right-click a service reference in **Solution Explorer** and choose **Configure Service Reference**. You can also access the dialog box by clicking the **Advanced** button in the **Add Service Reference Dialog Box**.
 
-## Task List
+## Task list
 
 - To change the address where a WCF service is hosted, enter the new address in the **Address** field.
 
@@ -40,11 +40,11 @@ To access the **Configure Service Reference** dialog box, right-click a service 
 
 - To disable type sharing, clear the **Reuse types in referenced assemblies** check box. To enable type sharing for a subset of referenced assemblies, select the **Reuse types in referenced assemblies** check box, select **Reuse types in specified referenced assemblies**, and select the desired references in the **Referenced assemblies list**.
 
-## UIElement List
+## UIElement list
 
  **Address**
 
- Used to update the Web address where a service reference looks for a service. For example, during development the service may be hosted on a development server then later moved to a production server, necessitating an address change.
+ Updates the web address where a service reference looks for a service. For example, during development, the service may be hosted on a development server and then later moved to a production server, necessitating an address change.
 
 > [!NOTE]
 > The Address element is not available when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.
@@ -54,19 +54,19 @@ To access the **Configure Service Reference** dialog box, right-click a service 
  Determines the code access level for WCF client classes.
 
 > [!NOTE]
-> For Website projects, this option is always set to `Public` and cannot be changed. For more information, see [Troubleshooting Service References](../data-tools/troubleshooting-service-references.md).
+> For Website projects, this option is always set to `Public` and cannot be changed. For more information, see [Troubleshooting service references](../data-tools/troubleshooting-service-references.md).
 
  **Generate asynchronous operations**
 
- Determines whether WCF service methods will be called synchronously (the default) or asynchronously.
+ Determines whether WCF service methods is called synchronously (the default) or asynchronously.
 
  **Generate task-based operations**
 
- When writing async code, this option allows you to take advantage of the Task Parallel Library (TPL) that was introduced with .Net 4. See [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl).
+ When writing async code, this option lets you take advantage of the Task Parallel Library (TPL) that was introduced with .NET 4. See [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl).
 
  **Always generate message contracts**
 
- Determines whether message contract types will be generated for a WCF client. For more information about message contracts, see [Using Message Contracts](/dotnet/framework/wcf/feature-details/using-message-contracts).
+ Determines whether message contract types are generated for a WCF client. For more information about message contracts, see [Using message contracts](/dotnet/framework/wcf/feature-details/using-message-contracts).
 
  **Collection type**
 
@@ -78,31 +78,31 @@ To access the **Configure Service Reference** dialog box, right-click a service 
 
  **Reuse types in referenced assemblies**
 
- Determines whether a WCF client will try to reuse that already exist in referenced assemblies instead of generating new types when a service is added or updated. By default, this option is checked.
+ Determines whether a WCF client tries to reuse what already exists in referenced assemblies instead of generating new types when a service is added or updated. By default, this option is checked.
 
  **Reuse types in all referenced assemblies**
 
- When selected, all types in the **Referenced assemblies list** will be reused if possible. By default, this option is selected.
+ When selected, all types in the **Referenced assemblies list** are reused if possible. By default, this option is selected.
 
  **Reuse types in specified referenced assemblies**
 
- When selected, only the selected types in the **Referenced assemblies list** will be reused.
+ When selected, only the selected types in the **Referenced assemblies list** are reused.
 
  **Referenced assemblies list**
 
- Contains a list of referenced assemblies for the project or Web site. When **Reuse types in specified referenced assemblies** is selected, individual assemblies can be selected or cleared.
+ Contains a list of referenced assemblies for the project or website. When you select **Reuse types in specified referenced assemblies**, you can select or clear individual assemblies.
 
  **Add Web Reference**
 
- Displays the Add Web Reference dialog box.
+ Displays the **Add Web Reference** dialog box.
 
 > [!NOTE]
-> This option should be used only for projects that target version 2.0 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
-
+> This option should only be used for projects that target version 2.0 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+> 
 > [!NOTE]
-> The **Add Web Reference** button is available only when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.
+> The **Add Web Reference** button is only available when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.
 
 ## See also
 
-- [How to: Add a Reference to a Web Service](how-to-add-update-or-remove-a-wcf-data-service-reference.md)
+- [How to: Add a reference to a web service](how-to-add-update-or-remove-a-wcf-data-service-reference.md)
 - [Windows Communication Foundation Services and WCF Data Services](../data-tools/configure-service-reference-dialog-box.md)

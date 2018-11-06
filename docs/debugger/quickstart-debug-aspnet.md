@@ -2,7 +2,7 @@
 title: "Debug ASP.NET"
 description: "Debug ASP.NET using the Visual Studio debugger"
 ms.custom: "mvc"
-ms.date: "03/16/2018"
+ms.date: "08/06/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
@@ -28,7 +28,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In the dialog box that appears, choose **Web Application** in the middle pane, and then click **OK**.
 
-     If you don't see the **Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET** and **.NET Core** workload, then choose **Modify**.
+     If you don't see the **Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
     ![Choose a Web application](../debugger/media/dbg-qs-aspnet-choose-web-app.png)
 
@@ -36,7 +36,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
 
-    ```c#
+    ```csharp
     public void OnGet()
     {
         Message = "Your application description page.";
@@ -45,7 +45,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     with this code:
 
-    ```c#
+    ```csharp
     public void OnGet()
     {
         LinkedList<int> result = doWork();

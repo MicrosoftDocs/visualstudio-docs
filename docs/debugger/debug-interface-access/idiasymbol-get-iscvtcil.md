@@ -22,7 +22,7 @@ Retrieves a flag indicating whether the module was converted from a Common Inter
   
 ```C++  
 HRESULT get_isCVTCIL(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

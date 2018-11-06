@@ -15,16 +15,16 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Terminating a Program
-The following is a description of the termination of a single program with one thread.  
+# Terminating a program
+The following section describes the termination of a single program with one thread.  
   
-## Termination Process  
+## Termination process  
   
-1.  The DE sends an [IDebugThreadDestroyEvent2](../../extensibility/debugger/reference/idebugthreaddestroyevent2.md) with a valid [IDebugThread2](../../extensibility/debugger/reference/idebugthread2.md).  
+1. The DE sends an [IDebugThreadDestroyEvent2](../../extensibility/debugger/reference/idebugthreaddestroyevent2.md) with a valid [IDebugThread2](../../extensibility/debugger/reference/idebugthread2.md).  
   
-2.  The DE sends an [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md) with a valid [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md).  
+2. The DE sends an [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md) with a valid [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md).  
   
- The IDE goes into design mode. The debug engine or run-time environment calls [IDebugPortNotify2::RemoveProgramNode](../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md) to remove the program from the port.  
+   The IDE goes into design mode. The debug engine or run-time environment calls [IDebugPortNotify2::RemoveProgramNode](../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md) to remove the program from the port.  
   
-## See Also  
- [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
+## See also  
+ [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

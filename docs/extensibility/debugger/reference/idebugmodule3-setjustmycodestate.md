@@ -23,13 +23,13 @@ Marks the module as being user code or not.
   
 ```cpp  
 HRESULT SetJustMyCodeState(  
-   BOOL fIsUserCode  
+   BOOL fIsUserCode  
 );  
 ```  
   
 ```csharp  
 int SetJustMyCodeState(  
-   int fIsUserCode  
+   int fIsUserCode  
 );  
 ```  
   

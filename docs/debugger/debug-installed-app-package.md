@@ -31,7 +31,7 @@ You can debug any installed app package by clicking **Debug > Other Debug Target
 * HoloLens
 * IoT
 
-For more information about these features, see the blog post on updates for [debugging installed app packages](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/30/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) and the post on [building Universal Windows Apps (UWP)](https://blogs.msdn.microsoft.com/visualstudio/2016/08/02/universal-windows-apps-targeting-windows-10-anniversary-sdk/).
+For more information about these features, see the blog post on updates for [debugging installed app packages](https://blogs.msdn.microsoft.com/devops/2016/03/30/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) and the post on [building Universal Windows Apps (UWP)](https://blogs.msdn.microsoft.com/visualstudio/2016/08/02/universal-windows-apps-targeting-windows-10-anniversary-sdk/).
 
 ## Debug an Installed App Package or Running App on a Local Machine or Device
 
@@ -72,20 +72,20 @@ When you debug an installed app package on a remote computer for the first time,
 
      If you can't attach using computer name (after you choose **Start**), use the IP address instead. Use the IP address for XBox, HoloLens, or IoT devices.
 
-5. Choose how to authenticate by selecting an option in **Authentication Mode**.
+6. Choose how to authenticate by selecting an option in **Authentication Mode**.
 
     For most apps, keep the default value, **Universal (Unencrypted Protocol)**.
 
-6. Select the name of the app you want to debug under **Running** or **Not Running** and choose **Start** or (for running apps) **Attach**.
+7. Select the name of the app you want to debug under **Running** or **Not Running** and choose **Start** or (for running apps) **Attach**.
 
      If you select **Do not launch, but debug my code when it starts**, this will cause the Visual Studio debugger to attach to your app package when you launch it at a custom time. This is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
 
      When you debug an installed app package on a connected XBox, HoloLens, or IoT device for the first time, Visual Studio installs the correct version of the remote debugger for your target device. This may take a little bit of time and you will see a message ``Starting remote debugger`` while this is happening.
 
      > [!NOTE]
-> At present, an XBox or HoloLens device will restart the app with the debugger attached if it is already running.
+   > At present, an XBox or HoloLens device will restart the app with the debugger attached if it is already running.
 
-For information on advanced options for remote deployment of UWP apps, see [Deploying and debugging UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps.md#advanced-remote-deployment-options). 
+For information on advanced options for remote deployment of UWP apps, see [Deploying and debugging UWP apps]((/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options). 
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)  

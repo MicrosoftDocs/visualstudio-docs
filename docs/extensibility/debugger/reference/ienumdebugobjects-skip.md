@@ -23,13 +23,13 @@ This method skips over the specified number of elements.
   
 ```cpp  
 HRESULT Skip(  
-   [in] ULONG celt  
+   [in] ULONG celt  
 );  
 ```  
   
 ```csharp  
 int Skip(  
-   [In] uint celt  
+   [In] uint celt  
 );  
 ```  
   

@@ -26,7 +26,7 @@ Note that some settings are specific to the **Assembly** level or **Fixture** le
 
 **Example**
 
-```
+```csharp
 using Microsoft.Pex.Framework;
 
 [assembly: PexAssemblySettings(MaxBranches = 1000)] // we override the default value of maxbranches
@@ -44,4 +44,4 @@ namespace MyTests
 
 ## Got feedback?
 
-Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

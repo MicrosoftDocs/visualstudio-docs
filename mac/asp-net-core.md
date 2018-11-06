@@ -1,8 +1,8 @@
 ---
 title: "Getting Started with ASP.NET Core" 
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 07/13/2017
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ---
@@ -59,12 +59,12 @@ public static void Main(string[] args)
 ```
 An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](https://docs.microsoft.com/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
 
- * `UseKestrel`: Specifies the Kestrel server will be used by the app
- * `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
- * `.UseIISIntegration()`: Specifies that the app should work with IIS. To use IIS with ASP.NET Core both `UseKestrel` and `UseIISIntegration` need to be specified.
- * `.UseStartup<Startup>()`: Specifies the Startup class.
+* `UseKestrel`: Specifies the Kestrel server will be used by the app
+* `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
+* `.UseIISIntegration()`: Specifies that the app should work with IIS. To use IIS with ASP.NET Core both `UseKestrel` and `UseIISIntegration` need to be specified.
+* `.UseStartup<Startup>()`: Specifies the Startup class.
 
- The Build and Run methods build the IWebHost that will host the app and start it listening for incoming HTTP requests.
+  The Build and Run methods build the IWebHost that will host the app and start it listening for incoming HTTP requests.
 
 ### Startup.cs
 
@@ -139,7 +139,7 @@ To add a controller, do the following:
 
 2. Add the following code to the new controller:
 
-    ```
+    ```csharp
     using System;
     using Microsoft.AspNetCore.Mvc;
     using System.Text.Encodings.Web;
@@ -228,6 +228,6 @@ Make sure to complete all four steps successfully to ensure that .NET Core is in
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, refer to the following guides:
-- [ASP.NET Core](https://docs.microsoft.com/aspnet/core/#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
+- [ASP.NET Core](https://docs.microsoft.com/aspnet/core/?view=aspnetcore-2.1#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
 - [Creating Backend Services for Native Mobile Applications](https://docs.microsoft.com/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).

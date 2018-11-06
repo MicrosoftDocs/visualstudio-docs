@@ -1,7 +1,7 @@
 ---
 title: Port, Migrate, and Upgrade Projects
 description: A reference for the support in Visual Studio 2017 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when it needs to migrate a project.
-ms.date: 03/14/2018
+ms.date: 10/09/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -9,35 +9,33 @@ author: kraigb
 ms.author: kraigb
 manager: douge
 ms.workload: multiple
-f1_keywords: 
+f1_keywords:
   - "Win8ExpressDesktopBlock"
   - "w8trefactor"
   - "VS.ReviewProjectAndSolutionChangesDialog.UpgradeRetarget"
   - "ProjectCompatibilityDlgHelpTopic"
   - "VS.ReviewProjectAndSolutionChangesDialog.Upgrade"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "conversion, projects"
   - "asset compatibility"
   - "projects, conversion"
 ---
-
 # Project migration and upgrade reference for Visual Studio 2017
 
-Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio generally tries to preserve backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](https://www.visualstudio.com/vs/release-notes/) for which features are specific to which versions.)
+Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio generally tries to preserve backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](https://visualstudio.microsoft.com/vs/release-notes/) for which features are specific to which versions.)
 
-Support for some project types also changes over time. A newer version of Visual Studio may no longer support certain projects, or requires updating a project such that it's no longer backwards compatible. For current status on migration issues, refer to the [Visual Studio Developer Community site](https://developercommunity.visualstudio.com).
+Support for some project types also changes over time. A newer version of Visual Studio may no longer support certain projects at all, or requires updating a project such that it's no longer backwards compatible. For current status on migration issues, refer to the [Visual Studio Developer Community site](https://developercommunity.visualstudio.com).
+
+This present article provides details only for project types that Visual Studio 2017 can migrate. The article excludes project types that are no longer supported in Visual Studio 2017 and cannot therefore be migrated. The article also excludes supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs).
 
 > [!Important]
-> This present article provides details only for project types in Visual Studio 2017 that involve migration. It does not include supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs). Note also that some project types are no longer supported in Visual Studio 2017 at all and therefore cannot be migrated.
-
-> [!Important]
-> Certain project types require installing the appropriate workloads through the Visual Studio installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) article for details on project support in Visual Studio 2017.
+> Certain project types require installing the appropriate workloads through the Visual Studio installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs) article for details on project support in Visual Studio 2017.
 
 ## Project types
 
 The following list describes support in Visual Studio 2017 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, consult the [Visual Studio 2015 version of this article](https://msdn.microsoft.com/library/hh266747.aspx) and use the "Give documentation feedback" option at the bottom of this page to provide details of your project. (If you'd like a response, use the documentation feedback rather than the anonymous "Is this page helpful?" control.)
+If you don't see a project or file type listed here that should be, consult the [Visual Studio 2015 version of this article](https://docs.microsoft.com/visualstudio/porting/porting-migrating-and-upgrading-visual-studio-projects?view=vs-2015) and use the "Give documentation feedback" option at the bottom of this page to provide details of your project. (If you'd like a response, use the documentation feedback rather than the anonymous "Is this page helpful?" control.)
 
 | Type of Project | Support |
 | --- | --- |
@@ -54,7 +52,7 @@ If you don't see a project or file type listed here that should be, consult the 
 | MSI Setup (vdproj) | See InstallShield Projects. |
 | Office 2007 VSTO | Requires a one-way upgrade for Visual Studio 2017. |
 | Office 2010 VSTO | If the project targets the .NET Framework 4, you can open it in Visual Studio 2010 SP1 and later. All other projects require a one-way upgrade. |
-| Service Fabric (sfproj) | Service Fabric Application Projects can be opened in either Visual Studio 2015 or Visual Studio 2017, unless the Service Fabric Application project references an ASP.NET Core service project. Service Fabric projects from Visual Studio 2015 that are opened in Visual Studio 2017 are one-way migrated from the xproj format to csproj. See ".NET Core projects (xproj)" earlier in this table. |
+| Service Fabric (sfproj) | Service Fabric Application projects can be opened in either Visual Studio 2015 or Visual Studio 2017, unless the Service Fabric Application project references an ASP.NET Core service project. Service Fabric projects from Visual Studio 2015 that are opened in Visual Studio 2017 are one-way migrated from the xproj format to csproj. See ".NET Core projects (xproj)" earlier in this table. |
 | SharePoint 2010 | When a SharePoint solution project is opened with Visual Studio 2017, it's upgraded to either SharePoint 2013 or SharePoint 2016. The ".NET Desktop Development" workload must be installed in Visual Studio 2017 for the upgrade.<br/><br/>For more information about how to upgrade SharePoint projects, see [Upgrade to SharePoint 2013](https://technet.microsoft.com/library/cc303420.aspx), [Update Workflow in SharePoint Server 2013](https://technet.microsoft.com/library/dn133867.aspx), and [Create the SharePoint Server 2016 farm for a database attach upgrade](https://technet.microsoft.com/library/cc263026(v=office.16).aspx). |
 | SharePoint 2016 | SharePoint Add-In projects created in Office Developer Tools Preview 2 cannot be opened in Visual Studio 2017. To work around this limitation, update the `MinimumVisualStudioVersion` to 12.0 and `MinimumOfficeToolsVersion` to 12.2 in the csproj vbproj file. |
 | Silverlight | Silverlight projects not supported in Visual Studio 2017. To maintain Silverlight applications, continue to use Visual Studio 2015. |
@@ -64,14 +62,14 @@ If you don't see a project or file type listed here that should be, consult the 
 | Visual Studio Extensibility/VSIX | Projects with MinimumVersion 14.0 or less are updated to declare MinimumVersion 15.0, which prevents the project from being opened in earlier versions of Visual Studio. To allow a project to open in earlier versions, set MinimumVersion to `$(VisualStudioVersion)`. See also [How to: Migrate Extensibility Projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md). |
 | Visual Studio Lab Management | You can use Microsoft Test Manager or Visual Studio 2010 SP1 and later to open environments created in any of these versions. However, for Visual Studio 2010 SP1 the version of Microsoft Test Manager must match the version of Team Foundation Server before you can create environments. |
 | Visual Studio Tools for Apache Cordova | Projects can be opened in Visual Studio 2017, but are not backwards compatible. Upon opening a project from Visual Studio 2015, you're prompted to allow modifications to your project. This modification upgrades the project to use toolsets instead of a `taco.json` file to manage the versioning of the Cordova library, its platforms, its plugins, and its node/npm dependencies. See the [migration guide](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/first-steps/migrate-from-visual-studio-2015) for more information. |
-| Web Deployment (wdproj) | Support for Web Deployment projects was removed in Visual Studio 2012 with the addition of publish profile support. Because there is no equivalent in Visual Studio 2017, there is no automatic migration path for such projects. Instead, open the wdproj file in a text editor and copy-paste any customizations into to the pubxml (publish profile) file, as described on [StackOverflow](https://stackoverflow.com/a/12061065/1203388). Also see [Plans regarding website and web deployment projects (MSDN blogs)](https://blogs.msdn.microsoft.com/webdev/2012/08/06/plans-regarding-website-projects-and-web-deployment-projects). |
+| Web Deployment (wdproj) | Support for Web Deployment projects was removed in Visual Studio 2012 with the addition of publish profile support. Because there is no equivalent in Visual Studio 2017, there is no automatic migration path for such projects. Instead, open the wdproj file in a text editor and copy-paste any customizations into to the pubxml (publish profile) file, as described on [StackOverflow](https://stackoverflow.com/a/12061065/1203388). Also see [Plans regarding website and web deployment projects (MSDN blogs)](https://blogs.msdn.microsoft.com/webdev/2012/08/06/plans-regarding-website-projects-and-web-deployment-projects/). |
 | Windows Communication Foundation, Windows Workflow Foundation | You can open this project in Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012 |
 | Windows Presentation Foundation | You can open this project in Visual Studio 2013, Visual Studio 2012, and Visual Studio 2010 SP1. |
 | Windows Store/Phone apps | Projects for Windows Store 8.1 and 8.0, and Windows Phone 8.1 and 8.0 are not supported in Visual Studio 2017. To maintain these apps, continue to use Visual Studio 2015. To maintain Windows Phone 7.x projects, use Visual Studio 2012. |
 
 ## How Visual Studio decides when to migrate a project
 
-Each new version of Visual Studio generally seeks to maintain compatibility with previous versions, such that the same project can be opened, modified, and built across different versions. However, there are inevitable changes over time such that some project types may no longer be supported. (See [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) for which project types are supported in Visual Studio 2017.) In these cases, a newer version of Visual Studio won't load the project and doesn't offer a migration path; you need to maintain that project in a previous version of Visual Studio that does support it.
+Each new version of Visual Studio generally seeks to maintain compatibility with previous versions, such that the same project can be opened, modified, and built across different versions. However, there are inevitable changes over time such that some project types may no longer be supported. (See [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs) for which project types are supported in Visual Studio 2017.) In these cases, a newer version of Visual Studio won't load the project and doesn't offer a migration path; you need to maintain that project in a previous version of Visual Studio that does support it.
 
 In other cases, the newer version of Visual Studio can open a project, but must update or migrate the project in such a way that might render it incompatible with previous versions. Visual Studio uses a number of criteria to determine whether such migration is necessary:
 
@@ -87,7 +85,7 @@ If such compatibility is not possible, however, as with some of the project type
 
 Such one-way changes may involve changing the `ToolsVersion` property in the project file, which denotes exactly which version of MSBuild can turn the project's source code into runnable and deployable artifacts that you ultimately want. That is, what renders a project incompatible with previous versions of Visual Studio is not the *Visual Studio* version, but the *MSBuild* version, as determined by `ToolsVersion`. So long as your version of Visual Studio contains the MSBuild toolchain that matches the `ToolsVersion` in a project, then Visual Studio can invoke that toolchain to build the project.
 
-To maintain maximum compatibility with projects created in older versions, Visual Studio 2017 includes the necessary MSBuild toolchains to support `ToolsVersion` 15, 14, 12, and 4. Projects that use any of these `ToolsVersion` values should result in a successful build. (Subject, again, to whether Visual Studio 2017 supports the project type at all, as described on [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs).)
+To maintain maximum compatibility with projects created in older versions, Visual Studio 2017 includes the necessary MSBuild toolchains to support `ToolsVersion` 15, 14, 12, and 4. Projects that use any of these `ToolsVersion` values should result in a successful build. (Subject, again, to whether Visual Studio 2017 supports the project type at all, as described on [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs).)
 
 In this context, the question naturally arises whether you should try to manually update or migrate a project to a newer `ToolsVersion` value. Making such a change is unnecessary, and would likely generate many errors and warnings that you'd need to fix to get the project to build again. Furthermore, if Visual Studio drops support for a specific `ToolsVersion` in the future, then opening the project will trigger the project migration process specifically because the `ToolsVersion` value must be changed. In such a case, the subsystem for that specific project type knows exactly what needs to be changed, and can make those changes automatically as described earlier in this article.
 

@@ -18,11 +18,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Use 3D Assets in Your Game or App
+# Use 3D assets in your game or app
 
 This article describes how you can use Visual Studio to process 3D assets and include them in your builds.
 
-After you use the tools in Visual Studio to create 3D assets, the next step is to use them in your app. But before you can use them, your assets have to be transformed into a format that DirectX can understand. To help you transform your assets, Visual Studio provides build customizations for each kind of asset that it can produce. To include the assets in your build, all you have to do is configure your project to use the build customizations, add the assets to your project, and configure the assets to use the correct build customization. After that, you can load the assets into your app and use them by creating and filling DirectX resources just like you would in any other DirectX app.
+After you use the tools in Visual Studio to create 3D assets, the next step is to use them in your app. But, before you can use them, your assets have to be transformed into a format that DirectX can understand. To help you transform your assets, Visual Studio provides build customizations for each kind of asset that it can produce. To include the assets in your build, all you have to do is configure your project to use the build customizations, add the assets to your project, and configure the assets to use the correct build customization. After that, you can load the assets into your app and use them by creating and filling DirectX resources just like you would in any other DirectX app.
 
 ## Configure your project
 
@@ -30,12 +30,12 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
 
 ### To add the build customizations to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies**, **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box is displayed.
+1.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies** > **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box appears.
 
-2.  Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in this table:
+2.  Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in the following table:
 
     |Asset type|Build customization Name|
-    |----------------|------------------------------|
+    |----------------| - |
     |Textures and images|**ImageContentTask(.targets, .props)**|
     |3D Models|**MeshContentTask(.targets, .props)**|
     |Shaders|**ShaderGraphContentTask(.targets, .props)**|
@@ -47,9 +47,9 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
 
 ### To add an asset to your build
 
-1.  In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.
+1.  In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box appears.
 
-2.  Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.
+2.  Make sure that the **Configuration** and **Platform** properties are set to the values to which you want your changes to apply.
 
 3.  Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.
 
@@ -58,13 +58,13 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
 
 4.  Choose the **OK** button.
 
-Here are the three content pipeline item types and their associated source and output file types.
+Following are the three content pipeline item types and their associated source and output file types.
 
 |Item Type|Source file types|Output file format|
-|---------------|-----------------------|------------------------|
-|**Image Content Pipeline**|Portable Network Graphics (.png)<br /><br /> JPEG (.jpg, .jpeg, .jpe, .jfif)<br /><br /> Direct Draw Surface (.dds)<br /><br /> Graphics Interchange Format (.gif)<br /><br /> Bitmap (.bmp, .dib)<br /><br /> Tagged Image File Format (.tif, .tiff)<br /><br /> Targa (.tga)|DirectDraw Surface (.dds)|
-|**Mesh Content Pipeline**|AutoDesk FBX Interchange File (.fbx)<br /><br /> Collada DAE File (.dae)<br /><br /> Wavefront OBJ File (.obj)|3D mesh file (.cmo)|
-|**Shader Content Pipeline**|Visual Shader Graph (.dgsl)|Compiled Shader Output (.cso)|
+|---------------| - | - |
+|**Image Content Pipeline**|Portable Network Graphics (*.png*)<br /><br /> JPEG (*.jpg*, *.jpeg*, *.jpe*, *.jfif*)<br /><br /> Direct Draw Surface (*.dds*)<br /><br /> Graphics Interchange Format (*.gif*)<br /><br /> Bitmap (*.bmp*, *.dib*)<br /><br /> Tagged Image File Format (*.tif*, *.tiff*)<br /><br /> Targa (*.tga*)|DirectDraw Surface (*.dds*)|
+|**Mesh Content Pipeline**|AutoDesk FBX Interchange File (*.fbx*)<br /><br /> Collada DAE File (*.dae*)<br /><br /> Wavefront OBJ File (*.obj*)|3D mesh file (*.cmo*)|
+|**Shader Content Pipeline**|Visual Shader Graph (*.dgsl*)|Compiled Shader Output (*.cso*)|
 
 ## Configure asset content pipeline properties
 
@@ -72,7 +72,7 @@ You can set the content pipeline properties of each asset file so that it will b
 
 ### To configure content pipeline properties
 
-1.  In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.
+1.  In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box appears.
 
 2.  Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.
 
@@ -111,7 +111,7 @@ When you use the shader content pipeline tool to build a shader asset, you can c
 
 ### Use textures and images
 
-Direct3D provides functions for creating texture resources. In Direct3D 11, the D3DX11 utility library provides additional functions for creating texture resources and resource views directly from image files. For more information about how to create a texture resource in Direct3D 11, see [Textures](http://go.microsoft.com/fwlink/p/?LinkID=246267). For more information about how to use the D3DX11 library to create a texture resource or resource view from an image file, see [How to: Initialize a Texture From a File](http://go.microsoft.com/fwlink/p/?LinkId=246268).
+Direct3D provides functions for creating texture resources. In Direct3D 11, the D3DX11 utility library provides additional functions for creating texture resources and resource views directly from image files. For more information about how to create a texture resource in Direct3D 11, see [Textures](http://go.microsoft.com/fwlink/p/?LinkID=246267). For more information about how to use the D3DX11 library to create a texture resource or resource view from an image file, see [How to: Initialize a texture from a file](http://go.microsoft.com/fwlink/p/?LinkId=246268).
 
 ### Use 3D models
 
@@ -119,7 +119,7 @@ Direct3D 11 does not provide functions for creating resources from 3D models. In
 
 ### Use shaders
 
-Direct3D provides functions for creating shader resources and binding them to the programmable graphics pipeline. For more information about how to create a shader resource in Direct3D and bind it to the pipeline, see [Programming Guide for HLSL](http://go.microsoft.com/fwlink/p/?LinkID=261521).
+Direct3D provides functions for creating shader resources and binding them to the programmable graphics pipeline. For more information about how to create a shader resource in Direct3D and bind it to the pipeline, see [Programming guide for HLSL](http://go.microsoft.com/fwlink/p/?LinkID=261521).
 
 In the programmable graphics pipeline, each stage of the pipeline must give the next stage of the pipeline a result that's formatted in a way that it can understand. Because the Shader Designer can only create pixel shaders, this means that it's up to your app to ensure that the data that it receives is in the format that it expects. Several programmable shader stages occur before the pixel shader and perform geometric transformations—the vertex shader, the hull shader, the domain shader, and the geometry shader. The non-programmable tessellation stage also occurs before the pixel shader. No matter which of these stages directly precedes the pixel shader, it must give its result in this format:
 
@@ -139,7 +139,7 @@ struct PixelShaderInput
 
 Depending on the Shader Designer nodes that you use in your shader, you might also have to provide additional data in the format according to these definitions:
 
-```
+```hlsl
 Texture2D Texture1 : register( t0 );
 Texture2D Texture2 : register( t1 );
 Texture2D Texture3 : register( t2 );
@@ -202,8 +202,8 @@ cbuffer MiscVars : register(b3)
 
 |Title|Description|
 |-----------|-----------------|
-|[How to: Export a Texture that Contains Mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|Describes how to use the Image Content Pipeline to export a texture that contains precomputed mipmaps.|
-|[How to: Export a Texture that has Premultiplied Alpha](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|Describes how to use the Image Content Pipeline to export a texture that contains premultiplied alpha values.|
-|[How to: Export a Texture for Use with Direct2D or Javascipt Apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|
-|[Working with 3D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Describes the editing tools that Visual Studio provides for creating and manipulating 3D assets, which include textures and images, 3D models, and shaders.|
-|[How to: Export a Shader](../designers/how-to-export-a-shader.md)|Describes how to export a shader from the Shader Designer.|
+|[How to: Export a texture that contains mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|Describes how to use the Image Content Pipeline to export a texture that contains precomputed mipmaps.|
+|[How to: Export a texture that has premultiplied alpha](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|Describes how to use the Image Content Pipeline to export a texture that contains premultiplied alpha values.|
+|[How to: Export a texture for use with Direct2D or Javascipt apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|
+|[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Describes the editing tools that Visual Studio provides for creating and manipulating 3D assets, which include textures and images, 3D models, and shaders.|
+|[How to: Export a shader](../designers/how-to-export-a-shader.md)|Describes how to export a shader from the Shader Designer.|

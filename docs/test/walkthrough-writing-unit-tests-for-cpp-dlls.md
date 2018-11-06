@@ -6,17 +6,17 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: mblome
 manager: douge
-ms.workload: 
+ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
-# How to: Write Unit tests for C++ DLLs
+# How to: Write unit tests for C++ DLLs
 
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:
 
-1.  [Create a Native Test Project](#create_test_project). The test project is located in the same solution as the DLL project.
+1.  [Create a native test project](#create_test_project). The test project is located in the same solution as the DLL project.
 
-2.  [Create a DLL Project](#create_dll_project). This walkthrough creates a new DLL, but the procedure for testing an existing DLL is similar.
+2.  [Create a DLL project](#create_dll_project). This walkthrough creates a new DLL, but the procedure for testing an existing DLL is similar.
 
 3.  [Make the DLL functions visible to the tests](#make_functions_visible).
 
@@ -32,19 +32,19 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ##  <a name="create_test_project"></a> Create a native unit test project
 
-1.  On the **File** menu, choose **New | Project**.
+1.  On the **File** menu, choose **New** > **Project**.
 
-     In the dialog box, expand **Installed | Templates | Visual C++ | Test**.
+     In the dialog box, expand **Installed** > **Templates** > **Visual C++** > **Test**.
 
      Choose the **Native Unit Test Project** template, or whatever installed framework you prefer. If you choose another template such as Google Test or Boost.Test, the basic principles are the same although some details will differ.
 
      In this walkthrough, the test project is named `NativeRooterTest`.
 
-     ![Creating a C++ Unit Test Project](../test/media/utecpp01.png "UteCpp01")
+     ![Creating a C++ Unit Test Project](../test/media/utecpp01.png)
 
 2.  In the new project, inspect **unittest1.cpp**
 
-     ![Test project with TEST&#95;CLASS and TEST&#95;METHOD](../test/media/utecpp2.png "UteCpp2")
+     ![Test project with TEST&#95;CLASS and TEST&#95;METHOD](../test/media/utecpp2.png)
 
      Notice that:
 
@@ -69,15 +69,15 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
          Notice that the `Assert` class provides several static methods that you can use to verify results in test methods.
 
-    2.  On the **Test** menu, choose **Run | All Tests**.
+    2.  On the **Test** menu, choose **Run** > **All Tests**.
 
          The test builds and runs.
 
-         Test Explorer appears.
+         **Test Explorer** appears.
 
          The test appears under **Passed Tests**.
 
-         ![Unit Test Explorer with one passed test](../test/media/utecpp04.png "UteCpp04")
+         ![Unit Test Explorer with one passed test](../test/media/utecpp04.png)
 
 ##  <a name="create_dll_project"></a> Create a DLL project
 
@@ -85,21 +85,21 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
      In this walkthrough, the project is named `RootFinder`.
 
-     ![Creating a C++ Win32 project](../test/media/utecpp05.png "UteCpp05")
+     ![Creating a C++ Win32 project](../test/media/utecpp05.png)
 
 2.  Select **DLL** and **Export Symbols** in the Win32 Application Wizard.
 
      The **Export Symbols** option generates a convenient macro that you can use to declare exported methods.
 
-     ![C++ project wizard set for DLL and Export Symbols](../test/media/utecpp06.png "UteCpp06")
+     ![C++ project wizard set for DLL and Export Symbols](../test/media/utecpp06.png)
 
-3.  Declare an exported function in the principal .h file:
+3.  Declare an exported function in the principal *.h* file:
 
-     ![New DLL code project and .h file with API macros](../test/media/utecpp07.png "UteCpp07")
+     ![New DLL code project and .h file with API macros](../test/media/utecpp07.png)
 
      The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes).
 
-4.  In the principal .cpp file, add a minimal body for the function:
+4.  In the principal *.cpp* file, add a minimal body for the function:
 
     ```cpp
         // Find the square root of a number.
@@ -111,53 +111,53 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ##  <a name="make_functions_visible"></a> Couple the test project to the DLL project
 
-1.  Add the DLL project to the project references of the test project:
+1. Add the DLL project to the project references of the test project:
 
-    1.  Open the properties of the test project and choose **Common Properties**, **Framework and References**.
+   1.  Open the properties of the test project and choose **Common Properties** > **Framework and References**.
 
-         ![C++ project properties | Framework and References](../test/media/utecpp08.png "UteCpp08")
+        ![C++ project properties | Framework and References](../test/media/utecpp08.png)
 
-    2.  Choose **Add New Reference**.
+   2.  Choose **Add New Reference**.
 
-         In the **Add Reference** dialog box, select the DLL project and choose **Add**.
+        In the **Add Reference** dialog box, select the DLL project and choose **Add**.
 
-         ![C++ project properties | Add New Reference](../test/media/utecpp09.png "UteCpp09")
+        ![C++ project properties | Add New Reference](../test/media/utecpp09.png)
 
-2.  In the principal unit test .cpp file, include the .h file of the DLL code:
+2. In the principal unit test *.cpp* file, include the *.h* file of the DLL code:
 
-    ```cpp
-    #include "..\RootFinder\RootFinder.h"
-    ```
+   ```cpp
+   #include "..\RootFinder\RootFinder.h"
+   ```
 
-3.  Add a basic test that uses the exported function:
+3. Add a basic test that uses the exported function:
 
-    ```cpp
-    TEST_METHOD(BasicTest)
-    {
-       CRootFinder rooter;
-       Assert::AreEqual(
-          // Expected value:
-          0.0,
-          // Actual value:
-          rooter.SquareRoot(0.0),
-          // Tolerance:
-          0.01,
-         // Message:
-         L"Basic test failed",
-         // Line number - used if there is no PDB file:
-         LINE_INFO());
-    }
-    ```
+   ```cpp
+   TEST_METHOD(BasicTest)
+   {
+      CRootFinder rooter;
+      Assert::AreEqual(
+         // Expected value:
+         0.0,
+         // Actual value:
+         rooter.SquareRoot(0.0),
+         // Tolerance:
+         0.01,
+        // Message:
+        L"Basic test failed",
+        // Line number - used if there is no PDB file:
+        LINE_INFO());
+   }
+   ```
 
-4.  Build the solution.
+4. Build the solution.
 
-     The new test appears in Test Explorer.
+    The new test appears in **Test Explorer**.
 
-5.  In Test Explorer, choose **Run All**.
+5. In **Test Explorer**, choose **Run All**.
 
-     ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png "UteCpp10")
+    ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png)
 
- You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
+   You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
 
 ##  <a name="iterate"></a> Iteratively augment the tests and make them pass
 
@@ -180,11 +180,11 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     >
     > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
-2.  Build the solution, and then in Test Explorer, choose **Run All**.
+2.  Build the solution, and then in **Test Explorer**, choose **Run All**.
 
      The new test fails.
 
-     ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")
+     ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png)
 
     > [!TIP]
     > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
@@ -208,11 +208,11 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     }
     ```
 
-4.  Build the solution and then in Test Explorer, choose **Run All**.
+4.  Build the solution and then in **Test Explorer**, choose **Run All**.
 
      Both tests pass.
 
-     ![Unit Test Explorer &#45; Range Test passed](../test/media/utecpp12.png "UteCpp12")
+     ![Unit Test Explorer &#45; Range Test passed](../test/media/utecpp12.png)
 
     > [!TIP]
     > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
@@ -256,9 +256,9 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 3.  Open (or double-click) the failed test.
 
-     The failed assertion is highlighted. The failure message is visible in the detail pane of Test Explorer.
+     The failed assertion is highlighted. The failure message is visible in the detail pane of **Test Explorer**.
 
-     ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png "UTE_Cpp_TestExplorer_NegativeRangeTest_Fail")
+     ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png)
 
 4.  To see why the test fails, step through the function:
 
@@ -286,17 +286,17 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 6.  All tests now pass.
 
-     ![All tests pass](../test/media/ute_ult_alltestspass.png "UTE_ULT_AllTestsPass")
+     ![All tests pass](../test/media/ute_ult_alltestspass.png)
 
 > [!TIP]
-> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 
 ##  <a name="refactor"></a> Refactor the code without changing tests
 
 1.  Simplify the central calculation in the SquareRoot function:
 
-    ```
+    ```cpp
     // old code:
     //   result = result - (result*result - v)/(2*result);
     // new code:
@@ -323,8 +323,8 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ## See also
 
-- [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
-- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)
-- [Debugging Native Code](../debugger/debugging-native-code.md)
-- [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
-- [Importing and Exporting](/cpp/build/importing-and-exporting)
+- [Add unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
+- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md)
+- [Debug native code](../debugger/debugging-native-code.md)
+- [Walkthrough: Creating and using a dynamic link library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
+- [Import and export](/cpp/build/importing-and-exporting)

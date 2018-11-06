@@ -14,12 +14,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Text Buffer Events in the Legacy API
+# Text buffer events in the legacy API
 The text buffer object emits several different events that allow you to respond to different situations.  
   
- When you are using the legacy API, you should implement the following interfaces in order to receive notification of changes to the text buffer. Expose the interfaces to the text buffer using the `IConnectionPointContainer` interface on the text buffer to receive notification of line changes from the buffer. For more information, see [How to: Register for Text Buffer Events with the Legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md). In the case of `IVsTextStreamEvents` or `IVsTextLinesEvents` interfaces, changes are returned in either one- or two-dimensional coordinates, respectively.  
+ When you are using the legacy API, you should implement the following interfaces in order to receive notification of changes to the text buffer. Expose the interfaces to the text buffer using the `IConnectionPointContainer` interface on the text buffer to receive notification of line changes from the buffer. For more information, see [How to: Register for text buffer events with the legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md). In the case of `IVsTextStreamEvents` or `IVsTextLinesEvents` interfaces, changes are returned in either one- or two-dimensional coordinates, respectively.  
   
-## Text Buffer Interfaces  
+## Text buffer interfaces  
  Following are the interfaces implemented by the text buffer object.  
   
 |Interface|Description|  
@@ -33,7 +33,7 @@ The text buffer object emits several different events that allow you to respond 
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData>|Provides access to a generic collection of properties. The most important property is the name, or moniker, of the buffer. You can store your own random data in the buffer with this interface by creating a GUID and using it as a key.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer>|Supports connection points for events.|  
   
-## Text Buffer Event Interfaces  
+## Text buffer event interfaces  
  Following are the interfaces for text buffer event notification.  
   
 |Interface|Description|  
@@ -46,6 +46,6 @@ The text buffer object emits several different events that allow you to respond 
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsPreliminaryTextChangeCommitEvents>|Notifies clients of the last commit gesture to trigger the event and provides the range of text changed. The `IVsPreliminaryTextChangeCommitEvents` interface is not fired in response to Undo or Redo commands. Events only fire for buffers that have an undo manager. `IVsPreliminaryTextChangeCommitEvents` is fired prior to other events, such as pretty listing, in order to make sure the other events do not alter the text before the changes are committed. Your VSPackage must monitor either the `IVsPreliminaryTextChangeCommitEvents` interface or the `IVsFinalTextChangeCommitEvents` interface, but not both.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFinalTextChangeCommitEvents>|Notifies clients of the last commit gesture to trigger the event and provides the range of text changed. The `IVsFinalTextChangeCommitEvents` interface is not fired in response to Undo or Redo commands. Events only fire for buffers that have an undo manager. `IVsFinalTextChangeCommitEvents` is intended for use only by language services or other objects that have complete control over editing. Your VSPackage must monitor either the `IVsPreliminaryTextChangeCommitEvents` interface or the `IVsFinalTextChangeCommitEvents` interface, but not both.|  
   
-## See Also  
- [Accessing the Text Buffer by Using the Legacy API](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)   
- [How to: Register for Text Buffer Events with the Legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)
+## See also
+ [Access the text buffer by using the legacy API](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)
+ [How to: Register for text buffer events with the legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)

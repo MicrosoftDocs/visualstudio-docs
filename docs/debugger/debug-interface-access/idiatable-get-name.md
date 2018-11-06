@@ -22,7 +22,7 @@ Retrieves the name of the table.
   
 ```C++  
 HRESULT get_name (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

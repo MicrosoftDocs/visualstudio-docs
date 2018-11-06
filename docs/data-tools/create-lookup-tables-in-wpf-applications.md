@@ -30,7 +30,7 @@ For example, consider a table of `Orders` in a sales database. Each record in th
 
     -   Dataset or Entity Data Model.
 
-    -   WCF Data Service, WCF service or Web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).
+    -   WCF Data Service, WCF service or web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).
 
     -   Objects. For more information, see [Bind to objects in Visual Studio](bind-objects-in-visual-studio.md).
 
@@ -77,7 +77,7 @@ For example, consider a table of `Orders` in a sales database. Each record in th
      Visual Studio sets some properties on the control to configure the lookup binding. The following table lists the properties that Visual Studio modifies. If necessary, you can change these properties in the XAML or in the **Properties** window.
 
     |Property|Explanation of setting|
-    |--------------|----------------------------|
+    |--------------| - |
     |<xref:System.Windows.Controls.ItemsControl.ItemsSource%2A>|This property specifies the collection or binding that is used to get the data that is displayed in the control. Visual Studio sets this property to the <xref:System.Windows.Data.CollectionViewSource> for the parent data you dragged to the control.|
     |<xref:System.Windows.Controls.ItemsControl.DisplayMemberPath%2A>|This property specifies the path of the data item that is displayed in the control. Visual Studio sets this property to the first column or property in the parent data, after the primary key, that has a string data type.<br /><br /> If you want to display a different column or property in the parent data, change this property to the path of a different property.|
     |<xref:System.Windows.Controls.Primitives.Selector.SelectedValue%2A>|Visual Studio binds this property to the column or property of the child data that you dragged to the designer. This is the foreign key to the parent data.|
@@ -87,4 +87,4 @@ For example, consider a table of `Orders` in a sales database. Each record in th
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)
-- [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/display-related-data-in-wpf-applications.md)
+- [Walkthrough: Displaying related data in a WPF application](../data-tools/display-related-data-in-wpf-applications.md)

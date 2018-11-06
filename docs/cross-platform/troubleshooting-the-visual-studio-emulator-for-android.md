@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: f3fb5df4-3aae-40e4-9450-bbe15b0c5af5
-author: mgmclemore
-ms.author: mamcle
+author: conceptdev
+ms.author: crdun
 manager: crdun
 ms.workload: 
   - "multiple"
 ---
-# Troubleshooting the Visual Studio Emulator for Android
+# Troubleshoot the Visual Studio Emulator for Android
 This topic contains information to help you resolve issues that you may experience when you're using the Visual Studio Emulator for Android.  
   
 > [!WARNING]
@@ -51,12 +51,12 @@ This topic contains information to help you resolve issues that you may experien
   
 -   [Emulator does not respond to multi-touch gestures](#Multitouch)  
   
--   [Support Resources](#Support)  
+-   [Support resources](#Support)  
   
 ##  <a name="BeforeYouStart"></a> Before you start  
  Before you begin troubleshooting, it may be useful to review the following topics:  
   
--   [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
+-   [System requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
   
 ##  <a name="NoInstall"></a> Emulator fails to install  
  If you don't have Hyper-V installed, you will see the following message when you try to install the emulator. You must have a machine that supports HyperV and it must be enabled.  
@@ -66,7 +66,7 @@ This topic contains information to help you resolve issues that you may experien
 > [!NOTE]
 >  This message applies both to the Visual Studio Emulator for Android and the Windows Phone Emulator. Windows 8.1 and Windows 10 support the emulator.  
   
- If you see this message, check the [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md) to see whether you can run the emulator.  
+ If you see this message, check the [System requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md) to see whether you can run the emulator.  
   
 ##  <a name="DomainNetwork"></a> Cannot connect to network destinations on a domain or corporate network  
  The Visual Studio Emulator for Android appears on the network as a separate device with its own IP address. It is not joined to a Windows domain and it does not share domain or workgroup credentials with the host computer.  
@@ -88,11 +88,11 @@ This topic contains information to help you resolve issues that you may experien
 ##  <a name="ManualNetworkConfig"></a> Cannot connect to network destinations when network settings require manual configuration  
  To connect to network destinations from the emulator, your network must meet the following requirements:  
   
--   DHCP. The emulator requires DHCP because it configures itself as a separate device on the network with its own IP address.  
+- DHCP. The emulator requires DHCP because it configures itself as a separate device on the network with its own IP address.  
   
--   Automatically configured DNS and gateway settings. It's not possible to configure DNS and gateway settings manually for the emulator.  
+- Automatically configured DNS and gateway settings. It's not possible to configure DNS and gateway settings manually for the emulator.  
   
- If your network requires manually configured settings, check with your IT administrator to determine how you can enable network connectivity for the emulator.  
+  If your network requires manually configured settings, check with your IT administrator to determine how you can enable network connectivity for the emulator.  
   
 ##  <a name="SlowStart"></a> Emulator starts slowly, fails to start due to a timeout, or app deployment fails  
  Under certain conditions, the emulator takes several minutes to start or fails to start due to a timeout. When the emulator fails to start, you see the following message: `App deployment failed. Please try again`. The following conditions can result in this error.  
@@ -128,138 +128,138 @@ This topic contains information to help you resolve issues that you may experien
   
      ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android_emu_v_switch_man.png "Android_Emu_V_Switch_Man")  
   
-     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg -d command](http://windows.microsoft.com/en-us/windows-10/fix-network-connection-issues) (section 6).  
+     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg -d command](http://windows.microsoft.com/windows-10/fix-network-connection-issues) (section 6).  
   
 -   If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.  
   
 ##  <a name="NoStart"></a> Emulator fails to start (first use)  
  If the emulator does not start, go through the following tasks to identify and fix the issue.  
   
--   Make sure that minimum hardware requirements are fulfilled and that BIOS settings are correct.  
+- Make sure that minimum hardware requirements are fulfilled and that BIOS settings are correct.  
   
-     The Emulator and Windows 8 Hyper-V require a 64-bit processor with Second Level Address Translation (SLAT). For Intel, you essentially need a Core i3, i5 or i7 processor (or one of many Xeons). A list of AMD chips is available [here](http://support.amd.com/en-us).  
+   The Emulator and Windows 8 Hyper-V require a 64-bit processor with Second Level Address Translation (SLAT). For Intel, you essentially need a Core i3, i5 or i7 processor (or one of many Xeons). A list of AMD chips is available [here](http://support.amd.com/en-us).  
   
-    1.  Make sure your computer meets the [system requirements](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md).  
+  1. Make sure your computer meets the [system requirements](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md).  
   
-    2.  Verify that the [SLAT tool](https://slatstatuscheck.codeplex.com/) reports that your computer is SLAT capable.  
+  2. Verify that the [SLAT tool](https://slatstatuscheck.codeplex.com/) reports that your computer is SLAT capable.  
   
-    3.  Within the BIOS settings of your computer, make sure that all virtualization technology is enabled. The exact BIOS descriptions may vary for each hardware manufacturer. In general, enable features related to:  
+  3. Within the BIOS settings of your computer, make sure that all virtualization technology is enabled. The exact BIOS descriptions may vary for each hardware manufacturer. In general, enable features related to:  
   
-        -   SLAT (Second Level Address Translation)  
+     -   SLAT (Second Level Address Translation)  
   
-        -   EPT (Extended Page Tables) (Intel)  
+     -   EPT (Extended Page Tables) (Intel)  
   
-        -   NPT (Nested Page Tables) (AMD)  
+     -   NPT (Nested Page Tables) (AMD)  
   
-        -   RVI (Rapid Virtualization Indexing) (AMD)  
+     -   RVI (Rapid Virtualization Indexing) (AMD)  
   
-        -   VMX (an Intel acronym indicating hardware assisted virtualization support)  
+     -   VMX (an Intel acronym indicating hardware assisted virtualization support)  
   
-        -   SVM (an AMD acronym indicating hardware assisted virtualization support)  
+     -   SVM (an AMD acronym indicating hardware assisted virtualization support)  
   
-        -   XD (Execute Disable) (Intel); this must be enabled  
+     -   XD (Execute Disable) (Intel); this must be enabled  
   
-        -   NX (No Execute)(AMD); this must be enabled.  
+     -   NX (No Execute)(AMD); this must be enabled.  
   
-    4.  If the following options are present in the BIOS, disable them.  
+  4. If the following options are present in the BIOS, disable them.  
   
-        -   Disable Intel VT-d  
+     - Disable Intel VT-d  
   
-        -   Disable Trusted Execution  
+     - Disable Trusted Execution  
   
-         For more information, see this article: Technet: Hyper-V: How to Fix BIOS Errors Enabling Hyper-V  
+       For more information, see this article: Technet: Hyper-V: How to Fix BIOS Errors Enabling Hyper-V  
   
-    5.  Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes.  
+  5. Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes.  
   
-    6.  Make sure you are running Windows 8 Professional or better (Windows Server 2008 is not supported). Windows Server 2012 is supported, but you must enable Desktop Experience.  
+  6. Make sure you are running Windows 8 Professional or better (Windows Server 2008 is not supported). Windows Server 2012 is supported, but you must enable Desktop Experience.  
   
-     You can inspect the Event Viewer to see if there are any Hypervisor errors. To do this, open Event Viewer (Start key + R, then type `eventvwr`) and then select **Windows Logs**, **System**. Then filter the log by event source, setting the source to **Hyper-V-Hypervisor**. Check for errors to help identify root cause.  
+     You can inspect the Event Viewer to see if there are any Hypervisor errors. To do this, open Event Viewer (**Start key**+**R**, then type `eventvwr`) and then select **Windows Logs**, **System**. Then filter the log by event source, setting the source to **Hyper-V-Hypervisor**. Check for errors to help identify root cause.  
   
      If your processor meets the minimum requirements but hypervisor is still failing, consider finding out if there is a BIOS upgrade available for your computer. If there is one, and you choose to upgrade, be sure to observe all precautions from the manufacturer when upgrading the BIOS (such as making sure the BIOS firmware upgrade is not interrupted by a power loss, which may permanently corrupt the BIOS).  
   
--   Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes.  
+- Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes.  
   
--   Remove/Disable third party drivers or software that may be interfering with virtual networking.  
+- Remove/Disable third party drivers or software that may be interfering with virtual networking.  
   
-     There are some known issues with some 3rd party products installed under Windows 8 such as networking drivers/protocols that are not fully compatible with the Hyper-V networking stack.  
+   There are some known issues with some 3rd party products installed under Windows 8 such as networking drivers/protocols that are not fully compatible with the Hyper-V networking stack.  
   
-     In general, it will be up to the developers of those products to update their software to be compatible with Windows 8 and Hyper-V.  
+   In general, it will be up to the developers of those products to update their software to be compatible with Windows 8 and Hyper-V.  
   
-     The following products may require upgrading for Windows 8 compliance: VirtualBox, Virtual PC 7, VMWare, some VPN clients, software firewalls, some versions of the Cisco VPN clients, and other virtualization systems. Work with the developer of the questionable virtualization software to encourage them to upgrade the software to make it compatible with Windows 8 and Hyper-V.  
+   The following products may require upgrading for Windows 8 compliance: VirtualBox, Virtual PC 7, VMWare, some VPN clients, software firewalls, some versions of the Cisco VPN clients, and other virtualization systems. Work with the developer of the questionable virtualization software to encourage them to upgrade the software to make it compatible with Windows 8 and Hyper-V.  
   
-     As a **Workaround**, you can disable all third party drivers and applications which may be interfering with the virtual network used by the Emulator to communicate with Visual Studio. These applications may include:  
+   As a *workaround*, you can disable all third party drivers and applications which may be interfering with the virtual network used by the Emulator to communicate with Visual Studio. These applications may include:  
   
-    -   Antivirus applications (which hook into the network stack)  
+  - Antivirus applications (which hook into the network stack)  
   
-    -   Network monitoring tools  
+  - Network monitoring tools  
   
-    -   Network logging tools  
+  - Network logging tools  
   
-    -   Other system monitoring software  
+  - Other system monitoring software  
   
-     Another possible workaround, short of uninstalling the product(s) in question (and requesting the product developer to release an updated version), is to take the following steps.  
+    Another possible workaround, short of uninstalling the product(s) in question (and requesting the product developer to release an updated version), is to take the following steps.  
   
-    1.  Start the Network Connections manager (from the Start screen, type `View Network Connections` and select this option to view the network connections.)  
+  1. Start the Network Connections manager (from the Start screen, type `View Network Connections` and select this option to view the network connections.)  
   
-    2.  For the vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch) adapter, choose **Properties** from the context menu.  
+  2. For the vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch) adapter, choose **Properties** from the context menu.  
   
-         ![Virtual Adapter used by Hyper&#45;V](../cross-platform/media/android_emu_virtual_adapter.png "Android_Emu_Virtual_Adapter")  
+      ![Virtual Adapter used by Hyper&#45;V](../cross-platform/media/android_emu_virtual_adapter.png "Android_Emu_Virtual_Adapter")  
   
-         The adapter properties are shown here.  
+      The adapter properties are shown here.  
   
-         ![Virtual Adapter Properties](../cross-platform/media/android_emu_virtual_adapter_properties.png "Android_Emu_Virtual_Adapter_Properties")  
+      ![Virtual Adapter Properties](../cross-platform/media/android_emu_virtual_adapter_properties.png "Android_Emu_Virtual_Adapter_Properties")  
   
-    3.  For this adapter, the only items that should be selected under **This connection uses the following items** should be the following:  
+  3. For this adapter, the only items that should be selected under **This connection uses the following items** should be the following:  
   
-        -   Client for Microsoft Networks  
+     -   Client for Microsoft Networks  
   
-        -   QoS Packet Scheduler  
+     -   QoS Packet Scheduler  
   
-        -   File and Printer Sharing for Microsoft Networks  
+     -   File and Printer Sharing for Microsoft Networks  
   
-        -   Microsoft LLDP Protocol Driver  
+     -   Microsoft LLDP Protocol Driver  
   
-        -   Link-Layer Topology Discovery Mapper I/O Driver  
+     -   Link-Layer Topology Discovery Mapper I/O Driver  
   
-        -   Link-Layer Topology Discovery Responder  
+     -   Link-Layer Topology Discovery Responder  
   
-        -   Internet Protocol Version 6 (TCP/IPv6)  
+     -   Internet Protocol Version 6 (TCP/IPv6)  
   
-        -   Internet Protocol Version 4 (TCP/IPv4)  
+     -   Internet Protocol Version 4 (TCP/IPv4)  
   
-    4.  Deselect any other items.  
+  4. Deselect any other items.  
   
      The downside to using this technique is that any time a new 3rd party product installs unsupported drivers, or any time the emulator is installed, these steps will need to be repeated.  
   
      After uninstalling third party products you may need to restore the Windows Phone Emulator Internal Switch. To do that:  
   
-    -   Open Hyper V and go into the Virtual Switch Manager. Create a virtual switch named "Windows Phone Emulator Internal Switch" and set its connection type to **Internal network**.  
+  - Open Hyper V and go into the Virtual Switch Manager. Create a virtual switch named "Windows Phone Emulator Internal Switch" and set its connection type to **Internal network**.  
   
-         ![Virtual Switch Manager](../cross-platform/media/android_emu_virtual_switch_manager.png "Android_Emu_Virtual_Switch_Manager")  
+     ![Virtual Switch Manager](../cross-platform/media/android_emu_virtual_switch_manager.png "Android_Emu_Virtual_Switch_Manager")  
   
-     Now launch the emulator. It should work.  
+    Now launch the emulator. It should work.  
   
 ##  <a name="NoBoot"></a> Computer fails to boot after installing the Emulator  
  This problem can occur when the following conditions are true:  
   
--   Your computer has a Gigabyte motherboard.  
+- Your computer has a Gigabyte motherboard.  
   
--   USB3 is enabled on the motherboard.  
+- USB3 is enabled on the motherboard.  
   
- To solve this problem, disable USB3 in the BIOS settings of the motherboard and reboot the computer. Then check whether Gigabyte has released an update for your motherboard's BIOS.  
+  To solve this problem, disable USB3 in the BIOS settings of the motherboard and reboot the computer. Then check whether Gigabyte has released an update for your motherboard's BIOS.  
   
- For more info, see the following Knowledge Base article: [Boot failure after installation of Hyper-V role on Gigabyte systems](https://support.microsoft.com/en-us/kb/2693144).  
+  For more info, see the following Knowledge Base article: [Boot failure after installation of Hyper-V role on Gigabyte systems](https://support.microsoft.com/en-us/kb/2693144).  
   
 ##  <a name="ADB"></a> Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs  
  If the emulator is running, but it does not appear to be connected to ADB (Android Debug Bridge) or it does not appear in Android tools that make use of ADB (for example, Android Studio or Eclipse), you may need to adjust where the emulator looks for ADB. The emulator uses a registry key to identify the base location of your Android SDK, and looks for the \platform-tools\adb.exe file under that directory. To modify the Android SDK path used by the emulator:  
   
--   Open Registry Editor by selecting **Run** from the Start buttons context menu, typing `regedit` in the dialog box, and choosing **OK**.  
+- Open Registry Editor by selecting **Run** from the Start buttons context menu, typing `regedit` in the dialog box, and choosing **OK**.  
   
--   Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Android SDK Tools in the folder tree on the left.  
+- Navigate to *HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Android SDK Tools* in the folder tree on the left.  
   
--   Modify the **Path** registry variable to match the path to your Android SDK.  
+- Modify the **Path** registry variable to match the path to your Android SDK.  
   
- Restart the emulator and you should now be able to see the emulator connected to ADB and associated Android tools.  
+  Restart the emulator and you should now be able to see the emulator connected to ADB and associated Android tools.  
   
 ##  <a name="XamarinPlayer"></a> Emulator hangs because it couldn't set up the UDP port  
  You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to hang or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn't set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.  
@@ -302,7 +302,7 @@ This topic contains information to help you resolve issues that you may experien
 ##  <a name="Multitouch"></a> Emulator does not respond to multi-touch gestures  
  In some cases, the emulator will start and not respond to multi-touch either through direct interaction from your touch-enabled display or using the Multi-Touch Tool on the emulator toolbar. If this is the case, choose the **Rotate** button on the emulator toolbar and attempt to use multi-touch again. If the issue persists, read the [Emulator fails to render OpenGL content](#OpenGL) issue.  
   
-##  <a name="Support"></a> Support Resources  
+##  <a name="Support"></a> Support resources  
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:  
   
 -   Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.  

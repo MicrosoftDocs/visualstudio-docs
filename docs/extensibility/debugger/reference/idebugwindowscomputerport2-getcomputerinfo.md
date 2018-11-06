@@ -22,13 +22,13 @@ Retrieves information about the computer on which the debugger in running.
   
 ```cpp  
 HRESULT GetComputerInfo(  
-   COMPUTER_INFO * pInfo  
+   COMPUTER_INFO * pInfo  
 );  
 ```  
   
 ```csharp  
 public int GetComputerInfo(  
-   out COMPUTER_INFO[] pInfo  
+   out COMPUTER_INFO[] pInfo  
 );  
 ```  
   

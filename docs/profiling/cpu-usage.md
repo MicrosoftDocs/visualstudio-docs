@@ -11,47 +11,46 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Analyze CPU Usage
+# Analyze CPU usage
 When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing Visual C++, Visual C#/Visual Basic, and JavaScript code. Starting in Visual Studio 2015 Update 1, you can see a per-function breakdown of CPU usage without leaving the debugger. You can turn CPU profiling on and off while debugging, and view the results when execution is stopped, for example at a breakpoint.  
   
-You have several options for running and managing your diagnostics session. For example, you can run the **CPU Usage** tool on local or remote machines, or on in a simulator or emulator. You can analyze the performance of an open project in Visual Studio, attached to a running app, or start an app that is installed from the Microsoft Store. For more information, see [Run Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+You have several options for running and managing your diagnostics session. For example, you can run the **CPU Usage** tool on local or remote machines, or on in a simulator or emulator. You can analyze the performance of an open project in Visual Studio, attached to a running app, or start an app that is installed from the Microsoft Store. For more information, see [Run Profiling Tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
 
-Here, we show you how to collect and analyze CPU usage with release builds. To analyze CPU usage while debugging, see [Beginner's Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md). 
+Here, we show you how to collect and analyze CPU usage with release builds. To analyze CPU usage while debugging, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
 
-> [!NOTE]
-> For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
+Windows 7 or later is required to use the profiling tool shown in this article, which is the [Performance Profiler](../profiling/profiling-feature-tour.md).
   
-##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
+##  Collect CPU usage data  
   
-1.  In Visual Studio, set the solution configuration to **Release** and choose the deployment target.  
+1. In Visual Studio, set the solution configuration to **Release** and choose the deployment target.  
   
-     ![Select Release and Local Machine](../profiling/media/cpuuse_selectreleaselocalmachine.png "CPUUSE_SelectReleaseLocalMachine")  
+    ![Select Release and Local Machine](../profiling/media/cpuuse_selectreleaselocalmachine.png "CPUUSE_SelectReleaseLocalMachine")  
   
-    -   Running the app in **Release** mode gives you a better view of the actual performance of your app.  
+   -   Running the app in **Release** mode gives you a better view of the actual performance of your app.  
   
-    -   Running the app on the local machine best replicates the execution of the installed app.  
+   -   Running the app on the local machine best replicates the execution of the installed app.  
   
-    -   If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
+   -   If you are collecting data from a remote device, run the app directly on the device and not by using a Remote Desktop Connection.  
   
-    -   For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
+   -   For Windows Phone apps, collecting data directly from the **Device** provides the most accurate data.  
   
-2.  On the **Debug** menu, choose **Performance Profiler...**.  
+2. On the **Debug** menu, choose **Performance Profiler**.  
   
-3.  Choose **CPU Usage** and then choose **Start**.  
+3. Choose **CPU Usage** and then choose **Start**.  
   
-     ![Choose CPU Usage](../profiling/media/cpuuse_lib_choosecpuusage.png "CPUUSE_LIB_ChooseCpuUsage")  
+    ![Choose CPU Usage](../profiling/media/cpuuse_lib_choosecpuusage.png "CPUUSE_LIB_ChooseCpuUsage")  
   
-4.  When the app starts, click **Get Max Number**. Wait about a second after the output is displayed, then choose **Get Max Number Async**. Waiting between button clicks makes it easier to isolate the button click routines in the diagnostic report.  
+4. When the app starts, click **Get Max Number**. Wait about a second after the output is displayed, then choose **Get Max Number Async**. Waiting between button clicks makes it easier to isolate the button click routines in the diagnostic report.  
   
-5.  After the second output line appears, choose **Stop Collection** in the Performance and Diagnostic hub.  
+5. After the second output line appears, choose **Stop Collection** in the Performance and Diagnostic hub.  
   
- ![Stop CpuUsage data collection](../profiling/media/cpu_use_wt_stopcollection.png "CPU_USE_WT_StopCollection")  
+   ![Stop CpuUsage data collection](../profiling/media/cpu_use_wt_stopcollection.png "CPU_USE_WT_StopCollection")  
   
- The CPU Usage tool analyzes the data and displays the report.  
+   The CPU Usage tool analyzes the data and displays the report.  
   
- ![CpuUsage report](../profiling/media/cpu_use_wt_report.png "CPU_USE_WT_Report")  
+   ![CpuUsage report](../profiling/media/cpu_use_wt_report.png "CPU_USE_WT_Report")  
   
-## Analyze the CPU Usage report  
+## Analyze the CPU usage report  
   
 ###  <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree  
  To get started understanding call tree information, reselect the `GetMaxNumberButton_Click` segment, and look at the call tree details.  
@@ -66,8 +65,8 @@ Here, we show you how to collect and analyze CPU usage with release builds. To a
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|  
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|  
   
-####  <a name="BKMK_External_Code"></a> External Code  
- External code are functions in system and framework components that executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.  
+####  <a name="BKMK_External_Code"></a> External code  
+ External code are functions in system and framework components that are executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.  
   
  When you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.  
   
@@ -88,10 +87,10 @@ Here, we show you how to collect and analyze CPU usage with release builds. To a
 |**Total CPU (%)**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The percentage of the app's CPU activity in the selected time range that was used by calls to the function and the functions called by the function. Note that this is different from the **CPU Utilization** timeline graph, which compares the total activity of the app in a time range to the total available CPU capacity.|  
 |**Self CPU (%)**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The percentage of the app's CPU activity in the selected time range that was used by the calls to the function, excluding the activity of functions called by the function.|  
 |**Total CPU (ms)**|The number of milliseconds spent in calls to the function in the selected time range and the functions that were called by the function.|  
-|**Self CPU (ms)**|The number of milliseconds spent in calls to the function in the selected time range and the functions that were called by the function.|  
+|**Self CPU (ms)**|The number of milliseconds spent in calls to the function in the selected time range and the functions that were called by the function, excluding the activity of functions called by the function.|  
 |**Module**|The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.|  
   
-###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU Usage call tree  
+###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree  
  When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine that includes a list of compiler-generated functions that call operations of the original method asynchronously, and the callbacks, scheduler, and iterators required to execute them correctly. When the original method is called by a parent method, the runtime removes the method from the execution context of the parent, and runs the methods of the hidden class in the context of the system and framework code that control the app's execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code is shown in the CPU Usage call tree as children of the **[External Code]** node immediately below the top node of the tree.  
   
  To see this in our example, re-select the `GetMaxNumberAsyncButton_Click` segment in the timeline.  

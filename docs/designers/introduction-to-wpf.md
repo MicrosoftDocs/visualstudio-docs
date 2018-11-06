@@ -14,15 +14,15 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# Introduction to WPF
+# WPF overview
 
 Windows Presentation Foundation (WPF) lets you create desktop client applications for Windows with visually stunning user experiences.
 
- ![Contoso Healthcare UI sample](../designers/media/wpfintrofigure24.png)
+![Contoso Healthcare UI sample](../designers/media/wpfintrofigure24.png)
 
- The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is included in the .NET Framework, so you can build applications that incorporate other elements of the .NET Framework class library.
+The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is included in the .NET Framework, so you can build applications that incorporate other elements of the .NET Framework class library.
 
- This overview is intended for newcomers and covers the key capabilities and concepts of WPF.
+This overview is intended for newcomers and covers the key capabilities and concepts of WPF.
 
 ## Program with WPF
 
@@ -32,7 +32,7 @@ WPF includes additional programming constructs that enhance properties and event
 
 ## Markup and code-behind
 
-WPF lets you develop an application using both *markup* and *code-behind*, an experience that ASP.NET developers should be familiar with. You generally use XAML markup to implement the appearance of an application while using managed programming languages (code-behind) to implement its behavior. This separation of appearance and behavior has the following benefits:
+WPF lets you develop an application using both *markup* and *code-behind*, an experience with which ASP.NET developers should be familiar. You generally use XAML markup to implement the appearance of an application while using managed programming languages (code-behind) to implement its behavior. This separation of appearance and behavior has the following benefits:
 
 - Development and maintenance costs are reduced because appearance-specific markup is not tightly coupled with behavior-specific code.
 
@@ -42,9 +42,9 @@ WPF lets you develop an application using both *markup* and *code-behind*, an ex
 
 ### Markup
 
-XAML is an XML-based markup language that is used to implement an application's appearance declaratively. It is typically used to create windows, dialog boxes, pages, and user controls, and to fill them with controls, shapes, and graphics.
+XAML is an XML-based markup language that implements an application's appearance declaratively. You typically use it to create windows, dialog boxes, pages, and user controls, and to fill them with controls, shapes, and graphics.
 
- The following example uses XAML to implement the appearance of a window that contains a single button.
+The following example uses XAML to implement the appearance of a window that contains a single button.
 
 ```xaml
 <Window
@@ -58,13 +58,13 @@ XAML is an XML-based markup language that is used to implement an application's 
 </Window>
 ```
 
- Specifically, this XAML defines a window and a button by using the `Window` and `Button` elements, respectively. Each element is configured with attributes, such as the `Window` element's `Title` attribute to specify the window's title-bar text. At run time, WPF converts the elements and attributes that are defined in markup to instances of WPF classes. For example, the `Window` element is converted to an instance of the <xref:System.Windows.Window> class whose <xref:System.Windows.Window.Title%2A> property is the value of the `Title` attribute.
+Specifically, this XAML defines a window and a button by using the `Window` and `Button` elements, respectively. Each element is configured with attributes, such as the `Window` element's `Title` attribute to specify the window's title-bar text. At run time, WPF converts the elements and attributes that are defined in markup to instances of WPF classes. For example, the `Window` element is converted to an instance of the <xref:System.Windows.Window> class whose <xref:System.Windows.Window.Title%2A> property is the value of the `Title` attribute.
 
- The following figure shows the user interface (UI) that is defined by the XAML in the previous example.
+The following figure shows the user interface (UI) that is defined by the XAML in the previous example.
 
- ![A window that contains a button](../designers/media/wpfintrofigure10.png "WPFIntroFigure10")
+![A window that contains a button](../designers/media/wpfintrofigure10.png)
 
- Since XAML is XML-based, the UI that you compose with it is assembled in a hierarchy of nested elements known as an [element tree](/dotnet/framework/wpf/advanced/trees-in-wpf). The element tree provides a logical and intuitive way to create and manage UIs.
+Since XAML is XML-based, the UI that you compose with it is assembled in a hierarchy of nested elements known as an [element tree](/dotnet/framework/wpf/advanced/trees-in-wpf). The element tree provides a logical and intuitive way to create and manage UIs.
 
 ### Code-behind
 
@@ -143,7 +143,7 @@ The following figure shows the result when the button is clicked.
 
 ## Controls
 
-The user experiences that are delivered by the application model are constructed controls. In WPF, "control" is an umbrella term that applies to a category of WPF classes that are hosted in either a window or a page, have a user interface, and implement some behavior.
+The user experiences that are delivered by the application model are constructed controls. In WPF, *control* is an umbrella term that applies to a category of WPF classes that are hosted in either a window or a page, have a user interface, and implement some behavior.
 
 For more information, see [Controls](/dotnet/framework/wpf/controls/index).
 
@@ -177,11 +177,11 @@ The built-in WPF controls are listed here.
 
 - **User Information**: <xref:System.Windows.Controls.AccessText>, <xref:System.Windows.Controls.Label>, <xref:System.Windows.Controls.Primitives.Popup>, <xref:System.Windows.Controls.ProgressBar>, <xref:System.Windows.Controls.Primitives.StatusBar>, <xref:System.Windows.Controls.TextBlock>, and <xref:System.Windows.Controls.ToolTip>.
 
-## Input and Commands
+## Input and commands
 
 Controls most often detect and respond to user input. The [WPF input system](/dotnet/framework/wpf/advanced/input-overview) uses both direct and routed events to support text input, focus management, and mouse positioning.
 
-Applications often have complex input requirements. WPF provides a [command system](/dotnet/framework/wpf/advanced/commanding-overview) that separates user input actions from the code that responds to those actions.
+Applications often have complex input requirements. WPF provides a [command system](/dotnet/framework/wpf/advanced/commanding-overview) that separates user-input actions from the code that responds to those actions.
 
 ## Layout
 
@@ -254,7 +254,7 @@ In this example, the `Person` class is instantiated in code-behind and is set as
 
 The WPF data binding engine provides additional support that includes validation, sorting, filtering, and grouping. Furthermore, data binding supports the use of data templates to create custom user interface for bound data when the user interface displayed by the standard WPF controls is not appropriate.
 
-For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
+For more information, see [Data binding overview](/dotnet/framework/wpf/data/data-binding-overview).
 
 ## Graphics
 
@@ -285,7 +285,7 @@ The following figure shows what is produced by the preceding code.
 
 ![A window with the text "you clicked the ellipse&#33;"](../designers/media/wpfintrofigure12.png)
 
-For more information, see [Shapes and Basic Drawing in WPF Overview](/dotnet/framework/wpf/data/data-binding-overview).
+For more information, see [Shapes and basic drawing in WPF overview](/dotnet/framework/wpf/data/data-binding-overview).
 
 ### 2D geometries
 
@@ -295,33 +295,33 @@ The 2D shapes provided by WPF cover the standard set of basic shapes. However, y
 
 <xref:System.Windows.Media.Geometry> objects can be used for clipping, hit-testing, and rendering 2D graphic data.
 
-![Various uses of a Path](../designers/media/wpfintrofigure5.PNG "WPFIntroFigure5")
+![Various uses of a path](../designers/media/wpfintrofigure5.png)
 
-For more information, see [Geometry Overview](/dotnet/framework/wpf/graphics-multimedia/geometry-overview).
+For more information, see [Geometry overview](/dotnet/framework/wpf/graphics-multimedia/geometry-overview).
 
 ### 2D effects
 
 A subset of WPF 2D capabilities includes visual effects, such as gradients, bitmaps, drawings, painting with videos, rotation, scaling, and skewing. These are all achieved with brushes; the following figure shows some examples.
 
-![Illustration of different brushes](../designers/media/wpfintrofigure6.PNG "WPFIntroFigure6")
+![Illustration of different brushes](../designers/media/wpfintrofigure6.png)
 
-For more information, see [WPF Brushes Overview](/dotnet/framework/wpf/graphics-multimedia/wpf-brushes-overview).
+For more information, see [WPF brushes overview](/dotnet/framework/wpf/graphics-multimedia/wpf-brushes-overview).
 
 ### 3D rendering
 
 WPF also includes 3D rendering capabilities that integrate with 2-d graphics to allow the creation of more exciting and interesting user interfaces. For example, the following figure shows 2D images rendered onto 3D shapes.
 
-![Visual3D sample screen shot](../designers/media/wpfintrofigure13.png "WPFIntroFigure13")
+![Visual3D sample screen shot](../designers/media/wpfintrofigure13.png)
 
-For more information, see [3D Graphics Overview](/dotnet/framework/wpf/graphics-multimedia/3-d-graphics-overview).
+For more information, see [3D graphics overview](/dotnet/framework/wpf/graphics-multimedia/3-d-graphics-overview).
 
 ## Animation
 
 WPF animation support lets you make controls grow, shake, spin, and fade, to create interesting page transitions, and more. You can animate most WPF classes, even custom classes. The following figure shows a simple animation in action.
 
-![Images of an animated cube](../designers/media/wpfintrofigure7.png "WPFIntroFigure7")
+![Images of an animated cube](../designers/media/wpfintrofigure7.png)
 
-For more information, see [Animation Overview](/dotnet/framework/wpf/graphics-multimedia/animation-overview).
+For more information, see [Animation overview](/dotnet/framework/wpf/graphics-multimedia/animation-overview).
 
 ## Media
 
@@ -331,9 +331,9 @@ One way to convey rich content is through the use of audiovisual media. WPF prov
 
 Images are common to most applications, and WPF provides several ways to use them. The following figure shows a user interface with a list box that contains thumbnail images. When a thumbnail is selected, the image is shown full-size.
 
-![Thumbnail images and a full&#45;size image](../designers/media/wpfintrofigure8.PNG "WPFIntroFigure8")
+![Thumbnail images and a full&#45;size image](../designers/media/wpfintrofigure8.png)
 
-For more information, see [Imaging Overview](/dotnet/framework/wpf/graphics-multimedia/imaging-overview).
+For more information, see [Imaging overview](/dotnet/framework/wpf/graphics-multimedia/imaging-overview).
 
 ### Video and audio
 
@@ -343,11 +343,11 @@ The <xref:System.Windows.Controls.MediaElement> control is capable of playing bo
 
 The window in the following figure shows the <xref:System.Windows.Controls.MediaElement> control in action.
 
-![A MediaElement control with audio and video](../designers/media/wpfintrofigure1.png "WPFIntroFigure1")
+![A MediaElement control with audio and video](../designers/media/wpfintrofigure1.png)
 
-For more information, see [Graphics and Multimedia](/dotnet/framework/wpf/graphics-multimedia).
+For more information, see [Graphics and multimedia](/dotnet/framework/wpf/graphics-multimedia).
 
-## Text and Typography
+## Text and typography
 
 To facilitate high-quality text rendering, WPF offers the following features:
 
@@ -369,9 +369,9 @@ For more information, see [Typography in Windows Presentation Foundation](/dotne
 
 ## Customize WPF apps
 
-Up to this point, you've seen the core WPF building blocks for developing applications. You use the application model to host and deliver application content, which consists mainly of controls. To simplify the arrangement of controls in a user interface, and to ensure the arrangement is maintained in the face of changes to window size and display settings, you use the WPF layout system. Because most applications allow users to interact with data, you use data binding to reduce the work of integrating your user interface with data. To enhance the visual appearance of your application, you use the comprehensive range of graphics, animation, and media support provided by WPF.
+Up to this point, you've seen the core WPF building blocks for developing applications. You use the application model to host and deliver application content, which consists mainly of controls. To simplify the arrangement of controls in a user interface, and to ensure the arrangement is maintained in the face of changes to window size and display settings, you use the WPF layout system. Because most applications let users interact with data, you use data binding to reduce the work of integrating your user interface with data. To enhance the visual appearance of your application, you use the comprehensive range of graphics, animation, and media support provided by WPF.
 
-Often, though, the basics are not enough for creating and managing a truly distinct and visually stunning user experience. The standard WPF controls may not integrate with the desired appearance of your application. Data may not be displayed in the most effective way. Your application's overall user experience may not be suited to the default look and feel of Windows themes. In many ways, a presentation technology needs visual extensibility as much as any other type of extensibility.
+Often, though, the basics are not enough for creating and managing a truly distinct and visually stunning user experience. The standard WPF controls might not integrate with the desired appearance of your application. Data might not be displayed in the most effective way. Your application's overall user experience may not be suited to the default look and feel of Windows themes. In many ways, a presentation technology needs visual extensibility as much as any other type of extensibility.
 
 For this reason, WPF provides a variety of mechanisms for creating unique user experiences, including a rich content model for controls, triggers, control and data templates, styles, user interface resources, and themes and skins.
 
@@ -392,7 +392,7 @@ The main purpose of a majority of the WPF controls is to display content. In WPF
 
 The following figure shows the result.
 
-![A TextBox control that contains text](../designers/media/wpfintrofigure21.png "WPFIntroFigure21")
+![A TextBox control that contains text](../designers/media/wpfintrofigure21.png)
 
 Other controls, however, can contain multiple items of different types of content; the content of a <xref:System.Windows.Controls.Button>, specified by the <xref:System.Windows.Controls.ContentControl.Content%2A> property, can contain a variety of items including layout controls, text, images, and shapes. The following example shows a <xref:System.Windows.Controls.Button> with content that includes a <xref:System.Windows.Controls.DockPanel>, a <xref:System.Windows.Controls.Label>, a <xref:System.Windows.Controls.Border>, and a <xref:System.Windows.Controls.MediaElement>.
 
@@ -418,13 +418,13 @@ Other controls, however, can contain multiple items of different types of conten
 
 The following figure shows the content of this button.
 
-![A button that contains multiple types of content](../designers/media/wpfintrofigure22.png "WPFIntroFigure22")
+![A button that contains multiple types of content](../designers/media/wpfintrofigure22.png)
 
-For more information on the kinds of content that is supported by various controls, see [WPF Content Model](/dotnet/framework/wpf/controls/wpf-content-model).
+For more information on the kinds of content that is supported by various controls, see [WPF content model](/dotnet/framework/wpf/controls/wpf-content-model).
 
 ### Triggers
 
-Although the main purpose of XAML markup is to implement an application's appearance, you can also use XAML to implement some aspects of an application's behavior. One example is the use of triggers to change an application's appearance based on user interactions. For more information, see [Styling and Templating](/dotnet/framework/wpf/controls/styling-and-templating).
+Although the main purpose of XAML markup is to implement an application's appearance, you can also use XAML to implement some aspects of an application's behavior. One example is the use of triggers to change an application's appearance based on user interactions. For more information, see [Styling and templating](/dotnet/framework/wpf/controls/styling-and-templating).
 
 ### Control templates
 
@@ -447,7 +447,7 @@ In this example, the default button user interface has been replaced with an <xr
 
 Whereas a control template lets you specify the appearance of a control, a data template lets you specify the appearance of a control's content. Data templates are frequently used to enhance how bound data is displayed. The following figure shows the default appearance for a <xref:System.Windows.Controls.ListBox> that is bound to a collection of `Task` objects, where each task has a name, description, and priority.
 
-![A list box with the default appearance](../designers/media/wpfintrofigure18.png "WPFIntroFigure18")
+![A list box with the default appearance](../designers/media/wpfintrofigure18.png)
 
 The default appearance is what you would expect from a <xref:System.Windows.Controls.ListBox>. However, the default appearance of each task contains only the task name. To show the task name, description, and priority, the default appearance of the <xref:System.Windows.Controls.ListBox> control's bound list items must be changed by using a <xref:System.Windows.DataTemplate>. The following XAML defines such a <xref:System.Windows.DataTemplate>, which is applied to each task by using the <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> attribute.
 
@@ -506,7 +506,7 @@ The following figure shows the effect of this code.
 
 Note that the <xref:System.Windows.Controls.ListBox> has retained its behavior and overall appearance; only the appearance of the content being displayed by the list box has changed.
 
-For more information, see [Data Templating Overview](/dotnet/framework/wpf/data/data-templating-overview).
+For more information, see [Data templating overview](/dotnet/framework/wpf/data/data-templating-overview).
 
 ### Styles
 
@@ -541,7 +541,7 @@ Because this style targets all <xref:System.Windows.Controls.Button> controls, t
 
 ![Two orange buttons](../designers/media/wpfintrofigure20.png)
 
-For more information, see [Styling and Templating](/dotnet/framework/wpf/controls/styling-and-templating).
+For more information, see [Styling and templating](/dotnet/framework/wpf/controls/styling-and-templating).
 
 ### Resources
 
@@ -633,20 +633,20 @@ At this point, however, you can take advantage of one of three WPF models to cre
 
 The following example shows a custom numeric up/down control that derives from <xref:System.Windows.Controls.UserControl>.
 
- [!code-xaml[IntroToWPFSnippets#UserControlMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_33.xaml)]
+[!code-xaml[IntroToWPFSnippets#UserControlMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_33.xaml)]
 
- [!code-csharp[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/CSharp/introduction-to-wpf_34.cs)]
- [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]
+[!code-csharp[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/CSharp/introduction-to-wpf_34.cs)]
+[!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]
 
- The next example illustrates the XAML that is required to incorporate the user control into a <xref:System.Windows.Window>.
+The next example illustrates the XAML that is required to incorporate the user control into a <xref:System.Windows.Window>.
 
- [!code-xaml[IntroToWPFSnippets#UserControlWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_37.xaml)]
+[!code-xaml[IntroToWPFSnippets#UserControlWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_37.xaml)]
 
- The following figure shows the `NumericUpDown` control hosted in a <xref:System.Windows.Window>.
+The following figure shows the `NumericUpDown` control hosted in a <xref:System.Windows.Window>.
 
- ![A custom UserControl](../designers/media/wpfintrofigure3.png "WPFIntroFigure3")
+![A custom UserControl](../designers/media/wpfintrofigure3.png)
 
-For more information on custom controls, see [Control Authoring Overview](/dotnet/framework/wpf/controls/control-authoring-overview).
+For more information on custom controls, see [Control authoring overview](/dotnet/framework/wpf/controls/control-authoring-overview).
 
 ## WPF best practices
 

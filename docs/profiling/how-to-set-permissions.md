@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Set Permissions
+# How to: Set permissions
 
 This article describes how an Administrator of a computer grants the security permissions required for profiling to a user or group that does not have Administrator permissions on that computer.
 
@@ -53,7 +53,7 @@ Members of the Users group can run the profiling tools if an administrator grant
 
      The path of this folder might resemble the following:
 
-    ```
+    ```cmd
     D:\ourProject
     ```
 
@@ -77,13 +77,13 @@ Members of the Users group can run the profiling tools if an administrator grant
 
 2. Change the directory to:
 
-    ```
+    ```cmd
     <drive>:\Program Files\Microsoft Visual Studio 10\Team Tools\Performance Tools
     ```
 
 3. Run the following command:
 
-    ```
+    ```cmd
     vsperfcmd /admin:driver,start /admin:service,start
     ```
 
@@ -95,7 +95,7 @@ Members of the Users group can run the profiling tools if an administrator grant
 
 4. Run the command to allow access to profiling driver functionality by a user or group that does not have administrator access to the computer:
 
-    ```
+    ```cmd
     vsperfcmd /admin:security,allow,<right[,right],<user name|group name>
     ```
 
@@ -109,14 +109,14 @@ Members of the Users group can run the profiling tools if an administrator grant
 
 5. (Optional) To preserve the results of any of the previous steps after computer restarts, run the following command:
 
-    ```
+    ```cmd
     vsperfcmd /admin:driver,autostart,on
     ```
 
- The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.
+   The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
 [VSPerfCmd](../profiling/vsperfcmd.md)  
 [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)

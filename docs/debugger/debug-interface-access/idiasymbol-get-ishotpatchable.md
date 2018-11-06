@@ -22,7 +22,7 @@ Retrieves a flag indicating whether the module was compiled with the [/hotpatch 
   
 ```C++  
 HRESULT get_isHotpatchable(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

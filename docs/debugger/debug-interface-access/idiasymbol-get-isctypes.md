@@ -22,7 +22,7 @@ Retrieves a flag indicating whether the symbol file contains C types.
   
 ```C++  
 HRESULT get_isCTypes(  
-   BOOL *pFlag  
+   BOOL *pFlag  
 );  
 ```  
   

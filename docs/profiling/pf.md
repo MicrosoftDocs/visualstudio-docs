@@ -12,12 +12,12 @@ ms.workload:
   - "multiple"
 ---
 # PF
-The VSPerfCmd.exe **PF** option sets the profiling event that is sampled to page faults, and it optionally changes the number of page faults in a sampling interval from the default of 10.  
+The *VSPerfCmd.exe* **PF** option sets the profiling event that is sampled to page faults, and it optionally changes the number of page faults in a sampling interval from the default of 10.  
   
 > [!NOTE]
->  PF can not be used on 64 bit systems.  
+>  **PF** cannot be used on 64-bit systems.  
   
- **Note PF** is not supported on 64 bit computers.**PF** can only be used in a command line that also contains the **Launch** or the **Attach** option.  
+**PF** can only be used in a command line that also contains the **Launch** or the **Attach** option.  
   
  By default, the sampling event is set to non-halted processor clock cycles and the sampling interval is set to 10,000,000. The **Timer**, **PF**, **Sys**, and **Counter** options enable you to set the sample event and sampling interval. The **GC** option collects .NET memory data at each allocation and garbage collection event. Only one of these options can be specified on a command line.  
   
@@ -25,7 +25,7 @@ The VSPerfCmd.exe **PF** option sets the profiling event that is sampled to page
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]  
 ```  
   
@@ -33,7 +33,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
  `Events`  
  An integer value that specifies the number of page fault events in a sampling interval. If `Events` is not specified, the interval is set to 10.  
   
-## Required Options  
+## Required options  
  **PF** can only be specified on a command line that contains one of the following options.  
   
  **Launch:** `AppName`  
@@ -42,7 +42,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
  **Attach:** `PID`  
  Attaches the profiler to the process specified by AppName.  
   
-## Invalid Options  
+## Invalid options  
  The following options cannot be specified on the same command line as **PF**.  
   
  **Timer**[**:**`Cycles`]  
@@ -60,13 +60,13 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
 ## Example  
  This example demonstrates how to set the profiling sample event to page faults and set the sampling interval to 20 page faults.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /PF:20  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

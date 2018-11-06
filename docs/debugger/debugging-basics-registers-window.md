@@ -23,7 +23,7 @@ ms.workload:
 # About the Registers Window in Visual Studio
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.  
   
- Registers are special locations within a processor (CPU) that are used to store small pieces of data that the processor is actively working on. Compiling or interpreting source code generates instructions that move data from memory into the registers and back again, as needed. Accessing data in registers is very fast compared to accessing data in memory, so code that allows the processor to keep data in a register and access it repeatedly tends to execute faster than code that requires the processor to constantly load and unload registers. To make it easier for the compiler to keep data in registers, and perform other optimizations, you should avoid using global variables and rely on local variables as much as possible. Code written in this fashion is said to have good locality of reference. In some languages, such as C/C++, the programmer can declare a register variable, which tells the compiler to try its best to keep the variable in a register at all times. For more information, see [Register Keyword](http://msdn.microsoft.com/en-us/5b66905a-2f7f-4918-bb55-5e66d4bc50f9).  
+ Registers are special locations within a processor (CPU) that are used to store small pieces of data that the processor is actively working on. Compiling or interpreting source code generates instructions that move data from memory into the registers and back again, as needed. Accessing data in registers is very fast compared to accessing data in memory, so code that allows the processor to keep data in a register and access it repeatedly tends to execute faster than code that requires the processor to constantly load and unload registers. To make it easier for the compiler to keep data in registers, and perform other optimizations, you should avoid using global variables and rely on local variables as much as possible. Code written in this fashion is said to have good locality of reference. In some languages, such as C/C++, the programmer can declare a register variable, which tells the compiler to try its best to keep the variable in a register at all times. For more information, see [Register Keyword](https://msdn.microsoft.com/library/5b66905a-2f7f-4918-bb55-5e66d4bc50f9).  
   
  Registers can be divided into two types: general purpose and special purpose. General-purpose registers hold data for general operations such as adding two numbers together or referencing an element in an array. Special-purpose registers have specific purposes and specialized meaning. A good example is the stack-pointer register, which the processor uses to keep track of the program's call stack. As a programmer, you will probably not manipulate the stack pointer directly. However, it is essential to the proper functioning of your program because without the stack pointer, the processor would not know where to return to at the end of a function call.  
   
@@ -35,13 +35,9 @@ The **Registers** window is available only if address-level debugging is enabled
   
  For more information on displaying the **Registers** window, see [Using the Registers Window](../debugger/how-to-use-the-registers-window.md).  
   
- When you look at the **Registers** window, you will see entries such as this example:  
+ When you look at the **Registers** window, you will see entries such as `EAX = 003110D8`.  
   
-```  
-EAX = 003110D8  
-```  
-  
- The symbol to the left of the = sign is the register name, EAX, in this case. The number to the right of the = sign represents the register contents.  
+ The symbol to the left of the `=` sign is the register name, `EAX`, in this case. The number to the right of the `=` sign represents the register contents.  
   
  The **Registers** window enables you to do more than just view the contents of a register. When you are in break mode in native code, you can click on the contents of a register and edit the value. This is not something you should do at random. Unless you understand the register you are editing, and the data it contains, the result of careless editing is likely to be a program crash or some other undesired consequence. Unfortunately, a detailed explanation of the register sets of the various Intel and Intel-compatible processors goes far beyond the scope of this brief introduction.  
   
@@ -50,4 +46,4 @@ EAX = 003110D8
   
 ## See Also  
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)   
- [Debugger Basics](../debugger/debugger-basics.md)
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)

@@ -22,11 +22,11 @@ To debug mixed native and managed code in a 64-bit process, you must have [!INCL
   
 ### To correct this error  
   
--   Perform one of the following steps:  
+- Perform one of the following steps:  
   
-    -   Upgrade your [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] to version 4.  
+  - Upgrade your [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] to version 4.  
   
-    -   Build a 32-bit version of your application for debugging.  
+  - Build a 32-bit version of your application for debugging.  
   
 ## See Also  
  [Remote Debugging](../debugger/remote-debugging.md)

@@ -22,7 +22,7 @@ Retrieves the age value of a .pdb file.
   
 ```C++  
 HRESULT get_age (   
-   DWORD* pRetVal  
+   DWORD* pRetVal  
 );  
 ```  
   

@@ -1,8 +1,8 @@
 ---
 title: "Tutorial: Azure Functions"
 description: "Using Azure functions in Visual Studio for Mac."
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
@@ -29,22 +29,22 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. Launch **Visual Studio for Mac**.
 
-1. Select **File > New Solution**.
+2. Select **File > New Solution**.
 
-1. From the **Cloud > General** category, select the **Azure Functions** template. You will use C# to create a .NET class library that hosts Azure Functions. Click **Next**.
+3. From the **Cloud > General** category, select the **Azure Functions** template. You will use C# to create a .NET class library that hosts Azure Functions. Click **Next**.
 
     ![azure functions template selection](media/azure-functions-lab-image1.png)
 
-1. Set the **Project Name** to **"AzureFunctionsLab"** and click **Create**.
+4. Set the **Project Name** to **"AzureFunctionsLab"** and click **Create**.
 
     ![naming and creating your azure function project](media/azure-functions-lab-image2.png)
 
-1. Expand the nodes in **Solution Pad**. The default project template includes NuGet references to a variety of Azure WebJobs packages, as well as the Newtonsoft.Json package. 
+5. Expand the nodes in **Solution Pad**. The default project template includes NuGet references to a variety of Azure WebJobs packages, as well as the Newtonsoft.Json package. 
 
-     There are also three files: 
-        - **host.json** for describing the global configuration options for the host 
-        - **local.settings.json** for configuring service settings. 
-        - The project template also creates a default HttpTrigger. For the sake of this lab, you should delete the **HttpTrigger.cs** file from the project.
+     There are also three files:  
+        - **host.json** for describing the global configuration options for the host  
+        - **local.settings.json** for configuring service settings.  
+        - The project template also creates a default HttpTrigger. For the sake of this lab, you should delete the **HttpTrigger.cs** file from the project.  
 
     Open **local.settings.json**. It defaults to having two empty connection string settings.
 

@@ -23,9 +23,9 @@ This is a callback function specified in a call to the [SccSetOption](../extensi
   
 ```cpp  
 typedef void (*OPTNAMECHANGEPFN)(  
-   LPVOID pvCallerData,  
-   LPCSTR pszOldName,  
-   LPCSTR pszNewName  
+   LPVOID pvCallerData,  
+   LPCSTR pszOldName,  
+   LPCSTR pszNewName  
 );  
 ```  
   
@@ -39,7 +39,7 @@ typedef void (*OPTNAMECHANGEPFN)(
  pszNewName  
  [in] The name the file was renamed to.  
   
-## Return Value  
+## Return value  
  None.  
   
 ## Remarks  
@@ -47,6 +47,6 @@ typedef void (*OPTNAMECHANGEPFN)(
   
  If the IDE does not support this callback, it will not call the [SccSetOption](../extensibility/sccsetoption-function.md) to specify it. If the plug-in does not support this callback, it will return `SCC_E_OPNOTSUPPORTED` from the `SccSetOption` function when the IDE attempts to set the callback.  
   
-## See Also  
- [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
+## See also  
+ [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [SccSetOption](../extensibility/sccsetoption-function.md)

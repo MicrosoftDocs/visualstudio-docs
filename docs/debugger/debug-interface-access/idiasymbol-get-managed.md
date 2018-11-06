@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the symbol refers to managed code.
   
 ```C++  
 HRESULT get_managed (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

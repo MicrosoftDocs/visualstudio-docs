@@ -20,25 +20,25 @@ The model for selection to determine what information is displayed in the **Prop
 ## Tracking Selection in the IDE  
  The window frame or site, owned by the IDE, has a service called <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection>. The following steps show how a change in a selection, caused by the user either changing focus to another open window or selecting a different project item in **Solution Explorer**, is implemented to change the content displayed in the **Properties** window.  
   
-1.  The object created by your VSPackage that is sited in the selected window calls <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A> to have <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> invoke <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.  
+1. The object created by your VSPackage that is sited in the selected window calls <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A> to have <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> invoke <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.  
   
-2.  The selection container, provided by the selected window, creates its own <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> object. When the selection changes, the VSPackage calls <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> to notify any listeners in the environment, including the **Properties** window, of the change. It also provides access to hierarchy and item information related to the new selection.  
+2. The selection container, provided by the selected window, creates its own <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> object. When the selection changes, the VSPackage calls <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> to notify any listeners in the environment, including the **Properties** window, of the change. It also provides access to hierarchy and item information related to the new selection.  
   
-3.  Calling <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> and passing it the selected hierarchy items in the `VSHPROPID_BrowseObject` parameter populates the <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> object.  
+3. Calling <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> and passing it the selected hierarchy items in the `VSHPROPID_BrowseObject` parameter populates the <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> object.  
   
-4.  An object derived from the [IDispatch Interface](https://msdn.microsoft.com/library/windows/desktop/ms221608.aspx) is returned for <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> for the item requested, and the environment wraps it into an <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> (see the following step). If the call fails, the environment makes a second call to `IVsHierarchy::GetProperty`, passing it the selection container <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> that the hierarchy item or items supply.  
+4. An object derived from the [IDispatch Interface](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) is returned for <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> for the item requested, and the environment wraps it into an <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> (see the following step). If the call fails, the environment makes a second call to `IVsHierarchy::GetProperty`, passing it the selection container <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> that the hierarchy item or items supply.  
   
-     Your project VSPackage does not create <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> because the environment-supplied window VSPackage that implements it (for example, **Solution Explorer**) constructs <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> on its behalf.  
+    Your project VSPackage does not create <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> because the environment-supplied window VSPackage that implements it (for example, **Solution Explorer**) constructs <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> on its behalf.  
   
-5.  The environment invokes the methods of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> to get the objects based on the `IDispatch` interface to fill in the **Properties** window.  
+5. The environment invokes the methods of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> to get the objects based on the `IDispatch` interface to fill in the **Properties** window.  
   
- When a value in the **Properties** window is changed, VSPackages implement `IVsTrackSelectionEx::OnElementValueChangeEx` and `IVsTrackSelectionEx::OnSelectionChangeEx` to report the change to the element value. The environment then invokes <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> or <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> to keep the information displayed in the **Properties** window synchronized with the property values. For more information, see [Updating Property Values in the Properties Window](#updating-property-values-in-the-properties-window).  
+   When a value in the **Properties** window is changed, VSPackages implement `IVsTrackSelectionEx::OnElementValueChangeEx` and `IVsTrackSelectionEx::OnSelectionChangeEx` to report the change to the element value. The environment then invokes <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> or <xref:Microsoft.VisualStudio.OLE.Interop.IConnectionPointContainer> to keep the information displayed in the **Properties** window synchronized with the property values. For more information, see [Updating Property Values in the Properties Window](#updating-property-values-in-the-properties-window).  
   
- In addition to selecting a different project item in **Solution Explorer** to display properties related to that item, you can also choose a different object from within a form or document window using the drop-down list available on the **Properties** window. For more information, see [Properties Window Object List](../../extensibility/internals/properties-window-object-list.md).  
+   In addition to selecting a different project item in **Solution Explorer** to display properties related to that item, you can also choose a different object from within a form or document window using the drop-down list available on the **Properties** window. For more information, see [Properties Window Object List](../../extensibility/internals/properties-window-object-list.md).  
   
- You can change the way information is displayed in the **Properties** window grid from alphabetical to categorical, and, if available, you can also open a property page for a selected object by clicking the appropriate buttons on the **Properties** window. For more information, see [Properties Window Buttons](../../extensibility/internals/properties-window-buttons.md) and [Property Pages](../../extensibility/internals/property-pages.md).  
+   You can change the way information is displayed in the **Properties** window grid from alphabetical to categorical, and, if available, you can also open a property page for a selected object by clicking the appropriate buttons on the **Properties** window. For more information, see [Properties Window Buttons](../../extensibility/internals/properties-window-buttons.md) and [Property Pages](../../extensibility/internals/property-pages.md).  
   
- Finally, the bottom of the **Properties** window also contains a description of the field selected in the **Properties** window grid. For more information, see [Getting Field Descriptions from the Properties Window](#getting-field-descriptions-from-the-properties-window).  
+   Finally, the bottom of the **Properties** window also contains a description of the field selected in the **Properties** window grid. For more information, see [Getting Field Descriptions from the Properties Window](#getting-field-descriptions-from-the-properties-window).  
   
 ## <a name="updating-property-values-in-the-properties-window"></a> Updating Property Values in the Properties Window
 There are two ways to keep the **Properties** window in sync with property value changes. The first is to call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface, which provides access to basic windowing functionality, including access to and creation of tool and document windows provided by the environment. The following steps describe this synchronization process.  
@@ -75,18 +75,18 @@ At the bottom of the **Properties** window, a description area displays informat
   
 ### To specify localized help strings  
   
-1.  Add the `helpstringdll` attribute to the library statement in the type library (`typelib`).  
+1. Add the `helpstringdll` attribute to the library statement in the type library (`typelib`).  
   
-    > [!NOTE]
-    >  This step is optional if the type library is in an object library (.olb) file.  
+   > [!NOTE]
+   >  This step is optional if the type library is in an object library (.olb) file.  
   
-2.  Specify `helpstringcontext` attributes for the strings. You can also specify `helpstring` attributes.  
+2. Specify `helpstringcontext` attributes for the strings. You can also specify `helpstring` attributes.  
   
-     These attributes are distinct from the `helpfile` and `helpcontext` attributes, which are contained in actual .chm file Help topics.  
+    These attributes are distinct from the `helpfile` and `helpcontext` attributes, which are contained in actual .chm file Help topics.  
   
- To retrieve the description information to be displayed for the highlighted property name, the **Properties** window calls <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2.GetDocumentation2%2A> for the property that is selected, specifying the desired `lcid` attribute for the output string. Internally, <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2> finds the .dll file specified in the `helpstringdll` attribute and calls `DLLGetDocumentation` on that .dll file with the specified context and `lcid` attribute.  
+   To retrieve the description information to be displayed for the highlighted property name, the **Properties** window calls <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2.GetDocumentation2%2A> for the property that is selected, specifying the desired `lcid` attribute for the output string. Internally, <xref:System.Runtime.InteropServices.ComTypes.ITypeInfo2> finds the .dll file specified in the `helpstringdll` attribute and calls `DLLGetDocumentation` on that .dll file with the specified context and `lcid` attribute.  
   
- The signature and implementation of `DLLGetDocumentation` are:  
+   The signature and implementation of `DLLGetDocumentation` are:  
   
 ```cpp  
 STDAPI DLLGetDocumentation  

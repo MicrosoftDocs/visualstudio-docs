@@ -1,20 +1,20 @@
 ---
 title: "Using Visual Studio on an Azure Virtual Machine"
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
-ms.date: 03/03/2018
+ms.date: 09/12/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-helpviewer_keywords: 
-  - "azure services"
-  - "virtual machine; VM"
-  - "installation"
-  - "visual studio"
+helpviewer_keywords:
+  - azure services
+  - virtual machine
+  - installation
+  - visual studio
 author: PhilLee-MSFT
 ms.author: tglee
 manager: douge
-ms.workload: 
-  - "multiple"
+ms.workload:
+  - multiple
 ---
 # <a id="top"> </a> Visual Studio images on Azure
 
@@ -28,9 +28,9 @@ Images for the most recent major versions, Visual Studio 2017 and Visual Studio 
 
 | Release version                                              | Editions                     |     Product version     |
 |:------------------------------------------------------------:|:----------------------------:|:-----------------------:|
-| Visual Studio 2017: Latest (Version 15.7)                    |    Enterprise, Community     |      Version 15.7.0     |
-| Visual Studio 2017: Latest Preview (Version 15.8, Preview 1) |    Enterprise, Community     |      Version 15.8.1     |
-|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.13    |
+| Visual Studio 2017: Latest (Version 15.8)                    |    Enterprise, Community     |      Version 15.8.7     |
+| Visual Studio 2017: Latest Preview (Version 15.9, Preview 5) |    Enterprise, Community     |      Version 15.9       |
+|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.18    |
 |   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01  |
 |         Visual Studio 2015: RTW                              |             None             | (Expired for servicing) |
 
@@ -53,14 +53,14 @@ We use the following command line to install Visual Studio when building the ima
 
 ```shell
     vs_enterprise.exe --allWorkloads --includeRecommended --passive ^
-       add Microsoft.Net.Component.4.7.SDK ^
-       add Microsoft.Net.Component.4.7.TargetingPack ^
-       add Microsoft.Net.Component.4.6.2.SDK ^
-       add Microsoft.Net.Component.4.6.2.TargetingPack ^
-       add Microsoft.Net.ComponentGroup.4.7.DeveloperTools ^
-       add Microsoft.VisualStudio.Component.FSharp ^
-       add Component.GitHub.VisualStudio ^
-       add Microsoft.VisualStudio.Component.LinqToSql
+       --add Microsoft.Net.Component.4.7.SDK ^
+       --add Microsoft.Net.Component.4.7.TargetingPack ^
+       --add Microsoft.Net.Component.4.6.2.SDK ^
+       --add Microsoft.Net.Component.4.6.2.TargetingPack ^
+       --add Microsoft.Net.ComponentGroup.4.7.DeveloperTools ^
+       --add Microsoft.VisualStudio.Component.FSharp ^
+       --add Component.GitHub.VisualStudio ^
+       --add Microsoft.VisualStudio.Component.LinqToSql
 ```
 
 If the images don't include a Visual Studio feature that you require, provide feedback through the feedback tool in the upper-right corner of the page.

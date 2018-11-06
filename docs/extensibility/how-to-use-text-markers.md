@@ -14,12 +14,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Use Text Markers
+# How to: Use text markers
 Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> object.  
   
 ## Procedures  
   
-#### To apply text markers  
+### To apply text markers  
   
 1.  Obtain an instance of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> class.  
   
@@ -33,24 +33,24 @@ Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.I
   
 3.  Use the marker type ID obtained by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> method as a parameter to call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method to apply a text marker to a given region of text.  
   
-#### To add features to text markers  
+### To add features to text markers  
   
-1.  It may be desirable to add additional features to a text marker, such as tool tips, a special context menu, or handler for special circumstances. To do so:  
+1. It may be desirable to add additional features to a text marker, such as tool tips, a special context menu, or handler for special circumstances. To do so:  
   
-2.  Create an object implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
+2. Create an object implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
   
-3.  If additional functionality is desired, implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientEx>, and the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientAdvanced> interfaces on the same object that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
+3. If additional functionality is desired, implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientEx>, and the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClientAdvanced> interfaces on the same object that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
   
-4.  Pass the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface that you create, to the call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method used to apply the text marker to a given region of text.  
+4. Pass the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface that you create, to the call to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method used to apply the text marker to a given region of text.  
   
-5.  When adding context menu support to a text marker region it is necessary to create the menu.  
+5. When adding context menu support to a text marker region it is necessary to create the menu.  
   
-     For more information on how to create a context menu see, [Context Menus](../extensibility/context-menus.md).  
+    For more information on how to create a context menu see, [Context menus](../extensibility/context-menus.md).  
   
-6.  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText%2A> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> method as needed.  
+6. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText%2A> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand%2A> method as needed.  
   
 ## See Also  
- [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
- [How to: Add Standard Text Markers](../extensibility/how-to-add-standard-text-markers.md)   
- [How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)   
- [How to: Implement Error Markers](../extensibility/how-to-implement-error-markers.md)
+ [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   
+ [How to: Add standard text markers](../extensibility/how-to-add-standard-text-markers.md)   
+ [How to: Create custom text markers](../extensibility/how-to-create-custom-text-markers.md)   
+ [How to: Implement error markers](../extensibility/how-to-implement-error-markers.md)

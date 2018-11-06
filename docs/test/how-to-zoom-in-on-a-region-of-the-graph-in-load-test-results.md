@@ -14,34 +14,34 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Zoom in on a Region of the Graph in Load Test Results
+# How to: Zoom in on a region of the graph in load test results
 
 After a load test has finished, you can use zoom bars to zoom in and scroll to a region of the graph. By zooming in, you can examine the data that was generated during a load test run in finer detail.
 
 > [!NOTE]
 > Zoom in is available only when you are analyzing the result of a completed load test, not while you are observing the results of a running test.
 
- The zoom control is visible only in the Load Test Analyzer when you view a load test result in zooming mode. Zooming mode is established in the Graph view when either a load test has completed or a load test that has previously run is loaded. You can show or hide the zoom controls on the graphs by using Show Zoom Controls on the toolbar.
+ The zoom control is visible only in the **Load Test Analyzer** when you view a load test result in zooming mode. Zooming mode is established in the Graph view when either a load test has completed or a load test that has previously run is loaded. You can show or hide the zoom controls on the graphs by using **Show Zoom Controls** on the toolbar.
 
- The horizontal x-axis zoom can be adjusted to analyze specific time periods during the load test. The vertical y-axis zoom can be adjusted to analyze specific value ranges for the counters that are included in the graph.
+ The **horizontal x-axis zoom** can be adjusted to analyze specific time periods during the load test. The **vertical y-axis zoom** can be adjusted to analyze specific value ranges for the counters that are included in the graph.
 
- Both the horizontal timeline and the vertical value range zoom controls can be adjusted by using the mouse. The horizontal timeline control can also be adjusted by using the left and right arrow keys. By using the arrow keys to adjust the zoom control, you can adjust the windows range by 1 sampling interval at a time. Using the SHIFT and arrow keys makes adjustments of 10 sampling intervals.
+ Both the **horizontal timeline** and the **vertical value range** zoom controls can be adjusted by using the mouse. The **horizontal timeline control** can also be adjusted by using the left and right arrow keys. By using the arrow keys to adjust the zoom control, you can adjust the windows range by 1 sampling interval at a time. Using the **Shift** and arrow keys makes adjustments of 10 sampling intervals.
 
- To adjust the zoom control by using the arrow key, first set the focus on the zoom control by using the TAB key. When the left slider has the focus, the arrow keys will move the starting boundary of the zoom window by 1 interval left or right. When the focus is on the center slider, you can use the arrow keys to scroll the zoom window left or right 1 sampling interval without changing the size of the zoom window. And finally, the right side slider moves, extending or reducing the range of the end of the zoom window by 1 sampling interval.
+ To adjust the zoom control by using the arrow key, first set the focus on the zoom control by using the **Tab** key. When the left slider has the focus, the arrow keys will move the starting boundary of the zoom window by 1 interval left or right. When the focus is on the center slider, you can use the arrow keys to scroll the zoom window left or right 1 sampling interval without changing the size of the zoom window. And finally, the right side slider moves, extending or reducing the range of the end of the zoom window by 1 sampling interval.
 
  To return the horizontal and vertical zoom controls to show the full timeline and value ranges, you can use the **Zoom Out Horizontal** option, the **Zoom Out Vertical** option, or the **Zoom Out Both** option in the pop-up menu on the graph.
 
 > [!TIP]
-> You can use **Synchronize Horizontal Zoom Controls** in the toolbar to switch on or off automatic horizontal zoom synchronization. With synchronization on, any zooming you apply to a graph will also be applied to any other graphs on the Graphs View.
+> You can use **Synchronize Horizontal Zoom Controls** in the toolbar to switch on or off automatic horizontal zoom synchronization. With synchronization on, any zooming you apply to a graph will also be applied to any other graphs on the Graphs view.
 
- ![Graph view zoom control](../test/media/ltest_zoomcontrol.png "LTest_ZoomControl")
+ ![Graph view zoom control](../test/media/ltest_zoomcontrol.png)
 Graph View Zoom Control
 
- In the previous illustration, the System under Test graph has been zoomed in to investigate threshold issues. The threshold violations have been enabled by using **Show Threshold Violations On Graph** from the **Graph Options** drop-down in the toolbar.
+ In the previous illustration, the **System under Test** graph has been zoomed in to investigate threshold issues. The threshold violations have been enabled by using **Show Threshold Violations On Graph** from the **Graph Options** drop-down in the toolbar.
 
- For more information, see [Analyze Load Test Results in the Graphs View](../test/analyze-load-test-results-in-the-graphs-view.md).
+ For more information, see [Analyze load test results in the Graphs view](../test/analyze-load-test-results-in-the-graphs-view.md).
 
-## Displaying Graphs
+## Display graphs
  Before you change the display of a graph by zooming in or out or by scrolling, follow this procedure to display graphs.
 
 ### To display graphs
@@ -52,7 +52,7 @@ Graph View Zoom Control
 
      \- or -
 
-     View the details of a previously run load test. For more information, see [How to: Access Load Test Results for Analysis](../test/how-to-access-load-test-results-for-analysis.md).
+     View the details of a previously run load test. For more information, see [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md).
 
 3.  Choose **Graphs** if your graphs are not displayed.
 
@@ -62,18 +62,18 @@ Graph View Zoom Control
 
      Each zoom bar has two handles. A handle is a rectangular area at each end of the zoom bar.
 
-## Zooming and Scrolling
+## Zoom and scroll
  When you have multiple graphs displayed, you can keep them synchronized so that they display the same portion of the load test run.
 
 ### To synchronize zooming and scrolling
 
-1.  On the Load Test Analyzer, choose **Synchronize Horizontal Zoom Controls**.
+1.  On the **Load Test Analyzer**, choose **Synchronize Horizontal Zoom Controls**.
 
-     When the Synchronize Horizontal Zoom Controls button is selected, zooming and scrolling the time scale of an individual graph also zooms and scrolls the time scale of the other graphs.
+     When the **Synchronize Horizontal Zoom Controls** button is selected, zooming and scrolling the time scale of an individual graph also zooms and scrolls the time scale of the other graphs.
 
-2.  Again, choose Synchronize Horizontal Zoom Controls.
+2.  Again, choose **Synchronize Horizontal Zoom Controls**.
 
-     When the Synchronize Horizontal Zoom Controls button is not selected, zooming and scrolling the time scale of an individual graph affects that graph only.
+     When the **Synchronize Horizontal Zoom Controls** button is not selected, zooming and scrolling the time scale of an individual graph affects that graph only.
 
 ### To zoom and scroll to a region of the graph
 
@@ -83,21 +83,21 @@ Graph View Zoom Control
 
 2.  To zoom in on a particular area, slide both handles toward the center of a graph.
 
-     The closer the two handles are to each another, the more you zoom in to display shorter, finer segments of the load test.
+     The closer the two handles are to each other, the more you zoom in to display shorter, finer segments of the load test.
 
      Choose the center section of the zoom bar and then drag it to scroll to a particular point in the load test.
 
 ### To zoom to a region of the graph by choosing and dragging
 
-1.  Choose a graph at one end of the zoom area.
+1. Choose a graph at one end of the zoom area.
 
-2.  Drag the mouse pointer to the other end of the zoom area.
+2. Drag the mouse pointer to the other end of the zoom area.
 
-3.  Release the mouse button.
+3. Release the mouse button.
 
-     This magnifies the area that you defined by choosing and dragging.
+    This magnifies the area that you defined by choosing and dragging.
 
- The following procedure describes how to quickly zoom out without having to adjust the ends of the zoom bar.
+   The following procedure describes how to quickly zoom out without having to adjust the ends of the zoom bar.
 
 ### To zoom out
 
@@ -109,6 +109,6 @@ Graph View Zoom Control
 
 ## See also
 
-- [Analyze Load Test Results in the Graphs View](../test/analyze-load-test-results-in-the-graphs-view.md)
-- [Analyze Load Test Results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
-- [How to: Add and Delete Counters on Graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)
+- [Analyze load test results in the Graphs view](../test/analyze-load-test-results-in-the-graphs-view.md)
+- [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
+- [How to: Add and delete counters on graphs](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)

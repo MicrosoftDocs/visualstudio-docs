@@ -18,17 +18,17 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 ## Frame analysis  
  Frame analysis uses the same information that's captured in a graphics log file for diagnostic purposes, but uses it to summarize rendering performance instead. Performance information is not recorded to the log during capture; instead the performance information is generated later, during frame analysis, by timing events and collecting statistics as the frame is played back. This approach has several advantages over recording performance information during capture:  
   
--   Frame analysis can average results from multiple playbacks of the same frame to ensure that the performance summary is statistically sound.  
+- Frame analysis can average results from multiple playbacks of the same frame to ensure that the performance summary is statistically sound.  
   
--   Frame analysis can generate performance information for hardware configurations and devices other than the one where the information was captured.  
+- Frame analysis can generate performance information for hardware configurations and devices other than the one where the information was captured.  
   
--   Frame analysis can generate new performance summaries from previously captured information — for example, when GPU drivers are optimized or expose additional debugging features.  
+- Frame analysis can generate new performance summaries from previously captured information — for example, when GPU drivers are optimized or expose additional debugging features.  
   
- In addition to these advantages, frame analysis can also make changes to how the frame is rendered during playback so that it can present information about how those changes might impact the rendering performance of an app. You can use this information to decide among potential optimization strategies without having to implement them all and then capture and compare all of the results yourself.  
+  In addition to these advantages, frame analysis can also make changes to how the frame is rendered during playback so that it can present information about how those changes might impact the rendering performance of an app. You can use this information to decide among potential optimization strategies without having to implement them all and then capture and compare all of the results yourself.  
   
- Although frame analysis is primarily intended to help you achieve faster rendering performance, it can equally help you achieve better visual quality for a given performance target or reduce GPU power consumption.  
+  Although frame analysis is primarily intended to help you achieve faster rendering performance, it can equally help you achieve better visual quality for a given performance target or reduce GPU power consumption.  
   
- To see a demonstration of what Frame Analysis can do for your app, you can watch the [Visual Studio Graphics Frame Analysis](http://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-25-Offline-Analysis-Graphics-Tool) video on Channel 9.  
+  To see a demonstration of what Frame Analysis can do for your app, you can watch the [Visual Studio Graphics Frame Analysis](https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-25-Offline-Analysis-Graphics-Tool) video on Channel 9.  
   
 ## Using Frame Analysis  
  Before you can use Frame Analysis, you have to capture graphics information from your app as it runs, just as you would when you use any of the other Graphics Analyzer tools. Then, in the graphics log document (.vsglog) window, choose the **Frame Analysis** tab.  
@@ -42,23 +42,23 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
  Some results directly indicate how the variant affects rendering performance:  
   
--   If the Bilinear Texture Filtering variant showed performance gains, then using bilinear texture filtering in your app will show similar performance gains.  
+- If the Bilinear Texture Filtering variant showed performance gains, then using bilinear texture filtering in your app will show similar performance gains.  
   
--   If the 1x1 Viewport variant showed performance gains, then reducing the size of the render targets in your app will improve its rendering performance.  
+- If the 1x1 Viewport variant showed performance gains, then reducing the size of the render targets in your app will improve its rendering performance.  
   
--   If the BC Texture Compression variant showed performance gains, then using BC texture compression in your app will show similar performance gains.  
+- If the BC Texture Compression variant showed performance gains, then using BC texture compression in your app will show similar performance gains.  
   
--   If the 2xMSAA variant has almost the same performance as the 0xMSAA variant, you can enable 2xMSAA in your app to improve its rendering quality without cost in performance.  
+- If the 2xMSAA variant has almost the same performance as the 0xMSAA variant, you can enable 2xMSAA in your app to improve its rendering quality without cost in performance.  
   
- Other results might suggest deeper, more subtle implications for your app's performance:  
+  Other results might suggest deeper, more subtle implications for your app's performance:  
   
--   If the 1x1 Viewport variant shows very large performance gains, your app is probably consuming more fillrate than is available. If this variant shows no performance gains, the app is probably processing too many vertices.  
+- If the 1x1 Viewport variant shows very large performance gains, your app is probably consuming more fillrate than is available. If this variant shows no performance gains, the app is probably processing too many vertices.  
   
--   If the 16bpp Render Target Format variant shows significant performance gains, your app is probably consuming too much memory bandwidth.  
+- If the 16bpp Render Target Format variant shows significant performance gains, your app is probably consuming too much memory bandwidth.  
   
--   If the Half/Quarter Texture Dimensions variant shows significant performance gains, your textures probably occupy too much memory, consume too much bandwidth, or use the texture cache inefficiently. If this variant shows no change in performance, you can probably use larger, more-detailed textures without paying a performance cost.  
+- If the Half/Quarter Texture Dimensions variant shows significant performance gains, your textures probably occupy too much memory, consume too much bandwidth, or use the texture cache inefficiently. If this variant shows no change in performance, you can probably use larger, more-detailed textures without paying a performance cost.  
   
- When hardware counters are available, you can use them to gather very detailed information about why your app's rendering performance might be suffering. All feature-level 9.2 and higher devices support depth occlusion queries (**pixels occluded** counter) and timestamps. Other hardware counters may be available, depending on whether the GPU manufacturer has implemented hardware counters and exposed them in its driver. You can use these counters to confirm the precise cause of the results shown in the summary table—for example, you can determine whether overdraw is a factor by examining the percentage of pixels that were occluded by the depth test.  
+  When hardware counters are available, you can use them to gather very detailed information about why your app's rendering performance might be suffering. All feature-level 9.2 and higher devices support depth occlusion queries (**pixels occluded** counter) and timestamps. Other hardware counters may be available, depending on whether the GPU manufacturer has implemented hardware counters and exposed them in its driver. You can use these counters to confirm the precise cause of the results shown in the summary table—for example, you can determine whether overdraw is a factor by examining the percentage of pixels that were occluded by the depth test.  
   
 ### Timeline and Summary Table  
  By default, the Timeline and Summary Table are displayed and the other sections are collapsed.  
@@ -73,7 +73,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Table  
  The table of numbers below the timeline shows the relative performance of each rendering variant for each draw call with respect to your app's default rendering. Each column displays a different rendering variant and each row represents a different draw call that's identified in the left-most column; from here you can follow a link to the event in the Graphics Event List window.  
   
- ![The summary table shows different varients.](media/pix_frame_analysis_summary.png "pix_frame_analysis_summary")  
+ ![The summary table shows different variants.](media/pix_frame_analysis_summary.png "pix_frame_analysis_summary")  
   
  The second left-most column in the Summary Table displays your app's baseline rendering time—that is, the length of time it takes for your app's default rendering to complete the draw call. The remaining columns show the relative performance of each rendering variant as a percentage of the Baseline so that it's easier to see whether performance is improved. Percentages larger than 100 percent took longer than the Baseline—that is, performance went down—and percentages smaller than 100 percent took less time—performance went up.  
   
@@ -82,7 +82,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### "Hot" draw calls  
  To bring attention to draw calls that consume a greater proportion of overall rendering time or that might be unusually slow for reasons that could be avoided, the row that contains these "hot" draw calls is shaded red when its own Baseline timing is more than one standard deviation longer than the mean Baseline timing of all draw calls in the frame.  
   
- ![This DrawIndexed call has hot and cold varients.](media/pix_frame_analysis_hot_calls.png "pix_frame_analysis_hot_calls")  
+ ![This DrawIndexed call has hot and cold variants.](media/pix_frame_analysis_hot_calls.png "pix_frame_analysis_hot_calls")  
   
 #### Statistical significance  
  To bring attention to rendering variations that have the highest relevance, Frame Analysis determines the statistical significance of each rendering variant and displays the significant ones as boldface. It displays the ones that improve performance as green and the ones that reduce performance as red. It displays results that are not statistically significant as normal type.  
@@ -97,7 +97,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Platforms that do not support hardware counters  
  Most platforms don't fully support hardware GPU counters—these include all GPUs currently offered by Intel, AMD, and nVidia. When there are no hardware counters to collect, only one Details table is displayed and it contains the mean absolute timing of all variants.  
   
- ![The details table and some playback varients.](media/pix_frame_analysis_details.png "pix_frame_analysis_details")  
+ ![The details table and some playback variants.](media/pix_frame_analysis_details.png "pix_frame_analysis_details")  
   
 #### Platforms that support hardware counters  
  For platforms that support hardware GPU counters—for example, the nVidia T40 SOC and all Qualcomm SOCs—several Details tables are displayed, one for each variant. Every available hardware counter is collected for each rendering variant and displayed in its own Details table.  
@@ -141,9 +141,9 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
  Because no computer GPU currently offered by Intel, AMD, or nVidia supports GPU hardware counters reliably, Frame Analysis doesn't collect counters from them. However, Frame Analysis does collect hardware counters from the following GPU, which reliably supports them:  
   
--   nVidia T40 (Tegra4)
+- nVidia T40 (Tegra4)
   
- No other platform that supports Frame Analysis collects GPU hardware counters.  
+  No other platform that supports Frame Analysis collects GPU hardware counters.  
   
 > [!NOTE]
 >  Because GPU hardware counters are hardware resources, it can take multiple passes to collect the complete set of hardware counters for each rendering variant. As a result, the order in which GPU counters are collected is unspecified.  

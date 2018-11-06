@@ -21,7 +21,7 @@ You can personalize and optimize your development experience in Visual Studio if
 
 When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can synchronize your settings across devices, extend a trial, and automatically connect to an Azure service, to name a few.
 
-Here's a full list of what you can expect and what you can do after you sign in:  
+Here's a full list of what you can expect and what you can do after you sign in:
 
 - **Access to the Visual Studio Dev Essentials program** - This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) for more information.
 
@@ -31,9 +31,9 @@ Here's a full list of what you can expect and what you can do after you sign in:
 
 - **Extend the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.
 
-- **Unlock Visual Studio if you use an account that's associated with an MSDN or Visual Studio Team Services subscription**. See [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
+- **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization**. See [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
 
-- **Automatically connect to services such as Azure and Visual Studio Team Services** in the IDE without prompting again for credentials for the same account.
+- **Automatically connect to services such as Azure and Azure DevOps Services** in the IDE without prompting again for credentials for the same account.
 
 ## How to sign in to Visual Studio
 
@@ -57,9 +57,9 @@ Unless you sign out, you're automatically signed in to Visual Studio whenever yo
 
 ## Troubleshooting
 
-If you encounter any problems while signing in, please see the [Accounts support](https://www.visualstudio.com/subscriptions/support/) page to get help.
+If you encounter any problems while signing in, please see the [Accounts support](https://visualstudio.microsoft.com/subscriptions/support/) page to get help.
 
 ## See also
 
-* [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)  
+* [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
 * [Visual Studio IDE Overview](../ide/visual-studio-ide.md)

@@ -30,20 +30,20 @@ Visual Studio has built-in accessibility features that are compatible with scree
 
 For some folks, some colors are more difficult to see. If you want more contrast as you code but do not want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
 
-  ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png "See the difference between the Blue theme and the Blue Extra Contrast theme")
+  ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png)
 
 ## Use annotations to reveal useful information about your code
 
 The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and then navigate between these adornments.
 
-  ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png "Shows how to set the Show Line Annotations command set")
+  ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png)
 
 ## Access toolbars by using shortcut key combinations
 
 The Visual Studio IDE has toolbars as do many tool windows. The following shortcut key combinations help you access them.
 
 |Feature|Description|Key Combination|
-|-------------|-----------------|---------------------|
+|-------------|-----------------| - |
 |IDE toolbars|Select the first button on the Standard toolbar.|**ALT**, **CTRL** + **TAB**|
 |Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**SHIFT** + **ALT**|
 |Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**CTRL** + **TAB**|
@@ -53,7 +53,7 @@ The Visual Studio IDE has toolbars as do many tool windows. The following shortc
 Some other useful shortcut key combinations include the following.
 
 |Feature|Description|Key Combination|
-|-------------|-----------------|---------------------|
+|-------------|-----------------| - |
 |IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left ALT + Left SHIFT + PRINT SCREEN**|
 |Dialog box|Select or clear the check box option in a dialog box. <br> <br> **NOTE:** Standard Windows shortcut|**SPACEBAR**|
 |Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**SHIFT** + **F10**|
@@ -78,18 +78,18 @@ Here's how.
 
 1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
 
-  ![Search box in Windows 10](media/type-here-to-search.png "Type Sounds in the Search box on a computer running Windows 10")
+   ![Search box in Windows 10](media/type-here-to-search.png)
 
-  (Alternatively, if you have Cortana enabled, say "Hey Cortana", and then say "Change system sounds".)
+   (Alternatively, if you have Cortana enabled, say "Hey Cortana", and then say "Change system sounds".)
 
 2. Double-click **Change system sounds**.
 
-  ![Search results in Windows 10](media/change-system-sounds.png "Double-click Change System Sounds in the Search results")
+   ![Search results in Windows 10](media/change-system-sounds.png)
 
 3. In the **Sound** dialog box, click the **Sounds** tab. <br><br>
- Then, in **Program Events**, scroll to **Microsoft Visual Studio**, and select the sounds that you want to apply to the events that you choose.
+   Then, in **Program Events**, scroll to **Microsoft Visual Studio**, and select the sounds that you want to apply to the events that you choose.
 
-  ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png "Double-click Change System Sounds in the Search results")
+   ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png)
 
 4. Click **OK**.
 

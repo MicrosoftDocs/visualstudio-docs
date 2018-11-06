@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Inserting Text into a Document from an Actions Pane | Microsoft Docs"
+title: "Walkthrough: Insert text into a document from an actions pane"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,16 +19,16 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Inserting Text into a Document from an Actions Pane
+# Walkthrough: Insert text into a document from an actions pane
   This walkthrough demonstrates how to create an actions pane in a Microsoft Office Word document. The actions pane contains two controls that collect input and then send the text to the document.  
   
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]  
   
  This walkthrough illustrates the following tasks:  
   
--   Designing an interface by using Windows Forms controls on an actions pane control.  
+-   Design an interface by using Windows Forms controls on an actions pane control.  
   
--   Displaying the actions pane when the application opens.  
+-   Display the actions pane when the application opens.  
   
 > [!NOTE]  
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
@@ -40,33 +40,33 @@ ms.workload:
   
 -   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].  
   
-## Creating the Project  
+## Create the project  
  The first step is to create a Word Document project.  
   
-#### To create a new project  
+### To create a new project  
   
-1.  Create a Word Document project with the name **My Basic Actions Pane**. In the wizard, select **Create a new document**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Create a Word Document project with the name **My Basic Actions Pane**. In the wizard, select **Create a new document**. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
      Visual Studio opens the new Word document in the designer and adds the **My Basic Actions Pane** project to **Solution Explorer**.  
   
-## Adding Text and Bookmarks to the Document  
+## Add text and bookmarks to the document  
  The actions pane will send text to bookmarks in the document. To design the document, type some text to create a basic form.  
   
-#### To add text to your document  
+### To add text to your document  
   
-1.  Type the following text into your Word document:  
+1. Type the following text into your Word document:  
   
-     **March 21, 2008**  
+    **March 21, 2008**  
   
-     **Name**  
+    **Name**  
   
-     **Address**  
+    **Address**  
   
-     **This is an example of a basic actions pane in Word.**  
+    **This is an example of a basic actions pane in Word.**  
   
- You can add a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document by dragging it from the **Toolbox** in Visual Studio or by using the **Bookmark** dialog box in Word.  
+   You can add a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document by dragging it from the **Toolbox** in Visual Studio or by using the **Bookmark** dialog box in Word.  
   
-#### To add a Bookmark control to your document  
+### To add a Bookmark control to your document  
   
 1.  From the **Word Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document.  
   
@@ -85,10 +85,10 @@ ms.workload:
   
 6.  In the **Bookmark** dialog box, type **showAddress** in the **Bookmark Name** box and click **Add**.  
   
-## Adding Controls to the Actions Pane  
+## Add controls to the actions pane  
  To design the actions pane interface, add an actions pane control to the project and then add Windows Forms controls to the actions pane control.  
   
-#### To add an actions pane control  
+### To add an actions pane control  
   
 1.  Select the **My Basic Actions Pane** project in **Solution Explorer**.  
   
@@ -129,24 +129,24 @@ ms.workload:
     |**Name**|**addText**|  
     |**Text**|**Insert**|  
   
-## Adding Code to Insert Text into the Document  
- In the actions pane, write code that inserts the text from the text boxes into the appropriate <xref:Microsoft.Office.Tools.Word.Bookmark> controls in the document. You can use the `Globals` class to access controls on the document from the controls on the actions pane. For more information, see [Global Access to Objects in Office Projects](../vsto/global-access-to-objects-in-office-projects.md).  
+## Add code to insert text into the document  
+ In the actions pane, write code that inserts the text from the text boxes into the appropriate <xref:Microsoft.Office.Tools.Word.Bookmark> controls in the document. You can use the `Globals` class to access controls on the document from the controls on the actions pane. For more information, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
-#### To insert text from the actions pane in a bookmark in the document  
+### To insert text from the actions pane in a bookmark in the document  
   
 1.  Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the **addText** button.  
   
      [!code-csharp[Trin_VstcoreActionsPaneWord#8](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/InsertTextControl.cs#8)]
      [!code-vb[Trin_VstcoreActionsPaneWord#8](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/InsertTextControl.vb#8)]  
   
-2.  In C#, you must add an event handler for the button click. You can place this code in the `InsertTextControl` constructor after the call to `IntializeComponent`. For information about creating event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+2.  In C#, you must add an event handler for the button click. You can place this code in the `InsertTextControl` constructor after the call to `IntializeComponent`. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
      [!code-csharp[Trin_VstcoreActionsPaneWord#9](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/InsertTextControl.cs#9)]  
   
-## Adding Code to Show the Actions Pane  
+## Add code to show the actions pane  
  To show the actions pane, add the control you created to the control collection.  
   
-#### To show the actions pane  
+### To show the actions pane  
   
 1.  Create a new instance of the actions pane control in the `ThisDocument` class.  
   
@@ -158,29 +158,29 @@ ms.workload:
      [!code-csharp[Trin_VstcoreActionsPaneWord#11](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#11)]
      [!code-vb[Trin_VstcoreActionsPaneWord#11](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#11)]  
   
-## Testing the Application  
+## Test the application  
  Test your document to verify that the actions pane opens when the document is opened and that text typed into the text boxes is inserted into the bookmarks when the button is clicked.  
   
-#### To test your document  
+### To test your document  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  Confirm that the actions pane is visible.  
   
 3.  Type your name and address into the text boxes on the actions pane and click **Insert**.  
   
-## Next Steps  
+## Next steps  
  Here are some tasks that might come next:  
   
--   Creating an actions pane in Excel. For more information, see [How to: Add an Actions Pane to Excel Workbooks](http://msdn.microsoft.com/en-us/62abfce6-e44f-419d-85d8-26bf59f33872).  
+-   Create an actions pane in Excel. For more information, see [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100)).  
   
--   Binding data to controls on an actions pane. For more information, see [Walkthrough: Binding Data to Controls on a Word Actions Pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).  
+-   Bind data to controls on an actions pane. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).  
   
-## See Also  
- [Actions Pane Overview](../vsto/actions-pane-overview.md)   
- [How to: Add an Actions Pane to Word Documents or Excel Workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
- [How to: Add an Actions Pane to Excel Workbooks](http://msdn.microsoft.com/en-us/62abfce6-e44f-419d-85d8-26bf59f33872)   
- [How to: Manage Control Layout on Actions Panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)   
- [Bookmark Control](../vsto/bookmark-control.md)  
+## See also  
+ [Actions pane overview](../vsto/actions-pane-overview.md)   
+ [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
+ [How to: Add an actions pane to Excel workbooks](/previous-versions/visualstudio/visual-studio-2010/e3zbk0hz(v=vs.100))   
+ [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)   
+ [Bookmark control](../vsto/bookmark-control.md)  
   
   

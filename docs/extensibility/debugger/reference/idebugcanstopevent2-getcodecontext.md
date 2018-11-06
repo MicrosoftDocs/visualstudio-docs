@@ -23,13 +23,13 @@ Gets the code context that describes the location of this event.
   
 ```cpp  
 HRESULT GetCodeContext(   
-   IDebugCodeContext2** ppCodeContext  
+   IDebugCodeContext2** ppCodeContext  
 );  
 ```  
   
 ```csharp  
 int GetCodeContext(   
-   out IDebugCodeContext2 ppCodeContext  
+   out IDebugCodeContext2 ppCodeContext  
 );  
 ```  
   

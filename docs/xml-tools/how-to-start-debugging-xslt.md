@@ -12,7 +12,7 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# How to: Start Debugging XSLT
+# How to: Start debugging XSLT
 
 The XSLT debugger can be used to debug an XSLT style sheet or an XSLT application. When debugging, you can execute code one line at a time by stepping into, stepping over, or stepping out of the code. The commands to use the code-stepping functionality are the same for the XSLT debugger as for the other Visual Studio debuggers. Once you start debugging, the XSLT debugger opens windows to show the input document and the XSLT output.
 
@@ -32,7 +32,7 @@ You can start the debugger from the XML Editor. This allows you to debug as you 
 
 1. Select **Debug XSL** from the **XML** menu.
 
-## XSLT from Other Languages
+## XSLT from other languages
 
 You can also step into XSLT while debugging an application. When you press F11 on an <xref:System.Xml.Xsl.XslCompiledTransform.Transform%2A?displayProperty=fullName> call, the debugger can step into the XSLT code.
 
@@ -87,5 +87,5 @@ namespace ConsoleApplication
 
 ## See also
 
-- [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
-- [Debugger basics](../debugger/debugger-basics.md)
+- [Walkthrough: Debug an XSLT style sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
+- [Debugger basics](../debugger/getting-started-with-the-debugger.md)

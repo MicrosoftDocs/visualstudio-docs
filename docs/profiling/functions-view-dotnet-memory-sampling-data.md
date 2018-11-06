@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Functions View - .NET Memory Sampling Data
+# Functions View - .NET memory sampling data
 The Functions view of .NET memory allocation profiling data that was collected by using the sampling method lists the functions that allocated memory during the profiling run and reports the size and number of allocations.  
   
 |Column|Description|  
@@ -35,7 +35,7 @@ The Functions view of .NET memory allocation profiling data that was collected b
 |**Exclusive Bytes**|The number of bytes of memory that were allocated by this function but not by its child functions.|  
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were exclusive bytes of this function.|  
   
-## See Also  
- [Functions View - Instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   
+## See also  
+ [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   
  [Functions View](../profiling/functions-view-sampling-data.md)   
  [Functions View](../profiling/functions-view-instrumentation-data.md)

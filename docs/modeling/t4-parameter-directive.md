@@ -12,7 +12,7 @@ ms.technology: vs-ide-modeling
 ---
 # T4 Parameter Directive
 
-In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.
+In a Visual Studio text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.
 
 ## Using the Parameter Directive
 
@@ -34,11 +34,10 @@ In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template, th
 <# for (int i = 0; i < TimesToRepeat; i++) { #>
 Line <#= i #>
 <# } #>
-
 ```
 
 ## Passing parameter values to a template
- If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension such as a menu command or an event handler, you can process a template by using the text templating service:
+ If you are writing a Visual Studio Extension such as a menu command or an event handler, you can process a template by using the text templating service:
 
 ```csharp
 // Get a service provider - how you do this depends on the context:
@@ -53,7 +52,6 @@ session["TimesToRepeat"] = 5;
 // Process a text template:
 string result = t4.ProcessTemplate("MyTemplateFile.t4",
   System.IO.File.ReadAllText("MyTemplateFile.t4"));
-
 ```
 
 ## Passing values in the Call Context
@@ -78,7 +76,6 @@ string result = t4.ProcessTemplate("",
 
 // Result value is:
 //     Test 32 test
-
 ```
 
 ## Passing values to a Run-Time (Preprocessed) Text Template
@@ -93,7 +90,6 @@ t.Session["TimesToRepeat"] = 5;
 // Add other parameter values to t.Session here.
 t.Initialize(); // Must call this to transfer values.
 string resultText = t.TransformText();
-
 ```
 
 ## Obtaining arguments from TextTemplate.exe

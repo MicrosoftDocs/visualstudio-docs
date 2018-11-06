@@ -21,16 +21,16 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# GetWinFXPath Task
+# GetWinFXPath task
 The <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory of the current [!INCLUDE[TLA#tla_winfx](../msbuild/includes/tlasharptla_winfx_md.md)] runtime.  
   
-## Task Parameters  
+## Task parameters  
   
-|Parameter|Description|  
-|---------------|-----------------|  
-|`WinFXPath`|Optional **String** output parameter.<br /><br /> Specifies the real path to the [!INCLUDE[TLA2#tla_winfx](../msbuild/includes/tla2sharptla_winfx_md.md)] runtime.|  
-|`WinFXNativePath`|Required **String** parameter.<br /><br /> Specifies the path to the native [!INCLUDE[TLA2#tla_titlewinfx](../msbuild/includes/tla2sharptla_titlewinfx_md.md)] runtime.|  
-|`WinFXWowPath`|Required **String** parameter.<br /><br /> Specifies the path to the [!INCLUDE[TLA#tla_winfx](../msbuild/includes/tlasharptla_winfx_md.md)] assemblies in the 32-bit **Windows on Windows** module on 64-bit systems.|  
+| Parameter | Description |
+|-------------------| - |
+| `WinFXPath` | Optional **String** output parameter.<br /><br /> Specifies the real path to the [!INCLUDE[TLA2#tla_winfx](../msbuild/includes/tla2sharptla_winfx_md.md)] runtime. |
+| `WinFXNativePath` | Required **String** parameter.<br /><br /> Specifies the path to the native [!INCLUDE[TLA2#tla_titlewinfx](../msbuild/includes/tla2sharptla_titlewinfx_md.md)] runtime. |
+| `WinFXWowPath` | Required **String** parameter.<br /><br /> Specifies the path to the [!INCLUDE[TLA#tla_winfx](../msbuild/includes/tlasharptla_winfx_md.md)] assemblies in the 32-bit **Windows on Windows** module on 64-bit systems. |
   
 ## Remarks  
  If the <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task is executing on a 64-bit processor, the **WinFXPath** parameter is set to the path that is stored in the **WinFXWowPath** parameter; otherwise, the **WinFXPath** parameter is set to the path that is stored in the **WinFXNativePath** parameter.  
@@ -52,9 +52,9 @@ The <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory
 </Project>  
 ```  
   
-## See Also  
- [WPF MSBuild Reference](../msbuild/wpf-msbuild-reference.md)   
- [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
- [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+## See also  
+ [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)   
+ [Task reference](../msbuild/wpf-msbuild-task-reference.md)   
+ [MSBuild reference](../msbuild/msbuild-reference.md)   
+ [Task reference](../msbuild/msbuild-task-reference.md)   
+ [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)

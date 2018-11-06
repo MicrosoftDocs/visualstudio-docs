@@ -22,7 +22,7 @@ Retrieves a flag that indicates whether the section can be read.
   
 ```C++  
 HRESULT get_read (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

@@ -23,13 +23,13 @@ Returns the initial data for this object.
   
 ```cpp  
 HRESULT GetInitialData(  
-   IEEDataStorage** dataOut  
+   IEEDataStorage** dataOut  
 );  
 ```  
   
 ```csharp  
 int GetInitialData(  
-   out IEEDataStorage dataOut  
+   out IEEDataStorage dataOut  
 );  
 ```  
   

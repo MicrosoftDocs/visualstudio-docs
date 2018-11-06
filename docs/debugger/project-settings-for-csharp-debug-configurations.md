@@ -3,7 +3,7 @@ title: "Project Settings for  C# Debug Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -31,15 +31,15 @@ You can change the project settings for a C# debug configuration in the **Proper
   
 ##  <a name="BKMK_Debug_tab"></a> Debug tab  
   
-|**Setting**|**Description**|  
-|-----------------|---------------------|  
-|**Configuration**|Sets mode for compiling the application. Choose among **Active (Debug)**, **Debug**, **Release**, **All Configurations**.|  
-|**Start Action**|This group of controls specifies the action that will occur when you choose Start from the Debug menu.<br /><br /> -   **Start project** is the default and launches the startup project for debugging. For more information, see [Choosing the Startup Project](http://msdn.microsoft.com/en-us/222e3f32-a6fe-4941-bf37-6b2a921129fd).<br />-   **Start external program** enables you to start and attach to a program that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. For more information, see [Attaching to a Running Program](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4).<br />-   **Start browser in URL** enables you to debug a Web application.|  
-|**Command line arguments**|Specifies command-line arguments for the program to be debugged. The command name is the program name specified in Start external program. If Start Action is set to Start URL, command-line arguments cannot be specified.|  
-|**Working directory**|Specifies the working directory of the program being debugged. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], the working directory is the directory the application is launched from \bin\debug by default.|  
-|**Use remote machine**|The name of a remote machine where the application will run for debugging purposes or an [Msvsmon server name](../debugger/remote-debugging.md). The location of the EXE on the remote machine is specified by the Output Path property in the Configuration Properties folder, Build category. The location must be a shareable directory on the remote machine.|
-|**Enable unmanaged code debugging**|Enables you to debug calls to native (unmanaged) Win32 code from your managed application.|  
-|**Enable SQL Server debugging**|Allows debugging of SQL Server database objects.|  
+| **Setting** | **Description** |
+|-------------------------------------| - |
+| **Configuration** | Sets mode for compiling the application. Choose among **Active (Debug)**, **Debug**, **Release**, **All Configurations**. |
+| **Start Action** | This group of controls specifies the action that will occur when you choose Start from the Debug menu.<br /><br /> -   **Start project** is the default and launches the startup project for debugging. For more information, see [Choosing the Startup Project](/previous-versions/visualstudio/visual-studio-2010/0s590bew(v=vs.100)).<br />-   **Start external program** enables you to start and attach to a program that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. For more information, see [Attaching to a Running Program](/previous-versions/visualstudio/visual-studio-2010/c6wf8e4z(v=vs.100)).<br />-   **Start browser in URL** enables you to debug a Web application. |
+| **Command line arguments** | Specifies command-line arguments for the program to be debugged. The command name is the program name specified in Start external program. If Start Action is set to Start URL, command-line arguments cannot be specified. |
+| **Working directory** | Specifies the working directory of the program being debugged. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], the working directory is the directory the application is launched from \bin\debug by default. |
+| **Use remote machine** | The name of a remote machine where the application will run for debugging purposes or an [Msvsmon server name](../debugger/remote-debugging.md). The location of the EXE on the remote machine is specified by the Output Path property in the Configuration Properties folder, Build category. The location must be a shareable directory on the remote machine. |
+| **Enable unmanaged code debugging** | Enables you to debug calls to native (unmanaged) Win32 code from your managed application. |
+| **Enable SQL Server debugging** | Allows debugging of SQL Server database objects. |
   
 ##  <a name="BKMK_Build_tab"></a> Build tab  
   

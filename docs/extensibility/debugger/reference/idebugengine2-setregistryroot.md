@@ -23,13 +23,13 @@ Sets the registry root for the debug engine (DE).
   
 ```cpp  
 HRESULT SetRegistryRoot(   
-   LPCOLESTR pszRegistryRoot  
+   LPCOLESTR pszRegistryRoot  
 );  
 ```  
   
 ```csharp  
 int SetRegistryRoot(   
-   string pszRegistryRoot  
+   string pszRegistryRoot  
 );  
 ```  
   

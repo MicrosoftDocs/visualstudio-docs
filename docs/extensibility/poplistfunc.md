@@ -26,10 +26,10 @@ This callback is supplied to the [SccPopulateList](../extensibility/sccpopulatel
   
 ```cpp  
 typedef BOOL (*POPLISTFUNC) (  
-   LPVOID pvCallerData,  
-   BOOL fAddRemove,  
-   LONG nStatus,  
-   LPSTR lpFileName  
+   LPVOID pvCallerData,  
+   BOOL fAddRemove,  
+   LONG nStatus,  
+   LPSTR lpFileName  
 );  
 ```  
   
@@ -46,7 +46,7 @@ typedef BOOL (*POPLISTFUNC) (
  lpFileName  
  Full directory path of the file name to add or delete from the list.  
   
-## Return Value  
+## Return value  
   
 |Value|Description|  
 |-----------|-----------------|  
@@ -59,8 +59,8 @@ typedef BOOL (*POPLISTFUNC) (
 > [!NOTE]
 >  The `SCC_CAP_POPULATELIST` capability bit is required for Visual Studio.  
   
-## See Also  
- [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
+## See also  
+ [Callback functions implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
+ [Source control plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccPopulateList](../extensibility/sccpopulatelist-function.md)   
- [File Status Code](../extensibility/file-status-code-enumerator.md)
+ [File status code](../extensibility/file-status-code-enumerator.md)

@@ -22,8 +22,8 @@ Returns a frame by virtual address (VA).
   
 ```C++  
 HRESULT frameByVA(   
-   ULONGLONG       virtualAddress,  
-   IDiaFrameData** frame  
+   ULONGLONG       virtualAddress,  
+   IDiaFrameData** frame  
 );  
 ```  
   

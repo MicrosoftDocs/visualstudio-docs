@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Sdk Element (MSBuild)
+# Sdk element (MSBuild)
 References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project SDK.  
 
  \<Project>  
@@ -29,12 +29,12 @@ References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecm
 
 ## Syntax  
 
-```  
+```xml  
 <Sdk Name="My.Custom.Sdk"
      Version="1.0.0" />  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
@@ -44,15 +44,16 @@ References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecm
 |`Name`|Required attribute.<br /><br /> The name of the project SDK.|  
 |`Version`|Optional attribute.<br /><br /> The version of the project SDK|  
 
-### Child Elements  
+### Child elements  
  None.
 
-### Parent Elements  
- |Element|Description|  
-|-------------|-----------------|  
-|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
+### Parent elements  
 
-## See Also  
- [How to: Reference an MSBuild Project SDK](../msbuild/how-to-use-project-sdk.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
+| Element | Description |
+| - | - |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+
+## See also  
+ [How to: Reference an MSBuild project SDK](../msbuild/how-to-use-project-sdk.md)   
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)   
  [MSBuild](../msbuild/msbuild.md)

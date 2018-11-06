@@ -16,13 +16,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Evaluating a Watch Window Expression
+# Evaluate a watch window expression
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+>  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  When execution pauses, Visual Studio calls the debug engine (DE) to determine the current value of each expression in its watch list. The DE evaluates each expression using an expression evaluator (EE), and Visual Studio displays its value in the **Watch** window.  
   
- Here is an overview of how a watch list expression is evaluated:  
+ Following is an overview of how a watch list expression is evaluated:  
   
 1.  Visual Studio calls the DE's [GetExpressionContext](../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md) to get an expression context that can be used to evaluate expressions.  
   
@@ -38,22 +38,22 @@ ms.workload:
   
 7.  Visual Studio calls [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) to obtain the value of the expression that is then displayed in the watch list.  
   
-## Parse Then Evaluate  
+## Parse then evaluate  
  Since parsing a complex expression can take much longer than evaluating it, the process of evaluating an expression is broken up into two steps: 1) parse the expression and 2) evaluate the parsed expression. This way, evaluation can occur many times but the expression needs to be parsed only once. The intermediate parsed expression is returned from the EE in an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) object that is in turn encapsulated and returned from the DE as an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object. The `IDebugExpression` object defers all evaluation to the `IDebugParsedExpression` object.  
   
 > [!NOTE]
 >  It is not necessary for an EE to adhere to this two-step process even though Visual Studio assumes this; the EE can parse and evaluate in the same step when [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) is called (this is how the MyCEE sample works, for example). If your language can form complex expressions, you may want to separate the parse step from the evaluation step. This can increase performance in the Visual Studio debugger when many watch expressions are being shown.  
   
-## In This Section  
- [Sample Implementation of Expression Evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)  
+## In this section  
+ [Sample implementation of expression evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)  
  Uses the MyCEE sample to step through the process of expression evaluation.  
   
- [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)  
+ [Evaluating a watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)  
  Explains what happens after a successful expression parse.  
   
-## Related Sections  
- [Evaluation Context](../../extensibility/debugger/evaluation-context.md)  
+## Related sections  
+ [Evaluation context](../../extensibility/debugger/evaluation-context.md)  
  Provides the arguments that are passed when the debug engine (DE) calls the expression evaluator (EE).  
   
-## See Also  
- [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+## See also  
+ [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

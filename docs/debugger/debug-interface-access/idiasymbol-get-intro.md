@@ -22,7 +22,7 @@ Retrieves a flag that specifies whether the function is an introducing virtual f
   
 ```C++  
 HRESULT get_intro (   
-   BOOL* pRetVal  
+   BOOL* pRetVal  
 );  
 ```  
   

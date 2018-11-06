@@ -18,8 +18,8 @@ To find out more about a thread listed in [Threads View](../debugger/threads-vie
   
 ### To open a Thread Properties dialog box  
   
-1.  Select a thread from the tree displayed in [Threads View](../debugger/threads-view.md).  
+1. Select a thread from the tree displayed in [Threads View](../debugger/threads-view.md).  
   
-2.  From the **View** menu, choose **Properties**.  
+2. From the **View** menu, choose **Properties**.  
   
- Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
+   Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.

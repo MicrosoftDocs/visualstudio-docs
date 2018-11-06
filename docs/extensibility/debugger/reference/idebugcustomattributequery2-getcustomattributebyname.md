@@ -23,17 +23,17 @@ Obtains the custom attributes bytes given the name of the custom attribute.
   
 ```cpp  
 HRESULT GetCustomAttributeByName(   
-   LPCOLESTR pszCustomAttributeName,  
-   BYTE*     ppBlob,  
-   DWORD*    pdwLen  
+   LPCOLESTR pszCustomAttributeName,  
+   BYTE*     ppBlob,  
+   DWORD*    pdwLen  
 );  
 ```  
   
 ```csharp  
 int GetCustomAttributeByName(  
-   [In] string        pszCustomAttributeName,   
-   [In, Out] byte[]   ppBlob,   
-   [In, Out] ref uint pdwLen  
+   [In] string        pszCustomAttributeName,   
+   [In, Out] byte[]   ppBlob,   
+   [In, Out] ref uint pdwLen  
 );  
 ```  
   

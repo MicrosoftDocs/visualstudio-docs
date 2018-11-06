@@ -26,9 +26,9 @@ This article discusses options and issues in Fakes code generation and compilati
 
 ### Configure code generation of stubs
 
-The generation of stub types is configured in an XML file that has the .fakes file extension. The Fakes framework integrates in the build process through custom MSBuild tasks and detects those files at build time. The Fakes code generator compiles the stub types into an assembly and adds the reference to the project.
+The generation of stub types is configured in an XML file that has the *.fakes* file extension. The Fakes framework integrates in the build process through custom MSBuild tasks and detects those files at build time. The Fakes code generator compiles the stub types into an assembly and adds the reference to the project.
 
-The following example illustrates stub types defined in FileSystem.dll:
+The following example illustrates stub types defined in *FileSystem.dll*:
 
 ```xml
 <Fakes xmlns="http://schemas.microsoft.com/fakes/2011/">
@@ -38,9 +38,9 @@ The following example illustrates stub types defined in FileSystem.dll:
 
 ### Type filtering
 
-Filters can be set in the .fakes file to restrict which types should be stubbed. You can add an unbounded number of Clear, Add, Remove elements under the StubGeneration element to build the list of selected types.
+Filters can be set in the *.fakes* file to restrict which types should be stubbed. You can add an unbounded number of Clear, Add, Remove elements under the StubGeneration element to build the list of selected types.
 
-For example, the following .fakes file generates stubs for types under the System and System.IO namespaces, but excludes any type containing "Handle" in System:
+For example, the following *.fakes* file generates stubs for types under the System and System.IO namespaces, but excludes any type containing "Handle" in System:
 
 ```xml
 <Fakes xmlns="http://schemas.microsoft.com/fakes/2011/">
@@ -80,7 +80,7 @@ The filter strings use a simple grammar to define how the matching should be don
 
 ### Stub concrete classes and virtual methods
 
-By default, stub types are generated for all non-sealed classes. It is possible to restrict the stub types to abstract classes through the .fakes configuration file:
+By default, stub types are generated for all non-sealed classes. It is possible to restrict the stub types to abstract classes through the *.fakes* configuration file:
 
 ```xml
 <Fakes xmlns="http://schemas.microsoft.com/fakes/2011/">
@@ -122,7 +122,7 @@ The Fakes code generator generates shim types and stub types for types that are 
         PublicKey=<Test_assembly_public_key>)]
     ```
 
-If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Strong-Named Assemblies](/dotnet/framework/app-domains/strong-named-assemblies).
+If the shimmed assembly is strongly named, the Fakes framework automatically strongly signs the generated Fakes assembly. You have to strong sign the test assembly. See [Strong-Named assemblies](/dotnet/framework/app-domains/strong-named-assemblies).
 
 The Fakes framework uses the same key to sign all generated assemblies, so you can use this snippet as a starting point to add the **InternalsVisibleTo** attribute for the fakes assembly to your shimmed assembly code.
 
@@ -130,7 +130,7 @@ The Fakes framework uses the same key to sign all generated assemblies, so you c
 [assembly: InternalsVisibleTo("FileSystem.Fakes, PublicKey=0024000004800000940000000602000000240000525341310004000001000100e92decb949446f688ab9f6973436c535bf50acd1fd580495aae3f875aa4e4f663ca77908c63b7f0996977cb98fcfdb35e05aa2c842002703cad835473caac5ef14107e3a7fae01120a96558785f48319f66daabc862872b2c53f5ac11fa335c0165e202b4c011334c7bc8f4c4e570cf255190f4e3e2cbc9137ca57cb687947bc")]
 ```
 
-You can specify a different public key for the Fakes assembly, such as a key you have created for the shimmed assembly, by specifying the full path to the **.snk** file that contains the alternate key as the `KeyFile` attribute value in the `Fakes`\\`Compilation` element of the **.fakes** file. For example:
+You can specify a different public key for the Fakes assembly, such as a key you have created for the shimmed assembly, by specifying the full path to the *.snk* file that contains the alternate key as the `KeyFile` attribute value in the `Fakes`\\`Compilation` element of the *.fakes* file. For example:
 
 ```xml
 <-- FileSystem.Fakes.fakes -->
@@ -139,7 +139,7 @@ You can specify a different public key for the Fakes assembly, such as a key you
 </Fakes>
 ```
 
-You then have to use the public key of the alternate **.snk** file as the second parameter of the InternalVisibleTo attribute for the Fakes assembly in the shimmed assembly code:
+You then have to use the public key of the alternate *.snk* file as the second parameter of the InternalVisibleTo attribute for the Fakes assembly in the shimmed assembly code:
 
 ```csharp
 // FileSystem\AssemblyInfo.cs
@@ -157,11 +157,11 @@ The compilation of Fakes assemblies can significantly increase your build time. 
 
 From your unit test projects, add a reference to the compiled Fakes assemblies that are placed under FakesAssemblies in the project folder.
 
-1.  Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.
+1.  Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the *class1.cs* file from the project, not needed.
 
 2.  Add reference to all the System and third-party assemblies you need Fakes for.
 
-3.  Add a .fakes file for each of the assemblies and build.
+3.  Add a *.fakes* file for each of the assemblies and build.
 
 4.  From your test project
 
@@ -169,17 +169,17 @@ From your unit test projects, add a reference to the compiled Fakes assemblies t
 
          *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll*
 
-    -   For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the Fakes.Prebuild\FakesAssemblies folder of your project.
+    -   For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the *Fakes.Prebuild\FakesAssemblies* folder of your project.
 
 ### Avoid assembly name clashing
 
-In a Team Build environment, all build outputs are merged into a single directory. If multiple projects use Fakes, it might happen that Fakes assemblies from different versions override each other. For example, TestProject1 fakes mscorlib.dll from the .NET Framework 2.0 and TestProject2 fakes mscorlib.dll for the .NET Framework 4 would both yield to a mscorlib.Fakes.dll Fakes assembly.
+In a Team Build environment, all build outputs are merged into a single directory. If multiple projects use Fakes, it might happen that Fakes assemblies from different versions override each other. For example, TestProject1 fakes *mscorlib.dll* from the .NET Framework 2.0 and TestProject2 fakes *mscorlib.dll* for the .NET Framework 4 would both yield to a *mscorlib.Fakes.dll* Fakes assembly.
 
- To avoid this issue, Fakes should automatically create version qualified Fakes assembly names for non-project references when adding the .fakes files. A version-qualified Fakes assembly name embeds a version number when you create the Fakes assembly name:
+ To avoid this issue, Fakes should automatically create version qualified Fakes assembly names for non-project references when adding the *.fakes* files. A version-qualified Fakes assembly name embeds a version number when you create the Fakes assembly name:
 
  Given an assembly MyAssembly and a version 1.2.3.4, the Fakes assembly name is MyAssembly.1.2.3.4.Fakes.
 
- You can change or remove this version by the editing the Version attribute of the Assembly element in the .fakes:
+ You can change or remove this version by the editing the Version attribute of the Assembly element in the *.fakes*:
 
 ```xml
 attribute of the Assembly element in the .fakes:
@@ -195,42 +195,42 @@ attribute of the Assembly element in the .fakes:
 
  **Namespaces**
 
--   .Fakes suffix is added to the namespace.
+- .Fakes suffix is added to the namespace.
 
-     For example, `System.Fakes` namespace contains the shim types of System namespace.
+   For example, `System.Fakes` namespace contains the shim types of System namespace.
 
--   Global.Fakes contains the shim type of the empty namespace.
+- Global.Fakes contains the shim type of the empty namespace.
 
- **Type names**
+  **Type names**
 
--   Shim prefix is added to the type name to build the shim type name.
+- Shim prefix is added to the type name to build the shim type name.
 
-     For example, ShimExample is the shim type of the Example type.
+   For example, ShimExample is the shim type of the Example type.
 
--   Stub prefix is added to the type name to build the stub type name.
+- Stub prefix is added to the type name to build the stub type name.
 
-     For example, StubIExample is the stub type of the IExample type.
+   For example, StubIExample is the stub type of the IExample type.
 
- **Type Arguments and Nested Type Structures**
+  **Type Arguments and Nested Type Structures**
 
--   Generic type arguments are copied.
+- Generic type arguments are copied.
 
--   Nested type structure is copied for shim types.
+- Nested type structure is copied for shim types.
 
 ### Shim delegate property or stub delegate field naming conventions
 
 **Basic rules** for field naming, starting from an empty name:
 
--   The method name is appended.
+- The method name is appended.
 
--   If the method name is an explicit interface implementation, the dots are removed.
+- If the method name is an explicit interface implementation, the dots are removed.
 
--   If the method is generic, `Of`*n* is appended where *n* is the number of generic method arguments.
+- If the method is generic, `Of`*n* is appended where *n* is the number of generic method arguments.
 
- **Special method names** such as property getter or setters are treated as described in the following table:
+  **Special method names** such as property getter or setters are treated as described in the following table:
 
 |If method is...|Example|Method name appended|
-|-------------------|-------------|--------------------------|
+|-|-|-|
 |A **constructor**|`.ctor`|`Constructor`|
 |A static **constructor**|`.cctor`|`StaticConstructor`|
 |An **accessor** with method name composed of two parts separated by "_" (such as property getters)|*kind_name* (common case, but not enforced by ECMA)|*NameKind*, where both parts have been capitalized and swapped|
@@ -250,7 +250,7 @@ attribute of the Assembly element in the .fakes:
 ### Parameter type naming conventions
 
 |Given|Appended string is...|
-|-----------|-------------------------|
+|-|-|
 |A **type**`T`|T<br /><br /> The namespace, nested structure, and generic tics are dropped.|
 |An **out parameter**`out T`|`TOut`|
 |A **ref parameter** `ref T`|`TRef`|
@@ -272,4 +272,4 @@ The following rules are applied recursively:
 
 ## See also
 
-- [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
+- [Isolating code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

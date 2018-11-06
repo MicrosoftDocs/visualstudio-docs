@@ -24,7 +24,7 @@ Binds this pending breakpoint to one or more code locations.
   
 ```cpp  
 HRESULT Bind(   
-   void   
+   void   
 );  
 ```  
   

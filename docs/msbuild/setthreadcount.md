@@ -23,7 +23,7 @@ Sets the global thread count, and assigns that count to the current thread.
   
 ## Syntax  
   
-```  
+```cmd  
 HRESULT WINAPI SetThreadCount(int threadCount);  
 ```  
   
@@ -31,8 +31,8 @@ HRESULT WINAPI SetThreadCount(int threadCount);
  [in] `threadCount`  
  The number of threads to use.  
   
-## Return Value  
+## Return value  
  An **HRESULT** with the **SUCCEEDED** bit set if the thread count was updated.  
   
 ## Requirements  
- **Header:** FileTracker.h
+ **Header:** *FileTracker.h*

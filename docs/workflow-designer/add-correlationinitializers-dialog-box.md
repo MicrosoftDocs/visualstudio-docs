@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Add CorrelationInitializers Dialog Box
 
-The **Add Correlation Initializers** dialog box is used in Windows Workflow Designer to configure the **CorrelationInitializers** properties of the <xref:System.ServiceModel.Activities.Send>, <xref:System.ServiceModel.Activities.Receive>, <xref:System.ServiceModel.Activities.SendReply>, and <xref:System.ServiceModel.Activities.ReceiveReply> activities. For more information about the activity designers that use this box, see the [Send](../workflow-designer/send-activity-designer.md), [Receive](../workflow-designer/receive-activity-designer.md), [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md), and [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topics.
+The **Add Correlation Initializers** dialog box is used in Workflow Designer to configure the **CorrelationInitializers** properties of the <xref:System.ServiceModel.Activities.Send>, <xref:System.ServiceModel.Activities.Receive>, <xref:System.ServiceModel.Activities.SendReply>, and <xref:System.ServiceModel.Activities.ReceiveReply> activities. For more information about the activity designers that use this box, see the [Send](../workflow-designer/send-activity-designer.md), [Receive](../workflow-designer/receive-activity-designer.md), [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md), and [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topics.
 
 The correlation initializers in the collection specified with this dialog box can initialize the following correlations between the messaging activities:
 
@@ -27,7 +27,7 @@ The correlation initializers in the collection specified with this dialog box ca
 The following table describes the user interface (UI) elements of the **Add Correlation Initializers** dialog box:
 
 |UI Element|Description|
-|----------------|-----------------|
+|-|-----------------|
 |**Add Initializer**|Click the **Add initialize** box to add an additional initializer to the collection.|
 |**Correlation Type**|Specifies the type of correlation initializer. There are four types to choose from:<br /><br /> 1. A callback correlation initializer to specify a <xref:System.ServiceModel.Activities.CallbackCorrelationInitializer>.<br />2. A context correlation initializer to specify a <xref:System.ServiceModel.Activities.CorrelationInitializer>.<br />3. A request-reply correlation initializer to specify a <xref:System.ServiceModel.Activities.RequestReplyCorrelationInitializer>.<br />4. A query correlation initializer to specify a <xref:System.ServiceModel.Activities.QueryCorrelationInitializer>.<br /><br /> To edit the **CorrelationType**<br /><br /> 1. Tab to the specific row in the **Add Initializer** DataGrid.<br />2. To set focus to **CorrelationTypeComboBox**, press **Ctrl**+**Tab**.<br />3. Press Alt+Down to pop up the **ComboBox** and edit it.|
 |**XPath Queries**|A key/value pair that contains the queries used to extract correlation data from incoming and outgoing messages. This list is only valid when using <xref:System.ServiceModel.Activities.QueryCorrelationInitializer> types.|

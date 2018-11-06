@@ -24,7 +24,7 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
   
  When you debug on a high-performance cluster, you can use all the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging windows and techniques that are available for remote debugging. Because you are debugging remotely, however, the external console window is not available.  
   
- The **Threads** window and **Processes** window are especially useful for debugging parallel applications. For tips on how to use these windows, see [How to: Use the Processes Window](http://msdn.microsoft.com/en-us/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7) and [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).  
+ The **Threads** window and **Processes** window are especially useful for debugging parallel applications. For tips on how to use these windows, see [How to: Use the Processes Window](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100)) and [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).  
   
  The following procedures show some techniques that are especially useful for debugging on a high-performance cluster.  
   
@@ -89,14 +89,13 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 ## Example  
  The following example shows how to create a filter for a breakpoint on a computer named `marvin` and a thread named `fourier1`.  
   
-```  
-(MachineName = marvin) & (ThreadName = fourier1)  
-```  
+`(MachineName = marvin) & (ThreadName = fourier1)`  
+
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [Remote Debugging](../debugger/remote-debugging.md)   
- [How to: Use the Processes Window](http://msdn.microsoft.com/en-us/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7)   
+ [How to: Use the Processes Window](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100))   
  [Get Started Debugging Multithreaded Apps](../debugger/get-started-debugging-multithreaded-apps.md)   
- [Threads and Processes](http://msdn.microsoft.com/en-us/73d87480-9af3-4d1b-baf5-397d5d876ae6)   
+ [Threads and Processes](/previous-versions/visualstudio/visual-studio-2010/ms164740(v=vs.100))   
  [Using Breakpoints](../debugger/using-breakpoints.md)

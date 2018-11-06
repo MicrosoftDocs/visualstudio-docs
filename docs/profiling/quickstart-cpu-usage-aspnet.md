@@ -2,7 +2,7 @@
 title: "Analyze CPU usage data (ASP.NET)"
 description: "Measure app performance in ASP.NET apps using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
-ms.date: "12/05/2017"
+ms.date: "08/06/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
@@ -18,19 +18,17 @@ ms.workload:
 
 Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at a tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
-The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/Profiling-Tools.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
+The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
 
-> [!NOTE]
-> For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
+Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). On Windows 7 and later, you can use the post-mortem tool, the [Performance Profiler](../profiling/profiling-feature-tour.md).
 
 ## Create a project
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Web Application (.NET Framework)**.
 
-    > [!NOTE]
-    > The CPU Usage tool is not currently supported in ASP.NET Core.
+    If you don't see the **ASP.NET Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
 1. Type a name like **MyProfilingApp_MVC** and click **OK**.
 
@@ -44,13 +42,13 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 1. In Solution Explorer, open `Models/Data.cs` and add the following `using` statement to the top of the file:
 
-    ```cs
+    ```csharp
     using System.Threading;
     ```
 
 1. In Data.cs, replace the following code:
 
-    ```cs
+    ```csharp
     public class Data
     {
     }
@@ -58,7 +56,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
     with this code:
 
-    ```cs
+    ```csharp
     public class ServerClass
     {
         const int MIN_ITERATIONS = int.MaxValue / 1000;
@@ -126,9 +124,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     }
     ```
 
-1. In Solution Explorer, open Controller/HomeControllers.cs, and replace the following code:
+1. In Solution Explorer, open *Controller/HomeControllers.cs*, and replace the following code:
 
-    ```cs
+    ```csharp
     public ActionResult About()
     {
         ViewBag.Message = "Your application description page.";
@@ -139,7 +137,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
     with this code:
 
-    ```cs
+    ```csharp
     public ActionResult About()
     {
         Models.Simple s = new Models.Simple();
@@ -150,7 +148,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     }
     ```
 
-##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
+##  Step 1: Collect profiling data 
   
 1.  First, set a breakpoint in your app on this line of code in the `Simple` constructor:
 
@@ -165,9 +163,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
-1.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
+1.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-1.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+1.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
 1.  When the app finishes loading, click the **About** link at the top of the web page to start running the new code.
 
@@ -191,13 +189,13 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
      At this point, you can begin to analyze the data.
 
-## <a name="Step2"></a> Step 2: Analyze CPU usage data
+## Step 2: Analyze CPU usage data
 
 We recommend that you begin analyzing your data by examining the list of functions under CPU Usage, identifying the functions that are doing the most work, and then taking a closer look at each one.
 
 1. In the function list, examine the functions that are doing the most work.
 
-     ![Diagnostics Tools CPU Usage Tab](../profiling/media/quickstart-cpu-usage-cpu-aspnet.png)
+     ![Diagnostics tools CPU Usage tab](../profiling/media/quickstart-cpu-usage-cpu-aspnet.png)
 
     > [!TIP]
     > Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
@@ -206,7 +204,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     When you double-click the function, the **Caller/Callee** view opens in the left pane. 
 
-    ![Diagnostics Tools Caller Callee View](../profiling/media/quickstart-cpu-usage-caller-callee-aspnet.png)
+    ![Diagnostics tools Caller/Callee View](../profiling/media/quickstart-cpu-usage-caller-callee-aspnet.png)
 
     In this view, the selected function shows up in the heading and in the **Current Function** box (`ServerClass::GetNumber`, in this example). The function that called the current function is shown on the left under **Calling Function**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
@@ -223,7 +221,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 - [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 - Analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-## See Also  
+## See also  
 
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

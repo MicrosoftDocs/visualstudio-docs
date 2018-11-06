@@ -18,12 +18,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;Product&gt; Element (Bootstrapper)
+# &lt;Product&gt; element (bootstrapper)
 The `Product` element is the top-level XML element inside of a product file.  
   
 ## Syntax  
   
-```  
+```xml  
 <Product  
 ProductCode  
 >  
@@ -133,7 +133,7 @@ ProductCode
 </Package>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `Product` element is required in a product file. It has the following attribute.  
   
 |Attribute|Description|  
@@ -143,7 +143,7 @@ ProductCode
 ## Example  
  The following code example shows a complete product file for installing the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8" ?>  
   
 <Product  
@@ -245,5 +245,5 @@ ProductCode
 </Product>  
 ```  
   
-## See Also  
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
+## See also  
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

@@ -40,9 +40,9 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
   
 ### {Attribute name} Attribute  
   
-|Value|Description|  
-|-----------|-----------------|  
-|http://schemas.openformats.org/package/2006/content-types|The location of the content types schema.|  
+| Value | Description |
+| - | - |
+| http://schemas.openformats.org/package/2006/content-types | The location of the content types schema. |
   
 ### Child Elements  
  The `Types` element can contain any number of `Default` elements.  
@@ -98,5 +98,5 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
   
 ## See Also  
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
- [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
+ [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
  [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207)

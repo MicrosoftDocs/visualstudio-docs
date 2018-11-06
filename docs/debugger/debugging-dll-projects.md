@@ -48,24 +48,24 @@ The following Visual Studio templates create DLLs:
 ##  <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Ways to debug the DLL  
  Each of the projects in this section creates a DLL. You cannot run a DLL directly; it must be called by an application, usually an EXE. For more information, see [Creating and Managing Visual C++ Projects](/cpp/ide/creating-and-managing-visual-cpp-projects). The calling application might fit any one of the following criteria:  
   
--   An application built in another project in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that contains the class library.  
+- An application built in another project in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that contains the class library.  
   
--   An existing application already deployed on a test or production computer.  
+- An existing application already deployed on a test or production computer.  
   
--   Located on the Web and accessed through a URL.  
+- Located on the Web and accessed through a URL.  
   
--   A Web application that contains a Web page which embeds the DLL.  
+- A Web application that contains a Web page which embeds the DLL.  
   
 ###  <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Debugging the calling application  
 To debug a DLL, start by debugging the calling application, typically either an EXE or a Web application. There are several ways to debug it.  
   
--   If you have a project for the calling application, you can open that project and start execution from the **Debug** menu. For more information, see [Getting started with the debugger](../debugger/getting-started-with-the-debugger.md).  
+- If you have a project for the calling application, you can open that project and start execution from the **Debug** menu. For more information, see [Getting started with the debugger](../debugger/getting-started-with-the-debugger.md).  
   
--   If the calling application is an existing program already deployed on a test or production computer and is already running you can attach to it. Use this method if the DLL is a control hosted by Internet Explorer, or a control on a Web page. For more information, see [How to: Attach to a Running Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
+- If the calling application is an existing program already deployed on a test or production computer and is already running you can attach to it. Use this method if the DLL is a control hosted by Internet Explorer, or a control on a Web page. For more information, see [How to: Attach to a Running Process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
--   You can debug it from the DLL project. For more information, see [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md).  
+- You can debug it from the DLL project. For more information, see [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md).  
   
--   You can debug it from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Immediate window](#vxtskdebuggingdllprojectstheimmediatewindow). In this case, the **Immediate** window plays the role of the application.  
+- You can debug it from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Immediate window](#vxtskdebuggingdllprojectstheimmediatewindow). In this case, the **Immediate** window plays the role of the application.  
   
 Before you start debugging the calling application, you will usually want to set a breakpoint in the class library. For more information, see [Using Breakpoints](../debugger/using-breakpoints.md). When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
   
@@ -76,7 +76,7 @@ Before you start debugging the calling application, you will usually want to set
   
 2.  To test a method named `Test` in class `Class1`, instantiate an object of type `Class1` by typing the following C# code in the Immediate window. This managed code works for Visual Basic and C++, with appropriate syntax changes:  
   
-    ```  
+    ```cpp
     Class1 obj = new Class1();  
     ```  
   
@@ -84,7 +84,7 @@ Before you start debugging the calling application, you will usually want to set
   
 3.  Assuming that `Test` takes one `int` parameter, evaluate `Test` using the **Immediate** window:  
   
-    ```  
+    ```cpp
     ?obj.Test(10)  
     ```  
   
@@ -92,7 +92,7 @@ Before you start debugging the calling application, you will usually want to set
   
 4.  You can continue to debug `Test` by placing a breakpoint inside it and then evaluating the function again:  
   
-    ```  
+    ```cpp
     ?obj.Test(10);  
     ```  
   
@@ -104,7 +104,7 @@ If you are debugging a DLL external to your project, the debugging features avai
 
 Your project needs to be able to find the DLL and the .pdb file used for debugging. You can create a custom build task to copy these files to the **\<project folder>\Debug** output folder, or you can copy the files into the output folder manually.
 
-You can easily set locations of header files and *.lib files in the Property Pages (right-click the C++ project and choose **View Properties**, and then choose **All Configurations**) without the need to copy them into your output folder:
+You can easily set locations of header files and <em>.lib files in the Property Pages (right-click the C++ project and choose **View Properties</em><em>, and then choose **All Configurations</em>*) without the need to copy them into your output folder:
 
 - C/C++ folder (General category) - Specify the folder containing header files in the **Additional Include Directories** field.
 - Linker folder (General category) - Specify the folder containing the .lib file in the **Additional Libraries Directories** field. 

@@ -11,36 +11,39 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Collecting Application Statistics for Services by Using the Profiler Sampling Method
+# Collect application statistics for services by using the profiler sampling method
 This section describes the procedures and options for collecting performance statistics for Windows services using the sampling method from the command line.  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
-## Common Tasks  
+## Common tasks  
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Attach the profiler to a .NET service**|-   [How to: Attach the Profiler to a .NET Service to Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md)|  
-|**Add tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
-|**Attach the profiler to a C/C++ service**|-   [How to: Attach the Profiler to a Native Service to Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md)|  
+|**Attach the profiler to a .NET service**|-   [How to: Attach the profiler to a .NET service to collect application statistics](../profiling/how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md)|  
+|**Add tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
+|**Attach the profiler to a C/C++ service**|-   [How to: Attach the profiler to a native service to collect application statistics](../profiling/how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md)|  
   
-## Related Tasks  
+## Related tasks  
   
-### Profiling Windows Services  
-  
-|Task|Related Content|  
-|----------|---------------------|  
-|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md)|  
-|**Profile .NET memory allocation and garbage collection**|-   [Collecting .NET Memory Data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
-|**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
-  
-### Profiling by Using the Sampling Method  
+### Profile Windows services  
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile stand-alone (client) applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)|  
+|**Profile by using the instrumentation method**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md)|  
+|**Profile .NET memory allocation and garbage collection**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
+|**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
-### Analyzing Sampling Data Views and Reports  
- [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
+
+### Profile by using the sampling method  
+  
+|Task|Related Content|  
+|----------|---------------------|  
+|**Profile stand-alone (client) applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
+|**Profile ASP.NET Web applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
+  
+### Analyze sampling data views and reports  
+ [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+
+  

@@ -22,7 +22,7 @@ Retrieves the name of the file from which the symbols were loaded.
   
 ```C++  
 HRESULT get_symbolsFileName (   
-   BSTR* pRetVal  
+   BSTR* pRetVal  
 );  
 ```  
   

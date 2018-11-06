@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "errors, class diagrams"
   - "errors, Class Designer"
   - "error messages, Class Designer"
-  - "Class Designer [Visual Studio], errors"
   - "error messages, class diagrams"
+  - "Class Designer [Visual Studio], errors"
   - "class diagrams, errors"
 ms.assetid: 79d70e70-704c-4255-ab68-c10d6949470e
 author: gewarren
@@ -31,17 +31,17 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Additional information about Class Designer errors
+# Class Designer errors
 
-**Class Designer** does not track the location of your source files, so modifying your project structure or moving source files in the project can cause **Class Designer** to lose track of the type (especially the source type of a typedef, base classes, or association types). You might receive an error such as **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.
+**Class Designer** does not track the location of your source files, so modifying your project structure or moving source files in the project can cause **Class Designer** to lose track of the type, For example, it's common to modify the source type of a typedef, base classes, and association types. You might receive an error such as **Class Designer is unable to display this type**. To resolve the error, drag the modified or relocated source code to the class diagram again to display it.
 
 ## Resources
 
 You can find assistance with other errors and warnings in the following resources:
 
-- [Working with Visual C++ Code](working-with-visual-cpp-code.md) includes troubleshooting information about displaying C++ in a class diagram.
-- [Visual Studio Class Designer forum](http://go.microsoft.com/fwlink/?LinkId=160754) provides a forum for questions about the **Class Designer**.
+- [Work with Visual C++ code](working-with-visual-cpp-code.md) includes troubleshooting information about displaying C++ in a class diagram.
+- [Visual Studio Class Designer forum](http://go.microsoft.com/fwlink/?LinkId=160754) provides a forum for questions about **Class Designer**.
 
 ## See also
 
-- [Designing and viewing classes and types](designing-and-viewing-classes-and-types.md)
+- [Design and view classes and types](designing-and-viewing-classes-and-types.md)

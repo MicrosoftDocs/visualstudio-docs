@@ -1,5 +1,5 @@
 ---
-title: "Accessibility in Office Projects"
+title: "Accessibility in Office projects"
 ms.custom: ""
 ms.date: 02/02/2017
 ms.technology: office-development
@@ -19,22 +19,22 @@ manager: douge
 ms.workload:
   - "office"
 ---
-# Accessibility in Office Projects
-  Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility Web site](http://go.microsoft.com/fwlink/?LinkID=37113).  
+# Accessibility in Office projects
+  Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](http://go.microsoft.com/fwlink/?LinkID=37113).  
 
  In most cases, Office projects in Visual Studio meet accessibility standards or exposes properties that you can set to make your solutions accessible. However, there are some features that have limited accessibility.  
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
 
-## Accessibility at Design Time  
+## Accessibility at design time  
 
-### Using Shortcut Keys in Document-Level Projects  
- When a Microsoft Office Word document or a Microsoft Office Excel workbook is open in Visual Studio, only one application at a time receives the shortcut key commands. By default, Visual Studio receives all shortcut key commands, but you can make Word or Excel receive them when the document has focus by selecting **Dynamic keyboard scheme** on the **Keyboard Settings** page of the **Options** dialog box. For more information, see [Microsoft Office Word Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box](../vsto/microsoft-office-word-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md) and [Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box](../vsto/microsoft-office-excel-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md).  
+### Use shortcut keys in document-level projects  
+ When a Microsoft Office Word document or a Microsoft Office Excel workbook is open in Visual Studio, only one application at a time receives the shortcut key commands. By default, Visual Studio receives all shortcut key commands, but you can make Word or Excel receive them when the document has focus by selecting **Dynamic keyboard scheme** on the **Keyboard Settings** page of the **Options** dialog box. For more information, see [Microsoft Office Word Keyboard, Microsoft Office Keyboard Settings, Options dialog box](../vsto/microsoft-office-word-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md) and [Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options dialog box](../vsto/microsoft-office-excel-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md).  
 
-### Displaying Shortcut Keys for the Ribbon in Document-Level Projects  
- When a Word document or an Excel workbook is open in Visual Studio, you cannot press the Alt key to view shortcut keys for the tabs and controls on the Ribbon. To view the shortcut keys while the document or workbook is open in the designer, perform the following steps.  
+### Display shortcut keys for the Ribbon in document-level projects  
+ When a Word document or an Excel workbook is open in Visual Studio, you cannot press the **Alt** key to view shortcut keys for the tabs and controls on the Ribbon. To view the shortcut keys while the document or workbook is open in the designer, perform the following steps.  
 
-##### To view shortcut keys for Ribbon tabs and controls in the designer  
+#### To view shortcut keys for Ribbon tabs and controls in the designer  
 
 1.  In Visual Studio, on the **Tools** menu, click **Options**.  
 
@@ -50,37 +50,37 @@ ms.workload:
 
 6.  Open the document or workbook designer for your project.  
 
-7.  Press F6 to display the shortcut keys for the Ribbon.  
+7.  Press **F6** to display the shortcut keys for the Ribbon.  
 
-## Accessibility at Run Time  
+## Accessibility at runtime  
 
-### Windows Forms Controls on Office Documents  
- Windows Forms controls expose accessibility properties to provide information about the control to accessibility aids, such as screen readers. You can take advantage of these accessibility properties when the controls are on an Office document in a document-level customization. For more information, see [Providing Accessibility Information for Controls on a Windows Form](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form).  
+### Windows Forms controls on Office documents  
+ Windows Forms controls expose accessibility properties to provide information about the control to accessibility aids, such as screen readers. You can take advantage of these accessibility properties when the controls are on an Office document in a document-level customization. For more information, see [Provide accessibility information for controls on a Windows Form](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form).  
 
- However, there are some accessibility limitations at run time when Windows Forms controls are hosted on an Excel workbook or Word document:  
+ However, there are some accessibility limitations at runtime when Windows Forms controls are hosted on an Excel workbook or Word document:  
 
--   You cannot tab from one control to another.  
+- You cannot tab from one control to another.  
 
--   Controls on a document are disabled when you change the zoom setting of the document to anything other than 100%.  
+- Controls on a document are disabled when you change the zoom setting of the document to anything other than 100%.  
 
- For information about limitations of Windows Forms controls on documents, see [Limitations of Windows Forms Controls on Office Documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).  
+  For information about limitations of Windows Forms controls on documents, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).  
 
-### Actions Panes and Custom Task Panes  
+### Actions panes and custom task panes  
  When an actions pane or custom task pane has focus, you access controls the same way you would access controls on a Windows Forms application. To move your cursor between the actions pane and the document, you can press **F6**.  
 
- For more information about actions panes and custom task panes, see [Actions Pane Overview](../vsto/actions-pane-overview.md) and [Custom Task Panes](../vsto/custom-task-panes.md).  
+ For more information about actions panes and custom task panes, see [Actions pane overview](../vsto/actions-pane-overview.md) and [Custom task panes](../vsto/custom-task-panes.md).  
 
-### Display Modes  
+### Display modes  
  Visual Studio has the following limitations related to display modes:  
 
--   Controls on a Word document or Excel worksheet are disabled when you change the zoom setting of the document to anything other than 100%.  
+- Controls on a Word document or Excel worksheet are disabled when you change the zoom setting of the document to anything other than 100%.  
 
--   The **New Project** dialog box does not display controls correctly if a user changes the computer's accessibility options to **Use High Contrast**.  
+- The **New Project** dialog box does not display controls correctly if a user changes the computer's accessibility options to **Use High Contrast**.  
 
- You can use Magnifier to overcome these limitations. Magnifier is a display utility in Windows that creates a separate window that displays a magnified portion of the screen.  
+  You can use Magnifier to overcome these limitations. Magnifier is a display utility in Windows that creates a separate window that displays a magnified portion of the screen.  
 
-## See Also  
- [Developing Office Solutions](../vsto/developing-office-solutions.md)   
- [Controls on Office Documents](../vsto/controls-on-office-documents.md)   
- [Accessibility for People with Disabilities](/visualstudio/ide/reference/accessibility-for-people-with-disabilities)   
- [Accessibility Features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio)  
+## See also  
+ [Develop Office solutions](../vsto/developing-office-solutions.md)   
+ [Controls on Office documents](../vsto/controls-on-office-documents.md)   
+ [Accessibility for people with disabilities](/visualstudio/ide/reference/accessibility-for-people-with-disabilities)   
+ [Accessibility features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio)  

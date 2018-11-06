@@ -11,25 +11,25 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Create a Recorder Plug-In
+# How to: Create a recorder plug-in
 
-The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you modify a recorded Web performance test. The modification occurs after you choose **Stop** in the Web performance test recorder toolbar but prior to the test being saved and presented in the Web Performance Test Editor.
+The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you modify a recorded web performance test. The modification occurs after you choose **Stop** in the **Web Performance Test Recorder** toolbar but prior to the test being saved and presented in the Web Performance Test Editor.
 
-A recorder plug-in enables you to perform your own custom correlation on dynamic parameters. With the built-in correlation functionality, Web performance tests detect the dynamic parameters in the Web recording upon completion, or when you use the **Promote Dynamic Parameters to Web Test Parameters** on the Web Performance Test Editor toolbar. However, the built in detection functionality does not always find all the dynamic parameters. For example, it does not find a session ID, which usually gets its value changed between 5 to 30 minutes. Therefore, you have to manually perform the correlation process.
+A recorder plug-in enables you to perform your own custom correlation on dynamic parameters. With the built-in correlation functionality, web performance tests detect the dynamic parameters in the web recording upon completion, or when you use the **Promote Dynamic Parameters to Web Test Parameters** on the **Web Performance Test Editor** toolbar. However, the built in detection functionality does not always find all the dynamic parameters. For example, it does not find a session ID, which usually gets its value changed between 5 to 30 minutes. Therefore, you have to manually perform the correlation process.
 
-The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you write code for your own custom plug-in. This plug-in can perform correlation or modify the Web performance test in many ways prior to it being saved and presented in the Web Performance Test Editor. Therefore, if you determine that a specific dynamic variable has to be correlated for a lot of your recordings, you can automate the process.
+The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you write code for your own custom plug-in. This plug-in can perform correlation or modify the web performance test in many ways prior to it being saved and presented in the Web Performance Test Editor. Therefore, if you determine that a specific dynamic variable has to be correlated for a lot of your recordings, you can automate the process.
 
-Some other ways that a recorder plug-in can be used is for adding extraction and validation rules, adding context parameters, or converting comments to transactions in a Web performance test.
+Some other ways that a recorder plug-in can be used is for adding extraction and validation rules, adding context parameters, or converting comments to transactions in a web performance test.
 
 The following procedures describe how to create the rudimentary code for a recorder plug-in, deploy the plug-in and execute the plug-in. The sample code following the procedures demonstrates how to use Visual C# to create a custom dynamic parameter correlation recorder plug-in.
 
-## Creating a Recorder Plug-in
+## Create a recorder plug-in
 
 ### To create a recorder plug-in
 
-1.  Open a solution that contains the Web performance and load test project with the Web performance test for which you want to create a recorder plug-in.
+1.  Open a solution that contains the web performance and load test project with the web performance test for which you want to create a recorder plug-in.
 
-2.  In Solution Explorer, right-click the solution, select **Add**, and then choose **New Project**.
+2.  In **Solution Explorer**, right-click the solution, select **Add**, and then choose **New Project**.
 
      The **Add New Project** dialog box is displayed.
 
@@ -39,9 +39,9 @@ The following procedures describe how to create the rudimentary code for a recor
 
 5.  In the **Name** text box, type a name for the recorder plug-in.
 
-     The class library is added to the Solution Explorer and the new class is opened in the Code Editor.
+     The class library is added to the **Solution Explorer** and the new class is opened in the **Code Editor**.
 
-6.  In Solution Explorer, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
+6.  In **Solution Explorer**, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
 
     > [!TIP]
     > An example of a new class library project folder is **RecorderPlugins**.
@@ -52,7 +52,7 @@ The following procedures describe how to create the rudimentary code for a recor
 
 8.  Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
 
-     The **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added in the **References** folder in Solution Explorer.
+     The **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added in the **References** folder in **Solution Explorer**.
 
 9. Write the code for your recorder plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin>.
 
@@ -68,56 +68,56 @@ The following procedures describe how to create the rudimentary code for a recor
         }
     ```
 
-     The event arguments will give you two objects to work with: the recorded result and the recorded Web performance test. This will allow you to iterate through the result looking for certain values and then jump to the same request in the Web performance test to make modifications. You can also just modify the Web performance test if you wanted to add a context parameter or parameterize parts of the URL.
+     The event arguments will give you two objects to work with: the recorded result and the recorded web performance test. This will allow you to iterate through the result looking for certain values and then jump to the same request in the web performance test to make modifications. You can also just modify the web performance test if you wanted to add a context parameter or parameterize parts of the URL.
 
     > [!NOTE]
-    > If you do modify the Web performance test, you will also need to set the <xref:Microsoft.VisualStudio.TestTools.WebTesting.PostWebTestRecordingEventArgs.RecordedWebTestModified*> property to true: `e.RecordedWebTestModified = true;`
+    > If you do modify the web performance test, you will also need to set the <xref:Microsoft.VisualStudio.TestTools.WebTesting.PostWebTestRecordingEventArgs.RecordedWebTestModified*> property to true: `e.RecordedWebTestModified = true;`
 
-11. Add more code according to what you want the recorder plug-in to execute after the Web recording occurs. For example, you can add code to handle custom correlation as shown in the sample below. You can also create a recorder plug-in for such things as converting comments to transactions or adding validation rules to the Web performance test.
+11. Add more code according to what you want the recorder plug-in to execute after the web recording occurs. For example, you can add code to handle custom correlation as shown in the sample below. You can also create a recorder plug-in for such things as converting comments to transactions or adding validation rules to the web performance test.
 
-12. On the **Build** menu, choose Build \<class library project name>.
+12. On the **Build** menu, choose **Build \<class library project name>**.
 
 13. Next, you must deploy the recorder plug-in in order for it to register with Visual Studio.
 
-### Deploy the Recorder Plug-in
+### Deploy the recorder plug-in
 
-After you compile the recorder plug-in, you will need to place the resulting DLL in one of two locations:
+After you compile the recorder plug-in, place the resulting DLL in one of two locations:
 
--   %ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies\WebTestPlugins
+- *%ProgramFiles(x86)%\Microsoft Visual Studio\\[version]\\[edition]\Common7\IDE\PrivateAssemblies\WebTestPlugins*
 
--   %USERPROFILE%\My Documents\Visual Studio \<*version*>\WebTestPlugins
+- *%USERPROFILE%\Documents\Visual Studio [version]\WebTestPlugins*
 
 > [!WARNING]
 > After you copy the recorder plug-in to one of the two locations, you must restart Visual Studio for the recorder plug-in to be registered.
 
 ### To execute the recorder plug-in
 
-1.  Create a new Web performance test.
+1.  Create a new web performance test.
 
      The **Enable WebTestRecordPlugins** dialog box displays.
 
-2.  Select the check box for the recorder plug-in and choose OK.
+2.  Select the check box for the recorder plug-in and choose **OK**.
 
-     After the Web performance test completes recording, the new recorder plug-in will be executed.
+     After the web performance test completes recording, the new recorder plug-in will be executed.
 
     > [!WARNING]
-    > You might get an error similar to the following when you run a Web performance test or load test that uses your plug-in:
+    > You might get an error similar to the following when you run a web performance test or load test that uses your plug-in:
     >
     > **Request failed: Exception in \<plug-in> event: Could not load file or assembly '\<"Plug-in name".dll file>, Version=\<n.n.n.n>, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.**
     >
     > This is caused if you make code changes to any of your plug-ins and create a new DLL version **(Version=0.0.0.0)**, but the plug-in is still referencing the original plug-in version. To correct this problem, follow these steps:
     >
-    > 1.  In your Web performance and load test project, you will see a warning in references. Remove and re-add the reference to your plug-in DLL.
-    > 2.  Remove the plug-in from your test or the appropriate location and then add it back.
+    > 1. In your web performance and load test project, you will see a warning in references. Remove and re-add the reference to your plug-in DLL.
+    > 2. Remove the plug-in from your test or the appropriate location and then add it back.
 
 ## Example
 
-This sample demonstrates how to create a customized Web performance test recorder plug-in to perform custom dynamic parameter correlation.
+This sample demonstrates how to create a customized web performance test recorder plug-in to perform custom dynamic parameter correlation.
 
 > [!NOTE]
 > A complete listing of the sample code is located at the bottom of this topic.
 
- **Reviewing the Sample Code**
+**Reviewing the Sample Code**
 
 ## Iterate through the result to find first page with ReportSession
 
@@ -138,7 +138,7 @@ foreach (WebTestResultUnit unit in e.RecordedWebTestResult.Children)
 
 ## Add an extraction rule
 
-Now that a response has been found, you need to add an extraction rule. This part of the code sample creates the extraction rule using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRuleReference> class and then finds the correct request in the Web performance test to add the extraction rule to. Each result object has a new property added called DeclarativeWebTestItemId which is what is being used in the code to get correct request from the Web performance test.
+Now that a response has been found, you need to add an extraction rule. This part of the code sample creates the extraction rule using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRuleReference> class and then finds the correct request in the web performance test to add the extraction rule to. Each result object has a new property added called DeclarativeWebTestItemId which is what is being used in the code to get correct request from the web performance test.
 
 ```csharp
 ExtractionRuleReference ruleReference = new ExtractionRuleReference();

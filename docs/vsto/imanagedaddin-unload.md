@@ -1,5 +1,5 @@
 ---
-title: "IManagedAddin::Unload | Microsoft Docs"
+title: "IManagedAddin::Unload"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -21,18 +21,18 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```csharp
 HRESULT Unload();  
 ```  
   
-## Return Value  
+## Return value  
  An HRESULT value that indicates whether the method completed successfully.  
   
 ## Remarks  
  This method is not called by current versions of Microsoft Office. This method is reserved for future use.  
   
-## See Also  
- [IManagedAddin Interface](../vsto/imanagedaddin-interface.md)   
+## See also  
+ [IManagedAddin interface](../vsto/imanagedaddin-interface.md)   
  [IManagedAddin::Load](../vsto/imanagedaddin-load.md)  
   
   

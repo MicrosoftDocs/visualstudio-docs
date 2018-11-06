@@ -23,15 +23,15 @@ Notifies the debug package that text has been inserted into the document.
   
 ```cpp  
 HRESULT onInsert(   
-   TEXT_POSITION pos,  
-   DWORD         dwNumToInsert  
+   TEXT_POSITION pos,  
+   DWORD         dwNumToInsert  
 );  
 ```  
   
 ```csharp  
 int onInsert(   
-   enum_TEXT_POSITION pos,  
-   uint               dwNumToInsert  
+   enum_TEXT_POSITION pos,  
+   uint               dwNumToInsert  
 );  
 ```  
   

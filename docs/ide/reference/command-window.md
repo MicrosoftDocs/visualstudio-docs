@@ -49,7 +49,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
  The following shortcuts help you navigate while in Command mode.
 
 |Action|Cursor location|Keybinding|
-|------------|---------------------|----------------|
+|------------| - |----------------|
 |Cycle through the list of previously entered commands.|Input line|UP ARROW & DOWN ARROW|
 |Scroll up the window.|Command window contents|CTRL+UP ARROW|
 |Scroll down the window.|Command window contents|DOWN ARROW or CTRL+DOWN ARROW|
@@ -69,7 +69,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
  In the **Immediate** window, by contrast, an equals sign (=) is interpreted as an assignment operator. So, for example, the command `>Debug.EvaluateStatement(varA=varB)` will assign to variable `varA` the value of variable `varB`.
 
 ## Parameters, Switches, and Values
- Some [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] commands commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.
+ Some [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.
 
 ```cmd
 Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar

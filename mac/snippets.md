@@ -1,8 +1,8 @@
 ---
 title: "Code Snippets"
 description: "How to use code snippets to program efficiently in Visual Studio for Mac"
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
 ---
@@ -23,11 +23,11 @@ There are some different ways to add code snippets, some of which are described 
 
 * **Toolbox** - Use the toolbox pad to display a list of all code snippets. Drag any template from the toolbox into the correct position in the source code:
 
- ![Code snippets in Toolbox](media/source-editor-image14.png)
+  ![Code snippets in Toolbox](media/source-editor-image14.png)
 
 * **Insert Templates command** - There is currently no default key binding set for inserting a template. To create one, browse to **Visual Studio > Preferences... > Key Bindings** and search for `template`. This allows adding the desired key binding into the Edit Binding field, then click **Apply**:
 
- ![Inset Template command](media/source-editor-image15.png)
+  ![Inset Template command](media/source-editor-image15.png)
 
 ## Creating a new template
 

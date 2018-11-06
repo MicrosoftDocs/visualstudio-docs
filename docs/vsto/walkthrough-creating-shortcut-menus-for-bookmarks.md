@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating Shortcut Menus for Bookmarks | Microsoft Docs"
+title: "Walkthrough: Create shortcut menus for bookmarks"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,22 +19,22 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating Shortcut Menus for Bookmarks
+# Walkthrough: Create shortcut menus for bookmarks
   This walkthrough demonstrates how to create shortcut menus for <xref:Microsoft.Office.Tools.Word.Bookmark> controls in a document-level customization for Word. When a user right-clicks the text in a bookmark, a shortcut menu appears and gives the user options for formatting the text.  
   
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]  
   
  This walkthrough illustrates the following tasks:  
   
--   [Creating the Project](#BKMK_CreateProject).  
+- [Create the project](#BKMK_CreateProject).  
   
--   [Adding Text and Bookmarks to the Document](#BKMK_addtextandbookmarks).  
+- [Add text and bookmarks to the document](#BKMK_addtextandbookmarks).  
   
--   [Adding Commands to a Shortcut Menu](#BKMK_AddCmndsShortMenu).  
+- [Add commands to a shortcut menu](#BKMK_AddCmndsShortMenu).  
   
--   [Format the Text in the Bookmark](#BKMK_formattextbkmk).  
+- [Format the text in the bookmark](#BKMK_formattextbkmk).  
   
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
+  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -43,53 +43,53 @@ ms.workload:
   
 -   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)]  
   
-##  <a name="BKMK_CreateProject"></a> Creating the Project  
+##  <a name="BKMK_CreateProject"></a> Create the project  
  The first step is to create a Word document project in Visual Studio.  
   
-#### To create a new project  
+### To create a new project  
   
--   Create a Word document project that has the name **My Bookmark Shortcut Menu**. In the wizard, select **Create a new document**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+-   Create a Word document project that has the name **My Bookmark Shortcut Menu**. In the wizard, select **Create a new document**. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
      Visual Studio opens the new Word document in the designer and adds the **My Bookmark Shortcut Menu** project to **Solution Explorer**.  
   
-##  <a name="BKMK_addtextandbookmarks"></a> Adding Text and Bookmarks to the Document  
+##  <a name="BKMK_addtextandbookmarks"></a> Add text and bookmarks to the document  
  Add some text to your document and then add two overlapping bookmarks.  
   
-#### To add text to your document  
+### To add text to your document  
   
 -   In the document that appears in the designer of your project, type the following text.  
   
      **This is an example of creating a shortcut menu when you right-click the text in a bookmark.**  
   
-#### To add a Bookmark control to your document  
+### To add a Bookmark control to your document  
   
-1.  In the **Toolbox**, from the **Word Controls** tab, drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document.  
+1. In the **Toolbox**, from the **Word Controls** tab, drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to your document.  
   
-     The **Add Bookmark Control** dialog box appears.  
+    The **Add Bookmark Control** dialog box appears.  
   
-2.  Select the words "creating a shortcut menu when you right-click the text", and then click **OK**.  
+2. Select the words "creating a shortcut menu when you right-click the text", and then click **OK**.  
   
-     `bookmark1` is added to the document.  
+    `bookmark1` is added to the document.  
   
-3.  Add another <xref:Microsoft.Office.Tools.Word.Bookmark> control to the words "right-click the text in a bookmark".  
+3. Add another <xref:Microsoft.Office.Tools.Word.Bookmark> control to the words "right-click the text in a bookmark".  
   
-     `bookmark2` is added to the document.  
+    `bookmark2` is added to the document.  
   
-    > [!NOTE]  
-    >  The words "right-click the text" are in both `bookmark1` and `bookmark2`.  
+   > [!NOTE]  
+   >  The words "right-click the text" are in both `bookmark1` and `bookmark2`.  
   
- When you add a bookmark to a document at design time, a <xref:Microsoft.Office.Tools.Word.Bookmark> control is created. You can program against several events of the bookmark. You can write code in the <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick> event of the bookmark so that when the user right-clicks the text in the bookmark, a shortcut menu appears.  
+   When you add a bookmark to a document at design time, a <xref:Microsoft.Office.Tools.Word.Bookmark> control is created. You can program against several events of the bookmark. You can write code in the <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick> event of the bookmark so that when the user right-clicks the text in the bookmark, a shortcut menu appears.  
   
-##  <a name="BKMK_AddCmndsShortMenu"></a> Adding Commands to a Shortcut Menu  
+##  <a name="BKMK_AddCmndsShortMenu"></a> Add commands to a shortcut menu  
  Add buttons to the shortcut menu that appears when you right-click the document.  
   
-#### To add commands to a shortcut menu  
+### To add commands to a shortcut menu  
   
-1.  Add a **Ribbon XML** item to the project. For more information, see [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
+1.  Add a **Ribbon XML** item to the project. For more information, see [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
   
 2.  In **Solution Explorer**, select **ThisDocument.cs** or **ThisDocument.vb**.  
   
-3.  On the menu bar, choose **View**, **Code**.  
+3.  On the menu bar, choose **View** > **Code**.  
   
      The **ThisDocument** class file opens in the Code Editor.  
   
@@ -100,13 +100,13 @@ ms.workload:
   
 5.  In **Solution Explorer**, select the Ribbon XML file. By default, the Ribbon XML file is named Ribbon1.xml.  
   
-6.  On the menu bar, choose **View**, **Code**.  
+6.  On the menu bar, choose **View** > **Code**.  
   
      The Ribbon xml file opens in the Code Editor.  
   
 7.  In the Code Editor, replace the contents of the Ribbon XML file with the following code.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="UTF-8"?>  
     <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">  
       <contextMenus>  
@@ -131,7 +131,7 @@ ms.workload:
   
 10. In **Solution Explorer**, select the Ribbon code file. By default, the Ribbon code file is named **Ribbon1.cs** or **Ribbon1.vb**.  
   
-11. On the menu bar, choose **View**, **Code**.  
+11. On the menu bar, choose **View** > **Code**.  
   
      The Ribbon code file opens in the Code Editor.  
   
@@ -140,9 +140,9 @@ ms.workload:
      [!code-csharp[Trin_Word_Document_Menus#5](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/ribbon1.cs#5)]
      [!code-vb[Trin_Word_Document_Menus#5](../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/ribbon1.vb#5)]  
   
-##  <a name="BKMK_formattextbkmk"></a> Format the Text in the Bookmark  
+##  <a name="BKMK_formattextbkmk"></a> Format the text in the bookmark  
   
-#### To format the text in the bookmark  
+### To format the text in the bookmark  
   
 1.  In the Ribbon code file, add a `ButtonClick` event handler to apply formatting to the bookmark.  
   
@@ -151,7 +151,7 @@ ms.workload:
   
 2.  **Solution Explorer**, select **ThisDocument.cs** or **ThisDocument.vb**.  
   
-3.  On the menu bar, choose **View**, **Code**.  
+3.  On the menu bar, choose **View** > **Code**.  
   
      The **ThisDocument** class file opens in the Code Editor.  
   
@@ -163,16 +163,16 @@ ms.workload:
     > [!NOTE]  
     >  You must write code to handle the case where bookmarks overlap. If you do not, by default, the code will be called for all bookmarks in the selection.  
   
-5.  In C#, you must add event handlers for the bookmark controls to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event. For information about creating event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+5.  In C#, you must add event handlers for the bookmark controls to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
      [!code-csharp[Trin_Word_Document_Menus#4](../vsto/codesnippet/CSharp/trin_word_document_menus.cs/thisdocument.cs#4)]  
   
-## Testing the Application  
+## Test the application  
  Test your document to verify that the bold and italic menu items appear in the shortcut menu when you right-click text in a bookmark and that the text is properly formatted.  
   
-#### To test your document  
+### To test your document  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  Right-click in the first bookmark, and then click **Bold**.  
   
@@ -182,18 +182,18 @@ ms.workload:
   
 5.  Verify that all of the text in `bookmark2` is italic, and only the part of the text in `bookmark1` that overlaps `bookmark2` is italic.  
   
-## Next Steps  
+## Next steps  
  Here are some tasks that might come next:  
   
--   Write code to respond to events of host controls in Excel. For more information, see [Walkthrough: Programming Against Events of a NamedRange Control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md).  
+-   Write code to respond to events of host controls in Excel. For more information, see [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md).  
   
--   Use a check box to change formatting in a bookmark. For more information, see [Walkthrough: Changing Document Formatting Using CheckBox Controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).  
+-   Use a check box to change formatting in a bookmark. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).  
   
-## See Also  
- [Walkthroughs Using Word](../vsto/walkthroughs-using-word.md)   
- [Office UI Customization](../vsto/office-ui-customization.md)   
- [Automating Word by Using Extended Objects](../vsto/automating-word-by-using-extended-objects.md)   
- [Bookmark Control](../vsto/bookmark-control.md)   
- [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
+## See also  
+ [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)   
+ [Office UI customization](../vsto/office-ui-customization.md)   
+ [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)   
+ [Bookmark control](../vsto/bookmark-control.md)   
+ [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
   

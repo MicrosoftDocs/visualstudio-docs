@@ -86,17 +86,15 @@ Any new or updated warnings appear in the **Error List** tab at the bottom of th
 
 ## Use light bulbs to fix or refactor code
 
-[Light bulbs](../ide/quick-actions.md) are a relatively new feature for Visual Studio that let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions**, or press **Ctrl**+**.** when your cursor is on the line with the colored squiggle. You'll see a list of possible fixes or refactorings you can apply to that line of code.
+[Quick Actions](../ide/quick-actions.md), available from the light bulb or screwdriver icon, let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions and refactorings**. Or, when your cursor is on the line with the colored squiggle, press **Ctrl**+**.** or select the light bulb or screwdriver icon in the margin. You'll see a list of possible fixes or refactorings you can apply to that line of code.
 
 ![Visual Studio light bulb preview](../ide/media/quick-actions-options.png)
 
-Light bulbs can be used wherever code analyzers determine there's an opportunity to fix, refactor, or improve your code. Click on any line of code, right-click to open the context menu, and select **Quick Actions** (or, again, if you prefer efficiency, press **Ctrl**+**.**). If refactoring or improvement options are available, they are displayed. Otherwise, the message **No quick options available here** displays in the lower-left corner of the IDE.
+Quick Actions can be used wherever code analyzers determine there's an opportunity to fix, refactor, or improve your code. Click on any line of code, right-click to open the context menu, and select **Quick Actions and refactorings**. If refactoring or improvement options are available, they are displayed. Otherwise, the message **No quick actions available here** displays in the lower-left corner of the IDE.
 
-![Visual Studio light bulb 'no option' text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.png)
+![No quick actions available text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.png)
 
-With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for quick options refactoring opportunities and clean up your code!
-
-For more information on light bulbs, read [Quick Actions](../ide/quick-actions.md).
+With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 
 ## Debug your running code
 

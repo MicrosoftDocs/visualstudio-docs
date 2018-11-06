@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Features of the code editor
 
-The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Edit your code](https://www.visualstudio.com/vs/features/ide/) for a quick overview.
+The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Edit your code](https://visualstudio.microsoft.com/vs/features/ide/) for a quick overview.
 
 You can view your code in a number of different ways. By default, **Solution Explorer** shows your code organized by files. You can click on the **Class View** tab at the bottom of the window to view your code organized by classes.
 
@@ -28,7 +28,7 @@ The different Visual Studio languages offer different sets of features, and in s
 |||
 |-|-|
 |Syntax Coloring|Some syntax elements of code and markup files are colored differently to distinguish them. For example, keywords (such as `using` in C# and `Imports` in Visual Basic) are one color, but types (such as `Console` and `Uri`) are another color. Other syntax elements are also colorized, such as string literals and comments. C++ uses color to differentiate among types, enumerations, and macros, among other tokens.<br /><br /> You can see the default color for each type, and you can change the color for any specific syntax element in the [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md), which you can open from the **Tools** menu.|
-|Error and Warning Marks|As you add code and build your solution, you may see (a) different-colored wavy underlines (known as squiggles) or (b) light bulbs appearing in your code. Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors. [Light bulbs](../ide/perform-quick-actions-with-light-bulbs.md) suggest fixes for problems and make it easy to apply the fix.<br /><br /> You can see the default color for each error and warning squiggle in the **Tools** > **Options** > **Environment** > **Fonts and Colors** dialog box. Look for **Syntax Error**, **Compiler Error**, **Warning**, and **Other Error**.|
+|Error and Warning Marks|As you add code and build your solution, you may see (a) different-colored wavy underlines (known as squiggles) or (b) light bulbs appearing in your code. Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors. [Quick Actions](../ide/quick-actions.md) suggest fixes for problems and make it easy to apply the fix.<br /><br /> You can see the default color for each error and warning squiggle in the **Tools** > **Options** > **Environment** > **Fonts and Colors** dialog box. Look for **Syntax Error**, **Compiler Error**, **Warning**, and **Other Error**.|
 |Brace Matching|When the insertion point is placed on an open brace in a code file, both it and the closing brace are highlighted. This feature gives you immediate feedback on misplaced or missing braces. You can turn brace matching on or off with the **Automatic Delimiter Highlighting** setting (**Tools** > **Options** > **Text Editor**). You can change the highlight color in the **Fonts and Colors** setting (**Tools** > **Options** > **Environment**). Look for **Brace Matching (Highlight)** or **Brace Matching (Rectangle)**.|
 |Structure Visualizer|Dotted lines connect matching braces in code files, making it easier to see opening and closing brace pairs. This can help you find code in your codebase more quickly. You can turn these lines on or off with the **Show structure guidelines** in the **Display** section of the **Tools** > **Options** > **Text Editor** > **General** page.|
 |Line Numbers|Line numbers can be displayed in the left margin of the code window. They are not displayed by default. You can turn this option on in the **Text Editor All Languages** settings (**Tools** > **Options** > **Text Editor** > **All Languages**). You can display line numbers for individual programming languages by changing the settings for those languages (**Tools** > **Options** > **Text Editor** > **\<language>**). For line numbers to print, you must select **Include line numbers** in the **Print** dialog box.|
@@ -45,7 +45,7 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 
 |||
 |-|-|
-|Format Document|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
+|[Format Document](code-styles-and-quick-actions.md#format-document-command)|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
 |Format Selection|Sets the proper indentation of lines of code and moves curly braces to separate lines in the selection.|
 |Tabify Selected Lines|Changes leading spaces to tabs where appropriate.|
 |Untabify Selected Lines|Changes leading tabs to spaces. If you want to convert all the spaces in your file to tabs (or all the tabs to spaces), you can use the `Edit.ConvertSpacesToTabs` and `Edit.ConvertTabsToSpaces` commands. These commands do not appear in Visual Studio menus, but you can call them from the **Quick Access** window or the command window.|
@@ -82,6 +82,6 @@ For more information about customizing the editor, see [Customize the editor](..
 ## See also
 
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
-- [Get started with C++ in Visual Studio](../ide/quickstart-cpp.md)
+- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
 - [Get started with C# and ASP.NET in Visual Studio](../ide/tutorial-csharp-aspnet-core.md)
 - [Get started with Python in Visual Studio](../ide/quickstart-python.md)
