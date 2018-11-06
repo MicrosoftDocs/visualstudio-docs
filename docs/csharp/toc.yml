@@ -3,14 +3,14 @@
   items:
   - name: Overview
     items:
-      - name: About Visual Studio 2017
-        href: ../ide/visual-studio-ide.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
-      - name: About the code editor
-        href: ../ide/quickstart-editor.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
-      - name: About projects and solutions
-        href: ../ide/quickstart-projects-solutions.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
-      - name: More Visual Studio features
-        href: ../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: About Visual Studio 2017
+      href: ../ide/visual-studio-ide.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: About the code editor
+      href: ../ide/quickstart-editor.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: About projects and solutions
+      href: ../ide/quickstart-projects-solutions.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
+    - name: More Visual Studio features
+      href: ../ide/advanced-feature-overview.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
   - name: Create an app
     expanded: true
     items:
@@ -23,6 +23,7 @@
     - name: Create a WPF application
       href: ../ide/walkthrough-create-a-simple-application-with-csharp-or-visual-basic
   - name: Learn Visual Studio
+    items:
     - name: Writing and editing code
       href: ../ide/index-writing-code.md
     - name: Compile and build
