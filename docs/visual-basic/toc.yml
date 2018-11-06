@@ -6,7 +6,7 @@
   - name: Create a UWP app
     href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: Create a WPF app
-    href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    href: ../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: Create a Windows Forms app
     href: ../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
   - name: 'Learn Visual Studio'

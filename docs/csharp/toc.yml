@@ -21,7 +21,7 @@
     - name: Create a web app
       href: ../ide/tutorial-csharp-aspnet-core.md?toc=/visualstudio/csharp/toc.json&bc=/visualstudio/csharp/breadcrumb/toc.json
     - name: Create a WPF application
-      href: ../ide/walkthrough-create-a-simple-application-with-csharp-or-visual-basic
+      href: ../ide/walkthrough-create-a-simple-application-with-csharp-or-visual-basic.md
   - name: Learn Visual Studio
     items:
     - name: Writing and editing code
