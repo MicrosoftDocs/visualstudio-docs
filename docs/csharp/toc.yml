@@ -31,8 +31,8 @@
     - name: Debug your code
       href: ../debugger/getting-started-with-the-debugger.md
     - name: Unit testing
-    - href: ../test/getting-started-with-unit-testing.md
-      name: Deploy your project
+      href: ../test/getting-started-with-unit-testing.md
+    - name: Deploy your project
       href: ../deployment/index.md
     - name: Access data
       href: ../data-tools/create-a-sql-database-by-using-a-designer.md

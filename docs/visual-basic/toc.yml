@@ -20,8 +20,8 @@
     - name: Debug your code
       href: ../debugger/getting-started-with-the-debugger.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
     - name: Unit testing
-    - href: ../test/getting-started-with-unit-testing.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
-      name: Deploy your project
+      href: ../test/getting-started-with-unit-testing.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+    - name: Deploy your project
       href: ../deployment/index.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
     - name: Access data
       href: ../data-tools/create-a-sql-database-by-using-a-designer.md?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
