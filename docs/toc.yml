@@ -1085,8 +1085,8 @@
   - name: Report a problem for Visual Studio
     href: ide/report-a-problem.md
     items:
-      - name:How to report a problem in Visual Studio
-        href:ide/how-to-report-a-problem-with-visual-studio-2017.md
+      - name: How to report a problem in Visual Studio
+        href: ide/how-to-report-a-problem-with-visual-studio-2017.md
   - name: Suggest a feature for Visual Studio
     href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
