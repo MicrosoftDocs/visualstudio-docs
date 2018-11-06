@@ -22,7 +22,7 @@ ms.workload:
 # Develop SharePoint solutions
   Several SharePoint project type templates are available in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] for creating SharePoint sites and site elements. For a list of the available project types, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md). Following is a description of the elements and properties of a SharePoint project.  
   
- For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](http://msdn.microsoft.com/library/jj162979.aspx) and [Build SharePoint add-ins](http://msdn.microsoft.com/library/office/apps/jj163230%28v=office.15%29.aspx).  
+ For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://msdn.microsoft.com/library/jj162979.aspx) and [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).  
   
 ## Elements of a SharePoint project
  The nodes under a SharePoint project are known as *SharePoint items*. SharePoint items may also contain one or more subfiles, referred to as *SharePoint item files*, such as [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] configuration files, .aspx forms, and more.  
@@ -91,10 +91,10 @@ ms.workload:
   
 |Property Name|Description|  
 |-------------------|-----------------|  
-|Build Action|Specifies how the file relates to the build and deployment processes. For more information, see [File Properties](http://msdn.microsoft.com/library/0c6xyb66(v=vs.100).aspx).|  
-|Copy to Output Directory|Specifies whether the source file(s) will be copied to the Output directory. Can be one of the following values:<br /><br /> -   *Do not copy*<br />-   *Copy always*<br />-   *Copy if newer*<br /><br /> For more information, see [File Properties](http://msdn.microsoft.com/library/0c6xyb66(v=vs.100).aspx).|  
-|Custom Tool|Specifies the name of a tool, if any, that transforms the file at design time and puts the output of the transformation into another file. For example, a dataset (.[!INCLUDE[TLA2#tla_xsd](../sharepoint/includes/tla2sharptla-xsd-md.md)]) file has a default custom tool. For more information, see [File Properties](http://msdn.microsoft.com/library/0c6xyb66(v=vs.100).aspx).|  
-|Custom Tool Namespace|The namespace into which the output of the custom tool is copied. For more information, see [File Properties](http://msdn.microsoft.com/library/0c6xyb66(v=vs.100).aspx).|  
+|Build Action|Specifies how the file relates to the build and deployment processes. For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|  
+|Copy to Output Directory|Specifies whether the source file(s) will be copied to the Output directory. Can be one of the following values:<br /><br /> -   *Do not copy*<br />-   *Copy always*<br />-   *Copy if newer*<br /><br /> For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|  
+|Custom Tool|Specifies the name of a tool, if any, that transforms the file at design time and puts the output of the transformation into another file. For example, a dataset (.[!INCLUDE[TLA2#tla_xsd](../sharepoint/includes/tla2sharptla-xsd-md.md)]) file has a default custom tool. For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|  
+|Custom Tool Namespace|The namespace into which the output of the custom tool is copied. For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|  
 |Deployment Location|The fully-qualified path of the file on the SharePoint server. This path is composed of the Deployment Root and Deployment Path sub-properties.|  
 |Deployment Path|The relative path of the file on the SharePoint Server file, such as Workflow1\\. The fully-qualified path for the file is created by concatenating the *Deployment Path* value to the end of the *Deployment Root* value.<br /><br /> Selecting a value of *RootFile* for the *Deployment Type* property changes the *Deployment Root* property to \<SharePointRoot>\\, resulting in a fully-qualified path of \<SharePointRoot>\Workflow1\\. For more information, see [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md).|  
 |Deployment Root|String. The root folder where the file is deployed on the SharePoint Server. For example, \<SharePointRoot>\Template\Features\\\<FeatureName>\\.<br /><br /> The value of the *Deployment Root* property is determined by the *Deployment Type* setting.|  
