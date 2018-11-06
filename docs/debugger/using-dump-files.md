@@ -93,7 +93,7 @@ To use full debugging features on a dump file, Visual Studio needs:
 - The *.exe* file the dump was created for, and other binaries (DLLs, etc.) that the dump process used.
 - Symbol (*.pdb*) files for the *.exe* and other binaries.
 - The *.exe* and *.pdb* files that exactly match the version and build of the files at dump creation.
-- Source files for the relevant modules. You use the disassembly of the modules if you can't find the source files.
+- Source files for the relevant modules. You can use the disassembly of the modules if you can't find the source files.
 
 If the dump has heap data, Visual Studio can cope with missing binaries for some modules, but it must have binaries for enough modules to generate valid call stacks. 
 
@@ -103,11 +103,11 @@ Visual Studio automatically searches these locations for *.exe* files that aren'
 
 1. The folder that contains the dump file.
 2. The module path the dump file specifies, which is the module path on the machine that collected the dump.
-3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**. You can also open this page from the **Actions** pane of the **Dump File Summary** window. On this page, you can add more locations to search.
+3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**. You can also open the **Symbols** page from the **Actions** pane of the **Dump File Summary** window. On this page, you can add more locations to search.
 
 ### Use the No Binary, No Symbols, or No Source Found pages
 
-If Visual Studio can't find the files it needs to debug a module in the dump, it shows a **No Binary Found**, **No Symbols Found**, or **No Source Found** page. These pages provide detailed information about the cause of the issue and provide action links that can help you locate the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+If Visual Studio can't find the files it needs to debug a module in the dump, it shows a **No Binary Found**, **No Symbols Found**, or **No Source Found** page. These pages provide detailed information about the cause of the issue, and provide action links that can help you locate the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 ## See also
 
