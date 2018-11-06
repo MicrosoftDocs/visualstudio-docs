@@ -118,7 +118,7 @@ private:
       // Reset the results box.
       TextBox1->Text = "";
       
-      // Get the word to search from from TextBox2.
+      // Get the word to search from TextBox2.
       String^ searchWord = TextBox2->Text;
       int index = 0;
       
