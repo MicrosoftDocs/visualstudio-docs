@@ -14,9 +14,9 @@ ms.workload:
 ---
 # Report a problem 
 
-Report a problem enables the Visual Studio developer community to submit issues and bugs.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify impactful issues.  Your valuable feedback is critical to improving the Visual Studio product family and we really appreciate you taking the time to report a problem so we can diagnose and fix it.
+Report a problem enables the Visual Studio developer community to submit issues and bugs.  Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify impactful issues.  Your feedback is critical to improving the Visual Studio product family.  We really appreciate you taking the time to report a problem so we can diagnose and fix it.
 
-In addition to reporting a problem, when you vote on feedback from other community members, you help us understand the impact it has for the larger developer community.
+In addition, when you vote on feedback from other community members, you help us understand the impact it has for the larger developer community.
 
 ## Problem status
 
@@ -24,7 +24,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 ![New state for problem reporting on Developer Community](../ide/media/ProblemStates/New.jpg)
 
-**New** indicates that the bug or issue is newly reported, no action has been taken on it yet.
+**New** indicates that the bug or issue is newly reported, and no action has been taken on it yet.
 
 - - -
 

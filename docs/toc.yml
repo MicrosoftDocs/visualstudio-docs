@@ -1085,6 +1085,8 @@
     items:
     - name: Developer Community data privacy
       href: ide/developer-community-privacy.md
+  - name: Report a problem for Visual Studio
+    href: ide/report-a-problem.md
   - name: Suggest a feature for Visual Studio
     href: ide/suggest-a-feature.md
   - name: Customer Experience Improvement Program
