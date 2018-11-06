@@ -43,7 +43,7 @@ The Visual Studio debugger can save dump files for managed or native code. It ca
 
 -   To use Visual Studio to debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files or use the [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) debugging extension, download the debugging tools for Windows in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
 
--   Visual Studio can't debug dump files saved in the older [full user-mode](http://msdn.microsoft.com/library/windows/hardware/ff545506.aspx) dump format. Note that a full user-mode dump is not the same as a dump with heap.
+-   Visual Studio can't debug dump files saved in the older full user-mode dump format. Note that a full user-mode dump is not the same as a dump with heap.
 
 -   Debugging dump files of optimized code can be confusing. For example, compiler inlining of functions can result in unexpected call stacks, and other optimizations might change the lifetime of variables.
 
