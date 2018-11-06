@@ -33,13 +33,13 @@ Opening a dump file with a heap in Visual Studio is something like stopping at a
 
 Dumps are mostly used to debug issues from machines that developers don't have access to. You can use a dump file from a customer's machine when you can't reproduce a crash or hang on your own machine. Testers also create dumps to save crash or hang data to use for more testing. 
 
-The Visual Studio debugger can save dump files for managed or native code. It can load dump files created by Visual Studio or by other apps that save files in the *minidump* format.
+The Visual Studio debugger can save dump files for managed or native code. It can debug dump files created by Visual Studio or by other apps that save files in the *minidump* format.
 
 ##  <a name="BKMK_Requirements_and_limitations"></a> Requirements and limitations
 
--   To load dump files from 64-bit machines, Visual Studio must be running on a 64-bit machine.
+-   To debug dump files from 64-bit machines, Visual Studio must be running on a 64-bit machine.
 
--   Visual Studio can load dump files of native apps from ARM devices. It can also load dumps of managed apps from ARM devices, but only in the native debugger.
+-   Visual Studio can debug dump files of native apps from ARM devices. It can also load dumps of managed apps from ARM devices, but only in the native debugger.
 
 -   To use Visual Studio to debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files or use the [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) debugging extension, download the debugging tools for Windows in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
 
@@ -69,7 +69,7 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 
 1. Browse to a path and select a name for the dump file, and then select **Save**. 
 
->[!NOTE}
+>[!NOTE]
 >You can create dump files with any program that supports the Windows minidump format. For example, the **Procdump** command-line utility from [Windows Sysinternals](http://technet.microsoft.com/sysinternals/default) can create process crash dump files based on triggers or on demand. See [Requirements and limitations](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) for information about using other tools to create dump files.
 
 ##  <a name="BKMK_Open_a_dump_file"></a> Open a dump file
@@ -103,9 +103,9 @@ Visual Studio automatically searches these locations for *.exe* files that aren'
 
 1. The folder that contains the dump file.
 2. The module path the dump file specifies, which is the module path on the machine that collected the dump.
-3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Symbols**. You can also open this page from the **Actions** pane of the **Dump File Summary** window. On this page, you can add more locations to search.
+3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**. You can also open this page from the **Actions** pane of the **Dump File Summary** window. On this page, you can add more locations to search.
 
-### Use the No Binary, Symbols, or Source Found pages
+### Use the No Binary, No Symbols, or No Source Found pages
 
 If Visual Studio can't find the files it needs to debug a module in the dump, it shows a **No Binary Found**, **No Symbols Found**, or **No Source Found** page. These pages provide detailed information about the cause of the issue and provide action links that can help you locate the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
