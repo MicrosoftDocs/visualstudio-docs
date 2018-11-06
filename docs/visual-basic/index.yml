@@ -40,6 +40,11 @@ sections:
       image: 
         src: https://docs.microsoft.com/media/logos/logo_vb.svg
       title: Create your first Visual Basic app
+    - href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/visual-basic/toc.json&bc=/visualstudio/visual-basic/breadcrumb/toc.json
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/logos/logo_Windows.svg
+      title: Create a Universal Windows Platform (UWP) app
 - title: Develop Applications
   items:
   - type: paragraph
@@ -74,4 +79,4 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_generic-database.svg
       title: Access data
-      
+  
