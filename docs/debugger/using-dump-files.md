@@ -39,11 +39,11 @@ The Visual Studio debugger can save dump files for managed or native code. It ca
 
 -   To debug dump files from 64-bit machines, Visual Studio must be running on a 64-bit machine.
 
--   Visual Studio can debug dump files of native apps from ARM devices. It can also load dumps of managed apps from ARM devices, but only in the native debugger.
+-   Visual Studio can debug dump files of native apps from ARM devices. It can also debug dumps of managed apps from ARM devices, but only in the native debugger.
 
--   To use Visual Studio to debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files or use the [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) debugging extension, download the debugging tools for Windows in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
+-   To debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files or use the [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) debugging extension in Visual Studio, download the debugging tools for Windows in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
 
--   Visual Studio can't debug dump files saved in the older full user-mode dump format. Note that a full user-mode dump is not the same as a dump with heap.
+-   Visual Studio can't debug dump files saved in the older, full user-mode dump format. A full user-mode dump is not the same as a dump with heap.
 
 -   Debugging dump files of optimized code can be confusing. For example, compiler inlining of functions can result in unexpected call stacks, and other optimizations might change the lifetime of variables.
 
@@ -57,7 +57,7 @@ Dump files may or may not have heap information.
 
 ##  <a name="BKMK_Create_a_dump_file"></a> Create a dump file
 
-While you are debugging a process in Visual Studio, you can save a dump when the debugger has stopped at an exception or at a breakpoint. 
+While you are debugging a process in Visual Studio, you can save a dump when the debugger has stopped at an exception or breakpoint. 
 
 With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md) enabled, you can attach the Visual Studio debugger to a crashed process outside of Visual Studio, and then save a dump file from the debugger. See [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
@@ -92,7 +92,7 @@ To use full debugging features on a dump file, Visual Studio needs:
 
 - The *.exe* file the dump was created for, and other binaries (DLLs, etc.) that the dump process used.
 - Symbol (*.pdb*) files for the *.exe* and other binaries.
-- The *.exe* and *.pdb* files to match exactly the version and build of the files at dump creation.
+- The *.exe* and *.pdb* files that exactly match the version and build of the files at dump creation.
 - Source files for the relevant modules. You use the disassembly of the modules if you can't find the source files.
 
 If the dump has heap data, Visual Studio can cope with missing binaries for some modules, but it must have binaries for enough modules to generate valid call stacks. 
