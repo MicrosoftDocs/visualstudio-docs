@@ -3,7 +3,7 @@ title: "Install a Preview release"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 11/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
