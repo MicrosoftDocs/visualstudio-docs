@@ -37,7 +37,7 @@ When you finish, your program will look like the following picture:
 
 ## Tutorial links
 
-To download a completed version of the sample, see [Complete picture viewer tutorial sample](http://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).
+To download a completed version of the sample, see [Complete picture viewer tutorial sample](https://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).
 
 ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [How do I: Create a picture viewer in Visual Basic?](http://go.microsoft.com/fwlink/?LinkId=205207) or [How do I: Create a picture viewer in C#?](http://go.microsoft.com/fwlink/?LinkId=205198).
 

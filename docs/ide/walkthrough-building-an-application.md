@@ -219,5 +219,5 @@ Congratulations! You've successfully completed this walkthrough.
 ## See also
 
 - [Walkthrough: Build a project (C++)](/cpp/ide/walkthrough-building-a-project-cpp)
-- [ASP.NET web application project precompilation overview](http://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)
+- [ASP.NET web application project precompilation overview](/previous-versions/aspnet/aa983464\(v\=vs.110\))
 - [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md)

@@ -47,7 +47,7 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
   
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)  
   
-- [Scenario Marker Support](http://msdn.microsoft.com/en-us/e3b55bc2-b451-4214-ae00-0c7f5a5baec8)  
+- [Scenario Marker Support](/previous-versions/visualstudio/visual-studio-2010/dd984115\(v\=vs.100\))  
   
 - [C++ AMP (C++ Accelerated Massive Parallelism)](/cpp/parallel/amp/cpp-amp-cpp-accelerated-massive-parallelism)  
   

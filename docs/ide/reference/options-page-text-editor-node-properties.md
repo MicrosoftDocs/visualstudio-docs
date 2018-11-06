@@ -17,7 +17,7 @@ ms.workload:
 # Options Page, Text Editor Node Properties
 This document describes some pages (or properties collections) that are associated with the **Text Editor** category, `DTE.Properties("TextEditor", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the `Properties` collection, and the table in each subsection lists the properties in the collection.
 
- The Visual Basic macros in [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d) demonstrate how to display current options and their values for each page of the **Options** dialog box.
+ The Visual Basic macros in [Controlling Options Settings](https://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d) demonstrate how to display current options and their values for each page of the **Options** dialog box.
 
 ## General
  `DTE.Properties("TextEditor", "General")`
@@ -60,7 +60,7 @@ This document describes some pages (or properties collections) that are associat
 
 ## See Also
 
-- [Controlling Options Settings](http://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)
-- [Determining the Names of Property Items on Options Pages](http://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)
+- [Controlling Options Settings](https://msdn.microsoft.com/Library/a09ed242-7494-4cde-bbd1-7a8ec617965d)
+- [Determining the Names of Property Items on Options Pages](https://msdn.microsoft.com/Library/d450422d-47c7-4eeb-9f9f-3286264bc5aa)
 - [Options Page, Environment Node Properties](../../ide/reference/options-page-environment-node-properties.md)
 - [Options Page, Fonts and Colors Node Properties](../../ide/reference/options-page-fonts-and-colors-node-properties.md)
