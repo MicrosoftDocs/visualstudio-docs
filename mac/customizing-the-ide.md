@@ -89,7 +89,7 @@ Pads can be hidden and closed by the toggles in the top-right corner of each pad
 
 ![Hiding and Closing Pads](media/customizing-the-ide-image5a.png)
 
-Auto-hidden pads are docked to the sides of the workspace making them easily accessible when they are required. Hovering over the pad displays it again, and it will be hidden when the mouse and keyboard focus leaves it.
+Autohidden pads are docked to the sides of the workspace making them easily accessible when they are required. Hovering over the pad displays it again, and it will be hidden when the mouse and keyboard focus leaves it.
 
 ### Organizing layouts
 
@@ -107,7 +107,7 @@ However, it is possible to create a new layout by using the **View > Save Curren
 
 ### Side-by-side editing support
 
-Visual Studio for Mac allows you to open text editors side-by-side, or to have an editor as a detached floating window.
+Visual Studio for Mac allows you to open text editors side by side, or to have an editor as a detached floating window.
 
 2-column mode can be enabled through the View menu item by selecting **View > Editor Columns > 2 columns**, or by dragging an editor tab to one of the edges of the editor area:
 
@@ -117,7 +117,7 @@ Editor tabs can be dragged out of the document area to create a floating editor 
 
 ![Create new window](media/customizing-the-ide-sbs1.png)
 
-![Two column side-by-side with additional tabs](media/customizing-the-ide-sbs2.png)
+![Two columns side by side with additional tabs](media/customizing-the-ide-sbs2.png)
 
 ## See also
 

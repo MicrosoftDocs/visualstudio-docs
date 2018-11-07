@@ -24,12 +24,12 @@ A Point/PointF, or CGPoint in iOS and Mac, will render as a tuple showing the X 
 ![Point Visualization](media/data-visualizations-image10.png)
 
 ## Size
-A Size/SizeF, or CGSize in iOS and Mac, will render as a rectangle. It is drawn to scale until a dimension grows past 250px, at which point it will scale the rectangle with the largest dimension as 250px:
+A Size/SizeF, or CGSize in iOS and Mac, will render as a rectangle. It is drawn to scale until a dimension grows past 250 px, at which point it will scale the rectangle with the largest dimension as 250 px:
 
 [Size Visualization](media/data-visualizations-image11.png)
 
 ## Rectangle
-A Rectangle/RectangleF, or CGRect in iOS and Mac, will display the dimensions and origin. Similar to Size, it is drawn to scale, until a dimension grows past 250px:
+A Rectangle/RectangleF, or CGRect in iOS and Mac, will display the dimensions and origin. Similar to Size, it is drawn to scale, until a dimension grows past 250 px:
 
 ![Rectangle Visualization](media/data-visualizations-image12.png)
 
@@ -45,7 +45,7 @@ This will display UIColor, CGColor, and Color properties, depicting the color pr
 
 ## Images
 
-Media will be rendered to scale, up to a maximum dimension of 250px, and will be scaled to fit when the image exceeds 250px:
+Media will be rendered to scale, up to a maximum dimension of 250 px, and will be scaled to fit when the image exceeds 250 px:
 
 ![Image Visualization](media/data-visualizations-image15.png)
 
@@ -57,7 +57,7 @@ The visualizer will display an `NSBezierPath`:
 
 ## String
 
-A string of less than 100 characters are displayed in full, without a preview. Longer strings are displayed in full in the preview. Strings are editable, and the visualizer is accompanied by an edit button, allowing the string value to be edited either in the preview or in the String Value Editor, shown below:
+A string of fewer than 100 characters is displayed in full, without a preview. Longer strings are displayed in full in the preview. Strings are editable, and the visualizer is accompanied by an edit button, allowing the string value to be edited either in the preview or in the String Value Editor, shown below:
 
 ![String Visualization](media/data-visualizations-image17.png)
 
