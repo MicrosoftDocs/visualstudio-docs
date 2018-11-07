@@ -76,7 +76,7 @@ Right-click on **Packages** to access the context menu:
 *   **Update** - Checks the source server for each package and downloads any newer versions.
 *   **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
 
-Update and Restore options are also available at the Solution level, and affect all the projects in the solution. 
+Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
 
 You can also right-click on individual packages to access a context menu:
 
@@ -91,7 +91,7 @@ You can also right-click on individual packages to access a context menu:
 
 Packages available for installation are initially retrieved from nuget.org. However, you can add other package locations to Visual Studio for Mac. This can be useful for testing your own NuGet packages under development, or to use a private NuGet server inside your company or organization.
 
-In Visual Studio for Mac, navigate to **Visual Studio > Preferences... > NuGet > Sources** to view and edit the list of package sources. Note that sources can be a remote server (specified by a URL) or a local directory. 
+In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > Sources** to view and edit the list of package sources. Note that sources can be a remote server (specified by a URL) or a local directory.
 
 ![Package Sources](media/nuget-walkthrough-PackageSource.png)
 
