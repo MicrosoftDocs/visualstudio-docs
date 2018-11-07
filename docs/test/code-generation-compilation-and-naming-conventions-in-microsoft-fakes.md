@@ -24,7 +24,7 @@ This article discusses options and issues in Fakes code generation and compilati
 
 ## Code generation and compilation
 
-### Configure code generation of stubs
+### <a name="configure-code-generation-of-stubs"></a>Configure code generation of stubs
 
 The generation of stub types is configured in an XML file that has the *.fakes* file extension. The Fakes framework integrates in the build process through custom MSBuild tasks and detects those files at build time. The Fakes code generator compiles the stub types into an assembly and adds the reference to the project.
 

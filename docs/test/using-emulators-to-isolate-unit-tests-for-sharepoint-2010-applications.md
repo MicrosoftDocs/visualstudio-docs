@@ -261,7 +261,7 @@ Not all SharePoint types are emulated, and not all methods in some emulated type
 
 To explicitly call Microsoft Fakes shims:
 
-1.  If you want to shim a SharePoint class that is not emulated, edit the *Microsoft.SharePoint.fakes* file and add the class to the list of shimmed classes. See the [Configuring code generation of stubs and shims](code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md#BKMK_Configuring_code_generation_of_stubs) section of [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md).
+1.  If you want to shim a SharePoint class that is not emulated, edit the *Microsoft.SharePoint.fakes* file and add the class to the list of shimmed classes. See the [Configure code generation of stubs](code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md#configure-code-generation-of-stubs) section of [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md).
 
      ![Fakes folder in Solution Explorer](../test/media/ut_emulators_fakesfilefolder.png)
 
