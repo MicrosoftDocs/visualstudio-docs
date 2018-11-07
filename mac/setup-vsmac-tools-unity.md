@@ -6,7 +6,7 @@ ms.author: v-davian
 ms.date: 05/25/2018
 ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
 ---
-# Setup Visual Studio for Mac Tools for Unity
+# Set up Visual Studio for Mac Tools for Unity
 
 This section explains how to get started using Visual Studio for Mac Tools for Unity.
 
@@ -14,7 +14,7 @@ This section explains how to get started using Visual Studio for Mac Tools for U
 
 ### Unity Bundled Installation
 
-Starting with Unity 2018.1, Visual Studio for Mac is the default C# IDE for Unity, and is included in the Unity Download Assistant, as well as the Unity Hub installation tool. Download Unity from [store.unity.com](https://store.unity.com/).
+Starting with Unity 2018.1, Visual Studio for Mac is the default C# integrated development environment (IDE) for Unity, and is included in the Unity Download Assistant as well as the Unity Hub installation tool. Download Unity from [store.unity.com](https://store.unity.com/).
 
 During installation, ensure that Visual Studio for Mac is checked in the list of components to install with Unity:
 

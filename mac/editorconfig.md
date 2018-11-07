@@ -28,7 +28,7 @@ The editor in Visual Studio for Mac supports the core set of [EditorConfig prope
 - `insert_final_newline`
 - `root`
 
-EditorConfig also supports [Coding conventions](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
+EditorConfig also supports [Coding conventions](/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
 
 ## Add an EditorConfig file to a project
 
@@ -130,7 +130,7 @@ In the example above, some settings are applied to all files in the project and 
 
 ![after editorconfig settings have been applied](media/editorconfig-image5.png)
 
-For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
+For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](/visualstudio/ide/editorconfig-code-style-settings-reference) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
 
 ## Override EditorConfig Settings
 
