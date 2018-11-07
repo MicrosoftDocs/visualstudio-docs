@@ -170,7 +170,7 @@ In the **UI Control Map** pane, select the container control that you want to lo
 > [!NOTE]
 > Prior to locating the UI controls, verify that the application associated with the test is running.
 
-## Insert a delay before a UI action
+## <a name="insert-a-delay-before-a-ui-action"></a>Insert a delay before a UI action
 
 Sometimes, you might want to make the test wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. Using the Coded UI Test Editor, you can accomplish this by inserting a delay before a UI action. You can specify how many seconds you want the delay to be.
 

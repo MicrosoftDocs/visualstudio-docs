@@ -481,7 +481,7 @@ namspace MySPAppTests
 
  <xref:Microsoft.SharePoint.SPField?displayProperty=nameWithType>
 
- <xref:Microsoft.SharePoint.SPFieldIndex>
+ <xref:Microsoft.SharePoint.SPFieldIndex?displayProperty=nameWithType>
 
  <xref:Microsoft.SharePoint.SPFieldIndexCollection?displayProperty=nameWithType>
 
