@@ -8,7 +8,7 @@ ms.assetid: 8254505D-D96E-48BD-8A5E-CF6A917897EA
 ---
 # Projects and Solutions
 
-Visual Studio for Mac provides a _Solution Pad_ to display a tree view of the entire open solution. **Solution Pad** allows easy access to source code, resources, user interfaces, and assembly references contained in individual projects. Solution Pad, by default, opens one solution at a time. Each solution can include many projects, and each project can contain many items.
+Visual Studio for Mac provides a _Solution Pad_ to display a tree view of the entire open solution. The **Solution** pad allows easy access to source code, resources, user interfaces, and assembly references contained in individual projects. Solution Pad, by default, opens one solution at a time. Each solution can include many projects, and each project can contain many items.
 
 ## Using Projects and Solutions
 

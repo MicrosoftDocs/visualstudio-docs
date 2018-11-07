@@ -54,9 +54,9 @@ If you have an existing project that _is not_ already in version control, use th
 
     ![Enter git details dialog](media/version-control-git6.png)
 
-    Note that it is also possible to use SSH to connect to Git.
+    It is also possible to use SSH to connect to Git.
 
-5. To attempt to publish the app to Git, select the repository,  and ensure that both **Module Name** and **Message** text fields are completed:
+5. To attempt to publish the app to Git, select the repository, and ensure that both **Module Name** and **Message** text fields are completed:
 
     ![Attempt to publish project to git](media/version-control-git7.png)
 
@@ -82,9 +82,9 @@ The new project dialog can be used to publish a new project using git. To enable
 
 ![Push Changes to remote repository](media/version-control-git12.png)
 
-## Checkout an existing repository
+## Check out an existing repository
 
-It's very likely that you'll have to work with a GitHub repo that exists only on the remote, not on your local machine. Visual Studio for Mac allows you to checkout this repo quickly. Follow the steps below to clone it to your machine:
+It's likely that you'll have to work with a GitHub repo that exists only on the remote, not on your local machine. Visual Studio for Mac allows you to check this repo out quickly. Follow the steps below to clone it to your machine:
 
 1. In the Menu bar, select **Version Control > Checkout**:
 
