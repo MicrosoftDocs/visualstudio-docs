@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with ASP.NET Core" 
+title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
 author: conceptdev
 ms.author: crdun
@@ -57,7 +57,7 @@ public static void Main(string[] args)
 	host.Run();
 }
 ```
-An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](https://docs.microsoft.com/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
+An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
 
 * `UseKestrel`: Specifies the Kestrel server will be used by the app
 * `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
@@ -103,7 +103,7 @@ This Startup class must always adhere to the following rules:
 
 The `ConfigureServices` method defines the services that will be used by your app.
 
-The `Configure` allows you to compose your request pipeline using [Middleware](https://docs.microsoft.com/aspnet/core/fundamentals/middleware). These are components used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of a number of request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
+The `Configure` allows you to compose your request pipeline using [Middleware](/aspnet/core/fundamentals/middleware). These are components used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of a number of request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
 
 You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApplicationBuilder`, but the `Run` method will never call a next delegate and should always be used at the end of your pipeline.
 
@@ -129,7 +129,7 @@ ASP.NET Core Apps use the Model-View-Controller (MVC) design pattern to provide 
 - **View**: Displays the app's user interface (which is often the model data).
 - **Controller**: A class which handles browser requests, responds to user input and interaction.
 
-For more information on using MVC refer to [Overview of ASP.NET Core MVC](https://docs.microsoft.com/aspnet/core/mvc/overview) guide.
+For more information on using MVC refer to [Overview of ASP.NET Core MVC](/aspnet/core/mvc/overview) guide.
 
 To add a controller, do the following:
 
@@ -228,6 +228,6 @@ Make sure to complete all four steps successfully to ensure that .NET Core is in
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, refer to the following guides:
-- [ASP.NET Core](https://docs.microsoft.com/aspnet/core/?view=aspnetcore-2.1#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
-- [Creating Backend Services for Native Mobile Applications](https://docs.microsoft.com/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
+- [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
+- [Creating Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
