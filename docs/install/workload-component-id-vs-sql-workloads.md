@@ -1,6 +1,6 @@
 ---
-title: Visual Studio Test Professional 2017 workload and component IDs
-description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
+title: Visual Studio SQL Server Data Tools 2017 workload and component IDs
+description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
 keywords:
 author: TerryGLee
 ms.author: tglee
@@ -14,11 +14,11 @@ helpviewer_keywords:
 ms.service:
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
-ms.assetid: 70c03438-8434-4921-ada0-c172519af431
+ms.assetid:
 ms.workload:
   - "multiple"
 ---
-# Visual Studio Test Professional 2017 component directory
+# Microsoft SQL Server Data Tools for Visual Studio 2017 component directory
 
 The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
 
@@ -33,18 +33,40 @@ When you set dependencies in your VSIX manifest, you must specify Component IDs 
 
 For more information about how to use these IDs, see [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
 
-## Test Professional
+## Microsoft SQL Server Data Tools for Visual Studio
 
-**ID:** Microsoft.VisualStudio.Workload.TestProfessional
+**ID:** Microsoft.VisualStudio.Workload.SQL
 
-**Description:** Test Professional provides integrated testing tools targeted at generalist testers, which help them drive their testing needs across the entire testing lifecycle.
+**Description:** Microsoft SQL Server Data Tools for Visual Studio
 
 ### Components included by this workload
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.0.27005.2 | Required
-Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | 15.0.27005.2 | Required
+Microsoft.Component.ClickOnce | ClickOnce Publishing | 15.0.27019.1 | Required
+Microsoft.Component.MSBuild | MSBuild | 15.0.27019.1 | Required
+Microsoft.Net.Component.4.5.2.TargetingPack | .NET Framework 4.5.2 targeting pack | 15.0.26621.2 | Required
+Microsoft.Net.Component.4.5.TargetingPack | .NET Framework 4.5 targeting pack | 15.0.26621.2 | Required
+Microsoft.Net.Component.4.6.1.SDK | .NET Framework 4.6.1 SDK | 15.0.26621.2 | Required
+Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 targeting pack | 15.0.26621.2 | Required
+Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 targeting pack | 15.0.26621.2 | Required
+Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.6.1 development tools | 15.0.27005.2 | Required
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 1.10.50912.1 | Required
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 15.0.26606.0 | Required
+Microsoft.VisualStudio.Component.ManagedDesktop.Core | Managed Desktop Workload Core | 15.0.27019.1 | Required
+Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 15.0.27128.1 | Required
+Microsoft.VisualStudio.Component.PortableLibrary | .NET Portable Library targeting pack | 15.0.27019.1 | Required
+Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 15.0.27019.1 | Required
+Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 15.0.27019.1 | Required
+Microsoft.VisualStudio.Component.SQL.ADAL | SQL ADAL runtime | 15.0.26606.0 | Required
+Microsoft.VisualStudio.Component.SQL.CLR | CLR data types for SQL Server | 15.0.26208.0 | Required
+Microsoft.VisualStudio.Component.SQL.CMDUtils | SQL Server Command Line Utilities | 15.0.26208.0 | Required
+Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | SQL Server Express 2016 LocalDB | 15.0.26919.1 | Required
+Microsoft.VisualStudio.Component.SQL.NCLI | SQL Server Native Client | 15.0.26208.0 | Required
+Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 15.0.26906.1 | Required
+Microsoft.VisualStudio.Component.Static.Analysis.Tools | Static analysis tools | 15.0.26208.0 | Required
+Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation | 15.0.26208.0 | Required
+Microsoft.VisualStudio.Component.VisualStudioData | Data sources and service references | 15.0.26208.0 | Required
 
 ## Unaffiliated components
 
