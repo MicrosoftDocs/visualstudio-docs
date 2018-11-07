@@ -58,5 +58,5 @@ ms.workload:
 ## See also
  [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)   
  [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)  
- [How to: Create a Package](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b)  
+ [How to: Create a Package](https://msdn.microsoft.com/b24be45c-e91d-49bb-afb0-7b265404214b)  
   

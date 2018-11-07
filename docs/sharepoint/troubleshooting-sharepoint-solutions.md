@@ -21,7 +21,7 @@ ms.workload:
   - "office"
 ---
 # Troubleshoot SharePoint solutions
-  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](http://msdn.microsoft.com/en-us/3a5392f3-66f3-48be-956e-02de23fa6247).
+  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](https://msdn.microsoft.com/3a5392f3-66f3-48be-956e-02de23fa6247).
   
 ## Token restrictions in sandboxed visual web parts
  Visual web parts in sandboxed solutions can't process standard tokens, such as $SPUrl, that the SharePoint runtime supports. As a result, the URL isn't resolved, and you can't preview the content in Design view in the visual web part designer if you refer to it directly in a script element, such as in the following example:  
@@ -99,7 +99,7 @@ ms.workload:
  None.  
   
 ### Resolution  
- This problem occurs because of an incorrect value in the **Path** property for the webtemp site definition configuration file, such as *webtemp_SiteDefinitionProject1.xml*. In the **Path** property for the webtemp file, located under the **Deployment Location**, change 1033 to the appropriate locale [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, to use a Japanese locale change the value to 1041. For more information, see [Locale IDs Assigned by Microsoft](http://go.microsoft.com/fwlink/?LinkID=165561) on the MSDN Web site.  
+ This problem occurs because of an incorrect value in the **Path** property for the webtemp site definition configuration file, such as *webtemp_SiteDefinitionProject1.xml*. In the **Path** property for the webtemp file, located under the **Deployment Location**, change 1033 to the appropriate locale [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, to use a Japanese locale change the value to 1041. For more information, see [Locale IDs Assigned by Microsoft](http://go.microsoft.com/fwlink/?LinkID=165561).  
   
 ## Error appears when a workflow project is deployed on a clean system
  This problem occurs if you deploy a workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] on a clean system. A clean system is a computer that has a fresh installation of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and SharePoint but no deployed workflow projects.  
