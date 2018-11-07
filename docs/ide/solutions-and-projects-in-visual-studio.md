@@ -29,6 +29,9 @@ ms.workload:
 ---
 # Solutions and projects in Visual Studio
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Add and remove project items](/mac/add-and-remove-project-items).
+
 ## Projects
 
 When you create an app, website, plug-in, etc. in Visual Studio, you start with a *project*. In a logical sense, a project contains all the source code files, icons, images, data files, etc. that are compiled into an executable, library, or website. A project also contains compiler settings and other configuration files that might be needed by various services or components that your program communicates with.
@@ -69,3 +72,4 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 ## See also
 
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Add and remove project items (Visual Studio for Mac)](/mac/add-and-remove-project-items)

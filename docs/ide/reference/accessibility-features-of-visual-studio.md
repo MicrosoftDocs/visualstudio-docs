@@ -33,11 +33,13 @@ In addition to accessibility features and utilities in Windows, the following fe
 
 -   Auto-completion for methods and parameters
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Accessibility for Visual Studio for Mac](/mac/accessibility).
+
 > [!IMPORTANT]
 > The information in this section applies only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary-information card that came with your software package, or you can visit the [Contact Us page for Microsoft Support](http://support.microsoft.com/ContactUs) and click the **Locate Microsoft Offices Worldwide** link (near the bottom of the page). This page provides a list of telephone numbers and addresses for Microsoft support services. You can contact your subsidiary to find out whether the types of products and services that are described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.
 
-
- For more information, see the following topics:
+For more information, see the following topics:
 
 -   [How to: Set IDE Accessibility options](../../ide/reference/how-to-set-ide-accessibility-options.md)
 
