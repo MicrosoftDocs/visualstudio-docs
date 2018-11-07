@@ -1,7 +1,7 @@
 ---
 title: "Use dump files in the Visual Studio debugger | Microsoft Docs"
 ms.custom: "H1HackMay2017"
-ms.date: "11/05/2016"
+ms.date: "11/05/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
