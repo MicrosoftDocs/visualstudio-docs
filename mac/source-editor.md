@@ -67,7 +67,7 @@ The column ruler is useful for determining line lengths, particularly when worki
 
 ## Highlight identifier references
 
-With the "Highlight identifier references" option is enabled, you can select any symbol in the source code and the source editor will provide a visual guide to all other references in that file. To turn on this option, go to **Visual Studio > Preferences... > Text Editor > Markers and Rulers** and select _Highlight identifier references_, as illustrated in the following image:
+With the "Highlight identifier references" option is enabled, you can select any symbol in the source code and the source editor will provide a visual guide to all other references in that file. To turn on this option, go to **Visual Studio > Preferences > Text Editor > Markers and Rulers** and select _Highlight identifier references_, as illustrated in the following image:
 
 ![Preferences dialog with "Highlight identifier references" highlighted](media/source-editor-image6.png)
 

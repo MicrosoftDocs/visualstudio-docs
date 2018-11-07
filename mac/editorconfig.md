@@ -99,9 +99,7 @@ To reflect the settings from the `.editorconfig` file, select the solution node 
 
 ## Editing an EditorConfig file
 
-
 EditorConfig files use a straightforward file layout to specify settings, which is explained below using a previous example:
-
 
 ```EditorConfig
 # This file is the top-most EditorConfig file
@@ -118,7 +116,7 @@ trim_trailing_whitespace = false
 csharp_new_line_before_open_brace = none
 ```
 
-Setting `root` to `true` will flag this file as the top-most file of the codebase and any higher `.editorconfig` files in the project will be ignored, as explained in the [Override EditorConfig Settings](#override-editorconfig-settings) section.
+Setting `root` to `true` flags this file as the top-most file of the codebase and any higher `.editorconfig` files in the project are ignored, as explained in the [Override EditorConfig Settings](#override-editorconfig-settings) section.
 
 Each section is denoted by square (**[ ]**) braces and specifies information on the types of files the following properties should pertain to.
 
@@ -144,3 +142,7 @@ If you want to ensure that _no_ settings from any higher-level `.editorconfig` f
 # top-most EditorConfig file
 root = true
 ```
+
+## See also
+
+- [Create custom editor settings with EditorConfig (Visual Studio on Windows)](/visualstudio/ide/create-portable-custom-editor-options)
