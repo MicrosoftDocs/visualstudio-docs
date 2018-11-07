@@ -355,7 +355,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## FAQ
 
-[Coded UI tests FAQ](https://social.msdn.microsoft.com/Forums/en-US/3a74dd2c-cef8-4923-abbf-7a91f489e6c4/faqs?forum=vsautotest)
+[Coded UI tests FAQ](https://social.msdn.microsoft.com/Forums/vsautotest/3a74dd2c-cef8-4923-abbf-7a91f489e6c4/faqs)
 
 ## See also
 
