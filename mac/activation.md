@@ -38,3 +38,7 @@ Currently, there is no way to utilize a product key to enable Professional or En
 > To activate your Visual Studio 2017 for Mac Professional or Enterprise subscription, you must be connected to the internet when signing in.
 
 If you have purchased Visual Studio Enterprise 2017 for Mac for machines without an internet connection, you may continue to use Visual Studio for Mac without activation, but Xamarin Inspector, Xamarin Profiler, and embedded assemblies features will not be available.
+
+## See also
+
+- [Sign in to Visual Studio (Windows)](/visualstudio/ide/signing-in-to-visual-studio)

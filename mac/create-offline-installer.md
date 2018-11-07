@@ -9,5 +9,9 @@ ms.assetid: 5CA4B8C1-2D01-46EA-A6B2-8573B324509B
 ---
 # Create an Offline Installer for Visual Studio for Mac
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > An offline installer feature is planned for future versions of Visual Studio for Mac.
+
+## See also
+
+- [Create an offline installation of Visual Studio (Windows)](/visualstudio/install/create-an-offline-installation-of-visual-studio)

@@ -51,13 +51,13 @@ This is where files for the source code, resources, user interface, and dependen
 For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](projects-and-solutions.md) article.
 
 ## Assembly References
- 
+
 Assembly references for each project are available under the References folder:
 
 ![References folder in solution pad](media/ide-tour-image19.png)
 
 Additional references are added using the **Edit References** dialog, which is displayed by double-clicking on the References folder, or by selecting **Edit References** on its context menu actions:
- 
+
 ![Edit References Dialog](media/ide-tour-image20.png)
 
 For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](managing-references-in-a-project.md) article.
@@ -88,7 +88,7 @@ For more information on the debugger's data visualizations, visit the [Data Visu
 
 ## Version Control
 
-Visual Studio for Mac integrates with Git and Subversion source control systems. Projects under source control are denoted with the branch listed next to the Solution name: 
+Visual Studio for Mac integrates with Git and Subversion source control systems. Projects under source control are denoted with the branch listed next to the Solution name:
 
 ![Branch name to indicate project under source control](media/ide-tour-image22.png)
 
@@ -97,3 +97,7 @@ Files with uncommitted changes have an annotation on their icons in the Solution
 ![Uncommitted files in solution pad](media/ide-tour-image23.png)
 
 For more information on using version control in Visual Studio, see the [Version Control](version-control.md) article.
+
+## See also
+
+- [Visual Studio IDE (Windows)](/visualstudio/ide/visual-studio-ide)

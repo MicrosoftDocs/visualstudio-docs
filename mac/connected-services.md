@@ -9,17 +9,12 @@ ms.date: 04/04/2018
 
 # Connected Services walkthrough
 
-The Connected Services workflow brings the Azure portal workflow into Visual Studio for Mac,
-so you don’t have to leave your project to add services.
+The Connected Services workflow brings the Azure portal workflow into Visual Studio for Mac, so you don’t have to leave your project to add services.
 
-This walkthrough shows how to add an Azure backend service, which brings
-cloud data storage, authentication, and push notifications
-to a cross-platform Xamarin.Forms Portable Class Library (PCL) application.
+This walkthrough shows how to add an Azure backend service, which brings cloud data storage, authentication, and push notifications to a cross-platform Xamarin.Forms Portable Class Library (PCL) application.
 
-
-1.	Start by double-clicking on the **Connected Services** node in the solution, which will bring up the **Services Gallery**.
-  This is a list of all the available services for the application type. Select a service
-  (such as **Mobile backend with Azure App Service**) by clicking on it.
+1. Start by double-clicking on the **Connected Services** node in the solution, which brings up the **Services Gallery**.
+  This is a list of all the available services for the application type. Select a service (such as **Mobile backend with Azure App Service**) by clicking on it.
 
     [![Connected Services node in Visual Studio for Mac](media/connected-services-image001-sml.png "Connected Services node in Visual Studio for Mac")](media/connected-services-image001.png#lightbox)
 
@@ -71,5 +66,8 @@ A new service requires the following parameters:
 -	**Resource Group** – a way or organizing all your Azure resources for a project. Option to use existing or create a new one. If this is your first Azure service, create a new one.
 -	**Service Plan** – Determines the location and cost of any resources that use it. Option to use existing or create a new one. If this is your first Azure service, use the default one or create a new one in the free tier (F1).
 
-Visit the [Azure App Service documentation](https://azure.microsoft.com/documentation/learning-paths/appservice-mobileapps/) for
-more information.
+Visit the [Mobile apps documentation](/azure/app-service-mobile/) for more information.
+
+## See also
+
+- [Visual Studio Connected Services (Windows)](/visualstudio/azure/vs-azure-tools-connected-services-storage)

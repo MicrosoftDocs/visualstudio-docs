@@ -27,17 +27,18 @@ To build, rebuild, or clean an entire solution:
     * **Rebuild All** - Cleans the solution and then builds it.
     * **Clean All** - Removes all build products from your solution.
 
-
-
 ## To build or rebuild a single project
 
 1. In the Solution Pad, select the project.
 
 2. On the menu bar, choose Build, and then choose either Build[ProjectName], Rebuild[ProjectName], or Clean[ProjectName].
 
-
 ## To stop a build
 
 To stop a build, press the red square in the status area:
 
- ![Press red square to stop build](media/compiling-and-building-image3.png)
+![Press red square to stop build](media/compiling-and-building-image3.png)
+
+## See also
+
+- [Build and clean projects and solutions (Windows)](/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio)

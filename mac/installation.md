@@ -8,7 +8,7 @@ ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ---
 
-# Setup and Install Visual Studio for Mac
+# Set up and Install Visual Studio for Mac
 
 ## Setup
 
@@ -81,7 +81,6 @@ For working with iOS in Visual Studio you need the following pieces:
 > [!NOTE]
 > If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the [installer](https://visualstudio.microsoft.com/vs/) again if you wish to add the components later.
 
-
 ## Install Visual Studio for Mac behind a firewall or proxy server
 
 To install Visual Studio for Mac behind a firewall, certain endpoints must be made accessible in order to allow downloads of the required tools and updates for your software.
@@ -99,7 +98,6 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 1. [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)
 2. [Device Provisioning](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning)(To run your application on device).
 
-
 ### Android
 
 1. [Using the Xamarin Android SDK Manager](https://developer.xamarin.com/guides/android/getting_started/installation/android-sdk/?ide=xs)
@@ -109,3 +107,7 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
 For other Workloads, refer to the [Workloads](workloads.md) page.
+
+## See also
+
+- [Install Visual Studio 2017 (Windows)](/visualstudio/install/install-visual-studio)
