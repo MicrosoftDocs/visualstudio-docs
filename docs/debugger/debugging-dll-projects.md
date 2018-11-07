@@ -23,25 +23,25 @@ ms.workload:
 ---
 # Debug DLLs in Visual Studio
 
-A DLL (dynamic link library) is a library that contains code and data that can be used by more than one app. You can use Visual Studio to create, build, configure, and debug DLLs. 
+A DLL (dynamic-link library) is a library that contains code and data that can be used by more than one app. You can use Visual Studio to create, build, configure, and debug DLLs. 
 
 ## Create a DLL
 
 The following Visual Studio project templates can create DLLs:
 
-- C# or Visual Basic Class Library (.NET Framework or Universal Windows)
+- C# or Visual Basic Class Library 
 - C# or Visual Basic Windows Forms Control (WCF) Library 
-- C++ Dynamic-Link Library (DLL) or C++ DLL (Universal Windows)
+- C++ Dynamic-Link Library (DLL)
 
 For more information, see [MFC debugging techniques](../debugger/mfc-debugging-techniques.md).
 
-You usually call a DLL from another project. When you debug the calling project, you can step into the code of the DLL, set breakpoints, and do other debugging operations. 
-
 Debugging a WCF Library is similar to debugging a Class Library. For details, see [Windows Forms Controls](/dotnet/framework/winforms/controls/index).  
+
+You usually call a DLL from another project. When you debug the calling project, depending on the DLL configuration, you can step into and debug the DLL code. 
 
 ## <a name="vxtskdebuggingdllprojectschangingdefaultconfigurations"></a> DLL debug configuration
 
-When you use a Visual Studio project template to create a console app, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for Debug and Release build configurations. You can change these settings if necessary. For more information, see the following articles:
+When you use a Visual Studio project template to create an app, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for Debug and Release build configurations. You can change these settings if necessary. For more information, see the following articles:
 
 - [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Project settings for C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
@@ -62,9 +62,9 @@ For more information, see [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-ad
 
 ### <a name="vxtskdebuggingdllprojectsexternal"></a> Set C/C++ DLL file locations 
 
-To debug an external DLL, a calling project must be able to find the DLL, its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md), and any other files required for the DLL. You can create a custom build task to copy these files to your *\<project folder>\Debug* output folder, or you can copy the files there manually.
+To debug an external DLL, a calling project must be able to find the DLL, its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md), and any other files the DLL requires. You can create a custom build task to copy these files to your *\<project folder>\Debug* output folder, or you can copy the files there manually.
 
-You can set C/C++ header and LIB file locations in the project property pages, instead of copying them to the output folder. 
+For C/C++ projects, you can set header and LIB file locations in the project property pages, instead of copying them to the output folder. 
 
 **To set C/C++ header and LIB file locations:**
 
@@ -84,46 +84,45 @@ For more information on C++ project settings, see [Property pages (Visual C++)](
   
 ##  <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Build a Debug version  
 
-To debug a DLL, a calling project must be able to find the DLL, its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md), and any other files required for the DLL. 
-
-Make sure to build a Debug version of a DLL first, and then call the DLL in the correct location. This may seem obvious, but if a calling app finds and loads a different version of a DLL, the debugger will never hit the breakpoints in the correct version. 
+Make sure to build a Debug version of the DLL before you start debugging. To debug a DLL, a calling app be able to find its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and any other files the Debug build requires. 
 
 You can create a custom build task to copy the DLL files to your *\<calling project folder>\Debug* output folder, or you can copy the files there manually.
 
+Make sure to call the DLL in its correct location. This may seem obvious, but if a calling app finds and loads a different copy of the DLL, the debugger will never hit the breakpoints you set. 
+
 ##  <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Debug a DLL  
 
-You can debug a DLL from its [calling project](#vxtskdebuggingdllprojectsthecallingapplication), from the DLL project itself, or by using the debugger [Immediate window](#vxtskdebuggingdllprojectstheimmediatewindow).
+You can't run a DLL directly. It must be called by an app, usually an *.exe* file. For more information, see [Create and manage Visual C++ projects](/cpp/ide/creating-and-managing-visual-cpp-projects). 
 
-To start debugging, select **Debug** > **Start Debugging**, select the green arrow in the toolbar, or press **F5**. For more information, see [Get started with the debugger](getting-started-with-the-debugger.md).
+To debug a DLL, you can [start debugging from the calling app](#vxtskdebuggingdllprojectsthecallingapplication), or [debug from the DLL project](how-to-debug-from-a-dll-project.md) by specifying its calling app. You can also use the debugger [Immediate window](#vxtskdebuggingdllprojectstheimmediatewindow) to evaluate DLL functions or methods at design time, without using a calling app.
 
-During debugging, the **Modules** window lists the DLLs and *.exe* files your app has loaded for the process you're debugging. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules**. For more information, see [How to: Use the Modules window](../debugger/how-to-use-the-modules-window.md). 
+For more information, see [Get started with the debugger](getting-started-with-the-debugger.md).
 
-To debug a DLL project directly, see [How to: Debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md).  
-  
 ### <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Start debugging from the calling app
 
-You can't run a DLL directly. It must be called by an app, usually an *.exe* file. The calling app can be:  
+The app that calls a DLL can be:  
   
-- An app in a different [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution, or in another project in the same solution as the DLL.  
-- An app that is already deployed and running on a test or production computer.  
-- An app located on the web that is accessed through a URL.  
+- An app from a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project in the same or a different solution from the DLL.  
+- An existing app that is already deployed and running on a test or production computer.  
+- Located on the web and accessed through a URL.  
 - A web app with a web page that embeds the DLL.  
   
-For more information, see [Create and manage Visual C++ projects](/cpp/ide/creating-and-managing-visual-cpp-projects). 
 
 To debug a DLL from a calling app, you can:  
   
-- Open the project for the calling app, and start execution from the **Debug** menu.  
+- Open the project for the calling app, and start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.  
 
   or  
 
-- Attach to an app that is deployed and running on a test or production computer. Use this method for DLL controls in Internet Explorer or on web pages. For more information, see [How to: Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
+- Attach to an app that is already deployed and running on a test or production computer. Use this method for DLLs on websites or in web apps. For more information, see [How to: Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
-Before you start debugging the calling app, set a breakpoint in the DLL. See [Using breakpoints](../debugger/using-breakpoints.md). When the breakpoint is hit, you can step through the DLL code, observing the action at each line. For more information, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
+Before you start debugging the calling app, set a breakpoint in the DLL. See [Using breakpoints](../debugger/using-breakpoints.md). When the DLL breakpoint is hit, you can step through the code, observing the action at each line. For more information, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
   
+During debugging, you can use the **Modules** window to verify the DLLs and *.exe* files the app loads. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules**. For more information, see [How to: Use the Modules window](../debugger/how-to-use-the-modules-window.md). 
+
 ###  <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> Use the Immediate window  
 
- You can use the **Immediate** window at design time to evaluate functions or methods in the DLL, without using a calling app. The **Immediate** window plays the role of the calling app. 
+You can use the **Immediate** window to evaluate DLL functions or methods at design time. The **Immediate** window plays the role of a calling app. 
 
 For example, to test a method named `Test` in class `Class1`:
 
@@ -143,11 +142,11 @@ For example, to test a method named `Test` in class `Class1`:
    ?obj.Test(10);  
    ```  
    
-   The result is printed in the **Immediate** window.  
+   The result prints in the **Immediate** window.  
    
-1. You can continue to debug `Test` by placing a breakpoint inside it, and then evaluating the function again:  
+1. You can continue to debug `Test` by placing a breakpoint inside it, and then evaluating the function again.  
    
-   The breakpoint will be hit, and you can step through `Test`. After execution has left `Test`, the debugger will be back in Design mode.
+   The breakpoint will be hit, and you can step through `Test`. After execution has left `Test`, the debugger will be back in design mode.
 
 ##  <a name="vxtskdebuggingdllprojectsmixedmodedebugging"></a> Mixed-mode debugging  
 
