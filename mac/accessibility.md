@@ -74,4 +74,4 @@ For general information on using VoiceOver in macOS, refer to the following guid
 
 ## See also
 
-- [Accessibility features of Visual Studio (Windows)](../docs/ide/reference/accessibility-features-of-visual-studio.md)
+- [Accessibility features of Visual Studio (on Windows)](/visualstudio/ide/reference/accessibility-features-of-visual-studio)

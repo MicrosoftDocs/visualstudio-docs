@@ -14,4 +14,4 @@ ms.assetid: 5CA4B8C1-2D01-46EA-A6B2-8573B324509B
 
 ## See also
 
-- [Create an offline installation of Visual Studio (Windows)](/visualstudio/install/create-an-offline-installation-of-visual-studio)
+- [Create an offline installation of Visual Studio (on Windows)](/visualstudio/install/create-an-offline-installation-of-visual-studio)

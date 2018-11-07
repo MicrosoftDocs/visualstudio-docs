@@ -90,4 +90,4 @@ To enable this feature, browse to  **Visual Studio for Mac > Preferences > Debug
 
 ## See also
 
-- [Debugging in Visual Studio (Windows)](/visualstudio/debugger/)
+- [Debugging in Visual Studio (on Windows)](/visualstudio/debugger/)

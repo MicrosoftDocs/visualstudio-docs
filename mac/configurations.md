@@ -64,4 +64,4 @@ The following list provides some examples of data that could be included in run 
 
 ## See also
 
-- [Understand build configurations (Windows)](/visualstudio/ide/understanding-build-configurations)
+- [Understand build configurations (Visual Studio on Windows)](/visualstudio/ide/understanding-build-configurations)

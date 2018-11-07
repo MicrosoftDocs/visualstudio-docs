@@ -161,4 +161,4 @@ For information on the scope of areas that are available for development, see th
 
 ## See also
 
-- [Develop Visual Studio extensions (Windows)](/visualstudio/extensibility/starting-to-develop-visual-studio-extensions)
+- [Develop Visual Studio extensions (on Windows)](/visualstudio/extensibility/starting-to-develop-visual-studio-extensions)

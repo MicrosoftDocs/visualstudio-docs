@@ -70,4 +70,4 @@ Visit the [Mobile apps documentation](/azure/app-service-mobile/) for more infor
 
 ## See also
 
-- [Visual Studio Connected Services (Windows)](/visualstudio/azure/vs-azure-tools-connected-services-storage)
+- [Connected Services (Visual Studio on Windows)](/visualstudio/azure/vs-azure-tools-connected-services-storage)

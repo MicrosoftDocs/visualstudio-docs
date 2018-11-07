@@ -110,4 +110,4 @@ For other Workloads, refer to the [Workloads](workloads.md) page.
 
 ## See also
 
-- [Install Visual Studio 2017 (Windows)](/visualstudio/install/install-visual-studio)
+- [Install Visual Studio 2017 (on Windows)](/visualstudio/install/install-visual-studio)

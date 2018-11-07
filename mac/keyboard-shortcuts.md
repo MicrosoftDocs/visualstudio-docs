@@ -70,4 +70,4 @@ Expands word, sub-expressions, statement, and line member selection in a logical
 
 ## See also
 
-- [Keyboard shortcuts in Visual Studio (Windows)](/visualstudio/ide/tips-and-tricks-for-visual-studio)
+- [Keyboard shortcuts in Visual Studio (on Windows)](/visualstudio/ide/tips-and-tricks-for-visual-studio)

@@ -46,4 +46,4 @@ See the [MSBuild](/visualstudio/msbuild/msbuild) content for more information on
 
 ## See also
 
-- [Compile and build (Windows)](/visualstudio/ide/compiling-and-building-in-visual-studio)
+- [Compile and build (Visual Studio on Windows)](/visualstudio/ide/compiling-and-building-in-visual-studio)

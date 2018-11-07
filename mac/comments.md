@@ -44,4 +44,4 @@ Comments are also useful for documenting code for future developers that may int
 
 ## See also
 
-- [Comment out code (Windows)](/visualstudio/ide/quickstart-editor#comment-out-code)
+- [Comment out code (Visual Studio on Windows)](/visualstudio/ide/quickstart-editor#comment-out-code)

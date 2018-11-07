@@ -57,4 +57,4 @@ Select the **Rename** button.
 
 ## See also
 
-- [Create and edit build configurations (Windows)](/visualstudio/ide/how-to-create-and-edit-configurations)
+- [Create and edit build configurations (Visual Studio on Windows)](/visualstudio/ide/how-to-create-and-edit-configurations)

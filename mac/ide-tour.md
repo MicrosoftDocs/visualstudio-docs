@@ -100,4 +100,4 @@ For more information on using version control in Visual Studio, see the [Version
 
 ## See also
 
-- [Visual Studio IDE (Windows)](/visualstudio/ide/visual-studio-ide)
+- [Visual Studio IDE (on Windows)](/visualstudio/ide/visual-studio-ide)

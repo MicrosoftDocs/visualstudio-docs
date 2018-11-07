@@ -17,4 +17,4 @@ Block selections can also be edited to modify text on multiple lines at once. A 
 
 # See also
 
-- [Multi-caret select for Visual Studio (Windows)](/visualstudio/ide/finding-and-replacing-text#multi-caret-selection)
+- [Multi-caret select for Visual Studio (on Windows)](/visualstudio/ide/finding-and-replacing-text#multi-caret-selection)

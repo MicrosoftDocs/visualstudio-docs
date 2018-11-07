@@ -41,4 +41,4 @@ If you have purchased Visual Studio Enterprise 2017 for Mac for machines without
 
 ## See also
 
-- [Sign in to Visual Studio (Windows)](/visualstudio/ide/signing-in-to-visual-studio)
+- [Sign in to Visual Studio (on Windows)](/visualstudio/ide/signing-in-to-visual-studio)

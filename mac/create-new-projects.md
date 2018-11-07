@@ -34,4 +34,4 @@ You can filter this list using the Filter box or remove individual items from th
 
 ## See also
 
-- [Create solutions and projects (Windows)](/visualstudio/ide/creating-solutions-and-projects)
+- [Create solutions and projects (Visual Studio on Windows)](/visualstudio/ide/creating-solutions-and-projects)

@@ -41,4 +41,4 @@ To stop a build, press the red square in the status area:
 
 ## See also
 
-- [Build and clean projects and solutions (Windows)](/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio)
+- [Build and clean projects and solutions (Visual Studio on Windows)](/visualstudio/ide/building-and-cleaning-projects-and-solutions-in-visual-studio)

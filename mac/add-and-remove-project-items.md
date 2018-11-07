@@ -36,4 +36,4 @@ This displays the delete item dialog. Select one of the options to remove it fro
 
 ## See also
 
-- [Solutions and projects in Visual Studio (Windows)](/visualstudio/ide/solutions-and-projects-in-visual-studio)
+- [Solutions and projects in Visual Studio (on Windows)](/visualstudio/ide/solutions-and-projects-in-visual-studio)
