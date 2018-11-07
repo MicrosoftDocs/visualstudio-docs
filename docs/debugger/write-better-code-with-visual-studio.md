@@ -91,14 +91,14 @@ Next, hover over the green squiggly in the declaration of the `points` data memb
 Typically, this represents a problem that needs to be fixed. However, in the sample app you are in fact storing data in the `points` variable during the deserialization process, and then adding that value to the `totalpoints` data member. In this example, you know the intent of the code and can safely ignore the warning. However, if you want to eliminate the warning, you can replace the following code:
 
 ```csharp
-user.totalpoints = users[i].points;
+item.totalpoints = users[i].points;
 ```
 
-to this:
+with this:
 
 ```csharp
-user.points = users[i].points;
-user.totalpoints = users[i].points;
+item.points = users[i].points;
+item.totalpoints += users[i].points;
 ```
 
 The green squiggle goes away.
@@ -195,9 +195,9 @@ When you add the preceding `assert` statements and rerun the code (click the **R
 
 ![Assert resolves to false](../debugger/media/write-better-code-using-assert.png)
 
-The `assert` error tells you that there's a problem that you need to investigate.
+The `assert` error tells you that there's a problem that you need to investigate. Why use an `assert` statement if the debugger shows you an exception anyway? The answer is that `assert` can cover many scenarios where you don't necessarily see an exception. In this example, if we didn't call `Trim()`, the user will never see the `NullReferenceException` at this point and a `null` value will be added as `firstname` in your database. This could cause problems later on and might be harder to debug.
 
-During the debugging process, it's good to keep a particular `assert` statement until you know you need to replace it with an actual code fix. An easy option to fix this code is to get rid of the `Trim()` method call. If you don't need to call `Trim()`, your user will never see the `NullReferenceException`. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
+During the debugging process, it's good to keep a particular `assert` statement until you know you need to replace it with an actual code fix. An easy option to fix this code is to get rid of the `Trim()` method call. But, let's say you decide that you need to keep the `Trim()` method call to eliminate whitespace, and that the user might encounter the exception in a release build of the app. In that case, you must refactor code to make sure that your app doesn't throw a fatal exception. So, to fix this code, replace the following statement:
 
 ```csharp
 user.firstname = users[i].firstname.Trim();
@@ -216,7 +216,7 @@ else
 }
 ```
 
-Typically, when using `assert`, it's best to add `assert` statements at the entry point of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is null, so check them both with an `assert` statement at the function's entry point.
+Typically, when using `assert`, it's best to add `assert` statements at the entry point of a function or method. You are currently looking at the `UpdateRecords` method in the sample app. In this method, you know you are in trouble if either of the method arguments is `null`, so check them both with an `assert` statement at the function's entry point.
 
 ```csharp
 public static void UpdateRecords(List<User> db, User[] users)
