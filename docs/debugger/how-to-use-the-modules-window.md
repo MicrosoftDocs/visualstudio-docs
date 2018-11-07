@@ -1,7 +1,7 @@
 ---
 title: "View DLLs and executables in the Modules window | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "11/04/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
