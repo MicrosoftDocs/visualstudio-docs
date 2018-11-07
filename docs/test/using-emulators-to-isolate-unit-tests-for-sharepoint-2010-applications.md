@@ -275,7 +275,7 @@ To explicitly call Microsoft Fakes shims:
 
 **Implementing the shim delegate for a SharePoint method**
 
-In our example project, the `GetAppointmentsForToday` method calls the [SPList.GetItems(SPQuery)](xref:Microsoft.SharePoint.SPList.GetItems) SharePoint API method.
+In our example project, the `GetAppointmentsForToday` method calls the [SPList.GetItems(SPQuery)](xref:Microsoft.SharePoint.SPList.GetItems%2A) SharePoint API method.
 
 ```csharp
 // method under test
