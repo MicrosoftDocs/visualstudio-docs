@@ -53,4 +53,4 @@ If you delete one or more identities (MSA or AAD) associated with your subscript
 
 ## Next steps
 - Learn how to [link MSA and AAD accounts](/azure/active-directory/b2b/add-users-administrator) within AAD.
-- Learn more about [anonymization and GDPR compliance](gdpr-anonymization). 
+- Learn more about [anonymization and GDPR compliance](/gdpr-anonymization). 
