@@ -84,7 +84,7 @@ For more information on C++ project settings, see [Property pages (Visual C++)](
   
 ##  <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Build a Debug version  
 
-Make sure to build a Debug version of the DLL before you start debugging. To debug a DLL, a calling app be able to find its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and any other files the Debug build requires. 
+Make sure to build a Debug version of the DLL before you start debugging. To debug a DLL, a calling app must be able to find its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and any other files the DLL requires. 
 
 You can create a custom build task to copy the DLL files to your *\<calling project folder>\Debug* output folder, or you can copy the files there manually.
 
