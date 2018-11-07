@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug in Mixed Mode | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/5/2018"
+ms.date: "11/05/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
