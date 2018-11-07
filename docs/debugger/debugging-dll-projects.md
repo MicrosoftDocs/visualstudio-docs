@@ -128,7 +128,7 @@ For example, to test a method named `Test` in class `Class1`:
 
 1. With the DLL project open, open the **Immediate** window by selecting **Debug** > **Windows** > **Immediate** or pressing **Ctrl**+**Alt**+**I**.  
    
-1. Instantiate an object of type `Class1` by typing the following C# code in the **Immediate** window. This managed code works for C# and Visual Basic, with appropriate syntax changes:  
+1. Instantiate an object of type `Class1` by typing the following C# code in the **Immediate** window and pressing **Enter**. This managed code works for C# and Visual Basic, with appropriate syntax changes:  
    
    ```csharp
    Class1 obj = new Class1();  
