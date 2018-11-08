@@ -13,7 +13,7 @@ ms.technology: vs-ide-general
 # Create portable, custom editor settings with EditorConfig
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [EditorConfig in Visual Studio for Mac](/mac/editorconfig).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [EditorConfig in Visual Studio for Mac](/visualstudio/mac/editorconfig).
 
 In Visual Studio 2017, you can add an [EditorConfig](http://editorconfig.org/) file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. EditorConfig settings take precedence over global Visual Studio text editor settings. This means that you can tailor each codebase to use text editor settings that are specific to that project. You can still set your own personal editor preferences in the Visual Studio **Options** dialog box. Those settings apply whenever you're working in a codebase without an *.editorconfig* file, or when the *.editorconfig* file doesn't override a particular setting. An example of such a preference is indent style&mdash;tabs or spaces.
 
@@ -169,4 +169,4 @@ You can control the scope of your EditorConfig conventions by setting the ```roo
 - [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)
 - [EditorConfig.org](http://editorconfig.org/)
 - [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
-- [EditorConfig (Visual Studio for Mac)](/mac/editorconfig)
+- [EditorConfig (Visual Studio for Mac)](/visualstudio/mac/editorconfig)

@@ -21,7 +21,7 @@ ms.workload:
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
 > [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install behind a firewall or proxy server (Visual Studio for Mac)](/mac/install-behind-a-firewall-or-proxy-server).
+> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install behind a firewall or proxy server (Visual Studio for Mac)](/visualstudio/mac/install-behind-a-firewall-or-proxy-server).
 
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to "whitelist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 
@@ -139,4 +139,4 @@ Here are a few more support options:
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Install behind a firewall or proxy server (Visual Studio for Mac)](/mac/install-behind-a-firewall-or-proxy-server)
+* [Install behind a firewall or proxy server (Visual Studio for Mac)](/visualstudio/mac/install-behind-a-firewall-or-proxy-server)

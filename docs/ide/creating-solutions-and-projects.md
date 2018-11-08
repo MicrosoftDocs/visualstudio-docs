@@ -21,7 +21,7 @@ ms.workload:
 # Create solutions and projects
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/mac/create-new-projects).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
 
 *Projects* are logical containers in Visual Studio that hold the items needed to build your app, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. Solutions can also contain files that aren't connected to any specific project.
 
@@ -135,4 +135,4 @@ You can delete solutions and their contents permanently, but not by using the Vi
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
 - [Developer code samples](https://code.msdn.microsoft.com/)
-- [Create projects (Visual Studio for Mac)](/mac/create-new-projects)
+- [Create projects (Visual Studio for Mac)](/visualstudio/mac/create-new-projects)

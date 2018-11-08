@@ -30,7 +30,7 @@ ms.workload:
 # Solutions and projects in Visual Studio
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Add and remove project items](/mac/add-and-remove-project-items).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Add and remove project items](/visualstudio/mac/add-and-remove-project-items).
 
 ## Projects
 
@@ -72,4 +72,4 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 ## See also
 
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
-- [Add and remove project items (Visual Studio for Mac)](/mac/add-and-remove-project-items)
+- [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)

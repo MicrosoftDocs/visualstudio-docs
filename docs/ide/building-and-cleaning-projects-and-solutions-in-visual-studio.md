@@ -28,7 +28,7 @@ ms.workload:
 # Build and clean projects and solutions in Visual Studio
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build and clean projects and solutions in Visual Studio for Mac](/mac/building-and-cleaning-projects-and-solutions).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build and clean projects and solutions in Visual Studio for Mac](/visualstudio/mac/building-and-cleaning-projects-and-solutions).
 
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
 
@@ -116,4 +116,4 @@ Perform either of the following steps:
 - [C/C++ building reference](/cpp/build/reference/c-cpp-building-reference)
 - [Devenv command line switches](../ide/reference/devenv-command-line-switches.md)
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
-- [Build and clean projects and solutions (Visual Studio for Mac)](/mac/building-and-cleaning-projects-and-solutions)
+- [Build and clean projects and solutions (Visual Studio for Mac)](/visualstudio/mac/building-and-cleaning-projects-and-solutions)

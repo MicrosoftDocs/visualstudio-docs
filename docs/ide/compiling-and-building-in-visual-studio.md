@@ -17,7 +17,7 @@ ms.workload:
 # Compile and build in Visual Studio
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Compile and build in Visual Studio for Mac](/mac/compiling-and-building).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Compile and build in Visual Studio for Mac](/visualstudio/mac/compiling-and-building).
 
 Running a build creates assemblies and executable applications from your source code at any point during a development cycle. In general, the build process is very similar across many different project types such as Windows, ASP.NET, mobile apps, and others. The build process is also very similar across programming languages such as C#, Visual Basic, C++, and F#.
 
@@ -54,4 +54,4 @@ From there, you can explore a variety of other tasks:
 ## See also
 
 - [Building (compiling) website projects](https://msdn.microsoft.com/Library/a9cbb88c-8fff-4c67-848b-98fbfd823193)
-- [Compile and build (Visual Studio for Mac)](/mac/compiling-and-building)
+- [Compile and build (Visual Studio for Mac)](/visualstudio/mac/compiling-and-building)

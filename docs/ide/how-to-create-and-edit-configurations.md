@@ -24,7 +24,7 @@ ms.workload:
 # How to: Create and edit configurations
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create and edit configurations in Visual Studio for Mac](/mac/create-and-edit-configurations).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create and edit configurations in Visual Studio for Mac](/visualstudio/mac/create-and-edit-configurations).
 
 You can create several build configurations for a solution. For example, you can configure a debug build that your testers can use to find and fix problems, and you can configure different kinds of builds that you can distribute to different customers.
 
@@ -124,4 +124,4 @@ In the **Configuration Manager** dialog box, you can use the **Active solution c
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
-- [Create and edit configurations (Visual Studio for Mac)](/mac/create-and-edit-configurations)
+- [Create and edit configurations (Visual Studio for Mac)](/visualstudio/mac/create-and-edit-configurations)

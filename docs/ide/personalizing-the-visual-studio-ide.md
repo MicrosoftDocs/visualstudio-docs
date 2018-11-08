@@ -13,7 +13,7 @@ ms.workload:
 # Personalize the Visual Studio IDE
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Customize the Visual Studio for Mac IDE](/mac/customizing-the-ide).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide).
 
 You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This topic briefly describes different personalizations and where you can find more information.
 
@@ -58,4 +58,4 @@ You can customize the **Tools** menu to launch external tools. For more informat
 
 - [Visual Studio IDE overview](../ide/visual-studio-ide.md)
 - [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-- [Customize the Visual Studio for Mac IDE](/mac/customizing-the-ide)
+- [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide)

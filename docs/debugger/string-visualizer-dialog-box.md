@@ -26,7 +26,7 @@ ms.workload:
 # View strings in a string visualizer in Visual Studio
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Data visualizations in Visual Studio for Mac](/mac/data-visualizations).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Data visualizations in Visual Studio for Mac](/visualstudio/mac/data-visualizations).
 
 While you are debugging in Visual Studio, you can view strings with the built-in string visualizer. The string visualizer shows strings that are too long for a data tip or debugger window. It can also help you identify malformed strings.
 
@@ -67,4 +67,4 @@ A well-formed HTML string appears as if rendered in a browser, as shown in the f
 ## See also
 
 - [Create custom visualizers (C#, Visual Basic)](../debugger/create-custom-visualizers-of-data.md)
-- [Data visualizations in Visual Studio for Mac](/mac/data-visualizations)
+- [Data visualizations in Visual Studio for Mac](/visualstudio/mac/data-visualizations)
