@@ -28,7 +28,7 @@
       href: install/create-an-offline-installation-of-visual-studio.md
     - name: Install required certificates for offline installation
       href: install/install-certificates-for-visual-studio-offline.md
-  - name: Set installation locations
+  - name: Select installation locations
     href: install/change-installation-locations.md
   - name: Troubleshoot installation issues
     href: install/troubleshooting-installation-issues.md
@@ -119,7 +119,9 @@
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a UWP app"
-    href: ide/quickstart-uwp-csharp.md
+    href: ide/quickstart-aspnet-core.md
+  - name: "C#: Create a UWP app - experimental"
+    href: ide/quickstart-aspnet-core-experimental.md
   - name: "C#: Create a console app"
     href: ide/quickstart-csharp-console.md
   - name: "Visual Basic: Create a console app"
