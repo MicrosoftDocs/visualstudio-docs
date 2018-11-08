@@ -105,4 +105,4 @@ To stop debugging:
 
    ![Click Stop in Visual Studio](media/using-vsmac-tools-unity-image7.png)
 
-To learn more about debugging in Visual Studio for Mac, see [Using the debugger](https://docs.microsoft.com/visualstudio/mac/debugging).
+To learn more about debugging in Visual Studio for Mac, see [Using the debugger](/visualstudio/mac/debugging).

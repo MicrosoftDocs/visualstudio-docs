@@ -15,7 +15,7 @@ Visual Studio for Mac provides support for Javascript and Typescript through syn
 
 ![typescript editor support](https://msdnshared.blob.core.windows.net/media/2018/03/TypeScript-editor.gif)
 
-For more information on writing JavaScript, see to the [Writing Javascript Code](https://docs.microsoft.com/scripting/javascript/writing-javascript-code) guides.
+For more information on writing JavaScript, see to the [Writing Javascript Code](/scripting/javascript/writing-javascript-code) guides.
 
 ## Adding a JavaScript file
 

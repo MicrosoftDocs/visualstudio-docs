@@ -33,11 +33,11 @@ This menu also includes the option to fold #regions and comments by default, dis
 
 To show or hide sections, use the disclosure widget next to the line number:
 
- ![Showing or Hiding sections in code](media/source-editor-image2.png)
+![Showing or Hiding sections in code](media/source-editor-image2.png)
 
-You can also switch between showing and hiding the folds by using the **View > Folding> Toggle Fold / Toggle All Folds** menu item:
+You can also switch between showing and hiding the folds by using the **View > Folding > Toggle Fold / Toggle All Folds** menu item:
 
- ![Folding Menu item](media/source-editor-image19.png)
+![Folding Menu item](media/source-editor-image19.png)
 
 This menu item can also be used to enable or disable code folding.
 
@@ -47,21 +47,21 @@ It may be necessary for you to view invisible characters in source code. It's a 
 
 Set options to show whitespace by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers**. Selecting this option allows setting _when_ invisible characters will be shown: Never, On Selection, or Always:
 
- ![Show invisible characters options](media/source-editor-image3.png)
+![Show invisible characters options](media/source-editor-image3.png)
 
 The option to show tabs, spaces, and line endings is also available:
 
- ![Show tabs and spaces](media/source-editor-image4.png)
+![Show tabs and spaces](media/source-editor-image4.png)
 
- Invisible characters are displayed as gray dots, as illustrated in the following image:
+Invisible characters are displayed as gray dots, as illustrated in the following image:
 
- ![whitespace displayed](media/source-editor-image22.png)
+![whitespace displayed](media/source-editor-image22.png)
 
 ## Ruler
 
 The column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated in the following image:
 
- ![Preferences dialog with "show column ruler" highlighted](media/source-editor-image5.png)
+![Preferences dialog with "show column ruler" highlighted](media/source-editor-image5.png)
 
  This displays as a vertical light gray line in the source editor.
 
@@ -74,3 +74,8 @@ With the "Highlight identifier references" option is enabled, you can select any
 The color of the highlight is also useful for denoting that something is being assigned or referenced. If something is assigned, it is highlighted in red; if it is referenced, it is highlighted in blue:
 
 ![example showing color of highlight](media/source-editor-image7.png)
+
+## See also
+
+- [Features of the code editor (Visual Studio on Windows)](/visualstudio/ide/writing-code-in-the-code-and-text-editor)
+- [Outlining (Visual Studio on Windows)](/visualstudio/ide/outlining)
