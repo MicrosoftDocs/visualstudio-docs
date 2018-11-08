@@ -25,7 +25,7 @@ Improve coverage, and avoid regressions with IntelliTest. IntelliTest dramatical
 ![IntelliTest in action](media/devtest-intellitest.png)
 
 * [Introduction to IntelliTest with Visual Studio](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20IntelliTest%20with%20Visual%20Studio%20Enterprise%202015.docx)
-* [IntelliTest – One test to rule them all](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx)
+* [IntelliTest – One test to rule them all](https://blogs.msdn.microsoft.com/devops/2015/07/05/intellitest-one-test-to-rule-them-all/)
 * [IntelliTest videos](https://channel9.msdn.com/Series/Test-Tools-in-Visual-Studio)
 * [Get started with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 * [IntelliTest reference manual](intellitest-manual/index.md)
@@ -74,7 +74,7 @@ Visual Studio is also extensible and opens the door for third-party unit testing
 ## See also
 
 * [Get started with unit testing](getting-started-with-unit-testing.md)
-* [Speed up unit test execution in Team Foundation Server](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/30/speeding-up-test-execution-in-tfs.aspx)
-* [Parallel and context sensitive unit test execution](https://blogs.msdn.microsoft.com/visualstudioalm/2016/02/08/parallel-and-context-sensitive-test-execution-with-visual-studio-2015-update-1/)
+* [Speed up unit test execution in Team Foundation Server](https://blogs.msdn.microsoft.com/devops/2015/07/30/speeding-up-unit-test-execution-in-tfs/)
+* [Parallel and context sensitive unit test execution](https://blogs.msdn.microsoft.com/devops/2016/02/08/parallel-and-context-sensitive-test-execution-with-visual-studio-2015-update-1/)
 * [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Unit%20Testing,%20Code%20Coverage%20and%20Code%20Clone%20Analysis%20with%20Visual%20Studio%202015.docx)
 * [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)

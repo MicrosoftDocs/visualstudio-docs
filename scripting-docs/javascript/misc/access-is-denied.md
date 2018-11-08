@@ -23,13 +23,13 @@ ms.author: "mikejo"
 # Access is denied
 A script tried to access data from a source other than the host of the current page. The Same Origin Policy followed by Internet Explorer and other browsers allows scripts to access data only from sources with the same scheme, host, and port of the URL of the current page.  
   
- For example, if the current page is https://employees.mycompany.com, you can't access data from the following URLs:  
+ For example, if the current page is `https://employees.mycompany.com`, you can't access data from the following URLs:  
   
--   http://data.contoso.com, because it is using HTTP instead of HTTPS.  
+-   `http://data.contoso.com`, because it is using HTTP instead of HTTPS.  
   
--   https://somedatasource.com, because it is a different domain.  
+-   `https://somedatasource.com`, because it is a different domain.  
   
--   https://employees.mycompany.com:8888, because it uses a different port.  
+-   `https://employees.mycompany.com:8888`, because it uses a different port.  
   
 ### To correct this error  
   

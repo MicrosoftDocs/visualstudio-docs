@@ -84,5 +84,5 @@ To make sure that you have access to every feature that you need in Visual Studi
 
 ## See also
 
-- [Install and use Visual Studio 2017 and Azure Services behind a firewall or proxy server](https://docs.microsoft.com/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server)
-- [Troubleshooting similar issues on Windows](https://docs.microsoft.com/visualstudio/install/troubleshooting-network-related-errors-in-visual-studio)
+- [Install and use Visual Studio 2017 and Azure Services behind a firewall or proxy server](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server)
+- [Troubleshoot similar issues on Windows](/visualstudio/install/troubleshooting-network-related-errors-in-visual-studio)

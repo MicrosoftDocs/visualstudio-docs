@@ -40,7 +40,7 @@ ms.workload:
   
      Visual Studio adds several folders and files to your project. For more information about these files, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).  
   
-     In the **Source** view of the Visual Web Developer designer, the ASP.NET page file appears. You can design the page by adding controls from the **Toolbox** and placing them on content placeholders. For more information, see [Source View, Web Page Designer](http://msdn.microsoft.com/en-us/5911396b-fe51-4150-9ff1-b085f812862f).  
+     In the **Source** view of the Visual Web Developer designer, the ASP.NET page file appears. You can design the page by adding controls from the **Toolbox** and placing them on content placeholders. For more information, see [Source View, Web Page Designer](/previous-versions/aspnet/ms178154\(v\=vs.100\)).  
   
 7.  If you want to handle control events, add code to the code file for the application page.  
   
