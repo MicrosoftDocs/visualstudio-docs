@@ -14,9 +14,6 @@ ms.author: ghogen
 ---
 # Adding Azure storage by using Visual Studio Connected Services
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 With Visual Studio, you can connect any of the following to Azure Storage by using the **Add Connected Services** dialog:
 
 - C# cloud service
@@ -28,6 +25,9 @@ With Visual Studio, you can connect any of the following to Azure Storage by usi
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
 After completion, the **Add Connected Services** dialog automatically displays documentation detailing the steps required to start working with blob storage, queues, and tables.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
 
 ## Connect to Azure Storage using the Connected Services dialog
 

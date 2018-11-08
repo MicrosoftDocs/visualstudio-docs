@@ -12,9 +12,6 @@ ms.workload:
 ---
 # Create your first extension: Hello World
 
-> [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extensibility walkthrough in Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac-walkthrough).
-
 This Hello World example walks you through creating your first extension for Visual Studio. This tutorial shows you how to add a new command to Visual Studio.
 
 In the process, you will learn how to:
@@ -27,6 +24,9 @@ In the process, you will learn how to:
 For this example, you'll use Visual C# to add a custom menu button named "Say Hello World!" that looks like this:
 
 ![Hello World command](media/hello-world-say-hello-world.png)
+
+> [!NOTE]
+> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extensibility walkthrough in Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac-walkthrough).
 
 ## Prerequisites
 

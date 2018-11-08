@@ -15,14 +15,14 @@ ms.workload:
 ---
 # Code style preferences
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Editor behavior in Visual Studio for Mac](/visualstudio/mac/editor-behavior).
-
 Code style preferences can be set for your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Options set in this window are applicable to the local machine only.
 
 Each item in the list shows a preview of the preference when selected:
 
 ![Code style options](media/code-style-quick-actions-dialog.png)
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Editor behavior in Visual Studio for Mac](/visualstudio/mac/editor-behavior).
 
 ## Preference and severity
 

@@ -23,12 +23,10 @@ ms.workload:
 ---
 # How to: Create and edit configurations
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create and edit configurations in Visual Studio for Mac](/visualstudio/mac/create-and-edit-configurations).
-
 You can create several build configurations for a solution. For example, you can configure a debug build that your testers can use to find and fix problems, and you can configure different kinds of builds that you can distribute to different customers.
 
-[!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create and edit configurations in Visual Studio for Mac](/visualstudio/mac/create-and-edit-configurations).
 
 ## Create build configurations
 
