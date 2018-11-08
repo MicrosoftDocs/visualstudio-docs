@@ -41,7 +41,7 @@ For more information about debugging UWP apps, see the blog posts on [debugging 
    
 1. Under **Installed App Packages**, non-running installed app packages appear under **Not running**, and running apps are under **Running**. Select the app you want to debug, or type its name in the search box.
    
-1. If necessary, change the code type to debug under **Debug this code type**, and select other options. Select **Do not launch, but debug my code when it starts** to start debugging when the app starts. This is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
+1. If necessary, change the code type to debug under **Debug this code type**, and select other options. Select **Do not launch, but debug my code when it starts** to start debugging when the app starts. Starting debugging when the app launches is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
 
 1. Select **Start**, or if the app is running, select **Attach**.
 
@@ -50,7 +50,7 @@ For more information about debugging UWP apps, see the blog posts on [debugging 
   
 ## <a name="remote"></a> Debug an installed app on a remote computer or device
 
-The first time Visual Studio starts debugging an installed UWP app on a Windows 10 device or remote post-Creator's update Windows 10 computer, it installs the remote debugging tools on the target device. 
+The first time Visual Studio debugs an installed UWP app on a Windows 10 device or remote post-Creator's update Windows 10 computer, it installs the remote debugging tools on the target device. 
 
 1. [Enable developer mode](/windows/uwp/get-started/enable-your-device-for-development) on the Visual Studio computer and the remote device or computer.
    
@@ -76,11 +76,11 @@ The first time Visual Studio starts debugging an installed UWP app on a Windows 
 
 1. In the **Debug Installed App Package** dialog, select or type the name of the app you want to debug under **Not running** or **Running**.
    
-1. If necessary, change the code type to debug under **Debug this code type**, and select other options. Select **Do not launch, but debug my code when it starts** to start debugging when the app starts. This is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
+1. If necessary, change the code type to debug under **Debug this code type**, and select other options. Select **Do not launch, but debug my code when it starts** to start debugging when the app starts. Starting debugging when the app launches is an effective way to debug control paths from [different launch methods](/windows/uwp/xbox-apps/automate-launching-uwp-apps), such as protocol activation with custom parameters.
    
 1. Select **Start**, or if the app is running, select **Attach**.
 
-When you start debugging an installed app package on a connected Xbox, HoloLens, or IoT device for the first time, Visual Studio installs the correct version of the remote debugger for your target device. This may take some time, and you will see a message **Starting remote debugger** while it is happening.
+When you start debugging an installed app package on a connected Xbox, HoloLens, or IoT device for the first time, Visual Studio installs the correct version of the remote debugger for your target device. Installing the remote debugger may take some time, and a message **Starting remote debugger** displays while it is happening.
 
 >[!NOTE]
 >Currently, an Xbox or HoloLens device restarts the app with the debugger attached if it was already running.
