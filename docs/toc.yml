@@ -119,9 +119,7 @@
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a UWP app"
-    href: ide/quickstart-aspnet-core.md
-  - name: "C#: Create a UWP app - experimental"
-    href: ide/quickstart-aspnet-core-experimental.md
+    href: ide/quickstart-uwp-csharp.md
   - name: "C#: Create a console app"
     href: ide/quickstart-csharp-console.md
   - name: "Visual Basic: Create a console app"
