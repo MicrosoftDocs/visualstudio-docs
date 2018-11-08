@@ -17,7 +17,7 @@ ms.workload:
 
 A Python *environment* is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
 
-In Visual Studio on Windows, you use the **Python Environments** window, as described in this article, to manage environments and select one as the default for new projects. More specific details are found in the following articles:
+In Visual Studio on Windows, you use the **Python Environments** window, as described in this article, to manage environments and select one as the default for new projects. Other aspects of environments are found in the following articles:
 
 - For any given project, you can [select a specific environment](selecting-a-python-environment-for-a-project.md) rather than use the default.
 
@@ -37,8 +37,7 @@ If you're new to Python in Visual Studio, the following articles also provide fr
 
 ## The Python Environments window
 
-> [!Note]
-> The screenshots shown in this section represent Visual Studio 15.8. You may see different UI depending on your version of Visual Studio.
+*(The screenshots shown in this section represent Visual Studio 15.8. You may see different UI depending on your version of Visual Studio.)*
 
 The environments that Visual Studio knows about are displayed in the **Python Environments** window. To open the window, use one of the following methods:
 
