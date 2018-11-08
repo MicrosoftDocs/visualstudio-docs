@@ -1,13 +1,13 @@
 ---
-title: "Set installation locations in Visual Studio 2017"
+title: "Select installation locations in Visual Studio 2017"
 description: "Learn how to reduce the installation footprint on your system drive by changing the location of the download cache, shared components, SDKs, and tools to different drives."
-ms.date: 10/24/2018
+ms.date: 11/07/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "change installation locations for Visual Studio"
-  - "set an installation location for Visual Studio files"
+  - "select an installation location for Visual Studio files"
   - "move installation files to different drives"
   - "use the D drive"
 author: TerryGLee
@@ -16,19 +16,22 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Set the installation locations in Visual Studio 2017
+# Select the installation locations in Visual Studio 2017
 
 **New in 15.7**: You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
 
-Here's how.
+   > [!NOTE]
+   > There are some tools and SDKs that have different rules on where they can be installed. Such tools and SDKs are installed on your system drive even if you choose another location.
+
+Ready to get started? Here's how.
 
 1. When you install Visual Studio, choose the **Installation locations** tab.
 
-   ![Visual Studio 2017 - Set the installation location](media/vs-installation-locations.png "Set the installation location")
+   ![Visual Studio 2017 - Select the installation location](media/vs-installation-locations.png "Select the installation location.")
 
 1. In the **Visual Studio IDE** section, accept the default. Visual Studio installs the core product and includes files that are specific to this version of Visual Studio.
 
-   ![Visual Studio IDE section of the Installation Locations tab](media/vs-installation-locations-ide.png "Accept the default for the Visual Studio IDE section of the Installations Location tab")
+   ![Visual Studio IDE section of the Installation Locations tab](media/vs-installation-locations-ide.png "Accept the default for the Visual Studio IDE section of the Installations Location tab.")
 
    > [!TIP]
    > If your system drive is a solid-state drive (SSD), we recommend that you accept the default location on your system drive. The reason? When you develop with Visual Studio, you read from and write to a lot of files, which increases the disk I/O activity. It's best to choose your fastest drive to handle the load.
@@ -51,9 +54,6 @@ Here's how.
 1. In the **Shared components, tools, and SDKs** section, specify the drive where you want to store the files that are shared by side-by-side Visual Studio installations. SDKs and tools are also stored in this directory.
 
    ![Shared Components, Tools, And SDKs section of the Installation Locations tab](media/vs-installation-locations-shared.png "Specify the location where you want to store shared components, tools, and SDKs.")
-
-   > [!NOTE]
-   > There are some tools and SDKs that have different rules on where they can be installed. Such tools and SDKs are installed on your system drive even if you choose another location.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
