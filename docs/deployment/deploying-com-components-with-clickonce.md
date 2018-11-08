@@ -26,7 +26,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] provides an easy and safe mechanism for deploying your .NET applications. However, if your applications use legacy COM components, you will need to take additional steps for deploying them. This topic describes how to deploy isolated COM components and reference native components (for example, from Visual Basic 6.0 or Visual C++).  
   
- For more information on deploying isolated COM components, see "Simplify App Deployment with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM" at [this location](https://web.archive.org/web/20050326005413/msdn.microsoft.com/msdnmag/issues/05/04/RegFreeCOM/default.aspx).
+ For more information on deploying isolated COM components, see [Simplify App Deployment with ClickOnce and Registration-Free COM](https://web.archive.org/web/20050326005413/msdn.microsoft.com/msdnmag/issues/05/04/RegFreeCOM/default.aspx).
   
 ## Registration-free COM  
  Registration-free COM is a new technology for deploying and activating isolated COM components. It works by putting all the component's type-library and registration information that is typically installed into the system registry into an XML file called a manifest, stored in the same folder as the application.  
