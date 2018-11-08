@@ -119,8 +119,8 @@ Editor tabs can be dragged out of the document area to create a floating editor 
 
 ![Two columns side by side with additional tabs](media/customizing-the-ide-sbs2.png)
 
+To revert to a single open editor, select **View > Editor Columns > 1 column**.
+
 ## See also
 
 - [Personalize the Visual Studio IDE (on Windows)](/visualstudio/ide/personalizing-the-visual-studio-ide)
-
-To revert to a single open editor, select **View > Editor Columns > 1 column**.
