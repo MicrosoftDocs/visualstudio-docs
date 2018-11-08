@@ -45,13 +45,13 @@ Visual Studio supports debugging XSLT style sheets. Using the debugger, you can 
 [Debugging XSLT](../xml-tools/debugging-xslt.md)
 Discusses how to debug style sheets using the Visual Studio debugger.
 
-[XML standards reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
+[XML standards reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
 Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.
 
 [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 Provides an explanation of the design-time tools for creating datasets.
 
-[XML web services in managed code](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)
+[XML web services in managed code](/previous-versions/visualstudio/visual-studio-2008/xy59yt45\(v\=vs.90\))
 Discusses how to create and deploy XML web services and how to access XML web services.
 
 ## See also

@@ -42,7 +42,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 |download.microsoft.com|Setup packages download location|
 |download.visualstudio.com|Setup packages download location|
 |dl.xamarin.com|Setup packages download location|
-|visualstudiogallery.msdn.microsoft.com|Visual Studio Extensions download location|
+|marketplace.visualstudio.com|Visual Studio Extensions download location|
 |visualstudio.microsoft.com|Documentation location|
 |docs.microsoft.com|Documentation location|
 |msdn.microsoft.com|Documentation location|
@@ -79,7 +79,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 |URL<br>resolution|go.microsoft.com<br><br>aka.ms|||Used to shorten URLs, which then resolve into longer URLs|
 |Start Page|vsstartpage.blob.core.windows.net||443|Used to display Developer News shown on the start page in Visual Studio|
 |Targeted<br> Notification <br>Service|targetednotifications.azurewebsites.net <br><br>www.research.net||80<br><br>443|Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios|
-|Extension <br>update check|visualstudiogallery.msdn.microsoft.com<br><br>&#42;.windows.net <br>&#42;.microsoftonline.com <br>&#42;.live.com||443|Used to provide notifications when an installed extension has an update available <br><br> Used as a sign-in location|
+|Extension <br>update check|marketplace.visualstudio.com<br><br>&#42;.windows.net <br>&#42;.microsoftonline.com <br>&#42;.live.com||443|Used to provide notifications when an installed extension has an update available <br><br> Used as a sign-in location|
 |AI Project <br>Integration|az861674.vo.msecnd.net||443<br>|Used to configure new projects to send usage data to your registered Application Insights account|
 |Code Lens|codelensprodscus1su0.app.<br>codelens.visualstudio.com||443|Used to provide information in the editor about when a file was last updated, the timeline of changes, the work items that changes are associated with, the authors, and more|
 |Experimental <br>feature enabling|visualstudio-devdiv-c2s.msedge.net||80|Used to activate experimental new features or feature changes|
@@ -100,7 +100,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 |Automatically collected <br>reliability statistics <br>and other <br>Customer Experience <br>Improvement Programs (CEIP)<br> for Azure SDK and <br>for SQL Tools <br><br>|vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com|https|443|Used to send reliability statistics (crash/hang data) from the user to Microsoft. Actual crash/hang dumps will still be uploaded if Windows Error Reporting is enabled; only statistical information will be suppressed; <br>Used to reveal anonymous usage patterns for the Azure Tools SDK extension to Visual Studio, and for usage patterns for the SQL tooling to Visual Studio|
 |Visual Studio <br> Customer Experience <br>Improvement Program (CEIP) <br><br>PerfWatson.exe|vortex.data.microsoft.com<br>dc.services.visualstudio.com<br>visualstudio-devdiv-c2s.msedge.net<br>az667904.vo.msecnd.net <br>scus-breeziest-in.cloudapp.net<br>|https|443|Used to collect anonymous usage patterns and error logs <br><br>Used to track UI freeze issues|
 |Creation and<br>Management of <br>Azure resources|management.azure.com <br>management.core.windows.net|https|443|Used for creating Azure Websites or other resources to support the publishing of web applications, Azure Functions, or WebJobs|
-|Updated web publish tooling <br>checks and extension <br>recommendations|marketplace.visualstudio.com  <br> visualstudiogallery.msdn.microsoft.com|https|443|Used for checking for the availability of updated publish tooling. If disabled, a potential recommended extension for web publishing may not be shown|
+|Updated web publish tooling <br>checks and extension <br>recommendations|marketplace.visualstudio.com  <br> marketplace.visualstudio.com|https|443|Used for checking for the availability of updated publish tooling. If disabled, a potential recommended extension for web publishing may not be shown|
 |Updated Azure Resource <br>Creation Endpoint Information|\*.blob.core.windows.net|https|443|Used to update the endpoints used for the creation of Azure Resources for certain Azure Services. If disabled, the last downloaded or built in endpoint locations are used instead|
 |Remote debugging and <br>Remote profiling of <br>Azure Websites|&#42;.cloudapp.net <br> &#42;.azurewebsites.net||4022|Used for attaching the remote debugger to Azure Websites. If disabled, attaching the remote debugger to Azure Websites will not work|
 |Active Directory <br>Graph|graph.windows.net|https|443|Used to provision  new Azure Active Directory applications. Also used by the Office 365 MSGraph- connected service provider|
